@@ -1,0 +1,59 @@
+{
+  "id_bat": 2434,
+  "libelle": "3b rue Cassini",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 456,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1903-1906",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "3b rue Cassini",
+    "numero": "3b",
+    "voie": "rue Cassini"
+  },
+  "arrondissement": 14,
+  "coordonnees": {
+    "latitude": "48.836835",
+    "longitude": "2.337727"
+  },
+  "id_pss": 30861,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": "image_Cassini-3b_14_§1",
+  "terme_jantzen_bat": [
+    "brique",
+    "façade",
+    "verrière"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_Cassini-3b_14_§1",
+      "IndexJantzen": [
+        "brique",
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_Cassini-3b_14_§2",
+      "IndexJantzen": [
+        "brique",
+        "façade",
+        "verrière"
+      ]
+    },
+    {
+      "id_pic": "image_Cassini-3b_14_§3",
+      "IndexJantzen": [
+        "brique",
+        "façade",
+        "verrière"
+      ]
+    }
+  ]
+}

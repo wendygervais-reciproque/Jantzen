@@ -1,0 +1,76 @@
+{
+  "id_bat": 581,
+  "libelle": "118 rue Réaumur",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 120,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1900",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "118 rue Réaumur",
+    "numero": "118",
+    "voie": "rue Réaumur"
+  },
+  "arrondissement": 2,
+  "coordonnees": {
+    "latitude": "48.867977",
+    "longitude": "2.344961"
+  },
+  "id_pss": 4605,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 12676,
+  "terme_jantzen_bat": [
+    "colonne",
+    "décor",
+    "fenetre",
+    "métal",
+    "verrière"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_12676",
+      "IndexJantzen": [
+        "fenetre",
+        "métal",
+        "verrière"
+      ]
+    },
+    {
+      "id_pic": "image_12677",
+      "IndexJantzen": [
+        "colonne",
+        "décor",
+        "fenetre",
+        "verrière"
+      ]
+    },
+    {
+      "id_pic": "image_12678",
+      "IndexJantzen": [
+        "colonne"
+      ]
+    },
+    {
+      "id_pic": "image_12679",
+      "IndexJantzen": [
+        "colonne",
+        "décor",
+        "fenetre",
+        "métal"
+      ]
+    },
+    {
+      "id_pic": "image_12680",
+      "IndexJantzen": [
+        "colonne"
+      ]
+    }
+  ]
+}

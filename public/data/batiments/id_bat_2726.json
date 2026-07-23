@@ -1,0 +1,79 @@
+{
+  "id_bat": 2726,
+  "libelle": "46 rue Custine",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 653,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1906",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "46 rue Custine",
+    "numero": "46",
+    "voie": "rue Custine"
+  },
+  "arrondissement": 18,
+  "coordonnees": {
+    "latitude": "48.889233",
+    "longitude": "2.345373"
+  },
+  "id_pss": 19895,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": "image_Custine-46_18_§1",
+  "terme_jantzen_bat": [
+    "sculpture",
+    "console",
+    "balcon",
+    "porte-fer",
+    "fenetre",
+    "garde-corps"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_Custine-46_18_§1",
+      "IndexJantzen": [
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_Custine-46_18_§2",
+      "IndexJantzen": [
+        "balcon",
+        "garde-corps"
+      ]
+    },
+    {
+      "id_pic": "image_Custine-46_18_§3",
+      "IndexJantzen": [
+        "fenetre",
+        "porte-fer"
+      ]
+    },
+    {
+      "id_pic": "image_Custine-46_18_§4",
+      "IndexJantzen": [
+        "porte-fer"
+      ]
+    },
+    {
+      "id_pic": "image_Custine-46_18_§5",
+      "IndexJantzen": [
+        "fenetre",
+        "porte-fer"
+      ]
+    },
+    {
+      "id_pic": "image_Custine-46_18_§6",
+      "IndexJantzen": [
+        "console",
+        "sculpture"
+      ]
+    }
+  ]
+}

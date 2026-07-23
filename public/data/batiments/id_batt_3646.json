@@ -1,0 +1,76 @@
+{
+  "id_bat": 3646,
+  "libelle": "8 rue José-Maria-de-Heredia",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 287,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1910",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "8 rue José-Maria-de-Heredia",
+    "numero": "8",
+    "voie": "rue José-Maria-de-Heredia"
+  },
+  "arrondissement": 7,
+  "coordonnees": {
+    "latitude": "48.848011",
+    "longitude": "2.307329"
+  },
+  "id_pss": 30878,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 7345,
+  "terme_jantzen_bat": [
+    "loggia",
+    "lucarne",
+    "façade",
+    "brique",
+    "pignon"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_7345",
+      "IndexJantzen": [
+        "brique",
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_7346",
+      "IndexJantzen": [
+        "brique",
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_7347",
+      "IndexJantzen": [
+        "brique",
+        "lucarne",
+        "pignon"
+      ]
+    },
+    {
+      "id_pic": "image_7348",
+      "IndexJantzen": [
+        "brique",
+        "loggia",
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_7349",
+      "IndexJantzen": [
+        "brique",
+        "lucarne",
+        "pignon"
+      ]
+    }
+  ]
+}

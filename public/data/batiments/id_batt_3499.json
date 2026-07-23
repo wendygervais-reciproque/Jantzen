@@ -1,0 +1,46 @@
+{
+  "id_bat": 3499,
+  "libelle": "74 avenue des Champs-Élysées",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "74 avenue des Champs-Élysées",
+    "numero": "74",
+    "voie": "avenue des Champs-Élysées"
+  },
+  "arrondissement": 8,
+  "coordonnees": {
+    "latitude": "48.871092",
+    "longitude": "2.304626"
+  },
+  "id_pss": 10155,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 2272,
+  "terme_jantzen_bat": [
+    "garde-corps",
+    "lucarne",
+    "balcon",
+    "façade"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_2272",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_2273",
+      "IndexJantzen": [
+        "balcon",
+        "garde-corps",
+        "lucarne"
+      ]
+    }
+  ]
+}

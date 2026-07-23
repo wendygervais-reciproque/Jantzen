@@ -1,0 +1,118 @@
+{
+  "id_bat": 3581,
+  "libelle": "8 avenue Alphand",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 542,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1904",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "8 avenue Alphand",
+    "numero": "8",
+    "voie": "avenue Alphand"
+  },
+  "arrondissement": 16,
+  "coordonnees": {
+    "latitude": "48.875101",
+    "longitude": "2.285068"
+  },
+  "id_pss": 38205,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": "image_Alphand-av-8_16_§10",
+  "terme_jantzen_bat": [
+    "sculpture",
+    "console",
+    "cariatide",
+    "porte-fer",
+    "porte-fer-hall",
+    "clé",
+    "fenetre"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_Alphand-av-8_16_§10",
+      "IndexJantzen": [
+        "cariatide",
+        "console",
+        "fenetre",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_Alphand-av-8_16_§11",
+      "IndexJantzen": [
+        "clé",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_Alphand-av-8_16_§12",
+      "IndexJantzen": [
+        "cariatide",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_Alphand-av-8_16_§13",
+      "IndexJantzen": [
+        "cariatide",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_Alphand-av-8_16_§14",
+      "IndexJantzen": [
+        "console",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_Alphand-av-8_16_§7",
+      "IndexJantzen": [
+        "cariatide",
+        "fenetre",
+        "porte-fer-hall"
+      ]
+    },
+    {
+      "id_pic": "image_Alphand-av-8_16_§7b",
+      "IndexJantzen": [
+        "cariatide",
+        "fenetre",
+        "porte-fer"
+      ]
+    },
+    {
+      "id_pic": "image_Alphand-av-8_16_§8",
+      "IndexJantzen": [
+        "porte-fer-hall",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_Alphand-av-8_16_§9",
+      "IndexJantzen": [
+        "cariatide",
+        "console",
+        "fenetre",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_Alphand-Av-8_16_-A_DxO",
+      "IndexJantzen": [
+        "cariatide",
+        "fenetre",
+        "porte-fer-hall",
+        "sculpture"
+      ]
+    }
+  ]
+}

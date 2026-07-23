@@ -1,0 +1,51 @@
+{
+  "id_bat": 1223,
+  "libelle": "17 rue des Bernardins",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 365,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1890",
+  "periode": [
+    "1870-1894"
+  ],
+  "adresse": {
+    "affichage": "17 rue des Bernardins",
+    "numero": "17",
+    "voie": "rue des Bernardins"
+  },
+  "arrondissement": 5,
+  "coordonnees": {
+    "latitude": "48.850077",
+    "longitude": "2.35074"
+  },
+  "id_pss": 24429,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 1185,
+  "terme_jantzen_bat": [
+    "fenetre",
+    "garde-corps",
+    "balcon"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_1185",
+      "IndexJantzen": [
+        "balcon",
+        "fenetre",
+        "garde-corps"
+      ]
+    },
+    {
+      "id_pic": "image_1186",
+      "IndexJantzen": [
+        "balcon",
+        "garde-corps"
+      ]
+    }
+  ]
+}

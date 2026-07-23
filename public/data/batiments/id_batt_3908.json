@@ -1,0 +1,131 @@
+{
+  "id_bat": 3908,
+  "libelle": "95 rue de Vaugirard",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 297,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1891",
+  "periode": [
+    "1870-1894"
+  ],
+  "adresse": {
+    "affichage": "95 rue de Vaugirard",
+    "numero": "95",
+    "voie": "rue de Vaugirard"
+  },
+  "arrondissement": 6,
+  "coordonnees": {
+    "latitude": "48.845724",
+    "longitude": "2.322564"
+  },
+  "id_pss": 36716,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 15931,
+  "terme_jantzen_bat": [
+    "oriel",
+    "céramique",
+    "façade",
+    "brique",
+    "fenetre",
+    "porte-bois",
+    "marquise"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_15931",
+      "IndexJantzen": [
+        "brique",
+        "céramique",
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_15932",
+      "IndexJantzen": [
+        "céramique",
+        "marquise",
+        "porte-bois"
+      ]
+    },
+    {
+      "id_pic": "image_15933",
+      "IndexJantzen": [
+        "céramique",
+        "porte-bois"
+      ]
+    },
+    {
+      "id_pic": "image_15934",
+      "IndexJantzen": [
+        "marquise",
+        "porte-bois"
+      ]
+    },
+    {
+      "id_pic": "image_15935",
+      "IndexJantzen": [
+        "brique",
+        "céramique",
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_15936",
+      "IndexJantzen": [
+        "brique",
+        "céramique",
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_15937",
+      "IndexJantzen": [
+        "brique",
+        "céramique",
+        "oriel"
+      ]
+    },
+    {
+      "id_pic": "image_15938",
+      "IndexJantzen": [
+        "céramique",
+        "fenetre",
+        "marquise"
+      ]
+    },
+    {
+      "id_pic": "image_15939",
+      "IndexJantzen": [
+        "céramique",
+        "oriel"
+      ]
+    },
+    {
+      "id_pic": "image_15940",
+      "IndexJantzen": [
+        "céramique",
+        "marquise"
+      ]
+    },
+    {
+      "id_pic": "image_15941",
+      "IndexJantzen": [
+        "céramique",
+        "marquise",
+        "oriel"
+      ]
+    },
+    {
+      "id_pic": "image_15942",
+      "IndexJantzen": [
+        "céramique",
+        "fenetre"
+      ]
+    }
+  ]
+}

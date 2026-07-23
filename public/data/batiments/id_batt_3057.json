@@ -1,0 +1,65 @@
+{
+  "id_bat": 3057,
+  "libelle": "58 rue de Châteaudun",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 150,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": null,
+  "periode": [
+    "1870-1894"
+  ],
+  "adresse": {
+    "affichage": "58 rue de Châteaudun",
+    "numero": "58",
+    "voie": "rue de Châteaudun"
+  },
+  "arrondissement": 9,
+  "coordonnees": {
+    "latitude": "48.876427",
+    "longitude": "2.332958"
+  },
+  "id_pss": 77864,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 2471,
+  "terme_jantzen_bat": [
+    "garde-corps",
+    "clé",
+    "sculpture",
+    "fenetre"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_2471",
+      "IndexJantzen": [
+        "fenetre",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_2472",
+      "IndexJantzen": [
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_2473",
+      "IndexJantzen": [
+        "fenetre",
+        "garde-corps"
+      ]
+    },
+    {
+      "id_pic": "image_2474",
+      "IndexJantzen": [
+        "clé",
+        "fenetre",
+        "sculpture"
+      ]
+    }
+  ]
+}

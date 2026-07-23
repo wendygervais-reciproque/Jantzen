@@ -1,0 +1,109 @@
+{
+  "id_bat": 261,
+  "libelle": "1 rue René-Panhard",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 560,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1914",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "1 rue René-Panhard",
+    "numero": "1",
+    "voie": "rue René-Panhard"
+  },
+  "arrondissement": 13,
+  "coordonnees": {
+    "latitude": "48.838717",
+    "longitude": "2.359325"
+  },
+  "id_pss": 45494,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 12872,
+  "terme_jantzen_bat": [
+    "porte",
+    "lucarne",
+    "façade",
+    "fenetre",
+    "sculpture",
+    "décor",
+    "porte-fer-hall",
+    "porte-fer"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_12872",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_12873",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_12874",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_12875",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_12876",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_12877",
+      "IndexJantzen": [
+        "décor",
+        "fenetre",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_12878",
+      "IndexJantzen": [
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_12879",
+      "IndexJantzen": [
+        "porte"
+      ]
+    },
+    {
+      "id_pic": "image_12880",
+      "IndexJantzen": [
+        "porte-fer"
+      ]
+    },
+    {
+      "id_pic": "image_12881",
+      "IndexJantzen": [
+        "porte-fer-hall"
+      ]
+    },
+    {
+      "id_pic": "image_12882",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    }
+  ]
+}

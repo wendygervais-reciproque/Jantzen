@@ -1,0 +1,101 @@
+{
+  "id_bat": 40,
+  "libelle": "Pavillon Turgot",
+  "ensemble": "Palais du Louvre",
+  "personnes": null,
+  "dateConstruction": "1835-1880",
+  "periode": [
+    "1850-1869"
+  ],
+  "adresse": null,
+  "arrondissement": 1,
+  "coordonnees": {
+    "latitude": "48.8618674613525",
+    "longitude": "2.3352185510110437"
+  },
+  "id_pss": null,
+  "id_wikidata": "Q109592258",
+  "WPfr": null,
+  "image_ref": 8623,
+  "terme_jantzen_bat": [
+    "lucarne",
+    "cariatide",
+    "façade",
+    "colonne",
+    "toiture",
+    "sculpture",
+    "fenetre",
+    "fronton"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_8623",
+      "IndexJantzen": [
+        "colonne",
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_8624",
+      "IndexJantzen": [
+        "cariatide",
+        "fronton",
+        "lucarne",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_8625",
+      "IndexJantzen": [
+        "cariatide",
+        "fronton",
+        "lucarne",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_8626",
+      "IndexJantzen": [
+        "cariatide",
+        "fronton",
+        "lucarne",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_8627",
+      "IndexJantzen": [
+        "fronton",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_8628",
+      "IndexJantzen": [
+        "cariatide",
+        "fenetre",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_8644",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_8645",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_8646",
+      "IndexJantzen": [
+        "fronton",
+        "lucarne",
+        "toiture"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "id_bat": 174,
+  "libelle": "1 place Alphonse-Deville",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 611,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1911",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "1 place Alphonse-Deville",
+    "numero": "1",
+    "voie": "place Alphonse-Deville"
+  },
+  "arrondissement": 6,
+  "coordonnees": {
+    "latitude": "48.850568",
+    "longitude": "2.327566"
+  },
+  "id_pss": 28712,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": "image_Alphonse-Deville-Pl-1_6_§1",
+  "terme_jantzen_bat": [
+    "fenetre-d'angle",
+    "colonne",
+    "dome",
+    "façade-d'angle",
+    "lucarne",
+    "lucarne-d'angle",
+    "oeil-de-boeuf",
+    "toiture"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_Alphonse-Deville-Pl-1_6_§1",
+      "IndexJantzen": [
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_Alphonse-Deville-Pl-1_6_§10",
+      "IndexJantzen": [
+        "dome",
+        "lucarne-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_Alphonse-Deville-Pl-1_6_§11",
+      "IndexJantzen": [
+        "dome",
+        "fenetre-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_Alphonse-Deville-Pl-1_6_§13",
+      "IndexJantzen": [
+        "dome",
+        "lucarne-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_Alphonse-Deville-Pl-1_6_§14",
+      "IndexJantzen": [
+        "dome",
+        "lucarne-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_Alphonse-Deville-Pl-1_6_§15",
+      "IndexJantzen": [
+        "dome",
+        "lucarne-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_Alphonse-Deville-Pl-1_6_§2",
+      "IndexJantzen": [
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_Alphonse-Deville-Pl-1_6_§4",
+      "IndexJantzen": [
+        "lucarne",
+        "toiture"
+      ]
+    },
+    {
+      "id_pic": "image_Alphonse-Deville-Pl-1_6_§5",
+      "IndexJantzen": [
+        "dome",
+        "lucarne",
+        "toiture"
+      ]
+    },
+    {
+      "id_pic": "image_Alphonse-Deville-Pl-1_6_§6",
+      "IndexJantzen": [
+        "dome",
+        "lucarne",
+        "oeil-de-boeuf"
+      ]
+    },
+    {
+      "id_pic": "image_Alphonse-Deville-Pl-1_6_§7",
+      "IndexJantzen": [
+        "dome",
+        "lucarne",
+        "oeil-de-boeuf"
+      ]
+    },
+    {
+      "id_pic": "image_Alphonse-Deville-Pl-1_6_§8",
+      "IndexJantzen": [
+        "dome",
+        "façade-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_Alphonse-Deville-Pl-1_6_§9",
+      "IndexJantzen": [
+        "colonne",
+        "dome",
+        "façade-d'angle"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "id_bat": 3563,
+  "libelle": "79 avenue de la République",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "79 avenue de la République",
+    "numero": "79",
+    "voie": "avenue de la République"
+  },
+  "arrondissement": 11,
+  "coordonnees": {
+    "latitude": "48.864299",
+    "longitude": "2.38042"
+  },
+  "id_pss": 95561,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": "image_Republique-79_11_§1",
+  "terme_jantzen_bat": [
+    "sculpture",
+    "lucarne",
+    "fenetre",
+    "fronton"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_Republique-79_11_§1",
+      "IndexJantzen": [
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_Republique-79_11_§2",
+      "IndexJantzen": [
+        "fronton",
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_Republique-79_11_§3",
+      "IndexJantzen": [
+        "fenetre",
+        "sculpture"
+      ]
+    }
+  ]
+}

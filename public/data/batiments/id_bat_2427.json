@@ -1,0 +1,80 @@
+{
+  "id_bat": 2427,
+  "libelle": "39 rue Réaumur",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 290,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1900",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "39 rue Réaumur",
+    "numero": "39",
+    "voie": "rue Réaumur"
+  },
+  "arrondissement": 3,
+  "coordonnees": {
+    "latitude": "48.865717",
+    "longitude": "2.354438"
+  },
+  "id_pss": 2739,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": "image_Reaumur-39_3_§1",
+  "terme_jantzen_bat": [
+    "sculpture",
+    "console",
+    "décor",
+    "loggia",
+    "colonne",
+    "façade",
+    "atlante"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_Reaumur-39_3_§1",
+      "IndexJantzen": [
+        "décor",
+        "façade",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_Reaumur-39_3_§2",
+      "IndexJantzen": [
+        "décor",
+        "loggia",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_Reaumur-39_3_§5",
+      "IndexJantzen": [
+        "atlante",
+        "colonne",
+        "console",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_Reaumur-39_3_§6",
+      "IndexJantzen": [
+        "atlante",
+        "console",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_Reaumur-39_3_§7",
+      "IndexJantzen": [
+        "atlante",
+        "sculpture"
+      ]
+    }
+  ]
+}

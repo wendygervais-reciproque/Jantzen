@@ -1,0 +1,45 @@
+{
+  "id_bat": 67,
+  "libelle": "Église Saint-Jean-Bosco",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": [
+    "1915-1944"
+  ],
+  "adresse": null,
+  "arrondissement": 20,
+  "coordonnees": {
+    "latitude": "48.85522",
+    "longitude": "2.39796"
+  },
+  "id_pss": 525,
+  "id_wikidata": "Q1238820",
+  "WPfr": "Église Saint-Jean-Bosco de Paris",
+  "image_ref": "image_St-Jean-Dumas-Eglise_20_§1",
+  "terme_jantzen_bat": [
+    "tour",
+    "façade"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_St-Jean-Dumas-Eglise_20_§1",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_St-Jean-Dumas-Eglise_20_§2",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_St-Jean-Dumas-Eglise_20_§3",
+      "IndexJantzen": [
+        "façade",
+        "tour"
+      ]
+    }
+  ]
+}

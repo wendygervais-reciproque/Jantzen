@@ -1,0 +1,63 @@
+{
+  "id_bat": 2501,
+  "libelle": "4 rue Denis-Poisson",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 655,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1883",
+  "periode": [
+    "1870-1894"
+  ],
+  "adresse": {
+    "affichage": "4 rue Denis-Poisson",
+    "numero": "4",
+    "voie": "rue Denis-Poisson"
+  },
+  "arrondissement": 17,
+  "coordonnees": {
+    "latitude": "48.876797",
+    "longitude": "2.2876"
+  },
+  "id_pss": 77518,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 3689,
+  "terme_jantzen_bat": [
+    "porte-fer",
+    "porte-fer-hall",
+    "colonne",
+    "fenetre"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_3689",
+      "IndexJantzen": [
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_3690",
+      "IndexJantzen": [
+        "colonne",
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_3691",
+      "IndexJantzen": [
+        "colonne",
+        "porte-fer"
+      ]
+    },
+    {
+      "id_pic": "image_3692",
+      "IndexJantzen": [
+        "porte-fer-hall"
+      ]
+    }
+  ]
+}

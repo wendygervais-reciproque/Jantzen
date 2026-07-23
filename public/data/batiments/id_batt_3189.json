@@ -1,0 +1,114 @@
+{
+  "id_bat": 3189,
+  "libelle": "60 avenue Kléber",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 124,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1912",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "60 avenue Kléber",
+    "numero": "60",
+    "voie": "avenue Kléber"
+  },
+  "arrondissement": 16,
+  "coordonnees": {
+    "latitude": "48.868452",
+    "longitude": "2.290887"
+  },
+  "id_pss": 17489,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 7515,
+  "terme_jantzen_bat": [
+    "façade-d'angle",
+    "façade",
+    "brique",
+    "fenetre",
+    "décor",
+    "sculpture",
+    "balcon",
+    "console"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_7515",
+      "IndexJantzen": [
+        "brique",
+        "façade-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_7516",
+      "IndexJantzen": [
+        "brique",
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_7517",
+      "IndexJantzen": [
+        "brique",
+        "décor",
+        "fenetre",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_7518",
+      "IndexJantzen": [
+        "balcon",
+        "brique",
+        "décor",
+        "fenetre",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_7519",
+      "IndexJantzen": [
+        "brique",
+        "fenetre",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_7520",
+      "IndexJantzen": [
+        "brique",
+        "décor",
+        "fenetre",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_7521",
+      "IndexJantzen": [
+        "brique",
+        "fenetre",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_7522",
+      "IndexJantzen": [
+        "brique",
+        "décor",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_7523",
+      "IndexJantzen": [
+        "console",
+        "sculpture"
+      ]
+    }
+  ]
+}

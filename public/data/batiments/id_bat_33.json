@@ -1,0 +1,82 @@
+{
+  "id_bat": 33,
+  "libelle": "Pavillon de Marsan",
+  "ensemble": "Palais du Louvre",
+  "personnes": null,
+  "dateConstruction": "1853-1880",
+  "periode": [
+    "1850-1869"
+  ],
+  "adresse": null,
+  "arrondissement": 1,
+  "coordonnees": {
+    "latitude": "48.863408004716874",
+    "longitude": "2.3323359663409664"
+  },
+  "id_pss": 92411,
+  "id_wikidata": "Q3373075",
+  "WPfr": "Pavillon de Marsan",
+  "image_ref": "image_Louvre-1-Rr_P-Marsan-1",
+  "terme_jantzen_bat": [
+    "sculpture",
+    "console",
+    "lucarne",
+    "façade",
+    "fronton",
+    "oeil-de-boeuf"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_Louvre-1-Rr_P-Marsan-1",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_Louvre-1-Rr_P-Marsan-2",
+      "IndexJantzen": [
+        "fronton",
+        "lucarne",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_Louvre-1-Rr_P-Marsan-3",
+      "IndexJantzen": [
+        "oeil-de-boeuf",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_Louvre-1-Rr_P-Marsan-4",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_Louvre-1-Rr_P-Marsan-5",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_Louvre-1-Rr_P-Marsan-6",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_Louvre-1-Rr_P-Marsan-7",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_Louvre-1-Rr_P-Marsan-8",
+      "IndexJantzen": [
+        "console",
+        "sculpture"
+      ]
+    }
+  ]
+}

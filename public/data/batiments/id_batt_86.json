@@ -1,0 +1,662 @@
+{
+  "id_bat": 86,
+  "libelle": "Grand Palais",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 168,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1897-1900",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": null,
+  "arrondissement": 8,
+  "coordonnees": {
+    "latitude": "48.86611",
+    "longitude": "2.31250"
+  },
+  "id_pss": 2641,
+  "id_wikidata": "Q457318",
+  "WPfr": "Grand Palais (Paris)",
+  "image_ref": 5455,
+  "terme_jantzen_bat": [
+    "porte",
+    "façade-d'angle",
+    "porte-fer",
+    "balcon",
+    "façade",
+    "panoramique",
+    "colonne",
+    "toiture",
+    "dome",
+    "sculpture",
+    "fenetre",
+    "pont",
+    "métal",
+    "voie",
+    "tourelle",
+    "intérieur",
+    "verrière",
+    "mosaique"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_5455",
+      "IndexJantzen": [
+        "toiture",
+        "verrière"
+      ]
+    },
+    {
+      "id_pic": "image_5456",
+      "IndexJantzen": [
+        "intérieur",
+        "métal",
+        "verrière"
+      ]
+    },
+    {
+      "id_pic": "image_5457",
+      "IndexJantzen": [
+        "intérieur",
+        "métal",
+        "verrière"
+      ]
+    },
+    {
+      "id_pic": "image_5458",
+      "IndexJantzen": [
+        "intérieur",
+        "métal",
+        "verrière"
+      ]
+    },
+    {
+      "id_pic": "image_5459",
+      "IndexJantzen": [
+        "intérieur",
+        "métal",
+        "verrière"
+      ]
+    },
+    {
+      "id_pic": "image_5460",
+      "IndexJantzen": [
+        "intérieur",
+        "métal",
+        "verrière"
+      ]
+    },
+    {
+      "id_pic": "image_5461",
+      "IndexJantzen": [
+        "colonne",
+        "intérieur"
+      ]
+    },
+    {
+      "id_pic": "image_5462",
+      "IndexJantzen": [
+        "intérieur"
+      ]
+    },
+    {
+      "id_pic": "image_5463",
+      "IndexJantzen": [
+        "intérieur"
+      ]
+    },
+    {
+      "id_pic": "image_5464",
+      "IndexJantzen": [
+        "colonne",
+        "intérieur"
+      ]
+    },
+    {
+      "id_pic": "image_5465",
+      "IndexJantzen": [
+        "colonne",
+        "intérieur"
+      ]
+    },
+    {
+      "id_pic": "image_5466",
+      "IndexJantzen": [
+        "colonne",
+        "intérieur"
+      ]
+    },
+    {
+      "id_pic": "image_5467",
+      "IndexJantzen": [
+        "dome",
+        "verrière"
+      ]
+    },
+    {
+      "id_pic": "image_5468",
+      "IndexJantzen": [
+        "dome",
+        "verrière"
+      ]
+    },
+    {
+      "id_pic": "image_5469",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_5470",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_5471",
+      "IndexJantzen": [
+        "façade",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_5472",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_5473",
+      "IndexJantzen": [
+        "tourelle",
+        "verrière"
+      ]
+    },
+    {
+      "id_pic": "image_5474",
+      "IndexJantzen": [
+        "métal",
+        "tourelle"
+      ]
+    },
+    {
+      "id_pic": "image_5475",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_5476",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_5477",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_5478",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_5479",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_5480",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_5481",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_5482",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_5483",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_5484",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_5485",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_5486",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_5487",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_5488",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_5489",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_5490",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_5491",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_5492",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_5493",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_5494",
+      "IndexJantzen": [
+        "façade",
+        "panoramique"
+      ]
+    },
+    {
+      "id_pic": "image_5495",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_5496",
+      "IndexJantzen": [
+        "façade",
+        "métal",
+        "toiture"
+      ]
+    },
+    {
+      "id_pic": "image_5497",
+      "IndexJantzen": [
+        "colonne",
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_5498",
+      "IndexJantzen": [
+        "fenetre",
+        "porte-fer"
+      ]
+    },
+    {
+      "id_pic": "image_5499",
+      "IndexJantzen": [
+        "fenetre",
+        "porte-fer"
+      ]
+    },
+    {
+      "id_pic": "image_5500",
+      "IndexJantzen": [
+        "porte-fer"
+      ]
+    },
+    {
+      "id_pic": "image_5501",
+      "IndexJantzen": [
+        "porte-fer"
+      ]
+    },
+    {
+      "id_pic": "image_5502",
+      "IndexJantzen": [
+        "porte-fer"
+      ]
+    },
+    {
+      "id_pic": "image_5503",
+      "IndexJantzen": [
+        "balcon",
+        "fenetre",
+        "mosaique"
+      ]
+    },
+    {
+      "id_pic": "image_5504",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_5505",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_5506",
+      "IndexJantzen": [
+        "façade",
+        "verrière"
+      ]
+    },
+    {
+      "id_pic": "image_5507",
+      "IndexJantzen": [
+        "sculpture",
+        "verrière"
+      ]
+    },
+    {
+      "id_pic": "image_5508",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_5509",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_5510",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_5511",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_5512",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_5513",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_5514",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_5515",
+      "IndexJantzen": [
+        "voie"
+      ]
+    },
+    {
+      "id_pic": "image_5516",
+      "IndexJantzen": [
+        "porte-fer"
+      ]
+    },
+    {
+      "id_pic": "image_5517",
+      "IndexJantzen": [
+        "porte-fer"
+      ]
+    },
+    {
+      "id_pic": "image_5518",
+      "IndexJantzen": [
+        "porte-fer"
+      ]
+    },
+    {
+      "id_pic": "image_5519",
+      "IndexJantzen": [
+        "porte-fer"
+      ]
+    },
+    {
+      "id_pic": "image_5520",
+      "IndexJantzen": [
+        "porte-fer"
+      ]
+    },
+    {
+      "id_pic": "image_5521",
+      "IndexJantzen": [
+        "porte-fer"
+      ]
+    },
+    {
+      "id_pic": "image_5522",
+      "IndexJantzen": [
+        "porte"
+      ]
+    },
+    {
+      "id_pic": "image_5523",
+      "IndexJantzen": [
+        "porte-fer"
+      ]
+    },
+    {
+      "id_pic": "image_5524",
+      "IndexJantzen": [
+        "façade",
+        "pont"
+      ]
+    },
+    {
+      "id_pic": "image_5525",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_5526",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_5527",
+      "IndexJantzen": [
+        "dome",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_5528",
+      "IndexJantzen": [
+        "dome",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_5529",
+      "IndexJantzen": [
+        "dome",
+        "verrière"
+      ]
+    },
+    {
+      "id_pic": "image_5530",
+      "IndexJantzen": [
+        "porte",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_5531",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_5532",
+      "IndexJantzen": [
+        "façade",
+        "toiture"
+      ]
+    },
+    {
+      "id_pic": "image_5533",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_5534",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_5535",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_5536",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_5537",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_5538",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_5539",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_5540",
+      "IndexJantzen": [
+        "façade-d'angle",
+        "porte"
+      ]
+    },
+    {
+      "id_pic": "image_5541",
+      "IndexJantzen": [
+        "colonne",
+        "façade-d'angle",
+        "porte"
+      ]
+    },
+    {
+      "id_pic": "image_5542",
+      "IndexJantzen": [
+        "porte-fer"
+      ]
+    },
+    {
+      "id_pic": "image_5543",
+      "IndexJantzen": [
+        "intérieur",
+        "métal",
+        "verrière"
+      ]
+    },
+    {
+      "id_pic": "image_5544",
+      "IndexJantzen": [
+        "intérieur",
+        "métal",
+        "verrière"
+      ]
+    },
+    {
+      "id_pic": "image_5545",
+      "IndexJantzen": [
+        "intérieur",
+        "métal",
+        "verrière"
+      ]
+    },
+    {
+      "id_pic": "image_5546",
+      "IndexJantzen": [
+        "intérieur",
+        "métal",
+        "verrière"
+      ]
+    },
+    {
+      "id_pic": "image_5547",
+      "IndexJantzen": [
+        "intérieur",
+        "métal",
+        "verrière"
+      ]
+    },
+    {
+      "id_pic": "image_5548",
+      "IndexJantzen": [
+        "intérieur",
+        "métal",
+        "verrière"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "id_bat": 1679,
+  "libelle": "22 quai de Béthune",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": [
+    "1590-1659"
+  ],
+  "adresse": {
+    "affichage": "22 quai de Béthune",
+    "numero": "22",
+    "voie": "quai de Béthune"
+  },
+  "arrondissement": 4,
+  "coordonnees": {
+    "latitude": "48.850607",
+    "longitude": "2.357684"
+  },
+  "id_pss": 26911,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 1259,
+  "terme_jantzen_bat": [
+    "clé",
+    "sculpture",
+    "balcon",
+    "garde-corps",
+    "porte-bois"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_1259",
+      "IndexJantzen": [
+        "balcon",
+        "garde-corps",
+        "porte-bois"
+      ]
+    },
+    {
+      "id_pic": "image_1260",
+      "IndexJantzen": [
+        "clé",
+        "porte-bois",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_1261",
+      "IndexJantzen": [
+        "clé",
+        "porte-bois",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_1262",
+      "IndexJantzen": []
+    }
+  ]
+}

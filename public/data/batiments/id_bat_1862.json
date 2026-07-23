@@ -1,0 +1,100 @@
+{
+  "id_bat": 1862,
+  "libelle": "25 rue Poussin",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 309,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1900",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "25 rue Poussin",
+    "numero": "25",
+    "voie": "rue Poussin"
+  },
+  "arrondissement": 16,
+  "coordonnees": {
+    "latitude": "48.848546",
+    "longitude": "2.262635"
+  },
+  "id_pss": 19220,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": "image_Poussin-25_16_§1",
+  "terme_jantzen_bat": [
+    "sculpture",
+    "balcon",
+    "fenetre-d'angle",
+    "décor",
+    "porte-fer",
+    "colonne",
+    "dome",
+    "façade-d'angle",
+    "tour",
+    "fenetre"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_Poussin-25_16_§1",
+      "IndexJantzen": [
+        "dome",
+        "façade-d'angle",
+        "tour"
+      ]
+    },
+    {
+      "id_pic": "image_Poussin-25_16_§2",
+      "IndexJantzen": [
+        "dome",
+        "façade-d'angle",
+        "tour"
+      ]
+    },
+    {
+      "id_pic": "image_Poussin-25_16_§3",
+      "IndexJantzen": [
+        "dome",
+        "fenetre-d'angle",
+        "tour"
+      ]
+    },
+    {
+      "id_pic": "image_Poussin-25_16_§4",
+      "IndexJantzen": [
+        "dome",
+        "décor",
+        "fenetre-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_Poussin-25_16_§5",
+      "IndexJantzen": [
+        "fenetre",
+        "porte-fer"
+      ]
+    },
+    {
+      "id_pic": "image_Poussin-25_16_§7",
+      "IndexJantzen": [
+        "balcon",
+        "colonne",
+        "fenetre",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_Poussin-25_16_§8",
+      "IndexJantzen": [
+        "balcon",
+        "colonne",
+        "fenetre",
+        "sculpture"
+      ]
+    }
+  ]
+}

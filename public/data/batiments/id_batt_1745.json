@@ -1,0 +1,77 @@
+{
+  "id_bat": 1745,
+  "libelle": "23 rue de la Paix",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 89,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1908",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "23 rue de la Paix",
+    "numero": "23",
+    "voie": "rue de la Paix"
+  },
+  "arrondissement": 2,
+  "coordonnees": {
+    "latitude": "48.870134",
+    "longitude": "2.331892"
+  },
+  "id_pss": null,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 10982,
+  "terme_jantzen_bat": [
+    "porte-fer",
+    "fronton",
+    "lucarne",
+    "toiture"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_10982",
+      "IndexJantzen": [
+        "lucarne",
+        "toiture"
+      ]
+    },
+    {
+      "id_pic": "image_10983",
+      "IndexJantzen": [
+        "lucarne",
+        "toiture"
+      ]
+    },
+    {
+      "id_pic": "image_10984",
+      "IndexJantzen": [
+        "lucarne",
+        "toiture"
+      ]
+    },
+    {
+      "id_pic": "image_10985",
+      "IndexJantzen": [
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_10986",
+      "IndexJantzen": [
+        "fronton",
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_10987",
+      "IndexJantzen": [
+        "porte-fer"
+      ]
+    }
+  ]
+}

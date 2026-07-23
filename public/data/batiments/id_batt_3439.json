@@ -1,0 +1,42 @@
+{
+  "id_bat": 3439,
+  "libelle": "7 rue Meynadier",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 494,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1895",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "7 rue Meynadier",
+    "numero": "7",
+    "voie": "rue Meynadier"
+  },
+  "arrondissement": 19,
+  "coordonnees": {
+    "latitude": "48.883317",
+    "longitude": "2.382912"
+  },
+  "id_pss": 41661,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 9637,
+  "terme_jantzen_bat": [
+    "porte-bois",
+    "fenetre"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_9637",
+      "IndexJantzen": [
+        "fenetre",
+        "porte-bois"
+      ]
+    }
+  ]
+}

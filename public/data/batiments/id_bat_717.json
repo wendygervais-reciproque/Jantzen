@@ -1,0 +1,117 @@
+{
+  "id_bat": 717,
+  "libelle": "122 avenue Mozart",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 322,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1909-1912",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "122 avenue Mozart",
+    "numero": "122",
+    "voie": "avenue Mozart"
+  },
+  "arrondissement": 16,
+  "coordonnees": {
+    "latitude": "48.849735",
+    "longitude": "2.266507"
+  },
+  "id_pss": 5183,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": "image_Mozart-122_16_§1",
+  "terme_jantzen_bat": [
+    "balcon",
+    "brique",
+    "fenetre-d'angle",
+    "porte-fer",
+    "colonne",
+    "garde-corps",
+    "façade-d'angle",
+    "lucarne",
+    "céramique",
+    "fenetre"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_Mozart-122_16_§1",
+      "IndexJantzen": [
+        "brique",
+        "façade-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_Mozart-122_16_§10",
+      "IndexJantzen": [
+        "brique",
+        "porte-fer"
+      ]
+    },
+    {
+      "id_pic": "image_Mozart-122_16_§2",
+      "IndexJantzen": [
+        "brique",
+        "fenetre-d'angle",
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_Mozart-122_16_§3",
+      "IndexJantzen": [
+        "brique",
+        "fenetre",
+        "garde-corps"
+      ]
+    },
+    {
+      "id_pic": "image_Mozart-122_16_§4",
+      "IndexJantzen": [
+        "balcon",
+        "brique"
+      ]
+    },
+    {
+      "id_pic": "image_Mozart-122_16_§5",
+      "IndexJantzen": [
+        "balcon",
+        "brique",
+        "garde-corps"
+      ]
+    },
+    {
+      "id_pic": "image_Mozart-122_16_§6",
+      "IndexJantzen": [
+        "brique",
+        "céramique",
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_Mozart-122_16_§7",
+      "IndexJantzen": [
+        "brique",
+        "céramique",
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_Mozart-122_16_§8",
+      "IndexJantzen": [
+        "colonne"
+      ]
+    },
+    {
+      "id_pic": "image_Mozart-122_16_§9",
+      "IndexJantzen": [
+        "brique",
+        "porte-fer"
+      ]
+    }
+  ]
+}

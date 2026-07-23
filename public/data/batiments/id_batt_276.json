@@ -1,0 +1,56 @@
+{
+  "id_bat": 276,
+  "libelle": "10 à 12 rue José-Maria-de-Heredia",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 471,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1911",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "10 à 12 rue José-Maria-de-Heredia",
+    "numero": "10 à 12",
+    "voie": "rue José-Maria-de-Heredia"
+  },
+  "arrondissement": 7,
+  "coordonnees": {
+    "latitude": "48.847918",
+    "longitude": "2.307454"
+  },
+  "id_pss": null,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 7334,
+  "terme_jantzen_bat": [
+    "fenetre",
+    "lucarne",
+    "façade"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_7334",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_7335",
+      "IndexJantzen": [
+        "fenetre",
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_7336",
+      "IndexJantzen": [
+        "fenetre",
+        "lucarne"
+      ]
+    }
+  ]
+}

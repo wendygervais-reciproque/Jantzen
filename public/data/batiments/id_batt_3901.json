@@ -1,0 +1,78 @@
+{
+  "id_bat": 3901,
+  "libelle": "95 avenue Gambetta",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "95 avenue Gambetta",
+    "numero": "95",
+    "voie": "avenue Gambetta"
+  },
+  "arrondissement": 20,
+  "coordonnees": {
+    "latitude": "48.866514",
+    "longitude": "2.3997"
+  },
+  "id_pss": 27631,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 5087,
+  "terme_jantzen_bat": [
+    "céramique",
+    "brique",
+    "clé",
+    "fenetre",
+    "décor",
+    "porte-fer-hall",
+    "garde-corps",
+    "console"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_5087",
+      "IndexJantzen": [
+        "brique",
+        "céramique",
+        "décor",
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_5088",
+      "IndexJantzen": [
+        "brique",
+        "console",
+        "céramique",
+        "décor"
+      ]
+    },
+    {
+      "id_pic": "image_5089",
+      "IndexJantzen": [
+        "brique",
+        "console",
+        "céramique",
+        "décor"
+      ]
+    },
+    {
+      "id_pic": "image_5090",
+      "IndexJantzen": [
+        "clé",
+        "céramique",
+        "décor",
+        "garde-corps"
+      ]
+    },
+    {
+      "id_pic": "image_5091",
+      "IndexJantzen": [
+        "porte-fer-hall"
+      ]
+    }
+  ]
+}

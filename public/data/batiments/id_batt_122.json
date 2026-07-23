@@ -1,0 +1,41 @@
+{
+  "id_bat": 122,
+  "libelle": "Parc Monceau",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": null,
+  "adresse": null,
+  "arrondissement": 8,
+  "coordonnees": {
+    "latitude": "48.8794",
+    "longitude": "2.30923"
+  },
+  "id_pss": null,
+  "id_wikidata": "Q1414059",
+  "WPfr": "Parc Monceau",
+  "image_ref": 11138,
+  "terme_jantzen_bat": [
+    "porte-fer",
+    "dome",
+    "colonne",
+    "façade"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_11138",
+      "IndexJantzen": [
+        "colonne",
+        "dome",
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_15797",
+      "IndexJantzen": [
+        "façade",
+        "porte-fer"
+      ]
+    }
+  ]
+}

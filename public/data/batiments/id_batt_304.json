@@ -1,0 +1,56 @@
+{
+  "id_bat": 304,
+  "libelle": "10 rue Chardin",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": [
+    "1870-1894"
+  ],
+  "adresse": {
+    "affichage": "10 rue Chardin",
+    "numero": "10",
+    "voie": "rue Chardin"
+  },
+  "arrondissement": 16,
+  "coordonnees": {
+    "latitude": "48.858779",
+    "longitude": "2.287649"
+  },
+  "id_pss": 38234,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 2316,
+  "terme_jantzen_bat": [
+    "lucarne",
+    "porte-bois",
+    "oeil-de-boeuf",
+    "fenetre",
+    "balcon",
+    "fronton"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_2316",
+      "IndexJantzen": [
+        "balcon",
+        "fronton",
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_2317",
+      "IndexJantzen": [
+        "fronton",
+        "porte-bois"
+      ]
+    },
+    {
+      "id_pic": "image_2318",
+      "IndexJantzen": [
+        "fenetre",
+        "oeil-de-boeuf"
+      ]
+    }
+  ]
+}

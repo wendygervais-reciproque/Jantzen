@@ -1,0 +1,95 @@
+{
+  "id_bat": 166,
+  "libelle": "1 avenue Niel",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 394,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1908",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "1 avenue Niel",
+    "numero": "1",
+    "voie": "avenue Niel"
+  },
+  "arrondissement": 17,
+  "coordonnees": {
+    "latitude": "48.878974",
+    "longitude": "2.294143"
+  },
+  "id_pss": null,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 10249,
+  "terme_jantzen_bat": [
+    "façade-d'angle",
+    "lucarne-d'angle",
+    "colonne",
+    "sculpture",
+    "décor",
+    "fenetre",
+    "fenetre-d'angle",
+    "balcon",
+    "porte-fer"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_10249",
+      "IndexJantzen": [
+        "façade-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_10250",
+      "IndexJantzen": [
+        "balcon",
+        "décor",
+        "fenetre-d'angle",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_10251",
+      "IndexJantzen": [
+        "lucarne-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_10252",
+      "IndexJantzen": [
+        "lucarne-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_10253",
+      "IndexJantzen": [
+        "colonne",
+        "décor",
+        "fenetre-d'angle",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_10254",
+      "IndexJantzen": [
+        "colonne",
+        "décor",
+        "fenetre-d'angle",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_10255",
+      "IndexJantzen": [
+        "colonne",
+        "fenetre",
+        "porte-fer"
+      ]
+    }
+  ]
+}

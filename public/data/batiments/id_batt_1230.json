@@ -1,0 +1,80 @@
+{
+  "id_bat": 1230,
+  "libelle": "17 rue du Faubourg-Poissonnière",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 250,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1914",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "17 rue du Faubourg-Poissonnière",
+    "numero": "17",
+    "voie": "rue du Faubourg-Poissonnière"
+  },
+  "arrondissement": 9,
+  "coordonnees": {
+    "latitude": "48.872325",
+    "longitude": "2.347796"
+  },
+  "id_pss": 499,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 4354,
+  "terme_jantzen_bat": [
+    "brique",
+    "fenetre",
+    "décor",
+    "porte-fer",
+    "mosaique",
+    "marquise"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_4354",
+      "IndexJantzen": [
+        "brique",
+        "décor",
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_4355",
+      "IndexJantzen": [
+        "brique",
+        "mosaique",
+        "porte-fer"
+      ]
+    },
+    {
+      "id_pic": "image_4356",
+      "IndexJantzen": [
+        "brique",
+        "marquise",
+        "mosaique",
+        "porte-fer"
+      ]
+    },
+    {
+      "id_pic": "image_4357",
+      "IndexJantzen": [
+        "brique",
+        "mosaique",
+        "porte-fer"
+      ]
+    },
+    {
+      "id_pic": "image_4358",
+      "IndexJantzen": [
+        "brique",
+        "marquise",
+        "mosaique"
+      ]
+    }
+  ]
+}

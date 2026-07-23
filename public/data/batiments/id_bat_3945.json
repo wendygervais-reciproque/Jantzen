@@ -1,0 +1,70 @@
+{
+  "id_bat": 3945,
+  "libelle": "9b rue Pierre-Demours",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 661,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1891",
+  "periode": [
+    "1870-1894"
+  ],
+  "adresse": {
+    "affichage": "9b rue Pierre-Demours",
+    "numero": "9b",
+    "voie": "rue Pierre-Demours"
+  },
+  "arrondissement": 17,
+  "coordonnees": {
+    "latitude": "48.880174",
+    "longitude": "2.292111"
+  },
+  "id_pss": 95611,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": "image_Pierre-Demours-9b_17_§1",
+  "terme_jantzen_bat": [
+    "sculpture",
+    "console",
+    "balcon",
+    "décor",
+    "pilastre",
+    "garde-corps"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_Pierre-Demours-9b_17_§1",
+      "IndexJantzen": [
+        "balcon",
+        "décor",
+        "pilastre",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_Pierre-Demours-9b_17_§2",
+      "IndexJantzen": [
+        "console",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_Pierre-Demours-9b_17_§3",
+      "IndexJantzen": [
+        "balcon",
+        "garde-corps"
+      ]
+    },
+    {
+      "id_pic": "image_Pierre-Demours-9b_17_§4",
+      "IndexJantzen": [
+        "console",
+        "garde-corps",
+        "sculpture"
+      ]
+    }
+  ]
+}

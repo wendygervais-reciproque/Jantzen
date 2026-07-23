@@ -1,0 +1,54 @@
+{
+  "id_bat": 3772,
+  "libelle": "9 avenue Niel",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "9 avenue Niel",
+    "numero": "9",
+    "voie": "avenue Niel"
+  },
+  "arrondissement": 17,
+  "coordonnees": {
+    "latitude": "48.879646",
+    "longitude": "2.294487"
+  },
+  "id_pss": 28158,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 10301,
+  "terme_jantzen_bat": [
+    "lucarne",
+    "oeil-de-boeuf",
+    "dome",
+    "intérieur",
+    "porte-fer"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_10301",
+      "IndexJantzen": [
+        "dome",
+        "lucarne",
+        "oeil-de-boeuf"
+      ]
+    },
+    {
+      "id_pic": "image_10302",
+      "IndexJantzen": [
+        "intérieur",
+        "porte-fer"
+      ]
+    },
+    {
+      "id_pic": "image_10303",
+      "IndexJantzen": [
+        "porte-fer"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "id_bat": 1661,
+  "libelle": "217 rue du Faubourg-Saint-Honoré",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 124,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1908",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "217 rue du Faubourg-Saint-Honoré",
+    "numero": "217",
+    "voie": "rue du Faubourg-Saint-Honoré"
+  },
+  "arrondissement": 8,
+  "coordonnees": {
+    "latitude": "48.87679",
+    "longitude": "2.300893"
+  },
+  "id_pss": 48822,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": "image_Faubourg-St-Honore-217_8_§1",
+  "terme_jantzen_bat": [
+    "sculpture",
+    "console",
+    "décor",
+    "fenetre",
+    "chimère"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_Faubourg-St-Honore-217_8_§1",
+      "IndexJantzen": [
+        "décor",
+        "fenetre",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_Faubourg-St-Honore-217_8_§2-zFc",
+      "IndexJantzen": [
+        "chimère",
+        "console",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_Faubourg-St-Honore-217_8_§3",
+      "IndexJantzen": [
+        "console",
+        "sculpture"
+      ]
+    }
+  ]
+}

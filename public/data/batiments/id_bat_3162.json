@@ -1,0 +1,108 @@
+{
+  "id_bat": 3162,
+  "libelle": "6 rue Jasmin",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 365,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1916",
+  "periode": [
+    "1915-1944"
+  ],
+  "adresse": {
+    "affichage": "6 rue Jasmin",
+    "numero": "6",
+    "voie": "rue Jasmin"
+  },
+  "arrondissement": 16,
+  "coordonnees": {
+    "latitude": "48.852353",
+    "longitude": "2.267363"
+  },
+  "id_pss": 32334,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": "image_Jasmin-6_16_§1",
+  "terme_jantzen_bat": [
+    "sculpture",
+    "fenetre-d'angle",
+    "décor",
+    "porte-fer-hall",
+    "façade-d'angle",
+    "porte",
+    "fenetre"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_Jasmin-6_16_§1",
+      "IndexJantzen": [
+        "façade-d'angle",
+        "porte"
+      ]
+    },
+    {
+      "id_pic": "image_Jasmin-6_16_§10",
+      "IndexJantzen": [
+        "porte-fer-hall"
+      ]
+    },
+    {
+      "id_pic": "image_Jasmin-6_16_§2",
+      "IndexJantzen": [
+        "fenetre-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_Jasmin-6_16_§3",
+      "IndexJantzen": [
+        "fenetre-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_Jasmin-6_16_§4",
+      "IndexJantzen": [
+        "fenetre-d'angle",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_Jasmin-6_16_§5",
+      "IndexJantzen": [
+        "fenetre-d'angle",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_Jasmin-6_16_§6",
+      "IndexJantzen": [
+        "fenetre-d'angle",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_Jasmin-6_16_§7",
+      "IndexJantzen": [
+        "fenetre",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_Jasmin-6_16_§8",
+      "IndexJantzen": [
+        "fenetre",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_Jasmin-6_16_§9",
+      "IndexJantzen": [
+        "décor",
+        "fenetre",
+        "sculpture"
+      ]
+    }
+  ]
+}

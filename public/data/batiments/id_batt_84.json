@@ -1,0 +1,137 @@
+{
+  "id_bat": 84,
+  "libelle": "Gare de Lyon",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 468,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1895-1902",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": null,
+  "arrondissement": 12,
+  "coordonnees": {
+    "latitude": "48.844704545066",
+    "longitude": "2.3740659075147"
+  },
+  "id_pss": 4457,
+  "id_wikidata": "Q614049",
+  "WPfr": "Gare de Lyon (métro de Paris)",
+  "image_ref": 5120,
+  "terme_jantzen_bat": [
+    "lucarne",
+    "sculpture",
+    "fenetre",
+    "décor",
+    "balcon",
+    "tour",
+    "console"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_5120",
+      "IndexJantzen": [
+        "fenetre",
+        "tour"
+      ]
+    },
+    {
+      "id_pic": "image_5121",
+      "IndexJantzen": [
+        "balcon",
+        "console",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_5122",
+      "IndexJantzen": [
+        "balcon",
+        "console",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_5123",
+      "IndexJantzen": [
+        "décor",
+        "fenetre",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_5124",
+      "IndexJantzen": [
+        "fenetre",
+        "lucarne",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_5125",
+      "IndexJantzen": [
+        "fenetre",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_5126",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_5127",
+      "IndexJantzen": [
+        "fenetre",
+        "tour"
+      ]
+    },
+    {
+      "id_pic": "image_5128",
+      "IndexJantzen": [
+        "tour"
+      ]
+    },
+    {
+      "id_pic": "image_5129",
+      "IndexJantzen": [
+        "tour"
+      ]
+    },
+    {
+      "id_pic": "image_5130",
+      "IndexJantzen": [
+        "tour"
+      ]
+    },
+    {
+      "id_pic": "image_5131",
+      "IndexJantzen": [
+        "balcon",
+        "fenetre",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_5132",
+      "IndexJantzen": [
+        "balcon",
+        "fenetre",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_5133",
+      "IndexJantzen": [
+        "balcon",
+        "console",
+        "sculpture"
+      ]
+    }
+  ]
+}

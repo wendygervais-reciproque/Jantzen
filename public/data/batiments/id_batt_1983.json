@@ -1,0 +1,65 @@
+{
+  "id_bat": 1983,
+  "libelle": "280 boulevard Raspail",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 542,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1905",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "280 boulevard Raspail",
+    "numero": "280",
+    "voie": "boulevard Raspail"
+  },
+  "arrondissement": 14,
+  "coordonnees": {
+    "latitude": "48.835688",
+    "longitude": "2.331654"
+  },
+  "id_pss": 10182,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 12451,
+  "terme_jantzen_bat": [
+    "oriel",
+    "sculpture",
+    "fenetre",
+    "porte-fer",
+    "console"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_12451",
+      "IndexJantzen": [
+        "fenetre",
+        "oriel"
+      ]
+    },
+    {
+      "id_pic": "image_12452",
+      "IndexJantzen": [
+        "oriel"
+      ]
+    },
+    {
+      "id_pic": "image_12453",
+      "IndexJantzen": [
+        "console",
+        "oriel"
+      ]
+    },
+    {
+      "id_pic": "image_12454",
+      "IndexJantzen": [
+        "porte-fer",
+        "sculpture"
+      ]
+    }
+  ]
+}

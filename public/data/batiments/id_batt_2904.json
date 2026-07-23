@@ -1,0 +1,49 @@
+{
+  "id_bat": 2904,
+  "libelle": "50 avenue Montaigne",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": null,
+  "adresse": {
+    "affichage": "50 avenue Montaigne",
+    "numero": "50",
+    "voie": "avenue Montaigne"
+  },
+  "arrondissement": 8,
+  "coordonnees": {
+    "latitude": "48.867826",
+    "longitude": "2.308337"
+  },
+  "id_pss": 63039,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 9842,
+  "terme_jantzen_bat": [
+    "sculpture",
+    "console",
+    "clé"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_9842",
+      "IndexJantzen": [
+        "clé",
+        "console",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_9843",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_9844",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    }
+  ]
+}

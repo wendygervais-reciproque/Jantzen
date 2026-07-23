@@ -1,0 +1,40 @@
+{
+  "id_bat": 3828,
+  "libelle": "9 rue Lagrange",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 364,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1890",
+  "periode": [
+    "1870-1894"
+  ],
+  "adresse": {
+    "affichage": "9 rue Lagrange",
+    "numero": "9",
+    "voie": "rue Lagrange"
+  },
+  "arrondissement": 5,
+  "coordonnees": {
+    "latitude": "48.851504",
+    "longitude": "2.347988"
+  },
+  "id_pss": 82009,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 7794,
+  "terme_jantzen_bat": [
+    "oriel"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_7794",
+      "IndexJantzen": [
+        "oriel"
+      ]
+    }
+  ]
+}

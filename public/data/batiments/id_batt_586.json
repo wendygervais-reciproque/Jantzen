@@ -1,0 +1,80 @@
+{
+  "id_bat": 586,
+  "libelle": "119 rue Réaumur",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 88,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1900",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "119 rue Réaumur",
+    "numero": "119",
+    "voie": "rue Réaumur"
+  },
+  "arrondissement": 2,
+  "coordonnees": {
+    "latitude": "48.868341",
+    "longitude": "2.342334"
+  },
+  "id_pss": 12196,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 12681,
+  "terme_jantzen_bat": [
+    "lucarne",
+    "clé",
+    "façade",
+    "dome",
+    "fenetre",
+    "sculpture",
+    "garde-corps"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_12681",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_12682",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_12683",
+      "IndexJantzen": [
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_12684",
+      "IndexJantzen": [
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_12685",
+      "IndexJantzen": [
+        "clé",
+        "fenetre",
+        "garde-corps",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_12686",
+      "IndexJantzen": [
+        "dome",
+        "lucarne"
+      ]
+    }
+  ]
+}

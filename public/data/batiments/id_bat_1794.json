@@ -1,0 +1,109 @@
+{
+  "id_bat": 1794,
+  "libelle": "24 rue de Bagnolet",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 305,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1909",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "24 rue de Bagnolet",
+    "numero": "24",
+    "voie": "rue de Bagnolet"
+  },
+  "arrondissement": 20,
+  "coordonnees": {
+    "latitude": "48.856733",
+    "longitude": "2.396847"
+  },
+  "id_pss": 89546,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": "image_Bagnolet-24_20_§1",
+  "terme_jantzen_bat": [
+    "poignée-porte",
+    "sculpture",
+    "balcon",
+    "brique",
+    "fenetre-d'angle",
+    "décor",
+    "garde-corps",
+    "façade-d'angle",
+    "céramique",
+    "fenetre"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_Bagnolet-24_20_§1",
+      "IndexJantzen": [
+        "brique",
+        "façade-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_Bagnolet-24_20_§2",
+      "IndexJantzen": [
+        "balcon",
+        "brique",
+        "fenetre-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_Bagnolet-24_20_§3",
+      "IndexJantzen": [
+        "balcon",
+        "brique",
+        "fenetre-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_Bagnolet-24_20_§4",
+      "IndexJantzen": [
+        "brique",
+        "céramique",
+        "décor",
+        "fenetre",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_Bagnolet-24_20_§5",
+      "IndexJantzen": [
+        "brique",
+        "céramique",
+        "décor",
+        "fenetre",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_Bagnolet-24_20_§6",
+      "IndexJantzen": [
+        "brique",
+        "céramique",
+        "décor",
+        "fenetre",
+        "garde-corps",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_Bagnolet-24_20_§7",
+      "IndexJantzen": [
+        "poignée-porte"
+      ]
+    },
+    {
+      "id_pic": "image_Bagnolet-24_20_§8",
+      "IndexJantzen": [
+        "poignée-porte"
+      ]
+    }
+  ]
+}

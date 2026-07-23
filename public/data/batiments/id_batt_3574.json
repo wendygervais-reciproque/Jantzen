@@ -1,0 +1,55 @@
+{
+  "id_bat": 3574,
+  "libelle": "7b rue Raynouard",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 24,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1909",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "7b rue Raynouard",
+    "numero": "7b",
+    "voie": "rue Raynouard"
+  },
+  "arrondissement": 16,
+  "coordonnees": {
+    "latitude": "48.857879",
+    "longitude": "2.284151"
+  },
+  "id_pss": null,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 12638,
+  "terme_jantzen_bat": [
+    "lucarne",
+    "fenetre"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_12638",
+      "IndexJantzen": [
+        "fenetre",
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_12639",
+      "IndexJantzen": [
+        "fenetre",
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_12640",
+      "IndexJantzen": [
+        "lucarne"
+      ]
+    }
+  ]
+}

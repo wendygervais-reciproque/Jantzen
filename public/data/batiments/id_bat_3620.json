@@ -1,0 +1,46 @@
+{
+  "id_bat": 3620,
+  "libelle": "8 rue de Lota",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 593,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1898",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "8 rue de Lota",
+    "numero": "8",
+    "voie": "rue de Lota"
+  },
+  "arrondissement": 16,
+  "coordonnees": {
+    "latitude": "48.867243",
+    "longitude": "2.275915"
+  },
+  "id_pss": 10149,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": "image_Lota-8_16_§1",
+  "terme_jantzen_bat": [
+    "brique",
+    "céramique",
+    "fenetre",
+    "décor"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_Lota-8_16_§1",
+      "IndexJantzen": [
+        "brique",
+        "céramique",
+        "décor",
+        "fenetre"
+      ]
+    }
+  ]
+}

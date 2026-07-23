@@ -1,0 +1,43 @@
+{
+  "id_bat": 1791,
+  "libelle": "24 rue Beaunier",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "24 rue Beaunier",
+    "numero": "24",
+    "voie": "rue Beaunier"
+  },
+  "arrondissement": 14,
+  "coordonnees": {
+    "latitude": "48.824289",
+    "longitude": "2.329625"
+  },
+  "id_pss": 99710,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 1058,
+  "terme_jantzen_bat": [
+    "brique",
+    "façade"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_1058",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_1059",
+      "IndexJantzen": [
+        "brique",
+        "façade"
+      ]
+    }
+  ]
+}

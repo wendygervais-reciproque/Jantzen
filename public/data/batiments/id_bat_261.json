@@ -1,0 +1,109 @@
+{
+  "id_bat": 261,
+  "libelle": "1 rue René-Panhard",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 560,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1914",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "1 rue René-Panhard",
+    "numero": "1",
+    "voie": "rue René-Panhard"
+  },
+  "arrondissement": 13,
+  "coordonnees": {
+    "latitude": "48.838717",
+    "longitude": "2.359325"
+  },
+  "id_pss": 45494,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": "image_Rene-Panhard-_13_§1",
+  "terme_jantzen_bat": [
+    "sculpture",
+    "décor",
+    "porte-fer",
+    "porte-fer-hall",
+    "lucarne",
+    "façade",
+    "porte",
+    "fenetre"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_Rene-Panhard-_13_§1",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_Rene-Panhard-_13_§10",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_Rene-Panhard-_13_§11",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_Rene-Panhard-_13_§12",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_Rene-Panhard-_13_§2",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_Rene-Panhard-_13_§3",
+      "IndexJantzen": [
+        "décor",
+        "fenetre",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_Rene-Panhard-_13_§4",
+      "IndexJantzen": [
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_Rene-Panhard-_13_§5",
+      "IndexJantzen": [
+        "porte"
+      ]
+    },
+    {
+      "id_pic": "image_Rene-Panhard-_13_§6",
+      "IndexJantzen": [
+        "porte-fer"
+      ]
+    },
+    {
+      "id_pic": "image_Rene-Panhard-_13_§7",
+      "IndexJantzen": [
+        "porte-fer-hall"
+      ]
+    },
+    {
+      "id_pic": "image_Rene-Panhard-_13_§9",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    }
+  ]
+}

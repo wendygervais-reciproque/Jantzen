@@ -1,0 +1,54 @@
+{
+  "id_bat": 1682,
+  "libelle": "22 rue Caillaux",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 100,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1906",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "22 rue Caillaux",
+    "numero": "22",
+    "voie": "rue Caillaux"
+  },
+  "arrondissement": 13,
+  "coordonnees": {
+    "latitude": "48.822384",
+    "longitude": "2.35935"
+  },
+  "id_pss": 75140,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 1828,
+  "terme_jantzen_bat": [
+    "lucarne",
+    "décor",
+    "pignon",
+    "brique"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_1828",
+      "IndexJantzen": [
+        "brique",
+        "décor",
+        "lucarne",
+        "pignon"
+      ]
+    },
+    {
+      "id_pic": "image_1829",
+      "IndexJantzen": [
+        "brique",
+        "lucarne",
+        "pignon"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "id_bat": 1916,
+  "libelle": "26 rue Vavin",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 334,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1912",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "26 rue Vavin",
+    "numero": "26",
+    "voie": "rue Vavin"
+  },
+  "arrondissement": 6,
+  "coordonnees": {
+    "latitude": "48.843676",
+    "longitude": "2.330028"
+  },
+  "id_pss": 477,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 15961,
+  "terme_jantzen_bat": [
+    "céramique",
+    "façade",
+    "fenetre",
+    "balcon",
+    "garde-corps"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_15961",
+      "IndexJantzen": [
+        "céramique",
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_15962",
+      "IndexJantzen": [
+        "céramique",
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_15963",
+      "IndexJantzen": [
+        "balcon",
+        "céramique",
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_15964",
+      "IndexJantzen": [
+        "balcon",
+        "céramique",
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_15965",
+      "IndexJantzen": [
+        "céramique",
+        "fenetre",
+        "garde-corps"
+      ]
+    },
+    {
+      "id_pic": "image_15966",
+      "IndexJantzen": [
+        "céramique",
+        "fenetre"
+      ]
+    }
+  ]
+}

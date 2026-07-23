@@ -1,0 +1,64 @@
+{
+  "id_bat": 900,
+  "libelle": "14 rue de La Trémoille",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": "1884",
+  "periode": [
+    "1870-1894"
+  ],
+  "adresse": {
+    "affichage": "14 rue de La Trémoille",
+    "numero": "14",
+    "voie": "rue de La Trémoille"
+  },
+  "arrondissement": 8,
+  "coordonnees": {
+    "latitude": "48.866877",
+    "longitude": "2.302869"
+  },
+  "id_pss": null,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": "image_La-Tremoille-14_8_§1",
+  "terme_jantzen_bat": [
+    "métal",
+    "balcon",
+    "oriel",
+    "céramique",
+    "garde-corps"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_La-Tremoille-14_8_§1",
+      "IndexJantzen": [
+        "céramique",
+        "métal",
+        "oriel"
+      ]
+    },
+    {
+      "id_pic": "image_La-Tremoille-14_8_§2",
+      "IndexJantzen": [
+        "céramique",
+        "métal",
+        "oriel"
+      ]
+    },
+    {
+      "id_pic": "image_La-Tremoille-14_8_§3",
+      "IndexJantzen": [
+        "céramique",
+        "métal",
+        "oriel"
+      ]
+    },
+    {
+      "id_pic": "image_La-Tremoille-14_8_§4",
+      "IndexJantzen": [
+        "balcon",
+        "garde-corps"
+      ]
+    }
+  ]
+}

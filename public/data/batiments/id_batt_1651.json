@@ -1,0 +1,49 @@
+{
+  "id_bat": 1651,
+  "libelle": "212b à 210 boulevard Pereire",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 353,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1903",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "212b à 210 boulevard Pereire",
+    "numero": "212b à 210",
+    "voie": "boulevard Pereire"
+  },
+  "arrondissement": 17,
+  "coordonnees": {
+    "latitude": "48.879605",
+    "longitude": "2.286822"
+  },
+  "id_pss": 40754,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 11383,
+  "terme_jantzen_bat": [
+    "lucarne",
+    "toiture",
+    "façade"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_11383",
+      "IndexJantzen": [
+        "lucarne",
+        "toiture"
+      ]
+    },
+    {
+      "id_pic": "image_11384",
+      "IndexJantzen": [
+        "façade"
+      ]
+    }
+  ]
+}

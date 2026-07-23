@@ -1,0 +1,57 @@
+{
+  "id_bat": 3503,
+  "libelle": "74 boulevard Vincent-Auriol",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "74 boulevard Vincent-Auriol",
+    "numero": "74",
+    "voie": "boulevard Vincent-Auriol"
+  },
+  "arrondissement": 13,
+  "coordonnees": {
+    "latitude": "48.834237",
+    "longitude": "2.365276"
+  },
+  "id_pss": 10826,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 16614,
+  "terme_jantzen_bat": [
+    "brique",
+    "colonne",
+    "fenetre",
+    "balcon",
+    "garde-corps"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_16614",
+      "IndexJantzen": [
+        "balcon",
+        "brique",
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_16615",
+      "IndexJantzen": [
+        "balcon",
+        "brique",
+        "colonne"
+      ]
+    },
+    {
+      "id_pic": "image_16616",
+      "IndexJantzen": [
+        "brique",
+        "fenetre",
+        "garde-corps"
+      ]
+    }
+  ]
+}

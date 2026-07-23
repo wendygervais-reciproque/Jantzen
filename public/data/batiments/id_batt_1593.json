@@ -1,0 +1,49 @@
+{
+  "id_bat": 1593,
+  "libelle": "201 rue de Charenton",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 577,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1911",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "201 rue de Charenton",
+    "numero": "201",
+    "voie": "rue de Charenton"
+  },
+  "arrondissement": 12,
+  "coordonnees": {
+    "latitude": "48.839765",
+    "longitude": "2.388757"
+  },
+  "id_pss": 15838,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 2321,
+  "terme_jantzen_bat": [
+    "sculpture",
+    "atlante",
+    "façade"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_2321",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_2322",
+      "IndexJantzen": [
+        "atlante",
+        "sculpture"
+      ]
+    }
+  ]
+}

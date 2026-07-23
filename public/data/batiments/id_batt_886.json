@@ -1,0 +1,90 @@
+{
+  "id_bat": 886,
+  "libelle": "14 rue Abel",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 206,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1922",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "14 rue Abel",
+    "numero": "14",
+    "voie": "rue Abel"
+  },
+  "arrondissement": 12,
+  "coordonnees": {
+    "latitude": "48.847648",
+    "longitude": "2.375712"
+  },
+  "id_pss": 30898,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 109,
+  "terme_jantzen_bat": [
+    "mosaique",
+    "loggia",
+    "façade",
+    "brique",
+    "colonne",
+    "fenetre",
+    "décor",
+    "voie",
+    "pignon"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_109",
+      "IndexJantzen": [
+        "brique",
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_110",
+      "IndexJantzen": [
+        "brique",
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_111",
+      "IndexJantzen": [
+        "brique",
+        "fenetre",
+        "loggia",
+        "pignon"
+      ]
+    },
+    {
+      "id_pic": "image_112",
+      "IndexJantzen": [
+        "brique",
+        "fenetre",
+        "pignon"
+      ]
+    },
+    {
+      "id_pic": "image_113",
+      "IndexJantzen": [
+        "brique",
+        "colonne",
+        "voie"
+      ]
+    },
+    {
+      "id_pic": "image_114",
+      "IndexJantzen": [
+        "brique",
+        "colonne",
+        "décor",
+        "mosaique"
+      ]
+    }
+  ]
+}

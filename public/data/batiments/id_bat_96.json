@@ -1,0 +1,75 @@
+{
+  "id_bat": 96,
+  "libelle": "Hôtel de la Marine",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": "1766-1775",
+  "periode": [
+    "1760-1829"
+  ],
+  "adresse": null,
+  "arrondissement": 8,
+  "coordonnees": {
+    "latitude": "48.866777777778",
+    "longitude": "2.3230833333333"
+  },
+  "id_pss": 4133,
+  "id_wikidata": "Q2059518",
+  "WPfr": "Hôtel de la Marine",
+  "image_ref": "image_Concorde-Pl-2_8_§1-Rx",
+  "terme_jantzen_bat": [
+    "panoramique",
+    "fenetre",
+    "façade",
+    "colonne"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_Concorde-Pl-2_8_§1-Rx",
+      "IndexJantzen": [
+        "façade",
+        "panoramique"
+      ]
+    },
+    {
+      "id_pic": "image_Concorde-Pl-2_8_§2-Rx",
+      "IndexJantzen": [
+        "façade",
+        "panoramique"
+      ]
+    },
+    {
+      "id_pic": "image_Concorde-Pl-2_8_§3-Rs",
+      "IndexJantzen": [
+        "colonne",
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_Concorde-Pl-2_8_§4-Rx",
+      "IndexJantzen": [
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_Concorde-Pl-2_8_§5-Rs",
+      "IndexJantzen": [
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_Concorde-Pl-2_8_§6",
+      "IndexJantzen": [
+        "colonne",
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_Concorde-Pl-2_8_§7",
+      "IndexJantzen": [
+        "colonne",
+        "fenetre"
+      ]
+    }
+  ]
+}

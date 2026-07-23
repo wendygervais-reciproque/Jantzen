@@ -1,0 +1,54 @@
+{
+  "id_bat": 1005,
+  "libelle": "15 place Vendôme",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": "1699",
+  "periode": [
+    "1660-1759"
+  ],
+  "adresse": {
+    "affichage": "15 place Vendôme",
+    "numero": "15",
+    "voie": "place Vendôme"
+  },
+  "arrondissement": 1,
+  "coordonnees": {
+    "latitude": "48.867956",
+    "longitude": "2.328887"
+  },
+  "id_pss": 9972,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 15992,
+  "terme_jantzen_bat": [
+    "lucarne",
+    "façade"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_15992",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_15993",
+      "IndexJantzen": [
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_15994",
+      "IndexJantzen": [
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_15995",
+      "IndexJantzen": [
+        "lucarne"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "id_bat": 2919,
+  "libelle": "50 rue Saint-Ferdinand",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 278,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1893",
+  "periode": [
+    "1870-1894"
+  ],
+  "adresse": {
+    "affichage": "50 rue Saint-Ferdinand",
+    "numero": "50",
+    "voie": "rue Saint-Ferdinand"
+  },
+  "arrondissement": 17,
+  "coordonnees": {
+    "latitude": "48.877271",
+    "longitude": "2.286068"
+  },
+  "id_pss": 39257,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": "image_St-Ferdinand-50_17_§1-Rx",
+  "terme_jantzen_bat": [
+    "métal",
+    "sculpture",
+    "balcon",
+    "oriel",
+    "décor",
+    "garde-corps",
+    "céramique",
+    "façade",
+    "fenetre"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_St-Ferdinand-50_17_§1-Rx",
+      "IndexJantzen": [
+        "façade",
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_St-Ferdinand-50_17_§2-Rx",
+      "IndexJantzen": [
+        "fenetre",
+        "métal",
+        "oriel"
+      ]
+    },
+    {
+      "id_pic": "image_St-Ferdinand-50_17_§3-Rx",
+      "IndexJantzen": [
+        "fenetre",
+        "métal",
+        "oriel"
+      ]
+    },
+    {
+      "id_pic": "image_St-Ferdinand-50_17_§4-Rx",
+      "IndexJantzen": [
+        "céramique",
+        "métal",
+        "oriel"
+      ]
+    },
+    {
+      "id_pic": "image_St-Ferdinand-50_17_§5-Rx",
+      "IndexJantzen": [
+        "balcon",
+        "décor",
+        "fenetre",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_St-Ferdinand-50_17_§6-Rx",
+      "IndexJantzen": [
+        "balcon",
+        "fenetre",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_St-Ferdinand-50_17_§7-Rx",
+      "IndexJantzen": [
+        "garde-corps"
+      ]
+    }
+  ]
+}

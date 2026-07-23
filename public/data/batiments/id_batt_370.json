@@ -1,0 +1,73 @@
+{
+  "id_bat": 370,
+  "libelle": "101 avenue de la République",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": "1889",
+  "periode": [
+    "1870-1894"
+  ],
+  "adresse": {
+    "affichage": "101 avenue de la République",
+    "numero": "101",
+    "voie": "avenue de la République"
+  },
+  "arrondissement": 11,
+  "coordonnees": {
+    "latitude": "48.863526",
+    "longitude": "2.384525"
+  },
+  "id_pss": 22263,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 12926,
+  "terme_jantzen_bat": [
+    "lucarne",
+    "façade",
+    "fenetre",
+    "sculpture",
+    "décor",
+    "pignon"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_12926",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_12927",
+      "IndexJantzen": [
+        "décor",
+        "fenetre",
+        "pignon",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_12928",
+      "IndexJantzen": [
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_12929",
+      "IndexJantzen": [
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_12930",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_12931",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    }
+  ]
+}

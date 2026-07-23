@@ -1,0 +1,46 @@
+{
+  "id_bat": 1556,
+  "libelle": "20 rue Censier",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 132,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1914",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "20 rue Censier",
+    "numero": "20",
+    "voie": "rue Censier"
+  },
+  "arrondissement": 5,
+  "coordonnees": {
+    "latitude": "48.840685",
+    "longitude": "2.353658"
+  },
+  "id_pss": 65254,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 2153,
+  "terme_jantzen_bat": [
+    "fenetre",
+    "porte-fer",
+    "céramique",
+    "brique"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_2153",
+      "IndexJantzen": [
+        "brique",
+        "céramique",
+        "fenetre",
+        "porte-fer"
+      ]
+    }
+  ]
+}

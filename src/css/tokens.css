@@ -1,0 +1,567 @@
+/*
+ * tokens.css — Architecture Paris / TORNE-H
+ * Source : primitives.json (palettes neutral + brand mises à jour)
+ *          + styles de texte Figma (title / body / interface)
+ *
+ * Règle : jamais de hex en dur dans main.css — toujours via token sémantique.
+ */
+
+/* ─── POLICES ────────────────────────────────────────────────────────────── */
+:root {
+  --font-sans:  'UniversCom', 'Helvetica Neue', Arial, sans-serif;
+  --font-serif: 'WalbaumBook', Georgia, serif;
+  --font-mono:  'JetBrains Mono', 'Courier New', monospace;
+}
+
+/* ─── ÉCHELLES PRIMITIVES (_primitives/typography) ───────────────────────── */
+:root {
+  /* Font-size (typography/size) */
+  --fs-8:  8px;
+  --fs-12: 12px;
+  --fs-14: 14px;
+  --fs-16: 16px;
+  --fs-18: 18px;
+  --fs-20: 20px;
+  --fs-24: 24px;
+  --fs-32: 32px;
+  --fs-40: 40px;
+  --fs-48: 48px;
+
+  /* Font-weight (typography/weight) */
+  --fw-400: 400;
+  --fw-600: 600;
+  --fw-700: 700;
+
+  /* Line-height (typography/line-height) */
+  --lh-1:    1;
+  --lh-120:  1.2;
+  --lh-130:  1.3;
+  --lh-150:  1.5;
+  --lh-160:  1.6;
+
+  /* Letter-spacing */
+  --ls-tight:   0.02em;
+  --ls-normal:  0.04em;
+  --ls-wide:    0.08em;
+  --ls-xl:      0.14em;
+}
+
+/* ─── STYLES TYPOGRAPHIQUES SÉMANTIQUES (Figma text styles) ──────────────── */
+:root {
+  /* title/ — titres hiérarchiques */
+  --text-title-h1-size:   var(--fs-48);  --text-title-h1-weight: var(--fw-700); --text-title-h1-lh: var(--lh-120);
+  --text-title-h2-size:   var(--fs-40);  --text-title-h2-weight: var(--fw-700); --text-title-h2-lh: var(--lh-120);
+  --text-title-h3-size:   var(--fs-32);  --text-title-h3-weight: var(--fw-600); --text-title-h3-lh: var(--lh-130);
+  --text-title-h4-size:   var(--fs-24);  --text-title-h4-weight: var(--fw-600); --text-title-h4-lh: var(--lh-130);
+  --text-title-h5-size:   var(--fs-20);  --text-title-h5-weight: var(--fw-600); --text-title-h5-lh: var(--lh-150);
+
+  /* body/ — corps de texte */
+  --text-body-large-size:      var(--fs-18); --text-body-large-weight:      var(--fw-400); --text-body-large-lh: var(--lh-160);
+  --text-body-large-bold-size: var(--fs-18); --text-body-large-bold-weight: var(--fw-700); --text-body-large-bold-lh: var(--lh-160);
+  --text-body-base-size:       var(--fs-16); --text-body-base-weight:       var(--fw-400); --text-body-base-lh: var(--lh-150);
+  --text-body-base-bold-size:  var(--fs-16); --text-body-base-bold-weight:  var(--fw-700); --text-body-base-bold-lh: var(--lh-150);
+  --text-body-small-size:      var(--fs-14); --text-body-small-weight:      var(--fw-400); --text-body-small-lh: var(--lh-150);
+  --text-body-small-bold-size: var(--fs-14); --text-body-small-bold-weight: var(--fw-700); --text-body-small-bold-lh: var(--lh-150);
+
+  /* interface/ — éléments UI */
+  --text-interface-button-size:    var(--fs-14); --text-interface-button-weight:    var(--fw-600); --text-interface-button-lh: var(--lh-1);
+  --text-interface-overline-size:  var(--fs-12); --text-interface-overline-weight:  var(--fw-600); --text-interface-overline-lh: var(--lh-1);    --text-interface-overline-ls: var(--ls-wide);
+  --text-interface-caption-size:   var(--fs-12); --text-interface-caption-weight:   var(--fw-400); --text-interface-caption-lh: var(--lh-130);
+}
+
+/* ─── LAYOUT (Desktop par défaut) ────────────────────────────────────────── */
+:root {
+  /* Grille Desktop : 12 col / gutter 32px / margin 80px */
+  --grid-columns:         12;
+  --grid-gutter:          32px;
+  --grid-margin:          80px;
+  --layout-screen-margin: 80px;
+  --layout-gutter:        32px;
+
+  /* Radius */
+  --radius-container: 12px;
+  --radius-element:   8px;
+  --radius-badge:     9999px;
+  --radius-media:     8px;
+  --radius-media-full: 9999px;
+
+  /* Espacement composants */
+  --component-padding-2:  2px;
+  --component-padding-4:  4px;
+  --component-padding-8:  8px;
+  --component-padding-12: 12px;
+  --component-padding-16: 16px;
+  --component-padding-20: 20px;
+  --component-padding-24: 24px;
+  --component-padding-32: 32px;
+  --component-padding-40: 40px;
+  --component-padding-48: 48px;
+
+  --component-gap-2:  2px;
+  --component-gap-4:  4px;
+  --component-gap-8:  8px;
+  --component-gap-12: 12px;
+  --component-gap-16: 16px;
+  --component-gap-20: 20px;
+  --component-gap-24: 24px;
+  --component-gap-32: 32px;
+  --component-gap-40: 40px;
+  --component-gap-48: 48px;
+
+  /* Constantes interface */
+  --header-h:  52px;
+  --strip-h:   184px;
+  --detail-w:  340px;
+  --filters-w: 272px;
+}
+
+@media (max-width: 1279px) {
+  :root {
+    --grid-columns:         8;
+    --grid-gutter:          24px;
+    --grid-margin:          32px;
+    --layout-screen-margin: 32px;
+    --layout-gutter:        24px;
+  }
+}
+
+@media (max-width: 767px) {
+  :root {
+    --grid-columns:         4;
+    --grid-gutter:          16px;
+    --grid-margin:          16px;
+    --layout-screen-margin: 16px;
+    --layout-gutter:        16px;
+  }
+}
+
+/* ─── THÈME LIGHT ─────────────────────────────────────────────────────────── */
+:root {
+  /* Backgrounds */
+  --background-page:            #faf9f5;  /* neutral/50 */
+  --background-subtle:          #f2f0e8;  /* neutral/100 */
+  --background-inverse:         #171610;  /* neutral/900 */
+  --background-brand-primary:   #9c7d4a;  /* brand/600 */
+  --background-brand-secondary: #faf7f0;  /* brand/50 */
+
+  /* Surfaces */
+  --surface-level-01: #ffffff;
+  --surface-level-02: #ffffff;
+  --surface-level-03: #ffffff;
+
+  /* Borders */
+  --border-surface:    transparent;
+  --border-subtle:     #e4e1d5;  /* neutral/200 */
+  --border-strong:     #a8a596;  /* neutral/400 */
+  --border-on-inverse: #43413a;  /* neutral/700 */
+
+  /* Textes */
+  --text-primary:            #171610;  /* neutral/900 */
+  --text-secondary:          #605e53;  /* neutral/600 */
+  --text-on-brand-primary:   #ffffff;
+  --text-on-brand-secondary: #3a2d18;  /* brand/900 */
+  --text-on-inverse:         #faf9f5;  /* neutral/50 */
+
+  /* Semi-transparents sur fond inversé */
+  --text-on-inverse-faint: rgba(250,249,245,0.45);
+  --text-on-inverse-half:  rgba(250,249,245,0.50);
+  --text-on-inverse-dim:   rgba(250,249,245,0.40);
+  --text-on-inverse-muted: rgba(250,249,245,0.35);
+  --bg-inverse-overlay:    rgba(23,22,16,0.55);
+  --bg-inverse-heavy:      rgba(23,22,16,0.85);
+  --bg-page-glass:         rgba(250,249,245,0.97);
+  --bg-page-ghost:         rgba(250,249,245,0.85);
+
+  /* Icônes */
+  --icon-primary:            #171610;  /* neutral/900 */
+  --icon-secondary:          #7e7c6f;  /* neutral/500 */
+  --icon-on-brand-primary:   #ffffff;
+  --icon-on-brand-secondary: #7d6138;  /* brand/700 */
+  --icon-on-inverse:         #faf9f5;  /* neutral/50 */
+
+  /* Feedback: success (inchangé) */
+  --feedback-success-text-on:    #054d28;
+  --feedback-success-icon-on:    #067739;
+  --feedback-success-background: #f0fdf4;
+  --feedback-success-text:       #065d2f;
+  --feedback-success-border:     #9ff3c3;
+  --feedback-success-icon:       #059645;
+
+  /* Feedback: error (inchangé) */
+  --feedback-error-text-on:    #721f1f;
+  --feedback-error-icon-on:    #a71919;
+  --feedback-error-background: #fff0f0;
+  --feedback-error-text:       #891a1a;
+  --feedback-error-border:     #fea5a5;
+  --feedback-error-icon:       #cd1d1d;
+
+  /* Feedback: warning (inchangé) */
+  --feedback-warning-text-on:    #723d13;
+  --feedback-warning-icon-on:    #a85c06;
+  --feedback-warning-background: #fff9eb;
+  --feedback-warning-text:       #88490e;
+  --feedback-warning-border:     #fde08d;
+  --feedback-warning-icon:       #d67d04;
+
+  /* Feedback: info (brand) */
+  --feedback-info-text-on:    #3a2d18;  /* brand/900 */
+  --feedback-info-icon-on:    #7d6138;  /* brand/700 */
+  --feedback-info-background: #faf7f0;  /* brand/50 */
+  --feedback-info-text:       #5c4728;  /* brand/800 */
+  --feedback-info-border:     #e8dbbe;  /* brand/200 */
+  --feedback-info-icon:       #9c7d4a;  /* brand/600 */
+
+  /* Boutons: primary */
+  --button-primary-background-default:  #9c7d4a;  /* brand/600 */
+  --button-primary-background-hover:    #7d6138;  /* brand/700 */
+  --button-primary-background-active:   #5c4728;  /* brand/800 */
+  --button-primary-background-disabled: #e4e1d5;  /* neutral/200 */
+  --button-primary-text-default:        #ffffff;
+  --button-primary-text-hover:          #ffffff;
+  --button-primary-text-active:         #ffffff;
+  --button-primary-text-disabled:       #a8a596;  /* neutral/400 */
+  --button-primary-border-default:      transparent;
+
+  /* Boutons: secondary */
+  --button-secondary-background-default:  transparent;
+  --button-secondary-background-hover:    #faf7f0;  /* brand/50 */
+  --button-secondary-background-active:   #f3ecda;  /* brand/100 */
+  --button-secondary-background-disabled: transparent;
+  --button-secondary-text-default:        #9c7d4a;  /* brand/600 */
+  --button-secondary-text-hover:          #7d6138;  /* brand/700 */
+  --button-secondary-text-active:         #5c4728;  /* brand/800 */
+  --button-secondary-text-disabled:       #a8a596;  /* neutral/400 */
+  --button-secondary-border-default:      #9c7d4a;
+  --button-secondary-border-hover:        #7d6138;
+  --button-secondary-border-active:       #5c4728;
+  --button-secondary-border-disabled:     #ccc9ba;  /* neutral/300 */
+
+  /* Boutons: ghost */
+  --button-ghost-background-default:  transparent;
+  --button-ghost-background-hover:    #f2f0e8;  /* neutral/100 */
+  --button-ghost-background-active:   #e4e1d5;  /* neutral/200 */
+  --button-ghost-background-disabled: transparent;
+  --button-ghost-text-default:        #43413a;  /* neutral/700 */
+  --button-ghost-text-hover:          #171610;  /* neutral/900 */
+  --button-ghost-text-active:         #171610;
+  --button-ghost-text-disabled:       #a8a596;  /* neutral/400 */
+
+  /* Boutons: tertiary */
+  --button-tertiary-background-default:  transparent;
+  --button-tertiary-background-hover:    #f2f0e8;  /* neutral/100 */
+  --button-tertiary-background-active:   #e4e1d5;  /* neutral/200 */
+  --button-tertiary-background-disabled: transparent;
+  --button-tertiary-text-default:        #43413a;  /* neutral/700 */
+  --button-tertiary-text-hover:          #171610;  /* neutral/900 */
+  --button-tertiary-text-active:         #171610;
+  --button-tertiary-text-disabled:       #a8a596;  /* neutral/400 */
+  --button-tertiary-border-default:      #ccc9ba;  /* neutral/300 */
+  --button-tertiary-border-hover:        #7e7c6f;  /* neutral/500 */
+  --button-tertiary-border-active:       #43413a;  /* neutral/700 */
+  --button-tertiary-border-disabled:     #e4e1d5;  /* neutral/200 */
+
+  /* Boutons: destructive */
+  --button-destructive-background-default:  #cd1d1d;
+  --button-destructive-background-hover:    #a71919;
+  --button-destructive-background-active:   #891a1a;
+  --button-destructive-background-disabled: #e4e1d5;  /* neutral/200 */
+  --button-destructive-text-default:        #ffffff;
+  --button-destructive-text-disabled:       #a8a596;
+
+  /* Lien */
+  --link-text-default: #9c7d4a;  /* brand/600 */
+  --link-text-hover:   #7d6138;  /* brand/700 */
+  --link-text-active:  #5c4728;  /* brand/800 */
+  --link-text-visited: #3a2d18;  /* brand/900 */
+
+  /* Input */
+  --input-background-default:   #ffffff;
+  --input-background-hover:     #faf9f5;  /* neutral/50 */
+  --input-background-active:    #ffffff;
+  --input-background-disabled:  #f2f0e8;  /* neutral/100 */
+  --input-background-error:     #fff0f0;
+  --input-text-default:         #171610;  /* neutral/900 */
+  --input-text-hover:           #171610;
+  --input-text-active:          #171610;
+  --input-text-disabled:        #a8a596;  /* neutral/400 */
+  --input-placeholder-default:  #a8a596;  /* neutral/400 */
+  --input-placeholder-disabled: #ccc9ba;  /* neutral/300 */
+  --input-border-default:       #ccc9ba;  /* neutral/300 */
+  --input-border-hover:         #7e7c6f;  /* neutral/500 */
+  --input-border-active:        #9c7d4a;  /* brand/600 */
+  --input-border-disabled:      #e4e1d5;  /* neutral/200 */
+  --input-border-error:         #ef2d2d;  /* error/500 */
+
+  /* Controls */
+  --control-background-default:  #ffffff;
+  --control-background-hover:    #faf9f5;  /* neutral/50 */
+  --control-background-selected: #9c7d4a;  /* brand/600 */
+  --control-background-disabled: #f2f0e8;  /* neutral/100 */
+  --control-border-default:      #ccc9ba;  /* neutral/300 */
+  --control-border-hover:        #c9b07c;  /* brand/400 */
+  --control-border-selected:     #9c7d4a;  /* brand/600 */
+  --control-border-disabled:     #e4e1d5;  /* neutral/200 */
+  --control-check-selected:      #ffffff;
+  --control-check-disabled:      #ccc9ba;  /* neutral/300 */
+
+  /* Tags / Chips */
+  --tag-background-default:  transparent;
+  --tag-background-hover:    #f2f0e8;  /* neutral/100 */
+  --tag-background-selected: #faf7f0;  /* brand/50 */
+  --tag-background-active:   #e4e1d5;  /* neutral/200 */
+  --tag-background-disabled: #faf9f5;  /* neutral/50 */
+  --tag-text-default:        #43413a;  /* neutral/700 */
+  --tag-text-hover:          #171610;  /* neutral/900 */
+  --tag-text-selected:       #7d6138;  /* brand/700 */
+  --tag-text-active:         #171610;
+  --tag-text-disabled:       #a8a596;  /* neutral/400 */
+  --tag-border-default:      #ccc9ba;  /* neutral/300 */
+  --tag-border-hover:        #7e7c6f;  /* neutral/500 */
+  --tag-border-selected:     #9c7d4a;  /* brand/600 */
+  --tag-border-active:       #605e53;  /* neutral/600 */
+  --tag-border-disabled:     #e4e1d5;  /* neutral/200 */
+
+  /* Menu items */
+  --menu-item-background-default:  transparent;
+  --menu-item-background-hover:    #f2f0e8;  /* neutral/100 */
+  --menu-item-background-selected: #faf7f0;  /* brand/50 */
+  --menu-item-background-active:   #e4e1d5;  /* neutral/200 */
+  --menu-item-background-disabled: transparent;
+  --menu-item-text-default:        #2a2924;  /* neutral/800 */
+  --menu-item-text-hover:          #171610;  /* neutral/900 */
+  --menu-item-text-selected:       #7d6138;  /* brand/700 */
+  --menu-item-text-active:         #171610;
+  --menu-item-text-disabled:       #a8a596;  /* neutral/400 */
+  --menu-item-icon-default:        #7e7c6f;  /* neutral/500 */
+  --menu-item-icon-hover:          #43413a;  /* neutral/700 */
+  --menu-item-icon-selected:       #9c7d4a;  /* brand/600 */
+  --menu-item-icon-active:         #171610;
+  --menu-item-icon-disabled:       #ccc9ba;  /* neutral/300 */
+  --menu-item-border-selected:     #9c7d4a;  /* brand/600 */
+
+  /* Surfaces interactives */
+  --surface-interactive-background-default:  transparent;
+  --surface-interactive-background-hover:    #faf9f5;  /* neutral/50 */
+  --surface-interactive-background-active:   #f2f0e8;  /* neutral/100 */
+  --surface-interactive-background-selected: #faf7f0;  /* brand/50 */
+  --surface-interactive-background-disabled: #faf9f5;
+
+  /* Focus */
+  --focus-on-background-default:  #9c7d4a;  /* brand/600 */
+  --focus-on-background-subtle:   #9c7d4a;
+  --focus-on-background-inverse:  #ffffff;
+  --focus-on-brand-primary:       #ffffff;
+  --focus-on-brand-secondary:     #5c4728;  /* brand/800 */
+  --focus-on-success:             #067739;
+  --focus-on-error:               #a71919;
+  --focus-on-warning:             #a85c06;
+  --focus-on-info:                #7d6138;  /* brand/700 */
+
+  /* Élévations */
+  --elevation-anchored: 0 1px 2px rgba(0,0,0,0.059), 0 1px 3px rgba(0,0,0,0.10);
+  --elevation-floating: 0 2px 4px rgba(0,0,0,0.059), 0 4px 6px rgba(0,0,0,0.10);
+  --elevation-overlay:  0 4px 6px rgba(0,0,0,0.051), 0 10px 15px rgba(0,0,0,0.10);
+}
+
+/* ─── THÈME DARK ──────────────────────────────────────────────────────────── */
+[data-theme="dark"] {
+  /* Backgrounds */
+  --background-page:            #171610;  /* neutral/900 */
+  --background-subtle:          #2a2924;  /* neutral/800 */
+  --background-inverse:         #faf9f5;  /* neutral/50 */
+  --background-brand-primary:   #7d6138;  /* brand/700 */
+  --background-brand-secondary: #3a2d18;  /* brand/900 */
+
+  /* Surfaces */
+  --surface-level-01: #2a2924;  /* neutral/800 */
+  --surface-level-02: #43413a;  /* neutral/700 */
+  --surface-level-03: #2a2924;
+
+  /* Borders */
+  --border-surface:    #43413a;  /* neutral/700 */
+  --border-subtle:     #43413a;
+  --border-strong:     #7e7c6f;  /* neutral/500 */
+  --border-on-inverse: #e4e1d5;  /* neutral/200 */
+
+  /* Textes */
+  --text-primary:            #faf9f5;  /* neutral/50 */
+  --text-secondary:          #a8a596;  /* neutral/400 */
+  --text-on-brand-primary:   #ffffff;
+  --text-on-brand-secondary: #f3ecda;  /* brand/100 */
+  --text-on-inverse:         #171610;  /* neutral/900 */
+
+  /* Semi-transparents */
+  --text-on-inverse-faint: rgba(23,22,16,0.45);
+  --text-on-inverse-half:  rgba(23,22,16,0.50);
+  --text-on-inverse-dim:   rgba(23,22,16,0.40);
+  --text-on-inverse-muted: rgba(23,22,16,0.35);
+  --bg-inverse-overlay:    rgba(250,249,245,0.55);
+  --bg-inverse-heavy:      rgba(250,249,245,0.85);
+  --bg-page-glass:         rgba(23,22,16,0.97);
+  --bg-page-ghost:         rgba(23,22,16,0.85);
+
+  /* Icônes */
+  --icon-primary:            #faf9f5;
+  --icon-secondary:          #a8a596;  /* neutral/400 */
+  --icon-on-brand-primary:   #ffffff;
+  --icon-on-brand-secondary: #e8dbbe;  /* brand/200 */
+  --icon-on-inverse:         #171610;
+
+  /* Feedback: success */
+  --feedback-success-text-on:    #cffae0;
+  --feedback-success-icon-on:    #5de498;
+  --feedback-success-background: #054d28;
+  --feedback-success-text:       #9ff3c3;
+  --feedback-success-border:     #067739;
+  --feedback-success-icon:       #26ce6f;
+
+  /* Feedback: error */
+  --feedback-error-text-on:    #ffd1d1;
+  --feedback-error-icon-on:    #fc7474;
+  --feedback-error-background: #721f1f;
+  --feedback-error-text:       #fea5a5;
+  --feedback-error-border:     #a71919;
+  --feedback-error-icon:       #f74a4a;
+
+  /* Feedback: warning */
+  --feedback-warning-text-on:    #fef2cc;
+  --feedback-warning-icon-on:    #fbc846;
+  --feedback-warning-background: #723d13;
+  --feedback-warning-text:       #fde08d;
+  --feedback-warning-border:     #a85c06;
+  --feedback-warning-icon:       #f9b315;
+
+  /* Feedback: info (brand dark) */
+  --feedback-info-text-on:    #f3ecda;  /* brand/100 */
+  --feedback-info-icon-on:    #dac798;  /* brand/300 */
+  --feedback-info-background: #3a2d18;  /* brand/900 */
+  --feedback-info-text:       #e8dbbe;  /* brand/200 */
+  --feedback-info-border:     #7d6138;  /* brand/700 */
+  --feedback-info-icon:       #c9b07c;  /* brand/400 */
+
+  /* Boutons: primary */
+  --button-primary-background-default:  #b89862;  /* brand/500 */
+  --button-primary-background-hover:    #c9b07c;  /* brand/400 */
+  --button-primary-background-active:   #dac798;  /* brand/300 */
+  --button-primary-background-disabled: #43413a;  /* neutral/700 */
+  --button-primary-text-default:        #ffffff;
+  --button-primary-text-hover:          #ffffff;
+  --button-primary-text-active:         #ffffff;
+  --button-primary-text-disabled:       #7e7c6f;  /* neutral/500 */
+
+  /* Boutons: secondary */
+  --button-secondary-background-hover:    #3a2d18;  /* brand/900 */
+  --button-secondary-background-active:   #5c4728;  /* brand/800 */
+  --button-secondary-text-default:        #c9b07c;  /* brand/400 */
+  --button-secondary-text-hover:          #dac798;  /* brand/300 */
+  --button-secondary-text-active:         #e8dbbe;  /* brand/200 */
+  --button-secondary-text-disabled:       #7e7c6f;
+  --button-secondary-border-default:      #c9b07c;
+  --button-secondary-border-hover:        #dac798;
+  --button-secondary-border-active:       #e8dbbe;
+  --button-secondary-border-disabled:     #605e53;  /* neutral/600 */
+
+  /* Boutons: ghost */
+  --button-ghost-background-hover:    #2a2924;  /* neutral/800 */
+  --button-ghost-background-active:   #43413a;  /* neutral/700 */
+  --button-ghost-text-default:        #ccc9ba;  /* neutral/300 */
+  --button-ghost-text-hover:          #f2f0e8;  /* neutral/100 */
+  --button-ghost-text-active:         #f2f0e8;
+  --button-ghost-text-disabled:       #7e7c6f;
+
+  /* Boutons: tertiary */
+  --button-tertiary-background-hover:    #2a2924;
+  --button-tertiary-background-active:   #43413a;
+  --button-tertiary-text-default:        #ccc9ba;  /* neutral/300 */
+  --button-tertiary-text-hover:          #f2f0e8;  /* neutral/100 */
+  --button-tertiary-text-active:         #f2f0e8;
+  --button-tertiary-text-disabled:       #7e7c6f;
+  --button-tertiary-border-default:      #605e53;  /* neutral/600 */
+  --button-tertiary-border-hover:        #a8a596;  /* neutral/400 */
+  --button-tertiary-border-active:       #e4e1d5;  /* neutral/200 */
+  --button-tertiary-border-disabled:     #43413a;  /* neutral/700 */
+
+  /* Lien */
+  --link-text-default: #c9b07c;  /* brand/400 */
+  --link-text-hover:   #dac798;  /* brand/300 */
+  --link-text-active:  #e8dbbe;  /* brand/200 */
+  --link-text-visited: #f3ecda;  /* brand/100 */
+
+  /* Input */
+  --input-background-default:   #2a2924;  /* neutral/800 */
+  --input-background-hover:     #2a2924;
+  --input-background-active:    #2a2924;
+  --input-background-disabled:  #43413a;  /* neutral/700 */
+  --input-background-error:     #721f1f;
+  --input-text-default:         #faf9f5;  /* neutral/50 */
+  --input-text-hover:           #faf9f5;
+  --input-text-active:          #faf9f5;
+  --input-text-disabled:        #7e7c6f;  /* neutral/500 */
+  --input-placeholder-default:  #7e7c6f;
+  --input-placeholder-disabled: #605e53;  /* neutral/600 */
+  --input-border-default:       #605e53;
+  --input-border-hover:         #a8a596;  /* neutral/400 */
+  --input-border-active:        #c9b07c;  /* brand/400 */
+  --input-border-disabled:      #43413a;
+  --input-border-error:         #f74a4a;
+
+  /* Controls */
+  --control-background-default:  #2a2924;
+  --control-background-hover:    #43413a;
+  --control-background-selected: #b89862;  /* brand/500 */
+  --control-background-disabled: #43413a;
+  --control-border-default:      #7e7c6f;  /* neutral/500 */
+  --control-border-hover:        #c9b07c;  /* brand/400 */
+  --control-border-selected:     #b89862;  /* brand/500 */
+  --control-border-disabled:     #605e53;
+  --control-check-disabled:      #605e53;
+
+  /* Tags */
+  --tag-background-hover:    #2a2924;
+  --tag-background-selected: #3a2d18;  /* brand/900 */
+  --tag-background-disabled: #2a2924;
+  --tag-background-active:   #43413a;
+  --tag-text-default:        #ccc9ba;  /* neutral/300 */
+  --tag-text-hover:          #f2f0e8;  /* neutral/100 */
+  --tag-text-selected:       #dac798;  /* brand/300 */
+  --tag-text-active:         #f2f0e8;
+  --tag-text-disabled:       #7e7c6f;
+  --tag-border-default:      #605e53;
+  --tag-border-hover:        #a8a596;
+  --tag-border-selected:     #c9b07c;  /* brand/400 */
+  --tag-border-active:       #ccc9ba;
+  --tag-border-disabled:     #43413a;
+
+  /* Menu items */
+  --menu-item-background-hover:    #2a2924;
+  --menu-item-background-selected: #3a2d18;  /* brand/900 */
+  --menu-item-background-active:   #43413a;
+  --menu-item-text-default:        #e4e1d5;  /* neutral/200 */
+  --menu-item-text-hover:          #f2f0e8;  /* neutral/100 */
+  --menu-item-text-selected:       #dac798;  /* brand/300 */
+  --menu-item-text-active:         #f2f0e8;
+  --menu-item-text-disabled:       #7e7c6f;
+  --menu-item-icon-default:        #a8a596;
+  --menu-item-icon-hover:          #ccc9ba;
+  --menu-item-icon-selected:       #c9b07c;  /* brand/400 */
+  --menu-item-icon-active:         #f2f0e8;
+  --menu-item-icon-disabled:       #605e53;
+  --menu-item-border-selected:     #c9b07c;  /* brand/400 */
+
+  /* Surfaces interactives */
+  --surface-interactive-background-hover:    #2a2924;
+  --surface-interactive-background-active:   #43413a;
+  --surface-interactive-background-selected: #3a2d18;
+  --surface-interactive-background-disabled: #2a2924;
+
+  /* Focus */
+  --focus-on-background-default:  #c9b07c;  /* brand/400 */
+  --focus-on-background-subtle:   #c9b07c;
+  --focus-on-brand-secondary:     #e8dbbe;  /* brand/200 */
+  --focus-on-info:                #dac798;  /* brand/300 */
+
+  /* Élévations dark : contour à la place des ombres */
+  --elevation-anchored: none;
+  --elevation-floating: none;
+  --elevation-overlay:  none;
+}

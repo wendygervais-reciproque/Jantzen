@@ -1,0 +1,53 @@
+{
+  "id_bat": 525,
+  "libelle": "112 quai de Jemmapes",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "112 quai de Jemmapes",
+    "numero": "112",
+    "voie": "quai de Jemmapes"
+  },
+  "arrondissement": 10,
+  "coordonnees": {
+    "latitude": "48.874405",
+    "longitude": "2.363596"
+  },
+  "id_pss": 30875,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 7274,
+  "terme_jantzen_bat": [
+    "façade",
+    "oriel",
+    "brique"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_7274",
+      "IndexJantzen": [
+        "brique",
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_7275",
+      "IndexJantzen": [
+        "brique",
+        "façade",
+        "oriel"
+      ]
+    },
+    {
+      "id_pic": "image_7276",
+      "IndexJantzen": [
+        "brique",
+        "oriel"
+      ]
+    }
+  ]
+}

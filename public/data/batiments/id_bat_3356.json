@@ -1,0 +1,106 @@
+{
+  "id_bat": 3356,
+  "libelle": "7 à 9 rue Rembrandt",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 319,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1896",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "7 à 9 rue Rembrandt",
+    "numero": "7 à 9",
+    "voie": "rue Rembrandt"
+  },
+  "arrondissement": 8,
+  "coordonnees": {
+    "latitude": "48.877224",
+    "longitude": "2.308031"
+  },
+  "id_pss": 10181,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": "image_Rembrandt-7-9_8_§1",
+  "terme_jantzen_bat": [
+    "métal",
+    "sculpture",
+    "console",
+    "oriel",
+    "garde-corps",
+    "clé",
+    "façade",
+    "fenetre"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_Rembrandt-7-9_8_§1",
+      "IndexJantzen": [
+        "façade",
+        "métal"
+      ]
+    },
+    {
+      "id_pic": "image_Rembrandt-7-9_8_§2",
+      "IndexJantzen": [
+        "fenetre",
+        "métal",
+        "oriel"
+      ]
+    },
+    {
+      "id_pic": "image_Rembrandt-7-9_8_§3",
+      "IndexJantzen": [
+        "fenetre",
+        "métal",
+        "oriel"
+      ]
+    },
+    {
+      "id_pic": "image_Rembrandt-7-9_8_§4",
+      "IndexJantzen": [
+        "métal",
+        "oriel"
+      ]
+    },
+    {
+      "id_pic": "image_Rembrandt-7-9_8_§5",
+      "IndexJantzen": [
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_Rembrandt-7-9_8_§6",
+      "IndexJantzen": [
+        "clé",
+        "fenetre",
+        "garde-corps"
+      ]
+    },
+    {
+      "id_pic": "image_Rembrandt-7-9_8_§7",
+      "IndexJantzen": [
+        "métal",
+        "oriel"
+      ]
+    },
+    {
+      "id_pic": "image_Rembrandt-7-9_8_§8",
+      "IndexJantzen": [
+        "console",
+        "métal"
+      ]
+    },
+    {
+      "id_pic": "image_Rembrandt-7-9_8_§9",
+      "IndexJantzen": [
+        "console",
+        "sculpture"
+      ]
+    }
+  ]
+}

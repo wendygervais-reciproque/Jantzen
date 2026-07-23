@@ -1,0 +1,70 @@
+{
+  "id_bat": 3696,
+  "libelle": "83 avenue Henri-Martin",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 654,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1908",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "83 avenue Henri-Martin",
+    "numero": "83",
+    "voie": "avenue Henri-Martin"
+  },
+  "arrondissement": 16,
+  "coordonnees": {
+    "latitude": "48.864099",
+    "longitude": "2.275045"
+  },
+  "id_pss": 41693,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 6322,
+  "terme_jantzen_bat": [
+    "loggia",
+    "lucarne",
+    "clé",
+    "colonne",
+    "dome",
+    "fenetre",
+    "sculpture"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_6322",
+      "IndexJantzen": [
+        "dome",
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_6323",
+      "IndexJantzen": [
+        "clé",
+        "colonne",
+        "loggia"
+      ]
+    },
+    {
+      "id_pic": "image_6324",
+      "IndexJantzen": [
+        "fenetre",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_6325",
+      "IndexJantzen": [
+        "clé",
+        "fenetre",
+        "sculpture"
+      ]
+    }
+  ]
+}

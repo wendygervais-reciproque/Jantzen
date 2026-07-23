@@ -1,0 +1,56 @@
+{
+  "id_bat": 2580,
+  "libelle": "40 rue Manin",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 503,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1900",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "40 rue Manin",
+    "numero": "40",
+    "voie": "rue Manin"
+  },
+  "arrondissement": 19,
+  "coordonnees": {
+    "latitude": "48.883811",
+    "longitude": "2.39021"
+  },
+  "id_pss": 10786,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 9113,
+  "terme_jantzen_bat": [
+    "porte-bois",
+    "brique",
+    "fenetre",
+    "décor",
+    "métal",
+    "fronton"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_9113",
+      "IndexJantzen": [
+        "brique",
+        "décor",
+        "fenetre",
+        "métal"
+      ]
+    },
+    {
+      "id_pic": "image_9114",
+      "IndexJantzen": [
+        "brique",
+        "fronton",
+        "porte-bois"
+      ]
+    }
+  ]
+}

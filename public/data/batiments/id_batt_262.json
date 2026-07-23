@@ -1,0 +1,60 @@
+{
+  "id_bat": 262,
+  "libelle": "1 rue Rousselet",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 104,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1905",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "1 rue Rousselet",
+    "numero": "1",
+    "voie": "rue Rousselet"
+  },
+  "arrondissement": 7,
+  "coordonnees": {
+    "latitude": "48.850051",
+    "longitude": "2.317856"
+  },
+  "id_pss": 41685,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 13281,
+  "terme_jantzen_bat": [
+    "façade-d'angle",
+    "oriel",
+    "céramique",
+    "brique",
+    "porte-fer"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_13281",
+      "IndexJantzen": [
+        "brique",
+        "façade-d'angle",
+        "oriel"
+      ]
+    },
+    {
+      "id_pic": "image_13282",
+      "IndexJantzen": [
+        "brique",
+        "oriel"
+      ]
+    },
+    {
+      "id_pic": "image_13283",
+      "IndexJantzen": [
+        "céramique",
+        "porte-fer"
+      ]
+    }
+  ]
+}

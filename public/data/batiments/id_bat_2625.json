@@ -1,0 +1,66 @@
+{
+  "id_bat": 2625,
+  "libelle": "42 rue Decamps",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 100,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1904",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "42 rue Decamps",
+    "numero": "42",
+    "voie": "rue Decamps"
+  },
+  "arrondissement": 16,
+  "coordonnees": {
+    "latitude": "48.863306",
+    "longitude": "2.277495"
+  },
+  "id_pss": 27729,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": "image_Decamps-42_16_§1",
+  "terme_jantzen_bat": [
+    "sculpture",
+    "console",
+    "porte-bois",
+    "dome",
+    "fenetre"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_Decamps-42_16_§1",
+      "IndexJantzen": [
+        "console",
+        "dome",
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_Decamps-42_16_§2",
+      "IndexJantzen": [
+        "console",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_Decamps-42_16_§3",
+      "IndexJantzen": [
+        "console",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_Decamps-42_16_§4",
+      "IndexJantzen": [
+        "porte-bois"
+      ]
+    }
+  ]
+}

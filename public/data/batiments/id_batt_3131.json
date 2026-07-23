@@ -1,0 +1,47 @@
+{
+  "id_bat": 3131,
+  "libelle": "6 rue de la Grande-Chaumière",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": [
+    "1850-1869"
+  ],
+  "adresse": {
+    "affichage": "6 rue de la Grande-Chaumière",
+    "numero": "6",
+    "voie": "rue de la Grande-Chaumière"
+  },
+  "arrondissement": 6,
+  "coordonnees": {
+    "latitude": "48.842448",
+    "longitude": "2.33097"
+  },
+  "id_pss": null,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 5450,
+  "terme_jantzen_bat": [
+    "façade",
+    "porte-bois",
+    "verrière",
+    "brique"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_5450",
+      "IndexJantzen": [
+        "brique",
+        "façade",
+        "verrière"
+      ]
+    },
+    {
+      "id_pic": "image_5451",
+      "IndexJantzen": [
+        "brique",
+        "porte-bois"
+      ]
+    }
+  ]
+}

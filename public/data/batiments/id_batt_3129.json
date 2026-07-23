@@ -1,0 +1,124 @@
+{
+  "id_bat": 3129,
+  "libelle": "6 rue de Hanovre",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 251,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1908",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "6 rue de Hanovre",
+    "numero": "6",
+    "voie": "rue de Hanovre"
+  },
+  "arrondissement": 2,
+  "coordonnees": {
+    "latitude": "48.870228",
+    "longitude": "2.335479"
+  },
+  "id_pss": 8560,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 5924,
+  "terme_jantzen_bat": [
+    "oriel",
+    "porte-fer",
+    "façade",
+    "décor",
+    "métal",
+    "intérieur",
+    "verrière",
+    "mosaique"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_5924",
+      "IndexJantzen": [
+        "façade",
+        "mosaique",
+        "verrière"
+      ]
+    },
+    {
+      "id_pic": "image_5925",
+      "IndexJantzen": [
+        "décor",
+        "mosaique",
+        "porte-fer"
+      ]
+    },
+    {
+      "id_pic": "image_5926",
+      "IndexJantzen": [
+        "décor",
+        "porte-fer"
+      ]
+    },
+    {
+      "id_pic": "image_5927",
+      "IndexJantzen": [
+        "décor",
+        "intérieur",
+        "mosaique"
+      ]
+    },
+    {
+      "id_pic": "image_5928",
+      "IndexJantzen": [
+        "mosaique",
+        "métal",
+        "oriel"
+      ]
+    },
+    {
+      "id_pic": "image_5929",
+      "IndexJantzen": [
+        "décor",
+        "métal",
+        "oriel"
+      ]
+    },
+    {
+      "id_pic": "image_5930",
+      "IndexJantzen": [
+        "décor",
+        "oriel"
+      ]
+    },
+    {
+      "id_pic": "image_5931",
+      "IndexJantzen": [
+        "décor",
+        "métal",
+        "oriel"
+      ]
+    },
+    {
+      "id_pic": "image_5932",
+      "IndexJantzen": [
+        "décor",
+        "mosaique"
+      ]
+    },
+    {
+      "id_pic": "image_5933",
+      "IndexJantzen": [
+        "décor",
+        "mosaique"
+      ]
+    },
+    {
+      "id_pic": "image_5934",
+      "IndexJantzen": [
+        "décor",
+        "mosaique"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "id_bat": 950,
+  "libelle": "141 boulevard Saint-Michel",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 572,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1912",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "141 boulevard Saint-Michel",
+    "numero": "141",
+    "voie": "boulevard Saint-Michel"
+  },
+  "arrondissement": 5,
+  "coordonnees": {
+    "latitude": "48.84131",
+    "longitude": "2.337754"
+  },
+  "id_pss": 88413,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 14760,
+  "terme_jantzen_bat": [
+    "fronton",
+    "lucarne",
+    "toiture"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_14760",
+      "IndexJantzen": [
+        "fronton",
+        "lucarne",
+        "toiture"
+      ]
+    },
+    {
+      "id_pic": "image_14761",
+      "IndexJantzen": [
+        "fronton",
+        "lucarne"
+      ]
+    }
+  ]
+}

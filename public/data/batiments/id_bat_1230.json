@@ -1,0 +1,80 @@
+{
+  "id_bat": 1230,
+  "libelle": "17 rue du Faubourg-Poissonnière",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 250,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1914",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "17 rue du Faubourg-Poissonnière",
+    "numero": "17",
+    "voie": "rue du Faubourg-Poissonnière"
+  },
+  "arrondissement": 9,
+  "coordonnees": {
+    "latitude": "48.872325",
+    "longitude": "2.347796"
+  },
+  "id_pss": 499,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": "image_Faubourg-Poissonniere-17_9_§1",
+  "terme_jantzen_bat": [
+    "mosaique",
+    "brique",
+    "marquise",
+    "décor",
+    "porte-fer",
+    "fenetre"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_Faubourg-Poissonniere-17_9_§1",
+      "IndexJantzen": [
+        "brique",
+        "décor",
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_Faubourg-Poissonniere-17_9_§2",
+      "IndexJantzen": [
+        "brique",
+        "mosaique",
+        "porte-fer"
+      ]
+    },
+    {
+      "id_pic": "image_Faubourg-Poissonniere-17_9_§3",
+      "IndexJantzen": [
+        "brique",
+        "marquise",
+        "mosaique",
+        "porte-fer"
+      ]
+    },
+    {
+      "id_pic": "image_Faubourg-Poissonniere-17_9_§4",
+      "IndexJantzen": [
+        "brique",
+        "mosaique",
+        "porte-fer"
+      ]
+    },
+    {
+      "id_pic": "image_Faubourg-Poissonniere-17_9_§5",
+      "IndexJantzen": [
+        "brique",
+        "marquise",
+        "mosaique"
+      ]
+    }
+  ]
+}

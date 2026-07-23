@@ -1,0 +1,42 @@
+{
+  "id_bat": 680,
+  "libelle": "12 rue Mélingue",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 696,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1899",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "12 rue Mélingue",
+    "numero": "12",
+    "voie": "rue Mélingue"
+  },
+  "arrondissement": 19,
+  "coordonnees": {
+    "latitude": "48.875162",
+    "longitude": "2.3859"
+  },
+  "id_pss": 41655,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 9458,
+  "terme_jantzen_bat": [
+    "console",
+    "sculpture"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_9458",
+      "IndexJantzen": [
+        "console",
+        "sculpture"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "id_bat": 2738,
+  "libelle": "46 rue Spontini",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "46 rue Spontini",
+    "numero": "46",
+    "voie": "rue Spontini"
+  },
+  "arrondissement": 16,
+  "coordonnees": {
+    "latitude": "48.868432",
+    "longitude": "2.277387"
+  },
+  "id_pss": 10951,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 13802,
+  "terme_jantzen_bat": [
+    "façade-d'angle",
+    "lucarne-d'angle",
+    "toiture",
+    "fenetre",
+    "sculpture",
+    "console"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_13802",
+      "IndexJantzen": [
+        "façade-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_13803",
+      "IndexJantzen": [
+        "lucarne-d'angle",
+        "toiture"
+      ]
+    },
+    {
+      "id_pic": "image_13804",
+      "IndexJantzen": [
+        "console",
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_13805",
+      "IndexJantzen": [
+        "console",
+        "sculpture"
+      ]
+    }
+  ]
+}

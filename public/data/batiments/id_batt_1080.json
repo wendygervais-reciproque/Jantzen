@@ -1,0 +1,45 @@
+{
+  "id_bat": 1080,
+  "libelle": "158 boulevard Haussmann",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": [
+    "1870-1894"
+  ],
+  "adresse": {
+    "affichage": "158 boulevard Haussmann",
+    "numero": "158",
+    "voie": "boulevard Haussmann"
+  },
+  "arrondissement": 8,
+  "coordonnees": {
+    "latitude": "48.875265",
+    "longitude": "2.310873"
+  },
+  "id_pss": 68620,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 5980,
+  "terme_jantzen_bat": [
+    "lucarne",
+    "dome",
+    "oeil-de-boeuf"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_5980",
+      "IndexJantzen": [
+        "dome",
+        "lucarne",
+        "oeil-de-boeuf"
+      ]
+    },
+    {
+      "id_pic": "image_5981",
+      "IndexJantzen": [
+        "lucarne"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id_bat": 3092,
+  "libelle": "6 avenue Frémiet",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 9,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1913",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "6 avenue Frémiet",
+    "numero": "6",
+    "voie": "avenue Frémiet"
+  },
+  "arrondissement": 16,
+  "coordonnees": {
+    "latitude": "48.856573",
+    "longitude": "2.285232"
+  },
+  "id_pss": 49642,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 5001,
+  "terme_jantzen_bat": [
+    "sculpture",
+    "fenetre"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_5001",
+      "IndexJantzen": [
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_5002",
+      "IndexJantzen": [
+        "fenetre",
+        "sculpture"
+      ]
+    }
+  ]
+}

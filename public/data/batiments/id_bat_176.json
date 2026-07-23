@@ -1,0 +1,90 @@
+{
+  "id_bat": 176,
+  "libelle": "1 place Boieldieu",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": [
+    "1760-1829"
+  ],
+  "adresse": {
+    "affichage": "1 place Boieldieu",
+    "numero": "1",
+    "voie": "place Boieldieu"
+  },
+  "arrondissement": 2,
+  "coordonnees": {
+    "latitude": "48.870671",
+    "longitude": "2.337655"
+  },
+  "id_pss": 35875,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": "image_Boieldieu-Pl-1_2_§1",
+  "terme_jantzen_bat": [
+    "porte-bois",
+    "balcon",
+    "pilastre",
+    "garde-corps",
+    "lucarne",
+    "façade",
+    "fenetre"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_Boieldieu-Pl-1_2_§1",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_Boieldieu-Pl-1_2_§10",
+      "IndexJantzen": [
+        "balcon",
+        "porte-bois"
+      ]
+    },
+    {
+      "id_pic": "image_Boieldieu-Pl-1_2_§11",
+      "IndexJantzen": []
+    },
+    {
+      "id_pic": "image_Boieldieu-Pl-1_2_§2",
+      "IndexJantzen": [
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_Boieldieu-Pl-1_2_§4",
+      "IndexJantzen": [
+        "fenetre",
+        "pilastre"
+      ]
+    },
+    {
+      "id_pic": "image_Boieldieu-Pl-1_2_§5",
+      "IndexJantzen": [
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_Boieldieu-Pl-1_2_§7",
+      "IndexJantzen": [
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_Boieldieu-Pl-1_2_§8",
+      "IndexJantzen": [
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_Boieldieu-Pl-1_2_§9",
+      "IndexJantzen": [
+        "fenetre",
+        "garde-corps"
+      ]
+    }
+  ]
+}

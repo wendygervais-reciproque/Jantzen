@@ -1,0 +1,76 @@
+{
+  "id_bat": 3385,
+  "libelle": "7 rue Cassini",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 456,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1903",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "7 rue Cassini",
+    "numero": "7",
+    "voie": "rue Cassini"
+  },
+  "arrondissement": 14,
+  "coordonnees": {
+    "latitude": "48.836918",
+    "longitude": "2.337492"
+  },
+  "id_pss": 96516,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": "image_Cassini-7_14_§3",
+  "terme_jantzen_bat": [
+    "fenetre",
+    "porte-fer",
+    "façade",
+    "verrière"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_Cassini-7_14_§3",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_Cassini-7_14_§5",
+      "IndexJantzen": [
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_Cassini-7_14_§6",
+      "IndexJantzen": [
+        "fenetre",
+        "verrière"
+      ]
+    },
+    {
+      "id_pic": "image_Cassini-7_14_§7",
+      "IndexJantzen": [
+        "fenetre",
+        "verrière"
+      ]
+    },
+    {
+      "id_pic": "image_Cassini-7_14_§8",
+      "IndexJantzen": [
+        "fenetre",
+        "verrière"
+      ]
+    },
+    {
+      "id_pic": "image_Cassini-7_14_§9",
+      "IndexJantzen": [
+        "porte-fer"
+      ]
+    }
+  ]
+}

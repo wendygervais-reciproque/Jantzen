@@ -1,0 +1,44 @@
+{
+  "id_bat": 1746,
+  "libelle": "23 rue des Bernardins",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": "1656",
+  "periode": [
+    "1590-1659"
+  ],
+  "adresse": {
+    "affichage": "23 rue des Bernardins",
+    "numero": "23",
+    "voie": "rue des Bernardins"
+  },
+  "arrondissement": 4,
+  "coordonnees": {
+    "latitude": "48.84921",
+    "longitude": "2.350169"
+  },
+  "id_pss": 22748,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": "image_Bernardins-23_4_§1",
+  "terme_jantzen_bat": [
+    "sculpture",
+    "fronton"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_Bernardins-23_4_§1",
+      "IndexJantzen": [
+        "fronton",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_Bernardins-23_4_§2",
+      "IndexJantzen": [
+        "fronton",
+        "sculpture"
+      ]
+    }
+  ]
+}

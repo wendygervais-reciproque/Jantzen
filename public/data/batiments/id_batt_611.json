@@ -1,0 +1,91 @@
+{
+  "id_bat": 611,
+  "libelle": "12 avenue Niel",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": "1914",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "12 avenue Niel",
+    "numero": "12",
+    "voie": "avenue Niel"
+  },
+  "arrondissement": 17,
+  "coordonnees": {
+    "latitude": "48.879664",
+    "longitude": "2.294955"
+  },
+  "id_pss": 28157,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 10256,
+  "terme_jantzen_bat": [
+    "façade-d'angle",
+    "lucarne",
+    "clé",
+    "sculpture",
+    "fenetre",
+    "décor",
+    "porte-fer-hall",
+    "porte-fer"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_10256",
+      "IndexJantzen": [
+        "porte-fer"
+      ]
+    },
+    {
+      "id_pic": "image_10257",
+      "IndexJantzen": [
+        "porte-fer-hall"
+      ]
+    },
+    {
+      "id_pic": "image_10258",
+      "IndexJantzen": [
+        "clé",
+        "porte-fer",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_10259",
+      "IndexJantzen": [
+        "clé",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_10260",
+      "IndexJantzen": [
+        "clé",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_10261",
+      "IndexJantzen": [
+        "façade-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_10262",
+      "IndexJantzen": [
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_10263",
+      "IndexJantzen": [
+        "décor",
+        "fenetre",
+        "lucarne",
+        "sculpture"
+      ]
+    }
+  ]
+}

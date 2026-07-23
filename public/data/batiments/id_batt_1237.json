@@ -1,0 +1,48 @@
+{
+  "id_bat": 1237,
+  "libelle": "17 rue Fortuny",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": [
+    "1870-1894"
+  ],
+  "adresse": {
+    "affichage": "17 rue Fortuny",
+    "numero": "17",
+    "voie": "rue Fortuny"
+  },
+  "arrondissement": 17,
+  "coordonnees": {
+    "latitude": "48.882269",
+    "longitude": "2.306562"
+  },
+  "id_pss": 39165,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 4742,
+  "terme_jantzen_bat": [
+    "poignée-porte",
+    "oeil-de-boeuf",
+    "sculpture",
+    "fenetre",
+    "porte-bois"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_4742",
+      "IndexJantzen": [
+        "fenetre",
+        "oeil-de-boeuf",
+        "porte-bois"
+      ]
+    },
+    {
+      "id_pic": "image_4743",
+      "IndexJantzen": [
+        "poignée-porte",
+        "sculpture"
+      ]
+    }
+  ]
+}

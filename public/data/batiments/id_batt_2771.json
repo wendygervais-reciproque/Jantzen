@@ -1,0 +1,63 @@
+{
+  "id_bat": 2771,
+  "libelle": "48 rue Madame de Sévigné",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 242,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1808",
+  "periode": [
+    "1760-1829"
+  ],
+  "adresse": {
+    "affichage": "48 rue Madame de Sévigné",
+    "numero": "48",
+    "voie": "rue Madame de Sévigné"
+  },
+  "arrondissement": 3,
+  "coordonnees": {
+    "latitude": "48.857791",
+    "longitude": "2.363542"
+  },
+  "id_pss": 17852,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 13590,
+  "terme_jantzen_bat": [
+    "fronton",
+    "lucarne",
+    "sculpture"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_13590",
+      "IndexJantzen": [
+        "fronton",
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_13591",
+      "IndexJantzen": [
+        "fronton",
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_13592",
+      "IndexJantzen": [
+        "fronton",
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_13593",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    }
+  ]
+}

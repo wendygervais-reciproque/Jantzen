@@ -1,0 +1,51 @@
+{
+  "id_bat": 963,
+  "libelle": "144 avenue de Flandre",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 558,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1889",
+  "periode": [
+    "1870-1894"
+  ],
+  "adresse": {
+    "affichage": "144 avenue de Flandre",
+    "numero": "144",
+    "voie": "avenue de Flandre"
+  },
+  "arrondissement": 19,
+  "coordonnees": {
+    "latitude": "48.893616",
+    "longitude": "2.38098"
+  },
+  "id_pss": 77120,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 4615,
+  "terme_jantzen_bat": [
+    "fenetre",
+    "oriel",
+    "métal",
+    "façade"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_4615",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_4616",
+      "IndexJantzen": [
+        "fenetre",
+        "métal",
+        "oriel"
+      ]
+    }
+  ]
+}

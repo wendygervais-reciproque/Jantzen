@@ -1,0 +1,104 @@
+{
+  "id_bat": 513,
+  "libelle": "110 rue Amelot",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 354,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1852",
+  "periode": [
+    "1850-1869"
+  ],
+  "adresse": {
+    "affichage": "110 rue Amelot",
+    "numero": "110",
+    "voie": "rue Amelot"
+  },
+  "arrondissement": 11,
+  "coordonnees": {
+    "latitude": "48.863124",
+    "longitude": "2.367275"
+  },
+  "id_pss": 9917,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 283,
+  "terme_jantzen_bat": [
+    "fenetre",
+    "sculpture",
+    "décor",
+    "façade"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_283",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_284",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_285",
+      "IndexJantzen": [
+        "décor",
+        "fenetre",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_286",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_287",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_288",
+      "IndexJantzen": [
+        "décor",
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_289",
+      "IndexJantzen": [
+        "décor",
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_290",
+      "IndexJantzen": [
+        "décor",
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_291",
+      "IndexJantzen": [
+        "décor",
+        "fenetre",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_292",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    }
+  ]
+}

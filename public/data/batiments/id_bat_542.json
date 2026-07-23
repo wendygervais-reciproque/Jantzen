@@ -1,0 +1,78 @@
+{
+  "id_bat": 542,
+  "libelle": "114 avenue des Champs-Élysées",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": [
+    "1870-1894"
+  ],
+  "adresse": {
+    "affichage": "114 avenue des Champs-Élysées",
+    "numero": "114",
+    "voie": "avenue des Champs-Élysées"
+  },
+  "arrondissement": 8,
+  "coordonnees": {
+    "latitude": "48.872187",
+    "longitude": "2.301183"
+  },
+  "id_pss": 21717,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": "image_Champs-Elysees-114_8_§1",
+  "terme_jantzen_bat": [
+    "sculpture",
+    "console",
+    "balcon",
+    "loggia",
+    "colonne",
+    "dome",
+    "lucarne-d'angle",
+    "fenetre"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_Champs-Elysees-114_8_§1",
+      "IndexJantzen": [
+        "balcon",
+        "dome",
+        "lucarne-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_Champs-Elysees-114_8_§2",
+      "IndexJantzen": [
+        "balcon",
+        "colonne",
+        "dome",
+        "loggia",
+        "lucarne-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_Champs-Elysees-114_8_§3",
+      "IndexJantzen": [
+        "dome",
+        "loggia",
+        "lucarne-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_Champs-Elysees-114_8_§4",
+      "IndexJantzen": [
+        "dome",
+        "loggia",
+        "lucarne-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_Champs-Elysees-114_8_§5",
+      "IndexJantzen": [
+        "console",
+        "fenetre",
+        "sculpture"
+      ]
+    }
+  ]
+}

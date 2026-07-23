@@ -1,0 +1,142 @@
+{
+  "id_bat": 2178,
+  "libelle": "31 rue Campagne-Première",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 19,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1912",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "31 rue Campagne-Première",
+    "numero": "31",
+    "voie": "rue Campagne-Première"
+  },
+  "arrondissement": 14,
+  "coordonnees": {
+    "latitude": "48.838992",
+    "longitude": "2.331479"
+  },
+  "id_pss": 607,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 1878,
+  "terme_jantzen_bat": [
+    "oriel",
+    "pilastre",
+    "oeil-de-boeuf",
+    "céramique",
+    "clé",
+    "verrière",
+    "fenetre",
+    "décor",
+    "balcon",
+    "garde-corps",
+    "porte-fer"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_1878",
+      "IndexJantzen": [
+        "céramique",
+        "décor",
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_1879",
+      "IndexJantzen": [
+        "céramique",
+        "fenetre",
+        "oeil-de-boeuf",
+        "porte-fer"
+      ]
+    },
+    {
+      "id_pic": "image_1880",
+      "IndexJantzen": [
+        "céramique",
+        "décor",
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_1881",
+      "IndexJantzen": [
+        "clé",
+        "céramique",
+        "décor",
+        "oeil-de-boeuf"
+      ]
+    },
+    {
+      "id_pic": "image_1882",
+      "IndexJantzen": [
+        "céramique",
+        "décor",
+        "fenetre",
+        "verrière"
+      ]
+    },
+    {
+      "id_pic": "image_1883",
+      "IndexJantzen": [
+        "céramique",
+        "décor",
+        "oriel"
+      ]
+    },
+    {
+      "id_pic": "image_1884",
+      "IndexJantzen": [
+        "céramique",
+        "garde-corps",
+        "verrière"
+      ]
+    },
+    {
+      "id_pic": "image_1885",
+      "IndexJantzen": [
+        "balcon",
+        "céramique",
+        "décor",
+        "verrière"
+      ]
+    },
+    {
+      "id_pic": "image_1886",
+      "IndexJantzen": [
+        "balcon",
+        "céramique",
+        "verrière"
+      ]
+    },
+    {
+      "id_pic": "image_1887",
+      "IndexJantzen": [
+        "céramique",
+        "décor"
+      ]
+    },
+    {
+      "id_pic": "image_1888",
+      "IndexJantzen": [
+        "céramique",
+        "décor",
+        "pilastre"
+      ]
+    },
+    {
+      "id_pic": "image_1889",
+      "IndexJantzen": [
+        "céramique",
+        "décor"
+      ]
+    }
+  ]
+}

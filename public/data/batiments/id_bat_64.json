@@ -1,0 +1,73 @@
+{
+  "id_bat": 64,
+  "libelle": "Église Saint-Augustin",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": "1860-1871",
+  "periode": [
+    "1850-1869",
+    "1870-1894"
+  ],
+  "adresse": null,
+  "arrondissement": 8,
+  "coordonnees": {
+    "latitude": "48.8762209215312",
+    "longitude": "2.318917227874554"
+  },
+  "id_pss": 207,
+  "id_wikidata": "Q550157",
+  "WPfr": "Église Saint-Augustin de Paris",
+  "image_ref": "image_St-Augustin-Eglise_8_§1",
+  "terme_jantzen_bat": [
+    "tourelle",
+    "lucarne",
+    "dome"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_St-Augustin-Eglise_8_§1",
+      "IndexJantzen": [
+        "dome"
+      ]
+    },
+    {
+      "id_pic": "image_St-Augustin-Eglise_8_§2",
+      "IndexJantzen": [
+        "dome"
+      ]
+    },
+    {
+      "id_pic": "image_St-Augustin-Eglise_8_§3",
+      "IndexJantzen": [
+        "dome"
+      ]
+    },
+    {
+      "id_pic": "image_St-Augustin-Eglise_8_§4",
+      "IndexJantzen": [
+        "dome"
+      ]
+    },
+    {
+      "id_pic": "image_St-Augustin-Eglise_8_§5",
+      "IndexJantzen": [
+        "dome",
+        "tourelle"
+      ]
+    },
+    {
+      "id_pic": "image_St-Augustin-Eglise_8_§6",
+      "IndexJantzen": [
+        "dome",
+        "tourelle"
+      ]
+    },
+    {
+      "id_pic": "image_St-Augustin-Eglise_8_§8",
+      "IndexJantzen": [
+        "dome",
+        "lucarne"
+      ]
+    }
+  ]
+}

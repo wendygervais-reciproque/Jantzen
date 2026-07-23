@@ -1,0 +1,91 @@
+{
+  "id_bat": 1890,
+  "libelle": "26 rue de Clichy",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": "1908?",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "26 rue de Clichy",
+    "numero": "26",
+    "voie": "rue de Clichy"
+  },
+  "arrondissement": 9,
+  "coordonnees": {
+    "latitude": "48.878909",
+    "longitude": "2.329745"
+  },
+  "id_pss": 41029,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 2607,
+  "terme_jantzen_bat": [
+    "lucarne",
+    "sculpture",
+    "décor",
+    "fenetre",
+    "porte-fer-hall",
+    "balcon",
+    "garde-corps",
+    "console"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_2607",
+      "IndexJantzen": [
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_2608",
+      "IndexJantzen": [
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_2609",
+      "IndexJantzen": [
+        "décor",
+        "fenetre",
+        "garde-corps",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_2610",
+      "IndexJantzen": [
+        "balcon",
+        "garde-corps"
+      ]
+    },
+    {
+      "id_pic": "image_2611",
+      "IndexJantzen": [
+        "balcon",
+        "garde-corps"
+      ]
+    },
+    {
+      "id_pic": "image_2612",
+      "IndexJantzen": [
+        "console",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_2613",
+      "IndexJantzen": [
+        "console",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_2614",
+      "IndexJantzen": [
+        "porte-fer-hall"
+      ]
+    }
+  ]
+}

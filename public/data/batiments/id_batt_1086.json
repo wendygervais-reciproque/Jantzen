@@ -1,0 +1,53 @@
+{
+  "id_bat": 1086,
+  "libelle": "159 avenue d'Italie",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 577,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1911",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "159 avenue d'Italie",
+    "numero": "159",
+    "voie": "avenue d'Italie"
+  },
+  "arrondissement": 13,
+  "coordonnees": {
+    "latitude": "48.819642",
+    "longitude": "2.359593"
+  },
+  "id_pss": 37693,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 7079,
+  "terme_jantzen_bat": [
+    "garde-corps",
+    "sculpture",
+    "console",
+    "fenetre"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_7079",
+      "IndexJantzen": [
+        "console",
+        "fenetre",
+        "garde-corps",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_7080",
+      "IndexJantzen": [
+        "console",
+        "sculpture"
+      ]
+    }
+  ]
+}

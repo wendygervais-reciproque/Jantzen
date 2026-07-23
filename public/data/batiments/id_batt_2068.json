@@ -1,0 +1,125 @@
+{
+  "id_bat": 2068,
+  "libelle": "3 rue Danton",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 286,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1900",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "3 rue Danton",
+    "numero": "3",
+    "voie": "rue Danton"
+  },
+  "arrondissement": 6,
+  "coordonnees": {
+    "latitude": "48.852682",
+    "longitude": "2.342487"
+  },
+  "id_pss": 45937,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 3461,
+  "terme_jantzen_bat": [
+    "façade-d'angle",
+    "brique",
+    "clé",
+    "lucarne-d'angle",
+    "façade",
+    "dome",
+    "colonne",
+    "fenetre",
+    "fenetre-d'angle",
+    "balcon",
+    "porte-fer",
+    "fronton"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_3461",
+      "IndexJantzen": [
+        "clé",
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_3462",
+      "IndexJantzen": [
+        "fenetre",
+        "porte-fer"
+      ]
+    },
+    {
+      "id_pic": "image_3463",
+      "IndexJantzen": [
+        "brique",
+        "façade-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_3464",
+      "IndexJantzen": [
+        "brique",
+        "dome",
+        "fenetre-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_3465",
+      "IndexJantzen": [
+        "brique",
+        "lucarne-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_3466",
+      "IndexJantzen": [
+        "brique",
+        "lucarne-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_3467",
+      "IndexJantzen": [
+        "brique",
+        "fenetre-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_3468",
+      "IndexJantzen": [
+        "brique",
+        "fenetre-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_3469",
+      "IndexJantzen": [
+        "brique",
+        "fenetre-d'angle",
+        "fronton"
+      ]
+    },
+    {
+      "id_pic": "image_3470",
+      "IndexJantzen": [
+        "brique",
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_3471",
+      "IndexJantzen": [
+        "balcon",
+        "colonne",
+        "fenetre"
+      ]
+    }
+  ]
+}

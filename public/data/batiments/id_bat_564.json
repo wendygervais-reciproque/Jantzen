@@ -1,0 +1,76 @@
+{
+  "id_bat": 564,
+  "libelle": "116 rue Réaumur",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 10,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1897",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "116 rue Réaumur",
+    "numero": "116",
+    "voie": "rue Réaumur"
+  },
+  "arrondissement": 2,
+  "coordonnees": {
+    "latitude": "48.867927",
+    "longitude": "2.345188"
+  },
+  "id_pss": 22502,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": "image_Reaumur-116_2_§1",
+  "terme_jantzen_bat": [
+    "sculpture",
+    "console",
+    "porte-fer",
+    "fronton",
+    "fenetre",
+    "atlante"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_Reaumur-116_2_§1",
+      "IndexJantzen": [
+        "fenetre",
+        "porte-fer"
+      ]
+    },
+    {
+      "id_pic": "image_Reaumur-116_2_§2-Rs",
+      "IndexJantzen": [
+        "fenetre",
+        "porte-fer",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_Reaumur-116_2_§3",
+      "IndexJantzen": [
+        "fronton",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_Reaumur-116_2_§4",
+      "IndexJantzen": [
+        "atlante",
+        "console",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_Reaumur-116_2_§5",
+      "IndexJantzen": [
+        "console",
+        "sculpture"
+      ]
+    }
+  ]
+}

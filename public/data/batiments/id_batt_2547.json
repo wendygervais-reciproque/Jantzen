@@ -1,0 +1,41 @@
+{
+  "id_bat": 2547,
+  "libelle": "4 rue Valette",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": "1883",
+  "periode": [
+    "1870-1894"
+  ],
+  "adresse": {
+    "affichage": "4 rue Valette",
+    "numero": "4",
+    "voie": "rue Valette"
+  },
+  "arrondissement": 5,
+  "coordonnees": {
+    "latitude": "48.847525",
+    "longitude": "2.346699"
+  },
+  "id_pss": null,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 15772,
+  "terme_jantzen_bat": [
+    "fenetre",
+    "façade",
+    "porte",
+    "brique"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_15772",
+      "IndexJantzen": [
+        "brique",
+        "façade",
+        "fenetre",
+        "porte"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "id_bat": 220,
+  "libelle": "1 rue de Tilsitt",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": "1856",
+  "periode": [
+    "1850-1869"
+  ],
+  "adresse": {
+    "affichage": "1 rue de Tilsitt",
+    "numero": "1",
+    "voie": "rue de Tilsitt"
+  },
+  "arrondissement": 8,
+  "coordonnees": {
+    "latitude": "48.873611",
+    "longitude": "2.297196"
+  },
+  "id_pss": 28150,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 15207,
+  "terme_jantzen_bat": [
+    "pilastre",
+    "lucarne",
+    "façade",
+    "fenetre",
+    "sculpture",
+    "décor",
+    "fronton"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_15207",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_15211",
+      "IndexJantzen": [
+        "décor",
+        "fenetre",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_15212",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_15213",
+      "IndexJantzen": [
+        "décor",
+        "fenetre",
+        "pilastre",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_15214",
+      "IndexJantzen": [
+        "fenetre",
+        "fronton",
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_15215",
+      "IndexJantzen": [
+        "fenetre",
+        "fronton",
+        "lucarne"
+      ]
+    }
+  ]
+}

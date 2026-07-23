@@ -1,0 +1,47 @@
+{
+  "id_bat": 1997,
+  "libelle": "29 rue d'Artois",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 112,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1881",
+  "periode": [
+    "1870-1894"
+  ],
+  "adresse": {
+    "affichage": "29 rue d'Artois",
+    "numero": "29",
+    "voie": "rue d'Artois"
+  },
+  "arrondissement": 8,
+  "coordonnees": {
+    "latitude": "48.873548",
+    "longitude": "2.306616"
+  },
+  "id_pss": null,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 600,
+  "terme_jantzen_bat": [
+    "fenetre",
+    "façade"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_600",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_601",
+      "IndexJantzen": [
+        "fenetre"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "id_bat": 2068,
+  "libelle": "3 rue Danton",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 286,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1900",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "3 rue Danton",
+    "numero": "3",
+    "voie": "rue Danton"
+  },
+  "arrondissement": 6,
+  "coordonnees": {
+    "latitude": "48.852682",
+    "longitude": "2.342487"
+  },
+  "id_pss": 45937,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": "image_Danton-3_6_§10",
+  "terme_jantzen_bat": [
+    "balcon",
+    "brique",
+    "fenetre-d'angle",
+    "porte-fer",
+    "colonne",
+    "dome",
+    "façade-d'angle",
+    "clé",
+    "fronton",
+    "lucarne-d'angle",
+    "façade",
+    "fenetre"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_Danton-3_6_§10",
+      "IndexJantzen": [
+        "clé",
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_Danton-3_6_§11",
+      "IndexJantzen": [
+        "fenetre",
+        "porte-fer"
+      ]
+    },
+    {
+      "id_pic": "image_Danton-3_6_§1-Rx",
+      "IndexJantzen": [
+        "brique",
+        "façade-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_Danton-3_6_§2-Rx",
+      "IndexJantzen": [
+        "brique",
+        "dome",
+        "fenetre-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_Danton-3_6_§3-Rx",
+      "IndexJantzen": [
+        "brique",
+        "lucarne-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_Danton-3_6_§4-Rx",
+      "IndexJantzen": [
+        "brique",
+        "lucarne-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_Danton-3_6_§5-Rx",
+      "IndexJantzen": [
+        "brique",
+        "fenetre-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_Danton-3_6_§6",
+      "IndexJantzen": [
+        "brique",
+        "fenetre-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_Danton-3_6_§7",
+      "IndexJantzen": [
+        "brique",
+        "fenetre-d'angle",
+        "fronton"
+      ]
+    },
+    {
+      "id_pic": "image_Danton-3_6_§8-Rx",
+      "IndexJantzen": [
+        "brique",
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_Danton-3_6_§9",
+      "IndexJantzen": [
+        "balcon",
+        "colonne",
+        "fenetre"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "id_bat": 2429,
+  "libelle": "39 rue Scheffer",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 341,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1911",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "39 rue Scheffer",
+    "numero": "39",
+    "voie": "rue Scheffer"
+  },
+  "arrondissement": 16,
+  "coordonnees": {
+    "latitude": "48.86195",
+    "longitude": "2.282084"
+  },
+  "id_pss": 4663,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 13404,
+  "terme_jantzen_bat": [
+    "façade-d'angle",
+    "loggia",
+    "lucarne",
+    "brique",
+    "colonne",
+    "fenetre",
+    "sculpture",
+    "décor",
+    "porte-fer-hall",
+    "fenetre-d'angle",
+    "garde-corps",
+    "mosaique"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_13404",
+      "IndexJantzen": [
+        "brique",
+        "façade-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_13405",
+      "IndexJantzen": [
+        "brique",
+        "fenetre-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_13406",
+      "IndexJantzen": [
+        "brique",
+        "fenetre-d'angle",
+        "mosaique"
+      ]
+    },
+    {
+      "id_pic": "image_13407",
+      "IndexJantzen": [
+        "brique",
+        "colonne",
+        "fenetre",
+        "lucarne",
+        "mosaique",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_13408",
+      "IndexJantzen": [
+        "brique",
+        "colonne",
+        "fenetre",
+        "loggia",
+        "lucarne",
+        "mosaique",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_13409",
+      "IndexJantzen": [
+        "brique",
+        "colonne",
+        "loggia",
+        "mosaique"
+      ]
+    },
+    {
+      "id_pic": "image_13410",
+      "IndexJantzen": [
+        "brique",
+        "décor",
+        "fenetre-d'angle",
+        "mosaique",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_13411",
+      "IndexJantzen": [
+        "brique",
+        "fenetre-d'angle",
+        "mosaique"
+      ]
+    },
+    {
+      "id_pic": "image_13412",
+      "IndexJantzen": [
+        "brique",
+        "fenetre",
+        "mosaique"
+      ]
+    },
+    {
+      "id_pic": "image_13413",
+      "IndexJantzen": [
+        "brique",
+        "fenetre",
+        "garde-corps",
+        "mosaique"
+      ]
+    },
+    {
+      "id_pic": "image_13414",
+      "IndexJantzen": [
+        "brique",
+        "fenetre",
+        "garde-corps"
+      ]
+    },
+    {
+      "id_pic": "image_13415",
+      "IndexJantzen": [
+        "fenetre",
+        "garde-corps"
+      ]
+    },
+    {
+      "id_pic": "image_13416",
+      "IndexJantzen": [
+        "porte-fer-hall"
+      ]
+    }
+  ]
+}

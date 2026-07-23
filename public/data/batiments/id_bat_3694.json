@@ -1,0 +1,63 @@
+{
+  "id_bat": 3694,
+  "libelle": "82 rue Réaumur",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "82 rue Réaumur",
+    "numero": "82",
+    "voie": "rue Réaumur"
+  },
+  "arrondissement": 2,
+  "coordonnees": {
+    "latitude": "48.866686",
+    "longitude": "2.350923"
+  },
+  "id_pss": 37355,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": "image_Reaumur-82_2_§1",
+  "terme_jantzen_bat": [
+    "mosaique",
+    "sculpture",
+    "fenetre-d'angle",
+    "décor",
+    "pignon",
+    "pilastre",
+    "dome",
+    "lucarne",
+    "fronton"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_Reaumur-82_2_§1",
+      "IndexJantzen": [
+        "dome",
+        "fenetre-d'angle",
+        "pignon",
+        "pilastre"
+      ]
+    },
+    {
+      "id_pic": "image_Reaumur-82_2_§2",
+      "IndexJantzen": [
+        "décor",
+        "fenetre-d'angle",
+        "mosaique",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_Reaumur-82_2_§3",
+      "IndexJantzen": [
+        "dome",
+        "fronton",
+        "lucarne"
+      ]
+    }
+  ]
+}

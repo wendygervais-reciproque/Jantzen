@@ -1,0 +1,124 @@
+{
+  "id_bat": 3626,
+  "libelle": "8 rue de Richelieu",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 142,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1908",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "8 rue de Richelieu",
+    "numero": "8",
+    "voie": "rue de Richelieu"
+  },
+  "arrondissement": 1,
+  "coordonnees": {
+    "latitude": "48.86401",
+    "longitude": "2.336067"
+  },
+  "id_pss": 12513,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": "image_Richelieu-8_1_§1_1-Rx",
+  "terme_jantzen_bat": [
+    "sculpture",
+    "balcon",
+    "fenetre-d'angle",
+    "décor",
+    "pignon",
+    "colonne",
+    "loggia",
+    "façade-d'angle",
+    "lucarne",
+    "lucarne-d'angle",
+    "porte"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_Richelieu-8_1_§1_1-Rx",
+      "IndexJantzen": [
+        "façade-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_Richelieu-8_1_§10",
+      "IndexJantzen": [
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_Richelieu-8_1_§11_1-Rx",
+      "IndexJantzen": [
+        "lucarne-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_Richelieu-8_1_§12",
+      "IndexJantzen": [
+        "lucarne-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_Richelieu-8_1_§2",
+      "IndexJantzen": [
+        "façade-d'angle",
+        "porte"
+      ]
+    },
+    {
+      "id_pic": "image_Richelieu-8_1_§3",
+      "IndexJantzen": [
+        "fenetre-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_Richelieu-8_1_§4",
+      "IndexJantzen": [
+        "façade-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_Richelieu-8_1_§5",
+      "IndexJantzen": [
+        "fenetre-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_Richelieu-8_1_§6",
+      "IndexJantzen": [
+        "décor",
+        "lucarne-d'angle",
+        "pignon",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_Richelieu-8_1_§7",
+      "IndexJantzen": [
+        "lucarne-d'angle",
+        "pignon"
+      ]
+    },
+    {
+      "id_pic": "image_Richelieu-8_1_§8",
+      "IndexJantzen": [
+        "colonne",
+        "loggia",
+        "lucarne-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_Richelieu-8_1_§9",
+      "IndexJantzen": [
+        "balcon",
+        "lucarne-d'angle"
+      ]
+    }
+  ]
+}

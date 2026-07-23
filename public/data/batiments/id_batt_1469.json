@@ -1,0 +1,53 @@
+{
+  "id_bat": 1469,
+  "libelle": "2 rue de Messine",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 167,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1905",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "2 rue de Messine",
+    "numero": "2",
+    "voie": "rue de Messine"
+  },
+  "arrondissement": 8,
+  "coordonnees": {
+    "latitude": "48.876588",
+    "longitude": "2.310882"
+  },
+  "id_pss": 74052,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 9565,
+  "terme_jantzen_bat": [
+    "porte-fer",
+    "porte-fer-hall"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_9565",
+      "IndexJantzen": [
+        "porte-fer-hall"
+      ]
+    },
+    {
+      "id_pic": "image_9566",
+      "IndexJantzen": [
+        "porte-fer"
+      ]
+    },
+    {
+      "id_pic": "image_9567",
+      "IndexJantzen": [
+        "porte-fer"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "id_bat": 1122,
+  "libelle": "16 rue de la Procession",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 400,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1913",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "16 rue de la Procession",
+    "numero": "16",
+    "voie": "rue de la Procession"
+  },
+  "arrondissement": 15,
+  "coordonnees": {
+    "latitude": "48.839473",
+    "longitude": "2.305844"
+  },
+  "id_pss": 103289,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 12057,
+  "terme_jantzen_bat": [
+    "façade-d'angle",
+    "oriel",
+    "lucarne",
+    "céramique",
+    "lucarne-d'angle",
+    "toiture",
+    "fenetre",
+    "porte-fer-hall",
+    "fenetre-d'angle",
+    "balcon",
+    "porte-fer"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_12057",
+      "IndexJantzen": [
+        "façade-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_12058",
+      "IndexJantzen": [
+        "céramique",
+        "fenetre",
+        "oriel"
+      ]
+    },
+    {
+      "id_pic": "image_12059",
+      "IndexJantzen": [
+        "céramique",
+        "fenetre",
+        "oriel"
+      ]
+    },
+    {
+      "id_pic": "image_12060",
+      "IndexJantzen": [
+        "céramique",
+        "fenetre",
+        "oriel"
+      ]
+    },
+    {
+      "id_pic": "image_12061",
+      "IndexJantzen": [
+        "céramique",
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_12062",
+      "IndexJantzen": [
+        "porte-fer"
+      ]
+    },
+    {
+      "id_pic": "image_12063",
+      "IndexJantzen": [
+        "porte-fer-hall"
+      ]
+    },
+    {
+      "id_pic": "image_12064",
+      "IndexJantzen": [
+        "fenetre-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_12065",
+      "IndexJantzen": [
+        "fenetre-d'angle",
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_12066",
+      "IndexJantzen": [
+        "balcon",
+        "lucarne-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_12067",
+      "IndexJantzen": [
+        "céramique",
+        "fenetre",
+        "lucarne",
+        "toiture"
+      ]
+    },
+    {
+      "id_pic": "image_12068",
+      "IndexJantzen": [
+        "céramique",
+        "fenetre",
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_12069",
+      "IndexJantzen": [
+        "céramique",
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_12070",
+      "IndexJantzen": [
+        "céramique",
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_12071",
+      "IndexJantzen": [
+        "céramique",
+        "fenetre"
+      ]
+    }
+  ]
+}

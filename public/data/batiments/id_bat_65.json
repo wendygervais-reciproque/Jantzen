@@ -1,0 +1,73 @@
+{
+  "id_bat": 65,
+  "libelle": "Église Saint-Gervais-Saint-Protais ",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": [
+    "1590-1659"
+  ],
+  "adresse": null,
+  "arrondissement": 4,
+  "coordonnees": {
+    "latitude": "48.855556",
+    "longitude": "2.354444"
+  },
+  "id_pss": 17797,
+  "id_wikidata": "Q427340",
+  "WPfr": "Église Saint-Gervais-Saint-Protais de Paris",
+  "image_ref": "image_St-Gervais_4_§1",
+  "terme_jantzen_bat": [
+    "porte-bois",
+    "pignon",
+    "colonne",
+    "fronton",
+    "fenetre"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_St-Gervais_4_§1",
+      "IndexJantzen": [
+        "fenetre",
+        "pignon"
+      ]
+    },
+    {
+      "id_pic": "image_St-Gervais_4_§2",
+      "IndexJantzen": [
+        "fenetre",
+        "fronton",
+        "pignon"
+      ]
+    },
+    {
+      "id_pic": "image_St-Gervais_4_§3",
+      "IndexJantzen": [
+        "fenetre",
+        "fronton",
+        "pignon"
+      ]
+    },
+    {
+      "id_pic": "image_St-Gervais_4_§4",
+      "IndexJantzen": [
+        "colonne",
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_St-Gervais_4_§5-Rs",
+      "IndexJantzen": [
+        "colonne",
+        "fronton",
+        "porte-bois"
+      ]
+    },
+    {
+      "id_pic": "image_St-Gervais_4_§6",
+      "IndexJantzen": [
+        "porte-bois"
+      ]
+    }
+  ]
+}

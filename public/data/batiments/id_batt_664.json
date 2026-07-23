@@ -1,0 +1,74 @@
+{
+  "id_bat": 664,
+  "libelle": "12 rue Étienne-Jodelle",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 6,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1907",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "12 rue Étienne-Jodelle",
+    "numero": "12",
+    "voie": "rue Étienne-Jodelle"
+  },
+  "arrondissement": 18,
+  "coordonnees": {
+    "latitude": "48.887997",
+    "longitude": "2.326049"
+  },
+  "id_pss": 70382,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 4154,
+  "terme_jantzen_bat": [
+    "sculpture",
+    "fenetre",
+    "fenetre-d'angle",
+    "balcon",
+    "garde-corps",
+    "console"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_4154",
+      "IndexJantzen": [
+        "fenetre-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_4155",
+      "IndexJantzen": [
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_4156",
+      "IndexJantzen": [
+        "fenetre",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_4157",
+      "IndexJantzen": [
+        "fenetre",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_4158",
+      "IndexJantzen": [
+        "balcon",
+        "console",
+        "garde-corps",
+        "sculpture"
+      ]
+    }
+  ]
+}

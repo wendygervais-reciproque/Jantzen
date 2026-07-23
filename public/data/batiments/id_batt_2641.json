@@ -1,0 +1,47 @@
+{
+  "id_bat": 2641,
+  "libelle": "43 avenue Hoche",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 214,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1913",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "43 avenue Hoche",
+    "numero": "43",
+    "voie": "avenue Hoche"
+  },
+  "arrondissement": 8,
+  "coordonnees": {
+    "latitude": "48.875474",
+    "longitude": "2.299592"
+  },
+  "id_pss": 86377,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 6357,
+  "terme_jantzen_bat": [
+    "porte-fer",
+    "fenetre"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_6357",
+      "IndexJantzen": [
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_6358",
+      "IndexJantzen": [
+        "porte-fer"
+      ]
+    }
+  ]
+}

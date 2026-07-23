@@ -1,0 +1,58 @@
+{
+  "id_bat": 874,
+  "libelle": "14 boulevard de Courcelles",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 263,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1913",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "14 boulevard de Courcelles",
+    "numero": "14",
+    "voie": "boulevard de Courcelles"
+  },
+  "arrondissement": 17,
+  "coordonnees": {
+    "latitude": "48.881172",
+    "longitude": "2.313797"
+  },
+  "id_pss": 27947,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 3224,
+  "terme_jantzen_bat": [
+    "clé",
+    "sculpture",
+    "fenetre",
+    "porte-fer-hall",
+    "porte-fer"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_3224",
+      "IndexJantzen": [
+        "fenetre",
+        "porte-fer"
+      ]
+    },
+    {
+      "id_pic": "image_3225",
+      "IndexJantzen": [
+        "porte-fer-hall"
+      ]
+    },
+    {
+      "id_pic": "image_3226",
+      "IndexJantzen": [
+        "clé",
+        "sculpture"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "id_bat": 1075,
+  "libelle": "154 rue du Faubourg-Saint-Denis",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "154 rue du Faubourg-Saint-Denis",
+    "numero": "154",
+    "voie": "rue du Faubourg-Saint-Denis"
+  },
+  "arrondissement": 10,
+  "coordonnees": {
+    "latitude": "48.878606",
+    "longitude": "2.356868"
+  },
+  "id_pss": 41688,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 4386,
+  "terme_jantzen_bat": [
+    "lucarne",
+    "façade",
+    "fenetre",
+    "sculpture",
+    "décor",
+    "console"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_4386",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_4387",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_4388",
+      "IndexJantzen": [
+        "décor",
+        "fenetre",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_4389",
+      "IndexJantzen": [
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_4390",
+      "IndexJantzen": [
+        "console",
+        "décor",
+        "fenetre",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_4391",
+      "IndexJantzen": [
+        "console",
+        "sculpture"
+      ]
+    }
+  ]
+}

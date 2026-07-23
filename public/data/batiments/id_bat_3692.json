@@ -1,0 +1,92 @@
+{
+  "id_bat": 3692,
+  "libelle": "82 rue François-Miron",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 203,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1704-1715",
+  "periode": [
+    "1660-1759"
+  ],
+  "adresse": {
+    "affichage": "82 rue François-Miron",
+    "numero": "82",
+    "voie": "rue François-Miron"
+  },
+  "arrondissement": 4,
+  "coordonnees": {
+    "latitude": "48.855327",
+    "longitude": "2.359257"
+  },
+  "id_pss": 5045,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": "image_Francois-Miron-82_4_§1",
+  "terme_jantzen_bat": [
+    "sculpture",
+    "console",
+    "porte-bois",
+    "balcon",
+    "fenetre",
+    "façade",
+    "fronton",
+    "garde-corps"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_Francois-Miron-82_4_§1",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_Francois-Miron-82_4_§2",
+      "IndexJantzen": [
+        "fenetre",
+        "fronton",
+        "garde-corps"
+      ]
+    },
+    {
+      "id_pic": "image_Francois-Miron-82_4_§3",
+      "IndexJantzen": [
+        "balcon",
+        "garde-corps"
+      ]
+    },
+    {
+      "id_pic": "image_Francois-Miron-82_4_§4",
+      "IndexJantzen": [
+        "balcon",
+        "console",
+        "garde-corps",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_Francois-Miron-82_4_§5",
+      "IndexJantzen": [
+        "console",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_Francois-Miron-82_4_§6",
+      "IndexJantzen": [
+        "console",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_Francois-Miron-82_4_§7",
+      "IndexJantzen": [
+        "fenetre",
+        "porte-bois"
+      ]
+    }
+  ]
+}

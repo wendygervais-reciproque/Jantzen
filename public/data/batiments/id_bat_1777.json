@@ -1,0 +1,131 @@
+{
+  "id_bat": 1777,
+  "libelle": "24 à 22 boulevard Saint-Germain",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 365,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1881",
+  "periode": [
+    "1870-1894"
+  ],
+  "adresse": {
+    "affichage": "24 à 22 boulevard Saint-Germain",
+    "numero": "24 à 22",
+    "voie": "boulevard Saint-Germain"
+  },
+  "arrondissement": 5,
+  "coordonnees": {
+    "latitude": "48.849629",
+    "longitude": "2.353267"
+  },
+  "id_pss": 27816,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": "image_St-Germain-24-22_5_§1",
+  "terme_jantzen_bat": [
+    "sculpture",
+    "console",
+    "décor",
+    "pilastre",
+    "fenetre",
+    "clé",
+    "façade",
+    "garde-corps"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_St-Germain-24-22_5_§1",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_St-Germain-24-22_5_§10",
+      "IndexJantzen": [
+        "fenetre",
+        "garde-corps"
+      ]
+    },
+    {
+      "id_pic": "image_St-Germain-24-22_5_§11",
+      "IndexJantzen": [
+        "console",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_St-Germain-24-22_5_§12",
+      "IndexJantzen": [
+        "décor",
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_St-Germain-24-22_5_§13",
+      "IndexJantzen": [
+        "garde-corps"
+      ]
+    },
+    {
+      "id_pic": "image_St-Germain-24-22_5_§2",
+      "IndexJantzen": [
+        "fenetre",
+        "pilastre"
+      ]
+    },
+    {
+      "id_pic": "image_St-Germain-24-22_5_§3",
+      "IndexJantzen": [
+        "fenetre",
+        "pilastre"
+      ]
+    },
+    {
+      "id_pic": "image_St-Germain-24-22_5_§4",
+      "IndexJantzen": [
+        "fenetre",
+        "pilastre"
+      ]
+    },
+    {
+      "id_pic": "image_St-Germain-24-22_5_§5-Rx",
+      "IndexJantzen": [
+        "clé",
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_St-Germain-24-22_5_§6",
+      "IndexJantzen": [
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_St-Germain-24-22_5_§7",
+      "IndexJantzen": [
+        "fenetre",
+        "garde-corps"
+      ]
+    },
+    {
+      "id_pic": "image_St-Germain-24-22_5_§8",
+      "IndexJantzen": [
+        "clé",
+        "fenetre",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_St-Germain-24-22_5_§9",
+      "IndexJantzen": [
+        "clé",
+        "fenetre",
+        "sculpture"
+      ]
+    }
+  ]
+}

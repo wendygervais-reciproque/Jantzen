@@ -1,0 +1,98 @@
+{
+  "id_bat": 3464,
+  "libelle": "71 boulevard Raspail",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 692,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1909",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "71 boulevard Raspail",
+    "numero": "71",
+    "voie": "boulevard Raspail"
+  },
+  "arrondissement": 6,
+  "coordonnees": {
+    "latitude": "48.849202",
+    "longitude": "2.327723"
+  },
+  "id_pss": 28709,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 12534,
+  "terme_jantzen_bat": [
+    "oriel",
+    "céramique",
+    "fenetre",
+    "décor",
+    "sculpture",
+    "balcon",
+    "garde-corps"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_12534",
+      "IndexJantzen": [
+        "balcon",
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_12535",
+      "IndexJantzen": [
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_12536",
+      "IndexJantzen": [
+        "céramique",
+        "décor",
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_12537",
+      "IndexJantzen": [
+        "céramique",
+        "décor",
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_12538",
+      "IndexJantzen": [
+        "céramique",
+        "décor",
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_12539",
+      "IndexJantzen": [
+        "balcon",
+        "garde-corps",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_12540",
+      "IndexJantzen": [
+        "oriel"
+      ]
+    },
+    {
+      "id_pic": "image_12541",
+      "IndexJantzen": [
+        "balcon",
+        "fenetre"
+      ]
+    }
+  ]
+}

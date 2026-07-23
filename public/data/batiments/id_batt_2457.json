@@ -1,0 +1,40 @@
+{
+  "id_bat": 2457,
+  "libelle": "4 avenue Frémiet",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 9,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1913",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "4 avenue Frémiet",
+    "numero": "4",
+    "voie": "avenue Frémiet"
+  },
+  "arrondissement": 16,
+  "coordonnees": {
+    "latitude": "48.8565",
+    "longitude": "2.285364"
+  },
+  "id_pss": 49641,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 5000,
+  "terme_jantzen_bat": [
+    "porte-fer-hall"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_5000",
+      "IndexJantzen": [
+        "porte-fer-hall"
+      ]
+    }
+  ]
+}

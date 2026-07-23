@@ -1,0 +1,44 @@
+{
+  "id_bat": 1000,
+  "libelle": "15 boulevard Lannes",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 557,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1906",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "15 boulevard Lannes",
+    "numero": "15",
+    "voie": "boulevard Lannes"
+  },
+  "arrondissement": 16,
+  "coordonnees": {
+    "latitude": "48.86835",
+    "longitude": "2.273328"
+  },
+  "id_pss": 12343,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 7902,
+  "terme_jantzen_bat": [
+    "lucarne",
+    "toiture",
+    "brique"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_7902",
+      "IndexJantzen": [
+        "brique",
+        "lucarne",
+        "toiture"
+      ]
+    }
+  ]
+}

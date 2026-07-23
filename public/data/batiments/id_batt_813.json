@@ -1,0 +1,42 @@
+{
+  "id_bat": 813,
+  "libelle": "130 avenue Daumesnil",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 25,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1874-1877",
+  "periode": [
+    "1870-1894"
+  ],
+  "adresse": {
+    "affichage": "130 avenue Daumesnil",
+    "numero": "130",
+    "voie": "avenue Daumesnil"
+  },
+  "arrondissement": 12,
+  "coordonnees": {
+    "latitude": "48.841104",
+    "longitude": "2.388337"
+  },
+  "id_pss": 9201,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 3526,
+  "terme_jantzen_bat": [
+    "toiture",
+    "tourelle"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_3526",
+      "IndexJantzen": [
+        "toiture",
+        "tourelle"
+      ]
+    }
+  ]
+}

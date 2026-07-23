@@ -1,0 +1,92 @@
+{
+  "id_bat": 582,
+  "libelle": "119 avenue de Wagram",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 539,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1904",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "119 avenue de Wagram",
+    "numero": "119",
+    "voie": "avenue de Wagram"
+  },
+  "arrondissement": 17,
+  "coordonnees": {
+    "latitude": "48.882118",
+    "longitude": "2.300862"
+  },
+  "id_pss": 12230,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 17008,
+  "terme_jantzen_bat": [
+    "lucarne",
+    "façade",
+    "colonne",
+    "fenetre",
+    "porte-fer"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_17008",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_17009",
+      "IndexJantzen": [
+        "fenetre",
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_17010",
+      "IndexJantzen": [
+        "fenetre",
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_17011",
+      "IndexJantzen": [
+        "colonne",
+        "fenetre",
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_17012",
+      "IndexJantzen": [
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_17013",
+      "IndexJantzen": [
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_17014",
+      "IndexJantzen": [
+        "porte-fer"
+      ]
+    },
+    {
+      "id_pic": "image_17015",
+      "IndexJantzen": [
+        "colonne",
+        "fenetre",
+        "lucarne"
+      ]
+    }
+  ]
+}

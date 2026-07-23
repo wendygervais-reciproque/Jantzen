@@ -1,0 +1,76 @@
+{
+  "id_bat": 3767,
+  "libelle": "9 avenue de la Frillière",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 318,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1895",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "9 avenue de la Frillière",
+    "numero": "9",
+    "voie": "avenue de la Frillière"
+  },
+  "arrondissement": 16,
+  "coordonnees": {
+    "latitude": "48.84073",
+    "longitude": "2.260441"
+  },
+  "id_pss": 42824,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": "image_La-Frillere-av-9_16_§1",
+  "terme_jantzen_bat": [
+    "sculpture",
+    "brique",
+    "décor",
+    "colonne",
+    "façade"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_La-Frillere-av-9_16_§1",
+      "IndexJantzen": [
+        "brique",
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_La-Frillere-av-9_16_§2",
+      "IndexJantzen": [
+        "brique",
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_La-Frillere-av-9_16_§3",
+      "IndexJantzen": [
+        "brique",
+        "colonne",
+        "décor",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_La-Frillere-av-9_16_§4",
+      "IndexJantzen": [
+        "brique"
+      ]
+    },
+    {
+      "id_pic": "image_La-Frillere-av-9_16_§5",
+      "IndexJantzen": [
+        "brique",
+        "colonne",
+        "décor",
+        "sculpture"
+      ]
+    }
+  ]
+}

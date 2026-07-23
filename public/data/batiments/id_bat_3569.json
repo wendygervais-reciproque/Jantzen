@@ -1,0 +1,89 @@
+{
+  "id_bat": 3569,
+  "libelle": "79 rue Madame",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 699,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1892",
+  "periode": [
+    "1870-1894"
+  ],
+  "adresse": {
+    "affichage": "79 rue Madame",
+    "numero": "79",
+    "voie": "rue Madame"
+  },
+  "arrondissement": 6,
+  "coordonnees": {
+    "latitude": "48.846004",
+    "longitude": "2.331608"
+  },
+  "id_pss": 16756,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": "image_Madame-79_6_§1",
+  "terme_jantzen_bat": [
+    "métal",
+    "sculpture",
+    "cariatide",
+    "console",
+    "oriel",
+    "décor",
+    "façade",
+    "atlante"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_Madame-79_6_§1",
+      "IndexJantzen": [
+        "décor",
+        "façade",
+        "métal"
+      ]
+    },
+    {
+      "id_pic": "image_Madame-79_6_§2",
+      "IndexJantzen": [
+        "décor",
+        "métal",
+        "oriel"
+      ]
+    },
+    {
+      "id_pic": "image_Madame-79_6_§3",
+      "IndexJantzen": [
+        "cariatide",
+        "décor",
+        "métal",
+        "oriel"
+      ]
+    },
+    {
+      "id_pic": "image_Madame-79_6_§4",
+      "IndexJantzen": [
+        "cariatide",
+        "console",
+        "décor",
+        "oriel"
+      ]
+    },
+    {
+      "id_pic": "image_Madame-79_6_§5",
+      "IndexJantzen": [
+        "cariatide",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_Madame-79_6_§6",
+      "IndexJantzen": [
+        "atlante",
+        "sculpture"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id_bat": 3887,
+  "libelle": "93 rue Réaumur",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 79,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1898",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "93 rue Réaumur",
+    "numero": "93",
+    "voie": "rue Réaumur"
+  },
+  "arrondissement": 2,
+  "coordonnees": {
+    "latitude": "48.867445",
+    "longitude": "2.346469"
+  },
+  "id_pss": 41026,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": "image_Reaumur-93_2_§1",
+  "terme_jantzen_bat": [
+    "façade-d'angle",
+    "colonne",
+    "fenetre",
+    "verrière"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_Reaumur-93_2_§1",
+      "IndexJantzen": [
+        "façade-d'angle",
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_Reaumur-93_2_§2",
+      "IndexJantzen": [
+        "fenetre",
+        "verrière"
+      ]
+    },
+    {
+      "id_pic": "image_Reaumur-93_2_§3",
+      "IndexJantzen": [
+        "fenetre",
+        "verrière"
+      ]
+    },
+    {
+      "id_pic": "image_Reaumur-93_2_§4",
+      "IndexJantzen": [
+        "colonne",
+        "fenetre"
+      ]
+    }
+  ]
+}

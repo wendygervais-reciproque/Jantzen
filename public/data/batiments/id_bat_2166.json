@@ -1,0 +1,108 @@
+{
+  "id_bat": 2166,
+  "libelle": "30t avenue Daumesnil",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 127,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": null,
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "30t avenue Daumesnil",
+    "numero": "30t",
+    "voie": "avenue Daumesnil"
+  },
+  "arrondissement": 12,
+  "coordonnees": {
+    "latitude": "48.847265",
+    "longitude": "2.375024"
+  },
+  "id_pss": 76981,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": "image_Daumesnil-30t_12_§1",
+  "terme_jantzen_bat": [
+    "sculpture",
+    "balcon",
+    "fenetre-d'angle",
+    "façade-d'angle",
+    "lucarne",
+    "fronton",
+    "lucarne-d'angle",
+    "oeil-de-boeuf",
+    "fenetre",
+    "atlante"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_Daumesnil-30t_12_§1",
+      "IndexJantzen": [
+        "façade-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_Daumesnil-30t_12_§2",
+      "IndexJantzen": [
+        "fenetre-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_Daumesnil-30t_12_§3",
+      "IndexJantzen": [
+        "fenetre-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_Daumesnil-30t_12_§4",
+      "IndexJantzen": [
+        "fronton",
+        "lucarne-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_Daumesnil-30t_12_§5",
+      "IndexJantzen": [
+        "fronton",
+        "lucarne-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_Daumesnil-30t_12_§6",
+      "IndexJantzen": [
+        "balcon",
+        "lucarne",
+        "oeil-de-boeuf"
+      ]
+    },
+    {
+      "id_pic": "image_Daumesnil-30t_12_§7",
+      "IndexJantzen": [
+        "balcon",
+        "lucarne",
+        "oeil-de-boeuf"
+      ]
+    },
+    {
+      "id_pic": "image_Daumesnil-30t_12_§8",
+      "IndexJantzen": [
+        "atlante",
+        "balcon",
+        "fenetre",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_Daumesnil-30t_12_§9",
+      "IndexJantzen": [
+        "atlante",
+        "fenetre",
+        "sculpture"
+      ]
+    }
+  ]
+}

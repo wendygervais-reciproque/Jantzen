@@ -1,0 +1,82 @@
+{
+  "id_bat": 1869,
+  "libelle": "25b rue Benjamin-Franklin",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 539,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1903-1904",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "25b rue Benjamin-Franklin",
+    "numero": "25b",
+    "voie": "rue Benjamin-Franklin"
+  },
+  "arrondissement": 16,
+  "coordonnees": {
+    "latitude": "48.860693",
+    "longitude": "2.285931"
+  },
+  "id_pss": 1650,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": "image_Benjamin-Franklin-25b_16_§1",
+  "terme_jantzen_bat": [
+    "mosaique",
+    "oriel",
+    "fenetre",
+    "façade",
+    "garde-corps"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_Benjamin-Franklin-25b_16_§1",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_Benjamin-Franklin-25b_16_§2",
+      "IndexJantzen": [
+        "fenetre",
+        "mosaique"
+      ]
+    },
+    {
+      "id_pic": "image_Benjamin-Franklin-25b_16_§3",
+      "IndexJantzen": [
+        "fenetre",
+        "mosaique"
+      ]
+    },
+    {
+      "id_pic": "image_Benjamin-Franklin-25b_16_§3b",
+      "IndexJantzen": [
+        "fenetre",
+        "garde-corps",
+        "mosaique"
+      ]
+    },
+    {
+      "id_pic": "image_Benjamin-Franklin-25b_16_§4-zFdet",
+      "IndexJantzen": [
+        "fenetre",
+        "garde-corps",
+        "mosaique",
+        "oriel"
+      ]
+    },
+    {
+      "id_pic": "image_Benjamin-Franklin-25b_16_§5",
+      "IndexJantzen": [
+        "fenetre",
+        "mosaique"
+      ]
+    }
+  ]
+}

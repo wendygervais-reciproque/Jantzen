@@ -1,0 +1,92 @@
+{
+  "id_bat": 1844,
+  "libelle": "25 rue de la Pompe",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 418,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1911",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "25 rue de la Pompe",
+    "numero": "25",
+    "voie": "rue de la Pompe"
+  },
+  "arrondissement": 16,
+  "coordonnees": {
+    "latitude": "48.860175",
+    "longitude": "2.274978"
+  },
+  "id_pss": 23673,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": "image_Pompe-25_16_§1",
+  "terme_jantzen_bat": [
+    "mosaique",
+    "verrière",
+    "brique",
+    "décor",
+    "clé",
+    "façade",
+    "fenetre"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_Pompe-25_16_§1",
+      "IndexJantzen": [
+        "brique",
+        "façade",
+        "mosaique"
+      ]
+    },
+    {
+      "id_pic": "image_Pompe-25_16_§2",
+      "IndexJantzen": [
+        "brique",
+        "façade",
+        "mosaique"
+      ]
+    },
+    {
+      "id_pic": "image_Pompe-25_16_§3",
+      "IndexJantzen": [
+        "brique",
+        "décor",
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_Pompe-25_16_§4",
+      "IndexJantzen": [
+        "mosaique",
+        "verrière"
+      ]
+    },
+    {
+      "id_pic": "image_Pompe-25_16_§5",
+      "IndexJantzen": [
+        "mosaique",
+        "verrière"
+      ]
+    },
+    {
+      "id_pic": "image_Pompe-25_16_§6",
+      "IndexJantzen": [
+        "mosaique",
+        "verrière"
+      ]
+    },
+    {
+      "id_pic": "image_Pompe-25_16_§7",
+      "IndexJantzen": [
+        "clé",
+        "mosaique"
+      ]
+    }
+  ]
+}

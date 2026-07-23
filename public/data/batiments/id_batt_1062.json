@@ -1,0 +1,48 @@
+{
+  "id_bat": 1062,
+  "libelle": "151 rue de Grenelle",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 382,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1899",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "151 rue de Grenelle",
+    "numero": "151",
+    "voie": "rue de Grenelle"
+  },
+  "arrondissement": 7,
+  "coordonnees": {
+    "latitude": "48.857856",
+    "longitude": "2.307482"
+  },
+  "id_pss": 36964,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 5708,
+  "terme_jantzen_bat": [
+    "porte-bois",
+    "fenetre"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_5708",
+      "IndexJantzen": [
+        "fenetre",
+        "porte-bois"
+      ]
+    },
+    {
+      "id_pic": "image_5709",
+      "IndexJantzen": [
+        "porte-bois"
+      ]
+    }
+  ]
+}

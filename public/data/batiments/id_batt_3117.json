@@ -1,0 +1,49 @@
+{
+  "id_bat": 3117,
+  "libelle": "6 rue aux Ours",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 598,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1909",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "6 rue aux Ours",
+    "numero": "6",
+    "voie": "rue aux Ours"
+  },
+  "arrondissement": 3,
+  "coordonnees": {
+    "latitude": "48.863311",
+    "longitude": "2.351775"
+  },
+  "id_pss": 28810,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 10975,
+  "terme_jantzen_bat": [
+    "porte-fer",
+    "lucarne",
+    "fenetre"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_10975",
+      "IndexJantzen": [
+        "fenetre",
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_10976",
+      "IndexJantzen": [
+        "porte-fer"
+      ]
+    }
+  ]
+}

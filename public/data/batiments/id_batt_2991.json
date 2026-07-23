@@ -1,0 +1,50 @@
+{
+  "id_bat": 2991,
+  "libelle": "54 avenue Secrétan",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 403,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1903",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "54 avenue Secrétan",
+    "numero": "54",
+    "voie": "avenue Secrétan"
+  },
+  "arrondissement": 19,
+  "coordonnees": {
+    "latitude": "48.880219",
+    "longitude": "2.375288"
+  },
+  "id_pss": 35341,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 13458,
+  "terme_jantzen_bat": [
+    "lucarne-d'angle",
+    "lucarne",
+    "dome"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_13458",
+      "IndexJantzen": [
+        "dome",
+        "lucarne-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_13459",
+      "IndexJantzen": [
+        "dome",
+        "lucarne"
+      ]
+    }
+  ]
+}

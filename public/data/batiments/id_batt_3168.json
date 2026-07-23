@@ -1,0 +1,73 @@
+{
+  "id_bat": 3168,
+  "libelle": "6 rue Leclerc",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 646,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1903",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "6 rue Leclerc",
+    "numero": "6",
+    "voie": "rue Leclerc"
+  },
+  "arrondissement": 14,
+  "coordonnees": {
+    "latitude": "48.83384",
+    "longitude": "2.335378"
+  },
+  "id_pss": 103408,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 8177,
+  "terme_jantzen_bat": [
+    "façade-d'angle",
+    "lucarne",
+    "oeil-de-boeuf",
+    "brique",
+    "fenetre",
+    "décor",
+    "sculpture"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_8177",
+      "IndexJantzen": [
+        "brique",
+        "façade-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_8178",
+      "IndexJantzen": [
+        "brique",
+        "décor",
+        "fenetre",
+        "lucarne",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_8179",
+      "IndexJantzen": [
+        "brique",
+        "oeil-de-boeuf",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_8180",
+      "IndexJantzen": [
+        "brique",
+        "oeil-de-boeuf",
+        "sculpture"
+      ]
+    }
+  ]
+}

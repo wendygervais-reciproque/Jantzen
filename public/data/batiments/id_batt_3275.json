@@ -1,0 +1,567 @@
+{
+  "id_bat": 3275,
+  "libelle": "64 boulevard Haussmann",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": "1868-1883",
+  "periode": [
+    "1870-1894"
+  ],
+  "adresse": {
+    "affichage": "64 boulevard Haussmann",
+    "numero": "64",
+    "voie": "boulevard Haussmann"
+  },
+  "arrondissement": 9,
+  "coordonnees": {
+    "latitude": "48.873773",
+    "longitude": "2.328157"
+  },
+  "id_pss": 3931,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 6063,
+  "terme_jantzen_bat": [
+    "lucarne",
+    "oeil-de-boeuf",
+    "dome",
+    "toiture",
+    "fenetre",
+    "sculpture",
+    "décor",
+    "colonne",
+    "métal",
+    "fenetre-d'angle",
+    "tourelle",
+    "garde-corps",
+    "verrière",
+    "mosaique"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_6063",
+      "IndexJantzen": [
+        "dome",
+        "lucarne",
+        "tourelle"
+      ]
+    },
+    {
+      "id_pic": "image_6064",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_6065",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_6066",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_6067",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_6068",
+      "IndexJantzen": [
+        "dome"
+      ]
+    },
+    {
+      "id_pic": "image_6069",
+      "IndexJantzen": [
+        "dome"
+      ]
+    },
+    {
+      "id_pic": "image_6070",
+      "IndexJantzen": [
+        "dome"
+      ]
+    },
+    {
+      "id_pic": "image_6071",
+      "IndexJantzen": [
+        "dome",
+        "lucarne",
+        "tourelle"
+      ]
+    },
+    {
+      "id_pic": "image_6072",
+      "IndexJantzen": [
+        "dome",
+        "tourelle"
+      ]
+    },
+    {
+      "id_pic": "image_6073",
+      "IndexJantzen": [
+        "fenetre",
+        "verrière"
+      ]
+    },
+    {
+      "id_pic": "image_6074",
+      "IndexJantzen": [
+        "fenetre",
+        "verrière"
+      ]
+    },
+    {
+      "id_pic": "image_6075",
+      "IndexJantzen": [
+        "dome",
+        "tourelle"
+      ]
+    },
+    {
+      "id_pic": "image_6076",
+      "IndexJantzen": [
+        "dome",
+        "tourelle"
+      ]
+    },
+    {
+      "id_pic": "image_6077",
+      "IndexJantzen": [
+        "dome"
+      ]
+    },
+    {
+      "id_pic": "image_6078",
+      "IndexJantzen": [
+        "dome",
+        "lucarne",
+        "oeil-de-boeuf",
+        "tourelle"
+      ]
+    },
+    {
+      "id_pic": "image_6079",
+      "IndexJantzen": [
+        "dome",
+        "lucarne",
+        "oeil-de-boeuf",
+        "tourelle"
+      ]
+    },
+    {
+      "id_pic": "image_6080",
+      "IndexJantzen": [
+        "dome",
+        "lucarne",
+        "oeil-de-boeuf"
+      ]
+    },
+    {
+      "id_pic": "image_6081",
+      "IndexJantzen": [
+        "dome",
+        "décor",
+        "fenetre-d'angle",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_6082",
+      "IndexJantzen": [
+        "dome",
+        "décor",
+        "fenetre-d'angle",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_6083",
+      "IndexJantzen": [
+        "dome",
+        "décor",
+        "fenetre-d'angle",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_6084",
+      "IndexJantzen": [
+        "dome",
+        "décor",
+        "fenetre-d'angle",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_6085",
+      "IndexJantzen": [
+        "dome",
+        "décor",
+        "fenetre-d'angle",
+        "sculpture",
+        "tourelle"
+      ]
+    },
+    {
+      "id_pic": "image_6086",
+      "IndexJantzen": [
+        "dome",
+        "décor",
+        "fenetre-d'angle",
+        "sculpture",
+        "tourelle"
+      ]
+    },
+    {
+      "id_pic": "image_6087",
+      "IndexJantzen": [
+        "fenetre-d'angle",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_6088",
+      "IndexJantzen": [
+        "fenetre-d'angle",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_6089",
+      "IndexJantzen": [
+        "fenetre-d'angle",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_6090",
+      "IndexJantzen": [
+        "fenetre",
+        "garde-corps"
+      ]
+    },
+    {
+      "id_pic": "image_6091",
+      "IndexJantzen": [
+        "fenetre-d'angle",
+        "mosaique",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_6092",
+      "IndexJantzen": [
+        "fenetre-d'angle",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_6093",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_6094",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_6095",
+      "IndexJantzen": [
+        "décor",
+        "fenetre",
+        "sculpture",
+        "verrière"
+      ]
+    },
+    {
+      "id_pic": "image_6096",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_6097",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_6098",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_6099",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_6100",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_6101",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_6102",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_6103",
+      "IndexJantzen": [
+        "toiture"
+      ]
+    },
+    {
+      "id_pic": "image_6104",
+      "IndexJantzen": [
+        "lucarne",
+        "toiture"
+      ]
+    },
+    {
+      "id_pic": "image_6105",
+      "IndexJantzen": [
+        "décor",
+        "fenetre",
+        "sculpture",
+        "verrière"
+      ]
+    },
+    {
+      "id_pic": "image_6106",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_6107",
+      "IndexJantzen": [
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_6108",
+      "IndexJantzen": [
+        "fenetre",
+        "lucarne",
+        "verrière"
+      ]
+    },
+    {
+      "id_pic": "image_6109",
+      "IndexJantzen": [
+        "fenetre",
+        "verrière"
+      ]
+    },
+    {
+      "id_pic": "image_6110",
+      "IndexJantzen": [
+        "fenetre",
+        "métal",
+        "verrière"
+      ]
+    },
+    {
+      "id_pic": "image_6111",
+      "IndexJantzen": [
+        "décor",
+        "fenetre",
+        "lucarne",
+        "mosaique"
+      ]
+    },
+    {
+      "id_pic": "image_6112",
+      "IndexJantzen": [
+        "décor",
+        "lucarne",
+        "mosaique",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_6113",
+      "IndexJantzen": [
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_6114",
+      "IndexJantzen": [
+        "décor",
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_6115",
+      "IndexJantzen": [
+        "décor",
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_6116",
+      "IndexJantzen": [
+        "dome"
+      ]
+    },
+    {
+      "id_pic": "image_6117",
+      "IndexJantzen": [
+        "dome"
+      ]
+    },
+    {
+      "id_pic": "image_6118",
+      "IndexJantzen": [
+        "décor",
+        "lucarne",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_6119",
+      "IndexJantzen": [
+        "décor",
+        "lucarne",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_6120",
+      "IndexJantzen": [
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_6121",
+      "IndexJantzen": [
+        "dome",
+        "décor",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_6122",
+      "IndexJantzen": [
+        "dome",
+        "décor",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_6123",
+      "IndexJantzen": [
+        "dome",
+        "décor",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_6124",
+      "IndexJantzen": [
+        "dome",
+        "décor",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_6125",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_6126",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_6127",
+      "IndexJantzen": [
+        "dome",
+        "décor",
+        "sculpture",
+        "tourelle"
+      ]
+    },
+    {
+      "id_pic": "image_6128",
+      "IndexJantzen": [
+        "dome"
+      ]
+    },
+    {
+      "id_pic": "image_6129",
+      "IndexJantzen": [
+        "dome",
+        "décor",
+        "fenetre",
+        "mosaique",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_6130",
+      "IndexJantzen": [
+        "dome",
+        "décor",
+        "fenetre",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_6131",
+      "IndexJantzen": [
+        "colonne",
+        "mosaique"
+      ]
+    },
+    {
+      "id_pic": "image_6132",
+      "IndexJantzen": [
+        "dome"
+      ]
+    },
+    {
+      "id_pic": "image_6133",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_6134",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_6135",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    }
+  ]
+}

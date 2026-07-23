@@ -1,0 +1,147 @@
+{
+  "id_bat": 841,
+  "libelle": "134 rue Réaumur",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 353,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1910",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "134 rue Réaumur",
+    "numero": "134",
+    "voie": "rue Réaumur"
+  },
+  "arrondissement": 2,
+  "coordonnees": {
+    "latitude": "48.868609",
+    "longitude": "2.342079"
+  },
+  "id_pss": 4602,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 12722,
+  "terme_jantzen_bat": [
+    "façade-d'angle",
+    "lucarne",
+    "oeil-de-boeuf",
+    "balcon",
+    "façade",
+    "lucarne-d'angle",
+    "dome",
+    "colonne",
+    "fenetre",
+    "sculpture",
+    "console",
+    "fenetre-d'angle",
+    "tourelle",
+    "pignon"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_12722",
+      "IndexJantzen": [
+        "dome",
+        "façade-d'angle",
+        "pignon"
+      ]
+    },
+    {
+      "id_pic": "image_12723",
+      "IndexJantzen": [
+        "dome",
+        "oeil-de-boeuf",
+        "tourelle"
+      ]
+    },
+    {
+      "id_pic": "image_12724",
+      "IndexJantzen": [
+        "fenetre",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_12725",
+      "IndexJantzen": [
+        "fenetre-d'angle",
+        "pignon",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_12726",
+      "IndexJantzen": [
+        "balcon",
+        "dome",
+        "lucarne-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_12727",
+      "IndexJantzen": [
+        "dome",
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_12728",
+      "IndexJantzen": [
+        "dome",
+        "lucarne",
+        "tourelle"
+      ]
+    },
+    {
+      "id_pic": "image_12729",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_12730",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_12731",
+      "IndexJantzen": [
+        "dome",
+        "façade-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_12732",
+      "IndexJantzen": [
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_12733",
+      "IndexJantzen": [
+        "fenetre-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_12734",
+      "IndexJantzen": [
+        "colonne",
+        "console",
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_12735",
+      "IndexJantzen": [
+        "dome",
+        "lucarne"
+      ]
+    }
+  ]
+}

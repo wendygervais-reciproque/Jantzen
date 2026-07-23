@@ -1,0 +1,91 @@
+{
+  "id_bat": 1652,
+  "libelle": "212b boulevard Pereire",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 353,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1903",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "212b boulevard Pereire",
+    "numero": "212b",
+    "voie": "boulevard Pereire"
+  },
+  "arrondissement": 17,
+  "coordonnees": {
+    "latitude": "48.879605",
+    "longitude": "2.286822"
+  },
+  "id_pss": 40754,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 11375,
+  "terme_jantzen_bat": [
+    "lucarne",
+    "toiture",
+    "fenetre",
+    "sculpture",
+    "garde-corps"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_11375",
+      "IndexJantzen": [
+        "lucarne",
+        "toiture"
+      ]
+    },
+    {
+      "id_pic": "image_11376",
+      "IndexJantzen": [
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_11377",
+      "IndexJantzen": [
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_11378",
+      "IndexJantzen": [
+        "lucarne",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_11379",
+      "IndexJantzen": [
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_11380",
+      "IndexJantzen": [
+        "fenetre",
+        "garde-corps"
+      ]
+    },
+    {
+      "id_pic": "image_11381",
+      "IndexJantzen": [
+        "fenetre",
+        "garde-corps"
+      ]
+    },
+    {
+      "id_pic": "image_11382",
+      "IndexJantzen": [
+        "lucarne",
+        "sculpture"
+      ]
+    }
+  ]
+}

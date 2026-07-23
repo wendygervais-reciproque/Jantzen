@@ -1,0 +1,48 @@
+{
+  "id_bat": 1420,
+  "libelle": "2 boulevard des Capucines",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": [
+    "1870-1894"
+  ],
+  "adresse": {
+    "affichage": "2 boulevard des Capucines",
+    "numero": "2",
+    "voie": "boulevard des Capucines"
+  },
+  "arrondissement": 9,
+  "coordonnees": {
+    "latitude": "48.871082",
+    "longitude": "2.333801"
+  },
+  "id_pss": 23885,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": "image_Capucines-bd-2_9_§1",
+  "terme_jantzen_bat": [
+    "tourelle",
+    "lucarne",
+    "oeil-de-boeuf",
+    "dome"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_Capucines-bd-2_9_§1",
+      "IndexJantzen": [
+        "dome",
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_Capucines-bd-2_9_§2",
+      "IndexJantzen": [
+        "dome",
+        "lucarne",
+        "oeil-de-boeuf",
+        "tourelle"
+      ]
+    }
+  ]
+}

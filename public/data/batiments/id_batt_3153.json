@@ -1,0 +1,60 @@
+{
+  "id_bat": 3153,
+  "libelle": "6 rue Dumont-d'Urville",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": [
+    "1870-1894"
+  ],
+  "adresse": {
+    "affichage": "6 rue Dumont-d'Urville",
+    "numero": "6",
+    "voie": "rue Dumont-d'Urville"
+  },
+  "arrondissement": 16,
+  "coordonnees": {
+    "latitude": "48.868871",
+    "longitude": "2.293241"
+  },
+  "id_pss": 38266,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 3892,
+  "terme_jantzen_bat": [
+    "lucarne",
+    "brique",
+    "fenetre",
+    "sculpture",
+    "décor",
+    "balcon",
+    "fronton"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_3892",
+      "IndexJantzen": [
+        "brique",
+        "décor",
+        "fenetre",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_3893",
+      "IndexJantzen": [
+        "brique",
+        "fronton",
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_3894",
+      "IndexJantzen": [
+        "balcon",
+        "brique",
+        "sculpture"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "id_bat": 741,
+  "libelle": "126 rue Réaumur",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "126 rue Réaumur",
+    "numero": "126",
+    "voie": "rue Réaumur"
+  },
+  "arrondissement": 2,
+  "coordonnees": {
+    "latitude": "48.868199",
+    "longitude": "2.343941"
+  },
+  "id_pss": 41028,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 12706,
+  "terme_jantzen_bat": [
+    "lucarne",
+    "clé",
+    "dome",
+    "colonne",
+    "métal",
+    "verrière"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_12706",
+      "IndexJantzen": [
+        "métal",
+        "verrière"
+      ]
+    },
+    {
+      "id_pic": "image_12707",
+      "IndexJantzen": [
+        "métal",
+        "verrière"
+      ]
+    },
+    {
+      "id_pic": "image_12708",
+      "IndexJantzen": [
+        "colonne",
+        "métal"
+      ]
+    },
+    {
+      "id_pic": "image_12709",
+      "IndexJantzen": [
+        "métal",
+        "verrière"
+      ]
+    },
+    {
+      "id_pic": "image_12710",
+      "IndexJantzen": [
+        "dome",
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_12711",
+      "IndexJantzen": [
+        "dome",
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_12712",
+      "IndexJantzen": [
+        "clé",
+        "dome",
+        "lucarne"
+      ]
+    }
+  ]
+}

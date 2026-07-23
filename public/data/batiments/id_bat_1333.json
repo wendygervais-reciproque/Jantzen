@@ -1,0 +1,73 @@
+{
+  "id_bat": 1333,
+  "libelle": "184 boulevard Saint-Germain",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 440,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1877",
+  "periode": [
+    "1870-1894"
+  ],
+  "adresse": {
+    "affichage": "184 boulevard Saint-Germain",
+    "numero": "184",
+    "voie": "boulevard Saint-Germain"
+  },
+  "arrondissement": 6,
+  "coordonnees": {
+    "latitude": "48.854441",
+    "longitude": "2.331225"
+  },
+  "id_pss": 65156,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": "image_St-Germain-184_6_§1",
+  "terme_jantzen_bat": [
+    "sculpture",
+    "cariatide",
+    "porte-bois",
+    "façade",
+    "fenetre"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_St-Germain-184_6_§1",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_St-Germain-184_6_§2",
+      "IndexJantzen": [
+        "fenetre",
+        "porte-bois"
+      ]
+    },
+    {
+      "id_pic": "image_St-Germain-184_6_§3",
+      "IndexJantzen": [
+        "cariatide",
+        "fenetre",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_St-Germain-184_6_§4",
+      "IndexJantzen": [
+        "cariatide",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_St-Germain-184_6_§5",
+      "IndexJantzen": [
+        "cariatide",
+        "sculpture"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "id_bat": 3695,
+  "libelle": "82 rue Saint-Lazare",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 363,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1908",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "82 rue Saint-Lazare",
+    "numero": "82",
+    "voie": "rue Saint-Lazare"
+  },
+  "arrondissement": 9,
+  "coordonnees": {
+    "latitude": "48.876011",
+    "longitude": "2.329495"
+  },
+  "id_pss": 46315,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": "image_St-Lazare-82_9_§1",
+  "terme_jantzen_bat": [
+    "sculpture",
+    "console",
+    "lucarne",
+    "façade",
+    "oeil-de-boeuf"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_St-Lazare-82_9_§1",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_St-Lazare-82_9_§2",
+      "IndexJantzen": [
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_St-Lazare-82_9_§3",
+      "IndexJantzen": [
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_St-Lazare-82_9_§4",
+      "IndexJantzen": [
+        "lucarne",
+        "oeil-de-boeuf"
+      ]
+    },
+    {
+      "id_pic": "image_St-Lazare-82_9_§5",
+      "IndexJantzen": [
+        "lucarne",
+        "oeil-de-boeuf"
+      ]
+    },
+    {
+      "id_pic": "image_St-Lazare-82_9_§6",
+      "IndexJantzen": [
+        "console",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_St-Lazare-82_9_§7",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    }
+  ]
+}

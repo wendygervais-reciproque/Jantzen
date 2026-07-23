@@ -1,0 +1,67 @@
+{
+  "id_bat": 3427,
+  "libelle": "7 rue José-Maria-de-Heredia",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 154,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1911",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "7 rue José-Maria-de-Heredia",
+    "numero": "7",
+    "voie": "rue José-Maria-de-Heredia"
+  },
+  "arrondissement": 7,
+  "coordonnees": {
+    "latitude": "48.848113",
+    "longitude": "2.307502"
+  },
+  "id_pss": 32270,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 7341,
+  "terme_jantzen_bat": [
+    "façade-d'angle",
+    "lucarne",
+    "lucarne-d'angle",
+    "dome",
+    "balcon"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_7341",
+      "IndexJantzen": [
+        "dome",
+        "façade-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_7342",
+      "IndexJantzen": [
+        "dome",
+        "lucarne-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_7343",
+      "IndexJantzen": [
+        "balcon",
+        "dome",
+        "lucarne-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_7344",
+      "IndexJantzen": [
+        "dome",
+        "lucarne"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "id_bat": 2417,
+  "libelle": "39 rue Boissonade",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 428,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1880",
+  "periode": [
+    "1870-1894"
+  ],
+  "adresse": {
+    "affichage": "39 rue Boissonade",
+    "numero": "39",
+    "voie": "rue Boissonade"
+  },
+  "arrondissement": 14,
+  "coordonnees": {
+    "latitude": "48.838597",
+    "longitude": "2.332554"
+  },
+  "id_pss": 79874,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 1405,
+  "terme_jantzen_bat": [
+    "lucarne",
+    "façade",
+    "brique",
+    "fenetre",
+    "décor",
+    "verrière"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_1405",
+      "IndexJantzen": [
+        "brique",
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_1406",
+      "IndexJantzen": [
+        "brique",
+        "décor",
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_1407",
+      "IndexJantzen": [
+        "brique",
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_1408",
+      "IndexJantzen": [
+        "brique",
+        "lucarne",
+        "verrière"
+      ]
+    }
+  ]
+}

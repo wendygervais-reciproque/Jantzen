@@ -1,0 +1,63 @@
+{
+  "id_bat": 892,
+  "libelle": "14 rue Claude-Bernard",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": "1889",
+  "periode": [
+    "1870-1894"
+  ],
+  "adresse": {
+    "affichage": "14 rue Claude-Bernard",
+    "numero": "14",
+    "voie": "rue Claude-Bernard"
+  },
+  "arrondissement": 5,
+  "coordonnees": {
+    "latitude": "48.83947",
+    "longitude": "2.348394"
+  },
+  "id_pss": null,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": "image_Claude-Bernard-14_5_§1",
+  "terme_jantzen_bat": [
+    "brique",
+    "clé",
+    "sculpture",
+    "fenetre"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_Claude-Bernard-14_5_§1",
+      "IndexJantzen": [
+        "brique",
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_Claude-Bernard-14_5_§2",
+      "IndexJantzen": [
+        "brique",
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_Claude-Bernard-14_5_§3",
+      "IndexJantzen": [
+        "brique",
+        "clé",
+        "fenetre",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_Claude-Bernard-14_5_§4",
+      "IndexJantzen": [
+        "brique",
+        "clé",
+        "sculpture"
+      ]
+    }
+  ]
+}

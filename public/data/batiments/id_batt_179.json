@@ -1,0 +1,44 @@
+{
+  "id_bat": 179,
+  "libelle": "1 place des Petits-Pères",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "1 place des Petits-Pères",
+    "numero": "1",
+    "voie": "place des Petits-Pères"
+  },
+  "arrondissement": 2,
+  "coordonnees": {
+    "latitude": "48.866313",
+    "longitude": "2.340477"
+  },
+  "id_pss": 19953,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 11592,
+  "terme_jantzen_bat": [
+    "façade-d'angle",
+    "lucarne-d'angle",
+    "toiture"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_11592",
+      "IndexJantzen": [
+        "façade-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_11593",
+      "IndexJantzen": [
+        "lucarne-d'angle",
+        "toiture"
+      ]
+    }
+  ]
+}

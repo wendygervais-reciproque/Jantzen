@@ -1,0 +1,55 @@
+{
+  "id_bat": 3174,
+  "libelle": "6 rue Ménars",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 22,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": null,
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "6 rue Ménars",
+    "numero": "6",
+    "voie": "rue Ménars"
+  },
+  "arrondissement": 2,
+  "coordonnees": {
+    "latitude": "48.869524",
+    "longitude": "2.338215"
+  },
+  "id_pss": 48934,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 9464,
+  "terme_jantzen_bat": [
+    "façade",
+    "brique",
+    "fenetre",
+    "décor",
+    "métal"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_9464",
+      "IndexJantzen": [
+        "brique",
+        "façade",
+        "métal"
+      ]
+    },
+    {
+      "id_pic": "image_9465",
+      "IndexJantzen": [
+        "brique",
+        "décor",
+        "fenetre",
+        "métal"
+      ]
+    }
+  ]
+}

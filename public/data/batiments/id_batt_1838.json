@@ -1,0 +1,49 @@
+{
+  "id_bat": 1838,
+  "libelle": "25 rue Bleue",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": "1911",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "25 rue Bleue",
+    "numero": "25",
+    "voie": "rue Bleue"
+  },
+  "arrondissement": 9,
+  "coordonnees": {
+    "latitude": "48.875907",
+    "longitude": "2.345284"
+  },
+  "id_pss": 2744,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 1344,
+  "terme_jantzen_bat": [
+    "pilastre",
+    "façade",
+    "fenetre",
+    "garde-corps",
+    "verrière"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_1344",
+      "IndexJantzen": [
+        "façade",
+        "pilastre",
+        "verrière"
+      ]
+    },
+    {
+      "id_pic": "image_1345",
+      "IndexJantzen": [
+        "fenetre",
+        "garde-corps",
+        "verrière"
+      ]
+    }
+  ]
+}

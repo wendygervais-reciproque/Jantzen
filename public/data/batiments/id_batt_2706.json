@@ -1,0 +1,49 @@
+{
+  "id_bat": 2706,
+  "libelle": "45 rue Boissière",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 530,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1882",
+  "periode": [
+    "1870-1894"
+  ],
+  "adresse": {
+    "affichage": "45 rue Boissière",
+    "numero": "45",
+    "voie": "rue Boissière"
+  },
+  "arrondissement": 16,
+  "coordonnees": {
+    "latitude": "48.867343",
+    "longitude": "2.288886"
+  },
+  "id_pss": 38229,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 1397,
+  "terme_jantzen_bat": [
+    "mosaique",
+    "fenetre"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_1397",
+      "IndexJantzen": [
+        "fenetre",
+        "mosaique"
+      ]
+    },
+    {
+      "id_pic": "image_1398",
+      "IndexJantzen": [
+        "fenetre",
+        "mosaique"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "id_bat": 2171,
+  "libelle": "31 avenue de Versailles",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "31 avenue de Versailles",
+    "numero": "31",
+    "voie": "avenue de Versailles"
+  },
+  "arrondissement": 16,
+  "coordonnees": {
+    "latitude": "48.849508",
+    "longitude": "2.276107"
+  },
+  "id_pss": 24160,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 16174,
+  "terme_jantzen_bat": [
+    "oriel",
+    "céramique",
+    "fenetre",
+    "décor",
+    "sculpture",
+    "métal",
+    "garde-corps",
+    "console"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_16174",
+      "IndexJantzen": [
+        "oriel"
+      ]
+    },
+    {
+      "id_pic": "image_16175",
+      "IndexJantzen": [
+        "console",
+        "décor",
+        "fenetre",
+        "métal"
+      ]
+    },
+    {
+      "id_pic": "image_16176",
+      "IndexJantzen": [
+        "console",
+        "fenetre",
+        "métal",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_16177",
+      "IndexJantzen": [
+        "céramique",
+        "fenetre",
+        "garde-corps"
+      ]
+    }
+  ]
+}

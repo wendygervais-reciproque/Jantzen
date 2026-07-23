@@ -1,0 +1,78 @@
+{
+  "id_bat": 89,
+  "libelle": "Grande mosquée de Paris",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": "1922-1926",
+  "periode": [
+    "1915-1944"
+  ],
+  "adresse": null,
+  "arrondissement": 5,
+  "coordonnees": {
+    "latitude": "48.841944444444",
+    "longitude": "2.355"
+  },
+  "id_pss": 729,
+  "id_wikidata": "Q392564",
+  "WPfr": "Grande mosquée de Paris",
+  "image_ref": "image_Georges-Delmas_5_§1",
+  "terme_jantzen_bat": [
+    "mosaique",
+    "porte-bois",
+    "dome",
+    "céramique",
+    "tour",
+    "fenetre",
+    "toiture"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_Georges-Delmas_5_§1",
+      "IndexJantzen": [
+        "mosaique",
+        "tour"
+      ]
+    },
+    {
+      "id_pic": "image_Georges-Delmas_5_§2",
+      "IndexJantzen": [
+        "mosaique",
+        "tour"
+      ]
+    },
+    {
+      "id_pic": "image_Georges-Delmas_5_§3",
+      "IndexJantzen": [
+        "céramique",
+        "toiture"
+      ]
+    },
+    {
+      "id_pic": "image_Georges-Delmas_5_§4",
+      "IndexJantzen": [
+        "dome",
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_Georges-Delmas_5_§5",
+      "IndexJantzen": [
+        "dome",
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_Georges-Delmas_5_§6",
+      "IndexJantzen": [
+        "dome"
+      ]
+    },
+    {
+      "id_pic": "image_Georges-Delmas_5_§7",
+      "IndexJantzen": [
+        "porte-bois"
+      ]
+    }
+  ]
+}

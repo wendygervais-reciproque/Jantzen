@@ -1,0 +1,85 @@
+{
+  "id_bat": 3895,
+  "libelle": "94 rue de Charonne",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 392,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1910",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "94 rue de Charonne",
+    "numero": "94",
+    "voie": "rue de Charonne"
+  },
+  "arrondissement": 11,
+  "coordonnees": {
+    "latitude": "48.854014",
+    "longitude": "2.382737"
+  },
+  "id_pss": 8850,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": "image_Charonne-94_11_§1",
+  "terme_jantzen_bat": [
+    "balcon",
+    "brique",
+    "décor",
+    "pignon",
+    "céramique",
+    "façade",
+    "fenetre"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_Charonne-94_11_§1",
+      "IndexJantzen": [
+        "brique",
+        "céramique",
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_Charonne-94_11_§2",
+      "IndexJantzen": [
+        "brique",
+        "céramique",
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_Charonne-94_11_§3",
+      "IndexJantzen": [
+        "brique",
+        "céramique",
+        "décor",
+        "fenetre",
+        "pignon"
+      ]
+    },
+    {
+      "id_pic": "image_Charonne-94_11_§4",
+      "IndexJantzen": [
+        "brique",
+        "céramique",
+        "décor",
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_Charonne-94_11_§5",
+      "IndexJantzen": [
+        "balcon",
+        "brique",
+        "céramique",
+        "décor",
+        "fenetre"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id_bat": 1211,
+  "libelle": "17 rue Damrémont",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "17 rue Damrémont",
+    "numero": "17",
+    "voie": "rue Damrémont"
+  },
+  "arrondissement": 18,
+  "coordonnees": {
+    "latitude": "48.888418",
+    "longitude": "2.332902"
+  },
+  "id_pss": 12256,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 3395,
+  "terme_jantzen_bat": [
+    "porte-fer-hall",
+    "console",
+    "fenetre"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_3395",
+      "IndexJantzen": [
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_3396",
+      "IndexJantzen": [
+        "console",
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_3397",
+      "IndexJantzen": [
+        "porte-fer-hall"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "id_bat": 3230,
+  "libelle": "61 rue Réaumur",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 648,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": null,
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "61 rue Réaumur",
+    "numero": "61",
+    "voie": "rue Réaumur"
+  },
+  "arrondissement": 2,
+  "coordonnees": {
+    "latitude": "48.866446",
+    "longitude": "2.350806"
+  },
+  "id_pss": 12198,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 12758,
+  "terme_jantzen_bat": [
+    "fenetre",
+    "sculpture",
+    "décor",
+    "façade"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_12758",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_12759",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_12760",
+      "IndexJantzen": [
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_12761",
+      "IndexJantzen": [
+        "décor",
+        "fenetre",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_12762",
+      "IndexJantzen": [
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_12763",
+      "IndexJantzen": [
+        "fenetre"
+      ]
+    }
+  ]
+}

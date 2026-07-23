@@ -1,0 +1,90 @@
+{
+  "id_bat": 1296,
+  "libelle": "18 rue de Paradis",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 350,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1900",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "18 rue de Paradis",
+    "numero": "18",
+    "voie": "rue de Paradis"
+  },
+  "arrondissement": 10,
+  "coordonnees": {
+    "latitude": "48.874786",
+    "longitude": "2.353719"
+  },
+  "id_pss": 24007,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": "image_Paradis-18_10_§2",
+  "terme_jantzen_bat": [
+    "intérieur",
+    "colonne",
+    "porte-fer",
+    "céramique",
+    "façade",
+    "porte",
+    "fenetre"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_Paradis-18_10_§2",
+      "IndexJantzen": [
+        "céramique",
+        "façade",
+        "fenetre",
+        "porte"
+      ]
+    },
+    {
+      "id_pic": "image_Paradis-18_10_§3",
+      "IndexJantzen": [
+        "colonne",
+        "céramique",
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_Paradis-18_10_§4",
+      "IndexJantzen": [
+        "céramique",
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_Paradis-18_10_§5",
+      "IndexJantzen": [
+        "céramique",
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_Paradis-18_10_§6",
+      "IndexJantzen": [
+        "porte-fer"
+      ]
+    },
+    {
+      "id_pic": "image_Paradis-18_10_§7",
+      "IndexJantzen": [
+        "porte-fer"
+      ]
+    },
+    {
+      "id_pic": "image_Paradis-18_10_§8",
+      "IndexJantzen": [
+        "céramique",
+        "intérieur"
+      ]
+    }
+  ]
+}

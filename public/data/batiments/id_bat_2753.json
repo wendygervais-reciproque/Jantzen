@@ -1,0 +1,42 @@
+{
+  "id_bat": 2753,
+  "libelle": "47b avenue Kléber",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 221,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1907",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "47b avenue Kléber",
+    "numero": "47b",
+    "voie": "avenue Kléber"
+  },
+  "arrondissement": 16,
+  "coordonnees": {
+    "latitude": "48.867979",
+    "longitude": "2.291117"
+  },
+  "id_pss": 102915,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": "image_Kleber-47b_16_§1",
+  "terme_jantzen_bat": [
+    "clé",
+    "porte-fer"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_Kleber-47b_16_§1",
+      "IndexJantzen": [
+        "clé",
+        "porte-fer"
+      ]
+    }
+  ]
+}

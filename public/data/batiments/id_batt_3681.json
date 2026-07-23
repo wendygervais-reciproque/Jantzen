@@ -1,0 +1,62 @@
+{
+  "id_bat": 3681,
+  "libelle": "82 avenue Niel",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 212,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1906",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "82 avenue Niel",
+    "numero": "82",
+    "voie": "avenue Niel"
+  },
+  "arrondissement": 17,
+  "coordonnees": {
+    "latitude": "48.882957",
+    "longitude": "2.296633"
+  },
+  "id_pss": 28165,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 10282,
+  "terme_jantzen_bat": [
+    "lucarne",
+    "façade",
+    "fenetre",
+    "sculpture",
+    "décor",
+    "intérieur",
+    "porte-fer"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_10282",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_10283",
+      "IndexJantzen": [
+        "décor",
+        "fenetre",
+        "lucarne",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_10284",
+      "IndexJantzen": [
+        "intérieur",
+        "porte-fer"
+      ]
+    }
+  ]
+}

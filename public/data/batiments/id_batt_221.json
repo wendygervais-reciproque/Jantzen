@@ -1,0 +1,43 @@
+{
+  "id_bat": 221,
+  "libelle": "1 rue de Trétaigne",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "1 rue de Trétaigne",
+    "numero": "1",
+    "voie": "rue de Trétaigne"
+  },
+  "arrondissement": 18,
+  "coordonnees": {
+    "latitude": "48.891405",
+    "longitude": "2.341904"
+  },
+  "id_pss": 28480,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 15477,
+  "terme_jantzen_bat": [
+    "oriel",
+    "fenetre"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_15477",
+      "IndexJantzen": [
+        "fenetre",
+        "oriel"
+      ]
+    },
+    {
+      "id_pic": "image_15478",
+      "IndexJantzen": [
+        "fenetre"
+      ]
+    }
+  ]
+}

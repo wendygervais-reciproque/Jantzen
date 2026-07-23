@@ -1,0 +1,85 @@
+{
+  "id_bat": 1563,
+  "libelle": "20 rue de l'Abbé-de-l'Épée",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 572,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1910",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "20 rue de l'Abbé-de-l'Épée",
+    "numero": "20",
+    "voie": "rue de l'Abbé-de-l'Épée"
+  },
+  "arrondissement": 5,
+  "coordonnees": {
+    "latitude": "48.843869",
+    "longitude": "2.339727"
+  },
+  "id_pss": 71478,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": "image_Abbe-De-L'epee-20_5_§1",
+  "terme_jantzen_bat": [
+    "porte-fer",
+    "colonne",
+    "dome",
+    "façade-d'angle",
+    "lucarne",
+    "fenetre"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_Abbe-De-L'epee-20_5_§1",
+      "IndexJantzen": [
+        "dome",
+        "façade-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_Abbe-De-L'epee-20_5_§2",
+      "IndexJantzen": [
+        "dome",
+        "façade-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_Abbe-De-L'epee-20_5_§3",
+      "IndexJantzen": [
+        "fenetre",
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_Abbe-De-L'epee-20_5_§4",
+      "IndexJantzen": [
+        "dome"
+      ]
+    },
+    {
+      "id_pic": "image_Abbe-De-L'epee-20_5_§5",
+      "IndexJantzen": [
+        "dome"
+      ]
+    },
+    {
+      "id_pic": "image_Abbe-De-L'epee-20_5_§6",
+      "IndexJantzen": [
+        "porte-fer"
+      ]
+    },
+    {
+      "id_pic": "image_Abbe-De-L'epee-20_5_§7",
+      "IndexJantzen": [
+        "colonne",
+        "porte-fer"
+      ]
+    }
+  ]
+}

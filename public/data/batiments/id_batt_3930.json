@@ -1,0 +1,117 @@
+{
+  "id_bat": 3930,
+  "libelle": "97 rue Réaumur",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 371,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1900",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "97 rue Réaumur",
+    "numero": "97",
+    "voie": "rue Réaumur"
+  },
+  "arrondissement": 2,
+  "coordonnees": {
+    "latitude": "48.867622",
+    "longitude": "2.345655"
+  },
+  "id_pss": 12197,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 12782,
+  "terme_jantzen_bat": [
+    "lucarne",
+    "façade",
+    "toiture",
+    "fenetre",
+    "sculpture",
+    "garde-corps",
+    "verrière",
+    "fronton",
+    "console"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_12782",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_12783",
+      "IndexJantzen": [
+        "fronton",
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_12784",
+      "IndexJantzen": [
+        "console",
+        "fenetre",
+        "garde-corps",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_12785",
+      "IndexJantzen": [
+        "console",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_12786",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_12787",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_12788",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_12789",
+      "IndexJantzen": [
+        "fenetre",
+        "verrière"
+      ]
+    },
+    {
+      "id_pic": "image_12790",
+      "IndexJantzen": [
+        "lucarne",
+        "toiture"
+      ]
+    },
+    {
+      "id_pic": "image_12791",
+      "IndexJantzen": [
+        "lucarne",
+        "verrière"
+      ]
+    },
+    {
+      "id_pic": "image_12792",
+      "IndexJantzen": [
+        "fronton",
+        "lucarne"
+      ]
+    }
+  ]
+}

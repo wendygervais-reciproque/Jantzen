@@ -1,0 +1,803 @@
+[
+  {
+    "cluster": "Ouvertures",
+    "TermID": "224_221",
+    "Term_TMS": "arcade",
+    "Definition_fr": "baie libre sans fermeture formée d'un arc et de ses montants. Série d'arcs et piliers. Passage piétonnier avec boutiques. | on appelle ainsi toute ouverture dans un mur formée par le haut en plein cintre ou demi cercle parfait Arcade feinte : arcade qui n'est apparente que sur l'une deux faces du mur [ M 2 ] .",
+    "Definition_angl": "Open bay without closure, formed by an arch and its uprights. Series of arches and pillars. Pedestrian passage with shops. | Any opening in a wall whose upper part is formed by a round arch or perfect semicircle. Blind arcade: an arcade that is visible on only one face of the wall [ M 2 ].",
+    "URL": "https://fr.wikipedia.org/wiki/Arcade_(architecture)",
+    "source": "wiki"
+  },
+  {
+    "cluster": "Ouvertures",
+    "TermID": "224_224",
+    "Term_TMS": "baie",
+    "Definition_fr": "ouverture fermée ou non d'une porte ou d'une fenêtre dans un mur, une cloison. | Ouverture de fonction quelconque, ménagée dans un mur ou une paroi, et son encadrement.",
+    "Definition_angl": "Closed or open opening for a door or window in a wall or partition. | An opening of any function made in a wall or partition, and its surround.",
+    "URL": "https://fr.wikipedia.org/wiki/Baie_(architecture) | http://data.culture.fr/thesaurus/resource/ark:/67717/T69-141",
+    "source": "wiki"
+  },
+  {
+    "cluster": "Ouvertures",
+    "TermID": "224_234",
+    "Term_TMS": "fenêtre",
+    "Definition_fr": "Baie ou groupement de baies dans un plan vertical, muni d'une huisserie et donnant du jour à l'intérieur d'un bâtiment.",
+    "Definition_angl": "Bay or group of bays in a vertical plane, fitted with a door or window frame and providing daylight to the interior of a building.",
+    "URL": "http://data.culture.fr/thesaurus/resource/ark:/67717/T69-145",
+    "source": "wiki"
+  },
+  {
+    "cluster": "Ouvertures",
+    "TermID": "224_246",
+    "Term_TMS": "porte",
+    "Definition_fr": "baie fournissant un passage dans un mur avec panneau de fermeture parfois avec vitre. | Baie de communication fermée par un vantail ou des vantaux. La porte se distingue des autres baies formant communication, comme certaines arcades, par sa fonction précise dans la distribution.",
+    "Definition_angl": "Bay providing passage through a wall with a closing panel, sometimes glazed. | A communicating bay closed by one or two leaves. The door is distinguished from other communicating bays, such as certain arcades, by its specific function in the floor plan.",
+    "URL": "https://fr.wikipedia.org/wiki/Porte_(architecture) | http://data.culture.fr/thesaurus/resource/ark:/67717/T69-155",
+    "source": "wiki"
+  },
+  {
+    "cluster": "Ouvertures",
+    "TermID": "224_242",
+    "Term_TMS": "oriel",
+    "Definition_fr": "L’**oriel** est une loge ou une fenêtre en saillie, soutenue par des consoles ou des colonnes, dépassant du mur pour offrir une vue dégagée vers l’extérieur, souvent ornée de vitraux ou de balustrades.",
+    "Definition_angl": "An **oriel** is a bay or window that projects outward, supported by brackets or columns, extending beyond the wall to offer an unobstructed view outside, often decorated with stained glass or balustrades.",
+    "URL": "",
+    "source": "mistral_generated"
+  },
+  {
+    "cluster": "Ouvertures",
+    "TermID": "224_310",
+    "Term_TMS": "lucarne",
+    "Definition_fr": "baie verticale en continuation de sommet de mur éclairant les combles.",
+    "Definition_angl": "Vertical bay in continuation of the wall top, lighting the attic space.",
+    "URL": "https://fr.wikipedia.org/wiki/Lucarne",
+    "source": "wiki"
+  },
+  {
+    "cluster": "Ouvertures",
+    "TermID": "224_313",
+    "Term_TMS": "marquise",
+    "Definition_fr": "auvent vitré protégeant une porte, un perron ou une fenêtre.",
+    "Definition_angl": "Glazed canopy protecting a door, porch steps or window.",
+    "URL": "https://fr.wikipedia.org/wiki/Marquise_(architecture)",
+    "source": "wiki"
+  },
+  {
+    "cluster": "Ouvertures",
+    "TermID": "224_231",
+    "Term_TMS": "chambranle",
+    "Definition_fr": "encadrement de porte, fenêtre, cheminée.",
+    "Definition_angl": "Surround of a door, window, or fireplace.",
+    "URL": "https://fr.wikipedia.org/wiki/Chambranle",
+    "source": "wiki"
+  },
+  {
+    "cluster": "Ouvertures",
+    "TermID": "224_236",
+    "Term_TMS": "huisserie",
+    "Definition_fr": "L’**huisserie** désigne l’ensemble des éléments de bois, métal ou PVC (portes, fenêtres, châssis) encadrant les ouvertures d’un bâtiment, assurant étanchéité, isolation et sécurité.",
+    "Definition_angl": "**Window joinery** refers to the set of wooden, metal or PVC elements (doors, windows, frames) surrounding the openings of a building, ensuring waterproofing, insulation and security.",
+    "URL": "",
+    "source": "mistral_generated"
+  },
+  {
+    "cluster": "Ouvertures",
+    "TermID": "224_293",
+    "Term_TMS": "vitrail",
+    "Definition_fr": "**Vitrail** : Œuvre d’art composée de **verres colorés assemblés** dans un **montant de plomb**, éclairant les édifices (souvent religieux) par des motifs lumineux, mêlant technique et symbolisme.",
+    "Definition_angl": "**Stained glass**: A work of art composed of **coloured glass assembled** in a **lead framework**, illuminating buildings (often religious) with luminous patterns, combining technique and symbolism.",
+    "URL": "",
+    "source": "mistral_generated"
+  },
+  {
+    "cluster": "Ouvertures",
+    "TermID": "224_322",
+    "Term_TMS": "verrière",
+    "Definition_fr": "grand pan vitré en toiture et ou façade vitrée entièrement transparente de local vaste. | Fermeture fixe en verre d'une baie ou d'une partie de baie, directement maintenue par une armature métallique, parfois un châssis en bois, ou par le cadre en maçonnerie de la baie. Elle appartient à un édifice religieux ou civil et peut être réalisée selon différentes techniques (vitrail, dalle de verre, vitrerie, etc.).",
+    "Definition_angl": "Large glazed section in a roof and/or an entirely transparent glazed façade of a large room. | Fixed glass closure of a bay or part of a bay, directly held by a metal framework, sometimes a wooden frame, or by the masonry frame of the bay. It belongs to a religious or civil building and can be made using different techniques (stained glass, glass slab, glazing, etc.).",
+    "URL": "https://fr.wikipedia.org/wiki/Verri%C3%A8re_(architecture) | http://data.culture.fr/thesaurus/resource/ark:/67717/T69-523",
+    "source": "wiki"
+  },
+  {
+    "cluster": "Ouvertures",
+    "TermID": "224_255",
+    "Term_TMS": "triplet",
+    "Definition_fr": "En architecture, un **triplet** désigne un ensemble de trois éléments architecturaux symétriques ou identiques, comme trois colonnes, arcs ou fenêtres, organisés de manière harmonieuse.",
+    "Definition_angl": "In architecture, a **triplet** refers to a set of three symmetrical or identical architectural elements, such as three columns, arches or windows, arranged in a harmonious manner.",
+    "URL": "",
+    "source": "mistral_generated"
+  },
+  {
+    "cluster": "Ouvertures",
+    "TermID": "224_244",
+    "Term_TMS": "portail",
+    "Definition_fr": "porte extérieure (en mur de clôture) de grande dimension. | Composition monumentale à une ou plusieurs portes extérieures.",
+    "Definition_angl": "Large exterior gate (in an enclosure wall). | A monumental composition with one or more exterior doorways.",
+    "URL": "https://fr.wikipedia.org/wiki/Porte_(architecture) | http://data.culture.fr/thesaurus/resource/ark:/67717/T69-157",
+    "source": "wiki"
+  },
+  {
+    "cluster": "Ouvertures",
+    "TermID": "224_249",
+    "Term_TMS": "porte-fenêtre",
+    "Definition_fr": "fenêtre-porte extérieure à seuil franchissable, élément du fenêtrage.",
+    "Definition_angl": "Exterior door-window with a crossable threshold, an element of the fenestration.",
+    "URL": "https://fr.wikipedia.org/w/index.php?title=Porte-fen%C3%AAtre&action=edit&redlink=1",
+    "source": "wiki"
+  },
+  {
+    "cluster": "Ouvertures",
+    "TermID": "224_253",
+    "Term_TMS": "soupirail",
+    "Definition_fr": "dans le soubassement d'édifice, baie étroite de ventilation ou d'éclairage de local, avec ou sans fenêtre, avec ou sans grille.",
+    "Definition_angl": "In the base of a building, a narrow bay for ventilation or lighting of a room, with or without a window, with or without a grille.",
+    "URL": "https://fr.wikipedia.org/wiki/Soupirail",
+    "source": "wiki"
+  },
+  {
+    "cluster": "Ouvertures",
+    "TermID": "224_237",
+    "Term_TMS": "meneau",
+    "Definition_fr": "poteau maçonné divisant une baie en largeur. | Elément vertical d'un remplage de fenêtre. Le meneau formé par un petit mur étroit divise la fenêtre en plusieurs baies.",
+    "Definition_angl": "Masonry post dividing a bay in width. | Vertical element of a window tracery. The mullion formed by a narrow wall divides the window into several bays.",
+    "URL": "https://fr.wikipedia.org/wiki/Meneau | http://data.culture.fr/thesaurus/resource/ark:/67717/T69-171",
+    "source": "wiki"
+  },
+  {
+    "cluster": "Ouvertures",
+    "TermID": "224_241",
+    "Term_TMS": "oculus",
+    "Definition_fr": "Jour dont le tracé est un cercle, un ovale ou un polygone tendant vers le cercle ménagé dans un mur ou un couvrement.",
+    "Definition_angl": "An opening whose outline is a circle, oval or polygon tending toward a circle, set in a wall or covering.",
+    "URL": "http://data.culture.fr/thesaurus/resource/ark:/67717/T69-151",
+    "source": "wiki"
+  },
+  {
+    "cluster": "Ouvertures",
+    "TermID": "224_292",
+    "Term_TMS": "vantail",
+    "Definition_fr": "Panneau plein, châssis vitré ou grille de fermeture pivotant sur un de ses bords verticaux.",
+    "Definition_angl": "Full panel, glazed frame or closing grid pivoting on one of its vertical edges.",
+    "URL": "http://data.culture.fr/thesaurus/resource/ark:/67717/T69-181",
+    "source": "wiki"
+  },
+  {
+    "cluster": "Ouvertures",
+    "TermID": "224_296",
+    "Term_TMS": "volet",
+    "Definition_fr": "panneau opaque de fermeture de baie (fenêtre, porte, etc.) posé en intérieur du bâtiment.",
+    "Definition_angl": "Opaque panel for closing a bay (window, door, etc.) placed on the interior of the building.",
+    "URL": "https://fr.wikipedia.org/wiki/Volet_(fen%C3%AAtre)",
+    "source": "wiki"
+  },
+  {
+    "cluster": "Toiture",
+    "TermID": "224_343",
+    "Term_TMS": "coupole",
+    "Definition_fr": "voûte à volume intérieur hémisphérique ou ellipsoïdal. | partie concave d'une voûte sphérique [ M 14 ] . | Voûte de plan circulaire, ovale ou polygonal, dont l'intrados est théoriquement une concavité de révolution : il est tracé par la rotation d'un arc générateur sur un axe vertical.",
+    "Definition_angl": "Vault with a hemispherical or ellipsoidal interior volume. | The concave part of a spherical vault [ M 14 ]. | A vault of circular, oval or polygonal plan, whose intrados is theoretically a surface of revolution: it is traced by the rotation of a generating arc on a vertical axis.",
+    "URL": "https://fr.wikipedia.org/wiki/Coupole | http://data.culture.fr/thesaurus/resource/ark:/67717/18748ed6-fdb0-4f3a-a4ab-991ba5accf44",
+    "source": "wiki"
+  },
+  {
+    "cluster": "Toiture",
+    "TermID": "224_346",
+    "Term_TMS": "dôme",
+    "Definition_fr": "toiture en voûte sphérique maçonnée ou en voile de béton à simple courbure",
+    "Definition_angl": "Roof in masonry spherical vault or in single-curvature concrete shell.",
+    "URL": "https://fr.wikipedia.org/wiki/D%C3%B4me_(architecture)",
+    "source": "wiki"
+  },
+  {
+    "cluster": "Toiture",
+    "TermID": "224_298",
+    "Term_TMS": "auvent",
+    "Definition_fr": "petit toit (appentis) couvrant une entrée, une fenêtre. | Couverture en surplomb, généralement en appentis, couvrant un espace à l’air libre devant une baie, une façade.",
+    "Definition_angl": "Small roof (lean-to) covering an entrance or window. | Overhanging cover, generally lean-to, covering an open-air space in front of a bay or façade.",
+    "URL": "http://data.culture.fr/thesaurus/resource/ark:/67717/T69-6700",
+    "source": "wiki"
+  },
+  {
+    "cluster": "Toiture",
+    "TermID": "224_299",
+    "Term_TMS": "chéneau",
+    "Definition_fr": "canal en pierre, terre cuite, métal à la base de la toiture collectant l'eau vers les tuyaux de descente ou bien les gargouilles.",
+    "Definition_angl": "Channel in stone, terracotta or metal at the base of the roof collecting water towards downpipes or gargoyles.",
+    "URL": "https://fr.wikipedia.org/wiki/Ch%C3%A9neau",
+    "source": "wiki"
+  },
+  {
+    "cluster": "Toiture",
+    "TermID": "224_312",
+    "Term_TMS": "mansarde",
+    "Definition_fr": "La **mansarde** est un comble à **pente brisée**, avec une partie haute verticale (fenêtres de lucarnes) et une basse inclinée, optimisant l’espace habitable sous le toit. Typique du **classicisme français** (XVIIᵉ siècle), elle allie esthétique et fonctionnalité.",
+    "Definition_angl": "The **mansard roof** is a roof with a **broken pitch**, with a tall near-vertical upper part (with dormer windows) and a lower inclined part, optimising habitable space under the roof. Typical of **French Classicism** (17th century), it combines aesthetics and functionality.",
+    "URL": "",
+    "source": "mistral_generated"
+  },
+  {
+    "cluster": "Toiture",
+    "TermID": "224_318",
+    "Term_TMS": "toit à deux versants",
+    "Definition_fr": "Un **toit à deux versants** (ou *toit en pente*) présente deux plans inclinés symétriques se rejoignant au faîtage, formant une **charpente triangulaire** pour évacuer l’eau de pluie efficacement. Typique des maisons traditionnelles, il optimise l’étanchéité et l’aération.",
+    "Definition_angl": "A **pitched roof** (or *sloping roof*) presents two symmetrical inclined planes meeting at the ridge, forming a **triangular frame** to efficiently drain rainwater. Typical of traditional houses, it optimises waterproofing and ventilation.",
+    "URL": "",
+    "source": "mistral_generated"
+  },
+  {
+    "cluster": "Toiture",
+    "TermID": "224_320",
+    "Term_TMS": "toit en pavillon",
+    "Definition_fr": "Un **toit en pavillon** est une toiture à deux pans inclinés symétriques, se rejoignant en un sommet central, formant une silhouette triangulaire élégante, typique des maisons bourgeoises ou des châteaux.",
+    "Definition_angl": "A **hipped roof** has two symmetrical inclined planes meeting at a central apex, forming an elegant triangular silhouette, typical of bourgeois houses or châteaux.",
+    "URL": "",
+    "source": "mistral_generated"
+  },
+  {
+    "cluster": "Toiture",
+    "TermID": "224_315",
+    "Term_TMS": "souche de cheminée",
+    "Definition_fr": "Ouvrage de maçonnerie renfermant un ou plusieurs conduits de cheminée et s'élevant au-dessus du toit.",
+    "Definition_angl": "Masonry structure enclosing one or more flue pipes and rising above the roof.",
+    "URL": "http://data.culture.fr/thesaurus/resource/ark:/67717/T69-301",
+    "source": "wiki"
+  },
+  {
+    "cluster": "Toiture",
+    "TermID": "224_306",
+    "Term_TMS": "faîtage",
+    "Definition_fr": "ligne de rencontre haute de deux versants d'une toiture. Faîte.",
+    "Definition_angl": "Upper meeting line of two roof slopes. Ridge.",
+    "URL": "https://fr.wikipedia.org/wiki/Fa%C3%AEtage",
+    "source": "wiki"
+  },
+  {
+    "cluster": "Toiture",
+    "TermID": "224_305",
+    "Term_TMS": "épi de faîtage",
+    "Definition_fr": "pièce de charpente qui couronne le faîte d’une toiture. | Ornement le plus souvent en métal ou en céramique, formé de plusieurs éléments et placé aux extrémités d'un faîte de toit.",
+    "Definition_angl": "Timber piece crowning the ridge of a roof. | Ornament most often in metal or ceramic, formed of several elements and placed at the ends of a roof ridge.",
+    "URL": "https://fr.wikipedia.org/wiki/%C3%89pi_de_fa%C3%AEtage | http://data.culture.fr/thesaurus/resource/ark:/67717/T69-294",
+    "source": "wiki"
+  },
+  {
+    "cluster": "Toiture",
+    "TermID": "224_321",
+    "Term_TMS": "toit-terrasse",
+    "Definition_fr": "toit plat (peut être accessible avec espace de vie).",
+    "Definition_angl": "Flat roof (may be accessible as a living space).",
+    "URL": "https://fr.wikipedia.org/wiki/Toit-terrasse",
+    "source": "wiki"
+  },
+  {
+    "cluster": "Toiture",
+    "TermID": "224_370",
+    "Term_TMS": "acrotère",
+    "Definition_fr": "muret situé en bordure de toit terrasse moderne pour permettre le relevé d'étanchéité. Piédestal soutenant des ornements sur une balustrade classique, un fronton antique. | Amortissement placé à la naissance et au faîte des rampants d'un fronton ou d'un pignon, généralement formé d'un socle et d'un motif ornemental.",
+    "Definition_angl": "Low wall located at the edge of a modern flat roof terrace to allow the waterproofing upstand. Pedestal supporting ornaments on a Classical balustrade or antique pediment. | Termination placed at the foot and at the summit of the raking cornices of a pediment or gable, generally consisting of a base and an ornamental motif.",
+    "URL": "https://fr.wikipedia.org/wiki/Acrot%C3%A8re | http://data.culture.fr/thesaurus/resource/ark:/67717/T69-315",
+    "source": "wiki"
+  },
+  {
+    "cluster": "Ornementation",
+    "TermID": "224_383",
+    "Term_TMS": "corniche",
+    "Definition_fr": "couronnement de construction, en saillie, ligne continue horizontale ou en pente. | Couronnement d'un entablement, d'un piédestal, d'une élévation, etc., formé de moulures en surplomb les unes sur les autres.",
+    "Definition_angl": "Building crown, projecting, continuous horizontal or inclined line. | Crowning of an entablature, pedestal, elevation, etc., formed of overlapping overhanging mouldings.",
+    "URL": "https://fr.wikipedia.org/wiki/Corniche | http://data.culture.fr/thesaurus/resource/ark:/67717/T69-337",
+    "source": "wiki"
+  },
+  {
+    "cluster": "Ornementation",
+    "TermID": "224_396",
+    "Term_TMS": "fronton",
+    "Definition_fr": "élément maçonné, souvent triangulaire, couronnant une baie, un avant-corps, une façade. | Couronnement pyramidé à tympan et cadre mouluré.",
+    "Definition_angl": "Masonry element, often triangular, crowning a bay, a projecting section, a façade. | A pyramidal crowning with tympanum and moulded frame.",
+    "URL": "https://fr.wikipedia.org/wiki/Fronton_(architecture) | http://data.culture.fr/thesaurus/resource/ark:/67717/T69-343",
+    "source": "wiki"
+  },
+  {
+    "cluster": "Ornementation",
+    "TermID": "224_407",
+    "Term_TMS": "mascaron",
+    "Definition_fr": "tête sculptée, ornement de face de clef d'arc de baie. | Ornement sculpté représentant une face fantastique ou grotesque.",
+    "Definition_angl": "Sculpted head, ornament on the face of an arch keystone of a bay. | Sculpted ornament representing a fantastic or grotesque face.",
+    "URL": "https://fr.wikipedia.org/wiki/Mascaron | http://data.culture.fr/thesaurus/resource/ark:/67717/T69-4865",
+    "source": "wiki"
+  },
+  {
+    "cluster": "Ornementation",
+    "TermID": "224_403",
+    "Term_TMS": "gargouille",
+    "Definition_fr": "pierre (sculptée) en saillie de mur pour rejet d'eau de pluie. Assemblage par enfourchement de pièces en charpente. | Conduit d'évacuation des eaux, percé dans une corniche et formant saillie. La gargouille est le plus souvent ornée d'une figure animale ou humaine, généralement monstrueuse.",
+    "Definition_angl": "Sculpted stone projecting from a wall to throw off rainwater. Assembly by halving of timber components. | Water evacuation conduit, pierced in a cornice and forming a projection. The gargoyle is most often adorned with an animal or human figure, generally monstrous.",
+    "URL": "https://fr.wikipedia.org/wiki/Gargouille | http://data.culture.fr/thesaurus/resource/ark:/67717/T69-306",
+    "source": "wiki"
+  },
+  {
+    "cluster": "Ornementation",
+    "TermID": "224_423",
+    "Term_TMS": "sculpture",
+    "Definition_fr": "Domaine de l'art concerné par la production de formes en ronde-bosse ou en relief au moyen de diverses techniques : taille, moulage, modelage, fonte, repoussé, etc. Ce terme désigne également l'œuvre ou l'objet résultant de ces techniques.",
+    "Definition_angl": "Domain of art concerned with the production of forms in the round or in relief by means of various techniques: carving, moulding, modelling, casting, repoussé, etc. This term also designates the work or object resulting from these techniques.",
+    "URL": "http://data.culture.fr/thesaurus/resource/ark:/67717/T69-4825",
+    "source": "wiki"
+  },
+  {
+    "cluster": "Ornementation",
+    "TermID": "224_374",
+    "Term_TMS": "boiserie",
+    "Definition_fr": "**Boiserie** : Revêtement mural ou cloison en bois sculpté, ajouré ou massif, utilisé pour l’ornementation ou la cloisonnement intérieur, typique des intérieurs classiques (Louis XV, XVIIIᵉ).",
+    "Definition_angl": "**Boiserie**: Wall covering or partition in sculpted, openwork or solid wood, used for interior ornamentation or partitioning, typical of Classical interiors (Louis XV, 18th century).",
+    "URL": "",
+    "source": "mistral_generated"
+  },
+  {
+    "cluster": "Ornementation",
+    "TermID": "224_610",
+    "Term_TMS": "heurtoir",
+    "Definition_fr": "Marteau fixé à la porte d'entrée d'une demeure dont on se sert pour frapper en le faisant retomber, sur le contre-heurtoir ou enclume. La porte sert alors de caisse de résonance.",
+    "Definition_angl": "Hammer fixed to the entrance door of a dwelling, used for knocking by letting it fall back on the anvil or strike plate. The door then serves as a sounding board.",
+    "URL": "http://data.culture.fr/thesaurus/resource/ark:/67717/T69-556",
+    "source": "wiki"
+  },
+  {
+    "cluster": "Ornementation",
+    "TermID": "224_661",
+    "Term_TMS": "modillon",
+    "Definition_fr": "élément sculpté saillant du mur et soutenant une corniche. | Petit support de forme quelconque placé sous une corniche : ce n'est souvent qu'un élément de modénature.",
+    "Definition_angl": "Sculpted element projecting from the wall and supporting a cornice. | A small support of any form placed under a cornice: it is often merely a modénature element.",
+    "URL": "https://fr.wikipedia.org/wiki/Modillon | http://data.culture.fr/thesaurus/resource/ark:/67717/T69-221",
+    "source": "wiki"
+  },
+  {
+    "cluster": "Ornementation",
+    "TermID": "224_394",
+    "Term_TMS": "frise",
+    "Definition_fr": "élément d'entablement compris entre architrave et corniche . Moulure menuisée plate de décor horizontal. Frette, chanlatte. | Moulure plate horizontale ayant vocation à recevoir un décor. Par extension, suite d'ornements en bande horizontale.",
+    "Definition_angl": "Entablature element between architrave and cornice. Flat carpentry moulding for horizontal decoration. Fret, cant board. | Flat horizontal moulding intended to receive a decoration. By extension, a series of ornaments in a horizontal band.",
+    "URL": "https://fr.wikipedia.org/wiki/Frise_(architecture) | http://data.culture.fr/thesaurus/resource/ark:/67717/T69-339",
+    "source": "wiki"
+  },
+  {
+    "cluster": "Ornementation",
+    "TermID": "224_373",
+    "Term_TMS": "bandeau",
+    "Definition_fr": "moulure de contour de baie. Bande horizontale continue de façade. Parement de chéneau en bardage métallique.",
+    "Definition_angl": "Moulding framing a bay. Continuous horizontal band on a façade. Metal cladding facing of a gutter.",
+    "URL": "https://fr.wikipedia.org/wiki/Bandeau_(architecture)",
+    "source": "wiki"
+  },
+  {
+    "cluster": "Ornementation",
+    "TermID": "224_445",
+    "Term_TMS": "bossage",
+    "Definition_fr": "ornement de façade de pierres en saillies régulières taillées ciselées, et ou avec des joints accentués.",
+    "Definition_angl": "Façade ornament of regularly projecting stones, carved and chiselled, with or without accentuated joints.",
+    "URL": "https://fr.wikipedia.org/wiki/Bossage_(architecture)",
+    "source": "wiki"
+  },
+  {
+    "cluster": "Ornementation",
+    "TermID": "224_284",
+    "Term_TMS": "grille",
+    "Definition_fr": "**Grille** : Structure régulière de lignes (horizontales/verticales) ou de modules répétitifs (ex. fenêtres, balcons) organisant un espace, un mur ou une façade pour équilibrer ordre et rythme en architecture.",
+    "Definition_angl": "**Grid**: A regular structure of lines (horizontal/vertical) or repetitive modules (e.g. windows, balconies) organising a space, wall or façade to balance order and rhythm in architecture.",
+    "URL": "",
+    "source": "mistral_generated"
+  },
+  {
+    "cluster": "Structure",
+    "TermID": "224_324",
+    "Term_TMS": "arc",
+    "Definition_fr": "assemblage de pierres, moellons ou briques ayant la forme d'une courbe pleine ou brisée franchissant un espace avec pour seuls appuis les extrémités. | structure concave qui a la forme de l'arc d'une courbe et qui sert comme de support intérieur à tout ce qui pose dessus [ M 1 ] . Arc à encorbellement : arc dont les pierres sont posées à encorbellement . Arc à lambrequins : arc dérivé de l' arc recti-curviligne dont l' intrados présente à son sommet plusieurs lobes. Arc-boutant ou arc butant. Portion d'arc qui est appuyée contre les reins d'une voûte pour en retenir la poussée [ M 1 ] . Arc brisé : un des éléments caractéristiques de l' architecture gothique . Une forme des voûtes, des arcades dont le contour est déterminé par deux portions d’arcs égaux se coupant à angle curviligne aigu et s’arrêtant en général sur la ligne du centre [ 1 ] . Arc déprimé : arc en forme d'un demi-cercle dont le milieu fléchit et descend. Arc de décharge : arc en décharge (voir décharge ). Arc diaphragme : arc transversal sous une voûte ou une charpente surmonté d'un muret de refend à forme de croissant Arc-doubleau : saillie qu'on pratique sur la douelle d'une voûte formant une chaîne de pierres d'une naissance à l'autre de la voûte [ M 1 ] . Arc droit : section d'une voûte cylindrique perpendiculaire à son axe (voir droit ) [ M 1 ] . Arc en mitre , ou arc en fronton, ou arc angulaire : arc composé de deux droites inclinées formant un angle. Arc festonné : variante de l' arc polylobé dans laquelle les lobes constituant l' intrados de l'arc sont convexes au lieu d'être concaves. Arc festonné brisé : arc festonné dans laquelle l' intrados n'est pas en plein cintre mais de forme brisée. Arc formeret : voir formerets . Arc à muqarnas ou arc à stalactites : variante de l' arc à lambrequins dont l' intrados est orné de muqarnas . Arc en plein cintre : arc formé d'un demi-cintre [ M 1 ] . Arc outrepassé : arc qui dessine un arc de cercle plus grand que le demi-cercle. Arc outrepassé brisé : variante de l' arc outrepassé (ou arc en fer à cheval) apparue au XI e siècle en Al-Andalus à l'époque des royaumes de taïfa . Arc polylobé : arc composé d'un nombre impair de petits arcs en plein cintre, apparu au X e siècle à l'époque du califat de Cordoue . Arc polylobé brisé : variante de l' arc polylobé apparue au XI e siècle en Al-Andalus à l'époque des royaumes de taïfa . Arc à voussure polylobée : variante de l' arc polylobé apparue au XII e siècle dans l' architecture romane française , où les lobes ornent non pas l' intrados mais la voussure de l'arc. Arc rampant : arc dont les impostes ne sont pas de niveau [ M 1 ] . Arc recti-curviligne : arc sophistiqué apparu au XI e siècle en Al-Andalus à l'époque des royaumes de taïfa . | Organe appareillé porté par deux points d'appui et présentant un intrados.",
+    "Definition_angl": "Assembly of stones, rubble or bricks forming a full or broken curve spanning a space with supports only at the extremities. | A concave structure in the form of an arc of a curve serving as an internal support for everything resting on it [ M 1 ]. Corbelled arch: an arch whose stones are set in corbelling. Lambrequin arch: an arch derived from the recti-curvilinear arch whose intrados presents several lobes at its apex. Flying buttress: a portion of an arch abutting against the haunches of a vault to retain its thrust [ M 1 ]. Pointed arch: one of the characteristic elements of Gothic architecture. A form of vaults and arcades whose outline is determined by two equal arc portions intersecting at an acute curvilinear angle [ 1 ]. Depressed arch: an arch in the form of a semicircle whose centre dips and descends. Relieving arch: see discharge. Diaphragm arch: transverse arch under a vault or timber frame surmounted by a crescent-shaped partition wall. Transverse arch (arc-doubleau): a projecting rib on the soffit of a vault forming a chain of stones from one springer to the other [ M 1 ]. Straight arch: section of a cylindrical vault perpendicular to its axis [ M 1 ]. Mitre arch, or pediment arch, or angular arch: an arch composed of two inclined straight lines forming an angle. Festooned arch: a variant of the multifoil arch in which the lobes of the intrados are convex rather than concave. Broken festooned arch: a festooned arch in which the intrados is not round but broken. Formeret arch: see formerets. Muqarnas arch or stalactite arch: a variant of the lambrequin arch whose intrados is adorned with muqarnas. Round arch: an arch formed by a semicircle [ M 1 ]. Horseshoe arch: an arch that describes an arc of a circle larger than a semicircle. Broken horseshoe arch: a variant of the horseshoe arch (or arc en fer à cheval) that appeared in the 11th century in Al-Andalus during the taifa period. Multifoil arch: an arch composed of an odd number of small round arches, which appeared in the 10th century during the Caliphate of Córdoba. Broken multifoil arch: a variant of the multifoil arch that appeared in the 11th century in Al-Andalus during the taifa period. Polylobed voussoir arch: a variant of the multifoil arch that appeared in the 12th century in French Romanesque architecture, where the lobes adorn not the intrados but the archivolt. Rampant arch: an arch whose imposts are not level [ M 1 ]. Rectilinear-curvilinear arch: a sophisticated arch that appeared in the 11th century in Al-Andalus during the taifa period. | An assembled structural element carried by two supports and presenting an intrados.",
+    "URL": "https://fr.wikipedia.org/wiki/Arc_(architecture) | http://data.culture.fr/thesaurus/resource/ark:/67717/T69-231",
+    "source": "wiki"
+  },
+  {
+    "cluster": "Structure",
+    "TermID": "224_326",
+    "Term_TMS": "arc brisé",
+    "Definition_fr": "un des éléments caractéristiques de l' architecture gothique . Une forme des voûtes, des arcades dont le contour est déterminé par deux portions d’arcs égaux se coupant à angle curviligne aigu et s’arrêtant en général sur la ligne du centre [ 1 ] .",
+    "Definition_angl": "One of the characteristic elements of Gothic architecture. A form of vaults and arcades whose outline is determined by two equal arc portions intersecting at an acute curvilinear angle and generally stopping at the centre line [ 1 ].",
+    "URL": "https://fr.wikipedia.org/wiki/Arc_bris%C3%A9",
+    "source": "wiki"
+  },
+  {
+    "cluster": "Structure",
+    "TermID": "224_364",
+    "Term_TMS": "voûte",
+    "Definition_fr": "ouvrage de couvrement intérieur maçonné sur cintres d'un édifice. | plancher construit en brique, moellon ou en pierre , dont le dessous est fait en arc ou en plate-bande . Lorsqu'il est construit en pierre, il est formé par des voussoirs ou claveaux qui, par leurs dispositions, se soutiennent ensemble. On donne aux voûtes différentes dénominations, suivant leur forme [ M 51 ] : voûte catalane , voûte cylindrique , voûte annulaire , voûte plein-cintre ou voûte en berceau . Voûte dont la douelle (c'est-à-dire le parement intérieur ou intrados) a le contour de la surface d'un cylindre, d'un anneau, ou qui est en demi-cercle [ M 51 ] , voûte sarrasine , voûte surbaissée , voûte elliptique : dont la courbure est une portion d'ellipse [ M 51 ] . Voûte en anse de panier : dont la courbure est formée d'un grand arc de cercle central et de deux plus petits arcs de cercles tangents latéraux, voûte surmontée : voûte qui a plus de hauteur que le demi-cercle [ M 52 ] , voûte conique : voûte dont la douelle a la forme de la surface d'un cône , que l'on nomme aussi voûte en trompe [ M 52 ] , voûte sphérique , voûte en calotte ou voûte en cul-de-four : voûte qui est circulaire sur son plan et sur son profil [ M 52 ] , voûte en arc-de-cloître : voûte qui est formée par quatre portions de cercle dont les angles sont rentrants [ M 52 ] , voûte d'arête : voûte qui est formée par la rencontre des deux berceaux qui se croisent [ M 52 ] ; voûte d'ogive ou — terme plus correct — voûte sur croisée d'ogives , voûte en éventail . | Ouvrage, nécessairement maçonné, construit entre des appuis, couvrant un espace et présentant un intrados.",
+    "Definition_angl": "Interior masonry covering structure built on centring in a building. | A floor built in brick, rubble or stone, whose underside is in the form of an arch or flat arch. When built in stone, it is formed by voussoirs or keystones which, by their arrangement, support each other. Vaults are given different names according to their form [ M 51 ]: Catalan vault, cylindrical vault, annular vault, round arch vault or barrel vault. A vault whose soffit (the interior facing or intrados) has the outline of the surface of a cylinder, ring or semicircle [ M 51 ], Saracen vault, depressed vault, elliptical vault: whose curvature is a portion of an ellipse [ M 51 ]. Basket-handle vault: whose curvature is formed by a large central arc and two smaller tangential lateral arcs. Raised vault: a vault higher than a semicircle [ M 52 ]. Conical vault or trompe vault: a vault whose soffit has the form of the surface of a cone [ M 52 ]. Spherical vault, skullcap vault or cul-de-four vault: a vault that is circular in plan and section [ M 52 ]. Cloister vault: a vault formed by four arc portions whose angles are re-entrant [ M 52 ]. Groined vault: a vault formed by the intersection of two crossing barrel vaults [ M 52 ]; ribbed vault or — more correctly — vault on crossed ribs, fan vault. | A necessarily masonry structure built between supports, covering a space and presenting an intrados.",
+    "URL": "https://fr.wikipedia.org/wiki/Vo%C3%BBte | http://data.culture.fr/thesaurus/resource/ark:/67717/T69-253",
+    "source": "wiki"
+  },
+  {
+    "cluster": "Structure",
+    "TermID": "224_336",
+    "Term_TMS": "architrave",
+    "Definition_fr": "linteau massif, support horizontal posé au-dessus des colonnes (d'un fronton). | des trois parties d'un entablement , celle qui pose sur les chapiteaux des colonnes ou pilastres. L'architrave représente une poutre faite en pierre ; elle se compose de plusieurs claveaux en coupe [ M 2 ] . | des trois parties d'un entablement celle qui pose sur les chapiteaux des colonnes ou pilastres . L'architrave représente une poutre faite en pierre ; elle se compose de plusieurs claveaux en coupe [ M 1 ]",
+    "Definition_angl": "Massive lintel, horizontal support placed above columns (of a pediment). | Of the three parts of an entablature, the one that rests on the capitals of columns or pilasters. The architrave represents a stone beam; it is composed of several voussoirs in section [ M 2 ].",
+    "URL": "https://fr.wikipedia.org/wiki/Architrave",
+    "source": "wiki"
+  },
+  {
+    "cluster": "Structure",
+    "TermID": "224_450",
+    "Term_TMS": "colombage",
+    "Definition_fr": "Le **colombage** est une technique traditionnelle où des **poutres en bois** (montants et solives) forment un squelette porteur, rempli de matériaux légers (torchis, brique, pierre) pour les murs. Typique du Moyen Âge en Europe, il allie résistance et esthétique.",
+    "Definition_angl": "**Half-timbering** is a traditional technique in which **timber beams** (uprights and joists) form a load-bearing skeleton, filled with lightweight materials (daub, brick, stone) for the walls. Typical of the Middle Ages in Europe, it combines resistance and aesthetics.",
+    "URL": "",
+    "source": "mistral_generated"
+  },
+  {
+    "cluster": "Structure",
+    "TermID": "224_452",
+    "Term_TMS": "gros appareil",
+    "Definition_fr": "**Gros appareil** désigne l’utilisation de **mégalithes** (pierres de grande taille, souvent monolithiques) pour construire murs, monuments ou structures, typique des mégalithes (menhirs, dolmens) ou de certains édifices antiques.",
+    "Definition_angl": "**Large stonework** refers to the use of **megaliths** (large stones, often monolithic) to construct walls, monuments or structures, typical of megalithic monuments (menhirs, dolmens) or certain ancient buildings.",
+    "URL": "",
+    "source": "mistral_generated"
+  },
+  {
+    "cluster": "Structure",
+    "TermID": "224_458",
+    "Term_TMS": "petit appareil",
+    "Definition_fr": "Le **petit appareil** désigne en architecture un **ordre décoratif** de pilastres ou de modillons de faible hauteur (1/4 à 1/3 de la hauteur d’un étage), souvent utilisé en façade pour structurer les niveaux sans charge statique. Typique du **Classicisme** et du **Néoclassique**, il souligne la verticalité sans rigidité.",
+    "Definition_angl": "**Small stonework** refers in architecture to a **decorative order** of pilasters or modillions of low height (1/4 to 1/3 of a storey height), often used on façades to structure levels without static load. Typical of **Classicism** and **Neoclassicism**, it emphasises verticality without rigidity.",
+    "URL": "",
+    "source": "mistral_generated"
+  },
+  {
+    "cluster": "Structure",
+    "TermID": "224_351",
+    "Term_TMS": "entablement",
+    "Definition_fr": "partie horizontale appuyée sur colonnade (antique). Corniche et frise en saillie de façade. Couronnement de baie. | Couronnement horizontal d'une ordonnance d'architecture comprenant une corniche qui couronne elle-même une frise et/ou une architrave.",
+    "Definition_angl": "Horizontal part resting on a colonnade (antique). Projecting cornice and frieze on a façade. Bay crowning. | Horizontal crowning of an architectural order comprising a cornice which in turn crowns a frieze and/or an architrave.",
+    "URL": "https://fr.wikipedia.org/wiki/Entablement | http://data.culture.fr/thesaurus/resource/ark:/67717/T69-335",
+    "source": "wiki"
+  },
+  {
+    "cluster": "Structure",
+    "TermID": "224_353",
+    "Term_TMS": "linteau",
+    "Definition_fr": "pierre massive, poutre bois ou acier ou béton, partie de baie support horizontal supérieur du mur. | Bloc de pierre (à la différence de la plate-bande qui est appareillée), pièce de bois ou de métal rectiligne, couvrant une baie. Il reçoit la charge des parties situées au-dessus de la baie et la reporte sur les deux points d'appui.",
+    "Definition_angl": "Massive stone, timber, steel or concrete beam, upper horizontal support of the wall over a bay. | A block of stone (unlike the flat arch which is coursed), or a straight piece of wood or metal, covering a bay. It receives the load from the parts above the bay and transfers it to the two support points.",
+    "URL": "https://fr.wikipedia.org/wiki/Linteau_(architecture) | http://data.culture.fr/thesaurus/resource/ark:/67717/T69-247",
+    "source": "wiki"
+  },
+  {
+    "cluster": "Structure",
+    "TermID": "224_652",
+    "Term_TMS": "contrefort",
+    "Definition_fr": "massif de maçonnerie en renfort à l'extérieur du bâtiment contenant la poussée latérale due aux arcs et voûtes. Massif en renfort de mur de rétention des terres.",
+    "Definition_angl": "Masonry buttress reinforcing the exterior of a building against the lateral thrust of arches and vaults. Reinforcing mass for a retaining wall.",
+    "URL": "https://fr.wikipedia.org/wiki/Contrefort",
+    "source": "wiki"
+  },
+  {
+    "cluster": "Structure",
+    "TermID": "224_330",
+    "Term_TMS": "arc en plein cintre",
+    "Definition_fr": "arc formé d'un demi-cintre [ M 1 ] .",
+    "Definition_angl": "Arch formed by a semicircle [ M 1 ].",
+    "URL": "https://fr.wikipedia.org/wiki/Arc_en_plein_cintre",
+    "source": "wiki"
+  },
+  {
+    "cluster": "Structure",
+    "TermID": "224_329",
+    "Term_TMS": "arc en anse de panier",
+    "Definition_fr": "L’**arc en anse de panier** est un arc en ogive dont les branches courbes forment une forme rappelant un panier, typique de l’architecture **romane** (XIᵉ–XIIᵉ siècles).",
+    "Definition_angl": "The **basket-handle arch** is a pointed arch whose curved branches form a shape resembling a basket handle, typical of **Romanesque** architecture (11th–12th centuries).",
+    "URL": "",
+    "source": "mistral_generated"
+  },
+  {
+    "cluster": "Structure",
+    "TermID": "224_448",
+    "Term_TMS": "chaîne d'angle",
+    "Definition_fr": "partie encoignure de murs faite d'un appareil en brique ou pierre taillée (chaînage).",
+    "Definition_angl": "Corner section of walls made of coursed brick or cut stone (corner quoins).",
+    "URL": "https://fr.wikipedia.org/wiki/Cha%C3%AEnage",
+    "source": "wiki"
+  },
+  {
+    "cluster": "Structure",
+    "TermID": "224_457",
+    "Term_TMS": "mur-boutant",
+    "Definition_fr": "mur qui s'oppose aux poussées latérales.",
+    "Definition_angl": "Wall that resists lateral thrusts.",
+    "URL": "https://fr.wikipedia.org/wiki/Mur-boutant",
+    "source": "wiki"
+  },
+  {
+    "cluster": "Supports",
+    "TermID": "224_666",
+    "Term_TMS": "pilastre",
+    "Definition_fr": "faux pilier intégré au mur en ornement. | espèce de colonne carrée ou plate, qui a les mêmes proportions et ornements que la colonne de l'ordre dont il emprunte le nom ; il est ordinairement engagé dans les murs, n'ayant de saillie que le tiers, le quart, ou le sixième de son épaisseur [ M 18 ] . | Membre vertical formé par une faible saillie rectangulaire d'un mur et ayant, par sa composition et sa fonction plastique, les caractéristiques des supports. Il est généralement muni d'une base et d'un chapiteau.",
+    "Definition_angl": "False pillar integrated into the wall as ornament. | A species of square or flat column having the same proportions and ornaments as the column of the order from which it borrows its name; it is ordinarily engaged in walls, having a projection of only one-third, one-quarter or one-sixth of its thickness [ M 18 ]. | A vertical member formed by a slight rectangular projection of a wall and having, by its composition and plastic function, the characteristics of supports. It is generally fitted with a base and a capital.",
+    "URL": "https://fr.wikipedia.org/wiki/Pilastre | http://data.culture.fr/thesaurus/resource/ark:/67717/T69-199",
+    "source": "wiki"
+  },
+  {
+    "cluster": "Supports",
+    "TermID": "224_670",
+    "Term_TMS": "pilier",
+    "Definition_fr": "poteau maçonné et non circulaire transférant verticalement les charges reçues vers les fondations. | corps de pierre ou de maçonnerie de forme ronde ou carrée, servant à soutenir une voûte en arc ou en plate-bande . Pilier butant : corps de pierre ou de maçonnerie élevé pour soutenir la poussée d'un arc ou d'une voûte , et qui se fait quelquefois en console ou en arcade (voir arc-boutant ) [ M 37 ] . | corps de pierre ou de maçonnerie de forme ronde ou carrée, servant à soutenir une voûte en arc ou en plate-bande [ M 18 ] . | Support vertical pouvant avoir une base, un chapiteau et un fût, dont le corps a un plan massé quelconque, à l'exclusion de celui de la colonne.",
+    "Definition_angl": "Non-circular masonry post vertically transferring received loads to the foundations. | Body of stone or masonry of round or square form, serving to support a vault in arch or flat form. Butting pillar: body of stone or masonry raised to support the thrust of an arch or vault, sometimes made as a console or arcade (see flying buttress) [ M 37 ]. | Body of stone or masonry of round or square form, serving to support a vault in arch or flat form [ M 18 ]. | Vertical support that may have a base, a capital and a shaft, whose body has any massed plan, excluding that of the column.",
+    "URL": "https://fr.wikipedia.org/wiki/Pilier | http://data.culture.fr/thesaurus/resource/ark:/67717/T69-201",
+    "source": "wiki"
+  },
+  {
+    "cluster": "Supports",
+    "TermID": "224_638",
+    "Term_TMS": "colonne",
+    "Definition_fr": "élément vertical de structure porteuse, soutien de forme cylindrique en pierre, en métal creux ou plein. | Support vertical formé d'une base, d'un chapiteau et d'un fût dont le plan est un cercle ou un polygone régulier à plus de quatre côtés.",
+    "Definition_angl": "Vertical load-bearing structural element, cylindrical support in stone, hollow or solid metal. | A vertical support formed of a base, a capital and a shaft whose plan is a circle or a regular polygon with more than four sides.",
+    "URL": "https://fr.wikipedia.org/wiki/Colonne_(architecture) | http://data.culture.fr/thesaurus/resource/ark:/67717/T69-193",
+    "source": "wiki"
+  },
+  {
+    "cluster": "Supports",
+    "TermID": "224_627",
+    "Term_TMS": "chapiteau",
+    "Definition_fr": "ornement en pierre taillée, évasement en sommet de colonne. | partie supérieure d'une colonne, d'un balustre [ M 4 ] . | Elément formant transition entre le corps de la colonne, du pilier ou du pilastre, et sa charge. Le chapiteau est formé d'un corps (échine ou corbeille) et d'un couronnement (abaque et/ou tailloir). Dans l'architecture médiévale, l'astragale fait souvent partie du chapiteau.",
+    "Definition_angl": "Carved stone ornament, widening at the top of a column. | Upper part of a column or baluster [ M 4 ]. | Element forming the transition between the body of the column, pier or pilaster, and its load. The capital is formed of a body (echinus or basket) and a crowning (abacus and/or tailloir). In medieval architecture, the astragal often forms part of the capital.",
+    "URL": "https://fr.wikipedia.org/wiki/Chapiteau_(architecture) | http://data.culture.fr/thesaurus/resource/ark:/67717/T69-191",
+    "source": "wiki"
+  },
+  {
+    "cluster": "Supports",
+    "TermID": "224_624",
+    "Term_TMS": "atlante",
+    "Definition_fr": "**Atlante** : Statuaire masculine supportant un élément architectural (entablement, corniche) par son poids, souvent sculptée en pierre ou en marbre, inspirée de la mythologie grecque.",
+    "Definition_angl": "**Atlante**: A male statuary figure supporting an architectural element (entablature, cornice) by its weight, often sculpted in stone or marble, inspired by Greek mythology.",
+    "URL": "",
+    "source": "mistral_generated"
+  },
+  {
+    "cluster": "Supports",
+    "TermID": "224_626",
+    "Term_TMS": "cariatide",
+    "Definition_fr": "colonne sculptée en statue de femme soutenant un entablement.",
+    "Definition_angl": "Column sculpted as a female statue supporting an entablature.",
+    "URL": "https://fr.wikipedia.org/wiki/Cariatide",
+    "source": "wiki"
+  },
+  {
+    "cluster": "Supports",
+    "TermID": "224_659",
+    "Term_TMS": "jambage",
+    "Definition_fr": "montants latéraux de porte, fenêtre, cheminée (piédroit). | Voir Jambage (vocabulaire)",
+    "Definition_angl": "Lateral uprights of a door, window or fireplace (upright). | See Jambage (vocabulary).",
+    "URL": "https://fr.wikipedia.org/wiki/Jambage_(construction)",
+    "source": "wiki"
+  },
+  {
+    "cluster": "Supports",
+    "TermID": "224_630",
+    "Term_TMS": "chapiteau corinthien",
+    "Definition_fr": "Le **chapiteau corinthien** est un élément décoratif ionisant, orné de feuilles d’acanthe stylisées et de volutes, typique de l’architecture grecque classique et romaine, symbolisant élégance et raffinement.",
+    "Definition_angl": "The **Corinthian capital** is an ionising decorative element, adorned with stylised acanthus leaves and volutes, typical of Classical Greek and Roman architecture, symbolising elegance and refinement.",
+    "URL": "",
+    "source": "mistral_generated"
+  },
+  {
+    "cluster": "Supports",
+    "TermID": "224_634",
+    "Term_TMS": "chapiteau ionique",
+    "Definition_fr": "Le **chapiteau ionique** est un élément architectural grec orné de volutes (rouleaux) latéraux et d’un décor sculpté, supportant l’architrave et symbolisant l’élégance et la fluidité. Il caractérise l’ordre ionique.",
+    "Definition_angl": "The **Ionic capital** is a Greek architectural element adorned with lateral volutes (scrolls) and sculpted decoration, supporting the architrave and symbolising elegance and fluidity. It characterises the Ionic order.",
+    "URL": "",
+    "source": "mistral_generated"
+  },
+  {
+    "cluster": "Supports",
+    "TermID": "224_632",
+    "Term_TMS": "chapiteau dorique",
+    "Definition_fr": "Le **chapiteau dorique** est un élément architectural ionien simplifié, composé d’un **tailloir à gorge** et d’un **abaque plat**, souvent orné de **gorges** et de **canneaux**, soutenant une architrave sans base distincte.",
+    "Definition_angl": "The **Doric capital** is a simplified Ionic architectural element, composed of a **necking with groove** and a **flat abacus**, often adorned with **channels** and **flutes**, supporting an architrave without a distinct base.",
+    "URL": "",
+    "source": "mistral_generated"
+  },
+  {
+    "cluster": "Supports",
+    "TermID": "224_629",
+    "Term_TMS": "chapiteau composite",
+    "Definition_fr": "Le **chapiteau composite** fusionne les éléments du **chapiteau ionique** (volutes) et du **chapiteau corinthien** (feuillage stylisé), typique de l’architecture romaine tardive et de l’art byzantin.",
+    "Definition_angl": "The **composite capital** fuses the elements of the **Ionic capital** (volutes) and the **Corinthian capital** (stylised foliage), typical of late Roman architecture and Byzantine art.",
+    "URL": "",
+    "source": "mistral_generated"
+  },
+  {
+    "cluster": "Composition",
+    "TermID": "224_276",
+    "Term_TMS": "balustrade",
+    "Definition_fr": "rangée de balustres fixés entre un socle et une tablette formant appui et constituant un garde-corps ajouré.",
+    "Definition_angl": "Row of balusters fixed between a base and a coping forming a support and constituting an open-work guardrail.",
+    "URL": "https://fr.wikipedia.org/wiki/Balustrade",
+    "source": "wiki"
+  },
+  {
+    "cluster": "Composition",
+    "TermID": "224_282",
+    "Term_TMS": "garde-corps",
+    "Definition_fr": "Ouvrage à hauteur d'appui formant protection devant un vide. Certains garde-corps décoratifs, sans fonction précise, ne rappellent un ouvrage de protection que par leur dimension, leur forme et leur place dans la composition. La balustrade est un garde-corps à balustres.",
+    "Definition_angl": "Structure at support height forming protection before a void. Some decorative guardrails, without a precise function, recall a protective structure only by their dimension, form and place in the composition. The balustrade is a guardrail with balusters.",
+    "URL": "http://data.culture.fr/thesaurus/resource/ark:/67717/T69-132",
+    "source": "wiki"
+  },
+  {
+    "cluster": "Composition",
+    "TermID": "224_495",
+    "Term_TMS": "balcon",
+    "Definition_fr": "plate-forme en surplomb, à garde-corps, accessible par une baie du mur ou un escalier. | Élément d’élévation formé d’une étroite plate-forme à garde-corps, en surplomb devant une ou plusieurs baies.",
+    "Definition_angl": "Overhanging platform with a guardrail, accessible through a bay in the wall or by a staircase. | An elevation element formed of a narrow platform with a guardrail, overhanging in front of one or more bays.",
+    "URL": "https://fr.wikipedia.org/wiki/Balcon | http://data.culture.fr/thesaurus/resource/ark:/67717/T69-60",
+    "source": "wiki"
+  },
+  {
+    "cluster": "Composition",
+    "TermID": "224_491",
+    "Term_TMS": "avant-corps",
+    "Definition_fr": "**Avant-corps** : Élément saillant d’un bâtiment, souvent décoré ou surélevé, pour marquer une entrée, un angle ou un point focal, créant un effet de volume ou de symétrie.",
+    "Definition_angl": "**Projecting bay**: A projecting element of a building, often decorated or elevated, to mark an entrance, a corner or a focal point, creating a volumetric or symmetrical effect.",
+    "URL": "",
+    "source": "mistral_generated"
+  },
+  {
+    "cluster": "Composition",
+    "TermID": "224_554",
+    "Term_TMS": "tour",
+    "Definition_fr": "Une **tour** est une structure verticale, souvent haute et élancée, utilisée en architecture pour des fonctions défensives, symboliques, religieuses ou résidentielles, comme les tours médiévales ou les gratte-ciels modernes.",
+    "Definition_angl": "A **tower** is a vertical structure, often tall and slender, used in architecture for defensive, symbolic, religious or residential functions, such as medieval towers or modern skyscrapers.",
+    "URL": "",
+    "source": "mistral_generated"
+  },
+  {
+    "cluster": "Composition",
+    "TermID": "224_519",
+    "Term_TMS": "édicule",
+    "Definition_fr": "édifice dans l'espace public moderne, abri de transport en commun, mobilier urbain de communication, édifice sanitaire.",
+    "Definition_angl": "Building in modern public space, public transport shelter, urban communication furniture, sanitary building.",
+    "URL": "https://fr.wikipedia.org/wiki/%C3%89dicule",
+    "source": "wiki"
+  },
+  {
+    "cluster": "Composition",
+    "TermID": "224_466",
+    "Term_TMS": "attique",
+    "Definition_fr": "L’**attique** est un niveau supérieur d’un édifice, souvent plat ou légèrement incliné, situé au-dessus de l’entablement, servant de couronnement décoratif ou fonctionnel (ex. : terrasse, inscription).",
+    "Definition_angl": "The **attic** is an upper level of a building, often flat or slightly inclined, situated above the entablature, serving as a decorative or functional crowning (e.g.: terrace, inscription).",
+    "URL": "",
+    "source": "mistral_generated"
+  },
+  {
+    "cluster": "Composition",
+    "TermID": "224_561",
+    "Term_TMS": "travée",
+    "Definition_fr": "baie ou volume ou groupe éléments de construction, élément en ensemble ordonné entre supports principaux répétitifs.",
+    "Definition_angl": "Bay or volume or group of construction elements, an element in an ordered ensemble between repetitive main supports.",
+    "URL": "https://fr.wikipedia.org/wiki/Trav%C3%A9e",
+    "source": "wiki"
+  },
+  {
+    "cluster": "Composition",
+    "TermID": "224_548",
+    "Term_TMS": "portique",
+    "Definition_fr": "poutre sur poteau ou pilier. Galerie ouverte sur côté sur colonne ou arcade. | espace long et couvert, soit par des voûtes portées par des arcades , soit, par des plafonds sur des colonnes , et dont les côtés ne sont point fermés [ M 39 ] .",
+    "Definition_angl": "Beam on post or pillar. Open gallery on one side on column or arcade. | A long covered space, either by vaults carried on arcades, or by ceilings on columns, whose sides are not closed [ M 39 ].",
+    "URL": "https://fr.wikipedia.org/wiki/Portique_(architecture)",
+    "source": "wiki"
+  },
+  {
+    "cluster": "Composition",
+    "TermID": "224_547",
+    "Term_TMS": "porche",
+    "Definition_fr": "abri devant une porte d'entrée, passage couvert entre rue et cour. | Pièce ou galerie commandant l'entrée d'un bâtiment. Formant un avant-corps bas, le porche est généralement hors-œuvre.",
+    "Definition_angl": "Shelter in front of an entrance door, covered passage between street and courtyard. | Room or gallery commanding the entrance of a building. Forming a low projecting bay, the porch is generally hors-œuvre.",
+    "URL": "https://fr.wikipedia.org/wiki/Porche_(architecture) | http://data.culture.fr/thesaurus/resource/ark:/67717/T69-77",
+    "source": "wiki"
+  },
+  {
+    "cluster": "Composition",
+    "TermID": "224_531",
+    "Term_TMS": "logette",
+    "Definition_fr": "**Logette** : Petite baie vitrée ou ouverture en surplomb, souvent ornée, intégrée à une façade ou un balcon pour éclairer ou décorer un espace intérieur (comme un escalier ou une chambre).",
+    "Definition_angl": "**Logette**: A small glazed bay or overhanging opening, often ornamented, integrated into a façade or balcony to light or decorate an interior space (such as a staircase or bedroom).",
+    "URL": "",
+    "source": "mistral_generated"
+  },
+  {
+    "cluster": "Composition",
+    "TermID": "224_258",
+    "Term_TMS": "escalier",
+    "Definition_fr": "ouvrage fait de marches en pierre, bois, métal, verre pour circulation verticale extérieure ou intérieure. | Ouvrage formé de marches et permettant de passer d'un plan à un autre, d'un étage à un autre, dans ou à l'extérieur d’un bâtiment. Il est généralement contenu dans une cage.",
+    "Definition_angl": "Structure made of stone, wood, metal or glass steps for vertical circulation inside or outside. | A structure formed of steps allowing passage from one level to another, from one storey to another, inside or outside a building. It is generally contained within a stairwell.",
+    "URL": "https://fr.wikipedia.org/wiki/Escalier | http://data.culture.fr/thesaurus/resource/ark:/67717/T69-65",
+    "source": "wiki"
+  },
+  {
+    "cluster": "Composition",
+    "TermID": "224_273",
+    "Term_TMS": "perron",
+    "Definition_fr": "petit escalier de pierre se terminant par une plate-forme devant l'entrée principale d'un bâtiment.",
+    "Definition_angl": "Small stone staircase ending in a platform in front of the main entrance of a building.",
+    "URL": "https://fr.wikipedia.org/wiki/Perron_(architecture)",
+    "source": "wiki"
+  },
+  {
+    "cluster": "Composition",
+    "TermID": "224_453",
+    "Term_TMS": "mâchicoulis",
+    "Definition_fr": "galerie en surplomb (balcon à trous) en sommet de muraille.",
+    "Definition_angl": "Overhanging gallery (balcony with holes) at the top of a curtain wall.",
+    "URL": "https://fr.wikipedia.org/wiki/M%C3%A2chicoulis",
+    "source": "wiki"
+  },
+  {
+    "cluster": "Matériaux",
+    "TermID": "223_831",
+    "Term_TMS": "fer",
+    "Definition_fr": "Métal ductile gris-argenté, utilisé en construction pour les structures et ornements de façade.",
+    "Definition_angl": "Ductile grey-silver metal used in construction for structural elements and façade ornaments.",
+    "URL": "",
+    "source": "ThesOrsay"
+  },
+  {
+    "cluster": "Matériaux",
+    "TermID": "223_820",
+    "Term_TMS": "brique",
+    "Definition_fr": "Élément de construction en terre cuite moulée et cuite au four, de forme parallélépipédique, utilisé en maçonnerie.",
+    "Definition_angl": "Construction element of moulded and kiln-fired clay, rectangular in form, used in masonry.",
+    "URL": "https://fr.wikipedia.org/wiki/Brique",
+    "source": "ThesOrsay"
+  },
+  {
+    "cluster": "Matériaux",
+    "TermID": "223_823",
+    "Term_TMS": "céramique",
+    "Definition_fr": "Matériau obtenu par cuisson d'argile, utilisé en revêtement de façade sous forme de carreaux, frises ou panneaux.",
+    "Definition_angl": "Material obtained by firing clay, used as façade cladding in the form of tiles, friezes or panels.",
+    "URL": "https://fr.wikipedia.org/wiki/C%C3%A9ramique",
+    "source": "ThesOrsay"
+  },
+  {
+    "cluster": "Matériaux",
+    "TermID": "223_832",
+    "Term_TMS": "fer forgé",
+    "Definition_fr": "Fer travaillé à chaud par martelage, utilisé pour les balcons, garde-corps, grilles et rampes d'escalier.",
+    "Definition_angl": "Iron worked hot by hammering, used for balconies, railings, grilles and stair banisters.",
+    "URL": "https://fr.wikipedia.org/wiki/Fer_forg%C3%A9",
+    "source": "ThesOrsay"
+  },
+  {
+    "cluster": "Matériaux",
+    "TermID": "223_817",
+    "Term_TMS": "ardoise",
+    "Definition_fr": "Roche métamorphique feuilletée de teinte bleu-gris, utilisée en couverture de toiture, notamment les mansardes parisiennes.",
+    "Definition_angl": "Layered metamorphic rock of blue-grey hue, used as roof covering, notably on Parisian mansard roofs.",
+    "URL": "https://fr.wikipedia.org/wiki/Ardoise",
+    "source": "ThesOrsay"
+  },
+  {
+    "cluster": "Matériaux",
+    "TermID": "223_859",
+    "Term_TMS": "tuile",
+    "Definition_fr": "Élément de couverture en terre cuite de forme variable (canal, plate, romane), posé en recouvrement sur la charpente.",
+    "Definition_angl": "Roofing element in fired clay of varying shape (channel, flat, Roman), laid overlapping on the roof frame.",
+    "URL": "https://fr.wikipedia.org/wiki/Tuile",
+    "source": "ThesOrsay"
+  },
+  {
+    "cluster": "Matériaux",
+    "TermID": "223_844",
+    "Term_TMS": "pierre de taille",
+    "Definition_fr": "Bloc de pierre extrait et taillé avec précision pour être assemblé en maçonnerie apparente. À Paris, principalement en calcaire lutétien.",
+    "Definition_angl": "Stone block extracted and precisely cut to be assembled in exposed masonry. In Paris, mainly Lutetian limestone.",
+    "URL": "https://fr.wikipedia.org/wiki/Pierre_de_taille",
+    "source": "ThesOrsay"
+  }
+]

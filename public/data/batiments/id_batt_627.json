@@ -1,0 +1,56 @@
+{
+  "id_bat": 627,
+  "libelle": "12 place Vendôme",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": "1699",
+  "periode": [
+    "1660-1759"
+  ],
+  "adresse": {
+    "affichage": "12 place Vendôme",
+    "numero": "12",
+    "voie": "place Vendôme"
+  },
+  "arrondissement": 1,
+  "coordonnees": {
+    "latitude": "48.86697",
+    "longitude": "2.329971"
+  },
+  "id_pss": 16270,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 15980,
+  "terme_jantzen_bat": [
+    "fenetre",
+    "lucarne",
+    "façade"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_15980",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_15981",
+      "IndexJantzen": [
+        "fenetre",
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_15982",
+      "IndexJantzen": [
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_15983",
+      "IndexJantzen": [
+        "lucarne"
+      ]
+    }
+  ]
+}

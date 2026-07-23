@@ -1,0 +1,83 @@
+{
+  "id_bat": 2628,
+  "libelle": "42 rue Fortuny",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 77,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1879",
+  "periode": [
+    "1870-1894"
+  ],
+  "adresse": {
+    "affichage": "42 rue Fortuny",
+    "numero": "42",
+    "voie": "rue Fortuny"
+  },
+  "arrondissement": 17,
+  "coordonnees": {
+    "latitude": "48.88277",
+    "longitude": "2.307923"
+  },
+  "id_pss": 39169,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 4744,
+  "terme_jantzen_bat": [
+    "lucarne",
+    "cariatide",
+    "oeil-de-boeuf",
+    "fenetre",
+    "sculpture",
+    "décor"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_4744",
+      "IndexJantzen": [
+        "décor",
+        "fenetre",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_4745",
+      "IndexJantzen": [
+        "lucarne",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_4746",
+      "IndexJantzen": [
+        "lucarne",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_4747",
+      "IndexJantzen": [
+        "cariatide",
+        "fenetre",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_4748",
+      "IndexJantzen": [
+        "cariatide",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_4749",
+      "IndexJantzen": [
+        "oeil-de-boeuf",
+        "sculpture"
+      ]
+    }
+  ]
+}

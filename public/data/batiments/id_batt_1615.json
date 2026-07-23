@@ -1,0 +1,47 @@
+{
+  "id_bat": 1615,
+  "libelle": "21 rue Damrémont",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 438,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1900",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "21 rue Damrémont",
+    "numero": "21",
+    "voie": "rue Damrémont"
+  },
+  "arrondissement": 18,
+  "coordonnees": {
+    "latitude": "48.888769",
+    "longitude": "2.333113"
+  },
+  "id_pss": 28540,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 3408,
+  "terme_jantzen_bat": [
+    "lucarne",
+    "fenetre"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_3408",
+      "IndexJantzen": [
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_3409",
+      "IndexJantzen": [
+        "lucarne"
+      ]
+    }
+  ]
+}

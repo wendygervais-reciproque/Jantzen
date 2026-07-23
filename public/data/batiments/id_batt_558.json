@@ -1,0 +1,115 @@
+{
+  "id_bat": 558,
+  "libelle": "116 boulevard Pereire",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 656,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1902",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "116 boulevard Pereire",
+    "numero": "116",
+    "voie": "boulevard Pereire"
+  },
+  "arrondissement": 17,
+  "coordonnees": {
+    "latitude": "48.885678",
+    "longitude": "2.297881"
+  },
+  "id_pss": null,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 11340,
+  "terme_jantzen_bat": [
+    "lucarne",
+    "oeil-de-boeuf",
+    "toiture",
+    "fenetre",
+    "sculpture",
+    "chimère",
+    "porte-fer",
+    "console"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_11340",
+      "IndexJantzen": [
+        "fenetre",
+        "lucarne",
+        "toiture"
+      ]
+    },
+    {
+      "id_pic": "image_11341",
+      "IndexJantzen": [
+        "chimère",
+        "console",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_11342",
+      "IndexJantzen": [
+        "fenetre",
+        "lucarne",
+        "toiture"
+      ]
+    },
+    {
+      "id_pic": "image_11343",
+      "IndexJantzen": [
+        "fenetre",
+        "lucarne",
+        "toiture"
+      ]
+    },
+    {
+      "id_pic": "image_11344",
+      "IndexJantzen": [
+        "fenetre",
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_11345",
+      "IndexJantzen": [
+        "lucarne",
+        "oeil-de-boeuf"
+      ]
+    },
+    {
+      "id_pic": "image_11346",
+      "IndexJantzen": [
+        "fenetre",
+        "porte-fer"
+      ]
+    },
+    {
+      "id_pic": "image_11347",
+      "IndexJantzen": [
+        "console",
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_11348",
+      "IndexJantzen": [
+        "chimère",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_11349",
+      "IndexJantzen": [
+        "chimère",
+        "sculpture"
+      ]
+    }
+  ]
+}

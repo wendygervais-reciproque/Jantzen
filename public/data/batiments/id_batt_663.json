@@ -1,0 +1,88 @@
+{
+  "id_bat": 663,
+  "libelle": "12 rue du Renard",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 43,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1901",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "12 rue du Renard",
+    "numero": "12",
+    "voie": "rue du Renard"
+  },
+  "arrondissement": 4,
+  "coordonnees": {
+    "latitude": "48.858829",
+    "longitude": "2.352333"
+  },
+  "id_pss": 11778,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 12844,
+  "terme_jantzen_bat": [
+    "lucarne",
+    "façade",
+    "fenetre",
+    "sculpture",
+    "porte-bois",
+    "console"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_12844",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_12845",
+      "IndexJantzen": [
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_12846",
+      "IndexJantzen": [
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_12847",
+      "IndexJantzen": [
+        "porte-bois"
+      ]
+    },
+    {
+      "id_pic": "image_12848",
+      "IndexJantzen": [
+        "porte-bois"
+      ]
+    },
+    {
+      "id_pic": "image_12849",
+      "IndexJantzen": [
+        "porte-bois"
+      ]
+    },
+    {
+      "id_pic": "image_12850",
+      "IndexJantzen": [
+        "porte-bois"
+      ]
+    },
+    {
+      "id_pic": "image_12851",
+      "IndexJantzen": [
+        "console",
+        "sculpture"
+      ]
+    }
+  ]
+}

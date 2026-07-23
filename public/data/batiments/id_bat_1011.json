@@ -1,0 +1,78 @@
+{
+  "id_bat": 1011,
+  "libelle": "15 rue Damrémont",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": "1913",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "15 rue Damrémont",
+    "numero": "15",
+    "voie": "rue Damrémont"
+  },
+  "arrondissement": 18,
+  "coordonnees": {
+    "latitude": "48.888279",
+    "longitude": "2.332819"
+  },
+  "id_pss": 91129,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": "image_Damremont-15_18_§1-2",
+  "terme_jantzen_bat": [
+    "balcon",
+    "fenetre-d'angle",
+    "dome",
+    "façade-d'angle",
+    "lucarne",
+    "fenetre"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_Damremont-15_18_§1-2",
+      "IndexJantzen": [
+        "dome",
+        "façade-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_Damremont-15_18_§2",
+      "IndexJantzen": [
+        "dome",
+        "fenetre-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_Damremont-15_18_§3",
+      "IndexJantzen": [
+        "balcon",
+        "dome",
+        "fenetre-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_Damremont-15_18_§4",
+      "IndexJantzen": [
+        "dome",
+        "fenetre",
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_Damremont-15_18_§5",
+      "IndexJantzen": [
+        "dome",
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_Damremont-15_18_§6",
+      "IndexJantzen": [
+        "dome",
+        "lucarne"
+      ]
+    }
+  ]
+}

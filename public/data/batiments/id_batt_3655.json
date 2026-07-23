@@ -1,0 +1,42 @@
+{
+  "id_bat": 3655,
+  "libelle": "8 rue Poirier-de-Narçay",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 633,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1904",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "8 rue Poirier-de-Narçay",
+    "numero": "8",
+    "voie": "rue Poirier-de-Narçay"
+  },
+  "arrondissement": 14,
+  "coordonnees": {
+    "latitude": "48.824249",
+    "longitude": "2.324673"
+  },
+  "id_pss": 28049,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 11808,
+  "terme_jantzen_bat": [
+    "porte-bois",
+    "clé"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_11808",
+      "IndexJantzen": [
+        "clé",
+        "porte-bois"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id_bat": 1138,
+  "libelle": "16 rue du Louvre",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 255,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1912",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "16 rue du Louvre",
+    "numero": "16",
+    "voie": "rue du Louvre"
+  },
+  "arrondissement": 1,
+  "coordonnees": {
+    "latitude": "48.861297",
+    "longitude": "2.341171"
+  },
+  "id_pss": 15323,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 8807,
+  "terme_jantzen_bat": [
+    "sculpture",
+    "décor",
+    "fenetre"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_8807",
+      "IndexJantzen": [
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_8808",
+      "IndexJantzen": [
+        "décor",
+        "fenetre",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_8809",
+      "IndexJantzen": [
+        "fenetre",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_8810",
+      "IndexJantzen": [
+        "fenetre"
+      ]
+    }
+  ]
+}

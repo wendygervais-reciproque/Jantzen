@@ -1,0 +1,57 @@
+{
+  "id_bat": 2031,
+  "libelle": "3 avenue Alphand",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 638,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1905",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "3 avenue Alphand",
+    "numero": "3",
+    "voie": "avenue Alphand"
+  },
+  "arrondissement": 16,
+  "coordonnees": {
+    "latitude": "48.874978",
+    "longitude": "2.285161"
+  },
+  "id_pss": 75355,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 233,
+  "terme_jantzen_bat": [
+    "sculpture",
+    "chimère",
+    "console",
+    "fenetre"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_233",
+      "IndexJantzen": [
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_234",
+      "IndexJantzen": [
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_235",
+      "IndexJantzen": [
+        "chimère",
+        "console",
+        "sculpture"
+      ]
+    }
+  ]
+}

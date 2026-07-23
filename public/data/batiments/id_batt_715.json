@@ -1,0 +1,126 @@
+{
+  "id_bat": 715,
+  "libelle": "121 rue Réaumur",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 613,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1900",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "121 rue Réaumur",
+    "numero": "121",
+    "voie": "rue Réaumur"
+  },
+  "arrondissement": 2,
+  "coordonnees": {
+    "latitude": "48.868394",
+    "longitude": "2.342091"
+  },
+  "id_pss": 12201,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 12687,
+  "terme_jantzen_bat": [
+    "façade-d'angle",
+    "oriel",
+    "façade",
+    "dome",
+    "colonne",
+    "fenetre",
+    "métal",
+    "garde-corps"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_12687",
+      "IndexJantzen": [
+        "dome",
+        "façade-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_12688",
+      "IndexJantzen": [
+        "métal",
+        "oriel"
+      ]
+    },
+    {
+      "id_pic": "image_12689",
+      "IndexJantzen": [
+        "métal",
+        "oriel"
+      ]
+    },
+    {
+      "id_pic": "image_12690",
+      "IndexJantzen": [
+        "métal",
+        "oriel"
+      ]
+    },
+    {
+      "id_pic": "image_12691",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_12692",
+      "IndexJantzen": [
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_12693",
+      "IndexJantzen": [
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_12694",
+      "IndexJantzen": [
+        "colonne",
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_12695",
+      "IndexJantzen": [
+        "colonne",
+        "fenetre",
+        "garde-corps"
+      ]
+    },
+    {
+      "id_pic": "image_12696",
+      "IndexJantzen": [
+        "dome",
+        "façade-d'angle",
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_12697",
+      "IndexJantzen": [
+        "dome",
+        "façade-d'angle",
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_12698",
+      "IndexJantzen": [
+        "dome",
+        "façade-d'angle",
+        "fenetre"
+      ]
+    }
+  ]
+}

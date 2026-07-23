@@ -1,0 +1,53 @@
+{
+  "id_bat": 2414,
+  "libelle": "39 boulevard Exelmans",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 318,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1895",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "39 boulevard Exelmans",
+    "numero": "39",
+    "voie": "boulevard Exelmans"
+  },
+  "arrondissement": 16,
+  "coordonnees": {
+    "latitude": "48.84151",
+    "longitude": "2.263015"
+  },
+  "id_pss": 23401,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 4310,
+  "terme_jantzen_bat": [
+    "porte",
+    "verrière",
+    "façade"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_4310",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_4311",
+      "IndexJantzen": [
+        "porte",
+        "verrière"
+      ]
+    },
+    {
+      "id_pic": "image_4312",
+      "IndexJantzen": []
+    }
+  ]
+}

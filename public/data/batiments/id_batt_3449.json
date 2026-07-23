@@ -1,0 +1,58 @@
+{
+  "id_bat": 3449,
+  "libelle": "7 rue Villaret-de-Joyeuse",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 639,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1907",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "7 rue Villaret-de-Joyeuse",
+    "numero": "7",
+    "voie": "rue Villaret-de-Joyeuse"
+  },
+  "arrondissement": 17,
+  "coordonnees": {
+    "latitude": "48.876888",
+    "longitude": "2.28976"
+  },
+  "id_pss": 77525,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 16561,
+  "terme_jantzen_bat": [
+    "fenetre",
+    "oriel",
+    "lucarne",
+    "façade"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_16561",
+      "IndexJantzen": [
+        "façade",
+        "oriel"
+      ]
+    },
+    {
+      "id_pic": "image_16562",
+      "IndexJantzen": [
+        "fenetre",
+        "oriel"
+      ]
+    },
+    {
+      "id_pic": "image_16563",
+      "IndexJantzen": [
+        "fenetre",
+        "lucarne"
+      ]
+    }
+  ]
+}

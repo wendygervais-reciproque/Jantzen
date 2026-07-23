@@ -1,0 +1,50 @@
+{
+  "id_bat": 2375,
+  "libelle": "38 avenue du Président-Wilson",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 152,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1907",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "38 avenue du Président-Wilson",
+    "numero": "38",
+    "voie": "avenue du Président-Wilson"
+  },
+  "arrondissement": 16,
+  "coordonnees": {
+    "latitude": "48.863841",
+    "longitude": "2.289768"
+  },
+  "id_pss": 27689,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 12034,
+  "terme_jantzen_bat": [
+    "sculpture",
+    "console",
+    "fenetre"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_12034",
+      "IndexJantzen": [
+        "console",
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_12035",
+      "IndexJantzen": [
+        "console",
+        "sculpture"
+      ]
+    }
+  ]
+}

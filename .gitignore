@@ -1,0 +1,15 @@
+# ─── Système / éditeurs ───────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# ─── Dépendances (si un jour un build est ajouté) ─────────────────────────
+node_modules/
+dist/
+
+# NB : le jeu de données de référence (public/data) est volontairement
+# versionné — il est léger (~22 Mo) et rend le prototype auto-suffisant.
+# Si les images venaient à s'alourdir, décommenter la ligne suivante :
+public/data/photos_jpg

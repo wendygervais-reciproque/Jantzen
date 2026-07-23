@@ -1,0 +1,91 @@
+{
+  "id_bat": 3312,
+  "libelle": "67 boulevard Raspail",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 433,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1918",
+  "periode": [
+    "1915-1944"
+  ],
+  "adresse": {
+    "affichage": "67 boulevard Raspail",
+    "numero": "67",
+    "voie": "boulevard Raspail"
+  },
+  "arrondissement": 6,
+  "coordonnees": {
+    "latitude": "48.84937",
+    "longitude": "2.327675"
+  },
+  "id_pss": 27653,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 12527,
+  "terme_jantzen_bat": [
+    "lucarne",
+    "brique",
+    "toiture",
+    "fenetre",
+    "décor",
+    "sculpture",
+    "porte-fer"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_12527",
+      "IndexJantzen": [
+        "porte-fer"
+      ]
+    },
+    {
+      "id_pic": "image_12528",
+      "IndexJantzen": [
+        "porte-fer"
+      ]
+    },
+    {
+      "id_pic": "image_12529",
+      "IndexJantzen": [
+        "porte-fer"
+      ]
+    },
+    {
+      "id_pic": "image_12530",
+      "IndexJantzen": [
+        "brique",
+        "fenetre",
+        "toiture"
+      ]
+    },
+    {
+      "id_pic": "image_12531",
+      "IndexJantzen": [
+        "décor",
+        "fenetre",
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_12532",
+      "IndexJantzen": [
+        "décor",
+        "fenetre",
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_12533",
+      "IndexJantzen": [
+        "fenetre",
+        "lucarne",
+        "sculpture",
+        "toiture"
+      ]
+    }
+  ]
+}

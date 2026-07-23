@@ -1,0 +1,75 @@
+{
+  "id_bat": 2445,
+  "libelle": "4 à 6 rue Gaillon",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": "1730",
+  "periode": [
+    "1660-1759"
+  ],
+  "adresse": {
+    "affichage": "4 à 6 rue Gaillon",
+    "numero": "4 à 6",
+    "voie": "rue Gaillon"
+  },
+  "arrondissement": 2,
+  "coordonnees": {
+    "latitude": "48.867783",
+    "longitude": "2.333879"
+  },
+  "id_pss": 69371,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 5044,
+  "terme_jantzen_bat": [
+    "clé",
+    "sculpture",
+    "fenetre",
+    "porte-fer",
+    "porte-bois",
+    "console"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_5044",
+      "IndexJantzen": [
+        "fenetre",
+        "porte-fer"
+      ]
+    },
+    {
+      "id_pic": "image_5045",
+      "IndexJantzen": [
+        "porte-bois"
+      ]
+    },
+    {
+      "id_pic": "image_5046",
+      "IndexJantzen": [
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_5047",
+      "IndexJantzen": [
+        "clé",
+        "porte-bois"
+      ]
+    },
+    {
+      "id_pic": "image_5048",
+      "IndexJantzen": [
+        "clé",
+        "porte-bois",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_5049",
+      "IndexJantzen": [
+        "console",
+        "sculpture"
+      ]
+    }
+  ]
+}

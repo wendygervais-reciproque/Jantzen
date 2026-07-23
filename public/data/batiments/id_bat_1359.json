@@ -1,0 +1,116 @@
+{
+  "id_bat": 1359,
+  "libelle": "19 rue Damrémont",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 438,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1900",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "19 rue Damrémont",
+    "numero": "19",
+    "voie": "rue Damrémont"
+  },
+  "arrondissement": 18,
+  "coordonnees": {
+    "latitude": "48.888657",
+    "longitude": "2.333046"
+  },
+  "id_pss": 28539,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": "image_Damremont-19_18_§1",
+  "terme_jantzen_bat": [
+    "sculpture",
+    "console",
+    "balcon",
+    "fenetre-d'angle",
+    "décor",
+    "porte-fer",
+    "pilastre",
+    "lucarne",
+    "lucarne-d'angle",
+    "fenetre",
+    "toiture"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_Damremont-19_18_§1",
+      "IndexJantzen": [
+        "fenetre-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_Damremont-19_18_§10",
+      "IndexJantzen": [
+        "fenetre",
+        "porte-fer"
+      ]
+    },
+    {
+      "id_pic": "image_Damremont-19_18_§2",
+      "IndexJantzen": [
+        "fenetre-d'angle",
+        "toiture"
+      ]
+    },
+    {
+      "id_pic": "image_Damremont-19_18_§3",
+      "IndexJantzen": [
+        "balcon",
+        "lucarne-d'angle",
+        "pilastre"
+      ]
+    },
+    {
+      "id_pic": "image_Damremont-19_18_§4",
+      "IndexJantzen": [
+        "décor",
+        "lucarne",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_Damremont-19_18_§5",
+      "IndexJantzen": [
+        "console",
+        "fenetre-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_Damremont-19_18_§6-3",
+      "IndexJantzen": [
+        "décor",
+        "fenetre",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_Damremont-19_18_§7",
+      "IndexJantzen": [
+        "fenetre",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_Damremont-19_18_§8",
+      "IndexJantzen": [
+        "console",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_Damremont-19_18_§9",
+      "IndexJantzen": [
+        "console",
+        "sculpture"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "id_bat": 74,
+  "libelle": "Église Saint-Sulpice",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": [
+    "1660-1759"
+  ],
+  "adresse": null,
+  "arrondissement": 6,
+  "coordonnees": {
+    "latitude": "48.851002",
+    "longitude": "2.334923"
+  },
+  "id_pss": 22852,
+  "id_wikidata": "Q295844",
+  "WPfr": "Église Saint-Sulpice de Paris",
+  "image_ref": "image_St-Sulpice_6_§1",
+  "terme_jantzen_bat": [
+    "sculpture",
+    "façade",
+    "oeil-de-boeuf",
+    "dome"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_St-Sulpice_6_§1",
+      "IndexJantzen": [
+        "dome",
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_St-Sulpice_6_§2",
+      "IndexJantzen": [
+        "dome",
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_St-Sulpice_6_§3",
+      "IndexJantzen": [
+        "dome",
+        "oeil-de-boeuf"
+      ]
+    },
+    {
+      "id_pic": "image_St-Sulpice_6_§4",
+      "IndexJantzen": [
+        "dome",
+        "oeil-de-boeuf"
+      ]
+    },
+    {
+      "id_pic": "image_St-Sulpice_6_§5",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_St-Sulpice_6_§6",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    }
+  ]
+}

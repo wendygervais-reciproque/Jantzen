@@ -1,0 +1,71 @@
+{
+  "id_bat": 3152,
+  "libelle": "6 rue Dufrenoy",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 241,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1909",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "6 rue Dufrenoy",
+    "numero": "6",
+    "voie": "rue Dufrenoy"
+  },
+  "arrondissement": 16,
+  "coordonnees": {
+    "latitude": "48.865999",
+    "longitude": "2.274896"
+  },
+  "id_pss": 10180,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 3881,
+  "terme_jantzen_bat": [
+    "loggia",
+    "colonne",
+    "sculpture",
+    "fenetre",
+    "porte-fer-hall",
+    "console"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_3881",
+      "IndexJantzen": [
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_3882",
+      "IndexJantzen": [
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_3883",
+      "IndexJantzen": [
+        "colonne",
+        "loggia"
+      ]
+    },
+    {
+      "id_pic": "image_3884",
+      "IndexJantzen": [
+        "console",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_3885",
+      "IndexJantzen": [
+        "porte-fer-hall"
+      ]
+    }
+  ]
+}

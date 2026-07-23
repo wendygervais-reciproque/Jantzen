@@ -1,0 +1,87 @@
+{
+  "id_bat": 1803,
+  "libelle": "24 rue de Sèvres",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": [
+    "1870-1894"
+  ],
+  "adresse": {
+    "affichage": "24 rue de Sèvres",
+    "numero": "24",
+    "voie": "rue de Sèvres"
+  },
+  "arrondissement": 7,
+  "coordonnees": {
+    "latitude": "48.850479",
+    "longitude": "2.32442"
+  },
+  "id_pss": 4001,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": "image_Sevres-Bac_7_§1",
+  "terme_jantzen_bat": [
+    "fenetre-d'angle",
+    "dome",
+    "lucarne",
+    "lucarne-d'angle",
+    "oeil-de-boeuf",
+    "toiture"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_Sevres-Bac_7_§1",
+      "IndexJantzen": [
+        "dome",
+        "fenetre-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_Sevres-Bac_7_§2",
+      "IndexJantzen": [
+        "dome",
+        "lucarne-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_Sevres-Bac_7_§3",
+      "IndexJantzen": [
+        "dome",
+        "lucarne",
+        "oeil-de-boeuf"
+      ]
+    },
+    {
+      "id_pic": "image_Sevres-Bac_7_§4",
+      "IndexJantzen": [
+        "dome",
+        "lucarne",
+        "oeil-de-boeuf"
+      ]
+    },
+    {
+      "id_pic": "image_Sevres-Bac_7_§5",
+      "IndexJantzen": [
+        "dome",
+        "lucarne",
+        "oeil-de-boeuf"
+      ]
+    },
+    {
+      "id_pic": "image_Sevres-Bac_7_§6",
+      "IndexJantzen": [
+        "dome",
+        "lucarne",
+        "oeil-de-boeuf"
+      ]
+    },
+    {
+      "id_pic": "image_Sevres-Bac_7_§7",
+      "IndexJantzen": [
+        "lucarne",
+        "toiture"
+      ]
+    }
+  ]
+}

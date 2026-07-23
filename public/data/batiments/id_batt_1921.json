@@ -1,0 +1,67 @@
+{
+  "id_bat": 1921,
+  "libelle": "26b avenue Daumesnil",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 694,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1901",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "26b avenue Daumesnil",
+    "numero": "26b",
+    "voie": "avenue Daumesnil"
+  },
+  "arrondissement": 12,
+  "coordonnees": {
+    "latitude": "48.847684",
+    "longitude": "2.374156"
+  },
+  "id_pss": 76985,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 3541,
+  "terme_jantzen_bat": [
+    "lucarne-d'angle",
+    "dome",
+    "toiture",
+    "sculpture",
+    "fenetre-d'angle",
+    "console"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_3541",
+      "IndexJantzen": [
+        "fenetre-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_3542",
+      "IndexJantzen": [
+        "dome",
+        "lucarne-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_3543",
+      "IndexJantzen": [
+        "dome",
+        "lucarne-d'angle",
+        "toiture"
+      ]
+    },
+    {
+      "id_pic": "image_3544",
+      "IndexJantzen": [
+        "console",
+        "sculpture"
+      ]
+    }
+  ]
+}

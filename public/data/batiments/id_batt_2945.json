@@ -1,0 +1,89 @@
+{
+  "id_bat": 2945,
+  "libelle": "52 avenue Kléber",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 254,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1885",
+  "periode": [
+    "1870-1894"
+  ],
+  "adresse": {
+    "affichage": "52 avenue Kléber",
+    "numero": "52",
+    "voie": "avenue Kléber"
+  },
+  "arrondissement": 16,
+  "coordonnees": {
+    "latitude": "48.869051",
+    "longitude": "2.291321"
+  },
+  "id_pss": 27770,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 7509,
+  "terme_jantzen_bat": [
+    "façade-d'angle",
+    "lucarne",
+    "cariatide",
+    "colonne",
+    "fenetre",
+    "sculpture",
+    "garde-corps",
+    "atlante"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_7509",
+      "IndexJantzen": [
+        "façade-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_7510",
+      "IndexJantzen": [
+        "colonne",
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_7511",
+      "IndexJantzen": [
+        "colonne",
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_7512",
+      "IndexJantzen": [
+        "atlante",
+        "cariatide",
+        "fenetre",
+        "garde-corps",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_7513",
+      "IndexJantzen": [
+        "atlante",
+        "cariatide",
+        "fenetre",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_7514",
+      "IndexJantzen": [
+        "atlante",
+        "cariatide",
+        "fenetre",
+        "sculpture"
+      ]
+    }
+  ]
+}

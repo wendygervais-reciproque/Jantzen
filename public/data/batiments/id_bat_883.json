@@ -1,0 +1,89 @@
+{
+  "id_bat": 883,
+  "libelle": "14 place Vendôme",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": "1699",
+  "periode": [
+    "1660-1759"
+  ],
+  "adresse": {
+    "affichage": "14 place Vendôme",
+    "numero": "14",
+    "voie": "place Vendôme"
+  },
+  "arrondissement": 1,
+  "coordonnees": {
+    "latitude": "48.867159",
+    "longitude": "2.330135"
+  },
+  "id_pss": null,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": "image_Vendome-Pl-14_1_§1",
+  "terme_jantzen_bat": [
+    "colonne",
+    "lucarne",
+    "façade",
+    "fronton",
+    "oeil-de-boeuf",
+    "fenetre"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_Vendome-Pl-14_1_§1",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_Vendome-Pl-14_1_§2",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_Vendome-Pl-14_1_§3",
+      "IndexJantzen": [
+        "fenetre",
+        "fronton"
+      ]
+    },
+    {
+      "id_pic": "image_Vendome-Pl-14_1_§4",
+      "IndexJantzen": [
+        "façade",
+        "fronton"
+      ]
+    },
+    {
+      "id_pic": "image_Vendome-Pl-14_1_§5",
+      "IndexJantzen": [
+        "colonne",
+        "façade",
+        "fronton"
+      ]
+    },
+    {
+      "id_pic": "image_Vendome-Pl-14_1_§6",
+      "IndexJantzen": [
+        "colonne",
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_Vendome-Pl-14_1_§7",
+      "IndexJantzen": [
+        "fenetre",
+        "fronton"
+      ]
+    },
+    {
+      "id_pic": "image_Vendome-Pl-14_1_§8",
+      "IndexJantzen": [
+        "lucarne",
+        "oeil-de-boeuf"
+      ]
+    }
+  ]
+}

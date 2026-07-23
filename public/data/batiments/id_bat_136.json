@@ -1,0 +1,106 @@
+{
+  "id_bat": 136,
+  "libelle": "Sainte-Chapelle",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": "1248, 1855",
+  "periode": [
+    "1180-1529",
+    "1850-1869"
+  ],
+  "adresse": null,
+  "arrondissement": 1,
+  "coordonnees": {
+    "latitude": "48.855369",
+    "longitude": "2.345028"
+  },
+  "id_pss": 3280,
+  "id_wikidata": "Q193193",
+  "WPfr": "Sainte-Chapelle",
+  "image_ref": "image_Ste-Chapelle_1_§1",
+  "terme_jantzen_bat": [
+    "sculpture",
+    "verrière",
+    "tourelle",
+    "décor",
+    "fenetre",
+    "façade",
+    "intérieur",
+    "toiture"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_Ste-Chapelle_1_§1",
+      "IndexJantzen": [
+        "toiture"
+      ]
+    },
+    {
+      "id_pic": "image_Ste-Chapelle_1_§10_1-Rx",
+      "IndexJantzen": [
+        "intérieur",
+        "verrière"
+      ]
+    },
+    {
+      "id_pic": "image_Ste-Chapelle_1_§11_1-Rx",
+      "IndexJantzen": [
+        "intérieur",
+        "verrière"
+      ]
+    },
+    {
+      "id_pic": "image_Ste-Chapelle_1_§12_1-Rx",
+      "IndexJantzen": [
+        "intérieur",
+        "verrière"
+      ]
+    },
+    {
+      "id_pic": "image_Ste-Chapelle_1_§3",
+      "IndexJantzen": [
+        "toiture",
+        "tourelle"
+      ]
+    },
+    {
+      "id_pic": "image_Ste-Chapelle_1_§4",
+      "IndexJantzen": [
+        "toiture"
+      ]
+    },
+    {
+      "id_pic": "image_Ste-Chapelle_1_§5",
+      "IndexJantzen": [
+        "toiture"
+      ]
+    },
+    {
+      "id_pic": "image_Ste-Chapelle_1_§6",
+      "IndexJantzen": [
+        "décor",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_Ste-Chapelle_1_§7_1-Rx",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_Ste-Chapelle_1_§8_1-Rx",
+      "IndexJantzen": [
+        "fenetre",
+        "verrière"
+      ]
+    },
+    {
+      "id_pic": "image_Ste-Chapelle_1_§9_1-Rx",
+      "IndexJantzen": [
+        "fenetre",
+        "verrière"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "id_bat": 3908,
+  "libelle": "95 rue de Vaugirard",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 297,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1891",
+  "periode": [
+    "1870-1894"
+  ],
+  "adresse": {
+    "affichage": "95 rue de Vaugirard",
+    "numero": "95",
+    "voie": "rue de Vaugirard"
+  },
+  "arrondissement": 6,
+  "coordonnees": {
+    "latitude": "48.845724",
+    "longitude": "2.322564"
+  },
+  "id_pss": 36716,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": "image_Vaugirard-95_6_§1",
+  "terme_jantzen_bat": [
+    "porte-bois",
+    "brique",
+    "marquise",
+    "oriel",
+    "céramique",
+    "façade",
+    "fenetre"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_Vaugirard-95_6_§1",
+      "IndexJantzen": [
+        "brique",
+        "céramique",
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_Vaugirard-95_6_§10",
+      "IndexJantzen": [
+        "céramique",
+        "marquise",
+        "porte-bois"
+      ]
+    },
+    {
+      "id_pic": "image_Vaugirard-95_6_§11",
+      "IndexJantzen": [
+        "céramique",
+        "porte-bois"
+      ]
+    },
+    {
+      "id_pic": "image_Vaugirard-95_6_§13",
+      "IndexJantzen": [
+        "marquise",
+        "porte-bois"
+      ]
+    },
+    {
+      "id_pic": "image_Vaugirard-95_6_§2",
+      "IndexJantzen": [
+        "brique",
+        "céramique",
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_Vaugirard-95_6_§3",
+      "IndexJantzen": [
+        "brique",
+        "céramique",
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_Vaugirard-95_6_§4",
+      "IndexJantzen": [
+        "brique",
+        "céramique",
+        "oriel"
+      ]
+    },
+    {
+      "id_pic": "image_Vaugirard-95_6_§5",
+      "IndexJantzen": [
+        "céramique",
+        "fenetre",
+        "marquise"
+      ]
+    },
+    {
+      "id_pic": "image_Vaugirard-95_6_§6",
+      "IndexJantzen": [
+        "céramique",
+        "oriel"
+      ]
+    },
+    {
+      "id_pic": "image_Vaugirard-95_6_§7",
+      "IndexJantzen": [
+        "céramique",
+        "marquise"
+      ]
+    },
+    {
+      "id_pic": "image_Vaugirard-95_6_§8",
+      "IndexJantzen": [
+        "céramique",
+        "marquise",
+        "oriel"
+      ]
+    },
+    {
+      "id_pic": "image_Vaugirard-95_6_§9",
+      "IndexJantzen": [
+        "céramique",
+        "fenetre"
+      ]
+    }
+  ]
+}

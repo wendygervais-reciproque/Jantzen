@@ -1,0 +1,45 @@
+{
+  "id_bat": 1967,
+  "libelle": "28 boulevard de la Bastille",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "28 boulevard de la Bastille",
+    "numero": "28",
+    "voie": "boulevard de la Bastille"
+  },
+  "arrondissement": 12,
+  "coordonnees": {
+    "latitude": "48.849335",
+    "longitude": "2.368423"
+  },
+  "id_pss": 77744,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 840,
+  "terme_jantzen_bat": [
+    "porte-bois",
+    "sculpture",
+    "clé"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_840",
+      "IndexJantzen": [
+        "clé",
+        "porte-bois"
+      ]
+    },
+    {
+      "id_pic": "image_841",
+      "IndexJantzen": [
+        "clé",
+        "sculpture"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "id_bat": 3421,
+  "libelle": "7 rue Erlanger",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 296,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1910",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "7 rue Erlanger",
+    "numero": "7",
+    "voie": "rue Erlanger"
+  },
+  "arrondissement": 16,
+  "coordonnees": {
+    "latitude": "48.847431",
+    "longitude": "2.262"
+  },
+  "id_pss": null,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 4123,
+  "terme_jantzen_bat": [
+    "façade-d'angle",
+    "pilastre"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_4123",
+      "IndexJantzen": [
+        "façade-d'angle",
+        "pilastre"
+      ]
+    }
+  ]
+}

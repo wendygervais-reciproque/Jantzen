@@ -1,0 +1,60 @@
+{
+  "id_bat": 2296,
+  "libelle": "348 rue des Pyrénées",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 227,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1867",
+  "periode": [
+    "1850-1869"
+  ],
+  "adresse": {
+    "affichage": "348 rue des Pyrénées",
+    "numero": "348",
+    "voie": "rue des Pyrénées"
+  },
+  "arrondissement": 20,
+  "coordonnees": {
+    "latitude": "48.873918",
+    "longitude": "2.387752"
+  },
+  "id_pss": 75182,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": "image_Pyrenees-348_20_§1",
+  "terme_jantzen_bat": [
+    "fenetre",
+    "clé",
+    "décor",
+    "porte-bois"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_Pyrenees-348_20_§1",
+      "IndexJantzen": [
+        "clé",
+        "décor",
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_Pyrenees-348_20_§2",
+      "IndexJantzen": [
+        "clé",
+        "décor",
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_Pyrenees-348_20_§3",
+      "IndexJantzen": [
+        "fenetre",
+        "porte-bois"
+      ]
+    }
+  ]
+}

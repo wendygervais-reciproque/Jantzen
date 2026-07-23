@@ -1,0 +1,73 @@
+{
+  "id_bat": 2458,
+  "libelle": "4 avenue Hoche",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 592,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1892",
+  "periode": [
+    "1870-1894"
+  ],
+  "adresse": {
+    "affichage": "4 avenue Hoche",
+    "numero": "4",
+    "voie": "avenue Hoche"
+  },
+  "arrondissement": 8,
+  "coordonnees": {
+    "latitude": "48.877804",
+    "longitude": "2.304211"
+  },
+  "id_pss": 76371,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 6352,
+  "terme_jantzen_bat": [
+    "poignée-porte",
+    "sculpture",
+    "fenetre",
+    "porte-bois",
+    "atlante"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_6352",
+      "IndexJantzen": [
+        "atlante",
+        "fenetre",
+        "porte-bois"
+      ]
+    },
+    {
+      "id_pic": "image_6353",
+      "IndexJantzen": [
+        "atlante",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_6354",
+      "IndexJantzen": [
+        "atlante",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_6355",
+      "IndexJantzen": [
+        "poignée-porte"
+      ]
+    },
+    {
+      "id_pic": "image_6356",
+      "IndexJantzen": [
+        "atlante",
+        "sculpture"
+      ]
+    }
+  ]
+}

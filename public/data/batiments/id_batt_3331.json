@@ -1,0 +1,74 @@
+{
+  "id_bat": 3331,
+  "libelle": "68 boulevard Beaumarchais",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": [
+    "1850-1869"
+  ],
+  "adresse": {
+    "affichage": "68 boulevard Beaumarchais",
+    "numero": "68",
+    "voie": "boulevard Beaumarchais"
+  },
+  "arrondissement": 11,
+  "coordonnees": {
+    "latitude": "48.858203",
+    "longitude": "2.368184"
+  },
+  "id_pss": 82291,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 1025,
+  "terme_jantzen_bat": [
+    "façade",
+    "fenetre",
+    "sculpture",
+    "balcon",
+    "garde-corps",
+    "porte-bois"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_1025",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_1026",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_1027",
+      "IndexJantzen": [
+        "balcon",
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_1028",
+      "IndexJantzen": [
+        "balcon",
+        "fenetre",
+        "garde-corps"
+      ]
+    },
+    {
+      "id_pic": "image_1029",
+      "IndexJantzen": [
+        "porte-bois"
+      ]
+    },
+    {
+      "id_pic": "image_1030",
+      "IndexJantzen": [
+        "porte-bois",
+        "sculpture"
+      ]
+    }
+  ]
+}

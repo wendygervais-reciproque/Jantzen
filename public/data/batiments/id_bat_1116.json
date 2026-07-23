@@ -1,0 +1,49 @@
+{
+  "id_bat": 1116,
+  "libelle": "16 rue Cernuschi",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "16 rue Cernuschi",
+    "numero": "16",
+    "voie": "rue Cernuschi"
+  },
+  "arrondissement": 17,
+  "coordonnees": {
+    "latitude": "48.886635",
+    "longitude": "2.308042"
+  },
+  "id_pss": 28255,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": "image_Cernuschi-16_17_§1",
+  "terme_jantzen_bat": [
+    "sculpture",
+    "verrière",
+    "décor",
+    "fenetre",
+    "garde-corps"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_Cernuschi-16_17_§1",
+      "IndexJantzen": [
+        "décor",
+        "fenetre",
+        "sculpture",
+        "verrière"
+      ]
+    },
+    {
+      "id_pic": "image_Cernuschi-16_17_§2",
+      "IndexJantzen": [
+        "fenetre",
+        "garde-corps"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "id_bat": 202,
+  "libelle": "1 rue Danton",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 30,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1898",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "1 rue Danton",
+    "numero": "1",
+    "voie": "rue Danton"
+  },
+  "arrondissement": 6,
+  "coordonnees": {
+    "latitude": "48.852835",
+    "longitude": "2.342774"
+  },
+  "id_pss": 10769,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": "image_Danton-1_6_§1",
+  "terme_jantzen_bat": [
+    "sculpture",
+    "oriel",
+    "décor",
+    "colonne",
+    "porte-fer",
+    "céramique",
+    "façade",
+    "fenetre"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_Danton-1_6_§1",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_Danton-1_6_§15",
+      "IndexJantzen": [
+        "fenetre",
+        "oriel"
+      ]
+    },
+    {
+      "id_pic": "image_Danton-1_6_§16",
+      "IndexJantzen": [
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_Danton-1_6_§17",
+      "IndexJantzen": [
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_Danton-1_6_§18",
+      "IndexJantzen": [
+        "céramique",
+        "décor",
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_Danton-1_6_§19",
+      "IndexJantzen": [
+        "colonne",
+        "céramique",
+        "décor",
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_Danton-1_6_§2",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_Danton-1_6_§20",
+      "IndexJantzen": [
+        "céramique",
+        "fenetre",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_Danton-1_6_§21",
+      "IndexJantzen": [
+        "colonne",
+        "céramique",
+        "décor"
+      ]
+    },
+    {
+      "id_pic": "image_Danton-1_6_§22",
+      "IndexJantzen": [
+        "fenetre",
+        "porte-fer"
+      ]
+    },
+    {
+      "id_pic": "image_Danton-1_6_§23",
+      "IndexJantzen": [
+        "fenetre",
+        "porte-fer"
+      ]
+    },
+    {
+      "id_pic": "image_Danton-1_6_§3",
+      "IndexJantzen": [
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_Danton-1_6_§4",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_Danton-1_6_§7",
+      "IndexJantzen": [
+        "fenetre",
+        "oriel"
+      ]
+    },
+    {
+      "id_pic": "image_Danton-1_6_§8",
+      "IndexJantzen": [
+        "façade"
+      ]
+    }
+  ]
+}
