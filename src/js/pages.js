@@ -60,47 +60,73 @@ Recherche et traitement des données : <strong>Eva Rivière</strong>, stagiaire 
   }
 };
 
-/* ─── PAGES STATIQUES ───────────────────────────────────────────────────── */
+/* ─── PAGE « À PROPOS » (onglets) ───────────────────────────────────────── */
 
-function showPage(pageKey) {
-  // Retirer l'état actif de tous les liens de navigation
-  document.querySelectorAll('#header-nav a').forEach(a => a.classList.remove('active'));
+// « La base » et « Le projet » ne sont plus des entrées de navigation : elles
+// deviennent les deux onglets d'une page À propos unique.
+const ABOUT_TABS = [
+  { key: 'base',   label: 'La base' },
+  { key: 'projet', label: 'Le projet' }
+];
 
-  if (pageKey === 'carte') {
-    closePage();
-    const navCarte = document.getElementById('nav-carte');
-    if (navCarte) navCarte.classList.add('active');
-    return;
+function showAbout(tabKey = 'base') {
+  const tabsEl = document.getElementById('page-overlay-tabs');
+  if (tabsEl) {
+    tabsEl.hidden = false;
+    tabsEl.innerHTML = '';
+    ABOUT_TABS.forEach(({ key, label }) => {
+      const tab = document.createElement('button');
+      tab.type        = 'button';
+      tab.className   = 'page-tab' + (key === tabKey ? ' is-active' : '');
+      tab.textContent = label;
+      tab.setAttribute('role', 'tab');
+      tab.setAttribute('aria-selected', String(key === tabKey));
+      tab.onclick = () => showAbout(key);
+      tabsEl.appendChild(tab);
+    });
   }
 
+  renderPage('À propos', PAGES_CONTENT[tabKey]);
+}
+
+/* ─── PAGES SIMPLES (crédits, CGU) ──────────────────────────────────────── */
+
+function showPage(pageKey) {
   const page = PAGES_CONTENT[pageKey];
   if (!page) return;
 
-  const navEl = document.getElementById(`nav-${pageKey}`);
-  if (navEl) navEl.classList.add('active');
+  const tabsEl = document.getElementById('page-overlay-tabs');
+  if (tabsEl) { tabsEl.hidden = true; tabsEl.innerHTML = ''; }
 
+  renderPage(page.title, page);
+}
+
+function renderPage(title, page) {
   const titleEl = document.getElementById('page-overlay-title');
   const bodyEl  = document.getElementById('page-overlay-body');
-
-  if (titleEl) titleEl.textContent = page.title;
-  if (bodyEl)  bodyEl.innerHTML   = page.html;
-
-  // Masque l'en-tête de l'overlay pour les pages avec un lien nav (base, projet)
-  // Le conserve pour les pages sans lien direct (credits, cgu)
-  const overlayHeader = document.getElementById('page-overlay-header');
-  if (overlayHeader) overlayHeader.hidden = !!navEl;
+  if (titleEl) titleEl.textContent = title;
+  if (bodyEl) {
+    bodyEl.innerHTML = page.html;
+    bodyEl.scrollTop = 0;
+  }
 
   const overlay = document.getElementById('page-overlay');
   if (overlay) {
-    overlay.classList.add('visible');
+    overlay.hidden = false;
     overlay.setAttribute('aria-hidden', 'false');
   }
+  document.getElementById('page-overlay-close')?.focus();
 }
 
 function closePage() {
   const overlay = document.getElementById('page-overlay');
   if (overlay) {
-    overlay.classList.remove('visible');
+    overlay.hidden = true;
     overlay.setAttribute('aria-hidden', 'true');
   }
+}
+
+function isPageOpen() {
+  const overlay = document.getElementById('page-overlay');
+  return !!overlay && !overlay.hidden;
 }

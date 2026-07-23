@@ -173,6 +173,10 @@ function showBuildingView() {
 /* ─── NAVIGATION VERS UN BÂTIMENT ───────────────────────────────────────── */
 
 function flyToFeature(id_bat) {
+  // Conteneur non mesuré (carte masquée, fenêtre repliée) : flyTo produirait
+  // des coordonnées NaN et lèverait une exception.
+  if (!map || map.getSize().x === 0) return;
+
   const feature = ALL_FEATURES.find(f => String(f.properties.id_bat) === String(id_bat));
   if (!feature || !feature.geometry || !feature.geometry.coordinates) return;
 

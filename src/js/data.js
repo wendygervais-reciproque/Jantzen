@@ -4,7 +4,8 @@
  */
 
 // 💡 Si tes fichiers sont servis depuis public/data/ ou data/, ajuste ici si besoin
-const DATA_BASE = 'public/data';
+const DATA_BASE  = 'public/data';
+const PHOTO_BASE = `${DATA_BASE}/photos_jpg`;
 
 let THESAURUS    = [];   // [{id, nom}, ...] ou liste simple
 let RAW_GEOJSON  = null; // FeatureCollection complète
@@ -118,6 +119,59 @@ async function loadData() {
 }
 
 /* ─── UTILITAIRES ───────────────────────────────────────────────────────── */
+
+/**
+ * URL d'une photographie à partir de son identifiant ("Invalides_FS_§10",
+ * historiquement préfixé "image_"). Renvoie null si l'identifiant est absent
+ * ou n'est pas exploitable comme nom de fichier.
+ *
+ * ⚠️ `image_ref` des features du geojson est un entier interne (6813…) sans
+ * correspondance sur le disque : seule la fiche du bâtiment porte une
+ * référence utilisable. On écarte donc les valeurs numériques.
+ */
+function photoUrl(idPic) {
+  if (!idPic || typeof idPic !== 'string') return null;
+  const name = idPic.replace(/^image_/, '');
+  return `${PHOTO_BASE}/${encodeURIComponent(name)}.jpg`;
+}
+
+/* ─── FICHES BÂTIMENT (chargement mutualisé) ────────────────────────────── */
+
+const batimentCache = new Map();   // id_bat → Promise<fiche>
+
+/**
+ * Charge — une seule fois — la fiche d'un bâtiment.
+ * Le jeu de données mêle deux conventions de nommage (`id_batt_X.json` et
+ * `id_bat_X.json`) : on tente les deux avant de renoncer.
+ */
+function getBatiment(id_bat) {
+  const key = String(id_bat);
+  if (!batimentCache.has(key)) {
+    batimentCache.set(key, (async () => {
+      for (const name of [`id_batt_${key}`, `id_bat_${key}`]) {
+        const res = await fetch(`${DATA_BASE}/batiments/${name}.json`);
+        if (res.ok) return res.json();
+      }
+      throw new Error(`Fiche du bâtiment ${key} introuvable`);
+    })().catch(err => {
+      batimentCache.delete(key);   // un échec ne doit pas être mémorisé
+      throw err;
+    }));
+  }
+  return batimentCache.get(key);
+}
+
+/** Bascule .jpg → .JPG sur une image dont le chargement a échoué. Renvoie false si déjà tenté. */
+function retryUppercaseJpg(imgEl) {
+  if (imgEl.src.endsWith('.JPG')) return false;
+  imgEl.src = imgEl.src.replace(/\.jpg$/, '.JPG');
+  return true;
+}
+
+/** Première lettre en capitale — les termes Jantzen sont stockés en minuscules. */
+function capitalize(str) {
+  return str ? str.charAt(0).toUpperCase() + str.slice(1) : '';
+}
 
 function getThesaurusName(id) {
   if (!THESAURUS || !Array.isArray(THESAURUS)) return id;

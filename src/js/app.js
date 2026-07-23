@@ -1,6 +1,5 @@
 /**
- * app.js - Adapté au nouveau jeu de données (id_bat numérique & photos dans photo_jpg)
- * Point d'entrée de l'application — initialisation asynchrone.
+ * app.js — Point d'entrée : initialisation asynchrone et câblage de l'interface.
  */
 
 let searchQuery = '';
@@ -22,82 +21,137 @@ document.addEventListener('DOMContentLoaded', async () => {
   buildLunrIndex();
   buildArrChips();
   buildThesaurusFilter();
-  renderMapFeatures(ALL_FEATURES);
-  renderResults(ALL_FEATURES);
+  renderCurrentView(ALL_FEATURES);
 
-  // ── Recherche ───────────────────────────────────────────────────────────
-  document.getElementById('search-input').addEventListener('input', onSearch);
-  document.getElementById('search-clear').addEventListener('click', clearSearch);
-
-  // ── Panneau de détail ───────────────────────────────────────────────────
-  const detailClose = document.getElementById('detail-close');
-  if (detailClose) detailClose.addEventListener('click', closeDetail);
-
-  // ── Panneau de filtres (collapse) ───────────────────────────────────────
-  const filtersBody   = document.getElementById('filters-body');
-  const filtersToggle = document.getElementById('filters-toggle');
-  if (filtersToggle && filtersBody) {
-    filtersToggle.addEventListener('click', () => {
-      const collapsed = filtersBody.classList.toggle('collapsed');
-      filtersToggle.textContent = collapsed ? '+' : '−';
-      filtersToggle.setAttribute('aria-expanded', String(!collapsed));
-    });
-  }
-
-  // ── Pages overlay ───────────────────────────────────────────────────────
-  const pageOverlayClose = document.getElementById('page-overlay-close');
-  if (pageOverlayClose) {
-    pageOverlayClose.addEventListener('click', () => showPage('carte'));
-  }
-
-  // ── Tirette de redimensionnement du bandeau bas ─────────────────────────
-  const stripResizer = document.getElementById('strip-resizer');
-  const strip        = document.getElementById('results-strip');
-
-  if (stripResizer && strip) {
-    stripResizer.addEventListener('mousedown', (e) => {
-      e.preventDefault();
-      const startY = e.clientY;
-      const startH = strip.getBoundingClientRect().height;
-      stripResizer.classList.add('dragging');
-      document.body.style.cursor    = 'row-resize';
-      document.body.style.userSelect = 'none';
-
-      function onMove(ev) {
-        const delta = startY - ev.clientY;
-        const newH  = Math.max(80, Math.min(500, startH + delta));
-        strip.style.height = newH + 'px';
-      }
-
-      function onUp() {
-        stripResizer.classList.remove('dragging');
-        document.body.style.cursor    = '';
-        document.body.style.userSelect = '';
-        document.removeEventListener('mousemove', onMove);
-        document.removeEventListener('mouseup',   onUp);
-      }
-
-      document.addEventListener('mousemove', onMove);
-      document.addEventListener('mouseup',   onUp);
-    });
-  }
+  bindSearch();
+  bindNavigation();
+  bindViewToggle();
+  bindFiltersPanel();
+  bindCarousel();
+  bindKeyboard();
 });
 
 /* ─── RECHERCHE ─────────────────────────────────────────────────────────── */
 
-function onSearch(e) {
-  searchQuery = e.target.value.trim();
-  const clearBtn = document.getElementById('search-clear');
-  if (clearBtn) clearBtn.style.display = searchQuery ? 'flex' : 'none';
-  applyFilters();
+function bindSearch() {
+  const input = document.getElementById('search-input');
+  const clear = document.getElementById('search-clear');
+
+  input?.addEventListener('input', e => {
+    searchQuery = e.target.value.trim();
+    if (clear) clear.hidden = !searchQuery;
+    applyFilters();
+  });
+
+  clear?.addEventListener('click', () => {
+    if (input) input.value = '';
+    searchQuery = '';
+    clear.hidden = true;
+    applyFilters();
+    input?.focus();
+  });
 }
 
-function clearSearch() {
-  document.getElementById('search-input').value = '';
-  searchQuery = '';
-  const clearBtn = document.getElementById('search-clear');
-  if (clearBtn) clearBtn.style.display = 'none';
-  applyFilters();
+/* ─── NAVIGATION (marque, à propos, pages) ──────────────────────────────── */
+
+function bindNavigation() {
+  document.getElementById('brand-home')?.addEventListener('click', e => {
+    e.preventDefault();
+    closePage();          // le logotype ramène au fond (carte ou mosaïque)
+  });
+
+  document.getElementById('brand-about')?.addEventListener('click', e => {
+    e.preventDefault();
+    showAbout();
+  });
+
+  document.getElementById('link-credits')?.addEventListener('click', e => {
+    e.preventDefault();
+    showPage('credits');
+  });
+
+  document.getElementById('link-cgu')?.addEventListener('click', e => {
+    e.preventDefault();
+    showPage('cgu');
+  });
+
+  document.getElementById('page-overlay-close')?.addEventListener('click', closePage);
+}
+
+/* ─── BASCULE CARTE / MOSAÏQUE ──────────────────────────────────────────── */
+
+function bindViewToggle() {
+  document.querySelectorAll('.view-btn').forEach(btn => {
+    btn.addEventListener('click', () => setView(btn.dataset.view));
+  });
+}
+
+/* ─── PANNEAU DE FILTRES ────────────────────────────────────────────────── */
+
+function bindFiltersPanel() {
+  const body   = document.getElementById('filters-body');
+  const toggle = document.getElementById('filters-toggle');
+  if (!body || !toggle) return;
+
+  toggle.addEventListener('click', () => {
+    const collapsed = body.classList.toggle('collapsed');
+    toggle.textContent = collapsed ? '+' : '−';
+    toggle.setAttribute('aria-expanded', String(!collapsed));
+  });
+}
+
+/* ─── CARROUSEL, MULTISELECT ET PLEIN ÉCRAN ─────────────────────────────── */
+
+function bindCarousel() {
+  document.getElementById('info-close')?.addEventListener('click', deselectBatiment);
+
+  document.getElementById('carousel-prev')?.addEventListener('click', () => stepPhoto(-1));
+  document.getElementById('carousel-next')?.addEventListener('click', () => stepPhoto(1));
+  document.getElementById('carousel-fullscreen')?.addEventListener('click', openLightbox);
+
+  document.getElementById('lightbox-close')?.addEventListener('click', closeLightbox);
+  document.getElementById('lightbox-prev')?.addEventListener('click', () => stepPhoto(-1));
+  document.getElementById('lightbox-next')?.addEventListener('click', () => stepPhoto(1));
+  document.getElementById('lightbox')?.addEventListener('click', e => {
+    if (e.target.id === 'lightbox') closeLightbox();   // clic sur le fond
+  });
+
+  const field = document.querySelector('#elem-select .ms-field');
+  field?.addEventListener('click', e => {
+    // La pastille de comptage sert de bouton « tout désélectionner ».
+    if (e.target.closest('.ms-badge-clear')) {
+      e.stopPropagation();
+      clearElementFilter();
+      return;
+    }
+    toggleElementMenu();
+  });
+
+  document.addEventListener('click', e => {
+    if (!e.target.closest('#elem-select')) closeElementMenu();
+  });
+}
+
+/* ─── CLAVIER ───────────────────────────────────────────────────────────── */
+
+function bindKeyboard() {
+  document.addEventListener('keydown', e => {
+    if (e.key === 'Escape') {
+      if (isLightboxOpen())                                  return closeLightbox();
+      if (!document.getElementById('elem-select-menu')?.hidden) return closeElementMenu();
+      if (isPageOpen())                                      return closePage();
+      if (selectedId !== null)                               return deselectBatiment();
+      return;
+    }
+
+    // Flèches : navigation dans les photos, sauf pendant une saisie.
+    const typing = ['INPUT', 'TEXTAREA'].includes(document.activeElement?.tagName);
+    const carouselVisible = !document.getElementById('carousel')?.hidden;
+    if (typing || !carouselVisible) return;
+
+    if (e.key === 'ArrowLeft')  { e.preventDefault(); stepPhoto(-1); }
+    if (e.key === 'ArrowRight') { e.preventDefault(); stepPhoto(1);  }
+  });
 }
 
 /* ─── APPLICATION DES FILTRES ───────────────────────────────────────────── */
@@ -113,47 +167,19 @@ function applyFilters() {
   }
 
   // 2. Filtre arrondissement
-  if (typeof activeFilters !== 'undefined' && activeFilters.arrondissements && activeFilters.arrondissements.size > 0) {
+  if (activeFilters.arrondissements.size > 0) {
     features = features.filter(f =>
       activeFilters.arrondissements.has(Number(f.properties.arrondissement))
     );
   }
 
-  // 3. Filtre thésaurus (Index Jantzen)
-  // On gère à la fois activeFilters.thesaurus et activeFilters.terme_jantzen_bat
-  const selectedTerms = activeFilters?.thesaurus || activeFilters?.terme_jantzen_bat;
-
-  if (selectedTerms && selectedTerms.size > 0) {
-    features = features.filter(f => {
-      const batTerms = f.properties.terme_jantzen_bat || [];
-      // Au moins un des termes cochés doit faire partie des termes du bâtiment
-      return batTerms.some(term => selectedTerms.has(term));
-    });
+  // 3. Filtre thésaurus (Index Jantzen) — au moins un terme coché en commun
+  if (activeFilters.thesaurus.size > 0) {
+    features = features.filter(f =>
+      (f.properties.terme_jantzen_bat || []).some(term => activeFilters.thesaurus.has(term))
+    );
   }
 
-  renderResults(features);
-  renderMapFeatures(features);
-  if (typeof renderActiveTags === 'function') renderActiveTags();
-}
-
-/* ─── CHARGEMENT DE LA FICHE BÂTIMENT DÉTAILLÉE ─────────────────────────── */
-
-/**
- * Fonction à appeler lors du clic sur un bâtiment pour charger
- * son fichier JSON individuel (ex: /batiments/id_bat_1.json)
- */
-async function loadBatimentDetail(id_bat) {
-  try {
-    const response = await fetch(`./batiments/id_bat_${id_bat}.json`);
-    if (!response.ok) throw new Error(`Fichier id_bat_${id_bat}.json introuvable`);
-    
-    const batData = await response.json();
-    
-    // Exemple d'utilisation : ouvrir le volet de détail avec les photos du dossier /photo_jpg/
-    if (typeof openDetailPanel === 'function') {
-      openDetailPanel(batData);
-    }
-  } catch (err) {
-    console.error(`Erreur lors du chargement de la fiche du bâtiment ${id_bat}:`, err);
-  }
+  renderCurrentView(features);
+  renderActiveTags();
 }

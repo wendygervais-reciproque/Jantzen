@@ -47,9 +47,19 @@ function lunrSearch(query) {
   if (!lunrIndex) return new Set();
 
   try {
-    // Recherche par préfixe (* à la fin) pour la saisie semi-automatique
-    const results = lunrIndex.search(query + '*');
-    
+    // Deux passes par mot saisi :
+    //   • terme passé par le pipeline (stemmé) — « lucarne » retrouve « lucarn » ;
+    //   • préfixe brut, hors pipeline, pour la saisie semi-automatique.
+    // Un simple `search(query + '*')` échouerait : les jokers court-circuitent
+    // le stemmer, et ne correspondraient donc jamais aux termes indexés.
+    const results = lunrIndex.query(q => {
+      query.toLowerCase().split(/\s+/).filter(Boolean).forEach(term => {
+        q.term(term, { usePipeline: true,  boost: 10 });
+        q.term(term, { usePipeline: false, boost: 1,
+                       wildcard: lunr.Query.wildcard.TRAILING });
+      });
+    });
+
     // Convertit les ref en nombre/string selon le format de tes données
     return new Set(results.map(r => {
       const numVal = Number(r.ref);

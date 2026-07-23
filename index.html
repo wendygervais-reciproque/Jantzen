@@ -11,129 +11,205 @@
   <link rel="stylesheet" href="src/css/main.css"/>
 </head>
 <body>
+
+<!-- ── SPRITE D'ICÔNES ── -->
+<svg id="icon-sprite" aria-hidden="true">
+  <symbol id="i-map" viewBox="0 0 24 24">
+    <path d="M15 19.1 9 17V4.9l6 2.1v12.1Zm2-.1V6.85l3.15-1.2v12.1L17 19Zm-13 0 3-1.05V5.9L3.85 7.1v12.1L4 19Zm-2 2V5.65l5-1.7 6 2.1 5.6-2.1a1 1 0 0 1 1.4.95v13.5l-6 2.3-6-2.1L2 21Z"/>
+  </symbol>
+  <symbol id="i-grid" viewBox="0 0 24 24">
+    <path d="M3 9V3h6v6H3Zm0 12v-6h6v6H3Zm12-12V3h6v6h-6Zm0 12v-6h6v6h-6Zm-10-2h2v-2H5v2Zm0-12h2V5H5v2Zm12 12h2v-2h-2v2Zm0-12h2V5h-2v2Z"/>
+  </symbol>
+  <symbol id="i-search" viewBox="0 0 24 24">
+    <path d="m19.6 21-6.3-6.3a5.7 5.7 0 0 1-3.6 1.2 5.8 5.8 0 1 1 5.8-5.8 5.7 5.7 0 0 1-1.2 3.6l6.3 6.3-1 1Zm-9.9-6.5a4.4 4.4 0 1 0 0-8.8 4.4 4.4 0 0 0 0 8.8Z"/>
+  </symbol>
+  <symbol id="i-close" viewBox="0 0 24 24">
+    <path d="m6.4 18.7-1.1-1.1 5.6-5.6-5.6-5.6 1.1-1.1 5.6 5.6 5.6-5.6 1.1 1.1-5.6 5.6 5.6 5.6-1.1 1.1-5.6-5.6-5.6 5.6Z"/>
+  </symbol>
+  <symbol id="i-arrow-left" viewBox="0 0 24 24">
+    <path d="m10.9 19.5-7.5-7.5 7.5-7.5 1.1 1.1-5.6 5.6h14.2v1.6H6.4l5.6 5.6-1.1 1.1Z"/>
+  </symbol>
+  <symbol id="i-arrow-right" viewBox="0 0 24 24">
+    <path d="m13.1 19.5-1.1-1.1 5.6-5.6H3.4v-1.6h14.2L12 5.6l1.1-1.1 7.5 7.5-7.5 7.5Z"/>
+  </symbol>
+  <symbol id="i-fullscreen" viewBox="0 0 24 24">
+    <path d="M3 21v-7h1.6v4.3l14-14H14.3V3H21v7h-1.6V5.7l-14 14H10V21H3Z"/>
+  </symbol>
+  <symbol id="i-chevron" viewBox="0 0 24 24">
+    <path d="m12 15.4-6-6L7.1 8.3l4.9 4.9 4.9-4.9L18 9.4l-6 6Z"/>
+  </symbol>
+</svg>
+
 <div id="app">
 
-  <!-- ── HEADER ── -->
-  <header id="header">
-    <div id="header-brand">
-      <span class="brand-main">Architecture Paris</span>
-    </div>
+  <!-- ── FOND : carte ou mosaïque ── -->
+  <main id="stage">
+    <div id="map" role="application" aria-label="Carte interactive de Paris"></div>
+    <div id="mosaic" hidden aria-label="Mosaïque des bâtiments"></div>
+    <p id="stage-empty" hidden aria-live="polite">Aucun résultat.<br>Modifiez vos critères de recherche.</p>
+  </main>
 
-    <div id="header-search">
-      <div id="search-input-wrap">
-        <input type="search" id="search-input"
-               placeholder="Nom, adresse, élément architectural…"
-               autocomplete="off"
-               aria-label="Recherche dans le fonds"/>
-        <button id="search-clear" aria-label="Effacer la recherche">×</button>
+  <!-- ── MARQUE + À PROPOS ── -->
+  <nav id="brand-bar" aria-label="Navigation principale">
+    <a href="#" id="brand-home">Fond Jantzen</a>
+    <span class="brand-sep" aria-hidden="true"></span>
+    <a href="#" id="brand-about">À propos</a>
+  </nav>
+
+  <!-- ── RECHERCHE ── -->
+  <div id="search-bar">
+    <svg class="icon" aria-hidden="true"><use href="#i-search"/></svg>
+    <input type="search" id="search-input"
+           placeholder="Nom, adresse, élément architectural…"
+           autocomplete="off"
+           aria-label="Recherche dans le fonds"/>
+    <button id="search-clear" aria-label="Effacer la recherche" hidden>
+      <svg class="icon" aria-hidden="true"><use href="#i-close"/></svg>
+    </button>
+  </div>
+
+  <!-- ── BASCULE CARTE / MOSAÏQUE ── -->
+  <div id="view-toggle" role="group" aria-label="Mode d'affichage">
+    <button class="view-btn is-active" data-view="map" aria-pressed="true">
+      <svg class="icon" aria-hidden="true"><use href="#i-map"/></svg>
+      <span>Carte</span>
+    </button>
+    <button class="view-btn" data-view="mosaic" aria-pressed="false">
+      <svg class="icon" aria-hidden="true"><use href="#i-grid"/></svg>
+      <span>Tuile</span>
+    </button>
+  </div>
+
+  <!-- ── FILTRES ── -->
+  <div id="filters-panel" aria-label="Filtres">
+    <div id="filters-header">
+      <div id="filters-header-top">
+        <span id="filters-title">Filtres</span>
+        <div id="filters-header-right">
+          <span id="search-results-count" aria-live="polite"></span>
+          <button id="filters-toggle" aria-label="Afficher/Masquer les filtres" aria-expanded="true">−</button>
+        </div>
       </div>
+      <div id="filters-active-bar" aria-live="polite"></div>
     </div>
+    <div id="filters-body">
 
-    <nav id="header-nav" aria-label="Navigation principale">
-      <a href="#" onclick="showPage('carte'); return false;" class="active" id="nav-carte">Carte</a>
-      <a href="#" onclick="showPage('base');  return false;" id="nav-base">La base</a>
-      <a href="#" onclick="showPage('projet');return false;" id="nav-projet">Le projet</a>
-    </nav>
-  </header>
-
-  <!-- ── MAIN ── -->
-  <div id="main">
-
-    <!-- MAP ROW -->
-    <div id="map-row">
-
-      <!-- MAP CONTAINER -->
-      <div id="map-container">
-        <div id="map" role="application" aria-label="Carte interactive de Paris"></div>
-
-        <!-- DETAIL PANEL (Panneau de gauche, fiche bâtiment) -->
-        <div id="detail-panel"
-             role="region"
-             aria-label="Détail du bâtiment"
-             aria-hidden="true">
-          <div id="detail-gallery" aria-label="Galerie photographique"></div>
-          <div id="detail-content" tabindex="0">
-            <h2 id="detail-title"></h2>
-            <p id="detail-address"></p>
-            <div class="detail-meta-grid" id="detail-meta-grid"></div>
-            <p id="detail-description"></p>
-            <span class="detail-elements-label" id="detail-elements-label">Éléments architecturaux (Index Jantzen)</span>
-            <div class="detail-elements" id="detail-elements-tags"></div>
-          </div>
-          <button id="detail-close" aria-label="Fermer la fiche">×</button>
-        </div>
-
-        <!-- FILTERS PANEL (Panneau flottant en haut à droite) -->
-        <div id="filters-panel" aria-label="Filtres">
-          <div id="filters-header">
-            <div id="filters-header-top">
-              <span id="filters-title">Filtres</span>
-              <div id="filters-header-right">
-                <span id="search-results-count" aria-live="polite"></span>
-                <button id="filters-toggle" aria-label="Afficher/Masquer les filtres" aria-expanded="true">−</button>
-              </div>
-            </div>
-            <div id="filters-active-bar" aria-live="polite"></div>
-          </div>
-          <div id="filters-body">
-
-            <div class="filter-section">
-              <button class="filter-section-header" onclick="toggleFilterSection(this)" aria-expanded="true">
-                <span class="filter-section-label">Arrondissement</span>
-                <span class="filter-section-arrow" aria-hidden="true">▾</span>
-              </button>
-              <div class="filter-section-body open">
-                <div class="filter-group">
-                  <div class="filter-chips" id="arr-chips"></div>
-                </div>
-              </div>
-            </div>
-
-            <div class="filter-section">
-              <button class="filter-section-header" onclick="toggleFilterSection(this)" aria-expanded="false">
-                <span class="filter-section-label">Thésaurus (Index Jantzen)</span>
-                <span class="filter-section-arrow" aria-hidden="true">▾</span>
-              </button>
-              <div class="filter-section-body">
-                <div class="filter-chips" id="thesaurus-chips"></div>
-              </div>
-            </div>
-
+      <div class="filter-section">
+        <button class="filter-section-header" onclick="toggleFilterSection(this)" aria-expanded="true">
+          <span class="filter-section-label">Arrondissement</span>
+          <span class="filter-section-arrow" aria-hidden="true">▾</span>
+        </button>
+        <div class="filter-section-body open">
+          <div class="filter-group">
+            <div class="filter-chips" id="arr-chips"></div>
           </div>
         </div>
-
-        <!-- LIENS DISCRETS (en bas à gauche) -->
-        <div id="footer-links">
-          <a href="#" onclick="showPage('credits'); return false;">Crédits</a>
-          <span>·</span>
-          <a href="#" onclick="showPage('cgu'); return false;">CGU</a>
-        </div>
-
-      </div><!-- end #map-container -->
-    </div><!-- end #map-row -->
-
-    <!-- STRIP RESIZER (Tirette de redimensionnement) -->
-    <div id="strip-resizer" role="separator" aria-label="Redimensionner le bandeau" title="Glisser pour ajuster la hauteur"></div>
-
-    <!-- RESULTS STRIP (Bandeau horizontal de résultats) -->
-    <div id="results-strip" aria-label="Résultats">
-      <div id="results-track-wrap">
-        <div id="empty-state" aria-live="polite">
-          <p>Aucun résultat.<br>Modifiez vos critères de recherche.</p>
-        </div>
-        <div id="results-track" role="list" aria-label="Résultats"></div>
       </div>
-    </div>
 
-  </div><!-- end #main -->
+      <div class="filter-section">
+        <button class="filter-section-header" onclick="toggleFilterSection(this)" aria-expanded="false">
+          <span class="filter-section-label">Thésaurus (Index Jantzen)</span>
+          <span class="filter-section-arrow" aria-hidden="true">▾</span>
+        </button>
+        <div class="filter-section-body">
+          <div class="filter-chips" id="thesaurus-chips"></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ── INFOS BÂTIMENT ── -->
+  <section id="info-panel" aria-label="Informations du bâtiment" hidden>
+    <button id="info-close" aria-label="Fermer la fiche">
+      <svg class="icon" aria-hidden="true"><use href="#i-close"/></svg>
+    </button>
+    <div id="info-body">
+      <h2 id="info-title"></h2>
+      <p id="info-address"></p>
+      <div class="info-meta-grid" id="info-meta-grid"></div>
+      <span class="info-elements-label" id="info-elements-label" hidden>Éléments architecturaux (Index Jantzen)</span>
+      <div class="info-elements" id="info-elements-tags"></div>
+    </div>
+  </section>
+
+  <!-- ── CARROUSEL ── -->
+  <section id="carousel" aria-label="Photographies du bâtiment" hidden>
+    <p id="carousel-title"></p>
+    <div id="carousel-stage"></div>
+
+    <div id="carousel-actions">
+      <button class="carousel-nav" id="carousel-prev" aria-label="Photo précédente">
+        <svg class="icon" aria-hidden="true"><use href="#i-arrow-left"/></svg>
+      </button>
+
+      <div id="carousel-pill">
+        <span id="carousel-counter">0 | 0</span>
+        <span class="pill-sep" aria-hidden="true"></span>
+
+        <!-- Multiselect « élément architectural » (motif Carbon) -->
+        <div class="multiselect" id="elem-select">
+          <button type="button" class="ms-field"
+                  aria-label="Filtrer les photos par élément architectural"
+                  aria-haspopup="listbox" aria-expanded="false"
+                  aria-controls="elem-select-menu">
+            <span class="ms-badge" hidden>
+              <span class="ms-badge-count">0</span>
+              <span class="ms-badge-clear" role="img" aria-label="Tout désélectionner">×</span>
+            </span>
+            <span class="ms-label">Élément architectural</span>
+            <svg class="icon ms-chevron" aria-hidden="true"><use href="#i-chevron"/></svg>
+          </button>
+          <ul class="ms-menu" id="elem-select-menu" role="listbox"
+              aria-multiselectable="true" aria-label="Éléments architecturaux" hidden></ul>
+        </div>
+      </div>
+
+      <button class="carousel-nav" id="carousel-next" aria-label="Photo suivante">
+        <svg class="icon" aria-hidden="true"><use href="#i-arrow-right"/></svg>
+      </button>
+
+      <button class="carousel-nav" id="carousel-fullscreen" aria-label="Afficher en plein écran">
+        <svg class="icon" aria-hidden="true"><use href="#i-fullscreen"/></svg>
+      </button>
+    </div>
+  </section>
+
+  <!-- ── LIENS DISCRETS ── -->
+  <div id="footer-links">
+    <a href="#" id="link-credits">Crédits</a>
+    <span>·</span>
+    <a href="#" id="link-cgu">CGU</a>
+  </div>
+
 </div><!-- end #app -->
 
-<!-- ── OVERLAY PAGES STATIQUES ── -->
-<div id="page-overlay" role="dialog" aria-modal="true" aria-hidden="true">
+<!-- ── VISIONNEUSE PLEIN ÉCRAN ── -->
+<div id="lightbox" role="dialog" aria-modal="true" aria-label="Photographie en plein écran" hidden>
+  <button id="lightbox-close" aria-label="Fermer">
+    <svg class="icon" aria-hidden="true"><use href="#i-close"/></svg>
+  </button>
+  <button class="lightbox-nav" id="lightbox-prev" aria-label="Photo précédente">
+    <svg class="icon" aria-hidden="true"><use href="#i-arrow-left"/></svg>
+  </button>
+  <figure id="lightbox-figure">
+    <img id="lightbox-img" alt=""/>
+    <figcaption id="lightbox-caption"></figcaption>
+  </figure>
+  <button class="lightbox-nav" id="lightbox-next" aria-label="Photo suivante">
+    <svg class="icon" aria-hidden="true"><use href="#i-arrow-right"/></svg>
+  </button>
+</div>
+
+<!-- ── PAGES STATIQUES ── -->
+<div id="page-overlay" role="dialog" aria-modal="true" aria-hidden="true" hidden>
   <header id="page-overlay-header">
     <span id="page-overlay-title"></span>
-    <button id="page-overlay-close" aria-label="Fermer">×</button>
+    <button id="page-overlay-close" aria-label="Fermer">
+      <svg class="icon" aria-hidden="true"><use href="#i-close"/></svg>
+    </button>
   </header>
+  <div id="page-overlay-tabs" role="tablist" aria-label="Sections" hidden></div>
   <div id="page-overlay-body"></div>
 </div>
 
@@ -145,6 +221,8 @@
 <script src="src/js/map.js"></script>
 <script src="src/js/search.js"></script>
 <script src="src/js/filters.js"></script>
+<script src="src/js/views.js"></script>
+<script src="src/js/carousel.js"></script>
 <script src="src/js/ui.js"></script>
 <script src="src/js/pages.js"></script>
 <script src="src/js/app.js"></script>
