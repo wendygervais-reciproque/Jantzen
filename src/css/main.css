@@ -672,7 +672,7 @@ body {
 #results-strip {
   height: var(--strip-h);
   flex-shrink: 0;
-  display: flex; flex-direction: row;
+  display: none; flex-direction: row;
   border-top: 1px solid var(--border-subtle);
   background: var(--background-page);
   overflow: hidden;
