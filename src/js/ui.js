@@ -1,8 +1,8 @@
 /**
- * ui.js - Adapté au nouveau jeu de données (id_bat, photo_jpg & batiments/id_batt_X.json)
+ * ui.js - Adapté au nouveau jeu de données (id_bat, photo_jpg & batiments/id_bat_X.json)
  * Rendu des résultats, du panneau de détail et de la galerie.
  */
-
+s
 let selectedId = null;
 
 const MAX_RESULTS = 100;
@@ -119,11 +119,11 @@ async function loadDetailAndShow(id_bat) {
 
   try {
     // ⚠️ ADAPTATION : Nom du fichier individuel généré par le script Python
-    const response = await fetch(`${DATA_BASE}/batiments/id_batt_${id_bat}.json`);
-    if (!response.ok) throw new Error(`Fiche bâtiment id_batt_${id_bat}.json introuvable`);
+    const response = await fetch(`${DATA_BASE}/batiments/id_bat_${id_bat}.json`);
+    if (!response.ok) throw new Error(`Fiche bâtiment id_bat_${id_bat}.json introuvable`);
     
     const data = await response.json();
-    showDetailPanel(data);
+    showDetailPanel(data);s
   } catch (err) {
     console.error(err);
     if (elTitle) elTitle.textContent = `Erreur de chargement (Bâtiment ${id_bat})`;
