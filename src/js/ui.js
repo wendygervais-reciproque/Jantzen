@@ -2,7 +2,7 @@
  * ui.js - Adapté au nouveau jeu de données (id_bat, photo_jpg & batiments/id_bat_X.json)
  * Rendu des résultats, du panneau de détail et de la galerie.
  */
-s
+
 let selectedId = null;
 
 const MAX_RESULTS = 100;
@@ -123,7 +123,7 @@ async function loadDetailAndShow(id_bat) {
     if (!response.ok) throw new Error(`Fiche bâtiment id_bat_${id_bat}.json introuvable`);
     
     const data = await response.json();
-    showDetailPanel(data);s
+    showDetailPanel(data);
   } catch (err) {
     console.error(err);
     if (elTitle) elTitle.textContent = `Erreur de chargement (Bâtiment ${id_bat})`;
