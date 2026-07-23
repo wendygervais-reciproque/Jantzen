@@ -16,32 +16,24 @@
   "id_pss": 17797,
   "id_wikidata": "Q427340",
   "WPfr": "Église Saint-Gervais-Saint-Protais de Paris",
-  "image_ref": "image_St-Gervais_4_§1",
+  "image_ref": "St-Gervais_4_§1",
   "terme_jantzen_bat": [
-    "porte-bois",
+    "fronton",
+    "fenetre",
     "pignon",
     "colonne",
-    "fronton",
-    "fenetre"
+    "porte-bois"
   ],
   "photos": [
     {
-      "id_pic": "image_St-Gervais_4_§1",
+      "id_pic": "St-Gervais_4_§1",
       "IndexJantzen": [
         "fenetre",
         "pignon"
       ]
     },
     {
-      "id_pic": "image_St-Gervais_4_§2",
-      "IndexJantzen": [
-        "fenetre",
-        "fronton",
-        "pignon"
-      ]
-    },
-    {
-      "id_pic": "image_St-Gervais_4_§3",
+      "id_pic": "St-Gervais_4_§2",
       "IndexJantzen": [
         "fenetre",
         "fronton",
@@ -49,14 +41,22 @@
       ]
     },
     {
-      "id_pic": "image_St-Gervais_4_§4",
+      "id_pic": "St-Gervais_4_§3",
+      "IndexJantzen": [
+        "fenetre",
+        "fronton",
+        "pignon"
+      ]
+    },
+    {
+      "id_pic": "St-Gervais_4_§4",
       "IndexJantzen": [
         "colonne",
         "fenetre"
       ]
     },
     {
-      "id_pic": "image_St-Gervais_4_§5-Rs",
+      "id_pic": "St-Gervais_4_§5-Rs",
       "IndexJantzen": [
         "colonne",
         "fronton",
@@ -64,7 +64,7 @@
       ]
     },
     {
-      "id_pic": "image_St-Gervais_4_§6",
+      "id_pic": "St-Gervais_4_§6",
       "IndexJantzen": [
         "porte-bois"
       ]

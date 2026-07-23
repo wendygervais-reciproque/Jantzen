@@ -16,17 +16,17 @@
   "id_pss": null,
   "id_wikidata": "Q109591943",
   "WPfr": null,
-  "image_ref": "image_Louvre-1-Cn_P-Mollien_N-01",
+  "image_ref": "Louvre-1-Cn_P-Mollien_N-01",
   "terme_jantzen_bat": [
-    "sculpture",
-    "cariatide",
     "lucarne",
     "fronton",
-    "fenetre"
+    "fenetre",
+    "sculpture",
+    "cariatide"
   ],
   "photos": [
     {
-      "id_pic": "image_Louvre-1-Cn_P-Mollien_N-01",
+      "id_pic": "Louvre-1-Cn_P-Mollien_N-01",
       "IndexJantzen": [
         "cariatide",
         "fenetre",
@@ -35,7 +35,7 @@
       ]
     },
     {
-      "id_pic": "image_Louvre-1-Cn_P-Mollien_N-02",
+      "id_pic": "Louvre-1-Cn_P-Mollien_N-02",
       "IndexJantzen": [
         "cariatide",
         "fronton",
@@ -44,44 +44,35 @@
       ]
     },
     {
-      "id_pic": "image_Louvre-1-Cn_P-Mollien_N-03",
+      "id_pic": "Louvre-1-Cn_P-Mollien_N-03",
       "IndexJantzen": [
         "cariatide",
         "sculpture"
       ]
     },
     {
-      "id_pic": "image_Louvre-1-Cn_P-Mollien_N-04",
+      "id_pic": "Louvre-1-Cn_P-Mollien_N-04",
       "IndexJantzen": [
         "cariatide",
         "sculpture"
       ]
     },
     {
-      "id_pic": "image_Louvre-1-Cn_P-Mollien_N-05",
+      "id_pic": "Louvre-1-Cn_P-Mollien_N-05",
       "IndexJantzen": [
         "cariatide",
         "sculpture"
       ]
     },
     {
-      "id_pic": "image_Louvre-1-Cn_P-Mollien_N-06",
+      "id_pic": "Louvre-1-Cn_P-Mollien_N-06",
       "IndexJantzen": [
         "cariatide",
         "sculpture"
       ]
     },
     {
-      "id_pic": "image_Louvre-1-Pc_P-Mollien-1",
-      "IndexJantzen": [
-        "cariatide",
-        "fronton",
-        "lucarne",
-        "sculpture"
-      ]
-    },
-    {
-      "id_pic": "image_Louvre-1-Pc_P-Mollien-2",
+      "id_pic": "Louvre-1-Pc_P-Mollien-1",
       "IndexJantzen": [
         "cariatide",
         "fronton",
@@ -90,14 +81,23 @@
       ]
     },
     {
-      "id_pic": "image_Louvre-1-Pc_P-Mollien-3",
+      "id_pic": "Louvre-1-Pc_P-Mollien-2",
+      "IndexJantzen": [
+        "cariatide",
+        "fronton",
+        "lucarne",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "Louvre-1-Pc_P-Mollien-3",
       "IndexJantzen": [
         "fronton",
         "sculpture"
       ]
     },
     {
-      "id_pic": "image_Louvre-1-Pc_P-Mollien-4",
+      "id_pic": "Louvre-1-Pc_P-Mollien-4",
       "IndexJantzen": [
         "cariatide",
         "sculpture"
