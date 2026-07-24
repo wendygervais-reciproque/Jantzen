@@ -22,7 +22,7 @@ async function displayLastPushDate() {
     titleElement.textContent = `Dernier push : ${formattedDate.replace(':', 'h')}`;
   } catch (error) {
     console.error(error);
-    titleElement.textContent = 'Mon Prototype';
+    titleElement.textContent = 'version 24.07 11:51';  // fallback
   }
 }
 
