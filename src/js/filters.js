@@ -255,6 +255,23 @@ function buildTermRow(entry) {
 
   return row;
 }
+/* ─── DYNAMISATION ──────────────────────────────────────────── */
+
+function getFeaturesMatchingOtherFilters() {
+  return ALL_FEATURES.filter(f => {
+    if (activeFilters.arrondissements.size > 0 ){
+      const arr = Number(f.properties.arrondissement);
+      if (!activeFilters.arrondissements.has(arr)) return false;
+    }
+    if (activeFilters.years) {
+      const [a, b] = activeFilters.years;
+      const year = Number(f.properties.annee);
+      if (year < a || year > b) return false;
+    }
+    return true;
+  });
+}
+
 
 /* ─── INFOBULLES DE DÉFINITION ──────────────────────────────────────────── */
 

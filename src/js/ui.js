@@ -86,7 +86,8 @@ function showInfoPanel(data) {
   if (elMeta) {
     const cells = [
       ['Ensemble',            data.ensemble],
-      ['Date de construction', data.dateConstruction],
+      ['Date de construction',data.dateConstruction],
+      ['Periode',             data.periode],
       ['Arrondissement',      data.arrondissement ? ordinalArr(Number(data.arrondissement)) : null],
       ['Wikipédia',           data.WPfr ? `https://fr.wikipedia.org/wiki/${data.WPfr}` : null],
       ['Wikidata',            data.id_wikidata ? `https://www.wikidata.org/wiki/${data.id_wikidata}` : null]
