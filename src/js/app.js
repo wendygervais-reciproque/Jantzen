@@ -164,18 +164,19 @@ function bindKeyboard() {
 /* ─── APPLICATION DES FILTRES ───────────────────────────────────────────── */
 
 function applyFilters() {
-  let features = ALL_FEATURES;
+  let filteredFeatures = ALL_FEATURES;
 
   // 1. Recherche textuelle (Lunr)
   if (searchQuery.length >= 2) {
     const ids = lunrSearch(searchQuery);
-    // Comparaison souple (String/Number) pour id_bat
-    features = features.filter(f => ids.has(String(f.properties.id_bat)) || ids.has(Number(f.properties.id_bat)));
+    filteredFeatures = filteredFeatures.filter(f => 
+      ids.has(String(f.properties.id_bat)) || ids.has(Number(f.properties.id_bat))
+    );
   }
 
   // 2. Filtre arrondissement
   if (activeFilters.arrondissements.size > 0) {
-    features = features.filter(f =>
+    filteredFeatures = filteredFeatures.filter(f =>
       activeFilters.arrondissements.has(Number(f.properties.arrondissement))
     );
   }
@@ -183,20 +184,34 @@ function applyFilters() {
   // 3. Filtre temporel — intersection avec l'intervalle de construction
   if (activeFilters.years) {
     const [from, to] = activeFilters.years;
-    features = features.filter(f => matchesYearRange(f.properties, from, to));
+    filteredFeatures = filteredFeatures.filter(f => matchesYearRange(f.properties, from, to));
   }
 
-  // 4. Filtre thésaurus (Index Jantzen) — au moins un terme coché en commun
+  // 4. Filtre thésaurus (Index Jantzen)
   if (activeFilters.thesaurus.size > 0) {
-    features = features.filter(f =>
-      (f.properties.terme_jantzen_bat || []).some(term => activeFilters.thesaurus.has(term))
-    );
+    const selectedTerms = Array.from(activeFilters.thesaurus).map(t => normalizeText(t));
+
+    filteredFeatures = filteredFeatures.filter(f => {
+      const rawTerms = f.properties.terme_jantzen_bat;
+      const batTermsArray = Array.isArray(rawTerms) ? rawTerms : [];
+      
+      // Normalisation des termes du bâtiment
+      const batTermsNormalized = batTermsArray.map(t => normalizeText(t));
+
+      // Vérifie si au moins un terme sélectionné est présent
+      return selectedTerms.every(term => batTermsNormalized.includes(term));
+    });
   }
 
-  renderCurrentView(features);
+  // Mise à jour de l'UI du thésaurus (compteurs) basée sur les données filtrées
+  updateThesaurusData(filteredFeatures);
+  const thesSearchVal = document.getElementById('thesaurus-search')?.value || '';
+  renderThesaurusGroups(thesSearchVal);
+
+  // Rendu final de la vue et des tags
+  renderCurrentView(filteredFeatures);
   renderActiveTags();
 }
-
 
 /* ─── ROUTAGE URL (/batiment/:id) ───────────────────────────────────────── */
 

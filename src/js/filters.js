@@ -180,7 +180,13 @@ function renderThesaurusGroups(query) {
   if (!host) return;
 
   const q = normalizeTerm(query);
-  const matching = q ? THES_TERMS.filter(t => normalizeTerm(t.term).includes(q)) : THES_TERMS;
+  const matching = THES_TERMS.filter(t => {
+    // MODIFICATION ICI : On n'affiche le terme que s'il a au moins 1 résultat (t.count > 0)
+    // OU s'il est déjà sélectionné (pour pouvoir le décocher si besoin)
+    const isVisible = t.count > 0 || activeFilters.thesaurus.has(t.term);
+    const matchesQuery = q ? normalizeTerm(t.term).includes(q) : true;
+    return isVisible && matchesQuery;
+  });
 
   host.innerHTML = '';
   if (empty) empty.hidden = matching.length > 0;
@@ -257,22 +263,28 @@ function buildTermRow(entry) {
 }
 /* ─── DYNAMISATION ──────────────────────────────────────────── */
 
-function getFeaturesMatchingOtherFilters() {
-  return ALL_FEATURES.filter(f => {
-    if (activeFilters.arrondissements.size > 0 ){
-      const arr = Number(f.properties.arrondissement);
-      if (!activeFilters.arrondissements.has(arr)) return false;
-    }
-    if (activeFilters.years) {
-      const [a, b] = activeFilters.years;
-      const year = Number(f.properties.annee);
-      if (year < a || year > b) return false;
-    }
-    return true;
+function updateThesaurusData(featuresActuelles) {
+  const counts = new Map();
+
+  featuresActuelles.forEach(f => {
+    const rawTerms = f.properties.terme_jantzen_bat;
+    const termsArray = Array.isArray(rawTerms) ? rawTerms : [];
+
+    termsArray.forEach(t => {
+      // Normalisation du terme brut venant du GeoJSON
+      const normalizedTerm = normalizeText(t);
+      if (normalizedTerm) {
+        counts.set(normalizedTerm, (counts.get(normalizedTerm) || 0) + 1);
+      }
+    });
+  });
+
+  // Mise à jour des compteurs dans THES_TERMS en comparant les termes normalisés
+  THES_TERMS.forEach(item => {
+    const normItemTerm = normalizeText(item.term);
+    item.count = counts.get(normItemTerm) || 0;
   });
 }
-
-
 /* ─── INFOBULLES DE DÉFINITION ──────────────────────────────────────────── */
 
 /*
