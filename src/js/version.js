@@ -7,7 +7,7 @@ async function displayLastPushDate() {
     
     // Si version.json n'existe pas encore (ex: en local)
     if (!response.ok) {
-      titleElement.textContent = "Version locale (Dev)";
+      titleElement.textContent = "Version 24/07 12:00";  // Valeur par défaut
       return;
     }
 
