@@ -4,7 +4,7 @@
  */
 
 // 💡 Si tes fichiers sont servis depuis public/data/ ou data/, ajuste ici si besoin
-const DATA_BASE  = 'public/data';
+const DATA_BASE  = '/public/data';
 const PHOTO_BASE = `${DATA_BASE}/photos_jpg`;
 
 let THESAURUS    = [];   // index allégé : [{t: terme, c: cluster, u: URL, s: source}]
@@ -153,7 +153,7 @@ function getBatiment(id_bat) {
   const key = String(id_bat);
   if (!batimentCache.has(key)) {
     batimentCache.set(key, (async () => {
-      for (const name of [`id_batt_${key}`, `id_bat_${key}`]) {
+      for (const name of [`id_bat_${key}`, `id_bat_${key}`]) {
         const res = await fetch(`${DATA_BASE}/batiments/${name}.json`);
         if (res.ok) return res.json();
       }
@@ -164,6 +164,47 @@ function getBatiment(id_bat) {
     }));
   }
   return batimentCache.get(key);
+}
+
+/* ─── FICHES PERSONNE (architectes, chargement mutualisé) ───────────────── */
+
+const personneCache = new Map();   // id_archi → Promise<fiche>
+
+function getPersonne(id_archi) {
+  const key = String(id_archi);
+  if (!personneCache.has(key)) {
+    personneCache.set(key, fetch(`${DATA_BASE}/personnes/id_archi_${key}.json`)
+      .then(r => {
+        if (!r.ok) throw new Error(`Fiche de la personne ${key} introuvable`);
+        return r.json();
+      })
+      .catch(err => {
+        personneCache.delete(key);   // un échec ne doit pas être mémorisé
+        throw err;
+      }));
+  }
+  return personneCache.get(key);
+}
+
+const WIKIMEDIA_COMMONS = 'https://upload.wikimedia.org/wikipedia/commons';
+
+/** Vignette (250px) d'une personne, à partir de sa propriété `thumb`. */
+function personneThumbUrl(thumb) {
+  return thumb ? `${WIKIMEDIA_COMMONS}/thumb/${thumb}` : null;
+}
+
+/**
+ * Image en taille d'origine.
+ *
+ * `thumb` a la forme `{hash1}/{hash2}/{fichier}/{taille}px-{fichier}` : le
+ * préfixe de hachage Wikimedia, propre à chaque fichier, n'est stocké nulle
+ * part ailleurs (la propriété `media` ne le contient pas). On le récupère en
+ * ne gardant que les trois premiers segments de `thumb`.
+ */
+function personneFullImageUrl(thumb) {
+  if (!thumb) return null;
+  const parts = thumb.split('/').slice(0, 3);
+  return parts.length === 3 ? `${WIKIMEDIA_COMMONS}/${parts.join('/')}` : null;
 }
 
 /** Bascule .jpg → .JPG sur une image dont le chargement a échoué. Renvoie false si déjà tenté. */

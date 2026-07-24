@@ -51,9 +51,7 @@ function setView(view) {
 function updateResultsCount(features) {
   const count = document.getElementById('search-results-count');
   if (!count) return;
-  count.textContent = features.length === ALL_FEATURES.length
-    ? ''
-    : `${features.length} résultat${features.length > 1 ? 's' : ''}`;
+  count.textContent = `${features.length} résultat${features.length > 1 ? 's' : ''}`;
 }
 
 function updateStageEmpty(features) {

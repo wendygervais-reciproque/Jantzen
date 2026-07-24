@@ -686,6 +686,32 @@ button { font-family: inherit; }
   text-transform: uppercase;
   color: var(--text-secondary);
 }
+/* ─── PERSONNES LIÉES (architectes) ─────────────────────────────────────── */
+.info-personnes { display: flex; flex-direction: column; gap: var(--component-gap-12); }
+.person-card { display: flex; gap: var(--component-gap-8); align-items: flex-start; }
+.person-thumb {
+  flex: none;
+  width: 48px; height: 48px;
+  padding: 0;
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-element);
+  overflow: hidden;
+  background: var(--surface-level-02);
+  cursor: pointer;
+}
+.person-thumb:hover { border-color: var(--border-strong); }
+.person-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.person-info { display: flex; flex-direction: column; gap: 1px; min-width: 0; }
+.person-name { font-size: var(--text-body-small-size); color: var(--text-primary); }
+.person-role { font-size: var(--text-interface-caption-size); color: var(--text-secondary); }
+.person-links {
+  margin-top: var(--component-gap-4);
+  font-size: var(--text-interface-caption-size);
+  color: var(--text-secondary);
+}
+.person-links a { color: var(--link-text-default); text-underline-offset: 2px; }
+.person-links a:hover { color: var(--link-text-hover); }
+
 .info-elements { display: flex; flex-wrap: wrap; gap: var(--component-gap-4); }
 .info-element-tag {
   padding: 2px var(--component-padding-8);
