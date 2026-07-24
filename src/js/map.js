@@ -14,8 +14,8 @@ const markerMap = {};     // id_bat → marker Leaflet (vue bâtiments)
 let currentFeatures = []; // features actuellement affichées (après filtres)
 let currentMode = null;   // 'arr' | 'buildings'
 
-const ARR_ZOOM_THRESHOLD = 13; // zoom < seuil → vue arrondissements
-const MAX_ZOOM = 19;
+const ARR_ZOOM_THRESHOLD = 14; // zoom < seuil → vue arrondissements
+const MAX_ZOOM = 16;
 
 /* ─── DIMENSIONNEMENT DES GRAPPES ───────────────────────────────────────── */
 
@@ -79,8 +79,8 @@ function buildClusterIcon(cluster) {
 }
 
 function initMap() {
-  map = L.map('map', { zoomControl: false, minZoom: 11, maxZoom: 19 })
-    .setView([48.858, 2.342], 12);
+  map = L.map('map', { zoomControl: false, minZoom: 13, maxZoom: 20 })
+    .setView([48.858, 2.342], 13);
 
   L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
     attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> © <a href="https://carto.com/attributions">CARTO</a>',

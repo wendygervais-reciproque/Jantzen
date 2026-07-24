@@ -89,18 +89,32 @@ function showInfoPanel(data) {
       : (adresse || '');
   }
 
+
+
   if (elMeta) {
     const cells = [
       ['Ensemble',            data.ensemble],
-      ['Date de construction', data.dateConstruction],
-      ['Arrondissement',      data.arrondissement ? ordinalArr(Number(data.arrondissement)) : null]
+      ['Date de construction',data.dateConstruction],
+      ['Periode',             data.periode],
+      ['Arrondissement',      data.arrondissement ? ordinalArr(Number(data.arrondissement)) : null],
+      ['Wikipédia',           data.WPfr ? `https://fr.wikipedia.org/wiki/${data.WPfr}` : null],
+      ['Wikidata',            data.id_wikidata ? `https://www.wikidata.org/wiki/${data.id_wikidata}` : null]
     ].filter(([, value]) => value);
 
-    elMeta.innerHTML = cells.map(([label, value]) => `
-      <div class="info-meta-cell">
-        <span class="info-meta-label">${label}</span>
-        <span class="info-meta-value">${value}</span>
-      </div>`).join('');
+    elMeta.innerHTML = cells.map(([label, value]) => {
+      // Si la valeur commence par "http", on crée un lien cliquable
+      const isUrl = typeof value === 'string' && value.startsWith('http');
+      
+      const content = isUrl
+        ? `<a href="${value}" target="_blank" rel="noopener noreferrer">${value}</a>`
+        : value;
+
+      return `
+        <div class="info-meta-cell">
+          <span class="info-meta-label">${label}</span>
+          <span class="info-meta-value">${content}</span>
+        </div>`;
+    }).join('');
   }
 
   renderInfoElements(data.terme_jantzen_bat || []);

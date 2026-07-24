@@ -853,6 +853,18 @@ button { font-family: inherit; }
   color: var(--tag-text-hover);
 }
 
+.info-meta-value a {
+  color: inherit;
+  text-decoration: none;
+  word-break: break-all; /* Évite que l'URL ne dépasse de la grille */
+}
+
+/* Léger soulignement discret au survol pour indiquer qu'il est cliquable */
+.info-meta-value a:hover {
+  text-decoration: underline;
+}
+
+
 /* ─── CARROUSEL ──────────────────────────────────────────────────────────── */
 #carousel {
   left: 50%; transform: translateX(-50%);
@@ -1098,6 +1110,7 @@ button { font-family: inherit; }
 }
 #footer-links a:hover { color: var(--text-primary); }
 #footer-links span { background: var(--bg-page-ghost); padding: 3px 0; }
+
 
 /* ─── PAGES STATIQUES ────────────────────────────────────────────────────── */
 #page-overlay {
