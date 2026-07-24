@@ -30,6 +30,11 @@ document.addEventListener('DOMContentLoaded', async () => {
   bindFiltersPanel();
   bindCarousel();
   bindKeyboard();
+
+  // ── Routage URL ────────────────────────────────────────────────────────
+wireUrlRouting();
+  const initialId = getIdFromPath(window.location.pathname);
+  if (initialId) selectBatiment(initialId); // ← pas applyRouteFromUrl
 });
 
 /* ─── RECHERCHE ─────────────────────────────────────────────────────────── */
@@ -190,4 +195,49 @@ function applyFilters() {
 
   renderCurrentView(features);
   renderActiveTags();
+}
+
+
+/* ─── ROUTAGE URL (/batiment/:id) ───────────────────────────────────────── */
+
+const ROUTE_BASE = '/batiment/';
+let suppressUrlSync = false; // évite de re-pousser l'URL pendant un popstate
+
+function getIdFromPath(path) {
+  const m = path.match(/\/batiment\/([^/?#]+)/);
+  return m ? decodeURIComponent(m[1]) : null;
+}
+
+function pathForId(id) {
+  return id != null ? `${ROUTE_BASE}${encodeURIComponent(id)}` : '/';
+}
+
+function syncUrlForSelection(id) {
+  if (suppressUrlSync) return;
+  const target = pathForId(id);
+  if (target === window.location.pathname) return;
+  history.pushState({ id_bat: id }, '', target);
+}
+
+function wireUrlRouting() {
+  const originalSelect   = selectBatiment;
+  const originalDeselect = deselectBatiment;
+  window.selectBatiment = function (id_bat, options) {
+    originalSelect(id_bat, options);
+    syncUrlForSelection(id_bat);
+  };
+  window.deselectBatiment = function () {
+    originalDeselect();
+    syncUrlForSelection(null);
+  };
+  window.addEventListener('popstate', () => {
+    const id = getIdFromPath(window.location.pathname);
+    suppressUrlSync = true;
+    try {
+      if (id) selectBatiment(id);
+      else deselectBatiment();
+    } finally {
+      suppressUrlSync = false;
+    }
+  });
 }

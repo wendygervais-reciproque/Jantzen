@@ -22,11 +22,10 @@ function selectBatiment(id_bat, options = {}) {
     el.classList.toggle('is-active', String(el.dataset.id) === String(id_bat));
   });
 
-  if (currentView === 'map') {
-    if (typeof flyToFeature === 'function')   flyToFeature(id_bat);
-    if (typeof openMarkerPopup === 'function') openMarkerPopup(id_bat);
-  }
-
+if (currentView === 'map') {
+  if (typeof flyToFeature === 'function') flyToFeature(id_bat);
+  // openMarkerPopup(id_bat) devient inutile — géré par le callback de zoomToShowLayer
+}
   loadDetailAndShow(id_bat, options);
 }
 
