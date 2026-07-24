@@ -10,6 +10,7 @@
 let carouselPhotos = [];        // toutes les photos du bâtiment courant
 let carouselFilter = new Set(); // termes sélectionnés dans le multiselect
 let carouselIndex  = 0;         // index dans la liste filtrée
+let lightboxPerson = null;      // {src, caption} — mode « portrait isolé », sans navigation
 
 const CAROUSEL_DEPTH = 2;       // nombre de vignettes visibles de chaque côté
 
@@ -174,6 +175,7 @@ function goToPhoto(index) {
 }
 
 function stepPhoto(delta) {
+  if (lightboxPerson) return;   // portrait isolé : pas de navigation
   goToPhoto(carouselIndex + delta);
 }
 
@@ -270,6 +272,21 @@ function isLightboxOpen() {
 function openLightbox() {
   const box = document.getElementById('lightbox');
   if (!box || visiblePhotos().length === 0) return;
+  lightboxPerson = null;
+  box.hidden = false;
+  renderLightbox();
+  document.getElementById('lightbox-close')?.focus();
+}
+
+/**
+ * Ouvre la visionneuse sur une image isolée (portrait d'une personne liée au
+ * bâtiment) : même interface que le carrousel, sans navigation puisqu'il n'y
+ * a qu'une seule image.
+ */
+function openPersonLightbox(src, caption) {
+  const box = document.getElementById('lightbox');
+  if (!box || !src) return;
+  lightboxPerson = { src, caption };
   box.hidden = false;
   renderLightbox();
   document.getElementById('lightbox-close')?.focus();
@@ -278,16 +295,28 @@ function openLightbox() {
 function closeLightbox() {
   const box = document.getElementById('lightbox');
   if (box) box.hidden = true;
+  lightboxPerson = null;
 }
 
 function renderLightbox() {
-  const photos  = visiblePhotos();
-  const photo   = photos[carouselIndex];
   const img     = document.getElementById('lightbox-img');
   const caption = document.getElementById('lightbox-caption');
   const prev    = document.getElementById('lightbox-prev');
   const next    = document.getElementById('lightbox-next');
-  if (!photo || !img) return;
+  if (!img) return;
+
+  if (lightboxPerson) {
+    img.src = lightboxPerson.src;
+    img.onerror = null;
+    if (caption) caption.textContent = lightboxPerson.caption || '';
+    if (prev) prev.disabled = true;
+    if (next) next.disabled = true;
+    return;
+  }
+
+  const photos = visiblePhotos();
+  const photo  = photos[carouselIndex];
+  if (!photo) return;
 
   img.src = photoUrl(photo.id_pic);
   img.onerror = function () { retryUppercaseJpg(this); };
