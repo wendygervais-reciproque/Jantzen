@@ -4,7 +4,7 @@ async function displayLastPushDate() {
 
   try {
     // On lit le fichier local généré par GitHub Actions
-    const response = await fetch('.src/js/version.json');
+    const response = await fetch('./src/js/version.json');
     if (!response.ok) throw new Error('Fichier version.json introuvable');
 
     const data = await response.json();
