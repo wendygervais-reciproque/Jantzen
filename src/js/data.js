@@ -7,10 +7,12 @@
 const DATA_BASE  = 'public/data';
 const PHOTO_BASE = `${DATA_BASE}/photos_jpg`;
 
-let THESAURUS    = [];   // [{id, nom}, ...] ou liste simple
+let THESAURUS    = [];   // index allégé : [{t: terme, c: cluster, u: URL, s: source}]
 let RAW_GEOJSON  = null; // FeatureCollection complète
 let ALL_FEATURES = [];   // features[] — source de vérité pour les filtres
 let ARR_POLYGONS = null; // FeatureCollection des 20 arrondissements (tracés officiels)
+let DATE_RANGE   = [1180, 1944]; // amplitude réelle, recalculée au chargement
+let PHOTO_RANGE  = [1, 104];     // nb de photos min/max par bâtiment, idem
 
 /* ─── CENTROÏDES DES ARRONDISSEMENTS PARISIENS (WGS-84) ─────────────────── */
 const ARR_CENTROIDS = [
@@ -74,13 +76,14 @@ function assignArrondissement(lng, lat) {
 
 async function loadData() {
   try {
-    const [thesaurusData, geojsonData, arrData] = await Promise.all([
-      fetch(`${DATA_BASE}/theseaurus_torneh.json`).then(r => r.ok ? r.json() : []).catch(() => []),
+    const [thesaurusData, geojsonData, arrData, datesData] = await Promise.all([
+      fetch(`${DATA_BASE}/thesaurus_index.json`).then(r => r.ok ? r.json() : []).catch(() => []),
       fetch(`${DATA_BASE}/map_poi.geojson`).then(r => {
         if (!r.ok) throw new Error(`HTTP ${r.status} : Impossible de charger ${DATA_BASE}/map_poi.geojson`);
         return r.json();
       }),
-      fetch(`${DATA_BASE}/arrondissements.geojson`).then(r => r.ok ? r.json() : null).catch(() => null)
+      fetch(`${DATA_BASE}/arrondissements.geojson`).then(r => r.ok ? r.json() : null).catch(() => null),
+      fetch(`${DATA_BASE}/batiments_index.json`).then(r => r.ok ? r.json() : {}).catch(() => ({}))
     ]);
 
     THESAURUS    = thesaurusData;
@@ -103,12 +106,14 @@ async function loadData() {
       });
 
       // Filtrage de sécurité : on ne conserve que les points valides
-      ALL_FEATURES = geojsonData.features.filter(f => 
-        f.geometry && 
-        Array.isArray(f.geometry.coordinates) && 
-        !isNaN(f.geometry.coordinates[0]) && 
+      ALL_FEATURES = geojsonData.features.filter(f =>
+        f.geometry &&
+        Array.isArray(f.geometry.coordinates) &&
+        !isNaN(f.geometry.coordinates[0]) &&
         !isNaN(f.geometry.coordinates[1])
       );
+
+      attachBuildingIndex(datesData);
     }
 
     console.log(`🎉 SUCCÈS ! ${ALL_FEATURES.length} bâtiments valides chargés dans la carte.`);
@@ -174,7 +179,116 @@ function capitalize(str) {
 }
 
 function getThesaurusName(id) {
-  if (!THESAURUS || !Array.isArray(THESAURUS)) return id;
-  const term = THESAURUS.find(t => t.id === id || t.nom === id);
-  return term ? term.nom : id;
+  return id;   // les termes Jantzen sont stockés en clair, pas par identifiant
+}
+
+/* ─── INDEX DES BÂTIMENTS (dates + volumétrie) ──────────────────────────── */
+
+/**
+ * Reporte sur chaque feature l'intervalle de construction et le nombre de
+ * photographies issus de batiments_index.json, puis recalcule les amplitudes.
+ *
+ * Ni les dates ni la volumétrie ne figurent dans map_poi.geojson : cet index
+ * évite de charger les 1 574 fiches individuelles pour filtrer par temporalité
+ * et dimensionner les points. Voir tools/build_indexes.py.
+ */
+function attachBuildingIndex(indexData) {
+  let minY = Infinity, maxY = -Infinity;
+  let minN = Infinity, maxN = -Infinity;
+
+  ALL_FEATURES.forEach(f => {
+    const entry = indexData[String(f.properties.id_bat)];
+    if (!entry) return;
+
+    if (Array.isArray(entry.y)) {
+      f.properties.annees = entry.y;
+      if (entry.y[0] < minY) minY = entry.y[0];
+      if (entry.y[1] > maxY) maxY = entry.y[1];
+    }
+
+    const n = Number(entry.n) || 0;
+    f.properties.nbPhotos = n;
+    if (n < minN) minN = n;
+    if (n > maxN) maxN = n;
+  });
+
+  if (Number.isFinite(minY) && Number.isFinite(maxY)) DATE_RANGE  = [minY, maxY];
+  if (Number.isFinite(minN) && Number.isFinite(maxN)) PHOTO_RANGE = [minN, maxN];
+}
+
+/** Un bâtiment est retenu si son intervalle de construction croise la période demandée. */
+function matchesYearRange(properties, from, to) {
+  const span = properties.annees;
+  if (!span) return false;             // non daté : exclu dès que la période est restreinte
+  return span[0] <= to && span[1] >= from;
+}
+
+/* ─── THÉSAURUS ─────────────────────────────────────────────────────────── */
+
+/** Clé de rapprochement tolérante : casse, accents, traits d'union, apostrophes. */
+function normalizeTerm(term) {
+  return String(term || '')
+    .toLowerCase()
+    .normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+    .replace(/['’\-\s]+/g, ' ')
+    .trim();
+}
+
+/** Métadonnées légères (cluster, URL, source) d'un terme, ou null. */
+function getTermMeta(term) {
+  const key = normalizeTerm(term);
+  return THESAURUS.find(t => normalizeTerm(t.t) === key) || null;
+}
+
+// Le fichier complet (60 Ko, définitions FR et EN) n'est chargé qu'à la
+// première infobulle consultée — l'index de 9,5 Ko suffit à bâtir les filtres.
+let thesaurusFullPromise = null;
+
+function loadThesaurusFull() {
+  if (!thesaurusFullPromise) {
+    thesaurusFullPromise = fetch(`${DATA_BASE}/thesaurus_jantzen.json`)
+      .then(r => r.ok ? r.json() : [])
+      .catch(() => []);
+  }
+  return thesaurusFullPromise;
+}
+
+/** Libellé lisible d'une référence, déduit de son domaine. */
+const REFERENCE_LABELS = {
+  'fr.wikipedia.org': 'Wikipédia',
+  'data.culture.fr':  'Thésaurus du ministère de la Culture'
+};
+
+function referenceLabel(href) {
+  try {
+    const host = new URL(href).hostname;
+    return REFERENCE_LABELS[host] || host;
+  } catch {
+    return 'la page de référence';
+  }
+}
+
+/**
+ * Définition d'un terme, chargée à la demande.
+ *
+ * `Definition_fr` et `URL` agrègent plusieurs valeurs séparées par « | » :
+ * 30 termes ont deux définitions, 25 pointent à la fois vers Wikipédia et vers
+ * le thésaurus du ministère de la Culture. On les rend donc séparément.
+ *
+ * @returns {Promise<{terme, definitions: string[], references: {href,label}[], source} | null>}
+ */
+async function getTermDefinition(term) {
+  const key   = normalizeTerm(term);
+  const full  = await loadThesaurusFull();
+  const entry = full.find(t => normalizeTerm(t.Term_TMS) === key);
+  if (!entry) return null;
+
+  const split = value => String(value || '').split('|').map(s => s.trim()).filter(Boolean);
+
+  return {
+    terme:       entry.Term_TMS,
+    definitions: split(entry.Definition_fr),
+    references:  split(entry.URL).map(href => ({ href, label: referenceLabel(href) })),
+    source:      entry.source || ''
+  };
 }

@@ -57,21 +57,22 @@ function closeCarousel() {
 /* ─── RENDU DU COVERFLOW ────────────────────────────────────────────────── */
 
 function renderCarousel() {
-  const stage = document.getElementById('carousel-stage');
-  if (!stage) return;
+  const track = document.getElementById('carousel-track');
+  if (!track) return;
 
   const photos = visiblePhotos();
   carouselIndex = Math.max(0, Math.min(carouselIndex, photos.length - 1));
 
-  stage.innerHTML = '';
+  track.innerHTML = '';
 
   if (photos.length === 0) {
-    stage.innerHTML = '<p class="carousel-empty">Aucune photo pour cette sélection.</p>';
+    track.innerHTML = '<p class="carousel-empty">Aucune photo pour cette sélection.</p>';
   } else {
     for (let offset = -CAROUSEL_DEPTH; offset <= CAROUSEL_DEPTH; offset++) {
-      stage.appendChild(buildSlide(photos, carouselIndex + offset, offset));
+      track.appendChild(buildSlide(photos, carouselIndex + offset, offset));
     }
   }
+  centerCarouselTrack();
 
   const counter = document.getElementById('carousel-counter');
   if (counter) {
@@ -110,15 +111,23 @@ function buildSlide(photos, index, offset) {
     slide.setAttribute('aria-current', 'true');
   }
 
+  // Largeur nominale jusqu'au chargement : le ratio, donc la largeur de la
+  // vue, n'est connu qu'une fois l'image décodée.
+  slide.classList.add('is-loading');
+
   // Pas de `loading="lazy"` : les vues sont construites pendant que la section
   // est encore masquée, le chargement différé ne se déclencherait jamais.
   const img = document.createElement('img');
   img.decoding = 'async';
   img.alt = terms || '';
   img.src = src;
+  img.onload = () => {
+    slide.classList.remove('is-loading');
+    centerCarouselTrack();   // la largeur vient de changer
+  };
   img.onerror = function () {
     if (retryUppercaseJpg(this)) return;
-    slide.classList.add('is-broken');
+    slide.classList.add('is-broken');   // `is-loading` conservé : largeur nominale
     this.remove();
   };
   slide.appendChild(img);
@@ -129,6 +138,30 @@ function buildSlide(photos, index, offset) {
     else goToPhoto(index);
   };
   return slide;
+}
+
+/**
+ * Amène la vue active au centre de la scène.
+ *
+ * Les largeurs varient d'une photo à l'autre puisque le ratio est préservé :
+ * centrer la rangée entière laisserait l'image courante décalée dès que ses
+ * voisines n'ont pas la même largeur.
+ */
+function centerCarouselTrack() {
+  const stage   = document.getElementById('carousel-stage');
+  const current = stage?.querySelector('.is-current');
+  if (!stage) return;
+  if (!current) { stage.scrollLeft = 0; return; }
+
+  // Correction incrémentale à partir des positions réellement rendues : exacte
+  // quelles que soient les marges intérieures du rail et les conventions
+  // d'`offsetLeft`, qui se mesure depuis le bord intérieur du parent.
+  const stageRect = stage.getBoundingClientRect();
+  const slideRect = current.getBoundingClientRect();
+  const delta = (slideRect.left + slideRect.width  / 2)
+              - (stageRect.left + stageRect.width / 2);
+
+  stage.scrollLeft += delta;
 }
 
 /* ─── NAVIGATION ────────────────────────────────────────────────────────── */

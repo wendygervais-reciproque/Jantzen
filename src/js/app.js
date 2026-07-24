@@ -20,6 +20,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   initMap();
   buildLunrIndex();
   buildArrChips();
+  buildDateFilter();
   buildThesaurusFilter();
   renderCurrentView(ALL_FEATURES);
 
@@ -139,6 +140,7 @@ function bindKeyboard() {
     if (e.key === 'Escape') {
       if (isLightboxOpen())                                  return closeLightbox();
       if (!document.getElementById('elem-select-menu')?.hidden) return closeElementMenu();
+      if (document.querySelector('.thes-def'))                return closeAllTermDefinitions();
       if (isPageOpen())                                      return closePage();
       if (selectedId !== null)                               return deselectBatiment();
       return;
@@ -173,7 +175,13 @@ function applyFilters() {
     );
   }
 
-  // 3. Filtre thésaurus (Index Jantzen) — au moins un terme coché en commun
+  // 3. Filtre temporel — intersection avec l'intervalle de construction
+  if (activeFilters.years) {
+    const [from, to] = activeFilters.years;
+    features = features.filter(f => matchesYearRange(f.properties, from, to));
+  }
+
+  // 4. Filtre thésaurus (Index Jantzen) — au moins un terme coché en commun
   if (activeFilters.thesaurus.size > 0) {
     features = features.filter(f =>
       (f.properties.terme_jantzen_bat || []).some(term => activeFilters.thesaurus.has(term))

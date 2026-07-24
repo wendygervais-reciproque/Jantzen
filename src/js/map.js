@@ -17,6 +17,67 @@ let currentMode = null;   // 'arr' | 'buildings'
 const ARR_ZOOM_THRESHOLD = 13; // zoom < seuil → vue arrondissements
 const MAX_ZOOM = 19;
 
+/* ─── DIMENSIONNEMENT DES GRAPPES ───────────────────────────────────────── */
+
+/*
+ * ⚙️ RÉGLAGES — diamètre des grappes (clusters), en pixels.
+ *
+ * Une grappe de CLUSTER_COUNT_MIN objets prend CLUSTER_SIZE_MIN ; une grappe de
+ * CLUSTER_COUNT_MAX objets ou plus prend CLUSTER_SIZE_MAX. Entre les deux, la
+ * taille suit CLUSTER_SIZE_SCALE.
+ *
+ * CLUSTER_COUNT_MAX est calé sur la grappe la plus fournie du corpus, observée
+ * à 252 objets en vue ville ; au-delà, le diamètre est plafonné.
+ */
+const CLUSTER_SIZE_MIN  = 32;
+const CLUSTER_SIZE_MAX  = 64;
+const CLUSTER_COUNT_MIN = 2;
+const CLUSTER_COUNT_MAX = 260;
+
+/*
+ * Répartition entre les deux bornes de taille :
+ *   'sqrt'   aire du disque proportionnelle au nombre d'objets — la lecture
+ *            cartographique honnête, et la valeur par défaut ;
+ *   'log'    écarte davantage les petites valeurs, si les grappes courantes
+ *            paraissent toutes identiques ;
+ *   'linear' proportionnel au diamètre — exagère fortement les grosses grappes.
+ */
+const CLUSTER_SIZE_SCALE = 'sqrt';
+
+/** Diamètre en pixels d'une grappe de `count` objets. */
+function clusterSize(count) {
+  if (!(CLUSTER_COUNT_MAX > CLUSTER_COUNT_MIN)) return CLUSTER_SIZE_MAX;
+
+  const value = Math.min(CLUSTER_COUNT_MAX, Math.max(CLUSTER_COUNT_MIN, Number(count) || CLUSTER_COUNT_MIN));
+  let t;
+
+  if (CLUSTER_SIZE_SCALE === 'linear') {
+    t = (value - CLUSTER_COUNT_MIN) / (CLUSTER_COUNT_MAX - CLUSTER_COUNT_MIN);
+  } else if (CLUSTER_SIZE_SCALE === 'log') {
+    // log1p plutôt que log : reste défini si une borne descend à zéro.
+    t = (Math.log1p(value) - Math.log1p(CLUSTER_COUNT_MIN)) /
+        (Math.log1p(CLUSTER_COUNT_MAX) - Math.log1p(CLUSTER_COUNT_MIN));
+  } else {
+    t = (Math.sqrt(value) - Math.sqrt(CLUSTER_COUNT_MIN)) /
+        (Math.sqrt(CLUSTER_COUNT_MAX) - Math.sqrt(CLUSTER_COUNT_MIN));
+  }
+
+  return Math.round(CLUSTER_SIZE_MIN + t * (CLUSTER_SIZE_MAX - CLUSTER_SIZE_MIN));
+}
+
+function buildClusterIcon(cluster) {
+  const count = cluster.getChildCount();
+  const size  = clusterSize(count);
+
+  // Le corps de texte est fixé en CSS : seul le disque varie.
+  return L.divIcon({
+    className: 'cluster-marker',
+    html: `<div class="cluster-dot" style="width:${size}px;height:${size}px">${count}</div>`,
+    iconSize:   L.point(size, size),
+    iconAnchor: L.point(size / 2, size / 2)
+  });
+}
+
 function initMap() {
   map = L.map('map', { zoomControl: false, minZoom: 11, maxZoom: 19 })
     .setView([48.858, 2.342], 12);
@@ -32,6 +93,10 @@ function initMap() {
   clusterGroup = L.markerClusterGroup({
     chunkedLoading: true,
     spiderfyOnMaxZoom: true,
+    iconCreateFunction: buildClusterIcon,
+    // Emprise affichée au survol : stylée en CSS pour rester sur les jetons
+    // de couleur plutôt que sur des valeurs en dur.
+    polygonOptions: { className: 'cluster-coverage' },
     maxClusterRadius: zoom => {
       if (zoom >= MAX_ZOOM) return 1;
       if (zoom <= 13) return 130;

@@ -235,6 +235,35 @@ button { font-family: inherit; }
 .marker-poi:hover  { transform: scale(1.25); }
 .marker-poi.active { transform: scale(1.4); }
 
+/* Grappes : disque noir plein, diamètre posé en ligne par map.js selon le
+   nombre d'objets contenus (voir CLUSTER_SIZE_MIN / CLUSTER_SIZE_MAX).
+   Le corps de texte, lui, reste fixe : proportionnel au disque, il devenait
+   illisible sur les petites grappes. */
+.cluster-marker { background: none; border: none; }
+.cluster-dot {
+  display: flex; align-items: center; justify-content: center;
+  border-radius: 50%;
+  background: var(--icon-primary);
+  color: var(--text-on-inverse);
+  font-family: var(--font-sans);
+  font-size: var(--text-body-small-size);
+  font-weight: var(--fw-700);
+  line-height: var(--lh-1);
+  font-variant-numeric: tabular-nums;
+  cursor: pointer;
+  transition: transform 0.12s ease;
+}
+.cluster-dot:hover { transform: scale(1.1); }
+
+/* Emprise de la grappe au survol — doré Orsay (brand/600). */
+.cluster-coverage {
+  fill: var(--background-brand-primary);
+  fill-opacity: 0.15;
+  stroke: var(--background-brand-primary);
+  stroke-width: 1.5;
+  stroke-opacity: 0.9;
+}
+
 .arr-polygon {
   fill: var(--background-brand-primary);
   fill-opacity: 0.06;
@@ -397,6 +426,204 @@ button { font-family: inherit; }
 .chip:hover { background: var(--tag-background-hover); border-color: var(--tag-border-hover); color: var(--tag-text-hover); }
 .chip.active { background: var(--tag-background-selected); color: var(--tag-text-selected); border-color: var(--tag-border-selected); }
 
+.filter-linkbtn {
+  background: none; border: none; cursor: pointer;
+  padding: 0;
+  font-size: var(--text-interface-caption-size);
+  color: var(--text-secondary);
+  text-decoration: underline; text-underline-offset: 2px;
+}
+.filter-linkbtn:hover { color: var(--text-primary); }
+
+/* ─── FILTRE TEMPOREL ────────────────────────────────────────────────────── */
+#date-filter { display: flex; flex-direction: column; gap: var(--component-gap-8); }
+
+.date-fields { display: flex; align-items: center; gap: var(--component-gap-8); }
+.date-field {
+  display: flex; align-items: center; gap: var(--component-gap-4);
+  font-size: var(--text-interface-caption-size);
+  color: var(--text-secondary);
+}
+.date-field input {
+  width: 7ch;
+  padding: 3px var(--component-padding-4);
+  text-align: center;
+  /* Les flèches natives mangent la place des quatre chiffres. */
+  -moz-appearance: textfield;
+  appearance: textfield;
+  font-family: var(--font-sans);
+  font-size: var(--text-body-small-size);
+  color: var(--input-text-default);
+  background: var(--input-background-default);
+  border: 1px solid var(--input-border-default);
+  border-radius: var(--radius-element);
+}
+.date-field input::-webkit-outer-spin-button,
+.date-field input::-webkit-inner-spin-button { -webkit-appearance: none; margin: 0; }
+.date-field input:focus { outline: none; border-color: var(--input-border-active); }
+
+/* Deux curseurs natifs superposés : seules les poignées captent le pointeur. */
+.range-slider { position: relative; height: 28px; }
+.range-track {
+  position: absolute; top: 50%; left: 0; right: 0;
+  height: 4px; transform: translateY(-50%);
+  background: var(--border-subtle);
+  border-radius: 2px;
+}
+.range-fill {
+  position: absolute; top: 0; bottom: 0;
+  background: var(--background-brand-primary);
+  border-radius: 2px;
+}
+.range-input {
+  position: absolute; top: 0; left: 0;
+  width: 100%; height: 28px; margin: 0;
+  background: none;
+  -webkit-appearance: none; appearance: none;
+  pointer-events: none;
+}
+.range-input::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  pointer-events: auto;
+  width: 18px; height: 18px;
+  border-radius: 50%;
+  background: var(--surface-level-01);
+  border: 2px solid var(--background-brand-primary);
+  box-shadow: var(--elevation-anchored);
+  cursor: pointer;
+}
+.range-input::-moz-range-thumb {
+  pointer-events: auto;
+  width: 14px; height: 14px;
+  border-radius: 50%;
+  background: var(--surface-level-01);
+  border: 2px solid var(--background-brand-primary);
+  cursor: pointer;
+}
+.range-input::-moz-range-track { background: none; border: none; }
+.range-input:focus { outline: none; }
+.range-input:focus-visible::-webkit-slider-thumb {
+  outline: 2px solid var(--focus-on-background-default);
+  outline-offset: 2px;
+}
+.range-input:focus-visible::-moz-range-thumb {
+  outline: 2px solid var(--focus-on-background-default);
+  outline-offset: 2px;
+}
+
+.date-summary {
+  font-size: var(--text-interface-caption-size);
+  color: var(--text-secondary);
+}
+
+/* ─── THÉSAURUS : RECHERCHE, GROUPES, DÉFINITIONS ───────────────────────── */
+.thes-search {
+  display: flex; align-items: center; gap: var(--component-gap-8);
+  padding: 0 var(--component-padding-8);
+  margin-bottom: var(--component-padding-12);
+  background: var(--input-background-default);
+  border: 1px solid var(--input-border-default);
+  border-radius: var(--radius-element);
+}
+.thes-search:focus-within { border-color: var(--input-border-active); }
+.thes-search .icon { width: 14px; height: 14px; color: var(--icon-secondary); }
+.thes-search input {
+  flex: 1; min-width: 0;
+  height: 30px;
+  border: none; outline: none; background: none;
+  font-family: var(--font-sans);
+  font-size: var(--text-body-small-size);
+  color: var(--input-text-default);
+}
+.thes-search input::-webkit-search-cancel-button { display: none; }
+
+.thes-group + .thes-group { margin-top: var(--component-padding-16); }
+.thes-group-label {
+  display: flex; align-items: center; gap: var(--component-gap-4);
+  margin-bottom: var(--component-gap-8);
+  font-size: var(--text-interface-overline-size);
+  font-weight: var(--text-interface-overline-weight);
+  letter-spacing: var(--text-interface-overline-ls);
+  text-transform: uppercase;
+  color: var(--text-secondary);
+}
+.thes-group-count {
+  font-size: var(--fs-8);
+  font-weight: var(--fw-400);
+  letter-spacing: 0;
+  color: var(--text-secondary);
+  background: var(--background-subtle);
+  border-radius: var(--radius-badge);
+  padding: 1px 5px;
+}
+
+.thes-terms { display: flex; flex-wrap: wrap; gap: var(--component-gap-4); }
+.thes-term { display: inline-flex; align-items: stretch; }
+.thes-term .chip { border-top-right-radius: 0; border-bottom-right-radius: 0; }
+.thes-term:not(:has(.thes-info)) .chip { border-radius: var(--radius-badge); }
+
+.thes-info {
+  width: 20px;
+  margin-left: -1px;
+  display: flex; align-items: center; justify-content: center;
+  background: var(--tag-background-default);
+  border: 1px solid var(--tag-border-default);
+  border-radius: 0 var(--radius-badge) var(--radius-badge) 0;
+  color: var(--text-secondary);
+  font-size: var(--text-interface-caption-size);
+  font-style: italic;
+  font-family: var(--font-serif);
+  cursor: pointer;
+  transition: background 0.10s, color 0.10s, border-color 0.10s;
+}
+.thes-info:hover,
+.thes-info[aria-expanded="true"] {
+  background: var(--tag-background-hover);
+  border-color: var(--tag-border-hover);
+  color: var(--text-primary);
+}
+
+/* La carte prend toute la largeur : elle force un retour à la ligne dans la
+   grappe de puces, et reste dans le flux (aucun rognage par le panneau). */
+.thes-def {
+  flex-basis: 100%;
+  margin: var(--component-gap-4) 0;
+  padding: var(--component-padding-12);
+  background: var(--background-brand-secondary);
+  border: 1px solid var(--feedback-info-border);
+  border-radius: var(--radius-element);
+  font-size: var(--text-interface-caption-size);
+  color: var(--text-secondary);
+}
+.thes-def-text { line-height: var(--lh-150); color: var(--feedback-info-text); }
+.thes-def-text + .thes-def-text { margin-top: var(--component-gap-8); }
+
+.thes-def-links {
+  list-style: none;
+  margin-top: var(--component-gap-8);
+  display: flex; flex-direction: column; gap: 2px;
+}
+.thes-def-links a {
+  color: var(--link-text-default);
+  text-underline-offset: 2px;
+}
+.thes-def-links a:hover { color: var(--link-text-hover); }
+.thes-def-source {
+  margin-top: var(--component-gap-4);
+  font-size: var(--fs-8);
+  letter-spacing: var(--ls-normal);
+  text-transform: uppercase;
+  color: var(--text-secondary);
+}
+
+.thes-empty { font-size: var(--text-interface-caption-size); color: var(--text-secondary); }
+
+/* ─── FOCUS VISIBLE (RGAA 10.7) ──────────────────────────────────────────── */
+:focus-visible {
+  outline: 2px solid var(--focus-on-background-default);
+  outline-offset: 2px;
+}
+
 /* ─── PANNEAU INFOS BÂTIMENT ─────────────────────────────────────────────── */
 #info-panel {
   left: 16px; bottom: 48px;
@@ -482,7 +709,10 @@ button { font-family: inherit; }
 #carousel {
   left: 50%; transform: translateX(-50%);
   bottom: 16px;
-  width: 502px; max-width: calc(100vw - 680px);
+  /* Largeur dictée par les vues : leur ratio est préservé, donc leur largeur
+     varie. Bornée pour ne pas empiéter sur les panneaux latéraux. */
+  width: auto;
+  max-width: min(900px, calc(100vw - 680px));
   display: flex; flex-direction: column; align-items: center;
   gap: 18px;
 }
@@ -495,12 +725,29 @@ button { font-family: inherit; }
   text-shadow: 0 0 12px var(--background-page), 0 0 4px var(--background-page);
 }
 
-/* Coverflow : la vue centrale est la plus grande, les latérales s'estompent. */
+/* Coverflow : la vue centrale est la plus grande, les latérales s'estompent.
+   La hauteur seule est imposée — la largeur suit le ratio de chaque image. */
+/* La scène défile pour amener la vue active en son centre (voir
+   centerCarouselTrack). Un défilement programmatique plutôt qu'une
+   transformation : la position est exacte, bornée d'office aux extrémités, et
+   affranchie des interactions entre `transform` et le débordement flexbox. */
 #carousel-stage {
-  display: flex; align-items: flex-end; justify-content: center;
-  gap: var(--component-gap-12);
+  display: flex; align-items: flex-end;
   height: 177px;
   width: 100%;
+  overflow: hidden;
+  /* Défilement instantané : la correction se lit sur les positions rendues,
+     une animation en cours fausserait la mesure suivante. */
+  scroll-behavior: auto;
+}
+#carousel-track {
+  position: relative;   /* référence stable pour l'offsetLeft des vues */
+  display: flex; align-items: flex-end;
+  gap: var(--component-gap-12);
+  /* Marge intérieure d'une demi-scène de chaque côté : sans elle, la course de
+     défilement se limite au débordement du rail (quelques dizaines de pixels),
+     trop courte pour amener au centre une vue proche d'une extrémité. */
+  padding-inline: 50%;
 }
 .carousel-slide {
   border-radius: var(--radius-media);
@@ -508,13 +755,25 @@ button { font-family: inherit; }
   background: var(--background-subtle);
   box-shadow: 0 4px 4px rgba(0,0,0,0.25);
   cursor: pointer;
-  flex-shrink: 0;
-  transition: width 0.2s ease, height 0.2s ease, opacity 0.2s ease;
+  flex: 0 0 auto;
+  width: auto;
+  transition: opacity 0.2s ease;
 }
-.carousel-slide img { width: 100%; height: 100%; object-fit: cover; display: block; }
-.carousel-slide.depth-0 { width: 134px; height: 177px; }
-.carousel-slide.depth-1 { width: 93px;  height: 123px; opacity: 0.85; }
-.carousel-slide.depth-2 { width: 67px;  height: 88px;  opacity: 0.65; }
+.carousel-slide img { height: 100%; width: auto; display: block; }
+.carousel-slide.depth-0 { height: 177px; }
+.carousel-slide.depth-1 { height: 123px; opacity: 0.85; }
+.carousel-slide.depth-2 { height: 88px;  opacity: 0.65; }
+
+/* Largeur nominale tant que le ratio est inconnu — image en cours de
+   chargement, en échec, ou emplacement vide en bord de liste : sans elle la
+   vue s'effondrerait à zéro et décentrerait le coverflow. */
+.carousel-slide.is-loading.depth-0,
+.carousel-slide.is-empty.depth-0 { width: 134px; }
+.carousel-slide.is-loading.depth-1,
+.carousel-slide.is-empty.depth-1 { width: 93px; }
+.carousel-slide.is-loading.depth-2,
+.carousel-slide.is-empty.depth-2 { width: 67px; }
+
 .carousel-slide:not(.is-current):hover { opacity: 1; }
 .carousel-slide.is-empty { box-shadow: none; background: none; pointer-events: none; }
 .carousel-slide.is-broken { background: var(--background-subtle); cursor: default; }
