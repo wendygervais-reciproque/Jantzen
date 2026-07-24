@@ -3,14 +3,17 @@ async function displayLastPushDate() {
   if (!titleElement) return;
 
   try {
-    // On lit le fichier local généré par GitHub Actions
-    const response = await fetch('./src/js/version.json');
-    if (!response.ok) throw new Error('Fichier version.json introuvable');
+    const response = await fetch('/version.json');
+    
+    // Si version.json n'existe pas encore (ex: en local)
+    if (!response.ok) {
+      titleElement.textContent = "Version locale (Dev)";
+      return;
+    }
 
     const data = await response.json();
     const commitDate = new Date(data.lastPush);
 
-    // Formatage en français
     const formattedDate = commitDate.toLocaleString('fr-FR', {
       day: '2-digit',
       month: '2-digit',
@@ -21,8 +24,8 @@ async function displayLastPushDate() {
 
     titleElement.textContent = `Dernier push : ${formattedDate.replace(':', 'h')}`;
   } catch (error) {
-    console.error(error);
-    titleElement.textContent = 'version 24.07 11:51';  // fallback
+    // En cas d'autre erreur, on met un titre propre sans bloquer
+    titleElement.textContent = "Mon Prototype";
   }
 }
 
