@@ -221,8 +221,6 @@ button { font-family: inherit; }
 /* ─── LEAFLET ────────────────────────────────────────────────────────────── */
 .leaflet-container { background: var(--background-subtle); }
 .leaflet-tile-pane { filter: saturate(2.2) brightness(0.97); }
-/* Dégage les contrôles de zoom du carrousel et des liens de bas de page. */
-.leaflet-bottom.leaflet-right { margin-bottom: 190px; }
 
 .marker-poi {
   width: 22px; height: 30px;
