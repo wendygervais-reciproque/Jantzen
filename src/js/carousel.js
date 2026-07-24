@@ -10,7 +10,8 @@
 let carouselPhotos = [];        // toutes les photos du bâtiment courant
 let carouselFilter = new Set(); // termes sélectionnés dans le multiselect
 let carouselIndex  = 0;         // index dans la liste filtrée
-let lightboxPerson = null;      // {src, caption} — mode « portrait isolé », sans navigation
+let lightboxPerson  = null;     // {src, caption} — mode « portrait isolé », sans navigation
+let lightboxGallery = null;     // {photos:[{src,caption}], index} — galerie du volet mosaïque
 
 const CAROUSEL_DEPTH = 2;       // nombre de vignettes visibles de chaque côté
 
@@ -176,6 +177,12 @@ function goToPhoto(index) {
 
 function stepPhoto(delta) {
   if (lightboxPerson) return;   // portrait isolé : pas de navigation
+  if (lightboxGallery) {
+    const n = lightboxGallery.photos.length;
+    lightboxGallery.index = Math.max(0, Math.min(lightboxGallery.index + delta, n - 1));
+    renderLightbox();
+    return;
+  }
   goToPhoto(carouselIndex + delta);
 }
 
@@ -272,7 +279,7 @@ function isLightboxOpen() {
 function openLightbox() {
   const box = document.getElementById('lightbox');
   if (!box || visiblePhotos().length === 0) return;
-  lightboxPerson = null;
+  lightboxPerson = lightboxGallery = null;
   box.hidden = false;
   renderLightbox();
   document.getElementById('lightbox-close')?.focus();
@@ -286,7 +293,26 @@ function openLightbox() {
 function openPersonLightbox(src, caption) {
   const box = document.getElementById('lightbox');
   if (!box || !src) return;
-  lightboxPerson = { src, caption };
+  lightboxPerson  = { src, caption };
+  lightboxGallery = null;
+  box.hidden = false;
+  renderLightbox();
+  document.getElementById('lightbox-close')?.focus();
+}
+
+/**
+ * Ouvre la visionneuse sur une galerie indépendante (photos du volet mosaïque),
+ * avec navigation prev/next. N'utilise pas l'état du coverflow : les deux
+ * modes cohabitent sans interférence.
+ *
+ * @param {{src, caption}[]} photos
+ * @param {number} index
+ */
+function openGalleryLightbox(photos, index) {
+  const box = document.getElementById('lightbox');
+  if (!box || !Array.isArray(photos) || photos.length === 0) return;
+  lightboxPerson  = null;
+  lightboxGallery = { photos, index: Math.max(0, Math.min(index, photos.length - 1)) };
   box.hidden = false;
   renderLightbox();
   document.getElementById('lightbox-close')?.focus();
@@ -295,7 +321,7 @@ function openPersonLightbox(src, caption) {
 function closeLightbox() {
   const box = document.getElementById('lightbox');
   if (box) box.hidden = true;
-  lightboxPerson = null;
+  lightboxPerson = lightboxGallery = null;
 }
 
 function renderLightbox() {
@@ -311,6 +337,19 @@ function renderLightbox() {
     if (caption) caption.textContent = lightboxPerson.caption || '';
     if (prev) prev.disabled = true;
     if (next) next.disabled = true;
+    return;
+  }
+
+  if (lightboxGallery) {
+    const { photos, index } = lightboxGallery;
+    const item = photos[index];
+    img.src = item.src;
+    img.onerror = function () { retryUppercaseJpg(this); };
+    if (caption) {
+      caption.textContent = `${index + 1} / ${photos.length}${item.caption ? ' — ' + item.caption : ''}`;
+    }
+    if (prev) prev.disabled = index <= 0;
+    if (next) next.disabled = index >= photos.length - 1;
     return;
   }
 

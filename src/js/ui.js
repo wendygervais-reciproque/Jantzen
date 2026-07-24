@@ -22,6 +22,13 @@ function selectBatiment(id_bat, options = {}) {
     el.classList.toggle('is-active', String(el.dataset.id) === String(id_bat));
   });
 
+  // En mosaïque, le détail vit dans le volet gauche docké : ni fiche flottante
+  // ni carrousel coverflow (réservés à la vue carte).
+  if (currentView === 'mosaic') {
+    openMosaicDetail(id_bat);
+    return;
+  }
+
 if (currentView === 'map') {
   if (typeof flyToFeature === 'function') flyToFeature(id_bat);
   // openMarkerPopup(id_bat) devient inutile — géré par le callback de zoomToShowLayer
@@ -34,6 +41,7 @@ function deselectBatiment() {
   document.querySelectorAll('.mosaic-tile').forEach(el => el.classList.remove('is-active'));
   closeInfoPanel();
   closeCarousel();
+  if (typeof closeMosaicDetail === 'function') closeMosaicDetail();
   if (typeof closeAllPopups === 'function' && currentView === 'map') closeAllPopups();
 }
 

@@ -223,6 +223,26 @@
     </div>
   </section>
 
+  <!-- ── VOLET DÉTAIL (vue mosaïque) : infos + photos ── -->
+  <aside id="mosaic-detail" aria-label="Détail du bâtiment" hidden>
+    <button id="mosaic-detail-close" aria-label="Fermer la fiche">
+      <svg class="icon" aria-hidden="true"><use href="#i-close"/></svg>
+    </button>
+    <div id="mosaic-detail-body">
+      <span class="md-section-label">Infos bâtiment</span>
+      <div id="md-info"></div>
+      <span class="md-section-label" id="md-photos-label" hidden>Photos</span>
+      <div id="md-photos"></div>
+    </div>
+    <!-- Tirette de redimensionnement -->
+    <div id="mosaic-detail-handle" class="panel-resize" role="separator"
+         aria-orientation="vertical" tabindex="0"
+         aria-label="Redimensionner le volet des informations"
+         aria-valuemin="400" aria-valuemax="900" aria-valuenow="400">
+      <span class="panel-resize-grip" aria-hidden="true"></span>
+    </div>
+  </aside>
+
   <!-- ── LIENS DISCRETS ── -->
   <div id="footer-links">
     <a href="#" id="link-credits">Crédits</a>
@@ -272,6 +292,7 @@
 <script src="/src/js/views.js"></script>
 <script src="/src/js/carousel.js"></script>
 <script src="/src/js/ui.js"></script>
+<script src="/src/js/mosaic-detail.js"></script>
 <script src="/src/js/pages.js"></script>
 <script src="/src/js/app.js"></script>
 </body>
