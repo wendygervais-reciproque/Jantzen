@@ -4,7 +4,7 @@
  */
 
 // 💡 Si tes fichiers sont servis depuis public/data/ ou data/, ajuste ici si besoin
-const DATA_BASE  = 'public/data';
+const DATA_BASE  = '/public/data';
 const PHOTO_BASE = `${DATA_BASE}/photos_jpg`;
 
 let THESAURUS    = [];   // index allégé : [{t: terme, c: cluster, u: URL, s: source}]
@@ -153,7 +153,7 @@ function getBatiment(id_bat) {
   const key = String(id_bat);
   if (!batimentCache.has(key)) {
     batimentCache.set(key, (async () => {
-      for (const name of [`id_batt_${key}`, `id_bat_${key}`]) {
+      for (const name of [`id_bat_${key}`, `id_bat_${key}`]) {
         const res = await fetch(`${DATA_BASE}/batiments/${name}.json`);
         if (res.ok) return res.json();
       }

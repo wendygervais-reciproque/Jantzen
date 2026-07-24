@@ -238,18 +238,28 @@ function showBuildingView() {
 /* ─── NAVIGATION VERS UN BÂTIMENT ───────────────────────────────────────── */
 
 function flyToFeature(id_bat) {
-  // Conteneur non mesuré (carte masquée, fenêtre repliée) : flyTo produirait
-  // des coordonnées NaN et lèverait une exception.
+  // Conteneur non mesuré (carte masquée, fenêtre repliée) : on éviterait
+  // des coordonnées NaN.
   if (!map || map.getSize().x === 0) return;
 
   const feature = ALL_FEATURES.find(f => String(f.properties.id_bat) === String(id_bat));
   if (!feature || !feature.geometry || !feature.geometry.coordinates) return;
 
-  const [lng, lat] = feature.geometry.coordinates;
-  const latlng = L.latLng(lat, lng);
+  // Le marker n'existe dans clusterGroup que si la vue "bâtiments" a déjà
+  // été construite au moins une fois (ex: chargement direct sur une URL
+  // alors qu'on est encore dézoomé, en vue arrondissements).
+  if (!markerMap[id_bat]) {
+    showBuildingView();
+    currentMode = 'buildings';
+  }
 
-  const targetZoom = Math.max(map.getZoom(), ARR_ZOOM_THRESHOLD + 1);
-  map.flyTo(latlng, targetZoom, { animate: true, duration: 0.8 });
+  const marker = markerMap[id_bat];
+  if (!marker) return; // sécurité : le bâtiment n'est pas dans currentFeatures (filtré ?)
+
+clusterGroup.zoomToShowLayer(marker, () => {
+  map.panTo(marker.getLatLng(), { animate: true });
+  map.once('moveend', () => marker.openPopup());
+});
 }
 
 function openMarkerPopup(id_bat) {
