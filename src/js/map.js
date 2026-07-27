@@ -9,6 +9,7 @@ let map = null;
 let clusterGroup = null;
 let arrGeoLayer = null;   // L.geoJSON des tracés d'arrondissement
 let arrLabelGroup = null; // L.layerGroup des étiquettes (numéro + compteur)
+let ghostLayerGroup = null; // L.layerGroup : aperçu filigrane des grappes rondes
 const markerMap = {};     // id_bat → marker Leaflet (vue bâtiments)
 
 let currentFeatures = []; // features actuellement affichées (après filtres)
@@ -105,7 +106,8 @@ function initMap() {
   });
   map.addLayer(clusterGroup);
 
-  arrLabelGroup = L.layerGroup();
+  arrLabelGroup   = L.layerGroup();
+  ghostLayerGroup = L.layerGroup();
 
   // Bascule automatique arrondissements ↔ bâtiments au franchissement du seuil
   map.on('zoomend', () => applyMapMode(false));
@@ -168,7 +170,59 @@ function showArrondissementView() {
     }
   }).addTo(map);
 
+  // Filigrane des grappes rondes (derrière les étiquettes), puis les étiquettes.
+  renderClusterGhosts();
+  ghostLayerGroup.addTo(map);
   arrLabelGroup.addTo(map);
+}
+
+/**
+ * Aperçu « filigrane » des grappes rondes telles qu'elles apparaîtraient au
+ * premier zoom de leur mode (ARR_ZOOM_THRESHOLD) : on projette les bâtiments en
+ * pixels À CE ZOOM et on les regroupe glouton-nement dans le rayon de grappe de
+ * ce niveau, pour retrouver plusieurs grappes par arrondissement (et non une
+ * seule, comme au zoom courant, plus faible). Rendu en disques dorés subtils.
+ */
+function renderClusterGhosts() {
+  ghostLayerGroup.clearLayers();
+  if (!currentFeatures.length) return;
+
+  const z = ARR_ZOOM_THRESHOLD;
+  const radius = 90;   // maxClusterRadius à ce zoom (voir la config du clusterGroup)
+
+  const pts = [];
+  currentFeatures.forEach(f => {
+    const c = f.geometry?.coordinates;
+    if (!Array.isArray(c)) return;
+    const ll = L.latLng(c[1], c[0]);
+    pts.push({ ll, p: map.project(ll, z), used: false });
+  });
+
+  const clusters = [];
+  for (const pt of pts) {
+    if (pt.used) continue;
+    pt.used = true;
+    let sumLat = pt.ll.lat, sumLng = pt.ll.lng, count = 1;
+    for (const other of pts) {
+      if (other.used || other === pt) continue;
+      if (pt.p.distanceTo(other.p) <= radius) {
+        other.used = true;
+        sumLat += other.ll.lat; sumLng += other.ll.lng; count++;
+      }
+    }
+    clusters.push({ lat: sumLat / count, lng: sumLng / count, count });
+  }
+
+  clusters.forEach(c => {
+    const size = clusterSize(c.count);
+    const icon = L.divIcon({
+      className: '',
+      html: `<div class="cluster-ghost" style="width:${size}px;height:${size}px"></div>`,
+      iconSize:   [size, size],
+      iconAnchor: [size / 2, size / 2]
+    });
+    L.marker([c.lat, c.lng], { icon, interactive: false }).addTo(ghostLayerGroup);
+  });
 }
 
 function ordinalArr(n) { return n === 1 ? '1ᵉʳ' : `${n}ᵉ`; }
@@ -179,6 +233,8 @@ function showBuildingView() {
   if (arrGeoLayer) { map.removeLayer(arrGeoLayer); arrGeoLayer = null; }
   if (map.hasLayer(arrLabelGroup)) map.removeLayer(arrLabelGroup);
   arrLabelGroup.clearLayers();
+  if (map.hasLayer(ghostLayerGroup)) map.removeLayer(ghostLayerGroup);
+  ghostLayerGroup.clearLayers();
 
   clusterGroup.clearLayers();
   if (currentFeatures.length === 0) return;
@@ -280,13 +336,32 @@ function bindCardBridge(popup, id) {
   el.addEventListener('mouseleave', () => { poiCardHovered = false; schedulePoiCardClose(id); });
 }
 
-/** Clic sur un POI : épingle / dés-épingle la card, ou ferme la page (toggle). */
+/** Périphérique de pointage « fin » avec survol (souris) → poste de travail. */
+function isHoverPointer() {
+  return window.matchMedia('(hover: hover) and (pointer: fine)').matches;
+}
+
+/**
+ * Clic sur un POI.
+ *   • Desktop (souris) : le survol montre déjà la card → le clic ouvre la page
+ *     bâtiment directement (reclic = ferme la page).
+ *   • Tactile (pas de survol) : 1er tap épingle la card d'aperçu, tap sur la
+ *     card ouvre la page, reclic sur le POI ferme la card.
+ */
 function togglePoiClick(id) {
   if (String(selectedId) === String(id)) {   // page ouverte pour ce bâtiment
     deselectBatiment();                       // reclic → ferme la page
     return;
   }
-  if (poiPinnedId === id) {                   // card déjà épinglée
+
+  if (isHoverPointer()) {                     // desktop : clic → page directe
+    poiPinnedId = null;
+    map.closePopup();
+    selectBatiment(id);
+    return;
+  }
+
+  if (poiPinnedId === id) {                   // tactile : card déjà épinglée
     poiPinnedId = null;                       // reclic → ferme la card
     markerMap[id]?.closePopup();
     refreshPoiActive();

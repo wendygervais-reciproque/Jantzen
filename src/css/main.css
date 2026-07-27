@@ -406,29 +406,49 @@ button { font-family: inherit; }
 
 .arr-polygon {
   fill: var(--background-brand-primary);
-  fill-opacity: 0.06;
-  stroke: var(--border-strong);
-  stroke-width: 1;
+  fill-opacity: 0.9;                     /* quasi-plein : laisse à peine deviner la carte */
+  stroke: var(--background-page);        /* fin liseré clair : sépare les zones dorées */
+  stroke-width: 1.5;
   cursor: pointer;
   transition: fill-opacity 0.15s;
 }
-.arr-polygon.empty { fill-opacity: 0.02; }
-.arr-polygon:hover { fill-opacity: 0.16; }
+.arr-polygon.empty { fill-opacity: 0.08; }   /* zones sans bâtiment : à peine teintées */
+.arr-polygon:hover { fill-opacity: 0.82; }   /* survol : laisse deviner la carte dessous */
+
+/* Aperçu « filigrane » d'une grappe ronde (calque derrière les étiquettes).
+   Sur l'aplat doré, un doré ne se verrait pas : on passe en teinte sombre, ce qui
+   évoque au passage les vraies grappes rondes (noires). */
+.cluster-ghost {
+  border-radius: 50%;
+  background: var(--icon-primary);
+  opacity: 0.12;
+}
 
 .arr-label {
   display: flex; flex-direction: column; align-items: center;
   transform: translate(-50%, -50%);
   pointer-events: none;
   white-space: nowrap;
+  /* Halo clair : lisibilité (et contraste) garantis par-dessus n'importe quelle
+     tuile de carte, quelle que soit la couleur du fond sous l'étiquette. */
+  text-shadow: 0 0 6px var(--background-page), 0 0 3px var(--background-page),
+               0 0 2px var(--background-page);
 }
+/* Numéro d'arrondissement : identifiant, doit rester bien lisible. */
 .arr-label-num {
   font-family: var(--font-serif);
-  font-size: var(--text-title-h5-size);
+  font-size: var(--text-body-base-size);
+  line-height: var(--lh-120);
   color: var(--text-primary);
 }
+/* Nombre de bâtiments : information principale — mise en avant (plus grand,
+   semi-gras) et contraste fort, sans être criard. */
 .arr-label-count {
-  font-size: var(--text-interface-caption-size);
-  color: var(--text-secondary);
+  font-size: var(--text-title-h5-size);
+  font-weight: var(--fw-600);
+  line-height: var(--lh-120);
+  color: var(--text-primary);
+  font-variant-numeric: tabular-nums;
 }
 .arr-label.empty { opacity: 0.4; }
 
