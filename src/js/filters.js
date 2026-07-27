@@ -315,6 +315,7 @@ function updateThesaurusData(featuresActuelles) {
 }
 
 
+
 function updateArrondissementsData(featuresActuelles) {
   // 1. Décompte des bâtiments restants par arrondissement
   const counts = new Map();
@@ -619,10 +620,13 @@ function renderArchitectesList(query) {
 
   const q = normalizeText(query);
 
-  // 💡 FIX : On ne filtre PLUS par (a.count > 0). 
-  // On affiche tous les architectes qui correspondent à la recherche textuelle !
   const matching = ARCHI_TERMS.filter(a => {
-    return q ? normalizeText(a.libelle).includes(q) : true;
+    // Affiche l'architecte s'il a au moins 1 bâtiment correspondant dans les résultats courants (a.count > 0)
+    // OU s'il est actuellement sélectionné dans le filtre (pour pouvoir le décocher)
+    const isVisible = a.count > 0 || activeFilters.architectes.has(a.id);
+    const matchesQuery = q ? normalizeText(a.libelle).includes(q) : true;
+    
+    return isVisible && matchesQuery;
   });
 
   host.innerHTML = '';
@@ -633,6 +637,7 @@ function renderArchitectesList(query) {
     host.appendChild(buildArchiChipRow(entry));
   });
 }
+
 
 function buildArchiChipRow(entry) {
   const row = document.createElement('span');
@@ -679,17 +684,58 @@ function updateArchitectesData(featuresActuelles) {
   const counts = new Map();
 
   featuresActuelles.forEach(f => {
+    // 1. Récupération depuis le tableau 'personnes' si présent
     const personnes = f.properties.personnes || [];
     personnes.forEach(p => {
-      if (p.personneID !== undefined && p.personneID !== null) {
-        const idNum = Number(p.personneID);
-        counts.set(idNum, (counts.get(idNum) || 0) + 1);
+      const id = p.personneID ?? p.id_archi ?? p.id;
+      if (id !== undefined && id !== null) {
+        const idNum = Number(id);
+        if (!isNaN(idNum)) {
+          counts.set(idNum, (counts.get(idNum) || 0) + 1);
+        }
       }
     });
+
+    // 2. Fallback si personneID est directement sur f.properties
+    if (f.properties.personneID !== undefined && f.properties.personneID !== null) {
+      const raw = f.properties.personneID;
+      const ids = Array.isArray(raw) ? raw : [raw];
+      ids.forEach(id => {
+        const idNum = Number(id);
+        if (!isNaN(idNum) && personnes.length === 0) {
+          counts.set(idNum, (counts.get(idNum) || 0) + 1);
+        }
+      });
+    }
   });
 
+  // Mise à jour de ARCHI_TERMS
   ARCHI_TERMS.forEach(item => {
-    item.count = counts.get(item.id) || 0;
+    item.count = counts.get(Number(item.id)) || 0;
+  });
+}
+
+function renderArchitectesList(query) {
+  const host  = document.getElementById('archi-chips-container');
+  const empty = document.getElementById('archi-empty');
+  if (!host) return;
+
+  const q = normalizeText(query);
+
+  const matching = ARCHI_TERMS.filter(a => {
+    // Affiché si le compte est > 0 OU s'il est déjà coché par l'utilisateur
+    const isVisible = a.count > 0 || activeFilters.architectes.has(Number(a.id));
+    const matchesQuery = q ? normalizeText(a.libelle).includes(q) : true;
+    
+    return isVisible && matchesQuery;
+  });
+
+  host.innerHTML = '';
+  if (empty) empty.hidden = matching.length > 0;
+  if (matching.length === 0) return;
+
+  matching.forEach(entry => {
+    host.appendChild(buildArchiChipRow(entry));
   });
 }
 
