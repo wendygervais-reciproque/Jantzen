@@ -271,7 +271,6 @@ button { font-family: inherit; }
 #mosaic-detail-body {
   flex: 1; overflow-y: auto;
   padding: var(--component-padding-20);
-  padding-right: 44px;   /* dégage la poignée et le bouton de fermeture */
 }
 #mosaic-detail-close {
   position: absolute; top: var(--component-padding-12); right: 14px; z-index: 21;
@@ -310,14 +309,19 @@ button { font-family: inherit; }
 #md-info .info-meta-grid { margin-top: var(--component-padding-16); }
 .md-loading { color: var(--text-secondary); font-size: var(--text-body-small-size); }
 
-/* Galerie : empilée (1 colonne) par défaut, en rangées quand le volet s'élargit. */
+/* Galerie : mosaïque justifiée — des rangées de hauteur égale qui remplissent
+   toute la largeur, sans blancs, en préservant le ratio de chaque photo. Les
+   dimensions de chaque tuile sont posées par layoutJustified() (mosaic-detail.js) ;
+   le conteneur ne fait qu'aligner les rangées les unes sous les autres. */
 #md-photos {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
   gap: var(--component-gap-8);
 }
 .md-photo {
-  padding: 0; aspect-ratio: 4 / 3;
+  padding: 0;
+  flex: 0 0 auto;                 /* largeur/hauteur imposées par le layout JS */
   border: 1px solid var(--border-subtle);
   border-radius: var(--radius-media);
   overflow: hidden; background: var(--background-subtle);
