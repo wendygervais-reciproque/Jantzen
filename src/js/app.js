@@ -29,6 +29,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   bindViewToggle();
   bindFiltersPanel();
   bindCarousel();
+  bindMosaicDetail();
   bindKeyboard();
 
   // ── Routage URL ────────────────────────────────────────────────────────
@@ -95,12 +96,16 @@ function bindViewToggle() {
 /* ─── PANNEAU DE FILTRES ────────────────────────────────────────────────── */
 
 function bindFiltersPanel() {
-  const body   = document.getElementById('filters-body');
+  const panel  = document.getElementById('filters-panel');
   const toggle = document.getElementById('filters-toggle');
-  if (!body || !toggle) return;
+  if (!panel || !toggle) return;
 
   toggle.addEventListener('click', () => {
-    const collapsed = body.classList.toggle('collapsed');
+    // Rétractation en largeur ET en hauteur (voir .is-collapsed en CSS) : ne
+    // restent que le titre et l'icône. La classe sur #app laisse la grille
+    // mosaïque récupérer l'espace libéré.
+    const collapsed = panel.classList.toggle('is-collapsed');
+    document.getElementById('app')?.classList.toggle('filters-collapsed', collapsed);
     toggle.textContent = collapsed ? '+' : '−';
     toggle.setAttribute('aria-expanded', String(!collapsed));
   });
@@ -152,9 +157,11 @@ function bindKeyboard() {
     }
 
     // Flèches : navigation dans les photos, sauf pendant une saisie.
+    // Actives quand le coverflow est visible (vue carte) ou que la visionneuse
+    // est ouverte — y compris la galerie du volet mosaïque, coverflow masqué.
     const typing = ['INPUT', 'TEXTAREA'].includes(document.activeElement?.tagName);
     const carouselVisible = !document.getElementById('carousel')?.hidden;
-    if (typing || !carouselVisible) return;
+    if (typing || (!carouselVisible && !isLightboxOpen())) return;
 
     if (e.key === 'ArrowLeft')  { e.preventDefault(); stepPhoto(-1); }
     if (e.key === 'ArrowRight') { e.preventDefault(); stepPhoto(1);  }

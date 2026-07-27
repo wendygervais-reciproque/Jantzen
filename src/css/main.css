@@ -218,6 +218,119 @@ button { font-family: inherit; }
   padding: var(--component-padding-24) 0;
 }
 
+/* ─── VUE MOSAÏQUE : CARTES LATÉRALES DANS LE FLUX ───────────────────────── */
+/*
+ * Même esthétique que la vue carte (cartes flottantes arrondies, marges), mais
+ * la grille centrale leur réserve la place plutôt que d'être recouverte :
+ * aucun chevauchement avec la barre de recherche ni la bascule d'affichage. La
+ * vue carte n'est pas concernée.
+ *
+ * ⚙️ Largeur du volet détail pilotée en JS (mosaic-detail.js) via --md-w. */
+:root { --md-w: 400px; }
+
+/* Poignée de redimensionnement (tirette), à cheval sur le bord droit du volet. */
+.panel-resize {
+  position: absolute; top: 0; bottom: 0; right: -4px;
+  width: 8px; z-index: 20;
+  display: flex; align-items: center; justify-content: center;
+  cursor: ew-resize; touch-action: none;
+  background: none; border: none; padding: 0;
+}
+.panel-resize-grip {
+  width: 4px; height: 44px; border-radius: 2px;
+  background: var(--border-strong); transition: background 0.15s;
+}
+.panel-resize:hover .panel-resize-grip,
+.panel-resize:focus-visible .panel-resize-grip { background: var(--background-brand-primary); }
+.panel-resize:focus { outline: none; }
+
+/* Grille centrale : marges réservées aux cartes latérales via le padding
+   (les cartes flottent dans ces gouttières, sans recouvrir les tuiles). */
+.is-mosaic #mosaic {
+  padding: 88px var(--component-padding-24) var(--component-padding-24);
+  padding-right: calc(var(--filters-w) + 40px);
+}
+.is-mosaic.filters-collapsed #mosaic { padding-right: 150px; }
+.is-mosaic.has-detail #mosaic { padding-left: calc(var(--md-w) + 40px); }
+
+/* Fiche flottante et coverflow (vue carte) : hors-jeu en mosaïque. */
+.is-mosaic #info-panel,
+.is-mosaic #carousel { display: none; }
+
+/* Volet détail (gauche) — carte flottante, comme la fiche de la vue carte. */
+#mosaic-detail {
+  position: absolute; z-index: 500;
+  top: 88px; left: 16px; bottom: 16px;
+  width: var(--md-w);
+  display: flex;
+  background: var(--surface-level-01);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-container);
+  box-shadow: var(--elevation-overlay);
+}
+#mosaic-detail-body {
+  flex: 1; overflow-y: auto;
+  padding: var(--component-padding-20);
+  padding-right: 44px;   /* dégage la poignée et le bouton de fermeture */
+}
+#mosaic-detail-close {
+  position: absolute; top: var(--component-padding-12); right: 14px; z-index: 21;
+  width: 32px; height: 32px;
+  display: flex; align-items: center; justify-content: center;
+  background: var(--surface-level-01);
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius-badge);
+  color: var(--icon-primary); cursor: pointer;
+  transition: background 0.15s;
+}
+#mosaic-detail-close:hover { background: var(--surface-interactive-background-hover); }
+
+.md-section-label {
+  display: block;
+  margin-bottom: var(--component-gap-8);
+  font-size: var(--text-interface-overline-size);
+  font-weight: var(--text-interface-overline-weight);
+  letter-spacing: var(--text-interface-overline-ls);
+  text-transform: uppercase;
+  color: var(--text-secondary);
+}
+#md-photos-label { margin-top: var(--component-padding-24); }
+.md-title {
+  font-family: var(--font-serif);
+  font-size: var(--text-title-h5-size);
+  font-weight: var(--fw-400);
+  line-height: var(--lh-120);
+  color: var(--text-primary);
+}
+.md-address {
+  font-size: var(--text-interface-caption-size);
+  color: var(--text-secondary);
+  margin-top: var(--component-gap-4);
+}
+#md-info .info-meta-grid { margin-top: var(--component-padding-16); }
+.md-loading { color: var(--text-secondary); font-size: var(--text-body-small-size); }
+
+/* Galerie : empilée (1 colonne) par défaut, en rangées quand le volet s'élargit. */
+#md-photos {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: var(--component-gap-8);
+}
+.md-photo {
+  padding: 0; aspect-ratio: 4 / 3;
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-media);
+  overflow: hidden; background: var(--background-subtle);
+  cursor: pointer;
+  transition: border-color 0.15s;
+}
+.md-photo:hover { border-color: var(--border-strong); }
+.md-photo img { width: 100%; height: 100%; object-fit: cover; display: block; }
+
+/* Filtres (droite) — même carte que la vue carte, prolongée vers le bas puisque
+   la mosaïque ne réserve rien en bas de l'écran. */
+.is-mosaic #filters-panel { bottom: 16px; max-height: none; }
+
 /* ─── LEAFLET ────────────────────────────────────────────────────────────── */
 .leaflet-container { background: var(--background-subtle); }
 .leaflet-tile-pane { filter: saturate(2.2) brightness(0.97); }
@@ -384,7 +497,18 @@ button { font-family: inherit; }
 #filter-reset-btn:hover { color: var(--text-primary); }
 
 #filters-body { overflow-y: auto; flex: 1; }
-#filters-body.collapsed { display: none; }
+
+/* ─── REPLI DES FILTRES (largeur + hauteur) ──────────────────────────────── */
+/* Le bouton −/+ rétracte la boîte : on ne garde que le titre et l'icône,
+   rapprochés. Vaut pour les deux vues (carte et mosaïque). */
+#filters-panel.is-collapsed {
+  width: auto; max-height: none; bottom: auto; overflow: hidden;
+}
+#filters-panel.is-collapsed #filters-body,
+#filters-panel.is-collapsed #filters-active-bar,
+#filters-panel.is-collapsed #search-results-count { display: none; }
+#filters-panel.is-collapsed #filters-header { border-bottom: none; }
+#filters-panel.is-collapsed #filters-header-top { justify-content: flex-start; gap: var(--component-gap-8); }
 
 .filter-section { border-bottom: 1px solid var(--border-subtle); }
 .filter-section:last-child { border-bottom: none; }

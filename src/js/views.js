@@ -26,7 +26,13 @@ function renderCurrentView(features) {
 
 function setView(view) {
   if (view === currentView) return;
+
+  // Chaque vue a sa propre présentation du détail : on repart d'une sélection
+  // vierge pour éviter qu'un panneau d'une vue persiste dans l'autre.
+  if (selectedId !== null && typeof deselectBatiment === 'function') deselectBatiment();
+
   currentView = view;
+  document.getElementById('app')?.classList.toggle('is-mosaic', view === 'mosaic');
 
   const mapEl    = document.getElementById('map');
   const mosaicEl = document.getElementById('mosaic');
