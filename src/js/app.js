@@ -263,3 +263,23 @@ function wireUrlRouting() {
     }
   });
 }
+
+function fitMapToResults() {
+  if (!map || !currentFeatures || currentFeatures.length === 0) return;
+  const tempLayer = L.geoJSON({
+    type: 'FeatureCollection',
+    features: currentFeatures
+  }, {
+    coordsToLatLng: coords => new L.LatLng(coords[1], coords[0])
+  });
+
+  const bounds = tempLayer.getBounds();
+  
+  if (bounds.isValid()) {
+    map.fitBounds(bounds, {
+      padding: [40, 40], // Marge en pixels autour des éléments
+      maxZoom: 16        // Limite le zoom pour éviter d'être trop près s'il n'y a qu'un seul bâtiment
+    });
+  }
+}
+

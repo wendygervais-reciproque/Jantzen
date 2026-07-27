@@ -116,6 +116,7 @@ function initMap() {
 function renderMapFeatures(features) {
   currentFeatures = features;
   applyMapMode(true);
+  fitMapToResults();
 }
 
 function applyMapMode(force) {
