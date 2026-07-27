@@ -1,11 +1,11 @@
 /**
- * filters.js — Filtres : arrondissement, temporalité, thésaurus Jantzen.
+ * filters.js — Filtres : arrondissement, temporalité, thésaurus Jantzen, architectes.
  */
 
 const activeFilters = {
   arrondissements: new Set(), // Set<number>
   thesaurus:       new Set(), // Set<string> ("façade", "lucarne"…)
-  architectes:      new Set(), // Set<string> (noms normalisés)
+  architectes:     new Set(), // Set<number> (IDs d'architectes)
   years:           null       // [début, fin] — null tant que toute la période est retenue
 };
 
@@ -33,11 +33,6 @@ function buildArrChips() {
   });
 }
 
-/**
- * Resynchronise l'état visuel des puces d'arrondissement depuis activeFilters.
- * Nécessaire quand l'état provient de l'URL (et non d'un clic) : les puces ne
- * sont construites qu'une fois, leur classe active n'est sinon posée qu'au clic.
- */
 function syncArrChips() {
   document.querySelectorAll('.chip[data-arr]').forEach(chip => {
     const on = activeFilters.arrondissements.has(Number(chip.dataset.arr));
@@ -47,14 +42,6 @@ function syncArrChips() {
 }
 
 /* ─── TEMPORALITÉ ───────────────────────────────────────────────────────── */
-
-/*
- * Deux `<input type="range">` natifs superposés plutôt qu'un composant maison :
- * rôle `slider`, `aria-valuemin/max/now` et pilotage clavier (flèches, Origine,
- * Fin, Page préc./suiv.) sont fournis par le navigateur et testés par les
- * technologies d'assistance. Les champs numériques associés offrent
- * l'alternative sans pointage exigée par le RGAA.
- */
 
 let dateApplyTimer = null;
 
@@ -74,8 +61,6 @@ function buildDateFilter() {
   from.value = fromN.value = min;
   to.value   = toN.value   = max;
 
-  // Le curseur bouge en continu : on rafraîchit l'affichage à chaque cran,
-  // mais on ne relance le filtrage qu'une fois la saisie stabilisée.
   from.addEventListener('input', () => onDateInput('from', from.value));
   to.addEventListener('input',   () => onDateInput('to',   to.value));
 
@@ -96,7 +81,6 @@ function onDateInput(which, rawValue) {
   if (!Number.isFinite(value)) return;
   value = Math.min(max, Math.max(min, value));
 
-  // Les deux poignées ne se croisent pas.
   if (which === 'from') from.value = Math.min(value, Number(to.value));
   else                  to.value   = Math.max(value, Number(from.value));
 
@@ -125,7 +109,6 @@ function updateDateUI() {
     fill.style.width = `${((b - a) / span) * 100}%`;
   }
 
-  // Sans cela, les lecteurs d'écran annoncent un nombre nu hors contexte.
   from.setAttribute('aria-valuetext', `année ${a}`);
   to.setAttribute('aria-valuetext',   `année ${b}`);
 
@@ -153,8 +136,6 @@ function resetDateFilter() {
   applyFilters();
 }
 
-/** Positionne poignées et champs de date depuis activeFilters.years (état venu
- *  de l'URL). Sans filtre, on affiche toute la période. Bornes sécurisées. */
 function syncDateInputs() {
   const [min, max] = DATE_RANGE;
   const from = document.getElementById('date-from');
@@ -168,7 +149,7 @@ function syncDateInputs() {
 
 /* ─── THÉSAURUS ─────────────────────────────────────────────────────────── */
 
-let THES_TERMS = [];              // [{term, count, cluster, url, source, documented}]
+let THES_TERMS = [];
 const CLUSTER_UNSORTED = 'Non classés';
 
 const SOURCE_LABELS = {
@@ -178,8 +159,6 @@ const SOURCE_LABELS = {
 };
 
 function buildThesaurusFilter() {
-  // On ne liste que les termes réellement portés par le corpus : le thésaurus
-  // compte 89 entrées, dont 71 ne qualifient aucun bâtiment.
   const counts = new Map();
   ALL_FEATURES.forEach(f => {
     (f.properties.terme_jantzen_bat || []).forEach(t => counts.set(t, (counts.get(t) || 0) + 1));
@@ -209,8 +188,6 @@ function renderThesaurusGroups(query) {
 
   const q = normalizeTerm(query);
   const matching = THES_TERMS.filter(t => {
-    // MODIFICATION ICI : On n'affiche le terme que s'il a au moins 1 résultat (t.count > 0)
-    // OU s'il est déjà sélectionné (pour pouvoir le décocher si besoin)
     const isVisible = t.count > 0 || activeFilters.thesaurus.has(t.term);
     const matchesQuery = q ? normalizeTerm(t.term).includes(q) : true;
     return isVisible && matchesQuery;
@@ -220,7 +197,6 @@ function renderThesaurusGroups(query) {
   if (empty) empty.hidden = matching.length > 0;
   if (matching.length === 0) return;
 
-  // Clusters par ordre alphabétique, « Non classés » toujours en dernier.
   const groups = new Map();
   matching.forEach(t => {
     if (!groups.has(t.cluster)) groups.set(t.cluster, []);
@@ -260,11 +236,10 @@ function buildTermRow(entry) {
   const chip = document.createElement('button');
   chip.type        = 'button';
   chip.className   = 'chip';
-  chip.textContent = capitalize(entry.term);
+  // ✨ MODIFICATION ICI : Ajout du compteur d'occurrences dans le libellé
+  chip.textContent = `${capitalize(entry.term)} (${entry.count})`;
   chip.dataset.id  = entry.term;
 
-  // `title` seul servirait de nom accessible et masquerait le terme :
-  // le libellé explicite porte les deux informations.
   const plural = `${entry.count} bâtiment${entry.count > 1 ? 's' : ''}`;
   chip.title = plural;
   chip.setAttribute('aria-label', `${capitalize(entry.term)}, ${plural}`);
@@ -274,8 +249,6 @@ function buildTermRow(entry) {
   chip.onclick = () => toggleThesaurusChip(chip, entry.term);
   row.appendChild(chip);
 
-  // Bouton d'infobulle seulement là où une définition existe : sur les 41
-  // termes du corpus, 18 seulement figurent au thésaurus.
   if (entry.documented) {
     const info = document.createElement('button');
     info.type      = 'button';
@@ -289,6 +262,7 @@ function buildTermRow(entry) {
 
   return row;
 }
+
 /* ─── DYNAMISATION ──────────────────────────────────────────── */
 
 function updateThesaurusData(featuresActuelles) {
@@ -299,7 +273,6 @@ function updateThesaurusData(featuresActuelles) {
     const termsArray = Array.isArray(rawTerms) ? rawTerms : [];
 
     termsArray.forEach(t => {
-      // Normalisation du terme brut venant du GeoJSON
       const normalizedTerm = normalizeText(t);
       if (normalizedTerm) {
         counts.set(normalizedTerm, (counts.get(normalizedTerm) || 0) + 1);
@@ -307,17 +280,13 @@ function updateThesaurusData(featuresActuelles) {
     });
   });
 
-  // Mise à jour des compteurs dans THES_TERMS en comparant les termes normalisés
   THES_TERMS.forEach(item => {
     const normItemTerm = normalizeText(item.term);
     item.count = counts.get(normItemTerm) || 0;
   });
 }
 
-
-
 function updateArrondissementsData(featuresActuelles) {
-  // 1. Décompte des bâtiments restants par arrondissement
   const counts = new Map();
   featuresActuelles.forEach(f => {
     const arr = Number(f.properties.arrondissement);
@@ -326,20 +295,16 @@ function updateArrondissementsData(featuresActuelles) {
     }
   });
 
-  // 2. Mise à jour de l'état cliquable/grisé de chaque puce
   document.querySelectorAll('.chip[data-arr]').forEach(chip => {
     const arr = Number(chip.dataset.arr);
     const count = counts.get(arr) || 0;
     const isActive = activeFilters.arrondissements.has(arr);
 
-    // Une puce est active/disponible s'il y a des résultats OU si elle est déjà cochée
     const isAvailable = count > 0 || isActive;
 
-    // État HTML disabled (empoche les clics et adapte l'accessibilité)
     chip.disabled = !isAvailable;
     chip.classList.toggle('disabled', !isAvailable);
 
-    // Infobulle explicative
     const labelArr = arr === 1 ? '1er' : `${arr}e`;
     if (!isAvailable) {
       chip.title = 'Aucun bâtiment pour ce filtre';
@@ -351,14 +316,8 @@ function updateArrondissementsData(featuresActuelles) {
     }
   });
 }
-/* ─── INFOBULLES DE DÉFINITION ──────────────────────────────────────────── */
 
-/*
- * Divulgation en flux plutôt qu'infobulle flottante : le panneau de filtres
- * défile et rogne son contenu, une carte positionnée en absolu y serait
- * tronquée. En flux, l'ordre de tabulation reste naturel — le lien de
- * référence suit immédiatement son bouton — et rien n'est masqué.
- */
+/* ─── INFOBULLES DE DÉFINITION ──────────────────────────────────────────── */
 
 function toggleTermDefinition(button, entry, row) {
   const open = button.getAttribute('aria-expanded') === 'true';
@@ -374,8 +333,6 @@ function toggleTermDefinition(button, entry, row) {
   card.textContent = 'Chargement de la définition…';
   row.after(card);
 
-  // La définition n'est téléchargée qu'ici : le fichier complet (60 Ko) n'est
-  // pas nécessaire au démarrage, l'index de 9,5 Ko suffit aux filtres.
   getTermDefinition(entry.term).then(def => {
     if (button.getAttribute('aria-expanded') !== 'true') return;
     renderDefinitionCard(card, entry, def);
@@ -393,8 +350,6 @@ function renderDefinitionCard(card, entry, def) {
     card.appendChild(p);
   });
 
-  // Un terme peut renvoyer à plusieurs référentiels (Wikipédia et
-  // data.culture.fr) : on expose chaque lien séparément.
   const references = def?.references || [];
   if (references.length > 0) {
     const list = document.createElement('ul');
@@ -415,8 +370,6 @@ function renderDefinitionCard(card, entry, def) {
     card.appendChild(list);
   }
 
-  // La provenance de la définition, distincte des liens : 22 termes du
-  // thésaurus portent un texte généré automatiquement, il faut le signaler.
   const source = SOURCE_LABELS[def?.source || entry.source];
   if (source) {
     const note = document.createElement('p');
@@ -565,16 +518,9 @@ function toggleFilterSection(btn) {
   btn.setAttribute('aria-expanded', String(isOpen));
 }
 
-
-
 /* ─── ARCHITECTES ────────────────────────────────────────────────────────── */
 
-/**
- * Initialise les données du filtre architecte.
- * @param {Array<{id_archi: number, libelle: string}>} personnesFiltre - La liste venant de personnes_filtre.json
- */
 function buildArchitectesFilter(personnesFiltre = []) {
-  // 1. Décompte des occurrences par ID d'architecte dans le GeoJSON
   const counts = new Map();
   ALL_FEATURES.forEach(f => {
     const personnes = f.properties.personnes || [];
@@ -586,7 +532,6 @@ function buildArchitectesFilter(personnesFiltre = []) {
     });
   });
 
-  // 2. Construction de la liste triée
   ARCHI_TERMS = personnesFiltre
     .map(p => {
       const idNum = Number(p.id_archi);
@@ -600,16 +545,13 @@ function buildArchitectesFilter(personnesFiltre = []) {
 
   const searchInput = document.getElementById('archi-search');
   if (searchInput) {
-    // Supprime les anciens écouteurs pour éviter les doublons
     searchInput.replaceWith(searchInput.cloneNode(true));
     document.getElementById('archi-search').addEventListener('input', e => {
       renderArchitectesList(e.target.value);
     });
   }
 
-  // 🔴 AJOUTER CETTE LIGNE : Mettre à jour les comptages avec les fonctionnalités chargées
   updateArchitectesData(ALL_FEATURES);
-
   renderArchitectesList(document.getElementById('archi-search')?.value || '');
 }
 
@@ -621,11 +563,8 @@ function renderArchitectesList(query) {
   const q = normalizeText(query);
 
   const matching = ARCHI_TERMS.filter(a => {
-    // Affiche l'architecte s'il a au moins 1 bâtiment correspondant dans les résultats courants (a.count > 0)
-    // OU s'il est actuellement sélectionné dans le filtre (pour pouvoir le décocher)
-    const isVisible = a.count > 0 || activeFilters.architectes.has(a.id);
+    const isVisible = a.count > 0 || activeFilters.architectes.has(Number(a.id));
     const matchesQuery = q ? normalizeText(a.libelle).includes(q) : true;
-    
     return isVisible && matchesQuery;
   });
 
@@ -638,15 +577,15 @@ function renderArchitectesList(query) {
   });
 }
 
-
 function buildArchiChipRow(entry) {
   const row = document.createElement('span');
-  row.className = 'thes-term'; // Même structure visuelle que Jantzen
+  row.className = 'thes-term';
 
   const chip = document.createElement('button');
   chip.type        = 'button';
   chip.className   = 'chip';
-  chip.textContent = entry.libelle;
+  // ✨ MODIFICATION ICI : Ajout du compteur d'occurrences dans le libellé
+  chip.textContent = `${entry.libelle} (${entry.count})`;
   chip.dataset.id  = entry.id;
 
   const plural = `${entry.count} bâtiment${entry.count > 1 ? 's' : ''}`;
@@ -660,7 +599,6 @@ function buildArchiChipRow(entry) {
   chip.onclick = () => toggleArchiChip(chip, entry.id);
   row.appendChild(chip);
 
-  // Remarque : Pas de bouton info 'i' ici
   return row;
 }
 
@@ -684,7 +622,6 @@ function updateArchitectesData(featuresActuelles) {
   const counts = new Map();
 
   featuresActuelles.forEach(f => {
-    // 1. Récupération depuis le tableau 'personnes' si présent
     const personnes = f.properties.personnes || [];
     personnes.forEach(p => {
       const id = p.personneID ?? p.id_archi ?? p.id;
@@ -696,7 +633,6 @@ function updateArchitectesData(featuresActuelles) {
       }
     });
 
-    // 2. Fallback si personneID est directement sur f.properties
     if (f.properties.personneID !== undefined && f.properties.personneID !== null) {
       const raw = f.properties.personneID;
       const ids = Array.isArray(raw) ? raw : [raw];
@@ -709,34 +645,7 @@ function updateArchitectesData(featuresActuelles) {
     }
   });
 
-  // Mise à jour de ARCHI_TERMS
   ARCHI_TERMS.forEach(item => {
     item.count = counts.get(Number(item.id)) || 0;
   });
 }
-
-function renderArchitectesList(query) {
-  const host  = document.getElementById('archi-chips-container');
-  const empty = document.getElementById('archi-empty');
-  if (!host) return;
-
-  const q = normalizeText(query);
-
-  const matching = ARCHI_TERMS.filter(a => {
-    // Affiché si le compte est > 0 OU s'il est déjà coché par l'utilisateur
-    const isVisible = a.count > 0 || activeFilters.architectes.has(Number(a.id));
-    const matchesQuery = q ? normalizeText(a.libelle).includes(q) : true;
-    
-    return isVisible && matchesQuery;
-  });
-
-  host.innerHTML = '';
-  if (empty) empty.hidden = matching.length > 0;
-  if (matching.length === 0) return;
-
-  matching.forEach(entry => {
-    host.appendChild(buildArchiChipRow(entry));
-  });
-}
-
-
