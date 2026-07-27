@@ -268,7 +268,8 @@ function applyFilters() {
     });
   }
 
-  // Mise à jour de l'UI du thésaurus (compteurs) basée sur les données filtrées
+  // Mise à jour de l'UI du thésaurus et du filtre arrondissements (compteurs) basée sur les données filtrées
+  updateArrondissementsData(filteredFeatures);
   updateThesaurusData(filteredFeatures);
   const thesSearchVal = document.getElementById('thesaurus-search')?.value || '';
   renderThesaurusGroups(thesSearchVal);

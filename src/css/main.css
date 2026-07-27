@@ -744,6 +744,17 @@ button { font-family: inherit; }
 
 .thes-empty { font-size: var(--text-interface-caption-size); color: var(--text-secondary); }
 
+/* Style pour les puces de filtre désactivées */
+.chip:disabled,
+.chip.disabled {
+  opacity: 0.35;
+  cursor: not-allowed;
+  pointer-events: none; /* Empêche les clics et le hover */
+  background-color: var(--color-bg-disabled, #e0e0e0);
+  color: var(--color-text-disabled, #888888);
+  border-color: transparent;
+}
+
 /* ─── FOCUS VISIBLE (RGAA 10.7) ──────────────────────────────────────────── */
 :focus-visible {
   outline: 2px solid var(--focus-on-background-default);

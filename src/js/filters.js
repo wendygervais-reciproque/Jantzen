@@ -313,6 +313,43 @@ function updateThesaurusData(featuresActuelles) {
     item.count = counts.get(normItemTerm) || 0;
   });
 }
+
+
+function updateArrondissementsData(featuresActuelles) {
+  // 1. Décompte des bâtiments restants par arrondissement
+  const counts = new Map();
+  featuresActuelles.forEach(f => {
+    const arr = Number(f.properties.arrondissement);
+    if (arr) {
+      counts.set(arr, (counts.get(arr) || 0) + 1);
+    }
+  });
+
+  // 2. Mise à jour de l'état cliquable/grisé de chaque puce
+  document.querySelectorAll('.chip[data-arr]').forEach(chip => {
+    const arr = Number(chip.dataset.arr);
+    const count = counts.get(arr) || 0;
+    const isActive = activeFilters.arrondissements.has(arr);
+
+    // Une puce est active/disponible s'il y a des résultats OU si elle est déjà cochée
+    const isAvailable = count > 0 || isActive;
+
+    // État HTML disabled (empoche les clics et adapte l'accessibilité)
+    chip.disabled = !isAvailable;
+    chip.classList.toggle('disabled', !isAvailable);
+
+    // Infobulle explicative
+    const labelArr = arr === 1 ? '1er' : `${arr}e`;
+    if (!isAvailable) {
+      chip.title = 'Aucun bâtiment pour ce filtre';
+      chip.setAttribute('aria-label', `${labelArr} arrondissement (aucun résultat)`);
+    } else {
+      const plural = `${count} bâtiment${count > 1 ? 's' : ''}`;
+      chip.title = plural;
+      chip.setAttribute('aria-label', `${labelArr} arrondissement, ${plural}`);
+    }
+  });
+}
 /* ─── INFOBULLES DE DÉFINITION ──────────────────────────────────────────── */
 
 /*
@@ -655,3 +692,5 @@ function updateArchitectesData(featuresActuelles) {
     item.count = counts.get(item.id) || 0;
   });
 }
+
+
