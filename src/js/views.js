@@ -27,9 +27,13 @@ function renderCurrentView(features) {
 function setView(view) {
   if (view === currentView) return;
 
-  // Chaque vue a sa propre présentation du détail : on repart d'une sélection
-  // vierge pour éviter qu'un panneau d'une vue persiste dans l'autre.
-  if (selectedId !== null && typeof deselectBatiment === 'function') deselectBatiment();
+  // Les deux vues sont les deux revers de la même pièce : la sélection est
+  // conservée d'une vue à l'autre. On ferme seulement les surfaces de détail de
+  // la vue qu'on quitte (chaque vue a sa propre présentation), sans désélectionner,
+  // puis on ré-affiche le bâtiment dans la vue d'arrivée.
+  if (selectedId !== null && typeof clearSelectionSurfaces === 'function') {
+    clearSelectionSurfaces();
+  }
 
   currentView = view;
   document.getElementById('app')?.classList.toggle('is-mosaic', view === 'mosaic');
@@ -51,7 +55,14 @@ function setView(view) {
     // Leaflet mesure mal un conteneur qui était masqué : on force le recalcul.
     map.invalidateSize();
   }
+
+  // Ré-affiche le détail du bâtiment sélectionné dans la présentation de la vue.
+  if (selectedId !== null && typeof presentSelection === 'function') {
+    presentSelection(selectedId);
+  }
+
   updateStageEmpty(currentResults);
+  if (typeof writeStateToHash === 'function') writeStateToHash('push');
 }
 
 function updateResultsCount(features) {
