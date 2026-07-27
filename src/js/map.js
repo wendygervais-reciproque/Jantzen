@@ -204,26 +204,20 @@ function showBuildingView() {
         const marker = L.marker(latlng, { icon });
         markerMap[id_bat] = marker;
 
-        let popup = `<div class="popup-inner">
-          <div class="popup-name">${p.libelle || 'Bâtiment sans nom'}</div>`;
+        // Card partagée avec la mosaïque, reconstruite à l'ouverture (données
+        // mutualisées en cache). Popup sans croix ; toute la card est cliquable.
+        marker.bindPopup(() => buildMapCard(p), {
+          closeButton:  false,
+          autoPan:      false,
+          closeOnClick: false,
+          className:    'bldg-card-popup',
+          minWidth: 210, maxWidth: 210
+        });
 
-        if (p.ensemble) {
-          popup += `<div class="popup-meta">${p.ensemble}</div>`;
-        }
-
-        if (p.terme_jantzen_bat && p.terme_jantzen_bat.length > 0) {
-          popup += `<div class="popup-tags" style="font-size:0.8em; color:#666; margin-top:4px;">
-                      ${p.terme_jantzen_bat.slice(0, 4).join(', ')}${p.terme_jantzen_bat.length > 4 ? '...' : ''}
-                    </div>`;
-        }
-
-        popup += `<button class="popup-btn" style="margin-top:8px;" onclick="selectBatiment('${id_bat}')">Voir la fiche</button>
-        </div>`;
-
-        marker.bindPopup(popup, { maxWidth: 240, minWidth: 180 });
-        marker.on('mouseover', function () { this.openPopup(); });
-        marker.on('mouseout', function () { this.closePopup(); });
-        marker.on('click', () => selectBatiment(id_bat));
+        marker.on('mouseover', () => openPoiCard(id_bat));
+        marker.on('mouseout',  () => schedulePoiCardClose(id_bat));
+        marker.on('popupopen', e => bindCardBridge(e.popup, id_bat));
+        marker.on('click',     () => togglePoiClick(id_bat));
         return marker;
       }
     }
@@ -231,9 +225,97 @@ function showBuildingView() {
 
   clusterGroup.addLayer(layer);
 
-  if (typeof selectedId !== 'undefined' && selectedId) {
-    openMarkerPopup(selectedId);
+  // Ré-applique l'état « activé » du POI (sélection ou card épinglée) après
+  // reconstruction des marqueurs.
+  refreshPoiActive();
+}
+
+/* ─── CARD (APERÇU) & INTERACTION DES POI ───────────────────────────────────
+ *
+ * Deux niveaux de « focus » pour un POI, matérialisés par l'état visuel
+ * .marker-poi.active :
+ *   • épinglé  — card d'aperçu maintenue ouverte (clic sur le POI) ;
+ *   • sélectionné — page bâtiment ouverte (clic sur la card).
+ * Le survol ouvre la card de façon transitoire, avec un « pont » permettant de
+ * glisser la souris du POI jusqu'à la card sans qu'elle se referme.
+ */
+
+let poiPinnedId       = null;   // POI dont la card est épinglée (aperçu, page non ouverte)
+let poiCardCloseTimer = null;   // fermeture différée (pont de survol)
+let poiCardHovered    = false;  // la souris est au-dessus de la card ouverte
+
+/** Contenu du popup : la card partagée + clic → page bâtiment, + enrichissement. */
+function buildMapCard(props) {
+  const card = buildBuildingCard(props);
+  card.onclick = () => {
+    poiPinnedId = null;            // la page prend le relais de l'aperçu
+    map.closePopup();
+    selectBatiment(props.id_bat);  // ouvre la page ; le POI reste activé
+  };
+  getBatiment(props.id_bat).then(data => enrichBuildingCard(card, data)).catch(() => {});
+  return card;
+}
+
+/** Ouvre (ou garde ouverte) la card d'un POI au survol. */
+function openPoiCard(id) {
+  clearTimeout(poiCardCloseTimer);
+  const marker = markerMap[id];
+  if (marker && !marker.isPopupOpen()) marker.openPopup();
+}
+
+/** Ferme la card après un court délai, sauf si épinglée ou survolée (pont). */
+function schedulePoiCardClose(id) {
+  clearTimeout(poiCardCloseTimer);
+  poiCardCloseTimer = setTimeout(() => {
+    if (poiPinnedId === id || poiCardHovered) return;
+    markerMap[id]?.closePopup();
+  }, 140);
+}
+
+/** Pont de survol : garder la card ouverte quand la souris passe dessus. */
+function bindCardBridge(popup, id) {
+  const el = popup.getElement();
+  if (!el) return;
+  el.addEventListener('mouseenter', () => { poiCardHovered = true; clearTimeout(poiCardCloseTimer); });
+  el.addEventListener('mouseleave', () => { poiCardHovered = false; schedulePoiCardClose(id); });
+}
+
+/** Clic sur un POI : épingle / dés-épingle la card, ou ferme la page (toggle). */
+function togglePoiClick(id) {
+  if (String(selectedId) === String(id)) {   // page ouverte pour ce bâtiment
+    deselectBatiment();                       // reclic → ferme la page
+    return;
   }
+  if (poiPinnedId === id) {                   // card déjà épinglée
+    poiPinnedId = null;                       // reclic → ferme la card
+    markerMap[id]?.closePopup();
+    refreshPoiActive();
+    return;
+  }
+  if (selectedId != null) deselectBatiment(); // un seul focus : on ferme l'autre page
+  poiPinnedId = id;                           // épingle ce POI
+  refreshPoiActive();
+  openPoiCard(id);
+}
+
+/** Applique .active au POI focalisé (sélection prioritaire, sinon épinglé). */
+function refreshPoiActive() {
+  const activeId = (typeof selectedId !== 'undefined' && selectedId != null)
+    ? String(selectedId)
+    : (poiPinnedId != null ? String(poiPinnedId) : null);
+
+  document.querySelectorAll('.marker-poi.active').forEach(el => {
+    if (el.dataset.id !== activeId) el.classList.remove('active');
+  });
+  if (activeId) {
+    document.querySelector(`.marker-poi[data-id="${CSS.escape(activeId)}"]`)?.classList.add('active');
+  }
+}
+
+/** Abandonne le focus POI (appelé à la désélection depuis ui.js). */
+function clearPoiFocus() {
+  poiPinnedId = null;
+  refreshPoiActive();
 }
 
 /* ─── NAVIGATION VERS UN BÂTIMENT ───────────────────────────────────────── */
@@ -259,7 +341,6 @@ function flyToFeature(id_bat) {
 
 clusterGroup.zoomToShowLayer(marker, () => {
   map.panTo(marker.getLatLng(), { animate: true });
-  map.once('moveend', () => marker.openPopup());
 });
 }
 

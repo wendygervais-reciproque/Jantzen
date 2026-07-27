@@ -38,8 +38,9 @@ function presentSelection(id_bat, options = {}) {
     return;
   }
   if (typeof flyToFeature === 'function') flyToFeature(id_bat);
-  // openMarkerPopup(id_bat) devient inutile — géré par le callback de zoomToShowLayer
   loadDetailAndShow(id_bat, options);
+  // Le POI du bâtiment ouvert reste « activé » (utile quand la card est fermée).
+  if (typeof refreshPoiActive === 'function') refreshPoiActive();
 }
 
 function deselectBatiment() {
@@ -55,6 +56,7 @@ function clearSelectionSurfaces() {
   closeCarousel();
   if (typeof closeMosaicDetail === 'function') closeMosaicDetail();
   if (typeof closeAllPopups === 'function' && currentView === 'map') closeAllPopups();
+  if (typeof clearPoiFocus === 'function') clearPoiFocus();
 }
 
 /* ─── CHARGEMENT DE LA FICHE ────────────────────────────────────────────── */

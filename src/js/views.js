@@ -100,37 +100,13 @@ function renderMosaic(features) {
 }
 
 function buildMosaicTile(p) {
-  const tile = document.createElement('button');
-  tile.type      = 'button';
-  tile.className = 'mosaic-tile';
-  tile.dataset.id = p.id_bat;
-  tile.setAttribute('aria-label', p.libelle || `Bâtiment ${p.id_bat}`);
+  // Même composant que le popup carte. `.mosaic-tile` reste posé en crochet pour
+  // le lazy-load des couvertures et le marquage de sélection.
+  const tile = buildBuildingCard(p);
+  tile.classList.add('mosaic-tile');
   if (String(selectedId) === String(p.id_bat)) tile.classList.add('is-active');
-
-tile.innerHTML = `
-    <div class="mosaic-thumb">
-      <svg class="thumb-skeleton" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
-        <defs>
-          <linearGradient id="skeleton-shine" x1="0" y1="0" x2="1" y2="0">
-            <stop offset="0%"  stop-color="currentColor" stop-opacity="0.08" />
-            <stop offset="50%" stop-color="currentColor" stop-opacity="0.18" />
-            <stop offset="100%" stop-color="currentColor" stop-opacity="0.08" />
-            <animateTransform attributeName="gradientTransform" type="translate"
-              from="-1 0" to="1 0" dur="1.4s" repeatCount="indefinite" />
-          </linearGradient>
-        </defs>
-        <rect width="100" height="100" fill="currentColor" opacity="0.06" />
-        <rect width="100" height="100" fill="url(#skeleton-shine)" />
-      </svg>
-    </div>
-    <span class="mosaic-arr">${p.arrondissement ? ordinalArr(p.arrondissement) : ''}</span>
-    <div class="mosaic-info">
-      <span class="mosaic-name">${p.libelle || 'Bâtiment sans nom'}</span>
-${p.ensemble ? `<span class="mosaic-meta">${p.ensemble}</span>` : ''}
-    </div>`;
-
-tile.onclick = () => selectBatiment(p.id_bat, { fullscreen: true });
-return tile;
+  tile.onclick = () => selectBatiment(p.id_bat, { fullscreen: true });
+  return tile;
 }
 
 /* ─── VIGNETTES DE COUVERTURE (chargement paresseux) ────────────────────── */
@@ -182,18 +158,8 @@ async function loadCover(tile) {
   try {
     data = await getBatiment(tile.dataset.id);
   } catch {
-    return;   // la tuile garde son placeholder
+    return;   // la tuile garde son squelette
   }
-
-  // `image_ref` de la fiche, à défaut la première photographie indexée.
-  const src = photoUrl(data.image_ref) || photoUrl(data.photos?.[0]?.id_pic);
-  const thumb = tile.querySelector('.mosaic-thumb');
-  if (!src || !thumb) return;
-
-  const img = document.createElement('img');
-  img.alt = '';
-  img.decoding = 'async';
-  img.onload  = () => { thumb.innerHTML = ''; thumb.appendChild(img); };
-  img.onerror = function () { retryUppercaseJpg(this); };
-  img.src = src;
+  // Image de référence + personnes : enrichissement partagé avec le popup carte.
+  enrichBuildingCard(tile, data);
 }
