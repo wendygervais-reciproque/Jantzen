@@ -11,6 +11,13 @@
 const MD_MIN = 400, MD_MAX = 900;   // défaut = min ; la tirette n'élargit que
 const PANEL_STEP = 40;              // pas de redimensionnement au clavier
 
+/* ⚙️ RÉGLAGES — mosaïque justifiée des photos. La hauteur de rangée visée croît
+   avec la largeur du conteneur : plus le volet est large, plus les rangées sont
+   hautes (donc moins de photos, mais plus grandes, par rangée). */
+const ROW_H_MIN = 240, ROW_H_MAX = 400;   // hauteur de rangée visée, en px…
+const ROW_W_MIN = 400, ROW_W_MAX = 900;   // …interpolée entre ces largeurs de conteneur
+const DEFAULT_RATIO = 3 / 4;               // ratio portrait, dominant dans le fonds
+
 /* ─── OUVERTURE / FERMETURE ─────────────────────────────────────────────── */
 
 async function openMosaicDetail(id_bat) {
@@ -46,6 +53,7 @@ function closeMosaicDetail() {
   const panel = document.getElementById('mosaic-detail');
   if (panel) panel.hidden = true;
   document.getElementById('app')?.classList.remove('has-detail');
+  teardownMosaicLayout();
 }
 
 /* ─── RENDU DES INFOS ───────────────────────────────────────────────────── */
@@ -147,10 +155,17 @@ function renderMosaicElements(host, terms) {
 
 /* ─── RENDU DES PHOTOS ──────────────────────────────────────────────────── */
 
-function renderMosaicPhotos(data) {
+// État du layout courant, pour que le ResizeObserver puisse recalculer sans
+// tout reconstruire, et qu'on puisse tout démonter à la fermeture du volet.
+let mosaicRO       = null;   // ResizeObserver du conteneur des photos
+let mosaicRelayout = null;   // fonction de recalcul courante (ou null)
+let mosaicRafId    = 0;      // throttle rAF des rafales de redimensionnement
+
+async function renderMosaicPhotos(data) {
   const host  = document.getElementById('md-photos');
   const label = document.getElementById('md-photos-label');
   if (!host) return;
+  teardownMosaicLayout();
   host.innerHTML = '';
 
   const photos = Array.isArray(data.photos) ? data.photos : [];
@@ -160,31 +175,127 @@ function renderMosaicPhotos(data) {
   }
   if (photos.length === 0) return;
 
-  // Liste normalisée pour la visionneuse : même ordre que la galerie.
+  // Liste normalisée pour la visionneuse : même ordre que la galerie. Chaque
+  // entrée porte aussi son ratio (largeur/hauteur), complété plus bas.
   const gallery = photos.map(ph => ({
     src:     photoUrl(ph.id_pic),
-    caption: (ph.IndexJantzen || []).map(capitalize).join(' · ')
+    caption: (ph.IndexJantzen || []).map(capitalize).join(' · '),
+    id_pic:  ph.id_pic,
+    ratio:   DEFAULT_RATIO
   }));
 
-  photos.forEach((ph, i) => {
+  // Les tuiles sont créées une seule fois ; le layout ne fait ensuite que régler
+  // leur largeur/hauteur. On garde l'ordre gauche→droite (= ordre visionneuse).
+  const tiles = gallery.map((g, i) => {
     const btn = document.createElement('button');
     btn.type      = 'button';
     btn.className = 'md-photo';
-    btn.setAttribute('aria-label', gallery[i].caption
-      ? `Agrandir la photographie : ${gallery[i].caption}`
+    btn.setAttribute('aria-label', g.caption
+      ? `Agrandir la photographie : ${g.caption}`
       : 'Agrandir la photographie');
 
     const img = document.createElement('img');
-    img.alt      = gallery[i].caption || '';
+    img.alt      = g.caption || '';
     img.loading  = 'lazy';
     img.decoding = 'async';
-    img.src      = gallery[i].src;
+    img.src      = g.src;
     img.onerror  = function () { retryUppercaseJpg(this); };
+    // Filet de sécurité : si un ratio manquait dans photos.json, on le corrige
+    // dès que l'image réelle est chargée, puis on relance le layout.
+    img.addEventListener('load', () => {
+      if (!img.naturalWidth || !img.naturalHeight) return;
+      const r = img.naturalWidth / img.naturalHeight;
+      if (Math.abs(r - g.ratio) > 0.01) { g.ratio = r; scheduleMosaicRelayout(); }
+    });
     btn.appendChild(img);
 
     btn.onclick = () => openGalleryLightbox(gallery, i);
     host.appendChild(btn);
+    return btn;
   });
+
+  mosaicRelayout = () => layoutJustified(host, tiles, gallery);
+
+  // Ratios connus d'avance (photos.json) → première disposition sans attendre
+  // le chargement des images. Puis on observe la largeur du conteneur.
+  const ratios = await loadPhotoRatios();
+  if (String(selectedId) !== String(data.id_bat)) return;   // sélection changée
+  gallery.forEach(g => {
+    const r = ratios.get(photoRatioKey(g.id_pic));
+    if (r) g.ratio = r;
+  });
+
+  mosaicRelayout();
+
+  // Redimensionnement du volet : ResizeObserver est déjà cadencé par frame (spec),
+  // et poser la taille des tuiles n'altère pas la largeur du conteneur (pas de
+  // boucle). On relaie donc DIRECTEMENT, pour toujours lire la largeur courante —
+  // un throttle rAF risquerait d'abandonner l'appel de la largeur finale.
+  mosaicRO = new ResizeObserver(() => mosaicRelayout?.());
+  mosaicRO.observe(host);
+}
+
+/** Coalesce les rafales de chargement d'images en un seul relayout par frame.
+ *  (Sûr ici : chaque `load` a déjà committé son ratio avant d'appeler.) */
+function scheduleMosaicRelayout() {
+  if (mosaicRafId) return;
+  mosaicRafId = requestAnimationFrame(() => {
+    mosaicRafId = 0;
+    mosaicRelayout?.();
+  });
+}
+
+/* ─── MOSAÏQUE JUSTIFIÉE ─────────────────────────────────────────────────── */
+
+/** Hauteur de rangée visée, croissant linéairement avec la largeur `W` du
+ *  conteneur, bornée à [ROW_H_MIN, ROW_H_MAX]. */
+function targetRowHeight(W) {
+  const t = (W - ROW_W_MIN) / (ROW_W_MAX - ROW_W_MIN);
+  const clamped = Math.max(0, Math.min(1, t));
+  return ROW_H_MIN + clamped * (ROW_H_MAX - ROW_H_MIN);
+}
+
+/**
+ * Dispose les tuiles en rangées justifiées :
+ *   • on remplit une rangée à la hauteur cible jusqu'à ce qu'elle déborde ;
+ *   • on résout alors la hauteur réelle pour que la rangée occupe pile `W` ;
+ *   • la dernière rangée (incomplète) reste à la hauteur cible, sauf si elle
+ *     déborderait — auquel cas elle est justifiée elle aussi.
+ * La largeur d'une tuile à la hauteur `h` vaut `h × ratio`.
+ */
+function layoutJustified(host, tiles, gallery) {
+  const W = host.clientWidth;
+  if (W <= 0) return;
+  const gap    = parseFloat(getComputedStyle(host).columnGap) || 0;
+  const Hcible = targetRowHeight(W);
+
+  let row = [], sumRatios = 0;
+
+  const flush = isLast => {
+    if (row.length === 0) return;
+    const gaps = (row.length - 1) * gap;
+    const natW = Hcible * sumRatios + gaps;            // largeur à la hauteur cible
+    const h    = (isLast && natW <= W) ? Hcible : (W - gaps) / sumRatios;
+    row.forEach(i => {
+      tiles[i].style.width  = `${Math.floor(h * gallery[i].ratio)}px`;
+      tiles[i].style.height = `${Math.round(h)}px`;
+    });
+    row = []; sumRatios = 0;
+  };
+
+  gallery.forEach((g, i) => {
+    row.push(i);
+    sumRatios += g.ratio;
+    if (Hcible * sumRatios + (row.length - 1) * gap >= W) flush(false);
+  });
+  flush(true);
+}
+
+/** Démonte l'observateur et oublie le layout courant (fermeture / re-rendu). */
+function teardownMosaicLayout() {
+  if (mosaicRO) { mosaicRO.disconnect(); mosaicRO = null; }
+  if (mosaicRafId) { cancelAnimationFrame(mosaicRafId); mosaicRafId = 0; }
+  mosaicRelayout = null;
 }
 
 /* ─── REDIMENSIONNEMENT (tirette) ───────────────────────────────────────── */

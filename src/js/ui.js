@@ -22,23 +22,35 @@ function selectBatiment(id_bat, options = {}) {
     el.classList.toggle('is-active', String(el.dataset.id) === String(id_bat));
   });
 
-  // En mosaïque, le détail vit dans le volet gauche docké : ni fiche flottante
-  // ni carrousel coverflow (réservés à la vue carte).
+  presentSelection(id_bat, options);
+  if (typeof writeStateToHash === 'function') writeStateToHash('push');
+}
+
+/**
+ * Affiche le bâtiment sélectionné dans la présentation propre à la vue active :
+ * fiche flottante + carrousel coverflow en vue carte, volet gauche docké en
+ * mosaïque. Séparé de selectBatiment pour pouvoir ré-afficher à l'identique lors
+ * d'une bascule de vue, sans repasser par la sélection (ni ré-écrire l'URL).
+ */
+function presentSelection(id_bat, options = {}) {
   if (currentView === 'mosaic') {
     openMosaicDetail(id_bat);
     return;
   }
-
-if (currentView === 'map') {
   if (typeof flyToFeature === 'function') flyToFeature(id_bat);
   // openMarkerPopup(id_bat) devient inutile — géré par le callback de zoomToShowLayer
-}
   loadDetailAndShow(id_bat, options);
 }
 
 function deselectBatiment() {
   selectedId = null;
   document.querySelectorAll('.mosaic-tile').forEach(el => el.classList.remove('is-active'));
+  clearSelectionSurfaces();
+  if (typeof writeStateToHash === 'function') writeStateToHash('push');
+}
+
+/** Ferme toutes les surfaces de détail (des deux vues) sans toucher selectedId. */
+function clearSelectionSurfaces() {
   closeInfoPanel();
   closeCarousel();
   if (typeof closeMosaicDetail === 'function') closeMosaicDetail();

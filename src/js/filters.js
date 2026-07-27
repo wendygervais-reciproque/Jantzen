@@ -33,6 +33,19 @@ function buildArrChips() {
   });
 }
 
+/**
+ * Resynchronise l'état visuel des puces d'arrondissement depuis activeFilters.
+ * Nécessaire quand l'état provient de l'URL (et non d'un clic) : les puces ne
+ * sont construites qu'une fois, leur classe active n'est sinon posée qu'au clic.
+ */
+function syncArrChips() {
+  document.querySelectorAll('.chip[data-arr]').forEach(chip => {
+    const on = activeFilters.arrondissements.has(Number(chip.dataset.arr));
+    chip.classList.toggle('active', on);
+    chip.setAttribute('aria-pressed', String(on));
+  });
+}
+
 /* ─── TEMPORALITÉ ───────────────────────────────────────────────────────── */
 
 /*
@@ -138,6 +151,19 @@ function resetDateFilter() {
   activeFilters.years = null;
   updateDateUI();
   applyFilters();
+}
+
+/** Positionne poignées et champs de date depuis activeFilters.years (état venu
+ *  de l'URL). Sans filtre, on affiche toute la période. Bornes sécurisées. */
+function syncDateInputs() {
+  const [min, max] = DATE_RANGE;
+  const from = document.getElementById('date-from');
+  const to   = document.getElementById('date-to');
+  if (!from || !to) return;
+  const [a, b] = activeFilters.years || [min, max];
+  from.value = Math.max(min, Math.min(Number(a), max));
+  to.value   = Math.max(min, Math.min(Number(b), max));
+  updateDateUI();
 }
 
 /* ─── THÉSAURUS ─────────────────────────────────────────────────────────── */

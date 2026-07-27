@@ -159,6 +159,39 @@ function photoUrl(idPic) {
   return `${PHOTO_BASE}/${encodeURIComponent(name)}.jpg`;
 }
 
+/* ─── DIMENSIONS DES PHOTOGRAPHIES (ratios pour la mosaïque justifiée) ────── */
+
+// photos.json (~1 574 entrées) n'est chargé qu'une fois, à la première galerie
+// ouverte : il fournit les dimensions natives, ce qui permet de disposer les
+// photos en rangées justifiées AVANT même que les images ne soient chargées.
+let photoRatiosPromise = null;
+
+function loadPhotoRatios() {
+  if (!photoRatiosPromise) {
+    photoRatiosPromise = fetch(`${DATA_BASE}/photos.json`)
+      .then(r => r.ok ? r.json() : [])
+      .then(list => {
+        const map = new Map();
+        (Array.isArray(list) ? list : []).forEach(p => {
+          const d = p && p.dimensions;
+          if (!p || !p.fichier || !d || !d.largeur || !d.hauteur) return;
+          map.set(photoRatioKey(p.fichier), d.largeur / d.hauteur);
+        });
+        return map;
+      })
+      .catch(() => new Map());
+  }
+  return photoRatiosPromise;
+}
+
+/** Clé de rapprochement id_pic ↔ fichier : sans extension, insensible à la casse. */
+function photoRatioKey(name) {
+  return String(name || '')
+    .replace(/^image_/, '')
+    .replace(/\.[^.]+$/, '')
+    .toLowerCase();
+}
+
 /* ─── FICHES BÂTIMENT (chargement mutualisé) ────────────────────────────── */
 
 const batimentCache = new Map();   // id_bat → Promise<fiche>

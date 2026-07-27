@@ -37,31 +37,65 @@ document.addEventListener('DOMContentLoaded', async () => {
   bindMosaicDetail();
   bindKeyboard();
 
-  // ── Routage URL ────────────────────────────────────────────────────────
-  wireUrlRouting();
-  const initialId = getIdFromPath(window.location.pathname);
-  if (initialId) selectBatiment(initialId);
+  // ── État partagé dans l'URL ─────────────────────────────────────────────
+  applyStateFromHash();
+  window.addEventListener('popstate',   onHistoryNav);
+  window.addEventListener('hashchange', onHistoryNav);
 });
 
 /* ─── RECHERCHE ─────────────────────────────────────────────────────────── */
-
 function bindSearch() {
   const input = document.getElementById('search-input');
   const clear = document.getElementById('search-clear');
+  let searchDebounceTimer = null;
 
   input?.addEventListener('input', e => {
     searchQuery = e.target.value.trim();
     if (clear) clear.hidden = !searchQuery;
-    applyFilters();
+    if (searchQuery.length > 0) {
+      resetOtherFiltersUI();
+    }
+    clearTimeout(searchDebounceTimer);
+    searchDebounceTimer = setTimeout(() => {
+      applyFilters();
+    }, 1000);
   });
 
   clear?.addEventListener('click', () => {
+    clearTimeout(searchDebounceTimer);
     if (input) input.value = '';
     searchQuery = '';
     clear.hidden = true;
     applyFilters();
     input?.focus();
   });
+}
+
+// Réinitialise les données ET l'UI de tous les filtres sauf la recherche
+function resetOtherFiltersUI() {
+  // 1. Arrondissements — chips
+  activeFilters.arrondissements.clear();
+  document.querySelectorAll('#arr-chips .chip').forEach(chip => {
+    chip.classList.remove('active');
+    chip.setAttribute('aria-pressed', 'false');
+  });
+
+  // 2. Temporalité — sliders + inputs
+  activeFilters.years = null;
+  const dateFromInput = document.getElementById('date-from-input');
+  const dateToInput   = document.getElementById('date-to-input');
+  const dateFrom      = document.getElementById('date-from');
+  const dateTo        = document.getElementById('date-to');
+  if (dateFromInput) dateFromInput.value = '';
+  if (dateToInput)   dateToInput.value   = '';
+  if (dateFrom && dateFrom.min) dateFrom.value = dateFrom.min;
+  if (dateTo && dateTo.max)     dateTo.value   = dateTo.max;
+  document.getElementById('date-reset')?.click(); // si ce bouton sait déjà tout remettre à zéro proprement
+
+  // 3. Thésaurus
+  activeFilters.thesaurus.clear();
+  const thesSearchVal = document.getElementById('thesaurus-search')?.value || '';
+  renderThesaurusGroups(thesSearchVal);
 }
 
 /* ─── NAVIGATION (marque, à propos, pages) ──────────────────────────────── */
@@ -247,50 +281,145 @@ function applyFilters() {
   // Rendu final de la vue et des tags
   renderCurrentView(filteredFeatures);
   renderActiveTags();
+
+  // Reflet dans l'URL : recherche + filtres passent tous par ici. En `replace`
+  // pour ne pas empiler une entrée d'historique à chaque cran/frappe.
+  if (typeof writeStateToHash === 'function') writeStateToHash('replace');
 }
 
-/* ─── ROUTAGE URL (/batiment/:id) ───────────────────────────────────────── */
+/* ─── ÉTAT PARTAGÉ DANS LE HASH D'URL ───────────────────────────────────────
+ *
+ * L'état complet de l'app — vue, filtres, recherche, bâtiment ouvert — vit dans
+ * le hash : #v=mosaic&arr=7,16&an=1900-1914&th=facade,garde-corps&q=leroux&bat=1663
+ *
+ * Le hash n'étant jamais envoyé au serveur, recharger n'importe quelle URL
+ * demande toujours « / » (qui existe) : plus de 404 ni de page d'erreur, sur
+ * n'importe quel serveur statique. Les deux vues lisent le même état, donc la
+ * bascule carte↔mosaïque conserve filtres et sélection ; un lien reproduit
+ * l'état exact.
+ */
 
-const ROUTE_BASE = '/batiment/';
-let suppressUrlSync = false; // évite de re-pousser l'URL pendant un popstate
+let applyingState   = false;   // vrai pendant l'application : on n'écrit pas ce qu'on lit
+let lastWrittenHash = null;    // dernier hash posé par nous (garde anti-double-application)
 
-function getIdFromPath(path) {
-  const m = path.match(/\/batiment\/([^/?#]+)/);
-  return m ? decodeURIComponent(m[1]) : null;
-}
-
-function pathForId(id) {
-  return id != null ? `${ROUTE_BASE}${encodeURIComponent(id)}` : '/';
-}
-
-function syncUrlForSelection(id) {
-  if (suppressUrlSync) return;
-  const target = pathForId(id);
-  if (target === window.location.pathname) return;
-  history.pushState({ id_bat: id }, '', target);
-}
-
-function wireUrlRouting() {
-  const originalSelect   = selectBatiment;
-  const originalDeselect = deselectBatiment;
-  window.selectBatiment = function (id_bat, options) {
-    originalSelect(id_bat, options);
-    syncUrlForSelection(id_bat);
+function currentAppState() {
+  return {
+    view:  typeof currentView !== 'undefined' ? currentView : 'map',
+    arr:   [...activeFilters.arrondissements],
+    years: activeFilters.years,
+    thes:  [...activeFilters.thesaurus],
+    query: searchQuery,
+    bat:   selectedId != null ? String(selectedId) : null
   };
-  window.deselectBatiment = function () {
-    originalDeselect();
-    syncUrlForSelection(null);
-  };
-  window.addEventListener('popstate', () => {
-    const id = getIdFromPath(window.location.pathname);
-    suppressUrlSync = true;
-    try {
-      if (id) selectBatiment(id);
-      else deselectBatiment();
-    } finally {
-      suppressUrlSync = false;
+}
+
+function serializeState(s) {
+  const parts = [];
+  if (s.view && s.view !== 'map')  parts.push(`v=${s.view}`);
+  if (s.arr && s.arr.length)       parts.push(`arr=${s.arr.join(',')}`);
+  if (s.years)                     parts.push(`an=${s.years[0]}-${s.years[1]}`);
+  if (s.thes && s.thes.length)     parts.push(`th=${s.thes.map(termSlug).join(',')}`);
+  if (s.query)                     parts.push(`q=${encodeURIComponent(s.query)}`);
+  if (s.bat != null)               parts.push(`bat=${encodeURIComponent(s.bat)}`);
+  return parts.length ? `#${parts.join('&')}` : '';
+}
+
+function parseHash(hash) {
+  const s = { view: 'map', arr: [], years: null, thes: [], query: '', bat: null };
+  const raw = (hash || '').replace(/^#/, '');
+  if (!raw) return s;
+  raw.split('&').forEach(pair => {
+    const i = pair.indexOf('=');
+    if (i < 0) return;
+    const key = pair.slice(0, i), val = pair.slice(i + 1);
+    switch (key) {
+      case 'v':   if (val === 'mosaic' || val === 'map') s.view = val; break;
+      case 'arr': s.arr = val.split(',').map(Number).filter(Number.isFinite); break;
+      case 'an': {
+        const m = val.match(/^(\d+)-(\d+)$/);
+        if (m) s.years = [Number(m[1]), Number(m[2])];
+        break;
+      }
+      case 'th':  s.thes = val.split(',').map(slugToTerm).filter(Boolean); break;
+      case 'q':   try { s.query = decodeURIComponent(val); } catch { s.query = val; } break;
+      case 'bat': try { s.bat   = decodeURIComponent(val); } catch { s.bat   = val; } break;
     }
   });
+  return s;
+}
+
+/* Slugs lisibles pour le thésaurus : « façade » → « facade », « garde-corps » →
+   « garde-corps ». Réversibles par rapprochement avec les termes réels du corpus. */
+function termSlug(term) {
+  return String(term || '')
+    .normalize('NFD').replace(/[̀-ͯ]/g, '')   // sans accents
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')                         // séparateurs → tiret
+    .replace(/^-+|-+$/g, '');
+}
+
+let _slugToTerm = null;
+function slugToTerm(slug) {
+  if (!_slugToTerm) {
+    _slugToTerm = new Map();
+    (typeof THES_TERMS !== 'undefined' ? THES_TERMS : []).forEach(t => {
+      const key = termSlug(t.term);
+      if (!_slugToTerm.has(key)) _slugToTerm.set(key, t.term);
+    });
+  }
+  return _slugToTerm.get(termSlug(slug)) || null;
+}
+
+/** Écrit l'état courant dans l'URL. `push` empile une entrée d'historique
+ *  (sélection, bascule de vue) ; `replace` non (churn des filtres/recherche). */
+function writeStateToHash(mode = 'replace') {
+  if (applyingState) return;
+  const hash = serializeState(currentAppState());
+  if (hash === (location.hash || '')) { lastWrittenHash = location.hash; return; }
+  lastWrittenHash = hash;
+  const url = hash || (location.pathname + location.search);   // hash vide → URL propre
+  if (mode === 'push') history.pushState(null, '', url);
+  else                 history.replaceState(null, '', url);
+}
+
+/** Applique l'état décrit par le hash courant (chargement, Précédent/Suivant). */
+function applyStateFromHash() {
+  applyingState = true;
+  try {
+    const s = parseHash(location.hash);
+
+    // 1. Recherche
+    searchQuery = s.query;
+    const input = document.getElementById('search-input');
+    if (input) input.value = s.query;
+    const clear = document.getElementById('search-clear');
+    if (clear) clear.hidden = !s.query;
+
+    // 2. Filtres : état + resync UI (arr/dates). Thésaurus et tags sont
+    //    régénérés par applyFilters().
+    activeFilters.arrondissements = new Set(s.arr);
+    activeFilters.thesaurus       = new Set(s.thes);
+    activeFilters.years           = s.years;
+    syncArrChips();
+    syncDateInputs();
+
+    // 3. Passe de filtrage unique → carte + compteurs + puces + tags + vue.
+    applyFilters();
+
+    // 4. Vue, puis 5. sélection (s'affiche dans la vue déjà en place).
+    setView(s.view);
+    if (s.bat) selectBatiment(s.bat);
+    else       deselectBatiment();
+  } finally {
+    applyingState = false;
+  }
+  lastWrittenHash = location.hash;
+}
+
+/** Précédent/Suivant : on ré-applique, sauf si le hash est déjà le nôtre. */
+function onHistoryNav() {
+  if (location.hash === lastWrittenHash) return;
+  applyStateFromHash();
 }
 
 function fitMapToResults() {
