@@ -39,24 +39,58 @@ document.addEventListener('DOMContentLoaded', async () => {
 });
 
 /* ─── RECHERCHE ─────────────────────────────────────────────────────────── */
-
 function bindSearch() {
   const input = document.getElementById('search-input');
   const clear = document.getElementById('search-clear');
+  let searchDebounceTimer = null;
 
   input?.addEventListener('input', e => {
     searchQuery = e.target.value.trim();
     if (clear) clear.hidden = !searchQuery;
-    applyFilters();
+    if (searchQuery.length > 0) {
+      resetOtherFiltersUI();
+    }
+    clearTimeout(searchDebounceTimer);
+    searchDebounceTimer = setTimeout(() => {
+      applyFilters();
+    }, 1000);
   });
 
   clear?.addEventListener('click', () => {
+    clearTimeout(searchDebounceTimer);
     if (input) input.value = '';
     searchQuery = '';
     clear.hidden = true;
     applyFilters();
     input?.focus();
   });
+}
+
+// Réinitialise les données ET l'UI de tous les filtres sauf la recherche
+function resetOtherFiltersUI() {
+  // 1. Arrondissements — chips
+  activeFilters.arrondissements.clear();
+  document.querySelectorAll('#arr-chips .chip').forEach(chip => {
+    chip.classList.remove('active');
+    chip.setAttribute('aria-pressed', 'false');
+  });
+
+  // 2. Temporalité — sliders + inputs
+  activeFilters.years = null;
+  const dateFromInput = document.getElementById('date-from-input');
+  const dateToInput   = document.getElementById('date-to-input');
+  const dateFrom      = document.getElementById('date-from');
+  const dateTo        = document.getElementById('date-to');
+  if (dateFromInput) dateFromInput.value = '';
+  if (dateToInput)   dateToInput.value   = '';
+  if (dateFrom && dateFrom.min) dateFrom.value = dateFrom.min;
+  if (dateTo && dateTo.max)     dateTo.value   = dateTo.max;
+  document.getElementById('date-reset')?.click(); // si ce bouton sait déjà tout remettre à zéro proprement
+
+  // 3. Thésaurus
+  activeFilters.thesaurus.clear();
+  const thesSearchVal = document.getElementById('thesaurus-search')?.value || '';
+  renderThesaurusGroups(thesSearchVal);
 }
 
 /* ─── NAVIGATION (marque, à propos, pages) ──────────────────────────────── */
