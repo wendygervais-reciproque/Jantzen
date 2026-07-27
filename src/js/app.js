@@ -234,51 +234,56 @@ function applyFilters() {
   }
 
   // 4. Filtre thésaurus (Index Jantzen)
+  // 4. Filtre thésaurus (Index Jantzen)
   if (activeFilters.thesaurus.size > 0) {
     const selectedTerms = Array.from(activeFilters.thesaurus).map(t => normalizeText(t));
 
     filteredFeatures = filteredFeatures.filter(f => {
       const rawTerms = f.properties.terme_jantzen_bat;
       const batTermsArray = Array.isArray(rawTerms) ? rawTerms : [];
-      
-      // Normalisation des termes du bâtiment
       const batTermsNormalized = batTermsArray.map(t => normalizeText(t));
 
-      // Vérifie si au moins un terme sélectionné est présent
+      // L'utilisation de 'every' ou 'some' dépend si vous voulez un filtre ET ou OU.
+      // Ici, le bâtiment doit posséder TOUS les termes du thésaurus sélectionnés :
       return selectedTerms.every(term => batTermsNormalized.includes(term));
     });
   }
 
+  // 🔄 Mettre à jour les comptes des architectes AVANT d'appliquer le filtre architectes lui-même
+  updateArchitectesData(filteredFeatures);
+
   // 5. Filtre Architectes 
   if (activeFilters.architectes.size > 0) {
-    const selectedArchiIds = Array.from(activeFilters.architectes).map(id => String(id));
+    const selectedArchiIds = Array.from(activeFilters.architectes).map(id => Number(id));
 
     filteredFeatures = filteredFeatures.filter(f => {
-      const rawArchi = f.properties.personneID;
+      // On extrait tous les IDs d'architectes liés au bâtiment (depuis 'personnes' ou 'personneID')
+      const personnes = f.properties.personnes || [];
+      let batArchiIds = personnes
+        .map(p => Number(p.personneID ?? p.id_archi ?? p.id))
+        .filter(id => !isNaN(id));
 
-      if (rawArchi === undefined || rawArchi === null) return false;
+      if (batArchiIds.length === 0 && f.properties.personneID != null) {
+        const raw = f.properties.personneID;
+        batArchiIds = (Array.isArray(raw) ? raw : [raw]).map(Number);
+      }
 
-      // Si personneID est un tableau [1, 5] ou un identifiant simple 1
-      const batArchiIds = Array.isArray(rawArchi) 
-        ? rawArchi.map(id => String(id)) 
-        : [String(rawArchi)];
-
-      // Logique OU : conserve le bâtiment si au moins un des architectes sélectionnés s'y trouve
+      // Conserve le bâtiment si au moins un des architectes sélectionnés s'y trouve
       return selectedArchiIds.some(selectedId => batArchiIds.includes(selectedId));
     });
   }
 
-  // Mise à jour de l'UI du thésaurus (compteurs) basée sur les données filtrées
+  // Mise à jour UI des filtres (arrondissements, thésaurus, architectes)
+  updateArrondissementsData(filteredFeatures);
   updateThesaurusData(filteredFeatures);
+  
   const thesSearchVal = document.getElementById('thesaurus-search')?.value || '';
   renderThesaurusGroups(thesSearchVal);
 
-  // Mise à jour de l'UI du filtre architectes (compteurs) basée sur les données filtrées
-  updateArchitectesData(filteredFeatures);
   const archiSearchVal = document.getElementById('archi-search')?.value || '';
   renderArchitectesList(archiSearchVal);
 
-  // Rendu final de la vue et des tags
+  // Rendu final
   renderCurrentView(filteredFeatures);
   renderActiveTags();
 
