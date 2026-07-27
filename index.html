@@ -162,6 +162,27 @@
         </div>
       </div>
 
+      <div class="filter-section">
+        <button class="filter-section-header" onclick="toggleFilterSection(this)" aria-expanded="false" aria-label="Section de filtre : Architectes">
+          <span class="filter-section-label">Architectes</span>
+          <span class="filter-section-arrow" aria-hidden="true">▾</span>
+        </button>
+        <div class="filter-section-body">
+          <div class="thes-search">
+            <svg class="icon" aria-hidden="true"><use href="#i-search"/></svg>
+            <input type="search" id="archi-search"
+                   placeholder="Rechercher un architecte…"
+                   autocomplete="off"
+                   aria-label="Rechercher un architecte"
+                   aria-controls="archi-chips-container"/>
+          </div>
+          <div id="archi-chips-container" class="thes-terms" style="margin-top: 8px;"></div>
+          <p id="archi-empty" class="thes-empty" hidden aria-live="polite">
+            Aucun architecte ne correspond à cette recherche.
+          </p>
+        </div>
+      </div>
+
     </div>
   </div>
 

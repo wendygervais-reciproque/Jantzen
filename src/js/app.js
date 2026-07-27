@@ -9,6 +9,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   // ── Chargement des données ──────────────────────────────────────────────
   try {
     await loadData();
+    // buildArchitectesFilter est déjà exécuté à la fin de loadData() dans data.js
   } catch (err) {
     console.error('Erreur de chargement des données :', err);
     const countEl = document.getElementById('search-results-count');
@@ -22,6 +23,10 @@ document.addEventListener('DOMContentLoaded', async () => {
   buildArrChips();
   buildDateFilter();
   buildThesaurusFilter();
+  
+  // S'assurer que les architectes sont affichés avec les données filtrées initiales
+  renderArchitectesList('');
+
   renderCurrentView(ALL_FEATURES);
 
   bindSearch();
@@ -33,9 +38,9 @@ document.addEventListener('DOMContentLoaded', async () => {
   bindKeyboard();
 
   // ── Routage URL ────────────────────────────────────────────────────────
-wireUrlRouting();
+  wireUrlRouting();
   const initialId = getIdFromPath(window.location.pathname);
-  if (initialId) selectBatiment(initialId); // ← pas applyRouteFromUrl
+  if (initialId) selectBatiment(initialId);
 });
 
 /* ─── RECHERCHE ─────────────────────────────────────────────────────────── */
@@ -210,10 +215,34 @@ function applyFilters() {
     });
   }
 
+  // 5. Filtre Architectes 
+  if (activeFilters.architectes.size > 0) {
+    const selectedArchiIds = Array.from(activeFilters.architectes).map(id => String(id));
+
+    filteredFeatures = filteredFeatures.filter(f => {
+      const rawArchi = f.properties.personneID;
+
+      if (rawArchi === undefined || rawArchi === null) return false;
+
+      // Si personneID est un tableau [1, 5] ou un identifiant simple 1
+      const batArchiIds = Array.isArray(rawArchi) 
+        ? rawArchi.map(id => String(id)) 
+        : [String(rawArchi)];
+
+      // Logique OU : conserve le bâtiment si au moins un des architectes sélectionnés s'y trouve
+      return selectedArchiIds.some(selectedId => batArchiIds.includes(selectedId));
+    });
+  }
+
   // Mise à jour de l'UI du thésaurus (compteurs) basée sur les données filtrées
   updateThesaurusData(filteredFeatures);
   const thesSearchVal = document.getElementById('thesaurus-search')?.value || '';
   renderThesaurusGroups(thesSearchVal);
+
+  // Mise à jour de l'UI du filtre architectes (compteurs) basée sur les données filtrées
+  updateArchitectesData(filteredFeatures);
+  const archiSearchVal = document.getElementById('archi-search')?.value || '';
+  renderArchitectesList(archiSearchVal);
 
   // Rendu final de la vue et des tags
   renderCurrentView(filteredFeatures);

@@ -1,18 +1,20 @@
 /**
  * data.js - Adapté au standard GeoJSON / Leaflet
- * Chargement asynchrone des données et gestion des arrondissements.
+ * Chargement asynchrone des données et gestion des arrondissements et filtres.
  */
 
-// 💡 Si tes fichiers sont servis depuis public/data/ ou data/, ajuste ici si besoin
+// 💡 Ajustez le chemin de vos données si besoin
 const DATA_BASE  = '/public/data';
 const PHOTO_BASE = `${DATA_BASE}/photos_jpg`;
 
-let THESAURUS    = [];   // index allégé : [{t: terme, c: cluster, u: URL, s: source}]
-let RAW_GEOJSON  = null; // FeatureCollection complète
-let ALL_FEATURES = [];   // features[] — source de vérité pour les filtres
-let ARR_POLYGONS = null; // FeatureCollection des 20 arrondissements (tracés officiels)
-let DATE_RANGE   = [1180, 1944]; // amplitude réelle, recalculée au chargement
-let PHOTO_RANGE  = [1, 104];     // nb de photos min/max par bâtiment, idem
+let THESAURUS             = [];   // index allégé : [{t: terme, c: cluster, u: URL, s: source}]
+let RAW_GEOJSON           = null; // FeatureCollection complète
+let ALL_FEATURES          = [];   // features[] — source de vérité pour les filtres
+let ARR_POLYGONS          = null; // FeatureCollection des 20 arrondissements (tracés officiels)
+let PERSONNES_FILTRE_DATA = [];   // NOUVEAU : Liste des architectes [{ id_archi, libelle }]
+let ARCHI_TERMS           = [];   // Index pour le filtre à facettes des architectes
+let DATE_RANGE            = [1180, 1944]; // amplitude réelle, recalculée au chargement
+let PHOTO_RANGE           = [1, 104];     // nb de photos min/max par bâtiment
 
 /* ─── CENTROÏDES DES ARRONDISSEMENTS PARISIENS (WGS-84) ─────────────────── */
 const ARR_CENTROIDS = [
@@ -76,19 +78,21 @@ function assignArrondissement(lng, lat) {
 
 async function loadData() {
   try {
-    const [thesaurusData, geojsonData, arrData, datesData] = await Promise.all([
+    const [thesaurusData, geojsonData, arrData, datesData, personnesFiltreData] = await Promise.all([
       fetch(`${DATA_BASE}/thesaurus_index.json`).then(r => r.ok ? r.json() : []).catch(() => []),
       fetch(`${DATA_BASE}/map_poi.geojson`).then(r => {
         if (!r.ok) throw new Error(`HTTP ${r.status} : Impossible de charger ${DATA_BASE}/map_poi.geojson`);
         return r.json();
       }),
       fetch(`${DATA_BASE}/arrondissements.geojson`).then(r => r.ok ? r.json() : null).catch(() => null),
-      fetch(`${DATA_BASE}/batiments_index.json`).then(r => r.ok ? r.json() : {}).catch(() => ({}))
+      fetch(`${DATA_BASE}/batiments_index.json`).then(r => r.ok ? r.json() : {}).catch(() => ({})),
+      fetch(`${DATA_BASE}/personnes_filtre.json`).then(r => r.ok ? r.json() : []).catch(() => []) // Chargement du fichier des architectes
     ]);
 
-    THESAURUS    = thesaurusData;
-    RAW_GEOJSON  = geojsonData;
-    ARR_POLYGONS = arrData;
+    THESAURUS             = thesaurusData;
+    RAW_GEOJSON           = geojsonData;
+    ARR_POLYGONS          = arrData;
+    PERSONNES_FILTRE_DATA = personnesFiltreData;
 
     if (geojsonData && Array.isArray(geojsonData.features)) {
       geojsonData.features.forEach(f => {
@@ -116,24 +120,39 @@ async function loadData() {
       attachBuildingIndex(datesData);
     }
 
-    console.log(`🎉 SUCCÈS ! ${ALL_FEATURES.length} bâtiments valides chargés dans la carte.`);
+    // Construction du filtre des architectes si la fonction existe dans filters.js
+    if (typeof buildArchitectesFilter === 'function') {
+      buildArchitectesFilter(PERSONNES_FILTRE_DATA);
+    }
+
+    console.log(`🎉 SUCCÈS ! ${ALL_FEATURES.length} bâtiments valides et ${PERSONNES_FILTRE_DATA.length} architectes chargés.`);
 
   } catch (err) {
     console.error("❌ Erreur lors du chargement des données :", err);
   }
 }
 
-/* ─── UTILITAIRES ───────────────────────────────────────────────────────── */
+/* ─── UTILITAIRES DE NORMALISATION ET TEXTE ─────────────────────────────── */
 
-/**
- * URL d'une photographie à partir de son identifiant ("Invalides_FS_§10",
- * historiquement préfixé "image_"). Renvoie null si l'identifiant est absent
- * ou n'est pas exploitable comme nom de fichier.
- *
- * ⚠️ `image_ref` des features du geojson est un entier interne (6813…) sans
- * correspondance sur le disque : seule la fiche du bâtiment porte une
- * référence utilisable. On écarte donc les valeurs numériques.
- */
+/** Clé de rapprochement tolérante : casse, accents, traits d'union, apostrophes. */
+function normalizeTerm(term) {
+  return String(term || '')
+    .toLowerCase()
+    .normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+    .replace(/['’\-\s]+/g, ' ')
+    .trim();
+}
+
+/** Alias pour normalizeTerm afin de garantir la compatibilité avec app.js et filters.js */
+function normalizeText(text) {
+  return normalizeTerm(text);
+}
+
+/** Première lettre en capitale. */
+function capitalize(str) {
+  return str ? str.charAt(0).toUpperCase() + str.slice(1) : '';
+}
+
 function photoUrl(idPic) {
   if (!idPic || typeof idPic !== 'string') return null;
   const name = idPic.replace(/^image_/, '');
@@ -144,11 +163,6 @@ function photoUrl(idPic) {
 
 const batimentCache = new Map();   // id_bat → Promise<fiche>
 
-/**
- * Charge — une seule fois — la fiche d'un bâtiment.
- * Le jeu de données mêle deux conventions de nommage (`id_batt_X.json` et
- * `id_bat_X.json`) : on tente les deux avant de renoncer.
- */
 function getBatiment(id_bat) {
   const key = String(id_bat);
   if (!batimentCache.has(key)) {
@@ -193,46 +207,25 @@ function personneThumbUrl(thumb) {
   return thumb ? `${WIKIMEDIA_COMMONS}/thumb/${thumb}` : null;
 }
 
-/**
- * Image en taille d'origine.
- *
- * `thumb` a la forme `{hash1}/{hash2}/{fichier}/{taille}px-{fichier}` : le
- * préfixe de hachage Wikimedia, propre à chaque fichier, n'est stocké nulle
- * part ailleurs (la propriété `media` ne le contient pas). On le récupère en
- * ne gardant que les trois premiers segments de `thumb`.
- */
 function personneFullImageUrl(thumb) {
   if (!thumb) return null;
   const parts = thumb.split('/').slice(0, 3);
   return parts.length === 3 ? `${WIKIMEDIA_COMMONS}/${parts.join('/')}` : null;
 }
 
-/** Bascule .jpg → .JPG sur une image dont le chargement a échoué. Renvoie false si déjà tenté. */
+/** Bascule .jpg → .JPG sur une image dont le chargement a échoué. */
 function retryUppercaseJpg(imgEl) {
   if (imgEl.src.endsWith('.JPG')) return false;
   imgEl.src = imgEl.src.replace(/\.jpg$/, '.JPG');
   return true;
 }
 
-/** Première lettre en capitale — les termes Jantzen sont stockés en minuscules. */
-function capitalize(str) {
-  return str ? str.charAt(0).toUpperCase() + str.slice(1) : '';
-}
-
 function getThesaurusName(id) {
-  return id;   // les termes Jantzen sont stockés en clair, pas par identifiant
+  return id;
 }
 
 /* ─── INDEX DES BÂTIMENTS (dates + volumétrie) ──────────────────────────── */
 
-/**
- * Reporte sur chaque feature l'intervalle de construction et le nombre de
- * photographies issus de batiments_index.json, puis recalcule les amplitudes.
- *
- * Ni les dates ni la volumétrie ne figurent dans map_poi.geojson : cet index
- * évite de charger les 1 574 fiches individuelles pour filtrer par temporalité
- * et dimensionner les points. Voir tools/build_indexes.py.
- */
 function attachBuildingIndex(indexData) {
   let minY = Infinity, maxY = -Infinity;
   let minN = Infinity, maxN = -Infinity;
@@ -260,29 +253,17 @@ function attachBuildingIndex(indexData) {
 /** Un bâtiment est retenu si son intervalle de construction croise la période demandée. */
 function matchesYearRange(properties, from, to) {
   const span = properties.annees;
-  if (!span) return false;             // non daté : exclu dès que la période est restreinte
+  if (!span) return false;
   return span[0] <= to && span[1] >= from;
 }
 
 /* ─── THÉSAURUS ─────────────────────────────────────────────────────────── */
 
-/** Clé de rapprochement tolérante : casse, accents, traits d'union, apostrophes. */
-function normalizeTerm(term) {
-  return String(term || '')
-    .toLowerCase()
-    .normalize('NFD').replace(/[\u0300-\u036f]/g, '')
-    .replace(/['’\-\s]+/g, ' ')
-    .trim();
-}
-
-/** Métadonnées légères (cluster, URL, source) d'un terme, ou null. */
 function getTermMeta(term) {
   const key = normalizeTerm(term);
   return THESAURUS.find(t => normalizeTerm(t.t) === key) || null;
 }
 
-// Le fichier complet (60 Ko, définitions FR et EN) n'est chargé qu'à la
-// première infobulle consultée — l'index de 9,5 Ko suffit à bâtir les filtres.
 let thesaurusFullPromise = null;
 
 function loadThesaurusFull() {
@@ -294,7 +275,6 @@ function loadThesaurusFull() {
   return thesaurusFullPromise;
 }
 
-/** Libellé lisible d'une référence, déduit de son domaine. */
 const REFERENCE_LABELS = {
   'fr.wikipedia.org': 'Wikipédia',
   'data.culture.fr':  'Thésaurus du ministère de la Culture'
@@ -309,15 +289,6 @@ function referenceLabel(href) {
   }
 }
 
-/**
- * Définition d'un terme, chargée à la demande.
- *
- * `Definition_fr` et `URL` agrègent plusieurs valeurs séparées par « | » :
- * 30 termes ont deux définitions, 25 pointent à la fois vers Wikipédia et vers
- * le thésaurus du ministère de la Culture. On les rend donc séparément.
- *
- * @returns {Promise<{terme, definitions: string[], references: {href,label}[], source} | null>}
- */
 async function getTermDefinition(term) {
   const key   = normalizeTerm(term);
   const full  = await loadThesaurusFull();

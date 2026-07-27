@@ -5,8 +5,10 @@
 const activeFilters = {
   arrondissements: new Set(), // Set<number>
   thesaurus:       new Set(), // Set<string> ("façade", "lucarne"…)
+  architectes:      new Set(), // Set<string> (noms normalisés)
   years:           null       // [début, fin] — null tant que toute la période est retenue
 };
+
 
 /* ─── ARRONDISSEMENTS ───────────────────────────────────────────────────── */
 
@@ -422,6 +424,23 @@ function renderActiveTags() {
     });
   });
 
+  activeFilters.architectes.forEach(archiId => {
+    const archiObj = ARCHI_TERMS.find(a => a.id === archiId);
+    const labelName = archiObj ? archiObj.libelle : `Archi ${archiId}`;
+
+    tags.push({
+      label: labelName,
+      remove: () => {
+        activeFilters.architectes.delete(archiId);
+        document.querySelectorAll(`.chip[data-id="${CSS.escape(String(archiId))}"]`).forEach(c => {
+          c.classList.remove('active');
+          c.setAttribute('aria-pressed', 'false');
+        });
+        applyFilters();
+      }
+    });
+  });
+
   if (tags.length === 0) {
     bar.classList.remove('has-active');
     return;
@@ -455,6 +474,7 @@ function renderActiveTags() {
 function resetAllFilters() {
   activeFilters.arrondissements.clear();
   activeFilters.thesaurus.clear();
+  activeFilters.architectes.clear();
   activeFilters.years = null;
 
   document.querySelectorAll('.chip').forEach(c => {
@@ -479,4 +499,133 @@ function toggleFilterSection(btn) {
   if (!body) return;
   const isOpen = body.classList.toggle('open');
   btn.setAttribute('aria-expanded', String(isOpen));
+}
+
+
+
+/* ─── ARCHITECTES ────────────────────────────────────────────────────────── */
+
+/**
+ * Initialise les données du filtre architecte.
+ * @param {Array<{id_archi: number, libelle: string}>} personnesFiltre - La liste venant de personnes_filtre.json
+ */
+function buildArchitectesFilter(personnesFiltre = []) {
+  // 1. Décompte des occurrences par ID d'architecte dans le GeoJSON
+  const counts = new Map();
+  ALL_FEATURES.forEach(f => {
+    const personnes = f.properties.personnes || [];
+    personnes.forEach(p => {
+      if (p.personneID !== undefined && p.personneID !== null) {
+        const idNum = Number(p.personneID);
+        counts.set(idNum, (counts.get(idNum) || 0) + 1);
+      }
+    });
+  });
+
+  // 2. Construction de la liste triée
+  ARCHI_TERMS = personnesFiltre
+    .map(p => {
+      const idNum = Number(p.id_archi);
+      return {
+        id: idNum,
+        libelle: p.libelle,
+        count: counts.get(idNum) || 0
+      };
+    })
+    .sort((a, b) => a.libelle.localeCompare(b.libelle, 'fr'));
+
+  const searchInput = document.getElementById('archi-search');
+  if (searchInput) {
+    // Supprime les anciens écouteurs pour éviter les doublons
+    searchInput.replaceWith(searchInput.cloneNode(true));
+    document.getElementById('archi-search').addEventListener('input', e => {
+      renderArchitectesList(e.target.value);
+    });
+  }
+
+  // 🔴 AJOUTER CETTE LIGNE : Mettre à jour les comptages avec les fonctionnalités chargées
+  updateArchitectesData(ALL_FEATURES);
+
+  renderArchitectesList(document.getElementById('archi-search')?.value || '');
+}
+
+function renderArchitectesList(query) {
+  const host  = document.getElementById('archi-chips-container');
+  const empty = document.getElementById('archi-empty');
+  if (!host) return;
+
+  const q = normalizeText(query);
+
+  // 💡 FIX : On ne filtre PLUS par (a.count > 0). 
+  // On affiche tous les architectes qui correspondent à la recherche textuelle !
+  const matching = ARCHI_TERMS.filter(a => {
+    return q ? normalizeText(a.libelle).includes(q) : true;
+  });
+
+  host.innerHTML = '';
+  if (empty) empty.hidden = matching.length > 0;
+  if (matching.length === 0) return;
+
+  matching.forEach(entry => {
+    host.appendChild(buildArchiChipRow(entry));
+  });
+}
+
+function buildArchiChipRow(entry) {
+  const row = document.createElement('span');
+  row.className = 'thes-term'; // Même structure visuelle que Jantzen
+
+  const chip = document.createElement('button');
+  chip.type        = 'button';
+  chip.className   = 'chip';
+  chip.textContent = entry.libelle;
+  chip.dataset.id  = entry.id;
+
+  const plural = `${entry.count} bâtiment${entry.count > 1 ? 's' : ''}`;
+  chip.title = plural;
+  chip.setAttribute('aria-label', `${entry.libelle}, ${plural}`);
+
+  const isActive = activeFilters.architectes.has(entry.id);
+  if (isActive) chip.classList.add('active');
+  chip.setAttribute('aria-pressed', String(isActive));
+
+  chip.onclick = () => toggleArchiChip(chip, entry.id);
+  row.appendChild(chip);
+
+  // Remarque : Pas de bouton info 'i' ici
+  return row;
+}
+
+function toggleArchiChip(btn, archiId) {
+  const numericId = Number(archiId);
+  const on = !activeFilters.architectes.has(numericId);
+  
+  if (on) {
+    activeFilters.architectes.add(numericId);
+  } else {
+    activeFilters.architectes.delete(numericId);
+  }
+  
+  btn.classList.toggle('active', on);
+  btn.setAttribute('aria-pressed', String(on));
+  
+  applyFilters();
+}
+
+function updateArchitectesData(featuresActuelles) {
+  const counts = new Map();
+
+  featuresActuelles.forEach(f => {
+    const personnes = f.properties.personnes || [];
+    personnes.forEach(p => {
+      if (p.personneID !== undefined && p.personneID !== null) {
+        const idNum = Number(p.personneID);
+        counts.set(idNum, (counts.get(idNum) || 0) + 1);
+      }
+    });
+  });
+
+  ARCHI_TERMS.forEach(item => {
+    item.count = counts.get(item.id) || 0;
+  });
 }
