@@ -284,33 +284,84 @@ function updateThesaurusData(featuresActuelles) {
     const normItemTerm = normalizeText(item.term);
     item.count = counts.get(normItemTerm) || 0;
   });
+
+  activeFilters.thesaurus.forEach(term => {
+    const normTerm = normalizeText(term);
+    if (!counts.get(normTerm)) {
+      activeFilters.thesaurus.delete(term);
+    }
+  });
+
 }
 
 function updateArrondissementsData(featuresActuelles) {
+  // On calcule les features filtrées par TOUS les filtres SAUF l'arrondissement
+  let featuresSansArr = ALL_FEATURES;
 
-  const isSearchActive = searchQuery.length >= 2;
-  const isYearsActive = activeFilters.years !== null;
-  const isThesaurusActive = activeFilters.thesaurus.size > 0;
-  const isArchitectesActive = activeFilters.architectes.size > 0;
-  const hasOtherFilters = isSearchActive || isYearsActive || isThesaurusActive || isArchitectesActive;
+  // 1. Recherche
+  if (searchQuery.length >= 2) {
+    const ids = lunrSearch(searchQuery);
+    featuresSansArr = featuresSansArr.filter(f => 
+      ids.has(String(f.properties.id_bat)) || ids.has(Number(f.properties.id_bat))
+    );
+  }
 
-  // Si aucun autre filtre n'est actif, la disponibilité des arrondissements dépend de ALL_FEATURES
-  const sourceForArrCounts = hasOtherFilters ? featuresActuelles : ALL_FEATURES;
+  // 2. Années
+  if (activeFilters.years) {
+    const [from, to] = activeFilters.years;
+    featuresSansArr = featuresSansArr.filter(f => matchesYearRange(f.properties, from, to));
+  }
 
+  // 3. Thésaurus
+  if (activeFilters.thesaurus.size > 0) {
+    const selectedTerms = Array.from(activeFilters.thesaurus).map(t => normalizeText(t));
+    featuresSansArr = featuresSansArr.filter(f => {
+      const rawTerms = f.properties.terme_jantzen_bat;
+      const batTermsArray = Array.isArray(rawTerms) ? rawTerms : [];
+      const batTermsNormalized = batTermsArray.map(t => normalizeText(t));
+      return selectedTerms.every(term => batTermsNormalized.includes(term));
+    });
+  }
+
+  // 4. Architectes
+  if (activeFilters.architectes.size > 0) {
+    const selectedArchiIds = Array.from(activeFilters.architectes).map(id => Number(id));
+    featuresSansArr = featuresSansArr.filter(f => {
+      const personnes = f.properties.personnes || [];
+      let batArchiIds = personnes
+        .map(p => Number(p.personneID ?? p.id_archi ?? p.id))
+        .filter(id => !isNaN(id));
+
+      if (batArchiIds.length === 0 && f.properties.personneID != null) {
+        const raw = f.properties.personneID;
+        batArchiIds = (Array.isArray(raw) ? raw : [raw]).map(Number);
+      }
+      return selectedArchiIds.some(selectedId => batArchiIds.includes(selectedId));
+    });
+  }
+
+  // Compter les occurrences disponibles par arrondissement
   const counts = new Map();
-  sourceForArrCounts.forEach(f => {
+  featuresSansArr.forEach(f => {
     const arr = Number(f.properties.arrondissement);
     if (arr) {
       counts.set(arr, (counts.get(arr) || 0) + 1);
     }
   });
 
+  activeFilters.arrondissements.forEach(arr => {
+    if (!counts.get(arr)) {
+      activeFilters.arrondissements.delete(arr);
+    }
+  });
+
+  // Mise à jour de l'état (grisage si count === 0)
   document.querySelectorAll('.chip[data-arr]').forEach(chip => {
     const arr = Number(chip.dataset.arr);
     const count = counts.get(arr) || 0;
-    const isActive = activeFilters.arrondissements.has(arr);
 
-    const isAvailable = count > 0 || isActive;
+    // L'arrondissement est disponible si au moins 1 résultat existe avec les autres filtres actifs
+    const isAvailable = count > 0;
 
     chip.disabled = !isAvailable;
     chip.classList.toggle('disabled', !isAvailable);
@@ -658,4 +709,12 @@ function updateArchitectesData(featuresActuelles) {
   ARCHI_TERMS.forEach(item => {
     item.count = counts.get(Number(item.id)) || 0;
   });
+
+  activeFilters.architectes.forEach(archiId => {
+      if (!counts.get(Number(archiId))) {
+        activeFilters.architectes.delete(archiId);
+      }
+    });
+
+
 }

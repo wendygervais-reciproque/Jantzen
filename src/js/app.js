@@ -223,18 +223,9 @@ function applyFilters() {
 
   // 2. Filtre arrondissement
   if (activeFilters.arrondissements.size > 0) {
-    if(hasOtherFilters) {
-      // Si d'autres filtres sont actifs, comportement en ET
-      filteredFeatures = filteredFeatures.filter(f =>
-        activeFilters.arrondissements.has(Number(f.properties.arrondissement))
-      );
-    } else {
-      // Si aucun autre filtre n'est actif: comportement en OU, on garde tous les arrondissements sélectionnés
-      filteredFeatures = ALL_FEATURES.filter(f =>
-        activeFilters.arrondissements.has(Number(f.properties.arrondissement)),
-        console.log("bonjour")
-      );
-    }
+    filteredFeatures = filteredFeatures.filter(f =>
+      activeFilters.arrondissements.has(Number(f.properties.arrondissement))
+    );
   }
 
   // 3. Filtre temporel — intersection avec l'intervalle de construction
