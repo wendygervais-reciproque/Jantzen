@@ -145,7 +145,7 @@ button { font-family: inherit; }
   position: absolute; inset: 0;
   overflow-y: auto;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
   gap: var(--component-gap-12);
   /* Marges hautes/basses : dégager la barre de recherche et le carrousel. */
   padding: 88px var(--component-padding-24) 300px;
@@ -181,7 +181,7 @@ button { font-family: inherit; }
 
 .bldg-card-thumb {
   position: relative;
-  aspect-ratio: 4 / 3;
+  aspect-ratio: 3 / 4;
   background: var(--background-subtle);
   display: flex; align-items: center; justify-content: center;
   overflow: hidden;
@@ -404,53 +404,38 @@ button { font-family: inherit; }
   stroke-opacity: 0.9;
 }
 
+/* Emprise d'arrondissement : même aspect que le survol d'une grappe ronde
+   (.cluster-coverage), avec un léger renfort au survol puisqu'elle est cliquable. */
 .arr-polygon {
   fill: var(--background-brand-primary);
-  fill-opacity: 0.9;                     /* quasi-plein : laisse à peine deviner la carte */
-  stroke: var(--background-page);        /* fin liseré clair : sépare les zones dorées */
+  fill-opacity: 0.15;
+  stroke: var(--background-brand-primary);
   stroke-width: 1.5;
+  stroke-opacity: 0.9;
   cursor: pointer;
   transition: fill-opacity 0.15s;
 }
-.arr-polygon.empty { fill-opacity: 0.08; }   /* zones sans bâtiment : à peine teintées */
-.arr-polygon:hover { fill-opacity: 0.82; }   /* survol : laisse deviner la carte dessous */
+.arr-polygon:hover { fill-opacity: 0.28; }
 
-/* Aperçu « filigrane » d'une grappe ronde (calque derrière les étiquettes).
-   Sur l'aplat doré, un doré ne se verrait pas : on passe en teinte sombre, ce qui
-   évoque au passage les vraies grappes rondes (noires). */
-.cluster-ghost {
-  border-radius: 50%;
-  background: var(--icon-primary);
-  opacity: 0.12;
-}
-
+/* Étiquette d'arrondissement : le numéro (identifiant) au-dessus, hors du rond
+   noir de comptage — lequel reprend intégralement le style .cluster-dot. */
 .arr-label {
-  display: flex; flex-direction: column; align-items: center;
+  display: flex; flex-direction: row; align-items: center;
+  gap: var(--component-gap-12);
   transform: translate(-50%, -50%);
   pointer-events: none;
   white-space: nowrap;
-  /* Halo clair : lisibilité (et contraste) garantis par-dessus n'importe quelle
-     tuile de carte, quelle que soit la couleur du fond sous l'étiquette. */
+  width: fit-content;
+}
+.arr-label-num {
+  font-family: var(--font-serif);
+  font-size: var(--text-title-h5-size);
+  line-height: var(--lh-120);
+  color: var(--background-brand-primary);
+  /* Halo clair : lisibilité garantie par-dessus n'importe quelle tuile. */
   text-shadow: 0 0 6px var(--background-page), 0 0 3px var(--background-page),
                0 0 2px var(--background-page);
 }
-/* Numéro d'arrondissement : identifiant, doit rester bien lisible. */
-.arr-label-num {
-  font-family: var(--font-serif);
-  font-size: var(--text-body-base-size);
-  line-height: var(--lh-120);
-  color: var(--text-primary);
-}
-/* Nombre de bâtiments : information principale — mise en avant (plus grand,
-   semi-gras) et contraste fort, sans être criard. */
-.arr-label-count {
-  font-size: var(--text-title-h5-size);
-  font-weight: var(--fw-600);
-  line-height: var(--lh-120);
-  color: var(--text-primary);
-  font-variant-numeric: tabular-nums;
-}
-.arr-label.empty { opacity: 0.4; }
 
 .leaflet-popup-content-wrapper {
   border-radius: var(--radius-element);

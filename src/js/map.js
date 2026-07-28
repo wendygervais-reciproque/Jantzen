@@ -9,7 +9,6 @@ let map = null;
 let clusterGroup = null;
 let arrGeoLayer = null;   // L.geoJSON des tracés d'arrondissement
 let arrLabelGroup = null; // L.layerGroup des étiquettes (numéro + compteur)
-let ghostLayerGroup = null; // L.layerGroup : aperçu filigrane des grappes rondes
 const markerMap = {};     // id_bat → marker Leaflet (vue bâtiments)
 
 let currentFeatures = []; // features actuellement affichées (après filtres)
@@ -106,8 +105,7 @@ function initMap() {
   });
   map.addLayer(clusterGroup);
 
-  arrLabelGroup   = L.layerGroup();
-  ghostLayerGroup = L.layerGroup();
+  arrLabelGroup = L.layerGroup();
 
   // Bascule automatique arrondissements ↔ bâtiments au franchissement du seuil
   map.on('zoomend', () => applyMapMode(false));
@@ -146,9 +144,11 @@ function showArrondissementView() {
   if (typeof ARR_POLYGONS === 'undefined' || !ARR_POLYGONS) return;
 
   arrGeoLayer = L.geoJSON(ARR_POLYGONS, {
-    style: feature => ({
-      className: counts[feature.properties.c_ar] ? 'arr-polygon' : 'arr-polygon empty'
-    }),
+    // Arrondissement sans bâtiment (après filtrage) : ni emprise ni étiquette.
+    // Une grappe ronde n'existe pas là où il n'y a rien à compter.
+    filter: feature => (counts[feature.properties.c_ar] || 0) > 0,
+    // Emprise reprenant l'aspect du survol d'une grappe ronde (doré Orsay).
+    style: () => ({ className: 'arr-polygon' }),
     onEachFeature: (feature, layer) => {
       const c_ar = feature.properties.c_ar;
       const n = counts[c_ar] || 0;
@@ -157,11 +157,15 @@ function showArrondissementView() {
 
       const g = feature.properties.geom_x_y;
       if (!g) return;
+
+      // Rond noir de comptage, dimensionné comme une vraie grappe (clusterSize),
+      // surmonté du numéro d'arrondissement — hors du rond.
+      const size = clusterSize(n);
       const label = L.divIcon({
         className: '',
-        html: `<div class="arr-label${n ? '' : ' empty'}">
+        html: `<div class="arr-label">
                  <span class="arr-label-num">${ordinalArr(c_ar)}</span>
-                 <span class="arr-label-count">${n} bât.</span>
+                 <span class="cluster-dot" style="width:${size}px;height:${size}px">${n}</span>
                </div>`,
         iconSize: [0, 0]
       });
@@ -170,59 +174,7 @@ function showArrondissementView() {
     }
   }).addTo(map);
 
-  // Filigrane des grappes rondes (derrière les étiquettes), puis les étiquettes.
-  renderClusterGhosts();
-  ghostLayerGroup.addTo(map);
   arrLabelGroup.addTo(map);
-}
-
-/**
- * Aperçu « filigrane » des grappes rondes telles qu'elles apparaîtraient au
- * premier zoom de leur mode (ARR_ZOOM_THRESHOLD) : on projette les bâtiments en
- * pixels À CE ZOOM et on les regroupe glouton-nement dans le rayon de grappe de
- * ce niveau, pour retrouver plusieurs grappes par arrondissement (et non une
- * seule, comme au zoom courant, plus faible). Rendu en disques dorés subtils.
- */
-function renderClusterGhosts() {
-  ghostLayerGroup.clearLayers();
-  if (!currentFeatures.length) return;
-
-  const z = ARR_ZOOM_THRESHOLD;
-  const radius = 90;   // maxClusterRadius à ce zoom (voir la config du clusterGroup)
-
-  const pts = [];
-  currentFeatures.forEach(f => {
-    const c = f.geometry?.coordinates;
-    if (!Array.isArray(c)) return;
-    const ll = L.latLng(c[1], c[0]);
-    pts.push({ ll, p: map.project(ll, z), used: false });
-  });
-
-  const clusters = [];
-  for (const pt of pts) {
-    if (pt.used) continue;
-    pt.used = true;
-    let sumLat = pt.ll.lat, sumLng = pt.ll.lng, count = 1;
-    for (const other of pts) {
-      if (other.used || other === pt) continue;
-      if (pt.p.distanceTo(other.p) <= radius) {
-        other.used = true;
-        sumLat += other.ll.lat; sumLng += other.ll.lng; count++;
-      }
-    }
-    clusters.push({ lat: sumLat / count, lng: sumLng / count, count });
-  }
-
-  clusters.forEach(c => {
-    const size = clusterSize(c.count);
-    const icon = L.divIcon({
-      className: '',
-      html: `<div class="cluster-ghost" style="width:${size}px;height:${size}px"></div>`,
-      iconSize:   [size, size],
-      iconAnchor: [size / 2, size / 2]
-    });
-    L.marker([c.lat, c.lng], { icon, interactive: false }).addTo(ghostLayerGroup);
-  });
 }
 
 function ordinalArr(n) { return n === 1 ? '1ᵉʳ' : `${n}ᵉ`; }
@@ -233,8 +185,6 @@ function showBuildingView() {
   if (arrGeoLayer) { map.removeLayer(arrGeoLayer); arrGeoLayer = null; }
   if (map.hasLayer(arrLabelGroup)) map.removeLayer(arrLabelGroup);
   arrLabelGroup.clearLayers();
-  if (map.hasLayer(ghostLayerGroup)) map.removeLayer(ghostLayerGroup);
-  ghostLayerGroup.clearLayers();
 
   clusterGroup.clearLayers();
   if (currentFeatures.length === 0) return;
