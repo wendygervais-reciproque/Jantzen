@@ -1,12 +1,12 @@
 /**
- * filters.js — Filtres : arrondissement, temporalité, thésaurus Jantzen, architectes.
+ * filters.js — Filtres : arrondissement, thésaurus Jantzen, architectes, périodes.
  */
 
 const activeFilters = {
   arrondissements: new Set(), // Set<number>
   thesaurus:       new Set(), // Set<string> ("façade", "lucarne"…)
   architectes:     new Set(), // Set<number> (IDs d'architectes)
-  years:           null       // [début, fin] — null tant que toute la période est retenue
+  periodes:        new Set(), // Set<string> ("1530-1589", ...)
 };
 
 
@@ -41,111 +41,6 @@ function syncArrChips() {
   });
 }
 
-/* ─── TEMPORALITÉ ───────────────────────────────────────────────────────── */
-
-let dateApplyTimer = null;
-
-function buildDateFilter() {
-  const [min, max] = DATE_RANGE;
-  const from  = document.getElementById('date-from');
-  const to    = document.getElementById('date-to');
-  const fromN = document.getElementById('date-from-input');
-  const toN   = document.getElementById('date-to-input');
-  if (!from || !to) return;
-
-  [from, to, fromN, toN].forEach(el => {
-    if (!el) return;
-    el.min = min;
-    el.max = max;
-  });
-  from.value = fromN.value = min;
-  to.value   = toN.value   = max;
-
-  from.addEventListener('input', () => onDateInput('from', from.value));
-  to.addEventListener('input',   () => onDateInput('to',   to.value));
-
-  fromN?.addEventListener('change', () => onDateInput('from', fromN.value));
-  toN?.addEventListener('change',   () => onDateInput('to',   toN.value));
-
-  document.getElementById('date-reset')?.addEventListener('click', resetDateFilter);
-
-  updateDateUI();
-}
-
-function onDateInput(which, rawValue) {
-  const [min, max] = DATE_RANGE;
-  const from = document.getElementById('date-from');
-  const to   = document.getElementById('date-to');
-
-  let value = Math.round(Number(rawValue));
-  if (!Number.isFinite(value)) return;
-  value = Math.min(max, Math.max(min, value));
-
-  if (which === 'from') from.value = Math.min(value, Number(to.value));
-  else                  to.value   = Math.max(value, Number(from.value));
-
-  updateDateUI();
-
-  clearTimeout(dateApplyTimer);
-  dateApplyTimer = setTimeout(() => {
-    const a = Number(from.value), b = Number(to.value);
-    activeFilters.years = (a === min && b === max) ? null : [a, b];
-    applyFilters();
-  }, 180);
-}
-
-function updateDateUI() {
-  const [min, max] = DATE_RANGE;
-  const from = document.getElementById('date-from');
-  const to   = document.getElementById('date-to');
-  if (!from || !to) return;
-
-  const a = Number(from.value), b = Number(to.value);
-  const span = max - min || 1;
-
-  const fill = document.getElementById('date-fill');
-  if (fill) {
-    fill.style.left  = `${((a - min) / span) * 100}%`;
-    fill.style.width = `${((b - a) / span) * 100}%`;
-  }
-
-  from.setAttribute('aria-valuetext', `année ${a}`);
-  to.setAttribute('aria-valuetext',   `année ${b}`);
-
-  const fromN = document.getElementById('date-from-input');
-  const toN   = document.getElementById('date-to-input');
-  if (fromN && document.activeElement !== fromN) fromN.value = a;
-  if (toN   && document.activeElement !== toN)   toN.value   = b;
-
-  const summary = document.getElementById('date-summary');
-  if (summary) {
-    summary.textContent = (a === min && b === max)
-      ? `Toute la période (${min} – ${max})`
-      : `De ${a} à ${b}`;
-  }
-}
-
-function resetDateFilter() {
-  const [min, max] = DATE_RANGE;
-  const from = document.getElementById('date-from');
-  const to   = document.getElementById('date-to');
-  if (from) from.value = min;
-  if (to)   to.value   = max;
-  activeFilters.years = null;
-  updateDateUI();
-  applyFilters();
-}
-
-function syncDateInputs() {
-  const [min, max] = DATE_RANGE;
-  const from = document.getElementById('date-from');
-  const to   = document.getElementById('date-to');
-  if (!from || !to) return;
-  const [a, b] = activeFilters.years || [min, max];
-  from.value = Math.max(min, Math.min(Number(a), max));
-  to.value   = Math.max(min, Math.min(Number(b), max));
-  updateDateUI();
-}
 
 /* ─── THÉSAURUS ─────────────────────────────────────────────────────────── */
 
@@ -236,7 +131,6 @@ function buildTermRow(entry) {
   const chip = document.createElement('button');
   chip.type        = 'button';
   chip.className   = 'chip';
-  // ✨ MODIFICATION ICI : Ajout du compteur d'occurrences dans le libellé
   chip.textContent = `${capitalize(entry.term)} (${entry.count})`;
   chip.dataset.id  = entry.term;
 
@@ -291,25 +185,27 @@ function updateThesaurusData(featuresActuelles) {
       activeFilters.thesaurus.delete(term);
     }
   });
-
 }
 
 function updateArrondissementsData(featuresActuelles) {
-  // On calcule les features filtrées par TOUS les filtres SAUF l'arrondissement
   let featuresSansArr = ALL_FEATURES;
 
   // 1. Recherche
-  if (searchQuery.length >= 2) {
+  if (typeof searchQuery !== 'undefined' && searchQuery.length >= 2) {
     const ids = lunrSearch(searchQuery);
     featuresSansArr = featuresSansArr.filter(f => 
       ids.has(String(f.properties.id_bat)) || ids.has(Number(f.properties.id_bat))
     );
   }
 
-  // 2. Années
-  if (activeFilters.years) {
-    const [from, to] = activeFilters.years;
-    featuresSansArr = featuresSansArr.filter(f => matchesYearRange(f.properties, from, to));
+  // 2. Périodes
+  if (activeFilters.periodes.size > 0) {
+    const selectedPeriodes = Array.from(activeFilters.periodes);
+    featuresSansArr = featuresSansArr.filter(f => {
+      const raw = f.properties.periode;
+      const batPeriodes = Array.isArray(raw) ? raw : (raw ? [raw] : []);
+      return selectedPeriodes.some(p => batPeriodes.includes(p));
+    });
   }
 
   // 3. Thésaurus
@@ -340,7 +236,6 @@ function updateArrondissementsData(featuresActuelles) {
     });
   }
 
-  // Compter les occurrences disponibles par arrondissement
   const counts = new Map();
   featuresSansArr.forEach(f => {
     const arr = Number(f.properties.arrondissement);
@@ -355,12 +250,9 @@ function updateArrondissementsData(featuresActuelles) {
     }
   });
 
-  // Mise à jour de l'état (grisage si count === 0)
   document.querySelectorAll('.chip[data-arr]').forEach(chip => {
     const arr = Number(chip.dataset.arr);
     const count = counts.get(arr) || 0;
-
-    // L'arrondissement est disponible si au moins 1 résultat existe avec les autres filtres actifs
     const isAvailable = count > 0;
 
     chip.disabled = !isAvailable;
@@ -453,7 +345,7 @@ function toggleChip(btn, set, val) {
   if (on) set.add(val); else set.delete(val);
   btn.classList.toggle('active', on);
   btn.setAttribute('aria-pressed', String(on));
-  applyFilters();
+  if (typeof applyFilters === 'function') applyFilters();
 }
 
 function toggleThesaurusChip(btn, id) {
@@ -478,15 +370,10 @@ function renderActiveTags() {
           c.classList.remove('active');
           c.setAttribute('aria-pressed', 'false');
         });
-        applyFilters();
+        if (typeof applyFilters === 'function') applyFilters();
       }
     });
   });
-
-  if (activeFilters.years) {
-    const [a, b] = activeFilters.years;
-    tags.push({ label: `${a} – ${b}`, remove: resetDateFilter });
-  }
 
   activeFilters.thesaurus.forEach(id => {
     tags.push({
@@ -497,7 +384,7 @@ function renderActiveTags() {
           c.classList.remove('active');
           c.setAttribute('aria-pressed', 'false');
         });
-        applyFilters();
+        if (typeof applyFilters === 'function') applyFilters();
       }
     });
   });
@@ -514,7 +401,21 @@ function renderActiveTags() {
           c.classList.remove('active');
           c.setAttribute('aria-pressed', 'false');
         });
-        applyFilters();
+        if (typeof applyFilters === 'function') applyFilters();
+      }
+    });
+  });
+
+  activeFilters.periodes.forEach(pLabel => {
+    tags.push({
+      label: `${pLabel}`,
+      remove: () => {
+        activeFilters.periodes.delete(pLabel);
+        document.querySelectorAll(`#date-chips-container .chip[data-id="${CSS.escape(pLabel)}"]`).forEach(c => {
+          c.classList.remove('active');
+          c.setAttribute('aria-pressed', 'false');
+        });
+        if (typeof applyFilters === 'function') applyFilters();
       }
     });
   });
@@ -553,21 +454,14 @@ function resetAllFilters() {
   activeFilters.arrondissements.clear();
   activeFilters.thesaurus.clear();
   activeFilters.architectes.clear();
-  activeFilters.years = null;
+  activeFilters.periodes.clear();
 
   document.querySelectorAll('.chip').forEach(c => {
     c.classList.remove('active');
     c.setAttribute('aria-pressed', 'false');
   });
 
-  const [min, max] = DATE_RANGE;
-  const from = document.getElementById('date-from');
-  const to   = document.getElementById('date-to');
-  if (from) from.value = min;
-  if (to)   to.value   = max;
-  updateDateUI();
-
-  applyFilters();
+  if (typeof applyFilters === 'function') applyFilters();
 }
 
 /* ─── ACCORDÉON ─────────────────────────────────────────────────────────── */
@@ -645,7 +539,6 @@ function buildArchiChipRow(entry) {
   const chip = document.createElement('button');
   chip.type        = 'button';
   chip.className   = 'chip';
-  // ✨ MODIFICATION ICI : Ajout du compteur d'occurrences dans le libellé
   chip.textContent = `${entry.libelle} (${entry.count})`;
   chip.dataset.id  = entry.id;
 
@@ -676,7 +569,7 @@ function toggleArchiChip(btn, archiId) {
   btn.classList.toggle('active', on);
   btn.setAttribute('aria-pressed', String(on));
   
-  applyFilters();
+  if (typeof applyFilters === 'function') applyFilters();
 }
 
 function updateArchitectesData(featuresActuelles) {
@@ -711,10 +604,195 @@ function updateArchitectesData(featuresActuelles) {
   });
 
   activeFilters.architectes.forEach(archiId => {
-      if (!counts.get(Number(archiId))) {
-        activeFilters.architectes.delete(archiId);
+    if (!counts.get(Number(archiId))) {
+      activeFilters.architectes.delete(archiId);
+    }
+  });
+}
+
+/* ─── PÉRIODES (FILTRE À FACETTES EN OU) ──────────────────────────────── */
+
+function buildPeriodesFilter(periodesData = []) {
+  let list = [];
+
+  // 1. Extraire les chaînes de périodes depuis la structure d'objets [{ periode: [...] }, ...]
+  if (Array.isArray(periodesData)) {
+    periodesData.forEach(item => {
+      if (typeof item === 'string') {
+        list.push(item);
+      } else if (item && Array.isArray(item.periode)) {
+        list.push(...item.periode);
+      } else if (item && item.periode) {
+        list.push(item.periode);
       }
     });
+  } else if (periodesData && Array.isArray(periodesData.periode)) {
+    list = periodesData.periode;
+  }
 
+  // Nettoyage et suppression des doublons
+  list = [...new Set(list.map(p => String(p).trim()).filter(Boolean))];
 
+  // 2. Compter les occurrences dans ALL_FEATURES
+  const counts = new Map();
+  ALL_FEATURES.forEach(f => {
+    const raw = f.properties.periode || f.properties.periodes;
+    const periodesArray = Array.isArray(raw) ? raw : (raw ? [raw] : []);
+    
+    periodesArray.forEach(p => {
+      const cleanP = String(p).trim();
+      if (cleanP) {
+        counts.set(cleanP, (counts.get(cleanP) || 0) + 1);
+      }
+    });
+  });
+
+  // 3. Mettre à jour PERIODE_TERMS
+  PERIODE_TERMS = list.map(p => ({
+    label: p,
+    count: counts.get(p) || 0
+  }));
+
+  updatePeriodesData(ALL_FEATURES);
+  renderPeriodesList();
+}
+
+function renderPeriodesList() {
+  const container = document.getElementById('date-chips-container');
+  if (!container) return;
+  container.innerHTML = '';
+
+  // Conserver l'affichage vertical
+  container.style.display = 'flex';
+  container.style.flexDirection = 'column';
+  container.style.alignItems = 'flex-start';
+  container.style.gap = '6px';
+
+  PERIODE_TERMS.forEach(entry => {
+    const row = document.createElement('div');
+    row.className = 'thes-term';
+    row.style.width = '100%';
+
+    const chip = document.createElement('button');
+    chip.type        = 'button';
+    chip.className   = 'chip';
+    
+    // ✨ FIX 1 : On n'affiche (count) que si count > 0, sinon juste le libellé
+    chip.textContent = entry.count > 0 ? `${entry.label} (${entry.count})` : entry.label;
+    chip.dataset.id  = entry.label;
+
+    const isActive = activeFilters.periodes.has(entry.label);
+    const isAvailable = entry.count > 0;
+
+    if (!isAvailable && !isActive) {
+      chip.disabled = true;
+      chip.classList.add('disabled');
+      chip.title = 'Aucun bâtiment pour ce filtre';
+      chip.setAttribute('aria-label', `Période ${entry.label} (aucun résultat)`);
+    } else {
+      chip.disabled = false;
+      chip.classList.remove('disabled');
+      const plural = `${entry.count} bâtiment${entry.count > 1 ? 's' : ''}`;
+      chip.title = plural;
+      chip.setAttribute('aria-label', `Période ${entry.label}, ${plural}`);
+    }
+
+    if (isActive) chip.classList.add('active');
+    chip.setAttribute('aria-pressed', String(isActive));
+
+    chip.onclick = () => togglePeriodeChip(chip, entry.label);
+    row.appendChild(chip);
+    container.appendChild(row);
+  });
+}
+
+function togglePeriodeChip(btn, periodeLabel) {
+  const on = !activeFilters.periodes.has(periodeLabel);
+  
+  if (on) {
+    activeFilters.periodes.add(periodeLabel);
+  } else {
+    activeFilters.periodes.delete(periodeLabel);
+  }
+  
+  btn.classList.toggle('active', on);
+  btn.setAttribute('aria-pressed', String(on));
+  
+  if (typeof applyFilters === 'function') applyFilters();
+}
+
+function updatePeriodesData(featuresActuelles) {
+  // Calculer les résultats avec TOUS les filtres SAUF les périodes
+  let featuresSansPeriodes = ALL_FEATURES;
+
+  // 1. Recherche textuelle
+  if (typeof searchQuery !== 'undefined' && searchQuery.length >= 2) {
+    const ids = lunrSearch(searchQuery);
+    featuresSansPeriodes = featuresSansPeriodes.filter(f => 
+      ids.has(String(f.properties.id_bat)) || ids.has(Number(f.properties.id_bat))
+    );
+  }
+
+  // 2. Arrondissements
+  if (activeFilters.arrondissements.size > 0) {
+    featuresSansPeriodes = featuresSansPeriodes.filter(f =>
+      activeFilters.arrondissements.has(Number(f.properties.arrondissement))
+    );
+  }
+
+  // 3. Thésaurus
+  if (activeFilters.thesaurus.size > 0) {
+    const selectedTerms = Array.from(activeFilters.thesaurus).map(t => normalizeText(t));
+    featuresSansPeriodes = featuresSansPeriodes.filter(f => {
+      const rawTerms = f.properties.terme_jantzen_bat;
+      const batTermsArray = Array.isArray(rawTerms) ? rawTerms : [];
+      const batTermsNormalized = batTermsArray.map(t => normalizeText(t));
+      return selectedTerms.every(term => batTermsNormalized.includes(term));
+    });
+  }
+
+  // 4. Architectes
+  if (activeFilters.architectes.size > 0) {
+    const selectedArchiIds = Array.from(activeFilters.architectes).map(id => Number(id));
+    featuresSansPeriodes = featuresSansPeriodes.filter(f => {
+      const personnes = f.properties.personnes || [];
+      let batArchiIds = personnes
+        .map(p => Number(p.personneID ?? p.id_archi ?? p.id))
+        .filter(id => !isNaN(id));
+
+      if (batArchiIds.length === 0 && f.properties.personneID != null) {
+        const raw = f.properties.personneID;
+        batArchiIds = (Array.isArray(raw) ? raw : [raw]).map(Number);
+      }
+      return selectedArchiIds.some(selectedId => batArchiIds.includes(selectedId));
+    });
+  }
+
+  // Recalculer les effectifs réels
+  const counts = new Map();
+  featuresSansPeriodes.forEach(f => {
+    const raw = f.properties.periode || f.properties.periodes;
+    const periodesArray = Array.isArray(raw) ? raw : (raw ? [raw] : []);
+
+    periodesArray.forEach(p => {
+      const cleanP = String(p).trim();
+      if (cleanP) {
+        counts.set(cleanP, (counts.get(cleanP) || 0) + 1);
+      }
+    });
+  });
+
+  // Mettre à jour les données
+  PERIODE_TERMS.forEach(item => {
+    item.count = counts.get(item.label) || 0;
+  });
+
+  // Clean des filtres actifs si devenus indisponibles
+  activeFilters.periodes.forEach(p => {
+    if (!counts.get(p)) {
+      activeFilters.periodes.delete(p);
+    }
+  });
+
+  renderPeriodesList();
 }

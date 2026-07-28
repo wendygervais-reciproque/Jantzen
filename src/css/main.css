@@ -575,85 +575,18 @@ button { font-family: inherit; }
 }
 .filter-linkbtn:hover { color: var(--text-primary); }
 
-/* ─── FILTRE TEMPOREL ────────────────────────────────────────────────────── */
-#date-filter { display: flex; flex-direction: column; gap: var(--component-gap-8); }
-
-.date-fields { display: flex; align-items: center; gap: var(--component-gap-8); }
-.date-field {
-  display: flex; align-items: center; gap: var(--component-gap-4);
-  font-size: var(--text-interface-caption-size);
-  color: var(--text-secondary);
-}
-.date-field input {
-  width: 7ch;
-  padding: 3px var(--component-padding-4);
-  text-align: center;
-  /* Les flèches natives mangent la place des quatre chiffres. */
-  -moz-appearance: textfield;
-  appearance: textfield;
-  font-family: var(--font-sans);
-  font-size: var(--text-body-small-size);
-  color: var(--input-text-default);
-  background: var(--input-background-default);
-  border: 1px solid var(--input-border-default);
-  border-radius: var(--radius-element);
-}
-.date-field input::-webkit-outer-spin-button,
-.date-field input::-webkit-inner-spin-button { -webkit-appearance: none; margin: 0; }
-.date-field input:focus { outline: none; border-color: var(--input-border-active); }
-
-/* Deux curseurs natifs superposés : seules les poignées captent le pointeur. */
-.range-slider { position: relative; height: 28px; }
-.range-track {
-  position: absolute; top: 50%; left: 0; right: 0;
-  height: 4px; transform: translateY(-50%);
-  background: var(--border-subtle);
-  border-radius: 2px;
-}
-.range-fill {
-  position: absolute; top: 0; bottom: 0;
-  background: var(--background-brand-primary);
-  border-radius: 2px;
-}
-.range-input {
-  position: absolute; top: 0; left: 0;
-  width: 100%; height: 28px; margin: 0;
-  background: none;
-  -webkit-appearance: none; appearance: none;
-  pointer-events: none;
-}
-.range-input::-webkit-slider-thumb {
-  -webkit-appearance: none;
-  pointer-events: auto;
-  width: 18px; height: 18px;
-  border-radius: 50%;
-  background: var(--surface-level-01);
-  border: 2px solid var(--background-brand-primary);
-  box-shadow: var(--elevation-anchored);
-  cursor: pointer;
-}
-.range-input::-moz-range-thumb {
-  pointer-events: auto;
-  width: 14px; height: 14px;
-  border-radius: 50%;
-  background: var(--surface-level-01);
-  border: 2px solid var(--background-brand-primary);
-  cursor: pointer;
-}
-.range-input::-moz-range-track { background: none; border: none; }
-.range-input:focus { outline: none; }
-.range-input:focus-visible::-webkit-slider-thumb {
-  outline: 2px solid var(--focus-on-background-default);
-  outline-offset: 2px;
-}
-.range-input:focus-visible::-moz-range-thumb {
-  outline: 2px solid var(--focus-on-background-default);
-  outline-offset: 2px;
+/* Affichage vertical des puces de période */
+#date-chips-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px; /* Espace vertical entre les puces */
 }
 
-.date-summary {
-  font-size: var(--text-interface-caption-size);
-  color: var(--text-secondary);
+/* S'assurer que le wrapper prend toute la largeur */
+#date-chips-container .thes-term {
+  display: block;
+  width: 100%;
 }
 
 /* ─── THÉSAURUS : RECHERCHE, GROUPES, DÉFINITIONS ───────────────────────── */

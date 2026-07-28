@@ -108,30 +108,8 @@
         </button>
         <div class="filter-section-body">
           <div id="date-filter">
-
-            <!-- Saisie directe : alternative au pointage (RGAA 13.x / WCAG 2.5.7) -->
-            <div class="date-fields">
-              <label class="date-field">
-                <span>De</span>
-                <input type="number" id="date-from-input" inputmode="numeric" step="1"/>
-              </label>
-              <label class="date-field">
-                <span>à</span>
-                <input type="number" id="date-to-input" inputmode="numeric" step="1"/>
-              </label>
-            </div>
-
-            <!-- Deux curseurs natifs superposés : sémantique et clavier natifs -->
-            <div class="range-slider">
-              <div class="range-track" aria-hidden="true"><div class="range-fill" id="date-fill"></div></div>
-              <input type="range" id="date-from" class="range-input"
-                     aria-label="Année de début de la période"/>
-              <input type="range" id="date-to" class="range-input"
-                     aria-label="Année de fin de la période"/>
-            </div>
-
-            <p id="date-summary" class="date-summary" aria-live="polite"></p>
-            <button type="button" id="date-reset" class="filter-linkbtn">Toute la période</button>
+            <!-- Conteneur qui recevra dynamiquement les boutons / puces (chips) des périodes -->
+            <div id="date-chips-container" class="thes-terms"></div>
           </div>
         </div>
       </div>
