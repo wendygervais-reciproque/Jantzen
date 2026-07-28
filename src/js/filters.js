@@ -612,8 +612,6 @@ function updateArchitectesData(featuresActuelles) {
 
 /* ─── PÉRIODES (FILTRE À FACETTES EN OU) ──────────────────────────────── */
 
-/* ─── PÉRIODES (FILTRE À FACETTES EN OU) ──────────────────────────────── */
-
 function buildPeriodesFilter(periodesData = []) {
   let list = [];
 
@@ -686,7 +684,6 @@ function renderPeriodesList() {
     const isActive = activeFilters.periodes.has(entry.label);
     const isAvailable = entry.count > 0;
 
-    // ✨ FIX 2 : Griser et désactiver si aucun résultat et non actif
     if (!isAvailable && !isActive) {
       chip.disabled = true;
       chip.classList.add('disabled');
@@ -797,6 +794,5 @@ function updatePeriodesData(featuresActuelles) {
     }
   });
 
-  // ✨ FIX 2 (suite) : On rafraîchit visuellement les puces HTML
   renderPeriodesList();
 }
