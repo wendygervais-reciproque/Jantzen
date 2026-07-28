@@ -6,7 +6,7 @@
  * (volet gauche docké de la vue mosaïque) mais qui présente désormais aussi le
  * bâtiment sélectionné en vue carte. Ce fichier ne garde que la sélection
  * elle-même, et les utilitaires réutilisés par mosaic-detail.js (cards
- * « personnes liées », ouverture d'une section de filtre).
+ * « personnes liées »).
  */
 
 let selectedId = null;
@@ -125,19 +125,4 @@ function buildPersonLinks(personne, nom) {
   });
 
   return p;
-}
-
-/* ─── UTILITAIRES ───────────────────────────────────────────────────────── */
-
-function openFilterSection(labelMatch) {
-  document.querySelectorAll('.filter-section-header').forEach(btn => {
-    const label = btn.querySelector('.filter-section-label')?.textContent.toLowerCase() || '';
-    if (!label.includes(labelMatch.toLowerCase())) return;
-
-    const body = btn.nextElementSibling;
-    if (body && !body.classList.contains('open')) {
-      body.classList.add('open');
-      btn.setAttribute('aria-expanded', 'true');
-    }
-  });
 }

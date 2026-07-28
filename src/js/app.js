@@ -162,8 +162,9 @@ function bindLightbox() {
 function bindKeyboard() {
   document.addEventListener('keydown', e => {
     if (e.key === 'Escape') {
-      if (isLightboxOpen())                    return closeLightbox();
-      if (document.querySelector('.thes-def')) return closeAllTermDefinitions();
+      if (isLightboxOpen())                                     return closeLightbox();
+      if (!document.getElementById('md-elem-select-menu')?.hidden) return closeMdElementMenu();
+      if (document.querySelector('.thes-def'))                  return closeAllTermDefinitions();
       if (isPageOpen())                        return closePage();
       if (selectedId !== null)                 return deselectBatiment();
       return;
@@ -264,6 +265,12 @@ function applyFilters() {
 
   const archiSearchVal = document.getElementById('archi-search')?.value || '';
   renderArchitectesList(archiSearchVal);
+
+  // Le bâtiment ouvert n'a plus sa place dans les nouveaux résultats : on
+  // referme sa fiche plutôt que de la laisser affichée hors filtre.
+  if (selectedId !== null && !filteredFeatures.some(f => String(f.properties.id_bat) === String(selectedId))) {
+    deselectBatiment();
+  }
 
   // Rendu final
   renderCurrentView(filteredFeatures);

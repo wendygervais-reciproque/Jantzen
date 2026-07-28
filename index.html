@@ -32,6 +32,9 @@
   <symbol id="i-arrow-right" viewBox="0 0 24 24">
     <path d="m13.1 19.5-1.1-1.1 5.6-5.6H3.4v-1.6h14.2L12 5.6l1.1-1.1 7.5 7.5-7.5 7.5Z"/>
   </symbol>
+  <symbol id="i-chevron" viewBox="0 0 24 24">
+    <path d="m12 15.4-6-6L7.1 8.3l4.9 4.9 4.9-4.9L18 9.4l-6 6Z"/>
+  </symbol>
 
 </svg>
 
@@ -167,7 +170,25 @@
     <div id="mosaic-detail-body">
       <span class="md-section-label">Infos bâtiment</span>
       <div id="md-info"></div>
-      <span class="md-section-label" id="md-photos-label" hidden>Photos</span>
+      <div id="md-photos-header" hidden>
+        <span class="md-section-label" id="md-photos-label">Photos</span>
+        <!-- Multiselect « élément architectural » (motif Carbon) : filtre la galerie ci-dessous. -->
+        <div class="multiselect" id="md-elem-select">
+          <button type="button" class="ms-field"
+                  aria-label="Filtrer les photos par élément architectural"
+                  aria-haspopup="listbox" aria-expanded="false"
+                  aria-controls="md-elem-select-menu">
+            <span class="ms-badge" hidden>
+              <span class="ms-badge-count">0</span>
+              <span class="ms-badge-clear" role="img" aria-label="Tout désélectionner">×</span>
+            </span>
+            <span class="ms-label">Élément architectural</span>
+            <svg class="icon ms-chevron" aria-hidden="true"><use href="#i-chevron"/></svg>
+          </button>
+          <ul class="ms-menu" id="md-elem-select-menu" role="listbox"
+              aria-multiselectable="true" aria-label="Éléments architecturaux" hidden></ul>
+        </div>
+      </div>
       <div id="md-photos"></div>
     </div>
     <!-- Tirette de redimensionnement -->
