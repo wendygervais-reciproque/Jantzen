@@ -58,7 +58,7 @@ function bindSearch() {
     clearTimeout(searchDebounceTimer);
     searchDebounceTimer = setTimeout(() => {
       applyFilters();
-    }, 1000);
+    }, 800);
   });
 
   clear?.addEventListener('click', () => {
@@ -71,7 +71,6 @@ function bindSearch() {
   });
 }
 
-// Réinitialise les données ET l'UI de tous les filtres sauf la recherche
 function resetOtherFiltersUI() {
   // 1. Arrondissements — chips
   activeFilters.arrondissements.clear();
@@ -80,17 +79,12 @@ function resetOtherFiltersUI() {
     chip.setAttribute('aria-pressed', 'false');
   });
 
-  // 2. Temporalité — sliders + inputs
+  // 2. Temporalité — reset via activeFilters + resync visuel, sans déclencher
+  // le handler de #date-reset (qui appelle applyFilters() via dateApplyTimer
+  // et casserait le debounce de la recherche)
+  clearTimeout(dateApplyTimer);
   activeFilters.years = null;
-  const dateFromInput = document.getElementById('date-from-input');
-  const dateToInput   = document.getElementById('date-to-input');
-  const dateFrom      = document.getElementById('date-from');
-  const dateTo        = document.getElementById('date-to');
-  if (dateFromInput) dateFromInput.value = '';
-  if (dateToInput)   dateToInput.value   = '';
-  if (dateFrom && dateFrom.min) dateFrom.value = dateFrom.min;
-  if (dateTo && dateTo.max)     dateTo.value   = dateTo.max;
-  document.getElementById('date-reset')?.click(); // si ce bouton sait déjà tout remettre à zéro proprement
+  syncDateInputs();
 
   // 3. Thésaurus
   activeFilters.thesaurus.clear();
