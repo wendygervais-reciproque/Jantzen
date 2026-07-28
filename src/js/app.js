@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   bindNavigation();
   bindViewToggle();
   bindFiltersPanel();
-  bindCarousel();
+  bindLightbox();
   bindMosaicDetail();
   bindKeyboard();
 
@@ -142,35 +142,14 @@ function bindFiltersPanel() {
   });
 }
 
-/* ─── CARROUSEL, MULTISELECT ET PLEIN ÉCRAN ─────────────────────────────── */
+/* ─── VISIONNEUSE PLEIN ÉCRAN ────────────────────────────────────────────── */
 
-function bindCarousel() {
-  document.getElementById('info-close')?.addEventListener('click', deselectBatiment);
-
-  document.getElementById('carousel-prev')?.addEventListener('click', () => stepPhoto(-1));
-  document.getElementById('carousel-next')?.addEventListener('click', () => stepPhoto(1));
-  document.getElementById('carousel-fullscreen')?.addEventListener('click', openLightbox);
-
+function bindLightbox() {
   document.getElementById('lightbox-close')?.addEventListener('click', closeLightbox);
   document.getElementById('lightbox-prev')?.addEventListener('click', () => stepPhoto(-1));
   document.getElementById('lightbox-next')?.addEventListener('click', () => stepPhoto(1));
   document.getElementById('lightbox')?.addEventListener('click', e => {
     if (e.target.id === 'lightbox') closeLightbox();   // clic sur le fond
-  });
-
-  const field = document.querySelector('#elem-select .ms-field');
-  field?.addEventListener('click', e => {
-    // La pastille de comptage sert de bouton « tout désélectionner ».
-    if (e.target.closest('.ms-badge-clear')) {
-      e.stopPropagation();
-      clearElementFilter();
-      return;
-    }
-    toggleElementMenu();
-  });
-
-  document.addEventListener('click', e => {
-    if (!e.target.closest('#elem-select')) closeElementMenu();
   });
 }
 
@@ -179,20 +158,16 @@ function bindCarousel() {
 function bindKeyboard() {
   document.addEventListener('keydown', e => {
     if (e.key === 'Escape') {
-      if (isLightboxOpen())                                  return closeLightbox();
-      if (!document.getElementById('elem-select-menu')?.hidden) return closeElementMenu();
-      if (document.querySelector('.thes-def'))                return closeAllTermDefinitions();
-      if (isPageOpen())                                      return closePage();
-      if (selectedId !== null)                               return deselectBatiment();
+      if (isLightboxOpen())                    return closeLightbox();
+      if (document.querySelector('.thes-def')) return closeAllTermDefinitions();
+      if (isPageOpen())                        return closePage();
+      if (selectedId !== null)                 return deselectBatiment();
       return;
     }
 
-    // Flèches : navigation dans les photos, sauf pendant une saisie.
-    // Actives quand le coverflow est visible (vue carte) ou que la visionneuse
-    // est ouverte — y compris la galerie du volet mosaïque, coverflow masqué.
+    // Flèches : navigation dans les photos de la visionneuse, sauf pendant une saisie.
     const typing = ['INPUT', 'TEXTAREA'].includes(document.activeElement?.tagName);
-    const carouselVisible = !document.getElementById('carousel')?.hidden;
-    if (typing || (!carouselVisible && !isLightboxOpen())) return;
+    if (typing || !isLightboxOpen()) return;
 
     if (e.key === 'ArrowLeft')  { e.preventDefault(); stepPhoto(-1); }
     if (e.key === 'ArrowRight') { e.preventDefault(); stepPhoto(1);  }

@@ -105,7 +105,7 @@ function buildMosaicTile(p) {
   const tile = buildBuildingCard(p);
   tile.classList.add('mosaic-tile');
   if (String(selectedId) === String(p.id_bat)) tile.classList.add('is-active');
-  tile.onclick = () => selectBatiment(p.id_bat, { fullscreen: true });
+  tile.onclick = () => selectBatiment(p.id_bat);
   return tile;
 }
 
