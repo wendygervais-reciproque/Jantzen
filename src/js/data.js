@@ -13,8 +13,8 @@ let ALL_FEATURES          = [];   // features[] — source de vérité pour les 
 let ARR_POLYGONS          = null; // FeatureCollection des 20 arrondissements (tracés officiels)
 let PERSONNES_FILTRE_DATA = [];   // NOUVEAU : Liste des architectes [{ id_archi, libelle }]
 let ARCHI_TERMS           = [];   // Index pour le filtre à facettes des architectes
-let DATE_RANGE            = [1180, 1944]; // amplitude réelle, recalculée au chargement
 let PHOTO_RANGE           = [1, 104];     // nb de photos min/max par bâtiment
+let PERIODE_TERMS          = [];
 
 /* ─── CENTROÏDES DES ARRONDISSEMENTS PARISIENS (WGS-84) ─────────────────── */
 const ARR_CENTROIDS = [
@@ -76,9 +76,10 @@ function assignArrondissement(lng, lat) {
 
 /* ─── CHARGEMENT DES DONNÉES ────────────────────────────────────────────── */
 
+/* --- Dans la fonction loadData() de data.js --- */
 async function loadData() {
   try {
-    const [thesaurusData, geojsonData, arrData, datesData, personnesFiltreData] = await Promise.all([
+    const [thesaurusData, geojsonData, arrData, datesData, personnesFiltreData, periodesFiltreData] = await Promise.all([
       fetch(`${DATA_BASE}/thesaurus_index.json`).then(r => r.ok ? r.json() : []).catch(() => []),
       fetch(`${DATA_BASE}/map_poi.geojson`).then(r => {
         if (!r.ok) throw new Error(`HTTP ${r.status} : Impossible de charger ${DATA_BASE}/map_poi.geojson`);
@@ -86,21 +87,21 @@ async function loadData() {
       }),
       fetch(`${DATA_BASE}/arrondissements.geojson`).then(r => r.ok ? r.json() : null).catch(() => null),
       fetch(`${DATA_BASE}/batiments_index.json`).then(r => r.ok ? r.json() : {}).catch(() => ({})),
-      fetch(`${DATA_BASE}/personnes_filtre.json`).then(r => r.ok ? r.json() : []).catch(() => []) // Chargement du fichier des architectes
+      fetch(`${DATA_BASE}/personnes_filtre.json`).then(r => r.ok ? r.json() : []).catch(() => []),
+      fetch(`${DATA_BASE}/periode_filtre.json`).then(r => r.ok ? r.json() : []).catch(() => [])
     ]);
 
     THESAURUS             = thesaurusData;
     RAW_GEOJSON           = geojsonData;
     ARR_POLYGONS          = arrData;
     PERSONNES_FILTRE_DATA = personnesFiltreData;
+    PERIODES_FILTRE_DATA  = periodesFiltreData;
 
     if (geojsonData && Array.isArray(geojsonData.features)) {
       geojsonData.features.forEach(f => {
-        // Standard GeoJSON strict : geometry.coordinates -> [lng, lat]
         if (f.geometry && Array.isArray(f.geometry.coordinates)) {
           const [lng, lat] = f.geometry.coordinates;
 
-          // Si l'arrondissement est absent, on le calcule
           if (!f.properties.arrondissement) {
             f.properties.arrondissement = assignArrondissement(lng, lat);
           } else {
@@ -109,7 +110,6 @@ async function loadData() {
         }
       });
 
-      // Filtrage de sécurité : on ne conserve que les points valides
       ALL_FEATURES = geojsonData.features.filter(f =>
         f.geometry &&
         Array.isArray(f.geometry.coordinates) &&
@@ -120,12 +120,17 @@ async function loadData() {
       attachBuildingIndex(datesData);
     }
 
-    // Construction du filtre des architectes si la fonction existe dans filters.js
+    // Construction du filtre des architectes
     if (typeof buildArchitectesFilter === 'function') {
       buildArchitectesFilter(PERSONNES_FILTRE_DATA);
     }
 
-    console.log(`🎉 SUCCÈS ! ${ALL_FEATURES.length} bâtiments valides et ${PERSONNES_FILTRE_DATA.length} architectes chargés.`);
+    // NOUVEAU : Construction du filtre à facettes des périodes
+    if (typeof buildPeriodesFilter === 'function') {
+      buildPeriodesFilter(PERIODES_FILTRE_DATA);
+    }
+
+    console.log(`🎉 SUCCÈS ! ${ALL_FEATURES.length} bâtiments valides, ${PERSONNES_FILTRE_DATA.length} architectes et ${PERIODES_FILTRE_DATA.length} périodes chargées.`);
 
   } catch (err) {
     console.error("❌ Erreur lors du chargement des données :", err);

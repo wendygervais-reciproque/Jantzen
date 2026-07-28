@@ -21,8 +21,8 @@ document.addEventListener('DOMContentLoaded', async () => {
   initMap();
   buildLunrIndex();
   buildArrChips();
-  buildDateFilter();
   buildThesaurusFilter();
+  buildPeriodesFilter(PERIODES_FILTRE_DATA);
   
   // S'assurer que les architectes sont affichés avec les données filtrées initiales
   renderArchitectesList('');
@@ -79,12 +79,10 @@ function resetOtherFiltersUI() {
     chip.setAttribute('aria-pressed', 'false');
   });
 
-  // 2. Temporalité — reset via activeFilters + resync visuel, sans déclencher
-  // le handler de #date-reset (qui appelle applyFilters() via dateApplyTimer
-  // et casserait le debounce de la recherche)
-  clearTimeout(dateApplyTimer);
-  activeFilters.years = null;
-  syncDateInputs();
+  // 2. periode
+  activeFilters.periodes.clear();
+  const periodeSearchVal = document.getElementById('periode-search')?.value || '';
+  renderPeriodeGroups(periodeSearchVal);
 
   // 3. Thésaurus
   activeFilters.thesaurus.clear();
@@ -203,15 +201,14 @@ function bindKeyboard() {
 
 /* ─── APPLICATION DES FILTRES ───────────────────────────────────────────── */
 
+/* --- Dans la fonction applyFilters() de app.js --- */
 function applyFilters() {
   let filteredFeatures = ALL_FEATURES;
 
-  const isSearchActive = searchQuery.length >= 2;
-  const isYearsActive = activeFilters.years !== null;
-  const isThesaurusActive = activeFilters.thesaurus.size > 0;
+  const isSearchActive     = searchQuery.length >= 2;
+  const isThesaurusActive  = activeFilters.thesaurus.size > 0;
   const isArchitectesActive = activeFilters.architectes.size > 0;
-
-  const hasOtherFilters = isSearchActive || isYearsActive || isThesaurusActive || isArchitectesActive;
+  const isPeriodesActive   = activeFilters.periodes.size > 0; // NOUVEAU
 
   // 1. Recherche textuelle (Lunr)
   if (searchQuery.length >= 2) {
@@ -223,41 +220,46 @@ function applyFilters() {
 
   // 2. Filtre arrondissement
   if (activeFilters.arrondissements.size > 0) {
+    console.log('bonjour');
     filteredFeatures = filteredFeatures.filter(f =>
       activeFilters.arrondissements.has(Number(f.properties.arrondissement))
     );
   }
 
-  // 3. Filtre temporel — intersection avec l'intervalle de construction
-  if (activeFilters.years) {
-    const [from, to] = activeFilters.years;
-    filteredFeatures = filteredFeatures.filter(f => matchesYearRange(f.properties, from, to));
+
+  // 3. Filtre des périodes à facettes (Filtre en OU)
+  if (activeFilters.periodes.size > 0) {
+
+    console.log('coucou');
+    const selectedPeriodes = Array.from(activeFilters.periodes);
+
+    filteredFeatures = filteredFeatures.filter(f => {
+      const raw = f.properties.periode;
+      const batPeriodes = Array.isArray(raw) ? raw : (raw ? [raw] : []);
+      
+      // Filtre OU : au moins une des périodes sélectionnées doit correspondre
+      return selectedPeriodes.some(p => batPeriodes.includes(p));
+    });
   }
 
   // 4. Filtre thésaurus (Index Jantzen)
   if (activeFilters.thesaurus.size > 0) {
     const selectedTerms = Array.from(activeFilters.thesaurus).map(t => normalizeText(t));
-
     filteredFeatures = filteredFeatures.filter(f => {
       const rawTerms = f.properties.terme_jantzen_bat;
       const batTermsArray = Array.isArray(rawTerms) ? rawTerms : [];
       const batTermsNormalized = batTermsArray.map(t => normalizeText(t));
-
-      // L'utilisation de 'every' ou 'some' dépend si vous voulez un filtre ET ou OU.
-      // Ici, le bâtiment doit posséder TOUS les termes du thésaurus sélectionnés :
       return selectedTerms.every(term => batTermsNormalized.includes(term));
     });
   }
 
-  // 🔄 Mettre à jour les comptes des architectes AVANT d'appliquer le filtre architectes lui-même
+  // Mettre à jour les données des architectes
   updateArchitectesData(filteredFeatures);
 
   // 5. Filtre Architectes 
   if (activeFilters.architectes.size > 0) {
     const selectedArchiIds = Array.from(activeFilters.architectes).map(id => Number(id));
-
     filteredFeatures = filteredFeatures.filter(f => {
-      // On extrait tous les IDs d'architectes liés au bâtiment (depuis 'personnes' ou 'personneID')
       const personnes = f.properties.personnes || [];
       let batArchiIds = personnes
         .map(p => Number(p.personneID ?? p.id_archi ?? p.id))
@@ -267,16 +269,17 @@ function applyFilters() {
         const raw = f.properties.personneID;
         batArchiIds = (Array.isArray(raw) ? raw : [raw]).map(Number);
       }
-
-      // Conserve le bâtiment si au moins un des architectes sélectionnés s'y trouve
       return selectedArchiIds.some(selectedId => batArchiIds.includes(selectedId));
     });
   }
 
-  // Mise à jour UI des filtres (arrondissements, thésaurus, architectes)
+  // Mise à jour des données et rendu UI des facettes
   updateArrondissementsData(filteredFeatures);
   updateThesaurusData(filteredFeatures);
+  updatePeriodesData(filteredFeatures); // NOUVEAU
   
+  renderPeriodesList(); // NOUVEAU
+
   const thesSearchVal = document.getElementById('thesaurus-search')?.value || '';
   renderThesaurusGroups(thesSearchVal);
 
@@ -287,8 +290,6 @@ function applyFilters() {
   renderCurrentView(filteredFeatures);
   renderActiveTags();
 
-  // Reflet dans l'URL : recherche + filtres passent tous par ici. En `replace`
-  // pour ne pas empiler une entrée d'historique à chaque cran/frappe.
   if (typeof writeStateToHash === 'function') writeStateToHash('replace');
 }
 
@@ -311,7 +312,7 @@ function currentAppState() {
   return {
     view:  typeof currentView !== 'undefined' ? currentView : 'map',
     arr:   [...activeFilters.arrondissements],
-    years: activeFilters.years,
+    periode:[...activeFilters.periodes],
     thes:  [...activeFilters.thesaurus],
     query: searchQuery,
     bat:   selectedId != null ? String(selectedId) : null
@@ -322,7 +323,7 @@ function serializeState(s) {
   const parts = [];
   if (s.view && s.view !== 'map')  parts.push(`v=${s.view}`);
   if (s.arr && s.arr.length)       parts.push(`arr=${s.arr.join(',')}`);
-  if (s.years)                     parts.push(`an=${s.years[0]}-${s.years[1]}`);
+  if (s.periodes && s.periodes.length) parts.push(`per=${s.periodes.map(encodeURIComponent).join(',')}`);
   if (s.thes && s.thes.length)     parts.push(`th=${s.thes.map(termSlug).join(',')}`);
   if (s.query)                     parts.push(`q=${encodeURIComponent(s.query)}`);
   if (s.bat != null)               parts.push(`bat=${encodeURIComponent(s.bat)}`);
@@ -330,7 +331,7 @@ function serializeState(s) {
 }
 
 function parseHash(hash) {
-  const s = { view: 'map', arr: [], years: null, thes: [], query: '', bat: null };
+  const s = { view: 'map', arr: [], periodes: [], thes: [], query: '', bat: null };
   const raw = (hash || '').replace(/^#/, '');
   if (!raw) return s;
   raw.split('&').forEach(pair => {
@@ -338,16 +339,12 @@ function parseHash(hash) {
     if (i < 0) return;
     const key = pair.slice(0, i), val = pair.slice(i + 1);
     switch (key) {
-      case 'v':   if (val === 'mosaic' || val === 'map') s.view = val; break;
-      case 'arr': s.arr = val.split(',').map(Number).filter(Number.isFinite); break;
-      case 'an': {
-        const m = val.match(/^(\d+)-(\d+)$/);
-        if (m) s.years = [Number(m[1]), Number(m[2])];
-        break;
-      }
-      case 'th':  s.thes = val.split(',').map(slugToTerm).filter(Boolean); break;
-      case 'q':   try { s.query = decodeURIComponent(val); } catch { s.query = val; } break;
-      case 'bat': try { s.bat   = decodeURIComponent(val); } catch { s.bat   = val; } break;
+      case 'v':        if (val === 'mosaic' || val === 'map') s.view = val; break;
+      case 'arr':      s.arr = val.split(',').map(Number).filter(Number.isFinite); break;
+      case 'per':      s.periodes = val.split(',').map(decodeURIComponent); break;
+      case 'th':       s.thes = val.split(',').map(slugToTerm).filter(Boolean); break;
+      case 'q':        try { s.query = decodeURIComponent(val); } catch { s.query = val; } break;
+      case 'bat':      try { s.bat   = decodeURIComponent(val); } catch { s.bat   = val; } break;
     }
   });
   return s;
@@ -404,9 +401,12 @@ function applyStateFromHash() {
     //    régénérés par applyFilters().
     activeFilters.arrondissements = new Set(s.arr);
     activeFilters.thesaurus       = new Set(s.thes);
-    activeFilters.years           = s.years;
+    activeFilters.periodes        = new Set(s.periodes);
     syncArrChips();
-    syncDateInputs();
+
+    if (typeof renderPeriodesList === 'function') {
+      renderPeriodesList();
+    }
 
     // 3. Passe de filtrage unique → carte + compteurs + puces + tags + vue.
     applyFilters();
