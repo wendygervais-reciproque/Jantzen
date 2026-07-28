@@ -81,13 +81,17 @@ function resetOtherFiltersUI() {
 
   // 2. periode
   activeFilters.periodes.clear();
-  const periodeSearchVal = document.getElementById('periode-search')?.value || '';
-  renderPeriodeGroups(periodeSearchVal);
+  if (typeof renderPeriodesList === 'function') renderPeriodesList();
 
   // 3. Thésaurus
   activeFilters.thesaurus.clear();
   const thesSearchVal = document.getElementById('thesaurus-search')?.value || '';
   renderThesaurusGroups(thesSearchVal);
+
+  // 4. Architectes
+  activeFilters.architectes.clear();
+  const archiSearchVal = document.getElementById('archi-search')?.value || '';
+  renderArchitectesList(archiSearchVal);
 }
 
 /* ─── NAVIGATION (marque, à propos, pages) ──────────────────────────────── */
