@@ -287,8 +287,18 @@ function updateThesaurusData(featuresActuelles) {
 }
 
 function updateArrondissementsData(featuresActuelles) {
+
+  const isSearchActive = searchQuery.length >= 2;
+  const isYearsActive = activeFilters.years !== null;
+  const isThesaurusActive = activeFilters.thesaurus.size > 0;
+  const isArchitectesActive = activeFilters.architectes.size > 0;
+  const hasOtherFilters = isSearchActive || isYearsActive || isThesaurusActive || isArchitectesActive;
+
+  // Si aucun autre filtre n'est actif, la disponibilité des arrondissements dépend de ALL_FEATURES
+  const sourceForArrCounts = hasOtherFilters ? featuresActuelles : ALL_FEATURES;
+
   const counts = new Map();
-  featuresActuelles.forEach(f => {
+  sourceForArrCounts.forEach(f => {
     const arr = Number(f.properties.arrondissement);
     if (arr) {
       counts.set(arr, (counts.get(arr) || 0) + 1);

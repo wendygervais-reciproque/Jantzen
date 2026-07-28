@@ -206,6 +206,13 @@ function bindKeyboard() {
 function applyFilters() {
   let filteredFeatures = ALL_FEATURES;
 
+  const isSearchActive = searchQuery.length >= 2;
+  const isYearsActive = activeFilters.years !== null;
+  const isThesaurusActive = activeFilters.thesaurus.size > 0;
+  const isArchitectesActive = activeFilters.architectes.size > 0;
+
+  const hasOtherFilters = isSearchActive || isYearsActive || isThesaurusActive || isArchitectesActive;
+
   // 1. Recherche textuelle (Lunr)
   if (searchQuery.length >= 2) {
     const ids = lunrSearch(searchQuery);
@@ -216,9 +223,18 @@ function applyFilters() {
 
   // 2. Filtre arrondissement
   if (activeFilters.arrondissements.size > 0) {
-    filteredFeatures = filteredFeatures.filter(f =>
-      activeFilters.arrondissements.has(Number(f.properties.arrondissement))
-    );
+    if(hasOtherFilters) {
+      // Si d'autres filtres sont actifs, comportement en ET
+      filteredFeatures = filteredFeatures.filter(f =>
+        activeFilters.arrondissements.has(Number(f.properties.arrondissement))
+      );
+    } else {
+      // Si aucun autre filtre n'est actif: comportement en OU, on garde tous les arrondissements sélectionnés
+      filteredFeatures = ALL_FEATURES.filter(f =>
+        activeFilters.arrondissements.has(Number(f.properties.arrondissement)),
+        console.log("bonjour")
+      );
+    }
   }
 
   // 3. Filtre temporel — intersection avec l'intervalle de construction
@@ -227,7 +243,6 @@ function applyFilters() {
     filteredFeatures = filteredFeatures.filter(f => matchesYearRange(f.properties, from, to));
   }
 
-  // 4. Filtre thésaurus (Index Jantzen)
   // 4. Filtre thésaurus (Index Jantzen)
   if (activeFilters.thesaurus.size > 0) {
     const selectedTerms = Array.from(activeFilters.thesaurus).map(t => normalizeText(t));
