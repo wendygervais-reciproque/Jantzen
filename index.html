@@ -32,12 +32,7 @@
   <symbol id="i-arrow-right" viewBox="0 0 24 24">
     <path d="m13.1 19.5-1.1-1.1 5.6-5.6H3.4v-1.6h14.2L12 5.6l1.1-1.1 7.5 7.5-7.5 7.5Z"/>
   </symbol>
-  <symbol id="i-fullscreen" viewBox="0 0 24 24">
-    <path d="M3 21v-7h1.6v4.3l14-14H14.3V3H21v7h-1.6V5.7l-14 14H10V21H3Z"/>
-  </symbol>
-  <symbol id="i-chevron" viewBox="0 0 24 24">
-    <path d="m12 15.4-6-6L7.1 8.3l4.9 4.9 4.9-4.9L18 9.4l-6 6Z"/>
-  </symbol>
+
 </svg>
 
 <div id="app">
@@ -186,65 +181,7 @@
     </div>
   </div>
 
-  <!-- ── INFOS BÂTIMENT ── -->
-  <section id="info-panel" aria-label="Informations du bâtiment" hidden>
-    <button id="info-close" aria-label="Fermer la fiche">
-      <svg class="icon" aria-hidden="true"><use href="#i-close"/></svg>
-    </button>
-    <div id="info-body">
-      <h2 id="info-title"></h2>
-      <p id="info-address"></p>
-      <div class="info-meta-grid" id="info-meta-grid"></div>
-      <span class="info-elements-label" id="info-personnes-label" hidden>Personnes</span>
-      <div class="info-personnes" id="info-personnes-list"></div>
-      <span class="info-elements-label" id="info-elements-label" hidden>Éléments architecturaux (Index Jantzen)</span>
-      <div class="info-elements" id="info-elements-tags"></div>
-    </div>
-  </section>
-
-  <!-- ── CARROUSEL ── -->
-  <section id="carousel" aria-label="Photographies du bâtiment" hidden>
-    <p id="carousel-title"></p>
-    <div id="carousel-stage"><div id="carousel-track"></div></div>
-
-    <div id="carousel-actions">
-      <button class="carousel-nav" id="carousel-prev" aria-label="Photo précédente">
-        <svg class="icon" aria-hidden="true"><use href="#i-arrow-left"/></svg>
-      </button>
-
-      <div id="carousel-pill">
-        <span id="carousel-counter">0 | 0</span>
-        <span class="pill-sep" aria-hidden="true"></span>
-
-        <!-- Multiselect « élément architectural » (motif Carbon) -->
-        <div class="multiselect" id="elem-select">
-          <button type="button" class="ms-field"
-                  aria-label="Filtrer les photos par élément architectural"
-                  aria-haspopup="listbox" aria-expanded="false"
-                  aria-controls="elem-select-menu">
-            <span class="ms-badge" hidden>
-              <span class="ms-badge-count">0</span>
-              <span class="ms-badge-clear" role="img" aria-label="Tout désélectionner">×</span>
-            </span>
-            <span class="ms-label">Élément architectural</span>
-            <svg class="icon ms-chevron" aria-hidden="true"><use href="#i-chevron"/></svg>
-          </button>
-          <ul class="ms-menu" id="elem-select-menu" role="listbox"
-              aria-multiselectable="true" aria-label="Éléments architecturaux" hidden></ul>
-        </div>
-      </div>
-
-      <button class="carousel-nav" id="carousel-next" aria-label="Photo suivante">
-        <svg class="icon" aria-hidden="true"><use href="#i-arrow-right"/></svg>
-      </button>
-
-      <button class="carousel-nav" id="carousel-fullscreen" aria-label="Afficher en plein écran">
-        <svg class="icon" aria-hidden="true"><use href="#i-fullscreen"/></svg>
-      </button>
-    </div>
-  </section>
-
-  <!-- ── VOLET DÉTAIL (vue mosaïque) : infos + photos ── -->
+  <!-- ── VOLET DÉTAIL BÂTIMENT (infos + photos) — carte et mosaïque ── -->
   <aside id="mosaic-detail" aria-label="Détail du bâtiment" hidden>
     <button id="mosaic-detail-close" aria-label="Fermer la fiche">
       <svg class="icon" aria-hidden="true"><use href="#i-close"/></svg>
@@ -278,16 +215,18 @@
   <button id="lightbox-close" aria-label="Fermer">
     <svg class="icon" aria-hidden="true"><use href="#i-close"/></svg>
   </button>
-  <button class="lightbox-nav" id="lightbox-prev" aria-label="Photo précédente">
-    <svg class="icon" aria-hidden="true"><use href="#i-arrow-left"/></svg>
-  </button>
   <figure id="lightbox-figure">
     <img id="lightbox-img" alt=""/>
     <figcaption id="lightbox-caption"></figcaption>
+    <div id="lightbox-nav-row">
+      <button class="lightbox-nav" id="lightbox-prev" aria-label="Photo précédente">
+        <svg class="icon" aria-hidden="true"><use href="#i-arrow-left"/></svg>
+      </button>
+      <button class="lightbox-nav" id="lightbox-next" aria-label="Photo suivante">
+        <svg class="icon" aria-hidden="true"><use href="#i-arrow-right"/></svg>
+      </button>
+    </div>
   </figure>
-  <button class="lightbox-nav" id="lightbox-next" aria-label="Photo suivante">
-    <svg class="icon" aria-hidden="true"><use href="#i-arrow-right"/></svg>
-  </button>
 </div>
 
 <!-- ── PAGES STATIQUES ── -->
@@ -312,7 +251,7 @@
 <script src="/src/js/search.js"></script>
 <script src="/src/js/filters.js"></script>
 <script src="/src/js/views.js"></script>
-<script src="/src/js/carousel.js"></script>
+<script src="/src/js/lightbox.js"></script>
 <script src="/src/js/ui.js"></script>
 <script src="/src/js/mosaic-detail.js"></script>
 <script src="/src/js/pages.js"></script>

@@ -1,44 +1,38 @@
 /**
- * ui.js — Sélection d'un bâtiment et panneau « infos bâtiment ».
+ * ui.js — Sélection d'un bâtiment.
  *
- * La fiche est découpée en deux surfaces indépendantes :
- *   • #info-panel (ce fichier)  — identité et métadonnées du bâtiment ;
- *   • #carousel   (carousel.js) — ses photographies, filtrables par élément.
+ * Le détail (infos + photos) est un composant unique, partagé par les deux
+ * vues — voir mosaic-detail.js, dont le nom garde la trace de son origine
+ * (volet gauche docké de la vue mosaïque) mais qui présente désormais aussi le
+ * bâtiment sélectionné en vue carte. Ce fichier ne garde que la sélection
+ * elle-même, et les utilitaires réutilisés par mosaic-detail.js (cards
+ * « personnes liées », ouverture d'une section de filtre).
  */
 
 let selectedId = null;
 
 /* ─── SÉLECTION ─────────────────────────────────────────────────────────── */
 
-/**
- * @param {number|string} id_bat
- * @param {{fullscreen?: boolean}} [options] — ouvre directement la visionneuse
- *        (comportement du clic depuis la mosaïque).
- */
-function selectBatiment(id_bat, options = {}) {
+function selectBatiment(id_bat) {
   selectedId = id_bat;
 
   document.querySelectorAll('.mosaic-tile').forEach(el => {
     el.classList.toggle('is-active', String(el.dataset.id) === String(id_bat));
   });
 
-  presentSelection(id_bat, options);
+  presentSelection(id_bat);
   if (typeof writeStateToHash === 'function') writeStateToHash('push');
 }
 
 /**
- * Affiche le bâtiment sélectionné dans la présentation propre à la vue active :
- * fiche flottante + carrousel coverflow en vue carte, volet gauche docké en
- * mosaïque. Séparé de selectBatiment pour pouvoir ré-afficher à l'identique lors
- * d'une bascule de vue, sans repasser par la sélection (ni ré-écrire l'URL).
+ * Affiche le bâtiment sélectionné : volet détail (commun aux deux vues), et,
+ * en vue carte, recentrage sur son marqueur. Séparé de selectBatiment pour
+ * pouvoir ré-afficher à l'identique lors d'une bascule de vue, sans repasser
+ * par la sélection (ni ré-écrire l'URL).
  */
-function presentSelection(id_bat, options = {}) {
-  if (currentView === 'mosaic') {
-    openMosaicDetail(id_bat);
-    return;
-  }
-  if (typeof flyToFeature === 'function') flyToFeature(id_bat);
-  loadDetailAndShow(id_bat, options);
+function presentSelection(id_bat) {
+  if (currentView === 'map' && typeof flyToFeature === 'function') flyToFeature(id_bat);
+  openMosaicDetail(id_bat);
   // Le POI du bâtiment ouvert reste « activé » (utile quand la card est fermée).
   if (typeof refreshPoiActive === 'function') refreshPoiActive();
 }
@@ -50,114 +44,11 @@ function deselectBatiment() {
   if (typeof writeStateToHash === 'function') writeStateToHash('push');
 }
 
-/** Ferme toutes les surfaces de détail (des deux vues) sans toucher selectedId. */
+/** Ferme toutes les surfaces de détail sans toucher selectedId. */
 function clearSelectionSurfaces() {
-  closeInfoPanel();
-  closeCarousel();
   if (typeof closeMosaicDetail === 'function') closeMosaicDetail();
   if (typeof closeAllPopups === 'function' && currentView === 'map') closeAllPopups();
   if (typeof clearPoiFocus === 'function') clearPoiFocus();
-}
-
-/* ─── CHARGEMENT DE LA FICHE ────────────────────────────────────────────── */
-
-async function loadDetailAndShow(id_bat, options = {}) {
-  const panel = document.getElementById('info-panel');
-  if (!panel) return;
-
-  panel.hidden = false;
-  const title = document.getElementById('info-title');
-  if (title) title.textContent = 'Chargement…';
-  ['info-address', 'info-meta-grid', 'info-elements-tags', 'info-personnes-list'].forEach(id => {
-    const el = document.getElementById(id);
-    if (el) el.innerHTML = '';
-  });
-
-  try {
-    const data = await getBatiment(id_bat);
-    // Une autre sélection a pu aboutir entre-temps : on ignore la réponse obsolète.
-    if (String(selectedId) !== String(id_bat)) return;
-
-    showInfoPanel(data);
-    openCarousel(data);
-    if (options.fullscreen) openLightbox();
-  } catch (err) {
-    console.error(err);
-    if (title) title.textContent = `Erreur de chargement (bâtiment ${id_bat})`;
-  }
-}
-
-/* ─── PANNEAU INFOS ─────────────────────────────────────────────────────── */
-
-function showInfoPanel(data) {
-  const elTitle   = document.getElementById('info-title');
-  const elAddress = document.getElementById('info-address');
-  const elMeta    = document.getElementById('info-meta-grid');
-
-  if (elTitle) elTitle.textContent = data.libelle || 'Bâtiment sans nom';
-
-  if (elAddress) {
-    const adresse = data.adresse;
-    elAddress.textContent = (adresse && typeof adresse === 'object')
-      ? (adresse.affichage || adresse.voie || '')
-      : (adresse || '');
-  }
-
-
-
-  if (elMeta) {
-    const cells = [
-      ['Ensemble',            data.ensemble],
-      ['Date de construction',data.dateConstruction],
-      ['Periode',             data.periode],
-      ['Arrondissement',      data.arrondissement ? ordinalArr(Number(data.arrondissement)) : null],
-      ['Wikipédia',           data.WPfr ? `https://fr.wikipedia.org/wiki/${data.WPfr}` : null],
-      ['Wikidata',            data.id_wikidata ? `https://www.wikidata.org/wiki/${data.id_wikidata}` : null]
-    ].filter(([, value]) => value);
-
-    elMeta.innerHTML = cells.map(([label, value]) => {
-      // Si la valeur commence par "http", on crée un lien cliquable
-      const isUrl = typeof value === 'string' && value.startsWith('http');
-      
-      const content = isUrl
-        ? `<a href="${value}" target="_blank" rel="noopener noreferrer">${value}</a>`
-        : value;
-
-      return `
-        <div class="info-meta-cell">
-          <span class="info-meta-label">${label}</span>
-          <span class="info-meta-value">${content}</span>
-        </div>`;
-    }).join('');
-  }
-
-  renderInfoElements(data.terme_jantzen_bat || []);
-  renderInfoPersonnes(data.id_bat, data.personnes);
-}
-
-function renderInfoElements(terms) {
-  const container = document.getElementById('info-elements-tags');
-  const label     = document.getElementById('info-elements-label');
-  if (!container) return;
-
-  container.innerHTML = '';
-  if (label) label.hidden = terms.length === 0;
-  if (terms.length === 0) return;
-
-  terms.forEach(term => {
-    const tag = document.createElement('button');
-    tag.type        = 'button';
-    tag.className   = 'info-element-tag';
-    tag.textContent = capitalize(term);
-    // Un clic sur un terme le bascule dans le filtre global du thésaurus.
-    tag.onclick = () => {
-      const chip = document.querySelector(`.chip[data-id="${CSS.escape(term)}"]`);
-      if (!chip) return;
-      openFilterSection('thésaurus');
-      toggleThesaurusChip(chip, term);
-    };
-    container.appendChild(tag);
-  });
 }
 
 /* ─── PERSONNES LIÉES (architectes) ─────────────────────────────────────── */
@@ -167,34 +58,6 @@ const PERSON_REFERENCES = [
   { key: 'pss',      label: 'PSS-Archi',     url: id => `https://www.pss-archi.eu/architecte/${id}` },
   { key: 'wikidata', label: 'Wikidata',      url: id => `https://www.wikidata.org/wiki/${id}` }
 ];
-
-/**
- * Résout et affiche les personnes liées au bâtiment (`personnes[].personneID`).
- * Les fiches sont chargées en parallèle puis rendues d'un bloc, pour éviter
- * un panneau qui se peuple ligne par ligne.
- */
-async function renderInfoPersonnes(id_bat, personnes) {
-  const container = document.getElementById('info-personnes-list');
-  const label     = document.getElementById('info-personnes-label');
-  if (!container) return;
-
-  container.innerHTML = '';
-  const entries = Array.isArray(personnes) ? personnes : [];
-  if (label) label.hidden = entries.length === 0;
-  if (entries.length === 0) return;
-
-  const people = await Promise.all(entries.map(async entry => {
-    try { return { entry, personne: await getPersonne(entry.personneID) }; }
-    catch (err) { console.error(err); return null; }
-  }));
-
-  // Une autre sélection a pu aboutir pendant le chargement.
-  if (String(selectedId) !== String(id_bat)) return;
-
-  people.filter(Boolean).forEach(({ entry, personne }) => {
-    container.appendChild(buildPersonCard(entry, personne));
-  });
-}
 
 function buildPersonCard(entry, personne) {
   const card = document.createElement('div');
@@ -213,7 +76,7 @@ function buildPersonCard(entry, personne) {
     img.loading = 'lazy';
     thumbBtn.appendChild(img);
 
-    // Même visionneuse que le carrousel, en mode image isolée (pas de navigation).
+    // Même visionneuse que la galerie photo, en mode image isolée (pas de navigation).
     thumbBtn.onclick = () => openPersonLightbox(personneFullImageUrl(personne.thumb), nom);
     card.appendChild(thumbBtn);
   }
@@ -262,11 +125,6 @@ function buildPersonLinks(personne, nom) {
   });
 
   return p;
-}
-
-function closeInfoPanel() {
-  const panel = document.getElementById('info-panel');
-  if (panel) panel.hidden = true;
 }
 
 /* ─── UTILITAIRES ───────────────────────────────────────────────────────── */

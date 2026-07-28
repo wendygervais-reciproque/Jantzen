@@ -1,10 +1,10 @@
 /**
- * mosaic-detail.js — Volet de détail de la vue mosaïque.
+ * mosaic-detail.js — Volet de détail du bâtiment sélectionné.
  *
- * Propre à la vue mosaïque : rassemble dans un volet gauche docké les
- * informations du bâtiment sélectionné et ses photographies (empilées, puis
- * réparties en rangées quand le volet est élargi). La vue carte conserve, elle,
- * sa fiche flottante et son carrousel coverflow — ce module ne les touche pas.
+ * Nommé d'après son origine (volet gauche docké de la vue mosaïque), mais
+ * désormais commun aux deux vues : rassemble les informations du bâtiment
+ * sélectionné et ses photographies (empilées, puis réparties en rangées quand
+ * le volet est élargi), en carte comme en mosaïque.
  */
 
 /* ⚙️ RÉGLAGES — largeur du volet détail (gauche) de la mosaïque, en pixels. */
