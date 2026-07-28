@@ -51,29 +51,27 @@ function buildLunrIndex() {
     return;
   }
 
-  // Configuration personnalisée pour éviter de diviser les termes sur '-'
   lunr.tokenizer.separator = /[\s,;]+/;
 
+  // Index rapide personneID → libelle, pour éviter un .find() par bâtiment
+  const archiById = new Map(
+    (typeof ARCHI_TERMS !== 'undefined' ? ARCHI_TERMS : []).map(a => [Number(a.id), a.libelle])
+  );
+
   lunrIndex = lunr(function () {
-    // Retire le stemmer anglais (this.pipeline) et son équivalent en recherche
-    // (this.searchPipeline) : il mutile les mots français ("louvre" → "louvr"),
-    // ce qui casse tout matching par préfixe/wildcard cohérent.
     this.pipeline.remove(lunr.stemmer);
     this.searchPipeline.remove(lunr.stemmer);
 
-    // Champ pour dateConstruction (recherche exacte sur l'année)
     this.ref('id_bat');
     this.field('dateConstruction', { boost: 10 });
-    // Champ pour periode (recherche exacte sur la plage)
     this.field('periode', { boost: 10 });
-    // Champ générique pour les autres termes (inclut libelle normalisé)
     this.field('all', { boost: 1 });
-    // Champ pour libelle original (optionnel, pour une recherche exacte)
     this.field('libelle', { boost: 5 });
+    this.field('architectes', { boost: 5 });
 
     ALL_FEATURES.forEach(f => {
       const p = f.properties;
-      // Normaliser p.libelle
+
       const libelleText = p.libelle || '';
       const normalizedLibelle = normalizeText(libelleText);
       const termsText = Array.isArray(p.terme_jantzen_bat)
@@ -82,7 +80,6 @@ function buildLunrIndex() {
       const adresseText = (p.adresse && typeof p.adresse === 'object')
         ? (p.adresse.affichage || p.adresse.voie || '')
         : (p.adresse || '');
-      // Normaliser dateConstruction et periode
       const dateConstructionValue = Array.isArray(p.dateConstruction)
         ? p.dateConstruction[0]
         : p.dateConstruction;
@@ -90,12 +87,16 @@ function buildLunrIndex() {
         ? p.periode[0]
         : p.periode;
 
-      // Concaténer tous les champs pour 'all', en incluant libelle normalisé
+      // Récupère le nom complet de l'architecte via personneID
+      const archiName = archiById.get(Number(p.personneID)) || '';
+      const normalizedArchitectes = normalizeText(archiName);
+
       const allText = [
         normalizedLibelle,
         normalizeText(adresseText),
         normalizeText(p.ensemble || ''),
         normalizeText(termsText),
+        normalizedArchitectes,
       ].filter(Boolean).join(' ');
 
       this.add({
@@ -103,6 +104,7 @@ function buildLunrIndex() {
         dateConstruction: dateConstructionValue || '',
         periode: periodeValue || '',
         libelle: libelleText,
+        architectes: normalizedArchitectes,
         all: allText
       });
     });
@@ -165,7 +167,7 @@ function lunrSearch(query) {
             // Mot en cours de frappe : wildcard des DEUX côtés → "contient"
             // n'importe où dans le mot (ex: "lou" trouve "louvre", "chalouette")
             q.term(term, {
-              fields: ['all', 'libelle'],
+              fields: ['all', 'libelle', 'architectes'],
               usePipeline: false,
               boost: isStopword ? 1 : 10,
               presence: isStopword
@@ -176,7 +178,7 @@ function lunrSearch(query) {
           } else {
             // Mot fini : match exact classique
             q.term(term, {
-              fields: ['all', 'libelle'],
+              fields: ['all', 'libelle', 'architectes'],
               usePipeline: true,
               boost: isStopword ? 1 : 10,
               presence: isStopword
