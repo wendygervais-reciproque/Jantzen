@@ -84,7 +84,9 @@ function renderMosaic(features) {
   grid.innerHTML = '';
   grid.scrollTop = 0;
 
-  features.slice(0, MOSAIC_MAX).forEach(f => {
+  const sortedFeatures = [...features].sort(comparePoi);
+
+  sortedFeatures.slice(0, MOSAIC_MAX).forEach(f => {
     grid.appendChild(buildMosaicTile(f.properties));
   });
 

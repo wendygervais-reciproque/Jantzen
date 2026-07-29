@@ -331,6 +331,7 @@ function clearMdElementFilter() {
  *  architecturaux » : les deux représentations du même filtre restent en phase. */
 function updateMdElementSelectUI() {
 
+
   document.querySelectorAll('#md-info .info-element-tag').forEach(tag => {
     const active = mdPhotoFilter.has(tag.dataset.term);
     tag.classList.toggle('is-active', active);
@@ -493,4 +494,40 @@ function bindMosaicDetail() {
   document.addEventListener('click', e => {
     if (!e.target.closest('#md-elem-select')) closeMdElementMenu();
   });
+}
+
+/**
+ * Fonction de comparaison pour trier les POIs / Bâtiments.
+ */
+/**
+ * Comparateur de bâtiments / POIs.
+ * Combine la voie, l'ensemble ou le libellé en une clé textuelle unique
+ * pour un tri alphabétique global cohérent.
+ */
+function comparePoi(a, b) {
+  const propA = a.properties || a;
+  const propB = b.properties || b;
+
+  // 1. Détermination de la clé d'affichage textuelle principale pour chaque élément
+  // Ordre de priorité pour la clé : voie d'adresse > ensemble > libellé
+  const keyA = (propA.adresse?.voie || propA.ensemble || propA.libelle || '').trim();
+  const keyB = (propB.adresse?.voie || propB.ensemble || propB.libelle || '').trim();
+
+  // 2. Comparaison alphabétique sur la clé principale
+  const compKey = keyA.localeCompare(keyB, 'fr', { sensitivity: 'base' });
+  if (compKey !== 0) return compKey;
+
+  // 3. En cas d'égalité sur la clé (ex: deux bâtiments sur la même voie "Place de l'Opéra")
+  // On compare par numéro de rue si disponible
+  const numA = parseInt(propA.adresse?.numero, 10) || 0;
+  const numB = parseInt(propB.adresse?.numero, 10) || 0;
+  
+  if (numA !== numB) {
+    return numA - numB;
+  }
+
+  // 4. Dernier recours en cas de seconde égalité : tri sur le libellé
+  const libA = (propA.libelle || '').trim();
+  const libB = (propB.libelle || '').trim();
+  return libA.localeCompare(libB, 'fr', { sensitivity: 'base' });
 }
