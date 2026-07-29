@@ -71,13 +71,13 @@ function buildPersonCard(entry, personne) {
     thumbBtn.setAttribute('aria-label', `Agrandir la photographie de ${nom}`);
 
     const img = document.createElement('img');
-    img.src     = personneThumbUrl(personne.thumb);
+    img.src     = personneLocalThumbUrl(personne.media);
     img.alt     = '';
     img.loading = 'lazy';
     thumbBtn.appendChild(img);
 
     // Même visionneuse que la galerie photo, en mode image isolée (pas de navigation).
-    thumbBtn.onclick = () => openPersonLightbox(personneFullImageUrl(personne.thumb), nom);
+    thumbBtn.onclick = () => openPersonLightbox(personneLocalFullImageUrl(personne.media), nom);
     card.appendChild(thumbBtn);
   }
 
