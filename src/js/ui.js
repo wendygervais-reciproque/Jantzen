@@ -87,6 +87,10 @@ function buildPersonCard(entry, personne) {
   const nameEl = document.createElement('span');
   nameEl.className = 'person-name';
   nameEl.textContent = nom;
+
+  const searchLink = buildSeeAllBuildingsLink(personne, nom);
+  if (searchLink) nameEl.appendChild(searchLink);
+
   info.appendChild(nameEl);
 
   if (entry.role) {
@@ -95,10 +99,6 @@ function buildPersonCard(entry, personne) {
     roleEl.textContent = capitalize(entry.role);
     info.appendChild(roleEl);
   }
-
-  const searchLink = buildSeeAllBuildingsLink(personne, nom);
-  if (searchLink) info.appendChild(searchLink);
-
 
   const links = buildPersonLinks(personne, nom);
   if (links) info.appendChild(links);
@@ -150,15 +150,8 @@ function buildSeeAllBuildingsLink(personne, nom) {
       <polyline points="20 6 9 17 4 12"/>
     </svg>`;
 
-  const p = document.createElement('p');
+  const p = document.createElement('span');
   p.className = 'person-links';
-
-  const link = document.createElement('a');
-  link.href        = hash;
-  link.textContent = 'Voir les bâtiments de cette personne';
-  link.setAttribute('aria-label', `Voir tous les bâtiments liés à ${nom}`);
-  p.appendChild(link);
-
   p.append(' ');
 
   const copyBtn = document.createElement('button');
