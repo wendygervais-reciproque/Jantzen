@@ -330,14 +330,6 @@ function clearMdElementFilter() {
 /** Synchronise l'état visuel du multiselect ET des puces « Éléments
  *  architecturaux » : les deux représentations du même filtre restent en phase. */
 function updateMdElementSelectUI() {
-  const badge = document.querySelector('#md-elem-select .ms-badge');
-  if (badge) badge.hidden = mdPhotoFilter.size === 0;
-
-  document.querySelectorAll('#md-elem-select-menu .ms-option').forEach(li => {
-    const on = mdPhotoFilter.has(li.dataset.term);
-    li.classList.toggle('is-selected', on);
-    li.setAttribute('aria-selected', String(on));
-  });
 
   document.querySelectorAll('#md-info .info-element-tag').forEach(tag => {
     const active = mdPhotoFilter.has(tag.dataset.term);

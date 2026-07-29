@@ -200,7 +200,6 @@ function applyFilters() {
 
   // 2. Filtre arrondissement
   if (activeFilters.arrondissements.size > 0) {
-    console.log('bonjour');
     filteredFeatures = filteredFeatures.filter(f =>
       activeFilters.arrondissements.has(Number(f.properties.arrondissement))
     );
