@@ -94,6 +94,7 @@ function renderMosaicInfo(data) {
   const cells = [
     ['Ensemble',             data.ensemble],
     ['Date de construction', data.dateConstruction],
+    ['Periode', data.periode],
     ['Arrondissement',       data.arrondissement ? ordinalArr(Number(data.arrondissement)) : null]
   ].filter(([, value]) => value);
 
@@ -311,8 +312,11 @@ function buildMdElementSelect() {
 }
 
 function toggleMdElementTerm(term) {
-  if (mdPhotoFilter.has(term)) mdPhotoFilter.delete(term);
-  else mdPhotoFilter.add(term);
+  if (mdPhotoFilter.has(term)) mdPhotoFilter.clear();
+  else {
+    mdPhotoFilter.clear();
+    mdPhotoFilter.add(term);
+  }
   updateMdElementSelectUI();
   renderMdGallery();
 }
@@ -327,9 +331,7 @@ function clearMdElementFilter() {
  *  architecturaux » : les deux représentations du même filtre restent en phase. */
 function updateMdElementSelectUI() {
   const badge = document.querySelector('#md-elem-select .ms-badge');
-  const count = document.querySelector('#md-elem-select .ms-badge-count');
   if (badge) badge.hidden = mdPhotoFilter.size === 0;
-  if (count) count.textContent = String(mdPhotoFilter.size);
 
   document.querySelectorAll('#md-elem-select-menu .ms-option').forEach(li => {
     const on = mdPhotoFilter.has(li.dataset.term);
@@ -338,7 +340,8 @@ function updateMdElementSelectUI() {
   });
 
   document.querySelectorAll('#md-info .info-element-tag').forEach(tag => {
-    tag.classList.toggle('is-active', mdPhotoFilter.has(tag.dataset.term));
+    const active = mdPhotoFilter.has(tag.dataset.term);
+    tag.classList.toggle('is-active', active);
   });
 }
 
