@@ -765,6 +765,21 @@ button { font-family: inherit; }
 .person-links a { color: var(--link-text-default); text-underline-offset: 2px; }
 .person-links a:hover { color: var(--link-text-hover); }
 
+.person-copy-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  color: currentColor;
+}
+
+.person-copy-link.copied {
+  color: var(--icon-secondary); /* vert, à adapter à ta charte */
+  opacity: 0.5;
+}
 .info-elements { display: flex; flex-wrap: wrap; gap: var(--component-gap-4); }
 .info-element-tag {
   padding: 2px var(--component-padding-8);
