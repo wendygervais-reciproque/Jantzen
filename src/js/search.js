@@ -6,24 +6,6 @@
 
 let lunrIndex = null;
 
-function extractYearsFromRangeArray(rangeArray) {
-  if (!rangeArray || !Array.isArray(rangeArray)) return [];
-
-  const years = [];
-  rangeArray.forEach(range => {
-    if (typeof range === 'string') {
-      // Extraire les années d'une plage (ex: "1660-1759" → ["1660", "1759"])
-      const rangeYears = range.split('-').filter(y => /^\d{4}$/.test(y));
-      if (rangeYears.length === 2) {
-        years.push(...rangeYears);
-      } else {
-        years.push(range); // Si ce n'est pas une plage valide, garder la valeur
-      }
-    }
-  });
-  return years;
-}
-
 function normalizeText(text) {
   if (!text || typeof text !== 'string') return '';
   return text
@@ -34,17 +16,6 @@ function normalizeText(text) {
     .trim();
 }
 
-function normalizeRangeArray(rangeArray) {
-  if (!rangeArray || !Array.isArray(rangeArray)) return [];
-
-  return rangeArray.map(range => {
-    if (typeof range === 'string') {
-      return range.replace(/-/g, '_'); // Remplacer les tirets par des underscores
-    }
-    return String(range); // Convertir en chaîne si ce n'est pas une chaîne
-  });
-}
-
 function buildLunrIndex() {
   if (typeof lunr === 'undefined') {
     console.error('Lunr.js n\'est pas chargé !');
@@ -53,7 +24,6 @@ function buildLunrIndex() {
 
   lunr.tokenizer.separator = /[\s,;]+/;
 
-  // Index rapide personneID → libelle, pour éviter un .find() par bâtiment
   const archiById = new Map(
     (typeof ARCHI_TERMS !== 'undefined' ? ARCHI_TERMS : []).map(a => [Number(a.id), a.libelle])
   );
@@ -64,10 +34,11 @@ function buildLunrIndex() {
 
     this.ref('id_bat');
     this.field('dateConstruction', { boost: 10 });
-    this.field('periode', { boost: 10 });
+    //this.field('periode', { boost: 10 });
     this.field('all', { boost: 1 });
     this.field('libelle', { boost: 5 });
     this.field('architectes', { boost: 5 });
+    this.field('roles', { boost: 5 }); // nouveau champ dédié aux rôles
 
     ALL_FEATURES.forEach(f => {
       const p = f.properties;
@@ -83,13 +54,31 @@ function buildLunrIndex() {
       const dateConstructionValue = Array.isArray(p.dateConstruction)
         ? p.dateConstruction[0]
         : p.dateConstruction;
-      const periodeValue = Array.isArray(p.periode)
-        ? p.periode[0]
-        : p.periode;
+      // const periodeValue = Array.isArray(p.periode)
+      //   ? p.periode[0]
+      //   : p.periode;
 
-      // Récupère le nom complet de l'architecte via personneID
-      const archiName = archiById.get(Number(p.personneID)) || '';
-      const normalizedArchitectes = normalizeText(archiName);
+      // Tableau des personnes liées (nouveau format), avec fallback sur
+      // l'ancien format à personneID unique
+      const personnesArray = Array.isArray(p.personnes) ? p.personnes : [];
+
+      // Noms des architectes/personnes (via lookup dans ARCHI_TERMS)
+      const idsForNames = personnesArray.length > 0
+        ? personnesArray.map(pers => pers.personneID)
+        : (p.personneID != null ? [p.personneID] : []);
+      const archiNames = idsForNames
+        .map(id => archiById.get(Number(id)) || '')
+        .filter(Boolean)
+        .join(' ');
+      const normalizedArchitectes = normalizeText(archiNames);
+
+      // Rôles (architecte, sculpteur, ...) — uniquement dispo dans le
+      // nouveau format p.personnes
+      const rolesText = personnesArray
+        .map(pers => pers.role || '')
+        .filter(Boolean)
+        .join(' ');
+      const normalizedRoles = normalizeText(rolesText);
 
       const allText = [
         normalizedLibelle,
@@ -97,14 +86,16 @@ function buildLunrIndex() {
         normalizeText(p.ensemble || ''),
         normalizeText(termsText),
         normalizedArchitectes,
+        normalizedRoles, // les rôles entrent aussi dans le champ générique
       ].filter(Boolean).join(' ');
 
       this.add({
         id_bat: String(p.id_bat),
         dateConstruction: dateConstructionValue || '',
-        periode: periodeValue || '',
+        //periode: periodeValue || '',
         libelle: libelleText,
         architectes: normalizedArchitectes,
+        roles: normalizedRoles,
         all: allText
       });
     });
@@ -167,7 +158,7 @@ function lunrSearch(query) {
             // Mot en cours de frappe : wildcard des DEUX côtés → "contient"
             // n'importe où dans le mot (ex: "lou" trouve "louvre", "chalouette")
             q.term(term, {
-              fields: ['all', 'libelle', 'architectes'],
+              fields: ['all', 'libelle', 'architectes', 'roles'],
               usePipeline: false,
               boost: isStopword ? 1 : 10,
               presence: isStopword
@@ -178,7 +169,7 @@ function lunrSearch(query) {
           } else {
             // Mot fini : match exact classique
             q.term(term, {
-              fields: ['all', 'libelle', 'architectes'],
+              fields: ['all', 'libelle', 'architectes', 'roles'],
               usePipeline: true,
               boost: isStopword ? 1 : 10,
               presence: isStopword
