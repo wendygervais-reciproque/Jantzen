@@ -765,6 +765,10 @@ button { font-family: inherit; }
 .person-links a { color: var(--link-text-default); text-underline-offset: 2px; }
 .person-links a:hover { color: var(--link-text-hover); }
 
+.credit-link {  color: var(--text-on-brand-primary); }
+.credit-link a { color: var(--link-text-default); text-underline-offset: 2px; }
+.credit-link a:hover { color: var(--link-text-hover); }
+
 .person-copy-link {
   display: inline-flex;
   align-items: center;

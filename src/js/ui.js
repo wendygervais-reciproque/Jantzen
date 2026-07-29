@@ -76,8 +76,20 @@ function buildPersonCard(entry, personne) {
     img.loading = 'lazy';
     thumbBtn.appendChild(img);
 
-    // Même visionneuse que la galerie photo, en mode image isolée (pas de navigation).
-    thumbBtn.onclick = () => openPersonLightbox(personneLocalFullImageUrl(personne.media), nom);
+    // Construit la légende avec le lien Wikidata si l'id est renseigné
+    const wikidataRef = PERSON_REFERENCES.find(r => r.key === 'wikidata');
+    const wikidataUrl = (wikidataRef && personne.wikidata)
+      ? wikidataRef.url(personne.wikidata)
+      : null;
+
+    const caption = wikidataUrl
+      ? `${nom} © ${wikidataUrl}`
+      : nom;
+
+    thumbBtn.onclick = () => openPersonLightbox(personneLocalFullImageUrl(personne.media), {
+      name: nom,
+      wikidataUrl
+    });    
     card.appendChild(thumbBtn);
   }
 
