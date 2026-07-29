@@ -67,9 +67,11 @@ function renderLightbox() {
   if (!img) return;
 
   if (lightboxPerson) {
-    document.getElementById('lightbox-nav-row').style.display = "none";
     img.src = lightboxPerson.src;
     img.onerror = null;
+
+    if (prev) prev.disabled = true;
+    if (next) next.disabled = true;
 
     if (caption) {
       caption.innerHTML = ''; // reset propre avant reconstruction
