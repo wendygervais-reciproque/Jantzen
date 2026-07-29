@@ -100,6 +100,18 @@ function bindNavigation() {
   document.getElementById('brand-home')?.addEventListener('click', e => {
     e.preventDefault();
     closePage();          // le logotype ramène au fond (carte ou mosaïque)
+    serachQuery = '';
+    const input = document.getElementById('search-input');
+    if(input) input.value = '';
+    const clear = document.getElementById('search-clear');
+    if(clear) clear.hidden = true;
+    
+    resetOtherFiltersUI();
+
+    setView('map');
+
+    deselectBatiment();
+    applyFilters();
   });
 
   document.getElementById('brand-about')?.addEventListener('click', e => {
