@@ -22,9 +22,9 @@
   "WPfr": null,
   "image_ref": "Universite-51_7_§1",
   "terme_jantzen_bat": [
-    "colonne",
     "porte-bois",
-    "poignée-porte"
+    "poignée-porte",
+    "colonne"
   ],
   "photos": [
     {
@@ -32,13 +32,15 @@
       "IndexJantzen": [
         "colonne",
         "porte-bois"
-      ]
+      ],
+      "dateCapture": "2005:05:22"
     },
     {
       "id_pic": "Universite-51_7_§2",
       "IndexJantzen": [
         "poignée-porte"
-      ]
+      ],
+      "dateCapture": "2005:05:22"
     }
   ]
 }

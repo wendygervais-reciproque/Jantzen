@@ -27,11 +27,11 @@
   "WPfr": null,
   "image_ref": "Francœur-33_18_§1",
   "terme_jantzen_bat": [
-    "façade-d'angle",
     "façade",
     "brique",
+    "décor",
     "fenetre",
-    "décor"
+    "façade-d'angle"
   ],
   "photos": [
     {
@@ -39,14 +39,16 @@
       "IndexJantzen": [
         "brique",
         "façade-d'angle"
-      ]
+      ],
+      "dateCapture": "2006:06:09"
     },
     {
       "id_pic": "Francœur-33_18_§2",
       "IndexJantzen": [
         "brique",
         "façade"
-      ]
+      ],
+      "dateCapture": "2004:06:14"
     },
     {
       "id_pic": "Francœur-33_18_§3",
@@ -54,7 +56,8 @@
         "brique",
         "décor",
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2004:06:14"
     }
   ]
 }

@@ -27,14 +27,14 @@
   "WPfr": null,
   "image_ref": "Dorian-2_12_§1",
   "terme_jantzen_bat": [
-    "façade-d'angle",
-    "lucarne-d'angle",
-    "fenetre",
-    "tour",
+    "garde-corps",
     "fenetre-d'angle",
+    "tour",
     "sculpture",
+    "fenetre",
+    "façade-d'angle",
     "porte-bois",
-    "garde-corps"
+    "lucarne-d'angle"
   ],
   "photos": [
     {
@@ -42,68 +42,78 @@
       "IndexJantzen": [
         "façade-d'angle",
         "tour"
-      ]
+      ],
+      "dateCapture": "2006:09:06"
     },
     {
       "id_pic": "Dorian-2_12_§10",
       "IndexJantzen": [
         "porte-bois"
-      ]
+      ],
+      "dateCapture": "2006:09:06"
     },
     {
       "id_pic": "Dorian-2_12_§2",
       "IndexJantzen": [
         "fenetre-d'angle",
         "tour"
-      ]
+      ],
+      "dateCapture": "2005:07:15"
     },
     {
       "id_pic": "Dorian-2_12_§3",
       "IndexJantzen": [
         "fenetre-d'angle"
-      ]
+      ],
+      "dateCapture": "2005:07:15"
     },
     {
       "id_pic": "Dorian-2_12_§4",
       "IndexJantzen": [
         "lucarne-d'angle",
         "tour"
-      ]
+      ],
+      "dateCapture": "2005:07:15"
     },
     {
       "id_pic": "Dorian-2_12_§5",
       "IndexJantzen": [
         "fenetre-d'angle",
         "tour"
-      ]
+      ],
+      "dateCapture": "2005:07:15"
     },
     {
       "id_pic": "Dorian-2_12_§6",
       "IndexJantzen": [
         "fenetre-d'angle",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:09:06"
     },
     {
       "id_pic": "Dorian-2_12_§7",
       "IndexJantzen": [
         "fenetre-d'angle",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:09:06"
     },
     {
       "id_pic": "Dorian-2_12_§8",
       "IndexJantzen": [
         "fenetre-d'angle",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:07:15"
     },
     {
       "id_pic": "Dorian-2_12_§9",
       "IndexJantzen": [
         "fenetre",
         "garde-corps"
-      ]
+      ],
+      "dateCapture": "2005:07:15"
     }
   ]
 }

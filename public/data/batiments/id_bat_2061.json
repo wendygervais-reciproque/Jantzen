@@ -27,10 +27,10 @@
   "WPfr": null,
   "image_ref": "Carpeaux-3_18_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "décor",
-    "balcon",
-    "sculpture"
+    "sculpture",
+    "fenetre",
+    "balcon"
   ],
   "photos": [
     {
@@ -39,14 +39,16 @@
         "décor",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2004:10:05"
     },
     {
       "id_pic": "Carpeaux-3_18_§2",
       "IndexJantzen": [
         "balcon",
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2004:10:05"
     }
   ]
 }

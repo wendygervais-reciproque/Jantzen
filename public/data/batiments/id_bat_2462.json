@@ -27,19 +27,20 @@
   "WPfr": null,
   "image_ref": "Victor-Hugo-4_16_§1",
   "terme_jantzen_bat": [
-    "fenetre",
+    "garde-corps",
     "sculpture",
-    "clé",
     "chimère",
-    "pilastre",
-    "garde-corps"
+    "fenetre",
+    "clé",
+    "pilastre"
   ],
   "photos": [
     {
       "id_pic": "Victor-Hugo-4_16_§1",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2013:05:18"
     },
     {
       "id_pic": "Victor-Hugo-4_16_§2",
@@ -47,14 +48,16 @@
         "fenetre",
         "pilastre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:03:16"
     },
     {
       "id_pic": "Victor-Hugo-4_16_§3",
       "IndexJantzen": [
         "fenetre",
         "garde-corps"
-      ]
+      ],
+      "dateCapture": "2006:07:10"
     },
     {
       "id_pic": "Victor-Hugo-4_16_§4",
@@ -62,7 +65,8 @@
         "chimère",
         "clé",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:07:10"
     },
     {
       "id_pic": "Victor-Hugo-4_16_§5",
@@ -70,7 +74,8 @@
         "chimère",
         "clé",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2013:05:18"
     }
   ]
 }

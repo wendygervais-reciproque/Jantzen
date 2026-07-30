@@ -27,17 +27,17 @@
   "WPfr": null,
   "image_ref": "Metz-1_10_§1",
   "terme_jantzen_bat": [
-    "lucarne",
-    "façade-d'angle",
-    "toiture",
     "façade",
-    "lucarne-d'angle",
-    "fenetre",
     "oeil-de-boeuf",
-    "décor",
+    "lucarne",
     "fenetre-d'angle",
     "mosaique",
-    "oriel"
+    "décor",
+    "oriel",
+    "fenetre",
+    "façade-d'angle",
+    "toiture",
+    "lucarne-d'angle"
   ],
   "photos": [
     {
@@ -45,7 +45,8 @@
       "IndexJantzen": [
         "façade-d'angle",
         "mosaique"
-      ]
+      ],
+      "dateCapture": "2005:08:28"
     },
     {
       "id_pic": "Metz-1_10_§11",
@@ -53,7 +54,8 @@
         "fenetre-d'angle",
         "lucarne",
         "mosaique"
-      ]
+      ],
+      "dateCapture": "2005:08:28"
     },
     {
       "id_pic": "Metz-1_10_§12",
@@ -61,7 +63,8 @@
         "décor",
         "lucarne-d'angle",
         "mosaique"
-      ]
+      ],
+      "dateCapture": "2010:06:05"
     },
     {
       "id_pic": "Metz-1_10_§14",
@@ -69,14 +72,16 @@
         "décor",
         "lucarne-d'angle",
         "mosaique"
-      ]
+      ],
+      "dateCapture": "2008:08:10"
     },
     {
       "id_pic": "Metz-1_10_§15",
       "IndexJantzen": [
         "lucarne-d'angle",
         "mosaique"
-      ]
+      ],
+      "dateCapture": "2008:08:10"
     },
     {
       "id_pic": "Metz-1_10_§16b",
@@ -84,14 +89,16 @@
         "décor",
         "fenetre",
         "oeil-de-boeuf"
-      ]
+      ],
+      "dateCapture": "2008:08:10"
     },
     {
       "id_pic": "Metz-1_10_§16c",
       "IndexJantzen": [
         "lucarne-d'angle",
         "mosaique"
-      ]
+      ],
+      "dateCapture": "2005:06:15"
     },
     {
       "id_pic": "Metz-1_10_§16d",
@@ -99,14 +106,16 @@
         "lucarne",
         "mosaique",
         "toiture"
-      ]
+      ],
+      "dateCapture": "2005:08:28"
     },
     {
       "id_pic": "Metz-1_10_§16e",
       "IndexJantzen": [
         "façade",
         "mosaique"
-      ]
+      ],
+      "dateCapture": "2005:08:28"
     },
     {
       "id_pic": "Metz-1_10_§19",
@@ -114,14 +123,16 @@
         "façade",
         "mosaique",
         "oriel"
-      ]
+      ],
+      "dateCapture": "2008:08:10"
     },
     {
       "id_pic": "Metz-1_10_§2",
       "IndexJantzen": [
         "façade-d'angle",
         "mosaique"
-      ]
+      ],
+      "dateCapture": "2010:06:05"
     },
     {
       "id_pic": "Metz-1_10_§20",
@@ -129,7 +140,8 @@
         "fenetre",
         "mosaique",
         "oriel"
-      ]
+      ],
+      "dateCapture": "2008:08:10"
     },
     {
       "id_pic": "Metz-1_10_§21",
@@ -138,7 +150,8 @@
         "fenetre",
         "mosaique",
         "oriel"
-      ]
+      ],
+      "dateCapture": "2008:08:10"
     },
     {
       "id_pic": "Metz-1_10_§22",
@@ -147,14 +160,16 @@
         "lucarne",
         "mosaique",
         "oriel"
-      ]
+      ],
+      "dateCapture": "2004:09:04"
     },
     {
       "id_pic": "Metz-1_10_§24",
       "IndexJantzen": [
         "mosaique",
         "oriel"
-      ]
+      ],
+      "dateCapture": "2005:06:15"
     },
     {
       "id_pic": "Metz-1_10_§26",
@@ -162,28 +177,32 @@
         "décor",
         "lucarne",
         "mosaique"
-      ]
+      ],
+      "dateCapture": "2005:06:15"
     },
     {
       "id_pic": "Metz-1_10_§27",
       "IndexJantzen": [
         "décor",
         "mosaique"
-      ]
+      ],
+      "dateCapture": "2008:08:10"
     },
     {
       "id_pic": "Metz-1_10_§28",
       "IndexJantzen": [
         "décor",
         "mosaique"
-      ]
+      ],
+      "dateCapture": "2005:06:15"
     },
     {
       "id_pic": "Metz-1_10_§3",
       "IndexJantzen": [
         "façade-d'angle",
         "mosaique"
-      ]
+      ],
+      "dateCapture": "2008:08:10"
     },
     {
       "id_pic": "Metz-1_10_§4",
@@ -191,7 +210,8 @@
         "décor",
         "fenetre-d'angle",
         "mosaique"
-      ]
+      ],
+      "dateCapture": "2005:06:15"
     },
     {
       "id_pic": "Metz-1_10_§5",
@@ -199,21 +219,24 @@
         "décor",
         "fenetre-d'angle",
         "mosaique"
-      ]
+      ],
+      "dateCapture": "2010:06:05"
     },
     {
       "id_pic": "Metz-1_10_§6",
       "IndexJantzen": [
         "fenetre-d'angle",
         "mosaique"
-      ]
+      ],
+      "dateCapture": "2005:06:15"
     },
     {
       "id_pic": "Metz-1_10_§9",
       "IndexJantzen": [
         "fenetre-d'angle",
         "mosaique"
-      ]
+      ],
+      "dateCapture": "2005:06:15"
     },
     {
       "id_pic": "Metz-1_10_§9b",
@@ -221,7 +244,8 @@
         "fenetre",
         "lucarne",
         "mosaique"
-      ]
+      ],
+      "dateCapture": "2005:08:28"
     }
   ]
 }

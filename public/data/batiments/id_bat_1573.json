@@ -22,34 +22,37 @@
   "WPfr": null,
   "image_ref": "Quatre-Fils-20_3_§1",
   "terme_jantzen_bat": [
-    "lucarne",
     "façade",
-    "fenetre",
+    "console",
+    "garde-corps",
+    "lucarne",
     "sculpture",
     "clé",
-    "console",
-    "garde-corps"
+    "fenetre"
   ],
   "photos": [
     {
       "id_pic": "Quatre-Fils-20_3_§1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "dateCapture": null
     },
     {
       "id_pic": "Quatre-Fils-20_3_§2",
       "IndexJantzen": [
         "fenetre",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2003:08:01"
     },
     {
       "id_pic": "Quatre-Fils-20_3_§3",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2003:08:01"
     },
     {
       "id_pic": "Quatre-Fils-20_3_A",
@@ -57,7 +60,8 @@
         "clé",
         "garde-corps",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2003:08:01"
     }
   ]
 }

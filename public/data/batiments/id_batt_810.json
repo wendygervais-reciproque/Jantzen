@@ -1,0 +1,47 @@
+{
+  "id_bat": 810,
+  "libelle": "13 rue Scipion",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": "1565",
+  "periode": [
+    "1530-1589"
+  ],
+  "adresse": {
+    "affichage": "13 rue Scipion",
+    "numero": "13",
+    "voie": "rue Scipion"
+  },
+  "arrondissement": 5,
+  "coordonnees": {
+    "latitude": "48.8386",
+    "longitude": "2.353398"
+  },
+  "id_pss": 25746,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 13439,
+  "terme_jantzen_bat": [
+    "porte-bois",
+    "oeil-de-boeuf",
+    "fenetre"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_13439",
+      "IndexJantzen": [
+        "fenetre",
+        "oeil-de-boeuf",
+        "porte-bois"
+      ]
+    },
+    {
+      "id_pic": "image_13440",
+      "IndexJantzen": [
+        "fenetre",
+        "oeil-de-boeuf",
+        "porte-bois"
+      ]
+    }
+  ]
+}

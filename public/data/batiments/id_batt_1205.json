@@ -1,0 +1,60 @@
+{
+  "id_bat": 1205,
+  "libelle": "17 quai d'Anjou",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": "1665",
+  "periode": [
+    "1660-1759"
+  ],
+  "adresse": {
+    "affichage": "17 quai d'Anjou",
+    "numero": "17",
+    "voie": "quai d'Anjou"
+  },
+  "arrondissement": 4,
+  "coordonnees": {
+    "latitude": "48.851698",
+    "longitude": "2.359062"
+  },
+  "id_pss": 27694,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 427,
+  "terme_jantzen_bat": [
+    "poignée-porte",
+    "fenetre",
+    "balcon",
+    "garde-corps",
+    "porte-bois"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_427",
+      "IndexJantzen": [
+        "fenetre",
+        "porte-bois"
+      ]
+    },
+    {
+      "id_pic": "image_428",
+      "IndexJantzen": [
+        "balcon",
+        "garde-corps"
+      ]
+    },
+    {
+      "id_pic": "image_429",
+      "IndexJantzen": [
+        "poignée-porte"
+      ]
+    },
+    {
+      "id_pic": "image_430",
+      "IndexJantzen": [
+        "fenetre",
+        "porte-bois"
+      ]
+    }
+  ]
+}

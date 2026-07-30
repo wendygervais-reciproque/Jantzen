@@ -23,31 +23,34 @@
   "WPfr": "Mairie du 4e arrondissement de Paris",
   "image_ref": "Baudoyer-Pl-Mairie_4_§1",
   "terme_jantzen_bat": [
-    "lucarne",
     "façade",
+    "lucarne",
     "fronton",
     "fenetre",
-    "colonne",
-    "pilastre"
+    "pilastre",
+    "colonne"
   ],
   "photos": [
     {
       "id_pic": "Baudoyer-Pl-Mairie_4_§1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "dateCapture": "2009:03:23"
     },
     {
       "id_pic": "Baudoyer-Pl-Mairie_4_§2-Rx",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "dateCapture": "2012:07:23"
     },
     {
       "id_pic": "Baudoyer-Pl-Mairie_4_§3-Rx",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2012:07:23"
     },
     {
       "id_pic": "Baudoyer-Pl-Mairie_4_§4",
@@ -55,7 +58,8 @@
         "fenetre",
         "fronton",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2009:03:23"
     },
     {
       "id_pic": "Baudoyer-Pl-Mairie_4_§5",
@@ -63,13 +67,15 @@
         "fenetre",
         "fronton",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2009:03:23"
     },
     {
       "id_pic": "Baudoyer-Pl-Mairie_4_§6",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "dateCapture": "2009:03:23"
     },
     {
       "id_pic": "Baudoyer-Pl-Mairie_4_§7",
@@ -78,7 +84,8 @@
         "fenetre",
         "fronton",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2009:03:23"
     },
     {
       "id_pic": "Baudoyer-Pl-Mairie_4_§8",
@@ -86,14 +93,16 @@
         "colonne",
         "fenetre",
         "fronton"
-      ]
+      ],
+      "dateCapture": "2009:03:23"
     },
     {
       "id_pic": "Baudoyer-Pl-Mairie_4_§9",
       "IndexJantzen": [
         "fenetre",
         "pilastre"
-      ]
+      ],
+      "dateCapture": "2009:03:23"
     }
   ]
 }

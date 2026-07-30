@@ -1,0 +1,42 @@
+{
+  "id_bat": 2209,
+  "libelle": "32 boulevard Raspail",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": "1909",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "32 boulevard Raspail",
+    "numero": "32",
+    "voie": "boulevard Raspail"
+  },
+  "arrondissement": 7,
+  "coordonnees": {
+    "latitude": "48.852822",
+    "longitude": "2.326236"
+  },
+  "id_pss": 10109,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 12455,
+  "terme_jantzen_bat": [
+    "fenetre",
+    "façade"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_12455",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_12456",
+      "IndexJantzen": [
+        "fenetre"
+      ]
+    }
+  ]
+}

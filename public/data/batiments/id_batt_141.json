@@ -1,0 +1,68 @@
+{
+  "id_bat": 141,
+  "libelle": "Théâtre de l'Athénée-Louis-Jouvet",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": "1896",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "square de l'Opéra-Louis-Jouvet",
+    "numero": null,
+    "voie": "square de l'Opéra-Louis-Jouvet"
+  },
+  "arrondissement": 9,
+  "coordonnees": {
+    "latitude": "48.8719",
+    "longitude": "2.329"
+  },
+  "id_pss": 39159,
+  "id_wikidata": "Q3527664",
+  "WPfr": "Théâtre de l'Athénée Louis-Jouvet",
+  "image_ref": 10832,
+  "terme_jantzen_bat": [
+    "porte-fer",
+    "façade",
+    "fenetre",
+    "verrière",
+    "marquise"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_10832",
+      "IndexJantzen": [
+        "façade",
+        "verrière"
+      ]
+    },
+    {
+      "id_pic": "image_10833",
+      "IndexJantzen": [
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_10834",
+      "IndexJantzen": [
+        "fenetre",
+        "marquise",
+        "verrière"
+      ]
+    },
+    {
+      "id_pic": "image_10835",
+      "IndexJantzen": [
+        "fenetre",
+        "marquise",
+        "verrière"
+      ]
+    },
+    {
+      "id_pic": "image_10836",
+      "IndexJantzen": [
+        "porte-fer"
+      ]
+    }
+  ]
+}

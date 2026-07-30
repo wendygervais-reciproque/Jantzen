@@ -22,26 +22,28 @@
   "WPfr": null,
   "image_ref": "Grands-Augustin-qu-35_6_§1_1-Rx",
   "terme_jantzen_bat": [
-    "lucarne",
     "façade",
-    "toiture",
-    "fenetre",
+    "garde-corps",
+    "lucarne",
     "décor",
     "sculpture",
-    "garde-corps"
+    "fenetre",
+    "toiture"
   ],
   "photos": [
     {
       "id_pic": "Grands-Augustin-qu-35_6_§1_1-Rx",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "dateCapture": "2013:08:16"
     },
     {
       "id_pic": "Grands-Augustin-qu-35_6_§2",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "dateCapture": "2006:06:11"
     },
     {
       "id_pic": "Grands-Augustin-qu-35_6_§3_1-Rx",
@@ -50,7 +52,8 @@
         "fenetre",
         "sculpture",
         "toiture"
-      ]
+      ],
+      "dateCapture": "2013:08:16"
     },
     {
       "id_pic": "Grands-Augustin-qu-35_6_§4_1-Rx",
@@ -59,7 +62,8 @@
         "fenetre",
         "sculpture",
         "toiture"
-      ]
+      ],
+      "dateCapture": "2013:08:16"
     },
     {
       "id_pic": "Grands-Augustin-qu-35_6_§5-22",
@@ -68,7 +72,8 @@
         "fenetre",
         "lucarne",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:06:11"
     },
     {
       "id_pic": "Grands-Augustin-qu-35_6_§6",
@@ -77,13 +82,15 @@
         "garde-corps",
         "lucarne",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:06:11"
     },
     {
       "id_pic": "Grands-Augustin-qu-35_6_§7_1-Rx",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2013:08:16"
     }
   ]
 }

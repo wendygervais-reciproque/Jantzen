@@ -98,7 +98,15 @@ function renderLightbox() {
   img.src = item.src;
   img.onerror = function () { retryUppercaseJpg(this); };
   if (caption) {
-    caption.textContent = `${index + 1} / ${photos.length}${item.caption ? ' — ' + item.caption : ''} © Eric Jantzen`;
+    const counterText = `${index + 1} / ${photos.length}`;
+    const termText=item.caption? ' — ' + item.caption : '';
+    const formattedDate = item.dateCapture 
+      ? item.dateCapture.replace(/^(\d{4}):(\d{2}):(\d{2})$/, '$3/$2/$1')
+      : '';
+
+    const dateStr = formattedDate ? ` — ${formattedDate} — ` : '';
+
+    caption.textContent = `${counterText}${termText}${dateStr}© Eric Jantzen `;
   }
   if (prev) prev.disabled = index <= 0;
   if (next) next.disabled = index >= photos.length - 1;

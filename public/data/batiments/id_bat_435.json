@@ -27,14 +27,14 @@
   "WPfr": null,
   "image_ref": "Emile-Deschanel-11_7_§1",
   "terme_jantzen_bat": [
-    "fenetre",
+    "loggia",
+    "garde-corps",
+    "porte-fer-hall",
     "décor",
     "sculpture",
-    "porte-fer-hall",
-    "balcon",
-    "loggia",
+    "fenetre",
     "colonne",
-    "garde-corps"
+    "balcon"
   ],
   "photos": [
     {
@@ -45,14 +45,16 @@
         "fenetre",
         "loggia",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:03:27"
     },
     {
       "id_pic": "Emile-Deschanel-11_7_§2",
       "IndexJantzen": [
         "fenetre",
         "garde-corps"
-      ]
+      ],
+      "dateCapture": "2006:03:27"
     },
     {
       "id_pic": "Emile-Deschanel-11_7_§3",
@@ -61,13 +63,15 @@
         "décor",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2004:04:26"
     },
     {
       "id_pic": "Emile-Deschanel-11_7_§4",
       "IndexJantzen": [
         "porte-fer-hall"
-      ]
+      ],
+      "dateCapture": "2004:04:26"
     }
   ]
 }

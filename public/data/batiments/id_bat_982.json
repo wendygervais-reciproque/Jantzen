@@ -27,11 +27,11 @@
   "WPfr": null,
   "image_ref": "Grenelle-148_7_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "sculpture",
-    "atlante",
     "console",
-    "cariatide"
+    "cariatide",
+    "sculpture",
+    "fenetre",
+    "atlante"
   ],
   "photos": [
     {
@@ -41,7 +41,8 @@
         "cariatide",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:08:04"
     },
     {
       "id_pic": "Grenelle-148_7_§3",
@@ -49,7 +50,8 @@
         "cariatide",
         "console",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:08:04"
     },
     {
       "id_pic": "Grenelle-148_7_§4",
@@ -57,14 +59,16 @@
         "atlante",
         "console",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:08:04"
     },
     {
       "id_pic": "Grenelle-148_7_§5",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:08:04"
     }
   ]
 }

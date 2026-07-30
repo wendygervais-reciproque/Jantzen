@@ -27,16 +27,16 @@
   "WPfr": null,
   "image_ref": "Voltaire-bd-86_11_§1",
   "terme_jantzen_bat": [
-    "façade-d'angle",
-    "toiture",
-    "lucarne-d'angle",
     "oeil-de-boeuf",
-    "dome",
+    "garde-corps",
     "fenetre-d'angle",
     "sculpture",
     "clé",
+    "façade-d'angle",
     "balcon",
-    "garde-corps"
+    "toiture",
+    "lucarne-d'angle",
+    "dome"
   ],
   "photos": [
     {
@@ -44,13 +44,15 @@
       "IndexJantzen": [
         "dome",
         "façade-d'angle"
-      ]
+      ],
+      "dateCapture": "2007:04:11"
     },
     {
       "id_pic": "Voltaire-bd-86_11_§2",
       "IndexJantzen": [
         "fenetre-d'angle"
-      ]
+      ],
+      "dateCapture": "2007:04:11"
     },
     {
       "id_pic": "Voltaire-bd-86_11_§3",
@@ -58,7 +60,8 @@
         "balcon",
         "dome",
         "fenetre-d'angle"
-      ]
+      ],
+      "dateCapture": "2007:04:11"
     },
     {
       "id_pic": "Voltaire-bd-86_11_§4",
@@ -66,14 +69,16 @@
         "dome",
         "lucarne-d'angle",
         "toiture"
-      ]
+      ],
+      "dateCapture": "2007:04:11"
     },
     {
       "id_pic": "Voltaire-bd-86_11_§5",
       "IndexJantzen": [
         "dome",
         "lucarne-d'angle"
-      ]
+      ],
+      "dateCapture": "2007:04:11"
     },
     {
       "id_pic": "Voltaire-bd-86_11_§6",
@@ -81,7 +86,8 @@
         "dome",
         "lucarne-d'angle",
         "oeil-de-boeuf"
-      ]
+      ],
+      "dateCapture": "2007:04:11"
     },
     {
       "id_pic": "Voltaire-bd-86_11_§7",
@@ -90,7 +96,8 @@
         "fenetre-d'angle",
         "garde-corps",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2007:04:11"
     }
   ]
 }

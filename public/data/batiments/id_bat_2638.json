@@ -22,11 +22,11 @@
   "WPfr": null,
   "image_ref": "St-Mande-av-43_12_§1",
   "terme_jantzen_bat": [
+    "garde-corps",
     "lucarne",
-    "façade-d'angle",
     "fenetre-d'angle",
-    "balcon",
-    "garde-corps"
+    "façade-d'angle",
+    "balcon"
   ],
   "photos": [
     {
@@ -34,14 +34,16 @@
       "IndexJantzen": [
         "balcon",
         "façade-d'angle"
-      ]
+      ],
+      "dateCapture": "2005:07:15"
     },
     {
       "id_pic": "St-Mande-av-43_12_§2",
       "IndexJantzen": [
         "balcon",
         "fenetre-d'angle"
-      ]
+      ],
+      "dateCapture": "2005:07:15"
     },
     {
       "id_pic": "St-Mande-av-43_12_§3",
@@ -49,7 +51,8 @@
         "fenetre-d'angle",
         "garde-corps",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2005:07:15"
     }
   ]
 }

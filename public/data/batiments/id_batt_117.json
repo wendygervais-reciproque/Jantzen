@@ -1,0 +1,64 @@
+{
+  "id_bat": 117,
+  "libelle": "Panthéon",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 357,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1757-1880",
+  "periode": [
+    "1660-1759",
+    "1760-1829"
+  ],
+  "adresse": null,
+  "arrondissement": 5,
+  "coordonnees": {
+    "latitude": "48.846198",
+    "longitude": "2.3461054"
+  },
+  "id_pss": 218,
+  "id_wikidata": "Q188856",
+  "WPfr": "Panthéon (Paris)",
+  "image_ref": 11105,
+  "terme_jantzen_bat": [
+    "tourelle",
+    "dome",
+    "colonne",
+    "fenetre"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_11105",
+      "IndexJantzen": [
+        "colonne",
+        "dome",
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_11106",
+      "IndexJantzen": [
+        "colonne",
+        "dome",
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_11107",
+      "IndexJantzen": [
+        "dome",
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_11108",
+      "IndexJantzen": [
+        "dome",
+        "tourelle"
+      ]
+    }
+  ]
+}

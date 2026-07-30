@@ -27,10 +27,10 @@
   "WPfr": null,
   "image_ref": "Tour-de-la-100_16_§3",
   "terme_jantzen_bat": [
-    "sculpture",
     "décor",
-    "fenetre-d'angle",
-    "pilastre"
+    "sculpture",
+    "pilastre",
+    "fenetre-d'angle"
   ],
   "photos": [
     {
@@ -40,14 +40,16 @@
         "fenetre-d'angle",
         "pilastre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:04:30"
     },
     {
       "id_pic": "Tour-de-la-100_16_§4",
       "IndexJantzen": [
         "fenetre-d'angle",
         "pilastre"
-      ]
+      ],
+      "dateCapture": "2005:04:30"
     }
   ]
 }

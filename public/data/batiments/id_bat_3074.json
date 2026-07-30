@@ -22,10 +22,10 @@
   "WPfr": null,
   "image_ref": "InvalidesBd-59_7_§1",
   "terme_jantzen_bat": [
-    "lucarne",
-    "balcon",
     "fronton",
-    "lucarne-d'angle"
+    "balcon",
+    "lucarne-d'angle",
+    "lucarne"
   ],
   "photos": [
     {
@@ -33,14 +33,16 @@
       "IndexJantzen": [
         "fronton",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2008:03:31"
     },
     {
       "id_pic": "InvalidesBd-59_7_§2",
       "IndexJantzen": [
         "fronton",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2008:03:31"
     },
     {
       "id_pic": "InvalidesBd-59_7_§3-Rs",
@@ -48,13 +50,15 @@
         "balcon",
         "fronton",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2008:03:31"
     },
     {
       "id_pic": "InvalidesBd-59_7_§4",
       "IndexJantzen": [
         "lucarne-d'angle"
-      ]
+      ],
+      "dateCapture": "2008:03:31"
     }
   ]
 }

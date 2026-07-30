@@ -23,10 +23,10 @@
   "image_ref": "Bleue-25_9_§1-9",
   "terme_jantzen_bat": [
     "façade",
-    "fenetre",
     "verrière",
-    "pilastre",
-    "garde-corps"
+    "garde-corps",
+    "fenetre",
+    "pilastre"
   ],
   "photos": [
     {
@@ -35,7 +35,8 @@
         "façade",
         "pilastre",
         "verrière"
-      ]
+      ],
+      "dateCapture": "2004:09:05"
     },
     {
       "id_pic": "Bleue-25_9_§2",
@@ -43,7 +44,8 @@
         "fenetre",
         "garde-corps",
         "verrière"
-      ]
+      ],
+      "dateCapture": "2004:09:04"
     }
   ]
 }

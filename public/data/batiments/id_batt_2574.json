@@ -1,0 +1,44 @@
+{
+  "id_bat": 2574,
+  "libelle": "40 rue des Abbesses",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 420,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1907",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "40 rue des Abbesses",
+    "numero": "40",
+    "voie": "rue des Abbesses"
+  },
+  "arrondissement": 18,
+  "coordonnees": {
+    "latitude": "48.885338",
+    "longitude": "2.336547"
+  },
+  "id_pss": 20036,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 37,
+  "terme_jantzen_bat": [
+    "loggia",
+    "lucarne",
+    "façade"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_37",
+      "IndexJantzen": [
+        "façade",
+        "loggia",
+        "lucarne"
+      ]
+    }
+  ]
+}

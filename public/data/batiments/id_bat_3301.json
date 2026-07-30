@@ -23,14 +23,14 @@
   "image_ref": "Falguiere-66_15_§1",
   "terme_jantzen_bat": [
     "lucarne",
-    "façade-d'angle",
-    "toiture",
-    "lucarne-d'angle",
-    "porte-fer",
+    "fenetre-d'angle",
+    "mosaique",
     "brique",
     "décor",
-    "fenetre-d'angle",
-    "mosaique"
+    "porte-fer",
+    "façade-d'angle",
+    "toiture",
+    "lucarne-d'angle"
   ],
   "photos": [
     {
@@ -38,7 +38,8 @@
       "IndexJantzen": [
         "brique",
         "façade-d'angle"
-      ]
+      ],
+      "dateCapture": "2004:03:29"
     },
     {
       "id_pic": "Falguiere-66_15_§2",
@@ -46,7 +47,8 @@
         "brique",
         "décor",
         "fenetre-d'angle"
-      ]
+      ],
+      "dateCapture": "2004:03:29"
     },
     {
       "id_pic": "Falguiere-66_15_§4",
@@ -54,7 +56,8 @@
         "brique",
         "lucarne-d'angle",
         "toiture"
-      ]
+      ],
+      "dateCapture": "2008:10:15"
     },
     {
       "id_pic": "Falguiere-66_15_§5",
@@ -62,28 +65,32 @@
         "brique",
         "décor",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2008:10:15"
     },
     {
       "id_pic": "Falguiere-66_15_§6",
       "IndexJantzen": [
         "mosaique",
         "porte-fer"
-      ]
+      ],
+      "dateCapture": "2005:04:21"
     },
     {
       "id_pic": "Falguiere-66_15_§7",
       "IndexJantzen": [
         "mosaique",
         "porte-fer"
-      ]
+      ],
+      "dateCapture": "2008:10:11"
     },
     {
       "id_pic": "Falguiere-66_15_§8",
       "IndexJantzen": [
         "décor",
         "mosaique"
-      ]
+      ],
+      "dateCapture": "2008:10:11"
     }
   ]
 }

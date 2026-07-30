@@ -1,0 +1,134 @@
+{
+  "id_bat": 960,
+  "libelle": "143 boulevard Raspail",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 566,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1906",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "143 boulevard Raspail",
+    "numero": "143",
+    "voie": "boulevard Raspail"
+  },
+  "arrondissement": 6,
+  "coordonnees": {
+    "latitude": "48.842721",
+    "longitude": "2.32959"
+  },
+  "id_pss": 16629,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 12371,
+  "terme_jantzen_bat": [
+    "façade-d'angle",
+    "clé",
+    "lucarne-d'angle",
+    "dome",
+    "fenetre",
+    "sculpture",
+    "fenetre-d'angle",
+    "balcon",
+    "console"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_12371",
+      "IndexJantzen": [
+        "dome",
+        "façade-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_12372",
+      "IndexJantzen": [
+        "console",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_12373",
+      "IndexJantzen": [
+        "fenetre",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_12374",
+      "IndexJantzen": [
+        "console",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_12375",
+      "IndexJantzen": [
+        "console",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_12376",
+      "IndexJantzen": [
+        "console",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_12377",
+      "IndexJantzen": [
+        "clé",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_12378",
+      "IndexJantzen": [
+        "dome",
+        "fenetre-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_12379",
+      "IndexJantzen": [
+        "balcon",
+        "dome",
+        "fenetre-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_12380",
+      "IndexJantzen": [
+        "dome",
+        "lucarne-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_12381",
+      "IndexJantzen": [
+        "dome",
+        "lucarne-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_12382",
+      "IndexJantzen": [
+        "dome",
+        "lucarne-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_12383",
+      "IndexJantzen": [
+        "dome",
+        "lucarne-d'angle"
+      ]
+    }
+  ]
+}

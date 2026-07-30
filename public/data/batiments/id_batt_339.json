@@ -1,0 +1,145 @@
+{
+  "id_bat": 339,
+  "libelle": "10 rue Georges-Berger",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 353,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1905",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "10 rue Georges-Berger",
+    "numero": "10",
+    "voie": "rue Georges-Berger"
+  },
+  "arrondissement": 17,
+  "coordonnees": {
+    "latitude": "48.881363",
+    "longitude": "2.310787"
+  },
+  "id_pss": 104672,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 5277,
+  "terme_jantzen_bat": [
+    "lucarne",
+    "porte-fer",
+    "façade",
+    "sculpture",
+    "fenetre",
+    "porte-fer-hall",
+    "balcon",
+    "garde-corps",
+    "verrière",
+    "pignon"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_5277",
+      "IndexJantzen": [
+        "façade",
+        "pignon"
+      ]
+    },
+    {
+      "id_pic": "image_5278",
+      "IndexJantzen": [
+        "lucarne",
+        "sculpture",
+        "verrière"
+      ]
+    },
+    {
+      "id_pic": "image_5279",
+      "IndexJantzen": [
+        "porte-fer-hall"
+      ]
+    },
+    {
+      "id_pic": "image_5280",
+      "IndexJantzen": [
+        "porte-fer"
+      ]
+    },
+    {
+      "id_pic": "image_5281",
+      "IndexJantzen": [
+        "porte-fer"
+      ]
+    },
+    {
+      "id_pic": "image_5282",
+      "IndexJantzen": [
+        "façade",
+        "pignon"
+      ]
+    },
+    {
+      "id_pic": "image_5283",
+      "IndexJantzen": [
+        "façade",
+        "pignon"
+      ]
+    },
+    {
+      "id_pic": "image_5284",
+      "IndexJantzen": [
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_5285",
+      "IndexJantzen": [
+        "balcon",
+        "lucarne",
+        "pignon"
+      ]
+    },
+    {
+      "id_pic": "image_5286",
+      "IndexJantzen": [
+        "balcon",
+        "lucarne",
+        "pignon"
+      ]
+    },
+    {
+      "id_pic": "image_5287",
+      "IndexJantzen": [
+        "balcon",
+        "lucarne",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_5288",
+      "IndexJantzen": [
+        "lucarne",
+        "sculpture",
+        "verrière"
+      ]
+    },
+    {
+      "id_pic": "image_5289",
+      "IndexJantzen": [
+        "garde-corps",
+        "lucarne",
+        "pignon",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_5290",
+      "IndexJantzen": [
+        "lucarne",
+        "pignon",
+        "sculpture"
+      ]
+    }
+  ]
+}

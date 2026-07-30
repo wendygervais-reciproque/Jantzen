@@ -1,0 +1,564 @@
+{
+  "id_bat": 16,
+  "libelle": "Opéra Garnier - rue Auber",
+  "ensemble": "Opéra Garnier",
+  "personnes": [
+    {
+      "personneID": 121,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1862-1875",
+  "periode": [
+    "1850-1869"
+  ],
+  "adresse": null,
+  "arrondissement": 9,
+  "coordonnees": {
+    "latitude": "48.871881",
+    "longitude": "2.331147"
+  },
+  "id_pss": 3933,
+  "id_wikidata": "Q187840",
+  "WPfr": "Opéra Garnier",
+  "image_ref": 10726,
+  "terme_jantzen_bat": [
+    "porte",
+    "pilastre",
+    "loggia",
+    "cariatide",
+    "lucarne",
+    "porte-bois",
+    "façade",
+    "oeil-de-boeuf",
+    "lucarne-d'angle",
+    "colonne",
+    "dome",
+    "fenetre",
+    "sculpture",
+    "décor",
+    "balcon",
+    "fronton"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_10726",
+      "IndexJantzen": [
+        "colonne",
+        "pilastre",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_10727",
+      "IndexJantzen": [
+        "fenetre",
+        "fronton",
+        "porte"
+      ]
+    },
+    {
+      "id_pic": "image_10728",
+      "IndexJantzen": [
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_10729",
+      "IndexJantzen": [
+        "cariatide",
+        "porte-bois"
+      ]
+    },
+    {
+      "id_pic": "image_10730",
+      "IndexJantzen": [
+        "cariatide",
+        "porte-bois"
+      ]
+    },
+    {
+      "id_pic": "image_10731",
+      "IndexJantzen": [
+        "cariatide",
+        "porte-bois",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_10732",
+      "IndexJantzen": [
+        "cariatide",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_10733",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_10734",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_10735",
+      "IndexJantzen": [
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_10736",
+      "IndexJantzen": [
+        "cariatide",
+        "porte-bois",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_10737",
+      "IndexJantzen": [
+        "cariatide",
+        "porte-bois",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_10738",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_10739",
+      "IndexJantzen": [
+        "dome",
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_10740",
+      "IndexJantzen": [
+        "dome",
+        "décor",
+        "façade",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_10741",
+      "IndexJantzen": [
+        "dome",
+        "décor",
+        "façade",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_10742",
+      "IndexJantzen": [
+        "dome",
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_10743",
+      "IndexJantzen": [
+        "dome",
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_10744",
+      "IndexJantzen": [
+        "colonne",
+        "loggia"
+      ]
+    },
+    {
+      "id_pic": "image_10745",
+      "IndexJantzen": [
+        "dome",
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_10746",
+      "IndexJantzen": [
+        "dome",
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_10747",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_10748",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_10749",
+      "IndexJantzen": [
+        "colonne"
+      ]
+    },
+    {
+      "id_pic": "image_10750",
+      "IndexJantzen": [
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_10751",
+      "IndexJantzen": [
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_10752",
+      "IndexJantzen": [
+        "fenetre",
+        "fronton"
+      ]
+    },
+    {
+      "id_pic": "image_10753",
+      "IndexJantzen": [
+        "colonne",
+        "fenetre",
+        "fronton"
+      ]
+    },
+    {
+      "id_pic": "image_10754",
+      "IndexJantzen": [
+        "colonne",
+        "fenetre",
+        "fronton",
+        "pilastre"
+      ]
+    },
+    {
+      "id_pic": "image_10755",
+      "IndexJantzen": [
+        "fenetre",
+        "fronton",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_10756",
+      "IndexJantzen": [
+        "fenetre",
+        "fronton",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_10757",
+      "IndexJantzen": [
+        "colonne",
+        "loggia"
+      ]
+    },
+    {
+      "id_pic": "image_10758",
+      "IndexJantzen": [
+        "balcon"
+      ]
+    },
+    {
+      "id_pic": "image_10759",
+      "IndexJantzen": [
+        "fenetre",
+        "fronton",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_10760",
+      "IndexJantzen": [
+        "dome",
+        "lucarne-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_10761",
+      "IndexJantzen": [
+        "dome",
+        "lucarne-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_10762",
+      "IndexJantzen": [
+        "dome",
+        "lucarne",
+        "oeil-de-boeuf"
+      ]
+    },
+    {
+      "id_pic": "image_10763",
+      "IndexJantzen": [
+        "dome",
+        "lucarne",
+        "oeil-de-boeuf"
+      ]
+    },
+    {
+      "id_pic": "image_10764",
+      "IndexJantzen": [
+        "dome",
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_10765",
+      "IndexJantzen": [
+        "dome",
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_10766",
+      "IndexJantzen": [
+        "dome",
+        "lucarne",
+        "oeil-de-boeuf"
+      ]
+    },
+    {
+      "id_pic": "image_10767",
+      "IndexJantzen": [
+        "dome",
+        "lucarne",
+        "oeil-de-boeuf"
+      ]
+    },
+    {
+      "id_pic": "image_10768",
+      "IndexJantzen": [
+        "dome",
+        "lucarne",
+        "oeil-de-boeuf"
+      ]
+    },
+    {
+      "id_pic": "image_10769",
+      "IndexJantzen": [
+        "dome",
+        "lucarne",
+        "oeil-de-boeuf"
+      ]
+    },
+    {
+      "id_pic": "image_10770",
+      "IndexJantzen": [
+        "dome",
+        "lucarne",
+        "oeil-de-boeuf"
+      ]
+    },
+    {
+      "id_pic": "image_10771",
+      "IndexJantzen": [
+        "dome",
+        "lucarne",
+        "oeil-de-boeuf"
+      ]
+    },
+    {
+      "id_pic": "image_10772",
+      "IndexJantzen": [
+        "dome",
+        "lucarne",
+        "oeil-de-boeuf"
+      ]
+    },
+    {
+      "id_pic": "image_10773",
+      "IndexJantzen": [
+        "dome",
+        "lucarne",
+        "oeil-de-boeuf"
+      ]
+    },
+    {
+      "id_pic": "image_10774",
+      "IndexJantzen": [
+        "dome",
+        "lucarne",
+        "oeil-de-boeuf"
+      ]
+    },
+    {
+      "id_pic": "image_10775",
+      "IndexJantzen": [
+        "dome",
+        "lucarne",
+        "oeil-de-boeuf"
+      ]
+    },
+    {
+      "id_pic": "image_10776",
+      "IndexJantzen": [
+        "fenetre",
+        "fronton",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_10777",
+      "IndexJantzen": [
+        "fenetre",
+        "pilastre",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_10778",
+      "IndexJantzen": [
+        "dome",
+        "lucarne",
+        "oeil-de-boeuf"
+      ]
+    },
+    {
+      "id_pic": "image_10779",
+      "IndexJantzen": [
+        "dome",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_10780",
+      "IndexJantzen": [
+        "dome",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_10781",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_10782",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_10783",
+      "IndexJantzen": [
+        "cariatide",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_10784",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_10785",
+      "IndexJantzen": [
+        "cariatide",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_10786",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_10787",
+      "IndexJantzen": [
+        "balcon",
+        "pilastre"
+      ]
+    },
+    {
+      "id_pic": "image_10788",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_10789",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_10790",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_10791",
+      "IndexJantzen": [
+        "cariatide",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_10792",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_10793",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_10794",
+      "IndexJantzen": [
+        "cariatide",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_10795",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_10796",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_10797",
+      "IndexJantzen": [
+        "fronton",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_10798",
+      "IndexJantzen": [
+        "fronton",
+        "sculpture"
+      ]
+    }
+  ]
+}

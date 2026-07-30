@@ -28,13 +28,13 @@
   "image_ref": "Rosa-Bonheur-8_15_§1",
   "terme_jantzen_bat": [
     "façade",
-    "céramique",
-    "métal",
+    "oriel",
     "brique",
-    "fenetre",
     "décor",
     "sculpture",
-    "oriel"
+    "fenetre",
+    "métal",
+    "céramique"
   ],
   "photos": [
     {
@@ -42,14 +42,16 @@
       "IndexJantzen": [
         "brique",
         "façade"
-      ]
+      ],
+      "dateCapture": "2006:09:09"
     },
     {
       "id_pic": "Rosa-Bonheur-8_15_§2",
       "IndexJantzen": [
         "brique",
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2006:09:09"
     },
     {
       "id_pic": "Rosa-Bonheur-8_15_§3",
@@ -58,7 +60,8 @@
         "céramique",
         "métal",
         "oriel"
-      ]
+      ],
+      "dateCapture": "2006:09:09"
     },
     {
       "id_pic": "Rosa-Bonheur-8_15_§4",
@@ -68,14 +71,16 @@
         "métal",
         "oriel",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:04:11"
     },
     {
       "id_pic": "Rosa-Bonheur-8_15_§5",
       "IndexJantzen": [
         "brique",
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2006:04:11"
     },
     {
       "id_pic": "Rosa-Bonheur-8_15_§6",
@@ -85,7 +90,8 @@
         "décor",
         "métal",
         "oriel"
-      ]
+      ],
+      "dateCapture": "2006:04:11"
     },
     {
       "id_pic": "Rosa-Bonheur-8_15_§7",
@@ -95,7 +101,8 @@
         "décor",
         "métal",
         "oriel"
-      ]
+      ],
+      "dateCapture": "2006:04:11"
     }
   ]
 }

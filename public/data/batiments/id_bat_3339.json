@@ -27,11 +27,11 @@
   "WPfr": null,
   "image_ref": "La-Boetie-68_8_§1",
   "terme_jantzen_bat": [
-    "façade-d'angle",
-    "dome",
     "fenetre-d'angle",
+    "façade-d'angle",
+    "pilastre",
     "balcon",
-    "pilastre"
+    "dome"
   ],
   "photos": [
     {
@@ -39,7 +39,8 @@
       "IndexJantzen": [
         "dome",
         "façade-d'angle"
-      ]
+      ],
+      "dateCapture": "2008:06:27"
     },
     {
       "id_pic": "La-Boetie-68_8_§2",
@@ -47,14 +48,16 @@
         "balcon",
         "dome",
         "fenetre-d'angle"
-      ]
+      ],
+      "dateCapture": "2008:06:27"
     },
     {
       "id_pic": "La-Boetie-68_8_§3",
       "IndexJantzen": [
         "balcon",
         "pilastre"
-      ]
+      ],
+      "dateCapture": "2008:06:27"
     }
   ]
 }

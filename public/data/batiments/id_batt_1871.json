@@ -1,0 +1,40 @@
+{
+  "id_bat": 1871,
+  "libelle": "26 avenue Carnot",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 253,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1878",
+  "periode": [
+    "1870-1894"
+  ],
+  "adresse": {
+    "affichage": "26 avenue Carnot",
+    "numero": "26",
+    "voie": "avenue Carnot"
+  },
+  "arrondissement": 17,
+  "coordonnees": {
+    "latitude": "48.876677",
+    "longitude": "2.292827"
+  },
+  "id_pss": null,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 1998,
+  "terme_jantzen_bat": [
+    "lucarne"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_1998",
+      "IndexJantzen": [
+        "lucarne"
+      ]
+    }
+  ]
+}

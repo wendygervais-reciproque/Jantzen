@@ -27,10 +27,10 @@
   "WPfr": null,
   "image_ref": "Florence-3_8_§1_Dx",
   "terme_jantzen_bat": [
-    "fenetre",
-    "décor",
     "pilastre",
-    "sculpture"
+    "sculpture",
+    "décor",
+    "fenetre"
   ],
   "photos": [
     {
@@ -38,7 +38,8 @@
       "IndexJantzen": [
         "fenetre",
         "pilastre"
-      ]
+      ],
+      "dateCapture": "2014:09:30"
     },
     {
       "id_pic": "Florence-3_8_§2",
@@ -47,7 +48,8 @@
         "fenetre",
         "pilastre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2014:09:30"
     }
   ]
 }

@@ -27,13 +27,13 @@
   "WPfr": null,
   "image_ref": "Raspail-107_6_§1-Rs",
   "terme_jantzen_bat": [
+    "oeil-de-boeuf",
+    "fenetre-d'angle",
+    "décor",
+    "sculpture",
     "façade-d'angle",
     "lucarne-d'angle",
-    "oeil-de-boeuf",
-    "décor",
-    "dome",
-    "fenetre-d'angle",
-    "sculpture"
+    "dome"
   ],
   "photos": [
     {
@@ -41,14 +41,16 @@
       "IndexJantzen": [
         "dome",
         "fenetre-d'angle"
-      ]
+      ],
+      "dateCapture": "2008:02:11"
     },
     {
       "id_pic": "Raspail-107_6_§2",
       "IndexJantzen": [
         "dome",
         "façade-d'angle"
-      ]
+      ],
+      "dateCapture": "2004:10:03"
     },
     {
       "id_pic": "Raspail-107_6_§3",
@@ -57,21 +59,24 @@
         "lucarne-d'angle",
         "oeil-de-boeuf",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2008:02:11"
     },
     {
       "id_pic": "Raspail-107_6_§4",
       "IndexJantzen": [
         "lucarne-d'angle",
         "oeil-de-boeuf"
-      ]
+      ],
+      "dateCapture": "2004:10:03"
     },
     {
       "id_pic": "Raspail-107_6_§5",
       "IndexJantzen": [
         "lucarne-d'angle",
         "oeil-de-boeuf"
-      ]
+      ],
+      "dateCapture": "2008:02:11"
     }
   ]
 }

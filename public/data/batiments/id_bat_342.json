@@ -27,13 +27,13 @@
   "WPfr": null,
   "image_ref": "Lagrange-10_5_§1",
   "terme_jantzen_bat": [
-    "façade-d'angle",
     "façade",
-    "métal",
+    "oriel",
     "brique",
-    "pignon",
+    "métal",
+    "façade-d'angle",
     "voie",
-    "oriel"
+    "pignon"
   ],
   "photos": [
     {
@@ -42,7 +42,8 @@
         "brique",
         "façade-d'angle",
         "pignon"
-      ]
+      ],
+      "dateCapture": "2006:06:06"
     },
     {
       "id_pic": "Lagrange-10_5_§2",
@@ -50,14 +51,16 @@
         "brique",
         "métal",
         "oriel"
-      ]
+      ],
+      "dateCapture": "2003:08:09"
     },
     {
       "id_pic": "Lagrange-Galande_5_§1",
       "IndexJantzen": [
         "façade",
         "voie"
-      ]
+      ],
+      "dateCapture": "2006:06:06"
     }
   ]
 }

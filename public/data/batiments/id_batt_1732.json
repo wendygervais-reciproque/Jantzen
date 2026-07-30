@@ -1,0 +1,46 @@
+{
+  "id_bat": 1732,
+  "libelle": "23 boulevard Lannes",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 228,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": null,
+  "periode": [
+    "1870-1894"
+  ],
+  "adresse": {
+    "affichage": "23 boulevard Lannes",
+    "numero": "23",
+    "voie": "boulevard Lannes"
+  },
+  "arrondissement": 16,
+  "coordonnees": {
+    "latitude": "48.867806",
+    "longitude": "2.272863"
+  },
+  "id_pss": 24897,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 7924,
+  "terme_jantzen_bat": [
+    "façade"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_7924",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_7925",
+      "IndexJantzen": [
+        "façade"
+      ]
+    }
+  ]
+}

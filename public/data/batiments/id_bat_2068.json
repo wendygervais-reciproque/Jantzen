@@ -27,18 +27,18 @@
   "WPfr": null,
   "image_ref": "Danton-3_6_§10",
   "terme_jantzen_bat": [
-    "façade-d'angle",
     "façade",
-    "fronton",
-    "lucarne-d'angle",
-    "porte-fer",
-    "brique",
-    "fenetre",
-    "dome",
     "fenetre-d'angle",
+    "brique",
+    "fronton",
     "clé",
+    "fenetre",
+    "porte-fer",
+    "façade-d'angle",
     "balcon",
-    "colonne"
+    "colonne",
+    "lucarne-d'angle",
+    "dome"
   ],
   "photos": [
     {
@@ -46,21 +46,24 @@
       "IndexJantzen": [
         "clé",
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2010:06:05"
     },
     {
       "id_pic": "Danton-3_6_§11",
       "IndexJantzen": [
         "fenetre",
         "porte-fer"
-      ]
+      ],
+      "dateCapture": "2005:05:23"
     },
     {
       "id_pic": "Danton-3_6_§1-Rx",
       "IndexJantzen": [
         "brique",
         "façade-d'angle"
-      ]
+      ],
+      "dateCapture": "2012:08:10"
     },
     {
       "id_pic": "Danton-3_6_§2-Rx",
@@ -68,35 +71,40 @@
         "brique",
         "dome",
         "fenetre-d'angle"
-      ]
+      ],
+      "dateCapture": "2012:08:10"
     },
     {
       "id_pic": "Danton-3_6_§3-Rx",
       "IndexJantzen": [
         "brique",
         "lucarne-d'angle"
-      ]
+      ],
+      "dateCapture": "2012:08:10"
     },
     {
       "id_pic": "Danton-3_6_§4-Rx",
       "IndexJantzen": [
         "brique",
         "lucarne-d'angle"
-      ]
+      ],
+      "dateCapture": "2012:08:10"
     },
     {
       "id_pic": "Danton-3_6_§5-Rx",
       "IndexJantzen": [
         "brique",
         "fenetre-d'angle"
-      ]
+      ],
+      "dateCapture": "2012:08:10"
     },
     {
       "id_pic": "Danton-3_6_§6",
       "IndexJantzen": [
         "brique",
         "fenetre-d'angle"
-      ]
+      ],
+      "dateCapture": "2005:05:23"
     },
     {
       "id_pic": "Danton-3_6_§7",
@@ -104,14 +112,16 @@
         "brique",
         "fenetre-d'angle",
         "fronton"
-      ]
+      ],
+      "dateCapture": "2005:05:23"
     },
     {
       "id_pic": "Danton-3_6_§8-Rx",
       "IndexJantzen": [
         "brique",
         "façade"
-      ]
+      ],
+      "dateCapture": "2012:08:10"
     },
     {
       "id_pic": "Danton-3_6_§9",
@@ -119,7 +129,8 @@
         "balcon",
         "colonne",
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2005:05:23"
     }
   ]
 }

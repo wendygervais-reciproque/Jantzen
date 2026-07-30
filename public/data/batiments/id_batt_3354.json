@@ -1,0 +1,40 @@
+{
+  "id_bat": 3354,
+  "libelle": "69 rue Réaumur",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 535,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1895",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "69 rue Réaumur",
+    "numero": "69",
+    "voie": "rue Réaumur"
+  },
+  "arrondissement": 2,
+  "coordonnees": {
+    "latitude": "48.866607",
+    "longitude": "2.349958"
+  },
+  "id_pss": 37354,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 12767,
+  "terme_jantzen_bat": [
+    "verrière"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_12767",
+      "IndexJantzen": [
+        "verrière"
+      ]
+    }
+  ]
+}

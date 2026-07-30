@@ -1,0 +1,49 @@
+{
+  "id_bat": 3573,
+  "libelle": "7b rue Michel-Chasles",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 116,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1904",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "7b rue Michel-Chasles",
+    "numero": "7b",
+    "voie": "rue Michel-Chasles"
+  },
+  "arrondissement": 12,
+  "coordonnees": {
+    "latitude": "48.846696",
+    "longitude": "2.373724"
+  },
+  "id_pss": 76949,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 9652,
+  "terme_jantzen_bat": [
+    "porte-fer-hall",
+    "dome",
+    "fenetre-d'angle"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_9652",
+      "IndexJantzen": [
+        "dome",
+        "fenetre-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_9653",
+      "IndexJantzen": [
+        "porte-fer-hall"
+      ]
+    }
+  ]
+}

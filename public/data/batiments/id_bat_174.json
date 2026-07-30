@@ -27,69 +27,77 @@
   "WPfr": null,
   "image_ref": "Alphonse-Deville-Pl-1_6_§1",
   "terme_jantzen_bat": [
+    "oeil-de-boeuf",
     "lucarne",
-    "toiture",
+    "fenetre-d'angle",
     "façade-d'angle",
     "lucarne-d'angle",
-    "oeil-de-boeuf",
-    "dome",
-    "fenetre-d'angle",
-    "colonne"
+    "colonne",
+    "toiture",
+    "dome"
   ],
   "photos": [
     {
       "id_pic": "Alphonse-Deville-Pl-1_6_§1",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2010:04:18"
     },
     {
       "id_pic": "Alphonse-Deville-Pl-1_6_§10",
       "IndexJantzen": [
         "dome",
         "lucarne-d'angle"
-      ]
+      ],
+      "dateCapture": "2005:06:13"
     },
     {
       "id_pic": "Alphonse-Deville-Pl-1_6_§11",
       "IndexJantzen": [
         "dome",
         "fenetre-d'angle"
-      ]
+      ],
+      "dateCapture": "2008:04:03"
     },
     {
       "id_pic": "Alphonse-Deville-Pl-1_6_§13",
       "IndexJantzen": [
         "dome",
         "lucarne-d'angle"
-      ]
+      ],
+      "dateCapture": "2005:06:13"
     },
     {
       "id_pic": "Alphonse-Deville-Pl-1_6_§14",
       "IndexJantzen": [
         "dome",
         "lucarne-d'angle"
-      ]
+      ],
+      "dateCapture": "2008:04:03"
     },
     {
       "id_pic": "Alphonse-Deville-Pl-1_6_§15",
       "IndexJantzen": [
         "dome",
         "lucarne-d'angle"
-      ]
+      ],
+      "dateCapture": "2008:04:03"
     },
     {
       "id_pic": "Alphonse-Deville-Pl-1_6_§2",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2010:04:18"
     },
     {
       "id_pic": "Alphonse-Deville-Pl-1_6_§4",
       "IndexJantzen": [
         "lucarne",
         "toiture"
-      ]
+      ],
+      "dateCapture": "2006:03:27"
     },
     {
       "id_pic": "Alphonse-Deville-Pl-1_6_§5",
@@ -97,7 +105,8 @@
         "dome",
         "lucarne",
         "toiture"
-      ]
+      ],
+      "dateCapture": "2005:06:13"
     },
     {
       "id_pic": "Alphonse-Deville-Pl-1_6_§6",
@@ -105,7 +114,8 @@
         "dome",
         "lucarne",
         "oeil-de-boeuf"
-      ]
+      ],
+      "dateCapture": "2006:03:27"
     },
     {
       "id_pic": "Alphonse-Deville-Pl-1_6_§7",
@@ -113,14 +123,16 @@
         "dome",
         "lucarne",
         "oeil-de-boeuf"
-      ]
+      ],
+      "dateCapture": "2005:06:13"
     },
     {
       "id_pic": "Alphonse-Deville-Pl-1_6_§8",
       "IndexJantzen": [
         "dome",
         "façade-d'angle"
-      ]
+      ],
+      "dateCapture": "2008:04:03"
     },
     {
       "id_pic": "Alphonse-Deville-Pl-1_6_§9",
@@ -128,7 +140,8 @@
         "colonne",
         "dome",
         "façade-d'angle"
-      ]
+      ],
+      "dateCapture": "2005:06:13"
     }
   ]
 }

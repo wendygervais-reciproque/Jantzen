@@ -1,0 +1,53 @@
+{
+  "id_bat": 2245,
+  "libelle": "33 avenue Kléber",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": [
+    "1870-1894"
+  ],
+  "adresse": {
+    "affichage": "33 avenue Kléber",
+    "numero": "33",
+    "voie": "avenue Kléber"
+  },
+  "arrondissement": 16,
+  "coordonnees": {
+    "latitude": "48.869385",
+    "longitude": "2.292145"
+  },
+  "id_pss": 77353,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 7501,
+  "terme_jantzen_bat": [
+    "lucarne",
+    "oeil-de-boeuf",
+    "fenetre",
+    "décor",
+    "porte-bois"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_7501",
+      "IndexJantzen": [
+        "lucarne",
+        "oeil-de-boeuf"
+      ]
+    },
+    {
+      "id_pic": "image_7502",
+      "IndexJantzen": [
+        "décor",
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_7503",
+      "IndexJantzen": [
+        "porte-bois"
+      ]
+    }
+  ]
+}

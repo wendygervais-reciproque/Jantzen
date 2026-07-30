@@ -22,12 +22,12 @@
   "WPfr": null,
   "image_ref": "St-Martin-247_3_§1",
   "terme_jantzen_bat": [
+    "console",
+    "garde-corps",
     "fenetre-d'angle",
     "sculpture",
-    "console",
-    "balcon",
     "pilastre",
-    "garde-corps"
+    "balcon"
   ],
   "photos": [
     {
@@ -35,7 +35,8 @@
       "IndexJantzen": [
         "balcon",
         "fenetre-d'angle"
-      ]
+      ],
+      "dateCapture": "2003:07:08"
     },
     {
       "id_pic": "St-Martin-247_3_§2",
@@ -44,21 +45,24 @@
         "fenetre-d'angle",
         "garde-corps",
         "pilastre"
-      ]
+      ],
+      "dateCapture": "2005:08:04"
     },
     {
       "id_pic": "St-Martin-247_3_§3",
       "IndexJantzen": [
         "fenetre-d'angle",
         "garde-corps"
-      ]
+      ],
+      "dateCapture": "2005:08:04"
     },
     {
       "id_pic": "St-Martin-247_3_§4",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:08:04"
     }
   ]
 }

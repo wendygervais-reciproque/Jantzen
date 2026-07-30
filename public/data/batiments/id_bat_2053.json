@@ -27,19 +27,20 @@
   "WPfr": null,
   "image_ref": "Alfred-Dehodencq-3_16_ §1",
   "terme_jantzen_bat": [
-    "porte-fer",
-    "fenetre",
+    "garde-corps",
     "décor",
     "sculpture",
-    "balcon",
-    "garde-corps"
+    "fenetre",
+    "porte-fer",
+    "balcon"
   ],
   "photos": [
     {
       "id_pic": "Alfred-Dehodencq-3_16_ §1",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2008:05:08"
     },
     {
       "id_pic": "Alfred-Dehodencq-3_16_ §2",
@@ -47,7 +48,8 @@
         "décor",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2007:03:27"
     },
     {
       "id_pic": "Alfred-Dehodencq-3_16_ §3",
@@ -55,7 +57,8 @@
         "décor",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2008:05:08"
     },
     {
       "id_pic": "Alfred-Dehodencq-3_16_ §4",
@@ -63,34 +66,39 @@
         "décor",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2007:03:27"
     },
     {
       "id_pic": "Alfred-Dehodencq-3_16_ §5",
       "IndexJantzen": [
         "balcon",
         "garde-corps"
-      ]
+      ],
+      "dateCapture": "2008:05:08"
     },
     {
       "id_pic": "Alfred-Dehodencq-3_16_ §6",
       "IndexJantzen": [
         "porte-fer",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2007:03:27"
     },
     {
       "id_pic": "Alfred-Dehodencq-3_16_ §7",
       "IndexJantzen": [
         "porte-fer"
-      ]
+      ],
+      "dateCapture": "2008:05:08"
     },
     {
       "id_pic": "Alfred-Dehodencq-3_16_ §8",
       "IndexJantzen": [
         "porte-fer",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2008:05:08"
     }
   ]
 }

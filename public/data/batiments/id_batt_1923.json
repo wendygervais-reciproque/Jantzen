@@ -1,0 +1,56 @@
+{
+  "id_bat": 1923,
+  "libelle": "26t rue Traversière",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 127,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": null,
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "26t rue Traversière",
+    "numero": "26t",
+    "voie": "rue Traversière"
+  },
+  "arrondissement": 12,
+  "coordonnees": {
+    "latitude": "48.847429",
+    "longitude": "2.373219"
+  },
+  "id_pss": 76938,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 15468,
+  "terme_jantzen_bat": [
+    "fenetre",
+    "lucarne",
+    "façade"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_15468",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_15469",
+      "IndexJantzen": [
+        "façade",
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_15470",
+      "IndexJantzen": [
+        "fenetre",
+        "lucarne"
+      ]
+    }
+  ]
+}

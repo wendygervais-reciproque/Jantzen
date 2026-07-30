@@ -27,23 +27,25 @@
   "WPfr": null,
   "image_ref": "Amelot-110_11_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "façade",
+    "sculpture",
     "décor",
-    "sculpture"
+    "fenetre"
   ],
   "photos": [
     {
       "id_pic": "Amelot-110_11_§1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "dateCapture": "2010:03:17"
     },
     {
       "id_pic": "Amelot-110_11_§10",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2010:03:17"
     },
     {
       "id_pic": "Amelot-110_11_§10b",
@@ -51,40 +53,46 @@
         "décor",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:07:05"
     },
     {
       "id_pic": "Amelot-110_11_§2",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "dateCapture": "2010:04:16"
     },
     {
       "id_pic": "Amelot-110_11_§3",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "dateCapture": "2010:03:17"
     },
     {
       "id_pic": "Amelot-110_11_§4",
       "IndexJantzen": [
         "décor",
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2006:07:05"
     },
     {
       "id_pic": "Amelot-110_11_§5",
       "IndexJantzen": [
         "décor",
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2010:03:17"
     },
     {
       "id_pic": "Amelot-110_11_§6",
       "IndexJantzen": [
         "décor",
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2010:03:17"
     },
     {
       "id_pic": "Amelot-110_11_§8",
@@ -92,13 +100,15 @@
         "décor",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:07:05"
     },
     {
       "id_pic": "Amelot-110_11_§9",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2010:03:17"
     }
   ]
 }

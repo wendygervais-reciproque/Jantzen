@@ -27,12 +27,12 @@
   "WPfr": null,
   "image_ref": "Marietta-Martin-6_16_§1",
   "terme_jantzen_bat": [
-    "façade-d'angle",
-    "lucarne-d'angle",
+    "fenetre-d'angle",
     "brique",
     "décor",
-    "fenetre-d'angle",
+    "façade-d'angle",
     "balcon",
+    "lucarne-d'angle",
     "pignon"
   ],
   "photos": [
@@ -41,14 +41,16 @@
       "IndexJantzen": [
         "brique",
         "façade-d'angle"
-      ]
+      ],
+      "dateCapture": "2005:05:10"
     },
     {
       "id_pic": "Marietta-Martin-6_16_§2",
       "IndexJantzen": [
         "brique",
         "façade-d'angle"
-      ]
+      ],
+      "dateCapture": "2005:05:10"
     },
     {
       "id_pic": "Marietta-Martin-6_16_§3",
@@ -58,14 +60,16 @@
         "décor",
         "fenetre-d'angle",
         "pignon"
-      ]
+      ],
+      "dateCapture": "2005:05:10"
     },
     {
       "id_pic": "Marietta-Martin-6_16_§4",
       "IndexJantzen": [
         "brique",
         "lucarne-d'angle"
-      ]
+      ],
+      "dateCapture": "2005:05:10"
     }
   ]
 }

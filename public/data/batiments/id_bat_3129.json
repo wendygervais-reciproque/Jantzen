@@ -28,13 +28,13 @@
   "image_ref": "Hanovre-6_2_§1",
   "terme_jantzen_bat": [
     "façade",
-    "intérieur",
-    "métal",
-    "porte-fer",
-    "décor",
-    "mosaique",
     "verrière",
-    "oriel"
+    "mosaique",
+    "décor",
+    "oriel",
+    "porte-fer",
+    "métal",
+    "intérieur"
   ],
   "photos": [
     {
@@ -43,7 +43,8 @@
         "façade",
         "mosaique",
         "verrière"
-      ]
+      ],
+      "dateCapture": "2005:06:19"
     },
     {
       "id_pic": "Hanovre-6_2_§10",
@@ -51,14 +52,16 @@
         "décor",
         "mosaique",
         "porte-fer"
-      ]
+      ],
+      "dateCapture": "2007:05:24"
     },
     {
       "id_pic": "Hanovre-6_2_§11",
       "IndexJantzen": [
         "décor",
         "porte-fer"
-      ]
+      ],
+      "dateCapture": "2005:06:19"
     },
     {
       "id_pic": "Hanovre-6_2_§12",
@@ -66,7 +69,8 @@
         "décor",
         "intérieur",
         "mosaique"
-      ]
+      ],
+      "dateCapture": "2007:05:24"
     },
     {
       "id_pic": "Hanovre-6_2_§2",
@@ -74,7 +78,8 @@
         "mosaique",
         "métal",
         "oriel"
-      ]
+      ],
+      "dateCapture": "2004:09:05"
     },
     {
       "id_pic": "Hanovre-6_2_§3",
@@ -82,14 +87,16 @@
         "décor",
         "métal",
         "oriel"
-      ]
+      ],
+      "dateCapture": "2005:06:19"
     },
     {
       "id_pic": "Hanovre-6_2_§4",
       "IndexJantzen": [
         "décor",
         "oriel"
-      ]
+      ],
+      "dateCapture": "2005:06:19"
     },
     {
       "id_pic": "Hanovre-6_2_§5",
@@ -97,28 +104,32 @@
         "décor",
         "métal",
         "oriel"
-      ]
+      ],
+      "dateCapture": "2005:06:19"
     },
     {
       "id_pic": "Hanovre-6_2_§7",
       "IndexJantzen": [
         "décor",
         "mosaique"
-      ]
+      ],
+      "dateCapture": "2005:06:19"
     },
     {
       "id_pic": "Hanovre-6_2_§8",
       "IndexJantzen": [
         "décor",
         "mosaique"
-      ]
+      ],
+      "dateCapture": "2005:06:19"
     },
     {
       "id_pic": "Hanovre-6_2_§9",
       "IndexJantzen": [
         "décor",
         "mosaique"
-      ]
+      ],
+      "dateCapture": "2007:05:24"
     }
   ]
 }

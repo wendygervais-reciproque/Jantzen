@@ -22,23 +22,25 @@
   "WPfr": null,
   "image_ref": "Le-Verrier-4_6_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "porte-bois",
-    "sculpture"
+    "sculpture",
+    "fenetre"
   ],
   "photos": [
     {
       "id_pic": "Le-Verrier-4_6_§1",
       "IndexJantzen": [
         "porte-bois"
-      ]
+      ],
+      "dateCapture": "2005:05:09"
     },
     {
       "id_pic": "Le-Verrier-4_6_§2",
       "IndexJantzen": [
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:05:09"
     }
   ]
 }

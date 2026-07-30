@@ -22,8 +22,8 @@
   "WPfr": null,
   "image_ref": "Estrapade-7_5_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "façade",
+    "fenetre",
     "porte-bois",
     "garde-corps"
   ],
@@ -32,32 +32,37 @@
       "id_pic": "Estrapade-7_5_§1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "dateCapture": null
     },
     {
       "id_pic": "Estrapade-7_5_§2",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2003:08:25"
     },
     {
       "id_pic": "Estrapade-7_5_§3",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2005:08:29"
     },
     {
       "id_pic": "Estrapade-7_5_§4",
       "IndexJantzen": [
         "fenetre",
         "garde-corps"
-      ]
+      ],
+      "dateCapture": "2005:08:29"
     },
     {
       "id_pic": "Estrapade-7_5_§5",
       "IndexJantzen": [
         "porte-bois"
-      ]
+      ],
+      "dateCapture": "2005:08:29"
     }
   ]
 }

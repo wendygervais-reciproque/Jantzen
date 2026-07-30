@@ -27,15 +27,15 @@
   "WPfr": null,
   "image_ref": "Reaumur-101_2_§1",
   "terme_jantzen_bat": [
-    "façade-d'angle",
-    "fronton",
-    "lucarne-d'angle",
-    "fenetre",
-    "dome",
+    "cariatide",
     "fenetre-d'angle",
     "sculpture",
-    "cariatide",
-    "balcon"
+    "fronton",
+    "fenetre",
+    "façade-d'angle",
+    "balcon",
+    "lucarne-d'angle",
+    "dome"
   ],
   "photos": [
     {
@@ -43,54 +43,62 @@
       "IndexJantzen": [
         "dome",
         "façade-d'angle"
-      ]
+      ],
+      "dateCapture": "2004:09:05"
     },
     {
       "id_pic": "Reaumur-101_2_§10",
       "IndexJantzen": [
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2008:07:19"
     },
     {
       "id_pic": "Reaumur-101_2_§11",
       "IndexJantzen": [
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2008:07:19"
     },
     {
       "id_pic": "Reaumur-101_2_§12",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2008:07:19"
     },
     {
       "id_pic": "Reaumur-101_2_§13",
       "IndexJantzen": [
         "cariatide",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2008:07:19"
     },
     {
       "id_pic": "Reaumur-101_2_§2",
       "IndexJantzen": [
         "fenetre-d'angle"
-      ]
+      ],
+      "dateCapture": "2004:09:05"
     },
     {
       "id_pic": "Reaumur-101_2_§3",
       "IndexJantzen": [
         "balcon",
         "fronton"
-      ]
+      ],
+      "dateCapture": "2004:07:05"
     },
     {
       "id_pic": "Reaumur-101_2_§4",
       "IndexJantzen": [
         "dome",
         "lucarne-d'angle"
-      ]
+      ],
+      "dateCapture": "2004:09:05"
     },
     {
       "id_pic": "Reaumur-101_2_§5",
@@ -98,7 +106,8 @@
         "cariatide",
         "fenetre-d'angle",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2004:07:05"
     },
     {
       "id_pic": "Reaumur-101_2_§6",
@@ -106,7 +115,8 @@
         "cariatide",
         "fenetre-d'angle",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2004:09:05"
     },
     {
       "id_pic": "Reaumur-101_2_§9",
@@ -114,7 +124,8 @@
         "cariatide",
         "fenetre-d'angle",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2004:07:05"
     }
   ]
 }

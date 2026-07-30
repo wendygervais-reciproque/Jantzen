@@ -28,38 +28,42 @@
   "image_ref": "Cadet-26_9_§1",
   "terme_jantzen_bat": [
     "façade",
-    "fenetre",
+    "garde-corps",
     "décor",
     "sculpture",
+    "fenetre",
     "colonne",
-    "porte-bois",
-    "garde-corps"
+    "porte-bois"
   ],
   "photos": [
     {
       "id_pic": "Cadet-26_9_§1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "dateCapture": "2007:04:09"
     },
     {
       "id_pic": "Cadet-26_9_§10",
       "IndexJantzen": [
         "porte-bois"
-      ]
+      ],
+      "dateCapture": "2004:09:04"
     },
     {
       "id_pic": "Cadet-26_9_§2",
       "IndexJantzen": [
         "colonne",
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2007:04:09"
     },
     {
       "id_pic": "Cadet-26_9_§3",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2007:03:26"
     },
     {
       "id_pic": "Cadet-26_9_§4",
@@ -67,21 +71,24 @@
         "décor",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2007:03:26"
     },
     {
       "id_pic": "Cadet-26_9_§5",
       "IndexJantzen": [
         "colonne",
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2007:04:09"
     },
     {
       "id_pic": "Cadet-26_9_§6",
       "IndexJantzen": [
         "colonne",
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2007:03:26"
     },
     {
       "id_pic": "Cadet-26_9_§7",
@@ -89,13 +96,15 @@
         "colonne",
         "fenetre",
         "garde-corps"
-      ]
+      ],
+      "dateCapture": "2004:09:04"
     },
     {
       "id_pic": "Cadet-26_9_§8",
       "IndexJantzen": [
         "porte-bois"
-      ]
+      ],
+      "dateCapture": "2007:04:09"
     }
   ]
 }

@@ -22,11 +22,11 @@
   "WPfr": null,
   "image_ref": "Cernuschi-16_17_§1",
   "terme_jantzen_bat": [
-    "fenetre",
+    "garde-corps",
+    "verrière",
     "décor",
     "sculpture",
-    "verrière",
-    "garde-corps"
+    "fenetre"
   ],
   "photos": [
     {
@@ -36,14 +36,16 @@
         "fenetre",
         "sculpture",
         "verrière"
-      ]
+      ],
+      "dateCapture": "2004:10:05"
     },
     {
       "id_pic": "Cernuschi-16_17_§2",
       "IndexJantzen": [
         "fenetre",
         "garde-corps"
-      ]
+      ],
+      "dateCapture": "2004:10:05"
     }
   ]
 }

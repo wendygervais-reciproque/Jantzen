@@ -27,60 +27,67 @@
   "WPfr": null,
   "image_ref": "Michel-Chasles-5_12_§1",
   "terme_jantzen_bat": [
-    "lucarne",
     "façade",
-    "fenetre",
-    "sculpture",
     "console",
     "loggia",
-    "garde-corps"
+    "garde-corps",
+    "lucarne",
+    "sculpture",
+    "fenetre"
   ],
   "photos": [
     {
       "id_pic": "Michel-Chasles-5_12_§1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "dateCapture": "2005:10:10"
     },
     {
       "id_pic": "Michel-Chasles-5_12_§2",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2005:10:10"
     },
     {
       "id_pic": "Michel-Chasles-5_12_§3",
       "IndexJantzen": [
         "fenetre",
         "garde-corps"
-      ]
+      ],
+      "dateCapture": "2005:10:10"
     },
     {
       "id_pic": "Michel-Chasles-5_12_§4",
       "IndexJantzen": [
         "loggia",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2005:10:10"
     },
     {
       "id_pic": "Michel-Chasles-5_12_§5",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2005:10:10"
     },
     {
       "id_pic": "Michel-Chasles-5_12_§6",
       "IndexJantzen": [
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:10:10"
     },
     {
       "id_pic": "Michel-Chasles-5_12_§7",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:10:10"
     }
   ]
 }

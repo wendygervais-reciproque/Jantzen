@@ -27,17 +27,18 @@
   "WPfr": null,
   "image_ref": "Rocher-50_8_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "console",
-    "porte-fer",
-    "sculpture"
+    "sculpture",
+    "fenetre",
+    "porte-fer"
   ],
   "photos": [
     {
       "id_pic": "Rocher-50_8_§1",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2004:07:02"
     },
     {
       "id_pic": "Rocher-50_8_§2",
@@ -45,7 +46,8 @@
         "console",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2004:07:02"
     },
     {
       "id_pic": "Rocher-50_8_§3",
@@ -53,13 +55,15 @@
         "console",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2004:07:02"
     },
     {
       "id_pic": "Rocher-50_8_§6",
       "IndexJantzen": [
         "porte-fer"
-      ]
+      ],
+      "dateCapture": "2006:06:17"
     }
   ]
 }

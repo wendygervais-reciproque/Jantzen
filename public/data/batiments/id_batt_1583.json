@@ -1,0 +1,153 @@
+{
+  "id_bat": 1583,
+  "libelle": "20 rue La Fayette",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 533,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1906",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "20 rue La Fayette",
+    "numero": "20",
+    "voie": "rue La Fayette"
+  },
+  "arrondissement": 9,
+  "coordonnees": {
+    "latitude": "48.873694",
+    "longitude": "2.335995"
+  },
+  "id_pss": 23940,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 7642,
+  "terme_jantzen_bat": [
+    "façade-d'angle",
+    "porte",
+    "lucarne",
+    "oeil-de-boeuf",
+    "lucarne-d'angle",
+    "colonne",
+    "fenetre",
+    "fenetre-d'angle",
+    "balcon",
+    "porte-fer"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_7642",
+      "IndexJantzen": [
+        "façade-d'angle",
+        "porte"
+      ]
+    },
+    {
+      "id_pic": "image_7643",
+      "IndexJantzen": [
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_7644",
+      "IndexJantzen": [
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_7645",
+      "IndexJantzen": [
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_7646",
+      "IndexJantzen": [
+        "colonne",
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_7647",
+      "IndexJantzen": [
+        "colonne",
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_7648",
+      "IndexJantzen": [
+        "porte-fer"
+      ]
+    },
+    {
+      "id_pic": "image_7649",
+      "IndexJantzen": [
+        "balcon",
+        "porte-fer"
+      ]
+    },
+    {
+      "id_pic": "image_7650",
+      "IndexJantzen": [
+        "porte-fer"
+      ]
+    },
+    {
+      "id_pic": "image_7651",
+      "IndexJantzen": [
+        "balcon",
+        "porte-fer"
+      ]
+    },
+    {
+      "id_pic": "image_7652",
+      "IndexJantzen": [
+        "façade-d'angle",
+        "porte"
+      ]
+    },
+    {
+      "id_pic": "image_7653",
+      "IndexJantzen": [
+        "fenetre-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_7654",
+      "IndexJantzen": [
+        "fenetre-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_7655",
+      "IndexJantzen": [
+        "lucarne-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_7656",
+      "IndexJantzen": [
+        "fenetre-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_7657",
+      "IndexJantzen": [
+        "lucarne-d'angle",
+        "oeil-de-boeuf"
+      ]
+    },
+    {
+      "id_pic": "image_7658",
+      "IndexJantzen": [
+        "lucarne-d'angle",
+        "oeil-de-boeuf"
+      ]
+    }
+  ]
+}

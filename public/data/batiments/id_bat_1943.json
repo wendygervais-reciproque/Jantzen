@@ -23,11 +23,11 @@
   "image_ref": "Francs-Bourgeois-27_3_§1",
   "terme_jantzen_bat": [
     "lucarne",
-    "toiture",
-    "façade-d'angle",
-    "fronton",
     "fenetre-d'angle",
+    "fronton",
     "sculpture",
+    "façade-d'angle",
+    "toiture",
     "pignon"
   ],
   "photos": [
@@ -35,14 +35,16 @@
       "id_pic": "Francs-Bourgeois-27_3_§1",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2006:04:22"
     },
     {
       "id_pic": "Francs-Bourgeois-27_3_§2",
       "IndexJantzen": [
         "lucarne",
         "toiture"
-      ]
+      ],
+      "dateCapture": "2005:08:03"
     },
     {
       "id_pic": "Francs-Bourgeois-27_4_§1",
@@ -50,13 +52,15 @@
         "façade-d'angle",
         "lucarne",
         "pignon"
-      ]
+      ],
+      "dateCapture": "2004:09:08"
     },
     {
       "id_pic": "Francs-Bourgeois-27_4_§2",
       "IndexJantzen": [
         "fenetre-d'angle"
-      ]
+      ],
+      "dateCapture": "2004:09:08"
     },
     {
       "id_pic": "Francs-Bourgeois-27_4_§3",
@@ -64,7 +68,8 @@
         "fenetre-d'angle",
         "fronton",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2004:09:08"
     }
   ]
 }

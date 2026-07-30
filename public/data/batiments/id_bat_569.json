@@ -28,14 +28,14 @@
   "image_ref": "St-Germain-117_6_§1",
   "terme_jantzen_bat": [
     "lucarne",
-    "façade-d'angle",
-    "fenetre",
     "décor",
-    "dome",
     "sculpture",
     "clé",
+    "fenetre",
+    "façade-d'angle",
     "balcon",
-    "porte-bois"
+    "porte-bois",
+    "dome"
   ],
   "photos": [
     {
@@ -43,7 +43,8 @@
       "IndexJantzen": [
         "dome",
         "façade-d'angle"
-      ]
+      ],
+      "dateCapture": "2010:06:05"
     },
     {
       "id_pic": "St-Germain-117_6_§2",
@@ -51,7 +52,8 @@
         "décor",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2010:06:05"
     },
     {
       "id_pic": "St-Germain-117_6_§3",
@@ -60,41 +62,47 @@
         "décor",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2010:06:05"
     },
     {
       "id_pic": "St-Germain-117_6_§4",
       "IndexJantzen": [
         "clé",
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2010:06:05"
     },
     {
       "id_pic": "St-Germain-117_6_§5",
       "IndexJantzen": [
         "dome",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2006:06:11"
     },
     {
       "id_pic": "St-Germain-117_6_§6",
       "IndexJantzen": [
         "dome",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2010:06:05"
     },
     {
       "id_pic": "St-Germain-117_6_§7",
       "IndexJantzen": [
         "balcon",
         "porte-bois"
-      ]
+      ],
+      "dateCapture": "2010:06:05"
     },
     {
       "id_pic": "St-Germain-117_6_§8",
       "IndexJantzen": [
         "porte-bois"
-      ]
+      ],
+      "dateCapture": "2010:06:05"
     }
   ]
 }

@@ -27,11 +27,11 @@
   "WPfr": null,
   "image_ref": "Hopital-bd-50_13_§1",
   "terme_jantzen_bat": [
+    "fenetre-d'angle",
     "façade-d'angle",
+    "balcon",
     "lucarne-d'angle",
     "dome",
-    "fenetre-d'angle",
-    "balcon",
     "pignon"
   ],
   "photos": [
@@ -40,7 +40,8 @@
       "IndexJantzen": [
         "dome",
         "façade-d'angle"
-      ]
+      ],
+      "dateCapture": "2005:04:01"
     },
     {
       "id_pic": "Hopital-bd-50_13_§2",
@@ -48,21 +49,24 @@
         "balcon",
         "dome",
         "fenetre-d'angle"
-      ]
+      ],
+      "dateCapture": "2005:04:01"
     },
     {
       "id_pic": "Hopital-bd-50_13_§3",
       "IndexJantzen": [
         "fenetre-d'angle",
         "pignon"
-      ]
+      ],
+      "dateCapture": "2005:04:01"
     },
     {
       "id_pic": "Hopital-bd-50_13_§4",
       "IndexJantzen": [
         "balcon",
         "lucarne-d'angle"
-      ]
+      ],
+      "dateCapture": "2005:04:01"
     }
   ]
 }

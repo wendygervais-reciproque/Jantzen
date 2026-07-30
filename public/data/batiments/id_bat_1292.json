@@ -22,11 +22,11 @@
   "WPfr": null,
   "image_ref": "Amiral-Hamelin-18_16_§1",
   "terme_jantzen_bat": [
-    "sculpture",
     "console",
+    "garde-corps",
+    "sculpture",
     "balcon",
-    "porte-bois",
-    "garde-corps"
+    "porte-bois"
   ],
   "photos": [
     {
@@ -36,13 +36,15 @@
         "console",
         "garde-corps",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2004:10:25"
     },
     {
       "id_pic": "Amiral-Hamelin-18_16_§2",
       "IndexJantzen": [
         "porte-bois"
-      ]
+      ],
+      "dateCapture": "2004:10:25"
     }
   ]
 }

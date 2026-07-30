@@ -1,0 +1,62 @@
+{
+  "id_bat": 2905,
+  "libelle": "50 avenue Victor-Hugo",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 125,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1911",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "50 avenue Victor-Hugo",
+    "numero": "50",
+    "voie": "avenue Victor-Hugo"
+  },
+  "arrondissement": 16,
+  "coordonnees": {
+    "latitude": "48.87099",
+    "longitude": "2.288136"
+  },
+  "id_pss": 11575,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 16371,
+  "terme_jantzen_bat": [
+    "fenetre",
+    "loggia",
+    "façade"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_16371",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_16372",
+      "IndexJantzen": [
+        "fenetre",
+        "loggia"
+      ]
+    },
+    {
+      "id_pic": "image_16373",
+      "IndexJantzen": [
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_16374",
+      "IndexJantzen": [
+        "fenetre",
+        "loggia"
+      ]
+    }
+  ]
+}

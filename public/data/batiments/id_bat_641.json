@@ -27,10 +27,10 @@
   "WPfr": null,
   "image_ref": "Ecole-Medecine-12_6_§1",
   "terme_jantzen_bat": [
-    "colonne",
-    "sculpture",
     "façade",
-    "porte-fer"
+    "sculpture",
+    "porte-fer",
+    "colonne"
   ],
   "photos": [
     {
@@ -38,20 +38,23 @@
       "IndexJantzen": [
         "façade",
         "porte-fer"
-      ]
+      ],
+      "dateCapture": "2010:05:23"
     },
     {
       "id_pic": "Ecole-Medecine-12_6_§2",
       "IndexJantzen": [
         "colonne",
         "porte-fer"
-      ]
+      ],
+      "dateCapture": "2010:05:23"
     },
     {
       "id_pic": "Ecole-Medecine-12_6_§3",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2010:05:23"
     }
   ]
 }

@@ -1,0 +1,82 @@
+{
+  "id_bat": 390,
+  "libelle": "104 avenue des Champs-Élysées",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "104 avenue des Champs-Élysées",
+    "numero": "104",
+    "voie": "avenue des Champs-Élysées"
+  },
+  "arrondissement": 8,
+  "coordonnees": {
+    "latitude": "48.871919",
+    "longitude": "2.302044"
+  },
+  "id_pss": 27049,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 2226,
+  "terme_jantzen_bat": [
+    "lucarne",
+    "toiture",
+    "fenetre"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_2226",
+      "IndexJantzen": [
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_2227",
+      "IndexJantzen": [
+        "fenetre",
+        "lucarne",
+        "toiture"
+      ]
+    },
+    {
+      "id_pic": "image_2228",
+      "IndexJantzen": [
+        "lucarne",
+        "toiture"
+      ]
+    },
+    {
+      "id_pic": "image_2229",
+      "IndexJantzen": [
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_2230",
+      "IndexJantzen": [
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_2231",
+      "IndexJantzen": [
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_2232",
+      "IndexJantzen": [
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_2233",
+      "IndexJantzen": [
+        "lucarne"
+      ]
+    }
+  ]
+}

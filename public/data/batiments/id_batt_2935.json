@@ -1,0 +1,44 @@
+{
+  "id_bat": 2935,
+  "libelle": "51 rue de l'Université",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": [
+    "1660-1759"
+  ],
+  "adresse": {
+    "affichage": "51 rue de l'Université",
+    "numero": "51",
+    "voie": "rue de l'Université"
+  },
+  "arrondissement": 7,
+  "coordonnees": {
+    "latitude": "48.858599",
+    "longitude": "2.325241"
+  },
+  "id_pss": 27506,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 15682,
+  "terme_jantzen_bat": [
+    "porte-bois",
+    "poignée-porte",
+    "colonne"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_15682",
+      "IndexJantzen": [
+        "colonne",
+        "porte-bois"
+      ]
+    },
+    {
+      "id_pic": "image_15683",
+      "IndexJantzen": [
+        "poignée-porte"
+      ]
+    }
+  ]
+}

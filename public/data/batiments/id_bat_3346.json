@@ -27,32 +27,35 @@
   "WPfr": null,
   "image_ref": "Courcelles-bd-68b_17_§1",
   "terme_jantzen_bat": [
-    "lucarne",
     "façade",
+    "lucarne",
     "porte-fer",
-    "dome",
-    "colonne"
+    "colonne",
+    "dome"
   ],
   "photos": [
     {
       "id_pic": "Courcelles-bd-68b_17_§1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "dateCapture": "2010:04:11"
     },
     {
       "id_pic": "Courcelles-bd-68b_17_§2",
       "IndexJantzen": [
         "dome",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2010:04:11"
     },
     {
       "id_pic": "Courcelles-bd-68b_17_§3",
       "IndexJantzen": [
         "colonne",
         "porte-fer"
-      ]
+      ],
+      "dateCapture": "2006:06:09"
     }
   ]
 }

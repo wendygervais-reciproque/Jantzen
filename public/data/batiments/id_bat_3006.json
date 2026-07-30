@@ -23,9 +23,9 @@
   "image_ref": "Vieille-Du-Temple-54_3_§1",
   "terme_jantzen_bat": [
     "façade",
-    "façade-d'angle",
-    "fenetre",
     "tourelle",
+    "fenetre",
+    "façade-d'angle",
     "pignon"
   ],
   "photos": [
@@ -34,14 +34,16 @@
       "IndexJantzen": [
         "façade",
         "pignon"
-      ]
+      ],
+      "dateCapture": "2004:09:09"
     },
     {
       "id_pic": "Vieille-Du-Temple-54_3_§2",
       "IndexJantzen": [
         "façade-d'angle",
         "tourelle"
-      ]
+      ],
+      "dateCapture": "2003:08:01"
     },
     {
       "id_pic": "Vieille-Du-Temple-54_3_§3",
@@ -49,7 +51,8 @@
         "fenetre",
         "pignon",
         "tourelle"
-      ]
+      ],
+      "dateCapture": "2003:08:01"
     }
   ]
 }

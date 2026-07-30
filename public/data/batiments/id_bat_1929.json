@@ -27,20 +27,21 @@
   "WPfr": null,
   "image_ref": "Capucines-Bd-27_2_§1",
   "terme_jantzen_bat": [
-    "lucarne",
     "façade",
-    "métal",
-    "fenetre",
-    "décor",
+    "verrière",
+    "lucarne",
     "mosaique",
-    "verrière"
+    "décor",
+    "fenetre",
+    "métal"
   ],
   "photos": [
     {
       "id_pic": "Capucines-Bd-27_2_§1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "dateCapture": "2006:03:23"
     },
     {
       "id_pic": "Capucines-Bd-27_2_§3",
@@ -48,7 +49,8 @@
         "fenetre",
         "métal",
         "verrière"
-      ]
+      ],
+      "dateCapture": "2006:03:23"
     },
     {
       "id_pic": "Capucines-Bd-27_2_§5",
@@ -57,7 +59,8 @@
         "fenetre",
         "mosaique",
         "verrière"
-      ]
+      ],
+      "dateCapture": "2006:03:23"
     },
     {
       "id_pic": "Capucines-Bd-27_2_§6",
@@ -65,13 +68,15 @@
         "décor",
         "fenetre",
         "mosaique"
-      ]
+      ],
+      "dateCapture": "2008:02:10"
     },
     {
       "id_pic": "Capucines-Bd-27_2_§7",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2008:02:10"
     },
     {
       "id_pic": "Capucines-Bd-27_2_§8",
@@ -79,13 +84,15 @@
         "décor",
         "fenetre",
         "mosaique"
-      ]
+      ],
+      "dateCapture": "2008:02:10"
     },
     {
       "id_pic": "Capucines-Bd-27_2_§9",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2006:03:23"
     }
   ]
 }

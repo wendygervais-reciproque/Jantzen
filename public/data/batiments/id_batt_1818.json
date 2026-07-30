@@ -1,0 +1,61 @@
+{
+  "id_bat": 1818,
+  "libelle": "24 rue Saint-Marc",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 658,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1894",
+  "periode": [
+    "1870-1894"
+  ],
+  "adresse": {
+    "affichage": "24 rue Saint-Marc",
+    "numero": "24",
+    "voie": "rue Saint-Marc"
+  },
+  "arrondissement": 2,
+  "coordonnees": {
+    "latitude": "48.87056",
+    "longitude": "2.339757"
+  },
+  "id_pss": 10784,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 14613,
+  "terme_jantzen_bat": [
+    "porte-fer",
+    "colonne",
+    "fenetre",
+    "métal",
+    "verrière"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_14613",
+      "IndexJantzen": [
+        "fenetre",
+        "métal",
+        "verrière"
+      ]
+    },
+    {
+      "id_pic": "image_14614",
+      "IndexJantzen": [
+        "colonne",
+        "fenetre",
+        "métal",
+        "verrière"
+      ]
+    },
+    {
+      "id_pic": "image_14615",
+      "IndexJantzen": [
+        "porte-fer"
+      ]
+    }
+  ]
+}

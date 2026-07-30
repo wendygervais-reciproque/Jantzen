@@ -27,32 +27,35 @@
   "WPfr": null,
   "image_ref": "Lamarck-99b_18_§1",
   "terme_jantzen_bat": [
-    "lucarne",
     "façade",
-    "porte-fer",
-    "fenetre",
+    "lucarne",
     "décor",
-    "clé"
+    "clé",
+    "fenetre",
+    "porte-fer"
   ],
   "photos": [
     {
       "id_pic": "Lamarck-99b_18_§1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "dateCapture": "2004:07:27"
     },
     {
       "id_pic": "Lamarck-99b_18_§2",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "dateCapture": "2004:07:27"
     },
     {
       "id_pic": "Lamarck-99b_18_§3",
       "IndexJantzen": [
         "décor",
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2006:06:09"
     },
     {
       "id_pic": "Lamarck-99b_18_§4",
@@ -60,27 +63,31 @@
         "décor",
         "fenetre",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2006:06:09"
     },
     {
       "id_pic": "Lamarck-99b_18_§5",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2006:06:09"
     },
     {
       "id_pic": "Lamarck-99b_18_§6",
       "IndexJantzen": [
         "décor",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2006:06:09"
     },
     {
       "id_pic": "Lamarck-99b_18_§7",
       "IndexJantzen": [
         "clé",
         "porte-fer"
-      ]
+      ],
+      "dateCapture": "2004:07:28"
     }
   ]
 }

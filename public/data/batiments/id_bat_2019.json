@@ -28,16 +28,16 @@
   "image_ref": "Morere-29b_14_30_§10",
   "terme_jantzen_bat": [
     "façade",
-    "céramique",
-    "fenetre",
-    "brique",
-    "décor",
-    "sculpture",
     "console",
     "loggia",
+    "oriel",
+    "brique",
+    "sculpture",
+    "décor",
+    "fenetre",
+    "céramique",
     "colonne",
-    "porte-bois",
-    "oriel"
+    "porte-bois"
   ],
   "photos": [
     {
@@ -46,21 +46,24 @@
         "colonne",
         "loggia",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2010:05:24"
     },
     {
       "id_pic": "Morere-29b_14_30_§11",
       "IndexJantzen": [
         "façade",
         "oriel"
-      ]
+      ],
+      "dateCapture": "2005:08:31"
     },
     {
       "id_pic": "Morere-29b_14_30_§12",
       "IndexJantzen": [
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:08:31"
     },
     {
       "id_pic": "Morere-29b_14_30_§13",
@@ -68,13 +71,15 @@
         "console",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:08:31"
     },
     {
       "id_pic": "Morere-29b_14_30_§14",
       "IndexJantzen": [
         "porte-bois"
-      ]
+      ],
+      "dateCapture": "2005:08:31"
     },
     {
       "id_pic": "Morere-29b_14_30_§4",
@@ -82,7 +87,8 @@
         "brique",
         "céramique",
         "façade"
-      ]
+      ],
+      "dateCapture": "2010:05:24"
     },
     {
       "id_pic": "Morere-29b_14_30_§5",
@@ -90,7 +96,8 @@
         "céramique",
         "décor",
         "oriel"
-      ]
+      ],
+      "dateCapture": "2010:05:24"
     },
     {
       "id_pic": "Morere-29b_14_30_§6",
@@ -98,20 +105,23 @@
         "céramique",
         "décor",
         "oriel"
-      ]
+      ],
+      "dateCapture": "2010:05:24"
     },
     {
       "id_pic": "Morere-29b_14_30_§7",
       "IndexJantzen": [
         "façade",
         "oriel"
-      ]
+      ],
+      "dateCapture": "2010:05:24"
     },
     {
       "id_pic": "Morere-29b_14_30_§8",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "dateCapture": "2005:08:31"
     },
     {
       "id_pic": "Morere-29b_14_30_§9",
@@ -119,7 +129,8 @@
         "décor",
         "oriel",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2010:05:24"
     }
   ]
 }

@@ -22,11 +22,11 @@
   "WPfr": null,
   "image_ref": "La-Tremoille-14_8_§1",
   "terme_jantzen_bat": [
-    "céramique",
-    "métal",
+    "garde-corps",
     "oriel",
+    "métal",
     "balcon",
-    "garde-corps"
+    "céramique"
   ],
   "photos": [
     {
@@ -35,7 +35,8 @@
         "céramique",
         "métal",
         "oriel"
-      ]
+      ],
+      "dateCapture": "2004:10:21"
     },
     {
       "id_pic": "La-Tremoille-14_8_§2",
@@ -43,7 +44,8 @@
         "céramique",
         "métal",
         "oriel"
-      ]
+      ],
+      "dateCapture": "2004:10:21"
     },
     {
       "id_pic": "La-Tremoille-14_8_§3",
@@ -51,14 +53,16 @@
         "céramique",
         "métal",
         "oriel"
-      ]
+      ],
+      "dateCapture": "2004:10:21"
     },
     {
       "id_pic": "La-Tremoille-14_8_§4",
       "IndexJantzen": [
         "balcon",
         "garde-corps"
-      ]
+      ],
+      "dateCapture": "2004:10:21"
     }
   ]
 }

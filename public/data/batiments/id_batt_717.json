@@ -1,0 +1,117 @@
+{
+  "id_bat": 717,
+  "libelle": "122 avenue Mozart",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 322,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1909-1912",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "122 avenue Mozart",
+    "numero": "122",
+    "voie": "avenue Mozart"
+  },
+  "arrondissement": 16,
+  "coordonnees": {
+    "latitude": "48.849735",
+    "longitude": "2.266507"
+  },
+  "id_pss": 5183,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 10061,
+  "terme_jantzen_bat": [
+    "façade-d'angle",
+    "lucarne",
+    "céramique",
+    "brique",
+    "colonne",
+    "fenetre",
+    "fenetre-d'angle",
+    "balcon",
+    "garde-corps",
+    "porte-fer"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_10061",
+      "IndexJantzen": [
+        "brique",
+        "façade-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_10062",
+      "IndexJantzen": [
+        "brique",
+        "porte-fer"
+      ]
+    },
+    {
+      "id_pic": "image_10063",
+      "IndexJantzen": [
+        "brique",
+        "fenetre-d'angle",
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_10064",
+      "IndexJantzen": [
+        "brique",
+        "fenetre",
+        "garde-corps"
+      ]
+    },
+    {
+      "id_pic": "image_10065",
+      "IndexJantzen": [
+        "balcon",
+        "brique"
+      ]
+    },
+    {
+      "id_pic": "image_10066",
+      "IndexJantzen": [
+        "balcon",
+        "brique",
+        "garde-corps"
+      ]
+    },
+    {
+      "id_pic": "image_10067",
+      "IndexJantzen": [
+        "brique",
+        "céramique",
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_10068",
+      "IndexJantzen": [
+        "brique",
+        "céramique",
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_10069",
+      "IndexJantzen": [
+        "colonne"
+      ]
+    },
+    {
+      "id_pic": "image_10070",
+      "IndexJantzen": [
+        "brique",
+        "porte-fer"
+      ]
+    }
+  ]
+}

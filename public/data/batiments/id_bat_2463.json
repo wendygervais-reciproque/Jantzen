@@ -27,17 +27,17 @@
   "WPfr": null,
   "image_ref": "Muette-Chaussee-4_16_§1",
   "terme_jantzen_bat": [
-    "lucarne",
-    "façade-d'angle",
-    "façade",
-    "décor",
-    "tour",
-    "dome",
-    "fenetre-d'angle",
-    "sculpture",
     "console",
+    "façade",
+    "lucarne",
+    "fenetre-d'angle",
+    "tour",
+    "décor",
+    "sculpture",
+    "oriel",
+    "façade-d'angle",
     "balcon",
-    "oriel"
+    "dome"
   ],
   "photos": [
     {
@@ -45,7 +45,8 @@
       "IndexJantzen": [
         "dome",
         "façade-d'angle"
-      ]
+      ],
+      "dateCapture": "2005:05:12"
     },
     {
       "id_pic": "Muette-Chaussee-4_16_§2-Rs",
@@ -53,7 +54,8 @@
         "dome",
         "façade-d'angle",
         "tour"
-      ]
+      ],
+      "dateCapture": "2008:02:19"
     },
     {
       "id_pic": "Muette-Chaussee-4_16_§3-Rs",
@@ -63,7 +65,8 @@
         "façade-d'angle",
         "sculpture",
         "tour"
-      ]
+      ],
+      "dateCapture": "2008:02:19"
     },
     {
       "id_pic": "Muette-Chaussee-4_16_§4",
@@ -72,7 +75,8 @@
         "dome",
         "fenetre-d'angle",
         "tour"
-      ]
+      ],
+      "dateCapture": "2005:05:12"
     },
     {
       "id_pic": "Muette-Chaussee-4_16_§5",
@@ -81,7 +85,8 @@
         "dome",
         "fenetre-d'angle",
         "tour"
-      ]
+      ],
+      "dateCapture": "2008:02:19"
     },
     {
       "id_pic": "Muette-Chaussee-4_16_§6",
@@ -92,14 +97,16 @@
         "lucarne",
         "sculpture",
         "tour"
-      ]
+      ],
+      "dateCapture": "2008:02:19"
     },
     {
       "id_pic": "Muette-Chaussee-4_16_§7",
       "IndexJantzen": [
         "console",
         "oriel"
-      ]
+      ],
+      "dateCapture": "2005:05:12"
     },
     {
       "id_pic": "Muette-Chaussee-4_16_§8",
@@ -107,7 +114,8 @@
         "console",
         "façade",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:05:12"
     }
   ]
 }

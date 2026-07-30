@@ -23,9 +23,9 @@
   "image_ref": "Opera-Louis-Jouvet-sq_9_§1",
   "terme_jantzen_bat": [
     "façade",
-    "porte-fer",
-    "fenetre",
     "verrière",
+    "fenetre",
+    "porte-fer",
     "marquise"
   ],
   "photos": [
@@ -34,13 +34,15 @@
       "IndexJantzen": [
         "façade",
         "verrière"
-      ]
+      ],
+      "dateCapture": "2005:07:14"
     },
     {
       "id_pic": "Opera-Louis-Jouvet-sq_9_§2",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2005:07:14"
     },
     {
       "id_pic": "Opera-Louis-Jouvet-sq_9_§3",
@@ -48,7 +50,8 @@
         "fenetre",
         "marquise",
         "verrière"
-      ]
+      ],
+      "dateCapture": "2005:07:14"
     },
     {
       "id_pic": "Opera-Louis-Jouvet-sq_9_§4",
@@ -56,13 +59,15 @@
         "fenetre",
         "marquise",
         "verrière"
-      ]
+      ],
+      "dateCapture": "2004:09:04"
     },
     {
       "id_pic": "Opera-Louis-Jouvet-sq_9_§5",
       "IndexJantzen": [
         "porte-fer"
-      ]
+      ],
+      "dateCapture": "2005:07:14"
     }
   ]
 }

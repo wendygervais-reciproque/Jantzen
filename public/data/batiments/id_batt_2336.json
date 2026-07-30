@@ -1,0 +1,79 @@
+{
+  "id_bat": 2336,
+  "libelle": "36 rue Geoffroy-Saint-Hilaire",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": [
+    "1870-1894"
+  ],
+  "adresse": {
+    "affichage": "36 rue Geoffroy-Saint-Hilaire",
+    "numero": "36",
+    "voie": "rue Geoffroy-Saint-Hilaire"
+  },
+  "arrondissement": 5,
+  "coordonnees": {
+    "latitude": "48.841491",
+    "longitude": "2.355989"
+  },
+  "id_pss": 8158,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 5245,
+  "terme_jantzen_bat": [
+    "loggia",
+    "lucarne",
+    "façade",
+    "colonne",
+    "toiture",
+    "fenetre",
+    "porte-bois"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_5245",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_5246",
+      "IndexJantzen": [
+        "colonne",
+        "loggia"
+      ]
+    },
+    {
+      "id_pic": "image_5247",
+      "IndexJantzen": [
+        "porte-bois"
+      ]
+    },
+    {
+      "id_pic": "image_5248",
+      "IndexJantzen": [
+        "porte-bois"
+      ]
+    },
+    {
+      "id_pic": "image_5249",
+      "IndexJantzen": [
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_5250",
+      "IndexJantzen": [
+        "lucarne",
+        "toiture"
+      ]
+    },
+    {
+      "id_pic": "image_5251",
+      "IndexJantzen": [
+        "lucarne"
+      ]
+    }
+  ]
+}

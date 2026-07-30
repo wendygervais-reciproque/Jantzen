@@ -28,13 +28,13 @@
   "image_ref": "Reaumur-121_2_§1",
   "terme_jantzen_bat": [
     "façade",
-    "façade-d'angle",
-    "métal",
     "garde-corps",
+    "oriel",
     "fenetre",
-    "dome",
+    "métal",
+    "façade-d'angle",
     "colonne",
-    "oriel"
+    "dome"
   ],
   "photos": [
     {
@@ -42,53 +42,61 @@
       "IndexJantzen": [
         "dome",
         "façade-d'angle"
-      ]
+      ],
+      "dateCapture": "2004:08:21"
     },
     {
       "id_pic": "Reaumur-121_2_§10",
       "IndexJantzen": [
         "métal",
         "oriel"
-      ]
+      ],
+      "dateCapture": "2004:08:21"
     },
     {
       "id_pic": "Reaumur-121_2_§11",
       "IndexJantzen": [
         "métal",
         "oriel"
-      ]
+      ],
+      "dateCapture": "2004:07:05"
     },
     {
       "id_pic": "Reaumur-121_2_§13",
       "IndexJantzen": [
         "métal",
         "oriel"
-      ]
+      ],
+      "dateCapture": "2004:08:21"
     },
     {
       "id_pic": "Reaumur-121_2_§2",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "dateCapture": "2004:07:05"
     },
     {
       "id_pic": "Reaumur-121_2_§3",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2004:07:05"
     },
     {
       "id_pic": "Reaumur-121_2_§4",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2004:04:25"
     },
     {
       "id_pic": "Reaumur-121_2_§5",
       "IndexJantzen": [
         "colonne",
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2004:07:05"
     },
     {
       "id_pic": "Reaumur-121_2_§6",
@@ -96,7 +104,8 @@
         "colonne",
         "fenetre",
         "garde-corps"
-      ]
+      ],
+      "dateCapture": "2004:07:05"
     },
     {
       "id_pic": "Reaumur-121_2_§7",
@@ -104,7 +113,8 @@
         "dome",
         "façade-d'angle",
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2004:04:25"
     },
     {
       "id_pic": "Reaumur-121_2_§8",
@@ -112,7 +122,8 @@
         "dome",
         "façade-d'angle",
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2004:07:05"
     },
     {
       "id_pic": "Reaumur-121_2_§9",
@@ -120,7 +131,8 @@
         "dome",
         "façade-d'angle",
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2004:07:05"
     }
   ]
 }

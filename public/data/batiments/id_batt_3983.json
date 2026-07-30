@@ -1,0 +1,51 @@
+{
+  "id_bat": 3983,
+  "libelle": "place de l'Odéon",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": "1782",
+  "periode": [
+    "1760-1829"
+  ],
+  "adresse": {
+    "affichage": "place de l'Odéon",
+    "numero": null,
+    "voie": "place de l'Odéon"
+  },
+  "arrondissement": 6,
+  "coordonnees": {
+    "latitude": "48.8497",
+    "longitude": "2.33861"
+  },
+  "id_pss": 3967,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 10574,
+  "terme_jantzen_bat": [
+    "panoramique",
+    "toiture",
+    "façade"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_10574",
+      "IndexJantzen": [
+        "façade",
+        "panoramique"
+      ]
+    },
+    {
+      "id_pic": "image_10575",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_10576",
+      "IndexJantzen": [
+        "façade",
+        "toiture"
+      ]
+    }
+  ]
+}

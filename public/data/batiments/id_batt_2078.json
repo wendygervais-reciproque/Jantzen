@@ -1,0 +1,121 @@
+{
+  "id_bat": 2078,
+  "libelle": "3 rue de l'Abbaye",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 465,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1586",
+  "periode": [
+    "1530-1589"
+  ],
+  "adresse": {
+    "affichage": "3 rue de l'Abbaye",
+    "numero": "3",
+    "voie": "rue de l'Abbaye"
+  },
+  "arrondissement": 6,
+  "coordonnees": {
+    "latitude": "48.853928",
+    "longitude": "2.335529"
+  },
+  "id_pss": 37967,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 3,
+  "terme_jantzen_bat": [
+    "façade",
+    "fronton",
+    "lucarne",
+    "brique"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_3",
+      "IndexJantzen": [
+        "brique",
+        "fronton",
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_4",
+      "IndexJantzen": [
+        "brique",
+        "fronton",
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_5",
+      "IndexJantzen": [
+        "brique",
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_6",
+      "IndexJantzen": [
+        "brique",
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_7",
+      "IndexJantzen": [
+        "brique",
+        "façade",
+        "fronton"
+      ]
+    },
+    {
+      "id_pic": "image_8",
+      "IndexJantzen": [
+        "brique",
+        "façade",
+        "fronton"
+      ]
+    },
+    {
+      "id_pic": "image_9",
+      "IndexJantzen": [
+        "brique",
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_10",
+      "IndexJantzen": [
+        "brique",
+        "fronton",
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_11",
+      "IndexJantzen": [
+        "brique",
+        "fronton",
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_12",
+      "IndexJantzen": [
+        "brique",
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_13",
+      "IndexJantzen": [
+        "brique",
+        "fronton",
+        "lucarne"
+      ]
+    }
+  ]
+}

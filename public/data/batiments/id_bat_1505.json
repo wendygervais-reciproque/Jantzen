@@ -22,16 +22,16 @@
   "WPfr": null,
   "image_ref": "Guynemer_2_6_§1",
   "terme_jantzen_bat": [
-    "lucarne",
-    "façade-d'angle",
     "façade",
-    "fronton",
-    "porte-fer",
+    "garde-corps",
+    "lucarne",
     "brique",
-    "fenetre",
+    "fronton",
     "décor",
+    "fenetre",
     "sculpture",
-    "garde-corps"
+    "porte-fer",
+    "façade-d'angle"
   ],
   "photos": [
     {
@@ -39,14 +39,16 @@
       "IndexJantzen": [
         "brique",
         "façade-d'angle"
-      ]
+      ],
+      "dateCapture": "2009:09:27"
     },
     {
       "id_pic": "Guynemer_2_6_§3",
       "IndexJantzen": [
         "brique",
         "façade"
-      ]
+      ],
+      "dateCapture": "2009:09:27"
     },
     {
       "id_pic": "Guynemer_2_6_§4",
@@ -55,14 +57,16 @@
         "décor",
         "fronton",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2009:09:27"
     },
     {
       "id_pic": "Guynemer_2_6_§5",
       "IndexJantzen": [
         "brique",
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2003:08:26"
     },
     {
       "id_pic": "Guynemer_2_6_§6",
@@ -71,27 +75,31 @@
         "fenetre",
         "garde-corps",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2009:09:27"
     },
     {
       "id_pic": "Guynemer_2_6_§7",
       "IndexJantzen": [
         "brique",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2009:09:27"
     },
     {
       "id_pic": "Guynemer_2_6_§8",
       "IndexJantzen": [
         "brique",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2009:09:27"
     },
     {
       "id_pic": "Guynemer_2_6_10Nx_DxO",
       "IndexJantzen": [
         "porte-fer"
-      ]
+      ],
+      "dateCapture": "2009:09:27"
     }
   ]
 }

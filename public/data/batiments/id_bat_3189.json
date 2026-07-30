@@ -27,13 +27,13 @@
   "WPfr": null,
   "image_ref": "Kleber-60_16_§1",
   "terme_jantzen_bat": [
-    "façade-d'angle",
     "façade",
+    "console",
     "brique",
-    "fenetre",
     "décor",
     "sculpture",
-    "console",
+    "fenetre",
+    "façade-d'angle",
     "balcon"
   ],
   "photos": [
@@ -42,14 +42,16 @@
       "IndexJantzen": [
         "brique",
         "façade-d'angle"
-      ]
+      ],
+      "dateCapture": "2005:03:19"
     },
     {
       "id_pic": "Kleber-60_16_§2",
       "IndexJantzen": [
         "brique",
         "façade"
-      ]
+      ],
+      "dateCapture": "2005:03:25"
     },
     {
       "id_pic": "Kleber-60_16_§3",
@@ -58,7 +60,8 @@
         "décor",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:03:19"
     },
     {
       "id_pic": "Kleber-60_16_§4",
@@ -68,7 +71,8 @@
         "décor",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:03:25"
     },
     {
       "id_pic": "Kleber-60_16_§5",
@@ -76,7 +80,8 @@
         "brique",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2004:10:25"
     },
     {
       "id_pic": "Kleber-60_16_§6",
@@ -85,7 +90,8 @@
         "décor",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:03:19"
     },
     {
       "id_pic": "Kleber-60_16_§7",
@@ -93,7 +99,8 @@
         "brique",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2004:10:25"
     },
     {
       "id_pic": "Kleber-60_16_§8",
@@ -101,14 +108,16 @@
         "brique",
         "décor",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2004:10:25"
     },
     {
       "id_pic": "Kleber-60_16_--1912D",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:03:19"
     }
   ]
 }

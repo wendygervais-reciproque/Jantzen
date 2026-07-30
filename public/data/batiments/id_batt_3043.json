@@ -1,0 +1,46 @@
+{
+  "id_bat": 3043,
+  "libelle": "57 boulevard des Batignolles",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 420,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": null,
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "57 boulevard des Batignolles",
+    "numero": "57",
+    "voie": "boulevard des Batignolles"
+  },
+  "arrondissement": 8,
+  "coordonnees": {
+    "latitude": "48.881411",
+    "longitude": "2.31805"
+  },
+  "id_pss": 41649,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 859,
+  "terme_jantzen_bat": [
+    "façade"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_859",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_860",
+      "IndexJantzen": [
+        "façade"
+      ]
+    }
+  ]
+}

@@ -27,17 +27,17 @@
   "WPfr": null,
   "image_ref": "Campagne-Premiere-31_14_§1",
   "terme_jantzen_bat": [
-    "céramique",
-    "garde-corps",
-    "porte-fer",
-    "fenetre",
     "oeil-de-boeuf",
+    "verrière",
+    "garde-corps",
+    "oriel",
     "décor",
     "clé",
-    "balcon",
-    "verrière",
+    "fenetre",
+    "porte-fer",
     "pilastre",
-    "oriel"
+    "balcon",
+    "céramique"
   ],
   "photos": [
     {
@@ -46,7 +46,8 @@
         "céramique",
         "décor",
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2005:06:13"
     },
     {
       "id_pic": "Campagne-Premiere-31_14_§10",
@@ -55,7 +56,8 @@
         "fenetre",
         "oeil-de-boeuf",
         "porte-fer"
-      ]
+      ],
+      "dateCapture": "2005:06:20"
     },
     {
       "id_pic": "Campagne-Premiere-31_14_§11",
@@ -63,7 +65,8 @@
         "céramique",
         "décor",
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2005:06:13"
     },
     {
       "id_pic": "Campagne-Premiere-31_14_§12",
@@ -72,7 +75,8 @@
         "céramique",
         "décor",
         "oeil-de-boeuf"
-      ]
+      ],
+      "dateCapture": "2005:06:13"
     },
     {
       "id_pic": "Campagne-Premiere-31_14_§2",
@@ -81,7 +85,8 @@
         "décor",
         "fenetre",
         "verrière"
-      ]
+      ],
+      "dateCapture": "2005:06:13"
     },
     {
       "id_pic": "Campagne-Premiere-31_14_§3",
@@ -89,7 +94,8 @@
         "céramique",
         "décor",
         "oriel"
-      ]
+      ],
+      "dateCapture": "2005:06:13"
     },
     {
       "id_pic": "Campagne-Premiere-31_14_§4",
@@ -97,7 +103,8 @@
         "céramique",
         "garde-corps",
         "verrière"
-      ]
+      ],
+      "dateCapture": "2007:04:23"
     },
     {
       "id_pic": "Campagne-Premiere-31_14_§5",
@@ -106,7 +113,8 @@
         "céramique",
         "décor",
         "verrière"
-      ]
+      ],
+      "dateCapture": "2007:04:23"
     },
     {
       "id_pic": "Campagne-Premiere-31_14_§6",
@@ -114,14 +122,16 @@
         "balcon",
         "céramique",
         "verrière"
-      ]
+      ],
+      "dateCapture": "2007:04:23"
     },
     {
       "id_pic": "Campagne-Premiere-31_14_§7",
       "IndexJantzen": [
         "céramique",
         "décor"
-      ]
+      ],
+      "dateCapture": "2005:06:13"
     },
     {
       "id_pic": "Campagne-Premiere-31_14_§8",
@@ -129,14 +139,16 @@
         "céramique",
         "décor",
         "pilastre"
-      ]
+      ],
+      "dateCapture": "2005:06:13"
     },
     {
       "id_pic": "Campagne-Premiere-31_14_§9",
       "IndexJantzen": [
         "céramique",
         "décor"
-      ]
+      ],
+      "dateCapture": "2005:06:13"
     }
   ]
 }

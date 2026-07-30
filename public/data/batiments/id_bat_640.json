@@ -27,62 +27,69 @@
   "WPfr": null,
   "image_ref": "Armorique-12_15_§1",
   "terme_jantzen_bat": [
-    "lucarne",
     "façade",
-    "fenetre",
-    "sculpture",
     "console",
-    "balcon",
-    "porte-bois",
     "verrière",
-    "oriel"
+    "lucarne",
+    "oriel",
+    "sculpture",
+    "fenetre",
+    "balcon",
+    "porte-bois"
   ],
   "photos": [
     {
       "id_pic": "Armorique-12_15_§1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "dateCapture": "2006:09:21"
     },
     {
       "id_pic": "Armorique-12_15_§10",
       "IndexJantzen": [
         "porte-bois"
-      ]
+      ],
+      "dateCapture": "2006:09:21"
     },
     {
       "id_pic": "Armorique-12_15_§2",
       "IndexJantzen": [
         "fenetre",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2006:09:21"
     },
     {
       "id_pic": "Armorique-12_15_§3",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2004:07:13"
     },
     {
       "id_pic": "Armorique-12_15_§4",
       "IndexJantzen": [
         "lucarne",
         "verrière"
-      ]
+      ],
+      "dateCapture": "2006:09:21"
     },
     {
       "id_pic": "Armorique-12_15_§5",
       "IndexJantzen": [
         "lucarne",
         "verrière"
-      ]
+      ],
+      "dateCapture": "2006:09:21"
     },
     {
       "id_pic": "Armorique-12_15_§6",
       "IndexJantzen": [
         "balcon",
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2004:07:13"
     },
     {
       "id_pic": "Armorique-12_15_§7",
@@ -90,21 +97,24 @@
         "console",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:09:21"
     },
     {
       "id_pic": "Armorique-12_15_§8",
       "IndexJantzen": [
         "console",
         "oriel"
-      ]
+      ],
+      "dateCapture": "2006:09:21"
     },
     {
       "id_pic": "Armorique-12_15_§9",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:09:21"
     }
   ]
 }

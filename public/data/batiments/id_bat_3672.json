@@ -27,13 +27,13 @@
   "WPfr": null,
   "image_ref": "Traversiere-80_12_§1",
   "terme_jantzen_bat": [
-    "façade-d'angle",
-    "fenetre",
-    "décor",
-    "dome",
     "fenetre-d'angle",
+    "décor",
     "sculpture",
-    "balcon"
+    "fenetre",
+    "façade-d'angle",
+    "balcon",
+    "dome"
   ],
   "photos": [
     {
@@ -41,7 +41,8 @@
       "IndexJantzen": [
         "dome",
         "façade-d'angle"
-      ]
+      ],
+      "dateCapture": "2008:07:27"
     },
     {
       "id_pic": "Traversiere-80_12_§2",
@@ -49,14 +50,16 @@
         "balcon",
         "dome",
         "fenetre-d'angle"
-      ]
+      ],
+      "dateCapture": "2008:07:27"
     },
     {
       "id_pic": "Traversiere-80_12_§3",
       "IndexJantzen": [
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2008:07:27"
     },
     {
       "id_pic": "Traversiere-80_12_§4",
@@ -64,14 +67,16 @@
         "décor",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:08:31"
     },
     {
       "id_pic": "Traversiere-80_12_§5",
       "IndexJantzen": [
         "balcon",
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2006:08:31"
     }
   ]
 }

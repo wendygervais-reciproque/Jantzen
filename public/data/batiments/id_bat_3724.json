@@ -22,21 +22,22 @@
   "WPfr": null,
   "image_ref": "Breteuil-86_15_§1",
   "terme_jantzen_bat": [
-    "lucarne",
     "façade",
-    "fenetre",
+    "console",
+    "garde-corps",
+    "loggia",
+    "lucarne",
     "décor",
     "sculpture",
-    "console",
-    "loggia",
-    "garde-corps"
+    "fenetre"
   ],
   "photos": [
     {
       "id_pic": "Breteuil-86_15_§1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "dateCapture": "2008:03:15"
     },
     {
       "id_pic": "Breteuil-86_15_§10",
@@ -44,34 +45,39 @@
         "fenetre",
         "garde-corps",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2008:05:16"
     },
     {
       "id_pic": "Breteuil-86_15_§12",
       "IndexJantzen": [
         "console",
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2008:05:16"
     },
     {
       "id_pic": "Breteuil-86_15_§13",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2008:05:16"
     },
     {
       "id_pic": "Breteuil-86_15_§14",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2008:03:15"
     },
     {
       "id_pic": "Breteuil-86_15_§2",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2008:03:15"
     },
     {
       "id_pic": "Breteuil-86_15_§3_Dx",
@@ -80,39 +86,45 @@
         "façade",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2008:05:16"
     },
     {
       "id_pic": "Breteuil-86_15_§4",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2008:05:16"
     },
     {
       "id_pic": "Breteuil-86_15_§5",
       "IndexJantzen": [
         "loggia",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2008:05:16"
     },
     {
       "id_pic": "Breteuil-86_15_§6",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2008:05:16"
     },
     {
       "id_pic": "Breteuil-86_15_§7",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2006:04:04"
     },
     {
       "id_pic": "Breteuil-86_15_§8",
       "IndexJantzen": [
         "loggia",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2006:04:04"
     },
     {
       "id_pic": "Breteuil-86_15_§9",
@@ -121,7 +133,8 @@
         "fenetre",
         "garde-corps",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2008:03:15"
     }
   ]
 }

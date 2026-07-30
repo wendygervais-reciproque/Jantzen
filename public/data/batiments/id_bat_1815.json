@@ -24,13 +24,13 @@
   "image_ref": "Pavee-24_4_§1",
   "terme_jantzen_bat": [
     "façade",
-    "fronton",
-    "fenetre",
-    "fenetre-d'angle",
-    "sculpture",
-    "clé",
     "console",
+    "fenetre-d'angle",
     "tourelle",
+    "fronton",
+    "sculpture",
+    "fenetre",
+    "clé",
     "pilastre"
   ],
   "photos": [
@@ -40,7 +40,8 @@
         "façade",
         "fronton",
         "pilastre"
-      ]
+      ],
+      "dateCapture": "2006:04:22"
     },
     {
       "id_pic": "Pavee-24_4_§2",
@@ -48,48 +49,55 @@
         "fenetre",
         "fronton",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:04:22"
     },
     {
       "id_pic": "Pavee-24_4_§3",
       "IndexJantzen": [
         "tourelle"
-      ]
+      ],
+      "dateCapture": "2005:08:03"
     },
     {
       "id_pic": "Pavee-24_4_§4",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:04:22"
     },
     {
       "id_pic": "Pavee-24_4_§5",
       "IndexJantzen": [
         "fenetre-d'angle",
         "tourelle"
-      ]
+      ],
+      "dateCapture": "2005:08:03"
     },
     {
       "id_pic": "Pavee-24_4_§6",
       "IndexJantzen": [
         "fenetre-d'angle",
         "tourelle"
-      ]
+      ],
+      "dateCapture": "2005:08:03"
     },
     {
       "id_pic": "Pavee-24_4_§7",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:08:03"
     },
     {
       "id_pic": "Pavee-24_4_§8",
       "IndexJantzen": [
         "clé",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:04:22"
     }
   ]
 }

@@ -1,0 +1,50 @@
+{
+  "id_bat": 271,
+  "libelle": "1 square de La Tour-Maubourg",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 646,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": null,
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "1 square de La Tour-Maubourg",
+    "numero": "1",
+    "voie": "square de La Tour-Maubourg"
+  },
+  "arrondissement": 7,
+  "coordonnees": {
+    "latitude": "48.85783",
+    "longitude": "2.308641"
+  },
+  "id_pss": 102800,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 15366,
+  "terme_jantzen_bat": [
+    "sculpture",
+    "console",
+    "fenetre"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_15366",
+      "IndexJantzen": [
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_15367",
+      "IndexJantzen": [
+        "console",
+        "fenetre",
+        "sculpture"
+      ]
+    }
+  ]
+}

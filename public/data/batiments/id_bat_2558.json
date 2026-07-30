@@ -27,14 +27,14 @@
   "WPfr": null,
   "image_ref": "President-Wilson-40_16_§1",
   "terme_jantzen_bat": [
-    "lucarne",
     "garde-corps",
-    "fenetre",
-    "sculpture",
-    "pignon",
-    "balcon",
+    "lucarne",
     "porte-fer-hall",
-    "oriel"
+    "oriel",
+    "sculpture",
+    "fenetre",
+    "balcon",
+    "pignon"
   ],
   "photos": [
     {
@@ -42,67 +42,77 @@
       "IndexJantzen": [
         "fenetre",
         "oriel"
-      ]
+      ],
+      "dateCapture": "2006:06:30"
     },
     {
       "id_pic": "President-Wilson-40_16_§10",
       "IndexJantzen": [
         "porte-fer-hall"
-      ]
+      ],
+      "dateCapture": "2004:06:05"
     },
     {
       "id_pic": "President-Wilson-40_16_§11",
       "IndexJantzen": [
         "porte-fer-hall"
-      ]
+      ],
+      "dateCapture": "2004:06:05"
     },
     {
       "id_pic": "President-Wilson-40_16_§12",
       "IndexJantzen": [
         "porte-fer-hall"
-      ]
+      ],
+      "dateCapture": "2004:06:05"
     },
     {
       "id_pic": "President-Wilson-40_16_§3",
       "IndexJantzen": [
         "fenetre",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2008:05:08"
     },
     {
       "id_pic": "President-Wilson-40_16_§4",
       "IndexJantzen": [
         "fenetre",
         "oriel"
-      ]
+      ],
+      "dateCapture": "2006:06:30"
     },
     {
       "id_pic": "President-Wilson-40_16_§5",
       "IndexJantzen": [
         "fenetre",
         "oriel"
-      ]
+      ],
+      "dateCapture": "2006:06:30"
     },
     {
       "id_pic": "President-Wilson-40_16_§6",
       "IndexJantzen": [
         "lucarne",
         "pignon"
-      ]
+      ],
+      "dateCapture": "2004:03:17"
     },
     {
       "id_pic": "President-Wilson-40_16_§7",
       "IndexJantzen": [
         "lucarne",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2008:05:08"
     },
     {
       "id_pic": "President-Wilson-40_16_§9",
       "IndexJantzen": [
         "balcon",
         "garde-corps"
-      ]
+      ],
+      "dateCapture": "2004:06:05"
     }
   ]
 }

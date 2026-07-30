@@ -27,10 +27,10 @@
   "WPfr": null,
   "image_ref": "Convention-154_15_§1",
   "terme_jantzen_bat": [
-    "lucarne",
     "façade",
-    "fronton",
+    "lucarne",
     "brique",
+    "fronton",
     "fenetre",
     "pignon"
   ],
@@ -39,13 +39,15 @@
       "id_pic": "Convention-154_15_§1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "dateCapture": null
     },
     {
       "id_pic": "Convention-154_15_§2",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "dateCapture": "2009:03:16"
     },
     {
       "id_pic": "Convention-154_15_§3",
@@ -53,7 +55,8 @@
         "brique",
         "façade",
         "fronton"
-      ]
+      ],
+      "dateCapture": "2009:03:16"
     },
     {
       "id_pic": "Convention-154_15_§4",
@@ -61,7 +64,8 @@
         "brique",
         "façade",
         "fronton"
-      ]
+      ],
+      "dateCapture": "2006:04:17"
     },
     {
       "id_pic": "Convention-154_15_§5",
@@ -71,7 +75,8 @@
         "fronton",
         "lucarne",
         "pignon"
-      ]
+      ],
+      "dateCapture": "2009:03:16"
     },
     {
       "id_pic": "Convention-154_15_§6",
@@ -80,7 +85,8 @@
         "fenetre",
         "fronton",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2006:04:17"
     }
   ]
 }

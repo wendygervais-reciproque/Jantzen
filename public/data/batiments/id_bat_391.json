@@ -27,39 +27,43 @@
   "WPfr": null,
   "image_ref": "Ternes-Av-104_17_§1",
   "terme_jantzen_bat": [
-    "porte-fer",
-    "fenetre",
+    "console",
     "sculpture",
     "clé",
-    "console"
+    "fenetre",
+    "porte-fer"
   ],
   "photos": [
     {
       "id_pic": "Ternes-Av-104_17_§1",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2007:02:03"
     },
     {
       "id_pic": "Ternes-Av-104_17_§2",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2007:02:03"
     },
     {
       "id_pic": "Ternes-Av-104_17_§4",
       "IndexJantzen": [
         "clé",
         "porte-fer"
-      ]
+      ],
+      "dateCapture": null
     },
     {
       "id_pic": "Ternes-Av-104_17_§6",
       "IndexJantzen": [
         "clé",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2007:02:03"
     }
   ]
 }

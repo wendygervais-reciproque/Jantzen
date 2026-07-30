@@ -28,9 +28,9 @@
   "image_ref": "Hopital-bd-151_13_§1",
   "terme_jantzen_bat": [
     "brique",
-    "tourelle",
     "fronton",
-    "sculpture"
+    "sculpture",
+    "tourelle"
   ],
   "photos": [
     {
@@ -38,14 +38,16 @@
       "IndexJantzen": [
         "fronton",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:06:14"
     },
     {
       "id_pic": "Hopital-bd-151_13_§2",
       "IndexJantzen": [
         "brique",
         "tourelle"
-      ]
+      ],
+      "dateCapture": "2005:06:14"
     }
   ]
 }

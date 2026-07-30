@@ -27,13 +27,13 @@
   "WPfr": null,
   "image_ref": "St-Martin-bd-20_10_§1",
   "terme_jantzen_bat": [
-    "lucarne",
     "façade",
-    "fenetre",
+    "console",
+    "lucarne",
+    "cariatide",
     "décor",
     "sculpture",
-    "console",
-    "cariatide"
+    "fenetre"
   ],
   "photos": [
     {
@@ -42,7 +42,8 @@
         "décor",
         "façade",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:05:11"
     },
     {
       "id_pic": "St-Martin-bd-20_10_§2",
@@ -50,7 +51,8 @@
         "décor",
         "façade",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:05:11"
     },
     {
       "id_pic": "St-Martin-bd-20_10_§3",
@@ -58,14 +60,16 @@
         "décor",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:05:11"
     },
     {
       "id_pic": "St-Martin-bd-20_10_§4",
       "IndexJantzen": [
         "lucarne",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:08:28"
     },
     {
       "id_pic": "St-Martin-bd-20_10_§5",
@@ -73,7 +77,8 @@
         "cariatide",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:05:11"
     },
     {
       "id_pic": "St-Martin-bd-20_10_§6",
@@ -81,7 +86,8 @@
         "cariatide",
         "console",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:09:02"
     },
     {
       "id_pic": "St-Martin-bd-20_10_§7",
@@ -89,7 +95,8 @@
         "cariatide",
         "console",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:08:28"
     }
   ]
 }

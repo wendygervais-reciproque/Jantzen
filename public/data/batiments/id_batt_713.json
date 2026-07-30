@@ -1,0 +1,82 @@
+{
+  "id_bat": 713,
+  "libelle": "121 rue de Turenne",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 608,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1904",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "121 rue de Turenne",
+    "numero": "121",
+    "voie": "rue de Turenne"
+  },
+  "arrondissement": 3,
+  "coordonnees": {
+    "latitude": "48.863651",
+    "longitude": "2.364571"
+  },
+  "id_pss": 39395,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 15595,
+  "terme_jantzen_bat": [
+    "oriel",
+    "lucarne",
+    "clé",
+    "sculpture",
+    "fenetre",
+    "porte-fer"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_15595",
+      "IndexJantzen": [
+        "fenetre",
+        "oriel"
+      ]
+    },
+    {
+      "id_pic": "image_15596",
+      "IndexJantzen": [
+        "fenetre",
+        "oriel",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_15597",
+      "IndexJantzen": [
+        "fenetre",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_15598",
+      "IndexJantzen": [
+        "lucarne",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_15599",
+      "IndexJantzen": [
+        "lucarne",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_15600",
+      "IndexJantzen": [
+        "clé",
+        "porte-fer"
+      ]
+    }
+  ]
+}

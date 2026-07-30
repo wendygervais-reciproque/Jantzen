@@ -1,0 +1,66 @@
+{
+  "id_bat": 3490,
+  "libelle": "73 avenue des Gobelins",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 15,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1869",
+  "periode": [
+    "1850-1869"
+  ],
+  "adresse": {
+    "affichage": "73 avenue des Gobelins",
+    "numero": "73",
+    "voie": "avenue des Gobelins"
+  },
+  "arrondissement": 13,
+  "coordonnees": {
+    "latitude": "48.833388",
+    "longitude": "2.354535"
+  },
+  "id_pss": 12262,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 5379,
+  "terme_jantzen_bat": [
+    "loggia",
+    "sculpture"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_5379",
+      "IndexJantzen": [
+        "loggia",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_5380",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_5381",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_5382",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_5383",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    }
+  ]
+}

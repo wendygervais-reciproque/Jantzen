@@ -27,11 +27,11 @@
   "WPfr": null,
   "image_ref": "Renaudes-26_17_§1",
   "terme_jantzen_bat": [
-    "façade-d'angle",
-    "fenetre",
-    "dome",
     "fenetre-d'angle",
-    "pilastre"
+    "fenetre",
+    "façade-d'angle",
+    "pilastre",
+    "dome"
   ],
   "photos": [
     {
@@ -41,35 +41,40 @@
         "façade-d'angle",
         "fenetre",
         "pilastre"
-      ]
+      ],
+      "dateCapture": "2005:03:25"
     },
     {
       "id_pic": "Renaudes-26_17_§2_Rx",
       "IndexJantzen": [
         "dome",
         "fenetre-d'angle"
-      ]
+      ],
+      "dateCapture": "2014:02:18"
     },
     {
       "id_pic": "Renaudes-26_17_§3",
       "IndexJantzen": [
         "dome",
         "fenetre-d'angle"
-      ]
+      ],
+      "dateCapture": "2005:03:25"
     },
     {
       "id_pic": "Renaudes-26_17_§4",
       "IndexJantzen": [
         "dome",
         "fenetre-d'angle"
-      ]
+      ],
+      "dateCapture": "2005:03:25"
     },
     {
       "id_pic": "Renaudes-26_17_§5",
       "IndexJantzen": [
         "fenetre-d'angle",
         "pilastre"
-      ]
+      ],
+      "dateCapture": "2004:09:02"
     }
   ]
 }

@@ -27,24 +27,26 @@
   "WPfr": null,
   "image_ref": "Caire-Pl-2_2_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "console",
     "façade",
-    "sculpture"
+    "sculpture",
+    "fenetre",
+    "console"
   ],
   "photos": [
     {
       "id_pic": "Caire-Pl-2_2_§1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "dateCapture": "2004:08:31"
     },
     {
       "id_pic": "Caire-Pl-2_2_§3",
       "IndexJantzen": [
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2004:08:31"
     },
     {
       "id_pic": "Caire-Pl-2_2_§4",
@@ -52,14 +54,16 @@
         "console",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2004:08:31"
     },
     {
       "id_pic": "Caire-Pl-2_2_§5",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2004:08:31"
     }
   ]
 }

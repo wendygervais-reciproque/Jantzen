@@ -27,18 +27,18 @@
   "WPfr": null,
   "image_ref": "Tilsitt-7_17_§1",
   "terme_jantzen_bat": [
-    "lucarne",
     "façade",
-    "toiture",
-    "fronton",
-    "porte-fer",
-    "fenetre",
+    "lucarne",
+    "cariatide",
     "décor",
     "sculpture",
     "clé",
+    "fenetre",
+    "porte-fer",
+    "fronton",
+    "pilastre",
     "atlante",
-    "cariatide",
-    "pilastre"
+    "toiture"
   ],
   "photos": [
     {
@@ -48,7 +48,8 @@
         "fenetre",
         "porte-fer",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2010:06:05"
     },
     {
       "id_pic": "Tilsitt-7_17_§2",
@@ -56,20 +57,23 @@
         "fenetre",
         "porte-fer",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2010:06:05"
     },
     {
       "id_pic": "Tilsitt-7_17_§4",
       "IndexJantzen": [
         "porte-fer"
-      ]
+      ],
+      "dateCapture": "2006:07:01"
     },
     {
       "id_pic": "Tilsitt-7_17_§5",
       "IndexJantzen": [
         "clé",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:07:01"
     },
     {
       "id_pic": "Tilsitt-7_17_§6",
@@ -77,7 +81,8 @@
         "atlante",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:07:01"
     },
     {
       "id_pic": "Tilsitt-7_17_§7",
@@ -85,27 +90,31 @@
         "atlante",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:07:01"
     },
     {
       "id_pic": "Tilsitt-7_17_§8b",
       "IndexJantzen": [
         "cariatide",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2010:06:05"
     },
     {
       "id_pic": "Tilsitt-7_17_§9",
       "IndexJantzen": [
         "cariatide",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:07:01"
     },
     {
       "id_pic": "Tilsitt-7-Etoile_17_§1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "dateCapture": "2009:03:31"
     },
     {
       "id_pic": "Tilsitt-7-Etoile_17_§10",
@@ -113,40 +122,46 @@
         "fenetre",
         "lucarne",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2008:03:29"
     },
     {
       "id_pic": "Tilsitt-7-Etoile_17_§11",
       "IndexJantzen": [
         "lucarne",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2008:03:29"
     },
     {
       "id_pic": "Tilsitt-7-Etoile_17_§12",
       "IndexJantzen": [
         "lucarne",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:09:09"
     },
     {
       "id_pic": "Tilsitt-7-Etoile_17_§2",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "dateCapture": "2009:03:31"
     },
     {
       "id_pic": "Tilsitt-7-Etoile_17_§3",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "dateCapture": "2009:03:31"
     },
     {
       "id_pic": "Tilsitt-7-Etoile_17_§4",
       "IndexJantzen": [
         "fenetre",
         "pilastre"
-      ]
+      ],
+      "dateCapture": "2009:03:31"
     },
     {
       "id_pic": "Tilsitt-7-Etoile_17_§5",
@@ -154,13 +169,15 @@
         "fenetre",
         "lucarne",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:09:09"
     },
     {
       "id_pic": "Tilsitt-7-Etoile_17_§6",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "dateCapture": "2009:03:31"
     },
     {
       "id_pic": "Tilsitt-7-Etoile_17_§8",
@@ -168,7 +185,8 @@
         "fronton",
         "lucarne",
         "toiture"
-      ]
+      ],
+      "dateCapture": "2009:03:31"
     },
     {
       "id_pic": "Tilsitt-7-Etoile_17_§9",
@@ -176,7 +194,8 @@
         "fenetre",
         "lucarne",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2009:03:31"
     }
   ]
 }

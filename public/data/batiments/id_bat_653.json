@@ -22,38 +22,42 @@
   "WPfr": null,
   "image_ref": "Lions-St-Paul-12_4_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "façade",
-    "porte-bois",
-    "fronton"
+    "fronton",
+    "fenetre",
+    "porte-bois"
   ],
   "photos": [
     {
       "id_pic": "Lions-St-Paul-12_4_§1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "dateCapture": "2004:09:08"
     },
     {
       "id_pic": "Lions-St-Paul-12_4_§2",
       "IndexJantzen": [
         "fenetre",
         "fronton"
-      ]
+      ],
+      "dateCapture": "2004:09:07"
     },
     {
       "id_pic": "Lions-St-Paul-12_4_§3",
       "IndexJantzen": [
         "fenetre",
         "fronton"
-      ]
+      ],
+      "dateCapture": "2004:09:07"
     },
     {
       "id_pic": "Lions-St-Paul-12_4_§4",
       "IndexJantzen": [
         "fronton",
         "porte-bois"
-      ]
+      ],
+      "dateCapture": "2004:09:08"
     }
   ]
 }

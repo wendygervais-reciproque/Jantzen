@@ -1,0 +1,46 @@
+{
+  "id_bat": 2698,
+  "libelle": "44 rue Vivienne",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": [
+    "1830-1849"
+  ],
+  "adresse": {
+    "affichage": "44 rue Vivienne",
+    "numero": "44",
+    "voie": "rue Vivienne"
+  },
+  "arrondissement": 2,
+  "coordonnees": {
+    "latitude": "48.871286",
+    "longitude": "2.341486"
+  },
+  "id_pss": 64964,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 16646,
+  "terme_jantzen_bat": [
+    "oriel",
+    "métal",
+    "fenetre"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_16646",
+      "IndexJantzen": [
+        "fenetre",
+        "métal",
+        "oriel"
+      ]
+    },
+    {
+      "id_pic": "image_16647",
+      "IndexJantzen": [
+        "métal",
+        "oriel"
+      ]
+    }
+  ]
+}

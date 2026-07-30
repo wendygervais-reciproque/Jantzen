@@ -1,0 +1,84 @@
+{
+  "id_bat": 3693,
+  "libelle": "82 rue Notre-Dame-des-Champs",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 142,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1905",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "82 rue Notre-Dame-des-Champs",
+    "numero": "82",
+    "voie": "rue Notre-Dame-des-Champs"
+  },
+  "arrondissement": 6,
+  "coordonnees": {
+    "latitude": "48.841915",
+    "longitude": "2.332095"
+  },
+  "id_pss": 65161,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 10211,
+  "terme_jantzen_bat": [
+    "cariatide",
+    "fenetre",
+    "sculpture",
+    "décor",
+    "porte-fer-hall",
+    "fenetre-d'angle"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_10211",
+      "IndexJantzen": [
+        "décor",
+        "fenetre-d'angle",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_10212",
+      "IndexJantzen": [
+        "décor",
+        "fenetre-d'angle",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_10213",
+      "IndexJantzen": [
+        "cariatide",
+        "fenetre",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_10214",
+      "IndexJantzen": [
+        "cariatide",
+        "fenetre",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_10215",
+      "IndexJantzen": [
+        "cariatide",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_10216",
+      "IndexJantzen": [
+        "porte-fer-hall"
+      ]
+    }
+  ]
+}

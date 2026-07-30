@@ -1,0 +1,63 @@
+{
+  "id_bat": 2569,
+  "libelle": "40 rue Boileau",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 594,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1908",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "40 rue Boileau",
+    "numero": "40",
+    "voie": "rue Boileau"
+  },
+  "arrondissement": 16,
+  "coordonnees": {
+    "latitude": "48.844248",
+    "longitude": "2.263466"
+  },
+  "id_pss": 12514,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 1385,
+  "terme_jantzen_bat": [
+    "oriel",
+    "décor",
+    "céramique",
+    "brique"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_1385",
+      "IndexJantzen": [
+        "brique",
+        "céramique",
+        "décor",
+        "oriel"
+      ]
+    },
+    {
+      "id_pic": "image_1386",
+      "IndexJantzen": [
+        "brique",
+        "céramique",
+        "décor",
+        "oriel"
+      ]
+    },
+    {
+      "id_pic": "image_1387",
+      "IndexJantzen": []
+    },
+    {
+      "id_pic": "image_1388",
+      "IndexJantzen": []
+    }
+  ]
+}

@@ -27,35 +27,39 @@
   "WPfr": null,
   "image_ref": "Lefebvre-bd-51_15_§1",
   "terme_jantzen_bat": [
-    "lucarne",
-    "façade-d'angle",
+    "porte-fer",
     "fenetre-d'angle",
-    "porte-fer"
+    "lucarne",
+    "façade-d'angle"
   ],
   "photos": [
     {
       "id_pic": "Lefebvre-bd-51_15_§1",
       "IndexJantzen": [
         "façade-d'angle"
-      ]
+      ],
+      "dateCapture": "2005:03:21"
     },
     {
       "id_pic": "Lefebvre-bd-51_15_§2",
       "IndexJantzen": [
         "fenetre-d'angle"
-      ]
+      ],
+      "dateCapture": "2005:03:21"
     },
     {
       "id_pic": "Lefebvre-bd-51_15_§3",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2004:03:26"
     },
     {
       "id_pic": "Lefebvre-bd-51_15_§4",
       "IndexJantzen": [
         "porte-fer"
-      ]
+      ],
+      "dateCapture": "2004:03:26"
     }
   ]
 }

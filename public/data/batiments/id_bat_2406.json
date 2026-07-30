@@ -27,10 +27,10 @@
   "WPfr": null,
   "image_ref": "Claude-Vellefaux-39_10_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "décor",
-    "porte-fer",
-    "sculpture"
+    "sculpture",
+    "fenetre",
+    "porte-fer"
   ],
   "photos": [
     {
@@ -39,32 +39,37 @@
         "décor",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2004:09:15"
     },
     {
       "id_pic": "Claude-Vellefaux-39_10_§2",
       "IndexJantzen": [
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2004:09:15"
     },
     {
       "id_pic": "Claude-Vellefaux-39_10_§3",
       "IndexJantzen": [
         "porte-fer"
-      ]
+      ],
+      "dateCapture": "2004:09:16"
     },
     {
       "id_pic": "Claude-Vellefaux-39_10_§4",
       "IndexJantzen": [
         "porte-fer"
-      ]
+      ],
+      "dateCapture": "2004:09:16"
     },
     {
       "id_pic": "Claude-Vellefaux-39_10_§5",
       "IndexJantzen": [
         "porte-fer"
-      ]
+      ],
+      "dateCapture": "2005:05:11"
     }
   ]
 }

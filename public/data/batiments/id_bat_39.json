@@ -18,47 +18,53 @@
   "WPfr": "Pavillon de l'Horloge du Louvre",
   "image_ref": "Louvre-1-A_1-Rx",
   "terme_jantzen_bat": [
-    "toiture",
     "façade",
+    "cariatide",
     "fronton",
-    "fenetre",
     "sculpture",
-    "cariatide"
+    "fenetre",
+    "toiture"
   ],
   "photos": [
     {
       "id_pic": "Louvre-1-A_1-Rx",
-      "IndexJantzen": []
+      "IndexJantzen": [],
+      "dateCapture": "2013:09:08"
     },
     {
       "id_pic": "Louvre-1-B_1-Rx",
-      "IndexJantzen": []
+      "IndexJantzen": [],
+      "dateCapture": "2013:09:08"
     },
     {
       "id_pic": "Louvre-1-Cc2-Ea",
       "IndexJantzen": [
         "toiture"
-      ]
+      ],
+      "dateCapture": null
     },
     {
       "id_pic": "Louvre-1-Cn_P-Sully-1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "dateCapture": "2006:06:17"
     },
     {
       "id_pic": "Louvre-1-Cn_P-Sully-2",
       "IndexJantzen": [
         "fenetre",
         "fronton"
-      ]
+      ],
+      "dateCapture": "2006:06:17"
     },
     {
       "id_pic": "Louvre-1-Cn_P-Sully-3",
       "IndexJantzen": [
         "fenetre",
         "fronton"
-      ]
+      ],
+      "dateCapture": "2006:06:17"
     },
     {
       "id_pic": "Louvre-1-Cn_P-Sully-4",
@@ -66,7 +72,8 @@
         "fenetre",
         "fronton",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:06:17"
     },
     {
       "id_pic": "Louvre-1-Cn_P-Sully-5",
@@ -75,7 +82,8 @@
         "fenetre",
         "fronton",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:06:17"
     }
   ]
 }

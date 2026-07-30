@@ -22,16 +22,17 @@
   "WPfr": null,
   "image_ref": "Geoffroy-l'Asnier-26_4_§1",
   "terme_jantzen_bat": [
-    "clé",
     "porte-bois",
-    "sculpture"
+    "sculpture",
+    "clé"
   ],
   "photos": [
     {
       "id_pic": "Geoffroy-l'Asnier-26_4_§1",
       "IndexJantzen": [
         "porte-bois"
-      ]
+      ],
+      "dateCapture": "2004:09:09"
     },
     {
       "id_pic": "Geoffroy-l'Asnier-26_4_§2",
@@ -39,11 +40,13 @@
         "clé",
         "porte-bois",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2003:08:02"
     },
     {
       "id_pic": "Geoffroy-l'Asnier-26_4_§3-18",
-      "IndexJantzen": []
+      "IndexJantzen": [],
+      "dateCapture": "2004:09:09"
     }
   ]
 }

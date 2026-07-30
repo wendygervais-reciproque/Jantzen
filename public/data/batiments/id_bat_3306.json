@@ -27,10 +27,10 @@
   "WPfr": null,
   "image_ref": "Segur-67_7_§1",
   "terme_jantzen_bat": [
-    "porte",
     "lucarne",
-    "façade-d'angle",
     "fenetre-d'angle",
+    "porte",
+    "façade-d'angle",
     "balcon"
   ],
   "photos": [
@@ -39,14 +39,16 @@
       "IndexJantzen": [
         "façade-d'angle",
         "porte"
-      ]
+      ],
+      "dateCapture": "2005:04:21"
     },
     {
       "id_pic": "Segur-67_7_§2",
       "IndexJantzen": [
         "façade-d'angle",
         "porte"
-      ]
+      ],
+      "dateCapture": "2005:04:21"
     },
     {
       "id_pic": "Segur-67_7_§3",
@@ -54,7 +56,8 @@
         "balcon",
         "fenetre-d'angle",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2005:04:21"
     }
   ]
 }

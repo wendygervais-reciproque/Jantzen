@@ -28,19 +28,20 @@
   "image_ref": "Rennes-107_6_§1",
   "terme_jantzen_bat": [
     "façade",
-    "fenetre",
+    "cariatide",
     "décor",
     "sculpture",
-    "cariatide",
-    "porte-bois",
-    "pilastre"
+    "fenetre",
+    "pilastre",
+    "porte-bois"
   ],
   "photos": [
     {
       "id_pic": "Rennes-107_6_§1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "dateCapture": "2005:09:21"
     },
     {
       "id_pic": "Rennes-107_6_§2",
@@ -49,7 +50,8 @@
         "fenetre",
         "pilastre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2004:03:30"
     },
     {
       "id_pic": "Rennes-107_6_§3",
@@ -57,21 +59,24 @@
         "fenetre",
         "pilastre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:09:21"
     },
     {
       "id_pic": "Rennes-107_6_§4",
       "IndexJantzen": [
         "fenetre",
         "porte-bois"
-      ]
+      ],
+      "dateCapture": "2004:03:30"
     },
     {
       "id_pic": "Rennes-107_6_§5",
       "IndexJantzen": [
         "cariatide",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:09:21"
     }
   ]
 }

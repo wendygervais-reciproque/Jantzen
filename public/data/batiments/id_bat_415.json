@@ -27,13 +27,13 @@
   "WPfr": null,
   "image_ref": "Menilmontant-107_20_§1",
   "terme_jantzen_bat": [
+    "console",
     "lucarne",
-    "façade-d'angle",
-    "toiture",
     "brique",
-    "fenetre",
     "sculpture",
-    "console"
+    "fenetre",
+    "façade-d'angle",
+    "toiture"
   ],
   "photos": [
     {
@@ -41,7 +41,8 @@
       "IndexJantzen": [
         "brique",
         "façade-d'angle"
-      ]
+      ],
+      "dateCapture": "2005:09:19"
     },
     {
       "id_pic": "Menilmontant-107_20_§2",
@@ -50,7 +51,8 @@
         "fenetre",
         "lucarne",
         "toiture"
-      ]
+      ],
+      "dateCapture": "2005:09:19"
     },
     {
       "id_pic": "Menilmontant-107_20_§3",
@@ -58,7 +60,8 @@
         "brique",
         "fenetre",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2005:09:19"
     },
     {
       "id_pic": "Menilmontant-107_20_§4",
@@ -66,14 +69,16 @@
         "brique",
         "fenetre",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2005:09:19"
     },
     {
       "id_pic": "Menilmontant-107_20_§5",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:09:19"
     }
   ]
 }

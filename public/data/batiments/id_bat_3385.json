@@ -27,50 +27,56 @@
   "WPfr": null,
   "image_ref": "Cassini-7_14_§3",
   "terme_jantzen_bat": [
-    "fenetre",
     "façade",
-    "verrière",
-    "porte-fer"
+    "fenetre",
+    "porte-fer",
+    "verrière"
   ],
   "photos": [
     {
       "id_pic": "Cassini-7_14_§3",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "dateCapture": "2010:05:24"
     },
     {
       "id_pic": "Cassini-7_14_§5",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2010:05:24"
     },
     {
       "id_pic": "Cassini-7_14_§6",
       "IndexJantzen": [
         "fenetre",
         "verrière"
-      ]
+      ],
+      "dateCapture": "2005:04:11"
     },
     {
       "id_pic": "Cassini-7_14_§7",
       "IndexJantzen": [
         "fenetre",
         "verrière"
-      ]
+      ],
+      "dateCapture": "2010:05:24"
     },
     {
       "id_pic": "Cassini-7_14_§8",
       "IndexJantzen": [
         "fenetre",
         "verrière"
-      ]
+      ],
+      "dateCapture": "2006:06:18"
     },
     {
       "id_pic": "Cassini-7_14_§9",
       "IndexJantzen": [
         "porte-fer"
-      ]
+      ],
+      "dateCapture": "2006:06:18"
     }
   ]
 }

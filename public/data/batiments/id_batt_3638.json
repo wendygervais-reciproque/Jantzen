@@ -1,0 +1,65 @@
+{
+  "id_bat": 3638,
+  "libelle": "8 rue Edmond-Valentin",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 588,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1900",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "8 rue Edmond-Valentin",
+    "numero": "8",
+    "voie": "rue Edmond-Valentin"
+  },
+  "arrondissement": 7,
+  "coordonnees": {
+    "latitude": "48.859796",
+    "longitude": "2.301926"
+  },
+  "id_pss": null,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 3995,
+  "terme_jantzen_bat": [
+    "porte-fer",
+    "console",
+    "oeil-de-boeuf",
+    "sculpture"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_3995",
+      "IndexJantzen": [
+        "oeil-de-boeuf",
+        "porte-fer"
+      ]
+    },
+    {
+      "id_pic": "image_3996",
+      "IndexJantzen": [
+        "oeil-de-boeuf",
+        "porte-fer"
+      ]
+    },
+    {
+      "id_pic": "image_3997",
+      "IndexJantzen": [
+        "console",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_3998",
+      "IndexJantzen": [
+        "console",
+        "sculpture"
+      ]
+    }
+  ]
+}

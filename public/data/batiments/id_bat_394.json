@@ -22,15 +22,15 @@
   "WPfr": null,
   "image_ref": "Rochechouard-bd-104_18_§1",
   "terme_jantzen_bat": [
-    "lucarne",
     "façade",
-    "céramique",
     "garde-corps",
-    "fenetre",
+    "lucarne",
+    "oriel",
     "décor",
     "sculpture",
     "clé",
-    "oriel"
+    "fenetre",
+    "céramique"
   ],
   "photos": [
     {
@@ -38,7 +38,8 @@
       "IndexJantzen": [
         "façade",
         "oriel"
-      ]
+      ],
+      "dateCapture": "2014:03:24"
     },
     {
       "id_pic": "Rochechouard-bd-104_18_§2",
@@ -48,7 +49,8 @@
         "fenetre",
         "lucarne",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2014:03:24"
     },
     {
       "id_pic": "Rochechouard-bd-104_18_§3",
@@ -57,14 +59,16 @@
         "fenetre",
         "lucarne",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2014:03:24"
     },
     {
       "id_pic": "Rochechouard-bd-104_18_§4",
       "IndexJantzen": [
         "fenetre",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2005:04:11"
     },
     {
       "id_pic": "Rochechouard-bd-104_18_§5",
@@ -73,7 +77,8 @@
         "céramique",
         "fenetre",
         "garde-corps"
-      ]
+      ],
+      "dateCapture": "2014:03:24"
     }
   ]
 }

@@ -27,12 +27,12 @@
   "WPfr": null,
   "image_ref": "Rome-4_8_§1",
   "terme_jantzen_bat": [
+    "garde-corps",
     "fronton",
     "fenetre",
-    "balcon",
-    "porte-bois",
     "pilastre",
-    "garde-corps"
+    "balcon",
+    "porte-bois"
   ],
   "photos": [
     {
@@ -41,7 +41,8 @@
         "balcon",
         "garde-corps",
         "pilastre"
-      ]
+      ],
+      "dateCapture": "2005:08:09"
     },
     {
       "id_pic": "Rome-4_8_§2",
@@ -49,7 +50,8 @@
         "fenetre",
         "garde-corps",
         "pilastre"
-      ]
+      ],
+      "dateCapture": "2005:08:09"
     },
     {
       "id_pic": "Rome-4_8_§3",
@@ -57,14 +59,16 @@
         "fenetre",
         "fronton",
         "garde-corps"
-      ]
+      ],
+      "dateCapture": "2005:08:09"
     },
     {
       "id_pic": "Rome-4_8_§4",
       "IndexJantzen": [
         "fenetre",
         "porte-bois"
-      ]
+      ],
+      "dateCapture": "2005:08:09"
     }
   ]
 }

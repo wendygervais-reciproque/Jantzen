@@ -23,13 +23,13 @@
   "image_ref": "Brunel-31_17_§1",
   "terme_jantzen_bat": [
     "lucarne",
-    "façade-d'angle",
-    "fenetre",
     "fenetre-d'angle",
     "poignée-porte",
+    "fenetre",
+    "façade-d'angle",
     "balcon",
-    "pignon",
-    "porte-bois"
+    "porte-bois",
+    "pignon"
   ],
   "photos": [
     {
@@ -37,7 +37,8 @@
       "IndexJantzen": [
         "façade-d'angle",
         "pignon"
-      ]
+      ],
+      "dateCapture": "2008:03:29"
     },
     {
       "id_pic": "Brunel-31_17_§2",
@@ -45,39 +46,45 @@
         "fenetre-d'angle",
         "lucarne",
         "pignon"
-      ]
+      ],
+      "dateCapture": "2008:03:29"
     },
     {
       "id_pic": "Brunel-31_17_§3",
       "IndexJantzen": [
         "balcon",
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2009:07:28"
     },
     {
       "id_pic": "Brunel-31_17_§4",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2008:03:29"
     },
     {
       "id_pic": "Brunel-31_17_§5",
       "IndexJantzen": [
         "fenetre",
         "porte-bois"
-      ]
+      ],
+      "dateCapture": "2008:03:29"
     },
     {
       "id_pic": "Brunel-31_17_§6",
       "IndexJantzen": [
         "porte-bois"
-      ]
+      ],
+      "dateCapture": "2008:03:29"
     },
     {
       "id_pic": "Brunel-31_17_§7",
       "IndexJantzen": [
         "poignée-porte"
-      ]
+      ],
+      "dateCapture": "2008:03:29"
     }
   ]
 }

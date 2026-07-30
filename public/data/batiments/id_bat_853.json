@@ -27,10 +27,10 @@
   "WPfr": null,
   "image_ref": "Haussmann-137_8_§1",
   "terme_jantzen_bat": [
+    "colonne",
     "fenetre",
-    "lucarne",
     "toiture",
-    "colonne"
+    "lucarne"
   ],
   "photos": [
     {
@@ -39,14 +39,16 @@
         "fenetre",
         "lucarne",
         "toiture"
-      ]
+      ],
+      "dateCapture": "2004:10:21"
     },
     {
       "id_pic": "Haussmann-137_8_§2",
       "IndexJantzen": [
         "colonne",
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2004:10:21"
     }
   ]
 }

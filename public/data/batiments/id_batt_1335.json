@@ -1,0 +1,56 @@
+{
+  "id_bat": 1335,
+  "libelle": "185 rue Belliard",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 331,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1913",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "185 rue Belliard",
+    "numero": "185",
+    "voie": "rue Belliard"
+  },
+  "arrondissement": 18,
+  "coordonnees": {
+    "latitude": "48.895583",
+    "longitude": "2.329566"
+  },
+  "id_pss": 2756,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 1129,
+  "terme_jantzen_bat": [
+    "porte-bois",
+    "céramique",
+    "façade"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_1129",
+      "IndexJantzen": [
+        "céramique",
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_1130",
+      "IndexJantzen": [
+        "céramique",
+        "porte-bois"
+      ]
+    },
+    {
+      "id_pic": "image_1131",
+      "IndexJantzen": [
+        "céramique"
+      ]
+    }
+  ]
+}

@@ -28,11 +28,11 @@
   "image_ref": "Batignoles-9_17_§1",
   "terme_jantzen_bat": [
     "lucarne",
-    "façade-d'angle",
-    "porte-fer",
+    "fenetre-d'angle",
     "fenetre",
-    "dome",
-    "fenetre-d'angle"
+    "porte-fer",
+    "façade-d'angle",
+    "dome"
   ],
   "photos": [
     {
@@ -40,28 +40,32 @@
       "IndexJantzen": [
         "dome",
         "façade-d'angle"
-      ]
+      ],
+      "dateCapture": "2010:03:15"
     },
     {
       "id_pic": "Batignoles-9_17_§2",
       "IndexJantzen": [
         "dome",
         "fenetre-d'angle"
-      ]
+      ],
+      "dateCapture": "2010:03:15"
     },
     {
       "id_pic": "Batignoles-9_17_§3",
       "IndexJantzen": [
         "fenetre-d'angle",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2010:03:15"
     },
     {
       "id_pic": "Batignoles-9_17_§4",
       "IndexJantzen": [
         "fenetre",
         "porte-fer"
-      ]
+      ],
+      "dateCapture": "2010:03:15"
     }
   ]
 }

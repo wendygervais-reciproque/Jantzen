@@ -27,11 +27,11 @@
   "WPfr": null,
   "image_ref": "Villebois-Mareuil-7_17_§",
   "terme_jantzen_bat": [
-    "lucarne-d'angle",
-    "dome",
+    "console",
     "fenetre-d'angle",
     "sculpture",
-    "console"
+    "lucarne-d'angle",
+    "dome"
   ],
   "photos": [
     {
@@ -39,21 +39,24 @@
       "IndexJantzen": [
         "dome",
         "lucarne-d'angle"
-      ]
+      ],
+      "dateCapture": "2009:03:23"
     },
     {
       "id_pic": "Villebois-Mareuil-7_17_§1",
       "IndexJantzen": [
         "dome",
         "fenetre-d'angle"
-      ]
+      ],
+      "dateCapture": "2013:05:02"
     },
     {
       "id_pic": "Villebois-Mareuil-7_17_§3",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:08:08"
     }
   ]
 }

@@ -1,0 +1,48 @@
+{
+  "id_bat": 1292,
+  "libelle": "18 rue de l'Amiral-Hamelin",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "18 rue de l'Amiral-Hamelin",
+    "numero": "18",
+    "voie": "rue de l'Amiral-Hamelin"
+  },
+  "arrondissement": 16,
+  "coordonnees": {
+    "latitude": "48.866655",
+    "longitude": "2.292423"
+  },
+  "id_pss": 81529,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 302,
+  "terme_jantzen_bat": [
+    "sculpture",
+    "balcon",
+    "garde-corps",
+    "porte-bois",
+    "console"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_302",
+      "IndexJantzen": [
+        "balcon",
+        "console",
+        "garde-corps",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_303",
+      "IndexJantzen": [
+        "porte-bois"
+      ]
+    }
+  ]
+}

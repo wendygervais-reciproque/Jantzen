@@ -1,0 +1,58 @@
+{
+  "id_bat": 68,
+  "libelle": "Église Saint-Lambert de Vaugirard",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": [
+    "1850-1869"
+  ],
+  "adresse": null,
+  "arrondissement": 15,
+  "coordonnees": {
+    "latitude": "48.8396",
+    "longitude": "2.29825"
+  },
+  "id_pss": 39229,
+  "id_wikidata": "Q3582245",
+  "WPfr": "Église Saint-Lambert de Vaugirard",
+  "image_ref": 5338,
+  "terme_jantzen_bat": [
+    "lucarne",
+    "toiture",
+    "façade"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_5338",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_5339",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_5340",
+      "IndexJantzen": [
+        "toiture"
+      ]
+    },
+    {
+      "id_pic": "image_5341",
+      "IndexJantzen": [
+        "lucarne",
+        "toiture"
+      ]
+    },
+    {
+      "id_pic": "image_5342",
+      "IndexJantzen": [
+        "lucarne"
+      ]
+    }
+  ]
+}

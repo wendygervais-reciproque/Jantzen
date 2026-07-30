@@ -22,10 +22,10 @@
   "WPfr": null,
   "image_ref": "Victoire-82_9_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "oeil-de-boeuf",
     "console",
-    "sculpture"
+    "sculpture",
+    "oeil-de-boeuf",
+    "fenetre"
   ],
   "photos": [
     {
@@ -34,21 +34,24 @@
         "console",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:05:26"
     },
     {
       "id_pic": "Victoire-82_9_§2",
       "IndexJantzen": [
         "console",
         "oeil-de-boeuf"
-      ]
+      ],
+      "dateCapture": "2005:05:26"
     },
     {
       "id_pic": "Victoire-82_9_§3",
       "IndexJantzen": [
         "console",
         "oeil-de-boeuf"
-      ]
+      ],
+      "dateCapture": "2005:07:14"
     }
   ]
 }

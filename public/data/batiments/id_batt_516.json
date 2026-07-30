@@ -1,0 +1,52 @@
+{
+  "id_bat": 516,
+  "libelle": "110 rue Réaumur",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 698,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1899",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "110 rue Réaumur",
+    "numero": "110",
+    "voie": "rue Réaumur"
+  },
+  "arrondissement": 2,
+  "coordonnees": {
+    "latitude": "48.867564",
+    "longitude": "2.346871"
+  },
+  "id_pss": 41027,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 12665,
+  "terme_jantzen_bat": [
+    "lucarne-d'angle",
+    "dome",
+    "colonne"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_12665",
+      "IndexJantzen": [
+        "colonne",
+        "dome",
+        "lucarne-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_12666",
+      "IndexJantzen": [
+        "colonne",
+        "dome",
+        "lucarne-d'angle"
+      ]
+    }
+  ]
+}

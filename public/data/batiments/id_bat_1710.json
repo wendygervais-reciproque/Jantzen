@@ -27,13 +27,13 @@
   "WPfr": null,
   "image_ref": "St-Denis-224_2_§1",
   "terme_jantzen_bat": [
-    "façade-d'angle",
-    "lucarne-d'angle",
-    "dome",
     "fenetre-d'angle",
     "sculpture",
+    "façade-d'angle",
+    "pilastre",
     "balcon",
-    "pilastre"
+    "lucarne-d'angle",
+    "dome"
   ],
   "photos": [
     {
@@ -41,7 +41,8 @@
       "IndexJantzen": [
         "dome",
         "façade-d'angle"
-      ]
+      ],
+      "dateCapture": "2005:08:28"
     },
     {
       "id_pic": "St-Denis-224_2_§3",
@@ -50,34 +51,39 @@
         "dome",
         "fenetre-d'angle",
         "pilastre"
-      ]
+      ],
+      "dateCapture": "2005:08:28"
     },
     {
       "id_pic": "St-Denis-224_2_§4",
       "IndexJantzen": [
         "dome",
         "lucarne-d'angle"
-      ]
+      ],
+      "dateCapture": "2004:09:05"
     },
     {
       "id_pic": "St-Denis-224_2_§5",
       "IndexJantzen": [
         "dome",
         "lucarne-d'angle"
-      ]
+      ],
+      "dateCapture": "2005:08:28"
     },
     {
       "id_pic": "St-Denis-224_2_§6",
       "IndexJantzen": [
         "dome",
         "lucarne-d'angle"
-      ]
+      ],
+      "dateCapture": "2004:09:05"
     },
     {
       "id_pic": "St-Denis-224_2_§7",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:08:28"
     }
   ]
 }

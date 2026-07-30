@@ -27,14 +27,14 @@
   "WPfr": null,
   "image_ref": "Richard-Lenoir-bd-48_11_§1",
   "terme_jantzen_bat": [
-    "lucarne",
-    "fenetre",
     "oeil-de-boeuf",
-    "dome",
+    "garde-corps",
+    "lucarne",
     "sculpture",
+    "fenetre",
     "balcon",
-    "pignon",
-    "garde-corps"
+    "dome",
+    "pignon"
   ],
   "photos": [
     {
@@ -43,7 +43,8 @@
         "balcon",
         "fenetre",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2004:05:19"
     },
     {
       "id_pic": "Richard-Lenoir-bd-48_11_§2",
@@ -52,7 +53,8 @@
         "lucarne",
         "oeil-de-boeuf",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2008:02:16"
     },
     {
       "id_pic": "Richard-Lenoir-bd-48_11_§3",
@@ -62,27 +64,31 @@
         "oeil-de-boeuf",
         "pignon",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2008:02:16"
     },
     {
       "id_pic": "Richard-Lenoir-bd-48_11_§4",
       "IndexJantzen": [
         "lucarne",
         "pignon"
-      ]
+      ],
+      "dateCapture": "2008:02:16"
     },
     {
       "id_pic": "Richard-Lenoir-bd-48_11_§5",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2008:02:16"
     },
     {
       "id_pic": "Richard-Lenoir-bd-48_11_§6",
       "IndexJantzen": [
         "fenetre",
         "garde-corps"
-      ]
+      ],
+      "dateCapture": "2004:05:19"
     }
   ]
 }

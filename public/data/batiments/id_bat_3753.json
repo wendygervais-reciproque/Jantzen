@@ -27,12 +27,12 @@
   "WPfr": null,
   "image_ref": "St-Michel-88_6_§1",
   "terme_jantzen_bat": [
-    "fronton",
-    "fenetre",
-    "fenetre-d'angle",
-    "sculpture",
     "console",
     "cariatide",
+    "fenetre-d'angle",
+    "sculpture",
+    "fronton",
+    "fenetre",
     "colonne",
     "porte-bois"
   ],
@@ -41,7 +41,8 @@
       "id_pic": "St-Michel-88_6_§1",
       "IndexJantzen": [
         "fenetre-d'angle"
-      ]
+      ],
+      "dateCapture": "2006:04:03"
     },
     {
       "id_pic": "St-Michel-88_6_§10-av-Observatoire-Rs",
@@ -49,49 +50,56 @@
         "cariatide",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2007:09:24"
     },
     {
       "id_pic": "St-Michel-88_6_§11-av-Observatoire",
       "IndexJantzen": [
         "cariatide",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:03:27"
     },
     {
       "id_pic": "St-Michel-88_6_§12-av-Observatoire-Rs",
       "IndexJantzen": [
         "cariatide",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2007:09:24"
     },
     {
       "id_pic": "St-Michel-88_6_§13-av-Observatoire-Rs",
       "IndexJantzen": [
         "cariatide",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2007:09:24"
     },
     {
       "id_pic": "St-Michel-88_6_§14-av-Observatoire",
       "IndexJantzen": [
         "cariatide",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:03:27"
     },
     {
       "id_pic": "St-Michel-88_6_§16-av-Observatoire",
       "IndexJantzen": [
         "colonne",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:03:27"
     },
     {
       "id_pic": "St-Michel-88_6_§2",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:04:03"
     },
     {
       "id_pic": "St-Michel-88_6_§3",
@@ -99,35 +107,40 @@
         "cariatide",
         "fenetre",
         "porte-bois"
-      ]
+      ],
+      "dateCapture": "2006:03:19"
     },
     {
       "id_pic": "St-Michel-88_6_§4",
       "IndexJantzen": [
         "cariatide",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:04:03"
     },
     {
       "id_pic": "St-Michel-88_6_§5",
       "IndexJantzen": [
         "cariatide",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:03:19"
     },
     {
       "id_pic": "St-Michel-88_6_§6",
       "IndexJantzen": [
         "cariatide",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:03:19"
     },
     {
       "id_pic": "St-Michel-88_6_§7",
       "IndexJantzen": [
         "cariatide",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:04:03"
     },
     {
       "id_pic": "St-Michel-88_6_§8-av-Observatoire",
@@ -135,7 +148,8 @@
         "cariatide",
         "fenetre",
         "porte-bois"
-      ]
+      ],
+      "dateCapture": "2006:03:27"
     },
     {
       "id_pic": "St-Michel-88_6_§9-av-Observatoire",
@@ -144,7 +158,8 @@
         "fenetre",
         "fronton",
         "porte-bois"
-      ]
+      ],
+      "dateCapture": "2006:03:19"
     }
   ]
 }

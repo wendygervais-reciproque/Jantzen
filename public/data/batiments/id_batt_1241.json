@@ -1,0 +1,73 @@
+{
+  "id_bat": 1241,
+  "libelle": "17 rue Margueritte",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 141,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1898",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "17 rue Margueritte",
+    "numero": "17",
+    "voie": "rue Margueritte"
+  },
+  "arrondissement": 17,
+  "coordonnees": {
+    "latitude": "48.880466",
+    "longitude": "2.30069"
+  },
+  "id_pss": 104581,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 9265,
+  "terme_jantzen_bat": [
+    "façade",
+    "fenetre",
+    "sculpture",
+    "décor",
+    "console"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_9265",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_9266",
+      "IndexJantzen": [
+        "décor",
+        "fenetre",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_9267",
+      "IndexJantzen": [
+        "fenetre",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_9268",
+      "IndexJantzen": [
+        "console",
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_9269",
+      "IndexJantzen": [
+        "console",
+        "sculpture"
+      ]
+    }
+  ]
+}

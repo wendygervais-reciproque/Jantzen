@@ -27,13 +27,13 @@
   "WPfr": null,
   "image_ref": "Jasmin-21_16_§1",
   "terme_jantzen_bat": [
-    "façade-d'angle",
-    "céramique",
-    "porte-fer",
+    "verrière",
+    "fenetre-d'angle",
     "brique",
     "décor",
-    "fenetre-d'angle",
-    "verrière"
+    "porte-fer",
+    "façade-d'angle",
+    "céramique"
   ],
   "photos": [
     {
@@ -41,14 +41,16 @@
       "IndexJantzen": [
         "brique",
         "façade-d'angle"
-      ]
+      ],
+      "dateCapture": "2007:04:21"
     },
     {
       "id_pic": "Jasmin-21_16_§2",
       "IndexJantzen": [
         "brique",
         "façade-d'angle"
-      ]
+      ],
+      "dateCapture": "2007:04:21"
     },
     {
       "id_pic": "Jasmin-21_16_§3",
@@ -57,7 +59,8 @@
         "décor",
         "fenetre-d'angle",
         "verrière"
-      ]
+      ],
+      "dateCapture": "2007:04:21"
     },
     {
       "id_pic": "Jasmin-21_16_§4",
@@ -66,21 +69,24 @@
         "décor",
         "fenetre-d'angle",
         "verrière"
-      ]
+      ],
+      "dateCapture": "2007:04:21"
     },
     {
       "id_pic": "Jasmin-21_16_§5",
       "IndexJantzen": [
         "céramique",
         "porte-fer"
-      ]
+      ],
+      "dateCapture": "2006:07:01"
     },
     {
       "id_pic": "Jasmin-21_16_§6",
       "IndexJantzen": [
         "céramique",
         "porte-fer"
-      ]
+      ],
+      "dateCapture": "2006:07:01"
     }
   ]
 }

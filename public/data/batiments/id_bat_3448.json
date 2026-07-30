@@ -22,13 +22,13 @@
   "WPfr": null,
   "image_ref": "Victor-Considerant-7_14_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "sculpture",
-    "clé",
     "console",
+    "garde-corps",
+    "sculpture",
     "chimère",
-    "porte-bois",
-    "garde-corps"
+    "fenetre",
+    "clé",
+    "porte-bois"
   ],
   "photos": [
     {
@@ -36,20 +36,23 @@
       "IndexJantzen": [
         "fenetre",
         "garde-corps"
-      ]
+      ],
+      "dateCapture": "2004:07:28"
     },
     {
       "id_pic": "Victor-Considerant-7_14_§3",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2004:07:28"
     },
     {
       "id_pic": "Victor-Considerant-7_14_§4",
       "IndexJantzen": [
         "porte-bois"
-      ]
+      ],
+      "dateCapture": "2004:07:28"
     },
     {
       "id_pic": "Victor-Considerant-7_14_§5",
@@ -57,7 +60,8 @@
         "chimère",
         "clé",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2004:07:28"
     }
   ]
 }

@@ -28,11 +28,11 @@
   "image_ref": "Tolbiac-15b_13_§1",
   "terme_jantzen_bat": [
     "façade",
-    "céramique",
+    "porte-fer-hall",
     "brique",
-    "fenetre",
     "décor",
-    "porte-fer-hall"
+    "fenetre",
+    "céramique"
   ],
   "photos": [
     {
@@ -40,14 +40,16 @@
       "IndexJantzen": [
         "brique",
         "façade"
-      ]
+      ],
+      "dateCapture": "2004:03:29"
     },
     {
       "id_pic": "Tolbiac-15b_13_§2",
       "IndexJantzen": [
         "brique",
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2004:03:29"
     },
     {
       "id_pic": "Tolbiac-15b_13_§4",
@@ -56,7 +58,8 @@
         "céramique",
         "décor",
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2004:03:29"
     },
     {
       "id_pic": "Tolbiac-15b_13_§5",
@@ -65,13 +68,15 @@
         "céramique",
         "décor",
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2004:03:29"
     },
     {
       "id_pic": "Tolbiac-15b_13_§6",
       "IndexJantzen": [
         "porte-fer-hall"
-      ]
+      ],
+      "dateCapture": "2004:03:29"
     }
   ]
 }

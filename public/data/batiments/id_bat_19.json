@@ -18,10 +18,10 @@
   "WPfr": "Arc de triomphe du Carrousel",
   "image_ref": "Louvre-1-Pc-1",
   "terme_jantzen_bat": [
-    "colonne",
-    "sculpture",
     "façade",
-    "porte"
+    "porte",
+    "sculpture",
+    "colonne"
   ],
   "photos": [
     {
@@ -30,27 +30,31 @@
         "colonne",
         "façade",
         "porte"
-      ]
+      ],
+      "dateCapture": "2006:09:06"
     },
     {
       "id_pic": "Louvre-1-Pc-3",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:09:06"
     },
     {
       "id_pic": "Louvre-1-Pc-4",
       "IndexJantzen": [
         "colonne",
         "porte"
-      ]
+      ],
+      "dateCapture": "2006:09:06"
     },
     {
       "id_pic": "Louvre-1-PC-5-",
       "IndexJantzen": [
         "colonne",
         "porte"
-      ]
+      ],
+      "dateCapture": "2009:01:01"
     }
   ]
 }

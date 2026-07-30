@@ -22,12 +22,12 @@
   "WPfr": null,
   "image_ref": "Bac-18_7_§1",
   "terme_jantzen_bat": [
-    "façade-d'angle",
+    "garde-corps",
     "fenetre-d'angle",
-    "balcon",
-    "pignon",
+    "façade-d'angle",
     "colonne",
-    "garde-corps"
+    "balcon",
+    "pignon"
   ],
   "photos": [
     {
@@ -35,7 +35,8 @@
       "IndexJantzen": [
         "balcon",
         "façade-d'angle"
-      ]
+      ],
+      "dateCapture": "2009:06:03"
     },
     {
       "id_pic": "Bac-18_7_§2",
@@ -43,7 +44,8 @@
         "balcon",
         "fenetre-d'angle",
         "pignon"
-      ]
+      ],
+      "dateCapture": "2009:06:03"
     },
     {
       "id_pic": "Bac-18_7_§3",
@@ -52,7 +54,8 @@
         "colonne",
         "garde-corps",
         "pignon"
-      ]
+      ],
+      "dateCapture": "2009:06:03"
     }
   ]
 }

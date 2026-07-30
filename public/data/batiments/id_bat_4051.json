@@ -23,14 +23,14 @@
   "image_ref": "Richelieu_2_§1",
   "terme_jantzen_bat": [
     "façade",
-    "intérieur",
-    "métal",
+    "garde-corps",
     "fronton",
-    "fenetre",
     "sculpture",
+    "fenetre",
     "clé",
+    "métal",
     "colonne",
-    "garde-corps"
+    "intérieur"
   ],
   "photos": [
     {
@@ -38,7 +38,8 @@
       "IndexJantzen": [
         "façade",
         "fronton"
-      ]
+      ],
+      "dateCapture": "2006:08:30"
     },
     {
       "id_pic": "Richelieu_2_§10",
@@ -46,7 +47,8 @@
         "colonne",
         "intérieur",
         "métal"
-      ]
+      ],
+      "dateCapture": "2009:03:16"
     },
     {
       "id_pic": "Richelieu_2_§13",
@@ -54,7 +56,8 @@
         "colonne",
         "intérieur",
         "métal"
-      ]
+      ],
+      "dateCapture": "2009:03:16"
     },
     {
       "id_pic": "Richelieu_2_§14",
@@ -62,27 +65,31 @@
         "colonne",
         "intérieur",
         "métal"
-      ]
+      ],
+      "dateCapture": "2009:03:16"
     },
     {
       "id_pic": "Richelieu_2_§15",
       "IndexJantzen": [
         "intérieur"
-      ]
+      ],
+      "dateCapture": "2009:03:16"
     },
     {
       "id_pic": "Richelieu_2_§16",
       "IndexJantzen": [
         "intérieur",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:08:30"
     },
     {
       "id_pic": "Richelieu_2_§5",
       "IndexJantzen": [
         "garde-corps",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:08:30"
     },
     {
       "id_pic": "Richelieu_2_§7",
@@ -90,7 +97,8 @@
         "fenetre",
         "fronton",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:08:30"
     },
     {
       "id_pic": "Richelieu_2_§8",
@@ -98,7 +106,8 @@
         "clé",
         "fenetre",
         "fronton"
-      ]
+      ],
+      "dateCapture": "2006:08:30"
     },
     {
       "id_pic": "Richelieu_2_§9",
@@ -106,7 +115,8 @@
         "clé",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:08:30"
     }
   ]
 }

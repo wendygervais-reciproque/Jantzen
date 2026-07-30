@@ -22,13 +22,13 @@
   "WPfr": null,
   "image_ref": "Belleville-51_19_§1",
   "terme_jantzen_bat": [
-    "porte",
     "façade",
-    "fenetre",
-    "sculpture",
     "console",
-    "porte-bois",
-    "pilastre"
+    "porte",
+    "sculpture",
+    "fenetre",
+    "pilastre",
+    "porte-bois"
   ],
   "photos": [
     {
@@ -36,20 +36,23 @@
       "IndexJantzen": [
         "façade",
         "porte"
-      ]
+      ],
+      "dateCapture": "2006:04:20"
     },
     {
       "id_pic": "Belleville-51_19_§2",
       "IndexJantzen": [
         "façade",
         "porte"
-      ]
+      ],
+      "dateCapture": "2005:09:19"
     },
     {
       "id_pic": "Belleville-51_19_§3",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "dateCapture": "2005:09:19"
     },
     {
       "id_pic": "Belleville-51_19_§4",
@@ -57,27 +60,31 @@
         "fenetre",
         "pilastre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:09:19"
     },
     {
       "id_pic": "Belleville-51_19_§5",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:09:19"
     },
     {
       "id_pic": "Belleville-51_19_§6",
       "IndexJantzen": [
         "porte-bois"
-      ]
+      ],
+      "dateCapture": "2006:04:20"
     },
     {
       "id_pic": "Belleville-51_19_§7",
       "IndexJantzen": [
         "porte-bois",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:09:19"
     }
   ]
 }

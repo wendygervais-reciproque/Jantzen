@@ -1,0 +1,51 @@
+{
+  "id_bat": 2756,
+  "libelle": "48 avenue du Président-Wilson",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 3,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1908",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "48 avenue du Président-Wilson",
+    "numero": "48",
+    "voie": "avenue du Président-Wilson"
+  },
+  "arrondissement": 16,
+  "coordonnees": {
+    "latitude": "48.863502",
+    "longitude": "2.288497"
+  },
+  "id_pss": 27691,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 12046,
+  "terme_jantzen_bat": [
+    "loggia",
+    "lucarne",
+    "fenetre"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_12046",
+      "IndexJantzen": [
+        "fenetre",
+        "loggia",
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_12047",
+      "IndexJantzen": [
+        "fenetre",
+        "lucarne"
+      ]
+    }
+  ]
+}

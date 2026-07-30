@@ -28,18 +28,19 @@
   "image_ref": "Jean-Goujon-4_8_§1",
   "terme_jantzen_bat": [
     "façade",
-    "fenetre",
     "décor",
     "sculpture",
-    "atlante",
-    "colonne"
+    "fenetre",
+    "colonne",
+    "atlante"
   ],
   "photos": [
     {
       "id_pic": "Jean-Goujon-4_8_§1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "dateCapture": "2005:08:04"
     },
     {
       "id_pic": "Jean-Goujon-4_8_§2",
@@ -47,7 +48,8 @@
         "décor",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2004:10:21"
     },
     {
       "id_pic": "Jean-Goujon-4_8_§3",
@@ -55,7 +57,8 @@
         "colonne",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:08:04"
     },
     {
       "id_pic": "Jean-Goujon-4_8_§4",
@@ -63,7 +66,8 @@
         "atlante",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:08:04"
     }
   ]
 }

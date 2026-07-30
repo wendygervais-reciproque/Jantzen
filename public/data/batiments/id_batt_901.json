@@ -1,0 +1,100 @@
+{
+  "id_bat": 901,
+  "libelle": "14 rue de l'Abbé-de-l'Épée",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 411,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1909",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "14 rue de l'Abbé-de-l'Épée",
+    "numero": "14",
+    "voie": "rue de l'Abbé-de-l'Épée"
+  },
+  "arrondissement": 5,
+  "coordonnees": {
+    "latitude": "48.84372",
+    "longitude": "2.340439"
+  },
+  "id_pss": 38017,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 16,
+  "terme_jantzen_bat": [
+    "façade",
+    "sculpture",
+    "décor",
+    "fenetre",
+    "garde-corps",
+    "porte-fer",
+    "console"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_16",
+      "IndexJantzen": [
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_17",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_18",
+      "IndexJantzen": [
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_19",
+      "IndexJantzen": [
+        "fenetre",
+        "garde-corps"
+      ]
+    },
+    {
+      "id_pic": "image_20",
+      "IndexJantzen": [
+        "décor",
+        "fenetre",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_21",
+      "IndexJantzen": [
+        "décor",
+        "garde-corps",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_22",
+      "IndexJantzen": [
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_23",
+      "IndexJantzen": [
+        "console",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_24",
+      "IndexJantzen": [
+        "porte-fer"
+      ]
+    }
+  ]
+}

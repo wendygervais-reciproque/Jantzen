@@ -1,0 +1,53 @@
+{
+  "id_bat": 2974,
+  "libelle": "53 rue des Dames",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 176,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1890",
+  "periode": [
+    "1870-1894"
+  ],
+  "adresse": {
+    "affichage": "53 rue des Dames",
+    "numero": "53",
+    "voie": "rue des Dames"
+  },
+  "arrondissement": 17,
+  "coordonnees": {
+    "latitude": "48.883883",
+    "longitude": "2.32202"
+  },
+  "id_pss": 7820,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 3380,
+  "terme_jantzen_bat": [
+    "sculpture",
+    "décor",
+    "oeil-de-boeuf",
+    "brique"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_3380",
+      "IndexJantzen": [
+        "brique",
+        "décor",
+        "oeil-de-boeuf"
+      ]
+    },
+    {
+      "id_pic": "image_3381",
+      "IndexJantzen": [
+        "brique",
+        "oeil-de-boeuf",
+        "sculpture"
+      ]
+    }
+  ]
+}

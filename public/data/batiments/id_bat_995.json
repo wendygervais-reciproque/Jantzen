@@ -27,11 +27,11 @@
   "WPfr": null,
   "image_ref": "Perrichont-15_16_§1",
   "terme_jantzen_bat": [
-    "céramique",
-    "porte-fer",
     "brique",
+    "décor",
     "fenetre",
-    "décor"
+    "porte-fer",
+    "céramique"
   ],
   "photos": [
     {
@@ -41,7 +41,8 @@
         "céramique",
         "décor",
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2004:07:24"
     },
     {
       "id_pic": "Perrichont-15_16_§2",
@@ -50,7 +51,8 @@
         "céramique",
         "décor",
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2004:07:24"
     },
     {
       "id_pic": "Perrichont-15_16_§3",
@@ -58,7 +60,8 @@
         "brique",
         "céramique",
         "porte-fer"
-      ]
+      ],
+      "dateCapture": "2004:07:25"
     }
   ]
 }

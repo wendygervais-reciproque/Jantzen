@@ -1,0 +1,102 @@
+{
+  "id_bat": 3752,
+  "libelle": "88 boulevard Haussmann",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": [
+    "1850-1869"
+  ],
+  "adresse": {
+    "affichage": "88 boulevard Haussmann",
+    "numero": "88",
+    "voie": "boulevard Haussmann"
+  },
+  "arrondissement": 8,
+  "coordonnees": {
+    "latitude": "48.874316",
+    "longitude": "2.324094"
+  },
+  "id_pss": 90520,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 6151,
+  "terme_jantzen_bat": [
+    "façade-d'angle",
+    "lucarne",
+    "oeil-de-boeuf",
+    "lucarne-d'angle",
+    "dome",
+    "sculpture",
+    "fenetre-d'angle",
+    "fronton"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_6151",
+      "IndexJantzen": [
+        "dome",
+        "façade-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_6152",
+      "IndexJantzen": [
+        "dome",
+        "fenetre-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_6153",
+      "IndexJantzen": [
+        "dome",
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_6154",
+      "IndexJantzen": [
+        "dome",
+        "lucarne-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_6155",
+      "IndexJantzen": [
+        "dome",
+        "lucarne",
+        "oeil-de-boeuf"
+      ]
+    },
+    {
+      "id_pic": "image_6156",
+      "IndexJantzen": [
+        "dome",
+        "fronton",
+        "lucarne-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_6157",
+      "IndexJantzen": [
+        "dome",
+        "lucarne-d'angle",
+        "oeil-de-boeuf"
+      ]
+    },
+    {
+      "id_pic": "image_6158",
+      "IndexJantzen": [
+        "dome",
+        "lucarne",
+        "oeil-de-boeuf"
+      ]
+    },
+    {
+      "id_pic": "image_6159",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    }
+  ]
+}

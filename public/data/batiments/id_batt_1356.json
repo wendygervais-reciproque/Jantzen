@@ -1,0 +1,79 @@
+{
+  "id_bat": 1356,
+  "libelle": "19 rue Ampère",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 702,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1898",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "19 rue Ampère",
+    "numero": "19",
+    "voie": "rue Ampère"
+  },
+  "arrondissement": 17,
+  "coordonnees": {
+    "latitude": "48.885126",
+    "longitude": "2.304684"
+  },
+  "id_pss": 84563,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 312,
+  "terme_jantzen_bat": [
+    "oriel",
+    "façade",
+    "fenetre",
+    "sculpture",
+    "garde-corps",
+    "porte-fer",
+    "console"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_312",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_313",
+      "IndexJantzen": [
+        "oriel"
+      ]
+    },
+    {
+      "id_pic": "image_314",
+      "IndexJantzen": [
+        "oriel"
+      ]
+    },
+    {
+      "id_pic": "image_315",
+      "IndexJantzen": [
+        "garde-corps"
+      ]
+    },
+    {
+      "id_pic": "image_316",
+      "IndexJantzen": [
+        "console",
+        "fenetre",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_317",
+      "IndexJantzen": [
+        "fenetre",
+        "porte-fer"
+      ]
+    }
+  ]
+}

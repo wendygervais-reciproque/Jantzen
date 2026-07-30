@@ -1,0 +1,56 @@
+{
+  "id_bat": 19,
+  "libelle": "Arc du Carrousel",
+  "ensemble": "Palais du Louvre",
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": [
+    "1760-1829"
+  ],
+  "adresse": null,
+  "arrondissement": 1,
+  "coordonnees": {
+    "latitude": "48.861666666666665",
+    "longitude": "2.332777777777778"
+  },
+  "id_pss": 9918,
+  "id_wikidata": "Q631104",
+  "WPfr": "Arc de triomphe du Carrousel",
+  "image_ref": 8647,
+  "terme_jantzen_bat": [
+    "porte",
+    "sculpture",
+    "colonne",
+    "façade"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_8647",
+      "IndexJantzen": [
+        "colonne",
+        "façade",
+        "porte"
+      ]
+    },
+    {
+      "id_pic": "image_8648",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_8649",
+      "IndexJantzen": [
+        "colonne",
+        "porte"
+      ]
+    },
+    {
+      "id_pic": "image_8650",
+      "IndexJantzen": [
+        "colonne",
+        "porte"
+      ]
+    }
+  ]
+}

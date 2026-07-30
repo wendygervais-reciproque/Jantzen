@@ -27,11 +27,11 @@
   "WPfr": null,
   "image_ref": "Lourmel-38_15_§1",
   "terme_jantzen_bat": [
-    "façade-d'angle",
-    "lucarne-d'angle",
+    "fenetre-d'angle",
     "brique",
     "décor",
-    "fenetre-d'angle"
+    "façade-d'angle",
+    "lucarne-d'angle"
   ],
   "photos": [
     {
@@ -39,7 +39,8 @@
       "IndexJantzen": [
         "brique",
         "façade-d'angle"
-      ]
+      ],
+      "dateCapture": "2005:04:03"
     },
     {
       "id_pic": "Lourmel-38_15_§2",
@@ -47,21 +48,24 @@
         "brique",
         "décor",
         "fenetre-d'angle"
-      ]
+      ],
+      "dateCapture": "2005:04:03"
     },
     {
       "id_pic": "Lourmel-38_15_§3",
       "IndexJantzen": [
         "brique",
         "lucarne-d'angle"
-      ]
+      ],
+      "dateCapture": "2005:04:03"
     },
     {
       "id_pic": "Lourmel-38_15_§4",
       "IndexJantzen": [
         "brique",
         "lucarne-d'angle"
-      ]
+      ],
+      "dateCapture": "2006:09:09"
     },
     {
       "id_pic": "Lourmel-38_15_§5",
@@ -69,14 +73,16 @@
         "brique",
         "décor",
         "fenetre-d'angle"
-      ]
+      ],
+      "dateCapture": "2006:09:09"
     },
     {
       "id_pic": "Lourmel-38_15_§6",
       "IndexJantzen": [
         "brique",
         "lucarne-d'angle"
-      ]
+      ],
+      "dateCapture": "2006:09:09"
     }
   ]
 }

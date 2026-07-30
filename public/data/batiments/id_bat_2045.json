@@ -28,27 +28,29 @@
   "image_ref": "Jussieu-pl-3_5_§1",
   "terme_jantzen_bat": [
     "façade",
-    "fenetre",
+    "garde-corps",
     "décor",
     "sculpture",
     "clé",
+    "fenetre",
     "colonne",
-    "porte-bois",
-    "garde-corps"
+    "porte-bois"
   ],
   "photos": [
     {
       "id_pic": "Jussieu-pl-3_5_§1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "dateCapture": "2004:05:19"
     },
     {
       "id_pic": "Jussieu-pl-3_5_§2",
       "IndexJantzen": [
         "décor",
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2005:06:08"
     },
     {
       "id_pic": "Jussieu-pl-3_5_§4",
@@ -56,7 +58,8 @@
         "décor",
         "fenetre",
         "garde-corps"
-      ]
+      ],
+      "dateCapture": "2004:05:19"
     },
     {
       "id_pic": "Jussieu-pl-3_5_§5",
@@ -64,14 +67,16 @@
         "clé",
         "décor",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:06:08"
     },
     {
       "id_pic": "Jussieu-pl-3_5_§6",
       "IndexJantzen": [
         "colonne",
         "porte-bois"
-      ]
+      ],
+      "dateCapture": "2005:07:17"
     }
   ]
 }

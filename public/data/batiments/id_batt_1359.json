@@ -1,0 +1,116 @@
+{
+  "id_bat": 1359,
+  "libelle": "19 rue Damrémont",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 438,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1900",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "19 rue Damrémont",
+    "numero": "19",
+    "voie": "rue Damrémont"
+  },
+  "arrondissement": 18,
+  "coordonnees": {
+    "latitude": "48.888657",
+    "longitude": "2.333046"
+  },
+  "id_pss": 28539,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 3398,
+  "terme_jantzen_bat": [
+    "pilastre",
+    "lucarne",
+    "lucarne-d'angle",
+    "toiture",
+    "fenetre",
+    "décor",
+    "sculpture",
+    "fenetre-d'angle",
+    "balcon",
+    "porte-fer",
+    "console"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_3398",
+      "IndexJantzen": [
+        "fenetre-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_3399",
+      "IndexJantzen": [
+        "fenetre",
+        "porte-fer"
+      ]
+    },
+    {
+      "id_pic": "image_3400",
+      "IndexJantzen": [
+        "fenetre-d'angle",
+        "toiture"
+      ]
+    },
+    {
+      "id_pic": "image_3401",
+      "IndexJantzen": [
+        "balcon",
+        "lucarne-d'angle",
+        "pilastre"
+      ]
+    },
+    {
+      "id_pic": "image_3402",
+      "IndexJantzen": [
+        "décor",
+        "lucarne",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_3403",
+      "IndexJantzen": [
+        "console",
+        "fenetre-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_3404",
+      "IndexJantzen": [
+        "décor",
+        "fenetre",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_3405",
+      "IndexJantzen": [
+        "fenetre",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_3406",
+      "IndexJantzen": [
+        "console",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_3407",
+      "IndexJantzen": [
+        "console",
+        "sculpture"
+      ]
+    }
+  ]
+}

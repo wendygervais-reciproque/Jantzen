@@ -28,10 +28,10 @@
   "image_ref": "Laborde-de-10_8_§1",
   "terme_jantzen_bat": [
     "façade",
-    "fenetre",
     "oeil-de-boeuf",
     "décor",
-    "sculpture"
+    "sculpture",
+    "fenetre"
   ],
   "photos": [
     {
@@ -39,7 +39,8 @@
       "IndexJantzen": [
         "façade",
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2008:05:20"
     },
     {
       "id_pic": "Laborde-de-10_8_§2",
@@ -47,27 +48,31 @@
         "décor",
         "oeil-de-boeuf",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2008:05:20"
     },
     {
       "id_pic": "Laborde-de-10_8_§3",
       "IndexJantzen": [
         "décor",
         "oeil-de-boeuf"
-      ]
+      ],
+      "dateCapture": "2008:05:20"
     },
     {
       "id_pic": "Laborde-de-10_8_§4",
       "IndexJantzen": [
         "oeil-de-boeuf"
-      ]
+      ],
+      "dateCapture": "2008:05:20"
     },
     {
       "id_pic": "Laborde-de-10_8_§5",
       "IndexJantzen": [
         "décor",
         "oeil-de-boeuf"
-      ]
+      ],
+      "dateCapture": "2008:05:20"
     }
   ]
 }

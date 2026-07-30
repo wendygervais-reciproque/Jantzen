@@ -1,0 +1,56 @@
+{
+  "id_bat": 990,
+  "libelle": "15 avenue Élisée-Reclus",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 473,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1908",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "15 avenue Élisée-Reclus",
+    "numero": "15",
+    "voie": "avenue Élisée-Reclus"
+  },
+  "arrondissement": 7,
+  "coordonnees": {
+    "latitude": "48.857831",
+    "longitude": "2.298847"
+  },
+  "id_pss": 27966,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 4010,
+  "terme_jantzen_bat": [
+    "sculpture",
+    "balcon"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_4010",
+      "IndexJantzen": [
+        "balcon",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_4011",
+      "IndexJantzen": [
+        "balcon",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_4012",
+      "IndexJantzen": [
+        "balcon",
+        "sculpture"
+      ]
+    }
+  ]
+}

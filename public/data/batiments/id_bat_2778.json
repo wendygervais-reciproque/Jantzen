@@ -28,26 +28,28 @@
   "image_ref": "Diderot-49_12_§10",
   "terme_jantzen_bat": [
     "façade",
-    "porte-fer",
-    "fenetre",
+    "garde-corps",
     "décor",
     "sculpture",
+    "fenetre",
+    "porte-fer",
     "balcon",
-    "colonne",
-    "garde-corps"
+    "colonne"
   ],
   "photos": [
     {
       "id_pic": "Diderot-49_12_§10",
       "IndexJantzen": [
         "porte-fer"
-      ]
+      ],
+      "dateCapture": "2006:10:16"
     },
     {
       "id_pic": "Diderot-49_12_§6",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "dateCapture": "2004:09:16"
     },
     {
       "id_pic": "Diderot-49_12_§7",
@@ -55,14 +57,16 @@
         "décor",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2004:09:16"
     },
     {
       "id_pic": "Diderot-49_12_§8",
       "IndexJantzen": [
         "balcon",
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2004:09:16"
     },
     {
       "id_pic": "Diderot-49_12_§9",
@@ -70,7 +74,8 @@
         "colonne",
         "fenetre",
         "garde-corps"
-      ]
+      ],
+      "dateCapture": "2004:09:16"
     }
   ]
 }

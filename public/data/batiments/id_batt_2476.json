@@ -1,0 +1,73 @@
+{
+  "id_bat": 2476,
+  "libelle": "4 rue Charles-Divry",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 633,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1899",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "4 rue Charles-Divry",
+    "numero": "4",
+    "voie": "rue Charles-Divry"
+  },
+  "arrondissement": 14,
+  "coordonnees": {
+    "latitude": "48.833056",
+    "longitude": "2.327808"
+  },
+  "id_pss": 102284,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 2350,
+  "terme_jantzen_bat": [
+    "oriel",
+    "fenetre",
+    "sculpture",
+    "métal",
+    "garde-corps",
+    "console"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_2350",
+      "IndexJantzen": [
+        "fenetre",
+        "oriel"
+      ]
+    },
+    {
+      "id_pic": "image_2351",
+      "IndexJantzen": [
+        "oriel"
+      ]
+    },
+    {
+      "id_pic": "image_2352",
+      "IndexJantzen": [
+        "fenetre",
+        "garde-corps"
+      ]
+    },
+    {
+      "id_pic": "image_2353",
+      "IndexJantzen": [
+        "métal",
+        "oriel"
+      ]
+    },
+    {
+      "id_pic": "image_2354",
+      "IndexJantzen": [
+        "console",
+        "sculpture"
+      ]
+    }
+  ]
+}

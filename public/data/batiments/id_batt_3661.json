@@ -1,0 +1,100 @@
+{
+  "id_bat": 3661,
+  "libelle": "8 rue Valentin-Haüy",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 179,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1903",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "8 rue Valentin-Haüy",
+    "numero": "8",
+    "voie": "rue Valentin-Haüy"
+  },
+  "arrondissement": 15,
+  "coordonnees": {
+    "latitude": "48.846906",
+    "longitude": "2.309697"
+  },
+  "id_pss": null,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 15766,
+  "terme_jantzen_bat": [
+    "céramique",
+    "brique",
+    "clé",
+    "fenetre",
+    "sculpture",
+    "décor",
+    "garde-corps",
+    "console"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_15766",
+      "IndexJantzen": [
+        "brique",
+        "céramique",
+        "décor",
+        "fenetre",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_15767",
+      "IndexJantzen": [
+        "brique",
+        "clé",
+        "céramique",
+        "décor",
+        "fenetre",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_15768",
+      "IndexJantzen": [
+        "brique",
+        "clé",
+        "console",
+        "céramique",
+        "décor",
+        "fenetre",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_15769",
+      "IndexJantzen": [
+        "brique",
+        "clé",
+        "console",
+        "fenetre",
+        "garde-corps"
+      ]
+    },
+    {
+      "id_pic": "image_15770",
+      "IndexJantzen": [
+        "brique",
+        "clé",
+        "console",
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_15771",
+      "IndexJantzen": [
+        "console",
+        "sculpture"
+      ]
+    }
+  ]
+}

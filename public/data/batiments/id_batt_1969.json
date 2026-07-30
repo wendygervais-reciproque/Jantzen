@@ -1,0 +1,53 @@
+{
+  "id_bat": 1969,
+  "libelle": "28 boulevard Malesherbes",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 634,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": null,
+  "periode": [
+    "1870-1894"
+  ],
+  "adresse": {
+    "affichage": "28 boulevard Malesherbes",
+    "numero": "28",
+    "voie": "boulevard Malesherbes"
+  },
+  "arrondissement": 8,
+  "coordonnees": {
+    "latitude": "48.873253",
+    "longitude": "2.321268"
+  },
+  "id_pss": 25691,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 9050,
+  "terme_jantzen_bat": [
+    "porte-bois",
+    "façade"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_9050",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_9051",
+      "IndexJantzen": [
+        "porte-bois"
+      ]
+    },
+    {
+      "id_pic": "image_9052",
+      "IndexJantzen": [
+        "porte-bois"
+      ]
+    }
+  ]
+}

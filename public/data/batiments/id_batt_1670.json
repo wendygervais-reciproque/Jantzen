@@ -1,0 +1,79 @@
+{
+  "id_bat": 1670,
+  "libelle": "22 avenue Kléber",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 615,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1884",
+  "periode": [
+    "1870-1894"
+  ],
+  "adresse": {
+    "affichage": "22 avenue Kléber",
+    "numero": "22",
+    "voie": "avenue Kléber"
+  },
+  "arrondissement": 16,
+  "coordonnees": {
+    "latitude": "48.871072",
+    "longitude": "2.292787"
+  },
+  "id_pss": 77348,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 7496,
+  "terme_jantzen_bat": [
+    "clé",
+    "sculpture",
+    "fenetre",
+    "chimère",
+    "balcon",
+    "garde-corps",
+    "porte-bois",
+    "console"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_7496",
+      "IndexJantzen": [
+        "balcon",
+        "console",
+        "garde-corps"
+      ]
+    },
+    {
+      "id_pic": "image_7497",
+      "IndexJantzen": [
+        "balcon",
+        "clé",
+        "garde-corps"
+      ]
+    },
+    {
+      "id_pic": "image_7498",
+      "IndexJantzen": [
+        "chimère",
+        "clé",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_7499",
+      "IndexJantzen": [
+        "console",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_7500",
+      "IndexJantzen": [
+        "fenetre",
+        "porte-bois"
+      ]
+    }
+  ]
+}

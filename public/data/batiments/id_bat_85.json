@@ -18,14 +18,14 @@
   "WPfr": "Gare de Paris-Saint-Lazare",
   "image_ref": "Gare-St-Lazare-_8_§1",
   "terme_jantzen_bat": [
+    "oeil-de-boeuf",
+    "verrière",
     "lucarne",
-    "toiture",
-    "métal",
+    "tourelle",
     "fronton",
     "fenetre",
-    "oeil-de-boeuf",
-    "tourelle",
-    "verrière"
+    "métal",
+    "toiture"
   ],
   "photos": [
     {
@@ -33,28 +33,32 @@
       "IndexJantzen": [
         "fenetre",
         "fronton"
-      ]
+      ],
+      "dateCapture": "2005:08:10"
     },
     {
       "id_pic": "Gare-St-Lazare-_8_§2",
       "IndexJantzen": [
         "lucarne",
         "toiture"
-      ]
+      ],
+      "dateCapture": "2005:08:10"
     },
     {
       "id_pic": "St-Lazare-Gare_8_§1",
       "IndexJantzen": [
         "lucarne",
         "oeil-de-boeuf"
-      ]
+      ],
+      "dateCapture": "2006:04:04"
     },
     {
       "id_pic": "St-Lazare-Gare_8_§2",
       "IndexJantzen": [
         "lucarne",
         "oeil-de-boeuf"
-      ]
+      ],
+      "dateCapture": "2006:04:04"
     },
     {
       "id_pic": "St-Lazare-Gare_8_§3",
@@ -62,7 +66,8 @@
         "métal",
         "tourelle",
         "verrière"
-      ]
+      ],
+      "dateCapture": "2004:07:02"
     }
   ]
 }

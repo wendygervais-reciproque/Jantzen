@@ -28,15 +28,15 @@
   "image_ref": "Tourville-4_7_§1",
   "terme_jantzen_bat": [
     "façade",
-    "fenetre",
-    "oriel",
-    "fenetre-d'angle",
-    "sculpture",
-    "atlante",
     "console",
+    "garde-corps",
     "cariatide",
+    "oriel",
     "porte-bois",
-    "garde-corps"
+    "sculpture",
+    "fenetre-d'angle",
+    "fenetre",
+    "atlante"
   ],
   "photos": [
     {
@@ -44,7 +44,8 @@
       "IndexJantzen": [
         "façade",
         "oriel"
-      ]
+      ],
+      "dateCapture": "2005:03:19"
     },
     {
       "id_pic": "Tourville-4_7_§2",
@@ -52,7 +53,8 @@
         "console",
         "fenetre",
         "garde-corps"
-      ]
+      ],
+      "dateCapture": "2005:03:19"
     },
     {
       "id_pic": "Tourville-4_7_§3",
@@ -62,21 +64,24 @@
         "fenetre",
         "porte-bois",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:03:19"
     },
     {
       "id_pic": "Tourville-4_7_§4",
       "IndexJantzen": [
         "atlante",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:03:19"
     },
     {
       "id_pic": "Tourville-4_7_§5",
       "IndexJantzen": [
         "cariatide",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:03:19"
     },
     {
       "id_pic": "Tourville-4_7_§6",
@@ -85,7 +90,8 @@
         "fenetre-d'angle",
         "porte-bois",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:03:19"
     }
   ]
 }

@@ -213,6 +213,7 @@ async function renderMdGallery() {
     src:     photoUrl(ph.id_pic),
     caption: (ph.IndexJantzen || []).map(capitalize).join(' · '),
     id_pic:  ph.id_pic,
+    dateCapture: ph.dateCapture,
     ratio:   DEFAULT_RATIO
   }));
 

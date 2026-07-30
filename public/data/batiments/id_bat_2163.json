@@ -27,14 +27,14 @@
   "WPfr": null,
   "image_ref": "St-Honore-306_1_§1-Rx",
   "terme_jantzen_bat": [
-    "façade-d'angle",
     "façade",
-    "métal",
-    "toiture",
-    "lucarne-d'angle",
-    "fenetre",
+    "oriel",
     "brique",
-    "oriel"
+    "fenetre",
+    "métal",
+    "façade-d'angle",
+    "toiture",
+    "lucarne-d'angle"
   ],
   "photos": [
     {
@@ -43,7 +43,8 @@
         "fenetre",
         "métal",
         "oriel"
-      ]
+      ],
+      "dateCapture": "2011:08:20"
     },
     {
       "id_pic": "St-Honore-306_1_§2",
@@ -53,13 +54,15 @@
         "fenetre",
         "métal",
         "oriel"
-      ]
+      ],
+      "dateCapture": "2005:08:10"
     },
     {
       "id_pic": "St-Honore-306_1_§3",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "dateCapture": "2006:04:21"
     },
     {
       "id_pic": "St-Honore-306_1_§4-Rx",
@@ -67,21 +70,24 @@
         "lucarne-d'angle",
         "métal",
         "oriel"
-      ]
+      ],
+      "dateCapture": "2011:08:20"
     },
     {
       "id_pic": "St-Honore-306_1_§5",
       "IndexJantzen": [
         "lucarne-d'angle",
         "toiture"
-      ]
+      ],
+      "dateCapture": "2011:08:20"
     },
     {
       "id_pic": "St-Honore-306_1_§6",
       "IndexJantzen": [
         "lucarne-d'angle",
         "toiture"
-      ]
+      ],
+      "dateCapture": "2011:08:20"
     }
   ]
 }

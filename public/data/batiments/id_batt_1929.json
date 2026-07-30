@@ -1,0 +1,91 @@
+{
+  "id_bat": 1929,
+  "libelle": "27 boulevard des Capucines",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 255,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1914-1917",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "27 boulevard des Capucines",
+    "numero": "27",
+    "voie": "boulevard des Capucines"
+  },
+  "arrondissement": 2,
+  "coordonnees": {
+    "latitude": "48.87024",
+    "longitude": "2.330908"
+  },
+  "id_pss": 33386,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 1961,
+  "terme_jantzen_bat": [
+    "lucarne",
+    "façade",
+    "fenetre",
+    "décor",
+    "métal",
+    "verrière",
+    "mosaique"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_1961",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_1962",
+      "IndexJantzen": [
+        "fenetre",
+        "métal",
+        "verrière"
+      ]
+    },
+    {
+      "id_pic": "image_1963",
+      "IndexJantzen": [
+        "décor",
+        "fenetre",
+        "mosaique",
+        "verrière"
+      ]
+    },
+    {
+      "id_pic": "image_1964",
+      "IndexJantzen": [
+        "décor",
+        "fenetre",
+        "mosaique"
+      ]
+    },
+    {
+      "id_pic": "image_1965",
+      "IndexJantzen": [
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_1966",
+      "IndexJantzen": [
+        "décor",
+        "fenetre",
+        "mosaique"
+      ]
+    },
+    {
+      "id_pic": "image_1967",
+      "IndexJantzen": [
+        "lucarne"
+      ]
+    }
+  ]
+}

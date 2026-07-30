@@ -28,10 +28,10 @@
   "image_ref": "Commerce-36_15_§2",
   "terme_jantzen_bat": [
     "lucarne",
-    "porte-fer",
-    "fenetre",
     "fenetre-d'angle",
-    "sculpture"
+    "sculpture",
+    "fenetre",
+    "porte-fer"
   ],
   "photos": [
     {
@@ -39,28 +39,32 @@
       "IndexJantzen": [
         "fenetre-d'angle",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2004:09:06"
     },
     {
       "id_pic": "Commerce-36_15_§3",
       "IndexJantzen": [
         "fenetre-d'angle",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2004:09:06"
     },
     {
       "id_pic": "Commerce-36_15_§4",
       "IndexJantzen": [
         "fenetre",
         "porte-fer"
-      ]
+      ],
+      "dateCapture": "2004:09:07"
     },
     {
       "id_pic": "Commerce-36_15_§5",
       "IndexJantzen": [
         "fenetre",
         "porte-fer"
-      ]
+      ],
+      "dateCapture": "2006:06:18"
     }
   ]
 }

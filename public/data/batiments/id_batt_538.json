@@ -1,0 +1,87 @@
+{
+  "id_bat": 538,
+  "libelle": "113 rue Caulaincourt",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 344,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1893",
+  "periode": [
+    "1870-1894"
+  ],
+  "adresse": {
+    "affichage": "113 rue Caulaincourt",
+    "numero": "113",
+    "voie": "rue Caulaincourt"
+  },
+  "arrondissement": 18,
+  "coordonnees": {
+    "latitude": "48.889799",
+    "longitude": "2.340597"
+  },
+  "id_pss": 41687,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 2055,
+  "terme_jantzen_bat": [
+    "lucarne",
+    "façade",
+    "toiture",
+    "sculpture",
+    "fenetre",
+    "porte-bois",
+    "console"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_2055",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_2056",
+      "IndexJantzen": [
+        "lucarne",
+        "toiture"
+      ]
+    },
+    {
+      "id_pic": "image_2057",
+      "IndexJantzen": [
+        "lucarne",
+        "toiture"
+      ]
+    },
+    {
+      "id_pic": "image_2058",
+      "IndexJantzen": [
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_2059",
+      "IndexJantzen": [
+        "console",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_2060",
+      "IndexJantzen": [
+        "fenetre",
+        "porte-bois"
+      ]
+    },
+    {
+      "id_pic": "image_2061",
+      "IndexJantzen": [
+        "fenetre",
+        "porte-bois"
+      ]
+    }
+  ]
+}

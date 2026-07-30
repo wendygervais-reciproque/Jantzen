@@ -23,9 +23,9 @@
   "image_ref": "Grande-Chaumiere-6_6_§1",
   "terme_jantzen_bat": [
     "brique",
-    "façade",
     "verrière",
-    "porte-bois"
+    "porte-bois",
+    "façade"
   ],
   "photos": [
     {
@@ -34,14 +34,16 @@
         "brique",
         "façade",
         "verrière"
-      ]
+      ],
+      "dateCapture": "2005:05:09"
     },
     {
       "id_pic": "Grande-Chaumiere-6_6_§2",
       "IndexJantzen": [
         "brique",
         "porte-bois"
-      ]
+      ],
+      "dateCapture": "2005:05:09"
     }
   ]
 }

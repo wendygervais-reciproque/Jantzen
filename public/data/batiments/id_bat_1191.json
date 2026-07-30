@@ -27,29 +27,32 @@
   "WPfr": null,
   "image_ref": "Breteuil-17_7_§1",
   "terme_jantzen_bat": [
-    "lucarne",
     "façade",
-    "oeil-de-boeuf"
+    "oeil-de-boeuf",
+    "lucarne"
   ],
   "photos": [
     {
       "id_pic": "Breteuil-17_7_§1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "dateCapture": "2005:03:19"
     },
     {
       "id_pic": "Breteuil-17_7_§2",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2005:03:19"
     },
     {
       "id_pic": "Breteuil-17_7_§3",
       "IndexJantzen": [
         "lucarne",
         "oeil-de-boeuf"
-      ]
+      ],
+      "dateCapture": "2005:03:19"
     }
   ]
 }

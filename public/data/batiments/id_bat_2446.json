@@ -27,11 +27,11 @@
   "WPfr": null,
   "image_ref": "Victoires-Pl-4-8_2_§1",
   "terme_jantzen_bat": [
-    "lucarne",
     "façade",
-    "fenetre",
+    "lucarne",
     "décor",
-    "sculpture"
+    "sculpture",
+    "fenetre"
   ],
   "photos": [
     {
@@ -39,7 +39,8 @@
       "IndexJantzen": [
         "façade",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2007:06:02"
     },
     {
       "id_pic": "Victoires-Pl-4-8_2_§2",
@@ -48,13 +49,15 @@
         "fenetre",
         "lucarne",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2008:02:17"
     },
     {
       "id_pic": "Victoires-Pl-4-8_2_§3",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2008:02:17"
     }
   ]
 }

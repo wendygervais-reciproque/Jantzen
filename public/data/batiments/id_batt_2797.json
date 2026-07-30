@@ -1,0 +1,63 @@
+{
+  "id_bat": 2797,
+  "libelle": "49b rue Custine",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 436,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1905",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "49b rue Custine",
+    "numero": "49b",
+    "voie": "rue Custine"
+  },
+  "arrondissement": 18,
+  "coordonnees": {
+    "latitude": "48.889429",
+    "longitude": "2.343884"
+  },
+  "id_pss": 19891,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 3364,
+  "terme_jantzen_bat": [
+    "sculpture",
+    "lucarne",
+    "porte-fer-hall",
+    "fenetre"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_3364",
+      "IndexJantzen": [
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_3365",
+      "IndexJantzen": [
+        "fenetre",
+        "lucarne",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_3366",
+      "IndexJantzen": [
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_3367",
+      "IndexJantzen": [
+        "porte-fer-hall"
+      ]
+    }
+  ]
+}

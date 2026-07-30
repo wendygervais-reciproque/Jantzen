@@ -28,8 +28,8 @@
   "image_ref": "Ours-6_3_§1",
   "terme_jantzen_bat": [
     "fenetre",
-    "lucarne",
-    "porte-fer"
+    "porte-fer",
+    "lucarne"
   ],
   "photos": [
     {
@@ -37,13 +37,15 @@
       "IndexJantzen": [
         "fenetre",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2004:09:01"
     },
     {
       "id_pic": "Ours-6_3_§2",
       "IndexJantzen": [
         "porte-fer"
-      ]
+      ],
+      "dateCapture": "2004:09:02"
     }
   ]
 }

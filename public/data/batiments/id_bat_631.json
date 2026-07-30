@@ -28,12 +28,12 @@
   "image_ref": "Bouchut-12_15_§1",
   "terme_jantzen_bat": [
     "façade",
-    "métal",
     "garde-corps",
+    "oriel",
     "brique",
-    "fenetre",
     "décor",
-    "oriel"
+    "fenetre",
+    "métal"
   ],
   "photos": [
     {
@@ -42,14 +42,16 @@
         "brique",
         "décor",
         "façade"
-      ]
+      ],
+      "dateCapture": "2008:03:31"
     },
     {
       "id_pic": "Bouchut-12_15_§2",
       "IndexJantzen": [
         "brique",
         "oriel"
-      ]
+      ],
+      "dateCapture": "2006:06:18"
     },
     {
       "id_pic": "Bouchut-12_15_§3",
@@ -57,14 +59,16 @@
         "brique",
         "métal",
         "oriel"
-      ]
+      ],
+      "dateCapture": "2006:06:18"
     },
     {
       "id_pic": "Bouchut-12_15_§4",
       "IndexJantzen": [
         "fenetre",
         "garde-corps"
-      ]
+      ],
+      "dateCapture": "2008:03:31"
     }
   ]
 }

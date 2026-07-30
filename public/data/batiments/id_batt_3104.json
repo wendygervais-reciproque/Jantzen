@@ -1,0 +1,81 @@
+{
+  "id_bat": 3104,
+  "libelle": "6 place d'Iéna",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 657,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1888",
+  "periode": [
+    "1870-1894"
+  ],
+  "adresse": {
+    "affichage": "6 place d'Iéna",
+    "numero": "6",
+    "voie": "place d'Iéna"
+  },
+  "arrondissement": 16,
+  "coordonnees": {
+    "latitude": "48.865019",
+    "longitude": "2.293702"
+  },
+  "id_pss": 28195,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 6616,
+  "terme_jantzen_bat": [
+    "façade-d'angle",
+    "colonne",
+    "dome",
+    "fenetre",
+    "décor",
+    "fenetre-d'angle",
+    "tour"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_6616",
+      "IndexJantzen": [
+        "dome",
+        "façade-d'angle",
+        "tour"
+      ]
+    },
+    {
+      "id_pic": "image_6617",
+      "IndexJantzen": [
+        "dome",
+        "façade-d'angle",
+        "tour"
+      ]
+    },
+    {
+      "id_pic": "image_6618",
+      "IndexJantzen": [
+        "fenetre-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_6619",
+      "IndexJantzen": [
+        "fenetre-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_6620",
+      "IndexJantzen": [
+        "colonne",
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_6621",
+      "IndexJantzen": [
+        "décor"
+      ]
+    }
+  ]
+}

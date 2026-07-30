@@ -1,0 +1,55 @@
+{
+  "id_bat": 3013,
+  "libelle": "55 quai d'Orsay",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 457,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1913",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "55 quai d'Orsay",
+    "numero": "55",
+    "voie": "quai d'Orsay"
+  },
+  "arrondissement": 7,
+  "coordonnees": {
+    "latitude": "48.862302",
+    "longitude": "2.308504"
+  },
+  "id_pss": 27933,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 10897,
+  "terme_jantzen_bat": [
+    "porte-fer",
+    "sculpture",
+    "clé"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_10897",
+      "IndexJantzen": [
+        "porte-fer"
+      ]
+    },
+    {
+      "id_pic": "image_10898",
+      "IndexJantzen": [
+        "porte-fer"
+      ]
+    },
+    {
+      "id_pic": "image_10899",
+      "IndexJantzen": [
+        "clé",
+        "sculpture"
+      ]
+    }
+  ]
+}

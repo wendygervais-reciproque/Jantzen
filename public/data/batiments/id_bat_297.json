@@ -28,9 +28,9 @@
   "image_ref": "Pantheon-pl-10_5_§1",
   "terme_jantzen_bat": [
     "façade",
-    "fenetre",
     "décor",
     "sculpture",
+    "fenetre",
     "pilastre"
   ],
   "photos": [
@@ -38,7 +38,8 @@
       "id_pic": "Pantheon-pl-10_5_§1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "dateCapture": "2005:08:29"
     },
     {
       "id_pic": "Pantheon-pl-10_5_§2",
@@ -47,13 +48,15 @@
         "fenetre",
         "pilastre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:08:29"
     },
     {
       "id_pic": "Pantheon-pl-10_5_§3",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2005:08:29"
     }
   ]
 }

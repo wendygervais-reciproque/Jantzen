@@ -22,10 +22,10 @@
   "WPfr": null,
   "image_ref": "President-Kennedy-24_16_§1",
   "terme_jantzen_bat": [
-    "dome",
-    "fenetre-d'angle",
+    "porte-fer",
     "lucarne-d'angle",
-    "porte-fer"
+    "dome",
+    "fenetre-d'angle"
   ],
   "photos": [
     {
@@ -33,27 +33,31 @@
       "IndexJantzen": [
         "dome",
         "fenetre-d'angle"
-      ]
+      ],
+      "dateCapture": "2007:02:04"
     },
     {
       "id_pic": "President-Kennedy-24_16_§2",
       "IndexJantzen": [
         "dome",
         "lucarne-d'angle"
-      ]
+      ],
+      "dateCapture": "2007:02:04"
     },
     {
       "id_pic": "President-Kennedy-24_16_§3",
       "IndexJantzen": [
         "fenetre-d'angle",
         "porte-fer"
-      ]
+      ],
+      "dateCapture": "2007:02:04"
     },
     {
       "id_pic": "President-Kennedy-24_16_§4",
       "IndexJantzen": [
         "porte-fer"
-      ]
+      ],
+      "dateCapture": "2007:02:04"
     }
   ]
 }

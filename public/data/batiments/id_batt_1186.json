@@ -1,0 +1,62 @@
+{
+  "id_bat": 1186,
+  "libelle": "16B avenue Élisée-Reclus",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 46,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1908",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "16B avenue Élisée-Reclus",
+    "numero": "16B",
+    "voie": "avenue Élisée-Reclus"
+  },
+  "arrondissement": 7,
+  "coordonnees": {
+    "latitude": "48.857787",
+    "longitude": "2.298391"
+  },
+  "id_pss": 27964,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 4013,
+  "terme_jantzen_bat": [
+    "lucarne",
+    "toiture",
+    "fenetre"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_4013",
+      "IndexJantzen": [
+        "lucarne",
+        "toiture"
+      ]
+    },
+    {
+      "id_pic": "image_4014",
+      "IndexJantzen": [
+        "fenetre",
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_4015",
+      "IndexJantzen": [
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_4016",
+      "IndexJantzen": [
+        "lucarne"
+      ]
+    }
+  ]
+}

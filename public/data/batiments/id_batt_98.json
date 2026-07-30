@@ -1,0 +1,60 @@
+{
+  "id_bat": 98,
+  "libelle": "Hôtel Passart",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": "1620",
+  "periode": [
+    "1590-1659"
+  ],
+  "adresse": null,
+  "arrondissement": 3,
+  "coordonnees": {
+    "latitude": "48.86324",
+    "longitude": "2.357208"
+  },
+  "id_pss": null,
+  "id_wikidata": "Q22921270",
+  "WPfr": "Hôtel Passart",
+  "image_ref": 2307,
+  "terme_jantzen_bat": [
+    "fenetre",
+    "fronton",
+    "lucarne",
+    "façade"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_2307",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_2308",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_2309",
+      "IndexJantzen": [
+        "façade",
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_2310",
+      "IndexJantzen": [
+        "fenetre",
+        "fronton"
+      ]
+    },
+    {
+      "id_pic": "image_2311",
+      "IndexJantzen": [
+        "lucarne"
+      ]
+    }
+  ]
+}

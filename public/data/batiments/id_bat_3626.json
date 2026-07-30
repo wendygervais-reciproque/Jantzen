@@ -27,67 +27,75 @@
   "WPfr": null,
   "image_ref": "Richelieu-8_1_§1_1-Rx",
   "terme_jantzen_bat": [
-    "porte",
-    "lucarne",
-    "façade-d'angle",
-    "lucarne-d'angle",
-    "décor",
-    "fenetre-d'angle",
-    "sculpture",
-    "pignon",
-    "balcon",
     "loggia",
-    "colonne"
+    "lucarne",
+    "fenetre-d'angle",
+    "décor",
+    "porte",
+    "sculpture",
+    "façade-d'angle",
+    "colonne",
+    "balcon",
+    "lucarne-d'angle",
+    "pignon"
   ],
   "photos": [
     {
       "id_pic": "Richelieu-8_1_§1_1-Rx",
       "IndexJantzen": [
         "façade-d'angle"
-      ]
+      ],
+      "dateCapture": "2014:02:18"
     },
     {
       "id_pic": "Richelieu-8_1_§10",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2006:04:07"
     },
     {
       "id_pic": "Richelieu-8_1_§11_1-Rx",
       "IndexJantzen": [
         "lucarne-d'angle"
-      ]
+      ],
+      "dateCapture": "2013:02:18"
     },
     {
       "id_pic": "Richelieu-8_1_§12",
       "IndexJantzen": [
         "lucarne-d'angle"
-      ]
+      ],
+      "dateCapture": "2006:04:07"
     },
     {
       "id_pic": "Richelieu-8_1_§2",
       "IndexJantzen": [
         "façade-d'angle",
         "porte"
-      ]
+      ],
+      "dateCapture": "2004:09:01"
     },
     {
       "id_pic": "Richelieu-8_1_§3",
       "IndexJantzen": [
         "fenetre-d'angle"
-      ]
+      ],
+      "dateCapture": "2010:04:18"
     },
     {
       "id_pic": "Richelieu-8_1_§4",
       "IndexJantzen": [
         "façade-d'angle"
-      ]
+      ],
+      "dateCapture": "2006:04:07"
     },
     {
       "id_pic": "Richelieu-8_1_§5",
       "IndexJantzen": [
         "fenetre-d'angle"
-      ]
+      ],
+      "dateCapture": "2004:09:01"
     },
     {
       "id_pic": "Richelieu-8_1_§6",
@@ -96,14 +104,16 @@
         "lucarne-d'angle",
         "pignon",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2010:04:18"
     },
     {
       "id_pic": "Richelieu-8_1_§7",
       "IndexJantzen": [
         "lucarne-d'angle",
         "pignon"
-      ]
+      ],
+      "dateCapture": "2006:04:07"
     },
     {
       "id_pic": "Richelieu-8_1_§8",
@@ -111,14 +121,16 @@
         "colonne",
         "loggia",
         "lucarne-d'angle"
-      ]
+      ],
+      "dateCapture": "2006:04:07"
     },
     {
       "id_pic": "Richelieu-8_1_§9",
       "IndexJantzen": [
         "balcon",
         "lucarne-d'angle"
-      ]
+      ],
+      "dateCapture": "2010:04:18"
     }
   ]
 }

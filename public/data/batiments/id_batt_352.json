@@ -1,0 +1,64 @@
+{
+  "id_bat": 352,
+  "libelle": "10 rue Saint-Augustin",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": [
+    "1830-1849"
+  ],
+  "adresse": {
+    "affichage": "10 rue Saint-Augustin",
+    "numero": "10",
+    "voie": "rue Saint-Augustin"
+  },
+  "arrondissement": 2,
+  "coordonnees": {
+    "latitude": "48.868931",
+    "longitude": "2.337141"
+  },
+  "id_pss": null,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 13970,
+  "terme_jantzen_bat": [
+    "garde-corps",
+    "sculpture",
+    "console",
+    "fenetre"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_13970",
+      "IndexJantzen": [
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_13971",
+      "IndexJantzen": [
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_13972",
+      "IndexJantzen": [
+        "fenetre",
+        "garde-corps"
+      ]
+    },
+    {
+      "id_pic": "image_13973",
+      "IndexJantzen": [
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_13974",
+      "IndexJantzen": [
+        "console",
+        "sculpture"
+      ]
+    }
+  ]
+}

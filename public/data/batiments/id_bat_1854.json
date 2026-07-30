@@ -28,10 +28,10 @@
   "image_ref": "Faubourg-St-Antoine-25_11_§1",
   "terme_jantzen_bat": [
     "façade",
-    "métal",
+    "verrière",
     "fenetre",
-    "colonne",
-    "verrière"
+    "métal",
+    "colonne"
   ],
   "photos": [
     {
@@ -39,7 +39,8 @@
       "IndexJantzen": [
         "façade",
         "métal"
-      ]
+      ],
+      "dateCapture": "2007:04:11"
     },
     {
       "id_pic": "Faubourg-St-Antoine-25_11_§2",
@@ -47,7 +48,8 @@
         "façade",
         "métal",
         "verrière"
-      ]
+      ],
+      "dateCapture": "2004:09:16"
     },
     {
       "id_pic": "Faubourg-St-Antoine-25_11_§3",
@@ -55,21 +57,24 @@
         "colonne",
         "fenetre",
         "métal"
-      ]
+      ],
+      "dateCapture": "2007:04:11"
     },
     {
       "id_pic": "Faubourg-St-Antoine-25_11_§4",
       "IndexJantzen": [
         "colonne",
         "métal"
-      ]
+      ],
+      "dateCapture": "2007:04:11"
     },
     {
       "id_pic": "Faubourg-St-Antoine-25_11_§5",
       "IndexJantzen": [
         "colonne",
         "métal"
-      ]
+      ],
+      "dateCapture": "2004:09:16"
     }
   ]
 }

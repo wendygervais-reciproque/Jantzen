@@ -1,0 +1,40 @@
+{
+  "id_bat": 2380,
+  "libelle": "38 rue Boulard",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 633,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": null,
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "38 rue Boulard",
+    "numero": "38",
+    "voie": "rue Boulard"
+  },
+  "arrondissement": 14,
+  "coordonnees": {
+    "latitude": "48.833256",
+    "longitude": "2.328316"
+  },
+  "id_pss": 102287,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 1483,
+  "terme_jantzen_bat": [
+    "fenetre"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_1483",
+      "IndexJantzen": [
+        "fenetre"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "id_bat": 1253,
+  "libelle": "172 avenue du Maine",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 93,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1913",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "172 avenue du Maine",
+    "numero": "172",
+    "voie": "avenue du Maine"
+  },
+  "arrondissement": 14,
+  "coordonnees": {
+    "latitude": "48.832584",
+    "longitude": "2.32467"
+  },
+  "id_pss": 4606,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 8984,
+  "terme_jantzen_bat": [
+    "façade-d'angle",
+    "loggia",
+    "lucarne",
+    "colonne",
+    "fenetre",
+    "sculpture",
+    "décor",
+    "fenetre-d'angle",
+    "balcon",
+    "garde-corps",
+    "console"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_8984",
+      "IndexJantzen": [
+        "balcon",
+        "fenetre",
+        "garde-corps"
+      ]
+    },
+    {
+      "id_pic": "image_8985",
+      "IndexJantzen": [
+        "balcon",
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_8986",
+      "IndexJantzen": [
+        "console",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_8987",
+      "IndexJantzen": [
+        "balcon",
+        "décor",
+        "fenetre-d'angle",
+        "loggia",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_8988",
+      "IndexJantzen": [
+        "balcon",
+        "console",
+        "loggia"
+      ]
+    },
+    {
+      "id_pic": "image_8989",
+      "IndexJantzen": [
+        "façade-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_8990",
+      "IndexJantzen": [
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_8991",
+      "IndexJantzen": [
+        "fenetre",
+        "loggia"
+      ]
+    },
+    {
+      "id_pic": "image_8992",
+      "IndexJantzen": [
+        "loggia"
+      ]
+    },
+    {
+      "id_pic": "image_8993",
+      "IndexJantzen": [
+        "colonne",
+        "loggia",
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_8994",
+      "IndexJantzen": [
+        "console",
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_8995",
+      "IndexJantzen": [
+        "balcon",
+        "fenetre"
+      ]
+    }
+  ]
+}

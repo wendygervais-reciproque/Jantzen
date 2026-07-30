@@ -22,11 +22,11 @@
   "WPfr": null,
   "image_ref": "Anjou-qu-17_4_§1",
   "terme_jantzen_bat": [
-    "fenetre",
+    "garde-corps",
     "poignée-porte",
+    "fenetre",
     "balcon",
-    "porte-bois",
-    "garde-corps"
+    "porte-bois"
   ],
   "photos": [
     {
@@ -34,27 +34,31 @@
       "IndexJantzen": [
         "fenetre",
         "porte-bois"
-      ]
+      ],
+      "dateCapture": "2005:07:03"
     },
     {
       "id_pic": "Anjou-qu-17_4_§2",
       "IndexJantzen": [
         "balcon",
         "garde-corps"
-      ]
+      ],
+      "dateCapture": "2005:07:03"
     },
     {
       "id_pic": "Anjou-Qu17_4_M",
       "IndexJantzen": [
         "poignée-porte"
-      ]
+      ],
+      "dateCapture": "2003:08:03"
     },
     {
       "id_pic": "Anjou-Qu17_4_N1",
       "IndexJantzen": [
         "fenetre",
         "porte-bois"
-      ]
+      ],
+      "dateCapture": "2003:08:03"
     }
   ]
 }

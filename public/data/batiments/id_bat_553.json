@@ -22,10 +22,10 @@
   "WPfr": null,
   "image_ref": "Grenelle-115_7_§1",
   "terme_jantzen_bat": [
-    "porte",
     "façade",
-    "porte-bois",
-    "fenetre"
+    "porte",
+    "fenetre",
+    "porte-bois"
   ],
   "photos": [
     {
@@ -33,14 +33,16 @@
       "IndexJantzen": [
         "façade",
         "porte"
-      ]
+      ],
+      "dateCapture": "2006:06:03"
     },
     {
       "id_pic": "Grenelle-115_7_§2",
       "IndexJantzen": [
         "fenetre",
         "porte-bois"
-      ]
+      ],
+      "dateCapture": "2006:06:03"
     }
   ]
 }

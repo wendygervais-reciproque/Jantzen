@@ -22,40 +22,44 @@
   "WPfr": null,
   "image_ref": "Spontini-46_16_§1",
   "terme_jantzen_bat": [
-    "façade-d'angle",
-    "toiture",
-    "lucarne-d'angle",
-    "fenetre",
+    "console",
     "sculpture",
-    "console"
+    "fenetre",
+    "façade-d'angle",
+    "lucarne-d'angle",
+    "toiture"
   ],
   "photos": [
     {
       "id_pic": "Spontini-46_16_§1",
       "IndexJantzen": [
         "façade-d'angle"
-      ]
+      ],
+      "dateCapture": "2008:07:27"
     },
     {
       "id_pic": "Spontini-46_16_§2",
       "IndexJantzen": [
         "lucarne-d'angle",
         "toiture"
-      ]
+      ],
+      "dateCapture": "2008:07:27"
     },
     {
       "id_pic": "Spontini-46_16_§3",
       "IndexJantzen": [
         "console",
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2008:07:27"
     },
     {
       "id_pic": "Spontini-46_16_§4",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2008:07:27"
     }
   ]
 }

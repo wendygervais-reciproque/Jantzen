@@ -28,11 +28,11 @@
   "image_ref": "Emile-Deschanel-11B_7_§1",
   "terme_jantzen_bat": [
     "lucarne",
-    "fronton",
-    "lucarne-d'angle",
     "fenetre-d'angle",
+    "fronton",
+    "clé",
     "sculpture",
-    "clé"
+    "lucarne-d'angle"
   ],
   "photos": [
     {
@@ -40,21 +40,24 @@
       "IndexJantzen": [
         "fenetre-d'angle",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2006:03:27"
     },
     {
       "id_pic": "Emile-Deschanel-11B_7_§2",
       "IndexJantzen": [
         "fronton",
         "lucarne-d'angle"
-      ]
+      ],
+      "dateCapture": "2004:04:26"
     },
     {
       "id_pic": "Emile-Deschanel-11B_7_§3",
       "IndexJantzen": [
         "clé",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2004:04:26"
     }
   ]
 }

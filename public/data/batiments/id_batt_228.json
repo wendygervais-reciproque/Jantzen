@@ -1,0 +1,68 @@
+{
+  "id_bat": 228,
+  "libelle": "1 rue Dorian",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": "1912",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "1 rue Dorian",
+    "numero": "1",
+    "voie": "rue Dorian"
+  },
+  "arrondissement": 12,
+  "coordonnees": {
+    "latitude": "48.846958",
+    "longitude": "2.393456"
+  },
+  "id_pss": 55285,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 3802,
+  "terme_jantzen_bat": [
+    "façade-d'angle",
+    "fenetre",
+    "sculpture",
+    "fenetre-d'angle",
+    "garde-corps",
+    "console"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_3802",
+      "IndexJantzen": [
+        "façade-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_3803",
+      "IndexJantzen": [
+        "fenetre-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_3804",
+      "IndexJantzen": [
+        "fenetre-d'angle",
+        "garde-corps"
+      ]
+    },
+    {
+      "id_pic": "image_3805",
+      "IndexJantzen": [
+        "console",
+        "fenetre",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_3806",
+      "IndexJantzen": [
+        "console",
+        "sculpture"
+      ]
+    }
+  ]
+}

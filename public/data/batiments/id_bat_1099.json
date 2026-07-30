@@ -22,24 +22,26 @@
   "WPfr": null,
   "image_ref": "Matignon-16_8_§1",
   "terme_jantzen_bat": [
-    "porte",
     "façade",
-    "fenetre",
     "décor",
-    "sculpture"
+    "sculpture",
+    "porte",
+    "fenetre"
   ],
   "photos": [
     {
       "id_pic": "Matignon-16_8_§1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "dateCapture": "2009:07:16"
     },
     {
       "id_pic": "Matignon-16_8_§2",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2009:07:16"
     },
     {
       "id_pic": "Matignon-16_8_§3",
@@ -47,20 +49,23 @@
         "décor",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2009:07:16"
     },
     {
       "id_pic": "Matignon-16_8_§4",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2009:07:16"
     },
     {
       "id_pic": "Matignon-16_8_§5",
       "IndexJantzen": [
         "fenetre",
         "porte"
-      ]
+      ],
+      "dateCapture": "2009:07:16"
     }
   ]
 }

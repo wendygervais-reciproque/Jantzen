@@ -22,17 +22,18 @@
   "WPfr": null,
   "image_ref": "Madeleine-pl-7_8_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "façade",
+    "sculpture",
     "décor",
-    "sculpture"
+    "fenetre"
   ],
   "photos": [
     {
       "id_pic": "Madeleine-pl-7_8_§1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "dateCapture": "2010:05:23"
     },
     {
       "id_pic": "Madeleine-pl-7_8_§2",
@@ -40,7 +41,8 @@
         "décor",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2010:05:23"
     }
   ]
 }

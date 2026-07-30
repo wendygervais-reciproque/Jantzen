@@ -1,0 +1,93 @@
+{
+  "id_bat": 1249,
+  "libelle": "170 boulevard Haussmann",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 420,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1900",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "170 boulevard Haussmann",
+    "numero": "170",
+    "voie": "boulevard Haussmann"
+  },
+  "arrondissement": 8,
+  "coordonnees": {
+    "latitude": "48.875177",
+    "longitude": "2.308612"
+  },
+  "id_pss": null,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 5991,
+  "terme_jantzen_bat": [
+    "façade-d'angle",
+    "lucarne",
+    "oeil-de-boeuf",
+    "dome",
+    "fenetre-d'angle",
+    "balcon",
+    "intérieur",
+    "porte-fer"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_5991",
+      "IndexJantzen": [
+        "dome",
+        "façade-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_5992",
+      "IndexJantzen": [
+        "balcon",
+        "fenetre-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_5993",
+      "IndexJantzen": [
+        "dome",
+        "fenetre-d'angle",
+        "lucarne",
+        "oeil-de-boeuf"
+      ]
+    },
+    {
+      "id_pic": "image_5994",
+      "IndexJantzen": [
+        "dome",
+        "lucarne",
+        "oeil-de-boeuf"
+      ]
+    },
+    {
+      "id_pic": "image_5995",
+      "IndexJantzen": [
+        "dome",
+        "lucarne",
+        "oeil-de-boeuf"
+      ]
+    },
+    {
+      "id_pic": "image_5996",
+      "IndexJantzen": [
+        "porte-fer"
+      ]
+    },
+    {
+      "id_pic": "image_5997",
+      "IndexJantzen": [
+        "intérieur",
+        "porte-fer"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "id_bat": 1201,
+  "libelle": "17 boulevard Raspail",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 78,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1910",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "17 boulevard Raspail",
+    "numero": "17",
+    "voie": "boulevard Raspail"
+  },
+  "arrondissement": 7,
+  "coordonnees": {
+    "latitude": "48.854045",
+    "longitude": "2.326327"
+  },
+  "id_pss": 28767,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 12393,
+  "terme_jantzen_bat": [
+    "façade-d'angle",
+    "lucarne",
+    "colonne",
+    "porte-fer-hall",
+    "fenetre-d'angle",
+    "pignon"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_12393",
+      "IndexJantzen": [
+        "façade-d'angle",
+        "pignon"
+      ]
+    },
+    {
+      "id_pic": "image_12394",
+      "IndexJantzen": [
+        "fenetre-d'angle",
+        "pignon"
+      ]
+    },
+    {
+      "id_pic": "image_12395",
+      "IndexJantzen": [
+        "fenetre-d'angle",
+        "lucarne",
+        "pignon"
+      ]
+    },
+    {
+      "id_pic": "image_12396",
+      "IndexJantzen": [
+        "fenetre-d'angle",
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_12397",
+      "IndexJantzen": [
+        "colonne",
+        "porte-fer-hall"
+      ]
+    }
+  ]
+}

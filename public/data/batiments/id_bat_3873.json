@@ -27,17 +27,18 @@
   "WPfr": null,
   "image_ref": "Courcelles-bd-92_17_§1",
   "terme_jantzen_bat": [
-    "clé",
     "porte-bois",
-    "poignée-porte",
-    "sculpture"
+    "sculpture",
+    "clé",
+    "poignée-porte"
   ],
   "photos": [
     {
       "id_pic": "Courcelles-bd-92_17_§1",
       "IndexJantzen": [
         "porte-bois"
-      ]
+      ],
+      "dateCapture": "2007:03:28"
     },
     {
       "id_pic": "Courcelles-bd-92_17_§1b",
@@ -45,20 +46,23 @@
         "clé",
         "porte-bois",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2019:10:01"
     },
     {
       "id_pic": "Courcelles-bd-92_17_§2",
       "IndexJantzen": [
         "clé",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:06:09"
     },
     {
       "id_pic": "Courcelles-bd-92_17_§3",
       "IndexJantzen": [
         "poignée-porte"
-      ]
+      ],
+      "dateCapture": "2006:06:09"
     }
   ]
 }

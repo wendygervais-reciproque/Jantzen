@@ -27,15 +27,15 @@
   "WPfr": null,
   "image_ref": "Picpus-bd-63_12_§1",
   "terme_jantzen_bat": [
-    "façade-d'angle",
-    "porte-fer",
-    "fenetre",
-    "tour",
-    "dome",
+    "garde-corps",
     "fenetre-d'angle",
+    "tour",
     "clé",
+    "fenetre",
+    "porte-fer",
+    "façade-d'angle",
     "pilastre",
-    "garde-corps"
+    "dome"
   ],
   "photos": [
     {
@@ -44,7 +44,8 @@
         "dome",
         "façade-d'angle",
         "tour"
-      ]
+      ],
+      "dateCapture": "2004:09:16"
     },
     {
       "id_pic": "Picpus-bd-63_12_§2",
@@ -52,14 +53,16 @@
         "dome",
         "fenetre-d'angle",
         "tour"
-      ]
+      ],
+      "dateCapture": "2004:09:16"
     },
     {
       "id_pic": "Picpus-bd-63_12_§3",
       "IndexJantzen": [
         "dome",
         "fenetre-d'angle"
-      ]
+      ],
+      "dateCapture": "2005:07:15"
     },
     {
       "id_pic": "Picpus-bd-63_12_§4",
@@ -68,14 +71,16 @@
         "fenetre-d'angle",
         "garde-corps",
         "pilastre"
-      ]
+      ],
+      "dateCapture": "2005:07:15"
     },
     {
       "id_pic": "Picpus-bd-63_12_§5",
       "IndexJantzen": [
         "fenetre",
         "porte-fer"
-      ]
+      ],
+      "dateCapture": "2005:07:15"
     }
   ]
 }

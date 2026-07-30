@@ -1,0 +1,46 @@
+{
+  "id_bat": 2033,
+  "libelle": "3 avenue Émile-Deschanel",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 27,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1908",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "3 avenue Émile-Deschanel",
+    "numero": "3",
+    "voie": "avenue Émile-Deschanel"
+  },
+  "arrondissement": 7,
+  "coordonnees": {
+    "latitude": "48.856723",
+    "longitude": "2.300578"
+  },
+  "id_pss": 27972,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 4065,
+  "terme_jantzen_bat": [
+    "fenetre",
+    "loggia",
+    "sculpture",
+    "décor"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_4065",
+      "IndexJantzen": [
+        "décor",
+        "fenetre",
+        "loggia",
+        "sculpture"
+      ]
+    }
+  ]
+}

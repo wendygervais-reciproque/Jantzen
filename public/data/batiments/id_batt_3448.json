@@ -1,0 +1,63 @@
+{
+  "id_bat": 3448,
+  "libelle": "7 rue Victor-Considérant",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "7 rue Victor-Considérant",
+    "numero": "7",
+    "voie": "rue Victor-Considérant"
+  },
+  "arrondissement": 14,
+  "coordonnees": {
+    "latitude": "48.835361",
+    "longitude": "2.330674"
+  },
+  "id_pss": 56045,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 16338,
+  "terme_jantzen_bat": [
+    "clé",
+    "sculpture",
+    "fenetre",
+    "chimère",
+    "garde-corps",
+    "porte-bois",
+    "console"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_16338",
+      "IndexJantzen": [
+        "fenetre",
+        "garde-corps"
+      ]
+    },
+    {
+      "id_pic": "image_16339",
+      "IndexJantzen": [
+        "console",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_16340",
+      "IndexJantzen": [
+        "porte-bois"
+      ]
+    },
+    {
+      "id_pic": "image_16341",
+      "IndexJantzen": [
+        "chimère",
+        "clé",
+        "sculpture"
+      ]
+    }
+  ]
+}

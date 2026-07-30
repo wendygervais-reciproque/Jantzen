@@ -1,0 +1,112 @@
+{
+  "id_bat": 4051,
+  "libelle": "rue de Richelieu",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": "1724, 1854-1875",
+  "periode": [
+    "1660-1759;1850-1869"
+  ],
+  "adresse": {
+    "affichage": "rue de Richelieu",
+    "numero": null,
+    "voie": "rue de Richelieu"
+  },
+  "arrondissement": 2,
+  "coordonnees": {
+    "latitude": "48.868047222222",
+    "longitude": "2.3383722222222"
+  },
+  "id_pss": 69369,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 13000,
+  "terme_jantzen_bat": [
+    "façade",
+    "clé",
+    "colonne",
+    "sculpture",
+    "fenetre",
+    "métal",
+    "intérieur",
+    "fronton",
+    "garde-corps"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_13000",
+      "IndexJantzen": [
+        "façade",
+        "fronton"
+      ]
+    },
+    {
+      "id_pic": "image_13001",
+      "IndexJantzen": [
+        "colonne",
+        "intérieur",
+        "métal"
+      ]
+    },
+    {
+      "id_pic": "image_13002",
+      "IndexJantzen": [
+        "colonne",
+        "intérieur",
+        "métal"
+      ]
+    },
+    {
+      "id_pic": "image_13003",
+      "IndexJantzen": [
+        "colonne",
+        "intérieur",
+        "métal"
+      ]
+    },
+    {
+      "id_pic": "image_13004",
+      "IndexJantzen": [
+        "intérieur"
+      ]
+    },
+    {
+      "id_pic": "image_13005",
+      "IndexJantzen": [
+        "intérieur",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_13006",
+      "IndexJantzen": [
+        "garde-corps",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_13007",
+      "IndexJantzen": [
+        "fenetre",
+        "fronton",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_13008",
+      "IndexJantzen": [
+        "clé",
+        "fenetre",
+        "fronton"
+      ]
+    },
+    {
+      "id_pic": "image_13009",
+      "IndexJantzen": [
+        "clé",
+        "fenetre",
+        "sculpture"
+      ]
+    }
+  ]
+}

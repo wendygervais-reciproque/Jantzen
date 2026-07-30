@@ -29,35 +29,39 @@
   "terme_jantzen_bat": [
     "fenetre",
     "porte-fer",
-    "porte-fer-hall",
-    "colonne"
+    "colonne",
+    "porte-fer-hall"
   ],
   "photos": [
     {
       "id_pic": "Denis-Poisson-4_17_§1",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2004:10:03"
     },
     {
       "id_pic": "Denis-Poisson-4_17_§2",
       "IndexJantzen": [
         "colonne",
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2009:06:30"
     },
     {
       "id_pic": "Denis-Poisson-4_17_§3",
       "IndexJantzen": [
         "colonne",
         "porte-fer"
-      ]
+      ],
+      "dateCapture": "2013:07:15"
     },
     {
       "id_pic": "Denis-Poisson-4_17_§4",
       "IndexJantzen": [
         "porte-fer-hall"
-      ]
+      ],
+      "dateCapture": "2004:10:03"
     }
   ]
 }

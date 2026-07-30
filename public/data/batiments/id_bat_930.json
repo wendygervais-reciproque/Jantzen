@@ -28,10 +28,10 @@
   "image_ref": "Perree-14_3_§1",
   "terme_jantzen_bat": [
     "façade",
-    "porte-fer",
-    "fenetre",
+    "fenetre-d'angle",
     "décor",
-    "fenetre-d'angle"
+    "fenetre",
+    "porte-fer"
   ],
   "photos": [
     {
@@ -40,20 +40,23 @@
         "façade",
         "fenetre",
         "porte-fer"
-      ]
+      ],
+      "dateCapture": "2006:04:22"
     },
     {
       "id_pic": "Perree-14_3_§2",
       "IndexJantzen": [
         "fenetre-d'angle"
-      ]
+      ],
+      "dateCapture": "2004:09:01"
     },
     {
       "id_pic": "Perree-14_3_§3",
       "IndexJantzen": [
         "décor",
         "fenetre-d'angle"
-      ]
+      ],
+      "dateCapture": "2006:04:22"
     }
   ]
 }

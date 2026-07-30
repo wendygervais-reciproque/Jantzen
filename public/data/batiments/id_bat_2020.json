@@ -27,45 +27,50 @@
   "WPfr": null,
   "image_ref": "Gobelins-Av-2B_5_§3",
   "terme_jantzen_bat": [
-    "lucarne",
-    "porte-fer",
-    "fenetre",
-    "sculpture",
     "console",
-    "porte-fer-hall"
+    "lucarne",
+    "porte-fer-hall",
+    "sculpture",
+    "fenetre",
+    "porte-fer"
   ],
   "photos": [
     {
       "id_pic": "Gobelins-Av-2B_5_§3",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2008:02:24"
     },
     {
       "id_pic": "Gobelins-Av-2B_5_§4",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2008:02:24"
     },
     {
       "id_pic": "Gobelins-Av-2B_5_§5",
       "IndexJantzen": [
         "fenetre",
         "porte-fer"
-      ]
+      ],
+      "dateCapture": "2005:04:11"
     },
     {
       "id_pic": "Gobelins-Av-2B_5_§6",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:04:11"
     },
     {
       "id_pic": "Gobelins-Av-2B_5_§7",
       "IndexJantzen": [
         "porte-fer-hall"
-      ]
+      ],
+      "dateCapture": "2005:04:11"
     }
   ]
 }

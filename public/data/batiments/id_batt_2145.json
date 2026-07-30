@@ -1,0 +1,56 @@
+{
+  "id_bat": 2145,
+  "libelle": "30 rue Bonaparte",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 183,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1846",
+  "periode": [
+    "1830-1849"
+  ],
+  "adresse": {
+    "affichage": "30 rue Bonaparte",
+    "numero": "30",
+    "voie": "rue Bonaparte"
+  },
+  "arrondissement": 6,
+  "coordonnees": {
+    "latitude": "48.855406",
+    "longitude": "2.333832"
+  },
+  "id_pss": 75187,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 1410,
+  "terme_jantzen_bat": [
+    "façade-d'angle",
+    "oeil-de-boeuf",
+    "balcon"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_1410",
+      "IndexJantzen": [
+        "balcon",
+        "façade-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_1411",
+      "IndexJantzen": [
+        "balcon",
+        "façade-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_1412",
+      "IndexJantzen": [
+        "oeil-de-boeuf"
+      ]
+    }
+  ]
+}

@@ -27,11 +27,11 @@
   "WPfr": null,
   "image_ref": "François-Miron-5_4_§1",
   "terme_jantzen_bat": [
-    "lucarne",
     "façade",
+    "lucarne",
+    "sculpture",
     "fronton",
     "fenetre",
-    "sculpture",
     "pilastre"
   ],
   "photos": [
@@ -39,13 +39,15 @@
       "id_pic": "François-Miron-5_4_§1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "dateCapture": "2006:09:01"
     },
     {
       "id_pic": "François-Miron-5_4_§2",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "dateCapture": "2006:09:01"
     },
     {
       "id_pic": "François-Miron-5_4_§3",
@@ -53,21 +55,24 @@
         "fenetre",
         "pilastre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:09:01"
     },
     {
       "id_pic": "François-Miron-5_4_§4",
       "IndexJantzen": [
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:09:01"
     },
     {
       "id_pic": "François-Miron-5_4_§6",
       "IndexJantzen": [
         "fronton",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2006:09:01"
     }
   ]
 }

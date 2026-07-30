@@ -1,0 +1,66 @@
+{
+  "id_bat": 1099,
+  "libelle": "16 avenue Matignon",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": [
+    "1870-1894"
+  ],
+  "adresse": {
+    "affichage": "16 avenue Matignon",
+    "numero": "16",
+    "voie": "avenue Matignon"
+  },
+  "arrondissement": 8,
+  "coordonnees": {
+    "latitude": "48.870844",
+    "longitude": "2.313597"
+  },
+  "id_pss": 45580,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 9378,
+  "terme_jantzen_bat": [
+    "porte",
+    "façade",
+    "fenetre",
+    "sculpture",
+    "décor"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_9378",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_9379",
+      "IndexJantzen": [
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_9380",
+      "IndexJantzen": [
+        "décor",
+        "fenetre",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_9381",
+      "IndexJantzen": [
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_9382",
+      "IndexJantzen": [
+        "fenetre",
+        "porte"
+      ]
+    }
+  ]
+}

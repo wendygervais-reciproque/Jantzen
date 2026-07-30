@@ -27,44 +27,49 @@
   "WPfr": null,
   "image_ref": "Colonel-Moll-19_17_§1",
   "terme_jantzen_bat": [
-    "lucarne",
     "façade",
-    "fenetre",
+    "console",
+    "lucarne",
     "sculpture",
-    "console"
+    "fenetre"
   ],
   "photos": [
     {
       "id_pic": "Colonel-Moll-19_17_§1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "dateCapture": "2010:03:08"
     },
     {
       "id_pic": "Colonel-Moll-19_17_§2",
       "IndexJantzen": [
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2010:03:17"
     },
     {
       "id_pic": "Colonel-Moll-19_17_§3",
       "IndexJantzen": [
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2010:03:17"
     },
     {
       "id_pic": "Colonel-Moll-19_17_§4",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2010:03:17"
     },
     {
       "id_pic": "Colonel-Moll-19_17_§5",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2010:03:08"
     },
     {
       "id_pic": "Colonel-Moll-19_17_§6",
@@ -72,7 +77,8 @@
         "console",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2010:03:17"
     }
   ]
 }

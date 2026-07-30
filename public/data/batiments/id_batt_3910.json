@@ -1,0 +1,59 @@
+{
+  "id_bat": 3910,
+  "libelle": "95 rue Montmartre",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 536,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1899",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "95 rue Montmartre",
+    "numero": "95",
+    "voie": "rue Montmartre"
+  },
+  "arrondissement": 2,
+  "coordonnees": {
+    "latitude": "48.867935",
+    "longitude": "2.343592"
+  },
+  "id_pss": 12200,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 9965,
+  "terme_jantzen_bat": [
+    "oriel",
+    "céramique",
+    "façade",
+    "brique",
+    "décor",
+    "métal"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_9965",
+      "IndexJantzen": [
+        "brique",
+        "céramique",
+        "façade",
+        "métal",
+        "oriel"
+      ]
+    },
+    {
+      "id_pic": "image_9966",
+      "IndexJantzen": [
+        "brique",
+        "céramique",
+        "décor",
+        "métal",
+        "oriel"
+      ]
+    }
+  ]
+}

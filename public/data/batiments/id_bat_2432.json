@@ -23,9 +23,9 @@
   "image_ref": "Cassini-3b-7_14_§1",
   "terme_jantzen_bat": [
     "façade",
+    "verrière",
     "brique",
     "fenetre",
-    "verrière",
     "voie"
   ],
   "photos": [
@@ -34,7 +34,8 @@
       "IndexJantzen": [
         "brique",
         "façade"
-      ]
+      ],
+      "dateCapture": "2010:05:24"
     },
     {
       "id_pic": "Cassini-3b-7_14_§2",
@@ -42,7 +43,8 @@
         "brique",
         "façade",
         "voie"
-      ]
+      ],
+      "dateCapture": "2005:04:11"
     },
     {
       "id_pic": "Cassini-3b-7_14_§3",
@@ -50,7 +52,8 @@
         "brique",
         "fenetre",
         "verrière"
-      ]
+      ],
+      "dateCapture": "2005:04:11"
     }
   ]
 }

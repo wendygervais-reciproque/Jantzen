@@ -27,12 +27,12 @@
   "WPfr": null,
   "image_ref": "Marceau-75_16_§1",
   "terme_jantzen_bat": [
-    "façade-d'angle",
-    "lucarne-d'angle",
-    "porte-fer",
-    "dome",
     "fenetre-d'angle",
+    "porte-fer",
+    "façade-d'angle",
     "balcon",
+    "lucarne-d'angle",
+    "dome",
     "marquise"
   ],
   "photos": [
@@ -41,14 +41,16 @@
       "IndexJantzen": [
         "dome",
         "façade-d'angle"
-      ]
+      ],
+      "dateCapture": "2005:06:07"
     },
     {
       "id_pic": "Marceau-75_16_§2",
       "IndexJantzen": [
         "dome",
         "fenetre-d'angle"
-      ]
+      ],
+      "dateCapture": "2005:06:07"
     },
     {
       "id_pic": "Marceau-75_16_§3",
@@ -56,14 +58,16 @@
         "balcon",
         "dome",
         "lucarne-d'angle"
-      ]
+      ],
+      "dateCapture": "2005:06:07"
     },
     {
       "id_pic": "Marceau-75_16_§4",
       "IndexJantzen": [
         "marquise",
         "porte-fer"
-      ]
+      ],
+      "dateCapture": "2005:03:20"
     }
   ]
 }

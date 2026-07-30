@@ -27,13 +27,13 @@
   "WPfr": null,
   "image_ref": "Alphonse-de-Neuville-20_17_§2",
   "terme_jantzen_bat": [
-    "lucarne",
-    "fenetre",
-    "décor",
-    "sculpture",
     "console",
     "loggia",
-    "garde-corps"
+    "garde-corps",
+    "lucarne",
+    "décor",
+    "sculpture",
+    "fenetre"
   ],
   "photos": [
     {
@@ -41,20 +41,23 @@
       "IndexJantzen": [
         "fenetre",
         "loggia"
-      ]
+      ],
+      "dateCapture": "2004:07:05"
     },
     {
       "id_pic": "Alphonse-de-Neuville-20_17_§3",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2004:07:05"
     },
     {
       "id_pic": "Alphonse-de-Neuville-20_17_§4",
       "IndexJantzen": [
         "loggia",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2004:07:05"
     },
     {
       "id_pic": "Alphonse-de-Neuville-20_17_§5",
@@ -62,26 +65,30 @@
         "décor",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2004:07:05"
     },
     {
       "id_pic": "Alphonse-de-Neuville-20_17_§6",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2004:07:05"
     },
     {
       "id_pic": "Alphonse-de-Neuville-20_17_§7",
       "IndexJantzen": [
         "console",
         "garde-corps"
-      ]
+      ],
+      "dateCapture": "2004:07:05"
     },
     {
       "id_pic": "Alphonse-de-Neuville-20_17_§8",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2004:07:05"
     }
   ]
 }

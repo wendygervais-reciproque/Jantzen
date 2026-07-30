@@ -27,24 +27,25 @@
   "WPfr": null,
   "image_ref": "Montmorency-1_16_§1",
   "terme_jantzen_bat": [
-    "façade-d'angle",
-    "porte-fer",
-    "brique",
-    "fenetre",
-    "décor",
-    "tour",
-    "dome",
+    "garde-corps",
     "fenetre-d'angle",
-    "balcon",
+    "tour",
+    "brique",
+    "décor",
+    "fenetre",
+    "porte-fer",
+    "façade-d'angle",
     "colonne",
-    "garde-corps"
+    "balcon",
+    "dome"
   ],
   "photos": [
     {
       "id_pic": "Montmorency-1_16_§1",
       "IndexJantzen": [
         "façade-d'angle"
-      ]
+      ],
+      "dateCapture": "2007:04:21"
     },
     {
       "id_pic": "Montmorency-1_16_§2",
@@ -52,7 +53,8 @@
         "dome",
         "fenetre-d'angle",
         "tour"
-      ]
+      ],
+      "dateCapture": "2007:04:21"
     },
     {
       "id_pic": "Montmorency-1_16_§3",
@@ -61,7 +63,8 @@
         "dome",
         "fenetre-d'angle",
         "tour"
-      ]
+      ],
+      "dateCapture": "2007:04:21"
     },
     {
       "id_pic": "Montmorency-1_16_§4",
@@ -69,7 +72,8 @@
         "brique",
         "fenetre",
         "tour"
-      ]
+      ],
+      "dateCapture": "2007:04:21"
     },
     {
       "id_pic": "Montmorency-1_16_§5",
@@ -77,7 +81,8 @@
         "balcon",
         "brique",
         "garde-corps"
-      ]
+      ],
+      "dateCapture": "2007:04:21"
     },
     {
       "id_pic": "Montmorency-1_16_§6",
@@ -86,13 +91,15 @@
         "décor",
         "fenetre",
         "garde-corps"
-      ]
+      ],
+      "dateCapture": "2007:04:21"
     },
     {
       "id_pic": "Montmorency1_16_10",
       "IndexJantzen": [
         "porte-fer"
-      ]
+      ],
+      "dateCapture": "2007:04:21"
     }
   ]
 }

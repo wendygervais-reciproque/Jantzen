@@ -23,10 +23,10 @@
   "image_ref": "Desnouettes-Sq-2_15_§1",
   "terme_jantzen_bat": [
     "façade",
-    "lucarne-d'angle",
+    "loggia",
     "brique",
     "balcon",
-    "loggia"
+    "lucarne-d'angle"
   ],
   "photos": [
     {
@@ -35,7 +35,8 @@
         "balcon",
         "brique",
         "façade"
-      ]
+      ],
+      "dateCapture": "2004:04:24"
     },
     {
       "id_pic": "Desnouettes-Sq-2_15_§2",
@@ -43,14 +44,16 @@
         "balcon",
         "brique",
         "lucarne-d'angle"
-      ]
+      ],
+      "dateCapture": "2005:09:22"
     },
     {
       "id_pic": "Desnouettes-Sq-2_15_§3",
       "IndexJantzen": [
         "brique",
         "loggia"
-      ]
+      ],
+      "dateCapture": "2005:09:22"
     }
   ]
 }

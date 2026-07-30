@@ -18,10 +18,10 @@
   "WPfr": "Palais Bourbon",
   "image_ref": "Assemblee-Nationale_7_§1_DxP",
   "terme_jantzen_bat": [
-    "colonne",
     "façade",
     "fronton",
-    "sculpture"
+    "sculpture",
+    "colonne"
   ],
   "photos": [
     {
@@ -29,7 +29,8 @@
       "IndexJantzen": [
         "façade",
         "fronton"
-      ]
+      ],
+      "dateCapture": "2010:06:04"
     },
     {
       "id_pic": "Assemblee-Nationale_7_§2_DxP",
@@ -37,34 +38,39 @@
         "colonne",
         "façade",
         "fronton"
-      ]
+      ],
+      "dateCapture": "2010:06:04"
     },
     {
       "id_pic": "Assemblee-Nationale_7_§3",
       "IndexJantzen": [
         "fronton",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2010:06:04"
     },
     {
       "id_pic": "Assemblee-Nationale_7_§4",
       "IndexJantzen": [
         "fronton",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2010:06:04"
     },
     {
       "id_pic": "Assemblee-Nationale_7_§5",
       "IndexJantzen": [
         "fronton",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2010:06:04"
     },
     {
       "id_pic": "Assemblee-Nationale_7_§6",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2010:06:04"
     }
   ]
 }

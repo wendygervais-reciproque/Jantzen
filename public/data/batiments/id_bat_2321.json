@@ -27,29 +27,32 @@
   "WPfr": null,
   "image_ref": "Georges-Mandel-36_16_§1",
   "terme_jantzen_bat": [
-    "lucarne",
     "console",
-    "sculpture"
+    "sculpture",
+    "lucarne"
   ],
   "photos": [
     {
       "id_pic": "Georges-Mandel-36_16_§1",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2006:06:30"
     },
     {
       "id_pic": "Georges-Mandel-36_16_§2",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2006:04:11"
     },
     {
       "id_pic": "Georges-Mandel-36_16_§3",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:06:30"
     }
   ]
 }

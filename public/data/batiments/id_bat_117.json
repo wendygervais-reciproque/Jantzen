@@ -24,10 +24,10 @@
   "WPfr": "Panthéon (Paris)",
   "image_ref": "Pantheon_5_§1",
   "terme_jantzen_bat": [
-    "colonne",
-    "dome",
+    "tourelle",
     "fenetre",
-    "tourelle"
+    "colonne",
+    "dome"
   ],
   "photos": [
     {
@@ -36,7 +36,8 @@
         "colonne",
         "dome",
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2005:08:29"
     },
     {
       "id_pic": "Pantheon_5_§2",
@@ -44,21 +45,24 @@
         "colonne",
         "dome",
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2005:05:27"
     },
     {
       "id_pic": "Pantheon_5_§3",
       "IndexJantzen": [
         "dome",
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2005:08:29"
     },
     {
       "id_pic": "Pantheon_5_§4",
       "IndexJantzen": [
         "dome",
         "tourelle"
-      ]
+      ],
+      "dateCapture": "2005:08:29"
     }
   ]
 }

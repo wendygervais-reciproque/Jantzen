@@ -27,19 +27,19 @@
   "WPfr": null,
   "image_ref": "Saxe-40_7_§1",
   "terme_jantzen_bat": [
-    "lucarne",
-    "façade-d'angle",
-    "porte-fer",
-    "fenetre",
-    "oeil-de-boeuf",
-    "décor",
-    "dome",
-    "fenetre-d'angle",
-    "sculpture",
     "console",
-    "balcon",
     "loggia",
-    "colonne"
+    "oeil-de-boeuf",
+    "lucarne",
+    "fenetre-d'angle",
+    "décor",
+    "sculpture",
+    "fenetre",
+    "porte-fer",
+    "façade-d'angle",
+    "colonne",
+    "balcon",
+    "dome"
   ],
   "photos": [
     {
@@ -47,14 +47,16 @@
       "IndexJantzen": [
         "dome",
         "façade-d'angle"
-      ]
+      ],
+      "dateCapture": "2006:07:16"
     },
     {
       "id_pic": "Saxe-40_7_§2",
       "IndexJantzen": [
         "dome",
         "fenetre-d'angle"
-      ]
+      ],
+      "dateCapture": "2006:07:16"
     },
     {
       "id_pic": "Saxe-40_7_§3",
@@ -62,7 +64,8 @@
         "dome",
         "loggia",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2006:07:16"
     },
     {
       "id_pic": "Saxe-40_7_§4",
@@ -71,7 +74,8 @@
         "dome",
         "loggia",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2006:07:16"
     },
     {
       "id_pic": "Saxe-40_7_§5",
@@ -82,21 +86,24 @@
         "fenetre",
         "oeil-de-boeuf",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:04:11"
     },
     {
       "id_pic": "Saxe-40_7_§6",
       "IndexJantzen": [
         "console",
         "oeil-de-boeuf"
-      ]
+      ],
+      "dateCapture": "2006:04:11"
     },
     {
       "id_pic": "Saxe-40_7_§7",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:04:11"
     },
     {
       "id_pic": "Saxe-40_7_§8",
@@ -104,7 +111,8 @@
         "fenetre",
         "oeil-de-boeuf",
         "porte-fer"
-      ]
+      ],
+      "dateCapture": "2006:04:11"
     },
     {
       "id_pic": "Saxe-40_7_§9",
@@ -112,7 +120,8 @@
         "fenetre",
         "oeil-de-boeuf",
         "porte-fer"
-      ]
+      ],
+      "dateCapture": "2006:07:16"
     }
   ]
 }

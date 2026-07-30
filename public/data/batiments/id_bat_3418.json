@@ -22,11 +22,11 @@
   "WPfr": null,
   "image_ref": "Mail-7_2_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "décor",
     "sculpture",
-    "colonne",
-    "pilastre"
+    "fenetre",
+    "pilastre",
+    "colonne"
   ],
   "photos": [
     {
@@ -35,13 +35,15 @@
         "décor",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:08:28"
     },
     {
       "id_pic": "Mail-7_2_§2",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2004:08:31"
     },
     {
       "id_pic": "Mail-7_2_§3",
@@ -50,7 +52,8 @@
         "fenetre",
         "pilastre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:08:28"
     },
     {
       "id_pic": "Mail-7_2_§4",
@@ -59,14 +62,16 @@
         "fenetre",
         "pilastre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:08:28"
     },
     {
       "id_pic": "Mail-7_2_§5",
       "IndexJantzen": [
         "pilastre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:08:28"
     }
   ]
 }

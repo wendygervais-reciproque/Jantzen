@@ -27,12 +27,12 @@
   "WPfr": null,
   "image_ref": "Vergniaud-32_13_§1",
   "terme_jantzen_bat": [
+    "console",
     "lucarne",
-    "façade-d'angle",
-    "toiture",
     "fenetre-d'angle",
     "sculpture",
-    "console",
+    "façade-d'angle",
+    "toiture",
     "pignon"
   ],
   "photos": [
@@ -40,14 +40,16 @@
       "id_pic": "Vergniaud-32_13_§1",
       "IndexJantzen": [
         "façade-d'angle"
-      ]
+      ],
+      "dateCapture": "2005:09:21"
     },
     {
       "id_pic": "Vergniaud-32_13_§2",
       "IndexJantzen": [
         "fenetre-d'angle",
         "pignon"
-      ]
+      ],
+      "dateCapture": "2005:09:21"
     },
     {
       "id_pic": "Vergniaud-32_13_§3",
@@ -55,21 +57,24 @@
         "lucarne",
         "pignon",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:09:21"
     },
     {
       "id_pic": "Vergniaud-32_13_§4",
       "IndexJantzen": [
         "lucarne",
         "toiture"
-      ]
+      ],
+      "dateCapture": "2005:09:21"
     },
     {
       "id_pic": "Vergniaud-32_13_§5",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:09:21"
     }
   ]
 }

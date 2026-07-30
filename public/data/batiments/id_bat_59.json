@@ -18,17 +18,17 @@
   "WPfr": "École militaire (France)",
   "image_ref": "Ecole-Militaire_7_¤3",
   "terme_jantzen_bat": [
-    "porte",
-    "lucarne",
     "façade",
-    "toiture",
-    "fronton",
-    "fenetre",
     "oeil-de-boeuf",
+    "lucarne",
     "décor",
-    "dome",
+    "fronton",
+    "porte",
+    "fenetre",
     "sculpture",
-    "colonne"
+    "colonne",
+    "toiture",
+    "dome"
   ],
   "photos": [
     {
@@ -38,14 +38,16 @@
         "dome",
         "façade",
         "fronton"
-      ]
+      ],
+      "dateCapture": "2006:06:23"
     },
     {
       "id_pic": "Ecole-Militaire_7_§1",
       "IndexJantzen": [
         "dome",
         "façade"
-      ]
+      ],
+      "dateCapture": "2006:06:23"
     },
     {
       "id_pic": "Ecole-Militaire_7_§10",
@@ -53,7 +55,8 @@
         "dome",
         "lucarne",
         "oeil-de-boeuf"
-      ]
+      ],
+      "dateCapture": "2006:06:23"
     },
     {
       "id_pic": "Ecole-Militaire_7_§12",
@@ -61,49 +64,56 @@
         "dome",
         "lucarne",
         "oeil-de-boeuf"
-      ]
+      ],
+      "dateCapture": "2004:05:28"
     },
     {
       "id_pic": "Ecole-Militaire_7_§13",
       "IndexJantzen": [
         "façade",
         "porte"
-      ]
+      ],
+      "dateCapture": "2008:07:04"
     },
     {
       "id_pic": "Ecole-Militaire_7_§14",
       "IndexJantzen": [
         "fenetre",
         "toiture"
-      ]
+      ],
+      "dateCapture": "2008:07:04"
     },
     {
       "id_pic": "Ecole-Militaire_7_§15",
       "IndexJantzen": [
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2008:07:04"
     },
     {
       "id_pic": "Ecole-Militaire_7_§16",
       "IndexJantzen": [
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2008:07:04"
     },
     {
       "id_pic": "Ecole-Militaire_7_§17",
       "IndexJantzen": [
         "lucarne",
         "oeil-de-boeuf"
-      ]
+      ],
+      "dateCapture": "2006:03:27"
     },
     {
       "id_pic": "Ecole-Militaire_7_§2",
       "IndexJantzen": [
         "dome",
         "façade"
-      ]
+      ],
+      "dateCapture": "2006:06:23"
     },
     {
       "id_pic": "Ecole-Militaire_7_§4",
@@ -112,7 +122,8 @@
         "décor",
         "fronton",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:06:23"
     },
     {
       "id_pic": "Ecole-Militaire_7_§5",
@@ -120,35 +131,40 @@
         "dome",
         "fronton",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:06:23"
     },
     {
       "id_pic": "Ecole-Militaire_7_§6",
       "IndexJantzen": [
         "fronton",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:06:23"
     },
     {
       "id_pic": "Ecole-Militaire_7_§7",
       "IndexJantzen": [
         "fronton",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:06:23"
     },
     {
       "id_pic": "Ecole-Militaire_7_§8",
       "IndexJantzen": [
         "colonne",
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2006:06:23"
     },
     {
       "id_pic": "Ecole-Militaire_7_§9",
       "IndexJantzen": [
         "colonne",
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2006:06:23"
     }
   ]
 }

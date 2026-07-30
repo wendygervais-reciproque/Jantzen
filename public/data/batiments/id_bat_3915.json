@@ -22,35 +22,38 @@
   "WPfr": null,
   "image_ref": "Haussmann-96_8_§1",
   "terme_jantzen_bat": [
-    "lucarne",
     "façade",
-    "toiture",
-    "façade-d'angle",
-    "fenetre",
+    "lucarne",
     "sculpture",
     "clé",
-    "chimère"
+    "fenetre",
+    "chimère",
+    "façade-d'angle",
+    "toiture"
   ],
   "photos": [
     {
       "id_pic": "Haussmann-96_8_§1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "dateCapture": "2007:08:26"
     },
     {
       "id_pic": "Haussmann-96_8_§10",
       "IndexJantzen": [
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:03:31"
     },
     {
       "id_pic": "Haussmann-96_8_§11",
       "IndexJantzen": [
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:03:31"
     },
     {
       "id_pic": "Haussmann-96_8_§12",
@@ -58,7 +61,8 @@
         "chimère",
         "clé",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:03:31"
     },
     {
       "id_pic": "Haussmann-96_8_§13",
@@ -66,56 +70,65 @@
         "chimère",
         "clé",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:03:31"
     },
     {
       "id_pic": "Haussmann-96_8_§2",
       "IndexJantzen": [
         "lucarne",
         "toiture"
-      ]
+      ],
+      "dateCapture": "2008:03:05"
     },
     {
       "id_pic": "Haussmann-96_8_§3",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2008:03:05"
     },
     {
       "id_pic": "Haussmann-96_8_§4",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2008:03:05"
     },
     {
       "id_pic": "Haussmann-96_8_§5",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2008:03:05"
     },
     {
       "id_pic": "Haussmann-96_8_§6",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2006:03:31"
     },
     {
       "id_pic": "Haussmann-96_8_§7",
       "IndexJantzen": [
         "façade-d'angle"
-      ]
+      ],
+      "dateCapture": "2006:03:31"
     },
     {
       "id_pic": "Haussmann-96_8_§8",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2006:03:31"
     },
     {
       "id_pic": "Haussmann-96_8_§9",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2006:03:31"
     }
   ]
 }

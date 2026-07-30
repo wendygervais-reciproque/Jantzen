@@ -28,20 +28,21 @@
   "image_ref": "Haussmann-67_8_§1",
   "terme_jantzen_bat": [
     "façade",
-    "porte-fer",
-    "fenetre",
+    "console",
+    "garde-corps",
+    "cariatide",
     "sculpture",
     "clé",
-    "console",
-    "cariatide",
-    "garde-corps"
+    "fenetre",
+    "porte-fer"
   ],
   "photos": [
     {
       "id_pic": "Haussmann-67_8_§1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "dateCapture": "2006:03:23"
     },
     {
       "id_pic": "Haussmann-67_8_§10",
@@ -49,7 +50,8 @@
         "cariatide",
         "console",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:08:11"
     },
     {
       "id_pic": "Haussmann-67_8_§11",
@@ -57,7 +59,8 @@
         "cariatide",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:04:04"
     },
     {
       "id_pic": "Haussmann-67_8_§12",
@@ -65,48 +68,55 @@
         "cariatide",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:04:04"
     },
     {
       "id_pic": "Haussmann-67_8_§13",
       "IndexJantzen": [
         "fenetre",
         "porte-fer"
-      ]
+      ],
+      "dateCapture": "2006:03:23"
     },
     {
       "id_pic": "Haussmann-67_8_§14",
       "IndexJantzen": [
         "clé",
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2005:08:11"
     },
     {
       "id_pic": "Haussmann-67_8_§2",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2006:04:04"
     },
     {
       "id_pic": "Haussmann-67_8_§4",
       "IndexJantzen": [
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:08:11"
     },
     {
       "id_pic": "Haussmann-67_8_§6",
       "IndexJantzen": [
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:08:11"
     },
     {
       "id_pic": "Haussmann-67_8_§7",
       "IndexJantzen": [
         "fenetre",
         "garde-corps"
-      ]
+      ],
+      "dateCapture": "2005:08:11"
     },
     {
       "id_pic": "Haussmann-67_8_§8",
@@ -114,7 +124,8 @@
         "cariatide",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:07:02"
     },
     {
       "id_pic": "Haussmann-67_8_§9",
@@ -122,7 +133,8 @@
         "cariatide",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:07:02"
     }
   ]
 }

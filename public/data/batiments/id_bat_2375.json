@@ -27,9 +27,9 @@
   "WPfr": null,
   "image_ref": "President-Wilson-38_16_§2",
   "terme_jantzen_bat": [
-    "fenetre",
     "console",
-    "sculpture"
+    "sculpture",
+    "fenetre"
   ],
   "photos": [
     {
@@ -37,14 +37,16 @@
       "IndexJantzen": [
         "console",
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2006:06:30"
     },
     {
       "id_pic": "President-Wilson-38_16_§3",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:06:30"
     }
   ]
 }

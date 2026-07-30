@@ -1,0 +1,60 @@
+{
+  "id_bat": 1589,
+  "libelle": "20 rue Severo",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 620,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1905",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "20 rue Severo",
+    "numero": "20",
+    "voie": "rue Severo"
+  },
+  "arrondissement": 14,
+  "coordonnees": {
+    "latitude": "48.832594",
+    "longitude": "2.323051"
+  },
+  "id_pss": 12341,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 13557,
+  "terme_jantzen_bat": [
+    "fenetre",
+    "oriel",
+    "céramique",
+    "brique"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_13557",
+      "IndexJantzen": [
+        "brique",
+        "fenetre",
+        "oriel"
+      ]
+    },
+    {
+      "id_pic": "image_13558",
+      "IndexJantzen": [
+        "brique",
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_13559",
+      "IndexJantzen": [
+        "brique",
+        "céramique",
+        "fenetre"
+      ]
+    }
+  ]
+}

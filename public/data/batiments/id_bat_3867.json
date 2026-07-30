@@ -22,10 +22,10 @@
   "WPfr": null,
   "image_ref": "La-Fayette-91_9_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "porte-bois",
-    "cariatide",
-    "sculpture"
+    "sculpture",
+    "fenetre",
+    "cariatide"
   ],
   "photos": [
     {
@@ -34,7 +34,8 @@
         "cariatide",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:07:02"
     },
     {
       "id_pic": "La-Fayette-91_9_§2",
@@ -42,7 +43,8 @@
         "cariatide",
         "fenetre",
         "porte-bois"
-      ]
+      ],
+      "dateCapture": "2006:07:02"
     },
     {
       "id_pic": "La-Fayette-91_9_§3",
@@ -50,21 +52,24 @@
         "cariatide",
         "fenetre",
         "porte-bois"
-      ]
+      ],
+      "dateCapture": "2004:09:04"
     },
     {
       "id_pic": "La-Fayette-91_9_§4",
       "IndexJantzen": [
         "cariatide",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2004:09:04"
     },
     {
       "id_pic": "La-Fayette-91_9_§5",
       "IndexJantzen": [
         "cariatide",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2004:09:04"
     }
   ]
 }

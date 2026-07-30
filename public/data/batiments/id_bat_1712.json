@@ -27,11 +27,11 @@
   "WPfr": null,
   "image_ref": "La-Fayette-225_10_§1",
   "terme_jantzen_bat": [
-    "façade-d'angle",
-    "lucarne-d'angle",
-    "dome",
     "fenetre-d'angle",
-    "balcon"
+    "façade-d'angle",
+    "balcon",
+    "lucarne-d'angle",
+    "dome"
   ],
   "photos": [
     {
@@ -39,14 +39,16 @@
       "IndexJantzen": [
         "dome",
         "façade-d'angle"
-      ]
+      ],
+      "dateCapture": "2005:05:11"
     },
     {
       "id_pic": "La-Fayette-225_10_§2",
       "IndexJantzen": [
         "dome",
         "fenetre-d'angle"
-      ]
+      ],
+      "dateCapture": "2005:05:11"
     },
     {
       "id_pic": "La-Fayette-225_10_§3",
@@ -54,7 +56,8 @@
         "balcon",
         "dome",
         "lucarne-d'angle"
-      ]
+      ],
+      "dateCapture": "2005:05:11"
     }
   ]
 }

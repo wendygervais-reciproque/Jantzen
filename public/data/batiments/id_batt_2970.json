@@ -1,0 +1,82 @@
+{
+  "id_bat": 2970,
+  "libelle": "53 rue de Boulainvilliers",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 312,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1908",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "53 rue de Boulainvilliers",
+    "numero": "53",
+    "voie": "rue de Boulainvilliers"
+  },
+  "arrondissement": 16,
+  "coordonnees": {
+    "latitude": "48.856691",
+    "longitude": "2.274611"
+  },
+  "id_pss": null,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 1461,
+  "terme_jantzen_bat": [
+    "façade-d'angle",
+    "lucarne",
+    "oeil-de-boeuf",
+    "lucarne-d'angle",
+    "dome",
+    "fenetre-d'angle",
+    "balcon",
+    "pignon"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_1461",
+      "IndexJantzen": [
+        "dome",
+        "façade-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_1462",
+      "IndexJantzen": [
+        "dome",
+        "façade-d'angle",
+        "pignon"
+      ]
+    },
+    {
+      "id_pic": "image_1463",
+      "IndexJantzen": [
+        "balcon",
+        "dome",
+        "fenetre-d'angle",
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_1464",
+      "IndexJantzen": [
+        "balcon",
+        "dome",
+        "fenetre-d'angle",
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_1465",
+      "IndexJantzen": [
+        "dome",
+        "lucarne-d'angle",
+        "oeil-de-boeuf"
+      ]
+    }
+  ]
+}

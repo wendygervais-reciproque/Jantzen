@@ -28,13 +28,13 @@
   "image_ref": "Delessert-23_16_§1",
   "terme_jantzen_bat": [
     "lucarne",
-    "façade-d'angle",
-    "fenetre",
-    "tour",
-    "dome",
     "fenetre-d'angle",
+    "tour",
     "tourelle",
-    "colonne"
+    "fenetre",
+    "façade-d'angle",
+    "colonne",
+    "dome"
   ],
   "photos": [
     {
@@ -43,7 +43,8 @@
         "dome",
         "façade-d'angle",
         "tour"
-      ]
+      ],
+      "dateCapture": "2006:06:30"
     },
     {
       "id_pic": "Delessert-23_16_§2",
@@ -52,14 +53,16 @@
         "dome",
         "fenetre-d'angle",
         "tour"
-      ]
+      ],
+      "dateCapture": "2003:07:13"
     },
     {
       "id_pic": "Delessert-23_16_§3",
       "IndexJantzen": [
         "dome",
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2006:06:30"
     },
     {
       "id_pic": "Delessert-23_16_§4",
@@ -67,7 +70,8 @@
         "dome",
         "fenetre",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2005:06:07"
     },
     {
       "id_pic": "Delessert-23_16_§5",
@@ -75,7 +79,8 @@
         "dome",
         "lucarne",
         "tourelle"
-      ]
+      ],
+      "dateCapture": "2006:06:30"
     }
   ]
 }

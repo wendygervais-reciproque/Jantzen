@@ -27,13 +27,13 @@
   "WPfr": null,
   "image_ref": "Boulanvilliers-53_16_§1",
   "terme_jantzen_bat": [
-    "lucarne",
-    "façade-d'angle",
-    "lucarne-d'angle",
     "oeil-de-boeuf",
-    "dome",
+    "lucarne",
     "fenetre-d'angle",
+    "façade-d'angle",
     "balcon",
+    "lucarne-d'angle",
+    "dome",
     "pignon"
   ],
   "photos": [
@@ -42,7 +42,8 @@
       "IndexJantzen": [
         "dome",
         "façade-d'angle"
-      ]
+      ],
+      "dateCapture": "2005:05:10"
     },
     {
       "id_pic": "Boulanvilliers-53_16_§2",
@@ -50,7 +51,8 @@
         "dome",
         "façade-d'angle",
         "pignon"
-      ]
+      ],
+      "dateCapture": "2005:05:10"
     },
     {
       "id_pic": "Boulanvilliers-53_16_§3",
@@ -59,7 +61,8 @@
         "dome",
         "fenetre-d'angle",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2005:05:10"
     },
     {
       "id_pic": "Boulanvilliers-53_16_§4",
@@ -68,7 +71,8 @@
         "dome",
         "fenetre-d'angle",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2007:03:15"
     },
     {
       "id_pic": "Boulanvilliers-53_16_§5",
@@ -76,7 +80,8 @@
         "dome",
         "lucarne-d'angle",
         "oeil-de-boeuf"
-      ]
+      ],
+      "dateCapture": "2005:05:10"
     }
   ]
 }

@@ -27,32 +27,35 @@
   "WPfr": null,
   "image_ref": "Montaigne-56_8_§1",
   "terme_jantzen_bat": [
-    "lucarne",
-    "oeil-de-boeuf",
-    "sculpture",
     "console",
-    "garde-corps"
+    "oeil-de-boeuf",
+    "garde-corps",
+    "lucarne",
+    "sculpture"
   ],
   "photos": [
     {
       "id_pic": "Montaigne-56_8_§1",
       "IndexJantzen": [
         "garde-corps"
-      ]
+      ],
+      "dateCapture": "2006:09:05"
     },
     {
       "id_pic": "Montaigne-56_8_§2",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:09:05"
     },
     {
       "id_pic": "Montaigne-56_8_§3",
       "IndexJantzen": [
         "lucarne",
         "oeil-de-boeuf"
-      ]
+      ],
+      "dateCapture": "2006:09:05"
     }
   ]
 }

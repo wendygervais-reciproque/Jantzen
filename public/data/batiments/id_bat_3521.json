@@ -27,18 +27,18 @@
   "WPfr": null,
   "image_ref": "Wagram-75t_17_§11",
   "terme_jantzen_bat": [
-    "lucarne",
-    "façade-d'angle",
     "façade",
-    "lucarne-d'angle",
-    "porte-fer",
-    "fenetre",
     "oeil-de-boeuf",
-    "décor",
-    "dome",
+    "lucarne",
     "fenetre-d'angle",
+    "décor",
     "sculpture",
-    "colonne"
+    "fenetre",
+    "porte-fer",
+    "façade-d'angle",
+    "colonne",
+    "lucarne-d'angle",
+    "dome"
   ],
   "photos": [
     {
@@ -46,7 +46,8 @@
       "IndexJantzen": [
         "dome",
         "façade-d'angle"
-      ]
+      ],
+      "dateCapture": "2004:09:02"
     },
     {
       "id_pic": "Wagram-75t_17_§12",
@@ -54,7 +55,8 @@
         "colonne",
         "dome",
         "fenetre-d'angle"
-      ]
+      ],
+      "dateCapture": "2004:09:02"
     },
     {
       "id_pic": "Wagram-75t_17_§13",
@@ -62,19 +64,22 @@
         "dome",
         "lucarne-d'angle",
         "oeil-de-boeuf"
-      ]
+      ],
+      "dateCapture": "2005:03:25"
     },
     {
       "id_pic": "Wagram-75t_17_§14",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "dateCapture": "2014:02:18"
     },
     {
       "id_pic": "Wagram-75t_17_§15",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "dateCapture": "2005:03:25"
     },
     {
       "id_pic": "Wagram-75t_17_§16",
@@ -83,7 +88,8 @@
         "fenetre",
         "lucarne",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2009:08:12"
     },
     {
       "id_pic": "Wagram-75t_17_§17",
@@ -92,7 +98,8 @@
         "fenetre",
         "lucarne",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2009:08:12"
     },
     {
       "id_pic": "Wagram-75t_17_§18",
@@ -100,35 +107,40 @@
         "fenetre",
         "lucarne",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2004:09:02"
     },
     {
       "id_pic": "Wagram-75t_17_§19",
       "IndexJantzen": [
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2009:08:12"
     },
     {
       "id_pic": "Wagram-75t_17_§20",
       "IndexJantzen": [
         "fenetre",
         "porte-fer"
-      ]
+      ],
+      "dateCapture": null
     },
     {
       "id_pic": "Wagram-75t_17_§3",
       "IndexJantzen": [
         "dome",
         "façade-d'angle"
-      ]
+      ],
+      "dateCapture": "2014:02:18"
     },
     {
       "id_pic": "Wagram-75t_17_§7",
       "IndexJantzen": [
         "dome",
         "façade-d'angle"
-      ]
+      ],
+      "dateCapture": "2005:03:25"
     }
   ]
 }

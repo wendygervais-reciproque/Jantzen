@@ -27,36 +27,40 @@
   "WPfr": null,
   "image_ref": "St-Georges-pl-32_9_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "lucarne",
     "façade",
-    "fronton"
+    "fronton",
+    "fenetre",
+    "lucarne"
   ],
   "photos": [
     {
       "id_pic": "St-Georges-pl-32_9_§1",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2008:02:17"
     },
     {
       "id_pic": "St-Georges-pl-32_9_§2",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2008:02:17"
     },
     {
       "id_pic": "St-Georges-Pl-32_9_1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "dateCapture": "2004:06:16"
     },
     {
       "id_pic": "St-Georges-Pl-32_9_2",
       "IndexJantzen": [
         "fenetre",
         "fronton"
-      ]
+      ],
+      "dateCapture": "2004:06:16"
     }
   ]
 }

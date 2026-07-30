@@ -1,0 +1,50 @@
+{
+  "id_bat": 1142,
+  "libelle": "16 rue Erlanger",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 413,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1892",
+  "periode": [
+    "1870-1894"
+  ],
+  "adresse": {
+    "affichage": "16 rue Erlanger",
+    "numero": "16",
+    "voie": "rue Erlanger"
+  },
+  "arrondissement": 16,
+  "coordonnees": {
+    "latitude": "48.846754",
+    "longitude": "2.261347"
+  },
+  "id_pss": null,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 4121,
+  "terme_jantzen_bat": [
+    "sculpture",
+    "console",
+    "fenetre"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_4121",
+      "IndexJantzen": [
+        "console",
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_4122",
+      "IndexJantzen": [
+        "console",
+        "sculpture"
+      ]
+    }
+  ]
+}

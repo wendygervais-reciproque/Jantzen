@@ -1,0 +1,42 @@
+{
+  "id_bat": 599,
+  "libelle": "11b rue Margueritte",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 221,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1898",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "11b rue Margueritte",
+    "numero": "11b",
+    "voie": "rue Margueritte"
+  },
+  "arrondissement": 17,
+  "coordonnees": {
+    "latitude": "48.880172",
+    "longitude": "2.301006"
+  },
+  "id_pss": 104579,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 9262,
+  "terme_jantzen_bat": [
+    "sculpture",
+    "fenetre"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_9262",
+      "IndexJantzen": [
+        "fenetre",
+        "sculpture"
+      ]
+    }
+  ]
+}

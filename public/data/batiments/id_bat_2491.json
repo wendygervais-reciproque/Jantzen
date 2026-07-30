@@ -27,16 +27,16 @@
   "WPfr": null,
   "image_ref": "Lota-4_16_§1",
   "terme_jantzen_bat": [
-    "lucarne",
     "façade",
     "garde-corps",
+    "lucarne",
+    "oriel",
     "brique",
-    "fenetre",
     "décor",
-    "pignon",
+    "fenetre",
     "balcon",
     "colonne",
-    "oriel"
+    "pignon"
   ],
   "photos": [
     {
@@ -44,7 +44,8 @@
       "IndexJantzen": [
         "brique",
         "façade"
-      ]
+      ],
+      "dateCapture": "2005:06:07"
     },
     {
       "id_pic": "Lota-4_16_§2",
@@ -53,7 +54,8 @@
         "décor",
         "fenetre",
         "oriel"
-      ]
+      ],
+      "dateCapture": "2005:06:07"
     },
     {
       "id_pic": "Lota-4_16_§3",
@@ -62,7 +64,8 @@
         "fenetre",
         "oriel",
         "pignon"
-      ]
+      ],
+      "dateCapture": "2005:06:07"
     },
     {
       "id_pic": "Lota-4_16_§4",
@@ -71,7 +74,8 @@
         "brique",
         "colonne",
         "garde-corps"
-      ]
+      ],
+      "dateCapture": "2005:06:07"
     },
     {
       "id_pic": "Lota-4_16_§5",
@@ -79,14 +83,16 @@
         "brique",
         "colonne",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2005:06:07"
     },
     {
       "id_pic": "Lota-4_16_§6",
       "IndexJantzen": [
         "brique",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2005:06:07"
     }
   ]
 }

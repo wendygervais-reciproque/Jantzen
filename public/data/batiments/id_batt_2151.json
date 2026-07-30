@@ -1,0 +1,80 @@
+{
+  "id_bat": 2151,
+  "libelle": "30 rue de Prony",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 44,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1906",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "30 rue de Prony",
+    "numero": "30",
+    "voie": "rue de Prony"
+  },
+  "arrondissement": 17,
+  "coordonnees": {
+    "latitude": "48.881538",
+    "longitude": "2.306325"
+  },
+  "id_pss": 89176,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 12087,
+  "terme_jantzen_bat": [
+    "lucarne",
+    "oeil-de-boeuf",
+    "colonne",
+    "fenetre",
+    "porte-fer"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_12087",
+      "IndexJantzen": [
+        "colonne",
+        "porte-fer"
+      ]
+    },
+    {
+      "id_pic": "image_12088",
+      "IndexJantzen": [
+        "colonne",
+        "porte-fer"
+      ]
+    },
+    {
+      "id_pic": "image_12089",
+      "IndexJantzen": [
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_12090",
+      "IndexJantzen": [
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_12091",
+      "IndexJantzen": [
+        "fenetre",
+        "oeil-de-boeuf",
+        "porte-fer"
+      ]
+    },
+    {
+      "id_pic": "image_12092",
+      "IndexJantzen": [
+        "fenetre",
+        "oeil-de-boeuf",
+        "porte-fer"
+      ]
+    }
+  ]
+}

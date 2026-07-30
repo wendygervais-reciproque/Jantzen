@@ -1,0 +1,128 @@
+{
+  "id_bat": 1829,
+  "libelle": "25 avenue des Champs-Élysées",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 550,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1865",
+  "periode": [
+    "1850-1869"
+  ],
+  "adresse": {
+    "affichage": "25 avenue des Champs-Élysées",
+    "numero": "25",
+    "voie": "avenue des Champs-Élysées"
+  },
+  "arrondissement": 8,
+  "coordonnees": {
+    "latitude": "48.869383",
+    "longitude": "2.307725"
+  },
+  "id_pss": 10154,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 2249,
+  "terme_jantzen_bat": [
+    "lucarne",
+    "porte-bois",
+    "façade",
+    "oeil-de-boeuf",
+    "fenetre",
+    "sculpture",
+    "décor",
+    "balcon",
+    "garde-corps",
+    "fronton",
+    "console"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_2249",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_2250",
+      "IndexJantzen": [
+        "fenetre",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_2251",
+      "IndexJantzen": [
+        "fenetre",
+        "fronton"
+      ]
+    },
+    {
+      "id_pic": "image_2252",
+      "IndexJantzen": [
+        "console",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_2253",
+      "IndexJantzen": [
+        "porte-bois"
+      ]
+    },
+    {
+      "id_pic": "image_2254",
+      "IndexJantzen": [
+        "balcon",
+        "décor",
+        "fenetre",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_2255",
+      "IndexJantzen": [
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_2256",
+      "IndexJantzen": [
+        "fronton",
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_2257",
+      "IndexJantzen": [
+        "lucarne",
+        "oeil-de-boeuf"
+      ]
+    },
+    {
+      "id_pic": "image_2258",
+      "IndexJantzen": [
+        "balcon",
+        "garde-corps"
+      ]
+    },
+    {
+      "id_pic": "image_2259",
+      "IndexJantzen": [
+        "balcon",
+        "garde-corps"
+      ]
+    },
+    {
+      "id_pic": "image_2260",
+      "IndexJantzen": [
+        "fenetre",
+        "garde-corps",
+        "sculpture"
+      ]
+    }
+  ]
+}

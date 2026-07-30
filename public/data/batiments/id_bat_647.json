@@ -27,39 +27,43 @@
   "WPfr": null,
   "image_ref": "Tournon-12_6_§1",
   "terme_jantzen_bat": [
-    "lucarne",
     "façade",
-    "toiture",
+    "lucarne",
     "fenetre",
-    "balcon"
+    "balcon",
+    "toiture"
   ],
   "photos": [
     {
       "id_pic": "Tournon-12_6_§1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "dateCapture": "2006:04:07"
     },
     {
       "id_pic": "Tournon-12_6_§3",
       "IndexJantzen": [
         "balcon",
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2006:08:31"
     },
     {
       "id_pic": "Tournon-12_6_§4",
       "IndexJantzen": [
         "fenetre",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2006:07:13"
     },
     {
       "id_pic": "Tournon-12_6_§5",
       "IndexJantzen": [
         "lucarne",
         "toiture"
-      ]
+      ],
+      "dateCapture": "2006:07:13"
     }
   ]
 }

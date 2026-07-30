@@ -22,11 +22,11 @@
   "WPfr": null,
   "image_ref": "Rambuteau-16_3_§1",
   "terme_jantzen_bat": [
-    "fenetre",
+    "garde-corps",
     "décor",
     "sculpture",
-    "balcon",
-    "garde-corps"
+    "fenetre",
+    "balcon"
   ],
   "photos": [
     {
@@ -36,14 +36,16 @@
         "fenetre",
         "garde-corps",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2003:08:02"
     },
     {
       "id_pic": "Rambuteau-16_3_A",
       "IndexJantzen": [
         "balcon",
         "garde-corps"
-      ]
+      ],
+      "dateCapture": "2003:08:02"
     }
   ]
 }

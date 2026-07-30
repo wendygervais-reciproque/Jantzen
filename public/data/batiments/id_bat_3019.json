@@ -27,51 +27,57 @@
   "WPfr": null,
   "image_ref": "Clichy-55_9_§1",
   "terme_jantzen_bat": [
-    "lucarne",
     "façade",
-    "toiture",
-    "fenetre",
     "oeil-de-boeuf",
+    "lucarne",
     "sculpture",
-    "colonne"
+    "fenetre",
+    "colonne",
+    "toiture"
   ],
   "photos": [
     {
       "id_pic": "Clichy-55_9_§1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "dateCapture": "2007:03:28"
     },
     {
       "id_pic": "Clichy-55_9_§2",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2007:03:28"
     },
     {
       "id_pic": "Clichy-55_9_§3",
       "IndexJantzen": [
         "lucarne",
         "toiture"
-      ]
+      ],
+      "dateCapture": "2004:08:26"
     },
     {
       "id_pic": "Clichy-55_9_§4",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2007:03:28"
     },
     {
       "id_pic": "Clichy-55_9_§5",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2007:03:28"
     },
     {
       "id_pic": "Clichy-55_9_§6",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:05:21"
     },
     {
       "id_pic": "Clichy-55_9_§7",
@@ -79,7 +85,8 @@
         "colonne",
         "fenetre",
         "oeil-de-boeuf"
-      ]
+      ],
+      "dateCapture": "2005:05:21"
     }
   ]
 }

@@ -1,0 +1,68 @@
+{
+  "id_bat": 1776,
+  "libelle": "23t boulevard Berthier",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "23t boulevard Berthier",
+    "numero": "23t",
+    "voie": "boulevard Berthier"
+  },
+  "arrondissement": 17,
+  "coordonnees": {
+    "latitude": "48.88838",
+    "longitude": "2.300921"
+  },
+  "id_pss": 12251,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 1225,
+  "terme_jantzen_bat": [
+    "fenetre",
+    "porte-bois",
+    "lucarne",
+    "façade"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_1225",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_1226",
+      "IndexJantzen": [
+        "porte-bois"
+      ]
+    },
+    {
+      "id_pic": "image_1227",
+      "IndexJantzen": [
+        "porte-bois"
+      ]
+    },
+    {
+      "id_pic": "image_1228",
+      "IndexJantzen": [
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_1229",
+      "IndexJantzen": [
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_1230",
+      "IndexJantzen": [
+        "lucarne"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id_bat": 3199,
+  "libelle": "60 rue de la Victoire",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 147,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1865",
+  "periode": [
+    "1850-1869"
+  ],
+  "adresse": {
+    "affichage": "60 rue de la Victoire",
+    "numero": "60",
+    "voie": "rue de la Victoire"
+  },
+  "arrondissement": 9,
+  "coordonnees": {
+    "latitude": "48.875294",
+    "longitude": "2.334008"
+  },
+  "id_pss": 81352,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 16233,
+  "terme_jantzen_bat": [
+    "pilastre",
+    "cariatide",
+    "façade",
+    "fenetre",
+    "sculpture",
+    "décor",
+    "porte-fer",
+    "porte-bois",
+    "console"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_16233",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_16234",
+      "IndexJantzen": [
+        "fenetre",
+        "pilastre"
+      ]
+    },
+    {
+      "id_pic": "image_16235",
+      "IndexJantzen": [
+        "décor",
+        "fenetre",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_16236",
+      "IndexJantzen": [
+        "cariatide",
+        "fenetre",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_16237",
+      "IndexJantzen": [
+        "console",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_16238",
+      "IndexJantzen": [
+        "porte-bois"
+      ]
+    },
+    {
+      "id_pic": "image_16239",
+      "IndexJantzen": [
+        "porte-fer"
+      ]
+    }
+  ]
+}

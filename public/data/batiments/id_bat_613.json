@@ -27,15 +27,15 @@
   "WPfr": null,
   "image_ref": "Capucines-bd-12_9_§1",
   "terme_jantzen_bat": [
-    "lucarne",
-    "toiture",
     "façade",
-    "lucarne-d'angle",
+    "garde-corps",
+    "lucarne",
     "sculpture",
-    "atlante",
-    "balcon",
     "pilastre",
-    "garde-corps"
+    "lucarne-d'angle",
+    "balcon",
+    "atlante",
+    "toiture"
   ],
   "photos": [
     {
@@ -43,33 +43,38 @@
       "IndexJantzen": [
         "lucarne-d'angle",
         "toiture"
-      ]
+      ],
+      "dateCapture": "2007:06:02"
     },
     {
       "id_pic": "Capucines-bd-12_9_§2",
       "IndexJantzen": [
         "lucarne-d'angle",
         "toiture"
-      ]
+      ],
+      "dateCapture": "2011:05:25"
     },
     {
       "id_pic": "Capucines-bd-12_9_§3",
       "IndexJantzen": [
         "lucarne-d'angle"
-      ]
+      ],
+      "dateCapture": "2008:02:10"
     },
     {
       "id_pic": "Capucines-bd-12_9_§4",
       "IndexJantzen": [
         "lucarne-d'angle"
-      ]
+      ],
+      "dateCapture": "2008:02:10"
     },
     {
       "id_pic": "Capucines-bd-12_9_§5",
       "IndexJantzen": [
         "lucarne",
         "toiture"
-      ]
+      ],
+      "dateCapture": "2006:03:23"
     },
     {
       "id_pic": "Capucines-bd-12_9_§6",
@@ -78,21 +83,24 @@
         "façade",
         "garde-corps",
         "pilastre"
-      ]
+      ],
+      "dateCapture": "2004:04:25"
     },
     {
       "id_pic": "Capucines-bd-12_9_§7",
       "IndexJantzen": [
         "atlante",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:03:23"
     },
     {
       "id_pic": "Capucines-bd-12_9_§8",
       "IndexJantzen": [
         "lucarne",
         "toiture"
-      ]
+      ],
+      "dateCapture": "2006:03:23"
     }
   ]
 }

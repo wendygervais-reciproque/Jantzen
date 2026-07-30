@@ -1,0 +1,94 @@
+{
+  "id_bat": 839,
+  "libelle": "134 rue de Courcelles",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 542,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1907",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "134 rue de Courcelles",
+    "numero": "134",
+    "voie": "rue de Courcelles"
+  },
+  "arrondissement": 17,
+  "coordonnees": {
+    "latitude": "48.881488",
+    "longitude": "2.300958"
+  },
+  "id_pss": 2659,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 3106,
+  "terme_jantzen_bat": [
+    "porte",
+    "sculpture",
+    "fenetre",
+    "garde-corps",
+    "porte-fer",
+    "mosaique"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_3106",
+      "IndexJantzen": [
+        "fenetre",
+        "porte-fer"
+      ]
+    },
+    {
+      "id_pic": "image_3107",
+      "IndexJantzen": [
+        "fenetre",
+        "porte-fer"
+      ]
+    },
+    {
+      "id_pic": "image_3108",
+      "IndexJantzen": [
+        "mosaique",
+        "porte-fer"
+      ]
+    },
+    {
+      "id_pic": "image_3109",
+      "IndexJantzen": [
+        "mosaique",
+        "porte-fer"
+      ]
+    },
+    {
+      "id_pic": "image_3110",
+      "IndexJantzen": [
+        "porte",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_3111",
+      "IndexJantzen": [
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_3112",
+      "IndexJantzen": [
+        "fenetre",
+        "garde-corps",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_3113",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    }
+  ]
+}

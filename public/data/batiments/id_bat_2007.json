@@ -27,15 +27,15 @@
   "WPfr": null,
   "image_ref": "Bac-29_7_§1",
   "terme_jantzen_bat": [
-    "lucarne",
-    "façade-d'angle",
     "façade",
+    "oeil-de-boeuf",
+    "lucarne",
+    "fenetre-d'angle",
     "fronton",
     "fenetre",
-    "oeil-de-boeuf",
-    "dome",
-    "fenetre-d'angle",
-    "pilastre"
+    "façade-d'angle",
+    "pilastre",
+    "dome"
   ],
   "photos": [
     {
@@ -43,56 +43,64 @@
       "IndexJantzen": [
         "dome",
         "façade-d'angle"
-      ]
+      ],
+      "dateCapture": "2005:04:02"
     },
     {
       "id_pic": "Bac-29_7_§2",
       "IndexJantzen": [
         "dome",
         "fenetre-d'angle"
-      ]
+      ],
+      "dateCapture": "2005:04:02"
     },
     {
       "id_pic": "Bac-29_7_§3",
       "IndexJantzen": [
         "lucarne",
         "oeil-de-boeuf"
-      ]
+      ],
+      "dateCapture": "2008:02:11"
     },
     {
       "id_pic": "Bac-29_7_§4",
       "IndexJantzen": [
         "façade",
         "pilastre"
-      ]
+      ],
+      "dateCapture": "2004:03:30"
     },
     {
       "id_pic": "Bac-29_7_§5",
       "IndexJantzen": [
         "fenetre",
         "fronton"
-      ]
+      ],
+      "dateCapture": "2007:10:22"
     },
     {
       "id_pic": "Bac-29_7_§6",
       "IndexJantzen": [
         "fenetre",
         "fronton"
-      ]
+      ],
+      "dateCapture": "2007:10:22"
     },
     {
       "id_pic": "Bac-29_7_§7",
       "IndexJantzen": [
         "lucarne",
         "oeil-de-boeuf"
-      ]
+      ],
+      "dateCapture": "2006:04:06"
     },
     {
       "id_pic": "Bac-29_7_§8",
       "IndexJantzen": [
         "lucarne",
         "oeil-de-boeuf"
-      ]
+      ],
+      "dateCapture": "2008:02:11"
     }
   ]
 }

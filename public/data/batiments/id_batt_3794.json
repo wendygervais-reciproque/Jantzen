@@ -1,0 +1,48 @@
+{
+  "id_bat": 3794,
+  "libelle": "9 rue Chanzy",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 115,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1902",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "9 rue Chanzy",
+    "numero": "9",
+    "voie": "rue Chanzy"
+  },
+  "arrondissement": 11,
+  "coordonnees": {
+    "latitude": "48.852535",
+    "longitude": "2.382698"
+  },
+  "id_pss": 12219,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 2298,
+  "terme_jantzen_bat": [
+    "lucarne",
+    "fenetre"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_2298",
+      "IndexJantzen": [
+        "fenetre",
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_2299",
+      "IndexJantzen": [
+        "lucarne"
+      ]
+    }
+  ]
+}

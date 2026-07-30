@@ -1,0 +1,56 @@
+{
+  "id_bat": 1536,
+  "libelle": "2 square Desnouettes",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "2 square Desnouettes",
+    "numero": "2",
+    "voie": "square Desnouettes"
+  },
+  "arrondissement": 15,
+  "coordonnees": {
+    "latitude": "48.834823",
+    "longitude": "2.283578"
+  },
+  "id_pss": 35220,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 3743,
+  "terme_jantzen_bat": [
+    "loggia",
+    "façade",
+    "brique",
+    "lucarne-d'angle",
+    "balcon"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_3743",
+      "IndexJantzen": [
+        "balcon",
+        "brique",
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_3744",
+      "IndexJantzen": [
+        "balcon",
+        "brique",
+        "lucarne-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_3745",
+      "IndexJantzen": [
+        "brique",
+        "loggia"
+      ]
+    }
+  ]
+}

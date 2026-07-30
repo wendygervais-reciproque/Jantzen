@@ -28,11 +28,11 @@
   "image_ref": "Parmentier-77_11_§1",
   "terme_jantzen_bat": [
     "façade",
-    "fenetre",
-    "porte-fer-hall",
     "loggia",
-    "colonne",
-    "oriel"
+    "oriel",
+    "porte-fer-hall",
+    "fenetre",
+    "colonne"
   ],
   "photos": [
     {
@@ -40,34 +40,39 @@
       "IndexJantzen": [
         "façade",
         "oriel"
-      ]
+      ],
+      "dateCapture": "2004:09:16"
     },
     {
       "id_pic": "Parmentier-77_11_§2",
       "IndexJantzen": [
         "fenetre",
         "oriel"
-      ]
+      ],
+      "dateCapture": "2004:09:16"
     },
     {
       "id_pic": "Parmentier-77_11_§3",
       "IndexJantzen": [
         "loggia",
         "oriel"
-      ]
+      ],
+      "dateCapture": "2004:09:16"
     },
     {
       "id_pic": "Parmentier-77_11_§4",
       "IndexJantzen": [
         "colonne",
         "loggia"
-      ]
+      ],
+      "dateCapture": "2004:09:16"
     },
     {
       "id_pic": "Parmentier-77_11_§5-",
       "IndexJantzen": [
         "porte-fer-hall"
-      ]
+      ],
+      "dateCapture": "2004:09:17"
     }
   ]
 }

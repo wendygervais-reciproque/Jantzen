@@ -27,11 +27,11 @@
   "WPfr": null,
   "image_ref": "Simplon-17_18_§10",
   "terme_jantzen_bat": [
-    "lucarne",
     "façade",
-    "porte-fer",
+    "lucarne",
     "brique",
     "fenetre",
+    "porte-fer",
     "balcon"
   ],
   "photos": [
@@ -39,45 +39,52 @@
       "id_pic": "Simplon-17_18_§10",
       "IndexJantzen": [
         "porte-fer"
-      ]
+      ],
+      "dateCapture": "2006:06:09"
     },
     {
       "id_pic": "Simplon-17_18_§12-Rx",
       "IndexJantzen": [
         "porte-fer"
-      ]
+      ],
+      "dateCapture": "2011:07:02"
     },
     {
       "id_pic": "Simplon-17_18_§13",
-      "IndexJantzen": []
+      "IndexJantzen": [],
+      "dateCapture": "2008:06:17"
     },
     {
       "id_pic": "Simplon-17_18_§2-Rx",
       "IndexJantzen": [
         "brique",
         "façade"
-      ]
+      ],
+      "dateCapture": "2011:07:02"
     },
     {
       "id_pic": "Simplon-17_18_§4",
       "IndexJantzen": [
         "brique",
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2006:06:09"
     },
     {
       "id_pic": "Simplon-17_18_§5",
       "IndexJantzen": [
         "brique",
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2008:07:01"
     },
     {
       "id_pic": "Simplon-17_18_§6",
       "IndexJantzen": [
         "brique",
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2006:06:09"
     },
     {
       "id_pic": "Simplon-17_18_§7-Rx",
@@ -85,21 +92,24 @@
         "balcon",
         "brique",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2011:07:02"
     },
     {
       "id_pic": "Simplon-17_18_§8-Rx",
       "IndexJantzen": [
         "brique",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2011:07:02"
     },
     {
       "id_pic": "Simplon-17_18_§9-Rx",
       "IndexJantzen": [
         "brique",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2011:07:02"
     }
   ]
 }

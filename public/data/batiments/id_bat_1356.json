@@ -28,37 +28,41 @@
   "image_ref": "Ampere-19_17_§1",
   "terme_jantzen_bat": [
     "façade",
-    "porte-fer",
-    "fenetre",
+    "console",
+    "garde-corps",
     "oriel",
     "sculpture",
-    "console",
-    "garde-corps"
+    "fenetre",
+    "porte-fer"
   ],
   "photos": [
     {
       "id_pic": "Ampere-19_17_§1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "dateCapture": "2004:07:05"
     },
     {
       "id_pic": "Ampere-19_17_§2",
       "IndexJantzen": [
         "oriel"
-      ]
+      ],
+      "dateCapture": "2004:07:05"
     },
     {
       "id_pic": "Ampere-19_17_§3",
       "IndexJantzen": [
         "oriel"
-      ]
+      ],
+      "dateCapture": "2012:04:22"
     },
     {
       "id_pic": "Ampere-19_17_§4",
       "IndexJantzen": [
         "garde-corps"
-      ]
+      ],
+      "dateCapture": "2004:07:05"
     },
     {
       "id_pic": "Ampere-19_17_§5",
@@ -66,14 +70,16 @@
         "console",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2012:04:22"
     },
     {
       "id_pic": "Ampere-19_17_§6",
       "IndexJantzen": [
         "fenetre",
         "porte-fer"
-      ]
+      ],
+      "dateCapture": "2004:07:05"
     }
   ]
 }

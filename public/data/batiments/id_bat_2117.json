@@ -22,9 +22,9 @@
   "WPfr": null,
   "image_ref": "Louis-Le-Grand-3_2_§1",
   "terme_jantzen_bat": [
-    "oeil-de-boeuf",
     "porte-bois",
-    "poignée-porte"
+    "poignée-porte",
+    "oeil-de-boeuf"
   ],
   "photos": [
     {
@@ -32,13 +32,15 @@
       "IndexJantzen": [
         "oeil-de-boeuf",
         "porte-bois"
-      ]
+      ],
+      "dateCapture": "2004:09:12"
     },
     {
       "id_pic": "Louis-Le-Grand-3_2_§2-21",
       "IndexJantzen": [
         "poignée-porte"
-      ]
+      ],
+      "dateCapture": "2004:09:12"
     }
   ]
 }

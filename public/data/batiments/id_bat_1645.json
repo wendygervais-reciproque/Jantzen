@@ -22,50 +22,56 @@
   "WPfr": null,
   "image_ref": "St-Antoine-21_4_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "lucarne",
     "façade",
-    "toiture"
+    "fenetre",
+    "toiture",
+    "lucarne"
   ],
   "photos": [
     {
       "id_pic": "St-Antoine-21_4_§1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "dateCapture": "2008:05:16"
     },
     {
       "id_pic": "St-Antoine-21_4_§2",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2008:05:16"
     },
     {
       "id_pic": "St-Antoine-21_4_§3",
       "IndexJantzen": [
         "fenetre",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2003:07:14"
     },
     {
       "id_pic": "St-Antoine-21_4_§4",
       "IndexJantzen": [
         "lucarne",
         "toiture"
-      ]
+      ],
+      "dateCapture": "2008:05:16"
     },
     {
       "id_pic": "St-Antoine-21_4_§5",
       "IndexJantzen": [
         "lucarne",
         "toiture"
-      ]
+      ],
+      "dateCapture": "2003:07:14"
     },
     {
       "id_pic": "St-Antoine-21_4_§6",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2003:07:14"
     }
   ]
 }

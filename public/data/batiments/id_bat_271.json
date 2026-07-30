@@ -27,16 +27,17 @@
   "WPfr": null,
   "image_ref": "Tour-Maubourg-Sq-1_7_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "console",
-    "sculpture"
+    "sculpture",
+    "fenetre"
   ],
   "photos": [
     {
       "id_pic": "Tour-Maubourg-Sq-1_7_§1",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2005:06:09"
     },
     {
       "id_pic": "Tour-Maubourg-Sq-1_7_§2",
@@ -44,7 +45,8 @@
         "console",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:06:09"
     }
   ]
 }

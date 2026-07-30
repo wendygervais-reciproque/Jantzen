@@ -28,9 +28,9 @@
   "image_ref": "Reaumur-93_2_§1",
   "terme_jantzen_bat": [
     "fenetre",
+    "colonne",
     "façade-d'angle",
-    "verrière",
-    "colonne"
+    "verrière"
   ],
   "photos": [
     {
@@ -38,28 +38,32 @@
       "IndexJantzen": [
         "façade-d'angle",
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2004:04:25"
     },
     {
       "id_pic": "Reaumur-93_2_§2",
       "IndexJantzen": [
         "fenetre",
         "verrière"
-      ]
+      ],
+      "dateCapture": "2004:07:05"
     },
     {
       "id_pic": "Reaumur-93_2_§3",
       "IndexJantzen": [
         "fenetre",
         "verrière"
-      ]
+      ],
+      "dateCapture": "2004:07:05"
     },
     {
       "id_pic": "Reaumur-93_2_§4",
       "IndexJantzen": [
         "colonne",
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2004:04:25"
     }
   ]
 }

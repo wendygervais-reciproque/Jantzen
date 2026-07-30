@@ -1,0 +1,49 @@
+{
+  "id_bat": 3933,
+  "libelle": "98 rue de la Tour",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 418,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1902",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "98 rue de la Tour",
+    "numero": "98",
+    "voie": "rue de la Tour"
+  },
+  "arrondissement": 16,
+  "coordonnees": {
+    "latitude": "48.862121",
+    "longitude": "2.277824"
+  },
+  "id_pss": 81591,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 15354,
+  "terme_jantzen_bat": [
+    "console",
+    "sculpture"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_15354",
+      "IndexJantzen": [
+        "console",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_15355",
+      "IndexJantzen": [
+        "console",
+        "sculpture"
+      ]
+    }
+  ]
+}

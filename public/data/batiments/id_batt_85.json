@@ -1,0 +1,68 @@
+{
+  "id_bat": 85,
+  "libelle": "Gare Saint-Lazare",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": "1886",
+  "periode": [
+    "1870-1894"
+  ],
+  "adresse": null,
+  "arrondissement": 8,
+  "coordonnees": {
+    "latitude": "48.876944444444",
+    "longitude": "2.3244444444444"
+  },
+  "id_pss": 4456,
+  "id_wikidata": "Q747506",
+  "WPfr": "Gare de Paris-Saint-Lazare",
+  "image_ref": 5134,
+  "terme_jantzen_bat": [
+    "lucarne",
+    "oeil-de-boeuf",
+    "toiture",
+    "fenetre",
+    "métal",
+    "tourelle",
+    "verrière",
+    "fronton"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_5134",
+      "IndexJantzen": [
+        "fenetre",
+        "fronton"
+      ]
+    },
+    {
+      "id_pic": "image_5135",
+      "IndexJantzen": [
+        "lucarne",
+        "toiture"
+      ]
+    },
+    {
+      "id_pic": "image_14592",
+      "IndexJantzen": [
+        "lucarne",
+        "oeil-de-boeuf"
+      ]
+    },
+    {
+      "id_pic": "image_14593",
+      "IndexJantzen": [
+        "lucarne",
+        "oeil-de-boeuf"
+      ]
+    },
+    {
+      "id_pic": "image_14594",
+      "IndexJantzen": [
+        "métal",
+        "tourelle",
+        "verrière"
+      ]
+    }
+  ]
+}

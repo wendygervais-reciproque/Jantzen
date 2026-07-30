@@ -27,11 +27,11 @@
   "WPfr": null,
   "image_ref": "Dufrenoy-6_16_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "sculpture",
-    "porte-fer-hall",
     "console",
     "loggia",
+    "porte-fer-hall",
+    "sculpture",
+    "fenetre",
     "colonne"
   ],
   "photos": [
@@ -39,33 +39,38 @@
       "id_pic": "Dufrenoy-6_16_§1",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2004:05:17"
     },
     {
       "id_pic": "Dufrenoy-6_16_§2",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2006:06:30"
     },
     {
       "id_pic": "Dufrenoy-6_16_§3-10",
       "IndexJantzen": [
         "colonne",
         "loggia"
-      ]
+      ],
+      "dateCapture": "2006:06:30"
     },
     {
       "id_pic": "Dufrenoy-6_16_§4",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:06:30"
     },
     {
       "id_pic": "Dufrenoy-6_16_§5",
       "IndexJantzen": [
         "porte-fer-hall"
-      ]
+      ],
+      "dateCapture": "2004:05:17"
     }
   ]
 }

@@ -27,12 +27,12 @@
   "WPfr": null,
   "image_ref": "Reaumur-116_2_§1",
   "terme_jantzen_bat": [
-    "fronton",
-    "porte-fer",
-    "fenetre",
+    "console",
     "sculpture",
-    "atlante",
-    "console"
+    "fronton",
+    "fenetre",
+    "porte-fer",
+    "atlante"
   ],
   "photos": [
     {
@@ -40,7 +40,8 @@
       "IndexJantzen": [
         "fenetre",
         "porte-fer"
-      ]
+      ],
+      "dateCapture": "2004:04:25"
     },
     {
       "id_pic": "Reaumur-116_2_§2-Rs",
@@ -48,14 +49,16 @@
         "fenetre",
         "porte-fer",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2011:05:07"
     },
     {
       "id_pic": "Reaumur-116_2_§3",
       "IndexJantzen": [
         "fronton",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2011:05:07"
     },
     {
       "id_pic": "Reaumur-116_2_§4",
@@ -63,14 +66,16 @@
         "atlante",
         "console",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:08:28"
     },
     {
       "id_pic": "Reaumur-116_2_§5",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:08:28"
     }
   ]
 }

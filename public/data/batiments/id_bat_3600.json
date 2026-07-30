@@ -22,13 +22,13 @@
   "WPfr": null,
   "image_ref": "Alfred-de-Vigny-8_8_§1",
   "terme_jantzen_bat": [
-    "lucarne",
     "façade",
-    "fenetre",
+    "lucarne",
+    "cariatide",
     "brique",
-    "sculpture",
     "tourelle",
-    "cariatide"
+    "sculpture",
+    "fenetre"
   ],
   "photos": [
     {
@@ -36,21 +36,24 @@
       "IndexJantzen": [
         "fenetre",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2009:07:16"
     },
     {
       "id_pic": "Alfred-de-Vigny-8_8_§2",
       "IndexJantzen": [
         "fenetre",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2009:07:16"
     },
     {
       "id_pic": "Alfred-de-Vigny-8_8_§3",
       "IndexJantzen": [
         "brique",
         "façade"
-      ]
+      ],
+      "dateCapture": "2009:07:16"
     },
     {
       "id_pic": "Alfred-de-Vigny-8_8_§4",
@@ -58,28 +61,32 @@
         "brique",
         "façade",
         "tourelle"
-      ]
+      ],
+      "dateCapture": "2008:04:17"
     },
     {
       "id_pic": "Alfred-de-Vigny-8_8_§5",
       "IndexJantzen": [
         "brique",
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2009:07:16"
     },
     {
       "id_pic": "Alfred-de-Vigny-8_8_§6",
       "IndexJantzen": [
         "brique",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2009:07:16"
     },
     {
       "id_pic": "Alfred-de-Vigny-8_8_§7",
       "IndexJantzen": [
         "cariatide",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2009:07:16"
     }
   ]
 }

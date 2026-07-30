@@ -27,14 +27,14 @@
   "WPfr": null,
   "image_ref": "Kleber-22_16_§2",
   "terme_jantzen_bat": [
-    "fenetre",
-    "sculpture",
-    "clé",
     "console",
+    "garde-corps",
     "chimère",
+    "clé",
+    "sculpture",
+    "fenetre",
     "balcon",
-    "porte-bois",
-    "garde-corps"
+    "porte-bois"
   ],
   "photos": [
     {
@@ -43,7 +43,8 @@
         "balcon",
         "console",
         "garde-corps"
-      ]
+      ],
+      "dateCapture": "2005:03:19"
     },
     {
       "id_pic": "Kleber-22_16_§3",
@@ -51,7 +52,8 @@
         "balcon",
         "clé",
         "garde-corps"
-      ]
+      ],
+      "dateCapture": "2005:03:19"
     },
     {
       "id_pic": "Kleber-22_16_§4",
@@ -59,21 +61,24 @@
         "chimère",
         "clé",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:03:19"
     },
     {
       "id_pic": "Kleber-22_16_§5",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:03:19"
     },
     {
       "id_pic": "Kleber-22_16_§6",
       "IndexJantzen": [
         "fenetre",
         "porte-bois"
-      ]
+      ],
+      "dateCapture": "2005:03:19"
     }
   ]
 }

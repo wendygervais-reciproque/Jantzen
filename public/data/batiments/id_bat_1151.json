@@ -27,21 +27,21 @@
   "WPfr": null,
   "image_ref": "Parrot-16_12_§1",
   "terme_jantzen_bat": [
-    "lucarne",
-    "façade-d'angle",
-    "fronton",
     "garde-corps",
-    "lucarne-d'angle",
-    "fenetre",
-    "décor",
-    "dome",
+    "lucarne",
     "fenetre-d'angle",
-    "sculpture",
-    "cariatide",
-    "balcon",
     "mosaique",
+    "décor",
+    "sculpture",
+    "oriel",
+    "fenetre",
+    "cariatide",
+    "fronton",
+    "façade-d'angle",
     "colonne",
-    "oriel"
+    "balcon",
+    "lucarne-d'angle",
+    "dome"
   ],
   "photos": [
     {
@@ -49,14 +49,16 @@
       "IndexJantzen": [
         "dome",
         "façade-d'angle"
-      ]
+      ],
+      "dateCapture": "2007:04:11"
     },
     {
       "id_pic": "Parrot-16_12_§10",
       "IndexJantzen": [
         "fenetre",
         "mosaique"
-      ]
+      ],
+      "dateCapture": "2004:06:06"
     },
     {
       "id_pic": "Parrot-16_12_§11",
@@ -65,7 +67,8 @@
         "fenetre",
         "mosaique",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:10:10"
     },
     {
       "id_pic": "Parrot-16_12_§14",
@@ -73,14 +76,16 @@
         "colonne",
         "fenetre",
         "mosaique"
-      ]
+      ],
+      "dateCapture": "2006:07:03"
     },
     {
       "id_pic": "Parrot-16_12_§15",
       "IndexJantzen": [
         "lucarne",
         "oriel"
-      ]
+      ],
+      "dateCapture": "2007:04:11"
     },
     {
       "id_pic": "Parrot-16_12_§16",
@@ -89,28 +94,32 @@
         "fenetre",
         "mosaique",
         "oriel"
-      ]
+      ],
+      "dateCapture": "2007:04:11"
     },
     {
       "id_pic": "Parrot-16_12_§17",
       "IndexJantzen": [
         "fenetre",
         "mosaique"
-      ]
+      ],
+      "dateCapture": "2007:04:11"
     },
     {
       "id_pic": "Parrot-16_12_§18",
       "IndexJantzen": [
         "fenetre",
         "garde-corps"
-      ]
+      ],
+      "dateCapture": "2005:10:10"
     },
     {
       "id_pic": "Parrot-16_12_§2",
       "IndexJantzen": [
         "dome",
         "fenetre-d'angle"
-      ]
+      ],
+      "dateCapture": "2007:04:11"
     },
     {
       "id_pic": "Parrot-16_12_§3",
@@ -119,7 +128,8 @@
         "décor",
         "fenetre-d'angle",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2007:04:11"
     },
     {
       "id_pic": "Parrot-16_12_§4",
@@ -128,7 +138,8 @@
         "cariatide",
         "fronton",
         "lucarne-d'angle"
-      ]
+      ],
+      "dateCapture": "2007:04:11"
     },
     {
       "id_pic": "Parrot-16_12_§5",
@@ -137,7 +148,8 @@
         "dome",
         "fronton",
         "lucarne-d'angle"
-      ]
+      ],
+      "dateCapture": "2007:04:11"
     },
     {
       "id_pic": "Parrot-16_12_§6",
@@ -147,7 +159,8 @@
         "fronton",
         "lucarne-d'angle",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2007:04:11"
     },
     {
       "id_pic": "Parrot-16_12_§7",
@@ -159,7 +172,8 @@
         "lucarne",
         "mosaique",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2007:04:11"
     },
     {
       "id_pic": "Parrot-16_12_§8",
@@ -170,7 +184,8 @@
         "fronton",
         "lucarne",
         "mosaique"
-      ]
+      ],
+      "dateCapture": "2006:07:03"
     },
     {
       "id_pic": "Parrot-16_12_§9",
@@ -178,7 +193,8 @@
         "décor",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2004:06:06"
     }
   ]
 }

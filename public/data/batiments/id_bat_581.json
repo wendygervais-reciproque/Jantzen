@@ -27,11 +27,11 @@
   "WPfr": null,
   "image_ref": "Reaumur-118_2_§1",
   "terme_jantzen_bat": [
-    "métal",
-    "fenetre",
+    "verrière",
     "décor",
-    "colonne",
-    "verrière"
+    "fenetre",
+    "métal",
+    "colonne"
   ],
   "photos": [
     {
@@ -40,7 +40,8 @@
         "fenetre",
         "métal",
         "verrière"
-      ]
+      ],
+      "dateCapture": "2004:04:25"
     },
     {
       "id_pic": "Reaumur-118_2_§2",
@@ -49,13 +50,15 @@
         "décor",
         "fenetre",
         "verrière"
-      ]
+      ],
+      "dateCapture": "2005:08:28"
     },
     {
       "id_pic": "Reaumur-118_2_§3",
       "IndexJantzen": [
         "colonne"
-      ]
+      ],
+      "dateCapture": "2004:04:25"
     },
     {
       "id_pic": "Reaumur-118_2_§4",
@@ -64,13 +67,15 @@
         "décor",
         "fenetre",
         "métal"
-      ]
+      ],
+      "dateCapture": "2005:08:28"
     },
     {
       "id_pic": "Reaumur-118_2_§5",
       "IndexJantzen": [
         "colonne"
-      ]
+      ],
+      "dateCapture": "2004:08:21"
     }
   ]
 }

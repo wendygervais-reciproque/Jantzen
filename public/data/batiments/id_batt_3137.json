@@ -1,0 +1,95 @@
+{
+  "id_bat": 3137,
+  "libelle": "6 rue de Messine",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 382,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1907",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "6 rue de Messine",
+    "numero": "6",
+    "voie": "rue de Messine"
+  },
+  "arrondissement": 8,
+  "coordonnees": {
+    "latitude": "48.876831",
+    "longitude": "2.311137"
+  },
+  "id_pss": 28362,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 9492,
+  "terme_jantzen_bat": [
+    "colonne",
+    "fenetre",
+    "sculpture",
+    "balcon",
+    "garde-corps",
+    "console"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_9492",
+      "IndexJantzen": [
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_9493",
+      "IndexJantzen": [
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_9494",
+      "IndexJantzen": [
+        "balcon",
+        "colonne"
+      ]
+    },
+    {
+      "id_pic": "image_9495",
+      "IndexJantzen": [
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_9496",
+      "IndexJantzen": [
+        "balcon",
+        "console",
+        "garde-corps"
+      ]
+    },
+    {
+      "id_pic": "image_9497",
+      "IndexJantzen": [
+        "balcon",
+        "garde-corps"
+      ]
+    },
+    {
+      "id_pic": "image_9498",
+      "IndexJantzen": [
+        "balcon",
+        "colonne",
+        "garde-corps"
+      ]
+    },
+    {
+      "id_pic": "image_9499",
+      "IndexJantzen": [
+        "colonne",
+        "fenetre",
+        "sculpture"
+      ]
+    }
+  ]
+}

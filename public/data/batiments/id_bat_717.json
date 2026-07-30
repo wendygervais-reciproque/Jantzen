@@ -27,16 +27,16 @@
   "WPfr": null,
   "image_ref": "Mozart-122_16_§1",
   "terme_jantzen_bat": [
+    "garde-corps",
     "lucarne",
-    "façade-d'angle",
-    "céramique",
-    "porte-fer",
+    "fenetre-d'angle",
     "brique",
     "fenetre",
-    "fenetre-d'angle",
+    "porte-fer",
+    "façade-d'angle",
     "balcon",
     "colonne",
-    "garde-corps"
+    "céramique"
   ],
   "photos": [
     {
@@ -44,14 +44,16 @@
       "IndexJantzen": [
         "brique",
         "façade-d'angle"
-      ]
+      ],
+      "dateCapture": "2009:03:31"
     },
     {
       "id_pic": "Mozart-122_16_§10",
       "IndexJantzen": [
         "brique",
         "porte-fer"
-      ]
+      ],
+      "dateCapture": "2005:05:18"
     },
     {
       "id_pic": "Mozart-122_16_§2",
@@ -59,7 +61,8 @@
         "brique",
         "fenetre-d'angle",
         "lucarne"
-      ]
+      ],
+      "dateCapture": null
     },
     {
       "id_pic": "Mozart-122_16_§3",
@@ -67,14 +70,16 @@
         "brique",
         "fenetre",
         "garde-corps"
-      ]
+      ],
+      "dateCapture": "2009:03:31"
     },
     {
       "id_pic": "Mozart-122_16_§4",
       "IndexJantzen": [
         "balcon",
         "brique"
-      ]
+      ],
+      "dateCapture": "2006:04:17"
     },
     {
       "id_pic": "Mozart-122_16_§5",
@@ -82,7 +87,8 @@
         "balcon",
         "brique",
         "garde-corps"
-      ]
+      ],
+      "dateCapture": "2005:05:18"
     },
     {
       "id_pic": "Mozart-122_16_§6",
@@ -90,7 +96,8 @@
         "brique",
         "céramique",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2006:04:17"
     },
     {
       "id_pic": "Mozart-122_16_§7",
@@ -98,20 +105,23 @@
         "brique",
         "céramique",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2006:07:01"
     },
     {
       "id_pic": "Mozart-122_16_§8",
       "IndexJantzen": [
         "colonne"
-      ]
+      ],
+      "dateCapture": null
     },
     {
       "id_pic": "Mozart-122_16_§9",
       "IndexJantzen": [
         "brique",
         "porte-fer"
-      ]
+      ],
+      "dateCapture": "2010:05:23"
     }
   ]
 }

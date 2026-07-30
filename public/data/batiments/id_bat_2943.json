@@ -23,13 +23,13 @@
   "WPfr": null,
   "image_ref": "St-Louis-en-L'ile-51_4_§1",
   "terme_jantzen_bat": [
-    "fenetre",
+    "console",
+    "garde-corps",
     "sculpture",
     "clé",
-    "console",
+    "fenetre",
     "balcon",
-    "porte-bois",
-    "garde-corps"
+    "porte-bois"
   ],
   "photos": [
     {
@@ -37,13 +37,15 @@
       "IndexJantzen": [
         "balcon",
         "garde-corps"
-      ]
+      ],
+      "dateCapture": "2004:07:07"
     },
     {
       "id_pic": "St-Louis-en-L'ile-51_4_§2",
       "IndexJantzen": [
         "porte-bois"
-      ]
+      ],
+      "dateCapture": "2003:08:03"
     },
     {
       "id_pic": "St-Louis-en-L'ile-51_4_§3",
@@ -53,14 +55,16 @@
         "fenetre",
         "garde-corps",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2003:08:03"
     },
     {
       "id_pic": "St-Louis-en-L'ile-51_4_§4",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2004:07:07"
     }
   ]
 }

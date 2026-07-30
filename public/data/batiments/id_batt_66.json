@@ -1,0 +1,77 @@
+{
+  "id_bat": 66,
+  "libelle": "Église Saint-Jean de Montmartre",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 17,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1894-1904",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "place des Abbesses",
+    "numero": null,
+    "voie": "place des Abbesses"
+  },
+  "arrondissement": 18,
+  "coordonnees": {
+    "latitude": "48.884105555556",
+    "longitude": "2.3378833333333"
+  },
+  "id_pss": 9365,
+  "id_wikidata": "Q1581356",
+  "WPfr": "Église Saint-Jean de Montmartre",
+  "image_ref": 52,
+  "terme_jantzen_bat": [
+    "toiture",
+    "façade",
+    "mosaique",
+    "brique"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_52",
+      "IndexJantzen": [
+        "brique",
+        "façade",
+        "mosaique"
+      ]
+    },
+    {
+      "id_pic": "image_53",
+      "IndexJantzen": [
+        "brique",
+        "façade",
+        "mosaique"
+      ]
+    },
+    {
+      "id_pic": "image_54",
+      "IndexJantzen": [
+        "brique",
+        "façade",
+        "mosaique"
+      ]
+    },
+    {
+      "id_pic": "image_55",
+      "IndexJantzen": [
+        "brique",
+        "façade",
+        "mosaique"
+      ]
+    },
+    {
+      "id_pic": "image_56",
+      "IndexJantzen": [
+        "brique",
+        "mosaique",
+        "toiture"
+      ]
+    }
+  ]
+}

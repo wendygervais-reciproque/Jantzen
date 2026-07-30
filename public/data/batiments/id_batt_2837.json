@@ -1,0 +1,70 @@
+{
+  "id_bat": 2837,
+  "libelle": "5 rue Dante",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 155,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1905",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "5 rue Dante",
+    "numero": "5",
+    "voie": "rue Dante"
+  },
+  "arrondissement": 5,
+  "coordonnees": {
+    "latitude": "48.851195",
+    "longitude": "2.346758"
+  },
+  "id_pss": 90972,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 3441,
+  "terme_jantzen_bat": [
+    "colonne",
+    "sculpture",
+    "fenetre",
+    "porte-fer-hall",
+    "porte-fer",
+    "atlante",
+    "console"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_3441",
+      "IndexJantzen": [
+        "fenetre",
+        "porte-fer"
+      ]
+    },
+    {
+      "id_pic": "image_3442",
+      "IndexJantzen": [
+        "atlante",
+        "fenetre",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_3443",
+      "IndexJantzen": [
+        "colonne",
+        "porte-fer-hall"
+      ]
+    },
+    {
+      "id_pic": "image_3444",
+      "IndexJantzen": [
+        "atlante",
+        "console",
+        "sculpture"
+      ]
+    }
+  ]
+}

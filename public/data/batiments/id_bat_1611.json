@@ -27,14 +27,14 @@
   "WPfr": null,
   "image_ref": "Suchet-21_1_§1",
   "terme_jantzen_bat": [
-    "lucarne",
-    "façade-d'angle",
-    "dome",
-    "sculpture",
     "console",
     "loggia",
+    "lucarne",
+    "oriel",
+    "sculpture",
+    "façade-d'angle",
     "colonne",
-    "oriel"
+    "dome"
   ],
   "photos": [
     {
@@ -43,33 +43,38 @@
         "dome",
         "façade-d'angle",
         "oriel"
-      ]
+      ],
+      "dateCapture": "2006:04:02"
     },
     {
       "id_pic": "Suchet-21_1_§2",
       "IndexJantzen": [
         "colonne",
         "loggia"
-      ]
+      ],
+      "dateCapture": "2006:04:02"
     },
     {
       "id_pic": "Suchet-21_1_§3",
       "IndexJantzen": [
         "loggia"
-      ]
+      ],
+      "dateCapture": "2006:04:02"
     },
     {
       "id_pic": "Suchet-21_1_§4",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2006:04:02"
     },
     {
       "id_pic": "Suchet-21_16_§1",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2004:03:16"
     }
   ]
 }

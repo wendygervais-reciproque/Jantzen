@@ -18,22 +18,23 @@
   "WPfr": "La Samaritaine",
   "image_ref": "Louvre-Qu-Samaritaine_1_§1",
   "terme_jantzen_bat": [
-    "lucarne",
     "façade",
-    "façade-d'angle",
-    "fenetre",
-    "décor",
+    "verrière",
+    "lucarne",
     "fenetre-d'angle",
+    "décor",
     "sculpture",
-    "balcon",
-    "verrière"
+    "fenetre",
+    "façade-d'angle",
+    "balcon"
   ],
   "photos": [
     {
       "id_pic": "Louvre-Qu-Samaritaine_1_§1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "dateCapture": "2005:07:13"
     },
     {
       "id_pic": "Louvre-Qu-Samaritaine_1_§10",
@@ -41,7 +42,8 @@
         "décor",
         "fenetre-d'angle",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:07:15"
     },
     {
       "id_pic": "Louvre-Qu-Samaritaine_1_§11-",
@@ -49,25 +51,29 @@
         "décor",
         "fenetre-d'angle",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:07:15"
     },
     {
       "id_pic": "Louvre-Qu-Samaritaine_1_§12",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2005:07:15"
     },
     {
       "id_pic": "Louvre-Qu-Samaritaine_1_§13",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2005:07:15"
     },
     {
       "id_pic": "Louvre-Qu-Samaritaine_1_§2",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "dateCapture": "2006:04:21"
     },
     {
       "id_pic": "Louvre-Qu-Samaritaine_1_§3",
@@ -75,7 +81,8 @@
         "décor",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:04:21"
     },
     {
       "id_pic": "Louvre-Qu-Samaritaine_1_§4",
@@ -83,7 +90,8 @@
         "décor",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:04:21"
     },
     {
       "id_pic": "Louvre-Qu-Samaritaine_1_§5",
@@ -92,33 +100,38 @@
         "fenetre",
         "sculpture",
         "verrière"
-      ]
+      ],
+      "dateCapture": "2006:08:30"
     },
     {
       "id_pic": "Louvre-Qu-Samaritaine_1_§6",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2006:08:30"
     },
     {
       "id_pic": "Louvre-Qu-Samaritaine_1_§7",
       "IndexJantzen": [
         "façade-d'angle"
-      ]
+      ],
+      "dateCapture": "2004:09:12"
     },
     {
       "id_pic": "Louvre-Qu-Samaritaine_1_§8",
       "IndexJantzen": [
         "façade-d'angle",
         "verrière"
-      ]
+      ],
+      "dateCapture": "2006:08:30"
     },
     {
       "id_pic": "Louvre-Qu-Samaritaine_1_§9",
       "IndexJantzen": [
         "balcon",
         "fenetre-d'angle"
-      ]
+      ],
+      "dateCapture": "2006:08:30"
     }
   ]
 }

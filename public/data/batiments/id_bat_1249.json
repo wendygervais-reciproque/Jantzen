@@ -27,14 +27,14 @@
   "WPfr": null,
   "image_ref": "Haussmann-170_8_§1",
   "terme_jantzen_bat": [
-    "lucarne",
-    "façade-d'angle",
-    "intérieur",
-    "porte-fer",
     "oeil-de-boeuf",
-    "dome",
+    "lucarne",
     "fenetre-d'angle",
-    "balcon"
+    "porte-fer",
+    "façade-d'angle",
+    "balcon",
+    "intérieur",
+    "dome"
   ],
   "photos": [
     {
@@ -42,14 +42,16 @@
       "IndexJantzen": [
         "dome",
         "façade-d'angle"
-      ]
+      ],
+      "dateCapture": "2004:09:17"
     },
     {
       "id_pic": "Haussmann-170_8_§2",
       "IndexJantzen": [
         "balcon",
         "fenetre-d'angle"
-      ]
+      ],
+      "dateCapture": "2006:06:17"
     },
     {
       "id_pic": "Haussmann-170_8_§3",
@@ -58,7 +60,8 @@
         "fenetre-d'angle",
         "lucarne",
         "oeil-de-boeuf"
-      ]
+      ],
+      "dateCapture": "2006:03:23"
     },
     {
       "id_pic": "Haussmann-170_8_§4",
@@ -66,7 +69,8 @@
         "dome",
         "lucarne",
         "oeil-de-boeuf"
-      ]
+      ],
+      "dateCapture": "2006:03:23"
     },
     {
       "id_pic": "Haussmann-170_8_§5",
@@ -74,20 +78,23 @@
         "dome",
         "lucarne",
         "oeil-de-boeuf"
-      ]
+      ],
+      "dateCapture": "2006:03:23"
     },
     {
       "id_pic": "Haussmann-170_8_§6",
       "IndexJantzen": [
         "porte-fer"
-      ]
+      ],
+      "dateCapture": null
     },
     {
       "id_pic": "Haussmann-170_8_§8",
       "IndexJantzen": [
         "intérieur",
         "porte-fer"
-      ]
+      ],
+      "dateCapture": null
     }
   ]
 }

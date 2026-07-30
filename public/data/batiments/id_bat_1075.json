@@ -22,25 +22,27 @@
   "WPfr": null,
   "image_ref": "Faubourg-St-Denis-154_10_§1",
   "terme_jantzen_bat": [
-    "lucarne",
     "façade",
-    "fenetre",
+    "console",
+    "lucarne",
     "décor",
     "sculpture",
-    "console"
+    "fenetre"
   ],
   "photos": [
     {
       "id_pic": "Faubourg-St-Denis-154_10_§1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "dateCapture": "2005:05:25"
     },
     {
       "id_pic": "Faubourg-St-Denis-154_10_§2",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "dateCapture": "2005:05:25"
     },
     {
       "id_pic": "Faubourg-St-Denis-154_10_§3",
@@ -48,13 +50,15 @@
         "décor",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:05:25"
     },
     {
       "id_pic": "Faubourg-St-Denis-154_10_§4",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2005:05:25"
     },
     {
       "id_pic": "Faubourg-St-Denis-154_10_§5",
@@ -63,14 +67,16 @@
         "décor",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:05:25"
     },
     {
       "id_pic": "Faubourg-St-Denis-154_10_§6",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:05:25"
     }
   ]
 }

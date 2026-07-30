@@ -1,0 +1,144 @@
+{
+  "id_bat": 202,
+  "libelle": "1 rue Danton",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 30,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1898",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "1 rue Danton",
+    "numero": "1",
+    "voie": "rue Danton"
+  },
+  "arrondissement": 6,
+  "coordonnees": {
+    "latitude": "48.852835",
+    "longitude": "2.342774"
+  },
+  "id_pss": 10769,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 3446,
+  "terme_jantzen_bat": [
+    "oriel",
+    "céramique",
+    "façade",
+    "colonne",
+    "fenetre",
+    "décor",
+    "sculpture",
+    "porte-fer"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_3446",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_3447",
+      "IndexJantzen": [
+        "fenetre",
+        "oriel"
+      ]
+    },
+    {
+      "id_pic": "image_3448",
+      "IndexJantzen": [
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_3449",
+      "IndexJantzen": [
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_3450",
+      "IndexJantzen": [
+        "céramique",
+        "décor",
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_3451",
+      "IndexJantzen": [
+        "colonne",
+        "céramique",
+        "décor",
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_3452",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_3453",
+      "IndexJantzen": [
+        "céramique",
+        "fenetre",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_3454",
+      "IndexJantzen": [
+        "colonne",
+        "céramique",
+        "décor"
+      ]
+    },
+    {
+      "id_pic": "image_3455",
+      "IndexJantzen": [
+        "fenetre",
+        "porte-fer"
+      ]
+    },
+    {
+      "id_pic": "image_3456",
+      "IndexJantzen": [
+        "fenetre",
+        "porte-fer"
+      ]
+    },
+    {
+      "id_pic": "image_3457",
+      "IndexJantzen": [
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_3458",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_3459",
+      "IndexJantzen": [
+        "fenetre",
+        "oriel"
+      ]
+    },
+    {
+      "id_pic": "image_3460",
+      "IndexJantzen": [
+        "façade"
+      ]
+    }
+  ]
+}

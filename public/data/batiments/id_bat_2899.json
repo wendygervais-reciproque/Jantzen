@@ -27,11 +27,11 @@
   "WPfr": null,
   "image_ref": "Saxe-50_15_§1",
   "terme_jantzen_bat": [
-    "lucarne",
     "oeil-de-boeuf",
-    "dome",
+    "lucarne",
     "fenetre-d'angle",
-    "porte-fer-hall"
+    "porte-fer-hall",
+    "dome"
   ],
   "photos": [
     {
@@ -39,7 +39,8 @@
       "IndexJantzen": [
         "dome",
         "fenetre-d'angle"
-      ]
+      ],
+      "dateCapture": "2006:04:11"
     },
     {
       "id_pic": "Saxe-50_15_§2",
@@ -47,7 +48,8 @@
         "dome",
         "lucarne",
         "oeil-de-boeuf"
-      ]
+      ],
+      "dateCapture": "2006:04:06"
     },
     {
       "id_pic": "Saxe-50_15_§3",
@@ -55,7 +57,8 @@
         "dome",
         "lucarne",
         "oeil-de-boeuf"
-      ]
+      ],
+      "dateCapture": "2006:04:11"
     },
     {
       "id_pic": "Saxe-50_15_§4",
@@ -63,13 +66,15 @@
         "dome",
         "lucarne",
         "oeil-de-boeuf"
-      ]
+      ],
+      "dateCapture": "2006:04:04"
     },
     {
       "id_pic": "Saxe-50_15_§5",
       "IndexJantzen": [
         "porte-fer-hall"
-      ]
+      ],
+      "dateCapture": "2006:04:04"
     }
   ]
 }

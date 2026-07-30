@@ -1,0 +1,53 @@
+{
+  "id_bat": 3599,
+  "libelle": "8 rue Adolphe-Focillon",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": "1905",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "8 rue Adolphe-Focillon",
+    "numero": "8",
+    "voie": "rue Adolphe-Focillon"
+  },
+  "arrondissement": 14,
+  "coordonnees": {
+    "latitude": "48.826784",
+    "longitude": "2.328747"
+  },
+  "id_pss": 99768,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 120,
+  "terme_jantzen_bat": [
+    "façade",
+    "sculpture",
+    "décor",
+    "porte-fer-hall",
+    "balcon"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_120",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_121",
+      "IndexJantzen": [
+        "balcon",
+        "décor",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_122",
+      "IndexJantzen": [
+        "porte-fer-hall"
+      ]
+    }
+  ]
+}

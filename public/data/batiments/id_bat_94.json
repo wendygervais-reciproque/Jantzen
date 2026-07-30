@@ -23,15 +23,15 @@
   "WPfr": null,
   "image_ref": "Hopital-St-Louis_10_§1-",
   "terme_jantzen_bat": [
-    "porte",
-    "lucarne",
     "façade",
+    "lucarne",
+    "brique",
+    "fronton",
+    "porte",
+    "fenetre",
     "façade-d'angle",
     "toiture",
-    "fronton",
-    "lucarne-d'angle",
-    "brique",
-    "fenetre"
+    "lucarne-d'angle"
   ],
   "photos": [
     {
@@ -39,49 +39,56 @@
       "IndexJantzen": [
         "brique",
         "façade"
-      ]
+      ],
+      "dateCapture": "2007:03:26"
     },
     {
       "id_pic": "Hopital-St-Louis_10_§10",
       "IndexJantzen": [
         "fronton",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2007:03:26"
     },
     {
       "id_pic": "Hopital-St-Louis_10_§11",
       "IndexJantzen": [
         "fronton",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2005:05:11"
     },
     {
       "id_pic": "Hopital-St-Louis_10_§12",
       "IndexJantzen": [
         "brique",
         "façade"
-      ]
+      ],
+      "dateCapture": "2007:03:26"
     },
     {
       "id_pic": "Hopital-St-Louis_10_§13",
       "IndexJantzen": [
         "brique",
         "façade-d'angle"
-      ]
+      ],
+      "dateCapture": "2007:03:26"
     },
     {
       "id_pic": "Hopital-St-Louis_10_§14",
       "IndexJantzen": [
         "brique",
         "façade-d'angle"
-      ]
+      ],
+      "dateCapture": "2007:03:26"
     },
     {
       "id_pic": "Hopital-St-Louis_10_§15",
       "IndexJantzen": [
         "brique",
         "lucarne-d'angle"
-      ]
+      ],
+      "dateCapture": "2007:03:26"
     },
     {
       "id_pic": "Hopital-St-Louis_10_§16",
@@ -89,85 +96,98 @@
         "brique",
         "lucarne-d'angle",
         "toiture"
-      ]
+      ],
+      "dateCapture": "2007:03:26"
     },
     {
       "id_pic": "Hopital-St-Louis_10_§17",
       "IndexJantzen": [
         "brique",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2007:03:26"
     },
     {
       "id_pic": "Hopital-St-Louis_10_§18",
       "IndexJantzen": [
         "lucarne",
         "toiture"
-      ]
+      ],
+      "dateCapture": "2007:03:26"
     },
     {
       "id_pic": "Hopital-St-Louis_10_§19",
       "IndexJantzen": [
         "façade",
         "porte"
-      ]
+      ],
+      "dateCapture": "2005:05:11"
     },
     {
       "id_pic": "Hopital-St-Louis_10_§2",
       "IndexJantzen": [
         "lucarne",
         "toiture"
-      ]
+      ],
+      "dateCapture": "2007:03:26"
     },
     {
       "id_pic": "Hopital-St-Louis_10_§20",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2005:05:11"
     },
     {
       "id_pic": "Hopital-St-Louis_10_§21",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2007:03:26"
     },
     {
       "id_pic": "Hopital-St-Louis_10_§22",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2007:03:26"
     },
     {
       "id_pic": "Hopital-St-Louis_10_§23",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2007:03:26"
     },
     {
       "id_pic": "Hopital-St-Louis_10_§24",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2004:09:16"
     },
     {
       "id_pic": "Hopital-St-Louis_10_§25",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2004:09:16"
     },
     {
       "id_pic": "Hopital-St-Louis_10_§3",
       "IndexJantzen": [
         "brique",
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2007:03:26"
     },
     {
       "id_pic": "Hopital-St-Louis_10_§4",
       "IndexJantzen": [
         "façade",
         "porte"
-      ]
+      ],
+      "dateCapture": "2007:03:26"
     },
     {
       "id_pic": "Hopital-St-Louis_10_§5",
@@ -175,7 +195,8 @@
         "brique",
         "façade",
         "toiture"
-      ]
+      ],
+      "dateCapture": "2007:03:26"
     },
     {
       "id_pic": "Hopital-St-Louis_10_§6",
@@ -183,28 +204,32 @@
         "brique",
         "façade",
         "porte"
-      ]
+      ],
+      "dateCapture": "2007:03:26"
     },
     {
       "id_pic": "Hopital-St-Louis_10_§7",
       "IndexJantzen": [
         "lucarne",
         "toiture"
-      ]
+      ],
+      "dateCapture": "2007:03:26"
     },
     {
       "id_pic": "Hopital-St-Louis_10_§8",
       "IndexJantzen": [
         "lucarne",
         "toiture"
-      ]
+      ],
+      "dateCapture": "2007:03:26"
     },
     {
       "id_pic": "Hopital-St-Louis_10_§9",
       "IndexJantzen": [
         "fronton",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2007:03:26"
     }
   ]
 }

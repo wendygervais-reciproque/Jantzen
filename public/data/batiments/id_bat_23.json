@@ -19,49 +19,54 @@
   "WPfr": "Cour carrée",
   "image_ref": "Louvre-1-Ccn-1",
   "terme_jantzen_bat": [
-    "porte",
     "façade",
-    "façade-d'angle",
     "fronton",
-    "fenetre",
     "sculpture",
-    "colonne",
-    "pilastre"
+    "fenetre",
+    "porte",
+    "façade-d'angle",
+    "pilastre",
+    "colonne"
   ],
   "photos": [
     {
       "id_pic": "Louvre-1-Ccn-1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "dateCapture": "2005:08:30"
     },
     {
       "id_pic": "Louvre-1-Ccn-1B",
       "IndexJantzen": [
         "façade",
         "fronton"
-      ]
+      ],
+      "dateCapture": "2008:07:19"
     },
     {
       "id_pic": "Louvre-1-Ccn-2",
       "IndexJantzen": [
         "fenetre",
         "fronton"
-      ]
+      ],
+      "dateCapture": "2005:08:30"
     },
     {
       "id_pic": "Louvre-1-Ccn-2B",
       "IndexJantzen": [
         "fronton",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2008:07:19"
     },
     {
       "id_pic": "Louvre-1-Ccn-2C",
       "IndexJantzen": [
         "fronton",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2008:07:19"
     },
     {
       "id_pic": "Louvre-1-Ccn-3",
@@ -69,39 +74,45 @@
         "colonne",
         "façade",
         "pilastre"
-      ]
+      ],
+      "dateCapture": "2005:08:30"
     },
     {
       "id_pic": "Louvre-1-Ccn-4",
       "IndexJantzen": [
         "façade-d'angle"
-      ]
+      ],
+      "dateCapture": "2005:08:30"
     },
     {
       "id_pic": "Louvre-1-Ccn-5",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "dateCapture": "2006:07:18"
     },
     {
       "id_pic": "Louvre-1-Ccn-6",
       "IndexJantzen": [
         "colonne",
         "porte"
-      ]
+      ],
+      "dateCapture": "2006:07:18"
     },
     {
       "id_pic": "Louvre-1-Ccn-6C",
       "IndexJantzen": [
         "porte"
-      ]
+      ],
+      "dateCapture": "2008:07:19"
     },
     {
       "id_pic": "Louvre-1-Ccn-7",
       "IndexJantzen": [
         "colonne",
         "porte"
-      ]
+      ],
+      "dateCapture": "2006:07:18"
     }
   ]
 }

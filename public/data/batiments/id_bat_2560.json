@@ -28,12 +28,12 @@
   "image_ref": "Niel-40_17_§1",
   "terme_jantzen_bat": [
     "lucarne",
-    "façade-d'angle",
-    "lucarne-d'angle",
-    "dome",
     "fenetre-d'angle",
+    "façade-d'angle",
+    "pilastre",
     "balcon",
-    "pilastre"
+    "lucarne-d'angle",
+    "dome"
   ],
   "photos": [
     {
@@ -41,7 +41,8 @@
       "IndexJantzen": [
         "dome",
         "façade-d'angle"
-      ]
+      ],
+      "dateCapture": "2009:03:31"
     },
     {
       "id_pic": "Niel-40_17_§2",
@@ -50,7 +51,8 @@
         "dome",
         "fenetre-d'angle",
         "pilastre"
-      ]
+      ],
+      "dateCapture": "2006:04:06"
     },
     {
       "id_pic": "Niel-40_17_§3",
@@ -58,7 +60,8 @@
         "balcon",
         "dome",
         "fenetre-d'angle"
-      ]
+      ],
+      "dateCapture": "2009:03:31"
     },
     {
       "id_pic": "Niel-40_17_§4",
@@ -66,20 +69,23 @@
         "dome",
         "fenetre-d'angle",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2006:04:06"
     },
     {
       "id_pic": "Niel-40_17_§5",
       "IndexJantzen": [
         "lucarne-d'angle"
-      ]
+      ],
+      "dateCapture": "2009:03:31"
     },
     {
       "id_pic": "Niel-40_17_§6",
       "IndexJantzen": [
         "fenetre-d'angle",
         "pilastre"
-      ]
+      ],
+      "dateCapture": "2006:04:06"
     }
   ]
 }

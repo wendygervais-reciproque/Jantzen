@@ -22,14 +22,14 @@
   "WPfr": null,
   "image_ref": "Gambetta-95_20_§1",
   "terme_jantzen_bat": [
-    "céramique",
+    "console",
+    "garde-corps",
+    "porte-fer-hall",
     "brique",
-    "fenetre",
     "décor",
     "clé",
-    "console",
-    "porte-fer-hall",
-    "garde-corps"
+    "fenetre",
+    "céramique"
   ],
   "photos": [
     {
@@ -39,7 +39,8 @@
         "céramique",
         "décor",
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2005:06:18"
     },
     {
       "id_pic": "Gambetta-95_20_§2",
@@ -48,7 +49,8 @@
         "console",
         "céramique",
         "décor"
-      ]
+      ],
+      "dateCapture": "2005:06:18"
     },
     {
       "id_pic": "Gambetta-95_20_§3",
@@ -57,7 +59,8 @@
         "console",
         "céramique",
         "décor"
-      ]
+      ],
+      "dateCapture": "2005:06:18"
     },
     {
       "id_pic": "Gambetta-95_20_§4",
@@ -66,13 +69,15 @@
         "céramique",
         "décor",
         "garde-corps"
-      ]
+      ],
+      "dateCapture": "2005:06:18"
     },
     {
       "id_pic": "Gambetta-95_20_§5",
       "IndexJantzen": [
         "porte-fer-hall"
-      ]
+      ],
+      "dateCapture": "2005:06:18"
     }
   ]
 }

@@ -27,16 +27,16 @@
   "WPfr": null,
   "image_ref": "Georges-Berger-10_17_§1",
   "terme_jantzen_bat": [
-    "lucarne",
     "façade",
-    "porte-fer",
-    "fenetre",
-    "sculpture",
-    "pignon",
-    "balcon",
-    "porte-fer-hall",
     "verrière",
-    "garde-corps"
+    "garde-corps",
+    "lucarne",
+    "porte-fer-hall",
+    "sculpture",
+    "fenetre",
+    "porte-fer",
+    "balcon",
+    "pignon"
   ],
   "photos": [
     {
@@ -44,7 +44,8 @@
       "IndexJantzen": [
         "façade",
         "pignon"
-      ]
+      ],
+      "dateCapture": "2005:03:20"
     },
     {
       "id_pic": "Georges-Berger-10_17_§10",
@@ -52,45 +53,52 @@
         "lucarne",
         "sculpture",
         "verrière"
-      ]
+      ],
+      "dateCapture": "2005:03:20"
     },
     {
       "id_pic": "Georges-Berger-10_17_§11",
       "IndexJantzen": [
         "porte-fer-hall"
-      ]
+      ],
+      "dateCapture": "2004:05:27"
     },
     {
       "id_pic": "Georges-Berger-10_17_§12-Dx",
       "IndexJantzen": [
         "porte-fer"
-      ]
+      ],
+      "dateCapture": "2014:03:20"
     },
     {
       "id_pic": "Georges-Berger-10_17_§13-Rs",
       "IndexJantzen": [
         "porte-fer"
-      ]
+      ],
+      "dateCapture": "2011:04:19"
     },
     {
       "id_pic": "Georges-Berger-10_17_§2-Dx",
       "IndexJantzen": [
         "façade",
         "pignon"
-      ]
+      ],
+      "dateCapture": "2014:03:20"
     },
     {
       "id_pic": "Georges-Berger-10_17_§3_1-Rx",
       "IndexJantzen": [
         "façade",
         "pignon"
-      ]
+      ],
+      "dateCapture": "2014:02:19"
     },
     {
       "id_pic": "Georges-Berger-10_17_§3b",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2011:04:19"
     },
     {
       "id_pic": "Georges-Berger-10_17_§4",
@@ -98,7 +106,8 @@
         "balcon",
         "lucarne",
         "pignon"
-      ]
+      ],
+      "dateCapture": "2005:03:20"
     },
     {
       "id_pic": "Georges-Berger-10_17_§5",
@@ -106,7 +115,8 @@
         "balcon",
         "lucarne",
         "pignon"
-      ]
+      ],
+      "dateCapture": "2011:04:19"
     },
     {
       "id_pic": "Georges-Berger-10_17_§6",
@@ -114,7 +124,8 @@
         "balcon",
         "lucarne",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:03:20"
     },
     {
       "id_pic": "Georges-Berger-10_17_§7",
@@ -122,7 +133,8 @@
         "lucarne",
         "sculpture",
         "verrière"
-      ]
+      ],
+      "dateCapture": "2004:05:26"
     },
     {
       "id_pic": "Georges-Berger-10_17_§8",
@@ -131,7 +143,8 @@
         "lucarne",
         "pignon",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:03:20"
     },
     {
       "id_pic": "Georges-Berger-10_17_§9",
@@ -139,7 +152,8 @@
         "lucarne",
         "pignon",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2004:05:26"
     }
   ]
 }

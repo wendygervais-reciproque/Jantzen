@@ -27,10 +27,10 @@
   "WPfr": null,
   "image_ref": "Tocqueville-64_17_§1",
   "terme_jantzen_bat": [
+    "sculpture",
     "fenetre",
-    "lucarne",
     "toiture",
-    "sculpture"
+    "lucarne"
   ],
   "photos": [
     {
@@ -38,7 +38,8 @@
       "IndexJantzen": [
         "fenetre",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2007:08:25"
     },
     {
       "id_pic": "Tocqueville-64_17_§2",
@@ -46,13 +47,15 @@
         "lucarne",
         "sculpture",
         "toiture"
-      ]
+      ],
+      "dateCapture": "2007:08:25"
     },
     {
       "id_pic": "Tocqueville-64_17_§3",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2007:08:25"
     }
   ]
 }

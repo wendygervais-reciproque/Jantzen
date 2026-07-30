@@ -1,0 +1,101 @@
+{
+  "id_bat": 905,
+  "libelle": "14 rue des Saussaies",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 16,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1846",
+  "periode": [
+    "1830-1849"
+  ],
+  "adresse": {
+    "affichage": "14 rue des Saussaies",
+    "numero": "14",
+    "voie": "rue des Saussaies"
+  },
+  "arrondissement": 8,
+  "coordonnees": {
+    "latitude": "48.87149",
+    "longitude": "2.318279"
+  },
+  "id_pss": null,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 13353,
+  "terme_jantzen_bat": [
+    "loggia",
+    "clé",
+    "façade",
+    "fenetre",
+    "garde-corps",
+    "porte-bois",
+    "console"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_13353",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_13354",
+      "IndexJantzen": [
+        "façade",
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_13355",
+      "IndexJantzen": [
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_13356",
+      "IndexJantzen": [
+        "loggia"
+      ]
+    },
+    {
+      "id_pic": "image_13357",
+      "IndexJantzen": [
+        "clé",
+        "fenetre",
+        "garde-corps"
+      ]
+    },
+    {
+      "id_pic": "image_13358",
+      "IndexJantzen": [
+        "porte-bois"
+      ]
+    },
+    {
+      "id_pic": "image_13359",
+      "IndexJantzen": [
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_13360",
+      "IndexJantzen": [
+        "clé",
+        "fenetre",
+        "garde-corps"
+      ]
+    },
+    {
+      "id_pic": "image_13361",
+      "IndexJantzen": [
+        "console",
+        "fenetre",
+        "garde-corps"
+      ]
+    }
+  ]
+}

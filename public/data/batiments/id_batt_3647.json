@@ -1,0 +1,40 @@
+{
+  "id_bat": 3647,
+  "libelle": "8 rue Le Verrier",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 308,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1887",
+  "periode": [
+    "1870-1894"
+  ],
+  "adresse": {
+    "affichage": "8 rue Le Verrier",
+    "numero": "8",
+    "voie": "rue Le Verrier"
+  },
+  "arrondissement": 6,
+  "coordonnees": {
+    "latitude": "48.842065",
+    "longitude": "2.334194"
+  },
+  "id_pss": 85667,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 8332,
+  "terme_jantzen_bat": [
+    "porte-bois"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_8332",
+      "IndexJantzen": [
+        "porte-bois"
+      ]
+    }
+  ]
+}

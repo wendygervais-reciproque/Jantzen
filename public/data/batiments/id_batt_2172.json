@@ -1,0 +1,80 @@
+{
+  "id_bat": 2172,
+  "libelle": "31 avenue Félix-Faure",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 137,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1912",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "31 avenue Félix-Faure",
+    "numero": "31",
+    "voie": "avenue Félix-Faure"
+  },
+  "arrondissement": 15,
+  "coordonnees": {
+    "latitude": "48.841525",
+    "longitude": "2.28924"
+  },
+  "id_pss": null,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 4469,
+  "terme_jantzen_bat": [
+    "lucarne",
+    "fenetre",
+    "sculpture",
+    "décor",
+    "porte-fer-hall",
+    "console"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_4469",
+      "IndexJantzen": [
+        "décor",
+        "fenetre",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_4470",
+      "IndexJantzen": [
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_4471",
+      "IndexJantzen": [
+        "fenetre",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_4472",
+      "IndexJantzen": [
+        "console",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_4473",
+      "IndexJantzen": [
+        "fenetre",
+        "porte-fer-hall"
+      ]
+    },
+    {
+      "id_pic": "image_4474",
+      "IndexJantzen": [
+        "porte-fer-hall"
+      ]
+    }
+  ]
+}

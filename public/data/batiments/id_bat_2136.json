@@ -22,10 +22,10 @@
   "WPfr": null,
   "image_ref": "Messine-av-30_8_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "porte-bois",
-    "cariatide",
-    "sculpture"
+    "sculpture",
+    "fenetre",
+    "cariatide"
   ],
   "photos": [
     {
@@ -35,7 +35,8 @@
         "fenetre",
         "porte-bois",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2014:03:06"
     },
     {
       "id_pic": "Messine-av-30_8_§2",
@@ -43,7 +44,8 @@
         "cariatide",
         "fenetre",
         "porte-bois"
-      ]
+      ],
+      "dateCapture": "2006:03:19"
     },
     {
       "id_pic": "Messine-av-30_8_§3",
@@ -51,7 +53,8 @@
         "cariatide",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2014:03:06"
     },
     {
       "id_pic": "Messine-av-30_8_§4-Rs",
@@ -59,7 +62,8 @@
         "cariatide",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2011:05:12"
     },
     {
       "id_pic": "Messine-av-30_8_§5",
@@ -67,28 +71,32 @@
         "cariatide",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:08:02"
     },
     {
       "id_pic": "Messine-av-30_8_§6-Rs",
       "IndexJantzen": [
         "cariatide",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2011:05:12"
     },
     {
       "id_pic": "Messine-av-30_8_§7-Rs",
       "IndexJantzen": [
         "cariatide",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2011:05:12"
     },
     {
       "id_pic": "Messine-av-30_8_§8",
       "IndexJantzen": [
         "cariatide",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:08:02"
     }
   ]
 }

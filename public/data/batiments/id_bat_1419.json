@@ -22,13 +22,13 @@
   "WPfr": null,
   "image_ref": "Reuilly-bd-2_12_§1",
   "terme_jantzen_bat": [
-    "lucarne",
     "oeil-de-boeuf",
-    "dome",
+    "lucarne",
     "fenetre-d'angle",
     "tourelle",
+    "pilastre",
     "balcon",
-    "pilastre"
+    "dome"
   ],
   "photos": [
     {
@@ -36,14 +36,16 @@
       "IndexJantzen": [
         "dome",
         "fenetre-d'angle"
-      ]
+      ],
+      "dateCapture": "2005:07:13"
     },
     {
       "id_pic": "Reuilly-bd-2_12_§2",
       "IndexJantzen": [
         "dome",
         "fenetre-d'angle"
-      ]
+      ],
+      "dateCapture": "2005:07:13"
     },
     {
       "id_pic": "Reuilly-bd-2_12_§3",
@@ -51,7 +53,8 @@
         "dome",
         "fenetre-d'angle",
         "tourelle"
-      ]
+      ],
+      "dateCapture": "2005:07:13"
     },
     {
       "id_pic": "Reuilly-bd-2_12_§4",
@@ -59,7 +62,8 @@
         "balcon",
         "dome",
         "pilastre"
-      ]
+      ],
+      "dateCapture": "2004:07:26"
     },
     {
       "id_pic": "Reuilly-bd-2_12_§5",
@@ -68,13 +72,15 @@
         "fenetre-d'angle",
         "oeil-de-boeuf",
         "tourelle"
-      ]
+      ],
+      "dateCapture": "2004:07:26"
     },
     {
       "id_pic": "Reuilly-bd-2_12_§6",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2004:07:26"
     }
   ]
 }

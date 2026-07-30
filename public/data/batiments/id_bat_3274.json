@@ -22,12 +22,12 @@
   "WPfr": null,
   "image_ref": "Courcelles-bd-64_17_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "sculpture",
     "console",
+    "garde-corps",
+    "sculpture",
+    "fenetre",
     "balcon",
-    "porte-bois",
-    "garde-corps"
+    "porte-bois"
   ],
   "photos": [
     {
@@ -35,28 +35,32 @@
       "IndexJantzen": [
         "fenetre",
         "porte-bois"
-      ]
+      ],
+      "dateCapture": "2006:06:09"
     },
     {
       "id_pic": "Courcelles-bd-64_17_§2",
       "IndexJantzen": [
         "balcon",
         "garde-corps"
-      ]
+      ],
+      "dateCapture": "2006:06:09"
     },
     {
       "id_pic": "Courcelles-bd-64_17_§3",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:06:09"
     },
     {
       "id_pic": "Courcelles-bd-64_17_§4",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:06:09"
     }
   ]
 }

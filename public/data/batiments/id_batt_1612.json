@@ -1,0 +1,49 @@
+{
+  "id_bat": 1612,
+  "libelle": "21 rue Béranger",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 144,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1892",
+  "periode": [
+    "1870-1894"
+  ],
+  "adresse": {
+    "affichage": "21 rue Béranger",
+    "numero": "21",
+    "voie": "rue Béranger"
+  },
+  "arrondissement": 3,
+  "coordonnees": {
+    "latitude": "48.866598",
+    "longitude": "2.363292"
+  },
+  "id_pss": 81666,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 1149,
+  "terme_jantzen_bat": [
+    "fenetre",
+    "porte-bois",
+    "façade"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_1149",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_1150",
+      "IndexJantzen": [
+        "fenetre",
+        "porte-bois"
+      ]
+    }
+  ]
+}

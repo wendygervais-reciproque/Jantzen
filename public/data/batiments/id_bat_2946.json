@@ -27,16 +27,16 @@
   "WPfr": null,
   "image_ref": "Vaugirard-bd-52_15_§1",
   "terme_jantzen_bat": [
-    "lucarne",
     "façade",
-    "fenetre",
-    "oeil-de-boeuf",
-    "dome",
-    "sculpture",
     "console",
-    "balcon",
+    "garde-corps",
+    "oeil-de-boeuf",
+    "lucarne",
     "porte-fer-hall",
-    "garde-corps"
+    "sculpture",
+    "fenetre",
+    "balcon",
+    "dome"
   ],
   "photos": [
     {
@@ -44,20 +44,23 @@
       "IndexJantzen": [
         "dome",
         "façade"
-      ]
+      ],
+      "dateCapture": "2006:04:07"
     },
     {
       "id_pic": "Vaugirard-bd-52_15_§10",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2006:04:07"
     },
     {
       "id_pic": "Vaugirard-bd-52_15_§11",
       "IndexJantzen": [
         "fenetre",
         "garde-corps"
-      ]
+      ],
+      "dateCapture": "2007:06:17"
     },
     {
       "id_pic": "Vaugirard-bd-52_15_§12",
@@ -65,27 +68,31 @@
         "balcon",
         "console",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:04:07"
     },
     {
       "id_pic": "Vaugirard-bd-52_15_§13",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:04:07"
     },
     {
       "id_pic": "Vaugirard-bd-52_15_§14",
       "IndexJantzen": [
         "porte-fer-hall"
-      ]
+      ],
+      "dateCapture": "2004:05:24"
     },
     {
       "id_pic": "Vaugirard-bd-52_15_§2",
       "IndexJantzen": [
         "dome",
         "façade"
-      ]
+      ],
+      "dateCapture": "2004:05:23"
     },
     {
       "id_pic": "Vaugirard-bd-52_15_§4",
@@ -93,7 +100,8 @@
         "dome",
         "fenetre",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2004:05:23"
     },
     {
       "id_pic": "Vaugirard-bd-52_15_§5",
@@ -102,7 +110,8 @@
         "fenetre",
         "lucarne",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2007:06:17"
     },
     {
       "id_pic": "Vaugirard-bd-52_15_§6",
@@ -110,7 +119,8 @@
         "dome",
         "fenetre",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2007:06:17"
     },
     {
       "id_pic": "Vaugirard-bd-52_15_§7",
@@ -118,7 +128,8 @@
         "dome",
         "lucarne",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:04:07"
     },
     {
       "id_pic": "Vaugirard-bd-52_15_§8",
@@ -126,7 +137,8 @@
         "dome",
         "lucarne",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:04:07"
     },
     {
       "id_pic": "Vaugirard-bd-52_15_§9",
@@ -135,7 +147,8 @@
         "lucarne",
         "oeil-de-boeuf",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:04:07"
     }
   ]
 }

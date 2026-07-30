@@ -1,0 +1,47 @@
+{
+  "id_bat": 2884,
+  "libelle": "5 rue Michelet",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 519,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": null,
+  "periode": [
+    "1870-1894"
+  ],
+  "adresse": {
+    "affichage": "5 rue Michelet",
+    "numero": "5",
+    "voie": "rue Michelet"
+  },
+  "arrondissement": 6,
+  "coordonnees": {
+    "latitude": "48.842466",
+    "longitude": "2.335754"
+  },
+  "id_pss": 82153,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 9657,
+  "terme_jantzen_bat": [
+    "porte-bois",
+    "façade"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_9657",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_9658",
+      "IndexJantzen": [
+        "porte-bois"
+      ]
+    }
+  ]
+}

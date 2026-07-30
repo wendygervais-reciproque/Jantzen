@@ -22,12 +22,12 @@
   "WPfr": null,
   "image_ref": "Bassano-2_16_§1",
   "terme_jantzen_bat": [
-    "façade-d'angle",
-    "lucarne-d'angle",
     "oeil-de-boeuf",
     "décor",
     "sculpture",
-    "porte-bois"
+    "façade-d'angle",
+    "porte-bois",
+    "lucarne-d'angle"
   ],
   "photos": [
     {
@@ -36,34 +36,39 @@
         "décor",
         "façade-d'angle",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2009:10:03"
     },
     {
       "id_pic": "Bassano-2_16_§2",
       "IndexJantzen": [
         "lucarne-d'angle",
         "oeil-de-boeuf"
-      ]
+      ],
+      "dateCapture": "2009:10:03"
     },
     {
       "id_pic": "Bassano-2_16_§3",
       "IndexJantzen": [
         "lucarne-d'angle",
         "oeil-de-boeuf"
-      ]
+      ],
+      "dateCapture": "2009:10:03"
     },
     {
       "id_pic": "Bassano-2_16_§4",
       "IndexJantzen": [
         "lucarne-d'angle",
         "oeil-de-boeuf"
-      ]
+      ],
+      "dateCapture": "2009:10:03"
     },
     {
       "id_pic": "Bassano-2_16_§5-Rs",
       "IndexJantzen": [
         "porte-bois"
-      ]
+      ],
+      "dateCapture": "2009:10:03"
     }
   ]
 }

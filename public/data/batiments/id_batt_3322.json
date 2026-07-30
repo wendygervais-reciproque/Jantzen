@@ -1,0 +1,42 @@
+{
+  "id_bat": 3322,
+  "libelle": "67 rue de Tocqueville",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 565,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1913",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "67 rue de Tocqueville",
+    "numero": "67",
+    "voie": "rue de Tocqueville"
+  },
+  "arrondissement": 17,
+  "coordonnees": {
+    "latitude": "48.886379",
+    "longitude": "2.308875"
+  },
+  "id_pss": 24910,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 15271,
+  "terme_jantzen_bat": [
+    "porte-fer",
+    "fenetre"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_15271",
+      "IndexJantzen": [
+        "fenetre",
+        "porte-fer"
+      ]
+    }
+  ]
+}

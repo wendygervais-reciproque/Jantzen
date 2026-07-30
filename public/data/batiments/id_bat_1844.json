@@ -28,12 +28,12 @@
   "image_ref": "Pompe-25_16_§1",
   "terme_jantzen_bat": [
     "façade",
+    "verrière",
+    "mosaique",
     "brique",
-    "fenetre",
     "décor",
     "clé",
-    "mosaique",
-    "verrière"
+    "fenetre"
   ],
   "photos": [
     {
@@ -42,7 +42,8 @@
         "brique",
         "façade",
         "mosaique"
-      ]
+      ],
+      "dateCapture": "2007:06:17"
     },
     {
       "id_pic": "Pompe-25_16_§2",
@@ -50,7 +51,8 @@
         "brique",
         "façade",
         "mosaique"
-      ]
+      ],
+      "dateCapture": "2004:09:02"
     },
     {
       "id_pic": "Pompe-25_16_§3",
@@ -58,35 +60,40 @@
         "brique",
         "décor",
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2004:09:02"
     },
     {
       "id_pic": "Pompe-25_16_§4",
       "IndexJantzen": [
         "mosaique",
         "verrière"
-      ]
+      ],
+      "dateCapture": "2004:09:02"
     },
     {
       "id_pic": "Pompe-25_16_§5",
       "IndexJantzen": [
         "mosaique",
         "verrière"
-      ]
+      ],
+      "dateCapture": "2007:06:17"
     },
     {
       "id_pic": "Pompe-25_16_§6",
       "IndexJantzen": [
         "mosaique",
         "verrière"
-      ]
+      ],
+      "dateCapture": "2007:06:17"
     },
     {
       "id_pic": "Pompe-25_16_§7",
       "IndexJantzen": [
         "clé",
         "mosaique"
-      ]
+      ],
+      "dateCapture": "2007:06:17"
     }
   ]
 }

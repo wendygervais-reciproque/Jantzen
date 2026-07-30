@@ -27,11 +27,11 @@
   "WPfr": null,
   "image_ref": "Villette-bd-180_19_§1",
   "terme_jantzen_bat": [
-    "lucarne",
     "façade",
-    "porte-fer",
+    "lucarne",
     "brique",
-    "fenetre"
+    "fenetre",
+    "porte-fer"
   ],
   "photos": [
     {
@@ -39,14 +39,16 @@
       "IndexJantzen": [
         "brique",
         "façade"
-      ]
+      ],
+      "dateCapture": "2007:03:26"
     },
     {
       "id_pic": "Villette-bd-180_19_§2",
       "IndexJantzen": [
         "brique",
         "façade"
-      ]
+      ],
+      "dateCapture": "2004:09:15"
     },
     {
       "id_pic": "Villette-bd-180_19_§3",
@@ -54,7 +56,8 @@
         "brique",
         "fenetre",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2007:03:26"
     },
     {
       "id_pic": "Villette-bd-180_19_§4",
@@ -62,23 +65,27 @@
         "brique",
         "fenetre",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2007:03:26"
     },
     {
       "id_pic": "Villette-bd-180_19_§5",
       "IndexJantzen": [
         "porte-fer"
-      ]
+      ],
+      "dateCapture": "2007:03:26"
     },
     {
       "id_pic": "Villette-bd-180_19_§6",
       "IndexJantzen": [
         "porte-fer"
-      ]
+      ],
+      "dateCapture": "2004:09:16"
     },
     {
       "id_pic": "Villette-bd-180_19_§7",
-      "IndexJantzen": []
+      "IndexJantzen": [],
+      "dateCapture": "2007:03:26"
     }
   ]
 }

@@ -28,14 +28,14 @@
   "image_ref": "Abel-14_12_§1",
   "terme_jantzen_bat": [
     "façade",
-    "brique",
-    "fenetre",
-    "décor",
-    "mosaique",
-    "pignon",
     "loggia",
+    "mosaique",
+    "brique",
+    "décor",
+    "fenetre",
     "colonne",
-    "voie"
+    "voie",
+    "pignon"
   ],
   "photos": [
     {
@@ -43,14 +43,16 @@
       "IndexJantzen": [
         "brique",
         "façade"
-      ]
+      ],
+      "dateCapture": "2007:04:11"
     },
     {
       "id_pic": "Abel-14_12_§2",
       "IndexJantzen": [
         "brique",
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2007:04:11"
     },
     {
       "id_pic": "Abel-14_12_§3",
@@ -59,7 +61,8 @@
         "fenetre",
         "loggia",
         "pignon"
-      ]
+      ],
+      "dateCapture": "2004:06:06"
     },
     {
       "id_pic": "Abel-14_12_§4",
@@ -67,7 +70,8 @@
         "brique",
         "fenetre",
         "pignon"
-      ]
+      ],
+      "dateCapture": "2004:06:06"
     },
     {
       "id_pic": "Abel-14_12_§5",
@@ -75,7 +79,8 @@
         "brique",
         "colonne",
         "voie"
-      ]
+      ],
+      "dateCapture": "2007:04:11"
     },
     {
       "id_pic": "Abel-14_12_§6",
@@ -84,7 +89,8 @@
         "colonne",
         "décor",
         "mosaique"
-      ]
+      ],
+      "dateCapture": "2007:04:11"
     }
   ]
 }

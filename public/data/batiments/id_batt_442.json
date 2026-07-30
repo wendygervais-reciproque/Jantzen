@@ -1,0 +1,42 @@
+{
+  "id_bat": 442,
+  "libelle": "11 chaussée de la Muette",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 660,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1897",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "11 chaussée de la Muette",
+    "numero": "11",
+    "voie": "chaussée de la Muette"
+  },
+  "arrondissement": 16,
+  "coordonnees": {
+    "latitude": "48.858042",
+    "longitude": "2.273753"
+  },
+  "id_pss": 27781,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 10116,
+  "terme_jantzen_bat": [
+    "porte-bois",
+    "fenetre"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_10116",
+      "IndexJantzen": [
+        "fenetre",
+        "porte-bois"
+      ]
+    }
+  ]
+}

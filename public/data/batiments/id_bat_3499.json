@@ -22,17 +22,18 @@
   "WPfr": null,
   "image_ref": "Champs-Elysees-74_8_§1",
   "terme_jantzen_bat": [
-    "lucarne",
     "façade",
+    "garde-corps",
     "balcon",
-    "garde-corps"
+    "lucarne"
   ],
   "photos": [
     {
       "id_pic": "Champs-Elysees-74_8_§1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "dateCapture": "2004:04:01"
     },
     {
       "id_pic": "Champs-Elysees-74_8_§2",
@@ -40,7 +41,8 @@
         "balcon",
         "garde-corps",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2004:04:01"
     }
   ]
 }

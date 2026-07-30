@@ -22,10 +22,10 @@
   "WPfr": null,
   "image_ref": "St-Julien-le-Pauvre-14_5_§1",
   "terme_jantzen_bat": [
-    "lucarne",
     "porte-bois",
     "fronton",
-    "sculpture"
+    "sculpture",
+    "lucarne"
   ],
   "photos": [
     {
@@ -33,27 +33,31 @@
       "IndexJantzen": [
         "fronton",
         "porte-bois"
-      ]
+      ],
+      "dateCapture": "2005:05:27"
     },
     {
       "id_pic": "St-Julien-le-Pauvre-14_5_§2",
       "IndexJantzen": [
         "fronton",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2008:02:24"
     },
     {
       "id_pic": "St-Julien-le-Pauvre-14_5_§3",
       "IndexJantzen": [
         "fronton",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2008:02:24"
     },
     {
       "id_pic": "St-Julien-le-Pauvre-14_5_§4",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2008:02:24"
     }
   ]
 }

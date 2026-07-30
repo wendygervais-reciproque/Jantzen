@@ -22,9 +22,9 @@
   "WPfr": null,
   "image_ref": "Clichy-Bd-62_18_b_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "décor",
-    "sculpture"
+    "sculpture",
+    "fenetre"
   ],
   "photos": [
     {
@@ -33,14 +33,16 @@
         "décor",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2011:09:05"
     },
     {
       "id_pic": "Clichy-Bd-62_18_b_§2",
       "IndexJantzen": [
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2011:09:05"
     }
   ]
 }

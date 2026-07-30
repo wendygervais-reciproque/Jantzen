@@ -22,37 +22,41 @@
   "WPfr": null,
   "image_ref": "Cambaceres-3_8_§1-Rx",
   "terme_jantzen_bat": [
-    "fenetre",
     "façade",
-    "garde-corps",
-    "sculpture"
+    "sculpture",
+    "fenetre",
+    "garde-corps"
   ],
   "photos": [
     {
       "id_pic": "Cambaceres-3_8_§1-Rx",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "dateCapture": "2011:06:26"
     },
     {
       "id_pic": "Cambaceres-3_8_§2-Rx",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "dateCapture": "2011:06:26"
     },
     {
       "id_pic": "Cambaceres-3_8_§3-Rx",
       "IndexJantzen": [
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2011:06:26"
     },
     {
       "id_pic": "Cambaceres-3_8_§4-Rx",
       "IndexJantzen": [
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2011:06:26"
     },
     {
       "id_pic": "Cambaceres-3_8_§5-Rx",
@@ -60,7 +64,8 @@
         "fenetre",
         "garde-corps",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2011:06:26"
     }
   ]
 }

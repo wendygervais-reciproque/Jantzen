@@ -1,0 +1,76 @@
+{
+  "id_bat": 3363,
+  "libelle": "7 boulevard Beaumarchais",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 76,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1845",
+  "periode": [
+    "1830-1849"
+  ],
+  "adresse": {
+    "affichage": "7 boulevard Beaumarchais",
+    "numero": "7",
+    "voie": "boulevard Beaumarchais"
+  },
+  "arrondissement": 3,
+  "coordonnees": {
+    "latitude": "48.854354",
+    "longitude": "2.368581"
+  },
+  "id_pss": 75186,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 1033,
+  "terme_jantzen_bat": [
+    "façade",
+    "fenetre",
+    "balcon",
+    "garde-corps",
+    "porte-bois"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_1033",
+      "IndexJantzen": [
+        "balcon",
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_1034",
+      "IndexJantzen": [
+        "porte-bois"
+      ]
+    },
+    {
+      "id_pic": "image_1035",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_1036",
+      "IndexJantzen": [
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_1037",
+      "IndexJantzen": [
+        "fenetre",
+        "garde-corps"
+      ]
+    },
+    {
+      "id_pic": "image_1038",
+      "IndexJantzen": [
+        "porte-bois"
+      ]
+    }
+  ]
+}

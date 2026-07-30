@@ -1,0 +1,48 @@
+{
+  "id_bat": 1831,
+  "libelle": "25 avenue Montaigne",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "25 avenue Montaigne",
+    "numero": "25",
+    "voie": "avenue Montaigne"
+  },
+  "arrondissement": 8,
+  "coordonnees": {
+    "latitude": "48.866225",
+    "longitude": "2.304357"
+  },
+  "id_pss": 9971,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 9821,
+  "terme_jantzen_bat": [
+    "lucarne",
+    "fenetre"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_9821",
+      "IndexJantzen": [
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_9822",
+      "IndexJantzen": [
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_9823",
+      "IndexJantzen": [
+        "lucarne"
+      ]
+    }
+  ]
+}

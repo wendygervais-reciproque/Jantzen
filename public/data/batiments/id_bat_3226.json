@@ -27,16 +27,16 @@
   "WPfr": null,
   "image_ref": "La-Fontaine-61_16_§10-Rx",
   "terme_jantzen_bat": [
-    "lucarne",
-    "façade-d'angle",
-    "lucarne-d'angle",
-    "fenetre",
     "oeil-de-boeuf",
-    "décor",
-    "dome",
+    "lucarne",
     "fenetre-d'angle",
+    "décor",
     "sculpture",
-    "balcon"
+    "fenetre",
+    "façade-d'angle",
+    "balcon",
+    "lucarne-d'angle",
+    "dome"
   ],
   "photos": [
     {
@@ -44,34 +44,39 @@
       "IndexJantzen": [
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2012:07:21"
     },
     {
       "id_pic": "La-Fontaine-61_16_§1-Rx",
       "IndexJantzen": [
         "dome",
         "façade-d'angle"
-      ]
+      ],
+      "dateCapture": "2012:07:21"
     },
     {
       "id_pic": "La-Fontaine-61_16_§2",
       "IndexJantzen": [
         "dome",
         "façade-d'angle"
-      ]
+      ],
+      "dateCapture": "2006:07:01"
     },
     {
       "id_pic": "La-Fontaine-61_16_§3",
       "IndexJantzen": [
         "fenetre-d'angle"
-      ]
+      ],
+      "dateCapture": "2007:06:13"
     },
     {
       "id_pic": "La-Fontaine-61_16_§4-Rx",
       "IndexJantzen": [
         "lucarne",
         "oeil-de-boeuf"
-      ]
+      ],
+      "dateCapture": "2012:07:21"
     },
     {
       "id_pic": "La-Fontaine-61_16_§5",
@@ -79,7 +84,8 @@
         "balcon",
         "dome",
         "lucarne-d'angle"
-      ]
+      ],
+      "dateCapture": "2006:07:01"
     },
     {
       "id_pic": "La-Fontaine-61_16_§6",
@@ -89,14 +95,16 @@
         "décor",
         "lucarne-d'angle",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2007:06:13"
     },
     {
       "id_pic": "La-Fontaine-61_16_§7",
       "IndexJantzen": [
         "lucarne",
         "oeil-de-boeuf"
-      ]
+      ],
+      "dateCapture": "2007:06:13"
     },
     {
       "id_pic": "La-Fontaine-61_16_§8",
@@ -104,7 +112,8 @@
         "lucarne",
         "oeil-de-boeuf",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2007:06:13"
     }
   ]
 }

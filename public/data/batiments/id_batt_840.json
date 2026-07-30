@@ -1,0 +1,82 @@
+{
+  "id_bat": 840,
+  "libelle": "134 rue de Grenelle",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 405,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1903",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "134 rue de Grenelle",
+    "numero": "134",
+    "voie": "rue de Grenelle"
+  },
+  "arrondissement": 7,
+  "coordonnees": {
+    "latitude": "48.857555",
+    "longitude": "2.317759"
+  },
+  "id_pss": 36965,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 5692,
+  "terme_jantzen_bat": [
+    "sculpture",
+    "décor",
+    "fenetre",
+    "intérieur",
+    "porte-fer",
+    "console"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_5692",
+      "IndexJantzen": [
+        "fenetre",
+        "porte-fer"
+      ]
+    },
+    {
+      "id_pic": "image_5693",
+      "IndexJantzen": [
+        "console",
+        "décor",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_5694",
+      "IndexJantzen": [
+        "console",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_5695",
+      "IndexJantzen": [
+        "console",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_5696",
+      "IndexJantzen": [
+        "console",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_5697",
+      "IndexJantzen": [
+        "intérieur",
+        "porte-fer"
+      ]
+    }
+  ]
+}

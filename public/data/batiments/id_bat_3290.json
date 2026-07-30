@@ -27,10 +27,10 @@
   "WPfr": null,
   "image_ref": "Reaumur-65_2_§2",
   "terme_jantzen_bat": [
-    "toiture",
+    "façade",
     "verrière",
-    "métal",
-    "façade"
+    "toiture",
+    "métal"
   ],
   "photos": [
     {
@@ -38,21 +38,24 @@
       "IndexJantzen": [
         "toiture",
         "verrière"
-      ]
+      ],
+      "dateCapture": "2004:07:06"
     },
     {
       "id_pic": "Reaumur-65_2_§3",
       "IndexJantzen": [
         "façade",
         "métal"
-      ]
+      ],
+      "dateCapture": "2004:05:16"
     },
     {
       "id_pic": "Reaumur-65_2_§4",
       "IndexJantzen": [
         "toiture",
         "verrière"
-      ]
+      ],
+      "dateCapture": "2004:05:16"
     }
   ]
 }

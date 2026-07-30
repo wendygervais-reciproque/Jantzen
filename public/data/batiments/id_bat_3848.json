@@ -27,10 +27,10 @@
   "WPfr": null,
   "image_ref": "Parmentier-90_11_§1",
   "terme_jantzen_bat": [
-    "lucarne",
-    "façade-d'angle",
+    "lucarne-d'angle",
     "toiture",
-    "lucarne-d'angle"
+    "lucarne",
+    "façade-d'angle"
   ],
   "photos": [
     {
@@ -38,31 +38,36 @@
       "IndexJantzen": [
         "façade-d'angle",
         "toiture"
-      ]
+      ],
+      "dateCapture": "2004:09:16"
     },
     {
       "id_pic": "Parmentier-90_11_§2",
       "IndexJantzen": [
         "lucarne-d'angle"
-      ]
+      ],
+      "dateCapture": "2004:09:16"
     },
     {
       "id_pic": "Parmentier-90_11_§3",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2004:09:16"
     },
     {
       "id_pic": "Parmentier-90_11_§4",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2004:09:16"
     },
     {
       "id_pic": "Parmentier-90_11_§5",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2004:09:16"
     }
   ]
 }

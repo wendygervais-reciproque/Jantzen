@@ -1,0 +1,49 @@
+{
+  "id_bat": 758,
+  "libelle": "129 rue du Château",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 169,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1904",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "129 rue du Château",
+    "numero": "129",
+    "voie": "rue du Château"
+  },
+  "arrondissement": 14,
+  "coordonnees": {
+    "latitude": "48.834953",
+    "longitude": "2.320748"
+  },
+  "id_pss": 10764,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 2404,
+  "terme_jantzen_bat": [
+    "oriel",
+    "brique"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_2404",
+      "IndexJantzen": [
+        "brique",
+        "oriel"
+      ]
+    },
+    {
+      "id_pic": "image_2405",
+      "IndexJantzen": [
+        "brique",
+        "oriel"
+      ]
+    }
+  ]
+}

@@ -22,28 +22,30 @@
   "WPfr": null,
   "image_ref": "Trone-Av-7_11_§1",
   "terme_jantzen_bat": [
-    "lucarne",
-    "lucarne-d'angle",
-    "fenetre",
-    "dome",
-    "sculpture",
     "console",
+    "garde-corps",
+    "lucarne",
+    "sculpture",
+    "fenetre",
     "balcon",
-    "garde-corps"
+    "lucarne-d'angle",
+    "dome"
   ],
   "photos": [
     {
       "id_pic": "Trone-Av-7_11_§1",
       "IndexJantzen": [
         "dome"
-      ]
+      ],
+      "dateCapture": "2005:07:15"
     },
     {
       "id_pic": "Trone-Av-7_11_§2",
       "IndexJantzen": [
         "dome",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2005:07:15"
     },
     {
       "id_pic": "Trone-Av-7_11_§3",
@@ -51,14 +53,16 @@
         "dome",
         "lucarne",
         "lucarne-d'angle"
-      ]
+      ],
+      "dateCapture": "2006:09:06"
     },
     {
       "id_pic": "Trone-Av-7_11_§4",
       "IndexJantzen": [
         "dome",
         "lucarne-d'angle"
-      ]
+      ],
+      "dateCapture": "2006:09:06"
     },
     {
       "id_pic": "Trone-Av-7_11_§5",
@@ -66,28 +70,32 @@
         "fenetre",
         "garde-corps",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:09:06"
     },
     {
       "id_pic": "Trone-Av-7_11_§6",
       "IndexJantzen": [
         "balcon",
         "garde-corps"
-      ]
+      ],
+      "dateCapture": "2006:09:06"
     },
     {
       "id_pic": "Trone-Av-7_11_§7",
       "IndexJantzen": [
         "fenetre",
         "garde-corps"
-      ]
+      ],
+      "dateCapture": "2005:07:15"
     },
     {
       "id_pic": "Trone-Av-7_11_§8",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:07:15"
     }
   ]
 }

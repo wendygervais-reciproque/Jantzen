@@ -1,0 +1,60 @@
+{
+  "id_bat": 3781,
+  "libelle": "9 place des Victoires",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 381,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1685-1699",
+  "periode": [
+    "1660-1759"
+  ],
+  "adresse": {
+    "affichage": "9 place des Victoires",
+    "numero": "9",
+    "voie": "place des Victoires"
+  },
+  "arrondissement": 2,
+  "coordonnees": {
+    "latitude": "48.865798",
+    "longitude": "2.341718"
+  },
+  "id_pss": null,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 16300,
+  "terme_jantzen_bat": [
+    "lucarne",
+    "fenetre"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_16300",
+      "IndexJantzen": [
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_16301",
+      "IndexJantzen": [
+        "fenetre",
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_16302",
+      "IndexJantzen": [
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_16303",
+      "IndexJantzen": [
+        "lucarne"
+      ]
+    }
+  ]
+}

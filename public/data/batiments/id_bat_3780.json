@@ -22,12 +22,12 @@
   "WPfr": null,
   "image_ref": "Ternes-pl-9_17_§1",
   "terme_jantzen_bat": [
-    "façade-d'angle",
-    "fenetre",
+    "garde-corps",
     "décor",
     "sculpture",
-    "balcon",
-    "garde-corps"
+    "fenetre",
+    "façade-d'angle",
+    "balcon"
   ],
   "photos": [
     {
@@ -35,21 +35,24 @@
       "IndexJantzen": [
         "balcon",
         "façade-d'angle"
-      ]
+      ],
+      "dateCapture": "2014:09:03"
     },
     {
       "id_pic": "Ternes-pl-9_17_§2",
       "IndexJantzen": [
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2014:09:03"
     },
     {
       "id_pic": "Ternes-pl-9_17_§3",
       "IndexJantzen": [
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:12:12"
     },
     {
       "id_pic": "Ternes-pl-9_17_§5",
@@ -57,14 +60,16 @@
         "décor",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:12:12"
     },
     {
       "id_pic": "Ternes-pl-9_17_§6",
       "IndexJantzen": [
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:12:12"
     },
     {
       "id_pic": "Ternes-pl-9_17_§7",
@@ -72,7 +77,8 @@
         "fenetre",
         "garde-corps",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:12:12"
     }
   ]
 }

@@ -27,12 +27,12 @@
   "WPfr": null,
   "image_ref": "Vavin-16_6_§1",
   "terme_jantzen_bat": [
-    "lucarne-d'angle",
-    "dome",
+    "console",
     "fenetre-d'angle",
     "sculpture",
-    "console",
-    "balcon"
+    "balcon",
+    "lucarne-d'angle",
+    "dome"
   ],
   "photos": [
     {
@@ -41,21 +41,24 @@
         "balcon",
         "dome",
         "fenetre-d'angle"
-      ]
+      ],
+      "dateCapture": "2005:05:09"
     },
     {
       "id_pic": "Vavin-16_6_§2",
       "IndexJantzen": [
         "dome",
         "lucarne-d'angle"
-      ]
+      ],
+      "dateCapture": "2005:05:09"
     },
     {
       "id_pic": "Vavin-16_6_§3",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:05:09"
     }
   ]
 }

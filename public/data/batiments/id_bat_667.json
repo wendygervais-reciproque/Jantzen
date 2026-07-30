@@ -28,13 +28,13 @@
   "image_ref": "Gaillon-12_2_§1",
   "terme_jantzen_bat": [
     "façade",
-    "métal",
-    "porte-fer",
-    "fenetre",
-    "décor",
     "console",
     "verrière",
-    "garde-corps"
+    "garde-corps",
+    "décor",
+    "fenetre",
+    "porte-fer",
+    "métal"
   ],
   "photos": [
     {
@@ -42,7 +42,8 @@
       "IndexJantzen": [
         "façade",
         "métal"
-      ]
+      ],
+      "dateCapture": "2005:06:19"
     },
     {
       "id_pic": "Gaillon-12_2_§2",
@@ -50,7 +51,8 @@
         "façade",
         "métal",
         "verrière"
-      ]
+      ],
+      "dateCapture": "2010:08:21"
     },
     {
       "id_pic": "Gaillon-12_2_§3",
@@ -58,20 +60,23 @@
         "façade",
         "métal",
         "verrière"
-      ]
+      ],
+      "dateCapture": "2010:08:21"
     },
     {
       "id_pic": "Gaillon-12_2_§4",
       "IndexJantzen": [
         "porte-fer"
-      ]
+      ],
+      "dateCapture": "2005:06:19"
     },
     {
       "id_pic": "Gaillon-12_2_§5",
       "IndexJantzen": [
         "fenetre",
         "garde-corps"
-      ]
+      ],
+      "dateCapture": "2005:06:19"
     },
     {
       "id_pic": "Gaillon-12_2_§6",
@@ -79,7 +84,8 @@
         "console",
         "décor",
         "métal"
-      ]
+      ],
+      "dateCapture": "2010:08:21"
     }
   ]
 }

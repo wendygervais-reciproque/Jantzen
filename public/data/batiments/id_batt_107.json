@@ -1,0 +1,99 @@
+{
+  "id_bat": 107,
+  "libelle": "Mairie du 4e arrondissement (ancienne)",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 38,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1868",
+  "periode": [
+    "1850-1869"
+  ],
+  "adresse": null,
+  "arrondissement": 4,
+  "coordonnees": {
+    "latitude": "48.8561",
+    "longitude": "2.35611"
+  },
+  "id_pss": 9209,
+  "id_wikidata": "Q3278499",
+  "WPfr": "Mairie du 4e arrondissement de Paris",
+  "image_ref": 879,
+  "terme_jantzen_bat": [
+    "pilastre",
+    "lucarne",
+    "façade",
+    "colonne",
+    "fenetre",
+    "fronton"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_879",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_880",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_881",
+      "IndexJantzen": [
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_882",
+      "IndexJantzen": [
+        "fenetre",
+        "fronton",
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_883",
+      "IndexJantzen": [
+        "fenetre",
+        "fronton",
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_884",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_885",
+      "IndexJantzen": [
+        "colonne",
+        "fenetre",
+        "fronton",
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_886",
+      "IndexJantzen": [
+        "colonne",
+        "fenetre",
+        "fronton"
+      ]
+    },
+    {
+      "id_pic": "image_887",
+      "IndexJantzen": [
+        "fenetre",
+        "pilastre"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "id_bat": 3211,
+  "libelle": "60 rue Saint-Lazare",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 445,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1899",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "60 rue Saint-Lazare",
+    "numero": "60",
+    "voie": "rue Saint-Lazare"
+  },
+  "arrondissement": 9,
+  "coordonnees": {
+    "latitude": "48.876926",
+    "longitude": "2.333258"
+  },
+  "id_pss": 41700,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 14565,
+  "terme_jantzen_bat": [
+    "clé",
+    "façade",
+    "fenetre",
+    "sculpture",
+    "décor",
+    "chimère",
+    "balcon",
+    "garde-corps",
+    "porte-fer",
+    "porte-bois",
+    "console"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_14565",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_14566",
+      "IndexJantzen": [
+        "clé",
+        "fenetre",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_14567",
+      "IndexJantzen": [
+        "fenetre",
+        "porte-fer"
+      ]
+    },
+    {
+      "id_pic": "image_14568",
+      "IndexJantzen": [
+        "fenetre",
+        "porte-fer"
+      ]
+    },
+    {
+      "id_pic": "image_14569",
+      "IndexJantzen": [
+        "porte-fer"
+      ]
+    },
+    {
+      "id_pic": "image_14570",
+      "IndexJantzen": [
+        "balcon",
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_14571",
+      "IndexJantzen": [
+        "décor",
+        "fenetre",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_14572",
+      "IndexJantzen": [
+        "clé",
+        "fenetre",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_14573",
+      "IndexJantzen": [
+        "fenetre",
+        "garde-corps"
+      ]
+    },
+    {
+      "id_pic": "image_14574",
+      "IndexJantzen": [
+        "console",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_14575",
+      "IndexJantzen": [
+        "console",
+        "fenetre",
+        "garde-corps",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_14576",
+      "IndexJantzen": [
+        "chimère",
+        "console",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_14577",
+      "IndexJantzen": [
+        "fenetre",
+        "porte-bois"
+      ]
+    }
+  ]
+}

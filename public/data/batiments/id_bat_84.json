@@ -23,12 +23,12 @@
   "WPfr": "Gare de Lyon (métro de Paris)",
   "image_ref": "Gare-de-Lyon_12_§1",
   "terme_jantzen_bat": [
-    "lucarne",
-    "fenetre",
-    "décor",
-    "tour",
-    "sculpture",
     "console",
+    "lucarne",
+    "tour",
+    "décor",
+    "sculpture",
+    "fenetre",
     "balcon"
   ],
   "photos": [
@@ -37,7 +37,8 @@
       "IndexJantzen": [
         "fenetre",
         "tour"
-      ]
+      ],
+      "dateCapture": "2005:07:12"
     },
     {
       "id_pic": "Gare-de-Lyon_12_§10",
@@ -45,7 +46,8 @@
         "balcon",
         "console",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2012:02:23"
     },
     {
       "id_pic": "Gare-de-Lyon_12_§11",
@@ -53,7 +55,8 @@
         "balcon",
         "console",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:07:12"
     },
     {
       "id_pic": "Gare-de-Lyon_12_§12",
@@ -61,7 +64,8 @@
         "décor",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:07:12"
     },
     {
       "id_pic": "Gare-de-Lyon_12_§13",
@@ -69,45 +73,52 @@
         "fenetre",
         "lucarne",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:07:12"
     },
     {
       "id_pic": "Gare-de-Lyon_12_§14",
       "IndexJantzen": [
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:07:12"
     },
     {
       "id_pic": "Gare-de-Lyon_12_§15",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:07:12"
     },
     {
       "id_pic": "Gare-de-Lyon_12_§2",
       "IndexJantzen": [
         "fenetre",
         "tour"
-      ]
+      ],
+      "dateCapture": "2012:02:23"
     },
     {
       "id_pic": "Gare-de-Lyon_12_§3",
       "IndexJantzen": [
         "tour"
-      ]
+      ],
+      "dateCapture": "2005:06:14"
     },
     {
       "id_pic": "Gare-de-Lyon_12_§4",
       "IndexJantzen": [
         "tour"
-      ]
+      ],
+      "dateCapture": "2005:06:14"
     },
     {
       "id_pic": "Gare-de-Lyon_12_§5",
       "IndexJantzen": [
         "tour"
-      ]
+      ],
+      "dateCapture": null
     },
     {
       "id_pic": "Gare-de-Lyon_12_§6",
@@ -115,7 +126,8 @@
         "balcon",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2012:02:23"
     },
     {
       "id_pic": "Gare-de-Lyon_12_§7",
@@ -123,7 +135,8 @@
         "balcon",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:07:12"
     },
     {
       "id_pic": "Gare-de-Lyon_12_§8",
@@ -131,7 +144,8 @@
         "balcon",
         "console",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2012:02:23"
     }
   ]
 }

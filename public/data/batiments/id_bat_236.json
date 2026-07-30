@@ -23,9 +23,9 @@
   "image_ref": "Marche-Popincourt-1_11_§1",
   "terme_jantzen_bat": [
     "brique",
+    "porte",
     "fenetre",
-    "oriel",
-    "porte"
+    "oriel"
   ],
   "photos": [
     {
@@ -34,7 +34,8 @@
         "brique",
         "fenetre",
         "porte"
-      ]
+      ],
+      "dateCapture": "2005:07:12"
     },
     {
       "id_pic": "Marche-Popincourt-1_11_§2",
@@ -42,7 +43,8 @@
         "brique",
         "fenetre",
         "porte"
-      ]
+      ],
+      "dateCapture": "2005:07:12"
     },
     {
       "id_pic": "Marche-Popincourt-1_11_§3",
@@ -50,11 +52,13 @@
         "brique",
         "fenetre",
         "oriel"
-      ]
+      ],
+      "dateCapture": "2005:07:12"
     },
     {
       "id_pic": "Marche-Popincourt-1_11_§4",
-      "IndexJantzen": []
+      "IndexJantzen": [],
+      "dateCapture": "2005:07:12"
     }
   ]
 }

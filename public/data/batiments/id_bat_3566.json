@@ -20,31 +20,34 @@
   "WPfr": null,
   "image_ref": "Bosquet-79_7_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "façade",
-    "porte-bois",
-    "sculpture"
+    "sculpture",
+    "fenetre",
+    "porte-bois"
   ],
   "photos": [
     {
       "id_pic": "Bosquet-79_7_§1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "dateCapture": "2005:03:19"
     },
     {
       "id_pic": "Bosquet-79_7_§2",
       "IndexJantzen": [
         "fenetre",
         "porte-bois"
-      ]
+      ],
+      "dateCapture": "2005:03:19"
     },
     {
       "id_pic": "Bosquet-79_7_§3",
       "IndexJantzen": [
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:03:19"
     }
   ]
 }

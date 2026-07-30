@@ -1,0 +1,50 @@
+{
+  "id_bat": 3640,
+  "libelle": "8 rue Ernest-Cresson",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 414,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1907",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "8 rue Ernest-Cresson",
+    "numero": "8",
+    "voie": "rue Ernest-Cresson"
+  },
+  "arrondissement": 14,
+  "coordonnees": {
+    "latitude": "48.832526",
+    "longitude": "2.329893"
+  },
+  "id_pss": 52013,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 4125,
+  "terme_jantzen_bat": [
+    "sculpture",
+    "console",
+    "fenetre"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_4125",
+      "IndexJantzen": [
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_4126",
+      "IndexJantzen": [
+        "console",
+        "fenetre",
+        "sculpture"
+      ]
+    }
+  ]
+}

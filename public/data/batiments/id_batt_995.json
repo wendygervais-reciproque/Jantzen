@@ -1,0 +1,64 @@
+{
+  "id_bat": 995,
+  "libelle": "15 avenue Perrichont",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 369,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1907",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "15 avenue Perrichont",
+    "numero": "15",
+    "voie": "avenue Perrichont"
+  },
+  "arrondissement": 16,
+  "coordonnees": {
+    "latitude": "48.849702",
+    "longitude": "2.272735"
+  },
+  "id_pss": 12508,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 11435,
+  "terme_jantzen_bat": [
+    "céramique",
+    "brique",
+    "fenetre",
+    "décor",
+    "porte-fer"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_11435",
+      "IndexJantzen": [
+        "brique",
+        "céramique",
+        "décor",
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_11436",
+      "IndexJantzen": [
+        "brique",
+        "céramique",
+        "décor",
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_11437",
+      "IndexJantzen": [
+        "brique",
+        "céramique",
+        "porte-fer"
+      ]
+    }
+  ]
+}

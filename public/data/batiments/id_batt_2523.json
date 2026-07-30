@@ -1,0 +1,44 @@
+{
+  "id_bat": 2523,
+  "libelle": "4 rue Le Verrier",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": "1888",
+  "periode": [
+    "1870-1894"
+  ],
+  "adresse": {
+    "affichage": "4 rue Le Verrier",
+    "numero": "4",
+    "voie": "rue Le Verrier"
+  },
+  "arrondissement": 6,
+  "coordonnees": {
+    "latitude": "48.842214",
+    "longitude": "2.334489"
+  },
+  "id_pss": 52341,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 8330,
+  "terme_jantzen_bat": [
+    "porte-bois",
+    "sculpture",
+    "fenetre"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_8330",
+      "IndexJantzen": [
+        "porte-bois"
+      ]
+    },
+    {
+      "id_pic": "image_8331",
+      "IndexJantzen": [
+        "fenetre",
+        "sculpture"
+      ]
+    }
+  ]
+}

@@ -27,12 +27,12 @@
   "WPfr": null,
   "image_ref": "Rene-Coty-42_14_§1",
   "terme_jantzen_bat": [
-    "façade-d'angle",
     "façade",
-    "fenetre",
+    "console",
     "oeil-de-boeuf",
     "décor",
-    "console",
+    "fenetre",
+    "façade-d'angle",
     "pignon"
   ],
   "photos": [
@@ -41,34 +41,39 @@
       "IndexJantzen": [
         "façade-d'angle",
         "pignon"
-      ]
+      ],
+      "dateCapture": "2008:07:05"
     },
     {
       "id_pic": "Rene-Coty-42_14_§2",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "dateCapture": "2008:07:05"
     },
     {
       "id_pic": "Rene-Coty-42_14_§3",
       "IndexJantzen": [
         "décor",
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2008:07:05"
     },
     {
       "id_pic": "Rene-Coty-42_14_§4",
       "IndexJantzen": [
         "fenetre",
         "oeil-de-boeuf"
-      ]
+      ],
+      "dateCapture": "2008:07:05"
     },
     {
       "id_pic": "Rene-Coty-42_14_4",
       "IndexJantzen": [
         "console",
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2008:07:05"
     }
   ]
 }

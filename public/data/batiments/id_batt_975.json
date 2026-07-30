@@ -1,0 +1,67 @@
+{
+  "id_bat": 975,
+  "libelle": "147 boulevard Raspail",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 279,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1907",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "147 boulevard Raspail",
+    "numero": "147",
+    "voie": "boulevard Raspail"
+  },
+  "arrondissement": 6,
+  "coordonnees": {
+    "latitude": "48.842197",
+    "longitude": "2.329742"
+  },
+  "id_pss": 28580,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 12384,
+  "terme_jantzen_bat": [
+    "façade-d'angle",
+    "lucarne",
+    "toiture"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_12384",
+      "IndexJantzen": [
+        "façade-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_12385",
+      "IndexJantzen": [
+        "lucarne",
+        "toiture"
+      ]
+    },
+    {
+      "id_pic": "image_12386",
+      "IndexJantzen": [
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_12387",
+      "IndexJantzen": [
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_12388",
+      "IndexJantzen": [
+        "lucarne"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id_bat": 539,
+  "libelle": "113 rue de Rennes",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 114,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1880",
+  "periode": [
+    "1870-1894"
+  ],
+  "adresse": {
+    "affichage": "113 rue de Rennes",
+    "numero": "113",
+    "voie": "rue de Rennes"
+  },
+  "arrondissement": 6,
+  "coordonnees": {
+    "latitude": "48.848334",
+    "longitude": "2.328335"
+  },
+  "id_pss": 88410,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 12892,
+  "terme_jantzen_bat": [
+    "façade"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_12892",
+      "IndexJantzen": [
+        "façade"
+      ]
+    }
+  ]
+}

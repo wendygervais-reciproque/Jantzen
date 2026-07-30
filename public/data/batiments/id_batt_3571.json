@@ -1,0 +1,59 @@
+{
+  "id_bat": 3571,
+  "libelle": "7A rue Rembrandt",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 319,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1896",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "7A rue Rembrandt",
+    "numero": "7A",
+    "voie": "rue Rembrandt"
+  },
+  "arrondissement": 8,
+  "coordonnees": {
+    "latitude": "48.877432",
+    "longitude": "2.308208"
+  },
+  "id_pss": 10181,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 12816,
+  "terme_jantzen_bat": [
+    "oriel",
+    "métal",
+    "console",
+    "décor"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_12816",
+      "IndexJantzen": [
+        "métal",
+        "oriel"
+      ]
+    },
+    {
+      "id_pic": "image_12817",
+      "IndexJantzen": [
+        "console",
+        "décor",
+        "métal"
+      ]
+    },
+    {
+      "id_pic": "image_12818",
+      "IndexJantzen": [
+        "métal",
+        "oriel"
+      ]
+    }
+  ]
+}

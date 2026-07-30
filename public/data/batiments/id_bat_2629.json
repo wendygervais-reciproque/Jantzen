@@ -23,23 +23,25 @@
   "image_ref": "Francois-Miron-42_4_§1",
   "terme_jantzen_bat": [
     "façade",
-    "fenetre",
+    "garde-corps",
     "clé",
-    "balcon",
-    "garde-corps"
+    "fenetre",
+    "balcon"
   ],
   "photos": [
     {
       "id_pic": "Francois-Miron-42_4_§1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "dateCapture": "2010:06:05"
     },
     {
       "id_pic": "Francois-Miron-42_4_§2",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2010:06:05"
     },
     {
       "id_pic": "Francois-Miron-42_4_§3",
@@ -48,7 +50,8 @@
         "clé",
         "fenetre",
         "garde-corps"
-      ]
+      ],
+      "dateCapture": "2010:06:05"
     },
     {
       "id_pic": "Francois-Miron-42_4_§4",
@@ -56,7 +59,8 @@
         "clé",
         "fenetre",
         "garde-corps"
-      ]
+      ],
+      "dateCapture": "2003:08:02"
     }
   ]
 }

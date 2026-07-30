@@ -1,0 +1,69 @@
+{
+  "id_bat": 786,
+  "libelle": "13 rue de Trétaigne",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 681,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1912",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "13 rue de Trétaigne",
+    "numero": "13",
+    "voie": "rue de Trétaigne"
+  },
+  "arrondissement": 18,
+  "coordonnees": {
+    "latitude": "48.892175",
+    "longitude": "2.342238"
+  },
+  "id_pss": null,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 15479,
+  "terme_jantzen_bat": [
+    "façade-d'angle",
+    "console",
+    "fenetre-d'angle",
+    "sculpture"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_15479",
+      "IndexJantzen": [
+        "façade-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_15480",
+      "IndexJantzen": [
+        "fenetre-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_15481",
+      "IndexJantzen": [
+        "fenetre-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_15482",
+      "IndexJantzen": [
+        "console",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_15483",
+      "IndexJantzen": [
+        "console",
+        "sculpture"
+      ]
+    }
+  ]
+}

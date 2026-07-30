@@ -22,17 +22,18 @@
   "WPfr": null,
   "image_ref": "Pont_Louis_Philippe-25_4_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "décor",
-    "pilastre",
-    "sculpture"
+    "sculpture",
+    "fenetre",
+    "pilastre"
   ],
   "photos": [
     {
       "id_pic": "Pont_Louis_Philippe-25_4_§1",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2008:09:19"
     },
     {
       "id_pic": "Pont_Louis_Philippe-25_4_§2",
@@ -40,14 +41,16 @@
         "décor",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2008:09:19"
     },
     {
       "id_pic": "Pont_Louis_Philippe-25_4_§3",
       "IndexJantzen": [
         "fenetre",
         "pilastre"
-      ]
+      ],
+      "dateCapture": "2008:09:19"
     }
   ]
 }

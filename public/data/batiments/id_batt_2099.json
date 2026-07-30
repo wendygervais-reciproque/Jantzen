@@ -1,0 +1,51 @@
+{
+  "id_bat": 2099,
+  "libelle": "3 rue du Général-Delestraint",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 369,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": null,
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "3 rue du Général-Delestraint",
+    "numero": "3",
+    "voie": "rue du Général-Delestraint"
+  },
+  "arrondissement": 16,
+  "coordonnees": {
+    "latitude": "48.843156",
+    "longitude": "2.259142"
+  },
+  "id_pss": 40762,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 5195,
+  "terme_jantzen_bat": [
+    "garde-corps",
+    "mosaique",
+    "fenetre"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_5195",
+      "IndexJantzen": [
+        "fenetre",
+        "mosaique"
+      ]
+    },
+    {
+      "id_pic": "image_5196",
+      "IndexJantzen": [
+        "fenetre",
+        "garde-corps",
+        "mosaique"
+      ]
+    }
+  ]
+}

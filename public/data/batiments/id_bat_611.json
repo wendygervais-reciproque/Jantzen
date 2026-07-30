@@ -23,26 +23,28 @@
   "image_ref": "Niel-12_17_§1_1-Rx",
   "terme_jantzen_bat": [
     "lucarne",
-    "façade-d'angle",
-    "porte-fer",
-    "fenetre",
+    "porte-fer-hall",
     "décor",
     "sculpture",
     "clé",
-    "porte-fer-hall"
+    "fenetre",
+    "porte-fer",
+    "façade-d'angle"
   ],
   "photos": [
     {
       "id_pic": "Niel-12_17_§1_1-Rx",
       "IndexJantzen": [
         "porte-fer"
-      ]
+      ],
+      "dateCapture": "2014:02:19"
     },
     {
       "id_pic": "Niel-12_17_§2",
       "IndexJantzen": [
         "porte-fer-hall"
-      ]
+      ],
+      "dateCapture": "2005:03:17"
     },
     {
       "id_pic": "Niel-12_17_§4",
@@ -50,33 +52,38 @@
         "clé",
         "porte-fer",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:03:23"
     },
     {
       "id_pic": "Niel-12_17_§5",
       "IndexJantzen": [
         "clé",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:12:13"
     },
     {
       "id_pic": "Niel-12_17_§6",
       "IndexJantzen": [
         "clé",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:12:10"
     },
     {
       "id_pic": "Niel-12_17_01",
       "IndexJantzen": [
         "façade-d'angle"
-      ]
+      ],
+      "dateCapture": "2005:03:17"
     },
     {
       "id_pic": "Niel-12_17_22_DxO_1-Rx",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2014:02:19"
     },
     {
       "id_pic": "Niel-12_17_23_DxO_1-Rx",
@@ -85,7 +92,8 @@
         "fenetre",
         "lucarne",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2014:02:19"
     }
   ]
 }

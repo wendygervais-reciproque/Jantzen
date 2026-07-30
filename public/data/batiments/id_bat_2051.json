@@ -22,12 +22,12 @@
   "WPfr": null,
   "image_ref": "Malaquais-3_6_",
   "terme_jantzen_bat": [
-    "lucarne",
-    "façade",
-    "métal",
-    "fenetre",
     "console",
-    "garde-corps"
+    "façade",
+    "garde-corps",
+    "lucarne",
+    "fenetre",
+    "métal"
   ],
   "photos": [
     {
@@ -35,40 +35,46 @@
       "IndexJantzen": [
         "console",
         "métal"
-      ]
+      ],
+      "dateCapture": "2005:06:02"
     },
     {
       "id_pic": "Malaquais-3_6_§1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "dateCapture": "2009:05:22"
     },
     {
       "id_pic": "Malaquais-3_6_§2",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "dateCapture": "2009:05:22"
     },
     {
       "id_pic": "Malaquais-3_6_§3",
       "IndexJantzen": [
         "fenetre",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2009:05:22"
     },
     {
       "id_pic": "Malaquais-3_6_§4",
       "IndexJantzen": [
         "fenetre",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2009:05:22"
     },
     {
       "id_pic": "Malaquais-3_6_§5",
       "IndexJantzen": [
         "fenetre",
         "garde-corps"
-      ]
+      ],
+      "dateCapture": "2009:05:22"
     }
   ]
 }

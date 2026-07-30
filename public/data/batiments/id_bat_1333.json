@@ -28,9 +28,9 @@
   "image_ref": "St-Germain-184_6_§1",
   "terme_jantzen_bat": [
     "façade",
-    "fenetre",
-    "sculpture",
     "cariatide",
+    "sculpture",
+    "fenetre",
     "porte-bois"
   ],
   "photos": [
@@ -38,14 +38,16 @@
       "id_pic": "St-Germain-184_6_§1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "dateCapture": "2005:03:20"
     },
     {
       "id_pic": "St-Germain-184_6_§2",
       "IndexJantzen": [
         "fenetre",
         "porte-bois"
-      ]
+      ],
+      "dateCapture": "2005:08:11"
     },
     {
       "id_pic": "St-Germain-184_6_§3",
@@ -53,21 +55,24 @@
         "cariatide",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:03:20"
     },
     {
       "id_pic": "St-Germain-184_6_§4",
       "IndexJantzen": [
         "cariatide",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:03:20"
     },
     {
       "id_pic": "St-Germain-184_6_§5",
       "IndexJantzen": [
         "cariatide",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:03:20"
     }
   ]
 }

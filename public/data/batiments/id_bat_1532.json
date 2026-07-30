@@ -27,13 +27,13 @@
   "WPfr": null,
   "image_ref": "Villaret-de-Joyeuse-2_17_§1",
   "terme_jantzen_bat": [
-    "façade-d'angle",
-    "lucarne-d'angle",
-    "fenetre",
-    "dome",
     "sculpture",
+    "fenetre",
+    "façade-d'angle",
+    "colonne",
     "balcon",
-    "colonne"
+    "lucarne-d'angle",
+    "dome"
   ],
   "photos": [
     {
@@ -41,55 +41,63 @@
       "IndexJantzen": [
         "dome",
         "façade-d'angle"
-      ]
+      ],
+      "dateCapture": "2010:08:21"
     },
     {
       "id_pic": "Villaret-de-Joyeuse-2_17_§10-Rx",
       "IndexJantzen": [
         "colonne",
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2011:10:03"
     },
     {
       "id_pic": "Villaret-de-Joyeuse-2_17_§11",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:12:11"
     },
     {
       "id_pic": "Villaret-de-Joyeuse-2_17_§2",
       "IndexJantzen": [
         "dome",
         "façade-d'angle"
-      ]
+      ],
+      "dateCapture": "2004:10:02"
     },
     {
       "id_pic": "Villaret-de-Joyeuse-2_17_§3-Rx",
       "IndexJantzen": [
         "dome",
         "façade-d'angle"
-      ]
+      ],
+      "dateCapture": "2011:06:01"
     },
     {
       "id_pic": "Villaret-de-Joyeuse-2_17_§4",
       "IndexJantzen": [
         "dome",
         "façade-d'angle"
-      ]
+      ],
+      "dateCapture": "2010:08:21"
     },
     {
       "id_pic": "Villaret-de-Joyeuse-2_17_§5",
       "IndexJantzen": [
         "dome",
         "façade-d'angle"
-      ]
+      ],
+      "dateCapture": "2005:06:12"
     },
     {
       "id_pic": "Villaret-de-Joyeuse-2_17_§7",
       "IndexJantzen": [
         "dome",
         "façade-d'angle"
-      ]
+      ],
+      "dateCapture": "2007:06:09"
     },
     {
       "id_pic": "Villaret-de-Joyeuse-2_17_§8",
@@ -97,14 +105,16 @@
         "balcon",
         "dome",
         "lucarne-d'angle"
-      ]
+      ],
+      "dateCapture": "2005:06:12"
     },
     {
       "id_pic": "Villaret-de-Joyeuse-2_17_§9-Rx",
       "IndexJantzen": [
         "colonne",
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2011:10:03"
     }
   ]
 }

@@ -1,0 +1,71 @@
+{
+  "id_bat": 1667,
+  "libelle": "22 avenue de la Grande-Armée",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 272,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": null,
+  "periode": [
+    "1870-1894"
+  ],
+  "adresse": {
+    "affichage": "22 avenue de la Grande-Armée",
+    "numero": "22",
+    "voie": "avenue de la Grande-Armée"
+  },
+  "arrondissement": 17,
+  "coordonnees": {
+    "latitude": "48.875409",
+    "longitude": "2.291041"
+  },
+  "id_pss": 84532,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 5430,
+  "terme_jantzen_bat": [
+    "lucarne",
+    "oeil-de-boeuf",
+    "dome",
+    "fenetre",
+    "porte-bois"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_5430",
+      "IndexJantzen": [
+        "dome",
+        "fenetre",
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_5431",
+      "IndexJantzen": [
+        "dome",
+        "fenetre",
+        "lucarne",
+        "oeil-de-boeuf"
+      ]
+    },
+    {
+      "id_pic": "image_5432",
+      "IndexJantzen": [
+        "dome",
+        "lucarne",
+        "oeil-de-boeuf"
+      ]
+    },
+    {
+      "id_pic": "image_5433",
+      "IndexJantzen": [
+        "fenetre",
+        "oeil-de-boeuf",
+        "porte-bois"
+      ]
+    }
+  ]
+}
