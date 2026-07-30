@@ -104,9 +104,9 @@ function renderLightbox() {
       ? item.dateCapture.replace(/^(\d{4}):(\d{2}):(\d{2})$/, '$3/$2/$1')
       : '';
 
-    const dateStr = formattedDate ? ` — ${formattedDate} — ` : '';
+    const dateStr = formattedDate ? ` — ${formattedDate}` : '';
 
-    caption.textContent = `${counterText}${termText}${dateStr}© Eric Jantzen `;
+    caption.textContent = `${counterText}${termText}${dateStr} — © Eric Jantzen `;
   }
   if (prev) prev.disabled = index <= 0;
   if (next) next.disabled = index >= photos.length - 1;
