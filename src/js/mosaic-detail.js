@@ -93,8 +93,8 @@ function renderMosaicInfo(data) {
 
   const cells = [
     ['Ensemble',             data.ensemble],
-    ['Date de construction', data.dateConstruction],
     ['Période', data.periode],
+    ['Date de construction', data.dateConstruction],
     ['Arrondissement',       data.arrondissement ? ordinalArr(Number(data.arrondissement)) : null]
   ].filter(([, value]) => value);
 
