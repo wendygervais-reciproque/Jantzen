@@ -93,13 +93,13 @@
     <div id="filters-body">
 
       <div class="filter-section">
-        <button class="filter-section-header" onclick="toggleFilterSection(this)" aria-expanded="true" aria-label="Section de filtre : Arrondissement">
+        <button class="filter-section-header" onclick="toggleFilterSection(this)" aria-expanded="false" aria-label="Section de filtre : Arrondissement">
           <span class="filter-section-label">Arrondissements</span>
           <span class="filter-section-arrow" aria-hidden="true">▾</span>
         </button>
-        <div class="filter-section-body open">
+        <div class="filter-section-body">
           <div class="filter-group">
-            <div class="filter-chips" id="arr-chips"></div>
+            <div id="arr-chips" class="filter-chips" ></div>
           </div>
         </div>
       </div>
@@ -111,7 +111,6 @@
         </button>
         <div class="filter-section-body">
           <div id="date-filter">
-            <!-- Conteneur qui recevra dynamiquement les boutons / puces (chips) des périodes -->
             <div id="date-chips-container" class="thes-terms"></div>
           </div>
         </div>
