@@ -33,7 +33,7 @@
   --fw-700: 700;
 
   /* Line-height (typography/line-height) */
-  --lh-1:    1;
+  --lh-1:    1; /*100%*/
   --lh-120:  1.2;
   --lh-130:  1.3;
   --lh-150:  1.5;
@@ -64,7 +64,9 @@
   --text-body-small-bold-size: var(--fs-14); --text-body-small-bold-weight: var(--fw-700); --text-body-small-bold-lh: var(--lh-150);
 
   /* interface/ — éléments UI */
-  --text-interface-button-size:    var(--fs-14); --text-interface-button-weight:    var(--fw-600); --text-interface-button-lh: var(--lh-1);
+  --text-interface-button-small-size:  var(--fs-14); --text-interface-button-small-weight:  var(--fw-600); --text-interface-button-small-lh: var(--lh-1);
+  --text-interface-button-medium-size: var(--fs-16); --text-interface-button-medium-weight: var(--fw-600); --text-interface-button-medium-lh: var(--lh-1);
+  --text-interface-button-large-size:  var(--fs-18); --text-interface-button-large-weight:  var(--fw-600); --text-interface-button-large-lh: var(--lh-1);
   --text-interface-overline-size:  var(--fs-12); --text-interface-overline-weight:  var(--fw-600); --text-interface-overline-lh: var(--lh-1);    --text-interface-overline-ls: var(--ls-wide);
   --text-interface-caption-size:   var(--fs-12); --text-interface-caption-weight:   var(--fw-400); --text-interface-caption-lh: var(--lh-130);
 }
@@ -216,21 +218,24 @@
   --button-primary-background-hover:    #7d6138;  /* brand/700 */
   --button-primary-background-active:   #5c4728;  /* brand/800 */
   --button-primary-background-disabled: #e4e1d5;  /* neutral/200 */
-  --button-primary-text-default:        #ffffff;
-  --button-primary-text-hover:          #ffffff;
-  --button-primary-text-active:         #ffffff;
-  --button-primary-text-disabled:       #a8a596;  /* neutral/400 */
+  --button-primary-content-default:        #ffffff;
+  --button-primary-content-hover:          #ffffff;
+  --button-primary-content-active:         #ffffff;
+  --button-primary-content-disabled:       #a8a596;  /* neutral/400 */
   --button-primary-border-default:      transparent;
+  --button-primary-border-hover:        transparent;
+  --button-primary-border-active:       transparent;
+  --button-primary-border-disabled:     transparent;
 
   /* Boutons: secondary */
   --button-secondary-background-default:  transparent;
   --button-secondary-background-hover:    #faf7f0;  /* brand/50 */
   --button-secondary-background-active:   #f3ecda;  /* brand/100 */
   --button-secondary-background-disabled: transparent;
-  --button-secondary-text-default:        #9c7d4a;  /* brand/600 */
-  --button-secondary-text-hover:          #7d6138;  /* brand/700 */
-  --button-secondary-text-active:         #5c4728;  /* brand/800 */
-  --button-secondary-text-disabled:       #a8a596;  /* neutral/400 */
+  --button-secondary-content-default:        #9c7d4a;  /* brand/600 */
+  --button-secondary-content-hover:          #7d6138;  /* brand/700 */
+  --button-secondary-content-active:         #5c4728;  /* brand/800 */
+  --button-secondary-content-disabled:       #a8a596;  /* neutral/400 */
   --button-secondary-border-default:      #9c7d4a;
   --button-secondary-border-hover:        #7d6138;
   --button-secondary-border-active:       #5c4728;
@@ -241,20 +246,24 @@
   --button-ghost-background-hover:    #f2f0e8;  /* neutral/100 */
   --button-ghost-background-active:   #e4e1d5;  /* neutral/200 */
   --button-ghost-background-disabled: transparent;
-  --button-ghost-text-default:        #43413a;  /* neutral/700 */
-  --button-ghost-text-hover:          #171610;  /* neutral/900 */
-  --button-ghost-text-active:         #171610;
-  --button-ghost-text-disabled:       #a8a596;  /* neutral/400 */
+  --button-ghost-content-default:        #43413a;  /* neutral/700 */
+  --button-ghost-content-hover:          #171610;  /* neutral/900 */
+  --button-ghost-content-active:         #171610;
+  --button-ghost-content-disabled:       #a8a596;  /* neutral/400 */
+  --button-ghost-border-default:      transparent;
+  --button-ghost-border-hover:        transparent;
+  --button-ghost-border-active:       transparent;
+  --button-ghost-border-disabled:     transparent;
 
   /* Boutons: tertiary */
   --button-tertiary-background-default:  transparent;
   --button-tertiary-background-hover:    #f2f0e8;  /* neutral/100 */
   --button-tertiary-background-active:   #e4e1d5;  /* neutral/200 */
   --button-tertiary-background-disabled: transparent;
-  --button-tertiary-text-default:        #43413a;  /* neutral/700 */
-  --button-tertiary-text-hover:          #171610;  /* neutral/900 */
-  --button-tertiary-text-active:         #171610;
-  --button-tertiary-text-disabled:       #a8a596;  /* neutral/400 */
+  --button-tertiary-content-default:        #43413a;  /* neutral/700 */
+  --button-tertiary-content-hover:          #171610;  /* neutral/900 */
+  --button-tertiary-content-active:         #171610;
+  --button-tertiary-content-disabled:       #a8a596;  /* neutral/400 */
   --button-tertiary-border-default:      #ccc9ba;  /* neutral/300 */
   --button-tertiary-border-hover:        #7e7c6f;  /* neutral/500 */
   --button-tertiary-border-active:       #43413a;  /* neutral/700 */
@@ -265,14 +274,20 @@
   --button-destructive-background-hover:    #a71919;
   --button-destructive-background-active:   #891a1a;
   --button-destructive-background-disabled: #e4e1d5;  /* neutral/200 */
-  --button-destructive-text-default:        #ffffff;
-  --button-destructive-text-disabled:       #a8a596;
+  --button-destructive-content-default:        #ffffff;
+  --button-destructive-content-hover:          #ffffff;
+  --button-destructive-content-active:         #ffffff;
+  --button-destructive-content-disabled:       #a8a596;
+  --button-destructive-border-default:      transparent;
+  --button-destructive-border-hover:        transparent;
+  --button-destructive-border-active:       transparent;
+  --button-destructive-border-disabled:     transparent;
 
   /* Lien */
-  --link-text-default: #9c7d4a;  /* brand/600 */
-  --link-text-hover:   #7d6138;  /* brand/700 */
-  --link-text-active:  #5c4728;  /* brand/800 */
-  --link-text-visited: #3a2d18;  /* brand/900 */
+  --link-default: #9c7d4a;  /* brand/600 */
+  --link-hover:   #7d6138;  /* brand/700 */
+  --link-active:  #5c4728;  /* brand/800 */
+  --link-visited: #3a2d18;  /* brand/900 */
 
   /* Input */
   --input-background-default:   #ffffff;
@@ -280,11 +295,12 @@
   --input-background-active:    #ffffff;
   --input-background-disabled:  #f2f0e8;  /* neutral/100 */
   --input-background-error:     #fff0f0;
-  --input-text-default:         #171610;  /* neutral/900 */
-  --input-text-hover:           #171610;
-  --input-text-active:          #171610;
-  --input-text-disabled:        #a8a596;  /* neutral/400 */
+  --input-content-default:         #171610;  /* neutral/900 */
+  --input-content-hover:           #171610;
+  --input-content-active:          #171610;
+  --input-content-disabled:        #a8a596;  /* neutral/400 */
   --input-placeholder-default:  #a8a596;  /* neutral/400 */
+  --input-placeholder-hover:    #2a2924;  /* neutral/800 */
   --input-placeholder-disabled: #ccc9ba;  /* neutral/300 */
   --input-border-default:       #ccc9ba;  /* neutral/300 */
   --input-border-hover:         #7e7c6f;  /* neutral/500 */
@@ -303,6 +319,10 @@
   --control-border-disabled:     #e4e1d5;  /* neutral/200 */
   --control-check-selected:      #ffffff;
   --control-check-disabled:      #ccc9ba;  /* neutral/300 */
+  --control-content-default:       #43413a;  /* neutral/700 */
+  --control-content-hover:         #171610;  /* neutral/900 */
+  --control-content-selected:      #7d6138;  /* brand/700 */
+  --control-content-disabled:      #a8a596;  /* neutral/400 */
 
   /* Tags / Chips */
   --tag-background-default:  transparent;
@@ -310,11 +330,11 @@
   --tag-background-selected: #faf7f0;  /* brand/50 */
   --tag-background-active:   #e4e1d5;  /* neutral/200 */
   --tag-background-disabled: #faf9f5;  /* neutral/50 */
-  --tag-text-default:        #43413a;  /* neutral/700 */
-  --tag-text-hover:          #171610;  /* neutral/900 */
-  --tag-text-selected:       #7d6138;  /* brand/700 */
-  --tag-text-active:         #171610;
-  --tag-text-disabled:       #a8a596;  /* neutral/400 */
+  --tag-content-default:        #43413a;  /* neutral/700 */
+  --tag-content-hover:          #171610;  /* neutral/900 */
+  --tag-content-selected:       #7d6138;  /* brand/700 */
+  --tag-content-active:         #171610;
+  --tag-content-disabled:       #a8a596;  /* neutral/400 */
   --tag-border-default:      #ccc9ba;  /* neutral/300 */
   --tag-border-hover:        #7e7c6f;  /* neutral/500 */
   --tag-border-selected:     #9c7d4a;  /* brand/600 */
@@ -337,7 +357,11 @@
   --menu-item-icon-selected:       #9c7d4a;  /* brand/600 */
   --menu-item-icon-active:         #171610;
   --menu-item-icon-disabled:       #ccc9ba;  /* neutral/300 */
+  --menu-item-border-default:      transparent;
+  --menu-item-border-hover:        transparent;
   --menu-item-border-selected:     #9c7d4a;  /* brand/600 */
+  --menu-item-border-active:       transparent;
+  --menu-item-border-disabled:     transparent;
 
   /* Surfaces interactives */
   --surface-interactive-background-default:  transparent;
@@ -444,18 +468,18 @@
   --button-primary-background-hover:    #c9b07c;  /* brand/400 */
   --button-primary-background-active:   #dac798;  /* brand/300 */
   --button-primary-background-disabled: #43413a;  /* neutral/700 */
-  --button-primary-text-default:        #ffffff;
-  --button-primary-text-hover:          #ffffff;
-  --button-primary-text-active:         #ffffff;
-  --button-primary-text-disabled:       #7e7c6f;  /* neutral/500 */
+  --button-primary-content-default:        #ffffff;
+  --button-primary-content-hover:          #ffffff;
+  --button-primary-content-active:         #ffffff;
+  --button-primary-content-disabled:       #7e7c6f;  /* neutral/500 */
 
   /* Boutons: secondary */
   --button-secondary-background-hover:    #3a2d18;  /* brand/900 */
   --button-secondary-background-active:   #5c4728;  /* brand/800 */
-  --button-secondary-text-default:        #c9b07c;  /* brand/400 */
-  --button-secondary-text-hover:          #dac798;  /* brand/300 */
-  --button-secondary-text-active:         #e8dbbe;  /* brand/200 */
-  --button-secondary-text-disabled:       #7e7c6f;
+  --button-secondary-content-default:        #c9b07c;  /* brand/400 */
+  --button-secondary-content-hover:          #dac798;  /* brand/300 */
+  --button-secondary-content-active:         #e8dbbe;  /* brand/200 */
+  --button-secondary-content-disabled:       #7e7c6f;
   --button-secondary-border-default:      #c9b07c;
   --button-secondary-border-hover:        #dac798;
   --button-secondary-border-active:       #e8dbbe;
@@ -464,28 +488,28 @@
   /* Boutons: ghost */
   --button-ghost-background-hover:    #2a2924;  /* neutral/800 */
   --button-ghost-background-active:   #43413a;  /* neutral/700 */
-  --button-ghost-text-default:        #ccc9ba;  /* neutral/300 */
-  --button-ghost-text-hover:          #f2f0e8;  /* neutral/100 */
-  --button-ghost-text-active:         #f2f0e8;
-  --button-ghost-text-disabled:       #7e7c6f;
+  --button-ghost-content-default:        #ccc9ba;  /* neutral/300 */
+  --button-ghost-content-hover:          #f2f0e8;  /* neutral/100 */
+  --button-ghost-content-active:         #f2f0e8;
+  --button-ghost-content-disabled:       #7e7c6f;
 
   /* Boutons: tertiary */
   --button-tertiary-background-hover:    #2a2924;
   --button-tertiary-background-active:   #43413a;
-  --button-tertiary-text-default:        #ccc9ba;  /* neutral/300 */
-  --button-tertiary-text-hover:          #f2f0e8;  /* neutral/100 */
-  --button-tertiary-text-active:         #f2f0e8;
-  --button-tertiary-text-disabled:       #7e7c6f;
+  --button-tertiary-content-default:        #ccc9ba;  /* neutral/300 */
+  --button-tertiary-content-hover:          #f2f0e8;  /* neutral/100 */
+  --button-tertiary-content-active:         #f2f0e8;
+  --button-tertiary-content-disabled:       #7e7c6f;
   --button-tertiary-border-default:      #605e53;  /* neutral/600 */
   --button-tertiary-border-hover:        #a8a596;  /* neutral/400 */
   --button-tertiary-border-active:       #e4e1d5;  /* neutral/200 */
   --button-tertiary-border-disabled:     #43413a;  /* neutral/700 */
 
   /* Lien */
-  --link-text-default: #c9b07c;  /* brand/400 */
-  --link-text-hover:   #dac798;  /* brand/300 */
-  --link-text-active:  #e8dbbe;  /* brand/200 */
-  --link-text-visited: #f3ecda;  /* brand/100 */
+  --link-default: #c9b07c;  /* brand/400 */
+  --link-hover:   #dac798;  /* brand/300 */
+  --link-active:  #e8dbbe;  /* brand/200 */
+  --link-visited: #f3ecda;  /* brand/100 */
 
   /* Input */
   --input-background-default:   #2a2924;  /* neutral/800 */
@@ -493,11 +517,12 @@
   --input-background-active:    #2a2924;
   --input-background-disabled:  #43413a;  /* neutral/700 */
   --input-background-error:     #721f1f;
-  --input-text-default:         #faf9f5;  /* neutral/50 */
-  --input-text-hover:           #faf9f5;
-  --input-text-active:          #faf9f5;
-  --input-text-disabled:        #7e7c6f;  /* neutral/500 */
+  --input-content-default:         #faf9f5;  /* neutral/50 */
+  --input-content-hover:           #faf9f5;
+  --input-content-active:          #faf9f5;
+  --input-content-disabled:        #7e7c6f;  /* neutral/500 */
   --input-placeholder-default:  #7e7c6f;
+  --input-placeholder-hover:    #7e7c6f;
   --input-placeholder-disabled: #605e53;  /* neutral/600 */
   --input-border-default:       #605e53;
   --input-border-hover:         #a8a596;  /* neutral/400 */
@@ -515,17 +540,21 @@
   --control-border-selected:     #b89862;  /* brand/500 */
   --control-border-disabled:     #605e53;
   --control-check-disabled:      #605e53;
+  --control-content-default:       #7e7c6f;  /* neutral/500 */
+  --control-content-hover:         #c9b07c;  /* brand/400 */
+  --control-content-selected:      #b89862;  /* brand/500 */
+  --control-content-disabled:      #605e53;  /* neutral/600 */
 
   /* Tags */
   --tag-background-hover:    #2a2924;
   --tag-background-selected: #3a2d18;  /* brand/900 */
   --tag-background-disabled: #2a2924;
   --tag-background-active:   #43413a;
-  --tag-text-default:        #ccc9ba;  /* neutral/300 */
-  --tag-text-hover:          #f2f0e8;  /* neutral/100 */
-  --tag-text-selected:       #dac798;  /* brand/300 */
-  --tag-text-active:         #f2f0e8;
-  --tag-text-disabled:       #7e7c6f;
+  --tag-content-default:        #ccc9ba;  /* neutral/300 */
+  --tag-content-hover:          #f2f0e8;  /* neutral/100 */
+  --tag-content-selected:       #dac798;  /* brand/300 */
+  --tag-content-active:         #f2f0e8;
+  --tag-content-disabled:       #7e7c6f;
   --tag-border-default:      #605e53;
   --tag-border-hover:        #a8a596;
   --tag-border-selected:     #c9b07c;  /* brand/400 */
