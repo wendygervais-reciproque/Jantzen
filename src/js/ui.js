@@ -54,7 +54,9 @@ function clearSelectionSurfaces() {
 /* ─── PERSONNES LIÉES (architectes) ─────────────────────────────────────── */
 
 const PERSON_REFERENCES = [
+
   { key: 'orsay',    label: "Musée d'Orsay", url: id => `https://www.musee-orsay.fr/fr/ressources/repertoire-artistes-personnalites/${id}` },
+  { key: 'WPfr',label: "Wikipedia", url: id => `https://fr.wikipedia.org/wiki/${id}` },
   { key: 'pss',      label: 'PSS-Archi',     url: id => `https://www.pss-archi.eu/architecte/${id}` },
   { key: 'wikidata', label: 'Wikidata',      url: id => `https://www.wikidata.org/wiki/${id}` }
 ];
@@ -69,7 +71,6 @@ function buildPersonCard(entry, personne) {
     thumbBtn.type      = 'button';
     thumbBtn.className = 'person-thumb';
     thumbBtn.setAttribute('aria-label', `Agrandir la photographie de ${nom}`);
-
     const img = document.createElement('img');
     img.src     = personneLocalThumbUrl(personne.media);
     img.alt     = '';
