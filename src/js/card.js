@@ -12,9 +12,25 @@
  *      et la mosaïque partagent le même chargement.
  */
 
-/** URL de l'image de référence d'un bâtiment (image_ref, à défaut 1re photo). */
+/**
+ * URL de l'image de référence d'un bâtiment. Par défaut : image_ref (à défaut
+ * 1re photo). Si une seule facette thésaurus est active, on préfère la
+ * première photo du bâtiment porteuse de ce terme (plus parlant pour la
+ * recherche en cours) ; au-delà d'une facette active, le critère devient
+ * ambigu et on retombe sur l'image de référence par défaut.
+ */
 function buildingRefImageUrl(data) {
-  return photoUrl(data?.image_ref) || photoUrl(data?.photos?.[0]?.id_pic) || null;
+  const photos = Array.isArray(data?.photos) ? data.photos : [];
+
+  if (typeof activeFilters !== 'undefined' && activeFilters.thesaurus.size === 1) {
+    const [term] = activeFilters.thesaurus;
+    const normTerm = normalizeText(term);
+    const match = photos.find(ph => (ph.IndexJantzen || []).some(t => normalizeText(t) === normTerm));
+    const url = match && photoUrl(match.id_pic);
+    if (url) return url;
+  }
+
+  return photoUrl(data?.image_ref) || photoUrl(photos[0]?.id_pic) || null;
 }
 
 /**
