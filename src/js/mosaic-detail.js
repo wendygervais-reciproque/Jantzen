@@ -181,7 +181,7 @@ async function renderMosaicPhotos(data) {
   if (header) header.hidden = mdPhotos.length === 0;
   if (label) {
     const wordPhoto = mdPhotos.length > 1 ? 'Photos' : 'Photo';
-    label.textContent = `${wordPhoto} d'Erick Jantzen`;
+    label.textContent = `${wordPhoto} d'Eric Jantzen`;
   }
 
   buildMdElementSelect();   // options du multiselect, à partir des termes des photos
