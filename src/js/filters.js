@@ -303,7 +303,12 @@ function renderDefinitionCard(card, entry, def) {
     card.appendChild(p);
   });
 
-  const references = def?.references || [];
+  const originalReferences = def?.references || [];
+  const orsayLink={
+    href: `https://www.musee-orsay.fr/fr/collections/recherche?artwork_icono_subject=${encodeURIComponent(entry.term)}&search_type=advanced_search`,
+    label: 'Musée d’Orsay'
+  }
+  const references=[orsayLink, ...originalReferences];
   if (references.length > 0) {
     const list = document.createElement('ul');
     list.className = 'thes-def-links';
