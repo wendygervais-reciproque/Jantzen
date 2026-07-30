@@ -179,7 +179,10 @@ async function renderMosaicPhotos(data) {
   mdBatId  = data.id_bat;
 
   if (header) header.hidden = mdPhotos.length === 0;
-  if (label)  label.textContent = `Photos du ${data.libelle || 'bâtiment'}`;
+  if (label) {
+    const wordPhoto = mdPhotos.length > 1 ? 'Photos' : 'Photo';
+    label.textContent = `${wordPhoto} d'Erick Jantzen`;
+  }
 
   buildMdElementSelect();   // options du multiselect, à partir des termes des photos
   await renderMdGallery();
