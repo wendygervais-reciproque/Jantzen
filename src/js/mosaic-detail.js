@@ -94,6 +94,7 @@ function renderMosaicInfo(data) {
   const cells = [
     ['Ensemble',             data.ensemble],
     ['Date de construction', data.dateConstruction],
+    ['Période', data.periode],
     ['Arrondissement',       data.arrondissement ? ordinalArr(Number(data.arrondissement)) : null]
   ].filter(([, value]) => value);
 
@@ -311,8 +312,11 @@ function buildMdElementSelect() {
 }
 
 function toggleMdElementTerm(term) {
-  if (mdPhotoFilter.has(term)) mdPhotoFilter.delete(term);
-  else mdPhotoFilter.add(term);
+  if (mdPhotoFilter.has(term)) mdPhotoFilter.clear();
+  else {
+    mdPhotoFilter.clear();
+    mdPhotoFilter.add(term);
+  }
   updateMdElementSelectUI();
   renderMdGallery();
 }
@@ -326,19 +330,11 @@ function clearMdElementFilter() {
 /** Synchronise l'état visuel du multiselect ET des puces « Éléments
  *  architecturaux » : les deux représentations du même filtre restent en phase. */
 function updateMdElementSelectUI() {
-  const badge = document.querySelector('#md-elem-select .ms-badge');
-  const count = document.querySelector('#md-elem-select .ms-badge-count');
-  if (badge) badge.hidden = mdPhotoFilter.size === 0;
-  if (count) count.textContent = String(mdPhotoFilter.size);
 
-  document.querySelectorAll('#md-elem-select-menu .ms-option').forEach(li => {
-    const on = mdPhotoFilter.has(li.dataset.term);
-    li.classList.toggle('is-selected', on);
-    li.setAttribute('aria-selected', String(on));
-  });
 
   document.querySelectorAll('#md-info .info-element-tag').forEach(tag => {
-    tag.classList.toggle('is-active', mdPhotoFilter.has(tag.dataset.term));
+    const active = mdPhotoFilter.has(tag.dataset.term);
+    tag.classList.toggle('is-active', active);
   });
 }
 
@@ -498,4 +494,40 @@ function bindMosaicDetail() {
   document.addEventListener('click', e => {
     if (!e.target.closest('#md-elem-select')) closeMdElementMenu();
   });
+}
+
+/**
+ * Fonction de comparaison pour trier les POIs / Bâtiments.
+ */
+/**
+ * Comparateur de bâtiments / POIs.
+ * Combine la voie, l'ensemble ou le libellé en une clé textuelle unique
+ * pour un tri alphabétique global cohérent.
+ */
+function comparePoi(a, b) {
+  const propA = a.properties || a;
+  const propB = b.properties || b;
+
+  // 1. Détermination de la clé d'affichage textuelle principale pour chaque élément
+  // Ordre de priorité pour la clé : voie d'adresse > ensemble > libellé
+  const keyA = (propA.adresse?.voie || propA.ensemble || propA.libelle || '').trim();
+  const keyB = (propB.adresse?.voie || propB.ensemble || propB.libelle || '').trim();
+
+  // 2. Comparaison alphabétique sur la clé principale
+  const compKey = keyA.localeCompare(keyB, 'fr', { sensitivity: 'base' });
+  if (compKey !== 0) return compKey;
+
+  // 3. En cas d'égalité sur la clé (ex: deux bâtiments sur la même voie "Place de l'Opéra")
+  // On compare par numéro de rue si disponible
+  const numA = parseInt(propA.adresse?.numero, 10) || 0;
+  const numB = parseInt(propB.adresse?.numero, 10) || 0;
+  
+  if (numA !== numB) {
+    return numA - numB;
+  }
+
+  // 4. Dernier recours en cas de seconde égalité : tri sur le libellé
+  const libA = (propA.libelle || '').trim();
+  const libB = (propB.libelle || '').trim();
+  return libA.localeCompare(libB, 'fr', { sensitivity: 'base' });
 }

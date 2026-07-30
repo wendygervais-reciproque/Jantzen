@@ -71,13 +71,25 @@ function buildPersonCard(entry, personne) {
     thumbBtn.setAttribute('aria-label', `Agrandir la photographie de ${nom}`);
 
     const img = document.createElement('img');
-    img.src     = personneThumbUrl(personne.thumb);
+    img.src     = personneLocalThumbUrl(personne.media);
     img.alt     = '';
     img.loading = 'lazy';
     thumbBtn.appendChild(img);
 
-    // Même visionneuse que la galerie photo, en mode image isolée (pas de navigation).
-    thumbBtn.onclick = () => openPersonLightbox(personneFullImageUrl(personne.thumb), nom);
+    // Construit la légende avec le lien Wikidata si l'id est renseigné
+    const wikidataRef = PERSON_REFERENCES.find(r => r.key === 'wikidata');
+    const wikidataUrl = (wikidataRef && personne.wikidata)
+      ? wikidataRef.url(personne.wikidata)
+      : null;
+
+    const caption = wikidataUrl
+      ? `${nom} © ${wikidataUrl}`
+      : nom;
+
+    thumbBtn.onclick = () => openPersonLightbox(personneLocalFullImageUrl(personne.media), {
+      name: nom,
+      wikidataUrl
+    });    
     card.appendChild(thumbBtn);
   }
 
@@ -87,6 +99,10 @@ function buildPersonCard(entry, personne) {
   const nameEl = document.createElement('span');
   nameEl.className = 'person-name';
   nameEl.textContent = nom;
+
+  const searchLink = buildSeeAllBuildingsLink(personne, nom);
+  if (searchLink) nameEl.appendChild(searchLink);
+
   info.appendChild(nameEl);
 
   if (entry.role) {
@@ -124,5 +140,60 @@ function buildPersonLinks(personne, nom) {
     if (i < refs.length - 1) p.append(' · ');
   });
 
+  return p;
+}
+
+
+function buildSeeAllBuildingsLink(personne, nom) {
+  const archiId = personne.personneID ?? personne.id ?? personne.id_archi;
+  if (archiId == null) return null;
+
+  const hash = `#archi=${encodeURIComponent(archiId)}`;
+  const fullUrl = `${location.origin}${location.pathname}${location.search}${hash}`;
+
+  const copyIconSVG = `
+    <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <rect x="9" y="9" width="13" height="13" rx="2"/>
+      <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/>
+    </svg>`;
+
+  const checkIconSVG = `
+    <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <polyline points="20 6 9 17 4 12"/>
+    </svg>`;
+
+  const p = document.createElement('span');
+  p.className = 'person-links';
+  p.append(' ');
+
+  const copyBtn = document.createElement('button');
+  copyBtn.type      = 'button';
+  copyBtn.className = 'person-copy-link';
+  copyBtn.innerHTML = copyIconSVG;
+  copyBtn.setAttribute('aria-label', `Copier le lien vers les bâtiments de ${nom}`);
+  copyBtn.title = 'Copier le lien';
+
+  let resetTimer = null;
+
+  copyBtn.onclick = async () => {
+    try {
+      await navigator.clipboard.writeText(fullUrl);
+
+      clearTimeout(resetTimer);
+      copyBtn.innerHTML = checkIconSVG;
+      copyBtn.classList.add('copied');
+      copyBtn.setAttribute('aria-label', 'Lien copié !');
+
+      resetTimer = setTimeout(() => {
+        copyBtn.innerHTML = copyIconSVG;
+        copyBtn.classList.remove('copied');
+        copyBtn.setAttribute('aria-label', `Copier le lien vers les bâtiments de ${nom}`);
+      }, 500);
+    } catch (err) {
+      console.error('Impossible de copier le lien :', err);
+    }
+  };
+
+  p.appendChild(copyBtn);
   return p;
 }

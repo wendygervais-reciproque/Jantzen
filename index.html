@@ -49,7 +49,7 @@
 
   <!-- ── MARQUE + À PROPOS ── -->
   <nav id="brand-bar" aria-label="Navigation principale">
-    <a href="" id="brand-home">28/07 à 17h00</a>    
+    <a href="" id="brand-home">STAGING - BETA 1.0 - 29/07/2026 - 16h30</a>    
     <span class="brand-sep" aria-hidden="true"></span>
     <a href="#" id="brand-about">À propos</a>
   </nav>
@@ -94,7 +94,7 @@
 
       <div class="filter-section">
         <button class="filter-section-header" onclick="toggleFilterSection(this)" aria-expanded="true" aria-label="Section de filtre : Arrondissement">
-          <span class="filter-section-label">Arrondissement</span>
+          <span class="filter-section-label">Arrondissements</span>
           <span class="filter-section-arrow" aria-hidden="true">▾</span>
         </button>
         <div class="filter-section-body open">
@@ -106,7 +106,7 @@
 
       <div class="filter-section">
         <button class="filter-section-header" onclick="toggleFilterSection(this)" aria-expanded="false" aria-label="Section de filtre : Temporalité">
-          <span class="filter-section-label">Temporalité</span>
+          <span class="filter-section-label">Périodes</span>
           <span class="filter-section-arrow" aria-hidden="true">▾</span>
         </button>
         <div class="filter-section-body">
@@ -140,21 +140,21 @@
 
       <div class="filter-section">
         <button class="filter-section-header" onclick="toggleFilterSection(this)" aria-expanded="false" aria-label="Section de filtre : Architectes">
-          <span class="filter-section-label">Architectes</span>
+          <span class="filter-section-label">Personnes</span>
           <span class="filter-section-arrow" aria-hidden="true">▾</span>
         </button>
         <div class="filter-section-body">
           <div class="thes-search">
             <svg class="icon" aria-hidden="true"><use href="#i-search"/></svg>
             <input type="search" id="archi-search"
-                   placeholder="Rechercher un architecte…"
+                   placeholder="Rechercher une personne..."
                    autocomplete="off"
-                   aria-label="Rechercher un architecte"
+                   aria-label="Rechercher une personne"
                    aria-controls="archi-chips-container"/>
           </div>
           <div id="archi-chips-container" class="thes-terms" style="margin-top: 8px;"></div>
           <p id="archi-empty" class="thes-empty" hidden aria-live="polite">
-            Aucun architecte ne correspond à cette recherche.
+            Aucune personne ne correspond à cette recherche.
           </p>
         </div>
       </div>
@@ -172,22 +172,6 @@
       <div id="md-info"></div>
       <div id="md-photos-header" hidden>
         <span class="md-section-label" id="md-photos-label">Photos</span>
-        <!-- Multiselect « élément architectural » (motif Carbon) : filtre la galerie ci-dessous. -->
-        <div class="multiselect" id="md-elem-select">
-          <button type="button" class="ms-field"
-                  aria-label="Filtrer les photos par élément architectural"
-                  aria-haspopup="listbox" aria-expanded="false"
-                  aria-controls="md-elem-select-menu">
-            <span class="ms-badge" hidden>
-              <span class="ms-badge-count">0</span>
-              <span class="ms-badge-clear" role="img" aria-label="Tout désélectionner">×</span>
-            </span>
-            <span class="ms-label">Élément architectural</span>
-            <svg class="icon ms-chevron" aria-hidden="true"><use href="#i-chevron"/></svg>
-          </button>
-          <ul class="ms-menu" id="md-elem-select-menu" role="listbox"
-              aria-multiselectable="true" aria-label="Éléments architecturaux" hidden></ul>
-        </div>
       </div>
       <div id="md-photos"></div>
     </div>

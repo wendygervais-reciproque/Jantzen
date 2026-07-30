@@ -100,6 +100,18 @@ function bindNavigation() {
   document.getElementById('brand-home')?.addEventListener('click', e => {
     e.preventDefault();
     closePage();          // le logotype ramène au fond (carte ou mosaïque)
+    serachQuery = '';
+    const input = document.getElementById('search-input');
+    if(input) input.value = '';
+    const clear = document.getElementById('search-clear');
+    if(clear) clear.hidden = true;
+    
+    resetOtherFiltersUI();
+
+    setView('map');
+
+    deselectBatiment();
+    applyFilters();
   });
 
   document.getElementById('brand-about')?.addEventListener('click', e => {
@@ -200,7 +212,6 @@ function applyFilters() {
 
   // 2. Filtre arrondissement
   if (activeFilters.arrondissements.size > 0) {
-    console.log('bonjour');
     filteredFeatures = filteredFeatures.filter(f =>
       activeFilters.arrondissements.has(Number(f.properties.arrondissement))
     );
@@ -296,28 +307,30 @@ let lastWrittenHash = null;    // dernier hash posé par nous (garde anti-double
 
 function currentAppState() {
   return {
-    view:  typeof currentView !== 'undefined' ? currentView : 'map',
-    arr:   [...activeFilters.arrondissements],
-    periode:[...activeFilters.periodes],
-    thes:  [...activeFilters.thesaurus],
-    query: searchQuery,
-    bat:   selectedId != null ? String(selectedId) : null
+    view:     typeof currentView !== 'undefined' ? currentView : 'map',
+    arr:      [...activeFilters.arrondissements],
+    periodes: [...activeFilters.periodes],
+    thes:     [...activeFilters.thesaurus],
+    archi:    [...activeFilters.architectes],
+    query:    searchQuery,
+    bat:      selectedId != null ? String(selectedId) : null
   };
 }
 
 function serializeState(s) {
   const parts = [];
-  if (s.view && s.view !== 'map')  parts.push(`v=${s.view}`);
-  if (s.arr && s.arr.length)       parts.push(`arr=${s.arr.join(',')}`);
+  if (s.view && s.view !== 'map')      parts.push(`v=${s.view}`);
+  if (s.arr && s.arr.length)           parts.push(`arr=${s.arr.join(',')}`);
   if (s.periodes && s.periodes.length) parts.push(`per=${s.periodes.map(encodeURIComponent).join(',')}`);
-  if (s.thes && s.thes.length)     parts.push(`th=${s.thes.map(termSlug).join(',')}`);
-  if (s.query)                     parts.push(`q=${encodeURIComponent(s.query)}`);
-  if (s.bat != null)               parts.push(`bat=${encodeURIComponent(s.bat)}`);
+  if (s.thes && s.thes.length)         parts.push(`th=${s.thes.map(termSlug).join(',')}`);
+  if (s.archi && s.archi.length)       parts.push(`archi=${s.archi.join(',')}`);
+  if (s.query)                         parts.push(`q=${encodeURIComponent(s.query)}`);
+  if (s.bat != null)                   parts.push(`bat=${encodeURIComponent(s.bat)}`);
   return parts.length ? `#${parts.join('&')}` : '';
 }
 
 function parseHash(hash) {
-  const s = { view: 'map', arr: [], periodes: [], thes: [], query: '', bat: null };
+  const s = { view: 'map', arr: [], periodes: [], thes: [], archi: [], query: '', bat: null };
   const raw = (hash || '').replace(/^#/, '');
   if (!raw) return s;
   raw.split('&').forEach(pair => {
@@ -325,12 +338,13 @@ function parseHash(hash) {
     if (i < 0) return;
     const key = pair.slice(0, i), val = pair.slice(i + 1);
     switch (key) {
-      case 'v':        if (val === 'mosaic' || val === 'map') s.view = val; break;
-      case 'arr':      s.arr = val.split(',').map(Number).filter(Number.isFinite); break;
-      case 'per':      s.periodes = val.split(',').map(decodeURIComponent); break;
-      case 'th':       s.thes = val.split(',').map(slugToTerm).filter(Boolean); break;
-      case 'q':        try { s.query = decodeURIComponent(val); } catch { s.query = val; } break;
-      case 'bat':      try { s.bat   = decodeURIComponent(val); } catch { s.bat   = val; } break;
+      case 'v':     if (val === 'mosaic' || val === 'map') s.view = val; break;
+      case 'arr':   s.arr = val.split(',').map(Number).filter(Number.isFinite); break;
+      case 'per':   s.periodes = val.split(',').map(decodeURIComponent); break;
+      case 'th':    s.thes = val.split(',').map(slugToTerm).filter(Boolean); break;
+      case 'archi': s.archi = val.split(',').map(Number).filter(Number.isFinite); break;
+      case 'q':     try { s.query = decodeURIComponent(val); } catch { s.query = val; } break;
+      case 'bat':   try { s.bat   = decodeURIComponent(val); } catch { s.bat   = val; } break;
     }
   });
   return s;
@@ -383,21 +397,25 @@ function applyStateFromHash() {
     const clear = document.getElementById('search-clear');
     if (clear) clear.hidden = !s.query;
 
-    // 2. Filtres : état + resync UI (arr/dates). Thésaurus et tags sont
-    //    régénérés par applyFilters().
+    // 2. Filtres : état + resync UI
     activeFilters.arrondissements = new Set(s.arr);
     activeFilters.thesaurus       = new Set(s.thes);
     activeFilters.periodes        = new Set(s.periodes);
-    syncArrChips();
 
-    if (typeof renderPeriodesList === 'function') {
-      renderPeriodesList();
+    // Le hash prend le dessus sur /personne/N s'il contient explicitement
+    // une clé "archi" ; sinon on garde ce que applyArchitecteFilterFromPath()
+    // a déjà positionné avant cet appel.
+    if (s.archi.length > 0 || location.hash.includes('archi=')) {
+      activeFilters.architectes = new Set(s.archi);
     }
 
-    // 3. Passe de filtrage unique → carte + compteurs + puces + tags + vue.
+    syncArrChips();
+    if (typeof renderPeriodesList === 'function') renderPeriodesList();
+
+    // 3. Passe de filtrage unique
     applyFilters();
 
-    // 4. Vue, puis 5. sélection (s'affiche dans la vue déjà en place).
+    // 4-5. Vue et sélection
     setView(s.view);
     if (s.bat) selectBatiment(s.bat);
     else       deselectBatiment();
@@ -406,7 +424,6 @@ function applyStateFromHash() {
   }
   lastWrittenHash = location.hash;
 }
-
 /** Précédent/Suivant : on ré-applique, sauf si le hash est déjà le nôtre. */
 function onHistoryNav() {
   if (location.hash === lastWrittenHash) return;

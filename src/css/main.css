@@ -187,7 +187,7 @@ button { font-family: inherit; }
   overflow: hidden;
   border-radius: calc(var(--radius-element) - 1px) calc(var(--radius-element) - 1px) 0 0;
 }
-.bldg-card-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.bldg-card-thumb img { height: 100%; object-fit: cover; display: block; }
 .thumb-skeleton { width: 100%; height: 100%; }
 .no-img { font-size: var(--fs-24); color: var(--border-strong); }
 .bldg-card-arr {
@@ -765,6 +765,25 @@ button { font-family: inherit; }
 .person-links a { color: var(--link-default); text-underline-offset: 2px; }
 .person-links a:hover { color: var(--link-hover); }
 
+.credit-link {  color: var(--text-on-brand-primary); }
+.credit-link a { color: var(--link-text-default); text-underline-offset: 2px; }
+.credit-link a:hover { color: var(--link-text-hover); }
+
+.person-copy-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  color: currentColor;
+}
+
+.person-copy-link.copied {
+  color: var(--icon-secondary); /* vert, à adapter à ta charte */
+  opacity: 0.5;
+}
 .info-elements { display: flex; flex-wrap: wrap; gap: var(--component-gap-4); }
 .info-element-tag {
   padding: 2px var(--component-padding-8);

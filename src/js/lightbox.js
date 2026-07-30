@@ -18,10 +18,10 @@ function isLightboxOpen() {
  * Ouvre la visionneuse sur une image isolée (portrait d'une personne liée au
  * bâtiment), sans navigation puisqu'il n'y a qu'une seule image.
  */
-function openPersonLightbox(src, caption) {
+function openPersonLightbox(src, { name, wikidataUrl }) {
   const box = document.getElementById('lightbox');
   if (!box || !src) return;
-  lightboxPerson  = { src, caption };
+  lightboxPerson = { src, name, wikidataUrl };
   lightboxGallery = null;
   box.hidden = false;
   renderLightbox();
@@ -59,7 +59,6 @@ function stepPhoto(delta) {
 }
 
 /* ─── RENDU ──────────────────────────────────────────────────────────────── */
-
 function renderLightbox() {
   const img     = document.getElementById('lightbox-img');
   const caption = document.getElementById('lightbox-caption');
@@ -70,9 +69,25 @@ function renderLightbox() {
   if (lightboxPerson) {
     img.src = lightboxPerson.src;
     img.onerror = null;
-    if (caption) caption.textContent = lightboxPerson.caption || '';
+
     if (prev) prev.disabled = true;
     if (next) next.disabled = true;
+
+    if (caption) {
+      caption.innerHTML = ''; // reset propre avant reconstruction
+      caption.append(lightboxPerson.name || '');
+
+      if (lightboxPerson.wikidataUrl) {
+        caption.append(' © ');
+        const link = document.createElement('a');
+        link.href        = lightboxPerson.wikidataUrl;
+        link.target      = '_blank';
+        link.rel         = 'noopener noreferrer';
+        link.textContent = 'Wikidata';
+        link.classList.add('credit-link')
+        caption.appendChild(link);
+      }
+    }
     return;
   }
 
@@ -83,7 +98,7 @@ function renderLightbox() {
   img.src = item.src;
   img.onerror = function () { retryUppercaseJpg(this); };
   if (caption) {
-    caption.textContent = `${index + 1} / ${photos.length}${item.caption ? ' — ' + item.caption : ''}`;
+    caption.textContent = `${index + 1} / ${photos.length}${item.caption ? ' — ' + item.caption : ''} © Eric Jantzen`;
   }
   if (prev) prev.disabled = index <= 0;
   if (next) next.disabled = index >= photos.length - 1;
