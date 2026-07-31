@@ -358,6 +358,14 @@ button { font-family: inherit; }
 }
 .md-loading { padding: 0 var(--component-20); color: var(--text-secondary); font: var(--text-body-small); }
 
+/* En-tête de la galerie (titre + dropdown « Éléments architecturaux ») :
+   ancré en haut du volet pendant le scroll des photos, fond opaque pour ne
+   pas laisser transparaître la grille qui défile dessous. */
+#md-photos-header {
+  position: sticky; top: 0; z-index: 2;
+  background: var(--surface-level-01);
+}
+
 /* Galerie : mosaïque justifiée — des rangées de hauteur égale qui remplissent
    toute la largeur, sans blancs, en préservant le ratio de chaque photo. Les
    dimensions de chaque tuile sont posées par layoutJustified() (mosaic-detail.js) ;

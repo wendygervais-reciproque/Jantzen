@@ -185,20 +185,20 @@
   <!-- ── VOLET DÉTAIL BÂTIMENT (infos + photos) — carte et mosaïque ── -->
   <aside id="mosaic-detail" aria-label="Détail du bâtiment" hidden>
     <button id="mosaic-detail-close" aria-label="Fermer la fiche">
-      <svg class="icon" aria-hidden="true"><use href="#i-minus"/></svg>
+      <svg class="icon" aria-hidden="true"><use href="#i-close"/></svg>
     </button>
     <div id="mosaic-detail-body">
       <div id="md-info"></div>
       <div id="md-photos-header" hidden>
         <h3 class="md-section-title" id="md-photos-label">Photographie(s)</h3>
         <button class="filter-section-header" id="md-elem-toggle"
-                aria-expanded="true" aria-controls="md-elem-groups">
+                aria-expanded="false" aria-controls="md-elem-groups">
           <span class="filter-section-label">Éléments architecturaux</span>
           <span class="filter-section-ctrl">
             <svg class="icon filter-section-arrow" aria-hidden="true"><use href="#i-chevron"/></svg>
           </span>
         </button>
-        <div id="md-elem-groups" class="archi-groups"></div>
+        <div id="md-elem-groups" class="archi-groups" hidden></div>
       </div>
       <div id="md-photos"></div>
     </div>
