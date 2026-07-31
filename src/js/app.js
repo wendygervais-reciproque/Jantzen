@@ -145,6 +145,7 @@ function bindViewToggle() {
 function bindFiltersPanel() {
   const panel  = document.getElementById('filters-panel');
   const toggle = document.getElementById('filters-toggle');
+  if (typeof initStickyFilterHeaders === 'function') initStickyFilterHeaders();
   if (!panel || !toggle) return;
 
   toggle.addEventListener('click', () => {

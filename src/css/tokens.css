@@ -1,23 +1,13 @@
 /*
  * tokens.css — Architecture Paris / Jantzen
- *
- * Source : variables + styles de texte du document Figma « MO — Jantzen »,
- *          relevés sur les deux vues de référence :
- *            • Vue / Carte     (node 5076:79)
- *            • Vue / Mosaïque  (node 5077:260)
- *
  * Règle : jamais de hex en dur dans main.css — toujours via token sémantique.
- *
- * Les tokens marqués « ⚠ extrapolé » ne sont pas portés par ces deux vues (donc
- * absents du relevé) : leur valeur est déduite par cohérence avec l'échelle, à
- * confirmer si le composant concerné entre un jour dans une maquette.
  */
 
 /* ─── POLICES (typography/family) ────────────────────────────────────────────
  * Trois graisses d'Univers Com condensé + Walbaum Book :
  *   47 Light Condensed → 300 · 57 Condensed → 400 · 67 Bold Condensed → 700
- * Les substituts sont eux aussi condensés, pour ne pas casser les gabarits
- * quand les .woff sous licence sont absents. */
+ */
+ 
 :root {
   --font-sans:    'UniversCom', 'Arial Narrow', 'Helvetica Neue', Arial, sans-serif;
   --font-display: 'UniversCom', 'Arial Narrow', 'Helvetica Neue', Arial, sans-serif;
@@ -31,14 +21,14 @@
   /* Font-size (typography/size) */
   --fs-50:  8px;
   --fs-75:  12px;
-  --fs-87:  14px;   /* littéral dans body/small — pas de variable Figma */
+  --fs-87:  14px;
   --fs-100: 16px;
   --fs-112: 18px;
   --fs-125: 20px;
   --fs-150: 24px;
   --fs-200: 32px;
-  --fs-250: 40px;   /* ⚠ extrapolé */
-  --fs-300: 48px;   /* ⚠ extrapolé */
+  --fs-250: 40px;
+  --fs-300: 48px;
 
   /* Font-weight (typography/weight) — cf. graisses réellement livrées */
   --fw-300: 300;    /* UniversCom 47 Light Condensed */
@@ -51,7 +41,7 @@
   --lh-130:  1.3;
   --lh-140:  1.4;
   --lh-150:  1.5;
-  --lh-160:  1.6;   /* ⚠ extrapolé (body/large) */
+  --lh-160:  1.6;
 
   /* Letter-spacing — 0 partout sauf l'overline */
   --ls-0:        0;
@@ -189,9 +179,9 @@
   --component-16: 16px;
   --component-20: 20px;
   --component-24: 24px;
-  --component-32: 32px;   /* ⚠ extrapolé */
+  --component-32: 32px;
   --component-40: 40px;
-  --component-48: 48px;   /* ⚠ extrapolé */
+  --component-48: 48px;
 
   /* Gouttières internes (component/gap/…) */
   --component-gap-2:  2px;
@@ -199,21 +189,18 @@
   --component-gap-8:  8px;
   --component-gap-12: 12px;
   --component-gap-16: 16px;
-  --component-gap-20: 20px;   /* ⚠ extrapolé */
-  --component-gap-24: 24px;   /* ⚠ extrapolé */
-  --component-gap-32: 32px;   /* ⚠ extrapolé */
-  --component-gap-40: 40px;   /* ⚠ extrapolé */
-  --component-gap-48: 48px;   /* ⚠ extrapolé */
-
-  /* Espacement d'écran (spacing/…) */
-  --spacing-8: 8px;
+  --component-gap-20: 20px;
+  --component-gap-24: 24px;
+  --component-gap-32: 32px;
+  --component-gap-40: 40px;
+  --component-gap-48: 48px;
 
   /* Constantes interface — relevées sur les deux vues (cadre 1440 × 900) :
      marge d'écran 16px, volet détail 400px à gauche, filtres 300px à droite,
      bandeau supérieur (recherche/bascule) haut de 56px posé à 16px du bord. */
   --screen-inset: 16px;
   --topbar-h:     56px;
-  --content-top:  88px;   /* 16 + 56 + 16 */
+  --content-top:  88px;
   --detail-w:     400px;
   --filters-w:    300px;
   --search-w:     360px;
@@ -398,10 +385,10 @@
   --input-background-active:    #ffffff;
   --input-background-disabled:  #f2f0e8;  /* neutral/100 */
   --input-background-error:     #fff0f0;
-  --input-content-default:         #2a2924;  /* neutral/800 */
-  --input-content-hover:           #2a2924;
-  --input-content-active:          #2a2924;
-  --input-content-disabled:        #a8a596;  /* neutral/400 */
+  --input-content-default:      #2a2924;  /* neutral/800 */
+  --input-content-hover:        #2a2924;
+  --input-content-active:       #2a2924;
+  --input-content-disabled:     #a8a596;  /* neutral/400 */
   --input-placeholder-default:  #605e53;  /* neutral/600 */
   --input-placeholder-hover:    #2a2924;  /* neutral/800 */
   --input-placeholder-disabled: #ccc9ba;  /* neutral/300 */

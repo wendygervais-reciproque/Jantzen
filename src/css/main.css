@@ -571,9 +571,10 @@ button { font-family: inherit; }
 .filter-active-tag-remove:hover { opacity: 1; }
 #filter-reset-btn {
   background: none; border: none; cursor: pointer;
-  font-size: var(--text-interface-caption-size);
+  font: var(--text-interface-button-medium);
   color: var(--text-secondary);
   text-decoration: underline; text-underline-offset: 2px;
+  padding: var(--component-8) 0;
 }
 #filter-reset-btn:hover { color: var(--text-primary); }
 
@@ -593,6 +594,13 @@ button { font-family: inherit; }
 
 .filter-section { border-bottom: 1px solid var(--border-subtle); }
 .filter-section:last-child { border-bottom: none; }
+/* Sentinelle de détection du « collage » : repère à l'IntersectionObserver
+   (voir initStickyFilterHeaders dans filters.js) pour savoir quand l'en-tête
+   ci-dessous est réellement figé en haut de #filters-body, par opposition à
+   son flux normal. 1 px annulé par une marge négative — l'observer a besoin
+   d'une aire mesurable pour calculer un intersectionRatio ; à hauteur nulle,
+   ce ratio resterait bloqué à 0 et ne franchirait jamais le seuil. */
+.filter-section-sentinel { height: 1px; margin-bottom: -1px; }
 /* Ligne « Dropdown » : 48 px de haut, libellé à 20 px du bord, chevron de
    24 px collé à 12 px du bord droit. */
 .filter-section-header {
@@ -602,8 +610,16 @@ button { font-family: inherit; }
   padding: 0 var(--component-12) 0 var(--component-20);
   background: var(--menu-item-background-default); border: none; cursor: pointer;
   color: var(--menu-item-text-default);
-  transition: color 0.15s, background 0.15s;
+  transition: color 0.15s, background 0.15s, box-shadow 0.15s;
+  /* Sticky dans #filters-body : l'en-tête de la section en cours de lecture
+     reste visible pendant le défilement de son contenu long (fond opaque
+     requis, le token par défaut étant transparent). */
+  position: sticky; top: 0; z-index: 2;
+  background-color: var(--surface-level-01);
 }
+/* Élévation la plus discrète (« anchored ») uniquement pendant que l'en-tête
+   est effectivement collé — pas en position normale dans le flux. */
+.filter-section-header.is-stuck { box-shadow: var(--elevation-anchored); }
 /* Intitulé de section : interface/Button/Medium en casse normale — les
    capitales espacées d'avant sont réservées aux sur-titres (overline). */
 .filter-section-label { font: var(--text-interface-button-medium); }
@@ -674,8 +690,12 @@ button { font-family: inherit; }
 }
 
 /* ─── THÉSAURUS : RECHERCHE, GROUPES, DÉFINITIONS ───────────────────────── */
-/* Champ de recherche du thésaurus : 40 px de haut, icône 18 px, 16 px avant
-   la première puce (8 sous le champ + 8 en tête du groupe). */
+/* Champ de recherche du thésaurus (composant Figma « Filter Search Bar ») :
+   40 px de haut, icône 18 px, texte body/base (pas body/small — la puce en
+   dessous s'articule à 16 px), 16 px avant la première puce (8 sous le champ
+   + 8 en tête du groupe). Icône et texte suivent le contenu de l'input
+   (input/content), pas icon/secondary — le champ « s'assombrit » identiquement
+   au survol/focus, comme dans les états Hover/Filled du composant Figma. */
 .thes-search {
   display: flex; align-items: center; gap: var(--component-gap-8);
   height: 40px;
@@ -685,16 +705,27 @@ button { font-family: inherit; }
   border: 1px solid var(--input-border-default);
   border-radius: var(--radius-element);
 }
+.thes-search:hover { background: var(--input-background-hover); border-color: var(--input-border-hover); }
 .thes-search:focus-within { border-color: var(--input-border-active); }
-.thes-search .icon { width: 18px; height: 18px; color: var(--icon-secondary); }
+.thes-search .icon { width: 18px; height: 18px; color: var(--input-content-default); flex-shrink: 0; }
+.thes-search:hover .icon, .thes-search:focus-within .icon { color: var(--input-content-hover); }
 .thes-search input {
   flex: 1; min-width: 0;
   border: none; outline: none; background: none;
-  font: var(--text-body-small);
+  font: var(--text-body-base);
   color: var(--input-content-default);
 }
 .thes-search input::placeholder { color: var(--input-placeholder-default); }
 .thes-search input::-webkit-search-cancel-button { display: none; }
+/* Croix d'effacement — n'apparaît que lorsqu'un terme a été saisi (attribut
+   `hidden` posé/retiré en JS), même composant que #search-clear. */
+.thes-search-clear {
+  background: none; border: none; cursor: pointer; padding: 0;
+  display: flex; flex-shrink: 0;
+  color: var(--input-content-default);
+}
+.thes-search-clear .icon { width: 16px; height: 16px; }
+.thes-search-clear:hover { color: var(--input-content-hover); }
 
 .thes-group + .thes-group { margin-top: var(--component-16); }
 /* Sur-titre de catégorie : le décompte reste porté par les puces elles-mêmes,
@@ -745,7 +776,7 @@ button { font-family: inherit; }
   background: var(--background-brand-secondary);
   border: 1px solid var(--feedback-info-border);
   border-radius: var(--radius-element);
-  font-size: var(--text-interface-caption-size);
+  font: var(--text-body-base);
   color: var(--text-secondary);
 }
 .thes-def-text { line-height: var(--lh-150); color: var(--feedback-info-text); }
@@ -760,16 +791,16 @@ button { font-family: inherit; }
   color: var(--link-default);
   text-underline-offset: 2px;
 }
-.thes-def-links a:hover { color: var(--link-hover); }
+.thes-def-links a:hover { color: var(--link-hover); text-decoration: none; }
 .thes-def-source {
-  margin-top: var(--component-gap-4);
-  font-size: var(--fs-50);
-  letter-spacing: var(--ls-overline);
+  margin-top: var(--component-16);
+  font: var(--text-interface-overline);
+  letter-spacing: var(--text-interface-overline-ls);
   text-transform: uppercase;
   color: var(--text-secondary);
 }
 
-.thes-empty { font-size: var(--text-interface-caption-size); color: var(--text-secondary); }
+.thes-empty { font: var(--text-body-base); color: var(--text-secondary); }
 
 /* Style pour les puces de filtre désactivées */
 .chip:disabled,
@@ -842,18 +873,30 @@ button { font-family: inherit; }
 .person-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
 .person-info { display: flex; flex-direction: column; min-width: 0; }
 .person-name { font: var(--text-title-h5); color: var(--text-primary); }
-.person-role { font: var(--text-body-base); color: var(--text-secondary); }
+.person-role { font: var(--text-body-large); color: var(--text-secondary); }
 .person-links {
   margin-top: var(--component-24);
   font: var(--text-body-base);
   color: var(--text-secondary);
+  display: flex; 
+  column-gap: var(--component-8); 
+  flex-wrap: wrap;
 }
 .person-links a { color: var(--link-default); text-underline-offset: 2px; }
-.person-links a:hover { color: var(--link-hover); }
+.person-links a:hover { color: var(--link-hover); text-decoration: none;}
 
-.credit-link {  color: var(--text-on-brand-primary); }
+.credit-link {  color: var(--text-on-inverse); }
+.credit-link:hover { opacity: 0.8; text-decoration: none; }
 .credit-link a { color: var(--link-default); text-underline-offset: 2px; }
 .credit-link a:hover { color: var(--link-hover); }
+
+/* Puce « lien externe » (open_in_new) accolée au libellé, dans les deux
+   contextes ci-dessus : liens des personnes (fiche bâtiment) et crédit
+   Wikidata (lightbox du portrait). */
+.person-links a, .credit-link a, a.credit-link {
+  display: inline-flex; align-items: center; gap: var(--component-gap-4);
+}
+.icon-external { width: 16px; height: 16px; margin-top: 4px; }
 
 .person-copy-link {
   display: inline-flex;
@@ -864,6 +907,11 @@ button { font-family: inherit; }
   background: transparent;
   cursor: pointer;
   color: currentColor;
+  transition: opacity 0.15s;
+}
+
+.person-copy-link:hover {
+  opacity: 0.8;
 }
 
 .person-copy-link.copied {
@@ -939,7 +987,7 @@ button { font-family: inherit; }
   background: var(--background-subtle);
 }
 #lightbox-caption {
-  font-size: var(--text-body-small-size);
+  font: var(--text-body-base);
   color: var(--text-on-inverse);
   text-align: center;
 }

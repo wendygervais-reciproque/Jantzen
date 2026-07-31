@@ -83,8 +83,9 @@ function renderLightbox() {
         link.href        = lightboxPerson.wikidataUrl;
         link.target      = '_blank';
         link.rel         = 'noopener noreferrer';
-        link.textContent = 'Wikidata';
         link.classList.add('credit-link')
+        link.append('Wikidata');
+        link.insertAdjacentHTML('beforeend', '<svg class="icon icon-external" aria-hidden="true"><use href="#i-external"/></svg>');
         caption.appendChild(link);
       }
     }

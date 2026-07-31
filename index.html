@@ -45,6 +45,10 @@
   <symbol id="i-chevron" viewBox="0 0 24 24">
     <path d="M12 15.4L6 9.4L7.4 8L12 12.6L16.6 8L18 9.4L12 15.4Z"/>
   </symbol>
+  <!-- Lien externe (Musée d'Orsay, PSS-Archi, Wikidata…) : « open_in_new » du kit Figma. -->
+  <symbol id="i-external" viewBox="0 0 16 16">
+    <path d="M3.5385 13.6667C3.20172 13.6667 2.91667 13.55 2.68333 13.3167C2.45 13.0833 2.33333 12.7983 2.33333 12.4615V3.5385C2.33333 3.20172 2.45 2.91667 2.68333 2.68333C2.91667 2.45 3.20172 2.33333 3.5385 2.33333H7.7435V3.33333H3.5385C3.48717 3.33333 3.44017 3.35472 3.3975 3.3975C3.35472 3.44017 3.33333 3.48717 3.33333 3.5385V12.4615C3.33333 12.5128 3.35472 12.5598 3.3975 12.6025C3.44017 12.6453 3.48717 12.6667 3.5385 12.6667H12.4615C12.5128 12.6667 12.5598 12.6453 12.6025 12.6025C12.6453 12.5598 12.6667 12.5128 12.6667 12.4615V8.2565H13.6667V12.4615C13.6667 12.7983 13.55 13.0833 13.3167 13.3167C13.0833 13.55 12.7983 13.6667 12.4615 13.6667H3.5385ZM6.4795 10.223L5.777 9.5205L11.9642 3.33333H9.33333V2.33333H13.6667V6.66667H12.6667V4.03583L6.4795 10.223Z"/>
+  </symbol>
   <symbol id="i-drag" viewBox="0 0 24 24">
     <path d="M9 20C8.45 20 7.97917 19.8042 7.5875 19.4125C7.19583 19.0208 7 18.55 7 18C7 17.45 7.19583 16.9792 7.5875 16.5875C7.97917 16.1958 8.45 16 9 16C9.55 16 10.0208 16.1958 10.4125 16.5875C10.8042 16.9792 11 17.45 11 18C11 18.55 10.8042 19.0208 10.4125 19.4125C10.0208 19.8042 9.55 20 9 20ZM15 20C14.45 20 13.9792 19.8042 13.5875 19.4125C13.1958 19.0208 13 18.55 13 18C13 17.45 13.1958 16.9792 13.5875 16.5875C13.9792 16.1958 14.45 16 15 16C15.55 16 16.0208 16.1958 16.4125 16.5875C16.8042 16.9792 17 17.45 17 18C17 18.55 16.8042 19.0208 16.4125 19.4125C16.0208 19.8042 15.55 20 15 20ZM9 14C8.45 14 7.97917 13.8042 7.5875 13.4125C7.19583 13.0208 7 12.55 7 12C7 11.45 7.19583 10.9792 7.5875 10.5875C7.97917 10.1958 8.45 10 9 10C9.55 10 10.0208 10.1958 10.4125 10.5875C10.8042 10.9792 11 11.45 11 12C11 12.55 10.8042 13.0208 10.4125 13.4125C10.0208 13.8042 9.55 14 9 14ZM15 14C14.45 14 13.9792 13.8042 13.5875 13.4125C13.1958 13.0208 13 12.55 13 12C13 11.45 13.1958 10.9792 13.5875 10.5875C13.9792 10.1958 14.45 10 15 10C15.55 10 16.0208 10.1958 16.4125 10.5875C16.8042 10.9792 17 11.45 17 12C17 12.55 16.8042 13.0208 16.4125 13.4125C16.0208 13.8042 15.55 14 15 14ZM9 8C8.45 8 7.97917 7.80417 7.5875 7.4125C7.19583 7.02083 7 6.55 7 6C7 5.45 7.19583 4.97917 7.5875 4.5875C7.97917 4.19583 8.45 4 9 4C9.55 4 10.0208 4.19583 10.4125 4.5875C10.8042 4.97917 11 5.45 11 6C11 6.55 10.8042 7.02083 10.4125 7.4125C10.0208 7.80417 9.55 8 9 8ZM15 8C14.45 8 13.9792 7.80417 13.5875 7.4125C13.1958 7.02083 13 6.55 13 6C13 5.45 13.1958 4.97917 13.5875 4.5875C13.9792 4.19583 14.45 4 15 4C15.55 4 16.0208 4.19583 16.4125 4.5875C16.8042 4.97917 17 5.45 17 6C17 6.55 16.8042 7.02083 16.4125 7.4125C16.0208 7.80417 15.55 8 15 8Z"/>
   </symbol>
@@ -62,7 +66,7 @@
 
   <!-- ── MARQUE + À PROPOS ── -->
   <nav id="brand-bar" aria-label="Navigation principale">
-    <a href="" id="brand-home">DEV - 30/07/2026 - 17h00</a>
+    <a href="" id="brand-home">DEV - 31/07/2026 - 18h00</a>
     <span class="brand-sep" aria-hidden="true"></span>
     <a href="#" id="brand-about">À propos</a>
   </nav>
@@ -106,6 +110,7 @@
     <div id="filters-body">
 
       <div class="filter-section">
+        <div class="filter-section-sentinel" aria-hidden="true"></div>
         <button class="filter-section-header" onclick="toggleFilterSection(this)" aria-expanded="false" aria-label="Section de filtre : Arrondissement">
           <span class="filter-section-label">Arrondissements</span>
           <span class="filter-section-ctrl">
@@ -120,6 +125,7 @@
       </div>
 
       <div class="filter-section">
+        <div class="filter-section-sentinel" aria-hidden="true"></div>
         <button class="filter-section-header" onclick="toggleFilterSection(this)" aria-expanded="false" aria-label="Section de filtre : Temporalité">
           <span class="filter-section-label">Périodes</span>
           <span class="filter-section-ctrl">
@@ -134,6 +140,7 @@
       </div>
 
       <div class="filter-section">
+        <div class="filter-section-sentinel" aria-hidden="true"></div>
         <button class="filter-section-header" onclick="toggleFilterSection(this)" aria-expanded="false" aria-label="Section de filtre : Thésaurus (Index Jantzen)">
           <span class="filter-section-label">Thésaurus (Index Jantzen)</span>
           <span class="filter-section-ctrl">
@@ -148,6 +155,9 @@
                    autocomplete="off"
                    aria-label="Rechercher un terme dans le thésaurus"
                    aria-controls="thesaurus-groups"/>
+            <button type="button" id="thesaurus-search-clear" class="thes-search-clear" aria-label="Effacer la recherche" hidden>
+              <svg class="icon" aria-hidden="true"><use href="#i-close"/></svg>
+            </button>
           </div>
           <div id="thesaurus-groups"></div>
           <p id="thesaurus-empty" class="thes-empty" hidden aria-live="polite">
@@ -157,6 +167,7 @@
       </div>
 
       <div class="filter-section">
+        <div class="filter-section-sentinel" aria-hidden="true"></div>
         <button class="filter-section-header" onclick="toggleFilterSection(this)" aria-expanded="false" aria-label="Section de filtre : Architectes">
           <span class="filter-section-label">Personnes</span>
           <span class="filter-section-ctrl">
@@ -171,6 +182,9 @@
                    autocomplete="off"
                    aria-label="Rechercher une personne"
                    aria-controls="archi-chips-container"/>
+            <button type="button" id="archi-search-clear" class="thes-search-clear" aria-label="Effacer la recherche" hidden>
+              <svg class="icon" aria-hidden="true"><use href="#i-close"/></svg>
+            </button>
           </div>
           <div id="archi-chips-container" class="thes-terms" style="margin-top: 8px;"></div>
           <p id="archi-empty" class="thes-empty" hidden aria-live="polite">

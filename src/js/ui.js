@@ -145,8 +145,9 @@ function buildPersonLinks(personne, nom) {
     link.href        = href;
     link.target      = '_blank';
     link.rel         = 'noopener noreferrer';
-    link.textContent = label;
     link.setAttribute('aria-label', `${label} — ${nom} (nouvelle fenêtre)`);
+    link.append(label);
+    link.insertAdjacentHTML('beforeend', '<svg class="icon icon-external" aria-hidden="true"><use href="#i-external"/></svg>');
     p.appendChild(link);
     if (i < refs.length - 1) p.append(' · ');
   });
@@ -174,7 +175,7 @@ function buildSeeAllBuildingsLink(personne, nom) {
     </svg>`;
 
   const p = document.createElement('span');
-  p.className = 'person-links';
+  p.className = 'person-action';
   p.append(' ');
 
   const copyBtn = document.createElement('button');

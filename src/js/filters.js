@@ -23,6 +23,29 @@ function setChipContent(chip, label, count) {
   }
 }
 
+/**
+ * Câble un champ `.thes-search` (thésaurus, personnes…) à sa croix
+ * d'effacement : la croix n'apparaît que si le champ contient du texte, et
+ * son clic vide le champ, relance le rendu et rend la main au champ.
+ */
+function bindSearchClear(inputId, clearId, onChange) {
+  const input = document.getElementById(inputId);
+  const clear = document.getElementById(clearId);
+  if (!input) return;
+
+  input.addEventListener('input', e => {
+    if (clear) clear.hidden = !e.target.value;
+    onChange(e.target.value);
+  });
+
+  clear?.addEventListener('click', () => {
+    input.value = '';
+    clear.hidden = true;
+    onChange('');
+    input.focus();
+  });
+}
+
 const activeFilters = {
   arrondissements: new Set(), // Set<number>
   thesaurus:       new Set(), // Set<string> ("façade", "lucarne"…)
@@ -71,7 +94,7 @@ const CLUSTER_UNSORTED = 'Non classés';
 const SOURCE_LABELS = {
   wiki:              'Wikipédia',
   ThesOrsay:         'Thésaurus du musée d’Orsay',
-  mistral_generated: 'Définition générée automatiquement'
+  mistral_generated: 'Définition générée automatiquement avec Mistral'
 };
 
 function buildThesaurusFilter() {
@@ -91,8 +114,7 @@ function buildThesaurusFilter() {
     };
   }).sort((a, b) => a.term.localeCompare(b.term, 'fr'));
 
-  document.getElementById('thesaurus-search')
-    ?.addEventListener('input', e => renderThesaurusGroups(e.target.value));
+  bindSearchClear('thesaurus-search', 'thesaurus-search-clear', renderThesaurusGroups);
 
   renderThesaurusGroups('');
 }
@@ -324,12 +346,20 @@ function renderDefinitionCard(card, entry, def) {
     card.appendChild(p);
   });
 
+  const source = SOURCE_LABELS[def?.source || entry.source];
+  if (source) {
+    const note = document.createElement('p');
+    note.className   = 'thes-def-source';
+    note.textContent = `Définition : ${source}`;
+    card.appendChild(note);
+  }
+
   const originalReferences = def?.references || [];
-  const orsayLink={
+  const orsayLink = {
     href: `https://www.musee-orsay.fr/fr/collections/recherche?artwork_icono_subject=${encodeURIComponent(entry.term)}&search_type=advanced_search`,
     label: 'Musée d’Orsay'
   }
-  const references=[orsayLink, ...originalReferences];
+  const references = [orsayLink, ...originalReferences];
   if (references.length > 0) {
     const list = document.createElement('ul');
     list.className = 'thes-def-links';
@@ -347,14 +377,6 @@ function renderDefinitionCard(card, entry, def) {
     });
 
     card.appendChild(list);
-  }
-
-  const source = SOURCE_LABELS[def?.source || entry.source];
-  if (source) {
-    const note = document.createElement('p');
-    note.className   = 'thes-def-source';
-    note.textContent = `Définition : ${source}`;
-    card.appendChild(note);
   }
 }
 
@@ -499,6 +521,29 @@ function toggleFilterSection(btn) {
   btn.setAttribute('aria-expanded', String(isOpen));
 }
 
+/**
+ * Détecte, pour chaque en-tête de section sticky, l'instant où il est
+ * réellement figé en haut de #filters-body (par opposition à sa position
+ * normale dans le flux) : une sentinelle de hauteur nulle est posée juste
+ * avant chaque en-tête, et sort du viewport du panneau exactement quand ce
+ * dernier se colle. Sert uniquement à poser `.is-stuck`, qui porte l'élévation
+ * « anchored » — l'en-tête ne doit pas la porter en position normale.
+ */
+function initStickyFilterHeaders() {
+  const root = document.getElementById('filters-body');
+  const sentinels = document.querySelectorAll('.filter-section-sentinel');
+  if (!root || !sentinels.length || typeof IntersectionObserver === 'undefined') return;
+
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      const header = entry.target.nextElementSibling;
+      if (header) header.classList.toggle('is-stuck', entry.intersectionRatio < 1);
+    });
+  }, { root, threshold: [1] });
+
+  sentinels.forEach(el => observer.observe(el));
+}
+
 /* ─── ARCHITECTES ────────────────────────────────────────────────────────── */
 
 function buildArchitectesFilter(personnesFiltre = []) {
@@ -527,9 +572,7 @@ function buildArchitectesFilter(personnesFiltre = []) {
   const searchInput = document.getElementById('archi-search');
   if (searchInput) {
     searchInput.replaceWith(searchInput.cloneNode(true));
-    document.getElementById('archi-search').addEventListener('input', e => {
-      renderArchitectesList(e.target.value);
-    });
+    bindSearchClear('archi-search', 'archi-search-clear', renderArchitectesList);
   }
 
   updateArchitectesData(ALL_FEATURES);
