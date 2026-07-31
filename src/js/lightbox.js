@@ -70,8 +70,8 @@ function renderLightbox() {
     img.src = lightboxPerson.src;
     img.onerror = null;
 
-    if (prev) prev.disabled = true;
-    if (next) next.disabled = true;
+    if (prev) prev.style.display = 'none';
+    if (next) next.style.display = 'none';
 
     if (caption) {
       caption.innerHTML = ''; // reset propre avant reconstruction
@@ -107,6 +107,7 @@ function renderLightbox() {
     const dateStr = formattedDate ? ` — ${formattedDate}` : '';
 
     caption.textContent = `${counterText}${termText}${dateStr} — © Eric Jantzen `;
+    console.log('Date:', dateStr);
   }
   if (prev) prev.disabled = index <= 0;
   if (next) next.disabled = index >= photos.length - 1;
