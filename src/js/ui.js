@@ -64,7 +64,11 @@ function buildPersonCard(entry, personne) {
   card.className = 'person-card';
   const nom = personne.libelle || 'Personne inconnue';
 
-  if (personne.thumb) {
+  // La vignette est construite à partir de `media` (nom de fichier local) — et
+  // non de `thumb`, qui n'est qu'un chemin Wikimedia conservé pour le crédit.
+  // Tant que /public/data/thumb_jpg n'est pas déposé, on retire proprement la
+  // vignette au lieu de laisser une image cassée à côté du nom.
+  if (personne.media) {
     const thumbBtn = document.createElement('button');
     thumbBtn.type      = 'button';
     thumbBtn.className = 'person-thumb';
@@ -74,6 +78,12 @@ function buildPersonCard(entry, personne) {
     img.src     = personneLocalThumbUrl(personne.media);
     img.alt     = '';
     img.loading = 'lazy';
+    img.onerror = function () {
+      // Une partie du fonds est en extension capitale : on retente une fois,
+      // puis on renonce (le nom et les liens suffisent sans portrait).
+      if (/\.jpg$/.test(this.getAttribute('src') || '')) { retryUppercaseJpg(this); return; }
+      thumbBtn.remove();
+    };
     thumbBtn.appendChild(img);
 
     // Construit la légende avec le lien Wikidata si l'id est renseigné

@@ -40,7 +40,6 @@ async function openMosaicDetail(id_bat) {
   if (info)   info.innerHTML = '<p class="md-loading">Chargement…</p>';
   if (photos) photos.innerHTML = '';
   if (header) header.hidden = true;
-  closeMdElementMenu();
   mdPhotoFilter.clear();   // nouvelle sélection : on repart d'une galerie non filtrée
 
   let data;
@@ -63,12 +62,25 @@ function closeMosaicDetail() {
   if (panel) panel.hidden = true;
   document.getElementById('app')?.classList.remove('has-detail');
   teardownMosaicLayout();
-  closeMdElementMenu();
   mdPhotos = [];
   mdPhotoFilter.clear();
 }
 
 /* ─── RENDU DES INFOS ───────────────────────────────────────────────────── */
+
+/**
+ * « Date indicative » : une seule donnée de datation, qui réunit la période
+ * (tranche large du référentiel) et la fourchette de construction quand les
+ * deux sont renseignées et distinctes — de la plus large à la plus précise.
+ */
+function dateIndicative(data) {
+  const periodes = Array.isArray(data.periode) ? data.periode
+                 : (data.periode ? [data.periode] : []);
+  const parts = [...periodes, data.dateConstruction]
+    .map(v => String(v || '').trim())
+    .filter(Boolean);
+  return [...new Set(parts)].join(' · ');
+}
 
 function renderMosaicInfo(data) {
   const host = document.getElementById('md-info');
@@ -84,42 +96,37 @@ function renderMosaicInfo(data) {
   const addrText = (adresse && typeof adresse === 'object')
     ? (adresse.affichage || adresse.voie || '')
     : (adresse || '');
-  if (addrText) {
-    const p = document.createElement('p');
-    p.className   = 'md-address';
-    p.textContent = addrText;
-    host.appendChild(p);
-  }
 
+  // L'adresse n'est plus un sous-titre sous le nom : c'est une donnée comme les
+  // autres, alignée dans la grille à deux colonnes.
+  // Les quatre lignes sont toujours rendues, un tiret tenant lieu de valeur
+  // manquante : la fiche garde la même ossature d'un bâtiment à l'autre.
   const cells = [
-    ['Ensemble',             data.ensemble],
-    ['Période', data.periode],
-    ['Date indicative', data.dateConstruction],
-    ['Arrondissement',       data.arrondissement ? ordinalArr(Number(data.arrondissement)) : null]
-  ].filter(([, value]) => value);
+    ['Ensemble',        data.ensemble],
+    ['Date indicative', dateIndicative(data)],
+    ['Arrondissement',  data.arrondissement ? ordinalArr(Number(data.arrondissement)) : null],
+    ['Adresse',         addrText]
+  ];
 
-  if (cells.length) {
-    const grid = document.createElement('div');
-    grid.className = 'info-meta-grid';
-    grid.innerHTML = cells.map(([label, value]) => `
-      <div class="info-meta-cell">
-        <span class="info-meta-label">${label}</span>
-        <span class="info-meta-value">${value}</span>
-      </div>`).join('');
-    host.appendChild(grid);
-  }
+  const grid = document.createElement('div');
+  grid.className = 'info-meta-grid';
+  grid.innerHTML = cells.map(([label, value]) => `
+    <div class="info-meta-cell">
+      <span class="info-meta-label">${label}</span>
+      <span class="info-meta-value">${value || '-'}</span>
+    </div>`).join('');
+  host.appendChild(grid);
 
   renderMosaicPersonnes(host, data);
-  renderMosaicElements(host, data.terme_jantzen_bat || []);
 }
 
 function renderMosaicPersonnes(host, data) {
   const personnes = Array.isArray(data.personnes) ? data.personnes : [];
   if (personnes.length === 0) return;
 
-  const label = document.createElement('span');
-  label.className   = 'info-elements-label';
-  label.textContent = 'Personnes';
+  const label = document.createElement('h3');
+  label.className   = 'md-section-title';
+  label.textContent = 'Architectes & Artistes';
   host.appendChild(label);
 
   const list = document.createElement('div');
@@ -139,29 +146,6 @@ function renderMosaicPersonnes(host, data) {
   });
 }
 
-function renderMosaicElements(host, terms) {
-  if (terms.length === 0) return;
-
-  const label = document.createElement('span');
-  label.className   = 'info-elements-label';
-  label.textContent = 'Éléments architecturaux (Index Jantzen)';
-  host.appendChild(label);
-
-  const tags = document.createElement('div');
-  tags.className = 'info-elements';
-  terms.forEach(term => {
-    const tag = document.createElement('button');
-    tag.type        = 'button';
-    tag.className   = 'info-element-tag';
-    tag.textContent = capitalize(term);
-    tag.dataset.term = term;
-    // Lié fonctionnellement au multiselect de la galerie ci-dessous : un clic
-    // filtre les photos par ce terme (bascule, comme dans le multiselect).
-    tag.onclick = () => toggleMdElementTerm(term);
-    tags.appendChild(tag);
-  });
-  host.appendChild(tags);
-}
 
 /* ─── RENDU DES PHOTOS ──────────────────────────────────────────────────── */
 
@@ -179,9 +163,9 @@ async function renderMosaicPhotos(data) {
   mdBatId  = data.id_bat;
 
   if (header) header.hidden = mdPhotos.length === 0;
-  if (label)  label.textContent = `Photos du ${data.libelle || 'bâtiment'}`;
+  if (label)  label.textContent = 'Photographie(s) d’Eric Jantzen';
 
-  buildMdElementSelect();   // options du multiselect, à partir des termes des photos
+  buildMdElementGroups();   // puces par catégorie, à partir des termes des photos
   await renderMdGallery();
 }
 
@@ -285,30 +269,58 @@ function mdElementCounts() {
   return [...counts.entries()].sort((a, b) => a[0].localeCompare(b[0], 'fr'));
 }
 
-function buildMdElementSelect() {
-  const menu  = document.getElementById('md-elem-select-menu');
-  const field = document.querySelector('#md-elem-select .ms-field');
-  if (!menu || !field) return;
+/** Termes des photos regroupés par catégorie du thésaurus, « Non classés » en
+ *  dernier — même regroupement que le panneau de filtres. */
+function mdElementClusters() {
+  const groups = new Map();
+  mdElementCounts().forEach(([term, count]) => {
+    const cluster = getTermMeta(term)?.c || CLUSTER_UNSORTED;
+    if (!groups.has(cluster)) groups.set(cluster, []);
+    groups.get(cluster).push({ term, count });
+  });
+  return [...groups.entries()].sort(([a], [b]) => {
+    if (a === CLUSTER_UNSORTED) return 1;
+    if (b === CLUSTER_UNSORTED) return -1;
+    return a.localeCompare(b, 'fr');
+  });
+}
 
-  const entries = mdElementCounts();
-  menu.innerHTML = '';
+/** (Re)construit les groupes de puces sous la ligne « Éléments architecturaux ». */
+function buildMdElementGroups() {
+  const host   = document.getElementById('md-elem-groups');
+  const toggle = document.getElementById('md-elem-toggle');
+  if (!host) return;
+  host.innerHTML = '';
 
-  entries.forEach(([term, count]) => {
-    const li = document.createElement('li');
-    li.className = 'ms-option';
-    li.setAttribute('role', 'option');
-    li.setAttribute('aria-selected', 'false');
-    li.dataset.term = term;
-    li.innerHTML = `
-      <span class="ms-check" aria-hidden="true"></span>
-      <span class="ms-option-label">${capitalize(term)}</span>
-      <span class="ms-option-count">${count}</span>`;
-    li.onclick = () => toggleMdElementTerm(term);
-    menu.appendChild(li);
+  const clusters = mdElementClusters();
+  if (toggle) toggle.disabled = clusters.length === 0;
+
+  clusters.forEach(([cluster, entries]) => {
+    const group = document.createElement('section');
+    group.className = 'archi-group';
+
+    const label = document.createElement('span');
+    label.className   = 'archi-group-label';
+    label.textContent = cluster;
+    group.appendChild(label);
+
+    const chips = document.createElement('div');
+    chips.className = 'archi-chips';
+    entries.forEach(({ term }) => {
+      const chip = document.createElement('button');
+      chip.type         = 'button';
+      chip.className    = 'chip';
+      chip.textContent  = capitalize(term);
+      chip.dataset.term = term;
+      chip.setAttribute('aria-pressed', 'false');
+      chip.onclick = () => toggleMdElementTerm(term);
+      chips.appendChild(chip);
+    });
+    group.appendChild(chips);
+    host.appendChild(group);
   });
 
-  field.disabled = entries.length === 0;
-  updateMdElementSelectUI();
+  updateMdElementUI();
 }
 
 function toggleMdElementTerm(term) {
@@ -317,43 +329,33 @@ function toggleMdElementTerm(term) {
     mdPhotoFilter.clear();
     mdPhotoFilter.add(term);
   }
-  updateMdElementSelectUI();
+  updateMdElementUI();
   renderMdGallery();
 }
 
 function clearMdElementFilter() {
   mdPhotoFilter.clear();
-  updateMdElementSelectUI();
+  updateMdElementUI();
   renderMdGallery();
 }
 
-/** Synchronise l'état visuel du multiselect ET des puces « Éléments
- *  architecturaux » : les deux représentations du même filtre restent en phase. */
-function updateMdElementSelectUI() {
-
-
-  document.querySelectorAll('#md-info .info-element-tag').forEach(tag => {
-    const active = mdPhotoFilter.has(tag.dataset.term);
-    tag.classList.toggle('is-active', active);
+/** Reflète `mdPhotoFilter` sur les puces (seul porteur de l'état de sélection). */
+function updateMdElementUI() {
+  document.querySelectorAll('#md-elem-groups .chip').forEach(chip => {
+    const active = mdPhotoFilter.has(chip.dataset.term);
+    chip.classList.toggle('active', active);
+    chip.setAttribute('aria-pressed', String(active));
   });
 }
 
-function toggleMdElementMenu() {
-  const menu  = document.getElementById('md-elem-select-menu');
-  const field = document.querySelector('#md-elem-select .ms-field');
-  if (!menu || !field) return;
-  const open = menu.hidden;
-  menu.hidden = !open;
-  field.setAttribute('aria-expanded', String(open));
-  document.getElementById('md-elem-select')?.classList.toggle('is-open', open);
-}
-
-function closeMdElementMenu() {
-  const menu  = document.getElementById('md-elem-select-menu');
-  const field = document.querySelector('#md-elem-select .ms-field');
-  if (menu) menu.hidden = true;
-  if (field) field.setAttribute('aria-expanded', 'false');
-  document.getElementById('md-elem-select')?.classList.remove('is-open');
+/** Replie / déplie les groupes de puces (ligne « Dropdown » de la maquette). */
+function toggleMdElementGroups() {
+  const host   = document.getElementById('md-elem-groups');
+  const toggle = document.getElementById('md-elem-toggle');
+  if (!host || !toggle) return;
+  const open = host.hidden;
+  host.hidden = !open;
+  toggle.setAttribute('aria-expanded', String(open));
 }
 
 /** Coalesce les rafales de chargement d'images en un seul relayout par frame.
@@ -385,9 +387,14 @@ function targetRowHeight(W) {
  * La largeur d'une tuile à la hauteur `h` vaut `h × ratio`.
  */
 function layoutJustified(host, tiles, gallery) {
-  const W = host.clientWidth;
+  const cs = getComputedStyle(host);
+  // clientWidth inclut le padding du conteneur (20 px de chaque côté depuis
+  // l'ajout du padding sur #md-photos) : la largeur réellement disponible pour
+  // les tuiles en flex-wrap est le clientWidth MOINS ce padding, sans quoi les
+  // rangées calculées débordent de la vraie zone et le flex-wrap coupe trop tôt.
+  const W = host.clientWidth - parseFloat(cs.paddingLeft) - parseFloat(cs.paddingRight);
   if (W <= 0) return;
-  const gap    = parseFloat(getComputedStyle(host).columnGap) || 0;
+  const gap    = parseFloat(cs.columnGap) || 0;
   const Hcible = targetRowHeight(W);
 
   let row = [], sumRatios = 0;
@@ -446,13 +453,18 @@ function initPanelResize(handle, { cssVar, min, max, step, invert }) {
     const startW = getW();
     try { handle.setPointerCapture(e.pointerId); } catch { /* pas de pointeur réel */ }
 
-    // Écoute sur window : le pointeur quitte forcément la fine poignée pendant
-    // le glissement, les mouvements doivent continuer d'arriver.
+    // `:active` ne tient pas quand le pointeur quitte la poignée : on marque
+    // l'état « Active » de la tirette pendant toute la durée du glissement.
+    handle.classList.add('is-dragging');
+
+    // Écoute sur window : le pointeur quitte forcément la poignée pendant le
+    // glissement, les mouvements doivent continuer d'arriver.
     const onMove = ev => {
       const dx = ev.clientX - startX;
       setW(startW + (invert ? -dx : dx));
     };
     const onUp = () => {
+      handle.classList.remove('is-dragging');
       window.removeEventListener('pointermove', onMove);
       window.removeEventListener('pointerup', onUp);
     };
@@ -480,20 +492,7 @@ function bindMosaicDetail() {
   initPanelResize(document.getElementById('mosaic-detail-handle'),
     { cssVar: '--md-w', min: MD_MIN, max: MD_MAX, step: PANEL_STEP, invert: false });
 
-  const field = document.querySelector('#md-elem-select .ms-field');
-  field?.addEventListener('click', e => {
-    // La pastille de comptage sert de bouton « tout désélectionner ».
-    if (e.target.closest('.ms-badge-clear')) {
-      e.stopPropagation();
-      clearMdElementFilter();
-      return;
-    }
-    toggleMdElementMenu();
-  });
-
-  document.addEventListener('click', e => {
-    if (!e.target.closest('#md-elem-select')) closeMdElementMenu();
-  });
+  document.getElementById('md-elem-toggle')?.addEventListener('click', toggleMdElementGroups);
 }
 
 /**

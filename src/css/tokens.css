@@ -1,74 +1,167 @@
 /*
- * tokens.css — Architecture Paris / TORNE-H
- * Source : primitives.json (palettes neutral + brand mises à jour)
- *          + styles de texte Figma (title / body / interface)
+ * tokens.css — Architecture Paris / Jantzen
+ *
+ * Source : variables + styles de texte du document Figma « MO — Jantzen »,
+ *          relevés sur les deux vues de référence :
+ *            • Vue / Carte     (node 5076:79)
+ *            • Vue / Mosaïque  (node 5077:260)
  *
  * Règle : jamais de hex en dur dans main.css — toujours via token sémantique.
+ *
+ * Les tokens marqués « ⚠ extrapolé » ne sont pas portés par ces deux vues (donc
+ * absents du relevé) : leur valeur est déduite par cohérence avec l'échelle, à
+ * confirmer si le composant concerné entre un jour dans une maquette.
  */
 
-/* ─── POLICES ────────────────────────────────────────────────────────────── */
+/* ─── POLICES (typography/family) ────────────────────────────────────────────
+ * Trois graisses d'Univers Com condensé + Walbaum Book :
+ *   47 Light Condensed → 300 · 57 Condensed → 400 · 67 Bold Condensed → 700
+ * Les substituts sont eux aussi condensés, pour ne pas casser les gabarits
+ * quand les .woff sous licence sont absents. */
 :root {
-  --font-sans:  'UniversCom', 'Helvetica Neue', Arial, sans-serif;
-  --font-serif: 'WalbaumBook', Georgia, serif;
-  --font-mono:  'JetBrains Mono', 'Courier New', monospace;
+  --font-sans:    'UniversCom', 'Arial Narrow', 'Helvetica Neue', Arial, sans-serif;
+  --font-display: 'UniversCom', 'Arial Narrow', 'Helvetica Neue', Arial, sans-serif;
+  --font-serif:   'WalbaumBook', Georgia, 'Times New Roman', serif;
+  --font-mono:    'JetBrains Mono', 'Courier New', monospace;
 }
 
-/* ─── ÉCHELLES PRIMITIVES (_primitives/typography) ───────────────────────── */
+/* ─── ÉCHELLES PRIMITIVES (_primitives/typography) ───────────────────────────
+ * L'échelle Figma est nommée en ratio de la base 16px (100 = 16px). */
 :root {
   /* Font-size (typography/size) */
-  --fs-8:  8px;
-  --fs-12: 12px;
-  --fs-14: 14px;
-  --fs-16: 16px;
-  --fs-18: 18px;
-  --fs-20: 20px;
-  --fs-24: 24px;
-  --fs-32: 32px;
-  --fs-40: 40px;
-  --fs-48: 48px;
+  --fs-50:  8px;
+  --fs-75:  12px;
+  --fs-87:  14px;   /* littéral dans body/small — pas de variable Figma */
+  --fs-100: 16px;
+  --fs-112: 18px;
+  --fs-125: 20px;
+  --fs-150: 24px;
+  --fs-200: 32px;
+  --fs-250: 40px;   /* ⚠ extrapolé */
+  --fs-300: 48px;   /* ⚠ extrapolé */
 
-  /* Font-weight (typography/weight) */
-  --fw-400: 400;
-  --fw-600: 600;
-  --fw-700: 700;
+  /* Font-weight (typography/weight) — cf. graisses réellement livrées */
+  --fw-300: 300;    /* UniversCom 47 Light Condensed */
+  --fw-400: 400;    /* UniversCom 57 Condensed · WalbaumBook Regular */
+  --fw-700: 700;    /* UniversCom 67 Bold Condensed */
 
   /* Line-height (typography/line-height) */
-  --lh-1:    1; /*100%*/
+  --lh-1:    1;
   --lh-120:  1.2;
   --lh-130:  1.3;
+  --lh-140:  1.4;
   --lh-150:  1.5;
-  --lh-160:  1.6;
+  --lh-160:  1.6;   /* ⚠ extrapolé (body/large) */
 
-  /* Letter-spacing */
-  --ls-tight:   0.02em;
-  --ls-normal:  0.04em;
-  --ls-wide:    0.08em;
-  --ls-xl:      0.14em;
+  /* Letter-spacing — 0 partout sauf l'overline (3px sur 12px = 0.25em) */
+  --ls-0:        0;
+  --ls-overline: 0.25em;
 }
 
-/* ─── STYLES TYPOGRAPHIQUES SÉMANTIQUES (Figma text styles) ──────────────── */
+/* ─── STYLES TYPOGRAPHIQUES (Figma text styles) ──────────────────────────────
+ * Chaque style expose ses composantes ET un raccourci `--text-…` utilisable
+ * directement en `font: var(--text-title-h5);`. La famille varie d'un style à
+ * l'autre : le serif porte les titres éditoriaux (h2, h5), le condensé porte
+ * les titres d'interface (h3, h4) et tout le corps de texte. */
 :root {
-  /* title/ — titres hiérarchiques */
-  --text-title-h1-size:   var(--fs-48);  --text-title-h1-weight: var(--fw-700); --text-title-h1-lh: var(--lh-120);
-  --text-title-h2-size:   var(--fs-40);  --text-title-h2-weight: var(--fw-700); --text-title-h2-lh: var(--lh-120);
-  --text-title-h3-size:   var(--fs-32);  --text-title-h3-weight: var(--fw-600); --text-title-h3-lh: var(--lh-130);
-  --text-title-h4-size:   var(--fs-24);  --text-title-h4-weight: var(--fw-600); --text-title-h4-lh: var(--lh-130);
-  --text-title-h5-size:   var(--fs-20);  --text-title-h5-weight: var(--fw-600); --text-title-h5-lh: var(--lh-150);
+  /* title/ ------------------------------------------------------------- */
+  /* ⚠ extrapolé : title/h1 n'est porté par aucune des deux vues. */
+  --text-title-h1-family: var(--font-serif);
+  --text-title-h1-size:   var(--fs-300);
+  --text-title-h1-weight: var(--fw-400);
+  --text-title-h1-lh:     var(--lh-120);
+  --text-title-h1: var(--text-title-h1-weight) var(--text-title-h1-size)/var(--text-title-h1-lh) var(--text-title-h1-family);
 
-  /* body/ — corps de texte */
-  --text-body-large-size:      var(--fs-18); --text-body-large-weight:      var(--fw-400); --text-body-large-lh: var(--lh-160);
-  --text-body-large-bold-size: var(--fs-18); --text-body-large-bold-weight: var(--fw-700); --text-body-large-bold-lh: var(--lh-160);
-  --text-body-base-size:       var(--fs-16); --text-body-base-weight:       var(--fw-400); --text-body-base-lh: var(--lh-150);
-  --text-body-base-bold-size:  var(--fs-16); --text-body-base-bold-weight:  var(--fw-700); --text-body-base-bold-lh: var(--lh-150);
-  --text-body-small-size:      var(--fs-14); --text-body-small-weight:      var(--fw-400); --text-body-small-lh: var(--lh-150);
-  --text-body-small-bold-size: var(--fs-14); --text-body-small-bold-weight: var(--fw-700); --text-body-small-bold-lh: var(--lh-150);
+  --text-title-h2-family: var(--font-serif);
+  --text-title-h2-size:   var(--fs-200);
+  --text-title-h2-weight: var(--fw-400);
+  --text-title-h2-lh:     var(--lh-120);
+  --text-title-h2: var(--text-title-h2-weight) var(--text-title-h2-size)/var(--text-title-h2-lh) var(--text-title-h2-family);
 
-  /* interface/ — éléments UI */
-  --text-interface-button-small-size:  var(--fs-14); --text-interface-button-small-weight:  var(--fw-600); --text-interface-button-small-lh: var(--lh-1);
-  --text-interface-button-medium-size: var(--fs-16); --text-interface-button-medium-weight: var(--fw-600); --text-interface-button-medium-lh: var(--lh-1);
-  --text-interface-button-large-size:  var(--fs-18); --text-interface-button-large-weight:  var(--fw-600); --text-interface-button-large-lh: var(--lh-1);
-  --text-interface-overline-size:  var(--fs-12); --text-interface-overline-weight:  var(--fw-600); --text-interface-overline-lh: var(--lh-1);    --text-interface-overline-ls: var(--ls-wide);
-  --text-interface-caption-size:   var(--fs-12); --text-interface-caption-weight:   var(--fw-400); --text-interface-caption-lh: var(--lh-130);
+  --text-title-h3-family: var(--font-display);
+  --text-title-h3-size:   var(--fs-150);
+  --text-title-h3-weight: var(--fw-400);
+  --text-title-h3-lh:     var(--lh-130);
+  --text-title-h3: var(--text-title-h3-weight) var(--text-title-h3-size)/var(--text-title-h3-lh) var(--text-title-h3-family);
+
+  --text-title-h4-family: var(--font-display);
+  --text-title-h4-size:   var(--fs-125);
+  --text-title-h4-weight: var(--fw-300);
+  --text-title-h4-lh:     var(--lh-120);
+  --text-title-h4: var(--text-title-h4-weight) var(--text-title-h4-size)/var(--text-title-h4-lh) var(--text-title-h4-family);
+
+  --text-title-h5-family: var(--font-serif);
+  --text-title-h5-size:   var(--fs-112);
+  --text-title-h5-weight: var(--fw-400);
+  --text-title-h5-lh:     var(--lh-120);
+  --text-title-h5: var(--text-title-h5-weight) var(--text-title-h5-size)/var(--text-title-h5-lh) var(--text-title-h5-family);
+
+  /* body/ -------------------------------------------------------------- */
+  /* ⚠ extrapolé : body/large n'est porté par aucune des deux vues. */
+  --text-body-large-family: var(--font-sans);
+  --text-body-large-size:   var(--fs-112);
+  --text-body-large-weight: var(--fw-300);
+  --text-body-large-lh:     var(--lh-160);
+  --text-body-large: var(--text-body-large-weight) var(--text-body-large-size)/var(--text-body-large-lh) var(--text-body-large-family);
+
+  --text-body-base-family: var(--font-sans);
+  --text-body-base-size:   var(--fs-100);
+  --text-body-base-weight: var(--fw-300);
+  --text-body-base-lh:     var(--lh-150);
+  --text-body-base: var(--text-body-base-weight) var(--text-body-base-size)/var(--text-body-base-lh) var(--text-body-base-family);
+
+  --text-body-base-bold-family: var(--font-sans);
+  --text-body-base-bold-size:   var(--fs-100);
+  --text-body-base-bold-weight: var(--fw-700);
+  --text-body-base-bold-lh:     var(--lh-150);
+  --text-body-base-bold: var(--text-body-base-bold-weight) var(--text-body-base-bold-size)/var(--text-body-base-bold-lh) var(--text-body-base-bold-family);
+
+  --text-body-small-family: var(--font-sans);
+  --text-body-small-size:   var(--fs-87);
+  --text-body-small-weight: var(--fw-300);
+  --text-body-small-lh:     var(--lh-140);
+  --text-body-small: var(--text-body-small-weight) var(--text-body-small-size)/var(--text-body-small-lh) var(--text-body-small-family);
+
+  /* ⚠ extrapolé : décliné de body/small sur la graisse 67 Bold Condensed. */
+  --text-body-small-bold-family: var(--font-sans);
+  --text-body-small-bold-size:   var(--fs-87);
+  --text-body-small-bold-weight: var(--fw-700);
+  --text-body-small-bold-lh:     var(--lh-140);
+  --text-body-small-bold: var(--text-body-small-bold-weight) var(--text-body-small-bold-size)/var(--text-body-small-bold-lh) var(--text-body-small-bold-family);
+
+  /* interface/ --------------------------------------------------------- */
+  /* ⚠ extrapolé : seul Button/Medium est porté par les deux vues. */
+  --text-interface-button-small-family: var(--font-sans);
+  --text-interface-button-small-size:   var(--fs-87);
+  --text-interface-button-small-weight: var(--fw-400);
+  --text-interface-button-small-lh:     var(--lh-1);
+  --text-interface-button-small: var(--text-interface-button-small-weight) var(--text-interface-button-small-size)/var(--text-interface-button-small-lh) var(--text-interface-button-small-family);
+
+  --text-interface-button-medium-family: var(--font-sans);
+  --text-interface-button-medium-size:   var(--fs-100);
+  --text-interface-button-medium-weight: var(--fw-400);
+  --text-interface-button-medium-lh:     var(--lh-1);
+  --text-interface-button-medium: var(--text-interface-button-medium-weight) var(--text-interface-button-medium-size)/var(--text-interface-button-medium-lh) var(--text-interface-button-medium-family);
+
+  /* ⚠ extrapolé */
+  --text-interface-button-large-family: var(--font-sans);
+  --text-interface-button-large-size:   var(--fs-112);
+  --text-interface-button-large-weight: var(--fw-400);
+  --text-interface-button-large-lh:     var(--lh-1);
+  --text-interface-button-large: var(--text-interface-button-large-weight) var(--text-interface-button-large-size)/var(--text-interface-button-large-lh) var(--text-interface-button-large-family);
+
+  --text-interface-overline-family: var(--font-sans);
+  --text-interface-overline-size:   var(--fs-75);
+  --text-interface-overline-weight: var(--fw-400);
+  --text-interface-overline-lh:     var(--lh-1);
+  --text-interface-overline-ls:     var(--ls-overline);
+  --text-interface-overline: var(--text-interface-overline-weight) var(--text-interface-overline-size)/var(--text-interface-overline-lh) var(--text-interface-overline-family);
+
+  --text-interface-caption-family: var(--font-sans);
+  --text-interface-caption-size:   var(--fs-75);
+  --text-interface-caption-weight: var(--fw-300);
+  --text-interface-caption-lh:     var(--lh-130);
+  --text-interface-caption: var(--text-interface-caption-weight) var(--text-interface-caption-size)/var(--text-interface-caption-lh) var(--text-interface-caption-family);
 }
 
 /* ─── LAYOUT (Desktop par défaut) ────────────────────────────────────────── */
@@ -83,38 +176,47 @@
   /* Radius */
   --radius-container: 12px;
   --radius-element:   8px;
-  --radius-badge:     9999px;
   --radius-media:     8px;
-  --radius-media-full: 9999px;
+  --radius-badge:     9999px;
+  --radius-full:      9999px;
 
-  /* Espacement composants */
-  --component-padding-2:  2px;
-  --component-padding-4:  4px;
-  --component-padding-8:  8px;
-  --component-padding-12: 12px;
-  --component-padding-16: 16px;
-  --component-padding-20: 20px;
-  --component-padding-24: 24px;
-  --component-padding-32: 32px;
-  --component-padding-40: 40px;
-  --component-padding-48: 48px;
+  /* Espacement composants (component/…) */
+  --component-2:  2px;
+  --component-4:  4px;
+  --component-6:  6px;
+  --component-8:  8px;
+  --component-12: 12px;
+  --component-16: 16px;
+  --component-20: 20px;
+  --component-24: 24px;
+  --component-32: 32px;   /* ⚠ extrapolé */
+  --component-40: 40px;
+  --component-48: 48px;   /* ⚠ extrapolé */
 
+  /* Gouttières internes (component/gap/…) */
   --component-gap-2:  2px;
   --component-gap-4:  4px;
   --component-gap-8:  8px;
   --component-gap-12: 12px;
   --component-gap-16: 16px;
-  --component-gap-20: 20px;
-  --component-gap-24: 24px;
-  --component-gap-32: 32px;
-  --component-gap-40: 40px;
-  --component-gap-48: 48px;
+  --component-gap-20: 20px;   /* ⚠ extrapolé */
+  --component-gap-24: 24px;   /* ⚠ extrapolé */
+  --component-gap-32: 32px;   /* ⚠ extrapolé */
+  --component-gap-40: 40px;   /* ⚠ extrapolé */
+  --component-gap-48: 48px;   /* ⚠ extrapolé */
 
-  /* Constantes interface */
-  --header-h:  52px;
-  --strip-h:   184px;
-  --detail-w:  340px;
-  --filters-w: 272px;
+  /* Espacement d'écran (spacing/…) */
+  --spacing-8: 8px;
+
+  /* Constantes interface — relevées sur les deux vues (cadre 1440 × 900) :
+     marge d'écran 16px, volet détail 400px à gauche, filtres 300px à droite,
+     bandeau supérieur (recherche/bascule) haut de 56px posé à 16px du bord. */
+  --screen-inset: 16px;
+  --topbar-h:     56px;
+  --content-top:  88px;   /* 16 + 56 + 16 */
+  --detail-w:     400px;
+  --filters-w:    300px;
+  --search-w:     360px;
 }
 
 @media (max-width: 1279px) {
@@ -181,7 +283,7 @@
   --icon-on-brand-secondary: #7d6138;  /* brand/700 */
   --icon-on-inverse:         #faf9f5;  /* neutral/50 */
 
-  /* Feedback: success (inchangé) */
+  /* Feedback: success */
   --feedback-success-text-on:    #054d28;
   --feedback-success-icon-on:    #067739;
   --feedback-success-background: #f0fdf4;
@@ -189,7 +291,7 @@
   --feedback-success-border:     #9ff3c3;
   --feedback-success-icon:       #059645;
 
-  /* Feedback: error (inchangé) */
+  /* Feedback: error */
   --feedback-error-text-on:    #721f1f;
   --feedback-error-icon-on:    #a71919;
   --feedback-error-background: #fff0f0;
@@ -197,7 +299,7 @@
   --feedback-error-border:     #fea5a5;
   --feedback-error-icon:       #cd1d1d;
 
-  /* Feedback: warning (inchangé) */
+  /* Feedback: warning */
   --feedback-warning-text-on:    #723d13;
   --feedback-warning-icon-on:    #a85c06;
   --feedback-warning-background: #fff9eb;
@@ -289,17 +391,18 @@
   --link-active:  #5c4728;  /* brand/800 */
   --link-visited: #3a2d18;  /* brand/900 */
 
-  /* Input */
+  /* Input — révisé : contenu neutral/800 et placeholder neutral/600 (contraste
+     renforcé par rapport à la version précédente, qui était en neutral/400). */
   --input-background-default:   #ffffff;
   --input-background-hover:     #faf9f5;  /* neutral/50 */
   --input-background-active:    #ffffff;
   --input-background-disabled:  #f2f0e8;  /* neutral/100 */
   --input-background-error:     #fff0f0;
-  --input-content-default:         #171610;  /* neutral/900 */
-  --input-content-hover:           #171610;
-  --input-content-active:          #171610;
+  --input-content-default:         #2a2924;  /* neutral/800 */
+  --input-content-hover:           #2a2924;
+  --input-content-active:          #2a2924;
   --input-content-disabled:        #a8a596;  /* neutral/400 */
-  --input-placeholder-default:  #a8a596;  /* neutral/400 */
+  --input-placeholder-default:  #605e53;  /* neutral/600 */
   --input-placeholder-hover:    #2a2924;  /* neutral/800 */
   --input-placeholder-disabled: #ccc9ba;  /* neutral/300 */
   --input-border-default:       #ccc9ba;  /* neutral/300 */
@@ -308,9 +411,10 @@
   --input-border-disabled:      #e4e1d5;  /* neutral/200 */
   --input-border-error:         #ef2d2d;  /* error/500 */
 
-  /* Controls */
+  /* Controls — révisé : le contenu passe sur la marque (brand/700), et le
+     contenu « sélectionné » sur brand/900, posé sur le fond doré brand/600. */
   --control-background-default:  #ffffff;
-  --control-background-hover:    #faf9f5;  /* neutral/50 */
+  --control-background-hover:    #e8dbbe;  /* brand/200 */
   --control-background-selected: #9c7d4a;  /* brand/600 */
   --control-background-disabled: #f2f0e8;  /* neutral/100 */
   --control-border-default:      #ccc9ba;  /* neutral/300 */
@@ -319,18 +423,18 @@
   --control-border-disabled:     #e4e1d5;  /* neutral/200 */
   --control-check-selected:      #ffffff;
   --control-check-disabled:      #ccc9ba;  /* neutral/300 */
-  --control-content-default:       #43413a;  /* neutral/700 */
-  --control-content-hover:         #171610;  /* neutral/900 */
-  --control-content-selected:      #7d6138;  /* brand/700 */
+  --control-content-default:       #7d6138;  /* brand/700 */
+  --control-content-hover:         #5c4728;  /* brand/800 */
+  --control-content-selected:      #3a2d18;  /* brand/900 */
   --control-content-disabled:      #a8a596;  /* neutral/400 */
 
-  /* Tags / Chips */
+  /* Tags / Chips — révisé : contenu par défaut en neutral/800. */
   --tag-background-default:  transparent;
   --tag-background-hover:    #f2f0e8;  /* neutral/100 */
   --tag-background-selected: #faf7f0;  /* brand/50 */
   --tag-background-active:   #e4e1d5;  /* neutral/200 */
   --tag-background-disabled: #faf9f5;  /* neutral/50 */
-  --tag-content-default:        #43413a;  /* neutral/700 */
+  --tag-content-default:        #2a2924;  /* neutral/800 */
   --tag-content-hover:          #171610;  /* neutral/900 */
   --tag-content-selected:       #7d6138;  /* brand/700 */
   --tag-content-active:         #171610;
@@ -381,13 +485,18 @@
   --focus-on-warning:             #a85c06;
   --focus-on-info:                #7d6138;  /* brand/700 */
 
-  /* Élévations */
-  --elevation-anchored: 0 1px 2px rgba(0,0,0,0.059), 0 1px 3px rgba(0,0,0,0.10);
-  --elevation-floating: 0 2px 4px rgba(0,0,0,0.059), 0 4px 6px rgba(0,0,0,0.10);
-  --elevation-overlay:  0 4px 6px rgba(0,0,0,0.051), 0 10px 15px rgba(0,0,0,0.10);
+  /* Élévations — deux ombres portées empilées, la couche large en premier.
+     Opacités relevées telles quelles dans le document (0F puis 1A) : c'est la
+     couche la plus large qui porte l'opacité la plus faible. */
+  --elevation-anchored: 0 1px 3px rgba(0,0,0,0.059), 0 1px 2px rgba(0,0,0,0.102);
+  --elevation-floating: 0 4px 6px rgba(0,0,0,0.059), 0 2px 4px rgba(0,0,0,0.102);
+  --elevation-overlay:  0 10px 15px rgba(0,0,0,0.051), 0 4px 6px rgba(0,0,0,0.102);
 }
 
-/* ─── THÈME DARK ──────────────────────────────────────────────────────────── */
+/* ─── THÈME DARK ──────────────────────────────────────────────────────────────
+ * ⚠ Aucune des deux vues de référence n'est déclinée en sombre : ce thème est
+ * une extrapolation symétrique du thème clair, à confirmer si le document le
+ * documente un jour. Il n'est activé nulle part dans l'application. */
 [data-theme="dark"] {
   /* Backgrounds */
   --background-page:            #171610;  /* neutral/900 */
@@ -517,12 +626,12 @@
   --input-background-active:    #2a2924;
   --input-background-disabled:  #43413a;  /* neutral/700 */
   --input-background-error:     #721f1f;
-  --input-content-default:         #faf9f5;  /* neutral/50 */
-  --input-content-hover:           #faf9f5;
-  --input-content-active:          #faf9f5;
+  --input-content-default:         #f2f0e8;  /* neutral/100 */
+  --input-content-hover:           #f2f0e8;
+  --input-content-active:          #f2f0e8;
   --input-content-disabled:        #7e7c6f;  /* neutral/500 */
-  --input-placeholder-default:  #7e7c6f;
-  --input-placeholder-hover:    #7e7c6f;
+  --input-placeholder-default:  #a8a596;  /* neutral/400 */
+  --input-placeholder-hover:    #e4e1d5;  /* neutral/200 */
   --input-placeholder-disabled: #605e53;  /* neutral/600 */
   --input-border-default:       #605e53;
   --input-border-hover:         #a8a596;  /* neutral/400 */
@@ -540,9 +649,9 @@
   --control-border-selected:     #b89862;  /* brand/500 */
   --control-border-disabled:     #605e53;
   --control-check-disabled:      #605e53;
-  --control-content-default:       #7e7c6f;  /* neutral/500 */
-  --control-content-hover:         #c9b07c;  /* brand/400 */
-  --control-content-selected:      #b89862;  /* brand/500 */
+  --control-content-default:       #c9b07c;  /* brand/400 */
+  --control-content-hover:         #dac798;  /* brand/300 */
+  --control-content-selected:      #3a2d18;  /* brand/900, posé sur le doré */
   --control-content-disabled:      #605e53;  /* neutral/600 */
 
   /* Tags */
@@ -550,7 +659,7 @@
   --tag-background-selected: #3a2d18;  /* brand/900 */
   --tag-background-disabled: #2a2924;
   --tag-background-active:   #43413a;
-  --tag-content-default:        #ccc9ba;  /* neutral/300 */
+  --tag-content-default:        #e4e1d5;  /* neutral/200 */
   --tag-content-hover:          #f2f0e8;  /* neutral/100 */
   --tag-content-selected:       #dac798;  /* brand/300 */
   --tag-content-active:         #f2f0e8;

@@ -1,18 +1,25 @@
-/* ─── FONTS ──────────────────────────────────────────────────────────────── */
+/* ─── FONTS ───────────────────────────────────────────────────────────────
+   Trois graisses d'Univers Com condensé (47 Light / 57 / 67 Bold) + Walbaum
+   Book, telles que les styles de texte Figma les appellent. */
 @font-face {
   font-family: 'WalbaumBook';
   src: url('../assets/fonts/WalbaumBook-Regular.woff') format('woff');
-  font-weight: normal; font-style: normal;
+  font-weight: 400; font-style: normal; font-display: swap;
 }
 @font-face {
   font-family: 'UniversCom';
   src: url('../assets/fonts/UniversCom-47LightCond.woff') format('woff');
-  font-weight: 300; font-style: normal;
+  font-weight: 300; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: 'UniversCom';
+  src: url('../assets/fonts/UniversCom-57Condensed.woff') format('woff');
+  font-weight: 400; font-style: normal; font-display: swap;
 }
 @font-face {
   font-family: 'UniversCom';
   src: url('../assets/fonts/UniversCom-67BoldCond.woff') format('woff');
-  font-weight: 700; font-style: normal;
+  font-weight: 700; font-style: normal; font-display: swap;
 }
 
 /* ─── RESET ──────────────────────────────────────────────────────────────── */
@@ -20,10 +27,7 @@
 [hidden] { display: none !important; }
 html, body { height: 100%; overflow: hidden; }
 body {
-  font-family: var(--font-sans);
-  font-size: var(--text-body-small-size);
-  font-weight: var(--text-body-small-weight);
-  line-height: var(--text-body-small-lh);
+  font: var(--text-body-small);
   background: var(--background-page);
   color: var(--text-primary);
   -webkit-font-smoothing: antialiased;
@@ -32,10 +36,23 @@ button { font-family: inherit; }
 #icon-sprite { display: none; }
 .icon { width: 20px; height: 20px; fill: currentColor; flex-shrink: 0; display: block; }
 
-/* ─── SCROLLBARS ─────────────────────────────────────────────────────────── */
-::-webkit-scrollbar { width: 3px; height: 3px; }
+/* ─── SCROLLBARS ─────────────────────────────────────────────────────────────
+   Discrètes : rail transparent, curseur invisible au repos et révélé au survol
+   du conteneur. Évite qu'une barre permanente ne vienne buter contre le bouton
+   de repli, en haut à droite du volet bâtiment. */
+* { scrollbar-width: thin; scrollbar-color: transparent transparent; }
+*:hover { scrollbar-color: var(--border-subtle) transparent; }
+
+::-webkit-scrollbar { width: 6px; height: 6px; }
 ::-webkit-scrollbar-track { background: transparent; }
-::-webkit-scrollbar-thumb { background: var(--border-strong); border-radius: 2px; }
+::-webkit-scrollbar-thumb {
+  background: transparent;
+  border-radius: var(--radius-badge);
+  transition: background 0.15s;
+}
+:hover::-webkit-scrollbar-thumb { background: var(--border-subtle); }
+::-webkit-scrollbar-thumb:hover { background: var(--border-strong); }
+::-webkit-scrollbar-corner { background: transparent; }
 
 /* ─── LAYOUT ─────────────────────────────────────────────────────────────── */
 /* Plus de header : le fond occupe tout l'écran, l'interface flotte au-dessus. */
@@ -55,16 +72,15 @@ button { font-family: inherit; }
 #brand-bar, #search-bar, #view-toggle, #footer-links { position: absolute; z-index: 500; }
 
 /* ─── MARQUE + À PROPOS ──────────────────────────────────────────────────── */
+/* Ligne de marque : title/h4 (Univers Com 47 Light Condensed 20 px), capitales,
+   séparateur vertical de 22 px — relevé du cadre 36 × 26 des deux vues. */
 #brand-bar {
   top: 26px; left: 36px;
-  display: flex; align-items: center; gap: 21px;
+  display: flex; align-items: center; gap: var(--component-gap-16);
 }
 #brand-bar a {
-  font-family: var(--font-serif);
-  font-size: var(--text-title-h5-size);
-  line-height: var(--lh-120);
+  font: var(--text-title-h4);
   text-transform: uppercase;
-  letter-spacing: var(--ls-tight);
   color: var(--text-primary);
   text-decoration: none;
   padding: 2px 0;
@@ -80,22 +96,21 @@ button { font-family: inherit; }
 
 /* ─── RECHERCHE ──────────────────────────────────────────────────────────── */
 #search-bar {
-  top: 16px; left: 50%; transform: translateX(-50%);
-  width: min(392px, 40vw);
-  height: 56px;
-  display: flex; align-items: center; gap: var(--component-gap-12);
-  padding: 0 var(--component-padding-20);
-  background: var(--surface-level-01);
-  border: 1px solid var(--border-subtle);
-  border-radius: var(--radius-badge);
+  top: var(--screen-inset); left: 50%; transform: translateX(-50%);
+  width: min(var(--search-w), 40vw);
+  height: var(--topbar-h);
+  display: flex; align-items: center; gap: var(--component-gap-8);
+  padding: 0 var(--component-16);
+  background: var(--input-background-default);
+  border: 1px solid var(--input-border-default);
+  border-radius: var(--radius-full);
   box-shadow: var(--elevation-floating);
 }
 #search-bar .icon { color: var(--icon-secondary); }
 #search-input {
-  flex: 1;
+  flex: 1; min-width: 0;
   border: none; outline: none; background: none;
-  font-family: var(--font-sans);
-  font-size: var(--text-body-base-size);
+  font: var(--text-body-base);
   color: var(--input-content-default);
 }
 #search-input::placeholder { color: var(--input-placeholder-default); }
@@ -103,41 +118,36 @@ button { font-family: inherit; }
 #search-clear {
   background: none; border: none; cursor: pointer;
   color: var(--icon-secondary);
-  display: flex; padding: var(--component-padding-2);
+  display: flex; padding: 0;
 }
+#search-clear .icon { width: 16px; height: 16px; }
 #search-clear:hover { color: var(--icon-primary); }
 
 /* ─── BASCULE CARTE / MOSAÏQUE ───────────────────────────────────────────── */
+/* Deux pastilles de 48 px dans un étui de 108 × 56 (padding 4, gouttière 4) :
+   plus de libellé sous l'icône, l'état actif est porté par le disque doré. */
 #view-toggle {
-  top: 16px; right: 16px;
-  display: flex; gap: var(--component-gap-8);
-  padding: var(--component-padding-4);
-  background: var(--surface-level-01);
-  border: 1px solid var(--border-subtle);
-  border-radius: var(--radius-badge);
+  top: var(--screen-inset); right: var(--screen-inset);
+  display: flex; gap: var(--component-gap-4);
+  padding: var(--component-4);
+  background: var(--surface-level-02);
+  border: none;   /* border/surface est transparent : l'étui fait 108 × 56 net */
+  border-radius: var(--radius-full);
   box-shadow: var(--elevation-floating);
 }
 .view-btn {
   width: 48px; height: 48px;
-  display: flex; flex-direction: column; align-items: center; justify-content: center;
-  gap: 1px;
-  border: none; border-radius: var(--radius-badge);
-  background: transparent;
-  color: var(--icon-primary);
+  display: flex; align-items: center; justify-content: center;
+  border: none; border-radius: var(--radius-full);
+  background: var(--control-background-default);
+  color: var(--control-content-default);
   cursor: pointer;
   transition: background 0.15s, color 0.15s;
 }
-.view-btn span {
-  font-size: 9px;
-  font-weight: var(--fw-600);
-  line-height: var(--lh-1);
-  letter-spacing: var(--ls-normal);
-  text-transform: uppercase;
-}
-.view-btn:hover { background: var(--surface-interactive-background-hover); }
+.view-btn:hover { background: var(--control-background-hover); }
 .view-btn.is-active {
-  background: var(--background-brand-primary);
-  color: var(--text-on-brand-primary);
+  background: var(--control-background-selected);
+  color: var(--control-content-selected);
 }
 
 /* ─── VUE MOSAÏQUE ───────────────────────────────────────────────────────── */
@@ -147,8 +157,8 @@ button { font-family: inherit; }
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
   gap: var(--component-gap-12);
-  /* Marges hautes/basses : dégager la barre de recherche et le carrousel. */
-  padding: 88px var(--component-padding-24) 300px;
+  /* Marge haute : dégager la barre de recherche (16 + 56 + 16). */
+  padding: var(--content-top) var(--screen-inset) var(--screen-inset);
   align-content: start;
   background: var(--background-page);
 }
@@ -189,52 +199,48 @@ button { font-family: inherit; }
 }
 .bldg-card-thumb img { height: 100%; object-fit: cover; display: block; }
 .thumb-skeleton { width: 100%; height: 100%; }
-.no-img { font-size: var(--fs-24); color: var(--border-strong); }
+.no-img { font-size: var(--fs-150); color: var(--border-strong); }
+/* Badge arrondissement : pastille pleine (background/inverse), plus le voile
+   semi-transparent d'avant — lisible quelle que soit la photo dessous. */
 .bldg-card-arr {
-  position: absolute; top: var(--component-padding-8); right: var(--component-padding-8);
-  font-size: var(--text-interface-overline-size);
-  font-weight: var(--text-interface-overline-weight);
-  letter-spacing: var(--ls-normal);
+  position: absolute; top: var(--component-8); right: var(--component-8);
+  font: var(--text-interface-caption);
   color: var(--text-on-inverse);
-  background: var(--bg-inverse-overlay);
-  padding: 1px var(--component-padding-4);
+  background: var(--background-inverse);
+  padding: var(--component-2) var(--component-8);
   border-radius: var(--radius-badge);
 }
+/* Corps 240 × 78 : 8 / 12 / 12 de padding, 2 px entre les lignes, sans filet
+   de séparation avec la vignette. */
 .bldg-card-body {
-  padding: var(--component-padding-8) var(--component-padding-12) var(--component-padding-12);
-  display: flex; flex-direction: column; gap: 2px;
-  border-top: 1px solid var(--border-subtle);
+  padding: var(--component-8) var(--component-12) var(--component-12);
+  display: flex; flex-direction: column; gap: var(--component-gap-2);
 }
 .bldg-card-name {
-  font-family: var(--font-serif);
-  font-size: var(--text-body-small-size);
-  line-height: var(--lh-120);
+  font: var(--text-title-h5);
   color: var(--text-primary);
   overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
 }
 .bldg-card-meta {
-  font-size: var(--text-interface-caption-size);
+  font: var(--text-interface-caption);
   color: var(--text-secondary);
   overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
 }
 .bldg-card-people {
-  font-size: var(--text-interface-caption-size);
+  font: var(--text-interface-caption);
   color: var(--text-secondary);
-  margin-top: 4px;
-  line-height: var(--lh-120);
 }
 /* Termes du thésaurus (Index Jantzen), après les personnes. */
 .bldg-card-terms {
-  font-size: var(--text-interface-caption-size);
-  color: var(--text-tertiary, var(--text-secondary));
-  margin-top: 4px;
-  line-height: var(--lh-120);
+  font: var(--text-interface-caption);
+  color: var(--text-secondary);
+  overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
 }
 .mosaic-more {
   grid-column: 1 / -1;
   text-align: center;
   color: var(--text-secondary);
-  padding: var(--component-padding-24) 0;
+  padding: var(--component-24) 0;
 }
 
 /* ─── VUE MOSAÏQUE : CARTES LATÉRALES DANS LE FLUX ───────────────────────── */
@@ -245,37 +251,51 @@ button { font-family: inherit; }
  * vue carte n'est pas concernée.
  *
  * ⚙️ Largeur du volet détail pilotée en JS (mosaic-detail.js) via --md-w. */
-:root { --md-w: 400px; }
+:root { --md-w: var(--detail-w); }
 
-/* Poignée de redimensionnement (tirette), à cheval sur le bord droit du volet. */
+/* Poignée de redimensionnement (tirette) : gélule pleine de 32 × 56 à cheval sur
+   le bord droit du volet, posée en surimpression (elevation/overlay) et portant
+   l'icône `drag_indicator` de 24 px. Trois états sur les tokens `control/*`. */
 .panel-resize {
-  position: absolute; top: 0; bottom: 0; right: -4px;
-  width: 8px; z-index: 20;
+  position: absolute; top: 50%; right: -16px;
+  transform: translateY(-50%);
+  width: 32px; height: 56px; z-index: 20;
   display: flex; align-items: center; justify-content: center;
+  padding: var(--component-16) var(--component-8);
   cursor: ew-resize; touch-action: none;
-  background: none; border: none; padding: 0;
+  background: var(--control-background-default);
+  border: none;
+  border-radius: var(--radius-full);
+  box-shadow: var(--elevation-overlay);
+  color: var(--control-content-default);
+  transition: background 0.15s, color 0.15s;
 }
-.panel-resize-grip {
-  width: 4px; height: 44px; border-radius: 2px;
-  background: var(--border-strong); transition: background 0.15s;
+.panel-resize-grip { width: 24px; height: 24px; }
+.panel-resize:hover,
+.panel-resize:focus-visible {
+  background: var(--control-background-hover);
+  color: var(--control-content-hover);
 }
-.panel-resize:hover .panel-resize-grip,
-.panel-resize:focus-visible .panel-resize-grip { background: var(--background-brand-primary); }
+.panel-resize:active,
+.panel-resize.is-dragging {
+  background: var(--control-background-selected);
+  color: var(--control-content-selected);
+}
 .panel-resize:focus { outline: none; }
 
 /* Grille centrale : marges réservées aux cartes latérales via le padding
    (les cartes flottent dans ces gouttières, sans recouvrir les tuiles). */
 .is-mosaic #mosaic {
-  padding: 88px var(--component-padding-24) var(--component-padding-24);
-  padding-right: calc(var(--filters-w) + 40px);
+  padding: var(--content-top) var(--screen-inset) var(--screen-inset);
+  padding-right: calc(var(--filters-w) + 2 * var(--screen-inset));
 }
 .is-mosaic.filters-collapsed #mosaic { padding-right: 150px; }
-.is-mosaic.has-detail #mosaic { padding-left: calc(var(--md-w) + 40px); }
+.is-mosaic.has-detail #mosaic { padding-left: calc(var(--md-w) + 2 * var(--screen-inset)); }
 
 /* Volet détail (gauche) — carte flottante, comme la fiche de la vue carte. */
 #mosaic-detail {
   position: absolute; z-index: 500;
-  top: 88px; left: 16px; bottom: 16px;
+  top: var(--content-top); left: var(--screen-inset); bottom: var(--screen-inset);
   width: var(--md-w);
   display: flex;
   background: var(--surface-level-01);
@@ -283,52 +303,60 @@ button { font-family: inherit; }
   border-radius: var(--radius-container);
   box-shadow: var(--elevation-overlay);
 }
+/* Le corps ne porte plus de padding : chaque bloc gère ses 20 px latéraux, afin
+   que les filets sous les titres de section aillent d'un bord à l'autre. */
 #mosaic-detail-body {
   flex: 1; overflow-y: auto;
-  padding: var(--component-padding-20);
+  padding: 0;
 }
 #mosaic-detail-close {
-  position: absolute; top: var(--component-padding-12); right: 14px; z-index: 21;
+  position: absolute; top: var(--component-12); right: var(--component-12); z-index: 21;
   width: 32px; height: 32px;
   display: flex; align-items: center; justify-content: center;
-  background: var(--surface-level-01);
-  border: 1px solid var(--border-strong);
-  border-radius: var(--radius-badge);
-  color: var(--icon-primary); cursor: pointer;
-  transition: background 0.15s;
+  background: var(--button-tertiary-background-default);
+  border: 1px solid var(--button-tertiary-border-default);
+  border-radius: var(--radius-full);
+  color: var(--button-tertiary-content-default); cursor: pointer;
+  transition: background 0.15s, border-color 0.15s, color 0.15s;
 }
-#mosaic-detail-close:hover { background: var(--surface-interactive-background-hover); }
+#mosaic-detail-close:hover {
+  background: var(--button-tertiary-background-hover);
+  border-color: var(--button-tertiary-border-hover);
+  color: var(--button-tertiary-content-hover);
+}
 
+/* Titre de section (« Architectes & Artistes », « Photographie(s) de… ») :
+   title/h3 en condensé 24 px, souligné d'un filet pleine largeur. */
+.md-section-title {
+  display: block;
+  padding: var(--component-4) var(--component-20) var(--component-8);
+  margin-top: var(--component-8);
+  border-bottom: 1px solid var(--border-subtle);
+  font: var(--text-title-h3);
+  color: var(--text-primary);
+}
 .md-section-label {
   display: block;
   margin-bottom: var(--component-gap-8);
-  font-size: var(--text-interface-overline-size);
-  font-weight: var(--text-interface-overline-weight);
+  font: var(--text-interface-overline);
   letter-spacing: var(--text-interface-overline-ls);
   text-transform: uppercase;
   color: var(--text-secondary);
 }
-#md-photos-header {
-  display: flex; align-items: center; justify-content: space-between;
-  gap: var(--component-gap-8);
-  margin-top: var(--component-padding-24);
-  margin-bottom: var(--component-gap-8);
-}
-#md-photos-header .md-section-label { margin-bottom: 0; }
+/* Titre du volet : title/h2 (Walbaum 32 px) — c'est l'accroche éditoriale de
+   la fiche, nettement au-dessus des titres de sections. */
 .md-title {
-  font-family: var(--font-serif);
-  font-size: var(--text-title-h5-size);
-  font-weight: var(--fw-400);
-  line-height: var(--lh-120);
+  display: block;
+  padding: var(--component-16) var(--component-20) var(--component-8);
+  font: var(--text-title-h2);
   color: var(--text-primary);
 }
 .md-address {
-  font-size: var(--text-interface-caption-size);
+  padding: 0 var(--component-20);
+  font: var(--text-interface-caption);
   color: var(--text-secondary);
-  margin-top: var(--component-gap-4);
 }
-#md-info .info-meta-grid { margin-top: var(--component-padding-16); }
-.md-loading { color: var(--text-secondary); font-size: var(--text-body-small-size); }
+.md-loading { padding: 0 var(--component-20); color: var(--text-secondary); font: var(--text-body-small); }
 
 /* Galerie : mosaïque justifiée — des rangées de hauteur égale qui remplissent
    toute la largeur, sans blancs, en préservant le ratio de chaque photo. Les
@@ -339,6 +367,7 @@ button { font-family: inherit; }
   flex-wrap: wrap;
   align-content: flex-start;
   gap: var(--component-gap-8);
+  padding: var(--component-20);
 }
 .md-photo {
   padding: 0;
@@ -352,9 +381,6 @@ button { font-family: inherit; }
 .md-photo:hover { border-color: var(--border-strong); }
 .md-photo img { width: 100%; height: 100%; object-fit: cover; display: block; }
 
-/* Filtres (droite) — même carte que la vue carte, prolongée vers le bas puisque
-   la mosaïque ne réserve rien en bas de l'écran. */
-.is-mosaic #filters-panel { bottom: 16px; max-height: none; }
 
 /* ─── LEAFLET ────────────────────────────────────────────────────────────── */
 .leaflet-container { background: var(--background-subtle); }
@@ -430,9 +456,7 @@ button { font-family: inherit; }
   width: fit-content;
 }
 .arr-label-num {
-  font-family: var(--font-serif);
-  font-size: var(--text-title-h5-size);
-  line-height: var(--lh-120);
+  font: var(--text-title-h5);
   color: var(--background-brand-primary);
   /* Halo clair : lisibilité garantie par-dessus n'importe quelle tuile. */
   text-shadow: 0 0 6px var(--background-page), 0 0 3px var(--background-page),
@@ -459,10 +483,15 @@ button { font-family: inherit; }
 .bldg-card-popup .bldg-card { box-shadow: var(--elevation-overlay); }
 
 /* ─── PANNEAU DE FILTRES ─────────────────────────────────────────────────── */
+/* Panneau de filtres : 300 px, calé à 16 px du bord droit, sous le bandeau de
+   recherche (88 px) — identique dans les deux vues.
+   La hauteur suit le contenu et ne se déploie que si les facettes dépliées le
+   demandent : tout replié, la boîte se réduit à son en-tête et dégage la carte.
+   Le plafond reste la pleine hauteur disponible, au-delà duquel le corps défile. */
 #filters-panel {
-  top: 88px; right: 16px;
+  top: var(--content-top); right: var(--screen-inset);
+  max-height: calc(100vh - var(--content-top) - var(--screen-inset));
   width: var(--filters-w);
-  max-height: calc(100vh - 320px);
   display: flex; flex-direction: column;
   background: var(--surface-level-01);
   border: 1px solid var(--border-subtle);
@@ -471,45 +500,65 @@ button { font-family: inherit; }
   overflow: hidden;
 }
 #filters-header {
-  padding: var(--component-padding-12) var(--component-padding-16);
+  padding: var(--component-12) var(--component-16);
   border-bottom: 1px solid var(--border-subtle);
   flex-shrink: 0;
 }
-#filters-header-top { display: flex; align-items: center; justify-content: space-between; }
+/* En-tête 56 px : titre en title/h4 (condensé 20 px, pas le serif), compte en
+   overline et bouton de repli tertiaire de 32 px. */
+#filters-header-top {
+  display: flex; align-items: center; justify-content: space-between;
+  min-height: 32px;
+}
 #filters-title {
-  font-family: var(--font-serif);
-  font-size: var(--text-title-h5-size);
+  font: var(--text-title-h4);
   color: var(--text-primary);
 }
-#filters-header-right { display: flex; align-items: center; gap: var(--component-gap-8); }
+#filters-header-right { display: flex; align-items: center; gap: var(--component-gap-16); }
 #search-results-count {
-  font-size: var(--text-interface-caption-size);
+  font: var(--text-interface-overline);
+  letter-spacing: var(--text-interface-overline-ls);
+  text-transform: uppercase;
   color: var(--text-secondary);
 }
+/* Bouton tertiaire circulaire de 32 px — même composant que la fermeture du
+   volet détail. */
 #filters-toggle {
-  background: none; border: 1px solid var(--border-subtle);
-  border-radius: var(--radius-element);
-  width: 22px; height: 22px; cursor: pointer;
-  color: var(--text-secondary);
+  width: 32px; height: 32px; flex-shrink: 0; cursor: pointer;
   display: flex; align-items: center; justify-content: center;
+  background: var(--button-tertiary-background-default);
+  border: 1px solid var(--button-tertiary-border-default);
+  border-radius: var(--radius-full);
+  color: var(--button-tertiary-content-default);
   line-height: var(--lh-1);
+  transition: border-color 0.15s, color 0.15s, background 0.15s;
 }
-#filters-toggle:hover { border-color: var(--border-strong); color: var(--text-primary); }
+#filters-toggle:hover {
+  background: var(--button-tertiary-background-hover);
+  border-color: var(--button-tertiary-border-hover);
+  color: var(--button-tertiary-content-hover);
+}
 
-#filters-active-bar { display: none; flex-wrap: wrap; gap: var(--component-gap-4); margin-top: var(--component-gap-8); }
+#filters-active-bar { display: none; flex-wrap: wrap; gap: var(--component-gap-8); margin-top: var(--component-gap-8); }
 #filters-active-bar.has-active { display: flex; }
+/* Un filtre actif rappelé sous le titre, c'est la même puce que dans la facette,
+   dans son état sélectionné — d'où la mise en commun du gabarit avec `.chip`. */
 .filter-active-tag {
-  display: inline-flex; align-items: center; gap: var(--component-gap-4);
-  font-size: var(--text-interface-caption-size);
-  background: var(--tag-background-selected);
-  color: var(--tag-content-selected);
+  display: inline-flex; align-items: center; gap: var(--component-6);
+  min-height: 32px;
+  padding: 0 var(--component-6) 0 var(--component-12);
   border: 1px solid var(--tag-border-selected);
   border-radius: var(--radius-badge);
-  padding: 2px var(--component-padding-8);
+  font: var(--text-body-base);
+  background: var(--tag-background-selected);
+  color: var(--tag-content-selected);
 }
 .filter-active-tag-remove {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 22px; height: 20px; padding: 0;
   background: none; border: none; cursor: pointer;
   color: inherit; opacity: 0.6; line-height: var(--lh-1);
+  transition: opacity 0.10s;
 }
 .filter-active-tag-remove:hover { opacity: 1; }
 #filter-reset-btn {
@@ -520,14 +569,14 @@ button { font-family: inherit; }
 }
 #filter-reset-btn:hover { color: var(--text-primary); }
 
-#filters-body { overflow-y: auto; flex: 1; }
+/* `min-height: 0` : sans lui, un enfant flexible refuse de rétrécir sous la
+   taille de son contenu et le défilement ne s'amorce jamais au plafond. */
+#filters-body { overflow-y: auto; flex: 0 1 auto; min-height: 0; }
 
 /* ─── REPLI DES FILTRES (largeur + hauteur) ──────────────────────────────── */
 /* Le bouton −/+ rétracte la boîte : on ne garde que le titre et l'icône,
    rapprochés. Vaut pour les deux vues (carte et mosaïque). */
-#filters-panel.is-collapsed {
-  width: auto; max-height: none; bottom: auto; overflow: hidden;
-}
+#filters-panel.is-collapsed { width: auto; overflow: hidden; }
 #filters-panel.is-collapsed #filters-body,
 #filters-panel.is-collapsed #filters-active-bar,
 #filters-panel.is-collapsed #search-results-count { display: none; }
@@ -536,38 +585,59 @@ button { font-family: inherit; }
 
 .filter-section { border-bottom: 1px solid var(--border-subtle); }
 .filter-section:last-child { border-bottom: none; }
+/* Ligne « Dropdown » : 48 px de haut, libellé à 20 px du bord, chevron de
+   24 px collé à 12 px du bord droit. */
 .filter-section-header {
-  width: 100%;
+  width: 100%; min-height: 48px;
   display: flex; align-items: center; justify-content: space-between;
-  padding: var(--component-padding-12) var(--component-padding-16);
-  background: none; border: none; cursor: pointer;
-  color: var(--text-secondary);
+  gap: var(--component-gap-8);
+  padding: 0 var(--component-12) 0 var(--component-20);
+  background: var(--menu-item-background-default); border: none; cursor: pointer;
+  color: var(--menu-item-text-default);
   transition: color 0.15s, background 0.15s;
 }
-.filter-section-label {
-  font-size: var(--text-interface-overline-size);
-  font-weight: var(--text-interface-overline-weight);
-  letter-spacing: var(--text-interface-overline-ls);
-  text-transform: uppercase;
+/* Intitulé de section : interface/Button/Medium en casse normale — les
+   capitales espacées d'avant sont réservées aux sur-titres (overline). */
+.filter-section-label { font: var(--text-interface-button-medium); }
+.filter-section-header:hover { color: var(--menu-item-text-hover); background: var(--menu-item-background-hover); }
+.filter-section-header[aria-expanded="true"] { color: var(--menu-item-text-hover); }
+/* Les deux éléments de droite (compte optionnel + chevron) forment le « Ctrl »
+   de la maquette : 24 px de large, le badge s'insérant avant le chevron. */
+.filter-section-ctrl { display: flex; align-items: center; gap: var(--component-gap-4); flex-shrink: 0; }
+.filter-section-arrow {
+  width: 24px; height: 24px;
+  transition: transform 0.15s; color: var(--menu-item-icon-default);
 }
-.filter-section-header:hover { color: var(--text-primary); background: var(--surface-interactive-background-hover); }
-.filter-section-header[aria-expanded="true"] { color: var(--text-primary); }
-.filter-section-arrow { transition: transform 0.15s; }
 .filter-section-header[aria-expanded="false"] .filter-section-arrow { transform: rotate(-90deg); }
-.filter-section-body { display: none; padding: 0 var(--component-padding-16) var(--component-padding-16); }
+.filter-section-body { display: none; padding: var(--component-8) var(--component-20) var(--component-20); }
 .filter-section-body.open { display: block; }
 
-.filter-group { margin-bottom: var(--component-padding-8); }
+.filter-group { margin-bottom: var(--component-8); }
 .filter-chips { display: flex; flex-wrap: wrap; gap: var(--component-gap-4); }
+
+/* Puce : hauteur fixe de 32 px, libellé en body/base, pastille de compte
+   optionnelle qui resserre le padding droit de 12 à 6. */
 .chip {
-  padding: 3px var(--component-padding-8);
+  display: inline-flex; align-items: center; gap: var(--component-6);
+  min-height: 32px;
+  padding: 0 var(--component-12);
   border: 1px solid var(--tag-border-default);
   border-radius: var(--radius-badge);
-  font-size: var(--text-body-small-size);
+  font: var(--text-body-base);
   cursor: pointer;
   color: var(--tag-content-default);
   background: var(--tag-background-default);
   transition: background 0.10s, border-color 0.10s, color 0.10s;
+}
+.chip:has(.chip-count) { padding-right: var(--component-6); }
+.chip-count {
+  display: inline-flex; align-items: center; justify-content: center;
+  min-width: 22px; height: 20px;
+  padding: 0 var(--component-8);
+  border: 1px solid; border-color: inherit;   /* suit l'état de la puce */
+  border-radius: var(--radius-badge);
+  font: var(--text-interface-caption);
+  font-variant-numeric: tabular-nums;
 }
 .chip:hover { background: var(--tag-background-hover); border-color: var(--tag-border-hover); color: var(--tag-content-hover); }
 .chip.active { background: var(--tag-background-selected); color: var(--tag-content-selected); border-color: var(--tag-border-selected); }
@@ -586,7 +656,7 @@ button { font-family: inherit; }
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 6px; /* Espace vertical entre les puces */
+  gap: var(--component-gap-4); /* Espace vertical entre les puces */
 }
 
 /* S'assurer que le wrapper prend toute la largeur */
@@ -596,62 +666,58 @@ button { font-family: inherit; }
 }
 
 /* ─── THÉSAURUS : RECHERCHE, GROUPES, DÉFINITIONS ───────────────────────── */
+/* Champ de recherche du thésaurus : 40 px de haut, icône 18 px, 16 px avant
+   la première puce (8 sous le champ + 8 en tête du groupe). */
 .thes-search {
   display: flex; align-items: center; gap: var(--component-gap-8);
-  padding: 0 var(--component-padding-8);
-  margin-bottom: var(--component-padding-12);
+  height: 40px;
+  padding: 0 var(--component-8);
+  margin-bottom: var(--component-16);
   background: var(--input-background-default);
   border: 1px solid var(--input-border-default);
   border-radius: var(--radius-element);
 }
 .thes-search:focus-within { border-color: var(--input-border-active); }
-.thes-search .icon { width: 14px; height: 14px; color: var(--icon-secondary); }
+.thes-search .icon { width: 18px; height: 18px; color: var(--icon-secondary); }
 .thes-search input {
   flex: 1; min-width: 0;
-  height: 30px;
   border: none; outline: none; background: none;
-  font-family: var(--font-sans);
-  font-size: var(--text-body-small-size);
+  font: var(--text-body-small);
   color: var(--input-content-default);
 }
+.thes-search input::placeholder { color: var(--input-placeholder-default); }
 .thes-search input::-webkit-search-cancel-button { display: none; }
 
-.thes-group + .thes-group { margin-top: var(--component-padding-16); }
+.thes-group + .thes-group { margin-top: var(--component-16); }
+/* Sur-titre de catégorie : le décompte reste porté par les puces elles-mêmes,
+   pas par l'intitulé du groupe. */
 .thes-group-label {
-  display: flex; align-items: center; gap: var(--component-gap-4);
+  display: block;
   margin-bottom: var(--component-gap-8);
-  font-size: var(--text-interface-overline-size);
-  font-weight: var(--text-interface-overline-weight);
+  font: var(--text-interface-overline);
   letter-spacing: var(--text-interface-overline-ls);
   text-transform: uppercase;
   color: var(--text-secondary);
 }
-.thes-group-count {
-  font-size: var(--fs-8);
-  font-weight: var(--fw-400);
-  letter-spacing: 0;
-  color: var(--text-secondary);
-  background: var(--background-subtle);
-  border-radius: var(--radius-badge);
-  padding: 1px 5px;
-}
+.thes-group-label::after { content: '\00a0:'; }
 
-.thes-terms { display: flex; flex-wrap: wrap; gap: var(--component-gap-4); }
+/* Composant « Chip + Infos » : le terme (82 px de gabarit) et le segment « i »
+   (34 px) partagent une même gélule de 32 px, séparés par un filet commun. */
+.thes-terms { display: flex; flex-wrap: wrap; gap: var(--component-gap-8); }
 .thes-term { display: inline-flex; align-items: stretch; }
 .thes-term .chip { border-top-right-radius: 0; border-bottom-right-radius: 0; }
+.thes-term .chip:has(.chip-count) { gap: var(--component-8); padding-right: var(--component-8); }
 .thes-term:not(:has(.thes-info)) .chip { border-radius: var(--radius-badge); }
 
 .thes-info {
-  width: 20px;
+  width: 34px;
   margin-left: -1px;
   display: flex; align-items: center; justify-content: center;
   background: var(--tag-background-default);
   border: 1px solid var(--tag-border-default);
   border-radius: 0 var(--radius-badge) var(--radius-badge) 0;
-  color: var(--text-secondary);
-  font-size: var(--text-interface-caption-size);
-  font-style: italic;
-  font-family: var(--font-serif);
+  color: var(--tag-content-default);
+  font: var(--text-title-h5-weight) var(--fs-100)/var(--lh-150) var(--font-serif);
   cursor: pointer;
   transition: background 0.10s, color 0.10s, border-color 0.10s;
 }
@@ -667,7 +733,7 @@ button { font-family: inherit; }
 .thes-def {
   flex-basis: 100%;
   margin: var(--component-gap-4) 0;
-  padding: var(--component-padding-12);
+  padding: var(--component-12);
   background: var(--background-brand-secondary);
   border: 1px solid var(--feedback-info-border);
   border-radius: var(--radius-element);
@@ -689,8 +755,8 @@ button { font-family: inherit; }
 .thes-def-links a:hover { color: var(--link-hover); }
 .thes-def-source {
   margin-top: var(--component-gap-4);
-  font-size: var(--fs-8);
-  letter-spacing: var(--ls-normal);
+  font-size: var(--fs-50);
+  letter-spacing: var(--ls-overline);
   text-transform: uppercase;
   color: var(--text-secondary);
 }
@@ -703,8 +769,8 @@ button { font-family: inherit; }
   opacity: 0.35;
   cursor: not-allowed;
   pointer-events: none; /* Empêche les clics et le hover */
-  background-color: var(--color-bg-disabled, #e0e0e0);
-  color: var(--color-text-disabled, #888888);
+  background-color: var(--tag-background-disabled);
+  color: var(--tag-content-disabled);
   border-color: transparent;
 }
 
@@ -715,36 +781,48 @@ button { font-family: inherit; }
 }
 
 /* ─── INFOS BÂTIMENT (composants partagés par le volet détail) ──────────── */
+/* Grille méta : deux colonnes par ligne — sur-titre à gauche sur une colonne
+   fixe de 148 px, valeur en gras à droite, rangées de 32 px sans gouttière. */
 .info-meta-grid {
-  display: flex; flex-direction: column; gap: var(--component-gap-8);
-  margin-top: var(--component-padding-16);
+  display: flex; flex-direction: column;
+  padding: var(--component-8) var(--component-20);
 }
-.info-meta-cell { display: flex; flex-direction: column; gap: 1px; }
+.info-meta-cell {
+  display: grid;
+  grid-template-columns: minmax(0, 148px) 1fr;
+  gap: var(--component-gap-8);
+  align-items: center;
+  min-height: 32px;
+}
 .info-meta-label {
-  font-size: var(--text-interface-overline-size);
-  font-weight: var(--text-interface-overline-weight);
+  font: var(--text-interface-overline);
   letter-spacing: var(--text-interface-overline-ls);
   text-transform: uppercase;
   color: var(--text-secondary);
 }
-.info-meta-value { font-size: var(--text-body-small-size); color: var(--text-primary); }
+.info-meta-label::after { content: '\00a0:'; }
+.info-meta-value { font: var(--text-body-base-bold); color: var(--text-primary); }
 
 .info-elements-label {
   display: block;
-  margin-top: var(--component-padding-20);
+  margin-top: var(--component-20);
   margin-bottom: var(--component-gap-8);
-  font-size: var(--text-interface-overline-size);
-  font-weight: var(--text-interface-overline-weight);
+  font: var(--text-interface-overline);
   letter-spacing: var(--text-interface-overline-ls);
   text-transform: uppercase;
   color: var(--text-secondary);
 }
 /* ─── PERSONNES LIÉES (architectes) ─────────────────────────────────────── */
-.info-personnes { display: flex; flex-direction: column; gap: var(--component-gap-12); }
-.person-card { display: flex; gap: var(--component-gap-8); align-items: flex-start; }
+/* Carte personne : vignette carrée de 140 px, 16 px de gouttière, nom en
+   title/h5 (Walbaum 18) et rôle en body/base. */
+.info-personnes {
+  display: flex; flex-direction: column; gap: var(--component-gap-8);
+  padding: var(--component-8) var(--component-20) var(--component-16);
+}
+.person-card { display: flex; gap: var(--component-gap-16); align-items: flex-start; }
 .person-thumb {
   flex: none;
-  width: 48px; height: 48px;
+  width: 140px; height: 140px;
   padding: 0;
   border: 1px solid var(--border-subtle);
   border-radius: var(--radius-element);
@@ -754,20 +832,20 @@ button { font-family: inherit; }
 }
 .person-thumb:hover { border-color: var(--border-strong); }
 .person-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
-.person-info { display: flex; flex-direction: column; gap: 1px; min-width: 0; }
-.person-name { font-size: var(--text-body-small-size); color: var(--text-primary); }
-.person-role { font-size: var(--text-interface-caption-size); color: var(--text-secondary); }
+.person-info { display: flex; flex-direction: column; min-width: 0; }
+.person-name { font: var(--text-title-h5); color: var(--text-primary); }
+.person-role { font: var(--text-body-base); color: var(--text-secondary); }
 .person-links {
-  margin-top: var(--component-gap-4);
-  font-size: var(--text-interface-caption-size);
+  margin-top: var(--component-24);
+  font: var(--text-body-base);
   color: var(--text-secondary);
 }
 .person-links a { color: var(--link-default); text-underline-offset: 2px; }
 .person-links a:hover { color: var(--link-hover); }
 
 .credit-link {  color: var(--text-on-brand-primary); }
-.credit-link a { color: var(--link-text-default); text-underline-offset: 2px; }
-.credit-link a:hover { color: var(--link-text-hover); }
+.credit-link a { color: var(--link-default); text-underline-offset: 2px; }
+.credit-link a:hover { color: var(--link-hover); }
 
 .person-copy-link {
   display: inline-flex;
@@ -784,28 +862,43 @@ button { font-family: inherit; }
   color: var(--icon-secondary); /* vert, à adapter à ta charte */
   opacity: 0.5;
 }
-.info-elements { display: flex; flex-wrap: wrap; gap: var(--component-gap-4); }
-.info-element-tag {
-  padding: 2px var(--component-padding-8);
-  border: 1px solid var(--tag-border-default);
-  border-radius: var(--radius-badge);
-  background: var(--tag-background-default);
-  color: var(--tag-content-default);
-  font-size: var(--text-interface-caption-size);
-  cursor: pointer;
-  transition: background 0.10s, border-color 0.10s, color 0.10s;
+/* ─── ÉLÉMENTS ARCHITECTURAUX (volet détail) ──────────────────────────────
+   Les termes des photos, regroupés par catégorie du thésaurus sous une ligne
+   « Dropdown » repliable. Puces identiques aux filtres, mais à 8 px de
+   gouttière (contre 4 dans le panneau de droite). */
+.archi-groups {
+  padding: 0 var(--component-20) var(--component-8);
+  container-type: inline-size;   /* le volet est redimensionnable : cf. plus bas */
 }
-.info-element-tag:hover {
-  background: var(--tag-background-hover);
-  border-color: var(--tag-border-hover);
-  color: var(--tag-content-hover);
+.archi-groups[hidden] { display: none; }
+.archi-group { padding: var(--component-8) 0; }
+.archi-group-label {
+  display: block;
+  padding: var(--component-8) 0;
+  font: var(--text-interface-overline);
+  letter-spacing: var(--text-interface-overline-ls);
+  text-transform: uppercase;
+  color: var(--text-secondary);
+  width: 140px;
 }
-/* Reflète la sélection du multiselect de la galerie (lien fonctionnel). */
-.info-element-tag.is-active {
-  background: var(--tag-background-selected);
-  color: var(--tag-content-selected);
-  border-color: var(--tag-border-selected);
+.archi-group-label::after { content: '\00a0:'; }
+.archi-chips { display: flex; flex-wrap: wrap; gap: var(--component-gap-8); }
+
+/* Dès que les puces peuvent tenir sur une largeur utile (~240 px), la catégorie
+   passe à gauche des puces plutôt qu'au-dessus : le volet respire en largeur.
+   Réservé au volet bâtiment — le panneau de filtres, lui, reste toujours empilé. */
+@container (min-width: 340px) {
+  .archi-group {
+    display: flex; align-items: flex-start;
+    gap: var(--component-gap-8);
+  }
+  .archi-group-label {
+    flex: none;
+    padding: 10px 0 0;   /* aligne le sur-titre sur la 1re rangée de puces (32 px) */
+  }
+  .archi-chips { flex: 1; min-width: 0; }
 }
+.archi-empty { padding: var(--component-8) 0; font: var(--text-body-small); color: var(--text-secondary); }
 
 .info-meta-value a {
   color: inherit;
@@ -818,93 +911,13 @@ button { font-family: inherit; }
   text-decoration: underline;
 }
 
-/* ─── MULTISELECT (motif Carbon) — filtre la galerie photo par élément ──────
-   Repris du carrousel disparu, réancré dans l'en-tête de la section photos
-   du volet détail (carte comme mosaïque). */
-.multiselect { position: relative; flex-shrink: 0; }
-.ms-field {
-  display: flex; align-items: center; gap: var(--component-gap-4);
-  height: 26px; padding: 0 var(--component-padding-8);
-  background: none;
-  border: 1px solid var(--tag-border-default);
-  border-radius: var(--radius-element);
-  cursor: pointer;
-  color: var(--text-primary);
-  white-space: nowrap;
-  transition: border-color 0.10s;
-}
-.ms-field:hover { border-color: var(--tag-border-hover); }
-.ms-field:disabled { color: var(--text-secondary); opacity: 0.5; cursor: default; }
-.ms-label { font-size: var(--text-interface-caption-size); }
-.ms-chevron { width: 14px; height: 14px; transition: transform 0.15s; }
-.multiselect.is-open .ms-chevron { transform: rotate(180deg); }
-
-.ms-badge {
-  display: inline-flex; align-items: center; gap: var(--component-gap-4);
-  background: var(--background-brand-primary);
-  color: var(--text-on-brand-primary);
-  border-radius: var(--radius-badge);
-  padding: 1px var(--component-padding-8);
-  font-size: var(--fs-8);
-  font-weight: var(--fw-600);
-}
-.ms-badge-clear { cursor: pointer; opacity: 0.75; line-height: var(--lh-1); }
-.ms-badge-clear:hover { opacity: 1; }
-
-/* Ancré dans l'en-tête d'une section défilante : le menu s'ouvre vers le bas. */
-.ms-menu {
-  position: absolute; top: calc(100% + 4px); right: 0;
-  width: 220px; max-height: 240px; overflow-y: auto;
-  list-style: none;
-  background: var(--surface-level-01);
-  border: 1px solid var(--border-subtle);
-  border-radius: var(--radius-element);
-  box-shadow: var(--elevation-overlay);
-  z-index: 30;
-}
-.ms-option {
-  display: flex; align-items: center; gap: var(--component-gap-8);
-  padding: var(--component-padding-8) var(--component-padding-12);
-  cursor: pointer;
-  font-size: var(--text-body-small-size);
-  color: var(--menu-item-text-default);
-  border-left: 2px solid transparent;
-  transition: background 0.10s;
-}
-.ms-option:hover { background: var(--menu-item-background-hover); }
-.ms-option.is-selected {
-  background: var(--menu-item-background-selected);
-  color: var(--menu-item-text-selected);
-  border-left-color: var(--menu-item-border-selected);
-}
-.ms-check {
-  width: 16px; height: 16px; flex-shrink: 0;
-  border: 1px solid var(--control-border-default);
-  border-radius: 3px;
-  background: var(--control-background-default);
-  position: relative;
-}
-.ms-option.is-selected .ms-check {
-  background: var(--control-background-selected);
-  border-color: var(--control-border-selected);
-}
-.ms-option.is-selected .ms-check::after {
-  content: '';
-  position: absolute; left: 4px; top: 0.5px;
-  width: 5px; height: 10px;
-  border: solid var(--control-check-selected);
-  border-width: 0 2px 2px 0;
-  transform: rotate(45deg);
-}
-.ms-option-label { flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-.ms-option-count { font-size: var(--text-interface-caption-size); color: var(--text-secondary); }
 
 /* ─── VISIONNEUSE PLEIN ÉCRAN ────────────────────────────────────────────── */
 #lightbox {
   position: fixed; inset: 0; z-index: 1000;
   background: var(--bg-inverse-heavy);
   display: flex; align-items: center; justify-content: center;
-  padding: var(--component-padding-48);
+  padding: var(--component-48);
 }
 #lightbox-figure {
   display: flex; flex-direction: column; align-items: center; gap: var(--component-gap-12);
@@ -929,7 +942,7 @@ button { font-family: inherit; }
   display: flex; gap: var(--component-gap-12);
 }
 #lightbox-close {
-  position: absolute; top: var(--component-padding-24); right: var(--component-padding-24);
+  position: absolute; top: var(--component-24); right: var(--component-24);
 }
 #lightbox-close, .lightbox-nav {
   width: 44px; height: 44px; flex-shrink: 0;
@@ -955,7 +968,7 @@ button { font-family: inherit; }
   color: var(--text-secondary);
   text-decoration: none;
   background: var(--bg-page-ghost);
-  padding: 3px var(--component-padding-4);
+  padding: 3px var(--component-4);
   border-radius: var(--radius-element);
 }
 #footer-links a:hover { color: var(--text-primary); }
@@ -974,11 +987,15 @@ button { font-family: inherit; }
   height: 64px; flex-shrink: 0;
   border-bottom: 1px solid var(--border-subtle);
   display: flex; align-items: center; justify-content: space-between;
-  padding: 0 var(--component-padding-40);
+  padding: 0 var(--component-40);
 }
+/* Pages statiques : hors des deux vues de référence Figma. On garde le serif
+   éditorial, avec la graisse explicite (Walbaum n'existe qu'en Regular). */
 #page-overlay-title {
   font-family: var(--font-serif);
   font-size: var(--text-title-h4-size);
+  font-weight: var(--fw-400);
+  line-height: var(--lh-120);
   color: var(--text-primary);
 }
 #page-overlay-close {
@@ -999,15 +1016,14 @@ button { font-family: inherit; }
 
 #page-overlay-tabs {
   display: flex; gap: var(--component-gap-24);
-  padding: 0 var(--component-padding-40);
+  padding: 0 var(--component-40);
   border-bottom: 1px solid var(--border-subtle);
   flex-shrink: 0;
 }
 .page-tab {
   background: none; border: none; cursor: pointer;
-  padding: var(--component-padding-16) 0;
-  font-size: var(--text-interface-overline-size);
-  font-weight: var(--text-interface-overline-weight);
+  padding: var(--component-16) 0;
+  font: var(--text-interface-overline);
   letter-spacing: var(--text-interface-overline-ls);
   text-transform: uppercase;
   color: var(--text-secondary);
@@ -1020,7 +1036,7 @@ button { font-family: inherit; }
 
 #page-overlay-body {
   flex: 1; overflow-y: auto;
-  padding: var(--component-padding-48) var(--component-padding-40);
+  padding: var(--component-48) var(--component-40);
   max-width: 720px; margin: 0 auto; width: 100%;
 }
 #page-overlay-body h1 {
@@ -1036,8 +1052,8 @@ button { font-family: inherit; }
   font-size: var(--text-title-h3-size);
   font-weight: var(--text-title-h3-weight);
   line-height: var(--text-title-h3-lh);
-  margin: 28px 0 var(--component-padding-12);
-  padding-bottom: var(--component-padding-8);
+  margin: 28px 0 var(--component-12);
+  padding-bottom: var(--component-8);
   border-bottom: 1px solid var(--border-subtle);
   color: var(--text-primary);
 }
@@ -1050,12 +1066,12 @@ button { font-family: inherit; }
 #page-overlay-body p strong { color: var(--text-primary); font-weight: var(--fw-700); }
 #page-overlay-body a { color: var(--link-default); text-underline-offset: 3px; }
 #page-overlay-body a:hover { color: var(--link-hover); }
-#page-overlay-body ul { padding-left: var(--component-padding-20); margin-bottom: 14px; }
+#page-overlay-body ul { padding-left: var(--component-20); margin-bottom: 14px; }
 #page-overlay-body li {
   font-size: var(--text-body-large-size);
   line-height: var(--text-body-large-lh);
   color: var(--text-secondary);
-  margin-bottom: var(--component-padding-4);
+  margin-bottom: var(--component-4);
 }
 
 /* ─── ADAPTATIONS ────────────────────────────────────────────────────────── */
@@ -1068,6 +1084,6 @@ button { font-family: inherit; }
   #brand-bar a { font-size: var(--text-body-base-size); }
   #search-bar { top: 76px; width: calc(100vw - 32px); height: 48px; }
   #filters-panel { top: 136px; max-height: calc(100vh - 400px); }
-  #mosaic { padding: 136px var(--component-padding-16) 320px; }
+  #mosaic { padding: 136px var(--component-16) 320px; }
   .leaflet-bottom.leaflet-right { margin-bottom: 250px; }
 }

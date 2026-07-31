@@ -153,7 +153,7 @@ function bindFiltersPanel() {
     // mosaïque récupérer l'espace libéré.
     const collapsed = panel.classList.toggle('is-collapsed');
     document.getElementById('app')?.classList.toggle('filters-collapsed', collapsed);
-    toggle.textContent = collapsed ? '+' : '−';
+    toggle.querySelector('use')?.setAttribute('href', collapsed ? '#i-plus' : '#i-minus');
     toggle.setAttribute('aria-expanded', String(!collapsed));
   });
 }
@@ -175,7 +175,7 @@ function bindKeyboard() {
   document.addEventListener('keydown', e => {
     if (e.key === 'Escape') {
       if (isLightboxOpen())                                     return closeLightbox();
-      if (!document.getElementById('md-elem-select-menu')?.hidden) return closeMdElementMenu();
+      if (mdPhotoFilter.size)                                   return clearMdElementFilter();
       if (document.querySelector('.thes-def'))                  return closeAllTermDefinitions();
       if (isPageOpen())                        return closePage();
       if (selectedId !== null)                 return deselectBatiment();

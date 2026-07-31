@@ -2,6 +2,27 @@
  * filters.js — Filtres : arrondissement, thésaurus Jantzen, architectes, périodes.
  */
 
+/**
+ * Remplit une puce : libellé + pastille de compte. Le compte n'est plus glissé
+ * entre parenthèses dans le libellé — c'est un élément à part entière du
+ * composant Chip (bordure, forme de gélule), masqué quand il vaut zéro.
+ */
+function setChipContent(chip, label, count) {
+  chip.textContent = '';
+
+  const text = document.createElement('span');
+  text.className   = 'chip-label';
+  text.textContent = label;
+  chip.appendChild(text);
+
+  if (count > 0) {
+    const badge = document.createElement('span');
+    badge.className   = 'chip-count';
+    badge.textContent = String(count);
+    chip.appendChild(badge);
+  }
+}
+
 const activeFilters = {
   arrondissements: new Set(), // Set<number>
   thesaurus:       new Set(), // Set<string> ("façade", "lucarne"…)
@@ -112,8 +133,8 @@ function buildClusterGroup(cluster, terms) {
   group.className = 'thes-group';
 
   const title = document.createElement('h4');
-  title.className = 'thes-group-label';
-  title.innerHTML = `${cluster} <span class="thes-group-count">${terms.length}</span>`;
+  title.className   = 'thes-group-label';
+  title.textContent = cluster;   // le deux-points est posé en CSS
   group.appendChild(title);
 
   const chips = document.createElement('div');
@@ -131,7 +152,7 @@ function buildTermRow(entry) {
   const chip = document.createElement('button');
   chip.type        = 'button';
   chip.className   = 'chip';
-  chip.textContent = `${capitalize(entry.term)} (${entry.count})`;
+  setChipContent(chip, capitalize(entry.term), entry.count);
   chip.dataset.id  = entry.term;
 
   const plural = `${entry.count} bâtiment${entry.count > 1 ? 's' : ''}`;
@@ -544,7 +565,7 @@ function buildArchiChipRow(entry) {
   const chip = document.createElement('button');
   chip.type        = 'button';
   chip.className   = 'chip';
-  chip.textContent = `${entry.libelle} (${entry.count})`;
+  setChipContent(chip, entry.libelle, entry.count);
   chip.dataset.id  = entry.id;
 
   const plural = `${entry.count} bâtiment${entry.count > 1 ? 's' : ''}`;
@@ -671,7 +692,7 @@ function renderPeriodesList() {
   container.style.display = 'flex';
   container.style.flexDirection = 'column';
   container.style.alignItems = 'flex-start';
-  container.style.gap = '6px';
+  container.style.gap = '4px';
 
   PERIODE_TERMS.forEach(entry => {
     const row = document.createElement('div');
@@ -682,8 +703,8 @@ function renderPeriodesList() {
     chip.type        = 'button';
     chip.className   = 'chip';
     
-    // ✨ FIX 1 : On n'affiche (count) que si count > 0, sinon juste le libellé
-    chip.textContent = entry.count > 0 ? `${entry.label} (${entry.count})` : entry.label;
+    // La pastille de compte n'apparaît que si count > 0.
+    setChipContent(chip, entry.label, entry.count);
     chip.dataset.id  = entry.label;
 
     const isActive = activeFilters.periodes.has(entry.label);
