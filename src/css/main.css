@@ -879,7 +879,7 @@ button { font-family: inherit; }
   container-type: inline-size;   /* le volet est redimensionnable : cf. plus bas */
 }
 .archi-groups[hidden] { display: none; }
-.archi-group { padding: var(--component-8) 0; }
+.archi-group { padding: var(--component-4) 0; }
 .archi-group-label {
   display: block;
   padding: var(--component-8) 0;
@@ -887,7 +887,7 @@ button { font-family: inherit; }
   letter-spacing: var(--text-interface-overline-ls);
   text-transform: uppercase;
   color: var(--text-secondary);
-  width: 140px;
+  width: 120px;
 }
 .archi-group-label::after { content: '\00a0:'; }
 .archi-chips { display: flex; flex-wrap: wrap; gap: var(--component-gap-8); }

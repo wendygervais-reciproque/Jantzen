@@ -53,9 +53,9 @@
   --lh-150:  1.5;
   --lh-160:  1.6;   /* ⚠ extrapolé (body/large) */
 
-  /* Letter-spacing — 0 partout sauf l'overline (3px sur 12px = 0.25em) */
+  /* Letter-spacing — 0 partout sauf l'overline */
   --ls-0:        0;
-  --ls-overline: 0.25em;
+  --ls-overline: 0.12em;
 }
 
 /* ─── STYLES TYPOGRAPHIQUES (Figma text styles) ──────────────────────────────
