@@ -163,7 +163,10 @@ async function renderMosaicPhotos(data) {
   mdBatId  = data.id_bat;
 
   if (header) header.hidden = mdPhotos.length === 0;
-  if (label)  label.textContent = 'Photographie(s) d’Eric Jantzen';
+  if (label) {
+    const wordPhoto = mdPhotos.length > 1 ? 'Photographies' : 'Photographie';
+    label.textContent = `${wordPhoto} d’Eric Jantzen`;
+  }
 
   buildMdElementGroups();   // puces par catégorie, à partir des termes des photos
   await renderMdGallery();
