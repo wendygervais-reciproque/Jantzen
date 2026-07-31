@@ -163,7 +163,10 @@ async function renderMosaicPhotos(data) {
   mdBatId  = data.id_bat;
 
   if (header) header.hidden = mdPhotos.length === 0;
-  if (label)  label.textContent = 'Photographie(s) d’Eric Jantzen';
+    if (label) {
+    const wordPhoto = mdPhotos.length > 1 ? 'Photographies' : 'Photographie';
+    label.textContent = `${wordPhoto} d'Erick Jantzen`;
+  }
 
   buildMdElementGroups();   // puces par catégorie, à partir des termes des photos
   await renderMdGallery();
@@ -194,6 +197,7 @@ async function renderMdGallery() {
     src:     photoUrl(ph.id_pic),
     caption: (ph.IndexJantzen || []).map(capitalize).join(' · '),
     id_pic:  ph.id_pic,
+    dateCapture: ph.dateCapture,
     ratio:   DEFAULT_RATIO
   }));
 

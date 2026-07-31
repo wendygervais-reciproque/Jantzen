@@ -107,6 +107,7 @@ function renderLightbox() {
     const dateStr = formattedDate ? ` — ${formattedDate}` : '';
 
     caption.textContent = `${counterText}${termText}${dateStr} — © Eric Jantzen `;
+    console.log('Date:', dateStr);
   }
   if (prev) prev.disabled = index <= 0;
   if (next) next.disabled = index >= photos.length - 1;
