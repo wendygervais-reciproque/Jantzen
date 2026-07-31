@@ -107,8 +107,21 @@ function renderLightbox() {
     const dateStr = formattedDate ? ` — ${formattedDate}` : '';
 
     caption.textContent = `${counterText}${termText}${dateStr} — © Eric Jantzen `;
-    console.log('Date:', dateStr);
   }
-  if (prev) prev.disabled = index <= 0;
-  if (next) next.disabled = index >= photos.length - 1;
+
+  if (photos.length > 1) {
+    // Réaffiche les flèches si elles avaient été cachées au préalable
+    if (prev) {
+      prev.style.display = ''; 
+      prev.disabled = index <= 0;
+    }
+    if (next) {
+      next.style.display = ''; 
+      next.disabled = index >= photos.length - 1;
+    }
+  } else {
+    // Masque les flèches pour une galerie d'une seule photo
+    if (prev) prev.style.display = 'none';
+    if (next) next.style.display = 'none';
+  }
 }
