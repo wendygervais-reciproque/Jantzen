@@ -1,0 +1,42 @@
+{
+  "id_bat": 1258,
+  "libelle": "174 avenue Victor-Hugo",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 694,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1903",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "174 avenue Victor-Hugo",
+    "numero": "174",
+    "voie": "avenue Victor-Hugo"
+  },
+  "arrondissement": 16,
+  "coordonnees": {
+    "latitude": "48.866111",
+    "longitude": "2.276619"
+  },
+  "id_pss": 46490,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 16370,
+  "terme_jantzen_bat": [
+    "console",
+    "sculpture"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_16370",
+      "IndexJantzen": [
+        "console",
+        "sculpture"
+      ]
+    }
+  ]
+}

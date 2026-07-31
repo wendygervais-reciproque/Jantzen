@@ -28,13 +28,13 @@
   "image_ref": "Madame-79_6_§1",
   "terme_jantzen_bat": [
     "façade",
-    "métal",
-    "décor",
-    "sculpture",
-    "atlante",
     "console",
     "cariatide",
-    "oriel"
+    "oriel",
+    "décor",
+    "sculpture",
+    "métal",
+    "atlante"
   ],
   "photos": [
     {
@@ -43,7 +43,8 @@
         "décor",
         "façade",
         "métal"
-      ]
+      ],
+      "dateCapture": "2006:06:11"
     },
     {
       "id_pic": "Madame-79_6_§2",
@@ -51,7 +52,8 @@
         "décor",
         "métal",
         "oriel"
-      ]
+      ],
+      "dateCapture": "2006:06:11"
     },
     {
       "id_pic": "Madame-79_6_§3",
@@ -60,7 +62,8 @@
         "décor",
         "métal",
         "oriel"
-      ]
+      ],
+      "dateCapture": "2004:09:06"
     },
     {
       "id_pic": "Madame-79_6_§4",
@@ -69,21 +72,24 @@
         "console",
         "décor",
         "oriel"
-      ]
+      ],
+      "dateCapture": "2004:09:06"
     },
     {
       "id_pic": "Madame-79_6_§5",
       "IndexJantzen": [
         "cariatide",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:06:11"
     },
     {
       "id_pic": "Madame-79_6_§6",
       "IndexJantzen": [
         "atlante",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:06:11"
     }
   ]
 }

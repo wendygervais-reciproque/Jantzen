@@ -27,19 +27,20 @@
   "WPfr": null,
   "image_ref": "Pere-Brottier-9_16_§1",
   "terme_jantzen_bat": [
-    "porte-fer",
-    "fenetre",
+    "console",
+    "porte-fer-hall",
     "décor",
     "sculpture",
-    "console",
-    "porte-fer-hall"
+    "fenetre",
+    "porte-fer"
   ],
   "photos": [
     {
       "id_pic": "Pere-Brottier-9_16_§1",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "dateCapture": null
     },
     {
       "id_pic": "Pere-Brottier-9_16_§2",
@@ -47,35 +48,40 @@
         "décor",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:05:18"
     },
     {
       "id_pic": "Pere-Brottier-9_16_§3",
       "IndexJantzen": [
         "console",
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2005:05:18"
     },
     {
       "id_pic": "Pere-Brottier-9_16_§4",
       "IndexJantzen": [
         "fenetre",
         "porte-fer-hall"
-      ]
+      ],
+      "dateCapture": "2004:07:24"
     },
     {
       "id_pic": "Pere-Brottier-9_16_§5",
       "IndexJantzen": [
         "fenetre",
         "porte-fer"
-      ]
+      ],
+      "dateCapture": "2005:05:18"
     },
     {
       "id_pic": "Pere-Brottier-9_16_§6",
       "IndexJantzen": [
         "fenetre",
         "porte-fer"
-      ]
+      ],
+      "dateCapture": "2005:05:18"
     }
   ]
 }

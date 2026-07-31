@@ -27,11 +27,11 @@
   "WPfr": null,
   "image_ref": "Molitor_55_16_§11",
   "terme_jantzen_bat": [
-    "lucarne-d'angle",
-    "fenetre",
-    "sculpture",
     "console",
-    "chimère"
+    "chimère",
+    "sculpture",
+    "fenetre",
+    "lucarne-d'angle"
   ],
   "photos": [
     {
@@ -40,7 +40,8 @@
         "chimère",
         "console",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:06:30"
     },
     {
       "id_pic": "Molitor_55_16_§12",
@@ -48,33 +49,38 @@
         "chimère",
         "console",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:04:02"
     },
     {
       "id_pic": "Molitor_55_16_§3",
       "IndexJantzen": [
         "lucarne-d'angle"
-      ]
+      ],
+      "dateCapture": "2006:06:30"
     },
     {
       "id_pic": "Molitor_55_16_§4",
       "IndexJantzen": [
         "lucarne-d'angle"
-      ]
+      ],
+      "dateCapture": "2006:06:30"
     },
     {
       "id_pic": "Molitor_55_16_§5",
       "IndexJantzen": [
         "lucarne-d'angle",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:06:30"
     },
     {
       "id_pic": "Molitor_55_16_§7",
       "IndexJantzen": [
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:05:28"
     },
     {
       "id_pic": "Molitor_55_16_§8",
@@ -82,7 +88,8 @@
         "chimère",
         "console",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:05:28"
     },
     {
       "id_pic": "Molitor_55_16_§9",
@@ -90,7 +97,8 @@
         "chimère",
         "console",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:04:02"
     }
   ]
 }

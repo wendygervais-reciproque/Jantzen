@@ -1,0 +1,77 @@
+{
+  "id_bat": 3672,
+  "libelle": "80 rue Traversière",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 33,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1902",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "80 rue Traversière",
+    "numero": "80",
+    "voie": "rue Traversière"
+  },
+  "arrondissement": 12,
+  "coordonnees": {
+    "latitude": "48.850997",
+    "longitude": "2.376119"
+  },
+  "id_pss": null,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 15472,
+  "terme_jantzen_bat": [
+    "façade-d'angle",
+    "dome",
+    "fenetre",
+    "sculpture",
+    "décor",
+    "fenetre-d'angle",
+    "balcon"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_15472",
+      "IndexJantzen": [
+        "dome",
+        "façade-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_15473",
+      "IndexJantzen": [
+        "balcon",
+        "dome",
+        "fenetre-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_15474",
+      "IndexJantzen": [
+        "fenetre",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_15475",
+      "IndexJantzen": [
+        "décor",
+        "fenetre",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_15476",
+      "IndexJantzen": [
+        "balcon",
+        "fenetre"
+      ]
+    }
+  ]
+}

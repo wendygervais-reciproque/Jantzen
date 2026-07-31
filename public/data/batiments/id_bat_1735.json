@@ -22,13 +22,13 @@
   "WPfr": null,
   "image_ref": "Vendome-Pl-23_1_§10",
   "terme_jantzen_bat": [
-    "lucarne",
     "façade",
-    "fronton",
-    "fenetre",
     "oeil-de-boeuf",
+    "garde-corps",
+    "lucarne",
+    "fronton",
     "clé",
-    "garde-corps"
+    "fenetre"
   ],
   "photos": [
     {
@@ -36,26 +36,30 @@
       "IndexJantzen": [
         "fronton",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2005:06:19"
     },
     {
       "id_pic": "Vendome-Pl-23_1_§2",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "dateCapture": "2009:03:16"
     },
     {
       "id_pic": "Vendome-Pl-23_1_§3",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "dateCapture": "2005:06:19"
     },
     {
       "id_pic": "Vendome-Pl-23_1_§4",
       "IndexJantzen": [
         "fenetre",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2009:03:16"
     },
     {
       "id_pic": "Vendome-Pl-23_1_§5",
@@ -63,33 +67,38 @@
         "fenetre",
         "lucarne",
         "oeil-de-boeuf"
-      ]
+      ],
+      "dateCapture": "2009:03:16"
     },
     {
       "id_pic": "Vendome-Pl-23_1_§6",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2005:06:19"
     },
     {
       "id_pic": "Vendome-Pl-23_1_§7",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2005:06:19"
     },
     {
       "id_pic": "Vendome-Pl-23_1_§8",
       "IndexJantzen": [
         "clé",
         "garde-corps"
-      ]
+      ],
+      "dateCapture": "2005:06:19"
     },
     {
       "id_pic": "Vendome-Pl-23_1_§9",
       "IndexJantzen": [
         "lucarne",
         "oeil-de-boeuf"
-      ]
+      ],
+      "dateCapture": "2008:06:21"
     }
   ]
 }

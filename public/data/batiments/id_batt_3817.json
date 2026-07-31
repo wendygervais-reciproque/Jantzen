@@ -1,0 +1,97 @@
+{
+  "id_bat": 3817,
+  "libelle": "9 rue d'Uzès",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 578,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1886",
+  "periode": [
+    "1870-1894"
+  ],
+  "adresse": {
+    "affichage": "9 rue d'Uzès",
+    "numero": "9",
+    "voie": "rue d'Uzès"
+  },
+  "arrondissement": 2,
+  "coordonnees": {
+    "latitude": "48.870473",
+    "longitude": "2.344613"
+  },
+  "id_pss": null,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 15709,
+  "terme_jantzen_bat": [
+    "cariatide",
+    "colonne",
+    "sculpture",
+    "fenetre",
+    "métal",
+    "verrière"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_15709",
+      "IndexJantzen": [
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_15710",
+      "IndexJantzen": [
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_15711",
+      "IndexJantzen": [
+        "fenetre",
+        "verrière"
+      ]
+    },
+    {
+      "id_pic": "image_15712",
+      "IndexJantzen": [
+        "colonne",
+        "fenetre",
+        "verrière"
+      ]
+    },
+    {
+      "id_pic": "image_15713",
+      "IndexJantzen": [
+        "colonne",
+        "fenetre",
+        "métal",
+        "verrière"
+      ]
+    },
+    {
+      "id_pic": "image_15714",
+      "IndexJantzen": [
+        "fenetre",
+        "verrière"
+      ]
+    },
+    {
+      "id_pic": "image_15715",
+      "IndexJantzen": [
+        "fenetre",
+        "sculpture",
+        "verrière"
+      ]
+    },
+    {
+      "id_pic": "image_15716",
+      "IndexJantzen": [
+        "cariatide",
+        "sculpture"
+      ]
+    }
+  ]
+}

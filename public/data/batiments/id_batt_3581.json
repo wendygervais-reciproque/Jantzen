@@ -1,0 +1,118 @@
+{
+  "id_bat": 3581,
+  "libelle": "8 avenue Alphand",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 542,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1904",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "8 avenue Alphand",
+    "numero": "8",
+    "voie": "avenue Alphand"
+  },
+  "arrondissement": 16,
+  "coordonnees": {
+    "latitude": "48.875101",
+    "longitude": "2.285068"
+  },
+  "id_pss": 38205,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 236,
+  "terme_jantzen_bat": [
+    "cariatide",
+    "clé",
+    "sculpture",
+    "fenetre",
+    "porte-fer-hall",
+    "porte-fer",
+    "console"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_236",
+      "IndexJantzen": [
+        "cariatide",
+        "console",
+        "fenetre",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_237",
+      "IndexJantzen": [
+        "clé",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_238",
+      "IndexJantzen": [
+        "cariatide",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_239",
+      "IndexJantzen": [
+        "cariatide",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_240",
+      "IndexJantzen": [
+        "console",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_241",
+      "IndexJantzen": [
+        "cariatide",
+        "fenetre",
+        "porte-fer-hall"
+      ]
+    },
+    {
+      "id_pic": "image_242",
+      "IndexJantzen": [
+        "cariatide",
+        "fenetre",
+        "porte-fer"
+      ]
+    },
+    {
+      "id_pic": "image_243",
+      "IndexJantzen": [
+        "porte-fer-hall",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_244",
+      "IndexJantzen": [
+        "cariatide",
+        "console",
+        "fenetre",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_245",
+      "IndexJantzen": [
+        "cariatide",
+        "fenetre",
+        "porte-fer-hall",
+        "sculpture"
+      ]
+    }
+  ]
+}

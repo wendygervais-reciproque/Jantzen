@@ -1,0 +1,40 @@
+{
+  "id_bat": 2220,
+  "libelle": "32 rue de Prony",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 233,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1875",
+  "periode": [
+    "1870-1894"
+  ],
+  "adresse": {
+    "affichage": "32 rue de Prony",
+    "numero": "32",
+    "voie": "rue de Prony"
+  },
+  "arrondissement": 17,
+  "coordonnees": {
+    "latitude": "48.881594",
+    "longitude": "2.306193"
+  },
+  "id_pss": null,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 12093,
+  "terme_jantzen_bat": [
+    "lucarne"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_12093",
+      "IndexJantzen": [
+        "lucarne"
+      ]
+    }
+  ]
+}

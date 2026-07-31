@@ -1,0 +1,108 @@
+{
+  "id_bat": 2558,
+  "libelle": "40 avenue du Président-Wilson",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 32,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1907",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "40 avenue du Président-Wilson",
+    "numero": "40",
+    "voie": "avenue du Président-Wilson"
+  },
+  "arrondissement": 16,
+  "coordonnees": {
+    "latitude": "48.863777",
+    "longitude": "2.289527"
+  },
+  "id_pss": 27690,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 12036,
+  "terme_jantzen_bat": [
+    "oriel",
+    "lucarne",
+    "fenetre",
+    "sculpture",
+    "porte-fer-hall",
+    "balcon",
+    "garde-corps",
+    "pignon"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_12036",
+      "IndexJantzen": [
+        "fenetre",
+        "oriel"
+      ]
+    },
+    {
+      "id_pic": "image_12037",
+      "IndexJantzen": [
+        "porte-fer-hall"
+      ]
+    },
+    {
+      "id_pic": "image_12038",
+      "IndexJantzen": [
+        "porte-fer-hall"
+      ]
+    },
+    {
+      "id_pic": "image_12039",
+      "IndexJantzen": [
+        "porte-fer-hall"
+      ]
+    },
+    {
+      "id_pic": "image_12040",
+      "IndexJantzen": [
+        "fenetre",
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_12041",
+      "IndexJantzen": [
+        "fenetre",
+        "oriel"
+      ]
+    },
+    {
+      "id_pic": "image_12042",
+      "IndexJantzen": [
+        "fenetre",
+        "oriel"
+      ]
+    },
+    {
+      "id_pic": "image_12043",
+      "IndexJantzen": [
+        "lucarne",
+        "pignon"
+      ]
+    },
+    {
+      "id_pic": "image_12044",
+      "IndexJantzen": [
+        "lucarne",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_12045",
+      "IndexJantzen": [
+        "balcon",
+        "garde-corps"
+      ]
+    }
+  ]
+}

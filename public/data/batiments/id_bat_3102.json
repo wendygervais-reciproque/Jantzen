@@ -23,10 +23,10 @@
   "image_ref": "Mexico-pl-6_16_§1",
   "terme_jantzen_bat": [
     "lucarne",
-    "façade-d'angle",
+    "fenetre-d'angle",
     "fenetre",
-    "dome",
-    "fenetre-d'angle"
+    "façade-d'angle",
+    "dome"
   ],
   "photos": [
     {
@@ -34,49 +34,56 @@
       "IndexJantzen": [
         "dome",
         "façade-d'angle"
-      ]
+      ],
+      "dateCapture": "2005:05:18"
     },
     {
       "id_pic": "Mexico-pl-6_16_§10",
       "IndexJantzen": [
         "dome",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2005:05:18"
     },
     {
       "id_pic": "Mexico-pl-6_16_§11",
       "IndexJantzen": [
         "dome",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2005:05:18"
     },
     {
       "id_pic": "Mexico-pl-6_16_§12",
       "IndexJantzen": [
         "dome",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2007:05:10"
     },
     {
       "id_pic": "Mexico-pl-6_16_§13",
       "IndexJantzen": [
         "dome",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2007:05:10"
     },
     {
       "id_pic": "Mexico-pl-6_16_§2",
       "IndexJantzen": [
         "dome",
         "façade-d'angle"
-      ]
+      ],
+      "dateCapture": "2009:03:31"
     },
     {
       "id_pic": "Mexico-pl-6_16_§3",
       "IndexJantzen": [
         "dome",
         "fenetre-d'angle"
-      ]
+      ],
+      "dateCapture": "2005:05:18"
     },
     {
       "id_pic": "Mexico-pl-6_16_§5",
@@ -84,7 +91,8 @@
         "dome",
         "fenetre",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2009:03:31"
     },
     {
       "id_pic": "Mexico-pl-6_16_§6",
@@ -92,7 +100,8 @@
         "dome",
         "fenetre",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2005:05:18"
     },
     {
       "id_pic": "Mexico-pl-6_16_§7",
@@ -100,21 +109,24 @@
         "dome",
         "fenetre",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2005:05:18"
     },
     {
       "id_pic": "Mexico-pl-6_16_§8",
       "IndexJantzen": [
         "dome",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2005:03:25"
     },
     {
       "id_pic": "Mexico-pl-6_16_§9",
       "IndexJantzen": [
         "dome",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2009:03:31"
     }
   ]
 }

@@ -27,9 +27,9 @@
   "WPfr": null,
   "image_ref": "Regard-13_6_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "porte-bois",
-    "clé"
+    "clé",
+    "fenetre"
   ],
   "photos": [
     {
@@ -37,21 +37,24 @@
       "IndexJantzen": [
         "fenetre",
         "porte-bois"
-      ]
+      ],
+      "dateCapture": "2006:05:14"
     },
     {
       "id_pic": "Regard-13_6_§2",
       "IndexJantzen": [
         "fenetre",
         "porte-bois"
-      ]
+      ],
+      "dateCapture": "2006:05:14"
     },
     {
       "id_pic": "Regard-13_6_§3",
       "IndexJantzen": [
         "clé",
         "porte-bois"
-      ]
+      ],
+      "dateCapture": "2006:05:14"
     }
   ]
 }

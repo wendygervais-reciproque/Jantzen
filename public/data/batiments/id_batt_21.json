@@ -1,0 +1,39 @@
+{
+  "id_bat": 21,
+  "libelle": "Cour Carré - Est",
+  "ensemble": "Palais du Louvre",
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": null,
+  "adresse": null,
+  "arrondissement": 1,
+  "coordonnees": {
+    "latitude": "48.860194",
+    "longitude": "2.339325"
+  },
+  "id_pss": 73063,
+  "id_wikidata": "Q3000930",
+  "WPfr": "Cour carrée",
+  "image_ref": 8588,
+  "terme_jantzen_bat": [
+    "intérieur",
+    "porte-bois",
+    "sculpture"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_8588",
+      "IndexJantzen": [
+        "intérieur",
+        "porte-bois"
+      ]
+    },
+    {
+      "id_pic": "image_8589",
+      "IndexJantzen": [
+        "intérieur",
+        "sculpture"
+      ]
+    }
+  ]
+}

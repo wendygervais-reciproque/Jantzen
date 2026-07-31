@@ -1,0 +1,78 @@
+{
+  "id_bat": 89,
+  "libelle": "Grande mosquée de Paris",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": "1922-1926",
+  "periode": [
+    "1915-1944"
+  ],
+  "adresse": null,
+  "arrondissement": 5,
+  "coordonnees": {
+    "latitude": "48.841944444444",
+    "longitude": "2.355"
+  },
+  "id_pss": 729,
+  "id_wikidata": "Q392564",
+  "WPfr": "Grande mosquée de Paris",
+  "image_ref": 5297,
+  "terme_jantzen_bat": [
+    "céramique",
+    "dome",
+    "toiture",
+    "fenetre",
+    "tour",
+    "porte-bois",
+    "mosaique"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_5297",
+      "IndexJantzen": [
+        "mosaique",
+        "tour"
+      ]
+    },
+    {
+      "id_pic": "image_5298",
+      "IndexJantzen": [
+        "mosaique",
+        "tour"
+      ]
+    },
+    {
+      "id_pic": "image_5299",
+      "IndexJantzen": [
+        "céramique",
+        "toiture"
+      ]
+    },
+    {
+      "id_pic": "image_5300",
+      "IndexJantzen": [
+        "dome",
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_5301",
+      "IndexJantzen": [
+        "dome",
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_5302",
+      "IndexJantzen": [
+        "dome"
+      ]
+    },
+    {
+      "id_pic": "image_5303",
+      "IndexJantzen": [
+        "porte-bois"
+      ]
+    }
+  ]
+}

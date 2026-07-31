@@ -1,0 +1,92 @@
+{
+  "id_bat": 3692,
+  "libelle": "82 rue François-Miron",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 203,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1704-1715",
+  "periode": [
+    "1660-1759"
+  ],
+  "adresse": {
+    "affichage": "82 rue François-Miron",
+    "numero": "82",
+    "voie": "rue François-Miron"
+  },
+  "arrondissement": 4,
+  "coordonnees": {
+    "latitude": "48.855327",
+    "longitude": "2.359257"
+  },
+  "id_pss": 5045,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 4905,
+  "terme_jantzen_bat": [
+    "porte-bois",
+    "façade",
+    "fenetre",
+    "sculpture",
+    "balcon",
+    "garde-corps",
+    "fronton",
+    "console"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_4905",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_4906",
+      "IndexJantzen": [
+        "fenetre",
+        "fronton",
+        "garde-corps"
+      ]
+    },
+    {
+      "id_pic": "image_4907",
+      "IndexJantzen": [
+        "balcon",
+        "garde-corps"
+      ]
+    },
+    {
+      "id_pic": "image_4908",
+      "IndexJantzen": [
+        "balcon",
+        "console",
+        "garde-corps",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_4909",
+      "IndexJantzen": [
+        "console",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_4910",
+      "IndexJantzen": [
+        "console",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_4911",
+      "IndexJantzen": [
+        "fenetre",
+        "porte-bois"
+      ]
+    }
+  ]
+}

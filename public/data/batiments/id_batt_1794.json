@@ -1,0 +1,109 @@
+{
+  "id_bat": 1794,
+  "libelle": "24 rue de Bagnolet",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 305,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1909",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "24 rue de Bagnolet",
+    "numero": "24",
+    "voie": "rue de Bagnolet"
+  },
+  "arrondissement": 20,
+  "coordonnees": {
+    "latitude": "48.856733",
+    "longitude": "2.396847"
+  },
+  "id_pss": 89546,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 783,
+  "terme_jantzen_bat": [
+    "façade-d'angle",
+    "poignée-porte",
+    "céramique",
+    "brique",
+    "décor",
+    "fenetre",
+    "sculpture",
+    "fenetre-d'angle",
+    "balcon",
+    "garde-corps"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_783",
+      "IndexJantzen": [
+        "brique",
+        "façade-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_784",
+      "IndexJantzen": [
+        "balcon",
+        "brique",
+        "fenetre-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_785",
+      "IndexJantzen": [
+        "balcon",
+        "brique",
+        "fenetre-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_786",
+      "IndexJantzen": [
+        "brique",
+        "céramique",
+        "décor",
+        "fenetre",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_787",
+      "IndexJantzen": [
+        "brique",
+        "céramique",
+        "décor",
+        "fenetre",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_788",
+      "IndexJantzen": [
+        "brique",
+        "céramique",
+        "décor",
+        "fenetre",
+        "garde-corps",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_789",
+      "IndexJantzen": [
+        "poignée-porte"
+      ]
+    },
+    {
+      "id_pic": "image_790",
+      "IndexJantzen": [
+        "poignée-porte"
+      ]
+    }
+  ]
+}

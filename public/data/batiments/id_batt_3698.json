@@ -1,0 +1,75 @@
+{
+  "id_bat": 3698,
+  "libelle": "83 avenue Niel",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "83 avenue Niel",
+    "numero": "83",
+    "voie": "avenue Niel"
+  },
+  "arrondissement": 17,
+  "coordonnees": {
+    "latitude": "48.88326",
+    "longitude": "2.296329"
+  },
+  "id_pss": 12331,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 10285,
+  "terme_jantzen_bat": [
+    "façade-d'angle",
+    "sculpture",
+    "décor",
+    "fenetre",
+    "fenetre-d'angle",
+    "tourelle"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_10285",
+      "IndexJantzen": [
+        "façade-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_10286",
+      "IndexJantzen": [
+        "fenetre-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_10287",
+      "IndexJantzen": [
+        "fenetre-d'angle",
+        "tourelle"
+      ]
+    },
+    {
+      "id_pic": "image_10288",
+      "IndexJantzen": [
+        "fenetre-d'angle",
+        "tourelle"
+      ]
+    },
+    {
+      "id_pic": "image_10289",
+      "IndexJantzen": [
+        "décor",
+        "fenetre-d'angle",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_10290",
+      "IndexJantzen": [
+        "fenetre",
+        "sculpture"
+      ]
+    }
+  ]
+}

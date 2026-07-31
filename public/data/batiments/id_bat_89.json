@@ -18,13 +18,13 @@
   "WPfr": "Grande mosquée de Paris",
   "image_ref": "Georges-Delmas_5_§1",
   "terme_jantzen_bat": [
-    "toiture",
-    "céramique",
-    "fenetre",
-    "dome",
     "tour",
     "mosaique",
-    "porte-bois"
+    "porte-bois",
+    "fenetre",
+    "céramique",
+    "toiture",
+    "dome"
   ],
   "photos": [
     {
@@ -32,47 +32,54 @@
       "IndexJantzen": [
         "mosaique",
         "tour"
-      ]
+      ],
+      "dateCapture": "2005:04:11"
     },
     {
       "id_pic": "Georges-Delmas_5_§2",
       "IndexJantzen": [
         "mosaique",
         "tour"
-      ]
+      ],
+      "dateCapture": "2005:04:11"
     },
     {
       "id_pic": "Georges-Delmas_5_§3",
       "IndexJantzen": [
         "céramique",
         "toiture"
-      ]
+      ],
+      "dateCapture": "2005:07:17"
     },
     {
       "id_pic": "Georges-Delmas_5_§4",
       "IndexJantzen": [
         "dome",
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2005:07:17"
     },
     {
       "id_pic": "Georges-Delmas_5_§5",
       "IndexJantzen": [
         "dome",
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2005:07:17"
     },
     {
       "id_pic": "Georges-Delmas_5_§6",
       "IndexJantzen": [
         "dome"
-      ]
+      ],
+      "dateCapture": "2005:07:17"
     },
     {
       "id_pic": "Georges-Delmas_5_§7",
       "IndexJantzen": [
         "porte-bois"
-      ]
+      ],
+      "dateCapture": null
     }
   ]
 }

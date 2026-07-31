@@ -1,0 +1,75 @@
+{
+  "id_bat": 1611,
+  "libelle": "21 boulevard Suchet",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 389,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1912",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "21 boulevard Suchet",
+    "numero": "21",
+    "voie": "boulevard Suchet"
+  },
+  "arrondissement": 1,
+  "coordonnees": {
+    "latitude": "48.859295",
+    "longitude": "2.266148"
+  },
+  "id_pss": 27651,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 14945,
+  "terme_jantzen_bat": [
+    "façade-d'angle",
+    "oriel",
+    "loggia",
+    "lucarne",
+    "colonne",
+    "dome",
+    "sculpture",
+    "console"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_14945",
+      "IndexJantzen": [
+        "dome",
+        "façade-d'angle",
+        "oriel"
+      ]
+    },
+    {
+      "id_pic": "image_14946",
+      "IndexJantzen": [
+        "colonne",
+        "loggia"
+      ]
+    },
+    {
+      "id_pic": "image_14947",
+      "IndexJantzen": [
+        "loggia"
+      ]
+    },
+    {
+      "id_pic": "image_14948",
+      "IndexJantzen": [
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_14949",
+      "IndexJantzen": [
+        "console",
+        "sculpture"
+      ]
+    }
+  ]
+}

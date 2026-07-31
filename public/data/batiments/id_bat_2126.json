@@ -22,34 +22,37 @@
   "WPfr": null,
   "image_ref": "Verdi-3_16_§1",
   "terme_jantzen_bat": [
-    "lucarne",
     "façade",
-    "toiture",
-    "fenetre",
+    "lucarne",
+    "oriel",
     "décor",
     "sculpture",
+    "fenetre",
     "colonne",
-    "oriel"
+    "toiture"
   ],
   "photos": [
     {
       "id_pic": "Verdi-3_16_§1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "dateCapture": "2004:05:21"
     },
     {
       "id_pic": "Verdi-3_16_§2",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "dateCapture": "2005:04:30"
     },
     {
       "id_pic": "Verdi-3_16_§3",
       "IndexJantzen": [
         "lucarne",
         "toiture"
-      ]
+      ],
+      "dateCapture": "2007:03:27"
     },
     {
       "id_pic": "Verdi-3_16_§4",
@@ -57,7 +60,8 @@
         "décor",
         "oriel",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2004:05:21"
     },
     {
       "id_pic": "Verdi-3_16_§5",
@@ -66,7 +70,8 @@
         "décor",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:04:30"
     }
   ]
 }

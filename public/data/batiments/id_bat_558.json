@@ -27,14 +27,14 @@
   "WPfr": null,
   "image_ref": "Pereire-116_17_§1",
   "terme_jantzen_bat": [
-    "lucarne",
-    "toiture",
-    "porte-fer",
-    "fenetre",
-    "oeil-de-boeuf",
-    "sculpture",
     "console",
-    "chimère"
+    "oeil-de-boeuf",
+    "lucarne",
+    "chimère",
+    "sculpture",
+    "fenetre",
+    "porte-fer",
+    "toiture"
   ],
   "photos": [
     {
@@ -43,7 +43,8 @@
         "fenetre",
         "lucarne",
         "toiture"
-      ]
+      ],
+      "dateCapture": "2012:04:22"
     },
     {
       "id_pic": "Pereire-116_17_§10",
@@ -51,7 +52,8 @@
         "chimère",
         "console",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2009:07:01"
     },
     {
       "id_pic": "Pereire-116_17_§2",
@@ -59,7 +61,8 @@
         "fenetre",
         "lucarne",
         "toiture"
-      ]
+      ],
+      "dateCapture": "2012:04:22"
     },
     {
       "id_pic": "Pereire-116_17_§3",
@@ -67,49 +70,56 @@
         "fenetre",
         "lucarne",
         "toiture"
-      ]
+      ],
+      "dateCapture": "2009:03:15"
     },
     {
       "id_pic": "Pereire-116_17_§4",
       "IndexJantzen": [
         "fenetre",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2012:04:22"
     },
     {
       "id_pic": "Pereire-116_17_§5",
       "IndexJantzen": [
         "lucarne",
         "oeil-de-boeuf"
-      ]
+      ],
+      "dateCapture": "2009:03:15"
     },
     {
       "id_pic": "Pereire-116_17_§6",
       "IndexJantzen": [
         "fenetre",
         "porte-fer"
-      ]
+      ],
+      "dateCapture": "2009:03:15"
     },
     {
       "id_pic": "Pereire-116_17_§7",
       "IndexJantzen": [
         "console",
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2009:03:15"
     },
     {
       "id_pic": "Pereire-116_17_§8",
       "IndexJantzen": [
         "chimère",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2012:04:22"
     },
     {
       "id_pic": "Pereire-116_17_§9",
       "IndexJantzen": [
         "chimère",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2009:03:15"
     }
   ]
 }

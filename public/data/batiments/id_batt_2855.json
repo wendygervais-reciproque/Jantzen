@@ -1,0 +1,40 @@
+{
+  "id_bat": 2855,
+  "libelle": "5 rue des Colonels-Renard",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 565,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1913",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "5 rue des Colonels-Renard",
+    "numero": "5",
+    "voie": "rue des Colonels-Renard"
+  },
+  "arrondissement": 17,
+  "coordonnees": {
+    "latitude": "48.877886",
+    "longitude": "2.290927"
+  },
+  "id_pss": 78556,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 2834,
+  "terme_jantzen_bat": [
+    "porte-fer-hall"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_2834",
+      "IndexJantzen": [
+        "porte-fer-hall"
+      ]
+    }
+  ]
+}

@@ -29,9 +29,9 @@
   "terme_jantzen_bat": [
     "façade",
     "fenetre",
+    "pilastre",
     "balcon",
-    "porte-bois",
-    "pilastre"
+    "porte-bois"
   ],
   "photos": [
     {
@@ -39,21 +39,24 @@
       "IndexJantzen": [
         "balcon",
         "façade"
-      ]
+      ],
+      "dateCapture": "2010:04:18"
     },
     {
       "id_pic": "Castellane-4_8_§3",
       "IndexJantzen": [
         "fenetre",
         "pilastre"
-      ]
+      ],
+      "dateCapture": "2010:04:18"
     },
     {
       "id_pic": "Castellane-4_8_§4",
       "IndexJantzen": [
         "fenetre",
         "porte-bois"
-      ]
+      ],
+      "dateCapture": "2010:04:18"
     }
   ]
 }

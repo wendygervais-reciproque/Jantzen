@@ -27,11 +27,11 @@
   "WPfr": null,
   "image_ref": "Emile-Zola-124_15_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "décor",
-    "sculpture",
     "console",
     "loggia",
+    "décor",
+    "sculpture",
+    "fenetre",
     "colonne"
   ],
   "photos": [
@@ -41,14 +41,16 @@
         "décor",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:07:16"
     },
     {
       "id_pic": "Emile-Zola-124_15_§2",
       "IndexJantzen": [
         "fenetre",
         "loggia"
-      ]
+      ],
+      "dateCapture": "2005:04:03"
     },
     {
       "id_pic": "Emile-Zola-124_15_§3",
@@ -56,14 +58,16 @@
         "colonne",
         "fenetre",
         "loggia"
-      ]
+      ],
+      "dateCapture": "2005:04:03"
     },
     {
       "id_pic": "Emile-Zola-124_15_§4",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:04:03"
     }
   ]
 }

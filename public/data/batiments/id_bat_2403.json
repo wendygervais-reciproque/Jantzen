@@ -22,14 +22,14 @@
   "WPfr": null,
   "image_ref": "Fabert-38B_7_§1",
   "terme_jantzen_bat": [
-    "lucarne",
     "façade",
-    "fenetre",
+    "garde-corps",
+    "lucarne",
     "décor",
     "sculpture",
+    "fenetre",
     "balcon",
-    "porte-bois",
-    "garde-corps"
+    "porte-bois"
   ],
   "photos": [
     {
@@ -37,7 +37,8 @@
       "IndexJantzen": [
         "balcon",
         "façade"
-      ]
+      ],
+      "dateCapture": "2004:05:24"
     },
     {
       "id_pic": "Fabert-38B_7_§2",
@@ -46,14 +47,16 @@
         "fenetre",
         "lucarne",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2004:05:24"
     },
     {
       "id_pic": "Fabert-38B_7_§3",
       "IndexJantzen": [
         "fenetre",
         "garde-corps"
-      ]
+      ],
+      "dateCapture": "2004:05:24"
     },
     {
       "id_pic": "Fabert-38B_7_§4",
@@ -61,25 +64,29 @@
         "décor",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:08:04"
     },
     {
       "id_pic": "Fabert-38B_7_§5",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:08:04"
     },
     {
       "id_pic": "Fabert-38B_7_§6",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:08:04"
     },
     {
       "id_pic": "Fabert-38B_7_§7",
       "IndexJantzen": [
         "porte-bois"
-      ]
+      ],
+      "dateCapture": "2004:05:24"
     }
   ]
 }

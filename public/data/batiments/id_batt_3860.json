@@ -1,0 +1,51 @@
+{
+  "id_bat": 3860,
+  "libelle": "91 avenue Henri-Martin",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 545,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": null,
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "91 avenue Henri-Martin",
+    "numero": "91",
+    "voie": "avenue Henri-Martin"
+  },
+  "arrondissement": 16,
+  "coordonnees": {
+    "latitude": "48.86407",
+    "longitude": "2.273584"
+  },
+  "id_pss": 23756,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 6326,
+  "terme_jantzen_bat": [
+    "porte-fer",
+    "colonne",
+    "marquise"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_6326",
+      "IndexJantzen": [
+        "colonne",
+        "porte-fer"
+      ]
+    },
+    {
+      "id_pic": "image_6327",
+      "IndexJantzen": [
+        "colonne",
+        "marquise",
+        "porte-fer"
+      ]
+    }
+  ]
+}

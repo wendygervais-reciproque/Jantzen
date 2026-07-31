@@ -28,12 +28,12 @@
   "image_ref": "Vaugirard-95_6_§1",
   "terme_jantzen_bat": [
     "façade",
-    "céramique",
+    "oriel",
     "brique",
-    "fenetre",
     "porte-bois",
-    "marquise",
-    "oriel"
+    "fenetre",
+    "céramique",
+    "marquise"
   ],
   "photos": [
     {
@@ -42,7 +42,8 @@
         "brique",
         "céramique",
         "façade"
-      ]
+      ],
+      "dateCapture": "2004:05:18"
     },
     {
       "id_pic": "Vaugirard-95_6_§10",
@@ -50,21 +51,24 @@
         "céramique",
         "marquise",
         "porte-bois"
-      ]
+      ],
+      "dateCapture": "2006:06:05"
     },
     {
       "id_pic": "Vaugirard-95_6_§11",
       "IndexJantzen": [
         "céramique",
         "porte-bois"
-      ]
+      ],
+      "dateCapture": "2006:06:23"
     },
     {
       "id_pic": "Vaugirard-95_6_§13",
       "IndexJantzen": [
         "marquise",
         "porte-bois"
-      ]
+      ],
+      "dateCapture": "2006:06:23"
     },
     {
       "id_pic": "Vaugirard-95_6_§2",
@@ -72,7 +76,8 @@
         "brique",
         "céramique",
         "façade"
-      ]
+      ],
+      "dateCapture": "2006:06:23"
     },
     {
       "id_pic": "Vaugirard-95_6_§3",
@@ -80,7 +85,8 @@
         "brique",
         "céramique",
         "façade"
-      ]
+      ],
+      "dateCapture": "2006:06:23"
     },
     {
       "id_pic": "Vaugirard-95_6_§4",
@@ -88,7 +94,8 @@
         "brique",
         "céramique",
         "oriel"
-      ]
+      ],
+      "dateCapture": "2006:06:05"
     },
     {
       "id_pic": "Vaugirard-95_6_§5",
@@ -96,21 +103,24 @@
         "céramique",
         "fenetre",
         "marquise"
-      ]
+      ],
+      "dateCapture": "2006:06:23"
     },
     {
       "id_pic": "Vaugirard-95_6_§6",
       "IndexJantzen": [
         "céramique",
         "oriel"
-      ]
+      ],
+      "dateCapture": "2006:06:23"
     },
     {
       "id_pic": "Vaugirard-95_6_§7",
       "IndexJantzen": [
         "céramique",
         "marquise"
-      ]
+      ],
+      "dateCapture": "2006:06:05"
     },
     {
       "id_pic": "Vaugirard-95_6_§8",
@@ -118,14 +128,16 @@
         "céramique",
         "marquise",
         "oriel"
-      ]
+      ],
+      "dateCapture": "2006:06:23"
     },
     {
       "id_pic": "Vaugirard-95_6_§9",
       "IndexJantzen": [
         "céramique",
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2004:05:18"
     }
   ]
 }

@@ -1,0 +1,42 @@
+{
+  "id_bat": 3770,
+  "libelle": "9 avenue Émile-Deschanel",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 27,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1911",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "9 avenue Émile-Deschanel",
+    "numero": "9",
+    "voie": "avenue Émile-Deschanel"
+  },
+  "arrondissement": 7,
+  "coordonnees": {
+    "latitude": "48.856174",
+    "longitude": "2.301433"
+  },
+  "id_pss": 27976,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 4066,
+  "terme_jantzen_bat": [
+    "console",
+    "sculpture"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_4066",
+      "IndexJantzen": [
+        "console",
+        "sculpture"
+      ]
+    }
+  ]
+}

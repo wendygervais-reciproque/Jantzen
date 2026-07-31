@@ -27,11 +27,11 @@
   "WPfr": null,
   "image_ref": "Hoche-4_8_§1",
   "terme_jantzen_bat": [
-    "fenetre",
+    "porte-bois",
     "sculpture",
-    "atlante",
     "poignée-porte",
-    "porte-bois"
+    "fenetre",
+    "atlante"
   ],
   "photos": [
     {
@@ -40,34 +40,39 @@
         "atlante",
         "fenetre",
         "porte-bois"
-      ]
+      ],
+      "dateCapture": "2004:05:16"
     },
     {
       "id_pic": "Hoche-4_8_§2",
       "IndexJantzen": [
         "atlante",
         "sculpture"
-      ]
+      ],
+      "dateCapture": null
     },
     {
       "id_pic": "Hoche-4_8_§3",
       "IndexJantzen": [
         "atlante",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2004:05:16"
     },
     {
       "id_pic": "Hoche-4_8_§4-19",
       "IndexJantzen": [
         "poignée-porte"
-      ]
+      ],
+      "dateCapture": "2004:05:16"
     },
     {
       "id_pic": "Hoche-4_8_§5",
       "IndexJantzen": [
         "atlante",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2004:05:16"
     }
   ]
 }

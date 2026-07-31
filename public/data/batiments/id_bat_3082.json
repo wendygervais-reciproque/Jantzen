@@ -27,11 +27,11 @@
   "WPfr": null,
   "image_ref": "Manin-59_19_§1",
   "terme_jantzen_bat": [
-    "façade-d'angle",
-    "lucarne-d'angle",
-    "dome",
     "fenetre-d'angle",
-    "balcon"
+    "façade-d'angle",
+    "balcon",
+    "lucarne-d'angle",
+    "dome"
   ],
   "photos": [
     {
@@ -39,14 +39,16 @@
       "IndexJantzen": [
         "dome",
         "façade-d'angle"
-      ]
+      ],
+      "dateCapture": "2006:04:20"
     },
     {
       "id_pic": "Manin-59_19_§2",
       "IndexJantzen": [
         "dome",
         "fenetre-d'angle"
-      ]
+      ],
+      "dateCapture": "2006:04:20"
     },
     {
       "id_pic": "Manin-59_19_§3",
@@ -54,7 +56,8 @@
         "balcon",
         "dome",
         "fenetre-d'angle"
-      ]
+      ],
+      "dateCapture": "2006:04:20"
     },
     {
       "id_pic": "Manin-59_19_§4",
@@ -62,14 +65,16 @@
         "balcon",
         "dome",
         "lucarne-d'angle"
-      ]
+      ],
+      "dateCapture": "2006:04:20"
     },
     {
       "id_pic": "Manin-59_19_§5",
       "IndexJantzen": [
         "dome",
         "lucarne-d'angle"
-      ]
+      ],
+      "dateCapture": "2006:04:20"
     }
   ]
 }

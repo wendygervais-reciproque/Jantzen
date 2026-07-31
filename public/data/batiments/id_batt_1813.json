@@ -1,0 +1,53 @@
+{
+  "id_bat": 1813,
+  "libelle": "24 rue Lepic",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 436,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1904",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "24 rue Lepic",
+    "numero": "24",
+    "voie": "rue Lepic"
+  },
+  "arrondissement": 18,
+  "coordonnees": {
+    "latitude": "48.885172",
+    "longitude": "2.334232"
+  },
+  "id_pss": 38046,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 8317,
+  "terme_jantzen_bat": [
+    "porte-fer",
+    "lucarne"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_8317",
+      "IndexJantzen": [
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_8318",
+      "IndexJantzen": [
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_8319",
+      "IndexJantzen": [
+        "porte-fer"
+      ]
+    }
+  ]
+}

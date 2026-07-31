@@ -1,0 +1,59 @@
+{
+  "id_bat": 1796,
+  "libelle": "24 rue de Berri",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 642,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1895",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "24 rue de Berri",
+    "numero": "24",
+    "voie": "rue de Berri"
+  },
+  "arrondissement": 8,
+  "coordonnees": {
+    "latitude": "48.873143",
+    "longitude": "2.305614"
+  },
+  "id_pss": null,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 1202,
+  "terme_jantzen_bat": [
+    "façade",
+    "fenetre",
+    "balcon",
+    "garde-corps",
+    "porte-fer"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_1202",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_1203",
+      "IndexJantzen": [
+        "balcon",
+        "fenetre",
+        "garde-corps"
+      ]
+    },
+    {
+      "id_pic": "image_1204",
+      "IndexJantzen": [
+        "fenetre",
+        "porte-fer"
+      ]
+    }
+  ]
+}

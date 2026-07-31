@@ -22,23 +22,25 @@
   "WPfr": null,
   "image_ref": "Simplon-18_18_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "façade",
+    "sculpture",
     "décor",
-    "sculpture"
+    "fenetre"
   ],
   "photos": [
     {
       "id_pic": "Simplon-18_18_§1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "dateCapture": "2004:06:14"
     },
     {
       "id_pic": "Simplon-18_18_§2",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "dateCapture": "2004:06:14"
     },
     {
       "id_pic": "Simplon-18_18_§3",
@@ -46,7 +48,8 @@
         "décor",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2004:06:14"
     }
   ]
 }

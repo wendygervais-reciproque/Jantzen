@@ -1,0 +1,58 @@
+{
+  "id_bat": 3784,
+  "libelle": "9 place Vendôme",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": "1699",
+  "periode": [
+    "1660-1759"
+  ],
+  "adresse": {
+    "affichage": "9 place Vendôme",
+    "numero": "9",
+    "voie": "place Vendôme"
+  },
+  "arrondissement": 1,
+  "coordonnees": {
+    "latitude": "48.867453",
+    "longitude": "2.328382"
+  },
+  "id_pss": 9137,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 16045,
+  "terme_jantzen_bat": [
+    "fenetre",
+    "lucarne",
+    "oeil-de-boeuf",
+    "façade"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_16045",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_16046",
+      "IndexJantzen": [
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_16047",
+      "IndexJantzen": [
+        "lucarne",
+        "oeil-de-boeuf"
+      ]
+    },
+    {
+      "id_pic": "image_16048",
+      "IndexJantzen": [
+        "lucarne",
+        "oeil-de-boeuf"
+      ]
+    }
+  ]
+}

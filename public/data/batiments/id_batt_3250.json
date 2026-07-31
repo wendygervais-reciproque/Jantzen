@@ -1,0 +1,643 @@
+{
+  "id_bat": 3250,
+  "libelle": "62 rue Saint-Antoine",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 210,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1624-1630, 1651",
+  "periode": [
+    "1590-1659"
+  ],
+  "adresse": {
+    "affichage": "62 rue Saint-Antoine",
+    "numero": "62",
+    "voie": "rue Saint-Antoine"
+  },
+  "arrondissement": 4,
+  "coordonnees": {
+    "latitude": "48.85441",
+    "longitude": "2.363701"
+  },
+  "id_pss": 2743,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 13876,
+  "terme_jantzen_bat": [
+    "lucarne",
+    "oeil-de-boeuf",
+    "façade",
+    "porte-bois",
+    "clé",
+    "lucarne-d'angle",
+    "toiture",
+    "fenetre",
+    "sculpture",
+    "décor",
+    "chimère",
+    "fenetre-d'angle",
+    "fronton",
+    "pignon"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_13876",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_13877",
+      "IndexJantzen": [
+        "fronton",
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_13878",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_13879",
+      "IndexJantzen": [
+        "fronton",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_13880",
+      "IndexJantzen": [
+        "fenetre",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_13881",
+      "IndexJantzen": [
+        "fenetre",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_13882",
+      "IndexJantzen": [
+        "lucarne",
+        "oeil-de-boeuf"
+      ]
+    },
+    {
+      "id_pic": "image_13883",
+      "IndexJantzen": [
+        "façade",
+        "porte-bois"
+      ]
+    },
+    {
+      "id_pic": "image_13884",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_13885",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_13886",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_13887",
+      "IndexJantzen": [
+        "façade",
+        "porte-bois"
+      ]
+    },
+    {
+      "id_pic": "image_13888",
+      "IndexJantzen": [
+        "décor",
+        "fenetre",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_13889",
+      "IndexJantzen": [
+        "décor",
+        "fenetre",
+        "fronton",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_13890",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_13891",
+      "IndexJantzen": [
+        "fronton",
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_13892",
+      "IndexJantzen": [
+        "fronton",
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_13893",
+      "IndexJantzen": [
+        "fenetre",
+        "fronton",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_13894",
+      "IndexJantzen": [
+        "fronton",
+        "lucarne",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_13895",
+      "IndexJantzen": [
+        "fronton",
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_13896",
+      "IndexJantzen": [
+        "clé",
+        "fenetre",
+        "fronton",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_13897",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_13898",
+      "IndexJantzen": [
+        "clé",
+        "fenetre",
+        "fronton",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_13899",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_13900",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_13901",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_13902",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_13903",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_13904",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_13905",
+      "IndexJantzen": [
+        "chimère",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_13906",
+      "IndexJantzen": [
+        "chimère",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_13907",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_13908",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_13909",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_13910",
+      "IndexJantzen": [
+        "décor",
+        "fronton",
+        "lucarne",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_13911",
+      "IndexJantzen": [
+        "fenetre",
+        "porte-bois"
+      ]
+    },
+    {
+      "id_pic": "image_13912",
+      "IndexJantzen": [
+        "fenetre",
+        "fronton",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_13913",
+      "IndexJantzen": [
+        "fenetre",
+        "fronton",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_13914",
+      "IndexJantzen": [
+        "fronton",
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_13915",
+      "IndexJantzen": [
+        "clé",
+        "fenetre",
+        "fronton",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_13916",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_13917",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_13918",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_13919",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_13920",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_13921",
+      "IndexJantzen": [
+        "fronton",
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_13922",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_13923",
+      "IndexJantzen": [
+        "façade",
+        "porte-bois"
+      ]
+    },
+    {
+      "id_pic": "image_13924",
+      "IndexJantzen": [
+        "façade",
+        "porte-bois"
+      ]
+    },
+    {
+      "id_pic": "image_13925",
+      "IndexJantzen": [
+        "décor",
+        "fenetre",
+        "lucarne",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_13926",
+      "IndexJantzen": [
+        "fenetre",
+        "lucarne",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_13927",
+      "IndexJantzen": [
+        "fenetre",
+        "fronton",
+        "lucarne",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_13928",
+      "IndexJantzen": [
+        "clé",
+        "fenetre",
+        "fronton",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_13929",
+      "IndexJantzen": [
+        "fenetre",
+        "fronton",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_13930",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_13931",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_13932",
+      "IndexJantzen": [
+        "fronton",
+        "lucarne",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_13933",
+      "IndexJantzen": [
+        "chimère",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_13934",
+      "IndexJantzen": [
+        "chimère"
+      ]
+    },
+    {
+      "id_pic": "image_13935",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_13936",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_13937",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_13938",
+      "IndexJantzen": [
+        "clé",
+        "fenetre",
+        "fronton"
+      ]
+    },
+    {
+      "id_pic": "image_13939",
+      "IndexJantzen": [
+        "lucarne",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_13940",
+      "IndexJantzen": [
+        "fronton",
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_13941",
+      "IndexJantzen": [
+        "fronton",
+        "lucarne",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_13942",
+      "IndexJantzen": [
+        "fenetre",
+        "fronton"
+      ]
+    },
+    {
+      "id_pic": "image_13943",
+      "IndexJantzen": [
+        "fronton",
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_13944",
+      "IndexJantzen": [
+        "fronton",
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_13945",
+      "IndexJantzen": [
+        "fronton",
+        "lucarne-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_13946",
+      "IndexJantzen": [
+        "fronton",
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_13947",
+      "IndexJantzen": [
+        "fronton",
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_13948",
+      "IndexJantzen": [
+        "fronton",
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_13949",
+      "IndexJantzen": [
+        "fenetre-d'angle",
+        "fronton",
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_13950",
+      "IndexJantzen": [
+        "lucarne",
+        "toiture"
+      ]
+    },
+    {
+      "id_pic": "image_13951",
+      "IndexJantzen": [
+        "lucarne",
+        "toiture"
+      ]
+    },
+    {
+      "id_pic": "image_13952",
+      "IndexJantzen": [
+        "fenetre",
+        "fronton",
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_13953",
+      "IndexJantzen": [
+        "fronton",
+        "lucarne",
+        "pignon",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_13954",
+      "IndexJantzen": [
+        "fronton",
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_13955",
+      "IndexJantzen": [
+        "fronton",
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_13956",
+      "IndexJantzen": [
+        "lucarne",
+        "toiture"
+      ]
+    },
+    {
+      "id_pic": "image_13957",
+      "IndexJantzen": [
+        "lucarne",
+        "toiture"
+      ]
+    },
+    {
+      "id_pic": "image_13958",
+      "IndexJantzen": [
+        "lucarne",
+        "toiture"
+      ]
+    },
+    {
+      "id_pic": "image_13959",
+      "IndexJantzen": [
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_13960",
+      "IndexJantzen": [
+        "lucarne",
+        "toiture"
+      ]
+    }
+  ]
+}

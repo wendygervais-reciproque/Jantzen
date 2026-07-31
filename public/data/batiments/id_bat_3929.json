@@ -27,13 +27,13 @@
   "WPfr": null,
   "image_ref": "Bac-97_7_§1",
   "terme_jantzen_bat": [
-    "sculpture",
-    "clé",
     "console",
-    "balcon",
+    "garde-corps",
     "chimère",
-    "porte-bois",
-    "garde-corps"
+    "clé",
+    "sculpture",
+    "balcon",
+    "porte-bois"
   ],
   "photos": [
     {
@@ -41,7 +41,8 @@
       "IndexJantzen": [
         "balcon",
         "porte-bois"
-      ]
+      ],
+      "dateCapture": "2005:04:17"
     },
     {
       "id_pic": "Bac-97_7_§2",
@@ -50,7 +51,8 @@
         "clé",
         "console",
         "garde-corps"
-      ]
+      ],
+      "dateCapture": "2005:04:17"
     },
     {
       "id_pic": "Bac-97_7_§3",
@@ -58,14 +60,16 @@
         "chimère",
         "clé",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:04:17"
     },
     {
       "id_pic": "Bac-97_7_§4",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:04:17"
     }
   ]
 }

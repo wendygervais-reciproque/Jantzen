@@ -1,0 +1,98 @@
+{
+  "id_bat": 2007,
+  "libelle": "29 rue du Bac",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 89,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1913",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "29 rue du Bac",
+    "numero": "29",
+    "voie": "rue du Bac"
+  },
+  "arrondissement": 7,
+  "coordonnees": {
+    "latitude": "48.857502",
+    "longitude": "2.328015"
+  },
+  "id_pss": 22568,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 735,
+  "terme_jantzen_bat": [
+    "façade-d'angle",
+    "pilastre",
+    "lucarne",
+    "oeil-de-boeuf",
+    "façade",
+    "dome",
+    "fenetre",
+    "fenetre-d'angle",
+    "fronton"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_735",
+      "IndexJantzen": [
+        "dome",
+        "façade-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_736",
+      "IndexJantzen": [
+        "dome",
+        "fenetre-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_737",
+      "IndexJantzen": [
+        "lucarne",
+        "oeil-de-boeuf"
+      ]
+    },
+    {
+      "id_pic": "image_738",
+      "IndexJantzen": [
+        "façade",
+        "pilastre"
+      ]
+    },
+    {
+      "id_pic": "image_739",
+      "IndexJantzen": [
+        "fenetre",
+        "fronton"
+      ]
+    },
+    {
+      "id_pic": "image_740",
+      "IndexJantzen": [
+        "fenetre",
+        "fronton"
+      ]
+    },
+    {
+      "id_pic": "image_741",
+      "IndexJantzen": [
+        "lucarne",
+        "oeil-de-boeuf"
+      ]
+    },
+    {
+      "id_pic": "image_742",
+      "IndexJantzen": [
+        "lucarne",
+        "oeil-de-boeuf"
+      ]
+    }
+  ]
+}

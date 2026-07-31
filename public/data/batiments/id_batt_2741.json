@@ -1,0 +1,42 @@
+{
+  "id_bat": 2741,
+  "libelle": "47 boulevard de Courcelles",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 661,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1900",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "47 boulevard de Courcelles",
+    "numero": "47",
+    "voie": "boulevard de Courcelles"
+  },
+  "arrondissement": 17,
+  "coordonnees": {
+    "latitude": "48.879283",
+    "longitude": "2.304588"
+  },
+  "id_pss": 41642,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 3248,
+  "terme_jantzen_bat": [
+    "porte-bois",
+    "fenetre"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_3248",
+      "IndexJantzen": [
+        "fenetre",
+        "porte-bois"
+      ]
+    }
+  ]
+}

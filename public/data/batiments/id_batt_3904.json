@@ -1,0 +1,70 @@
+{
+  "id_bat": 3904,
+  "libelle": "95 boulevard Raspail",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 72,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "vers 1905",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "95 boulevard Raspail",
+    "numero": "95",
+    "voie": "boulevard Raspail"
+  },
+  "arrondissement": 6,
+  "coordonnees": {
+    "latitude": "48.846918",
+    "longitude": "2.328382"
+  },
+  "id_pss": 16773,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 12550,
+  "terme_jantzen_bat": [
+    "façade-d'angle",
+    "sculpture",
+    "décor",
+    "balcon"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_12550",
+      "IndexJantzen": [
+        "façade-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_12551",
+      "IndexJantzen": [
+        "balcon",
+        "décor",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_12552",
+      "IndexJantzen": [
+        "balcon",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_12553",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_12554",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    }
+  ]
+}

@@ -22,9 +22,9 @@
   "WPfr": null,
   "image_ref": "Bastille-bd-28_12_§1",
   "terme_jantzen_bat": [
-    "clé",
     "porte-bois",
-    "sculpture"
+    "sculpture",
+    "clé"
   ],
   "photos": [
     {
@@ -32,14 +32,16 @@
       "IndexJantzen": [
         "clé",
         "porte-bois"
-      ]
+      ],
+      "dateCapture": "2005:07:12"
     },
     {
       "id_pic": "Bastille-bd-28_12_§2",
       "IndexJantzen": [
         "clé",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:07:12"
     }
   ]
 }

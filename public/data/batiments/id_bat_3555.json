@@ -27,12 +27,12 @@
   "WPfr": null,
   "image_ref": "Marceau-78_8_§1",
   "terme_jantzen_bat": [
-    "lucarne",
     "façade",
-    "fenetre",
+    "lucarne",
+    "cariatide",
     "décor",
     "sculpture",
-    "cariatide",
+    "fenetre",
     "porte-bois"
   ],
   "photos": [
@@ -40,7 +40,8 @@
       "id_pic": "Marceau-78_8_§1",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2005:03:20"
     },
     {
       "id_pic": "Marceau-78_8_§10",
@@ -48,39 +49,45 @@
         "cariatide",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:08:31"
     },
     {
       "id_pic": "Marceau-78_8_§11",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "dateCapture": "2006:04:07"
     },
     {
       "id_pic": "Marceau-78_8_§12",
       "IndexJantzen": [
         "fenetre",
         "porte-bois"
-      ]
+      ],
+      "dateCapture": "2005:03:20"
     },
     {
       "id_pic": "Marceau-78_8_§13",
       "IndexJantzen": [
         "fenetre",
         "porte-bois"
-      ]
+      ],
+      "dateCapture": "2006:04:07"
     },
     {
       "id_pic": "Marceau-78_8_§14",
       "IndexJantzen": [
         "porte-bois"
-      ]
+      ],
+      "dateCapture": "2006:04:07"
     },
     {
       "id_pic": "Marceau-78_8_§2",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2006:04:07"
     },
     {
       "id_pic": "Marceau-78_8_§3",
@@ -88,35 +95,40 @@
         "décor",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:04:07"
     },
     {
       "id_pic": "Marceau-78_8_§4",
       "IndexJantzen": [
         "cariatide",
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2005:03:20"
     },
     {
       "id_pic": "Marceau-78_8_§5",
       "IndexJantzen": [
         "cariatide",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:08:31"
     },
     {
       "id_pic": "Marceau-78_8_§6",
       "IndexJantzen": [
         "cariatide",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:08:31"
     },
     {
       "id_pic": "Marceau-78_8_§7",
       "IndexJantzen": [
         "cariatide",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:08:31"
     },
     {
       "id_pic": "Marceau-78_8_§8",
@@ -124,13 +136,15 @@
         "cariatide",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:03:20"
     },
     {
       "id_pic": "Marceau-78_8_§9",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2006:04:07"
     }
   ]
 }

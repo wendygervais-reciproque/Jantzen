@@ -23,12 +23,12 @@
   "image_ref": "Richard-Lenoir-bd-42_11_§1",
   "terme_jantzen_bat": [
     "façade",
-    "porte-fer",
+    "garde-corps",
     "oriel",
     "sculpture",
     "clé",
-    "balcon",
-    "garde-corps"
+    "porte-fer",
+    "balcon"
   ],
   "photos": [
     {
@@ -36,13 +36,15 @@
       "IndexJantzen": [
         "façade",
         "oriel"
-      ]
+      ],
+      "dateCapture": "2004:05:19"
     },
     {
       "id_pic": "Richard-Lenoir-bd-42_11_§2",
       "IndexJantzen": [
         "oriel"
-      ]
+      ],
+      "dateCapture": "2004:05:19"
     },
     {
       "id_pic": "Richard-Lenoir-bd-42_11_§3",
@@ -50,20 +52,23 @@
         "balcon",
         "garde-corps",
         "oriel"
-      ]
+      ],
+      "dateCapture": "2004:05:19"
     },
     {
       "id_pic": "Richard-Lenoir-bd-42_11_§4",
       "IndexJantzen": [
         "porte-fer"
-      ]
+      ],
+      "dateCapture": "2008:02:16"
     },
     {
       "id_pic": "Richard-Lenoir-bd-42_11_§5",
       "IndexJantzen": [
         "clé",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2008:02:16"
     }
   ]
 }

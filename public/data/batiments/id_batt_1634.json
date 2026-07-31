@@ -1,0 +1,86 @@
+{
+  "id_bat": 1634,
+  "libelle": "21 rue Jasmin",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 526,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1913",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "21 rue Jasmin",
+    "numero": "21",
+    "voie": "rue Jasmin"
+  },
+  "arrondissement": 16,
+  "coordonnees": {
+    "latitude": "48.851888",
+    "longitude": "2.266615"
+  },
+  "id_pss": 29881,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 7162,
+  "terme_jantzen_bat": [
+    "façade-d'angle",
+    "porte-fer",
+    "céramique",
+    "brique",
+    "décor",
+    "fenetre-d'angle",
+    "verrière"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_7162",
+      "IndexJantzen": [
+        "brique",
+        "façade-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_7163",
+      "IndexJantzen": [
+        "brique",
+        "façade-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_7164",
+      "IndexJantzen": [
+        "brique",
+        "décor",
+        "fenetre-d'angle",
+        "verrière"
+      ]
+    },
+    {
+      "id_pic": "image_7165",
+      "IndexJantzen": [
+        "brique",
+        "décor",
+        "fenetre-d'angle",
+        "verrière"
+      ]
+    },
+    {
+      "id_pic": "image_7166",
+      "IndexJantzen": [
+        "céramique",
+        "porte-fer"
+      ]
+    },
+    {
+      "id_pic": "image_7167",
+      "IndexJantzen": [
+        "céramique",
+        "porte-fer"
+      ]
+    }
+  ]
+}

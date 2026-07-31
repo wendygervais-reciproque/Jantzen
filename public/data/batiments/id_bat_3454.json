@@ -22,13 +22,13 @@
   "WPfr": null,
   "image_ref": "Champs-Elysees-70_8_§1",
   "terme_jantzen_bat": [
-    "lucarne",
     "façade",
-    "toiture",
-    "porte-fer",
-    "fenetre",
+    "lucarne",
     "fenetre-d'angle",
+    "fenetre",
+    "porte-fer",
     "balcon",
+    "toiture",
     "marquise"
   ],
   "photos": [
@@ -36,54 +36,62 @@
       "id_pic": "Champs-Elysees-70_8_§1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "dateCapture": "2004:03:30"
     },
     {
       "id_pic": "Champs-Elysees-70_8_§3-Rs",
       "IndexJantzen": [
         "balcon",
         "fenetre-d'angle"
-      ]
+      ],
+      "dateCapture": "2008:03:31"
     },
     {
       "id_pic": "Champs-Elysees-70_8_§4",
       "IndexJantzen": [
         "fenetre",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2008:03:31"
     },
     {
       "id_pic": "Champs-Elysees-70_8_§5",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2004:04:01"
     },
     {
       "id_pic": "Champs-Elysees-70_8_§6",
       "IndexJantzen": [
         "lucarne",
         "toiture"
-      ]
+      ],
+      "dateCapture": "2008:03:31"
     },
     {
       "id_pic": "Champs-Elysees-70_8_§7",
       "IndexJantzen": [
         "lucarne",
         "toiture"
-      ]
+      ],
+      "dateCapture": "2008:03:31"
     },
     {
       "id_pic": "Champs-Elysees-70_8_§8",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2008:03:31"
     },
     {
       "id_pic": "Champs-Elysees-70_8_§9",
       "IndexJantzen": [
         "marquise",
         "porte-fer"
-      ]
+      ],
+      "dateCapture": "2004:04:01"
     }
   ]
 }

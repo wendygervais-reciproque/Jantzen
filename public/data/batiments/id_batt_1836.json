@@ -1,0 +1,71 @@
+{
+  "id_bat": 1836,
+  "libelle": "25 quai Anatole-France",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": [
+    "1830-1849"
+  ],
+  "adresse": {
+    "affichage": "25 quai Anatole-France",
+    "numero": "25",
+    "voie": "quai Anatole-France"
+  },
+  "arrondissement": 7,
+  "coordonnees": {
+    "latitude": "48.861811",
+    "longitude": "2.321529"
+  },
+  "id_pss": 27864,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 344,
+  "terme_jantzen_bat": [
+    "fenetre",
+    "sculpture",
+    "colonne",
+    "façade"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_344",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_345",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_346",
+      "IndexJantzen": [
+        "colonne",
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_347",
+      "IndexJantzen": [
+        "colonne",
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_348",
+      "IndexJantzen": [
+        "colonne",
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_349",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    }
+  ]
+}

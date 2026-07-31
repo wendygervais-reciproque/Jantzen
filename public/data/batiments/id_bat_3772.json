@@ -22,10 +22,10 @@
   "WPfr": null,
   "image_ref": "Niel-9_17_§1",
   "terme_jantzen_bat": [
-    "lucarne",
-    "intérieur",
-    "porte-fer",
     "oeil-de-boeuf",
+    "lucarne",
+    "porte-fer",
+    "intérieur",
     "dome"
   ],
   "photos": [
@@ -35,20 +35,23 @@
         "dome",
         "lucarne",
         "oeil-de-boeuf"
-      ]
+      ],
+      "dateCapture": "2008:03:27"
     },
     {
       "id_pic": "Niel-9_17_§2",
       "IndexJantzen": [
         "intérieur",
         "porte-fer"
-      ]
+      ],
+      "dateCapture": null
     },
     {
       "id_pic": "Niel-9_17_§3",
       "IndexJantzen": [
         "porte-fer"
-      ]
+      ],
+      "dateCapture": null
     }
   ]
 }

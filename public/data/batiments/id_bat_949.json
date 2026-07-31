@@ -27,14 +27,14 @@
   "WPfr": null,
   "image_ref": "Raspail-141_6_§1",
   "terme_jantzen_bat": [
-    "lucarne",
-    "porte-fer",
-    "fenetre",
+    "console",
     "oeil-de-boeuf",
+    "garde-corps",
+    "lucarne",
     "décor",
     "sculpture",
-    "console",
-    "garde-corps"
+    "fenetre",
+    "porte-fer"
   ],
   "photos": [
     {
@@ -43,14 +43,16 @@
         "décor",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:06:13"
     },
     {
       "id_pic": "Raspail-141_6_§2",
       "IndexJantzen": [
         "lucarne",
         "oeil-de-boeuf"
-      ]
+      ],
+      "dateCapture": "2006:09:04"
     },
     {
       "id_pic": "Raspail-141_6_§3",
@@ -58,20 +60,23 @@
         "console",
         "fenetre",
         "garde-corps"
-      ]
+      ],
+      "dateCapture": "2006:06:26"
     },
     {
       "id_pic": "Raspail-141_6_§4",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:06:13"
     },
     {
       "id_pic": "Raspail-141_6_§5",
       "IndexJantzen": [
         "porte-fer"
-      ]
+      ],
+      "dateCapture": "2006:06:26"
     }
   ]
 }

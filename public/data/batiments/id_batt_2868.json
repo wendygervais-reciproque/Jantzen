@@ -1,0 +1,49 @@
+{
+  "id_bat": 2868,
+  "libelle": "5 rue Ernest-Lefèvre",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 390,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1905",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "5 rue Ernest-Lefèvre",
+    "numero": "5",
+    "voie": "rue Ernest-Lefèvre"
+  },
+  "arrondissement": 20,
+  "coordonnees": {
+    "latitude": "48.86875",
+    "longitude": "2.403293"
+  },
+  "id_pss": 10147,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 4130,
+  "terme_jantzen_bat": [
+    "sculpture",
+    "clé"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_4130",
+      "IndexJantzen": [
+        "clé",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_4131",
+      "IndexJantzen": [
+        "clé",
+        "sculpture"
+      ]
+    }
+  ]
+}

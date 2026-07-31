@@ -28,9 +28,9 @@
   "image_ref": "Paix-3_2_§1",
   "terme_jantzen_bat": [
     "façade",
-    "fenetre",
-    "sculpture",
     "cariatide",
+    "sculpture",
+    "fenetre",
     "porte-bois"
   ],
   "photos": [
@@ -38,7 +38,8 @@
       "id_pic": "Paix-3_2_§1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "dateCapture": "2004:09:11"
     },
     {
       "id_pic": "Paix-3_2_§2",
@@ -46,14 +47,16 @@
         "cariatide",
         "fenetre",
         "porte-bois"
-      ]
+      ],
+      "dateCapture": "2005:06:19"
     },
     {
       "id_pic": "Paix-3_2_§3",
       "IndexJantzen": [
         "cariatide",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2008:09:19"
     },
     {
       "id_pic": "Paix-3_2_§4",
@@ -61,21 +64,24 @@
         "cariatide",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:06:19"
     },
     {
       "id_pic": "Paix-3_2_§5",
       "IndexJantzen": [
         "cariatide",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2008:09:19"
     },
     {
       "id_pic": "Paix-3_2_§6",
       "IndexJantzen": [
         "cariatide",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2008:09:19"
     }
   ]
 }

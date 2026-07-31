@@ -1,0 +1,77 @@
+{
+  "id_bat": 338,
+  "libelle": "10 rue Gay-Lussac",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": "1868",
+  "periode": [
+    "1850-1869"
+  ],
+  "adresse": {
+    "affichage": "10 rue Gay-Lussac",
+    "numero": "10",
+    "voie": "rue Gay-Lussac"
+  },
+  "arrondissement": 5,
+  "coordonnees": {
+    "latitude": "48.845666",
+    "longitude": "2.341208"
+  },
+  "id_pss": null,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 5160,
+  "terme_jantzen_bat": [
+    "pilastre",
+    "porte-bois",
+    "façade",
+    "fenetre",
+    "sculpture",
+    "décor",
+    "fronton"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_5160",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_5161",
+      "IndexJantzen": [
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_5162",
+      "IndexJantzen": [
+        "fenetre",
+        "pilastre"
+      ]
+    },
+    {
+      "id_pic": "image_5163",
+      "IndexJantzen": [
+        "décor",
+        "fenetre",
+        "pilastre",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_5164",
+      "IndexJantzen": [
+        "fenetre",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_5165",
+      "IndexJantzen": [
+        "fronton",
+        "porte-bois"
+      ]
+    }
+  ]
+}

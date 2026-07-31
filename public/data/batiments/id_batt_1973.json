@@ -1,0 +1,39 @@
+{
+  "id_bat": 1973,
+  "libelle": "28 quai de Béthune",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": [
+    "1590-1659"
+  ],
+  "adresse": {
+    "affichage": "28 quai de Béthune",
+    "numero": "28",
+    "voie": "quai de Béthune"
+  },
+  "arrondissement": 4,
+  "coordonnees": {
+    "latitude": "48.85088",
+    "longitude": "2.356871"
+  },
+  "id_pss": 26913,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 1264,
+  "terme_jantzen_bat": [
+    "garde-corps",
+    "console",
+    "fenetre"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_1264",
+      "IndexJantzen": [
+        "console",
+        "fenetre",
+        "garde-corps"
+      ]
+    }
+  ]
+}

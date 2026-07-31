@@ -27,8 +27,8 @@
   "WPfr": null,
   "image_ref": "Exelmans-39_16_§1",
   "terme_jantzen_bat": [
-    "porte",
     "façade",
+    "porte",
     "verrière"
   ],
   "photos": [
@@ -36,18 +36,21 @@
       "id_pic": "Exelmans-39_16_§1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "dateCapture": "2007:04:21"
     },
     {
       "id_pic": "Exelmans-39_16_§2",
       "IndexJantzen": [
         "porte",
         "verrière"
-      ]
+      ],
+      "dateCapture": "2007:04:21"
     },
     {
       "id_pic": "Exelmans-39_16_§3",
-      "IndexJantzen": []
+      "IndexJantzen": [],
+      "dateCapture": "2007:04:21"
     }
   ]
 }

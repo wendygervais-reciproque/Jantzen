@@ -27,11 +27,11 @@
   "WPfr": null,
   "image_ref": "Montparnasse-bd-95_6_§1",
   "terme_jantzen_bat": [
-    "lucarne-d'angle",
     "oeil-de-boeuf",
-    "décor",
     "fenetre-d'angle",
-    "balcon"
+    "décor",
+    "balcon",
+    "lucarne-d'angle"
   ],
   "photos": [
     {
@@ -40,7 +40,8 @@
         "décor",
         "fenetre-d'angle",
         "oeil-de-boeuf"
-      ]
+      ],
+      "dateCapture": "2008:04:07"
     },
     {
       "id_pic": "Montparnasse-bd-95_6_§2",
@@ -48,14 +49,16 @@
         "balcon",
         "lucarne-d'angle",
         "oeil-de-boeuf"
-      ]
+      ],
+      "dateCapture": "2008:04:07"
     },
     {
       "id_pic": "Montparnasse-bd-95_6_§3",
       "IndexJantzen": [
         "lucarne-d'angle",
         "oeil-de-boeuf"
-      ]
+      ],
+      "dateCapture": "2008:04:07"
     }
   ]
 }

@@ -22,19 +22,20 @@
   "WPfr": null,
   "image_ref": "Richelieu-28_1_§1",
   "terme_jantzen_bat": [
-    "fenetre",
+    "garde-corps",
     "décor",
     "sculpture",
     "clé",
-    "porte-bois",
-    "garde-corps"
+    "fenetre",
+    "porte-bois"
   ],
   "photos": [
     {
       "id_pic": "Richelieu-28_1_§1",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2004:08:31"
     },
     {
       "id_pic": "Richelieu-28_1_§2",
@@ -43,14 +44,16 @@
         "fenetre",
         "garde-corps",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2004:08:31"
     },
     {
       "id_pic": "Richelieu-28_1_§3",
       "IndexJantzen": [
         "clé",
         "porte-bois"
-      ]
+      ],
+      "dateCapture": "2004:08:31"
     }
   ]
 }

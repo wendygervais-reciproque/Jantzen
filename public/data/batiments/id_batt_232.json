@@ -1,0 +1,58 @@
+{
+  "id_bat": 232,
+  "libelle": "1 rue du Colonel-Moll",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 6,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1910",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "1 rue du Colonel-Moll",
+    "numero": "1",
+    "voie": "rue du Colonel-Moll"
+  },
+  "arrondissement": 17,
+  "coordonnees": {
+    "latitude": "48.876737",
+    "longitude": "2.290879"
+  },
+  "id_pss": 77533,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 2808,
+  "terme_jantzen_bat": [
+    "façade",
+    "fenetre",
+    "fenetre-d'angle",
+    "balcon",
+    "garde-corps"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_2808",
+      "IndexJantzen": [
+        "balcon",
+        "fenetre-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_2809",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_2810",
+      "IndexJantzen": [
+        "fenetre",
+        "garde-corps"
+      ]
+    }
+  ]
+}

@@ -19,11 +19,11 @@
   "image_ref": "Louvre-1-Rr_Cn-01",
   "terme_jantzen_bat": [
     "lucarne",
-    "toiture",
+    "cariatide",
     "fronton",
-    "fenetre",
     "sculpture",
-    "cariatide"
+    "fenetre",
+    "toiture"
   ],
   "photos": [
     {
@@ -31,33 +31,38 @@
       "IndexJantzen": [
         "lucarne",
         "toiture"
-      ]
+      ],
+      "dateCapture": "2005:08:10"
     },
     {
       "id_pic": "Louvre-1-Rr_Cn-02",
       "IndexJantzen": [
         "toiture"
-      ]
+      ],
+      "dateCapture": "2005:08:10"
     },
     {
       "id_pic": "Louvre-1-Rr_Cn-03",
       "IndexJantzen": [
         "fronton",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2005:08:10"
     },
     {
       "id_pic": "Louvre-1-Rr_Cn-05",
       "IndexJantzen": [
         "fronton",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2005:08:30"
     },
     {
       "id_pic": "Louvre-1-Rr_Cn-06",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:08:30"
     },
     {
       "id_pic": "Louvre-1-Rr_Cn-07",
@@ -66,7 +71,8 @@
         "fenetre",
         "fronton",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:07:13"
     },
     {
       "id_pic": "Louvre-1-Rr_Cn-08",
@@ -75,7 +81,8 @@
         "fenetre",
         "fronton",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:07:13"
     },
     {
       "id_pic": "Louvre-1-Rr_Cn-09A",
@@ -84,47 +91,54 @@
         "fenetre",
         "fronton",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:09:06"
     },
     {
       "id_pic": "Louvre-1-Rr_Cn-10A",
       "IndexJantzen": [
         "cariatide",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:09:06"
     },
     {
       "id_pic": "Louvre-1-Rr_Cn-11",
       "IndexJantzen": [
         "cariatide",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:07:13"
     },
     {
       "id_pic": "Louvre-1-Rr_Cn-12",
       "IndexJantzen": [
         "fronton",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2006:07:13"
     },
     {
       "id_pic": "Louvre-1-Rr_Cn-13",
       "IndexJantzen": [
         "fronton",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2006:07:13"
     },
     {
       "id_pic": "Louvre-1-Rr_Cn-14",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:07:13"
     },
     {
       "id_pic": "Louvre-1-Rr_Cn-16",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:07:13"
     }
   ]
 }

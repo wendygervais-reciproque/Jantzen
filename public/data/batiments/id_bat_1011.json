@@ -23,11 +23,11 @@
   "image_ref": "Damremont-15_18_§1-2",
   "terme_jantzen_bat": [
     "lucarne",
-    "façade-d'angle",
-    "fenetre",
-    "dome",
     "fenetre-d'angle",
-    "balcon"
+    "fenetre",
+    "façade-d'angle",
+    "balcon",
+    "dome"
   ],
   "photos": [
     {
@@ -35,14 +35,16 @@
       "IndexJantzen": [
         "dome",
         "façade-d'angle"
-      ]
+      ],
+      "dateCapture": "2006:04:08"
     },
     {
       "id_pic": "Damremont-15_18_§2",
       "IndexJantzen": [
         "dome",
         "fenetre-d'angle"
-      ]
+      ],
+      "dateCapture": "2004:07:27"
     },
     {
       "id_pic": "Damremont-15_18_§3",
@@ -50,7 +52,8 @@
         "balcon",
         "dome",
         "fenetre-d'angle"
-      ]
+      ],
+      "dateCapture": "2006:04:08"
     },
     {
       "id_pic": "Damremont-15_18_§4",
@@ -58,21 +61,24 @@
         "dome",
         "fenetre",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2007:03:14"
     },
     {
       "id_pic": "Damremont-15_18_§5",
       "IndexJantzen": [
         "dome",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2007:03:14"
     },
     {
       "id_pic": "Damremont-15_18_§6",
       "IndexJantzen": [
         "dome",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2006:04:08"
     }
   ]
 }

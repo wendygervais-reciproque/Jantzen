@@ -27,23 +27,25 @@
   "WPfr": null,
   "image_ref": "St-Ouen-Av-87_17_§1",
   "terme_jantzen_bat": [
-    "façade-d'angle",
     "toiture",
-    "lucarne-d'angle"
+    "lucarne-d'angle",
+    "façade-d'angle"
   ],
   "photos": [
     {
       "id_pic": "St-Ouen-Av-87_17_§1",
       "IndexJantzen": [
         "façade-d'angle"
-      ]
+      ],
+      "dateCapture": "2006:06:07"
     },
     {
       "id_pic": "St-Ouen-Av-87_17_§2",
       "IndexJantzen": [
         "lucarne-d'angle",
         "toiture"
-      ]
+      ],
+      "dateCapture": "2006:06:07"
     }
   ]
 }

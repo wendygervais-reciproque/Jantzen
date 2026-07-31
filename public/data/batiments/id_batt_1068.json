@@ -1,0 +1,42 @@
+{
+  "id_bat": 1068,
+  "libelle": "153 rue Lamarck",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 193,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": null,
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "153 rue Lamarck",
+    "numero": "153",
+    "voie": "rue Lamarck"
+  },
+  "arrondissement": 18,
+  "coordonnees": {
+    "latitude": "48.891226",
+    "longitude": "2.327476"
+  },
+  "id_pss": 40750,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 7803,
+  "terme_jantzen_bat": [
+    "porte-fer-hall",
+    "céramique"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_7803",
+      "IndexJantzen": [
+        "céramique",
+        "porte-fer-hall"
+      ]
+    }
+  ]
+}

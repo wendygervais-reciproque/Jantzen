@@ -1,0 +1,60 @@
+{
+  "id_bat": 3074,
+  "libelle": "59 boulevard des Invalides",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "59 boulevard des Invalides",
+    "numero": "59",
+    "voie": "boulevard des Invalides"
+  },
+  "arrondissement": 7,
+  "coordonnees": {
+    "latitude": "48.848145",
+    "longitude": "2.316152"
+  },
+  "id_pss": 36411,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 6905,
+  "terme_jantzen_bat": [
+    "lucarne-d'angle",
+    "fronton",
+    "lucarne",
+    "balcon"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_6905",
+      "IndexJantzen": [
+        "fronton",
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_6906",
+      "IndexJantzen": [
+        "fronton",
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_6907",
+      "IndexJantzen": [
+        "balcon",
+        "fronton",
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_6908",
+      "IndexJantzen": [
+        "lucarne-d'angle"
+      ]
+    }
+  ]
+}

@@ -27,12 +27,12 @@
   "WPfr": null,
   "image_ref": "Malesherbes-55_8_§1",
   "terme_jantzen_bat": [
-    "façade-d'angle",
-    "fronton",
     "fenetre-d'angle",
+    "fronton",
     "sculpture",
-    "atlante",
+    "façade-d'angle",
     "balcon",
+    "atlante",
     "pignon"
   ],
   "photos": [
@@ -42,7 +42,8 @@
         "balcon",
         "façade-d'angle",
         "pignon"
-      ]
+      ],
+      "dateCapture": "2010:06:05"
     },
     {
       "id_pic": "Malesherbes-55_8_§2",
@@ -50,7 +51,8 @@
         "atlante",
         "fenetre-d'angle",
         "fronton"
-      ]
+      ],
+      "dateCapture": "2006:09:08"
     },
     {
       "id_pic": "Malesherbes-55_8_§3",
@@ -58,18 +60,21 @@
         "atlante",
         "fenetre-d'angle",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:09:08"
     },
     {
       "id_pic": "Malesherbes-55_8_§4",
       "IndexJantzen": [
         "atlante",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:09:08"
     },
     {
       "id_pic": "Malesherbes-55_8_51_DxO",
-      "IndexJantzen": []
+      "IndexJantzen": [],
+      "dateCapture": "2012:05:16"
     }
   ]
 }

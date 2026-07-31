@@ -1,0 +1,42 @@
+{
+  "id_bat": 1349,
+  "libelle": "19 avenue de Tourville",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 199,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1892",
+  "periode": [
+    "1870-1894"
+  ],
+  "adresse": {
+    "affichage": "19 avenue de Tourville",
+    "numero": "19",
+    "voie": "avenue de Tourville"
+  },
+  "arrondissement": 7,
+  "coordonnees": {
+    "latitude": "48.853853",
+    "longitude": "2.308321"
+  },
+  "id_pss": null,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 15459,
+  "terme_jantzen_bat": [
+    "console",
+    "sculpture"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_15459",
+      "IndexJantzen": [
+        "console",
+        "sculpture"
+      ]
+    }
+  ]
+}

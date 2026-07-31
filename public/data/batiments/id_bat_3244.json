@@ -27,53 +27,59 @@
   "WPfr": null,
   "image_ref": "Bac-62_7_§1",
   "terme_jantzen_bat": [
-    "façade-d'angle",
-    "toiture",
-    "fenetre",
-    "décor",
+    "garde-corps",
     "fenetre-d'angle",
+    "décor",
+    "fenetre",
+    "façade-d'angle",
     "balcon",
-    "garde-corps"
+    "toiture"
   ],
   "photos": [
     {
       "id_pic": "Bac-62_7_§1",
       "IndexJantzen": [
         "façade-d'angle"
-      ]
+      ],
+      "dateCapture": "2005:03:20"
     },
     {
       "id_pic": "Bac-62_7_§2",
       "IndexJantzen": [
         "fenetre-d'angle"
-      ]
+      ],
+      "dateCapture": "2005:03:20"
     },
     {
       "id_pic": "Bac-62_7_§3",
       "IndexJantzen": [
         "balcon",
         "toiture"
-      ]
+      ],
+      "dateCapture": "2005:03:20"
     },
     {
       "id_pic": "Bac-62_7_§4",
       "IndexJantzen": [
         "balcon"
-      ]
+      ],
+      "dateCapture": "2005:03:20"
     },
     {
       "id_pic": "Bac-62_7_§5",
       "IndexJantzen": [
         "décor",
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2005:03:20"
     },
     {
       "id_pic": "Bac-62_7_§6",
       "IndexJantzen": [
         "fenetre",
         "garde-corps"
-      ]
+      ],
+      "dateCapture": "2005:03:20"
     }
   ]
 }

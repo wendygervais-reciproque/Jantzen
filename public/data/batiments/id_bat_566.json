@@ -27,12 +27,12 @@
   "WPfr": null,
   "image_ref": "Gambetta-117_20_§1",
   "terme_jantzen_bat": [
-    "tour",
-    "fenetre-d'angle",
-    "sculpture",
     "console",
-    "balcon",
-    "colonne"
+    "fenetre-d'angle",
+    "tour",
+    "sculpture",
+    "colonne",
+    "balcon"
   ],
   "photos": [
     {
@@ -41,7 +41,8 @@
         "balcon",
         "fenetre-d'angle",
         "tour"
-      ]
+      ],
+      "dateCapture": "2005:09:04"
     },
     {
       "id_pic": "Gambetta-117_20_§2",
@@ -49,21 +50,24 @@
         "colonne",
         "fenetre-d'angle",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:09:04"
     },
     {
       "id_pic": "Gambetta-117_20_§3",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:06:18"
     },
     {
       "id_pic": "Gambetta-117_20_§4",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:09:04"
     }
   ]
 }

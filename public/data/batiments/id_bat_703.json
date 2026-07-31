@@ -27,33 +27,36 @@
   "WPfr": null,
   "image_ref": "Clichy-bd-120_18_§1-Dx",
   "terme_jantzen_bat": [
-    "lucarne",
     "façade",
-    "fenetre",
+    "garde-corps",
+    "lucarne",
     "sculpture",
-    "balcon",
-    "garde-corps"
+    "fenetre",
+    "balcon"
   ],
   "photos": [
     {
       "id_pic": "Clichy-bd-120_18_§1-Dx",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "dateCapture": "2014:03:20"
     },
     {
       "id_pic": "Clichy-bd-120_18_§2",
       "IndexJantzen": [
         "fenetre",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2008:01:22"
     },
     {
       "id_pic": "Clichy-bd-120_18_§3",
       "IndexJantzen": [
         "fenetre",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2007:03:14"
     },
     {
       "id_pic": "Clichy-bd-120_18_§4",
@@ -61,28 +64,32 @@
         "fenetre",
         "lucarne",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2007:03:14"
     },
     {
       "id_pic": "Clichy-bd-120_18_§5",
       "IndexJantzen": [
         "lucarne",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2007:03:14"
     },
     {
       "id_pic": "Clichy-bd-120_18_§6",
       "IndexJantzen": [
         "lucarne",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2008:01:22"
     },
     {
       "id_pic": "Clichy-bd-120_18_§7",
       "IndexJantzen": [
         "balcon",
         "garde-corps"
-      ]
+      ],
+      "dateCapture": "2008:01:22"
     }
   ]
 }

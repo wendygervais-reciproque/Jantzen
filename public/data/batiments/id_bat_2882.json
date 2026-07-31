@@ -28,9 +28,9 @@
   "image_ref": "Marbeau-5_16_§1",
   "terme_jantzen_bat": [
     "fenetre",
-    "verrière",
     "balcon",
-    "garde-corps"
+    "garde-corps",
+    "verrière"
   ],
   "photos": [
     {
@@ -39,14 +39,16 @@
         "balcon",
         "fenetre",
         "garde-corps"
-      ]
+      ],
+      "dateCapture": "2004:06:07"
     },
     {
       "id_pic": "Marbeau-5_16_§2",
       "IndexJantzen": [
         "fenetre",
         "verrière"
-      ]
+      ],
+      "dateCapture": "2004:06:07"
     }
   ]
 }

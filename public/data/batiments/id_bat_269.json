@@ -27,17 +27,17 @@
   "WPfr": null,
   "image_ref": "Villaret-de-Joyeuse-1_17_§1",
   "terme_jantzen_bat": [
-    "façade-d'angle",
-    "lucarne-d'angle",
-    "porte-fer",
-    "fenetre",
-    "décor",
-    "dome",
     "fenetre-d'angle",
+    "porte-fer-hall",
+    "décor",
     "sculpture",
     "clé",
-    "porte-fer-hall",
-    "colonne"
+    "fenetre",
+    "porte-fer",
+    "façade-d'angle",
+    "colonne",
+    "lucarne-d'angle",
+    "dome"
   ],
   "photos": [
     {
@@ -45,63 +45,73 @@
       "IndexJantzen": [
         "dome",
         "façade-d'angle"
-      ]
+      ],
+      "dateCapture": "2010:08:21"
     },
     {
       "id_pic": "Villaret-de-Joyeuse-1_17_§10",
       "IndexJantzen": [
         "colonne",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2010:06:04"
     },
     {
       "id_pic": "Villaret-de-Joyeuse-1_17_§11",
       "IndexJantzen": [
         "colonne",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2010:06:04"
     },
     {
       "id_pic": "Villaret-de-Joyeuse-1_17_§12",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2011:06:02"
     },
     {
       "id_pic": "Villaret-de-Joyeuse-1_17_§13",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2011:06:02"
     },
     {
       "id_pic": "Villaret-de-Joyeuse-1_17_§14",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2010:06:04"
     },
     {
       "id_pic": "Villaret-de-Joyeuse-1_17_§15",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:06:12"
     },
     {
       "id_pic": "Villaret-de-Joyeuse-1_17_§16-Rx",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2011:06:01"
     },
     {
       "id_pic": "Villaret-de-Joyeuse-1_17_§17-Rx",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2011:06:01"
     },
     {
       "id_pic": "Villaret-de-Joyeuse-1_17_§18",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2011:06:01"
     },
     {
       "id_pic": "Villaret-de-Joyeuse-1_17_§19-Rx",
@@ -109,7 +119,8 @@
         "décor",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2011:06:02"
     },
     {
       "id_pic": "Villaret-de-Joyeuse-1_17_§20-Rx",
@@ -117,13 +128,15 @@
         "clé",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2011:06:02"
     },
     {
       "id_pic": "Villaret-de-Joyeuse-1_17_§24",
       "IndexJantzen": [
         "porte-fer-hall"
-      ]
+      ],
+      "dateCapture": "2005:12:11"
     },
     {
       "id_pic": "Villaret-de-Joyeuse-1_17_§25",
@@ -131,81 +144,93 @@
         "clé",
         "porte-fer",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:12:11"
     },
     {
       "id_pic": "Villaret-de-Joyeuse-1_17_§26",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:12:11"
     },
     {
       "id_pic": "Villaret-de-Joyeuse-1_17_§27",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:12:11"
     },
     {
       "id_pic": "Villaret-de-Joyeuse-1_17_§28",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:12:11"
     },
     {
       "id_pic": "Villaret-de-Joyeuse-1_17_§2-Rx",
       "IndexJantzen": [
         "dome",
         "façade-d'angle"
-      ]
+      ],
+      "dateCapture": "2011:06:02"
     },
     {
       "id_pic": "Villaret-de-Joyeuse-1_17_§3",
       "IndexJantzen": [
         "dome",
         "fenetre-d'angle"
-      ]
+      ],
+      "dateCapture": "2010:08:21"
     },
     {
       "id_pic": "Villaret-de-Joyeuse-1_17_§4",
       "IndexJantzen": [
         "dome",
         "façade-d'angle"
-      ]
+      ],
+      "dateCapture": "2005:06:12"
     },
     {
       "id_pic": "Villaret-de-Joyeuse-1_17_§5",
       "IndexJantzen": [
         "dome",
         "lucarne-d'angle"
-      ]
+      ],
+      "dateCapture": "2011:06:02"
     },
     {
       "id_pic": "Villaret-de-Joyeuse-1_17_§6",
       "IndexJantzen": [
         "dome",
         "lucarne-d'angle"
-      ]
+      ],
+      "dateCapture": "2010:08:21"
     },
     {
       "id_pic": "Villaret-de-Joyeuse-1_17_§7",
       "IndexJantzen": [
         "dome",
         "lucarne-d'angle"
-      ]
+      ],
+      "dateCapture": "2005:06:12"
     },
     {
       "id_pic": "Villaret-de-Joyeuse-1_17_§8-Rx",
       "IndexJantzen": [
         "colonne",
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2011:06:02"
     },
     {
       "id_pic": "Villaret-de-Joyeuse-1_17_§9-Rx",
       "IndexJantzen": [
         "colonne",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2011:06:02"
     }
   ]
 }

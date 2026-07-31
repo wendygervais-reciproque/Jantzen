@@ -1,0 +1,42 @@
+{
+  "id_bat": 2834,
+  "libelle": "5 rue Charles-Dickens",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 9,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1913",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "5 rue Charles-Dickens",
+    "numero": "5",
+    "voie": "rue Charles-Dickens"
+  },
+  "arrondissement": 16,
+  "coordonnees": {
+    "latitude": "48.85697",
+    "longitude": "2.284641"
+  },
+  "id_pss": 55758,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 2349,
+  "terme_jantzen_bat": [
+    "fenetre-d'angle",
+    "balcon"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_2349",
+      "IndexJantzen": [
+        "balcon",
+        "fenetre-d'angle"
+      ]
+    }
+  ]
+}

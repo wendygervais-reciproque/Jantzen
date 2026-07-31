@@ -23,11 +23,11 @@
   "image_ref": "Vendome-Pl-2_1_§1",
   "terme_jantzen_bat": [
     "lucarne",
-    "lucarne-d'angle",
-    "décor",
     "fenetre-d'angle",
+    "décor",
     "sculpture",
-    "pilastre"
+    "pilastre",
+    "lucarne-d'angle"
   ],
   "photos": [
     {
@@ -35,7 +35,8 @@
       "IndexJantzen": [
         "fenetre-d'angle",
         "pilastre"
-      ]
+      ],
+      "dateCapture": "2005:08:10"
     },
     {
       "id_pic": "Vendome-Pl-2_1_§2",
@@ -44,31 +45,36 @@
         "fenetre-d'angle",
         "pilastre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2008:05:15"
     },
     {
       "id_pic": "Vendome-Pl-2_1_§3",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2008:05:15"
     },
     {
       "id_pic": "Vendome-Pl-2_1_§4",
       "IndexJantzen": [
         "lucarne-d'angle"
-      ]
+      ],
+      "dateCapture": "2005:08:10"
     },
     {
       "id_pic": "Vendome-Pl-2_1_§5",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2005:08:10"
     },
     {
       "id_pic": "Vendome-Pl-2_1_§6",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2005:08:10"
     }
   ]
 }

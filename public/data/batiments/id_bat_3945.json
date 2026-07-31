@@ -27,12 +27,12 @@
   "WPfr": null,
   "image_ref": "Pierre-Demours-9b_17_§1",
   "terme_jantzen_bat": [
+    "console",
+    "garde-corps",
     "décor",
     "sculpture",
-    "console",
-    "balcon",
     "pilastre",
-    "garde-corps"
+    "balcon"
   ],
   "photos": [
     {
@@ -42,21 +42,24 @@
         "décor",
         "pilastre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:08:08"
     },
     {
       "id_pic": "Pierre-Demours-9b_17_§2",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:08:08"
     },
     {
       "id_pic": "Pierre-Demours-9b_17_§3",
       "IndexJantzen": [
         "balcon",
         "garde-corps"
-      ]
+      ],
+      "dateCapture": "2005:08:08"
     },
     {
       "id_pic": "Pierre-Demours-9b_17_§4",
@@ -64,7 +67,8 @@
         "console",
         "garde-corps",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:08:08"
     }
   ]
 }

@@ -1,0 +1,87 @@
+{
+  "id_bat": 2633,
+  "libelle": "42b boulevard Richard-Lenoir",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 219,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1912",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "42b boulevard Richard-Lenoir",
+    "numero": "42b",
+    "voie": "boulevard Richard-Lenoir"
+  },
+  "arrondissement": 11,
+  "coordonnees": {
+    "latitude": "48.857897",
+    "longitude": "2.371722"
+  },
+  "id_pss": 41278,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 12978,
+  "terme_jantzen_bat": [
+    "lucarne",
+    "façade",
+    "fenetre",
+    "sculpture",
+    "décor",
+    "garde-corps"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_12978",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_12979",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_12980",
+      "IndexJantzen": [
+        "décor",
+        "fenetre",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_12981",
+      "IndexJantzen": [
+        "décor",
+        "lucarne",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_12982",
+      "IndexJantzen": [
+        "fenetre",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_12983",
+      "IndexJantzen": [
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_12984",
+      "IndexJantzen": [
+        "fenetre",
+        "garde-corps"
+      ]
+    }
+  ]
+}

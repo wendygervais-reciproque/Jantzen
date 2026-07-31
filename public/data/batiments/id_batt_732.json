@@ -1,0 +1,96 @@
+{
+  "id_bat": 732,
+  "libelle": "124 rue Réaumur",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 113,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1904",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "124 rue Réaumur",
+    "numero": "124",
+    "voie": "rue Réaumur"
+  },
+  "arrondissement": 2,
+  "coordonnees": {
+    "latitude": "48.868138",
+    "longitude": "2.344222"
+  },
+  "id_pss": 463,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 12699,
+  "terme_jantzen_bat": [
+    "oriel",
+    "porte-fer",
+    "fenetre",
+    "métal",
+    "verrière",
+    "console"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_12699",
+      "IndexJantzen": [
+        "fenetre",
+        "métal",
+        "oriel"
+      ]
+    },
+    {
+      "id_pic": "image_12700",
+      "IndexJantzen": [
+        "console",
+        "métal",
+        "oriel"
+      ]
+    },
+    {
+      "id_pic": "image_12701",
+      "IndexJantzen": [
+        "fenetre",
+        "métal",
+        "oriel",
+        "verrière"
+      ]
+    },
+    {
+      "id_pic": "image_12702",
+      "IndexJantzen": [
+        "fenetre",
+        "métal",
+        "oriel",
+        "verrière"
+      ]
+    },
+    {
+      "id_pic": "image_12703",
+      "IndexJantzen": [
+        "fenetre",
+        "métal",
+        "oriel",
+        "verrière"
+      ]
+    },
+    {
+      "id_pic": "image_12704",
+      "IndexJantzen": [
+        "métal",
+        "oriel",
+        "verrière"
+      ]
+    },
+    {
+      "id_pic": "image_12705",
+      "IndexJantzen": [
+        "porte-fer"
+      ]
+    }
+  ]
+}

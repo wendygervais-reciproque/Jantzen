@@ -28,10 +28,10 @@
   "image_ref": "Cernuschi-3_17_§1",
   "terme_jantzen_bat": [
     "façade",
+    "oriel",
     "brique",
     "fenetre",
-    "porte-bois",
-    "oriel"
+    "porte-bois"
   ],
   "photos": [
     {
@@ -39,7 +39,8 @@
       "IndexJantzen": [
         "brique",
         "façade"
-      ]
+      ],
+      "dateCapture": "2009:07:15"
     },
     {
       "id_pic": "Cernuschi-3_17_§2",
@@ -47,13 +48,15 @@
         "brique",
         "fenetre",
         "oriel"
-      ]
+      ],
+      "dateCapture": "2009:07:15"
     },
     {
       "id_pic": "Cernuschi-3_17_§3",
       "IndexJantzen": [
         "porte-bois"
-      ]
+      ],
+      "dateCapture": "2009:07:15"
     }
   ]
 }

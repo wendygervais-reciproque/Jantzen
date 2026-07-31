@@ -27,25 +27,26 @@
   "WPfr": null,
   "image_ref": "Brunel-23_17_§10",
   "terme_jantzen_bat": [
+    "console",
     "lucarne",
-    "lucarne-d'angle",
-    "porte-fer",
-    "fenetre",
-    "brique",
-    "décor",
     "fenetre-d'angle",
+    "porte-fer-hall",
+    "brique",
     "sculpture",
     "clé",
-    "console",
+    "fenetre",
+    "porte-fer",
+    "décor",
     "tourelle",
     "balcon",
-    "porte-fer-hall",
-    "colonne"
+    "colonne",
+    "lucarne-d'angle"
   ],
   "photos": [
     {
       "id_pic": "Brunel-23_17_§10",
-      "IndexJantzen": []
+      "IndexJantzen": [],
+      "dateCapture": "2012:03:26"
     },
     {
       "id_pic": "Brunel-23_17_§11",
@@ -53,7 +54,8 @@
         "balcon",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2007:01:21"
     },
     {
       "id_pic": "Brunel-23_17_§13",
@@ -61,72 +63,83 @@
         "balcon",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2007:01:21"
     },
     {
       "id_pic": "Brunel-23_17_§14",
       "IndexJantzen": [
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2007:02:03"
     },
     {
       "id_pic": "Brunel-23_17_§15",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2007:01:21"
     },
     {
       "id_pic": "Brunel-23_17_§16",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2007:02:03"
     },
     {
       "id_pic": "Brunel-23_17_§17",
       "IndexJantzen": [
         "porte-fer-hall"
-      ]
+      ],
+      "dateCapture": "2006:06:18"
     },
     {
       "id_pic": "Brunel-23_17_§19-Rx",
       "IndexJantzen": [
         "clé",
         "porte-fer"
-      ]
+      ],
+      "dateCapture": "2011:06:02"
     },
     {
       "id_pic": "Brunel-23_17_§1-Rx",
       "IndexJantzen": [
         "fenetre-d'angle"
-      ]
+      ],
+      "dateCapture": "2011:06:02"
     },
     {
       "id_pic": "Brunel-23_17_§20-Rx",
       "IndexJantzen": [
         "porte-fer"
-      ]
+      ],
+      "dateCapture": "2011:06:02"
     },
     {
       "id_pic": "Brunel-23_17_§22",
       "IndexJantzen": [
         "clé",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2004:08:26"
     },
     {
       "id_pic": "Brunel-23_17_§23",
       "IndexJantzen": [
         "porte-fer"
-      ]
+      ],
+      "dateCapture": "2011:06:02"
     },
     {
       "id_pic": "Brunel-23_17_§2-Rx",
       "IndexJantzen": [
         "fenetre-d'angle"
-      ]
+      ],
+      "dateCapture": "2011:06:02"
     },
     {
       "id_pic": "Brunel-23_17_§3-Rx",
@@ -135,21 +148,24 @@
         "décor",
         "lucarne-d'angle",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2011:06:02"
     },
     {
       "id_pic": "Brunel-23_17_§4-Rx",
       "IndexJantzen": [
         "balcon",
         "brique"
-      ]
+      ],
+      "dateCapture": "2011:06:02"
     },
     {
       "id_pic": "Brunel-23_17_§5-Rx",
       "IndexJantzen": [
         "fenetre",
         "tourelle"
-      ]
+      ],
+      "dateCapture": "2011:06:02"
     },
     {
       "id_pic": "Brunel-23_17_§6b",
@@ -160,7 +176,8 @@
         "lucarne-d'angle",
         "sculpture",
         "tourelle"
-      ]
+      ],
+      "dateCapture": "2012:03:26"
     },
     {
       "id_pic": "Brunel-23_17_§6-Rx",
@@ -170,28 +187,32 @@
         "fenetre",
         "sculpture",
         "tourelle"
-      ]
+      ],
+      "dateCapture": "2011:06:02"
     },
     {
       "id_pic": "Brunel-23_17_§7-Rx",
       "IndexJantzen": [
         "colonne",
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2011:06:02"
     },
     {
       "id_pic": "Brunel-23_17_§8",
       "IndexJantzen": [
         "brique",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2011:06:02"
     },
     {
       "id_pic": "Brunel-23_17_§9",
       "IndexJantzen": [
         "brique",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2011:06:02"
     }
   ]
 }

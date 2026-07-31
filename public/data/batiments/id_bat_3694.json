@@ -23,14 +23,14 @@
   "image_ref": "Reaumur-82_2_§1",
   "terme_jantzen_bat": [
     "lucarne",
-    "fronton",
-    "décor",
-    "dome",
     "fenetre-d'angle",
-    "sculpture",
-    "pignon",
     "mosaique",
-    "pilastre"
+    "décor",
+    "sculpture",
+    "fronton",
+    "pilastre",
+    "dome",
+    "pignon"
   ],
   "photos": [
     {
@@ -40,7 +40,8 @@
         "fenetre-d'angle",
         "pignon",
         "pilastre"
-      ]
+      ],
+      "dateCapture": "2004:08:31"
     },
     {
       "id_pic": "Reaumur-82_2_§2",
@@ -49,7 +50,8 @@
         "fenetre-d'angle",
         "mosaique",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2004:08:31"
     },
     {
       "id_pic": "Reaumur-82_2_§3",
@@ -57,7 +59,8 @@
         "dome",
         "fronton",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2004:08:31"
     }
   ]
 }

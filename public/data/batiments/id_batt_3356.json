@@ -1,0 +1,106 @@
+{
+  "id_bat": 3356,
+  "libelle": "7 à 9 rue Rembrandt",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 319,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1896",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "7 à 9 rue Rembrandt",
+    "numero": "7 à 9",
+    "voie": "rue Rembrandt"
+  },
+  "arrondissement": 8,
+  "coordonnees": {
+    "latitude": "48.877224",
+    "longitude": "2.308031"
+  },
+  "id_pss": 10181,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 12831,
+  "terme_jantzen_bat": [
+    "oriel",
+    "clé",
+    "façade",
+    "fenetre",
+    "sculpture",
+    "métal",
+    "garde-corps",
+    "console"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_12831",
+      "IndexJantzen": [
+        "façade",
+        "métal"
+      ]
+    },
+    {
+      "id_pic": "image_12832",
+      "IndexJantzen": [
+        "fenetre",
+        "métal",
+        "oriel"
+      ]
+    },
+    {
+      "id_pic": "image_12833",
+      "IndexJantzen": [
+        "fenetre",
+        "métal",
+        "oriel"
+      ]
+    },
+    {
+      "id_pic": "image_12834",
+      "IndexJantzen": [
+        "métal",
+        "oriel"
+      ]
+    },
+    {
+      "id_pic": "image_12835",
+      "IndexJantzen": [
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_12836",
+      "IndexJantzen": [
+        "clé",
+        "fenetre",
+        "garde-corps"
+      ]
+    },
+    {
+      "id_pic": "image_12837",
+      "IndexJantzen": [
+        "métal",
+        "oriel"
+      ]
+    },
+    {
+      "id_pic": "image_12838",
+      "IndexJantzen": [
+        "console",
+        "métal"
+      ]
+    },
+    {
+      "id_pic": "image_12839",
+      "IndexJantzen": [
+        "console",
+        "sculpture"
+      ]
+    }
+  ]
+}

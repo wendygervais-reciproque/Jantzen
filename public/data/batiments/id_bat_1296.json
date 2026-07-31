@@ -27,13 +27,13 @@
   "WPfr": null,
   "image_ref": "Paradis-18_10_§2",
   "terme_jantzen_bat": [
-    "porte",
     "façade",
-    "céramique",
-    "intérieur",
-    "porte-fer",
+    "porte",
     "fenetre",
-    "colonne"
+    "porte-fer",
+    "colonne",
+    "intérieur",
+    "céramique"
   ],
   "photos": [
     {
@@ -43,7 +43,8 @@
         "façade",
         "fenetre",
         "porte"
-      ]
+      ],
+      "dateCapture": "2005:05:26"
     },
     {
       "id_pic": "Paradis-18_10_§3",
@@ -51,40 +52,46 @@
         "colonne",
         "céramique",
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2005:05:26"
     },
     {
       "id_pic": "Paradis-18_10_§4",
       "IndexJantzen": [
         "céramique",
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2005:05:26"
     },
     {
       "id_pic": "Paradis-18_10_§5",
       "IndexJantzen": [
         "céramique",
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2006:07:02"
     },
     {
       "id_pic": "Paradis-18_10_§6",
       "IndexJantzen": [
         "porte-fer"
-      ]
+      ],
+      "dateCapture": "2006:07:02"
     },
     {
       "id_pic": "Paradis-18_10_§7",
       "IndexJantzen": [
         "porte-fer"
-      ]
+      ],
+      "dateCapture": "2006:07:02"
     },
     {
       "id_pic": "Paradis-18_10_§8",
       "IndexJantzen": [
         "céramique",
         "intérieur"
-      ]
+      ],
+      "dateCapture": "2006:07:02"
     }
   ]
 }

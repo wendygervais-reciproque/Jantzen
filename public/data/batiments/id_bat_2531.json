@@ -22,11 +22,11 @@
   "WPfr": null,
   "image_ref": "Moncey-4_9_§1",
   "terme_jantzen_bat": [
-    "porte-fer",
-    "fenetre",
+    "console",
     "sculpture",
     "clé",
-    "console"
+    "fenetre",
+    "porte-fer"
   ],
   "photos": [
     {
@@ -34,21 +34,24 @@
       "IndexJantzen": [
         "fenetre",
         "porte-fer"
-      ]
+      ],
+      "dateCapture": "2005:05:21"
     },
     {
       "id_pic": "Moncey-4_9_§2",
       "IndexJantzen": [
         "clé",
         "porte-fer"
-      ]
+      ],
+      "dateCapture": "2005:07:14"
     },
     {
       "id_pic": "Moncey-4_9_§3",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:05:21"
     }
   ]
 }

@@ -27,13 +27,13 @@
   "WPfr": null,
   "image_ref": "Exelmans-133_16_§10",
   "terme_jantzen_bat": [
-    "lucarne",
-    "toiture",
-    "façade",
-    "fenetre",
-    "sculpture",
     "console",
-    "garde-corps"
+    "façade",
+    "garde-corps",
+    "lucarne",
+    "sculpture",
+    "fenetre",
+    "toiture"
   ],
   "photos": [
     {
@@ -41,57 +41,66 @@
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:04:03"
     },
     {
       "id_pic": "Exelmans-133_16_§1-Dx",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "dateCapture": "2014:03:09"
     },
     {
       "id_pic": "Exelmans-133_16_§2-Dx",
       "IndexJantzen": [
         "fenetre",
         "toiture"
-      ]
+      ],
+      "dateCapture": "2014:03:09"
     },
     {
       "id_pic": "Exelmans-133_16_§3",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "dateCapture": "2006:04:03"
     },
     {
       "id_pic": "Exelmans-133_16_§4",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2008:04:10"
     },
     {
       "id_pic": "Exelmans-133_16_§5",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2006:04:03"
     },
     {
       "id_pic": "Exelmans-133_16_§6",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2006:04:03"
     },
     {
       "id_pic": "Exelmans-133_16_§7",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2006:04:03"
     },
     {
       "id_pic": "Exelmans-133_16_§9",
       "IndexJantzen": [
         "fenetre",
         "garde-corps"
-      ]
+      ],
+      "dateCapture": "2006:04:03"
     }
   ]
 }

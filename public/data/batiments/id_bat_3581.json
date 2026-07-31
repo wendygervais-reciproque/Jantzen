@@ -27,13 +27,13 @@
   "WPfr": null,
   "image_ref": "Alphand-av-8_16_§10",
   "terme_jantzen_bat": [
-    "porte-fer",
-    "fenetre",
-    "sculpture",
-    "clé",
     "console",
     "cariatide",
-    "porte-fer-hall"
+    "porte-fer-hall",
+    "sculpture",
+    "clé",
+    "fenetre",
+    "porte-fer"
   ],
   "photos": [
     {
@@ -43,35 +43,40 @@
         "console",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2004:10:25"
     },
     {
       "id_pic": "Alphand-av-8_16_§11",
       "IndexJantzen": [
         "clé",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:06:30"
     },
     {
       "id_pic": "Alphand-av-8_16_§12",
       "IndexJantzen": [
         "cariatide",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:06:30"
     },
     {
       "id_pic": "Alphand-av-8_16_§13",
       "IndexJantzen": [
         "cariatide",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:06:30"
     },
     {
       "id_pic": "Alphand-av-8_16_§14",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2004:10:25"
     },
     {
       "id_pic": "Alphand-av-8_16_§7",
@@ -79,7 +84,8 @@
         "cariatide",
         "fenetre",
         "porte-fer-hall"
-      ]
+      ],
+      "dateCapture": "2006:06:30"
     },
     {
       "id_pic": "Alphand-av-8_16_§7b",
@@ -87,14 +93,16 @@
         "cariatide",
         "fenetre",
         "porte-fer"
-      ]
+      ],
+      "dateCapture": "2006:06:30"
     },
     {
       "id_pic": "Alphand-av-8_16_§8",
       "IndexJantzen": [
         "porte-fer-hall",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2004:10:26"
     },
     {
       "id_pic": "Alphand-av-8_16_§9",
@@ -103,7 +111,8 @@
         "console",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:06:30"
     },
     {
       "id_pic": "Alphand-Av-8_16_-A_DxO",
@@ -112,7 +121,8 @@
         "fenetre",
         "porte-fer-hall",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2004:10:26"
     }
   ]
 }

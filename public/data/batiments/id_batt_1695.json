@@ -1,0 +1,40 @@
+{
+  "id_bat": 1695,
+  "libelle": "22 rue Laugier",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 627,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1904",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "22 rue Laugier",
+    "numero": "22",
+    "voie": "rue Laugier"
+  },
+  "arrondissement": 17,
+  "coordonnees": {
+    "latitude": "48.880774",
+    "longitude": "2.296193"
+  },
+  "id_pss": 24517,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 8102,
+  "terme_jantzen_bat": [
+    "porte-fer-hall"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_8102",
+      "IndexJantzen": [
+        "porte-fer-hall"
+      ]
+    }
+  ]
+}

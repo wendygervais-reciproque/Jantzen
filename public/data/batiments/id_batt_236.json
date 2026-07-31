@@ -1,0 +1,60 @@
+{
+  "id_bat": 236,
+  "libelle": "1 rue du Marché-Popincourt",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "1 rue du Marché-Popincourt",
+    "numero": "1",
+    "voie": "rue du Marché-Popincourt"
+  },
+  "arrondissement": 11,
+  "coordonnees": {
+    "latitude": "48.864292",
+    "longitude": "2.373216"
+  },
+  "id_pss": 12361,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 9239,
+  "terme_jantzen_bat": [
+    "fenetre",
+    "oriel",
+    "porte",
+    "brique"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_9239",
+      "IndexJantzen": [
+        "brique",
+        "fenetre",
+        "porte"
+      ]
+    },
+    {
+      "id_pic": "image_9240",
+      "IndexJantzen": [
+        "brique",
+        "fenetre",
+        "porte"
+      ]
+    },
+    {
+      "id_pic": "image_9241",
+      "IndexJantzen": [
+        "brique",
+        "fenetre",
+        "oriel"
+      ]
+    },
+    {
+      "id_pic": "image_9242",
+      "IndexJantzen": []
+    }
+  ]
+}

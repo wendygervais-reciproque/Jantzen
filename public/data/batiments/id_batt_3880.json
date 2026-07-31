@@ -1,0 +1,51 @@
+{
+  "id_bat": 3880,
+  "libelle": "93 avenue Kléber",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 365,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1880",
+  "periode": [
+    "1870-1894"
+  ],
+  "adresse": {
+    "affichage": "93 avenue Kléber",
+    "numero": "93",
+    "voie": "avenue Kléber"
+  },
+  "arrondissement": 16,
+  "coordonnees": {
+    "latitude": "48.863797",
+    "longitude": "2.288085"
+  },
+  "id_pss": 102907,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 7539,
+  "terme_jantzen_bat": [
+    "fenetre",
+    "sculpture",
+    "mosaique",
+    "façade"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_7539",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_7540",
+      "IndexJantzen": [
+        "fenetre",
+        "mosaique",
+        "sculpture"
+      ]
+    }
+  ]
+}

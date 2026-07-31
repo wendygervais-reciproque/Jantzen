@@ -27,16 +27,17 @@
   "WPfr": null,
   "image_ref": "Ernest-Cresson-8_14_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "console",
-    "sculpture"
+    "sculpture",
+    "fenetre"
   ],
   "photos": [
     {
       "id_pic": "Ernest-Cresson-8_14_§1",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2004:07:28"
     },
     {
       "id_pic": "Ernest-Cresson-8_14_§2",
@@ -44,7 +45,8 @@
         "console",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2004:07:28"
     }
   ]
 }

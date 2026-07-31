@@ -27,38 +27,41 @@
   "WPfr": null,
   "image_ref": "Damremont-19_18_§1",
   "terme_jantzen_bat": [
-    "lucarne",
-    "toiture",
-    "lucarne-d'angle",
-    "porte-fer",
-    "fenetre",
-    "décor",
-    "fenetre-d'angle",
-    "sculpture",
     "console",
+    "lucarne",
+    "fenetre-d'angle",
+    "décor",
+    "sculpture",
+    "fenetre",
+    "porte-fer",
+    "pilastre",
+    "lucarne-d'angle",
     "balcon",
-    "pilastre"
+    "toiture"
   ],
   "photos": [
     {
       "id_pic": "Damremont-19_18_§1",
       "IndexJantzen": [
         "fenetre-d'angle"
-      ]
+      ],
+      "dateCapture": "2004:07:27"
     },
     {
       "id_pic": "Damremont-19_18_§10",
       "IndexJantzen": [
         "fenetre",
         "porte-fer"
-      ]
+      ],
+      "dateCapture": "2006:04:08"
     },
     {
       "id_pic": "Damremont-19_18_§2",
       "IndexJantzen": [
         "fenetre-d'angle",
         "toiture"
-      ]
+      ],
+      "dateCapture": "2004:07:27"
     },
     {
       "id_pic": "Damremont-19_18_§3",
@@ -66,7 +69,8 @@
         "balcon",
         "lucarne-d'angle",
         "pilastre"
-      ]
+      ],
+      "dateCapture": "2004:07:27"
     },
     {
       "id_pic": "Damremont-19_18_§4",
@@ -74,14 +78,16 @@
         "décor",
         "lucarne",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:04:08"
     },
     {
       "id_pic": "Damremont-19_18_§5",
       "IndexJantzen": [
         "console",
         "fenetre-d'angle"
-      ]
+      ],
+      "dateCapture": "2005:05:19"
     },
     {
       "id_pic": "Damremont-19_18_§6-3",
@@ -89,28 +95,32 @@
         "décor",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:04:08"
     },
     {
       "id_pic": "Damremont-19_18_§7",
       "IndexJantzen": [
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:04:08"
     },
     {
       "id_pic": "Damremont-19_18_§8",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:04:08"
     },
     {
       "id_pic": "Damremont-19_18_§9",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:05:19"
     }
   ]
 }

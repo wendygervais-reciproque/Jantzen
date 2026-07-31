@@ -27,26 +27,28 @@
   "WPfr": null,
   "image_ref": "Daumesnil-26b_12_§1",
   "terme_jantzen_bat": [
-    "toiture",
-    "lucarne-d'angle",
-    "dome",
+    "console",
     "fenetre-d'angle",
     "sculpture",
-    "console"
+    "lucarne-d'angle",
+    "toiture",
+    "dome"
   ],
   "photos": [
     {
       "id_pic": "Daumesnil-26b_12_§1",
       "IndexJantzen": [
         "fenetre-d'angle"
-      ]
+      ],
+      "dateCapture": "2005:10:10"
     },
     {
       "id_pic": "Daumesnil-26b_12_§2",
       "IndexJantzen": [
         "dome",
         "lucarne-d'angle"
-      ]
+      ],
+      "dateCapture": "2005:10:10"
     },
     {
       "id_pic": "Daumesnil-26b_12_§3",
@@ -54,14 +56,16 @@
         "dome",
         "lucarne-d'angle",
         "toiture"
-      ]
+      ],
+      "dateCapture": "2005:10:10"
     },
     {
       "id_pic": "Daumesnil-26b_12_§4",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:10:10"
     }
   ]
 }

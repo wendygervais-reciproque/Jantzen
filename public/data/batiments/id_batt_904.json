@@ -1,0 +1,87 @@
+{
+  "id_bat": 904,
+  "libelle": "14 rue Déodat-de-Séverac",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 277,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1907-1908",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "14 rue Déodat-de-Séverac",
+    "numero": "14",
+    "voie": "rue Déodat-de-Séverac"
+  },
+  "arrondissement": 17,
+  "coordonnees": {
+    "latitude": "48.886287",
+    "longitude": "2.311011"
+  },
+  "id_pss": null,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 3693,
+  "terme_jantzen_bat": [
+    "loggia",
+    "lucarne",
+    "porte-fer-hall",
+    "fenetre"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_3693",
+      "IndexJantzen": [
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_3694",
+      "IndexJantzen": [
+        "loggia"
+      ]
+    },
+    {
+      "id_pic": "image_3695",
+      "IndexJantzen": [
+        "loggia"
+      ]
+    },
+    {
+      "id_pic": "image_3696",
+      "IndexJantzen": [
+        "fenetre",
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_3697",
+      "IndexJantzen": [
+        "fenetre",
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_3698",
+      "IndexJantzen": [
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_3699",
+      "IndexJantzen": [
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_3700",
+      "IndexJantzen": [
+        "porte-fer-hall"
+      ]
+    }
+  ]
+}

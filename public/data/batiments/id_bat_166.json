@@ -27,22 +27,23 @@
   "WPfr": null,
   "image_ref": "Niel-1_17_§1",
   "terme_jantzen_bat": [
-    "façade-d'angle",
-    "lucarne-d'angle",
-    "porte-fer",
-    "fenetre",
-    "décor",
     "fenetre-d'angle",
+    "décor",
     "sculpture",
+    "fenetre",
+    "porte-fer",
+    "façade-d'angle",
     "balcon",
-    "colonne"
+    "colonne",
+    "lucarne-d'angle"
   ],
   "photos": [
     {
       "id_pic": "Niel-1_17_§1",
       "IndexJantzen": [
         "façade-d'angle"
-      ]
+      ],
+      "dateCapture": "2008:02:24"
     },
     {
       "id_pic": "Niel-1_17_§2",
@@ -51,19 +52,22 @@
         "décor",
         "fenetre-d'angle",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:06:18"
     },
     {
       "id_pic": "Niel-1_17_§3",
       "IndexJantzen": [
         "lucarne-d'angle"
-      ]
+      ],
+      "dateCapture": "2008:02:24"
     },
     {
       "id_pic": "Niel-1_17_§4",
       "IndexJantzen": [
         "lucarne-d'angle"
-      ]
+      ],
+      "dateCapture": "2006:04:14"
     },
     {
       "id_pic": "Niel-1_17_§5",
@@ -72,7 +76,8 @@
         "décor",
         "fenetre-d'angle",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2008:02:24"
     },
     {
       "id_pic": "Niel-1_17_§6",
@@ -81,7 +86,8 @@
         "décor",
         "fenetre-d'angle",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:04:14"
     },
     {
       "id_pic": "Niel-1_17_§7",
@@ -89,7 +95,8 @@
         "colonne",
         "fenetre",
         "porte-fer"
-      ]
+      ],
+      "dateCapture": null
     }
   ]
 }

@@ -22,23 +22,23 @@
   "WPfr": null,
   "image_ref": "La-Fontaine-14_16_§1",
   "terme_jantzen_bat": [
-    "lucarne",
-    "façade-d'angle",
-    "façade",
-    "métal",
-    "céramique",
-    "porte-fer",
-    "brique",
-    "fenetre",
-    "décor",
-    "fenetre-d'angle",
-    "sculpture",
     "console",
+    "façade",
+    "garde-corps",
+    "lucarne",
+    "fenetre-d'angle",
+    "brique",
+    "décor",
+    "sculpture",
+    "fenetre",
     "tourelle",
+    "métal",
+    "façade-d'angle",
+    "porte-fer",
     "balcon",
-    "pignon",
     "colonne",
-    "garde-corps"
+    "céramique",
+    "pignon"
   ],
   "photos": [
     {
@@ -46,14 +46,16 @@
       "IndexJantzen": [
         "brique",
         "façade-d'angle"
-      ]
+      ],
+      "dateCapture": "2007:03:15"
     },
     {
       "id_pic": "La-Fontaine-14_16_§10",
       "IndexJantzen": [
         "brique",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2014:03:08"
     },
     {
       "id_pic": "La-Fontaine-14_16_§11-Rx",
@@ -61,7 +63,8 @@
         "brique",
         "lucarne",
         "pignon"
-      ]
+      ],
+      "dateCapture": "2012:07:21"
     },
     {
       "id_pic": "La-Fontaine-14_16_§12",
@@ -69,7 +72,8 @@
         "brique",
         "lucarne",
         "pignon"
-      ]
+      ],
+      "dateCapture": "2008:02:19"
     },
     {
       "id_pic": "La-Fontaine-14_16_§14-Rx",
@@ -79,21 +83,24 @@
         "décor",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2012:07:21"
     },
     {
       "id_pic": "La-Fontaine-14_16_§15",
       "IndexJantzen": [
         "brique",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2012:07:21"
     },
     {
       "id_pic": "La-Fontaine-14_16_§16",
       "IndexJantzen": [
         "brique",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2014:03:08"
     },
     {
       "id_pic": "La-Fontaine-14_16_§17",
@@ -103,7 +110,8 @@
         "colonne",
         "console",
         "métal"
-      ]
+      ],
+      "dateCapture": "2014:03:08"
     },
     {
       "id_pic": "La-Fontaine-14_16_§18",
@@ -113,14 +121,16 @@
         "colonne",
         "console",
         "métal"
-      ]
+      ],
+      "dateCapture": "2014:03:08"
     },
     {
       "id_pic": "La-Fontaine-14_16_§19",
       "IndexJantzen": [
         "brique",
         "façade"
-      ]
+      ],
+      "dateCapture": "2014:03:08"
     },
     {
       "id_pic": "La-Fontaine-14_16_§2",
@@ -129,7 +139,8 @@
         "décor",
         "fenetre-d'angle",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2008:02:19"
     },
     {
       "id_pic": "La-Fontaine-14_16_§20",
@@ -137,7 +148,8 @@
         "brique",
         "décor",
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2014:03:08"
     },
     {
       "id_pic": "La-Fontaine-14_16_§21",
@@ -146,14 +158,16 @@
         "céramique",
         "décor",
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2008:02:19"
     },
     {
       "id_pic": "La-Fontaine-14_16_§23",
       "IndexJantzen": [
         "brique",
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2007:03:15"
     },
     {
       "id_pic": "La-Fontaine-14_16_§24",
@@ -161,7 +175,8 @@
         "brique",
         "décor",
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2008:02:19"
     },
     {
       "id_pic": "La-Fontaine-14_16_§25",
@@ -170,14 +185,16 @@
         "décor",
         "fenetre",
         "garde-corps"
-      ]
+      ],
+      "dateCapture": "2006:07:01"
     },
     {
       "id_pic": "La-Fontaine-14_16_§26",
       "IndexJantzen": [
         "brique",
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2004:03:27"
     },
     {
       "id_pic": "La-Fontaine-14_16_§27-Rx",
@@ -186,7 +203,8 @@
         "décor",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2012:07:21"
     },
     {
       "id_pic": "La-Fontaine-14_16_§28-Rx",
@@ -196,7 +214,8 @@
         "décor",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2012:07:21"
     },
     {
       "id_pic": "La-Fontaine-14_16_§29",
@@ -205,7 +224,8 @@
         "céramique",
         "fenetre",
         "garde-corps"
-      ]
+      ],
+      "dateCapture": "2014:03:08"
     },
     {
       "id_pic": "La-Fontaine-14_16_§3",
@@ -216,7 +236,8 @@
         "fenetre",
         "sculpture",
         "tourelle"
-      ]
+      ],
+      "dateCapture": "2006:07:01"
     },
     {
       "id_pic": "La-Fontaine-14_16_§30-Rx",
@@ -225,13 +246,15 @@
         "décor",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2012:07:21"
     },
     {
       "id_pic": "La-Fontaine-14_16_§31",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2007:03:15"
     },
     {
       "id_pic": "La-Fontaine-14_16_§32",
@@ -239,53 +262,61 @@
         "décor",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2007:03:15"
     },
     {
       "id_pic": "La-Fontaine-14_16_§33-Rx",
       "IndexJantzen": [
         "céramique",
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2012:07:21"
     },
     {
       "id_pic": "La-Fontaine-14_16_§34",
       "IndexJantzen": [
         "colonne",
         "porte-fer"
-      ]
+      ],
+      "dateCapture": "2014:03:08"
     },
     {
       "id_pic": "La-Fontaine-14_16_§34b",
       "IndexJantzen": [
         "porte-fer"
-      ]
+      ],
+      "dateCapture": "2007:03:15"
     },
     {
       "id_pic": "La-Fontaine-14_16_§35",
       "IndexJantzen": [
         "porte-fer"
-      ]
+      ],
+      "dateCapture": "2014:03:08"
     },
     {
       "id_pic": "La-Fontaine-14_16_§36",
       "IndexJantzen": [
         "porte-fer"
-      ]
+      ],
+      "dateCapture": "2008:02:19"
     },
     {
       "id_pic": "La-Fontaine-14_16_§38",
       "IndexJantzen": [
         "colonne",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2007:03:15"
     },
     {
       "id_pic": "La-Fontaine-14_16_§39",
       "IndexJantzen": [
         "colonne",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2004:03:27"
     },
     {
       "id_pic": "La-Fontaine-14_16_§4",
@@ -295,7 +326,8 @@
         "décor",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:07:01"
     },
     {
       "id_pic": "La-Fontaine-14_16_§5",
@@ -305,14 +337,16 @@
         "décor",
         "fenetre-d'angle",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2004:03:27"
     },
     {
       "id_pic": "La-Fontaine-14_16_§6",
       "IndexJantzen": [
         "brique",
         "façade"
-      ]
+      ],
+      "dateCapture": "2007:03:15"
     },
     {
       "id_pic": "La-Fontaine-14_16_§7",
@@ -320,7 +354,8 @@
         "brique",
         "fenetre",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2008:02:19"
     },
     {
       "id_pic": "La-Fontaine-14_16_§8-Rx",
@@ -328,14 +363,16 @@
         "brique",
         "façade",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2012:07:21"
     },
     {
       "id_pic": "La-Fontaine-14_16_§9",
       "IndexJantzen": [
         "brique",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2014:03:08"
     }
   ]
 }

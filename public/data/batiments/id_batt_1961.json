@@ -1,0 +1,51 @@
+{
+  "id_bat": 1961,
+  "libelle": "276 boulevard Raspail",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 542,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1905",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "276 boulevard Raspail",
+    "numero": "276",
+    "voie": "boulevard Raspail"
+  },
+  "arrondissement": 14,
+  "coordonnees": {
+    "latitude": "48.835954",
+    "longitude": "2.331554"
+  },
+  "id_pss": 10148,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 12449,
+  "terme_jantzen_bat": [
+    "fenetre",
+    "sculpture",
+    "console",
+    "façade"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_12449",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_12450",
+      "IndexJantzen": [
+        "console",
+        "fenetre",
+        "sculpture"
+      ]
+    }
+  ]
+}

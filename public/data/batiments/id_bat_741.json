@@ -22,12 +22,12 @@
   "WPfr": null,
   "image_ref": "Reaumur-126_2_§1",
   "terme_jantzen_bat": [
+    "verrière",
     "lucarne",
-    "métal",
-    "dome",
     "clé",
+    "métal",
     "colonne",
-    "verrière"
+    "dome"
   ],
   "photos": [
     {
@@ -35,42 +35,48 @@
       "IndexJantzen": [
         "métal",
         "verrière"
-      ]
+      ],
+      "dateCapture": "2004:04:25"
     },
     {
       "id_pic": "Reaumur-126_2_§2",
       "IndexJantzen": [
         "métal",
         "verrière"
-      ]
+      ],
+      "dateCapture": "2004:04:25"
     },
     {
       "id_pic": "Reaumur-126_2_§3",
       "IndexJantzen": [
         "colonne",
         "métal"
-      ]
+      ],
+      "dateCapture": "2004:08:21"
     },
     {
       "id_pic": "Reaumur-126_2_§4",
       "IndexJantzen": [
         "métal",
         "verrière"
-      ]
+      ],
+      "dateCapture": "2004:08:21"
     },
     {
       "id_pic": "Reaumur-126_2_§5",
       "IndexJantzen": [
         "dome",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2008:02:17"
     },
     {
       "id_pic": "Reaumur-126_2_§6",
       "IndexJantzen": [
         "dome",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2008:02:17"
     },
     {
       "id_pic": "Reaumur-126_2_§7",
@@ -78,7 +84,8 @@
         "clé",
         "dome",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2004:08:21"
     }
   ]
 }

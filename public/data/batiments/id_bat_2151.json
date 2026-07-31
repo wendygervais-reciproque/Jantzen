@@ -27,10 +27,10 @@
   "WPfr": null,
   "image_ref": "Prony-30_17_§1-Rx",
   "terme_jantzen_bat": [
-    "lucarne",
-    "porte-fer",
-    "fenetre",
     "oeil-de-boeuf",
+    "lucarne",
+    "fenetre",
+    "porte-fer",
     "colonne"
   ],
   "photos": [
@@ -39,26 +39,30 @@
       "IndexJantzen": [
         "colonne",
         "porte-fer"
-      ]
+      ],
+      "dateCapture": "2012:07:23"
     },
     {
       "id_pic": "Prony-30_17_§2-Rs",
       "IndexJantzen": [
         "colonne",
         "porte-fer"
-      ]
+      ],
+      "dateCapture": "2008:02:17"
     },
     {
       "id_pic": "Prony-30_17_§3-Rx",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2012:07:23"
     },
     {
       "id_pic": "Prony-30_17_§4",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2008:02:17"
     },
     {
       "id_pic": "Prony-30_17_§5-Rx",
@@ -66,7 +70,8 @@
         "fenetre",
         "oeil-de-boeuf",
         "porte-fer"
-      ]
+      ],
+      "dateCapture": "2012:07:23"
     },
     {
       "id_pic": "Prony-30_17_§6-Rs",
@@ -74,7 +79,8 @@
         "fenetre",
         "oeil-de-boeuf",
         "porte-fer"
-      ]
+      ],
+      "dateCapture": "2008:02:17"
     }
   ]
 }

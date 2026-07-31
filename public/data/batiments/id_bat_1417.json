@@ -22,35 +22,38 @@
   "WPfr": null,
   "image_ref": "Philippe-Auguste-2_11_§1",
   "terme_jantzen_bat": [
+    "console",
     "lucarne",
-    "façade-d'angle",
-    "toiture",
-    "fenetre",
-    "décor",
     "fenetre-d'angle",
+    "décor",
     "sculpture",
-    "console"
+    "fenetre",
+    "façade-d'angle",
+    "toiture"
   ],
   "photos": [
     {
       "id_pic": "Philippe-Auguste-2_11_§1",
       "IndexJantzen": [
         "façade-d'angle"
-      ]
+      ],
+      "dateCapture": "2006:10:16"
     },
     {
       "id_pic": "Philippe-Auguste-2_11_§10",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:10:16"
     },
     {
       "id_pic": "Philippe-Auguste-2_11_§2",
       "IndexJantzen": [
         "fenetre-d'angle",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2006:10:16"
     },
     {
       "id_pic": "Philippe-Auguste-2_11_§3",
@@ -58,32 +61,37 @@
         "décor",
         "fenetre-d'angle",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:10:16"
     },
     {
       "id_pic": "Philippe-Auguste-2_11_§4",
       "IndexJantzen": [
         "fenetre-d'angle"
-      ]
+      ],
+      "dateCapture": "2006:10:16"
     },
     {
       "id_pic": "Philippe-Auguste-2_11_§5",
       "IndexJantzen": [
         "fenetre-d'angle"
-      ]
+      ],
+      "dateCapture": "2005:07:11"
     },
     {
       "id_pic": "Philippe-Auguste-2_11_§6",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2006:10:16"
     },
     {
       "id_pic": "Philippe-Auguste-2_11_§7",
       "IndexJantzen": [
         "lucarne",
         "toiture"
-      ]
+      ],
+      "dateCapture": "2006:10:16"
     },
     {
       "id_pic": "Philippe-Auguste-2_11_§8",
@@ -91,13 +99,15 @@
         "décor",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:10:16"
     },
     {
       "id_pic": "Philippe-Auguste-2_11_§9",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2006:10:16"
     }
   ]
 }

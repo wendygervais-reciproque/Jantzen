@@ -27,10 +27,10 @@
   "WPfr": null,
   "image_ref": "Emile-Flachat-9_17_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "décor",
-    "verrière",
-    "sculpture"
+    "sculpture",
+    "fenetre",
+    "verrière"
   ],
   "photos": [
     {
@@ -38,7 +38,8 @@
       "IndexJantzen": [
         "fenetre",
         "verrière"
-      ]
+      ],
+      "dateCapture": "2004:10:02"
     },
     {
       "id_pic": "Emile-Flachat-9_17_§2",
@@ -46,7 +47,8 @@
         "décor",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2004:10:02"
     }
   ]
 }

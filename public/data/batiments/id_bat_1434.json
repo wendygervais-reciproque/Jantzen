@@ -27,17 +27,18 @@
   "WPfr": null,
   "image_ref": "Estienne-d'Orves-pl-2_9_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "atlante",
     "façade",
-    "porte-bois"
+    "atlante",
+    "porte-bois",
+    "fenetre"
   ],
   "photos": [
     {
       "id_pic": "Estienne-d'Orves-pl-2_9_§1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "dateCapture": "2004:08:27"
     },
     {
       "id_pic": "Estienne-d'Orves-pl-2_9_§2",
@@ -45,7 +46,8 @@
         "atlante",
         "fenetre",
         "porte-bois"
-      ]
+      ],
+      "dateCapture": "2004:08:27"
     }
   ]
 }

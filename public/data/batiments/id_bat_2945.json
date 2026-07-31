@@ -27,35 +27,38 @@
   "WPfr": null,
   "image_ref": "Kleber-52_16_§1",
   "terme_jantzen_bat": [
+    "garde-corps",
     "lucarne",
-    "façade-d'angle",
-    "fenetre",
-    "sculpture",
-    "atlante",
     "cariatide",
+    "sculpture",
+    "fenetre",
+    "façade-d'angle",
     "colonne",
-    "garde-corps"
+    "atlante"
   ],
   "photos": [
     {
       "id_pic": "Kleber-52_16_§1",
       "IndexJantzen": [
         "façade-d'angle"
-      ]
+      ],
+      "dateCapture": "2005:03:25"
     },
     {
       "id_pic": "Kleber-52_16_§2",
       "IndexJantzen": [
         "colonne",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2005:03:19"
     },
     {
       "id_pic": "Kleber-52_16_§3",
       "IndexJantzen": [
         "colonne",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2004:10:25"
     },
     {
       "id_pic": "Kleber-52_16_§4",
@@ -65,7 +68,8 @@
         "fenetre",
         "garde-corps",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:03:19"
     },
     {
       "id_pic": "Kleber-52_16_§5",
@@ -74,7 +78,8 @@
         "cariatide",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2004:10:25"
     },
     {
       "id_pic": "Kleber-52_16_§6",
@@ -83,7 +88,8 @@
         "cariatide",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2004:10:25"
     }
   ]
 }

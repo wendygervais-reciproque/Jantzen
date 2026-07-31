@@ -1,0 +1,71 @@
+{
+  "id_bat": 2703,
+  "libelle": "45 boulevard des Batignolles",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": [
+    "1870-1894"
+  ],
+  "adresse": {
+    "affichage": "45 boulevard des Batignolles",
+    "numero": "45",
+    "voie": "boulevard des Batignolles"
+  },
+  "arrondissement": 8,
+  "coordonnees": {
+    "latitude": "48.881738",
+    "longitude": "2.319688"
+  },
+  "id_pss": 42797,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 854,
+  "terme_jantzen_bat": [
+    "porte",
+    "brique",
+    "façade",
+    "colonne",
+    "décor",
+    "fenetre",
+    "sculpture",
+    "porte-bois"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_854",
+      "IndexJantzen": [
+        "façade",
+        "porte"
+      ]
+    },
+    {
+      "id_pic": "image_855",
+      "IndexJantzen": [
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_856",
+      "IndexJantzen": [
+        "brique",
+        "décor",
+        "fenetre",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_857",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_858",
+      "IndexJantzen": [
+        "colonne",
+        "porte-bois"
+      ]
+    }
+  ]
+}

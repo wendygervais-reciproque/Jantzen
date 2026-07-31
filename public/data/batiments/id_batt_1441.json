@@ -1,0 +1,37 @@
+{
+  "id_bat": 1441,
+  "libelle": "2 rue Alphonse-Daudet",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "2 rue Alphonse-Daudet",
+    "numero": "2",
+    "voie": "rue Alphonse-Daudet"
+  },
+  "arrondissement": 14,
+  "coordonnees": {
+    "latitude": "48.826251",
+    "longitude": "2.328736"
+  },
+  "id_pss": 41680,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 246,
+  "terme_jantzen_bat": [
+    "porte-bois",
+    "fenetre"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_246",
+      "IndexJantzen": [
+        "fenetre",
+        "porte-bois"
+      ]
+    }
+  ]
+}

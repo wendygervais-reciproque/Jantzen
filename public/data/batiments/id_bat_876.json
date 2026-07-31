@@ -27,37 +27,41 @@
   "WPfr": null,
   "image_ref": "Emile-Augier-14_16_§1",
   "terme_jantzen_bat": [
-    "lucarne",
-    "façade-d'angle",
+    "loggia",
     "fenetre-d'angle",
-    "loggia"
+    "lucarne",
+    "façade-d'angle"
   ],
   "photos": [
     {
       "id_pic": "Emile-Augier-14_16_§1",
       "IndexJantzen": [
         "façade-d'angle"
-      ]
+      ],
+      "dateCapture": "2004:05:21"
     },
     {
       "id_pic": "Emile-Augier-14_16_§2",
       "IndexJantzen": [
         "fenetre-d'angle"
-      ]
+      ],
+      "dateCapture": "2007:03:27"
     },
     {
       "id_pic": "Emile-Augier-14_16_§3",
       "IndexJantzen": [
         "fenetre-d'angle",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2007:03:27"
     },
     {
       "id_pic": "Emile-Augier-14_16_§4",
       "IndexJantzen": [
         "fenetre-d'angle",
         "loggia"
-      ]
+      ],
+      "dateCapture": "2007:03:27"
     }
   ]
 }

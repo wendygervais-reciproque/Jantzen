@@ -28,9 +28,9 @@
   "image_ref": "Cassini-5_14_§1",
   "terme_jantzen_bat": [
     "brique",
+    "fenetre",
     "façade",
-    "verrière",
-    "fenetre"
+    "verrière"
   ],
   "photos": [
     {
@@ -38,7 +38,8 @@
       "IndexJantzen": [
         "brique",
         "façade"
-      ]
+      ],
+      "dateCapture": "2005:04:11"
     },
     {
       "id_pic": "Cassini-5_14_§2",
@@ -46,21 +47,24 @@
         "brique",
         "fenetre",
         "verrière"
-      ]
+      ],
+      "dateCapture": "2005:04:11"
     },
     {
       "id_pic": "Cassini-5_14_§3",
       "IndexJantzen": [
         "brique",
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2005:04:11"
     },
     {
       "id_pic": "Cassini-5_14_§4",
       "IndexJantzen": [
         "brique",
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2010:05:24"
     }
   ]
 }

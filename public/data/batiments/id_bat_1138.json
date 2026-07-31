@@ -27,16 +27,17 @@
   "WPfr": null,
   "image_ref": "Louvre-Rue-16_1_§1-Rs",
   "terme_jantzen_bat": [
-    "fenetre",
     "décor",
-    "sculpture"
+    "sculpture",
+    "fenetre"
   ],
   "photos": [
     {
       "id_pic": "Louvre-Rue-16_1_§1-Rs",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2009:11:04"
     },
     {
       "id_pic": "Louvre-Rue-16_1_§2",
@@ -44,20 +45,23 @@
         "décor",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2009:11:04"
     },
     {
       "id_pic": "Louvre-Rue-16_1_§3",
       "IndexJantzen": [
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2009:11:04"
     },
     {
       "id_pic": "Louvre-Rue-16_1_§4",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2009:11:04"
     }
   ]
 }

@@ -27,18 +27,18 @@
   "WPfr": null,
   "image_ref": "Laumiere_39_19_§1",
   "terme_jantzen_bat": [
-    "porte",
-    "lucarne",
-    "façade-d'angle",
-    "porte-fer",
-    "fenetre",
+    "console",
     "oeil-de-boeuf",
-    "dome",
+    "lucarne",
     "fenetre-d'angle",
     "sculpture",
     "clé",
-    "console",
-    "pilastre"
+    "fenetre",
+    "porte-fer",
+    "porte",
+    "façade-d'angle",
+    "pilastre",
+    "dome"
   ],
   "photos": [
     {
@@ -46,20 +46,23 @@
       "IndexJantzen": [
         "dome",
         "fenetre-d'angle"
-      ]
+      ],
+      "dateCapture": "2006:04:20"
     },
     {
       "id_pic": "Laumiere_39_19_§10",
       "IndexJantzen": [
         "porte-fer"
-      ]
+      ],
+      "dateCapture": "2005:05:11"
     },
     {
       "id_pic": "Laumiere_39_19_§11",
       "IndexJantzen": [
         "clé",
         "porte-fer"
-      ]
+      ],
+      "dateCapture": "2005:05:11"
     },
     {
       "id_pic": "Laumiere_39_19_§2",
@@ -67,28 +70,32 @@
         "dome",
         "fenetre-d'angle",
         "pilastre"
-      ]
+      ],
+      "dateCapture": "2006:04:20"
     },
     {
       "id_pic": "Laumiere_39_19_§3",
       "IndexJantzen": [
         "dome",
         "fenetre-d'angle"
-      ]
+      ],
+      "dateCapture": "2006:04:20"
     },
     {
       "id_pic": "Laumiere_39_19_§4",
       "IndexJantzen": [
         "dome",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2006:04:20"
     },
     {
       "id_pic": "Laumiere_39_19_§5",
       "IndexJantzen": [
         "fenetre",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2006:04:20"
     },
     {
       "id_pic": "Laumiere_39_19_§6",
@@ -96,35 +103,40 @@
         "fenetre",
         "lucarne",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:04:20"
     },
     {
       "id_pic": "Laumiere_39_19_§7",
       "IndexJantzen": [
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:04:20"
     },
     {
       "id_pic": "Laumiere_39_19_§8",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:04:20"
     },
     {
       "id_pic": "Laumiere_39_19_§9",
       "IndexJantzen": [
         "oeil-de-boeuf",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:04:20"
     },
     {
       "id_pic": "Laumiere_39_19_01",
       "IndexJantzen": [
         "façade-d'angle",
         "porte"
-      ]
+      ],
+      "dateCapture": "2006:04:20"
     }
   ]
 }

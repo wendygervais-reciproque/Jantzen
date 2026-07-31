@@ -1,0 +1,107 @@
+{
+  "id_bat": 309,
+  "libelle": "10 rue de Bretagne",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 322,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1919",
+  "periode": [
+    "1915-1944"
+  ],
+  "adresse": {
+    "affichage": "10 rue de Bretagne",
+    "numero": "10",
+    "voie": "rue de Bretagne"
+  },
+  "arrondissement": 3,
+  "coordonnees": {
+    "latitude": "48.862475",
+    "longitude": "2.363588"
+  },
+  "id_pss": 10185,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 1591,
+  "terme_jantzen_bat": [
+    "façade-d'angle",
+    "oriel",
+    "lucarne",
+    "façade",
+    "fenetre",
+    "fenetre-d'angle",
+    "balcon",
+    "garde-corps",
+    "pignon"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_1591",
+      "IndexJantzen": [
+        "façade-d'angle",
+        "pignon"
+      ]
+    },
+    {
+      "id_pic": "image_1592",
+      "IndexJantzen": [
+        "balcon",
+        "fenetre",
+        "garde-corps"
+      ]
+    },
+    {
+      "id_pic": "image_1593",
+      "IndexJantzen": [
+        "fenetre-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_1594",
+      "IndexJantzen": [
+        "fenetre-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_1595",
+      "IndexJantzen": [
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_1596",
+      "IndexJantzen": [
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_1597",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_1598",
+      "IndexJantzen": [
+        "fenetre",
+        "oriel"
+      ]
+    },
+    {
+      "id_pic": "image_1599",
+      "IndexJantzen": [
+        "fenetre",
+        "oriel"
+      ]
+    },
+    {
+      "id_pic": "image_1600",
+      "IndexJantzen": [
+        "fenetre"
+      ]
+    }
+  ]
+}

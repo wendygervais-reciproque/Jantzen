@@ -27,11 +27,11 @@
   "WPfr": null,
   "image_ref": "Faubourg-St-Honore-217_8_§1",
   "terme_jantzen_bat": [
-    "fenetre",
+    "console",
     "décor",
     "sculpture",
-    "console",
-    "chimère"
+    "chimère",
+    "fenetre"
   ],
   "photos": [
     {
@@ -40,7 +40,8 @@
         "décor",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2004:10:16"
     },
     {
       "id_pic": "Faubourg-St-Honore-217_8_§2-zFc",
@@ -48,14 +49,16 @@
         "chimère",
         "console",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2004:10:16"
     },
     {
       "id_pic": "Faubourg-St-Honore-217_8_§3",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:04:07"
     }
   ]
 }

@@ -22,11 +22,11 @@
   "WPfr": null,
   "image_ref": "Bethune-20_4_§1",
   "terme_jantzen_bat": [
-    "sculpture",
     "console",
+    "garde-corps",
+    "sculpture",
     "balcon",
-    "porte-bois",
-    "garde-corps"
+    "porte-bois"
   ],
   "photos": [
     {
@@ -35,13 +35,15 @@
         "balcon",
         "garde-corps",
         "porte-bois"
-      ]
+      ],
+      "dateCapture": "2003:08:03"
     },
     {
       "id_pic": "Bethune-20_4_§2",
       "IndexJantzen": [
         "porte-bois"
-      ]
+      ],
+      "dateCapture": "2005:07:03"
     },
     {
       "id_pic": "Bethune-20_4_§3",
@@ -49,7 +51,8 @@
         "console",
         "porte-bois",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:07:03"
     }
   ]
 }

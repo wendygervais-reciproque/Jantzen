@@ -1,0 +1,63 @@
+{
+  "id_bat": 876,
+  "libelle": "14 boulevard Émile-Augier",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 617,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": null,
+  "periode": [
+    "1870-1894"
+  ],
+  "adresse": {
+    "affichage": "14 boulevard Émile-Augier",
+    "numero": "14",
+    "voie": "boulevard Émile-Augier"
+  },
+  "arrondissement": 16,
+  "coordonnees": {
+    "latitude": "48.859668",
+    "longitude": "2.273988"
+  },
+  "id_pss": 38259,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 4034,
+  "terme_jantzen_bat": [
+    "façade-d'angle",
+    "loggia",
+    "lucarne",
+    "fenetre-d'angle"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_4034",
+      "IndexJantzen": [
+        "façade-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_4035",
+      "IndexJantzen": [
+        "fenetre-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_4036",
+      "IndexJantzen": [
+        "fenetre-d'angle",
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_4037",
+      "IndexJantzen": [
+        "fenetre-d'angle",
+        "loggia"
+      ]
+    }
+  ]
+}

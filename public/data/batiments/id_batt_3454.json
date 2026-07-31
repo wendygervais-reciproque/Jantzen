@@ -1,0 +1,89 @@
+{
+  "id_bat": 3454,
+  "libelle": "70 avenue des Champs-Élysées",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "70 avenue des Champs-Élysées",
+    "numero": "70",
+    "voie": "avenue des Champs-Élysées"
+  },
+  "arrondissement": 8,
+  "coordonnees": {
+    "latitude": "48.870982",
+    "longitude": "2.304978"
+  },
+  "id_pss": 45581,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 2264,
+  "terme_jantzen_bat": [
+    "lucarne",
+    "façade",
+    "toiture",
+    "fenetre",
+    "fenetre-d'angle",
+    "balcon",
+    "porte-fer",
+    "marquise"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_2264",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_2265",
+      "IndexJantzen": [
+        "balcon",
+        "fenetre-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_2266",
+      "IndexJantzen": [
+        "fenetre",
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_2267",
+      "IndexJantzen": [
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_2268",
+      "IndexJantzen": [
+        "lucarne",
+        "toiture"
+      ]
+    },
+    {
+      "id_pic": "image_2269",
+      "IndexJantzen": [
+        "lucarne",
+        "toiture"
+      ]
+    },
+    {
+      "id_pic": "image_2270",
+      "IndexJantzen": [
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_2271",
+      "IndexJantzen": [
+        "marquise",
+        "porte-fer"
+      ]
+    }
+  ]
+}

@@ -28,12 +28,12 @@
   "image_ref": "Plelo-11_15_§1",
   "terme_jantzen_bat": [
     "façade",
-    "céramique",
-    "porte-fer",
     "brique",
-    "fenetre",
     "décor",
-    "colonne"
+    "fenetre",
+    "porte-fer",
+    "colonne",
+    "céramique"
   ],
   "photos": [
     {
@@ -42,7 +42,8 @@
         "brique",
         "céramique",
         "façade"
-      ]
+      ],
+      "dateCapture": "2005:04:21"
     },
     {
       "id_pic": "Plelo-11_15_§2",
@@ -50,20 +51,23 @@
         "céramique",
         "décor",
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2005:04:21"
     },
     {
       "id_pic": "Plelo-11_15_§3",
       "IndexJantzen": [
         "colonne",
         "porte-fer"
-      ]
+      ],
+      "dateCapture": "2005:04:21"
     },
     {
       "id_pic": "Plelo-11_15_§4",
       "IndexJantzen": [
         "colonne"
-      ]
+      ],
+      "dateCapture": "2005:04:21"
     }
   ]
 }

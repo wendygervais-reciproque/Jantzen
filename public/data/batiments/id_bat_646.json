@@ -27,53 +27,59 @@
   "WPfr": null,
   "image_ref": "St-Quentin-12_10_§1",
   "terme_jantzen_bat": [
-    "lucarne",
     "façade",
-    "fenetre",
-    "sculpture",
-    "clé",
     "console",
+    "lucarne",
+    "oriel",
+    "sculpture",
     "chimère",
-    "oriel"
+    "fenetre",
+    "clé"
   ],
   "photos": [
     {
       "id_pic": "St-Quentin-12_10_§1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "dateCapture": "2005:05:25"
     },
     {
       "id_pic": "St-Quentin-12_10_§2",
       "IndexJantzen": [
         "oriel"
-      ]
+      ],
+      "dateCapture": "2005:05:25"
     },
     {
       "id_pic": "St-Quentin-12_10_§3",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2005:05:25"
     },
     {
       "id_pic": "St-Quentin-12_10_§4",
       "IndexJantzen": [
         "fenetre",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2005:05:25"
     },
     {
       "id_pic": "St-Quentin-12_10_§5",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2005:05:25"
     },
     {
       "id_pic": "St-Quentin-12_10_§6",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:05:25"
     },
     {
       "id_pic": "St-Quentin-12_10_§7",
@@ -81,7 +87,8 @@
         "chimère",
         "clé",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:05:25"
     }
   ]
 }

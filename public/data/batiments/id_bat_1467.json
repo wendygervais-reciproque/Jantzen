@@ -22,10 +22,10 @@
   "WPfr": null,
   "image_ref": "Abbaye-2_6_§1",
   "terme_jantzen_bat": [
-    "lucarne",
     "façade",
+    "voie",
     "toiture",
-    "voie"
+    "lucarne"
   ],
   "photos": [
     {
@@ -33,14 +33,16 @@
       "IndexJantzen": [
         "façade",
         "voie"
-      ]
+      ],
+      "dateCapture": "2006:05:11"
     },
     {
       "id_pic": "Abbaye-2_6_§2_Dx",
       "IndexJantzen": [
         "lucarne",
         "toiture"
-      ]
+      ],
+      "dateCapture": "2012:05:13"
     }
   ]
 }

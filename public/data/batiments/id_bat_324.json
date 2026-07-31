@@ -27,10 +27,10 @@
   "WPfr": null,
   "image_ref": "Cirque-10_8_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "porte-bois",
-    "cariatide",
-    "sculpture"
+    "sculpture",
+    "fenetre",
+    "cariatide"
   ],
   "photos": [
     {
@@ -38,35 +38,40 @@
       "IndexJantzen": [
         "cariatide",
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2004:09:17"
     },
     {
       "id_pic": "Cirque-10_8_§2",
       "IndexJantzen": [
         "cariatide",
         "porte-bois"
-      ]
+      ],
+      "dateCapture": "2006:06:17"
     },
     {
       "id_pic": "Cirque-10_8_§3",
       "IndexJantzen": [
         "cariatide",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2004:09:17"
     },
     {
       "id_pic": "Cirque-10_8_§4",
       "IndexJantzen": [
         "cariatide",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:06:17"
     },
     {
       "id_pic": "Cirque-10_8_§5",
       "IndexJantzen": [
         "cariatide",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:06:17"
     }
   ]
 }

@@ -23,8 +23,8 @@
   "image_ref": "Grenelle-bd-65_15_§1",
   "terme_jantzen_bat": [
     "brique",
-    "façade",
     "fenetre",
+    "façade",
     "garde-corps"
   ],
   "photos": [
@@ -33,14 +33,16 @@
       "IndexJantzen": [
         "brique",
         "façade"
-      ]
+      ],
+      "dateCapture": "2005:04:12"
     },
     {
       "id_pic": "Grenelle-bd-65_15_§2",
       "IndexJantzen": [
         "brique",
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2005:04:12"
     },
     {
       "id_pic": "Grenelle-bd-65_15_§3",
@@ -48,7 +50,8 @@
         "brique",
         "fenetre",
         "garde-corps"
-      ]
+      ],
+      "dateCapture": "2005:04:12"
     }
   ]
 }

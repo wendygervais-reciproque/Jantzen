@@ -27,23 +27,23 @@
   "WPfr": null,
   "image_ref": "Raspail-41_6_§1",
   "terme_jantzen_bat": [
-    "lucarne",
-    "façade",
-    "façade-d'angle",
-    "fronton",
-    "lucarne-d'angle",
-    "porte-fer",
-    "fenetre",
-    "oeil-de-boeuf",
-    "décor",
-    "dome",
-    "oriel",
-    "fenetre-d'angle",
-    "sculpture",
     "console",
+    "façade",
+    "oeil-de-boeuf",
+    "garde-corps",
+    "lucarne",
+    "fenetre-d'angle",
+    "oriel",
+    "décor",
+    "fronton",
+    "sculpture",
+    "fenetre",
+    "porte-fer",
+    "façade-d'angle",
     "balcon",
-    "marquise",
-    "garde-corps"
+    "lucarne-d'angle",
+    "dome",
+    "marquise"
   ],
   "photos": [
     {
@@ -51,14 +51,16 @@
       "IndexJantzen": [
         "dome",
         "fenetre-d'angle"
-      ]
+      ],
+      "dateCapture": "2005:08:07"
     },
     {
       "id_pic": "Raspail-41_6_§10",
       "IndexJantzen": [
         "fronton",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2006:05:11"
     },
     {
       "id_pic": "Raspail-41_6_§11",
@@ -68,7 +70,8 @@
         "lucarne",
         "oeil-de-boeuf",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:05:11"
     },
     {
       "id_pic": "Raspail-41_6_§12",
@@ -76,34 +79,39 @@
         "fenetre",
         "garde-corps",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:05:11"
     },
     {
       "id_pic": "Raspail-41_6_§13",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:05:11"
     },
     {
       "id_pic": "Raspail-41_6_§14",
       "IndexJantzen": [
         "marquise",
         "porte-fer"
-      ]
+      ],
+      "dateCapture": "2006:05:11"
     },
     {
       "id_pic": "Raspail-41_6_§2",
       "IndexJantzen": [
         "façade",
         "oriel"
-      ]
+      ],
+      "dateCapture": "2006:05:11"
     },
     {
       "id_pic": "Raspail-41_6_§3",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2006:05:11"
     },
     {
       "id_pic": "Raspail-41_6_§4",
@@ -111,7 +119,8 @@
         "balcon",
         "dome",
         "lucarne-d'angle"
-      ]
+      ],
+      "dateCapture": "2005:08:07"
     },
     {
       "id_pic": "Raspail-41_6_§5",
@@ -120,21 +129,24 @@
         "dome",
         "fronton",
         "lucarne-d'angle"
-      ]
+      ],
+      "dateCapture": "2005:08:07"
     },
     {
       "id_pic": "Raspail-41_6_§6",
       "IndexJantzen": [
         "fenetre",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2005:08:07"
     },
     {
       "id_pic": "Raspail-41_6_§7",
       "IndexJantzen": [
         "fenetre",
         "oriel"
-      ]
+      ],
+      "dateCapture": "2005:08:07"
     },
     {
       "id_pic": "Raspail-41_6_§8",
@@ -143,32 +155,37 @@
         "fenetre",
         "lucarne",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:08:07"
     },
     {
       "id_pic": "Raspail-41_6_§9",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2005:08:07"
     },
     {
       "id_pic": "Raspail-41_7_§1-Rs",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "dateCapture": "2007:12:03"
     },
     {
       "id_pic": "Raspail-41_7_§2-Rs",
       "IndexJantzen": [
         "fenetre",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2007:12:03"
     },
     {
       "id_pic": "Raspail-41_7_§3-Rs",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2007:12:03"
     },
     {
       "id_pic": "Raspail-41_7_§4",
@@ -176,14 +193,16 @@
         "dome",
         "fenetre",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2007:12:03"
     },
     {
       "id_pic": "Raspail-41_7_§5",
       "IndexJantzen": [
         "dome",
         "façade-d'angle"
-      ]
+      ],
+      "dateCapture": "2007:12:03"
     }
   ]
 }

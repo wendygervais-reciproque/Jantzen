@@ -22,14 +22,14 @@
   "WPfr": null,
   "image_ref": "Aqueduc-5_10_§1",
   "terme_jantzen_bat": [
-    "lucarne",
     "façade",
-    "métal",
+    "garde-corps",
+    "lucarne",
     "fenetre",
+    "métal",
     "balcon",
     "colonne",
-    "porte-bois",
-    "garde-corps"
+    "porte-bois"
   ],
   "photos": [
     {
@@ -37,61 +37,70 @@
       "IndexJantzen": [
         "façade",
         "métal"
-      ]
+      ],
+      "dateCapture": "2004:05:19"
     },
     {
       "id_pic": "Aqueduc-5_10_§10",
       "IndexJantzen": [
         "porte-bois"
-      ]
+      ],
+      "dateCapture": "2004:05:19"
     },
     {
       "id_pic": "Aqueduc-5_10_§2",
       "IndexJantzen": [
         "façade",
         "métal"
-      ]
+      ],
+      "dateCapture": "2008:09:13"
     },
     {
       "id_pic": "Aqueduc-5_10_§3",
       "IndexJantzen": [
         "fenetre",
         "métal"
-      ]
+      ],
+      "dateCapture": "2008:09:13"
     },
     {
       "id_pic": "Aqueduc-5_10_§4",
       "IndexJantzen": [
         "balcon",
         "garde-corps"
-      ]
+      ],
+      "dateCapture": "2008:09:13"
     },
     {
       "id_pic": "Aqueduc-5_10_§5",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2004:05:19"
     },
     {
       "id_pic": "Aqueduc-5_10_§6",
       "IndexJantzen": [
         "façade",
         "métal"
-      ]
+      ],
+      "dateCapture": "2008:09:13"
     },
     {
       "id_pic": "Aqueduc-5_10_§7",
       "IndexJantzen": [
         "façade",
         "métal"
-      ]
+      ],
+      "dateCapture": "2004:05:19"
     },
     {
       "id_pic": "Aqueduc-5_10_§8",
       "IndexJantzen": [
         "façade",
         "métal"
-      ]
+      ],
+      "dateCapture": "2004:05:19"
     },
     {
       "id_pic": "Aqueduc-5_10_§9",
@@ -99,7 +108,8 @@
         "colonne",
         "fenetre",
         "métal"
-      ]
+      ],
+      "dateCapture": "2004:05:19"
     }
   ]
 }

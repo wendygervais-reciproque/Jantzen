@@ -27,36 +27,40 @@
   "WPfr": null,
   "image_ref": "Conde-30_6_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "lucarne",
     "façade",
-    "porte-bois"
+    "fenetre",
+    "porte-bois",
+    "lucarne"
   ],
   "photos": [
     {
       "id_pic": "Conde-30_6_§1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "dateCapture": null
     },
     {
       "id_pic": "Conde-30_6_§2",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2003:08:07"
     },
     {
       "id_pic": "Conde-30_6_§3",
       "IndexJantzen": [
         "fenetre",
         "porte-bois"
-      ]
+      ],
+      "dateCapture": "2003:08:26"
     },
     {
       "id_pic": "Conde-30_6_M",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2003:08:07"
     }
   ]
 }

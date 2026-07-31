@@ -1,0 +1,57 @@
+{
+  "id_bat": 1978,
+  "libelle": "28 rue de Madrid",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 628,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1899",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "28 rue de Madrid",
+    "numero": "28",
+    "voie": "rue de Madrid"
+  },
+  "arrondissement": 8,
+  "coordonnees": {
+    "latitude": "48.878013",
+    "longitude": "2.31833"
+  },
+  "id_pss": 16131,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 8951,
+  "terme_jantzen_bat": [
+    "fenetre",
+    "clé",
+    "sculpture",
+    "façade"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_8951",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_8952",
+      "IndexJantzen": [
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_8953",
+      "IndexJantzen": [
+        "clé",
+        "fenetre",
+        "sculpture"
+      ]
+    }
+  ]
+}

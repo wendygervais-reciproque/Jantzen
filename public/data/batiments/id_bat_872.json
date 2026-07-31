@@ -27,13 +27,13 @@
   "WPfr": null,
   "image_ref": "Arago-14_13_§1",
   "terme_jantzen_bat": [
-    "porte",
-    "lucarne",
     "façade",
-    "métal",
-    "porte-fer",
-    "fenetre",
+    "lucarne",
     "mosaique",
+    "porte",
+    "fenetre",
+    "porte-fer",
+    "métal",
     "colonne"
   ],
   "photos": [
@@ -42,7 +42,8 @@
       "IndexJantzen": [
         "façade",
         "porte"
-      ]
+      ],
+      "dateCapture": "2007:04:22"
     },
     {
       "id_pic": "Arago-14_13_§2",
@@ -51,26 +52,30 @@
         "fenetre",
         "mosaique",
         "métal"
-      ]
+      ],
+      "dateCapture": "2007:04:22"
     },
     {
       "id_pic": "Arago-14_13_§3",
       "IndexJantzen": [
         "fenetre",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2007:04:22"
     },
     {
       "id_pic": "Arago-14_13_§4",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2007:04:22"
     },
     {
       "id_pic": "Arago-14_13_§5",
       "IndexJantzen": [
         "porte-fer"
-      ]
+      ],
+      "dateCapture": "2007:04:22"
     }
   ]
 }

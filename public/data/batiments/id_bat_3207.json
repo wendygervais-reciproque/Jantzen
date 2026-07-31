@@ -27,14 +27,14 @@
   "WPfr": null,
   "image_ref": "Jouffroy-d'Abbans-60_17_§1",
   "terme_jantzen_bat": [
-    "lucarne",
     "façade",
+    "garde-corps",
+    "lucarne",
     "brique",
-    "fenetre",
     "décor",
     "sculpture",
-    "pilastre",
-    "garde-corps"
+    "fenetre",
+    "pilastre"
   ],
   "photos": [
     {
@@ -42,7 +42,8 @@
       "IndexJantzen": [
         "brique",
         "façade"
-      ]
+      ],
+      "dateCapture": "2006:06:16"
     },
     {
       "id_pic": "Jouffroy-d'Abbans-60_17_§2",
@@ -51,7 +52,8 @@
         "fenetre",
         "lucarne",
         "pilastre"
-      ]
+      ],
+      "dateCapture": "2006:06:16"
     },
     {
       "id_pic": "Jouffroy-d'Abbans-60_17_§3",
@@ -61,7 +63,8 @@
         "fenetre",
         "garde-corps",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:06:16"
     }
   ]
 }

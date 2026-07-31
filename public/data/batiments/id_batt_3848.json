@@ -1,0 +1,68 @@
+{
+  "id_bat": 3848,
+  "libelle": "90 avenue Parmentier",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 632,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": null,
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "90 avenue Parmentier",
+    "numero": "90",
+    "voie": "avenue Parmentier"
+  },
+  "arrondissement": 11,
+  "coordonnees": {
+    "latitude": "48.865719",
+    "longitude": "2.374387"
+  },
+  "id_pss": 12555,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 11148,
+  "terme_jantzen_bat": [
+    "façade-d'angle",
+    "lucarne-d'angle",
+    "lucarne",
+    "toiture"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_11148",
+      "IndexJantzen": [
+        "façade-d'angle",
+        "toiture"
+      ]
+    },
+    {
+      "id_pic": "image_11149",
+      "IndexJantzen": [
+        "lucarne-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_11150",
+      "IndexJantzen": [
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_11151",
+      "IndexJantzen": [
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_11152",
+      "IndexJantzen": [
+        "lucarne"
+      ]
+    }
+  ]
+}

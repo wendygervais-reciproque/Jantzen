@@ -1,0 +1,135 @@
+{
+  "id_bat": 2900,
+  "libelle": "50 avenue de Ségur",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 261,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1900",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "50 avenue de Ségur",
+    "numero": "50",
+    "voie": "avenue de Ségur"
+  },
+  "arrondissement": 15,
+  "coordonnees": {
+    "latitude": "48.84719",
+    "longitude": "2.30508"
+  },
+  "id_pss": 30877,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 13499,
+  "terme_jantzen_bat": [
+    "oriel",
+    "céramique",
+    "brique",
+    "décor",
+    "métal",
+    "porte-fer",
+    "console"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_13499",
+      "IndexJantzen": [
+        "brique",
+        "céramique",
+        "oriel"
+      ]
+    },
+    {
+      "id_pic": "image_13500",
+      "IndexJantzen": [
+        "console",
+        "céramique",
+        "décor",
+        "métal"
+      ]
+    },
+    {
+      "id_pic": "image_13501",
+      "IndexJantzen": [
+        "porte-fer"
+      ]
+    },
+    {
+      "id_pic": "image_13502",
+      "IndexJantzen": [
+        "porte-fer"
+      ]
+    },
+    {
+      "id_pic": "image_13503",
+      "IndexJantzen": [
+        "porte-fer"
+      ]
+    },
+    {
+      "id_pic": "image_13504",
+      "IndexJantzen": [
+        "brique",
+        "céramique",
+        "oriel"
+      ]
+    },
+    {
+      "id_pic": "image_13505",
+      "IndexJantzen": [
+        "brique",
+        "céramique",
+        "décor",
+        "oriel"
+      ]
+    },
+    {
+      "id_pic": "image_13506",
+      "IndexJantzen": [
+        "brique",
+        "céramique",
+        "décor"
+      ]
+    },
+    {
+      "id_pic": "image_13507",
+      "IndexJantzen": [
+        "brique",
+        "céramique",
+        "décor",
+        "oriel"
+      ]
+    },
+    {
+      "id_pic": "image_13508",
+      "IndexJantzen": [
+        "brique",
+        "céramique",
+        "décor"
+      ]
+    },
+    {
+      "id_pic": "image_13509",
+      "IndexJantzen": [
+        "brique",
+        "console",
+        "céramique",
+        "métal"
+      ]
+    },
+    {
+      "id_pic": "image_13510",
+      "IndexJantzen": [
+        "brique",
+        "console",
+        "céramique",
+        "métal"
+      ]
+    }
+  ]
+}

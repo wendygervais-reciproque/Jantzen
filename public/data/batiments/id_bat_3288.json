@@ -22,26 +22,28 @@
   "WPfr": null,
   "image_ref": "Maubeuge-65_10_§1-Rx",
   "terme_jantzen_bat": [
-    "lucarne",
     "façade",
-    "fenetre",
+    "garde-corps",
+    "lucarne",
     "décor",
+    "fenetre",
     "balcon",
-    "porte-bois",
-    "garde-corps"
+    "porte-bois"
   ],
   "photos": [
     {
       "id_pic": "Maubeuge-65_10_§1-Rx",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2012:05:14"
     },
     {
       "id_pic": "Maubeuge-65_9_§1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "dateCapture": "2004:05:07"
     },
     {
       "id_pic": "Maubeuge-65_9_§2",
@@ -49,28 +51,32 @@
         "balcon",
         "décor",
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2004:05:07"
     },
     {
       "id_pic": "Maubeuge-65_9_§3",
       "IndexJantzen": [
         "fenetre",
         "garde-corps"
-      ]
+      ],
+      "dateCapture": "2004:05:07"
     },
     {
       "id_pic": "Maubeuge-65_9_§4",
       "IndexJantzen": [
         "fenetre",
         "porte-bois"
-      ]
+      ],
+      "dateCapture": "2004:05:07"
     },
     {
       "id_pic": "Maubeuge-65_9_§5",
       "IndexJantzen": [
         "fenetre",
         "porte-bois"
-      ]
+      ],
+      "dateCapture": "2011:09:05"
     }
   ]
 }

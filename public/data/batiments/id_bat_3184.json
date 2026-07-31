@@ -27,18 +27,18 @@
   "WPfr": null,
   "image_ref": "Villaret-de-Joyeuse-6_17_§10-Rx",
   "terme_jantzen_bat": [
-    "lucarne",
-    "toiture",
-    "façade-d'angle",
+    "console",
     "façade",
-    "lucarne-d'angle",
-    "porte-fer",
+    "loggia",
+    "lucarne",
     "brique",
-    "fenetre",
     "sculpture",
     "clé",
-    "console",
-    "loggia"
+    "fenetre",
+    "porte-fer",
+    "façade-d'angle",
+    "lucarne-d'angle",
+    "toiture"
   ],
   "photos": [
     {
@@ -47,7 +47,8 @@
         "brique",
         "lucarne-d'angle",
         "toiture"
-      ]
+      ],
+      "dateCapture": "2011:05:25"
     },
     {
       "id_pic": "Villaret-de-Joyeuse-6_17_§11-Rx",
@@ -55,47 +56,54 @@
         "console",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2011:10:03"
     },
     {
       "id_pic": "Villaret-de-Joyeuse-6_17_§12-Rx",
       "IndexJantzen": [
         "clé",
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2011:05:25"
     },
     {
       "id_pic": "Villaret-de-Joyeuse-6_17_§13-Rx",
       "IndexJantzen": [
         "porte-fer"
-      ]
+      ],
+      "dateCapture": "2011:05:25"
     },
     {
       "id_pic": "Villaret-de-Joyeuse-6_17_§14-Rx",
       "IndexJantzen": [
         "porte-fer"
-      ]
+      ],
+      "dateCapture": "2011:10:03"
     },
     {
       "id_pic": "Villaret-de-Joyeuse-6_17_§1-Rx",
       "IndexJantzen": [
         "brique",
         "façade-d'angle"
-      ]
+      ],
+      "dateCapture": "2011:05:25"
     },
     {
       "id_pic": "Villaret-de-Joyeuse-6_17_§2-Rx",
       "IndexJantzen": [
         "brique",
         "façade-d'angle"
-      ]
+      ],
+      "dateCapture": "2011:05:25"
     },
     {
       "id_pic": "Villaret-de-Joyeuse-6_17_§3",
       "IndexJantzen": [
         "brique",
         "façade"
-      ]
+      ],
+      "dateCapture": "2011:05:25"
     },
     {
       "id_pic": "Villaret-de-Joyeuse-6_17_§4-Rx",
@@ -103,27 +111,31 @@
         "brique",
         "fenetre",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2011:05:25"
     },
     {
       "id_pic": "Villaret-de-Joyeuse-6_17_§5-Rx",
       "IndexJantzen": [
         "brique"
-      ]
+      ],
+      "dateCapture": "2012:07:22"
     },
     {
       "id_pic": "Villaret-de-Joyeuse-6_17_§6-Rx",
       "IndexJantzen": [
         "brique",
         "loggia"
-      ]
+      ],
+      "dateCapture": "2011:05:25"
     },
     {
       "id_pic": "Villaret-de-Joyeuse-6_17_§7-Rx",
       "IndexJantzen": [
         "brique",
         "lucarne-d'angle"
-      ]
+      ],
+      "dateCapture": "2011:05:25"
     },
     {
       "id_pic": "Villaret-de-Joyeuse-6_17_§8-Rx",
@@ -132,7 +144,8 @@
         "loggia",
         "lucarne-d'angle",
         "toiture"
-      ]
+      ],
+      "dateCapture": "2012:07:22"
     }
   ]
 }

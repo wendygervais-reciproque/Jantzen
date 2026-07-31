@@ -1,0 +1,39 @@
+{
+  "id_bat": 2830,
+  "libelle": "5 rue Casimir-Périer",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "5 rue Casimir-Périer",
+    "numero": "5",
+    "voie": "rue Casimir-Périer"
+  },
+  "arrondissement": 7,
+  "coordonnees": {
+    "latitude": "48.858792",
+    "longitude": "2.320053"
+  },
+  "id_pss": 30880,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 2012,
+  "terme_jantzen_bat": [
+    "lucarne",
+    "fenetre-d'angle",
+    "brique"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_2012",
+      "IndexJantzen": [
+        "brique",
+        "fenetre-d'angle",
+        "lucarne"
+      ]
+    }
+  ]
+}

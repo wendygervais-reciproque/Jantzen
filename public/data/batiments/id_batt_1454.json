@@ -1,0 +1,69 @@
+{
+  "id_bat": 1454,
+  "libelle": "2 rue de Bassano",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": [
+    "1870-1894"
+  ],
+  "adresse": {
+    "affichage": "2 rue de Bassano",
+    "numero": "2",
+    "voie": "rue de Bassano"
+  },
+  "arrondissement": 16,
+  "coordonnees": {
+    "latitude": "48.868137",
+    "longitude": "2.296323"
+  },
+  "id_pss": 38213,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 834,
+  "terme_jantzen_bat": [
+    "façade-d'angle",
+    "oeil-de-boeuf",
+    "lucarne-d'angle",
+    "sculpture",
+    "décor",
+    "porte-bois"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_834",
+      "IndexJantzen": [
+        "décor",
+        "façade-d'angle",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_835",
+      "IndexJantzen": [
+        "lucarne-d'angle",
+        "oeil-de-boeuf"
+      ]
+    },
+    {
+      "id_pic": "image_836",
+      "IndexJantzen": [
+        "lucarne-d'angle",
+        "oeil-de-boeuf"
+      ]
+    },
+    {
+      "id_pic": "image_837",
+      "IndexJantzen": [
+        "lucarne-d'angle",
+        "oeil-de-boeuf"
+      ]
+    },
+    {
+      "id_pic": "image_838",
+      "IndexJantzen": [
+        "porte-bois"
+      ]
+    }
+  ]
+}

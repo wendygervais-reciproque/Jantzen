@@ -22,52 +22,58 @@
   "WPfr": null,
   "image_ref": "Francois-Miron-14_4_§1-Rs",
   "terme_jantzen_bat": [
-    "fenetre",
     "console",
+    "garde-corps",
+    "fenetre",
     "balcon",
-    "porte-bois",
-    "garde-corps"
+    "porte-bois"
   ],
   "photos": [
     {
       "id_pic": "Francois-Miron-14_4_§1-Rs",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2010:04:23"
     },
     {
       "id_pic": "Francois-Miron-14_4_§2",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2004:09:08"
     },
     {
       "id_pic": "Francois-Miron-14_4_§3-Rs",
       "IndexJantzen": [
         "fenetre",
         "porte-bois"
-      ]
+      ],
+      "dateCapture": "2010:04:23"
     },
     {
       "id_pic": "Francois-Miron-14_4_§4",
       "IndexJantzen": [
         "fenetre",
         "porte-bois"
-      ]
+      ],
+      "dateCapture": "2010:04:23"
     },
     {
       "id_pic": "Francois-Miron-14_4_§5",
       "IndexJantzen": [
         "fenetre",
         "garde-corps"
-      ]
+      ],
+      "dateCapture": "2010:04:23"
     },
     {
       "id_pic": "Francois-Miron-14_4_§7",
       "IndexJantzen": [
         "balcon",
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2004:09:08"
     },
     {
       "id_pic": "Francois-Miron-14_4_§8",
@@ -76,7 +82,8 @@
         "console",
         "fenetre",
         "garde-corps"
-      ]
+      ],
+      "dateCapture": "2010:04:23"
     }
   ]
 }

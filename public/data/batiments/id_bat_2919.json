@@ -28,14 +28,14 @@
   "image_ref": "St-Ferdinand-50_17_§1-Rx",
   "terme_jantzen_bat": [
     "façade",
-    "céramique",
-    "métal",
     "garde-corps",
-    "fenetre",
+    "oriel",
     "décor",
     "sculpture",
+    "fenetre",
+    "métal",
     "balcon",
-    "oriel"
+    "céramique"
   ],
   "photos": [
     {
@@ -43,7 +43,8 @@
       "IndexJantzen": [
         "façade",
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2012:04:16"
     },
     {
       "id_pic": "St-Ferdinand-50_17_§2-Rx",
@@ -51,7 +52,8 @@
         "fenetre",
         "métal",
         "oriel"
-      ]
+      ],
+      "dateCapture": "2012:04:16"
     },
     {
       "id_pic": "St-Ferdinand-50_17_§3-Rx",
@@ -59,7 +61,8 @@
         "fenetre",
         "métal",
         "oriel"
-      ]
+      ],
+      "dateCapture": "2012:04:16"
     },
     {
       "id_pic": "St-Ferdinand-50_17_§4-Rx",
@@ -67,7 +70,8 @@
         "céramique",
         "métal",
         "oriel"
-      ]
+      ],
+      "dateCapture": "2012:04:16"
     },
     {
       "id_pic": "St-Ferdinand-50_17_§5-Rx",
@@ -76,7 +80,8 @@
         "décor",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2012:04:16"
     },
     {
       "id_pic": "St-Ferdinand-50_17_§6-Rx",
@@ -84,13 +89,15 @@
         "balcon",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2012:04:16"
     },
     {
       "id_pic": "St-Ferdinand-50_17_§7-Rx",
       "IndexJantzen": [
         "garde-corps"
-      ]
+      ],
+      "dateCapture": "2012:04:16"
     }
   ]
 }

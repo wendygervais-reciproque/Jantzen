@@ -27,10 +27,10 @@
   "WPfr": null,
   "image_ref": "Bachaumont-20_2_§1",
   "terme_jantzen_bat": [
-    "façade-d'angle",
-    "dome",
+    "lucarne-d'angle",
     "fenetre-d'angle",
-    "lucarne-d'angle"
+    "dome",
+    "façade-d'angle"
   ],
   "photos": [
     {
@@ -38,25 +38,29 @@
       "IndexJantzen": [
         "dome",
         "façade-d'angle"
-      ]
+      ],
+      "dateCapture": "2004:08:31"
     },
     {
       "id_pic": "Bachaumont-20_2_§2",
       "IndexJantzen": [
         "fenetre-d'angle"
-      ]
+      ],
+      "dateCapture": "2004:08:31"
     },
     {
       "id_pic": "Bachaumont-20_2_§3",
       "IndexJantzen": [
         "lucarne-d'angle"
-      ]
+      ],
+      "dateCapture": "2008:02:17"
     },
     {
       "id_pic": "Bachaumont-20_2_§4",
       "IndexJantzen": [
         "lucarne-d'angle"
-      ]
+      ],
+      "dateCapture": "2008:02:17"
     }
   ]
 }

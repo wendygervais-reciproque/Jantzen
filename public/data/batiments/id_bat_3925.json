@@ -22,11 +22,11 @@
   "WPfr": null,
   "image_ref": "Clery-Beauregard_2_§1",
   "terme_jantzen_bat": [
-    "façade-d'angle",
     "façade",
     "fenetre",
-    "pignon",
-    "voie"
+    "façade-d'angle",
+    "voie",
+    "pignon"
   ],
   "photos": [
     {
@@ -35,34 +35,39 @@
         "façade-d'angle",
         "pignon",
         "voie"
-      ]
+      ],
+      "dateCapture": "2012:08:11"
     },
     {
       "id_pic": "Clery-Beauregard_2_§2-Rx",
       "IndexJantzen": [
         "façade-d'angle",
         "voie"
-      ]
+      ],
+      "dateCapture": "2012:08:11"
     },
     {
       "id_pic": "Clery-Beauregard_2_§3",
       "IndexJantzen": [
         "façade-d'angle",
         "voie"
-      ]
+      ],
+      "dateCapture": "2008:08:19"
     },
     {
       "id_pic": "Clery-Beauregard_2_§4",
       "IndexJantzen": [
         "façade",
         "pignon"
-      ]
+      ],
+      "dateCapture": "2004:09:05"
     },
     {
       "id_pic": "Clery-Beauregard_2_§5-Rx",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2012:08:11"
     }
   ]
 }

@@ -28,10 +28,10 @@
   "image_ref": "Villaret-de-Joyeuse-1-2_17_§1",
   "terme_jantzen_bat": [
     "façade",
-    "façade-d'angle",
-    "dome",
     "fenetre-d'angle",
-    "voie"
+    "façade-d'angle",
+    "voie",
+    "dome"
   ],
   "photos": [
     {
@@ -39,21 +39,24 @@
       "IndexJantzen": [
         "façade",
         "voie"
-      ]
+      ],
+      "dateCapture": "2010:08:21"
     },
     {
       "id_pic": "Villaret-de-Joyeuse-1-2_17_§3",
       "IndexJantzen": [
         "dome",
         "façade-d'angle"
-      ]
+      ],
+      "dateCapture": "2005:06:12"
     },
     {
       "id_pic": "Villaret-de-Joyeuse-1-2_17_§5",
       "IndexJantzen": [
         "dome",
         "fenetre-d'angle"
-      ]
+      ],
+      "dateCapture": "2010:08:21"
     }
   ]
 }

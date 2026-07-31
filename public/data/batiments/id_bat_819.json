@@ -27,15 +27,15 @@
   "WPfr": null,
   "image_ref": "Reaumur-130_2_§1",
   "terme_jantzen_bat": [
-    "lucarne",
-    "façade-d'angle",
-    "lucarne-d'angle",
-    "fenetre",
-    "dome",
-    "fenetre-d'angle",
-    "pilastre",
     "verrière",
-    "voie"
+    "lucarne",
+    "fenetre-d'angle",
+    "fenetre",
+    "façade-d'angle",
+    "pilastre",
+    "voie",
+    "lucarne-d'angle",
+    "dome"
   ],
   "photos": [
     {
@@ -44,62 +44,71 @@
         "dome",
         "façade-d'angle",
         "voie"
-      ]
+      ],
+      "dateCapture": "2004:04:25"
     },
     {
       "id_pic": "Reaumur-130_2_§10",
       "IndexJantzen": [
         "fenetre",
         "verrière"
-      ]
+      ],
+      "dateCapture": "2004:04:25"
     },
     {
       "id_pic": "Reaumur-130_2_§2",
       "IndexJantzen": [
         "dome",
         "fenetre-d'angle"
-      ]
+      ],
+      "dateCapture": "2004:08:21"
     },
     {
       "id_pic": "Reaumur-130_2_§3",
       "IndexJantzen": [
         "dome",
         "lucarne-d'angle"
-      ]
+      ],
+      "dateCapture": "2008:02:17"
     },
     {
       "id_pic": "Reaumur-130_2_§5",
       "IndexJantzen": [
         "dome",
         "lucarne-d'angle"
-      ]
+      ],
+      "dateCapture": "2008:02:17"
     },
     {
       "id_pic": "Reaumur-130_2_§6",
       "IndexJantzen": [
         "dome",
         "lucarne-d'angle"
-      ]
+      ],
+      "dateCapture": "2008:02:17"
     },
     {
       "id_pic": "Reaumur-130_2_§7",
       "IndexJantzen": [
         "fenetre-d'angle"
-      ]
+      ],
+      "dateCapture": "2004:08:21"
     },
     {
       "id_pic": "Reaumur-130_2_§8",
       "IndexJantzen": [
         "fenetre",
         "pilastre"
-      ]
+      ],
+      "dateCapture": "2004:08:21"
     },
     {
       "id_pic": "Reaumur-130_2_§9",
       "IndexJantzen": [
         "fenetre",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2004:04:25"
     }
   ]
 }

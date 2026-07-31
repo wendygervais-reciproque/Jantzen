@@ -1,0 +1,48 @@
+{
+  "id_bat": 1025,
+  "libelle": "15 rue des Ursulines",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": "1900",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "15 rue des Ursulines",
+    "numero": "15",
+    "voie": "rue des Ursulines"
+  },
+  "arrondissement": 5,
+  "coordonnees": {
+    "latitude": "48.842668",
+    "longitude": "2.341581"
+  },
+  "id_pss": 12202,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 15705,
+  "terme_jantzen_bat": [
+    "façade",
+    "fenetre"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_15705",
+      "IndexJantzen": [
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_15706",
+      "IndexJantzen": [
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_15707",
+      "IndexJantzen": [
+        "façade"
+      ]
+    }
+  ]
+}

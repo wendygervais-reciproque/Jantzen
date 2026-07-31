@@ -27,9 +27,9 @@
   "WPfr": null,
   "image_ref": "Boissiere-78_16_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "sculpture",
     "console",
+    "sculpture",
+    "fenetre",
     "colonne",
     "porte-bois"
   ],
@@ -39,27 +39,31 @@
       "IndexJantzen": [
         "fenetre",
         "porte-bois"
-      ]
+      ],
+      "dateCapture": "2005:04:30"
     },
     {
       "id_pic": "Boissiere-78_16_§2",
       "IndexJantzen": [
         "fenetre",
         "porte-bois"
-      ]
+      ],
+      "dateCapture": "2005:04:30"
     },
     {
       "id_pic": "Boissiere-78_16_§3",
       "IndexJantzen": [
         "porte-bois"
-      ]
+      ],
+      "dateCapture": "2005:04:30"
     },
     {
       "id_pic": "Boissiere-78_16_§4",
       "IndexJantzen": [
         "colonne",
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2005:04:30"
     },
     {
       "id_pic": "Boissiere-78_16_§5",
@@ -67,7 +71,8 @@
         "colonne",
         "console",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:04:30"
     }
   ]
 }

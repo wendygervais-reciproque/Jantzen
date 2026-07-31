@@ -1,0 +1,81 @@
+{
+  "id_bat": 39,
+  "libelle": "Pavillon Sully",
+  "ensemble": "Palais du Louvre",
+  "personnes": null,
+  "dateConstruction": "1835-1880",
+  "periode": [
+    "1850-1869"
+  ],
+  "adresse": null,
+  "arrondissement": 1,
+  "coordonnees": {
+    "latitude": "48.86061389",
+    "longitude": "2.33769444"
+  },
+  "id_pss": null,
+  "id_wikidata": "Q3373082",
+  "WPfr": "Pavillon de l'Horloge du Louvre",
+  "image_ref": 8529,
+  "terme_jantzen_bat": [
+    "cariatide",
+    "façade",
+    "toiture",
+    "fenetre",
+    "sculpture",
+    "fronton"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_8529",
+      "IndexJantzen": []
+    },
+    {
+      "id_pic": "image_8530",
+      "IndexJantzen": []
+    },
+    {
+      "id_pic": "image_8531",
+      "IndexJantzen": [
+        "toiture"
+      ]
+    },
+    {
+      "id_pic": "image_8618",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_8619",
+      "IndexJantzen": [
+        "fenetre",
+        "fronton"
+      ]
+    },
+    {
+      "id_pic": "image_8620",
+      "IndexJantzen": [
+        "fenetre",
+        "fronton"
+      ]
+    },
+    {
+      "id_pic": "image_8621",
+      "IndexJantzen": [
+        "fenetre",
+        "fronton",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_8622",
+      "IndexJantzen": [
+        "cariatide",
+        "fenetre",
+        "fronton",
+        "sculpture"
+      ]
+    }
+  ]
+}

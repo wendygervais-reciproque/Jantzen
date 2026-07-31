@@ -22,45 +22,50 @@
   "WPfr": null,
   "image_ref": "Pont-Neuf-Pl-13-15_1_§1",
   "terme_jantzen_bat": [
-    "brique",
-    "lucarne",
     "façade",
-    "toiture"
+    "toiture",
+    "lucarne",
+    "brique"
   ],
   "photos": [
     {
       "id_pic": "Pont-Neuf-Pl-13-15_1_§1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "dateCapture": "2010:04:18"
     },
     {
       "id_pic": "Pont-Neuf-Pl-13-15_1_§2-Rx",
       "IndexJantzen": [
         "brique",
         "façade"
-      ]
+      ],
+      "dateCapture": "2012:05:26"
     },
     {
       "id_pic": "Pont-Neuf-Pl-13-15_1_§3",
       "IndexJantzen": [
         "brique",
         "façade"
-      ]
+      ],
+      "dateCapture": "2006:04:21"
     },
     {
       "id_pic": "Pont-Neuf-Pl-13-15_1_§4",
       "IndexJantzen": [
         "lucarne",
         "toiture"
-      ]
+      ],
+      "dateCapture": "2005:05:09"
     },
     {
       "id_pic": "Pont-Neuf-Pl-13-15_1_§5-Rx",
       "IndexJantzen": [
         "brique",
         "façade"
-      ]
+      ],
+      "dateCapture": "2012:05:26"
     }
   ]
 }

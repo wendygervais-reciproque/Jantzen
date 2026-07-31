@@ -27,11 +27,11 @@
   "WPfr": null,
   "image_ref": "Rousselet-1_7_§1",
   "terme_jantzen_bat": [
-    "façade-d'angle",
-    "céramique",
-    "porte-fer",
+    "oriel",
     "brique",
-    "oriel"
+    "porte-fer",
+    "façade-d'angle",
+    "céramique"
   ],
   "photos": [
     {
@@ -40,21 +40,24 @@
         "brique",
         "façade-d'angle",
         "oriel"
-      ]
+      ],
+      "dateCapture": "2005:05:01"
     },
     {
       "id_pic": "Rousselet-1_7_§2",
       "IndexJantzen": [
         "brique",
         "oriel"
-      ]
+      ],
+      "dateCapture": "2005:05:01"
     },
     {
       "id_pic": "Rousselet-1_7_§3",
       "IndexJantzen": [
         "céramique",
         "porte-fer"
-      ]
+      ],
+      "dateCapture": "2005:05:01"
     }
   ]
 }

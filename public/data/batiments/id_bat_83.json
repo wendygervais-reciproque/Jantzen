@@ -18,24 +18,26 @@
   "WPfr": "Gare de Paris-Est",
   "image_ref": "Gare-de-l'Est-_10_§1",
   "terme_jantzen_bat": [
-    "intérieur",
-    "métal",
-    "fenetre",
+    "verrière",
     "sculpture",
-    "verrière"
+    "fenetre",
+    "métal",
+    "intérieur"
   ],
   "photos": [
     {
       "id_pic": "Gare-de-l'Est-_10_§1",
       "IndexJantzen": [
         "verrière"
-      ]
+      ],
+      "dateCapture": "2004:05:16"
     },
     {
       "id_pic": "Gare-de-l'Est-_10_§1b",
       "IndexJantzen": [
         "verrière"
-      ]
+      ],
+      "dateCapture": "2004:05:16"
     },
     {
       "id_pic": "Gare-de-l'Est-_10_§2",
@@ -43,20 +45,23 @@
         "intérieur",
         "métal",
         "verrière"
-      ]
+      ],
+      "dateCapture": null
     },
     {
       "id_pic": "Gare-de-l'Est-_10_§3",
       "IndexJantzen": [
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:07:05"
     },
     {
       "id_pic": "Gare-de-l'Est-_10_§4",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:07:05"
     }
   ]
 }

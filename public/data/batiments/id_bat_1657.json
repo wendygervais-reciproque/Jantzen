@@ -27,12 +27,12 @@
   "WPfr": null,
   "image_ref": "St-Germain-215_7_§1",
   "terme_jantzen_bat": [
-    "lucarne",
-    "façade-d'angle",
-    "fenetre",
     "oeil-de-boeuf",
-    "tour",
+    "lucarne",
     "fenetre-d'angle",
+    "tour",
+    "fenetre",
+    "façade-d'angle",
     "colonne"
   ],
   "photos": [
@@ -41,33 +41,38 @@
       "IndexJantzen": [
         "façade-d'angle",
         "tour"
-      ]
+      ],
+      "dateCapture": "2005:05:28"
     },
     {
       "id_pic": "St-Germain-215_7_§2",
       "IndexJantzen": [
         "colonne",
         "fenetre-d'angle"
-      ]
+      ],
+      "dateCapture": "2005:05:28"
     },
     {
       "id_pic": "St-Germain-215_7_§3",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2005:05:28"
     },
     {
       "id_pic": "St-Germain-215_7_§4",
       "IndexJantzen": [
         "lucarne",
         "oeil-de-boeuf"
-      ]
+      ],
+      "dateCapture": "2005:05:28"
     },
     {
       "id_pic": "St-Germain-215_7_§5",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2005:05:28"
     }
   ]
 }

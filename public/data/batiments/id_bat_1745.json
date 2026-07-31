@@ -27,10 +27,10 @@
   "WPfr": null,
   "image_ref": "Paix-23_2_§1",
   "terme_jantzen_bat": [
-    "lucarne",
-    "toiture",
     "fronton",
-    "porte-fer"
+    "porte-fer",
+    "toiture",
+    "lucarne"
   ],
   "photos": [
     {
@@ -38,40 +38,46 @@
       "IndexJantzen": [
         "lucarne",
         "toiture"
-      ]
+      ],
+      "dateCapture": "2008:09:18"
     },
     {
       "id_pic": "Paix-23_2_§2",
       "IndexJantzen": [
         "lucarne",
         "toiture"
-      ]
+      ],
+      "dateCapture": "2008:09:18"
     },
     {
       "id_pic": "Paix-23_2_§3",
       "IndexJantzen": [
         "lucarne",
         "toiture"
-      ]
+      ],
+      "dateCapture": "2005:08:30"
     },
     {
       "id_pic": "Paix-23_2_§4",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2008:02:10"
     },
     {
       "id_pic": "Paix-23_2_§6",
       "IndexJantzen": [
         "fronton",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2008:02:10"
     },
     {
       "id_pic": "Paix-23_2_§7",
       "IndexJantzen": [
         "porte-fer"
-      ]
+      ],
+      "dateCapture": "2009:08:23"
     }
   ]
 }

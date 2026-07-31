@@ -1,0 +1,109 @@
+{
+  "id_bat": 1481,
+  "libelle": "2 rue Dorian",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 366,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1905",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "2 rue Dorian",
+    "numero": "2",
+    "voie": "rue Dorian"
+  },
+  "arrondissement": 12,
+  "coordonnees": {
+    "latitude": "48.847105",
+    "longitude": "2.393436"
+  },
+  "id_pss": 12335,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 3807,
+  "terme_jantzen_bat": [
+    "façade-d'angle",
+    "lucarne-d'angle",
+    "sculpture",
+    "fenetre",
+    "fenetre-d'angle",
+    "garde-corps",
+    "tour",
+    "porte-bois"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_3807",
+      "IndexJantzen": [
+        "façade-d'angle",
+        "tour"
+      ]
+    },
+    {
+      "id_pic": "image_3808",
+      "IndexJantzen": [
+        "porte-bois"
+      ]
+    },
+    {
+      "id_pic": "image_3809",
+      "IndexJantzen": [
+        "fenetre-d'angle",
+        "tour"
+      ]
+    },
+    {
+      "id_pic": "image_3810",
+      "IndexJantzen": [
+        "fenetre-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_3811",
+      "IndexJantzen": [
+        "lucarne-d'angle",
+        "tour"
+      ]
+    },
+    {
+      "id_pic": "image_3812",
+      "IndexJantzen": [
+        "fenetre-d'angle",
+        "tour"
+      ]
+    },
+    {
+      "id_pic": "image_3813",
+      "IndexJantzen": [
+        "fenetre-d'angle",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_3814",
+      "IndexJantzen": [
+        "fenetre-d'angle",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_3815",
+      "IndexJantzen": [
+        "fenetre-d'angle",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_3816",
+      "IndexJantzen": [
+        "fenetre",
+        "garde-corps"
+      ]
+    }
+  ]
+}

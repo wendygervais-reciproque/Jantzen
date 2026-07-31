@@ -27,20 +27,21 @@
   "WPfr": null,
   "image_ref": "Victoires-Pl-1_2_§1",
   "terme_jantzen_bat": [
-    "lucarne",
     "façade",
-    "toiture",
-    "fenetre",
+    "lucarne",
     "décor",
     "sculpture",
-    "pilastre"
+    "fenetre",
+    "pilastre",
+    "toiture"
   ],
   "photos": [
     {
       "id_pic": "Victoires-Pl-1_2_§1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "dateCapture": "2008:07:19"
     },
     {
       "id_pic": "Victoires-Pl-1_2_§2",
@@ -51,7 +52,8 @@
         "pilastre",
         "sculpture",
         "toiture"
-      ]
+      ],
+      "dateCapture": "2008:07:19"
     }
   ]
 }

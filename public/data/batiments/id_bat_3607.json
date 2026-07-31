@@ -27,10 +27,10 @@
   "WPfr": null,
   "image_ref": "Charles-Divry-8_14_§1",
   "terme_jantzen_bat": [
-    "clé",
-    "sculpture",
     "chimère",
-    "porte-fer"
+    "clé",
+    "porte-fer",
+    "sculpture"
   ],
   "photos": [
     {
@@ -38,14 +38,16 @@
       "IndexJantzen": [
         "chimère",
         "porte-fer"
-      ]
+      ],
+      "dateCapture": "2005:08:07"
     },
     {
       "id_pic": "Charles-Divry-8_14_§2",
       "IndexJantzen": [
         "clé",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:08:07"
     }
   ]
 }

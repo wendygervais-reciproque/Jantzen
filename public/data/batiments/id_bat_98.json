@@ -18,43 +18,48 @@
   "WPfr": "Hôtel Passart",
   "image_ref": "Chapon-4-In_3_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "lucarne",
     "façade",
-    "fronton"
+    "fronton",
+    "fenetre",
+    "lucarne"
   ],
   "photos": [
     {
       "id_pic": "Chapon-4-In_3_§1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "dateCapture": null
     },
     {
       "id_pic": "Chapon-4-In_3_§2",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "dateCapture": "2003:08:07"
     },
     {
       "id_pic": "Chapon-4-In_3_§3",
       "IndexJantzen": [
         "façade",
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2007:08:27"
     },
     {
       "id_pic": "Chapon-4-In_3_§4",
       "IndexJantzen": [
         "fenetre",
         "fronton"
-      ]
+      ],
+      "dateCapture": "2007:08:27"
     },
     {
       "id_pic": "Chapon-4-In_3_§5",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2007:08:27"
     }
   ]
 }

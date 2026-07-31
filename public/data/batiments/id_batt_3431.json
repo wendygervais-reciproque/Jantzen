@@ -1,0 +1,40 @@
+{
+  "id_bat": 3431,
+  "libelle": "7 rue Le Tasse",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 649,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1905",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "7 rue Le Tasse",
+    "numero": "7",
+    "voie": "rue Le Tasse"
+  },
+  "arrondissement": 16,
+  "coordonnees": {
+    "latitude": "48.860188",
+    "longitude": "2.286431"
+  },
+  "id_pss": 28715,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 8324,
+  "terme_jantzen_bat": [
+    "porte-fer"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_8324",
+      "IndexJantzen": [
+        "porte-fer"
+      ]
+    }
+  ]
+}

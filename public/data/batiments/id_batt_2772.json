@@ -1,0 +1,106 @@
+{
+  "id_bat": 2772,
+  "libelle": "48B rue de Rivoli",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 267,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1905",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "48B rue de Rivoli",
+    "numero": "48B",
+    "voie": "rue de Rivoli"
+  },
+  "arrondissement": 4,
+  "coordonnees": {
+    "latitude": "48.856926",
+    "longitude": "2.354393"
+  },
+  "id_pss": 77444,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 13110,
+  "terme_jantzen_bat": [
+    "porte-fer",
+    "sculpture",
+    "atlante",
+    "fenetre"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_13110",
+      "IndexJantzen": [
+        "atlante",
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_13111",
+      "IndexJantzen": [
+        "atlante",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_13112",
+      "IndexJantzen": [
+        "atlante",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_13113",
+      "IndexJantzen": [
+        "fenetre",
+        "porte-fer"
+      ]
+    },
+    {
+      "id_pic": "image_13114",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_13115",
+      "IndexJantzen": [
+        "atlante",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_13116",
+      "IndexJantzen": [
+        "atlante",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_13117",
+      "IndexJantzen": [
+        "fenetre",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_13118",
+      "IndexJantzen": [
+        "atlante",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_13119",
+      "IndexJantzen": [
+        "atlante",
+        "sculpture"
+      ]
+    }
+  ]
+}

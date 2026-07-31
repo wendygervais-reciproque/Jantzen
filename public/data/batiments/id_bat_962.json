@@ -22,31 +22,33 @@
   "WPfr": null,
   "image_ref": "Ranelagh-143_16_§1",
   "terme_jantzen_bat": [
-    "façade-d'angle",
-    "porte-fer",
-    "fenetre",
-    "fenetre-d'angle",
-    "sculpture",
-    "clé",
     "console",
-    "balcon",
-    "chimère",
+    "fenetre-d'angle",
+    "oriel",
     "porte-fer-hall",
+    "sculpture",
+    "chimère",
+    "fenetre",
+    "porte-fer",
+    "clé",
+    "façade-d'angle",
     "colonne",
-    "oriel"
+    "balcon"
   ],
   "photos": [
     {
       "id_pic": "Ranelagh-143_16_§1",
       "IndexJantzen": [
         "façade-d'angle"
-      ]
+      ],
+      "dateCapture": null
     },
     {
       "id_pic": "Ranelagh-143_16_§2",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2003:07:13"
     },
     {
       "id_pic": "Ranelagh-143_16_§3",
@@ -54,32 +56,37 @@
         "balcon",
         "colonne",
         "fenetre-d'angle"
-      ]
+      ],
+      "dateCapture": "2003:07:13"
     },
     {
       "id_pic": "Ranelagh-143_16_§4",
       "IndexJantzen": [
         "oriel"
-      ]
+      ],
+      "dateCapture": "2003:07:13"
     },
     {
       "id_pic": "Ranelagh-143_16_§5",
       "IndexJantzen": [
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2003:07:13"
     },
     {
       "id_pic": "Ranelagh-143_16_§6",
       "IndexJantzen": [
         "porte-fer-hall"
-      ]
+      ],
+      "dateCapture": "2003:07:13"
     },
     {
       "id_pic": "Ranelagh-143_16_§7",
       "IndexJantzen": [
         "porte-fer"
-      ]
+      ],
+      "dateCapture": "2003:07:13"
     },
     {
       "id_pic": "Ranelagh-143_16_§8",
@@ -87,14 +94,16 @@
         "chimère",
         "clé",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2003:07:13"
     },
     {
       "id_pic": "Ranelagh-143_16_§9",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2003:07:13"
     }
   ]
 }

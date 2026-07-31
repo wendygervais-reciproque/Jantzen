@@ -1,0 +1,119 @@
+{
+  "id_bat": 519,
+  "libelle": "111 avenue Victor-Hugo",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 625,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1905",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "111 avenue Victor-Hugo",
+    "numero": "111",
+    "voie": "avenue Victor-Hugo"
+  },
+  "arrondissement": 16,
+  "coordonnees": {
+    "latitude": "48.868509",
+    "longitude": "2.282921"
+  },
+  "id_pss": 12511,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 16345,
+  "terme_jantzen_bat": [
+    "oriel",
+    "façade",
+    "brique",
+    "métal",
+    "console"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_16345",
+      "IndexJantzen": [
+        "brique",
+        "façade",
+        "métal"
+      ]
+    },
+    {
+      "id_pic": "image_16346",
+      "IndexJantzen": [
+        "brique",
+        "console",
+        "métal"
+      ]
+    },
+    {
+      "id_pic": "image_16347",
+      "IndexJantzen": [
+        "brique",
+        "façade",
+        "métal"
+      ]
+    },
+    {
+      "id_pic": "image_16348",
+      "IndexJantzen": [
+        "brique",
+        "façade",
+        "métal"
+      ]
+    },
+    {
+      "id_pic": "image_16349",
+      "IndexJantzen": [
+        "brique",
+        "façade",
+        "métal",
+        "oriel"
+      ]
+    },
+    {
+      "id_pic": "image_16350",
+      "IndexJantzen": [
+        "brique",
+        "métal",
+        "oriel"
+      ]
+    },
+    {
+      "id_pic": "image_16351",
+      "IndexJantzen": [
+        "brique",
+        "métal",
+        "oriel"
+      ]
+    },
+    {
+      "id_pic": "image_16352",
+      "IndexJantzen": [
+        "brique",
+        "métal",
+        "oriel"
+      ]
+    },
+    {
+      "id_pic": "image_16353",
+      "IndexJantzen": [
+        "brique",
+        "métal",
+        "oriel"
+      ]
+    },
+    {
+      "id_pic": "image_16354",
+      "IndexJantzen": [
+        "brique",
+        "console",
+        "métal"
+      ]
+    }
+  ]
+}

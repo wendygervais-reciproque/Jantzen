@@ -22,28 +22,29 @@
   "WPfr": null,
   "image_ref": "Observatoire-1_6_§1",
   "terme_jantzen_bat": [
-    "façade-d'angle",
-    "toiture",
-    "lucarne-d'angle",
-    "fenetre",
-    "décor",
-    "fenetre-d'angle",
-    "sculpture",
-    "clé",
     "console",
-    "chimère",
     "cariatide",
-    "balcon",
+    "oriel",
+    "décor",
+    "sculpture",
+    "chimère",
+    "fenetre",
+    "clé",
+    "fenetre-d'angle",
+    "façade-d'angle",
+    "lucarne-d'angle",
     "colonne",
+    "balcon",
     "porte-bois",
-    "oriel"
+    "toiture"
   ],
   "photos": [
     {
       "id_pic": "Observatoire-1_6_§1",
       "IndexJantzen": [
         "façade-d'angle"
-      ]
+      ],
+      "dateCapture": "2005:05:09"
     },
     {
       "id_pic": "Observatoire-1_6_§10",
@@ -51,7 +52,8 @@
         "cariatide",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2007:09:24"
     },
     {
       "id_pic": "Observatoire-1_6_§11",
@@ -59,7 +61,8 @@
         "cariatide",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2007:09:24"
     },
     {
       "id_pic": "Observatoire-1_6_§12",
@@ -67,53 +70,61 @@
         "cariatide",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2008:02:18"
     },
     {
       "id_pic": "Observatoire-1_6_§13",
       "IndexJantzen": [
         "cariatide",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2008:02:18"
     },
     {
       "id_pic": "Observatoire-1_6_§14",
       "IndexJantzen": [
         "cariatide",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2008:02:18"
     },
     {
       "id_pic": "Observatoire-1_6_§15",
       "IndexJantzen": [
         "chimère",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2008:02:18"
     },
     {
       "id_pic": "Observatoire-1_6_§16",
       "IndexJantzen": [
         "chimère",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2008:02:18"
     },
     {
       "id_pic": "Observatoire-1_6_§17",
       "IndexJantzen": [
         "oriel"
-      ]
+      ],
+      "dateCapture": "2007:09:24"
     },
     {
       "id_pic": "Observatoire-1_6_§19",
       "IndexJantzen": [
         "oriel"
-      ]
+      ],
+      "dateCapture": "2004:06:07"
     },
     {
       "id_pic": "Observatoire-1_6_§2",
       "IndexJantzen": [
         "façade-d'angle"
-      ]
+      ],
+      "dateCapture": "2007:09:24"
     },
     {
       "id_pic": "Observatoire-1_6_§20",
@@ -121,7 +132,8 @@
         "clé",
         "oriel",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:05:09"
     },
     {
       "id_pic": "Observatoire-1_6_§21",
@@ -130,7 +142,8 @@
         "console",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2007:09:24"
     },
     {
       "id_pic": "Observatoire-1_6_§23",
@@ -139,48 +152,55 @@
         "console",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:05:09"
     },
     {
       "id_pic": "Observatoire-1_6_§24",
       "IndexJantzen": [
         "clé",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2007:09:24"
     },
     {
       "id_pic": "Observatoire-1_6_§25",
       "IndexJantzen": [
         "clé",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:03:19"
     },
     {
       "id_pic": "Observatoire-1_6_§26",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:05:09"
     },
     {
       "id_pic": "Observatoire-1_6_§27",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:05:09"
     },
     {
       "id_pic": "Observatoire-1_6_§28",
       "IndexJantzen": [
         "porte-bois"
-      ]
+      ],
+      "dateCapture": "2007:09:24"
     },
     {
       "id_pic": "Observatoire-1_6_§4",
       "IndexJantzen": [
         "colonne",
         "façade-d'angle"
-      ]
+      ],
+      "dateCapture": "2005:05:09"
     },
     {
       "id_pic": "Observatoire-1_6_§5",
@@ -189,27 +209,31 @@
         "décor",
         "fenetre-d'angle",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:05:09"
     },
     {
       "id_pic": "Observatoire-1_6_§6",
       "IndexJantzen": [
         "fenetre-d'angle",
         "toiture"
-      ]
+      ],
+      "dateCapture": "2005:05:09"
     },
     {
       "id_pic": "Observatoire-1_6_§7",
       "IndexJantzen": [
         "fenetre-d'angle",
         "toiture"
-      ]
+      ],
+      "dateCapture": "2007:09:24"
     },
     {
       "id_pic": "Observatoire-1_6_§9",
       "IndexJantzen": [
         "lucarne-d'angle"
-      ]
+      ],
+      "dateCapture": "2005:05:09"
     }
   ]
 }

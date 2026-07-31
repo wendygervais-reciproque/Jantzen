@@ -1,0 +1,62 @@
+{
+  "id_bat": 1501,
+  "libelle": "2 rue Frochot",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "2 rue Frochot",
+    "numero": "2",
+    "voie": "rue Frochot"
+  },
+  "arrondissement": 9,
+  "coordonnees": {
+    "latitude": "48.881135",
+    "longitude": "2.337728"
+  },
+  "id_pss": 18467,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 5009,
+  "terme_jantzen_bat": [
+    "verrière",
+    "porte-fer",
+    "façade"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_5009",
+      "IndexJantzen": [
+        "façade",
+        "verrière"
+      ]
+    },
+    {
+      "id_pic": "image_5010",
+      "IndexJantzen": [
+        "verrière"
+      ]
+    },
+    {
+      "id_pic": "image_5011",
+      "IndexJantzen": [
+        "verrière"
+      ]
+    },
+    {
+      "id_pic": "image_5012",
+      "IndexJantzen": [
+        "verrière"
+      ]
+    },
+    {
+      "id_pic": "image_5013",
+      "IndexJantzen": [
+        "porte-fer"
+      ]
+    }
+  ]
+}

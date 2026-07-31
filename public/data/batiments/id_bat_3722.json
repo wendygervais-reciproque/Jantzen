@@ -27,10 +27,10 @@
   "WPfr": null,
   "image_ref": "La-Fontaine-85_16_§1",
   "terme_jantzen_bat": [
+    "loggia",
     "fenetre",
-    "colonne",
     "porte-fer",
-    "loggia"
+    "colonne"
   ],
   "photos": [
     {
@@ -38,26 +38,30 @@
       "IndexJantzen": [
         "fenetre",
         "loggia"
-      ]
+      ],
+      "dateCapture": "2009:03:31"
     },
     {
       "id_pic": "La-Fontaine-85_16_§2",
       "IndexJantzen": [
         "colonne",
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2009:03:31"
     },
     {
       "id_pic": "La-Fontaine-85_16_§3",
       "IndexJantzen": [
         "porte-fer"
-      ]
+      ],
+      "dateCapture": "2009:03:31"
     },
     {
       "id_pic": "La-Fontaine-85_16_§4",
       "IndexJantzen": [
         "porte-fer"
-      ]
+      ],
+      "dateCapture": "2009:03:31"
     }
   ]
 }

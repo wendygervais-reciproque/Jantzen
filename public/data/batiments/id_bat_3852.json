@@ -27,17 +27,17 @@
   "WPfr": null,
   "image_ref": "Grenelle-90_7_§1",
   "terme_jantzen_bat": [
-    "lucarne-d'angle",
-    "porte-fer",
-    "brique",
-    "fenetre",
-    "oeil-de-boeuf",
-    "dome",
-    "sculpture",
     "console",
-    "balcon",
+    "oeil-de-boeuf",
+    "porte-fer-hall",
+    "brique",
     "chimère",
-    "porte-fer-hall"
+    "sculpture",
+    "fenetre",
+    "porte-fer",
+    "balcon",
+    "lucarne-d'angle",
+    "dome"
   ],
   "photos": [
     {
@@ -45,7 +45,8 @@
       "IndexJantzen": [
         "brique",
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2004:05:24"
     },
     {
       "id_pic": "Grenelle-90_7_§2",
@@ -55,7 +56,8 @@
         "dome",
         "lucarne-d'angle",
         "oeil-de-boeuf"
-      ]
+      ],
+      "dateCapture": "2005:09:18"
     },
     {
       "id_pic": "Grenelle-90_7_§3",
@@ -64,7 +66,8 @@
         "chimère",
         "console",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2004:05:24"
     },
     {
       "id_pic": "Grenelle-90_7_§4",
@@ -73,19 +76,22 @@
         "chimère",
         "console",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:09:18"
     },
     {
       "id_pic": "Grenelle-90_7_§5",
       "IndexJantzen": [
         "porte-fer-hall"
-      ]
+      ],
+      "dateCapture": "2004:05:25"
     },
     {
       "id_pic": "Grenelle-90_7_§6",
       "IndexJantzen": [
         "porte-fer"
-      ]
+      ],
+      "dateCapture": "2005:09:18"
     }
   ]
 }

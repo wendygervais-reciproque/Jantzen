@@ -27,12 +27,12 @@
   "WPfr": null,
   "image_ref": "Viarmes-2_1_§1",
   "terme_jantzen_bat": [
-    "façade-d'angle",
-    "fronton",
-    "tour",
+    "garde-corps",
     "fenetre-d'angle",
-    "balcon",
-    "garde-corps"
+    "tour",
+    "fronton",
+    "façade-d'angle",
+    "balcon"
   ],
   "photos": [
     {
@@ -40,14 +40,16 @@
       "IndexJantzen": [
         "façade-d'angle",
         "tour"
-      ]
+      ],
+      "dateCapture": "2004:09:01"
     },
     {
       "id_pic": "Viarmes-2_1_§3",
       "IndexJantzen": [
         "fenetre-d'angle",
         "tour"
-      ]
+      ],
+      "dateCapture": "2004:09:01"
     },
     {
       "id_pic": "Viarmes-2_1_§4",
@@ -56,14 +58,16 @@
         "fronton",
         "garde-corps",
         "tour"
-      ]
+      ],
+      "dateCapture": "2004:09:01"
     },
     {
       "id_pic": "Viarmes-2_1_§5-Rx",
       "IndexJantzen": [
         "façade-d'angle",
         "tour"
-      ]
+      ],
+      "dateCapture": "2012:07:22"
     },
     {
       "id_pic": "Viarmes-2_1_§6-Rx",
@@ -72,14 +76,16 @@
         "fronton",
         "garde-corps",
         "tour"
-      ]
+      ],
+      "dateCapture": "2012:07:22"
     },
     {
       "id_pic": "Viarmes-2_1_§7-Rx",
       "IndexJantzen": [
         "fenetre-d'angle",
         "tour"
-      ]
+      ],
+      "dateCapture": "2012:07:22"
     }
   ]
 }

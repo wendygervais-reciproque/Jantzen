@@ -1,0 +1,50 @@
+{
+  "id_bat": 3512,
+  "libelle": "74 rue Saint-Lazare",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "74 rue Saint-Lazare",
+    "numero": "74",
+    "voie": "rue Saint-Lazare"
+  },
+  "arrondissement": 9,
+  "coordonnees": {
+    "latitude": "48.87612",
+    "longitude": "2.330261"
+  },
+  "id_pss": 90502,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 14580,
+  "terme_jantzen_bat": [
+    "fenetre",
+    "lucarne",
+    "façade"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_14580",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_14581",
+      "IndexJantzen": [
+        "fenetre",
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_14582",
+      "IndexJantzen": [
+        "lucarne"
+      ]
+    }
+  ]
+}

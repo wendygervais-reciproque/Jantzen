@@ -27,13 +27,13 @@
   "WPfr": null,
   "image_ref": "Petits-Peres-2_2_§1",
   "terme_jantzen_bat": [
-    "façade-d'angle",
-    "tour",
-    "dome",
+    "garde-corps",
     "fenetre-d'angle",
+    "tour",
     "clé",
+    "façade-d'angle",
     "balcon",
-    "garde-corps"
+    "dome"
   ],
   "photos": [
     {
@@ -42,7 +42,8 @@
         "dome",
         "façade-d'angle",
         "tour"
-      ]
+      ],
+      "dateCapture": "2004:08:31"
     },
     {
       "id_pic": "Petits-Peres-2_2_§2",
@@ -50,7 +51,8 @@
         "balcon",
         "dome",
         "fenetre-d'angle"
-      ]
+      ],
+      "dateCapture": "2004:08:31"
     },
     {
       "id_pic": "Petits-Peres-2_2_§3",
@@ -58,7 +60,8 @@
         "clé",
         "fenetre-d'angle",
         "garde-corps"
-      ]
+      ],
+      "dateCapture": "2004:08:31"
     }
   ]
 }

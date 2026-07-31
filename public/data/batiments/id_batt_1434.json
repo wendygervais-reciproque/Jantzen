@@ -1,0 +1,51 @@
+{
+  "id_bat": 1434,
+  "libelle": "2 place d'Estienne-d'Orves",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 239,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1866",
+  "periode": [
+    "1850-1869"
+  ],
+  "adresse": {
+    "affichage": "2 place d'Estienne-d'Orves",
+    "numero": "2",
+    "voie": "place d'Estienne-d'Orves"
+  },
+  "arrondissement": 9,
+  "coordonnees": {
+    "latitude": "48.876547",
+    "longitude": "2.332556"
+  },
+  "id_pss": 25306,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 4144,
+  "terme_jantzen_bat": [
+    "fenetre",
+    "porte-bois",
+    "atlante",
+    "façade"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_4144",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_4145",
+      "IndexJantzen": [
+        "atlante",
+        "fenetre",
+        "porte-bois"
+      ]
+    }
+  ]
+}

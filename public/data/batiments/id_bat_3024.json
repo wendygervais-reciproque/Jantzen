@@ -27,8 +27,8 @@
   "WPfr": null,
   "image_ref": "St-Placide-55_6_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "façade",
+    "fenetre",
     "métal"
   ],
   "photos": [
@@ -36,14 +36,16 @@
       "id_pic": "St-Placide-55_6_§1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "dateCapture": "2005:04:17"
     },
     {
       "id_pic": "St-Placide-55_6_§2",
       "IndexJantzen": [
         "fenetre",
         "métal"
-      ]
+      ],
+      "dateCapture": "2005:04:17"
     }
   ]
 }

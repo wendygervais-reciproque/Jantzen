@@ -27,13 +27,13 @@
   "WPfr": null,
   "image_ref": "Houdon-5_18_§1",
   "terme_jantzen_bat": [
-    "porte-fer",
-    "brique",
-    "fenetre",
+    "garde-corps",
     "oriel",
+    "brique",
     "sculpture",
     "clé",
-    "garde-corps"
+    "fenetre",
+    "porte-fer"
   ],
   "photos": [
     {
@@ -42,14 +42,16 @@
         "brique",
         "oriel",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:05:25"
     },
     {
       "id_pic": "Houdon-5_18_§2",
       "IndexJantzen": [
         "brique",
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2005:05:25"
     },
     {
       "id_pic": "Houdon-5_18_§3",
@@ -57,14 +59,16 @@
         "brique",
         "fenetre",
         "garde-corps"
-      ]
+      ],
+      "dateCapture": "2005:05:25"
     },
     {
       "id_pic": "Houdon-5_18_§4",
       "IndexJantzen": [
         "clé",
         "porte-fer"
-      ]
+      ],
+      "dateCapture": "2005:05:25"
     }
   ]
 }

@@ -23,8 +23,8 @@
   "image_ref": "St-Antoine-99_4_§1",
   "terme_jantzen_bat": [
     "façade",
-    "dome",
-    "toiture"
+    "toiture",
+    "dome"
   ],
   "photos": [
     {
@@ -33,7 +33,8 @@
         "dome",
         "façade",
         "toiture"
-      ]
+      ],
+      "dateCapture": "2011:08:20"
     },
     {
       "id_pic": "St-Antoine-99_4_§2",
@@ -41,26 +42,30 @@
         "dome",
         "façade",
         "toiture"
-      ]
+      ],
+      "dateCapture": "2008:07:10"
     },
     {
       "id_pic": "St-Antoine-99_4_§3",
       "IndexJantzen": [
         "dome",
         "façade"
-      ]
+      ],
+      "dateCapture": "2011:08:20"
     },
     {
       "id_pic": "St-Antoine-99_4_§4-Rs",
       "IndexJantzen": [
         "dome"
-      ]
+      ],
+      "dateCapture": "2008:07:10"
     },
     {
       "id_pic": "St-Antoine-99_4_§5",
       "IndexJantzen": [
         "dome"
-      ]
+      ],
+      "dateCapture": "2011:08:20"
     }
   ]
 }

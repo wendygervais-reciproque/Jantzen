@@ -1,0 +1,108 @@
+{
+  "id_bat": 2166,
+  "libelle": "30t avenue Daumesnil",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 127,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": null,
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "30t avenue Daumesnil",
+    "numero": "30t",
+    "voie": "avenue Daumesnil"
+  },
+  "arrondissement": 12,
+  "coordonnees": {
+    "latitude": "48.847265",
+    "longitude": "2.375024"
+  },
+  "id_pss": 76981,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 3577,
+  "terme_jantzen_bat": [
+    "façade-d'angle",
+    "lucarne",
+    "oeil-de-boeuf",
+    "lucarne-d'angle",
+    "fenetre",
+    "sculpture",
+    "fenetre-d'angle",
+    "balcon",
+    "fronton",
+    "atlante"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_3577",
+      "IndexJantzen": [
+        "façade-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_3578",
+      "IndexJantzen": [
+        "fenetre-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_3579",
+      "IndexJantzen": [
+        "fenetre-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_3580",
+      "IndexJantzen": [
+        "fronton",
+        "lucarne-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_3581",
+      "IndexJantzen": [
+        "fronton",
+        "lucarne-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_3582",
+      "IndexJantzen": [
+        "balcon",
+        "lucarne",
+        "oeil-de-boeuf"
+      ]
+    },
+    {
+      "id_pic": "image_3583",
+      "IndexJantzen": [
+        "balcon",
+        "lucarne",
+        "oeil-de-boeuf"
+      ]
+    },
+    {
+      "id_pic": "image_3584",
+      "IndexJantzen": [
+        "atlante",
+        "balcon",
+        "fenetre",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_3585",
+      "IndexJantzen": [
+        "atlante",
+        "fenetre",
+        "sculpture"
+      ]
+    }
+  ]
+}

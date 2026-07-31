@@ -22,15 +22,15 @@
   "WPfr": null,
   "image_ref": "Dufrenoy-2_16_§1",
   "terme_jantzen_bat": [
+    "console",
+    "garde-corps",
     "lucarne",
-    "façade-d'angle",
-    "fenetre",
-    "dome",
     "fenetre-d'angle",
     "sculpture",
-    "console",
+    "fenetre",
+    "façade-d'angle",
     "colonne",
-    "garde-corps"
+    "dome"
   ],
   "photos": [
     {
@@ -38,14 +38,16 @@
       "IndexJantzen": [
         "dome",
         "façade-d'angle"
-      ]
+      ],
+      "dateCapture": "2007:03:15"
     },
     {
       "id_pic": "Dufrenoy-2_16_§10",
       "IndexJantzen": [
         "dome",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2006:06:30"
     },
     {
       "id_pic": "Dufrenoy-2_16_§11",
@@ -53,7 +55,8 @@
         "dome",
         "lucarne",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:06:30"
     },
     {
       "id_pic": "Dufrenoy-2_16_§12",
@@ -61,67 +64,77 @@
         "dome",
         "fenetre-d'angle",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2007:08:25"
     },
     {
       "id_pic": "Dufrenoy-2_16_§13",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2007:03:15"
     },
     {
       "id_pic": "Dufrenoy-2_16_§14",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2007:03:15"
     },
     {
       "id_pic": "Dufrenoy-2_16_§15",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:06:30"
     },
     {
       "id_pic": "Dufrenoy-2_16_§16",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:03:23"
     },
     {
       "id_pic": "Dufrenoy-2_16_§17",
       "IndexJantzen": [
         "fenetre",
         "garde-corps"
-      ]
+      ],
+      "dateCapture": "2006:06:30"
     },
     {
       "id_pic": "Dufrenoy-2_16_§18",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:06:30"
     },
     {
       "id_pic": "Dufrenoy-2_16_§2",
       "IndexJantzen": [
         "dome",
         "façade-d'angle"
-      ]
+      ],
+      "dateCapture": "2007:03:15"
     },
     {
       "id_pic": "Dufrenoy-2_16_§3",
       "IndexJantzen": [
         "dome",
         "façade-d'angle"
-      ]
+      ],
+      "dateCapture": "2004:05:17"
     },
     {
       "id_pic": "Dufrenoy-2_16_§5",
       "IndexJantzen": [
         "dome",
         "fenetre-d'angle"
-      ]
+      ],
+      "dateCapture": "2005:03:23"
     },
     {
       "id_pic": "Dufrenoy-2_16_§6",
@@ -129,7 +142,8 @@
         "dome",
         "fenetre-d'angle",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2007:03:15"
     },
     {
       "id_pic": "Dufrenoy-2_16_§7",
@@ -137,21 +151,24 @@
         "dome",
         "fenetre-d'angle",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2007:03:15"
     },
     {
       "id_pic": "Dufrenoy-2_16_§8",
       "IndexJantzen": [
         "colonne",
         "fenetre-d'angle"
-      ]
+      ],
+      "dateCapture": "2007:03:15"
     },
     {
       "id_pic": "Dufrenoy-2_16_§9",
       "IndexJantzen": [
         "colonne",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2007:03:15"
     }
   ]
 }

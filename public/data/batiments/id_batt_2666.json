@@ -1,0 +1,40 @@
+{
+  "id_bat": 2666,
+  "libelle": "44 avenue Kléber",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 283,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1911",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "44 avenue Kléber",
+    "numero": "44",
+    "voie": "avenue Kléber"
+  },
+  "arrondissement": 16,
+  "coordonnees": {
+    "latitude": "48.869839",
+    "longitude": "2.291894"
+  },
+  "id_pss": 77349,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 7506,
+  "terme_jantzen_bat": [
+    "porte-fer"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_7506",
+      "IndexJantzen": [
+        "porte-fer"
+      ]
+    }
+  ]
+}

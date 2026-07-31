@@ -22,14 +22,14 @@
   "WPfr": null,
   "image_ref": "Belgrand-17_20_§1",
   "terme_jantzen_bat": [
+    "garde-corps",
     "lucarne",
-    "façade-d'angle",
+    "fenetre-d'angle",
     "brique",
     "décor",
-    "dome",
-    "fenetre-d'angle",
+    "façade-d'angle",
     "balcon",
-    "garde-corps"
+    "dome"
   ],
   "photos": [
     {
@@ -38,7 +38,8 @@
         "brique",
         "dome",
         "façade-d'angle"
-      ]
+      ],
+      "dateCapture": "2005:06:18"
     },
     {
       "id_pic": "Belgrand-17_20_§2",
@@ -46,7 +47,8 @@
         "brique",
         "fenetre-d'angle",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2005:06:18"
     },
     {
       "id_pic": "Belgrand-17_20_§3",
@@ -55,7 +57,8 @@
         "brique",
         "fenetre-d'angle",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2005:06:18"
     },
     {
       "id_pic": "Belgrand-17_20_§4",
@@ -64,13 +67,15 @@
         "décor",
         "fenetre-d'angle",
         "garde-corps"
-      ]
+      ],
+      "dateCapture": "2005:06:18"
     },
     {
       "id_pic": "Belgrand-17_20_§5",
       "IndexJantzen": [
         "façade-d'angle"
-      ]
+      ],
+      "dateCapture": "2005:06:18"
     }
   ]
 }

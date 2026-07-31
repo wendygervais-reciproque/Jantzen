@@ -28,17 +28,18 @@
   "image_ref": "Berri-24_8_§1",
   "terme_jantzen_bat": [
     "façade",
-    "porte-fer",
+    "garde-corps",
     "fenetre",
-    "balcon",
-    "garde-corps"
+    "porte-fer",
+    "balcon"
   ],
   "photos": [
     {
       "id_pic": "Berri-24_8_§1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "dateCapture": "2004:09:17"
     },
     {
       "id_pic": "Berri-24_8_§2",
@@ -46,14 +47,16 @@
         "balcon",
         "fenetre",
         "garde-corps"
-      ]
+      ],
+      "dateCapture": "2004:09:17"
     },
     {
       "id_pic": "Berri-24_8_§3",
       "IndexJantzen": [
         "fenetre",
         "porte-fer"
-      ]
+      ],
+      "dateCapture": "2004:09:18"
     }
   ]
 }

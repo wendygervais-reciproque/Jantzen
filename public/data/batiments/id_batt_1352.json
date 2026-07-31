@@ -1,0 +1,53 @@
+{
+  "id_bat": 1352,
+  "libelle": "19 boulevard Delessert",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "19 boulevard Delessert",
+    "numero": "19",
+    "voie": "boulevard Delessert"
+  },
+  "arrondissement": 16,
+  "coordonnees": {
+    "latitude": "48.858689",
+    "longitude": "2.286059"
+  },
+  "id_pss": 28013,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 3669,
+  "terme_jantzen_bat": [
+    "fenetre",
+    "porte-fer",
+    "garde-corps",
+    "balcon"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_3669",
+      "IndexJantzen": [
+        "balcon",
+        "fenetre",
+        "garde-corps"
+      ]
+    },
+    {
+      "id_pic": "image_3670",
+      "IndexJantzen": [
+        "fenetre",
+        "garde-corps"
+      ]
+    },
+    {
+      "id_pic": "image_3671",
+      "IndexJantzen": [
+        "porte-fer"
+      ]
+    }
+  ]
+}

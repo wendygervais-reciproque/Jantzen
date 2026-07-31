@@ -28,18 +28,19 @@
   "image_ref": "St-Andre-Des-Arts-27_6_§1",
   "terme_jantzen_bat": [
     "façade",
-    "fenetre",
-    "clé",
     "console",
-    "balcon",
-    "garde-corps"
+    "garde-corps",
+    "clé",
+    "fenetre",
+    "balcon"
   ],
   "photos": [
     {
       "id_pic": "St-Andre-Des-Arts-27_6_§1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "dateCapture": "2003:08:02"
     },
     {
       "id_pic": "St-Andre-Des-Arts-27_6_§2",
@@ -47,14 +48,16 @@
         "balcon",
         "console",
         "garde-corps"
-      ]
+      ],
+      "dateCapture": "2003:08:02"
     },
     {
       "id_pic": "St-Andre-Des-Arts-27_6_§3",
       "IndexJantzen": [
         "fenetre",
         "garde-corps"
-      ]
+      ],
+      "dateCapture": "2003:08:02"
     },
     {
       "id_pic": "St-Andre-Des-Arts-27_6_§4",
@@ -62,7 +65,8 @@
         "clé",
         "fenetre",
         "garde-corps"
-      ]
+      ],
+      "dateCapture": null
     }
   ]
 }

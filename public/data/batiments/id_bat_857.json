@@ -27,18 +27,18 @@
   "WPfr": null,
   "image_ref": "Courcelles-138_17_§1",
   "terme_jantzen_bat": [
-    "façade-d'angle",
-    "intérieur",
-    "façade",
-    "porte-fer",
-    "fenetre",
-    "décor",
-    "dome",
-    "fenetre-d'angle",
-    "sculpture",
     "console",
+    "façade",
+    "fenetre-d'angle",
+    "décor",
+    "sculpture",
+    "fenetre",
+    "porte-fer",
+    "façade-d'angle",
+    "colonne",
+    "intérieur",
     "balcon",
-    "colonne"
+    "dome"
   ],
   "photos": [
     {
@@ -46,49 +46,56 @@
       "IndexJantzen": [
         "dome",
         "façade-d'angle"
-      ]
+      ],
+      "dateCapture": "2005:03:25"
     },
     {
       "id_pic": "Courcelles-138_17_§10",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2007:03:14"
     },
     {
       "id_pic": "Courcelles-138_17_§11",
       "IndexJantzen": [
         "colonne",
         "porte-fer"
-      ]
+      ],
+      "dateCapture": null
     },
     {
       "id_pic": "Courcelles-138_17_§12",
       "IndexJantzen": [
         "intérieur",
         "porte-fer"
-      ]
+      ],
+      "dateCapture": null
     },
     {
       "id_pic": "Courcelles-138_17_§2_1-Rx",
       "IndexJantzen": [
         "dome",
         "façade-d'angle"
-      ]
+      ],
+      "dateCapture": "2014:02:18"
     },
     {
       "id_pic": "Courcelles-138_17_§3",
       "IndexJantzen": [
         "dome",
         "façade-d'angle"
-      ]
+      ],
+      "dateCapture": "2005:03:25"
     },
     {
       "id_pic": "Courcelles-138_17_§4_1-Rx",
       "IndexJantzen": [
         "dome",
         "fenetre-d'angle"
-      ]
+      ],
+      "dateCapture": "2014:02:18"
     },
     {
       "id_pic": "Courcelles-138_17_§5",
@@ -96,21 +103,24 @@
         "balcon",
         "dome",
         "fenetre-d'angle"
-      ]
+      ],
+      "dateCapture": "2005:03:25"
     },
     {
       "id_pic": "Courcelles-138_17_§6",
       "IndexJantzen": [
         "balcon",
         "façade"
-      ]
+      ],
+      "dateCapture": "2005:03:25"
     },
     {
       "id_pic": "Courcelles-138_17_§7",
       "IndexJantzen": [
         "balcon",
         "façade"
-      ]
+      ],
+      "dateCapture": "2005:03:25"
     },
     {
       "id_pic": "Courcelles-138_17_§8",
@@ -118,7 +128,8 @@
         "décor",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2007:03:14"
     },
     {
       "id_pic": "Courcelles-138_17_§9",
@@ -127,7 +138,8 @@
         "décor",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2007:03:14"
     }
   ]
 }

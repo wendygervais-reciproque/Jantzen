@@ -1,0 +1,95 @@
+{
+  "id_bat": 1815,
+  "libelle": "24 rue Pavée",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": "XVIe siècle, vers 1610, 1612",
+  "periode": [
+    "1530-1589",
+    "1590-1659"
+  ],
+  "adresse": {
+    "affichage": "24 rue Pavée",
+    "numero": "24",
+    "voie": "rue Pavée"
+  },
+  "arrondissement": 4,
+  "coordonnees": {
+    "latitude": "48.857065",
+    "longitude": "2.361696"
+  },
+  "id_pss": 27825,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 11299,
+  "terme_jantzen_bat": [
+    "pilastre",
+    "façade",
+    "clé",
+    "fenetre",
+    "sculpture",
+    "fenetre-d'angle",
+    "tourelle",
+    "fronton",
+    "console"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_11299",
+      "IndexJantzen": [
+        "façade",
+        "fronton",
+        "pilastre"
+      ]
+    },
+    {
+      "id_pic": "image_11300",
+      "IndexJantzen": [
+        "fenetre",
+        "fronton",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_11301",
+      "IndexJantzen": [
+        "tourelle"
+      ]
+    },
+    {
+      "id_pic": "image_11302",
+      "IndexJantzen": [
+        "console",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_11303",
+      "IndexJantzen": [
+        "fenetre-d'angle",
+        "tourelle"
+      ]
+    },
+    {
+      "id_pic": "image_11304",
+      "IndexJantzen": [
+        "fenetre-d'angle",
+        "tourelle"
+      ]
+    },
+    {
+      "id_pic": "image_11305",
+      "IndexJantzen": [
+        "console",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_11306",
+      "IndexJantzen": [
+        "clé",
+        "sculpture"
+      ]
+    }
+  ]
+}

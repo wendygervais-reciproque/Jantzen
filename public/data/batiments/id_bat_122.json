@@ -16,10 +16,10 @@
   "WPfr": "Parc Monceau",
   "image_ref": "Parc-Monceau-_8_",
   "terme_jantzen_bat": [
-    "colonne",
     "façade",
-    "dome",
-    "porte-fer"
+    "porte-fer",
+    "colonne",
+    "dome"
   ],
   "photos": [
     {
@@ -28,14 +28,16 @@
         "colonne",
         "dome",
         "façade"
-      ]
+      ],
+      "dateCapture": "2007:08:25"
     },
     {
       "id_pic": "Van-Dyck-parc-Monceau_8_",
       "IndexJantzen": [
         "façade",
         "porte-fer"
-      ]
+      ],
+      "dateCapture": "2008:02:24"
     }
   ]
 }

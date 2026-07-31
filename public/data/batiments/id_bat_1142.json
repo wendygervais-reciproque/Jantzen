@@ -27,9 +27,9 @@
   "WPfr": null,
   "image_ref": "Erlanger-16_16_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "console",
-    "sculpture"
+    "sculpture",
+    "fenetre"
   ],
   "photos": [
     {
@@ -37,14 +37,16 @@
       "IndexJantzen": [
         "console",
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2005:05:28"
     },
     {
       "id_pic": "Erlanger-16_16_§2",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:05:28"
     }
   ]
 }

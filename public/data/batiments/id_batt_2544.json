@@ -1,0 +1,93 @@
+{
+  "id_bat": 2544,
+  "libelle": "4 rue Schomberg",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 373,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1883",
+  "periode": [
+    "1870-1894"
+  ],
+  "adresse": {
+    "affichage": "4 rue Schomberg",
+    "numero": "4",
+    "voie": "rue Schomberg"
+  },
+  "arrondissement": 4,
+  "coordonnees": {
+    "latitude": "48.849061",
+    "longitude": "2.363107"
+  },
+  "id_pss": 25687,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 13432,
+  "terme_jantzen_bat": [
+    "porte",
+    "façade",
+    "brique",
+    "colonne",
+    "fenetre",
+    "métal"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_13432",
+      "IndexJantzen": [
+        "brique",
+        "façade",
+        "métal"
+      ]
+    },
+    {
+      "id_pic": "image_13433",
+      "IndexJantzen": [
+        "brique",
+        "façade",
+        "métal",
+        "porte"
+      ]
+    },
+    {
+      "id_pic": "image_13434",
+      "IndexJantzen": [
+        "brique",
+        "fenetre",
+        "métal"
+      ]
+    },
+    {
+      "id_pic": "image_13435",
+      "IndexJantzen": [
+        "brique",
+        "colonne"
+      ]
+    },
+    {
+      "id_pic": "image_13436",
+      "IndexJantzen": [
+        "brique",
+        "fenetre",
+        "métal"
+      ]
+    },
+    {
+      "id_pic": "image_13437",
+      "IndexJantzen": [
+        "brique",
+        "colonne"
+      ]
+    },
+    {
+      "id_pic": "image_13438",
+      "IndexJantzen": [
+        "brique",
+        "colonne"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id_bat": 1877,
+  "libelle": "26 avenue Jean-Moulin",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 108,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1906",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "26 avenue Jean-Moulin",
+    "numero": "26",
+    "voie": "avenue Jean-Moulin"
+  },
+  "arrondissement": 14,
+  "coordonnees": {
+    "latitude": "48.826871",
+    "longitude": "2.324355"
+  },
+  "id_pss": 101169,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 7261,
+  "terme_jantzen_bat": [
+    "façade-d'angle"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_7261",
+      "IndexJantzen": [
+        "façade-d'angle"
+      ]
+    }
+  ]
+}

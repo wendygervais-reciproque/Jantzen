@@ -1,0 +1,46 @@
+{
+  "id_bat": 3844,
+  "libelle": "9 rue Victor-Massé",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": "1840",
+  "periode": [
+    "1830-1849"
+  ],
+  "adresse": {
+    "affichage": "9 rue Victor-Massé",
+    "numero": "9",
+    "voie": "rue Victor-Massé"
+  },
+  "arrondissement": 9,
+  "coordonnees": {
+    "latitude": "48.880541",
+    "longitude": "2.339404"
+  },
+  "id_pss": 69267,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 16428,
+  "terme_jantzen_bat": [
+    "clé",
+    "sculpture",
+    "fenetre"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_16428",
+      "IndexJantzen": [
+        "fenetre",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_16429",
+      "IndexJantzen": [
+        "clé",
+        "fenetre",
+        "sculpture"
+      ]
+    }
+  ]
+}

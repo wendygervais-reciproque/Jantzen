@@ -1,0 +1,68 @@
+{
+  "id_bat": 2416,
+  "libelle": "39 rue Beaubourg",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 303,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1905",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "39 rue Beaubourg",
+    "numero": "39",
+    "voie": "rue Beaubourg"
+  },
+  "arrondissement": 3,
+  "coordonnees": {
+    "latitude": "48.862124",
+    "longitude": "2.353809"
+  },
+  "id_pss": 27829,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 933,
+  "terme_jantzen_bat": [
+    "façade-d'angle",
+    "console",
+    "fenetre-d'angle",
+    "décor"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_933",
+      "IndexJantzen": [
+        "façade-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_934",
+      "IndexJantzen": [
+        "façade-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_935",
+      "IndexJantzen": [
+        "fenetre-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_936",
+      "IndexJantzen": [
+        "façade-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_937",
+      "IndexJantzen": [
+        "console",
+        "décor"
+      ]
+    }
+  ]
+}

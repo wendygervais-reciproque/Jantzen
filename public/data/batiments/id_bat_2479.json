@@ -27,9 +27,9 @@
   "WPfr": null,
   "image_ref": "Dante-4_5_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "console",
-    "sculpture"
+    "sculpture",
+    "fenetre"
   ],
   "photos": [
     {
@@ -37,14 +37,16 @@
       "IndexJantzen": [
         "console",
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2005:05:27"
     },
     {
       "id_pic": "Dante-4_5_§2",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:05:27"
     }
   ]
 }

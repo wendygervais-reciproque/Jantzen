@@ -27,11 +27,11 @@
   "WPfr": null,
   "image_ref": "Decamps-42_16_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "dome",
-    "sculpture",
     "console",
-    "porte-bois"
+    "sculpture",
+    "fenetre",
+    "porte-bois",
+    "dome"
   ],
   "photos": [
     {
@@ -40,27 +40,31 @@
         "console",
         "dome",
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2006:06:30"
     },
     {
       "id_pic": "Decamps-42_16_§2",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:06:07"
     },
     {
       "id_pic": "Decamps-42_16_§3",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:06:30"
     },
     {
       "id_pic": "Decamps-42_16_§4",
       "IndexJantzen": [
         "porte-bois"
-      ]
+      ],
+      "dateCapture": "2006:06:30"
     }
   ]
 }

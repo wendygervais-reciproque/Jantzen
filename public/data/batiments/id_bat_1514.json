@@ -28,21 +28,22 @@
   "image_ref": "Lecourbe-2_15_§1",
   "terme_jantzen_bat": [
     "lucarne",
-    "façade-d'angle",
-    "toiture",
-    "porte-fer",
-    "fenetre",
     "décor",
-    "dome",
     "sculpture",
-    "balcon"
+    "fenetre",
+    "porte-fer",
+    "façade-d'angle",
+    "balcon",
+    "toiture",
+    "dome"
   ],
   "photos": [
     {
       "id_pic": "Lecourbe-2_15_§1",
       "IndexJantzen": [
         "façade-d'angle"
-      ]
+      ],
+      "dateCapture": "2007:06:17"
     },
     {
       "id_pic": "Lecourbe-2_15_§2",
@@ -51,7 +52,8 @@
         "décor",
         "façade-d'angle",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:06:18"
     },
     {
       "id_pic": "Lecourbe-2_15_§3",
@@ -59,21 +61,24 @@
         "dome",
         "lucarne",
         "toiture"
-      ]
+      ],
+      "dateCapture": "2006:06:18"
     },
     {
       "id_pic": "Lecourbe-2_15_§4",
       "IndexJantzen": [
         "dome",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2007:06:17"
     },
     {
       "id_pic": "Lecourbe-2_15_§5",
       "IndexJantzen": [
         "dome",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2006:07:17"
     },
     {
       "id_pic": "Lecourbe-2_15_§6",
@@ -82,13 +87,15 @@
         "décor",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:06:18"
     },
     {
       "id_pic": "Lecourbe-2_15_§7",
       "IndexJantzen": [
         "porte-fer"
-      ]
+      ],
+      "dateCapture": "2006:06:18"
     }
   ]
 }

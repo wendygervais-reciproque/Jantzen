@@ -1,0 +1,96 @@
+{
+  "id_bat": 1660,
+  "libelle": "216 rue de Crimée",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 73,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1913",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "216 rue de Crimée",
+    "numero": "216",
+    "voie": "rue de Crimée"
+  },
+  "arrondissement": 19,
+  "coordonnees": {
+    "latitude": "48.892719",
+    "longitude": "2.374655"
+  },
+  "id_pss": null,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 3326,
+  "terme_jantzen_bat": [
+    "loggia",
+    "colonne",
+    "sculpture",
+    "décor",
+    "fenetre",
+    "balcon"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_3326",
+      "IndexJantzen": [
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_3327",
+      "IndexJantzen": [
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_3328",
+      "IndexJantzen": [
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_3329",
+      "IndexJantzen": [
+        "décor",
+        "fenetre",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_3330",
+      "IndexJantzen": [
+        "fenetre",
+        "loggia",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_3331",
+      "IndexJantzen": [
+        "loggia",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_3332",
+      "IndexJantzen": [
+        "balcon",
+        "colonne",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_3333",
+      "IndexJantzen": [
+        "balcon",
+        "colonne",
+        "sculpture"
+      ]
+    }
+  ]
+}

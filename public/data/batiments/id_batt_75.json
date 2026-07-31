@@ -1,0 +1,77 @@
+{
+  "id_bat": 75,
+  "libelle": "Église Saint-Vincent-de-Paul",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 354,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1884",
+  "periode": [
+    "1870-1894"
+  ],
+  "adresse": {
+    "affichage": "place Franz-Liszt",
+    "numero": null,
+    "voie": "place Franz-Liszt"
+  },
+  "arrondissement": 10,
+  "coordonnees": {
+    "latitude": "48.878889",
+    "longitude": "2.351667"
+  },
+  "id_pss": 19900,
+  "id_wikidata": "Q1710383",
+  "WPfr": "Église Saint-Vincent-de-Paul de Paris",
+  "image_ref": 4978,
+  "terme_jantzen_bat": [
+    "clé",
+    "façade",
+    "colonne",
+    "sculpture",
+    "porte-fer"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_4978",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_4979",
+      "IndexJantzen": [
+        "colonne",
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_4980",
+      "IndexJantzen": [
+        "porte-fer"
+      ]
+    },
+    {
+      "id_pic": "image_4981",
+      "IndexJantzen": [
+        "porte-fer"
+      ]
+    },
+    {
+      "id_pic": "image_4982",
+      "IndexJantzen": [
+        "porte-fer",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_4983",
+      "IndexJantzen": [
+        "clé",
+        "sculpture"
+      ]
+    }
+  ]
+}

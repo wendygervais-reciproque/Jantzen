@@ -27,12 +27,12 @@
   "WPfr": null,
   "image_ref": "Louvre-Rue-15_1_§1",
   "terme_jantzen_bat": [
-    "lucarne",
     "façade",
-    "fenetre",
     "oeil-de-boeuf",
+    "lucarne",
     "décor",
     "sculpture",
+    "fenetre",
     "colonne",
     "voie"
   ],
@@ -43,7 +43,8 @@
         "décor",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2004:08:31"
     },
     {
       "id_pic": "Louvre-Rue-15_1_§2",
@@ -51,7 +52,8 @@
         "décor",
         "lucarne",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2004:08:31"
     },
     {
       "id_pic": "Louvre-Rue-15_1_§3",
@@ -59,7 +61,8 @@
         "lucarne",
         "oeil-de-boeuf",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2004:08:31"
     },
     {
       "id_pic": "Louvre-Rue-15_1_§4",
@@ -67,26 +70,30 @@
         "lucarne",
         "oeil-de-boeuf",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2004:08:31"
     },
     {
       "id_pic": "Louvre-Rue-15_1_§5",
       "IndexJantzen": [
         "façade",
         "voie"
-      ]
+      ],
+      "dateCapture": "2004:09:02"
     },
     {
       "id_pic": "Louvre-Rue-15_1_§6",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "dateCapture": "2004:09:02"
     },
     {
       "id_pic": "Louvre-Rue-15_1_§7",
       "IndexJantzen": [
         "colonne"
-      ]
+      ],
+      "dateCapture": "2004:09:02"
     }
   ]
 }

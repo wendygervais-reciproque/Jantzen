@@ -1,0 +1,59 @@
+{
+  "id_bat": 930,
+  "libelle": "14 rue Perrée",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 607,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1892-1896",
+  "periode": [
+    "1870-1894"
+  ],
+  "adresse": {
+    "affichage": "14 rue Perrée",
+    "numero": "14",
+    "voie": "rue Perrée"
+  },
+  "arrondissement": 3,
+  "coordonnees": {
+    "latitude": "48.864824",
+    "longitude": "2.361186"
+  },
+  "id_pss": 78047,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 11423,
+  "terme_jantzen_bat": [
+    "façade",
+    "fenetre",
+    "décor",
+    "fenetre-d'angle",
+    "porte-fer"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_11423",
+      "IndexJantzen": [
+        "façade",
+        "fenetre",
+        "porte-fer"
+      ]
+    },
+    {
+      "id_pic": "image_11424",
+      "IndexJantzen": [
+        "fenetre-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_11425",
+      "IndexJantzen": [
+        "décor",
+        "fenetre-d'angle"
+      ]
+    }
+  ]
+}

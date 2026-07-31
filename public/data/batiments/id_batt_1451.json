@@ -1,0 +1,59 @@
+{
+  "id_bat": 1451,
+  "libelle": "2 rue Dante",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 640,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1902",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "2 rue Dante",
+    "numero": "2",
+    "voie": "rue Dante"
+  },
+  "arrondissement": 5,
+  "coordonnees": {
+    "latitude": "48.851466",
+    "longitude": "2.346967"
+  },
+  "id_pss": 82257,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 3436,
+  "terme_jantzen_bat": [
+    "façade-d'angle",
+    "lucarne-d'angle",
+    "dome",
+    "balcon",
+    "porte-fer"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_3436",
+      "IndexJantzen": [
+        "dome",
+        "façade-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_3437",
+      "IndexJantzen": [
+        "balcon",
+        "dome",
+        "lucarne-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_3438",
+      "IndexJantzen": [
+        "porte-fer"
+      ]
+    }
+  ]
+}

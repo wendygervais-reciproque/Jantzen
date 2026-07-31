@@ -22,11 +22,11 @@
   "WPfr": null,
   "image_ref": "Lefebvre-bd-47_15_§1",
   "terme_jantzen_bat": [
-    "lucarne",
     "façade",
+    "lucarne",
     "brique",
-    "fenetre",
-    "décor"
+    "décor",
+    "fenetre"
   ],
   "photos": [
     {
@@ -34,7 +34,8 @@
       "IndexJantzen": [
         "brique",
         "façade"
-      ]
+      ],
+      "dateCapture": "2005:03:21"
     },
     {
       "id_pic": "Lefebvre-bd-47_15_§2",
@@ -43,7 +44,8 @@
         "décor",
         "fenetre",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2005:03:21"
     }
   ]
 }

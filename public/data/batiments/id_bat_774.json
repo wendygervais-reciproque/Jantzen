@@ -22,9 +22,9 @@
   "WPfr": null,
   "image_ref": "Pantheon-pl-13_5_§1",
   "terme_jantzen_bat": [
-    "lucarne",
     "verrière",
-    "porte-fer"
+    "porte-fer",
+    "lucarne"
   ],
   "photos": [
     {
@@ -32,13 +32,15 @@
       "IndexJantzen": [
         "lucarne",
         "verrière"
-      ]
+      ],
+      "dateCapture": "2006:06:06"
     },
     {
       "id_pic": "Pantheon-pl-13_5_§2",
       "IndexJantzen": [
         "porte-fer"
-      ]
+      ],
+      "dateCapture": "2005:08:29"
     }
   ]
 }

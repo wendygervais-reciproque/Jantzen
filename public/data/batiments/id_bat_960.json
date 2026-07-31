@@ -27,15 +27,15 @@
   "WPfr": null,
   "image_ref": "Raspail-143_6_§1",
   "terme_jantzen_bat": [
-    "façade-d'angle",
-    "lucarne-d'angle",
-    "fenetre",
-    "dome",
+    "console",
     "fenetre-d'angle",
     "sculpture",
     "clé",
-    "console",
-    "balcon"
+    "fenetre",
+    "façade-d'angle",
+    "balcon",
+    "lucarne-d'angle",
+    "dome"
   ],
   "photos": [
     {
@@ -43,56 +43,64 @@
       "IndexJantzen": [
         "dome",
         "façade-d'angle"
-      ]
+      ],
+      "dateCapture": "2006:04:03"
     },
     {
       "id_pic": "Raspail-143_6_§10",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:09:04"
     },
     {
       "id_pic": "Raspail-143_6_§11",
       "IndexJantzen": [
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:09:11"
     },
     {
       "id_pic": "Raspail-143_6_§13",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:09:04"
     },
     {
       "id_pic": "Raspail-143_6_§14",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:09:04"
     },
     {
       "id_pic": "Raspail-143_6_§15",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:04:03"
     },
     {
       "id_pic": "Raspail-143_6_§16",
       "IndexJantzen": [
         "clé",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:04:03"
     },
     {
       "id_pic": "Raspail-143_6_§2",
       "IndexJantzen": [
         "dome",
         "fenetre-d'angle"
-      ]
+      ],
+      "dateCapture": "2006:04:03"
     },
     {
       "id_pic": "Raspail-143_6_§3",
@@ -100,35 +108,40 @@
         "balcon",
         "dome",
         "fenetre-d'angle"
-      ]
+      ],
+      "dateCapture": "2006:03:27"
     },
     {
       "id_pic": "Raspail-143_6_§5",
       "IndexJantzen": [
         "dome",
         "lucarne-d'angle"
-      ]
+      ],
+      "dateCapture": "2005:06:13"
     },
     {
       "id_pic": "Raspail-143_6_§6",
       "IndexJantzen": [
         "dome",
         "lucarne-d'angle"
-      ]
+      ],
+      "dateCapture": "2005:06:13"
     },
     {
       "id_pic": "Raspail-143_6_§7",
       "IndexJantzen": [
         "dome",
         "lucarne-d'angle"
-      ]
+      ],
+      "dateCapture": "2006:03:13"
     },
     {
       "id_pic": "Raspail-143_6_§8",
       "IndexJantzen": [
         "dome",
         "lucarne-d'angle"
-      ]
+      ],
+      "dateCapture": "2005:06:13"
     }
   ]
 }

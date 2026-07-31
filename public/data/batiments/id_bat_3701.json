@@ -27,9 +27,9 @@
   "WPfr": null,
   "image_ref": "St-Germain-83_6_§1",
   "terme_jantzen_bat": [
-    "colonne",
     "façade",
-    "fenetre"
+    "fenetre",
+    "colonne"
   ],
   "photos": [
     {
@@ -37,14 +37,16 @@
       "IndexJantzen": [
         "colonne",
         "façade"
-      ]
+      ],
+      "dateCapture": "2010:06:05"
     },
     {
       "id_pic": "St-Germain-83_6_§2",
       "IndexJantzen": [
         "colonne",
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2010:06:05"
     }
   ]
 }

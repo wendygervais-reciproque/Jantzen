@@ -27,10 +27,10 @@
   "WPfr": null,
   "image_ref": "Tournon-6_6_§1",
   "terme_jantzen_bat": [
-    "lucarne",
     "porte-bois",
     "fronton",
-    "sculpture"
+    "sculpture",
+    "lucarne"
   ],
   "photos": [
     {
@@ -38,26 +38,30 @@
       "IndexJantzen": [
         "fronton",
         "porte-bois"
-      ]
+      ],
+      "dateCapture": "2005:03:20"
     },
     {
       "id_pic": "Tournon-6_6_§2",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:06:06"
     },
     {
       "id_pic": "Tournon-6_6_§3",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2005:03:20"
     },
     {
       "id_pic": "Tournon-6_6_§4",
       "IndexJantzen": [
         "fronton",
         "porte-bois"
-      ]
+      ],
+      "dateCapture": "2006:06:06"
     }
   ]
 }

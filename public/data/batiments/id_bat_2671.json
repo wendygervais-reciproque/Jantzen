@@ -22,10 +22,10 @@
   "WPfr": null,
   "image_ref": "St-Michel-44_5_§1",
   "terme_jantzen_bat": [
-    "lucarne",
-    "toiture",
     "sculpture",
-    "oeil-de-boeuf"
+    "oeil-de-boeuf",
+    "toiture",
+    "lucarne"
   ],
   "photos": [
     {
@@ -33,27 +33,31 @@
       "IndexJantzen": [
         "lucarne",
         "oeil-de-boeuf"
-      ]
+      ],
+      "dateCapture": "2006:06:06"
     },
     {
       "id_pic": "St-Michel-44_6_§1",
       "IndexJantzen": [
         "lucarne",
         "toiture"
-      ]
+      ],
+      "dateCapture": "2005:08:29"
     },
     {
       "id_pic": "St-Michel-44_6_§2",
       "IndexJantzen": [
         "lucarne",
         "oeil-de-boeuf"
-      ]
+      ],
+      "dateCapture": "2005:08:29"
     },
     {
       "id_pic": "St-Michel-44_6_§3",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:08:29"
     }
   ]
 }

@@ -1,0 +1,53 @@
+{
+  "id_bat": 307,
+  "libelle": "10 rue Daviel",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 693,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1914",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "10 rue Daviel",
+    "numero": "10",
+    "voie": "rue Daviel"
+  },
+  "arrondissement": 13,
+  "coordonnees": {
+    "latitude": "48.827808",
+    "longitude": "2.346329"
+  },
+  "id_pss": 22240,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 3625,
+  "terme_jantzen_bat": [
+    "façade",
+    "porte-bois",
+    "pignon",
+    "brique"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_3625",
+      "IndexJantzen": [
+        "brique",
+        "façade",
+        "pignon"
+      ]
+    },
+    {
+      "id_pic": "image_3626",
+      "IndexJantzen": [
+        "brique",
+        "façade",
+        "porte-bois"
+      ]
+    }
+  ]
+}

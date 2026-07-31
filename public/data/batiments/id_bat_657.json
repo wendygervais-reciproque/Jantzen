@@ -28,41 +28,45 @@
   "image_ref": "Cardinal-Mercier-12_9_§1",
   "terme_jantzen_bat": [
     "façade",
-    "fenetre",
+    "verrière",
+    "garde-corps",
     "sculpture",
     "clé",
-    "balcon",
+    "fenetre",
     "colonne",
-    "porte-bois",
-    "verrière",
-    "garde-corps"
+    "balcon",
+    "porte-bois"
   ],
   "photos": [
     {
       "id_pic": "Cardinal-Mercier-12_9_§1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "dateCapture": "2006:05:04"
     },
     {
       "id_pic": "Cardinal-Mercier-12_9_§10",
       "IndexJantzen": [
         "fenetre",
         "porte-bois"
-      ]
+      ],
+      "dateCapture": "2005:05:21"
     },
     {
       "id_pic": "Cardinal-Mercier-12_9_§11",
       "IndexJantzen": [
         "porte-bois",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:08:09"
     },
     {
       "id_pic": "Cardinal-Mercier-12_9_§2",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "dateCapture": "2006:05:04"
     },
     {
       "id_pic": "Cardinal-Mercier-12_9_§3",
@@ -70,7 +74,8 @@
         "colonne",
         "fenetre",
         "verrière"
-      ]
+      ],
+      "dateCapture": "2005:05:21"
     },
     {
       "id_pic": "Cardinal-Mercier-12_9_§4",
@@ -78,35 +83,40 @@
         "colonne",
         "fenetre",
         "garde-corps"
-      ]
+      ],
+      "dateCapture": "2005:05:21"
     },
     {
       "id_pic": "Cardinal-Mercier-12_9_§5",
       "IndexJantzen": [
         "balcon",
         "garde-corps"
-      ]
+      ],
+      "dateCapture": "2005:05:21"
     },
     {
       "id_pic": "Cardinal-Mercier-12_9_§7",
       "IndexJantzen": [
         "clé",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:08:09"
     },
     {
       "id_pic": "Cardinal-Mercier-12_9_§8",
       "IndexJantzen": [
         "fenetre",
         "porte-bois"
-      ]
+      ],
+      "dateCapture": "2005:08:09"
     },
     {
       "id_pic": "Cardinal-Mercier-12_9_§9",
       "IndexJantzen": [
         "fenetre",
         "porte-bois"
-      ]
+      ],
+      "dateCapture": "2005:08:09"
     }
   ]
 }

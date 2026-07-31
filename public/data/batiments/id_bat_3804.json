@@ -27,10 +27,10 @@
   "WPfr": null,
   "image_ref": "Medicis-9_6_§1",
   "terme_jantzen_bat": [
-    "colonne",
-    "sculpture",
     "porte-bois",
-    "porte"
+    "porte",
+    "sculpture",
+    "colonne"
   ],
   "photos": [
     {
@@ -38,14 +38,16 @@
       "IndexJantzen": [
         "colonne",
         "porte-bois"
-      ]
+      ],
+      "dateCapture": "2008:04:07"
     },
     {
       "id_pic": "Medicis-9_6_§2",
       "IndexJantzen": [
         "porte",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2008:04:07"
     }
   ]
 }

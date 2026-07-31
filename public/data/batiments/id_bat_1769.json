@@ -27,10 +27,10 @@
   "WPfr": null,
   "image_ref": "Pereire-237_17_§1",
   "terme_jantzen_bat": [
-    "façade-d'angle",
-    "fenetre",
     "décor",
     "sculpture",
+    "fenetre",
+    "façade-d'angle",
     "colonne"
   ],
   "photos": [
@@ -38,13 +38,15 @@
       "id_pic": "Pereire-237_17_§1",
       "IndexJantzen": [
         "façade-d'angle"
-      ]
+      ],
+      "dateCapture": "2009:08:31"
     },
     {
       "id_pic": "Pereire-237_17_§2",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2009:08:31"
     },
     {
       "id_pic": "Pereire-237_17_§3",
@@ -53,7 +55,8 @@
         "décor",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2009:08:31"
     },
     {
       "id_pic": "Pereire-237_17_§4",
@@ -62,7 +65,8 @@
         "décor",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2009:08:31"
     }
   ]
 }

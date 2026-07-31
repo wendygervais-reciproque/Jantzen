@@ -27,20 +27,20 @@
   "WPfr": null,
   "image_ref": "Jasmin-4_16_§1",
   "terme_jantzen_bat": [
-    "porte",
-    "façade-d'angle",
     "façade",
-    "porte-fer",
-    "fenetre",
-    "décor",
-    "fenetre-d'angle",
-    "sculpture",
-    "atlante",
     "console",
-    "pignon",
-    "balcon",
+    "garde-corps",
+    "fenetre-d'angle",
     "porte-fer-hall",
-    "garde-corps"
+    "décor",
+    "porte",
+    "sculpture",
+    "fenetre",
+    "porte-fer",
+    "façade-d'angle",
+    "balcon",
+    "atlante",
+    "pignon"
   ],
   "photos": [
     {
@@ -49,7 +49,8 @@
         "façade-d'angle",
         "pignon",
         "porte"
-      ]
+      ],
+      "dateCapture": "2006:07:01"
     },
     {
       "id_pic": "Jasmin-4_16_§10",
@@ -57,19 +58,22 @@
         "fenetre",
         "garde-corps",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:07:01"
     },
     {
       "id_pic": "Jasmin-4_16_§11",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "dateCapture": "2006:07:01"
     },
     {
       "id_pic": "Jasmin-4_16_§13",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "dateCapture": "2005:05:18"
     },
     {
       "id_pic": "Jasmin-4_16_§14",
@@ -77,14 +81,16 @@
         "décor",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:05:18"
     },
     {
       "id_pic": "Jasmin-4_16_§15",
       "IndexJantzen": [
         "fenetre-d'angle",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:05:18"
     },
     {
       "id_pic": "Jasmin-4_16_§16",
@@ -92,7 +98,8 @@
         "atlante",
         "console",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:05:18"
     },
     {
       "id_pic": "Jasmin-4_16_§17",
@@ -100,46 +107,53 @@
         "atlante",
         "console",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:05:18"
     },
     {
       "id_pic": "Jasmin-4_16_§19",
       "IndexJantzen": [
         "balcon",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:07:01"
     },
     {
       "id_pic": "Jasmin-4_16_§2",
       "IndexJantzen": [
         "façade-d'angle",
         "pignon"
-      ]
+      ],
+      "dateCapture": null
     },
     {
       "id_pic": "Jasmin-4_16_§20",
       "IndexJantzen": [
         "balcon",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:07:01"
     },
     {
       "id_pic": "Jasmin-4_16_§21",
       "IndexJantzen": [
         "porte-fer"
-      ]
+      ],
+      "dateCapture": "2006:07:01"
     },
     {
       "id_pic": "Jasmin-4_16_§23",
       "IndexJantzen": [
         "porte-fer-hall"
-      ]
+      ],
+      "dateCapture": "2005:05:18"
     },
     {
       "id_pic": "Jasmin-4_16_§4",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2006:07:01"
     },
     {
       "id_pic": "Jasmin-4_16_§5",
@@ -147,7 +161,8 @@
         "fenetre",
         "garde-corps",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:07:01"
     },
     {
       "id_pic": "Jasmin-4_16_§6",
@@ -155,21 +170,24 @@
         "balcon",
         "garde-corps",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:05:18"
     },
     {
       "id_pic": "Jasmin-4_16_§7",
       "IndexJantzen": [
         "balcon",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:05:18"
     },
     {
       "id_pic": "Jasmin-4_16_§8",
       "IndexJantzen": [
         "balcon",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:07:01"
     },
     {
       "id_pic": "Jasmin-4_16_§9",
@@ -177,7 +195,8 @@
         "fenetre",
         "garde-corps",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:07:01"
     }
   ]
 }

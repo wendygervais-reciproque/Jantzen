@@ -1,0 +1,55 @@
+{
+  "id_bat": 244,
+  "libelle": "1 rue Ferdinand-Flocon",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "1 rue Ferdinand-Flocon",
+    "numero": "1",
+    "voie": "rue Ferdinand-Flocon"
+  },
+  "arrondissement": 18,
+  "coordonnees": {
+    "latitude": "48.89101",
+    "longitude": "2.345496"
+  },
+  "id_pss": 17396,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 4515,
+  "terme_jantzen_bat": [
+    "céramique",
+    "brique",
+    "fenetre",
+    "fenetre-d'angle",
+    "balcon"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_4515",
+      "IndexJantzen": [
+        "brique",
+        "fenetre-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_4516",
+      "IndexJantzen": [
+        "balcon",
+        "brique"
+      ]
+    },
+    {
+      "id_pic": "image_4517",
+      "IndexJantzen": [
+        "brique",
+        "céramique",
+        "fenetre"
+      ]
+    }
+  ]
+}

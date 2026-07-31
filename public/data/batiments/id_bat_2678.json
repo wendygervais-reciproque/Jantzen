@@ -27,10 +27,10 @@
   "WPfr": null,
   "image_ref": "Faisanderie-44_16_§1",
   "terme_jantzen_bat": [
-    "façade-d'angle",
     "fenetre-d'angle",
-    "sculpture",
     "tourelle",
+    "sculpture",
+    "façade-d'angle",
     "balcon"
   ],
   "photos": [
@@ -39,7 +39,8 @@
       "IndexJantzen": [
         "façade-d'angle",
         "tourelle"
-      ]
+      ],
+      "dateCapture": "2004:05:21"
     },
     {
       "id_pic": "Faisanderie-44_16_§2",
@@ -47,7 +48,8 @@
         "balcon",
         "fenetre-d'angle",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2004:05:21"
     }
   ]
 }

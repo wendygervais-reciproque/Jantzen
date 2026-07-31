@@ -1,0 +1,111 @@
+{
+  "id_bat": 2253,
+  "libelle": "33 rue du Champ-de-Mars",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 509,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "vers 1900",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "33 rue du Champ-de-Mars",
+    "numero": "33",
+    "voie": "rue du Champ-de-Mars"
+  },
+  "arrondissement": 7,
+  "coordonnees": {
+    "latitude": "48.855911",
+    "longitude": "2.303772"
+  },
+  "id_pss": 12330,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 2181,
+  "terme_jantzen_bat": [
+    "lucarne",
+    "façade",
+    "décor",
+    "sculpture",
+    "fenetre",
+    "porte-fer",
+    "porte-bois",
+    "marquise"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_2181",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_2182",
+      "IndexJantzen": [
+        "marquise",
+        "porte-fer"
+      ]
+    },
+    {
+      "id_pic": "image_2183",
+      "IndexJantzen": [
+        "porte-bois"
+      ]
+    },
+    {
+      "id_pic": "image_2184",
+      "IndexJantzen": [
+        "décor",
+        "façade",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_2185",
+      "IndexJantzen": [
+        "décor",
+        "fenetre",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_2186",
+      "IndexJantzen": [
+        "fenetre",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_2187",
+      "IndexJantzen": [
+        "fenetre",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_2188",
+      "IndexJantzen": [
+        "fenetre",
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_2189",
+      "IndexJantzen": [
+        "marquise",
+        "porte-fer"
+      ]
+    },
+    {
+      "id_pic": "image_2190",
+      "IndexJantzen": [
+        "marquise",
+        "porte-fer"
+      ]
+    }
+  ]
+}

@@ -22,10 +22,10 @@
   "WPfr": null,
   "image_ref": "Kleber-33_16_§1",
   "terme_jantzen_bat": [
-    "lucarne",
-    "fenetre",
     "oeil-de-boeuf",
+    "lucarne",
     "décor",
+    "fenetre",
     "porte-bois"
   ],
   "photos": [
@@ -34,20 +34,23 @@
       "IndexJantzen": [
         "lucarne",
         "oeil-de-boeuf"
-      ]
+      ],
+      "dateCapture": "2005:03:16"
     },
     {
       "id_pic": "Kleber-33_16_§2",
       "IndexJantzen": [
         "décor",
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2005:03:16"
     },
     {
       "id_pic": "Kleber-33_16_§3",
       "IndexJantzen": [
         "porte-bois"
-      ]
+      ],
+      "dateCapture": "2004:03:17"
     }
   ]
 }

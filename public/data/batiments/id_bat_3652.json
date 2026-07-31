@@ -28,8 +28,8 @@
   "image_ref": "Murillo-8_8_§1",
   "terme_jantzen_bat": [
     "fenetre",
-    "lucarne",
-    "toiture"
+    "toiture",
+    "lucarne"
   ],
   "photos": [
     {
@@ -37,19 +37,22 @@
       "IndexJantzen": [
         "fenetre",
         "toiture"
-      ]
+      ],
+      "dateCapture": "2004:09:04"
     },
     {
       "id_pic": "Murillo-8_8_§2",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2004:09:04"
     },
     {
       "id_pic": "Murillo-8_8_§3",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2004:09:04"
     }
   ]
 }

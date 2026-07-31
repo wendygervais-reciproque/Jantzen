@@ -27,12 +27,12 @@
   "WPfr": null,
   "image_ref": "Reaumur-124_2_§1",
   "terme_jantzen_bat": [
-    "métal",
-    "porte-fer",
-    "fenetre",
     "console",
     "verrière",
-    "oriel"
+    "oriel",
+    "fenetre",
+    "porte-fer",
+    "métal"
   ],
   "photos": [
     {
@@ -41,7 +41,8 @@
         "fenetre",
         "métal",
         "oriel"
-      ]
+      ],
+      "dateCapture": "2004:08:21"
     },
     {
       "id_pic": "Reaumur-124_2_§2",
@@ -49,7 +50,8 @@
         "console",
         "métal",
         "oriel"
-      ]
+      ],
+      "dateCapture": "2004:08:21"
     },
     {
       "id_pic": "Reaumur-124_2_§3",
@@ -58,7 +60,8 @@
         "métal",
         "oriel",
         "verrière"
-      ]
+      ],
+      "dateCapture": "2004:04:25"
     },
     {
       "id_pic": "Reaumur-124_2_§4",
@@ -67,7 +70,8 @@
         "métal",
         "oriel",
         "verrière"
-      ]
+      ],
+      "dateCapture": "2004:08:21"
     },
     {
       "id_pic": "Reaumur-124_2_§5-Rs",
@@ -76,7 +80,8 @@
         "métal",
         "oriel",
         "verrière"
-      ]
+      ],
+      "dateCapture": "2011:05:07"
     },
     {
       "id_pic": "Reaumur-124_2_§6-Rs",
@@ -84,13 +89,15 @@
         "métal",
         "oriel",
         "verrière"
-      ]
+      ],
+      "dateCapture": "2011:05:07"
     },
     {
       "id_pic": "Reaumur-124_2_§7",
       "IndexJantzen": [
         "porte-fer"
-      ]
+      ],
+      "dateCapture": "2011:05:07"
     }
   ]
 }

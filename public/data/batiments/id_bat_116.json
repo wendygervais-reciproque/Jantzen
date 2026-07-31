@@ -18,16 +18,16 @@
   "WPfr": "Palais-Royal",
   "image_ref": "Palais-Royal-Pl_1_§1",
   "terme_jantzen_bat": [
-    "lucarne",
     "façade",
-    "toiture",
-    "fronton",
-    "fenetre",
+    "lucarne",
     "décor",
     "sculpture",
-    "balcon",
+    "fronton",
+    "fenetre",
+    "pilastre",
     "colonne",
-    "pilastre"
+    "balcon",
+    "toiture"
   ],
   "photos": [
     {
@@ -35,13 +35,15 @@
       "IndexJantzen": [
         "colonne",
         "façade"
-      ]
+      ],
+      "dateCapture": "2005:08:30"
     },
     {
       "id_pic": "Palais-Royal-Pl_1_§10",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2008:09:18"
     },
     {
       "id_pic": "Palais-Royal-Pl_1_§11",
@@ -50,37 +52,43 @@
         "fenetre",
         "lucarne",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2008:09:18"
     },
     {
       "id_pic": "Palais-Royal-Pl_1_§12",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:08:30"
     },
     {
       "id_pic": "Palais-Royal-Pl_1_§13",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:07:13"
     },
     {
       "id_pic": "Palais-Royal-Pl_1_§15",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:08:30"
     },
     {
       "id_pic": "Palais-Royal-Pl_1_§16",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:08:30"
     },
     {
       "id_pic": "Palais-Royal-Pl_1_§17",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:08:30"
     },
     {
       "id_pic": "Palais-Royal-Pl_1_§18",
@@ -88,52 +96,60 @@
         "fronton",
         "lucarne",
         "toiture"
-      ]
+      ],
+      "dateCapture": "2005:08:30"
     },
     {
       "id_pic": "Palais-Royal-Pl_1_§2",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "dateCapture": "2005:08:30"
     },
     {
       "id_pic": "Palais-Royal-Pl_1_§3",
       "IndexJantzen": [
         "balcon",
         "pilastre"
-      ]
+      ],
+      "dateCapture": "2005:08:30"
     },
     {
       "id_pic": "Palais-Royal-Pl_1_§4",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2005:08:30"
     },
     {
       "id_pic": "Palais-Royal-Pl_1_§5",
       "IndexJantzen": [
         "fenetre",
         "pilastre"
-      ]
+      ],
+      "dateCapture": "2005:08:30"
     },
     {
       "id_pic": "Palais-Royal-Pl_1_§6",
       "IndexJantzen": [
         "fenetre",
         "pilastre"
-      ]
+      ],
+      "dateCapture": "2008:09:18"
     },
     {
       "id_pic": "Palais-Royal-Pl_1_§7",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "dateCapture": "2008:09:18"
     },
     {
       "id_pic": "Palais-Royal-Pl_1_§8",
       "IndexJantzen": [
         "colonne"
-      ]
+      ],
+      "dateCapture": "2008:09:18"
     },
     {
       "id_pic": "Palais-Royal-Pl_1_§9",
@@ -141,7 +157,8 @@
         "décor",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2008:09:18"
     }
   ]
 }

@@ -1,0 +1,52 @@
+{
+  "id_bat": 2506,
+  "libelle": "4 rue du Lunain",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": "1898",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "4 rue du Lunain",
+    "numero": "4",
+    "voie": "rue du Lunain"
+  },
+  "arrondissement": 14,
+  "coordonnees": {
+    "latitude": "48.827454",
+    "longitude": "2.329128"
+  },
+  "id_pss": 29008,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 8846,
+  "terme_jantzen_bat": [
+    "fenetre",
+    "porte-bois",
+    "décor",
+    "clé"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_8846",
+      "IndexJantzen": [
+        "clé",
+        "décor",
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_8847",
+      "IndexJantzen": [
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_8848",
+      "IndexJantzen": [
+        "porte-bois"
+      ]
+    }
+  ]
+}

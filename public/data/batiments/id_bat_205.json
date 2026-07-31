@@ -28,10 +28,10 @@
   "image_ref": "Caumartin-1_9_§1",
   "terme_jantzen_bat": [
     "lucarne",
-    "façade-d'angle",
-    "lucarne-d'angle",
     "fenetre-d'angle",
-    "balcon"
+    "façade-d'angle",
+    "balcon",
+    "lucarne-d'angle"
   ],
   "photos": [
     {
@@ -39,21 +39,24 @@
       "IndexJantzen": [
         "façade-d'angle",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2006:03:23"
     },
     {
       "id_pic": "Caumartin-1_9_§2",
       "IndexJantzen": [
         "fenetre-d'angle",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2006:03:23"
     },
     {
       "id_pic": "Caumartin-1_9_§3",
       "IndexJantzen": [
         "balcon",
         "lucarne-d'angle"
-      ]
+      ],
+      "dateCapture": "2006:03:23"
     }
   ]
 }

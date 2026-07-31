@@ -1,0 +1,95 @@
+{
+  "id_bat": 2247,
+  "libelle": "33 avenue Rapp",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 638,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1898",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "33 avenue Rapp",
+    "numero": "33",
+    "voie": "avenue Rapp"
+  },
+  "arrondissement": 7,
+  "coordonnees": {
+    "latitude": "48.858858",
+    "longitude": "2.300807"
+  },
+  "id_pss": 74050,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 12291,
+  "terme_jantzen_bat": [
+    "façade",
+    "décor",
+    "fenetre",
+    "sculpture",
+    "balcon",
+    "garde-corps",
+    "console"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_12291",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_12292",
+      "IndexJantzen": [
+        "balcon",
+        "garde-corps"
+      ]
+    },
+    {
+      "id_pic": "image_12293",
+      "IndexJantzen": [
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_12294",
+      "IndexJantzen": [
+        "décor",
+        "fenetre",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_12295",
+      "IndexJantzen": [
+        "fenetre",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_12296",
+      "IndexJantzen": [
+        "console",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_12297",
+      "IndexJantzen": [
+        "console",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_12298",
+      "IndexJantzen": [
+        "balcon",
+        "garde-corps"
+      ]
+    }
+  ]
+}

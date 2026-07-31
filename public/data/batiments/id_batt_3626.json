@@ -1,0 +1,124 @@
+{
+  "id_bat": 3626,
+  "libelle": "8 rue de Richelieu",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 142,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1908",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "8 rue de Richelieu",
+    "numero": "8",
+    "voie": "rue de Richelieu"
+  },
+  "arrondissement": 1,
+  "coordonnees": {
+    "latitude": "48.86401",
+    "longitude": "2.336067"
+  },
+  "id_pss": 12513,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 13024,
+  "terme_jantzen_bat": [
+    "façade-d'angle",
+    "porte",
+    "loggia",
+    "lucarne",
+    "lucarne-d'angle",
+    "colonne",
+    "décor",
+    "sculpture",
+    "fenetre-d'angle",
+    "balcon",
+    "pignon"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_13024",
+      "IndexJantzen": [
+        "façade-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_13025",
+      "IndexJantzen": [
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_13026",
+      "IndexJantzen": [
+        "lucarne-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_13027",
+      "IndexJantzen": [
+        "lucarne-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_13028",
+      "IndexJantzen": [
+        "façade-d'angle",
+        "porte"
+      ]
+    },
+    {
+      "id_pic": "image_13029",
+      "IndexJantzen": [
+        "fenetre-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_13030",
+      "IndexJantzen": [
+        "façade-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_13031",
+      "IndexJantzen": [
+        "fenetre-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_13032",
+      "IndexJantzen": [
+        "décor",
+        "lucarne-d'angle",
+        "pignon",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_13033",
+      "IndexJantzen": [
+        "lucarne-d'angle",
+        "pignon"
+      ]
+    },
+    {
+      "id_pic": "image_13034",
+      "IndexJantzen": [
+        "colonne",
+        "loggia",
+        "lucarne-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_13035",
+      "IndexJantzen": [
+        "balcon",
+        "lucarne-d'angle"
+      ]
+    }
+  ]
+}

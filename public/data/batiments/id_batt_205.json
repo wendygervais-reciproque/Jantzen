@@ -1,0 +1,59 @@
+{
+  "id_bat": 205,
+  "libelle": "1 rue de Caumartin",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 184,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1779",
+  "periode": [
+    "1760-1829"
+  ],
+  "adresse": {
+    "affichage": "1 rue de Caumartin",
+    "numero": "1",
+    "voie": "rue de Caumartin"
+  },
+  "arrondissement": 9,
+  "coordonnees": {
+    "latitude": "48.870269",
+    "longitude": "2.327937"
+  },
+  "id_pss": 17485,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 2081,
+  "terme_jantzen_bat": [
+    "façade-d'angle",
+    "lucarne",
+    "lucarne-d'angle",
+    "fenetre-d'angle",
+    "balcon"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_2081",
+      "IndexJantzen": [
+        "façade-d'angle",
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_2082",
+      "IndexJantzen": [
+        "fenetre-d'angle",
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_2083",
+      "IndexJantzen": [
+        "balcon",
+        "lucarne-d'angle"
+      ]
+    }
+  ]
+}

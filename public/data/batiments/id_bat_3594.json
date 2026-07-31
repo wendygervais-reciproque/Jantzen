@@ -27,11 +27,11 @@
   "WPfr": null,
   "image_ref": "Breteuil-pl-8_15_§1",
   "terme_jantzen_bat": [
-    "toiture",
+    "sculpture",
     "façade-d'angle",
     "lucarne-d'angle",
-    "dome",
-    "sculpture"
+    "toiture",
+    "dome"
   ],
   "photos": [
     {
@@ -39,7 +39,8 @@
       "IndexJantzen": [
         "dome",
         "façade-d'angle"
-      ]
+      ],
+      "dateCapture": "2006:04:11"
     },
     {
       "id_pic": "Breteuil-pl-8_15_§1b",
@@ -47,35 +48,40 @@
         "dome",
         "lucarne-d'angle",
         "toiture"
-      ]
+      ],
+      "dateCapture": "2006:04:11"
     },
     {
       "id_pic": "Breteuil-pl-8_15_§2",
       "IndexJantzen": [
         "dome",
         "lucarne-d'angle"
-      ]
+      ],
+      "dateCapture": "2006:04:04"
     },
     {
       "id_pic": "Breteuil-pl-8_15_§3",
       "IndexJantzen": [
         "dome",
         "lucarne-d'angle"
-      ]
+      ],
+      "dateCapture": "2006:04:04"
     },
     {
       "id_pic": "Breteuil-pl-8_15_§4",
       "IndexJantzen": [
         "dome",
         "lucarne-d'angle"
-      ]
+      ],
+      "dateCapture": "2006:04:11"
     },
     {
       "id_pic": "Breteuil-pl-8_15_§6",
       "IndexJantzen": [
         "dome",
         "lucarne-d'angle"
-      ]
+      ],
+      "dateCapture": "2006:04:11"
     },
     {
       "id_pic": "Breteuil-pl-8_15_§7",
@@ -83,7 +89,8 @@
         "dome",
         "lucarne-d'angle",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:04:11"
     }
   ]
 }

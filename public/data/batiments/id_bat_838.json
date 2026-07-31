@@ -22,17 +22,17 @@
   "WPfr": null,
   "image_ref": "Haussmann-134_8_§1",
   "terme_jantzen_bat": [
-    "lucarne",
-    "lucarne-d'angle",
-    "fenetre",
+    "console",
     "oeil-de-boeuf",
-    "dome",
+    "lucarne",
     "fenetre-d'angle",
     "sculpture",
     "clé",
-    "console",
+    "fenetre",
+    "pilastre",
     "balcon",
-    "pilastre"
+    "lucarne-d'angle",
+    "dome"
   ],
   "photos": [
     {
@@ -42,7 +42,8 @@
         "dome",
         "fenetre-d'angle",
         "pilastre"
-      ]
+      ],
+      "dateCapture": "2006:03:23"
     },
     {
       "id_pic": "Haussmann-134_8_§2",
@@ -51,18 +52,21 @@
         "dome",
         "lucarne-d'angle",
         "oeil-de-boeuf"
-      ]
+      ],
+      "dateCapture": "2006:03:23"
     },
     {
       "id_pic": "Haussmann-134_8_§3",
       "IndexJantzen": [
         "lucarne",
         "oeil-de-boeuf"
-      ]
+      ],
+      "dateCapture": "2006:03:23"
     },
     {
       "id_pic": "Haussmann-134_8_§4",
-      "IndexJantzen": []
+      "IndexJantzen": [],
+      "dateCapture": "2012:04:30"
     },
     {
       "id_pic": "Haussmann-134_8_§5",
@@ -70,25 +74,29 @@
         "clé",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2012:04:30"
     },
     {
       "id_pic": "Haussmann-134_8_§6",
-      "IndexJantzen": []
+      "IndexJantzen": [],
+      "dateCapture": "2012:04:30"
     },
     {
       "id_pic": "Haussmann-134_8_§7",
       "IndexJantzen": [
         "clé",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:03:23"
     },
     {
       "id_pic": "Haussmann-134_8_3_DxO",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2012:04:30"
     }
   ]
 }

@@ -22,11 +22,11 @@
   "WPfr": null,
   "image_ref": "Gaillon-4-6_2_§1b",
   "terme_jantzen_bat": [
-    "porte-fer",
-    "fenetre",
+    "console",
     "sculpture",
     "clé",
-    "console",
+    "fenetre",
+    "porte-fer",
     "porte-bois"
   ],
   "photos": [
@@ -35,26 +35,30 @@
       "IndexJantzen": [
         "fenetre",
         "porte-fer"
-      ]
+      ],
+      "dateCapture": null
     },
     {
       "id_pic": "Gaillon-4-6_2_§2",
       "IndexJantzen": [
         "porte-bois"
-      ]
+      ],
+      "dateCapture": "2005:06:19"
     },
     {
       "id_pic": "Gaillon-4-6_2_§3b",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "dateCapture": null
     },
     {
       "id_pic": "Gaillon-4-6_2_§4b",
       "IndexJantzen": [
         "clé",
         "porte-bois"
-      ]
+      ],
+      "dateCapture": "2005:06:19"
     },
     {
       "id_pic": "Gaillon-4-6_2_§5",
@@ -62,14 +66,16 @@
         "clé",
         "porte-bois",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:06:19"
     },
     {
       "id_pic": "Gaillon-4-6_2_§6",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:06:19"
     }
   ]
 }

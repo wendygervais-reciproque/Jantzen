@@ -27,11 +27,11 @@
   "WPfr": null,
   "image_ref": "Duquesne-21_7_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "sculpture",
     "console",
+    "garde-corps",
+    "sculpture",
     "chimère",
-    "garde-corps"
+    "fenetre"
   ],
   "photos": [
     {
@@ -41,7 +41,8 @@
         "fenetre",
         "garde-corps",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2003:11:11"
     },
     {
       "id_pic": "Duquesne-21_7_§2",
@@ -49,7 +50,8 @@
         "chimère",
         "console",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2003:11:11"
     },
     {
       "id_pic": "Duquesne-21_7_§3-14",
@@ -57,7 +59,8 @@
         "chimère",
         "console",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2003:11:10"
     }
   ]
 }

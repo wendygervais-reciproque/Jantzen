@@ -27,16 +27,16 @@
   "WPfr": null,
   "image_ref": "Fessart-8_19_§1",
   "terme_jantzen_bat": [
-    "lucarne",
-    "toiture",
-    "lucarne-d'angle",
-    "brique",
-    "fenetre",
-    "fenetre-d'angle",
-    "sculpture",
     "console",
+    "lucarne",
+    "fenetre-d'angle",
+    "brique",
+    "sculpture",
+    "fenetre",
+    "lucarne-d'angle",
     "balcon",
-    "porte-bois"
+    "porte-bois",
+    "toiture"
   ],
   "photos": [
     {
@@ -45,7 +45,8 @@
         "brique",
         "fenetre-d'angle",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2005:07:21"
     },
     {
       "id_pic": "Fessart-8_19_§2",
@@ -53,41 +54,47 @@
         "brique",
         "lucarne-d'angle",
         "toiture"
-      ]
+      ],
+      "dateCapture": "2005:07:21"
     },
     {
       "id_pic": "Fessart-8_19_§3",
       "IndexJantzen": [
         "balcon",
         "brique"
-      ]
+      ],
+      "dateCapture": "2005:07:21"
     },
     {
       "id_pic": "Fessart-8_19_§5",
       "IndexJantzen": [
         "console",
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2005:07:21"
     },
     {
       "id_pic": "Fessart-8_19_§6",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:07:21"
     },
     {
       "id_pic": "Fessart-8_19_§7",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:07:21"
     },
     {
       "id_pic": "Fessart-8_19_§8",
       "IndexJantzen": [
         "porte-bois"
-      ]
+      ],
+      "dateCapture": "2005:07:21"
     }
   ]
 }

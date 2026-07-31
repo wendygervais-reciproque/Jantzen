@@ -1,0 +1,120 @@
+{
+  "id_bat": 376,
+  "libelle": "101 rue Réaumur",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 10,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1898",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "101 rue Réaumur",
+    "numero": "101",
+    "voie": "rue Réaumur"
+  },
+  "arrondissement": 2,
+  "coordonnees": {
+    "latitude": "48.867775",
+    "longitude": "2.344943"
+  },
+  "id_pss": 10785,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 12654,
+  "terme_jantzen_bat": [
+    "façade-d'angle",
+    "cariatide",
+    "lucarne-d'angle",
+    "dome",
+    "sculpture",
+    "fenetre",
+    "fenetre-d'angle",
+    "balcon",
+    "fronton"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_12654",
+      "IndexJantzen": [
+        "dome",
+        "façade-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_12655",
+      "IndexJantzen": [
+        "fenetre",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_12656",
+      "IndexJantzen": [
+        "fenetre",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_12657",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_12658",
+      "IndexJantzen": [
+        "cariatide",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_12659",
+      "IndexJantzen": [
+        "fenetre-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_12660",
+      "IndexJantzen": [
+        "balcon",
+        "fronton"
+      ]
+    },
+    {
+      "id_pic": "image_12661",
+      "IndexJantzen": [
+        "dome",
+        "lucarne-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_12662",
+      "IndexJantzen": [
+        "cariatide",
+        "fenetre-d'angle",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_12663",
+      "IndexJantzen": [
+        "cariatide",
+        "fenetre-d'angle",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_12664",
+      "IndexJantzen": [
+        "cariatide",
+        "fenetre-d'angle",
+        "sculpture"
+      ]
+    }
+  ]
+}

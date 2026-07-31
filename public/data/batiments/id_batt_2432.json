@@ -1,0 +1,56 @@
+{
+  "id_bat": 2432,
+  "libelle": "3b à 7 rue Cassini",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": "1903-1906",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "3b à 7 rue Cassini",
+    "numero": "3b à 7",
+    "voie": "rue Cassini"
+  },
+  "arrondissement": 14,
+  "coordonnees": {
+    "latitude": "48.836835",
+    "longitude": "2.337727"
+  },
+  "id_pss": 30861,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 2021,
+  "terme_jantzen_bat": [
+    "façade",
+    "brique",
+    "fenetre",
+    "voie",
+    "verrière"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_2021",
+      "IndexJantzen": [
+        "brique",
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_2022",
+      "IndexJantzen": [
+        "brique",
+        "façade",
+        "voie"
+      ]
+    },
+    {
+      "id_pic": "image_2023",
+      "IndexJantzen": [
+        "brique",
+        "fenetre",
+        "verrière"
+      ]
+    }
+  ]
+}

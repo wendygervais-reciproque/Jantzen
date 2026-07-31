@@ -22,18 +22,19 @@
   "WPfr": null,
   "image_ref": "Foch-55_16_§1",
   "terme_jantzen_bat": [
-    "lucarne",
     "façade",
-    "fenetre",
+    "lucarne",
+    "porte-fer-hall",
     "sculpture",
-    "porte-fer-hall"
+    "fenetre"
   ],
   "photos": [
     {
       "id_pic": "Foch-55_16_§1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "dateCapture": "2004:06:07"
     },
     {
       "id_pic": "Foch-55_16_§2",
@@ -41,13 +42,15 @@
         "fenetre",
         "lucarne",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2004:06:07"
     },
     {
       "id_pic": "Foch-55_16_§3",
       "IndexJantzen": [
         "porte-fer-hall"
-      ]
+      ],
+      "dateCapture": "2004:06:07"
     }
   ]
 }

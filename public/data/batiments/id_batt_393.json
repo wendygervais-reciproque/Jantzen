@@ -1,0 +1,146 @@
+{
+  "id_bat": 393,
+  "libelle": "104 boulevard de Courcelles",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 485,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": null,
+  "periode": [
+    "1870-1894"
+  ],
+  "adresse": {
+    "affichage": "104 boulevard de Courcelles",
+    "numero": "104",
+    "voie": "boulevard de Courcelles"
+  },
+  "arrondissement": 17,
+  "coordonnees": {
+    "latitude": "48.879173",
+    "longitude": "2.302404"
+  },
+  "id_pss": 48825,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 3206,
+  "terme_jantzen_bat": [
+    "façade-d'angle",
+    "lucarne",
+    "oeil-de-boeuf",
+    "clé",
+    "lucarne-d'angle",
+    "colonne",
+    "toiture",
+    "sculpture",
+    "fenetre",
+    "fenetre-d'angle",
+    "balcon",
+    "garde-corps",
+    "porte-fer",
+    "console"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_3206",
+      "IndexJantzen": [
+        "façade-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_3207",
+      "IndexJantzen": [
+        "fenetre",
+        "garde-corps"
+      ]
+    },
+    {
+      "id_pic": "image_3208",
+      "IndexJantzen": [
+        "fenetre",
+        "garde-corps"
+      ]
+    },
+    {
+      "id_pic": "image_3209",
+      "IndexJantzen": [
+        "console",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_3210",
+      "IndexJantzen": [
+        "clé",
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_3211",
+      "IndexJantzen": [
+        "colonne",
+        "fenetre",
+        "porte-fer"
+      ]
+    },
+    {
+      "id_pic": "image_3212",
+      "IndexJantzen": [
+        "fenetre-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_3213",
+      "IndexJantzen": [
+        "balcon",
+        "fenetre-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_3214",
+      "IndexJantzen": [
+        "balcon",
+        "fenetre-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_3215",
+      "IndexJantzen": [
+        "colonne",
+        "lucarne-d'angle",
+        "toiture"
+      ]
+    },
+    {
+      "id_pic": "image_3216",
+      "IndexJantzen": [
+        "colonne",
+        "lucarne-d'angle",
+        "toiture"
+      ]
+    },
+    {
+      "id_pic": "image_3217",
+      "IndexJantzen": [
+        "lucarne",
+        "oeil-de-boeuf"
+      ]
+    },
+    {
+      "id_pic": "image_3218",
+      "IndexJantzen": [
+        "lucarne",
+        "oeil-de-boeuf"
+      ]
+    },
+    {
+      "id_pic": "image_3219",
+      "IndexJantzen": [
+        "lucarne",
+        "oeil-de-boeuf"
+      ]
+    }
+  ]
+}

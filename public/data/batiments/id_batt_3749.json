@@ -1,0 +1,44 @@
+{
+  "id_bat": 3749,
+  "libelle": "87 rue de Grenelle",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": [
+    "1660-1759"
+  ],
+  "adresse": {
+    "affichage": "87 rue de Grenelle",
+    "numero": "87",
+    "voie": "rue de Grenelle"
+  },
+  "arrondissement": 7,
+  "coordonnees": {
+    "latitude": "48.856207",
+    "longitude": "2.32179"
+  },
+  "id_pss": 27488,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 5782,
+  "terme_jantzen_bat": [
+    "porte-bois",
+    "lucarne",
+    "colonne"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_5782",
+      "IndexJantzen": [
+        "colonne",
+        "porte-bois"
+      ]
+    },
+    {
+      "id_pic": "image_5783",
+      "IndexJantzen": [
+        "lucarne"
+      ]
+    }
+  ]
+}

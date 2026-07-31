@@ -27,16 +27,16 @@
   "WPfr": null,
   "image_ref": "Rennes-140B_6_§1",
   "terme_jantzen_bat": [
-    "façade-d'angle",
-    "fenetre",
-    "décor",
-    "dome",
-    "fenetre-d'angle",
-    "sculpture",
     "console",
+    "garde-corps",
+    "fenetre-d'angle",
+    "décor",
+    "sculpture",
+    "fenetre",
+    "façade-d'angle",
     "balcon",
     "colonne",
-    "garde-corps"
+    "dome"
   ],
   "photos": [
     {
@@ -44,7 +44,8 @@
       "IndexJantzen": [
         "dome",
         "façade-d'angle"
-      ]
+      ],
+      "dateCapture": "2005:05:01"
     },
     {
       "id_pic": "Rennes-140B_6_§2",
@@ -55,7 +56,8 @@
         "décor",
         "fenetre-d'angle",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:05:01"
     },
     {
       "id_pic": "Rennes-140B_6_§3",
@@ -63,34 +65,39 @@
         "dome",
         "décor",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:05:01"
     },
     {
       "id_pic": "Rennes-140B_6_§4",
       "IndexJantzen": [
         "balcon"
-      ]
+      ],
+      "dateCapture": "2005:05:01"
     },
     {
       "id_pic": "Rennes-140B_6_§5",
       "IndexJantzen": [
         "balcon",
         "garde-corps"
-      ]
+      ],
+      "dateCapture": "2005:05:01"
     },
     {
       "id_pic": "Rennes-140B_6_§6",
       "IndexJantzen": [
         "balcon",
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2005:05:01"
     },
     {
       "id_pic": "Rennes-140B_6_§7",
       "IndexJantzen": [
         "balcon",
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2005:05:01"
     },
     {
       "id_pic": "Rennes-140B_6_§8",
@@ -98,14 +105,16 @@
         "décor",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:05:01"
     },
     {
       "id_pic": "Rennes-140B_6_§9",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:05:01"
     }
   ]
 }

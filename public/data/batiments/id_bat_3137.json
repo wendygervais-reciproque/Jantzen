@@ -27,38 +27,42 @@
   "WPfr": null,
   "image_ref": "Messine-6_8_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "sculpture",
     "console",
-    "balcon",
+    "garde-corps",
+    "sculpture",
+    "fenetre",
     "colonne",
-    "garde-corps"
+    "balcon"
   ],
   "photos": [
     {
       "id_pic": "Messine-6_8_§1",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2004:05:26"
     },
     {
       "id_pic": "Messine-6_8_§2",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "dateCapture": null
     },
     {
       "id_pic": "Messine-6_8_§3",
       "IndexJantzen": [
         "balcon",
         "colonne"
-      ]
+      ],
+      "dateCapture": "2004:05:26"
     },
     {
       "id_pic": "Messine-6_8_§4",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2003:08:13"
     },
     {
       "id_pic": "Messine-6_8_§5",
@@ -66,14 +70,16 @@
         "balcon",
         "console",
         "garde-corps"
-      ]
+      ],
+      "dateCapture": "2004:05:26"
     },
     {
       "id_pic": "Messine-6_8_§6",
       "IndexJantzen": [
         "balcon",
         "garde-corps"
-      ]
+      ],
+      "dateCapture": "2003:08:13"
     },
     {
       "id_pic": "Messine-6_8_§7",
@@ -81,7 +87,8 @@
         "balcon",
         "colonne",
         "garde-corps"
-      ]
+      ],
+      "dateCapture": "2004:05:26"
     },
     {
       "id_pic": "Messine-6_8_§8",
@@ -89,7 +96,8 @@
         "colonne",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2009:05:23"
     }
   ]
 }

@@ -1,0 +1,68 @@
+{
+  "id_bat": 2906,
+  "libelle": "50 boulevard de l'Hôpital",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 178,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1912",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "50 boulevard de l'Hôpital",
+    "numero": "50",
+    "voie": "boulevard de l'Hôpital"
+  },
+  "arrondissement": 13,
+  "coordonnees": {
+    "latitude": "48.838769",
+    "longitude": "2.360573"
+  },
+  "id_pss": 42460,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 6376,
+  "terme_jantzen_bat": [
+    "façade-d'angle",
+    "lucarne-d'angle",
+    "dome",
+    "fenetre-d'angle",
+    "balcon",
+    "pignon"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_6376",
+      "IndexJantzen": [
+        "dome",
+        "façade-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_6377",
+      "IndexJantzen": [
+        "balcon",
+        "dome",
+        "fenetre-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_6378",
+      "IndexJantzen": [
+        "fenetre-d'angle",
+        "pignon"
+      ]
+    },
+    {
+      "id_pic": "image_6379",
+      "IndexJantzen": [
+        "balcon",
+        "lucarne-d'angle"
+      ]
+    }
+  ]
+}

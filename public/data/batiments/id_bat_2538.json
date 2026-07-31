@@ -27,23 +27,25 @@
   "WPfr": null,
   "image_ref": "Rosa-Bonheur-4_15_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "lucarne",
     "fronton",
-    "oeil-de-boeuf"
+    "oeil-de-boeuf",
+    "fenetre",
+    "lucarne"
   ],
   "photos": [
     {
       "id_pic": "Rosa-Bonheur-4_15_§1",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2006:04:11"
     },
     {
       "id_pic": "Rosa-Bonheur-4_15_§2",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2006:04:11"
     },
     {
       "id_pic": "Rosa-Bonheur-4_15_§3",
@@ -52,7 +54,8 @@
         "fronton",
         "lucarne",
         "oeil-de-boeuf"
-      ]
+      ],
+      "dateCapture": "2006:04:11"
     }
   ]
 }

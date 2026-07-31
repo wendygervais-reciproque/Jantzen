@@ -1,0 +1,58 @@
+{
+  "id_bat": 888,
+  "libelle": "14 rue Bergère",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 204,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1880",
+  "periode": [
+    "1870-1894"
+  ],
+  "adresse": {
+    "affichage": "14 rue Bergère",
+    "numero": "14",
+    "voie": "rue Bergère"
+  },
+  "arrondissement": 9,
+  "coordonnees": {
+    "latitude": "48.87232",
+    "longitude": "2.346151"
+  },
+  "id_pss": 16168,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 1179,
+  "terme_jantzen_bat": [
+    "façade",
+    "colonne",
+    "voie",
+    "tourelle",
+    "porte-fer"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_1179",
+      "IndexJantzen": [
+        "façade",
+        "voie"
+      ]
+    },
+    {
+      "id_pic": "image_1180",
+      "IndexJantzen": [
+        "tourelle"
+      ]
+    },
+    {
+      "id_pic": "image_1181",
+      "IndexJantzen": [
+        "colonne",
+        "porte-fer"
+      ]
+    }
+  ]
+}

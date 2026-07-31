@@ -1,0 +1,55 @@
+{
+  "id_bat": 2638,
+  "libelle": "43 avenue de Saint-Mandé",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": "1904",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "43 avenue de Saint-Mandé",
+    "numero": "43",
+    "voie": "avenue de Saint-Mandé"
+  },
+  "arrondissement": 12,
+  "coordonnees": {
+    "latitude": "48.845217",
+    "longitude": "2.401553"
+  },
+  "id_pss": null,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 14605,
+  "terme_jantzen_bat": [
+    "façade-d'angle",
+    "lucarne",
+    "fenetre-d'angle",
+    "balcon",
+    "garde-corps"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_14605",
+      "IndexJantzen": [
+        "balcon",
+        "façade-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_14606",
+      "IndexJantzen": [
+        "balcon",
+        "fenetre-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_14607",
+      "IndexJantzen": [
+        "fenetre-d'angle",
+        "garde-corps",
+        "lucarne"
+      ]
+    }
+  ]
+}

@@ -22,11 +22,11 @@
   "WPfr": null,
   "image_ref": "Monbel-6_17_§1",
   "terme_jantzen_bat": [
-    "fenetre",
+    "porte-fer-hall",
     "décor",
     "sculpture",
-    "balcon",
-    "porte-fer-hall"
+    "fenetre",
+    "balcon"
   ],
   "photos": [
     {
@@ -36,13 +36,15 @@
         "décor",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2004:04:16"
     },
     {
       "id_pic": "Monbel-6_17_§2",
       "IndexJantzen": [
         "porte-fer-hall"
-      ]
+      ],
+      "dateCapture": "2004:04:16"
     }
   ]
 }

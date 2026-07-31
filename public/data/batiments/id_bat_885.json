@@ -22,10 +22,10 @@
   "WPfr": null,
   "image_ref": "Megisserie-qu-14_1_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "porte-bois",
-    "cariatide",
-    "sculpture"
+    "sculpture",
+    "fenetre",
+    "cariatide"
   ],
   "photos": [
     {
@@ -34,14 +34,16 @@
         "cariatide",
         "porte-bois",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2018:06:30"
     },
     {
       "id_pic": "Megisserie-qu-14_1_§2",
       "IndexJantzen": [
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2004:09:11"
     }
   ]
 }

@@ -1,0 +1,51 @@
+{
+  "id_bat": 2951,
+  "libelle": "52 rue de Châteaudun",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "52 rue de Châteaudun",
+    "numero": "52",
+    "voie": "rue de Châteaudun"
+  },
+  "arrondissement": 9,
+  "coordonnees": {
+    "latitude": "48.876385",
+    "longitude": "2.333628"
+  },
+  "id_pss": 21854,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 2462,
+  "terme_jantzen_bat": [
+    "fenetre",
+    "clé",
+    "porte-fer",
+    "façade"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_2462",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_2463",
+      "IndexJantzen": [
+        "clé",
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_2464",
+      "IndexJantzen": [
+        "porte-fer"
+      ]
+    }
+  ]
+}

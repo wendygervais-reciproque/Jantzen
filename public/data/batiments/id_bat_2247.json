@@ -28,32 +28,35 @@
   "image_ref": "Rapp-33_7_§1",
   "terme_jantzen_bat": [
     "façade",
-    "fenetre",
+    "console",
+    "garde-corps",
     "décor",
     "sculpture",
-    "console",
-    "balcon",
-    "garde-corps"
+    "fenetre",
+    "balcon"
   ],
   "photos": [
     {
       "id_pic": "Rapp-33_7_§1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "dateCapture": "2010:04:01"
     },
     {
       "id_pic": "Rapp-33_7_§10",
       "IndexJantzen": [
         "balcon",
         "garde-corps"
-      ]
+      ],
+      "dateCapture": null
     },
     {
       "id_pic": "Rapp-33_7_§3",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "dateCapture": null
     },
     {
       "id_pic": "Rapp-33_7_§4",
@@ -61,35 +64,40 @@
         "décor",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:03:13"
     },
     {
       "id_pic": "Rapp-33_7_§5",
       "IndexJantzen": [
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:03:13"
     },
     {
       "id_pic": "Rapp-33_7_§6",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:03:13"
     },
     {
       "id_pic": "Rapp-33_7_§7",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "dateCapture": null
     },
     {
       "id_pic": "Rapp-33_7_§9",
       "IndexJantzen": [
         "balcon",
         "garde-corps"
-      ]
+      ],
+      "dateCapture": null
     }
   ]
 }

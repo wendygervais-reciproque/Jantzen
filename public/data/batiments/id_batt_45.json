@@ -1,0 +1,33 @@
+{
+  "id_bat": 45,
+  "libelle": "Salle du Manège",
+  "ensemble": "Palais du Louvre",
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": [
+    "1850-1869"
+  ],
+  "adresse": null,
+  "arrondissement": 1,
+  "coordonnees": {
+    "latitude": "48.860148",
+    "longitude": "2.335277"
+  },
+  "id_pss": null,
+  "id_wikidata": "Q18668238",
+  "WPfr": "Salle du Manège (Louvre)",
+  "image_ref": 8639,
+  "terme_jantzen_bat": [
+    "intérieur",
+    "colonne"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_8639",
+      "IndexJantzen": [
+        "colonne",
+        "intérieur"
+      ]
+    }
+  ]
+}

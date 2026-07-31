@@ -22,35 +22,39 @@
   "WPfr": null,
   "image_ref": "Ferronnerie-8_1_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "façade",
-    "fronton"
+    "fronton",
+    "fenetre"
   ],
   "photos": [
     {
       "id_pic": "Ferronnerie-8_1_§1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "dateCapture": "2006:04:21"
     },
     {
       "id_pic": "Ferronnerie-8_1_§2",
       "IndexJantzen": [
         "façade",
         "fronton"
-      ]
+      ],
+      "dateCapture": "2004:09:01"
     },
     {
       "id_pic": "Ferronnerie-8_1_§3",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2004:09:01"
     },
     {
       "id_pic": "Ferronnerie-8_1_§4",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "dateCapture": "2006:04:21"
     }
   ]
 }

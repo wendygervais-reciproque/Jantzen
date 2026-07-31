@@ -22,9 +22,9 @@
   "WPfr": null,
   "image_ref": "J-J-Rousseau-68_1_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "pilastre",
-    "sculpture"
+    "sculpture",
+    "fenetre"
   ],
   "photos": [
     {
@@ -33,14 +33,16 @@
         "fenetre",
         "pilastre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:04:21"
     },
     {
       "id_pic": "J-J-Rousseau-68_1_§2",
       "IndexJantzen": [
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:04:21"
     }
   ]
 }

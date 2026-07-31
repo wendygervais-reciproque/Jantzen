@@ -27,10 +27,10 @@
   "WPfr": null,
   "image_ref": "Montagne-Ste-Genevieve-34_5_§1",
   "terme_jantzen_bat": [
-    "porte",
     "façade",
-    "fenetre",
     "console",
+    "porte",
+    "fenetre",
     "porte-bois"
   ],
   "photos": [
@@ -39,26 +39,30 @@
       "IndexJantzen": [
         "façade",
         "porte"
-      ]
+      ],
+      "dateCapture": "2005:05:27"
     },
     {
       "id_pic": "Montagne-Ste-Genevieve-34_5_§2",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2005:05:27"
     },
     {
       "id_pic": "Montagne-Ste-Genevieve-34_5_§3",
       "IndexJantzen": [
         "console"
-      ]
+      ],
+      "dateCapture": "2005:05:27"
     },
     {
       "id_pic": "Montagne-Ste-Genevieve-34_5_§4",
       "IndexJantzen": [
         "fenetre",
         "porte-bois"
-      ]
+      ],
+      "dateCapture": "2003:08:09"
     }
   ]
 }

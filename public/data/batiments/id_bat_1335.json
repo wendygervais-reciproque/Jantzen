@@ -27,9 +27,9 @@
   "WPfr": null,
   "image_ref": "Belliard-185_18_§1",
   "terme_jantzen_bat": [
+    "céramique",
     "porte-bois",
-    "façade",
-    "céramique"
+    "façade"
   ],
   "photos": [
     {
@@ -37,20 +37,23 @@
       "IndexJantzen": [
         "céramique",
         "façade"
-      ]
+      ],
+      "dateCapture": null
     },
     {
       "id_pic": "Belliard-185_18_§2",
       "IndexJantzen": [
         "céramique",
         "porte-bois"
-      ]
+      ],
+      "dateCapture": "2006:06:07"
     },
     {
       "id_pic": "Belliard-185_18_§3",
       "IndexJantzen": [
         "céramique"
-      ]
+      ],
+      "dateCapture": null
     }
   ]
 }

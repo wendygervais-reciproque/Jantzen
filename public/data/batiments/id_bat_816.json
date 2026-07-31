@@ -22,10 +22,10 @@
   "WPfr": null,
   "image_ref": "Voltaire-bd-130_11_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "décor",
-    "clé",
     "chimère",
+    "clé",
+    "fenetre",
     "porte-bois"
   ],
   "photos": [
@@ -34,27 +34,31 @@
       "IndexJantzen": [
         "décor",
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2004:09:16"
     },
     {
       "id_pic": "Voltaire-bd-130_11_§2",
       "IndexJantzen": [
         "chimère",
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2004:09:16"
     },
     {
       "id_pic": "Voltaire-bd-130_11_§3",
       "IndexJantzen": [
         "fenetre",
         "porte-bois"
-      ]
+      ],
+      "dateCapture": "2004:09:17"
     },
     {
       "id_pic": "Voltaire-bd-130_11_§4",
       "IndexJantzen": [
         "porte-bois"
-      ]
+      ],
+      "dateCapture": "2005:06:18"
     },
     {
       "id_pic": "Voltaire-bd-130_11_§5",
@@ -62,7 +66,8 @@
         "chimère",
         "clé",
         "porte-bois"
-      ]
+      ],
+      "dateCapture": "2005:06:18"
     }
   ]
 }

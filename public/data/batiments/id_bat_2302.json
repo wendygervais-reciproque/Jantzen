@@ -27,13 +27,13 @@
   "WPfr": null,
   "image_ref": "Alain-Chartier35_15_§1",
   "terme_jantzen_bat": [
-    "façade-d'angle",
-    "lucarne-d'angle",
-    "décor",
-    "dome",
-    "sculpture",
     "console",
-    "balcon"
+    "décor",
+    "sculpture",
+    "façade-d'angle",
+    "balcon",
+    "lucarne-d'angle",
+    "dome"
   ],
   "photos": [
     {
@@ -41,7 +41,8 @@
       "IndexJantzen": [
         "dome",
         "façade-d'angle"
-      ]
+      ],
+      "dateCapture": "2006:09:09"
     },
     {
       "id_pic": "Alain-Chartier35_15_§2",
@@ -49,7 +50,8 @@
         "balcon",
         "dome",
         "lucarne-d'angle"
-      ]
+      ],
+      "dateCapture": "2006:09:09"
     },
     {
       "id_pic": "Alain-Chartier35_15_§3",
@@ -58,14 +60,16 @@
         "console",
         "décor",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:09:09"
     },
     {
       "id_pic": "Alain-Chartier35_15_§4",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2004:04:24"
     }
   ]
 }

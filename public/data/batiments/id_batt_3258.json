@@ -1,0 +1,51 @@
+{
+  "id_bat": 3258,
+  "libelle": "63 avenue Niel",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": "1913",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "63 avenue Niel",
+    "numero": "63",
+    "voie": "avenue Niel"
+  },
+  "arrondissement": 17,
+  "coordonnees": {
+    "latitude": "48.881927",
+    "longitude": "2.295649"
+  },
+  "id_pss": 28162,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 10274,
+  "terme_jantzen_bat": [
+    "intérieur",
+    "lucarne-d'angle",
+    "porte-fer",
+    "porte-fer-hall"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_10274",
+      "IndexJantzen": [
+        "lucarne-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_10275",
+      "IndexJantzen": [
+        "porte-fer-hall"
+      ]
+    },
+    {
+      "id_pic": "image_10276",
+      "IndexJantzen": [
+        "intérieur",
+        "porte-fer"
+      ]
+    }
+  ]
+}

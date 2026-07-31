@@ -1,0 +1,62 @@
+{
+  "id_bat": 83,
+  "libelle": "Gare de l'Est",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": [
+    "1850-1869"
+  ],
+  "adresse": null,
+  "arrondissement": 10,
+  "coordonnees": {
+    "latitude": "48.876944444444",
+    "longitude": "2.3591666666667"
+  },
+  "id_pss": 4385,
+  "id_wikidata": "Q757180",
+  "WPfr": "Gare de Paris-Est",
+  "image_ref": 5115,
+  "terme_jantzen_bat": [
+    "sculpture",
+    "fenetre",
+    "métal",
+    "intérieur",
+    "verrière"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_5115",
+      "IndexJantzen": [
+        "verrière"
+      ]
+    },
+    {
+      "id_pic": "image_5116",
+      "IndexJantzen": [
+        "verrière"
+      ]
+    },
+    {
+      "id_pic": "image_5117",
+      "IndexJantzen": [
+        "intérieur",
+        "métal",
+        "verrière"
+      ]
+    },
+    {
+      "id_pic": "image_5118",
+      "IndexJantzen": [
+        "fenetre",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_5119",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    }
+  ]
+}

@@ -27,18 +27,18 @@
   "WPfr": null,
   "image_ref": "Scheffer-39_16_§12",
   "terme_jantzen_bat": [
-    "lucarne",
-    "façade-d'angle",
     "loggia",
-    "brique",
-    "fenetre",
-    "décor",
+    "garde-corps",
+    "lucarne",
     "fenetre-d'angle",
-    "sculpture",
-    "porte-fer-hall",
     "mosaique",
-    "colonne",
-    "garde-corps"
+    "brique",
+    "sculpture",
+    "décor",
+    "fenetre",
+    "porte-fer-hall",
+    "façade-d'angle",
+    "colonne"
   ],
   "photos": [
     {
@@ -46,14 +46,16 @@
       "IndexJantzen": [
         "brique",
         "façade-d'angle"
-      ]
+      ],
+      "dateCapture": "2006:06:30"
     },
     {
       "id_pic": "Scheffer-39_16_§13",
       "IndexJantzen": [
         "brique",
         "fenetre-d'angle"
-      ]
+      ],
+      "dateCapture": "2006:06:30"
     },
     {
       "id_pic": "Scheffer-39_16_§14",
@@ -61,7 +63,8 @@
         "brique",
         "fenetre-d'angle",
         "mosaique"
-      ]
+      ],
+      "dateCapture": "2005:04:30"
     },
     {
       "id_pic": "Scheffer-39_16_§15",
@@ -72,7 +75,8 @@
         "lucarne",
         "mosaique",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:06:30"
     },
     {
       "id_pic": "Scheffer-39_16_§16",
@@ -84,7 +88,8 @@
         "lucarne",
         "mosaique",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:06:30"
     },
     {
       "id_pic": "Scheffer-39_16_§17",
@@ -93,7 +98,8 @@
         "colonne",
         "loggia",
         "mosaique"
-      ]
+      ],
+      "dateCapture": "2006:06:30"
     },
     {
       "id_pic": "Scheffer-39_16_§18",
@@ -103,7 +109,8 @@
         "fenetre-d'angle",
         "mosaique",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:06:30"
     },
     {
       "id_pic": "Scheffer-39_16_§19",
@@ -111,7 +118,8 @@
         "brique",
         "fenetre-d'angle",
         "mosaique"
-      ]
+      ],
+      "dateCapture": "2006:06:30"
     },
     {
       "id_pic": "Scheffer-39_16_§20",
@@ -119,7 +127,8 @@
         "brique",
         "fenetre",
         "mosaique"
-      ]
+      ],
+      "dateCapture": "2005:04:30"
     },
     {
       "id_pic": "Scheffer-39_16_§21",
@@ -128,7 +137,8 @@
         "fenetre",
         "garde-corps",
         "mosaique"
-      ]
+      ],
+      "dateCapture": "2006:06:30"
     },
     {
       "id_pic": "Scheffer-39_16_§22",
@@ -136,20 +146,23 @@
         "brique",
         "fenetre",
         "garde-corps"
-      ]
+      ],
+      "dateCapture": "2006:06:30"
     },
     {
       "id_pic": "Scheffer-39_16_§23",
       "IndexJantzen": [
         "fenetre",
         "garde-corps"
-      ]
+      ],
+      "dateCapture": "2006:06:30"
     },
     {
       "id_pic": "Scheffer-39_16_§24",
       "IndexJantzen": [
         "porte-fer-hall"
-      ]
+      ],
+      "dateCapture": "2005:04:30"
     }
   ]
 }

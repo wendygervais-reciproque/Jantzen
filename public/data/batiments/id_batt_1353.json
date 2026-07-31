@@ -1,0 +1,58 @@
+{
+  "id_bat": 1353,
+  "libelle": "19 boulevard des Italiens",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 91,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1882",
+  "periode": [
+    "1870-1894"
+  ],
+  "adresse": {
+    "affichage": "19 boulevard des Italiens",
+    "numero": "19",
+    "voie": "boulevard des Italiens"
+  },
+  "arrondissement": 2,
+  "coordonnees": {
+    "latitude": "48.871192",
+    "longitude": "2.336463"
+  },
+  "id_pss": 10573,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 7104,
+  "terme_jantzen_bat": [
+    "sculpture"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_7104",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_7105",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_7106",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_7107",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    }
+  ]
+}

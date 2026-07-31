@@ -22,31 +22,34 @@
   "WPfr": null,
   "image_ref": "Bernardins-18_5_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "lucarne",
     "façade",
-    "fronton"
+    "fronton",
+    "fenetre",
+    "lucarne"
   ],
   "photos": [
     {
       "id_pic": "Bernardins-18_5_§1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "dateCapture": "2009:09:27"
     },
     {
       "id_pic": "Bernardins-18_5_§2",
       "IndexJantzen": [
         "fenetre",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2009:09:27"
     },
     {
       "id_pic": "Bernardins-18_5_§4",
       "IndexJantzen": [
         "fronton",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2009:09:27"
     }
   ]
 }

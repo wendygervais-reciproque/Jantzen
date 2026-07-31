@@ -22,19 +22,20 @@
   "WPfr": null,
   "image_ref": "Vendome-Pl-22_1_§1",
   "terme_jantzen_bat": [
-    "lucarne",
     "façade",
-    "façade-d'angle",
+    "lucarne",
     "fronton",
-    "colonne",
-    "pilastre"
+    "façade-d'angle",
+    "pilastre",
+    "colonne"
   ],
   "photos": [
     {
       "id_pic": "Vendome-Pl-22_1_§1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "dateCapture": "2004:08:31"
     },
     {
       "id_pic": "Vendome-Pl-22_1_§2",
@@ -42,13 +43,15 @@
         "colonne",
         "façade",
         "fronton"
-      ]
+      ],
+      "dateCapture": "2004:08:31"
     },
     {
       "id_pic": "Vendome-Pl-22_1_§3",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "dateCapture": "2008:05:15"
     },
     {
       "id_pic": "Vendome-Pl-22_1_§4",
@@ -56,28 +59,32 @@
         "façade-d'angle",
         "lucarne",
         "pilastre"
-      ]
+      ],
+      "dateCapture": "2008:05:15"
     },
     {
       "id_pic": "Vendome-Pl-22_1_§5",
       "IndexJantzen": [
         "façade",
         "fronton"
-      ]
+      ],
+      "dateCapture": "2008:05:15"
     },
     {
       "id_pic": "Vendome-Pl-22_1_§6",
       "IndexJantzen": [
         "façade",
         "fronton"
-      ]
+      ],
+      "dateCapture": "2008:05:15"
     },
     {
       "id_pic": "Vendome-Pl-22_1_§7",
       "IndexJantzen": [
         "façade",
         "fronton"
-      ]
+      ],
+      "dateCapture": "2009:03:23"
     },
     {
       "id_pic": "Vendome-Pl-22_1_§8",
@@ -85,7 +92,8 @@
         "colonne",
         "façade",
         "fronton"
-      ]
+      ],
+      "dateCapture": "2009:03:23"
     }
   ]
 }

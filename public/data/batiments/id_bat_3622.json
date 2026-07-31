@@ -28,25 +28,27 @@
   "image_ref": "Madrid-8_8_§1",
   "terme_jantzen_bat": [
     "façade",
-    "fenetre",
+    "console",
+    "garde-corps",
+    "porte-fer-hall",
     "sculpture",
     "clé",
-    "console",
-    "porte-fer-hall",
-    "garde-corps"
+    "fenetre"
   ],
   "photos": [
     {
       "id_pic": "Madrid-8_8_§1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "dateCapture": "2005:08:10"
     },
     {
       "id_pic": "Madrid-8_8_§2-zFC",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2004:05:26"
     },
     {
       "id_pic": "Madrid-8_8_§3",
@@ -54,7 +56,8 @@
         "fenetre",
         "garde-corps",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:08:09"
     },
     {
       "id_pic": "Madrid-8_8_§4",
@@ -62,34 +65,39 @@
         "clé",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:08:10"
     },
     {
       "id_pic": "Madrid-8_8_§5",
       "IndexJantzen": [
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2004:09:17"
     },
     {
       "id_pic": "Madrid-8_8_§6",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2005:08:10"
     },
     {
       "id_pic": "Madrid-8_8_§7",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:08:09"
     },
     {
       "id_pic": "Madrid-8_8_§8",
       "IndexJantzen": [
         "clé",
         "porte-fer-hall"
-      ]
+      ],
+      "dateCapture": "2005:08:10"
     }
   ]
 }

@@ -1,0 +1,50 @@
+{
+  "id_bat": 3220,
+  "libelle": "61 rue Ampère",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 629,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1881",
+  "periode": [
+    "1870-1894"
+  ],
+  "adresse": {
+    "affichage": "61 rue Ampère",
+    "numero": "61",
+    "voie": "rue Ampère"
+  },
+  "arrondissement": 17,
+  "coordonnees": {
+    "latitude": "48.885192",
+    "longitude": "2.301145"
+  },
+  "id_pss": 2660,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 319,
+  "terme_jantzen_bat": [
+    "porte-bois",
+    "fenetre"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_319",
+      "IndexJantzen": []
+    },
+    {
+      "id_pic": "image_320",
+      "IndexJantzen": []
+    },
+    {
+      "id_pic": "image_321",
+      "IndexJantzen": [
+        "fenetre",
+        "porte-bois"
+      ]
+    }
+  ]
+}

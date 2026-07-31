@@ -1,0 +1,85 @@
+{
+  "id_bat": 667,
+  "libelle": "12 rue Gaillon",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 353,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1913",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "12 rue Gaillon",
+    "numero": "12",
+    "voie": "rue Gaillon"
+  },
+  "arrondissement": 2,
+  "coordonnees": {
+    "latitude": "48.868325",
+    "longitude": "2.334195"
+  },
+  "id_pss": 10768,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 5038,
+  "terme_jantzen_bat": [
+    "porte-fer",
+    "façade",
+    "fenetre",
+    "décor",
+    "métal",
+    "garde-corps",
+    "verrière",
+    "console"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_5038",
+      "IndexJantzen": [
+        "façade",
+        "métal"
+      ]
+    },
+    {
+      "id_pic": "image_5039",
+      "IndexJantzen": [
+        "façade",
+        "métal",
+        "verrière"
+      ]
+    },
+    {
+      "id_pic": "image_5040",
+      "IndexJantzen": [
+        "façade",
+        "métal",
+        "verrière"
+      ]
+    },
+    {
+      "id_pic": "image_5041",
+      "IndexJantzen": [
+        "porte-fer"
+      ]
+    },
+    {
+      "id_pic": "image_5042",
+      "IndexJantzen": [
+        "fenetre",
+        "garde-corps"
+      ]
+    },
+    {
+      "id_pic": "image_5043",
+      "IndexJantzen": [
+        "console",
+        "décor",
+        "métal"
+      ]
+    }
+  ]
+}

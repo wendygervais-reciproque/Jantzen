@@ -27,13 +27,13 @@
   "WPfr": null,
   "image_ref": "Leclerc-6_14_§1",
   "terme_jantzen_bat": [
-    "lucarne",
-    "façade-d'angle",
-    "brique",
-    "fenetre",
-    "décor",
     "oeil-de-boeuf",
-    "sculpture"
+    "lucarne",
+    "brique",
+    "décor",
+    "sculpture",
+    "fenetre",
+    "façade-d'angle"
   ],
   "photos": [
     {
@@ -41,7 +41,8 @@
       "IndexJantzen": [
         "brique",
         "façade-d'angle"
-      ]
+      ],
+      "dateCapture": "2005:04:01"
     },
     {
       "id_pic": "Leclerc-6_14_§2",
@@ -51,7 +52,8 @@
         "fenetre",
         "lucarne",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:04:01"
     },
     {
       "id_pic": "Leclerc-6_14_§3",
@@ -59,7 +61,8 @@
         "brique",
         "oeil-de-boeuf",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:04:01"
     },
     {
       "id_pic": "Leclerc-6_14_§4",
@@ -67,7 +70,8 @@
         "brique",
         "oeil-de-boeuf",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:08:07"
     }
   ]
 }

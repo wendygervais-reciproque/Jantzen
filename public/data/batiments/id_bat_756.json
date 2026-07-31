@@ -22,29 +22,32 @@
   "WPfr": null,
   "image_ref": "Montparnasse-Bd-129_6_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "façade",
-    "sculpture"
+    "sculpture",
+    "fenetre"
   ],
   "photos": [
     {
       "id_pic": "Montparnasse-Bd-129_6_§1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "dateCapture": "2004:10:03"
     },
     {
       "id_pic": "Montparnasse-Bd-129_6_§2",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2004:10:03"
     },
     {
       "id_pic": "Montparnasse-Bd-129_6_§3",
       "IndexJantzen": [
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2004:10:03"
     }
   ]
 }

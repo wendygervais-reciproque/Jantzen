@@ -23,11 +23,11 @@
   "image_ref": "Dumont-d'Urville-6_16_§1",
   "terme_jantzen_bat": [
     "lucarne",
-    "fronton",
     "brique",
-    "fenetre",
-    "décor",
     "sculpture",
+    "décor",
+    "fenetre",
+    "fronton",
     "balcon"
   ],
   "photos": [
@@ -38,7 +38,8 @@
         "décor",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2004:10:22"
     },
     {
       "id_pic": "Dumont-d'Urville-6_16_§2",
@@ -46,7 +47,8 @@
         "brique",
         "fronton",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2004:10:22"
     },
     {
       "id_pic": "Dumont-d'Urville-6_16_§3",
@@ -54,7 +56,8 @@
         "balcon",
         "brique",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2004:10:22"
     }
   ]
 }

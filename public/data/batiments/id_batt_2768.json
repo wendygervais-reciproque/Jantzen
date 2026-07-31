@@ -1,0 +1,42 @@
+{
+  "id_bat": 2768,
+  "libelle": "48 rue de Tolbiac",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 211,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1912",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "48 rue de Tolbiac",
+    "numero": "48",
+    "voie": "rue de Tolbiac"
+  },
+  "arrondissement": 13,
+  "coordonnees": {
+    "latitude": "48.827659",
+    "longitude": "2.370494"
+  },
+  "id_pss": 45509,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 15302,
+  "terme_jantzen_bat": [
+    "lucarne-d'angle",
+    "dome"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_15302",
+      "IndexJantzen": [
+        "dome",
+        "lucarne-d'angle"
+      ]
+    }
+  ]
+}

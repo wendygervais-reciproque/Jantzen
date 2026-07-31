@@ -1,0 +1,57 @@
+{
+  "id_bat": 3991,
+  "libelle": "place du Châtelet",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 259,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1808, 1860-1862",
+  "periode": [
+    "1760-1829",
+    "1850-1869"
+  ],
+  "adresse": {
+    "affichage": "place du Châtelet",
+    "numero": null,
+    "voie": "place du Châtelet"
+  },
+  "arrondissement": 1,
+  "coordonnees": {
+    "latitude": "48.8575",
+    "longitude": "2.3472222222222"
+  },
+  "id_pss": 45633,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 2478,
+  "terme_jantzen_bat": [
+    "sculpture"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_2478",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_2479",
+      "IndexJantzen": []
+    },
+    {
+      "id_pic": "image_2480",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_2481",
+      "IndexJantzen": [
+        "sculpture"
+      ]
+    }
+  ]
+}

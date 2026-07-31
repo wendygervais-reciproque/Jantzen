@@ -27,14 +27,14 @@
   "WPfr": null,
   "image_ref": "Valentin-Hauy-8_15_§1",
   "terme_jantzen_bat": [
-    "céramique",
-    "brique",
-    "fenetre",
-    "décor",
-    "sculpture",
-    "clé",
     "console",
-    "garde-corps"
+    "garde-corps",
+    "brique",
+    "sculpture",
+    "décor",
+    "fenetre",
+    "clé",
+    "céramique"
   ],
   "photos": [
     {
@@ -45,7 +45,8 @@
         "décor",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2004:05:23"
     },
     {
       "id_pic": "Valentin-Hauy-8_15_§2",
@@ -56,7 +57,8 @@
         "décor",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2004:05:18"
     },
     {
       "id_pic": "Valentin-Hauy-8_15_§3",
@@ -68,7 +70,8 @@
         "décor",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:04:11"
     },
     {
       "id_pic": "Valentin-Hauy-8_15_§4",
@@ -78,7 +81,8 @@
         "console",
         "fenetre",
         "garde-corps"
-      ]
+      ],
+      "dateCapture": "2006:09:09"
     },
     {
       "id_pic": "Valentin-Hauy-8_15_§5",
@@ -87,14 +91,16 @@
         "clé",
         "console",
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2004:05:18"
     },
     {
       "id_pic": "Valentin-Hauy-8_15_§6",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:04:11"
     }
   ]
 }

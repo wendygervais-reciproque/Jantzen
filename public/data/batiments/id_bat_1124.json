@@ -22,15 +22,15 @@
   "WPfr": null,
   "image_ref": "Londres-16_9_§1",
   "terme_jantzen_bat": [
-    "porte",
-    "lucarne",
     "façade",
-    "fronton",
-    "fenetre",
-    "sculpture",
     "console",
-    "cariatide",
     "loggia",
+    "lucarne",
+    "cariatide",
+    "fronton",
+    "sculpture",
+    "porte",
+    "fenetre",
     "colonne"
   ],
   "photos": [
@@ -38,7 +38,8 @@
       "id_pic": "Londres-16_9_§1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "dateCapture": "2005:05:27"
     },
     {
       "id_pic": "Londres-16_9_§10",
@@ -46,7 +47,8 @@
         "fronton",
         "lucarne",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:09:05"
     },
     {
       "id_pic": "Londres-16_9_§11",
@@ -54,7 +56,8 @@
         "fronton",
         "lucarne",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:09:05"
     },
     {
       "id_pic": "Londres-16_9_§12",
@@ -62,28 +65,32 @@
         "cariatide",
         "console",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:05:27"
     },
     {
       "id_pic": "Londres-16_9_§2",
       "IndexJantzen": [
         "façade",
         "porte"
-      ]
+      ],
+      "dateCapture": "2005:05:27"
     },
     {
       "id_pic": "Londres-16_9_§3",
       "IndexJantzen": [
         "colonne",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:05:27"
     },
     {
       "id_pic": "Londres-16_9_§4",
       "IndexJantzen": [
         "colonne",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:05:27"
     },
     {
       "id_pic": "Londres-16_9_§5",
@@ -91,31 +98,36 @@
         "colonne",
         "fenetre",
         "loggia"
-      ]
+      ],
+      "dateCapture": "2005:05:27"
     },
     {
       "id_pic": "Londres-16_9_§6",
       "IndexJantzen": [
         "loggia"
-      ]
+      ],
+      "dateCapture": "2004:09:17"
     },
     {
       "id_pic": "Londres-16_9_§7",
       "IndexJantzen": [
         "loggia"
-      ]
+      ],
+      "dateCapture": "2006:09:05"
     },
     {
       "id_pic": "Londres-16_9_§8",
       "IndexJantzen": [
         "loggia"
-      ]
+      ],
+      "dateCapture": "2005:05:27"
     },
     {
       "id_pic": "Londres-16_9_§9",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:09:05"
     }
   ]
 }

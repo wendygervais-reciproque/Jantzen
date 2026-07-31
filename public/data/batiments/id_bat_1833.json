@@ -22,11 +22,11 @@
   "WPfr": null,
   "image_ref": "Garibaldi-25_15_§1",
   "terme_jantzen_bat": [
-    "porte-fer",
-    "fenetre",
+    "console",
     "décor",
     "sculpture",
-    "console"
+    "fenetre",
+    "porte-fer"
   ],
   "photos": [
     {
@@ -35,20 +35,23 @@
         "décor",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2004:09:06"
     },
     {
       "id_pic": "Garibaldi-25_15_§2",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2004:09:06"
     },
     {
       "id_pic": "Garibaldi-25_15_§3",
       "IndexJantzen": [
         "porte-fer"
-      ]
+      ],
+      "dateCapture": "2004:09:06"
     }
   ]
 }

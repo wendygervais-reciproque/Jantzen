@@ -22,17 +22,18 @@
   "WPfr": null,
   "image_ref": "Richelieu-110_2_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "façade",
+    "sculpture",
     "décor",
-    "sculpture"
+    "fenetre"
   ],
   "photos": [
     {
       "id_pic": "Richelieu-110_2_§1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "dateCapture": "2010:06:05"
     },
     {
       "id_pic": "Richelieu-110_2_§2",
@@ -40,7 +41,8 @@
         "décor",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2010:06:05"
     }
   ]
 }

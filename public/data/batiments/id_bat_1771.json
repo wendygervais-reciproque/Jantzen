@@ -27,13 +27,13 @@
   "WPfr": null,
   "image_ref": "Pereire-239_17_§1",
   "terme_jantzen_bat": [
-    "lucarne",
     "façade",
-    "fenetre",
+    "lucarne",
+    "oriel",
     "décor",
     "sculpture",
-    "colonne",
-    "oriel"
+    "fenetre",
+    "colonne"
   ],
   "photos": [
     {
@@ -41,14 +41,16 @@
       "IndexJantzen": [
         "façade",
         "oriel"
-      ]
+      ],
+      "dateCapture": "2010:03:09"
     },
     {
       "id_pic": "Pereire-239_17_§2",
       "IndexJantzen": [
         "fenetre",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2010:03:09"
     },
     {
       "id_pic": "Pereire-239_17_§3",
@@ -57,14 +59,16 @@
         "fenetre",
         "oriel",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2009:08:31"
     },
     {
       "id_pic": "Pereire-239_17_§4",
       "IndexJantzen": [
         "colonne",
         "oriel"
-      ]
+      ],
+      "dateCapture": "2009:08:31"
     },
     {
       "id_pic": "Pereire-239_17_§5",
@@ -73,7 +77,8 @@
         "fenetre",
         "lucarne",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2010:03:02"
     }
   ]
 }

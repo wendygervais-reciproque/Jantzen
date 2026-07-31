@@ -22,47 +22,53 @@
   "WPfr": null,
   "image_ref": "Berthier-23t_17_§1-Rs",
   "terme_jantzen_bat": [
-    "fenetre",
-    "lucarne",
     "façade",
-    "porte-bois"
+    "porte-bois",
+    "fenetre",
+    "lucarne"
   ],
   "photos": [
     {
       "id_pic": "Berthier-23t_17_§1-Rs",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "dateCapture": "2009:05:20"
     },
     {
       "id_pic": "Berthier-23t_17_§2",
       "IndexJantzen": [
         "porte-bois"
-      ]
+      ],
+      "dateCapture": "2007:05:18"
     },
     {
       "id_pic": "Berthier-23t_17_§3",
       "IndexJantzen": [
         "porte-bois"
-      ]
+      ],
+      "dateCapture": "2007:05:18"
     },
     {
       "id_pic": "Berthier-23t_17_§4",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2009:05:20"
     },
     {
       "id_pic": "Berthier-23t_17_§5",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2009:05:20"
     },
     {
       "id_pic": "Berthier-23t_17_§6",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2009:05:20"
     }
   ]
 }

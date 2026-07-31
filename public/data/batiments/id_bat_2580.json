@@ -27,11 +27,11 @@
   "WPfr": null,
   "image_ref": "Manin-40_19_§1",
   "terme_jantzen_bat": [
-    "métal",
-    "fronton",
     "brique",
-    "fenetre",
+    "fronton",
     "décor",
+    "fenetre",
+    "métal",
     "porte-bois"
   ],
   "photos": [
@@ -42,7 +42,8 @@
         "décor",
         "fenetre",
         "métal"
-      ]
+      ],
+      "dateCapture": "2005:09:07"
     },
     {
       "id_pic": "Manin-40_19_§2",
@@ -50,7 +51,8 @@
         "brique",
         "fronton",
         "porte-bois"
-      ]
+      ],
+      "dateCapture": "2005:09:07"
     }
   ]
 }

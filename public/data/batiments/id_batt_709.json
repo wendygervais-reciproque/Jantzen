@@ -1,0 +1,50 @@
+{
+  "id_bat": 709,
+  "libelle": "120b boulevard du Montparnasse",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 459,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": null,
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "120b boulevard du Montparnasse",
+    "numero": "120b",
+    "voie": "boulevard du Montparnasse"
+  },
+  "arrondissement": 14,
+  "coordonnees": {
+    "latitude": "48.841369",
+    "longitude": "2.330881"
+  },
+  "id_pss": 40763,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 9991,
+  "terme_jantzen_bat": [
+    "porte-fer",
+    "porte-fer-hall",
+    "mosaique"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_9991",
+      "IndexJantzen": [
+        "mosaique",
+        "porte-fer"
+      ]
+    },
+    {
+      "id_pic": "image_9992",
+      "IndexJantzen": [
+        "mosaique",
+        "porte-fer-hall"
+      ]
+    }
+  ]
+}

@@ -27,11 +27,11 @@
   "WPfr": null,
   "image_ref": "Dante-2_5_§1",
   "terme_jantzen_bat": [
-    "façade-d'angle",
-    "lucarne-d'angle",
     "porte-fer",
-    "dome",
-    "balcon"
+    "façade-d'angle",
+    "balcon",
+    "lucarne-d'angle",
+    "dome"
   ],
   "photos": [
     {
@@ -39,7 +39,8 @@
       "IndexJantzen": [
         "dome",
         "façade-d'angle"
-      ]
+      ],
+      "dateCapture": "2005:05:27"
     },
     {
       "id_pic": "Dante-2_5_§2",
@@ -47,13 +48,15 @@
         "balcon",
         "dome",
         "lucarne-d'angle"
-      ]
+      ],
+      "dateCapture": "2005:05:27"
     },
     {
       "id_pic": "Dante-2_5_§3",
       "IndexJantzen": [
         "porte-fer"
-      ]
+      ],
+      "dateCapture": "2005:05:27"
     }
   ]
 }

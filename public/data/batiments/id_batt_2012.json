@@ -1,0 +1,49 @@
+{
+  "id_bat": 2012,
+  "libelle": "29 rue Marx-Dormoy",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 491,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1906",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "29 rue Marx-Dormoy",
+    "numero": "29",
+    "voie": "rue Marx-Dormoy"
+  },
+  "arrondissement": 18,
+  "coordonnees": {
+    "latitude": "48.886594",
+    "longitude": "2.359399"
+  },
+  "id_pss": null,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 9307,
+  "terme_jantzen_bat": [
+    "sculpture",
+    "console",
+    "façade"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_9307",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_9308",
+      "IndexJantzen": [
+        "console",
+        "sculpture"
+      ]
+    }
+  ]
+}

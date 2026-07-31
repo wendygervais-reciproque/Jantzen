@@ -1,0 +1,79 @@
+{
+  "id_bat": 1351,
+  "libelle": "19 avenue Trudaine",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 265,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1909",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "19 avenue Trudaine",
+    "numero": "19",
+    "voie": "avenue Trudaine"
+  },
+  "arrondissement": 9,
+  "coordonnees": {
+    "latitude": "48.881315",
+    "longitude": "2.344091"
+  },
+  "id_pss": null,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 15551,
+  "terme_jantzen_bat": [
+    "façade-d'angle",
+    "fronton",
+    "pignon",
+    "fenetre-d'angle"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_15551",
+      "IndexJantzen": [
+        "façade-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_15552",
+      "IndexJantzen": [
+        "fenetre-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_15553",
+      "IndexJantzen": [
+        "fenetre-d'angle",
+        "fronton"
+      ]
+    },
+    {
+      "id_pic": "image_15554",
+      "IndexJantzen": [
+        "fenetre-d'angle",
+        "fronton"
+      ]
+    },
+    {
+      "id_pic": "image_15555",
+      "IndexJantzen": [
+        "fenetre-d'angle",
+        "fronton",
+        "pignon"
+      ]
+    },
+    {
+      "id_pic": "image_15556",
+      "IndexJantzen": [
+        "fenetre-d'angle",
+        "fronton",
+        "pignon"
+      ]
+    }
+  ]
+}

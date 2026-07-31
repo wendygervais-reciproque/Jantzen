@@ -27,11 +27,11 @@
   "WPfr": null,
   "image_ref": "Beaumarchais-39_3_§1",
   "terme_jantzen_bat": [
-    "lucarne",
     "façade",
-    "fenetre",
-    "sculpture",
     "console",
+    "lucarne",
+    "sculpture",
+    "fenetre",
     "porte-bois"
   ],
   "photos": [
@@ -39,46 +39,53 @@
       "id_pic": "Beaumarchais-39_3_§1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "dateCapture": "2010:03:23"
     },
     {
       "id_pic": "Beaumarchais-39_3_§2",
       "IndexJantzen": [
         "fenetre",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2010:03:23"
     },
     {
       "id_pic": "Beaumarchais-39_3_§3",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2010:03:23"
     },
     {
       "id_pic": "Beaumarchais-39_4_§1",
       "IndexJantzen": [
         "fenetre",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2004:10:21"
     },
     {
       "id_pic": "Beaumarchais-39_4_§2",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2004:10:21"
     },
     {
       "id_pic": "Beaumarchais-39_4_§3",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2004:10:21"
     },
     {
       "id_pic": "Beaumarchais-39_4_§4",
       "IndexJantzen": [
         "porte-bois"
-      ]
+      ],
+      "dateCapture": "2006:03:19"
     }
   ]
 }

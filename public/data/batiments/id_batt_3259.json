@@ -1,0 +1,81 @@
+{
+  "id_bat": 3259,
+  "libelle": "63 boulevard de Picpus",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 247,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1914",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "63 boulevard de Picpus",
+    "numero": "63",
+    "voie": "boulevard de Picpus"
+  },
+  "arrondissement": 12,
+  "coordonnees": {
+    "latitude": "48.846243",
+    "longitude": "2.400228"
+  },
+  "id_pss": 82466,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 11638,
+  "terme_jantzen_bat": [
+    "façade-d'angle",
+    "pilastre",
+    "porte-fer",
+    "clé",
+    "dome",
+    "fenetre",
+    "fenetre-d'angle",
+    "garde-corps",
+    "tour"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_11638",
+      "IndexJantzen": [
+        "dome",
+        "façade-d'angle",
+        "tour"
+      ]
+    },
+    {
+      "id_pic": "image_11639",
+      "IndexJantzen": [
+        "dome",
+        "fenetre-d'angle",
+        "tour"
+      ]
+    },
+    {
+      "id_pic": "image_11640",
+      "IndexJantzen": [
+        "dome",
+        "fenetre-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_11641",
+      "IndexJantzen": [
+        "clé",
+        "fenetre-d'angle",
+        "garde-corps",
+        "pilastre"
+      ]
+    },
+    {
+      "id_pic": "image_11642",
+      "IndexJantzen": [
+        "fenetre",
+        "porte-fer"
+      ]
+    }
+  ]
+}

@@ -27,10 +27,10 @@
   "WPfr": null,
   "image_ref": "Wagram-119_17_§1_1-Rx",
   "terme_jantzen_bat": [
-    "lucarne",
     "façade",
-    "porte-fer",
+    "lucarne",
     "fenetre",
+    "porte-fer",
     "colonne"
   ],
   "photos": [
@@ -38,21 +38,24 @@
       "id_pic": "Wagram-119_17_§1_1-Rx",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "dateCapture": "2014:02:18"
     },
     {
       "id_pic": "Wagram-119_17_§3_Rx",
       "IndexJantzen": [
         "fenetre",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2014:02:18"
     },
     {
       "id_pic": "Wagram-119_17_§4_1-Rx",
       "IndexJantzen": [
         "fenetre",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2013:02:18"
     },
     {
       "id_pic": "Wagram-119_17_§5",
@@ -60,25 +63,29 @@
         "colonne",
         "fenetre",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2007:03:14"
     },
     {
       "id_pic": "Wagram-119_17_§6",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2007:03:14"
     },
     {
       "id_pic": "Wagram-119_17_§7",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2007:03:14"
     },
     {
       "id_pic": "Wagram-119_17_§8",
       "IndexJantzen": [
         "porte-fer"
-      ]
+      ],
+      "dateCapture": null
     },
     {
       "id_pic": "Wagram-119_17_5B_DxO_1-Rx",
@@ -86,7 +93,8 @@
         "colonne",
         "fenetre",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2013:02:18"
     }
   ]
 }

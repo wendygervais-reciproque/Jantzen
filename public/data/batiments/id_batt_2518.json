@@ -1,0 +1,69 @@
+{
+  "id_bat": 2518,
+  "libelle": "4 rue Jean-Goujon",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 365,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1894",
+  "periode": [
+    "1870-1894"
+  ],
+  "adresse": {
+    "affichage": "4 rue Jean-Goujon",
+    "numero": "4",
+    "voie": "rue Jean-Goujon"
+  },
+  "arrondissement": 8,
+  "coordonnees": {
+    "latitude": "48.866738",
+    "longitude": "2.309576"
+  },
+  "id_pss": 32336,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 7235,
+  "terme_jantzen_bat": [
+    "façade",
+    "colonne",
+    "fenetre",
+    "sculpture",
+    "décor",
+    "atlante"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_7235",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_7236",
+      "IndexJantzen": [
+        "décor",
+        "fenetre",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_7237",
+      "IndexJantzen": [
+        "colonne",
+        "fenetre",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_7238",
+      "IndexJantzen": [
+        "atlante",
+        "fenetre",
+        "sculpture"
+      ]
+    }
+  ]
+}

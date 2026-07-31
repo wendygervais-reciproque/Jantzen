@@ -1,0 +1,131 @@
+{
+  "id_bat": 2015,
+  "libelle": "292 rue Saint-Martin",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 434,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1848-1896",
+  "periode": [
+    "1850-1869",
+    "1870-1894"
+  ],
+  "adresse": {
+    "affichage": "292 rue Saint-Martin",
+    "numero": "292",
+    "voie": "rue Saint-Martin"
+  },
+  "arrondissement": 3,
+  "coordonnees": {
+    "latitude": "48.866972",
+    "longitude": "2.354641"
+  },
+  "id_pss": null,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 14661,
+  "terme_jantzen_bat": [
+    "porte",
+    "lucarne",
+    "cariatide",
+    "porte-bois",
+    "façade",
+    "toiture",
+    "sculpture",
+    "porte-fer",
+    "fronton"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_14661",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_14662",
+      "IndexJantzen": [
+        "cariatide",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_14663",
+      "IndexJantzen": [
+        "cariatide",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_14664",
+      "IndexJantzen": [
+        "cariatide",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_14665",
+      "IndexJantzen": [
+        "cariatide",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_14666",
+      "IndexJantzen": [
+        "lucarne",
+        "toiture"
+      ]
+    },
+    {
+      "id_pic": "image_14667",
+      "IndexJantzen": [
+        "fronton",
+        "porte-fer"
+      ]
+    },
+    {
+      "id_pic": "image_14668",
+      "IndexJantzen": [
+        "cariatide",
+        "fronton",
+        "porte"
+      ]
+    },
+    {
+      "id_pic": "image_14669",
+      "IndexJantzen": [
+        "façade",
+        "porte"
+      ]
+    },
+    {
+      "id_pic": "image_14670",
+      "IndexJantzen": [
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_14671",
+      "IndexJantzen": [
+        "porte-bois"
+      ]
+    },
+    {
+      "id_pic": "image_14672",
+      "IndexJantzen": [
+        "porte-bois"
+      ]
+    },
+    {
+      "id_pic": "image_14673",
+      "IndexJantzen": [
+        "cariatide",
+        "sculpture"
+      ]
+    }
+  ]
+}

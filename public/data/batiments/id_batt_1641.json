@@ -1,0 +1,60 @@
+{
+  "id_bat": 1641,
+  "libelle": "21 rue Octave-Feuillet",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 556,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1908",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "21 rue Octave-Feuillet",
+    "numero": "21",
+    "voie": "rue Octave-Feuillet"
+  },
+  "arrondissement": 16,
+  "coordonnees": {
+    "latitude": "48.861598",
+    "longitude": "2.271868"
+  },
+  "id_pss": 22551,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 10552,
+  "terme_jantzen_bat": [
+    "fenetre",
+    "façade",
+    "verrière",
+    "brique"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_10552",
+      "IndexJantzen": [
+        "brique",
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_10553",
+      "IndexJantzen": [
+        "brique",
+        "fenetre",
+        "verrière"
+      ]
+    },
+    {
+      "id_pic": "image_10554",
+      "IndexJantzen": [
+        "brique",
+        "fenetre",
+        "verrière"
+      ]
+    }
+  ]
+}

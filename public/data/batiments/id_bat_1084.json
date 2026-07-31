@@ -27,22 +27,22 @@
   "WPfr": null,
   "image_ref": "Suffren-159_15_§1",
   "terme_jantzen_bat": [
-    "lucarne",
-    "façade-d'angle",
     "façade",
-    "fronton",
-    "lucarne-d'angle",
-    "garde-corps",
-    "fenetre",
-    "dome",
-    "fenetre-d'angle",
-    "sculpture",
     "console",
-    "balcon",
+    "garde-corps",
+    "lucarne",
+    "fenetre-d'angle",
+    "oriel",
+    "fronton",
     "chimère",
+    "fenetre",
+    "sculpture",
+    "façade-d'angle",
+    "balcon",
     "colonne",
     "porte-bois",
-    "oriel"
+    "lucarne-d'angle",
+    "dome"
   ],
   "photos": [
     {
@@ -50,28 +50,32 @@
       "IndexJantzen": [
         "dome",
         "façade-d'angle"
-      ]
+      ],
+      "dateCapture": "2006:09:09"
     },
     {
       "id_pic": "Suffren-159_15_§10",
       "IndexJantzen": [
         "fenetre",
         "porte-bois"
-      ]
+      ],
+      "dateCapture": "2004:09:06"
     },
     {
       "id_pic": "Suffren-159_15_§11",
       "IndexJantzen": [
         "fenetre",
         "porte-bois"
-      ]
+      ],
+      "dateCapture": "2004:09:06"
     },
     {
       "id_pic": "Suffren-159_15_§2",
       "IndexJantzen": [
         "dome",
         "façade-d'angle"
-      ]
+      ],
+      "dateCapture": "2004:09:06"
     },
     {
       "id_pic": "Suffren-159_15_§3",
@@ -79,21 +83,24 @@
         "dome",
         "fenetre-d'angle",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2006:09:09"
     },
     {
       "id_pic": "Suffren-159_15_§4",
       "IndexJantzen": [
         "dome",
         "lucarne-d'angle"
-      ]
+      ],
+      "dateCapture": "2006:09:09"
     },
     {
       "id_pic": "Suffren-159_15_§5",
       "IndexJantzen": [
         "façade",
         "oriel"
-      ]
+      ],
+      "dateCapture": "2004:09:06"
     },
     {
       "id_pic": "Suffren-159_15_§6",
@@ -102,14 +109,16 @@
         "dome",
         "fronton",
         "lucarne-d'angle"
-      ]
+      ],
+      "dateCapture": "2004:09:06"
     },
     {
       "id_pic": "Suffren-159_15_§7",
       "IndexJantzen": [
         "colonne",
         "oriel"
-      ]
+      ],
+      "dateCapture": "2004:09:06"
     },
     {
       "id_pic": "Suffren-159_15_§8",
@@ -117,7 +126,8 @@
         "fenetre",
         "fronton",
         "garde-corps"
-      ]
+      ],
+      "dateCapture": "2004:09:06"
     },
     {
       "id_pic": "Suffren-159_15_§9",
@@ -125,7 +135,8 @@
         "chimère",
         "console",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:09:09"
     }
   ]
 }

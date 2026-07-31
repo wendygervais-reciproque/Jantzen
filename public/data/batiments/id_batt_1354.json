@@ -1,0 +1,47 @@
+{
+  "id_bat": 1354,
+  "libelle": "19 boulevard Suchet",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 389,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1912",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "19 boulevard Suchet",
+    "numero": "19",
+    "voie": "boulevard Suchet"
+  },
+  "arrondissement": 1,
+  "coordonnees": {
+    "latitude": "48.859538",
+    "longitude": "2.266305"
+  },
+  "id_pss": 27652,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 14943,
+  "terme_jantzen_bat": [
+    "façade-d'angle",
+    "lucarne"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_14943",
+      "IndexJantzen": [
+        "façade-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_14944",
+      "IndexJantzen": [
+        "lucarne"
+      ]
+    }
+  ]
+}

@@ -28,13 +28,13 @@
   "image_ref": "Rembrandt-7-9_8_§1",
   "terme_jantzen_bat": [
     "façade",
-    "métal",
+    "console",
     "garde-corps",
-    "fenetre",
+    "oriel",
     "sculpture",
     "clé",
-    "console",
-    "oriel"
+    "fenetre",
+    "métal"
   ],
   "photos": [
     {
@@ -42,7 +42,8 @@
       "IndexJantzen": [
         "façade",
         "métal"
-      ]
+      ],
+      "dateCapture": "2005:08:02"
     },
     {
       "id_pic": "Rembrandt-7-9_8_§2",
@@ -50,7 +51,8 @@
         "fenetre",
         "métal",
         "oriel"
-      ]
+      ],
+      "dateCapture": "2005:08:02"
     },
     {
       "id_pic": "Rembrandt-7-9_8_§3",
@@ -58,20 +60,23 @@
         "fenetre",
         "métal",
         "oriel"
-      ]
+      ],
+      "dateCapture": "2005:08:02"
     },
     {
       "id_pic": "Rembrandt-7-9_8_§4",
       "IndexJantzen": [
         "métal",
         "oriel"
-      ]
+      ],
+      "dateCapture": "2003:08:13"
     },
     {
       "id_pic": "Rembrandt-7-9_8_§5",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2003:08:13"
     },
     {
       "id_pic": "Rembrandt-7-9_8_§6",
@@ -79,28 +84,32 @@
         "clé",
         "fenetre",
         "garde-corps"
-      ]
+      ],
+      "dateCapture": "2003:08:13"
     },
     {
       "id_pic": "Rembrandt-7-9_8_§7",
       "IndexJantzen": [
         "métal",
         "oriel"
-      ]
+      ],
+      "dateCapture": "2003:08:13"
     },
     {
       "id_pic": "Rembrandt-7-9_8_§8",
       "IndexJantzen": [
         "console",
         "métal"
-      ]
+      ],
+      "dateCapture": "2003:08:13"
     },
     {
       "id_pic": "Rembrandt-7-9_8_§9",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:08:02"
     }
   ]
 }

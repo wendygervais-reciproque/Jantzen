@@ -27,12 +27,12 @@
   "WPfr": null,
   "image_ref": "Prony-19_17_§1",
   "terme_jantzen_bat": [
-    "porte",
     "lucarne",
-    "façade-d'angle",
-    "fronton",
     "décor",
-    "sculpture"
+    "porte",
+    "sculpture",
+    "fronton",
+    "façade-d'angle"
   ],
   "photos": [
     {
@@ -40,20 +40,23 @@
       "IndexJantzen": [
         "façade-d'angle",
         "porte"
-      ]
+      ],
+      "dateCapture": "2008:05:25"
     },
     {
       "id_pic": "Prony-19_17_§2",
       "IndexJantzen": [
         "façade-d'angle",
         "porte"
-      ]
+      ],
+      "dateCapture": "2008:05:25"
     },
     {
       "id_pic": "Prony-19_17_§3",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2008:05:25"
     },
     {
       "id_pic": "Prony-19_17_§4",
@@ -61,14 +64,16 @@
         "décor",
         "lucarne",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2008:05:25"
     },
     {
       "id_pic": "Prony-19_17_§5",
       "IndexJantzen": [
         "fronton",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2008:02:17"
     }
   ]
 }

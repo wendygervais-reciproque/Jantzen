@@ -27,16 +27,16 @@
   "WPfr": null,
   "image_ref": "Poussin-25_16_§1",
   "terme_jantzen_bat": [
-    "façade-d'angle",
-    "porte-fer",
-    "fenetre",
-    "décor",
-    "tour",
-    "dome",
     "fenetre-d'angle",
+    "tour",
+    "décor",
     "sculpture",
+    "fenetre",
+    "porte-fer",
+    "façade-d'angle",
     "balcon",
-    "colonne"
+    "colonne",
+    "dome"
   ],
   "photos": [
     {
@@ -45,7 +45,8 @@
         "dome",
         "façade-d'angle",
         "tour"
-      ]
+      ],
+      "dateCapture": "2004:07:24"
     },
     {
       "id_pic": "Poussin-25_16_§2",
@@ -53,7 +54,8 @@
         "dome",
         "façade-d'angle",
         "tour"
-      ]
+      ],
+      "dateCapture": "2007:04:21"
     },
     {
       "id_pic": "Poussin-25_16_§3",
@@ -61,7 +63,8 @@
         "dome",
         "fenetre-d'angle",
         "tour"
-      ]
+      ],
+      "dateCapture": "2004:07:24"
     },
     {
       "id_pic": "Poussin-25_16_§4",
@@ -69,14 +72,16 @@
         "dome",
         "décor",
         "fenetre-d'angle"
-      ]
+      ],
+      "dateCapture": "2007:04:21"
     },
     {
       "id_pic": "Poussin-25_16_§5",
       "IndexJantzen": [
         "fenetre",
         "porte-fer"
-      ]
+      ],
+      "dateCapture": "2007:04:21"
     },
     {
       "id_pic": "Poussin-25_16_§7",
@@ -85,7 +90,8 @@
         "colonne",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2007:04:21"
     },
     {
       "id_pic": "Poussin-25_16_§8",
@@ -94,7 +100,8 @@
         "colonne",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2007:04:21"
     }
   ]
 }

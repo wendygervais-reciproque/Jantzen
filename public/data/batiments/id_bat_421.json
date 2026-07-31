@@ -27,19 +27,20 @@
   "WPfr": null,
   "image_ref": "Courcelles-109_17_§1",
   "terme_jantzen_bat": [
-    "fenetre",
+    "console",
+    "garde-corps",
     "décor",
     "sculpture",
-    "console",
-    "balcon",
-    "garde-corps"
+    "fenetre",
+    "balcon"
   ],
   "photos": [
     {
       "id_pic": "Courcelles-109_17_§1",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2010:05:24"
     },
     {
       "id_pic": "Courcelles-109_17_§2",
@@ -47,21 +48,24 @@
         "décor",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2010:05:24"
     },
     {
       "id_pic": "Courcelles-109_17_§3",
       "IndexJantzen": [
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2010:05:24"
     },
     {
       "id_pic": "Courcelles-109_17_§4",
       "IndexJantzen": [
         "balcon",
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2010:05:24"
     },
     {
       "id_pic": "Courcelles-109_17_§5",
@@ -69,14 +73,16 @@
         "balcon",
         "fenetre",
         "garde-corps"
-      ]
+      ],
+      "dateCapture": "2010:05:24"
     },
     {
       "id_pic": "Courcelles-109_17_§6",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2010:05:24"
     }
   ]
 }

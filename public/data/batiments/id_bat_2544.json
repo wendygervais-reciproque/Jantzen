@@ -27,11 +27,11 @@
   "WPfr": null,
   "image_ref": "Schonberg-4_4_§1",
   "terme_jantzen_bat": [
-    "porte",
     "façade",
-    "métal",
     "brique",
+    "porte",
     "fenetre",
+    "métal",
     "colonne"
   ],
   "photos": [
@@ -41,7 +41,8 @@
         "brique",
         "façade",
         "métal"
-      ]
+      ],
+      "dateCapture": "2008:07:27"
     },
     {
       "id_pic": "Schonberg-4_4_§2",
@@ -50,7 +51,8 @@
         "façade",
         "métal",
         "porte"
-      ]
+      ],
+      "dateCapture": "2008:07:27"
     },
     {
       "id_pic": "Schonberg-4_4_§3",
@@ -58,14 +60,16 @@
         "brique",
         "fenetre",
         "métal"
-      ]
+      ],
+      "dateCapture": "2008:07:27"
     },
     {
       "id_pic": "Schonberg-4_4_§4",
       "IndexJantzen": [
         "brique",
         "colonne"
-      ]
+      ],
+      "dateCapture": "2008:07:27"
     },
     {
       "id_pic": "Schonberg-4_4_§5",
@@ -73,21 +77,24 @@
         "brique",
         "fenetre",
         "métal"
-      ]
+      ],
+      "dateCapture": "2008:07:27"
     },
     {
       "id_pic": "Schonberg-4_4_§6",
       "IndexJantzen": [
         "brique",
         "colonne"
-      ]
+      ],
+      "dateCapture": null
     },
     {
       "id_pic": "Schonberg-4_4_§7",
       "IndexJantzen": [
         "brique",
         "colonne"
-      ]
+      ],
+      "dateCapture": null
     }
   ]
 }

@@ -1,0 +1,44 @@
+{
+  "id_bat": 2507,
+  "libelle": "4 rue du Printemps",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 163,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1894",
+  "periode": [
+    "1870-1894"
+  ],
+  "adresse": {
+    "affichage": "4 rue du Printemps",
+    "numero": "4",
+    "voie": "rue du Printemps"
+  },
+  "arrondissement": 17,
+  "coordonnees": {
+    "latitude": "48.886878",
+    "longitude": "2.309049"
+  },
+  "id_pss": 95665,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 12056,
+  "terme_jantzen_bat": [
+    "fenetre",
+    "sculpture",
+    "décor"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_12056",
+      "IndexJantzen": [
+        "décor",
+        "fenetre",
+        "sculpture"
+      ]
+    }
+  ]
+}

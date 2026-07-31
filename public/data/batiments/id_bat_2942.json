@@ -27,19 +27,19 @@
   "WPfr": null,
   "image_ref": "Reaumur-51_2_§1",
   "terme_jantzen_bat": [
-    "lucarne",
-    "façade-d'angle",
-    "lucarne-d'angle",
-    "fenetre",
-    "oeil-de-boeuf",
-    "décor",
-    "dome",
-    "fenetre-d'angle",
-    "sculpture",
     "console",
+    "loggia",
+    "oeil-de-boeuf",
+    "lucarne",
+    "fenetre-d'angle",
+    "décor",
+    "sculpture",
     "tourelle",
+    "fenetre",
+    "façade-d'angle",
     "balcon",
-    "loggia"
+    "lucarne-d'angle",
+    "dome"
   ],
   "photos": [
     {
@@ -47,68 +47,78 @@
       "IndexJantzen": [
         "dome",
         "façade-d'angle"
-      ]
+      ],
+      "dateCapture": "2010:06:05"
     },
     {
       "id_pic": "Reaumur-51_2_§11",
       "IndexJantzen": [
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2010:06:05"
     },
     {
       "id_pic": "Reaumur-51_2_§12",
       "IndexJantzen": [
         "console",
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2010:06:05"
     },
     {
       "id_pic": "Reaumur-51_2_§14",
       "IndexJantzen": [
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:08:28"
     },
     {
       "id_pic": "Reaumur-51_2_§16",
       "IndexJantzen": [
         "loggia"
-      ]
+      ],
+      "dateCapture": "2006:09:06"
     },
     {
       "id_pic": "Reaumur-51_2_§17",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2004:07:05"
     },
     {
       "id_pic": "Reaumur-51_2_§19",
       "IndexJantzen": [
         "console",
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2004:07:05"
     },
     {
       "id_pic": "Reaumur-51_2_§2",
       "IndexJantzen": [
         "dome",
         "fenetre-d'angle"
-      ]
+      ],
+      "dateCapture": "2010:06:05"
     },
     {
       "id_pic": "Reaumur-51_2_§20",
       "IndexJantzen": [
         "fenetre",
         "loggia"
-      ]
+      ],
+      "dateCapture": "2006:09:06"
     },
     {
       "id_pic": "Reaumur-51_2_§3",
       "IndexJantzen": [
         "dome",
         "fenetre-d'angle"
-      ]
+      ],
+      "dateCapture": "2010:06:05"
     },
     {
       "id_pic": "Reaumur-51_2_§4",
@@ -117,7 +127,8 @@
         "décor",
         "fenetre-d'angle",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:09:06"
     },
     {
       "id_pic": "Reaumur-51_2_§5",
@@ -125,21 +136,24 @@
         "balcon",
         "dome",
         "fenetre-d'angle"
-      ]
+      ],
+      "dateCapture": "2006:09:06"
     },
     {
       "id_pic": "Reaumur-51_2_§6",
       "IndexJantzen": [
         "dome",
         "lucarne-d'angle"
-      ]
+      ],
+      "dateCapture": "2005:06:19"
     },
     {
       "id_pic": "Reaumur-51_2_§7",
       "IndexJantzen": [
         "dome",
         "lucarne-d'angle"
-      ]
+      ],
+      "dateCapture": "2005:08:28"
     },
     {
       "id_pic": "Reaumur-51_2_§8",
@@ -147,14 +161,16 @@
         "dome",
         "lucarne",
         "oeil-de-boeuf"
-      ]
+      ],
+      "dateCapture": "2004:07:05"
     },
     {
       "id_pic": "Reaumur-51_2_§9",
       "IndexJantzen": [
         "dome",
         "tourelle"
-      ]
+      ],
+      "dateCapture": "2004:07:05"
     }
   ]
 }

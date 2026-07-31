@@ -22,11 +22,11 @@
   "WPfr": null,
   "image_ref": "Pont-Neuf-Pl-15_1_§1",
   "terme_jantzen_bat": [
-    "lucarne",
     "façade",
-    "toiture",
+    "lucarne",
+    "brique",
     "fronton",
-    "brique"
+    "toiture"
   ],
   "photos": [
     {
@@ -34,7 +34,8 @@
       "IndexJantzen": [
         "brique",
         "façade"
-      ]
+      ],
+      "dateCapture": "2010:04:18"
     },
     {
       "id_pic": "Pont-Neuf-Pl-15_1_§2",
@@ -42,21 +43,24 @@
         "brique",
         "fronton",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2010:04:18"
     },
     {
       "id_pic": "Pont-Neuf-Pl-15_1_§3",
       "IndexJantzen": [
         "lucarne",
         "toiture"
-      ]
+      ],
+      "dateCapture": "2006:04:21"
     },
     {
       "id_pic": "Pont-Neuf-Pl-15_1_§4-Rx",
       "IndexJantzen": [
         "fronton",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2012:08:10"
     }
   ]
 }

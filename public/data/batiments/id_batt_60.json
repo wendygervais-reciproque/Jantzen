@@ -1,0 +1,40 @@
+{
+  "id_bat": 60,
+  "libelle": "Édicule de la station de Métro Abbesses",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 318,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1894-1904",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "place des Abbesses",
+    "numero": null,
+    "voie": "place des Abbesses"
+  },
+  "arrondissement": 18,
+  "coordonnees": {
+    "latitude": "48.884444444444",
+    "longitude": "2.3386111111111"
+  },
+  "id_pss": 23485,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 57,
+  "terme_jantzen_bat": [
+    "porte-fer"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_57",
+      "IndexJantzen": [
+        "porte-fer"
+      ]
+    }
+  ]
+}

@@ -27,25 +27,27 @@
   "WPfr": null,
   "image_ref": "Courcelles-142_17_§1",
   "terme_jantzen_bat": [
-    "lucarne",
     "façade",
-    "fenetre",
+    "console",
+    "lucarne",
     "décor",
     "sculpture",
-    "console"
+    "fenetre"
   ],
   "photos": [
     {
       "id_pic": "Courcelles-142_17_§1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "dateCapture": "2005:03:25"
     },
     {
       "id_pic": "Courcelles-142_17_§2",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2005:03:25"
     },
     {
       "id_pic": "Courcelles-142_17_§3",
@@ -53,14 +55,16 @@
         "décor",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:03:25"
     },
     {
       "id_pic": "Courcelles-142_17_§4",
       "IndexJantzen": [
         "lucarne",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:03:25"
     },
     {
       "id_pic": "Courcelles-142_17_§5",
@@ -68,7 +72,8 @@
         "console",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:03:25"
     }
   ]
 }

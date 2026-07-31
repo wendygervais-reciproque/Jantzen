@@ -1,0 +1,98 @@
+{
+  "id_bat": 613,
+  "libelle": "12 boulevard des Capucines",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 12,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1861",
+  "periode": [
+    "1850-1869"
+  ],
+  "adresse": {
+    "affichage": "12 boulevard des Capucines",
+    "numero": "12",
+    "voie": "boulevard des Capucines"
+  },
+  "arrondissement": 9,
+  "coordonnees": {
+    "latitude": "48.870612",
+    "longitude": "2.331065"
+  },
+  "id_pss": 65794,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 1939,
+  "terme_jantzen_bat": [
+    "pilastre",
+    "lucarne",
+    "façade",
+    "lucarne-d'angle",
+    "toiture",
+    "sculpture",
+    "balcon",
+    "garde-corps",
+    "atlante"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_1939",
+      "IndexJantzen": [
+        "lucarne-d'angle",
+        "toiture"
+      ]
+    },
+    {
+      "id_pic": "image_1940",
+      "IndexJantzen": [
+        "lucarne-d'angle",
+        "toiture"
+      ]
+    },
+    {
+      "id_pic": "image_1941",
+      "IndexJantzen": [
+        "lucarne-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_1942",
+      "IndexJantzen": [
+        "lucarne-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_1943",
+      "IndexJantzen": [
+        "lucarne",
+        "toiture"
+      ]
+    },
+    {
+      "id_pic": "image_1944",
+      "IndexJantzen": [
+        "balcon",
+        "façade",
+        "garde-corps",
+        "pilastre"
+      ]
+    },
+    {
+      "id_pic": "image_1945",
+      "IndexJantzen": [
+        "atlante",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_1946",
+      "IndexJantzen": [
+        "lucarne",
+        "toiture"
+      ]
+    }
+  ]
+}

@@ -27,32 +27,35 @@
   "WPfr": null,
   "image_ref": "Bonne-Nouvelle-9_2_§1",
   "terme_jantzen_bat": [
-    "lucarne",
     "façade",
-    "toiture",
+    "lucarne",
     "porte-fer",
-    "colonne"
+    "colonne",
+    "toiture"
   ],
   "photos": [
     {
       "id_pic": "Bonne-Nouvelle-9_2_§1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "dateCapture": null
     },
     {
       "id_pic": "Bonne-Nouvelle-9_2_§2",
       "IndexJantzen": [
         "lucarne",
         "toiture"
-      ]
+      ],
+      "dateCapture": "2008:08:10"
     },
     {
       "id_pic": "Bonne-Nouvelle-9_2_§3",
       "IndexJantzen": [
         "colonne",
         "porte-fer"
-      ]
+      ],
+      "dateCapture": null
     }
   ]
 }

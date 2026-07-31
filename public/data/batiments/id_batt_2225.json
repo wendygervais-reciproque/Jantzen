@@ -1,0 +1,46 @@
+{
+  "id_bat": 2225,
+  "libelle": "32 rue Étienne-Marcel",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 422,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1886",
+  "periode": [
+    "1870-1894"
+  ],
+  "adresse": {
+    "affichage": "32 rue Étienne-Marcel",
+    "numero": "32",
+    "voie": "rue Étienne-Marcel"
+  },
+  "arrondissement": 2,
+  "coordonnees": {
+    "latitude": "48.864607",
+    "longitude": "2.346373"
+  },
+  "id_pss": 30380,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 4175,
+  "terme_jantzen_bat": [
+    "façade"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_4175",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_4176",
+      "IndexJantzen": [
+        "façade"
+      ]
+    }
+  ]
+}

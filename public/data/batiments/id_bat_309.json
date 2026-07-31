@@ -27,15 +27,15 @@
   "WPfr": null,
   "image_ref": "Bretagne-10_3_§1",
   "terme_jantzen_bat": [
-    "lucarne",
-    "façade-d'angle",
     "façade",
-    "fenetre",
-    "oriel",
+    "garde-corps",
+    "lucarne",
     "fenetre-d'angle",
+    "oriel",
+    "fenetre",
+    "façade-d'angle",
     "balcon",
-    "pignon",
-    "garde-corps"
+    "pignon"
   ],
   "photos": [
     {
@@ -43,7 +43,8 @@
       "IndexJantzen": [
         "façade-d'angle",
         "pignon"
-      ]
+      ],
+      "dateCapture": "2008:02:10"
     },
     {
       "id_pic": "Bretagne-10_3_§10",
@@ -51,57 +52,66 @@
         "balcon",
         "fenetre",
         "garde-corps"
-      ]
+      ],
+      "dateCapture": "2005:08:28"
     },
     {
       "id_pic": "Bretagne-10_3_§2",
       "IndexJantzen": [
         "fenetre-d'angle"
-      ]
+      ],
+      "dateCapture": "2008:02:10"
     },
     {
       "id_pic": "Bretagne-10_3_§3-Rs",
       "IndexJantzen": [
         "fenetre-d'angle"
-      ]
+      ],
+      "dateCapture": "2008:02:10"
     },
     {
       "id_pic": "Bretagne-10_3_§4",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2008:02:10"
     },
     {
       "id_pic": "Bretagne-10_3_§5",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2005:08:28"
     },
     {
       "id_pic": "Bretagne-10_3_§6-Rs",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "dateCapture": "2008:02:10"
     },
     {
       "id_pic": "Bretagne-10_3_§7",
       "IndexJantzen": [
         "fenetre",
         "oriel"
-      ]
+      ],
+      "dateCapture": "2005:08:28"
     },
     {
       "id_pic": "Bretagne-10_3_§8",
       "IndexJantzen": [
         "fenetre",
         "oriel"
-      ]
+      ],
+      "dateCapture": "2008:02:10"
     },
     {
       "id_pic": "Bretagne-10_3_§9",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2008:02:10"
     }
   ]
 }

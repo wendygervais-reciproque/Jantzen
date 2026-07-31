@@ -1,0 +1,95 @@
+{
+  "id_bat": 1548,
+  "libelle": "20 boulevard Saint-Martin",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 119,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1872-1879",
+  "periode": [
+    "1870-1894"
+  ],
+  "adresse": {
+    "affichage": "20 boulevard Saint-Martin",
+    "numero": "20",
+    "voie": "boulevard Saint-Martin"
+  },
+  "arrondissement": 10,
+  "coordonnees": {
+    "latitude": "48.869011",
+    "longitude": "2.356402"
+  },
+  "id_pss": 10012,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 14711,
+  "terme_jantzen_bat": [
+    "lucarne",
+    "cariatide",
+    "façade",
+    "fenetre",
+    "sculpture",
+    "décor",
+    "console"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_14711",
+      "IndexJantzen": [
+        "décor",
+        "façade",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_14712",
+      "IndexJantzen": [
+        "décor",
+        "façade",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_14713",
+      "IndexJantzen": [
+        "décor",
+        "fenetre",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_14714",
+      "IndexJantzen": [
+        "lucarne",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_14715",
+      "IndexJantzen": [
+        "cariatide",
+        "fenetre",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_14716",
+      "IndexJantzen": [
+        "cariatide",
+        "console",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_14717",
+      "IndexJantzen": [
+        "cariatide",
+        "console",
+        "sculpture"
+      ]
+    }
+  ]
+}

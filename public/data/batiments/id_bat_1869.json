@@ -29,30 +29,33 @@
   "terme_jantzen_bat": [
     "façade",
     "garde-corps",
-    "fenetre",
+    "oriel",
     "mosaique",
-    "oriel"
+    "fenetre"
   ],
   "photos": [
     {
       "id_pic": "Benjamin-Franklin-25b_16_§1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "dateCapture": null
     },
     {
       "id_pic": "Benjamin-Franklin-25b_16_§2",
       "IndexJantzen": [
         "fenetre",
         "mosaique"
-      ]
+      ],
+      "dateCapture": "2005:04:03"
     },
     {
       "id_pic": "Benjamin-Franklin-25b_16_§3",
       "IndexJantzen": [
         "fenetre",
         "mosaique"
-      ]
+      ],
+      "dateCapture": "2005:04:03"
     },
     {
       "id_pic": "Benjamin-Franklin-25b_16_§3b",
@@ -60,7 +63,8 @@
         "fenetre",
         "garde-corps",
         "mosaique"
-      ]
+      ],
+      "dateCapture": "2004:03:16"
     },
     {
       "id_pic": "Benjamin-Franklin-25b_16_§4-zFdet",
@@ -69,14 +73,16 @@
         "garde-corps",
         "mosaique",
         "oriel"
-      ]
+      ],
+      "dateCapture": "2004:03:16"
     },
     {
       "id_pic": "Benjamin-Franklin-25b_16_§5",
       "IndexJantzen": [
         "fenetre",
         "mosaique"
-      ]
+      ],
+      "dateCapture": "2004:03:16"
     }
   ]
 }

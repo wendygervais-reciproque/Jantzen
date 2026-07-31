@@ -27,11 +27,11 @@
   "WPfr": null,
   "image_ref": "Margueritte-11_17_§1",
   "terme_jantzen_bat": [
-    "fenetre",
+    "console",
+    "garde-corps",
     "décor",
     "sculpture",
-    "console",
-    "garde-corps"
+    "fenetre"
   ],
   "photos": [
     {
@@ -41,14 +41,16 @@
         "décor",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:06:16"
     },
     {
       "id_pic": "Margueritte-11_17_§2",
       "IndexJantzen": [
         "fenetre",
         "garde-corps"
-      ]
+      ],
+      "dateCapture": "2006:06:16"
     }
   ]
 }

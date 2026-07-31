@@ -1,0 +1,61 @@
+{
+  "id_bat": 20,
+  "libelle": "Colonnade du Louvre",
+  "ensemble": "Palais du Louvre",
+  "personnes": [
+    {
+      "personneID": 136,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1668",
+  "periode": [
+    "1660-1759"
+  ],
+  "adresse": null,
+  "arrondissement": 1,
+  "coordonnees": {
+    "latitude": "48.86013931168131",
+    "longitude": "2.3396251097782823"
+  },
+  "id_pss": null,
+  "id_wikidata": "Q2984289",
+  "WPfr": "Colonnade du Louvre",
+  "image_ref": 8739,
+  "terme_jantzen_bat": [
+    "façade-d'angle",
+    "panoramique",
+    "colonne",
+    "façade"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_8739",
+      "IndexJantzen": [
+        "colonne",
+        "façade",
+        "panoramique"
+      ]
+    },
+    {
+      "id_pic": "image_8740",
+      "IndexJantzen": [
+        "façade-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_8741",
+      "IndexJantzen": [
+        "façade-d'angle",
+        "panoramique"
+      ]
+    },
+    {
+      "id_pic": "image_8742",
+      "IndexJantzen": [
+        "façade-d'angle",
+        "panoramique"
+      ]
+    }
+  ]
+}

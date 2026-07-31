@@ -22,10 +22,10 @@
   "WPfr": null,
   "image_ref": "Fortuny-17_17_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "oeil-de-boeuf",
-    "sculpture",
     "poignée-porte",
+    "sculpture",
+    "fenetre",
     "porte-bois"
   ],
   "photos": [
@@ -35,14 +35,16 @@
         "fenetre",
         "oeil-de-boeuf",
         "porte-bois"
-      ]
+      ],
+      "dateCapture": "2006:06:12"
     },
     {
       "id_pic": "Fortuny-17_17_§2",
       "IndexJantzen": [
         "poignée-porte",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:06:12"
     }
   ]
 }

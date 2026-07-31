@@ -22,27 +22,28 @@
   "WPfr": null,
   "image_ref": "St-Germain-2_5_§1",
   "terme_jantzen_bat": [
-    "porte",
-    "lucarne",
-    "façade-d'angle",
-    "intérieur",
     "façade",
-    "toiture",
-    "lucarne-d'angle",
+    "lucarne",
+    "cariatide",
+    "porte",
     "fronton",
     "fenetre",
     "sculpture",
     "clé",
-    "cariatide",
+    "façade-d'angle",
     "colonne",
-    "porte-bois"
+    "intérieur",
+    "porte-bois",
+    "toiture",
+    "lucarne-d'angle"
   ],
   "photos": [
     {
       "id_pic": "St-Germain-2_5_§1",
       "IndexJantzen": [
         "façade-d'angle"
-      ]
+      ],
+      "dateCapture": "2008:02:24"
     },
     {
       "id_pic": "St-Germain-2_5_§10",
@@ -50,39 +51,45 @@
         "colonne",
         "intérieur",
         "porte-bois"
-      ]
+      ],
+      "dateCapture": "2005:05:27"
     },
     {
       "id_pic": "St-Germain-2_5_§1b",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "dateCapture": "2007:04:01"
     },
     {
       "id_pic": "St-Germain-2_5_§2",
       "IndexJantzen": [
         "lucarne-d'angle",
         "toiture"
-      ]
+      ],
+      "dateCapture": "2008:02:24"
     },
     {
       "id_pic": "St-Germain-2_5_§2b",
       "IndexJantzen": [
         "fenetre",
         "porte"
-      ]
+      ],
+      "dateCapture": "2007:04:01"
     },
     {
       "id_pic": "St-Germain-2_5_§3",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2008:02:24"
     },
     {
       "id_pic": "St-Germain-2_5_§3b",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2007:04:01"
     },
     {
       "id_pic": "St-Germain-2_5_§4-Rx",
@@ -91,7 +98,8 @@
         "fronton",
         "porte-bois",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2011:05:25"
     },
     {
       "id_pic": "St-Germain-2_5_§5",
@@ -100,14 +108,16 @@
         "fronton",
         "porte-bois",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:08:30"
     },
     {
       "id_pic": "St-Germain-2_5_§6",
       "IndexJantzen": [
         "fronton",
         "porte-bois"
-      ]
+      ],
+      "dateCapture": "2006:03:19"
     },
     {
       "id_pic": "St-Germain-2_5_§7",
@@ -115,14 +125,16 @@
         "cariatide",
         "porte-bois",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:08:30"
     },
     {
       "id_pic": "St-Germain-2_5_§8-Rx",
       "IndexJantzen": [
         "porte-bois",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2011:05:25"
     },
     {
       "id_pic": "St-Germain-2_5_§9",
@@ -131,7 +143,8 @@
         "fronton",
         "porte-bois",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:08:30"
     }
   ]
 }

@@ -22,11 +22,11 @@
   "WPfr": null,
   "image_ref": "Archives-58_3_§1",
   "terme_jantzen_bat": [
-    "façade-d'angle",
-    "toiture",
-    "fenetre",
     "tour",
-    "sculpture"
+    "sculpture",
+    "fenetre",
+    "façade-d'angle",
+    "toiture"
   ],
   "photos": [
     {
@@ -34,59 +34,68 @@
       "IndexJantzen": [
         "façade-d'angle",
         "tour"
-      ]
+      ],
+      "dateCapture": "2006:08:30"
     },
     {
       "id_pic": "Archives-58_3_§2",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2006:08:30"
     },
     {
       "id_pic": "Archives-58_3_§3",
       "IndexJantzen": [
         "fenetre",
         "tour"
-      ]
+      ],
+      "dateCapture": "2006:08:30"
     },
     {
       "id_pic": "Archives-58_3_§4",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2006:08:30"
     },
     {
       "id_pic": "Archives-58_3_§5",
       "IndexJantzen": [
         "sculpture",
         "toiture"
-      ]
+      ],
+      "dateCapture": "2006:04:22"
     },
     {
       "id_pic": "Archives-58_3_1",
       "IndexJantzen": [
         "façade-d'angle",
         "tour"
-      ]
+      ],
+      "dateCapture": "2006:04:22"
     },
     {
       "id_pic": "Archives-58_3_2",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2006:04:22"
     },
     {
       "id_pic": "Archives-58_3_3",
       "IndexJantzen": [
         "toiture",
         "tour"
-      ]
+      ],
+      "dateCapture": "2006:04:22"
     },
     {
       "id_pic": "Archives-58_3_4",
       "IndexJantzen": [
         "toiture"
-      ]
+      ],
+      "dateCapture": "2006:04:22"
     }
   ]
 }

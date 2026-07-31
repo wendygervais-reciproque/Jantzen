@@ -27,11 +27,11 @@
   "WPfr": null,
   "image_ref": "Desnouettes-41_15_§1",
   "terme_jantzen_bat": [
+    "fenetre-d'angle",
     "façade-d'angle",
     "lucarne-d'angle",
-    "fenetre-d'angle",
-    "pignon",
-    "marquise"
+    "marquise",
+    "pignon"
   ],
   "photos": [
     {
@@ -39,27 +39,31 @@
       "IndexJantzen": [
         "façade-d'angle",
         "pignon"
-      ]
+      ],
+      "dateCapture": "2005:09:22"
     },
     {
       "id_pic": "Desnouettes-41_15_§2",
       "IndexJantzen": [
         "fenetre-d'angle",
         "pignon"
-      ]
+      ],
+      "dateCapture": "2005:09:22"
     },
     {
       "id_pic": "Desnouettes-41_15_§3",
       "IndexJantzen": [
         "fenetre-d'angle",
         "marquise"
-      ]
+      ],
+      "dateCapture": "2005:09:22"
     },
     {
       "id_pic": "Desnouettes-41_15_§4",
       "IndexJantzen": [
         "lucarne-d'angle"
-      ]
+      ],
+      "dateCapture": "2005:09:22"
     }
   ]
 }

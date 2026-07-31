@@ -1,0 +1,44 @@
+{
+  "id_bat": 3653,
+  "libelle": "8 rue Parrot",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 116,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1902",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "8 rue Parrot",
+    "numero": "8",
+    "voie": "rue Parrot"
+  },
+  "arrondissement": 12,
+  "coordonnees": {
+    "latitude": "48.846771",
+    "longitude": "2.373508"
+  },
+  "id_pss": 76948,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 11171,
+  "terme_jantzen_bat": [
+    "porte-fer",
+    "chimère",
+    "clé"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_11171",
+      "IndexJantzen": [
+        "chimère",
+        "clé",
+        "porte-fer"
+      ]
+    }
+  ]
+}

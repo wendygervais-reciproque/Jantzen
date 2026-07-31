@@ -27,20 +27,21 @@
   "WPfr": null,
   "image_ref": "Niel-82_17_§1_1-Rx",
   "terme_jantzen_bat": [
-    "lucarne",
     "façade",
-    "intérieur",
-    "porte-fer",
-    "fenetre",
+    "lucarne",
     "décor",
-    "sculpture"
+    "sculpture",
+    "fenetre",
+    "porte-fer",
+    "intérieur"
   ],
   "photos": [
     {
       "id_pic": "Niel-82_17_§1_1-Rx",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "dateCapture": "2014:02:19"
     },
     {
       "id_pic": "Niel-82_17_§2_1-Rx",
@@ -49,14 +50,16 @@
         "fenetre",
         "lucarne",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2014:02:19"
     },
     {
       "id_pic": "Niel-82_17_§3",
       "IndexJantzen": [
         "intérieur",
         "porte-fer"
-      ]
+      ],
+      "dateCapture": null
     }
   ]
 }

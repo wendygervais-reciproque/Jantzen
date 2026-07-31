@@ -27,23 +27,25 @@
   "WPfr": null,
   "image_ref": "Antoine-Vollon-11_12_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "lucarne",
     "façade",
-    "clé"
+    "clé",
+    "fenetre",
+    "lucarne"
   ],
   "photos": [
     {
       "id_pic": "Antoine-Vollon-11_12_§1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "dateCapture": "2004:09:16"
     },
     {
       "id_pic": "Antoine-Vollon-11_12_§2",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2004:09:16"
     },
     {
       "id_pic": "Antoine-Vollon-11_12_§3",
@@ -51,7 +53,8 @@
         "clé",
         "fenetre",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2004:09:16"
     }
   ]
 }

@@ -27,38 +27,42 @@
   "WPfr": null,
   "image_ref": "Boursault-7_17_§10",
   "terme_jantzen_bat": [
-    "lucarne",
     "façade",
-    "toiture",
-    "porte-fer",
+    "lucarne",
+    "porte-fer-hall",
     "fenetre",
-    "porte-fer-hall"
+    "porte-fer",
+    "toiture"
   ],
   "photos": [
     {
       "id_pic": "Boursault-7_17_§10",
       "IndexJantzen": [
         "porte-fer-hall"
-      ]
+      ],
+      "dateCapture": "2007:08:26"
     },
     {
       "id_pic": "Boursault-7_17_§2",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "dateCapture": "2006:03:14"
     },
     {
       "id_pic": "Boursault-7_17_§3",
       "IndexJantzen": [
         "façade",
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2007:03:14"
     },
     {
       "id_pic": "Boursault-7_17_§4",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2007:08:26"
     },
     {
       "id_pic": "Boursault-7_17_§5",
@@ -66,25 +70,29 @@
         "fenetre",
         "lucarne",
         "toiture"
-      ]
+      ],
+      "dateCapture": "2004:05:14"
     },
     {
       "id_pic": "Boursault-7_17_§6",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2007:03:14"
     },
     {
       "id_pic": "Boursault-7_17_§7",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2006:03:14"
     },
     {
       "id_pic": "Boursault-7_17_§8",
       "IndexJantzen": [
         "porte-fer"
-      ]
+      ],
+      "dateCapture": "2007:04:14"
     }
   ]
 }

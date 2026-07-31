@@ -27,20 +27,20 @@
   "WPfr": null,
   "image_ref": "Champs-Elysees-103_8_§1",
   "terme_jantzen_bat": [
-    "lucarne",
     "façade",
-    "fronton",
+    "console",
+    "oeil-de-boeuf",
     "garde-corps",
+    "lucarne",
+    "fenetre-d'angle",
+    "oriel",
+    "sculpture",
     "panoramique",
     "fenetre",
-    "oeil-de-boeuf",
-    "fenetre-d'angle",
-    "sculpture",
-    "console",
-    "balcon",
     "chimère",
-    "colonne",
-    "oriel"
+    "fronton",
+    "balcon",
+    "colonne"
   ],
   "photos": [
     {
@@ -48,42 +48,48 @@
       "IndexJantzen": [
         "façade",
         "panoramique"
-      ]
+      ],
+      "dateCapture": "2006:06:11"
     },
     {
       "id_pic": "Champs-Elysees-103_8_§10",
       "IndexJantzen": [
         "fenetre",
         "oriel"
-      ]
+      ],
+      "dateCapture": "2006:06:03"
     },
     {
       "id_pic": "Champs-Elysees-103_8_§11",
       "IndexJantzen": [
         "fenetre-d'angle",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:06:03"
     },
     {
       "id_pic": "Champs-Elysees-103_8_§12",
       "IndexJantzen": [
         "console",
         "oeil-de-boeuf"
-      ]
+      ],
+      "dateCapture": "2004:04:01"
     },
     {
       "id_pic": "Champs-Elysees-103_8_§13",
       "IndexJantzen": [
         "balcon",
         "fenetre-d'angle"
-      ]
+      ],
+      "dateCapture": "2004:04:01"
     },
     {
       "id_pic": "Champs-Elysees-103_8_§14",
       "IndexJantzen": [
         "balcon",
         "fenetre-d'angle"
-      ]
+      ],
+      "dateCapture": "2004:07:07"
     },
     {
       "id_pic": "Champs-Elysees-103_8_§15",
@@ -91,82 +97,94 @@
         "fenetre",
         "garde-corps",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:06:03"
     },
     {
       "id_pic": "Champs-Elysees-103_8_§16",
       "IndexJantzen": [
         "oeil-de-boeuf",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:06:03"
     },
     {
       "id_pic": "Champs-Elysees-103_8_§17",
       "IndexJantzen": [
         "oeil-de-boeuf",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:06:03"
     },
     {
       "id_pic": "Champs-Elysees-103_8_§18",
       "IndexJantzen": [
         "oeil-de-boeuf",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:06:03"
     },
     {
       "id_pic": "Champs-Elysees-103_8_§19",
       "IndexJantzen": [
         "oeil-de-boeuf",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2006:06:03"
     },
     {
       "id_pic": "Champs-Elysees-103_8_§2",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "dateCapture": "2006:06:11"
     },
     {
       "id_pic": "Champs-Elysees-103_8_§21",
       "IndexJantzen": [
         "chimère",
         "colonne"
-      ]
+      ],
+      "dateCapture": "2004:04:01"
     },
     {
       "id_pic": "Champs-Elysees-103_8_§22",
       "IndexJantzen": [
         "colonne"
-      ]
+      ],
+      "dateCapture": "2006:06:03"
     },
     {
       "id_pic": "Champs-Elysees-103_8_§23",
       "IndexJantzen": [
         "chimère",
         "colonne"
-      ]
+      ],
+      "dateCapture": "2006:06:03"
     },
     {
       "id_pic": "Champs-Elysees-103_8_§3",
       "IndexJantzen": [
         "fenetre",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2006:06:03"
     },
     {
       "id_pic": "Champs-Elysees-103_8_§4",
       "IndexJantzen": [
         "fenetre",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2006:06:03"
     },
     {
       "id_pic": "Champs-Elysees-103_8_§5",
       "IndexJantzen": [
         "fronton",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2006:06:03"
     },
     {
       "id_pic": "Champs-Elysees-103_8_§6",
@@ -174,14 +192,16 @@
         "colonne",
         "fronton",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2004:07:07"
     },
     {
       "id_pic": "Champs-Elysees-103_8_§7",
       "IndexJantzen": [
         "fronton",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2004:07:07"
     },
     {
       "id_pic": "Champs-Elysees-103_8_§9",
@@ -189,7 +209,8 @@
         "colonne",
         "fronton",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2004:04:01"
     }
   ]
 }

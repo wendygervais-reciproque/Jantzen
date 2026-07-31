@@ -1,0 +1,72 @@
+{
+  "id_bat": 2126,
+  "libelle": "3 rue Verdi",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "3 rue Verdi",
+    "numero": "3",
+    "voie": "rue Verdi"
+  },
+  "arrondissement": 16,
+  "coordonnees": {
+    "latitude": "48.860299",
+    "longitude": "2.273478"
+  },
+  "id_pss": 91057,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 16050,
+  "terme_jantzen_bat": [
+    "oriel",
+    "lucarne",
+    "façade",
+    "colonne",
+    "toiture",
+    "décor",
+    "sculpture",
+    "fenetre"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_16050",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_16051",
+      "IndexJantzen": [
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_16052",
+      "IndexJantzen": [
+        "lucarne",
+        "toiture"
+      ]
+    },
+    {
+      "id_pic": "image_16053",
+      "IndexJantzen": [
+        "décor",
+        "oriel",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_16054",
+      "IndexJantzen": [
+        "colonne",
+        "décor",
+        "fenetre",
+        "sculpture"
+      ]
+    }
+  ]
+}

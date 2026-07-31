@@ -27,40 +27,44 @@
   "WPfr": null,
   "image_ref": "Daumesnil-30_12_§1",
   "terme_jantzen_bat": [
-    "lucarne",
     "façade",
-    "porte-fer",
-    "fenetre",
+    "console",
+    "lucarne",
+    "porte-fer-hall",
     "décor",
     "sculpture",
-    "console",
-    "balcon",
-    "porte-fer-hall"
+    "fenetre",
+    "porte-fer",
+    "balcon"
   ],
   "photos": [
     {
       "id_pic": "Daumesnil-30_12_§1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "dateCapture": "2007:04:11"
     },
     {
       "id_pic": "Daumesnil-30_12_§10",
       "IndexJantzen": [
         "porte-fer-hall"
-      ]
+      ],
+      "dateCapture": "2005:10:10"
     },
     {
       "id_pic": "Daumesnil-30_12_§12",
       "IndexJantzen": [
         "porte-fer"
-      ]
+      ],
+      "dateCapture": "2006:07:03"
     },
     {
       "id_pic": "Daumesnil-30_12_§2",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "dateCapture": "2007:04:11"
     },
     {
       "id_pic": "Daumesnil-30_12_§2b",
@@ -69,7 +73,8 @@
         "décor",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2007:04:11"
     },
     {
       "id_pic": "Daumesnil-30_12_§3",
@@ -78,19 +83,22 @@
         "fenetre",
         "lucarne",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2007:04:11"
     },
     {
       "id_pic": "Daumesnil-30_12_§4",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2007:04:11"
     },
     {
       "id_pic": "Daumesnil-30_12_§5",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2006:07:03"
     },
     {
       "id_pic": "Daumesnil-30_12_§7",
@@ -98,7 +106,8 @@
         "balcon",
         "console",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2007:04:11"
     },
     {
       "id_pic": "Daumesnil-30_12_§8",
@@ -106,14 +115,16 @@
         "balcon",
         "console",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2005:10:10"
     },
     {
       "id_pic": "Daumesnil-30_12_§9",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2007:04:11"
     }
   ]
 }

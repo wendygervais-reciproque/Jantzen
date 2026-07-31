@@ -27,18 +27,18 @@
   "WPfr": null,
   "image_ref": "Courcelles-132_17_§10_1-Rx",
   "terme_jantzen_bat": [
+    "garde-corps",
     "lucarne",
-    "toiture",
-    "céramique",
-    "façade-d'angle",
-    "intérieur",
-    "lucarne-d'angle",
-    "porte-fer",
-    "fenetre",
-    "dome",
     "fenetre-d'angle",
     "sculpture",
-    "garde-corps"
+    "fenetre",
+    "porte-fer",
+    "façade-d'angle",
+    "lucarne-d'angle",
+    "intérieur",
+    "céramique",
+    "toiture",
+    "dome"
   ],
   "photos": [
     {
@@ -47,14 +47,16 @@
         "dome",
         "lucarne",
         "toiture"
-      ]
+      ],
+      "dateCapture": "2014:02:18"
     },
     {
       "id_pic": "Courcelles-132_17_§11_1-Rx",
       "IndexJantzen": [
         "fenetre",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2013:02:18"
     },
     {
       "id_pic": "Courcelles-132_17_§12_1-Rx",
@@ -62,7 +64,8 @@
         "céramique",
         "dome",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2013:02:18"
     },
     {
       "id_pic": "Courcelles-132_17_§13-Rx",
@@ -70,7 +73,8 @@
         "céramique",
         "dome",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2012:07:23"
     },
     {
       "id_pic": "Courcelles-132_17_§14",
@@ -78,14 +82,16 @@
         "céramique",
         "dome",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2006:04:06"
     },
     {
       "id_pic": "Courcelles-132_17_§16_1-Rx",
       "IndexJantzen": [
         "dome",
         "lucarne-d'angle"
-      ]
+      ],
+      "dateCapture": "2013:04:21"
     },
     {
       "id_pic": "Courcelles-132_17_§17",
@@ -93,7 +99,8 @@
         "céramique",
         "dome",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2006:06:16"
     },
     {
       "id_pic": "Courcelles-132_17_§18_1-Rx",
@@ -101,7 +108,8 @@
         "céramique",
         "dome",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2013:02:18"
     },
     {
       "id_pic": "Courcelles-132_17_§19",
@@ -109,7 +117,8 @@
         "céramique",
         "dome",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2003:07:15"
     },
     {
       "id_pic": "Courcelles-132_17_§1b",
@@ -117,7 +126,8 @@
         "dome",
         "lucarne",
         "toiture"
-      ]
+      ],
+      "dateCapture": "2009:07:25"
     },
     {
       "id_pic": "Courcelles-132_17_§1-Rx",
@@ -125,13 +135,15 @@
         "dome",
         "fenetre-d'angle",
         "toiture"
-      ]
+      ],
+      "dateCapture": "2012:08:10"
     },
     {
       "id_pic": "Courcelles-132_17_§2",
       "IndexJantzen": [
         "façade-d'angle"
-      ]
+      ],
+      "dateCapture": null
     },
     {
       "id_pic": "Courcelles-132_17_§20",
@@ -139,66 +151,76 @@
         "céramique",
         "dome",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2006:06:16"
     },
     {
       "id_pic": "Courcelles-132_17_§22",
       "IndexJantzen": [
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2009:07:16"
     },
     {
       "id_pic": "Courcelles-132_17_§23",
       "IndexJantzen": [
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2007:04:14"
     },
     {
       "id_pic": "Courcelles-132_17_§24",
       "IndexJantzen": [
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "dateCapture": "2007:04:14"
     },
     {
       "id_pic": "Courcelles-132_17_§25",
       "IndexJantzen": [
         "garde-corps"
-      ]
+      ],
+      "dateCapture": null
     },
     {
       "id_pic": "Courcelles-132_17_§26",
       "IndexJantzen": [
         "porte-fer"
-      ]
+      ],
+      "dateCapture": "2007:04:14"
     },
     {
       "id_pic": "Courcelles-132_17_§27",
       "IndexJantzen": [
         "porte-fer"
-      ]
+      ],
+      "dateCapture": null
     },
     {
       "id_pic": "Courcelles-132_17_§28",
       "IndexJantzen": [
         "porte-fer"
-      ]
+      ],
+      "dateCapture": "2008:07:18"
     },
     {
       "id_pic": "Courcelles-132_17_§29",
       "IndexJantzen": [
         "intérieur",
         "porte-fer"
-      ]
+      ],
+      "dateCapture": null
     },
     {
       "id_pic": "Courcelles-132_17_§2b",
       "IndexJantzen": [
         "dome",
         "fenetre-d'angle"
-      ]
+      ],
+      "dateCapture": "2014:02:18"
     },
     {
       "id_pic": "Courcelles-132_17_§3-Rx",
@@ -206,7 +228,8 @@
         "céramique",
         "dome",
         "lucarne-d'angle"
-      ]
+      ],
+      "dateCapture": "2012:08:10"
     },
     {
       "id_pic": "Courcelles-132_17_§4",
@@ -214,7 +237,8 @@
         "céramique",
         "dome",
         "lucarne-d'angle"
-      ]
+      ],
+      "dateCapture": "2008:07:25"
     },
     {
       "id_pic": "Courcelles-132_17_§6_1-Rx",
@@ -222,7 +246,8 @@
         "céramique",
         "dome",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2013:02:18"
     },
     {
       "id_pic": "Courcelles-132_17_§7-Rx",
@@ -230,14 +255,16 @@
         "céramique",
         "dome",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2012:08:10"
     },
     {
       "id_pic": "Courcelles-132_17_§8-Rx",
       "IndexJantzen": [
         "céramique",
         "lucarne"
-      ]
+      ],
+      "dateCapture": "2012:07:23"
     },
     {
       "id_pic": "Courcelles-132_17_§9",
@@ -245,7 +272,8 @@
         "dome",
         "lucarne",
         "toiture"
-      ]
+      ],
+      "dateCapture": "2007:08:25"
     }
   ]
 }

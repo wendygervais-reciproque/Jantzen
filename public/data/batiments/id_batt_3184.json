@@ -1,0 +1,138 @@
+{
+  "id_bat": 3184,
+  "libelle": "6 rue Villaret-de-Joyeuse",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 221,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1902",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "6 rue Villaret-de-Joyeuse",
+    "numero": "6",
+    "voie": "rue Villaret-de-Joyeuse"
+  },
+  "arrondissement": 17,
+  "coordonnees": {
+    "latitude": "48.876694",
+    "longitude": "2.289864"
+  },
+  "id_pss": 77549,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 16548,
+  "terme_jantzen_bat": [
+    "façade-d'angle",
+    "loggia",
+    "lucarne",
+    "brique",
+    "clé",
+    "lucarne-d'angle",
+    "façade",
+    "toiture",
+    "fenetre",
+    "sculpture",
+    "porte-fer",
+    "console"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_16548",
+      "IndexJantzen": [
+        "brique",
+        "lucarne-d'angle",
+        "toiture"
+      ]
+    },
+    {
+      "id_pic": "image_16549",
+      "IndexJantzen": [
+        "console",
+        "fenetre",
+        "sculpture"
+      ]
+    },
+    {
+      "id_pic": "image_16550",
+      "IndexJantzen": [
+        "clé",
+        "fenetre"
+      ]
+    },
+    {
+      "id_pic": "image_16551",
+      "IndexJantzen": [
+        "porte-fer"
+      ]
+    },
+    {
+      "id_pic": "image_16552",
+      "IndexJantzen": [
+        "porte-fer"
+      ]
+    },
+    {
+      "id_pic": "image_16553",
+      "IndexJantzen": [
+        "brique",
+        "façade-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_16554",
+      "IndexJantzen": [
+        "brique",
+        "façade-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_16555",
+      "IndexJantzen": [
+        "brique",
+        "façade"
+      ]
+    },
+    {
+      "id_pic": "image_16556",
+      "IndexJantzen": [
+        "brique",
+        "fenetre",
+        "lucarne"
+      ]
+    },
+    {
+      "id_pic": "image_16557",
+      "IndexJantzen": [
+        "brique"
+      ]
+    },
+    {
+      "id_pic": "image_16558",
+      "IndexJantzen": [
+        "brique",
+        "loggia"
+      ]
+    },
+    {
+      "id_pic": "image_16559",
+      "IndexJantzen": [
+        "brique",
+        "lucarne-d'angle"
+      ]
+    },
+    {
+      "id_pic": "image_16560",
+      "IndexJantzen": [
+        "brique",
+        "loggia",
+        "lucarne-d'angle",
+        "toiture"
+      ]
+    }
+  ]
+}

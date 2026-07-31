@@ -1,0 +1,58 @@
+{
+  "id_bat": 3290,
+  "libelle": "65 rue Réaumur",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 535,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1895",
+  "periode": [
+    "1895-1914"
+  ],
+  "adresse": {
+    "affichage": "65 rue Réaumur",
+    "numero": "65",
+    "voie": "rue Réaumur"
+  },
+  "arrondissement": 2,
+  "coordonnees": {
+    "latitude": "48.866512",
+    "longitude": "2.350449"
+  },
+  "id_pss": 41059,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 12764,
+  "terme_jantzen_bat": [
+    "verrière",
+    "métal",
+    "toiture",
+    "façade"
+  ],
+  "photos": [
+    {
+      "id_pic": "image_12764",
+      "IndexJantzen": [
+        "toiture",
+        "verrière"
+      ]
+    },
+    {
+      "id_pic": "image_12765",
+      "IndexJantzen": [
+        "façade",
+        "métal"
+      ]
+    },
+    {
+      "id_pic": "image_12766",
+      "IndexJantzen": [
+        "toiture",
+        "verrière"
+      ]
+    }
+  ]
+}
