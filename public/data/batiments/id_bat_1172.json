@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 572,
+      "personneID": 754,
       "role": "architecte"
     }
   ],
@@ -17,7 +17,8 @@
     "numero": "164",
     "voie": "rue de Vaugirard"
   },
-  "arrondissement": 6,
+  "arrondissement": 15,
+  "tri_alphab": "Vaugirard",
   "coordonnees": {
     "latitude": "48.843152",
     "longitude": "2.313028"
@@ -27,10 +28,10 @@
   "WPfr": null,
   "image_ref": "Vaugirard-164_6_§1",
   "terme_jantzen_bat": [
-    "pilastre",
-    "lucarne",
+    "oriel",
     "dome",
-    "oriel"
+    "pilastre",
+    "lucarne"
   ],
   "photos": [
     {

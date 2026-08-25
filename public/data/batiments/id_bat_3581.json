@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 542,
+      "personneID": 728,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "avenue Alphand"
   },
   "arrondissement": 16,
+  "tri_alphab": "Alphand-av",
   "coordonnees": {
     "latitude": "48.875101",
     "longitude": "2.285068"
@@ -27,13 +28,13 @@
   "WPfr": null,
   "image_ref": "Alphand-av-8_16_§10",
   "terme_jantzen_bat": [
-    "console",
-    "cariatide",
-    "porte-fer-hall",
-    "sculpture",
     "clé",
+    "cariatide",
+    "porte-fer",
     "fenetre",
-    "porte-fer"
+    "porte-fer-hall",
+    "console",
+    "sculpture"
   ],
   "photos": [
     {

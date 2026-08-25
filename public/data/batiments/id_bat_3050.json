@@ -13,6 +13,7 @@
     "voie": "rue des Vignoles"
   },
   "arrondissement": 20,
+  "tri_alphab": "Vignoles",
   "coordonnees": {
     "latitude": "48.854762",
     "longitude": "2.400754"
@@ -22,9 +23,9 @@
   "WPfr": null,
   "image_ref": "Vignoles-57_20_§1",
   "terme_jantzen_bat": [
-    "brique",
     "décor",
-    "console"
+    "console",
+    "brique"
   ],
   "photos": [
     {

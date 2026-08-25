@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 303,
+      "personneID": 425,
       "role": "architecte"
     }
   ],
@@ -17,7 +17,8 @@
     "numero": "7",
     "voie": "boulevard des Batignolles"
   },
-  "arrondissement": 17,
+  "arrondissement": 8,
+  "tri_alphab": "Batignoles",
   "coordonnees": {
     "latitude": "48.883064",
     "longitude": "2.326197"

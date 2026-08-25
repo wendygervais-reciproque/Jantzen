@@ -2,7 +2,16 @@
   "id_bat": 2951,
   "libelle": "52 rue de Châteaudun",
   "ensemble": null,
-  "personnes": null,
+  "personnes": [
+    {
+      "personneID": 537,
+      "role": "architecte"
+    },
+    {
+      "personneID": 55,
+      "role": "architecte"
+    }
+  ],
   "dateConstruction": null,
   "periode": [
     "1895-1914"
@@ -13,6 +22,7 @@
     "voie": "rue de Châteaudun"
   },
   "arrondissement": 9,
+  "tri_alphab": "Chateaudin",
   "coordonnees": {
     "latitude": "48.876385",
     "longitude": "2.333628"
@@ -22,10 +32,10 @@
   "WPfr": null,
   "image_ref": "Chateaudin-52_9_§1",
   "terme_jantzen_bat": [
-    "façade",
     "clé",
     "fenetre",
-    "porte-fer"
+    "porte-fer",
+    "façade"
   ],
   "photos": [
     {

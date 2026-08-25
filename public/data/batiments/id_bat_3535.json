@@ -4,7 +4,11 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 66,
+      "personneID": 784,
+      "role": "architecte"
+    },
+    {
+      "personneID": 100,
       "role": "architecte"
     }
   ],
@@ -18,6 +22,7 @@
     "voie": "rue de la Verrerie"
   },
   "arrondissement": 4,
+  "tri_alphab": "Verrerie",
   "coordonnees": {
     "latitude": "48.858888",
     "longitude": "2.350691"
@@ -28,9 +33,9 @@
   "image_ref": "Verrerie-76_4_§1",
   "terme_jantzen_bat": [
     "porte-bois",
-    "sculpture",
+    "fenetre",
     "clé",
-    "fenetre"
+    "sculpture"
   ],
   "photos": [
     {

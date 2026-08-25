@@ -4,7 +4,7 @@
   "ensemble": "Opéra Garnier",
   "personnes": [
     {
-      "personneID": 121,
+      "personneID": 385,
       "role": "architecte"
     }
   ],
@@ -14,6 +14,7 @@
   ],
   "adresse": null,
   "arrondissement": 9,
+  "tri_alphab": "Opera-Garnier",
   "coordonnees": {
     "latitude": "48.872081",
     "longitude": "2.332335"
@@ -21,18 +22,18 @@
   "id_pss": 3933,
   "id_wikidata": "Q187840",
   "WPfr": "Opéra Garnier",
-  "image_ref": "Opera-Garnier_9_Halevy§10",
+  "image_ref": "Opera-Garnier_9_Halevy§6",
   "terme_jantzen_bat": [
-    "façade",
-    "loggia",
-    "lucarne",
     "décor",
-    "fronton",
-    "sculpture",
+    "loggia",
+    "façade",
     "fenetre",
+    "dome",
+    "fronton",
     "pilastre",
-    "colonne",
-    "dome"
+    "lucarne",
+    "sculpture",
+    "colonne"
   ],
   "photos": [
     {

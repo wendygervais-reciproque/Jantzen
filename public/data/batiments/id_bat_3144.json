@@ -4,7 +4,11 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 51,
+      "personneID": 61,
+      "role": "architecte"
+    },
+    {
+      "personneID": 925,
       "role": "architecte"
     }
   ],
@@ -18,6 +22,7 @@
     "voie": "rue des Colonnes"
   },
   "arrondissement": 2,
+  "tri_alphab": "Colonnes",
   "coordonnees": {
     "latitude": "48.869661",
     "longitude": "2.339578"
@@ -27,9 +32,9 @@
   "WPfr": null,
   "image_ref": "Colonnes-R_2_§1",
   "terme_jantzen_bat": [
-    "façade",
     "fenetre",
-    "colonne"
+    "colonne",
+    "façade"
   ],
   "photos": [
     {

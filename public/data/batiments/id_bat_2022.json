@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 581,
+      "personneID": 443,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "quai des Célestins"
   },
   "arrondissement": 4,
+  "tri_alphab": "Celestins-Qu",
   "coordonnees": {
     "latitude": "48.85162",
     "longitude": "2.362123"
@@ -27,20 +28,20 @@
   "WPfr": null,
   "image_ref": "Celestins-Qu-2b_4_§1",
   "terme_jantzen_bat": [
-    "façade",
-    "oeil-de-boeuf",
-    "garde-corps",
-    "lucarne",
-    "cariatide",
-    "tourelle",
-    "sculpture",
-    "fronton",
-    "fenetre",
     "clé",
-    "chimère",
+    "tourelle",
+    "cariatide",
+    "façade",
+    "fenetre",
     "porte",
+    "atlante",
+    "oeil-de-boeuf",
+    "fronton",
+    "chimère",
+    "lucarne",
+    "sculpture",
     "porte-bois",
-    "atlante"
+    "garde-corps"
   ],
   "photos": [
     {

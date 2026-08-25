@@ -13,6 +13,7 @@
     "voie": "boulevard Haussmann"
   },
   "arrondissement": 8,
+  "tri_alphab": "Haussmann",
   "coordonnees": {
     "latitude": "48.875392",
     "longitude": "2.314238"
@@ -22,17 +23,17 @@
   "WPfr": null,
   "image_ref": "Haussmann-134_8_§1",
   "terme_jantzen_bat": [
-    "console",
-    "oeil-de-boeuf",
-    "lucarne",
-    "fenetre-d'angle",
-    "sculpture",
     "clé",
-    "fenetre",
-    "pilastre",
-    "balcon",
+    "sculpture",
     "lucarne-d'angle",
-    "dome"
+    "fenetre",
+    "dome",
+    "balcon",
+    "oeil-de-boeuf",
+    "console",
+    "pilastre",
+    "fenetre-d'angle",
+    "lucarne"
   ],
   "photos": [
     {

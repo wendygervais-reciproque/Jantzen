@@ -13,6 +13,7 @@
     "voie": "rue Saint-Ferdinand"
   },
   "arrondissement": 17,
+  "tri_alphab": "St-Ferdinand",
   "coordonnees": {
     "latitude": "48.878786",
     "longitude": "2.290067"
@@ -22,14 +23,14 @@
   "WPfr": null,
   "image_ref": "St-Ferdinand-10_17_§1",
   "terme_jantzen_bat": [
-    "façade",
-    "garde-corps",
-    "lucarne",
-    "décor",
-    "sculpture",
     "clé",
+    "décor",
+    "façade",
     "fenetre",
-    "balcon"
+    "balcon",
+    "lucarne",
+    "sculpture",
+    "garde-corps"
   ],
   "photos": [
     {

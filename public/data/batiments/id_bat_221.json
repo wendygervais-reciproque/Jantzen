@@ -2,7 +2,12 @@
   "id_bat": 221,
   "libelle": "1 rue de Trétaigne",
   "ensemble": null,
-  "personnes": null,
+  "personnes": [
+    {
+      "personneID": 914,
+      "role": "architecte"
+    }
+  ],
   "dateConstruction": null,
   "periode": [
     "1895-1914"
@@ -13,6 +18,7 @@
     "voie": "rue de Trétaigne"
   },
   "arrondissement": 18,
+  "tri_alphab": "Tretaigne",
   "coordonnees": {
     "latitude": "48.891405",
     "longitude": "2.341904"

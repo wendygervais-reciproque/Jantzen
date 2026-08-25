@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 196,
+      "personneID": 314,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue de Tilsitt"
   },
   "arrondissement": 17,
+  "tri_alphab": "Tilsitt",
   "coordonnees": {
     "latitude": "48.874867",
     "longitude": "2.293343"
@@ -27,8 +28,8 @@
   "WPfr": null,
   "image_ref": "Tilsitt-30b_17_§1",
   "terme_jantzen_bat": [
-    "sculpture",
-    "lucarne"
+    "lucarne",
+    "sculpture"
   ],
   "photos": [
     {

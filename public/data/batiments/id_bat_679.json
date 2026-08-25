@@ -2,7 +2,16 @@
   "id_bat": 679,
   "libelle": "12 rue Margueritte",
   "ensemble": null,
-  "personnes": null,
+  "personnes": [
+    {
+      "personneID": 941,
+      "role": "architecte"
+    },
+    {
+      "personneID": 18,
+      "role": "architecte"
+    }
+  ],
   "dateConstruction": "1907",
   "periode": [
     "1895-1914"
@@ -13,6 +22,7 @@
     "voie": "rue Margueritte"
   },
   "arrondissement": 17,
+  "tri_alphab": "Margueritte",
   "coordonnees": {
     "latitude": "48.880165",
     "longitude": "2.301297"

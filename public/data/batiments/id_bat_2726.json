@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 653,
+      "personneID": 867,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue Custine"
   },
   "arrondissement": 18,
+  "tri_alphab": "Custine",
   "coordonnees": {
     "latitude": "48.889233",
     "longitude": "2.345373"
@@ -27,12 +28,12 @@
   "WPfr": null,
   "image_ref": "Custine-46_18_§1",
   "terme_jantzen_bat": [
-    "console",
-    "garde-corps",
-    "sculpture",
-    "fenetre",
     "porte-fer",
-    "balcon"
+    "fenetre",
+    "balcon",
+    "console",
+    "sculpture",
+    "garde-corps"
   ],
   "photos": [
     {

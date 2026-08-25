@@ -13,6 +13,7 @@
     "voie": "rue Garancière"
   },
   "arrondissement": 6,
+  "tri_alphab": "Garanciere",
   "coordonnees": {
     "latitude": "48.850045",
     "longitude": "2.33579"
@@ -23,10 +24,10 @@
   "image_ref": "Garanciere-8_6_§1",
   "terme_jantzen_bat": [
     "façade",
-    "porte",
-    "sculpture",
     "fenetre",
+    "porte",
     "pilastre",
+    "sculpture",
     "porte-bois"
   ],
   "photos": [

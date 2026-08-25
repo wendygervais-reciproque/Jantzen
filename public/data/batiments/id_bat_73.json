@@ -2,13 +2,39 @@
   "id_bat": 73,
   "libelle": "Église Saint-Roch",
   "ensemble": null,
-  "personnes": null,
+  "personnes": [
+    {
+      "personneID": 136,
+      "role": "architecte"
+    },
+    {
+      "personneID": 229,
+      "role": "architecte"
+    },
+    {
+      "personneID": 230,
+      "role": "architecte"
+    },
+    {
+      "personneID": 546,
+      "role": "architecte"
+    },
+    {
+      "personneID": 170,
+      "role": "architecte"
+    },
+    {
+      "personneID": 461,
+      "role": "architecte"
+    }
+  ],
   "dateConstruction": null,
   "periode": [
     "1660-1759"
   ],
   "adresse": null,
   "arrondissement": 1,
+  "tri_alphab": "St-Roch-Eglise",
   "coordonnees": {
     "latitude": "48.865327",
     "longitude": "2.332608"
@@ -18,8 +44,8 @@
   "WPfr": null,
   "image_ref": "St-Roch-Eglise_1_§1",
   "terme_jantzen_bat": [
-    "dome",
-    "intérieur"
+    "intérieur",
+    "dome"
   ],
   "photos": [
     {

@@ -4,7 +4,19 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 168,
+      "personneID": 411,
+      "role": "architecte"
+    },
+    {
+      "personneID": 881,
+      "role": "architecte"
+    },
+    {
+      "personneID": 604,
+      "role": "architecte"
+    },
+    {
+      "personneID": 263,
       "role": "architecte"
     }
   ],
@@ -14,6 +26,7 @@
   ],
   "adresse": null,
   "arrondissement": 8,
+  "tri_alphab": "Grand-Palais",
   "coordonnees": {
     "latitude": "48.86611",
     "longitude": "2.31250"
@@ -21,26 +34,26 @@
   "id_pss": 2641,
   "id_wikidata": "Q457318",
   "WPfr": "Grand Palais (Paris)",
-  "image_ref": "Grand-Palais_8_§10",
+  "image_ref": "Grand-Palais_8_§38",
   "terme_jantzen_bat": [
-    "façade",
-    "verrière",
-    "pont",
-    "mosaique",
+    "métal",
     "tourelle",
-    "sculpture",
+    "porte-fer",
+    "façade",
+    "mosaique",
+    "verrière",
+    "intérieur",
+    "dome",
     "panoramique",
     "fenetre",
-    "porte-fer",
-    "métal",
-    "porte",
-    "façade-d'angle",
-    "colonne",
-    "intérieur",
-    "balcon",
-    "voie",
     "toiture",
-    "dome"
+    "balcon",
+    "porte",
+    "voie",
+    "pont",
+    "façade-d'angle",
+    "sculpture",
+    "colonne"
   ],
   "photos": [
     {

@@ -4,7 +4,11 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 291,
+      "personneID": 419,
+      "role": "architecte"
+    },
+    {
+      "personneID": 186,
       "role": "architecte"
     }
   ],
@@ -18,6 +22,7 @@
     "voie": "rue Eugène-Delacroix"
   },
   "arrondissement": 16,
+  "tri_alphab": "Eugene-Delacroix",
   "coordonnees": {
     "latitude": "48.862879",
     "longitude": "2.277873"

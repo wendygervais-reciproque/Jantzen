@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 233,
+      "personneID": 347,
       "role": "architecte"
     }
   ],
@@ -19,6 +19,7 @@
     "voie": "rue de Prony"
   },
   "arrondissement": 17,
+  "tri_alphab": "Prony",
   "coordonnees": {
     "latitude": "48.881374",
     "longitude": "2.30616"
@@ -28,11 +29,11 @@
   "WPfr": null,
   "image_ref": "Prony-29-31_17_§1",
   "terme_jantzen_bat": [
+    "porte-fer",
     "façade",
+    "fenetre",
     "lucarne",
     "sculpture",
-    "fenetre",
-    "porte-fer",
     "porte-bois"
   ],
   "photos": [

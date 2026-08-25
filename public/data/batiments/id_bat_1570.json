@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 281,
+      "personneID": 260,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue de Tournon"
   },
   "arrondissement": 6,
+  "tri_alphab": "Tournon",
   "coordonnees": {
     "latitude": "48.849441",
     "longitude": "2.33713"
@@ -27,11 +28,11 @@
   "WPfr": null,
   "image_ref": "Tournon-20_6_§1",
   "terme_jantzen_bat": [
+    "clé",
+    "porte-fer",
     "oeil-de-boeuf",
     "chimère",
-    "clé",
-    "sculpture",
-    "porte-fer"
+    "sculpture"
   ],
   "photos": [
     {

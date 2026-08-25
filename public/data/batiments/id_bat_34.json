@@ -2,13 +2,35 @@
   "id_bat": 34,
   "libelle": "Pavillon Denon",
   "ensemble": "Palais du Louvre",
-  "personnes": null,
+  "personnes": [
+    {
+      "personneID": 552,
+      "role": "architecte"
+    },
+    {
+      "personneID": 934,
+      "role": "architecte"
+    },
+    {
+      "personneID": 568,
+      "role": "architecte"
+    },
+    {
+      "personneID": 644,
+      "role": "architecte"
+    },
+    {
+      "personneID": 588,
+      "role": "architecte"
+    }
+  ],
   "dateConstruction": "1853-1880",
   "periode": [
     "1850-1869"
   ],
   "adresse": null,
   "arrondissement": 1,
+  "tri_alphab": "Louvre-1-Cc2",
   "coordonnees": {
     "latitude": "48.86039391730074",
     "longitude": "2.335492273290254"
@@ -16,11 +38,11 @@
   "id_pss": 8430,
   "id_wikidata": "Q109591503",
   "WPfr": null,
-  "image_ref": "Louvre-1-Cc2-Eb",
+  "image_ref": "Louvre-1-Cn_P-Denon-01",
   "terme_jantzen_bat": [
-    "sculpture",
+    "cariatide",
     "toiture",
-    "cariatide"
+    "sculpture"
   ],
   "photos": [
     {

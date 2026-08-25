@@ -14,6 +14,7 @@
     "voie": "rue Saint-Étienne-du-Mont"
   },
   "arrondissement": 5,
+  "tri_alphab": "St-Etienne-Du-Mont",
   "coordonnees": {
     "latitude": "48.8467",
     "longitude": "2.34835"
@@ -23,16 +24,16 @@
   "WPfr": null,
   "image_ref": "St-Etienne-Du-Mont_5_§1",
   "terme_jantzen_bat": [
-    "façade",
-    "tour",
-    "tourelle",
-    "sculpture",
     "clé",
+    "tourelle",
+    "façade",
     "fenetre",
+    "toiture",
+    "tour",
     "fronton",
-    "colonne",
+    "sculpture",
     "porte-bois",
-    "toiture"
+    "colonne"
   ],
   "photos": [
     {

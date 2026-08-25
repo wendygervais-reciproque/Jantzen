@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 438,
+      "personneID": 590,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue Damrémont"
   },
   "arrondissement": 18,
+  "tri_alphab": "Damremont",
   "coordonnees": {
     "latitude": "48.888657",
     "longitude": "2.333046"
@@ -27,17 +28,17 @@
   "WPfr": null,
   "image_ref": "Damremont-19_18_§1",
   "terme_jantzen_bat": [
-    "console",
-    "lucarne",
-    "fenetre-d'angle",
     "décor",
     "sculpture",
-    "fenetre",
     "porte-fer",
-    "pilastre",
     "lucarne-d'angle",
+    "fenetre",
     "balcon",
-    "toiture"
+    "toiture",
+    "console",
+    "pilastre",
+    "fenetre-d'angle",
+    "lucarne"
   ],
   "photos": [
     {

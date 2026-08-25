@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 566,
+      "personneID": 749,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "boulevard Exelmans"
   },
   "arrondissement": 16,
+  "tri_alphab": "Exelmans",
   "coordonnees": {
     "latitude": "48.846496",
     "longitude": "2.258481"
@@ -27,9 +28,9 @@
   "WPfr": null,
   "image_ref": "Exelmans-121_16_§1",
   "terme_jantzen_bat": [
-    "sculpture",
     "clé",
-    "fenetre"
+    "fenetre",
+    "sculpture"
   ],
   "photos": [
     {

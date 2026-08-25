@@ -4,7 +4,11 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 616,
+      "personneID": 415,
+      "role": "architecte"
+    },
+    {
+      "personneID": 162,
       "role": "architecte"
     }
   ],
@@ -15,6 +19,7 @@
   ],
   "adresse": null,
   "arrondissement": 6,
+  "tri_alphab": "Palais-Du-Luxembourg",
   "coordonnees": {
     "latitude": "48.848333333333",
     "longitude": "2.3375"
@@ -24,15 +29,15 @@
   "WPfr": "Palais du Luxembourg",
   "image_ref": "Palais-Du-Luxembourg_6_§1",
   "terme_jantzen_bat": [
-    "façade",
-    "cariatide",
     "décor",
-    "porte",
-    "sculpture",
+    "cariatide",
+    "façade",
     "fenetre",
+    "dome",
+    "porte",
     "fronton",
-    "colonne",
-    "dome"
+    "sculpture",
+    "colonne"
   ],
   "photos": [
     {

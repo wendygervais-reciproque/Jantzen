@@ -4,7 +4,11 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 132,
+      "personneID": 209,
+      "role": "architecte"
+    },
+    {
+      "personneID": 910,
       "role": "architecte"
     }
   ],
@@ -18,6 +22,7 @@
     "voie": "rue Censier"
   },
   "arrondissement": 5,
+  "tri_alphab": "Censier",
   "coordonnees": {
     "latitude": "48.840685",
     "longitude": "2.353658"
@@ -27,10 +32,10 @@
   "WPfr": null,
   "image_ref": "Censier-20_5_§1",
   "terme_jantzen_bat": [
-    "brique",
-    "céramique",
+    "fenetre",
     "porte-fer",
-    "fenetre"
+    "céramique",
+    "brique"
   ],
   "photos": [
     {

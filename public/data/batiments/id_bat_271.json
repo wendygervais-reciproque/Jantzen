@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 646,
+      "personneID": 854,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "square de La Tour-Maubourg"
   },
   "arrondissement": 7,
+  "tri_alphab": "Tour-Maubourg-Sq",
   "coordonnees": {
     "latitude": "48.85783",
     "longitude": "2.308641"
@@ -27,9 +28,9 @@
   "WPfr": null,
   "image_ref": "Tour-Maubourg-Sq-1_7_§1",
   "terme_jantzen_bat": [
+    "fenetre",
     "console",
-    "sculpture",
-    "fenetre"
+    "sculpture"
   ],
   "photos": [
     {

@@ -13,6 +13,7 @@
     "voie": "avenue Niel"
   },
   "arrondissement": 17,
+  "tri_alphab": "Niel",
   "coordonnees": {
     "latitude": "48.882071",
     "longitude": "2.295722"
@@ -22,11 +23,11 @@
   "WPfr": null,
   "image_ref": "Niel-65_17_§1",
   "terme_jantzen_bat": [
-    "lucarne",
-    "fronton",
     "porte-fer",
-    "colonne",
-    "lucarne-d'angle"
+    "lucarne-d'angle",
+    "fronton",
+    "lucarne",
+    "colonne"
   ],
   "photos": [
     {

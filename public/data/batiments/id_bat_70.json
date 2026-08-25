@@ -2,13 +2,19 @@
   "id_bat": 70,
   "libelle": "Église Saint-Léon",
   "ensemble": null,
-  "personnes": null,
+  "personnes": [
+    {
+      "personneID": 167,
+      "role": "architecte"
+    }
+  ],
   "dateConstruction": null,
   "periode": [
     "1915-1944"
   ],
   "adresse": null,
   "arrondissement": 15,
+  "tri_alphab": "St-Leon-Eglise",
   "coordonnees": {
     "latitude": "48.85093611111111",
     "longitude": "2.2965805555555554"

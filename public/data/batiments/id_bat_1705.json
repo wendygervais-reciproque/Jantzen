@@ -4,7 +4,15 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 349,
+      "personneID": 159,
+      "role": "architecte"
+    },
+    {
+      "personneID": 859,
+      "role": "architecte"
+    },
+    {
+      "personneID": 497,
       "role": "architecte"
     }
   ],
@@ -18,6 +26,7 @@
     "voie": "rue Troyon"
   },
   "arrondissement": 17,
+  "tri_alphab": "Troyon",
   "coordonnees": {
     "latitude": "48.876463",
     "longitude": "2.294937"
@@ -27,9 +36,9 @@
   "WPfr": null,
   "image_ref": "Troyon-22_17_§1",
   "terme_jantzen_bat": [
+    "garde-corps",
     "console",
-    "sculpture",
-    "garde-corps"
+    "sculpture"
   ],
   "photos": [
     {

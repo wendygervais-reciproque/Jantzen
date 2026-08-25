@@ -13,6 +13,7 @@
     "voie": "rue des Écoles"
   },
   "arrondissement": 5,
+  "tri_alphab": "Ecoles",
   "coordonnees": {
     "latitude": "48.847501",
     "longitude": "2.35227"
@@ -22,11 +23,11 @@
   "WPfr": null,
   "image_ref": "Ecoles-3_5_§1",
   "terme_jantzen_bat": [
-    "façade",
-    "garde-corps",
     "décor",
+    "façade",
+    "fenetre",
     "sculpture",
-    "fenetre"
+    "garde-corps"
   ],
   "photos": [
     {

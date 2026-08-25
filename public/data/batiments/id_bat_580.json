@@ -2,7 +2,12 @@
   "id_bat": 580,
   "libelle": "118 rue Lecourbe",
   "ensemble": null,
-  "personnes": null,
+  "personnes": [
+    {
+      "personneID": 753,
+      "role": "architecte"
+    }
+  ],
   "dateConstruction": "1898",
   "periode": [
     "1895-1914"
@@ -13,6 +18,7 @@
     "voie": "rue Lecourbe"
   },
   "arrondissement": 15,
+  "tri_alphab": "Lecourbe",
   "coordonnees": {
     "latitude": "48.842533",
     "longitude": "2.302062"

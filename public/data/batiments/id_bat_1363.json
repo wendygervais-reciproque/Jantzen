@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 233,
+      "personneID": 347,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue de Prony"
   },
   "arrondissement": 17,
+  "tri_alphab": "Prony",
   "coordonnees": {
     "latitude": "48.881203",
     "longitude": "2.306565"
@@ -27,12 +28,12 @@
   "WPfr": null,
   "image_ref": "Prony-19_17_§1",
   "terme_jantzen_bat": [
-    "lucarne",
     "décor",
+    "façade-d'angle",
     "porte",
-    "sculpture",
     "fronton",
-    "façade-d'angle"
+    "lucarne",
+    "sculpture"
   ],
   "photos": [
     {

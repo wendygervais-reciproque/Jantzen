@@ -13,6 +13,7 @@
     "voie": "rue Saint-Antoine"
   },
   "arrondissement": 4,
+  "tri_alphab": "St-Antoine",
   "coordonnees": {
     "latitude": "48.853438",
     "longitude": "2.366266"
@@ -22,10 +23,10 @@
   "WPfr": null,
   "image_ref": "St-Antoine-17_4_§1",
   "terme_jantzen_bat": [
-    "façade",
-    "toiture",
+    "tourelle",
     "dome",
-    "tourelle"
+    "façade",
+    "toiture"
   ],
   "photos": [
     {

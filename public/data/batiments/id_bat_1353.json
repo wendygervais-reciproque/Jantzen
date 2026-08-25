@@ -4,7 +4,15 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 91,
+      "personneID": 681,
+      "role": "architecte"
+    },
+    {
+      "personneID": 109,
+      "role": "architecte"
+    },
+    {
+      "personneID": 525,
       "role": "architecte"
     }
   ],
@@ -18,6 +26,7 @@
     "voie": "boulevard des Italiens"
   },
   "arrondissement": 2,
+  "tri_alphab": "Italiens-Bd",
   "coordonnees": {
     "latitude": "48.871192",
     "longitude": "2.336463"

@@ -2,7 +2,12 @@
   "id_bat": 2113,
   "libelle": "3 rue Jeanne-d'Arc",
   "ensemble": null,
-  "personnes": null,
+  "personnes": [
+    {
+      "personneID": 456,
+      "role": "architecte"
+    }
+  ],
   "dateConstruction": null,
   "periode": [
     "1895-1914"
@@ -13,6 +18,7 @@
     "voie": "rue Jeanne-d'Arc"
   },
   "arrondissement": 13,
+  "tri_alphab": "Jeanne-d'Arc",
   "coordonnees": {
     "latitude": "48.828772",
     "longitude": "2.36953"
@@ -22,8 +28,8 @@
   "WPfr": null,
   "image_ref": "Jeanne-d'Arc-3_13_§1",
   "terme_jantzen_bat": [
-    "brique",
-    "porte-fer"
+    "porte-fer",
+    "brique"
   ],
   "photos": [
     {

@@ -13,6 +13,7 @@
     "voie": "rue Alfred-de-Vigny"
   },
   "arrondissement": 8,
+  "tri_alphab": "Alfred-de-Vigny",
   "coordonnees": {
     "latitude": "48.878815",
     "longitude": "2.305258"
@@ -22,13 +23,13 @@
   "WPfr": null,
   "image_ref": "Alfred-de-Vigny-8_8_§1",
   "terme_jantzen_bat": [
-    "façade",
-    "lucarne",
-    "cariatide",
-    "brique",
     "tourelle",
-    "sculpture",
-    "fenetre"
+    "cariatide",
+    "façade",
+    "brique",
+    "fenetre",
+    "lucarne",
+    "sculpture"
   ],
   "photos": [
     {

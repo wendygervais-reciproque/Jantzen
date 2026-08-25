@@ -2,7 +2,16 @@
   "id_bat": 3408,
   "libelle": "7 rue de Trétaigne",
   "ensemble": null,
-  "personnes": null,
+  "personnes": [
+    {
+      "personneID": 826,
+      "role": "architecte"
+    },
+    {
+      "personneID": 832,
+      "role": "architecte"
+    }
+  ],
   "dateConstruction": "1904",
   "periode": [
     "1895-1914"
@@ -13,6 +22,7 @@
     "voie": "rue de Trétaigne"
   },
   "arrondissement": 18,
+  "tri_alphab": "Tretaigne",
   "coordonnees": {
     "latitude": "48.891775",
     "longitude": "2.342064"
@@ -24,9 +34,9 @@
   "terme_jantzen_bat": [
     "mosaique",
     "brique",
-    "oriel",
     "fenetre",
-    "porte-bois"
+    "porte-bois",
+    "oriel"
   ],
   "photos": [
     {

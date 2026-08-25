@@ -2,7 +2,48 @@
   "id_bat": 109,
   "libelle": "Notre-Dame de Paris",
   "ensemble": null,
-  "personnes": null,
+  "personnes": [
+    {
+      "personneID": 540,
+      "role": "architecte"
+    },
+    {
+      "personneID": 762,
+      "role": "architecte"
+    },
+    {
+      "personneID": 205,
+      "role": "architecte"
+    },
+    {
+      "personneID": 204,
+      "role": "architecte"
+    },
+    {
+      "personneID": 230,
+      "role": "architecte"
+    },
+    {
+      "personneID": 932,
+      "role": "architecte"
+    },
+    {
+      "personneID": 666,
+      "role": "architecte"
+    },
+    {
+      "personneID": 863,
+      "role": "architecte"
+    },
+    {
+      "personneID": 873,
+      "role": "architecte"
+    },
+    {
+      "personneID": 533,
+      "role": "architecte"
+    }
+  ],
   "dateConstruction": null,
   "periode": [
     "1180-1529",
@@ -10,6 +51,7 @@
   ],
   "adresse": null,
   "arrondissement": 4,
+  "tri_alphab": "Notre-Dame",
   "coordonnees": {
     "latitude": "48.853",
     "longitude": "2.3498"
@@ -20,15 +62,15 @@
   "image_ref": "Notre-Dame_4_§1",
   "terme_jantzen_bat": [
     "façade",
+    "fenetre",
+    "intérieur",
     "verrière",
+    "toiture",
+    "pilastre",
     "lucarne",
     "sculpture",
-    "fenetre",
-    "pilastre",
-    "colonne",
-    "intérieur",
     "porte-bois",
-    "toiture"
+    "colonne"
   ],
   "photos": [
     {

@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 256,
+      "personneID": 368,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "boulevard Saint-Germain"
   },
   "arrondissement": 7,
+  "tri_alphab": "St-Germain",
   "coordonnees": {
     "latitude": "48.856945",
     "longitude": "2.324346"
@@ -27,12 +28,12 @@
   "WPfr": null,
   "image_ref": "St-Germain-215_7_§1",
   "terme_jantzen_bat": [
-    "oeil-de-boeuf",
-    "lucarne",
-    "fenetre-d'angle",
-    "tour",
     "fenetre",
     "façade-d'angle",
+    "tour",
+    "oeil-de-boeuf",
+    "fenetre-d'angle",
+    "lucarne",
     "colonne"
   ],
   "photos": [

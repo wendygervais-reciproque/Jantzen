@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 290,
+      "personneID": 820,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue Réaumur"
   },
   "arrondissement": 3,
+  "tri_alphab": "Reaumur",
   "coordonnees": {
     "latitude": "48.865717",
     "longitude": "2.354438"
@@ -27,13 +28,13 @@
   "WPfr": null,
   "image_ref": "Reaumur-39_3_§1",
   "terme_jantzen_bat": [
-    "façade",
-    "console",
-    "loggia",
     "décor",
+    "loggia",
+    "façade",
+    "atlante",
+    "console",
     "sculpture",
-    "colonne",
-    "atlante"
+    "colonne"
   ],
   "photos": [
     {

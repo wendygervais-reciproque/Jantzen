@@ -4,7 +4,11 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 305,
+      "personneID": 646,
+      "role": "architecte"
+    },
+    {
+      "personneID": 427,
       "role": "architecte"
     }
   ],
@@ -18,6 +22,7 @@
     "voie": "rue de Bagnolet"
   },
   "arrondissement": 20,
+  "tri_alphab": "Bagnolet",
   "coordonnees": {
     "latitude": "48.856733",
     "longitude": "2.396847"
@@ -27,16 +32,16 @@
   "WPfr": null,
   "image_ref": "Bagnolet-24_20_§1",
   "terme_jantzen_bat": [
-    "garde-corps",
-    "fenetre-d'angle",
-    "brique",
     "décor",
-    "sculpture",
+    "brique",
     "fenetre",
-    "poignée-porte",
     "façade-d'angle",
     "balcon",
-    "céramique"
+    "céramique",
+    "fenetre-d'angle",
+    "sculpture",
+    "garde-corps",
+    "poignée-porte"
   ],
   "photos": [
     {

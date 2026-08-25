@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 194,
+      "personneID": 311,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue des Renaudes"
   },
   "arrondissement": 17,
+  "tri_alphab": "Renaudes",
   "coordonnees": {
     "latitude": "48.879106",
     "longitude": "2.300435"
@@ -27,9 +28,9 @@
   "WPfr": null,
   "image_ref": "Renaudes-8_17_§2",
   "terme_jantzen_bat": [
-    "brique",
     "fenetre",
     "console",
+    "brique",
     "garde-corps"
   ],
   "photos": [

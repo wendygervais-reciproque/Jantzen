@@ -13,6 +13,7 @@
     "voie": "rue de Verneuil"
   },
   "arrondissement": 7,
+  "tri_alphab": "Verneuil",
   "coordonnees": {
     "latitude": "48.858329",
     "longitude": "2.328148"
@@ -22,9 +23,9 @@
   "WPfr": null,
   "image_ref": "Verneuil-44_7_§1",
   "terme_jantzen_bat": [
-    "garde-corps",
     "colonne",
-    "balcon"
+    "balcon",
+    "garde-corps"
   ],
   "photos": [
     {

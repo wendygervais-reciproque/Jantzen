@@ -4,7 +4,11 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 399,
+      "personneID": 681,
+      "role": "architecte"
+    },
+    {
+      "personneID": 525,
       "role": "architecte"
     }
   ],
@@ -18,6 +22,7 @@
     "voie": "rue du Quatre-Septembre"
   },
   "arrondissement": 2,
+  "tri_alphab": "Quatre-Septembre",
   "coordonnees": {
     "latitude": "48.869699",
     "longitude": "2.33647"
@@ -27,15 +32,15 @@
   "WPfr": null,
   "image_ref": "Quatre-Septembre-16_2_§1",
   "terme_jantzen_bat": [
-    "oeil-de-boeuf",
-    "lucarne",
-    "fenetre-d'angle",
     "décor",
     "sculpture",
-    "fenetre",
     "porte-fer",
+    "lucarne-d'angle",
+    "fenetre",
+    "oeil-de-boeuf",
     "pilastre",
-    "lucarne-d'angle"
+    "lucarne",
+    "fenetre-d'angle"
   ],
   "photos": [
     {

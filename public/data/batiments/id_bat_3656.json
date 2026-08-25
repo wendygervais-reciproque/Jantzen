@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 659,
+      "personneID": 728,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue Rosa-Bonheur"
   },
   "arrondissement": 15,
+  "tri_alphab": "Rosa-Bonheur",
   "coordonnees": {
     "latitude": "48.846448",
     "longitude": "2.309925"
@@ -27,14 +28,14 @@
   "WPfr": null,
   "image_ref": "Rosa-Bonheur-8_15_§1",
   "terme_jantzen_bat": [
-    "façade",
-    "oriel",
-    "brique",
-    "décor",
-    "sculpture",
-    "fenetre",
     "métal",
-    "céramique"
+    "décor",
+    "façade",
+    "brique",
+    "fenetre",
+    "céramique",
+    "sculpture",
+    "oriel"
   ],
   "photos": [
     {

@@ -1,10 +1,10 @@
 {
   "id_bat": 1661,
-  "libelle": "217 rue du Faubourg-Saint-Honoré",
+  "libelle": "217 rue du Faubourg Saint-Honoré",
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 124,
+      "personneID": 591,
       "role": "architecte"
     }
   ],
@@ -13,11 +13,12 @@
     "1895-1914"
   ],
   "adresse": {
-    "affichage": "217 rue du Faubourg-Saint-Honoré",
+    "affichage": "217 rue du Faubourg Saint-Honoré",
     "numero": "217",
-    "voie": "rue du Faubourg-Saint-Honoré"
+    "voie": "rue du Faubourg Saint-Honoré"
   },
   "arrondissement": 8,
+  "tri_alphab": "Faubourg-St-Honore",
   "coordonnees": {
     "latitude": "48.87679",
     "longitude": "2.300893"
@@ -27,11 +28,11 @@
   "WPfr": null,
   "image_ref": "Faubourg-St-Honore-217_8_§1",
   "terme_jantzen_bat": [
-    "console",
     "décor",
-    "sculpture",
+    "fenetre",
+    "console",
     "chimère",
-    "fenetre"
+    "sculpture"
   ],
   "photos": [
     {

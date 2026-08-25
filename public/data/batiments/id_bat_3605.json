@@ -1,0 +1,36 @@
+{
+  "id_bat": 3605,
+  "libelle": "8 rue Censier",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 557,
+      "role": "architecte"
+    },
+    {
+      "personneID": 133,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1929",
+  "periode": [
+    "1915-1944"
+  ],
+  "adresse": {
+    "affichage": "8 rue Censier",
+    "numero": "8",
+    "voie": "rue Censier"
+  },
+  "arrondissement": 5,
+  "tri_alphab": "Censier",
+  "coordonnees": {
+    "latitude": "48.841052",
+    "longitude": "2.355104"
+  },
+  "id_pss": 78854,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 2154,
+  "terme_jantzen_bat": [],
+  "photos": []
+}

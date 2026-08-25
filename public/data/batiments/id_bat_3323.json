@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 351,
+      "personneID": 128,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue des Meuniers"
   },
   "arrondissement": 12,
+  "tri_alphab": "Meuniers",
   "coordonnees": {
     "latitude": "48.836293",
     "longitude": "2.393252"
@@ -27,17 +28,17 @@
   "WPfr": null,
   "image_ref": "Meuniers-67_12_§1",
   "terme_jantzen_bat": [
-    "console",
-    "lucarne",
-    "fenetre-d'angle",
+    "métal",
+    "décor",
+    "porte-fer",
     "mosaique",
     "brique",
-    "décor",
+    "lucarne-d'angle",
     "fenetre",
-    "porte-fer",
-    "métal",
     "façade-d'angle",
-    "lucarne-d'angle"
+    "console",
+    "fenetre-d'angle",
+    "lucarne"
   ],
   "photos": [
     {

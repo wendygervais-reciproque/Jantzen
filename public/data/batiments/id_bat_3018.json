@@ -4,7 +4,11 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 195,
+      "personneID": 695,
+      "role": "architecte"
+    },
+    {
+      "personneID": 313,
       "role": "architecte"
     }
   ],
@@ -18,6 +22,7 @@
     "voie": "rue de Chabrol"
   },
   "arrondissement": 10,
+  "tri_alphab": "Chabrol",
   "coordonnees": {
     "latitude": "48.876969",
     "longitude": "2.351889"
@@ -27,8 +32,8 @@
   "WPfr": null,
   "image_ref": "Chabrol-∆-Hauteville_10_§1",
   "terme_jantzen_bat": [
-    "pilastre",
     "façade",
+    "pilastre",
     "fenetre-d'angle"
   ],
   "photos": [

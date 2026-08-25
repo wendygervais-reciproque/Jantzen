@@ -13,6 +13,7 @@
     "voie": "rue de l'Abbaye"
   },
   "arrondissement": 6,
+  "tri_alphab": "Abbaye",
   "coordonnees": {
     "latitude": "48.854021",
     "longitude": "2.336018"
@@ -22,8 +23,8 @@
   "WPfr": null,
   "image_ref": "Abbaye-2_6_§1",
   "terme_jantzen_bat": [
-    "façade",
     "voie",
+    "façade",
     "toiture",
     "lucarne"
   ],

@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 560,
+      "personneID": 739,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue René-Panhard"
   },
   "arrondissement": 13,
+  "tri_alphab": "Rene-Panhard",
   "coordonnees": {
     "latitude": "48.838717",
     "longitude": "2.359325"
@@ -27,14 +28,14 @@
   "WPfr": null,
   "image_ref": "Rene-Panhard-_13_§1",
   "terme_jantzen_bat": [
-    "façade",
-    "lucarne",
-    "porte-fer-hall",
     "décor",
-    "sculpture",
-    "porte",
+    "porte-fer",
+    "façade",
     "fenetre",
-    "porte-fer"
+    "porte",
+    "porte-fer-hall",
+    "lucarne",
+    "sculpture"
   ],
   "photos": [
     {

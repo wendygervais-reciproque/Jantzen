@@ -4,7 +4,11 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 522,
+      "personneID": 704,
+      "role": "architecte"
+    },
+    {
+      "personneID": 173,
       "role": "architecte"
     }
   ],
@@ -18,6 +22,7 @@
     "voie": "rue Cernuschi"
   },
   "arrondissement": 17,
+  "tri_alphab": "Cernuschi",
   "coordonnees": {
     "latitude": "48.886238",
     "longitude": "2.306991"
@@ -28,10 +33,10 @@
   "image_ref": "Cernuschi-3_17_§1",
   "terme_jantzen_bat": [
     "façade",
-    "oriel",
     "brique",
     "fenetre",
-    "porte-bois"
+    "porte-bois",
+    "oriel"
   ],
   "photos": [
     {

@@ -13,6 +13,7 @@
     "voie": "rue de Romainville"
   },
   "arrondissement": 19,
+  "tri_alphab": "Romainville",
   "coordonnees": {
     "latitude": "48.877417",
     "longitude": "2.40301"
@@ -22,10 +23,10 @@
   "WPfr": null,
   "image_ref": "Romainville-57_19_§1",
   "terme_jantzen_bat": [
-    "brique",
     "décor",
     "fenetre",
-    "mosaique"
+    "mosaique",
+    "brique"
   ],
   "photos": [
     {

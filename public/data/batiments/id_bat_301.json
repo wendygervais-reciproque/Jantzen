@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 320,
+      "personneID": 455,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue Albert-de-Lapparent"
   },
   "arrondissement": 7,
+  "tri_alphab": "Albert-de-Lapparent",
   "coordonnees": {
     "latitude": "48.84821",
     "longitude": "2.307841"
@@ -28,8 +29,8 @@
   "image_ref": "Albert-de-Lapparent-10_7_§1",
   "terme_jantzen_bat": [
     "porte-fer-hall",
-    "lucarne",
-    "oriel"
+    "oriel",
+    "lucarne"
   ],
   "photos": [
     {

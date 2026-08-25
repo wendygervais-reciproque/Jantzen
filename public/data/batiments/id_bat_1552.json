@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 574,
+      "personneID": 755,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue Alphonse-de-Neuville"
   },
   "arrondissement": 17,
+  "tri_alphab": "Alphonse-de-Neuville",
   "coordonnees": {
     "latitude": "48.886318",
     "longitude": "2.302094"
@@ -27,13 +28,13 @@
   "WPfr": null,
   "image_ref": "Alphonse-de-Neuville-20_17_§2",
   "terme_jantzen_bat": [
-    "console",
     "loggia",
-    "garde-corps",
-    "lucarne",
     "décor",
+    "fenetre",
+    "console",
+    "lucarne",
     "sculpture",
-    "fenetre"
+    "garde-corps"
   ],
   "photos": [
     {

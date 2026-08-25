@@ -11,6 +11,7 @@
     "voie": "rue de Châteaudun"
   },
   "arrondissement": 9,
+  "tri_alphab": "Chateaudin",
   "coordonnees": {
     "latitude": "48.876322",
     "longitude": "2.334639"
@@ -20,13 +21,13 @@
   "WPfr": null,
   "image_ref": "Chateaudin-44_9_§1",
   "terme_jantzen_bat": [
-    "façade",
-    "lucarne",
     "décor",
-    "sculpture",
-    "fenetre",
     "porte-fer",
-    "pilastre"
+    "façade",
+    "fenetre",
+    "pilastre",
+    "lucarne",
+    "sculpture"
   ],
   "photos": [
     {

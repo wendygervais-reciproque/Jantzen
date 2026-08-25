@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 238,
+      "personneID": 354,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue de Tolbiac"
   },
   "arrondissement": 13,
+  "tri_alphab": "Tolbiac",
   "coordonnees": {
     "latitude": "48.829263",
     "longitude": "2.374599"
@@ -27,11 +28,11 @@
   "WPfr": null,
   "image_ref": "Tolbiac-15b_13_§1",
   "terme_jantzen_bat": [
-    "façade",
-    "porte-fer-hall",
-    "brique",
     "décor",
+    "façade",
+    "brique",
     "fenetre",
+    "porte-fer-hall",
     "céramique"
   ],
   "photos": [

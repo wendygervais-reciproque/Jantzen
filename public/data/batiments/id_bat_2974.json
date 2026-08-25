@@ -4,7 +4,11 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 176,
+      "personneID": 279,
+      "role": "architecte"
+    },
+    {
+      "personneID": 373,
       "role": "architecte"
     }
   ],
@@ -18,6 +22,7 @@
     "voie": "rue des Dames"
   },
   "arrondissement": 17,
+  "tri_alphab": "Dames",
   "coordonnees": {
     "latitude": "48.883883",
     "longitude": "2.32202"
@@ -27,10 +32,10 @@
   "WPfr": null,
   "image_ref": "Dames-53_17_§1",
   "terme_jantzen_bat": [
-    "brique",
-    "sculpture",
     "décor",
-    "oeil-de-boeuf"
+    "oeil-de-boeuf",
+    "brique",
+    "sculpture"
   ],
   "photos": [
     {

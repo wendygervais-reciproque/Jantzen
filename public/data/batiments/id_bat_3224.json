@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 250,
+      "personneID": 97,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue des Archives"
   },
   "arrondissement": 3,
+  "tri_alphab": "Archives",
   "coordonnees": {
     "latitude": "48.862047",
     "longitude": "2.358971"

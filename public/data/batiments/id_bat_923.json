@@ -2,7 +2,12 @@
   "id_bat": 923,
   "libelle": "14 rue Marceline-Desbordes-Valmore",
   "ensemble": null,
-  "personnes": null,
+  "personnes": [
+    {
+      "personneID": 823,
+      "role": "architecte"
+    }
+  ],
   "dateConstruction": null,
   "periode": [
     "1870-1894"
@@ -13,6 +18,7 @@
     "voie": "rue Marceline-Desbordes-Valmore"
   },
   "arrondissement": 16,
+  "tri_alphab": "Desbordes-Valmore",
   "coordonnees": {
     "latitude": "48.861307",
     "longitude": "2.277735"
@@ -22,8 +28,8 @@
   "WPfr": null,
   "image_ref": "Desbordes-Valmore-14_16_§1",
   "terme_jantzen_bat": [
-    "chimère",
     "clé",
+    "chimère",
     "sculpture"
   ],
   "photos": [

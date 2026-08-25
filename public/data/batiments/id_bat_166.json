@@ -4,7 +4,11 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 394,
+      "personneID": 517,
+      "role": "architecte"
+    },
+    {
+      "personneID": 516,
       "role": "architecte"
     }
   ],
@@ -18,6 +22,7 @@
     "voie": "avenue Niel"
   },
   "arrondissement": 17,
+  "tri_alphab": "Niel",
   "coordonnees": {
     "latitude": "48.878974",
     "longitude": "2.294143"
@@ -27,15 +32,15 @@
   "WPfr": null,
   "image_ref": "Niel-1_17_§1",
   "terme_jantzen_bat": [
-    "fenetre-d'angle",
     "décor",
-    "sculpture",
-    "fenetre",
     "porte-fer",
+    "lucarne-d'angle",
+    "fenetre",
     "façade-d'angle",
     "balcon",
-    "colonne",
-    "lucarne-d'angle"
+    "fenetre-d'angle",
+    "sculpture",
+    "colonne"
   ],
   "photos": [
     {

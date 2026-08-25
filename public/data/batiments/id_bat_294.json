@@ -2,12 +2,7 @@
   "id_bat": 294,
   "libelle": "10 place de la République",
   "ensemble": null,
-  "personnes": [
-    {
-      "personneID": 579,
-      "role": "architecte"
-    }
-  ],
+  "personnes": null,
   "dateConstruction": "1868",
   "periode": [
     "1850-1869"
@@ -18,6 +13,7 @@
     "voie": "place de la République"
   },
   "arrondissement": 11,
+  "tri_alphab": "Repubique_Pl",
   "coordonnees": {
     "latitude": "48.867386",
     "longitude": "2.365249"
@@ -27,13 +23,13 @@
   "WPfr": null,
   "image_ref": "Repubique_Pl_10_11_§1-Rs",
   "terme_jantzen_bat": [
-    "garde-corps",
-    "lucarne",
-    "cariatide",
     "décor",
-    "sculpture",
+    "pignon",
+    "cariatide",
     "fenetre",
-    "pignon"
+    "lucarne",
+    "sculpture",
+    "garde-corps"
   ],
   "photos": [
     {

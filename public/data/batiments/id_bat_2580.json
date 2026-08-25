@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 503,
+      "personneID": 685,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue Manin"
   },
   "arrondissement": 19,
+  "tri_alphab": "Manin",
   "coordonnees": {
     "latitude": "48.883811",
     "longitude": "2.39021"
@@ -27,11 +28,11 @@
   "WPfr": null,
   "image_ref": "Manin-40_19_§1",
   "terme_jantzen_bat": [
-    "brique",
-    "fronton",
     "décor",
-    "fenetre",
     "métal",
+    "brique",
+    "fenetre",
+    "fronton",
     "porte-bois"
   ],
   "photos": [

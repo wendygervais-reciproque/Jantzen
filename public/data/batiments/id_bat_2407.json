@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 414,
+      "personneID": 555,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "avenue de Laumière"
   },
   "arrondissement": 19,
+  "tri_alphab": "Laumiere",
   "coordonnees": {
     "latitude": "48.884555",
     "longitude": "2.379702"
@@ -27,18 +28,18 @@
   "WPfr": null,
   "image_ref": "Laumiere_39_19_§1",
   "terme_jantzen_bat": [
-    "console",
-    "oeil-de-boeuf",
-    "lucarne",
-    "fenetre-d'angle",
-    "sculpture",
     "clé",
-    "fenetre",
+    "sculpture",
     "porte-fer",
-    "porte",
+    "fenetre",
+    "dome",
     "façade-d'angle",
+    "porte",
+    "oeil-de-boeuf",
+    "console",
     "pilastre",
-    "dome"
+    "fenetre-d'angle",
+    "lucarne"
   ],
   "photos": [
     {

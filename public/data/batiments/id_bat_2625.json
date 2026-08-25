@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 100,
+      "personneID": 163,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue Decamps"
   },
   "arrondissement": 16,
+  "tri_alphab": "Decamps",
   "coordonnees": {
     "latitude": "48.863306",
     "longitude": "2.277495"
@@ -27,11 +28,11 @@
   "WPfr": null,
   "image_ref": "Decamps-42_16_§1",
   "terme_jantzen_bat": [
+    "fenetre",
+    "dome",
     "console",
     "sculpture",
-    "fenetre",
-    "porte-bois",
-    "dome"
+    "porte-bois"
   ],
   "photos": [
     {

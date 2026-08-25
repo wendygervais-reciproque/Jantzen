@@ -13,6 +13,7 @@
     "voie": "rue Rambuteau"
   },
   "arrondissement": 1,
+  "tri_alphab": "Rambuteau",
   "coordonnees": {
     "latitude": "48.862028",
     "longitude": "2.349673"
@@ -23,11 +24,11 @@
   "image_ref": "Rambuteau-77_1_§1",
   "terme_jantzen_bat": [
     "façade",
+    "fenetre",
     "porte",
     "fronton",
-    "fenetre",
-    "sculpture",
     "pilastre",
+    "sculpture",
     "porte-bois"
   ],
   "photos": [

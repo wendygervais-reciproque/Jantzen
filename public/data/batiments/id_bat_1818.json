@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 658,
+      "personneID": 876,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue Saint-Marc"
   },
   "arrondissement": 2,
+  "tri_alphab": "St-Marc",
   "coordonnees": {
     "latitude": "48.87056",
     "longitude": "2.339757"
@@ -27,10 +28,10 @@
   "WPfr": null,
   "image_ref": "St-Marc-24_2_§1",
   "terme_jantzen_bat": [
-    "verrière",
-    "fenetre",
-    "porte-fer",
     "métal",
+    "porte-fer",
+    "fenetre",
+    "verrière",
     "colonne"
   ],
   "photos": [

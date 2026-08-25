@@ -1,0 +1,36 @@
+{
+  "id_bat": 560,
+  "libelle": "116 rue de Tolbiac",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 224,
+      "role": "architecte"
+    },
+    {
+      "personneID": 748,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": null,
+  "periode": [
+    "1915-1944"
+  ],
+  "adresse": {
+    "affichage": "116 rue de Tolbiac",
+    "numero": "116",
+    "voie": "rue de Tolbiac"
+  },
+  "arrondissement": 13,
+  "tri_alphab": "Tolbiac",
+  "coordonnees": {
+    "latitude": "48.826382",
+    "longitude": "2.360996"
+  },
+  "id_pss": 45492,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 15277,
+  "terme_jantzen_bat": [],
+  "photos": []
+}

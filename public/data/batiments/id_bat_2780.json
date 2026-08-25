@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 582,
+      "personneID": 766,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "boulevard Victor"
   },
   "arrondissement": 15,
+  "tri_alphab": "Victor",
   "coordonnees": {
     "latitude": "48.833712",
     "longitude": "2.286411"
@@ -27,13 +28,13 @@
   "WPfr": null,
   "image_ref": "Victor-49_15_§1",
   "terme_jantzen_bat": [
-    "console",
-    "fenetre-d'angle",
     "décor",
-    "sculpture",
+    "lucarne-d'angle",
     "façade-d'angle",
     "balcon",
-    "lucarne-d'angle"
+    "console",
+    "fenetre-d'angle",
+    "sculpture"
   ],
   "photos": [
     {

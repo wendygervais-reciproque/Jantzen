@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 93,
+      "personneID": 152,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "avenue du Maine"
   },
   "arrondissement": 14,
+  "tri_alphab": "Maine-av",
   "coordonnees": {
     "latitude": "48.832584",
     "longitude": "2.32467"
@@ -25,19 +26,19 @@
   "id_pss": 4606,
   "id_wikidata": null,
   "WPfr": null,
-  "image_ref": "Maine-av-172_14_§10",
+  "image_ref": "Maine-av-172_14_§1-Rx",
   "terme_jantzen_bat": [
-    "console",
-    "garde-corps",
-    "loggia",
-    "lucarne",
-    "fenetre-d'angle",
     "décor",
-    "sculpture",
+    "loggia",
+    "colonne",
     "fenetre",
-    "façade-d'angle",
     "balcon",
-    "colonne"
+    "façade-d'angle",
+    "console",
+    "fenetre-d'angle",
+    "sculpture",
+    "lucarne",
+    "garde-corps"
   ],
   "photos": [
     {

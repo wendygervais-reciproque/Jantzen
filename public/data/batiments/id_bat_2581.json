@@ -4,7 +4,11 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 349,
+      "personneID": 859,
+      "role": "architecte"
+    },
+    {
+      "personneID": 497,
       "role": "architecte"
     }
   ],
@@ -18,6 +22,7 @@
     "voie": "rue Saint-Didier"
   },
   "arrondissement": 16,
+  "tri_alphab": "St-Didier",
   "coordonnees": {
     "latitude": "48.866623",
     "longitude": "2.285257"

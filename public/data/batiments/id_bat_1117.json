@@ -13,6 +13,7 @@
     "voie": "rue Claude-Bernard"
   },
   "arrondissement": 5,
+  "tri_alphab": "Claude-Bernard",
   "coordonnees": {
     "latitude": "48.839551",
     "longitude": "2.348191"
@@ -22,9 +23,9 @@
   "WPfr": null,
   "image_ref": "Claude-Bernard-16_5_§1",
   "terme_jantzen_bat": [
-    "brique",
     "fenetre",
-    "dome"
+    "dome",
+    "brique"
   ],
   "photos": [
     {

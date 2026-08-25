@@ -13,6 +13,7 @@
     "voie": "rue des Lions-Saint-Paul"
   },
   "arrondissement": 4,
+  "tri_alphab": "Lions-St-Paul",
   "coordonnees": {
     "latitude": "48.852539",
     "longitude": "2.362058"
@@ -22,10 +23,10 @@
   "WPfr": null,
   "image_ref": "Lions-St-Paul-12_4_§1",
   "terme_jantzen_bat": [
-    "façade",
-    "fronton",
+    "porte-bois",
     "fenetre",
-    "porte-bois"
+    "fronton",
+    "façade"
   ],
   "photos": [
     {

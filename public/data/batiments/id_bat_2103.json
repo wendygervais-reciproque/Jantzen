@@ -1,0 +1,36 @@
+{
+  "id_bat": 2103,
+  "libelle": "3 rue Ernest-Cresson",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 364,
+      "role": "architecte"
+    },
+    {
+      "personneID": 510,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": null,
+  "periode": [
+    "1915-1944"
+  ],
+  "adresse": {
+    "affichage": "3 rue Ernest-Cresson",
+    "numero": "3",
+    "voie": "rue Ernest-Cresson"
+  },
+  "arrondissement": 14,
+  "tri_alphab": "Ernest-Cresson",
+  "coordonnees": {
+    "latitude": "48.832329",
+    "longitude": "2.330082"
+  },
+  "id_pss": 28827,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 4124,
+  "terme_jantzen_bat": [],
+  "photos": []
+}

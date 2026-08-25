@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 365,
+      "personneID": 144,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue Jasmin"
   },
   "arrondissement": 16,
+  "tri_alphab": "Jasmin",
   "coordonnees": {
     "latitude": "48.852462",
     "longitude": "2.267621"
@@ -27,20 +28,20 @@
   "WPfr": null,
   "image_ref": "Jasmin-4_16_§1",
   "terme_jantzen_bat": [
-    "façade",
-    "console",
-    "garde-corps",
-    "fenetre-d'angle",
-    "porte-fer-hall",
     "décor",
-    "porte",
-    "sculpture",
-    "fenetre",
+    "pignon",
     "porte-fer",
+    "façade",
+    "fenetre",
     "façade-d'angle",
     "balcon",
+    "porte",
     "atlante",
-    "pignon"
+    "porte-fer-hall",
+    "console",
+    "fenetre-d'angle",
+    "sculpture",
+    "garde-corps"
   ],
   "photos": [
     {

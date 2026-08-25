@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 444,
+      "personneID": 600,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue de Rennes"
   },
   "arrondissement": 6,
+  "tri_alphab": "Rennes",
   "coordonnees": {
     "latitude": "48.848644",
     "longitude": "2.328619"
@@ -27,12 +28,12 @@
   "WPfr": null,
   "image_ref": "Rennes-107_6_§1",
   "terme_jantzen_bat": [
-    "façade",
-    "cariatide",
     "décor",
-    "sculpture",
+    "cariatide",
+    "façade",
     "fenetre",
     "pilastre",
+    "sculpture",
     "porte-bois"
   ],
   "photos": [

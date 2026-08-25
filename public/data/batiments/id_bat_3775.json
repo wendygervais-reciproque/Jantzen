@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 303,
+      "personneID": 425,
       "role": "architecte"
     }
   ],
@@ -17,7 +17,8 @@
     "numero": "9",
     "voie": "boulevard des Batignolles"
   },
-  "arrondissement": 17,
+  "arrondissement": 8,
+  "tri_alphab": "Batignoles",
   "coordonnees": {
     "latitude": "48.883025",
     "longitude": "2.326006"
@@ -27,12 +28,12 @@
   "WPfr": null,
   "image_ref": "Batignoles-9_17_§1",
   "terme_jantzen_bat": [
-    "lucarne",
-    "fenetre-d'angle",
-    "fenetre",
     "porte-fer",
+    "fenetre",
+    "dome",
     "façade-d'angle",
-    "dome"
+    "lucarne",
+    "fenetre-d'angle"
   ],
   "photos": [
     {

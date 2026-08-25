@@ -1,0 +1,36 @@
+{
+  "id_bat": 852,
+  "libelle": "137 boulevard de l'Hôpital",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 724,
+      "role": "architecte"
+    },
+    {
+      "personneID": 195,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1922-1926",
+  "periode": [
+    "1915-1944"
+  ],
+  "adresse": {
+    "affichage": "137 boulevard de l'Hôpital",
+    "numero": "137",
+    "voie": "boulevard de l'Hôpital"
+  },
+  "arrondissement": 13,
+  "tri_alphab": "Hopital-bd",
+  "coordonnees": {
+    "latitude": "48.834883",
+    "longitude": "2.358375"
+  },
+  "id_pss": 27827,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 6363,
+  "terme_jantzen_bat": [],
+  "photos": []
+}

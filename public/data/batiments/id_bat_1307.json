@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 134,
+      "personneID": 123,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue du Cherche-Midi"
   },
   "arrondissement": 6,
+  "tri_alphab": "Cherche-Midi",
   "coordonnees": {
     "latitude": "48.850807",
     "longitude": "2.328234"
@@ -28,12 +29,12 @@
   "image_ref": "Cherche-Midi-18_6_§1",
   "terme_jantzen_bat": [
     "façade",
-    "oeil-de-boeuf",
-    "poignée-porte",
-    "fronton",
     "fenetre",
+    "oeil-de-boeuf",
+    "fronton",
     "sculpture",
-    "porte-bois"
+    "porte-bois",
+    "poignée-porte"
   ],
   "photos": [
     {

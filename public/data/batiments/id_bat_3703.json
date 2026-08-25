@@ -2,7 +2,12 @@
   "id_bat": 3703,
   "libelle": "83 rue de Gergovie",
   "ensemble": null,
-  "personnes": null,
+  "personnes": [
+    {
+      "personneID": 625,
+      "role": "architecte"
+    }
+  ],
   "dateConstruction": "1904",
   "periode": [
     "1895-1914"
@@ -13,6 +18,7 @@
     "voie": "rue de Gergovie"
   },
   "arrondissement": 14,
+  "tri_alphab": "Gergovie",
   "coordonnees": {
     "latitude": "48.830963",
     "longitude": "2.318967"

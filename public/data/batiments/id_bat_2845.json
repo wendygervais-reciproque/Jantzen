@@ -4,7 +4,11 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 375,
+      "personneID": 499,
+      "role": "architecte"
+    },
+    {
+      "personneID": 498,
       "role": "architecte"
     }
   ],
@@ -18,6 +22,7 @@
     "voie": "rue de l'École-de-Médecine"
   },
   "arrondissement": 6,
+  "tri_alphab": "Ecole-Medecine",
   "coordonnees": {
     "latitude": "48.850587",
     "longitude": "2.341955"
@@ -27,17 +32,17 @@
   "WPfr": null,
   "image_ref": "Ecole-Medecine-5_6_§1",
   "terme_jantzen_bat": [
-    "façade",
-    "console",
-    "oeil-de-boeuf",
-    "lucarne",
     "tourelle",
+    "façade",
+    "dome",
     "porte",
-    "fronton",
-    "sculpture",
     "atlante",
-    "porte-bois",
-    "dome"
+    "oeil-de-boeuf",
+    "console",
+    "fronton",
+    "lucarne",
+    "sculpture",
+    "porte-bois"
   ],
   "photos": [
     {

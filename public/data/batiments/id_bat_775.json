@@ -13,6 +13,7 @@
     "voie": "place du Pont Neuf - Christo et Jeanne-Claude"
   },
   "arrondissement": 1,
+  "tri_alphab": "Pont-Neuf-Pl",
   "coordonnees": {
     "latitude": "48.881708",
     "longitude": "2.390076"
@@ -22,12 +23,12 @@
   "WPfr": null,
   "image_ref": "Pont-Neuf-Pl-13_1_§1-Rx",
   "terme_jantzen_bat": [
-    "façade",
-    "lucarne",
-    "brique",
-    "fronton",
     "décor",
+    "façade",
+    "brique",
     "fenetre",
+    "fronton",
+    "lucarne",
     "sculpture"
   ],
   "photos": [

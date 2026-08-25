@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 465,
+      "personneID": 623,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue de l'Abbaye"
   },
   "arrondissement": 6,
+  "tri_alphab": "Abbaye",
   "coordonnees": {
     "latitude": "48.853928",
     "longitude": "2.335529"
@@ -25,12 +26,12 @@
   "id_pss": 37967,
   "id_wikidata": null,
   "WPfr": null,
-  "image_ref": "Abbaye-3_6_§10-Rx",
+  "image_ref": "Abbaye-3_6_§1-Rx",
   "terme_jantzen_bat": [
-    "brique",
     "fronton",
+    "façade",
     "lucarne",
-    "façade"
+    "brique"
   ],
   "photos": [
     {

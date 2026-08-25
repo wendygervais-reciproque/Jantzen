@@ -2,13 +2,19 @@
   "id_bat": 68,
   "libelle": "Église Saint-Lambert de Vaugirard",
   "ensemble": null,
-  "personnes": null,
+  "personnes": [
+    {
+      "personneID": 679,
+      "role": "architecte"
+    }
+  ],
   "dateConstruction": null,
   "periode": [
     "1850-1869"
   ],
   "adresse": null,
   "arrondissement": 15,
+  "tri_alphab": "Gerbert-Eglise",
   "coordonnees": {
     "latitude": "48.8396",
     "longitude": "2.29825"
@@ -19,8 +25,8 @@
   "image_ref": "Gerbert-Eglise_15_§1",
   "terme_jantzen_bat": [
     "façade",
-    "toiture",
-    "lucarne"
+    "lucarne",
+    "toiture"
   ],
   "photos": [
     {

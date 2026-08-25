@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 420,
+      "personneID": 566,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "boulevard de Courcelles"
   },
   "arrondissement": 17,
+  "tri_alphab": "Courcelles-bd",
   "coordonnees": {
     "latitude": "48.880134",
     "longitude": "2.30688"
@@ -27,11 +28,11 @@
   "WPfr": null,
   "image_ref": "Courcelles-bd-68b_17_§1",
   "terme_jantzen_bat": [
-    "façade",
-    "lucarne",
     "porte-fer",
-    "colonne",
-    "dome"
+    "façade",
+    "dome",
+    "lucarne",
+    "colonne"
   ],
   "photos": [
     {

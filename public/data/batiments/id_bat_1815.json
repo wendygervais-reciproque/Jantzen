@@ -2,7 +2,12 @@
   "id_bat": 1815,
   "libelle": "24 rue Pavée",
   "ensemble": null,
-  "personnes": null,
+  "personnes": [
+    {
+      "personneID": 185,
+      "role": "architecte"
+    }
+  ],
   "dateConstruction": "XVIe siècle, vers 1610, 1612",
   "periode": [
     "1530-1589",
@@ -14,6 +19,7 @@
     "voie": "rue Pavée"
   },
   "arrondissement": 4,
+  "tri_alphab": "Pavee",
   "coordonnees": {
     "latitude": "48.857065",
     "longitude": "2.361696"
@@ -23,15 +29,15 @@
   "WPfr": null,
   "image_ref": "Pavee-24_4_§1",
   "terme_jantzen_bat": [
-    "façade",
-    "console",
-    "fenetre-d'angle",
-    "tourelle",
-    "fronton",
-    "sculpture",
-    "fenetre",
     "clé",
-    "pilastre"
+    "tourelle",
+    "façade",
+    "fenetre",
+    "console",
+    "fronton",
+    "pilastre",
+    "fenetre-d'angle",
+    "sculpture"
   ],
   "photos": [
     {

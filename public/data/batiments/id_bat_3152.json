@@ -4,7 +4,11 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 241,
+      "personneID": 423,
+      "role": "architecte"
+    },
+    {
+      "personneID": 357,
       "role": "architecte"
     }
   ],
@@ -18,6 +22,7 @@
     "voie": "rue Dufrenoy"
   },
   "arrondissement": 16,
+  "tri_alphab": "Dufrenoy",
   "coordonnees": {
     "latitude": "48.865999",
     "longitude": "2.274896"
@@ -27,11 +32,11 @@
   "WPfr": null,
   "image_ref": "Dufrenoy-6_16_§1",
   "terme_jantzen_bat": [
-    "console",
     "loggia",
-    "porte-fer-hall",
-    "sculpture",
     "fenetre",
+    "porte-fer-hall",
+    "console",
+    "sculpture",
     "colonne"
   ],
   "photos": [

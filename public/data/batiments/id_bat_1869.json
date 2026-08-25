@@ -4,7 +4,11 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 539,
+      "personneID": 723,
+      "role": "architecte"
+    },
+    {
+      "personneID": 722,
       "role": "architecte"
     }
   ],
@@ -18,6 +22,7 @@
     "voie": "rue Benjamin-Franklin"
   },
   "arrondissement": 16,
+  "tri_alphab": "Benjamin-Franklin",
   "coordonnees": {
     "latitude": "48.860693",
     "longitude": "2.285931"
@@ -28,10 +33,10 @@
   "image_ref": "Benjamin-Franklin-25b_16_§1",
   "terme_jantzen_bat": [
     "façade",
-    "garde-corps",
-    "oriel",
     "mosaique",
-    "fenetre"
+    "fenetre",
+    "oriel",
+    "garde-corps"
   ],
   "photos": [
     {

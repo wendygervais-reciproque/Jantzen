@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 55,
+      "personneID": 66,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue Morère"
   },
   "arrondissement": 14,
+  "tri_alphab": "Morere",
   "coordonnees": {
     "latitude": "48.824663",
     "longitude": "2.321975"
@@ -27,17 +28,17 @@
   "WPfr": null,
   "image_ref": "Morere-29b_14_30_§10",
   "terme_jantzen_bat": [
-    "façade",
-    "console",
     "loggia",
-    "oriel",
-    "brique",
-    "sculpture",
     "décor",
+    "façade",
+    "brique",
     "fenetre",
+    "console",
     "céramique",
-    "colonne",
-    "porte-bois"
+    "sculpture",
+    "porte-bois",
+    "oriel",
+    "colonne"
   ],
   "photos": [
     {

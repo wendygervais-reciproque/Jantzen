@@ -2,13 +2,19 @@
   "id_bat": 114,
   "libelle": "Palais de la Légion d'Honneur",
   "ensemble": null,
-  "personnes": null,
+  "personnes": [
+    {
+      "personneID": 801,
+      "role": "architecte"
+    }
+  ],
   "dateConstruction": null,
   "periode": [
     "1760-1829"
   ],
   "adresse": null,
   "arrondissement": 7,
+  "tri_alphab": "Legion-d'Honneur",
   "coordonnees": {
     "latitude": "48.860361",
     "longitude": "2.324444"
@@ -18,12 +24,12 @@
   "WPfr": "Palais de la Légion d'honneur",
   "image_ref": "Legion-d'Honneur-_6_§1",
   "terme_jantzen_bat": [
-    "façade",
-    "cariatide",
-    "sculpture",
     "clé",
-    "porte",
     "porte-fer",
+    "cariatide",
+    "façade",
+    "porte",
+    "sculpture",
     "colonne"
   ],
   "photos": [

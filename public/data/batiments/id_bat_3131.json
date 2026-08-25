@@ -13,6 +13,7 @@
     "voie": "rue de la Grande-Chaumière"
   },
   "arrondissement": 6,
+  "tri_alphab": "Grande-Chaumiere",
   "coordonnees": {
     "latitude": "48.842448",
     "longitude": "2.33097"
@@ -22,10 +23,10 @@
   "WPfr": null,
   "image_ref": "Grande-Chaumiere-6_6_§1",
   "terme_jantzen_bat": [
-    "brique",
-    "verrière",
     "porte-bois",
-    "façade"
+    "verrière",
+    "façade",
+    "brique"
   ],
   "photos": [
     {

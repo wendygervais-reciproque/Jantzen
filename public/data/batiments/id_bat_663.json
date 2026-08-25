@@ -4,7 +4,11 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 43,
+      "personneID": 38,
+      "role": "architecte"
+    },
+    {
+      "personneID": 48,
       "role": "architecte"
     }
   ],
@@ -18,6 +22,7 @@
     "voie": "rue du Renard"
   },
   "arrondissement": 4,
+  "tri_alphab": "Renard",
   "coordonnees": {
     "latitude": "48.858829",
     "longitude": "2.352333"
@@ -28,10 +33,10 @@
   "image_ref": "Renard-12_4_§1",
   "terme_jantzen_bat": [
     "façade",
+    "fenetre",
     "console",
     "lucarne",
     "sculpture",
-    "fenetre",
     "porte-bois"
   ],
   "photos": [

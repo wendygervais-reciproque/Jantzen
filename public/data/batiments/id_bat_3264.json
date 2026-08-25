@@ -13,6 +13,7 @@
     "voie": "rue de Lancry"
   },
   "arrondissement": 10,
+  "tri_alphab": "Lancry",
   "coordonnees": {
     "latitude": "48.872368",
     "longitude": "2.362952"
@@ -23,9 +24,9 @@
   "image_ref": "Lancry-63_10_§1",
   "terme_jantzen_bat": [
     "porte-bois",
-    "sculpture",
     "fenetre",
-    "console"
+    "console",
+    "sculpture"
   ],
   "photos": [
     {

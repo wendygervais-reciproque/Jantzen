@@ -2,13 +2,51 @@
   "id_bat": 112,
   "libelle": "Palais Bourbon",
   "ensemble": null,
-  "personnes": null,
+  "personnes": [
+    {
+      "personneID": 561,
+      "role": "architecte"
+    },
+    {
+      "personneID": 416,
+      "role": "architecte"
+    },
+    {
+      "personneID": 495,
+      "role": "architecte"
+    },
+    {
+      "personneID": 541,
+      "role": "architecte"
+    },
+    {
+      "personneID": 59,
+      "role": "architecte"
+    },
+    {
+      "personneID": 177,
+      "role": "architecte"
+    },
+    {
+      "personneID": 17,
+      "role": "architecte"
+    },
+    {
+      "personneID": 407,
+      "role": "architecte"
+    },
+    {
+      "personneID": 376,
+      "role": "architecte"
+    }
+  ],
   "dateConstruction": "1839",
   "periode": [
     "1830-1849"
   ],
   "adresse": null,
   "arrondissement": 7,
+  "tri_alphab": "Assemblee-Nationale",
   "coordonnees": {
     "latitude": "48.862072",
     "longitude": "2.318681"
@@ -18,10 +56,10 @@
   "WPfr": "Palais Bourbon",
   "image_ref": "Assemblee-Nationale_7_§1_DxP",
   "terme_jantzen_bat": [
-    "façade",
+    "colonne",
     "fronton",
-    "sculpture",
-    "colonne"
+    "façade",
+    "sculpture"
   ],
   "photos": [
     {

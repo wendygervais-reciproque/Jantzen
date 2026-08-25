@@ -13,6 +13,7 @@
     "voie": "rue Rambuteau"
   },
   "arrondissement": 3,
+  "tri_alphab": "Rambuteau",
   "coordonnees": {
     "latitude": "48.860781",
     "longitude": "2.355001"
@@ -22,11 +23,11 @@
   "WPfr": null,
   "image_ref": "Rambuteau-16_3_§1",
   "terme_jantzen_bat": [
-    "garde-corps",
     "décor",
-    "sculpture",
     "fenetre",
-    "balcon"
+    "balcon",
+    "sculpture",
+    "garde-corps"
   ],
   "photos": [
     {

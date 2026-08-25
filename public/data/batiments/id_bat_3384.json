@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 682,
+      "personneID": 919,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue Bridaine"
   },
   "arrondissement": 17,
+  "tri_alphab": "Bridaine",
   "coordonnees": {
     "latitude": "48.885903",
     "longitude": "2.320308"
@@ -27,9 +28,9 @@
   "WPfr": null,
   "image_ref": "Bridaine-7_17_§1",
   "terme_jantzen_bat": [
-    "sculpture",
     "fenetre",
-    "garde-corps"
+    "garde-corps",
+    "sculpture"
   ],
   "photos": [
     {

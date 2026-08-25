@@ -2,13 +2,19 @@
   "id_bat": 138,
   "libelle": "Sorbonne",
   "ensemble": null,
-  "personnes": null,
+  "personnes": [
+    {
+      "personneID": 546,
+      "role": "architecte"
+    }
+  ],
   "dateConstruction": "1896",
   "periode": [
     "1895-1914"
   ],
   "adresse": null,
   "arrondissement": 5,
+  "tri_alphab": "Sorbonne",
   "coordonnees": {
     "latitude": "48.84864",
     "longitude": "2.34356"
@@ -16,22 +22,22 @@
   "id_pss": null,
   "id_wikidata": "Q214654",
   "WPfr": "Sorbonne",
-  "image_ref": "Sorbonne_5_§1",
+  "image_ref": "Sorbonne-Pl_5_§11",
   "terme_jantzen_bat": [
-    "façade",
-    "oeil-de-boeuf",
-    "lucarne",
-    "tour",
     "décor",
-    "fronton",
-    "sculpture",
-    "fenetre",
     "tourelle",
-    "pilastre",
-    "colonne",
-    "porte-bois",
+    "façade",
+    "fenetre",
+    "dome",
     "toiture",
-    "dome"
+    "tour",
+    "oeil-de-boeuf",
+    "fronton",
+    "pilastre",
+    "lucarne",
+    "sculpture",
+    "porte-bois",
+    "colonne"
   ],
   "photos": [
     {

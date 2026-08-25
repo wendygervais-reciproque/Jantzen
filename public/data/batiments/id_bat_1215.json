@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 35,
+      "personneID": 22,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue de Châteaudun"
   },
   "arrondissement": 9,
+  "tri_alphab": "Chateaudin",
   "coordonnees": {
     "latitude": "48.875835",
     "longitude": "2.339245"
@@ -27,15 +28,15 @@
   "WPfr": null,
   "image_ref": "Chateaudin-17_9_§1",
   "terme_jantzen_bat": [
-    "façade",
-    "console",
-    "garde-corps",
-    "cariatide",
     "décor",
-    "sculpture",
+    "cariatide",
+    "façade",
     "fenetre",
     "balcon",
-    "porte-bois"
+    "console",
+    "sculpture",
+    "porte-bois",
+    "garde-corps"
   ],
   "photos": [
     {

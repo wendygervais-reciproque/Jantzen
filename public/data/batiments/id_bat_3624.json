@@ -1,0 +1,36 @@
+{
+  "id_bat": 3624,
+  "libelle": "8 rue de Port-Mahon",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 668,
+      "role": "architecte"
+    },
+    {
+      "personneID": 342,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1936",
+  "periode": [
+    "1915-1944"
+  ],
+  "adresse": {
+    "affichage": "8 rue de Port-Mahon",
+    "numero": "8",
+    "voie": "rue de Port-Mahon"
+  },
+  "arrondissement": 2,
+  "tri_alphab": "Port-Mahon",
+  "coordonnees": {
+    "latitude": "48.869525",
+    "longitude": "2.334122"
+  },
+  "id_pss": 30894,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 11896,
+  "terme_jantzen_bat": [],
+  "photos": []
+}

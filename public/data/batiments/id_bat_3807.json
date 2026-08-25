@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 280,
+      "personneID": 203,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue de Presbourg"
   },
   "arrondissement": 16,
+  "tri_alphab": "Presbourg",
   "coordonnees": {
     "latitude": "48.872561",
     "longitude": "2.293558"
@@ -27,22 +28,22 @@
   "WPfr": null,
   "image_ref": "Presbourg-9_16_§1",
   "terme_jantzen_bat": [
-    "façade",
     "loggia",
-    "garde-corps",
+    "décor",
+    "pignon",
+    "sculpture",
+    "façade",
+    "clé",
+    "lucarne-d'angle",
+    "fenetre",
+    "façade-d'angle",
+    "balcon",
+    "toiture",
     "lucarne",
     "fenetre-d'angle",
     "oriel",
-    "décor",
-    "sculpture",
-    "clé",
-    "fenetre",
-    "façade-d'angle",
-    "lucarne-d'angle",
-    "balcon",
     "colonne",
-    "toiture",
-    "pignon"
+    "garde-corps"
   ],
   "photos": [
     {

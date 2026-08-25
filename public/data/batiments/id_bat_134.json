@@ -2,13 +2,19 @@
   "id_bat": 134,
   "libelle": "Rotonde de La Villette",
   "ensemble": null,
-  "personnes": null,
+  "personnes": [
+    {
+      "personneID": 565,
+      "role": "architecte"
+    }
+  ],
   "dateConstruction": "1788",
   "periode": [
     "1760-1829"
   ],
   "adresse": null,
   "arrondissement": 19,
+  "tri_alphab": "Rotonde-La-Villette",
   "coordonnees": {
     "latitude": "48.88333333",
     "longitude": "2.36944444"
@@ -18,9 +24,9 @@
   "WPfr": null,
   "image_ref": "Rotonde-La-Villette_19_§1",
   "terme_jantzen_bat": [
-    "façade",
     "fenetre",
-    "colonne"
+    "colonne",
+    "façade"
   ],
   "photos": [
     {

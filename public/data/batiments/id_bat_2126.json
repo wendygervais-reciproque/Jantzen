@@ -2,7 +2,12 @@
   "id_bat": 2126,
   "libelle": "3 rue Verdi",
   "ensemble": null,
-  "personnes": null,
+  "personnes": [
+    {
+      "personneID": 460,
+      "role": "architecte"
+    }
+  ],
   "dateConstruction": null,
   "periode": [
     "1895-1914"
@@ -13,6 +18,7 @@
     "voie": "rue Verdi"
   },
   "arrondissement": 16,
+  "tri_alphab": "Verdi",
   "coordonnees": {
     "latitude": "48.860299",
     "longitude": "2.273478"
@@ -22,14 +28,14 @@
   "WPfr": null,
   "image_ref": "Verdi-3_16_§1",
   "terme_jantzen_bat": [
-    "façade",
-    "lucarne",
-    "oriel",
     "décor",
-    "sculpture",
+    "façade",
     "fenetre",
-    "colonne",
-    "toiture"
+    "toiture",
+    "lucarne",
+    "sculpture",
+    "oriel",
+    "colonne"
   ],
   "photos": [
     {

@@ -2,7 +2,12 @@
   "id_bat": 1205,
   "libelle": "17 quai d'Anjou",
   "ensemble": null,
-  "personnes": null,
+  "personnes": [
+    {
+      "personneID": 551,
+      "role": "architecte"
+    }
+  ],
   "dateConstruction": "1665",
   "periode": [
     "1660-1759"
@@ -13,6 +18,7 @@
     "voie": "quai d'Anjou"
   },
   "arrondissement": 4,
+  "tri_alphab": "Anjou-qu",
   "coordonnees": {
     "latitude": "48.851698",
     "longitude": "2.359062"
@@ -22,11 +28,11 @@
   "WPfr": null,
   "image_ref": "Anjou-qu-17_4_§1",
   "terme_jantzen_bat": [
-    "garde-corps",
-    "poignée-porte",
     "fenetre",
     "balcon",
-    "porte-bois"
+    "porte-bois",
+    "garde-corps",
+    "poignée-porte"
   ],
   "photos": [
     {

@@ -4,7 +4,11 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 126,
+      "personneID": 350,
+      "role": "architecte"
+    },
+    {
+      "personneID": 474,
       "role": "architecte"
     }
   ],
@@ -18,6 +22,7 @@
     "voie": "rue de Tilsitt"
   },
   "arrondissement": 17,
+  "tri_alphab": "Tilsitt",
   "coordonnees": {
     "latitude": "48.875191",
     "longitude": "2.295417"
@@ -25,20 +30,20 @@
   "id_pss": 28154,
   "id_wikidata": null,
   "WPfr": null,
-  "image_ref": "Tilsitt-7_17_§1",
+  "image_ref": "Tilsitt-7-Etoile_17_§1",
   "terme_jantzen_bat": [
-    "façade",
-    "lucarne",
-    "cariatide",
     "décor",
-    "sculpture",
     "clé",
-    "fenetre",
     "porte-fer",
+    "cariatide",
+    "façade",
+    "fenetre",
+    "toiture",
+    "atlante",
     "fronton",
     "pilastre",
-    "atlante",
-    "toiture"
+    "lucarne",
+    "sculpture"
   ],
   "photos": [
     {

@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 504,
+      "personneID": 686,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue de Tournon"
   },
   "arrondissement": 6,
+  "tri_alphab": "Tournon",
   "coordonnees": {
     "latitude": "48.849844",
     "longitude": "2.3371"
@@ -28,10 +29,10 @@
   "image_ref": "Tournon-12_6_§1",
   "terme_jantzen_bat": [
     "façade",
-    "lucarne",
     "fenetre",
     "balcon",
-    "toiture"
+    "toiture",
+    "lucarne"
   ],
   "photos": [
     {

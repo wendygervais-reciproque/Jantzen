@@ -13,6 +13,7 @@
     "voie": "rue Saint-Jacques"
   },
   "arrondissement": 5,
+  "tri_alphab": "St-Jacques",
   "coordonnees": {
     "latitude": "48.846525",
     "longitude": "2.343339"
@@ -22,14 +23,14 @@
   "WPfr": null,
   "image_ref": "St-Jacques-151B_5_§1",
   "terme_jantzen_bat": [
-    "façade",
-    "console",
-    "garde-corps",
-    "décor",
-    "sculpture",
     "clé",
+    "décor",
+    "façade",
     "fenetre",
-    "balcon"
+    "balcon",
+    "console",
+    "sculpture",
+    "garde-corps"
   ],
   "photos": [
     {

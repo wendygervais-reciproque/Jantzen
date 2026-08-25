@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 348,
+      "personneID": 483,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue de Médicis"
   },
   "arrondissement": 6,
+  "tri_alphab": "Medicis",
   "coordonnees": {
     "latitude": "48.848492",
     "longitude": "2.339593"
@@ -28,9 +29,9 @@
   "image_ref": "Medicis-7_6_§1-Rs",
   "terme_jantzen_bat": [
     "cariatide",
+    "fenetre",
     "fronton",
     "sculpture",
-    "fenetre",
     "porte-bois"
   ],
   "photos": [

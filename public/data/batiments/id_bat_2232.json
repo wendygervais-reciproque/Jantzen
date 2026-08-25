@@ -4,7 +4,11 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 384,
+      "personneID": 506,
+      "role": "architecte"
+    },
+    {
+      "personneID": 505,
       "role": "architecte"
     }
   ],
@@ -18,6 +22,7 @@
     "voie": "rue Vergniaud"
   },
   "arrondissement": 13,
+  "tri_alphab": "Vergniaud",
   "coordonnees": {
     "latitude": "48.828073",
     "longitude": "2.345544"
@@ -27,13 +32,13 @@
   "WPfr": null,
   "image_ref": "Vergniaud-32_13_§1",
   "terme_jantzen_bat": [
-    "console",
-    "lucarne",
-    "fenetre-d'angle",
     "sculpture",
+    "pignon",
     "façade-d'angle",
     "toiture",
-    "pignon"
+    "console",
+    "lucarne",
+    "fenetre-d'angle"
   ],
   "photos": [
     {

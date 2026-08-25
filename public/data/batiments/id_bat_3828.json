@@ -4,7 +4,11 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 364,
+      "personneID": 402,
+      "role": "architecte"
+    },
+    {
+      "personneID": 488,
       "role": "architecte"
     }
   ],
@@ -18,6 +22,7 @@
     "voie": "rue Lagrange"
   },
   "arrondissement": 5,
+  "tri_alphab": "Lagrange",
   "coordonnees": {
     "latitude": "48.851504",
     "longitude": "2.347988"

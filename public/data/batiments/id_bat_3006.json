@@ -13,6 +13,7 @@
     "voie": "rue Vieille-du-Temple"
   },
   "arrondissement": 3,
+  "tri_alphab": "Vieille-Du-Temple",
   "coordonnees": {
     "latitude": "48.858737",
     "longitude": "2.358941"
@@ -22,11 +23,11 @@
   "WPfr": null,
   "image_ref": "Vieille-Du-Temple-54_3_§1",
   "terme_jantzen_bat": [
-    "façade",
     "tourelle",
+    "pignon",
+    "façade",
     "fenetre",
-    "façade-d'angle",
-    "pignon"
+    "façade-d'angle"
   ],
   "photos": [
     {

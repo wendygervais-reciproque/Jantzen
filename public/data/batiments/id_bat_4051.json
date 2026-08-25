@@ -2,10 +2,36 @@
   "id_bat": 4051,
   "libelle": "rue de Richelieu",
   "ensemble": null,
-  "personnes": null,
+  "personnes": [
+    {
+      "personneID": 765,
+      "role": "architecte"
+    },
+    {
+      "personneID": 547,
+      "role": "architecte"
+    },
+    {
+      "personneID": 880,
+      "role": "architecte"
+    },
+    {
+      "personneID": 708,
+      "role": "architecte"
+    },
+    {
+      "personneID": 513,
+      "role": "architecte"
+    },
+    {
+      "personneID": 461,
+      "role": "architecte"
+    }
+  ],
   "dateConstruction": "1724, 1854-1875",
   "periode": [
-    "1660-1759;1850-1869"
+    "1660-1759",
+    "1850-1869"
   ],
   "adresse": {
     "affichage": "rue de Richelieu",
@@ -13,6 +39,7 @@
     "voie": "rue de Richelieu"
   },
   "arrondissement": 2,
+  "tri_alphab": "Richelieu",
   "coordonnees": {
     "latitude": "48.868047222222",
     "longitude": "2.3383722222222"
@@ -22,15 +49,15 @@
   "WPfr": null,
   "image_ref": "Richelieu_2_§1",
   "terme_jantzen_bat": [
+    "métal",
+    "clé",
     "façade",
-    "garde-corps",
+    "fenetre",
+    "intérieur",
     "fronton",
     "sculpture",
-    "fenetre",
-    "clé",
-    "métal",
     "colonne",
-    "intérieur"
+    "garde-corps"
   ],
   "photos": [
     {

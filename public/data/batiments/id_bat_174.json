@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 611,
+      "personneID": 805,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "place Alphonse-Deville"
   },
   "arrondissement": 6,
+  "tri_alphab": "Alphonse-Deville-Pl",
   "coordonnees": {
     "latitude": "48.850568",
     "longitude": "2.327566"
@@ -25,16 +26,16 @@
   "id_pss": 28712,
   "id_wikidata": null,
   "WPfr": null,
-  "image_ref": "Alphonse-Deville-Pl-1_6_§1",
+  "image_ref": "Alphonse-Deville-Pl-1_6_§4",
   "terme_jantzen_bat": [
+    "lucarne-d'angle",
+    "dome",
+    "façade-d'angle",
+    "toiture",
     "oeil-de-boeuf",
     "lucarne",
     "fenetre-d'angle",
-    "façade-d'angle",
-    "lucarne-d'angle",
-    "colonne",
-    "toiture",
-    "dome"
+    "colonne"
   ],
   "photos": [
     {

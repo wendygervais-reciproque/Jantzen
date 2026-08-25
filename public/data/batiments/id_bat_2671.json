@@ -12,7 +12,8 @@
     "numero": "44",
     "voie": "boulevard Saint-Michel"
   },
-  "arrondissement": 5,
+  "arrondissement": 6,
+  "tri_alphab": "St-Michel",
   "coordonnees": {
     "latitude": "48.848974",
     "longitude": "2.341571"
@@ -22,10 +23,10 @@
   "WPfr": null,
   "image_ref": "St-Michel-44_5_§1",
   "terme_jantzen_bat": [
-    "sculpture",
     "oeil-de-boeuf",
     "toiture",
-    "lucarne"
+    "lucarne",
+    "sculpture"
   ],
   "photos": [
     {

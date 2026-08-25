@@ -2,7 +2,12 @@
   "id_bat": 1801,
   "libelle": "24 rue de Mogador",
   "ensemble": null,
-  "personnes": null,
+  "personnes": [
+    {
+      "personneID": 599,
+      "role": "architecte"
+    }
+  ],
   "dateConstruction": null,
   "periode": [
     "1895-1914"
@@ -13,6 +18,7 @@
     "voie": "rue de Mogador"
   },
   "arrondissement": 9,
+  "tri_alphab": "Mogador",
   "coordonnees": {
     "latitude": "48.875223",
     "longitude": "2.331453"
@@ -22,8 +28,8 @@
   "WPfr": null,
   "image_ref": "Mogador-24_9_§1",
   "terme_jantzen_bat": [
-    "fenetre-d'angle",
     "façade-d'angle",
+    "fenetre-d'angle",
     "tour"
   ],
   "photos": [

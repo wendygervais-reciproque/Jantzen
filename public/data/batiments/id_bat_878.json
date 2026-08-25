@@ -2,7 +2,12 @@
   "id_bat": 878,
   "libelle": "14 place Adolphe-Chérioux",
   "ensemble": null,
-  "personnes": null,
+  "personnes": [
+    {
+      "personneID": 754,
+      "role": "architecte"
+    }
+  ],
   "dateConstruction": "1902",
   "periode": [
     "1895-1914"
@@ -13,6 +18,7 @@
     "voie": "place Adolphe-Chérioux"
   },
   "arrondissement": 15,
+  "tri_alphab": "Adolphe-Cherioux-pl",
   "coordonnees": {
     "latitude": "48.839831",
     "longitude": "2.300476"
@@ -23,11 +29,11 @@
   "image_ref": "Adolphe-Cherioux-pl-14_15_§1",
   "terme_jantzen_bat": [
     "façade",
-    "console",
-    "garde-corps",
-    "oriel",
+    "fenetre",
     "porte-fer-hall",
-    "fenetre"
+    "console",
+    "oriel",
+    "garde-corps"
   ],
   "photos": [
     {

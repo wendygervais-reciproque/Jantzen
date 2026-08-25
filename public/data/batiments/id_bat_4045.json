@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 591,
+      "personneID": 777,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue de l'École-Polytechnique"
   },
   "arrondissement": 5,
+  "tri_alphab": "Polytechnique",
   "coordonnees": {
     "latitude": "48.8478",
     "longitude": "2.3477"
@@ -27,8 +28,8 @@
   "WPfr": null,
   "image_ref": "Polytechnique_5_§1",
   "terme_jantzen_bat": [
-    "sculpture",
-    "clé"
+    "clé",
+    "sculpture"
   ],
   "photos": [
     {

@@ -13,6 +13,7 @@
     "voie": "rue de l'Aqueduc"
   },
   "arrondissement": 10,
+  "tri_alphab": "Aqueduc",
   "coordonnees": {
     "latitude": "48.879799",
     "longitude": "2.35822"
@@ -22,14 +23,14 @@
   "WPfr": null,
   "image_ref": "Aqueduc-5_10_§1",
   "terme_jantzen_bat": [
-    "façade",
-    "garde-corps",
-    "lucarne",
-    "fenetre",
     "métal",
-    "balcon",
+    "façade",
     "colonne",
-    "porte-bois"
+    "fenetre",
+    "balcon",
+    "lucarne",
+    "porte-bois",
+    "garde-corps"
   ],
   "photos": [
     {

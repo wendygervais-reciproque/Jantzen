@@ -2,7 +2,12 @@
   "id_bat": 3301,
   "libelle": "66 rue Falguière",
   "ensemble": null,
-  "personnes": null,
+  "personnes": [
+    {
+      "personneID": 83,
+      "role": "architecte"
+    }
+  ],
   "dateConstruction": null,
   "periode": [
     "1895-1914"
@@ -13,6 +18,7 @@
     "voie": "rue Falguière"
   },
   "arrondissement": 15,
+  "tri_alphab": "Falguiere",
   "coordonnees": {
     "latitude": "48.840784",
     "longitude": "2.313064"
@@ -22,15 +28,15 @@
   "WPfr": null,
   "image_ref": "Falguiere-66_15_§1",
   "terme_jantzen_bat": [
-    "lucarne",
-    "fenetre-d'angle",
-    "mosaique",
-    "brique",
     "décor",
     "porte-fer",
+    "mosaique",
+    "brique",
+    "lucarne-d'angle",
     "façade-d'angle",
     "toiture",
-    "lucarne-d'angle"
+    "fenetre-d'angle",
+    "lucarne"
   ],
   "photos": [
     {

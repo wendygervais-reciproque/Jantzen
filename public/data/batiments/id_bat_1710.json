@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 303,
+      "personneID": 425,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue Saint-Denis"
   },
   "arrondissement": 2,
+  "tri_alphab": "St-Denis",
   "coordonnees": {
     "latitude": "48.86832",
     "longitude": "2.352035"
@@ -27,13 +28,13 @@
   "WPfr": null,
   "image_ref": "St-Denis-224_2_§1",
   "terme_jantzen_bat": [
-    "fenetre-d'angle",
-    "sculpture",
-    "façade-d'angle",
-    "pilastre",
-    "balcon",
     "lucarne-d'angle",
-    "dome"
+    "dome",
+    "façade-d'angle",
+    "balcon",
+    "pilastre",
+    "fenetre-d'angle",
+    "sculpture"
   ],
   "photos": [
     {

@@ -1,0 +1,36 @@
+{
+  "id_bat": 371,
+  "libelle": "101 avenue des Champs-Élysées",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 76,
+      "role": "architecte"
+    },
+    {
+      "personneID": 111,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": null,
+  "periode": [
+    "1915-1944"
+  ],
+  "adresse": {
+    "affichage": "101 avenue des Champs-Élysées",
+    "numero": "101",
+    "voie": "avenue des Champs-Élysées"
+  },
+  "arrondissement": 8,
+  "tri_alphab": "Champs-Elysees",
+  "coordonnees": {
+    "latitude": "48.871682",
+    "longitude": "2.300492"
+  },
+  "id_pss": 3927,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 2204,
+  "terme_jantzen_bat": [],
+  "photos": []
+}

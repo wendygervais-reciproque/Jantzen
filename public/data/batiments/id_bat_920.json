@@ -2,7 +2,12 @@
   "id_bat": 920,
   "libelle": "14 rue Jean-de-La-Fontaine",
   "ensemble": null,
-  "personnes": null,
+  "personnes": [
+    {
+      "personneID": 454,
+      "role": "architecte"
+    }
+  ],
   "dateConstruction": "1896-1698",
   "periode": [
     "1895-1914"
@@ -13,6 +18,7 @@
     "voie": "rue Jean-de-La-Fontaine"
   },
   "arrondissement": 16,
+  "tri_alphab": "La-Fontaine",
   "coordonnees": {
     "latitude": "48.852328",
     "longitude": "2.274606"
@@ -22,23 +28,23 @@
   "WPfr": null,
   "image_ref": "La-Fontaine-14_16_§1",
   "terme_jantzen_bat": [
-    "console",
-    "façade",
-    "garde-corps",
-    "lucarne",
-    "fenetre-d'angle",
-    "brique",
     "décor",
-    "sculpture",
-    "fenetre",
-    "tourelle",
     "métal",
-    "façade-d'angle",
+    "pignon",
+    "tourelle",
+    "façade",
     "porte-fer",
+    "brique",
+    "fenetre",
+    "façade-d'angle",
     "balcon",
-    "colonne",
+    "console",
     "céramique",
-    "pignon"
+    "lucarne",
+    "sculpture",
+    "fenetre-d'angle",
+    "colonne",
+    "garde-corps"
   ],
   "photos": [
     {

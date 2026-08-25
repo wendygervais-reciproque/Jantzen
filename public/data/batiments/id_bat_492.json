@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 619,
+      "personneID": 827,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue Leroux"
   },
   "arrondissement": 16,
+  "tri_alphab": "Leroux",
   "coordonnees": {
     "latitude": "48.871356",
     "longitude": "2.286911"
@@ -27,8 +28,8 @@
   "WPfr": null,
   "image_ref": "Leroux-11_16_§1",
   "terme_jantzen_bat": [
-    "brique",
-    "oriel"
+    "oriel",
+    "brique"
   ],
   "photos": [
     {

@@ -2,13 +2,19 @@
   "id_bat": 67,
   "libelle": "Église Saint-Jean-Bosco",
   "ensemble": null,
-  "personnes": null,
+  "personnes": [
+    {
+      "personneID": 799,
+      "role": "architecte"
+    }
+  ],
   "dateConstruction": null,
   "periode": [
     "1915-1944"
   ],
   "adresse": null,
   "arrondissement": 20,
+  "tri_alphab": "St-Jean-Dumas-Eglise",
   "coordonnees": {
     "latitude": "48.85522",
     "longitude": "2.39796"

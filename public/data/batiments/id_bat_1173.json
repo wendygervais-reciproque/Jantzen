@@ -1,0 +1,36 @@
+{
+  "id_bat": 1173,
+  "libelle": "166 avenue du Maine",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 624,
+      "role": "architecte"
+    },
+    {
+      "personneID": 625,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": null,
+  "periode": [
+    "1915-1944"
+  ],
+  "adresse": {
+    "affichage": "166 avenue du Maine",
+    "numero": "166",
+    "voie": "avenue du Maine"
+  },
+  "arrondissement": 14,
+  "tri_alphab": "Maine-av",
+  "coordonnees": {
+    "latitude": "48.832993",
+    "longitude": "2.324504"
+  },
+  "id_pss": 28826,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 8983,
+  "terme_jantzen_bat": [],
+  "photos": []
+}

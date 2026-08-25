@@ -4,7 +4,11 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 111,
+      "personneID": 233,
+      "role": "architecte"
+    },
+    {
+      "personneID": 181,
       "role": "architecte"
     }
   ],
@@ -18,6 +22,7 @@
     "voie": "rue de Saint-Quentin"
   },
   "arrondissement": 10,
+  "tri_alphab": "St-Quentin",
   "coordonnees": {
     "latitude": "48.878035",
     "longitude": "2.355672"
@@ -27,14 +32,14 @@
   "WPfr": null,
   "image_ref": "St-Quentin-12_10_§1",
   "terme_jantzen_bat": [
+    "clé",
     "façade",
-    "console",
-    "lucarne",
-    "oriel",
-    "sculpture",
-    "chimère",
     "fenetre",
-    "clé"
+    "console",
+    "chimère",
+    "lucarne",
+    "sculpture",
+    "oriel"
   ],
   "photos": [
     {

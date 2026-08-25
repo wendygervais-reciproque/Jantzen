@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 302,
+      "personneID": 424,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue Saint-Florentin"
   },
   "arrondissement": 1,
+  "tri_alphab": "St-Florentin",
   "coordonnees": {
     "latitude": "48.867788",
     "longitude": "2.324588"
@@ -27,9 +28,9 @@
   "WPfr": null,
   "image_ref": "St-Florentin-12_1_§1",
   "terme_jantzen_bat": [
+    "lucarne-d'angle",
     "console",
-    "sculpture",
-    "lucarne-d'angle"
+    "sculpture"
   ],
   "photos": [
     {

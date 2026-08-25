@@ -13,6 +13,7 @@
     "voie": "rue de Buci"
   },
   "arrondissement": 6,
+  "tri_alphab": "Buci",
   "coordonnees": {
     "latitude": "48.853901",
     "longitude": "2.33686"
@@ -23,8 +24,8 @@
   "image_ref": "Buci-18_6_§1",
   "terme_jantzen_bat": [
     "fenetre",
-    "toiture",
-    "pignon"
+    "pignon",
+    "toiture"
   ],
   "photos": [
     {

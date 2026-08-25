@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 332,
+      "personneID": 513,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "place François-Ier"
   },
   "arrondissement": 8,
+  "tri_alphab": "Francois-1er-pl",
   "coordonnees": {
     "latitude": "48.865972",
     "longitude": "2.307977"
@@ -27,13 +28,13 @@
   "WPfr": null,
   "image_ref": "Francois-1er-pl-9_8_§1",
   "terme_jantzen_bat": [
-    "façade",
-    "lucarne",
     "cariatide",
-    "fronton",
-    "sculpture",
+    "façade",
+    "lucarne-d'angle",
     "façade-d'angle",
-    "lucarne-d'angle"
+    "fronton",
+    "lucarne",
+    "sculpture"
   ],
   "photos": [
     {

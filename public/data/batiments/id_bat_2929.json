@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 689,
+      "personneID": 935,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "boulevard Lefebvre"
   },
   "arrondissement": 15,
+  "tri_alphab": "Lefebvre-bd",
   "coordonnees": {
     "latitude": "48.831392",
     "longitude": "2.291842"
@@ -28,9 +29,9 @@
   "image_ref": "Lefebvre-bd-51_15_§1",
   "terme_jantzen_bat": [
     "porte-fer",
-    "fenetre-d'angle",
+    "façade-d'angle",
     "lucarne",
-    "façade-d'angle"
+    "fenetre-d'angle"
   ],
   "photos": [
     {

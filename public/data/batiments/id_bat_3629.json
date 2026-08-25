@@ -2,7 +2,16 @@
   "id_bat": 3629,
   "libelle": "8 rue des Petits-Champs",
   "ensemble": null,
-  "personnes": null,
+  "personnes": [
+    {
+      "personneID": 619,
+      "role": "architecte"
+    },
+    {
+      "personneID": 880,
+      "role": "architecte"
+    }
+  ],
   "dateConstruction": "1634, vers 1650",
   "periode": [
     "1590-1659"
@@ -13,6 +22,7 @@
     "voie": "rue des Petits-Champs"
   },
   "arrondissement": 2,
+  "tri_alphab": "Petits-Champs",
   "coordonnees": {
     "latitude": "48.866479",
     "longitude": "2.338393"
@@ -22,16 +32,16 @@
   "WPfr": null,
   "image_ref": "Petits-Champs-8_2_§1",
   "terme_jantzen_bat": [
-    "façade",
-    "oeil-de-boeuf",
-    "lucarne",
-    "brique",
-    "sculpture",
     "décor",
-    "fronton",
+    "pignon",
+    "façade",
+    "brique",
     "fenetre",
     "toiture",
-    "pignon"
+    "oeil-de-boeuf",
+    "fronton",
+    "lucarne",
+    "sculpture"
   ],
   "photos": [
     {

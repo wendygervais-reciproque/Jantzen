@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 318,
+      "personneID": 454,
       "role": "architecte"
     }
   ],
@@ -17,7 +17,8 @@
     "numero": "44",
     "voie": "rue Gros"
   },
-  "arrondissement": 6,
+  "arrondissement": 16,
+  "tri_alphab": "Gros",
   "coordonnees": {
     "latitude": "48.851382",
     "longitude": "2.276149"
@@ -27,8 +28,8 @@
   "WPfr": null,
   "image_ref": "Gros_44-16-§1",
   "terme_jantzen_bat": [
-    "brique",
-    "lucarne-d'angle"
+    "lucarne-d'angle",
+    "brique"
   ],
   "photos": [
     {

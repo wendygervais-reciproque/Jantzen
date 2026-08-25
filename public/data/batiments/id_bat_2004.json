@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 649,
+      "personneID": 860,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue de Sèvres"
   },
   "arrondissement": 6,
+  "tri_alphab": "Sevres",
   "coordonnees": {
     "latitude": "48.851028",
     "longitude": "2.326374"
@@ -27,16 +28,16 @@
   "WPfr": null,
   "image_ref": "Sevres-29_6_§1",
   "terme_jantzen_bat": [
-    "garde-corps",
+    "porte-fer",
+    "lucarne-d'angle",
+    "façade-d'angle",
+    "balcon",
+    "toiture",
+    "porte-fer-hall",
     "lucarne",
     "fenetre-d'angle",
-    "porte-fer-hall",
-    "poignée-porte",
-    "porte-fer",
-    "façade-d'angle",
-    "lucarne-d'angle",
-    "balcon",
-    "toiture"
+    "garde-corps",
+    "poignée-porte"
   ],
   "photos": [
     {

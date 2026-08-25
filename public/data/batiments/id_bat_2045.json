@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 294,
+      "personneID": 410,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "place Jussieu"
   },
   "arrondissement": 5,
+  "tri_alphab": "Jussieu-pl",
   "coordonnees": {
     "latitude": "48.845804",
     "longitude": "2.355058"
@@ -27,14 +28,14 @@
   "WPfr": null,
   "image_ref": "Jussieu-pl-3_5_§1",
   "terme_jantzen_bat": [
-    "façade",
-    "garde-corps",
     "décor",
-    "sculpture",
     "clé",
-    "fenetre",
+    "façade",
     "colonne",
-    "porte-bois"
+    "fenetre",
+    "sculpture",
+    "porte-bois",
+    "garde-corps"
   ],
   "photos": [
     {

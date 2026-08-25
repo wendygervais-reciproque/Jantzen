@@ -4,7 +4,11 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 626,
+      "personneID": 826,
+      "role": "architecte"
+    },
+    {
+      "personneID": 832,
       "role": "architecte"
     }
   ],
@@ -18,6 +22,7 @@
     "voie": "rue de Provence"
   },
   "arrondissement": 8,
+  "tri_alphab": "Provence",
   "coordonnees": {
     "latitude": "48.874233",
     "longitude": "2.326124"
@@ -27,9 +32,9 @@
   "WPfr": null,
   "image_ref": "Provence-126_8_§1",
   "terme_jantzen_bat": [
-    "façade",
     "fenetre",
     "garde-corps",
+    "façade",
     "mosaique"
   ],
   "photos": [

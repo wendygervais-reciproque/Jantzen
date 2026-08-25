@@ -13,6 +13,7 @@
     "voie": "boulevard Richard-Lenoir"
   },
   "arrondissement": 11,
+  "tri_alphab": "Richard-Lenoir-bd",
   "coordonnees": {
     "latitude": "48.857749",
     "longitude": "2.371654"
@@ -22,13 +23,13 @@
   "WPfr": null,
   "image_ref": "Richard-Lenoir-bd-42_11_§1",
   "terme_jantzen_bat": [
-    "façade",
-    "garde-corps",
-    "oriel",
-    "sculpture",
     "clé",
     "porte-fer",
-    "balcon"
+    "façade",
+    "balcon",
+    "sculpture",
+    "oriel",
+    "garde-corps"
   ],
   "photos": [
     {

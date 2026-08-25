@@ -4,7 +4,11 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 101,
+      "personneID": 166,
+      "role": "architecte"
+    },
+    {
+      "personneID": 586,
       "role": "architecte"
     }
   ],
@@ -18,6 +22,7 @@
     "voie": "avenue de Suffren"
   },
   "arrondissement": 7,
+  "tri_alphab": "Suffren",
   "coordonnees": {
     "latitude": "48.852578",
     "longitude": "2.298947"

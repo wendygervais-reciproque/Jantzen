@@ -13,6 +13,7 @@
     "voie": "avenue de Saint-Mandé"
   },
   "arrondissement": 12,
+  "tri_alphab": "St-Mande-av",
   "coordonnees": {
     "latitude": "48.845217",
     "longitude": "2.401553"
@@ -22,11 +23,11 @@
   "WPfr": null,
   "image_ref": "St-Mande-av-43_12_§1",
   "terme_jantzen_bat": [
-    "garde-corps",
+    "façade-d'angle",
+    "balcon",
     "lucarne",
     "fenetre-d'angle",
-    "façade-d'angle",
-    "balcon"
+    "garde-corps"
   ],
   "photos": [
     {

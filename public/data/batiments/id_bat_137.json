@@ -2,13 +2,23 @@
   "id_bat": 137,
   "libelle": "Samaritaine",
   "ensemble": null,
-  "personnes": null,
+  "personnes": [
+    {
+      "personneID": 500,
+      "role": "architecte"
+    },
+    {
+      "personneID": 832,
+      "role": "architecte"
+    }
+  ],
   "dateConstruction": "1905",
   "periode": [
     "1895-1914"
   ],
   "adresse": null,
   "arrondissement": 1,
+  "tri_alphab": "Louvre-Qu-Samaritaine",
   "coordonnees": {
     "latitude": "48.85889",
     "longitude": "2.34208"
@@ -16,17 +26,17 @@
   "id_pss": 33389,
   "id_wikidata": "Q1583780",
   "WPfr": "La Samaritaine",
-  "image_ref": "Louvre-Qu-Samaritaine_1_§1",
+  "image_ref": "Louvre-Qu-Samaritaine_1_§2",
   "terme_jantzen_bat": [
-    "façade",
-    "verrière",
-    "lucarne",
-    "fenetre-d'angle",
     "décor",
     "sculpture",
+    "façade",
     "fenetre",
+    "verrière",
     "façade-d'angle",
-    "balcon"
+    "balcon",
+    "lucarne",
+    "fenetre-d'angle"
   ],
   "photos": [
     {

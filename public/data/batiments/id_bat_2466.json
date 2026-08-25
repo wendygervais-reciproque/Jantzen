@@ -13,6 +13,7 @@
     "voie": "place de Breteuil"
   },
   "arrondissement": 15,
+  "tri_alphab": "Breteuil-pl",
   "coordonnees": {
     "latitude": "48.847379",
     "longitude": "2.310744"
@@ -22,10 +23,10 @@
   "WPfr": null,
   "image_ref": "Breteuil-pl-4_15_§1",
   "terme_jantzen_bat": [
-    "porte-bois",
-    "fronton",
     "lucarne-d'angle",
-    "dome"
+    "dome",
+    "porte-bois",
+    "fronton"
   ],
   "photos": [
     {

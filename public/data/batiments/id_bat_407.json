@@ -4,7 +4,11 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 492,
+      "personneID": 663,
+      "role": "architecte"
+    },
+    {
+      "personneID": 663,
       "role": "architecte"
     }
   ],
@@ -18,6 +22,7 @@
     "voie": "rue de Ménilmontant"
   },
   "arrondissement": 20,
+  "tri_alphab": "Menilmontant",
   "coordonnees": {
     "latitude": "48.869398",
     "longitude": "2.393059"

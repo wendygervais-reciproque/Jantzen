@@ -2,7 +2,12 @@
   "id_bat": 64,
   "libelle": "Église Saint-Augustin",
   "ensemble": null,
-  "personnes": null,
+  "personnes": [
+    {
+      "personneID": 37,
+      "role": "architecte"
+    }
+  ],
   "dateConstruction": "1860-1871",
   "periode": [
     "1850-1869",
@@ -10,6 +15,7 @@
   ],
   "adresse": null,
   "arrondissement": 8,
+  "tri_alphab": "St-Augustin-Eglise",
   "coordonnees": {
     "latitude": "48.8762209215312",
     "longitude": "2.318917227874554"

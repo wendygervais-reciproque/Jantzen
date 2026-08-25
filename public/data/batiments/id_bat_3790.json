@@ -4,7 +4,11 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 140,
+      "personneID": 221,
+      "role": "architecte"
+    },
+    {
+      "personneID": 690,
       "role": "architecte"
     }
   ],
@@ -18,6 +22,7 @@
     "voie": "rue Armand-Carrel"
   },
   "arrondissement": 19,
+  "tri_alphab": "Armand-Carrel",
   "coordonnees": {
     "latitude": "48.882492",
     "longitude": "2.38021"

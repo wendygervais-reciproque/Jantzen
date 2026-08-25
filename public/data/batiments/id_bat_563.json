@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 153,
+      "personneID": 269,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue Lecourbe"
   },
   "arrondissement": 15,
+  "tri_alphab": "Lecourbe",
   "coordonnees": {
     "latitude": "48.842596",
     "longitude": "2.302269"
@@ -27,14 +28,14 @@
   "WPfr": null,
   "image_ref": "Lecourbe-116_15_§1",
   "terme_jantzen_bat": [
-    "façade",
-    "fenetre-d'angle",
     "décor",
-    "fronton",
-    "sculpture",
+    "façade",
+    "lucarne-d'angle",
     "fenetre",
     "façade-d'angle",
-    "lucarne-d'angle"
+    "fronton",
+    "fenetre-d'angle",
+    "sculpture"
   ],
   "photos": [
     {

@@ -13,6 +13,7 @@
     "voie": "place des Petits-Pères"
   },
   "arrondissement": 2,
+  "tri_alphab": "Petits-Peres-Pl",
   "coordonnees": {
     "latitude": "48.866313",
     "longitude": "2.340477"
@@ -22,9 +23,9 @@
   "WPfr": null,
   "image_ref": "Petits-Peres-Pl-1_2_§1",
   "terme_jantzen_bat": [
-    "toiture",
     "lucarne-d'angle",
-    "façade-d'angle"
+    "façade-d'angle",
+    "toiture"
   ],
   "photos": [
     {

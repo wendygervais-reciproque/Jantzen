@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 652,
+      "personneID": 866,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "boulevard Voltaire"
   },
   "arrondissement": 11,
+  "tri_alphab": "Voltaire-bd",
   "coordonnees": {
     "latitude": "48.860584",
     "longitude": "2.375125"
@@ -27,16 +28,16 @@
   "WPfr": null,
   "image_ref": "Voltaire-bd-86_11_§1",
   "terme_jantzen_bat": [
-    "oeil-de-boeuf",
-    "garde-corps",
-    "fenetre-d'angle",
-    "sculpture",
     "clé",
+    "lucarne-d'angle",
+    "dome",
     "façade-d'angle",
     "balcon",
     "toiture",
-    "lucarne-d'angle",
-    "dome"
+    "oeil-de-boeuf",
+    "fenetre-d'angle",
+    "sculpture",
+    "garde-corps"
   ],
   "photos": [
     {

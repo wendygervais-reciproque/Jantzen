@@ -13,6 +13,7 @@
     "voie": "place Boieldieu"
   },
   "arrondissement": 2,
+  "tri_alphab": "Boieldieu-Pl",
   "coordonnees": {
     "latitude": "48.870671",
     "longitude": "2.337655"
@@ -23,12 +24,12 @@
   "image_ref": "Boieldieu-Pl-1_2_§1",
   "terme_jantzen_bat": [
     "façade",
-    "garde-corps",
-    "lucarne",
     "fenetre",
-    "pilastre",
     "balcon",
-    "porte-bois"
+    "pilastre",
+    "lucarne",
+    "porte-bois",
+    "garde-corps"
   ],
   "photos": [
     {

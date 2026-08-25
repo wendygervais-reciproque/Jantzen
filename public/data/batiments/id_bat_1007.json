@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 171,
+      "personneID": 274,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "quai Voltaire"
   },
   "arrondissement": 7,
+  "tri_alphab": "Voltaire-qu",
   "coordonnees": {
     "latitude": "48.858696",
     "longitude": "2.331518"
@@ -27,17 +28,17 @@
   "WPfr": null,
   "image_ref": "Voltaire-qu-15_7_§1",
   "terme_jantzen_bat": [
-    "façade",
-    "console",
-    "lucarne",
     "cariatide",
-    "oriel",
+    "façade",
     "brique",
-    "sculpture",
-    "fronton",
     "fenetre",
+    "atlante",
+    "console",
+    "fronton",
+    "lucarne",
+    "sculpture",
     "porte-bois",
-    "atlante"
+    "oriel"
   ],
   "photos": [
     {

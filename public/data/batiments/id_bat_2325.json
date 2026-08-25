@@ -13,6 +13,7 @@
     "voie": "boulevard Raspail"
   },
   "arrondissement": 7,
+  "tri_alphab": "Raspail",
   "coordonnees": {
     "latitude": "48.852673",
     "longitude": "2.326279"
@@ -22,10 +23,10 @@
   "WPfr": null,
   "image_ref": "Raspail-36_7_§1-Rs",
   "terme_jantzen_bat": [
-    "lucarne",
     "fenetre",
     "porte-fer",
-    "balcon"
+    "balcon",
+    "lucarne"
   ],
   "photos": [
     {

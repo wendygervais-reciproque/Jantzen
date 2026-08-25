@@ -2,7 +2,16 @@
   "id_bat": 2445,
   "libelle": "4 à 6 rue Gaillon",
   "ensemble": null,
-  "personnes": null,
+  "personnes": [
+    {
+      "personneID": 218,
+      "role": "architecte"
+    },
+    {
+      "personneID": 901,
+      "role": "architecte"
+    }
+  ],
   "dateConstruction": "1730",
   "periode": [
     "1660-1759"
@@ -13,6 +22,7 @@
     "voie": "rue Gaillon"
   },
   "arrondissement": 2,
+  "tri_alphab": "Gaillon",
   "coordonnees": {
     "latitude": "48.867783",
     "longitude": "2.333879"
@@ -22,11 +32,11 @@
   "WPfr": null,
   "image_ref": "Gaillon-4-6_2_§1b",
   "terme_jantzen_bat": [
+    "clé",
+    "porte-fer",
+    "fenetre",
     "console",
     "sculpture",
-    "clé",
-    "fenetre",
-    "porte-fer",
     "porte-bois"
   ],
   "photos": [

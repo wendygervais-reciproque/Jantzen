@@ -4,7 +4,11 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 170,
+      "personneID": 788,
+      "role": "architecte"
+    },
+    {
+      "personneID": 271,
       "role": "architecte"
     }
   ],
@@ -18,6 +22,7 @@
     "voie": "rue de la Convention"
   },
   "arrondissement": 15,
+  "tri_alphab": "Convention",
   "coordonnees": {
     "latitude": "48.84035",
     "longitude": "2.289985"
@@ -27,12 +32,12 @@
   "WPfr": null,
   "image_ref": "Convention-154_15_§1",
   "terme_jantzen_bat": [
+    "pignon",
     "façade",
-    "lucarne",
     "brique",
-    "fronton",
     "fenetre",
-    "pignon"
+    "fronton",
+    "lucarne"
   ],
   "photos": [
     {

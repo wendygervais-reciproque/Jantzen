@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 165,
+      "personneID": 259,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue Saint-André-des-Arts"
   },
   "arrondissement": 6,
+  "tri_alphab": "St-Andre-Des-Arts",
   "coordonnees": {
     "latitude": "48.853477",
     "longitude": "2.340363"
@@ -27,17 +28,17 @@
   "WPfr": null,
   "image_ref": "St-Andre-Des-Arts-52_6_§1",
   "terme_jantzen_bat": [
-    "console",
-    "façade",
-    "oeil-de-boeuf",
-    "garde-corps",
-    "fenetre-d'angle",
-    "sculpture",
     "clé",
+    "façade",
     "fenetre",
     "façade-d'angle",
     "balcon",
-    "porte-bois"
+    "oeil-de-boeuf",
+    "console",
+    "fenetre-d'angle",
+    "sculpture",
+    "porte-bois",
+    "garde-corps"
   ],
   "photos": [
     {

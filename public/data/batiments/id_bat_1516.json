@@ -13,6 +13,7 @@
     "voie": "rue Linné"
   },
   "arrondissement": 5,
+  "tri_alphab": "Linne",
   "coordonnees": {
     "latitude": "48.844026",
     "longitude": "2.355018"
@@ -22,10 +23,10 @@
   "WPfr": null,
   "image_ref": "Linne-2_5_§1",
   "terme_jantzen_bat": [
-    "console",
-    "sculpture",
     "fenetre",
-    "colonne"
+    "colonne",
+    "console",
+    "sculpture"
   ],
   "photos": [
     {

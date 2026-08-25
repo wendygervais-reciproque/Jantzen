@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 661,
+      "personneID": 877,
       "role": "architecte"
     }
   ],
@@ -17,7 +17,8 @@
     "numero": "47",
     "voie": "boulevard de Courcelles"
   },
-  "arrondissement": 17,
+  "arrondissement": 8,
+  "tri_alphab": "Courcelles-Bd",
   "coordonnees": {
     "latitude": "48.879283",
     "longitude": "2.304588"

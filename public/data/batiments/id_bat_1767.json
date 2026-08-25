@@ -1,10 +1,10 @@
 {
   "id_bat": 1767,
-  "libelle": "234 rue du Faubourg-Saint-Honoré",
+  "libelle": "234 rue du Faubourg Saint-Honoré",
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 345,
+      "personneID": 479,
       "role": "architecte"
     }
   ],
@@ -13,11 +13,12 @@
     "1850-1869"
   ],
   "adresse": {
-    "affichage": "234 rue du Faubourg-Saint-Honoré",
+    "affichage": "234 rue du Faubourg Saint-Honoré",
     "numero": "234",
-    "voie": "rue du Faubourg-Saint-Honoré"
+    "voie": "rue du Faubourg Saint-Honoré"
   },
   "arrondissement": 8,
+  "tri_alphab": "Faubourg-St-Honore",
   "coordonnees": {
     "latitude": "48.87616",
     "longitude": "2.302766"
@@ -27,11 +28,11 @@
   "WPfr": null,
   "image_ref": "Faubourg-St-Honore-234_8_§1",
   "terme_jantzen_bat": [
-    "console",
-    "garde-corps",
-    "sculpture",
     "fenetre",
-    "porte-bois"
+    "console",
+    "sculpture",
+    "porte-bois",
+    "garde-corps"
   ],
   "photos": [
     {

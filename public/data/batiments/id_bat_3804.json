@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 505,
+      "personneID": 689,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue de Médicis"
   },
   "arrondissement": 6,
+  "tri_alphab": "Medicis",
   "coordonnees": {
     "latitude": "48.848362",
     "longitude": "2.339705"
@@ -28,9 +29,9 @@
   "image_ref": "Medicis-9_6_§1",
   "terme_jantzen_bat": [
     "porte-bois",
+    "colonne",
     "porte",
-    "sculpture",
-    "colonne"
+    "sculpture"
   ],
   "photos": [
     {

@@ -4,7 +4,11 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 201,
+      "personneID": 423,
+      "role": "architecte"
+    },
+    {
+      "personneID": 319,
       "role": "architecte"
     }
   ],
@@ -18,6 +22,7 @@
     "voie": "rue Verniquet"
   },
   "arrondissement": 17,
+  "tri_alphab": "Verniquet",
   "coordonnees": {
     "latitude": "48.887729",
     "longitude": "2.301072"
@@ -27,8 +32,8 @@
   "WPfr": null,
   "image_ref": "Verniquet-11_17_§1",
   "terme_jantzen_bat": [
-    "façade",
     "fenetre",
+    "façade",
     "lucarne"
   ],
   "photos": [

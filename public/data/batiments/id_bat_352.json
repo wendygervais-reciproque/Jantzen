@@ -13,6 +13,7 @@
     "voie": "rue Saint-Augustin"
   },
   "arrondissement": 2,
+  "tri_alphab": "St-Augustin",
   "coordonnees": {
     "latitude": "48.868931",
     "longitude": "2.337141"
@@ -22,10 +23,10 @@
   "WPfr": null,
   "image_ref": "St-Augustin-10_2_§1",
   "terme_jantzen_bat": [
-    "console",
-    "sculpture",
     "fenetre",
-    "garde-corps"
+    "garde-corps",
+    "console",
+    "sculpture"
   ],
   "photos": [
     {

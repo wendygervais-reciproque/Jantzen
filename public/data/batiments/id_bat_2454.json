@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 458,
+      "personneID": 627,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "avenue des Gobelins"
   },
   "arrondissement": 5,
+  "tri_alphab": "Gobelins-Av",
   "coordonnees": {
     "latitude": "48.838141",
     "longitude": "2.350612"
@@ -27,10 +28,10 @@
   "WPfr": null,
   "image_ref": "Gobelins-Av-4_5_§1",
   "terme_jantzen_bat": [
+    "porte-fer-hall",
     "console",
-    "sculpture",
     "lucarne",
-    "porte-fer-hall"
+    "sculpture"
   ],
   "photos": [
     {

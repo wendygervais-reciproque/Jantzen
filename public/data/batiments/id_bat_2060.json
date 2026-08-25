@@ -13,6 +13,7 @@
     "voie": "rue Cambacérès"
   },
   "arrondissement": 8,
+  "tri_alphab": "Cambaceres",
   "coordonnees": {
     "latitude": "48.872076",
     "longitude": "2.318129"
@@ -22,10 +23,10 @@
   "WPfr": null,
   "image_ref": "Cambaceres-3_8_§1-Rx",
   "terme_jantzen_bat": [
-    "façade",
-    "sculpture",
     "fenetre",
-    "garde-corps"
+    "garde-corps",
+    "façade",
+    "sculpture"
   ],
   "photos": [
     {

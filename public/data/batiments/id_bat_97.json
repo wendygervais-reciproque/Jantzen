@@ -4,7 +4,11 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 41,
+      "personneID": 282,
+      "role": "architecte"
+    },
+    {
+      "personneID": 36,
       "role": "architecte"
     }
   ],
@@ -14,6 +18,7 @@
   ],
   "adresse": null,
   "arrondissement": 4,
+  "tri_alphab": "Hotel-De-Ville ",
   "coordonnees": {
     "latitude": "48.856389",
     "longitude": "2.352222"
@@ -21,22 +26,22 @@
   "id_pss": 7234,
   "id_wikidata": "Q640968",
   "WPfr": "Hôtel de ville de Paris",
-  "image_ref": "Hotel-De-Ville _4_§10-Rx",
+  "image_ref": "Hotel-De-Ville _4_§2-Rx",
   "terme_jantzen_bat": [
-    "façade",
-    "oeil-de-boeuf",
-    "lucarne",
-    "cariatide",
-    "mosaique",
-    "tourelle",
-    "fronton",
-    "sculpture",
-    "fenetre",
     "décor",
+    "tourelle",
     "porte-fer",
-    "colonne",
+    "cariatide",
+    "façade",
+    "mosaique",
+    "fenetre",
+    "toiture",
+    "oeil-de-boeuf",
+    "fronton",
+    "lucarne",
+    "sculpture",
     "porte-bois",
-    "toiture"
+    "colonne"
   ],
   "photos": [
     {

@@ -13,6 +13,7 @@
     "voie": "rue des Dardanelles"
   },
   "arrondissement": 17,
+  "tri_alphab": "Dardanelles",
   "coordonnees": {
     "latitude": "48.882697",
     "longitude": "2.285046"
@@ -22,10 +23,10 @@
   "WPfr": null,
   "image_ref": "Dardanelles-12_17§1",
   "terme_jantzen_bat": [
-    "console",
     "fenetre",
-    "garde-corps",
-    "oriel"
+    "oriel",
+    "console",
+    "garde-corps"
   ],
   "photos": [
     {

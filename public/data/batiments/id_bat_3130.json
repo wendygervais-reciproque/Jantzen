@@ -13,6 +13,7 @@
     "voie": "rue de la Cité"
   },
   "arrondissement": 4,
+  "tri_alphab": "Cite",
   "coordonnees": {
     "latitude": "48.853884",
     "longitude": "2.34713"
@@ -22,10 +23,10 @@
   "WPfr": null,
   "image_ref": "Cite-6_4_§1",
   "terme_jantzen_bat": [
-    "sculpture",
     "oeil-de-boeuf",
     "toiture",
-    "lucarne"
+    "lucarne",
+    "sculpture"
   ],
   "photos": [
     {

@@ -9,6 +9,7 @@
   ],
   "adresse": null,
   "arrondissement": 7,
+  "tri_alphab": "Invalides-HSO-Cv",
   "coordonnees": {
     "latitude": "48.856073",
     "longitude": "2.312272"
@@ -18,12 +19,12 @@
   "WPfr": "Cour d'honneur de l'hôtel des Invalides",
   "image_ref": "Invalides-HSO-Cv_§1",
   "terme_jantzen_bat": [
-    "lucarne",
-    "fenetre-d'angle",
     "sculpture",
+    "lucarne-d'angle",
     "façade-d'angle",
     "toiture",
-    "lucarne-d'angle"
+    "fenetre-d'angle",
+    "lucarne"
   ],
   "photos": [
     {

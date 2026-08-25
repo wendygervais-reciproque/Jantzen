@@ -2,7 +2,12 @@
   "id_bat": 741,
   "libelle": "126 rue Réaumur",
   "ensemble": null,
-  "personnes": null,
+  "personnes": [
+    {
+      "personneID": 553,
+      "role": "architecte"
+    }
+  ],
   "dateConstruction": null,
   "periode": [
     "1895-1914"
@@ -13,6 +18,7 @@
     "voie": "rue Réaumur"
   },
   "arrondissement": 2,
+  "tri_alphab": "Reaumur",
   "coordonnees": {
     "latitude": "48.868199",
     "longitude": "2.343941"
@@ -22,12 +28,12 @@
   "WPfr": null,
   "image_ref": "Reaumur-126_2_§1",
   "terme_jantzen_bat": [
-    "verrière",
-    "lucarne",
-    "clé",
     "métal",
-    "colonne",
-    "dome"
+    "clé",
+    "verrière",
+    "dome",
+    "lucarne",
+    "colonne"
   ],
   "photos": [
     {

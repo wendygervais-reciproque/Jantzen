@@ -4,7 +4,11 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 668,
+      "personneID": 930,
+      "role": "architecte"
+    },
+    {
+      "personneID": 890,
       "role": "architecte"
     }
   ],
@@ -18,6 +22,7 @@
     "voie": "rue Linné"
   },
   "arrondissement": 5,
+  "tri_alphab": "Linne",
   "coordonnees": {
     "latitude": "48.84557",
     "longitude": "2.354779"
@@ -27,15 +32,15 @@
   "WPfr": null,
   "image_ref": "Linne-24_5_§1",
   "terme_jantzen_bat": [
-    "façade",
-    "console",
-    "garde-corps",
     "décor",
-    "sculpture",
+    "façade",
     "fenetre",
-    "pilastre",
     "balcon",
-    "porte-bois"
+    "console",
+    "pilastre",
+    "sculpture",
+    "porte-bois",
+    "garde-corps"
   ],
   "photos": [
     {

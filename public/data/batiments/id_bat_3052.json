@@ -1,10 +1,10 @@
 {
   "id_bat": 3052,
-  "libelle": "57 rue du Faubourg-Poissonnière",
+  "libelle": "57 rue du Faubourg Poissonnière",
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 353,
+      "personneID": 472,
       "role": "architecte"
     }
   ],
@@ -13,11 +13,12 @@
     "1895-1914"
   ],
   "adresse": {
-    "affichage": "57 rue du Faubourg-Poissonnière",
+    "affichage": "57 rue du Faubourg Poissonnière",
     "numero": "57",
-    "voie": "rue du Faubourg-Poissonnière"
+    "voie": "rue du Faubourg Poissonnière"
   },
   "arrondissement": 9,
+  "tri_alphab": "Faubourg-Poissonniere",
   "coordonnees": {
     "latitude": "48.874823",
     "longitude": "2.347957"
@@ -27,8 +28,8 @@
   "WPfr": null,
   "image_ref": "Faubourg-Poissonniere-57_9_§1",
   "terme_jantzen_bat": [
-    "façade",
-    "oriel"
+    "oriel",
+    "façade"
   ],
   "photos": [
     {

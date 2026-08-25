@@ -13,6 +13,7 @@
     "voie": "rue du Bac"
   },
   "arrondissement": 7,
+  "tri_alphab": "Bac",
   "coordonnees": {
     "latitude": "48.858322",
     "longitude": "2.3283"
@@ -22,12 +23,12 @@
   "WPfr": null,
   "image_ref": "Bac-18_7_§1",
   "terme_jantzen_bat": [
-    "garde-corps",
-    "fenetre-d'angle",
+    "pignon",
     "façade-d'angle",
-    "colonne",
     "balcon",
-    "pignon"
+    "fenetre-d'angle",
+    "colonne",
+    "garde-corps"
   ],
   "photos": [
     {

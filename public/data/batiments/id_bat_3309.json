@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 676,
+      "personneID": 906,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "boulevard des Invalides"
   },
   "arrondissement": 7,
+  "tri_alphab": "Invalides-Bd",
   "coordonnees": {
     "latitude": "48.847224",
     "longitude": "2.316658"
@@ -27,9 +28,9 @@
   "WPfr": null,
   "image_ref": "InvalidesBd-67_7_§1-Rs",
   "terme_jantzen_bat": [
-    "façade",
-    "fronton",
     "lucarne-d'angle",
+    "fronton",
+    "façade",
     "lucarne"
   ],
   "photos": [

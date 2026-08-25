@@ -13,6 +13,7 @@
     "voie": "rue du Pont-Louis-Philippe"
   },
   "arrondissement": 4,
+  "tri_alphab": "Pont_Louis_Philippe",
   "coordonnees": {
     "latitude": "48.856041",
     "longitude": "2.35636"
@@ -23,9 +24,9 @@
   "image_ref": "Pont_Louis_Philippe-25_4_§1",
   "terme_jantzen_bat": [
     "décor",
-    "sculpture",
     "fenetre",
-    "pilastre"
+    "pilastre",
+    "sculpture"
   ],
   "photos": [
     {

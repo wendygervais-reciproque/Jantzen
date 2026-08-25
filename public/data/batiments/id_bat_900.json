@@ -13,6 +13,7 @@
     "voie": "rue de La Trémoille"
   },
   "arrondissement": 8,
+  "tri_alphab": "La-Tremoille",
   "coordonnees": {
     "latitude": "48.866877",
     "longitude": "2.302869"
@@ -22,11 +23,11 @@
   "WPfr": null,
   "image_ref": "La-Tremoille-14_8_§1",
   "terme_jantzen_bat": [
-    "garde-corps",
-    "oriel",
     "métal",
     "balcon",
-    "céramique"
+    "céramique",
+    "oriel",
+    "garde-corps"
   ],
   "photos": [
     {

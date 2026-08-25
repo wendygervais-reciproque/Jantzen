@@ -13,6 +13,7 @@
     "voie": "place de la Concorde"
   },
   "arrondissement": 8,
+  "tri_alphab": "Concorde-Pl",
   "coordonnees": {
     "latitude": "48.867064",
     "longitude": "2.321884"
@@ -23,9 +24,9 @@
   "image_ref": "Concorde-Pl-4_8_§1",
   "terme_jantzen_bat": [
     "façade",
-    "fronton",
-    "panoramique",
     "fenetre",
+    "panoramique",
+    "fronton",
     "colonne"
   ],
   "photos": [

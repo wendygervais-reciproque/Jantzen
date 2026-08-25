@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 25,
+      "personneID": 464,
       "role": "architecte"
     }
   ],
@@ -14,6 +14,7 @@
   ],
   "adresse": null,
   "arrondissement": 12,
+  "tri_alphab": "Mairie-du",
   "coordonnees": {
     "latitude": "48.8408",
     "longitude": "2.38833"
@@ -25,8 +26,8 @@
   "terme_jantzen_bat": [
     "tourelle",
     "oeil-de-boeuf",
-    "toiture",
-    "lucarne"
+    "lucarne",
+    "toiture"
   ],
   "photos": [
     {

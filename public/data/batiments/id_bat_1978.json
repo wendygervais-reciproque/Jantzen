@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 628,
+      "personneID": 834,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue de Madrid"
   },
   "arrondissement": 8,
+  "tri_alphab": "Madrid",
   "coordonnees": {
     "latitude": "48.878013",
     "longitude": "2.31833"
@@ -27,10 +28,10 @@
   "WPfr": null,
   "image_ref": "Madrid-28_8_§1",
   "terme_jantzen_bat": [
-    "façade",
-    "sculpture",
     "clé",
-    "fenetre"
+    "fenetre",
+    "façade",
+    "sculpture"
   ],
   "photos": [
     {

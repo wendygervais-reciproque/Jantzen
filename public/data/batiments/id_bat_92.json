@@ -2,13 +2,19 @@
   "id_bat": 92,
   "libelle": "Hôpital de la Pitié Salpêtrière",
   "ensemble": null,
-  "personnes": null,
+  "personnes": [
+    {
+      "personneID": 108,
+      "role": "architecte"
+    }
+  ],
   "dateConstruction": "1658-1677, 1756",
   "periode": [
     "1660-1759"
   ],
   "adresse": null,
   "arrondissement": 13,
+  "tri_alphab": "Pitie-Salpetriere-Hopital",
   "coordonnees": {
     "latitude": "48.837",
     "longitude": "2.365"
@@ -16,20 +22,20 @@
   "id_pss": null,
   "id_wikidata": "Q939883",
   "WPfr": "Hôpital de la Salpêtrière",
-  "image_ref": "Pitie-Salpetriere-Hopital_13_§10",
+  "image_ref": "Pitie-Salpetriere-Hopital_13_§5-Rx",
   "terme_jantzen_bat": [
-    "façade",
-    "oeil-de-boeuf",
-    "lucarne",
     "tourelle",
-    "porte",
-    "fronton",
-    "sculpture",
+    "façade",
     "panoramique",
     "fenetre",
-    "colonne",
+    "dome",
+    "porte",
     "toiture",
-    "dome"
+    "oeil-de-boeuf",
+    "fronton",
+    "lucarne",
+    "sculpture",
+    "colonne"
   ],
   "photos": [
     {

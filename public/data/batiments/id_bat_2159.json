@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 530,
+      "personneID": 845,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue Galilée"
   },
   "arrondissement": 16,
+  "tri_alphab": "Galilee",
   "coordonnees": {
     "latitude": "48.869031",
     "longitude": "2.294776"
@@ -28,8 +29,8 @@
   "image_ref": "Galilee-30_16_§1",
   "terme_jantzen_bat": [
     "porte-bois",
-    "sculpture",
-    "cariatide"
+    "cariatide",
+    "sculpture"
   ],
   "photos": [
     {

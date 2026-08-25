@@ -1,0 +1,40 @@
+{
+  "id_bat": 3303,
+  "libelle": "66 rue Laugier",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 384,
+      "role": "architecte"
+    },
+    {
+      "personneID": 42,
+      "role": "architecte"
+    },
+    {
+      "personneID": 349,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": null,
+  "periode": [
+    "1915-1944"
+  ],
+  "adresse": {
+    "affichage": "66 rue Laugier",
+    "numero": "66",
+    "voie": "rue Laugier"
+  },
+  "arrondissement": 17,
+  "tri_alphab": "Laugier",
+  "coordonnees": {
+    "latitude": "48.883998",
+    "longitude": "2.292604"
+  },
+  "id_pss": 41125,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 8104,
+  "terme_jantzen_bat": [],
+  "photos": []
+}

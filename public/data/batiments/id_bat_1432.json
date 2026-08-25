@@ -13,6 +13,7 @@
     "voie": "place de l'Opéra"
   },
   "arrondissement": 2,
+  "tri_alphab": "Opera-pl",
   "coordonnees": {
     "latitude": "48.870133",
     "longitude": "2.332819"
@@ -22,12 +23,12 @@
   "WPfr": null,
   "image_ref": "Opera-av_4-Septembre_2_§1",
   "terme_jantzen_bat": [
-    "sculpture",
     "clé",
-    "pilastre",
-    "balcon",
     "lucarne-d'angle",
-    "dome"
+    "dome",
+    "balcon",
+    "pilastre",
+    "sculpture"
   ],
   "photos": [
     {

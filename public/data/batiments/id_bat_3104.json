@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 657,
+      "personneID": 874,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "place d'Iéna"
   },
   "arrondissement": 16,
+  "tri_alphab": "Iena-pl",
   "coordonnees": {
     "latitude": "48.865019",
     "longitude": "2.293702"
@@ -27,13 +28,13 @@
   "WPfr": null,
   "image_ref": "Iena-pl-6_16_§1",
   "terme_jantzen_bat": [
-    "fenetre-d'angle",
-    "tour",
     "décor",
     "fenetre",
+    "dome",
     "façade-d'angle",
-    "colonne",
-    "dome"
+    "tour",
+    "fenetre-d'angle",
+    "colonne"
   ],
   "photos": [
     {

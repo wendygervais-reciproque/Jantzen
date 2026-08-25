@@ -1,6 +1,6 @@
 {
   "id_bat": 2027,
-  "libelle": "3  rue Saint-Dominique",
+  "libelle": "3 rue Saint-Dominique",
   "ensemble": null,
   "personnes": null,
   "dateConstruction": "1681-1687",
@@ -8,11 +8,12 @@
     "1660-1759"
   ],
   "adresse": {
-    "affichage": "3  rue Saint-Dominique",
+    "affichage": "3 rue Saint-Dominique",
     "numero": "3",
-    "voie": " rue Saint-Dominique"
+    "voie": "rue Saint-Dominique"
   },
   "arrondissement": 7,
+  "tri_alphab": "St-Dominique",
   "coordonnees": {
     "latitude": "48.857846",
     "longitude": "2.323337"

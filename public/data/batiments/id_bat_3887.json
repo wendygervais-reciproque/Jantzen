@@ -4,7 +4,11 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 79,
+      "personneID": 126,
+      "role": "architecte"
+    },
+    {
+      "personneID": 292,
       "role": "architecte"
     }
   ],
@@ -18,6 +22,7 @@
     "voie": "rue Réaumur"
   },
   "arrondissement": 2,
+  "tri_alphab": "Reaumur",
   "coordonnees": {
     "latitude": "48.867445",
     "longitude": "2.346469"

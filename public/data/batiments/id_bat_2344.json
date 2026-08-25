@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 276,
+      "personneID": 401,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue Saint-Placide"
   },
   "arrondissement": 6,
+  "tri_alphab": "St-Placide",
   "coordonnees": {
     "latitude": "48.848447",
     "longitude": "2.325624"
@@ -27,11 +28,11 @@
   "WPfr": null,
   "image_ref": "St-Placide-36_6_§1",
   "terme_jantzen_bat": [
-    "façade",
-    "garde-corps",
     "clé",
+    "façade",
     "balcon",
-    "porte-bois"
+    "porte-bois",
+    "garde-corps"
   ],
   "photos": [
     {

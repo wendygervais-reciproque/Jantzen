@@ -13,6 +13,7 @@
     "voie": "rue François-Miron"
   },
   "arrondissement": 4,
+  "tri_alphab": "Francois-Miron",
   "coordonnees": {
     "latitude": "48.855628",
     "longitude": "2.35706"
@@ -22,11 +23,11 @@
   "WPfr": null,
   "image_ref": "Francois-Miron-42_4_§1",
   "terme_jantzen_bat": [
-    "façade",
-    "garde-corps",
     "clé",
+    "façade",
     "fenetre",
-    "balcon"
+    "balcon",
+    "garde-corps"
   ],
   "photos": [
     {

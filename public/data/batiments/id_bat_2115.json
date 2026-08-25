@@ -13,6 +13,7 @@
     "voie": "rue La Boétie"
   },
   "arrondissement": 8,
+  "tri_alphab": "La-Boetie",
   "coordonnees": {
     "latitude": "48.874358",
     "longitude": "2.319045"
@@ -22,11 +23,11 @@
   "WPfr": null,
   "image_ref": "La-Boetie-3_8_§1",
   "terme_jantzen_bat": [
-    "garde-corps",
-    "sculpture",
     "façade-d'angle",
+    "balcon",
+    "sculpture",
     "colonne",
-    "balcon"
+    "garde-corps"
   ],
   "photos": [
     {

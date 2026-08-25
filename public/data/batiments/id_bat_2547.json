@@ -13,6 +13,7 @@
     "voie": "rue Valette"
   },
   "arrondissement": 5,
+  "tri_alphab": "Valette",
   "coordonnees": {
     "latitude": "48.847525",
     "longitude": "2.346699"
@@ -22,10 +23,10 @@
   "WPfr": null,
   "image_ref": "Valette-4_5_§1",
   "terme_jantzen_bat": [
-    "brique",
-    "porte",
     "fenetre",
-    "façade"
+    "porte",
+    "façade",
+    "brique"
   ],
   "photos": [
     {

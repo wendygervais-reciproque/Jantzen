@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 151,
+      "personneID": 244,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue Caulaincourt"
   },
   "arrondissement": 18,
+  "tri_alphab": "Caulaincourt",
   "coordonnees": {
     "latitude": "48.889808",
     "longitude": "2.340812"
@@ -27,8 +28,8 @@
   "WPfr": null,
   "image_ref": "Caulaincourt-115_18_§1",
   "terme_jantzen_bat": [
-    "console",
     "loggia",
+    "console",
     "lucarne",
     "sculpture",
     "colonne"

@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 583,
+      "personneID": 565,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue Michel-le-Comte"
   },
   "arrondissement": 3,
+  "tri_alphab": "Michel-Comte",
   "coordonnees": {
     "latitude": "48.862571",
     "longitude": "2.35501"
@@ -27,10 +28,10 @@
   "WPfr": null,
   "image_ref": "Michel-Comte-28_3_§1",
   "terme_jantzen_bat": [
-    "façade",
-    "porte",
     "porte-bois",
-    "colonne"
+    "colonne",
+    "façade",
+    "porte"
   ],
   "photos": [
     {

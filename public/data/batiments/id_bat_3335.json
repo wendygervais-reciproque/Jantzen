@@ -2,7 +2,12 @@
   "id_bat": 3335,
   "libelle": "68 rue Boursault",
   "ensemble": null,
-  "personnes": null,
+  "personnes": [
+    {
+      "personneID": 919,
+      "role": "architecte"
+    }
+  ],
   "dateConstruction": null,
   "periode": [
     "1895-1914"
@@ -13,6 +18,7 @@
     "voie": "rue Boursault"
   },
   "arrondissement": 17,
+  "tri_alphab": "Boursault",
   "coordonnees": {
     "latitude": "48.885826",
     "longitude": "2.318284"
@@ -22,12 +28,12 @@
   "WPfr": null,
   "image_ref": "Boursault-68_17_§1",
   "terme_jantzen_bat": [
-    "façade",
-    "garde-corps",
-    "sculpture",
     "clé",
+    "façade",
     "fenetre",
-    "balcon"
+    "balcon",
+    "sculpture",
+    "garde-corps"
   ],
   "photos": [
     {

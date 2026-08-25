@@ -13,6 +13,7 @@
     "voie": "place Vendôme"
   },
   "arrondissement": 1,
+  "tri_alphab": "Vendome-Pl",
   "coordonnees": {
     "latitude": "48.867453",
     "longitude": "2.328382"
@@ -22,9 +23,9 @@
   "WPfr": null,
   "image_ref": "Vendome-Pl-9_1_§1",
   "terme_jantzen_bat": [
-    "façade",
-    "oeil-de-boeuf",
     "fenetre",
+    "oeil-de-boeuf",
+    "façade",
     "lucarne"
   ],
   "photos": [

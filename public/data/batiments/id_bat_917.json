@@ -2,7 +2,12 @@
   "id_bat": 917,
   "libelle": "14 rue François-Miron",
   "ensemble": null,
-  "personnes": null,
+  "personnes": [
+    {
+      "personneID": 376,
+      "role": "architecte"
+    }
+  ],
   "dateConstruction": "1737",
   "periode": [
     "1660-1759"
@@ -13,6 +18,7 @@
     "voie": "rue François-Miron"
   },
   "arrondissement": 4,
+  "tri_alphab": "Francois-Miron",
   "coordonnees": {
     "latitude": "48.855831",
     "longitude": "2.355508"
@@ -22,11 +28,11 @@
   "WPfr": null,
   "image_ref": "Francois-Miron-14_4_§1-Rs",
   "terme_jantzen_bat": [
-    "console",
-    "garde-corps",
     "fenetre",
     "balcon",
-    "porte-bois"
+    "console",
+    "porte-bois",
+    "garde-corps"
   ],
   "photos": [
     {

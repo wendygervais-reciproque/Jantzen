@@ -13,6 +13,7 @@
     "voie": "rue des Quatre-Fils"
   },
   "arrondissement": 3,
+  "tri_alphab": "Quatre-Fils",
   "coordonnees": {
     "latitude": "48.860811",
     "longitude": "2.359151"
@@ -22,13 +23,13 @@
   "WPfr": null,
   "image_ref": "Quatre-Fils-20_3_§1",
   "terme_jantzen_bat": [
+    "clé",
     "façade",
+    "fenetre",
     "console",
-    "garde-corps",
     "lucarne",
     "sculpture",
-    "clé",
-    "fenetre"
+    "garde-corps"
   ],
   "photos": [
     {

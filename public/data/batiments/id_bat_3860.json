@@ -4,7 +4,11 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 545,
+      "personneID": 732,
+      "role": "architecte"
+    },
+    {
+      "personneID": 904,
       "role": "architecte"
     }
   ],
@@ -18,6 +22,7 @@
     "voie": "avenue Henri-Martin"
   },
   "arrondissement": 16,
+  "tri_alphab": "Henri-Martin",
   "coordonnees": {
     "latitude": "48.86407",
     "longitude": "2.273584"
@@ -27,8 +32,8 @@
   "WPfr": null,
   "image_ref": "Henri-Martin-91_16_§1",
   "terme_jantzen_bat": [
-    "porte-fer",
     "colonne",
+    "porte-fer",
     "marquise"
   ],
   "photos": [

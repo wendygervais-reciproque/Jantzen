@@ -4,7 +4,11 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 259,
+      "personneID": 255,
+      "role": "architecte"
+    },
+    {
+      "personneID": 255,
       "role": "architecte"
     }
   ],
@@ -19,6 +23,7 @@
     "voie": "place du Châtelet"
   },
   "arrondissement": 1,
+  "tri_alphab": "Chatelet-Pl",
   "coordonnees": {
     "latitude": "48.8575",
     "longitude": "2.3472222222222"

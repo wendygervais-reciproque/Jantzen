@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 420,
+      "personneID": 566,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue George-Sand"
   },
   "arrondissement": 16,
+  "tri_alphab": "Georges_Sand",
   "coordonnees": {
     "latitude": "48.850237",
     "longitude": "2.267685"
@@ -27,11 +28,11 @@
   "WPfr": null,
   "image_ref": "Georges_Sand_29_16_§1",
   "terme_jantzen_bat": [
-    "oriel",
-    "brique",
-    "sculpture",
     "décor",
-    "fenetre"
+    "brique",
+    "fenetre",
+    "sculpture",
+    "oriel"
   ],
   "photos": [
     {

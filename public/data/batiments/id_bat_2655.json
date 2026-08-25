@@ -2,7 +2,16 @@
   "id_bat": 2655,
   "libelle": "43 rue des Couronnes",
   "ensemble": null,
-  "personnes": null,
+  "personnes": [
+    {
+      "personneID": 724,
+      "role": "architecte"
+    },
+    {
+      "personneID": 195,
+      "role": "architecte"
+    }
+  ],
   "dateConstruction": null,
   "periode": [
     "1895-1914"
@@ -13,6 +22,7 @@
     "voie": "rue des Couronnes"
   },
   "arrondissement": 20,
+  "tri_alphab": "Couronnes",
   "coordonnees": {
     "latitude": "48.870282",
     "longitude": "2.384485"
@@ -22,12 +32,12 @@
   "WPfr": null,
   "image_ref": "Couronnes-43_20_§1",
   "terme_jantzen_bat": [
-    "garde-corps",
-    "brique",
     "décor",
+    "brique",
     "fenetre",
     "balcon",
-    "céramique"
+    "céramique",
+    "garde-corps"
   ],
   "photos": [
     {

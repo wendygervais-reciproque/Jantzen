@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 327,
+      "personneID": 468,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "place du Général-Catroux"
   },
   "arrondissement": 17,
+  "tri_alphab": "General-Catroux-pl",
   "coordonnees": {
     "latitude": "48.882123",
     "longitude": "2.311788"
@@ -27,11 +28,11 @@
   "WPfr": null,
   "image_ref": "General-Catroux-pl-6_17_§1_1-Rx",
   "terme_jantzen_bat": [
-    "façade",
-    "console",
-    "sculpture",
     "porte-fer",
-    "marquise"
+    "façade",
+    "marquise",
+    "console",
+    "sculpture"
   ],
   "photos": [
     {

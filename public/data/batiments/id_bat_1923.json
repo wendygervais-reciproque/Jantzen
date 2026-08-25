@@ -4,7 +4,11 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 127,
+      "personneID": 724,
+      "role": "architecte"
+    },
+    {
+      "personneID": 195,
       "role": "architecte"
     }
   ],
@@ -18,6 +22,7 @@
     "voie": "rue Traversière"
   },
   "arrondissement": 12,
+  "tri_alphab": "Traversiere",
   "coordonnees": {
     "latitude": "48.847429",
     "longitude": "2.373219"
@@ -27,8 +32,8 @@
   "WPfr": null,
   "image_ref": "Traversiere-26t_12_§1",
   "terme_jantzen_bat": [
-    "façade",
     "fenetre",
+    "façade",
     "lucarne"
   ],
   "photos": [

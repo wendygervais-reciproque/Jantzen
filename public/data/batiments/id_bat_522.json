@@ -1,6 +1,6 @@
 {
   "id_bat": 522,
-  "libelle": "112  rue Saint-Dominique",
+  "libelle": "112 rue Saint-Dominique",
   "ensemble": null,
   "personnes": null,
   "dateConstruction": "1898",
@@ -8,23 +8,24 @@
     "1895-1914"
   ],
   "adresse": {
-    "affichage": "112  rue Saint-Dominique",
+    "affichage": "112 rue Saint-Dominique",
     "numero": "112",
-    "voie": " rue Saint-Dominique"
+    "voie": "rue Saint-Dominique"
   },
   "arrondissement": 7,
+  "tri_alphab": "St-Dominique",
   "coordonnees": {
     "latitude": "48.858477",
     "longitude": "2.302211"
   },
-  "id_pss": null,
+  "id_pss": 105788,
   "id_wikidata": null,
   "WPfr": null,
   "image_ref": "St-Dominique-112_7_§1",
   "terme_jantzen_bat": [
-    "façade",
+    "porte-bois",
     "fenetre",
-    "porte-bois"
+    "façade"
   ],
   "photos": [
     {

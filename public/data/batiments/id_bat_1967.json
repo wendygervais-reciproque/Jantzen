@@ -2,7 +2,16 @@
   "id_bat": 1967,
   "libelle": "28 boulevard de la Bastille",
   "ensemble": null,
-  "personnes": null,
+  "personnes": [
+    {
+      "personneID": 693,
+      "role": "architecte"
+    },
+    {
+      "personneID": 692,
+      "role": "architecte"
+    }
+  ],
   "dateConstruction": null,
   "periode": [
     "1895-1914"
@@ -13,6 +22,7 @@
     "voie": "boulevard de la Bastille"
   },
   "arrondissement": 12,
+  "tri_alphab": "Bastille-bd",
   "coordonnees": {
     "latitude": "48.849335",
     "longitude": "2.368423"
@@ -22,9 +32,9 @@
   "WPfr": null,
   "image_ref": "Bastille-bd-28_12_§1",
   "terme_jantzen_bat": [
-    "porte-bois",
+    "clé",
     "sculpture",
-    "clé"
+    "porte-bois"
   ],
   "photos": [
     {

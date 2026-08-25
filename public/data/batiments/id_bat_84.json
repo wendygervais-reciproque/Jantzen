@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 468,
+      "personneID": 891,
       "role": "architecte"
     }
   ],
@@ -14,6 +14,7 @@
   ],
   "adresse": null,
   "arrondissement": 12,
+  "tri_alphab": "Gare-de-Lyon",
   "coordonnees": {
     "latitude": "48.844704545066",
     "longitude": "2.3740659075147"
@@ -23,13 +24,13 @@
   "WPfr": "Gare de Lyon (métro de Paris)",
   "image_ref": "Gare-de-Lyon_12_§1",
   "terme_jantzen_bat": [
+    "décor",
+    "fenetre",
+    "balcon",
+    "tour",
     "console",
     "lucarne",
-    "tour",
-    "décor",
-    "sculpture",
-    "fenetre",
-    "balcon"
+    "sculpture"
   ],
   "photos": [
     {

@@ -2,13 +2,19 @@
   "id_bat": 82,
   "libelle": "Gare d'Austerlitz",
   "ensemble": null,
-  "personnes": null,
+  "personnes": [
+    {
+      "personneID": 771,
+      "role": "architecte"
+    }
+  ],
   "dateConstruction": null,
   "periode": [
     "1850-1869"
   ],
   "adresse": null,
   "arrondissement": 13,
+  "tri_alphab": "Gare-d'Austerlitz",
   "coordonnees": {
     "latitude": "48.842222222222",
     "longitude": "2.3658333333333"

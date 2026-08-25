@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 448,
+      "personneID": 69,
       "role": "architecte"
     }
   ],
@@ -14,6 +14,7 @@
   ],
   "adresse": null,
   "arrondissement": 2,
+  "tri_alphab": "Opera-Comique",
   "coordonnees": {
     "latitude": "48.87108333333333",
     "longitude": "2.337833333333333"
@@ -21,17 +22,17 @@
   "id_pss": 35875,
   "id_wikidata": "Q47419907",
   "WPfr": "Salle Favart",
-  "image_ref": "Opera-Comique_2_§10",
+  "image_ref": "Opera-Comique_2_§3",
   "terme_jantzen_bat": [
-    "façade",
-    "console",
-    "cariatide",
     "décor",
-    "sculpture",
-    "fenetre",
     "porte-fer",
-    "colonne",
-    "porte-bois"
+    "cariatide",
+    "façade",
+    "fenetre",
+    "console",
+    "sculpture",
+    "porte-bois",
+    "colonne"
   ],
   "photos": [
     {

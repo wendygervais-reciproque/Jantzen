@@ -13,6 +13,7 @@
     "voie": "rue de Rivoli"
   },
   "arrondissement": 4,
+  "tri_alphab": "Rivoli",
   "coordonnees": {
     "latitude": "48.857109",
     "longitude": "2.353624"
@@ -22,10 +23,10 @@
   "WPfr": null,
   "image_ref": "Rivoli-52_4_§1",
   "terme_jantzen_bat": [
-    "lucarne",
-    "oeil-de-boeuf",
     "lucarne-d'angle",
-    "dome"
+    "oeil-de-boeuf",
+    "dome",
+    "lucarne"
   ],
   "photos": [
     {

@@ -4,7 +4,11 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 240,
+      "personneID": 492,
+      "role": "architecte"
+    },
+    {
+      "personneID": 357,
       "role": "architecte"
     }
   ],
@@ -18,6 +22,7 @@
     "voie": "avenue des Gobelins"
   },
   "arrondissement": 13,
+  "tri_alphab": "Gobelins-av",
   "coordonnees": {
     "latitude": "48.835095",
     "longitude": "2.352724"
@@ -27,15 +32,15 @@
   "WPfr": null,
   "image_ref": "Gobelins-av-42_13_§1",
   "terme_jantzen_bat": [
-    "façade",
-    "cariatide",
-    "brique",
-    "sculpture",
     "décor",
+    "cariatide",
+    "façade",
+    "brique",
     "fenetre",
-    "colonne",
+    "toiture",
     "atlante",
-    "toiture"
+    "sculpture",
+    "colonne"
   ],
   "photos": [
     {

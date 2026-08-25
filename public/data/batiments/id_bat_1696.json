@@ -13,6 +13,7 @@
     "voie": "rue Monsieur-le-Prince"
   },
   "arrondissement": 6,
+  "tri_alphab": "Monsieur-Le-Prince",
   "coordonnees": {
     "latitude": "48.849796",
     "longitude": "2.339967"
@@ -22,10 +23,10 @@
   "WPfr": null,
   "image_ref": "Monsieur-Le-Prince-22_6_§1",
   "terme_jantzen_bat": [
-    "façade",
-    "sculpture",
     "fenetre",
-    "pignon"
+    "pignon",
+    "façade",
+    "sculpture"
   ],
   "photos": [
     {

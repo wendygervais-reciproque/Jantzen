@@ -4,7 +4,19 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 260,
+      "personneID": 545,
+      "role": "architecte"
+    },
+    {
+      "personneID": 547,
+      "role": "architecte"
+    },
+    {
+      "personneID": 546,
+      "role": "architecte"
+    },
+    {
+      "personneID": 617,
       "role": "architecte"
     }
   ],
@@ -15,6 +27,7 @@
   ],
   "adresse": null,
   "arrondissement": 5,
+  "tri_alphab": "Val-De-Grace",
   "coordonnees": {
     "latitude": "48.8398",
     "longitude": "2.3417"
@@ -22,20 +35,20 @@
   "id_pss": 3278,
   "id_wikidata": "Q17376345",
   "WPfr": "Abbaye du Val-de-Grâce",
-  "image_ref": "Val-De-Grace_5_§1",
+  "image_ref": "Val-De-Grace_5_§2",
   "terme_jantzen_bat": [
-    "façade",
-    "oeil-de-boeuf",
-    "lucarne",
     "décor",
-    "sculpture",
-    "fronton",
+    "façade",
     "fenetre",
-    "colonne",
-    "porte-bois",
-    "voie",
+    "dome",
     "toiture",
-    "dome"
+    "voie",
+    "oeil-de-boeuf",
+    "fronton",
+    "lucarne",
+    "sculpture",
+    "porte-bois",
+    "colonne"
   ],
   "photos": [
     {

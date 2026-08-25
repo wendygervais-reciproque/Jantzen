@@ -2,13 +2,31 @@
   "id_bat": 33,
   "libelle": "Pavillon de Marsan",
   "ensemble": "Palais du Louvre",
-  "personnes": null,
+  "personnes": [
+    {
+      "personneID": 552,
+      "role": "architecte"
+    },
+    {
+      "personneID": 568,
+      "role": "architecte"
+    },
+    {
+      "personneID": 355,
+      "role": "architecte"
+    },
+    {
+      "personneID": 716,
+      "role": "architecte"
+    }
+  ],
   "dateConstruction": "1853-1880",
   "periode": [
     "1850-1869"
   ],
   "adresse": null,
   "arrondissement": 1,
+  "tri_alphab": "Louvre-1-Rr_P-Marsan",
   "coordonnees": {
     "latitude": "48.863408004716874",
     "longitude": "2.3323359663409664"
@@ -19,10 +37,10 @@
   "image_ref": "Louvre-1-Rr_P-Marsan-1",
   "terme_jantzen_bat": [
     "façade",
-    "console",
     "oeil-de-boeuf",
-    "lucarne",
+    "console",
     "fronton",
+    "lucarne",
     "sculpture"
   ],
   "photos": [

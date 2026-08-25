@@ -4,7 +4,11 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 371,
+      "personneID": 494,
+      "role": "architecte"
+    },
+    {
+      "personneID": 293,
       "role": "architecte"
     }
   ],
@@ -18,6 +22,7 @@
     "voie": "rue Réaumur"
   },
   "arrondissement": 2,
+  "tri_alphab": "Reaumur",
   "coordonnees": {
     "latitude": "48.867622",
     "longitude": "2.345655"
@@ -28,14 +33,14 @@
   "image_ref": "Reaumur-97_2_§1",
   "terme_jantzen_bat": [
     "façade",
-    "console",
-    "garde-corps",
-    "verrière",
-    "lucarne",
-    "fronton",
-    "sculpture",
     "fenetre",
-    "toiture"
+    "verrière",
+    "toiture",
+    "console",
+    "fronton",
+    "lucarne",
+    "sculpture",
+    "garde-corps"
   ],
   "photos": [
     {

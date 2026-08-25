@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 128,
+      "personneID": 196,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue Alain-Chartier"
   },
   "arrondissement": 15,
+  "tri_alphab": "Alain-Chartier",
   "coordonnees": {
     "latitude": "48.837554",
     "longitude": "2.296627"
@@ -27,13 +28,13 @@
   "WPfr": null,
   "image_ref": "Alain-Chartier35_15_§1",
   "terme_jantzen_bat": [
-    "console",
     "décor",
-    "sculpture",
+    "lucarne-d'angle",
+    "dome",
     "façade-d'angle",
     "balcon",
-    "lucarne-d'angle",
-    "dome"
+    "console",
+    "sculpture"
   ],
   "photos": [
     {

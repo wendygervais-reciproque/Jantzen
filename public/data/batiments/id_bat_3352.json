@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 243,
+      "personneID": 359,
       "role": "architecte"
     }
   ],
@@ -18,19 +18,20 @@
     "voie": "rue La Boétie"
   },
   "arrondissement": 8,
+  "tri_alphab": "La-Boetie",
   "coordonnees": {
     "latitude": "48.872673",
     "longitude": "2.310593"
   },
-  "id_pss": null,
+  "id_pss": 39427,
   "id_wikidata": null,
   "WPfr": null,
   "image_ref": "La-Boetie-69_8_§1",
   "terme_jantzen_bat": [
     "fenetre",
+    "verrière",
     "toiture",
-    "lucarne",
-    "verrière"
+    "lucarne"
   ],
   "photos": [
     {

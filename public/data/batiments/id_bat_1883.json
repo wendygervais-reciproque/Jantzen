@@ -13,6 +13,7 @@
     "voie": "place Vendôme"
   },
   "arrondissement": 1,
+  "tri_alphab": "Vendome-Pl",
   "coordonnees": {
     "latitude": "48.867898",
     "longitude": "2.330198"
@@ -22,8 +23,8 @@
   "WPfr": null,
   "image_ref": "Vendome-Pl-26_1_§1",
   "terme_jantzen_bat": [
-    "façade",
     "fenetre",
+    "façade",
     "lucarne"
   ],
   "photos": [

@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 618,
+      "personneID": 825,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "boulevard Haussmann"
   },
   "arrondissement": 8,
+  "tri_alphab": "Haussmann",
   "coordonnees": {
     "latitude": "48.875014",
     "longitude": "2.312697"
@@ -27,8 +28,8 @@
   "WPfr": null,
   "image_ref": "Haussmann-137_8_§1",
   "terme_jantzen_bat": [
-    "colonne",
     "fenetre",
+    "colonne",
     "toiture",
     "lucarne"
   ],

@@ -1,0 +1,36 @@
+{
+  "id_bat": 1810,
+  "libelle": "24 rue Faidherbe",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 45,
+      "role": "architecte"
+    },
+    {
+      "personneID": 191,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": null,
+  "periode": [
+    "1915-1944"
+  ],
+  "adresse": {
+    "affichage": "24 rue Faidherbe",
+    "numero": "24",
+    "voie": "rue Faidherbe"
+  },
+  "arrondissement": 11,
+  "tri_alphab": "Faidherbe",
+  "coordonnees": {
+    "latitude": "48.851955",
+    "longitude": "2.383743"
+  },
+  "id_pss": 37365,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 4332,
+  "terme_jantzen_bat": [],
+  "photos": []
+}

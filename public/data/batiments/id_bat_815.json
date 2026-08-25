@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 316,
+      "personneID": 450,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "avenue Victor-Hugo"
   },
   "arrondissement": 16,
+  "tri_alphab": "Victor-Hugo",
   "coordonnees": {
     "latitude": "48.867647",
     "longitude": "2.280242"
@@ -27,10 +28,10 @@
   "WPfr": null,
   "image_ref": "Victor-Hugo-130_16_§1",
   "terme_jantzen_bat": [
-    "pilastre",
     "fenetre",
+    "colonne",
     "porte-fer",
-    "colonne"
+    "pilastre"
   ],
   "photos": [
     {

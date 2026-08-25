@@ -4,7 +4,11 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 558,
+      "personneID": 736,
+      "role": "architecte"
+    },
+    {
+      "personneID": 658,
       "role": "architecte"
     }
   ],
@@ -18,6 +22,7 @@
     "voie": "avenue de Flandre"
   },
   "arrondissement": 19,
+  "tri_alphab": "Flandre",
   "coordonnees": {
     "latitude": "48.893616",
     "longitude": "2.38098"
@@ -27,9 +32,9 @@
   "WPfr": null,
   "image_ref": "Flandre-144_19_§1",
   "terme_jantzen_bat": [
-    "façade",
-    "fenetre",
     "métal",
+    "fenetre",
+    "façade",
     "oriel"
   ],
   "photos": [

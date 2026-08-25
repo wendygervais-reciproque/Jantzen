@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 636,
+      "personneID": 846,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue Gay-Lussac"
   },
   "arrondissement": 5,
+  "tri_alphab": "Gay-Lussac",
   "coordonnees": {
     "latitude": "48.844822",
     "longitude": "2.341632"
@@ -27,8 +28,8 @@
   "WPfr": null,
   "image_ref": "Gay-Lussac-26_5_§1",
   "terme_jantzen_bat": [
-    "façade",
     "fenetre",
+    "façade",
     "balcon"
   ],
   "photos": [

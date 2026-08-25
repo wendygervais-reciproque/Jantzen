@@ -13,6 +13,7 @@
     "voie": "rue Poussin"
   },
   "arrondissement": 16,
+  "tri_alphab": "Poussin",
   "coordonnees": {
     "latitude": "48.848766",
     "longitude": "2.263292"
@@ -23,11 +24,11 @@
   "image_ref": "Poussin-26_16_§1",
   "terme_jantzen_bat": [
     "décor",
-    "sculpture",
-    "fenetre",
     "porte-fer",
-    "colonne",
-    "balcon"
+    "fenetre",
+    "balcon",
+    "sculpture",
+    "colonne"
   ],
   "photos": [
     {

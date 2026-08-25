@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 629,
+      "personneID": 834,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "avenue de Villiers"
   },
   "arrondissement": 17,
+  "tri_alphab": "Villiers",
   "coordonnees": {
     "latitude": "48.885452",
     "longitude": "2.294382"
@@ -27,9 +28,9 @@
   "WPfr": null,
   "image_ref": "Villiers-134_17_§1",
   "terme_jantzen_bat": [
-    "brique",
     "fenetre",
-    "pignon"
+    "pignon",
+    "brique"
   ],
   "photos": [
     {

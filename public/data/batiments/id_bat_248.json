@@ -1,0 +1,32 @@
+{
+  "id_bat": 248,
+  "libelle": "1 rue Huysmans",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 152,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1919",
+  "periode": [
+    "1915-1944"
+  ],
+  "adresse": {
+    "affichage": "1 rue Huysmans",
+    "numero": "1",
+    "voie": "rue Huysmans"
+  },
+  "arrondissement": 6,
+  "tri_alphab": "Huysmans",
+  "coordonnees": {
+    "latitude": "48.846138",
+    "longitude": "2.329884"
+  },
+  "id_pss": 28704,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 6589,
+  "terme_jantzen_bat": [],
+  "photos": []
+}

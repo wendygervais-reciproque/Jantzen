@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 47,
+      "personneID": 50,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue Eugène-Flachat"
   },
   "arrondissement": 17,
+  "tri_alphab": "Emile-Flachat",
   "coordonnees": {
     "latitude": "48.887065",
     "longitude": "2.299531"
@@ -28,9 +29,9 @@
   "image_ref": "Emile-Flachat-9_17_§1",
   "terme_jantzen_bat": [
     "décor",
-    "sculpture",
     "fenetre",
-    "verrière"
+    "verrière",
+    "sculpture"
   ],
   "photos": [
     {

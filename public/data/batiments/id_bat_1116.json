@@ -13,6 +13,7 @@
     "voie": "rue Cernuschi"
   },
   "arrondissement": 17,
+  "tri_alphab": "Cernuschi",
   "coordonnees": {
     "latitude": "48.886635",
     "longitude": "2.308042"
@@ -22,11 +23,11 @@
   "WPfr": null,
   "image_ref": "Cernuschi-16_17_§1",
   "terme_jantzen_bat": [
-    "garde-corps",
-    "verrière",
     "décor",
+    "fenetre",
+    "verrière",
     "sculpture",
-    "fenetre"
+    "garde-corps"
   ],
   "photos": [
     {

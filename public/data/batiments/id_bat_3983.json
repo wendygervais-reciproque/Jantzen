@@ -2,7 +2,16 @@
   "id_bat": 3983,
   "libelle": "place de l'Odéon",
   "ensemble": null,
-  "personnes": null,
+  "personnes": [
+    {
+      "personneID": 942,
+      "role": "architecte"
+    },
+    {
+      "personneID": 730,
+      "role": "architecte"
+    }
+  ],
   "dateConstruction": "1782",
   "periode": [
     "1760-1829"
@@ -13,6 +22,7 @@
     "voie": "place de l'Odéon"
   },
   "arrondissement": 6,
+  "tri_alphab": "Odeon-Pl",
   "coordonnees": {
     "latitude": "48.8497",
     "longitude": "2.33861"
@@ -22,8 +32,8 @@
   "WPfr": null,
   "image_ref": "Odeon-Pl_6_§1",
   "terme_jantzen_bat": [
-    "façade",
     "panoramique",
+    "façade",
     "toiture"
   ],
   "photos": [

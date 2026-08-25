@@ -13,6 +13,7 @@
     "voie": "rue Hautefeuille"
   },
   "arrondissement": 6,
+  "tri_alphab": "Hautefeuille",
   "coordonnees": {
     "latitude": "48.852403",
     "longitude": "2.342964"
@@ -22,14 +23,14 @@
   "WPfr": null,
   "image_ref": "Hautefeuille-5_6_§1",
   "terme_jantzen_bat": [
-    "façade",
-    "lucarne",
     "tourelle",
-    "sculpture",
-    "fronton",
+    "pignon",
+    "façade",
     "fenetre",
     "façade-d'angle",
-    "pignon"
+    "fronton",
+    "lucarne",
+    "sculpture"
   ],
   "photos": [
     {

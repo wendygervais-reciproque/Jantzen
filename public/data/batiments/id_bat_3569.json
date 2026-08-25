@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 699,
+      "personneID": 951,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue Madame"
   },
   "arrondissement": 6,
+  "tri_alphab": "Madame",
   "coordonnees": {
     "latitude": "48.846004",
     "longitude": "2.331608"
@@ -27,14 +28,14 @@
   "WPfr": null,
   "image_ref": "Madame-79_6_§1",
   "terme_jantzen_bat": [
-    "façade",
-    "console",
-    "cariatide",
-    "oriel",
     "décor",
-    "sculpture",
     "métal",
-    "atlante"
+    "cariatide",
+    "façade",
+    "atlante",
+    "console",
+    "sculpture",
+    "oriel"
   ],
   "photos": [
     {

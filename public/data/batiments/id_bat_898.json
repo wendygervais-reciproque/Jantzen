@@ -1,0 +1,36 @@
+{
+  "id_bat": 898,
+  "libelle": "14 rue de Bretagne",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 284,
+      "role": "architecte"
+    },
+    {
+      "personneID": 848,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1926",
+  "periode": [
+    "1915-1944"
+  ],
+  "adresse": {
+    "affichage": "14 rue de Bretagne",
+    "numero": "14",
+    "voie": "rue de Bretagne"
+  },
+  "arrondissement": 3,
+  "tri_alphab": "Bretagne",
+  "coordonnees": {
+    "latitude": "48.862824",
+    "longitude": "2.362897"
+  },
+  "id_pss": 38804,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 1604,
+  "terme_jantzen_bat": [],
+  "photos": []
+}

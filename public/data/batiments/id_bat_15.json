@@ -4,7 +4,7 @@
   "ensemble": "Opéra Garnier",
   "personnes": [
     {
-      "personneID": 121,
+      "personneID": 385,
       "role": "architecte"
     }
   ],
@@ -14,6 +14,7 @@
   ],
   "adresse": null,
   "arrondissement": 9,
+  "tri_alphab": "Opera-Garnier",
   "coordonnees": {
     "latitude": "48.871426",
     "longitude": "2.331980"
@@ -23,14 +24,14 @@
   "WPfr": "Opéra Garnier",
   "image_ref": "Opera-Garnier_9_§1",
   "terme_jantzen_bat": [
-    "façade",
     "loggia",
     "décor",
-    "sculpture",
+    "façade",
     "panoramique",
+    "dome",
     "façade-d'angle",
-    "colonne",
-    "dome"
+    "sculpture",
+    "colonne"
   ],
   "photos": [
     {

@@ -1,0 +1,36 @@
+{
+  "id_bat": 847,
+  "libelle": "136 boulevard de l'Hôpital",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 262,
+      "role": "architecte"
+    },
+    {
+      "personneID": 133,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1930",
+  "periode": [
+    "1915-1944"
+  ],
+  "adresse": {
+    "affichage": "136 boulevard de l'Hôpital",
+    "numero": "136",
+    "voie": "boulevard de l'Hôpital"
+  },
+  "arrondissement": 13,
+  "tri_alphab": "Hopital-bd",
+  "coordonnees": {
+    "latitude": "48.833891",
+    "longitude": "2.356954"
+  },
+  "id_pss": 10818,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 6362,
+  "terme_jantzen_bat": [],
+  "photos": []
+}

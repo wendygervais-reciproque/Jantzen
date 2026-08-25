@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 310,
+      "personneID": 432,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "avenue Émile-Deschanel"
   },
   "arrondissement": 7,
+  "tri_alphab": "Emile-Deschanel",
   "coordonnees": {
     "latitude": "48.856072",
     "longitude": "2.301592"
@@ -27,14 +28,14 @@
   "WPfr": null,
   "image_ref": "Emile-Deschanel-11_7_§1",
   "terme_jantzen_bat": [
-    "loggia",
-    "garde-corps",
-    "porte-fer-hall",
     "décor",
-    "sculpture",
+    "loggia",
     "fenetre",
+    "balcon",
+    "porte-fer-hall",
+    "sculpture",
     "colonne",
-    "balcon"
+    "garde-corps"
   ],
   "photos": [
     {

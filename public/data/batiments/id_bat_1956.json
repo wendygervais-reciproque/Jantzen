@@ -4,7 +4,11 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 159,
+      "personneID": 315,
+      "role": "architecte"
+    },
+    {
+      "personneID": 256,
       "role": "architecte"
     }
   ],
@@ -18,6 +22,7 @@
     "voie": "rue Victor-Massé"
   },
   "arrondissement": 9,
+  "tri_alphab": "Victor-Masse",
   "coordonnees": {
     "latitude": "48.880821",
     "longitude": "2.337906"
@@ -27,13 +32,13 @@
   "WPfr": null,
   "image_ref": "Victor-Masse-27_9_§1",
   "terme_jantzen_bat": [
-    "façade",
-    "fenetre-d'angle",
     "décor",
-    "porte",
+    "façade",
     "fenetre",
     "façade-d'angle",
+    "porte",
     "pilastre",
+    "fenetre-d'angle",
     "porte-bois"
   ],
   "photos": [

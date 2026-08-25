@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 30,
+      "personneID": 14,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue Danton"
   },
   "arrondissement": 6,
+  "tri_alphab": "Danton",
   "coordonnees": {
     "latitude": "48.852835",
     "longitude": "2.342774"
@@ -27,14 +28,14 @@
   "WPfr": null,
   "image_ref": "Danton-1_6_§1",
   "terme_jantzen_bat": [
-    "façade",
-    "oriel",
     "décor",
-    "sculpture",
-    "fenetre",
     "porte-fer",
-    "colonne",
-    "céramique"
+    "façade",
+    "fenetre",
+    "céramique",
+    "sculpture",
+    "oriel",
+    "colonne"
   ],
   "photos": [
     {

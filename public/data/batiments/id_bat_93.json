@@ -2,13 +2,19 @@
   "id_bat": 93,
   "libelle": "Hôpital Lariboisière",
   "ensemble": null,
-  "personnes": null,
+  "personnes": [
+    {
+      "personneID": 394,
+      "role": "architecte"
+    }
+  ],
   "dateConstruction": null,
   "periode": [
     "1850-1869"
   ],
   "adresse": null,
   "arrondissement": 10,
+  "tri_alphab": "Ambroise-Pare",
   "coordonnees": {
     "latitude": "48.88305556",
     "longitude": "2.35305556"

@@ -2,7 +2,12 @@
   "id_bat": 2117,
   "libelle": "3 rue Louis-le-Grand",
   "ensemble": null,
-  "personnes": null,
+  "personnes": [
+    {
+      "personneID": 461,
+      "role": "architecte"
+    }
+  ],
   "dateConstruction": "vers 1680",
   "periode": [
     "1660-1759"
@@ -13,6 +18,7 @@
     "voie": "rue Louis-le-Grand"
   },
   "arrondissement": 2,
+  "tri_alphab": "Louis-Le-Grand",
   "coordonnees": {
     "latitude": "48.868306",
     "longitude": "2.331966"
@@ -23,8 +29,8 @@
   "image_ref": "Louis-Le-Grand-3_2_§1",
   "terme_jantzen_bat": [
     "porte-bois",
-    "poignée-porte",
-    "oeil-de-boeuf"
+    "oeil-de-boeuf",
+    "poignée-porte"
   ],
   "photos": [
     {

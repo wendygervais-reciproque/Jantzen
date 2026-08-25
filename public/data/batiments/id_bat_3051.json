@@ -13,6 +13,7 @@
     "voie": "rue des Vinaigriers"
   },
   "arrondissement": 10,
+  "tri_alphab": "Vinaigriers",
   "coordonnees": {
     "latitude": "48.873183",
     "longitude": "2.359483"
@@ -22,8 +23,8 @@
   "WPfr": null,
   "image_ref": "Vinaigriers-57_10_§1",
   "terme_jantzen_bat": [
-    "façade",
     "fenetre",
+    "façade",
     "balcon"
   ],
   "photos": [

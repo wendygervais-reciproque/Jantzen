@@ -4,7 +4,15 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 598,
+      "personneID": 787,
+      "role": "architecte"
+    },
+    {
+      "personneID": 423,
+      "role": "architecte"
+    },
+    {
+      "personneID": 319,
       "role": "architecte"
     }
   ],
@@ -18,6 +26,7 @@
     "voie": "rue aux Ours"
   },
   "arrondissement": 3,
+  "tri_alphab": "Ours",
   "coordonnees": {
     "latitude": "48.863311",
     "longitude": "2.351775"

@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 550,
+      "personneID": 616,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "avenue des Champs-Élysées"
   },
   "arrondissement": 8,
+  "tri_alphab": "Champs-Elysees",
   "coordonnees": {
     "latitude": "48.869383",
     "longitude": "2.307725"
@@ -27,17 +28,17 @@
   "WPfr": null,
   "image_ref": "Champs-Elysees-25_8_§1",
   "terme_jantzen_bat": [
-    "façade",
-    "console",
-    "oeil-de-boeuf",
-    "garde-corps",
-    "lucarne",
     "décor",
-    "sculpture",
-    "fronton",
+    "façade",
     "fenetre",
     "balcon",
-    "porte-bois"
+    "oeil-de-boeuf",
+    "console",
+    "fronton",
+    "lucarne",
+    "sculpture",
+    "porte-bois",
+    "garde-corps"
   ],
   "photos": [
     {

@@ -4,7 +4,11 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 273,
+      "personneID": 837,
+      "role": "architecte"
+    },
+    {
+      "personneID": 395,
       "role": "architecte"
     }
   ],
@@ -18,6 +22,7 @@
     "voie": "rue Gustave-Zédé"
   },
   "arrondissement": 16,
+  "tri_alphab": "Gustave-Zede",
   "coordonnees": {
     "latitude": "48.856094",
     "longitude": "2.272931"

@@ -13,6 +13,7 @@
     "voie": "rue de Londres"
   },
   "arrondissement": 9,
+  "tri_alphab": "Londres",
   "coordonnees": {
     "latitude": "48.877226",
     "longitude": "2.329123"
@@ -22,15 +23,15 @@
   "WPfr": null,
   "image_ref": "Londres-16_9_§1",
   "terme_jantzen_bat": [
-    "façade",
-    "console",
     "loggia",
-    "lucarne",
     "cariatide",
-    "fronton",
-    "sculpture",
-    "porte",
+    "façade",
     "fenetre",
+    "porte",
+    "console",
+    "fronton",
+    "lucarne",
+    "sculpture",
     "colonne"
   ],
   "photos": [

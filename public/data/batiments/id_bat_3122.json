@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 286,
+      "personneID": 858,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue Danton"
   },
   "arrondissement": 6,
+  "tri_alphab": "Danton",
   "coordonnees": {
     "latitude": "48.852675",
     "longitude": "2.342084"
@@ -27,8 +28,8 @@
   "WPfr": null,
   "image_ref": "Danton-6_6_§1",
   "terme_jantzen_bat": [
-    "façade",
     "fenetre",
+    "façade",
     "lucarne"
   ],
   "photos": [

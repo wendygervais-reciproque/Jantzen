@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 16,
+      "personneID": 571,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue des Saussaies"
   },
   "arrondissement": 8,
+  "tri_alphab": "Saussaies",
   "coordonnees": {
     "latitude": "48.87149",
     "longitude": "2.318279"
@@ -27,13 +28,13 @@
   "WPfr": null,
   "image_ref": "Saussaies-14_8_§1-Rx",
   "terme_jantzen_bat": [
-    "façade",
-    "console",
     "loggia",
-    "garde-corps",
     "clé",
+    "façade",
     "fenetre",
-    "porte-bois"
+    "console",
+    "porte-bois",
+    "garde-corps"
   ],
   "photos": [
     {

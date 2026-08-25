@@ -2,7 +2,12 @@
   "id_bat": 2698,
   "libelle": "44 rue Vivienne",
   "ensemble": null,
-  "personnes": null,
+  "personnes": [
+    {
+      "personneID": 684,
+      "role": "architecte"
+    }
+  ],
   "dateConstruction": null,
   "periode": [
     "1830-1849"
@@ -13,6 +18,7 @@
     "voie": "rue Vivienne"
   },
   "arrondissement": 2,
+  "tri_alphab": "Vivienne",
   "coordonnees": {
     "latitude": "48.871286",
     "longitude": "2.341486"
@@ -22,8 +28,8 @@
   "WPfr": null,
   "image_ref": "Vivienne-44_2_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "métal",
+    "fenetre",
     "oriel"
   ],
   "photos": [

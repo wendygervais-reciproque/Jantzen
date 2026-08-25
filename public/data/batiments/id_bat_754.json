@@ -13,6 +13,7 @@
     "voie": "avenue de Wagram"
   },
   "arrondissement": 17,
+  "tri_alphab": "Wagram",
   "coordonnees": {
     "latitude": "48.883183",
     "longitude": "2.301637"
@@ -22,10 +23,10 @@
   "WPfr": null,
   "image_ref": "Wagram-129_17_§1",
   "terme_jantzen_bat": [
-    "brique",
-    "fenetre",
     "porte-bois",
-    "façade-d'angle"
+    "fenetre",
+    "façade-d'angle",
+    "brique"
   ],
   "photos": [
     {

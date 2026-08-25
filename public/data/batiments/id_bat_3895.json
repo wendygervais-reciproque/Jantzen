@@ -4,7 +4,11 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 392,
+      "personneID": 601,
+      "role": "architecte"
+    },
+    {
+      "personneID": 515,
       "role": "architecte"
     }
   ],
@@ -18,6 +22,7 @@
     "voie": "rue de Charonne"
   },
   "arrondissement": 11,
+  "tri_alphab": "Charonne",
   "coordonnees": {
     "latitude": "48.854014",
     "longitude": "2.382737"
@@ -27,13 +32,13 @@
   "WPfr": null,
   "image_ref": "Charonne-94_11_§1",
   "terme_jantzen_bat": [
+    "décor",
+    "pignon",
     "façade",
     "brique",
-    "décor",
     "fenetre",
     "balcon",
-    "céramique",
-    "pignon"
+    "céramique"
   ],
   "photos": [
     {

@@ -4,7 +4,11 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 625,
+      "personneID": 826,
+      "role": "architecte"
+    },
+    {
+      "personneID": 832,
       "role": "architecte"
     }
   ],
@@ -18,6 +22,7 @@
     "voie": "avenue Victor-Hugo"
   },
   "arrondissement": 16,
+  "tri_alphab": "Victor-Hugo",
   "coordonnees": {
     "latitude": "48.868509",
     "longitude": "2.282921"
@@ -27,11 +32,11 @@
   "WPfr": null,
   "image_ref": "Victor-Hugo-111_16_§1",
   "terme_jantzen_bat": [
-    "console",
+    "métal",
     "façade",
-    "oriel",
     "brique",
-    "métal"
+    "console",
+    "oriel"
   ],
   "photos": [
     {

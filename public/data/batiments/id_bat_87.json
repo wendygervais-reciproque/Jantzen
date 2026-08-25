@@ -2,13 +2,19 @@
   "id_bat": 87,
   "libelle": "Grand Palais - Palais de la Découverte",
   "ensemble": null,
-  "personnes": null,
+  "personnes": [
+    {
+      "personneID": 881,
+      "role": "architecte"
+    }
+  ],
   "dateConstruction": "1897-1900",
   "periode": [
     "1895-1914"
   ],
   "adresse": null,
   "arrondissement": 8,
+  "tri_alphab": "Grand-Palais-Decouverte",
   "coordonnees": {
     "latitude": "48.866111111111",
     "longitude": "2.3108333333333"
@@ -16,22 +22,22 @@
   "id_pss": null,
   "id_wikidata": "Q614450",
   "WPfr": "Palais de la découverte",
-  "image_ref": "Grand-Palais-Decouverte_8_§10",
+  "image_ref": "Grand-Palais-Decouverte_8_§1-Rx",
   "terme_jantzen_bat": [
-    "façade",
-    "verrière",
     "décor",
-    "sculpture",
-    "panoramique",
-    "porte",
     "porte-fer",
-    "céramique",
+    "façade",
+    "panoramique",
     "fenetre",
-    "pilastre",
-    "colonne",
+    "dome",
     "intérieur",
+    "verrière",
+    "porte",
+    "pilastre",
+    "céramique",
+    "sculpture",
     "porte-bois",
-    "dome"
+    "colonne"
   ],
   "photos": [
     {

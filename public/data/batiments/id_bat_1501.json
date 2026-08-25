@@ -13,6 +13,7 @@
     "voie": "rue Frochot"
   },
   "arrondissement": 9,
+  "tri_alphab": "Frochot",
   "coordonnees": {
     "latitude": "48.881135",
     "longitude": "2.337728"
@@ -22,9 +23,9 @@
   "WPfr": null,
   "image_ref": "Frochot-2_9_§1",
   "terme_jantzen_bat": [
-    "façade",
     "verrière",
-    "porte-fer"
+    "porte-fer",
+    "façade"
   ],
   "photos": [
     {

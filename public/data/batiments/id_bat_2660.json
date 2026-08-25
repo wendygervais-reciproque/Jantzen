@@ -4,7 +4,11 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 101,
+      "personneID": 166,
+      "role": "architecte"
+    },
+    {
+      "personneID": 586,
       "role": "architecte"
     }
   ],
@@ -18,6 +22,7 @@
     "voie": "avenue Charles-Floquet"
   },
   "arrondissement": 7,
+  "tri_alphab": "Charles-Floquet",
   "coordonnees": {
     "latitude": "48.853016",
     "longitude": "2.299008"
@@ -28,9 +33,9 @@
   "image_ref": "Charles-Floquet-44_7_§1",
   "terme_jantzen_bat": [
     "lucarne-d'angle",
+    "porte-fer-hall",
     "dome",
-    "façade-d'angle",
-    "porte-fer-hall"
+    "façade-d'angle"
   ],
   "photos": [
     {

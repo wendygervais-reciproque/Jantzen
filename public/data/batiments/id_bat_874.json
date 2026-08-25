@@ -4,7 +4,11 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 263,
+      "personneID": 378,
+      "role": "architecte"
+    },
+    {
+      "personneID": 141,
       "role": "architecte"
     }
   ],
@@ -18,6 +22,7 @@
     "voie": "boulevard de Courcelles"
   },
   "arrondissement": 17,
+  "tri_alphab": "Courcelles-bd",
   "coordonnees": {
     "latitude": "48.881172",
     "longitude": "2.313797"
@@ -27,11 +32,11 @@
   "WPfr": null,
   "image_ref": "Courcelles-bd-14_17_§1",
   "terme_jantzen_bat": [
-    "porte-fer-hall",
-    "sculpture",
     "clé",
+    "porte-fer",
     "fenetre",
-    "porte-fer"
+    "porte-fer-hall",
+    "sculpture"
   ],
   "photos": [
     {

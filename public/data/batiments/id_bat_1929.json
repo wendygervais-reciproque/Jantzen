@@ -4,7 +4,11 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 255,
+      "personneID": 142,
+      "role": "architecte"
+    },
+    {
+      "personneID": 500,
       "role": "architecte"
     }
   ],
@@ -18,6 +22,7 @@
     "voie": "boulevard des Capucines"
   },
   "arrondissement": 2,
+  "tri_alphab": "Capucines-Bd",
   "coordonnees": {
     "latitude": "48.87024",
     "longitude": "2.330908"
@@ -27,13 +32,13 @@
   "WPfr": null,
   "image_ref": "Capucines-Bd-27_2_§1",
   "terme_jantzen_bat": [
-    "façade",
-    "verrière",
-    "lucarne",
-    "mosaique",
+    "métal",
     "décor",
+    "façade",
+    "mosaique",
     "fenetre",
-    "métal"
+    "verrière",
+    "lucarne"
   ],
   "photos": [
     {

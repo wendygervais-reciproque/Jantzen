@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 116,
+      "personneID": 191,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue Antoine-Vollon"
   },
   "arrondissement": 12,
+  "tri_alphab": "Antoine-Vollon",
   "coordonnees": {
     "latitude": "48.850783",
     "longitude": "2.376913"
@@ -27,9 +28,9 @@
   "WPfr": null,
   "image_ref": "Antoine-Vollon-11_12_§1",
   "terme_jantzen_bat": [
-    "façade",
     "clé",
     "fenetre",
+    "façade",
     "lucarne"
   ],
   "photos": [

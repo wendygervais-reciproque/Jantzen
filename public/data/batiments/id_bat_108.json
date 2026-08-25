@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 686,
+      "personneID": 525,
       "role": "architecte"
     }
   ],
@@ -14,6 +14,7 @@
   ],
   "adresse": null,
   "arrondissement": 7,
+  "tri_alphab": "Orsay-Musee",
   "coordonnees": {
     "latitude": "48.859972",
     "longitude": "2.326527"
@@ -23,20 +24,20 @@
   "WPfr": "Musée d'Orsay",
   "image_ref": "Orsay-Musee_7_§1",
   "terme_jantzen_bat": [
-    "façade",
-    "verrière",
-    "lucarne",
-    "fenetre-d'angle",
     "décor",
-    "sculpture",
     "tourelle",
-    "fenetre",
-    "fronton",
     "métal",
-    "pilastre",
+    "façade",
     "lucarne-d'angle",
+    "verrière",
+    "fenetre",
+    "dome",
     "toiture",
-    "dome"
+    "fronton",
+    "pilastre",
+    "lucarne",
+    "sculpture",
+    "fenetre-d'angle"
   ],
   "photos": [
     {

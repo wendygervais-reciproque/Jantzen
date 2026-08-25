@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 137,
+      "personneID": 338,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "avenue Félix-Faure"
   },
   "arrondissement": 15,
+  "tri_alphab": "Felix-Faure-av",
   "coordonnees": {
     "latitude": "48.841525",
     "longitude": "2.28924"
@@ -27,12 +28,12 @@
   "WPfr": null,
   "image_ref": "Felix-Faure-av-31_15_§1",
   "terme_jantzen_bat": [
+    "décor",
+    "fenetre",
+    "porte-fer-hall",
     "console",
     "lucarne",
-    "porte-fer-hall",
-    "décor",
-    "sculpture",
-    "fenetre"
+    "sculpture"
   ],
   "photos": [
     {

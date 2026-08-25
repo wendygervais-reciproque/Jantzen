@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 236,
+      "personneID": 349,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "boulevard Raspail"
   },
   "arrondissement": 6,
+  "tri_alphab": "Raspail",
   "coordonnees": {
     "latitude": "48.845551",
     "longitude": "2.328793"
@@ -27,11 +28,11 @@
   "WPfr": null,
   "image_ref": "Raspail-119_6_§1-Rs",
   "terme_jantzen_bat": [
+    "lucarne-d'angle",
+    "façade-d'angle",
     "oeil-de-boeuf",
     "lucarne",
-    "fenetre-d'angle",
-    "façade-d'angle",
-    "lucarne-d'angle"
+    "fenetre-d'angle"
   ],
   "photos": [
     {

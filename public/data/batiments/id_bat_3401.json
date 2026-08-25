@@ -13,6 +13,7 @@
     "voie": "rue de l'Estrapade"
   },
   "arrondissement": 5,
+  "tri_alphab": "Estrapade",
   "coordonnees": {
     "latitude": "48.844538",
     "longitude": "2.347395"
@@ -22,10 +23,10 @@
   "WPfr": null,
   "image_ref": "Estrapade-7_5_§1",
   "terme_jantzen_bat": [
-    "façade",
-    "fenetre",
     "porte-bois",
-    "garde-corps"
+    "fenetre",
+    "garde-corps",
+    "façade"
   ],
   "photos": [
     {

@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 142,
+      "personneID": 575,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue de Richelieu"
   },
   "arrondissement": 1,
+  "tri_alphab": "Richelieu",
   "coordonnees": {
     "latitude": "48.86401",
     "longitude": "2.336067"
@@ -27,17 +28,17 @@
   "WPfr": null,
   "image_ref": "Richelieu-8_1_§1_1-Rx",
   "terme_jantzen_bat": [
+    "décor",
+    "sculpture",
+    "pignon",
     "loggia",
+    "lucarne-d'angle",
+    "façade-d'angle",
+    "balcon",
+    "porte",
     "lucarne",
     "fenetre-d'angle",
-    "décor",
-    "porte",
-    "sculpture",
-    "façade-d'angle",
-    "colonne",
-    "balcon",
-    "lucarne-d'angle",
-    "pignon"
+    "colonne"
   ],
   "photos": [
     {

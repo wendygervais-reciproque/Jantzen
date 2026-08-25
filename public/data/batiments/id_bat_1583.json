@@ -4,7 +4,11 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 533,
+      "personneID": 373,
+      "role": "architecte"
+    },
+    {
+      "personneID": 180,
       "role": "architecte"
     }
   ],
@@ -18,6 +22,7 @@
     "voie": "rue La Fayette"
   },
   "arrondissement": 9,
+  "tri_alphab": "La-Fayette",
   "coordonnees": {
     "latitude": "48.873694",
     "longitude": "2.335995"
@@ -27,16 +32,16 @@
   "WPfr": null,
   "image_ref": "La-Fayette-20_9_§1",
   "terme_jantzen_bat": [
+    "porte-fer",
+    "lucarne-d'angle",
+    "fenetre",
+    "façade-d'angle",
+    "balcon",
+    "porte",
     "oeil-de-boeuf",
     "lucarne",
     "fenetre-d'angle",
-    "porte",
-    "fenetre",
-    "porte-fer",
-    "façade-d'angle",
-    "colonne",
-    "balcon",
-    "lucarne-d'angle"
+    "colonne"
   ],
   "photos": [
     {

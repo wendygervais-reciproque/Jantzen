@@ -2,13 +2,23 @@
   "id_bat": 123,
   "libelle": "Petit Palais",
   "ensemble": null,
-  "personnes": null,
+  "personnes": [
+    {
+      "personneID": 465,
+      "role": "architecte"
+    },
+    {
+      "personneID": 411,
+      "role": "architecte"
+    }
+  ],
   "dateConstruction": "1897-1900",
   "periode": [
     "1895-1914"
   ],
   "adresse": null,
   "arrondissement": 8,
+  "tri_alphab": "Petit-Palais",
   "coordonnees": {
     "latitude": "48.86602777777778",
     "longitude": "2.3145555555555557"
@@ -18,26 +28,26 @@
   "WPfr": "Petit Palais",
   "image_ref": "Petit-Palais_8_§1",
   "terme_jantzen_bat": [
-    "façade",
     "porte-fer",
-    "pilastre",
-    "toiture",
     "cariatide",
-    "décor",
-    "fronton",
-    "clé",
-    "fenetre",
-    "dome",
     "oeil-de-boeuf",
     "garde-corps",
-    "lucarne",
-    "tourelle",
+    "intérieur",
+    "pilastre",
     "sculpture",
     "colonne",
-    "console",
-    "porte",
+    "clé",
+    "décor",
+    "tourelle",
+    "fenetre",
+    "dome",
+    "toiture",
+    "lucarne",
+    "façade",
     "panoramique",
-    "intérieur"
+    "porte",
+    "console",
+    "fronton"
   ],
   "photos": [
     {

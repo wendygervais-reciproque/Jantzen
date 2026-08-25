@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 645,
+      "personneID": 853,
       "role": "architecte"
     }
   ],
@@ -17,7 +17,8 @@
     "numero": "51",
     "voie": "boulevard Beaumarchais"
   },
-  "arrondissement": 4,
+  "arrondissement": 3,
+  "tri_alphab": "Beaumarchais",
   "coordonnees": {
     "latitude": "48.857062",
     "longitude": "2.367931"
@@ -28,9 +29,9 @@
   "image_ref": "Beaumarchais-51_4_§1",
   "terme_jantzen_bat": [
     "porte-bois",
-    "sculpture",
     "clé",
-    "poignée-porte"
+    "poignée-porte",
+    "sculpture"
   ],
   "photos": [
     {

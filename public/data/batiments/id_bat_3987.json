@@ -2,7 +2,24 @@
   "id_bat": 3987,
   "libelle": "place des Vosges",
   "ensemble": null,
-  "personnes": null,
+  "personnes": [
+    {
+      "personneID": 200,
+      "role": "architecte"
+    },
+    {
+      "personneID": 643,
+      "role": "architecte"
+    },
+    {
+      "personneID": 644,
+      "role": "architecte"
+    },
+    {
+      "personneID": 183,
+      "role": "architecte"
+    }
+  ],
   "dateConstruction": null,
   "periode": [
     "1590-1659"
@@ -13,6 +30,7 @@
     "voie": "place des Vosges"
   },
   "arrondissement": 4,
+  "tri_alphab": "Vosges-Pl",
   "coordonnees": {
     "latitude": "48.855555555556",
     "longitude": "2.3655555555556"
@@ -22,20 +40,20 @@
   "WPfr": null,
   "image_ref": "Vosges-Pl_4_§1",
   "terme_jantzen_bat": [
-    "façade",
-    "console",
-    "garde-corps",
-    "oeil-de-boeuf",
-    "lucarne",
-    "brique",
-    "fronton",
-    "sculpture",
-    "fenetre",
     "métal",
+    "façade",
+    "brique",
     "colonne",
-    "porte-bois",
+    "fenetre",
+    "toiture",
     "voie",
-    "toiture"
+    "oeil-de-boeuf",
+    "fronton",
+    "console",
+    "lucarne",
+    "sculpture",
+    "porte-bois",
+    "garde-corps"
   ],
   "photos": [
     {

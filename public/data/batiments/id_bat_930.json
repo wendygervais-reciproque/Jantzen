@@ -4,13 +4,13 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 607,
+      "personneID": 86,
       "role": "architecte"
     }
   ],
-  "dateConstruction": "1892-1896",
+  "dateConstruction": "1912",
   "periode": [
-    "1870-1894"
+    "1895-1914"
   ],
   "adresse": {
     "affichage": "14 rue Perrée",
@@ -18,6 +18,7 @@
     "voie": "rue Perrée"
   },
   "arrondissement": 3,
+  "tri_alphab": "Perree",
   "coordonnees": {
     "latitude": "48.864824",
     "longitude": "2.361186"
@@ -27,11 +28,11 @@
   "WPfr": null,
   "image_ref": "Perree-14_3_§1",
   "terme_jantzen_bat": [
-    "façade",
-    "fenetre-d'angle",
     "décor",
+    "porte-fer",
+    "façade",
     "fenetre",
-    "porte-fer"
+    "fenetre-d'angle"
   ],
   "photos": [
     {

@@ -13,6 +13,7 @@
     "voie": "avenue des Champs-Élysées"
   },
   "arrondissement": 8,
+  "tri_alphab": "Champs-Elysees",
   "coordonnees": {
     "latitude": "48.870982",
     "longitude": "2.304978"
@@ -22,14 +23,14 @@
   "WPfr": null,
   "image_ref": "Champs-Elysees-70_8_§1",
   "terme_jantzen_bat": [
-    "façade",
-    "lucarne",
-    "fenetre-d'angle",
-    "fenetre",
     "porte-fer",
+    "façade",
+    "marquise",
+    "fenetre",
     "balcon",
     "toiture",
-    "marquise"
+    "lucarne",
+    "fenetre-d'angle"
   ],
   "photos": [
     {

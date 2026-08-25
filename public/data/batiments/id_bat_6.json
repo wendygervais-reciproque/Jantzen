@@ -9,6 +9,7 @@
   ],
   "adresse": null,
   "arrondissement": 7,
+  "tri_alphab": "Invalides_HFE",
   "coordonnees": {
     "latitude": "48.856467",
     "longitude": "2.313146"
@@ -18,9 +19,9 @@
   "WPfr": "Cour d'honneur de l'hôtel des Invalides",
   "image_ref": "Invalides_HFE_§1_1-Rx",
   "terme_jantzen_bat": [
-    "façade",
-    "fronton",
     "décor",
+    "fronton",
+    "façade",
     "sculpture"
   ],
   "photos": [

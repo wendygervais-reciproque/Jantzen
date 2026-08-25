@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 688,
+      "personneID": 242,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue du Regard"
   },
   "arrondissement": 6,
+  "tri_alphab": "Regard",
   "coordonnees": {
     "latitude": "48.84822",
     "longitude": "2.326902"
@@ -28,8 +29,8 @@
   "image_ref": "Regard-13_6_§1",
   "terme_jantzen_bat": [
     "porte-bois",
-    "clé",
-    "fenetre"
+    "fenetre",
+    "clé"
   ],
   "photos": [
     {

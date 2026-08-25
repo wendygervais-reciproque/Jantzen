@@ -2,7 +2,12 @@
   "id_bat": 3240,
   "libelle": "62 rue Boursault",
   "ensemble": null,
-  "personnes": null,
+  "personnes": [
+    {
+      "personneID": 857,
+      "role": "architecte"
+    }
+  ],
   "dateConstruction": "1901",
   "periode": [
     "1895-1914"
@@ -13,6 +18,7 @@
     "voie": "rue Boursault"
   },
   "arrondissement": 17,
+  "tri_alphab": "Boursault",
   "coordonnees": {
     "latitude": "48.885692",
     "longitude": "2.318427"
@@ -22,19 +28,19 @@
   "WPfr": null,
   "image_ref": "Boursault-62_17_§1",
   "terme_jantzen_bat": [
-    "façade",
-    "console",
     "loggia",
-    "garde-corps",
-    "lucarne",
-    "oriel",
-    "brique",
-    "décor",
-    "sculpture",
-    "fenetre",
-    "porte-fer-hall",
     "métal",
-    "balcon"
+    "décor",
+    "façade",
+    "brique",
+    "fenetre",
+    "balcon",
+    "porte-fer-hall",
+    "console",
+    "lucarne",
+    "sculpture",
+    "oriel",
+    "garde-corps"
   ],
   "photos": [
     {

@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 428,
+      "personneID": 126,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue Boissonade"
   },
   "arrondissement": 14,
+  "tri_alphab": "Boissonade",
   "coordonnees": {
     "latitude": "48.838597",
     "longitude": "2.332554"
@@ -27,12 +28,12 @@
   "WPfr": null,
   "image_ref": "Boissonade-39_14_§1",
   "terme_jantzen_bat": [
-    "façade",
-    "verrière",
-    "lucarne",
-    "brique",
     "décor",
-    "fenetre"
+    "façade",
+    "brique",
+    "fenetre",
+    "verrière",
+    "lucarne"
   ],
   "photos": [
     {

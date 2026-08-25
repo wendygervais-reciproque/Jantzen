@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 464,
+      "personneID": 621,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue Chalgrin"
   },
   "arrondissement": 16,
+  "tri_alphab": "Chalgrin",
   "coordonnees": {
     "latitude": "48.87435",
     "longitude": "2.288451"
@@ -28,8 +29,8 @@
   "image_ref": "Chalgrin-9_16_§1",
   "terme_jantzen_bat": [
     "fenetre",
-    "porte-fer",
-    "garde-corps"
+    "garde-corps",
+    "porte-fer"
   ],
   "photos": [
     {

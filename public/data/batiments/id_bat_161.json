@@ -13,6 +13,7 @@
     "voie": "avenue de l'Observatoire"
   },
   "arrondissement": 6,
+  "tri_alphab": "Observatoire",
   "coordonnees": {
     "latitude": "48.844",
     "longitude": "2.337645"
@@ -22,21 +23,21 @@
   "WPfr": null,
   "image_ref": "Observatoire-1_6_§1",
   "terme_jantzen_bat": [
-    "console",
-    "cariatide",
-    "oriel",
-    "décor",
-    "sculpture",
-    "chimère",
-    "fenetre",
     "clé",
-    "fenetre-d'angle",
-    "façade-d'angle",
+    "décor",
+    "cariatide",
     "lucarne-d'angle",
-    "colonne",
+    "fenetre",
+    "façade-d'angle",
     "balcon",
+    "toiture",
+    "console",
+    "chimère",
+    "fenetre-d'angle",
+    "sculpture",
     "porte-bois",
-    "toiture"
+    "oriel",
+    "colonne"
   ],
   "photos": [
     {

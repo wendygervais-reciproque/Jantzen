@@ -2,7 +2,28 @@
   "id_bat": 3205,
   "libelle": "60 rue des Francs-Bourgeois",
   "ensemble": null,
-  "personnes": null,
+  "personnes": [
+    {
+      "personneID": 489,
+      "role": "architecte"
+    },
+    {
+      "personneID": 574,
+      "role": "architecte"
+    },
+    {
+      "personneID": 303,
+      "role": "architecte"
+    },
+    {
+      "personneID": 268,
+      "role": "architecte"
+    },
+    {
+      "personneID": 452,
+      "role": "architecte"
+    }
+  ],
   "dateConstruction": "1708",
   "periode": [
     "1660-1759"
@@ -13,6 +34,7 @@
     "voie": "rue des Francs-Bourgeois"
   },
   "arrondissement": 3,
+  "tri_alphab": "Francs-Bourgeois",
   "coordonnees": {
     "latitude": "48.859963",
     "longitude": "2.357272"
@@ -23,12 +45,12 @@
   "image_ref": "Francs-Bourgeois-60_3_§1",
   "terme_jantzen_bat": [
     "façade",
-    "sculpture",
-    "fronton",
     "fenetre",
-    "colonne",
+    "toiture",
+    "fronton",
+    "sculpture",
     "porte-bois",
-    "toiture"
+    "colonne"
   ],
   "photos": [
     {

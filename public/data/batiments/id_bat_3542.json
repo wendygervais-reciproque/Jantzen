@@ -4,7 +4,11 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 647,
+      "personneID": 855,
+      "role": "architecte"
+    },
+    {
+      "personneID": 854,
       "role": "architecte"
     }
   ],
@@ -18,6 +22,7 @@
     "voie": "avenue Paul-Doumer"
   },
   "arrondissement": 16,
+  "tri_alphab": "Paul-Doumer",
   "coordonnees": {
     "latitude": "48.859284",
     "longitude": "2.277784"
@@ -27,24 +32,24 @@
   "WPfr": null,
   "image_ref": "Paul-Doumer-77_16_§1",
   "terme_jantzen_bat": [
-    "console",
-    "façade",
-    "oeil-de-boeuf",
+    "décor",
+    "sculpture",
+    "pignon",
     "loggia",
+    "façade",
+    "clé",
+    "brique",
+    "porte-fer",
+    "lucarne-d'angle",
+    "fenetre",
+    "façade-d'angle",
+    "balcon",
+    "oeil-de-boeuf",
+    "console",
     "lucarne",
     "fenetre-d'angle",
     "oriel",
-    "brique",
-    "décor",
-    "sculpture",
-    "fenetre",
-    "clé",
-    "porte-fer",
-    "façade-d'angle",
-    "balcon",
-    "colonne",
-    "lucarne-d'angle",
-    "pignon"
+    "colonne"
   ],
   "photos": [
     {

@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 116,
+      "personneID": 191,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "place Félix-Éboué"
   },
   "arrondissement": 12,
+  "tri_alphab": "Felix-Eboue-pl",
   "coordonnees": {
     "latitude": "48.839187",
     "longitude": "2.395656"
@@ -27,13 +28,13 @@
   "WPfr": null,
   "image_ref": "Felix-Eboue-pl-6_12_§1",
   "terme_jantzen_bat": [
-    "oeil-de-boeuf",
-    "lucarne",
-    "porte-fer-hall",
-    "sculpture",
     "fenetre",
+    "dome",
     "façade-d'angle",
-    "dome"
+    "oeil-de-boeuf",
+    "porte-fer-hall",
+    "lucarne",
+    "sculpture"
   ],
   "photos": [
     {

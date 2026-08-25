@@ -5,7 +5,8 @@
   "personnes": null,
   "dateConstruction": "1869-1880",
   "periode": [
-    "1850-1869"
+    "1850-1869",
+    "1870-1894"
   ],
   "adresse": {
     "affichage": "2b rue Julien-Lacroix",
@@ -13,6 +14,7 @@
     "voie": "rue Julien-Lacroix"
   },
   "arrondissement": 20,
+  "tri_alphab": "Julien-Lacroix",
   "coordonnees": {
     "latitude": "48.868171",
     "longitude": "2.386528"
@@ -22,8 +24,8 @@
   "WPfr": null,
   "image_ref": "Julien-Lacroix-2b_20_§1",
   "terme_jantzen_bat": [
-    "façade",
-    "voie"
+    "voie",
+    "façade"
   ],
   "photos": [
     {

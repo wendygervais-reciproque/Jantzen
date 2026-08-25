@@ -1,10 +1,10 @@
 {
   "id_bat": 1770,
-  "libelle": "237 rue des Pyrénées",
+  "libelle": "337 rue des Pyrénées",
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 544,
+      "personneID": 731,
       "role": "architecte"
     }
   ],
@@ -13,14 +13,15 @@
     "1895-1914"
   ],
   "adresse": {
-    "affichage": "237 rue des Pyrénées",
-    "numero": "237",
+    "affichage": "337 rue des Pyrénées",
+    "numero": "337",
     "voie": "rue des Pyrénées"
   },
   "arrondissement": 20,
+  "tri_alphab": "Pyrenees",
   "coordonnees": {
-    "latitude": "48.864177",
-    "longitude": "2.398875"
+    "latitude": "48.871317",
+    "longitude": "2.392536"
   },
   "id_pss": null,
   "id_wikidata": null,
@@ -28,9 +29,9 @@
   "image_ref": "Pyrenees-237_20_§1",
   "terme_jantzen_bat": [
     "décor",
-    "sculpture",
     "toiture",
-    "lucarne"
+    "lucarne",
+    "sculpture"
   ],
   "photos": [
     {

@@ -12,7 +12,8 @@
     "numero": "73",
     "voie": "rue de Rome"
   },
-  "arrondissement": 17,
+  "arrondissement": 8,
+  "tri_alphab": "Rome",
   "coordonnees": {
     "latitude": "48.881409",
     "longitude": "2.320672"
@@ -22,13 +23,13 @@
   "WPfr": null,
   "image_ref": "Rome-73_17_§1",
   "terme_jantzen_bat": [
-    "oeil-de-boeuf",
-    "lucarne",
-    "brique",
     "décor",
     "tourelle",
+    "brique",
     "fenetre",
-    "façade-d'angle"
+    "façade-d'angle",
+    "oeil-de-boeuf",
+    "lucarne"
   ],
   "photos": [
     {

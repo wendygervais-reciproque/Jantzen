@@ -13,6 +13,7 @@
     "voie": "rue Gay-Lussac"
   },
   "arrondissement": 5,
+  "tri_alphab": "Gay-Lussac",
   "coordonnees": {
     "latitude": "48.845666",
     "longitude": "2.341208"
@@ -22,12 +23,12 @@
   "WPfr": null,
   "image_ref": "Gay-Lussac-10_5_§1",
   "terme_jantzen_bat": [
-    "façade",
     "décor",
-    "sculpture",
-    "fronton",
+    "façade",
     "fenetre",
+    "fronton",
     "pilastre",
+    "sculpture",
     "porte-bois"
   ],
   "photos": [

@@ -4,7 +4,11 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 127,
+      "personneID": 724,
+      "role": "architecte"
+    },
+    {
+      "personneID": 195,
       "role": "architecte"
     }
   ],
@@ -18,6 +22,7 @@
     "voie": "rue Abel"
   },
   "arrondissement": 12,
+  "tri_alphab": "Abel",
   "coordonnees": {
     "latitude": "48.846966",
     "longitude": "2.375242"

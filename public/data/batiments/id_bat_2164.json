@@ -1,0 +1,36 @@
+{
+  "id_bat": 2164,
+  "libelle": "30B rue de Surène",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 150,
+      "role": "architecte"
+    },
+    {
+      "personneID": 121,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1925",
+  "periode": [
+    "1915-1944"
+  ],
+  "adresse": {
+    "affichage": "30B rue de Surène",
+    "numero": "30B",
+    "voie": "rue de Surène"
+  },
+  "arrondissement": 8,
+  "tri_alphab": "Surene",
+  "coordonnees": {
+    "latitude": "48.871539",
+    "longitude": "2.319108"
+  },
+  "id_pss": 77430,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 15015,
+  "terme_jantzen_bat": [],
+  "photos": []
+}

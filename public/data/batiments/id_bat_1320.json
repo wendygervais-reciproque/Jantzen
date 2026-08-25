@@ -4,7 +4,11 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 42,
+      "personneID": 38,
+      "role": "architecte"
+    },
+    {
+      "personneID": 48,
       "role": "architecte"
     }
   ],
@@ -18,6 +22,7 @@
     "voie": "rue Perrée"
   },
   "arrondissement": 3,
+  "tri_alphab": "Perree",
   "coordonnees": {
     "latitude": "48.865064",
     "longitude": "2.360698"
@@ -28,11 +33,11 @@
   "image_ref": "Perree-18_3_§1",
   "terme_jantzen_bat": [
     "façade",
+    "fenetre",
     "console",
-    "lucarne",
     "chimère",
-    "sculpture",
-    "fenetre"
+    "lucarne",
+    "sculpture"
   ],
   "photos": [
     {

@@ -4,7 +4,11 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 555,
+      "personneID": 320,
+      "role": "architecte"
+    },
+    {
+      "personneID": 734,
       "role": "architecte"
     }
   ],
@@ -18,6 +22,7 @@
     "voie": "rue du Père-Brottier"
   },
   "arrondissement": 16,
+  "tri_alphab": "Pere-Brottier",
   "coordonnees": {
     "latitude": "48.84995",
     "longitude": "2.270985"
@@ -27,12 +32,12 @@
   "WPfr": null,
   "image_ref": "Pere-Brottier-9_16_§1",
   "terme_jantzen_bat": [
-    "console",
-    "porte-fer-hall",
     "décor",
-    "sculpture",
+    "porte-fer",
     "fenetre",
-    "porte-fer"
+    "porte-fer-hall",
+    "console",
+    "sculpture"
   ],
   "photos": [
     {

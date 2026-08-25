@@ -2,7 +2,12 @@
   "id_bat": 779,
   "libelle": "13 rue Cambon",
   "ensemble": null,
-  "personnes": null,
+  "personnes": [
+    {
+      "personneID": 675,
+      "role": "architecte"
+    }
+  ],
   "dateConstruction": null,
   "periode": [
     "1895-1914"
@@ -13,6 +18,7 @@
     "voie": "rue Cambon"
   },
   "arrondissement": 1,
+  "tri_alphab": "Cambon",
   "coordonnees": {
     "latitude": "48.866956",
     "longitude": "2.325669"
@@ -23,12 +29,12 @@
   "image_ref": "Cambon-13_1_§1",
   "terme_jantzen_bat": [
     "façade",
-    "console",
+    "fenetre",
     "oeil-de-boeuf",
+    "console",
+    "fronton",
     "lucarne",
     "sculpture",
-    "fronton",
-    "fenetre",
     "colonne"
   ],
   "photos": [

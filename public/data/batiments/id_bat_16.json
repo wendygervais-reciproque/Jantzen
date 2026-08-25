@@ -4,7 +4,7 @@
   "ensemble": "Opéra Garnier",
   "personnes": [
     {
-      "personneID": 121,
+      "personneID": 385,
       "role": "architecte"
     }
   ],
@@ -14,6 +14,7 @@
   ],
   "adresse": null,
   "arrondissement": 9,
+  "tri_alphab": "Opera-Garnier",
   "coordonnees": {
     "latitude": "48.871881",
     "longitude": "2.331147"
@@ -21,24 +22,24 @@
   "id_pss": 3933,
   "id_wikidata": "Q187840",
   "WPfr": "Opéra Garnier",
-  "image_ref": "Opera-Garnier_9_Auber§10",
+  "image_ref": "Opera-Garnier_9_Auber§24-Rx",
   "terme_jantzen_bat": [
-    "façade",
-    "loggia",
-    "oeil-de-boeuf",
-    "lucarne",
-    "cariatide",
     "décor",
-    "sculpture",
-    "fronton",
-    "fenetre",
-    "porte",
-    "pilastre",
-    "colonne",
-    "balcon",
-    "porte-bois",
+    "loggia",
+    "cariatide",
+    "façade",
     "lucarne-d'angle",
-    "dome"
+    "fenetre",
+    "dome",
+    "balcon",
+    "porte",
+    "oeil-de-boeuf",
+    "fronton",
+    "pilastre",
+    "lucarne",
+    "sculpture",
+    "porte-bois",
+    "colonne"
   ],
   "photos": [
     {

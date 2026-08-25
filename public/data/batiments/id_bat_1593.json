@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 577,
+      "personneID": 152,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue de Charenton"
   },
   "arrondissement": 12,
+  "tri_alphab": "Charenton",
   "coordonnees": {
     "latitude": "48.839765",
     "longitude": "2.388757"
@@ -27,8 +28,8 @@
   "WPfr": null,
   "image_ref": "Charenton-201_12_§1",
   "terme_jantzen_bat": [
-    "façade",
     "sculpture",
+    "façade",
     "atlante"
   ],
   "photos": [

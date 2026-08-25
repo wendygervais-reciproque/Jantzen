@@ -4,7 +4,11 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 441,
+      "personneID": 594,
+      "role": "architecte"
+    },
+    {
+      "personneID": 828,
       "role": "architecte"
     }
   ],
@@ -18,6 +22,7 @@
     "voie": "rue Saint-Blaise"
   },
   "arrondissement": 20,
+  "tri_alphab": "St-Blaise",
   "coordonnees": {
     "latitude": "48.856913",
     "longitude": "2.408699"

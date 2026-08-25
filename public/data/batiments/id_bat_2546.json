@@ -4,7 +4,11 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 675,
+      "personneID": 905,
+      "role": "architecte"
+    },
+    {
+      "personneID": 21,
       "role": "architecte"
     }
   ],
@@ -18,6 +22,7 @@
     "voie": "rue Turgot"
   },
   "arrondissement": 9,
+  "tri_alphab": "Turgot",
   "coordonnees": {
     "latitude": "48.88007",
     "longitude": "2.345556"

@@ -4,7 +4,11 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 410,
+      "personneID": 296,
+      "role": "architecte"
+    },
+    {
+      "personneID": 548,
       "role": "architecte"
     }
   ],
@@ -18,6 +22,7 @@
     "voie": "avenue Marceau"
   },
   "arrondissement": 16,
+  "tri_alphab": "Marceau",
   "coordonnees": {
     "latitude": "48.871283",
     "longitude": "2.2969"
@@ -27,13 +32,13 @@
   "WPfr": null,
   "image_ref": "Marceau-75_16_§1",
   "terme_jantzen_bat": [
-    "fenetre-d'angle",
     "porte-fer",
-    "façade-d'angle",
-    "balcon",
+    "marquise",
     "lucarne-d'angle",
     "dome",
-    "marquise"
+    "façade-d'angle",
+    "balcon",
+    "fenetre-d'angle"
   ],
   "photos": [
     {

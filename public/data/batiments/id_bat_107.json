@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 38,
+      "personneID": 30,
       "role": "architecte"
     }
   ],
@@ -14,6 +14,7 @@
   ],
   "adresse": null,
   "arrondissement": 4,
+  "tri_alphab": "Baudoyer-Pl-Mairie",
   "coordonnees": {
     "latitude": "48.8561",
     "longitude": "2.35611"
@@ -24,10 +25,10 @@
   "image_ref": "Baudoyer-Pl-Mairie_4_§1",
   "terme_jantzen_bat": [
     "façade",
-    "lucarne",
-    "fronton",
     "fenetre",
+    "fronton",
     "pilastre",
+    "lucarne",
     "colonne"
   ],
   "photos": [

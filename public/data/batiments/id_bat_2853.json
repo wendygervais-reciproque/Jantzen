@@ -13,6 +13,7 @@
     "voie": "rue de Thorigny"
   },
   "arrondissement": 3,
+  "tri_alphab": "Thorigny",
   "coordonnees": {
     "latitude": "48.859604",
     "longitude": "2.362517"
@@ -22,9 +23,9 @@
   "WPfr": null,
   "image_ref": "Thorigny-5_3_§1",
   "terme_jantzen_bat": [
-    "sculpture",
     "fenetre",
-    "lucarne"
+    "lucarne",
+    "sculpture"
   ],
   "photos": [
     {

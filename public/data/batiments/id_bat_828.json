@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 542,
+      "personneID": 728,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue de Courcelles"
   },
   "arrondissement": 17,
+  "tri_alphab": "Courcelles",
   "coordonnees": {
     "latitude": "48.881385",
     "longitude": "2.30106"
@@ -27,18 +28,18 @@
   "WPfr": null,
   "image_ref": "Courcelles-132_17_§10_1-Rx",
   "terme_jantzen_bat": [
-    "garde-corps",
+    "sculpture",
+    "porte-fer",
+    "lucarne-d'angle",
+    "fenetre",
+    "intérieur",
+    "dome",
+    "façade-d'angle",
+    "toiture",
+    "céramique",
     "lucarne",
     "fenetre-d'angle",
-    "sculpture",
-    "fenetre",
-    "porte-fer",
-    "façade-d'angle",
-    "lucarne-d'angle",
-    "intérieur",
-    "céramique",
-    "toiture",
-    "dome"
+    "garde-corps"
   ],
   "photos": [
     {

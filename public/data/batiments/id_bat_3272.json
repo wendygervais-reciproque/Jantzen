@@ -4,7 +4,11 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 514,
+      "personneID": 697,
+      "role": "architecte"
+    },
+    {
+      "personneID": 314,
       "role": "architecte"
     }
   ],
@@ -18,6 +22,7 @@
     "voie": "avenue Félix-Faure"
   },
   "arrondissement": 15,
+  "tri_alphab": "Felix-Faure-av",
   "coordonnees": {
     "latitude": "48.840423",
     "longitude": "2.28593"
@@ -27,13 +32,13 @@
   "WPfr": null,
   "image_ref": "Felix-Faure-av-64_15_§1",
   "terme_jantzen_bat": [
-    "console",
-    "fenetre-d'angle",
-    "porte-fer-hall",
-    "sculpture",
     "fenetre",
     "façade-d'angle",
-    "balcon"
+    "balcon",
+    "porte-fer-hall",
+    "console",
+    "fenetre-d'angle",
+    "sculpture"
   ],
   "photos": [
     {

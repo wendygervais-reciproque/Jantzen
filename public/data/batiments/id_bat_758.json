@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 169,
+      "personneID": 271,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue du Château"
   },
   "arrondissement": 14,
+  "tri_alphab": "Chateau",
   "coordonnees": {
     "latitude": "48.834953",
     "longitude": "2.320748"
@@ -27,8 +28,8 @@
   "WPfr": null,
   "image_ref": "Chateau-129_14_§1",
   "terme_jantzen_bat": [
-    "brique",
-    "oriel"
+    "oriel",
+    "brique"
   ],
   "photos": [
     {

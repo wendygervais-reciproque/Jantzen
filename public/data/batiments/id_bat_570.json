@@ -4,7 +4,15 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 502,
+      "personneID": 747,
+      "role": "architecte"
+    },
+    {
+      "personneID": 779,
+      "role": "architecte"
+    },
+    {
+      "personneID": 683,
       "role": "architecte"
     }
   ],
@@ -18,6 +26,7 @@
     "voie": "rue de Belleville"
   },
   "arrondissement": 19,
+  "tri_alphab": "Belleville",
   "coordonnees": {
     "latitude": "48.874754",
     "longitude": "2.387627"
@@ -28,11 +37,11 @@
   "image_ref": "Belleville-117_19_§1",
   "terme_jantzen_bat": [
     "façade",
-    "fenetre-d'angle",
-    "oriel",
     "brique",
+    "céramique",
+    "fenetre-d'angle",
     "sculpture",
-    "céramique"
+    "oriel"
   ],
   "photos": [
     {

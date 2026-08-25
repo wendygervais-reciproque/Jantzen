@@ -13,6 +13,7 @@
     "voie": "avenue du Trône"
   },
   "arrondissement": 11,
+  "tri_alphab": "Trone-Av",
   "coordonnees": {
     "latitude": "48.848573",
     "longitude": "2.398237"
@@ -22,14 +23,14 @@
   "WPfr": null,
   "image_ref": "Trone-Av-7_11_§1",
   "terme_jantzen_bat": [
+    "lucarne-d'angle",
+    "fenetre",
+    "dome",
+    "balcon",
     "console",
-    "garde-corps",
     "lucarne",
     "sculpture",
-    "fenetre",
-    "balcon",
-    "lucarne-d'angle",
-    "dome"
+    "garde-corps"
   ],
   "photos": [
     {

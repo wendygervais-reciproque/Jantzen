@@ -1,0 +1,32 @@
+{
+  "id_bat": 1105,
+  "libelle": "16 boulevard Haussmann",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 683,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": null,
+  "periode": [
+    "1915-1944"
+  ],
+  "adresse": {
+    "affichage": "16 boulevard Haussmann",
+    "numero": "16",
+    "voie": "boulevard Haussmann"
+  },
+  "arrondissement": 9,
+  "tri_alphab": "Haussmann",
+  "coordonnees": {
+    "latitude": "48.872617",
+    "longitude": "2.336665"
+  },
+  "id_pss": 10261,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 5982,
+  "terme_jantzen_bat": [],
+  "photos": []
+}

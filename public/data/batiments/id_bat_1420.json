@@ -2,7 +2,12 @@
   "id_bat": 1420,
   "libelle": "2 boulevard des Capucines",
   "ensemble": null,
-  "personnes": null,
+  "personnes": [
+    {
+      "personneID": 608,
+      "role": "architecte"
+    }
+  ],
   "dateConstruction": null,
   "periode": [
     "1870-1894"
@@ -13,6 +18,7 @@
     "voie": "boulevard des Capucines"
   },
   "arrondissement": 9,
+  "tri_alphab": "Capucines-bd",
   "coordonnees": {
     "latitude": "48.871082",
     "longitude": "2.333801"
@@ -22,10 +28,10 @@
   "WPfr": null,
   "image_ref": "Capucines-bd-2_9_§1",
   "terme_jantzen_bat": [
-    "lucarne",
     "oeil-de-boeuf",
     "dome",
-    "tourelle"
+    "tourelle",
+    "lucarne"
   ],
   "photos": [
     {

@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 646,
+      "personneID": 854,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue Leclerc"
   },
   "arrondissement": 14,
+  "tri_alphab": "Leclerc",
   "coordonnees": {
     "latitude": "48.83384",
     "longitude": "2.335378"
@@ -27,13 +28,13 @@
   "WPfr": null,
   "image_ref": "Leclerc-6_14_§1",
   "terme_jantzen_bat": [
+    "décor",
+    "brique",
+    "fenetre",
+    "façade-d'angle",
     "oeil-de-boeuf",
     "lucarne",
-    "brique",
-    "décor",
-    "sculpture",
-    "fenetre",
-    "façade-d'angle"
+    "sculpture"
   ],
   "photos": [
     {

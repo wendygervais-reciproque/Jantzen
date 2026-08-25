@@ -4,7 +4,11 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 357,
+      "personneID": 863,
+      "role": "architecte"
+    },
+    {
+      "personneID": 750,
       "role": "architecte"
     }
   ],
@@ -15,6 +19,7 @@
   ],
   "adresse": null,
   "arrondissement": 5,
+  "tri_alphab": "Pantheon",
   "coordonnees": {
     "latitude": "48.846198",
     "longitude": "2.3461054"
@@ -24,10 +29,10 @@
   "WPfr": "Panthéon (Paris)",
   "image_ref": "Pantheon_5_§1",
   "terme_jantzen_bat": [
-    "tourelle",
     "fenetre",
     "colonne",
-    "dome"
+    "dome",
+    "tourelle"
   ],
   "photos": [
     {

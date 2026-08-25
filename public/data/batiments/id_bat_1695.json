@@ -4,7 +4,11 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 627,
+      "personneID": 826,
+      "role": "architecte"
+    },
+    {
+      "personneID": 832,
       "role": "architecte"
     }
   ],
@@ -18,6 +22,7 @@
     "voie": "rue Laugier"
   },
   "arrondissement": 17,
+  "tri_alphab": "Laugier",
   "coordonnees": {
     "latitude": "48.880774",
     "longitude": "2.296193"

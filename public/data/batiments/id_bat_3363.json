@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 76,
+      "personneID": 118,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "boulevard Beaumarchais"
   },
   "arrondissement": 3,
+  "tri_alphab": "Beaumarchais",
   "coordonnees": {
     "latitude": "48.854354",
     "longitude": "2.368581"
@@ -28,10 +29,10 @@
   "image_ref": "Beaumarchais-7_3_§1",
   "terme_jantzen_bat": [
     "façade",
-    "garde-corps",
     "fenetre",
     "balcon",
-    "porte-bois"
+    "porte-bois",
+    "garde-corps"
   ],
   "photos": [
     {

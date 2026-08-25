@@ -4,7 +4,11 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 417,
+      "personneID": 236,
+      "role": "architecte"
+    },
+    {
+      "personneID": 560,
       "role": "architecte"
     }
   ],
@@ -18,6 +22,7 @@
     "voie": "rue de l'Arc-de-Triomphe"
   },
   "arrondissement": 17,
+  "tri_alphab": "Arc-Triomphe",
   "coordonnees": {
     "latitude": "48.876318",
     "longitude": "2.29391"

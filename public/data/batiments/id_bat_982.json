@@ -4,7 +4,11 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 57,
+      "personneID": 649,
+      "role": "architecte"
+    },
+    {
+      "personneID": 75,
       "role": "architecte"
     }
   ],
@@ -18,6 +22,7 @@
     "voie": "rue de Grenelle"
   },
   "arrondissement": 7,
+  "tri_alphab": "Grenelle",
   "coordonnees": {
     "latitude": "48.858172",
     "longitude": "2.310692"
@@ -27,11 +32,11 @@
   "WPfr": null,
   "image_ref": "Grenelle-148_7_§1",
   "terme_jantzen_bat": [
-    "console",
     "cariatide",
-    "sculpture",
     "fenetre",
-    "atlante"
+    "atlante",
+    "console",
+    "sculpture"
   ],
   "photos": [
     {

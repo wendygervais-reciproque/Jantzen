@@ -2,13 +2,19 @@
   "id_bat": 85,
   "libelle": "Gare Saint-Lazare",
   "ensemble": null,
-  "personnes": null,
+  "personnes": [
+    {
+      "personneID": 598,
+      "role": "architecte"
+    }
+  ],
   "dateConstruction": "1886",
   "periode": [
     "1870-1894"
   ],
   "adresse": null,
   "arrondissement": 8,
+  "tri_alphab": "Gare-St-Lazare",
   "coordonnees": {
     "latitude": "48.876944444444",
     "longitude": "2.3244444444444"
@@ -18,14 +24,14 @@
   "WPfr": "Gare de Paris-Saint-Lazare",
   "image_ref": "Gare-St-Lazare-_8_§1",
   "terme_jantzen_bat": [
-    "oeil-de-boeuf",
-    "verrière",
-    "lucarne",
-    "tourelle",
-    "fronton",
-    "fenetre",
     "métal",
-    "toiture"
+    "tourelle",
+    "fenetre",
+    "verrière",
+    "toiture",
+    "oeil-de-boeuf",
+    "fronton",
+    "lucarne"
   ],
   "photos": [
     {

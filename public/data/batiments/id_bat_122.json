@@ -7,6 +7,7 @@
   "periode": null,
   "adresse": null,
   "arrondissement": 8,
+  "tri_alphab": "Parc-Monceau",
   "coordonnees": {
     "latitude": "48.8794",
     "longitude": "2.30923"
@@ -16,10 +17,10 @@
   "WPfr": "Parc Monceau",
   "image_ref": "Parc-Monceau-_8_",
   "terme_jantzen_bat": [
-    "façade",
-    "porte-fer",
     "colonne",
-    "dome"
+    "dome",
+    "façade",
+    "porte-fer"
   ],
   "photos": [
     {

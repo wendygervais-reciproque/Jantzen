@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 508,
+      "personneID": 235,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue de la Tour"
   },
   "arrondissement": 16,
+  "tri_alphab": "Tour-de-la",
   "coordonnees": {
     "latitude": "48.860432",
     "longitude": "2.280827"
@@ -27,9 +28,9 @@
   "WPfr": null,
   "image_ref": "Tour-de-la-62b_16_§1-Rs",
   "terme_jantzen_bat": [
-    "lucarne",
     "fenetre",
-    "balcon"
+    "balcon",
+    "lucarne"
   ],
   "photos": [
     {

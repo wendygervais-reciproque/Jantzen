@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 333,
+      "personneID": 705,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "avenue Van-Dyck"
   },
   "arrondissement": 8,
+  "tri_alphab": "Van-Dyck",
   "coordonnees": {
     "latitude": "48.878484",
     "longitude": "2.305975"
@@ -27,16 +28,16 @@
   "WPfr": null,
   "image_ref": "Van-Dyck-5_8_§1",
   "terme_jantzen_bat": [
+    "clé",
     "façade",
+    "marquise",
+    "fenetre",
+    "balcon",
     "oeil-de-boeuf",
-    "garde-corps",
+    "fronton",
     "lucarne",
     "sculpture",
-    "fronton",
-    "fenetre",
-    "clé",
-    "balcon",
-    "marquise"
+    "garde-corps"
   ],
   "photos": [
     {

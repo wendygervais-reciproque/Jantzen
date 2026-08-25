@@ -1,0 +1,36 @@
+{
+  "id_bat": 1830,
+  "libelle": "25 avenue Ledru-Rollin",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 793,
+      "role": "architecte"
+    },
+    {
+      "personneID": 133,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1927",
+  "periode": [
+    "1915-1944"
+  ],
+  "adresse": {
+    "affichage": "25 avenue Ledru-Rollin",
+    "numero": "25",
+    "voie": "avenue Ledru-Rollin"
+  },
+  "arrondissement": 12,
+  "tri_alphab": "Ledru-Rollin",
+  "coordonnees": {
+    "latitude": "48.847049",
+    "longitude": "2.369426"
+  },
+  "id_pss": 77739,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 8236,
+  "terme_jantzen_bat": [],
+  "photos": []
+}

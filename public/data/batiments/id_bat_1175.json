@@ -1,10 +1,10 @@
 {
   "id_bat": 1175,
-  "libelle": "166 rue du Faubourg-Saint-Honoré",
+  "libelle": "166 rue du Faubourg Saint-Honoré",
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 223,
+      "personneID": 332,
       "role": "architecte"
     }
   ],
@@ -13,11 +13,12 @@
     "1870-1894"
   ],
   "adresse": {
-    "affichage": "166 rue du Faubourg-Saint-Honoré",
+    "affichage": "166 rue du Faubourg Saint-Honoré",
     "numero": "166",
-    "voie": "rue du Faubourg-Saint-Honoré"
+    "voie": "rue du Faubourg Saint-Honoré"
   },
   "arrondissement": 8,
+  "tri_alphab": "Faubourg-St-Honore",
   "coordonnees": {
     "latitude": "48.873644",
     "longitude": "2.309064"
@@ -27,10 +28,10 @@
   "WPfr": null,
   "image_ref": "Faubourg-St-Honore-166_8_§1",
   "terme_jantzen_bat": [
-    "façade",
     "clé",
     "fenetre",
-    "garde-corps"
+    "garde-corps",
+    "façade"
   ],
   "photos": [
     {

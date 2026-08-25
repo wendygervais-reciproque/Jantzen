@@ -13,6 +13,7 @@
     "voie": "rue Legendre"
   },
   "arrondissement": 17,
+  "tri_alphab": "Legendre",
   "coordonnees": {
     "latitude": "48.88329",
     "longitude": "2.313071"
@@ -22,10 +23,10 @@
   "WPfr": null,
   "image_ref": "Legendre-22t_17_§1",
   "terme_jantzen_bat": [
-    "toiture",
-    "sculpture",
     "lucarne-d'angle",
-    "porte-fer"
+    "porte-fer",
+    "toiture",
+    "sculpture"
   ],
   "photos": [
     {

@@ -4,7 +4,11 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 420,
+      "personneID": 566,
+      "role": "architecte"
+    },
+    {
+      "personneID": 566,
       "role": "architecte"
     }
   ],
@@ -18,6 +22,7 @@
     "voie": "boulevard Flandrin"
   },
   "arrondissement": 16,
+  "tri_alphab": "Flandrin",
   "coordonnees": {
     "latitude": "48.869762",
     "longitude": "2.27515"

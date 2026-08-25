@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 450,
+      "personneID": 128,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue Sextius-Michel"
   },
   "arrondissement": 15,
+  "tri_alphab": "Sextius-Michel",
   "coordonnees": {
     "latitude": "48.850117",
     "longitude": "2.288411"
@@ -27,9 +28,9 @@
   "WPfr": null,
   "image_ref": "Sextius-Michel-22_15_§1",
   "terme_jantzen_bat": [
-    "brique",
     "porte-bois",
-    "mosaique"
+    "mosaique",
+    "brique"
   ],
   "photos": [
     {

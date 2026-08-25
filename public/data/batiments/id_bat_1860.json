@@ -4,7 +4,11 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 68,
+      "personneID": 101,
+      "role": "architecte"
+    },
+    {
+      "personneID": 15,
       "role": "architecte"
     }
   ],
@@ -18,6 +22,7 @@
     "voie": "rue Lauriston"
   },
   "arrondissement": 16,
+  "tri_alphab": "Lauriston",
   "coordonnees": {
     "latitude": "48.871159",
     "longitude": "2.292023"
@@ -27,11 +32,11 @@
   "WPfr": null,
   "image_ref": "Lauriston-25_16_§1",
   "terme_jantzen_bat": [
-    "façade",
-    "oriel",
-    "fenetre",
+    "métal",
     "porte-fer",
-    "métal"
+    "façade",
+    "fenetre",
+    "oriel"
   ],
   "photos": [
     {

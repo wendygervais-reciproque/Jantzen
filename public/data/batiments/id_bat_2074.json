@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 650,
+      "personneID": 861,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue de Florence"
   },
   "arrondissement": 8,
+  "tri_alphab": "Florence",
   "coordonnees": {
     "latitude": "48.882139",
     "longitude": "2.325504"
@@ -27,10 +28,10 @@
   "WPfr": null,
   "image_ref": "Florence-3_8_§1_Dx",
   "terme_jantzen_bat": [
-    "pilastre",
-    "sculpture",
     "décor",
-    "fenetre"
+    "fenetre",
+    "pilastre",
+    "sculpture"
   ],
   "photos": [
     {

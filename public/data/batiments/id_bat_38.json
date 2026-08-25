@@ -4,7 +4,7 @@
   "ensemble": "Palais du Louvre",
   "personnes": [
     {
-      "personneID": 136,
+      "personneID": 721,
       "role": "architecte"
     }
   ],
@@ -14,6 +14,7 @@
   ],
   "adresse": null,
   "arrondissement": 1,
+  "tri_alphab": "Louvre-1-Ra-Pt",
   "coordonnees": {
     "latitude": "48.860171",
     "longitude": "2.339471"
@@ -21,15 +22,15 @@
   "id_pss": null,
   "id_wikidata": "Q109592130",
   "WPfr": null,
-  "image_ref": "Louvre-1-Ra-Pt-01",
+  "image_ref": "Louvre-1-Ra-Pt-09",
   "terme_jantzen_bat": [
+    "clé",
     "façade",
     "oeil-de-boeuf",
-    "sculpture",
-    "clé",
     "fronton",
-    "colonne",
-    "porte-bois"
+    "sculpture",
+    "porte-bois",
+    "colonne"
   ],
   "photos": [
     {

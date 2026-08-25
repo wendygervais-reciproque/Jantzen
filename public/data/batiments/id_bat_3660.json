@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 14,
+      "personneID": 5,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue Thérèse"
   },
   "arrondissement": 1,
+  "tri_alphab": "Therese",
   "coordonnees": {
     "latitude": "48.866101",
     "longitude": "2.335858"
@@ -27,9 +28,9 @@
   "WPfr": null,
   "image_ref": "Therese-8_1_§1",
   "terme_jantzen_bat": [
-    "porte-bois",
     "fenetre",
-    "oriel"
+    "oriel",
+    "porte-bois"
   ],
   "photos": [
     {

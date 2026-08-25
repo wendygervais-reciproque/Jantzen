@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 267,
+      "personneID": 388,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue de Rivoli"
   },
   "arrondissement": 4,
+  "tri_alphab": "Rivoli",
   "coordonnees": {
     "latitude": "48.856926",
     "longitude": "2.354393"
@@ -27,10 +28,10 @@
   "WPfr": null,
   "image_ref": "Rivoli-48B_4_§1",
   "terme_jantzen_bat": [
-    "atlante",
-    "sculpture",
     "fenetre",
-    "porte-fer"
+    "sculpture",
+    "porte-fer",
+    "atlante"
   ],
   "photos": [
     {

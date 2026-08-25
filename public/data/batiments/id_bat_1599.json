@@ -13,6 +13,7 @@
     "voie": "rue de Crimée"
   },
   "arrondissement": 19,
+  "tri_alphab": "Crimee",
   "coordonnees": {
     "latitude": "48.891752",
     "longitude": "2.37535"
@@ -22,9 +23,9 @@
   "WPfr": null,
   "image_ref": "Crimee-205_19_§1",
   "terme_jantzen_bat": [
-    "brique",
     "fenetre",
-    "lucarne"
+    "lucarne",
+    "brique"
   ],
   "photos": [
     {

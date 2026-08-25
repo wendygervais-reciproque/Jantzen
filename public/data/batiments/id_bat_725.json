@@ -4,7 +4,11 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 83,
+      "personneID": 557,
+      "role": "architecte"
+    },
+    {
+      "personneID": 133,
       "role": "architecte"
     }
   ],
@@ -18,6 +22,7 @@
     "voie": "boulevard Bessières"
   },
   "arrondissement": 17,
+  "tri_alphab": "Bessieres-bd",
   "coordonnees": {
     "latitude": "48.89447",
     "longitude": "2.31452"
@@ -27,8 +32,8 @@
   "WPfr": null,
   "image_ref": "Bessieres-bd-123_17_§1",
   "terme_jantzen_bat": [
-    "porte-fer",
-    "colonne"
+    "colonne",
+    "porte-fer"
   ],
   "photos": [
     {

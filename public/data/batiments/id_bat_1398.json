@@ -2,7 +2,16 @@
   "id_bat": 1398,
   "libelle": "198 rue de Tolbiac",
   "ensemble": null,
-  "personnes": null,
+  "personnes": [
+    {
+      "personneID": 505,
+      "role": "architecte"
+    },
+    {
+      "personneID": 280,
+      "role": "architecte"
+    }
+  ],
   "dateConstruction": "1910",
   "periode": [
     "1895-1914"
@@ -13,6 +22,7 @@
     "voie": "rue de Tolbiac"
   },
   "arrondissement": 13,
+  "tri_alphab": "Tolbiac",
   "coordonnees": {
     "latitude": "48.825828",
     "longitude": "2.348817"
@@ -22,11 +32,11 @@
   "WPfr": null,
   "image_ref": "Tolbiac-198_13_§1",
   "terme_jantzen_bat": [
-    "façade",
-    "garde-corps",
     "décor",
+    "façade",
+    "fenetre",
     "sculpture",
-    "fenetre"
+    "garde-corps"
   ],
   "photos": [
     {

@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 452,
+      "personneID": 551,
       "role": "architecte"
     }
   ],
@@ -14,6 +14,7 @@
   ],
   "adresse": null,
   "arrondissement": 6,
+  "tri_alphab": "Institut-De-France",
   "coordonnees": {
     "latitude": "48.857222222222",
     "longitude": "2.3369444444444"
@@ -23,20 +24,20 @@
   "WPfr": null,
   "image_ref": "Institut-De-France_6_§1",
   "terme_jantzen_bat": [
-    "façade",
-    "oeil-de-boeuf",
-    "lucarne",
-    "pont",
     "tourelle",
-    "porte",
     "sculpture",
+    "façade",
     "fenetre",
+    "dome",
+    "toiture",
+    "porte",
+    "oeil-de-boeuf",
     "fronton",
     "pilastre",
-    "colonne",
+    "lucarne",
+    "pont",
     "porte-bois",
-    "toiture",
-    "dome"
+    "colonne"
   ],
   "photos": [
     {

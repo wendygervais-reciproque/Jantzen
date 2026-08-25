@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 420,
+      "personneID": 566,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "boulevard Pereire"
   },
   "arrondissement": 17,
+  "tri_alphab": "Pereire",
   "coordonnees": {
     "latitude": "48.879197",
     "longitude": "2.287048"
@@ -27,12 +28,12 @@
   "WPfr": null,
   "image_ref": "Pereire-239_17_§1",
   "terme_jantzen_bat": [
-    "façade",
-    "lucarne",
-    "oriel",
     "décor",
-    "sculpture",
+    "façade",
     "fenetre",
+    "lucarne",
+    "sculpture",
+    "oriel",
     "colonne"
   ],
   "photos": [

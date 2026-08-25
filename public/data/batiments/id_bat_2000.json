@@ -13,6 +13,7 @@
     "voie": "rue de la Parcheminerie"
   },
   "arrondissement": 5,
+  "tri_alphab": "Parcheminerie",
   "coordonnees": {
     "latitude": "48.85178",
     "longitude": "2.344539"
@@ -22,11 +23,11 @@
   "WPfr": null,
   "image_ref": "Parcheminerie-29_5_§1",
   "terme_jantzen_bat": [
-    "façade",
-    "garde-corps",
-    "sculpture",
     "clé",
-    "fenetre"
+    "façade",
+    "fenetre",
+    "sculpture",
+    "garde-corps"
   ],
   "photos": [
     {

@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 585,
+      "personneID": 770,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue de Courcelles"
   },
   "arrondissement": 17,
+  "tri_alphab": "Courcelles",
   "coordonnees": {
     "latitude": "48.879972",
     "longitude": "2.30212"
@@ -27,13 +28,13 @@
   "WPfr": null,
   "image_ref": "Courcelles-87-89_17_§1",
   "terme_jantzen_bat": [
-    "façade",
     "loggia",
-    "lucarne",
-    "oriel",
     "décor",
-    "sculpture",
     "porte-fer",
+    "façade",
+    "lucarne",
+    "sculpture",
+    "oriel",
     "colonne"
   ],
   "photos": [

@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 303,
+      "personneID": 425,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue de Tocqueville"
   },
   "arrondissement": 17,
+  "tri_alphab": "Tocqueville",
   "coordonnees": {
     "latitude": "48.888742",
     "longitude": "2.30603"
@@ -27,12 +28,12 @@
   "WPfr": null,
   "image_ref": "Tocqueville-130_17_§1",
   "terme_jantzen_bat": [
+    "porte-fer",
     "façade",
-    "garde-corps",
-    "sculpture",
-    "poignée-porte",
     "fenetre",
-    "porte-fer"
+    "sculpture",
+    "garde-corps",
+    "poignée-porte"
   ],
   "photos": [
     {

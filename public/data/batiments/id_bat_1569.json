@@ -13,6 +13,7 @@
     "voie": "rue de Poissy"
   },
   "arrondissement": 5,
+  "tri_alphab": "Poissy",
   "coordonnees": {
     "latitude": "48.848859",
     "longitude": "2.352281"
@@ -22,13 +23,13 @@
   "WPfr": null,
   "image_ref": "Poissy-20_5_§1",
   "terme_jantzen_bat": [
-    "façade",
-    "lucarne",
     "tourelle",
+    "façade",
     "fenetre",
-    "colonne",
     "intérieur",
-    "toiture"
+    "toiture",
+    "lucarne",
+    "colonne"
   ],
   "photos": [
     {

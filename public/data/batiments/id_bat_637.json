@@ -13,6 +13,7 @@
     "voie": "rue de Buci"
   },
   "arrondissement": 6,
+  "tri_alphab": "Buci",
   "coordonnees": {
     "latitude": "48.853906",
     "longitude": "2.337295"
@@ -22,11 +23,11 @@
   "WPfr": null,
   "image_ref": "Buci-12_6_§1",
   "terme_jantzen_bat": [
-    "façade",
-    "garde-corps",
-    "sculpture",
     "clé",
-    "fenetre"
+    "façade",
+    "fenetre",
+    "sculpture",
+    "garde-corps"
   ],
   "photos": [
     {

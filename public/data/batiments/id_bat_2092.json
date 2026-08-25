@@ -4,7 +4,11 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 386,
+      "personneID": 509,
+      "role": "architecte"
+    },
+    {
+      "personneID": 583,
       "role": "architecte"
     }
   ],
@@ -18,6 +22,7 @@
     "voie": "rue des Gravilliers"
   },
   "arrondissement": 3,
+  "tri_alphab": "Gravilliers",
   "coordonnees": {
     "latitude": "48.86343",
     "longitude": "2.357829"

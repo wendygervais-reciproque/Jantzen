@@ -4,7 +4,11 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 488,
+      "personneID": 657,
+      "role": "architecte"
+    },
+    {
+      "personneID": 948,
       "role": "architecte"
     }
   ],
@@ -18,6 +22,7 @@
     "voie": "rue Marie-et-Louise"
   },
   "arrondissement": 10,
+  "tri_alphab": "Marie-et-Louise",
   "coordonnees": {
     "latitude": "48.871932",
     "longitude": "2.366179"
@@ -27,8 +32,8 @@
   "WPfr": null,
   "image_ref": "Marie-et-Louise-15_10_§1",
   "terme_jantzen_bat": [
-    "console",
-    "fenetre"
+    "fenetre",
+    "console"
   ],
   "photos": [
     {

@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 433,
+      "personneID": 888,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "boulevard Raspail"
   },
   "arrondissement": 6,
+  "tri_alphab": "Raspail",
   "coordonnees": {
     "latitude": "48.84937",
     "longitude": "2.327675"
@@ -25,15 +26,15 @@
   "id_pss": 27653,
   "id_wikidata": null,
   "WPfr": null,
-  "image_ref": "Raspail-67_6_§10",
+  "image_ref": "Raspail-67_6_§6",
   "terme_jantzen_bat": [
-    "lucarne",
-    "brique",
     "décor",
-    "sculpture",
-    "fenetre",
     "porte-fer",
-    "toiture"
+    "brique",
+    "fenetre",
+    "toiture",
+    "lucarne",
+    "sculpture"
   ],
   "photos": [
     {

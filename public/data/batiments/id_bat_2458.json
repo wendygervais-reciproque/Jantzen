@@ -4,7 +4,11 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 592,
+      "personneID": 351,
+      "role": "architecte"
+    },
+    {
+      "personneID": 780,
       "role": "architecte"
     }
   ],
@@ -18,6 +22,7 @@
     "voie": "avenue Hoche"
   },
   "arrondissement": 8,
+  "tri_alphab": "Hoche",
   "coordonnees": {
     "latitude": "48.877804",
     "longitude": "2.304211"
@@ -27,11 +32,11 @@
   "WPfr": null,
   "image_ref": "Hoche-4_8_§1",
   "terme_jantzen_bat": [
-    "porte-bois",
-    "sculpture",
-    "poignée-porte",
     "fenetre",
-    "atlante"
+    "atlante",
+    "sculpture",
+    "porte-bois",
+    "poignée-porte"
   ],
   "photos": [
     {

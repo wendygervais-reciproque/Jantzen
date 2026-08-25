@@ -13,6 +13,7 @@
     "voie": "rue de Courcelles"
   },
   "arrondissement": 17,
+  "tri_alphab": "Courcelles",
   "coordonnees": {
     "latitude": "48.88553",
     "longitude": "2.296534"
@@ -22,9 +23,9 @@
   "WPfr": null,
   "image_ref": "Courcelles-173_17_§1",
   "terme_jantzen_bat": [
-    "façade",
-    "fenetre",
     "porte-bois",
+    "fenetre",
+    "façade",
     "pilastre"
   ],
   "photos": [

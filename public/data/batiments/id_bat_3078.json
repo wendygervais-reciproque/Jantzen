@@ -13,6 +13,7 @@
     "voie": "rue de Vouillé"
   },
   "arrondissement": 15,
+  "tri_alphab": "Vouille",
   "coordonnees": {
     "latitude": "48.833549",
     "longitude": "2.309635"
@@ -22,13 +23,13 @@
   "WPfr": null,
   "image_ref": "Vouille-59_15_§1",
   "terme_jantzen_bat": [
-    "lucarne",
+    "pignon",
+    "porte-fer",
     "brique",
     "fenetre",
-    "porte-fer",
-    "colonne",
     "céramique",
-    "pignon"
+    "lucarne",
+    "colonne"
   ],
   "photos": [
     {

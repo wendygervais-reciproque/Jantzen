@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 606,
+      "personneID": 798,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue Marcel-Renault"
   },
   "arrondissement": 17,
+  "tri_alphab": "Marcel-Renault",
   "coordonnees": {
     "latitude": "48.88012",
     "longitude": "2.292539"
@@ -27,12 +28,12 @@
   "WPfr": null,
   "image_ref": "Marcel-Renault-15_17_§1",
   "terme_jantzen_bat": [
-    "fenetre-d'angle",
-    "porte-fer-hall",
     "décor",
+    "façade-d'angle",
+    "porte-fer-hall",
+    "fenetre-d'angle",
     "sculpture",
-    "poignée-porte",
-    "façade-d'angle"
+    "poignée-porte"
   ],
   "photos": [
     {

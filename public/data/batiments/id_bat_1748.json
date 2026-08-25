@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 646,
+      "personneID": 854,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue des Moines"
   },
   "arrondissement": 17,
+  "tri_alphab": "Moines",
   "coordonnees": {
     "latitude": "48.88886",
     "longitude": "2.319301"
@@ -27,8 +28,8 @@
   "WPfr": null,
   "image_ref": "Moines-23_17_§1",
   "terme_jantzen_bat": [
-    "chimère",
     "clé",
+    "chimère",
     "sculpture"
   ],
   "photos": [

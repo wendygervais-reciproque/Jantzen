@@ -4,7 +4,11 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 474,
+      "personneID": 703,
+      "role": "architecte"
+    },
+    {
+      "personneID": 635,
       "role": "architecte"
     }
   ],
@@ -18,6 +22,7 @@
     "voie": "boulevard de Courcelles"
   },
   "arrondissement": 17,
+  "tri_alphab": "Courcelles-bd",
   "coordonnees": {
     "latitude": "48.879574",
     "longitude": "2.30427"
@@ -27,11 +32,11 @@
   "WPfr": null,
   "image_ref": "Courcelles-bd-90_17_§1",
   "terme_jantzen_bat": [
-    "garde-corps",
-    "sculpture",
     "clé",
     "fenetre",
-    "porte-bois"
+    "sculpture",
+    "porte-bois",
+    "garde-corps"
   ],
   "photos": [
     {

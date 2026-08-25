@@ -4,7 +4,11 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 624,
+      "personneID": 865,
+      "role": "architecte"
+    },
+    {
+      "personneID": 833,
       "role": "architecte"
     }
   ],
@@ -18,6 +22,7 @@
     "voie": "rue Octave-Feuillet"
   },
   "arrondissement": 16,
+  "tri_alphab": "Octave-Feuillet",
   "coordonnees": {
     "latitude": "48.860556",
     "longitude": "2.273708"
@@ -27,13 +32,13 @@
   "WPfr": null,
   "image_ref": "Octave-Feuillet-1_16_§1",
   "terme_jantzen_bat": [
-    "lucarne",
-    "fenetre-d'angle",
     "décor",
-    "fronton",
     "sculpture",
+    "dome",
     "façade-d'angle",
-    "dome"
+    "fronton",
+    "fenetre-d'angle",
+    "lucarne"
   ],
   "photos": [
     {

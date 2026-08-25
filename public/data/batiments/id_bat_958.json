@@ -13,6 +13,7 @@
     "voie": "rue Saint-Denis"
   },
   "arrondissement": 2,
+  "tri_alphab": "St-Denis",
   "coordonnees": {
     "latitude": "48.865262",
     "longitude": "2.350513"
@@ -22,12 +23,12 @@
   "WPfr": null,
   "image_ref": "St-Denis-142_2_§1",
   "terme_jantzen_bat": [
-    "garde-corps",
-    "fenetre-d'angle",
     "clé",
+    "lucarne-d'angle",
     "fenetre",
     "façade-d'angle",
-    "lucarne-d'angle"
+    "fenetre-d'angle",
+    "garde-corps"
   ],
   "photos": [
     {

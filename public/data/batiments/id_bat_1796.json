@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 642,
+      "personneID": 850,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue de Berri"
   },
   "arrondissement": 8,
+  "tri_alphab": "Berri",
   "coordonnees": {
     "latitude": "48.873143",
     "longitude": "2.305614"
@@ -27,11 +28,11 @@
   "WPfr": null,
   "image_ref": "Berri-24_8_§1",
   "terme_jantzen_bat": [
-    "façade",
-    "garde-corps",
-    "fenetre",
     "porte-fer",
-    "balcon"
+    "façade",
+    "fenetre",
+    "balcon",
+    "garde-corps"
   ],
   "photos": [
     {

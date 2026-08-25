@@ -9,6 +9,7 @@
   ],
   "adresse": null,
   "arrondissement": 3,
+  "tri_alphab": "Chapon",
   "coordonnees": {
     "latitude": "48.86324",
     "longitude": "2.357208"
@@ -18,9 +19,9 @@
   "WPfr": "Hôtel Passart",
   "image_ref": "Chapon-4-In_3_§1",
   "terme_jantzen_bat": [
-    "façade",
-    "fronton",
     "fenetre",
+    "fronton",
+    "façade",
     "lucarne"
   ],
   "photos": [

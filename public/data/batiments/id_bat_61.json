@@ -2,13 +2,19 @@
   "id_bat": 61,
   "libelle": "Église de la Sainte-Trinité",
   "ensemble": null,
-  "personnes": null,
+  "personnes": [
+    {
+      "personneID": 36,
+      "role": "architecte"
+    }
+  ],
   "dateConstruction": "1863-1867",
   "periode": [
     "1850-1869"
   ],
   "adresse": null,
   "arrondissement": 9,
+  "tri_alphab": "Ste-Trinite",
   "coordonnees": {
     "latitude": "48.877301423190914",
     "longitude": "2.3314081609446666"
@@ -18,8 +24,8 @@
   "WPfr": "Église de la Sainte-Trinité de Paris",
   "image_ref": "Ste-Trinite_9_§1-Rs",
   "terme_jantzen_bat": [
-    "façade",
-    "tourelle"
+    "tourelle",
+    "façade"
   ],
   "photos": [
     {

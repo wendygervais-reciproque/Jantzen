@@ -2,7 +2,16 @@
   "id_bat": 2646,
   "libelle": "43 boulevard Raspail",
   "ensemble": null,
-  "personnes": null,
+  "personnes": [
+    {
+      "personneID": 872,
+      "role": "architecte"
+    },
+    {
+      "personneID": 110,
+      "role": "architecte"
+    }
+  ],
   "dateConstruction": "1910-1912",
   "periode": [
     "1895-1914"
@@ -13,6 +22,7 @@
     "voie": "boulevard Raspail"
   },
   "arrondissement": 6,
+  "tri_alphab": "Raspail",
   "coordonnees": {
     "latitude": "48.851309",
     "longitude": "2.327116"
@@ -22,20 +32,20 @@
   "WPfr": null,
   "image_ref": "Raspail-43_6_§1",
   "terme_jantzen_bat": [
-    "façade",
-    "console",
-    "garde-corps",
-    "oeil-de-boeuf",
-    "lucarne",
-    "fenetre-d'angle",
-    "oriel",
     "loggia",
-    "sculpture",
     "décor",
+    "pignon",
+    "façade",
     "fenetre",
     "façade-d'angle",
     "balcon",
-    "pignon"
+    "oeil-de-boeuf",
+    "console",
+    "fenetre-d'angle",
+    "sculpture",
+    "lucarne",
+    "oriel",
+    "garde-corps"
   ],
   "photos": [
     {

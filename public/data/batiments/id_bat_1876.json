@@ -4,7 +4,11 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 518,
+      "personneID": 792,
+      "role": "architecte"
+    },
+    {
+      "personneID": 699,
       "role": "architecte"
     }
   ],
@@ -18,6 +22,7 @@
     "voie": "avenue des Ternes"
   },
   "arrondissement": 17,
+  "tri_alphab": "Ternes-Av",
   "coordonnees": {
     "latitude": "48.878686",
     "longitude": "2.294831"
@@ -25,20 +30,20 @@
   "id_pss": 2098,
   "id_wikidata": null,
   "WPfr": null,
-  "image_ref": "Ternes-Av-26_17_§10",
+  "image_ref": "Ternes-Av-26_17_§1-Rx",
   "terme_jantzen_bat": [
-    "façade",
-    "verrière",
-    "lucarne",
-    "fenetre-d'angle",
-    "mosaique",
-    "tourelle",
     "décor",
+    "tourelle",
+    "mosaique",
+    "façade",
+    "marquise",
     "fenetre",
+    "verrière",
+    "dome",
     "façade-d'angle",
     "intérieur",
-    "dome",
-    "marquise"
+    "lucarne",
+    "fenetre-d'angle"
   ],
   "photos": [
     {

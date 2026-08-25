@@ -1,0 +1,36 @@
+{
+  "id_bat": 4052,
+  "libelle": "rue de Rivoli",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 500,
+      "role": "architecte"
+    },
+    {
+      "personneID": 832,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": null,
+  "periode": [
+    "1915-1944"
+  ],
+  "adresse": {
+    "affichage": "rue de Rivoli",
+    "numero": null,
+    "voie": "rue de Rivoli"
+  },
+  "arrondissement": 1,
+  "tri_alphab": "Rivoli",
+  "coordonnees": {
+    "latitude": "48.856916666667",
+    "longitude": "2.3536722222222"
+  },
+  "id_pss": 33391,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 13074,
+  "terme_jantzen_bat": [],
+  "photos": []
+}

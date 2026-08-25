@@ -1,10 +1,10 @@
 {
   "id_bat": 218,
-  "libelle": "1 rue de Montmorency",
+  "libelle": "1 boulevard de Montmorency",
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 125,
+      "personneID": 735,
       "role": "architecte"
     }
   ],
@@ -13,11 +13,12 @@
     "1895-1914"
   ],
   "adresse": {
-    "affichage": "1 rue de Montmorency",
+    "affichage": "1 boulevard de Montmorency",
     "numero": "1",
-    "voie": "rue de Montmorency"
+    "voie": "boulevard de Montmorency"
   },
   "arrondissement": 16,
+  "tri_alphab": "Montmorency",
   "coordonnees": {
     "latitude": "48.862412",
     "longitude": "2.357231"
@@ -27,17 +28,17 @@
   "WPfr": null,
   "image_ref": "Montmorency-1_16_§1",
   "terme_jantzen_bat": [
-    "garde-corps",
-    "fenetre-d'angle",
-    "tour",
-    "brique",
     "décor",
-    "fenetre",
     "porte-fer",
+    "brique",
+    "fenetre",
+    "dome",
     "façade-d'angle",
-    "colonne",
     "balcon",
-    "dome"
+    "tour",
+    "fenetre-d'angle",
+    "colonne",
+    "garde-corps"
   ],
   "photos": [
     {

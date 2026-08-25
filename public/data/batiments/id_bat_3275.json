@@ -2,7 +2,16 @@
   "id_bat": 3275,
   "libelle": "64 boulevard Haussmann",
   "ensemble": null,
-  "personnes": null,
+  "personnes": [
+    {
+      "personneID": 844,
+      "role": "architecte"
+    },
+    {
+      "personneID": 845,
+      "role": "architecte"
+    }
+  ],
   "dateConstruction": "1868-1883",
   "periode": [
     "1870-1894"
@@ -13,6 +22,7 @@
     "voie": "boulevard Haussmann"
   },
   "arrondissement": 9,
+  "tri_alphab": "Haussmann",
   "coordonnees": {
     "latitude": "48.873773",
     "longitude": "2.328157"
@@ -20,22 +30,22 @@
   "id_pss": 3931,
   "id_wikidata": null,
   "WPfr": null,
-  "image_ref": "Haussmann-64_9_1§1",
+  "image_ref": "Haussmann-64_9_1§30",
   "terme_jantzen_bat": [
+    "décor",
+    "tourelle",
+    "métal",
+    "mosaique",
+    "colonne",
+    "fenetre",
     "verrière",
+    "dome",
+    "toiture",
     "oeil-de-boeuf",
     "lucarne",
-    "fenetre-d'angle",
-    "garde-corps",
-    "tourelle",
     "sculpture",
-    "décor",
-    "fenetre",
-    "mosaique",
-    "métal",
-    "colonne",
-    "toiture",
-    "dome"
+    "fenetre-d'angle",
+    "garde-corps"
   ],
   "photos": [
     {

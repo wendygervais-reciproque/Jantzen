@@ -4,7 +4,11 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 396,
+      "personneID": 519,
+      "role": "architecte"
+    },
+    {
+      "personneID": 428,
       "role": "architecte"
     }
   ],
@@ -18,6 +22,7 @@
     "voie": "boulevard Haussmann"
   },
   "arrondissement": 8,
+  "tri_alphab": "Haussmann",
   "coordonnees": {
     "latitude": "48.875209",
     "longitude": "2.309429"
@@ -27,9 +32,9 @@
   "WPfr": null,
   "image_ref": "Haussmann-166_8_§1",
   "terme_jantzen_bat": [
+    "porte-fer-hall",
     "porte-fer",
-    "lucarne",
-    "porte-fer-hall"
+    "lucarne"
   ],
   "photos": [
     {

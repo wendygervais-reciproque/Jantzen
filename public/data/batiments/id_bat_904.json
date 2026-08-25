@@ -4,7 +4,19 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 277,
+      "personneID": 696,
+      "role": "architecte"
+    },
+    {
+      "personneID": 695,
+      "role": "architecte"
+    },
+    {
+      "personneID": 313,
+      "role": "architecte"
+    },
+    {
+      "personneID": 404,
       "role": "architecte"
     }
   ],
@@ -18,6 +30,7 @@
     "voie": "rue Déodat-de-Séverac"
   },
   "arrondissement": 17,
+  "tri_alphab": "Deodat-Severac",
   "coordonnees": {
     "latitude": "48.886287",
     "longitude": "2.311011"
@@ -29,8 +42,8 @@
   "terme_jantzen_bat": [
     "loggia",
     "fenetre",
-    "lucarne",
-    "porte-fer-hall"
+    "porte-fer-hall",
+    "lucarne"
   ],
   "photos": [
     {

@@ -1,0 +1,36 @@
+{
+  "id_bat": 854,
+  "libelle": "137 boulevard Raspail",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 826,
+      "role": "architecte"
+    },
+    {
+      "personneID": 832,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1922",
+  "periode": [
+    "1915-1944"
+  ],
+  "adresse": {
+    "affichage": "137 boulevard Raspail",
+    "numero": "137",
+    "voie": "boulevard Raspail"
+  },
+  "arrondissement": 6,
+  "tri_alphab": "Raspail",
+  "coordonnees": {
+    "latitude": "48.84339",
+    "longitude": "2.329398"
+  },
+  "id_pss": 12029,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 12359,
+  "terme_jantzen_bat": [],
+  "photos": []
+}

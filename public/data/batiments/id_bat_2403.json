@@ -13,6 +13,7 @@
     "voie": "rue Fabert"
   },
   "arrondissement": 7,
+  "tri_alphab": "Fabert",
   "coordonnees": {
     "latitude": "48.859363",
     "longitude": "2.311176"
@@ -22,14 +23,14 @@
   "WPfr": null,
   "image_ref": "Fabert-38B_7_§1",
   "terme_jantzen_bat": [
-    "façade",
-    "garde-corps",
-    "lucarne",
     "décor",
-    "sculpture",
+    "façade",
     "fenetre",
     "balcon",
-    "porte-bois"
+    "lucarne",
+    "sculpture",
+    "porte-bois",
+    "garde-corps"
   ],
   "photos": [
     {

@@ -2,13 +2,19 @@
   "id_bat": 1,
   "libelle": "Cathédrale Saint-Louis-des-Invalides",
   "ensemble": "Hôtel des Invalides",
-  "personnes": null,
+  "personnes": [
+    {
+      "personneID": 461,
+      "role": "architecte"
+    }
+  ],
   "dateConstruction": "1677-1706",
   "periode": [
     "1660-1759"
   ],
   "adresse": null,
   "arrondissement": 7,
+  "tri_alphab": "Invalides_FS",
   "coordonnees": {
     "latitude": "48.85560951970152",
     "longitude": "2.3126200373119405"
@@ -16,21 +22,21 @@
   "id_pss": null,
   "id_wikidata": "Q4992220",
   "WPfr": "Cathédrale Saint-Louis-des-Invalides",
-  "image_ref": "Invalides_FS_§10",
+  "image_ref": "Invalides_FS_§3",
   "terme_jantzen_bat": [
+    "clé",
+    "tourelle",
     "façade",
+    "fenetre",
+    "intérieur",
+    "dome",
+    "toiture",
+    "atlante",
     "oeil-de-boeuf",
     "lucarne",
-    "tourelle",
     "sculpture",
-    "clé",
-    "fenetre",
-    "atlante",
-    "colonne",
-    "intérieur",
     "porte-bois",
-    "toiture",
-    "dome"
+    "colonne"
   ],
   "photos": [
     {

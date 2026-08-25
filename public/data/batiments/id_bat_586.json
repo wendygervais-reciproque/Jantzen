@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 88,
+      "personneID": 145,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue Réaumur"
   },
   "arrondissement": 2,
+  "tri_alphab": "Reaumur",
   "coordonnees": {
     "latitude": "48.868341",
     "longitude": "2.342334"
@@ -27,13 +28,13 @@
   "WPfr": null,
   "image_ref": "Reaumur-119_2_§1",
   "terme_jantzen_bat": [
+    "clé",
     "façade",
-    "garde-corps",
+    "fenetre",
+    "dome",
     "lucarne",
     "sculpture",
-    "clé",
-    "fenetre",
-    "dome"
+    "garde-corps"
   ],
   "photos": [
     {

@@ -13,6 +13,7 @@
     "voie": "rue Danielle-Casanova"
   },
   "arrondissement": 1,
+  "tri_alphab": "Danielle-Casanova",
   "coordonnees": {
     "latitude": "48.867948",
     "longitude": "2.331493"
@@ -22,12 +23,12 @@
   "WPfr": null,
   "image_ref": "Danielle-Casanova-25-27_1_§1-Rx",
   "terme_jantzen_bat": [
-    "console",
-    "garde-corps",
-    "sculpture",
     "fenetre",
     "balcon",
-    "porte-bois"
+    "console",
+    "sculpture",
+    "porte-bois",
+    "garde-corps"
   ],
   "photos": [
     {

@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 608,
+      "personneID": 800,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "avenue Mozart"
   },
   "arrondissement": 16,
+  "tri_alphab": "Mozart",
   "coordonnees": {
     "latitude": "48.849829",
     "longitude": "2.266877"

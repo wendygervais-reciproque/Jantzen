@@ -4,7 +4,11 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 379,
+      "personneID": 438,
+      "role": "architecte"
+    },
+    {
+      "personneID": 502,
       "role": "architecte"
     }
   ],
@@ -18,6 +22,7 @@
     "voie": "rue d'Ouessant"
   },
   "arrondissement": 15,
+  "tri_alphab": "Ouessant",
   "coordonnees": {
     "latitude": "48.850214",
     "longitude": "2.297267"

@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 335,
+      "personneID": 956,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue de Fleurus"
   },
   "arrondissement": 6,
+  "tri_alphab": "Fleurus",
   "coordonnees": {
     "latitude": "48.847111",
     "longitude": "2.331928"
@@ -28,8 +29,8 @@
   "image_ref": "Fleurus-4_6_§1",
   "terme_jantzen_bat": [
     "oeil-de-boeuf",
-    "lucarne",
-    "pignon"
+    "pignon",
+    "lucarne"
   ],
   "photos": [
     {

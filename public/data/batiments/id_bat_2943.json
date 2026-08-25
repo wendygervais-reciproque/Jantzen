@@ -2,7 +2,12 @@
   "id_bat": 2943,
   "libelle": "51 rue Saint-Louis-en-l'Île",
   "ensemble": null,
-  "personnes": null,
+  "personnes": [
+    {
+      "personneID": 258,
+      "role": "architecte"
+    }
+  ],
   "dateConstruction": "vers 1620, 1719",
   "periode": [
     "1590-1659",
@@ -14,6 +19,7 @@
     "voie": "rue Saint-Louis-en-l'Île"
   },
   "arrondissement": 4,
+  "tri_alphab": "St-Louis-en-L'ile",
   "coordonnees": {
     "latitude": "48.852126",
     "longitude": "2.355594"
@@ -23,13 +29,13 @@
   "WPfr": null,
   "image_ref": "St-Louis-en-L'ile-51_4_§1",
   "terme_jantzen_bat": [
-    "console",
-    "garde-corps",
-    "sculpture",
     "clé",
     "fenetre",
     "balcon",
-    "porte-bois"
+    "console",
+    "sculpture",
+    "porte-bois",
+    "garde-corps"
   ],
   "photos": [
     {

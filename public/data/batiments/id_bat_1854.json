@@ -1,10 +1,10 @@
 {
   "id_bat": 1854,
-  "libelle": "25 rue du Faubourg-Saint-Antoine",
+  "libelle": "25 rue du Faubourg Saint-Antoine",
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 490,
+      "personneID": 662,
       "role": "architecte"
     }
   ],
@@ -13,11 +13,12 @@
     "1870-1894"
   ],
   "adresse": {
-    "affichage": "25 rue du Faubourg-Saint-Antoine",
+    "affichage": "25 rue du Faubourg Saint-Antoine",
     "numero": "25",
-    "voie": "rue du Faubourg-Saint-Antoine"
+    "voie": "rue du Faubourg Saint-Antoine"
   },
   "arrondissement": 11,
+  "tri_alphab": "Faubourg-St-Antoine",
   "coordonnees": {
     "latitude": "48.852723",
     "longitude": "2.371475"
@@ -27,10 +28,10 @@
   "WPfr": null,
   "image_ref": "Faubourg-St-Antoine-25_11_§1",
   "terme_jantzen_bat": [
+    "métal",
     "façade",
     "verrière",
     "fenetre",
-    "métal",
     "colonne"
   ],
   "photos": [

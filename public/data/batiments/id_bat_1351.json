@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 265,
+      "personneID": 381,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "avenue Trudaine"
   },
   "arrondissement": 9,
+  "tri_alphab": "Trudaine",
   "coordonnees": {
     "latitude": "48.881315",
     "longitude": "2.344091"
@@ -27,10 +28,10 @@
   "WPfr": null,
   "image_ref": "Trudaine-19_9_§1",
   "terme_jantzen_bat": [
+    "pignon",
     "fronton",
-    "fenetre-d'angle",
     "façade-d'angle",
-    "pignon"
+    "fenetre-d'angle"
   ],
   "photos": [
     {

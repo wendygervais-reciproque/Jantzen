@@ -2,7 +2,12 @@
   "id_bat": 2742,
   "libelle": "47 boulevard Lefebvre",
   "ensemble": null,
-  "personnes": null,
+  "personnes": [
+    {
+      "personneID": 333,
+      "role": "architecte"
+    }
+  ],
   "dateConstruction": null,
   "periode": [
     "1895-1914"
@@ -13,6 +18,7 @@
     "voie": "boulevard Lefebvre"
   },
   "arrondissement": 15,
+  "tri_alphab": "Lefebvre-bd",
   "coordonnees": {
     "latitude": "48.831511",
     "longitude": "2.291568"
@@ -22,11 +28,11 @@
   "WPfr": null,
   "image_ref": "Lefebvre-bd-47_15_§1",
   "terme_jantzen_bat": [
-    "façade",
-    "lucarne",
-    "brique",
     "décor",
-    "fenetre"
+    "façade",
+    "brique",
+    "fenetre",
+    "lucarne"
   ],
   "photos": [
     {

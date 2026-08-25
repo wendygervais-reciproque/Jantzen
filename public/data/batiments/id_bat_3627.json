@@ -13,6 +13,7 @@
     "voie": "rue de Tournon"
   },
   "arrondissement": 6,
+  "tri_alphab": "Tournon",
   "coordonnees": {
     "latitude": "48.850588",
     "longitude": "2.337043"
@@ -22,15 +23,15 @@
   "WPfr": null,
   "image_ref": "Tournon-8_6_§1",
   "terme_jantzen_bat": [
-    "façade",
-    "console",
-    "garde-corps",
     "décor",
-    "sculpture",
+    "façade",
     "fenetre",
-    "atlante",
     "balcon",
-    "porte-bois"
+    "atlante",
+    "console",
+    "sculpture",
+    "porte-bois",
+    "garde-corps"
   ],
   "photos": [
     {

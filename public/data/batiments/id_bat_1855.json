@@ -13,6 +13,7 @@
     "voie": "rue du Jour"
   },
   "arrondissement": 1,
+  "tri_alphab": "Jour",
   "coordonnees": {
     "latitude": "48.86403",
     "longitude": "2.345035"
@@ -22,8 +23,8 @@
   "WPfr": null,
   "image_ref": "Jour-25_1_§1",
   "terme_jantzen_bat": [
-    "fronton",
     "fenetre",
+    "fronton",
     "lucarne"
   ],
   "photos": [

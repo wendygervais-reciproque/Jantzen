@@ -1,0 +1,36 @@
+{
+  "id_bat": 2941,
+  "libelle": "51 rue Raynouard",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 723,
+      "role": "architecte"
+    },
+    {
+      "personneID": 722,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1929-1932",
+  "periode": [
+    "1915-1944"
+  ],
+  "adresse": {
+    "affichage": "51 rue Raynouard",
+    "numero": "51",
+    "voie": "rue Raynouard"
+  },
+  "arrondissement": 16,
+  "tri_alphab": "Raynouard",
+  "coordonnees": {
+    "latitude": "48.855034",
+    "longitude": "2.280363"
+  },
+  "id_pss": 1657,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": 12636,
+  "terme_jantzen_bat": [],
+  "photos": []
+}
