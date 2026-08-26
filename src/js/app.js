@@ -252,15 +252,12 @@ function applyFilters() {
   if (activeFilters.architectes.size > 0) {
     const selectedArchiIds = Array.from(activeFilters.architectes).map(id => Number(id));
     filteredFeatures = filteredFeatures.filter(f => {
-      const personnes = f.properties.personnes || [];
-      let batArchiIds = personnes
-        .map(p => Number(p.personneID ?? p.id_archi ?? p.id))
+      const raw = f.properties.personneID;
+      const arr = Array.isArray(raw) ? raw : (raw != null ? [raw] : []);
+      const batArchiIds = arr
+        .map(item => Number(typeof item === 'object' && item !== null ? item.personneID : item))
         .filter(id => !isNaN(id));
 
-      if (batArchiIds.length === 0 && f.properties.personneID != null) {
-        const raw = f.properties.personneID;
-        batArchiIds = (Array.isArray(raw) ? raw : [raw]).map(Number);
-      }
       return selectedArchiIds.some(selectedId => batArchiIds.includes(selectedId));
     });
   }

@@ -266,15 +266,12 @@ function updateArrondissementsData(featuresActuelles) {
   if (activeFilters.architectes.size > 0) {
     const selectedArchiIds = Array.from(activeFilters.architectes).map(id => Number(id));
     featuresSansArr = featuresSansArr.filter(f => {
-      const personnes = f.properties.personnes || [];
-      let batArchiIds = personnes
-        .map(p => Number(p.personneID ?? p.id_archi ?? p.id))
+      const raw = f.properties.personneID;
+      const arr = Array.isArray(raw) ? raw : (raw != null ? [raw] : []);
+      const batArchiIds = arr
+        .map(item => Number(typeof item === 'object' && item !== null ? item.personneID : item))
         .filter(id => !isNaN(id));
 
-      if (batArchiIds.length === 0 && f.properties.personneID != null) {
-        const raw = f.properties.personneID;
-        batArchiIds = (Array.isArray(raw) ? raw : [raw]).map(Number);
-      }
       return selectedArchiIds.some(selectedId => batArchiIds.includes(selectedId));
     });
   }
@@ -549,10 +546,14 @@ function initStickyFilterHeaders() {
 function buildArchitectesFilter(personnesFiltre = []) {
   const counts = new Map();
   ALL_FEATURES.forEach(f => {
-    const personnes = f.properties.personnes || [];
-    personnes.forEach(p => {
-      if (p.personneID !== undefined && p.personneID !== null) {
-        const idNum = Number(p.personneID);
+    const raw = f.properties.personneID;
+    const arr = Array.isArray(raw) ? raw : (raw != null ? [raw] : []);
+    
+    arr.forEach(item => {
+      // extrait la valeur selon que c'est un objet {personneID: 249, role: "..."} ou un nombre direct
+      const val = (typeof item === 'object' && item !== null) ? item.personneID : item;
+      const idNum = Number(val);
+      if (!isNaN(idNum)) {
         counts.set(idNum, (counts.get(idNum) || 0) + 1);
       }
     });
@@ -645,27 +646,18 @@ function updateArchitectesData(featuresActuelles) {
   const counts = new Map();
 
   featuresActuelles.forEach(f => {
-    const personnes = f.properties.personnes || [];
-    personnes.forEach(p => {
-      const id = p.personneID ?? p.id_archi ?? p.id;
-      if (id !== undefined && id !== null) {
-        const idNum = Number(id);
-        if (!isNaN(idNum)) {
-          counts.set(idNum, (counts.get(idNum) || 0) + 1);
-        }
-      }
-    });
+    const raw = f.properties.personneID;
+    const arr = Array.isArray(raw) ? raw : (raw != null ? [raw] : []);
 
-    if (f.properties.personneID !== undefined && f.properties.personneID !== null) {
-      const raw = f.properties.personneID;
-      const ids = Array.isArray(raw) ? raw : [raw];
-      ids.forEach(id => {
-        const idNum = Number(id);
-        if (!isNaN(idNum) && personnes.length === 0) {
-          counts.set(idNum, (counts.get(idNum) || 0) + 1);
-        }
-      });
-    }
+    const uniqueIds = new Set(
+      arr
+        .map(item => Number(typeof item === 'object' && item !== null ? item.personneID : item))
+        .filter(id => !isNaN(id))
+      );
+
+      uniqueIds.forEach(idNum => {
+        counts.set(idNum, (counts.get(idNum) || 0) + 1);
+    });
   });
 
   ARCHI_TERMS.forEach(item => {
@@ -791,7 +783,6 @@ function togglePeriodeChip(btn, periodeLabel) {
 }
 
 function updatePeriodesData(featuresActuelles) {
-  // Calculer les résultats avec TOUS les filtres SAUF les périodes
   let featuresSansPeriodes = ALL_FEATURES;
 
   // 1. Recherche textuelle
@@ -824,20 +815,16 @@ function updatePeriodesData(featuresActuelles) {
   if (activeFilters.architectes.size > 0) {
     const selectedArchiIds = Array.from(activeFilters.architectes).map(id => Number(id));
     featuresSansPeriodes = featuresSansPeriodes.filter(f => {
-      const personnes = f.properties.personnes || [];
-      let batArchiIds = personnes
-        .map(p => Number(p.personneID ?? p.id_archi ?? p.id))
+      const raw = f.properties.personneID;
+      const arr = Array.isArray(raw) ? raw : (raw != null ? [raw] : []);
+      const batArchiIds = arr
+        .map(item => Number(typeof item === 'object' && item !== null ? item.personneID : item))
         .filter(id => !isNaN(id));
 
-      if (batArchiIds.length === 0 && f.properties.personneID != null) {
-        const raw = f.properties.personneID;
-        batArchiIds = (Array.isArray(raw) ? raw : [raw]).map(Number);
-      }
       return selectedArchiIds.some(selectedId => batArchiIds.includes(selectedId));
     });
   }
 
-  // Recalculer les effectifs réels
   const counts = new Map();
   featuresSansPeriodes.forEach(f => {
     const raw = f.properties.periode || f.properties.periodes;
@@ -851,12 +838,10 @@ function updatePeriodesData(featuresActuelles) {
     });
   });
 
-  // Mettre à jour les données
   PERIODE_TERMS.forEach(item => {
     item.count = counts.get(item.label) || 0;
   });
 
-  // Clean des filtres actifs si devenus indisponibles
   activeFilters.periodes.forEach(p => {
     if (!counts.get(p)) {
       activeFilters.periodes.delete(p);
