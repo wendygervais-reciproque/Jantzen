@@ -58,24 +58,23 @@ function buildLunrIndex() {
       //   ? p.periode[0]
       //   : p.periode;
 
-      // Tableau des personnes liées (nouveau format), avec fallback sur
-      // l'ancien format à personneID unique
-      const personnesArray = Array.isArray(p.personnes) ? p.personnes : [];
+    
+      const rawPersonnes = p.personneID;
+      const personnesArray = Array.isArray(rawPersonnes) 
+        ? rawPersonnes 
+        : (rawPersonnes != null ? [rawPersonnes] : []);
 
-      // Noms des architectes/personnes (via lookup dans ARCHI_TERMS)
-      const idsForNames = personnesArray.length > 0
-        ? personnesArray.map(pers => pers.personneID)
-        : (p.personneID != null ? [p.personneID] : []);
-      const archiNames = idsForNames
+      // Noms des architectes via lookup dans ARCHI_TERMS
+      const archiNames = personnesArray
+        .map(item => typeof item === 'object' && item !== null ? item.personneID : item)
         .map(id => archiById.get(Number(id)) || '')
         .filter(Boolean)
         .join(' ');
       const normalizedArchitectes = normalizeText(archiNames);
 
-      // Rôles (architecte, sculpteur, ...) — uniquement dispo dans le
-      // nouveau format p.personnes
+      // Rôles (architecte, sculpteur, etc.)
       const rolesText = personnesArray
-        .map(pers => pers.role || '')
+        .map(item => typeof item === 'object' && item !== null ? item.role : '')
         .filter(Boolean)
         .join(' ');
       const normalizedRoles = normalizeText(rolesText);
