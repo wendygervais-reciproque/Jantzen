@@ -258,7 +258,7 @@ function applyFilters() {
         .map(item => Number(typeof item === 'object' && item !== null ? item.personneID : item))
         .filter(id => !isNaN(id));
 
-      return selectedArchiIds.some(selectedId => batArchiIds.includes(selectedId));
+      return selectedArchiIds.every(selectedId => batArchiIds.includes(selectedId));
     });
   }
 
