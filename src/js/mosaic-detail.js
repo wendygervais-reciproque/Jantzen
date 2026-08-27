@@ -126,7 +126,12 @@ function renderMosaicPersonnes(host, data) {
 
   const label = document.createElement('h3');
   label.className   = 'md-section-title';
-  label.textContent = 'Architectes & Artistes';
+
+  if (label) {
+    const wordPersonne = personnes.length > 1 ? 'Architectes & Artistes' : 'Architecte & Artiste';
+    label.textContent = `${wordPersonne}`;
+  }
+
   host.appendChild(label);
 
   const list = document.createElement('div');
