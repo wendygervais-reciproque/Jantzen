@@ -408,8 +408,9 @@ function renderDefinitionCard(card, entry, def) {
       link.href        = href;
       link.target      = '_blank';
       link.rel         = 'noopener noreferrer';
-      link.textContent = label;
+      link.append(label);
       link.setAttribute('aria-label', `${label} — « ${entry.term} » (nouvelle fenêtre)`);
+      link.insertAdjacentHTML('beforeend', '<svg class="icon icon-external" aria-hidden="true"><use href="#i-external"/></svg>');
       item.appendChild(link);
       list.appendChild(item);
     });

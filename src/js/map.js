@@ -89,6 +89,7 @@ function initMap() {
   }).addTo(map);
 
   L.control.zoom({ position: 'bottomright' }).addTo(map);
+  initZoomControlAvoidance();
 
   clusterGroup = L.markerClusterGroup({
     chunkedLoading: true,
@@ -109,6 +110,44 @@ function initMap() {
 
   // Bascule automatique arrondissements ↔ bâtiments au franchissement du seuil
   map.on('zoomend', () => applyMapMode(false));
+}
+
+/* ─── ÉVITEMENT DU PANNEAU DE FILTRES ────────────────────────────────────
+ * Le contrôle de zoom (bottomright) et le panneau de filtres partagent le
+ * même coin : quand celui-ci se déploie sur toute la hauteur disponible
+ * (son bas atteint, comme le contrôle de zoom, screen-inset depuis le bas
+ * de l'écran), il mord sur le bouton. On le décale alors à gauche du
+ * panneau — même marge de sécurité de 16 px — sinon il reste à sa place
+ * par défaut, calée en CSS (.leaflet-control-zoom). Le panneau n'a ni
+ * hauteur ni largeur fixes (accordéons, repli, breakpoints) : on mesure
+ * donc en JS plutôt que de dupliquer ces règles en CSS. */
+function initZoomControlAvoidance() {
+  const zoomEl = document.querySelector('.leaflet-control-zoom');
+  const panel  = document.getElementById('filters-panel');
+  const mapEl  = document.getElementById('map');
+  if (!zoomEl || !panel || !mapEl) return;
+
+  const GAP = 16; // === --screen-inset
+
+  function update() {
+    const zoomRect = zoomEl.getBoundingClientRect();
+    if (zoomRect.width === 0) return; // carte masquée (vue mosaïque)
+
+    const panelRect = panel.getBoundingClientRect();
+    const overlaps = panelRect.width > 0 && panelRect.bottom + GAP > zoomRect.top;
+
+    zoomEl.style.marginRight = overlaps
+      ? `${Math.round(window.innerWidth - panelRect.left + GAP)}px`
+      : '';
+  }
+
+  // Le panneau change de taille (accordéons, repli, résultats) et la carte
+  // change de visibilité (bascule vue carte/mosaïque) sans jamais déclencher
+  // resize sur la fenêtre — d'où l'observation directe des deux éléments.
+  new ResizeObserver(update).observe(panel);
+  new ResizeObserver(update).observe(mapEl);
+  window.addEventListener('resize', update);
+  update();
 }
 
 /* ─── AIGUILLAGE DES MODES ──────────────────────────────────────────────── */

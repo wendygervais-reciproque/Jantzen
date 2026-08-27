@@ -36,29 +36,62 @@ button { font-family: inherit; }
 #icon-sprite { display: none; }
 .icon { width: 20px; height: 20px; fill: currentColor; flex-shrink: 0; display: block; }
 
-/* ─── SCROLLBARS ─────────────────────────────────────────────────────────────
-   Discrètes : rail transparent, curseur invisible au repos et révélé au survol
-   du conteneur. Évite qu'une barre permanente ne vienne buter contre le bouton
-   de repli, en haut à droite du volet bâtiment. */
-* { scrollbar-width: thin; scrollbar-color: transparent transparent; }
-*:hover { scrollbar-color: var(--border-subtle) transparent; }
-
-::-webkit-scrollbar { width: 6px; height: 6px; }
-::-webkit-scrollbar-track { background: transparent; }
-::-webkit-scrollbar-thumb {
-  background: transparent;
-  border-radius: var(--radius-badge);
-  transition: background 0.15s;
-}
-:hover::-webkit-scrollbar-thumb { background: var(--border-subtle); }
-::-webkit-scrollbar-thumb:hover { background: var(--border-strong); }
-::-webkit-scrollbar-corner { background: transparent; }
-
 /* ─── LAYOUT ─────────────────────────────────────────────────────────────── */
 /* Plus de header : le fond occupe tout l'écran, l'interface flotte au-dessus. */
 #app   { position: relative; height: 100%; overflow: hidden; }
 #stage { position: absolute; inset: 0; z-index: 1; }
 #map   { position: absolute; inset: 0; }
+
+/* ─── CONTRÔLE DE ZOOM (carte) ───────────────────────────────────────────── */
+/* Étui pilule blanc (padding 4, gouttière 4) avec deux pastilles rondes de
+   40 px et un séparateur, calqué sur #view-toggle. Remplace l'habillage par
+   défaut de Leaflet (carré, bordures grises) — sélecteurs renforcés en
+   spécificité pour battre .leaflet-bar a du CSS Leaflet chargé avant. */
+.leaflet-bar.leaflet-control-zoom {
+  display: flex; flex-direction: column;
+  padding: var(--component-4);
+  background: var(--surface-level-02);
+  border: none;
+  border-radius: var(--radius-full);
+  box-shadow: var(--elevation-floating);
+}
+/* Calage à 16 px (screen-inset), comme les autres éléments flottants —
+   remplace la marge par défaut de Leaflet (10 px), d'où le renfort de
+   spécificité (4 classes) pour battre `.leaflet-right .leaflet-control` et
+   `.leaflet-bottom .leaflet-control` du CSS Leaflet. La marge droite est
+   aussi celle que initZoomControlAvoidance() (map.js) ajuste en JS pour
+   décaler le bouton à gauche du panneau de filtres quand il déborde dessus. */
+.leaflet-bottom.leaflet-right .leaflet-control.leaflet-control-zoom {
+  margin: 0 var(--screen-inset) var(--screen-inset) 0;
+  transition: margin-right 0.2s ease;
+}
+.leaflet-bar.leaflet-control-zoom a.leaflet-control-zoom-in,
+.leaflet-bar.leaflet-control-zoom a.leaflet-control-zoom-out {
+  width: 40px; height: 40px;
+  display: flex; align-items: center; justify-content: center;
+  background: var(--control-background-default);
+  color: var(--control-content-default);
+  font: var(--text-title-h5);
+  line-height: 1;
+  transition: background 0.15s;
+}
+
+.leaflet-bar.leaflet-control-zoom a.leaflet-control-zoom-in { 
+  border-radius: var(--radius-full) var(--radius-full) 0 0;
+  border: var(--border-subtle);
+  box-sizing: border-box;
+  border-bottom-style: solid;
+  border-width: 1px;
+}
+.leaflet-bar.leaflet-control-zoom a.leaflet-control-zoom-out { border-radius: 0 0 var(--radius-full) var(--radius-full); }
+
+.leaflet-bar.leaflet-control-zoom a.leaflet-control-zoom-in:hover,
+.leaflet-bar.leaflet-control-zoom a.leaflet-control-zoom-out:hover {
+  background: var(--control-background-hover);
+}
+.leaflet-bar.leaflet-control-zoom a.leaflet-control-zoom-out {
+  position: relative;
+}
 
 #stage-empty {
   position: absolute; inset: 0;
@@ -75,8 +108,15 @@ button { font-family: inherit; }
 /* Ligne de marque : title/h4 (Univers Com 47 Light Condensed 20 px), capitales,
    séparateur vertical de 22 px — relevé du cadre 36 × 26 des deux vues. */
 #brand-bar {
-  top: 26px; left: 36px;
+  height: var(--topbar-h);
+  top: var(--screen-inset); left: var(--screen-inset);
   display: flex; align-items: center; gap: var(--component-gap-16);
+
+  background: var(--surface-level-01);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-container);
+  box-shadow: var(--elevation-overlay);
+  padding: var(--component-8) var(--component-24);
 }
 #brand-bar a {
   font: var(--text-title-h4);
@@ -227,12 +267,12 @@ button { font-family: inherit; }
   overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
 }
 .bldg-card-people {
-  font: var(--text-interface-caption);
+  font: var(--text-body-small);
   color: var(--text-secondary);
 }
 /* Termes du thésaurus (Index Jantzen), après les personnes. */
 .bldg-card-terms {
-  font: var(--text-interface-caption);
+  font: var(--text-body-small);
   color: var(--text-secondary);
   overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
 }
@@ -893,7 +933,7 @@ button { font-family: inherit; }
 /* Puce « lien externe » (open_in_new) accolée au libellé, dans les deux
    contextes ci-dessus : liens des personnes (fiche bâtiment) et crédit
    Wikidata (lightbox du portrait). */
-.person-links a, .credit-link a, a.credit-link {
+.person-links a, .credit-link a, a.credit-link, .thes-def-links a {
   display: inline-flex; align-items: center; gap: var(--component-gap-4);
 }
 .icon-external { width: 16px; height: 16px; margin-top: 4px; }
