@@ -6,6 +6,12 @@ let searchQuery = '';
 
 document.addEventListener('DOMContentLoaded', async () => {
 
+  document.addEventListener('contextmenu', e => {
+    if (e.target.tagName === 'IMG' || e.target.closest('img, .md-photo, #lightbox')) {
+      e.preventDefault();
+    }
+  });
+  
   // ── Chargement des données ──────────────────────────────────────────────
   try {
     await loadData();
@@ -42,6 +48,9 @@ document.addEventListener('DOMContentLoaded', async () => {
   window.addEventListener('popstate',   onHistoryNav);
   window.addEventListener('hashchange', onHistoryNav);
 });
+
+
+
 
 /* ─── RECHERCHE ─────────────────────────────────────────────────────────── */
 function bindSearch() {

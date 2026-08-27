@@ -46,6 +46,8 @@ function buildBuildingCard(props) {
   card.dataset.id  = props.id_bat;
   card.setAttribute('aria-label', props.libelle || `Bâtiment ${props.id_bat}`);
 
+  card.addEventListener('contextmenu', e => e.preventDefault());
+
   const arr = Number(props.arrondissement);
 
   // Termes du thésaurus (Index Jantzen) : présents dans les propriétés de la
@@ -97,6 +99,10 @@ async function enrichBuildingCard(card, data) {
     const img = document.createElement('img');
     img.alt      = '';
     img.decoding = 'async';
+
+    img.addEventListener('contextmenu', e => e.preventDefault());
+    img.addEventListener('dragstart', e => e.preventDefault());
+    
     img.onload   = () => { thumb.querySelector('.thumb-skeleton')?.remove(); };
     img.onerror  = function () { retryUppercaseJpg(this); };
     img.src      = src;
