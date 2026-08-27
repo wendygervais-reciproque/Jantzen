@@ -547,10 +547,14 @@ function resetAllFilters() {
   activeFilters.architectes.clear();
   activeFilters.periodes.clear();
 
+  
+
   document.querySelectorAll('.chip').forEach(c => {
     c.classList.remove('active');
     c.setAttribute('aria-pressed', 'false');
   });
+
+  if( typeof deselectBatiment === 'function') deselectBatiment();
 
   if (typeof applyFilters === 'function') applyFilters();
 }
