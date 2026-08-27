@@ -237,14 +237,14 @@ button { font-family: inherit; }
   overflow: hidden;
   border-radius: calc(var(--radius-element) - 1px) calc(var(--radius-element) - 1px) 0 0;
 }
-.bldg-card-thumb img { height: 100%; object-fit: cover; display: block; }
+.bldg-card-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
 .thumb-skeleton { width: 100%; height: 100%; }
 .no-img { font-size: var(--fs-150); color: var(--border-strong); }
 /* Badge arrondissement : pastille pleine (background/inverse), plus le voile
    semi-transparent d'avant — lisible quelle que soit la photo dessous. */
 .bldg-card-arr {
   position: absolute; top: var(--component-8); right: var(--component-8);
-  font: var(--text-interface-caption);
+  font: var(--text-body-small);
   color: var(--text-on-inverse);
   background: var(--background-inverse);
   padding: var(--component-2) var(--component-8);
@@ -432,7 +432,7 @@ button { font-family: inherit; }
 
 /* ─── LEAFLET ────────────────────────────────────────────────────────────── */
 .leaflet-container { background: var(--background-subtle); }
-.leaflet-tile-pane { filter: saturate(2.2) brightness(0.97); }
+.leaflet-tile-pane { filter: saturate(8) hue-rotate(15deg); }
 
 .marker-poi {
   width: 22px; height: 30px;
@@ -864,11 +864,11 @@ button { font-family: inherit; }
    fixe de 148 px, valeur en gras à droite, rangées de 32 px sans gouttière. */
 .info-meta-grid {
   display: flex; flex-direction: column;
-  padding: var(--component-8) var(--component-20);
+  padding: var(--component-8) var(--component-20) var(--component-16);
 }
 .info-meta-cell {
   display: grid;
-  grid-template-columns: minmax(0, 148px) 1fr;
+  grid-template-columns: minmax(0, 140px) 1fr;
   gap: var(--component-gap-8);
   align-items: center;
   min-height: 32px;
@@ -892,34 +892,45 @@ button { font-family: inherit; }
   color: var(--text-secondary);
 }
 /* ─── PERSONNES LIÉES (architectes) ─────────────────────────────────────── */
-/* Carte personne : vignette carrée de 140 px, 16 px de gouttière, nom en
-   title/h5 (Walbaum 18) et rôle en body/base. */
+/* Carte personne : vignette carrée de 56 px (silhouette de repli si aucune
+   photo), 16 px de gouttière, nom + rôle réunis sur une seule ligne en
+   body/base-bold. */
 .info-personnes {
   display: flex; flex-direction: column; gap: var(--component-gap-8);
   padding: var(--component-8) var(--component-20) var(--component-16);
 }
-.person-card { display: flex; gap: var(--component-gap-16); align-items: flex-start; }
+.person-card {
+  display: flex;
+  gap: var(--component-gap-16);
+  align-items: flex-start;
+  padding: var(--component-8) 0;
+}
 .person-thumb {
   flex: none;
-  width: 140px; height: 140px;
+  width: 56px; height: 56px;
   padding: 0;
-  border: 1px solid var(--border-subtle);
-  border-radius: var(--radius-element);
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius-media);
   overflow: hidden;
   background: var(--surface-level-02);
   cursor: pointer;
 }
-.person-thumb:hover { border-color: var(--border-strong); }
 .person-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
-.person-info { display: flex; flex-direction: column; min-width: 0; }
-.person-name { font: var(--text-title-h5); color: var(--text-primary); }
-.person-role { font: var(--text-body-large); color: var(--text-secondary); }
+/* Repli silhouette : garantit une vignette même sans photo (média absent ou
+   en échec de chargement) — statique, à la différence de la vraie photo. */
+.person-thumb-placeholder {
+  cursor: default;
+  background: var(--background-subtle);
+  color: var(--border-strong);
+}
+.person-thumb-placeholder .icon { width: 56px; height: 56px; }
+.person-info { display: flex; flex-direction: column; gap: var(--component-gap-2); min-width: 0; }
+.person-name { font: var(--text-body-base-bold); color: var(--text-primary); }
 .person-links {
-  margin-top: var(--component-24);
-  font: var(--text-body-base);
+  font: var(--text-body-small);
   color: var(--text-secondary);
-  display: flex; 
-  column-gap: var(--component-8); 
+  display: flex;
+  column-gap: var(--component-4);
   flex-wrap: wrap;
 }
 .person-links a { color: var(--link-default); text-underline-offset: 2px; }

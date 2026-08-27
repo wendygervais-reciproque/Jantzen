@@ -65,69 +65,71 @@ function buildPersonCard(entry, personne) {
   card.className = 'person-card';
   const nom = personne.libelle || 'Personne inconnue';
 
-  // La vignette est construite à partir de `media` (nom de fichier local) — et
-  // non de `thumb`, qui n'est qu'un chemin Wikimedia conservé pour le crédit.
-  // Tant que /public/data/thumb_jpg n'est pas déposé, on retire proprement la
-  // vignette au lieu de laisser une image cassée à côté du nom.
-  if (personne.media) {
-    const thumbBtn = document.createElement('button');
-    thumbBtn.type      = 'button';
-    thumbBtn.className = 'person-thumb';
-    thumbBtn.setAttribute('aria-label', `Agrandir la photographie de ${nom}`);
-
-    const img = document.createElement('img');
-    img.src     = personneLocalThumbUrl(personne.media);
-    img.alt     = '';
-    img.loading = 'lazy';
-    img.onerror = function () {
-      // Une partie du fonds est en extension capitale : on retente une fois,
-      // puis on renonce (le nom et les liens suffisent sans portrait).
-      if (/\.jpg$/.test(this.getAttribute('src') || '')) { retryUppercaseJpg(this); return; }
-      thumbBtn.remove();
-    };
-    thumbBtn.appendChild(img);
-
-    // Construit la légende avec le lien Wikidata si l'id est renseigné
-    const wikidataRef = PERSON_REFERENCES.find(r => r.key === 'wikidata');
-    const wikidataUrl = (wikidataRef && personne.wikidata)
-      ? wikidataRef.url(personne.wikidata)
-      : null;
-
-    const caption = wikidataUrl
-      ? `${nom} © ${wikidataUrl}`
-      : nom;
-
-    thumbBtn.onclick = () => openPersonLightbox(personneLocalFullImageUrl(personne.media), {
-      name: nom,
-      wikidataUrl
-    });    
-    card.appendChild(thumbBtn);
-  }
+  card.appendChild(buildPersonThumb(personne, nom));
 
   const info = document.createElement('div');
   info.className = 'person-info';
 
   const nameEl = document.createElement('span');
   nameEl.className = 'person-name';
-  nameEl.textContent = nom;
+  nameEl.textContent = entry.role ? `${nom} (${entry.role})` : nom;
 
   const searchLink = buildSeeAllBuildingsLink(personne, nom);
   if (searchLink) nameEl.appendChild(searchLink);
 
   info.appendChild(nameEl);
 
-  if (entry.role) {
-    const roleEl = document.createElement('span');
-    roleEl.className = 'person-role';
-    roleEl.textContent = capitalize(entry.role);
-    info.appendChild(roleEl);
-  }
-
   const links = buildPersonLinks(personne, nom);
   if (links) info.appendChild(links);
 
   card.appendChild(info);
   return card;
+}
+
+/**
+ * Vignette 56 × 56 : la photo si `media` est renseigné (bouton, ouvre la
+ * visionneuse), sinon — ou si son chargement échoue — une silhouette de
+ * repli statique, pour qu'une carte personne ait toujours sa vignette.
+ */
+function buildPersonThumb(personne, nom) {
+  if (!personne.media) return buildPersonThumbPlaceholder();
+
+  const thumbBtn = document.createElement('button');
+  thumbBtn.type      = 'button';
+  thumbBtn.className = 'person-thumb';
+  thumbBtn.setAttribute('aria-label', `Agrandir la photographie de ${nom}`);
+
+  const img = document.createElement('img');
+  img.src     = personneLocalThumbUrl(personne.media);
+  img.alt     = '';
+  img.loading = 'lazy';
+  img.onerror = function () {
+    // Une partie du fonds est en extension capitale : on retente une fois,
+    // puis on renonce à la photo au profit de la silhouette de repli.
+    if (/\.jpg$/.test(this.getAttribute('src') || '')) { retryUppercaseJpg(this); return; }
+    thumbBtn.replaceWith(buildPersonThumbPlaceholder());
+  };
+  thumbBtn.appendChild(img);
+
+  const wikidataRef = PERSON_REFERENCES.find(r => r.key === 'wikidata');
+  const wikidataUrl = (wikidataRef && personne.wikidata)
+    ? wikidataRef.url(personne.wikidata)
+    : null;
+
+  thumbBtn.onclick = () => openPersonLightbox(personneLocalFullImageUrl(personne.media), {
+    name: nom,
+    wikidataUrl
+  });
+
+  return thumbBtn;
+}
+
+function buildPersonThumbPlaceholder() {
+  const el = document.createElement('div');
+  el.className = 'person-thumb person-thumb-placeholder';
+  el.setAttribute('aria-hidden', 'true');
+  el.innerHTML = '<svg class="icon" aria-hidden="true"><use href="#i-person"/></svg>';
+  return el;
 }
 
 function buildPersonLinks(personne, nom) {
@@ -138,7 +140,6 @@ function buildPersonLinks(personne, nom) {
 
   const p = document.createElement('p');
   p.className = 'person-links';
-  p.append("Plus d'infos : ");
 
   refs.forEach(({ label, href }, i) => {
     const link = document.createElement('a');
