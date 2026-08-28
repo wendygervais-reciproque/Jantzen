@@ -70,13 +70,8 @@ function buildPersonCard(entry, personne) {
   const info = document.createElement('div');
   info.className = 'person-info';
 
-  const nameEl = document.createElement('span');
-  nameEl.className = 'person-name';
-  nameEl.textContent = entry.role ? `${nom} (${entry.role})` : nom;
-
-  const searchLink = buildSeeAllBuildingsLink(personne, nom);
-  if (searchLink) nameEl.appendChild(searchLink);
-
+  const nameLabel = entry.role ? `${nom} (${entry.role})` : nom;
+  const nameEl = buildPersonFilterButton(personne, nom, nameLabel);
   info.appendChild(nameEl);
 
   const links = buildPersonLinks(personne, nom);
@@ -156,56 +151,43 @@ function buildPersonLinks(personne, nom) {
 }
 
 
-function buildSeeAllBuildingsLink(personne, nom) {
+/**
+ * Nom de la personne (fiche bâtiment) : un bouton — pas un lien, puisqu'il ne
+ * change pas de ressource mais met à jour le filtre « Architectes & Artistes »
+ * de la page courante — qui active le filtre sur cette personne au clic.
+ * Garde le style « titre » (`.person-name`, couleur primary) ; le survol/focus
+ * ne fait que souligner et affiche une infobulle expliquant l'action (motif
+ * accessible `attachTooltip`, déjà utilisé ailleurs dans le volet détail :
+ * déclenché au clavier comme à la souris, fermeture à Échap — RGAA 7.1/7.3,
+ * 12.9). Si l'identifiant est introuvable, repli sur un simple texte statique.
+ */
+function buildPersonFilterButton(personne, nom, label) {
   const archiId = personne.personneID ?? personne.id ?? personne.id_archi;
-  if (archiId == null) return null;
+  if (archiId == null) {
+    const span = document.createElement('span');
+    span.className = 'person-name';
+    span.textContent = label;
+    return span;
+  }
 
-  const hash = `#archi=${encodeURIComponent(archiId)}`;
-  const fullUrl = `${location.origin}${location.pathname}${location.search}${hash}`;
+  const numericId = Number(archiId);
 
-  const copyIconSVG = `
-    <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-      <rect x="9" y="9" width="13" height="13" rx="2"/>
-      <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/>
-    </svg>`;
+  const btn = document.createElement('button');
+  btn.type      = 'button';
+  btn.className = 'person-name';
+  btn.textContent = label;
 
-  const checkIconSVG = `
-    <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-      <polyline points="20 6 9 17 4 12"/>
-    </svg>`;
-
-  const p = document.createElement('span');
-  p.className = 'person-action';
-  p.append(' ');
-
-  const copyBtn = document.createElement('button');
-  copyBtn.type      = 'button';
-  copyBtn.className = 'person-copy-link';
-  copyBtn.innerHTML = copyIconSVG;
-  copyBtn.setAttribute('aria-label', `Copier le lien vers les bâtiments de ${nom}`);
-  copyBtn.title = 'Copier le lien';
-
-  let resetTimer = null;
-
-  copyBtn.onclick = async () => {
-    try {
-      await navigator.clipboard.writeText(fullUrl);
-
-      clearTimeout(resetTimer);
-      copyBtn.innerHTML = checkIconSVG;
-      copyBtn.classList.add('copied');
-      copyBtn.setAttribute('aria-label', 'Lien copié !');
-
-      resetTimer = setTimeout(() => {
-        copyBtn.innerHTML = copyIconSVG;
-        copyBtn.classList.remove('copied');
-        copyBtn.setAttribute('aria-label', `Copier le lien vers les bâtiments de ${nom}`);
-      }, 500);
-    } catch (err) {
-      console.error('Impossible de copier le lien :', err);
-    }
+  btn.onclick = () => {
+    activeFilters.architectes.add(numericId);
+    if (typeof applyFilters === 'function') applyFilters();
   };
 
-  p.appendChild(copyBtn);
-  return p;
+  // attachTooltip() fige d'abord le nom accessible sur le texte visible seul
+  // (motif standard, cf. mosaic-detail.js) : on le renforce ensuite pour que
+  // l'action soit sans ambiguïté même si l'infobulle (aria-describedby)
+  // n'est pas restituée par la techno d'assistance.
+  attachTooltip(btn, `Filtrer les bâtiments de ${nom}`);
+  btn.setAttribute('aria-label', `Filtrer les bâtiments de ${nom}`);
+
+  return btn;
 }

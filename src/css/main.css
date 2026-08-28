@@ -875,8 +875,8 @@ button { font-family: inherit; }
   display: grid;
   grid-template-columns: minmax(0, 140px) 1fr;
   gap: var(--component-gap-8);
-  align-items: center;
-  min-height: 32px;
+  align-items: end;
+  padding: var(--component-2) 0;
 }
 .info-meta-label {
   font: var(--text-interface-overline);
@@ -962,7 +962,32 @@ button { font-family: inherit; }
 }
 .person-thumb-placeholder .icon { width: 56px; height: 56px; }
 .person-info { display: flex; flex-direction: column; gap: var(--component-gap-2); min-width: 0; }
-.person-name { font: var(--text-body-base); color: var(--text-primary); }
+/* Nom de la personne : un bouton (active le filtre « Architectes & Artistes »
+   sur cette personne), mais qui garde l'apparence d'un simple titre — reset
+   du chrome natif de <button>, style couleur/police inchangé. Le soulignement
+   au survol/focus (plutôt qu'une couleur de lien) signale l'interactivité
+   sans reposer sur la seule couleur (RGAA 3.2 / WCAG 1.4.1). */
+.person-name {
+  display: block;
+  width: 100%;
+  border: none;
+  background: none;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+  font: var(--text-body-base);
+  color: var(--text-primary);
+  cursor: pointer;
+}
+.person-name.has-tooltip {
+  cursor: pointer;                 /* remplace le curseur "aide" par défaut */
+  text-decoration: none;           /* remplace le pointillé permanent par défaut */
+}
+.person-name:hover,
+.person-name:focus-visible {
+  text-decoration: underline;
+  color: var(--text-primary);      /* explicite : pas de couleur de lien au survol */
+}
 .person-links {
   font: var(--text-body-small);
   color: var(--text-secondary);
@@ -986,26 +1011,6 @@ button { font-family: inherit; }
 }
 .icon-external { width: 16px; height: 16px; margin-top: 4px; }
 
-.person-copy-link {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  padding: 4px;
-  border: none;
-  background: transparent;
-  cursor: pointer;
-  color: currentColor;
-  transition: opacity 0.15s;
-}
-
-.person-copy-link:hover {
-  opacity: 0.8;
-}
-
-.person-copy-link.copied {
-  color: var(--icon-secondary); /* vert, à adapter à ta charte */
-  opacity: 0.5;
-}
 /* ─── ÉLÉMENTS ARCHITECTURAUX (volet détail) ──────────────────────────────
    Les termes des photos, regroupés par catégorie du thésaurus sous une ligne
    « Dropdown » repliable. Puces identiques aux filtres, mais à 8 px de
@@ -1054,6 +1059,27 @@ button { font-family: inherit; }
 .info-meta-value a:hover {
   text-decoration: underline;
 }
+
+/* Permalien : style « lien » standard (cf. .person-links a, #page-overlay-body
+   a) plutôt que le style discret ci-dessus, car la valeur EST le lien. Un
+   clic copie l'URL au lieu de naviguer (rouvrir la même page n'a pas de sens
+   ici) — `.has-tooltip`/`.tooltip` (définis plus haut) affichent la
+   confirmation « Lien copié » ; la couleur/le soulignement propres à
+   `.has-tooltip` sont ici redéfinis pour prendre le style lien. */
+.info-permalink.has-tooltip {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--component-gap-4);
+  color: var(--link-default);
+  cursor: pointer;
+  text-decoration: underline;
+  text-decoration-color: currentColor;
+  text-underline-offset: 2px;
+  word-break: break-all;
+}
+.info-permalink.has-tooltip:hover { color: var(--link-hover); text-decoration: none; }
+.info-permalink .icon-copy { flex: none; }
+.info-permalink.copied { color: var(--icon-secondary); }
 
 
 /* ─── VISIONNEUSE PLEIN ÉCRAN ────────────────────────────────────────────── */

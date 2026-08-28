@@ -287,9 +287,14 @@ function showBuildingView() {
         marker.on('click',     () => togglePoiClick(id_bat));
         // Un POI n'est ajouté au DOM par le plugin de cluster que lorsqu'il
         // est effectivement affiché seul (pas regroupé) au zoom courant :
-        // 'add' est donc le bon moment pour le rendre joignable au clavier,
-        // et il ne l'est jamais tant qu'il reste noyé dans une grappe.
-        marker.on('add', () => bindPoiKeyboard(marker, id_bat, p));
+        // 'add' est donc le bon moment pour le rendre joignable au clavier —
+        // et, de la même façon, pour lui réappliquer .active si besoin (ex.
+        // ouverture directe d'un permalien : le marqueur n'existe pas encore
+        // au moment du premier refreshPoiActive(), noyé dans un cluster).
+        marker.on('add', () => {
+          bindPoiKeyboard(marker, id_bat, p);
+          if (typeof refreshPoiActive === 'function') refreshPoiActive();
+        });
         return marker;
       }
     }
@@ -436,10 +441,18 @@ function clearPoiFocus() {
 
 /* ─── NAVIGATION VERS UN BÂTIMENT ───────────────────────────────────────── */
 
-function flyToFeature(id_bat) {
-  // Conteneur non mesuré (carte masquée, fenêtre repliée) : on éviterait
-  // des coordonnées NaN.
-  if (!map || map.getSize().x === 0) return;
+function flyToFeature(id_bat, attemptsLeft = 20) {
+  if (!map) return;
+  // Conteneur non mesuré : au chargement direct d'un permalien, ce code
+  // s'exécute avant que Leaflet n'ait eu l'occasion de mesurer la carte (le
+  // tout premier rendu n'a pas encore eu lieu) — on réessaie au prochain
+  // repaint plutôt que d'abandonner. En vue mosaïque en revanche, la carte
+  // est masquée à dessein (display: none) et ne sera jamais mesurée : le
+  // nombre d'essais est borné pour ne pas tourner indéfiniment dans ce cas.
+  if (map.getSize().x === 0) {
+    if (attemptsLeft > 0) requestAnimationFrame(() => flyToFeature(id_bat, attemptsLeft - 1));
+    return;
+  }
 
   const feature = ALL_FEATURES.find(f => String(f.properties.id_bat) === String(id_bat));
   if (!feature || !feature.geometry || !feature.geometry.coordinates) return;
@@ -457,6 +470,10 @@ function flyToFeature(id_bat) {
 
 clusterGroup.zoomToShowLayer(marker, () => {
   map.panTo(marker.getLatLng(), { animate: true });
+  // Le marqueur n'a pu recevoir .active tant qu'il restait groupé dans un
+  // cluster (pas de nœud DOM à cibler avant cet éclatement) : on réapplique
+  // l'état une fois qu'il est effectivement affiché seul.
+  if (typeof refreshPoiActive === 'function') refreshPoiActive();
 });
 }
 

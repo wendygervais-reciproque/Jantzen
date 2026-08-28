@@ -154,12 +154,87 @@ function renderMosaicInfo(data) {
       <span class="info-meta-label"${key ? ` data-tooltip-key="${key}"` : ''}>${label}</span>
       <span class="info-meta-value">${value || '-'}</span>
     </div>`).join('');
+  grid.appendChild(buildPermalinkCell(data.id_bat));
   host.appendChild(grid);
 
   const dateLabel = grid.querySelector('[data-tooltip-key="date-indicative"]');
   if (dateLabel) attachTooltip(dateLabel, TOOLTIP_DATE_INDICATIVE);
 
   renderMosaicPersonnes(host, data);
+}
+
+/**
+ * Cellule « Permalien » : au clic, copie le lien dans le presse-papier plutôt
+ * que de naviguer (rouvrir la même page n'a pas de sens ici), avec le style
+ * « lien » (souligné, couleur --link-default) des liens personnes/référentiels
+ * plutôt que le style discret des autres valeurs de cette grille (qui, elles,
+ * ouvrent un vrai lien externe).
+ */
+function buildPermalinkCell(id_bat) {
+  const url = `${location.origin}${location.pathname}#bat=${encodeURIComponent(id_bat)}`;
+
+  const cell = document.createElement('div');
+  cell.className = 'info-meta-cell';
+
+  const label = document.createElement('span');
+  label.className = 'info-meta-label';
+  label.textContent = 'Permalien';
+  cell.appendChild(label);
+
+  const value = document.createElement('span');
+  value.className = 'info-meta-value';
+  cell.appendChild(value);
+
+  const copyIconSVG = `
+    <svg class="icon-copy" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <rect x="9" y="9" width="13" height="13" rx="2"/>
+      <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/>
+    </svg>`;
+  const checkIconSVG = `
+    <svg class="icon-copy" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <polyline points="20 6 9 17 4 12"/>
+    </svg>`;
+
+  const link = document.createElement('a');
+  link.className = 'info-permalink has-tooltip';
+  link.href = url;
+  link.append(url);
+  link.insertAdjacentHTML('beforeend', copyIconSVG);
+  link.setAttribute('aria-label', 'Copier le permalien du bâtiment');
+
+  const tipId = `tooltip-${++tooltipIdSeq}`;
+  link.setAttribute('aria-describedby', tipId);
+  const bubble = document.createElement('span');
+  bubble.className = 'tooltip';
+  bubble.id = tipId;
+  bubble.setAttribute('role', 'status');
+  bubble.textContent = 'Lien copié dans le presse-papier';
+  link.appendChild(bubble);
+
+  let hideTimer = null;
+  link.addEventListener('click', async e => {
+    e.preventDefault();
+    try {
+      await navigator.clipboard.writeText(url);
+      link.classList.add('copied', 'tooltip-visible');
+      link.setAttribute('aria-label', 'Permalien copié !');
+      const icon = link.querySelector('svg.icon-copy');
+      if (icon) icon.outerHTML = checkIconSVG;
+
+      clearTimeout(hideTimer);
+      hideTimer = setTimeout(() => {
+        link.classList.remove('copied', 'tooltip-visible');
+        link.setAttribute('aria-label', 'Copier le permalien du bâtiment');
+        const check = link.querySelector('svg.icon-copy');
+        if (check) check.outerHTML = copyIconSVG;
+      }, 1500);
+    } catch (err) {
+      console.error('Impossible de copier le permalien :', err);
+    }
+  });
+
+  value.appendChild(link);
+  return cell;
 }
 
 function renderMosaicPersonnes(host, data) {
