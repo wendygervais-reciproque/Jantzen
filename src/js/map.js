@@ -336,8 +336,16 @@ function buildMapCard(props) {
 /**
  * Rend un POI joignable au clavier (RGAA 7.3 : toute fonctionnalité au
  * pointeur doit avoir un équivalent clavier) : Tab l'atteint comme un bouton,
- * Entrée/Espace reproduit le clic, et — la demande initiale — la prise de
- * focus recentre la carte dessus, comme le survol/clic à la souris.
+ * Entrée/Espace reproduit le clic, et la prise de focus AU CLAVIER recentre
+ * la carte dessus (équivalent du survol/clic à la souris).
+ *
+ * Le recentrage doit rester réservé au focus clavier : un clic souris pose
+ * aussi le focus sur l'élément (comportement natif d'un tabindex="0"), et si
+ * on recentrait dans tous les cas, le marqueur se déplaçait sous le curseur
+ * entre le mousedown et le mouseup — Leaflet interprétait alors le geste
+ * comme un glissé et n'émettait plus le 'click', empêchant l'ouverture de la
+ * fiche bâtiment au clic. D'où le filtre sur :focus-visible, qui exclut
+ * justement le focus déclenché par un pointeur.
  */
 function bindPoiKeyboard(marker, id_bat, props) {
   const el = marker.getElement()?.querySelector('.marker-poi');
@@ -349,6 +357,7 @@ function bindPoiKeyboard(marker, id_bat, props) {
 
   el.addEventListener('focus', () => {
     if (!map || map.getSize().x === 0) return;
+    if (!el.matches(':focus-visible')) return;
     map.panTo(marker.getLatLng(), { animate: true });
   });
   el.addEventListener('keydown', e => {

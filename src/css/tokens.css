@@ -87,7 +87,6 @@
   --text-title-h5: var(--text-title-h5-weight) var(--text-title-h5-size)/var(--text-title-h5-lh) var(--text-title-h5-family);
 
   /* body/ -------------------------------------------------------------- */
-  /* ⚠ extrapolé : body/large n'est porté par aucune des deux vues. */
   --text-body-large-family: var(--font-sans);
   --text-body-large-size:   var(--fs-112);
   --text-body-large-weight: var(--fw-300);
