@@ -140,11 +140,6 @@ function bindNavigation() {
     showAbout();
   });
 
-  document.getElementById('link-credits')?.addEventListener('click', e => {
-    e.preventDefault();
-    showPage('credits');
-  });
-
   document.getElementById('link-cgu')?.addEventListener('click', e => {
     e.preventDefault();
     showPage('cgu');

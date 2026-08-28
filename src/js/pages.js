@@ -65,8 +65,9 @@ Recherche et traitement des données : <strong>Eva Rivière</strong>, stagiaire 
 // « La base » et « Le projet » ne sont plus des entrées de navigation : elles
 // deviennent les deux onglets d'une page À propos unique.
 const ABOUT_TABS = [
-  { key: 'base',   label: 'La base' },
-  { key: 'projet', label: 'Le projet' }
+  { key: 'base',    label: 'La base' },
+  { key: 'projet',  label: 'Le projet' },
+  { key: 'credits', label: 'Crédits' }
 ];
 
 function showAbout(tabKey = 'base') {

@@ -875,16 +875,21 @@ button { font-family: inherit; }
   display: grid;
   grid-template-columns: minmax(0, 140px) 1fr;
   gap: var(--component-gap-8);
-  align-items: end;
-  padding: var(--component-2) 0 var(--component-4) 0;
+  align-items: center;
+  padding: var(--component-4) 0 var(--component-4) 0;
 }
 .info-meta-label {
   font: var(--text-interface-overline);
   letter-spacing: var(--text-interface-overline-ls);
   text-transform: uppercase;
   color: var(--text-secondary);
+  position: relative;
+  padding-top: var(--component-2);
 }
-.info-meta-label::after { content: '\00a0:'; }
+.info-meta-label::after { 
+  content: '\00a0:';
+  display: none;
+}
 .info-meta-value { font: var(--text-body-base); color: var(--text-primary); }
 
 /* ─── INFOBULLES ACCESSIBLES ─────────────────────────────────────────────
@@ -1137,7 +1142,9 @@ button { font-family: inherit; }
 
 /* ─── LIENS DISCRETS ─────────────────────────────────────────────────────── */
 #footer-links {
-  left: 16px; bottom: 16px;
+  left: 50%;
+  transform: translate(-50%);
+  bottom: 16px;
   display: flex; gap: var(--component-gap-8);
   font-size: var(--text-interface-caption-size);
   color: var(--text-secondary);
@@ -1150,7 +1157,6 @@ button { font-family: inherit; }
   border-radius: var(--radius-element);
 }
 #footer-links a:hover { color: var(--text-primary); }
-#footer-links span { background: var(--bg-page-ghost); padding: 3px 0; }
 
 
 /* ─── PAGES STATIQUES ────────────────────────────────────────────────────── */
