@@ -118,6 +118,9 @@ button { font-family: inherit; }
   box-shadow: var(--elevation-overlay);
   padding: var(--component-8) var(--component-24);
 }
+/* H1 de la page (RGAA 9.1) : le logotype, sans incidence visuelle — la boîte
+   du h1 s'efface pour laisser l'ancre occuper la place exacte d'avant. */
+#brand-bar h1 { display: contents; }
 #brand-bar a {
   font: var(--text-title-h4);
   text-transform: uppercase;
@@ -369,9 +372,7 @@ button { font-family: inherit; }
    title/h3 en condensé 24 px, souligné d'un filet pleine largeur. */
 .md-section-title {
   display: block;
-  padding: var(--component-4) var(--component-20) var(--component-8);
-  margin-top: var(--component-8);
-  border-bottom: 1px solid var(--border-subtle);
+  padding: var(--component-8) var(--component-20) var(--component-8);
   font: var(--text-title-h3);
   color: var(--text-primary);
 }
@@ -568,6 +569,7 @@ button { font-family: inherit; }
   letter-spacing: var(--text-interface-overline-ls);
   text-transform: uppercase;
   color: var(--text-secondary);
+  padding-top: var(--component-8);
 }
 /* Bouton tertiaire circulaire de 32 px — même composant que la fermeture du
    volet détail. */
@@ -641,6 +643,9 @@ button { font-family: inherit; }
    d'une aire mesurable pour calculer un intersectionRatio ; à hauteur nulle,
    ce ratio resterait bloqué à 0 et ne franchirait jamais le seuil. */
 .filter-section-sentinel { height: 1px; margin-bottom: -1px; }
+/* Hiérarchie de titres (RGAA 9.1) : le <h3> qui porte le bouton d'accordéon
+   ne doit rien changer à la mise en page — sa boîte s'efface. */
+.filter-section-heading { display: contents; }
 /* Ligne « Dropdown » : 48 px de haut, libellé à 20 px du bord, chevron de
    24 px collé à 12 px du bord droit. */
 .filter-section-header {
@@ -880,7 +885,39 @@ button { font-family: inherit; }
   color: var(--text-secondary);
 }
 .info-meta-label::after { content: '\00a0:'; }
-.info-meta-value { font: var(--text-body-base-bold); color: var(--text-primary); }
+.info-meta-value { font: var(--text-body-base); color: var(--text-primary); }
+
+/* ─── INFOBULLES ACCESSIBLES ─────────────────────────────────────────────
+ * Déclencheur : soulignement pointillé discret (pas de couleur de lien, pour
+ * ne pas laisser croire à un lien). Bulle sous le déclencheur — jamais
+ * au-dessus, pour ne pas se faire rogner par l'`overflow-y: auto` du volet. */
+.has-tooltip {
+  position: relative;
+  cursor: help;
+  text-decoration: underline dotted;
+  text-decoration-color: var(--border-strong);
+  text-underline-offset: 3px;
+}
+.tooltip {
+  position: absolute;
+  top: calc(100% + 6px); left: 0;
+  width: max-content; max-width: 260px;
+  padding: var(--component-8) var(--component-12);
+  background: var(--background-inverse);
+  color: var(--text-on-inverse);
+  font: var(--text-body-small);
+  text-decoration: none;
+  text-transform: none;
+  letter-spacing: normal;
+  border-radius: var(--radius-element);
+  box-shadow: var(--elevation-floating);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.15s;
+  pointer-events: none;
+  z-index: 20;
+}
+.has-tooltip.tooltip-visible .tooltip { opacity: 1; visibility: visible; }
 
 .info-elements-label {
   display: block;
@@ -925,7 +962,7 @@ button { font-family: inherit; }
 }
 .person-thumb-placeholder .icon { width: 56px; height: 56px; }
 .person-info { display: flex; flex-direction: column; gap: var(--component-gap-2); min-width: 0; }
-.person-name { font: var(--text-body-base-bold); color: var(--text-primary); }
+.person-name { font: var(--text-body-base); color: var(--text-primary); }
 .person-links {
   font: var(--text-body-small);
   color: var(--text-secondary);

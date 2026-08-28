@@ -1,10 +1,8 @@
 /**
- * lightbox.js — Visionneuse plein écran partagée par les deux points d'entrée
- * du volet détail (mosaic-detail.js) : la galerie de photographies du bâtiment
- * et, sans navigation, le portrait isolé d'une personne liée.
+ * lightbox.js — Visionneuse plein écran de la galerie de photographies du
+ * bâtiment, dans le volet détail (mosaic-detail.js).
  */
 
-let lightboxPerson  = null;     // {src, caption} — portrait isolé, sans navigation
 let lightboxGallery = null;     // {photos:[{src,caption}], index} — galerie du volet détail
 
 /* ─── OUVERTURE / FERMETURE ─────────────────────────────────────────────── */
@@ -15,20 +13,6 @@ function isLightboxOpen() {
 }
 
 /**
- * Ouvre la visionneuse sur une image isolée (portrait d'une personne liée au
- * bâtiment), sans navigation puisqu'il n'y a qu'une seule image.
- */
-function openPersonLightbox(src, { name, wikidataUrl }) {
-  const box = document.getElementById('lightbox');
-  if (!box || !src) return;
-  lightboxPerson = { src, name, wikidataUrl };
-  lightboxGallery = null;
-  box.hidden = false;
-  renderLightbox();
-  document.getElementById('lightbox-close')?.focus();
-}
-
-/**
  * Ouvre la visionneuse sur la galerie du volet détail, avec navigation prev/next.
  * @param {{src, caption}[]} photos
  * @param {number} index
@@ -36,23 +20,24 @@ function openPersonLightbox(src, { name, wikidataUrl }) {
 function openGalleryLightbox(photos, index) {
   const box = document.getElementById('lightbox');
   if (!box || !Array.isArray(photos) || photos.length === 0) return;
-  lightboxPerson  = null;
   lightboxGallery = { photos, index: Math.max(0, Math.min(index, photos.length - 1)) };
   box.hidden = false;
   renderLightbox();
+  setBackgroundInert(true);
   document.getElementById('lightbox-close')?.focus();
 }
 
 function closeLightbox() {
   const box = document.getElementById('lightbox');
   if (box) box.hidden = true;
-  lightboxPerson = lightboxGallery = null;
+  lightboxGallery = null;
+  setBackgroundInert(false);
 }
 
 /* ─── NAVIGATION ────────────────────────────────────────────────────────── */
 
 function stepPhoto(delta) {
-  if (!lightboxGallery) return;   // portrait isolé, ou visionneuse fermée : pas de navigation
+  if (!lightboxGallery) return;   // visionneuse fermée : pas de navigation
   const n = lightboxGallery.photos.length;
   lightboxGallery.index = Math.max(0, Math.min(lightboxGallery.index + delta, n - 1));
   renderLightbox();
@@ -65,32 +50,6 @@ function renderLightbox() {
   const prev    = document.getElementById('lightbox-prev');
   const next    = document.getElementById('lightbox-next');
   if (!img) return;
-
-  if (lightboxPerson) {
-    img.src = lightboxPerson.src;
-    img.onerror = null;
-
-    if (prev) prev.style.display = 'none';
-    if (next) next.style.display = 'none';
-
-    if (caption) {
-      caption.innerHTML = ''; // reset propre avant reconstruction
-      caption.append(lightboxPerson.name || '');
-
-      if (lightboxPerson.wikidataUrl) {
-        caption.append(' © ');
-        const link = document.createElement('a');
-        link.href        = lightboxPerson.wikidataUrl;
-        link.target      = '_blank';
-        link.rel         = 'noopener noreferrer';
-        link.classList.add('credit-link')
-        link.append('Wikidata');
-        link.insertAdjacentHTML('beforeend', '<svg class="icon icon-external" aria-hidden="true"><use href="#i-external"/></svg>');
-        caption.appendChild(link);
-      }
-    }
-    return;
-  }
 
   if (!lightboxGallery) return;
 

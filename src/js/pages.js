@@ -115,6 +115,7 @@ function renderPage(title, page) {
     overlay.hidden = false;
     overlay.setAttribute('aria-hidden', 'false');
   }
+  setBackgroundInert(true);
   document.getElementById('page-overlay-close')?.focus();
 }
 
@@ -124,6 +125,7 @@ function closePage() {
     overlay.hidden = true;
     overlay.setAttribute('aria-hidden', 'true');
   }
+  setBackgroundInert(false);
 }
 
 function isPageOpen() {

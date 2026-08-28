@@ -143,7 +143,7 @@
   --text-interface-overline-family: var(--font-sans);
   --text-interface-overline-size:   var(--fs-75);
   --text-interface-overline-weight: var(--fw-400);
-  --text-interface-overline-lh:     var(--lh-1);
+  --text-interface-overline-lh:     var(--lh-140);
   --text-interface-overline-ls:     var(--ls-overline);
   --text-interface-overline: var(--text-interface-overline-weight) var(--text-interface-overline-size)/var(--text-interface-overline-lh) var(--text-interface-overline-family);
 

@@ -87,17 +87,26 @@ function buildPersonCard(entry, personne) {
 }
 
 /**
- * Vignette 56 × 56 : la photo si `media` est renseigné (bouton, ouvre la
- * visionneuse), sinon — ou si son chargement échoue — une silhouette de
- * repli statique, pour qu'une carte personne ait toujours sa vignette.
+ * Vignette 56 × 56 : la photo si `media` est renseigné (lien, ouvre la page
+ * média Wikidata dans un nouvel onglet), sinon — ou si son chargement échoue
+ * — une silhouette de repli statique, pour qu'une carte personne ait
+ * toujours sa vignette.
  */
 function buildPersonThumb(personne, nom) {
   if (!personne.media) return buildPersonThumbPlaceholder();
 
-  const thumbBtn = document.createElement('button');
-  thumbBtn.type      = 'button';
-  thumbBtn.className = 'person-thumb';
-  thumbBtn.setAttribute('aria-label', `Agrandir la photographie de ${nom}`);
+  const wikidataRef = PERSON_REFERENCES.find(r => r.key === 'wikidata');
+  const wikidataMediaUrl = (wikidataRef && personne.wikidata)
+    ? `${wikidataRef.url(personne.wikidata)}#/media/File:${decodeURIComponent(personne.media).replace(/ /g, '_')}`
+    : null;
+  if (!wikidataMediaUrl) return buildPersonThumbPlaceholder();
+
+  const thumbLink = document.createElement('a');
+  thumbLink.className = 'person-thumb';
+  thumbLink.href       = wikidataMediaUrl;
+  thumbLink.target     = '_blank';
+  thumbLink.rel        = 'noopener noreferrer';
+  thumbLink.setAttribute('aria-label', `Voir la photographie de ${nom} sur Wikidata (nouvelle fenêtre)`);
 
   const img = document.createElement('img');
   img.src     = personneLocalThumbUrl(personne.media);
@@ -107,21 +116,11 @@ function buildPersonThumb(personne, nom) {
     // Une partie du fonds est en extension capitale : on retente une fois,
     // puis on renonce à la photo au profit de la silhouette de repli.
     if (/\.jpg$/.test(this.getAttribute('src') || '')) { retryUppercaseJpg(this); return; }
-    thumbBtn.replaceWith(buildPersonThumbPlaceholder());
+    thumbLink.replaceWith(buildPersonThumbPlaceholder());
   };
-  thumbBtn.appendChild(img);
+  thumbLink.appendChild(img);
 
-  const wikidataRef = PERSON_REFERENCES.find(r => r.key === 'wikidata');
-  const wikidataUrl = (wikidataRef && personne.wikidata)
-    ? wikidataRef.url(personne.wikidata)
-    : null;
-
-  thumbBtn.onclick = () => openPersonLightbox(personneLocalFullImageUrl(personne.media), {
-    name: nom,
-    wikidataUrl
-  });
-
-  return thumbBtn;
+  return thumbLink;
 }
 
 function buildPersonThumbPlaceholder() {

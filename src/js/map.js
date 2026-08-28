@@ -246,7 +246,12 @@ function showBuildingView() {
           popupAnchor: [0, -28]
         });
 
-        const marker = L.marker(latlng, { icon });
+        // keyboard: false — Leaflet rend sinon nativement l'icône (le
+        // wrapper) tabbable de son côté, en plus de `.marker-poi` que
+        // bindPoiKeyboard() instrumente ci-dessous : deux arrêts de
+        // tabulation par POI, dont un « muet » (sans recentrage), d'où le
+        // double Tab nécessaire avant correction.
+        const marker = L.marker(latlng, { icon, keyboard: false });
         markerMap[id_bat] = marker;
 
         // Card partagée avec la mosaïque, reconstruite à l'ouverture (données
@@ -263,6 +268,11 @@ function showBuildingView() {
         marker.on('mouseout',  () => schedulePoiCardClose(id_bat));
         marker.on('popupopen', e => bindCardBridge(e.popup, id_bat));
         marker.on('click',     () => togglePoiClick(id_bat));
+        // Un POI n'est ajouté au DOM par le plugin de cluster que lorsqu'il
+        // est effectivement affiché seul (pas regroupé) au zoom courant :
+        // 'add' est donc le bon moment pour le rendre joignable au clavier,
+        // et il ne l'est jamais tant qu'il reste noyé dans une grappe.
+        marker.on('add', () => bindPoiKeyboard(marker, id_bat, p));
         return marker;
       }
     }
@@ -299,6 +309,31 @@ function buildMapCard(props) {
   };
   getBatiment(props.id_bat).then(data => enrichBuildingCard(card, data)).catch(() => {});
   return card;
+}
+
+/**
+ * Rend un POI joignable au clavier (RGAA 7.3 : toute fonctionnalité au
+ * pointeur doit avoir un équivalent clavier) : Tab l'atteint comme un bouton,
+ * Entrée/Espace reproduit le clic, et — la demande initiale — la prise de
+ * focus recentre la carte dessus, comme le survol/clic à la souris.
+ */
+function bindPoiKeyboard(marker, id_bat, props) {
+  const el = marker.getElement()?.querySelector('.marker-poi');
+  if (!el) return;
+
+  el.setAttribute('role', 'button');
+  el.tabIndex = 0;
+  el.setAttribute('aria-label', props.libelle || `Bâtiment ${id_bat}`);
+
+  el.addEventListener('focus', () => {
+    if (!map || map.getSize().x === 0) return;
+    map.panTo(marker.getLatLng(), { animate: true });
+  });
+  el.addEventListener('keydown', e => {
+    if (e.key !== 'Enter' && e.key !== ' ') return;
+    e.preventDefault();   // Espace ne doit pas faire défiler la page
+    togglePoiClick(id_bat);
+  });
 }
 
 /** Ouvre (ou garde ouverte) la card d'un POI au survol. */

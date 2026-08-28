@@ -94,6 +94,18 @@ function resetOtherFiltersUI() {
   renderArchitectesList(archiSearchVal);
 }
 
+/* ─── MODALES : isolation du fond ────────────────────────────────────────
+   Pendant qu'une modale (page statique ou visionneuse) est affichée, #app
+   passe en inert : le fond (carte, filtres, logo/H1…) devient inaccessible
+   au clavier et disparaît de l'arbre d'accessibilité — sans quoi un lecteur
+   d'écran ou une tabulation pourrait s'échapper de la boîte de dialogue. */
+function setBackgroundInert(isInert) {
+  const app = document.getElementById('app');
+  if (!app) return;
+  app.toggleAttribute('inert', isInert);
+  app.setAttribute('aria-hidden', String(isInert));
+}
+
 /* ─── NAVIGATION (marque, à propos, pages) ──────────────────────────────── */
 
 function bindNavigation() {
@@ -428,8 +440,30 @@ function onHistoryNav() {
   applyStateFromHash();
 }
 
+// Cadrage du tout premier chargement : l'emprise des bâtiments seuls ne
+// couvre pas les bois (Boulogne, Vincennes), sans bâtiment recensé — on
+// prend donc les tracés d'arrondissement, qui les incluent, une seule fois.
+let hasFittedInitialView = false;
+
 function fitMapToResults() {
   if (!map || !currentFeatures || currentFeatures.length === 0) return;
+
+  if (!hasFittedInitialView) {
+    hasFittedInitialView = true;
+    const arrBounds = (typeof ARR_POLYGONS !== 'undefined' && ARR_POLYGONS)
+      ? L.geoJSON(ARR_POLYGONS).getBounds()
+      : null;
+    if (arrBounds && arrBounds.isValid()) {
+      map.fitBounds(arrBounds, {
+        // Marge asymétrique : plus de marge à gauche qu'à droite pour décaler
+        // la carte légèrement vers la droite.
+        paddingTopLeft:     [140, 20],
+        paddingBottomRight: [20, 20]
+      });
+      return;
+    }
+  }
+
   const tempLayer = L.geoJSON({
     type: 'FeatureCollection',
     features: currentFeatures
@@ -438,7 +472,7 @@ function fitMapToResults() {
   });
 
   const bounds = tempLayer.getBounds();
-  
+
   if (bounds.isValid()) {
     map.fitBounds(bounds, {
       padding: [40, 40], // Marge en pixels autour des éléments

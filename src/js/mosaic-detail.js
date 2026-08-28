@@ -82,6 +82,45 @@ function dateIndicative(data) {
   return [...new Set(parts)].join(' · ');
 }
 
+/* ─── INFOBULLES ACCESSIBLES ─────────────────────────────────────────────
+ * Motif WAI-ARIA APG « tooltip » : déclenchée au survol ET au focus clavier
+ * (donc joignable au Tab), masquée à la perte de focus / sortie de survol /
+ * Échap — aucune information n'est donc réservée à la souris (RGAA 12.9). */
+let tooltipIdSeq = 0;
+
+function attachTooltip(el, text) {
+  const id = `tooltip-${++tooltipIdSeq}`;
+  el.classList.add('has-tooltip');
+  el.tabIndex = 0;
+  el.setAttribute('aria-describedby', id);
+  // Nom accessible figé sur le seul libellé visible : la bulle, ajoutée
+  // juste après comme enfant (pour l'ancrage CSS), ne doit pas se retrouver
+  // absorbée dans le nom au lieu de rester une description à part — sans
+  // quoi un lecteur d'écran risque de l'annoncer deux fois.
+  el.setAttribute('aria-label', el.textContent.trim());
+
+  const bubble = document.createElement('span');
+  bubble.className = 'tooltip';
+  bubble.id = id;
+  bubble.setAttribute('role', 'tooltip');
+  bubble.textContent = text;
+  el.appendChild(bubble);
+
+  const show = () => el.classList.add('tooltip-visible');
+  const hide = () => el.classList.remove('tooltip-visible');
+  el.addEventListener('mouseenter', show);
+  el.addEventListener('mouseleave', hide);
+  el.addEventListener('focus', show);
+  el.addEventListener('blur', hide);
+  el.addEventListener('keydown', e => { if (e.key === 'Escape') hide(); });
+}
+
+const TOOLTIP_DATE_INDICATIVE =
+  "Les dates peuvent correspondre à la date de début de réalisation, à des aménagements majeurs ou à des éléments particuliers et ne couvrent pas toujours l'ensemble de l'histoire du bâtiment.";
+
+const TOOLTIP_PERSONNES =
+  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.";
+
 function renderMosaicInfo(data) {
   const host = document.getElementById('md-info');
   if (!host) return;
@@ -103,19 +142,22 @@ function renderMosaicInfo(data) {
   // manquante : la fiche garde la même ossature d'un bâtiment à l'autre.
   const cells = [
     ['Ensemble',        data.ensemble],
-    ['Date indicative', dateIndicative(data)],
+    ['Date indicative <br> de construction', dateIndicative(data), 'date-indicative'],
     ['Arrondissement',  data.arrondissement ? ordinalArr(Number(data.arrondissement)) : null],
     ['Adresse',         addrText]
   ];
 
   const grid = document.createElement('div');
   grid.className = 'info-meta-grid';
-  grid.innerHTML = cells.map(([label, value]) => `
+  grid.innerHTML = cells.map(([label, value, key]) => `
     <div class="info-meta-cell">
-      <span class="info-meta-label">${label}</span>
+      <span class="info-meta-label"${key ? ` data-tooltip-key="${key}"` : ''}>${label}</span>
       <span class="info-meta-value">${value || '-'}</span>
     </div>`).join('');
   host.appendChild(grid);
+
+  const dateLabel = grid.querySelector('[data-tooltip-key="date-indicative"]');
+  if (dateLabel) attachTooltip(dateLabel, TOOLTIP_DATE_INDICATIVE);
 
   renderMosaicPersonnes(host, data);
 }
@@ -127,10 +169,11 @@ function renderMosaicPersonnes(host, data) {
   const label = document.createElement('h3');
   label.className   = 'md-section-title';
 
-  if (label) {
-    const wordPersonne = personnes.length > 1 ? 'Architectes & Artistes' : 'Architecte & Artiste';
-    label.textContent = `${wordPersonne}`;
-  }
+  const wordPersonne = personnes.length > 1 ? 'Architectes & Artistes' : 'Architecte & Artiste';
+  const labelText = document.createElement('span');
+  labelText.textContent = wordPersonne;
+  attachTooltip(labelText, TOOLTIP_PERSONNES);
+  label.appendChild(labelText);
 
   host.appendChild(label);
 

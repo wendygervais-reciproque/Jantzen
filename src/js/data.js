@@ -261,16 +261,6 @@ function personneLocalThumbUrl(media) {
   return `/public/data/thumb_jpg/${decodedFilename}`;
 }
 
-function personneLocalFullImageUrl(media) {
-  if (!media) return null;
-
-  // Décode les caractères encodés (ex: %20 → espace)
-  const decodedFilename = decodeURIComponent(media);
-
-  // Construit le chemin local
-  return `/public/data/media_jpg/${decodedFilename}`;
-}
-
 /** Bascule .jpg → .JPG sur une image dont le chargement a échoué. */
 function retryUppercaseJpg(imgEl) {
   if (imgEl.src.endsWith('.JPG')) return false;

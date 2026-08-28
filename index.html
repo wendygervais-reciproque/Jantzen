@@ -70,19 +70,19 @@
   <!-- ── FOND : carte ou mosaïque ── -->
   <main id="stage">
     <div id="map" role="application" aria-label="Carte interactive de Paris"></div>
-    <div id="mosaic" hidden aria-label="Mosaïque des bâtiments"></div>
+    <div id="mosaic" role="region" hidden aria-label="Mosaïque des bâtiments"></div>
     <p id="stage-empty" hidden aria-live="polite">Aucun résultat.<br>Modifiez vos critères de recherche.</p>
   </main>
 
   <!-- ── MARQUE + À PROPOS ── -->
   <nav id="brand-bar" aria-label="Navigation principale">
-    <a href="" id="brand-home">DEV - 27/08/2026 - 16h45</a>
+    <h1 id="brand-heading"><a href="" id="brand-home">DEV - 27/08/2026 - 16h45</a></h1>
     <span class="brand-sep" aria-hidden="true"></span>
     <a href="#" id="brand-about">À propos</a>
   </nav>
 
   <!-- ── RECHERCHE ── -->
-  <div id="search-bar">
+  <div id="search-bar" role="search">
     <svg class="icon" aria-hidden="true"><use href="#i-search"/></svg>
     <input type="search" id="search-input"
            placeholder="Nom, adresse, élément architectural…"
@@ -104,10 +104,10 @@
   </div>
 
   <!-- ── FILTRES ── -->
-  <div id="filters-panel" aria-label="Filtres">
+  <div id="filters-panel" role="region" aria-label="Filtres">
     <div id="filters-header">
       <div id="filters-header-top">
-        <span id="filters-title">Filtres</span>
+        <h2 id="filters-title">Filtres</h2>
         <div id="filters-header-right">
           <span id="search-results-count" aria-live="polite"></span>
           <button id="filters-toggle" aria-label="Afficher/Masquer les filtres" aria-expanded="true">
@@ -121,12 +121,14 @@
 
       <div class="filter-section">
         <div class="filter-section-sentinel" aria-hidden="true"></div>
-        <button class="filter-section-header" onclick="toggleFilterSection(this)" aria-expanded="false" aria-label="Section de filtre : Arrondissement">
-          <span class="filter-section-label">Arrondissements</span>
-          <span class="filter-section-ctrl">
-            <svg class="icon filter-section-arrow" aria-hidden="true"><use href="#i-chevron"/></svg>
-          </span>
-        </button>
+        <h3 class="filter-section-heading">
+          <button class="filter-section-header" onclick="toggleFilterSection(this)" aria-expanded="false" aria-label="Section de filtre : Arrondissement">
+            <span class="filter-section-label">Arrondissements</span>
+            <span class="filter-section-ctrl">
+              <svg class="icon filter-section-arrow" aria-hidden="true"><use href="#i-chevron"/></svg>
+            </span>
+          </button>
+        </h3>
         <div class="filter-section-body">
           <div class="filter-group">
             <div id="arr-chips" class="filter-chips" ></div>
@@ -136,12 +138,14 @@
 
       <div class="filter-section">
         <div class="filter-section-sentinel" aria-hidden="true"></div>
-        <button class="filter-section-header" onclick="toggleFilterSection(this)" aria-expanded="false" aria-label="Section de filtre : Temporalité">
-          <span class="filter-section-label">Périodes</span>
-          <span class="filter-section-ctrl">
-            <svg class="icon filter-section-arrow" aria-hidden="true"><use href="#i-chevron"/></svg>
-          </span>
-        </button>
+        <h3 class="filter-section-heading">
+          <button class="filter-section-header" onclick="toggleFilterSection(this)" aria-expanded="false" aria-label="Section de filtre : Temporalité">
+            <span class="filter-section-label">Périodes</span>
+            <span class="filter-section-ctrl">
+              <svg class="icon filter-section-arrow" aria-hidden="true"><use href="#i-chevron"/></svg>
+            </span>
+          </button>
+        </h3>
         <div class="filter-section-body">
           <div id="date-filter">
             <div id="date-chips-container" class="thes-terms"></div>
@@ -151,12 +155,14 @@
 
       <div class="filter-section">
         <div class="filter-section-sentinel" aria-hidden="true"></div>
-        <button class="filter-section-header" onclick="toggleFilterSection(this)" aria-expanded="false" aria-label="Section de filtre : Thésaurus (Index Jantzen)">
-          <span class="filter-section-label">Éléments architecturaux</span>
-          <span class="filter-section-ctrl">
-            <svg class="icon filter-section-arrow" aria-hidden="true"><use href="#i-chevron"/></svg>
-          </span>
-        </button>
+        <h3 class="filter-section-heading">
+          <button class="filter-section-header" onclick="toggleFilterSection(this)" aria-expanded="false" aria-label="Section de filtre : Thésaurus (Index Jantzen)">
+            <span class="filter-section-label">Éléments architecturaux</span>
+            <span class="filter-section-ctrl">
+              <svg class="icon filter-section-arrow" aria-hidden="true"><use href="#i-chevron"/></svg>
+            </span>
+          </button>
+        </h3>
         <div class="filter-section-body">
           <div class="thes-search">
             <svg class="icon" aria-hidden="true"><use href="#i-search"/></svg>
@@ -178,12 +184,14 @@
 
       <div class="filter-section">
         <div class="filter-section-sentinel" aria-hidden="true"></div>
-        <button class="filter-section-header" onclick="toggleFilterSection(this)" aria-expanded="false" aria-label="Section de filtre : Architectes">
-          <span class="filter-section-label">Architectes & Artistes</span>
-          <span class="filter-section-ctrl">
-            <svg class="icon filter-section-arrow" aria-hidden="true"><use href="#i-chevron"/></svg>
-          </span>
-        </button>
+        <h3 class="filter-section-heading">
+          <button class="filter-section-header" onclick="toggleFilterSection(this)" aria-expanded="false" aria-label="Section de filtre : Architectes">
+            <span class="filter-section-label">Architectes & Artistes</span>
+            <span class="filter-section-ctrl">
+              <svg class="icon filter-section-arrow" aria-hidden="true"><use href="#i-chevron"/></svg>
+            </span>
+          </button>
+        </h3>
         <div class="filter-section-body">
           <div class="thes-search">
             <svg class="icon" aria-hidden="true"><use href="#i-search"/></svg>
@@ -264,7 +272,7 @@
 </div>
 
 <!-- ── PAGES STATIQUES ── -->
-<div id="page-overlay" role="dialog" aria-modal="true" aria-hidden="true" hidden>
+<div id="page-overlay" role="dialog" aria-modal="true" aria-labelledby="page-overlay-title" aria-hidden="true" hidden>
   <header id="page-overlay-header">
     <span id="page-overlay-title"></span>
     <button id="page-overlay-close" aria-label="Fermer">

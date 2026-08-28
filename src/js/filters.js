@@ -562,7 +562,9 @@ function resetAllFilters() {
 /* ─── ACCORDÉON ─────────────────────────────────────────────────────────── */
 
 function toggleFilterSection(btn) {
-  const body = btn.nextElementSibling;
+  // Le bouton est enveloppé dans un <h3> (hiérarchie de titres, RGAA 9.1) :
+  // le frère direct à considérer est celui du <h3>, pas celui du bouton.
+  const body = (btn.closest('h3') || btn).nextElementSibling;
   if (!body) return;
   const isOpen = body.classList.toggle('open');
   btn.setAttribute('aria-expanded', String(isOpen));
@@ -583,7 +585,10 @@ function initStickyFilterHeaders() {
 
   const observer = new IntersectionObserver(entries => {
     entries.forEach(entry => {
-      const header = entry.target.nextElementSibling;
+      // Idem : l'en-tête réel (.filter-section-header) est un petit-fils du
+      // frère direct de la sentinelle, imbriqué dans le <h3> englobant.
+      const wrapper = entry.target.nextElementSibling;
+      const header  = wrapper?.querySelector('.filter-section-header') || wrapper;
       if (header) header.classList.toggle('is-stuck', entry.intersectionRatio < 1);
     });
   }, { root, threshold: [1] });
