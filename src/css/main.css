@@ -178,7 +178,12 @@ button { font-family: inherit; }
   border-radius: var(--radius-full);
   box-shadow: var(--elevation-floating);
 }
-.view-btn {
+/* #filters-fab (bouton flottant filtres, mobile/tablette) partage ce style à
+   l'identique — même composant visuel que .view-btn (3 états Figma
+   Default/Hover/Activated = control-background-default/hover/selected) —
+   sans en partager la classe, pour ne pas hériter du handler de bascule de
+   vue de bindViewToggle() (`document.querySelectorAll('.view-btn')`). */
+.view-btn, #filters-fab {
   width: 48px; height: 48px;
   display: flex; align-items: center; justify-content: center;
   border: none; border-radius: var(--radius-full);
@@ -187,8 +192,8 @@ button { font-family: inherit; }
   cursor: pointer;
   transition: background 0.15s, color 0.15s;
 }
-.view-btn:hover { background: var(--control-background-hover); }
-.view-btn.is-active {
+.view-btn:hover, #filters-fab:hover { background: var(--control-background-hover); }
+.view-btn.is-active, #filters-fab.is-active {
   background: var(--control-background-selected);
   color: var(--control-content-selected);
 }
@@ -352,8 +357,9 @@ button { font-family: inherit; }
   flex: 1; overflow-y: auto;
   padding: 0;
 }
-#mosaic-detail-close {
-  position: absolute; top: var(--component-12); right: var(--component-12); z-index: 21;
+/* Bouton « fermer » tertiaire circulaire de 32 px, partagé par toutes les
+   modales de l'app (fiche bâtiment, pages statiques, filtres en mobile). */
+.modal-close-btn {
   width: 32px; height: 32px;
   display: flex; align-items: center; justify-content: center;
   background: var(--button-tertiary-background-default);
@@ -362,10 +368,13 @@ button { font-family: inherit; }
   color: var(--button-tertiary-content-default); cursor: pointer;
   transition: background 0.15s, border-color 0.15s, color 0.15s;
 }
-#mosaic-detail-close:hover {
+.modal-close-btn:hover {
   background: var(--button-tertiary-background-hover);
   border-color: var(--button-tertiary-border-hover);
   color: var(--button-tertiary-content-hover);
+}
+#mosaic-detail-close {
+  position: absolute; top: var(--component-12); right: var(--component-12); z-index: 21;
 }
 
 /* Titre de section (« Architectes & Artistes », « Photographie(s) de… ») :
@@ -406,6 +415,21 @@ button { font-family: inherit; }
   position: sticky; top: 0; z-index: 2;
   background: var(--surface-level-01);
 }
+.md-sticky-sentinel { height: 1px; margin-bottom: -1px; }
+/* Rappel du nom du bâtiment : masqué tant que le titre de la fiche (plus
+   haut, .md-title) reste visible ; affiché seulement une fois l'en-tête
+   réellement figé en haut du volet, pour ne pas perdre le contexte pendant
+   le défilement d'une longue galerie (cf. .md-sticky-sentinel, observée en
+   JS — même motif que .filter-section-sentinel/.is-stuck). */
+#md-photos-context {
+  display: none;
+  padding: var(--component-8) var(--component-20) 0;
+  font: var(--text-interface-overline);
+  letter-spacing: var(--text-interface-overline-ls);
+  text-transform: uppercase;
+  color: var(--text-secondary);
+}
+#md-photos-header.is-stuck #md-photos-context { display: block; }
 
 /* Galerie : mosaïque justifiée — des rangées de hauteur égale qui remplissent
    toute la largeur, sans blancs, en préservant le ratio de chaque photo. Les
@@ -1181,21 +1205,6 @@ button { font-family: inherit; }
   line-height: var(--lh-120);
   color: var(--text-primary);
 }
-#page-overlay-close {
-  width: 32px; height: 32px;
-  display: flex; align-items: center; justify-content: center;
-  background: var(--button-tertiary-background-default);
-  border: 1px solid var(--button-tertiary-border-default);
-  border-radius: var(--radius-badge);
-  color: var(--button-tertiary-content-default);
-  cursor: pointer;
-  transition: border-color 0.15s, color 0.15s, background 0.15s;
-}
-#page-overlay-close:hover {
-  border-color: var(--button-tertiary-border-hover);
-  color: var(--button-tertiary-content-hover);
-  background: var(--button-tertiary-background-hover);
-}
 
 #page-overlay-tabs {
   display: flex; gap: var(--component-gap-24);
@@ -1258,15 +1267,125 @@ button { font-family: inherit; }
 }
 
 /* ─── ADAPTATIONS ────────────────────────────────────────────────────────── */
+/* Chrome mobile/tablette (≤900px) : masqués par défaut plutôt que via
+   l'attribut `hidden` (son reset `[hidden]{display:none!important}`
+   empêcherait de les réafficher en media query sans dupliquer le
+   !important) ; placés ici, après leurs règles de composant respectives
+   (`.view-btn, #filters-fab` et `.modal-close-btn`), pour l'emporter dans
+   la cascade à spécificité égale. */
+#filters-fab, #filters-close { display: none; }
+
 @media (max-width: 1279px) {
   #filters-panel { width: 240px; }
 }
 
 @media (max-width: 900px) {
-  #brand-bar { top: 16px; left: 16px; gap: var(--component-gap-12); }
+  /* ── EN-TÊTE SUR DEUX RANGÉES ────────────────────────────────────────────
+     Rangée 1 : marque + à propos (inchangée, juste resserrée).
+     Rangée 2 : recherche + bascule carte/mosaïque, côte à côte — calcul CSS
+     pur (pas de wrapper ni de JS) : 108px est la largeur connue de
+     #view-toggle (2 × 48px de bouton + gouttières, cf. règle desktop), donc
+     la recherche peut occuper exactement l'espace restant via `right`. */
+  /* En-tête conventionnel : plein largeur, collé au bord, hauteur réduite
+     (48 au lieu de 56) — remplace la carte flottante desktop. */
+  #brand-bar {
+    top: 0; left: 0; right: 0;
+    height: 48px;
+    border-radius: 0; border-left: none; border-right: none; border-top: none;
+    box-shadow: none;
+    gap: var(--component-gap-12);
+  }
   #brand-bar a { font-size: var(--text-body-base-size); }
-  #search-bar { top: 76px; width: calc(100vw - 32px); height: 48px; }
-  #filters-panel { top: 136px; max-height: calc(100vh - 400px); }
-  #mosaic { padding: 136px var(--component-16) 320px; }
-  .leaflet-bottom.leaflet-right { margin-bottom: 250px; }
+
+  /* Rangée 2 : recherche + bascule carte/mosaïque, côte à côte, même hauteur
+     (48px de part et d'autre — .view-btn passe de 48 à 40px ci-dessous, d'où
+     92px = 2×40 + gouttières/paddings de #view-toggle inchangés). Calcul CSS
+     pur (pas de wrapper ni de JS) : la recherche occupe l'espace restant via
+     `right`, connaissant la largeur fixe de #view-toggle. */
+  #search-bar {
+    top: 60px; left: var(--screen-inset);
+    right: calc(92px + var(--screen-inset) + var(--component-gap-8));
+    width: auto; height: 48px;
+    transform: none;
+  }
+  #view-toggle { top: 60px; }
+  .view-btn { width: 40px; height: 40px; }
+
+  /* ── CONTRÔLE DE ZOOM LEAFLET ──────────────────────────────────────────────
+     Déjà à screen-inset du bord (règle desktop, cf. plus haut) — même
+     distance que #filters-fab ci-dessous. Seule la taille des pastilles
+     change, pour rester proportionné au reste du chrome mobile. */
+  .leaflet-bar.leaflet-control-zoom a.leaflet-control-zoom-in,
+  .leaflet-bar.leaflet-control-zoom a.leaflet-control-zoom-out {
+    width: 32px; height: 32px;
+  }
+
+  /* ── BOUTON FLOTTANT « FILTRES » ────────────────────────────────────────── */
+  #filters-fab {
+    display: flex;
+    position: fixed; bottom: var(--screen-inset); left: var(--screen-inset);
+    z-index: 500;
+    box-shadow: var(--elevation-floating);
+  }
+
+  /* ── FILTRES EN MODALE PLEIN ÉCRAN ────────────────────────────────────────
+     #filters-toggle (repli en place) n'a de sens qu'en desktop ; sur cette
+     largeur la fermeture est une vraie fermeture de modale, portée par le
+     nouveau #filters-close. */
+  #filters-toggle { display: none; }
+  #filters-close { display: flex; }
+  #filters-panel {
+    display: none;
+    position: fixed; inset: 0;
+    width: auto; max-height: none;
+    border-radius: 0; border: none; box-shadow: none;
+  }
+  #filters-panel.filters-mobile-open { display: flex; z-index: 900; }
+  #filters-body { flex: 1 1 auto; }
+
+  /* ── FICHE BÂTIMENT EN MODALE PLEIN ÉCRAN ─────────────────────────────────
+     Le redimensionnement n'a pas de sens en plein écran : la tirette est
+     masquée (son JS pointer n'a rien à intercepter sur un élément caché). */
+  #mosaic-detail {
+    position: fixed; inset: 0;
+    width: auto;
+    border-radius: 0; border: none; box-shadow: none;
+    z-index: 900;
+  }
+  #mosaic-detail-handle { display: none; }
+
+  /* ── GRILLE MOSAÏQUE ───────────────────────────────────────────────────────
+     Les réservations de marge pour panneau de filtres/fiche bâtiment ancrés
+     n'ont plus lieu d'être : ces deux panneaux sont maintenant des overlays
+     plein écran, masqués par défaut plutôt que dockés en permanence.
+     Règle posée sur `.is-mosaic #mosaic` (et non sur `#mosaic` seul) : c'est
+     le sélecteur qui porte déjà le raccourci `padding` en desktop
+     (main.css ~l.337) et il est plus spécifique — une règle sur `#mosaic`
+     seul ne l'aurait jamais emporté, quel que soit l'ordre des règles dans
+     le fichier (bug constaté : le bouton flottant mordait sur la dernière
+     rangée de cartes, faute de marge basse réellement appliquée). Bas :
+     assez pour dégager le bouton flottant filtres (48px + marge). */
+  .is-mosaic #mosaic { padding: 124px var(--screen-inset) 88px; }
+
+  /* ── ANIMATIONS D'APPARITION (filtres, fiche bâtiment) ────────────────────
+     Réservées à cette largeur : en desktop, ces panneaux restent des cartes
+     non modales dont l'apparition ne doit pas être ralentie. Se déclenche
+     naturellement au passage display:none → display:flex (ouverture),
+     sans logique JS de timing — seule l'apparition est animée, pas la
+     fermeture (fermeture instantanée, comme avant). */
+  @media (prefers-reduced-motion: no-preference) {
+    @keyframes modal-slide-up {
+      from { transform: translateY(24px); opacity: 0; }
+      to   { transform: translateY(0);    opacity: 1; }
+    }
+    #filters-panel.filters-mobile-open,
+    #mosaic-detail:not([hidden]) {
+      animation: modal-slide-up 0.25s ease-out;
+    }
+  }
+
+  /* ── TITRES RÉDUITS ────────────────────────────────────────────────────── */
+  #filters-title { font: var(--text-body-base-bold); }
+  .md-title      { font: var(--text-title-h3); }
+  .md-section-title { font: var(--text-title-h4); }
 }

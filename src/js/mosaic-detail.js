@@ -27,12 +27,26 @@ let mdBatId       = null;   // pour ignorer une réponse de loadPhotoRatios() ob
 
 /* ─── OUVERTURE / FERMETURE ─────────────────────────────────────────────── */
 
+/* En dessous de ce seuil, la fiche bâtiment n'est plus un panneau flottant
+   non modal (carte docké, redimensionnable, carte/mosaïque restent
+   utilisables derrière) mais une modale plein écran — cf. main.css. */
+function isMobileLayout() {
+  return window.matchMedia('(max-width: 900px)').matches;
+}
+
 async function openMosaicDetail(id_bat) {
   const panel = document.getElementById('mosaic-detail');
   if (!panel) return;
 
   panel.hidden = false;
   document.getElementById('app')?.classList.add('has-detail');
+
+  if (isMobileLayout()) {
+    panel.setAttribute('role', 'dialog');
+    panel.setAttribute('aria-modal', 'true');
+    if (typeof setAppSiblingsInert === 'function') setAppSiblingsInert(panel, true);
+    document.getElementById('mosaic-detail-close')?.focus();
+  }
 
   const info   = document.getElementById('md-info');
   const photos = document.getElementById('md-photos');
@@ -59,7 +73,17 @@ async function openMosaicDetail(id_bat) {
 
 function closeMosaicDetail() {
   const panel = document.getElementById('mosaic-detail');
-  if (panel) panel.hidden = true;
+  if (panel) {
+    panel.hidden = true;
+    // Vérifié via l'attribut plutôt que re-testé via isMobileLayout() : reste
+    // cohérent même si la fenêtre a changé de largeur pendant l'ouverture —
+    // on ne défait que ce que l'ouverture a effectivement posé.
+    if (panel.hasAttribute('aria-modal')) {
+      panel.removeAttribute('role');
+      panel.removeAttribute('aria-modal');
+      if (typeof setAppSiblingsInert === 'function') setAppSiblingsInert(panel, false);
+    }
+  }
   document.getElementById('app')?.classList.remove('has-detail');
   teardownMosaicLayout();
   mdPhotos = [];
@@ -279,8 +303,9 @@ let mosaicRelayout = null;   // fonction de recalcul courante (ou null)
 let mosaicRafId    = 0;      // throttle rAF des rafales de redimensionnement
 
 async function renderMosaicPhotos(data) {
-  const header = document.getElementById('md-photos-header');
-  const label  = document.getElementById('md-photos-label');
+  const header  = document.getElementById('md-photos-header');
+  const label   = document.getElementById('md-photos-label');
+  const context = document.getElementById('md-photos-context');
 
   mdPhotos = Array.isArray(data.photos) ? data.photos : [];
   mdBatId  = data.id_bat;
@@ -290,6 +315,7 @@ async function renderMosaicPhotos(data) {
     const wordPhoto = mdPhotos.length > 1 ? 'Photographies' : 'Photographie';
     label.textContent = `${wordPhoto} d’Eric Jantzen`;
   }
+  if (context) context.textContent = data.libelle || '';
 
   buildMdElementGroups();   // puces par catégorie, à partir des termes des photos
   await renderMdGallery();
@@ -620,6 +646,33 @@ function bindMosaicDetail() {
     { cssVar: '--md-w', min: MD_MIN, max: MD_MAX, step: PANEL_STEP, invert: false });
 
   document.getElementById('md-elem-toggle')?.addEventListener('click', toggleMdElementGroups);
+
+  initStickyPhotosHeader();
+}
+
+/**
+ * Détecte l'instant où #md-photos-header se colle réellement en haut du
+ * volet (par opposition à sa position normale dans le flux, sous le titre,
+ * ou pas encore atteinte plus bas dans une fiche pas encore scrollée) pour
+ * n'afficher #md-photos-context (rappel du nom du bâtiment) que là — même
+ * motif que initStickyFilterHeaders (filters.js) : une sentinelle de hauteur
+ * nulle juste avant l'en-tête sort du viewport du volet exactement quand
+ * celui-ci se fige. `intersectionRatio < 1` seul ne suffit pas : c'est vrai
+ * aussi bien quand la sentinelle est masquée par le bord HAUT (fixé) que
+ * quand elle n'est simplement pas encore atteinte, plus bas, hors du volet
+ * (fiche non scrollée) — d'où la comparaison de position avec `rootBounds`.
+ */
+function initStickyPhotosHeader() {
+  const root     = document.getElementById('mosaic-detail-body');
+  const sentinel = document.querySelector('.md-sticky-sentinel');
+  const header   = document.getElementById('md-photos-header');
+  if (!root || !sentinel || !header || typeof IntersectionObserver === 'undefined') return;
+
+  new IntersectionObserver(([entry]) => {
+    const stuck = entry.intersectionRatio < 1
+      && entry.boundingClientRect.top < (entry.rootBounds?.top ?? 0);
+    header.classList.toggle('is-stuck', stuck);
+  }, { root, threshold: [1] }).observe(sentinel);
 }
 
 /**

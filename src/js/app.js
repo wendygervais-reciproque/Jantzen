@@ -39,6 +39,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   bindNavigation();
   bindViewToggle();
   bindFiltersPanel();
+  bindFiltersFab();
   bindLightbox();
   bindMosaicDetail();
   bindKeyboard();
@@ -115,6 +116,21 @@ function setBackgroundInert(isInert) {
   app.setAttribute('aria-hidden', String(isInert));
 }
 
+/* Variante pour les modales mobiles (filtres, fiche bâtiment) : contrairement
+   aux pages statiques et à la visionneuse, ces deux-là vivent À L'INTÉRIEUR
+   de #app plutôt qu'à côté — rendre #app inert les rendrait inertes eux
+   aussi. On inertise donc tous les autres enfants de #app, en épargnant
+   celui qui fait office de modale. */
+function setAppSiblingsInert(exceptEl, isInert) {
+  const app = document.getElementById('app');
+  if (!app) return;
+  Array.from(app.children).forEach(child => {
+    if (child === exceptEl) return;
+    child.toggleAttribute('inert', isInert);
+    child.setAttribute('aria-hidden', String(isInert));
+  });
+}
+
 /* ─── NAVIGATION (marque, à propos, pages) ──────────────────────────────── */
 
 function bindNavigation() {
@@ -175,6 +191,46 @@ function bindFiltersPanel() {
   });
 }
 
+/* ─── FILTRES EN MODALE (mobile/tablette, ≤900px) ─────────────────────────
+ * En dessous du seuil, #filters-panel n'est plus une carte repliable mais
+ * une modale plein écran, ouverte par le bouton flottant #filters-fab et
+ * fermée par #filters-close (bouton icône « fermer » identique à celui des
+ * fiches bâtiment) — voir la media query dans main.css pour la présentation. */
+function bindFiltersFab() {
+  document.getElementById('filters-fab')?.addEventListener('click', openFiltersMobile);
+  document.getElementById('filters-close')?.addEventListener('click', closeFiltersMobile);
+}
+
+function openFiltersMobile() {
+  const panel = document.getElementById('filters-panel');
+  const fab   = document.getElementById('filters-fab');
+  if (!panel) return;
+  panel.classList.add('filters-mobile-open');
+  panel.setAttribute('role', 'dialog');
+  panel.setAttribute('aria-modal', 'true');
+  fab?.classList.add('is-active');
+  fab?.setAttribute('aria-expanded', 'true');
+  setAppSiblingsInert(panel, true);
+  document.getElementById('filters-close')?.focus();
+}
+
+function closeFiltersMobile() {
+  const panel = document.getElementById('filters-panel');
+  const fab   = document.getElementById('filters-fab');
+  if (!panel?.classList.contains('filters-mobile-open')) return;
+  panel.classList.remove('filters-mobile-open');
+  panel.setAttribute('role', 'region');
+  panel.removeAttribute('aria-modal');
+  fab?.classList.remove('is-active');
+  fab?.setAttribute('aria-expanded', 'false');
+  setAppSiblingsInert(panel, false);
+  fab?.focus();
+}
+
+function isFiltersMobileOpen() {
+  return !!document.getElementById('filters-panel')?.classList.contains('filters-mobile-open');
+}
+
 /* ─── VISIONNEUSE PLEIN ÉCRAN ────────────────────────────────────────────── */
 
 function bindLightbox() {
@@ -194,6 +250,7 @@ function bindKeyboard() {
       if (isLightboxOpen())                                     return closeLightbox();
       if (mdPhotoFilter.size)                                   return clearMdElementFilter();
       if (document.querySelector('.thes-def'))                  return closeAllTermDefinitions();
+      if (isFiltersMobileOpen())               return closeFiltersMobile();
       if (isPageOpen())                        return closePage();
       if (selectedId !== null)                 return deselectBatiment();
       return;

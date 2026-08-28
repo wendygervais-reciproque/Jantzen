@@ -62,6 +62,10 @@
   <symbol id="i-drag" viewBox="0 0 24 24">
     <path d="M9 20C8.45 20 7.97917 19.8042 7.5875 19.4125C7.19583 19.0208 7 18.55 7 18C7 17.45 7.19583 16.9792 7.5875 16.5875C7.97917 16.1958 8.45 16 9 16C9.55 16 10.0208 16.1958 10.4125 16.5875C10.8042 16.9792 11 17.45 11 18C11 18.55 10.8042 19.0208 10.4125 19.4125C10.0208 19.8042 9.55 20 9 20ZM15 20C14.45 20 13.9792 19.8042 13.5875 19.4125C13.1958 19.0208 13 18.55 13 18C13 17.45 13.1958 16.9792 13.5875 16.5875C13.9792 16.1958 14.45 16 15 16C15.55 16 16.0208 16.1958 16.4125 16.5875C16.8042 16.9792 17 17.45 17 18C17 18.55 16.8042 19.0208 16.4125 19.4125C16.0208 19.8042 15.55 20 15 20ZM9 14C8.45 14 7.97917 13.8042 7.5875 13.4125C7.19583 13.0208 7 12.55 7 12C7 11.45 7.19583 10.9792 7.5875 10.5875C7.97917 10.1958 8.45 10 9 10C9.55 10 10.0208 10.1958 10.4125 10.5875C10.8042 10.9792 11 11.45 11 12C11 12.55 10.8042 13.0208 10.4125 13.4125C10.0208 13.8042 9.55 14 9 14ZM15 14C14.45 14 13.9792 13.8042 13.5875 13.4125C13.1958 13.0208 13 12.55 13 12C13 11.45 13.1958 10.9792 13.5875 10.5875C13.9792 10.1958 14.45 10 15 10C15.55 10 16.0208 10.1958 16.4125 10.5875C16.8042 10.9792 17 11.45 17 12C17 12.55 16.8042 13.0208 16.4125 13.4125C16.0208 13.8042 15.55 14 15 14ZM9 8C8.45 8 7.97917 7.80417 7.5875 7.4125C7.19583 7.02083 7 6.55 7 6C7 5.45 7.19583 4.97917 7.5875 4.5875C7.97917 4.19583 8.45 4 9 4C9.55 4 10.0208 4.19583 10.4125 4.5875C10.8042 4.97917 11 5.45 11 6C11 6.55 10.8042 7.02083 10.4125 7.4125C10.0208 7.80417 9.55 8 9 8ZM15 8C14.45 8 13.9792 7.80417 13.5875 7.4125C13.1958 7.02083 13 6.55 13 6C13 5.45 13.1958 4.97917 13.5875 4.5875C13.9792 4.19583 14.45 4 15 4C15.55 4 16.0208 4.19583 16.4125 4.5875C16.8042 4.97917 17 5.45 17 6C17 6.55 16.8042 7.02083 16.4125 7.4125C16.0208 7.80417 15.55 8 15 8Z"/>
   </symbol>
+  <!-- Bouton flottant « Filtres » (mobile/tablette) : filter_alt du kit Figma. -->
+  <symbol id="i-filter" viewBox="0 0 28 28">
+    <path d="M12.8333 23.3333C12.5028 23.3333 12.2257 23.2215 12.0021 22.9979C11.7785 22.7743 11.6667 22.4972 11.6667 22.1667V15.1667L4.89999 6.53333C4.60832 6.14444 4.56457 5.73611 4.76874 5.30833C4.9729 4.88056 5.32776 4.66667 5.83332 4.66667H22.1667C22.6722 4.66667 23.0271 4.88056 23.2312 5.30833C23.4354 5.73611 23.3917 6.14444 23.1 6.53333L16.3333 15.1667V22.1667C16.3333 22.4972 16.2215 22.7743 15.9979 22.9979C15.7743 23.2215 15.4972 23.3333 15.1667 23.3333H12.8333ZM14 14.35L19.775 7H8.22499L14 14.35Z"/>
+  </symbol>
 
 </svg>
 
@@ -104,6 +108,15 @@
   </div>
 
   <!-- ── FILTRES ── -->
+  <!-- Déclencheur mobile/tablette (≤900px) : bouton icône flottant, remplace
+       #filters-toggle qui n'a de sens qu'en desktop (repli en place, pas
+       fermeture d'une modale). -->
+  <button id="filters-fab" type="button"
+          aria-haspopup="dialog" aria-controls="filters-panel"
+          aria-expanded="false" aria-label="Filtres">
+    <svg class="icon" aria-hidden="true"><use href="#i-filter"/></svg>
+  </button>
+
   <div id="filters-panel" role="region" aria-label="Filtres">
     <div id="filters-header">
       <div id="filters-header-top">
@@ -112,6 +125,9 @@
           <span id="search-results-count" aria-live="polite"></span>
           <button id="filters-toggle" aria-label="Afficher/Masquer les filtres" aria-expanded="true">
             <svg class="icon" aria-hidden="true"><use href="#i-minus"/></svg>
+          </button>
+          <button id="filters-close" class="modal-close-btn" type="button" aria-label="Fermer les filtres">
+            <svg class="icon" aria-hidden="true"><use href="#i-close"/></svg>
           </button>
         </div>
       </div>
@@ -216,12 +232,14 @@
 
   <!-- ── VOLET DÉTAIL BÂTIMENT (infos + photos) — carte et mosaïque ── -->
   <aside id="mosaic-detail" aria-label="Détail du bâtiment" hidden>
-    <button id="mosaic-detail-close" aria-label="Fermer la fiche">
+    <button id="mosaic-detail-close" class="modal-close-btn" aria-label="Fermer la fiche">
       <svg class="icon" aria-hidden="true"><use href="#i-close"/></svg>
     </button>
     <div id="mosaic-detail-body">
       <div id="md-info"></div>
+      <div class="md-sticky-sentinel" aria-hidden="true"></div>
       <div id="md-photos-header" hidden>
+        <p id="md-photos-context"></p>
         <h3 class="md-section-title" id="md-photos-label">Photographie(s)</h3>
         <button class="filter-section-header" id="md-elem-toggle"
                 aria-expanded="false" aria-controls="md-elem-groups">
@@ -273,7 +291,7 @@
 <div id="page-overlay" role="dialog" aria-modal="true" aria-labelledby="page-overlay-title" aria-hidden="true" hidden>
   <header id="page-overlay-header">
     <span id="page-overlay-title"></span>
-    <button id="page-overlay-close" aria-label="Fermer">
+    <button id="page-overlay-close" class="modal-close-btn" aria-label="Fermer">
       <svg class="icon" aria-hidden="true"><use href="#i-close"/></svg>
     </button>
   </header>

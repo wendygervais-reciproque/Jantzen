@@ -139,6 +139,14 @@ function initZoomControlAvoidance() {
   const GAP = 16; // === --screen-inset
 
   function update() {
+    // En dessous de ce seuil, #filters-panel est une modale plein écran (pas
+    // un panneau docké à éviter) : la garder dans ce calcul pousserait le
+    // contrôle de zoom hors écran dès qu'elle est ouverte.
+    if (window.matchMedia('(max-width: 900px)').matches) {
+      zoomEl.style.marginRight = '';
+      return;
+    }
+
     const zoomRect = zoomEl.getBoundingClientRect();
     if (zoomRect.width === 0) return; // carte masquée (vue mosaïque)
 
