@@ -16,7 +16,7 @@ let currentFeatures = []; // features actuellement affichées (après filtres)
 let currentMode = null;   // 'arr' | 'buildings'
 
 const ARR_ZOOM_THRESHOLD = 14; // zoom < seuil → vue arrondissements
-const MAX_ZOOM = 20;
+const MAX_ZOOM = 19;
 
 /* ─── DIMENSIONNEMENT DES GRAPPES ───────────────────────────────────────── */
 
@@ -83,7 +83,7 @@ function initMap() {
   map = L.map('map', {
      zoomControl: false, 
      minZoom: 11, 
-     maxZoom: 20, 
+     maxZoom: MAX_ZOOM, 
     zoomDelta: 0.5,
     zoomSnap: 0.5})
     .setView([48.5131, 2.8], 13);
