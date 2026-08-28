@@ -247,7 +247,7 @@ function personneThumbUrl(thumb) {
 
 function personneFullImageUrl(thumb) {
   if (!thumb) return null;
-  const parts = thumb.split('/').slice(0, 3);
+  const parts = thumb.split('/').slice(1, 4);
   return parts.length === 3 ? `${WIKIMEDIA_COMMONS}/${parts.join('/')}` : null;
 }
 

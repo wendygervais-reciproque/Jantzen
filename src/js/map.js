@@ -9,13 +9,14 @@ let map = null;
 let clusterGroup = null;
 let arrGeoLayer = null;   // L.geoJSON des tracés d'arrondissement
 let arrLabelGroup = null; // L.layerGroup des étiquettes (numéro + compteur)
+let isInitialLoad = true;
 const markerMap = {};     // id_bat → marker Leaflet (vue bâtiments)
 
 let currentFeatures = []; // features actuellement affichées (après filtres)
 let currentMode = null;   // 'arr' | 'buildings'
 
 const ARR_ZOOM_THRESHOLD = 14; // zoom < seuil → vue arrondissements
-const MAX_ZOOM = 16;
+const MAX_ZOOM = 20;
 
 /* ─── DIMENSIONNEMENT DES GRAPPES ───────────────────────────────────────── */
 
@@ -79,8 +80,13 @@ function buildClusterIcon(cluster) {
 }
 
 function initMap() {
-  map = L.map('map', { zoomControl: false, minZoom: 13, maxZoom: 20 })
-    .setView([48.858, 2.342], 13);
+  map = L.map('map', {
+     zoomControl: false, 
+     minZoom: 11, 
+     maxZoom: 20, 
+    zoomDelta: 0.5,
+    zoomSnap: 0.5})
+    .setView([48.5131, 2.8], 13);
 
   L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png?key=cb1_2bz2_1_6017a8eaf6b69e397bb0242b', {
     attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> © <a href="https://carto.com/attributions">CARTO</a>',
@@ -88,7 +94,10 @@ function initMap() {
     maxZoom: 19
   }).addTo(map);
 
-  L.control.zoom({ position: 'bottomright' }).addTo(map);
+  L.control.zoom({ position: 'bottomright',
+    zoomInDelta: 0.5,
+    zoomOutDelta: 0.5
+   }).addTo(map);
   initZoomControlAvoidance();
 
   clusterGroup = L.markerClusterGroup({
@@ -100,7 +109,7 @@ function initMap() {
     polygonOptions: { className: 'cluster-coverage' },
     maxClusterRadius: zoom => {
       if (zoom >= MAX_ZOOM) return 1;
-      if (zoom <= 13) return 130;
+      if (zoom <= 11) return 130;
       return 90;
     }
   });
@@ -152,10 +161,18 @@ function initZoomControlAvoidance() {
 
 /* ─── AIGUILLAGE DES MODES ──────────────────────────────────────────────── */
 
+ // À ajouter en haut de map.js avec les autres let
+
 function renderMapFeatures(features) {
   currentFeatures = features;
   applyMapMode(true);
-  fitMapToResults();
+
+  if (isInitialLoad) {
+    isInitialLoad = false; // Désactivé pour les recherches/filtres futurs
+    // On n'appelle PAS fitMapToResults() la toute première fois
+  } else {
+    fitMapToResults();
+  }
 }
 
 function applyMapMode(force) {

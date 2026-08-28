@@ -1079,6 +1079,14 @@ button { font-family: inherit; }
   color: var(--text-on-inverse);
   text-align: center;
 }
+
+/* Empêche la sélection et le drag-and-drop des images */
+#md-photos img,
+.lightbox img {
+  user-select: none;
+  -webkit-user-drag: none;
+  pointer-events: none; /* Attention : si tu mets pointer-events: none sur l'img, c'est le bouton parent qui capte les clics */
+}
 /* Rangée fixe sous la légende : indépendante de la largeur de l'image, qui
    varie avec son ratio (object-fit: contain) — les flèches ne se déplacent
    donc plus d'une photo à l'autre. */
