@@ -239,6 +239,7 @@ function getPersonne(id_archi) {
 }
 
 const WIKIMEDIA_COMMONS = 'https://upload.wikimedia.org/wikipedia/commons';
+const WIKIMEDIA_COMMONS_URL = 'https://commons.wikimedia.org/wiki/File:'
 
 /** Vignette (250px) d'une personne, à partir de sa propriété `thumb`. */
 function personneThumbUrl(thumb) {
@@ -247,7 +248,7 @@ function personneThumbUrl(thumb) {
 
 function personneFullImageUrl(thumb) {
   if (!thumb) return null;
-  const parts = thumb.split('/').slice(0, 3);
+  const parts = thumb.split('/').slice(1, 4);
   return parts.length === 3 ? `${WIKIMEDIA_COMMONS}/${parts.join('/')}` : null;
 }
 
@@ -269,6 +270,11 @@ function personneLocalFullImageUrl(media) {
 
   // Construit le chemin local
   return `/public/data/media_jpg/${decodedFilename}`;
+}
+
+function personneWikimediaFullImageUrl(media) {
+  if (!media) return null;
+  return `${WIKIMEDIA_COMMONS_URL}${media}`;
 }
 
 /** Bascule .jpg → .JPG sur une image dont le chargement a échoué. */

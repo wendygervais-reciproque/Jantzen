@@ -87,8 +87,8 @@ function buildPersonCard(entry, personne) {
 }
 
 /**
- * Vignette 56 × 56 : la photo si `media` est renseigné (bouton, ouvre la
- * visionneuse), sinon — ou si son chargement échoue — une silhouette de
+ * Vignette 56 × 56 : la photo si `media` est renseigné (bouton, ouvre le
+ * lien sur Wikidata), sinon — ou si son chargement échoue — une silhouette de
  * repli statique, pour qu'une carte personne ait toujours sa vignette.
  */
 function buildPersonThumb(personne, nom) {
@@ -116,10 +116,8 @@ function buildPersonThumb(personne, nom) {
     ? wikidataRef.url(personne.wikidata)
     : null;
 
-  thumbBtn.onclick = () => openPersonLightbox(personneLocalFullImageUrl(personne.media), {
-    name: nom,
-    wikidataUrl
-  });
+  console.log(personneWikimediaFullImageUrl(personne.media))
+  thumbBtn.onclick = () => open((personneWikimediaFullImageUrl(personne.media)));
 
   return thumbBtn;
 }
