@@ -79,8 +79,8 @@ function buildClusterIcon(cluster) {
 }
 
 function initMap() {
-  map = L.map('map', { zoomControl: false, minZoom: 13, maxZoom: 20 })
-    .setView([48.858, 2.342], 13);
+  map = L.map('map', { zoomControl: false, minZoom: 12, maxZoom: 20 })
+    .setView([48.5131, 2.50], 13);
 
   L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png?key=cb1_2bz2_1_6017a8eaf6b69e397bb0242b', {
     attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> © <a href="https://carto.com/attributions">CARTO</a>',
@@ -100,7 +100,7 @@ function initMap() {
     polygonOptions: { className: 'cluster-coverage' },
     maxClusterRadius: zoom => {
       if (zoom >= MAX_ZOOM) return 1;
-      if (zoom <= 13) return 130;
+      if (zoom <= 11) return 130;
       return 90;
     }
   });

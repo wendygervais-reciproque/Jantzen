@@ -203,50 +203,9 @@ function buildTermRow(entry) {
 /* ─── DYNAMISATION ──────────────────────────────────────────── */
 
 function updateThesaurusData(featuresActuelles) {
-  let featuresSansThesaurus = ALL_FEATURES;
-
-  // 1. Recherche
-  if (typeof searchQuery !== 'undefined' && searchQuery.length >= 2) {
-    const ids = lunrSearch(searchQuery);
-    featuresSansThesaurus = featuresSansThesaurus.filter(f => 
-      ids.has(String(f.properties.id_bat)) || ids.has(Number(f.properties.id_bat))
-    );
-  }
-
-  // 2. Arrondissements
-  if (activeFilters.arrondissements.size > 0) {
-    featuresSansThesaurus = featuresSansThesaurus.filter(f =>
-      activeFilters.arrondissements.has(Number(f.properties.arrondissement))
-    );
-  }
-
-  // 3. Périodes
-  if (activeFilters.periodes.size > 0) {
-    const selectedPeriodes = Array.from(activeFilters.periodes);
-    featuresSansThesaurus = featuresSansThesaurus.filter(f => {
-      const raw = f.properties.periode;
-      const batPeriodes = Array.isArray(raw) ? raw : (raw ? [raw] : []);
-      return selectedPeriodes.some(p => batPeriodes.includes(p));
-    });
-  }
-
-  // 4. Architectes (Filtre ET)
-  if (activeFilters.architectes.size > 0) {
-    const selectedArchiIds = Array.from(activeFilters.architectes).map(id => Number(id));
-    featuresSansThesaurus = featuresSansThesaurus.filter(f => {
-      const raw = f.properties.personneID;
-      const arr = Array.isArray(raw) ? raw : (raw != null ? [raw] : []);
-      const batArchiIds = arr
-        .map(item => Number(typeof item === 'object' && item !== null ? item.personneID : item))
-        .filter(id => !isNaN(id));
-
-      return selectedArchiIds.some(selectedId => batArchiIds.includes(selectedId));
-    });
-  }
-
   const counts = new Map();
 
-  featuresSansThesaurus.forEach(f => {
+  featuresActuelles.forEach(f => {
     const rawTerms = f.properties.terme_jantzen_bat;
     const termsArray = Array.isArray(rawTerms) ? rawTerms : [];
 
