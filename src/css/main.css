@@ -876,7 +876,7 @@ button { font-family: inherit; }
   grid-template-columns: minmax(0, 140px) 1fr;
   gap: var(--component-gap-8);
   align-items: end;
-  padding: var(--component-2) 0;
+  padding: var(--component-2) 0 var(--component-4) 0;
 }
 .info-meta-label {
   font: var(--text-interface-overline);
