@@ -26,7 +26,26 @@
   "id_pss": 492,
   "id_wikidata": null,
   "WPfr": null,
-  "image_ref": 2439,
-  "terme_jantzen_bat": [],
-  "photos": []
+  "image_ref": "Chateaudin-21_9_§1",
+  "terme_jantzen_bat": [
+    "fenetre-d'angle",
+    "balcon"
+  ],
+  "photos": [
+    {
+      "id_pic": "Chateaudin-21_9_§1",
+      "IndexJantzen": [
+        "fenetre-d'angle"
+      ],
+      "dateCapture": "2007:06:01"
+    },
+    {
+      "id_pic": "Chateaudin-21_9_§2",
+      "IndexJantzen": [
+        "balcon",
+        "fenetre-d'angle"
+      ],
+      "dateCapture": "2007:06:01"
+    }
+  ]
 }

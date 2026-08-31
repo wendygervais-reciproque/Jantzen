@@ -26,7 +26,40 @@
   "id_pss": 9750,
   "id_wikidata": null,
   "WPfr": null,
-  "image_ref": 9473,
-  "terme_jantzen_bat": [],
-  "photos": []
+  "image_ref": "Menilmontant-140_20_§1",
+  "terme_jantzen_bat": [
+    "façade",
+    "pignon",
+    "brique",
+    "fenetre",
+    "décor"
+  ],
+  "photos": [
+    {
+      "id_pic": "Menilmontant-140_20_§1",
+      "IndexJantzen": [
+        "brique",
+        "façade"
+      ],
+      "dateCapture": "2005:09:19"
+    },
+    {
+      "id_pic": "Menilmontant-140_20_§2",
+      "IndexJantzen": [
+        "brique",
+        "fenetre"
+      ],
+      "dateCapture": "2005:09:19"
+    },
+    {
+      "id_pic": "Menilmontant-140_20_§3",
+      "IndexJantzen": [
+        "brique",
+        "décor",
+        "façade",
+        "pignon"
+      ],
+      "dateCapture": "2005:09:19"
+    }
+  ]
 }

@@ -30,7 +30,29 @@
   "id_pss": 77739,
   "id_wikidata": null,
   "WPfr": null,
-  "image_ref": 8236,
-  "terme_jantzen_bat": [],
-  "photos": []
+  "image_ref": "Ledru-Rollin-25_12_§1",
+  "terme_jantzen_bat": [
+    "façade-d'angle",
+    "fenetre-d'angle",
+    "brique",
+    "dome"
+  ],
+  "photos": [
+    {
+      "id_pic": "Ledru-Rollin-25_12_§1",
+      "IndexJantzen": [
+        "brique",
+        "façade-d'angle"
+      ],
+      "dateCapture": "2004:07:26"
+    },
+    {
+      "id_pic": "Ledru-Rollin-25_12_§2",
+      "IndexJantzen": [
+        "dome",
+        "fenetre-d'angle"
+      ],
+      "dateCapture": "2004:07:26"
+    }
+  ]
 }

@@ -26,7 +26,32 @@
   "id_pss": null,
   "id_wikidata": null,
   "WPfr": null,
-  "image_ref": 15920,
-  "terme_jantzen_bat": [],
-  "photos": []
+  "image_ref": "Vaugirard-52_6_§1",
+  "terme_jantzen_bat": [
+    "sculpture",
+    "lucarne",
+    "fenetre",
+    "décor",
+    "fronton"
+  ],
+  "photos": [
+    {
+      "id_pic": "Vaugirard-52_6_§1",
+      "IndexJantzen": [
+        "fenetre"
+      ],
+      "dateCapture": "2009:09:27"
+    },
+    {
+      "id_pic": "Vaugirard-52_6_§2",
+      "IndexJantzen": [
+        "décor",
+        "fenetre",
+        "fronton",
+        "lucarne",
+        "sculpture"
+      ],
+      "dateCapture": "2009:09:27"
+    }
+  ]
 }

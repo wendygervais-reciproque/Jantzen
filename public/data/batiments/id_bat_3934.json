@@ -30,7 +30,62 @@
   "id_pss": null,
   "id_wikidata": null,
   "WPfr": null,
-  "image_ref": 13641,
-  "terme_jantzen_bat": [],
-  "photos": []
+  "image_ref": "Sevres-98_7_§1",
+  "terme_jantzen_bat": [
+    "façade-d'angle",
+    "sculpture",
+    "façade",
+    "console",
+    "fenetre-d'angle",
+    "colonne",
+    "porte-fer",
+    "balcon"
+  ],
+  "photos": [
+    {
+      "id_pic": "Sevres-98_7_§1",
+      "IndexJantzen": [
+        "balcon",
+        "façade-d'angle"
+      ],
+      "dateCapture": "2004:09:07"
+    },
+    {
+      "id_pic": "Sevres-98_7_§2",
+      "IndexJantzen": [
+        "fenetre-d'angle"
+      ],
+      "dateCapture": "2004:09:06"
+    },
+    {
+      "id_pic": "Sevres-98_7_§3",
+      "IndexJantzen": [
+        "façade"
+      ],
+      "dateCapture": "2004:09:06"
+    },
+    {
+      "id_pic": "Sevres-98_7_§4",
+      "IndexJantzen": [
+        "porte-fer"
+      ],
+      "dateCapture": "2006:04:04"
+    },
+    {
+      "id_pic": "Sevres-98_7_§5",
+      "IndexJantzen": [
+        "colonne",
+        "porte-fer"
+      ],
+      "dateCapture": "2006:04:04"
+    },
+    {
+      "id_pic": "Sevres-98_7_§7",
+      "IndexJantzen": [
+        "console",
+        "sculpture"
+      ],
+      "dateCapture": "2006:04:04"
+    }
+  ]
 }

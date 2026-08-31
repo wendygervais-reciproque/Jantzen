@@ -21,7 +21,58 @@
   "id_pss": 9845,
   "id_wikidata": null,
   "WPfr": null,
-  "image_ref": 5954,
-  "terme_jantzen_bat": [],
-  "photos": []
+  "image_ref": "Haussmann-10_9_1",
+  "terme_jantzen_bat": [
+    "oeil-de-boeuf",
+    "fenetre-d'angle",
+    "dome",
+    "lucarne",
+    "balcon",
+    "lucarne-d'angle",
+    "toiture"
+  ],
+  "photos": [
+    {
+      "id_pic": "Haussmann-10_9_1",
+      "IndexJantzen": [
+        "dome",
+        "fenetre-d'angle"
+      ],
+      "dateCapture": "2006:04:20"
+    },
+    {
+      "id_pic": "Haussmann-10_9_2",
+      "IndexJantzen": [
+        "balcon",
+        "fenetre-d'angle"
+      ],
+      "dateCapture": "2006:04:20"
+    },
+    {
+      "id_pic": "Haussmann-10_9_4",
+      "IndexJantzen": [
+        "dome",
+        "lucarne-d'angle"
+      ],
+      "dateCapture": "2006:04:20"
+    },
+    {
+      "id_pic": "Haussmann-10_9_5",
+      "IndexJantzen": [
+        "dome",
+        "lucarne",
+        "toiture"
+      ],
+      "dateCapture": "2006:04:20"
+    },
+    {
+      "id_pic": "Haussmann-10_9_6",
+      "IndexJantzen": [
+        "dome",
+        "lucarne",
+        "oeil-de-boeuf"
+      ],
+      "dateCapture": "2006:04:20"
+    }
+  ]
 }

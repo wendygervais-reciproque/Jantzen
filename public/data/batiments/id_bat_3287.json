@@ -30,7 +30,35 @@
   "id_pss": null,
   "id_wikidata": null,
   "WPfr": null,
-  "image_ref": 5139,
-  "terme_jantzen_bat": [],
-  "photos": []
+  "image_ref": "Garibaldi-65_15_§1",
+  "terme_jantzen_bat": [
+    "porte-fer-hall",
+    "lucarne",
+    "brique"
+  ],
+  "photos": [
+    {
+      "id_pic": "Garibaldi-65_15_§1",
+      "IndexJantzen": [
+        "brique",
+        "lucarne"
+      ],
+      "dateCapture": "2008:10:15"
+    },
+    {
+      "id_pic": "Garibaldi-65_15_§2",
+      "IndexJantzen": [
+        "brique",
+        "lucarne"
+      ],
+      "dateCapture": "2008:10:15"
+    },
+    {
+      "id_pic": "Garibaldi-65_15_§3",
+      "IndexJantzen": [
+        "porte-fer-hall"
+      ],
+      "dateCapture": "2006:06:18"
+    }
+  ]
 }

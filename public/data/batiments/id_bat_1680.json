@@ -26,7 +26,27 @@
   "id_pss": 17387,
   "id_wikidata": null,
   "WPfr": null,
-  "image_ref": 985,
-  "terme_jantzen_bat": [],
-  "photos": []
+  "image_ref": "Beaujon-22_8_§1",
+  "terme_jantzen_bat": [
+    "garde-corps",
+    "façade",
+    "balcon"
+  ],
+  "photos": [
+    {
+      "id_pic": "Beaujon-22_8_§1",
+      "IndexJantzen": [
+        "façade"
+      ],
+      "dateCapture": "2004:10:16"
+    },
+    {
+      "id_pic": "Beaujon-22_8_§2",
+      "IndexJantzen": [
+        "balcon",
+        "garde-corps"
+      ],
+      "dateCapture": "2004:10:16"
+    }
+  ]
 }

@@ -29,9 +29,11 @@
   "image_ref": "Sacre-Cœur-_18_§3",
   "terme_jantzen_bat": [
     "sculpture",
-    "dome",
     "façade",
-    "tour"
+    "dome",
+    "lucarne",
+    "tour",
+    "toiture"
   ],
   "photos": [
     {
@@ -71,6 +73,28 @@
         "sculpture"
       ],
       "dateCapture": "2005:09:27"
+    },
+    {
+      "id_pic": "Sacre-Cœur-_18_§6",
+      "IndexJantzen": [
+        "lucarne",
+        "toiture"
+      ],
+      "dateCapture": "2011:08:30"
+    },
+    {
+      "id_pic": "Sacre-Cœur-_18_§7",
+      "IndexJantzen": [
+        "lucarne"
+      ],
+      "dateCapture": "2011:08:30"
+    },
+    {
+      "id_pic": "Sacre-Cœur-_18_§8-Rx",
+      "IndexJantzen": [
+        "sculpture"
+      ],
+      "dateCapture": "2011:08:30"
     }
   ]
 }

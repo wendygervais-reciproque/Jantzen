@@ -21,7 +21,48 @@
   "id_pss": 8924,
   "id_wikidata": null,
   "WPfr": null,
-  "image_ref": 4450,
-  "terme_jantzen_bat": [],
-  "photos": []
+  "image_ref": "Fecamp-41_12_§1",
+  "terme_jantzen_bat": [
+    "façade-d'angle",
+    "fenetre-d'angle",
+    "brique",
+    "balcon",
+    "décor"
+  ],
+  "photos": [
+    {
+      "id_pic": "Fecamp-41_12_§1",
+      "IndexJantzen": [
+        "brique",
+        "façade-d'angle"
+      ],
+      "dateCapture": "2005:07:13"
+    },
+    {
+      "id_pic": "Fecamp-41_12_§2",
+      "IndexJantzen": [
+        "brique",
+        "décor",
+        "fenetre-d'angle"
+      ],
+      "dateCapture": "2005:07:13"
+    },
+    {
+      "id_pic": "Fecamp-41_12_§3",
+      "IndexJantzen": [
+        "balcon",
+        "brique",
+        "fenetre-d'angle"
+      ],
+      "dateCapture": "2005:07:13"
+    },
+    {
+      "id_pic": "Fecamp-41_12_§4",
+      "IndexJantzen": [
+        "brique",
+        "fenetre-d'angle"
+      ],
+      "dateCapture": "2005:07:13"
+    }
+  ]
 }

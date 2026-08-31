@@ -30,7 +30,45 @@
   "id_pss": 78853,
   "id_wikidata": null,
   "WPfr": null,
-  "image_ref": 3516,
-  "terme_jantzen_bat": [],
-  "photos": []
+  "image_ref": "Daubenton-7_5_§1",
+  "terme_jantzen_bat": [
+    "façade-d'angle",
+    "fenetre-d'angle",
+    "porte-fer-hall",
+    "lucarne",
+    "fenetre",
+    "balcon"
+  ],
+  "photos": [
+    {
+      "id_pic": "Daubenton-7_5_§1",
+      "IndexJantzen": [
+        "façade-d'angle"
+      ],
+      "dateCapture": "2005:04:11"
+    },
+    {
+      "id_pic": "Daubenton-7_5_§2",
+      "IndexJantzen": [
+        "balcon",
+        "fenetre-d'angle"
+      ],
+      "dateCapture": "2005:04:11"
+    },
+    {
+      "id_pic": "Daubenton-7_5_§3",
+      "IndexJantzen": [
+        "fenetre",
+        "lucarne"
+      ],
+      "dateCapture": "2005:04:11"
+    },
+    {
+      "id_pic": "Daubenton-7_5_§4",
+      "IndexJantzen": [
+        "porte-fer-hall"
+      ],
+      "dateCapture": "2005:04:11"
+    }
+  ]
 }

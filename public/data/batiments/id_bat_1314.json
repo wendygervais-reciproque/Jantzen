@@ -26,7 +26,79 @@
   "id_pss": 4647,
   "id_wikidata": null,
   "WPfr": null,
-  "image_ref": 6293,
-  "terme_jantzen_bat": [],
-  "photos": []
+  "image_ref": "Henri-Heine-18_16_§1-Dx",
+  "terme_jantzen_bat": [
+    "façade",
+    "brique",
+    "porte-fer",
+    "fenetre",
+    "toiture"
+  ],
+  "photos": [
+    {
+      "id_pic": "Henri-Heine-18_16_§10-Dx",
+      "IndexJantzen": [
+        "porte-fer"
+      ],
+      "dateCapture": "2014:03:09"
+    },
+    {
+      "id_pic": "Henri-Heine-18_16_§1-Dx",
+      "IndexJantzen": [
+        "brique",
+        "façade"
+      ],
+      "dateCapture": "2014:03:09"
+    },
+    {
+      "id_pic": "Henri-Heine-18_16_§2",
+      "IndexJantzen": [
+        "brique",
+        "façade"
+      ],
+      "dateCapture": "2009:03:31"
+    },
+    {
+      "id_pic": "Henri-Heine-18_16_§4",
+      "IndexJantzen": [
+        "brique",
+        "fenetre"
+      ],
+      "dateCapture": "2010:05:23"
+    },
+    {
+      "id_pic": "Henri-Heine-18_16_§5",
+      "IndexJantzen": [
+        "brique",
+        "fenetre"
+      ],
+      "dateCapture": "2006:07:01"
+    },
+    {
+      "id_pic": "Henri-Heine-18_16_§6",
+      "IndexJantzen": [
+        "brique",
+        "façade"
+      ],
+      "dateCapture": "2005:05:18"
+    },
+    {
+      "id_pic": "Henri-Heine-18_16_§7",
+      "IndexJantzen": [
+        "brique",
+        "fenetre",
+        "toiture"
+      ],
+      "dateCapture": "2009:03:31"
+    },
+    {
+      "id_pic": "Henri-Heine-18_16_§9",
+      "IndexJantzen": [
+        "brique",
+        "fenetre",
+        "toiture"
+      ],
+      "dateCapture": "2005:05:18"
+    }
+  ]
 }

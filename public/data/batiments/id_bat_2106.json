@@ -30,7 +30,29 @@
   "id_pss": null,
   "id_wikidata": null,
   "WPfr": null,
-  "image_ref": 4791,
-  "terme_jantzen_bat": [],
-  "photos": []
+  "image_ref": "Fragonard-3_17_§1",
+  "terme_jantzen_bat": [
+    "brique",
+    "fenetre",
+    "balcon"
+  ],
+  "photos": [
+    {
+      "id_pic": "Fragonard-3_17_§1",
+      "IndexJantzen": [
+        "brique",
+        "fenetre"
+      ],
+      "dateCapture": "2004:09:07"
+    },
+    {
+      "id_pic": "Fragonard-3_17_§2",
+      "IndexJantzen": [
+        "balcon",
+        "brique",
+        "fenetre"
+      ],
+      "dateCapture": "2004:09:07"
+    }
+  ]
 }
