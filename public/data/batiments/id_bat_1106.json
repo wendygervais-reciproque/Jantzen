@@ -26,7 +26,45 @@
   "id_pss": 17376,
   "id_wikidata": null,
   "WPfr": null,
-  "image_ref": 12389,
-  "terme_jantzen_bat": [],
-  "photos": []
+  "image_ref": "Raspail-16_7_§1",
+  "terme_jantzen_bat": [
+    "balcon",
+    "façade",
+    "fenetre",
+    "porte-fer-hall",
+    "colonne"
+  ],
+  "photos": [
+    {
+      "id_pic": "Raspail-16_7_§1",
+      "IndexJantzen": [
+        "façade"
+      ],
+      "dateCapture": "2005:03:20"
+    },
+    {
+      "id_pic": "Raspail-16_7_§2",
+      "IndexJantzen": [
+        "balcon",
+        "fenetre"
+      ],
+      "dateCapture": "2005:07:17"
+    },
+    {
+      "id_pic": "Raspail-16_7_§3",
+      "IndexJantzen": [
+        "balcon",
+        "colonne",
+        "fenetre"
+      ],
+      "dateCapture": "2005:03:20"
+    },
+    {
+      "id_pic": "Raspail-16_7_§4",
+      "IndexJantzen": [
+        "porte-fer-hall"
+      ],
+      "dateCapture": "2005:07:17"
+    }
+  ]
 }

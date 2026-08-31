@@ -26,7 +26,27 @@
   "id_pss": 17389,
   "id_wikidata": null,
   "WPfr": null,
-  "image_ref": 9320,
-  "terme_jantzen_bat": [],
-  "photos": []
+  "image_ref": "Mathurins-35_8_§1",
+  "terme_jantzen_bat": [
+    "balcon",
+    "verrière",
+    "fenetre"
+  ],
+  "photos": [
+    {
+      "id_pic": "Mathurins-35_8_§1",
+      "IndexJantzen": [
+        "fenetre",
+        "verrière"
+      ],
+      "dateCapture": "2004:07:05"
+    },
+    {
+      "id_pic": "Mathurins-35_8_§2",
+      "IndexJantzen": [
+        "balcon"
+      ],
+      "dateCapture": "2004:07:05"
+    }
+  ]
 }

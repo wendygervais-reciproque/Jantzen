@@ -34,7 +34,31 @@
   "id_pss": 41125,
   "id_wikidata": null,
   "WPfr": null,
-  "image_ref": 8104,
-  "terme_jantzen_bat": [],
-  "photos": []
+  "image_ref": "Laugier-66_17_§1",
+  "terme_jantzen_bat": [
+    "brique",
+    "lucarne",
+    "décor",
+    "fenetre"
+  ],
+  "photos": [
+    {
+      "id_pic": "Laugier-66_17_§1",
+      "IndexJantzen": [
+        "brique",
+        "fenetre"
+      ],
+      "dateCapture": "2004:10:01"
+    },
+    {
+      "id_pic": "Laugier-66_17_§2",
+      "IndexJantzen": [
+        "brique",
+        "décor",
+        "fenetre",
+        "lucarne"
+      ],
+      "dateCapture": "2004:10:01"
+    }
+  ]
 }

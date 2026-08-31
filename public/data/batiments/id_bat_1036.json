@@ -26,7 +26,36 @@
   "id_pss": 38015,
   "id_wikidata": null,
   "WPfr": null,
-  "image_ref": 5168,
-  "terme_jantzen_bat": [],
-  "photos": []
+  "image_ref": "Gay-Lussac-15_5_§1",
+  "terme_jantzen_bat": [
+    "balcon",
+    "porte-fer",
+    "colonne",
+    "fenetre"
+  ],
+  "photos": [
+    {
+      "id_pic": "Gay-Lussac-15_5_§1",
+      "IndexJantzen": [
+        "balcon",
+        "fenetre"
+      ],
+      "dateCapture": null
+    },
+    {
+      "id_pic": "Gay-Lussac-15_5_§2",
+      "IndexJantzen": [
+        "balcon",
+        "colonne"
+      ],
+      "dateCapture": "2003:08:25"
+    },
+    {
+      "id_pic": "Gay-Lussac-15_5_§3",
+      "IndexJantzen": [
+        "porte-fer"
+      ],
+      "dateCapture": "2003:08:25"
+    }
+  ]
 }

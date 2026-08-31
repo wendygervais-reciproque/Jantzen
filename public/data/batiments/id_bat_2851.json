@@ -28,7 +28,27 @@
   "id_pss": null,
   "id_wikidata": null,
   "WPfr": null,
-  "image_ref": 9595,
-  "terme_jantzen_bat": [],
-  "photos": []
+  "image_ref": "Metz-5_10_§1",
+  "terme_jantzen_bat": [
+    "lucarne",
+    "façade",
+    "fenetre"
+  ],
+  "photos": [
+    {
+      "id_pic": "Metz-5_10_§1",
+      "IndexJantzen": [
+        "façade"
+      ],
+      "dateCapture": "2008:08:10"
+    },
+    {
+      "id_pic": "Metz-5_10_§2",
+      "IndexJantzen": [
+        "fenetre",
+        "lucarne"
+      ],
+      "dateCapture": "2008:08:10"
+    }
+  ]
 }

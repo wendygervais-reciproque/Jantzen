@@ -24,7 +24,51 @@
   "id_pss": null,
   "id_wikidata": null,
   "WPfr": null,
-  "image_ref": 1125,
-  "terme_jantzen_bat": [],
-  "photos": []
+  "image_ref": "Belliard-183_18_§1",
+  "terme_jantzen_bat": [
+    "balcon",
+    "façade",
+    "fenetre-d'angle",
+    "fenetre",
+    "brique",
+    "oriel",
+    "pignon"
+  ],
+  "photos": [
+    {
+      "id_pic": "Belliard-183_18_§1",
+      "IndexJantzen": [
+        "brique",
+        "façade",
+        "pignon"
+      ],
+      "dateCapture": "2004:09:07"
+    },
+    {
+      "id_pic": "Belliard-183_18_§2",
+      "IndexJantzen": [
+        "brique",
+        "fenetre-d'angle",
+        "oriel"
+      ],
+      "dateCapture": "2004:09:07"
+    },
+    {
+      "id_pic": "Belliard-183_18_§3",
+      "IndexJantzen": [
+        "brique",
+        "fenetre"
+      ],
+      "dateCapture": "2004:09:07"
+    },
+    {
+      "id_pic": "Belliard-183_18_§4",
+      "IndexJantzen": [
+        "balcon",
+        "brique",
+        "fenetre"
+      ],
+      "dateCapture": "2004:09:07"
+    }
+  ]
 }

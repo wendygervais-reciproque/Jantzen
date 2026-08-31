@@ -26,7 +26,29 @@
   "id_pss": 5044,
   "id_wikidata": null,
   "WPfr": null,
-  "image_ref": 3161,
-  "terme_jantzen_bat": [],
-  "photos": []
+  "image_ref": "Courcelles-48_8_A",
+  "terme_jantzen_bat": [
+    "décor",
+    "porte-bois",
+    "fenetre",
+    "garde-corps"
+  ],
+  "photos": [
+    {
+      "id_pic": "Courcelles-48_8_A",
+      "IndexJantzen": [
+        "porte-bois"
+      ],
+      "dateCapture": "2005:08:02"
+    },
+    {
+      "id_pic": "Courcelles-48_8_B",
+      "IndexJantzen": [
+        "décor",
+        "fenetre",
+        "garde-corps"
+      ],
+      "dateCapture": "2005:08:02"
+    }
+  ]
 }

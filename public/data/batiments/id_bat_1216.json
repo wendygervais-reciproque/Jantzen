@@ -24,7 +24,26 @@
   "id_pss": null,
   "id_wikidata": null,
   "WPfr": null,
-  "image_ref": 5710,
-  "terme_jantzen_bat": [],
-  "photos": []
+  "image_ref": "Grenelle-17_7_§1",
+  "terme_jantzen_bat": [
+    "porte-bois",
+    "fenetre"
+  ],
+  "photos": [
+    {
+      "id_pic": "Grenelle-17_7_§1",
+      "IndexJantzen": [
+        "fenetre",
+        "porte-bois"
+      ],
+      "dateCapture": "2005:05:28"
+    },
+    {
+      "id_pic": "Grenelle-17_7_§2",
+      "IndexJantzen": [
+        "porte-bois"
+      ],
+      "dateCapture": "2005:05:28"
+    }
+  ]
 }

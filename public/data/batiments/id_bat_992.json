@@ -26,7 +26,30 @@
   "id_pss": 2653,
   "id_wikidata": null,
   "WPfr": null,
-  "image_ref": 7468,
-  "terme_jantzen_bat": [],
-  "photos": []
+  "image_ref": "Junot-15_18_§1",
+  "terme_jantzen_bat": [
+    "façade",
+    "loggia",
+    "fenetre",
+    "porte"
+  ],
+  "photos": [
+    {
+      "id_pic": "Junot-15_18_§1",
+      "IndexJantzen": [
+        "façade",
+        "loggia"
+      ],
+      "dateCapture": "2006:06:09"
+    },
+    {
+      "id_pic": "Junot-Av-15_18_§3",
+      "IndexJantzen": [
+        "façade",
+        "fenetre",
+        "porte"
+      ],
+      "dateCapture": "2006:07:10"
+    }
+  ]
 }

@@ -26,7 +26,38 @@
   "id_pss": 28704,
   "id_wikidata": null,
   "WPfr": null,
-  "image_ref": 6589,
-  "terme_jantzen_bat": [],
-  "photos": []
+  "image_ref": "Huysmans-1_6_§1",
+  "terme_jantzen_bat": [
+    "balcon",
+    "façade",
+    "fenetre",
+    "décor",
+    "sculpture"
+  ],
+  "photos": [
+    {
+      "id_pic": "Huysmans-1_6_§1",
+      "IndexJantzen": [
+        "façade"
+      ],
+      "dateCapture": "2004:10:03"
+    },
+    {
+      "id_pic": "Huysmans-1_6_§2",
+      "IndexJantzen": [
+        "balcon",
+        "fenetre"
+      ],
+      "dateCapture": "2004:10:03"
+    },
+    {
+      "id_pic": "Huysmans-1_6_§3",
+      "IndexJantzen": [
+        "décor",
+        "fenetre",
+        "sculpture"
+      ],
+      "dateCapture": "2005:05:01"
+    }
+  ]
 }

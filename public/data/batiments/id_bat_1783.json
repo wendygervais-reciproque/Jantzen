@@ -26,7 +26,30 @@
   "id_pss": 77735,
   "id_wikidata": null,
   "WPfr": null,
-  "image_ref": 8234,
-  "terme_jantzen_bat": [],
-  "photos": []
+  "image_ref": "Ledru-Rollin-24_12_§1",
+  "terme_jantzen_bat": [
+    "brique",
+    "façade-d'angle",
+    "balcon",
+    "lucarne-d'angle"
+  ],
+  "photos": [
+    {
+      "id_pic": "Ledru-Rollin-24_12_§1",
+      "IndexJantzen": [
+        "brique",
+        "façade-d'angle"
+      ],
+      "dateCapture": "2004:07:26"
+    },
+    {
+      "id_pic": "Ledru-Rollin-24_12_§2",
+      "IndexJantzen": [
+        "balcon",
+        "brique",
+        "lucarne-d'angle"
+      ],
+      "dateCapture": "2004:07:26"
+    }
+  ]
 }
