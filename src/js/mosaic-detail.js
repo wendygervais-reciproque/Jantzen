@@ -689,8 +689,8 @@ function comparePoi(a, b) {
 
   // 1. Détermination de la clé d'affichage textuelle principale pour chaque élément
   // Ordre de priorité pour la clé : voie d'adresse > ensemble > libellé
-  const keyA = (propA.adresse?.voie || propA.ensemble || propA.libelle || '').trim();
-  const keyB = (propB.adresse?.voie || propB.ensemble || propB.libelle || '').trim();
+  const keyA = (propA.tri_alphab || '').trim();
+  const keyB = (propB.tri_alphab || '').trim();
 
   // 2. Comparaison alphabétique sur la clé principale
   const compKey = keyA.localeCompare(keyB, 'fr', { sensitivity: 'base' });
