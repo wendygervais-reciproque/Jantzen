@@ -73,7 +73,13 @@ function updateResultsCount(features) {
 
 function updateStageEmpty(features) {
   const empty = document.getElementById('stage-empty');
-  if (empty) empty.hidden = features.length > 0 || currentView !== 'mosaic';
+  if (!empty) return;
+  // Contenu vide plutôt que `hidden` : voir le commentaire sur #stage-empty
+  // dans main.css. Aucune vue n'est épargnée — carte vide ou mosaïque vide
+  // méritent également d'être annoncées.
+  empty.innerHTML = features.length === 0
+    ? 'Aucun résultat.<br>Modifiez vos critères de recherche.'
+    : '';
 }
 
 /* ─── VUE MOSAÏQUE ──────────────────────────────────────────────────────── */

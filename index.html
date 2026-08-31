@@ -75,7 +75,7 @@
   <main id="stage">
     <div id="map" role="application" aria-label="Carte interactive de Paris"></div>
     <div id="mosaic" role="region" hidden aria-label="Mosaïque des bâtiments"></div>
-    <p id="stage-empty" hidden aria-live="polite">Aucun résultat.<br>Modifiez vos critères de recherche.</p>
+    <p id="stage-empty" role="status" aria-live="polite"></p>
   </main>
 
   <!-- ── MARQUE + À PROPOS ── -->
@@ -115,6 +115,7 @@
           aria-haspopup="dialog" aria-controls="filters-panel"
           aria-expanded="false" aria-label="Filtres">
     <svg class="icon" aria-hidden="true"><use href="#i-filter"/></svg>
+    <span id="filters-fab-badge" class="fab-badge" hidden></span>
   </button>
 
   <div id="filters-panel" role="region" aria-label="Filtres">

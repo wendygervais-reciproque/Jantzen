@@ -93,12 +93,27 @@ button { font-family: inherit; }
   position: relative;
 }
 
+/* Reste en permanence dans le DOM (jamais `hidden`) : un texte annoncé via
+   aria-live doit déjà faire partie de l'arbre d'accessibilité pour que son
+   changement soit fiablement lu par les lecteurs d'écran — masquer/démasquer
+   l'élément lui-même est moins robuste selon les technologies d'assistance
+   que faire varier son seul contenu, cf. updateStageEmpty(). Vide, il ne
+   rend rien (pas de fond) ; pointer-events:none pour ne jamais bloquer
+   panoramique/zoom sur la carte en dessous, même une fois le message affiché.
+   z-index requis en vue carte : #map ne pose pas de contexte d'empilement
+   à lui seul, les panes internes de Leaflet (jusqu'à ~700) s'intercalent
+   donc directement dans celui de #stage et passeraient sinon par-dessus. */
 #stage-empty {
-  position: absolute; inset: 0;
+  position: absolute; inset: 0; z-index: 800;
   display: flex; align-items: center; justify-content: center;
   text-align: center;
   color: var(--text-secondary);
+  pointer-events: none;
 }
+/* Fond posé seulement quand le message a du contenu (donc jamais en vue
+   carte hors ce cas) : même couleur que #mosaic, pour un raccord invisible
+   dans cette vue — et pour rester lisible par-dessus les tuiles en vue carte. */
+#stage-empty:not(:empty) { background: var(--background-page); }
 
 /* Couches flottantes */
 #filters-panel,
@@ -196,6 +211,25 @@ button { font-family: inherit; }
 .view-btn.is-active, #filters-fab.is-active {
   background: var(--control-background-selected);
   color: var(--control-content-selected);
+}
+
+/* Pastille de comptage sur #filters-fab (mobile/tablette) : seul indice,
+   filtres repliés dans une modale, qu'un ou plusieurs filtres sont actifs.
+   Même traitement que les grappes de la carte (rond sombre, chiffre clair)
+   plutôt que le doré de l'état .is-active — qui, lui, ne dit rien sur les
+   filtres eux-mêmes (juste que la modale est ouverte), et se confondrait
+   avec un badge dans les mêmes tons chauds. */
+.fab-badge {
+  position: absolute; top: -2px; right: -2px;
+  min-width: 20px; height: 20px;
+  padding: 0 5px;
+  display: flex; align-items: center; justify-content: center;
+  border-radius: var(--radius-full);
+  border: 2px solid var(--background-page);
+  background: var(--icon-primary);
+  color: var(--text-on-inverse);
+  font: var(--text-interface-caption);
+  font-variant-numeric: tabular-nums;
 }
 
 /* ─── VUE MOSAÏQUE ───────────────────────────────────────────────────────── */
@@ -518,19 +552,19 @@ button { font-family: inherit; }
 }
 .arr-polygon:hover { fill-opacity: 0.28; }
 
-/* Étiquette d'arrondissement : le numéro (identifiant) au-dessus, hors du rond
-   noir de comptage — lequel reprend intégralement le style .cluster-dot. */
-.arr-label {
-  display: flex; flex-direction: row; align-items: center;
-  gap: var(--component-gap-12);
-  transform: translate(-50%, -50%);
-  pointer-events: none;
-  white-space: nowrap;
-  width: fit-content;
-}
+/* Étiquette d'arrondissement (vue ville) : numéro + rond de comptage — deux
+   marqueurs distincts (cf. showArrondissementView()) positionnés côte à côte
+   sur le même point via transform. Le numéro reste décoratif (le clic dessus
+   ne fait rien) ; le rond, lui, est cliquable au même titre que le polygone
+   — cf. le commentaire sur son binding JS. .arr-cluster-dot reprend
+   intégralement le style .cluster-dot des grappes bâtiments. */
 .arr-label-num {
+  pointer-events: none;
+  display: block;
   font: var(--text-title-h5);
   color: var(--background-brand-primary);
+  text-align: right;
+  white-space: nowrap;
   /* Halo clair : lisibilité garantie par-dessus n'importe quelle tuile. */
   text-shadow: 0 0 6px var(--background-page), 0 0 3px var(--background-page),
                0 0 2px var(--background-page);
@@ -1340,7 +1374,8 @@ button { font-family: inherit; }
     width: auto; max-height: none;
     border-radius: 0; border: none; box-shadow: none;
   }
-  #filters-panel.filters-mobile-open { display: flex; z-index: 900; }
+  #filters-panel.filters-mobile-open,
+  #filters-panel.filters-mobile-closing { display: flex; z-index: 900; }
   #filters-body { flex: 1 1 auto; }
 
   /* ── FICHE BÂTIMENT EN MODALE PLEIN ÉCRAN ─────────────────────────────────
@@ -1367,20 +1402,35 @@ button { font-family: inherit; }
      assez pour dégager le bouton flottant filtres (48px + marge). */
   .is-mosaic #mosaic { padding: 124px var(--screen-inset) 88px; }
 
-  /* ── ANIMATIONS D'APPARITION (filtres, fiche bâtiment) ────────────────────
+  /* ── ANIMATIONS D'APPARITION/DISPARITION (filtres, fiche bâtiment) ────────
      Réservées à cette largeur : en desktop, ces panneaux restent des cartes
-     non modales dont l'apparition ne doit pas être ralentie. Se déclenche
-     naturellement au passage display:none → display:flex (ouverture),
-     sans logique JS de timing — seule l'apparition est animée, pas la
-     fermeture (fermeture instantanée, comme avant). */
+     non modales dont l'ouverture/fermeture ne doit pas être ralentie.
+     Panneau censé « monter » depuis le bas de l'écran : on part donc de
+     translateY(100%) (hors écran) plutôt que d'un léger décalage, et
+     l'opacité ne bouge qu'au tout début (apparition) ou tout à la fin
+     (disparition) de l'animation, pour ne pas donner un effet de fondu sur
+     le déplacement lui-même. La fermeture est pilotée par JS (classes
+     `filters-mobile-closing` / `is-closing`, retirées à l'issue de
+     `animationend`) puisqu'elle doit désormais durer le temps de
+     l'animation avant de démasquer réellement le panneau. */
   @media (prefers-reduced-motion: no-preference) {
     @keyframes modal-slide-up {
-      from { transform: translateY(24px); opacity: 0; }
+      from { transform: translateY(100%); opacity: 0; }
+      8%   { opacity: 1; }
       to   { transform: translateY(0);    opacity: 1; }
     }
+    @keyframes modal-slide-down {
+      from { transform: translateY(0);    opacity: 1; }
+      92%  { opacity: 1; }
+      to   { transform: translateY(100%); opacity: 0; }
+    }
     #filters-panel.filters-mobile-open,
-    #mosaic-detail:not([hidden]) {
-      animation: modal-slide-up 0.25s ease-out;
+    #mosaic-detail.is-opening {
+      animation: modal-slide-up 0.28s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    #filters-panel.filters-mobile-closing,
+    #mosaic-detail.is-closing {
+      animation: modal-slide-down 0.22s cubic-bezier(0.4, 0, 1, 1);
     }
   }
 
