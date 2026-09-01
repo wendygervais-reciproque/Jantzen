@@ -156,11 +156,6 @@ function bindNavigation() {
     showAbout();
   });
 
-  document.getElementById('link-cgu')?.addEventListener('click', e => {
-    e.preventDefault();
-    showPage('cgu');
-  });
-
   document.getElementById('page-overlay-close')?.addEventListener('click', closePage);
 }
 
