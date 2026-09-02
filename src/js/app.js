@@ -156,11 +156,6 @@ function bindNavigation() {
     showAbout();
   });
 
-  document.getElementById('link-cgu')?.addEventListener('click', e => {
-    e.preventDefault();
-    showPage('cgu');
-  });
-
   document.getElementById('page-overlay-close')?.addEventListener('click', closePage);
 }
 
@@ -205,6 +200,7 @@ function openFiltersMobile() {
   const panel = document.getElementById('filters-panel');
   const fab   = document.getElementById('filters-fab');
   if (!panel) return;
+  panel.classList.remove('filters-mobile-closing');
   panel.classList.add('filters-mobile-open');
   panel.setAttribute('role', 'dialog');
   panel.setAttribute('aria-modal', 'true');
@@ -225,6 +221,14 @@ function closeFiltersMobile() {
   fab?.setAttribute('aria-expanded', 'false');
   setAppSiblingsInert(panel, false);
   fab?.focus();
+  // Le panneau reste affiché (display:flex) le temps de l'animation de
+  // fermeture : voir la classe `.filters-mobile-closing` dans main.css.
+  // Repli via un timeout au cas où l'animation ne se déclenche pas
+  // (prefers-reduced-motion, ou navigateur qui rate l'événement).
+  panel.classList.add('filters-mobile-closing');
+  const clear = () => panel.classList.remove('filters-mobile-closing');
+  panel.addEventListener('animationend', clear, { once: true });
+  setTimeout(clear, 300);
 }
 
 function isFiltersMobileOpen() {

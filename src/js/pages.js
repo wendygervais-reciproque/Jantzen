@@ -43,20 +43,6 @@ Recherche et traitement des données : <strong>Eva Rivière</strong>, stagiaire 
 <p>Cartographie : <a href="https://leafletjs.com" target="_blank" rel="noopener">Leaflet</a> · Fond de carte : <a href="https://www.openstreetmap.org" target="_blank" rel="noopener">OpenStreetMap</a> · Moteur de recherche : <a href="https://lunrjs.com" target="_blank" rel="noopener">Lunr.js</a></p>
 <h2>Remerciements</h2>
 <p>Claire Guitton, Clara Baudry, Clarisse Estebe, Clémence Raynaud, Frédéric Robinson, Marion Charpier (École nationale des Chartes-PSL).</p>`
-  },
-  cgu: {
-    title: "Conditions générales d'utilisation",
-    html: `<h1>Conditions générales d'utilisation</h1>
-<p>Les présentes conditions générales d'utilisation régissent l'accès et l'utilisation de l'interface de valorisation du fonds photographique Architecture Paris, réalisée dans le cadre du projet de recherche TORNE-H.</p>
-<h2>Propriété intellectuelle</h2>
-<p>L'ensemble des contenus de cette interface (textes, images, données) est soumis à la législation française et internationale sur la propriété intellectuelle. Les images publiées sont des photographies de bâtiments dans le domaine public.</p>
-<h2>Utilisation des données</h2>
-<p>Les données présentées sont produites à des fins de recherche dans le cadre du projet TORNE-H. Toute réutilisation est soumise à l'accord préalable de l'EPMO.</p>
-<h2>Prototype de recherche</h2>
-<p>Cette interface est un prototype réalisé dans un cadre de recherche et n'est pas destinée à devenir un service pérenne. L'EPMO ne saurait être tenu responsable des éventuelles erreurs ou imprécisions dans les données.</p>
-<h2>Contact</h2>
-<p>Pour toute question : <a href="mailto:benoit.deshayes@musee-orsay.fr">benoit.deshayes@musee-orsay.fr</a><br>
-<em>CGU de l'établissement : <a href="https://www.musee-orsay.fr" target="_blank" rel="noopener">www.musee-orsay.fr</a></em></p>`
   }
 };
 
@@ -88,18 +74,6 @@ function showAbout(tabKey = 'base') {
   }
 
   renderPage('À propos', PAGES_CONTENT[tabKey]);
-}
-
-/* ─── PAGES SIMPLES (crédits, CGU) ──────────────────────────────────────── */
-
-function showPage(pageKey) {
-  const page = PAGES_CONTENT[pageKey];
-  if (!page) return;
-
-  const tabsEl = document.getElementById('page-overlay-tabs');
-  if (tabsEl) { tabsEl.hidden = true; tabsEl.innerHTML = ''; }
-
-  renderPage(page.title, page);
 }
 
 function renderPage(title, page) {

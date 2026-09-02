@@ -29,9 +29,16 @@ const MAX_ZOOM = 19;
  *
  * CLUSTER_COUNT_MAX est calé sur la grappe la plus fournie du corpus, observée
  * à 252 objets en vue ville ; au-delà, le diamètre est plafonné.
+ *
+ * En dessous de 900px (même seuil que le reste de l'appli responsive), les
+ * bornes _MOBILE prennent le relais : sur un écran étroit, le centre de
+ * Paris compte assez d'arrondissements voisins pour que les grosses grappes
+ * de la taille desktop se chevauchent et masquent leur propre chiffre.
  */
 const CLUSTER_SIZE_MIN  = 32;
 const CLUSTER_SIZE_MAX  = 64;
+const CLUSTER_SIZE_MIN_MOBILE = 20;
+const CLUSTER_SIZE_MAX_MOBILE = 40;
 const CLUSTER_COUNT_MIN = 2;
 const CLUSTER_COUNT_MAX = 260;
 
@@ -45,9 +52,19 @@ const CLUSTER_COUNT_MAX = 260;
  */
 const CLUSTER_SIZE_SCALE = 'sqrt';
 
+/* ⚙️ RÉGLAGES — étiquette d'arrondissement (numéro + rond de comptage, vue
+   ville). Largeur allouée au numéro (ex. "17e", "1er") et espace entre les
+   deux marqueurs, en pixels — cf. showArrondissementView(). */
+const ARR_NUM_W     = 34;
+const ARR_LABEL_GAP = 12; // === --component-gap-12
+
 /** Diamètre en pixels d'une grappe de `count` objets. */
 function clusterSize(count) {
-  if (!(CLUSTER_COUNT_MAX > CLUSTER_COUNT_MIN)) return CLUSTER_SIZE_MAX;
+  const mobile  = window.matchMedia('(max-width: 900px)').matches;
+  const sizeMin = mobile ? CLUSTER_SIZE_MIN_MOBILE : CLUSTER_SIZE_MIN;
+  const sizeMax = mobile ? CLUSTER_SIZE_MAX_MOBILE : CLUSTER_SIZE_MAX;
+
+  if (!(CLUSTER_COUNT_MAX > CLUSTER_COUNT_MIN)) return sizeMax;
 
   const value = Math.min(CLUSTER_COUNT_MAX, Math.max(CLUSTER_COUNT_MIN, Number(count) || CLUSTER_COUNT_MIN));
   let t;
@@ -63,7 +80,7 @@ function clusterSize(count) {
         (Math.sqrt(CLUSTER_COUNT_MAX) - Math.sqrt(CLUSTER_COUNT_MIN));
   }
 
-  return Math.round(CLUSTER_SIZE_MIN + t * (CLUSTER_SIZE_MAX - CLUSTER_SIZE_MIN));
+  return Math.round(sizeMin + t * (sizeMax - sizeMin));
 }
 
 function buildClusterIcon(cluster) {
@@ -81,11 +98,18 @@ function buildClusterIcon(cluster) {
 
 function initMap() {
   map = L.map('map', {
-     zoomControl: false, 
-     minZoom: 11, 
-     maxZoom: MAX_ZOOM, 
+     zoomControl: false,
+     minZoom: 11,
+     maxZoom: MAX_ZOOM,
     zoomDelta: 0.5,
-    zoomSnap: 0.5})
+    zoomSnap: 0.5,
+    // Le zoom au double-clic/double-tap natif de Leaflet fait doublon avec
+    // nos propres clics (grappe, rond d'arrondissement) et, sur tactile, sa
+    // détection de « second tap rapproché » peut avaler un second tap
+    // pourtant destiné à un clic simple sur un autre élément — surtout
+    // gênant en vue arrondissements, où les ronds sont proches les uns des
+    // autres à l'écran.
+    doubleClickZoom: false})
     .setView([48.5131, 2.8], 13);
 
   L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png?key=cb1_2bz2_1_6017a8eaf6b69e397bb0242b', {
@@ -99,6 +123,16 @@ function initMap() {
     zoomOutDelta: 0.5
    }).addTo(map);
   initZoomControlAvoidance();
+
+  // Pane dédiée au numéro d'arrondissement (vue ville), sous la pane des
+  // marqueurs par défaut (600) : le rond de comptage d'un arrondissement
+  // voisin — rendu dans cette dernière — passe ainsi toujours au-dessus,
+  // quel que soit l'ordre de rendu des deux features. Sans cette séparation,
+  // numéro et rond partagent le même marqueur (même contexte d'empilement
+  // né du transform de positionnement Leaflet) et impossible de garantir
+  // cet ordre entre deux arrondissements voisins.
+  map.createPane('arrNumPane');
+  map.getPane('arrNumPane').style.zIndex = 590;
 
   clusterGroup = L.markerClusterGroup({
     chunkedLoading: true,
@@ -119,6 +153,21 @@ function initMap() {
 
   // Bascule automatique arrondissements ↔ bâtiments au franchissement du seuil
   map.on('zoomend', () => applyMapMode(false));
+
+  // Rien ne mesurait la carte au redimensionnement de la fenêtre : Leaflet
+  // garde alors la taille de conteneur connue à l'initialisation, et les
+  // positions écran qu'il calcule (marqueurs, polygones) dérivent de celles
+  // réellement affichées une fois la fenêtre redimensionnée — d'où des
+  // grappes dont la zone cliquable ne correspond plus à ce qui est dessiné,
+  // un décalage d'autant plus visible/gênant que le zoom est élevé (les
+  // polygones y sont petits, un même écart en pixels y pèse proportionnellement
+  // bien plus lourd). Léger anti-rebond : un redimensionnement déclenche
+  // plusieurs 'resize' d'affilée (ex. barre d'adresse mobile qui se replie).
+  let resizeTimer = null;
+  window.addEventListener('resize', () => {
+    clearTimeout(resizeTimer);
+    resizeTimer = setTimeout(() => map.invalidateSize(), 150);
+  });
 }
 
 /* ─── ÉVITEMENT DU PANNEAU DE FILTRES ────────────────────────────────────
@@ -216,25 +265,61 @@ function showArrondissementView() {
     onEachFeature: (feature, layer) => {
       const c_ar = feature.properties.c_ar;
       const n = counts[c_ar] || 0;
-
-      layer.on('click', () => map.fitBounds(layer.getBounds(), { padding: [30, 30] }));
+      // Cliquer un arrondissement doit toujours faire éclater son contenu
+      // (sous-grappes/POI) — jamais juste le recentrer. `fitBounds` seul ne
+      // le garantit pas : il vise le zoom minimal qui fait tenir le polygone
+      // à l'écran (+30px de marge), et pour un grand arrondissement (donc un
+      // polygone qui a besoin de moins de zoom pour y tenir), ce zoom peut
+      // rester sous ARR_ZOOM_THRESHOLD — la vue reste alors en mode
+      // arrondissements, pile ajustée sur ses limites, et recliquer dessus
+      // ne fait que recalculer la même cible (rien à observer : le clic et
+      // fitBounds tournent bien à chaque fois, seul le zoom obtenu stagne).
+      // On plafonne donc au minimum au seuil de bascule.
+      const zoomToArr = () => {
+        const bounds = layer.getBounds();
+        const zoom = Math.max(map.getBoundsZoom(bounds, false, [30, 30]), ARR_ZOOM_THRESHOLD);
+        map.setView(bounds.getCenter(), zoom);
+      };
+      layer.on('click', zoomToArr);
 
       const g = feature.properties.geom_x_y;
       if (!g) return;
 
       // Rond noir de comptage, dimensionné comme une vraie grappe (clusterSize),
-      // surmonté du numéro d'arrondissement — hors du rond.
+      // précédé du numéro d'arrondissement. Deux marqueurs distincts plutôt
+      // qu'un seul (numéro + rond côte à côte) : le rond doit toujours passer
+      // au-dessus du numéro d'un arrondissement voisin quand ils se
+      // chevauchent (petits arrondissements centraux, serrés les uns contre
+      // les autres) — impossible à garantir avec un seul marqueur partagé,
+      // cf. la pane dédiée `arrNumPane` posée dans initMap(). Décalages
+      // calculés à la main (pas de flex/gap) pour reproduire côte à côte le
+      // rendu de deux marqueurs positionnés indépendamment sur le même point.
       const size = clusterSize(n);
-      const label = L.divIcon({
+      const dotOffsetX = Math.round((ARR_NUM_W + ARR_LABEL_GAP) / 2);
+      const numOffsetX = -Math.round((ARR_LABEL_GAP + size) / 2);
+
+      const dotIcon = L.divIcon({
         className: '',
-        html: `<div class="arr-label">
-                 <span class="arr-label-num">${ordinalArr(c_ar)}</span>
-                 <span class="cluster-dot" style="width:${size}px;height:${size}px">${n}</span>
-               </div>`,
+        html: `<div class="cluster-dot arr-cluster-dot" style="width:${size}px;height:${size}px;
+                 transform:translate(calc(-50% + ${dotOffsetX}px), -50%)">${n}</div>`,
         iconSize: [0, 0]
       });
-      L.marker([g.lat, g.lon], { icon: label, interactive: false })
-        .addTo(arrLabelGroup);
+      // Interactif (contrairement au numéro) : pour un petit arrondissement au
+      // fort effectif, le rond déborde largement du tracé du polygone —
+      // taper dessus tombait alors hors de sa zone cliquable et le zoom ne se
+      // déclenchait pas (régression observée sur les arrondissements centraux,
+      // là où rond ≫ polygone ; 3e/4e épargnés car leur effectif — donc leur
+      // rond — reste petit). Le rond répond donc lui aussi au clic, en plus
+      // du polygone.
+      L.marker([g.lat, g.lon], { icon: dotIcon }).addTo(arrLabelGroup).on('click', zoomToArr);
+
+      const numIcon = L.divIcon({
+        className: '',
+        html: `<div class="arr-label-num" style="width:${ARR_NUM_W}px;
+                 transform:translate(calc(-50% + ${numOffsetX}px), -50%)">${ordinalArr(c_ar)}</div>`,
+        iconSize: [0, 0]
+      });
+      L.marker([g.lat, g.lon], { icon: numIcon, interactive: false, pane: 'arrNumPane' }).addTo(arrLabelGroup);
     }
   }).addTo(map);
 

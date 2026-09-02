@@ -404,7 +404,26 @@ function toggleThesaurusChip(btn, id) {
 
 /* ─── TAGS ACTIFS & RÉINITIALISATION ────────────────────────────────────── */
 
+/* Pastille de comptage sur #filters-fab (mobile/tablette) : une fois les
+   filtres repliés dans leur modale, seul indice qu'un ou plusieurs sont
+   actifs. Ne compte pas la recherche texte (searchQuery) : ce n'est pas un
+   filtre à puce parmi ceux listés dans le panneau. */
+function updateFiltersFabBadge() {
+  const fab = document.getElementById('filters-fab');
+  const badge = document.getElementById('filters-fab-badge');
+  if (!fab || !badge) return;
+  const count = activeFilters.arrondissements.size + activeFilters.thesaurus.size +
+                activeFilters.architectes.size + activeFilters.periodes.size;
+  badge.hidden = count === 0;
+  badge.textContent = String(count);
+  // La pastille visuelle échappe au nom accessible d'un bouton doté d'un
+  // aria-label : sans ça, sa valeur resterait invisible au lecteur d'écran.
+  fab.setAttribute('aria-label', count > 0 ? `Filtres, ${count} filtre${count > 1 ? 's' : ''} actif${count > 1 ? 's' : ''}` : 'Filtres');
+}
+
 function renderActiveTags() {
+  updateFiltersFabBadge();
+
   const bar = document.getElementById('filters-active-bar');
   if (!bar) return;
 

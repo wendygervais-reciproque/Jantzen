@@ -75,12 +75,12 @@
   <main id="stage">
     <div id="map" role="application" aria-label="Carte interactive de Paris"></div>
     <div id="mosaic" role="region" hidden aria-label="Mosaïque des bâtiments"></div>
-    <p id="stage-empty" hidden aria-live="polite">Aucun résultat.<br>Modifiez vos critères de recherche.</p>
+    <p id="stage-empty" role="status" aria-live="polite"></p>
   </main>
 
   <!-- ── MARQUE + À PROPOS ── -->
   <nav id="brand-bar" aria-label="Navigation principale">
-    <h1 id="brand-heading"><a href="" id="brand-home">DEV - 31/08/2026 - 15h03 - BETA 1.1</a></h1>
+    <h1 id="brand-heading"><a href="" id="brand-home">DEV - 01/09/2026 - 10h03 - BETA 1.1</a></h1>
     <span class="brand-sep" aria-hidden="true"></span>
     <a href="#" id="brand-about">À propos</a>
   </nav>
@@ -115,6 +115,7 @@
           aria-haspopup="dialog" aria-controls="filters-panel"
           aria-expanded="false" aria-label="Filtres">
     <svg class="icon" aria-hidden="true"><use href="#i-filter"/></svg>
+    <span id="filters-fab-badge" class="fab-badge" hidden></span>
   </button>
 
   <div id="filters-panel" role="region" aria-label="Filtres">
@@ -263,7 +264,7 @@
 
   <!-- ── LIENS DISCRETS ── -->
   <div id="footer-links">
-    <a href="#" id="link-cgu">Mentions légales</a>
+    <a href="https://www.musee-orsay.fr/fr/mentions-legales" target="_blank" rel="noopener">Mentions légales</a>
   </div>
 
 </div><!-- end #app -->

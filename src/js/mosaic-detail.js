@@ -38,6 +38,7 @@ async function openMosaicDetail(id_bat) {
   const panel = document.getElementById('mosaic-detail');
   if (!panel) return;
 
+  panel.classList.remove('is-closing');
   panel.hidden = false;
   document.getElementById('app')?.classList.add('has-detail');
 
@@ -46,6 +47,11 @@ async function openMosaicDetail(id_bat) {
     panel.setAttribute('aria-modal', 'true');
     if (typeof setAppSiblingsInert === 'function') setAppSiblingsInert(panel, true);
     document.getElementById('mosaic-detail-close')?.focus();
+    // Classe retirée après coup (voir plus bas) pour pouvoir la rejouer à
+    // chaque ouverture — sinon une classe déjà présente ne redéclenche pas
+    // l'animation CSS.
+    panel.classList.add('is-opening');
+    panel.addEventListener('animationend', () => panel.classList.remove('is-opening'), { once: true });
   }
 
   const info   = document.getElementById('md-info');
@@ -74,14 +80,29 @@ async function openMosaicDetail(id_bat) {
 function closeMosaicDetail() {
   const panel = document.getElementById('mosaic-detail');
   if (panel) {
-    panel.hidden = true;
     // Vérifié via l'attribut plutôt que re-testé via isMobileLayout() : reste
     // cohérent même si la fenêtre a changé de largeur pendant l'ouverture —
     // on ne défait que ce que l'ouverture a effectivement posé.
-    if (panel.hasAttribute('aria-modal')) {
+    const wasModal = panel.hasAttribute('aria-modal');
+    if (wasModal) {
       panel.removeAttribute('role');
       panel.removeAttribute('aria-modal');
       if (typeof setAppSiblingsInert === 'function') setAppSiblingsInert(panel, false);
+    }
+    // Fermé avant la fin de l'animation d'ouverture : on l'interrompt pour
+    // ne pas la faire cohabiter avec celle de fermeture ci-dessous.
+    panel.classList.remove('is-opening');
+    // Le panneau reste affiché (display:flex, cf. [hidden]!important sinon)
+    // le temps de l'animation de fermeture, en mobile uniquement — voir
+    // `.is-closing` dans main.css. Repli via timeout si l'animation ne se
+    // déclenche pas (prefers-reduced-motion, etc.).
+    if (wasModal) {
+      panel.classList.add('is-closing');
+      const finish = () => { panel.classList.remove('is-closing'); panel.hidden = true; };
+      panel.addEventListener('animationend', finish, { once: true });
+      setTimeout(finish, 300);
+    } else {
+      panel.hidden = true;
     }
   }
   document.getElementById('app')?.classList.remove('has-detail');
