@@ -497,6 +497,8 @@ function isHoverPointer() {
  *     card ouvre la page, reclic sur le POI ferme la card.
  */
 function togglePoiClick(id) {
+  const isMobile = window.innerWidth <= 900;
+
   if (String(selectedId) === String(id)) {   // page ouverte pour ce bâtiment
     deselectBatiment();                       // reclic → ferme la page
     return;
@@ -519,6 +521,26 @@ function togglePoiClick(id) {
   poiPinnedId = id;                           // épingle ce POI
   refreshPoiActive();
   openPoiCard(id);
+
+  if (isMobile && markerMap[id]) {
+      centerMarkerForMobile(markerMap[id]);
+  }
+}
+
+function centerMarkerForMobile(marker) {
+  if (!map || !marker) return;
+
+  const targetLatLng = marker.getLatLng();
+  
+  // 1. On va sur le marqueur
+  map.panTo(targetLatLng, { animate: false });
+
+  // 2. On décale la vue vers le haut (ex: -120px sur l'axe Y) 
+  // pour que le marqueur se retrouve dans la moitié inférieure de l'écran.
+  // Ajuste '120' selon la hauteur de ta popup/card.
+  const offsetY = -220; 
+
+  map.panBy([0, offsetY], { animate: true });
 }
 
 /** Applique .active au POI focalisé (sélection prioritaire, sinon épinglé). */
@@ -571,10 +593,14 @@ function flyToFeature(id_bat, attemptsLeft = 20) {
   if (!marker) return; // sécurité : le bâtiment n'est pas dans currentFeatures (filtré ?)
 
 clusterGroup.zoomToShowLayer(marker, () => {
-  map.panTo(marker.getLatLng(), { animate: true });
-  // Le marqueur n'a pu recevoir .active tant qu'il restait groupé dans un
-  // cluster (pas de nœud DOM à cibler avant cet éclatement) : on réapplique
-  // l'état une fois qu'il est effectivement affiché seul.
+  const isMobile = window.innerWidth <= 900;
+  if (isMobile) {
+    centerMarkerForMobile(marker);
+  }
+
+  else {
+    map.panTo(marker.getLatLng(), { animate: true });
+  }
   if (typeof refreshPoiActive === 'function') refreshPoiActive();
 });
 }
