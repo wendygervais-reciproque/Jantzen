@@ -509,18 +509,22 @@ let hasFittedInitialView = false;
 function fitMapToResults() {
   if (!map || !currentFeatures || currentFeatures.length === 0) return;
 
+  const isDesktop = window.innerWidth > 900;
+  const paddingRight = isDesktop ? 60 : 20; 
+  const mapOptions = {
+    paddingTopLeft:     [40, 40],
+    paddingBottomRight: [paddingRight, 40],
+    maxZoom: 16
+  };
+
   if (!hasFittedInitialView) {
     hasFittedInitialView = true;
     const arrBounds = (typeof ARR_POLYGONS !== 'undefined' && ARR_POLYGONS)
       ? L.geoJSON(ARR_POLYGONS).getBounds()
       : null;
+
     if (arrBounds && arrBounds.isValid()) {
-      map.fitBounds(arrBounds, {
-        // Marge asymétrique : plus de marge à gauche qu'à droite pour décaler
-        // la carte légèrement vers la droite.
-        paddingTopLeft:     [140, 20],
-        paddingBottomRight: [20, 20]
-      });
+      map.fitBounds(arrBounds,mapOptions);
       return;
     }
   }
@@ -535,10 +539,7 @@ function fitMapToResults() {
   const bounds = tempLayer.getBounds();
 
   if (bounds.isValid()) {
-    map.fitBounds(bounds, {
-      padding: [40, 40], // Marge en pixels autour des éléments
-      maxZoom: 16        // Limite le zoom pour éviter d'être trop près s'il n'y a qu'un seul bâtiment
-    });
+    map.fitBounds(bounds, mapOptions);
   }
 }
 
