@@ -154,6 +154,17 @@ function initMap() {
   // Bascule automatique arrondissements ↔ bâtiments au franchissement du seuil
   map.on('zoomend', () => applyMapMode(false));
 
+  // Tactile : un clic sur la carte (hors POI/card, qui interceptent déjà le
+  // clic — bubblingMouseEvents désactivé par défaut sur les marqueurs) ferme
+  // la card épinglée, comme le ferait un reclic sur le POI.
+  map.on('click', () => {
+    if (poiPinnedId == null) return;
+    const id = poiPinnedId;
+    poiPinnedId = null;
+    markerMap[id]?.closePopup();
+    refreshPoiActive();
+  });
+
   // Rien ne mesurait la carte au redimensionnement de la fenêtre : Leaflet
   // garde alors la taille de conteneur connue à l'initialisation, et les
   // positions écran qu'il calcule (marqueurs, polygones) dérivent de celles

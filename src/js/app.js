@@ -194,6 +194,7 @@ function bindFiltersPanel() {
 function bindFiltersFab() {
   document.getElementById('filters-fab')?.addEventListener('click', openFiltersMobile);
   document.getElementById('filters-close')?.addEventListener('click', closeFiltersMobile);
+  document.getElementById('filters-footer-back')?.addEventListener('click', closeFiltersMobile);
 }
 
 function openFiltersMobile() {

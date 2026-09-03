@@ -1151,18 +1151,28 @@ button { font-family: inherit; }
   display: flex; align-items: center; justify-content: center;
   padding: var(--component-48);
 }
+/* Hauteur figée sur le conteneur (et non déduite du contenu) : la légende et
+   la rangée d'actions restent ainsi à une position fixe d'une photo à
+   l'autre, quel que soit son ratio — seule la zone image (flexible) absorbe
+   la variation de hauteur, au lieu de faire varier la hauteur du groupe
+   entier (qui déplaçait tout le bloc, centré verticalement dans #lightbox). */
 #lightbox-figure {
   display: flex; flex-direction: column; align-items: center; gap: var(--component-gap-12);
-  max-width: 100%; max-height: 100%; min-width: 0;
+  width: 100%; height: 100%; max-width: 100%; max-height: 100%; min-width: 0;
+}
+#lightbox-img-wrap {
+  flex: 1 1 auto; min-height: 0; width: 100%;
+  display: flex; align-items: center; justify-content: center;
 }
 #lightbox-img {
   max-width: 100%;
-  max-height: calc(100vh - 160px);
+  max-height: 100%;
   object-fit: contain;
   border-radius: var(--radius-media);
   background: var(--background-subtle);
 }
 #lightbox-caption {
+  flex-shrink: 0;
   font: var(--text-body-base);
   color: var(--text-on-inverse);
   text-align: center;
@@ -1179,7 +1189,7 @@ button { font-family: inherit; }
    varie avec son ratio (object-fit: contain) — les flèches ne se déplacent
    donc plus d'une photo à l'autre. */
 #lightbox-nav-row {
-  display: flex; gap: var(--component-gap-12);
+  display: flex; flex-shrink: 0; gap: var(--component-gap-12);
 }
 #lightbox-close {
   position: absolute; top: var(--component-24); right: var(--component-24);
@@ -1203,7 +1213,7 @@ button { font-family: inherit; }
   transform: translate(-50%);
   bottom: 16px;
   display: flex; gap: var(--component-gap-8);
-  font-size: var(--text-interface-caption-size);
+  font-size: var(--text-body-small);
   color: var(--text-secondary);
 }
 #footer-links a {
@@ -1307,7 +1317,7 @@ button { font-family: inherit; }
    !important) ; placés ici, après leurs règles de composant respectives
    (`.view-btn, #filters-fab` et `.modal-close-btn`), pour l'emporter dans
    la cascade à spécificité égale. */
-#filters-fab, #filters-close { display: none; }
+#filters-fab, #filters-close, #filters-footer { display: none; }
 
 @media (max-width: 1279px) {
   #filters-panel { width: 240px; }
@@ -1377,6 +1387,41 @@ button { font-family: inherit; }
   #filters-panel.filters-mobile-open,
   #filters-panel.filters-mobile-closing { display: flex; z-index: 900; }
   #filters-body { flex: 1 1 auto; }
+
+  /* Barre basse sticky : nombre de résultats à gauche, retour à droite —
+     toujours visible, quel que soit le défilement dans #filters-body. */
+  #filters-footer {
+    display: flex; align-items: center; justify-content: space-between;
+    gap: var(--component-gap-16);
+    flex-shrink: 0;
+    padding: var(--component-12) var(--component-16);
+    padding-bottom: calc(var(--component-12) + env(safe-area-inset-bottom, 0px));
+    border-top: 1px solid var(--border-subtle);
+    background: var(--surface-level-01);
+  }
+  #filters-footer-count {
+    font: var(--text-interface-overline);
+    letter-spacing: var(--text-interface-overline-ls);
+    text-transform: uppercase;
+    color: var(--text-secondary);
+  }
+  #filters-footer-back {
+    flex-shrink: 0;
+    height: 40px;
+    padding: 0 var(--component-16);
+    display: flex; align-items: center; justify-content: center;
+    font: var(--text-interface-button-medium);
+    color: var(--button-primary-content-default);
+    background: var(--button-primary-background-default);
+    border: 1px solid var(--button-primary-border-default);
+    border-radius: var(--radius-full);
+    cursor: pointer;
+    transition: background 0.15s, border-color 0.15s;
+  }
+  #filters-footer-back:hover {
+    background: var(--button-primary-background-hover);
+    border-color: var(--button-primary-border-hover);
+  }
 
   /* ── FICHE BÂTIMENT EN MODALE PLEIN ÉCRAN ─────────────────────────────────
      Le redimensionnement n'a pas de sens en plein écran : la tirette est

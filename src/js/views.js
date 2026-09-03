@@ -66,9 +66,11 @@ function setView(view) {
 }
 
 function updateResultsCount(features) {
+  const text = `${features.length} résultat${features.length > 1 ? 's' : ''}`;
   const count = document.getElementById('search-results-count');
-  if (!count) return;
-  count.textContent = `${features.length} résultat${features.length > 1 ? 's' : ''}`;
+  if (count) count.textContent = text;
+  const footerCount = document.getElementById('filters-footer-count');
+  if (footerCount) footerCount.textContent = text;
 }
 
 function updateStageEmpty(features) {

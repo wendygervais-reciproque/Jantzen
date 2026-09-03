@@ -229,6 +229,15 @@
       </div>
 
     </div>
+
+    <!-- Barre basse sticky, mobile/tablette uniquement (voir media query
+         dans main.css) : rappelle le nombre de résultats et permet de
+         refermer la modale sans remonter jusqu'à la croix, quelle que soit
+         la profondeur de défilement dans les filtres. -->
+    <div id="filters-footer">
+      <span id="filters-footer-count" aria-live="polite"></span>
+      <button id="filters-footer-back" type="button">Retour aux résultats</button>
+    </div>
   </div>
 
   <!-- ── VOLET DÉTAIL BÂTIMENT (infos + photos) — carte et mosaïque ── -->
@@ -275,7 +284,9 @@
     <svg class="icon" aria-hidden="true"><use href="#i-close"/></svg>
   </button>
   <figure id="lightbox-figure">
-    <img id="lightbox-img" alt=""/>
+    <div id="lightbox-img-wrap">
+      <img id="lightbox-img" alt=""/>
+    </div>
     <figcaption id="lightbox-caption"></figcaption>
     <div id="lightbox-nav-row">
       <button class="lightbox-nav" id="lightbox-prev" aria-label="Photo précédente">
