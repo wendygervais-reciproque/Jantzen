@@ -14,9 +14,6 @@ const markerMap = {};     // id_bat → marker Leaflet (vue bâtiments)
 
 let currentFeatures = []; // features actuellement affichées (après filtres)
 let currentMode = null;   // 'arr' | 'buildings'
-let arrBoundsByCode = {}; // c_ar → L.LatLngBounds du polygone (showArrondissementView) —
-                           // reconstruit à chaque rendu ; sert à restreindre la reprise du
-                           // focus clavier après activation d'un rond (cf. bindClusterKeyboard).
 
 const ARR_ZOOM_THRESHOLD = 14; // zoom < seuil → vue arrondissements
 const MAX_ZOOM = 19;
@@ -126,70 +123,58 @@ function elementLatLng(el) {
 }
 
 /**
- * Focalise, parmi les POI/grappes actuellement affichés, le plus proche de
- * `latlng`. Restreint d'abord à `bounds` quand fourni — les limites exactes
- * de la grappe/de l'arrondissement qui vient d'être activé — pour ne jamais
- * ramasser un élément d'à côté (ex. un bâtiment de l'arrondissement voisin,
- * géographiquement proche du rond cliqué mais hors de son tracé) ; si rien
- * ne s'y trouve (bornes très serrées, imprécision de projection), on retombe
- * sur la recherche non restreinte plutôt que de laisser le focus perdu.
+ * Focalise, parmi les POI/grappes actuellement affichés DANS L'EMPRISE
+ * VISIBLE de la carte, le plus proche de `latlng`. Restreindre à l'emprise
+ * visible (plutôt que de comparer à toute la carte) évite de ramasser un
+ * élément d'à côté (ex. un bâtiment de l'arrondissement voisin, hors écran
+ * mais géographiquement proche du rond cliqué). Renvoie l'élément focalisé,
+ * ou null.
  */
-function focusNearestMapChild(latlng, bounds) {
-  const candidates = [...document.querySelectorAll('.marker-poi, .cluster-marker, .arr-cluster-marker')];
-  const nearest = restrictToBounds => {
-    let best = null, bestDist = Infinity;
-    for (const el of candidates) {
-      const ll = elementLatLng(el);
-      if (restrictToBounds && !bounds.contains(ll)) continue;
-      const d = ll.distanceTo(latlng);
-      if (d < bestDist) { bestDist = d; best = el; }
-    }
-    return best;
-  };
-  const best = (bounds && nearest(true)) || nearest(false);
-  best?.focus();
+function focusVisibleMapChild(latlng) {
+  const bounds = map.getBounds();
+  let best = null, bestDist = Infinity;
+  document.querySelectorAll('.marker-poi, .cluster-marker, .arr-cluster-marker').forEach(el => {
+    const ll = elementLatLng(el);
+    if (!bounds.contains(ll)) return;
+    const d = ll.distanceTo(latlng);
+    if (d < bestDist) { bestDist = d; best = el; }
+  });
+  if (!best) return null;
+  best.focus();
+  return best;
 }
 
 /**
  * Activer une grappe au clavier la fait disparaître — remplacée par un zoom
  * (POI/sous-grappes révélés) ou, sur une grappe déjà irréductible au zoom
- * courant (pas seulement au zoom max de la carte), un éclatement en spirale
- * sur place (spiderfy) — sans lui laisser de successeur évident à focaliser :
- * le focus retombait sur le document, puis Tab reprenait au premier POI/
- * grappe du DOM, sans rapport avec ce qui venait de se passer à l'écran.
+ * courant, un éclatement en spirale sur place (spiderfy) — sans lui laisser
+ * de successeur évident à focaliser : le focus retombait sur le document.
  *
- * Ces deux issues sont distinctes (événements 'moveend' de la carte /
- * 'spiderfied' du plugin de cluster) mais convergent vers la même reprise :
- * reposer le focus sur ce qui est apparu le plus près d'où l'utilisateur en
- * était, dans les limites de `bounds` (cf. focusNearestMapChild). 'moveend'
- * (pas 'zoomend' seul) : c'est l'événement qui garantit que Leaflet a fini de
- * repositionner ses calques pour la nouvelle vue, zoom ET pan compris — y
- * compris pour les grappes que le plugin recycle (même élément DOM repris et
- * repositionné) plutôt que détruit et reconstruit, ce qui rend illusoire
- * toute tentative de confirmer la bonne transition par la disparition d'un
- * élément précis : mieux vaut réagir au premier 'moveend'/'spiderfied` venu.
+ * On revérifie périodiquement l'état réel de la carte (`focusVisibleMapChild`
+ * ci-dessus) jusqu'à y trouver quelque chose à focaliser, plutôt que
+ * d'essayer de deviner le bon événement Leaflet à écouter pour agir « juste
+ * après » la transition.
+ *
+ * On NE S'ARRÊTE PAS à la première réussite : le rendu des grappes est
+ * chunké (`chunkedLoading`, cf. initMap), donc réparti sur plusieurs frames
+ * — un candidat focalisé tôt peut voir son icône remplacée un instant plus
+ * tard par un chunk suivant qui réorganise le regroupement autour de lui,
+ * orphelinant le focus posé sans qu'aucune erreur ne le signale (l'animation
+ * de zoom, elle, continue de jouer normalement). Chaque passage revérifie
+ * donc si le focus courant est toujours sur un POI/grappe bien présent dans
+ * le DOM, et ne le retouche que s'il a été perdu entre-temps — jusqu'à ce
+ * que plus rien ne le déloge.
  */
-function scheduleClusterFocusHandoff(latlng, getBounds) {
-  let settled = false;
-  const finish = () => {
-    if (settled) return;
-    settled = true;
-    map.off('moveend', finish);
-    clusterGroup.off('spiderfied', finish);
-    // `getBounds` résolu ici seulement (pas avant) : les bornes exactes (ex.
-    // 'clusterclick' du plugin) ne sont connues qu'une fois le clic joué.
-    focusNearestMapChild(latlng, getBounds());
+function scheduleClusterFocusHandoff(latlng) {
+  const deadline = Date.now() + 2000;
+  const tick = () => {
+    const active = document.activeElement;
+    const stillOnMapChild = active?.matches?.('.marker-poi, .cluster-marker, .arr-cluster-marker')
+      && document.body.contains(active);
+    if (!stillOnMapChild) focusVisibleMapChild(latlng);
+    if (Date.now() < deadline) setTimeout(tick, 150);
   };
-  map.once('moveend', finish);
-  clusterGroup.once('spiderfied', finish);
-  // Filet de sécurité : le clic n'a exceptionnellement provoqué ni zoom/pan
-  // ni éclatement (ex. bornes déjà résolues) — on n'attend pas indéfiniment.
-  setTimeout(() => {
-    if (settled) return;
-    settled = true;
-    map.off('moveend', finish);
-    clusterGroup.off('spiderfied', finish);
-  }, 1500);
+  setTimeout(tick, 150);   // laisse la transition du clic s'amorcer avant le premier essai
 }
 
 /**
@@ -208,32 +193,14 @@ function scheduleClusterFocusHandoff(latlng, getBounds) {
  * showArrondissementView) plutôt que par référence.
  */
 function bindClusterKeyboard() {
-  // 'clusterclick' (événement du plugin) donne accès à l'objet L.MarkerCluster
-  // réellement cliqué — et donc à ses bornes exactes (`getBounds()`), qui ne
-  // se déduisent pas de son icône DOM (position ponctuelle, pas une emprise).
-  // Capturé ici (une seule fois, à l'écoute en continu) plutôt qu'en tentant
-  // de le retrouver après coup : la grappe cliquée aura déjà disparu.
-  let lastClusterClickBounds = null;
-  clusterGroup.on('clusterclick', e => { lastClusterClickBounds = e.layer.getBounds(); });
-
   map.getContainer().addEventListener('keydown', e => {
     if (e.key !== 'Enter' && e.key !== ' ') return;
     const target = e.target.closest('.cluster-marker, .arr-cluster-marker');
     if (!target) return;
     e.preventDefault();   // Espace ne doit pas faire défiler la page
     const latlng = elementLatLng(target);
-    // Rond d'arrondissement : pas de 'clusterclick' (hors clusterGroup, cf.
-    // showArrondissementView) — ses bornes sont retrouvées via le code
-    // d'arrondissement posé sur .arr-cluster-dot plutôt que recalculées.
-    const arrCode = target.querySelector('.arr-cluster-dot')?.dataset.arr;
-    lastClusterClickBounds = null;
-    // Écouteurs posés avant le clic (cf. scheduleClusterFocusHandoff) — un
-    // clic peut déclencher 'moveend'/'spiderfied' de façon synchrone.
-    scheduleClusterFocusHandoff(
-      latlng,
-      () => lastClusterClickBounds || (arrCode != null ? arrBoundsByCode[arrCode] : null)
-    );
-    target.click();   // synchrone : peuple lastClusterClickBounds si c'est une grappe bâtiments
+    target.click();
+    scheduleClusterFocusHandoff(latlng);
   });
 
   // 'focus' ne bulle pas ('focusin' oui) : nécessaire ici puisqu'on délègue,
@@ -426,7 +393,6 @@ function showArrondissementView() {
 
   if (arrGeoLayer) { map.removeLayer(arrGeoLayer); arrGeoLayer = null; }
   arrLabelGroup.clearLayers();
-  arrBoundsByCode = {};
 
   if (typeof ARR_POLYGONS === 'undefined' || !ARR_POLYGONS) return;
 
@@ -450,7 +416,6 @@ function showArrondissementView() {
       // fitBounds tournent bien à chaque fois, seul le zoom obtenu stagne).
       // On plafonne donc au minimum au seuil de bascule.
       const bounds = layer.getBounds();
-      arrBoundsByCode[c_ar] = bounds;   // cf. bindClusterKeyboard() : reprise du focus après activation
       const zoomToArr = () => {
         const zoom = Math.max(map.getBoundsZoom(bounds, false, [30, 30]), ARR_ZOOM_THRESHOLD);
         map.setView(bounds.getCenter(), zoom);
@@ -479,7 +444,7 @@ function showArrondissementView() {
         // bindClusterKeyboard() de repérer ce rond parmi tout ce que la
         // carte peut contenir, sans dépendre de sa structure interne.
         className: 'arr-cluster-marker',
-        html: `<div class="cluster-dot arr-cluster-dot" data-arr="${c_ar}" style="width:${size}px;height:${size}px;
+        html: `<div class="cluster-dot arr-cluster-dot" style="width:${size}px;height:${size}px;
                  transform:translate(calc(-50% + ${dotOffsetX}px), -50%)" aria-label="${n} bâtiments, ${ordinalArr(c_ar)} arrondissement">${n}</div>`,
         iconSize: [0, 0]
       });
