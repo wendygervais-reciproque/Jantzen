@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+  <link rel="icon" href="src/assets/icons/favicon.ico" sizes="any">
+  <link rel="icon" href="src/assets/icons/favicon.svg" type="image/svg+xml">
+  <meta name="theme-color" content="#B89862">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Architecture Paris — Base photographique Jantzen</title>
@@ -14,8 +17,6 @@
 
 <!-- ── SPRITE D'ICÔNES ── -->
 <svg id="icon-sprite" aria-hidden="true">
-  <!-- Tracés relevés tels quels dans le document Figma (Material Symbols) :
-       chaque symbole garde le viewBox de l'export, la taille est posée en CSS. -->
   <symbol id="i-map" viewBox="0 0 19.8333 19.7435">
     <path d="M13.4167 19.7435L6.41667 17.2935L1.39563 19.2363C1.05165 19.3695 0.733056 19.3314 0.439833 19.122C0.146611 18.9125 0 18.6261 0 18.2627V2.96159C0 2.73117 0.0617363 2.52438 0.185209 2.34121C0.308486 2.15804 0.481639 2.02533 0.704667 1.94308L6.41667 0L13.4167 2.45L18.4377 0.507209C18.7817 0.374014 19.1003 0.406487 19.3935 0.604626C19.6867 0.802765 19.8333 1.07985 19.8333 1.43588V16.8268C19.8333 17.0646 19.7661 17.2733 19.6315 17.4528C19.4968 17.6322 19.3143 17.7631 19.084 17.8453L13.4167 19.7435ZM12.5417 17.6033V3.95325L7.29167 2.11779V15.7678L12.5417 17.6033Z"/>
   </symbol>
@@ -70,13 +71,6 @@
 </svg>
 
 <div id="app">
-
-  <!-- ── FOND : carte ou mosaïque ── -->
-  <main id="stage">
-    <div id="map" role="application" aria-label="Carte interactive de Paris"></div>
-    <div id="mosaic" role="region" hidden aria-label="Mosaïque des bâtiments"></div>
-    <p id="stage-empty" role="status" aria-live="polite"></p>
-  </main>
 
   <!-- ── MARQUE + À PROPOS ── -->
   <nav id="brand-bar" aria-label="Navigation principale">
@@ -239,6 +233,18 @@
       <button id="filters-footer-back" type="button">Retour aux résultats</button>
     </div>
   </div>
+
+  <!-- ── FOND : carte ou mosaïque ──
+       Après le chrome (marque, recherche, bascule, filtres) plutôt qu'avant :
+       tout est positionné en absolute/fixed (voir #app/#stage dans main.css),
+       donc l'ordre du DOM ne pèse que sur l'ordre de tabulation — placé en
+       tête, #stage faisait passer le clavier par les centaines de POI/grappes
+       de la carte avant d'atteindre le moindre bouton de l'interface. -->
+  <main id="stage">
+    <div id="map" role="application" aria-label="Carte interactive de Paris"></div>
+    <div id="mosaic" role="region" hidden aria-label="Mosaïque des bâtiments"></div>
+    <p id="stage-empty" role="status" aria-live="polite"></p>
+  </main>
 
   <!-- ── VOLET DÉTAIL BÂTIMENT (infos + photos) — carte et mosaïque ── -->
   <aside id="mosaic-detail" aria-label="Détail du bâtiment" hidden>

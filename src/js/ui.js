@@ -20,7 +20,9 @@ function selectBatiment(id_bat) {
     el.classList.toggle('is-active', String(el.dataset.id) === String(id_bat));
   });
 
-  presentSelection(id_bat);
+  // moveFocus: true — nouvelle sélection franche, comme l'ouverture d'une
+  // modale/lightbox : le focus doit entrer dans le volet qui s'ouvre.
+  presentSelection(id_bat, true);
   if (typeof writeStateToHash === 'function') writeStateToHash('push');
 }
 
@@ -28,11 +30,12 @@ function selectBatiment(id_bat) {
  * Affiche le bâtiment sélectionné : volet détail (commun aux deux vues), et,
  * en vue carte, recentrage sur son marqueur. Séparé de selectBatiment pour
  * pouvoir ré-afficher à l'identique lors d'une bascule de vue, sans repasser
- * par la sélection (ni ré-écrire l'URL).
+ * par la sélection (ni ré-écrire l'URL) — d'où `moveFocus`, à false par
+ * défaut : cette ré-présentation ne doit pas voler le focus à l'utilisateur.
  */
-function presentSelection(id_bat) {
+function presentSelection(id_bat, moveFocus = false) {
   if (currentView === 'map' && typeof flyToFeature === 'function') flyToFeature(id_bat);
-  openMosaicDetail(id_bat);
+  openMosaicDetail(id_bat, { moveFocus });
   // Le POI du bâtiment ouvert reste « activé » (utile quand la card est fermée).
   if (typeof refreshPoiActive === 'function') refreshPoiActive();
 }

@@ -14,6 +14,9 @@ const markerMap = {};     // id_bat → marker Leaflet (vue bâtiments)
 
 let currentFeatures = []; // features actuellement affichées (après filtres)
 let currentMode = null;   // 'arr' | 'buildings'
+let arrBoundsByCode = {}; // c_ar → L.LatLngBounds du polygone (showArrondissementView) —
+                           // reconstruit à chaque rendu ; sert à restreindre la reprise du
+                           // focus clavier après activation d'un rond (cf. bindClusterKeyboard).
 
 const ARR_ZOOM_THRESHOLD = 14; // zoom < seuil → vue arrondissements
 const MAX_ZOOM = 19;
@@ -88,11 +91,161 @@ function buildClusterIcon(cluster) {
   const size  = clusterSize(count);
 
   // Le corps de texte est fixé en CSS : seul le disque varie.
+  // aria-label sur ce div (unique enfant) : au clavier, Leaflet pose
+  // tabindex/role="button" sur le wrapper qu'il génère lui-même (donc hors de
+  // notre contrôle direct), mais le nom accessible d'un rôle sans aria-label
+  // propre se calcule à partir de celui de ses enfants — voir
+  // bindClusterKeyboard() ci-dessous pour l'activation au clavier (Leaflet
+  // pose le tabindex mais ne câble pas Entrée/Espace vers le clic).
   return L.divIcon({
     className: 'cluster-marker',
-    html: `<div class="cluster-dot" style="width:${size}px;height:${size}px">${count}</div>`,
+    html: `<div class="cluster-dot" style="width:${size}px;height:${size}px" aria-label="${count} bâtiments, agrandir">${count}</div>`,
     iconSize:   L.point(size, size),
     iconAnchor: L.point(size / 2, size / 2)
+  });
+}
+
+/**
+ * LatLng d'un marqueur/grappe à partir de sa position réellement rendue à
+ * l'écran (centre de son `getBoundingClientRect()`), plutôt que
+ * `L.DomUtil.getPosition()` : ce dernier lit `_leaflet_pos`, une propriété
+ * que Leaflet cache sur l'icône et qui peut rester à (0,0) juste après un
+ * grand saut de zoom — DOM fraîchement (ré)inséré, icône recyclée depuis le
+ * pool du plugin de cluster sans repasser par un `setPosition` synchrone —
+ * alors que le rectangle CSS, lui, reflète toujours ce qui est effectivement
+ * affiché.
+ */
+function elementLatLng(el) {
+  const rect = el.getBoundingClientRect();
+  const mapRect = map.getContainer().getBoundingClientRect();
+  const containerPoint = L.point(
+    rect.left + rect.width / 2 - mapRect.left,
+    rect.top + rect.height / 2 - mapRect.top
+  );
+  return map.containerPointToLatLng(containerPoint);
+}
+
+/**
+ * Focalise, parmi les POI/grappes actuellement affichés, le plus proche de
+ * `latlng`. Restreint d'abord à `bounds` quand fourni — les limites exactes
+ * de la grappe/de l'arrondissement qui vient d'être activé — pour ne jamais
+ * ramasser un élément d'à côté (ex. un bâtiment de l'arrondissement voisin,
+ * géographiquement proche du rond cliqué mais hors de son tracé) ; si rien
+ * ne s'y trouve (bornes très serrées, imprécision de projection), on retombe
+ * sur la recherche non restreinte plutôt que de laisser le focus perdu.
+ */
+function focusNearestMapChild(latlng, bounds) {
+  const candidates = [...document.querySelectorAll('.marker-poi, .cluster-marker, .arr-cluster-marker')];
+  const nearest = restrictToBounds => {
+    let best = null, bestDist = Infinity;
+    for (const el of candidates) {
+      const ll = elementLatLng(el);
+      if (restrictToBounds && !bounds.contains(ll)) continue;
+      const d = ll.distanceTo(latlng);
+      if (d < bestDist) { bestDist = d; best = el; }
+    }
+    return best;
+  };
+  const best = (bounds && nearest(true)) || nearest(false);
+  best?.focus();
+}
+
+/**
+ * Activer une grappe au clavier la fait disparaître — remplacée par un zoom
+ * (POI/sous-grappes révélés) ou, sur une grappe déjà irréductible au zoom
+ * courant (pas seulement au zoom max de la carte), un éclatement en spirale
+ * sur place (spiderfy) — sans lui laisser de successeur évident à focaliser :
+ * le focus retombait sur le document, puis Tab reprenait au premier POI/
+ * grappe du DOM, sans rapport avec ce qui venait de se passer à l'écran.
+ *
+ * Ces deux issues sont distinctes (événements 'moveend' de la carte /
+ * 'spiderfied' du plugin de cluster) mais convergent vers la même reprise :
+ * reposer le focus sur ce qui est apparu le plus près d'où l'utilisateur en
+ * était, dans les limites de `bounds` (cf. focusNearestMapChild). 'moveend'
+ * (pas 'zoomend' seul) : c'est l'événement qui garantit que Leaflet a fini de
+ * repositionner ses calques pour la nouvelle vue, zoom ET pan compris — y
+ * compris pour les grappes que le plugin recycle (même élément DOM repris et
+ * repositionné) plutôt que détruit et reconstruit, ce qui rend illusoire
+ * toute tentative de confirmer la bonne transition par la disparition d'un
+ * élément précis : mieux vaut réagir au premier 'moveend'/'spiderfied` venu.
+ */
+function scheduleClusterFocusHandoff(latlng, getBounds) {
+  let settled = false;
+  const finish = () => {
+    if (settled) return;
+    settled = true;
+    map.off('moveend', finish);
+    clusterGroup.off('spiderfied', finish);
+    // `getBounds` résolu ici seulement (pas avant) : les bornes exactes (ex.
+    // 'clusterclick' du plugin) ne sont connues qu'une fois le clic joué.
+    focusNearestMapChild(latlng, getBounds());
+  };
+  map.once('moveend', finish);
+  clusterGroup.once('spiderfied', finish);
+  // Filet de sécurité : le clic n'a exceptionnellement provoqué ni zoom/pan
+  // ni éclatement (ex. bornes déjà résolues) — on n'attend pas indéfiniment.
+  setTimeout(() => {
+    if (settled) return;
+    settled = true;
+    map.off('moveend', finish);
+    clusterGroup.off('spiderfied', finish);
+  }, 1500);
+}
+
+/**
+ * Rend les grappes (bâtiments comme arrondissements) activables au clavier.
+ * Leaflet leur pose déjà tabindex="0"/role="button" par défaut (option
+ * `keyboard`, jamais désactivée ici — à l'inverse des POI, cf. leur
+ * `keyboard: false` et bindPoiKeyboard() plus bas), donc Tab les atteint déjà ;
+ * il manque Entrée/Espace → clic (que Leaflet ne câble pas lui-même), le
+ * recentrage au focus clavier (que bindPoiKeyboard fait pour les POI, cf. son
+ * commentaire sur :focus-visible), et la reprise du focus à l'éclatement
+ * d'une grappe (cf. scheduleClusterFocusHandoff ci-dessus). Une grappe
+ * n'existe qu'un temps (reconstruite à chaque changement de zoom/mode par le
+ * plugin de cluster ou showArrondissementView), donc pas d'écouteur par
+ * grappe : une seule délégation sur le conteneur de la carte, qui les
+ * retrouve via leur classe (posée par buildClusterIcon / le `dotIcon` de
+ * showArrondissementView) plutôt que par référence.
+ */
+function bindClusterKeyboard() {
+  // 'clusterclick' (événement du plugin) donne accès à l'objet L.MarkerCluster
+  // réellement cliqué — et donc à ses bornes exactes (`getBounds()`), qui ne
+  // se déduisent pas de son icône DOM (position ponctuelle, pas une emprise).
+  // Capturé ici (une seule fois, à l'écoute en continu) plutôt qu'en tentant
+  // de le retrouver après coup : la grappe cliquée aura déjà disparu.
+  let lastClusterClickBounds = null;
+  clusterGroup.on('clusterclick', e => { lastClusterClickBounds = e.layer.getBounds(); });
+
+  map.getContainer().addEventListener('keydown', e => {
+    if (e.key !== 'Enter' && e.key !== ' ') return;
+    const target = e.target.closest('.cluster-marker, .arr-cluster-marker');
+    if (!target) return;
+    e.preventDefault();   // Espace ne doit pas faire défiler la page
+    const latlng = elementLatLng(target);
+    // Rond d'arrondissement : pas de 'clusterclick' (hors clusterGroup, cf.
+    // showArrondissementView) — ses bornes sont retrouvées via le code
+    // d'arrondissement posé sur .arr-cluster-dot plutôt que recalculées.
+    const arrCode = target.querySelector('.arr-cluster-dot')?.dataset.arr;
+    lastClusterClickBounds = null;
+    // Écouteurs posés avant le clic (cf. scheduleClusterFocusHandoff) — un
+    // clic peut déclencher 'moveend'/'spiderfied' de façon synchrone.
+    scheduleClusterFocusHandoff(
+      latlng,
+      () => lastClusterClickBounds || (arrCode != null ? arrBoundsByCode[arrCode] : null)
+    );
+    target.click();   // synchrone : peuple lastClusterClickBounds si c'est une grappe bâtiments
+  });
+
+  // 'focus' ne bulle pas ('focusin' oui) : nécessaire ici puisqu'on délègue,
+  // faute d'écouteur posé sur chaque grappe (cf. commentaire ci-dessus).
+  // Pas de référence L.Marker sous la main (délégation) : la position
+  // géographique se retrouve à partir du rendu réel de l'icône (cf.
+  // elementLatLng), plutôt qu'en la recherchant dans clusterGroup/arrLabelGroup.
+  map.getContainer().addEventListener('focusin', e => {
+    if (!map || map.getSize().x === 0) return;
+    const target = e.target.closest('.cluster-marker, .arr-cluster-marker');
+    if (!target || !target.matches(':focus-visible')) return;
+    map.panTo(elementLatLng(target), { animate: true });
   });
 }
 
@@ -109,7 +262,14 @@ function initMap() {
     // pourtant destiné à un clic simple sur un autre élément — surtout
     // gênant en vue arrondissements, où les ronds sont proches les uns des
     // autres à l'écran.
-    doubleClickZoom: false})
+    doubleClickZoom: false,
+    // keyboard:false — évite que Leaflet pose tabindex="0" sur le conteneur
+    // pour son propre panoramique aux flèches : un arrêt de tabulation
+    // supplémentaire, sans rien à y activer (chaque POI/grappe est déjà
+    // atteignable individuellement), juste après les filtres. Les flèches ne
+    // pilotent donc plus la carte, mais tout le reste (Tab, Entrée/Espace sur
+    // POI et grappes) est indépendant de cette option.
+    keyboard: false})
     .setView([48.5131, 2.8], 13);
 
   L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png?key=cb1_2bz2_1_6017a8eaf6b69e397bb0242b', {
@@ -150,6 +310,8 @@ function initMap() {
   map.addLayer(clusterGroup);
 
   arrLabelGroup = L.layerGroup();
+
+  bindClusterKeyboard();
 
   // Bascule automatique arrondissements ↔ bâtiments au franchissement du seuil
   map.on('zoomend', () => applyMapMode(false));
@@ -264,6 +426,7 @@ function showArrondissementView() {
 
   if (arrGeoLayer) { map.removeLayer(arrGeoLayer); arrGeoLayer = null; }
   arrLabelGroup.clearLayers();
+  arrBoundsByCode = {};
 
   if (typeof ARR_POLYGONS === 'undefined' || !ARR_POLYGONS) return;
 
@@ -286,8 +449,9 @@ function showArrondissementView() {
       // ne fait que recalculer la même cible (rien à observer : le clic et
       // fitBounds tournent bien à chaque fois, seul le zoom obtenu stagne).
       // On plafonne donc au minimum au seuil de bascule.
+      const bounds = layer.getBounds();
+      arrBoundsByCode[c_ar] = bounds;   // cf. bindClusterKeyboard() : reprise du focus après activation
       const zoomToArr = () => {
-        const bounds = layer.getBounds();
         const zoom = Math.max(map.getBoundsZoom(bounds, false, [30, 30]), ARR_ZOOM_THRESHOLD);
         map.setView(bounds.getCenter(), zoom);
       };
@@ -310,9 +474,13 @@ function showArrondissementView() {
       const numOffsetX = -Math.round((ARR_LABEL_GAP + size) / 2);
 
       const dotIcon = L.divIcon({
-        className: '',
-        html: `<div class="cluster-dot arr-cluster-dot" style="width:${size}px;height:${size}px;
-                 transform:translate(calc(-50% + ${dotOffsetX}px), -50%)">${n}</div>`,
+        // Classe dédiée (Leaflet l'applique au wrapper qui reçoit
+        // tabindex/role="button") : c'est elle qui permet à
+        // bindClusterKeyboard() de repérer ce rond parmi tout ce que la
+        // carte peut contenir, sans dépendre de sa structure interne.
+        className: 'arr-cluster-marker',
+        html: `<div class="cluster-dot arr-cluster-dot" data-arr="${c_ar}" style="width:${size}px;height:${size}px;
+                 transform:translate(calc(-50% + ${dotOffsetX}px), -50%)" aria-label="${n} bâtiments, ${ordinalArr(c_ar)} arrondissement">${n}</div>`,
         iconSize: [0, 0]
       });
       // Interactif (contrairement au numéro) : pour un petit arrondissement au
@@ -330,7 +498,14 @@ function showArrondissementView() {
                  transform:translate(calc(-50% + ${numOffsetX}px), -50%)">${ordinalArr(c_ar)}</div>`,
         iconSize: [0, 0]
       });
-      L.marker([g.lat, g.lon], { icon: numIcon, interactive: false, pane: 'arrNumPane' }).addTo(arrLabelGroup);
+      // keyboard:false — `interactive:false` ne dispense pas Leaflet de poser
+      // tabindex="0"/role="button" (l'option keyboard, par défaut true, lui
+      // est indépendante) : sans ce flag, ce numéro pourtant décoratif
+      // (aucun clic, aucun clavier n'est censé y faire quoi que ce soit)
+      // devenait un arrêt de tabulation fantôme — imperceptible (icône 0×0,
+      // aucun style de focus) et redondant avec le rond, qui porte la même
+      // information de façon opérable.
+      L.marker([g.lat, g.lon], { icon: numIcon, interactive: false, keyboard: false, pane: 'arrNumPane' }).addTo(arrLabelGroup);
     }
   }).addTo(map);
 
@@ -441,15 +616,17 @@ function buildMapCard(props) {
  * Rend un POI joignable au clavier (RGAA 7.3 : toute fonctionnalité au
  * pointeur doit avoir un équivalent clavier) : Tab l'atteint comme un bouton,
  * Entrée/Espace reproduit le clic, et la prise de focus AU CLAVIER recentre
- * la carte dessus (équivalent du survol/clic à la souris).
+ * la carte dessus et ouvre la card d'aperçu — équivalent clavier du survol
+ * à la souris (mêmes fonctions openPoiCard/schedulePoiCardClose, donc même
+ * pont de survol et même respect d'un épinglage/sélection en cours).
  *
- * Le recentrage doit rester réservé au focus clavier : un clic souris pose
- * aussi le focus sur l'élément (comportement natif d'un tabindex="0"), et si
- * on recentrait dans tous les cas, le marqueur se déplaçait sous le curseur
- * entre le mousedown et le mouseup — Leaflet interprétait alors le geste
- * comme un glissé et n'émettait plus le 'click', empêchant l'ouverture de la
- * fiche bâtiment au clic. D'où le filtre sur :focus-visible, qui exclut
- * justement le focus déclenché par un pointeur.
+ * Le recentrage/aperçu doivent rester réservés au focus clavier : un clic
+ * souris pose aussi le focus sur l'élément (comportement natif d'un
+ * tabindex="0"), et si on agissait dans tous les cas, le marqueur se
+ * déplaçait sous le curseur entre le mousedown et le mouseup — Leaflet
+ * interprétait alors le geste comme un glissé et n'émettait plus le 'click',
+ * empêchant l'ouverture de la fiche bâtiment au clic. D'où le filtre sur
+ * :focus-visible, qui exclut justement le focus déclenché par un pointeur.
  */
 function bindPoiKeyboard(marker, id_bat, props) {
   const el = marker.getElement()?.querySelector('.marker-poi');
@@ -463,7 +640,13 @@ function bindPoiKeyboard(marker, id_bat, props) {
     if (!map || map.getSize().x === 0) return;
     if (!el.matches(':focus-visible')) return;
     map.panTo(marker.getLatLng(), { animate: true });
+    openPoiCard(id_bat);
   });
+  // Quitte le POI au clavier (Tab suivant/précédent) : referme l'aperçu,
+  // sauf s'il est épinglé ou survolé — même garde que schedulePoiCardClose
+  // au mouseout, pour ne jamais fermer une card que l'utilisateur pilote
+  // encore à la souris ou a explicitement épinglée.
+  el.addEventListener('blur', () => schedulePoiCardClose(id_bat));
   el.addEventListener('keydown', e => {
     if (e.key !== 'Enter' && e.key !== ' ') return;
     e.preventDefault();   // Espace ne doit pas faire défiler la page

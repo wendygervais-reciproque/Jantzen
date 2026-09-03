@@ -171,6 +171,14 @@ button { font-family: inherit; }
   font: var(--text-body-base);
   color: var(--input-content-default);
 }
+/* `outline: none` ci-dessus vaut aussi pour :focus-visible (sélecteur d'ID,
+   l'emporte sur la règle globale) : sans ce rappel, le focus clavier sur la
+   recherche ne se voit pas — un « trou » silencieux dans l'ordre de
+   tabulation plutôt qu'un vrai manque d'arrêt. */
+#search-input:focus-visible {
+  outline: 2px solid var(--focus-on-background-default);
+  outline-offset: 2px;
+}
 #search-input::placeholder { color: var(--input-placeholder-default); }
 #search-input::-webkit-search-cancel-button { display: none; }
 #search-clear {
@@ -530,6 +538,20 @@ button { font-family: inherit; }
 }
 .cluster-dot:hover { transform: scale(1.1); }
 
+/* Anneau de focus clavier des grappes d'arrondissement (vue ville) :
+   iconSize: [0,0] côté JS (le rond est positionné par transform CSS, pas par
+   les anchor/size Leaflet — cf. showArrondissementView()), donc l'élément qui
+   reçoit réellement le focus (et l'outline :focus-visible générique) est une
+   boîte de taille nulle posée sur le point géographique de l'arrondissement,
+   pas sur le rond affiché à côté. On retire cet anneau côté élément focalisé
+   et on le rejoue autour du rond (son seul enfant), qui a lui une vraie
+   taille. */
+.arr-cluster-marker:focus-visible { outline: none; }
+.arr-cluster-marker:focus-visible .arr-cluster-dot {
+  outline: 2px solid var(--focus-on-background-default);
+  outline-offset: 2px;
+}
+
 /* Emprise de la grappe au survol — doré Orsay (brand/600). */
 .cluster-coverage {
   fill: var(--background-brand-primary);
@@ -720,6 +742,12 @@ button { font-family: inherit; }
   position: sticky; top: 0; z-index: 2;
   background-color: var(--surface-level-01);
 }
+/* L'en-tête touche les 3 bords de #filters-body, qui défile (overflow: auto)
+   — l'anneau :focus-visible générique déborde de 2px (outline-offset positif)
+   et se fait donc rogner sur ces 3 côtés par le conteneur, ne laissant voir
+   que le bas : un simple filet plutôt qu'un cadre. Décalage négatif = anneau
+   rentré, jamais rogné, quel que soit le conteneur. */
+.filter-section-header:focus-visible { outline-offset: -2px; }
 /* Élévation la plus discrète (« anchored ») uniquement pendant que l'en-tête
    est effectivement collé — pas en position normale dans le flux. */
 .filter-section-header.is-stuck { box-shadow: var(--elevation-anchored); }
@@ -817,6 +845,12 @@ button { font-family: inherit; }
   border: none; outline: none; background: none;
   font: var(--text-body-base);
   color: var(--input-content-default);
+}
+/* Même rappel que #search-input : `outline: none` ci-dessus s'applique aussi
+   à :focus-visible et rendrait sinon le focus clavier invisible. */
+.thes-search input:focus-visible {
+  outline: 2px solid var(--focus-on-background-default);
+  outline-offset: 2px;
 }
 .thes-search input::placeholder { color: var(--input-placeholder-default); }
 .thes-search input::-webkit-search-cancel-button { display: none; }

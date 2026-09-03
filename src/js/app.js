@@ -258,6 +258,15 @@ function bindKeyboard() {
       if (isFiltersMobileOpen())               return closeFiltersMobile();
       if (isPageOpen())                        return closePage();
       if (selectedId !== null)                 return deselectBatiment();
+      // Échappatoire clavier de la carte (RGAA/ARIA : role="application" doit
+      // offrir un moyen évident d'en sortir) : avec des centaines de POI et
+      // grappes, Maj+Tab pour remonter aux filtres depuis le fond de la liste
+      // n'est pas praticable. Dernier recours (rien de plus spécifique à
+      // fermer ci-dessus) : si le focus est dans la carte, Échap le renvoie
+      // d'un coup au début de l'interface plutôt que de sortir un par un.
+      if (typeof map !== 'undefined' && map?.getContainer().contains(document.activeElement)) {
+        return document.getElementById('search-input')?.focus();
+      }
       return;
     }
 
@@ -271,6 +280,43 @@ function bindKeyboard() {
 }
 
 /* ─── APPLICATION DES FILTRES ───────────────────────────────────────────── */
+
+/**
+ * Les facettes thésaurus/architectes/périodes (et la barre de tags actifs)
+ * sont entièrement reconstruites à chaque applyFilters() — leurs compteurs
+ * en dépendent (voir renderThesaurusGroups/renderArchitectesList/
+ * renderPeriodesList/renderActiveTags ci-dessous) — contrairement aux puces
+ * d'arrondissement, mises à jour en place (updateArrondissementsData). La
+ * puce qu'on vient d'activer au clavier est donc détruite puis recréée : le
+ * focus retombe sur le document, et Tab reparfois du début de la facette.
+ * On mémorise avant rendu l'équivalent (même data-id, même conteneur) et on
+ * le retrouve après pour lui rendre le focus ; sans équivalent (bouton
+ * Réinitialiser ou croix d'un tag actif, qui disparaissent), on remonte au
+ * premier en-tête de section — le point d'entrée stable des filtres.
+ */
+function withFocusPreserved(fn) {
+  const active    = document.activeElement;
+  const chip      = active?.closest?.('.chip, #filter-reset-btn, .filter-active-tag-remove');
+  const container = chip?.closest?.('#thesaurus-groups, #archi-chips-container, #date-chips-container, #filters-active-bar');
+  const key       = chip?.dataset?.id;
+  const containerId = container?.id;
+
+  fn();
+
+  if (!chip || document.body.contains(chip)) return;   // rien détruit : pas d'intervention
+
+  if (key != null && containerId) {
+    // Recherche manuelle plutôt qu'un sélecteur `[data-id="…"]` : CSS.escape()
+    // échappe pour un IDENTIFIANT CSS (ex. un data-id de période qui commence
+    // par un chiffre, "1180-1529", y devient "\31 180-1529"), pas pour la
+    // valeur d'un attribut entre guillemets — l'échappement casse alors la
+    // correspondance au lieu de la protéger.
+    const replacement = [...document.getElementById(containerId).querySelectorAll('.chip')]
+      .find(c => c.dataset.id === key);
+    if (replacement) { replacement.focus(); return; }
+  }
+  document.querySelector('.filter-section-header')?.focus();
+}
 
 /* --- Dans la fonction applyFilters() de app.js --- */
 function applyFilters() {
@@ -344,14 +390,21 @@ function applyFilters() {
   updateArrondissementsData(filteredFeatures);
   updateThesaurusData(filteredFeatures);
   updatePeriodesData(filteredFeatures); // NOUVEAU
-  
-  renderPeriodesList(); // NOUVEAU
 
-  const thesSearchVal = document.getElementById('thesaurus-search')?.value || '';
-  renderThesaurusGroups(thesSearchVal);
+  // Ces rendus reconstruisent leurs puces de toutes pièces (voir
+  // withFocusPreserved ci-dessus) : regroupés dans un seul appel pour ne
+  // capturer/restaurer le focus qu'une fois.
+  withFocusPreserved(() => {
+    renderPeriodesList(); // NOUVEAU
 
-  const archiSearchVal = document.getElementById('archi-search')?.value || '';
-  renderArchitectesList(archiSearchVal);
+    const thesSearchVal = document.getElementById('thesaurus-search')?.value || '';
+    renderThesaurusGroups(thesSearchVal);
+
+    const archiSearchVal = document.getElementById('archi-search')?.value || '';
+    renderArchitectesList(archiSearchVal);
+
+    renderActiveTags();
+  });
 
   // Le bâtiment ouvert n'a plus sa place dans les nouveaux résultats : on
   // referme sa fiche plutôt que de la laisser affichée hors filtre.
@@ -361,7 +414,6 @@ function applyFilters() {
 
   // Rendu final
   renderCurrentView(filteredFeatures);
-  renderActiveTags();
 
   if (typeof writeStateToHash === 'function') writeStateToHash('replace');
 }

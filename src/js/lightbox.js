@@ -4,6 +4,7 @@
  */
 
 let lightboxGallery = null;     // {photos:[{src,caption}], index} — galerie du volet détail
+let lightboxTrigger  = null;    // vignette par laquelle on est entré — pour lui rendre le focus à la fermeture
 
 /* ─── OUVERTURE / FERMETURE ─────────────────────────────────────────────── */
 
@@ -20,6 +21,9 @@ function isLightboxOpen() {
 function openGalleryLightbox(photos, index) {
   const box = document.getElementById('lightbox');
   if (!box || !Array.isArray(photos) || photos.length === 0) return;
+  // Mémorisé avant tout changement de focus ci-dessous : la vignette cliquée/
+  // activée au clavier, pour la retrouver à la fermeture (cf. closeLightbox).
+  lightboxTrigger = document.activeElement instanceof HTMLElement ? document.activeElement : null;
   lightboxGallery = { photos, index: Math.max(0, Math.min(index, photos.length - 1)) };
   box.hidden = false;
   renderLightbox();
@@ -32,6 +36,11 @@ function closeLightbox() {
   if (box) box.hidden = true;
   lightboxGallery = null;
   setBackgroundInert(false);
+  // Rend le focus à la vignette d'origine — sauf si le volet détail a entre-
+  // temps changé de bâtiment/photos sous elle (filtre, sélection…), auquel
+  // cas elle n'est plus dans le DOM et il n'y a rien de pertinent à restaurer.
+  if (lightboxTrigger && document.body.contains(lightboxTrigger)) lightboxTrigger.focus();
+  lightboxTrigger = null;
 }
 
 /* ─── NAVIGATION ────────────────────────────────────────────────────────── */

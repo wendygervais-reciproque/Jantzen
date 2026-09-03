@@ -34,7 +34,16 @@ function isMobileLayout() {
   return window.matchMedia('(max-width: 900px)').matches;
 }
 
-async function openMosaicDetail(id_bat) {
+/**
+ * @param {number|string} id_bat
+ * @param {{moveFocus?: boolean}} [opts] `moveFocus` : déplace le focus sur la
+ *   croix de fermeture, comme une modale/lightbox à l'ouverture — réservé à
+ *   une véritable nouvelle sélection (voir selectBatiment() dans ui.js) ; une
+ *   simple re-présentation (bascule carte/mosaïque avec un bâtiment déjà
+ *   sélectionné, cf. setView() dans views.js) ne doit pas voler le focus.
+ */
+async function openMosaicDetail(id_bat, opts = {}) {
+  const { moveFocus = false } = opts;
   const panel = document.getElementById('mosaic-detail');
   if (!panel) return;
 
@@ -46,13 +55,13 @@ async function openMosaicDetail(id_bat) {
     panel.setAttribute('role', 'dialog');
     panel.setAttribute('aria-modal', 'true');
     if (typeof setAppSiblingsInert === 'function') setAppSiblingsInert(panel, true);
-    document.getElementById('mosaic-detail-close')?.focus();
     // Classe retirée après coup (voir plus bas) pour pouvoir la rejouer à
     // chaque ouverture — sinon une classe déjà présente ne redéclenche pas
     // l'animation CSS.
     panel.classList.add('is-opening');
     panel.addEventListener('animationend', () => panel.classList.remove('is-opening'), { once: true });
   }
+  if (moveFocus) document.getElementById('mosaic-detail-close')?.focus();
 
   const info   = document.getElementById('md-info');
   const photos = document.getElementById('md-photos');

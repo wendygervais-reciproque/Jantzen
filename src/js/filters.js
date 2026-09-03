@@ -874,6 +874,13 @@ function togglePeriodeChip(btn, periodeLabel) {
   if (typeof applyFilters === 'function') applyFilters();
 }
 
+/* Ne fait que recalculer les compteurs (comme updateThesaurusData) — le
+   rendu (renderPeriodesList) reste à la charge de l'appelant, qui l'invoque
+   déjà juste après (applyFilters, buildPeriodesFilter). Un appel ici en plus
+   reconstruisait les puces une première fois hors de tout wrapper de
+   préservation du focus, avant même que withFocusPreserved() n'ait pu
+   capturer la puce active dans applyFilters — la puce qu'on venait
+   d'activer au clavier perdait alors le focus au clic. */
 function updatePeriodesData(featuresActuelles) {
   let featuresSansPeriodes = ALL_FEATURES;
 
@@ -939,6 +946,4 @@ function updatePeriodesData(featuresActuelles) {
       activeFilters.periodes.delete(p);
     }
   });
-
-  renderPeriodesList();
 }
