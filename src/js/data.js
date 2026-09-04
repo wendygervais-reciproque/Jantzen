@@ -248,17 +248,6 @@ function getPersonne(id_archi) {
 
 const WIKIMEDIA_COMMONS = 'https://upload.wikimedia.org/wikipedia/commons';
 
-/** Vignette (250px) d'une personne, à partir de sa propriété `thumb`. */
-function personneThumbUrl(thumb) {
-  return thumb ? `${WIKIMEDIA_COMMONS}/thumb/${thumb}` : null;
-}
-
-function personneFullImageUrl(thumb) {
-  if (!thumb) return null;
-  const parts = thumb.split('/').slice(1, 4);
-  return parts.length === 3 ? `${WIKIMEDIA_COMMONS}/${parts.join('/')}` : null;
-}
-
 function personneLocalThumbUrl(media) {
   if (!media) return null;
 

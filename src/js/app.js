@@ -346,7 +346,6 @@ function applyFilters() {
   // 3. Filtre des périodes à facettes (Filtre en OU)
   if (activeFilters.periodes.size > 0) {
 
-    console.log('coucou');
     const selectedPeriodes = Array.from(activeFilters.periodes);
 
     filteredFeatures = filteredFeatures.filter(f => {
