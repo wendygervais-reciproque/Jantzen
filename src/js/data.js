@@ -5,7 +5,8 @@
 
 // 💡 Ajustez le chemin de vos données si besoin
 const DATA_BASE  = '/public/data';
-const PHOTO_BASE = `${DATA_BASE}/photos_jpg`;
+const PHOTO_BASE = `${DATA_BASE}/photos_jpg`; // image HD
+const THUMB_PHOTO_BASE  = `${DATA_BASE}/thumb_photos_jpg` ; // image vignette (thumb)
 
 let THESAURUS             = [];   // index allégé : [{t: terme, c: cluster, u: URL, s: source}]
 let RAW_GEOJSON           = null; // FeatureCollection complète
@@ -162,6 +163,13 @@ function photoUrl(idPic) {
   if (!idPic || typeof idPic !== 'string') return null;
   const name = idPic.replace(/^image_/, '');
   return `${PHOTO_BASE}/${encodeURIComponent(name)}.jpg`;
+}
+
+function thumbUrl(idPic) {
+  if (!idPic || typeof idPic !== 'string') return null;
+  const name = idPic.replace(/^image_/, '');
+  //const name = "test-thumb"
+  return `${THUMB_PHOTO_BASE}/${encodeURIComponent(name)}.jpg`;
 }
 
 /* ─── DIMENSIONS DES PHOTOGRAPHIES (ratios pour la mosaïque justifiée) ────── */

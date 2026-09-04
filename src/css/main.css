@@ -288,7 +288,7 @@ button { font-family: inherit; }
   border-radius: calc(var(--radius-element) - 1px) calc(var(--radius-element) - 1px) 0 0;
 }
 .bldg-card-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
-.thumb-skeleton { width: 100%; height: 100%; }
+.thumb-skeleton { width: 100%; height: 100%; position: absolute; }
 .no-img { font-size: var(--fs-150); color: var(--border-strong); }
 /* Badge arrondissement : pastille pleine (background/inverse), plus le voile
    semi-transparent d'avant — lisible quelle que soit la photo dessous. */
