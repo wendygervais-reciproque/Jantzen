@@ -255,7 +255,7 @@ function personneLocalThumbUrl(media) {
   const decodedFilename = decodeURIComponent(media);
 
   // Construit le chemin local
-  return `/public/data/thumb_jpg/${decodedFilename}`;
+  return `/public/data/thumb_personnes_jpg/${decodedFilename}`;
 }
 
 /** Bascule .jpg → .JPG sur une image dont le chargement a échoué. */
