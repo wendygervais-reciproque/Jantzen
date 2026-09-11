@@ -26,11 +26,11 @@ function buildingRefImageUrl(data) {
     const [term] = activeFilters.thesaurus;
     const normTerm = normalizeText(term);
     const match = photos.find(ph => (ph.IndexJantzen || []).some(t => normalizeText(t) === normTerm));
-    const url = match && photoUrl(match.id_pic);
+    const url = match && thumbUrl(match.id_pic);
     if (url) return url;
   }
 
-  return photoUrl(data?.image_ref) || photoUrl(photos[0]?.id_pic) || null;
+  return thumbUrl(data?.image_ref) || thumbUrl(photos[0]?.id_pic) || null;
 }
 
 /**

@@ -398,7 +398,7 @@ async function renderMdGallery() {
     img.alt      = g.caption || '';
     img.loading  = 'lazy';
     img.decoding = 'async';
-    img.src      = g.src;
+    img.src      = thumbUrl(g.id_pic);
     img.onerror  = function () { retryUppercaseJpg(this); };
     // Filet de sécurité : si un ratio manquait dans photos.json, on le corrige
     // dès que l'image réelle est chargée, puis on relance le layout.
