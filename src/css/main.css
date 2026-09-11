@@ -1211,6 +1211,29 @@ button { font-family: inherit; }
   color: var(--text-on-inverse);
   text-align: center;
 }
+/* Terme de la légende : un bouton (active le filtre thésaurus sur ce terme) —
+   reset du chrome natif de <button>, mais souligné par défaut comme les
+   autres liens de l'appli (cf. .credit-link, même principe sur ce fond sombre
+   de la visionneuse) ; couleur inchangée (blanc, comme le reste de la
+   légende) plutôt que la couleur de lien habituelle, qui jurerait sur cet
+   overlay. */
+.lightbox-term-link {
+  display: inline;
+  border: none;
+  background: none;
+  padding: 0;
+  margin: 0;
+  font: inherit;
+  color: var(--text-on-inverse);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  cursor: pointer;
+}
+.lightbox-term-link:hover,
+.lightbox-term-link:focus-visible {
+  text-decoration: none;
+  opacity: 0.8;
+}
 
 /* Empêche la sélection et le drag-and-drop des images */
 #md-photos img,

@@ -66,17 +66,7 @@ function renderLightbox() {
   const item = photos[index];
   img.src = item.src;
   img.onerror = function () { retryUppercaseJpg(this); };
-  if (caption) {
-    const counterText = `${index + 1} / ${photos.length}`;
-    const termText = item.caption ? ' — ' + item.caption : '';
-    const formattedDate = item.dateCapture
-      ? item.dateCapture.replace(/^(\d{4}):(\d{2}):(\d{2})$/, '$3/$2/$1')
-      : '';
-
-    const dateStr = formattedDate ? ` — ${formattedDate}` : '';
-
-    caption.textContent = `${counterText}${termText}${dateStr} — © Eric Jantzen `;
-  }
+  if (caption) renderLightboxCaption(caption, item, index, photos.length);
 
   if (photos.length > 1) {
     // Réaffiche les flèches si elles avaient été cachées au préalable
@@ -93,4 +83,50 @@ function renderLightbox() {
     if (prev) prev.style.display = 'none';
     if (next) next.style.display = 'none';
   }
+}
+
+/**
+ * Remplit la légende : compteur, termes du thésaurus (un bouton par terme —
+ * pas un lien, puisqu'il n'ouvre pas une ressource mais active le filtre
+ * correspondant, cf. buildPersonFilterButton dans ui.js), date et crédit.
+ */
+function renderLightboxCaption(caption, item, index, total) {
+  caption.textContent = '';
+  caption.append(`${index + 1} / ${total}`);
+
+  const terms = Array.isArray(item.terms) ? item.terms : [];
+  if (terms.length > 0) {
+    caption.append(' — ');
+    terms.forEach((term, i) => {
+      const btn = document.createElement('button');
+      btn.type      = 'button';
+      btn.className = 'lightbox-term-link';
+      btn.textContent = capitalize(term);
+      btn.setAttribute('aria-label', `Filtrer les bâtiments avec le terme « ${capitalize(term)} »`);
+      btn.onclick = () => filterByThesaurusTermFromLightbox(term);
+      caption.appendChild(btn);
+      if (i < terms.length - 1) caption.append(' · ');
+    });
+  }
+
+  const formattedDate = item.dateCapture
+    ? item.dateCapture.replace(/^(\d{4}):(\d{2}):(\d{2})$/, '$3/$2/$1')
+    : '';
+  if (formattedDate) caption.append(` — ${formattedDate}`);
+
+  caption.append(' — © Eric Jantzen ');
+}
+
+/**
+ * Clic sur un terme de la légende de la visionneuse : active ce terme dans le
+ * filtre thésaurus, puis referme visionneuse et fiche bâtiment pour laisser
+ * voir les résultats filtrés — dans la vue courante (carte ou mosaïque),
+ * inchangée.
+ */
+function filterByThesaurusTermFromLightbox(term) {
+  if (!term || typeof activeFilters === 'undefined') return;
+  activeFilters.thesaurus.add(term);
+  closeLightbox();
+  if (typeof deselectBatiment === 'function') deselectBatiment();
+  if (typeof applyFilters === 'function') applyFilters();
 }

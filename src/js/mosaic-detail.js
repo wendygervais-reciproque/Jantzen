@@ -372,13 +372,17 @@ async function renderMdGallery() {
 
   // Liste normalisée pour la visionneuse : même ordre que la galerie. Chaque
   // entrée porte aussi son ratio (largeur/hauteur), complété plus bas.
-  const gallery = photos.map(ph => ({
-    src:     photoUrl(ph.id_pic),
-    caption: (ph.IndexJantzen || []).map(capitalize).join(' · '),
-    id_pic:  ph.id_pic,
-    dateCapture: ph.dateCapture,
-    ratio:   DEFAULT_RATIO
-  }));
+  const gallery = photos.map(ph => {
+    const terms = ph.IndexJantzen || [];
+    return {
+      src:     photoUrl(ph.id_pic),
+      terms,                                   // termes bruts, pour les liens de filtre de la visionneuse
+      caption: terms.map(capitalize).join(' · '),
+      id_pic:  ph.id_pic,
+      dateCapture: ph.dateCapture,
+      ratio:   DEFAULT_RATIO
+    };
+  });
 
   // Les tuiles sont créées une seule fois ; le layout ne fait ensuite que régler
   // leur largeur/hauteur. On garde l'ordre gauche→droite (= ordre visionneuse).
