@@ -595,13 +595,16 @@ function buildArchitectesFilter(personnesFiltre = []) {
   ARCHI_TERMS = personnesFiltre
     .map(p => {
       const idNum = Number(p.id_archi);
+      const nom = p.nom;
+      const libelle = p.libelle;
       return {
         id: idNum,
-        libelle: p.libelle,
+        nom: nom,
+        libelle: libelle,
         count: counts.get(idNum) || 0
       };
     })
-    .sort((a, b) => a.libelle.localeCompare(b.libelle, 'fr'));
+    .sort((a, b) => a.nom.localeCompare(b.nom, 'fr'));
 
   const searchInput = document.getElementById('archi-search');
   if (searchInput) {

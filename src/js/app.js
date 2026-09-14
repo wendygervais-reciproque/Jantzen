@@ -563,28 +563,33 @@ function onHistoryNav() {
 let hasFittedInitialView = false;
 
 function fitMapToResults() {
-  if (!map || !currentFeatures || currentFeatures.length === 0) return;
+  if (!map) return;
 
   const isDesktop = window.innerWidth > 900;
-  const paddingRight = isDesktop ? 60 : 20; 
-  const mapOptions = {
-    paddingTopLeft:     [40, 40],
+  const paddingRight = isDesktop ? 60 : 20;
+
+  // Sur ordi, on autorise/impose un maxZoom plus élevé
+  const zoomOptions = {
+    paddingTopLeft: [40, 40],
     paddingBottomRight: [paddingRight, 40],
-    maxZoom: 16
+    maxZoom: isDesktop ? 14.5 : 12.5 // Zoom plus proche sur ordinateur
   };
 
-  if (!hasFittedInitialView) {
+  // 1. Vue globale / arrondissements (ou aucun résultat)
+  if (!currentFeatures || currentFeatures.length === 0 || !hasFittedInitialView) {
     hasFittedInitialView = true;
+    
     const arrBounds = (typeof ARR_POLYGONS !== 'undefined' && ARR_POLYGONS)
       ? L.geoJSON(ARR_POLYGONS).getBounds()
       : null;
 
     if (arrBounds && arrBounds.isValid()) {
-      map.fitBounds(arrBounds,mapOptions);
-      return;
+      map.fitBounds(arrBounds, zoomOptions);
     }
+    return;
   }
 
+  // 2. Vue filtrée
   const tempLayer = L.geoJSON({
     type: 'FeatureCollection',
     features: currentFeatures
@@ -595,7 +600,9 @@ function fitMapToResults() {
   const bounds = tempLayer.getBounds();
 
   if (bounds.isValid()) {
-    map.fitBounds(bounds, mapOptions);
+    map.fitBounds(bounds, zoomOptions);
   }
 }
+
+
 
