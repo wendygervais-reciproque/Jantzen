@@ -118,14 +118,30 @@ function renderLightboxCaption(caption, item, index, total) {
 }
 
 /**
- * Clic sur un terme de la légende de la visionneuse : active ce terme dans le
- * filtre thésaurus, puis referme visionneuse et fiche bâtiment pour laisser
- * voir les résultats filtrés — dans la vue courante (carte ou mosaïque),
- * inchangée.
+ * Clic sur un terme de la légende de la visionneuse : réinitialise les filtres
+ * actuels et active ce terme uniquement dans le filtre thésaurus (nouvelle
+ * recherche), puis referme visionneuse et fiche bâtiment pour laisser voir les
+ * résultats filtrés — dans la vue courante (carte ou mosaïque), inchangée.
  */
 function filterByThesaurusTermFromLightbox(term) {
   if (!term || typeof activeFilters === 'undefined') return;
+
+  // Réinitialiser tous les filtres (nouvelle recherche de zéro)
+  activeFilters.arrondissements.clear();
+  activeFilters.thesaurus.clear();
+  activeFilters.architectes.clear();
+  activeFilters.periodes.clear();
+
+  // Nettoyer les styles des puces
+  document.querySelectorAll('.chip').forEach(c => {
+    c.classList.remove('active');
+    c.setAttribute('aria-pressed', 'false');
+  });
+
+  // Ajouter le nouveau terme
   activeFilters.thesaurus.add(term);
+
+  // Fermer et appliquer
   closeLightbox();
   if (typeof deselectBatiment === 'function') deselectBatiment();
   if (typeof applyFilters === 'function') applyFilters();
