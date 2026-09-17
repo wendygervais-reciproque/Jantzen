@@ -163,7 +163,7 @@ function capitalize(str) {
   return str ? str.charAt(0).toUpperCase() + str.slice(1) : '';
 }
 
-// --- Détection du support, mise en cache dans localStorage ---
+// --- Détection du support (inchangé) ---
 function testImageSupport(dataUri) {
   return new Promise((resolve) => {
     const img = new Image();
@@ -184,31 +184,66 @@ async function detectImageFormat() {
   }
 
   let format = 'webp';
-  if (await testImageSupport(AVIF_TEST)) {
-    format = 'avif';
-  } else if (await testImageSupport(WEBP_TEST)) {
-    format = 'webp';
-  }
+  if (await testImageSupport(AVIF_TEST)) format = 'avif';
+  else if (await testImageSupport(WEBP_TEST)) format = 'webp';
   console.log('[format] détecté :', format);
+
   localStorage.setItem('imgFormat', format);
   return format;
 }
 
-let IMG_FORMAT = 'webp'; // valeur par défaut le temps de la détection
+let IMG_FORMAT = 'webp';
 const imgFormatReady = detectImageFormat().then((f) => { IMG_FORMAT = f; });
 
-function photoUrl(idPic) {
-  if (!idPic || typeof idPic !== 'string') return null;
-  const name = idPic.replace(/^image_/, '');
-  const base = { avif: PHOTO_BASE_AVIF, webp: PHOTO_BASE_WEBP, jpg: PHOTO_BASE }[IMG_FORMAT];
-  return `${base}/${encodeURIComponent(name)}.${IMG_FORMAT}`;
+function buildUrl(name, bases, ext) {
+  return `${bases[ext]}/${encodeURIComponent(name)}.${ext}`;
 }
 
-function thumbUrl(idPic) {
+function photoUrl(idPic, format = IMG_FORMAT) {
   if (!idPic || typeof idPic !== 'string') return null;
   const name = idPic.replace(/^image_/, '');
-  const base = { avif: THUMB_PHOTO_BASE_AVIF, webp: THUMB_PHOTO_BASE_WEBP, jpg: THUMB_PHOTO_BASE }[IMG_FORMAT];
-  return `${base}/${encodeURIComponent(name)}.${IMG_FORMAT}`;
+  return buildUrl(name, { avif: PHOTO_BASE_AVIF, webp: PHOTO_BASE_WEBP }, format);
+}
+
+function thumbUrl(idPic, format = IMG_FORMAT) {
+  if (!idPic || typeof idPic !== 'string') return null;
+  const name = idPic.replace(/^image_/, '');
+  return buildUrl(name, { avif: THUMB_PHOTO_BASE_AVIF, webp: THUMB_PHOTO_BASE_WEBP }, format);
+}
+
+// --- Coupe-circuit : trop d'échecs = on arrête tout ---
+const MAX_FAILURES = 3;
+let failureCount = 0;
+let galleryAborted = false;
+
+function attachImageWithFallback(img, idPic, urlFn) {
+  if (galleryAborted) return; // on ne lance même plus la requête
+
+  let triedWebp = false;
+
+  img.onerror = function () {
+    if (galleryAborted) { this.onerror = null; return; }
+
+    // 1er échec : si on était en avif, on tente webp une seule fois
+    if (!triedWebp && IMG_FORMAT === 'avif') {
+      triedWebp = true;
+      this.src = urlFn(idPic, 'webp');
+      return;
+    }
+
+    // webp a aussi échoué (ou on était déjà en webp) : on abandonne cette image
+    this.onerror = null;
+    this.classList.add('img-broken'); // pour un style CSS "image manquante" si besoin
+
+    failureCount++;
+    if (failureCount >= MAX_FAILURES && !galleryAborted) {
+      galleryAborted = true;
+      console.error(`[img] ${failureCount} échecs consécutifs — arrêt du chargement, fichiers probablement absents du serveur`);
+      // Option : afficher un message à l'utilisateur / désactiver le scroll infini, etc.
+    }
+  };
+
+  img.src = urlFn(idPic);
 }
 
 /* ─── DIMENSIONS DES PHOTOGRAPHIES (ratios pour la mosaïque justifiée) ────── */

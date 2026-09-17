@@ -10,27 +10,74 @@
  *      personnes (rôle), issues de la fiche complète getBatiment(id) chargée à
  *      la demande. getBatiment / getPersonne étant mutualisés (cache), la carte
  *      et la mosaïque partagent le même chargement.
+ *
+ * Images : AVIF prioritaire, repli WEBP une seule fois par image (pas de jpg
+ * sur le serveur). Un coupe-circuit global (voir MAX_IMAGE_FAILURES) stoppe le
+ * chargement de nouvelles images si trop d'échecs consécutifs surviennent —
+ * utile si le catalogue AVIF/WEBP n'est pas encore complet côté serveur, pour
+ * éviter un flood de 404 (source d'IP ban).
  */
 
+// --- Coupe-circuit partagé pour les images de card ------------------------
+const MAX_IMAGE_FAILURES = 3;
+let cardImageFailureCount = 0;
+let cardImagesAborted = false;
+
 /**
- * URL de l'image de référence d'un bâtiment. Par défaut : image_ref (à défaut
- * 1re photo). Si une seule facette thésaurus est active, on préfère la
- * première photo du bâtiment porteuse de ce terme (plus parlant pour la
+ * URL (+ id_pic) de l'image de référence d'un bâtiment. Par défaut : image_ref
+ * (à défaut 1re photo). Si une seule facette thésaurus est active, on préfère
+ * la première photo du bâtiment porteuse de ce terme (plus parlant pour la
  * recherche en cours) ; au-delà d'une facette active, le critère devient
  * ambigu et on retombe sur l'image de référence par défaut.
+ * @returns {{ idPic: string, url: string } | null}
  */
-function buildingRefImageUrl(data) {
+function buildingRefImageId(data) {
   const photos = Array.isArray(data?.photos) ? data.photos : [];
 
   if (typeof activeFilters !== 'undefined' && activeFilters.thesaurus.size === 1) {
     const [term] = activeFilters.thesaurus;
     const normTerm = normalizeText(term);
     const match = photos.find(ph => (ph.IndexJantzen || []).some(t => normalizeText(t) === normTerm));
-    const url = match && thumbUrl(match.id_pic);
-    if (url) return url;
+    if (match?.id_pic) return match.id_pic;
   }
 
-  return thumbUrl(data?.image_ref) || thumbUrl(photos[0]?.id_pic) || null;
+  return data?.image_ref || photos[0]?.id_pic || null;
+}
+
+/**
+ * Branche une <img> avec repli AVIF→WEBP (une seule tentative) et alimente le
+ * coupe-circuit global en cas d'échec persistant. N'émet aucune requête si le
+ * coupe-circuit est déjà déclenché.
+ */
+function attachCardImage(img, idPic, onLoaded) {
+  if (cardImagesAborted || !idPic) return;
+
+  let triedFallback = false;
+
+  img.onload = () => { onLoaded?.(); };
+
+  img.onerror = function () {
+    if (cardImagesAborted) { this.onerror = null; return; }
+
+    // 1er échec en avif : on retente une fois en webp.
+    if (!triedFallback && IMG_FORMAT === 'avif') {
+      triedFallback = true;
+      this.src = thumbUrl(idPic, 'webp');
+      return;
+    }
+
+    // webp a aussi échoué (ou on était déjà en webp) : abandon pour cette image.
+    this.onerror = null;
+    this.classList.add('img-broken');
+
+    cardImageFailureCount++;
+    if (cardImageFailureCount >= MAX_IMAGE_FAILURES && !cardImagesAborted) {
+      cardImagesAborted = true;
+      console.error(`[card] ${cardImageFailureCount} échecs consécutifs — arrêt du chargement des images (fichiers probablement absents du serveur)`);
+    }
+  };
+
+  img.src = thumbUrl(idPic);
 }
 
 /**
@@ -94,18 +141,19 @@ async function enrichBuildingCard(card, data) {
   // Image de référence — insérée SOUS le badge arrondissement, squelette retiré
   // une fois chargée.
   const thumb = card.querySelector('.bldg-card-thumb');
-  const src   = buildingRefImageUrl(data);
-  if (thumb && src && !thumb.querySelector('img')) {
+  const idPic = buildingRefImageId(data);
+  if (thumb && idPic && !thumb.querySelector('img')) {
     const img = document.createElement('img');
     img.alt      = '';
     img.decoding = 'async';
 
     img.addEventListener('contextmenu', e => e.preventDefault());
     img.addEventListener('dragstart', e => e.preventDefault());
-    
-    img.onload   = () => { thumb.querySelector('.thumb-skeleton')?.remove(); };
-    img.onerror  = function () { retryUppercaseJpg(this); };
-    img.src      = src;
+
+    attachCardImage(img, idPic, () => {
+      thumb.querySelector('.thumb-skeleton')?.remove();
+    });
+
     thumb.insertBefore(img, thumb.firstChild);
   }
 
