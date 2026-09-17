@@ -3,10 +3,16 @@
  * Chargement asynchrone des données et gestion des arrondissements et filtres.
  */
 
-// 💡 Ajustez le chemin de vos données si besoin
 const DATA_BASE  = '/public/data';
 const PHOTO_BASE = `${DATA_BASE}/photos_jpg`; // image HD
 const THUMB_PHOTO_BASE  = `${DATA_BASE}/thumb_photos_jpg` ; // image vignette (thumb)
+
+const PHOTO_BASE_WEBP = `${DATA_BASE}/photos_webp`;
+const THUMB_PHOTO_BASE_WEBP  = `${DATA_BASE}/thumb_photos_webp` ;
+
+const PHOTO_BASE_AVIF = `${DATA_BASE}/photos_avif`;
+const THUMB_PHOTO_BASE_AVIF  = `${DATA_BASE}/thumb_photos_avif` ;
+
 
 let THESAURUS             = [];   // index allégé : [{t: terme, c: cluster, u: URL, s: source}]
 let RAW_GEOJSON           = null; // FeatureCollection complète
@@ -159,17 +165,52 @@ function capitalize(str) {
   return str ? str.charAt(0).toUpperCase() + str.slice(1) : '';
 }
 
+// --- Détection du support, mise en cache dans localStorage ---
+function testImageSupport(dataUri) {
+  return new Promise((resolve) => {
+    const img = new Image();
+    img.onload  = () => resolve(img.width > 0 && img.height > 0);
+    img.onerror = () => resolve(false);
+    img.src = dataUri;
+  });
+}
+
+const AVIF_TEST = 'data:image/avif;base64,AAAAIGZ0eXBhdmlmAAAAAGF2aWZtaWYxbWlhZk1BMUIAAADybWV0YQAAAAAAAAAoaGRscgAAAAAAAAAAcGljdAAAAAAAAAAAAAAAAGxpYmF2aWYAAAAADnBpdG0AAAAAAAEAAAAeaWxvYwAAAABEAAABAAEAAAABAAABGgAAAB0AAAAoaWluZgAAAAAAAQAAABppbmZlAgAAAAABAABhdjAxQ29sb3IAAAAAamlwcnAAAABLaXBjbwAAABRpc3BlAAAAAAAAAAEAAAABAAAAEHBpeGkAAAAAAwgICAAAAAxhdjFDgQAMAAAAABNjb2xybmNseAACAAIABoAAAAAXaXBtYQAAAAAAAAABAAEEAQKDBAAAACVtZGF0EgAKCBgABogQEDQgMgkQAAAAB8dSLfI=';
+const WEBP_TEST = 'data:image/webp;base64,UklGRiIAAABXRUJQVlA4IBYAAAAwAQCdASoBAAEADsD+JaQAA3AAAAAA';
+
+async function detectImageFormat() {
+  const cached = localStorage.getItem('imgFormat');
+  if (cached) {
+    console.log('[format] depuis le cache :', cached);
+    return cached;
+  }
+
+  let format = 'webp';
+  if (await testImageSupport(AVIF_TEST)) {
+    format = 'avif';
+  } else if (await testImageSupport(WEBP_TEST)) {
+    format = 'webp';
+  }
+  console.log('[format] détecté :', format);
+  localStorage.setItem('imgFormat', format);
+  return format;
+}
+
+let IMG_FORMAT = 'webp'; // valeur par défaut le temps de la détection
+const imgFormatReady = detectImageFormat().then((f) => { IMG_FORMAT = f; });
+
 function photoUrl(idPic) {
   if (!idPic || typeof idPic !== 'string') return null;
   const name = idPic.replace(/^image_/, '');
-  return `${PHOTO_BASE}/${encodeURIComponent(name)}.jpg`;
+  const base = { avif: PHOTO_BASE_AVIF, webp: PHOTO_BASE_WEBP, jpg: PHOTO_BASE }[IMG_FORMAT];
+  return `${base}/${encodeURIComponent(name)}.${IMG_FORMAT}`;
 }
 
 function thumbUrl(idPic) {
   if (!idPic || typeof idPic !== 'string') return null;
   const name = idPic.replace(/^image_/, '');
-  //const name = "test-thumb"
-  return `${THUMB_PHOTO_BASE}/${encodeURIComponent(name)}.jpg`;
+  const base = { avif: THUMB_PHOTO_BASE_AVIF, webp: THUMB_PHOTO_BASE_WEBP, jpg: THUMB_PHOTO_BASE }[IMG_FORMAT];
+  return `${base}/${encodeURIComponent(name)}.${IMG_FORMAT}`;
 }
 
 /* ─── DIMENSIONS DES PHOTOGRAPHIES (ratios pour la mosaïque justifiée) ────── */
