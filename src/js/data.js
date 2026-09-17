@@ -86,14 +86,13 @@ function assignArrondissement(lng, lat) {
 /* --- Dans la fonction loadData() de data.js --- */
 async function loadData() {
   try {
-    const [thesaurusData, geojsonData, arrData, datesData, personnesFiltreData, periodesFiltreData] = await Promise.all([
+    const [thesaurusData, geojsonData, arrData, personnesFiltreData, periodesFiltreData] = await Promise.all([
       fetch(`${DATA_BASE}/thesaurus_index.json`).then(r => r.ok ? r.json() : []).catch(() => []),
       fetch(`${DATA_BASE}/map_poi.geojson`).then(r => {
         if (!r.ok) throw new Error(`HTTP ${r.status} : Impossible de charger ${DATA_BASE}/map_poi.geojson`);
         return r.json();
       }),
       fetch(`${DATA_BASE}/arrondissements.geojson`).then(r => r.ok ? r.json() : null).catch(() => null),
-      fetch(`${DATA_BASE}/batiments_index.json`).then(r => r.ok ? r.json() : {}).catch(() => ({})),
       fetch(`${DATA_BASE}/personnes_filtre.json`).then(r => r.ok ? r.json() : []).catch(() => []),
       fetch(`${DATA_BASE}/periode_filtre.json`).then(r => r.ok ? r.json() : []).catch(() => [])
     ]);
@@ -124,7 +123,6 @@ async function loadData() {
         !isNaN(f.geometry.coordinates[1])
       );
 
-      attachBuildingIndex(datesData);
     }
 
     // Construction du filtre des architectes
@@ -308,39 +306,6 @@ function retryUppercaseJpg(imgEl) {
 
 function getThesaurusName(id) {
   return id;
-}
-
-/* ─── INDEX DES BÂTIMENTS (dates + volumétrie) ──────────────────────────── */
-
-function attachBuildingIndex(indexData) {
-  let minY = Infinity, maxY = -Infinity;
-  let minN = Infinity, maxN = -Infinity;
-
-  ALL_FEATURES.forEach(f => {
-    const entry = indexData[String(f.properties.id_bat)];
-    if (!entry) return;
-
-    if (Array.isArray(entry.y)) {
-      f.properties.annees = entry.y;
-      if (entry.y[0] < minY) minY = entry.y[0];
-      if (entry.y[1] > maxY) maxY = entry.y[1];
-    }
-
-    const n = Number(entry.n) || 0;
-    f.properties.nbPhotos = n;
-    if (n < minN) minN = n;
-    if (n > maxN) maxN = n;
-  });
-
-  if (Number.isFinite(minY) && Number.isFinite(maxY)) DATE_RANGE  = [minY, maxY];
-  if (Number.isFinite(minN) && Number.isFinite(maxN)) PHOTO_RANGE = [minN, maxN];
-}
-
-/** Un bâtiment est retenu si son intervalle de construction croise la période demandée. */
-function matchesYearRange(properties, from, to) {
-  const span = properties.annees;
-  if (!span) return false;
-  return span[0] <= to && span[1] >= from;
 }
 
 /* ─── THÉSAURUS ─────────────────────────────────────────────────────────── */
