@@ -197,6 +197,8 @@ const imgFormatReady = detectImageFormat().then((f) => { IMG_FORMAT = f; });
 
 function buildUrl(name, bases, ext) {
   //return `${bases[ext]}/${encodeURIComponent(name)}.${ext}`;
+
+  // DEBUG JPG WENDY ; TODO A ENLEVER LORS DE REBASCULE AVIF/WEBP
   let text = `/public/data/photos_jpg/${encodeURIComponent(name)}.jpg`;
   console.log(text);
   return text;
