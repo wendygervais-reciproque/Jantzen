@@ -6,6 +6,10 @@
     {
       "personneID": 735,
       "role": "architecte"
+    },
+    {
+      "personneID": 10096,
+      "role": "sculpteur"
     }
   ],
   "dateConstruction": "1906",
@@ -28,16 +32,16 @@
   "WPfr": null,
   "image_ref": "Lannes-21_16_§1-Dx",
   "terme_jantzen_bat": [
-    "façade",
-    "clé",
-    "fenetre",
     "toiture",
-    "garde-corps",
+    "fenetre",
     "lucarne",
-    "porte-fer-hall",
+    "garde-corps",
+    "façade",
+    "sculpture",
+    "clé",
     "brique",
     "décor",
-    "sculpture"
+    "porte-fer-hall"
   ],
   "photos": [
     {

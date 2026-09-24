@@ -10,6 +10,10 @@
     {
       "personneID": 141,
       "role": "architecte"
+    },
+    {
+      "personneID": 10114,
+      "role": "sculpteur"
     }
   ],
   "dateConstruction": "1913",
@@ -32,11 +36,11 @@
   "WPfr": null,
   "image_ref": "Courcelles-bd-14_17_§1",
   "terme_jantzen_bat": [
-    "clé",
     "porte-fer",
     "fenetre",
-    "porte-fer-hall",
-    "sculpture"
+    "sculpture",
+    "clé",
+    "porte-fer-hall"
   ],
   "photos": [
     {

@@ -1,0 +1,37 @@
+{
+  "id_bat": 3491,
+  "libelle": "73 boulevard Haussmann",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": null,
+  "adresse": {
+    "affichage": "73 boulevard Haussmann",
+    "numero": "73",
+    "voie": "boulevard Haussmann"
+  },
+  "arrondissement": 8,
+  "tri_alphab": "Haussmann",
+  "coordonnees": {
+    "latitude": "48.87401",
+    "longitude": "2.324182"
+  },
+  "id_pss": 17604,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": "Haussmann-73_8_§1",
+  "terme_jantzen_bat": [
+    "oeil-de-boeuf",
+    "porte-bois"
+  ],
+  "photos": [
+    {
+      "id_pic": "Haussmann-73_8_§1",
+      "IndexJantzen": [
+        "oeil-de-boeuf",
+        "porte-bois"
+      ],
+      "dateCapture": "2006:03:31"
+    }
+  ]
+}

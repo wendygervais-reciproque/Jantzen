@@ -1,0 +1,60 @@
+{
+  "id_bat": 1554,
+  "libelle": "20 rue Beaubourg",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": [
+    "1915-1944"
+  ],
+  "adresse": {
+    "affichage": "20 rue Beaubourg",
+    "numero": "20",
+    "voie": "rue Beaubourg"
+  },
+  "arrondissement": 3,
+  "tri_alphab": "Beaubourg",
+  "coordonnees": {
+    "latitude": "48.860999",
+    "longitude": "2.353514"
+  },
+  "id_pss": 105868,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": "Beaubourg-20_3_§1",
+  "terme_jantzen_bat": [
+    "fenetre",
+    "façade",
+    "lucarne",
+    "clé",
+    "oriel",
+    "fronton"
+  ],
+  "photos": [
+    {
+      "id_pic": "Beaubourg-20_3_§1",
+      "IndexJantzen": [
+        "façade",
+        "oriel"
+      ],
+      "dateCapture": "2004:09:08"
+    },
+    {
+      "id_pic": "Beaubourg-20_3_§2",
+      "IndexJantzen": [
+        "fenetre",
+        "fronton"
+      ],
+      "dateCapture": "2004:09:08"
+    },
+    {
+      "id_pic": "Beaubourg-20_3_§3",
+      "IndexJantzen": [
+        "clé",
+        "fronton",
+        "lucarne"
+      ],
+      "dateCapture": "2004:09:08"
+    }
+  ]
+}

@@ -6,6 +6,10 @@
     {
       "personneID": 132,
       "role": "architecte"
+    },
+    {
+      "personneID": 10047,
+      "role": "sculpteur"
     }
   ],
   "dateConstruction": "1895",
@@ -28,12 +32,12 @@
   "WPfr": null,
   "image_ref": "Mozart-71_16_§1",
   "terme_jantzen_bat": [
-    "console",
     "fenetre",
+    "console",
+    "sculpture",
     "porte-bois",
     "décor",
-    "colonne",
-    "sculpture"
+    "colonne"
   ],
   "photos": [
     {

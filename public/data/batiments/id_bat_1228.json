@@ -1,0 +1,45 @@
+{
+  "id_bat": 1228,
+  "libelle": "17 rue du Conseiller-Collignon",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": null,
+  "adresse": {
+    "affichage": "17 rue du Conseiller-Collignon",
+    "numero": "17",
+    "voie": "rue du Conseiller-Collignon"
+  },
+  "arrondissement": 16,
+  "tri_alphab": "Conseiller-Collignon",
+  "coordonnees": {
+    "latitude": "48.859203",
+    "longitude": "2.272746"
+  },
+  "id_pss": null,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": "Conseiller-Collignon-17_16_§1",
+  "terme_jantzen_bat": [
+    "oeil-de-boeuf",
+    "lucarne",
+    "garde-corps"
+  ],
+  "photos": [
+    {
+      "id_pic": "Conseiller-Collignon-17_16_§1",
+      "IndexJantzen": [
+        "lucarne",
+        "oeil-de-boeuf"
+      ],
+      "dateCapture": "2007:03:27"
+    },
+    {
+      "id_pic": "Conseiller-Collignon-17_16_§2",
+      "IndexJantzen": [
+        "garde-corps"
+      ],
+      "dateCapture": "2007:03:27"
+    }
+  ]
+}

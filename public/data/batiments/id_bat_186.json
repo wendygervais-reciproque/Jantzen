@@ -1,0 +1,113 @@
+{
+  "id_bat": 186,
+  "libelle": "1 quai des Orfèvres",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": null,
+  "adresse": {
+    "affichage": "1 quai des Orfèvres",
+    "numero": "1",
+    "voie": "quai des Orfèvres"
+  },
+  "arrondissement": 1,
+  "tri_alphab": "Orfevres-Qu",
+  "coordonnees": {
+    "latitude": "48.855686",
+    "longitude": "2.342797"
+  },
+  "id_pss": null,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": "Orfevres-Qu-1_1_§4",
+  "terme_jantzen_bat": [
+    "toiture",
+    "fenetre",
+    "façade",
+    "lucarne",
+    "sculpture",
+    "lucarne-d'angle",
+    "tour",
+    "décor",
+    "fronton"
+  ],
+  "photos": [
+    {
+      "id_pic": "Orfevres-Qu-1_1_§1",
+      "IndexJantzen": [
+        "décor",
+        "fronton",
+        "lucarne-d'angle",
+        "sculpture"
+      ],
+      "dateCapture": "2006:04:07"
+    },
+    {
+      "id_pic": "Orfevres-Qu-1_1_§10",
+      "IndexJantzen": [
+        "sculpture"
+      ],
+      "dateCapture": "2005:06:14"
+    },
+    {
+      "id_pic": "Orfevres-Qu-1_1_§2",
+      "IndexJantzen": [
+        "décor",
+        "sculpture"
+      ],
+      "dateCapture": "2006:06:13"
+    },
+    {
+      "id_pic": "Orfevres-Qu-1_1_§3",
+      "IndexJantzen": [
+        "sculpture"
+      ],
+      "dateCapture": "2006:05:14"
+    },
+    {
+      "id_pic": "Orfevres-Qu-1_1_§4",
+      "IndexJantzen": [
+        "façade"
+      ],
+      "dateCapture": "2005:06:14"
+    },
+    {
+      "id_pic": "Orfevres-Qu-1_1_§5",
+      "IndexJantzen": [
+        "toiture",
+        "tour"
+      ],
+      "dateCapture": "2005:06:14"
+    },
+    {
+      "id_pic": "Orfevres-Qu-1_1_§6",
+      "IndexJantzen": [
+        "tour"
+      ],
+      "dateCapture": "2005:06:14"
+    },
+    {
+      "id_pic": "Orfevres-Qu-1_1_§7",
+      "IndexJantzen": [
+        "fenetre",
+        "tour"
+      ],
+      "dateCapture": "2005:06:14"
+    },
+    {
+      "id_pic": "Orfevres-Qu-1_1_§8",
+      "IndexJantzen": [
+        "tour"
+      ],
+      "dateCapture": "2005:06:14"
+    },
+    {
+      "id_pic": "Orfevres-Qu-1_1_§9",
+      "IndexJantzen": [
+        "lucarne",
+        "toiture"
+      ],
+      "dateCapture": "2005:06:14"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "id_bat": 147,
+  "libelle": "Village Saint-Paul",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": null,
+  "adresse": null,
+  "arrondissement": 4,
+  "tri_alphab": "St-Paul-Village",
+  "coordonnees": {
+    "latitude": "48.85346",
+    "longitude": "2.36058"
+  },
+  "id_pss": null,
+  "id_wikidata": "Q109046505",
+  "WPfr": "Village Saint-Paul",
+  "image_ref": "St-Paul-Village_4_§1",
+  "terme_jantzen_bat": [
+    "lucarne",
+    "fenetre",
+    "façade",
+    "pignon"
+  ],
+  "photos": [
+    {
+      "id_pic": "St-Paul-Village_4_§1",
+      "IndexJantzen": [
+        "façade"
+      ],
+      "dateCapture": "2004:09:07"
+    },
+    {
+      "id_pic": "St-Paul-Village_4_§10",
+      "IndexJantzen": [],
+      "dateCapture": "2004:09:07"
+    },
+    {
+      "id_pic": "St-Paul-Village_4_§2",
+      "IndexJantzen": [
+        "fenetre"
+      ],
+      "dateCapture": "2004:09:07"
+    },
+    {
+      "id_pic": "St-Paul-Village_4_§6-Rs",
+      "IndexJantzen": [
+        "lucarne"
+      ],
+      "dateCapture": "2008:07:10"
+    },
+    {
+      "id_pic": "St-Paul-Village_4_§7-Rx",
+      "IndexJantzen": [
+        "lucarne"
+      ],
+      "dateCapture": "2011:08:20"
+    },
+    {
+      "id_pic": "St-Paul-Village_4_§8-Rx",
+      "IndexJantzen": [
+        "lucarne",
+        "pignon"
+      ],
+      "dateCapture": "2011:08:20"
+    },
+    {
+      "id_pic": "St-Paul-Village_4_§9",
+      "IndexJantzen": [
+        "fenetre"
+      ],
+      "dateCapture": "2011:08:20"
+    }
+  ]
+}

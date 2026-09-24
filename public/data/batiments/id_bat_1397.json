@@ -1,0 +1,42 @@
+{
+  "id_bat": 1397,
+  "libelle": "197T rue Saint-Charles",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": null,
+  "adresse": {
+    "affichage": "197T rue Saint-Charles",
+    "numero": "197T",
+    "voie": "rue Saint-Charles"
+  },
+  "arrondissement": 15,
+  "tri_alphab": "St-Charles",
+  "coordonnees": {
+    "latitude": "48.839966",
+    "longitude": "2.279892"
+  },
+  "id_pss": null,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": "St-Charles-197T_15_§1",
+  "terme_jantzen_bat": [
+    "fenetre"
+  ],
+  "photos": [
+    {
+      "id_pic": "St-Charles-197T_15_§1",
+      "IndexJantzen": [
+        "fenetre"
+      ],
+      "dateCapture": "2005:04:21"
+    },
+    {
+      "id_pic": "St-Charles-197T_15_§2",
+      "IndexJantzen": [
+        "fenetre"
+      ],
+      "dateCapture": "2005:04:21"
+    }
+  ]
+}

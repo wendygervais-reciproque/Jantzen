@@ -1,0 +1,87 @@
+{
+  "id_bat": 3864,
+  "libelle": "91 boulevard Beaumarchais",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": null,
+  "adresse": {
+    "affichage": "91 boulevard Beaumarchais",
+    "numero": "91",
+    "voie": "boulevard Beaumarchais"
+  },
+  "arrondissement": 3,
+  "tri_alphab": "Beaumarchais",
+  "coordonnees": {
+    "latitude": "48.859379",
+    "longitude": "2.367372"
+  },
+  "id_pss": null,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": "Beaumarchais-91_3_§1",
+  "terme_jantzen_bat": [
+    "fenetre",
+    "façade",
+    "garde-corps"
+  ],
+  "photos": [
+    {
+      "id_pic": "Beaumarchais-91_3_§1",
+      "IndexJantzen": [
+        "façade"
+      ],
+      "dateCapture": "2004:09:07"
+    },
+    {
+      "id_pic": "Beaumarchais-91_3_§2",
+      "IndexJantzen": [
+        "façade"
+      ],
+      "dateCapture": "2010:03:23"
+    },
+    {
+      "id_pic": "Beaumarchais-91_3_§3",
+      "IndexJantzen": [
+        "fenetre"
+      ],
+      "dateCapture": "2010:03:23"
+    },
+    {
+      "id_pic": "Beaumarchais-91_3_§4",
+      "IndexJantzen": [
+        "fenetre"
+      ],
+      "dateCapture": "2007:05:12"
+    },
+    {
+      "id_pic": "Beaumarchais-91_3_§5",
+      "IndexJantzen": [
+        "fenetre"
+      ],
+      "dateCapture": "2007:05:12"
+    },
+    {
+      "id_pic": "Beaumarchais-91_3_§6",
+      "IndexJantzen": [
+        "fenetre",
+        "garde-corps"
+      ],
+      "dateCapture": "2004:09:07"
+    },
+    {
+      "id_pic": "Beaumarchais-91_3_§7",
+      "IndexJantzen": [
+        "fenetre"
+      ],
+      "dateCapture": "2010:03:23"
+    },
+    {
+      "id_pic": "Beaumarchais-91_3_§8",
+      "IndexJantzen": [
+        "fenetre"
+      ],
+      "dateCapture": "2010:03:23"
+    }
+  ]
+}

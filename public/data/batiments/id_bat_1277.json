@@ -10,6 +10,10 @@
     {
       "personneID": 127,
       "role": "architecte"
+    },
+    {
+      "personneID": 10035,
+      "role": "sculpteur"
     }
   ],
   "dateConstruction": "1873",
@@ -32,12 +36,12 @@
   "WPfr": null,
   "image_ref": "St-Martin-bd-18_10_§1-Rx",
   "terme_jantzen_bat": [
-    "façade",
-    "atlante",
-    "fenetre",
     "oeil-de-boeuf",
-    "décor",
-    "sculpture"
+    "fenetre",
+    "façade",
+    "sculpture",
+    "atlante",
+    "décor"
   ],
   "photos": [
     {

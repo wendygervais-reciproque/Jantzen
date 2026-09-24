@@ -6,6 +6,14 @@
     {
       "personneID": 250,
       "role": "architecte"
+    },
+    {
+      "personneID": 10066,
+      "role": "céramiste"
+    },
+    {
+      "personneID": 10023,
+      "role": "céramiste"
     }
   ],
   "dateConstruction": "1910",
@@ -28,18 +36,18 @@
   "WPfr": null,
   "image_ref": "Octave-Feuillet-19_16_§1",
   "terme_jantzen_bat": [
+    "porte-fer",
+    "fenetre",
+    "console",
+    "garde-corps",
+    "façade-d'angle",
+    "sculpture",
+    "clé",
+    "fenetre-d'angle",
     "balcon",
     "céramique",
-    "clé",
-    "console",
-    "porte-fer",
-    "fenetre-d'angle",
-    "fenetre",
-    "garde-corps",
-    "porte-fer-hall",
-    "façade-d'angle",
     "décor",
-    "sculpture"
+    "porte-fer-hall"
   ],
   "photos": [
     {

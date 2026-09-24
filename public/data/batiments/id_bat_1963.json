@@ -6,6 +6,14 @@
     {
       "personneID": 109,
       "role": "architecte"
+    },
+    {
+      "personneID": 10066,
+      "role": "céramiste"
+    },
+    {
+      "personneID": 10023,
+      "role": "céramiste"
     }
   ],
   "dateConstruction": "1905",
@@ -28,17 +36,17 @@
   "WPfr": null,
   "image_ref": "Anatole-France-27B_7_§7",
   "terme_jantzen_bat": [
-    "balcon",
+    "toiture",
+    "fenetre",
+    "lucarne",
+    "garde-corps",
     "façade",
+    "tourelle",
+    "porte",
     "loggia",
     "céramique",
-    "porte",
     "verrière",
-    "fenetre",
-    "toiture",
-    "garde-corps",
-    "lucarne",
-    "tourelle",
+    "balcon",
     "colonne"
   ],
   "photos": [

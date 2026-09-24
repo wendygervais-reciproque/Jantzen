@@ -6,6 +6,10 @@
     {
       "personneID": 667,
       "role": "architecte"
+    },
+    {
+      "personneID": 10044,
+      "role": "sculpteur"
     }
   ],
   "dateConstruction": "1905",
@@ -28,11 +32,11 @@
   "WPfr": null,
   "image_ref": "Manin-59_19_§1",
   "terme_jantzen_bat": [
-    "balcon",
-    "lucarne-d'angle",
     "façade-d'angle",
+    "dome",
     "fenetre-d'angle",
-    "dome"
+    "lucarne-d'angle",
+    "balcon"
   ],
   "photos": [
     {

@@ -1,0 +1,62 @@
+{
+  "id_bat": 1127,
+  "libelle": "16 rue d'Enghien",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": null,
+  "adresse": {
+    "affichage": "16 rue d'Enghien",
+    "numero": "16",
+    "voie": "rue d'Enghien"
+  },
+  "arrondissement": 10,
+  "tri_alphab": "Enghien",
+  "coordonnees": {
+    "latitude": "48.871918",
+    "longitude": "2.351758"
+  },
+  "id_pss": 14880,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": "Enghien-16_10_§1",
+  "terme_jantzen_bat": [
+    "fenetre",
+    "sculpture",
+    "brique",
+    "décor",
+    "colonne"
+  ],
+  "photos": [
+    {
+      "id_pic": "Enghien-16_10_§1",
+      "IndexJantzen": [
+        "brique",
+        "décor",
+        "fenetre",
+        "sculpture"
+      ],
+      "dateCapture": "2008:08:19"
+    },
+    {
+      "id_pic": "Enghien-16_10_§2",
+      "IndexJantzen": [
+        "brique",
+        "décor",
+        "fenetre",
+        "sculpture"
+      ],
+      "dateCapture": "2008:08:19"
+    },
+    {
+      "id_pic": "Enghien-16_10_§3",
+      "IndexJantzen": [
+        "brique",
+        "colonne",
+        "décor",
+        "fenetre"
+      ],
+      "dateCapture": "2008:08:19"
+    }
+  ]
+}

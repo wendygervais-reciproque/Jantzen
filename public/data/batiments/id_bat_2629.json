@@ -2,7 +2,12 @@
   "id_bat": 2629,
   "libelle": "42 rue François-Miron",
   "ensemble": null,
-  "personnes": null,
+  "personnes": [
+    {
+      "personneID": 10030,
+      "role": "sculpteur"
+    }
+  ],
   "dateConstruction": "1742",
   "periode": [
     "1660-1759"
@@ -23,11 +28,11 @@
   "WPfr": null,
   "image_ref": "Francois-Miron-42_4_§1",
   "terme_jantzen_bat": [
-    "balcon",
-    "façade",
-    "clé",
     "fenetre",
-    "garde-corps"
+    "façade",
+    "garde-corps",
+    "clé",
+    "balcon"
   ],
   "photos": [
     {

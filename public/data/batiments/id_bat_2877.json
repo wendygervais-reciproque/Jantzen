@@ -1,0 +1,37 @@
+{
+  "id_bat": 2877,
+  "libelle": "5 rue Jean-de-Beauvais",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": null,
+  "adresse": {
+    "affichage": "5 rue Jean-de-Beauvais",
+    "numero": "5",
+    "voie": "rue Jean-de-Beauvais"
+  },
+  "arrondissement": 5,
+  "tri_alphab": "Jean-De-Beauvais",
+  "coordonnees": {
+    "latitude": "48.849932",
+    "longitude": "2.347388"
+  },
+  "id_pss": null,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": "Jean-De-Beauvais_5_K14",
+  "terme_jantzen_bat": [
+    "façade",
+    "pignon"
+  ],
+  "photos": [
+    {
+      "id_pic": "Jean-De-Beauvais_5_K14",
+      "IndexJantzen": [
+        "façade",
+        "pignon"
+      ],
+      "dateCapture": "2004:05:07"
+    }
+  ]
+}

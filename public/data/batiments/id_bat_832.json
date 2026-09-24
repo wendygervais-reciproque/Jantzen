@@ -2,7 +2,16 @@
   "id_bat": 832,
   "libelle": "133 rue Saint-Denis",
   "ensemble": null,
-  "personnes": null,
+  "personnes": [
+    {
+      "personneID": 10025,
+      "role": "sculpteur"
+    },
+    {
+      "personneID": 10013,
+      "role": "sculpteur"
+    }
+  ],
   "dateConstruction": "1912",
   "periode": [
     "1895-1914"

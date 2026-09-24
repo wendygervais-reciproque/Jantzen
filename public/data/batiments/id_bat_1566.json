@@ -6,6 +6,10 @@
     {
       "personneID": 32,
       "role": "architecte"
+    },
+    {
+      "personneID": 10129,
+      "role": "sculpteur"
     }
   ],
   "dateConstruction": "1896",
@@ -28,10 +32,10 @@
   "WPfr": null,
   "image_ref": "Lonchamp-20_16_§1",
   "terme_jantzen_bat": [
-    "porte-fer-hall",
-    "cariatide",
     "porte-fer",
-    "sculpture"
+    "cariatide",
+    "sculpture",
+    "porte-fer-hall"
   ],
   "photos": [
     {

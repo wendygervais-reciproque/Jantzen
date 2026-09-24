@@ -2,7 +2,12 @@
   "id_bat": 3030,
   "libelle": "56 boulevard de Magenta",
   "ensemble": null,
-  "personnes": null,
+  "personnes": [
+    {
+      "personneID": 10043,
+      "role": "sculpteur"
+    }
+  ],
   "dateConstruction": "1867",
   "periode": [
     "1850-1869"
@@ -23,8 +28,8 @@
   "WPfr": null,
   "image_ref": "Magenta-56_10_§1",
   "terme_jantzen_bat": [
-    "atlante",
-    "sculpture"
+    "sculpture",
+    "atlante"
   ],
   "photos": [
     {

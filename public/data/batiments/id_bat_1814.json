@@ -10,6 +10,10 @@
     {
       "personneID": 890,
       "role": "architecte"
+    },
+    {
+      "personneID": 10068,
+      "role": "architecte"
     }
   ],
   "dateConstruction": "1842",
@@ -32,15 +36,15 @@
   "WPfr": null,
   "image_ref": "Linne-24_5_§1",
   "terme_jantzen_bat": [
-    "balcon",
-    "façade",
-    "console",
     "fenetre",
+    "façade",
     "garde-corps",
+    "console",
+    "sculpture",
+    "porte-bois",
     "pilastre",
     "décor",
-    "porte-bois",
-    "sculpture"
+    "balcon"
   ],
   "photos": [
     {

@@ -1,0 +1,42 @@
+{
+  "id_bat": 3181,
+  "libelle": "6 rue Saint-Florentin",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": null,
+  "adresse": {
+    "affichage": "6 rue Saint-Florentin",
+    "numero": "6",
+    "voie": "rue Saint-Florentin"
+  },
+  "arrondissement": 1,
+  "tri_alphab": "St-Florentin",
+  "coordonnees": {
+    "latitude": "48.867345",
+    "longitude": "2.324257"
+  },
+  "id_pss": null,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": "St-Florentin-6_1_§1",
+  "terme_jantzen_bat": [
+    "porte-bois"
+  ],
+  "photos": [
+    {
+      "id_pic": "St-Florentin-6_1_§1",
+      "IndexJantzen": [
+        "porte-bois"
+      ],
+      "dateCapture": "2010:04:18"
+    },
+    {
+      "id_pic": "St-Florentin-6_1_§2",
+      "IndexJantzen": [
+        "porte-bois"
+      ],
+      "dateCapture": "2006:03:19"
+    }
+  ]
+}

@@ -10,6 +10,10 @@
     {
       "personneID": 280,
       "role": "architecte"
+    },
+    {
+      "personneID": 10010,
+      "role": "sculpteur"
     }
   ],
   "dateConstruction": "1910",
@@ -32,11 +36,11 @@
   "WPfr": null,
   "image_ref": "Tolbiac-198_13_§1",
   "terme_jantzen_bat": [
-    "façade",
     "fenetre",
+    "façade",
     "garde-corps",
-    "décor",
-    "sculpture"
+    "sculpture",
+    "décor"
   ],
   "photos": [
     {

@@ -2,7 +2,12 @@
   "id_bat": 3867,
   "libelle": "91 rue La Fayette",
   "ensemble": null,
-  "personnes": null,
+  "personnes": [
+    {
+      "personneID": 10040,
+      "role": "sculpteur"
+    }
+  ],
   "dateConstruction": "vers 1865",
   "periode": [
     "1850-1869"
@@ -23,10 +28,10 @@
   "WPfr": null,
   "image_ref": "La-Fayette-91_9_§1",
   "terme_jantzen_bat": [
-    "cariatide",
-    "porte-bois",
     "fenetre",
-    "sculpture"
+    "cariatide",
+    "sculpture",
+    "porte-bois"
   ],
   "photos": [
     {

@@ -1,0 +1,37 @@
+{
+  "id_bat": 3899,
+  "libelle": "94 rue René-Boulanger",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": null,
+  "adresse": {
+    "affichage": "94 rue René-Boulanger",
+    "numero": "94",
+    "voie": "rue René-Boulanger"
+  },
+  "arrondissement": 10,
+  "tri_alphab": "Rene-Boulanger",
+  "coordonnees": {
+    "latitude": "48.869244",
+    "longitude": "2.356237"
+  },
+  "id_pss": null,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": "Rene-Boulanger-94_10_§1",
+  "terme_jantzen_bat": [
+    "toiture",
+    "lucarne"
+  ],
+  "photos": [
+    {
+      "id_pic": "Rene-Boulanger-94_10_§1",
+      "IndexJantzen": [
+        "lucarne",
+        "toiture"
+      ],
+      "dateCapture": "2005:08:28"
+    }
+  ]
+}

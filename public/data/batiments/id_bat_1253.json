@@ -6,6 +6,10 @@
     {
       "personneID": 152,
       "role": "architecte"
+    },
+    {
+      "personneID": 10015,
+      "role": "sculpteur"
     }
   ],
   "dateConstruction": "1913",
@@ -28,17 +32,17 @@
   "WPfr": null,
   "image_ref": "Maine-av-172_14_§1-Rx",
   "terme_jantzen_bat": [
-    "balcon",
-    "loggia",
-    "console",
-    "fenetre-d'angle",
     "fenetre",
-    "garde-corps",
     "lucarne",
+    "garde-corps",
+    "console",
     "façade-d'angle",
+    "sculpture",
+    "fenetre-d'angle",
+    "loggia",
     "décor",
-    "colonne",
-    "sculpture"
+    "balcon",
+    "colonne"
   ],
   "photos": [
     {

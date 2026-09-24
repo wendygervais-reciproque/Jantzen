@@ -1,0 +1,59 @@
+{
+  "id_bat": 1265,
+  "libelle": "178 rue de Courcelles",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": [
+    "1915-1944"
+  ],
+  "adresse": {
+    "affichage": "178 rue de Courcelles",
+    "numero": "178",
+    "voie": "rue de Courcelles"
+  },
+  "arrondissement": 17,
+  "tri_alphab": "Courcelles",
+  "coordonnees": {
+    "latitude": "48.884145",
+    "longitude": "2.298286"
+  },
+  "id_pss": 41097,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": "Courcelles-178_17_§1",
+  "terme_jantzen_bat": [
+    "fenetre",
+    "lucarne",
+    "console",
+    "garde-corps",
+    "sculpture"
+  ],
+  "photos": [
+    {
+      "id_pic": "Courcelles-178_17_§1",
+      "IndexJantzen": [
+        "fenetre",
+        "lucarne"
+      ],
+      "dateCapture": "2007:03:14"
+    },
+    {
+      "id_pic": "Courcelles-178_17_§2",
+      "IndexJantzen": [
+        "console",
+        "fenetre",
+        "garde-corps"
+      ],
+      "dateCapture": "2007:03:14"
+    },
+    {
+      "id_pic": "Courcelles-178_17_§3",
+      "IndexJantzen": [
+        "garde-corps",
+        "sculpture"
+      ],
+      "dateCapture": "2007:03:14"
+    }
+  ]
+}

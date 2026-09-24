@@ -1,0 +1,35 @@
+{
+  "id_bat": 368,
+  "libelle": "100 rue Saint-Honoré",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": null,
+  "adresse": {
+    "affichage": "100 rue Saint-Honoré",
+    "numero": "100",
+    "voie": "rue Saint-Honoré"
+  },
+  "arrondissement": 1,
+  "tri_alphab": "St-Honore",
+  "coordonnees": {
+    "latitude": "48.861561",
+    "longitude": "2.342174"
+  },
+  "id_pss": null,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": "St-Honore-Sauval_1_§1",
+  "terme_jantzen_bat": [
+    "façade-d'angle"
+  ],
+  "photos": [
+    {
+      "id_pic": "St-Honore-Sauval_1_§1",
+      "IndexJantzen": [
+        "façade-d'angle"
+      ],
+      "dateCapture": "2004:09:12"
+    }
+  ]
+}

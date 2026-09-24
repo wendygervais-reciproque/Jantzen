@@ -1,0 +1,76 @@
+{
+  "id_bat": 1722,
+  "libelle": "23 avenue de Lamballe",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": [
+    "1915-1944"
+  ],
+  "adresse": {
+    "affichage": "23 avenue de Lamballe",
+    "numero": "23",
+    "voie": "avenue de Lamballe"
+  },
+  "arrondissement": 16,
+  "tri_alphab": "Lamballe",
+  "coordonnees": {
+    "latitude": "48.854419",
+    "longitude": "2.27972"
+  },
+  "id_pss": 105843,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": "Lamballe-23_16_§1",
+  "terme_jantzen_bat": [
+    "fenetre-d'angle",
+    "lucarne-d'angle",
+    "balcon",
+    "façade-d'angle"
+  ],
+  "photos": [
+    {
+      "id_pic": "Lamballe-23_16_§1",
+      "IndexJantzen": [
+        "façade-d'angle"
+      ],
+      "dateCapture": "2008:02:19"
+    },
+    {
+      "id_pic": "Lamballe-23_16_§2",
+      "IndexJantzen": [
+        "fenetre-d'angle"
+      ],
+      "dateCapture": "2008:02:19"
+    },
+    {
+      "id_pic": "Lamballe-23_16_§3",
+      "IndexJantzen": [
+        "fenetre-d'angle"
+      ],
+      "dateCapture": "2008:02:19"
+    },
+    {
+      "id_pic": "Lamballe-23_16_§4",
+      "IndexJantzen": [
+        "lucarne-d'angle"
+      ],
+      "dateCapture": "2008:02:19"
+    },
+    {
+      "id_pic": "Lamballe-23_16_§5",
+      "IndexJantzen": [
+        "balcon",
+        "lucarne-d'angle"
+      ],
+      "dateCapture": "2009:03:20"
+    },
+    {
+      "id_pic": "Lamballe-23_16_§6",
+      "IndexJantzen": [
+        "lucarne-d'angle"
+      ],
+      "dateCapture": "2009:03:20"
+    }
+  ]
+}

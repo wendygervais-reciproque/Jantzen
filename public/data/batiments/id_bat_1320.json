@@ -10,6 +10,10 @@
     {
       "personneID": 48,
       "role": "architecte"
+    },
+    {
+      "personneID": 10130,
+      "role": "sculpteur"
     }
   ],
   "dateConstruction": "1905",
@@ -32,12 +36,12 @@
   "WPfr": null,
   "image_ref": "Perree-18_3_§1",
   "terme_jantzen_bat": [
-    "façade",
-    "chimère",
-    "console",
     "fenetre",
+    "façade",
+    "console",
     "lucarne",
-    "sculpture"
+    "sculpture",
+    "chimère"
   ],
   "photos": [
     {

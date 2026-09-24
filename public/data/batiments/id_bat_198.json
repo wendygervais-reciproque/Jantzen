@@ -1,0 +1,37 @@
+{
+  "id_bat": 198,
+  "libelle": "1 rue Christine",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": null,
+  "adresse": {
+    "affichage": "1 rue Christine",
+    "numero": "1",
+    "voie": "rue Christine"
+  },
+  "arrondissement": 6,
+  "tri_alphab": "Christine",
+  "coordonnees": {
+    "latitude": "48.854312",
+    "longitude": "2.340345"
+  },
+  "id_pss": null,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": "Christine-1_6_§1",
+  "terme_jantzen_bat": [
+    "porte-bois",
+    "fronton"
+  ],
+  "photos": [
+    {
+      "id_pic": "Christine-1_6_§1",
+      "IndexJantzen": [
+        "fronton",
+        "porte-bois"
+      ],
+      "dateCapture": "2006:05:14"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id_bat": 2362,
+  "libelle": "37 rue de Picpus",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": null,
+  "adresse": {
+    "affichage": "37 rue de Picpus",
+    "numero": "37",
+    "voie": "rue de Picpus"
+  },
+  "arrondissement": 12,
+  "tri_alphab": "Picpus",
+  "coordonnees": {
+    "latitude": "48.84411",
+    "longitude": "2.396432"
+  },
+  "id_pss": null,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": "Picpus-37_12_§1",
+  "terme_jantzen_bat": [
+    "oeil-de-boeuf",
+    "fenetre",
+    "lucarne",
+    "façade",
+    "sculpture",
+    "clé",
+    "porte-bois",
+    "fronton"
+  ],
+  "photos": [
+    {
+      "id_pic": "Picpus-37_12_§1",
+      "IndexJantzen": [
+        "façade"
+      ],
+      "dateCapture": "2006:10:16"
+    },
+    {
+      "id_pic": "Picpus-37_12_§2",
+      "IndexJantzen": [
+        "façade"
+      ],
+      "dateCapture": "2005:07:15"
+    },
+    {
+      "id_pic": "Picpus-37_12_§3",
+      "IndexJantzen": [
+        "fronton",
+        "lucarne",
+        "oeil-de-boeuf"
+      ],
+      "dateCapture": "2006:10:16"
+    },
+    {
+      "id_pic": "Picpus-37_12_§4",
+      "IndexJantzen": [
+        "fronton",
+        "lucarne",
+        "oeil-de-boeuf"
+      ],
+      "dateCapture": "2006:10:16"
+    },
+    {
+      "id_pic": "Picpus-37_12_§5",
+      "IndexJantzen": [
+        "fenetre",
+        "sculpture"
+      ],
+      "dateCapture": "2006:10:16"
+    },
+    {
+      "id_pic": "Picpus-37_12_§6",
+      "IndexJantzen": [
+        "clé",
+        "fenetre"
+      ],
+      "dateCapture": "2006:10:16"
+    },
+    {
+      "id_pic": "Picpus-37_12_§7",
+      "IndexJantzen": [
+        "porte-bois"
+      ],
+      "dateCapture": "2005:07:15"
+    }
+  ]
+}

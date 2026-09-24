@@ -6,6 +6,10 @@
     {
       "personneID": 607,
       "role": "architecte"
+    },
+    {
+      "personneID": 10095,
+      "role": "sculpteur"
     }
   ],
   "dateConstruction": "1906",
@@ -28,22 +32,22 @@
   "WPfr": null,
   "image_ref": "Suffren-159_15_§1",
   "terme_jantzen_bat": [
-    "balcon",
-    "façade",
-    "lucarne-d'angle",
-    "façade-d'angle",
-    "colonne",
-    "chimère",
-    "fenetre-d'angle",
-    "console",
     "fenetre",
-    "garde-corps",
     "lucarne",
-    "fronton",
-    "oriel",
-    "dome",
+    "façade",
+    "garde-corps",
+    "console",
+    "façade-d'angle",
+    "chimère",
+    "sculpture",
     "porte-bois",
-    "sculpture"
+    "fenetre-d'angle",
+    "dome",
+    "oriel",
+    "lucarne-d'angle",
+    "colonne",
+    "balcon",
+    "fronton"
   ],
   "photos": [
     {

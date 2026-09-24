@@ -6,6 +6,14 @@
     {
       "personneID": 789,
       "role": "architecte"
+    },
+    {
+      "personneID": 10162,
+      "role": "sculpteur"
+    },
+    {
+      "personneID": 10159,
+      "role": "sculpteur"
     }
   ],
   "dateConstruction": "1901",
@@ -28,17 +36,17 @@
   "WPfr": null,
   "image_ref": "Villaret-de-Joyeuse-1_17_§1",
   "terme_jantzen_bat": [
-    "lucarne-d'angle",
-    "façade-d'angle",
-    "clé",
-    "fenetre-d'angle",
     "porte-fer",
     "fenetre",
-    "porte-fer-hall",
+    "façade-d'angle",
+    "sculpture",
     "dome",
+    "clé",
+    "fenetre-d'angle",
+    "lucarne-d'angle",
     "décor",
-    "colonne",
-    "sculpture"
+    "porte-fer-hall",
+    "colonne"
   ],
   "photos": [
     {

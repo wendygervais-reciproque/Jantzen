@@ -1,0 +1,46 @@
+{
+  "id_bat": 414,
+  "libelle": "107 rue Caulaincourt",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": null,
+  "adresse": {
+    "affichage": "107 rue Caulaincourt",
+    "numero": "107",
+    "voie": "rue Caulaincourt"
+  },
+  "arrondissement": 18,
+  "tri_alphab": "Caulaincourt",
+  "coordonnees": {
+    "latitude": "48.889746",
+    "longitude": "2.33929"
+  },
+  "id_pss": null,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": "Caulaincourt-107_18_1",
+  "terme_jantzen_bat": [
+    "lucarne",
+    "lucarne-d'angle",
+    "dome"
+  ],
+  "photos": [
+    {
+      "id_pic": "Caulaincourt-107_18_1",
+      "IndexJantzen": [
+        "dome",
+        "lucarne-d'angle"
+      ],
+      "dateCapture": "2006:04:08"
+    },
+    {
+      "id_pic": "Caulaincourt-107_18_2",
+      "IndexJantzen": [
+        "dome",
+        "lucarne"
+      ],
+      "dateCapture": "2006:04:08"
+    }
+  ]
+}

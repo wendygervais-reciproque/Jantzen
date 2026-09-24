@@ -6,6 +6,10 @@
     {
       "personneID": 171,
       "role": "architecte"
+    },
+    {
+      "personneID": 10092,
+      "role": "sculpteur"
     }
   ],
   "dateConstruction": "1869",
@@ -28,13 +32,13 @@
   "WPfr": null,
   "image_ref": "Belleville-51_19_§1",
   "terme_jantzen_bat": [
-    "façade",
-    "porte",
-    "console",
     "fenetre",
-    "pilastre",
+    "façade",
+    "console",
+    "porte",
+    "sculpture",
     "porte-bois",
-    "sculpture"
+    "pilastre"
   ],
   "photos": [
     {

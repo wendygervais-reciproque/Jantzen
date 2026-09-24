@@ -10,6 +10,10 @@
     {
       "personneID": 195,
       "role": "architecte"
+    },
+    {
+      "personneID": 10123,
+      "role": "sculpteur"
     }
   ],
   "dateConstruction": "1882",
@@ -32,21 +36,21 @@
   "WPfr": null,
   "image_ref": "Parrot-16_12_§1",
   "terme_jantzen_bat": [
-    "mosaique",
-    "balcon",
-    "lucarne-d'angle",
-    "façade-d'angle",
-    "fenetre-d'angle",
     "fenetre",
-    "garde-corps",
     "lucarne",
-    "fronton",
-    "cariatide",
-    "oriel",
+    "garde-corps",
+    "façade-d'angle",
+    "sculpture",
+    "mosaique",
     "dome",
+    "oriel",
+    "fenetre-d'angle",
+    "cariatide",
+    "lucarne-d'angle",
+    "fronton",
     "décor",
-    "colonne",
-    "sculpture"
+    "balcon",
+    "colonne"
   ],
   "photos": [
     {

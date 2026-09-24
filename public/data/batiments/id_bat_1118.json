@@ -6,6 +6,10 @@
     {
       "personneID": 634,
       "role": "architecte"
+    },
+    {
+      "personneID": 10056,
+      "role": "sculpteur"
     }
   ],
   "dateConstruction": "1900",
@@ -28,17 +32,17 @@
   "WPfr": null,
   "image_ref": "Abbeville-16_10_§3",
   "terme_jantzen_bat": [
-    "balcon",
-    "façade",
-    "fenetre-d'angle",
-    "console",
     "fenetre",
-    "cariatide",
-    "oriel",
+    "façade",
+    "console",
     "pignon",
     "façade-d'angle",
+    "sculpture",
+    "oriel",
+    "fenetre-d'angle",
+    "cariatide",
     "décor",
-    "sculpture"
+    "balcon"
   ],
   "photos": [
     {

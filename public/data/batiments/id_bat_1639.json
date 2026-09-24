@@ -6,6 +6,10 @@
     {
       "personneID": 430,
       "role": "architecte"
+    },
+    {
+      "personneID": 10086,
+      "role": "sculpteur"
     }
   ],
   "dateConstruction": "1900",
@@ -28,9 +32,9 @@
   "WPfr": null,
   "image_ref": "Monsieur-21_7_§1",
   "terme_jantzen_bat": [
-    "porte-fer-hall",
     "sculpture",
-    "console"
+    "console",
+    "porte-fer-hall"
   ],
   "photos": [
     {

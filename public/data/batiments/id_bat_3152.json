@@ -10,6 +10,10 @@
     {
       "personneID": 357,
       "role": "architecte"
+    },
+    {
+      "personneID": 10072,
+      "role": "sculpteur"
     }
   ],
   "dateConstruction": "1909",
@@ -32,12 +36,12 @@
   "WPfr": null,
   "image_ref": "Dufrenoy-6_16_§1",
   "terme_jantzen_bat": [
-    "loggia",
-    "console",
     "fenetre",
+    "console",
+    "sculpture",
+    "loggia",
     "porte-fer-hall",
-    "colonne",
-    "sculpture"
+    "colonne"
   ],
   "photos": [
     {

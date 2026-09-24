@@ -38,6 +38,10 @@
     {
       "personneID": 376,
       "role": "architecte"
+    },
+    {
+      "personneID": 10126,
+      "role": "sculpteur"
     }
   ],
   "dateConstruction": "1839",
@@ -56,10 +60,10 @@
   "WPfr": "Palais Bourbon",
   "image_ref": "Assemblee-Nationale_7_§1_DxP",
   "terme_jantzen_bat": [
-    "fronton",
-    "façade",
     "colonne",
-    "sculpture"
+    "façade",
+    "sculpture",
+    "fronton"
   ],
   "photos": [
     {

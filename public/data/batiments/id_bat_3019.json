@@ -6,6 +6,10 @@
     {
       "personneID": 642,
       "role": "architecte"
+    },
+    {
+      "personneID": 10103,
+      "role": "sculpteur"
     }
   ],
   "dateConstruction": "1905",
@@ -28,13 +32,13 @@
   "WPfr": null,
   "image_ref": "Clichy-55_9_§1",
   "terme_jantzen_bat": [
-    "façade",
     "toiture",
     "fenetre",
     "lucarne",
+    "façade",
     "oeil-de-boeuf",
-    "colonne",
-    "sculpture"
+    "sculpture",
+    "colonne"
   ],
   "photos": [
     {

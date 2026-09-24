@@ -6,6 +6,10 @@
     {
       "personneID": 856,
       "role": "architecte"
+    },
+    {
+      "personneID": 10112,
+      "role": "sculpteur"
     }
   ],
   "dateConstruction": null,
@@ -26,14 +30,14 @@
   "WPfr": null,
   "image_ref": "Auguste-Blanqui-42_13_§1-Rs",
   "terme_jantzen_bat": [
-    "façade",
-    "clé",
     "porte-fer",
     "fenetre",
     "lucarne",
+    "façade",
     "pignon",
-    "décor",
-    "sculpture"
+    "sculpture",
+    "clé",
+    "décor"
   ],
   "photos": [
     {

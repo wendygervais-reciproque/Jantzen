@@ -6,6 +6,14 @@
     {
       "personneID": 789,
       "role": "architecte"
+    },
+    {
+      "personneID": 10162,
+      "role": "sculpteur"
+    },
+    {
+      "personneID": 10159,
+      "role": "sculpteur"
     }
   ],
   "dateConstruction": "1901",
@@ -30,9 +38,9 @@
   "terme_jantzen_bat": [
     "façade",
     "façade-d'angle",
-    "voie",
+    "dome",
     "fenetre-d'angle",
-    "dome"
+    "voie"
   ],
   "photos": [
     {

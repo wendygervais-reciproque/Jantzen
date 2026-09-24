@@ -6,6 +6,10 @@
     {
       "personneID": 102,
       "role": "architecte"
+    },
+    {
+      "personneID": 10130,
+      "role": "sculpteur"
     }
   ],
   "dateConstruction": "1907",
@@ -28,14 +32,14 @@
   "WPfr": null,
   "image_ref": "President-Wilson-40_16_§1",
   "terme_jantzen_bat": [
-    "balcon",
     "fenetre",
-    "garde-corps",
     "lucarne",
-    "porte-fer-hall",
-    "oriel",
     "pignon",
-    "sculpture"
+    "garde-corps",
+    "sculpture",
+    "oriel",
+    "balcon",
+    "porte-fer-hall"
   ],
   "photos": [
     {

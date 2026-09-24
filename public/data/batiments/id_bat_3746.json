@@ -1,0 +1,57 @@
+{
+  "id_bat": 3746,
+  "libelle": "87 boulevard du Montparnasse",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 154,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": null,
+  "periode": [
+    "1915-1944"
+  ],
+  "adresse": {
+    "affichage": "87 boulevard du Montparnasse",
+    "numero": "87",
+    "voie": "boulevard du Montparnasse"
+  },
+  "arrondissement": 6,
+  "tri_alphab": "Montparnasse-bd",
+  "coordonnees": {
+    "latitude": "48.843329",
+    "longitude": "2.326204"
+  },
+  "id_pss": 38019,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": "Montparnasse-bd-87_6_§1",
+  "terme_jantzen_bat": [
+    "lucarne",
+    "porte-fer-hall"
+  ],
+  "photos": [
+    {
+      "id_pic": "Montparnasse-bd-87_6_§1",
+      "IndexJantzen": [
+        "lucarne"
+      ],
+      "dateCapture": "2008:01:07"
+    },
+    {
+      "id_pic": "Montparnasse-bd-87_6_§2-Rs",
+      "IndexJantzen": [
+        "lucarne"
+      ],
+      "dateCapture": "2008:01:07"
+    },
+    {
+      "id_pic": "Montparnasse-bd-87_6_§4",
+      "IndexJantzen": [
+        "porte-fer-hall"
+      ],
+      "dateCapture": "2006:06:13"
+    }
+  ]
+}

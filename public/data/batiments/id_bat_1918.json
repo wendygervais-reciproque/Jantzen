@@ -10,6 +10,10 @@
     {
       "personneID": 195,
       "role": "architecte"
+    },
+    {
+      "personneID": 10005,
+      "role": "sculpteur"
     }
   ],
   "dateConstruction": null,
@@ -30,10 +34,10 @@
   "WPfr": null,
   "image_ref": "Vaugirard-262t_15_§1",
   "terme_jantzen_bat": [
+    "fenetre",
     "brique",
     "façade",
-    "décor",
-    "fenetre"
+    "décor"
   ],
   "photos": [
     {

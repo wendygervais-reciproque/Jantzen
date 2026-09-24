@@ -6,6 +6,10 @@
     {
       "personneID": 740,
       "role": "architecte"
+    },
+    {
+      "personneID": 10130,
+      "role": "sculpteur"
     }
   ],
   "dateConstruction": "1905",
@@ -28,13 +32,13 @@
   "WPfr": null,
   "image_ref": "Lowendal-12_7_§1",
   "terme_jantzen_bat": [
-    "chimère",
-    "console",
     "porte-fer",
     "fenetre",
     "garde-corps",
-    "porte-fer-hall",
-    "sculpture"
+    "console",
+    "sculpture",
+    "chimère",
+    "porte-fer-hall"
   ],
   "photos": [
     {

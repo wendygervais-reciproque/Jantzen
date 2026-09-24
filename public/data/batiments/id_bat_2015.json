@@ -6,6 +6,10 @@
     {
       "personneID": 911,
       "role": "architecte"
+    },
+    {
+      "personneID": 10132,
+      "role": "sculpteur"
     }
   ],
   "dateConstruction": "1848-1896",
@@ -29,15 +33,15 @@
   "WPfr": null,
   "image_ref": "St-Martin-292_3_§1",
   "terme_jantzen_bat": [
+    "toiture",
+    "porte-fer",
+    "lucarne",
     "façade",
     "porte",
-    "porte-fer",
-    "toiture",
-    "lucarne",
-    "fronton",
-    "cariatide",
+    "sculpture",
     "porte-bois",
-    "sculpture"
+    "cariatide",
+    "fronton"
   ],
   "photos": [
     {

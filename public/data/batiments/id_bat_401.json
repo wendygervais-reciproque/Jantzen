@@ -6,6 +6,10 @@
     {
       "personneID": 600,
       "role": "architecte"
+    },
+    {
+      "personneID": 10065,
+      "role": "sculpteur"
     }
   ],
   "dateConstruction": "1887",
@@ -28,10 +32,10 @@
   "WPfr": null,
   "image_ref": "Rennes-105_6_§1",
   "terme_jantzen_bat": [
-    "console",
-    "cariatide",
     "fenetre",
-    "sculpture"
+    "cariatide",
+    "sculpture",
+    "console"
   ],
   "photos": [
     {

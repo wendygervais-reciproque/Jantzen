@@ -6,6 +6,14 @@
     {
       "personneID": 13,
       "role": "architecte"
+    },
+    {
+      "personneID": 10106,
+      "role": "sculpteur"
+    },
+    {
+      "personneID": 10029,
+      "role": "sculpteur"
     }
   ],
   "dateConstruction": "1861",
@@ -28,15 +36,15 @@
   "WPfr": null,
   "image_ref": "Capucines-bd-12_9_§1",
   "terme_jantzen_bat": [
-    "balcon",
-    "façade",
-    "lucarne-d'angle",
-    "atlante",
     "toiture",
-    "garde-corps",
     "lucarne",
+    "façade",
+    "garde-corps",
+    "sculpture",
+    "atlante",
     "pilastre",
-    "sculpture"
+    "lucarne-d'angle",
+    "balcon"
   ],
   "photos": [
     {

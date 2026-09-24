@@ -6,6 +6,14 @@
     {
       "personneID": 582,
       "role": "architecte"
+    },
+    {
+      "personneID": 10156,
+      "role": "sculpteur"
+    },
+    {
+      "personneID": 10054,
+      "role": "sculpteur"
     }
   ],
   "dateConstruction": "1715",
@@ -28,10 +36,10 @@
   "WPfr": null,
   "image_ref": "Bac-120_7_§1",
   "terme_jantzen_bat": [
-    "clé",
-    "porte-bois",
     "fenetre",
-    "sculpture"
+    "sculpture",
+    "clé",
+    "porte-bois"
   ],
   "photos": [
     {

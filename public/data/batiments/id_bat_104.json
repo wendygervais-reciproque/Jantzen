@@ -1,0 +1,46 @@
+{
+  "id_bat": 104,
+  "libelle": "Jardin du Luxembourg",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": null,
+  "adresse": null,
+  "arrondissement": 6,
+  "tri_alphab": "Palais-Du-Luxembourg-Jardin",
+  "coordonnees": {
+    "latitude": "48.846944444444446",
+    "longitude": "2.337222222222222"
+  },
+  "id_pss": null,
+  "id_wikidata": "Q309458",
+  "WPfr": "Jardin du Luxembourg",
+  "image_ref": "Palais-Du-Luxembourg-Jardin_6_§1",
+  "terme_jantzen_bat": [
+    "sculpture",
+    "décor"
+  ],
+  "photos": [
+    {
+      "id_pic": "Palais-Du-Luxembourg-Jardin_6_§1",
+      "IndexJantzen": [
+        "décor"
+      ],
+      "dateCapture": "2018:10:23"
+    },
+    {
+      "id_pic": "Palais-Du-Luxembourg-Jardin_6_§2",
+      "IndexJantzen": [
+        "sculpture"
+      ],
+      "dateCapture": "2018:10:23"
+    },
+    {
+      "id_pic": "Palais-Du-Luxembourg-Jardin_6_§3",
+      "IndexJantzen": [
+        "décor"
+      ],
+      "dateCapture": "2018:10:23"
+    }
+  ]
+}

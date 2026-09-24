@@ -2,7 +2,12 @@
   "id_bat": 294,
   "libelle": "10 place de la République",
   "ensemble": null,
-  "personnes": null,
+  "personnes": [
+    {
+      "personneID": 10131,
+      "role": "sculpteur"
+    }
+  ],
   "dateConstruction": "1868",
   "periode": [
     "1850-1869"
@@ -24,12 +29,12 @@
   "image_ref": "Repubique_Pl_10_11_§1-Rs",
   "terme_jantzen_bat": [
     "fenetre",
-    "garde-corps",
     "lucarne",
-    "cariatide",
     "pignon",
-    "décor",
-    "sculpture"
+    "garde-corps",
+    "sculpture",
+    "cariatide",
+    "décor"
   ],
   "photos": [
     {

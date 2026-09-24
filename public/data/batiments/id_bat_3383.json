@@ -6,6 +6,10 @@
     {
       "personneID": 425,
       "role": "architecte"
+    },
+    {
+      "personneID": 10005,
+      "role": "sculpteur"
     }
   ],
   "dateConstruction": "1911-1912",
@@ -28,11 +32,11 @@
   "WPfr": null,
   "image_ref": "Boursault-7_17_§2",
   "terme_jantzen_bat": [
-    "façade",
-    "porte-fer",
     "toiture",
     "fenetre",
     "lucarne",
+    "façade",
+    "porte-fer",
     "porte-fer-hall"
   ],
   "photos": [

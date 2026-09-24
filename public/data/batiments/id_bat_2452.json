@@ -6,6 +6,10 @@
     {
       "personneID": 318,
       "role": "architecte"
+    },
+    {
+      "personneID": 10093,
+      "role": "sculpteur"
     }
   ],
   "dateConstruction": "1890",
@@ -28,16 +32,16 @@
   "WPfr": null,
   "image_ref": "Tourville-4_7_§1",
   "terme_jantzen_bat": [
-    "façade",
-    "atlante",
-    "console",
-    "fenetre-d'angle",
     "fenetre",
+    "façade",
+    "console",
     "garde-corps",
-    "cariatide",
+    "sculpture",
+    "atlante",
     "oriel",
     "porte-bois",
-    "sculpture"
+    "fenetre-d'angle",
+    "cariatide"
   ],
   "photos": [
     {

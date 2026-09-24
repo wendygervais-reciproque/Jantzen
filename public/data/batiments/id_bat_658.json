@@ -1,0 +1,37 @@
+{
+  "id_bat": 658,
+  "libelle": "12 rue du Commandeur",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": null,
+  "adresse": {
+    "affichage": "12 rue du Commandeur",
+    "numero": "12",
+    "voie": "rue du Commandeur"
+  },
+  "arrondissement": 14,
+  "tri_alphab": "Commandeur",
+  "coordonnees": {
+    "latitude": "48.828448",
+    "longitude": "2.331008"
+  },
+  "id_pss": null,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": "Commandeur-12_14_§1",
+  "terme_jantzen_bat": [
+    "fenetre",
+    "porte-bois"
+  ],
+  "photos": [
+    {
+      "id_pic": "Commandeur-12_14_§1",
+      "IndexJantzen": [
+        "fenetre",
+        "porte-bois"
+      ],
+      "dateCapture": "2005:08:07"
+    }
+  ]
+}

@@ -6,6 +6,14 @@
     {
       "personneID": 789,
       "role": "architecte"
+    },
+    {
+      "personneID": 10058,
+      "role": "sculpteur"
+    },
+    {
+      "personneID": 10040,
+      "role": "sculpteur"
     }
   ],
   "dateConstruction": "1895",
@@ -28,11 +36,11 @@
   "WPfr": null,
   "image_ref": "Clignancourt-22_18_§1",
   "terme_jantzen_bat": [
-    "façade",
-    "atlante",
-    "fenetre",
     "oeil-de-boeuf",
-    "sculpture"
+    "fenetre",
+    "façade",
+    "sculpture",
+    "atlante"
   ],
   "photos": [
     {

@@ -6,6 +6,10 @@
     {
       "personneID": 813,
       "role": "architecte"
+    },
+    {
+      "personneID": 10143,
+      "role": "sculpteur"
     }
   ],
   "dateConstruction": "1900",
@@ -28,13 +32,13 @@
   "WPfr": null,
   "image_ref": "Reaumur-121_2_§1",
   "terme_jantzen_bat": [
-    "façade",
-    "façade-d'angle",
     "fenetre",
+    "façade",
     "garde-corps",
+    "façade-d'angle",
     "métal",
-    "oriel",
     "dome",
+    "oriel",
     "colonne"
   ],
   "photos": [

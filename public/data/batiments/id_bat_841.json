@@ -6,6 +6,10 @@
     {
       "personneID": 472,
       "role": "architecte"
+    },
+    {
+      "personneID": 10050,
+      "role": "sculpteur"
     }
   ],
   "dateConstruction": "1910",
@@ -28,20 +32,20 @@
   "WPfr": null,
   "image_ref": "Reaumur-134_2_§1",
   "terme_jantzen_bat": [
-    "balcon",
-    "façade",
-    "lucarne-d'angle",
-    "façade-d'angle",
-    "fenetre-d'angle",
     "oeil-de-boeuf",
-    "console",
     "fenetre",
     "lucarne",
-    "tourelle",
     "pignon",
+    "façade",
+    "console",
+    "tourelle",
+    "façade-d'angle",
+    "sculpture",
     "dome",
-    "colonne",
-    "sculpture"
+    "fenetre-d'angle",
+    "lucarne-d'angle",
+    "balcon",
+    "colonne"
   ],
   "photos": [
     {

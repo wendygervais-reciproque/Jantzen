@@ -2,7 +2,12 @@
   "id_bat": 2136,
   "libelle": "30 avenue de Messine",
   "ensemble": null,
-  "personnes": null,
+  "personnes": [
+    {
+      "personneID": 10008,
+      "role": "sculpteur"
+    }
+  ],
   "dateConstruction": "1883",
   "periode": [
     "1870-1894"
@@ -23,10 +28,10 @@
   "WPfr": null,
   "image_ref": "Messine-av-30_8_§1",
   "terme_jantzen_bat": [
-    "cariatide",
-    "porte-bois",
     "fenetre",
-    "sculpture"
+    "cariatide",
+    "sculpture",
+    "porte-bois"
   ],
   "photos": [
     {

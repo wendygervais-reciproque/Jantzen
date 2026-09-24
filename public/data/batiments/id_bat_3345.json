@@ -1,0 +1,64 @@
+{
+  "id_bat": 3345,
+  "libelle": "68 rue Singer",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": null,
+  "adresse": {
+    "affichage": "68 rue Singer",
+    "numero": "68",
+    "voie": "rue Singer"
+  },
+  "arrondissement": 16,
+  "tri_alphab": "Singer",
+  "coordonnees": {
+    "latitude": "48.85717",
+    "longitude": "2.273565"
+  },
+  "id_pss": null,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": "Singer-68_16_§1",
+  "terme_jantzen_bat": [
+    "fenetre",
+    "lucarne",
+    "façade",
+    "sculpture",
+    "décor"
+  ],
+  "photos": [
+    {
+      "id_pic": "Singer-68_16_§1",
+      "IndexJantzen": [
+        "façade"
+      ],
+      "dateCapture": "2005:05:12"
+    },
+    {
+      "id_pic": "Singer-68_16_§2",
+      "IndexJantzen": [
+        "fenetre",
+        "lucarne"
+      ],
+      "dateCapture": "2005:05:12"
+    },
+    {
+      "id_pic": "Singer-68_16_§3",
+      "IndexJantzen": [
+        "décor",
+        "fenetre",
+        "sculpture"
+      ],
+      "dateCapture": "2005:05:12"
+    },
+    {
+      "id_pic": "Singer-68_16_§4",
+      "IndexJantzen": [
+        "fenetre",
+        "sculpture"
+      ],
+      "dateCapture": "2005:05:12"
+    }
+  ]
+}

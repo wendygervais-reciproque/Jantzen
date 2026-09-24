@@ -6,6 +6,10 @@
     {
       "personneID": 599,
       "role": "architecte"
+    },
+    {
+      "personneID": 10065,
+      "role": "sculpteur"
     }
   ],
   "dateConstruction": "1887",
@@ -28,10 +32,10 @@
   "WPfr": null,
   "image_ref": "Bernard-Palissy-4_6_§1",
   "terme_jantzen_bat": [
-    "cariatide",
-    "porte-bois",
     "fenetre",
-    "sculpture"
+    "cariatide",
+    "sculpture",
+    "porte-bois"
   ],
   "photos": [
     {

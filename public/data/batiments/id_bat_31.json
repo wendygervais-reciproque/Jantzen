@@ -10,6 +10,10 @@
     {
       "personneID": 183,
       "role": "architecte"
+    },
+    {
+      "personneID": 10027,
+      "role": "sculpteur"
     }
   ],
   "dateConstruction": "1853-1880",
@@ -28,14 +32,14 @@
   "WPfr": "Pavillon de Flore",
   "image_ref": "Louvre-1-Qm_P-Flore-05",
   "terme_jantzen_bat": [
-    "façade",
-    "fenetre",
     "toiture",
-    "pilastre",
+    "fenetre",
+    "façade",
     "lucarne",
-    "fronton",
+    "sculpture",
     "pont",
-    "sculpture"
+    "pilastre",
+    "fronton"
   ],
   "photos": [
     {

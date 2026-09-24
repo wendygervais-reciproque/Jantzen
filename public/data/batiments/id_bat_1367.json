@@ -6,6 +6,10 @@
     {
       "personneID": 600,
       "role": "architecte"
+    },
+    {
+      "personneID": 10065,
+      "role": "sculpteur"
     }
   ],
   "dateConstruction": "1868",
@@ -28,15 +32,15 @@
   "WPfr": null,
   "image_ref": "Halles-19_1_§1",
   "terme_jantzen_bat": [
-    "balcon",
-    "façade",
     "fenetre",
-    "garde-corps",
     "lucarne",
+    "façade",
+    "garde-corps",
+    "sculpture",
     "pilastre",
     "cariatide",
     "décor",
-    "sculpture"
+    "balcon"
   ],
   "photos": [
     {

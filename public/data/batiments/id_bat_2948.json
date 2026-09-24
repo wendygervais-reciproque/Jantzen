@@ -1,0 +1,79 @@
+{
+  "id_bat": 2948,
+  "libelle": "52 boulevard Saint-Germain",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": null,
+  "adresse": {
+    "affichage": "52 boulevard Saint-Germain",
+    "numero": "52",
+    "voie": "boulevard Saint-Germain"
+  },
+  "arrondissement": 5,
+  "tri_alphab": "St-Germain",
+  "coordonnees": {
+    "latitude": "48.849923",
+    "longitude": "2.349824"
+  },
+  "id_pss": null,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": "St-Germain-52_5_§1",
+  "terme_jantzen_bat": [
+    "fenetre",
+    "façade",
+    "garde-corps",
+    "fenetre-d'angle",
+    "balcon"
+  ],
+  "photos": [
+    {
+      "id_pic": "St-Germain-52_5_§1",
+      "IndexJantzen": [
+        "balcon",
+        "fenetre-d'angle"
+      ],
+      "dateCapture": "2010:03:23"
+    },
+    {
+      "id_pic": "St-Germain-52_5_§2",
+      "IndexJantzen": [
+        "fenetre-d'angle"
+      ],
+      "dateCapture": "2010:03:23"
+    },
+    {
+      "id_pic": "St-Germain-52_5_§3",
+      "IndexJantzen": [
+        "balcon",
+        "fenetre-d'angle"
+      ],
+      "dateCapture": "2010:03:23"
+    },
+    {
+      "id_pic": "St-Germain-52_5_§4",
+      "IndexJantzen": [
+        "balcon",
+        "fenetre-d'angle"
+      ],
+      "dateCapture": "2010:03:23"
+    },
+    {
+      "id_pic": "St-Germain-52_5_§5",
+      "IndexJantzen": [
+        "façade"
+      ],
+      "dateCapture": "2010:03:23"
+    },
+    {
+      "id_pic": "St-Germain-52_5_§6",
+      "IndexJantzen": [
+        "balcon",
+        "fenetre",
+        "garde-corps"
+      ],
+      "dateCapture": "2010:03:23"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "id_bat": 2218,
+  "libelle": "32 boulevard de Ménilmontant",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": null,
+  "adresse": {
+    "affichage": "32 boulevard de Ménilmontant",
+    "numero": "32",
+    "voie": "boulevard de Ménilmontant"
+  },
+  "arrondissement": 20,
+  "tri_alphab": "Menilmontant-bd",
+  "coordonnees": {
+    "latitude": "48.862844",
+    "longitude": "2.387918"
+  },
+  "id_pss": null,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": "Menilmontant-32_20_§1-Rs",
+  "terme_jantzen_bat": [
+    "toiture",
+    "fenetre",
+    "lucarne",
+    "façade-d'angle",
+    "brique",
+    "décor"
+  ],
+  "photos": [
+    {
+      "id_pic": "Menilmontant-32_20_§1-Rs",
+      "IndexJantzen": [
+        "brique",
+        "façade-d'angle"
+      ],
+      "dateCapture": "2009:09:28"
+    },
+    {
+      "id_pic": "Menilmontant-32_20_§2-Rs",
+      "IndexJantzen": [
+        "brique",
+        "façade-d'angle",
+        "toiture"
+      ],
+      "dateCapture": "2009:09:28"
+    },
+    {
+      "id_pic": "Menilmontant-32_20_§3-Rs",
+      "IndexJantzen": [
+        "brique",
+        "décor",
+        "fenetre",
+        "lucarne"
+      ],
+      "dateCapture": "2009:09:28"
+    },
+    {
+      "id_pic": "Menilmontant-32_20_§4",
+      "IndexJantzen": [
+        "brique",
+        "fenetre",
+        "lucarne",
+        "toiture"
+      ],
+      "dateCapture": "2009:09:28"
+    },
+    {
+      "id_pic": "Menilmontant-32_20_§5",
+      "IndexJantzen": [
+        "brique",
+        "lucarne"
+      ],
+      "dateCapture": "2009:09:28"
+    },
+    {
+      "id_pic": "Menilmontant-32_20_§6",
+      "IndexJantzen": [
+        "lucarne"
+      ],
+      "dateCapture": "2009:09:28"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id_bat": 2005,
+  "libelle": "29 rue des Reculettes",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": null,
+  "adresse": {
+    "affichage": "29 rue des Reculettes",
+    "numero": "29",
+    "voie": "rue des Reculettes"
+  },
+  "arrondissement": 13,
+  "tri_alphab": "Reculettes",
+  "coordonnees": {
+    "latitude": "48.831725",
+    "longitude": "2.350258"
+  },
+  "id_pss": null,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": "Reculettes-29_13_§1",
+  "terme_jantzen_bat": [
+    "fenetre",
+    "brique",
+    "pignon",
+    "décor"
+  ],
+  "photos": [
+    {
+      "id_pic": "Reculettes-29_13_§1",
+      "IndexJantzen": [
+        "brique",
+        "décor",
+        "fenetre",
+        "pignon"
+      ],
+      "dateCapture": "2005:07:17"
+    }
+  ]
+}

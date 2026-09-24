@@ -6,6 +6,10 @@
     {
       "personneID": 845,
       "role": "architecte"
+    },
+    {
+      "personneID": 10002,
+      "role": "sculpteur"
     }
   ],
   "dateConstruction": "1900",
@@ -28,16 +32,16 @@
   "WPfr": null,
   "image_ref": "Danton-8_6_§3",
   "terme_jantzen_bat": [
-    "clé",
-    "façade-d'angle",
-    "fenetre-d'angle",
     "porte-fer",
     "fenetre",
-    "pilastre",
-    "brique",
+    "façade-d'angle",
+    "sculpture",
+    "clé",
     "dome",
-    "colonne",
-    "sculpture"
+    "pilastre",
+    "fenetre-d'angle",
+    "brique",
+    "colonne"
   ],
   "photos": [
     {

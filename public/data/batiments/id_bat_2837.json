@@ -6,6 +6,10 @@
     {
       "personneID": 251,
       "role": "architecte"
+    },
+    {
+      "personneID": 10164,
+      "role": "sculpteur"
     }
   ],
   "dateConstruction": "1905",
@@ -28,13 +32,13 @@
   "WPfr": null,
   "image_ref": "Dante-5_5_§1",
   "terme_jantzen_bat": [
-    "atlante",
-    "console",
     "porte-fer",
     "fenetre",
+    "console",
+    "sculpture",
+    "atlante",
     "porte-fer-hall",
-    "colonne",
-    "sculpture"
+    "colonne"
   ],
   "photos": [
     {

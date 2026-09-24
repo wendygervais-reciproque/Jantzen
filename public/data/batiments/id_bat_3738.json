@@ -1,0 +1,57 @@
+{
+  "id_bat": 3738,
+  "libelle": "86 rue Montmartre",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": null,
+  "adresse": {
+    "affichage": "86 rue Montmartre",
+    "numero": "86",
+    "voie": "rue Montmartre"
+  },
+  "arrondissement": 2,
+  "tri_alphab": "Montmartre",
+  "coordonnees": {
+    "latitude": "48.866845",
+    "longitude": "2.34435"
+  },
+  "id_pss": null,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": "Montmartre-86_2_§1",
+  "terme_jantzen_bat": [
+    "lucarne-d'angle",
+    "façade-d'angle"
+  ],
+  "photos": [
+    {
+      "id_pic": "Montmartre-86_2_§1",
+      "IndexJantzen": [
+        "façade-d'angle"
+      ],
+      "dateCapture": "2008:02:17"
+    },
+    {
+      "id_pic": "Montmartre-86_2_§2",
+      "IndexJantzen": [
+        "façade-d'angle"
+      ],
+      "dateCapture": "2007:07:25"
+    },
+    {
+      "id_pic": "Montmartre-86_2_§4",
+      "IndexJantzen": [
+        "lucarne-d'angle"
+      ],
+      "dateCapture": "2008:02:17"
+    },
+    {
+      "id_pic": "Montmartre-86_2_§5",
+      "IndexJantzen": [
+        "lucarne-d'angle"
+      ],
+      "dateCapture": "2004:08:31"
+    }
+  ]
+}

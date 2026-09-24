@@ -1,0 +1,75 @@
+{
+  "id_bat": 3328,
+  "libelle": "68 avenue de Saxe",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": null,
+  "adresse": {
+    "affichage": "68 avenue de Saxe",
+    "numero": "68",
+    "voie": "avenue de Saxe"
+  },
+  "arrondissement": 15,
+  "tri_alphab": "Saxe",
+  "coordonnees": {
+    "latitude": "48.845978",
+    "longitude": "2.313255"
+  },
+  "id_pss": null,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": "Saxe-68_15_§1",
+  "terme_jantzen_bat": [
+    "lucarne",
+    "façade-d'angle",
+    "dome",
+    "fenetre-d'angle",
+    "balcon"
+  ],
+  "photos": [
+    {
+      "id_pic": "Saxe-68_15_§1",
+      "IndexJantzen": [
+        "dome",
+        "façade-d'angle"
+      ],
+      "dateCapture": "2006:04:04"
+    },
+    {
+      "id_pic": "Saxe-68_15_§2",
+      "IndexJantzen": [
+        "dome",
+        "façade-d'angle"
+      ],
+      "dateCapture": "2006:04:04"
+    },
+    {
+      "id_pic": "Saxe-68_15_§3",
+      "IndexJantzen": [
+        "dome",
+        "façade-d'angle"
+      ],
+      "dateCapture": "2004:09:06"
+    },
+    {
+      "id_pic": "Saxe-68_15_§4",
+      "IndexJantzen": [
+        "dome",
+        "fenetre-d'angle",
+        "lucarne"
+      ],
+      "dateCapture": "2006:04:04"
+    },
+    {
+      "id_pic": "Saxe-68_15_§5",
+      "IndexJantzen": [
+        "balcon",
+        "dome",
+        "fenetre-d'angle",
+        "lucarne"
+      ],
+      "dateCapture": "2006:04:04"
+    }
+  ]
+}

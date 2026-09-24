@@ -6,6 +6,10 @@
     {
       "personneID": 812,
       "role": "architecte"
+    },
+    {
+      "personneID": 10014,
+      "role": "céramiste"
     }
   ],
   "dateConstruction": "1900",
@@ -28,12 +32,12 @@
   "WPfr": null,
   "image_ref": "Segur-50_15_§1",
   "terme_jantzen_bat": [
-    "céramique",
-    "console",
     "porte-fer",
-    "brique",
+    "console",
     "métal",
     "oriel",
+    "brique",
+    "céramique",
     "décor"
   ],
   "photos": [

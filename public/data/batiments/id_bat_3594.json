@@ -6,6 +6,10 @@
     {
       "personneID": 399,
       "role": "architecte"
+    },
+    {
+      "personneID": 10086,
+      "role": "sculpteur"
     }
   ],
   "dateConstruction": "1903",
@@ -28,11 +32,11 @@
   "WPfr": null,
   "image_ref": "Breteuil-pl-8_15_§1",
   "terme_jantzen_bat": [
-    "lucarne-d'angle",
-    "façade-d'angle",
     "toiture",
+    "façade-d'angle",
+    "sculpture",
     "dome",
-    "sculpture"
+    "lucarne-d'angle"
   ],
   "photos": [
     {

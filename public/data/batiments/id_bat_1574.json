@@ -1,0 +1,56 @@
+{
+  "id_bat": 1574,
+  "libelle": "20 rue des Suisses",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": null,
+  "adresse": {
+    "affichage": "20 rue des Suisses",
+    "numero": "20",
+    "voie": "rue des Suisses"
+  },
+  "arrondissement": 14,
+  "tri_alphab": "Suisses-des",
+  "coordonnees": {
+    "latitude": "48.830063",
+    "longitude": "2.313037"
+  },
+  "id_pss": null,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": "Suisses-des-20_14_§1",
+  "terme_jantzen_bat": [
+    "lucarne",
+    "console",
+    "garde-corps",
+    "décor",
+    "balcon"
+  ],
+  "photos": [
+    {
+      "id_pic": "Suisses-des-20_14_§1",
+      "IndexJantzen": [
+        "lucarne"
+      ],
+      "dateCapture": "2005:05:08"
+    },
+    {
+      "id_pic": "Suisses-des-20_14_§2",
+      "IndexJantzen": [
+        "balcon",
+        "console",
+        "garde-corps"
+      ],
+      "dateCapture": "2005:05:08"
+    },
+    {
+      "id_pic": "Suisses-des-20_14_§3",
+      "IndexJantzen": [
+        "console",
+        "décor"
+      ],
+      "dateCapture": "2005:05:08"
+    }
+  ]
+}

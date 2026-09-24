@@ -1,0 +1,63 @@
+{
+  "id_bat": 620,
+  "libelle": "12 place de la République",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": null,
+  "adresse": {
+    "affichage": "12 place de la République",
+    "numero": "12",
+    "voie": "place de la République"
+  },
+  "arrondissement": 10,
+  "tri_alphab": "Repubique-pl",
+  "coordonnees": {
+    "latitude": "48.868229",
+    "longitude": "2.363833"
+  },
+  "id_pss": null,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": "Repubique-pl-12_10_§1",
+  "terme_jantzen_bat": [
+    "toiture",
+    "fenetre",
+    "lucarne",
+    "fronton"
+  ],
+  "photos": [
+    {
+      "id_pic": "Repubique-pl-12_10_§1",
+      "IndexJantzen": [
+        "lucarne",
+        "toiture"
+      ],
+      "dateCapture": "2007:12:18"
+    },
+    {
+      "id_pic": "Repubique-pl-12_10_§2-Rs",
+      "IndexJantzen": [
+        "fenetre",
+        "fronton",
+        "lucarne"
+      ],
+      "dateCapture": "2007:12:18"
+    },
+    {
+      "id_pic": "Repubique-pl-12_10_§3-Rs",
+      "IndexJantzen": [
+        "fronton",
+        "lucarne"
+      ],
+      "dateCapture": "2007:12:18"
+    },
+    {
+      "id_pic": "Repubique-pl-12_10_§4-Rs",
+      "IndexJantzen": [
+        "lucarne"
+      ],
+      "dateCapture": "2007:12:18"
+    }
+  ]
+}

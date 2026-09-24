@@ -6,6 +6,10 @@
     {
       "personneID": 287,
       "role": "architecte"
+    },
+    {
+      "personneID": 10067,
+      "role": "sculpteur"
     }
   ],
   "dateConstruction": "1904",
@@ -28,10 +32,10 @@
   "WPfr": null,
   "image_ref": "Breteuil-82_15_§1",
   "terme_jantzen_bat": [
-    "balcon",
     "porte-fer",
-    "clé",
-    "garde-corps"
+    "garde-corps",
+    "balcon",
+    "clé"
   ],
   "photos": [
     {

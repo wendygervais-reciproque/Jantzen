@@ -6,6 +6,10 @@
     {
       "personneID": 327,
       "role": "architecte"
+    },
+    {
+      "personneID": 10003,
+      "role": "sculpteur"
     }
   ],
   "dateConstruction": "1912",
@@ -28,12 +32,12 @@
   "WPfr": null,
   "image_ref": "Richard-Lenoir-bd-42b_11_§1",
   "terme_jantzen_bat": [
-    "façade",
     "fenetre",
-    "garde-corps",
     "lucarne",
-    "décor",
-    "sculpture"
+    "façade",
+    "garde-corps",
+    "sculpture",
+    "décor"
   ],
   "photos": [
     {

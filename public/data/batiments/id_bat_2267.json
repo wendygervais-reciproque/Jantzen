@@ -6,6 +6,14 @@
     {
       "personneID": 538,
       "role": "architecte"
+    },
+    {
+      "personneID": 10014,
+      "role": "céramiste"
+    },
+    {
+      "personneID": 10001,
+      "role": "sculpteur"
     }
   ],
   "dateConstruction": "1904",
@@ -28,17 +36,17 @@
   "WPfr": null,
   "image_ref": "Wagram-34_8_§1",
   "terme_jantzen_bat": [
-    "balcon",
-    "façade",
-    "céramique",
-    "clé",
-    "porte-fer",
-    "fenetre",
     "toiture",
-    "garde-corps",
-    "brique",
+    "fenetre",
+    "façade",
     "lucarne",
-    "décor"
+    "garde-corps",
+    "porte-fer",
+    "clé",
+    "brique",
+    "céramique",
+    "décor",
+    "balcon"
   ],
   "photos": [
     {

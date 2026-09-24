@@ -1,0 +1,53 @@
+{
+  "id_bat": 3800,
+  "libelle": "9 rue de la Pépinière",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": null,
+  "adresse": {
+    "affichage": "9 rue de la Pépinière",
+    "numero": "9",
+    "voie": "rue de la Pépinière"
+  },
+  "arrondissement": 8,
+  "tri_alphab": "Pepiniere",
+  "coordonnees": {
+    "latitude": "48.875061",
+    "longitude": "2.323405"
+  },
+  "id_pss": null,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": "Pepiniere-9_8_§1",
+  "terme_jantzen_bat": [
+    "fenetre",
+    "lucarne",
+    "façade",
+    "console"
+  ],
+  "photos": [
+    {
+      "id_pic": "Pepiniere-9_8_§1",
+      "IndexJantzen": [
+        "façade"
+      ],
+      "dateCapture": "2007:03:17"
+    },
+    {
+      "id_pic": "Pepiniere-9_8_§2",
+      "IndexJantzen": [
+        "lucarne"
+      ],
+      "dateCapture": "2007:03:17"
+    },
+    {
+      "id_pic": "Pepiniere-9_8_§3",
+      "IndexJantzen": [
+        "console",
+        "fenetre"
+      ],
+      "dateCapture": "2007:03:17"
+    }
+  ]
+}

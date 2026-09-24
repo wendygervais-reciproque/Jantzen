@@ -1,0 +1,45 @@
+{
+  "id_bat": 2047,
+  "libelle": "3 place Saint-Thomas-d’Aquin",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": null,
+  "adresse": {
+    "affichage": "3 place Saint-Thomas-d’Aquin",
+    "numero": "3",
+    "voie": "place Saint-Thomas-d’Aquin"
+  },
+  "arrondissement": 7,
+  "tri_alphab": "St-Thomas-d'Aquins-pl",
+  "coordonnees": {
+    "latitude": "48.856008",
+    "longitude": "2.327485"
+  },
+  "id_pss": null,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": "St-Thomas-d'Aquins_pl_3_7_§1",
+  "terme_jantzen_bat": [
+    "sculpture",
+    "console",
+    "porte-bois"
+  ],
+  "photos": [
+    {
+      "id_pic": "St-Thomas-d'Aquins_pl_3_7_§1",
+      "IndexJantzen": [
+        "porte-bois"
+      ],
+      "dateCapture": "2006:07:13"
+    },
+    {
+      "id_pic": "St-Thomas-d'Aquins-pl_3_7_§2",
+      "IndexJantzen": [
+        "console",
+        "sculpture"
+      ],
+      "dateCapture": "2006:07:13"
+    }
+  ]
+}

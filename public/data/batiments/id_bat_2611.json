@@ -6,6 +6,10 @@
     {
       "personneID": 830,
       "role": "architecte"
+    },
+    {
+      "personneID": 10048,
+      "role": "sculpteur"
     }
   ],
   "dateConstruction": null,
@@ -26,9 +30,9 @@
   "WPfr": null,
   "image_ref": "Victor-Masse-41_9_§1",
   "terme_jantzen_bat": [
-    "façade-d'angle",
     "fenetre",
-    "garde-corps"
+    "garde-corps",
+    "façade-d'angle"
   ],
   "photos": [
     {

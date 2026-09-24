@@ -1,0 +1,53 @@
+{
+  "id_bat": 431,
+  "libelle": "11 avenue Corentin-Cariou",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": null,
+  "adresse": {
+    "affichage": "11 avenue Corentin-Cariou",
+    "numero": "11",
+    "voie": "avenue Corentin-Cariou"
+  },
+  "arrondissement": 19,
+  "tri_alphab": "Corentin_Cariou",
+  "coordonnees": {
+    "latitude": "48.895505",
+    "longitude": "2.382817"
+  },
+  "id_pss": null,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": "Corentin_Cariou_11_19_1_Dx-Rs",
+  "terme_jantzen_bat": [
+    "fenetre",
+    "clé",
+    "céramique"
+  ],
+  "photos": [
+    {
+      "id_pic": "Corentin_Cariou_11_19_1_Dx-Rs",
+      "IndexJantzen": [
+        "fenetre"
+      ],
+      "dateCapture": "2007:11:15"
+    },
+    {
+      "id_pic": "Corentin_Cariou_11_19_2A_Dx",
+      "IndexJantzen": [
+        "clé",
+        "céramique"
+      ],
+      "dateCapture": "2007:11:15"
+    },
+    {
+      "id_pic": "Corentin_Cariou_11_19_2B_Dx",
+      "IndexJantzen": [
+        "clé",
+        "céramique"
+      ],
+      "dateCapture": "2007:11:15"
+    }
+  ]
+}

@@ -10,6 +10,10 @@
     {
       "personneID": 758,
       "role": "architecte"
+    },
+    {
+      "personneID": 10139,
+      "role": "sculpteur"
     }
   ],
   "dateConstruction": "1867",
@@ -32,13 +36,13 @@
   "WPfr": null,
   "image_ref": "St-Andre-Des-Arts-46_6_§1",
   "terme_jantzen_bat": [
-    "balcon",
-    "façade",
-    "clé",
     "fenetre",
+    "façade",
     "garde-corps",
-    "colonne",
-    "sculpture"
+    "sculpture",
+    "clé",
+    "balcon",
+    "colonne"
   ],
   "photos": [
     {

@@ -6,6 +6,10 @@
     {
       "personneID": 328,
       "role": "architecte"
+    },
+    {
+      "personneID": 10005,
+      "role": "sculpteur"
     }
   ],
   "dateConstruction": "1905",
@@ -28,14 +32,14 @@
   "WPfr": null,
   "image_ref": "Dorian-2_12_§1",
   "terme_jantzen_bat": [
-    "tour",
-    "lucarne-d'angle",
-    "fenetre-d'angle",
     "fenetre",
     "garde-corps",
     "façade-d'angle",
+    "sculpture",
     "porte-bois",
-    "sculpture"
+    "fenetre-d'angle",
+    "lucarne-d'angle",
+    "tour"
   ],
   "photos": [
     {

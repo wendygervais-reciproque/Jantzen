@@ -10,6 +10,10 @@
     {
       "personneID": 48,
       "role": "architecte"
+    },
+    {
+      "personneID": 10130,
+      "role": "sculpteur"
     }
   ],
   "dateConstruction": "1901",
@@ -32,12 +36,12 @@
   "WPfr": null,
   "image_ref": "Renard-12_4_§1",
   "terme_jantzen_bat": [
-    "façade",
-    "console",
     "fenetre",
     "lucarne",
-    "porte-bois",
-    "sculpture"
+    "façade",
+    "console",
+    "sculpture",
+    "porte-bois"
   ],
   "photos": [
     {

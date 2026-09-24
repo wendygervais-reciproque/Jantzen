@@ -10,6 +10,10 @@
     {
       "personneID": 195,
       "role": "architecte"
+    },
+    {
+      "personneID": 10005,
+      "role": "sculpteur"
     }
   ],
   "dateConstruction": null,
@@ -30,11 +34,11 @@
   "WPfr": null,
   "image_ref": "Charles-Beaudelaire-2_12_§1",
   "terme_jantzen_bat": [
-    "mosaique",
     "fenetre",
     "lucarne",
-    "décor",
-    "sculpture"
+    "sculpture",
+    "mosaique",
+    "décor"
   ],
   "photos": [
     {

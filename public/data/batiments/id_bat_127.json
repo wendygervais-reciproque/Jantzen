@@ -1,0 +1,64 @@
+{
+  "id_bat": 127,
+  "libelle": "Pont de Bir-Hakeim",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": null,
+  "adresse": null,
+  "arrondissement": 15,
+  "tri_alphab": "Pont-de-Bir-Hakeim",
+  "coordonnees": {
+    "latitude": "48.855555555556",
+    "longitude": "2.2877777777778"
+  },
+  "id_pss": null,
+  "id_wikidata": "Q290355",
+  "WPfr": "Pont de Bir-Hakeim",
+  "image_ref": "La-Seine_§124",
+  "terme_jantzen_bat": [
+    "sculpture",
+    "métal",
+    "pont",
+    "tour",
+    "décor",
+    "colonne"
+  ],
+  "photos": [
+    {
+      "id_pic": "La-Seine_§124",
+      "IndexJantzen": [
+        "décor",
+        "pont",
+        "sculpture",
+        "tour"
+      ],
+      "dateCapture": "2007:02:04"
+    },
+    {
+      "id_pic": "La-Seine_§125",
+      "IndexJantzen": [
+        "pont",
+        "sculpture"
+      ],
+      "dateCapture": "2007:02:04"
+    },
+    {
+      "id_pic": "La-Seine_§126",
+      "IndexJantzen": [
+        "pont",
+        "sculpture"
+      ],
+      "dateCapture": "2007:02:04"
+    },
+    {
+      "id_pic": "La-Seine_§127",
+      "IndexJantzen": [
+        "colonne",
+        "métal",
+        "pont"
+      ],
+      "dateCapture": "2005:04:01"
+    }
+  ]
+}

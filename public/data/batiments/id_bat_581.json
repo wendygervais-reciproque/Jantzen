@@ -6,6 +6,10 @@
     {
       "personneID": 665,
       "role": "architecte"
+    },
+    {
+      "personneID": 10003,
+      "role": "sculpteur"
     }
   ],
   "dateConstruction": "1900",
@@ -28,9 +32,9 @@
   "WPfr": null,
   "image_ref": "Reaumur-118_2_§1",
   "terme_jantzen_bat": [
-    "verrière",
     "fenetre",
     "métal",
+    "verrière",
     "décor",
     "colonne"
   ],

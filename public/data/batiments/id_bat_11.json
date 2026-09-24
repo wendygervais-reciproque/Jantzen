@@ -2,7 +2,12 @@
   "id_bat": 11,
   "libelle": "Cour d'Honneur - Façade Sud",
   "ensemble": "Hôtel des Invalides",
-  "personnes": null,
+  "personnes": [
+    {
+      "personneID": 10151,
+      "role": "sculpteur"
+    }
+  ],
   "dateConstruction": "1671-1680, 1833",
   "periode": [
     "1660-1759",
@@ -20,10 +25,10 @@
   "WPfr": "Cour d'honneur de l'hôtel des Invalides",
   "image_ref": "Invalides_HFS_§1",
   "terme_jantzen_bat": [
-    "dome",
     "façade",
-    "tourelle",
-    "sculpture"
+    "sculpture",
+    "dome",
+    "tourelle"
   ],
   "photos": [
     {

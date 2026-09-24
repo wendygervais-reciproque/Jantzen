@@ -6,6 +6,10 @@
     {
       "personneID": 280,
       "role": "architecte"
+    },
+    {
+      "personneID": 10010,
+      "role": "sculpteur"
     }
   ],
   "dateConstruction": "1912",
@@ -28,12 +32,12 @@
   "WPfr": null,
   "image_ref": "Hopital-bd-50_13_§1",
   "terme_jantzen_bat": [
-    "balcon",
-    "lucarne-d'angle",
-    "façade-d'angle",
-    "fenetre-d'angle",
     "pignon",
-    "dome"
+    "façade-d'angle",
+    "dome",
+    "fenetre-d'angle",
+    "lucarne-d'angle",
+    "balcon"
   ],
   "photos": [
     {

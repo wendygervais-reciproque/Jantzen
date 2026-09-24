@@ -10,6 +10,10 @@
     {
       "personneID": 357,
       "role": "architecte"
+    },
+    {
+      "personneID": 10080,
+      "role": "sculpteur"
     }
   ],
   "dateConstruction": "1912",
@@ -32,15 +36,15 @@
   "WPfr": null,
   "image_ref": "Gobelins-av-42_13_§1",
   "terme_jantzen_bat": [
-    "façade",
-    "atlante",
-    "fenetre",
     "toiture",
+    "fenetre",
+    "façade",
+    "sculpture",
+    "atlante",
     "brique",
     "cariatide",
     "décor",
-    "colonne",
-    "sculpture"
+    "colonne"
   ],
   "photos": [
     {

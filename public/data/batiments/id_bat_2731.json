@@ -1,0 +1,68 @@
+{
+  "id_bat": 2731,
+  "libelle": "46 rue de Rivoli",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": null,
+  "adresse": {
+    "affichage": "46 rue de Rivoli",
+    "numero": "46",
+    "voie": "rue de Rivoli"
+  },
+  "arrondissement": 4,
+  "tri_alphab": "Rivoli",
+  "coordonnees": {
+    "latitude": "48.856818",
+    "longitude": "2.354846"
+  },
+  "id_pss": null,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": "Rivoli-46_4_§1",
+  "terme_jantzen_bat": [
+    "toiture",
+    "fenetre",
+    "lucarne",
+    "façade-d'angle"
+  ],
+  "photos": [
+    {
+      "id_pic": "Rivoli-46_4_§1",
+      "IndexJantzen": [
+        "façade-d'angle"
+      ],
+      "dateCapture": "2009:03:23"
+    },
+    {
+      "id_pic": "Rivoli-46_4_§2",
+      "IndexJantzen": [
+        "fenetre"
+      ],
+      "dateCapture": "2009:03:23"
+    },
+    {
+      "id_pic": "Rivoli-46_4_§3",
+      "IndexJantzen": [
+        "lucarne"
+      ],
+      "dateCapture": "2009:03:23"
+    },
+    {
+      "id_pic": "Rivoli-46_4_§4",
+      "IndexJantzen": [
+        "lucarne",
+        "toiture"
+      ],
+      "dateCapture": "2009:03:23"
+    },
+    {
+      "id_pic": "Rivoli-46_4_§6",
+      "IndexJantzen": [
+        "lucarne",
+        "toiture"
+      ],
+      "dateCapture": "2009:03:23"
+    }
+  ]
+}

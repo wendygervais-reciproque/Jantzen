@@ -6,6 +6,10 @@
     {
       "personneID": 591,
       "role": "architecte"
+    },
+    {
+      "personneID": 10063,
+      "role": "sculpteur"
     }
   ],
   "dateConstruction": "1911",
@@ -28,13 +32,13 @@
   "WPfr": null,
   "image_ref": "Raymond-Poincarre-59_16_§1",
   "terme_jantzen_bat": [
+    "toiture",
+    "fenetre",
     "façade",
     "console",
-    "fenetre",
-    "toiture",
     "lucarne",
-    "décor",
-    "sculpture"
+    "sculpture",
+    "décor"
   ],
   "photos": [
     {

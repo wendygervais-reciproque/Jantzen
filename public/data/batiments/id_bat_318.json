@@ -10,6 +10,10 @@
     {
       "personneID": 195,
       "role": "architecte"
+    },
+    {
+      "personneID": 10005,
+      "role": "sculpteur"
     }
   ],
   "dateConstruction": null,
@@ -30,12 +34,12 @@
   "WPfr": null,
   "image_ref": "Sevres-10_7_§1",
   "terme_jantzen_bat": [
+    "oeil-de-boeuf",
+    "fenetre",
     "façade",
     "console",
-    "fenetre",
-    "fronton",
-    "oeil-de-boeuf",
-    "sculpture"
+    "sculpture",
+    "fronton"
   ],
   "photos": [
     {

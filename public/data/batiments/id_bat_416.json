@@ -6,6 +6,10 @@
     {
       "personneID": 600,
       "role": "architecte"
+    },
+    {
+      "personneID": 10065,
+      "role": "sculpteur"
     }
   ],
   "dateConstruction": "1887",
@@ -28,13 +32,13 @@
   "WPfr": null,
   "image_ref": "Rennes-107_6_§1",
   "terme_jantzen_bat": [
-    "façade",
     "fenetre",
+    "façade",
+    "sculpture",
+    "porte-bois",
     "pilastre",
     "cariatide",
-    "décor",
-    "porte-bois",
-    "sculpture"
+    "décor"
   ],
   "photos": [
     {

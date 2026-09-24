@@ -1,0 +1,88 @@
+{
+  "id_bat": 722,
+  "libelle": "122 rue de Rivoli",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": [
+    "1915-1944"
+  ],
+  "adresse": {
+    "affichage": "122 rue de Rivoli",
+    "numero": "122",
+    "voie": "rue de Rivoli"
+  },
+  "arrondissement": 1,
+  "tri_alphab": "Rivoli",
+  "coordonnees": {
+    "latitude": "48.859494",
+    "longitude": "2.345563"
+  },
+  "id_pss": 93567,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": "Rivoli-122_1_§1",
+  "terme_jantzen_bat": [
+    "oeil-de-boeuf",
+    "lucarne",
+    "façade-d'angle",
+    "sculpture",
+    "dome",
+    "fenetre-d'angle",
+    "atlante",
+    "lucarne-d'angle",
+    "cariatide",
+    "décor",
+    "balcon",
+    "fronton"
+  ],
+  "photos": [
+    {
+      "id_pic": "Rivoli-122_1_§1",
+      "IndexJantzen": [
+        "dome",
+        "façade-d'angle"
+      ],
+      "dateCapture": "2006:07:13"
+    },
+    {
+      "id_pic": "Rivoli-122_1_§2",
+      "IndexJantzen": [
+        "balcon",
+        "décor",
+        "fenetre-d'angle",
+        "sculpture"
+      ],
+      "dateCapture": "2005:07:16"
+    },
+    {
+      "id_pic": "Rivoli-122_1_§3",
+      "IndexJantzen": [
+        "dome",
+        "fronton",
+        "lucarne-d'angle",
+        "sculpture"
+      ],
+      "dateCapture": "2005:07:16"
+    },
+    {
+      "id_pic": "Rivoli-122_1_§5",
+      "IndexJantzen": [
+        "atlante",
+        "cariatide",
+        "fronton",
+        "sculpture"
+      ],
+      "dateCapture": "2006:07:13"
+    },
+    {
+      "id_pic": "Rivoli-122_1_§6",
+      "IndexJantzen": [
+        "dome",
+        "lucarne",
+        "oeil-de-boeuf"
+      ],
+      "dateCapture": "2006:07:13"
+    }
+  ]
+}

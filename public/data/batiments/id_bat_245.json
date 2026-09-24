@@ -1,0 +1,37 @@
+{
+  "id_bat": 245,
+  "libelle": "1 rue Gaston-Couté",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": null,
+  "adresse": {
+    "affichage": "1 rue Gaston-Couté",
+    "numero": "1",
+    "voie": "rue Gaston-Couté"
+  },
+  "arrondissement": 18,
+  "tri_alphab": "Gaston-Coute",
+  "coordonnees": {
+    "latitude": "48.889045",
+    "longitude": "2.340594"
+  },
+  "id_pss": null,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": "Gaston-Coute-1_18_§1-zFc",
+  "terme_jantzen_bat": [
+    "fenetre",
+    "brique"
+  ],
+  "photos": [
+    {
+      "id_pic": "Gaston-Coute-1_18_§1-zFc",
+      "IndexJantzen": [
+        "brique",
+        "fenetre"
+      ],
+      "dateCapture": "2004:06:14"
+    }
+  ]
+}

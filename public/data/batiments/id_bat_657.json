@@ -6,6 +6,10 @@
     {
       "personneID": 299,
       "role": "architecte"
+    },
+    {
+      "personneID": 10157,
+      "role": "sculpteur"
     }
   ],
   "dateConstruction": "1883",
@@ -28,15 +32,15 @@
   "WPfr": null,
   "image_ref": "Cardinal-Mercier-12_9_§1",
   "terme_jantzen_bat": [
-    "balcon",
+    "fenetre",
     "façade",
+    "garde-corps",
+    "sculpture",
+    "porte-bois",
     "clé",
     "verrière",
-    "fenetre",
-    "garde-corps",
-    "porte-bois",
-    "colonne",
-    "sculpture"
+    "balcon",
+    "colonne"
   ],
   "photos": [
     {

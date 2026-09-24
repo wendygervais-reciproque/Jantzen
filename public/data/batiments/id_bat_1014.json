@@ -6,6 +6,10 @@
     {
       "personneID": 22,
       "role": "architecte"
+    },
+    {
+      "personneID": 10069,
+      "role": "sculpteur"
     }
   ],
   "dateConstruction": "1865",
@@ -28,11 +32,11 @@
   "WPfr": null,
   "image_ref": "Chateaudin-15_9_§1",
   "terme_jantzen_bat": [
-    "façade",
     "fenetre",
+    "façade",
     "garde-corps",
-    "décor",
-    "sculpture"
+    "sculpture",
+    "décor"
   ],
   "photos": [
     {

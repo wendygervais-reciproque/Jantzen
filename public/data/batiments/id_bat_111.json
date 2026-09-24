@@ -6,6 +6,18 @@
     {
       "personneID": 69,
       "role": "architecte"
+    },
+    {
+      "personneID": 10122,
+      "role": "sculpteur"
+    },
+    {
+      "personneID": 10109,
+      "role": "sculpteur"
+    },
+    {
+      "personneID": 10002,
+      "role": "sculpteur"
     }
   ],
   "dateConstruction": "1887-1898",
@@ -24,15 +36,15 @@
   "WPfr": "Salle Favart",
   "image_ref": "Opera-Comique_2_§3",
   "terme_jantzen_bat": [
-    "façade",
-    "console",
     "porte-fer",
     "fenetre",
-    "cariatide",
-    "colonne",
-    "décor",
+    "façade",
+    "console",
+    "sculpture",
     "porte-bois",
-    "sculpture"
+    "cariatide",
+    "décor",
+    "colonne"
   ],
   "photos": [
     {

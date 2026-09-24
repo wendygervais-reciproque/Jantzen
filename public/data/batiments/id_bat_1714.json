@@ -6,6 +6,10 @@
     {
       "personneID": 567,
       "role": "architecte"
+    },
+    {
+      "personneID": 10104,
+      "role": "sculpteur"
     }
   ],
   "dateConstruction": "1867",
@@ -28,10 +32,10 @@
   "WPfr": null,
   "image_ref": "Pereire-227_17_§1",
   "terme_jantzen_bat": [
-    "clé",
-    "porte-bois",
     "fenetre",
-    "sculpture"
+    "sculpture",
+    "porte-bois",
+    "clé"
   ],
   "photos": [
     {

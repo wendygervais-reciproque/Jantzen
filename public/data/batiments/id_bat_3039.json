@@ -1,0 +1,37 @@
+{
+  "id_bat": 3039,
+  "libelle": "56 rue Saint-Lazare",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": null,
+  "adresse": {
+    "affichage": "56 rue Saint-Lazare",
+    "numero": "56",
+    "voie": "rue Saint-Lazare"
+  },
+  "arrondissement": 9,
+  "tri_alphab": "St-Lazare",
+  "coordonnees": {
+    "latitude": "48.876953",
+    "longitude": "2.333798"
+  },
+  "id_pss": null,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": "St-Lazare-56_9_§1",
+  "terme_jantzen_bat": [
+    "garde-corps",
+    "balcon"
+  ],
+  "photos": [
+    {
+      "id_pic": "St-Lazare-56_9_§1",
+      "IndexJantzen": [
+        "balcon",
+        "garde-corps"
+      ],
+      "dateCapture": "2009:07:27"
+    }
+  ]
+}

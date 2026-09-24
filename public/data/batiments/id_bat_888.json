@@ -6,6 +6,10 @@
     {
       "personneID": 226,
       "role": "architecte"
+    },
+    {
+      "personneID": 10110,
+      "role": "sculpteur"
     }
   ],
   "dateConstruction": "1880",
@@ -28,10 +32,10 @@
   "WPfr": null,
   "image_ref": "Bergere-14_9_§1_Dx",
   "terme_jantzen_bat": [
-    "façade",
-    "voie",
     "porte-fer",
+    "façade",
     "tourelle",
+    "voie",
     "colonne"
   ],
   "photos": [

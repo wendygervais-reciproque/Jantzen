@@ -6,6 +6,10 @@
     {
       "personneID": 558,
       "role": "architecte"
+    },
+    {
+      "personneID": 10063,
+      "role": "sculpteur"
     }
   ],
   "dateConstruction": null,
@@ -26,13 +30,13 @@
   "WPfr": null,
   "image_ref": "Leon-Vaudoyer-2_7_§1",
   "terme_jantzen_bat": [
-    "balcon",
-    "fenetre-d'angle",
     "fenetre",
     "façade-d'angle",
+    "sculpture",
+    "fenetre-d'angle",
     "décor",
-    "colonne",
-    "sculpture"
+    "balcon",
+    "colonne"
   ],
   "photos": [
     {

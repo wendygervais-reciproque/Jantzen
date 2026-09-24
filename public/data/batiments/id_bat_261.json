@@ -6,6 +6,10 @@
     {
       "personneID": 739,
       "role": "architecte"
+    },
+    {
+      "personneID": 10101,
+      "role": "sculpteur"
     }
   ],
   "dateConstruction": "1914",
@@ -28,14 +32,14 @@
   "WPfr": null,
   "image_ref": "Rene-Panhard-_13_§1",
   "terme_jantzen_bat": [
-    "façade",
-    "porte",
     "porte-fer",
     "fenetre",
     "lucarne",
-    "porte-fer-hall",
+    "façade",
+    "porte",
+    "sculpture",
     "décor",
-    "sculpture"
+    "porte-fer-hall"
   ],
   "photos": [
     {

@@ -1,0 +1,48 @@
+{
+  "id_bat": 2860,
+  "libelle": "5 rue du Dôme",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": null,
+  "adresse": {
+    "affichage": "5 rue du Dôme",
+    "numero": "5",
+    "voie": "rue du Dôme"
+  },
+  "arrondissement": 16,
+  "tri_alphab": "Dome",
+  "coordonnees": {
+    "latitude": "48.871368",
+    "longitude": "2.29142"
+  },
+  "id_pss": null,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": "Dome-5_16_§1-Rs",
+  "terme_jantzen_bat": [
+    "porte-fer",
+    "façade",
+    "colonne",
+    "marquise"
+  ],
+  "photos": [
+    {
+      "id_pic": "Dome-5_16_§1-Rs",
+      "IndexJantzen": [
+        "façade",
+        "porte-fer"
+      ],
+      "dateCapture": "2010:01:22"
+    },
+    {
+      "id_pic": "Dome-5_16_§2",
+      "IndexJantzen": [
+        "colonne",
+        "marquise",
+        "porte-fer"
+      ],
+      "dateCapture": "2010:01:22"
+    }
+  ]
+}

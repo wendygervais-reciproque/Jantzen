@@ -6,6 +6,10 @@
     {
       "personneID": 559,
       "role": "architecte"
+    },
+    {
+      "personneID": 10005,
+      "role": "sculpteur"
     }
   ],
   "dateConstruction": "1908",
@@ -28,12 +32,12 @@
   "WPfr": null,
   "image_ref": "Clichy-bd-120_18_§1-Dx",
   "terme_jantzen_bat": [
-    "balcon",
-    "façade",
     "fenetre",
-    "garde-corps",
     "lucarne",
-    "sculpture"
+    "façade",
+    "garde-corps",
+    "sculpture",
+    "balcon"
   ],
   "photos": [
     {

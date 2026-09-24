@@ -6,6 +6,10 @@
     {
       "personneID": 555,
       "role": "architecte"
+    },
+    {
+      "personneID": 10100,
+      "role": "sculpteur"
     }
   ],
   "dateConstruction": "1903",
@@ -28,18 +32,18 @@
   "WPfr": null,
   "image_ref": "Laumiere_39_19_§1",
   "terme_jantzen_bat": [
-    "porte",
-    "clé",
-    "façade-d'angle",
-    "fenetre-d'angle",
     "porte-fer",
+    "fenetre",
+    "lucarne",
     "console",
     "oeil-de-boeuf",
-    "fenetre",
+    "façade-d'angle",
+    "porte",
+    "sculpture",
+    "clé",
     "pilastre",
-    "lucarne",
     "dome",
-    "sculpture"
+    "fenetre-d'angle"
   ],
   "photos": [
     {

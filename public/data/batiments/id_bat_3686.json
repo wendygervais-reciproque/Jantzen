@@ -1,0 +1,82 @@
+{
+  "id_bat": 3686,
+  "libelle": "82 rue Beaubourg",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": [
+    "1915-1944"
+  ],
+  "adresse": {
+    "affichage": "82 rue Beaubourg",
+    "numero": "82",
+    "voie": "rue Beaubourg"
+  },
+  "arrondissement": 3,
+  "tri_alphab": "Beaubourg",
+  "coordonnees": {
+    "latitude": "48.864388",
+    "longitude": "2.355357"
+  },
+  "id_pss": 28791,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": "Beaubourg-82_3_§1",
+  "terme_jantzen_bat": [
+    "fenetre",
+    "lucarne",
+    "façade-d'angle",
+    "dome",
+    "lucarne-d'angle"
+  ],
+  "photos": [
+    {
+      "id_pic": "Beaubourg-82_3_§1",
+      "IndexJantzen": [
+        "dome",
+        "façade-d'angle"
+      ],
+      "dateCapture": "2004:09:08"
+    },
+    {
+      "id_pic": "Beaubourg-82_3_§2",
+      "IndexJantzen": [
+        "dome",
+        "façade-d'angle"
+      ],
+      "dateCapture": "2009:11:19"
+    },
+    {
+      "id_pic": "Beaubourg-82_3_§3",
+      "IndexJantzen": [
+        "lucarne-d'angle"
+      ],
+      "dateCapture": "2004:09:08"
+    },
+    {
+      "id_pic": "Beaubourg-82_3_§4",
+      "IndexJantzen": [
+        "lucarne-d'angle"
+      ],
+      "dateCapture": "2009:11:19"
+    },
+    {
+      "id_pic": "Beaubourg-82_3_§5",
+      "IndexJantzen": [
+        "dome",
+        "fenetre",
+        "lucarne"
+      ],
+      "dateCapture": "2004:09:08"
+    },
+    {
+      "id_pic": "Beaubourg-82_3_§6",
+      "IndexJantzen": [
+        "dome",
+        "fenetre",
+        "lucarne"
+      ],
+      "dateCapture": "2009:11:19"
+    }
+  ]
+}

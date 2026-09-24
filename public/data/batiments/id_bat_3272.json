@@ -10,6 +10,10 @@
     {
       "personneID": 314,
       "role": "architecte"
+    },
+    {
+      "personneID": 10076,
+      "role": "sculpteur"
     }
   ],
   "dateConstruction": null,
@@ -32,13 +36,13 @@
   "WPfr": null,
   "image_ref": "Felix-Faure-av-64_15_§1",
   "terme_jantzen_bat": [
-    "balcon",
-    "fenetre-d'angle",
-    "console",
     "fenetre",
-    "porte-fer-hall",
+    "console",
     "façade-d'angle",
-    "sculpture"
+    "sculpture",
+    "porte-fer-hall",
+    "fenetre-d'angle",
+    "balcon"
   ],
   "photos": [
     {

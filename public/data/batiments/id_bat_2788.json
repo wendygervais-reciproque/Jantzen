@@ -2,7 +2,12 @@
   "id_bat": 2788,
   "libelle": "49 rue de Rivoli",
   "ensemble": null,
-  "personnes": null,
+  "personnes": [
+    {
+      "personneID": 10137,
+      "role": "sculpteur"
+    }
+  ],
   "dateConstruction": "1856",
   "periode": [
     "1850-1869"
@@ -23,15 +28,15 @@
   "WPfr": null,
   "image_ref": "Rivoli-49_1_§1-Rx",
   "terme_jantzen_bat": [
-    "balcon",
-    "façade",
-    "console",
     "fenetre",
-    "garde-corps",
     "lucarne",
+    "façade",
+    "garde-corps",
+    "console",
+    "sculpture",
     "cariatide",
     "décor",
-    "sculpture"
+    "balcon"
   ],
   "photos": [
     {

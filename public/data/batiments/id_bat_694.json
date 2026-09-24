@@ -6,6 +6,14 @@
     {
       "personneID": 538,
       "role": "architecte"
+    },
+    {
+      "personneID": 10125,
+      "role": "sculpteur"
+    },
+    {
+      "personneID": 10052,
+      "role": "ferronier"
     }
   ],
   "dateConstruction": "1899",
@@ -28,17 +36,17 @@
   "WPfr": null,
   "image_ref": "Sedillot-12_7_§1",
   "terme_jantzen_bat": [
-    "façade",
-    "chimère",
-    "console",
     "porte-fer",
     "fenetre",
-    "garde-corps",
     "lucarne",
+    "façade",
+    "console",
+    "garde-corps",
+    "sculpture",
+    "chimère",
     "métal",
     "décor",
-    "colonne",
-    "sculpture"
+    "colonne"
   ],
   "photos": [
     {

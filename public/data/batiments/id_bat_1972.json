@@ -6,6 +6,14 @@
     {
       "personneID": 774,
       "role": "architecte"
+    },
+    {
+      "personneID": 10064,
+      "role": "sculpteur"
+    },
+    {
+      "personneID": 10046,
+      "role": "sculpteur"
     }
   ],
   "dateConstruction": "1840",
@@ -28,16 +36,16 @@
   "WPfr": null,
   "image_ref": "St-Georges-pl-28_9_§3",
   "terme_jantzen_bat": [
-    "façade",
-    "porte",
-    "clé",
     "porte-fer",
     "fenetre",
-    "garde-corps",
     "lucarne",
+    "façade",
+    "garde-corps",
+    "porte",
+    "sculpture",
+    "clé",
     "pilastre",
-    "décor",
-    "sculpture"
+    "décor"
   ],
   "photos": [
     {

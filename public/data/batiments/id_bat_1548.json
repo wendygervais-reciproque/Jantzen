@@ -6,6 +6,14 @@
     {
       "personneID": 267,
       "role": "architecte"
+    },
+    {
+      "personneID": 10079,
+      "role": "sculpteur"
+    },
+    {
+      "personneID": 10028,
+      "role": "sculpteur"
     }
   ],
   "dateConstruction": "1872-1879",
@@ -28,13 +36,13 @@
   "WPfr": null,
   "image_ref": "St-Martin-bd-20_10_§1",
   "terme_jantzen_bat": [
-    "façade",
-    "console",
     "fenetre",
     "lucarne",
+    "façade",
+    "console",
+    "sculpture",
     "cariatide",
-    "décor",
-    "sculpture"
+    "décor"
   ],
   "photos": [
     {

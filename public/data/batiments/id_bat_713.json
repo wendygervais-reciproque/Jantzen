@@ -6,6 +6,10 @@
     {
       "personneID": 800,
       "role": "architecte"
+    },
+    {
+      "personneID": 10086,
+      "role": "sculpteur"
     }
   ],
   "dateConstruction": "1904",
@@ -28,12 +32,12 @@
   "WPfr": null,
   "image_ref": "Turenne-121_3_.§1",
   "terme_jantzen_bat": [
-    "clé",
     "porte-fer",
     "fenetre",
     "lucarne",
-    "oriel",
-    "sculpture"
+    "sculpture",
+    "clé",
+    "oriel"
   ],
   "photos": [
     {

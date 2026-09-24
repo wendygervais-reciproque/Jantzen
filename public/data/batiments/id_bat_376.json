@@ -6,6 +6,10 @@
     {
       "personneID": 946,
       "role": "architecte"
+    },
+    {
+      "personneID": 10121,
+      "role": "sculpteur"
     }
   ],
   "dateConstruction": "1898",
@@ -28,15 +32,15 @@
   "WPfr": null,
   "image_ref": "Reaumur-101_2_§1",
   "terme_jantzen_bat": [
-    "balcon",
-    "lucarne-d'angle",
-    "façade-d'angle",
-    "fenetre-d'angle",
     "fenetre",
-    "fronton",
-    "cariatide",
+    "façade-d'angle",
+    "sculpture",
     "dome",
-    "sculpture"
+    "fenetre-d'angle",
+    "cariatide",
+    "lucarne-d'angle",
+    "balcon",
+    "fronton"
   ],
   "photos": [
     {

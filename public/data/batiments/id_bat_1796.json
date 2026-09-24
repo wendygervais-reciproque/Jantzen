@@ -6,6 +6,10 @@
     {
       "personneID": 850,
       "role": "architecte"
+    },
+    {
+      "personneID": 10161,
+      "role": "sculpteur"
     }
   ],
   "dateConstruction": "1895",
@@ -28,11 +32,11 @@
   "WPfr": null,
   "image_ref": "Berri-24_8_§1",
   "terme_jantzen_bat": [
-    "balcon",
-    "façade",
     "porte-fer",
     "fenetre",
-    "garde-corps"
+    "façade",
+    "garde-corps",
+    "balcon"
   ],
   "photos": [
     {
