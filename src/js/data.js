@@ -196,10 +196,16 @@ let IMG_FORMAT = 'webp';
 const imgFormatReady = detectImageFormat().then((f) => { IMG_FORMAT = f; });
 
 function buildUrl(name, bases, ext) {
-  //return `${bases[ext]}/${encodeURIComponent(name)}.${ext}`;
+  // Les fichiers ne sont pas tous nommés avec la même normalisation Unicode :
+  // jpg/avif sont en forme décomposée NFD (ex. ç = "c" + cédille combinante
+  // U+0327), webp en forme composée NFC (ç = U+00E7 précomposé). Un nom NFC
+  // ne matche donc jamais un fichier NFD sur le serveur (et inversement) →
+  // 404 silencieux, dont le déclenchement varie selon la gestion Unicode des
+  // chemins de chaque navigateur (d'où le Firefox OK / Chrome KO observé).
+  //return `${bases[ext]}/${encodeURIComponent(name.normalize(ext === 'webp' ? 'NFC' : 'NFD'))}.${ext}`;
 
   // DEBUG JPG WENDY ; TODO A ENLEVER LORS DE REBASCULE AVIF/WEBP
-  let text = `/public/data/photos_jpg/${encodeURIComponent(name)}.jpg`;
+  let text = `/public/data/photos_jpg/${encodeURIComponent(name.normalize('NFD'))}.jpg`;
   console.log(text);
   return text;
 }
