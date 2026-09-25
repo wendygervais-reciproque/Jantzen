@@ -11,11 +11,11 @@
  *      la demande. getBatiment / getPersonne étant mutualisés (cache), la carte
  *      et la mosaïque partagent le même chargement.
  *
- * Images : AVIF prioritaire, repli WEBP une seule fois par image (pas de jpg
- * sur le serveur). Un coupe-circuit global (voir MAX_IMAGE_FAILURES) stoppe le
- * chargement de nouvelles images si trop d'échecs consécutifs surviennent —
- * utile si le catalogue AVIF/WEBP n'est pas encore complet côté serveur, pour
- * éviter un flood de 404 (source d'IP ban).
+ * Images : 1 seule requête par image, aucune nouvelle tentative en cas
+ * d'échec (juste la classe .img-broken). Un coupe-circuit global (voir
+ * MAX_IMAGE_FAILURES) stoppe en plus le chargement de nouvelles images si
+ * trop d'échecs consécutifs surviennent — utile si le catalogue n'est pas
+ * encore complet côté serveur, pour éviter un flood de 404 (source d'IP ban).
  */
 
 // --- Coupe-circuit partagé pour les images de card ------------------------
@@ -45,30 +45,21 @@ function buildingRefImageId(data) {
 }
 
 /**
- * Branche une <img> avec repli AVIF→WEBP (une seule tentative) et alimente le
- * coupe-circuit global en cas d'échec persistant. N'émet aucune requête si le
- * coupe-circuit est déjà déclenché.
+ * Branche une <img> avec 1 seule requête réseau (pas de repli AVIF→WEBP ni de
+ * nouvelle tentative en cas d'échec) et alimente le coupe-circuit global en
+ * cas d'échec persistant. N'émet aucune requête si le coupe-circuit est déjà
+ * déclenché.
  */
 function attachCardImage(img, idPic, onLoaded) {
   if (cardImagesAborted || !idPic) return;
 
-  let triedFallback = false;
-
   img.onload = () => { onLoaded?.(); };
 
   img.onerror = function () {
-    if (cardImagesAborted) { this.onerror = null; return; }
-
-    // 1er échec en avif : on retente une fois en webp.
-    if (!triedFallback && IMG_FORMAT === 'avif') {
-      triedFallback = true;
-      this.src = thumbUrl(idPic, 'webp');
-      return;
-    }
-
-    // webp a aussi échoué (ou on était déjà en webp) : abandon pour cette image.
     this.onerror = null;
     this.classList.add('img-broken');
+
+    if (cardImagesAborted) return;
 
     cardImageFailureCount++;
     if (cardImageFailureCount >= MAX_IMAGE_FAILURES && !cardImagesAborted) {

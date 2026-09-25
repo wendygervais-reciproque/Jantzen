@@ -343,13 +343,6 @@ function personneLocalThumbUrl(media) {
   return `/public/data/thumb_personnes_jpg/${decodedFilename}`;
 }
 
-/** Bascule .jpg → .JPG sur une image dont le chargement a échoué. */
-function retryUppercaseJpg(imgEl) {
-  if (imgEl.src.endsWith('.JPG')) return false;
-  imgEl.src = imgEl.src.replace(/\.jpg$/, '.JPG');
-  return true;
-}
-
 function getThesaurusName(id) {
   return id;
 }

@@ -2,6 +2,13 @@
   RewriteEngine On
   RewriteBase /
 
+  # L'app est mono-page (état dans le #hash, jamais dans le chemin), donc rien
+  # sous /public/ ne doit tomber sur ce fallback : une image/JSON manquante
+  # (ex. mismatch d'encodage Unicode dans un nom de fichier) doit renvoyer un
+  # vrai 404, pas la page index.html (200) déguisée en image — ce qui casse le
+  # rendu, double les requêtes de repli et finit par déclencher un ban IP.
+  RewriteCond %{REQUEST_URI} !^/public/
+
   RewriteCond %{REQUEST_FILENAME} !-f
   RewriteCond %{REQUEST_FILENAME} !-d
 

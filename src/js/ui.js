@@ -111,9 +111,8 @@ function buildPersonThumb(personne, nom) {
   img.alt     = '';
   img.loading = 'lazy';
   img.onerror = function () {
-    // Une partie du fonds est en extension capitale : on retente une fois,
-    // puis on renonce à la photo au profit de la silhouette de repli.
-    if (/\.jpg$/.test(this.getAttribute('src') || '')) { retryUppercaseJpg(this); return; }
+    // 1 seule requête : en échec, on renonce à la photo au profit de la
+    // silhouette de repli (pas de nouvelle tentative réseau).
     thumbLink.replaceWith(buildPersonThumbPlaceholder());
   };
   thumbLink.appendChild(img);
