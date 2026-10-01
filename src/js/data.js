@@ -205,7 +205,7 @@ function buildUrl(name, bases, ext) {
   //return `${bases[ext]}/${encodeURIComponent(name.normalize(ext === 'webp' ? 'NFC' : 'NFD'))}.${ext}`;
 
   // DEBUG JPG WENDY ; TODO A ENLEVER LORS DE REBASCULE AVIF/WEBP
-  let text = `/public/data/photos_jpg/${encodeURIComponent(name.normalize('NFD'))}.jpg`;
+  let text = `/public/data/photos_webp/${encodeURIComponent(name.normalize('NFD'))}.webp`;
   console.log(text);
   return text;
 }
