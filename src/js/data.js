@@ -8,10 +8,10 @@ const PHOTO_BASE = `${DATA_BASE}/photos_jpg`; // image HD
 const THUMB_PHOTO_BASE  = `${DATA_BASE}/thumb_photos_jpg` ; // image vignette (thumb)
 
 const PHOTO_BASE_WEBP = `${DATA_BASE}/photos_webp`;
-const THUMB_PHOTO_BASE_WEBP  = `${DATA_BASE}/thumb_photos_webp` ;
+const THUMB_PHOTO_BASE_WEBP  = `${DATA_BASE}/photos_webp`;
 
 const PHOTO_BASE_AVIF = `${DATA_BASE}/photos_avif`;
-const THUMB_PHOTO_BASE_AVIF  = `${DATA_BASE}/thumb_photos_avif` ;
+const THUMB_PHOTO_BASE_AVIF  = `${DATA_BASE}/photos_avif`;
 
 
 let THESAURUS             = [];   // index allégé : [{t: terme, c: cluster, u: URL, s: source}]
@@ -197,6 +197,8 @@ const imgFormatReady = detectImageFormat().then((f) => { IMG_FORMAT = f; });
 
 function buildUrl(name, bases, ext) {
   return `${bases[ext]}/${encodeURIComponent(name.normalize(ext === 'webp' ? 'NFC' : 'NFD'))}.${ext}`;
+
+  // return `${bases[ext]}/${encodeURIComponent(name.normalize(ext === 'webp' ? 'NFC' : 'NFD'))}.${ext}`;
 
   // DEBUG JPG WENDY ; TODO A ENLEVER LORS DE REBASCULE AVIF/WEBP
   // let text = `/public/data/photos_webp/${encodeURIComponent(name.normalize('NFD'))}.jpg`;
