@@ -1,12 +1,5 @@
 /**
- * ui.js — Sélection d'un bâtiment.
- *
- * Le détail (infos + photos) est un composant unique, partagé par les deux
- * vues — voir mosaic-detail.js, dont le nom garde la trace de son origine
- * (volet gauche docké de la vue mosaïque) mais qui présente désormais aussi le
- * bâtiment sélectionné en vue carte. Ce fichier ne garde que la sélection
- * elle-même, et les utilitaires réutilisés par mosaic-detail.js (cards
- * « personnes liées »).
+ * ui.js — Sélection d'un bâtiment 
  */
 
 let selectedId = null;
@@ -21,22 +14,15 @@ function selectBatiment(id_bat) {
   });
 
   // moveFocus: true — nouvelle sélection franche, comme l'ouverture d'une
-  // modale/lightbox : le focus doit entrer dans le volet qui s'ouvre.
+  // modale/lightbox : le focus doit entrer dans le volet qui s'ouvre
   presentSelection(id_bat, true);
   if (typeof writeStateToHash === 'function') writeStateToHash('push');
 }
 
-/**
- * Affiche le bâtiment sélectionné : volet détail (commun aux deux vues), et,
- * en vue carte, recentrage sur son marqueur. Séparé de selectBatiment pour
- * pouvoir ré-afficher à l'identique lors d'une bascule de vue, sans repasser
- * par la sélection (ni ré-écrire l'URL) — d'où `moveFocus`, à false par
- * défaut : cette ré-présentation ne doit pas voler le focus à l'utilisateur.
- */
 function presentSelection(id_bat, moveFocus = false) {
   if (currentView === 'map' && typeof flyToFeature === 'function') flyToFeature(id_bat);
   openMosaicDetail(id_bat, { moveFocus });
-  // Le POI du bâtiment ouvert reste « activé » (utile quand la card est fermée).
+  // Le POI du bâtiment ouvert reste « activé »
   if (typeof refreshPoiActive === 'function') refreshPoiActive();
 }
 
@@ -47,7 +33,6 @@ function deselectBatiment() {
   if (typeof writeStateToHash === 'function') writeStateToHash('push');
 }
 
-/** Ferme toutes les surfaces de détail sans toucher selectedId. */
 function clearSelectionSurfaces() {
   if (typeof closeMosaicDetail === 'function') closeMosaicDetail();
   if (typeof closeAllPopups === 'function' && currentView === 'map') closeAllPopups();
@@ -84,12 +69,6 @@ function buildPersonCard(entry, personne) {
   return card;
 }
 
-/**
- * Vignette 56 × 56 : la photo si `media` est renseigné (lien, ouvre la page
- * média Wikidata dans un nouvel onglet), sinon — ou si son chargement échoue
- * — une silhouette de repli statique, pour qu'une carte personne ait
- * toujours sa vignette.
- */
 function buildPersonThumb(personne, nom) {
   if (!personne.media) return buildPersonThumbPlaceholder();
 
@@ -111,8 +90,6 @@ function buildPersonThumb(personne, nom) {
   img.alt     = '';
   img.loading = 'lazy';
   img.onerror = function () {
-    // 1 seule requête : en échec, on renonce à la photo au profit de la
-    // silhouette de repli (pas de nouvelle tentative réseau).
     thumbLink.replaceWith(buildPersonThumbPlaceholder());
   };
   thumbLink.appendChild(img);
@@ -152,17 +129,6 @@ function buildPersonLinks(personne, nom) {
   return p;
 }
 
-
-/**
- * Nom de la personne (fiche bâtiment) : un bouton — pas un lien, puisqu'il ne
- * change pas de ressource mais met à jour le filtre « Architectes & Artistes »
- * de la page courante — qui active le filtre sur cette personne au clic.
- * Garde le style « titre » (`.person-name`, couleur primary) ; le survol/focus
- * ne fait que souligner et affiche une infobulle expliquant l'action (motif
- * accessible `attachTooltip`, déjà utilisé ailleurs dans le volet détail :
- * déclenché au clavier comme à la souris, fermeture à Échap — RGAA 7.1/7.3,
- * 12.9). Si l'identifiant est introuvable, repli sur un simple texte statique.
- */
 function buildPersonFilterButton(personne, nom, label) {
   const archiId = personne.personneID ?? personne.id ?? personne.id_archi;
   if (archiId == null) {
@@ -184,10 +150,6 @@ function buildPersonFilterButton(personne, nom, label) {
     if (typeof applyFilters === 'function') applyFilters();
   };
 
-  // attachTooltip() fige d'abord le nom accessible sur le texte visible seul
-  // (motif standard, cf. mosaic-detail.js) : on le renforce ensuite pour que
-  // l'action soit sans ambiguïté même si l'infobulle (aria-describedby)
-  // n'est pas restituée par la techno d'assistance.
   attachTooltip(btn, `Filtrer les bâtiments de ${nom}`);
   btn.setAttribute('aria-label', `Filtrer les bâtiments de ${nom}`);
 

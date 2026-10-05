@@ -18,12 +18,13 @@ let THESAURUS             = [];   // index allégé : [{t: terme, c: cluster, u:
 let RAW_GEOJSON           = null; // FeatureCollection complète
 let ALL_FEATURES          = [];   // features[] — source de vérité pour les filtres
 let ARR_POLYGONS          = null; // FeatureCollection des 20 arrondissements (tracés officiels)
-let PERSONNES_FILTRE_DATA = [];   // NOUVEAU : Liste des architectes [{ id_archi, libelle }]
+let PERSONNES_FILTRE_DATA = [];   // Liste des architectes [{ id_archi, libelle }]
+let PERIODES_FILTRE_DATA = [];
 let ARCHI_TERMS           = [];   // Index pour le filtre à facettes des architectes
 let PHOTO_RANGE           = [1, 104];     // nb de photos min/max par bâtiment
 let PERIODE_TERMS          = [];
 
-/* ─── CENTROÏDES DES ARRONDISSEMENTS PARISIENS (WGS-84) ─────────────────── */
+/* ─── ARRONDISSEMENTS PARISIENS (WGS-84) ─────────────────── */
 const ARR_CENTROIDS = [
   { arr:  1, lat: 48.8609, lng: 2.3477 }, { arr:  2, lat: 48.8672, lng: 2.3474 },
   { arr:  3, lat: 48.8639, lng: 2.3616 }, { arr:  4, lat: 48.8542, lng: 2.3527 },
@@ -46,8 +47,6 @@ function getNearestArrondissement(lat, lng) {
   });
   return nearest;
 }
-
-/* ─── POINT-DANS-POLYGONE (ray casting) ────────────────────────────────── */
 
 function pointInRing(lng, lat, ring) {
   let inside = false;
@@ -83,7 +82,6 @@ function assignArrondissement(lng, lat) {
 
 /* ─── CHARGEMENT DES DONNÉES ────────────────────────────────────────────── */
 
-/* --- Dans la fonction loadData() de data.js --- */
 async function loadData() {
   try {
     const [thesaurusData, geojsonData, arrData, personnesFiltreData, periodesFiltreData] = await Promise.all([
@@ -130,12 +128,12 @@ async function loadData() {
       buildArchitectesFilter(PERSONNES_FILTRE_DATA);
     }
 
-    // NOUVEAU : Construction du filtre à facettes des périodes
+    // Construction du filtre à facettes des périodes
     if (typeof buildPeriodesFilter === 'function') {
       buildPeriodesFilter(PERIODES_FILTRE_DATA);
     }
 
-    console.log(`🎉 SUCCÈS ! ${ALL_FEATURES.length} bâtiments valides, ${PERSONNES_FILTRE_DATA.length} architectes et ${PERIODES_FILTRE_DATA.length} périodes chargées.`);
+    console.log(`${ALL_FEATURES.length} bâtiments, ${PERSONNES_FILTRE_DATA.length} architectes et ${PERIODES_FILTRE_DATA.length} périodes chargées.`);
 
   } catch (err) {
     console.error("❌ Erreur lors du chargement des données :", err);
@@ -144,7 +142,6 @@ async function loadData() {
 
 /* ─── UTILITAIRES DE NORMALISATION ET TEXTE ─────────────────────────────── */
 
-/** Clé de rapprochement tolérante : casse, accents, traits d'union, apostrophes. */
 function normalizeTerm(term) {
   return String(term || '')
     .toLowerCase()
@@ -153,17 +150,15 @@ function normalizeTerm(term) {
     .trim();
 }
 
-/** Alias pour normalizeTerm afin de garantir la compatibilité avec app.js et filters.js */
 function normalizeText(text) {
   return normalizeTerm(text);
 }
 
-/** Première lettre en capitale. */
 function capitalize(str) {
   return str ? str.charAt(0).toUpperCase() + str.slice(1) : '';
 }
 
-// --- Détection du support (inchangé) ---
+// --- Détection du support (AVIF/WEBP) ---
 function testImageSupport(dataUri) {
   return new Promise((resolve) => {
     const img = new Image();
@@ -198,11 +193,8 @@ const imgFormatReady = detectImageFormat().then((f) => { IMG_FORMAT = f; });
 function buildUrl(name, bases, ext) {
   return `${bases[ext]}/${encodeURIComponent(name.normalize(ext === 'webp' ? 'NFC' : 'NFD'))}.${ext}`;
 
-  // return `${bases[ext]}/${encodeURIComponent(name.normalize(ext === 'webp' ? 'NFC' : 'NFD'))}.${ext}`;
-
-  // DEBUG JPG WENDY ; TODO A ENLEVER LORS DE REBASCULE AVIF/WEBP
+  // DEBUG JPG ; A ENLEVER LORS DE REBASCULE AVIF/WEBP
   // let text = `/public/data/photos_webp/${encodeURIComponent(name.normalize('NFD'))}.jpg`;
-  // console.log(text);
   // return text;
 }
 
@@ -218,7 +210,6 @@ function thumbUrl(idPic, format = IMG_FORMAT) {
   return buildUrl(name, { avif: THUMB_PHOTO_BASE_AVIF, webp: THUMB_PHOTO_BASE_WEBP }, format);
 }
 
-// --- Coupe-circuit : trop d'échecs = on arrête tout ---
 const MAX_FAILURES = 3;
 let failureCount = 0;
 let galleryAborted = false;
@@ -246,18 +237,15 @@ function attachImageWithFallback(img, idPic, urlFn) {
     if (failureCount >= MAX_FAILURES && !galleryAborted) {
       galleryAborted = true;
       console.error(`[img] ${failureCount} échecs consécutifs — arrêt du chargement, fichiers probablement absents du serveur`);
-      // Option : afficher un message à l'utilisateur / désactiver le scroll infini, etc.
     }
   };
 
   img.src = urlFn(idPic);
 }
 
-/* ─── DIMENSIONS DES PHOTOGRAPHIES (ratios pour la mosaïque justifiée) ────── */
-
-// photos.json (~1 574 entrées) n'est chargé qu'une fois, à la première galerie
-// ouverte : il fournit les dimensions natives, ce qui permet de disposer les
-// photos en rangées justifiées AVANT même que les images ne soient chargées.
+/* ─── DIMENSIONS DES PHOTOS ────── */
+// photos.json n'est chargé qu'une fois, à la première galerie ouverte : il fournit les dimensions natives, 
+// ce qui permet de disposer les photos en rangées justifiées avant que les images ne soient chargées.
 let photoRatiosPromise = null;
 
 function loadPhotoRatios() {
@@ -278,7 +266,6 @@ function loadPhotoRatios() {
   return photoRatiosPromise;
 }
 
-/** Clé de rapprochement id_pic ↔ fichier : sans extension, insensible à la casse. */
 function photoRatioKey(name) {
   return String(name || '')
     .replace(/^image_/, '')
@@ -286,9 +273,9 @@ function photoRatioKey(name) {
     .toLowerCase();
 }
 
-/* ─── FICHES BÂTIMENT (chargement mutualisé) ────────────────────────────── */
+/* ─── PAGES BÂTIMENT ────────────────────────────── */
 
-const batimentCache = new Map();   // id_bat → Promise<fiche>
+const batimentCache = new Map();   // id_bat -> Promise<fiche>
 
 function getBatiment(id_bat) {
   const key = String(id_bat);
@@ -300,16 +287,16 @@ function getBatiment(id_bat) {
       }
       throw new Error(`Fiche du bâtiment ${key} introuvable`);
     })().catch(err => {
-      batimentCache.delete(key);   // un échec ne doit pas être mémorisé
+      batimentCache.delete(key); 
       throw err;
     }));
   }
   return batimentCache.get(key);
 }
 
-/* ─── FICHES PERSONNE (architectes, chargement mutualisé) ───────────────── */
+/* ─── FICHES PERSONNE (chargement mutualisé) ───────────────── */
 
-const personneCache = new Map();   // id_archi → Promise<fiche>
+const personneCache = new Map();   // id_archi -> Promise<fiche>
 
 function getPersonne(id_archi) {
   const key = String(id_archi);
@@ -320,7 +307,7 @@ function getPersonne(id_archi) {
         return r.json();
       })
       .catch(err => {
-        personneCache.delete(key);   // un échec ne doit pas être mémorisé
+        personneCache.delete(key);
         throw err;
       }));
   }
@@ -332,7 +319,7 @@ const WIKIMEDIA_COMMONS = 'https://upload.wikimedia.org/wikipedia/commons';
 function personneLocalThumbUrl(media) {
   if (!media) return null;
 
-  // Décode les caractères encodés (ex: %20 → espace)
+  // Décode les caractères encodés (ex  %20 = espace)
   const decodedFilename = decodeURIComponent(media);
 
   // Construit le chemin local

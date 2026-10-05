@@ -1,24 +1,17 @@
 /**
  * card.js — Card (« snippet ») d'un bâtiment, PARTAGÉE entre :
  *   • la carte    — popup au survol / clic d'un POI (map.js) ;
- *   • la mosaïque — tuile de résultat (views.js).
+ *   • la liste — tuile de résultat (views.js).
  *
  * En deux temps, pour rester léger :
- *   1. buildBuildingCard(props)  — coque immédiate à partir des données du
+ *   1. buildBuildingCard(props)  — card à partir des données du
  *      GeoJSON (nom, arrondissement, ensemble), avec un squelette d'image.
  *   2. enrichBuildingCard(el, data) — complète avec l'image de référence et les
  *      personnes (rôle), issues de la fiche complète getBatiment(id) chargée à
- *      la demande. getBatiment / getPersonne étant mutualisés (cache), la carte
- *      et la mosaïque partagent le même chargement.
- *
- * Images : 1 seule requête par image, aucune nouvelle tentative en cas
- * d'échec (juste la classe .img-broken). Un coupe-circuit global (voir
- * MAX_IMAGE_FAILURES) stoppe en plus le chargement de nouvelles images si
- * trop d'échecs consécutifs surviennent — utile si le catalogue n'est pas
- * encore complet côté serveur, pour éviter un flood de 404 (source d'IP ban).
+ *      la demande. getBatiment / getPersonne sont mutualisés (cache) donc la carte
+ *      et la liste partagent le même chargement
  */
 
-// --- Coupe-circuit partagé pour les images de card ------------------------
 const MAX_IMAGE_FAILURES = 3;
 let cardImageFailureCount = 0;
 let cardImagesAborted = false;
@@ -28,7 +21,7 @@ let cardImagesAborted = false;
  * (à défaut 1re photo). Si une seule facette thésaurus est active, on préfère
  * la première photo du bâtiment porteuse de ce terme (plus parlant pour la
  * recherche en cours) ; au-delà d'une facette active, le critère devient
- * ambigu et on retombe sur l'image de référence par défaut.
+ * ambigu et on retombe sur l'image de référence par défaut
  * @returns {{ idPic: string, url: string } | null}
  */
 function buildingRefImageId(data) {
@@ -44,12 +37,6 @@ function buildingRefImageId(data) {
   return data?.image_ref || photos[0]?.id_pic || null;
 }
 
-/**
- * Branche une <img> avec 1 seule requête réseau (pas de repli AVIF→WEBP ni de
- * nouvelle tentative en cas d'échec) et alimente le coupe-circuit global en
- * cas d'échec persistant. N'émet aucune requête si le coupe-circuit est déjà
- * déclenché.
- */
 function attachCardImage(img, idPic, onLoaded) {
   if (cardImagesAborted || !idPic) return;
 
@@ -72,8 +59,7 @@ function attachCardImage(img, idPic, onLoaded) {
 }
 
 /**
- * Construit la coque de la card. Renvoie un <button> cliquable (le clic est
- * câblé par l'appelant, différent selon le contexte carte / mosaïque).
+ * Construit la card, renvoie un <button> cliquable
  * @param {object} props  properties d'une feature GeoJSON (id_bat, libelle,
  *        ensemble, arrondissement).
  */
@@ -88,8 +74,6 @@ function buildBuildingCard(props) {
 
   const arr = Number(props.arrondissement);
 
-  // Termes du thésaurus (Index Jantzen) : présents dans les propriétés de la
-  // feature, donc affichés d'emblée (au plus 4, le reste résumé par « … »).
   const terms = Array.isArray(props.terme_jantzen_bat) ? props.terme_jantzen_bat : [];
   const termsText = terms.slice(0, 4).map(capitalize).join(', ')
     + (terms.length > 4 ? '…' : '');
@@ -123,14 +107,13 @@ function buildBuildingCard(props) {
 
 /**
  * Complète une card avec l'image de référence et les personnes liées, à partir
- * de la fiche complète `data` (getBatiment). Idempotent : ne réinsère pas
- * l'image si elle est déjà là.
+ * de la fiche complète `data` (getBatiment)
  */
 async function enrichBuildingCard(card, data) {
   if (!card || !data) return;
 
-  // Image de référence — insérée SOUS le badge arrondissement, squelette retiré
-  // une fois chargée.
+  // Image de référence insérée SOUS le badge arrondissement, squelette retiré
+  // une fois chargée
   const thumb = card.querySelector('.bldg-card-thumb');
   const idPic = buildingRefImageId(data);
   if (thumb && idPic && !thumb.querySelector('img')) {
@@ -148,7 +131,7 @@ async function enrichBuildingCard(card, data) {
     thumb.insertBefore(img, thumb.firstChild);
   }
 
-  // Personnes liées : « Libellé (rôle) », séparées par « · ».
+  // Personnes liées
   const host = card.querySelector('.bldg-card-people');
   const entries = Array.isArray(data.personnes) ? data.personnes : [];
   if (host && entries.length) {

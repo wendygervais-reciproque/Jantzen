@@ -2,11 +2,6 @@
  * filters.js — Filtres : arrondissement, thésaurus Jantzen, architectes, périodes.
  */
 
-/**
- * Remplit une puce : libellé + pastille de compte. Le compte n'est plus glissé
- * entre parenthèses dans le libellé — c'est un élément à part entière du
- * composant Chip (bordure, forme de gélule), masqué quand il vaut zéro.
- */
 function setChipContent(chip, label, count) {
   chip.textContent = '';
 
@@ -23,11 +18,6 @@ function setChipContent(chip, label, count) {
   }
 }
 
-/**
- * Câble un champ `.thes-search` (thésaurus, personnes…) à sa croix
- * d'effacement : la croix n'apparaît que si le champ contient du texte, et
- * son clic vide le champ, relance le rendu et rend la main au champ.
- */
 function bindSearchClear(inputId, clearId, onChange) {
   const input = document.getElementById(inputId);
   const clear = document.getElementById(clearId);
@@ -48,8 +38,8 @@ function bindSearchClear(inputId, clearId, onChange) {
 
 const activeFilters = {
   arrondissements: new Set(), // Set<number>
-  thesaurus:       new Set(), // Set<string> ("façade", "lucarne"…)
-  architectes:     new Set(), // Set<number> (IDs d'architectes)
+  thesaurus:       new Set(), // Set<string> ("façade", "lucarne"...)
+  architectes:     new Set(), // Set<number> (ID d'architectes)
   periodes:        new Set(), // Set<string> ("1530-1589", ...)
 };
 
@@ -200,8 +190,6 @@ function buildTermRow(entry) {
   return row;
 }
 
-/* ─── DYNAMISATION ──────────────────────────────────────────── */
-
 function updateThesaurusData(featuresActuelles) {
   const counts = new Map();
 
@@ -310,7 +298,7 @@ function updateArrondissementsData(featuresActuelles) {
   });
 }
 
-/* ─── INFOBULLES DE DÉFINITION ──────────────────────────────────────────── */
+/* ─── TOOLTIP DE DÉFINITION ──────────────────────────────────────────── */
 
 function toggleTermDefinition(button, entry, row) {
   const open = button.getAttribute('aria-expanded') === 'true';
@@ -404,10 +392,6 @@ function toggleThesaurusChip(btn, id) {
 
 /* ─── TAGS ACTIFS & RÉINITIALISATION ────────────────────────────────────── */
 
-/* Pastille de comptage sur #filters-fab (mobile/tablette) : une fois les
-   filtres repliés dans leur modale, seul indice qu'un ou plusieurs sont
-   actifs. Ne compte pas la recherche texte (searchQuery) : ce n'est pas un
-   filtre à puce parmi ceux listés dans le panneau. */
 function updateFiltersFabBadge() {
   const fab = document.getElementById('filters-fab');
   const badge = document.getElementById('filters-fab-badge');
@@ -416,8 +400,6 @@ function updateFiltersFabBadge() {
                 activeFilters.architectes.size + activeFilters.periodes.size;
   badge.hidden = count === 0;
   badge.textContent = String(count);
-  // La pastille visuelle échappe au nom accessible d'un bouton doté d'un
-  // aria-label : sans ça, sa valeur resterait invisible au lecteur d'écran.
   fab.setAttribute('aria-label', count > 0 ? `Filtres, ${count} filtre${count > 1 ? 's' : ''} actif${count > 1 ? 's' : ''}` : 'Filtres');
 }
 
@@ -540,22 +522,12 @@ function resetAllFilters() {
 /* ─── ACCORDÉON ─────────────────────────────────────────────────────────── */
 
 function toggleFilterSection(btn) {
-  // Le bouton est enveloppé dans un <h3> (hiérarchie de titres, RGAA 9.1) :
-  // le frère direct à considérer est celui du <h3>, pas celui du bouton.
   const body = (btn.closest('h3') || btn).nextElementSibling;
   if (!body) return;
   const isOpen = body.classList.toggle('open');
   btn.setAttribute('aria-expanded', String(isOpen));
 }
 
-/**
- * Détecte, pour chaque en-tête de section sticky, l'instant où il est
- * réellement figé en haut de #filters-body (par opposition à sa position
- * normale dans le flux) : une sentinelle de hauteur nulle est posée juste
- * avant chaque en-tête, et sort du viewport du panneau exactement quand ce
- * dernier se colle. Sert uniquement à poser `.is-stuck`, qui porte l'élévation
- * « anchored » — l'en-tête ne doit pas la porter en position normale.
- */
 function initStickyFilterHeaders() {
   const root = document.getElementById('filters-body');
   const sentinels = document.querySelectorAll('.filter-section-sentinel');
@@ -563,8 +535,6 @@ function initStickyFilterHeaders() {
 
   const observer = new IntersectionObserver(entries => {
     entries.forEach(entry => {
-      // Idem : l'en-tête réel (.filter-section-header) est un petit-fils du
-      // frère direct de la sentinelle, imbriqué dans le <h3> englobant.
       const wrapper = entry.target.nextElementSibling;
       const header  = wrapper?.querySelector('.filter-section-header') || wrapper;
       if (header) header.classList.toggle('is-stuck', entry.intersectionRatio < 1);
@@ -877,13 +847,6 @@ function togglePeriodeChip(btn, periodeLabel) {
   if (typeof applyFilters === 'function') applyFilters();
 }
 
-/* Ne fait que recalculer les compteurs (comme updateThesaurusData) — le
-   rendu (renderPeriodesList) reste à la charge de l'appelant, qui l'invoque
-   déjà juste après (applyFilters, buildPeriodesFilter). Un appel ici en plus
-   reconstruisait les puces une première fois hors de tout wrapper de
-   préservation du focus, avant même que withFocusPreserved() n'ait pu
-   capturer la puce active dans applyFilters — la puce qu'on venait
-   d'activer au clavier perdait alors le focus au clic. */
 function updatePeriodesData(featuresActuelles) {
   let featuresSansPeriodes = ALL_FEATURES;
 

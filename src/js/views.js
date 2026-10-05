@@ -1,21 +1,17 @@
 /**
- * views.js — Bascule carte ↔ mosaïque et rendu de la vue mosaïque.
+ * views.js — Bascule carte <-> liste et rendu de la vue liste.
  *
- * Les deux vues consomment le même jeu de features filtrées : la bascule
- * ne relance jamais les filtres, elle re-rend simplement la vue active.
+ * Les deux vues utilisent le même jeu filtré : la bascule
+ * ne relance pas les filtres, elle re-rend  la vue active.
  */
 
 let currentView    = 'map';   // 'map' | 'mosaic'
 let currentResults = [];      // features après filtrage
 
-const MOSAIC_MAX = 300;       // au-delà, on invite à affiner les filtres
+const MOSAIC_MAX = 3065;       // max cards, au-delà, on invite à affiner les filtres
 
-/* ─── AIGUILLAGE ────────────────────────────────────────────────────────── */
+/* ─── BASCULE ────────────────────────────────────────────────────────── */
 
-/**
- * Point d'entrée appelé après chaque passe de filtrage.
- * Alimente la carte (toujours, pour qu'elle soit à jour au retour) et la vue active.
- */
 function renderCurrentView(features) {
   currentResults = features;
   updateResultsCount(features);
@@ -27,10 +23,6 @@ function renderCurrentView(features) {
 function setView(view) {
   if (view === currentView) return;
 
-  // Les deux vues sont les deux revers de la même pièce : la sélection est
-  // conservée d'une vue à l'autre. On ferme seulement les surfaces de détail de
-  // la vue qu'on quitte (chaque vue a sa propre présentation), sans désélectionner,
-  // puis on ré-affiche le bâtiment dans la vue d'arrivée.
   if (selectedId !== null && typeof clearSelectionSurfaces === 'function') {
     clearSelectionSurfaces();
   }
@@ -52,7 +44,6 @@ function setView(view) {
   if (view === 'mosaic') {
     renderMosaic(currentResults);
   } else if (typeof map !== 'undefined' && map) {
-    // Leaflet mesure mal un conteneur qui était masqué : on force le recalcul.
     map.invalidateSize();
   }
 
@@ -76,15 +67,13 @@ function updateResultsCount(features) {
 function updateStageEmpty(features) {
   const empty = document.getElementById('stage-empty');
   if (!empty) return;
-  // Contenu vide plutôt que `hidden` : voir le commentaire sur #stage-empty
-  // dans main.css. Aucune vue n'est épargnée — carte vide ou mosaïque vide
-  // méritent également d'être annoncées.
+  // Contenu vide plutôt que `hidden` : voir #stage-empty dans main.css 
   empty.innerHTML = features.length === 0
     ? 'Aucun résultat.<br>Modifiez vos critères de recherche.'
     : '';
 }
 
-/* ─── VUE MOSAÏQUE ──────────────────────────────────────────────────────── */
+/* ─── VUE LISTE ──────────────────────────────────────────────────────── */
 
 function renderMosaic(features) {
   const grid = document.getElementById('mosaic');
@@ -110,8 +99,6 @@ function renderMosaic(features) {
 }
 
 function buildMosaicTile(p) {
-  // Même composant que le popup carte. `.mosaic-tile` reste posé en crochet pour
-  // le lazy-load des couvertures et le marquage de sélection.
   const tile = buildBuildingCard(p);
   tile.classList.add('mosaic-tile');
   if (String(selectedId) === String(p.id_bat)) tile.classList.add('is-active');
@@ -119,18 +106,10 @@ function buildMosaicTile(p) {
   return tile;
 }
 
-/* ─── VIGNETTES DE COUVERTURE (chargement paresseux) ────────────────────── */
+/* ─── VIGNETTES DE COUVERTURE ────────────────────── */
 
 const COVER_MARGIN = 600;   // px chargés de part et d'autre du champ visible
 
-/**
- * Charge les couvertures des tuiles proches du champ de vision.
- *
- * Calcul de position explicite plutôt qu'`IntersectionObserver` : les photos
- * pèsent lourd et il faut un déclenchement fiable, y compris quand le
- * compositing est suspendu (onglet en arrière-plan, navigateur piloté), cas où
- * l'observateur — comme `loading="lazy"` — reste muet.
- */
 function updateVisibleCovers() {
   const grid = document.getElementById('mosaic');
   if (!grid || grid.hidden) return;
@@ -152,8 +131,6 @@ function bindCoverScroll() {
   if (!grid || grid.dataset.scrollBound) return;
   grid.dataset.scrollBound = '1';
 
-  // Étranglement par minuterie plutôt que `requestAnimationFrame`, suspendu
-  // lui aussi lorsque la page n'est pas composée.
   grid.addEventListener('scroll', () => {
     if (coverScrollTimer) return;
     coverScrollTimer = setTimeout(() => {
@@ -170,6 +147,5 @@ async function loadCover(tile) {
   } catch {
     return;   // la tuile garde son squelette
   }
-  // Image de référence + personnes : enrichissement partagé avec le popup carte.
   enrichBuildingCard(tile, data);
 }

@@ -15,7 +15,6 @@ document.addEventListener('DOMContentLoaded', async () => {
   // ── Chargement des données ──────────────────────────────────────────────
   try {
     await loadData();
-    // buildArchitectesFilter est déjà exécuté à la fin de loadData() dans data.js
   } catch (err) {
     console.error('Erreur de chargement des données :', err);
     const countEl = document.getElementById('search-results-count');
@@ -89,7 +88,7 @@ function resetOtherFiltersUI() {
     chip.setAttribute('aria-pressed', 'false');
   });
 
-  // 2. periode
+  // 2. Périodes
   activeFilters.periodes.clear();
   if (typeof renderPeriodesList === 'function') renderPeriodesList();
 
@@ -106,9 +105,7 @@ function resetOtherFiltersUI() {
 
 /* ─── MODALES : isolation du fond ────────────────────────────────────────
    Pendant qu'une modale (page statique ou visionneuse) est affichée, #app
-   passe en inert : le fond (carte, filtres, logo/H1…) devient inaccessible
-   au clavier et disparaît de l'arbre d'accessibilité — sans quoi un lecteur
-   d'écran ou une tabulation pourrait s'échapper de la boîte de dialogue. */
+   passe en inerte */
 function setBackgroundInert(isInert) {
   const app = document.getElementById('app');
   if (!app) return;
@@ -118,9 +115,7 @@ function setBackgroundInert(isInert) {
 
 /* Variante pour les modales mobiles (filtres, fiche bâtiment) : contrairement
    aux pages statiques et à la visionneuse, ces deux-là vivent À L'INTÉRIEUR
-   de #app plutôt qu'à côté — rendre #app inert les rendrait inertes eux
-   aussi. On inertise donc tous les autres enfants de #app, en épargnant
-   celui qui fait office de modale. */
+   de #app */
 function setAppSiblingsInert(exceptEl, isInert) {
   const app = document.getElementById('app');
   if (!app) return;
@@ -132,11 +127,10 @@ function setAppSiblingsInert(exceptEl, isInert) {
 }
 
 /* ─── NAVIGATION (marque, à propos, pages) ──────────────────────────────── */
-
 function bindNavigation() {
   document.getElementById('brand-home')?.addEventListener('click', e => {
     e.preventDefault();
-    closePage();          // le logotype ramène au fond (carte ou mosaïque)
+    closePage();          // le logotype ramène au fond (carte ou liste)
     searchQuery = '';
     const input = document.getElementById('search-input');
     if(input) input.value = '';
@@ -159,8 +153,7 @@ function bindNavigation() {
   document.getElementById('page-overlay-close')?.addEventListener('click', closePage);
 }
 
-/* ─── BASCULE CARTE / MOSAÏQUE ──────────────────────────────────────────── */
-
+/* ─── BASCULE CARTE / LISTE ──────────────────────────────────────────── */
 function bindViewToggle() {
   document.querySelectorAll('.view-btn').forEach(btn => {
     btn.addEventListener('click', () => setView(btn.dataset.view));
@@ -168,7 +161,6 @@ function bindViewToggle() {
 }
 
 /* ─── PANNEAU DE FILTRES ────────────────────────────────────────────────── */
-
 function bindFiltersPanel() {
   const panel  = document.getElementById('filters-panel');
   const toggle = document.getElementById('filters-toggle');
@@ -176,9 +168,6 @@ function bindFiltersPanel() {
   if (!panel || !toggle) return;
 
   toggle.addEventListener('click', () => {
-    // Rétractation en largeur ET en hauteur (voir .is-collapsed en CSS) : ne
-    // restent que le titre et l'icône. La classe sur #app laisse la grille
-    // mosaïque récupérer l'espace libéré.
     const collapsed = panel.classList.toggle('is-collapsed');
     document.getElementById('app')?.classList.toggle('filters-collapsed', collapsed);
     toggle.querySelector('use')?.setAttribute('href', collapsed ? '#i-plus' : '#i-minus');
@@ -186,11 +175,7 @@ function bindFiltersPanel() {
   });
 }
 
-/* ─── FILTRES EN MODALE (mobile/tablette, ≤900px) ─────────────────────────
- * En dessous du seuil, #filters-panel n'est plus une carte repliable mais
- * une modale plein écran, ouverte par le bouton flottant #filters-fab et
- * fermée par #filters-close (bouton icône « fermer » identique à celui des
- * fiches bâtiment) — voir la media query dans main.css pour la présentation. */
+/* ─── FILTRES EN MODALE (mobile/tablette, inf 900px) ───────────────────────── */
 function bindFiltersFab() {
   document.getElementById('filters-fab')?.addEventListener('click', openFiltersMobile);
   document.getElementById('filters-close')?.addEventListener('click', closeFiltersMobile);
@@ -222,10 +207,6 @@ function closeFiltersMobile() {
   fab?.setAttribute('aria-expanded', 'false');
   setAppSiblingsInert(panel, false);
   fab?.focus();
-  // Le panneau reste affiché (display:flex) le temps de l'animation de
-  // fermeture : voir la classe `.filters-mobile-closing` dans main.css.
-  // Repli via un timeout au cas où l'animation ne se déclenche pas
-  // (prefers-reduced-motion, ou navigateur qui rate l'événement).
   panel.classList.add('filters-mobile-closing');
   const clear = () => panel.classList.remove('filters-mobile-closing');
   panel.addEventListener('animationend', clear, { once: true });
@@ -237,7 +218,6 @@ function isFiltersMobileOpen() {
 }
 
 /* ─── VISIONNEUSE PLEIN ÉCRAN ────────────────────────────────────────────── */
-
 function bindLightbox() {
   document.getElementById('lightbox-close')?.addEventListener('click', closeLightbox);
   document.getElementById('lightbox-prev')?.addEventListener('click', () => stepPhoto(-1));
@@ -247,8 +227,7 @@ function bindLightbox() {
   });
 }
 
-/* ─── CLAVIER ───────────────────────────────────────────────────────────── */
-
+/* ─── NAVIGATION CLAVIER ───────────────────────────────────────────────────────────── */
 function bindKeyboard() {
   document.addEventListener('keydown', e => {
     if (e.key === 'Escape') {
@@ -258,19 +237,13 @@ function bindKeyboard() {
       if (isFiltersMobileOpen())               return closeFiltersMobile();
       if (isPageOpen())                        return closePage();
       if (selectedId !== null)                 return deselectBatiment();
-      // Échappatoire clavier de la carte (RGAA/ARIA : role="application" doit
-      // offrir un moyen évident d'en sortir) : avec des centaines de POI et
-      // grappes, Maj+Tab pour remonter aux filtres depuis le fond de la liste
-      // n'est pas praticable. Dernier recours (rien de plus spécifique à
-      // fermer ci-dessus) : si le focus est dans la carte, Échap le renvoie
-      // d'un coup au début de l'interface plutôt que de sortir un par un.
       if (typeof map !== 'undefined' && map?.getContainer().contains(document.activeElement)) {
         return document.getElementById('search-input')?.focus();
       }
       return;
     }
 
-    // Flèches : navigation dans les photos de la visionneuse, sauf pendant une saisie.
+    // Flèches : navigation dans les photos de la visionneuse, sauf pendant une saisie
     const typing = ['INPUT', 'TEXTAREA'].includes(document.activeElement?.tagName);
     if (typing || !isLightboxOpen()) return;
 
@@ -281,19 +254,6 @@ function bindKeyboard() {
 
 /* ─── APPLICATION DES FILTRES ───────────────────────────────────────────── */
 
-/**
- * Les facettes thésaurus/architectes/périodes (et la barre de tags actifs)
- * sont entièrement reconstruites à chaque applyFilters() — leurs compteurs
- * en dépendent (voir renderThesaurusGroups/renderArchitectesList/
- * renderPeriodesList/renderActiveTags ci-dessous) — contrairement aux puces
- * d'arrondissement, mises à jour en place (updateArrondissementsData). La
- * puce qu'on vient d'activer au clavier est donc détruite puis recréée : le
- * focus retombe sur le document, et Tab reparfois du début de la facette.
- * On mémorise avant rendu l'équivalent (même data-id, même conteneur) et on
- * le retrouve après pour lui rendre le focus ; sans équivalent (bouton
- * Réinitialiser ou croix d'un tag actif, qui disparaissent), on remonte au
- * premier en-tête de section — le point d'entrée stable des filtres.
- */
 function withFocusPreserved(fn) {
   const active    = document.activeElement;
   const chip      = active?.closest?.('.chip, #filter-reset-btn, .filter-active-tag-remove');
@@ -306,11 +266,6 @@ function withFocusPreserved(fn) {
   if (!chip || document.body.contains(chip)) return;   // rien détruit : pas d'intervention
 
   if (key != null && containerId) {
-    // Recherche manuelle plutôt qu'un sélecteur `[data-id="…"]` : CSS.escape()
-    // échappe pour un IDENTIFIANT CSS (ex. un data-id de période qui commence
-    // par un chiffre, "1180-1529", y devient "\31 180-1529"), pas pour la
-    // valeur d'un attribut entre guillemets — l'échappement casse alors la
-    // correspondance au lieu de la protéger.
     const replacement = [...document.getElementById(containerId).querySelectorAll('.chip')]
       .find(c => c.dataset.id === key);
     if (replacement) { replacement.focus(); return; }
@@ -318,7 +273,6 @@ function withFocusPreserved(fn) {
   document.querySelector('.filter-section-header')?.focus();
 }
 
-/* --- Dans la fonction applyFilters() de app.js --- */
 function applyFilters() {
   let filteredFeatures = ALL_FEATURES;
 
@@ -388,13 +342,13 @@ function applyFilters() {
   // Mise à jour des données et rendu UI des facettes
   updateArrondissementsData(filteredFeatures);
   updateThesaurusData(filteredFeatures);
-  updatePeriodesData(filteredFeatures); // NOUVEAU
+  updatePeriodesData(filteredFeatures);
 
   // Ces rendus reconstruisent leurs puces de toutes pièces (voir
   // withFocusPreserved ci-dessus) : regroupés dans un seul appel pour ne
   // capturer/restaurer le focus qu'une fois.
   withFocusPreserved(() => {
-    renderPeriodesList(); // NOUVEAU
+    renderPeriodesList(); 
 
     const thesSearchVal = document.getElementById('thesaurus-search')?.value || '';
     renderThesaurusGroups(thesSearchVal);
@@ -405,8 +359,6 @@ function applyFilters() {
     renderActiveTags();
   });
 
-  // Le bâtiment ouvert n'a plus sa place dans les nouveaux résultats : on
-  // referme sa fiche plutôt que de la laisser affichée hors filtre.
   if (selectedId !== null && !filteredFeatures.some(f => String(f.properties.id_bat) === String(selectedId))) {
     deselectBatiment();
   }
@@ -421,16 +373,10 @@ function applyFilters() {
  *
  * L'état complet de l'app — vue, filtres, recherche, bâtiment ouvert — vit dans
  * le hash : #v=mosaic&arr=7,16&an=1900-1914&th=facade,garde-corps&q=leroux&bat=1663
- *
- * Le hash n'étant jamais envoyé au serveur, recharger n'importe quelle URL
- * demande toujours « / » (qui existe) : plus de 404 ni de page d'erreur, sur
- * n'importe quel serveur statique. Les deux vues lisent le même état, donc la
- * bascule carte↔mosaïque conserve filtres et sélection ; un lien reproduit
- * l'état exact.
  */
 
-let applyingState   = false;   // vrai pendant l'application : on n'écrit pas ce qu'on lit
-let lastWrittenHash = null;    // dernier hash posé par nous (garde anti-double-application)
+let applyingState   = false;  
+let lastWrittenHash = null;
 
 function currentAppState() {
   return {
@@ -477,13 +423,13 @@ function parseHash(hash) {
   return s;
 }
 
-/* Slugs lisibles pour le thésaurus : « façade » → « facade », « garde-corps » →
+/* Termes lisibles pour le thésaurus : « façade » -> « facade », « garde-corps » ->
    « garde-corps ». Réversibles par rapprochement avec les termes réels du corpus. */
 function termSlug(term) {
   return String(term || '')
     .normalize('NFD').replace(/[̀-ͯ]/g, '')   // sans accents
     .toLowerCase()
-    .replace(/[^a-z0-9]+/g, '-')                         // séparateurs → tiret
+    .replace(/[^a-z0-9]+/g, '-') // séparateurs -> tiret
     .replace(/^-+|-+$/g, '');
 }
 
@@ -499,19 +445,16 @@ function slugToTerm(slug) {
   return _slugToTerm.get(termSlug(slug)) || null;
 }
 
-/** Écrit l'état courant dans l'URL. `push` empile une entrée d'historique
- *  (sélection, bascule de vue) ; `replace` non (churn des filtres/recherche). */
 function writeStateToHash(mode = 'replace') {
   if (applyingState) return;
   const hash = serializeState(currentAppState());
   if (hash === (location.hash || '')) { lastWrittenHash = location.hash; return; }
   lastWrittenHash = hash;
-  const url = hash || (location.pathname + location.search);   // hash vide → URL propre
+  const url = hash || (location.pathname + location.search); 
   if (mode === 'push') history.pushState(null, '', url);
   else                 history.replaceState(null, '', url);
 }
 
-/** Applique l'état décrit par le hash courant (chargement, Précédent/Suivant). */
 function applyStateFromHash() {
   applyingState = true;
   try {
@@ -529,9 +472,6 @@ function applyStateFromHash() {
     activeFilters.thesaurus       = new Set(s.thes);
     activeFilters.periodes        = new Set(s.periodes);
 
-    // Le hash prend le dessus sur /personne/N s'il contient explicitement
-    // une clé "archi" ; sinon on garde ce que applyArchitecteFilterFromPath()
-    // a déjà positionné avant cet appel.
     if (s.archi.length > 0 || location.hash.includes('archi=')) {
       activeFilters.architectes = new Set(s.archi);
     }
@@ -551,15 +491,11 @@ function applyStateFromHash() {
   }
   lastWrittenHash = location.hash;
 }
-/** Précédent/Suivant : on ré-applique, sauf si le hash est déjà le nôtre. */
 function onHistoryNav() {
   if (location.hash === lastWrittenHash) return;
   applyStateFromHash();
 }
 
-// Cadrage du tout premier chargement : l'emprise des bâtiments seuls ne
-// couvre pas les bois (Boulogne, Vincennes), sans bâtiment recensé — on
-// prend donc les tracés d'arrondissement, qui les incluent, une seule fois.
 let hasFittedInitialView = false;
 
 function fitMapToResults() {
@@ -603,6 +539,3 @@ function fitMapToResults() {
     map.fitBounds(bounds, zoomOptions);
   }
 }
-
-
-

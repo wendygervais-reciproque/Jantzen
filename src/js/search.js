@@ -1,6 +1,5 @@
 /**
- * search.js - Adapté au nouveau jeu de données (id_bat & terme_jantzen_bat)
- * Index Lunr construit depuis les features du GeoJSON.
+ * search.js -  Index Lunr construit depuis le GeoJSON
  */
 
 
@@ -10,7 +9,7 @@ function normalizeText(text) {
   if (!text || typeof text !== 'string') return '';
   return text
     .normalize('NFD') // Décompose les caractères accentués (ex: "É" → "E + ´")
-    .replace(/[\u0300-\u036f]/g, '') // Supprime les diacritiques
+    .replace(/[\u0300-\u036f]/g, '') 
     .replace(/[^\w\s]/g, ' ') // Remplace les caractères spéciaux par un espace
     .toLowerCase()
     .trim();
@@ -106,8 +105,7 @@ function buildLunrIndex() {
  * @param {string} query
  * @returns {Set<string|number>}
  */
-// Mots-outils français : trop fréquents/peu discriminants pour être exigés,
-// et souvent absents des champs indexés tels quels (élisions, accords...).
+// Mots-clés français : trop fréquents/peu discriminants
 const FRENCH_STOPWORDS = new Set([
   'de', 'du', 'des', 'le', 'la', 'les', 'l', 'un', 'une',
   'et', 'à', 'au', 'aux', 'en', 'sur', 'dans', 'pour'

@@ -1,46 +1,28 @@
 /**
- * mosaic-detail.js — Volet de détail du bâtiment sélectionné.
- *
- * Nommé d'après son origine (volet gauche docké de la vue mosaïque), mais
- * désormais commun aux deux vues : rassemble les informations du bâtiment
- * sélectionné et ses photographies (empilées, puis réparties en rangées quand
- * le volet est élargi), en carte comme en mosaïque.
+ * mosaic-detail.js — Volet de détail du bâtiment sélectionné. 
  */
 
-/* ⚙️ RÉGLAGES — largeur du volet détail (gauche) de la mosaïque, en pixels. */
-const MD_MIN = 400, MD_MAX = 900;   // défaut = min ; la tirette n'élargit que
-const PANEL_STEP = 40;              // pas de redimensionnement au clavier
+const MD_MIN = 400, MD_MAX = 900;
+const PANEL_STEP = 40;
 
-/* ⚙️ RÉGLAGES — mosaïque justifiée des photos. La hauteur de rangée visée croît
-   avec la largeur du conteneur : plus le volet est large, plus les rangées sont
-   hautes (donc moins de photos, mais plus grandes, par rangée). */
-const ROW_H_MIN = 240, ROW_H_MAX = 400;   // hauteur de rangée visée, en px…
-const ROW_W_MIN = 400, ROW_W_MAX = 900;   // …interpolée entre ces largeurs de conteneur
-const DEFAULT_RATIO = 3 / 4;               // ratio portrait, dominant dans le fonds
 
-// Photos du bâtiment courant (non filtrées) et filtre du multiselect
-// « élément architectural », qui restreint la galerie à ces termes. Repris du
-// carrousel disparu ; fonctionne comme lui indépendamment des filtres globaux.
+const ROW_H_MIN = 240, ROW_H_MAX = 400;   // hauteur de rangée visée, en px
+const ROW_W_MIN = 400, ROW_W_MAX = 900;   // interpolée entre ces largeurs de conteneur
+const DEFAULT_RATIO = 3 / 4;               // ratio portrait (le plus fréquent)
+
 let mdPhotos      = [];
 let mdPhotoFilter = new Set();
-let mdBatId       = null;   // pour ignorer une réponse de loadPhotoRatios() obsolète
+let mdBatId       = null;   
 
 /* ─── OUVERTURE / FERMETURE ─────────────────────────────────────────────── */
 
-/* En dessous de ce seuil, la fiche bâtiment n'est plus un panneau flottant
-   non modal (carte docké, redimensionnable, carte/mosaïque restent
-   utilisables derrière) mais une modale plein écran — cf. main.css. */
 function isMobileLayout() {
   return window.matchMedia('(max-width: 900px)').matches;
 }
 
 /**
  * @param {number|string} id_bat
- * @param {{moveFocus?: boolean}} [opts] `moveFocus` : déplace le focus sur la
- *   croix de fermeture, comme une modale/lightbox à l'ouverture — réservé à
- *   une véritable nouvelle sélection (voir selectBatiment() dans ui.js) ; une
- *   simple re-présentation (bascule carte/mosaïque avec un bâtiment déjà
- *   sélectionné, cf. setView() dans views.js) ne doit pas voler le focus.
+ * @param {{moveFocus?: boolean}} [opts]
  */
 async function openMosaicDetail(id_bat, opts = {}) {
   const { moveFocus = false } = opts;
@@ -55,9 +37,6 @@ async function openMosaicDetail(id_bat, opts = {}) {
     panel.setAttribute('role', 'dialog');
     panel.setAttribute('aria-modal', 'true');
     if (typeof setAppSiblingsInert === 'function') setAppSiblingsInert(panel, true);
-    // Classe retirée après coup (voir plus bas) pour pouvoir la rejouer à
-    // chaque ouverture — sinon une classe déjà présente ne redéclenche pas
-    // l'animation CSS.
     panel.classList.add('is-opening');
     panel.addEventListener('animationend', () => panel.classList.remove('is-opening'), { once: true });
   }
@@ -78,7 +57,6 @@ async function openMosaicDetail(id_bat, opts = {}) {
     if (info) info.innerHTML = '<p class="md-loading">Erreur de chargement.</p>';
     return;
   }
-  // Une autre sélection a pu aboutir entre-temps.
   if (String(selectedId) !== String(id_bat)) return;
 
   renderMosaicInfo(data);
@@ -89,22 +67,15 @@ async function openMosaicDetail(id_bat, opts = {}) {
 function closeMosaicDetail() {
   const panel = document.getElementById('mosaic-detail');
   if (panel) {
-    // Vérifié via l'attribut plutôt que re-testé via isMobileLayout() : reste
-    // cohérent même si la fenêtre a changé de largeur pendant l'ouverture —
-    // on ne défait que ce que l'ouverture a effectivement posé.
     const wasModal = panel.hasAttribute('aria-modal');
     if (wasModal) {
       panel.removeAttribute('role');
       panel.removeAttribute('aria-modal');
       if (typeof setAppSiblingsInert === 'function') setAppSiblingsInert(panel, false);
     }
-    // Fermé avant la fin de l'animation d'ouverture : on l'interrompt pour
-    // ne pas la faire cohabiter avec celle de fermeture ci-dessous.
+
     panel.classList.remove('is-opening');
-    // Le panneau reste affiché (display:flex, cf. [hidden]!important sinon)
-    // le temps de l'animation de fermeture, en mobile uniquement — voir
-    // `.is-closing` dans main.css. Repli via timeout si l'animation ne se
-    // déclenche pas (prefers-reduced-motion, etc.).
+
     if (wasModal) {
       panel.classList.add('is-closing');
       const finish = () => { panel.classList.remove('is-closing'); panel.hidden = true; };
@@ -122,11 +93,6 @@ function closeMosaicDetail() {
 
 /* ─── RENDU DES INFOS ───────────────────────────────────────────────────── */
 
-/**
- * « Date indicative » : une seule donnée de datation, qui réunit la période
- * (tranche large du référentiel) et la fourchette de construction quand les
- * deux sont renseignées et distinctes — de la plus large à la plus précise.
- */
 function dateIndicative(data) {
   const periodes = Array.isArray(data.periode) ? data.periode
                  : (data.periode ? [data.periode] : []);
@@ -147,10 +113,6 @@ function attachTooltip(el, text) {
   el.classList.add('has-tooltip');
   el.tabIndex = 0;
   el.setAttribute('aria-describedby', id);
-  // Nom accessible figé sur le seul libellé visible : la bulle, ajoutée
-  // juste après comme enfant (pour l'ancrage CSS), ne doit pas se retrouver
-  // absorbée dans le nom au lieu de rester une description à part — sans
-  // quoi un lecteur d'écran risque de l'annoncer deux fois.
   el.setAttribute('aria-label', el.textContent.trim());
 
   const bubble = document.createElement('span');
@@ -190,10 +152,6 @@ function renderMosaicInfo(data) {
     ? (adresse.affichage || adresse.voie || '')
     : (adresse || '');
 
-  // L'adresse n'est plus un sous-titre sous le nom : c'est une donnée comme les
-  // autres, alignée dans la grille à deux colonnes.
-  // Les quatre lignes sont toujours rendues, un tiret tenant lieu de valeur
-  // manquante : la fiche garde la même ossature d'un bâtiment à l'autre.
   const cells = [
     ['Ensemble',        data.ensemble],
     ['Date indicative <br> de construction', dateIndicative(data), 'date-indicative'],
@@ -217,13 +175,6 @@ function renderMosaicInfo(data) {
   renderMosaicPersonnes(host, data);
 }
 
-/**
- * Cellule « Permalien » : au clic, copie le lien dans le presse-papier plutôt
- * que de naviguer (rouvrir la même page n'a pas de sens ici), avec le style
- * « lien » (souligné, couleur --link-default) des liens personnes/référentiels
- * plutôt que le style discret des autres valeurs de cette grille (qui, elles,
- * ouvrent un vrai lien externe).
- */
 function buildPermalinkCell(id_bat) {
   const url = `${location.origin}${location.pathname}#bat=${encodeURIComponent(id_bat)}`;
 
@@ -310,8 +261,6 @@ function renderMosaicPersonnes(host, data) {
   list.className = 'info-personnes';
   host.appendChild(list);
 
-  // buildPersonCard (ui.js) est réutilisé tel quel : vignette + nom + rôle +
-  // liens vers les référentiels.
   Promise.all(personnes.map(async entry => {
     try { return { entry, personne: await getPersonne(entry.personneID) }; }
     catch (err) { console.error(err); return null; }
@@ -326,8 +275,7 @@ function renderMosaicPersonnes(host, data) {
 
 /* ─── RENDU DES PHOTOS ──────────────────────────────────────────────────── */
 
-// État du layout courant, pour que le ResizeObserver puisse recalculer sans
-// tout reconstruire, et qu'on puisse tout démonter à la fermeture du volet.
+
 let mosaicRO       = null;   // ResizeObserver du conteneur des photos
 let mosaicRelayout = null;   // fonction de recalcul courante (ou null)
 let mosaicRafId    = 0;      // throttle rAF des rafales de redimensionnement
@@ -352,7 +300,7 @@ async function renderMosaicPhotos(data) {
 }
 
 /** (Re)construit la galerie à partir de `visibleMdPhotos()` — appelé au premier
- *  rendu et à chaque bascule du filtre, sans re-solliciter getBatiment(). */
+ *  rendu et à chaque bascule du filtre, sans rappeler getBatiment(). */
 async function renderMdGallery() {
   const host = document.getElementById('md-photos');
   if (!host) return;
@@ -370,8 +318,7 @@ async function renderMdGallery() {
     return;
   }
 
-  // Liste normalisée pour la visionneuse : même ordre que la galerie. Chaque
-  // entrée porte aussi son ratio (largeur/hauteur), complété plus bas.
+  // Liste normalisée pour la visionneuse 
   const gallery = photos.map(ph => {
     const terms = ph.IndexJantzen || [];
     return {
@@ -384,8 +331,6 @@ async function renderMdGallery() {
     };
   });
 
-  // Les tuiles sont créées une seule fois ; le layout ne fait ensuite que régler
-  // leur largeur/hauteur. On garde l'ordre gauche→droite (= ordre visionneuse).
   const tiles = gallery.map((g, i) => {
     const btn = document.createElement('button');
     btn.type      = 'button';
@@ -400,8 +345,7 @@ async function renderMdGallery() {
     img.decoding = 'async';
     img.src      = thumbUrl(g.id_pic);
     img.onerror  = function () { this.classList.add('img-broken'); }; // 1 seule requête, pas de nouvelle tentative
-    // Filet de sécurité : si un ratio manquait dans photos.json, on le corrige
-    // dès que l'image réelle est chargée, puis on relance le layout.
+    // Filet de sécurité : si un ratio manquait dans photos.json, on le corrige dès que l'image réelle est chargée, puis on relance le layout.
     img.addEventListener('load', () => {
       if (!img.naturalWidth || !img.naturalHeight) return;
       const r = img.naturalWidth / img.naturalHeight;
@@ -416,8 +360,6 @@ async function renderMdGallery() {
 
   mosaicRelayout = () => layoutJustified(host, tiles, gallery);
 
-  // Ratios connus d'avance (photos.json) → première disposition sans attendre
-  // le chargement des images. Puis on observe la largeur du conteneur.
   const ratios = await loadPhotoRatios();
   if (String(selectedId) !== String(mdBatId)) return;   // sélection changée
   gallery.forEach(g => {
@@ -427,27 +369,11 @@ async function renderMdGallery() {
 
   mosaicRelayout();
 
-  // Redimensionnement du volet : ResizeObserver est déjà cadencé par frame (spec),
-  // et poser la taille des tuiles n'altère pas la largeur du conteneur (pas de
-  // boucle). On relaie donc DIRECTEMENT, pour toujours lire la largeur courante —
-  // un throttle rAF risquerait d'abandonner l'appel de la largeur finale.
   mosaicRO = new ResizeObserver(() => mosaicRelayout?.());
   mosaicRO.observe(host);
 }
 
-/* ─── MULTISELECT « ÉLÉMENT ARCHITECTURAL » ──────────────────────────────
- * Filtre la galerie du bâtiment courant par les termes de `photo.IndexJantzen`,
- * indépendamment des filtres globaux (carte/mosaïque). Repris du carrousel
- * disparu ; fonctionnellement lié aux puces « Éléments architecturaux »
- * (résumé des termes) du bloc infos ci-dessus : les deux pilotent le même
- * `mdPhotoFilter`. */
-
-function visibleMdPhotos() {
-  if (mdPhotoFilter.size === 0) return mdPhotos;
-  return mdPhotos.filter(ph => (ph.IndexJantzen || []).some(t => mdPhotoFilter.has(t)));
-}
-
-/** Termes présents dans les photos du bâtiment courant, avec leur nombre de vues. */
+/* ─── MULTISELECT « ÉLÉMENT ARCHITECTURAL » ──────────────────────────────  */
 function mdElementCounts() {
   const counts = new Map();
   mdPhotos.forEach(ph => {
@@ -456,8 +382,6 @@ function mdElementCounts() {
   return [...counts.entries()].sort((a, b) => a[0].localeCompare(b[0], 'fr'));
 }
 
-/** Termes des photos regroupés par catégorie du thésaurus, « Non classés » en
- *  dernier — même regroupement que le panneau de filtres. */
 function mdElementClusters() {
   const groups = new Map();
   mdElementCounts().forEach(([term, count]) => {
@@ -472,7 +396,6 @@ function mdElementClusters() {
   });
 }
 
-/** (Re)construit les groupes de puces sous la ligne « Éléments architecturaux ». */
 function buildMdElementGroups() {
   const host   = document.getElementById('md-elem-groups');
   const toggle = document.getElementById('md-elem-toggle');
@@ -526,7 +449,6 @@ function clearMdElementFilter() {
   renderMdGallery();
 }
 
-/** Reflète `mdPhotoFilter` sur les puces (seul porteur de l'état de sélection). */
 function updateMdElementUI() {
   document.querySelectorAll('#md-elem-groups .chip').forEach(chip => {
     const active = mdPhotoFilter.has(chip.dataset.term);
@@ -535,7 +457,6 @@ function updateMdElementUI() {
   });
 }
 
-/** Replie / déplie les groupes de puces (ligne « Dropdown » de la maquette). */
 function toggleMdElementGroups() {
   const host   = document.getElementById('md-elem-groups');
   const toggle = document.getElementById('md-elem-toggle');
@@ -545,8 +466,6 @@ function toggleMdElementGroups() {
   toggle.setAttribute('aria-expanded', String(open));
 }
 
-/** Coalesce les rafales de chargement d'images en un seul relayout par frame.
- *  (Sûr ici : chaque `load` a déjà committé son ratio avant d'appeler.) */
 function scheduleMosaicRelayout() {
   if (mosaicRafId) return;
   mosaicRafId = requestAnimationFrame(() => {
@@ -555,7 +474,7 @@ function scheduleMosaicRelayout() {
   });
 }
 
-/* ─── MOSAÏQUE JUSTIFIÉE ─────────────────────────────────────────────────── */
+/* ─── LISTE JUSTIFIÉE ─────────────────────────────────────────────────── */
 
 /** Hauteur de rangée visée, croissant linéairement avec la largeur `W` du
  *  conteneur, bornée à [ROW_H_MIN, ROW_H_MAX]. */
@@ -565,14 +484,6 @@ function targetRowHeight(W) {
   return ROW_H_MIN + clamped * (ROW_H_MAX - ROW_H_MIN);
 }
 
-/**
- * Dispose les tuiles en rangées justifiées :
- *   • on remplit une rangée à la hauteur cible jusqu'à ce qu'elle déborde ;
- *   • on résout alors la hauteur réelle pour que la rangée occupe pile `W` ;
- *   • la dernière rangée (incomplète) reste à la hauteur cible, sauf si elle
- *     déborderait — auquel cas elle est justifiée elle aussi.
- * La largeur d'une tuile à la hauteur `h` vaut `h × ratio`.
- */
 function layoutJustified(host, tiles, gallery) {
   const cs = getComputedStyle(host);
   // clientWidth inclut le padding du conteneur (20 px de chaque côté depuis
@@ -606,7 +517,6 @@ function layoutJustified(host, tiles, gallery) {
   flush(true);
 }
 
-/** Démonte l'observateur et oublie le layout courant (fermeture / re-rendu). */
 function teardownMosaicLayout() {
   if (mosaicRO) { mosaicRO.disconnect(); mosaicRO = null; }
   if (mosaicRafId) { cancelAnimationFrame(mosaicRafId); mosaicRafId = 0; }
@@ -616,12 +526,8 @@ function teardownMosaicLayout() {
 /* ─── REDIMENSIONNEMENT (tirette) ───────────────────────────────────────── */
 
 /**
- * Rend une poignée `role="separator"` fonctionnelle :
- *   • glissement au pointeur — largeur en continu, bornée [min, max] ;
- *   • flèches / Origine / Fin au clavier — pas discrets, pour l'accessibilité.
- *
  * @param {{cssVar, min, max, step, invert}} opts  invert : la poignée est sur
- *        le bord gauche du volet (glisser vers la gauche élargit).
+ *        le bord gauche du volet (glisser vers la gauche élargit)
  */
 function initPanelResize(handle, { cssVar, min, max, step, invert }) {
   if (!handle) return;
@@ -640,12 +546,10 @@ function initPanelResize(handle, { cssVar, min, max, step, invert }) {
     const startW = getW();
     try { handle.setPointerCapture(e.pointerId); } catch { /* pas de pointeur réel */ }
 
-    // `:active` ne tient pas quand le pointeur quitte la poignée : on marque
-    // l'état « Active » de la tirette pendant toute la durée du glissement.
     handle.classList.add('is-dragging');
 
     // Écoute sur window : le pointeur quitte forcément la poignée pendant le
-    // glissement, les mouvements doivent continuer d'arriver.
+    // glissement, les mouvements doivent continuer d'arriver
     const onMove = ev => {
       const dx = ev.clientX - startX;
       setW(startW + (invert ? -dx : dx));
@@ -684,18 +588,6 @@ function bindMosaicDetail() {
   initStickyPhotosHeader();
 }
 
-/**
- * Détecte l'instant où #md-photos-header se colle réellement en haut du
- * volet (par opposition à sa position normale dans le flux, sous le titre,
- * ou pas encore atteinte plus bas dans une fiche pas encore scrollée) pour
- * n'afficher #md-photos-context (rappel du nom du bâtiment) que là — même
- * motif que initStickyFilterHeaders (filters.js) : une sentinelle de hauteur
- * nulle juste avant l'en-tête sort du viewport du volet exactement quand
- * celui-ci se fige. `intersectionRatio < 1` seul ne suffit pas : c'est vrai
- * aussi bien quand la sentinelle est masquée par le bord HAUT (fixé) que
- * quand elle n'est simplement pas encore atteinte, plus bas, hors du volet
- * (fiche non scrollée) — d'où la comparaison de position avec `rootBounds`.
- */
 function initStickyPhotosHeader() {
   const root     = document.getElementById('mosaic-detail-body');
   const sentinel = document.querySelector('.md-sticky-sentinel');
@@ -712,6 +604,7 @@ function initStickyPhotosHeader() {
 /**
  * Fonction de comparaison pour trier les POIs / Bâtiments.
  */
+
 /**
  * Comparateur de bâtiments / POIs.
  * Combine la voie, l'ensemble ou le libellé en une clé textuelle unique

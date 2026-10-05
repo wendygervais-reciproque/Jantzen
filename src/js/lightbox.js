@@ -1,6 +1,6 @@
 /**
  * lightbox.js — Visionneuse plein écran de la galerie de photographies du
- * bâtiment, dans le volet détail (mosaic-detail.js).
+ * bâtiment, dans le volet détail (mosaic-detail.js)
  */
 
 let lightboxGallery = null;     // {photos:[{src,caption}], index} — galerie du volet détail
@@ -21,8 +21,6 @@ function isLightboxOpen() {
 function openGalleryLightbox(photos, index) {
   const box = document.getElementById('lightbox');
   if (!box || !Array.isArray(photos) || photos.length === 0) return;
-  // Mémorisé avant tout changement de focus ci-dessous : la vignette cliquée/
-  // activée au clavier, pour la retrouver à la fermeture (cf. closeLightbox).
   lightboxTrigger = document.activeElement instanceof HTMLElement ? document.activeElement : null;
   lightboxGallery = { photos, index: Math.max(0, Math.min(index, photos.length - 1)) };
   box.hidden = false;
@@ -36,9 +34,6 @@ function closeLightbox() {
   if (box) box.hidden = true;
   lightboxGallery = null;
   setBackgroundInert(false);
-  // Rend le focus à la vignette d'origine — sauf si le volet détail a entre-
-  // temps changé de bâtiment/photos sous elle (filtre, sélection…), auquel
-  // cas elle n'est plus dans le DOM et il n'y a rien de pertinent à restaurer.
   if (lightboxTrigger && document.body.contains(lightboxTrigger)) lightboxTrigger.focus();
   lightboxTrigger = null;
 }
@@ -85,11 +80,6 @@ function renderLightbox() {
   }
 }
 
-/**
- * Remplit la légende : compteur, termes du thésaurus (un bouton par terme —
- * pas un lien, puisqu'il n'ouvre pas une ressource mais active le filtre
- * correspondant, cf. buildPersonFilterButton dans ui.js), date et crédit.
- */
 function renderLightboxCaption(caption, item, index, total) {
   caption.textContent = '';
   caption.append(`${index + 1} / ${total}`);
@@ -117,12 +107,6 @@ function renderLightboxCaption(caption, item, index, total) {
   caption.append(' — © Eric Jantzen ');
 }
 
-/**
- * Clic sur un terme de la légende de la visionneuse : réinitialise les filtres
- * actuels et active ce terme uniquement dans le filtre thésaurus (nouvelle
- * recherche), puis referme visionneuse et fiche bâtiment pour laisser voir les
- * résultats filtrés — dans la vue courante (carte ou mosaïque), inchangée.
- */
 function filterByThesaurusTermFromLightbox(term) {
   if (!term || typeof activeFilters === 'undefined') return;
 
@@ -132,16 +116,13 @@ function filterByThesaurusTermFromLightbox(term) {
   activeFilters.architectes.clear();
   activeFilters.periodes.clear();
 
-  // Nettoyer les styles des puces
   document.querySelectorAll('.chip').forEach(c => {
     c.classList.remove('active');
     c.setAttribute('aria-pressed', 'false');
   });
 
-  // Ajouter le nouveau terme
   activeFilters.thesaurus.add(term);
 
-  // Fermer et appliquer
   closeLightbox();
   if (typeof deselectBatiment === 'function') deselectBatiment();
   if (typeof applyFilters === 'function') applyFilters();

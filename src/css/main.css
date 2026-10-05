@@ -189,7 +189,7 @@ button { font-family: inherit; }
 #search-clear .icon { width: 16px; height: 16px; }
 #search-clear:hover { color: var(--icon-primary); }
 
-/* ─── BASCULE CARTE / MOSAÏQUE ───────────────────────────────────────────── */
+/* ─── BASCULE CARTE / LISTE ───────────────────────────────────────────── */
 /* Deux pastilles de 48 px dans un étui de 108 × 56 (padding 4, gouttière 4) :
    plus de libellé sous l'icône, l'état actif est porté par le disque doré. */
 #view-toggle {
@@ -240,7 +240,7 @@ button { font-family: inherit; }
   font-variant-numeric: tabular-nums;
 }
 
-/* ─── VUE MOSAÏQUE ───────────────────────────────────────────────────────── */
+/* ─── VUE LISTE ───────────────────────────────────────────────────────── */
 #mosaic {
   position: absolute; inset: 0;
   overflow-y: auto;
@@ -253,7 +253,7 @@ button { font-family: inherit; }
   background: var(--background-page);
 }
 /* Card (« snippet ») de bâtiment — MÊME composant sur la carte (popup) et en
-   mosaïque (tuile). Pas d'`overflow: hidden` sur la card : en grille mosaïque
+   liste (tuile). Pas d'`overflow: hidden` sur la card : en grille liste
    cela écraserait la hauteur des rangées `auto`. Le rognage vit sur la vignette. */
 .bldg-card {
   position: relative;
@@ -276,7 +276,7 @@ button { font-family: inherit; }
   border-color: var(--background-brand-primary);
   box-shadow: var(--elevation-floating);
 }
-/* Léger soulèvement réservé à la mosaïque (déplacé dans un popup, il gênerait). */
+/* Léger soulèvement réservé à la liste (déplacé dans un popup, il gênerait). */
 #mosaic .bldg-card:hover { transform: translateY(-2px); }
 
 .bldg-card-thumb {
@@ -333,7 +333,7 @@ button { font-family: inherit; }
   padding: var(--component-24) 0;
 }
 
-/* ─── VUE MOSAÏQUE : CARTES LATÉRALES DANS LE FLUX ───────────────────────── */
+/* ─── VUE LISTE : CARTES LATÉRALES DANS LE FLUX ───────────────────────── */
 /*
  * Même esthétique que la vue carte (cartes flottantes arrondies, marges), mais
  * la grille centrale leur réserve la place plutôt que d'être recouverte :
@@ -473,7 +473,7 @@ button { font-family: inherit; }
 }
 #md-photos-header.is-stuck #md-photos-context { display: block; }
 
-/* Galerie : mosaïque justifiée — des rangées de hauteur égale qui remplissent
+/* Galerie : liste justifiée — des rangées de hauteur égale qui remplissent
    toute la largeur, sans blancs, en préservant le ratio de chaque photo. Les
    dimensions de chaque tuile sont posées par layoutJustified() (mosaic-detail.js) ;
    le conteneur ne fait qu'aligner les rangées les unes sous les autres. */
@@ -706,7 +706,7 @@ button { font-family: inherit; }
 
 /* ─── REPLI DES FILTRES (largeur + hauteur) ──────────────────────────────── */
 /* Le bouton −/+ rétracte la boîte : on ne garde que le titre et l'icône,
-   rapprochés. Vaut pour les deux vues (carte et mosaïque). */
+   rapprochés. Vaut pour les deux vues (carte et liste). */
 #filters-panel.is-collapsed { width: auto; overflow: hidden; }
 #filters-panel.is-collapsed #filters-body,
 #filters-panel.is-collapsed #filters-active-bar,
@@ -1383,7 +1383,7 @@ button { font-family: inherit; }
 @media (max-width: 900px) {
   /* ── EN-TÊTE SUR DEUX RANGÉES ────────────────────────────────────────────
      Rangée 1 : marque + à propos (inchangée, juste resserrée).
-     Rangée 2 : recherche + bascule carte/mosaïque, côte à côte — calcul CSS
+     Rangée 2 : recherche + bascule carte/liste, côte à côte — calcul CSS
      pur (pas de wrapper ni de JS) : 108px est la largeur connue de
      #view-toggle (2 × 48px de bouton + gouttières, cf. règle desktop), donc
      la recherche peut occuper exactement l'espace restant via `right`. */
@@ -1398,7 +1398,7 @@ button { font-family: inherit; }
   }
   #brand-bar a { font-size: var(--text-body-base-size); }
 
-  /* Rangée 2 : recherche + bascule carte/mosaïque, côte à côte, même hauteur
+  /* Rangée 2 : recherche + bascule carte/liste, côte à côte, même hauteur
      (48px de part et d'autre — .view-btn passe de 48 à 40px ci-dessous, d'où
      92px = 2×40 + gouttières/paddings de #view-toggle inchangés). Calcul CSS
      pur (pas de wrapper ni de JS) : la recherche occupe l'espace restant via
@@ -1491,7 +1491,7 @@ button { font-family: inherit; }
   }
   #mosaic-detail-handle { display: none; }
 
-  /* ── GRILLE MOSAÏQUE ───────────────────────────────────────────────────────
+  /* ── GRILLE LISTE ───────────────────────────────────────────────────────
      Les réservations de marge pour panneau de filtres/fiche bâtiment ancrés
      n'ont plus lieu d'être : ces deux panneaux sont maintenant des overlays
      plein écran, masqués par défaut plutôt que dockés en permanence.

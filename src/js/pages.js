@@ -1,6 +1,5 @@
 /**
- * pages.js - Adapté et sécurisé
- * Gestion des pages statiques (overlay) et des vues contextuelles.
+ * pages.js - Gestion des pages statiques (overlay) et des vues contextuelles.
  */
 
 const PAGES_CONTENT = {
@@ -48,8 +47,6 @@ Recherche et traitement des données : <strong>Eva Rivière</strong>, stagiaire 
 
 /* ─── PAGE « À PROPOS » (onglets) ───────────────────────────────────────── */
 
-// « La base » et « Le projet » ne sont plus des entrées de navigation : elles
-// deviennent les deux onglets d'une page À propos unique.
 const ABOUT_TABS = [
   { key: 'base',    label: 'La base' },
   { key: 'projet',  label: 'Le projet' },
