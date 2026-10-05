@@ -374,6 +374,10 @@ async function renderMdGallery() {
 }
 
 /* ─── MULTISELECT « ÉLÉMENT ARCHITECTURAL » ──────────────────────────────  */
+function visibleMdPhotos() {
+  if (mdPhotoFilter.size === 0) return mdPhotos;
+  return mdPhotos.filter(ph => (ph.IndexJantzen || []).some(t => mdPhotoFilter.has(t)));
+}
 function mdElementCounts() {
   const counts = new Map();
   mdPhotos.forEach(ph => {
