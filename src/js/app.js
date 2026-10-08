@@ -104,7 +104,7 @@ function resetOtherFiltersUI() {
 }
 
 /* ─── MODALES : isolation du fond ────────────────────────────────────────
-   Pendant qu'une modale (page statique ou visionneuse) est affichée, #app
+   Pendant que la visionneuse est affichée, #app
    passe en inerte */
 function setBackgroundInert(isInert) {
   const app = document.getElementById('app');
@@ -114,7 +114,7 @@ function setBackgroundInert(isInert) {
 }
 
 /* Variante pour les modales mobiles (filtres, fiche bâtiment) : contrairement
-   aux pages statiques et à la visionneuse, ces deux-là vivent À L'INTÉRIEUR
+   à la visionneuse, ces deux-là vivent À L'INTÉRIEUR
    de #app */
 function setAppSiblingsInert(exceptEl, isInert) {
   const app = document.getElementById('app');
@@ -126,11 +126,10 @@ function setAppSiblingsInert(exceptEl, isInert) {
   });
 }
 
-/* ─── NAVIGATION (marque, à propos, pages) ──────────────────────────────── */
+/* ─── NAVIGATION (marque) ───────────────────────────────────────────────── */
 function bindNavigation() {
   document.getElementById('brand-home')?.addEventListener('click', e => {
     e.preventDefault();
-    closePage();          // le logotype ramène au fond (carte ou liste)
     searchQuery = '';
     const input = document.getElementById('search-input');
     if(input) input.value = '';
@@ -144,13 +143,6 @@ function bindNavigation() {
     deselectBatiment();
     applyFilters();
   });
-
-  document.getElementById('brand-about')?.addEventListener('click', e => {
-    e.preventDefault();
-    showAbout();
-  });
-
-  document.getElementById('page-overlay-close')?.addEventListener('click', closePage);
 }
 
 /* ─── BASCULE CARTE / LISTE ──────────────────────────────────────────── */
@@ -235,7 +227,6 @@ function bindKeyboard() {
       if (mdPhotoFilter.size)                                   return clearMdElementFilter();
       if (document.querySelector('.thes-def'))                  return closeAllTermDefinitions();
       if (isFiltersMobileOpen())               return closeFiltersMobile();
-      if (isPageOpen())                        return closePage();
       if (selectedId !== null)                 return deselectBatiment();
       if (typeof map !== 'undefined' && map?.getContainer().contains(document.activeElement)) {
         return document.getElementById('search-input')?.focus();

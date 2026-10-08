@@ -372,9 +372,9 @@
   --button-destructive-border-disabled:     transparent;
 
   /* Lien */
-  --link-default: #9c7d4a;  /* brand/600 */
-  --link-hover:   #7d6138;  /* brand/700 */
-  --link-active:  #5c4728;  /* brand/800 */
+  --link-default: #7d6138;  /* brand/700 */
+  --link-hover:   #5c4728;  /* brand/800 */
+  --link-active:  #3a2d18;  /* brand/900 */
   --link-visited: #3a2d18;  /* brand/900 */
 
   /* Input — révisé : contenu neutral/800 et placeholder neutral/600 (contraste

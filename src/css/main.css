@@ -400,7 +400,7 @@ button { font-family: inherit; }
   padding: 0;
 }
 /* Bouton « fermer » tertiaire circulaire de 32 px, partagé par toutes les
-   modales de l'app (fiche bâtiment, pages statiques, filtres en mobile). */
+   modales de l'app (fiche bâtiment, filtres en mobile). */
 .modal-close-btn {
   width: 32px; height: 32px;
   display: flex; align-items: center; justify-content: center;
@@ -1185,7 +1185,7 @@ button { font-family: inherit; }
   text-decoration: underline;
 }
 
-/* Permalien : style « lien » standard (cf. .person-links a, #page-overlay-body
+/* Permalien : style « lien » standard (cf. .person-links a, .page-panel
    a) plutôt que le style discret ci-dessus, car la valeur EST le lien. Un
    clic copie l'URL au lieu de naviguer (rouvrir la même page n'a pas de sens
    ici) — `.has-tooltip`/`.tooltip` (définis plus haut) affichent la
@@ -1312,88 +1312,103 @@ button { font-family: inherit; }
 #footer-links a:hover { color: var(--text-primary); }
 
 
-/* ─── PAGES STATIQUES ────────────────────────────────────────────────────── */
-#page-overlay {
-  position: fixed; inset: 0;
-  background: var(--background-page);
-  z-index: 900;
-  display: flex; flex-direction: column;
-  overflow: hidden;
-}
-#page-overlay-header {
-  height: 64px; flex-shrink: 0;
-  border-bottom: 1px solid var(--border-subtle);
-  display: flex; align-items: center; justify-content: space-between;
-  padding: 0 var(--component-40);
-}
-/* Pages statiques : hors des deux vues de référence Figma. On garde le serif
-   éditorial, avec la graisse explicite (Walbaum n'existe qu'en Regular). */
-#page-overlay-title {
-  font-family: var(--font-serif);
-  font-size: var(--text-title-h4-size);
-  font-weight: var(--fw-400);
-  line-height: var(--lh-120);
-  color: var(--text-primary);
-}
+/* ─── PAGE « À PROPOS » ──────────────────────────────────────────────────── */
+/* Page à part entière (a-propos.html) : le document défile normalement, à
+   l'inverse de l'application où tout tient dans l'écran. */
+html.is-page, html.is-page body { height: auto; overflow: visible; }
 
-#page-overlay-tabs {
-  display: flex; gap: var(--component-gap-24);
-  padding: 0 var(--component-40);
+/* L'en-tête sort de l'écran quand on descend dans la page et revient dès
+   qu'on remonte (classe .is-header-hidden posée par pages.js) ; la barre
+   d'onglets se cale alors dessous, --page-header-h étant mesurée en JS. */
+.page-header {
+  position: sticky; top: 0; z-index: 11;
+  padding: var(--component-16);
+  background: var(--background-page);
   border-bottom: 1px solid var(--border-subtle);
-  flex-shrink: 0;
+  transition: transform 0.2s ease;
 }
+.is-header-hidden .page-header:not(:focus-within) { transform: translateY(-100%); }
+/* Même navigation que sur la carte, posée dans l'en-tête au lieu de flotter. */
+.page-header #brand-bar {
+  position: static;
+  width: fit-content;
+  background: none; border: none; box-shadow: none;
+}
+.page-header #brand-bar a { text-shadow: none; }
+
+.page-tabs {
+  position: sticky; top: var(--page-header-h, 0px); z-index: 10;
+  background: var(--background-page);
+  border-bottom: 1px solid var(--border-subtle);
+  transition: top 0.2s ease;
+}
+.is-header-hidden .page-tabs { top: 0; }
+.page-tabs-inner, .page-body {
+  max-width: 768px; margin: 0 auto;
+  padding-left: var(--component-16); padding-right: var(--component-16);
+}
+.page-tabs-inner { display: flex; gap: var(--component-gap-16); }
 .page-tab {
   background: none; border: none; cursor: pointer;
   padding: var(--component-16) 0;
   font: var(--text-interface-overline);
+  line-height: 1;
   letter-spacing: var(--text-interface-overline-ls);
   text-transform: uppercase;
-  color: var(--text-secondary);
-  border-bottom: 2px solid transparent;
+  color: var(--button-ghost-content-default);
+  border-bottom: 1px solid transparent;
   margin-bottom: -1px;
   transition: color 0.15s, border-color 0.15s;
 }
-.page-tab:hover { color: var(--text-primary); }
-.page-tab.is-active { color: var(--text-primary); border-bottom-color: var(--background-brand-primary); }
+.page-tab:hover { color: var(--button-ghost-content-hover); }
+.page-tab.is-active { color: var(--button-ghost-content-active); border-bottom-color: var(--background-brand-primary); }
 
-#page-overlay-body {
-  flex: 1; overflow-y: auto;
-  padding: var(--component-48) var(--component-40);
-  max-width: 720px; margin: 0 auto; width: 100%;
-}
-#page-overlay-body h1 {
-  font-family: var(--font-serif);
-  font-size: var(--text-title-h1-size);
-  font-weight: var(--text-title-h1-weight);
-  line-height: var(--text-title-h1-lh);
-  margin-bottom: 28px;
+.page-body { padding-top: var(--component-48); padding-bottom: 96px; }
+.page-panel h1 { font: var(--text-title-h1); color: var(--text-primary); }
+.page-panel h2 {
+  font: var(--text-title-h2);
   color: var(--text-primary);
-}
-#page-overlay-body h2 {
-  font-family: var(--font-serif);
-  font-size: var(--text-title-h3-size);
-  font-weight: var(--text-title-h3-weight);
-  line-height: var(--text-title-h3-lh);
-  margin: 28px 0 var(--component-12);
-  padding-bottom: var(--component-8);
+  margin-top: var(--component-24);
+  padding: var(--component-16) 0 var(--component-8);
   border-bottom: 1px solid var(--border-subtle);
-  color: var(--text-primary);
 }
-#page-overlay-body p {
-  font-size: var(--text-body-large-size);
-  line-height: var(--text-body-large-lh);
+.page-panel p, .page-panel ul {
+  font: var(--text-body-large);
   color: var(--text-secondary);
-  margin-bottom: 14px;
+  margin-top: var(--component-12);
 }
-#page-overlay-body p strong { color: var(--text-primary); font-weight: var(--fw-700); }
-#page-overlay-body a { color: var(--link-default); text-underline-offset: 3px; }
-#page-overlay-body a:hover { color: var(--link-hover); }
-#page-overlay-body ul { padding-left: var(--component-20); margin-bottom: 14px; }
-#page-overlay-body li {
-  font-size: var(--text-body-large-size);
-  line-height: var(--text-body-large-lh);
-  color: var(--text-secondary);
-  margin-bottom: var(--component-4);
+.page-panel :is(h1, h2, .page-logos) + :is(p, ul) { margin-top: var(--component-24); }
+.page-panel ul { padding-left: 27px; }
+.page-panel a { color: var(--link-default); text-underline-offset: 3px; }
+.page-panel a:hover { color: var(--link-hover); }
+/* Contenu encore attendu : repère laissé volontairement visible. */
+.page-todo { color: var(--feedback-error-text-on); }
+
+.page-logos {
+  display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between;
+  min-height: 160px;
+  margin-top: var(--component-24);
+  padding-bottom: var(--component-20);
+}
+.page-logos img { display: block; box-sizing: content-box; padding: var(--component-24); }
+.page-logos .page-logo-orangerie { padding-bottom: 43px; }
+/* Orsay + Orangerie : simple regroupement, sans effet hors mobile. */
+.page-logos-group { display: contents; }
+
+@media (max-width: 900px) {
+  .page-header { padding: 0; }
+  .page-header #brand-bar { width: auto; }
+
+  /* Logos à 80 %, marges réduites de moitié : Orsay et Orangerie tiennent
+     côte à côte jusqu'à 320 px de large, et ne sont jamais séparés. */
+  .page-logos { min-height: 0; justify-content: flex-start; }
+  .page-logos-group { display: flex; align-items: center; }
+  .page-logos img { height: auto; padding: var(--component-12); }
+  .page-logos .page-logo-mad       { width: 32px; }
+  .page-logos .page-logo-enc       { width: 138px; }
+  .page-logos .page-logo-orsay     { width: 134px; }
+  .page-logos .page-logo-orangerie { width: 86px; padding-bottom: 27px; }
+  .page-logos .page-logo-culture   { width: 101px; }
 }
 
 /* ─── ADAPTATIONS ────────────────────────────────────────────────────────── */
