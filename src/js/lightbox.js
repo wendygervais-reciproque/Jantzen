@@ -59,8 +59,8 @@ function renderLightbox() {
 
   const { photos, index } = lightboxGallery;
   const item = photos[index];
-  img.src = item.src;
-  img.onerror = function () { this.classList.add('img-broken'); }; // 1 seule requête, pas de nouvelle tentative
+  img.classList.remove('img-broken');
+  setImageSources(img, item.srcs || [item.src]);
   if (caption) renderLightboxCaption(caption, item, index, photos.length);
 
   if (photos.length > 1) {

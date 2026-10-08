@@ -205,52 +205,53 @@ function buildUrl(name, bases, ext) {
 }
 
 function photoUrl(idPic, format = IMG_FORMAT) {
-  if (!idPic || typeof idPic !== 'string') return null;
-  const name = idPic.replace(/^image_/, '');
-  return buildUrl(name, { avif: PHOTO_BASE_AVIF, webp: PHOTO_BASE_WEBP }, format);
+  return photoUrls(idPic, format)[0] || null;
 }
 
 function thumbUrl(idPic, format = IMG_FORMAT) {
-  if (!idPic || typeof idPic !== 'string') return null;
-  const name = idPic.replace(/^image_/, '');
-  return buildUrl(name, { avif: THUMB_PHOTO_BASE_AVIF, webp: THUMB_PHOTO_BASE_WEBP }, format);
+  return thumbUrls(idPic, format)[0] || null;
 }
 
-// Échecs CONSÉCUTIFS (remis à zéro à chaque image chargée) au-delà desquels
-// on considère les fichiers absents du serveur et on arrête les requêtes.
-const MAX_FAILURES = 10;
-let failureCount = 0;
-let galleryAborted = false;
+/* Les noms de fichiers accentués du serveur mélangent les deux formes Unicode
+   (« ç » composé NFC, ou « c » + cédille NFD), y compris au sein d'un même
+   format : on ne peut donc pas déduire la forme du format. Ces fonctions
+   renvoient les URL candidates, dans l'ordre d'essai : format préféré puis
+   l'autre, chacun dans sa forme habituelle puis dans l'autre forme. */
+function imageUrlCandidates(idPic, bases, format) {
+  if (!idPic || typeof idPic !== 'string') return [];
+  const name    = idPic.replace(/^image_/, '');
+  const formats = format === 'avif' ? ['avif', 'webp'] : ['webp', 'avif'];
+  const urls = [];
+  formats.forEach(ext => {
+    const first = buildUrl(name, bases, ext);
+    const other = `${bases[ext]}/${encodeURIComponent(name.normalize(ext === 'webp' ? 'NFD' : 'NFC'))}.${ext}`;
+    urls.push(first);
+    if (other !== first) urls.push(other);
+  });
+  return urls;
+}
 
-function attachImageWithFallback(img, idPic, urlFn) {
-  if (galleryAborted) return; // on ne lance même plus la requête
+function photoUrls(idPic, format = IMG_FORMAT) {
+  return imageUrlCandidates(idPic, { avif: PHOTO_BASE_AVIF, webp: PHOTO_BASE_WEBP }, format);
+}
 
-  let triedWebp = false;
+function thumbUrls(idPic, format = IMG_FORMAT) {
+  return imageUrlCandidates(idPic, { avif: THUMB_PHOTO_BASE_AVIF, webp: THUMB_PHOTO_BASE_WEBP }, format);
+}
 
-  img.addEventListener('load', () => { failureCount = 0; });
-
+/** Charge la première URL qui répond parmi `urls` ; `onFail` n'est appelé
+ *  qu'une fois toutes les candidates épuisées. N'affecte que cette image. */
+function setImageSources(img, urls, onFail) {
+  const queue = (urls || []).filter(Boolean);
   img.onerror = function () {
-    if (galleryAborted) { this.onerror = null; return; }
-
-    // 1er échec : si on était en avif, on tente webp une seule fois
-    if (!triedWebp && IMG_FORMAT === 'avif') {
-      triedWebp = true;
-      this.src = urlFn(idPic, 'webp');
-      return;
-    }
-
-    // webp a aussi échoué (ou on était déjà en webp) : on abandonne cette image
+    if (queue.length) { this.src = queue.shift(); return; }
     this.onerror = null;
-    this.classList.add('img-broken'); // pour un style CSS "image manquante" si besoin
-
-    failureCount++;
-    if (failureCount >= MAX_FAILURES && !galleryAborted) {
-      galleryAborted = true;
-      console.error(`[img] ${failureCount} échecs consécutifs — arrêt du chargement, fichiers probablement absents du serveur`);
-    }
+    this.classList.add('img-broken');
+    console.warn('[img] image introuvable :', urls[0]);
+    onFail?.();
   };
-
-  img.src = urlFn(idPic);
+  if (queue.length) img.src = queue.shift();
+  else img.onerror();
 }
 
 /* ─── DIMENSIONS DES PHOTOS ────── */

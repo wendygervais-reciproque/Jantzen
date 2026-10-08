@@ -39,26 +39,8 @@ function buildingRefImageId(data) {
  *  du chargement, les suivantes continuent d'être demandées. */
 function attachCardImage(img, idPic, onLoaded, onFailed) {
   if (!idPic) return;
-
   img.onload = () => { onLoaded?.(); };
-
-  let triedWebp = false;
-
-  img.onerror = function () {
-    // 1er échec en avif : on retente une fois en webp (même repli que la galerie)
-    if (!triedWebp && IMG_FORMAT === 'avif') {
-      triedWebp = true;
-      this.src = thumbUrl(idPic, 'webp');
-      return;
-    }
-
-    this.onerror = null;
-    this.classList.add('img-broken');
-    console.warn('[card] image introuvable :', this.src);
-    onFailed?.();
-  };
-
-  img.src = thumbUrl(idPic);
+  setImageSources(img, thumbUrls(idPic), onFailed);
 }
 
 /**

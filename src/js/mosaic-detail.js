@@ -331,6 +331,7 @@ async function renderMdGallery() {
     const terms = ph.IndexJantzen || [];
     return {
       src:     photoUrl(ph.id_pic),
+      srcs:    photoUrls(ph.id_pic),           // candidates (formats / formes Unicode)
       terms,                                   // termes bruts, pour les liens de filtre de la visionneuse
       caption: terms.map(capitalize).join(' · '),
       id_pic:  ph.id_pic,
@@ -351,8 +352,7 @@ async function renderMdGallery() {
     img.alt      = g.caption || '';
     img.loading  = 'lazy';
     img.decoding = 'async';
-    img.src      = thumbUrl(g.id_pic);
-    img.onerror  = function () { this.classList.add('img-broken'); }; // 1 seule requête, pas de nouvelle tentative
+    setImageSources(img, thumbUrls(g.id_pic));
     // Filet de sécurité : si un ratio manquait dans photos.json, on le corrige dès que l'image réelle est chargée, puis on relance le layout.
     img.addEventListener('load', () => {
       if (!img.naturalWidth || !img.naturalHeight) return;
