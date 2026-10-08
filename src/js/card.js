@@ -12,11 +12,6 @@
  *      et la liste partagent le même chargement
  */
 
-// Échecs CONSÉCUTIFS (remis à zéro à chaque image chargée) au-delà desquels
-// on considère les fichiers absents du serveur et on arrête les requêtes.
-const MAX_IMAGE_FAILURES = 10;
-let cardImageFailureCount = 0;
-let cardImagesAborted = false;
 
 /**
  * URL (+ id_pic) de l'image de référence d'un bâtiment. Par défaut : image_ref
@@ -40,13 +35,12 @@ function buildingRefImageId(data) {
   return data?.image_ref || photos[0]?.id_pic || null;
 }
 
-function attachCardImage(img, idPic, onLoaded) {
-  if (cardImagesAborted || !idPic) return;
+/** Une image introuvable n'affecte que sa propre tuile : pas d'arrêt global
+ *  du chargement, les suivantes continuent d'être demandées. */
+function attachCardImage(img, idPic, onLoaded, onFailed) {
+  if (!idPic) return;
 
-  img.onload = () => {
-    cardImageFailureCount = 0;
-    onLoaded?.();
-  };
+  img.onload = () => { onLoaded?.(); };
 
   let triedWebp = false;
 
@@ -61,14 +55,7 @@ function attachCardImage(img, idPic, onLoaded) {
     this.onerror = null;
     this.classList.add('img-broken');
     console.warn('[card] image introuvable :', this.src);
-
-    if (cardImagesAborted) return;
-
-    cardImageFailureCount++;
-    if (cardImageFailureCount >= MAX_IMAGE_FAILURES && !cardImagesAborted) {
-      cardImagesAborted = true;
-      console.error(`[card] ${cardImageFailureCount} échecs consécutifs — arrêt du chargement des images (fichiers probablement absents du serveur)`);
-    }
+    onFailed?.();
   };
 
   img.src = thumbUrl(idPic);
@@ -140,9 +127,9 @@ async function enrichBuildingCard(card, data) {
     img.addEventListener('contextmenu', e => e.preventDefault());
     img.addEventListener('dragstart', e => e.preventDefault());
 
-    attachCardImage(img, idPic, () => {
-      thumb.querySelector('.thumb-skeleton')?.remove();
-    });
+    // Squelette retiré au chargement comme à l'échec (sinon il « charge » à vide)
+    const dropSkeleton = () => thumb.querySelector('.thumb-skeleton')?.remove();
+    attachCardImage(img, idPic, dropSkeleton, () => { dropSkeleton(); img.remove(); });
 
     thumb.insertBefore(img, thumb.firstChild);
   }
