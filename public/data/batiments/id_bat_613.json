@@ -37,14 +37,33 @@
   "image_ref": "Capucines-bd-12_9_§1",
   "terme_jantzen_bat": [
     "toiture",
+    "atlante",
+    "balcon",
+    "pilastre",
+    "sculpture",
     "lucarne",
     "façade",
-    "garde-corps",
-    "sculpture",
-    "atlante",
-    "pilastre",
     "lucarne-d'angle",
-    "balcon"
+    "garde-corps"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chapiteau corinthien",
+    "corniche",
+    "dôme",
+    "faîtage",
+    "fenêtre",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mur-boutant",
+    "pierre de taille",
+    "pilastre",
+    "souche de cheminée",
+    "toit en pavillon",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -52,6 +71,25 @@
       "IndexJantzen": [
         "lucarne-d'angle",
         "toiture"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "lucarne",
+        "mansarde",
+        "souche de cheminée",
+        "corniche",
+        "bandeau",
+        "pilastre",
+        "chapiteau corinthien",
+        "épi de faîtage",
+        "faîtage",
+        "toit en pavillon",
+        "mur-boutant",
+        "pierre de taille",
+        "dôme"
       ],
       "dateCapture": "2007:06:02"
     },
@@ -61,6 +99,7 @@
         "lucarne-d'angle",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:05:25"
     },
     {
@@ -68,6 +107,7 @@
       "IndexJantzen": [
         "lucarne-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:10"
     },
     {
@@ -75,6 +115,7 @@
       "IndexJantzen": [
         "lucarne-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:10"
     },
     {
@@ -83,6 +124,7 @@
         "lucarne",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:03:23"
     },
     {
@@ -93,6 +135,7 @@
         "garde-corps",
         "pilastre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:04:25"
     },
     {
@@ -101,6 +144,7 @@
         "atlante",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:03:23"
     },
     {
@@ -109,6 +153,7 @@
         "lucarne",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:03:23"
     }
   ]

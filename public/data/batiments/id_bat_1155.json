@@ -21,8 +21,18 @@
   "WPfr": null,
   "image_ref": "St-Sauveur-16_2_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "garde-corps"
+    "garde-corps",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "fer forgé",
+    "garde-corps",
+    "pierre de taille",
+    "porte-fenêtre"
   ],
   "photos": [
     {
@@ -30,6 +40,16 @@
       "IndexJantzen": [
         "fenetre",
         "garde-corps"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "arc en plein cintre",
+        "porte-fenêtre",
+        "pierre de taille",
+        "balustrade",
+        "bandeau"
       ],
       "dateCapture": "2004:08:31"
     }

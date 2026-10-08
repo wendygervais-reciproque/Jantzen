@@ -30,11 +30,37 @@
   "terme_jantzen_bat": [
     "console"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "modillon",
+    "pierre de taille",
+    "porte-fenêtre",
+    "sculpture",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Servandoni-19_6_§1",
       "IndexJantzen": [
         "console"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "modillon",
+        "fer forgé",
+        "pierre de taille",
+        "fenêtre",
+        "volet",
+        "porte-fenêtre",
+        "sculpture",
+        "bandeau"
       ],
       "dateCapture": "2005:06:02"
     }

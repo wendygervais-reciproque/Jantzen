@@ -31,12 +31,44 @@
     "sculpture",
     "console"
   ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bossage",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "oriel",
+    "pierre de taille",
+    "porte-fenêtre",
+    "sculpture",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Republique-122_11_§1",
       "IndexJantzen": [
         "console",
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "arc",
+        "arc en plein cintre",
+        "sculpture",
+        "mascaron",
+        "pierre de taille",
+        "fenêtre",
+        "porte-fenêtre",
+        "volet",
+        "oriel",
+        "bossage"
       ],
       "dateCapture": "2005:07:12"
     }

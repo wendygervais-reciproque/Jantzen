@@ -33,9 +33,23 @@
   "image_ref": "Edmond-Valentin-8_7_§1",
   "terme_jantzen_bat": [
     "oeil-de-boeuf",
-    "porte-fer",
+    "sculpture",
     "console",
-    "sculpture"
+    "porte-fer"
+  ],
+  "terme_torneh_bat": [
+    "arc en anse de panier",
+    "balcon",
+    "chambranle",
+    "fenêtre",
+    "fer forgé",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "sculpture",
+    "vantail"
   ],
   "photos": [
     {
@@ -43,6 +57,20 @@
       "IndexJantzen": [
         "oeil-de-boeuf",
         "porte-fer"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "portail",
+        "mascaron",
+        "sculpture",
+        "oculus",
+        "fer forgé",
+        "pierre de taille",
+        "vantail",
+        "arc en anse de panier",
+        "balcon",
+        "fenêtre",
+        "chambranle"
       ],
       "dateCapture": "2005:04:02"
     },
@@ -52,6 +80,7 @@
         "oeil-de-boeuf",
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:23"
     },
     {
@@ -60,6 +89,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:23"
     },
     {
@@ -68,6 +98,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:02"
     }
   ]

@@ -21,17 +21,59 @@
   "WPfr": null,
   "image_ref": "Poissoniere-2_2_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "façade-d'angle",
     "sculpture",
     "fenetre-d'angle",
+    "fenetre",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "chéneau",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "grille",
+    "linteau",
+    "mansarde",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "souche de cheminée",
+    "toit à deux versants",
+    "vitrail"
   ],
   "photos": [
     {
       "id_pic": "Poissoniere-2_2_§1",
       "IndexJantzen": [
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "fronton",
+        "mansarde",
+        "souche de cheminée",
+        "toit à deux versants",
+        "pierre de taille",
+        "balustrade",
+        "chéneau",
+        "mascaron",
+        "grille",
+        "porte",
+        "vitrail",
+        "ardoise",
+        "chambranle",
+        "linteau",
+        "bandeau",
+        "corniche"
       ],
       "dateCapture": "2005:08:28"
     },
@@ -42,6 +84,7 @@
         "fenetre-d'angle",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:28"
     },
     {
@@ -49,6 +92,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:28"
     },
     {
@@ -56,6 +100,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:28"
     }
   ]

@@ -21,10 +21,26 @@
   "WPfr": null,
   "image_ref": "Auteuil-28_16_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "cariatide",
     "sculpture",
-    "atlante"
+    "atlante",
+    "cariatide",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "atlante",
+    "balcon",
+    "balustrade",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "porte-fenêtre",
+    "sculpture",
+    "vantail",
+    "volet"
   ],
   "photos": [
     {
@@ -34,6 +50,22 @@
         "cariatide",
         "fenetre",
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "atlante",
+        "porte",
+        "porte-fenêtre",
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "arc en plein cintre",
+        "fenêtre",
+        "volet",
+        "sculpture",
+        "pierre de taille",
+        "mascaron",
+        "fer forgé",
+        "vantail"
       ],
       "dateCapture": "2005:05:28"
     }

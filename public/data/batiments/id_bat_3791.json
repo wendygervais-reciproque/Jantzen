@@ -22,11 +22,26 @@
   "image_ref": "Beudant-9_17_§1",
   "terme_jantzen_bat": [
     "oeil-de-boeuf",
-    "fenetre",
-    "chimère",
     "sculpture",
     "clé",
-    "porte-fer-hall"
+    "fenetre",
+    "porte-fer-hall",
+    "chimère"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "jambage",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "vantail"
   ],
   "photos": [
     {
@@ -36,6 +51,21 @@
         "oeil-de-boeuf",
         "porte-fer-hall"
       ],
+      "IndexTorneh": [
+        "porte",
+        "mascaron",
+        "sculpture",
+        "fronton",
+        "vantail",
+        "fer forgé",
+        "oculus",
+        "corniche",
+        "fenêtre",
+        "balcon",
+        "pierre de taille",
+        "chambranle",
+        "jambage"
+      ],
       "dateCapture": "2004:07:06"
     },
     {
@@ -44,6 +74,7 @@
         "chimère",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:05"
     },
     {
@@ -54,6 +85,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:05"
     },
     {
@@ -63,6 +95,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:05"
     }
   ]

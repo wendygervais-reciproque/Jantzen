@@ -21,8 +21,23 @@
   "WPfr": null,
   "image_ref": "St-Vincent-22_18_§1",
   "terme_jantzen_bat": [
+    "façade",
+    "porte"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "garde-corps",
+    "grille",
+    "mur-boutant",
+    "pierre de taille",
     "porte",
-    "façade"
+    "sculpture",
+    "souche de cheminée",
+    "soupirail",
+    "vantail"
   ],
   "photos": [
     {
@@ -30,6 +45,21 @@
       "IndexJantzen": [
         "façade",
         "porte"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "porte",
+        "balcon",
+        "garde-corps",
+        "corniche",
+        "chaîne d'angle",
+        "pierre de taille",
+        "souche de cheminée",
+        "grille",
+        "vantail",
+        "soupirail",
+        "sculpture",
+        "mur-boutant"
       ],
       "dateCapture": "2004:06:15"
     }

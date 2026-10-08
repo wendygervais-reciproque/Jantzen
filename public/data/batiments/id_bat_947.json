@@ -28,11 +28,23 @@
   "WPfr": null,
   "image_ref": "Menilmontant-140_20_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "façade",
     "pignon",
+    "fenetre",
     "brique",
+    "façade",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "bandeau",
+    "brique",
+    "chéneau",
+    "fenêtre",
+    "garde-corps",
+    "grille",
+    "souche de cheminée",
+    "toit-terrasse",
+    "volet"
   ],
   "photos": [
     {
@@ -40,6 +52,18 @@
       "IndexJantzen": [
         "brique",
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "brique",
+        "balcon",
+        "garde-corps",
+        "souche de cheminée",
+        "volet",
+        "chéneau",
+        "bandeau",
+        "toit-terrasse",
+        "grille"
       ],
       "dateCapture": "2005:09:19"
     },
@@ -49,6 +73,7 @@
         "brique",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:09:19"
     },
     {
@@ -59,6 +84,7 @@
         "façade",
         "pignon"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:09:19"
     }
   ]

@@ -33,11 +33,29 @@
   "image_ref": "Turenne-121_3_.§1",
   "terme_jantzen_bat": [
     "porte-fer",
-    "fenetre",
-    "lucarne",
+    "oriel",
     "sculpture",
     "clé",
-    "oriel"
+    "fenetre",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "attique",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "mascaron",
+    "oriel",
+    "pierre de taille",
+    "sculpture",
+    "souche de cheminée",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -45,6 +63,24 @@
       "IndexJantzen": [
         "fenetre",
         "oriel"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "oriel",
+        "fronton",
+        "sculpture",
+        "mascaron",
+        "corniche",
+        "pierre de taille",
+        "souche de cheminée",
+        "volet",
+        "fer forgé",
+        "travée",
+        "attique",
+        "bandeau"
       ],
       "dateCapture": "2005:08:28"
     },
@@ -55,6 +91,7 @@
         "oriel",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:28"
     },
     {
@@ -63,6 +100,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:28"
     },
     {
@@ -71,6 +109,7 @@
         "lucarne",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:28"
     },
     {
@@ -79,6 +118,7 @@
         "lucarne",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:28"
     },
     {
@@ -87,6 +127,7 @@
         "clé",
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:07:08"
     }
   ]

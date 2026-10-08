@@ -32,14 +32,35 @@
   "WPfr": null,
   "image_ref": "Dorian-2_12_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "garde-corps",
     "façade-d'angle",
+    "tour",
     "sculpture",
-    "porte-bois",
     "fenetre-d'angle",
+    "fenetre",
     "lucarne-d'angle",
-    "tour"
+    "garde-corps",
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "toit à deux versants",
+    "tour",
+    "volet"
   ],
   "photos": [
     {
@@ -48,6 +69,27 @@
         "façade-d'angle",
         "tour"
       ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "porte-fenêtre",
+        "lucarne",
+        "mansarde",
+        "ardoise",
+        "toit à deux versants",
+        "souche de cheminée",
+        "mascaron",
+        "corniche",
+        "bandeau",
+        "pierre de taille",
+        "tour",
+        "fer forgé",
+        "volet",
+        "porte",
+        "chaîne d'angle"
+      ],
       "dateCapture": "2006:09:06"
     },
     {
@@ -55,6 +97,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:09:06"
     },
     {
@@ -63,6 +106,7 @@
         "fenetre-d'angle",
         "tour"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:15"
     },
     {
@@ -70,6 +114,7 @@
       "IndexJantzen": [
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:15"
     },
     {
@@ -78,6 +123,7 @@
         "lucarne-d'angle",
         "tour"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:15"
     },
     {
@@ -86,6 +132,7 @@
         "fenetre-d'angle",
         "tour"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:15"
     },
     {
@@ -94,6 +141,7 @@
         "fenetre-d'angle",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:09:06"
     },
     {
@@ -102,6 +150,7 @@
         "fenetre-d'angle",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:09:06"
     },
     {
@@ -110,6 +159,7 @@
         "fenetre-d'angle",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:15"
     },
     {
@@ -118,6 +168,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:15"
     }
   ]

@@ -21,15 +21,36 @@
   "WPfr": null,
   "image_ref": "Sevres-109_6_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "façade",
-    "console",
-    "métal",
     "mosaique",
     "oriel",
+    "console",
+    "fenetre",
     "brique",
+    "façade",
+    "métal",
     "céramique",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "chéneau",
+    "corniche",
+    "fenêtre",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "modillon",
+    "oriel",
+    "pierre de taille",
+    "souche de cheminée",
+    "toit à deux versants",
+    "vantail",
+    "volet"
   ],
   "photos": [
     {
@@ -37,6 +58,27 @@
       "IndexJantzen": [
         "brique",
         "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "bandeau",
+        "brique",
+        "chéneau",
+        "fenêtre",
+        "garde-corps",
+        "lucarne",
+        "mansarde",
+        "mascaron",
+        "modillon",
+        "oriel",
+        "pierre de taille",
+        "souche de cheminée",
+        "toit à deux versants",
+        "ardoise",
+        "vantail",
+        "volet",
+        "corniche"
       ],
       "dateCapture": "2004:05:12"
     },
@@ -46,6 +88,7 @@
         "brique",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:13"
     },
     {
@@ -56,6 +99,7 @@
         "mosaique",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:13"
     },
     {
@@ -65,6 +109,7 @@
         "céramique",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:05:12"
     },
     {
@@ -75,6 +120,7 @@
         "mosaique",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:13"
     },
     {
@@ -85,6 +131,7 @@
         "fenetre",
         "métal"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:13"
     },
     {
@@ -95,6 +142,7 @@
         "fenetre",
         "métal"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:05:12"
     }
   ]

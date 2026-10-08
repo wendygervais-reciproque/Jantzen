@@ -21,10 +21,26 @@
   "WPfr": null,
   "image_ref": "Mantibœufs-3_20_§1",
   "terme_jantzen_bat": [
-    "fenetre",
+    "céramique",
     "garde-corps",
-    "décor",
-    "céramique"
+    "fenetre",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "chambranle",
+    "corniche",
+    "céramique",
+    "fenêtre",
+    "fer forgé",
+    "frise",
+    "garde-corps",
+    "pierre de taille",
+    "porte-fenêtre",
+    "volet"
   ],
   "photos": [
     {
@@ -32,6 +48,22 @@
       "IndexJantzen": [
         "céramique",
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "fer forgé",
+        "volet",
+        "brique",
+        "pierre de taille",
+        "chambranle",
+        "céramique",
+        "frise",
+        "bandeau",
+        "corniche",
+        "porte-fenêtre"
       ],
       "dateCapture": "2005:06:18"
     },
@@ -42,6 +74,7 @@
         "décor",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:18"
     }
   ]

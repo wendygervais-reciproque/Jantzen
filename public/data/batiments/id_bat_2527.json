@@ -21,15 +21,49 @@
   "WPfr": null,
   "image_ref": "Mazarine-4_6_§1",
   "terme_jantzen_bat": [
+    "fronton",
     "fenetre",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "chéneau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
     "lucarne",
-    "fronton"
+    "mansarde",
+    "pierre de taille",
+    "porte-fenêtre",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Mazarine-4_6_§1",
       "IndexJantzen": [
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "mansarde",
+        "lucarne",
+        "fronton",
+        "pierre de taille",
+        "balustrade",
+        "corniche",
+        "chéneau",
+        "travée",
+        "porte-fenêtre",
+        "ardoise",
+        "volet"
       ],
       "dateCapture": "2006:08:31"
     },
@@ -40,6 +74,7 @@
         "fronton",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:08:31"
     },
     {
@@ -48,6 +83,7 @@
         "fronton",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:08:31"
     }
   ]

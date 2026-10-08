@@ -24,12 +24,38 @@
     "sculpture",
     "console"
   ],
+  "terme_torneh_bat": [
+    "arc",
+    "balcon",
+    "balustrade",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "modillon",
+    "pierre de taille",
+    "porte-fenêtre",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Ouessant-18_15_§1",
       "IndexJantzen": [
         "console",
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "balustrade",
+        "balcon",
+        "pierre de taille",
+        "modillon",
+        "volet",
+        "fenêtre",
+        "garde-corps",
+        "fer forgé",
+        "arc",
+        "corniche",
+        "porte-fenêtre"
       ],
       "dateCapture": "2005:06:09"
     }

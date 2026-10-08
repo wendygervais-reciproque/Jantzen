@@ -26,15 +26,67 @@
   "WPfr": null,
   "image_ref": "St-Michel-40_6_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "façade",
-    "sculpture"
+    "sculpture",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc brisé",
+    "arc en plein cintre",
+    "ardoise",
+    "attique",
+    "balcon",
+    "bandeau",
+    "chapiteau",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "frise",
+    "fronton",
+    "garde-corps",
+    "grille",
+    "lucarne",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "sculpture",
+    "toit à deux versants",
+    "vantail"
   ],
   "photos": [
     {
       "id_pic": "St-Michel-40_6_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fronton",
+        "arc en plein cintre",
+        "arc brisé",
+        "pilastre",
+        "chapiteau",
+        "corniche",
+        "bandeau",
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "grille",
+        "porte",
+        "vantail",
+        "sculpture",
+        "mascaron",
+        "fer forgé",
+        "pierre de taille",
+        "toit à deux versants",
+        "lucarne",
+        "oculus",
+        "ardoise",
+        "frise",
+        "chaîne d'angle",
+        "attique"
       ],
       "dateCapture": "2009:09:27"
     },
@@ -44,6 +96,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:09:27"
     },
     {
@@ -52,6 +105,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:09:27"
     },
     {
@@ -60,6 +114,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:03:17"
     }
   ]

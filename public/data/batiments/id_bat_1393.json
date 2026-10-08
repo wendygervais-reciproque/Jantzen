@@ -25,12 +25,54 @@
     "lucarne-d'angle",
     "balcon"
   ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "bossage",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "pierre de taille",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Daumesnil-194_12_§1",
       "IndexJantzen": [
         "lucarne-d'angle",
         "toiture"
+      ],
+      "IndexTorneh": [
+        "mansarde",
+        "lucarne",
+        "souche de cheminée",
+        "ardoise",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "volet",
+        "fer forgé",
+        "corniche",
+        "bandeau",
+        "pierre de taille",
+        "sculpture",
+        "mascaron",
+        "fronton",
+        "bossage",
+        "chaîne d'angle",
+        "toit à deux versants"
       ],
       "dateCapture": "2005:07:16"
     },
@@ -41,6 +83,7 @@
         "lucarne-d'angle",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:16"
     }
   ]

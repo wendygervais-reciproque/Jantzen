@@ -29,14 +29,48 @@
   "image_ref": "Tour-Maubourg-Sq-1_7_§1",
   "terme_jantzen_bat": [
     "sculpture",
-    "fenetre",
-    "console"
+    "console",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "avant-corps",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "pierre de taille",
+    "porte-fenêtre",
+    "sculpture",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Tour-Maubourg-Sq-1_7_§1",
       "IndexJantzen": [
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "porte-fenêtre",
+        "volet",
+        "arc en plein cintre",
+        "bandeau",
+        "mascaron",
+        "avant-corps",
+        "pierre de taille",
+        "sculpture",
+        "travée",
+        "arc"
       ],
       "dateCapture": "2005:06:09"
     },
@@ -47,6 +81,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:09"
     }
   ]

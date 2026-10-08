@@ -31,12 +31,40 @@
     "brique",
     "lucarne-d'angle"
   ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "brique",
+    "chaîne d'angle",
+    "fenêtre",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "pierre de taille",
+    "souche de cheminée",
+    "toit à deux versants",
+    "tour"
+  ],
   "photos": [
     {
       "id_pic": "Gros_44-16-§1",
       "IndexJantzen": [
         "brique",
         "lucarne-d'angle"
+      ],
+      "IndexTorneh": [
+        "tour",
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "lucarne",
+        "ardoise",
+        "pierre de taille",
+        "brique",
+        "souche de cheminée",
+        "chaîne d'angle",
+        "mansarde",
+        "toit à deux versants"
       ],
       "dateCapture": "2006:07:01"
     }

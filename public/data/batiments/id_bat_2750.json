@@ -29,14 +29,66 @@
   "image_ref": "St-Placide-47_6_§1",
   "terme_jantzen_bat": [
     "façade",
-    "porte-bois",
-    "clé"
+    "clé",
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "chapiteau",
+    "chapiteau corinthien",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "marquise",
+    "mascaron",
+    "modillon",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "sculpture",
+    "souche de cheminée",
+    "soupirail",
+    "toit à deux versants",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "St-Placide-47_6_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "lucarne",
+        "mansarde",
+        "toit à deux versants",
+        "ardoise",
+        "mascaron",
+        "pilastre",
+        "corniche",
+        "modillon",
+        "chapiteau",
+        "chapiteau corinthien",
+        "volet",
+        "porte",
+        "soupirail",
+        "souche de cheminée",
+        "marquise",
+        "pierre de taille",
+        "sculpture",
+        "fronton",
+        "oculus"
       ],
       "dateCapture": "2005:04:17"
     },
@@ -46,6 +98,7 @@
         "clé",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:17"
     }
   ]

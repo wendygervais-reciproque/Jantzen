@@ -28,9 +28,20 @@
   "WPfr": null,
   "image_ref": "Mathurins-35_8_§1",
   "terme_jantzen_bat": [
-    "fenetre",
+    "verrière",
     "balcon",
-    "verrière"
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "pierre de taille",
+    "porte-fenêtre",
+    "travée"
   ],
   "photos": [
     {
@@ -39,6 +50,17 @@
         "fenetre",
         "verrière"
       ],
+      "IndexTorneh": [
+        "fenêtre",
+        "garde-corps",
+        "balcon",
+        "porte-fenêtre",
+        "travée",
+        "corniche",
+        "pierre de taille",
+        "fer forgé",
+        "balustrade"
+      ],
       "dateCapture": "2004:07:05"
     },
     {
@@ -46,6 +68,7 @@
       "IndexJantzen": [
         "balcon"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:05"
     }
   ]

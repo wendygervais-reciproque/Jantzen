@@ -21,14 +21,46 @@
   "WPfr": null,
   "image_ref": "Lagarde-Sq-3_5_§1",
   "terme_jantzen_bat": [
+    "porte-bois",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "arc brisé",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
     "lucarne",
-    "porte-bois"
+    "pierre de taille",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "volet",
+    "épi de faîtage"
   ],
   "photos": [
     {
       "id_pic": "Lagarde-Sq-3_5_§1",
       "IndexJantzen": [
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "lucarne",
+        "arc brisé",
+        "ardoise",
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "fer forgé",
+        "fenêtre",
+        "porte-fenêtre",
+        "épi de faîtage",
+        "corniche",
+        "pierre de taille",
+        "souche de cheminée",
+        "volet"
       ],
       "dateCapture": "2003:08:25"
     },
@@ -37,6 +69,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:08:25"
     }
   ]

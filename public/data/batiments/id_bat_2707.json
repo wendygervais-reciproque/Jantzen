@@ -24,11 +24,35 @@
     "dome",
     "tourelle"
   ],
+  "terme_torneh_bat": [
+    "balustrade",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "oculus",
+    "pierre de taille",
+    "tuile",
+    "épi de faîtage"
+  ],
   "photos": [
     {
       "id_pic": "Caumartin-45_9_§1",
       "IndexJantzen": [
         "dome"
+      ],
+      "IndexTorneh": [
+        "dôme",
+        "épi de faîtage",
+        "balustrade",
+        "oculus",
+        "fenêtre",
+        "corniche",
+        "garde-corps",
+        "tuile",
+        "pierre de taille",
+        "fronton"
       ],
       "dateCapture": "2004:07:05"
     },
@@ -37,6 +61,7 @@
       "IndexJantzen": [
         "dome"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:19"
     },
     {
@@ -45,6 +70,7 @@
         "dome",
         "tourelle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:19"
     }
   ]

@@ -23,11 +23,37 @@
   "terme_jantzen_bat": [
     "porte-fer-hall"
   ],
+  "terme_torneh_bat": [
+    "chambranle",
+    "fenêtre",
+    "fer forgé",
+    "grille",
+    "gros appareil",
+    "jambage",
+    "linteau",
+    "marquise",
+    "modillon",
+    "pierre de taille",
+    "porte"
+  ],
   "photos": [
     {
       "id_pic": "Vaneau-85_7_§1",
       "IndexJantzen": [
         "porte-fer-hall"
+      ],
+      "IndexTorneh": [
+        "marquise",
+        "porte",
+        "fenêtre",
+        "grille",
+        "fer forgé",
+        "pierre de taille",
+        "chambranle",
+        "linteau",
+        "jambage",
+        "modillon",
+        "gros appareil"
       ],
       "dateCapture": "2005:04:17"
     }

@@ -23,22 +23,78 @@
   "WPfr": null,
   "image_ref": "Londres-16_9_§1",
   "terme_jantzen_bat": [
+    "loggia",
+    "sculpture",
+    "cariatide",
+    "console",
     "fenetre",
     "lucarne",
     "façade",
-    "console",
+    "fronton",
     "porte",
-    "sculpture",
-    "loggia",
+    "colonne"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "atlante",
+    "attique",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "chapiteau",
     "colonne",
-    "cariatide",
-    "fronton"
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "grille",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "perron",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "porte-fenêtre",
+    "sculpture",
+    "toit à deux versants",
+    "travée"
   ],
   "photos": [
     {
       "id_pic": "Londres-16_9_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fronton",
+        "balcon",
+        "balustrade",
+        "colonne",
+        "pilastre",
+        "fenêtre",
+        "porte",
+        "porte-fenêtre",
+        "sculpture",
+        "mascaron",
+        "corniche",
+        "bandeau",
+        "chambranle",
+        "arc en plein cintre",
+        "lucarne",
+        "mansarde",
+        "garde-corps",
+        "grille",
+        "pierre de taille",
+        "attique",
+        "travée",
+        "perron",
+        "chapiteau",
+        "atlante",
+        "toit à deux versants",
+        "ardoise"
       ],
       "dateCapture": "2005:05:27"
     },
@@ -49,6 +105,7 @@
         "lucarne",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:09:05"
     },
     {
@@ -58,6 +115,7 @@
         "lucarne",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:09:05"
     },
     {
@@ -67,6 +125,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:27"
     },
     {
@@ -75,6 +134,7 @@
         "façade",
         "porte"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:27"
     },
     {
@@ -83,6 +143,7 @@
         "colonne",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:27"
     },
     {
@@ -91,6 +152,7 @@
         "colonne",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:27"
     },
     {
@@ -100,6 +162,7 @@
         "fenetre",
         "loggia"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:27"
     },
     {
@@ -107,6 +170,7 @@
       "IndexJantzen": [
         "loggia"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:17"
     },
     {
@@ -114,6 +178,7 @@
       "IndexJantzen": [
         "loggia"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:09:05"
     },
     {
@@ -121,6 +186,7 @@
       "IndexJantzen": [
         "loggia"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:27"
     },
     {
@@ -128,6 +194,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:09:05"
     }
   ]

@@ -24,12 +24,38 @@
     "sculpture",
     "console"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "modillon",
+    "pierre de taille",
+    "sculpture",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Poirier-Narcay-4_14_§1",
       "IndexJantzen": [
         "console",
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "corniche",
+        "modillon",
+        "chaîne d'angle",
+        "pierre de taille",
+        "volet",
+        "fenêtre",
+        "sculpture",
+        "mascaron"
       ],
       "dateCapture": "2005:04:27"
     }

@@ -21,18 +21,58 @@
   "WPfr": null,
   "image_ref": "Francs-Bourgeois-56_3_§2",
   "terme_jantzen_bat": [
-    "fenetre",
-    "garde-corps",
-    "console",
+    "balcon",
     "sculpture",
     "clé",
-    "balcon"
+    "console",
+    "fenetre",
+    "garde-corps"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "porte-fenêtre",
+    "travée",
+    "vantail"
   ],
   "photos": [
     {
       "id_pic": "Francs-Bourgeois-56_3_§2",
       "IndexJantzen": [
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "porte-fenêtre",
+        "lucarne",
+        "mansarde",
+        "ardoise",
+        "arc en plein cintre",
+        "pierre de taille",
+        "mascaron",
+        "bandeau",
+        "corniche",
+        "chambranle",
+        "travée",
+        "porte",
+        "vantail"
       ],
       "dateCapture": "2006:04:22"
     },
@@ -42,6 +82,7 @@
         "balcon",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:22"
     },
     {
@@ -50,6 +91,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:22"
     },
     {
@@ -58,6 +100,7 @@
         "clé",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:07:29"
     },
     {
@@ -65,6 +108,7 @@
       "IndexJantzen": [
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:07:29"
     }
   ]

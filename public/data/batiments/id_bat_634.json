@@ -27,11 +27,29 @@
     "garde-corps",
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "chambranle",
+    "fer forgé",
+    "heurtoir",
+    "jambage",
+    "pierre de taille",
+    "porte",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Chanoinesse-12_4_§1",
       "IndexJantzen": [
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "vantail",
+        "chambranle",
+        "pierre de taille",
+        "heurtoir",
+        "fer forgé",
+        "jambage"
       ],
       "dateCapture": "2003:07:12"
     },
@@ -41,6 +59,7 @@
         "lucarne",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:07:12"
     },
     {
@@ -48,6 +67,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:07:12"
     },
     {
@@ -56,6 +76,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:07:12"
     }
   ]

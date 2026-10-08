@@ -33,20 +33,60 @@
   "image_ref": "Quatre-Septembre-16_2_§1",
   "terme_jantzen_bat": [
     "oeil-de-boeuf",
+    "porte-fer",
+    "pilastre",
+    "sculpture",
+    "fenetre-d'angle",
     "fenetre",
     "lucarne",
-    "porte-fer",
-    "sculpture",
-    "pilastre",
-    "fenetre-d'angle",
     "lucarne-d'angle",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "acrotère",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "chapiteau corinthien",
+    "colonne",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "frise",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "pierre de taille",
+    "pilastre",
+    "sculpture",
+    "travée"
   ],
   "photos": [
     {
       "id_pic": "Quatre-Septembre-16_2_§1",
       "IndexJantzen": [
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balustrade",
+        "corniche",
+        "pilastre",
+        "colonne",
+        "chapiteau corinthien",
+        "lucarne",
+        "mansarde",
+        "ardoise",
+        "sculpture",
+        "balcon",
+        "frise",
+        "pierre de taille",
+        "garde-corps",
+        "travée",
+        "fer forgé",
+        "mascaron",
+        "acrotère"
       ],
       "dateCapture": "2004:04:25"
     },
@@ -59,6 +99,7 @@
         "pilastre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:04:25"
     },
     {
@@ -66,6 +107,7 @@
       "IndexJantzen": [
         "lucarne-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:04:25"
     },
     {
@@ -74,6 +116,7 @@
         "lucarne-d'angle",
         "pilastre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:04:25"
     },
     {
@@ -83,6 +126,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:04:25"
     },
     {
@@ -91,6 +135,7 @@
         "oeil-de-boeuf",
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:04:25"
     },
     {
@@ -98,6 +143,7 @@
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:04:25"
     }
   ]

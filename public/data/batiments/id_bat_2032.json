@@ -25,6 +25,31 @@
     "lucarne-d'angle",
     "dome"
   ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mascaron",
+    "oculus",
+    "oriel",
+    "pierre de taille",
+    "porte-fenêtre",
+    "sculpture",
+    "souche de cheminée",
+    "toit en pavillon",
+    "tour",
+    "tuile",
+    "volet",
+    "épi de faîtage"
+  ],
   "photos": [
     {
       "id_pic": "President-Wilson-3_16_§1",
@@ -32,6 +57,31 @@
         "dome",
         "lucarne-d'angle",
         "toiture"
+      ],
+      "IndexTorneh": [
+        "dôme",
+        "épi de faîtage",
+        "lucarne",
+        "oculus",
+        "toit en pavillon",
+        "souche de cheminée",
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "balustrade",
+        "mascaron",
+        "sculpture",
+        "corniche",
+        "bandeau",
+        "ardoise",
+        "pierre de taille",
+        "oriel",
+        "fronton",
+        "tuile",
+        "tour",
+        "volet",
+        "porte-fenêtre"
       ],
       "dateCapture": "2006:04:19"
     },
@@ -41,6 +91,7 @@
         "dome",
         "lucarne-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:02"
     },
     {
@@ -49,6 +100,7 @@
         "dome",
         "lucarne-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:19"
     }
   ]

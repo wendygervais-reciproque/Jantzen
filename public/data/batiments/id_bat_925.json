@@ -21,15 +21,55 @@
   "WPfr": null,
   "image_ref": "Moncey-14_9_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "chimère",
-    "garde-corps"
+    "garde-corps",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "mur-boutant",
+    "pierre de taille",
+    "pilastre",
+    "sculpture",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Moncey-14_9_§1",
       "IndexJantzen": [
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "corniche",
+        "fronton",
+        "mascaron",
+        "lucarne",
+        "mansarde",
+        "volet",
+        "pierre de taille",
+        "sculpture",
+        "bandeau",
+        "chambranle",
+        "fer forgé",
+        "pilastre",
+        "travée",
+        "mur-boutant"
       ],
       "dateCapture": "2005:05:21"
     },
@@ -40,6 +80,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:21"
     }
   ]

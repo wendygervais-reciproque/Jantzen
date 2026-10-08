@@ -31,12 +31,40 @@
     "façade",
     "oriel"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "brique",
+    "fenêtre",
+    "garde-corps",
+    "oriel",
+    "pierre de taille",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "toit-terrasse",
+    "travée",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Blomet-16_15_§1",
       "IndexJantzen": [
         "façade",
         "oriel"
+      ],
+      "IndexTorneh": [
+        "oriel",
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "porte-fenêtre",
+        "balustrade",
+        "pierre de taille",
+        "brique",
+        "souche de cheminée",
+        "travée",
+        "volet",
+        "toit-terrasse"
       ],
       "dateCapture": "2005:09:03"
     },
@@ -45,6 +73,7 @@
       "IndexJantzen": [
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:09:03"
     },
     {
@@ -52,6 +81,7 @@
       "IndexJantzen": [
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:09:03"
     }
   ]

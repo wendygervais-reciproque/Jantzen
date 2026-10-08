@@ -33,11 +33,45 @@
     "clé",
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "arc",
+    "balcon",
+    "balustrade",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "grille",
+    "mascaron",
+    "pierre de taille",
+    "pilastre",
+    "portail",
+    "porte",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Beaumarchais-51_4_§1",
       "IndexJantzen": [
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "portail",
+        "balcon",
+        "balustrade",
+        "sculpture",
+        "mascaron",
+        "arc",
+        "pilastre",
+        "fenêtre",
+        "vantail",
+        "fer forgé",
+        "grille",
+        "pierre de taille",
+        "corniche",
+        "chambranle"
       ],
       "dateCapture": "2004:10:21"
     },
@@ -47,6 +81,7 @@
         "clé",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:03:19"
     },
     {
@@ -55,6 +90,7 @@
         "clé",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:10:21"
     },
     {
@@ -63,6 +99,7 @@
         "porte-bois",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:10:21"
     },
     {
@@ -70,6 +107,7 @@
       "IndexJantzen": [
         "poignée-porte"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:10:21"
     }
   ]

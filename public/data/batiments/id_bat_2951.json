@@ -32,16 +32,60 @@
   "WPfr": null,
   "image_ref": "Chateaudin-52_9_§1",
   "terme_jantzen_bat": [
-    "porte-fer",
-    "fenetre",
     "façade",
-    "clé"
+    "clé",
+    "fenetre",
+    "porte-fer"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "grille",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "pierre de taille",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "vantail"
   ],
   "photos": [
     {
       "id_pic": "Chateaudin-52_9_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "bandeau",
+        "corniche",
+        "fenêtre",
+        "fer forgé",
+        "fronton",
+        "garde-corps",
+        "grille",
+        "lucarne",
+        "mansarde",
+        "mascaron",
+        "pierre de taille",
+        "porte-fenêtre",
+        "souche de cheminée",
+        "travée",
+        "vantail",
+        "arc en plein cintre",
+        "chaîne d'angle",
+        "toit à deux versants"
       ],
       "dateCapture": "2010:05:25"
     },
@@ -51,6 +95,7 @@
         "clé",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:05:25"
     },
     {
@@ -58,6 +103,7 @@
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:05:25"
     }
   ]

@@ -30,11 +30,27 @@
   "terme_jantzen_bat": [
     "tourelle"
   ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "tour",
+    "épi de faîtage"
+  ],
   "photos": [
     {
       "id_pic": "Republique-7_11_§2",
       "IndexJantzen": [
         "tourelle"
+      ],
+      "IndexTorneh": [
+        "épi de faîtage",
+        "dôme",
+        "tour",
+        "fenêtre",
+        "ardoise",
+        "corniche"
       ],
       "dateCapture": "2004:05:19"
     }

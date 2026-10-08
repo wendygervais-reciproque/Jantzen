@@ -24,12 +24,40 @@
     "fenetre",
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "oriel",
+    "souche de cheminée",
+    "toit à deux versants",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Matignon-4_8_§1",
       "IndexJantzen": [
         "fenetre",
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "lucarne",
+        "mansarde",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "oriel",
+        "souche de cheminée",
+        "ardoise",
+        "volet",
+        "fer forgé",
+        "toit à deux versants"
       ],
       "dateCapture": "2004:10:21"
     },
@@ -39,6 +67,7 @@
         "fenetre",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:10:21"
     }
   ]

@@ -32,16 +32,52 @@
   "WPfr": null,
   "image_ref": "Republique-79_11_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "lucarne",
     "sculpture",
-    "fronton"
+    "fronton",
+    "fenetre",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "attique",
+    "chapiteau",
+    "colonne",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "modillon",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "sculpture",
+    "épi de faîtage"
   ],
   "photos": [
     {
       "id_pic": "Republique-79_11_§1",
       "IndexJantzen": [
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "mascaron",
+        "corniche",
+        "fenêtre",
+        "lucarne",
+        "mansarde",
+        "ardoise",
+        "pilastre",
+        "modillon",
+        "fronton",
+        "oculus",
+        "pierre de taille",
+        "sculpture",
+        "épi de faîtage",
+        "chapiteau",
+        "colonne",
+        "attique"
       ],
       "dateCapture": "2006:09:06"
     },
@@ -51,6 +87,7 @@
         "fronton",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:09:06"
     },
     {
@@ -59,6 +96,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:09:06"
     }
   ]

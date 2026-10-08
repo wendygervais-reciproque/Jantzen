@@ -21,21 +21,71 @@
   "WPfr": null,
   "image_ref": "Trousseau-22_11_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "lucarne",
-    "console",
+    "balcon",
     "façade-d'angle",
     "sculpture",
-    "chimère",
+    "console",
     "fenetre-d'angle",
-    "décor",
-    "balcon"
+    "fenetre",
+    "lucarne",
+    "chimère",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oriel",
+    "pierre de taille",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "tour",
+    "travée",
+    "tuile",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Trousseau-22_11_§1",
       "IndexJantzen": [
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "bandeau",
+        "chambranle",
+        "corniche",
+        "fenêtre",
+        "fer forgé",
+        "fronton",
+        "garde-corps",
+        "lucarne",
+        "mansarde",
+        "mascaron",
+        "pierre de taille",
+        "sculpture",
+        "souche de cheminée",
+        "toit à deux versants",
+        "tuile",
+        "volet",
+        "ardoise",
+        "oriel",
+        "arc en plein cintre",
+        "tour",
+        "travée"
       ],
       "dateCapture": "2005:07:11"
     },
@@ -45,6 +95,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:08:31"
     },
     {
@@ -54,6 +105,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:11"
     },
     {
@@ -61,6 +113,7 @@
       "IndexJantzen": [
         "façade-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:08:31"
     },
     {
@@ -69,6 +122,7 @@
         "balcon",
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:11"
     },
     {
@@ -78,6 +132,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:11"
     },
     {
@@ -85,6 +140,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:11"
     },
     {
@@ -93,6 +149,7 @@
         "console",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:08:31"
     },
     {
@@ -102,6 +159,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:08:31"
     },
     {
@@ -111,6 +169,7 @@
         "fenetre",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:08:31"
     },
     {
@@ -120,6 +179,7 @@
         "fenetre-d'angle",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:11"
     }
   ]

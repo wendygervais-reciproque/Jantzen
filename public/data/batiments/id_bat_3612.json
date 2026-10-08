@@ -33,14 +33,50 @@
   "image_ref": "Aumale8_9_§1",
   "terme_jantzen_bat": [
     "poignée-porte",
-    "lucarne",
-    "porte-bois"
+    "porte-bois",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "mascaron",
+    "pierre de taille",
+    "pilastre",
+    "sculpture",
+    "souche de cheminée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Aumale8_9_§1",
       "IndexJantzen": [
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "fronton",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "corniche",
+        "fenêtre",
+        "volet",
+        "pilastre",
+        "mascaron",
+        "sculpture",
+        "pierre de taille",
+        "ardoise",
+        "fer forgé",
+        "souche de cheminée",
+        "chambranle",
+        "fer"
       ],
       "dateCapture": "2004:08:26"
     },
@@ -49,6 +85,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:08:27"
     },
     {
@@ -56,6 +93,7 @@
       "IndexJantzen": [
         "poignée-porte"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:08:27"
     }
   ]

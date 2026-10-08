@@ -28,8 +28,27 @@
   "WPfr": null,
   "image_ref": "Denfert-Rochereau-pl-12_14_§1",
   "terme_jantzen_bat": [
-    "dome",
-    "fenetre-d'angle"
+    "fenetre-d'angle",
+    "dome"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mascaron",
+    "oculus",
+    "oriel",
+    "pierre de taille",
+    "sculpture",
+    "souche de cheminée",
+    "tuile",
+    "volet",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -37,6 +56,25 @@
       "IndexJantzen": [
         "dome",
         "fenetre-d'angle"
+      ],
+      "IndexTorneh": [
+        "dôme",
+        "oculus",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "volet",
+        "souche de cheminée",
+        "ardoise",
+        "pierre de taille",
+        "sculpture",
+        "mascaron",
+        "oriel",
+        "tuile",
+        "épi de faîtage",
+        "lucarne"
       ],
       "dateCapture": "2004:07:28"
     }

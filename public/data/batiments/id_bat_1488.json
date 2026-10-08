@@ -32,8 +32,18 @@
   "WPfr": null,
   "image_ref": "Quatre-Septembre-2_2_§1",
   "terme_jantzen_bat": [
+    "sculpture",
+    "cariatide"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
     "cariatide",
-    "sculpture"
+    "chambranle",
+    "fenêtre",
+    "garde-corps",
+    "pierre de taille",
+    "sculpture",
+    "volet"
   ],
   "photos": [
     {
@@ -41,6 +51,16 @@
       "IndexJantzen": [
         "cariatide",
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "cariatide",
+        "fenêtre",
+        "garde-corps",
+        "balcon",
+        "chambranle",
+        "pierre de taille",
+        "sculpture",
+        "volet"
       ],
       "dateCapture": null
     }

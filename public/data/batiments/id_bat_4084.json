@@ -10,7 +10,7 @@
     "numero": "18",
     "voie": "rue du Lunain"
   },
-  "arrondissement": 8,
+  "arrondissement": 14,
   "tri_alphab": "Lunain",
   "coordonnees": {
     "latitude": "48.826584",
@@ -21,9 +21,27 @@
   "WPfr": null,
   "image_ref": "Lunain-_14_§1",
   "terme_jantzen_bat": [
-    "sculpture",
     "pignon",
+    "sculpture",
     "fenetre-d'angle"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "chapiteau",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "tour",
+    "volet"
   ],
   "photos": [
     {
@@ -32,6 +50,24 @@
         "fenetre-d'angle",
         "pignon",
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "oculus",
+        "dôme",
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "volet",
+        "garde-corps",
+        "corniche",
+        "pierre de taille",
+        "mascaron",
+        "chapiteau",
+        "pilastre",
+        "ardoise",
+        "fer forgé",
+        "tour",
+        "mansarde"
       ],
       "dateCapture": "2004:04:15"
     }

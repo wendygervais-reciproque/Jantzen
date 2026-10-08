@@ -31,12 +31,38 @@
     "sculpture",
     "console"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "pierre de taille",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Madrid-6_8_§1",
       "IndexJantzen": [
         "console",
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "fer forgé",
+        "pierre de taille",
+        "sculpture",
+        "mascaron",
+        "chaîne d'angle",
+        "fenêtre",
+        "vantail",
+        "corniche"
       ],
       "dateCapture": "2005:08:10"
     },
@@ -46,6 +72,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:10"
     }
   ]

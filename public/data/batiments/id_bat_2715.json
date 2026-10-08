@@ -21,8 +21,21 @@
   "WPfr": null,
   "image_ref": "La-Bruyere-45_9_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "clé"
+    "clé",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "balcon",
+    "balustrade",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "mascaron",
+    "pierre de taille",
+    "porte-fenêtre",
+    "sculpture",
+    "vitrail"
   ],
   "photos": [
     {
@@ -30,6 +43,19 @@
       "IndexJantzen": [
         "clé",
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "balustrade",
+        "balcon",
+        "fenêtre",
+        "porte-fenêtre",
+        "sculpture",
+        "mascaron",
+        "corniche",
+        "pierre de taille",
+        "arc",
+        "vitrail",
+        "chambranle"
       ],
       "dateCapture": "2004:08:26"
     }

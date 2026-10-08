@@ -23,11 +23,39 @@
   "terme_jantzen_bat": [
     "porte-fer"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "grille",
+    "oculus",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Voltaire-bd-226_11_§1",
       "IndexJantzen": [
         "porte-fer"
+      ],
+      "IndexTorneh": [
+        "arc en plein cintre",
+        "portail",
+        "porte",
+        "vantail",
+        "fer forgé",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "pierre de taille",
+        "grille",
+        "oculus"
       ],
       "dateCapture": "2005:07:11"
     }

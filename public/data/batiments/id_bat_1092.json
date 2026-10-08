@@ -22,8 +22,29 @@
   "image_ref": "President-Kennedy-16-18_16_§1",
   "terme_jantzen_bat": [
     "façade",
+    "dome",
+    "tour"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "chéneau",
+    "corniche",
+    "dôme",
+    "escalier",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "sculpture",
+    "souche de cheminée",
     "tour",
-    "dome"
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -33,6 +54,27 @@
         "façade",
         "tour"
       ],
+      "IndexTorneh": [
+        "tour",
+        "dôme",
+        "épi de faîtage",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "lucarne",
+        "mansarde",
+        "oculus",
+        "pierre de taille",
+        "ardoise",
+        "fer forgé",
+        "corniche",
+        "chéneau",
+        "souche de cheminée",
+        "sculpture",
+        "mascaron",
+        "escalier"
+      ],
       "dateCapture": "2007:02:04"
     },
     {
@@ -41,6 +83,7 @@
         "dome",
         "tour"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:02:04"
     },
     {
@@ -49,6 +92,7 @@
         "dome",
         "tour"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:02:04"
     }
   ]

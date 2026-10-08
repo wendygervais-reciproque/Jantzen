@@ -28,9 +28,27 @@
   "WPfr": null,
   "image_ref": "Bouchut-16_15_§1",
   "terme_jantzen_bat": [
+    "console",
     "sculpture",
+    "cariatide"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
     "cariatide",
-    "console"
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "marquise",
+    "mascaron",
+    "oriel",
+    "pierre de taille",
+    "pilastre",
+    "porte-fenêtre",
+    "sculpture",
+    "volet"
   ],
   "photos": [
     {
@@ -39,6 +57,24 @@
         "cariatide",
         "console",
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "porte-fenêtre",
+        "arc en plein cintre",
+        "cariatide",
+        "sculpture",
+        "pierre de taille",
+        "corniche",
+        "pilastre",
+        "mascaron",
+        "oriel",
+        "volet",
+        "marquise"
       ],
       "dateCapture": "2008:03:15"
     }

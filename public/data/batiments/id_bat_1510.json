@@ -23,11 +23,35 @@
   "terme_jantzen_bat": [
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "chambranle",
+    "corniche",
+    "fer forgé",
+    "grille",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Lakanal-2_15_§1",
       "IndexJantzen": [
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "arc en plein cintre",
+        "vantail",
+        "fer forgé",
+        "pilastre",
+        "corniche",
+        "chambranle",
+        "pierre de taille",
+        "balcon",
+        "grille"
       ],
       "dateCapture": "2005:09:03"
     },
@@ -36,6 +60,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:09:03"
     },
     {
@@ -43,6 +68,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:09:03"
     }
   ]

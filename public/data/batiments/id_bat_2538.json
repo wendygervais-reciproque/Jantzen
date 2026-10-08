@@ -33,15 +33,55 @@
   "image_ref": "Rosa-Bonheur-4_15_§1",
   "terme_jantzen_bat": [
     "oeil-de-boeuf",
+    "fronton",
     "fenetre",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "avant-corps",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
     "lucarne",
-    "fronton"
+    "mascaron",
+    "modillon",
+    "pierre de taille",
+    "sculpture",
+    "souche de cheminée",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Rosa-Bonheur-4_15_§1",
       "IndexJantzen": [
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "fronton",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "corniche",
+        "bandeau",
+        "pierre de taille",
+        "lucarne",
+        "mascaron",
+        "avant-corps",
+        "travée",
+        "souche de cheminée",
+        "modillon",
+        "sculpture",
+        "volet",
+        "arc en plein cintre"
       ],
       "dateCapture": "2006:04:11"
     },
@@ -50,6 +90,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:11"
     },
     {
@@ -60,6 +101,7 @@
         "lucarne",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:11"
     }
   ]

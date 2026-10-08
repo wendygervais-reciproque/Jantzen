@@ -10,7 +10,7 @@
     "numero": "68",
     "voie": "boulevard de Courcelles"
   },
-  "arrondissement": 8,
+  "arrondissement": 17,
   "tri_alphab": "Courcelles-bd",
   "coordonnees": {
     "latitude": "48.880169",
@@ -23,11 +23,43 @@
   "terme_jantzen_bat": [
     "lucarne-d'angle"
   ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "brique",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "oculus",
+    "pierre de taille",
+    "sculpture",
+    "souche de cheminée",
+    "épi de faîtage"
+  ],
   "photos": [
     {
       "id_pic": "Courcelles-bd-68_8_§1",
       "IndexJantzen": [
         "lucarne-d'angle"
+      ],
+      "IndexTorneh": [
+        "épi de faîtage",
+        "souche de cheminée",
+        "ardoise",
+        "lucarne",
+        "oculus",
+        "garde-corps",
+        "fenêtre",
+        "corniche",
+        "brique",
+        "pierre de taille",
+        "dôme",
+        "mansarde",
+        "balcon",
+        "sculpture"
       ],
       "dateCapture": "2007:10:20"
     },
@@ -36,6 +68,7 @@
       "IndexJantzen": [
         "lucarne-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:08"
     }
   ]

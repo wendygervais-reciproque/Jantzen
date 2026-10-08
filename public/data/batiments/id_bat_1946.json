@@ -29,8 +29,26 @@
   "image_ref": "Cherche-Midi-27_6_§1",
   "terme_jantzen_bat": [
     "sculpture",
-    "fenetre",
+    "verrière",
     "console",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "baie",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "colonne",
+    "corniche",
+    "fenêtre",
+    "garde-corps",
+    "pierre de taille",
+    "porte-fenêtre",
+    "toit-terrasse",
+    "travée",
     "verrière"
   ],
   "photos": [
@@ -40,6 +58,24 @@
         "fenetre",
         "verrière"
       ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "arc en plein cintre",
+        "baie",
+        "colonne",
+        "corniche",
+        "verrière",
+        "brique",
+        "pierre de taille",
+        "fenêtre",
+        "porte-fenêtre",
+        "toit-terrasse",
+        "bandeau",
+        "ardoise",
+        "travée"
+      ],
       "dateCapture": "2007:03:12"
     },
     {
@@ -48,6 +84,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:13"
     }
   ]

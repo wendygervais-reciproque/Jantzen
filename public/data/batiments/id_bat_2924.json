@@ -23,11 +23,31 @@
   "terme_jantzen_bat": [
     "fenetre"
   ],
+  "terme_torneh_bat": [
+    "baie",
+    "balcon",
+    "balustrade",
+    "chambranle",
+    "corniche",
+    "garde-corps",
+    "pierre de taille",
+    "souche de cheminée"
+  ],
   "photos": [
     {
       "id_pic": "Ternes-Av-51_17_§1",
       "IndexJantzen": [
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "baie",
+        "balcon",
+        "balustrade",
+        "corniche",
+        "garde-corps",
+        "chambranle",
+        "pierre de taille",
+        "souche de cheminée"
       ],
       "dateCapture": null
     }

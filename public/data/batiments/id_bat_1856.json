@@ -23,16 +23,46 @@
   "WPfr": null,
   "image_ref": "Pont_Louis_Philippe-25_4_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "sculpture",
-    "décor",
-    "pilastre"
+    "pilastre",
+    "fenetre",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "bandeau",
+    "chapiteau",
+    "corniche",
+    "fenêtre",
+    "garde-corps",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "travée",
+    "vitrail"
   ],
   "photos": [
     {
       "id_pic": "Pont_Louis_Philippe-25_4_§1",
       "IndexJantzen": [
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "pilastre",
+        "corniche",
+        "bandeau",
+        "oculus",
+        "mascaron",
+        "porte",
+        "travée",
+        "pierre de taille",
+        "chapiteau",
+        "balcon",
+        "garde-corps",
+        "vitrail"
       ],
       "dateCapture": "2008:09:19"
     },
@@ -43,6 +73,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:09:19"
     },
     {
@@ -51,6 +82,7 @@
         "fenetre",
         "pilastre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:09:19"
     }
   ]

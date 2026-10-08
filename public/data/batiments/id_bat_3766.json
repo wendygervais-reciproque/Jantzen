@@ -26,9 +26,35 @@
   "WPfr": null,
   "image_ref": "La-Bourdonnais-9_7_§1",
   "terme_jantzen_bat": [
-    "porte-fer",
     "fenetre",
-    "façade-d'angle"
+    "façade-d'angle",
+    "porte-fer"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "avant-corps",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "oriel",
+    "pierre de taille",
+    "pilastre",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "volet",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -37,6 +63,32 @@
         "façade-d'angle",
         "fenetre"
       ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "lucarne",
+        "mansarde",
+        "toit à deux versants",
+        "souche de cheminée",
+        "épi de faîtage",
+        "corniche",
+        "bandeau",
+        "pilastre",
+        "oriel",
+        "mascaron",
+        "volet",
+        "porte-fenêtre",
+        "pierre de taille",
+        "fer forgé",
+        "avant-corps",
+        "travée",
+        "oculus",
+        "arc en plein cintre",
+        "ardoise",
+        "chambranle"
+      ],
       "dateCapture": "2005:04:02"
     },
     {
@@ -44,6 +96,7 @@
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:02"
     }
   ]

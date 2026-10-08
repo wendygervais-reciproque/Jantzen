@@ -28,12 +28,31 @@
   "WPfr": null,
   "image_ref": "Damremont-15_18_§1-2",
   "terme_jantzen_bat": [
-    "fenetre",
-    "lucarne",
-    "façade-d'angle",
+    "balcon",
     "dome",
+    "façade-d'angle",
     "fenetre-d'angle",
-    "balcon"
+    "fenetre",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "chaîne d'angle",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "oriel",
+    "pierre de taille",
+    "pilastre",
+    "souche de cheminée",
+    "toit à deux versants",
+    "tour",
+    "travée"
   ],
   "photos": [
     {
@@ -41,6 +60,25 @@
       "IndexJantzen": [
         "dome",
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "dôme",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "souche de cheminée",
+        "corniche",
+        "pierre de taille",
+        "travée",
+        "fer forgé",
+        "oriel",
+        "mascaron",
+        "toit à deux versants",
+        "tour",
+        "chaîne d'angle",
+        "pilastre",
+        "arc en plein cintre"
       ],
       "dateCapture": "2006:04:08"
     },
@@ -50,6 +88,7 @@
         "dome",
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:27"
     },
     {
@@ -59,6 +98,7 @@
         "dome",
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:08"
     },
     {
@@ -68,6 +108,7 @@
         "fenetre",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:03:14"
     },
     {
@@ -76,6 +117,7 @@
         "dome",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:03:14"
     },
     {
@@ -84,6 +126,7 @@
         "dome",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:08"
     }
   ]

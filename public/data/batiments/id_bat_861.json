@@ -21,14 +21,34 @@
   "WPfr": null,
   "image_ref": "St-Dominique-14_7_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "façade",
-    "garde-corps",
+    "pilastre",
     "sculpture",
     "clé",
+    "fenetre",
+    "façade",
+    "fronton",
+    "garde-corps",
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "mascaron",
+    "perron",
+    "pierre de taille",
     "pilastre",
-    "porte-bois",
-    "fronton"
+    "porte-fenêtre",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "volet",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -36,6 +56,26 @@
       "IndexJantzen": [
         "façade",
         "fronton"
+      ],
+      "IndexTorneh": [
+        "fronton",
+        "sculpture",
+        "fenêtre",
+        "porte-fenêtre",
+        "balcon",
+        "garde-corps",
+        "arc en plein cintre",
+        "pilastre",
+        "corniche",
+        "balustrade",
+        "mascaron",
+        "pierre de taille",
+        "perron",
+        "toit à deux versants",
+        "ardoise",
+        "souche de cheminée",
+        "épi de faîtage",
+        "volet"
       ],
       "dateCapture": "2005:09:18"
     },
@@ -47,6 +87,7 @@
         "pilastre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:09:18"
     },
     {
@@ -57,6 +98,7 @@
         "garde-corps",
         "pilastre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:09:18"
     },
     {
@@ -65,6 +107,7 @@
         "fenetre",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:09:18"
     },
     {
@@ -73,6 +116,7 @@
         "fronton",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:09:18"
     }
   ]

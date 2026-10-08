@@ -23,11 +23,31 @@
   "terme_jantzen_bat": [
     "porte-fer-hall"
   ],
+  "terme_torneh_bat": [
+    "arc",
+    "balcon",
+    "chaîne d'angle",
+    "fer forgé",
+    "garde-corps",
+    "pierre de taille",
+    "porte",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Legendre-175_17_§1",
       "IndexJantzen": [
         "porte-fer-hall"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "arc",
+        "fer forgé",
+        "vantail",
+        "balcon",
+        "garde-corps",
+        "pierre de taille",
+        "chaîne d'angle"
       ],
       "dateCapture": "2004:06:28"
     }

@@ -21,13 +21,35 @@
   "WPfr": null,
   "image_ref": "Cherche-Midi-37_6_§1",
   "terme_jantzen_bat": [
-    "porte-fer",
+    "balcon",
     "façade-d'angle",
-    "porte",
+    "porte-fer",
     "sculpture",
     "clé",
     "fenetre-d'angle",
-    "balcon"
+    "porte"
+  ],
+  "terme_torneh_bat": [
+    "arc brisé",
+    "arc en plein cintre",
+    "baie",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "grille",
+    "mascaron",
+    "oriel",
+    "pierre de taille",
+    "pilastre",
+    "portail",
+    "porte",
+    "soupirail",
+    "toit-terrasse",
+    "travée"
   ],
   "photos": [
     {
@@ -37,6 +59,28 @@
         "façade-d'angle",
         "porte"
       ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "baie",
+        "fenêtre",
+        "portail",
+        "porte",
+        "arc en plein cintre",
+        "arc brisé",
+        "corniche",
+        "bandeau",
+        "mascaron",
+        "pierre de taille",
+        "garde-corps",
+        "grille",
+        "fer forgé",
+        "travée",
+        "toit-terrasse",
+        "oriel",
+        "soupirail",
+        "pilastre"
+      ],
       "dateCapture": "2008:05:12"
     },
     {
@@ -45,6 +89,7 @@
         "balcon",
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:16"
     },
     {
@@ -52,6 +97,7 @@
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:16"
     },
     {
@@ -59,6 +105,7 @@
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:16"
     },
     {
@@ -67,6 +114,7 @@
         "clé",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:16"
     }
   ]

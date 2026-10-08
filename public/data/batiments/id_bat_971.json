@@ -23,11 +23,47 @@
   "terme_jantzen_bat": [
     "fenetre"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "auvent",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "garde-corps",
+    "mascaron",
+    "pilastre",
+    "porte",
+    "porte-fenêtre",
+    "travée",
+    "vantail",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Flandre-146_19_§1",
       "IndexJantzen": [
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "pilastre",
+        "corniche",
+        "bandeau",
+        "porte",
+        "porte-fenêtre",
+        "arc en plein cintre",
+        "mascaron",
+        "volet",
+        "auvent",
+        "vantail",
+        "travée",
+        "chambranle"
       ],
       "dateCapture": "2015:10:08"
     }

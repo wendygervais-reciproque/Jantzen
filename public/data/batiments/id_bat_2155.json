@@ -23,11 +23,31 @@
   "terme_jantzen_bat": [
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mansarde",
+    "oriel",
+    "souche de cheminée",
+    "toit à deux versants"
+  ],
   "photos": [
     {
       "id_pic": "Dragon-30_6_§1",
       "IndexJantzen": [
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "oriel",
+        "garde-corps",
+        "balcon",
+        "fenêtre",
+        "souche de cheminée",
+        "mansarde",
+        "fer forgé",
+        "toit à deux versants"
       ],
       "dateCapture": "2005:05:28"
     }

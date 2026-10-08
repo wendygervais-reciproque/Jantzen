@@ -26,12 +26,34 @@
     "sculpture",
     "console"
   ],
+  "terme_torneh_bat": [
+    "arc brisé",
+    "balcon",
+    "balustrade",
+    "corniche",
+    "fenêtre",
+    "modillon",
+    "oriel",
+    "pierre de taille",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Pyrenees-63_20_§1",
       "IndexJantzen": [
         "console",
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "balustrade",
+        "balcon",
+        "corniche",
+        "fenêtre",
+        "arc brisé",
+        "pierre de taille",
+        "modillon",
+        "volet",
+        "oriel"
       ],
       "dateCapture": "2005:07:16"
     }

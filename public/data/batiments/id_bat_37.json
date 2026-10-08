@@ -28,11 +28,34 @@
   "WPfr": null,
   "image_ref": "Louvre-1-Cn_P-Richelieu-1-",
   "terme_jantzen_bat": [
-    "fenetre",
     "sculpture",
     "cariatide",
+    "fenetre",
     "fronton",
     "colonne"
+  ],
+  "terme_torneh_bat": [
+    "arc brisé",
+    "arc en plein cintre",
+    "atlante",
+    "attique",
+    "balustrade",
+    "cariatide",
+    "chapiteau corinthien",
+    "colonne",
+    "corniche",
+    "dôme",
+    "entablement",
+    "fenêtre",
+    "frise",
+    "fronton",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "sculpture",
+    "travée",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -42,6 +65,29 @@
         "fenetre",
         "fronton",
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "fronton",
+        "sculpture",
+        "chapiteau corinthien",
+        "colonne",
+        "pilastre",
+        "fenêtre",
+        "arc en plein cintre",
+        "arc brisé",
+        "entablement",
+        "corniche",
+        "attique",
+        "dôme",
+        "cariatide",
+        "atlante",
+        "épi de faîtage",
+        "balustrade",
+        "travée",
+        "pierre de taille",
+        "mascaron",
+        "frise",
+        "oculus"
       ],
       "dateCapture": "2006:06:17"
     },
@@ -53,6 +99,7 @@
         "fronton",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:17"
     },
     {
@@ -63,6 +110,7 @@
         "fronton",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:17"
     },
     {
@@ -72,6 +120,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:17"
     },
     {
@@ -81,6 +130,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:17"
     },
     {
@@ -90,6 +140,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:17"
     },
     {
@@ -99,6 +150,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:17"
     }
   ]

@@ -24,10 +24,25 @@
   "image_ref": "Niel-9_17_§1",
   "terme_jantzen_bat": [
     "oeil-de-boeuf",
-    "porte-fer",
-    "lucarne",
     "dome",
-    "intérieur"
+    "porte-fer",
+    "intérieur",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "corniche",
+    "dôme",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "tuile"
   ],
   "photos": [
     {
@@ -37,6 +52,21 @@
         "lucarne",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [
+        "dôme",
+        "oculus",
+        "souche de cheminée",
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "porte-fenêtre",
+        "mascaron",
+        "ardoise",
+        "pierre de taille",
+        "fronton",
+        "tuile",
+        "corniche"
+      ],
       "dateCapture": "2008:03:27"
     },
     {
@@ -45,6 +75,7 @@
         "intérieur",
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": null
     },
     {
@@ -52,6 +83,7 @@
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": null
     }
   ]

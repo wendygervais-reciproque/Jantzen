@@ -24,12 +24,40 @@
     "fenetre",
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "baie",
+    "balcon",
+    "chambranle",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "pierre de taille",
+    "porte",
+    "vantail",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Madame-64_6_§1",
       "IndexJantzen": [
         "fenetre",
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "arc en plein cintre",
+        "arc",
+        "baie",
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "volet",
+        "porte",
+        "vantail",
+        "pierre de taille",
+        "chambranle",
+        "fer forgé"
       ],
       "dateCapture": "2004:09:06"
     }

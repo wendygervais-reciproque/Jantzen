@@ -25,11 +25,47 @@
   "terme_jantzen_bat": [
     "garde-corps"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "frise",
+    "garde-corps",
+    "oriel",
+    "pierre de taille",
+    "porte-fenêtre",
+    "sculpture",
+    "travée",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Republique-103_11_§1-Rs",
       "IndexJantzen": [
         "garde-corps"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "porte-fenêtre",
+        "volet",
+        "oriel",
+        "travée",
+        "corniche",
+        "frise",
+        "pierre de taille",
+        "fer forgé",
+        "bandeau",
+        "dôme",
+        "sculpture",
+        "brique"
       ],
       "dateCapture": "2009:09:28"
     }

@@ -24,15 +24,51 @@
   "image_ref": "Cherche-Midi-85_6_§1",
   "terme_jantzen_bat": [
     "sculpture",
-    "fenetre",
     "garde-corps",
+    "fenetre",
     "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "grille",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "pierre de taille",
+    "sculpture",
+    "souche de cheminée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Cherche-Midi-85_6_§1",
       "IndexJantzen": [
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "mansarde",
+        "lucarne",
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "mascaron",
+        "arc",
+        "arc en plein cintre",
+        "sculpture",
+        "pierre de taille",
+        "corniche",
+        "souche de cheminée",
+        "volet",
+        "grille",
+        "balustrade"
       ],
       "dateCapture": "2004:06:13"
     },
@@ -41,6 +77,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:06:13"
     },
     {
@@ -48,6 +85,7 @@
       "IndexJantzen": [
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:06:13"
     },
     {
@@ -56,6 +94,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:06:13"
     },
     {
@@ -64,6 +103,7 @@
         "fenetre",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:06:13"
     },
     {
@@ -72,6 +112,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:06:13"
     }
   ]

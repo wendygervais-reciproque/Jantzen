@@ -28,10 +28,28 @@
   "WPfr": null,
   "image_ref": "La-Fayette-91_9_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "cariatide",
     "sculpture",
+    "cariatide",
+    "fenetre",
     "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "atlante",
+    "balcon",
+    "balustrade",
+    "cariatide",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "mascaron",
+    "pierre de taille",
+    "pilastre",
+    "sculpture",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -40,6 +58,24 @@
         "cariatide",
         "fenetre",
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "fenêtre",
+        "arc en plein cintre",
+        "fronton",
+        "mascaron",
+        "cariatide",
+        "atlante",
+        "pilastre",
+        "chambranle",
+        "sculpture",
+        "pierre de taille",
+        "corniche",
+        "travée",
+        "volet"
       ],
       "dateCapture": "2006:07:02"
     },
@@ -50,6 +86,7 @@
         "fenetre",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:02"
     },
     {
@@ -59,6 +96,7 @@
         "fenetre",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:04"
     },
     {
@@ -67,6 +105,7 @@
         "cariatide",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:04"
     },
     {
@@ -75,6 +114,7 @@
         "cariatide",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:04"
     }
   ]

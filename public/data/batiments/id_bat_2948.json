@@ -21,11 +21,30 @@
   "WPfr": null,
   "image_ref": "St-Germain-52_5_§1",
   "terme_jantzen_bat": [
+    "balcon",
+    "fenetre-d'angle",
     "fenetre",
     "façade",
+    "garde-corps"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fronton",
     "garde-corps",
-    "fenetre-d'angle",
-    "balcon"
+    "linteau",
+    "lucarne",
+    "mansarde",
+    "pierre de taille",
+    "pilastre",
+    "souche de cheminée",
+    "toit à deux versants",
+    "volet"
   ],
   "photos": [
     {
@@ -34,6 +53,25 @@
         "balcon",
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "bandeau",
+        "chambranle",
+        "corniche",
+        "fenêtre",
+        "fronton",
+        "garde-corps",
+        "lucarne",
+        "mansarde",
+        "pierre de taille",
+        "souche de cheminée",
+        "toit à deux versants",
+        "volet",
+        "ardoise",
+        "linteau",
+        "pilastre"
+      ],
       "dateCapture": "2010:03:23"
     },
     {
@@ -41,6 +79,7 @@
       "IndexJantzen": [
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:03:23"
     },
     {
@@ -49,6 +88,7 @@
         "balcon",
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:03:23"
     },
     {
@@ -57,6 +97,7 @@
         "balcon",
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:03:23"
     },
     {
@@ -64,6 +105,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:03:23"
     },
     {
@@ -73,6 +115,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:03:23"
     }
   ]

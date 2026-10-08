@@ -29,14 +29,48 @@
   "image_ref": "La-Fayette-100_10_§1",
   "terme_jantzen_bat": [
     "fenetre-d'angle",
+    "façade-d'angle",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
     "lucarne",
-    "façade-d'angle"
+    "mansarde",
+    "pierre de taille",
+    "porte",
+    "toit à deux versants",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "La-Fayette-100_10_§1",
       "IndexJantzen": [
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "bandeau",
+        "fenêtre",
+        "garde-corps",
+        "lucarne",
+        "mansarde",
+        "pierre de taille",
+        "toit à deux versants",
+        "travée",
+        "ardoise",
+        "porte",
+        "volet",
+        "corniche",
+        "fer forgé"
       ],
       "dateCapture": "2008:02:18"
     },
@@ -45,6 +79,7 @@
       "IndexJantzen": [
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:18"
     },
     {
@@ -52,6 +87,7 @@
       "IndexJantzen": [
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:18"
     },
     {
@@ -59,6 +95,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:18"
     }
   ]

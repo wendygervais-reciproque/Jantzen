@@ -24,18 +24,38 @@
   "arrondissement": 1,
   "tri_alphab": "Rivoli",
   "coordonnees": {
-    "latitude": "48.856916666667",
-    "longitude": "2.3536722222222"
+    "latitude": "48.8637111",
+    "longitude": "2.3322185"
   },
   "id_pss": 33391,
   "id_wikidata": null,
   "WPfr": null,
   "image_ref": "Rivoli_1_§1",
   "terme_jantzen_bat": [
-    "toiture",
-    "lucarne",
     "façade",
-    "voie"
+    "voie",
+    "toiture",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "arcade",
+    "auvent",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "pilastre",
+    "porte",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -45,6 +65,26 @@
         "toiture",
         "voie"
       ],
+      "IndexTorneh": [
+        "arcade",
+        "arc en plein cintre",
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "garde-corps",
+        "lucarne",
+        "mansarde",
+        "souche de cheminée",
+        "toit à deux versants",
+        "volet",
+        "corniche",
+        "bandeau",
+        "pilastre",
+        "arc",
+        "porte",
+        "auvent",
+        "travée"
+      ],
       "dateCapture": "2005:08:10"
     },
     {
@@ -53,6 +93,7 @@
         "façade",
         "voie"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2014:04:25"
     },
     {
@@ -60,6 +101,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:08:10"
     },
     {
@@ -67,6 +109,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:08:10"
     },
     {
@@ -75,6 +118,7 @@
         "façade",
         "voie"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:07:23"
     },
     {
@@ -83,6 +127,7 @@
         "lucarne",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2013:04:25"
     },
     {
@@ -91,6 +136,7 @@
         "façade",
         "voie"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:01:28"
     },
     {
@@ -98,6 +144,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:08:10"
     },
     {
@@ -106,6 +153,7 @@
         "lucarne",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:08:10"
     }
   ]

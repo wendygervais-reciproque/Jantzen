@@ -32,15 +32,43 @@
   "WPfr": null,
   "image_ref": "Monsieur-21_7_§1",
   "terme_jantzen_bat": [
+    "porte-fer-hall",
     "sculpture",
-    "console",
-    "porte-fer-hall"
+    "console"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "chambranle",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "grille",
+    "linteau",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "vantail"
   ],
   "photos": [
     {
       "id_pic": "Monsieur-21_7_§1",
       "IndexJantzen": [
         "porte-fer-hall"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "fer forgé",
+        "vantail",
+        "sculpture",
+        "mascaron",
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "grille",
+        "pierre de taille",
+        "linteau",
+        "chambranle"
       ],
       "dateCapture": "2005:05:01"
     },
@@ -50,6 +78,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:01"
     }
   ]

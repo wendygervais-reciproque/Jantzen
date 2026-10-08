@@ -28,17 +28,49 @@
   "WPfr": null,
   "image_ref": "Francois-Miron-14_4_§1-Rs",
   "terme_jantzen_bat": [
+    "balcon",
+    "console",
     "fenetre",
     "garde-corps",
-    "console",
-    "porte-bois",
-    "balcon"
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "oriel",
+    "pierre de taille",
+    "porte",
+    "porte-fenêtre",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Francois-Miron-14_4_§1-Rs",
       "IndexJantzen": [
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "travée",
+        "bandeau",
+        "pierre de taille",
+        "balustrade",
+        "arc en plein cintre",
+        "porte",
+        "oriel",
+        "mascaron",
+        "porte-fenêtre",
+        "volet"
       ],
       "dateCapture": "2010:04:23"
     },
@@ -47,6 +79,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:08"
     },
     {
@@ -55,6 +88,7 @@
         "fenetre",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:04:23"
     },
     {
@@ -63,6 +97,7 @@
         "fenetre",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:04:23"
     },
     {
@@ -71,6 +106,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:04:23"
     },
     {
@@ -79,6 +115,7 @@
         "balcon",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:08"
     },
     {
@@ -89,6 +126,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:04:23"
     }
   ]

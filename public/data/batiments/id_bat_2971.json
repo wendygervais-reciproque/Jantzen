@@ -31,11 +31,41 @@
     "façade",
     "porte-fer-hall"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "oculus",
+    "oriel",
+    "pierre de taille",
+    "porte",
+    "travée"
+  ],
   "photos": [
     {
       "id_pic": "Clichy-53_9_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "fenêtre",
+        "oriel",
+        "mascaron",
+        "corniche",
+        "pierre de taille",
+        "fer forgé",
+        "travée",
+        "porte",
+        "bandeau",
+        "oculus"
       ],
       "dateCapture": "2004:08:27"
     },
@@ -44,6 +74,7 @@
       "IndexJantzen": [
         "porte-fer-hall"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:08:27"
     }
   ]

@@ -24,12 +24,48 @@
     "fenetre",
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "modillon",
+    "pierre de taille",
+    "souche de cheminée",
+    "travée",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Brunel-29_17_§1",
       "IndexJantzen": [
         "fenetre",
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "lucarne",
+        "mansarde",
+        "garde-corps",
+        "fer forgé",
+        "ardoise",
+        "pierre de taille",
+        "corniche",
+        "modillon",
+        "arc en plein cintre",
+        "souche de cheminée",
+        "volet",
+        "travée",
+        "fronton"
       ],
       "dateCapture": "2008:03:29"
     }

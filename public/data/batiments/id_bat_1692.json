@@ -22,8 +22,28 @@
   "image_ref": "Capitaine-Ferber-22_20_§1",
   "terme_jantzen_bat": [
     "fenetre",
+    "décor",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
     "lucarne",
-    "décor"
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "porte-fenêtre",
+    "sculpture",
+    "toit à deux versants",
+    "volet",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -31,6 +51,26 @@
       "IndexJantzen": [
         "décor",
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "ardoise",
+        "balcon",
+        "balustrade",
+        "bandeau",
+        "chambranle",
+        "fer forgé",
+        "fenêtre",
+        "fronton",
+        "garde-corps",
+        "mascaron",
+        "oculus",
+        "pierre de taille",
+        "porte-fenêtre",
+        "sculpture",
+        "toit à deux versants",
+        "volet",
+        "épi de faîtage",
+        "lucarne"
       ],
       "dateCapture": "2005:06:18"
     },
@@ -40,6 +80,7 @@
         "décor",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:18"
     }
   ]

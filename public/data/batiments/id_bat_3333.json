@@ -22,10 +22,21 @@
   "image_ref": "Malesherbes-68_8_§1",
   "terme_jantzen_bat": [
     "oeil-de-boeuf",
-    "fenetre",
-    "lucarne",
     "sculpture",
-    "clé"
+    "clé",
+    "fenetre",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "corniche",
+    "faîtage",
+    "fenêtre",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "volet"
   ],
   "photos": [
     {
@@ -33,6 +44,17 @@
       "IndexJantzen": [
         "lucarne",
         "oeil-de-boeuf"
+      ],
+      "IndexTorneh": [
+        "oculus",
+        "lucarne",
+        "ardoise",
+        "mascaron",
+        "corniche",
+        "volet",
+        "fenêtre",
+        "faîtage",
+        "mansarde"
       ],
       "dateCapture": "2005:08:10"
     },
@@ -43,6 +65,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:10"
     }
   ]

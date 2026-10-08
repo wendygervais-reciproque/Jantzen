@@ -24,12 +24,42 @@
     "fenetre",
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "balcon",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "gros appareil",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "vantail",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Montorgueil-23_1_§1",
       "IndexJantzen": [
         "fenetre",
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "arc",
+        "arc en plein cintre",
+        "porte",
+        "vantail",
+        "mascaron",
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "volet",
+        "pierre de taille",
+        "sculpture",
+        "gros appareil"
       ],
       "dateCapture": "2004:09:01"
     },
@@ -39,6 +69,7 @@
         "fenetre",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:08:31"
     },
     {
@@ -47,6 +78,7 @@
         "fenetre",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:08:31"
     }
   ]

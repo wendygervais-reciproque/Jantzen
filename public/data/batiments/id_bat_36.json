@@ -19,11 +19,27 @@
   "WPfr": null,
   "image_ref": "Louvre-1-Pc_P-Mollien-1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "lucarne",
     "sculpture",
     "cariatide",
+    "fenetre",
+    "lucarne",
     "fronton"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balustrade",
+    "bandeau",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "lucarne",
+    "mascaron",
+    "pierre de taille",
+    "pilastre",
+    "sculpture",
+    "toit en pavillon"
   ],
   "photos": [
     {
@@ -34,6 +50,7 @@
         "fronton",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:30"
     },
     {
@@ -44,6 +61,7 @@
         "lucarne",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:30"
     },
     {
@@ -52,6 +70,7 @@
         "cariatide",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:30"
     },
     {
@@ -60,6 +79,7 @@
         "cariatide",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:30"
     },
     {
@@ -68,6 +88,7 @@
         "cariatide",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:30"
     },
     {
@@ -76,6 +97,7 @@
         "cariatide",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:30"
     },
     {
@@ -85,6 +107,22 @@
         "fronton",
         "lucarne",
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "lucarne",
+        "fenêtre",
+        "sculpture",
+        "mascaron",
+        "fronton",
+        "pilastre",
+        "corniche",
+        "balustrade",
+        "ardoise",
+        "pierre de taille",
+        "toit en pavillon",
+        "arc en plein cintre",
+        "bandeau",
+        "chaîne d'angle"
       ],
       "dateCapture": "2006:06:17"
     },
@@ -96,6 +134,7 @@
         "lucarne",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:17"
     },
     {
@@ -104,6 +143,7 @@
         "fronton",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:17"
     },
     {
@@ -112,6 +152,7 @@
         "cariatide",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:17"
     }
   ]

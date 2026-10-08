@@ -21,8 +21,28 @@
   "WPfr": null,
   "image_ref": "Terrasse-25_17_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "brique"
+    "brique",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "brique",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "grille",
+    "linteau",
+    "mansarde",
+    "mascaron",
+    "modillon",
+    "pierre de taille",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "volet"
   ],
   "photos": [
     {
@@ -30,6 +50,26 @@
       "IndexJantzen": [
         "brique",
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "brique",
+        "chaîne d'angle",
+        "corniche",
+        "fenêtre",
+        "fer forgé",
+        "garde-corps",
+        "grille",
+        "linteau",
+        "mansarde",
+        "mascaron",
+        "modillon",
+        "pierre de taille",
+        "porte-fenêtre",
+        "souche de cheminée",
+        "volet",
+        "arc en plein cintre"
       ],
       "dateCapture": "2004:10:05"
     }

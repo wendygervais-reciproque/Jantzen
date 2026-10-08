@@ -21,9 +21,27 @@
   "WPfr": null,
   "image_ref": "Caulaincourt-107_18_1",
   "terme_jantzen_bat": [
-    "lucarne",
     "lucarne-d'angle",
-    "dome"
+    "dome",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "chambranle",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "tour",
+    "volet",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -31,6 +49,24 @@
       "IndexJantzen": [
         "dome",
         "lucarne-d'angle"
+      ],
+      "IndexTorneh": [
+        "dôme",
+        "tour",
+        "lucarne",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "volet",
+        "mascaron",
+        "épi de faîtage",
+        "ardoise",
+        "pierre de taille",
+        "chambranle",
+        "fronton",
+        "oculus"
       ],
       "dateCapture": "2006:04:08"
     },
@@ -40,6 +76,7 @@
         "dome",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:08"
     }
   ]

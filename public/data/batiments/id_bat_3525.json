@@ -21,15 +21,31 @@
   "WPfr": null,
   "image_ref": "Marceau-76_8_§1",
   "terme_jantzen_bat": [
+    "balcon",
     "porte-fer",
-    "fenetre",
-    "console",
     "sculpture",
     "clé",
-    "porte-fer-hall",
+    "console",
+    "fenetre",
     "intérieur",
+    "poignée-porte",
+    "porte-fer-hall"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
     "balcon",
-    "poignée-porte"
+    "balustrade",
+    "bossage",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "grille",
+    "mascaron",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "sculpture",
+    "volet"
   ],
   "photos": [
     {
@@ -39,6 +55,22 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "volet",
+        "porte",
+        "arc en plein cintre",
+        "mascaron",
+        "sculpture",
+        "fer forgé",
+        "corniche",
+        "pierre de taille",
+        "bossage",
+        "grille",
+        "portail"
+      ],
       "dateCapture": "2005:03:20"
     },
     {
@@ -46,6 +78,7 @@
       "IndexJantzen": [
         "balcon"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:03:20"
     },
     {
@@ -54,6 +87,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:03:20"
     },
     {
@@ -61,6 +95,7 @@
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:03:20"
     },
     {
@@ -68,6 +103,7 @@
       "IndexJantzen": [
         "porte-fer-hall"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:06"
     },
     {
@@ -76,6 +112,7 @@
         "intérieur",
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": null
     },
     {
@@ -85,6 +122,7 @@
         "porte-fer",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:31"
     },
     {
@@ -93,6 +131,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:31"
     },
     {
@@ -101,6 +140,7 @@
         "poignée-porte",
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": null
     }
   ]

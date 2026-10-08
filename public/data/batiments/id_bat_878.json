@@ -28,18 +28,72 @@
   "WPfr": null,
   "image_ref": "Adolphe-Cherioux-pl-14_15_§1",
   "terme_jantzen_bat": [
+    "oriel",
+    "console",
     "fenetre",
     "façade",
-    "console",
+    "porte-fer-hall",
+    "garde-corps"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "colonne",
+    "fenêtre",
+    "fer forgé",
     "garde-corps",
+    "jambage",
+    "linteau",
+    "lucarne",
+    "mansarde",
+    "mascaron",
     "oriel",
-    "porte-fer-hall"
+    "pierre de taille",
+    "pilastre",
+    "portail",
+    "porte",
+    "porte-fenêtre",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Adolphe-Cherioux-pl-14_15_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "porte",
+        "porte-fenêtre",
+        "mascaron",
+        "lucarne",
+        "mansarde",
+        "pierre de taille",
+        "fer forgé",
+        "arc en plein cintre",
+        "colonne",
+        "pilastre",
+        "oriel",
+        "sculpture",
+        "volet",
+        "portail",
+        "toit à deux versants",
+        "souche de cheminée",
+        "bandeau",
+        "travée",
+        "chambranle",
+        "jambage",
+        "linteau"
       ],
       "dateCapture": "2004:05:18"
     },
@@ -48,6 +102,7 @@
       "IndexJantzen": [
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:05:18"
     },
     {
@@ -56,6 +111,7 @@
         "console",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:05:18"
     },
     {
@@ -64,6 +120,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:05:18"
     },
     {
@@ -71,6 +128,7 @@
       "IndexJantzen": [
         "porte-fer-hall"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:05:18"
     }
   ]

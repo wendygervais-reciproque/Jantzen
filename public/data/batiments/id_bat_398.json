@@ -28,11 +28,39 @@
   "terme_jantzen_bat": [
     "porte-fer"
   ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "balcon",
+    "chambranle",
+    "fer forgé",
+    "garde-corps",
+    "jambage",
+    "mascaron",
+    "pierre de taille",
+    "portail",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Raymond-Poincarre-105_16_§1",
       "IndexJantzen": [
         "porte-fer"
+      ],
+      "IndexTorneh": [
+        "arc en plein cintre",
+        "arc",
+        "portail",
+        "fer forgé",
+        "sculpture",
+        "mascaron",
+        "pierre de taille",
+        "balcon",
+        "garde-corps",
+        "vantail",
+        "chambranle",
+        "jambage"
       ],
       "dateCapture": "2006:06:30"
     }

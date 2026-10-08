@@ -28,9 +28,23 @@
   "WPfr": null,
   "image_ref": "Villiers-134_17_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "brique",
-    "pignon"
+    "pignon",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "brique",
+    "céramique",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "pierre de taille",
+    "souche de cheminée",
+    "toit à deux versants",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -39,6 +53,20 @@
         "brique",
         "fenetre",
         "pignon"
+      ],
+      "IndexTorneh": [
+        "brique",
+        "ardoise",
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "lucarne",
+        "céramique",
+        "toit à deux versants",
+        "souche de cheminée",
+        "épi de faîtage",
+        "pierre de taille"
       ],
       "dateCapture": "2004:10:01"
     }

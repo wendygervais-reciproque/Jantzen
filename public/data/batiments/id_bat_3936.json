@@ -28,14 +28,56 @@
   "WPfr": null,
   "image_ref": "Cherche-Midi-98_6_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "porte-fer-hall"
+    "porte-fer-hall",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "grille",
+    "lucarne",
+    "marquise",
+    "mascaron",
+    "oriel",
+    "pierre de taille",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "vantail",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Cherche-Midi-98_6_§1",
       "IndexJantzen": [
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "porte-fenêtre",
+        "fronton",
+        "corniche",
+        "bandeau",
+        "pierre de taille",
+        "chaîne d'angle",
+        "oriel",
+        "ardoise",
+        "lucarne",
+        "souche de cheminée",
+        "mascaron",
+        "marquise",
+        "grille",
+        "volet",
+        "vantail"
       ],
       "dateCapture": "2004:06:13"
     },
@@ -44,6 +86,7 @@
       "IndexJantzen": [
         "porte-fer-hall"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:01"
     }
   ]

@@ -28,15 +28,41 @@
   "WPfr": null,
   "image_ref": "Ernest-Lacoste-6_12_§1",
   "terme_jantzen_bat": [
+    "porte-fer-hall",
     "mosaique",
-    "décor",
-    "porte-fer-hall"
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "chambranle",
+    "corniche",
+    "céramique",
+    "fer forgé",
+    "huisserie",
+    "jambage",
+    "oculus",
+    "pilastre",
+    "porte",
+    "sculpture",
+    "vantail"
   ],
   "photos": [
     {
       "id_pic": "Ernest-Lacoste-6_12_§1",
       "IndexJantzen": [
         "porte-fer-hall"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "fer forgé",
+        "vantail",
+        "sculpture",
+        "corniche",
+        "pilastre",
+        "céramique",
+        "chambranle",
+        "jambage",
+        "oculus",
+        "huisserie"
       ],
       "dateCapture": "2004:07:27"
     },
@@ -46,6 +72,7 @@
         "décor",
         "mosaique"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:27"
     }
   ]

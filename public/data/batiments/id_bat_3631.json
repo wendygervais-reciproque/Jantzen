@@ -28,10 +28,24 @@
   "WPfr": null,
   "image_ref": "Renaudes-8_17_§2",
   "terme_jantzen_bat": [
-    "fenetre",
     "brique",
+    "garde-corps",
     "console",
-    "garde-corps"
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "brique",
+    "chambranle",
+    "corniche",
+    "fer forgé",
+    "garde-corps",
+    "grille",
+    "linteau",
+    "modillon",
+    "porte-fenêtre"
   ],
   "photos": [
     {
@@ -41,6 +55,20 @@
         "console",
         "fenetre",
         "garde-corps"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "porte-fenêtre",
+        "brique",
+        "corniche",
+        "ardoise",
+        "balustrade",
+        "fer forgé",
+        "modillon",
+        "chambranle",
+        "linteau",
+        "grille"
       ],
       "dateCapture": "2004:09:02"
     }

@@ -30,11 +30,29 @@
   "terme_jantzen_bat": [
     "porte-fer-hall"
   ],
+  "terme_torneh_bat": [
+    "arc",
+    "fer forgé",
+    "grille",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Plelo-13_15_§1",
       "IndexJantzen": [
         "porte-fer-hall"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "fer forgé",
+        "sculpture",
+        "arc",
+        "vantail",
+        "pierre de taille",
+        "grille"
       ],
       "dateCapture": "2005:04:21"
     }

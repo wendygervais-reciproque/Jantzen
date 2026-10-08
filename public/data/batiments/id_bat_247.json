@@ -23,11 +23,39 @@
   "terme_jantzen_bat": [
     "colonne"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "chapiteau corinthien",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "modillon",
+    "pierre de taille",
+    "pilastre",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Hermel-1_18_§1",
       "IndexJantzen": [
         "colonne"
+      ],
+      "IndexTorneh": [
+        "pilastre",
+        "chapiteau corinthien",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "corniche",
+        "fenêtre",
+        "volet",
+        "mascaron",
+        "pierre de taille",
+        "fer forgé",
+        "modillon"
       ],
       "dateCapture": "2003:07:09"
     }

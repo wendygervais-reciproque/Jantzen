@@ -24,12 +24,34 @@
     "fenetre",
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "chambranle",
+    "fer forgé",
+    "grille",
+    "linteau",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Richer-19B_9_§1",
       "IndexJantzen": [
         "fenetre",
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "vantail",
+        "mascaron",
+        "sculpture",
+        "fer forgé",
+        "grille",
+        "chambranle",
+        "pierre de taille",
+        "linteau"
       ],
       "dateCapture": "2004:06:17"
     }

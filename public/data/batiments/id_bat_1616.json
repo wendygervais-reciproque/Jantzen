@@ -24,12 +24,56 @@
     "toiture",
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "acrotère",
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bossage",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "sculpture",
+    "souche de cheminée",
+    "toit en pavillon",
+    "volet",
+    "épi de faîtage"
+  ],
   "photos": [
     {
       "id_pic": "Anjou-21_8_§1",
       "IndexJantzen": [
         "lucarne",
         "toiture"
+      ],
+      "IndexTorneh": [
+        "dôme",
+        "épi de faîtage",
+        "souche de cheminée",
+        "oculus",
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "ardoise",
+        "pierre de taille",
+        "volet",
+        "sculpture",
+        "mascaron",
+        "acrotère",
+        "corniche",
+        "bossage",
+        "lucarne",
+        "arc en plein cintre",
+        "toit en pavillon"
       ],
       "dateCapture": "2004:04:25"
     }

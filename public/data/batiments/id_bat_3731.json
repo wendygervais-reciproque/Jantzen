@@ -34,14 +34,36 @@
   "terme_jantzen_bat": [
     "toiture",
     "oeil-de-boeuf",
-    "garde-corps",
+    "balcon",
+    "dome",
     "façade-d'angle",
     "sculpture",
-    "dome",
-    "fenetre-d'angle",
     "clé",
+    "fenetre-d'angle",
     "lucarne-d'angle",
-    "balcon"
+    "garde-corps"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "sculpture",
+    "souche de cheminée",
+    "tour",
+    "vitrail",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -50,6 +72,28 @@
         "dome",
         "façade-d'angle"
       ],
+      "IndexTorneh": [
+        "tour",
+        "dôme",
+        "épi de faîtage",
+        "lucarne",
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "mascaron",
+        "sculpture",
+        "corniche",
+        "ardoise",
+        "pierre de taille",
+        "fer forgé",
+        "garde-corps",
+        "porte",
+        "vitrail",
+        "oculus",
+        "souche de cheminée",
+        "bandeau",
+        "pilastre"
+      ],
       "dateCapture": "2007:04:11"
     },
     {
@@ -57,6 +101,7 @@
       "IndexJantzen": [
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:11"
     },
     {
@@ -66,6 +111,7 @@
         "dome",
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:11"
     },
     {
@@ -75,6 +121,7 @@
         "lucarne-d'angle",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:11"
     },
     {
@@ -83,6 +130,7 @@
         "dome",
         "lucarne-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:11"
     },
     {
@@ -92,6 +140,7 @@
         "lucarne-d'angle",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:11"
     },
     {
@@ -102,6 +151,7 @@
         "garde-corps",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:11"
     }
   ]

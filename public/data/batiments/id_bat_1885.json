@@ -28,19 +28,71 @@
   "WPfr": null,
   "image_ref": "Cadet-26_9_§1",
   "terme_jantzen_bat": [
+    "sculpture",
     "fenetre",
     "façade",
     "garde-corps",
-    "sculpture",
+    "colonne",
     "porte-bois",
-    "décor",
-    "colonne"
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chapiteau corinthien",
+    "colonne",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pilastre",
+    "porte",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "vantail",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Cadet-26_9_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "colonne",
+        "chapiteau corinthien",
+        "arc",
+        "arc en plein cintre",
+        "mansarde",
+        "lucarne",
+        "toit à deux versants",
+        "ardoise",
+        "porte",
+        "vantail",
+        "garde-corps",
+        "fer forgé",
+        "corniche",
+        "bandeau",
+        "pilastre",
+        "mascaron",
+        "souche de cheminée",
+        "volet",
+        "fronton",
+        "travée",
+        "oculus"
       ],
       "dateCapture": "2007:04:09"
     },
@@ -49,6 +101,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:04"
     },
     {
@@ -57,6 +110,7 @@
         "colonne",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:09"
     },
     {
@@ -64,6 +118,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:03:26"
     },
     {
@@ -73,6 +128,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:03:26"
     },
     {
@@ -81,6 +137,7 @@
         "colonne",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:09"
     },
     {
@@ -89,6 +146,7 @@
         "colonne",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:03:26"
     },
     {
@@ -98,6 +156,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:04"
     },
     {
@@ -105,6 +164,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:09"
     }
   ]

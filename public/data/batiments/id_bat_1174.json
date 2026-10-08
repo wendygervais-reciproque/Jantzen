@@ -32,15 +32,41 @@
   "WPfr": null,
   "image_ref": "Haussmann-166_8_§1",
   "terme_jantzen_bat": [
+    "porte-fer-hall",
     "porte-fer",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "chéneau",
+    "corniche",
+    "fenêtre",
     "lucarne",
-    "porte-fer-hall"
+    "mascaron",
+    "sculpture",
+    "souche de cheminée",
+    "vantail",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Haussmann-166_8_§1",
       "IndexJantzen": [
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "lucarne",
+        "ardoise",
+        "souche de cheminée",
+        "chéneau",
+        "corniche",
+        "mascaron",
+        "fenêtre",
+        "volet",
+        "arc en plein cintre",
+        "sculpture",
+        "vantail"
       ],
       "dateCapture": "2006:03:23"
     },
@@ -49,6 +75,7 @@
       "IndexJantzen": [
         "porte-fer-hall"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:06"
     },
     {
@@ -56,6 +83,7 @@
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:18"
     }
   ]

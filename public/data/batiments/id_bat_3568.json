@@ -23,11 +23,47 @@
   "terme_jantzen_bat": [
     "fenetre"
   ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "pierre de taille",
+    "souche de cheminée",
+    "travée",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "La-Fayette-79_9_§1",
       "IndexJantzen": [
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "mansarde",
+        "lucarne",
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "balustrade",
+        "corniche",
+        "bandeau",
+        "fer forgé",
+        "ardoise",
+        "souche de cheminée",
+        "pierre de taille",
+        "chambranle",
+        "volet",
+        "fronton",
+        "travée"
       ],
       "dateCapture": "2007:03:26"
     },
@@ -36,11 +72,13 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:03:26"
     },
     {
       "id_pic": "La-Fayette-79_9_§3",
       "IndexJantzen": [],
+      "IndexTorneh": [],
       "dateCapture": "2007:03:26"
     }
   ]

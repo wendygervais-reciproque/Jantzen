@@ -25,11 +25,55 @@
     "lucarne-d'angle",
     "façade-d'angle"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "oculus",
+    "pierre de taille",
+    "porte",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Italie-av-54_13_§1",
       "IndexJantzen": [
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "lucarne",
+        "oculus",
+        "souche de cheminée",
+        "toit à deux versants",
+        "mansarde",
+        "bandeau",
+        "corniche",
+        "chaîne d'angle",
+        "arc en plein cintre",
+        "volet",
+        "brique",
+        "pierre de taille",
+        "travée",
+        "porte",
+        "ardoise",
+        "fronton"
       ],
       "dateCapture": "2008:02:24"
     },
@@ -39,6 +83,7 @@
         "lucarne-d'angle",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:24"
     },
     {
@@ -47,6 +92,7 @@
         "lucarne-d'angle",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:24"
     },
     {
@@ -54,6 +100,7 @@
       "IndexJantzen": [
         "lucarne-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:24"
     },
     {
@@ -61,6 +108,7 @@
       "IndexJantzen": [
         "lucarne-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:24"
     }
   ]

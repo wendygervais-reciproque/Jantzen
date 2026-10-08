@@ -19,12 +19,30 @@
   "WPfr": "Fontaine Saint-Michel de Paris",
   "image_ref": "St-Michel-Pl_6_§1",
   "terme_jantzen_bat": [
-    "pignon",
     "façade-d'angle",
+    "pignon",
     "sculpture",
+    "fronton",
     "colonne",
-    "décor",
-    "fronton"
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "arcade",
+    "attique",
+    "balustrade",
+    "chapiteau corinthien",
+    "colonne",
+    "corniche",
+    "entablement",
+    "fenêtre",
+    "frise",
+    "fronton",
+    "oculus",
+    "perron",
+    "pierre de taille",
+    "pilastre",
+    "sculpture"
   ],
   "photos": [
     {
@@ -35,6 +53,24 @@
         "pignon",
         "sculpture"
       ],
+      "IndexTorneh": [
+        "arc en plein cintre",
+        "arcade",
+        "attique",
+        "chapiteau corinthien",
+        "colonne",
+        "corniche",
+        "entablement",
+        "fronton",
+        "sculpture",
+        "pilastre",
+        "pierre de taille",
+        "fenêtre",
+        "frise",
+        "oculus",
+        "perron",
+        "balustrade"
+      ],
       "dateCapture": "2006:06:11"
     },
     {
@@ -43,6 +79,7 @@
         "fronton",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:11"
     },
     {
@@ -50,6 +87,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:11"
     },
     {
@@ -57,6 +95,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:11"
     },
     {
@@ -64,6 +103,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:07:22"
     },
     {
@@ -71,6 +111,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:11"
     },
     {
@@ -78,6 +119,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:11"
     },
     {
@@ -85,6 +127,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:11"
     },
     {
@@ -92,6 +135,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:11"
     },
     {
@@ -99,6 +143,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:11"
     },
     {
@@ -110,6 +155,7 @@
         "pignon",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:07:22"
     },
     {
@@ -120,6 +166,7 @@
         "pignon",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:11"
     },
     {
@@ -128,6 +175,7 @@
         "colonne",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:11"
     },
     {
@@ -138,6 +186,7 @@
         "pignon",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:11"
     },
     {
@@ -147,6 +196,7 @@
         "pignon",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:07:22"
     },
     {
@@ -154,6 +204,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:11"
     },
     {
@@ -161,6 +212,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:11"
     },
     {
@@ -168,6 +220,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:11"
     }
   ]

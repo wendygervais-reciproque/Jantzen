@@ -21,10 +21,21 @@
   "WPfr": null,
   "image_ref": "Neuve-St-Pierre-15_4_J17Sw",
   "terme_jantzen_bat": [
-    "fenetre",
-    "décor",
+    "pilastre",
     "mosaique",
-    "pilastre"
+    "fenetre",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "bandeau",
+    "brique",
+    "corniche",
+    "céramique",
+    "fenêtre",
+    "frise",
+    "pilastre",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -34,6 +45,17 @@
         "fenetre",
         "mosaique",
         "pilastre"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "brique",
+        "corniche",
+        "frise",
+        "bandeau",
+        "pilastre",
+        "céramique",
+        "volet",
+        "travée"
       ],
       "dateCapture": "2004:09:23"
     }

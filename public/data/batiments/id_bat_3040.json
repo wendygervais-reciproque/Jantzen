@@ -21,8 +21,27 @@
   "WPfr": null,
   "image_ref": "Montaigne-57_8_§1",
   "terme_jantzen_bat": [
+    "fronton",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "arc en anse de panier",
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
     "lucarne",
-    "fronton"
+    "mascaron",
+    "pierre de taille",
+    "porte-fenêtre",
+    "sculpture",
+    "souche de cheminée",
+    "volet"
   ],
   "photos": [
     {
@@ -30,6 +49,25 @@
       "IndexJantzen": [
         "fronton",
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "fronton",
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "lucarne",
+        "fenêtre",
+        "porte-fenêtre",
+        "mascaron",
+        "corniche",
+        "bandeau",
+        "ardoise",
+        "pierre de taille",
+        "souche de cheminée",
+        "volet",
+        "arc en plein cintre",
+        "arc en anse de panier",
+        "sculpture"
       ],
       "dateCapture": "2006:04:07"
     }

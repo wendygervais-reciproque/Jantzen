@@ -30,11 +30,39 @@
   "terme_jantzen_bat": [
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "modillon",
+    "pierre de taille",
+    "souche de cheminée"
+  ],
   "photos": [
     {
       "id_pic": "Paix-7_2_§1",
       "IndexJantzen": [
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "mansarde",
+        "lucarne",
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "ardoise",
+        "corniche",
+        "modillon",
+        "fer forgé",
+        "souche de cheminée",
+        "pierre de taille",
+        "fronton"
       ],
       "dateCapture": "2008:09:18"
     },
@@ -43,6 +71,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:09:18"
     },
     {
@@ -50,6 +79,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:11"
     }
   ]

@@ -21,13 +21,29 @@
   "WPfr": null,
   "image_ref": "Berthier-51_17_§1-Rs",
   "terme_jantzen_bat": [
-    "fenetre",
-    "façade",
-    "console",
     "mosaique",
     "oriel",
+    "console",
+    "fenetre",
     "brique",
+    "façade",
     "céramique"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "bandeau",
+    "brique",
+    "corniche",
+    "céramique",
+    "fenêtre",
+    "garde-corps",
+    "grille",
+    "linteau",
+    "oriel",
+    "porte",
+    "soupirail",
+    "travée"
   ],
   "photos": [
     {
@@ -36,6 +52,7 @@
         "brique",
         "mosaique"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:06:14"
     },
     {
@@ -47,6 +64,22 @@
         "mosaique",
         "oriel"
       ],
+      "IndexTorneh": [
+        "oriel",
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "brique",
+        "céramique",
+        "arc en plein cintre",
+        "soupirail",
+        "linteau",
+        "porte",
+        "grille",
+        "corniche",
+        "bandeau",
+        "travée"
+      ],
       "dateCapture": "2009:07:09"
     },
     {
@@ -57,6 +90,7 @@
         "fenetre",
         "mosaique"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:06:14"
     },
     {
@@ -67,6 +101,7 @@
         "mosaique",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:07:09"
     },
     {
@@ -76,6 +111,7 @@
         "fenetre",
         "mosaique"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:06:14"
     },
     {
@@ -86,6 +122,7 @@
         "mosaique",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:06:14"
     }
   ]

@@ -30,11 +30,41 @@
   "terme_jantzen_bat": [
     "porte-fer-hall"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "chapiteau",
+    "fenêtre",
+    "fer forgé",
+    "pierre de taille",
+    "pilastre",
+    "portail",
+    "porte",
+    "sculpture",
+    "vitrail",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Dupleix-5_15_§1",
       "IndexJantzen": [
         "porte-fer-hall"
+      ],
+      "IndexTorneh": [
+        "arc en plein cintre",
+        "balcon",
+        "balustrade",
+        "fer forgé",
+        "fenêtre",
+        "porte",
+        "portail",
+        "volet",
+        "pierre de taille",
+        "sculpture",
+        "vitrail",
+        "pilastre",
+        "chapiteau"
       ],
       "dateCapture": "2005:04:12"
     },
@@ -43,6 +73,7 @@
       "IndexJantzen": [
         "porte-fer-hall"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:12"
     }
   ]

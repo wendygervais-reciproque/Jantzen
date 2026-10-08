@@ -29,12 +29,36 @@
     "sculpture",
     "console"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "modillon",
+    "pierre de taille",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Victor-Masse-35_9_1§",
       "IndexJantzen": [
         "console",
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "garde-corps",
+        "volet",
+        "pierre de taille",
+        "fer forgé",
+        "modillon",
+        "corniche",
+        "mascaron"
       ],
       "dateCapture": "2005:05:21"
     }

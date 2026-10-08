@@ -24,12 +24,36 @@
     "fenetre",
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "chambranle",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "pierre de taille",
+    "porte",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Deux-Gares-8_10_§1-9",
       "IndexJantzen": [
         "fenetre",
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "arc en plein cintre",
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "vantail",
+        "fenêtre",
+        "pierre de taille",
+        "chambranle",
+        "balustrade"
       ],
       "dateCapture": "2005:05:25"
     }

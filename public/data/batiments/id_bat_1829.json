@@ -29,22 +29,72 @@
   "image_ref": "Champs-Elysees-25_8_§1",
   "terme_jantzen_bat": [
     "oeil-de-boeuf",
-    "fenetre",
-    "façade",
-    "console",
-    "lucarne",
-    "garde-corps",
-    "sculpture",
-    "porte-bois",
-    "décor",
     "balcon",
-    "fronton"
+    "sculpture",
+    "console",
+    "fenetre",
+    "lucarne",
+    "façade",
+    "fronton",
+    "garde-corps",
+    "porte-bois",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "ardoise",
+    "attique",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "grille",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "sculpture",
+    "souche de cheminée",
+    "épi de faîtage"
   ],
   "photos": [
     {
       "id_pic": "Champs-Elysees-25_8_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "corniche",
+        "fronton",
+        "fenêtre",
+        "lucarne",
+        "mansarde",
+        "oculus",
+        "ardoise",
+        "pilastre",
+        "sculpture",
+        "mascaron",
+        "garde-corps",
+        "fer forgé",
+        "souche de cheminée",
+        "arc en plein cintre",
+        "porte",
+        "pierre de taille",
+        "attique",
+        "bandeau",
+        "épi de faîtage",
+        "grille",
+        "arc"
       ],
       "dateCapture": "2009:06:14"
     },
@@ -54,6 +104,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:03"
     },
     {
@@ -62,6 +113,7 @@
         "fenetre",
         "fronton"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:03"
     },
     {
@@ -70,6 +122,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:03"
     },
     {
@@ -77,6 +130,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:03"
     },
     {
@@ -87,6 +141,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:06:14"
     },
     {
@@ -94,6 +149,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:03"
     },
     {
@@ -102,6 +158,7 @@
         "fronton",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:03"
     },
     {
@@ -110,6 +167,7 @@
         "lucarne",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:03"
     },
     {
@@ -118,6 +176,7 @@
         "balcon",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:03"
     },
     {
@@ -126,6 +185,7 @@
         "balcon",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:06"
     },
     {
@@ -135,6 +195,7 @@
         "garde-corps",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:06"
     }
   ]

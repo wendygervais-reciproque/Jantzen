@@ -32,9 +32,23 @@
   "WPfr": null,
   "image_ref": "Port-Mahon-8_2_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "brique",
-    "façade"
+    "façade",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "auvent",
+    "balcon",
+    "balustrade",
+    "brique",
+    "fenêtre",
+    "garde-corps",
+    "porte",
+    "souche de cheminée",
+    "toit-terrasse",
+    "tour",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -42,6 +56,20 @@
       "IndexJantzen": [
         "brique",
         "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "balustrade",
+        "toit-terrasse",
+        "brique",
+        "tour",
+        "souche de cheminée",
+        "volet",
+        "auvent",
+        "travée",
+        "porte"
       ],
       "dateCapture": "2005:08:30"
     },
@@ -51,6 +79,7 @@
         "brique",
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:05"
     },
     {
@@ -59,6 +88,7 @@
         "brique",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:30"
     },
     {
@@ -67,11 +97,13 @@
         "brique",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:05"
     },
     {
       "id_pic": "Port-Mahon-8_2_§6",
       "IndexJantzen": [],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:30"
     }
   ]

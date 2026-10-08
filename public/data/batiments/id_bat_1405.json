@@ -23,11 +23,33 @@
   "terme_jantzen_bat": [
     "porte-fer"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "chambranle",
+    "corniche",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Fleurs-qu-1b_4_§1",
       "IndexJantzen": [
         "porte-fer"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "fer forgé",
+        "balcon",
+        "garde-corps",
+        "mascaron",
+        "pierre de taille",
+        "chambranle",
+        "vantail",
+        "corniche"
       ],
       "dateCapture": "2003:07:12"
     }

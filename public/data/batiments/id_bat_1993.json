@@ -36,20 +36,45 @@
   "WPfr": null,
   "image_ref": "Rapp-29_7_§1-Rx",
   "terme_jantzen_bat": [
-    "fenetre",
-    "lucarne",
-    "console",
-    "garde-corps",
-    "façade",
-    "poignée-porte",
+    "loggia",
+    "balcon",
     "sculpture",
     "clé",
-    "loggia",
-    "porte-bois",
+    "console",
+    "fenetre",
+    "lucarne",
+    "façade",
+    "garde-corps",
+    "poignée-porte",
     "céramique",
-    "décor",
+    "colonne",
+    "porte-bois",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "baie",
     "balcon",
-    "colonne"
+    "balustrade",
+    "bandeau",
+    "colonne",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "grille",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "oriel",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "tuile",
+    "vitrail"
   ],
   "photos": [
     {
@@ -59,6 +84,7 @@
         "céramique",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:09:10"
     },
     {
@@ -69,6 +95,7 @@
         "décor",
         "loggia"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:09:30"
     },
     {
@@ -78,6 +105,7 @@
         "décor",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:09:10"
     },
     {
@@ -87,6 +115,7 @@
         "décor",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:03:13"
     },
     {
@@ -96,6 +125,7 @@
         "garde-corps",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:11:11"
     },
     {
@@ -105,6 +135,7 @@
         "décor",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:04:01"
     },
     {
@@ -114,6 +145,7 @@
         "décor",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:09:10"
     },
     {
@@ -123,6 +155,7 @@
         "céramique",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:11:11"
     },
     {
@@ -134,6 +167,7 @@
         "décor",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:11:11"
     },
     {
@@ -141,6 +175,31 @@
       "IndexJantzen": [
         "céramique",
         "façade"
+      ],
+      "IndexTorneh": [
+        "baie",
+        "balcon",
+        "balustrade",
+        "bandeau",
+        "colonne",
+        "fenêtre",
+        "fronton",
+        "garde-corps",
+        "grille",
+        "lucarne",
+        "mansarde",
+        "oculus",
+        "oriel",
+        "pierre de taille",
+        "porte",
+        "sculpture",
+        "souche de cheminée",
+        "toit à deux versants",
+        "tuile",
+        "vitrail",
+        "arc",
+        "arc en plein cintre",
+        "mascaron"
       ],
       "dateCapture": "2011:09:30"
     },
@@ -150,6 +209,7 @@
         "céramique",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:04:01"
     },
     {
@@ -158,6 +218,7 @@
         "fenetre",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:11:11"
     },
     {
@@ -166,6 +227,7 @@
         "fenetre",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:02"
     },
     {
@@ -174,6 +236,7 @@
         "fenetre",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:04:16"
     },
     {
@@ -183,6 +246,7 @@
         "porte-bois",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:04:16"
     },
     {
@@ -192,6 +256,7 @@
         "porte-bois",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:02"
     },
     {
@@ -199,6 +264,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:02"
     },
     {
@@ -206,6 +272,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:09:10"
     },
     {
@@ -214,6 +281,7 @@
         "poignée-porte",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:04:16"
     },
     {
@@ -222,6 +290,7 @@
         "poignée-porte",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:04:16"
     },
     {
@@ -231,6 +300,7 @@
         "décor",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:04:01"
     },
     {
@@ -240,6 +310,7 @@
         "décor",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:04:16"
     },
     {
@@ -250,6 +321,7 @@
         "fenetre",
         "loggia"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:04:16"
     },
     {
@@ -260,6 +332,7 @@
         "décor",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:09:30"
     },
     {
@@ -269,6 +342,7 @@
         "céramique",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:04:16"
     }
   ]

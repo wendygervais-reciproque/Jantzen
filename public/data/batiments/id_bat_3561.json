@@ -24,12 +24,28 @@
     "sculpture",
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Archives-78_3_§1",
       "IndexJantzen": [
         "porte-bois",
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "arc en plein cintre",
+        "sculpture",
+        "porte",
+        "pierre de taille",
+        "pilastre",
+        "vantail"
       ],
       "dateCapture": "2003:08:02"
     },
@@ -38,6 +54,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": null
     }
   ]

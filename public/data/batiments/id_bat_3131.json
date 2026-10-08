@@ -24,9 +24,26 @@
   "image_ref": "Grande-Chaumiere-6_6_§1",
   "terme_jantzen_bat": [
     "brique",
+    "verrière",
     "façade",
-    "porte-bois",
-    "verrière"
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "baie",
+    "bandeau",
+    "brique",
+    "corniche",
+    "fenêtre",
+    "fer",
+    "fer forgé",
+    "grille",
+    "oculus",
+    "porte",
+    "travée",
+    "verrière",
+    "vitrail",
+    "volet"
   ],
   "photos": [
     {
@@ -36,6 +53,23 @@
         "façade",
         "verrière"
       ],
+      "IndexTorneh": [
+        "baie",
+        "arc en plein cintre",
+        "brique",
+        "fer",
+        "fer forgé",
+        "vitrail",
+        "porte",
+        "fenêtre",
+        "volet",
+        "grille",
+        "corniche",
+        "bandeau",
+        "verrière",
+        "travée",
+        "oculus"
+      ],
       "dateCapture": "2005:05:09"
     },
     {
@@ -44,6 +78,7 @@
         "brique",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:09"
     }
   ]

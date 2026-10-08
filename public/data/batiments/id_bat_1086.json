@@ -29,9 +29,23 @@
   "image_ref": "Italie-av-159_13_§1",
   "terme_jantzen_bat": [
     "sculpture",
-    "fenetre",
+    "garde-corps",
     "console",
-    "garde-corps"
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "pierre de taille",
+    "porte-fenêtre",
+    "sculpture",
+    "volet"
   ],
   "photos": [
     {
@@ -42,6 +56,20 @@
         "garde-corps",
         "sculpture"
       ],
+      "IndexTorneh": [
+        "balustrade",
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "arc en plein cintre",
+        "fenêtre",
+        "porte-fenêtre",
+        "sculpture",
+        "mascaron",
+        "corniche",
+        "pierre de taille",
+        "volet"
+      ],
       "dateCapture": "2005:09:21"
     },
     {
@@ -50,6 +78,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:09:21"
     }
   ]

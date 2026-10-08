@@ -23,11 +23,39 @@
   "terme_jantzen_bat": [
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "pierre de taille",
+    "porte-fenêtre",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Ternes-Av-70_17_§1",
       "IndexJantzen": [
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "lucarne",
+        "mansarde",
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "balustrade",
+        "porte-fenêtre",
+        "fenêtre",
+        "ardoise",
+        "corniche",
+        "pierre de taille",
+        "volet"
       ],
       "dateCapture": "2009:06:27"
     }

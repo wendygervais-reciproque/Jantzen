@@ -23,11 +23,47 @@
   "terme_jantzen_bat": [
     "façade"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chéneau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "pierre de taille",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "travée",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Jean-Baptiste-Dumas-12_17_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "corniche",
+        "bandeau",
+        "mansarde",
+        "lucarne",
+        "pierre de taille",
+        "mascaron",
+        "volet",
+        "porte-fenêtre",
+        "travée",
+        "chéneau",
+        "souche de cheminée",
+        "fer forgé"
       ],
       "dateCapture": null
     }

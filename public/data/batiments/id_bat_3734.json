@@ -21,9 +21,30 @@
   "WPfr": null,
   "image_ref": "Faisanderie-86_16_§1-zFc",
   "terme_jantzen_bat": [
+    "fronton",
     "colonne",
-    "fenetre",
-    "fronton"
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "avant-corps",
+    "balcon",
+    "balustrade",
+    "chapiteau corinthien",
+    "colonne",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "mansarde",
+    "oculus",
+    "oriel",
+    "pierre de taille",
+    "pilastre",
+    "porte-fenêtre",
+    "sculpture",
+    "toit en pavillon"
   ],
   "photos": [
     {
@@ -31,6 +52,27 @@
       "IndexJantzen": [
         "fenetre",
         "fronton"
+      ],
+      "IndexTorneh": [
+        "fronton",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "oculus",
+        "fenêtre",
+        "porte-fenêtre",
+        "pilastre",
+        "colonne",
+        "chapiteau corinthien",
+        "avant-corps",
+        "corniche",
+        "ardoise",
+        "toit en pavillon",
+        "sculpture",
+        "arc en plein cintre",
+        "pierre de taille",
+        "mansarde",
+        "oriel"
       ],
       "dateCapture": "2004:05:21"
     },
@@ -41,6 +83,7 @@
         "fenetre",
         "fronton"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:05:21"
     }
   ]

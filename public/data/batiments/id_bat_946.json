@@ -39,12 +39,60 @@
     "fenetre",
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "arc",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "frise",
+    "garde-corps",
+    "grille",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oriel",
+    "pilastre",
+    "porte",
+    "porte-fenêtre",
+    "sculpture",
+    "souche de cheminée",
+    "volet",
+    "épi de faîtage"
+  ],
   "photos": [
     {
       "id_pic": "Lonchamp-140_16_§1",
       "IndexJantzen": [
         "fenetre",
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "lucarne",
+        "mansarde",
+        "ardoise",
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "corniche",
+        "pilastre",
+        "sculpture",
+        "mascaron",
+        "porte",
+        "arc",
+        "souche de cheminée",
+        "épi de faîtage",
+        "oriel",
+        "bandeau",
+        "grille",
+        "porte-fenêtre",
+        "volet",
+        "frise"
       ],
       "dateCapture": "2008:07:27"
     },
@@ -53,6 +101,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:07:27"
     }
   ]

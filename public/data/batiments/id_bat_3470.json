@@ -28,10 +28,27 @@
   "WPfr": null,
   "image_ref": "Temple-71_3_§1",
   "terme_jantzen_bat": [
-    "lucarne",
     "façade",
+    "fronton",
     "porte-bois",
-    "fronton"
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "ardoise",
+    "bossage",
+    "chambranle",
+    "fenêtre",
+    "fronton",
+    "gros appareil",
+    "heurtoir",
+    "lucarne",
+    "mascaron",
+    "mur-boutant",
+    "pierre de taille",
+    "porte",
+    "vantail"
   ],
   "photos": [
     {
@@ -39,6 +56,23 @@
       "IndexJantzen": [
         "façade",
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "arc en plein cintre",
+        "arc",
+        "bossage",
+        "chambranle",
+        "fenêtre",
+        "fronton",
+        "lucarne",
+        "mascaron",
+        "mur-boutant",
+        "pierre de taille",
+        "porte",
+        "vantail",
+        "heurtoir",
+        "ardoise",
+        "gros appareil"
       ],
       "dateCapture": "2010:08:21"
     },
@@ -48,6 +82,7 @@
         "façade",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:08:21"
     },
     {
@@ -56,6 +91,7 @@
         "fronton",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:22"
     },
     {
@@ -64,6 +100,7 @@
         "fronton",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:22"
     },
     {
@@ -72,6 +109,7 @@
         "fronton",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:22"
     }
   ]

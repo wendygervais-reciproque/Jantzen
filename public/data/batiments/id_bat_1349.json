@@ -31,12 +31,36 @@
     "sculpture",
     "console"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "modillon",
+    "pierre de taille",
+    "sculpture"
+  ],
   "photos": [
     {
       "id_pic": "Tourville-19_7_",
       "IndexJantzen": [
         "console",
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "sculpture",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "corniche",
+        "modillon",
+        "pierre de taille",
+        "mascaron"
       ],
       "dateCapture": "2005:05:01"
     }

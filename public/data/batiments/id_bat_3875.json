@@ -21,17 +21,77 @@
   "WPfr": null,
   "image_ref": "Varenne-92_7_§1",
   "terme_jantzen_bat": [
+    "balcon",
+    "sculpture",
     "fenetre",
     "façade",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "ardoise",
+    "baie",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "grille",
+    "jambage",
+    "linteau",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "porte",
     "sculpture",
-    "décor",
-    "balcon"
+    "souche de cheminée",
+    "soupirail",
+    "toit à deux versants",
+    "vantail",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Varenne-92_7_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "arc en plein cintre",
+        "arc",
+        "baie",
+        "balcon",
+        "balustrade",
+        "bandeau",
+        "chambranle",
+        "corniche",
+        "fenêtre",
+        "fronton",
+        "garde-corps",
+        "grille",
+        "jambage",
+        "linteau",
+        "lucarne",
+        "mansarde",
+        "mascaron",
+        "oculus",
+        "pierre de taille",
+        "porte",
+        "sculpture",
+        "soupirail",
+        "souche de cheminée",
+        "toit à deux versants",
+        "vantail",
+        "volet",
+        "ardoise",
+        "fer forgé"
       ],
       "dateCapture": "2005:04:02"
     },
@@ -41,6 +101,7 @@
         "balcon",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:02"
     },
     {
@@ -50,6 +111,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:02"
     }
   ]

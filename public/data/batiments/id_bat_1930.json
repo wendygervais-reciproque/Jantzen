@@ -29,19 +29,61 @@
   "image_ref": "Anatole-France-27_7_§1",
   "terme_jantzen_bat": [
     "toiture",
+    "balcon",
+    "tour",
+    "sculpture",
+    "pignon",
     "fenetre",
     "lucarne",
-    "façade",
-    "pignon",
-    "sculpture",
-    "tour",
-    "balcon"
+    "façade"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "avant-corps",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "oculus",
+    "oriel",
+    "pierre de taille",
+    "porte",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "volet",
+    "épi de faîtage"
   ],
   "photos": [
     {
       "id_pic": "Anatole-France-27_7_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "lucarne",
+        "mansarde",
+        "souche de cheminée",
+        "toit à deux versants",
+        "garde-corps",
+        "bandeau",
+        "corniche",
+        "pierre de taille",
+        "oriel",
+        "ardoise",
+        "épi de faîtage",
+        "oculus",
+        "porte",
+        "volet",
+        "avant-corps",
+        "travée"
       ],
       "dateCapture": "2017:06:11"
     },
@@ -51,6 +93,7 @@
         "lucarne",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:15"
     },
     {
@@ -59,6 +102,7 @@
         "façade",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:06:04"
     },
     {
@@ -67,6 +111,7 @@
         "fenetre",
         "tour"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:06:04"
     },
     {
@@ -75,6 +120,7 @@
         "fenetre",
         "tour"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:03"
     },
     {
@@ -83,6 +129,7 @@
         "fenetre",
         "tour"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:03"
     },
     {
@@ -90,6 +137,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:03"
     },
     {
@@ -98,6 +146,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:06:04"
     },
     {
@@ -106,6 +155,7 @@
         "balcon",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:03"
     },
     {
@@ -113,6 +163,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:15"
     },
     {
@@ -120,6 +171,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2017:06:11"
     },
     {
@@ -128,6 +180,7 @@
         "fenetre",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2017:06:11"
     },
     {
@@ -136,6 +189,7 @@
         "lucarne",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:15"
     },
     {
@@ -144,6 +198,7 @@
         "fenetre",
         "pignon"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:15"
     },
     {
@@ -151,6 +206,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:15"
     },
     {
@@ -159,6 +215,7 @@
         "fenetre",
         "pignon"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:15"
     }
   ]

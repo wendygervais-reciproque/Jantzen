@@ -28,16 +28,62 @@
   "WPfr": null,
   "image_ref": "Cherche-Midi-89_6_§1",
   "terme_jantzen_bat": [
-    "porte",
     "façade",
     "garde-corps",
-    "balcon"
+    "balcon",
+    "porte"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "grille",
+    "jambage",
+    "linteau",
+    "mascaron",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "porte-fenêtre",
+    "soupirail",
+    "travée"
   ],
   "photos": [
     {
       "id_pic": "Cherche-Midi-89_6_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fronton",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "porte-fenêtre",
+        "porte",
+        "arc en plein cintre",
+        "arc",
+        "mascaron",
+        "pilastre",
+        "chambranle",
+        "bandeau",
+        "corniche",
+        "pierre de taille",
+        "fer forgé",
+        "grille",
+        "jambage",
+        "linteau",
+        "travée",
+        "soupirail"
       ],
       "dateCapture": "2006:05:14"
     },
@@ -47,6 +93,7 @@
         "façade",
         "porte"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:05:14"
     },
     {
@@ -55,6 +102,7 @@
         "balcon",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:05:14"
     }
   ]

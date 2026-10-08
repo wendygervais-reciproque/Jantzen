@@ -21,18 +21,60 @@
   "WPfr": null,
   "image_ref": "Rembrandt-6_8_§1",
   "terme_jantzen_bat": [
+    "sculpture",
+    "pignon",
     "fenetre",
     "lucarne",
     "façade",
-    "pignon",
-    "sculpture",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "grille",
+    "lucarne",
+    "mascaron",
+    "oriel",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Rembrandt-6_8_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "lucarne",
+        "pilastre",
+        "corniche",
+        "bandeau",
+        "pierre de taille",
+        "oriel",
+        "porte",
+        "porte-fenêtre",
+        "volet",
+        "souche de cheminée",
+        "ardoise",
+        "fer forgé",
+        "mascaron",
+        "fronton",
+        "grille"
       ],
       "dateCapture": "2005:08:02"
     },
@@ -41,6 +83,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:16"
     },
     {
@@ -48,6 +91,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:16"
     },
     {
@@ -58,6 +102,7 @@
         "lucarne",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:16"
     },
     {
@@ -66,6 +111,7 @@
         "lucarne",
         "pignon"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:16"
     },
     {
@@ -74,6 +120,7 @@
         "lucarne",
         "pignon"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:16"
     }
   ]

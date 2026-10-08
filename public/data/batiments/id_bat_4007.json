@@ -28,11 +28,29 @@
   "WPfr": null,
   "image_ref": "St-Thomas-d'Aquins-pl_7_§1",
   "terme_jantzen_bat": [
-    "façade",
     "sculpture",
-    "porte-bois",
+    "façade",
     "fronton",
-    "colonne"
+    "colonne",
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "acrotère",
+    "arc en plein cintre",
+    "chapiteau corinthien",
+    "colonne",
+    "corniche",
+    "entablement",
+    "escalier",
+    "fenêtre",
+    "fronton",
+    "perron",
+    "pierre de taille",
+    "pilastre",
+    "portail",
+    "porte",
+    "sculpture",
+    "vitrail"
   ],
   "photos": [
     {
@@ -40,6 +58,24 @@
       "IndexJantzen": [
         "façade",
         "fronton"
+      ],
+      "IndexTorneh": [
+        "fronton",
+        "colonne",
+        "pilastre",
+        "chapiteau corinthien",
+        "entablement",
+        "corniche",
+        "sculpture",
+        "arc en plein cintre",
+        "porte",
+        "portail",
+        "fenêtre",
+        "vitrail",
+        "escalier",
+        "perron",
+        "pierre de taille",
+        "acrotère"
       ],
       "dateCapture": "2006:07:13"
     },
@@ -49,6 +85,7 @@
         "colonne",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:13"
     },
     {
@@ -57,6 +94,7 @@
         "fronton",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:02"
     },
     {
@@ -65,6 +103,7 @@
         "fronton",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:19"
     }
   ]

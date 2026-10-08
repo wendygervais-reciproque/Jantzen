@@ -28,10 +28,30 @@
   "WPfr": null,
   "image_ref": "Emile-Flachat-9_17_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "sculpture",
-    "décor",
-    "verrière"
+    "verrière",
+    "fenetre",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "acrotère",
+    "arc en anse de panier",
+    "balcon",
+    "balustrade",
+    "chambranle",
+    "corniche",
+    "céramique",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "modillon",
+    "oriel",
+    "pierre de taille",
+    "porte-fenêtre",
+    "sculpture",
+    "verrière",
+    "vitrail"
   ],
   "photos": [
     {
@@ -39,6 +59,26 @@
       "IndexJantzen": [
         "fenetre",
         "verrière"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "porte-fenêtre",
+        "verrière",
+        "corniche",
+        "fer forgé",
+        "céramique",
+        "pierre de taille",
+        "sculpture",
+        "mascaron",
+        "chambranle",
+        "vitrail",
+        "oriel",
+        "modillon",
+        "arc en anse de panier",
+        "acrotère"
       ],
       "dateCapture": "2004:10:02"
     },
@@ -49,6 +89,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:10:02"
     }
   ]

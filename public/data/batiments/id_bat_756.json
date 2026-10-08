@@ -23,15 +23,59 @@
   "WPfr": null,
   "image_ref": "Montparnasse-Bd-129_6_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "façade",
-    "sculpture"
+    "sculpture",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "avant-corps",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "marquise",
+    "mascaron",
+    "oriel",
+    "pierre de taille",
+    "sculpture",
+    "souche de cheminée",
+    "travée",
+    "vitrail",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Montparnasse-Bd-129_6_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "arc en plein cintre",
+        "mascaron",
+        "bandeau",
+        "corniche",
+        "avant-corps",
+        "travée",
+        "oriel",
+        "volet",
+        "pierre de taille",
+        "souche de cheminée",
+        "ardoise",
+        "mansarde",
+        "lucarne",
+        "sculpture",
+        "vitrail",
+        "marquise"
       ],
       "dateCapture": "2004:10:03"
     },
@@ -40,6 +84,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:10:03"
     },
     {
@@ -48,6 +93,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:10:03"
     }
   ]

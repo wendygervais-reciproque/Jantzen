@@ -35,12 +35,38 @@
     "toiture",
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "chéneau",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "oculus",
+    "pierre de taille",
+    "porte-fenêtre"
+  ],
   "photos": [
     {
       "id_pic": "Rochechouard-bd-24_18_§1",
       "IndexJantzen": [
         "lucarne",
         "toiture"
+      ],
+      "IndexTorneh": [
+        "lucarne",
+        "mansarde",
+        "ardoise",
+        "arc en plein cintre",
+        "porte-fenêtre",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "pierre de taille",
+        "oculus",
+        "chéneau"
       ],
       "dateCapture": "2008:03:05"
     },
@@ -49,6 +75,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:03:05"
     }
   ]

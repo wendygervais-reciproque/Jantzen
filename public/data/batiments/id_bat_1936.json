@@ -21,10 +21,25 @@
   "WPfr": null,
   "image_ref": "Ferronnerie-27_1_§1",
   "terme_jantzen_bat": [
-    "lucarne",
-    "fenetre",
     "façade",
-    "garde-corps"
+    "garde-corps",
+    "fenetre",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "bandeau",
+    "chaîne d'angle",
+    "fenêtre",
+    "garde-corps",
+    "lucarne",
+    "pierre de taille",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "travée",
+    "tuile",
+    "volet"
   ],
   "photos": [
     {
@@ -33,6 +48,21 @@
         "façade",
         "fenetre"
       ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "lucarne",
+        "souche de cheminée",
+        "bandeau",
+        "chaîne d'angle",
+        "pierre de taille",
+        "volet",
+        "porte-fenêtre",
+        "travée",
+        "ardoise",
+        "tuile"
+      ],
       "dateCapture": "2009:05:22"
     },
     {
@@ -40,6 +70,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:05:22"
     },
     {
@@ -48,6 +79,7 @@
         "fenetre",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:05:22"
     },
     {
@@ -56,6 +88,7 @@
         "fenetre",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:05:22"
     },
     {
@@ -64,6 +97,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:05:22"
     }
   ]

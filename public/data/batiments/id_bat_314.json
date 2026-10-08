@@ -25,11 +25,35 @@
     "fenetre",
     "décor"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "oculus",
+    "sculpture",
+    "souche de cheminée",
+    "vitrail",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Echiquier-10_10_§1",
       "IndexJantzen": [
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "arc en plein cintre",
+        "oculus",
+        "sculpture",
+        "fronton",
+        "volet",
+        "souche de cheminée",
+        "vitrail"
       ],
       "dateCapture": "2008:08:10"
     },
@@ -40,6 +64,7 @@
         "fenetre",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:08:10"
     },
     {
@@ -48,6 +73,7 @@
         "décor",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:08:10"
     }
   ]

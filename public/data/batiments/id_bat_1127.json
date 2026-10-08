@@ -21,11 +21,32 @@
   "WPfr": null,
   "image_ref": "Enghien-16_10_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "sculpture",
+    "fenetre",
     "brique",
-    "décor",
-    "colonne"
+    "colonne",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc brisé",
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "chapiteau",
+    "chapiteau corinthien",
+    "colonne",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "linteau",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "volet"
   ],
   "photos": [
     {
@@ -35,6 +56,27 @@
         "décor",
         "fenetre",
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "arc en plein cintre",
+        "arc brisé",
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "brique",
+        "pierre de taille",
+        "colonne",
+        "chapiteau corinthien",
+        "corniche",
+        "bandeau",
+        "fer forgé",
+        "volet",
+        "mascaron",
+        "pilastre",
+        "chapiteau",
+        "linteau",
+        "oculus"
       ],
       "dateCapture": "2008:08:19"
     },
@@ -46,6 +88,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:08:19"
     },
     {
@@ -56,6 +99,7 @@
         "décor",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:08:19"
     }
   ]

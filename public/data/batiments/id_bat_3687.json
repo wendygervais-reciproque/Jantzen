@@ -24,9 +24,24 @@
   "image_ref": "Victoire-82_9_§1",
   "terme_jantzen_bat": [
     "sculpture",
-    "fenetre",
     "console",
+    "fenetre",
     "oeil-de-boeuf"
+  ],
+  "terme_torneh_bat": [
+    "avant-corps",
+    "balcon",
+    "balustrade",
+    "bossage",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "modillon",
+    "oculus",
+    "oriel",
+    "pierre de taille",
+    "sculpture"
   ],
   "photos": [
     {
@@ -36,6 +51,21 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "garde-corps",
+        "fer forgé",
+        "oculus",
+        "sculpture",
+        "mascaron",
+        "modillon",
+        "pierre de taille",
+        "avant-corps",
+        "bossage",
+        "oriel"
+      ],
       "dateCapture": "2005:05:26"
     },
     {
@@ -44,6 +74,7 @@
         "console",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:26"
     },
     {
@@ -52,6 +83,7 @@
         "console",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:14"
     }
   ]

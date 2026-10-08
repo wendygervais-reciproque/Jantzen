@@ -33,11 +33,31 @@
   "image_ref": "Boursault-7_17_§2",
   "terme_jantzen_bat": [
     "toiture",
+    "porte-fer",
     "fenetre",
     "lucarne",
     "façade",
-    "porte-fer",
     "porte-fer-hall"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "oculus",
+    "pierre de taille",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "toit à deux versants",
+    "tuile",
+    "volet"
   ],
   "photos": [
     {
@@ -45,12 +65,33 @@
       "IndexJantzen": [
         "porte-fer-hall"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:08:26"
     },
     {
       "id_pic": "Boursault-7_17_§2",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "garde-corps",
+        "souche de cheminée",
+        "lucarne",
+        "mansarde",
+        "arc en plein cintre",
+        "bandeau",
+        "corniche",
+        "toit à deux versants",
+        "ardoise",
+        "volet",
+        "pierre de taille",
+        "fer forgé",
+        "oculus",
+        "tuile",
+        "porte-fenêtre"
       ],
       "dateCapture": "2006:03:14"
     },
@@ -60,6 +101,7 @@
         "façade",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:03:14"
     },
     {
@@ -67,6 +109,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:08:26"
     },
     {
@@ -76,6 +119,7 @@
         "lucarne",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:05:14"
     },
     {
@@ -83,6 +127,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:03:14"
     },
     {
@@ -90,6 +135,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:03:14"
     },
     {
@@ -97,6 +143,7 @@
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:14"
     }
   ]

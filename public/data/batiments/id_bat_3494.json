@@ -24,18 +24,68 @@
   "image_ref": "Rome-73_17_§1",
   "terme_jantzen_bat": [
     "oeil-de-boeuf",
-    "fenetre",
-    "lucarne",
     "façade-d'angle",
     "tourelle",
+    "fenetre",
+    "lucarne",
     "brique",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "avant-corps",
+    "baie",
+    "bandeau",
+    "brique",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "grille",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "porche",
+    "porte",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "tour",
+    "travée",
+    "épi de faîtage"
   ],
   "photos": [
     {
       "id_pic": "Rome-73_17_§1",
       "IndexJantzen": [
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "avant-corps",
+        "arc en plein cintre",
+        "baie",
+        "bandeau",
+        "brique",
+        "chaîne d'angle",
+        "corniche",
+        "fenêtre",
+        "fronton",
+        "lucarne",
+        "mansarde",
+        "oculus",
+        "pierre de taille",
+        "porte",
+        "sculpture",
+        "souche de cheminée",
+        "tour",
+        "travée",
+        "épi de faîtage",
+        "mascaron",
+        "toit à deux versants",
+        "grille",
+        "porche"
       ],
       "dateCapture": "2007:08:26"
     },
@@ -46,6 +96,7 @@
         "décor",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:05:14"
     },
     {
@@ -54,6 +105,7 @@
         "fenetre",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:05:14"
     },
     {
@@ -61,6 +113,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:05:14"
     },
     {
@@ -69,6 +122,7 @@
         "oeil-de-boeuf",
         "tourelle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:05:14"
     },
     {
@@ -76,6 +130,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:05:14"
     }
   ]

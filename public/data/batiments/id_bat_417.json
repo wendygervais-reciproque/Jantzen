@@ -30,11 +30,35 @@
   "terme_jantzen_bat": [
     "porte-fer-hall"
   ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "chapiteau",
+    "fer forgé",
+    "pierre de taille",
+    "pilastre",
+    "portail",
+    "porte",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Sevres-107_6_§1",
       "IndexJantzen": [
         "porte-fer-hall"
+      ],
+      "IndexTorneh": [
+        "portail",
+        "porte",
+        "arc",
+        "arc en plein cintre",
+        "fer forgé",
+        "pilastre",
+        "chapiteau",
+        "sculpture",
+        "vantail",
+        "pierre de taille"
       ],
       "dateCapture": "2005:04:17"
     }

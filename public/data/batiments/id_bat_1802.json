@@ -23,11 +23,29 @@
   "terme_jantzen_bat": [
     "garde-corps"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "fer forgé",
+    "garde-corps",
+    "pierre de taille",
+    "porte-fenêtre",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Seine-24_6_§1",
       "IndexJantzen": [
         "garde-corps"
+      ],
+      "IndexTorneh": [
+        "porte-fenêtre",
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "balustrade",
+        "pierre de taille",
+        "volet"
       ],
       "dateCapture": "2005:06:02"
     }

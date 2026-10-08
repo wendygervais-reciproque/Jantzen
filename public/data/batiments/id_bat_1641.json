@@ -28,9 +28,26 @@
   "WPfr": null,
   "image_ref": "Octave-Feuillet-21_16_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "brique",
+    "verrière",
     "façade",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "baie",
+    "balcon",
+    "brique",
+    "corniche",
+    "fenêtre",
+    "garde-corps",
+    "grille",
+    "meneau",
+    "oriel",
+    "pierre de taille",
+    "porte",
+    "soupirail",
+    "vantail",
     "verrière"
   ],
   "photos": [
@@ -39,6 +56,23 @@
       "IndexJantzen": [
         "brique",
         "façade"
+      ],
+      "IndexTorneh": [
+        "baie",
+        "arc en plein cintre",
+        "fenêtre",
+        "garde-corps",
+        "balcon",
+        "porte",
+        "pierre de taille",
+        "brique",
+        "corniche",
+        "soupirail",
+        "verrière",
+        "meneau",
+        "oriel",
+        "grille",
+        "vantail"
       ],
       "dateCapture": "2005:04:30"
     },
@@ -49,6 +83,7 @@
         "fenetre",
         "verrière"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:30"
     },
     {
@@ -58,6 +93,7 @@
         "fenetre",
         "verrière"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:08"
     }
   ]

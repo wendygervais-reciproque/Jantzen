@@ -23,11 +23,33 @@
   "terme_jantzen_bat": [
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "arc en anse de panier",
+    "balcon",
+    "fer forgé",
+    "garde-corps",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Ferdinand-Duval-20_4_§1",
       "IndexJantzen": [
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "portail",
+        "porte",
+        "arc en anse de panier",
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "sculpture",
+        "vantail",
+        "pierre de taille"
       ],
       "dateCapture": "2004:09:08"
     }

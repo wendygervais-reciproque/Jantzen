@@ -32,10 +32,27 @@
   "WPfr": null,
   "image_ref": "Florence-3_8_§1_Dx",
   "terme_jantzen_bat": [
-    "fenetre",
+    "pilastre",
     "sculpture",
-    "décor",
-    "pilastre"
+    "fenetre",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "grille",
+    "mascaron",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "sculpture",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -43,6 +60,23 @@
       "IndexJantzen": [
         "fenetre",
         "pilastre"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "corniche",
+        "bandeau",
+        "pilastre",
+        "sculpture",
+        "mascaron",
+        "volet",
+        "porte",
+        "fer forgé",
+        "pierre de taille",
+        "travée",
+        "grille"
       ],
       "dateCapture": "2014:09:30"
     },
@@ -54,6 +88,7 @@
         "pilastre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2014:09:30"
     }
   ]

@@ -22,9 +22,23 @@
   "image_ref": "Marche-Neuf-qu-2_4_§1-Rx",
   "terme_jantzen_bat": [
     "toiture",
+    "oeil-de-boeuf",
     "fenetre",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "acrotère",
+    "arc en plein cintre",
+    "ardoise",
+    "balustrade",
+    "corniche",
+    "fenêtre",
     "lucarne",
-    "oeil-de-boeuf"
+    "mansarde",
+    "modillon",
+    "oculus",
+    "pierre de taille",
+    "sculpture"
   ],
   "photos": [
     {
@@ -34,6 +48,20 @@
         "lucarne",
         "toiture"
       ],
+      "IndexTorneh": [
+        "mansarde",
+        "oculus",
+        "lucarne",
+        "sculpture",
+        "corniche",
+        "balustrade",
+        "ardoise",
+        "fenêtre",
+        "modillon",
+        "pierre de taille",
+        "acrotère",
+        "arc en plein cintre"
+      ],
       "dateCapture": "2011:09:28"
     },
     {
@@ -41,6 +69,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:14"
     },
     {
@@ -49,6 +78,7 @@
         "lucarne",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:09:28"
     },
     {
@@ -57,6 +87,7 @@
         "lucarne",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:09:28"
     }
   ]

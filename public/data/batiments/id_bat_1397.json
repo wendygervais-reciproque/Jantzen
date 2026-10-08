@@ -23,11 +23,45 @@
   "terme_jantzen_bat": [
     "fenetre"
   ],
+  "terme_torneh_bat": [
+    "arc",
+    "baie",
+    "balcon",
+    "brique",
+    "corniche",
+    "fer forgé",
+    "garde-corps",
+    "grille",
+    "lucarne",
+    "mur-boutant",
+    "pierre de taille",
+    "porte",
+    "souche de cheminée",
+    "triplet",
+    "tuile"
+  ],
   "photos": [
     {
       "id_pic": "St-Charles-197T_15_§1",
       "IndexJantzen": [
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "mur-boutant",
+        "souche de cheminée",
+        "lucarne",
+        "tuile",
+        "triplet",
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "grille",
+        "baie",
+        "arc",
+        "corniche",
+        "porte",
+        "brique",
+        "pierre de taille"
       ],
       "dateCapture": "2005:04:21"
     },
@@ -36,6 +70,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:21"
     }
   ]

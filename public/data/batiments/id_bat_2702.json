@@ -27,13 +27,35 @@
   "image_ref": "General-Michel-Bizot-45_12_§1",
   "terme_jantzen_bat": [
     "toiture",
-    "fenetre",
-    "façade-d'angle",
     "mosaique",
+    "façade-d'angle",
     "fenetre-d'angle",
+    "fenetre",
     "brique",
     "lucarne-d'angle",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "bossage",
+    "brique",
+    "corniche",
+    "faîtage",
+    "fenêtre",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "vitrail",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -41,6 +63,28 @@
       "IndexJantzen": [
         "brique",
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "lucarne",
+        "mansarde",
+        "ardoise",
+        "balustrade",
+        "corniche",
+        "bandeau",
+        "sculpture",
+        "mascaron",
+        "pierre de taille",
+        "brique",
+        "épi de faîtage",
+        "faîtage",
+        "toit à deux versants",
+        "souche de cheminée",
+        "vitrail",
+        "porte",
+        "bossage"
       ],
       "dateCapture": "2004:07:26"
     },
@@ -50,6 +94,7 @@
         "brique",
         "façade-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:13"
     },
     {
@@ -59,6 +104,7 @@
         "décor",
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:13"
     },
     {
@@ -67,6 +113,7 @@
         "brique",
         "lucarne-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:13"
     },
     {
@@ -76,6 +123,7 @@
         "lucarne-d'angle",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:13"
     },
     {
@@ -85,6 +133,7 @@
         "lucarne-d'angle",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:13"
     },
     {
@@ -95,6 +144,7 @@
         "fenetre",
         "mosaique"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:26"
     }
   ]

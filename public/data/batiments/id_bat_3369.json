@@ -21,9 +21,20 @@
   "WPfr": null,
   "image_ref": "Breteuil-Pl-7_7_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "brique",
-    "garde-corps"
+    "garde-corps",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "brique",
+    "chambranle",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "porte-fenêtre",
+    "volet"
   ],
   "photos": [
     {
@@ -32,6 +43,17 @@
         "brique",
         "fenetre",
         "garde-corps"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "porte-fenêtre",
+        "garde-corps",
+        "balcon",
+        "arc en plein cintre",
+        "brique",
+        "fer forgé",
+        "chambranle",
+        "volet"
       ],
       "dateCapture": "2005:03:19"
     }

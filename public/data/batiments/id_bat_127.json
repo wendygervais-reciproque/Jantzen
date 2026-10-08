@@ -17,12 +17,23 @@
   "WPfr": "Pont de Bir-Hakeim",
   "image_ref": "La-Seine_§124",
   "terme_jantzen_bat": [
-    "sculpture",
-    "métal",
-    "pont",
     "tour",
-    "décor",
-    "colonne"
+    "sculpture",
+    "pont",
+    "métal",
+    "colonne",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "balcon",
+    "balustrade",
+    "colonne",
+    "fenêtre",
+    "fer",
+    "garde-corps",
+    "sculpture",
+    "tour"
   ],
   "photos": [
     {
@@ -33,6 +44,17 @@
         "sculpture",
         "tour"
       ],
+      "IndexTorneh": [
+        "tour",
+        "fer",
+        "sculpture",
+        "garde-corps",
+        "arc",
+        "colonne",
+        "balustrade",
+        "fenêtre",
+        "balcon"
+      ],
       "dateCapture": "2007:02:04"
     },
     {
@@ -41,6 +63,7 @@
         "pont",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:02:04"
     },
     {
@@ -49,6 +72,7 @@
         "pont",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:02:04"
     },
     {
@@ -58,6 +82,7 @@
         "métal",
         "pont"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:01"
     }
   ]

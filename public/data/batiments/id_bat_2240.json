@@ -21,8 +21,25 @@
   "WPfr": null,
   "image_ref": "Daumesnil-32b_12_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "sculpture"
+    "sculpture",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "avant-corps",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "garde-corps",
+    "lucarne",
+    "mascaron",
+    "pierre de taille",
+    "pilastre",
+    "sculpture",
+    "souche de cheminée",
+    "volet"
   ],
   "photos": [
     {
@@ -30,6 +47,23 @@
       "IndexJantzen": [
         "fenetre",
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "balustrade",
+        "lucarne",
+        "mascaron",
+        "sculpture",
+        "ardoise",
+        "souche de cheminée",
+        "pierre de taille",
+        "volet",
+        "bandeau",
+        "corniche",
+        "pilastre",
+        "avant-corps"
       ],
       "dateCapture": "2007:04:11"
     }

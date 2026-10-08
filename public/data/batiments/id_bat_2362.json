@@ -22,19 +22,61 @@
   "image_ref": "Picpus-37_12_§1",
   "terme_jantzen_bat": [
     "oeil-de-boeuf",
+    "sculpture",
+    "clé",
     "fenetre",
     "lucarne",
     "façade",
+    "fronton",
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "cariatide",
+    "chambranle",
+    "chaîne d'angle",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "grille",
+    "lucarne",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porte",
     "sculpture",
-    "clé",
-    "porte-bois",
-    "fronton"
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée"
   ],
   "photos": [
     {
       "id_pic": "Picpus-37_12_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fronton",
+        "oculus",
+        "lucarne",
+        "fenêtre",
+        "porte",
+        "balcon",
+        "garde-corps",
+        "grille",
+        "pilastre",
+        "mascaron",
+        "chambranle",
+        "pierre de taille",
+        "toit à deux versants",
+        "souche de cheminée",
+        "sculpture",
+        "travée",
+        "fer forgé",
+        "chaîne d'angle",
+        "cariatide"
       ],
       "dateCapture": "2006:10:16"
     },
@@ -43,6 +85,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:15"
     },
     {
@@ -52,6 +95,7 @@
         "lucarne",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:10:16"
     },
     {
@@ -61,6 +105,7 @@
         "lucarne",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:10:16"
     },
     {
@@ -69,6 +114,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:10:16"
     },
     {
@@ -77,6 +123,7 @@
         "clé",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:10:16"
     },
     {
@@ -84,6 +131,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:15"
     }
   ]

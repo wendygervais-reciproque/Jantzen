@@ -30,11 +30,39 @@
   "terme_jantzen_bat": [
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "arc en anse de panier",
+    "ardoise",
+    "baie",
+    "chéneau",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "lucarne",
+    "modillon",
+    "pierre de taille",
+    "sculpture",
+    "vitrail"
+  ],
   "photos": [
     {
       "id_pic": "Prony-32_17_2_§1-Rs",
       "IndexJantzen": [
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "lucarne",
+        "ardoise",
+        "corniche",
+        "modillon",
+        "fronton",
+        "sculpture",
+        "arc en anse de panier",
+        "baie",
+        "fenêtre",
+        "vitrail",
+        "pierre de taille",
+        "chéneau"
       ],
       "dateCapture": "2008:02:17"
     }

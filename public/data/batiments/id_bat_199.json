@@ -21,10 +21,30 @@
   "WPfr": null,
   "image_ref": "Clotilde-1_5_§1",
   "terme_jantzen_bat": [
-    "oeil-de-boeuf",
-    "lucarne",
     "façade",
-    "fronton"
+    "oeil-de-boeuf",
+    "fronton",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "arc brisé",
+    "arc en plein cintre",
+    "ardoise",
+    "chapiteau",
+    "colonne",
+    "corniche",
+    "entablement",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "grille",
+    "lucarne",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "souche de cheminée"
   ],
   "photos": [
     {
@@ -32,6 +52,26 @@
       "IndexJantzen": [
         "façade",
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "fronton",
+        "pilastre",
+        "chapiteau",
+        "pierre de taille",
+        "arc en plein cintre",
+        "fenêtre",
+        "lucarne",
+        "oculus",
+        "porte",
+        "ardoise",
+        "souche de cheminée",
+        "grille",
+        "garde-corps",
+        "arc brisé",
+        "colonne",
+        "corniche",
+        "entablement",
+        "fer forgé"
       ],
       "dateCapture": "2005:08:29"
     },
@@ -41,6 +81,7 @@
         "fronton",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:29"
     },
     {
@@ -48,6 +89,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:29"
     },
     {
@@ -56,6 +98,7 @@
         "fronton",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:29"
     },
     {
@@ -64,6 +107,7 @@
         "lucarne",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:29"
     }
   ]

@@ -28,10 +28,34 @@
   "WPfr": null,
   "image_ref": "Beaubourg-96_3_31_Dx",
   "terme_jantzen_bat": [
-    "fenetre",
-    "lucarne",
     "lucarne-d'angle",
-    "dome"
+    "dome",
+    "fenetre",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chapiteau corinthien",
+    "chéneau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "oriel",
+    "pierre de taille",
+    "pilastre",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -39,6 +63,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:11:19"
     },
     {
@@ -46,6 +71,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:11:19"
     },
     {
@@ -53,6 +79,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:11:19"
     },
     {
@@ -61,6 +88,7 @@
         "dome",
         "lucarne-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:11:19"
     },
     {
@@ -68,12 +96,37 @@
       "IndexJantzen": [
         "lucarne-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:11:19"
     },
     {
       "id_pic": "Beaubourg-96_3_31_Dx",
       "IndexJantzen": [
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "lucarne",
+        "mansarde",
+        "toit à deux versants",
+        "corniche",
+        "bandeau",
+        "pilastre",
+        "chapiteau corinthien",
+        "souche de cheminée",
+        "ardoise",
+        "pierre de taille",
+        "garde-corps",
+        "fer forgé",
+        "mascaron",
+        "oriel",
+        "chéneau",
+        "volet",
+        "travée",
+        "fronton",
+        "oculus"
       ],
       "dateCapture": "2009:11:19"
     }

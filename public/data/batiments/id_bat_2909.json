@@ -21,12 +21,34 @@
   "WPfr": null,
   "image_ref": "Laborde-de-50_8_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "lucarne",
+    "balcon",
     "dome",
     "fenetre-d'angle",
-    "porte-bois",
-    "balcon"
+    "fenetre",
+    "lucarne",
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "avant-corps",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "sculpture",
+    "souche de cheminée",
+    "travée",
+    "volet",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -37,6 +59,28 @@
         "fenetre-d'angle",
         "lucarne"
       ],
+      "IndexTorneh": [
+        "dôme",
+        "épi de faîtage",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "lucarne",
+        "souche de cheminée",
+        "oculus",
+        "corniche",
+        "bandeau",
+        "pilastre",
+        "mansarde",
+        "pierre de taille",
+        "volet",
+        "avant-corps",
+        "travée",
+        "sculpture",
+        "mascaron"
+      ],
       "dateCapture": "2012:04:30"
     },
     {
@@ -44,6 +88,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:05:25"
     },
     {
@@ -52,6 +97,7 @@
         "fenetre",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:04"
     }
   ]

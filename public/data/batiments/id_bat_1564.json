@@ -25,11 +25,35 @@
     "clé",
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "arc",
+    "balcon",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Hirondelle-20_6_§1",
       "IndexJantzen": [
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "portail",
+        "porte",
+        "arc",
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "vantail",
+        "sculpture",
+        "pierre de taille",
+        "fenêtre"
       ],
       "dateCapture": "2005:05:23"
     },
@@ -39,6 +63,7 @@
         "clé",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:23"
     }
   ]

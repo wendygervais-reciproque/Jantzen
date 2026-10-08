@@ -29,9 +29,30 @@
   "image_ref": "Assomption-31_16_§1",
   "terme_jantzen_bat": [
     "fenetre-d'angle",
-    "lucarne",
     "dome",
-    "façade-d'angle"
+    "façade-d'angle",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chéneau",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "oculus",
+    "oriel",
+    "pierre de taille",
+    "porte",
+    "souche de cheminée",
+    "tuile",
+    "volet",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -39,6 +60,27 @@
       "IndexJantzen": [
         "dome",
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "oculus",
+        "lucarne",
+        "souche de cheminée",
+        "corniche",
+        "bandeau",
+        "pierre de taille",
+        "ardoise",
+        "dôme",
+        "mansarde",
+        "oriel",
+        "volet",
+        "porte",
+        "tuile",
+        "chéneau",
+        "épi de faîtage"
       ],
       "dateCapture": "2009:03:31"
     },
@@ -49,6 +91,7 @@
         "fenetre-d'angle",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:03:31"
     }
   ]

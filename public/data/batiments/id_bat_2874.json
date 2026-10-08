@@ -21,10 +21,26 @@
   "WPfr": null,
   "image_ref": "Helene-5_17_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "façade",
-    "décor",
-    "oriel"
+    "oriel",
+    "fenetre",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "oriel",
+    "pilastre",
+    "sculpture",
+    "souche de cheminée",
+    "travée"
   ],
   "photos": [
     {
@@ -32,6 +48,22 @@
       "IndexJantzen": [
         "façade",
         "oriel"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "corniche",
+        "bandeau",
+        "souche de cheminée",
+        "mascaron",
+        "brique",
+        "oriel",
+        "travée",
+        "fer forgé",
+        "sculpture",
+        "pilastre"
       ],
       "dateCapture": "2004:10:05"
     },
@@ -41,6 +73,7 @@
         "décor",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:10:05"
     }
   ]

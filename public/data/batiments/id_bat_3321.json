@@ -23,11 +23,31 @@
   "terme_jantzen_bat": [
     "fenetre-d'angle"
   ],
+  "terme_torneh_bat": [
+    "baie",
+    "balcon",
+    "balustrade",
+    "fenêtre",
+    "fer forgé",
+    "grille",
+    "pierre de taille",
+    "travée"
+  ],
   "photos": [
     {
       "id_pic": "Rivoli-Boucher_1_§1",
       "IndexJantzen": [
         "fenetre-d'angle"
+      ],
+      "IndexTorneh": [
+        "baie",
+        "balcon",
+        "balustrade",
+        "fer forgé",
+        "pierre de taille",
+        "fenêtre",
+        "grille",
+        "travée"
       ],
       "dateCapture": "2005:07:16"
     }

@@ -28,21 +28,73 @@
   "WPfr": null,
   "image_ref": "Armorique-12_15_§1",
   "terme_jantzen_bat": [
+    "verrière",
+    "balcon",
+    "sculpture",
+    "oriel",
+    "console",
     "fenetre",
     "lucarne",
     "façade",
-    "console",
-    "sculpture",
-    "porte-bois",
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc brisé",
+    "arc en plein cintre",
+    "ardoise",
+    "avant-corps",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chéneau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
     "oriel",
-    "verrière",
-    "balcon"
+    "pierre de taille",
+    "porte",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "vitrail",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Armorique-12_15_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "porte-fenêtre",
+        "lucarne",
+        "mansarde",
+        "toit à deux versants",
+        "ardoise",
+        "pierre de taille",
+        "corniche",
+        "bandeau",
+        "arc en plein cintre",
+        "arc brisé",
+        "porte",
+        "vitrail",
+        "mascaron",
+        "volet",
+        "oriel",
+        "avant-corps",
+        "travée",
+        "fer forgé",
+        "souche de cheminée",
+        "chéneau"
       ],
       "dateCapture": "2006:09:21"
     },
@@ -51,6 +103,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:09:21"
     },
     {
@@ -59,6 +112,7 @@
         "fenetre",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:09:21"
     },
     {
@@ -66,6 +120,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:13"
     },
     {
@@ -74,6 +129,7 @@
         "lucarne",
         "verrière"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:09:21"
     },
     {
@@ -82,6 +138,7 @@
         "lucarne",
         "verrière"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:09:21"
     },
     {
@@ -90,6 +147,7 @@
         "balcon",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:13"
     },
     {
@@ -99,6 +157,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:09:21"
     },
     {
@@ -107,6 +166,7 @@
         "console",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:09:21"
     },
     {
@@ -115,6 +175,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:09:21"
     }
   ]

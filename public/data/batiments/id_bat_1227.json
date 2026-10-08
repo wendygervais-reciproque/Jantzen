@@ -23,11 +23,35 @@
   "terme_jantzen_bat": [
     "porte-fer-hall"
   ],
+  "terme_torneh_bat": [
+    "arc",
+    "chambranle",
+    "corniche",
+    "fer forgé",
+    "linteau",
+    "mascaron",
+    "modillon",
+    "pierre de taille",
+    "porte",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Colonel-Moll-17_17_§1",
       "IndexJantzen": [
         "porte-fer-hall"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "fer forgé",
+        "vantail",
+        "mascaron",
+        "pierre de taille",
+        "chambranle",
+        "linteau",
+        "corniche",
+        "arc",
+        "modillon"
       ],
       "dateCapture": "2010:03:08"
     }

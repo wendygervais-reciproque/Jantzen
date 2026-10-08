@@ -21,15 +21,39 @@
   "WPfr": null,
   "image_ref": "Felix-Ziem-1_18_§1",
   "terme_jantzen_bat": [
+    "garde-corps",
     "fenetre",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
     "lucarne",
-    "garde-corps"
+    "mansarde",
+    "souche de cheminée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Felix-Ziem-1_18_§1",
       "IndexJantzen": [
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "lucarne",
+        "mansarde",
+        "ardoise",
+        "souche de cheminée",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "volet",
+        "balcon",
+        "arc en plein cintre"
       ],
       "dateCapture": "2006:04:08"
     },
@@ -39,6 +63,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:08"
     }
   ]

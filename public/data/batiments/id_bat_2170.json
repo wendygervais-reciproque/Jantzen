@@ -21,10 +21,24 @@
   "WPfr": null,
   "image_ref": "Opera-31_1_§1",
   "terme_jantzen_bat": [
+    "console",
     "sculpture",
     "cariatide",
-    "console",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "brique",
+    "cariatide",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "modillon",
+    "pierre de taille",
+    "sculpture"
   ],
   "photos": [
     {
@@ -34,6 +48,20 @@
         "console",
         "décor",
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "cariatide",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "corniche",
+        "sculpture",
+        "mascaron",
+        "fenêtre",
+        "brique",
+        "pierre de taille",
+        "modillon"
       ],
       "dateCapture": "2005:06:19"
     }

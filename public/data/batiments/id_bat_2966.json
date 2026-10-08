@@ -21,10 +21,34 @@
   "WPfr": null,
   "image_ref": "Grands-Augustins-qu-53_6_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "cariatide",
     "sculpture",
+    "cariatide",
+    "fenetre",
     "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "atlante",
+    "auvent",
+    "baie",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "grille",
+    "mascaron",
+    "mur-boutant",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "sculpture",
+    "vantail",
+    "vitrail",
+    "volet"
   ],
   "photos": [
     {
@@ -34,6 +58,30 @@
         "fenetre",
         "porte-bois"
       ],
+      "IndexTorneh": [
+        "atlante",
+        "balcon",
+        "balustrade",
+        "bandeau",
+        "chambranle",
+        "corniche",
+        "fenêtre",
+        "fer forgé",
+        "garde-corps",
+        "grille",
+        "mascaron",
+        "mur-boutant",
+        "pierre de taille",
+        "porte",
+        "sculpture",
+        "vantail",
+        "vitrail",
+        "volet",
+        "oculus",
+        "pilastre",
+        "auvent",
+        "baie"
+      ],
       "dateCapture": "2005:07:13"
     },
     {
@@ -42,6 +90,7 @@
         "cariatide",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:14"
     },
     {
@@ -50,6 +99,7 @@
         "porte-bois",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:14"
     }
   ]

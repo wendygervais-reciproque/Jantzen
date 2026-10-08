@@ -21,16 +21,64 @@
   "WPfr": null,
   "image_ref": "Louis-Braille-17_12_§1",
   "terme_jantzen_bat": [
-    "oeil-de-boeuf",
     "brique",
+    "oeil-de-boeuf",
+    "fenetre-d'angle",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "arc brisé",
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "brique",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
     "lucarne",
-    "fenetre-d'angle"
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "souche de cheminée",
+    "tour",
+    "travée",
+    "volet",
+    "épi de faîtage"
   ],
   "photos": [
     {
       "id_pic": "Louis-Braille-17_12_§1",
       "IndexJantzen": [
         "fenetre-d'angle"
+      ],
+      "IndexTorneh": [
+        "tour",
+        "dôme",
+        "oculus",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "volet",
+        "fenêtre",
+        "lucarne",
+        "mansarde",
+        "souche de cheminée",
+        "arc en plein cintre",
+        "arc brisé",
+        "épi de faîtage",
+        "corniche",
+        "pierre de taille",
+        "ardoise",
+        "brique",
+        "mascaron",
+        "pilastre",
+        "travée"
       ],
       "dateCapture": "2005:07:16"
     },
@@ -41,6 +89,7 @@
         "lucarne",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:16"
     },
     {
@@ -50,6 +99,7 @@
         "fenetre-d'angle",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:16"
     }
   ]

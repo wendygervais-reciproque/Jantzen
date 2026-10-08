@@ -23,11 +23,31 @@
   "terme_jantzen_bat": [
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "chambranle",
+    "chéneau",
+    "corniche",
+    "fenêtre",
+    "garde-corps",
+    "lucarne",
+    "mansarde"
+  ],
   "photos": [
     {
       "id_pic": "François-Miron-50_4_§1",
       "IndexJantzen": [
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "lucarne",
+        "mansarde",
+        "ardoise",
+        "fenêtre",
+        "chéneau",
+        "corniche",
+        "garde-corps",
+        "chambranle"
       ],
       "dateCapture": "2008:09:18"
     },
@@ -36,6 +56,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:09:18"
     }
   ]

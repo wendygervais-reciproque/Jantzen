@@ -33,12 +33,35 @@
   "image_ref": "Felix-Eboue-pl-6_12_§1",
   "terme_jantzen_bat": [
     "oeil-de-boeuf",
-    "fenetre",
-    "lucarne",
+    "dome",
     "façade-d'angle",
     "sculpture",
-    "dome",
+    "fenetre",
+    "lucarne",
     "porte-fer-hall"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "porte",
+    "porte-fenêtre",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "vitrail"
   ],
   "photos": [
     {
@@ -46,6 +69,29 @@
       "IndexJantzen": [
         "dome",
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "porte-fenêtre",
+        "lucarne",
+        "mansarde",
+        "souche de cheminée",
+        "ardoise",
+        "toit à deux versants",
+        "corniche",
+        "bandeau",
+        "pierre de taille",
+        "sculpture",
+        "mascaron",
+        "porte",
+        "travée",
+        "arc en plein cintre",
+        "oculus",
+        "fer forgé",
+        "vitrail"
       ],
       "dateCapture": "2006:07:03"
     },
@@ -56,6 +102,7 @@
         "lucarne",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:03"
     },
     {
@@ -65,6 +112,7 @@
         "lucarne",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:03"
     },
     {
@@ -73,6 +121,7 @@
         "lucarne",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:03"
     },
     {
@@ -81,6 +130,7 @@
         "lucarne",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:03"
     },
     {
@@ -89,6 +139,7 @@
         "lucarne",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:03"
     },
     {
@@ -96,6 +147,7 @@
       "IndexJantzen": [
         "porte-fer-hall"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:27"
     }
   ]

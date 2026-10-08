@@ -28,12 +28,31 @@
   "WPfr": null,
   "image_ref": "Felix-Faure-av-31_15_§1",
   "terme_jantzen_bat": [
+    "sculpture",
+    "console",
     "fenetre",
     "lucarne",
-    "console",
+    "porte-fer-hall",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "avant-corps",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
     "sculpture",
-    "décor",
-    "porte-fer-hall"
+    "souche de cheminée",
+    "toit à deux versants",
+    "volet"
   ],
   "photos": [
     {
@@ -43,6 +62,25 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "mansarde",
+        "lucarne",
+        "souche de cheminée",
+        "ardoise",
+        "pierre de taille",
+        "volet",
+        "sculpture",
+        "bandeau",
+        "oculus",
+        "fer forgé",
+        "toit à deux versants",
+        "mascaron",
+        "avant-corps"
+      ],
       "dateCapture": "2005:09:03"
     },
     {
@@ -50,6 +88,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:09:03"
     },
     {
@@ -58,6 +97,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:09:03"
     },
     {
@@ -66,6 +106,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:09:03"
     },
     {
@@ -74,6 +115,7 @@
         "fenetre",
         "porte-fer-hall"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:09:03"
     },
     {
@@ -81,6 +123,7 @@
       "IndexJantzen": [
         "porte-fer-hall"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:09:03"
     }
   ]

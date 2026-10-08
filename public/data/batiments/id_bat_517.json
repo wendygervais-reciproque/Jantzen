@@ -28,15 +28,37 @@
   "WPfr": null,
   "image_ref": "Vieille-Du-Temple-110_3_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "sculpture",
+    "fenetre",
     "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "vantail"
   ],
   "photos": [
     {
       "id_pic": "Vieille-Du-Temple-110_3_§1",
       "IndexJantzen": [
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "arc en plein cintre",
+        "vantail",
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "sculpture",
+        "pierre de taille",
+        "mascaron"
       ],
       "dateCapture": "2005:07:03"
     },
@@ -45,6 +67,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:03"
     },
     {
@@ -53,6 +76,7 @@
         "porte-bois",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:03"
     },
     {
@@ -61,6 +85,7 @@
         "porte-bois",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:03"
     },
     {
@@ -68,6 +93,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:08:09"
     }
   ]

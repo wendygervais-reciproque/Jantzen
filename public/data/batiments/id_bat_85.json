@@ -25,13 +25,27 @@
   "image_ref": "Gare-St-Lazare-_8_§1",
   "terme_jantzen_bat": [
     "toiture",
+    "oeil-de-boeuf",
+    "verrière",
+    "tourelle",
     "fenetre",
     "lucarne",
-    "oeil-de-boeuf",
-    "tourelle",
     "métal",
-    "verrière",
     "fronton"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants"
   ],
   "photos": [
     {
@@ -39,6 +53,20 @@
       "IndexJantzen": [
         "fenetre",
         "fronton"
+      ],
+      "IndexTorneh": [
+        "fronton",
+        "oculus",
+        "souche de cheminée",
+        "pilastre",
+        "fenêtre",
+        "corniche",
+        "sculpture",
+        "ardoise",
+        "toit à deux versants",
+        "mascaron",
+        "bandeau",
+        "pierre de taille"
       ],
       "dateCapture": "2005:08:10"
     },
@@ -48,6 +76,7 @@
         "lucarne",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:10"
     },
     {
@@ -56,6 +85,7 @@
         "lucarne",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:04"
     },
     {
@@ -64,6 +94,7 @@
         "lucarne",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:04"
     },
     {
@@ -73,6 +104,7 @@
         "tourelle",
         "verrière"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:02"
     }
   ]

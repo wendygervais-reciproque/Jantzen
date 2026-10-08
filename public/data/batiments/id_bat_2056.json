@@ -32,8 +32,27 @@
   "WPfr": null,
   "image_ref": "Balzac-3_8_§1",
   "terme_jantzen_bat": [
+    "dome",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "garde-corps",
+    "grille",
     "lucarne",
-    "dome"
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "sculpture",
+    "toit-terrasse",
+    "volet",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -41,6 +60,25 @@
       "IndexJantzen": [
         "dome",
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "dôme",
+        "épi de faîtage",
+        "lucarne",
+        "mascaron",
+        "balcon",
+        "garde-corps",
+        "corniche",
+        "fenêtre",
+        "volet",
+        "oculus",
+        "pierre de taille",
+        "bandeau",
+        "balustrade",
+        "arc en plein cintre",
+        "sculpture",
+        "toit-terrasse",
+        "grille"
       ],
       "dateCapture": "2010:04:27"
     }

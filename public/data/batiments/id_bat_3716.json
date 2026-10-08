@@ -24,12 +24,38 @@
     "sculpture",
     "console"
   ],
+  "terme_torneh_bat": [
+    "arc",
+    "balcon",
+    "balustrade",
+    "chaîne d'angle",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "modillon",
+    "pierre de taille",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Tour-de-la-85_16_§1",
       "IndexJantzen": [
         "console",
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "arc",
+        "fenêtre",
+        "volet",
+        "modillon",
+        "pierre de taille",
+        "mascaron",
+        "chaîne d'angle"
       ],
       "dateCapture": "2005:06:07"
     }

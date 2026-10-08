@@ -24,12 +24,28 @@
     "toiture",
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "fenêtre",
+    "garde-corps",
+    "lucarne",
+    "souche de cheminée",
+    "toit à deux versants"
+  ],
   "photos": [
     {
       "id_pic": "Galande-73_5_1_§1-Rx",
       "IndexJantzen": [
         "lucarne",
         "toiture"
+      ],
+      "IndexTorneh": [
+        "lucarne",
+        "fenêtre",
+        "ardoise",
+        "souche de cheminée",
+        "garde-corps",
+        "toit à deux versants"
       ],
       "dateCapture": "2011:09:28"
     }

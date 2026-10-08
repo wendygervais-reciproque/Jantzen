@@ -25,18 +25,54 @@
   "image_ref": "Legion-d'Honneur-_6_§1",
   "terme_jantzen_bat": [
     "porte-fer",
-    "façade",
-    "porte",
     "sculpture",
     "clé",
     "cariatide",
+    "façade",
+    "porte",
     "colonne"
+  ],
+  "terme_torneh_bat": [
+    "attique",
+    "balustrade",
+    "chapiteau corinthien",
+    "colonne",
+    "corniche",
+    "dôme",
+    "entablement",
+    "fenêtre",
+    "frise",
+    "fronton",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porte-fenêtre",
+    "sculpture",
+    "souche de cheminée"
   ],
   "photos": [
     {
       "id_pic": "Legion-d'Honneur-_6_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "dôme",
+        "colonne",
+        "chapiteau corinthien",
+        "corniche",
+        "fronton",
+        "entablement",
+        "sculpture",
+        "balustrade",
+        "fenêtre",
+        "porte-fenêtre",
+        "pilastre",
+        "frise",
+        "souche de cheminée",
+        "oculus",
+        "pierre de taille",
+        "attique"
       ],
       "dateCapture": "2006:06:13"
     },
@@ -46,6 +82,7 @@
         "colonne",
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:13"
     },
     {
@@ -53,6 +90,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:13"
     },
     {
@@ -61,6 +99,7 @@
         "colonne",
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:17"
     },
     {
@@ -68,6 +107,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:17"
     },
     {
@@ -75,11 +115,13 @@
       "IndexJantzen": [
         "colonne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:22"
     },
     {
       "id_pic": "Palais-Legion-d'Honneur_7_§13",
       "IndexJantzen": [],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:22"
     },
     {
@@ -87,6 +129,7 @@
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:03"
     },
     {
@@ -95,6 +138,7 @@
         "colonne",
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:03"
     },
     {
@@ -104,6 +148,7 @@
         "porte-fer",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:03"
     },
     {
@@ -111,6 +156,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:03"
     },
     {
@@ -119,6 +165,7 @@
         "cariatide",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:15"
     },
     {
@@ -126,6 +173,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:03"
     },
     {
@@ -133,6 +181,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:03"
     },
     {
@@ -141,6 +190,7 @@
         "colonne",
         "porte"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:17"
     },
     {
@@ -148,6 +198,7 @@
       "IndexJantzen": [
         "porte"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:17"
     },
     {
@@ -156,6 +207,7 @@
         "colonne",
         "porte"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:17"
     },
     {
@@ -163,6 +215,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:17"
     },
     {
@@ -170,6 +223,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:17"
     }
   ]

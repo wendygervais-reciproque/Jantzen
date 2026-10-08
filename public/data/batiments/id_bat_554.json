@@ -23,9 +23,30 @@
   "WPfr": null,
   "image_ref": "Rennes-115_6_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "sculpture",
+    "fenetre",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chapiteau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "pierre de taille",
+    "pilastre",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -34,6 +55,27 @@
         "décor",
         "fenetre",
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "lucarne",
+        "mansarde",
+        "corniche",
+        "bandeau",
+        "fronton",
+        "pilastre",
+        "chapiteau",
+        "mascaron",
+        "ardoise",
+        "souche de cheminée",
+        "volet",
+        "fer forgé",
+        "pierre de taille",
+        "travée",
+        "toit à deux versants"
       ],
       "dateCapture": "2004:03:30"
     }

@@ -34,11 +34,49 @@
   "terme_jantzen_bat": [
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "auvent",
+    "balcon",
+    "balustrade",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "oculus",
+    "pierre de taille",
+    "porte-fenêtre",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Suffren-61_7_§1",
       "IndexJantzen": [
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "porte-fenêtre",
+        "lucarne",
+        "mansarde",
+        "toit à deux versants",
+        "ardoise",
+        "volet",
+        "souche de cheminée",
+        "sculpture",
+        "fer forgé",
+        "pierre de taille",
+        "corniche",
+        "auvent",
+        "oculus"
       ],
       "dateCapture": "2007:08:25"
     },
@@ -47,6 +85,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:08:25"
     }
   ]

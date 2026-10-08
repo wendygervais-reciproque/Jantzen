@@ -28,15 +28,49 @@
   "WPfr": null,
   "image_ref": "Le-Verrier-4_6_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "sculpture",
+    "fenetre",
     "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bossage",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "sculpture",
+    "vantail"
   ],
   "photos": [
     {
       "id_pic": "Le-Verrier-4_6_§1",
       "IndexJantzen": [
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "mascaron",
+        "sculpture",
+        "pilastre",
+        "bossage",
+        "corniche",
+        "garde-corps",
+        "fer forgé",
+        "pierre de taille",
+        "arc en plein cintre",
+        "chambranle",
+        "vantail"
       ],
       "dateCapture": "2005:05:09"
     },
@@ -46,6 +80,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:09"
     }
   ]

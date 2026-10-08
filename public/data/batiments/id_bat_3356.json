@@ -28,14 +28,36 @@
   "WPfr": null,
   "image_ref": "Rembrandt-7-9_8_§1",
   "terme_jantzen_bat": [
+    "oriel",
+    "sculpture",
+    "clé",
+    "console",
     "fenetre",
     "façade",
-    "garde-corps",
-    "console",
-    "sculpture",
     "métal",
-    "clé",
-    "oriel"
+    "garde-corps"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chaîne d'angle",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "grille",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "oriel",
+    "pierre de taille",
+    "souche de cheminée",
+    "toit à deux versants",
+    "volet",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -43,6 +65,28 @@
       "IndexJantzen": [
         "façade",
         "métal"
+      ],
+      "IndexTorneh": [
+        "oriel",
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "lucarne",
+        "mansarde",
+        "souche de cheminée",
+        "ardoise",
+        "pierre de taille",
+        "balustrade",
+        "mascaron",
+        "arc en plein cintre",
+        "oculus",
+        "chaîne d'angle",
+        "épi de faîtage",
+        "grille",
+        "volet",
+        "fer forgé",
+        "toit à deux versants",
+        "bandeau"
       ],
       "dateCapture": "2005:08:02"
     },
@@ -53,6 +97,7 @@
         "métal",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:02"
     },
     {
@@ -62,6 +107,7 @@
         "métal",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:02"
     },
     {
@@ -70,6 +116,7 @@
         "métal",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:08:13"
     },
     {
@@ -77,6 +124,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:08:13"
     },
     {
@@ -86,6 +134,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:08:13"
     },
     {
@@ -94,6 +143,7 @@
         "métal",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:08:13"
     },
     {
@@ -102,6 +152,7 @@
         "console",
         "métal"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:08:13"
     },
     {
@@ -110,6 +161,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:02"
     }
   ]

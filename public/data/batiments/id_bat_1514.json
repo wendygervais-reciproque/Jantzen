@@ -29,20 +29,70 @@
   "image_ref": "Lecourbe-2_15_§1",
   "terme_jantzen_bat": [
     "toiture",
+    "dome",
+    "façade-d'angle",
+    "balcon",
+    "porte-fer",
+    "sculpture",
     "fenetre",
     "lucarne",
-    "porte-fer",
-    "façade-d'angle",
-    "sculpture",
-    "dome",
-    "décor",
-    "balcon"
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc brisé",
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "dôme",
+    "escalier",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "grille",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "tour",
+    "travée"
   ],
   "photos": [
     {
       "id_pic": "Lecourbe-2_15_§1",
       "IndexJantzen": [
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "corniche",
+        "mansarde",
+        "lucarne",
+        "fronton",
+        "arc en plein cintre",
+        "arc brisé",
+        "pilastre",
+        "bandeau",
+        "dôme",
+        "souche de cheminée",
+        "oculus",
+        "porte",
+        "porte-fenêtre",
+        "mascaron",
+        "pierre de taille",
+        "travée",
+        "tour",
+        "grille",
+        "escalier"
       ],
       "dateCapture": "2007:06:17"
     },
@@ -54,6 +104,7 @@
         "façade-d'angle",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:18"
     },
     {
@@ -63,6 +114,7 @@
         "lucarne",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:18"
     },
     {
@@ -71,6 +123,7 @@
         "dome",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:06:17"
     },
     {
@@ -79,6 +132,7 @@
         "dome",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:17"
     },
     {
@@ -89,6 +143,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:18"
     },
     {
@@ -96,6 +151,7 @@
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:18"
     }
   ]

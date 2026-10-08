@@ -30,11 +30,33 @@
   "terme_jantzen_bat": [
     "colonne"
   ],
+  "terme_torneh_bat": [
+    "balustrade",
+    "chapiteau",
+    "colonne",
+    "corniche",
+    "entablement",
+    "fronton",
+    "garde-corps",
+    "pierre de taille",
+    "sculpture"
+  ],
   "photos": [
     {
       "id_pic": "Nation-pl_11_§1",
       "IndexJantzen": [
         "colonne"
+      ],
+      "IndexTorneh": [
+        "colonne",
+        "sculpture",
+        "chapiteau",
+        "fronton",
+        "corniche",
+        "balustrade",
+        "entablement",
+        "pierre de taille",
+        "garde-corps"
       ],
       "dateCapture": null
     }

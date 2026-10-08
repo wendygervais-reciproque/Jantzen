@@ -21,9 +21,28 @@
   "WPfr": null,
   "image_ref": "Bois-24_19_§1",
   "terme_jantzen_bat": [
-    "fenetre-d'angle",
     "brique",
+    "fenetre-d'angle",
     "façade-d'angle"
+  ],
+  "terme_torneh_bat": [
+    "auvent",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "corniche",
+    "fenêtre",
+    "garde-corps",
+    "marquise",
+    "oculus",
+    "porte",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "toit en pavillon",
+    "tour",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -31,6 +50,25 @@
       "IndexJantzen": [
         "brique",
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "porte-fenêtre",
+        "balustrade",
+        "bandeau",
+        "corniche",
+        "brique",
+        "souche de cheminée",
+        "toit en pavillon",
+        "oculus",
+        "tour",
+        "travée",
+        "volet",
+        "auvent",
+        "marquise",
+        "porte"
       ],
       "dateCapture": "2005:09:02"
     },
@@ -40,6 +78,7 @@
         "brique",
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:09:02"
     }
   ]

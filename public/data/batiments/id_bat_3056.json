@@ -21,17 +21,61 @@
   "WPfr": null,
   "image_ref": "Voltaire-bd-58_11_§1",
   "terme_jantzen_bat": [
+    "sculpture",
     "fenetre",
     "lucarne",
     "façade",
-    "sculpture",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "pierre de taille",
+    "pilastre",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Voltaire-bd-58_11_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "bandeau",
+        "chambranle",
+        "corniche",
+        "fenêtre",
+        "fer forgé",
+        "fronton",
+        "garde-corps",
+        "lucarne",
+        "mansarde",
+        "mascaron",
+        "pierre de taille",
+        "souche de cheminée",
+        "toit à deux versants",
+        "volet",
+        "arc en plein cintre",
+        "fer",
+        "pilastre",
+        "travée"
       ],
       "dateCapture": "2009:03:20"
     },
@@ -40,6 +84,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:03:20"
     },
     {
@@ -50,6 +95,7 @@
         "lucarne",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:03:20"
     },
     {
@@ -60,6 +106,7 @@
         "lucarne",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:03:20"
     },
     {
@@ -69,6 +116,7 @@
         "lucarne",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:03:20"
     },
     {
@@ -78,6 +126,7 @@
         "lucarne",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:03:24"
     },
     {
@@ -86,6 +135,7 @@
         "lucarne",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:03:24"
     },
     {
@@ -93,6 +143,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:15"
     }
   ]

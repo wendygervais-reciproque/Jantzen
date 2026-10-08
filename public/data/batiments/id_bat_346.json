@@ -29,10 +29,18 @@
   "image_ref": "Mallet-Stevens-10_16_§1",
   "terme_jantzen_bat": [
     "porte-fer",
-    "fenetre",
     "tourelle",
     "fenetre-d'angle",
+    "fenetre",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "escalier",
+    "fenêtre",
+    "garde-corps",
+    "toit-terrasse",
+    "tour"
   ],
   "photos": [
     {
@@ -40,6 +48,14 @@
       "IndexJantzen": [
         "décor",
         "fenetre-d'angle"
+      ],
+      "IndexTorneh": [
+        "tour",
+        "escalier",
+        "garde-corps",
+        "balcon",
+        "fenêtre",
+        "toit-terrasse"
       ],
       "dateCapture": "2005:05:12"
     },
@@ -50,6 +66,7 @@
         "fenetre-d'angle",
         "tourelle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:03:31"
     },
     {
@@ -59,6 +76,7 @@
         "fenetre-d'angle",
         "tourelle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:12"
     },
     {
@@ -67,6 +85,7 @@
         "décor",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:12"
     },
     {
@@ -74,6 +93,7 @@
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:03:31"
     }
   ]

@@ -21,9 +21,16 @@
   "WPfr": null,
   "image_ref": "Falguiere-70_15_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "brique",
+    "fenetre",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "brique",
+    "fenêtre",
+    "garde-corps",
+    "linteau",
+    "vantail"
   ],
   "photos": [
     {
@@ -32,6 +39,13 @@
         "brique",
         "décor",
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "brique",
+        "linteau",
+        "garde-corps",
+        "vantail"
       ],
       "dateCapture": "2004:03:29"
     }

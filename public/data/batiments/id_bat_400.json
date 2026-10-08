@@ -21,8 +21,29 @@
   "WPfr": null,
   "image_ref": "Courcelles-105_17_§1",
   "terme_jantzen_bat": [
-    "dome",
-    "fenetre-d'angle"
+    "fenetre-d'angle",
+    "dome"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "colonne",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "oriel",
+    "pierre de taille",
+    "pilastre",
+    "souche de cheminée",
+    "volet"
   ],
   "photos": [
     {
@@ -30,6 +51,27 @@
       "IndexJantzen": [
         "dome",
         "fenetre-d'angle"
+      ],
+      "IndexTorneh": [
+        "dôme",
+        "oculus",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "mansarde",
+        "souche de cheminée",
+        "corniche",
+        "bandeau",
+        "pilastre",
+        "colonne",
+        "mascaron",
+        "pierre de taille",
+        "volet",
+        "ardoise",
+        "fronton",
+        "oriel"
       ],
       "dateCapture": "2005:03:25"
     }

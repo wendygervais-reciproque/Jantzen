@@ -28,8 +28,18 @@
   "WPfr": null,
   "image_ref": "Blomet-8_15_§2",
   "terme_jantzen_bat": [
-    "verrière",
-    "façade"
+    "façade",
+    "verrière"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "avant-corps",
+    "fenêtre",
+    "garde-corps",
+    "mansarde",
+    "pierre de taille",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -37,6 +47,16 @@
       "IndexJantzen": [
         "façade",
         "verrière"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "mansarde",
+        "ardoise",
+        "volet",
+        "travée",
+        "avant-corps",
+        "garde-corps",
+        "pierre de taille"
       ],
       "dateCapture": "2005:09:03"
     }

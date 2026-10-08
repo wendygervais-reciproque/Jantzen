@@ -28,11 +28,29 @@
   "WPfr": null,
   "image_ref": "Lonchamp-37_16_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "pignon",
-    "métal",
     "oriel",
-    "fenetre-d'angle"
+    "pignon",
+    "fenetre-d'angle",
+    "fenetre",
+    "métal"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "oriel",
+    "pierre de taille",
+    "porte-fenêtre",
+    "toit à deux versants",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -41,6 +59,24 @@
         "fenetre-d'angle",
         "oriel",
         "pignon"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "bandeau",
+        "fenêtre",
+        "fer forgé",
+        "garde-corps",
+        "mansarde",
+        "lucarne",
+        "pierre de taille",
+        "toit à deux versants",
+        "travée",
+        "fronton",
+        "porte-fenêtre",
+        "corniche",
+        "volet",
+        "oriel"
       ],
       "dateCapture": "2005:03:16"
     },
@@ -52,6 +88,7 @@
         "oriel",
         "pignon"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:03:16"
     },
     {
@@ -61,6 +98,7 @@
         "métal",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:03:16"
     }
   ]

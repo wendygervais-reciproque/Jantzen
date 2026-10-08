@@ -28,11 +28,22 @@
   "WPfr": null,
   "image_ref": "Anjou-qu-17_4_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "garde-corps",
-    "porte-bois",
     "balcon",
-    "poignée-porte"
+    "fenetre",
+    "poignée-porte",
+    "garde-corps",
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "chambranle",
+    "fenêtre",
+    "heurtoir",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "sculpture",
+    "vantail"
   ],
   "photos": [
     {
@@ -40,6 +51,17 @@
       "IndexJantzen": [
         "fenetre",
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "portail",
+        "arc en plein cintre",
+        "vantail",
+        "fenêtre",
+        "pierre de taille",
+        "sculpture",
+        "heurtoir",
+        "chambranle"
       ],
       "dateCapture": "2005:07:03"
     },
@@ -49,6 +71,7 @@
         "balcon",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:03"
     },
     {
@@ -56,6 +79,7 @@
       "IndexJantzen": [
         "poignée-porte"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:08:03"
     },
     {
@@ -64,6 +88,7 @@
         "fenetre",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:08:03"
     }
   ]

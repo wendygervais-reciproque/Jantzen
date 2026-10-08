@@ -25,6 +25,24 @@
     "fenetre",
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chéneau",
+    "corniche",
+    "fenêtre",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "pierre de taille",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée"
+  ],
   "photos": [
     {
       "id_pic": "Faubourg-St-Antoine-14-18_12_§1",
@@ -33,6 +51,24 @@
         "lucarne",
         "toiture"
       ],
+      "IndexTorneh": [
+        "fenêtre",
+        "lucarne",
+        "mansarde",
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "corniche",
+        "bandeau",
+        "souche de cheminée",
+        "mascaron",
+        "ardoise",
+        "toit à deux versants",
+        "pierre de taille",
+        "travée",
+        "chéneau",
+        "arc en plein cintre"
+      ],
       "dateCapture": "2008:06:27"
     },
     {
@@ -40,6 +76,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:06:27"
     },
     {
@@ -47,6 +84,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:16"
     }
   ]

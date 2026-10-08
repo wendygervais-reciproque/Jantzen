@@ -24,12 +24,40 @@
     "toiture",
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "brique",
+    "chambranle",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mansarde",
+    "souche de cheminée",
+    "travée",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Denfert-Rochereau-pl-30_14_§1",
       "IndexJantzen": [
         "lucarne",
         "toiture"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "mansarde",
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "volet",
+        "souche de cheminée",
+        "ardoise",
+        "chambranle",
+        "balustrade",
+        "brique",
+        "travée"
       ],
       "dateCapture": "2006:06:18"
     }

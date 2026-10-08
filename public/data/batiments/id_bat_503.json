@@ -28,8 +28,20 @@
   "WPfr": null,
   "image_ref": "Servandoni-11_6_§1",
   "terme_jantzen_bat": [
-    "porte-fer",
-    "fenetre"
+    "fenetre",
+    "porte-fer"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "vantail",
+    "voûte"
   ],
   "photos": [
     {
@@ -37,6 +49,18 @@
       "IndexJantzen": [
         "fenetre",
         "porte-fer"
+      ],
+      "IndexTorneh": [
+        "arc en plein cintre",
+        "porte",
+        "fer forgé",
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "pierre de taille",
+        "mascaron",
+        "vantail",
+        "voûte"
       ],
       "dateCapture": "2005:06:02"
     }

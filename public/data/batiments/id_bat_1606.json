@@ -24,12 +24,40 @@
     "oeil-de-boeuf",
     "lucarne-d'angle"
   ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "brique",
+    "corniche",
+    "fenêtre",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "oculus",
+    "tour",
+    "volet",
+    "épi de faîtage"
+  ],
   "photos": [
     {
       "id_pic": "Saxe-21_7_§1",
       "IndexJantzen": [
         "lucarne-d'angle",
         "oeil-de-boeuf"
+      ],
+      "IndexTorneh": [
+        "lucarne",
+        "oculus",
+        "ardoise",
+        "corniche",
+        "brique",
+        "fenêtre",
+        "volet",
+        "balcon",
+        "tour",
+        "mansarde",
+        "épi de faîtage",
+        "garde-corps"
       ],
       "dateCapture": "2006:07:16"
     }

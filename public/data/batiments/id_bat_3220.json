@@ -31,15 +31,62 @@
     "fenetre",
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "acrotère",
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "porte",
+    "souche de cheminée",
+    "toit à deux versants",
+    "vantail",
+    "verrière",
+    "volet",
+    "épi de faîtage"
+  ],
   "photos": [
     {
       "id_pic": "Ampere-61_17_§1",
       "IndexJantzen": [],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "corniche",
+        "pierre de taille",
+        "brique",
+        "porte",
+        "vantail",
+        "arc en plein cintre",
+        "mascaron",
+        "souche de cheminée",
+        "toit à deux versants",
+        "ardoise",
+        "volet",
+        "verrière",
+        "bandeau",
+        "acrotère",
+        "épi de faîtage",
+        "fer forgé",
+        "oculus"
+      ],
       "dateCapture": "2012:04:22"
     },
     {
       "id_pic": "Ampere-61_17_§3",
       "IndexJantzen": [],
+      "IndexTorneh": [],
       "dateCapture": "2012:04:22"
     },
     {
@@ -48,6 +95,7 @@
         "fenetre",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:04:22"
     }
   ]

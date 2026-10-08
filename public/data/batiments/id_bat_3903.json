@@ -29,10 +29,30 @@
   "image_ref": "Montparnasse-bd-95_6_§1",
   "terme_jantzen_bat": [
     "oeil-de-boeuf",
+    "balcon",
     "fenetre-d'angle",
     "lucarne-d'angle",
-    "décor",
-    "balcon"
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "porte-fenêtre",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "volet"
   ],
   "photos": [
     {
@@ -41,6 +61,26 @@
         "décor",
         "fenetre-d'angle",
         "oeil-de-boeuf"
+      ],
+      "IndexTorneh": [
+        "mansarde",
+        "lucarne",
+        "oculus",
+        "souche de cheminée",
+        "ardoise",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "porte-fenêtre",
+        "volet",
+        "mascaron",
+        "sculpture",
+        "corniche",
+        "pierre de taille",
+        "bandeau",
+        "toit à deux versants"
       ],
       "dateCapture": "2008:04:07"
     },
@@ -51,6 +91,7 @@
         "lucarne-d'angle",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:04:07"
     },
     {
@@ -59,6 +100,7 @@
         "lucarne-d'angle",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:04:07"
     }
   ]

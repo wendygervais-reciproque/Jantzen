@@ -28,16 +28,41 @@
   "WPfr": null,
   "image_ref": "Lota-4_16_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "façade",
-    "pignon",
-    "garde-corps",
-    "lucarne",
-    "oriel",
-    "brique",
-    "décor",
     "balcon",
-    "colonne"
+    "oriel",
+    "pignon",
+    "fenetre",
+    "lucarne",
+    "brique",
+    "façade",
+    "garde-corps",
+    "colonne",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "baie",
+    "balcon",
+    "balustrade",
+    "brique",
+    "chapiteau",
+    "chaîne d'angle",
+    "colonne",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "jambage",
+    "linteau",
+    "mascaron",
+    "mur-boutant",
+    "oriel",
+    "pierre de taille",
+    "porte",
+    "tour",
+    "vantail",
+    "volet"
   ],
   "photos": [
     {
@@ -45,6 +70,31 @@
       "IndexJantzen": [
         "brique",
         "façade"
+      ],
+      "IndexTorneh": [
+        "baie",
+        "balcon",
+        "balustrade",
+        "brique",
+        "chapiteau",
+        "colonne",
+        "corniche",
+        "fenêtre",
+        "fronton",
+        "garde-corps",
+        "jambage",
+        "linteau",
+        "mascaron",
+        "oriel",
+        "pierre de taille",
+        "porte",
+        "vantail",
+        "volet",
+        "arc",
+        "arc en plein cintre",
+        "mur-boutant",
+        "tour",
+        "chaîne d'angle"
       ],
       "dateCapture": "2005:06:07"
     },
@@ -56,6 +106,7 @@
         "fenetre",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:07"
     },
     {
@@ -66,6 +117,7 @@
         "oriel",
         "pignon"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:07"
     },
     {
@@ -76,6 +128,7 @@
         "colonne",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:07"
     },
     {
@@ -85,6 +138,7 @@
         "colonne",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:07"
     },
     {
@@ -93,6 +147,7 @@
         "brique",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:07"
     }
   ]

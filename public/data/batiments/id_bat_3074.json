@@ -28,10 +28,29 @@
   "WPfr": null,
   "image_ref": "InvalidesBd-59_7_§1",
   "terme_jantzen_bat": [
-    "lucarne",
     "lucarne-d'angle",
     "balcon",
-    "fronton"
+    "fronton",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "sculpture",
+    "souche de cheminée",
+    "volet"
   ],
   "photos": [
     {
@@ -39,6 +58,25 @@
       "IndexJantzen": [
         "fronton",
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "lucarne",
+        "mansarde",
+        "ardoise",
+        "sculpture",
+        "mascaron",
+        "corniche",
+        "bandeau",
+        "souche de cheminée",
+        "oculus",
+        "fer forgé",
+        "pierre de taille",
+        "fronton",
+        "volet"
       ],
       "dateCapture": "2008:03:31"
     },
@@ -48,6 +86,7 @@
         "fronton",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:03:31"
     },
     {
@@ -57,6 +96,7 @@
         "fronton",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:03:31"
     },
     {
@@ -64,6 +104,7 @@
       "IndexJantzen": [
         "lucarne-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:03:31"
     }
   ]

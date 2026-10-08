@@ -23,11 +23,41 @@
   "terme_jantzen_bat": [
     "porte"
   ],
+  "terme_torneh_bat": [
+    "chapiteau composite",
+    "chapiteau ionique",
+    "colonne",
+    "corniche",
+    "entablement",
+    "frise",
+    "fronton",
+    "grille",
+    "mascaron",
+    "pierre de taille",
+    "portail",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Recollets-8_10_§1",
       "IndexJantzen": [
         "porte"
+      ],
+      "IndexTorneh": [
+        "portail",
+        "colonne",
+        "chapiteau ionique",
+        "chapiteau composite",
+        "entablement",
+        "corniche",
+        "frise",
+        "fronton",
+        "pierre de taille",
+        "vantail",
+        "mascaron",
+        "grille",
+        "sculpture"
       ],
       "dateCapture": "2005:09:08"
     }

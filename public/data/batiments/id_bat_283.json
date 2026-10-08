@@ -22,9 +22,25 @@
   "image_ref": "Assas-Observatoire_6_§1",
   "terme_jantzen_bat": [
     "sculpture",
-    "tour",
     "fronton",
-    "façade-d'angle"
+    "façade-d'angle",
+    "tour"
+  ],
+  "terme_torneh_bat": [
+    "bandeau",
+    "chapiteau",
+    "colonne",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "gros appareil",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "sculpture",
+    "toit en pavillon",
+    "tour",
+    "travée"
   ],
   "photos": [
     {
@@ -34,6 +50,22 @@
         "fronton",
         "tour"
       ],
+      "IndexTorneh": [
+        "fenêtre",
+        "fronton",
+        "colonne",
+        "chapiteau",
+        "pilastre",
+        "sculpture",
+        "pierre de taille",
+        "corniche",
+        "bandeau",
+        "oculus",
+        "tour",
+        "travée",
+        "toit en pavillon",
+        "gros appareil"
+      ],
       "dateCapture": "2006:07:13"
     },
     {
@@ -41,6 +73,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:13"
     }
   ]

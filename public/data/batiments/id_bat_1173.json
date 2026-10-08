@@ -32,10 +32,28 @@
   "WPfr": null,
   "image_ref": "Maine-av-166_14_§1-Rx",
   "terme_jantzen_bat": [
+    "fenetre-d'angle",
     "sculpture",
-    "décor",
     "balcon",
-    "fenetre-d'angle"
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "pierre de taille",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "toit à deux versants",
+    "volet"
   ],
   "photos": [
     {
@@ -45,6 +63,24 @@
         "décor",
         "fenetre-d'angle",
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "volet",
+        "mansarde",
+        "lucarne",
+        "souche de cheminée",
+        "corniche",
+        "bandeau",
+        "pierre de taille",
+        "ardoise",
+        "garde-corps",
+        "porte-fenêtre",
+        "brique",
+        "chaîne d'angle",
+        "toit à deux versants"
       ],
       "dateCapture": "2011:06:26"
     }

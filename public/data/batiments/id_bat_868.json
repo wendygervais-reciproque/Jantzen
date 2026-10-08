@@ -31,12 +31,42 @@
     "marquise",
     "porte-fer"
   ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "grille",
+    "marquise",
+    "mascaron",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "soupirail",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Elisee-Reclus-14_7_§1",
       "IndexJantzen": [
         "marquise",
         "porte-fer"
+      ],
+      "IndexTorneh": [
+        "marquise",
+        "portail",
+        "porte",
+        "fenêtre",
+        "arc",
+        "arc en plein cintre",
+        "grille",
+        "fer forgé",
+        "pierre de taille",
+        "mascaron",
+        "vantail",
+        "soupirail",
+        "garde-corps"
       ],
       "dateCapture": "2004:04:26"
     }

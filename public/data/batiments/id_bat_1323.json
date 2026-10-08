@@ -24,12 +24,32 @@
     "toiture",
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "fenêtre",
+    "lucarne",
+    "mansarde",
+    "oculus",
+    "souche de cheminée",
+    "toit à deux versants",
+    "tuile"
+  ],
   "photos": [
     {
       "id_pic": "St-Julien-le-Pauvre-18_5_§1",
       "IndexJantzen": [
         "lucarne",
         "toiture"
+      ],
+      "IndexTorneh": [
+        "souche de cheminée",
+        "lucarne",
+        "mansarde",
+        "toit à deux versants",
+        "ardoise",
+        "tuile",
+        "fenêtre",
+        "oculus"
       ],
       "dateCapture": "2011:09:28"
     },
@@ -38,6 +58,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:03:29"
     },
     {
@@ -45,6 +66,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:09:28"
     },
     {
@@ -52,6 +74,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:03:29"
     }
   ]

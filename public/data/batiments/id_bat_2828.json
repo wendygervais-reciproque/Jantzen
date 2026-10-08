@@ -25,12 +25,36 @@
     "sculpture",
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "fenêtre",
+    "grille",
+    "heurtoir",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Beranger-5_3_§1",
       "IndexJantzen": [
         "oeil-de-boeuf",
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "portail",
+        "porte",
+        "vantail",
+        "mascaron",
+        "sculpture",
+        "pierre de taille",
+        "oculus",
+        "fenêtre",
+        "heurtoir",
+        "grille"
       ],
       "dateCapture": "2006:04:22"
     },
@@ -40,6 +64,7 @@
         "oeil-de-boeuf",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:22"
     },
     {
@@ -48,6 +73,7 @@
         "porte-bois",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:22"
     },
     {
@@ -56,6 +82,7 @@
         "porte-bois",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:22"
     }
   ]

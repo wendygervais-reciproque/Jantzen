@@ -22,10 +22,22 @@
   "image_ref": "Montmartre-62_2_§1",
   "terme_jantzen_bat": [
     "oeil-de-boeuf",
-    "fenetre",
     "sculpture",
-    "porte-bois",
-    "clé"
+    "clé",
+    "fenetre",
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "vantail"
   ],
   "photos": [
     {
@@ -36,6 +48,18 @@
         "oeil-de-boeuf",
         "porte-bois",
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "arc en plein cintre",
+        "mascaron",
+        "oculus",
+        "porte",
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "sculpture",
+        "pierre de taille",
+        "vantail"
       ],
       "dateCapture": "2005:07:03"
     }

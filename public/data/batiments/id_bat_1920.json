@@ -21,14 +21,42 @@
   "WPfr": null,
   "image_ref": "Raspail-268_14_§1",
   "terme_jantzen_bat": [
+    "dome",
+    "façade-d'angle",
     "porte-fer",
+    "fenetre-d'angle",
     "fenetre",
     "lucarne",
     "poignée-porte",
-    "façade-d'angle",
-    "dome",
-    "fenetre-d'angle",
     "fronton"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "avant-corps",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "grille",
+    "lucarne",
+    "mascaron",
+    "oculus",
+    "oriel",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "porte-fenêtre",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -36,6 +64,34 @@
       "IndexJantzen": [
         "dome",
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "fenêtre",
+        "porte-fenêtre",
+        "lucarne",
+        "souche de cheminée",
+        "mascaron",
+        "sculpture",
+        "pilastre",
+        "corniche",
+        "bandeau",
+        "toit à deux versants",
+        "dôme",
+        "ardoise",
+        "pierre de taille",
+        "oculus",
+        "volet",
+        "porte",
+        "grille",
+        "fer forgé",
+        "arc en plein cintre",
+        "chambranle",
+        "travée",
+        "avant-corps",
+        "oriel"
       ],
       "dateCapture": "2004:07:28"
     },
@@ -45,6 +101,7 @@
         "dome",
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:28"
     },
     {
@@ -54,6 +111,7 @@
         "fronton",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:28"
     },
     {
@@ -62,6 +120,7 @@
         "fenetre",
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:03:30"
     },
     {
@@ -70,6 +129,7 @@
         "poignée-porte",
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:28"
     }
   ]

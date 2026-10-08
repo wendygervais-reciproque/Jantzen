@@ -28,17 +28,53 @@
   "WPfr": null,
   "image_ref": "Raspail-16_7_§1",
   "terme_jantzen_bat": [
+    "balcon",
     "fenetre",
     "façade",
-    "balcon",
     "porte-fer-hall",
     "colonne"
+  ],
+  "terme_torneh_bat": [
+    "avant-corps",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "oriel",
+    "pierre de taille",
+    "porte",
+    "souche de cheminée",
+    "toit-terrasse",
+    "travée",
+    "vitrail",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Raspail-16_7_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "bandeau",
+        "corniche",
+        "travée",
+        "pierre de taille",
+        "oriel",
+        "volet",
+        "porte",
+        "vitrail",
+        "toit-terrasse",
+        "souche de cheminée",
+        "avant-corps",
+        "fer forgé"
       ],
       "dateCapture": "2005:03:20"
     },
@@ -48,6 +84,7 @@
         "balcon",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:17"
     },
     {
@@ -57,6 +94,7 @@
         "colonne",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:03:20"
     },
     {
@@ -64,6 +102,7 @@
       "IndexJantzen": [
         "porte-fer-hall"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:17"
     }
   ]

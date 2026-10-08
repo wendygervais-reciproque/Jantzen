@@ -28,13 +28,38 @@
   "WPfr": null,
   "image_ref": "Traversiere-80_12_§1",
   "terme_jantzen_bat": [
-    "fenetre",
+    "balcon",
+    "dome",
     "façade-d'angle",
     "sculpture",
-    "dome",
     "fenetre-d'angle",
-    "décor",
-    "balcon"
+    "fenetre",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chéneau",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "oriel",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "sculpture",
+    "souche de cheminée",
+    "tour",
+    "vitrail"
   ],
   "photos": [
     {
@@ -42,6 +67,31 @@
       "IndexJantzen": [
         "dome",
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "tour",
+        "dôme",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "lucarne",
+        "oculus",
+        "mansarde",
+        "souche de cheminée",
+        "corniche",
+        "bandeau",
+        "pierre de taille",
+        "arc en plein cintre",
+        "sculpture",
+        "mascaron",
+        "pilastre",
+        "ardoise",
+        "fer forgé",
+        "oriel",
+        "porte",
+        "vitrail",
+        "chéneau"
       ],
       "dateCapture": "2008:07:27"
     },
@@ -52,6 +102,7 @@
         "dome",
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:07:27"
     },
     {
@@ -60,6 +111,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:07:27"
     },
     {
@@ -69,6 +121,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:08:31"
     },
     {
@@ -77,6 +130,7 @@
         "balcon",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:08:31"
     }
   ]

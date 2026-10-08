@@ -23,9 +23,25 @@
   "WPfr": null,
   "image_ref": "Olivier-de-Serres-53_15_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "brique",
+    "fenetre",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "acrotère",
+    "attique",
+    "avant-corps",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "frise",
+    "garde-corps",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -33,6 +49,22 @@
       "IndexJantzen": [
         "brique",
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "brique",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "volet",
+        "corniche",
+        "bandeau",
+        "frise",
+        "avant-corps",
+        "travée",
+        "fer forgé",
+        "attique",
+        "acrotère"
       ],
       "dateCapture": "2005:09:03"
     },
@@ -43,6 +75,7 @@
         "décor",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:09:03"
     }
   ]

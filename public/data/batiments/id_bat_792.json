@@ -28,9 +28,25 @@
   "WPfr": null,
   "image_ref": "Regard-13_6_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "clé",
+    "fenetre",
     "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "balcon",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "grille",
+    "mascaron",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "soupirail",
+    "vantail",
+    "volet"
   ],
   "photos": [
     {
@@ -38,6 +54,22 @@
       "IndexJantzen": [
         "fenetre",
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "fronton",
+        "mascaron",
+        "arc en plein cintre",
+        "portail",
+        "porte",
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "grille",
+        "pierre de taille",
+        "soupirail",
+        "arc",
+        "vantail",
+        "volet"
       ],
       "dateCapture": "2006:05:14"
     },
@@ -47,6 +79,7 @@
         "fenetre",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:05:14"
     },
     {
@@ -55,6 +88,7 @@
         "clé",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:05:14"
     }
   ]

@@ -24,12 +24,40 @@
     "sculpture",
     "console"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "brique",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "modillon",
+    "pierre de taille",
+    "sculpture",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Moncey-Sq-3_9_§1",
       "IndexJantzen": [
         "console",
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "balustrade",
+        "modillon",
+        "corniche",
+        "brique",
+        "pierre de taille",
+        "fenêtre",
+        "volet",
+        "sculpture",
+        "chaîne d'angle"
       ],
       "dateCapture": "2005:05:21"
     }

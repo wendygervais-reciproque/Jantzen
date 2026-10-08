@@ -28,16 +28,64 @@
   "WPfr": null,
   "image_ref": "Champs-Elysees-74_8_§1",
   "terme_jantzen_bat": [
-    "lucarne",
     "façade",
     "garde-corps",
-    "balcon"
+    "balcon",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "arc en anse de panier",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "colonne",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée"
   ],
   "photos": [
     {
       "id_pic": "Champs-Elysees-74_8_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fronton",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "mansarde",
+        "lucarne",
+        "dôme",
+        "souche de cheminée",
+        "colonne",
+        "pilastre",
+        "sculpture",
+        "mascaron",
+        "corniche",
+        "bandeau",
+        "arc en anse de panier",
+        "pierre de taille",
+        "ardoise",
+        "oculus",
+        "travée",
+        "fer forgé",
+        "toit à deux versants"
       ],
       "dateCapture": "2004:04:01"
     },
@@ -48,6 +96,7 @@
         "garde-corps",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:04:01"
     }
   ]

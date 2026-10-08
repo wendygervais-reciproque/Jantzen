@@ -23,11 +23,27 @@
   "terme_jantzen_bat": [
     "porte-fer"
   ],
+  "terme_torneh_bat": [
+    "arc",
+    "fer forgé",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Lamartine-sq-4_16_§1",
       "IndexJantzen": [
         "porte-fer"
+      ],
+      "IndexTorneh": [
+        "arc",
+        "porte",
+        "fer forgé",
+        "sculpture",
+        "pierre de taille",
+        "vantail"
       ],
       "dateCapture": null
     }

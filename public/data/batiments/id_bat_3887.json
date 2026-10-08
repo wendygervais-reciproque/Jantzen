@@ -32,10 +32,33 @@
   "WPfr": null,
   "image_ref": "Reaumur-93_2_§1",
   "terme_jantzen_bat": [
-    "colonne",
-    "fenetre",
     "verrière",
+    "fenetre",
+    "colonne",
     "façade-d'angle"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -43,6 +66,29 @@
       "IndexJantzen": [
         "façade-d'angle",
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "lucarne",
+        "mansarde",
+        "souche de cheminée",
+        "corniche",
+        "bandeau",
+        "mascaron",
+        "sculpture",
+        "ardoise",
+        "fer forgé",
+        "pierre de taille",
+        "arc en plein cintre",
+        "oculus",
+        "fronton",
+        "pilastre",
+        "chambranle",
+        "toit à deux versants",
+        "épi de faîtage"
       ],
       "dateCapture": "2004:04:25"
     },
@@ -52,6 +98,7 @@
         "fenetre",
         "verrière"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:05"
     },
     {
@@ -60,6 +107,7 @@
         "fenetre",
         "verrière"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:05"
     },
     {
@@ -68,6 +116,7 @@
         "colonne",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:04:25"
     }
   ]

@@ -23,11 +23,29 @@
   "terme_jantzen_bat": [
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "chéneau",
+    "fenêtre",
+    "lucarne",
+    "pierre de taille",
+    "souche de cheminée",
+    "toit à deux versants"
+  ],
   "photos": [
     {
       "id_pic": "Malesherbes-76_8_§1",
       "IndexJantzen": [
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "lucarne",
+        "ardoise",
+        "souche de cheminée",
+        "chéneau",
+        "fenêtre",
+        "pierre de taille",
+        "toit à deux versants"
       ],
       "dateCapture": "2005:08:10"
     }

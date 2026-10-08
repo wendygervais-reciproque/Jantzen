@@ -28,8 +28,25 @@
   "WPfr": null,
   "image_ref": "Tocqueville-67_17_§1",
   "terme_jantzen_bat": [
-    "porte-fer",
-    "fenetre"
+    "fenetre",
+    "porte-fer"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "avant-corps",
+    "balcon",
+    "balustrade",
+    "chambranle",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "sculpture"
   ],
   "photos": [
     {
@@ -37,6 +54,23 @@
       "IndexJantzen": [
         "fenetre",
         "porte-fer"
+      ],
+      "IndexTorneh": [
+        "arc",
+        "arc en plein cintre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "portail",
+        "porte",
+        "fenêtre",
+        "pierre de taille",
+        "sculpture",
+        "mascaron",
+        "chambranle",
+        "avant-corps",
+        "oculus"
       ],
       "dateCapture": "2004:07:03"
     }

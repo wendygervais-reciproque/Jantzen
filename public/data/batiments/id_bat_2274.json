@@ -21,14 +21,52 @@
   "WPfr": null,
   "image_ref": "Belleville-34_20_§1",
   "terme_jantzen_bat": [
+    "façade",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "auvent",
+    "balcon",
+    "bandeau",
+    "chéneau",
+    "corniche",
+    "fenêtre",
+    "garde-corps",
     "lucarne",
-    "façade"
+    "mansarde",
+    "porte",
+    "souche de cheminée",
+    "toit à deux versants",
+    "verrière",
+    "vitrail",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Belleville-34_20_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "volet",
+        "lucarne",
+        "mansarde",
+        "souche de cheminée",
+        "balcon",
+        "garde-corps",
+        "porte",
+        "vitrail",
+        "arc en plein cintre",
+        "auvent",
+        "toit à deux versants",
+        "ardoise",
+        "corniche",
+        "bandeau",
+        "chéneau",
+        "verrière"
       ],
       "dateCapture": "2005:09:19"
     },
@@ -37,6 +75,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:09:19"
     }
   ]

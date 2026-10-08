@@ -29,12 +29,34 @@
   "image_ref": "Menilmontant-107_20_§1",
   "terme_jantzen_bat": [
     "toiture",
-    "fenetre",
-    "lucarne",
-    "console",
     "façade-d'angle",
     "sculpture",
+    "console",
+    "fenetre",
+    "lucarne",
     "brique"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "chéneau",
+    "corniche",
+    "fenêtre",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "tuile",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -42,6 +64,28 @@
       "IndexJantzen": [
         "brique",
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "balustrade",
+        "lucarne",
+        "souche de cheminée",
+        "épi de faîtage",
+        "brique",
+        "pierre de taille",
+        "corniche",
+        "bandeau",
+        "mansarde",
+        "toit à deux versants",
+        "ardoise",
+        "oculus",
+        "mascaron",
+        "sculpture",
+        "travée",
+        "chéneau",
+        "tuile"
       ],
       "dateCapture": "2005:09:19"
     },
@@ -53,6 +97,7 @@
         "lucarne",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:09:19"
     },
     {
@@ -62,6 +107,7 @@
         "fenetre",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:09:19"
     },
     {
@@ -71,6 +117,7 @@
         "fenetre",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:09:19"
     },
     {
@@ -79,6 +126,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:09:19"
     }
   ]

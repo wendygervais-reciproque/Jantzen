@@ -28,16 +28,56 @@
   "WPfr": null,
   "image_ref": "Caire-Pl-2_2_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "façade",
     "sculpture",
-    "console"
+    "console",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc brisé",
+    "auvent",
+    "balcon",
+    "bandeau",
+    "chapiteau",
+    "colonne",
+    "corniche",
+    "fenêtre",
+    "frise",
+    "garde-corps",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "sculpture",
+    "souche de cheminée",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Caire-Pl-2_2_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "arc",
+        "arc brisé",
+        "oculus",
+        "corniche",
+        "frise",
+        "sculpture",
+        "pierre de taille",
+        "souche de cheminée",
+        "bandeau",
+        "colonne",
+        "chapiteau",
+        "mascaron",
+        "travée",
+        "volet",
+        "auvent"
       ],
       "dateCapture": "2004:08:31"
     },
@@ -47,6 +87,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:08:31"
     },
     {
@@ -56,6 +97,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:08:31"
     },
     {
@@ -64,6 +106,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:08:31"
     }
   ]

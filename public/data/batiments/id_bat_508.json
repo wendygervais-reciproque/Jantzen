@@ -10,7 +10,7 @@
     "numero": "11",
     "voie": "rue Vieille-du-Temple"
   },
-  "arrondissement": 3,
+  "arrondissement": 4,
   "tri_alphab": "Vieille-du-Temple",
   "coordonnees": {
     "latitude": "48.856512",
@@ -21,8 +21,17 @@
   "WPfr": null,
   "image_ref": "Vieille-du-Temple-11_3_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "garde-corps"
+    "garde-corps",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "chambranle",
+    "fer forgé",
+    "garde-corps",
+    "meneau",
+    "porte-fenêtre",
+    "vantail"
   ],
   "photos": [
     {
@@ -30,6 +39,15 @@
       "IndexJantzen": [
         "fenetre",
         "garde-corps"
+      ],
+      "IndexTorneh": [
+        "porte-fenêtre",
+        "garde-corps",
+        "fer forgé",
+        "balcon",
+        "chambranle",
+        "meneau",
+        "vantail"
       ],
       "dateCapture": "2003:08:01"
     }

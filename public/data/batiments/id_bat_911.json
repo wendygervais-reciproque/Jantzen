@@ -21,14 +21,36 @@
   "WPfr": null,
   "image_ref": "Elzevir-14_3_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "garde-corps"
+    "garde-corps",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "bandeau",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "pierre de taille",
+    "porte-fenêtre",
+    "travée"
   ],
   "photos": [
     {
       "id_pic": "Elzevir-14_3_§1",
       "IndexJantzen": [
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "porte-fenêtre",
+        "lucarne",
+        "pierre de taille",
+        "bandeau",
+        "fer forgé",
+        "travée"
       ],
       "dateCapture": "2003:08:01"
     },
@@ -38,6 +60,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:08:01"
     }
   ]

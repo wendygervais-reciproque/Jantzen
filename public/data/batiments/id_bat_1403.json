@@ -21,14 +21,28 @@
   "WPfr": null,
   "image_ref": "Alma-pl-1b_16_§1",
   "terme_jantzen_bat": [
+    "colonne",
     "porte-fer",
-    "fenetre",
-    "garde-corps",
-    "console",
+    "oriel",
     "sculpture",
     "clé",
+    "console",
+    "fenetre",
+    "garde-corps"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "modillon",
     "oriel",
-    "colonne"
+    "pierre de taille",
+    "sculpture",
+    "volet"
   ],
   "photos": [
     {
@@ -36,6 +50,20 @@
       "IndexJantzen": [
         "fenetre",
         "oriel"
+      ],
+      "IndexTorneh": [
+        "oriel",
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "fenêtre",
+        "volet",
+        "pierre de taille",
+        "modillon",
+        "fer forgé",
+        "bandeau",
+        "arc en plein cintre",
+        "sculpture"
       ],
       "dateCapture": "2004:10:25"
     },
@@ -45,6 +73,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:10:25"
     },
     {
@@ -53,6 +82,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:10:25"
     },
     {
@@ -62,6 +92,7 @@
         "colonne",
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:10:25"
     }
   ]

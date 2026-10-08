@@ -21,11 +21,26 @@
   "WPfr": null,
   "image_ref": "Tour-d'Auvergne-31_9_§1",
   "terme_jantzen_bat": [
+    "céramique",
     "fenetre",
     "façade",
     "chimère",
-    "céramique",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "bandeau",
+    "brique",
+    "chapiteau",
+    "corniche",
+    "céramique",
+    "fenêtre",
+    "lucarne",
+    "mansarde",
+    "pierre de taille",
+    "pilastre",
+    "toit à deux versants"
   ],
   "photos": [
     {
@@ -33,6 +48,21 @@
       "IndexJantzen": [
         "chimère",
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "lucarne",
+        "toit à deux versants",
+        "ardoise",
+        "pilastre",
+        "chapiteau",
+        "corniche",
+        "bandeau",
+        "arc en plein cintre",
+        "brique",
+        "céramique",
+        "pierre de taille",
+        "mansarde"
       ],
       "dateCapture": "2004:06:28"
     },
@@ -43,6 +73,7 @@
         "décor",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:06:28"
     },
     {
@@ -52,6 +83,7 @@
         "décor",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:06:28"
     }
   ]

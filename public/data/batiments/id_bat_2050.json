@@ -29,12 +29,36 @@
   "image_ref": "Corse-Qu-3_4_§2",
   "terme_jantzen_bat": [
     "oeil-de-boeuf",
+    "dome",
+    "pilastre",
+    "sculpture",
     "fenetre",
     "lucarne",
-    "façade",
+    "façade"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "arcade",
+    "balcon",
+    "balustrade",
+    "chapiteau",
+    "colonne",
+    "corniche",
+    "dôme",
+    "entablement",
+    "fenêtre",
+    "frise",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porte",
     "sculpture",
-    "dome",
-    "pilastre"
+    "souche de cheminée"
   ],
   "photos": [
     {
@@ -43,6 +67,7 @@
         "dome",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:05:27"
     },
     {
@@ -51,6 +76,7 @@
         "dome",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:05:27"
     },
     {
@@ -59,6 +85,7 @@
         "dome",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2017:06:11"
     },
     {
@@ -66,6 +93,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:05:27"
     },
     {
@@ -74,6 +102,7 @@
         "lucarne",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:05:27"
     },
     {
@@ -82,6 +111,7 @@
         "fenetre",
         "pilastre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:13"
     },
     {
@@ -89,12 +119,37 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:05:27"
     },
     {
       "id_pic": "Corse-Qu-3_4_§2",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "dôme",
+        "arc en plein cintre",
+        "arc",
+        "fronton",
+        "colonne",
+        "pilastre",
+        "fenêtre",
+        "balustrade",
+        "corniche",
+        "lucarne",
+        "oculus",
+        "sculpture",
+        "porte",
+        "chapiteau",
+        "souche de cheminée",
+        "pierre de taille",
+        "mascaron",
+        "balcon",
+        "garde-corps",
+        "frise",
+        "entablement",
+        "arcade"
       ],
       "dateCapture": "2017:06:11"
     },
@@ -103,6 +158,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:05:27"
     },
     {
@@ -110,6 +166,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:05:27"
     },
     {
@@ -117,6 +174,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:05:27"
     },
     {
@@ -124,6 +182,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:13"
     },
     {
@@ -131,6 +190,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:13"
     },
     {
@@ -138,6 +198,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:13"
     },
     {
@@ -145,6 +206,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:05:27"
     },
     {
@@ -152,6 +214,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:05:27"
     },
     {
@@ -159,6 +222,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:05:27"
     },
     {
@@ -166,6 +230,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:05:27"
     },
     {
@@ -173,6 +238,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2017:06:11"
     },
     {
@@ -180,6 +246,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:10:20"
     },
     {
@@ -188,6 +255,7 @@
         "dome",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:10:20"
     },
     {
@@ -196,6 +264,7 @@
         "dome",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:10:20"
     },
     {
@@ -203,6 +272,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:10:20"
     },
     {
@@ -211,6 +281,7 @@
         "lucarne",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2013:11:13"
     },
     {
@@ -219,6 +290,7 @@
         "lucarne",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2013:11:13"
     },
     {
@@ -227,6 +299,7 @@
         "dome",
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:05:27"
     },
     {
@@ -235,6 +308,7 @@
         "dome",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2017:06:11"
     },
     {
@@ -242,6 +316,7 @@
       "IndexJantzen": [
         "dome"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:05:27"
     },
     {
@@ -249,6 +324,7 @@
       "IndexJantzen": [
         "dome"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:05:27"
     },
     {
@@ -257,6 +333,7 @@
         "dome",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2017:06:11"
     }
   ]

@@ -22,17 +22,67 @@
   "image_ref": "Raymond-Poincarre-101_16_§1",
   "terme_jantzen_bat": [
     "porte-fer",
-    "façade",
-    "console",
     "sculpture",
     "intérieur",
+    "console",
+    "façade",
     "porte-fer-hall"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "porche",
+    "porte",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "tour",
+    "travée",
+    "tuile",
+    "volet",
+    "épi de faîtage"
   ],
   "photos": [
     {
       "id_pic": "Raymond-Poincarre-101_16_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "arc en plein cintre",
+        "lucarne",
+        "mansarde",
+        "toit à deux versants",
+        "tuile",
+        "souche de cheminée",
+        "corniche",
+        "bandeau",
+        "pierre de taille",
+        "porte",
+        "porche",
+        "volet",
+        "mascaron",
+        "oculus",
+        "travée",
+        "tour",
+        "épi de faîtage",
+        "fer forgé",
+        "sculpture"
       ],
       "dateCapture": null
     },
@@ -41,6 +91,7 @@
       "IndexJantzen": [
         "porte-fer-hall"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:30"
     },
     {
@@ -49,6 +100,7 @@
         "intérieur",
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": null
     },
     {
@@ -57,6 +109,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:30"
     }
   ]

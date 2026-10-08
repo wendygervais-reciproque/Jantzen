@@ -21,15 +21,49 @@
   "WPfr": null,
   "image_ref": "Tour-d'Auvergne-26_9_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "façade",
+    "fenetre",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "fenêtre",
+    "garde-corps",
+    "lucarne",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "souche de cheminée",
+    "toit-terrasse",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Tour-d'Auvergne-26_9_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "mascaron",
+        "balustrade",
+        "porte",
+        "chambranle",
+        "volet",
+        "lucarne",
+        "travée",
+        "bandeau",
+        "sculpture",
+        "pierre de taille",
+        "souche de cheminée",
+        "toit-terrasse"
       ],
       "dateCapture": "2006:07:02"
     },
@@ -38,6 +72,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:02"
     },
     {
@@ -45,6 +80,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:02"
     },
     {
@@ -53,6 +89,7 @@
         "décor",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:02"
     },
     {
@@ -61,6 +98,7 @@
         "décor",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:02"
     }
   ]

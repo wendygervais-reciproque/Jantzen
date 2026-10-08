@@ -23,11 +23,47 @@
   "terme_jantzen_bat": [
     "fenetre"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "auvent",
+    "balcon",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "modillon",
+    "pierre de taille",
+    "porte",
+    "porte-fenêtre",
+    "sculpture",
+    "travée",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Universite-6_7_§1",
       "IndexJantzen": [
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "porte-fenêtre",
+        "volet",
+        "garde-corps",
+        "balcon",
+        "pierre de taille",
+        "sculpture",
+        "mascaron",
+        "corniche",
+        "modillon",
+        "travée",
+        "arc en plein cintre",
+        "porte",
+        "auvent",
+        "bandeau",
+        "fer forgé"
       ],
       "dateCapture": "2005:04:19"
     }

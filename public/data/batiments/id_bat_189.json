@@ -23,11 +23,29 @@
   "terme_jantzen_bat": [
     "porte-fer"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "fer forgé",
+    "garde-corps",
+    "pierre de taille",
+    "porte",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Armand-Carrel-1_19_§1",
       "IndexJantzen": [
         "porte-fer"
+      ],
+      "IndexTorneh": [
+        "arc en plein cintre",
+        "porte",
+        "vantail",
+        "fer forgé",
+        "pierre de taille",
+        "balcon",
+        "garde-corps"
       ],
       "dateCapture": "2005:09:07"
     }

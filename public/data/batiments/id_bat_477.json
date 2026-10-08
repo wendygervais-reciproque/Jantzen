@@ -24,12 +24,38 @@
     "sculpture",
     "console"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "brique",
+    "fenêtre",
+    "garde-corps",
+    "pierre de taille",
+    "porte-fenêtre",
+    "sculpture",
+    "travée",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Clos-11_20_§1",
       "IndexJantzen": [
         "console",
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "porte-fenêtre",
+        "volet",
+        "brique",
+        "pierre de taille",
+        "sculpture",
+        "arc en plein cintre",
+        "balustrade",
+        "travée"
       ],
       "dateCapture": "2005:07:16"
     }

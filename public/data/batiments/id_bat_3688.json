@@ -23,17 +23,42 @@
   "terme_jantzen_bat": [
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "baie",
+    "bossage",
+    "fer forgé",
+    "heurtoir",
+    "oculus",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Universite-82_7_§1",
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [
+        "porte",
+        "portail",
+        "arc en plein cintre",
+        "vantail",
+        "pierre de taille",
+        "bossage",
+        "fer forgé",
+        "heurtoir",
+        "baie",
+        "oculus"
+      ],
       "dateCapture": "2005:05:22"
     },
     {
       "id_pic": "Universite-82_7_§2",
       "IndexJantzen": [],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:22"
     }
   ]

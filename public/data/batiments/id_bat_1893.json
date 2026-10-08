@@ -21,11 +21,32 @@
   "WPfr": null,
   "image_ref": "Montholon-26_9_§1",
   "terme_jantzen_bat": [
-    "lucarne",
-    "façade-d'angle",
-    "porte",
     "dome",
-    "fenetre-d'angle"
+    "façade-d'angle",
+    "fenetre-d'angle",
+    "lucarne",
+    "porte"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "garde-corps",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "porte-fenêtre",
+    "toit à deux versants",
+    "tour",
+    "travée",
+    "vitrail",
+    "volet"
   ],
   "photos": [
     {
@@ -35,6 +56,27 @@
         "façade-d'angle",
         "porte"
       ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "porte",
+        "porte-fenêtre",
+        "corniche",
+        "bandeau",
+        "pilastre",
+        "oculus",
+        "dôme",
+        "ardoise",
+        "toit à deux versants",
+        "pierre de taille",
+        "vitrail",
+        "volet",
+        "travée",
+        "mascaron",
+        "tour"
+      ],
       "dateCapture": "2005:05:26"
     },
     {
@@ -43,6 +85,7 @@
         "dome",
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:03:26"
     },
     {
@@ -51,6 +94,7 @@
         "dome",
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:03:26"
     },
     {
@@ -59,6 +103,7 @@
         "dome",
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:03:26"
     },
     {
@@ -68,6 +113,7 @@
         "fenetre-d'angle",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:06:28"
     }
   ]

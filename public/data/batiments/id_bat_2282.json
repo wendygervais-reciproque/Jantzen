@@ -23,11 +23,33 @@
   "terme_jantzen_bat": [
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "chambranle",
+    "fenêtre",
+    "fer forgé",
+    "heurtoir",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Boulangers-34_5_§1",
       "IndexJantzen": [
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "arc en plein cintre",
+        "mascaron",
+        "chambranle",
+        "heurtoir",
+        "vantail",
+        "fer forgé",
+        "fenêtre",
+        "pierre de taille"
       ],
       "dateCapture": "2005:06:08"
     }

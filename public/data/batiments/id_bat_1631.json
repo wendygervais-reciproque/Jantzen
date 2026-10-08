@@ -23,11 +23,37 @@
   "terme_jantzen_bat": [
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "arc",
+    "corniche",
+    "fenêtre",
+    "frise",
+    "fronton",
+    "lucarne",
+    "mascaron",
+    "pierre de taille",
+    "souche de cheminée",
+    "tuile",
+    "épi de faîtage"
+  ],
   "photos": [
     {
       "id_pic": "Gracieuse-21_5_§2",
       "IndexJantzen": [
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "lucarne",
+        "épi de faîtage",
+        "corniche",
+        "souche de cheminée",
+        "tuile",
+        "fronton",
+        "arc",
+        "pierre de taille",
+        "frise",
+        "fenêtre",
+        "mascaron"
       ],
       "dateCapture": "2008:02:24"
     }

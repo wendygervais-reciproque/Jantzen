@@ -32,13 +32,33 @@
   "WPfr": null,
   "image_ref": "Belleville-51_19_§1",
   "terme_jantzen_bat": [
+    "pilastre",
+    "sculpture",
+    "console",
     "fenetre",
     "façade",
-    "console",
     "porte",
-    "sculpture",
-    "porte-bois",
-    "pilastre"
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "linteau",
+    "marquise",
+    "mascaron",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "souche de cheminée",
+    "travée",
+    "vantail",
+    "volet"
   ],
   "photos": [
     {
@@ -46,6 +66,26 @@
       "IndexJantzen": [
         "façade",
         "porte"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "corniche",
+        "bandeau",
+        "chambranle",
+        "linteau",
+        "mascaron",
+        "porte",
+        "volet",
+        "vantail",
+        "pilastre",
+        "souche de cheminée",
+        "travée",
+        "pierre de taille",
+        "fer forgé",
+        "marquise"
       ],
       "dateCapture": "2006:04:20"
     },
@@ -55,6 +95,7 @@
         "façade",
         "porte"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:09:19"
     },
     {
@@ -62,6 +103,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:09:19"
     },
     {
@@ -71,6 +113,7 @@
         "pilastre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:09:19"
     },
     {
@@ -79,6 +122,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:09:19"
     },
     {
@@ -86,6 +130,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:20"
     },
     {
@@ -94,6 +139,7 @@
         "porte-bois",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:09:19"
     }
   ]

@@ -36,21 +36,61 @@
   "WPfr": null,
   "image_ref": "Linne-24_5_§1",
   "terme_jantzen_bat": [
+    "balcon",
+    "pilastre",
+    "sculpture",
+    "console",
     "fenetre",
     "façade",
     "garde-corps",
-    "console",
-    "sculpture",
     "porte-bois",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "attique",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "cariatide",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mascaron",
+    "pierre de taille",
     "pilastre",
-    "décor",
-    "balcon"
+    "sculpture",
+    "souche de cheminée",
+    "toit-terrasse",
+    "travée"
   ],
   "photos": [
     {
       "id_pic": "Linne-24_5_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "pilastre",
+        "corniche",
+        "bandeau",
+        "sculpture",
+        "mascaron",
+        "cariatide",
+        "arc en plein cintre",
+        "fer forgé",
+        "souche de cheminée",
+        "lucarne",
+        "pierre de taille",
+        "travée",
+        "attique",
+        "toit-terrasse"
       ],
       "dateCapture": "2005:06:08"
     },
@@ -59,6 +99,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:08"
     },
     {
@@ -68,6 +109,7 @@
         "fenetre",
         "pilastre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:08"
     },
     {
@@ -77,6 +119,7 @@
         "garde-corps",
         "pilastre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:08"
     },
     {
@@ -87,6 +130,7 @@
         "pilastre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:08"
     },
     {
@@ -95,6 +139,7 @@
         "décor",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:08"
     },
     {
@@ -103,6 +148,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:08"
     },
     {
@@ -110,6 +156,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:08"
     },
     {
@@ -118,6 +165,7 @@
         "décor",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:08"
     },
     {
@@ -126,6 +174,7 @@
         "décor",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:08"
     },
     {
@@ -135,6 +184,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:08"
     },
     {
@@ -143,6 +193,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:08"
     },
     {
@@ -150,6 +201,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:05:19"
     },
     {
@@ -157,6 +209,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:05:19"
     }
   ]

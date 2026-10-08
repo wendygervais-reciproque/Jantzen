@@ -21,9 +21,18 @@
   "WPfr": null,
   "image_ref": "Ferou-6_6_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "sculpture",
+    "fenetre",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "corniche",
+    "fenêtre",
+    "frise",
+    "pierre de taille",
+    "sculpture",
+    "volet"
   ],
   "photos": [
     {
@@ -32,6 +41,15 @@
         "décor",
         "fenetre",
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "volet",
+        "balcon",
+        "corniche",
+        "pierre de taille",
+        "sculpture",
+        "frise"
       ],
       "dateCapture": "2005:06:02"
     }

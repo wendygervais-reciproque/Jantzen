@@ -33,15 +33,47 @@
   "image_ref": "Rocher-50_8_§1",
   "terme_jantzen_bat": [
     "sculpture",
-    "fenetre",
     "console",
+    "fenetre",
     "porte-fer"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "pierre de taille",
+    "porte-fenêtre",
+    "sculpture",
+    "souche de cheminée",
+    "vantail",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Rocher-50_8_§1",
       "IndexJantzen": [
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "porte-fenêtre",
+        "arc en plein cintre",
+        "balustrade",
+        "sculpture",
+        "brique",
+        "pierre de taille",
+        "volet",
+        "souche de cheminée",
+        "bandeau",
+        "vantail"
       ],
       "dateCapture": "2004:07:02"
     },
@@ -52,6 +84,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:02"
     },
     {
@@ -61,6 +94,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:02"
     },
     {
@@ -68,6 +102,7 @@
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:17"
     }
   ]

@@ -23,11 +23,35 @@
   "terme_jantzen_bat": [
     "fenetre"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "pierre de taille",
+    "porte-fenêtre",
+    "vitrail"
+  ],
   "photos": [
     {
       "id_pic": "Madrid-29_8_§1",
       "IndexJantzen": [
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "porte-fenêtre",
+        "arc en plein cintre",
+        "balustrade",
+        "bandeau",
+        "pierre de taille",
+        "vitrail",
+        "mascaron"
       ],
       "dateCapture": "2006:06:02"
     }

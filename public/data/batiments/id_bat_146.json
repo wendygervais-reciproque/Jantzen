@@ -20,12 +20,60 @@
     "fenetre",
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "chapiteau",
+    "colonne",
+    "corniche",
+    "escalier",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "mascaron",
+    "perron",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "porte-fenêtre",
+    "sculpture",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Platanes-Villa-_18_§1",
       "IndexJantzen": [
         "fenetre",
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "escalier",
+        "balustrade",
+        "colonne",
+        "chapiteau",
+        "pilastre",
+        "fronton",
+        "balcon",
+        "fenêtre",
+        "porte-fenêtre",
+        "volet",
+        "garde-corps",
+        "fer forgé",
+        "mascaron",
+        "sculpture",
+        "corniche",
+        "bandeau",
+        "pierre de taille",
+        "brique",
+        "arc en plein cintre",
+        "arc",
+        "porte",
+        "perron"
       ],
       "dateCapture": "2006:07:10"
     }

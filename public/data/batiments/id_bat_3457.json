@@ -21,17 +21,61 @@
   "WPfr": null,
   "image_ref": "Claude-Bernard-70_5_§1",
   "terme_jantzen_bat": [
-    "pignon",
+    "balcon",
     "façade-d'angle",
+    "pignon",
     "fenetre-d'angle",
-    "lucarne-d'angle",
-    "balcon"
+    "lucarne-d'angle"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "auvent",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "oculus",
+    "pierre de taille",
+    "porte",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "toit en pavillon",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Claude-Bernard-70_5_§1",
       "IndexJantzen": [
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "porte-fenêtre",
+        "volet",
+        "garde-corps",
+        "souche de cheminée",
+        "toit en pavillon",
+        "ardoise",
+        "mansarde",
+        "lucarne",
+        "travée",
+        "corniche",
+        "bandeau",
+        "pierre de taille",
+        "chaîne d'angle",
+        "auvent",
+        "oculus",
+        "fer forgé",
+        "porte"
       ],
       "dateCapture": "2005:08:29"
     },
@@ -40,6 +84,7 @@
       "IndexJantzen": [
         "façade-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:22"
     },
     {
@@ -49,6 +94,7 @@
         "fenetre-d'angle",
         "pignon"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:22"
     },
     {
@@ -56,6 +102,7 @@
       "IndexJantzen": [
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:29"
     },
     {
@@ -63,6 +110,7 @@
       "IndexJantzen": [
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:22"
     },
     {
@@ -71,6 +119,7 @@
         "balcon",
         "lucarne-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:22"
     }
   ]

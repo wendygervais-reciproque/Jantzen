@@ -28,9 +28,20 @@
   "WPfr": null,
   "image_ref": "Montparnasse-bd-120b_14_§1",
   "terme_jantzen_bat": [
-    "porte-fer",
+    "porte-fer-hall",
     "mosaique",
-    "porte-fer-hall"
+    "porte-fer"
+  ],
+  "terme_torneh_bat": [
+    "balustrade",
+    "chambranle",
+    "colonne",
+    "céramique",
+    "fer forgé",
+    "linteau",
+    "pierre de taille",
+    "porte",
+    "vantail"
   ],
   "photos": [
     {
@@ -38,6 +49,17 @@
       "IndexJantzen": [
         "mosaique",
         "porte-fer"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "vantail",
+        "fer forgé",
+        "balustrade",
+        "colonne",
+        "céramique",
+        "pierre de taille",
+        "chambranle",
+        "linteau"
       ],
       "dateCapture": "2005:08:30"
     },
@@ -47,6 +69,7 @@
         "mosaique",
         "porte-fer-hall"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:30"
     }
   ]

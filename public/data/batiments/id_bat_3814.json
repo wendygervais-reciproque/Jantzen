@@ -33,17 +33,55 @@
   "image_ref": "Pere-Brottier-9_16_§1",
   "terme_jantzen_bat": [
     "porte-fer",
-    "fenetre",
-    "console",
     "sculpture",
-    "décor",
-    "porte-fer-hall"
+    "console",
+    "fenetre",
+    "porte-fer-hall",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "baie",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "bossage",
+    "chambranle",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "oculus",
+    "oriel",
+    "pierre de taille",
+    "sculpture",
+    "souche de cheminée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Pere-Brottier-9_16_§1",
       "IndexJantzen": [
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "volet",
+        "oriel",
+        "arc",
+        "arc en plein cintre",
+        "bandeau",
+        "pierre de taille",
+        "sculpture",
+        "fer forgé",
+        "souche de cheminée",
+        "chambranle",
+        "bossage",
+        "oculus",
+        "baie"
       ],
       "dateCapture": null
     },
@@ -54,6 +92,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:18"
     },
     {
@@ -62,6 +101,7 @@
         "console",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:18"
     },
     {
@@ -70,6 +110,7 @@
         "fenetre",
         "porte-fer-hall"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:24"
     },
     {
@@ -78,6 +119,7 @@
         "fenetre",
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:18"
     },
     {
@@ -86,6 +128,7 @@
         "fenetre",
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:18"
     }
   ]

@@ -28,9 +28,21 @@
   "WPfr": null,
   "image_ref": "Laos-7_15_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "sculpture",
-    "console"
+    "console",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "fer forgé",
+    "garde-corps",
+    "oriel",
+    "pierre de taille",
+    "porte-fenêtre",
+    "sculpture",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -38,6 +50,18 @@
       "IndexJantzen": [
         "fenetre",
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "porte-fenêtre",
+        "balustrade",
+        "sculpture",
+        "pierre de taille",
+        "fer forgé",
+        "volet",
+        "travée",
+        "oriel"
       ],
       "dateCapture": "2005:04:03"
     },
@@ -47,6 +71,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:03"
     }
   ]

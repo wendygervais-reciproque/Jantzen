@@ -36,18 +36,40 @@
   "WPfr": null,
   "image_ref": "Tilsitt-7-Etoile_17_§1",
   "terme_jantzen_bat": [
-    "porte-fer",
-    "fenetre",
-    "façade",
-    "lucarne",
     "toiture",
+    "porte-fer",
     "sculpture",
-    "clé",
-    "atlante",
     "pilastre",
+    "clé",
     "cariatide",
-    "décor",
-    "fronton"
+    "fenetre",
+    "lucarne",
+    "façade",
+    "fronton",
+    "atlante",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chaîne d'angle",
+    "colonne",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "grille",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "pierre de taille",
+    "pilastre",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée"
   ],
   "photos": [
     {
@@ -58,6 +80,7 @@
         "porte-fer",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:06:05"
     },
     {
@@ -67,6 +90,7 @@
         "porte-fer",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:06:05"
     },
     {
@@ -74,6 +98,7 @@
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:01"
     },
     {
@@ -82,6 +107,7 @@
         "clé",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:01"
     },
     {
@@ -91,6 +117,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:01"
     },
     {
@@ -100,6 +127,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:01"
     },
     {
@@ -108,6 +136,7 @@
         "cariatide",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:06:05"
     },
     {
@@ -116,12 +145,35 @@
         "cariatide",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:01"
     },
     {
       "id_pic": "Tilsitt-7-Etoile_17_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "bandeau",
+        "chaîne d'angle",
+        "colonne",
+        "corniche",
+        "fenêtre",
+        "fronton",
+        "garde-corps",
+        "grille",
+        "lucarne",
+        "mansarde",
+        "pierre de taille",
+        "pilastre",
+        "souche de cheminée",
+        "toit à deux versants",
+        "travée",
+        "arc en plein cintre",
+        "mascaron",
+        "sculpture"
       ],
       "dateCapture": "2009:03:31"
     },
@@ -132,6 +184,7 @@
         "lucarne",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:03:29"
     },
     {
@@ -140,6 +193,7 @@
         "lucarne",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:03:29"
     },
     {
@@ -148,6 +202,7 @@
         "lucarne",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:09:09"
     },
     {
@@ -155,6 +210,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:03:31"
     },
     {
@@ -162,6 +218,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:03:31"
     },
     {
@@ -170,6 +227,7 @@
         "fenetre",
         "pilastre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:03:31"
     },
     {
@@ -179,6 +237,7 @@
         "lucarne",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:09:09"
     },
     {
@@ -186,6 +245,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:03:31"
     },
     {
@@ -195,6 +255,7 @@
         "lucarne",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:03:31"
     },
     {
@@ -204,6 +265,7 @@
         "lucarne",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:03:31"
     }
   ]

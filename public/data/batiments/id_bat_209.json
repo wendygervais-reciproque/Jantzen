@@ -21,17 +21,57 @@
   "WPfr": null,
   "image_ref": "Lune-1_2_§1",
   "terme_jantzen_bat": [
+    "oriel",
     "fenetre",
     "façade",
     "métal",
-    "oriel",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "attique",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chéneau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "grille",
+    "mascaron",
+    "oriel",
+    "porte",
+    "souche de cheminée",
+    "toit-terrasse",
+    "travée",
+    "verrière",
+    "vitrail"
   ],
   "photos": [
     {
       "id_pic": "Lune-1_2_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "souche de cheminée",
+        "toit-terrasse",
+        "oriel",
+        "bandeau",
+        "corniche",
+        "mascaron",
+        "fer forgé",
+        "porte",
+        "verrière",
+        "chéneau",
+        "grille",
+        "attique",
+        "travée",
+        "vitrail"
       ],
       "dateCapture": "2008:08:10"
     },
@@ -41,6 +81,7 @@
         "fenetre",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:08:10"
     },
     {
@@ -49,6 +90,7 @@
         "fenetre",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:08:19"
     },
     {
@@ -59,6 +101,7 @@
         "métal",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:08:10"
     },
     {
@@ -68,6 +111,7 @@
         "métal",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:08:19"
     }
   ]

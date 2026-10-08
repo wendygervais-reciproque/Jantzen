@@ -32,21 +32,75 @@
   "WPfr": null,
   "image_ref": "Halles-19_1_§1",
   "terme_jantzen_bat": [
+    "balcon",
+    "sculpture",
+    "pilastre",
+    "cariatide",
     "fenetre",
     "lucarne",
     "façade",
     "garde-corps",
-    "sculpture",
-    "pilastre",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "atlante",
+    "balcon",
+    "balustrade",
+    "bandeau",
     "cariatide",
-    "décor",
-    "balcon"
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "frise",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "vitrail"
   ],
   "photos": [
     {
       "id_pic": "Halles-19_1_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "lucarne",
+        "mansarde",
+        "arc en plein cintre",
+        "cariatide",
+        "atlante",
+        "mascaron",
+        "corniche",
+        "bandeau",
+        "pilastre",
+        "frise",
+        "travée",
+        "souche de cheminée",
+        "ardoise",
+        "porte",
+        "vitrail",
+        "pierre de taille",
+        "sculpture",
+        "oculus",
+        "chambranle",
+        "toit à deux versants",
+        "fer forgé"
       ],
       "dateCapture": "2006:04:22"
     },
@@ -56,6 +110,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:05:22"
     },
     {
@@ -64,6 +119,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:05:22"
     },
     {
@@ -73,6 +129,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:05:22"
     },
     {
@@ -81,6 +138,7 @@
         "cariatide",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:05:22"
     },
     {
@@ -89,6 +147,7 @@
         "cariatide",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:05:22"
     },
     {
@@ -96,6 +155,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:05:23"
     },
     {
@@ -103,6 +163,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:05:23"
     },
     {
@@ -112,6 +173,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:05:22"
     },
     {
@@ -121,6 +183,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:22"
     },
     {
@@ -130,6 +193,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:05:22"
     },
     {
@@ -140,6 +204,7 @@
         "pilastre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:22"
     },
     {
@@ -148,6 +213,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:05:22"
     },
     {
@@ -156,6 +222,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:05:22"
     }
   ]

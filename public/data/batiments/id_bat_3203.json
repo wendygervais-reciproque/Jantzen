@@ -28,17 +28,32 @@
   "WPfr": null,
   "image_ref": "Turenne-60_3_§5",
   "terme_jantzen_bat": [
-    "fenetre",
-    "façade",
-    "console",
-    "garde-corps",
-    "lucarne",
-    "pignon",
-    "sculpture",
-    "porte-bois",
-    "clé",
     "balcon",
-    "fronton"
+    "sculpture",
+    "pignon",
+    "clé",
+    "console",
+    "fenetre",
+    "lucarne",
+    "façade",
+    "fronton",
+    "garde-corps",
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "balcon",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "gros appareil",
+    "mascaron",
+    "pierre de taille",
+    "portail",
+    "portique",
+    "vantail"
   ],
   "photos": [
     {
@@ -47,6 +62,7 @@
         "fronton",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:03"
     },
     {
@@ -55,6 +71,7 @@
         "console",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:03"
     },
     {
@@ -63,6 +80,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:03"
     },
     {
@@ -72,6 +90,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:07:11"
     },
     {
@@ -80,6 +99,7 @@
         "clé",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:07:11"
     },
     {
@@ -90,6 +110,7 @@
         "garde-corps",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:07"
     },
     {
@@ -97,6 +118,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:08:01"
     },
     {
@@ -106,6 +128,7 @@
         "lucarne",
         "pignon"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:08:01"
     },
     {
@@ -114,6 +137,7 @@
         "clé",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:08:01"
     },
     {
@@ -121,6 +145,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:03"
     },
     {
@@ -129,6 +154,7 @@
         "porte-bois",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:03"
     },
     {
@@ -137,6 +163,7 @@
         "porte-bois",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:08:01"
     },
     {
@@ -145,6 +172,21 @@
         "fronton",
         "porte-bois"
       ],
+      "IndexTorneh": [
+        "arc en plein cintre",
+        "arc",
+        "portail",
+        "mascaron",
+        "fronton",
+        "pierre de taille",
+        "gros appareil",
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "vantail",
+        "portique"
+      ],
       "dateCapture": "2003:08:01"
     },
     {
@@ -152,6 +194,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:03"
     },
     {
@@ -160,6 +203,7 @@
         "balcon",
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:03"
     },
     {
@@ -168,6 +212,7 @@
         "balcon",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:03"
     }
   ]

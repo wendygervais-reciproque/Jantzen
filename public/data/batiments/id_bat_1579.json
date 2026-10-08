@@ -21,11 +21,27 @@
   "WPfr": null,
   "image_ref": "Duphot-20_1_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "façade",
-    "lucarne",
     "verrière",
+    "fenetre",
+    "lucarne",
+    "façade",
     "fronton"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "pilastre",
+    "porte",
+    "travée",
+    "verrière"
   ],
   "photos": [
     {
@@ -33,6 +49,22 @@
       "IndexJantzen": [
         "façade",
         "verrière"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "lucarne",
+        "mansarde",
+        "corniche",
+        "travée",
+        "verrière",
+        "porte",
+        "pilastre",
+        "ardoise",
+        "bandeau",
+        "fer"
       ],
       "dateCapture": "2006:04:21"
     },
@@ -42,6 +74,7 @@
         "fenetre",
         "verrière"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:11"
     },
     {
@@ -50,6 +83,7 @@
         "fronton",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:21"
     },
     {
@@ -58,6 +92,7 @@
         "fronton",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:21"
     }
   ]

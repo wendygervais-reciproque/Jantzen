@@ -23,11 +23,33 @@
   "terme_jantzen_bat": [
     "fenetre"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "chambranle",
+    "corniche",
+    "fer forgé",
+    "garde-corps",
+    "pierre de taille",
+    "porte-fenêtre",
+    "sculpture",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Pontoise-9_5_§1",
       "IndexJantzen": [
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "porte-fenêtre",
+        "garde-corps",
+        "fer forgé",
+        "balcon",
+        "sculpture",
+        "pierre de taille",
+        "corniche",
+        "chambranle",
+        "volet"
       ],
       "dateCapture": "2003:08:10"
     }

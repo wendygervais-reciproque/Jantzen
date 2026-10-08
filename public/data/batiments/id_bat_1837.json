@@ -23,11 +23,43 @@
   "terme_jantzen_bat": [
     "fenetre"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "garde-corps",
+    "modillon",
+    "pierre de taille",
+    "pilastre",
+    "porte-fenêtre",
+    "travée",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Voltaire-qu-25_7_§1",
       "IndexJantzen": [
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "pierre de taille",
+        "corniche",
+        "travée",
+        "chambranle",
+        "arc en plein cintre",
+        "volet",
+        "pilastre",
+        "modillon",
+        "bandeau",
+        "porte-fenêtre"
       ],
       "dateCapture": "2003:07:10"
     },
@@ -36,6 +68,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:07:10"
     }
   ]

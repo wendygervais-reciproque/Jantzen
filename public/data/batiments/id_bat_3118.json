@@ -30,11 +30,39 @@
   "terme_jantzen_bat": [
     "porte-fer-hall"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "chambranle",
+    "fer forgé",
+    "grille",
+    "jambage",
+    "linteau",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "porte-fenêtre",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Benjamin-Godard-6_16_§2",
       "IndexJantzen": [
         "porte-fer-hall"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "porte-fenêtre",
+        "fer forgé",
+        "grille",
+        "balcon",
+        "mascaron",
+        "chambranle",
+        "jambage",
+        "linteau",
+        "pierre de taille",
+        "sculpture",
+        "vantail"
       ],
       "dateCapture": "2004:05:17"
     }

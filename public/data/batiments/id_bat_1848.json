@@ -26,12 +26,42 @@
     "lucarne-d'angle",
     "fronton"
   ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balustrade",
+    "chapiteau",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "lucarne",
+    "mansarde",
+    "modillon",
+    "pierre de taille",
+    "pilastre",
+    "toit à deux versants"
+  ],
   "photos": [
     {
       "id_pic": "Rivoli-25_4_§1",
       "IndexJantzen": [
         "fronton",
         "lucarne-d'angle"
+      ],
+      "IndexTorneh": [
+        "mansarde",
+        "lucarne",
+        "fronton",
+        "corniche",
+        "ardoise",
+        "fenêtre",
+        "pilastre",
+        "chapiteau",
+        "modillon",
+        "balustrade",
+        "toit à deux versants",
+        "pierre de taille",
+        "chaîne d'angle"
       ],
       "dateCapture": "2009:03:20"
     },
@@ -41,6 +71,7 @@
         "fronton",
         "lucarne-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:03:20"
     },
     {
@@ -49,6 +80,7 @@
         "fronton",
         "lucarne-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:03:20"
     }
   ]

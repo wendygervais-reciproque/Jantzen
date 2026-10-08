@@ -30,11 +30,33 @@
   "terme_jantzen_bat": [
     "porte-fer-hall"
   ],
+  "terme_torneh_bat": [
+    "arc",
+    "balcon",
+    "balustrade",
+    "fer forgé",
+    "pierre de taille",
+    "porte",
+    "porte-fenêtre",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Gustave-Zede-15_16_§1",
       "IndexJantzen": [
         "porte-fer-hall"
+      ],
+      "IndexTorneh": [
+        "arc",
+        "porte",
+        "porte-fenêtre",
+        "fer forgé",
+        "balcon",
+        "sculpture",
+        "pierre de taille",
+        "vantail",
+        "balustrade"
       ],
       "dateCapture": "2005:05:10"
     }

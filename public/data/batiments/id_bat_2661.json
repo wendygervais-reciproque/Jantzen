@@ -28,16 +28,56 @@
   "WPfr": null,
   "image_ref": "Daumesnil-44_12_§1",
   "terme_jantzen_bat": [
-    "fenetre-d'angle",
     "lucarne-d'angle",
-    "tourelle",
-    "façade-d'angle"
+    "fenetre-d'angle",
+    "façade-d'angle",
+    "tourelle"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "frise",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "oculus",
+    "pierre de taille",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "tour",
+    "travée",
+    "volet",
+    "épi de faîtage"
   ],
   "photos": [
     {
       "id_pic": "Daumesnil-44_12_§1",
       "IndexJantzen": [
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "tour",
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "fenêtre",
+        "lucarne",
+        "mansarde",
+        "sculpture",
+        "pierre de taille",
+        "souche de cheminée",
+        "épi de faîtage",
+        "toit à deux versants",
+        "oculus",
+        "frise",
+        "corniche",
+        "bandeau",
+        "volet",
+        "travée"
       ],
       "dateCapture": "2006:07:14"
     },
@@ -46,6 +86,7 @@
       "IndexJantzen": [
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:14"
     },
     {
@@ -54,6 +95,7 @@
         "fenetre-d'angle",
         "tourelle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:14"
     },
     {
@@ -62,6 +104,7 @@
         "lucarne-d'angle",
         "tourelle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:14"
     }
   ]

@@ -28,8 +28,28 @@
   "WPfr": null,
   "image_ref": "Bourgogne-16_7_§1",
   "terme_jantzen_bat": [
-    "porte-fer",
-    "fenetre"
+    "fenetre",
+    "porte-fer"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "gros appareil",
+    "linteau",
+    "mascaron",
+    "mur-boutant",
+    "pierre de taille",
+    "porte",
+    "porte-fenêtre",
+    "sculpture",
+    "vantail",
+    "volet"
   ],
   "photos": [
     {
@@ -38,6 +58,26 @@
         "fenetre",
         "porte-fer"
       ],
+      "IndexTorneh": [
+        "porte",
+        "porte-fenêtre",
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "fer forgé",
+        "chambranle",
+        "linteau",
+        "corniche",
+        "bandeau",
+        "pierre de taille",
+        "mascaron",
+        "sculpture",
+        "volet",
+        "vantail",
+        "mur-boutant",
+        "gros appareil"
+      ],
       "dateCapture": "2005:05:28"
     },
     {
@@ -45,6 +85,7 @@
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:28"
     }
   ]

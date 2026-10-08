@@ -21,9 +21,21 @@
   "WPfr": null,
   "image_ref": "Verneuil-47_7_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "garde-corps",
-    "clé"
+    "clé",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "pierre de taille",
+    "porte-fenêtre",
+    "sculpture"
   ],
   "photos": [
     {
@@ -33,6 +45,18 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [
+        "porte-fenêtre",
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "mascaron",
+        "corniche",
+        "bandeau",
+        "pierre de taille",
+        "sculpture"
+      ],
       "dateCapture": "2005:05:22"
     },
     {
@@ -41,6 +65,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:22"
     }
   ]

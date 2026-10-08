@@ -28,12 +28,23 @@
   "WPfr": null,
   "image_ref": "Reaumur-124_2_§1",
   "terme_jantzen_bat": [
+    "verrière",
     "porte-fer",
-    "fenetre",
-    "console",
-    "métal",
     "oriel",
-    "verrière"
+    "console",
+    "fenetre",
+    "métal"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "fenêtre",
+    "fer",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "oriel",
+    "souche de cheminée",
+    "toit-terrasse"
   ],
   "photos": [
     {
@@ -42,6 +53,17 @@
         "fenetre",
         "métal",
         "oriel"
+      ],
+      "IndexTorneh": [
+        "oriel",
+        "lucarne",
+        "fenêtre",
+        "fer",
+        "balcon",
+        "garde-corps",
+        "souche de cheminée",
+        "toit-terrasse",
+        "mansarde"
       ],
       "dateCapture": "2004:08:21"
     },
@@ -52,6 +74,7 @@
         "métal",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:08:21"
     },
     {
@@ -62,6 +85,7 @@
         "oriel",
         "verrière"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:04:25"
     },
     {
@@ -72,6 +96,7 @@
         "oriel",
         "verrière"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:08:21"
     },
     {
@@ -82,6 +107,7 @@
         "oriel",
         "verrière"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:05:07"
     },
     {
@@ -91,6 +117,7 @@
         "oriel",
         "verrière"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:05:07"
     },
     {
@@ -98,6 +125,7 @@
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:05:07"
     }
   ]

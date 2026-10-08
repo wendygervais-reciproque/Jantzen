@@ -24,12 +24,27 @@
     "fenetre",
     "décor"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "corniche",
+    "escalier",
+    "fenêtre",
+    "fer",
+    "fer forgé",
+    "garde-corps",
+    "pierre de taille",
+    "porte",
+    "porte-fenêtre",
+    "sculpture"
+  ],
   "photos": [
     {
       "id_pic": "Turenne-76_3_§1",
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:19"
     },
     {
@@ -37,6 +52,20 @@
       "IndexJantzen": [
         "décor",
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "escalier",
+        "garde-corps",
+        "fer forgé",
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "porte-fenêtre",
+        "sculpture",
+        "corniche",
+        "pierre de taille",
+        "fer",
+        "porte"
       ],
       "dateCapture": "2006:04:19"
     },
@@ -46,6 +75,7 @@
         "décor",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:19"
     }
   ]

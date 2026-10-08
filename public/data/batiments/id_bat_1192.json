@@ -35,12 +35,44 @@
     "fenetre",
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bossage",
+    "chambranle",
+    "fenêtre",
+    "garde-corps",
+    "mascaron",
+    "pierre de taille",
+    "porche",
+    "porte",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Friedland-17_8_§1",
       "IndexJantzen": [
         "fenetre",
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "porche",
+        "arc",
+        "arc en plein cintre",
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "sculpture",
+        "mascaron",
+        "pierre de taille",
+        "bossage",
+        "vantail",
+        "balustrade",
+        "chambranle"
       ],
       "dateCapture": "2004:10:18"
     }

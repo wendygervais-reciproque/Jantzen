@@ -29,18 +29,58 @@
   "image_ref": "Bac-62_7_§1",
   "terme_jantzen_bat": [
     "toiture",
-    "fenetre",
-    "garde-corps",
+    "balcon",
     "façade-d'angle",
     "fenetre-d'angle",
-    "décor",
-    "balcon"
+    "fenetre",
+    "garde-corps",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "auvent",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "oculus",
+    "pierre de taille",
+    "porte",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Bac-62_7_§1",
       "IndexJantzen": [
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "mansarde",
+        "lucarne",
+        "souche de cheminée",
+        "toit à deux versants",
+        "ardoise",
+        "oculus",
+        "corniche",
+        "bandeau",
+        "pierre de taille",
+        "fer forgé",
+        "porte",
+        "auvent",
+        "travée",
+        "volet"
       ],
       "dateCapture": "2005:03:20"
     },
@@ -49,6 +89,7 @@
       "IndexJantzen": [
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:03:20"
     },
     {
@@ -57,6 +98,7 @@
         "balcon",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:03:20"
     },
     {
@@ -64,6 +106,7 @@
       "IndexJantzen": [
         "balcon"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:03:20"
     },
     {
@@ -72,6 +115,7 @@
         "décor",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:03:20"
     },
     {
@@ -80,6 +124,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:03:20"
     }
   ]

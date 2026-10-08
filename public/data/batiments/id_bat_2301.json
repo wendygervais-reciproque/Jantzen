@@ -24,12 +24,32 @@
   "image_ref": "Grands-Augustin-qu-35_6_§2",
   "terme_jantzen_bat": [
     "toiture",
-    "fenetre",
-    "façade",
-    "lucarne",
-    "garde-corps",
     "sculpture",
+    "fenetre",
+    "lucarne",
+    "façade",
+    "garde-corps",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "linteau",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "porte",
+    "souche de cheminée",
+    "tuile"
   ],
   "photos": [
     {
@@ -37,12 +57,33 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2013:08:16"
     },
     {
       "id_pic": "Grands-Augustin-qu-35_6_§2",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "lucarne",
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "mascaron",
+        "pierre de taille",
+        "porte",
+        "arc en plein cintre",
+        "mansarde",
+        "tuile",
+        "souche de cheminée",
+        "fronton",
+        "corniche",
+        "balustrade",
+        "chambranle",
+        "linteau",
+        "oculus"
       ],
       "dateCapture": "2006:06:11"
     },
@@ -54,6 +95,7 @@
         "sculpture",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2013:08:16"
     },
     {
@@ -64,6 +106,7 @@
         "sculpture",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2013:08:16"
     },
     {
@@ -74,6 +117,7 @@
         "lucarne",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:11"
     },
     {
@@ -84,6 +128,7 @@
         "lucarne",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:11"
     },
     {
@@ -91,6 +136,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2013:08:16"
     }
   ]

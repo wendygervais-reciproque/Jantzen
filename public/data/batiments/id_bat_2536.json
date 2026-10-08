@@ -24,12 +24,38 @@
     "sculpture",
     "console"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "modillon",
+    "pierre de taille",
+    "sculpture",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Pier-Haret-4_9_§1",
       "IndexJantzen": [
         "console",
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "volet",
+        "modillon",
+        "sculpture",
+        "pierre de taille",
+        "corniche",
+        "mascaron"
       ],
       "dateCapture": "2005:05:21"
     }

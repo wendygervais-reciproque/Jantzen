@@ -23,11 +23,43 @@
   "terme_jantzen_bat": [
     "façade"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mansarde",
+    "porte",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "vitrail",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "St-Antoine-25-37_4_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "souche de cheminée",
+        "toit à deux versants",
+        "porte",
+        "vitrail",
+        "volet",
+        "bandeau",
+        "travée",
+        "mansarde",
+        "corniche",
+        "fer forgé"
       ],
       "dateCapture": "2008:05:16"
     }

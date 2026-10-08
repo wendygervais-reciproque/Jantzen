@@ -22,10 +22,31 @@
   "image_ref": "St-Germain-87_6_§1",
   "terme_jantzen_bat": [
     "oeil-de-boeuf",
-    "lucarne",
+    "balcon",
     "dome",
-    "lucarne-d'angle",
-    "balcon"
+    "lucarne",
+    "lucarne-d'angle"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "sculpture",
+    "souche de cheminée",
+    "toit-terrasse",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -36,6 +57,27 @@
         "lucarne-d'angle",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [
+        "dôme",
+        "oculus",
+        "lucarne",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "arc en plein cintre",
+        "souche de cheminée",
+        "ardoise",
+        "pierre de taille",
+        "corniche",
+        "sculpture",
+        "mascaron",
+        "volet",
+        "toit-terrasse",
+        "travée",
+        "mansarde"
+      ],
       "dateCapture": "2005:05:27"
     },
     {
@@ -45,6 +87,7 @@
         "lucarne-d'angle",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:19"
     },
     {
@@ -52,6 +95,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:19"
     }
   ]

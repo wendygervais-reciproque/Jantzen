@@ -30,11 +30,39 @@
   "terme_jantzen_bat": [
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "brique",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "modillon",
+    "pierre de taille",
+    "toit à deux versants"
+  ],
   "photos": [
     {
       "id_pic": "Montparnasse-Bd-93_6_§1",
       "IndexJantzen": [
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "lucarne",
+        "mansarde",
+        "fenêtre",
+        "ardoise",
+        "corniche",
+        "modillon",
+        "brique",
+        "pierre de taille",
+        "chambranle",
+        "garde-corps",
+        "toit à deux versants",
+        "fronton"
       ],
       "dateCapture": "2008:04:07"
     },
@@ -43,6 +71,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:05:17"
     },
     {
@@ -50,6 +79,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:05:17"
     },
     {
@@ -57,6 +87,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:05:17"
     }
   ]

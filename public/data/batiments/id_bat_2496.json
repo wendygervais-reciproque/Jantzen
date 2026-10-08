@@ -25,11 +25,29 @@
   "terme_jantzen_bat": [
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "chambranle",
+    "fenêtre",
+    "gros appareil",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Thorigny-4_3_§1",
       "IndexJantzen": [
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "mascaron",
+        "pierre de taille",
+        "chambranle",
+        "fenêtre",
+        "gros appareil",
+        "vantail"
       ],
       "dateCapture": "2003:08:01"
     }

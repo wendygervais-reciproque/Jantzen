@@ -28,12 +28,30 @@
   "WPfr": null,
   "image_ref": "Dunkerque-83_9_§1",
   "terme_jantzen_bat": [
-    "fenetre",
+    "balcon",
     "sculpture",
     "clé",
-    "décor",
+    "fenetre",
+    "fronton",
+    "décor"
+  ],
+  "terme_torneh_bat": [
     "balcon",
-    "fronton"
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "linteau",
+    "mansarde",
+    "mascaron",
+    "pierre de taille",
+    "pilastre",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -43,6 +61,24 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "garde-corps",
+        "volet",
+        "mascaron",
+        "corniche",
+        "bandeau",
+        "pilastre",
+        "souche de cheminée",
+        "fer forgé",
+        "pierre de taille",
+        "travée",
+        "mansarde",
+        "porte-fenêtre",
+        "linteau"
+      ],
       "dateCapture": "2007:08:27"
     },
     {
@@ -51,6 +87,7 @@
         "fenetre",
         "fronton"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:08:27"
     },
     {
@@ -60,6 +97,7 @@
         "clé",
         "fronton"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:08:27"
     }
   ]

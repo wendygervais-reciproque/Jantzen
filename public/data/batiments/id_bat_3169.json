@@ -28,10 +28,27 @@
   "WPfr": null,
   "image_ref": "Louis-Morard-6_14_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "brique",
-    "décor",
-    "oriel"
+    "oriel",
+    "fenetre",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "bandeau",
+    "brique",
+    "chéneau",
+    "corniche",
+    "céramique",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "oriel",
+    "porte-fenêtre",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -39,6 +56,23 @@
       "IndexJantzen": [
         "brique",
         "oriel"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "brique",
+        "oriel",
+        "volet",
+        "lucarne",
+        "mansarde",
+        "corniche",
+        "bandeau",
+        "chéneau",
+        "céramique",
+        "fer forgé",
+        "travée",
+        "porte-fenêtre"
       ],
       "dateCapture": "2005:05:08"
     },
@@ -49,6 +83,7 @@
         "décor",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:08"
     },
     {
@@ -58,6 +93,7 @@
         "décor",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:08"
     }
   ]

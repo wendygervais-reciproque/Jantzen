@@ -32,16 +32,43 @@
   "WPfr": null,
   "image_ref": "Tourville-4_7_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "façade",
-    "console",
-    "garde-corps",
-    "sculpture",
     "atlante",
     "oriel",
-    "porte-bois",
+    "sculpture",
+    "console",
+    "fenetre",
+    "cariatide",
     "fenetre-d'angle",
-    "cariatide"
+    "façade",
+    "garde-corps",
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en anse de panier",
+    "ardoise",
+    "atlante",
+    "baie",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "oriel",
+    "pierre de taille",
+    "porte",
+    "porte-fenêtre",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "vantail",
+    "verrière"
   ],
   "photos": [
     {
@@ -49,6 +76,33 @@
       "IndexJantzen": [
         "façade",
         "oriel"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "porte",
+        "porte-fenêtre",
+        "mansarde",
+        "lucarne",
+        "souche de cheminée",
+        "atlante",
+        "mascaron",
+        "sculpture",
+        "arc",
+        "arc en anse de panier",
+        "corniche",
+        "bandeau",
+        "oriel",
+        "verrière",
+        "pierre de taille",
+        "toit à deux versants",
+        "ardoise",
+        "oculus",
+        "fer forgé",
+        "baie",
+        "vantail"
       ],
       "dateCapture": "2005:03:19"
     },
@@ -59,6 +113,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:03:19"
     },
     {
@@ -70,6 +125,7 @@
         "porte-bois",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:03:19"
     },
     {
@@ -78,6 +134,7 @@
         "atlante",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:03:19"
     },
     {
@@ -86,6 +143,7 @@
         "cariatide",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:03:19"
     },
     {
@@ -96,6 +154,7 @@
         "porte-bois",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:03:19"
     }
   ]

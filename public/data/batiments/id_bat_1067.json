@@ -28,10 +28,29 @@
   "WPfr": null,
   "image_ref": "St-Ouen-Av-153_17_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "lucarne",
     "lucarne-d'angle",
-    "décor"
+    "fenetre",
+    "décor",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "avant-corps",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "souche de cheminée",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -40,6 +59,25 @@
         "fenetre",
         "lucarne"
       ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "lucarne",
+        "souche de cheminée",
+        "ardoise",
+        "fronton",
+        "mascaron",
+        "volet",
+        "pierre de taille",
+        "corniche",
+        "travée",
+        "bandeau",
+        "avant-corps",
+        "fer forgé",
+        "oculus"
+      ],
       "dateCapture": "2007:08:26"
     },
     {
@@ -47,6 +85,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:08:26"
     },
     {
@@ -54,6 +93,7 @@
       "IndexJantzen": [
         "lucarne-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:08:26"
     },
     {
@@ -62,6 +102,7 @@
         "décor",
         "lucarne-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:08:26"
     }
   ]

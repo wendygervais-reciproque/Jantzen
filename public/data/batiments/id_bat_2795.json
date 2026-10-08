@@ -31,11 +31,51 @@
     "façade",
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "St-Placide-49_6_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "garde-corps",
+        "mascaron",
+        "pilastre",
+        "corniche",
+        "bandeau",
+        "lucarne",
+        "mansarde",
+        "toit à deux versants",
+        "souche de cheminée",
+        "fer forgé",
+        "pierre de taille",
+        "volet",
+        "porte",
+        "travée",
+        "fer"
       ],
       "dateCapture": "2005:04:17"
     },
@@ -44,6 +84,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:17"
     }
   ]

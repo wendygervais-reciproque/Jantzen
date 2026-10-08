@@ -24,12 +24,48 @@
     "brique",
     "façade"
   ],
+  "terme_torneh_bat": [
+    "arc brisé",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "corniche",
+    "fenêtre",
+    "garde-corps",
+    "mansarde",
+    "oculus",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "sculpture",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Alphonse-de-Neuville-11_17_§1",
       "IndexJantzen": [
         "brique",
         "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "brique",
+        "corniche",
+        "fenêtre",
+        "garde-corps",
+        "mansarde",
+        "arc brisé",
+        "porte",
+        "portail",
+        "volet",
+        "oculus",
+        "ardoise",
+        "bandeau",
+        "pierre de taille",
+        "sculpture"
       ],
       "dateCapture": "2004:07:05"
     }

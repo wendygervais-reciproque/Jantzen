@@ -21,12 +21,32 @@
   "WPfr": null,
   "image_ref": "Bosquet-Av-16T_7_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "porte-bois",
-    "dome",
-    "lucarne-d'angle",
     "balcon",
-    "poignée-porte"
+    "dome",
+    "fenetre",
+    "poignée-porte",
+    "lucarne-d'angle",
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "souche de cheminée",
+    "tour",
+    "volet",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -36,6 +56,26 @@
         "dome",
         "lucarne-d'angle"
       ],
+      "IndexTorneh": [
+        "épi de faîtage",
+        "dôme",
+        "lucarne",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "ardoise",
+        "corniche",
+        "mascaron",
+        "bandeau",
+        "souche de cheminée",
+        "pierre de taille",
+        "tour",
+        "volet",
+        "arc en plein cintre",
+        "oculus"
+      ],
       "dateCapture": "2006:03:27"
     },
     {
@@ -44,6 +84,7 @@
         "dome",
         "lucarne-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:03:27"
     },
     {
@@ -52,6 +93,7 @@
         "dome",
         "lucarne-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:09"
     },
     {
@@ -60,6 +102,7 @@
         "fenetre",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:09"
     },
     {
@@ -67,6 +110,7 @@
       "IndexJantzen": [
         "poignée-porte"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:09"
     }
   ]

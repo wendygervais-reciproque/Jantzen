@@ -23,16 +23,52 @@
   "WPfr": null,
   "image_ref": "Lamballe-23_16_§1",
   "terme_jantzen_bat": [
-    "fenetre-d'angle",
-    "lucarne-d'angle",
     "balcon",
+    "lucarne-d'angle",
+    "fenetre-d'angle",
     "façade-d'angle"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chéneau",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "oculus",
+    "pierre de taille",
+    "porte",
+    "souche de cheminée",
+    "toit à deux versants",
+    "tour",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Lamballe-23_16_§1",
       "IndexJantzen": [
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "bandeau",
+        "fenêtre",
+        "garde-corps",
+        "souche de cheminée",
+        "toit à deux versants",
+        "tour",
+        "travée",
+        "pierre de taille",
+        "fronton",
+        "arc en plein cintre",
+        "oculus",
+        "porte",
+        "chéneau",
+        "volet"
       ],
       "dateCapture": "2008:02:19"
     },
@@ -41,6 +77,7 @@
       "IndexJantzen": [
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:19"
     },
     {
@@ -48,6 +85,7 @@
       "IndexJantzen": [
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:19"
     },
     {
@@ -55,6 +93,7 @@
       "IndexJantzen": [
         "lucarne-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:19"
     },
     {
@@ -63,6 +102,7 @@
         "balcon",
         "lucarne-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:03:20"
     },
     {
@@ -70,6 +110,7 @@
       "IndexJantzen": [
         "lucarne-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:03:20"
     }
   ]

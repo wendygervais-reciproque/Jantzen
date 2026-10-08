@@ -30,11 +30,31 @@
   "terme_jantzen_bat": [
     "porte-fer-hall"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "chambranle",
+    "fer forgé",
+    "pierre de taille",
+    "porche",
+    "porte",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Capri-11b_12_§1",
       "IndexJantzen": [
         "porte-fer-hall"
+      ],
+      "IndexTorneh": [
+        "arc en plein cintre",
+        "porte",
+        "fer forgé",
+        "vantail",
+        "sculpture",
+        "pierre de taille",
+        "chambranle",
+        "porche"
       ],
       "dateCapture": "2004:07:27"
     }

@@ -21,9 +21,30 @@
   "WPfr": null,
   "image_ref": "Prony-93_17_§1",
   "terme_jantzen_bat": [
-    "fenetre",
+    "oriel",
     "console",
-    "oriel"
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "avant-corps",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oriel",
+    "pierre de taille",
+    "porte-fenêtre",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "volet"
   ],
   "photos": [
     {
@@ -31,6 +52,27 @@
       "IndexJantzen": [
         "fenetre",
         "oriel"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "porte-fenêtre",
+        "volet",
+        "avant-corps",
+        "oriel",
+        "corniche",
+        "bandeau",
+        "arc en plein cintre",
+        "mascaron",
+        "sculpture",
+        "fer forgé",
+        "pierre de taille",
+        "toit à deux versants",
+        "souche de cheminée",
+        "lucarne",
+        "mansarde"
       ],
       "dateCapture": "2004:07:05"
     },
@@ -40,6 +82,7 @@
         "console",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:05"
     }
   ]

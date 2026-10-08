@@ -31,11 +31,53 @@
     "fenetre",
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "avant-corps",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oriel",
+    "pierre de taille",
+    "pilastre",
+    "sculpture",
+    "souche de cheminée",
+    "travée"
+  ],
   "photos": [
     {
       "id_pic": "Damremont-21_18_§1",
       "IndexJantzen": [
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "corniche",
+        "fronton",
+        "lucarne",
+        "mansarde",
+        "avant-corps",
+        "pilastre",
+        "ardoise",
+        "souche de cheminée",
+        "sculpture",
+        "bandeau",
+        "mascaron",
+        "pierre de taille",
+        "oriel",
+        "fer forgé",
+        "travée"
       ],
       "dateCapture": "2005:05:19"
     },
@@ -44,6 +86,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:09"
     }
   ]

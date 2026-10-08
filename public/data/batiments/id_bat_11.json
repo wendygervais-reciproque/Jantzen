@@ -30,11 +30,49 @@
     "dome",
     "tourelle"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "arcade",
+    "balustrade",
+    "colonne",
+    "corniche",
+    "dôme",
+    "entablement",
+    "fenêtre",
+    "fronton",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "sculpture",
+    "toit à deux versants",
+    "travée",
+    "épi de faîtage"
+  ],
   "photos": [
     {
       "id_pic": "Invalides_HFS_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "dôme",
+        "arc en plein cintre",
+        "arcade",
+        "colonne",
+        "pilastre",
+        "fronton",
+        "entablement",
+        "corniche",
+        "balustrade",
+        "sculpture",
+        "oculus",
+        "fenêtre",
+        "porte",
+        "toit à deux versants",
+        "pierre de taille",
+        "travée",
+        "épi de faîtage"
       ],
       "dateCapture": "2008:07:28"
     },
@@ -43,6 +81,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:08:03"
     },
     {
@@ -50,6 +89,7 @@
       "IndexJantzen": [
         "dome"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:04:26"
     },
     {
@@ -58,6 +98,7 @@
         "dome",
         "tourelle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:04:26"
     },
     {
@@ -65,6 +106,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:07:28"
     },
     {
@@ -72,6 +114,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:10:15"
     },
     {
@@ -79,6 +122,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:10:15"
     }
   ]

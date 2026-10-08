@@ -24,12 +24,52 @@
     "façade",
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "porte",
+    "souche de cheminée",
+    "toit à deux versants",
+    "vitrail"
+  ],
   "photos": [
     {
       "id_pic": "St-Placide-26_6_§1",
       "IndexJantzen": [
         "façade",
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "arc en plein cintre",
+        "fronton",
+        "lucarne",
+        "souche de cheminée",
+        "mascaron",
+        "pierre de taille",
+        "ardoise",
+        "toit à deux versants",
+        "fer forgé",
+        "porte",
+        "corniche",
+        "balustrade",
+        "chambranle",
+        "vitrail",
+        "oculus"
       ],
       "dateCapture": "2006:05:14"
     }

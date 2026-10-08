@@ -33,10 +33,27 @@
   "image_ref": "Lauriston-25_16_§1",
   "terme_jantzen_bat": [
     "porte-fer",
+    "oriel",
     "fenetre",
     "façade",
-    "métal",
-    "oriel"
+    "métal"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "oriel",
+    "pierre de taille",
+    "porte",
+    "souche de cheminée",
+    "soupirail",
+    "travée",
+    "verrière",
+    "volet"
   ],
   "photos": [
     {
@@ -46,6 +63,23 @@
         "métal",
         "oriel"
       ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "fenêtre",
+        "volet",
+        "pierre de taille",
+        "corniche",
+        "bandeau",
+        "oriel",
+        "verrière",
+        "travée",
+        "fer forgé",
+        "soupirail",
+        "porte",
+        "souche de cheminée"
+      ],
       "dateCapture": "2004:09:02"
     },
     {
@@ -53,6 +87,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:02"
     },
     {
@@ -60,6 +95,7 @@
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:02"
     }
   ]

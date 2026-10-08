@@ -32,11 +32,29 @@
   "WPfr": null,
   "image_ref": "Manin-59_19_§1",
   "terme_jantzen_bat": [
-    "façade-d'angle",
+    "balcon",
     "dome",
+    "façade-d'angle",
     "fenetre-d'angle",
-    "lucarne-d'angle",
-    "balcon"
+    "lucarne-d'angle"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "oculus",
+    "pierre de taille",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "tour",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -44,6 +62,24 @@
       "IndexJantzen": [
         "dome",
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "tour",
+        "dôme",
+        "balcon",
+        "balustrade",
+        "corniche",
+        "fenêtre",
+        "garde-corps",
+        "fer forgé",
+        "souche de cheminée",
+        "bandeau",
+        "oculus",
+        "pierre de taille",
+        "ardoise",
+        "épi de faîtage",
+        "toit à deux versants",
+        "sculpture"
       ],
       "dateCapture": "2006:04:20"
     },
@@ -53,6 +89,7 @@
         "dome",
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:20"
     },
     {
@@ -62,6 +99,7 @@
         "dome",
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:20"
     },
     {
@@ -71,6 +109,7 @@
         "dome",
         "lucarne-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:20"
     },
     {
@@ -79,6 +118,7 @@
         "dome",
         "lucarne-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:20"
     }
   ]

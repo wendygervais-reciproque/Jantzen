@@ -23,11 +23,45 @@
   "terme_jantzen_bat": [
     "façade"
   ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "chéneau",
+    "faîtage",
+    "fenêtre",
+    "garde-corps",
+    "grille",
+    "lucarne",
+    "mansarde",
+    "porte",
+    "souche de cheminée",
+    "toit à deux versants",
+    "vitrail",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "St-Antoine-31-35_4_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "souche de cheminée",
+        "mansarde",
+        "lucarne",
+        "volet",
+        "porte",
+        "vitrail",
+        "toit à deux versants",
+        "ardoise",
+        "chéneau",
+        "faîtage",
+        "grille"
       ],
       "dateCapture": "2008:05:16"
     }

@@ -23,11 +23,29 @@
   "terme_jantzen_bat": [
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "chambranle",
+    "fer forgé",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Filles-Calvaire-2_11_§1",
       "IndexJantzen": [
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "vantail",
+        "sculpture",
+        "fer forgé",
+        "chambranle",
+        "arc en plein cintre",
+        "pierre de taille"
       ],
       "dateCapture": "2006:03:19"
     }

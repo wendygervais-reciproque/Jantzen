@@ -30,11 +30,35 @@
   "terme_jantzen_bat": [
     "porte-fer-hall"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "jambage",
+    "linteau",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Eugene-Labiche-9_16_§1",
       "IndexJantzen": [
         "porte-fer-hall"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "vantail",
+        "fer forgé",
+        "sculpture",
+        "balcon",
+        "garde-corps",
+        "jambage",
+        "linteau",
+        "pierre de taille",
+        "fenêtre"
       ],
       "dateCapture": "2005:04:30"
     }

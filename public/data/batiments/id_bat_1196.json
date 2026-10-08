@@ -24,12 +24,34 @@
     "fenetre",
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Niel-17_17_§1",
       "IndexJantzen": [
         "fenetre",
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "arc en plein cintre",
+        "balcon",
+        "garde-corps",
+        "mascaron",
+        "vantail",
+        "pierre de taille",
+        "fer forgé",
+        "balustrade"
       ],
       "dateCapture": null
     }

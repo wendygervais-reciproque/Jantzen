@@ -29,11 +29,32 @@
   "image_ref": "Fortuny-42_17_§1",
   "terme_jantzen_bat": [
     "oeil-de-boeuf",
-    "fenetre",
-    "lucarne",
     "sculpture",
     "cariatide",
+    "fenetre",
+    "lucarne",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "atlante",
+    "baie",
+    "balcon",
+    "balustrade",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "sculpture",
+    "travée"
   ],
   "photos": [
     {
@@ -43,6 +64,27 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [
+        "fronton",
+        "mascaron",
+        "atlante",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "lucarne",
+        "mansarde",
+        "oculus",
+        "pilastre",
+        "sculpture",
+        "ardoise",
+        "pierre de taille",
+        "corniche",
+        "chaîne d'angle",
+        "travée",
+        "baie"
+      ],
       "dateCapture": "2006:06:12"
     },
     {
@@ -51,6 +93,7 @@
         "lucarne",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:12"
     },
     {
@@ -59,6 +102,7 @@
         "lucarne",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:12"
     },
     {
@@ -68,6 +112,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:12"
     },
     {
@@ -76,6 +121,7 @@
         "cariatide",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:12"
     },
     {
@@ -84,6 +130,7 @@
         "oeil-de-boeuf",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:12"
     }
   ]

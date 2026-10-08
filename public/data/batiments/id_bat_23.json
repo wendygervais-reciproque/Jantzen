@@ -20,14 +20,34 @@
   "WPfr": "Cour carrée",
   "image_ref": "Louvre-1-Ccn-5",
   "terme_jantzen_bat": [
-    "fenetre",
-    "façade",
     "façade-d'angle",
-    "porte",
     "sculpture",
     "pilastre",
+    "fenetre",
+    "façade",
     "fronton",
+    "porte",
     "colonne"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "arcade",
+    "attique",
+    "balustrade",
+    "bandeau",
+    "chapiteau corinthien",
+    "colonne",
+    "corniche",
+    "entablement",
+    "fenêtre",
+    "fronton",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "portique",
+    "sculpture",
+    "travée"
   ],
   "photos": [
     {
@@ -35,6 +55,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:30"
     },
     {
@@ -43,6 +64,7 @@
         "façade",
         "fronton"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:07:19"
     },
     {
@@ -51,6 +73,7 @@
         "fenetre",
         "fronton"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:30"
     },
     {
@@ -59,6 +82,7 @@
         "fronton",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:07:19"
     },
     {
@@ -67,6 +91,7 @@
         "fronton",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:07:19"
     },
     {
@@ -76,6 +101,7 @@
         "façade",
         "pilastre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:30"
     },
     {
@@ -83,12 +109,33 @@
       "IndexJantzen": [
         "façade-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:30"
     },
     {
       "id_pic": "Louvre-1-Ccn-5",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fronton",
+        "arc en plein cintre",
+        "arcade",
+        "colonne",
+        "pilastre",
+        "chapiteau corinthien",
+        "fenêtre",
+        "balustrade",
+        "corniche",
+        "entablement",
+        "bandeau",
+        "sculpture",
+        "pierre de taille",
+        "oculus",
+        "porte",
+        "portique",
+        "attique",
+        "travée"
       ],
       "dateCapture": "2006:07:18"
     },
@@ -98,6 +145,7 @@
         "colonne",
         "porte"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:18"
     },
     {
@@ -105,6 +153,7 @@
       "IndexJantzen": [
         "porte"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:07:19"
     },
     {
@@ -113,6 +162,7 @@
         "colonne",
         "porte"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:18"
     }
   ]

@@ -23,11 +23,31 @@
   "terme_jantzen_bat": [
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "fenêtre",
+    "fer forgé",
+    "heurtoir",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "vantail",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Bac-101_7_§1",
       "IndexJantzen": [
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "vantail",
+        "portail",
+        "fenêtre",
+        "volet",
+        "heurtoir",
+        "fer forgé",
+        "pierre de taille"
       ],
       "dateCapture": "2005:04:17"
     }

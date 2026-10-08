@@ -31,11 +31,33 @@
     "fenetre-d'angle",
     "façade-d'angle"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "fenêtre",
+    "garde-corps",
+    "oriel",
+    "porte",
+    "toit-terrasse",
+    "travée"
+  ],
   "photos": [
     {
       "id_pic": "Raynouard-25_16_§1",
       "IndexJantzen": [
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "toit-terrasse",
+        "bandeau",
+        "balustrade",
+        "oriel",
+        "travée",
+        "porte"
       ],
       "dateCapture": "2005:04:03"
     },
@@ -44,6 +66,7 @@
       "IndexJantzen": [
         "façade-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:03"
     },
     {
@@ -51,6 +74,7 @@
       "IndexJantzen": [
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:03"
     }
   ]

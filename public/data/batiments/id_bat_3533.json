@@ -21,12 +21,30 @@
   "WPfr": null,
   "image_ref": "Charlot-76_3_§1",
   "terme_jantzen_bat": [
+    "clé",
+    "console",
     "fenetre",
     "façade",
     "garde-corps",
-    "console",
-    "clé",
     "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "auvent",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "modillon",
+    "pierre de taille",
+    "pilastre",
+    "porte-fenêtre",
+    "sculpture",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -35,6 +53,24 @@
         "façade",
         "garde-corps"
       ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "porte-fenêtre",
+        "balustrade",
+        "mascaron",
+        "pilastre",
+        "corniche",
+        "bandeau",
+        "travée",
+        "volet",
+        "modillon",
+        "sculpture",
+        "auvent",
+        "pierre de taille"
+      ],
       "dateCapture": "2003:08:01"
     },
     {
@@ -42,6 +78,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:08:01"
     },
     {
@@ -49,6 +86,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:08:01"
     },
     {
@@ -58,6 +96,7 @@
         "console",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:08:01"
     }
   ]

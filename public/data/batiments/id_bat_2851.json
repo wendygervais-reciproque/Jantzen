@@ -34,15 +34,57 @@
   "WPfr": null,
   "image_ref": "Metz-5_10_§1",
   "terme_jantzen_bat": [
-    "lucarne",
+    "façade",
     "fenetre",
-    "façade"
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "modillon",
+    "oriel",
+    "pierre de taille",
+    "pilastre",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Metz-5_10_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "mansarde",
+        "lucarne",
+        "arc en plein cintre",
+        "corniche",
+        "mascaron",
+        "pilastre",
+        "bandeau",
+        "volet",
+        "pierre de taille",
+        "travée",
+        "modillon",
+        "fer forgé",
+        "toit à deux versants",
+        "souche de cheminée",
+        "oriel"
       ],
       "dateCapture": "2008:08:10"
     },
@@ -52,6 +94,7 @@
         "fenetre",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:08:10"
     }
   ]

@@ -28,8 +28,24 @@
   "WPfr": null,
   "image_ref": "Flandrin-28_16_1_§1",
   "terme_jantzen_bat": [
-    "métal",
-    "oriel"
+    "oriel",
+    "métal"
+  ],
+  "terme_torneh_bat": [
+    "baie",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "bossage",
+    "fenêtre",
+    "fer",
+    "fer forgé",
+    "garde-corps",
+    "modillon",
+    "oriel",
+    "pierre de taille",
+    "verrière",
+    "vitrail"
   ],
   "photos": [
     {
@@ -37,6 +53,22 @@
       "IndexJantzen": [
         "métal",
         "oriel"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "baie",
+        "bandeau",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "oriel",
+        "verrière",
+        "vitrail",
+        "pierre de taille",
+        "modillon",
+        "fer",
+        "bossage"
       ],
       "dateCapture": "2011:09:21"
     },
@@ -46,6 +78,7 @@
         "métal",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:09:21"
     }
   ]

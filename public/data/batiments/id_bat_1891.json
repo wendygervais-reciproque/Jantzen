@@ -21,8 +21,18 @@
   "WPfr": null,
   "image_ref": "Conde-26_6_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "garde-corps"
+    "garde-corps",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "corniche",
+    "fer forgé",
+    "garde-corps",
+    "modillon",
+    "porte-fenêtre",
+    "vantail"
   ],
   "photos": [
     {
@@ -30,6 +40,16 @@
       "IndexJantzen": [
         "fenetre",
         "garde-corps"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "porte-fenêtre",
+        "balustrade",
+        "corniche",
+        "modillon",
+        "vantail"
       ],
       "dateCapture": "2003:08:07"
     }

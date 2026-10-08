@@ -22,18 +22,60 @@
   "image_ref": "Pyramides-25_1_§1",
   "terme_jantzen_bat": [
     "toiture",
-    "lucarne",
+    "balcon",
     "façade-d'angle",
     "fenetre-d'angle",
-    "lucarne-d'angle",
+    "lucarne",
+    "fronton",
+    "lucarne-d'angle"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
     "balcon",
-    "fronton"
+    "balustrade",
+    "bandeau",
+    "chapiteau",
+    "chapiteau corinthien",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée"
   ],
   "photos": [
     {
       "id_pic": "Pyramides-25_1_§1",
       "IndexJantzen": [
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "bandeau",
+        "chapiteau",
+        "chapiteau corinthien",
+        "corniche",
+        "fenêtre",
+        "fer forgé",
+        "fronton",
+        "garde-corps",
+        "lucarne",
+        "mansarde",
+        "oculus",
+        "pierre de taille",
+        "souche de cheminée",
+        "toit à deux versants",
+        "travée",
+        "ardoise",
+        "pilastre"
       ],
       "dateCapture": "2007:06:02"
     },
@@ -44,6 +86,7 @@
         "fenetre-d'angle",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:06:02"
     },
     {
@@ -53,6 +96,7 @@
         "lucarne-d'angle",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:06:02"
     }
   ]

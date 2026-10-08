@@ -32,11 +32,59 @@
     "fenetre",
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chapiteau composite",
+    "colonne",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porte-fenêtre",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Champs-Elysees-104_8_§1-Rs",
       "IndexJantzen": [
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "mansarde",
+        "lucarne",
+        "oculus",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fronton",
+        "pilastre",
+        "colonne",
+        "chapiteau composite",
+        "fenêtre",
+        "porte-fenêtre",
+        "souche de cheminée",
+        "ardoise",
+        "corniche",
+        "bandeau",
+        "mascaron",
+        "sculpture",
+        "pierre de taille",
+        "fer forgé",
+        "toit à deux versants",
+        "volet"
       ],
       "dateCapture": "2008:02:12"
     },
@@ -47,6 +95,7 @@
         "lucarne",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:12"
     },
     {
@@ -55,6 +104,7 @@
         "lucarne",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:12"
     },
     {
@@ -62,6 +112,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:12"
     },
     {
@@ -69,6 +120,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:04:01"
     },
     {
@@ -76,6 +128,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:12"
     },
     {
@@ -83,6 +136,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:12"
     },
     {
@@ -90,6 +144,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:04:01"
     }
   ]

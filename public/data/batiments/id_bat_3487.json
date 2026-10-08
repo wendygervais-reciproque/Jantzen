@@ -22,8 +22,16 @@
   "image_ref": "La-Boetie-72_8_§1",
   "terme_jantzen_bat": [
     "oeil-de-boeuf",
-    "lucarne",
-    "dome"
+    "dome",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "dôme",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "souche de cheminée"
   ],
   "photos": [
     {
@@ -32,6 +40,14 @@
         "dome",
         "lucarne",
         "oeil-de-boeuf"
+      ],
+      "IndexTorneh": [
+        "dôme",
+        "oculus",
+        "souche de cheminée",
+        "ardoise",
+        "pierre de taille",
+        "mascaron"
       ],
       "dateCapture": "2008:06:27"
     },
@@ -42,6 +58,7 @@
         "lucarne",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:06:27"
     }
   ]

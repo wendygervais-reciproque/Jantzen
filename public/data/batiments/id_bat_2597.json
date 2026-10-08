@@ -21,9 +21,21 @@
   "WPfr": null,
   "image_ref": "Boissonade-41_14_14",
   "terme_jantzen_bat": [
-    "fenetre",
     "pignon",
-    "verrière"
+    "verrière",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "baie",
+    "bandeau",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -32,6 +44,18 @@
         "fenetre",
         "pignon",
         "verrière"
+      ],
+      "IndexTorneh": [
+        "baie",
+        "fenêtre",
+        "garde-corps",
+        "volet",
+        "ardoise",
+        "bandeau",
+        "travée",
+        "porte-fenêtre",
+        "fer forgé",
+        "souche de cheminée"
       ],
       "dateCapture": "2005:08:30"
     }

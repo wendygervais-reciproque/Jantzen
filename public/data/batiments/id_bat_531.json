@@ -22,8 +22,29 @@
   "image_ref": "Marcadet-112B_18_",
   "terme_jantzen_bat": [
     "oeil-de-boeuf",
-    "lucarne",
-    "fenetre-d'angle"
+    "fenetre-d'angle",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "colonne",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porte-fenêtre",
+    "sculpture",
+    "souche de cheminée",
+    "tour",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -32,6 +53,27 @@
         "fenetre-d'angle",
         "lucarne",
         "oeil-de-boeuf"
+      ],
+      "IndexTorneh": [
+        "balustrade",
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "oculus",
+        "dôme",
+        "ardoise",
+        "souche de cheminée",
+        "pilastre",
+        "colonne",
+        "pierre de taille",
+        "corniche",
+        "mascaron",
+        "sculpture",
+        "tour",
+        "travée",
+        "volet",
+        "porte-fenêtre"
       ],
       "dateCapture": "2003:07:09"
     }

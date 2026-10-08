@@ -21,8 +21,23 @@
   "WPfr": null,
   "image_ref": "Douai-39_9_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "brique"
+    "brique",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mansarde",
+    "oriel",
+    "pierre de taille",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -30,6 +45,21 @@
       "IndexJantzen": [
         "brique",
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "brique",
+        "pierre de taille",
+        "fer forgé",
+        "oriel",
+        "travée",
+        "mansarde",
+        "arc en plein cintre",
+        "bandeau",
+        "volet"
       ],
       "dateCapture": "2013:01:14"
     }

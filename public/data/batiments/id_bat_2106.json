@@ -32,9 +32,23 @@
   "WPfr": null,
   "image_ref": "Fragonard-3_17_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "brique",
-    "balcon"
+    "balcon",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "colonne",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "sculpture",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -42,6 +56,20 @@
       "IndexJantzen": [
         "brique",
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "volet",
+        "brique",
+        "corniche",
+        "travée",
+        "colonne",
+        "bandeau",
+        "fer forgé",
+        "sculpture"
       ],
       "dateCapture": "2004:09:07"
     },
@@ -52,6 +80,7 @@
         "brique",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:07"
     }
   ]

@@ -22,10 +22,28 @@
   "image_ref": "Paul-Albert-2_18_§1",
   "terme_jantzen_bat": [
     "fenetre",
-    "porte-bois",
     "brique",
     "céramique",
+    "porte-bois",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "brique",
+    "chambranle",
+    "corniche",
+    "céramique",
+    "fenêtre",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "modillon",
+    "porte-fenêtre",
+    "vantail",
+    "volet"
   ],
   "photos": [
     {
@@ -34,6 +52,24 @@
         "brique",
         "céramique",
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "porte-fenêtre",
+        "lucarne",
+        "corniche",
+        "modillon",
+        "chambranle",
+        "mansarde",
+        "ardoise",
+        "brique",
+        "volet",
+        "céramique",
+        "mascaron",
+        "vantail"
       ],
       "dateCapture": "2005:04:22"
     },
@@ -44,6 +80,7 @@
         "décor",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:22"
     },
     {
@@ -51,6 +88,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:22"
     }
   ]

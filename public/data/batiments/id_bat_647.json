@@ -29,16 +29,60 @@
   "image_ref": "Tournon-12_6_§1",
   "terme_jantzen_bat": [
     "toiture",
+    "balcon",
     "fenetre",
     "lucarne",
-    "façade",
-    "balcon"
+    "façade"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "cariatide",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "souche de cheminée",
+    "toit à deux versants",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Tournon-12_6_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "corniche",
+        "bandeau",
+        "souche de cheminée",
+        "fronton",
+        "mascaron",
+        "porte",
+        "arc en plein cintre",
+        "lucarne",
+        "mansarde",
+        "pierre de taille",
+        "fer forgé",
+        "volet",
+        "toit à deux versants",
+        "chambranle",
+        "cariatide",
+        "pilastre"
       ],
       "dateCapture": "2006:04:07"
     },
@@ -48,6 +92,7 @@
         "balcon",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:08:31"
     },
     {
@@ -56,6 +101,7 @@
         "fenetre",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:13"
     },
     {
@@ -64,6 +110,7 @@
         "lucarne",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:13"
     }
   ]

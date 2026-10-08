@@ -19,10 +19,31 @@
   "WPfr": null,
   "image_ref": "Louvre-1-Qm_Cn-5",
   "terme_jantzen_bat": [
-    "fenetre",
     "sculpture",
     "fronton",
-    "pilastre"
+    "pilastre",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "attique",
+    "bandeau",
+    "chapiteau corinthien",
+    "chaîne d'angle",
+    "corniche",
+    "entablement",
+    "fenêtre",
+    "fer forgé",
+    "frise",
+    "fronton",
+    "grille",
+    "mascaron",
+    "pierre de taille",
+    "pilastre",
+    "portail",
+    "sculpture",
+    "souche de cheminée"
   ],
   "photos": [
     {
@@ -30,6 +51,27 @@
       "IndexJantzen": [
         "fenetre",
         "fronton"
+      ],
+      "IndexTorneh": [
+        "fronton",
+        "sculpture",
+        "pilastre",
+        "chapiteau corinthien",
+        "fenêtre",
+        "corniche",
+        "entablement",
+        "bandeau",
+        "fer forgé",
+        "arc en plein cintre",
+        "portail",
+        "pierre de taille",
+        "attique",
+        "frise",
+        "mascaron",
+        "ardoise",
+        "souche de cheminée",
+        "grille",
+        "chaîne d'angle"
       ],
       "dateCapture": "2005:06:19"
     },
@@ -40,6 +82,7 @@
         "fronton",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:19"
     },
     {
@@ -49,6 +92,7 @@
         "fronton",
         "pilastre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:19"
     },
     {
@@ -57,6 +101,7 @@
         "fenetre",
         "fronton"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:19"
     }
   ]

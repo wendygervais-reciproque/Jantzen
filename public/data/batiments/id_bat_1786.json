@@ -21,14 +21,36 @@
   "WPfr": null,
   "image_ref": "Raspail-24_7_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "lucarne",
+    "loggia",
+    "dome",
     "façade-d'angle",
     "sculpture",
-    "dome",
-    "loggia",
     "oriel",
+    "fenetre",
+    "lucarne",
     "colonne"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chéneau",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "garde-corps",
+    "lucarne",
+    "mascaron",
+    "oriel",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "souche de cheminée",
+    "toit en pavillon",
+    "tour",
+    "travée",
+    "vitrail",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -36,6 +58,28 @@
       "IndexJantzen": [
         "dome",
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "bandeau",
+        "chéneau",
+        "corniche",
+        "dôme",
+        "fenêtre",
+        "garde-corps",
+        "lucarne",
+        "mascaron",
+        "oriel",
+        "pierre de taille",
+        "porte",
+        "sculpture",
+        "souche de cheminée",
+        "toit en pavillon",
+        "tour",
+        "travée",
+        "vitrail",
+        "épi de faîtage"
       ],
       "dateCapture": "2005:03:20"
     },
@@ -45,6 +89,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:19"
     },
     {
@@ -53,6 +98,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:06"
     },
     {
@@ -61,6 +107,7 @@
         "dome",
         "façade-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:19"
     },
     {
@@ -70,6 +117,7 @@
         "dome",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:03:20"
     },
     {
@@ -78,6 +126,7 @@
         "dome",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:19"
     },
     {
@@ -85,6 +134,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:19"
     },
     {
@@ -92,6 +142,7 @@
       "IndexJantzen": [
         "loggia"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:19"
     },
     {
@@ -99,6 +150,7 @@
       "IndexJantzen": [
         "loggia"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:17"
     },
     {
@@ -106,6 +158,7 @@
       "IndexJantzen": [
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:03:20"
     }
   ]

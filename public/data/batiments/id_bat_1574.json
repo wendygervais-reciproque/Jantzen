@@ -21,17 +21,45 @@
   "WPfr": null,
   "image_ref": "Suisses-des-20_14_§1",
   "terme_jantzen_bat": [
-    "lucarne",
+    "balcon",
     "console",
+    "lucarne",
     "garde-corps",
-    "décor",
-    "balcon"
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "modillon",
+    "pierre de taille",
+    "souche de cheminée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Suisses-des-20_14_§1",
       "IndexJantzen": [
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "lucarne",
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "balustrade",
+        "corniche",
+        "fenêtre",
+        "volet",
+        "souche de cheminée",
+        "modillon",
+        "pierre de taille",
+        "mansarde"
       ],
       "dateCapture": "2005:05:08"
     },
@@ -42,6 +70,7 @@
         "console",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:08"
     },
     {
@@ -50,6 +79,7 @@
         "console",
         "décor"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:08"
     }
   ]

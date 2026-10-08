@@ -37,17 +37,61 @@
   "image_ref": "Louvre-1-Rr_P-Marsan-1",
   "terme_jantzen_bat": [
     "oeil-de-boeuf",
+    "sculpture",
+    "console",
     "lucarne",
     "façade",
-    "console",
-    "sculpture",
     "fronton"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "attique",
+    "avant-corps",
+    "balcon",
+    "balustrade",
+    "chaîne d'angle",
+    "corniche",
+    "entablement",
+    "fenêtre",
+    "frise",
+    "fronton",
+    "garde-corps",
+    "grille",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants"
   ],
   "photos": [
     {
       "id_pic": "Louvre-1-Rr_P-Marsan-1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "fronton",
+        "sculpture",
+        "mascaron",
+        "pilastre",
+        "corniche",
+        "chaîne d'angle",
+        "souche de cheminée",
+        "toit à deux versants",
+        "oculus",
+        "garde-corps",
+        "pierre de taille",
+        "grille",
+        "arc en plein cintre",
+        "attique",
+        "avant-corps",
+        "frise",
+        "entablement"
       ],
       "dateCapture": "2005:08:10"
     },
@@ -58,6 +102,7 @@
         "lucarne",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:10"
     },
     {
@@ -66,6 +111,7 @@
         "oeil-de-boeuf",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:10"
     },
     {
@@ -73,6 +119,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:10"
     },
     {
@@ -80,6 +127,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:10"
     },
     {
@@ -87,6 +135,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:10"
     },
     {
@@ -94,6 +143,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:10"
     },
     {
@@ -102,6 +152,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:10"
     }
   ]

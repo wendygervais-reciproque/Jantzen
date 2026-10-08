@@ -26,12 +26,52 @@
     "toiture",
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "oriel",
+    "pierre de taille",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "volet",
+    "épi de faîtage"
+  ],
   "photos": [
     {
       "id_pic": "Pereire-214-210_17_§1",
       "IndexJantzen": [
         "lucarne",
         "toiture"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "mansarde",
+        "lucarne",
+        "dôme",
+        "souche de cheminée",
+        "garde-corps",
+        "corniche",
+        "bandeau",
+        "pierre de taille",
+        "ardoise",
+        "toit à deux versants",
+        "fer forgé",
+        "épi de faîtage",
+        "travée",
+        "volet",
+        "oriel"
       ],
       "dateCapture": "2006:04:03"
     },
@@ -41,6 +81,7 @@
         "lucarne",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:03"
     }
   ]

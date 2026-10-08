@@ -21,10 +21,28 @@
   "WPfr": null,
   "image_ref": "Cardinet-46_17_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "lucarne",
     "pignon",
-    "verrière"
+    "verrière",
+    "fenetre",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "grille",
+    "modillon",
+    "oculus",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "travée"
   ],
   "photos": [
     {
@@ -32,6 +50,24 @@
       "IndexJantzen": [
         "fenetre",
         "pignon"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "corniche",
+        "modillon",
+        "arc en plein cintre",
+        "oculus",
+        "pierre de taille",
+        "fronton",
+        "ardoise",
+        "porte",
+        "sculpture",
+        "fer forgé",
+        "grille",
+        "travée"
       ],
       "dateCapture": "2006:06:12"
     },
@@ -43,6 +79,7 @@
         "pignon",
         "verrière"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:12"
     }
   ]

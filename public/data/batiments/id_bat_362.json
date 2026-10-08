@@ -28,10 +28,28 @@
   "WPfr": null,
   "image_ref": "Alesia-100_14_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "métal",
+    "oriel",
     "colonne",
-    "oriel"
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "baie",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "oculus",
+    "oriel",
+    "pierre de taille",
+    "sculpture",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -39,6 +57,24 @@
       "IndexJantzen": [
         "fenetre",
         "oriel"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "baie",
+        "oriel",
+        "mascaron",
+        "sculpture",
+        "corniche",
+        "bandeau",
+        "pierre de taille",
+        "volet",
+        "travée",
+        "arc en plein cintre",
+        "oculus"
       ],
       "dateCapture": "2004:03:29"
     },
@@ -49,6 +85,7 @@
         "métal",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:03:29"
     }
   ]

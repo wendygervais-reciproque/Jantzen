@@ -39,12 +39,52 @@
     "pignon",
     "façade-d'angle"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "porte-fenêtre",
+    "sculpture",
+    "souche de cheminée",
+    "toit en pavillon",
+    "tour",
+    "travée"
+  ],
   "photos": [
     {
       "id_pic": "Republique-90b_11_§1",
       "IndexJantzen": [
         "façade-d'angle",
         "pignon"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "porte-fenêtre",
+        "corniche",
+        "bandeau",
+        "mascaron",
+        "souche de cheminée",
+        "toit en pavillon",
+        "oculus",
+        "travée",
+        "sculpture",
+        "fer forgé",
+        "pierre de taille",
+        "brique",
+        "tour",
+        "fronton"
       ],
       "dateCapture": "2004:05:15"
     }

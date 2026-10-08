@@ -44,8 +44,17 @@
   "WPfr": null,
   "image_ref": "St-Roch-Eglise_1_§1",
   "terme_jantzen_bat": [
-    "intérieur",
-    "dome"
+    "dome",
+    "intérieur"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "corniche",
+    "coupole",
+    "oculus",
+    "sculpture",
+    "vitrail",
+    "voûte"
   ],
   "photos": [
     {
@@ -53,6 +62,15 @@
       "IndexJantzen": [
         "dome",
         "intérieur"
+      ],
+      "IndexTorneh": [
+        "coupole",
+        "voûte",
+        "arc",
+        "vitrail",
+        "sculpture",
+        "corniche",
+        "oculus"
       ],
       "dateCapture": null
     }

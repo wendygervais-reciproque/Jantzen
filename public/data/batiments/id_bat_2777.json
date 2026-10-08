@@ -35,12 +35,48 @@
     "fenetre",
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "chambranle",
+    "chapiteau",
+    "fenêtre",
+    "fer forgé",
+    "grille",
+    "heurtoir",
+    "mascaron",
+    "modillon",
+    "pierre de taille",
+    "pilastre",
+    "portail",
+    "porte",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Tour-Maubourg-49_7_§1",
       "IndexJantzen": [
         "fenetre",
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "arc",
+        "arc en plein cintre",
+        "porte",
+        "portail",
+        "vantail",
+        "mascaron",
+        "sculpture",
+        "modillon",
+        "pierre de taille",
+        "fenêtre",
+        "grille",
+        "fer forgé",
+        "heurtoir",
+        "chambranle",
+        "pilastre",
+        "chapiteau"
       ],
       "dateCapture": "2004:04:26"
     }

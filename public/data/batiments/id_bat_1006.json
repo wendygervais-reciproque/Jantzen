@@ -21,10 +21,31 @@
   "WPfr": null,
   "image_ref": "Malaquais-15_6_§1",
   "terme_jantzen_bat": [
-    "porte",
     "façade",
     "balcon",
+    "porte",
     "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "heurtoir",
+    "linteau",
+    "lucarne",
+    "mansarde",
+    "portail",
+    "porte",
+    "toit à deux versants",
+    "vantail"
   ],
   "photos": [
     {
@@ -32,6 +53,27 @@
       "IndexJantzen": [
         "façade",
         "porte"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "porte",
+        "portail",
+        "arc en plein cintre",
+        "arc",
+        "linteau",
+        "chambranle",
+        "lucarne",
+        "mansarde",
+        "toit à deux versants",
+        "ardoise",
+        "vantail",
+        "heurtoir",
+        "bandeau",
+        "corniche"
       ],
       "dateCapture": "2009:05:22"
     },
@@ -41,6 +83,7 @@
         "balcon",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:05:22"
     }
   ]

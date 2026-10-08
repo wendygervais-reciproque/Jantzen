@@ -23,11 +23,37 @@
   "terme_jantzen_bat": [
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "arc en anse de panier",
+    "chambranle",
+    "fer forgé",
+    "heurtoir",
+    "huisserie",
+    "jambage",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "vantail",
+    "vitrail"
+  ],
   "photos": [
     {
       "id_pic": "Cochin-5_5_",
       "IndexJantzen": [
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "vantail",
+        "arc en anse de panier",
+        "chambranle",
+        "sculpture",
+        "pierre de taille",
+        "fer forgé",
+        "vitrail",
+        "heurtoir",
+        "huisserie",
+        "jambage"
       ],
       "dateCapture": "2003:08:10"
     }

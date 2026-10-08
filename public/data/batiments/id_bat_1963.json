@@ -37,17 +37,43 @@
   "image_ref": "Anatole-France-27B_7_§7",
   "terme_jantzen_bat": [
     "toiture",
-    "fenetre",
-    "lucarne",
-    "garde-corps",
-    "façade",
-    "tourelle",
-    "porte",
     "loggia",
-    "céramique",
     "verrière",
     "balcon",
+    "tourelle",
+    "fenetre",
+    "lucarne",
+    "façade",
+    "garde-corps",
+    "porte",
+    "céramique",
     "colonne"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "auvent",
+    "baie",
+    "balcon",
+    "balustrade",
+    "colonne",
+    "corniche",
+    "céramique",
+    "fenêtre",
+    "garde-corps",
+    "grille",
+    "mascaron",
+    "oculus",
+    "oriel",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "sculpture",
+    "souche de cheminée",
+    "toit en pavillon",
+    "travée",
+    "tuile",
+    "volet",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -57,6 +83,7 @@
         "lucarne",
         "tourelle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:06:04"
     },
     {
@@ -65,6 +92,7 @@
         "céramique",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:03"
     },
     {
@@ -73,6 +101,7 @@
         "céramique",
         "loggia"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:06:04"
     },
     {
@@ -81,6 +110,7 @@
         "fenetre",
         "tourelle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:06:04"
     },
     {
@@ -89,6 +119,7 @@
         "fenetre",
         "tourelle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:06:04"
     },
     {
@@ -96,6 +127,7 @@
       "IndexJantzen": [
         "tourelle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:03"
     },
     {
@@ -104,6 +136,7 @@
         "lucarne",
         "tourelle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:18"
     },
     {
@@ -112,6 +145,7 @@
         "lucarne",
         "tourelle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:18"
     },
     {
@@ -120,6 +154,7 @@
         "céramique",
         "loggia"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:03"
     },
     {
@@ -128,6 +163,7 @@
         "céramique",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:03"
     },
     {
@@ -136,6 +172,7 @@
         "lucarne",
         "verrière"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:06:04"
     },
     {
@@ -144,6 +181,7 @@
         "céramique",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:06:04"
     },
     {
@@ -152,6 +190,7 @@
         "céramique",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:06:04"
     },
     {
@@ -161,6 +200,7 @@
         "céramique",
         "loggia"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:06:04"
     },
     {
@@ -170,6 +210,7 @@
         "céramique",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:03"
     },
     {
@@ -179,6 +220,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:03"
     },
     {
@@ -187,6 +229,7 @@
         "céramique",
         "porte"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:03"
     },
     {
@@ -194,6 +237,7 @@
       "IndexJantzen": [
         "céramique"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:06:04"
     },
     {
@@ -201,6 +245,7 @@
       "IndexJantzen": [
         "céramique"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:03"
     },
     {
@@ -208,6 +253,7 @@
       "IndexJantzen": [
         "céramique"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:06:04"
     },
     {
@@ -216,6 +262,7 @@
         "lucarne",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:15"
     },
     {
@@ -224,6 +271,7 @@
         "lucarne",
         "verrière"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2017:06:11"
     },
     {
@@ -232,6 +280,7 @@
         "fenetre",
         "verrière"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2017:06:11"
     },
     {
@@ -240,6 +289,7 @@
         "céramique",
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2017:06:11"
     },
     {
@@ -247,6 +297,32 @@
       "IndexJantzen": [
         "céramique",
         "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "oriel",
+        "fenêtre",
+        "porte",
+        "arc en plein cintre",
+        "colonne",
+        "corniche",
+        "pierre de taille",
+        "céramique",
+        "tuile",
+        "volet",
+        "épi de faîtage",
+        "souche de cheminée",
+        "travée",
+        "oculus",
+        "sculpture",
+        "mascaron",
+        "baie",
+        "portail",
+        "grille",
+        "auvent",
+        "toit en pavillon"
       ],
       "dateCapture": "2006:06:03"
     },
@@ -256,6 +332,7 @@
         "céramique",
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:06:04"
     }
   ]

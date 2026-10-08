@@ -25,11 +25,47 @@
   "terme_jantzen_bat": [
     "fenetre-d'angle"
   ],
+  "terme_torneh_bat": [
+    "arc brisé",
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "brique",
+    "chéneau",
+    "corniche",
+    "fenêtre",
+    "lucarne",
+    "mansarde",
+    "marquise",
+    "sculpture",
+    "souche de cheminée",
+    "tour",
+    "épi de faîtage"
+  ],
   "photos": [
     {
       "id_pic": "Arcade-40_8_§1",
       "IndexJantzen": [
         "fenetre-d'angle"
+      ],
+      "IndexTorneh": [
+        "brique",
+        "fenêtre",
+        "mansarde",
+        "lucarne",
+        "ardoise",
+        "balcon",
+        "balustrade",
+        "sculpture",
+        "épi de faîtage",
+        "arc en plein cintre",
+        "arc brisé",
+        "corniche",
+        "chéneau",
+        "tour",
+        "marquise",
+        "souche de cheminée"
       ],
       "dateCapture": "2010:04:18"
     },
@@ -38,6 +74,7 @@
       "IndexJantzen": [
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:04:18"
     }
   ]

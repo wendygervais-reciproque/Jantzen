@@ -28,18 +28,44 @@
   "WPfr": null,
   "image_ref": "St-Andre-Des-Arts-27_6_§1",
   "terme_jantzen_bat": [
+    "balcon",
+    "clé",
+    "console",
     "fenetre",
     "façade",
-    "console",
+    "garde-corps"
+  ],
+  "terme_torneh_bat": [
+    "arc brisé",
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "chambranle",
+    "fenêtre",
+    "fer forgé",
     "garde-corps",
-    "clé",
-    "balcon"
+    "mascaron",
+    "pierre de taille",
+    "travée"
   ],
   "photos": [
     {
       "id_pic": "St-Andre-Des-Arts-27_6_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "mascaron",
+        "arc en plein cintre",
+        "arc brisé",
+        "pierre de taille",
+        "travée",
+        "fer forgé",
+        "balustrade",
+        "chambranle"
       ],
       "dateCapture": "2003:08:02"
     },
@@ -50,6 +76,7 @@
         "console",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:08:02"
     },
     {
@@ -58,6 +85,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:08:02"
     },
     {
@@ -67,6 +95,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": null
     }
   ]

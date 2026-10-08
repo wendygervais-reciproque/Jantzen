@@ -24,12 +24,44 @@
     "marquise",
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "baie",
+    "balcon",
+    "balustrade",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "marquise",
+    "mascaron",
+    "perron",
+    "pierre de taille",
+    "porte",
+    "vantail",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Tour-Maubourg-20_7_§1",
       "IndexJantzen": [
         "marquise",
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "marquise",
+        "arc en plein cintre",
+        "porte",
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "fer forgé",
+        "pierre de taille",
+        "volet",
+        "perron",
+        "mascaron",
+        "vantail",
+        "baie"
       ],
       "dateCapture": "2004:04:26"
     }

@@ -19,18 +19,65 @@
   "terme_jantzen_bat": [
     "pont"
   ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "arcade",
+    "balustrade",
+    "colonne",
+    "corniche",
+    "coupole",
+    "dôme",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "oculus",
+    "pierre de taille",
+    "sculpture",
+    "souche de cheminée",
+    "toit en pavillon",
+    "toit à deux versants",
+    "tour",
+    "épi de faîtage"
+  ],
   "photos": [
     {
       "id_pic": "La-Seine_§62",
       "IndexJantzen": [
         "pont"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:04:18"
     },
     {
       "id_pic": "La-Seine_§63",
       "IndexJantzen": [
         "pont"
+      ],
+      "IndexTorneh": [
+        "arc",
+        "arc en plein cintre",
+        "pierre de taille",
+        "garde-corps",
+        "dôme",
+        "coupole",
+        "toit à deux versants",
+        "toit en pavillon",
+        "lucarne",
+        "souche de cheminée",
+        "fenêtre",
+        "balustrade",
+        "sculpture",
+        "tour",
+        "oculus",
+        "corniche",
+        "colonne",
+        "arcade",
+        "fronton",
+        "épi de faîtage",
+        "mansarde"
       ],
       "dateCapture": "2010:04:18"
     }

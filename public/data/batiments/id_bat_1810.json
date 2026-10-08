@@ -32,20 +32,46 @@
   "WPfr": null,
   "image_ref": "Faidherbe-24_11_§1",
   "terme_jantzen_bat": [
-    "marquise",
+    "verrière",
+    "mosaique",
+    "porte-fer",
     "fenetre",
     "façade",
-    "porte-fer",
+    "marquise",
     "porte",
-    "mosaique",
-    "verrière",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "baie",
+    "brique",
+    "corniche",
+    "céramique",
+    "fenêtre",
+    "frise",
+    "marquise",
+    "porte",
+    "porte-fenêtre",
+    "toit-terrasse",
+    "travée"
   ],
   "photos": [
     {
       "id_pic": "Faidherbe-24_11_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "baie",
+        "fenêtre",
+        "porte",
+        "marquise",
+        "céramique",
+        "frise",
+        "corniche",
+        "brique",
+        "travée",
+        "toit-terrasse",
+        "porte-fenêtre"
       ],
       "dateCapture": "2007:04:11"
     },
@@ -55,6 +81,7 @@
         "décor",
         "mosaique"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:11"
     },
     {
@@ -64,6 +91,7 @@
         "porte",
         "verrière"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:11"
     },
     {
@@ -73,6 +101,7 @@
         "mosaique",
         "verrière"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:11"
     },
     {
@@ -81,6 +110,7 @@
         "fenetre",
         "mosaique"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:11"
     },
     {
@@ -90,6 +120,7 @@
         "mosaique",
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:11"
     }
   ]

@@ -28,8 +28,28 @@
   "WPfr": "Église Saint-Paul-Saint-Louis",
   "image_ref": "St-Paul-Eglise_4_§1",
   "terme_jantzen_bat": [
-    "voie",
-    "dome"
+    "dome",
+    "voie"
+  ],
+  "terme_torneh_bat": [
+    "acrotère",
+    "ardoise",
+    "balcon",
+    "chapiteau corinthien",
+    "colonne",
+    "corniche",
+    "dôme",
+    "entablement",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -37,6 +57,26 @@
       "IndexJantzen": [
         "dome",
         "voie"
+      ],
+      "IndexTorneh": [
+        "dôme",
+        "fronton",
+        "colonne",
+        "chapiteau corinthien",
+        "pilastre",
+        "sculpture",
+        "oculus",
+        "fenêtre",
+        "souche de cheminée",
+        "corniche",
+        "balcon",
+        "garde-corps",
+        "toit à deux versants",
+        "ardoise",
+        "pierre de taille",
+        "épi de faîtage",
+        "acrotère",
+        "entablement"
       ],
       "dateCapture": "2005:07:03"
     }

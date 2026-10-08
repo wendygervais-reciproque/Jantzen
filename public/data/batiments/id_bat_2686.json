@@ -25,6 +25,22 @@
     "fenetre",
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "chambranle",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "portail",
+    "porte",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Faubourg-St-Honore-44_8_§1",
@@ -32,6 +48,22 @@
         "fenetre",
         "oeil-de-boeuf",
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "portail",
+        "vantail",
+        "arc en plein cintre",
+        "oculus",
+        "sculpture",
+        "pilastre",
+        "balcon",
+        "fenêtre",
+        "garde-corps",
+        "fer forgé",
+        "pierre de taille",
+        "chambranle",
+        "mascaron"
       ],
       "dateCapture": "2006:06:17"
     }

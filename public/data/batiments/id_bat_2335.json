@@ -33,10 +33,32 @@
   "image_ref": "Commerce-36_15_§2",
   "terme_jantzen_bat": [
     "porte-fer",
-    "fenetre",
-    "lucarne",
     "sculpture",
-    "fenetre-d'angle"
+    "fenetre-d'angle",
+    "fenetre",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "sculpture",
+    "souche de cheminée",
+    "tour",
+    "volet"
   ],
   "photos": [
     {
@@ -44,6 +66,28 @@
       "IndexJantzen": [
         "fenetre-d'angle",
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "tour",
+        "dôme",
+        "ardoise",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "lucarne",
+        "mansarde",
+        "souche de cheminée",
+        "volet",
+        "mascaron",
+        "corniche",
+        "bandeau",
+        "pierre de taille",
+        "fer forgé",
+        "arc en plein cintre",
+        "oculus",
+        "fronton",
+        "sculpture"
       ],
       "dateCapture": "2004:09:06"
     },
@@ -53,6 +97,7 @@
         "fenetre-d'angle",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:06"
     },
     {
@@ -61,6 +106,7 @@
         "fenetre",
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:07"
     },
     {
@@ -69,6 +115,7 @@
         "fenetre",
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:18"
     }
   ]

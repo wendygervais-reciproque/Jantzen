@@ -31,11 +31,43 @@
     "colonne",
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "chapiteau",
+    "colonne",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "grille",
+    "gros appareil",
+    "heurtoir",
+    "pierre de taille",
+    "pilastre",
+    "portail",
+    "porte",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Grenelle-127_7_§1",
       "IndexJantzen": [
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "portail",
+        "porte",
+        "arc en plein cintre",
+        "colonne",
+        "pilastre",
+        "chapiteau",
+        "corniche",
+        "fronton",
+        "pierre de taille",
+        "grille",
+        "fenêtre",
+        "heurtoir",
+        "gros appareil",
+        "vantail"
       ],
       "dateCapture": "2006:06:13"
     },
@@ -45,6 +77,7 @@
         "colonne",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:13"
     }
   ]

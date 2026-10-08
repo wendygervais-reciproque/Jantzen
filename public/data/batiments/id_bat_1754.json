@@ -28,8 +28,16 @@
   "WPfr": null,
   "image_ref": "Eugene-Carriere-23_18_§1",
   "terme_jantzen_bat": [
-    "porte-bois",
-    "clé"
+    "clé",
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "vantail"
   ],
   "photos": [
     {
@@ -37,6 +45,14 @@
       "IndexJantzen": [
         "clé",
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "arc",
+        "vantail",
+        "sculpture",
+        "pierre de taille",
+        "mascaron"
       ],
       "dateCapture": "2004:07:27"
     }

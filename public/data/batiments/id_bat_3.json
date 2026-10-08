@@ -20,8 +20,23 @@
   "image_ref": "Invalides-HNO-Cv_§1",
   "terme_jantzen_bat": [
     "toiture",
-    "lucarne-d'angle",
-    "sculpture"
+    "sculpture",
+    "lucarne-d'angle"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "arcade",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "colonne",
+    "corniche",
+    "fronton",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "sculpture",
+    "souche de cheminée"
   ],
   "photos": [
     {
@@ -30,6 +45,21 @@
         "lucarne-d'angle",
         "toiture"
       ],
+      "IndexTorneh": [
+        "arc en plein cintre",
+        "arcade",
+        "balustrade",
+        "corniche",
+        "sculpture",
+        "souche de cheminée",
+        "ardoise",
+        "pierre de taille",
+        "oculus",
+        "colonne",
+        "fronton",
+        "balcon",
+        "mascaron"
+      ],
       "dateCapture": "2010:04:01"
     },
     {
@@ -37,6 +67,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:04"
     },
     {
@@ -44,6 +75,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:04"
     }
   ]

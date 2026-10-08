@@ -24,12 +24,44 @@
     "fenetre",
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "bandeau",
+    "chaîne d'angle",
+    "chéneau",
+    "faîtage",
+    "fenêtre",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "pierre de taille",
+    "souche de cheminée",
+    "tour",
+    "épi de faîtage"
+  ],
   "photos": [
     {
       "id_pic": "Dupuytren-9_6_§1",
       "IndexJantzen": [
         "fenetre",
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "lucarne",
+        "mansarde",
+        "garde-corps",
+        "balcon",
+        "souche de cheminée",
+        "ardoise",
+        "chéneau",
+        "bandeau",
+        "pierre de taille",
+        "épi de faîtage",
+        "faîtage",
+        "tour",
+        "chaîne d'angle"
       ],
       "dateCapture": "2005:08:29"
     }

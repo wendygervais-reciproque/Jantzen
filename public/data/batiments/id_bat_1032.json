@@ -24,12 +24,40 @@
     "sculpture",
     "console"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "corniche",
+    "fenêtre",
+    "frise",
+    "garde-corps",
+    "mascaron",
+    "oriel",
+    "pierre de taille",
+    "sculpture",
+    "vitrail",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Duret-15_16_§1",
       "IndexJantzen": [
         "console",
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "balustrade",
+        "corniche",
+        "mascaron",
+        "sculpture",
+        "pierre de taille",
+        "volet",
+        "oriel",
+        "frise",
+        "vitrail"
       ],
       "dateCapture": "2006:06:30"
     }

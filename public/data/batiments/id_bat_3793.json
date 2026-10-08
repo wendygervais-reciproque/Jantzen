@@ -28,9 +28,24 @@
   "WPfr": null,
   "image_ref": "Chalgrin-9_16_§1",
   "terme_jantzen_bat": [
-    "porte-fer",
+    "garde-corps",
     "fenetre",
-    "garde-corps"
+    "porte-fer"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "mascaron",
+    "modillon",
+    "pierre de taille",
+    "sculpture",
+    "vantail",
+    "volet"
   ],
   "photos": [
     {
@@ -39,6 +54,21 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "fronton",
+        "mascaron",
+        "balustrade",
+        "fer forgé",
+        "corniche",
+        "modillon",
+        "pierre de taille",
+        "sculpture",
+        "volet",
+        "vantail"
+      ],
       "dateCapture": "2004:10:25"
     },
     {
@@ -46,6 +76,7 @@
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:10:26"
     }
   ]

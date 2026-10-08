@@ -28,12 +28,36 @@
   "WPfr": null,
   "image_ref": "Abbe-De-L'epee-20_5_§1",
   "terme_jantzen_bat": [
+    "dome",
+    "façade-d'angle",
     "porte-fer",
     "fenetre",
     "lucarne",
-    "façade-d'angle",
-    "dome",
     "colonne"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chapiteau",
+    "colonne",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "pierre de taille",
+    "pilastre",
+    "sculpture",
+    "souche de cheminée",
+    "travée",
+    "volet",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -41,6 +65,30 @@
       "IndexJantzen": [
         "dome",
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "lucarne",
+        "mansarde",
+        "dôme",
+        "colonne",
+        "pilastre",
+        "chapiteau",
+        "corniche",
+        "fronton",
+        "mascaron",
+        "sculpture",
+        "pierre de taille",
+        "ardoise",
+        "souche de cheminée",
+        "arc en plein cintre",
+        "travée",
+        "bandeau",
+        "épi de faîtage",
+        "volet"
       ],
       "dateCapture": "2005:05:09"
     },
@@ -50,6 +98,7 @@
         "dome",
         "façade-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:09"
     },
     {
@@ -58,6 +107,7 @@
         "fenetre",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:09"
     },
     {
@@ -65,6 +115,7 @@
       "IndexJantzen": [
         "dome"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:23"
     },
     {
@@ -72,6 +123,7 @@
       "IndexJantzen": [
         "dome"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:23"
     },
     {
@@ -79,6 +131,7 @@
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:09"
     },
     {
@@ -87,6 +140,7 @@
         "colonne",
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:09"
     }
   ]

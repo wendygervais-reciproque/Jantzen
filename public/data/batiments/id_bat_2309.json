@@ -22,8 +22,24 @@
   "image_ref": "Universite-35_7_§1-Rs",
   "terme_jantzen_bat": [
     "verrière",
+    "porte-bois",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
     "lucarne",
-    "porte-bois"
+    "mansarde",
+    "oculus",
+    "toit à deux versants",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -32,6 +48,22 @@
         "lucarne",
         "verrière"
       ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "lucarne",
+        "mansarde",
+        "fronton",
+        "corniche",
+        "bandeau",
+        "volet",
+        "ardoise",
+        "toit à deux versants",
+        "travée",
+        "oculus"
+      ],
       "dateCapture": "2009:10:14"
     },
     {
@@ -39,6 +71,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:10:14"
     }
   ]

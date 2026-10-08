@@ -24,12 +24,36 @@
     "sculpture",
     "console"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "modillon",
+    "pierre de taille",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Melingue-6_19_§1",
       "IndexJantzen": [
         "console",
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "modillon",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "volet",
+        "corniche",
+        "pierre de taille",
+        "chaîne d'angle"
       ],
       "dateCapture": "2005:09:02"
     }

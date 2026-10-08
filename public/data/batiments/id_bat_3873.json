@@ -41,11 +41,37 @@
     "clé",
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "arc",
+    "balcon",
+    "chambranle",
+    "fer forgé",
+    "garde-corps",
+    "pierre de taille",
+    "pilastre",
+    "portail",
+    "porte",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Courcelles-bd-92_17_§1",
       "IndexJantzen": [
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "portail",
+        "arc",
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "sculpture",
+        "pierre de taille",
+        "vantail",
+        "chambranle",
+        "pilastre"
       ],
       "dateCapture": "2007:03:28"
     },
@@ -56,6 +82,7 @@
         "porte-bois",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2019:10:01"
     },
     {
@@ -64,6 +91,7 @@
         "clé",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:09"
     },
     {
@@ -71,6 +99,7 @@
       "IndexJantzen": [
         "poignée-porte"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:09"
     }
   ]

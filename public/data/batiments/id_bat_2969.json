@@ -24,8 +24,25 @@
   "image_ref": "Cardinet-53_17_§",
   "terme_jantzen_bat": [
     "sculpture",
-    "décor",
-    "porte-bois"
+    "porte-bois",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "balcon",
+    "bossage",
+    "chambranle",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "grille",
+    "jambage",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "vantail",
+    "volet"
   ],
   "photos": [
     {
@@ -34,6 +51,23 @@
         "décor",
         "porte-bois",
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "vantail",
+        "arc",
+        "mascaron",
+        "sculpture",
+        "fenêtre",
+        "volet",
+        "balcon",
+        "garde-corps",
+        "pierre de taille",
+        "grille",
+        "fer forgé",
+        "chambranle",
+        "bossage",
+        "jambage"
       ],
       "dateCapture": "2006:06:12"
     }

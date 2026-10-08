@@ -10,7 +10,7 @@
     "numero": "15",
     "voie": "place Dauphine"
   },
-  "arrondissement": 4,
+  "arrondissement": 1,
   "tri_alphab": "Dauphine-pl",
   "coordonnees": {
     "latitude": "48.856346",
@@ -23,11 +23,53 @@
   "terme_jantzen_bat": [
     "façade"
   ],
+  "terme_torneh_bat": [
+    "arc en anse de panier",
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "chaîne d'angle",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "pierre de taille",
+    "porte",
+    "soupirail",
+    "travée",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Dauphine-pl-15_4_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "lucarne",
+        "mansarde",
+        "ardoise",
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "chaîne d'angle",
+        "bandeau",
+        "arc en plein cintre",
+        "arc en anse de panier",
+        "brique",
+        "pierre de taille",
+        "travée",
+        "porte",
+        "volet",
+        "fronton",
+        "soupirail",
+        "balustrade"
       ],
       "dateCapture": null
     }

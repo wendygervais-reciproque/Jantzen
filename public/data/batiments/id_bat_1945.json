@@ -25,11 +25,51 @@
     "garde-corps",
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "arcade",
+    "baie",
+    "balcon",
+    "balustrade",
+    "bossage",
+    "chambranle",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "grille",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "vantail",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Bourg-Tibourg-27_4_§1",
       "IndexJantzen": [
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "arc en plein cintre",
+        "arc",
+        "baie",
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "fer forgé",
+        "garde-corps",
+        "grille",
+        "porte",
+        "pierre de taille",
+        "vantail",
+        "volet",
+        "arcade",
+        "chambranle",
+        "bossage",
+        "mascaron",
+        "sculpture"
       ],
       "dateCapture": "2004:09:09"
     },
@@ -38,6 +78,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:09"
     },
     {
@@ -45,6 +86,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:08"
     },
     {
@@ -52,6 +94,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:08"
     },
     {
@@ -60,6 +103,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:08"
     }
   ]

@@ -28,19 +28,75 @@
   "WPfr": null,
   "image_ref": "Pillet-Will-9_9_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "façade",
-    "lucarne",
     "sculpture",
+    "fenetre",
+    "lucarne",
+    "façade",
     "fronton",
-    "décor",
-    "colonne"
+    "colonne",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chapiteau",
+    "chéneau",
+    "colonne",
+    "corniche",
+    "entablement",
+    "fenêtre",
+    "fer forgé",
+    "frise",
+    "fronton",
+    "grille",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "toit à deux versants",
+    "vantail",
+    "épi de faîtage"
   ],
   "photos": [
     {
       "id_pic": "Pillet-Will-9_9_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "colonne",
+        "pilastre",
+        "corniche",
+        "fronton",
+        "mansarde",
+        "lucarne",
+        "arc en plein cintre",
+        "arc",
+        "chapiteau",
+        "entablement",
+        "fer forgé",
+        "grille",
+        "porte",
+        "ardoise",
+        "pierre de taille",
+        "chéneau",
+        "oculus",
+        "mascaron",
+        "frise",
+        "bandeau",
+        "épi de faîtage",
+        "vantail",
+        "toit à deux versants"
       ],
       "dateCapture": "2008:04:17"
     },
@@ -51,6 +107,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:04:17"
     },
     {
@@ -59,6 +116,7 @@
         "colonne",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:04:17"
     },
     {
@@ -67,6 +125,7 @@
         "fronton",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:04:17"
     }
   ]

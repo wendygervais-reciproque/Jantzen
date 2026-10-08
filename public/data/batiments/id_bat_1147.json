@@ -23,11 +23,33 @@
   "terme_jantzen_bat": [
     "fenetre"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "garde-corps",
+    "porte-fenêtre",
+    "travée",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Lamartine-16_9_§1",
       "IndexJantzen": [
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "porte-fenêtre",
+        "balcon",
+        "garde-corps",
+        "arc en plein cintre",
+        "corniche",
+        "bandeau",
+        "travée",
+        "volet"
       ],
       "dateCapture": "2004:06:16"
     },
@@ -36,6 +58,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:06:16"
     }
   ]

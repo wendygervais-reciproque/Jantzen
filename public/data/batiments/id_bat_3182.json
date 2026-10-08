@@ -21,14 +21,38 @@
   "WPfr": null,
   "image_ref": "St-Sulpice-6_6_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "garde-corps"
+    "garde-corps",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "bandeau",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "pierre de taille",
+    "porte-fenêtre"
   ],
   "photos": [
     {
       "id_pic": "St-Sulpice-6_6_§1",
       "IndexJantzen": [
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "porte-fenêtre",
+        "garde-corps",
+        "fer forgé",
+        "balcon",
+        "chaîne d'angle",
+        "pierre de taille",
+        "bandeau",
+        "arc en plein cintre",
+        "corniche"
       ],
       "dateCapture": "2005:04:02"
     },
@@ -38,6 +62,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:02"
     }
   ]

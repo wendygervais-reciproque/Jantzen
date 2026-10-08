@@ -31,12 +31,42 @@
     "sculpture",
     "console"
   ],
+  "terme_torneh_bat": [
+    "arc",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "mascaron",
+    "oriel",
+    "pierre de taille",
+    "sculpture",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Tour-de-la-98_16_§1",
       "IndexJantzen": [
         "console",
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "arc",
+        "balcon",
+        "balustrade",
+        "bandeau",
+        "fenêtre",
+        "fer forgé",
+        "garde-corps",
+        "mascaron",
+        "pierre de taille",
+        "sculpture",
+        "volet",
+        "oriel",
+        "fronton"
       ],
       "dateCapture": "2005:04:30"
     },
@@ -46,6 +76,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:07"
     }
   ]

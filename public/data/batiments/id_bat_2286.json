@@ -23,11 +23,43 @@
   "terme_jantzen_bat": [
     "façade"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chaîne d'angle",
+    "fenêtre",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "pierre de taille",
+    "porte",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Grenier-St-Lazarre-34_3_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "lucarne",
+        "mansarde",
+        "toit à deux versants",
+        "pierre de taille",
+        "bandeau",
+        "chaîne d'angle",
+        "porte",
+        "volet",
+        "souche de cheminée",
+        "travée",
+        "balustrade"
       ],
       "dateCapture": null
     }

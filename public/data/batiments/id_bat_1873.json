@@ -21,10 +21,23 @@
   "WPfr": null,
   "image_ref": "Breteuil-26_7_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "brique",
-    "décor",
-    "oeil-de-boeuf"
+    "oeil-de-boeuf",
+    "fenetre",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "bandeau",
+    "brique",
+    "chambranle",
+    "fenêtre",
+    "frise",
+    "garde-corps",
+    "oculus",
+    "sculpture",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -34,6 +47,19 @@
         "décor",
         "fenetre"
       ],
+      "IndexTorneh": [
+        "fenêtre",
+        "volet",
+        "garde-corps",
+        "oculus",
+        "balcon",
+        "frise",
+        "bandeau",
+        "brique",
+        "sculpture",
+        "chambranle",
+        "travée"
+      ],
       "dateCapture": "2006:04:11"
     },
     {
@@ -42,6 +68,7 @@
         "brique",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:11"
     },
     {
@@ -51,6 +78,7 @@
         "fenetre",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:11"
     },
     {
@@ -60,6 +88,7 @@
         "fenetre",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:11"
     }
   ]

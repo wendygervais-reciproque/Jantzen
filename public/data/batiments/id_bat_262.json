@@ -28,11 +28,35 @@
   "WPfr": null,
   "image_ref": "Rousselet-1_7_§1",
   "terme_jantzen_bat": [
-    "porte-fer",
     "façade-d'angle",
+    "porte-fer",
     "oriel",
     "brique",
     "céramique"
+  ],
+  "terme_torneh_bat": [
+    "auvent",
+    "baie",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "chambranle",
+    "chéneau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "grille",
+    "lucarne",
+    "mansarde",
+    "oriel",
+    "pierre de taille",
+    "porte",
+    "souche de cheminée",
+    "tour",
+    "travée",
+    "vitrail"
   ],
   "photos": [
     {
@@ -42,6 +66,30 @@
         "façade-d'angle",
         "oriel"
       ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "baie",
+        "bandeau",
+        "brique",
+        "chéneau",
+        "fenêtre",
+        "fer forgé",
+        "garde-corps",
+        "grille",
+        "lucarne",
+        "mansarde",
+        "oriel",
+        "pierre de taille",
+        "porte",
+        "souche de cheminée",
+        "tour",
+        "travée",
+        "vitrail",
+        "auvent",
+        "chambranle",
+        "corniche"
+      ],
       "dateCapture": "2005:05:01"
     },
     {
@@ -50,6 +98,7 @@
         "brique",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:01"
     },
     {
@@ -58,6 +107,7 @@
         "céramique",
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:01"
     }
   ]

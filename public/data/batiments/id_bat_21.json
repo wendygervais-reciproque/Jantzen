@@ -34,9 +34,24 @@
   "WPfr": "Cour carrée",
   "image_ref": "Louvre-1-Ccw-2",
   "terme_jantzen_bat": [
-    "intérieur",
     "sculpture",
+    "intérieur",
     "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "arcade",
+    "architrave",
+    "chapiteau corinthien",
+    "colonne",
+    "entablement",
+    "fronton",
+    "pierre de taille",
+    "porche",
+    "porte",
+    "sculpture",
+    "vantail",
+    "voûte"
   ],
   "photos": [
     {
@@ -44,6 +59,21 @@
       "IndexJantzen": [
         "intérieur",
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "arc en plein cintre",
+        "arcade",
+        "architrave",
+        "colonne",
+        "chapiteau corinthien",
+        "entablement",
+        "fronton",
+        "porte",
+        "porche",
+        "pierre de taille",
+        "sculpture",
+        "voûte",
+        "vantail"
       ],
       "dateCapture": "2006:07:18"
     },
@@ -53,6 +83,7 @@
         "intérieur",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:18"
     }
   ]

@@ -22,9 +22,21 @@
   "image_ref": "Francisque-Gay_44_6_§1",
   "terme_jantzen_bat": [
     "sculpture",
-    "fenetre",
     "garde-corps",
+    "fenetre",
     "clé"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "modillon",
+    "pierre de taille"
   ],
   "photos": [
     {
@@ -32,6 +44,18 @@
       "IndexJantzen": [
         "fenetre",
         "garde-corps"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "fer forgé",
+        "mascaron",
+        "chambranle",
+        "corniche",
+        "pierre de taille",
+        "balustrade",
+        "modillon"
       ],
       "dateCapture": "2006:05:03"
     },
@@ -42,6 +66,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:05:03"
     }
   ]

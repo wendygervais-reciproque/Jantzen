@@ -32,11 +32,30 @@
   "WPfr": null,
   "image_ref": "Courcelles-bd-90_17_§1",
   "terme_jantzen_bat": [
+    "sculpture",
+    "clé",
     "fenetre",
     "garde-corps",
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "modillon",
+    "oculus",
+    "pierre de taille",
+    "porte",
+    "porte-fenêtre",
     "sculpture",
-    "porte-bois",
-    "clé"
+    "travée",
+    "vantail",
+    "volet"
   ],
   "photos": [
     {
@@ -44,6 +63,25 @@
       "IndexJantzen": [
         "fenetre",
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "porte",
+        "porte-fenêtre",
+        "arc",
+        "arc en plein cintre",
+        "sculpture",
+        "mascaron",
+        "modillon",
+        "pierre de taille",
+        "volet",
+        "travée",
+        "oculus",
+        "vantail"
       ],
       "dateCapture": "2004:09:02"
     },
@@ -54,6 +92,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:02"
     },
     {
@@ -62,6 +101,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:02"
     },
     {
@@ -70,6 +110,7 @@
         "fenetre",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:03:28"
     }
   ]

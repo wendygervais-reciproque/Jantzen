@@ -23,11 +23,27 @@
   "terme_jantzen_bat": [
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "gros appareil",
+    "heurtoir",
+    "pierre de taille",
+    "porte",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Suger-5_6_§1",
       "IndexJantzen": [
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "arc en plein cintre",
+        "porte",
+        "vantail",
+        "heurtoir",
+        "pierre de taille",
+        "gros appareil"
       ],
       "dateCapture": "2005:05:23"
     }

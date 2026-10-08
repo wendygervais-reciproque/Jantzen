@@ -29,14 +29,33 @@
   "image_ref": "Malaquais-13_6_§1",
   "terme_jantzen_bat": [
     "oeil-de-boeuf",
-    "fenetre",
-    "façade",
-    "lucarne",
-    "panoramique",
+    "verrière",
     "sculpture",
     "intérieur",
-    "verrière",
+    "fenetre",
+    "lucarne",
+    "façade",
+    "panoramique",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "baie",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "frise",
+    "grille",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "sculpture",
+    "travée"
   ],
   "photos": [
     {
@@ -46,6 +65,25 @@
         "oeil-de-boeuf",
         "panoramique"
       ],
+      "IndexTorneh": [
+        "oculus",
+        "arc en plein cintre",
+        "fenêtre",
+        "baie",
+        "corniche",
+        "bandeau",
+        "pilastre",
+        "mascaron",
+        "sculpture",
+        "porte",
+        "grille",
+        "fer forgé",
+        "travée",
+        "pierre de taille",
+        "balustrade",
+        "frise",
+        "arc"
+      ],
       "dateCapture": "2009:08:23"
     },
     {
@@ -54,6 +92,7 @@
         "oeil-de-boeuf",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:05:22"
     },
     {
@@ -61,6 +100,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:05:22"
     },
     {
@@ -68,6 +108,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:05:22"
     },
     {
@@ -75,6 +116,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:05:22"
     },
     {
@@ -82,6 +124,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:05:22"
     },
     {
@@ -89,6 +132,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:05:22"
     },
     {
@@ -96,6 +140,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:05:22"
     },
     {
@@ -104,6 +149,7 @@
         "intérieur",
         "verrière"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2015:10:08"
     },
     {
@@ -114,6 +160,7 @@
         "oeil-de-boeuf",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:05:22"
     },
     {
@@ -123,6 +170,7 @@
         "oeil-de-boeuf",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:05:22"
     },
     {
@@ -131,6 +179,7 @@
         "lucarne",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:05:14"
     },
     {
@@ -139,6 +188,7 @@
         "lucarne",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:05:22"
     },
     {
@@ -146,6 +196,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:05:22"
     },
     {
@@ -154,6 +205,7 @@
         "oeil-de-boeuf",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:05:22"
     },
     {
@@ -162,6 +214,7 @@
         "oeil-de-boeuf",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:05:22"
     },
     {
@@ -170,6 +223,7 @@
         "oeil-de-boeuf",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:05:22"
     }
   ]

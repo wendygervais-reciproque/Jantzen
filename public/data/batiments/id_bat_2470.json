@@ -21,14 +21,52 @@
   "WPfr": null,
   "image_ref": "Auber-4_9_§1",
   "terme_jantzen_bat": [
-    "porte-fer",
-    "façade"
+    "façade",
+    "porte-fer"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "grille",
+    "lucarne",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "toit à deux versants",
+    "vantail"
   ],
   "photos": [
     {
       "id_pic": "Auber-4_9_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "lucarne",
+        "toit à deux versants",
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "arc en plein cintre",
+        "mascaron",
+        "corniche",
+        "bandeau",
+        "chaîne d'angle",
+        "pierre de taille",
+        "porte",
+        "ardoise",
+        "vantail",
+        "grille"
       ],
       "dateCapture": "2004:09:04"
     },
@@ -37,6 +75,7 @@
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:04"
     },
     {
@@ -44,6 +83,7 @@
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:04"
     }
   ]

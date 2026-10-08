@@ -28,13 +28,36 @@
   "WPfr": null,
   "image_ref": "Bouchut-12_15_§1",
   "terme_jantzen_bat": [
+    "oriel",
     "fenetre",
+    "brique",
+    "métal",
     "façade",
     "garde-corps",
-    "métal",
-    "oriel",
-    "brique",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "corniche",
+    "céramique",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "linteau",
+    "lucarne",
+    "mansarde",
+    "oculus",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "toit à deux versants",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -44,6 +67,29 @@
         "décor",
         "façade"
       ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "brique",
+        "pierre de taille",
+        "arc en plein cintre",
+        "linteau",
+        "corniche",
+        "bandeau",
+        "lucarne",
+        "mansarde",
+        "toit à deux versants",
+        "fer forgé",
+        "porte",
+        "portail",
+        "volet",
+        "ardoise",
+        "travée",
+        "oculus",
+        "céramique"
+      ],
       "dateCapture": "2008:03:31"
     },
     {
@@ -52,6 +98,7 @@
         "brique",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:18"
     },
     {
@@ -61,6 +108,7 @@
         "métal",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:18"
     },
     {
@@ -69,6 +117,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:03:31"
     }
   ]

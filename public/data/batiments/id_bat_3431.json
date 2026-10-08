@@ -30,11 +30,29 @@
   "terme_jantzen_bat": [
     "porte-fer"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "fer forgé",
+    "heurtoir",
+    "pierre de taille",
+    "porte",
+    "vantail",
+    "vitrail"
+  ],
   "photos": [
     {
       "id_pic": "Le-Tasse-7_16_0",
       "IndexJantzen": [
         "porte-fer"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "arc en plein cintre",
+        "fer forgé",
+        "vitrail",
+        "pierre de taille",
+        "vantail",
+        "heurtoir"
       ],
       "dateCapture": "2004:03:16"
     }

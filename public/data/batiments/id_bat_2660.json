@@ -32,10 +32,34 @@
   "WPfr": null,
   "image_ref": "Charles-Floquet-44_7_§1",
   "terme_jantzen_bat": [
-    "lucarne-d'angle",
     "porte-fer-hall",
+    "lucarne-d'angle",
     "dome",
     "façade-d'angle"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chapiteau",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "oriel",
+    "pierre de taille",
+    "pilastre",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "tuile",
+    "volet"
   ],
   "photos": [
     {
@@ -44,6 +68,30 @@
         "dome",
         "façade-d'angle"
       ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "lucarne",
+        "souche de cheminée",
+        "dôme",
+        "oculus",
+        "corniche",
+        "bandeau",
+        "pilastre",
+        "chapiteau",
+        "sculpture",
+        "mascaron",
+        "volet",
+        "fer forgé",
+        "pierre de taille",
+        "toit à deux versants",
+        "mansarde",
+        "oriel",
+        "fronton",
+        "tuile"
+      ],
       "dateCapture": "2007:06:20"
     },
     {
@@ -51,6 +99,7 @@
       "IndexJantzen": [
         "lucarne-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:07:04"
     },
     {
@@ -58,6 +107,7 @@
       "IndexJantzen": [
         "lucarne-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:07:04"
     },
     {
@@ -65,6 +115,7 @@
       "IndexJantzen": [
         "lucarne-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:07:04"
     },
     {
@@ -72,6 +123,7 @@
       "IndexJantzen": [
         "porte-fer-hall"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:02"
     }
   ]

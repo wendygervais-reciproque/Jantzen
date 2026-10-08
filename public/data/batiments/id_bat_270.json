@@ -24,12 +24,30 @@
     "sculpture",
     "console"
   ],
+  "terme_torneh_bat": [
+    "arc",
+    "balcon",
+    "balustrade",
+    "fenêtre",
+    "garde-corps",
+    "pierre de taille",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Chatillon-Sq-1_14_§1",
       "IndexJantzen": [
         "console",
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "volet",
+        "pierre de taille",
+        "balustrade",
+        "arc"
       ],
       "dateCapture": "2005:08:31"
     }

@@ -28,17 +28,39 @@
   "WPfr": null,
   "image_ref": "Tournon-20_6_§1",
   "terme_jantzen_bat": [
-    "porte-fer",
     "oeil-de-boeuf",
+    "porte-fer",
     "sculpture",
-    "chimère",
-    "clé"
+    "clé",
+    "chimère"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "chambranle",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "vantail"
   ],
   "photos": [
     {
       "id_pic": "Tournon-20_6_§1",
       "IndexJantzen": [
         "porte-fer"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "vantail",
+        "fer forgé",
+        "balcon",
+        "garde-corps",
+        "sculpture",
+        "mascaron",
+        "pierre de taille",
+        "chambranle"
       ],
       "dateCapture": "2006:06:11"
     },
@@ -49,6 +71,7 @@
         "clé",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:13"
     },
     {
@@ -56,6 +79,7 @@
       "IndexJantzen": [
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:13"
     }
   ]

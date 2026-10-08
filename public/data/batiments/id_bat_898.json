@@ -32,15 +32,31 @@
   "WPfr": null,
   "image_ref": "Bretagne-14_3_§10",
   "terme_jantzen_bat": [
-    "porte-fer",
-    "fenetre",
-    "lucarne",
     "toiture",
-    "sculpture",
-    "fenetre-d'angle",
-    "cariatide",
     "verrière",
+    "porte-fer",
+    "sculpture",
+    "cariatide",
+    "fenetre",
+    "fenetre-d'angle",
+    "lucarne",
     "porte-fer-hall"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "attique",
+    "avant-corps",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "pierre de taille",
+    "sculpture",
+    "travée"
   ],
   "photos": [
     {
@@ -49,6 +65,22 @@
         "fenetre",
         "verrière"
       ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "avant-corps",
+        "bandeau",
+        "corniche",
+        "sculpture",
+        "ardoise",
+        "lucarne",
+        "travée",
+        "attique",
+        "pierre de taille",
+        "fer forgé"
+      ],
       "dateCapture": "2008:02:10"
     },
     {
@@ -56,6 +88,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:22"
     },
     {
@@ -66,6 +99,7 @@
         "porte-fer",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:22"
     },
     {
@@ -73,6 +107,7 @@
       "IndexJantzen": [
         "porte-fer-hall"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:22"
     },
     {
@@ -81,6 +116,7 @@
         "cariatide",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:22"
     },
     {
@@ -88,6 +124,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:10"
     },
     {
@@ -96,6 +133,7 @@
         "cariatide",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:22"
     },
     {
@@ -103,6 +141,7 @@
       "IndexJantzen": [
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:10"
     },
     {
@@ -110,6 +149,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:28"
     },
     {
@@ -117,6 +157,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:10"
     },
     {
@@ -124,6 +165,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:10"
     },
     {
@@ -131,6 +173,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:10"
     },
     {
@@ -138,6 +181,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:28"
     },
     {
@@ -145,6 +189,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:10"
     },
     {
@@ -153,6 +198,7 @@
         "lucarne",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:10"
     },
     {
@@ -160,6 +206,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:10"
     }
   ]

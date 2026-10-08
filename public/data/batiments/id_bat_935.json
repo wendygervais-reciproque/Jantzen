@@ -25,11 +25,39 @@
   "terme_jantzen_bat": [
     "fenetre"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "pierre de taille",
+    "souche de cheminée",
+    "travée",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "St-Ferdinand-14_17_§1_1-Rx",
       "IndexJantzen": [
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "corniche",
+        "bandeau",
+        "lucarne",
+        "souche de cheminée",
+        "volet",
+        "pierre de taille",
+        "travée",
+        "mansarde"
       ],
       "dateCapture": "2013:07:08"
     },
@@ -38,6 +66,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:01"
     }
   ]

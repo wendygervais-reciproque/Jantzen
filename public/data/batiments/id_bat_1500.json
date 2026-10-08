@@ -23,11 +23,33 @@
   "terme_jantzen_bat": [
     "fenetre"
   ],
+  "terme_torneh_bat": [
+    "arc en anse de panier",
+    "balcon",
+    "balustrade",
+    "chambranle",
+    "fenêtre",
+    "garde-corps",
+    "mascaron",
+    "pierre de taille",
+    "porte-fenêtre"
+  ],
   "photos": [
     {
       "id_pic": "Francœur-2_18_§1",
       "IndexJantzen": [
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "arc en anse de panier",
+        "mascaron",
+        "chambranle",
+        "pierre de taille",
+        "balustrade",
+        "porte-fenêtre"
       ],
       "dateCapture": "2003:07:09"
     }

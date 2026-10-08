@@ -29,14 +29,54 @@
   "image_ref": "Ernest-Cresson-8_14_§1",
   "terme_jantzen_bat": [
     "sculpture",
-    "fenetre",
-    "console"
+    "console",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "linteau",
+    "mascaron",
+    "modillon",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "sculpture",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Ernest-Cresson-8_14_§1",
       "IndexJantzen": [
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "arc en plein cintre",
+        "mascaron",
+        "corniche",
+        "pilastre",
+        "travée",
+        "fer forgé",
+        "pierre de taille",
+        "oculus",
+        "porte",
+        "volet",
+        "modillon",
+        "sculpture",
+        "chambranle",
+        "linteau"
       ],
       "dateCapture": "2004:07:28"
     },
@@ -47,6 +87,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:28"
     }
   ]

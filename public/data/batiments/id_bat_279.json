@@ -23,8 +23,31 @@
   "WPfr": null,
   "image_ref": "Fessart-10-8_19_§1",
   "terme_jantzen_bat": [
-    "voie",
-    "façade-d'angle"
+    "façade-d'angle",
+    "voie"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "auvent",
+    "avant-corps",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "chéneau",
+    "corniche",
+    "fenêtre",
+    "garde-corps",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "oriel",
+    "pierre de taille",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "travée",
+    "tuile",
+    "volet"
   ],
   "photos": [
     {
@@ -32,6 +55,29 @@
       "IndexJantzen": [
         "façade-d'angle",
         "voie"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "balustrade",
+        "pierre de taille",
+        "brique",
+        "ardoise",
+        "souche de cheminée",
+        "mansarde",
+        "volet",
+        "porte-fenêtre",
+        "travée",
+        "corniche",
+        "chéneau",
+        "tuile",
+        "mascaron",
+        "avant-corps",
+        "oriel",
+        "oculus",
+        "bandeau",
+        "auvent"
       ],
       "dateCapture": "2005:07:21"
     }

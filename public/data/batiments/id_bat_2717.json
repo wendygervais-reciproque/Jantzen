@@ -28,9 +28,25 @@
   "WPfr": null,
   "image_ref": "St-Roch-45_1_§1",
   "terme_jantzen_bat": [
-    "porte-fer",
+    "atlante",
     "fenetre",
-    "atlante"
+    "porte-fer"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "atlante",
+    "baie",
+    "balcon",
+    "balustrade",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "grille",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "sculpture"
   ],
   "photos": [
     {
@@ -39,6 +55,22 @@
         "atlante",
         "fenetre",
         "porte-fer"
+      ],
+      "IndexTorneh": [
+        "atlante",
+        "sculpture",
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "arc",
+        "baie",
+        "porte",
+        "fenêtre",
+        "mascaron",
+        "pierre de taille",
+        "balustrade",
+        "grille",
+        "fronton"
       ],
       "dateCapture": "2004:09:12"
     }

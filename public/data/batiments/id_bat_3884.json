@@ -21,16 +21,62 @@
   "WPfr": null,
   "image_ref": "Lille-de-93_7_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "façade",
     "sculpture",
+    "fenetre",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "mur-boutant",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "sculpture",
+    "travée",
+    "vitrail",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Lille-de-93_7_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "arc en plein cintre",
+        "balcon",
+        "balustrade",
+        "bandeau",
+        "chambranle",
+        "corniche",
+        "fenêtre",
+        "fronton",
+        "garde-corps",
+        "lucarne",
+        "mascaron",
+        "mansarde",
+        "pierre de taille",
+        "pilastre",
+        "porte",
+        "sculpture",
+        "travée",
+        "mur-boutant",
+        "fer forgé",
+        "volet",
+        "vitrail"
       ],
       "dateCapture": "2005:05:22"
     },
@@ -40,6 +86,7 @@
         "décor",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:22"
     },
     {
@@ -49,6 +96,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:22"
     }
   ]

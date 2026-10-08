@@ -21,10 +21,22 @@
   "WPfr": null,
   "image_ref": "Reculettes-29_13_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "brique",
     "pignon",
+    "fenetre",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "brique",
+    "fenêtre",
+    "garde-corps",
+    "oculus",
+    "oriel",
+    "souche de cheminée",
+    "toit à deux versants"
   ],
   "photos": [
     {
@@ -34,6 +46,18 @@
         "décor",
         "fenetre",
         "pignon"
+      ],
+      "IndexTorneh": [
+        "brique",
+        "souche de cheminée",
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "oriel",
+        "ardoise",
+        "toit à deux versants",
+        "oculus",
+        "balustrade"
       ],
       "dateCapture": "2005:07:17"
     }

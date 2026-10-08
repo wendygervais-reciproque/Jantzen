@@ -21,9 +21,29 @@
   "WPfr": null,
   "image_ref": "Tilsitt-22_17_§2",
   "terme_jantzen_bat": [
-    "fenetre",
+    "pilastre",
     "sculpture",
-    "pilastre"
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "chapiteau corinthien",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "frise",
+    "fronton",
+    "garde-corps",
+    "mansarde",
+    "marquise",
+    "mascaron",
+    "modillon",
+    "pierre de taille",
+    "pilastre",
+    "porte-fenêtre",
+    "sculpture",
+    "volet"
   ],
   "photos": [
     {
@@ -31,6 +51,26 @@
       "IndexJantzen": [
         "fenetre",
         "pilastre"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "corniche",
+        "fronton",
+        "pilastre",
+        "chapiteau corinthien",
+        "fenêtre",
+        "porte-fenêtre",
+        "garde-corps",
+        "mansarde",
+        "fer forgé",
+        "pierre de taille",
+        "volet",
+        "marquise",
+        "modillon",
+        "frise",
+        "sculpture",
+        "mascaron"
       ],
       "dateCapture": "2009:06:11"
     },
@@ -40,6 +80,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:06:11"
     }
   ]

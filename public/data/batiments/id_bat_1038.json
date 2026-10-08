@@ -23,17 +23,42 @@
   "terme_jantzen_bat": [
     "porte-fer"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "grille",
+    "pierre de taille",
+    "pilastre",
+    "portail",
+    "souche de cheminée",
+    "tuile"
+  ],
   "photos": [
     {
       "id_pic": "Hegesippe-Moreau-15_18_§1",
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [
+        "portail",
+        "grille",
+        "fer forgé",
+        "balcon",
+        "pierre de taille",
+        "fenêtre",
+        "souche de cheminée",
+        "tuile",
+        "garde-corps",
+        "pilastre"
+      ],
       "dateCapture": "2004:09:15"
     },
     {
       "id_pic": "Hegesippe-Moreau-15_18_§3",
       "IndexJantzen": [],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:15"
     }
   ]

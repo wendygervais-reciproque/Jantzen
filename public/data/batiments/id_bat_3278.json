@@ -22,14 +22,44 @@
   "image_ref": "Lonchamp-64_16_§1",
   "terme_jantzen_bat": [
     "sculpture",
-    "fenetre",
-    "console"
+    "console",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "attique",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "oriel",
+    "pierre de taille",
+    "pilastre",
+    "porte-fenêtre",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Lonchamp-64_16_§1",
       "IndexJantzen": [
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "pilastre",
+        "corniche",
+        "garde-corps",
+        "pierre de taille",
+        "oriel",
+        "volet",
+        "porte-fenêtre",
+        "bandeau",
+        "attique",
+        "fer forgé"
       ],
       "dateCapture": "2005:04:30"
     },
@@ -39,6 +69,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:30"
     }
   ]

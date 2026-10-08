@@ -33,15 +33,37 @@
   "image_ref": "Hopital-bd-137_13_§1",
   "terme_jantzen_bat": [
     "toiture",
-    "fenetre",
-    "façade",
+    "balcon",
     "pignon",
+    "fenetre",
     "lucarne",
     "brique",
+    "façade",
     "céramique",
-    "décor",
+    "colonne",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
     "balcon",
-    "colonne"
+    "balustrade",
+    "bandeau",
+    "bossage",
+    "brique",
+    "corniche",
+    "céramique",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "oculus",
+    "oriel",
+    "pilastre",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "tuile"
   ],
   "photos": [
     {
@@ -52,6 +74,28 @@
         "façade",
         "toiture"
       ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "garde-corps",
+        "souche de cheminée",
+        "mansarde",
+        "lucarne",
+        "bandeau",
+        "céramique",
+        "brique",
+        "travée",
+        "toit à deux versants",
+        "oriel",
+        "oculus",
+        "fer forgé",
+        "bossage",
+        "pilastre",
+        "ardoise",
+        "tuile",
+        "corniche"
+      ],
       "dateCapture": "2005:06:14"
     },
     {
@@ -61,6 +105,7 @@
         "céramique",
         "pignon"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:14"
     },
     {
@@ -70,6 +115,7 @@
         "céramique",
         "pignon"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:14"
     },
     {
@@ -79,6 +125,7 @@
         "céramique",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:14"
     },
     {
@@ -89,6 +136,7 @@
         "décor",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:14"
     },
     {
@@ -99,6 +147,7 @@
         "décor",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:14"
     },
     {
@@ -109,6 +158,7 @@
         "décor",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:14"
     },
     {
@@ -119,6 +169,7 @@
         "décor",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:14"
     },
     {
@@ -129,6 +180,7 @@
         "décor",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:14"
     },
     {
@@ -139,6 +191,7 @@
         "céramique",
         "décor"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:14"
     },
     {
@@ -150,6 +203,7 @@
         "céramique",
         "décor"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:14"
     }
   ]

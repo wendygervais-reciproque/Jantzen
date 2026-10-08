@@ -36,8 +36,25 @@
   "WPfr": null,
   "image_ref": "Louvre-rue-46_1_§1",
   "terme_jantzen_bat": [
-    "tour",
-    "façade-d'angle"
+    "façade-d'angle",
+    "tour"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "chapiteau",
+    "chapiteau ionique",
+    "colonne",
+    "corniche",
+    "céramique",
+    "fenêtre",
+    "garde-corps",
+    "mascaron",
+    "oculus",
+    "tour"
   ],
   "photos": [
     {
@@ -45,6 +62,23 @@
       "IndexJantzen": [
         "façade-d'angle",
         "tour"
+      ],
+      "IndexTorneh": [
+        "tour",
+        "fenêtre",
+        "arc en plein cintre",
+        "colonne",
+        "chapiteau",
+        "chapiteau ionique",
+        "corniche",
+        "bandeau",
+        "balcon",
+        "garde-corps",
+        "céramique",
+        "brique",
+        "balustrade",
+        "oculus",
+        "mascaron"
       ],
       "dateCapture": "2007:08:25"
     }

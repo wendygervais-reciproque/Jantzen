@@ -28,10 +28,30 @@
   "WPfr": null,
   "image_ref": "Carpeaux-3_18_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "sculpture",
-    "décor",
-    "balcon"
+    "balcon",
+    "fenetre",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "avant-corps",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mascaron",
+    "oriel",
+    "pierre de taille",
+    "pilastre",
+    "porte-fenêtre",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -41,6 +61,26 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "porte-fenêtre",
+        "avant-corps",
+        "mascaron",
+        "corniche",
+        "fronton",
+        "pilastre",
+        "volet",
+        "oriel",
+        "arc en plein cintre",
+        "bandeau",
+        "fer forgé",
+        "lucarne",
+        "pierre de taille",
+        "travée"
+      ],
       "dateCapture": "2004:10:05"
     },
     {
@@ -49,6 +89,7 @@
         "balcon",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:10:05"
     }
   ]

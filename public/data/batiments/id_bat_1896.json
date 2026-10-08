@@ -28,11 +28,33 @@
   "WPfr": null,
   "image_ref": "Renaudes-26_17_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "façade-d'angle",
     "dome",
+    "façade-d'angle",
+    "pilastre",
     "fenetre-d'angle",
-    "pilastre"
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chaîne d'angle",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "grille",
+    "mascaron",
+    "oculus",
+    "oriel",
+    "pierre de taille",
+    "sculpture",
+    "souche de cheminée",
+    "volet",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -43,6 +65,28 @@
         "fenetre",
         "pilastre"
       ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "arc en plein cintre",
+        "dôme",
+        "épi de faîtage",
+        "corniche",
+        "bandeau",
+        "pierre de taille",
+        "sculpture",
+        "mascaron",
+        "volet",
+        "souche de cheminée",
+        "oriel",
+        "fer forgé",
+        "grille",
+        "oculus",
+        "chaîne d'angle",
+        "fronton"
+      ],
       "dateCapture": "2005:03:25"
     },
     {
@@ -51,6 +95,7 @@
         "dome",
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2014:02:18"
     },
     {
@@ -59,6 +104,7 @@
         "dome",
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:03:25"
     },
     {
@@ -67,6 +113,7 @@
         "dome",
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:03:25"
     },
     {
@@ -75,6 +122,7 @@
         "fenetre-d'angle",
         "pilastre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:02"
     }
   ]

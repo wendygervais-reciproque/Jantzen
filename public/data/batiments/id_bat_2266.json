@@ -10,7 +10,7 @@
     "numero": "34",
     "voie": "avenue de l'Opéra"
   },
-  "arrondissement": 1,
+  "arrondissement": 2,
   "tri_alphab": "Opera",
   "coordonnees": {
     "latitude": "48.868662",
@@ -24,12 +24,62 @@
     "façade",
     "balcon"
   ],
+  "terme_torneh_bat": [
+    "auvent",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chapiteau",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "vitrail",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Opera-34_1_§1",
       "IndexJantzen": [
         "balcon",
         "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "lucarne",
+        "mansarde",
+        "souche de cheminée",
+        "toit à deux versants",
+        "corniche",
+        "bandeau",
+        "pilastre",
+        "chapiteau",
+        "fronton",
+        "porte",
+        "porte-fenêtre",
+        "auvent",
+        "mascaron",
+        "travée",
+        "pierre de taille",
+        "chaîne d'angle",
+        "fer forgé",
+        "volet",
+        "vitrail"
       ],
       "dateCapture": null
     }

@@ -23,11 +23,29 @@
   "terme_jantzen_bat": [
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "chambranle",
+    "corniche",
+    "fer forgé",
+    "jambage",
+    "pierre de taille",
+    "porte",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Simon-Bolivar-Av-7_19_§1",
       "IndexJantzen": [
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "vantail",
+        "corniche",
+        "pierre de taille",
+        "fer forgé",
+        "jambage",
+        "chambranle"
       ],
       "dateCapture": "2005:07:21"
     }

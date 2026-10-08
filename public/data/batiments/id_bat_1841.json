@@ -28,8 +28,24 @@
   "WPfr": null,
   "image_ref": "Bourgogne-25_7_§1",
   "terme_jantzen_bat": [
-    "porte-bois",
-    "fronton"
+    "fronton",
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "chambranle",
+    "chapiteau",
+    "fenêtre",
+    "fronton",
+    "heurtoir",
+    "mascaron",
+    "pierre de taille",
+    "pilastre",
+    "portail",
+    "porte",
+    "sculpture",
+    "vantail",
+    "volet"
   ],
   "photos": [
     {
@@ -37,6 +53,22 @@
       "IndexJantzen": [
         "fronton",
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "portail",
+        "arc en plein cintre",
+        "chambranle",
+        "fronton",
+        "sculpture",
+        "mascaron",
+        "pilastre",
+        "chapiteau",
+        "vantail",
+        "pierre de taille",
+        "fenêtre",
+        "volet",
+        "heurtoir"
       ],
       "dateCapture": "2005:05:28"
     }

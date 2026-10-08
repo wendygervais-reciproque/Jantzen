@@ -28,11 +28,29 @@
   "WPfr": null,
   "image_ref": "Caulaincourt-115_18_§1",
   "terme_jantzen_bat": [
-    "lucarne",
-    "console",
-    "sculpture",
     "loggia",
+    "sculpture",
+    "console",
+    "lucarne",
     "colonne"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "attique",
+    "balcon",
+    "balustrade",
+    "colonne",
+    "corniche",
+    "fenêtre",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "pierre de taille",
+    "porte-fenêtre",
+    "toit à deux versants",
+    "volet"
   ],
   "photos": [
     {
@@ -42,6 +60,24 @@
         "loggia",
         "lucarne"
       ],
+      "IndexTorneh": [
+        "mansarde",
+        "lucarne",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "colonne",
+        "arc en plein cintre",
+        "fenêtre",
+        "porte-fenêtre",
+        "ardoise",
+        "pierre de taille",
+        "corniche",
+        "mascaron",
+        "toit à deux versants",
+        "attique",
+        "volet"
+      ],
       "dateCapture": "2006:04:08"
     },
     {
@@ -49,6 +85,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:08"
     },
     {
@@ -57,6 +94,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:08"
     }
   ]

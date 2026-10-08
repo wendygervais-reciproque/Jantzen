@@ -32,12 +32,31 @@
   "WPfr": null,
   "image_ref": "Couronnes-43_20_§1",
   "terme_jantzen_bat": [
+    "balcon",
     "fenetre",
-    "garde-corps",
     "brique",
     "céramique",
-    "décor",
-    "balcon"
+    "garde-corps",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "corniche",
+    "céramique",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "modillon",
+    "oculus",
+    "souche de cheminée",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -46,6 +65,25 @@
         "brique",
         "décor",
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "lucarne",
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "brique",
+        "céramique",
+        "corniche",
+        "oculus",
+        "mansarde",
+        "ardoise",
+        "souche de cheminée",
+        "modillon",
+        "bandeau",
+        "travée",
+        "volet",
+        "balustrade"
       ],
       "dateCapture": "2005:09:19"
     },
@@ -57,6 +95,7 @@
         "décor",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:09:19"
     },
     {
@@ -67,6 +106,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:09:19"
     },
     {
@@ -77,6 +117,7 @@
         "décor",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:09:19"
     }
   ]

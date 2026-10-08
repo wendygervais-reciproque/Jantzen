@@ -31,12 +31,38 @@
     "sculpture",
     "console"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bossage",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "pierre de taille",
+    "sculpture",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Clef-46_5_§1",
       "IndexJantzen": [
         "console",
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "balustrade",
+        "balcon",
+        "corniche",
+        "mascaron",
+        "sculpture",
+        "pierre de taille",
+        "fenêtre",
+        "volet",
+        "garde-corps",
+        "fer forgé",
+        "bossage"
       ],
       "dateCapture": "2005:06:08"
     }

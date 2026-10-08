@@ -22,9 +22,27 @@
   "image_ref": "St-Michel-3_5_§1",
   "terme_jantzen_bat": [
     "toiture",
-    "lucarne",
+    "oeil-de-boeuf",
     "lucarne-d'angle",
-    "oeil-de-boeuf"
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "travée",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -32,6 +50,24 @@
       "IndexJantzen": [
         "lucarne-d'angle",
         "toiture"
+      ],
+      "IndexTorneh": [
+        "dôme",
+        "oculus",
+        "lucarne",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "porte-fenêtre",
+        "pierre de taille",
+        "corniche",
+        "bandeau",
+        "pilastre",
+        "souche de cheminée",
+        "épi de faîtage",
+        "travée"
       ],
       "dateCapture": "2007:08:26"
     },
@@ -41,6 +77,7 @@
         "lucarne-d'angle",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:05:03"
     },
     {
@@ -49,6 +86,7 @@
         "lucarne-d'angle",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:08:26"
     },
     {
@@ -57,6 +95,7 @@
         "lucarne-d'angle",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:05:03"
     },
     {
@@ -65,6 +104,7 @@
         "lucarne",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:05:03"
     }
   ]

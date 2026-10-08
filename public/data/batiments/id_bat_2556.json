@@ -21,8 +21,26 @@
   "WPfr": null,
   "image_ref": "Suffren-40_15_§1",
   "terme_jantzen_bat": [
-    "porte-bois",
-    "colonne"
+    "colonne",
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc en anse de panier",
+    "balcon",
+    "balustrade",
+    "chapiteau composite",
+    "colonne",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "grille",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "sculpture",
+    "vantail"
   ],
   "photos": [
     {
@@ -30,6 +48,24 @@
       "IndexJantzen": [
         "colonne",
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "colonne",
+        "chapiteau composite",
+        "pilastre",
+        "porte",
+        "vantail",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "grille",
+        "fer forgé",
+        "corniche",
+        "arc en anse de panier",
+        "fenêtre",
+        "sculpture",
+        "pierre de taille",
+        "oculus"
       ],
       "dateCapture": "2003:12:15"
     }

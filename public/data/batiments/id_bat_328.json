@@ -23,8 +23,28 @@
   "terme_jantzen_bat": [
     "toiture",
     "fenetre",
+    "porte-bois",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
     "lucarne",
-    "porte-bois"
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "souche de cheminée",
+    "toit à deux versants",
+    "volet"
   ],
   "photos": [
     {
@@ -33,6 +53,26 @@
         "fenetre",
         "lucarne",
         "toiture"
+      ],
+      "IndexTorneh": [
+        "mansarde",
+        "lucarne",
+        "fronton",
+        "souche de cheminée",
+        "ardoise",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "volet",
+        "corniche",
+        "bandeau",
+        "mascaron",
+        "pierre de taille",
+        "toit à deux versants",
+        "oculus",
+        "fer"
       ],
       "dateCapture": "2005:07:21"
     },
@@ -43,6 +83,7 @@
         "lucarne",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:09:02"
     },
     {
@@ -51,6 +92,7 @@
         "fenetre",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:09:02"
     }
   ]

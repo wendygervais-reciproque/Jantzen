@@ -29,8 +29,23 @@
   "image_ref": "President-Wilson-38_16_§2",
   "terme_jantzen_bat": [
     "sculpture",
-    "fenetre",
-    "console"
+    "console",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "modillon",
+    "oculus",
+    "pierre de taille",
+    "sculpture",
+    "volet"
   ],
   "photos": [
     {
@@ -38,6 +53,21 @@
       "IndexJantzen": [
         "console",
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "corniche",
+        "fenêtre",
+        "fer forgé",
+        "garde-corps",
+        "mascaron",
+        "modillon",
+        "pierre de taille",
+        "sculpture",
+        "volet",
+        "arc en plein cintre",
+        "oculus"
       ],
       "dateCapture": "2006:06:30"
     },
@@ -47,6 +77,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:30"
     }
   ]

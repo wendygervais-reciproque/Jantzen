@@ -32,25 +32,51 @@
   "WPfr": null,
   "image_ref": "Brunel-23_17_§1-Rx",
   "terme_jantzen_bat": [
+    "balcon",
     "porte-fer",
-    "fenetre",
-    "lucarne",
-    "console",
     "tourelle",
     "sculpture",
-    "porte-fer-hall",
     "clé",
+    "console",
+    "fenetre",
     "fenetre-d'angle",
+    "lucarne",
     "brique",
+    "porte-fer-hall",
     "lucarne-d'angle",
-    "décor",
+    "colonne",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
     "balcon",
-    "colonne"
+    "balustrade",
+    "bandeau",
+    "brique",
+    "colonne",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "volet",
+    "épi de faîtage"
   ],
   "photos": [
     {
       "id_pic": "Brunel-23_17_§10",
       "IndexJantzen": [],
+      "IndexTorneh": [],
       "dateCapture": "2012:03:26"
     },
     {
@@ -60,6 +86,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:01:21"
     },
     {
@@ -69,6 +96,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:01:21"
     },
     {
@@ -77,6 +105,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:02:03"
     },
     {
@@ -85,6 +114,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:01:21"
     },
     {
@@ -93,6 +123,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:02:03"
     },
     {
@@ -100,6 +131,7 @@
       "IndexJantzen": [
         "porte-fer-hall"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:18"
     },
     {
@@ -108,12 +140,38 @@
         "clé",
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:06:02"
     },
     {
       "id_pic": "Brunel-23_17_§1-Rx",
       "IndexJantzen": [
         "fenetre-d'angle"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "lucarne",
+        "mansarde",
+        "dôme",
+        "épi de faîtage",
+        "souche de cheminée",
+        "corniche",
+        "bandeau",
+        "sculpture",
+        "mascaron",
+        "pilastre",
+        "colonne",
+        "ardoise",
+        "brique",
+        "pierre de taille",
+        "volet",
+        "fer forgé",
+        "toit à deux versants",
+        "oculus",
+        "fronton"
       ],
       "dateCapture": "2011:06:02"
     },
@@ -122,6 +180,7 @@
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:06:02"
     },
     {
@@ -130,6 +189,7 @@
         "clé",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:08:26"
     },
     {
@@ -137,6 +197,7 @@
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:06:02"
     },
     {
@@ -144,6 +205,7 @@
       "IndexJantzen": [
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:06:02"
     },
     {
@@ -154,6 +216,7 @@
         "lucarne-d'angle",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:06:02"
     },
     {
@@ -162,6 +225,7 @@
         "balcon",
         "brique"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:06:02"
     },
     {
@@ -170,6 +234,7 @@
         "fenetre",
         "tourelle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:06:02"
     },
     {
@@ -182,6 +247,7 @@
         "sculpture",
         "tourelle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:03:26"
     },
     {
@@ -193,6 +259,7 @@
         "sculpture",
         "tourelle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:06:02"
     },
     {
@@ -201,6 +268,7 @@
         "colonne",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:06:02"
     },
     {
@@ -209,6 +277,7 @@
         "brique",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:06:02"
     },
     {
@@ -217,6 +286,7 @@
         "brique",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:06:02"
     }
   ]

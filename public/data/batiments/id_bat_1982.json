@@ -25,12 +25,58 @@
     "fenetre",
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "baie",
+    "balcon",
+    "colonne",
+    "corniche",
+    "entablement",
+    "fenêtre",
+    "fer forgé",
+    "frise",
+    "garde-corps",
+    "grille",
+    "jambage",
+    "linteau",
+    "perron",
+    "pierre de taille",
+    "porche",
+    "portail",
+    "porte",
+    "vantail",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Pier-Lescot-28_1_§1",
       "IndexJantzen": [
         "fenetre",
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "arc en plein cintre",
+        "arc",
+        "baie",
+        "balcon",
+        "colonne",
+        "corniche",
+        "entablement",
+        "fenêtre",
+        "fer forgé",
+        "frise",
+        "garde-corps",
+        "grille",
+        "jambage",
+        "linteau",
+        "pierre de taille",
+        "porche",
+        "porte",
+        "portail",
+        "vantail",
+        "volet",
+        "perron"
       ],
       "dateCapture": "2004:09:01"
     },
@@ -39,6 +85,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:21"
     },
     {
@@ -47,6 +94,7 @@
         "fenetre",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:07:29"
     },
     {
@@ -55,6 +103,7 @@
         "colonne",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:07:29"
     }
   ]

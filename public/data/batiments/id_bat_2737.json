@@ -36,13 +36,39 @@
   "WPfr": null,
   "image_ref": "St-Andre-Des-Arts-46_6_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "façade",
-    "garde-corps",
+    "colonne",
+    "balcon",
     "sculpture",
     "clé",
+    "fenetre",
+    "façade",
+    "garde-corps"
+  ],
+  "terme_torneh_bat": [
+    "auvent",
     "balcon",
-    "colonne"
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "chapiteau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "jambage",
+    "linteau",
+    "mansarde",
+    "marquise",
+    "mascaron",
+    "oriel",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "porte-fenêtre",
+    "sculpture",
+    "toit en pavillon",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -50,6 +76,32 @@
       "IndexJantzen": [
         "balcon",
         "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "porte",
+        "porte-fenêtre",
+        "volet",
+        "corniche",
+        "bandeau",
+        "pilastre",
+        "mascaron",
+        "sculpture",
+        "chapiteau",
+        "fer forgé",
+        "pierre de taille",
+        "travée",
+        "linteau",
+        "chambranle",
+        "auvent",
+        "mansarde",
+        "toit en pavillon",
+        "marquise",
+        "oriel",
+        "jambage"
       ],
       "dateCapture": "2006:06:11"
     },
@@ -60,6 +112,7 @@
         "garde-corps",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:11"
     },
     {
@@ -69,6 +122,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:11"
     },
     {
@@ -77,6 +131,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:11"
     },
     {
@@ -86,6 +141,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:11"
     },
     {
@@ -95,6 +151,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:11"
     }
   ]

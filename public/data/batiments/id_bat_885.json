@@ -23,10 +23,26 @@
   "WPfr": null,
   "image_ref": "Megisserie-qu-14_1_§1",
   "terme_jantzen_bat": [
+    "sculpture",
     "fenetre",
     "cariatide",
-    "sculpture",
     "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "cariatide",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "modillon",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "vantail",
+    "volet"
   ],
   "photos": [
     {
@@ -36,6 +52,22 @@
         "porte-bois",
         "sculpture"
       ],
+      "IndexTorneh": [
+        "cariatide",
+        "arc en plein cintre",
+        "porte",
+        "vantail",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "corniche",
+        "modillon",
+        "pierre de taille",
+        "sculpture",
+        "volet"
+      ],
       "dateCapture": "2018:06:30"
     },
     {
@@ -44,6 +76,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:11"
     }
   ]

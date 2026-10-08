@@ -32,17 +32,51 @@
   "WPfr": null,
   "image_ref": "Benjamin-Franklin-25b_16_§1",
   "terme_jantzen_bat": [
+    "mosaique",
+    "oriel",
     "fenetre",
     "façade",
+    "garde-corps"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "céramique",
+    "fenêtre",
+    "fer forgé",
     "garde-corps",
-    "mosaique",
-    "oriel"
+    "oriel",
+    "pierre de taille",
+    "porte",
+    "souche de cheminée",
+    "toit à deux versants",
+    "toit-terrasse",
+    "travée",
+    "vitrail",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Benjamin-Franklin-25b_16_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "balustrade",
+        "volet",
+        "toit-terrasse",
+        "souche de cheminée",
+        "céramique",
+        "pierre de taille",
+        "travée",
+        "oriel",
+        "porte",
+        "vitrail",
+        "toit à deux versants",
+        "fer forgé"
       ],
       "dateCapture": null
     },
@@ -52,6 +86,7 @@
         "fenetre",
         "mosaique"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:03"
     },
     {
@@ -60,6 +95,7 @@
         "fenetre",
         "mosaique"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:03"
     },
     {
@@ -69,6 +105,7 @@
         "garde-corps",
         "mosaique"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:03:16"
     },
     {
@@ -79,6 +116,7 @@
         "mosaique",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:03:16"
     },
     {
@@ -87,6 +125,7 @@
         "fenetre",
         "mosaique"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:03:16"
     }
   ]

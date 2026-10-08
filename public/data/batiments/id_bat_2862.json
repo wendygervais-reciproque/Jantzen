@@ -21,9 +21,23 @@
   "WPfr": null,
   "image_ref": "Pont-de-Lodi-5_6_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "garde-corps",
-    "balcon"
+    "balcon",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "modillon",
+    "pierre de taille"
   ],
   "photos": [
     {
@@ -31,6 +45,20 @@
       "IndexJantzen": [
         "balcon",
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "arc en plein cintre",
+        "corniche",
+        "balustrade",
+        "pierre de taille",
+        "modillon",
+        "lucarne",
+        "mansarde",
+        "bandeau",
+        "chaîne d'angle"
       ],
       "dateCapture": "2005:05:23"
     },
@@ -40,6 +68,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:23"
     }
   ]

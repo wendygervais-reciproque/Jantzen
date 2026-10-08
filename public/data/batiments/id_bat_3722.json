@@ -28,10 +28,23 @@
   "WPfr": null,
   "image_ref": "La-Fontaine-85_16_§1",
   "terme_jantzen_bat": [
-    "porte-fer",
-    "fenetre",
+    "loggia",
     "colonne",
-    "loggia"
+    "fenetre",
+    "porte-fer"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "oculus",
+    "pierre de taille",
+    "souche de cheminée",
+    "toit-terrasse",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -39,6 +52,19 @@
       "IndexJantzen": [
         "fenetre",
         "loggia"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "balustrade",
+        "fer forgé",
+        "toit-terrasse",
+        "souche de cheminée",
+        "pierre de taille",
+        "travée",
+        "volet",
+        "oculus"
       ],
       "dateCapture": "2009:03:31"
     },
@@ -48,6 +74,7 @@
         "colonne",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:03:31"
     },
     {
@@ -55,6 +82,7 @@
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:03:31"
     },
     {
@@ -62,6 +90,7 @@
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:03:31"
     }
   ]

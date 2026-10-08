@@ -28,11 +28,31 @@
   "WPfr": null,
   "image_ref": "Faisanderie-44_16_§1",
   "terme_jantzen_bat": [
-    "tourelle",
+    "balcon",
     "façade-d'angle",
+    "tourelle",
     "sculpture",
-    "fenetre-d'angle",
-    "balcon"
+    "fenetre-d'angle"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "mansarde",
+    "mascaron",
+    "oriel",
+    "pierre de taille",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "tuile",
+    "volet"
   ],
   "photos": [
     {
@@ -40,6 +60,26 @@
       "IndexJantzen": [
         "façade-d'angle",
         "tourelle"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "volet",
+        "corniche",
+        "mascaron",
+        "souche de cheminée",
+        "toit à deux versants",
+        "fronton",
+        "mansarde",
+        "pierre de taille",
+        "fer forgé",
+        "bandeau",
+        "sculpture",
+        "oriel",
+        "brique",
+        "tuile"
       ],
       "dateCapture": "2004:05:21"
     },
@@ -50,6 +90,7 @@
         "fenetre-d'angle",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:05:21"
     }
   ]

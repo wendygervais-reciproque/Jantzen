@@ -22,8 +22,23 @@
   "image_ref": "Tournefort-16_5_§1",
   "terme_jantzen_bat": [
     "fenetre",
+    "porte-bois",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "bandeau",
+    "bossage",
+    "corniche",
+    "fenêtre",
+    "garde-corps",
+    "gros appareil",
     "lucarne",
-    "porte-bois"
+    "mascaron",
+    "mur-boutant",
+    "portail",
+    "toit à deux versants"
   ],
   "photos": [
     {
@@ -32,6 +47,21 @@
         "fenetre",
         "lucarne"
       ],
+      "IndexTorneh": [
+        "arc en plein cintre",
+        "bossage",
+        "corniche",
+        "fenêtre",
+        "garde-corps",
+        "gros appareil",
+        "lucarne",
+        "mascaron",
+        "mur-boutant",
+        "portail",
+        "toit à deux versants",
+        "ardoise",
+        "bandeau"
+      ],
       "dateCapture": "2005:08:29"
     },
     {
@@ -39,6 +69,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:29"
     }
   ]

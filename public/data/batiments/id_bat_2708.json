@@ -22,10 +22,33 @@
   "image_ref": "Courcelles-45_8_2_DxO-8",
   "terme_jantzen_bat": [
     "toiture",
+    "balcon",
     "façade-d'angle",
     "dome",
-    "lucarne-d'angle",
-    "balcon"
+    "lucarne-d'angle"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chapiteau",
+    "chaîne d'angle",
+    "colonne",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "souche de cheminée",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -36,6 +59,7 @@
         "lucarne-d'angle",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:02"
     },
     {
@@ -43,6 +67,29 @@
       "IndexJantzen": [
         "dome",
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "dôme",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "pilastre",
+        "chapiteau",
+        "corniche",
+        "fronton",
+        "mascaron",
+        "souche de cheminée",
+        "lucarne",
+        "ardoise",
+        "pierre de taille",
+        "colonne",
+        "arc en plein cintre",
+        "épi de faîtage",
+        "oculus",
+        "bandeau",
+        "porte",
+        "chaîne d'angle"
       ],
       "dateCapture": "2009:05:23"
     }

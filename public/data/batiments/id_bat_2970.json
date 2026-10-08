@@ -29,13 +29,34 @@
   "image_ref": "Boulanvilliers-53_16_§1",
   "terme_jantzen_bat": [
     "oeil-de-boeuf",
-    "lucarne",
-    "pignon",
-    "façade-d'angle",
     "dome",
+    "façade-d'angle",
+    "balcon",
+    "pignon",
     "fenetre-d'angle",
-    "lucarne-d'angle",
-    "balcon"
+    "lucarne",
+    "lucarne-d'angle"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chaîne d'angle",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "porte",
+    "souche de cheminée",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -43,6 +64,27 @@
       "IndexJantzen": [
         "dome",
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "bandeau",
+        "chaîne d'angle",
+        "corniche",
+        "dôme",
+        "fenêtre",
+        "garde-corps",
+        "mascaron",
+        "mansarde",
+        "pierre de taille",
+        "porte",
+        "souche de cheminée",
+        "travée",
+        "fer forgé",
+        "oculus",
+        "ardoise",
+        "volet",
+        "arc en plein cintre"
       ],
       "dateCapture": "2005:05:10"
     },
@@ -53,6 +95,7 @@
         "façade-d'angle",
         "pignon"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:10"
     },
     {
@@ -63,6 +106,7 @@
         "fenetre-d'angle",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:10"
     },
     {
@@ -73,6 +117,7 @@
         "fenetre-d'angle",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:03:15"
     },
     {
@@ -82,6 +127,7 @@
         "lucarne-d'angle",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:10"
     }
   ]

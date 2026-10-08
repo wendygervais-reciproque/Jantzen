@@ -23,14 +23,38 @@
   "WPfr": null,
   "image_ref": "Fenelon-9_10_§1",
   "terme_jantzen_bat": [
+    "pilastre",
+    "clé",
     "fenetre",
     "façade",
-    "garde-corps",
-    "clé",
-    "pilastre",
-    "porte-bois",
     "céramique",
+    "garde-corps",
+    "porte-bois",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chapiteau",
+    "corniche",
+    "céramique",
+    "fenêtre",
+    "fer forgé",
+    "frise",
+    "garde-corps",
+    "grille",
+    "mascaron",
+    "oculus",
+    "pilastre",
+    "porte",
+    "porte-fenêtre",
+    "sculpture",
+    "travée",
+    "verrière",
+    "vitrail",
+    "volet"
   ],
   "photos": [
     {
@@ -38,6 +62,30 @@
       "IndexJantzen": [
         "céramique",
         "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "garde-corps",
+        "mascaron",
+        "pilastre",
+        "chapiteau",
+        "porte",
+        "porte-fenêtre",
+        "volet",
+        "fer forgé",
+        "céramique",
+        "corniche",
+        "bandeau",
+        "arc en plein cintre",
+        "verrière",
+        "frise",
+        "sculpture",
+        "travée",
+        "oculus",
+        "grille",
+        "vitrail"
       ],
       "dateCapture": "2004:09:23"
     },
@@ -49,6 +97,7 @@
         "fenetre",
         "pilastre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:23"
     },
     {
@@ -59,6 +108,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:23"
     },
     {
@@ -67,6 +117,7 @@
         "décor",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:07:11"
     },
     {
@@ -75,6 +126,7 @@
         "clé",
         "décor"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:07:11"
     },
     {
@@ -82,6 +134,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:24"
     }
   ]

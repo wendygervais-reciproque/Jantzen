@@ -26,12 +26,42 @@
     "colonne",
     "panoramique"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "architrave",
+    "attique",
+    "bandeau",
+    "chapiteau ionique",
+    "colonne",
+    "corniche",
+    "entablement",
+    "fronton",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "sculpture"
+  ],
   "photos": [
     {
       "id_pic": "Grenelle-59_7_§1",
       "IndexJantzen": [
         "façade",
         "panoramique"
+      ],
+      "IndexTorneh": [
+        "fronton",
+        "chapiteau ionique",
+        "colonne",
+        "pilastre",
+        "corniche",
+        "sculpture",
+        "arc en plein cintre",
+        "porte",
+        "pierre de taille",
+        "attique",
+        "entablement",
+        "architrave",
+        "bandeau"
       ],
       "dateCapture": "2007:06:13"
     },
@@ -41,6 +71,7 @@
         "façade",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:06:13"
     },
     {
@@ -49,6 +80,7 @@
         "colonne",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:06:13"
     },
     {
@@ -57,6 +89,7 @@
         "colonne",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:06:13"
     },
     {
@@ -64,6 +97,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:06:13"
     },
     {
@@ -71,6 +105,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:06:13"
     },
     {
@@ -78,6 +113,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:06:13"
     }
   ]

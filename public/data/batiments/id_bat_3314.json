@@ -23,17 +23,44 @@
   "terme_jantzen_bat": [
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "corniche",
+    "fenêtre",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "toit à deux versants",
+    "tuile"
+  ],
   "photos": [
     {
       "id_pic": "Tournelle-qu-67_5_§1",
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [
+        "fenêtre",
+        "lucarne",
+        "mansarde",
+        "souche de cheminée",
+        "garde-corps",
+        "corniche",
+        "balcon",
+        "toit à deux versants",
+        "ardoise",
+        "porte-fenêtre",
+        "tuile"
+      ],
       "dateCapture": "2009:09:27"
     },
     {
       "id_pic": "Tournelle-qu-67_5_§2",
       "IndexJantzen": [],
+      "IndexTorneh": [],
       "dateCapture": "2009:09:27"
     }
   ]

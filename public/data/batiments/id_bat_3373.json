@@ -21,12 +21,35 @@
   "WPfr": null,
   "image_ref": "Champs-Elysees-rond-pt-7_8_§1",
   "terme_jantzen_bat": [
-    "porte-fer",
     "toiture",
+    "porte-fer",
+    "sculpture",
     "lucarne",
     "façade",
-    "sculpture",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "frise",
+    "fronton",
+    "garde-corps",
+    "grille",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "pierre de taille",
+    "portail",
+    "sculpture",
+    "souche de cheminée",
+    "volet",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -35,6 +58,29 @@
         "façade",
         "porte-fer"
       ],
+      "IndexTorneh": [
+        "mansarde",
+        "lucarne",
+        "fenêtre",
+        "souche de cheminée",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "grille",
+        "fer forgé",
+        "portail",
+        "pierre de taille",
+        "sculpture",
+        "mascaron",
+        "fronton",
+        "ardoise",
+        "épi de faîtage",
+        "corniche",
+        "bandeau",
+        "frise",
+        "arc en plein cintre",
+        "volet"
+      ],
       "dateCapture": "2009:06:14"
     },
     {
@@ -42,6 +88,7 @@
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:06:14"
     },
     {
@@ -51,6 +98,7 @@
         "lucarne",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:06:14"
     },
     {
@@ -59,6 +107,7 @@
         "lucarne",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:06:14"
     },
     {
@@ -66,6 +115,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:06:14"
     },
     {
@@ -74,6 +124,7 @@
         "lucarne",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:06:14"
     }
   ]

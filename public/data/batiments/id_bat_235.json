@@ -23,11 +23,25 @@
   "terme_jantzen_bat": [
     "porte-fer"
   ],
+  "terme_torneh_bat": [
+    "brique",
+    "fer forgé",
+    "pierre de taille",
+    "portail",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "General-Appert-1_16_§1",
       "IndexJantzen": [
         "porte-fer"
+      ],
+      "IndexTorneh": [
+        "portail",
+        "fer forgé",
+        "brique",
+        "pierre de taille",
+        "vantail"
       ],
       "dateCapture": "2004:05:21"
     }

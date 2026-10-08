@@ -60,10 +60,25 @@
   "WPfr": "Palais Bourbon",
   "image_ref": "Assemblee-Nationale_7_§1_DxP",
   "terme_jantzen_bat": [
-    "colonne",
     "façade",
     "sculpture",
+    "colonne",
     "fronton"
+  ],
+  "terme_torneh_bat": [
+    "acrotère",
+    "architrave",
+    "attique",
+    "chapiteau corinthien",
+    "colonne",
+    "entablement",
+    "frise",
+    "fronton",
+    "perron",
+    "pierre de taille",
+    "porte",
+    "portique",
+    "sculpture"
   ],
   "photos": [
     {
@@ -71,6 +86,21 @@
       "IndexJantzen": [
         "façade",
         "fronton"
+      ],
+      "IndexTorneh": [
+        "fronton",
+        "colonne",
+        "chapiteau corinthien",
+        "entablement",
+        "architrave",
+        "frise",
+        "sculpture",
+        "portique",
+        "porte",
+        "perron",
+        "pierre de taille",
+        "attique",
+        "acrotère"
       ],
       "dateCapture": "2010:06:04"
     },
@@ -81,6 +111,7 @@
         "façade",
         "fronton"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:06:04"
     },
     {
@@ -89,6 +120,7 @@
         "fronton",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:06:04"
     },
     {
@@ -97,6 +129,7 @@
         "fronton",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:06:04"
     },
     {
@@ -105,6 +138,7 @@
         "fronton",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:06:04"
     },
     {
@@ -112,6 +146,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:06:04"
     }
   ]

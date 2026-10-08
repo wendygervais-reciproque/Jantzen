@@ -28,16 +28,44 @@
   "WPfr": null,
   "image_ref": "Cardinet-27_17_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "sculpture",
-    "décor",
-    "garde-corps"
+    "garde-corps",
+    "fenetre",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "frise",
+    "garde-corps",
+    "oriel",
+    "pierre de taille",
+    "sculpture",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Cardinet-27_17_§1",
       "IndexJantzen": [
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "volet",
+        "fer forgé",
+        "pierre de taille",
+        "sculpture",
+        "bandeau",
+        "corniche",
+        "frise",
+        "oriel",
+        "travée"
       ],
       "dateCapture": "2003:07:09"
     },
@@ -48,6 +76,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:07:09"
     },
     {
@@ -57,6 +86,7 @@
         "garde-corps",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:07:09"
     },
     {
@@ -65,6 +95,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:12"
     }
   ]

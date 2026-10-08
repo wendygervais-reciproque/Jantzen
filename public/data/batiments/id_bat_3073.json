@@ -33,18 +33,72 @@
   "image_ref": "Raymond-Poincarre-59_16_§1",
   "terme_jantzen_bat": [
     "toiture",
-    "fenetre",
-    "façade",
-    "console",
-    "lucarne",
     "sculpture",
+    "console",
+    "fenetre",
+    "lucarne",
+    "façade",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "chaîne d'angle",
+    "faîtage",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "grille",
+    "lucarne",
+    "mansarde",
+    "oculus",
+    "pierre de taille",
+    "porche",
+    "portail",
+    "porte-fenêtre",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "vantail",
+    "volet",
+    "épi de faîtage"
   ],
   "photos": [
     {
       "id_pic": "Raymond-Poincarre-59_16_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "lucarne",
+        "mansarde",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "porte-fenêtre",
+        "arc",
+        "arc en plein cintre",
+        "oculus",
+        "sculpture",
+        "pierre de taille",
+        "ardoise",
+        "toit à deux versants",
+        "souche de cheminée",
+        "épi de faîtage",
+        "faîtage",
+        "porche",
+        "portail",
+        "fer forgé",
+        "chaîne d'angle",
+        "travée",
+        "vantail",
+        "volet",
+        "grille"
       ],
       "dateCapture": "2008:05:08"
     },
@@ -54,6 +108,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:08"
     },
     {
@@ -62,6 +117,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:08"
     },
     {
@@ -70,6 +126,7 @@
         "fenetre",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:08"
     },
     {
@@ -80,6 +137,7 @@
         "sculpture",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:08"
     },
     {
@@ -87,6 +145,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:08"
     },
     {
@@ -94,6 +153,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:08"
     },
     {
@@ -101,6 +161,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:08"
     },
     {
@@ -110,6 +171,7 @@
         "lucarne",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:08"
     }
   ]

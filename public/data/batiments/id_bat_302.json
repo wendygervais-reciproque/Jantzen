@@ -21,10 +21,29 @@
   "WPfr": null,
   "image_ref": "Alfred-de-Vigny-10_8_§1",
   "terme_jantzen_bat": [
-    "porte",
     "façade",
-    "porte-fer",
-    "marquise"
+    "marquise",
+    "porte",
+    "porte-fer"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "attique",
+    "auvent",
+    "avant-corps",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "grille",
+    "marquise",
+    "pierre de taille",
+    "porte",
+    "souche de cheminée",
+    "vitrail"
   ],
   "photos": [
     {
@@ -32,6 +51,25 @@
       "IndexJantzen": [
         "façade",
         "porte"
+      ],
+      "IndexTorneh": [
+        "balustrade",
+        "balcon",
+        "fenêtre",
+        "porte",
+        "arc en plein cintre",
+        "chaîne d'angle",
+        "corniche",
+        "bandeau",
+        "auvent",
+        "marquise",
+        "fer forgé",
+        "souche de cheminée",
+        "pierre de taille",
+        "grille",
+        "vitrail",
+        "attique",
+        "avant-corps"
       ],
       "dateCapture": "2008:04:17"
     },
@@ -41,6 +79,7 @@
         "marquise",
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:04:17"
     },
     {
@@ -49,6 +88,7 @@
         "marquise",
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:04:17"
     }
   ]

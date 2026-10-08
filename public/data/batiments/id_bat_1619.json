@@ -21,9 +21,23 @@
   "WPfr": null,
   "image_ref": "Breche-Aux-Loups-21_12_§1",
   "terme_jantzen_bat": [
-    "sculpture",
     "brique",
+    "sculpture",
     "console"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "balcon",
+    "balustrade",
+    "brique",
+    "chaîne d'angle",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "grille",
+    "oriel",
+    "porte-fenêtre",
+    "volet"
   ],
   "photos": [
     {
@@ -32,6 +46,20 @@
         "brique",
         "console",
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "arc",
+        "balcon",
+        "balustrade",
+        "brique",
+        "chaîne d'angle",
+        "fenêtre",
+        "fer forgé",
+        "garde-corps",
+        "grille",
+        "porte-fenêtre",
+        "volet",
+        "oriel"
       ],
       "dateCapture": "2005:07:13"
     }

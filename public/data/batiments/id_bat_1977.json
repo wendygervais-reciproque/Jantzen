@@ -24,11 +24,37 @@
     "façade",
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "pierre de taille",
+    "porte",
+    "travée"
+  ],
   "photos": [
     {
       "id_pic": "Bievre-28_5_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "lucarne",
+        "mansarde",
+        "pierre de taille",
+        "arc en plein cintre",
+        "porte",
+        "travée",
+        "balustrade"
       ],
       "dateCapture": "2009:09:27"
     },
@@ -37,6 +63,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:09:27"
     }
   ]

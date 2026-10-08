@@ -33,8 +33,25 @@
   "image_ref": "Malesherbes-106_17_§1",
   "terme_jantzen_bat": [
     "brique",
+    "fronton",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "acrotère",
+    "ardoise",
+    "brique",
+    "chapiteau",
+    "chéneau",
+    "corniche",
+    "faîtage",
+    "fenêtre",
+    "frise",
+    "fronton",
     "lucarne",
-    "fronton"
+    "pierre de taille",
+    "pilastre",
+    "souche de cheminée",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -43,6 +60,23 @@
         "brique",
         "fronton",
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "lucarne",
+        "souche de cheminée",
+        "épi de faîtage",
+        "ardoise",
+        "brique",
+        "pierre de taille",
+        "fronton",
+        "corniche",
+        "frise",
+        "fenêtre",
+        "pilastre",
+        "acrotère",
+        "chapiteau",
+        "faîtage",
+        "chéneau"
       ],
       "dateCapture": "2006:01:25"
     },
@@ -53,6 +87,7 @@
         "fronton",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:01:25"
     }
   ]

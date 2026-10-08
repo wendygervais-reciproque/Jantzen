@@ -24,11 +24,35 @@
     "façade",
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "bandeau",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "grille",
+    "pierre de taille",
+    "travée"
+  ],
   "photos": [
     {
       "id_pic": "Roule-15_1_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "pierre de taille",
+        "corniche",
+        "bandeau",
+        "travée",
+        "chaîne d'angle",
+        "grille"
       ],
       "dateCapture": "2004:09:12"
     },
@@ -37,6 +61,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:12"
     }
   ]

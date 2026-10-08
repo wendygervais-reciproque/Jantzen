@@ -22,16 +22,50 @@
   "image_ref": "Londres-8_9_§1",
   "terme_jantzen_bat": [
     "oeil-de-boeuf",
-    "lucarne",
     "sculpture",
     "clé",
+    "lucarne",
     "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "ardoise",
+    "attique",
+    "chapiteau",
+    "corniche",
+    "fer forgé",
+    "fronton",
+    "mascaron",
+    "pierre de taille",
+    "pilastre",
+    "portail",
+    "porte",
+    "sculpture",
+    "vantail"
   ],
   "photos": [
     {
       "id_pic": "Londres-8_9_§1",
       "IndexJantzen": [
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "portail",
+        "vantail",
+        "arc en plein cintre",
+        "arc",
+        "pilastre",
+        "chapiteau",
+        "sculpture",
+        "mascaron",
+        "fronton",
+        "pierre de taille",
+        "ardoise",
+        "fer forgé",
+        "corniche",
+        "attique"
       ],
       "dateCapture": "2005:05:27"
     },
@@ -41,6 +75,7 @@
         "clé",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:27"
     },
     {
@@ -49,6 +84,7 @@
         "lucarne",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:27"
     }
   ]

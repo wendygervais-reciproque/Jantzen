@@ -22,9 +22,22 @@
   "image_ref": "Brune-201_14_§1",
   "terme_jantzen_bat": [
     "sculpture",
-    "fenetre",
     "garde-corps",
+    "fenetre",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "brique",
+    "fenêtre",
+    "fer forgé",
+    "frise",
+    "garde-corps",
+    "mascaron",
+    "porte-fenêtre",
+    "sculpture",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -32,6 +45,19 @@
       "IndexJantzen": [
         "décor",
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "garde-corps",
+        "balcon",
+        "brique",
+        "frise",
+        "sculpture",
+        "mascaron",
+        "porte-fenêtre",
+        "volet",
+        "travée",
+        "fer forgé"
       ],
       "dateCapture": "2005:03:21"
     },
@@ -43,6 +69,7 @@
         "garde-corps",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:03:21"
     }
   ]

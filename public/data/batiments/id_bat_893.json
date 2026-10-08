@@ -23,11 +23,49 @@
   "terme_jantzen_bat": [
     "fenetre"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "chapiteau corinthien",
+    "colonne",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "grille",
+    "pierre de taille",
+    "pilastre",
+    "porche",
+    "portail",
+    "porte-fenêtre",
+    "sculpture",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Commines-14_3_§1",
       "IndexJantzen": [
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "fronton",
+        "colonne",
+        "chapiteau corinthien",
+        "balustrade",
+        "porte-fenêtre",
+        "fenêtre",
+        "volet",
+        "arc en plein cintre",
+        "portail",
+        "porche",
+        "sculpture",
+        "pierre de taille",
+        "corniche",
+        "balcon",
+        "garde-corps",
+        "grille",
+        "pilastre"
       ],
       "dateCapture": "2004:09:21"
     },
@@ -36,6 +74,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:21"
     }
   ]

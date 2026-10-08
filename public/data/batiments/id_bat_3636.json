@@ -31,11 +31,41 @@
     "fenetre-d'angle",
     "façade-d'angle"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "chaîne d'angle",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "frise",
+    "garde-corps",
+    "oculus",
+    "oriel",
+    "pierre de taille",
+    "souche de cheminée",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Duguay-Trouin-8_6_§1",
       "IndexJantzen": [
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "dôme",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "oriel",
+        "corniche",
+        "pierre de taille",
+        "chaîne d'angle",
+        "volet",
+        "souche de cheminée",
+        "frise",
+        "oculus"
       ],
       "dateCapture": "2005:05:01"
     },
@@ -44,6 +74,7 @@
       "IndexJantzen": [
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:01"
     }
   ]

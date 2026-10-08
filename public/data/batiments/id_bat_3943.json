@@ -29,17 +29,59 @@
   "image_ref": "Lamarck-99b_18_§1",
   "terme_jantzen_bat": [
     "porte-fer",
+    "clé",
     "fenetre",
     "lucarne",
     "façade",
-    "clé",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "avant-corps",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mascaron",
+    "oculus",
+    "oriel",
+    "pierre de taille",
+    "sculpture",
+    "souche de cheminée",
+    "travée",
+    "volet",
+    "épi de faîtage"
   ],
   "photos": [
     {
       "id_pic": "Lamarck-99b_18_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "garde-corps",
+        "fer forgé",
+        "pierre de taille",
+        "sculpture",
+        "mascaron",
+        "lucarne",
+        "oriel",
+        "volet",
+        "souche de cheminée",
+        "ardoise",
+        "oculus",
+        "épi de faîtage",
+        "avant-corps",
+        "travée",
+        "bandeau",
+        "corniche"
       ],
       "dateCapture": "2004:07:27"
     },
@@ -48,6 +90,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:27"
     },
     {
@@ -56,6 +99,7 @@
         "décor",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:09"
     },
     {
@@ -65,6 +109,7 @@
         "fenetre",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:09"
     },
     {
@@ -72,6 +117,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:09"
     },
     {
@@ -80,6 +126,7 @@
         "décor",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:09"
     },
     {
@@ -88,6 +135,7 @@
         "clé",
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:28"
     }
   ]

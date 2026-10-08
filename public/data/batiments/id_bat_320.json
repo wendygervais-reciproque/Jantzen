@@ -28,8 +28,22 @@
   "WPfr": null,
   "image_ref": "Tournon-10_6_§1",
   "terme_jantzen_bat": [
-    "porte-bois",
-    "colonne"
+    "colonne",
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "colonne",
+    "corniche",
+    "entablement",
+    "fronton",
+    "heurtoir",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "portique",
+    "sculpture",
+    "vantail"
   ],
   "photos": [
     {
@@ -37,6 +51,20 @@
       "IndexJantzen": [
         "colonne",
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "colonne",
+        "arc en plein cintre",
+        "porte",
+        "vantail",
+        "pilastre",
+        "corniche",
+        "entablement",
+        "pierre de taille",
+        "fronton",
+        "sculpture",
+        "heurtoir",
+        "portique"
       ],
       "dateCapture": "2006:05:11"
     }

@@ -21,16 +21,44 @@
   "WPfr": null,
   "image_ref": "Charonne-158_11_§1",
   "terme_jantzen_bat": [
-    "fenetre",
+    "brique",
     "console",
-    "décor",
-    "brique"
+    "fenetre",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "mascaron",
+    "pierre de taille",
+    "porte-fenêtre",
+    "travée"
   ],
   "photos": [
     {
       "id_pic": "Charonne-158_11_§1",
       "IndexJantzen": [
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "fronton",
+        "corniche",
+        "bandeau",
+        "travée",
+        "mascaron",
+        "pierre de taille",
+        "fer forgé",
+        "porte-fenêtre",
+        "balustrade"
       ],
       "dateCapture": "2004:09:16"
     },
@@ -39,6 +67,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:16"
     },
     {
@@ -47,6 +76,7 @@
         "brique",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:06:06"
     },
     {
@@ -57,6 +87,7 @@
         "décor",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:06:06"
     }
   ]

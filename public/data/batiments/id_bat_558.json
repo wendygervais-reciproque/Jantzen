@@ -29,13 +29,34 @@
   "image_ref": "Pereire-116_17_§1",
   "terme_jantzen_bat": [
     "toiture",
-    "fenetre",
-    "lucarne",
-    "console",
     "oeil-de-boeuf",
     "porte-fer",
-    "chimère",
-    "sculpture"
+    "sculpture",
+    "console",
+    "fenetre",
+    "lucarne",
+    "chimère"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "oriel",
+    "pierre de taille",
+    "pilastre",
+    "sculpture",
+    "souche de cheminée",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -44,6 +65,27 @@
         "fenetre",
         "lucarne",
         "toiture"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "lucarne",
+        "mansarde",
+        "oculus",
+        "souche de cheminée",
+        "garde-corps",
+        "fer forgé",
+        "ardoise",
+        "pierre de taille",
+        "fronton",
+        "mascaron",
+        "sculpture",
+        "volet",
+        "pilastre",
+        "corniche",
+        "oriel",
+        "travée"
       ],
       "dateCapture": "2012:04:22"
     },
@@ -54,6 +96,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:07:01"
     },
     {
@@ -63,6 +106,7 @@
         "lucarne",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:04:22"
     },
     {
@@ -72,6 +116,7 @@
         "lucarne",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:03:15"
     },
     {
@@ -80,6 +125,7 @@
         "fenetre",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:04:22"
     },
     {
@@ -88,6 +134,7 @@
         "lucarne",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:03:15"
     },
     {
@@ -96,6 +143,7 @@
         "fenetre",
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:03:15"
     },
     {
@@ -104,6 +152,7 @@
         "console",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:03:15"
     },
     {
@@ -112,6 +161,7 @@
         "chimère",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:04:22"
     },
     {
@@ -120,6 +170,7 @@
         "chimère",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:03:15"
     }
   ]

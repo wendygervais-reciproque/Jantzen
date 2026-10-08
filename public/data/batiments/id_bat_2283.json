@@ -21,9 +21,21 @@
   "WPfr": null,
   "image_ref": "Plantes-34_14_§1",
   "terme_jantzen_bat": [
-    "sculpture",
     "chimère",
+    "sculpture",
     "console"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "modillon",
+    "pierre de taille",
+    "sculpture",
+    "volet"
   ],
   "photos": [
     {
@@ -32,6 +44,18 @@
         "chimère",
         "console",
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "corniche",
+        "modillon",
+        "sculpture",
+        "fenêtre",
+        "volet",
+        "pierre de taille"
       ],
       "dateCapture": "2005:08:31"
     },
@@ -42,6 +66,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:31"
     }
   ]

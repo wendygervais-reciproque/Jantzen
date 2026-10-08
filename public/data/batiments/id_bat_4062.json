@@ -24,12 +24,56 @@
     "façade",
     "voie"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "coupole",
+    "dôme",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "grille",
+    "lucarne",
+    "mansarde",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "portail",
+    "porte",
+    "souche de cheminée",
+    "toit à deux versants",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Jardins-St-Paul_4_§1",
       "IndexJantzen": [
         "façade",
         "voie"
+      ],
+      "IndexTorneh": [
+        "dôme",
+        "coupole",
+        "ardoise",
+        "fenêtre",
+        "lucarne",
+        "balcon",
+        "garde-corps",
+        "souche de cheminée",
+        "toit à deux versants",
+        "fronton",
+        "portail",
+        "grille",
+        "mansarde",
+        "pierre de taille",
+        "oculus",
+        "volet",
+        "balustrade",
+        "porte",
+        "pilastre",
+        "arc en plein cintre"
       ],
       "dateCapture": "2008:07:10"
     },
@@ -38,6 +82,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:07:10"
     }
   ]

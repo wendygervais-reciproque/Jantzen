@@ -34,8 +34,27 @@
   "terme_jantzen_bat": [
     "façade",
     "sculpture",
-    "décor",
-    "clé"
+    "clé",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "arcade",
+    "balcon",
+    "chapiteau",
+    "colonne",
+    "corniche",
+    "coupole",
+    "dôme",
+    "entablement",
+    "fenêtre",
+    "frise",
+    "fronton",
+    "pilastre",
+    "sculpture",
+    "toit à deux versants",
+    "édicule",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -44,6 +63,25 @@
         "décor",
         "façade",
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "arc en plein cintre",
+        "arcade",
+        "entablement",
+        "fronton",
+        "pilastre",
+        "chapiteau",
+        "corniche",
+        "frise",
+        "sculpture",
+        "coupole",
+        "dôme",
+        "épi de faîtage",
+        "colonne",
+        "fenêtre",
+        "balcon",
+        "toit à deux versants",
+        "édicule"
       ],
       "dateCapture": "2010:06:05"
     },
@@ -54,6 +92,7 @@
         "façade",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:03:31"
     },
     {
@@ -61,6 +100,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:03:31"
     },
     {
@@ -68,6 +108,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:03:31"
     },
     {
@@ -77,6 +118,7 @@
         "façade",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:06:05"
     },
     {
@@ -84,6 +126,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:06:05"
     },
     {
@@ -91,6 +134,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:06:05"
     },
     {
@@ -98,6 +142,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:06:05"
     },
     {
@@ -105,6 +150,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:28"
     },
     {
@@ -112,6 +158,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:28"
     },
     {
@@ -119,6 +166,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:28"
     },
     {
@@ -128,6 +176,7 @@
         "façade",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:06:05"
     },
     {
@@ -135,6 +184,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:28"
     },
     {
@@ -142,6 +192,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:28"
     },
     {
@@ -150,6 +201,7 @@
         "clé",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:28"
     },
     {
@@ -157,6 +209,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:28"
     },
     {
@@ -166,6 +219,7 @@
         "façade",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:06:05"
     },
     {
@@ -173,6 +227,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:06:05"
     },
     {
@@ -180,6 +235,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:06:05"
     },
     {
@@ -187,6 +243,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:06:05"
     },
     {
@@ -196,6 +253,7 @@
         "façade",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:03:31"
     },
     {
@@ -203,6 +261,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:03:31"
     },
     {
@@ -210,6 +269,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:03:31"
     }
   ]

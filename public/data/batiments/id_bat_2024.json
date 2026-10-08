@@ -32,8 +32,25 @@
   "WPfr": null,
   "image_ref": "Gustave-Zede-2b_16_§1",
   "terme_jantzen_bat": [
-    "porte-fer",
-    "fenetre"
+    "fenetre",
+    "porte-fer"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bossage",
+    "chambranle",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "linteau",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "porte-fenêtre",
+    "vantail"
   ],
   "photos": [
     {
@@ -41,6 +58,23 @@
       "IndexJantzen": [
         "fenetre",
         "porte-fer"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "porte-fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "arc",
+        "arc en plein cintre",
+        "fenêtre",
+        "mascaron",
+        "chambranle",
+        "linteau",
+        "pierre de taille",
+        "bossage",
+        "vantail"
       ],
       "dateCapture": "2005:05:10"
     }

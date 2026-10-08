@@ -21,14 +21,48 @@
   "WPfr": null,
   "image_ref": "Varenne-4_7_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "façade"
+    "façade",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "pierre de taille",
+    "souche de cheminée",
+    "travée",
+    "vantail",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Varenne-4_7_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "arc en plein cintre",
+        "arc",
+        "pierre de taille",
+        "souche de cheminée",
+        "ardoise",
+        "mansarde",
+        "lucarne",
+        "volet",
+        "travée",
+        "balustrade",
+        "vantail",
+        "fer forgé"
       ],
       "dateCapture": "2005:05:28"
     },
@@ -37,6 +71,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:28"
     },
     {
@@ -44,6 +79,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:28"
     }
   ]

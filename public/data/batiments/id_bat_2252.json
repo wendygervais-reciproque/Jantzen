@@ -25,11 +25,39 @@
     "clé",
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "arc",
+    "balcon",
+    "balustrade",
+    "chambranle",
+    "fenêtre",
+    "grille",
+    "mascaron",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Universite-33_7_§1-Rs",
       "IndexJantzen": [
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "portail",
+        "arc",
+        "mascaron",
+        "sculpture",
+        "balustrade",
+        "balcon",
+        "fenêtre",
+        "grille",
+        "pierre de taille",
+        "chambranle",
+        "vantail"
       ],
       "dateCapture": "2009:10:14"
     },
@@ -39,6 +67,7 @@
         "clé",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:10:14"
     },
     {
@@ -47,6 +76,7 @@
         "clé",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:10:14"
     }
   ]

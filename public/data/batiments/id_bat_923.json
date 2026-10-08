@@ -28,9 +28,16 @@
   "WPfr": null,
   "image_ref": "Desbordes-Valmore-14_16_§1",
   "terme_jantzen_bat": [
-    "sculpture",
     "chimère",
-    "clé"
+    "clé",
+    "sculpture"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "mascaron",
+    "pierre de taille",
+    "sculpture",
+    "vitrail"
   ],
   "photos": [
     {
@@ -39,6 +46,13 @@
         "chimère",
         "clé",
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "mascaron",
+        "arc en plein cintre",
+        "sculpture",
+        "pierre de taille",
+        "vitrail"
       ],
       "dateCapture": "2005:06:07"
     }

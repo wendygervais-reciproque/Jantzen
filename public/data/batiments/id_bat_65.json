@@ -19,11 +19,30 @@
   "WPfr": "Église Saint-Gervais-Saint-Protais de Paris",
   "image_ref": "St-Gervais_4_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "pignon",
-    "porte-bois",
+    "fenetre",
     "fronton",
-    "colonne"
+    "colonne",
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "acrotère",
+    "arc en plein cintre",
+    "attique",
+    "balustrade",
+    "chapiteau corinthien",
+    "chapiteau ionique",
+    "colonne",
+    "corniche",
+    "entablement",
+    "fenêtre",
+    "fronton",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "sculpture",
+    "travée",
+    "vitrail"
   ],
   "photos": [
     {
@@ -31,6 +50,25 @@
       "IndexJantzen": [
         "fenetre",
         "pignon"
+      ],
+      "IndexTorneh": [
+        "colonne",
+        "chapiteau corinthien",
+        "chapiteau ionique",
+        "pilastre",
+        "fronton",
+        "corniche",
+        "entablement",
+        "balustrade",
+        "oculus",
+        "fenêtre",
+        "vitrail",
+        "sculpture",
+        "pierre de taille",
+        "arc en plein cintre",
+        "attique",
+        "travée",
+        "acrotère"
       ],
       "dateCapture": "2005:02:07"
     },
@@ -41,6 +79,7 @@
         "fronton",
         "pignon"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:02:07"
     },
     {
@@ -50,6 +89,7 @@
         "fronton",
         "pignon"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:02:07"
     },
     {
@@ -58,6 +98,7 @@
         "colonne",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:02:07"
     },
     {
@@ -67,6 +108,7 @@
         "fronton",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:04:23"
     },
     {
@@ -74,6 +116,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:04:23"
     }
   ]

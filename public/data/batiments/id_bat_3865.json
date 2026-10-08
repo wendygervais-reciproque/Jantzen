@@ -21,17 +21,65 @@
   "WPfr": null,
   "image_ref": "Martyrs-91_18_§1",
   "terme_jantzen_bat": [
-    "garde-corps",
-    "console",
+    "balcon",
     "façade-d'angle",
     "sculpture",
-    "balcon"
+    "console",
+    "garde-corps"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chapiteau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "jambage",
+    "linteau",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "toit en pavillon",
+    "travée",
+    "vitrail",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Martyrs-91_18_§1",
       "IndexJantzen": [
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "porte",
+        "porte-fenêtre",
+        "volet",
+        "fer forgé",
+        "garde-corps",
+        "corniche",
+        "bandeau",
+        "pilastre",
+        "mascaron",
+        "chapiteau",
+        "souche de cheminée",
+        "toit en pavillon",
+        "travée",
+        "vitrail",
+        "pierre de taille",
+        "arc en plein cintre",
+        "linteau",
+        "jambage",
+        "oculus"
       ],
       "dateCapture": "2005:04:22"
     },
@@ -41,6 +89,7 @@
         "balcon",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:22"
     },
     {
@@ -49,6 +98,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:22"
     }
   ]

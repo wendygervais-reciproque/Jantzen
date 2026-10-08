@@ -21,10 +21,28 @@
   "WPfr": null,
   "image_ref": "Milan-19_9_§1",
   "terme_jantzen_bat": [
+    "chimère",
     "sculpture",
     "fenetre",
-    "chimère",
     "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "chapiteau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "mascaron",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "sculpture",
+    "vantail",
+    "volet"
   ],
   "photos": [
     {
@@ -32,6 +50,24 @@
       "IndexJantzen": [
         "fenetre",
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "arc en plein cintre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fronton",
+        "sculpture",
+        "mascaron",
+        "pilastre",
+        "chapiteau",
+        "fenêtre",
+        "volet",
+        "vantail",
+        "pierre de taille",
+        "fer forgé",
+        "corniche"
       ],
       "dateCapture": "2006:06:17"
     },
@@ -41,6 +77,7 @@
         "chimère",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:17"
     }
   ]

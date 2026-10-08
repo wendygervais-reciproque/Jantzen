@@ -24,12 +24,44 @@
     "marquise",
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "gros appareil",
+    "linteau",
+    "marquise",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "sculpture"
+  ],
   "photos": [
     {
       "id_pic": "Malesherbes-Cite-12_9_§1",
       "IndexJantzen": [
         "marquise",
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "marquise",
+        "porte",
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "pierre de taille",
+        "bandeau",
+        "linteau",
+        "mascaron",
+        "sculpture",
+        "chambranle",
+        "gros appareil"
       ],
       "dateCapture": "2005:04:11"
     }

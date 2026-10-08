@@ -27,11 +27,28 @@
   "image_ref": "Gatines-11_20_B",
   "terme_jantzen_bat": [
     "porte-fer",
-    "lucarne",
-    "console",
     "sculpture",
+    "console",
+    "lucarne",
     "brique",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "auvent",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "modillon",
+    "oriel",
+    "porte-fenêtre",
+    "volet"
   ],
   "photos": [
     {
@@ -40,6 +57,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:09:04"
     },
     {
@@ -47,6 +65,7 @@
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:09:04"
     },
     {
@@ -55,6 +74,7 @@
         "brique",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:09:04"
     },
     {
@@ -64,6 +84,23 @@
         "décor",
         "lucarne",
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "volet",
+        "balustrade",
+        "brique",
+        "arc",
+        "corniche",
+        "modillon",
+        "mascaron",
+        "bandeau",
+        "fer forgé",
+        "auvent",
+        "oriel",
+        "porte-fenêtre"
       ],
       "dateCapture": "2005:09:04"
     }

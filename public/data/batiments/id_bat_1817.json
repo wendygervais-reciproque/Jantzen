@@ -23,17 +23,57 @@
   "WPfr": null,
   "image_ref": "St-Ferdinand-24_17_§1_1-Rx",
   "terme_jantzen_bat": [
-    "façade",
-    "console",
+    "balcon",
     "sculpture",
-    "porte-fer-hall",
-    "balcon"
+    "console",
+    "façade",
+    "porte-fer-hall"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "mascaron",
+    "oculus",
+    "oriel",
+    "pierre de taille",
+    "porte-fenêtre",
+    "sculpture",
+    "souche de cheminée",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "St-Ferdinand-24_17_§1_1-Rx",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "porte-fenêtre",
+        "volet",
+        "corniche",
+        "bandeau",
+        "mascaron",
+        "sculpture",
+        "oriel",
+        "pierre de taille",
+        "fronton",
+        "souche de cheminée",
+        "travée",
+        "arc en plein cintre",
+        "oculus"
       ],
       "dateCapture": "2013:07:08"
     },
@@ -43,6 +83,7 @@
         "balcon",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:12"
     },
     {
@@ -51,6 +92,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:12"
     },
     {
@@ -58,6 +100,7 @@
       "IndexJantzen": [
         "porte-fer-hall"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:09:08"
     }
   ]

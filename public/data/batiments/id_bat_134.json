@@ -24,15 +24,51 @@
   "WPfr": null,
   "image_ref": "Rotonde-La-Villette_19_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "façade",
-    "colonne"
+    "colonne",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "arcade",
+    "chapiteau dorique",
+    "colonne",
+    "corniche",
+    "entablement",
+    "escalier",
+    "fenêtre",
+    "frise",
+    "fronton",
+    "oculus",
+    "perron",
+    "pierre de taille",
+    "pilier",
+    "portique",
+    "toit-terrasse"
   ],
   "photos": [
     {
       "id_pic": "Rotonde-La-Villette_19_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "colonne",
+        "chapiteau dorique",
+        "fronton",
+        "entablement",
+        "corniche",
+        "arcade",
+        "arc en plein cintre",
+        "pilier",
+        "portique",
+        "frise",
+        "perron",
+        "fenêtre",
+        "pierre de taille",
+        "toit-terrasse",
+        "oculus",
+        "escalier"
       ],
       "dateCapture": "2006:07:05"
     },
@@ -41,6 +77,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:05"
     },
     {
@@ -49,6 +86,7 @@
         "colonne",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:05"
     },
     {
@@ -57,6 +95,7 @@
         "colonne",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:02"
     }
   ]

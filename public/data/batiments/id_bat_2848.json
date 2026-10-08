@@ -23,17 +23,32 @@
   "terme_jantzen_bat": [
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "jambage",
+    "pierre de taille",
+    "porte",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Lille-de-5_7_§1",
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [
+        "porte",
+        "arc en plein cintre",
+        "vantail",
+        "jambage",
+        "pierre de taille"
+      ],
       "dateCapture": "2005:05:22"
     },
     {
       "id_pic": "Lille-de-5_7_§2",
       "IndexJantzen": [],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:22"
     }
   ]

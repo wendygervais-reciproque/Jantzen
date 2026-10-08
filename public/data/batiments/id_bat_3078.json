@@ -24,12 +24,28 @@
   "image_ref": "Vouille-59_15_§1",
   "terme_jantzen_bat": [
     "porte-fer",
+    "pignon",
     "fenetre",
     "lucarne",
-    "pignon",
     "brique",
     "céramique",
     "colonne"
+  ],
+  "terme_torneh_bat": [
+    "acrotère",
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "brique",
+    "céramique",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "grille",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -40,6 +56,22 @@
         "lucarne",
         "pignon"
       ],
+      "IndexTorneh": [
+        "acrotère",
+        "arc en plein cintre",
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "garde-corps",
+        "grille",
+        "souche de cheminée",
+        "volet",
+        "brique",
+        "céramique",
+        "fer forgé",
+        "travée",
+        "porte-fenêtre"
+      ],
       "dateCapture": "2004:03:29"
     },
     {
@@ -49,6 +81,7 @@
         "fenetre",
         "pignon"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:03:16"
     },
     {
@@ -58,6 +91,7 @@
         "céramique",
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:03:29"
     },
     {
@@ -66,6 +100,7 @@
         "colonne",
         "céramique"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:03:29"
     }
   ]

@@ -21,15 +21,57 @@
   "WPfr": null,
   "image_ref": "Emile-Augier-50_16_§2",
   "terme_jantzen_bat": [
+    "garde-corps",
     "fenetre",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
     "lucarne",
-    "garde-corps"
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "sculpture",
+    "souche de cheminée",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Emile-Augier-50_16_§2",
       "IndexJantzen": [
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "mascaron",
+        "corniche",
+        "bandeau",
+        "travée",
+        "arc en plein cintre",
+        "lucarne",
+        "mansarde",
+        "souche de cheminée",
+        "ardoise",
+        "pilastre",
+        "volet",
+        "fer forgé",
+        "pierre de taille",
+        "oculus",
+        "sculpture"
       ],
       "dateCapture": "2004:05:21"
     },
@@ -39,6 +81,7 @@
         "fenetre",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:05:21"
     },
     {
@@ -47,6 +90,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:05:21"
     }
   ]

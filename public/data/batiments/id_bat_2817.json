@@ -24,12 +24,32 @@
     "sculpture",
     "console"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "corniche",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "modillon",
+    "pierre de taille",
+    "sculpture"
+  ],
   "photos": [
     {
       "id_pic": "Quebec-pl-5_6_§1",
       "IndexJantzen": [
         "console",
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "mascaron",
+        "corniche",
+        "modillon",
+        "balcon",
+        "garde-corps",
+        "pierre de taille",
+        "sculpture",
+        "fer forgé"
       ],
       "dateCapture": "2005:05:30"
     }

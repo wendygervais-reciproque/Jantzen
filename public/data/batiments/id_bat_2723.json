@@ -24,12 +24,40 @@
     "fenetre",
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "chambranle",
+    "fer forgé",
+    "garde-corps",
+    "grille",
+    "huisserie",
+    "mascaron",
+    "modillon",
+    "pierre de taille",
+    "porte",
+    "porte-fenêtre",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Emile-Augier-46_16_§1",
       "IndexJantzen": [
         "fenetre",
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "vantail",
+        "grille",
+        "fer forgé",
+        "porte-fenêtre",
+        "balcon",
+        "garde-corps",
+        "modillon",
+        "pierre de taille",
+        "chambranle",
+        "huisserie",
+        "mascaron"
       ],
       "dateCapture": "2004:05:22"
     }

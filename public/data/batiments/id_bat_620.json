@@ -22,9 +22,24 @@
   "image_ref": "Repubique-pl-12_10_§1",
   "terme_jantzen_bat": [
     "toiture",
+    "fronton",
     "fenetre",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "chambranle",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "fronton",
     "lucarne",
-    "fronton"
+    "mansarde",
+    "oculus",
+    "pierre de taille",
+    "souche de cheminée",
+    "toit à deux versants",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -32,6 +47,21 @@
       "IndexJantzen": [
         "lucarne",
         "toiture"
+      ],
+      "IndexTorneh": [
+        "mansarde",
+        "lucarne",
+        "fronton",
+        "corniche",
+        "chaîne d'angle",
+        "fenêtre",
+        "souche de cheminée",
+        "chambranle",
+        "pierre de taille",
+        "toit à deux versants",
+        "ardoise",
+        "épi de faîtage",
+        "oculus"
       ],
       "dateCapture": "2007:12:18"
     },
@@ -42,6 +72,7 @@
         "fronton",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:12:18"
     },
     {
@@ -50,6 +81,7 @@
         "fronton",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:12:18"
     },
     {
@@ -57,6 +89,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:12:18"
     }
   ]

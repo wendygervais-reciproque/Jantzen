@@ -31,12 +31,52 @@
     "fenetre",
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "baie",
+    "balcon",
+    "balustrade",
+    "chapiteau",
+    "corniche",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "grille",
+    "mascaron",
+    "pierre de taille",
+    "pilastre",
+    "portail",
+    "porte",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Ledru-Rollin-64_12_§1",
       "IndexJantzen": [
         "fenetre",
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "portail",
+        "arc en plein cintre",
+        "arc",
+        "vantail",
+        "pilastre",
+        "chapiteau",
+        "sculpture",
+        "mascaron",
+        "corniche",
+        "balcon",
+        "garde-corps",
+        "fronton",
+        "pierre de taille",
+        "fer forgé",
+        "balustrade",
+        "baie",
+        "grille"
       ],
       "dateCapture": "2005:07:13"
     },
@@ -46,6 +86,7 @@
         "fenetre",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:13"
     }
   ]

@@ -36,11 +36,34 @@
   "WPfr": null,
   "image_ref": "Villaret-de-Joyeuse-1-2_17_§1",
   "terme_jantzen_bat": [
-    "façade",
-    "façade-d'angle",
     "dome",
+    "façade-d'angle",
     "fenetre-d'angle",
+    "façade",
     "voie"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "chapiteau",
+    "colonne",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mascaron",
+    "oculus",
+    "oriel",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée"
   ],
   "photos": [
     {
@@ -48,6 +71,29 @@
       "IndexJantzen": [
         "façade",
         "voie"
+      ],
+      "IndexTorneh": [
+        "dôme",
+        "balcon",
+        "balustrade",
+        "pilastre",
+        "colonne",
+        "fenêtre",
+        "lucarne",
+        "souche de cheminée",
+        "corniche",
+        "garde-corps",
+        "mascaron",
+        "sculpture",
+        "fer forgé",
+        "travée",
+        "porte",
+        "toit à deux versants",
+        "chapiteau",
+        "ardoise",
+        "pierre de taille",
+        "oculus",
+        "oriel"
       ],
       "dateCapture": "2010:08:21"
     },
@@ -57,6 +103,7 @@
         "dome",
         "façade-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:12"
     },
     {
@@ -65,6 +112,7 @@
         "dome",
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:08:21"
     }
   ]

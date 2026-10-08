@@ -21,15 +21,65 @@
   "WPfr": null,
   "image_ref": "Kleber-8_16_§1",
   "terme_jantzen_bat": [
-    "lucarne",
+    "façade",
     "fenetre",
-    "façade"
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "acrotère",
+    "arc",
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "grille",
+    "lucarne",
+    "mansarde",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "porte-fenêtre",
+    "travée",
+    "épi de faîtage"
   ],
   "photos": [
     {
       "id_pic": "Kleber-8_16_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fronton",
+        "lucarne",
+        "mansarde",
+        "fenêtre",
+        "porte",
+        "porte-fenêtre",
+        "arc en plein cintre",
+        "arc",
+        "corniche",
+        "bandeau",
+        "pilastre",
+        "chaîne d'angle",
+        "ardoise",
+        "pierre de taille",
+        "fer forgé",
+        "grille",
+        "oculus",
+        "travée",
+        "épi de faîtage",
+        "acrotère"
       ],
       "dateCapture": "2005:03:19"
     },
@@ -39,6 +89,7 @@
         "fenetre",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:12"
     },
     {
@@ -46,6 +97,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:12"
     },
     {
@@ -53,6 +105,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:12"
     },
     {
@@ -60,6 +113,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:12"
     },
     {
@@ -67,6 +121,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:12"
     }
   ]

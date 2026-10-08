@@ -24,12 +24,48 @@
     "garde-corps",
     "balcon"
   ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "modillon",
+    "oriel",
+    "pierre de taille",
+    "souche de cheminée",
+    "toit à deux versants",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "General-Foy-16_8_§1",
       "IndexJantzen": [
         "balcon",
         "garde-corps"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "mansarde",
+        "lucarne",
+        "garde-corps",
+        "fer forgé",
+        "corniche",
+        "pierre de taille",
+        "souche de cheminée",
+        "ardoise",
+        "volet",
+        "oriel",
+        "toit à deux versants",
+        "modillon",
+        "bandeau"
       ],
       "dateCapture": "2004:07:02"
     }

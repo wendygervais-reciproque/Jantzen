@@ -23,11 +23,35 @@
   "terme_jantzen_bat": [
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "chaîne d'angle",
+    "chéneau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "lucarne",
+    "mansarde",
+    "pierre de taille",
+    "souche de cheminée"
+  ],
   "photos": [
     {
       "id_pic": "Deux-Ponts-25_4_",
       "IndexJantzen": [
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "lucarne",
+        "fenêtre",
+        "mansarde",
+        "ardoise",
+        "chéneau",
+        "pierre de taille",
+        "chaîne d'angle",
+        "fer forgé",
+        "souche de cheminée",
+        "corniche"
       ],
       "dateCapture": "2003:08:03"
     }

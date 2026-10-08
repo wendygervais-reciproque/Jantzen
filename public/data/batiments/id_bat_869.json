@@ -30,11 +30,29 @@
   "terme_jantzen_bat": [
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "chambranle",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Ledru-Rollin-14_12_§1",
       "IndexJantzen": [
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "arc en plein cintre",
+        "vantail",
+        "sculpture",
+        "pierre de taille",
+        "chambranle",
+        "mascaron"
       ],
       "dateCapture": "2004:07:26"
     }

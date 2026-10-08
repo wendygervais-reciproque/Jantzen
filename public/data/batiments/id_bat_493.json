@@ -28,11 +28,25 @@
   "WPfr": null,
   "image_ref": "Margueritte-11_17_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "console",
-    "garde-corps",
     "sculpture",
+    "console",
+    "fenetre",
+    "garde-corps",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "modillon",
+    "pierre de taille",
+    "sculpture",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -43,6 +57,20 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "volet",
+        "arc en plein cintre",
+        "pierre de taille",
+        "sculpture",
+        "mascaron",
+        "travée",
+        "fer forgé",
+        "modillon"
+      ],
       "dateCapture": "2006:06:16"
     },
     {
@@ -51,6 +79,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:16"
     }
   ]

@@ -21,17 +21,57 @@
   "WPfr": null,
   "image_ref": "Jacob-46_6_§1",
   "terme_jantzen_bat": [
+    "sculpture",
     "fenetre",
     "façade",
     "garde-corps",
-    "sculpture",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "grille",
+    "heurtoir",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "travée",
+    "vantail",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Jacob-46_6_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "corniche",
+        "bandeau",
+        "sculpture",
+        "mascaron",
+        "porte",
+        "arc en plein cintre",
+        "pierre de taille",
+        "grille",
+        "volet",
+        "fer forgé",
+        "vantail",
+        "heurtoir",
+        "travée",
+        "oculus"
       ],
       "dateCapture": "2005:04:19"
     },
@@ -42,6 +82,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:19"
     },
     {
@@ -52,6 +93,7 @@
         "garde-corps",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:19"
     }
   ]

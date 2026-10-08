@@ -21,13 +21,33 @@
   "WPfr": null,
   "image_ref": "Montmartre-146_2_§1",
   "terme_jantzen_bat": [
+    "sculpture",
+    "clé",
     "fenetre",
     "lucarne",
-    "sculpture",
     "chimère",
     "porte-bois",
-    "clé",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "bossage",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "grille",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "porte",
+    "porte-fenêtre",
+    "vantail"
   ],
   "photos": [
     {
@@ -36,6 +56,26 @@
         "fenetre",
         "porte-bois"
       ],
+      "IndexTorneh": [
+        "fronton",
+        "arc en plein cintre",
+        "fenêtre",
+        "porte",
+        "porte-fenêtre",
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "mascaron",
+        "bossage",
+        "pierre de taille",
+        "vantail",
+        "chambranle",
+        "oculus",
+        "grille",
+        "fer forgé",
+        "bandeau",
+        "corniche"
+      ],
       "dateCapture": "2007:06:02"
     },
     {
@@ -43,6 +83,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:06:02"
     },
     {
@@ -51,6 +92,7 @@
         "fenetre",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:06:02"
     },
     {
@@ -58,6 +100,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:05:24"
     },
     {
@@ -68,6 +111,7 @@
         "lucarne",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:05:24"
     },
     {
@@ -77,6 +121,7 @@
         "clé",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:09:01"
     }
   ]

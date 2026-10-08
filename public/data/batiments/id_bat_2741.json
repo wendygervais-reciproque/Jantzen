@@ -31,12 +31,32 @@
     "fenetre",
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "chambranle",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "porte-fenêtre",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Courcelles-Bd-47_17_§1",
       "IndexJantzen": [
         "fenetre",
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "porte-fenêtre",
+        "arc en plein cintre",
+        "vantail",
+        "chambranle",
+        "pierre de taille",
+        "sculpture",
+        "mascaron"
       ],
       "dateCapture": "2004:09:02"
     }

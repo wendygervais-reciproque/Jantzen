@@ -29,20 +29,70 @@
   "image_ref": "Victoire-60_9_§1",
   "terme_jantzen_bat": [
     "porte-fer",
-    "fenetre",
-    "façade",
-    "console",
-    "sculpture",
-    "porte-bois",
     "pilastre",
+    "sculpture",
     "cariatide",
+    "fenetre",
+    "console",
+    "façade",
+    "porte-bois",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "atlante",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "bossage",
+    "chambranle",
+    "chapiteau corinthien",
+    "colonne",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "grille",
+    "gros appareil",
+    "mascaron",
+    "pierre de taille",
+    "pilastre",
+    "porche",
+    "portail",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Victoire-60_9_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "bandeau",
+        "chapiteau corinthien",
+        "colonne",
+        "corniche",
+        "fenêtre",
+        "fer forgé",
+        "fronton",
+        "garde-corps",
+        "grille",
+        "mascaron",
+        "pierre de taille",
+        "pilastre",
+        "porche",
+        "portail",
+        "bossage",
+        "arc en plein cintre",
+        "chambranle",
+        "atlante",
+        "gros appareil",
+        "volet",
+        "travée"
       ],
       "dateCapture": "2004:06:16"
     },
@@ -52,6 +102,7 @@
         "fenetre",
         "pilastre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:06:16"
     },
     {
@@ -61,6 +112,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:06:16"
     },
     {
@@ -70,6 +122,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:06:16"
     },
     {
@@ -78,6 +131,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:06:16"
     },
     {
@@ -85,6 +139,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:06:16"
     },
     {
@@ -92,6 +147,7 @@
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:06:16"
     }
   ]

@@ -28,11 +28,28 @@
   "WPfr": null,
   "image_ref": "Duc-2_18_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "pignon",
     "façade-d'angle",
+    "pignon",
+    "fenetre",
     "brique",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "chaîne d'angle",
+    "céramique",
+    "fenêtre",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "oriel",
+    "porte",
+    "souche de cheminée",
+    "travée"
   ],
   "photos": [
     {
@@ -41,6 +58,23 @@
         "brique",
         "façade-d'angle",
         "pignon"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "lucarne",
+        "mansarde",
+        "oriel",
+        "brique",
+        "céramique",
+        "bandeau",
+        "travée",
+        "porte",
+        "ardoise",
+        "souche de cheminée",
+        "chaîne d'angle",
+        "balustrade"
       ],
       "dateCapture": "2006:06:09"
     },
@@ -51,6 +85,7 @@
         "façade-d'angle",
         "pignon"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:09"
     },
     {
@@ -60,6 +95,7 @@
         "décor",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:07:09"
     },
     {
@@ -69,6 +105,7 @@
         "décor",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:07:09"
     }
   ]

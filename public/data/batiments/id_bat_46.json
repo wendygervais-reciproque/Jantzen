@@ -38,17 +38,38 @@
   "image_ref": "Val-De-Grace_5_§2",
   "terme_jantzen_bat": [
     "toiture",
-    "fenetre",
-    "façade",
-    "lucarne",
     "oeil-de-boeuf",
-    "sculpture",
-    "porte-bois",
     "dome",
-    "colonne",
+    "sculpture",
+    "fenetre",
+    "lucarne",
+    "façade",
+    "fronton",
     "voie",
-    "décor",
-    "fronton"
+    "colonne",
+    "porte-bois",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "arcade",
+    "chapiteau",
+    "colonne",
+    "corniche",
+    "dôme",
+    "entablement",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "grille",
+    "lucarne",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "portail",
+    "porte",
+    "sculpture",
+    "souche de cheminée"
   ],
   "photos": [
     {
@@ -56,6 +77,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:03"
     },
     {
@@ -63,6 +85,7 @@
       "IndexJantzen": [
         "dome"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:06:23"
     },
     {
@@ -71,6 +94,7 @@
         "dome",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:06:23"
     },
     {
@@ -79,6 +103,7 @@
         "dome",
         "fronton"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:03"
     },
     {
@@ -87,6 +112,7 @@
         "dome",
         "fronton"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:03"
     },
     {
@@ -96,6 +122,7 @@
         "fronton",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:06:23"
     },
     {
@@ -105,6 +132,7 @@
         "fronton",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:06:23"
     },
     {
@@ -112,6 +140,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:06:23"
     },
     {
@@ -119,6 +148,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:06:23"
     },
     {
@@ -126,12 +156,34 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:06:23"
     },
     {
       "id_pic": "Val-De-Grace_5_§2",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "dôme",
+        "colonne",
+        "pilastre",
+        "fronton",
+        "arc en plein cintre",
+        "oculus",
+        "sculpture",
+        "corniche",
+        "entablement",
+        "fenêtre",
+        "porte",
+        "grille",
+        "pierre de taille",
+        "chapiteau",
+        "arcade",
+        "lucarne",
+        "souche de cheminée",
+        "portail",
+        "fer forgé"
       ],
       "dateCapture": "2006:04:03"
     },
@@ -140,6 +192,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:06:23"
     },
     {
@@ -147,6 +200,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:06:23"
     },
     {
@@ -154,6 +208,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:06:23"
     },
     {
@@ -161,6 +216,7 @@
       "IndexJantzen": [
         "dome"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:06:23"
     },
     {
@@ -171,6 +227,7 @@
         "décor",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:06:23"
     },
     {
@@ -180,6 +237,7 @@
         "décor",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:06:23"
     },
     {
@@ -188,6 +246,7 @@
         "dome",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:06:23"
     },
     {
@@ -196,6 +255,7 @@
         "dome",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:03"
     },
     {
@@ -204,6 +264,7 @@
         "dome",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:03"
     },
     {
@@ -211,6 +272,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:22"
     },
     {
@@ -219,6 +281,7 @@
         "dome",
         "voie"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:03"
     },
     {
@@ -226,6 +289,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:06:23"
     },
     {
@@ -233,6 +297,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:22"
     },
     {
@@ -240,6 +305,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:06:23"
     },
     {
@@ -249,6 +315,7 @@
         "fronton",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:06:23"
     },
     {
@@ -259,6 +326,7 @@
         "lucarne",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:06:23"
     },
     {
@@ -267,6 +335,7 @@
         "fenetre",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:06:23"
     },
     {
@@ -275,6 +344,7 @@
         "lucarne",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:06:23"
     },
     {
@@ -283,6 +353,7 @@
         "lucarne",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:06:23"
     },
     {
@@ -291,6 +362,7 @@
         "dome",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:06:23"
     },
     {
@@ -299,6 +371,7 @@
         "dome",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:06:23"
     },
     {
@@ -307,6 +380,7 @@
         "dome",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:03"
     },
     {
@@ -315,6 +389,7 @@
         "dome",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:06:23"
     },
     {
@@ -324,6 +399,7 @@
         "fenetre",
         "fronton"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:06:23"
     },
     {
@@ -333,6 +409,7 @@
         "dome",
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:11"
     },
     {
@@ -341,6 +418,7 @@
         "dome",
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:06:23"
     },
     {
@@ -351,6 +429,7 @@
         "fenetre",
         "fronton"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:11"
     },
     {
@@ -360,6 +439,7 @@
         "fenetre",
         "fronton"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:06:23"
     },
     {
@@ -367,6 +447,7 @@
       "IndexJantzen": [
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:11"
     }
   ]

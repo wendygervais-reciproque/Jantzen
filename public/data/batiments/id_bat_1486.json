@@ -32,11 +32,28 @@
   "WPfr": null,
   "image_ref": "Grill-2_5_20_§1",
   "terme_jantzen_bat": [
-    "lucarne",
-    "façade",
     "fenetre-d'angle",
+    "lucarne",
     "brique",
+    "façade",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "avant-corps",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "oculus",
+    "oriel",
+    "pierre de taille",
+    "souche de cheminée",
+    "toit-terrasse",
+    "travée"
   ],
   "photos": [
     {
@@ -45,6 +62,23 @@
         "brique",
         "façade"
       ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "balustrade",
+        "bandeau",
+        "avant-corps",
+        "travée",
+        "oriel",
+        "brique",
+        "pierre de taille",
+        "souche de cheminée",
+        "corniche",
+        "fer forgé",
+        "toit-terrasse",
+        "oculus"
+      ],
       "dateCapture": "2010:05:23"
     },
     {
@@ -52,6 +86,7 @@
       "IndexJantzen": [
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:05:23"
     },
     {
@@ -59,6 +94,7 @@
       "IndexJantzen": [
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:05:23"
     },
     {
@@ -66,6 +102,7 @@
       "IndexJantzen": [
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:08"
     },
     {
@@ -75,6 +112,7 @@
         "fenetre-d'angle",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:08"
     },
     {
@@ -82,6 +120,7 @@
       "IndexJantzen": [
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:08"
     }
   ]

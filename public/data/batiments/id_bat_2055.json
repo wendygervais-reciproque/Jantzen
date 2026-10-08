@@ -21,9 +21,23 @@
   "WPfr": null,
   "image_ref": "Armand-Moisant-3_15_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "brique",
-    "céramique"
+    "céramique",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "acrotère",
+    "arc",
+    "arc en plein cintre",
+    "baie",
+    "bandeau",
+    "brique",
+    "chéneau",
+    "corniche",
+    "céramique",
+    "fenêtre",
+    "meneau",
+    "travée"
   ],
   "photos": [
     {
@@ -32,6 +46,20 @@
         "brique",
         "céramique",
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "arc en plein cintre",
+        "arc",
+        "baie",
+        "brique",
+        "céramique",
+        "fenêtre",
+        "meneau",
+        "travée",
+        "acrotère",
+        "corniche",
+        "bandeau",
+        "chéneau"
       ],
       "dateCapture": "2004:05:23"
     }

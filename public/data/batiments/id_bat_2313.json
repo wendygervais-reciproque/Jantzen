@@ -23,11 +23,35 @@
   "terme_jantzen_bat": [
     "façade"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "bandeau",
+    "chambranle",
+    "chéneau",
+    "fenêtre",
+    "garde-corps",
+    "grille",
+    "porte",
+    "travée",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Galande-35_5_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "porte",
+        "vantail",
+        "bandeau",
+        "chéneau",
+        "travée",
+        "chambranle",
+        "grille"
       ],
       "dateCapture": "2006:06:06"
     },
@@ -36,6 +60,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:06"
     }
   ]

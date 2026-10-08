@@ -23,16 +23,56 @@
   "WPfr": null,
   "image_ref": "Petits-Champs-38_2_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "sculpture",
-    "décor",
-    "chimère"
+    "chimère",
+    "fenetre",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "pierre de taille",
+    "porte-fenêtre",
+    "sculpture",
+    "souche de cheminée",
+    "toit-terrasse",
+    "travée",
+    "vitrail",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Petits-Champs-38_2_§1",
       "IndexJantzen": [
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "mascaron",
+        "chambranle",
+        "lucarne",
+        "mansarde",
+        "toit-terrasse",
+        "volet",
+        "souche de cheminée",
+        "pierre de taille",
+        "fer forgé",
+        "porte-fenêtre",
+        "travée",
+        "bandeau",
+        "sculpture",
+        "vitrail"
       ],
       "dateCapture": "2007:08:26"
     },
@@ -43,6 +83,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:08:26"
     },
     {
@@ -51,6 +92,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:08:26"
     },
     {
@@ -59,6 +101,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:08:26"
     },
     {
@@ -67,6 +110,7 @@
         "chimère",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:08:26"
     },
     {
@@ -74,6 +118,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:08:26"
     }
   ]

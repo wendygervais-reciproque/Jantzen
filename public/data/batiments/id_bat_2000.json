@@ -23,17 +23,45 @@
   "WPfr": null,
   "image_ref": "Parcheminerie-29_5_§1",
   "terme_jantzen_bat": [
+    "sculpture",
+    "clé",
     "fenetre",
     "façade",
+    "garde-corps"
+  ],
+  "terme_torneh_bat": [
+    "arc en anse de panier",
+    "balcon",
+    "chéneau",
+    "fenêtre",
+    "fer forgé",
     "garde-corps",
-    "sculpture",
-    "clé"
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "pierre de taille",
+    "toit à deux versants",
+    "travée"
   ],
   "photos": [
     {
       "id_pic": "Parcheminerie-29_5_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "mascaron",
+        "lucarne",
+        "mansarde",
+        "chéneau",
+        "pierre de taille",
+        "arc en anse de panier",
+        "toit à deux versants",
+        "travée",
+        "fer forgé"
       ],
       "dateCapture": "2005:05:27"
     },
@@ -42,6 +70,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:27"
     },
     {
@@ -49,6 +78,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": null
     },
     {
@@ -58,6 +88,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:27"
     },
     {
@@ -67,6 +98,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:08:10"
     },
     {
@@ -76,6 +108,7 @@
         "garde-corps",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:27"
     }
   ]

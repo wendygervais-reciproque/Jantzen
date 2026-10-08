@@ -23,11 +23,33 @@
   "terme_jantzen_bat": [
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "chambranle",
+    "corniche",
+    "linteau",
+    "mascaron",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Uzes-21_2_§1",
       "IndexJantzen": [
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "portail",
+        "vantail",
+        "chambranle",
+        "linteau",
+        "mascaron",
+        "pierre de taille",
+        "sculpture",
+        "corniche"
       ],
       "dateCapture": "2004:09:06"
     }

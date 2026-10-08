@@ -29,8 +29,29 @@
   "image_ref": "Reaumur-110_2_§1",
   "terme_jantzen_bat": [
     "lucarne-d'angle",
-    "dome",
-    "colonne"
+    "colonne",
+    "dome"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "colonne",
+    "dôme",
+    "fenêtre",
+    "garde-corps",
+    "lucarne",
+    "mascaron",
+    "modillon",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "toit à deux versants",
+    "tour",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -39,6 +60,27 @@
         "colonne",
         "dome",
         "lucarne-d'angle"
+      ],
+      "IndexTorneh": [
+        "dôme",
+        "oculus",
+        "lucarne",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "colonne",
+        "pilastre",
+        "fenêtre",
+        "porte-fenêtre",
+        "ardoise",
+        "pierre de taille",
+        "mascaron",
+        "modillon",
+        "arc en plein cintre",
+        "souche de cheminée",
+        "toit à deux versants",
+        "épi de faîtage",
+        "tour"
       ],
       "dateCapture": "2004:04:25"
     },
@@ -49,6 +91,7 @@
         "dome",
         "lucarne-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:04:25"
     }
   ]

@@ -32,11 +32,32 @@
   "WPfr": null,
   "image_ref": "Faubourg-Poissonniere-51_9_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "façade",
-    "métal",
     "oriel",
-    "brique"
+    "fenetre",
+    "brique",
+    "métal",
+    "façade"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "corniche",
+    "céramique",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "oculus",
+    "oriel",
+    "pilastre",
+    "porte",
+    "travée",
+    "verrière",
+    "volet"
   ],
   "photos": [
     {
@@ -44,6 +65,27 @@
       "IndexJantzen": [
         "brique",
         "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "lucarne",
+        "mansarde",
+        "brique",
+        "céramique",
+        "oriel",
+        "fer forgé",
+        "verrière",
+        "porte",
+        "volet",
+        "travée",
+        "corniche",
+        "arc en plein cintre",
+        "pilastre",
+        "bandeau",
+        "oculus"
       ],
       "dateCapture": "2005:05:26"
     },
@@ -53,6 +95,7 @@
         "brique",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:04"
     },
     {
@@ -62,6 +105,7 @@
         "métal",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:04"
     },
     {
@@ -70,6 +114,7 @@
         "brique",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:26"
     }
   ]

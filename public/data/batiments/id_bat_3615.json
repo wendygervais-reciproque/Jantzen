@@ -23,15 +23,59 @@
   "WPfr": null,
   "image_ref": "Ferronnerie-8_1_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "façade",
+    "fenetre",
     "fronton"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "arcade",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "chéneau",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mur-boutant",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "souche de cheminée",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Ferronnerie-8_1_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "fronton",
+        "mansarde",
+        "lucarne",
+        "balcon",
+        "garde-corps",
+        "arc",
+        "arc en plein cintre",
+        "arcade",
+        "volet",
+        "balustrade",
+        "pierre de taille",
+        "souche de cheminée",
+        "ardoise",
+        "corniche",
+        "travée",
+        "portail",
+        "porte",
+        "mur-boutant",
+        "chéneau"
       ],
       "dateCapture": "2006:04:21"
     },
@@ -41,6 +85,7 @@
         "façade",
         "fronton"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:01"
     },
     {
@@ -48,6 +93,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:01"
     },
     {
@@ -55,6 +101,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:21"
     }
   ]

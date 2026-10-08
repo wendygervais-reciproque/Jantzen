@@ -24,11 +24,43 @@
     "fenetre",
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "arc",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "chaîne d'angle",
+    "chéneau",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oriel",
+    "toit à deux versants"
+  ],
   "photos": [
     {
       "id_pic": "Croissant-16_2_§1",
       "IndexJantzen": [
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "lucarne",
+        "mansarde",
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "chaîne d'angle",
+        "ardoise",
+        "toit à deux versants",
+        "mascaron",
+        "arc",
+        "chéneau",
+        "fer forgé",
+        "oriel"
       ],
       "dateCapture": "2008:05:15"
     },
@@ -37,6 +69,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:11"
     },
     {
@@ -44,6 +77,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:15"
     }
   ]

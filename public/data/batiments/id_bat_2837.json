@@ -32,13 +32,32 @@
   "WPfr": null,
   "image_ref": "Dante-5_5_§1",
   "terme_jantzen_bat": [
-    "porte-fer",
-    "fenetre",
-    "console",
-    "sculpture",
     "atlante",
+    "porte-fer",
+    "sculpture",
+    "console",
+    "fenetre",
     "porte-fer-hall",
     "colonne"
+  ],
+  "terme_torneh_bat": [
+    "atlante",
+    "balcon",
+    "balustrade",
+    "chapiteau ionique",
+    "colonne",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "huisserie",
+    "jambage",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "vantail"
   ],
   "photos": [
     {
@@ -46,6 +65,25 @@
       "IndexJantzen": [
         "fenetre",
         "porte-fer"
+      ],
+      "IndexTorneh": [
+        "atlante",
+        "colonne",
+        "chapiteau ionique",
+        "porte",
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "corniche",
+        "pierre de taille",
+        "sculpture",
+        "fer forgé",
+        "vantail",
+        "fronton",
+        "mascaron",
+        "huisserie",
+        "jambage"
       ],
       "dateCapture": "2005:05:27"
     },
@@ -56,6 +94,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:27"
     },
     {
@@ -64,6 +103,7 @@
         "colonne",
         "porte-fer-hall"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:27"
     },
     {
@@ -73,6 +113,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:03"
     }
   ]

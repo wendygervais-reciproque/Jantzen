@@ -28,13 +28,37 @@
   "WPfr": null,
   "image_ref": "Richard-Lenoir-bd-42_11_§1",
   "terme_jantzen_bat": [
+    "balcon",
     "porte-fer",
-    "façade",
-    "garde-corps",
+    "oriel",
     "sculpture",
     "clé",
+    "façade",
+    "garde-corps"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "auvent",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
     "oriel",
-    "balcon"
+    "pierre de taille",
+    "pilastre",
+    "sculpture",
+    "souche de cheminée",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -43,6 +67,30 @@
         "façade",
         "oriel"
       ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "oriel",
+        "mansarde",
+        "lucarne",
+        "souche de cheminée",
+        "sculpture",
+        "mascaron",
+        "corniche",
+        "bandeau",
+        "pierre de taille",
+        "arc en plein cintre",
+        "arc",
+        "fronton",
+        "pilastre",
+        "volet",
+        "oculus",
+        "auvent",
+        "travée",
+        "fer forgé"
+      ],
       "dateCapture": "2004:05:19"
     },
     {
@@ -50,6 +98,7 @@
       "IndexJantzen": [
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:05:19"
     },
     {
@@ -59,6 +108,7 @@
         "garde-corps",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:05:19"
     },
     {
@@ -66,6 +116,7 @@
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:16"
     },
     {
@@ -74,6 +125,7 @@
         "clé",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:16"
     }
   ]

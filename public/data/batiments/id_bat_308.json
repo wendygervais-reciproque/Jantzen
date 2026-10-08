@@ -32,8 +32,21 @@
   "WPfr": null,
   "image_ref": "Babylone-10_7_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "garde-corps"
+    "garde-corps",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "chambranle",
+    "corniche",
+    "fer forgé",
+    "frise",
+    "garde-corps",
+    "pierre de taille",
+    "porte-fenêtre",
+    "travée",
+    "vantail"
   ],
   "photos": [
     {
@@ -41,6 +54,19 @@
       "IndexJantzen": [
         "fenetre",
         "garde-corps"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "porte-fenêtre",
+        "balustrade",
+        "corniche",
+        "frise",
+        "chambranle",
+        "fer forgé",
+        "pierre de taille",
+        "vantail",
+        "travée"
       ],
       "dateCapture": "2004:05:12"
     }

@@ -22,8 +22,24 @@
   "image_ref": "Pepiniere-7_8_1-46",
   "terme_jantzen_bat": [
     "sculpture",
-    "fenetre",
-    "console"
+    "console",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "mascaron",
+    "modillon",
+    "pierre de taille",
+    "porte-fenêtre",
+    "sculpture",
+    "travée",
+    "vantail"
   ],
   "photos": [
     {
@@ -32,6 +48,22 @@
         "console",
         "fenetre",
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "porte-fenêtre",
+        "mascaron",
+        "sculpture",
+        "pierre de taille",
+        "corniche",
+        "modillon",
+        "fronton",
+        "vantail",
+        "travée"
       ],
       "dateCapture": "2007:03:17"
     }

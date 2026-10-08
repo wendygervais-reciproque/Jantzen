@@ -25,15 +25,33 @@
   "image_ref": "Palais-Royal-Pl_1_§1",
   "terme_jantzen_bat": [
     "toiture",
+    "balcon",
+    "sculpture",
+    "pilastre",
     "fenetre",
     "lucarne",
     "façade",
-    "sculpture",
-    "pilastre",
     "fronton",
-    "décor",
+    "colonne",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "attique",
     "balcon",
-    "colonne"
+    "balustrade",
+    "colonne",
+    "corniche",
+    "fenêtre",
+    "mascaron",
+    "pierre de taille",
+    "pilastre",
+    "portique",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "volet"
   ],
   "photos": [
     {
@@ -42,6 +60,24 @@
         "colonne",
         "façade"
       ],
+      "IndexTorneh": [
+        "colonne",
+        "balustrade",
+        "arc en plein cintre",
+        "fenêtre",
+        "pierre de taille",
+        "balcon",
+        "portique",
+        "pilastre",
+        "corniche",
+        "volet",
+        "souche de cheminée",
+        "toit à deux versants",
+        "ardoise",
+        "attique",
+        "sculpture",
+        "mascaron"
+      ],
       "dateCapture": "2005:08:30"
     },
     {
@@ -49,6 +85,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:09:18"
     },
     {
@@ -59,6 +96,7 @@
         "lucarne",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:09:18"
     },
     {
@@ -66,6 +104,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:30"
     },
     {
@@ -73,6 +112,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:13"
     },
     {
@@ -80,6 +120,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:30"
     },
     {
@@ -87,6 +128,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:30"
     },
     {
@@ -94,6 +136,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:30"
     },
     {
@@ -103,6 +146,7 @@
         "lucarne",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:30"
     },
     {
@@ -110,6 +154,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:30"
     },
     {
@@ -118,6 +163,7 @@
         "balcon",
         "pilastre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:30"
     },
     {
@@ -125,6 +171,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:30"
     },
     {
@@ -133,6 +180,7 @@
         "fenetre",
         "pilastre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:30"
     },
     {
@@ -141,6 +189,7 @@
         "fenetre",
         "pilastre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:09:18"
     },
     {
@@ -148,6 +197,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:09:18"
     },
     {
@@ -155,6 +205,7 @@
       "IndexJantzen": [
         "colonne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:09:18"
     },
     {
@@ -164,6 +215,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:09:18"
     }
   ]

@@ -24,12 +24,34 @@
     "sculpture",
     "console"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "modillon",
+    "pierre de taille",
+    "sculpture",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "InvalidesBd-5_7_§1",
       "IndexJantzen": [
         "console",
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "modillon",
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "volet",
+        "pierre de taille",
+        "sculpture",
+        "corniche"
       ],
       "dateCapture": null
     }

@@ -29,12 +29,30 @@
     "sculpture",
     "console"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bossage",
+    "corniche",
+    "garde-corps",
+    "pierre de taille",
+    "sculpture"
+  ],
   "photos": [
     {
       "id_pic": "Exelmans-113_16_§1",
       "IndexJantzen": [
         "console",
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "sculpture",
+        "balcon",
+        "garde-corps",
+        "corniche",
+        "bossage",
+        "pierre de taille",
+        "balustrade"
       ],
       "dateCapture": "2006:04:03"
     }

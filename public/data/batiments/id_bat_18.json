@@ -20,10 +20,24 @@
   "image_ref": "Louvre-1-Pcn_06",
   "terme_jantzen_bat": [
     "oeil-de-boeuf",
+    "sculpture",
     "fenetre",
     "lucarne",
-    "sculpture",
     "fronton"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balustrade",
+    "chapiteau",
+    "corniche",
+    "entablement",
+    "fenêtre",
+    "frise",
+    "fronton",
+    "mascaron",
+    "pierre de taille",
+    "pilastre",
+    "sculpture"
   ],
   "photos": [
     {
@@ -32,6 +46,7 @@
         "lucarne",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:30"
     },
     {
@@ -40,6 +55,7 @@
         "lucarne",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:09:06"
     },
     {
@@ -48,6 +64,7 @@
         "lucarne",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:09:06"
     },
     {
@@ -56,6 +73,7 @@
         "lucarne",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:09:06"
     },
     {
@@ -64,6 +82,7 @@
         "fronton",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:09:06"
     },
     {
@@ -73,6 +92,20 @@
         "fronton",
         "sculpture"
       ],
+      "IndexTorneh": [
+        "fronton",
+        "fenêtre",
+        "sculpture",
+        "pilastre",
+        "chapiteau",
+        "corniche",
+        "frise",
+        "ardoise",
+        "balustrade",
+        "pierre de taille",
+        "mascaron",
+        "entablement"
+      ],
       "dateCapture": "2006:09:06"
     },
     {
@@ -80,6 +113,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:09:06"
     },
     {
@@ -89,6 +123,7 @@
         "fronton",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:09:06"
     },
     {
@@ -96,6 +131,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:09:06"
     },
     {
@@ -103,6 +139,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:09:06"
     }
   ]

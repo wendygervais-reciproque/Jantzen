@@ -33,12 +33,40 @@
   "image_ref": "Paradis-18_10_§2",
   "terme_jantzen_bat": [
     "porte-fer",
+    "intérieur",
     "fenetre",
     "façade",
     "porte",
-    "intérieur",
     "céramique",
     "colonne"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "arcade",
+    "baie",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chapiteau",
+    "chapiteau corinthien",
+    "chapiteau ionique",
+    "colonne",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "grille",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porche",
+    "porte",
+    "sculpture",
+    "vitrail",
+    "volet"
   ],
   "photos": [
     {
@@ -47,6 +75,34 @@
         "céramique",
         "façade",
         "fenetre",
+        "porte"
+      ],
+      "IndexTorneh": [
+        "arc",
+        "arc en plein cintre",
+        "arcade",
+        "baie",
+        "balcon",
+        "balustrade",
+        "bandeau",
+        "chapiteau",
+        "chapiteau corinthien",
+        "chapiteau ionique",
+        "colonne",
+        "corniche",
+        "fronton",
+        "garde-corps",
+        "grille",
+        "mascaron",
+        "pierre de taille",
+        "pilastre",
+        "porche",
+        "sculpture",
+        "vitrail",
+        "volet",
+        "fer forgé",
+        "oculus",
+        "fenêtre",
         "porte"
       ],
       "dateCapture": "2005:05:26"
@@ -58,6 +114,7 @@
         "céramique",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:26"
     },
     {
@@ -66,6 +123,7 @@
         "céramique",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:26"
     },
     {
@@ -74,6 +132,7 @@
         "céramique",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:02"
     },
     {
@@ -81,6 +140,7 @@
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:02"
     },
     {
@@ -88,6 +148,7 @@
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:02"
     },
     {
@@ -96,6 +157,7 @@
         "céramique",
         "intérieur"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:02"
     }
   ]

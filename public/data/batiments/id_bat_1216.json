@@ -29,12 +29,44 @@
     "fenetre",
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "chambranle",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "grille",
+    "heurtoir",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "vantail",
+    "vitrail"
+  ],
   "photos": [
     {
       "id_pic": "Grenelle-17_7_§1",
       "IndexJantzen": [
         "fenetre",
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "vantail",
+        "mascaron",
+        "sculpture",
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "vitrail",
+        "pierre de taille",
+        "chambranle",
+        "balustrade",
+        "grille",
+        "heurtoir"
       ],
       "dateCapture": "2005:05:28"
     },
@@ -43,6 +75,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:28"
     }
   ]

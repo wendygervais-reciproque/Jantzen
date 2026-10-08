@@ -24,10 +24,22 @@
   "image_ref": "Archives-58_3_§1",
   "terme_jantzen_bat": [
     "toiture",
-    "fenetre",
     "façade-d'angle",
+    "tour",
     "sculpture",
-    "tour"
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc brisé",
+    "ardoise",
+    "fenêtre",
+    "pierre de taille",
+    "sculpture",
+    "souche de cheminée",
+    "toit en pavillon",
+    "tour",
+    "volet",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -36,6 +48,18 @@
         "façade-d'angle",
         "tour"
       ],
+      "IndexTorneh": [
+        "tour",
+        "épi de faîtage",
+        "souche de cheminée",
+        "fenêtre",
+        "pierre de taille",
+        "ardoise",
+        "sculpture",
+        "toit en pavillon",
+        "arc brisé",
+        "volet"
+      ],
       "dateCapture": "2006:08:30"
     },
     {
@@ -43,6 +67,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:08:30"
     },
     {
@@ -51,6 +76,7 @@
         "fenetre",
         "tour"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:08:30"
     },
     {
@@ -58,6 +84,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:08:30"
     },
     {
@@ -66,6 +93,7 @@
         "sculpture",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:22"
     },
     {
@@ -74,6 +102,7 @@
         "façade-d'angle",
         "tour"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:22"
     },
     {
@@ -81,6 +110,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:22"
     },
     {
@@ -89,6 +119,7 @@
         "toiture",
         "tour"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:22"
     },
     {
@@ -96,6 +127,7 @@
       "IndexJantzen": [
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:22"
     }
   ]

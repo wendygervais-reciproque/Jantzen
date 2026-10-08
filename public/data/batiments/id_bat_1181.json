@@ -22,8 +22,24 @@
   "image_ref": "Haussmann-168_8_§1",
   "terme_jantzen_bat": [
     "fenetre",
-    "lucarne",
-    "porte-bois"
+    "porte-bois",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "auvent",
+    "balcon",
+    "balustrade",
+    "fenêtre",
+    "garde-corps",
+    "mascaron",
+    "mur-boutant",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "vantail",
+    "volet"
   ],
   "photos": [
     {
@@ -32,6 +48,22 @@
         "fenetre",
         "porte-bois"
       ],
+      "IndexTorneh": [
+        "porte",
+        "arc",
+        "arc en plein cintre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "volet",
+        "mascaron",
+        "pierre de taille",
+        "vantail",
+        "mur-boutant",
+        "auvent",
+        "sculpture"
+      ],
       "dateCapture": "2006:06:17"
     },
     {
@@ -39,6 +71,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:03:23"
     }
   ]

@@ -22,19 +22,37 @@
   "image_ref": "Verzy_av_8_17_§1",
   "terme_jantzen_bat": [
     "toiture",
-    "fenetre",
-    "lucarne",
-    "porte-fer",
-    "façade-d'angle",
-    "sculpture",
+    "balcon",
     "mosaique",
+    "façade-d'angle",
+    "porte-fer",
+    "sculpture",
     "clé",
     "fenetre-d'angle",
+    "fenetre",
+    "lucarne",
     "brique",
     "lucarne-d'angle",
-    "décor",
+    "colonne",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
     "balcon",
-    "colonne"
+    "balustrade",
+    "brique",
+    "corniche",
+    "céramique",
+    "fenêtre",
+    "fer forgé",
+    "frise",
+    "garde-corps",
+    "oriel",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "toit en pavillon",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -43,6 +61,24 @@
         "brique",
         "façade-d'angle",
         "mosaique"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "porte-fenêtre",
+        "volet",
+        "balustrade",
+        "frise",
+        "céramique",
+        "brique",
+        "oriel",
+        "souche de cheminée",
+        "toit en pavillon",
+        "corniche",
+        "arc en plein cintre",
+        "travée",
+        "fer forgé"
       ],
       "dateCapture": "2009:03:16"
     },
@@ -54,6 +90,7 @@
         "décor",
         "mosaique"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:12"
     },
     {
@@ -63,6 +100,7 @@
         "lucarne-d'angle",
         "mosaique"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:12"
     },
     {
@@ -71,6 +109,7 @@
         "brique",
         "mosaique"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:03:20"
     },
     {
@@ -81,6 +120,7 @@
         "fenetre-d'angle",
         "mosaique"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:03:16"
     },
     {
@@ -91,6 +131,7 @@
         "fenetre-d'angle",
         "mosaique"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:03:16"
     },
     {
@@ -101,6 +142,7 @@
         "fenetre",
         "mosaique"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:03:20"
     },
     {
@@ -111,6 +153,7 @@
         "fenetre",
         "mosaique"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:03:20"
     },
     {
@@ -121,6 +164,7 @@
         "lucarne",
         "mosaique"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:05:05"
     },
     {
@@ -131,6 +175,7 @@
         "lucarne",
         "mosaique"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:05:05"
     },
     {
@@ -141,6 +186,7 @@
         "lucarne",
         "mosaique"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:05:05"
     },
     {
@@ -150,6 +196,7 @@
         "fenetre",
         "mosaique"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:05:05"
     },
     {
@@ -159,6 +206,7 @@
         "fenetre",
         "mosaique"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:03:20"
     },
     {
@@ -169,6 +217,7 @@
         "mosaique",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:03:16"
     },
     {
@@ -178,6 +227,7 @@
         "fenetre",
         "mosaique"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:03:20"
     },
     {
@@ -187,6 +237,7 @@
         "fenetre",
         "mosaique"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:05:05"
     },
     {
@@ -195,6 +246,7 @@
         "brique",
         "mosaique"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:12"
     },
     {
@@ -205,6 +257,7 @@
         "fenetre-d'angle",
         "mosaique"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:03:16"
     },
     {
@@ -213,6 +266,7 @@
         "brique",
         "mosaique"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:10"
     },
     {
@@ -222,6 +276,7 @@
         "mosaique",
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:12"
     },
     {
@@ -231,6 +286,7 @@
         "mosaique",
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:05:05"
     },
     {
@@ -241,6 +297,7 @@
         "mosaique",
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:05:05"
     },
     {
@@ -248,6 +305,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:12"
     },
     {
@@ -255,6 +313,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:12"
     },
     {
@@ -265,6 +324,7 @@
         "fenetre-d'angle",
         "mosaique"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:03:16"
     },
     {
@@ -274,6 +334,7 @@
         "fenetre",
         "mosaique"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:03:20"
     },
     {
@@ -283,6 +344,7 @@
         "fenetre",
         "mosaique"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:03:20"
     },
     {
@@ -295,6 +357,7 @@
         "lucarne-d'angle",
         "mosaique"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:03:20"
     },
     {
@@ -305,6 +368,7 @@
         "décor",
         "mosaique"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:05:05"
     }
   ]

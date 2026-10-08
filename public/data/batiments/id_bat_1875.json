@@ -28,15 +28,55 @@
   "WPfr": null,
   "image_ref": "Lamballe-26_16_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "sculpture",
+    "fenetre",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "avant-corps",
+    "baie",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "garde-corps",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "souche de cheminée",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Lamballe-26_16_§1",
       "IndexJantzen": [
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "baie",
+        "balcon",
+        "balustrade",
+        "bandeau",
+        "corniche",
+        "fenêtre",
+        "garde-corps",
+        "mascaron",
+        "pierre de taille",
+        "volet",
+        "porte",
+        "arc en plein cintre",
+        "souche de cheminée",
+        "mansarde",
+        "oculus",
+        "travée",
+        "avant-corps",
+        "pilastre"
       ],
       "dateCapture": "2005:05:10"
     },
@@ -47,6 +87,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:10"
     },
     {
@@ -54,6 +95,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:10"
     },
     {
@@ -63,6 +105,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:10"
     }
   ]

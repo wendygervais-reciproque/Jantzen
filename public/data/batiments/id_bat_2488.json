@@ -36,11 +36,37 @@
     "clé",
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "arc",
+    "balcon",
+    "fer forgé",
+    "grille",
+    "heurtoir",
+    "mascaron",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Paix-4_2_§1",
       "IndexJantzen": [
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "portail",
+        "arc",
+        "sculpture",
+        "mascaron",
+        "fer forgé",
+        "grille",
+        "pierre de taille",
+        "vantail",
+        "balcon",
+        "heurtoir"
       ],
       "dateCapture": "2004:09:11"
     },
@@ -49,6 +75,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:19"
     },
     {
@@ -57,6 +84,7 @@
         "clé",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:19"
     },
     {
@@ -64,6 +92,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:04:03"
     }
   ]

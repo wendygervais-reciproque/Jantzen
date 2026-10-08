@@ -25,11 +25,37 @@
     "clé",
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "arc en anse de panier",
+    "fenêtre",
+    "fer forgé",
+    "grille",
+    "heurtoir",
+    "mascaron",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Nesle-12_6_§1",
       "IndexJantzen": [
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "portail",
+        "arc en anse de panier",
+        "vantail",
+        "fer forgé",
+        "heurtoir",
+        "pierre de taille",
+        "fenêtre",
+        "grille",
+        "sculpture",
+        "mascaron"
       ],
       "dateCapture": "2005:05:23"
     },
@@ -40,6 +66,7 @@
         "porte-bois",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:23"
     }
   ]

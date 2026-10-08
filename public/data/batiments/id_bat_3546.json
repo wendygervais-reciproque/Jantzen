@@ -23,11 +23,35 @@
   "terme_jantzen_bat": [
     "lucarne-d'angle"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "corniche",
+    "fenêtre",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "pierre de taille",
+    "souche de cheminée",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Seine-77_6_§1",
       "IndexJantzen": [
         "lucarne-d'angle"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "lucarne",
+        "mansarde",
+        "souche de cheminée",
+        "corniche",
+        "garde-corps",
+        "volet",
+        "pierre de taille",
+        "balcon",
+        "arc en plein cintre"
       ],
       "dateCapture": "2006:05:11"
     },
@@ -36,6 +60,7 @@
       "IndexJantzen": [
         "lucarne-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:05:11"
     }
   ]

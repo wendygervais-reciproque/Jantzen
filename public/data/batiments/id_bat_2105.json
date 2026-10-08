@@ -21,10 +21,24 @@
   "WPfr": null,
   "image_ref": "Fizeau-3_15_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "brique",
     "console",
+    "fenetre",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "brique",
+    "chaîne d'angle",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mansarde",
+    "oculus",
+    "toit-terrasse",
+    "volet"
   ],
   "photos": [
     {
@@ -33,6 +47,20 @@
         "brique",
         "décor",
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "arc en plein cintre",
+        "fenêtre",
+        "brique",
+        "balustrade",
+        "chaîne d'angle",
+        "volet",
+        "fer forgé",
+        "toit-terrasse",
+        "mansarde",
+        "oculus"
       ],
       "dateCapture": "2004:07:13"
     },
@@ -43,6 +71,7 @@
         "décor",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:13"
     },
     {
@@ -51,6 +80,7 @@
         "brique",
         "console"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:13"
     }
   ]

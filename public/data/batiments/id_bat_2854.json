@@ -24,12 +24,38 @@
     "sculpture",
     "console"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "chapiteau ionique",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "modillon",
+    "pierre de taille",
+    "vantail",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Chantiers-5_5_§1",
       "IndexJantzen": [
         "console",
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "corniche",
+        "modillon",
+        "chapiteau ionique",
+        "pierre de taille",
+        "fenêtre",
+        "volet",
+        "vantail"
       ],
       "dateCapture": "2005:06:08"
     }

@@ -28,9 +28,21 @@
   "WPfr": null,
   "image_ref": "Grenelle-46_7_§1",
   "terme_jantzen_bat": [
-    "sculpture",
     "chimère",
+    "sculpture",
     "console"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "balcon",
+    "balustrade",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "pierre de taille",
+    "porte-fenêtre",
+    "sculpture",
+    "volet"
   ],
   "photos": [
     {
@@ -39,6 +51,18 @@
         "chimère",
         "console",
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "sculpture",
+        "porte-fenêtre",
+        "volet",
+        "pierre de taille",
+        "arc",
+        "mascaron"
       ],
       "dateCapture": "2005:05:28"
     }

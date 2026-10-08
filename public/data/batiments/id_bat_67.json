@@ -27,11 +27,37 @@
     "façade",
     "tour"
   ],
+  "terme_torneh_bat": [
+    "balustrade",
+    "fenêtre",
+    "garde-corps",
+    "perron",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "sculpture",
+    "tour",
+    "vitrail",
+    "épi de faîtage"
+  ],
   "photos": [
     {
       "id_pic": "St-Jean-Dumas-Eglise_20_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "tour",
+        "sculpture",
+        "portail",
+        "porte",
+        "vitrail",
+        "fenêtre",
+        "balustrade",
+        "garde-corps",
+        "perron",
+        "épi de faîtage",
+        "pierre de taille"
       ],
       "dateCapture": "2005:07:16"
     },
@@ -40,6 +66,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:16"
     },
     {
@@ -48,6 +75,7 @@
         "façade",
         "tour"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:16"
     }
   ]

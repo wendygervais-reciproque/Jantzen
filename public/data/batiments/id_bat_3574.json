@@ -35,6 +35,26 @@
     "fenetre",
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "modillon",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "souche de cheminée",
+    "épi de faîtage"
+  ],
   "photos": [
     {
       "id_pic": "Raynouard-7b_16_§1",
@@ -42,6 +62,7 @@
         "fenetre",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:08:25"
     },
     {
@@ -50,12 +71,33 @@
         "fenetre",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:08:25"
     },
     {
       "id_pic": "Raynouard-7b_16_§3",
       "IndexJantzen": [
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "fronton",
+        "lucarne",
+        "mansarde",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "corniche",
+        "fenêtre",
+        "pilastre",
+        "chambranle",
+        "ardoise",
+        "mascaron",
+        "pierre de taille",
+        "souche de cheminée",
+        "fer forgé",
+        "oculus",
+        "modillon",
+        "épi de faîtage"
       ],
       "dateCapture": "2007:08:25"
     }

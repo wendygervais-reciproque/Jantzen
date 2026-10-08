@@ -21,17 +21,57 @@
   "WPfr": null,
   "image_ref": "St-Honore-374_1_§1",
   "terme_jantzen_bat": [
+    "balcon",
     "fenetre",
     "lucarne",
     "façade",
-    "balcon",
     "fronton"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "toit à deux versants",
+    "vantail",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "St-Honore-374_1_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fronton",
+        "fenêtre",
+        "lucarne",
+        "mansarde",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "volet",
+        "porte",
+        "portail",
+        "arc en plein cintre",
+        "vantail",
+        "corniche",
+        "bandeau",
+        "pierre de taille",
+        "toit à deux versants",
+        "ardoise",
+        "fer forgé"
       ],
       "dateCapture": "2010:04:18"
     },
@@ -42,6 +82,7 @@
         "fenetre",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:04:18"
     },
     {
@@ -51,6 +92,7 @@
         "fronton",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:04:18"
     }
   ]

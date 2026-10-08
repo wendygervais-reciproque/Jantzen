@@ -24,12 +24,36 @@
     "fenetre",
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "arc",
+    "balustrade",
+    "chambranle",
+    "gros appareil",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "porte-fenêtre",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Peterhof-2_17_§1",
       "IndexJantzen": [
         "fenetre",
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "porte-fenêtre",
+        "vantail",
+        "arc",
+        "chambranle",
+        "pierre de taille",
+        "gros appareil",
+        "balustrade",
+        "sculpture",
+        "mascaron"
       ],
       "dateCapture": "2009:03:16"
     }

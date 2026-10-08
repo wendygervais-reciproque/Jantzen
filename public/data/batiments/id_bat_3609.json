@@ -24,12 +24,38 @@
     "oeil-de-boeuf",
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "corniche",
+    "fer forgé",
+    "garde-corps",
+    "oculus",
+    "pilastre",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "toit à deux versants",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Condorcet-8_9_§1",
       "IndexJantzen": [
         "lucarne",
         "oeil-de-boeuf"
+      ],
+      "IndexTorneh": [
+        "oculus",
+        "ardoise",
+        "toit à deux versants",
+        "corniche",
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "porte-fenêtre",
+        "volet",
+        "pilastre",
+        "souche de cheminée"
       ],
       "dateCapture": "2010:10:14"
     }

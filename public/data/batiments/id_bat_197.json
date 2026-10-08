@@ -30,11 +30,43 @@
   "terme_jantzen_bat": [
     "oriel"
   ],
+  "terme_torneh_bat": [
+    "arc",
+    "balcon",
+    "balustrade",
+    "brique",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "oriel",
+    "pierre de taille",
+    "porte-fenêtre",
+    "sculpture",
+    "travée",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Charles-Dickens1_16_§1",
       "IndexJantzen": [
         "oriel"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "porte-fenêtre",
+        "volet",
+        "arc",
+        "brique",
+        "pierre de taille",
+        "sculpture",
+        "travée",
+        "fer forgé",
+        "oriel",
+        "corniche"
       ],
       "dateCapture": "2005:06:07"
     }

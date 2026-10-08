@@ -24,12 +24,38 @@
     "sculpture",
     "console"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "brique",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "modillon",
+    "pierre de taille",
+    "porte-fenêtre",
+    "sculpture"
+  ],
   "photos": [
     {
       "id_pic": "General-de-Larminat-8_15_§1",
       "IndexJantzen": [
         "console",
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "brique",
+        "pierre de taille",
+        "balustrade",
+        "porte-fenêtre",
+        "fenêtre",
+        "corniche",
+        "sculpture",
+        "modillon"
       ],
       "dateCapture": "2005:06:09"
     }

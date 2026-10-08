@@ -23,11 +23,43 @@
   "terme_jantzen_bat": [
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "arc brisé",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mur-boutant",
+    "oriel",
+    "pierre de taille",
+    "souche de cheminée",
+    "toit à deux versants"
+  ],
   "photos": [
     {
       "id_pic": "St-Jacques-pl-76_14_§1",
       "IndexJantzen": [
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "lucarne",
+        "mansarde",
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "souche de cheminée",
+        "ardoise",
+        "fer forgé",
+        "balustrade",
+        "oriel",
+        "pierre de taille",
+        "toit à deux versants",
+        "mur-boutant",
+        "arc brisé"
       ],
       "dateCapture": "2005:08:07"
     }

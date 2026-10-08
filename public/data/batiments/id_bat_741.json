@@ -28,12 +28,30 @@
   "WPfr": null,
   "image_ref": "Reaumur-126_2_§1",
   "terme_jantzen_bat": [
-    "lucarne",
-    "métal",
+    "verrière",
     "dome",
     "clé",
-    "verrière",
+    "lucarne",
+    "métal",
     "colonne"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "chapiteau",
+    "chaîne d'angle",
+    "colonne",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "modillon",
+    "pierre de taille",
+    "pilastre",
+    "travée",
+    "verrière"
   ],
   "photos": [
     {
@@ -41,6 +59,24 @@
       "IndexJantzen": [
         "métal",
         "verrière"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "arc en plein cintre",
+        "chaîne d'angle",
+        "corniche",
+        "modillon",
+        "colonne",
+        "pilastre",
+        "fer forgé",
+        "verrière",
+        "travée",
+        "chapiteau",
+        "mascaron",
+        "pierre de taille"
       ],
       "dateCapture": "2004:04:25"
     },
@@ -50,6 +86,7 @@
         "métal",
         "verrière"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:04:25"
     },
     {
@@ -58,6 +95,7 @@
         "colonne",
         "métal"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:08:21"
     },
     {
@@ -66,6 +104,7 @@
         "métal",
         "verrière"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:08:21"
     },
     {
@@ -74,6 +113,7 @@
         "dome",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:17"
     },
     {
@@ -82,6 +122,7 @@
         "dome",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:17"
     },
     {
@@ -91,6 +132,7 @@
         "dome",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:08:21"
     }
   ]

@@ -37,10 +37,25 @@
   "image_ref": "Courcelles-bd-14_17_§1",
   "terme_jantzen_bat": [
     "porte-fer",
-    "fenetre",
     "sculpture",
     "clé",
+    "fenetre",
     "porte-fer-hall"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "chambranle",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "gros appareil",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "sculpture",
+    "vitrail"
   ],
   "photos": [
     {
@@ -49,6 +64,21 @@
         "fenetre",
         "porte-fer"
       ],
+      "IndexTorneh": [
+        "arc en plein cintre",
+        "balcon",
+        "balustrade",
+        "sculpture",
+        "portail",
+        "porte",
+        "fer forgé",
+        "pierre de taille",
+        "fenêtre",
+        "garde-corps",
+        "chambranle",
+        "gros appareil",
+        "vitrail"
+      ],
       "dateCapture": "2006:05:04"
     },
     {
@@ -56,6 +86,7 @@
       "IndexJantzen": [
         "porte-fer-hall"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:09"
     },
     {
@@ -64,6 +95,7 @@
         "clé",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": null
     }
   ]

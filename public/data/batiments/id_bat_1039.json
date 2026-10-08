@@ -28,17 +28,61 @@
   "WPfr": null,
   "image_ref": "Jean-Goujon-15_8_§1",
   "terme_jantzen_bat": [
-    "façade",
-    "console",
+    "tour",
     "sculpture",
-    "chimère",
-    "tour"
+    "console",
+    "façade",
+    "chimère"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "arcade",
+    "chapiteau",
+    "colonne",
+    "corniche",
+    "coupole",
+    "dôme",
+    "fenêtre",
+    "frise",
+    "fronton",
+    "grille",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "sculpture",
+    "toit en pavillon",
+    "tour",
+    "édicule",
+    "épi de faîtage"
   ],
   "photos": [
     {
       "id_pic": "Jean-Goujon-15_8_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "coupole",
+        "dôme",
+        "arc en plein cintre",
+        "arcade",
+        "colonne",
+        "chapiteau",
+        "fronton",
+        "corniche",
+        "frise",
+        "sculpture",
+        "pierre de taille",
+        "fenêtre",
+        "porte",
+        "grille",
+        "tour",
+        "édicule",
+        "pilastre",
+        "toit en pavillon",
+        "épi de faîtage",
+        "oculus"
       ],
       "dateCapture": "2005:08:04"
     },
@@ -47,6 +91,7 @@
       "IndexJantzen": [
         "tour"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:04"
     },
     {
@@ -54,6 +99,7 @@
       "IndexJantzen": [
         "tour"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:04"
     },
     {
@@ -63,6 +109,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:04"
     }
   ]

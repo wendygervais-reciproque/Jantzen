@@ -30,11 +30,31 @@
   "terme_jantzen_bat": [
     "porte-fer"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "fer forgé",
+    "garde-corps",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Alesia-147_14_§1",
       "IndexJantzen": [
         "porte-fer"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "arc en plein cintre",
+        "fer forgé",
+        "vantail",
+        "sculpture",
+        "pierre de taille",
+        "balcon",
+        "garde-corps"
       ],
       "dateCapture": "2005:08:31"
     }

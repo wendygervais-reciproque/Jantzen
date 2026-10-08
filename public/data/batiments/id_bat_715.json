@@ -32,14 +32,40 @@
   "WPfr": null,
   "image_ref": "Reaumur-121_2_§1",
   "terme_jantzen_bat": [
+    "dome",
+    "façade-d'angle",
+    "oriel",
     "fenetre",
     "façade",
-    "garde-corps",
-    "façade-d'angle",
     "métal",
-    "dome",
-    "oriel",
+    "garde-corps",
     "colonne"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "marquise",
+    "mascaron",
+    "oculus",
+    "oriel",
+    "pierre de taille",
+    "porte",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "toit à deux versants",
+    "tour",
+    "travée",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -47,6 +73,32 @@
       "IndexJantzen": [
         "dome",
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "dôme",
+        "oriel",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "porte-fenêtre",
+        "mansarde",
+        "lucarne",
+        "souche de cheminée",
+        "corniche",
+        "bandeau",
+        "pierre de taille",
+        "mascaron",
+        "arc en plein cintre",
+        "fer forgé",
+        "oculus",
+        "épi de faîtage",
+        "toit à deux versants",
+        "tour",
+        "travée",
+        "marquise",
+        "porte",
+        "ardoise"
       ],
       "dateCapture": "2004:08:21"
     },
@@ -56,6 +108,7 @@
         "métal",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:08:21"
     },
     {
@@ -64,6 +117,7 @@
         "métal",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:05"
     },
     {
@@ -72,6 +126,7 @@
         "métal",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:08:21"
     },
     {
@@ -79,6 +134,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:05"
     },
     {
@@ -86,6 +142,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:05"
     },
     {
@@ -93,6 +150,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:04:25"
     },
     {
@@ -101,6 +159,7 @@
         "colonne",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:05"
     },
     {
@@ -110,6 +169,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:05"
     },
     {
@@ -119,6 +179,7 @@
         "façade-d'angle",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:04:25"
     },
     {
@@ -128,6 +189,7 @@
         "façade-d'angle",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:05"
     },
     {
@@ -137,6 +199,7 @@
         "façade-d'angle",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:05"
     }
   ]

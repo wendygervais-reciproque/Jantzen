@@ -23,10 +23,34 @@
   "WPfr": null,
   "image_ref": "Wagram-129_17_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "brique",
-    "porte-bois",
-    "façade-d'angle"
+    "fenetre",
+    "façade-d'angle",
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "chambranle",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "mur-boutant",
+    "oculus",
+    "pierre de taille",
+    "porte",
+    "souche de cheminée",
+    "toit à deux versants",
+    "tuile",
+    "volet"
   ],
   "photos": [
     {
@@ -34,6 +58,30 @@
       "IndexJantzen": [
         "brique",
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "bandeau",
+        "brique",
+        "chambranle",
+        "chaîne d'angle",
+        "corniche",
+        "fenêtre",
+        "fronton",
+        "garde-corps",
+        "lucarne",
+        "mansarde",
+        "mascaron",
+        "oculus",
+        "pierre de taille",
+        "porte",
+        "souche de cheminée",
+        "toit à deux versants",
+        "tuile",
+        "volet",
+        "mur-boutant",
+        "ardoise"
       ],
       "dateCapture": null
     },
@@ -43,6 +91,7 @@
         "fenetre",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": null
     }
   ]

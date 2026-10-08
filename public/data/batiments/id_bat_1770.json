@@ -29,9 +29,21 @@
   "image_ref": "Pyrenees-237_20_§1",
   "terme_jantzen_bat": [
     "toiture",
+    "sculpture",
+    "décor",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "balcon",
+    "balustrade",
+    "brique",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
     "lucarne",
     "sculpture",
-    "décor"
+    "souche de cheminée"
   ],
   "photos": [
     {
@@ -41,6 +53,18 @@
         "lucarne",
         "sculpture",
         "toiture"
+      ],
+      "IndexTorneh": [
+        "souche de cheminée",
+        "lucarne",
+        "fronton",
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "brique",
+        "sculpture",
+        "arc",
+        "balustrade"
       ],
       "dateCapture": "2005:09:04"
     }

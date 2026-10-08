@@ -33,10 +33,35 @@
   "image_ref": "Bergere-14_9_§1_Dx",
   "terme_jantzen_bat": [
     "porte-fer",
-    "façade",
     "tourelle",
+    "façade",
     "voie",
     "colonne"
+  ],
+  "terme_torneh_bat": [
+    "acrotère",
+    "arc",
+    "arc en plein cintre",
+    "baie",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "colonne",
+    "corniche",
+    "fenêtre",
+    "frise",
+    "fronton",
+    "garde-corps",
+    "grille",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "portail",
+    "sculpture",
+    "toit à deux versants",
+    "tour",
+    "volet",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -45,6 +70,31 @@
         "façade",
         "voie"
       ],
+      "IndexTorneh": [
+        "fronton",
+        "sculpture",
+        "arc en plein cintre",
+        "arc",
+        "colonne",
+        "pilastre",
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "oculus",
+        "corniche",
+        "frise",
+        "toit à deux versants",
+        "tour",
+        "épi de faîtage",
+        "pierre de taille",
+        "grille",
+        "portail",
+        "baie",
+        "volet",
+        "bandeau",
+        "acrotère",
+        "balustrade"
+      ],
       "dateCapture": "2004:05:15"
     },
     {
@@ -52,6 +102,7 @@
       "IndexJantzen": [
         "tourelle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:05:15"
     },
     {
@@ -60,6 +111,7 @@
         "colonne",
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:05:15"
     }
   ]

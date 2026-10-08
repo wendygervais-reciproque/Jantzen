@@ -32,17 +32,61 @@
   "WPfr": null,
   "image_ref": "Ternes-av-20_17_§1-Rs",
   "terme_jantzen_bat": [
+    "clé",
     "fenetre",
     "lucarne",
     "façade",
-    "clé",
     "fronton"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "avant-corps",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Ternes-av-20_17_§1-Rs",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "mansarde",
+        "lucarne",
+        "fronton",
+        "avant-corps",
+        "pilastre",
+        "corniche",
+        "bandeau",
+        "arc en plein cintre",
+        "souche de cheminée",
+        "ardoise",
+        "pierre de taille",
+        "travée",
+        "mascaron",
+        "volet",
+        "porte-fenêtre",
+        "oculus"
       ],
       "dateCapture": "2008:02:12"
     },
@@ -52,6 +96,7 @@
         "fenetre",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:12"
     },
     {
@@ -60,6 +105,7 @@
         "fenetre",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:03:14"
     },
     {
@@ -68,6 +114,7 @@
         "fronton",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:12"
     },
     {
@@ -76,6 +123,7 @@
         "fronton",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2013:02:19"
     },
     {
@@ -84,6 +132,7 @@
         "clé",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:12"
     }
   ]

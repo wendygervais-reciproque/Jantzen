@@ -25,6 +25,19 @@
     "sculpture",
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "arc brisé",
+    "balcon",
+    "brique",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "vantail",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Blomet-12_15_§1",
@@ -32,6 +45,19 @@
         "brique",
         "porte-bois",
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "arc brisé",
+        "porte",
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "volet",
+        "brique",
+        "pierre de taille",
+        "sculpture",
+        "vantail",
+        "fer forgé"
       ],
       "dateCapture": "2005:09:03"
     },
@@ -42,6 +68,7 @@
         "porte-bois",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:09:03"
     }
   ]

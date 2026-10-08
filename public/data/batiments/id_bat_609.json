@@ -22,10 +22,29 @@
   "image_ref": "Ternes-av-12_17_§1",
   "terme_jantzen_bat": [
     "oeil-de-boeuf",
-    "fenetre",
-    "lucarne",
+    "dome",
     "façade-d'angle",
-    "dome"
+    "fenetre",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "auvent",
+    "balcon",
+    "balustrade",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "oculus",
+    "pierre de taille",
+    "souche de cheminée",
+    "tour",
+    "travée",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -33,6 +52,25 @@
       "IndexJantzen": [
         "dome",
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "dôme",
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "lucarne",
+        "balustrade",
+        "souche de cheminée",
+        "pierre de taille",
+        "fronton",
+        "mansarde",
+        "épi de faîtage",
+        "corniche",
+        "travée",
+        "auvent",
+        "oculus",
+        "ardoise",
+        "tour"
       ],
       "dateCapture": "2007:03:14"
     },
@@ -42,6 +80,7 @@
         "fenetre",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:03:14"
     },
     {
@@ -50,6 +89,7 @@
         "dome",
         "façade-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:03:28"
     },
     {
@@ -58,6 +98,7 @@
         "dome",
         "façade-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:03:14"
     },
     {
@@ -66,6 +107,7 @@
         "dome",
         "façade-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2013:02:19"
     },
     {
@@ -74,6 +116,7 @@
         "dome",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:09:12"
     },
     {
@@ -82,6 +125,7 @@
         "dome",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:09:12"
     },
     {
@@ -91,6 +135,7 @@
         "lucarne",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:09:12"
     },
     {
@@ -100,6 +145,7 @@
         "lucarne",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:11:06"
     }
   ]

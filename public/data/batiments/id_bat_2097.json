@@ -21,16 +21,60 @@
   "WPfr": null,
   "image_ref": "Capitaine-Olchanski-3_16_§1",
   "terme_jantzen_bat": [
-    "fenetre-d'angle",
-    "lucarne-d'angle",
     "balcon",
+    "lucarne-d'angle",
+    "fenetre-d'angle",
     "façade-d'angle"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "bossage",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mansarde",
+    "mascaron",
+    "oriel",
+    "pierre de taille",
+    "pilastre",
+    "souche de cheminée",
+    "toit en pavillon",
+    "tour",
+    "travée",
+    "vitrail",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Capitaine-Olchanski-3_16_§1",
       "IndexJantzen": [
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "bandeau",
+        "corniche",
+        "dôme",
+        "fenêtre",
+        "fer forgé",
+        "garde-corps",
+        "mansarde",
+        "pierre de taille",
+        "souche de cheminée",
+        "toit en pavillon",
+        "volet",
+        "oriel",
+        "bossage",
+        "pilastre",
+        "mascaron",
+        "tour",
+        "travée",
+        "vitrail"
       ],
       "dateCapture": "2005:05:28"
     },
@@ -39,6 +83,7 @@
       "IndexJantzen": [
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:18"
     },
     {
@@ -47,6 +92,7 @@
         "balcon",
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:18"
     },
     {
@@ -55,6 +101,7 @@
         "balcon",
         "lucarne-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:01"
     }
   ]

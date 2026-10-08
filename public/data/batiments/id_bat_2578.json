@@ -24,15 +24,49 @@
   "image_ref": "Gassendi-40_14_§1",
   "terme_jantzen_bat": [
     "sculpture",
-    "fenetre",
     "console",
+    "fenetre",
     "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "pierre de taille",
+    "porte-fenêtre",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Gassendi-40_14_§1",
       "IndexJantzen": [
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "arc en plein cintre",
+        "lucarne",
+        "mansarde",
+        "ardoise",
+        "balustrade",
+        "pierre de taille",
+        "porte-fenêtre",
+        "mascaron",
+        "bandeau",
+        "corniche",
+        "fer forgé",
+        "volet"
       ],
       "dateCapture": "2004:07:28"
     },
@@ -41,6 +75,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:28"
     },
     {
@@ -50,6 +85,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:28"
     },
     {
@@ -58,6 +94,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:28"
     },
     {
@@ -65,6 +102,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:29"
     }
   ]

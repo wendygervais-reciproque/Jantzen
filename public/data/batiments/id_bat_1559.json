@@ -24,11 +24,45 @@
     "lucarne-d'angle",
     "façade-d'angle"
   ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "bandeau",
+    "brique",
+    "chaîne d'angle",
+    "corniche",
+    "faîtage",
+    "fenêtre",
+    "fer forgé",
+    "grille",
+    "lucarne",
+    "mansarde",
+    "oculus",
+    "pierre de taille",
+    "souche de cheminée",
+    "toit à deux versants"
+  ],
   "photos": [
     {
       "id_pic": "Assas-20_6_§1",
       "IndexJantzen": [
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "lucarne",
+        "mansarde",
+        "ardoise",
+        "brique",
+        "pierre de taille",
+        "chaîne d'angle",
+        "corniche",
+        "bandeau",
+        "souche de cheminée",
+        "toit à deux versants",
+        "fer forgé",
+        "grille",
+        "oculus",
+        "faîtage"
       ],
       "dateCapture": "2006:06:11"
     },
@@ -37,6 +71,7 @@
       "IndexJantzen": [
         "lucarne-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:11"
     }
   ]

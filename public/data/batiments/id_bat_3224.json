@@ -32,8 +32,20 @@
   "WPfr": null,
   "image_ref": "Archives-61_3_§1",
   "terme_jantzen_bat": [
-    "porte-fer",
-    "clé"
+    "clé",
+    "porte-fer"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "corniche",
+    "escalier",
+    "fer forgé",
+    "mascaron",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "sculpture",
+    "vantail"
   ],
   "photos": [
     {
@@ -41,6 +53,18 @@
       "IndexJantzen": [
         "clé",
         "porte-fer"
+      ],
+      "IndexTorneh": [
+        "portail",
+        "porte",
+        "arc en plein cintre",
+        "sculpture",
+        "mascaron",
+        "fer forgé",
+        "vantail",
+        "pierre de taille",
+        "escalier",
+        "corniche"
       ],
       "dateCapture": "2003:08:02"
     }

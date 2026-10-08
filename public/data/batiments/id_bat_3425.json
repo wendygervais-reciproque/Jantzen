@@ -21,9 +21,24 @@
   "WPfr": null,
   "image_ref": "Henri_Rochefort-7_17_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "façade",
-    "pignon"
+    "pignon",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "corniche",
+    "frise",
+    "garde-corps",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "souche de cheminée",
+    "toit à deux versants",
+    "volet",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -31,6 +46,21 @@
       "IndexJantzen": [
         "façade",
         "pignon"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "volet",
+        "porte",
+        "arc en plein cintre",
+        "corniche",
+        "pierre de taille",
+        "souche de cheminée",
+        "épi de faîtage",
+        "toit à deux versants",
+        "ardoise",
+        "frise",
+        "pilastre"
       ],
       "dateCapture": "2008:05:25"
     },
@@ -40,6 +70,7 @@
         "fenetre",
         "pignon"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:25"
     }
   ]

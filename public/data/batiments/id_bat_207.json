@@ -26,11 +26,59 @@
     "balcon",
     "façade-d'angle"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "cariatide",
+    "chapiteau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "toit à deux versants",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Chapelle-1_18_§1",
       "IndexJantzen": [
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "lucarne",
+        "oculus",
+        "ardoise",
+        "souche de cheminée",
+        "pierre de taille",
+        "arc en plein cintre",
+        "mansarde",
+        "corniche",
+        "garde-corps",
+        "volet",
+        "fronton",
+        "bandeau",
+        "chapiteau",
+        "pilastre",
+        "porte-fenêtre",
+        "fer forgé",
+        "toit à deux versants",
+        "mascaron",
+        "cariatide"
       ],
       "dateCapture": "2005:04:22"
     },
@@ -41,6 +89,7 @@
         "lucarne-d'angle",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:22"
     }
   ]

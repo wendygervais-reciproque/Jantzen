@@ -23,9 +23,20 @@
   "WPfr": null,
   "image_ref": "Frochot-2_9_§1",
   "terme_jantzen_bat": [
-    "porte-fer",
+    "façade",
     "verrière",
-    "façade"
+    "porte-fer"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "pierre de taille",
+    "souche de cheminée",
+    "toit à deux versants",
+    "vitrail"
   ],
   "photos": [
     {
@@ -34,6 +45,17 @@
         "façade",
         "verrière"
       ],
+      "IndexTorneh": [
+        "vitrail",
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "corniche",
+        "souche de cheminée",
+        "fer forgé",
+        "pierre de taille",
+        "toit à deux versants"
+      ],
       "dateCapture": "2005:04:11"
     },
     {
@@ -41,6 +63,7 @@
       "IndexJantzen": [
         "verrière"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:10:14"
     },
     {
@@ -48,6 +71,7 @@
       "IndexJantzen": [
         "verrière"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:11"
     },
     {
@@ -55,6 +79,7 @@
       "IndexJantzen": [
         "verrière"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:10:14"
     },
     {
@@ -62,6 +87,7 @@
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:11"
     }
   ]

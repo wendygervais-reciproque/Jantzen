@@ -21,11 +21,27 @@
   "WPfr": null,
   "image_ref": "Theophile-Gauthier-30_16_§1",
   "terme_jantzen_bat": [
-    "console",
-    "métal",
     "oriel",
+    "console",
     "brique",
+    "métal",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "oriel",
+    "pierre de taille",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -33,6 +49,22 @@
       "IndexJantzen": [
         "brique",
         "oriel"
+      ],
+      "IndexTorneh": [
+        "oriel",
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "balustrade",
+        "brique",
+        "pierre de taille",
+        "corniche",
+        "volet",
+        "travée",
+        "fer forgé",
+        "mascaron",
+        "chaîne d'angle",
+        "bandeau"
       ],
       "dateCapture": "2004:07:24"
     },
@@ -42,6 +74,7 @@
         "brique",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:24"
     },
     {
@@ -51,6 +84,7 @@
         "décor",
         "métal"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:24"
     }
   ]

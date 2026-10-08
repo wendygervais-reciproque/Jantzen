@@ -28,11 +28,45 @@
     "console",
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "arc",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "grille",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "soupirail",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Lancry-63_10_§1",
       "IndexJantzen": [
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "porte",
+        "vantail",
+        "arc",
+        "mascaron",
+        "sculpture",
+        "grille",
+        "fer forgé",
+        "pierre de taille",
+        "bandeau",
+        "corniche",
+        "soupirail"
       ],
       "dateCapture": "2005:05:11"
     },
@@ -43,6 +77,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:11"
     },
     {
@@ -50,6 +85,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:11"
     }
   ]

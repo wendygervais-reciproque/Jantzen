@@ -21,9 +21,21 @@
   "WPfr": null,
   "image_ref": "Hippolyte-Maindron-20b_14_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "brique",
+    "fenetre",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "brique",
+    "chambranle",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "marquise",
+    "mascaron",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -33,6 +45,18 @@
         "décor",
         "fenetre"
       ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "mascaron",
+        "fronton",
+        "chambranle",
+        "brique",
+        "travée",
+        "volet",
+        "marquise"
+      ],
       "dateCapture": "2005:08:31"
     },
     {
@@ -41,6 +65,7 @@
         "décor",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:31"
     },
     {
@@ -50,6 +75,7 @@
         "décor",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:31"
     },
     {
@@ -59,6 +85,7 @@
         "décor",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:31"
     }
   ]

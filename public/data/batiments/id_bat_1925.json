@@ -34,11 +34,33 @@
   "terme_jantzen_bat": [
     "porte-fer-hall"
   ],
+  "terme_torneh_bat": [
+    "arc",
+    "balcon",
+    "fer forgé",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "porte-fenêtre",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Bel-Air-27_12_§1",
       "IndexJantzen": [
         "porte-fer-hall"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "arc",
+        "mascaron",
+        "fer forgé",
+        "vantail",
+        "pierre de taille",
+        "balcon",
+        "sculpture",
+        "porte-fenêtre"
       ],
       "dateCapture": "2005:07:15"
     }

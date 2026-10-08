@@ -28,13 +28,38 @@
   "WPfr": null,
   "image_ref": "Pereire-239_17_§1",
   "terme_jantzen_bat": [
+    "oriel",
+    "sculpture",
     "fenetre",
     "lucarne",
     "façade",
-    "sculpture",
-    "oriel",
-    "décor",
-    "colonne"
+    "colonne",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc brisé",
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chapiteau",
+    "colonne",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "grille",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "modillon",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "toit en pavillon",
+    "volet"
   ],
   "photos": [
     {
@@ -42,6 +67,31 @@
       "IndexJantzen": [
         "façade",
         "oriel"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "porte-fenêtre",
+        "arc en plein cintre",
+        "arc brisé",
+        "mansarde",
+        "lucarne",
+        "souche de cheminée",
+        "toit en pavillon",
+        "pilastre",
+        "colonne",
+        "corniche",
+        "bandeau",
+        "mascaron",
+        "modillon",
+        "chapiteau",
+        "oculus",
+        "pierre de taille",
+        "grille",
+        "volet"
       ],
       "dateCapture": "2010:03:09"
     },
@@ -51,6 +101,7 @@
         "fenetre",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:03:09"
     },
     {
@@ -61,6 +112,7 @@
         "oriel",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:08:31"
     },
     {
@@ -69,6 +121,7 @@
         "colonne",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:08:31"
     },
     {
@@ -79,6 +132,7 @@
         "lucarne",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:03:02"
     }
   ]

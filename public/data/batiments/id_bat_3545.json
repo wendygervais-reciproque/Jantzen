@@ -21,11 +21,35 @@
   "WPfr": null,
   "image_ref": "Maubeuge-77_10_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "sculpture",
-    "porte-bois",
     "cariatide",
+    "fenetre",
+    "porte-bois",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "cariatide",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "linteau",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "porte-fenêtre",
+    "sculpture",
+    "souche de cheminée",
+    "toit en pavillon",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -33,6 +57,30 @@
       "IndexJantzen": [
         "décor",
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "volet",
+        "lucarne",
+        "mansarde",
+        "corniche",
+        "bandeau",
+        "pilastre",
+        "cariatide",
+        "porte",
+        "porte-fenêtre",
+        "souche de cheminée",
+        "mascaron",
+        "toit en pavillon",
+        "fer forgé",
+        "pierre de taille",
+        "sculpture",
+        "chambranle",
+        "travée",
+        "linteau"
       ],
       "dateCapture": "2005:04:11"
     },
@@ -44,6 +92,7 @@
         "porte-bois",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:11"
     }
   ]

@@ -24,11 +24,45 @@
     "façade",
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "auvent",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chapiteau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "frise",
+    "garde-corps",
+    "pilastre",
+    "portail",
+    "porte",
+    "travée",
+    "vitrail"
+  ],
   "photos": [
     {
       "id_pic": "Castellane-6_8_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "corniche",
+        "bandeau",
+        "pilastre",
+        "chapiteau",
+        "porte",
+        "vitrail",
+        "travée",
+        "fer forgé",
+        "frise",
+        "portail",
+        "auvent"
       ],
       "dateCapture": "2004:10:22"
     },
@@ -37,6 +71,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:10:22"
     }
   ]

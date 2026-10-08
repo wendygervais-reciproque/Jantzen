@@ -23,11 +23,29 @@
   "WPfr": null,
   "image_ref": "Fecamp-41_12_§1",
   "terme_jantzen_bat": [
+    "balcon",
     "façade-d'angle",
     "fenetre-d'angle",
     "brique",
-    "décor",
-    "balcon"
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "chéneau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "oriel",
+    "pierre de taille",
+    "souche de cheminée",
+    "toit à deux versants"
   ],
   "photos": [
     {
@@ -35,6 +53,24 @@
       "IndexJantzen": [
         "brique",
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "brique",
+        "fenêtre",
+        "garde-corps",
+        "lucarne",
+        "mansarde",
+        "pierre de taille",
+        "souche de cheminée",
+        "toit à deux versants",
+        "bandeau",
+        "arc en plein cintre",
+        "oriel",
+        "fer forgé",
+        "corniche",
+        "chéneau"
       ],
       "dateCapture": "2005:07:13"
     },
@@ -45,6 +81,7 @@
         "décor",
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:13"
     },
     {
@@ -54,6 +91,7 @@
         "brique",
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:13"
     },
     {
@@ -62,6 +100,7 @@
         "brique",
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:13"
     }
   ]

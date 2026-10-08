@@ -21,15 +21,51 @@
   "WPfr": null,
   "image_ref": "Madame-73_6_§1",
   "terme_jantzen_bat": [
+    "balcon",
     "fenetre",
-    "décor",
-    "balcon"
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "mascaron",
+    "modillon",
+    "pierre de taille",
+    "porte-fenêtre",
+    "sculpture",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Madame-73_6_§1",
       "IndexJantzen": [
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "volet",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fronton",
+        "corniche",
+        "modillon",
+        "mascaron",
+        "arc en plein cintre",
+        "pierre de taille",
+        "fer forgé",
+        "porte-fenêtre",
+        "sculpture",
+        "bandeau",
+        "travée"
       ],
       "dateCapture": "2004:09:07"
     },
@@ -38,6 +74,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:06"
     },
     {
@@ -46,6 +83,7 @@
         "balcon",
         "décor"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:06"
     },
     {
@@ -54,6 +92,7 @@
         "décor",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:06"
     }
   ]

@@ -23,11 +23,35 @@
   "terme_jantzen_bat": [
     "porte-fer"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Fleurs-qu-3b_4_§1",
       "IndexJantzen": [
         "porte-fer"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "arc en plein cintre",
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "mascaron",
+        "pierre de taille",
+        "vantail",
+        "balustrade",
+        "sculpture"
       ],
       "dateCapture": "2003:07:12"
     }

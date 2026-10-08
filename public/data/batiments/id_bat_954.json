@@ -24,12 +24,36 @@
     "sculpture",
     "console"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "brique",
+    "corniche",
+    "fer forgé",
+    "garde-corps",
+    "pierre de taille",
+    "porte-fenêtre",
+    "sculpture",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Tour-de-la-142_16_§1",
       "IndexJantzen": [
         "console",
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "porte-fenêtre",
+        "balustrade",
+        "brique",
+        "pierre de taille",
+        "sculpture",
+        "volet",
+        "corniche"
       ],
       "dateCapture": "2005:04:30"
     }

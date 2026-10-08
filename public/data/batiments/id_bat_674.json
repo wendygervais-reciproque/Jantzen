@@ -21,15 +21,45 @@
   "WPfr": null,
   "image_ref": "Juliette-Dodu-12_10_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "façade",
+    "fenetre",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "pierre de taille",
+    "souche de cheminée",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Juliette-Dodu-12_10_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "volet",
+        "lucarne",
+        "souche de cheminée",
+        "travée",
+        "bandeau",
+        "corniche",
+        "balustrade",
+        "fer forgé",
+        "pierre de taille",
+        "chambranle"
       ],
       "dateCapture": "2005:05:11"
     },
@@ -39,6 +69,7 @@
         "décor",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:11"
     }
   ]

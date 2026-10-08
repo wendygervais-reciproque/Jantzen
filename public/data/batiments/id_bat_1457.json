@@ -24,12 +24,42 @@
     "oeil-de-boeuf",
     "fenetre"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "brique",
+    "corniche",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "linteau",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "sculpture"
+  ],
   "photos": [
     {
       "id_pic": "Brosse-2_4_-88",
       "IndexJantzen": [
         "fenetre",
         "oeil-de-boeuf"
+      ],
+      "IndexTorneh": [
+        "oculus",
+        "pilastre",
+        "corniche",
+        "fronton",
+        "porte",
+        "sculpture",
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "pierre de taille",
+        "brique",
+        "mascaron",
+        "linteau"
       ],
       "dateCapture": "2007:05:24"
     }

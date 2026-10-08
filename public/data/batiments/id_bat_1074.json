@@ -32,18 +32,68 @@
   "WPfr": null,
   "image_ref": "Convention-154_15_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "façade",
-    "lucarne",
     "pignon",
+    "fenetre",
+    "lucarne",
+    "façade",
     "brique",
     "fronton"
+  ],
+  "terme_torneh_bat": [
+    "arc brisé",
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oriel",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "sculpture",
+    "toit à deux versants",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Convention-154_15_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "mansarde",
+        "lucarne",
+        "fronton",
+        "pierre de taille",
+        "brique",
+        "arc en plein cintre",
+        "arc brisé",
+        "corniche",
+        "bandeau",
+        "pilastre",
+        "oriel",
+        "travée",
+        "toit à deux versants",
+        "mascaron",
+        "porte",
+        "volet",
+        "chaîne d'angle",
+        "sculpture"
       ],
       "dateCapture": null
     },
@@ -52,6 +102,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:03:16"
     },
     {
@@ -61,6 +112,7 @@
         "façade",
         "fronton"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:03:16"
     },
     {
@@ -70,6 +122,7 @@
         "façade",
         "fronton"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:17"
     },
     {
@@ -81,6 +134,7 @@
         "lucarne",
         "pignon"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:03:16"
     },
     {
@@ -91,6 +145,7 @@
         "fronton",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:17"
     }
   ]

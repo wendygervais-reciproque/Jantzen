@@ -24,19 +24,77 @@
   "image_ref": "Champs-Elysees-70_8_§1",
   "terme_jantzen_bat": [
     "toiture",
+    "balcon",
+    "porte-fer",
+    "fenetre-d'angle",
     "fenetre",
     "lucarne",
     "façade",
+    "marquise"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "ardoise",
+    "auvent",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "dôme",
+    "faîtage",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "grille",
+    "lucarne",
+    "mansarde",
     "marquise",
-    "porte-fer",
-    "fenetre-d'angle",
-    "balcon"
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "porte",
+    "porte-fenêtre",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "vitrail",
+    "épi de faîtage"
   ],
   "photos": [
     {
       "id_pic": "Champs-Elysees-70_8_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "lucarne",
+        "mansarde",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "porte-fenêtre",
+        "arc",
+        "arc en plein cintre",
+        "oculus",
+        "fronton",
+        "corniche",
+        "bandeau",
+        "pierre de taille",
+        "ardoise",
+        "toit à deux versants",
+        "souche de cheminée",
+        "épi de faîtage",
+        "faîtage",
+        "dôme",
+        "marquise",
+        "auvent",
+        "sculpture",
+        "mascaron",
+        "porte",
+        "vitrail",
+        "grille"
       ],
       "dateCapture": "2004:03:30"
     },
@@ -46,6 +104,7 @@
         "balcon",
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:03:31"
     },
     {
@@ -54,6 +113,7 @@
         "fenetre",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:03:31"
     },
     {
@@ -61,6 +121,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:04:01"
     },
     {
@@ -69,6 +130,7 @@
         "lucarne",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:03:31"
     },
     {
@@ -77,6 +139,7 @@
         "lucarne",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:03:31"
     },
     {
@@ -84,6 +147,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:03:31"
     },
     {
@@ -92,6 +156,7 @@
         "marquise",
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:04:01"
     }
   ]

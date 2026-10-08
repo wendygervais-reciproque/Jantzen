@@ -33,19 +33,43 @@
   "image_ref": "Lannes-11_16_§1-Dx",
   "terme_jantzen_bat": [
     "oeil-de-boeuf",
+    "loggia",
+    "mosaique",
+    "tourelle",
+    "pignon",
+    "sculpture",
+    "console",
     "fenetre",
     "lucarne",
-    "pignon",
-    "console",
-    "façade",
-    "tourelle",
-    "sculpture",
-    "mosaique",
-    "loggia",
     "brique",
+    "façade",
+    "porte-fer-hall",
     "céramique",
-    "décor",
-    "porte-fer-hall"
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "grille",
+    "lucarne",
+    "mansarde",
+    "oculus",
+    "oriel",
+    "pierre de taille",
+    "pilastre",
+    "portail",
+    "porte",
+    "souche de cheminée",
+    "volet"
   ],
   "photos": [
     {
@@ -55,6 +79,7 @@
         "lucarne",
         "pignon"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:02"
     },
     {
@@ -64,6 +89,7 @@
         "lucarne",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:03:16"
     },
     {
@@ -76,6 +102,7 @@
         "mosaique",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:03:25"
     },
     {
@@ -83,6 +110,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:02"
     },
     {
@@ -90,6 +118,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:03:25"
     },
     {
@@ -101,6 +130,7 @@
         "loggia",
         "mosaique"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:02"
     },
     {
@@ -110,6 +140,7 @@
         "lucarne",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:12"
     },
     {
@@ -119,6 +150,7 @@
         "lucarne",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:02"
     },
     {
@@ -126,6 +158,7 @@
       "IndexJantzen": [
         "porte-fer-hall"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:03:16"
     },
     {
@@ -133,6 +166,30 @@
       "IndexJantzen": [
         "brique",
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "lucarne",
+        "souche de cheminée",
+        "oculus",
+        "fronton",
+        "arc en plein cintre",
+        "arc",
+        "pierre de taille",
+        "bandeau",
+        "corniche",
+        "porte",
+        "portail",
+        "grille",
+        "mansarde",
+        "brique",
+        "oriel",
+        "pilastre",
+        "volet",
+        "ardoise"
       ],
       "dateCapture": "2014:03:20"
     },
@@ -144,6 +201,7 @@
         "lucarne",
         "pignon"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:09:21"
     },
     {
@@ -154,6 +212,7 @@
         "lucarne",
         "tourelle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:09:21"
     },
     {
@@ -162,6 +221,7 @@
         "brique",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2014:03:20"
     },
     {
@@ -170,6 +230,7 @@
         "brique",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2014:03:20"
     },
     {
@@ -178,6 +239,7 @@
         "brique",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:02"
     },
     {
@@ -186,6 +248,7 @@
         "brique",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2014:03:20"
     },
     {
@@ -195,6 +258,7 @@
         "fenetre",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2014:03:20"
     },
     {
@@ -207,6 +271,7 @@
         "mosaique",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2014:03:20"
     }
   ]

@@ -28,18 +28,56 @@
   "WPfr": null,
   "image_ref": "Niel-83_17_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "tourelle",
     "façade-d'angle",
+    "tourelle",
     "sculpture",
     "fenetre-d'angle",
+    "fenetre",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "corniche",
+    "fenêtre",
+    "garde-corps",
+    "grille",
+    "lucarne",
+    "mansarde",
+    "oculus",
+    "oriel",
+    "pierre de taille",
+    "porte",
+    "porte-fenêtre",
+    "sculpture",
+    "souche de cheminée",
+    "tour",
+    "travée"
   ],
   "photos": [
     {
       "id_pic": "Niel-83_17_§1",
       "IndexJantzen": [
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "souche de cheminée",
+        "oriel",
+        "travée",
+        "sculpture",
+        "porte",
+        "tour",
+        "corniche",
+        "mansarde",
+        "lucarne",
+        "pierre de taille",
+        "porte-fenêtre",
+        "oculus",
+        "grille"
       ],
       "dateCapture": "2006:04:06"
     },
@@ -48,6 +86,7 @@
       "IndexJantzen": [
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:02"
     },
     {
@@ -56,6 +95,7 @@
         "fenetre-d'angle",
         "tourelle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:06"
     },
     {
@@ -64,6 +104,7 @@
         "fenetre-d'angle",
         "tourelle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:08"
     },
     {
@@ -73,6 +114,7 @@
         "fenetre-d'angle",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:06"
     },
     {
@@ -81,6 +123,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:06"
     }
   ]

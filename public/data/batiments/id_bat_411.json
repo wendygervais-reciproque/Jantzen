@@ -28,10 +28,33 @@
   "WPfr": null,
   "image_ref": "Vieille-Du-Temple-106_3_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "brique",
     "façade",
+    "fenetre",
     "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "ardoise",
+    "brique",
+    "chambranle",
+    "chaîne d'angle",
+    "escalier",
+    "fenêtre",
+    "garde-corps",
+    "grille",
+    "linteau",
+    "lucarne",
+    "mansarde",
+    "perron",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -39,6 +62,29 @@
       "IndexJantzen": [
         "brique",
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "lucarne",
+        "mansarde",
+        "brique",
+        "pierre de taille",
+        "chaîne d'angle",
+        "ardoise",
+        "souche de cheminée",
+        "arc en plein cintre",
+        "arc",
+        "porte",
+        "portail",
+        "porte-fenêtre",
+        "garde-corps",
+        "grille",
+        "volet",
+        "travée",
+        "chambranle",
+        "linteau",
+        "escalier",
+        "perron"
       ],
       "dateCapture": "2006:07:18"
     },
@@ -48,6 +94,7 @@
         "brique",
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:18"
     },
     {
@@ -56,6 +103,7 @@
         "fenetre",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:18"
     },
     {
@@ -63,6 +111,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:18"
     },
     {
@@ -70,6 +119,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:18"
     }
   ]

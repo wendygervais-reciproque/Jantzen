@@ -32,17 +32,39 @@
   "WPfr": null,
   "image_ref": "Maine-av-172_14_§1-Rx",
   "terme_jantzen_bat": [
-    "fenetre",
-    "lucarne",
-    "garde-corps",
-    "console",
+    "colonne",
+    "loggia",
+    "balcon",
     "façade-d'angle",
     "sculpture",
+    "console",
+    "fenetre",
     "fenetre-d'angle",
-    "loggia",
-    "décor",
+    "lucarne",
+    "garde-corps",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "arcade",
+    "ardoise",
     "balcon",
-    "colonne"
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "volet"
   ],
   "photos": [
     {
@@ -52,6 +74,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:04:15"
     },
     {
@@ -60,6 +83,7 @@
         "balcon",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:06:26"
     },
     {
@@ -68,6 +92,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:31"
     },
     {
@@ -79,6 +104,28 @@
         "loggia",
         "sculpture"
       ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "arc en plein cintre",
+        "arcade",
+        "fenêtre",
+        "lucarne",
+        "mansarde",
+        "souche de cheminée",
+        "pierre de taille",
+        "sculpture",
+        "mascaron",
+        "oculus",
+        "fronton",
+        "corniche",
+        "bandeau",
+        "pilastre",
+        "volet",
+        "toit à deux versants",
+        "ardoise"
+      ],
       "dateCapture": "2011:06:26"
     },
     {
@@ -88,6 +135,7 @@
         "console",
         "loggia"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:06:26"
     },
     {
@@ -95,6 +143,7 @@
       "IndexJantzen": [
         "façade-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:31"
     },
     {
@@ -102,6 +151,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:06:26"
     },
     {
@@ -110,6 +160,7 @@
         "fenetre",
         "loggia"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:06:26"
     },
     {
@@ -117,6 +168,7 @@
       "IndexJantzen": [
         "loggia"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:06:26"
     },
     {
@@ -126,6 +178,7 @@
         "loggia",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:31"
     },
     {
@@ -134,6 +187,7 @@
         "console",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:31"
     },
     {
@@ -142,6 +196,7 @@
         "balcon",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:31"
     }
   ]

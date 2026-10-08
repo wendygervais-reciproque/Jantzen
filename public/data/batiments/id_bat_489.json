@@ -31,12 +31,46 @@
     "lucarne-d'angle",
     "dome"
   ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mascaron",
+    "oriel",
+    "pierre de taille",
+    "souche de cheminée",
+    "tour",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Jaucourt-11_12_1901-A",
       "IndexJantzen": [
         "dome",
         "lucarne-d'angle"
+      ],
+      "IndexTorneh": [
+        "dôme",
+        "ardoise",
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "lucarne",
+        "balustrade",
+        "mascaron",
+        "corniche",
+        "souche de cheminée",
+        "pierre de taille",
+        "volet",
+        "fer forgé",
+        "tour",
+        "oriel"
       ],
       "dateCapture": "2005:07:15"
     },
@@ -46,6 +80,7 @@
         "dome",
         "lucarne-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:15"
     }
   ]

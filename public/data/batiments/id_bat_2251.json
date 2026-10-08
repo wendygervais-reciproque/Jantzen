@@ -30,8 +30,21 @@
   "WPfr": null,
   "image_ref": "Daru-33_8_E9W-A",
   "terme_jantzen_bat": [
-    "porte-fer",
-    "fenetre"
+    "fenetre",
+    "porte-fer"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "chambranle",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "sculpture",
+    "vantail"
   ],
   "photos": [
     {
@@ -39,6 +52,19 @@
       "IndexJantzen": [
         "fenetre",
         "porte-fer"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "portail",
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "sculpture",
+        "mascaron",
+        "fer forgé",
+        "pierre de taille",
+        "chambranle",
+        "vantail"
       ],
       "dateCapture": "2004:09:18"
     }

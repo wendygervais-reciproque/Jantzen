@@ -21,12 +21,28 @@
   "WPfr": null,
   "image_ref": "St-Honore-366_1_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "garde-corps",
+    "balcon",
     "console",
+    "fenetre",
     "porte",
-    "porte-bois",
-    "balcon"
+    "garde-corps",
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "fenêtre",
+    "fer forgé",
+    "heurtoir",
+    "mascaron",
+    "modillon",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "sculpture",
+    "vantail"
   ],
   "photos": [
     {
@@ -36,6 +52,22 @@
         "garde-corps",
         "porte-bois"
       ],
+      "IndexTorneh": [
+        "porte",
+        "portail",
+        "arc",
+        "arc en plein cintre",
+        "balcon",
+        "balustrade",
+        "fer forgé",
+        "sculpture",
+        "mascaron",
+        "vantail",
+        "pierre de taille",
+        "modillon",
+        "fenêtre",
+        "heurtoir"
+      ],
       "dateCapture": "2004:09:12"
     },
     {
@@ -43,6 +75,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:12"
     },
     {
@@ -51,6 +84,7 @@
         "fenetre",
         "porte"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:12"
     },
     {
@@ -59,6 +93,7 @@
         "console",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:11"
     }
   ]

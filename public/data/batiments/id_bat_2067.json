@@ -23,11 +23,31 @@
   "terme_jantzen_bat": [
     "porte-fer-hall"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "bossage",
+    "fer forgé",
+    "garde-corps",
+    "pierre de taille",
+    "porte",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Coysevox-3_18_§1",
       "IndexJantzen": [
         "porte-fer-hall"
+      ],
+      "IndexTorneh": [
+        "arc en plein cintre",
+        "porte",
+        "fer forgé",
+        "pierre de taille",
+        "balcon",
+        "garde-corps",
+        "vantail",
+        "bossage"
       ],
       "dateCapture": "2004:07:28"
     }

@@ -21,14 +21,37 @@
   "WPfr": null,
   "image_ref": "Spontini-80_16_§3",
   "terme_jantzen_bat": [
-    "fenetre",
-    "lucarne",
-    "console",
+    "balcon",
     "façade-d'angle",
-    "sculpture",
     "dome",
+    "sculpture",
     "fenetre-d'angle",
-    "balcon"
+    "fenetre",
+    "console",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "porte",
+    "souche de cheminée",
+    "tour",
+    "travée",
+    "vitrail",
+    "volet"
   ],
   "photos": [
     {
@@ -36,6 +59,7 @@
       "IndexJantzen": [
         "façade-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:03:16"
     },
     {
@@ -45,6 +69,7 @@
         "fenetre-d'angle",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:04:10"
     },
     {
@@ -52,6 +77,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:05:17"
     },
     {
@@ -60,6 +86,7 @@
         "balcon",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:03:15"
     },
     {
@@ -68,6 +95,7 @@
         "console",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:03:15"
     },
     {
@@ -75,6 +103,7 @@
       "IndexJantzen": [
         "façade-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:03:15"
     },
     {
@@ -83,6 +112,29 @@
         "dome",
         "façade-d'angle"
       ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "lucarne",
+        "dôme",
+        "souche de cheminée",
+        "mascaron",
+        "corniche",
+        "bandeau",
+        "pierre de taille",
+        "fronton",
+        "travée",
+        "tour",
+        "fer forgé",
+        "ardoise",
+        "oculus",
+        "arc en plein cintre",
+        "porte",
+        "volet",
+        "vitrail"
+      ],
       "dateCapture": "2008:04:10"
     },
     {
@@ -90,6 +142,7 @@
       "IndexJantzen": [
         "dome"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:03:16"
     },
     {
@@ -97,6 +150,7 @@
       "IndexJantzen": [
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:03:16"
     },
     {
@@ -106,6 +160,7 @@
         "fenetre-d'angle",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:03:16"
     },
     {
@@ -115,6 +170,7 @@
         "fenetre-d'angle",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:03:16"
     },
     {
@@ -123,6 +179,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:03:23"
     }
   ]

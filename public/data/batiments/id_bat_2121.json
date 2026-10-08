@@ -21,17 +21,59 @@
   "WPfr": null,
   "image_ref": "Pasquier-3_8_§1",
   "terme_jantzen_bat": [
-    "façade",
-    "console",
     "sculpture",
     "clé",
+    "console",
+    "façade",
     "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "frise",
+    "garde-corps",
+    "grille",
+    "jambage",
+    "linteau",
+    "mascaron",
+    "modillon",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Pasquier-3_8_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "bandeau",
+        "corniche",
+        "fenêtre",
+        "fer forgé",
+        "frise",
+        "garde-corps",
+        "grille",
+        "linteau",
+        "mascaron",
+        "pierre de taille",
+        "pilastre",
+        "porte",
+        "travée",
+        "volet",
+        "chambranle",
+        "jambage",
+        "modillon"
       ],
       "dateCapture": "2004:09:18"
     },
@@ -41,6 +83,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:10"
     },
     {
@@ -48,6 +91,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:10"
     },
     {
@@ -55,6 +99,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:18"
     },
     {
@@ -64,6 +109,7 @@
         "porte-bois",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:10"
     }
   ]

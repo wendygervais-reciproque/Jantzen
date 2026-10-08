@@ -24,8 +24,23 @@
   "image_ref": "Buci-18_6_§1",
   "terme_jantzen_bat": [
     "toiture",
-    "fenetre",
-    "pignon"
+    "pignon",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "colombage",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mansarde",
+    "oculus",
+    "souche de cheminée",
+    "travée",
+    "tuile",
+    "volet"
   ],
   "photos": [
     {
@@ -33,6 +48,21 @@
       "IndexJantzen": [
         "fenetre",
         "pignon"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "volet",
+        "souche de cheminée",
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "tuile",
+        "oculus",
+        "bandeau",
+        "travée",
+        "colombage",
+        "mansarde",
+        "balustrade"
       ],
       "dateCapture": "2010:05:23"
     },
@@ -42,6 +72,7 @@
         "fenetre",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:05:23"
     }
   ]

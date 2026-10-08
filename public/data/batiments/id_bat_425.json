@@ -21,12 +21,31 @@
   "WPfr": null,
   "image_ref": "Elisee-Reclus-10B_7_§1",
   "terme_jantzen_bat": [
+    "colonne",
+    "oriel",
     "fenetre",
     "lucarne",
-    "garde-corps",
-    "oriel",
     "porte-fer-hall",
-    "colonne"
+    "garde-corps"
+  ],
+  "terme_torneh_bat": [
+    "arc brisé",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "brique",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "frise",
+    "garde-corps",
+    "lucarne",
+    "marquise",
+    "oriel",
+    "pierre de taille",
+    "souche de cheminée",
+    "toit à deux versants",
+    "volet"
   ],
   "photos": [
     {
@@ -34,6 +53,25 @@
       "IndexJantzen": [
         "fenetre",
         "oriel"
+      ],
+      "IndexTorneh": [
+        "oriel",
+        "lucarne",
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "arc brisé",
+        "brique",
+        "pierre de taille",
+        "volet",
+        "souche de cheminée",
+        "corniche",
+        "toit à deux versants",
+        "marquise",
+        "ardoise",
+        "frise"
       ],
       "dateCapture": "2007:02:04"
     },
@@ -43,6 +81,7 @@
         "lucarne",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:02:04"
     },
     {
@@ -51,6 +90,7 @@
         "colonne",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:02:04"
     },
     {
@@ -58,6 +98,7 @@
       "IndexJantzen": [
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:02:04"
     },
     {
@@ -65,6 +106,7 @@
       "IndexJantzen": [
         "porte-fer-hall"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:02"
     }
   ]

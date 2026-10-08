@@ -26,12 +26,32 @@
     "sculpture",
     "décor"
   ],
+  "terme_torneh_bat": [
+    "bossage",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "grille",
+    "mascaron",
+    "pierre de taille",
+    "sculpture"
+  ],
   "photos": [
     {
       "id_pic": "St-Martin-_3_§1-Rx",
       "IndexJantzen": [
         "décor",
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "bossage",
+        "corniche",
+        "pierre de taille",
+        "sculpture",
+        "mascaron",
+        "grille",
+        "fronton",
+        "fenêtre"
       ],
       "dateCapture": "2012:05:14"
     }

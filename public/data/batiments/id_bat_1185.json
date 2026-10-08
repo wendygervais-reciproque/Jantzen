@@ -22,14 +22,36 @@
   "image_ref": "St-Germain-169_6_§1-Rx",
   "terme_jantzen_bat": [
     "toiture",
-    "fenetre",
-    "façade",
-    "console",
+    "verrière",
+    "balcon",
     "sculpture",
     "clé",
+    "console",
+    "fenetre",
+    "façade",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "chapiteau",
+    "corniche",
+    "fenêtre",
+    "garde-corps",
+    "grille",
+    "linteau",
+    "mascaron",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "sculpture",
+    "souche de cheminée",
+    "vantail",
     "verrière",
-    "décor",
-    "balcon"
+    "volet"
   ],
   "photos": [
     {
@@ -39,6 +61,7 @@
         "fenetre",
         "verrière"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:11"
     },
     {
@@ -48,6 +71,7 @@
         "console",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:11"
     },
     {
@@ -56,12 +80,35 @@
         "clé",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:08:23"
     },
     {
       "id_pic": "St-Germain-169_6_§1-Rx",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "arc en plein cintre",
+        "porte",
+        "vantail",
+        "pierre de taille",
+        "chapiteau",
+        "pilastre",
+        "mascaron",
+        "sculpture",
+        "verrière",
+        "souche de cheminée",
+        "corniche",
+        "bandeau",
+        "chambranle",
+        "linteau",
+        "volet",
+        "grille"
       ],
       "dateCapture": "2012:07:22"
     },
@@ -70,6 +117,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:08:23"
     },
     {
@@ -77,6 +125,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:07:22"
     },
     {
@@ -84,6 +133,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:11"
     },
     {
@@ -92,6 +142,7 @@
         "balcon",
         "verrière"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:11"
     },
     {
@@ -102,6 +153,7 @@
         "sculpture",
         "verrière"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:08:23"
     },
     {
@@ -111,6 +163,7 @@
         "toiture",
         "verrière"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:07:22"
     }
   ]

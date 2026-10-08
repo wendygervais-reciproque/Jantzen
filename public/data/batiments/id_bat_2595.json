@@ -23,9 +23,26 @@
   "WPfr": null,
   "image_ref": "Vincennes-Cours-41_20_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "garde-corps",
-    "clé"
+    "clé",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "balcon",
+    "balustrade",
+    "brique",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "grille",
+    "mascaron",
+    "pierre de taille",
+    "sculpture",
+    "souche de cheminée",
+    "toit-terrasse",
+    "volet"
   ],
   "photos": [
     {
@@ -33,6 +50,23 @@
       "IndexJantzen": [
         "clé",
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "fronton",
+        "arc",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "volet",
+        "brique",
+        "pierre de taille",
+        "mascaron",
+        "sculpture",
+        "souche de cheminée",
+        "toit-terrasse",
+        "fer forgé",
+        "grille"
       ],
       "dateCapture": "2006:09:06"
     },
@@ -43,6 +77,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:09:06"
     }
   ]

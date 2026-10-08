@@ -24,10 +24,28 @@
   "image_ref": "Marcadet-190_18_§1",
   "terme_jantzen_bat": [
     "fenetre",
+    "brique",
     "façade",
     "garde-corps",
-    "brique",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "auvent",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -36,6 +54,24 @@
         "brique",
         "décor",
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "arc en plein cintre",
+        "brique",
+        "ardoise",
+        "lucarne",
+        "mansarde",
+        "balustrade",
+        "volet",
+        "fer forgé",
+        "travée",
+        "mascaron",
+        "corniche",
+        "auvent",
+        "bandeau"
       ],
       "dateCapture": "2004:06:14"
     },
@@ -46,6 +82,7 @@
         "décor",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:06:14"
     },
     {
@@ -56,6 +93,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:06:14"
     }
   ]

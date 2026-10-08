@@ -23,12 +23,30 @@
   "WPfr": null,
   "image_ref": "St-Martin-247_3_§1",
   "terme_jantzen_bat": [
-    "console",
-    "garde-corps",
-    "sculpture",
+    "balcon",
     "pilastre",
+    "sculpture",
     "fenetre-d'angle",
-    "balcon"
+    "console",
+    "garde-corps"
+  ],
+  "terme_torneh_bat": [
+    "avant-corps",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chapiteau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "oriel",
+    "pierre de taille",
+    "pilastre",
+    "sculpture",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -36,6 +54,24 @@
       "IndexJantzen": [
         "balcon",
         "fenetre-d'angle"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "fenêtre",
+        "volet",
+        "balustrade",
+        "pierre de taille",
+        "corniche",
+        "bandeau",
+        "mascaron",
+        "sculpture",
+        "chapiteau",
+        "pilastre",
+        "travée",
+        "oriel",
+        "fer forgé",
+        "garde-corps",
+        "avant-corps"
       ],
       "dateCapture": "2003:07:08"
     },
@@ -47,6 +83,7 @@
         "garde-corps",
         "pilastre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:04"
     },
     {
@@ -55,6 +92,7 @@
         "fenetre-d'angle",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:04"
     },
     {
@@ -63,6 +101,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:04"
     }
   ]

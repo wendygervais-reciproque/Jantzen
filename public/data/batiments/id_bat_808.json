@@ -24,11 +24,41 @@
     "façade",
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "chambranle",
+    "chapiteau",
+    "corniche",
+    "fer forgé",
+    "garde-corps",
+    "gros appareil",
+    "modillon",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Ruhmkorff-13_17_§1",
       "IndexJantzen": [
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "vantail",
+        "oculus",
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "pilastre",
+        "chapiteau",
+        "corniche",
+        "modillon",
+        "pierre de taille",
+        "gros appareil",
+        "chambranle"
       ],
       "dateCapture": null
     },
@@ -37,6 +67,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": null
     }
   ]

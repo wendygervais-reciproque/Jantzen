@@ -32,14 +32,40 @@
   "WPfr": null,
   "image_ref": "Niel-12_17_01",
   "terme_jantzen_bat": [
-    "porte-fer",
-    "fenetre",
-    "lucarne",
     "façade-d'angle",
+    "porte-fer",
     "sculpture",
     "clé",
-    "décor",
-    "porte-fer-hall"
+    "fenetre",
+    "lucarne",
+    "porte-fer-hall",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc brisé",
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "oriel",
+    "pierre de taille",
+    "pilastre",
+    "porche",
+    "porte",
+    "porte-fenêtre",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "vitrail"
   ],
   "photos": [
     {
@@ -47,6 +73,7 @@
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2014:02:19"
     },
     {
@@ -54,6 +81,7 @@
       "IndexJantzen": [
         "porte-fer-hall"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:03:17"
     },
     {
@@ -63,6 +91,7 @@
         "porte-fer",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:03:23"
     },
     {
@@ -71,6 +100,7 @@
         "clé",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:12:13"
     },
     {
@@ -79,12 +109,39 @@
         "clé",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:12:10"
     },
     {
       "id_pic": "Niel-12_17_01",
       "IndexJantzen": [
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "porte-fenêtre",
+        "lucarne",
+        "mansarde",
+        "souche de cheminée",
+        "corniche",
+        "bandeau",
+        "pierre de taille",
+        "arc en plein cintre",
+        "arc brisé",
+        "oriel",
+        "mascaron",
+        "sculpture",
+        "porte",
+        "porche",
+        "vitrail",
+        "toit à deux versants",
+        "chaîne d'angle",
+        "pilastre",
+        "fer forgé",
+        "oculus"
       ],
       "dateCapture": "2005:03:17"
     },
@@ -93,6 +150,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2014:02:19"
     },
     {
@@ -103,6 +161,7 @@
         "lucarne",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2014:02:19"
     }
   ]

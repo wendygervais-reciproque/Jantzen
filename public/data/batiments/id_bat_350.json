@@ -25,11 +25,31 @@
     "clé",
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "chambranle",
+    "gros appareil",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Quincampoix-10_4_§1",
       "IndexJantzen": [
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "arc en plein cintre",
+        "vantail",
+        "mascaron",
+        "sculpture",
+        "pierre de taille",
+        "chambranle",
+        "gros appareil"
       ],
       "dateCapture": "2007:04:20"
     },
@@ -40,6 +60,7 @@
         "porte-bois",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:20"
     },
     {
@@ -48,6 +69,7 @@
         "clé",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:20"
     },
     {
@@ -56,6 +78,7 @@
         "clé",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:20"
     }
   ]

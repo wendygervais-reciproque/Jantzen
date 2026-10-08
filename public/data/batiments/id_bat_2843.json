@@ -23,14 +23,28 @@
   "WPfr": null,
   "image_ref": "Aqueduc-5_10_§1",
   "terme_jantzen_bat": [
+    "colonne",
+    "balcon",
     "fenetre",
+    "lucarne",
     "façade",
+    "métal",
+    "garde-corps",
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "fenêtre",
     "garde-corps",
     "lucarne",
-    "métal",
-    "porte-bois",
-    "balcon",
-    "colonne"
+    "mansarde",
+    "pierre de taille",
+    "porte-fenêtre",
+    "toit à deux versants",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -39,6 +53,20 @@
         "façade",
         "métal"
       ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "garde-corps",
+        "lucarne",
+        "bandeau",
+        "pierre de taille",
+        "travée",
+        "porte-fenêtre",
+        "volet",
+        "mansarde",
+        "toit à deux versants"
+      ],
       "dateCapture": "2004:05:19"
     },
     {
@@ -46,6 +74,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:05:19"
     },
     {
@@ -54,6 +83,7 @@
         "façade",
         "métal"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:09:13"
     },
     {
@@ -62,6 +92,7 @@
         "fenetre",
         "métal"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:09:13"
     },
     {
@@ -70,6 +101,7 @@
         "balcon",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:09:13"
     },
     {
@@ -77,6 +109,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:05:19"
     },
     {
@@ -85,6 +118,7 @@
         "façade",
         "métal"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:09:13"
     },
     {
@@ -93,6 +127,7 @@
         "façade",
         "métal"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:05:19"
     },
     {
@@ -101,6 +136,7 @@
         "façade",
         "métal"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:05:19"
     },
     {
@@ -110,6 +146,7 @@
         "fenetre",
         "métal"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:05:19"
     }
   ]

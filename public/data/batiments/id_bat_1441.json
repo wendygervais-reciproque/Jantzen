@@ -31,12 +31,48 @@
     "fenetre",
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "arc",
+    "balcon",
+    "balustrade",
+    "chambranle",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "grille",
+    "heurtoir",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "vantail",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Alphonse-Daudet-2_14_§1",
       "IndexJantzen": [
         "fenetre",
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "oculus",
+        "sculpture",
+        "mascaron",
+        "porte",
+        "vantail",
+        "heurtoir",
+        "volet",
+        "fenêtre",
+        "pierre de taille",
+        "arc",
+        "grille",
+        "chambranle"
       ],
       "dateCapture": "2004:04:15"
     }

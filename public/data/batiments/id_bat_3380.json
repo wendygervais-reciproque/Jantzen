@@ -30,11 +30,33 @@
   "terme_jantzen_bat": [
     "colonne"
   ],
+  "terme_torneh_bat": [
+    "architrave",
+    "chapiteau composite",
+    "chapiteau corinthien",
+    "colonne",
+    "fer forgé",
+    "pierre de taille",
+    "porte",
+    "porte-fenêtre",
+    "sculpture"
+  ],
   "photos": [
     {
       "id_pic": "Benjamin-Godard-7_16_§1",
       "IndexJantzen": [
         "colonne"
+      ],
+      "IndexTorneh": [
+        "colonne",
+        "chapiteau composite",
+        "chapiteau corinthien",
+        "pierre de taille",
+        "porte",
+        "porte-fenêtre",
+        "fer forgé",
+        "sculpture",
+        "architrave"
       ],
       "dateCapture": "2005:06:07"
     }

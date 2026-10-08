@@ -21,10 +21,26 @@
   "WPfr": null,
   "image_ref": "Breteuil-2_7_§1_Dx",
   "terme_jantzen_bat": [
-    "fenetre",
     "brique",
     "garde-corps",
+    "fenetre",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "modillon",
+    "pierre de taille",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -32,6 +48,22 @@
       "IndexJantzen": [
         "brique",
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "brique",
+        "corniche",
+        "bandeau",
+        "chambranle",
+        "volet",
+        "mascaron",
+        "modillon",
+        "travée",
+        "fer forgé",
+        "pierre de taille"
       ],
       "dateCapture": "2008:03:31"
     },
@@ -42,6 +74,7 @@
         "décor",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:03:31"
     },
     {
@@ -51,6 +84,7 @@
         "décor",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:03:31"
     },
     {
@@ -61,6 +95,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:03:31"
     },
     {
@@ -70,6 +105,7 @@
         "décor",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:03:31"
     }
   ]

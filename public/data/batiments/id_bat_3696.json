@@ -28,13 +28,31 @@
   "WPfr": null,
   "image_ref": "Henri-Martin-83_16_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "lucarne",
+    "loggia",
+    "dome",
     "sculpture",
     "clé",
-    "dome",
-    "loggia",
+    "fenetre",
+    "lucarne",
     "colonne"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mascaron",
+    "oculus",
+    "oriel",
+    "pierre de taille",
+    "souche de cheminée",
+    "volet",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -42,6 +60,24 @@
       "IndexJantzen": [
         "dome",
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "épi de faîtage",
+        "dôme",
+        "ardoise",
+        "lucarne",
+        "fenêtre",
+        "arc en plein cintre",
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "souche de cheminée",
+        "mascaron",
+        "oriel",
+        "balustrade",
+        "volet",
+        "pierre de taille",
+        "oculus"
       ],
       "dateCapture": "2008:02:12"
     },
@@ -52,6 +88,7 @@
         "colonne",
         "loggia"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:10"
     },
     {
@@ -60,6 +97,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:10"
     },
     {
@@ -69,6 +107,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:12"
     }
   ]

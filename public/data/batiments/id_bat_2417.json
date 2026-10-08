@@ -28,12 +28,33 @@
   "WPfr": null,
   "image_ref": "Boissonade-39_14_§1",
   "terme_jantzen_bat": [
+    "verrière",
     "fenetre",
-    "façade",
     "lucarne",
     "brique",
-    "verrière",
+    "façade",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "bandeau",
+    "brique",
+    "corniche",
+    "céramique",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "jambage",
+    "linteau",
+    "lucarne",
+    "pierre de taille",
+    "porte",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "toit à deux versants",
+    "verrière"
   ],
   "photos": [
     {
@@ -41,6 +62,27 @@
       "IndexJantzen": [
         "brique",
         "façade"
+      ],
+      "IndexTorneh": [
+        "lucarne",
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "porte-fenêtre",
+        "brique",
+        "pierre de taille",
+        "arc en plein cintre",
+        "corniche",
+        "toit à deux versants",
+        "ardoise",
+        "porte",
+        "fronton",
+        "céramique",
+        "souche de cheminée",
+        "bandeau",
+        "jambage",
+        "linteau",
+        "verrière"
       ],
       "dateCapture": "2005:08:30"
     },
@@ -51,6 +93,7 @@
         "décor",
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:30"
     },
     {
@@ -59,6 +102,7 @@
         "brique",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:30"
     },
     {
@@ -68,6 +112,7 @@
         "lucarne",
         "verrière"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:30"
     }
   ]

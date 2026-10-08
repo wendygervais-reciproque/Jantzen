@@ -28,16 +28,54 @@
   "WPfr": null,
   "image_ref": "St-Honore-145_1_§1",
   "terme_jantzen_bat": [
-    "toiture",
-    "lucarne",
     "façade",
-    "tourelle"
+    "tourelle",
+    "toiture",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arcade",
+    "ardoise",
+    "balustrade",
+    "colonne",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "grille",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "pilier",
+    "portique",
+    "tour",
+    "tuile",
+    "épi de faîtage"
   ],
   "photos": [
     {
       "id_pic": "St-Honore-145_1_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "tour",
+        "arc",
+        "arcade",
+        "balustrade",
+        "corniche",
+        "dôme",
+        "pilier",
+        "pilastre",
+        "grille",
+        "épi de faîtage",
+        "fenêtre",
+        "oculus",
+        "ardoise",
+        "pierre de taille",
+        "colonne",
+        "tuile",
+        "portique"
       ],
       "dateCapture": "2012:08:10"
     },
@@ -46,6 +84,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:04:03"
     },
     {
@@ -54,6 +93,7 @@
         "lucarne",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:04:03"
     },
     {
@@ -62,6 +102,7 @@
         "lucarne",
         "tourelle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:08:10"
     },
     {
@@ -69,6 +110,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:08:10"
     },
     {
@@ -76,6 +118,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:04:03"
     },
     {
@@ -83,6 +126,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:04"
     }
   ]

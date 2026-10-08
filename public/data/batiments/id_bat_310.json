@@ -33,9 +33,20 @@
   "image_ref": "Cadix-10_15_§1",
   "terme_jantzen_bat": [
     "sculpture",
+    "colonne",
     "console",
-    "porte-bois",
-    "colonne"
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "corniche",
+    "fer forgé",
+    "garde-corps",
+    "modillon",
+    "pierre de taille",
+    "porte-fenêtre",
+    "volet"
   ],
   "photos": [
     {
@@ -43,6 +54,17 @@
       "IndexJantzen": [
         "console",
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "corniche",
+        "modillon",
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "porte-fenêtre",
+        "volet",
+        "pierre de taille",
+        "balustrade"
       ],
       "dateCapture": "2005:09:22"
     },
@@ -52,6 +74,7 @@
         "colonne",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:09:22"
     }
   ]

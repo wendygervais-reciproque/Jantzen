@@ -26,12 +26,28 @@
     "intérieur",
     "porte-fer"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "baie",
+    "fer forgé",
+    "porte",
+    "porte-fenêtre",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Anatole-de-La-Forge-5_17_§1",
       "IndexJantzen": [
         "intérieur",
         "porte-fer"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "porte-fenêtre",
+        "arc en plein cintre",
+        "vantail",
+        "fer forgé",
+        "baie"
       ],
       "dateCapture": null
     }

@@ -30,11 +30,31 @@
   "terme_jantzen_bat": [
     "porte-fer"
   ],
+  "terme_torneh_bat": [
+    "arc",
+    "chambranle",
+    "fer forgé",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Capri-12_12_§1",
       "IndexJantzen": [
         "porte-fer"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "vantail",
+        "fer forgé",
+        "sculpture",
+        "arc",
+        "chambranle",
+        "mascaron",
+        "pierre de taille"
       ],
       "dateCapture": "2004:07:27"
     }

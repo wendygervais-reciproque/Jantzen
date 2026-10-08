@@ -28,18 +28,56 @@
   "WPfr": null,
   "image_ref": "Auguste-Chabriere-11_15_§1",
   "terme_jantzen_bat": [
-    "porte-fer",
-    "fenetre",
-    "console",
     "façade-d'angle",
+    "porte-fer",
     "sculpture",
+    "console",
+    "fenetre",
     "lucarne-d'angle"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "oriel",
+    "pierre de taille",
+    "porte",
+    "souche de cheminée",
+    "travée",
+    "vitrail",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Auguste-Chabriere-11_15_§1",
       "IndexJantzen": [
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "garde-corps",
+        "lucarne",
+        "mansarde",
+        "pierre de taille",
+        "porte",
+        "fer forgé",
+        "corniche",
+        "bandeau",
+        "oriel",
+        "souche de cheminée",
+        "ardoise",
+        "vitrail",
+        "volet",
+        "travée"
       ],
       "dateCapture": "2006:09:09"
     },
@@ -48,6 +86,7 @@
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:09:09"
     },
     {
@@ -55,6 +94,7 @@
       "IndexJantzen": [
         "façade-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:09:09"
     },
     {
@@ -62,6 +102,7 @@
       "IndexJantzen": [
         "lucarne-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:09:09"
     },
     {
@@ -70,6 +111,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:09:09"
     },
     {
@@ -78,6 +120,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:09:22"
     }
   ]

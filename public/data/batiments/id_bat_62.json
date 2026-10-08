@@ -21,11 +21,41 @@
   "terme_jantzen_bat": [
     "tourelle"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "corniche",
+    "fenêtre",
+    "lucarne",
+    "mansarde",
+    "oculus",
+    "pierre de taille",
+    "souche de cheminée",
+    "toit à deux versants",
+    "tour",
+    "vitrail",
+    "épi de faîtage"
+  ],
   "photos": [
     {
       "id_pic": "N-D-Blancs-Manteaux-_4_A",
       "IndexJantzen": [
         "tourelle"
+      ],
+      "IndexTorneh": [
+        "tour",
+        "ardoise",
+        "pierre de taille",
+        "souche de cheminée",
+        "épi de faîtage",
+        "fenêtre",
+        "lucarne",
+        "mansarde",
+        "oculus",
+        "arc en plein cintre",
+        "corniche",
+        "toit à deux versants",
+        "vitrail"
       ],
       "dateCapture": "2005:07:03"
     },
@@ -34,6 +64,7 @@
       "IndexJantzen": [
         "tourelle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:03"
     }
   ]

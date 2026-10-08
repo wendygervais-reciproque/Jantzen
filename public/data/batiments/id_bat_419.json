@@ -23,11 +23,37 @@
   "terme_jantzen_bat": [
     "garde-corps"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "modillon",
+    "pilastre",
+    "sculpture",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Monge-107_5_§1",
       "IndexJantzen": [
         "garde-corps"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "balustrade",
+        "fenêtre",
+        "volet",
+        "sculpture",
+        "mascaron",
+        "corniche",
+        "modillon",
+        "pilastre"
       ],
       "dateCapture": "2005:06:08"
     },
@@ -36,6 +62,7 @@
       "IndexJantzen": [
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:08"
     },
     {
@@ -43,6 +70,7 @@
       "IndexJantzen": [
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:08"
     }
   ]

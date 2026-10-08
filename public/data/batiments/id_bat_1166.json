@@ -21,9 +21,20 @@
   "WPfr": null,
   "image_ref": "Montparnasse-Bd-161_6_§1",
   "terme_jantzen_bat": [
+    "clé",
     "fenetre",
-    "décor",
-    "clé"
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "chambranle",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "mascaron",
+    "pierre de taille",
+    "volet"
   ],
   "photos": [
     {
@@ -32,6 +43,17 @@
         "clé",
         "décor",
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "fronton",
+        "mascaron",
+        "pierre de taille",
+        "volet",
+        "chambranle",
+        "fer forgé"
       ],
       "dateCapture": "2006:06:05"
     }

@@ -28,14 +28,42 @@
   "WPfr": null,
   "image_ref": "Paul-Doumer-60_16_§1-Rs",
   "terme_jantzen_bat": [
-    "fenetre",
-    "sculpture"
+    "sculpture",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "grille",
+    "pierre de taille",
+    "sculpture",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Paul-Doumer-60_16_§1-Rs",
       "IndexJantzen": [
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "volet",
+        "sculpture",
+        "bandeau",
+        "pierre de taille",
+        "fronton",
+        "travée",
+        "grille",
+        "fer forgé"
       ],
       "dateCapture": "2008:02:19"
     },
@@ -45,6 +73,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:19"
     },
     {
@@ -53,6 +82,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:19"
     }
   ]

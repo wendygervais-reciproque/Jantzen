@@ -28,11 +28,27 @@
   "WPfr": null,
   "image_ref": "Beaumarchais-7_3_§1",
   "terme_jantzen_bat": [
+    "balcon",
     "fenetre",
     "façade",
     "garde-corps",
-    "porte-bois",
-    "balcon"
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chéneau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "grille",
+    "pierre de taille",
+    "porte",
+    "porte-fenêtre",
+    "souche de cheminée"
   ],
   "photos": [
     {
@@ -41,6 +57,22 @@
         "balcon",
         "façade"
       ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "porte-fenêtre",
+        "corniche",
+        "bandeau",
+        "pierre de taille",
+        "fer forgé",
+        "porte",
+        "fronton",
+        "grille",
+        "chéneau",
+        "souche de cheminée"
+      ],
       "dateCapture": "2006:03:19"
     },
     {
@@ -48,6 +80,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:03:19"
     },
     {
@@ -55,6 +88,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:10:21"
     },
     {
@@ -62,6 +96,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:10:21"
     },
     {
@@ -70,6 +105,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:10:21"
     },
     {
@@ -77,6 +113,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:10:22"
     }
   ]

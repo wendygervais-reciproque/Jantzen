@@ -28,11 +28,26 @@
   "WPfr": null,
   "image_ref": "Bethune-20_4_§1",
   "terme_jantzen_bat": [
-    "garde-corps",
-    "console",
+    "balcon",
     "sculpture",
-    "porte-bois",
-    "balcon"
+    "console",
+    "garde-corps",
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "fenêtre",
+    "fer forgé",
+    "jambage",
+    "linteau",
+    "mascaron",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "sculpture",
+    "vantail",
+    "volet"
   ],
   "photos": [
     {
@@ -42,6 +57,21 @@
         "garde-corps",
         "porte-bois"
       ],
+      "IndexTorneh": [
+        "porte",
+        "portail",
+        "vantail",
+        "balcon",
+        "balustrade",
+        "fer forgé",
+        "mascaron",
+        "sculpture",
+        "pierre de taille",
+        "volet",
+        "fenêtre",
+        "linteau",
+        "jambage"
+      ],
       "dateCapture": "2003:08:03"
     },
     {
@@ -49,6 +79,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:03"
     },
     {
@@ -58,6 +89,7 @@
         "porte-bois",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:03"
     }
   ]

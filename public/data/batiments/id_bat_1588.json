@@ -21,14 +21,34 @@
   "WPfr": null,
   "image_ref": "St-Sulpice-20_6_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "garde-corps"
+    "garde-corps",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "pierre de taille",
+    "porte-fenêtre",
+    "vantail",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "St-Sulpice-20_6_§1",
       "IndexJantzen": [
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "porte-fenêtre",
+        "volet",
+        "pierre de taille",
+        "vantail"
       ],
       "dateCapture": "2005:06:02"
     },
@@ -38,6 +58,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:02"
     }
   ]

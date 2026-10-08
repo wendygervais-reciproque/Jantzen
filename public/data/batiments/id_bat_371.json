@@ -32,9 +32,21 @@
   "WPfr": null,
   "image_ref": "Champs-Elysees-101_8_§1",
   "terme_jantzen_bat": [
+    "fenetre-d'angle",
     "balcon",
+    "tour"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "dôme",
+    "fenêtre",
+    "garde-corps",
+    "oriel",
+    "pierre de taille",
+    "toit-terrasse",
     "tour",
-    "fenetre-d'angle"
+    "travée",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -43,6 +55,18 @@
         "balcon",
         "fenetre-d'angle",
         "tour"
+      ],
+      "IndexTorneh": [
+        "dôme",
+        "tour",
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "toit-terrasse",
+        "pierre de taille",
+        "oriel",
+        "épi de faîtage",
+        "travée"
       ],
       "dateCapture": "2004:07:07"
     }

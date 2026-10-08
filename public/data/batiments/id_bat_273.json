@@ -30,8 +30,28 @@
   "WPfr": null,
   "image_ref": "Robiac-Sq-∆-Grenelle_7_§2",
   "terme_jantzen_bat": [
-    "lucarne-d'angle",
-    "pilastre"
+    "pilastre",
+    "lucarne-d'angle"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "brique",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mascaron",
+    "oculus",
+    "pilastre",
+    "souche de cheminée",
+    "toit à deux versants",
+    "volet",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -39,6 +59,26 @@
       "IndexJantzen": [
         "lucarne-d'angle",
         "pilastre"
+      ],
+      "IndexTorneh": [
+        "dôme",
+        "épi de faîtage",
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "balustrade",
+        "mascaron",
+        "pilastre",
+        "corniche",
+        "ardoise",
+        "souche de cheminée",
+        "brique",
+        "volet",
+        "fer forgé",
+        "arc en plein cintre",
+        "lucarne",
+        "toit à deux versants",
+        "oculus"
       ],
       "dateCapture": "2005:06:09"
     }

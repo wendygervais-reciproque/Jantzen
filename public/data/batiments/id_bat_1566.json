@@ -32,16 +32,40 @@
   "WPfr": null,
   "image_ref": "Lonchamp-20_16_§1",
   "terme_jantzen_bat": [
-    "porte-fer",
-    "cariatide",
+    "porte-fer-hall",
     "sculpture",
-    "porte-fer-hall"
+    "cariatide",
+    "porte-fer"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "balcon",
+    "balustrade",
+    "fer forgé",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "sculpture",
+    "vantail",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Lonchamp-20_16_§1",
       "IndexJantzen": [
         "porte-fer-hall"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "portail",
+        "arc",
+        "sculpture",
+        "balcon",
+        "balustrade",
+        "fer forgé",
+        "pierre de taille",
+        "vantail",
+        "volet"
       ],
       "dateCapture": "2006:06:30"
     },
@@ -52,6 +76,7 @@
         "porte-fer",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:30"
     },
     {
@@ -61,6 +86,7 @@
         "porte-fer",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": null
     }
   ]

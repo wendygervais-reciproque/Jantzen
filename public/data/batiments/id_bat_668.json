@@ -22,9 +22,27 @@
   "image_ref": "Gay-Lussac-12_5_§1",
   "terme_jantzen_bat": [
     "sculpture",
-    "fenetre",
     "garde-corps",
+    "fenetre",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "frise",
+    "garde-corps",
+    "linteau",
+    "mascaron",
+    "pierre de taille",
+    "pilastre",
+    "porte-fenêtre",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -35,6 +53,24 @@
         "garde-corps",
         "sculpture"
       ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "garde-corps",
+        "mascaron",
+        "pierre de taille",
+        "fer forgé",
+        "corniche",
+        "bandeau",
+        "frise",
+        "travée",
+        "porte-fenêtre",
+        "pilastre",
+        "volet",
+        "chambranle",
+        "linteau"
+      ],
       "dateCapture": "2006:07:13"
     },
     {
@@ -44,6 +80,7 @@
         "garde-corps",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:13"
     }
   ]

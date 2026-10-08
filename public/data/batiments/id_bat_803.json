@@ -23,11 +23,33 @@
   "terme_jantzen_bat": [
     "fenetre"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "bandeau",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "pierre de taille",
+    "porte-fenêtre",
+    "travée",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Pastourelle-13_3_§1",
       "IndexJantzen": [
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "garde-corps",
+        "balcon",
+        "porte-fenêtre",
+        "fer forgé",
+        "pierre de taille",
+        "travée",
+        "bandeau",
+        "volet"
       ],
       "dateCapture": "2003:08:02"
     }

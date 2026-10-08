@@ -28,14 +28,34 @@
   "WPfr": null,
   "image_ref": "Rosa-Bonheur-8_15_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "façade",
-    "sculpture",
-    "métal",
     "oriel",
+    "sculpture",
+    "fenetre",
     "brique",
+    "métal",
+    "façade",
     "céramique",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "corniche",
+    "fenêtre",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "oculus",
+    "oriel",
+    "pierre de taille",
+    "sculpture",
+    "souche de cheminée",
+    "travée",
+    "verrière",
+    "volet"
   ],
   "photos": [
     {
@@ -43,6 +63,26 @@
       "IndexJantzen": [
         "brique",
         "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "lucarne",
+        "oriel",
+        "bandeau",
+        "corniche",
+        "brique",
+        "pierre de taille",
+        "souche de cheminée",
+        "ardoise",
+        "balustrade",
+        "volet",
+        "mansarde",
+        "verrière",
+        "travée",
+        "oculus",
+        "sculpture"
       ],
       "dateCapture": "2006:09:09"
     },
@@ -52,6 +92,7 @@
         "brique",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:09:09"
     },
     {
@@ -62,6 +103,7 @@
         "métal",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:09:09"
     },
     {
@@ -73,6 +115,7 @@
         "oriel",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:11"
     },
     {
@@ -81,6 +124,7 @@
         "brique",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:11"
     },
     {
@@ -92,6 +136,7 @@
         "métal",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:11"
     },
     {
@@ -103,6 +148,7 @@
         "métal",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:11"
     }
   ]

@@ -25,11 +25,31 @@
     "clé",
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "fer forgé",
+    "gros appareil",
+    "heurtoir",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Martignac-Cite-6_7_§1",
       "IndexJantzen": [
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "vantail",
+        "arc en plein cintre",
+        "sculpture",
+        "pierre de taille",
+        "gros appareil",
+        "fer forgé",
+        "heurtoir"
       ],
       "dateCapture": "2006:06:03"
     },
@@ -40,6 +60,7 @@
         "oeil-de-boeuf",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:03"
     }
   ]

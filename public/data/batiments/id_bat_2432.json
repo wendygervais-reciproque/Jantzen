@@ -23,11 +23,32 @@
   "WPfr": null,
   "image_ref": "Cassini-3b-7_14_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "façade",
-    "brique",
     "verrière",
+    "fenetre",
+    "brique",
+    "façade",
     "voie"
+  ],
+  "terme_torneh_bat": [
+    "arc brisé",
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "grille",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "porche",
+    "porte",
+    "souche de cheminée",
+    "soupirail",
+    "vantail",
+    "verrière"
   ],
   "photos": [
     {
@@ -35,6 +56,27 @@
       "IndexJantzen": [
         "brique",
         "façade"
+      ],
+      "IndexTorneh": [
+        "brique",
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "porte",
+        "arc en plein cintre",
+        "arc brisé",
+        "pierre de taille",
+        "fer forgé",
+        "grille",
+        "verrière",
+        "porche",
+        "oculus",
+        "corniche",
+        "bandeau",
+        "soupirail",
+        "vantail",
+        "mascaron",
+        "souche de cheminée"
       ],
       "dateCapture": "2010:05:24"
     },
@@ -45,6 +87,7 @@
         "façade",
         "voie"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:11"
     },
     {
@@ -54,6 +97,7 @@
         "fenetre",
         "verrière"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:11"
     }
   ]

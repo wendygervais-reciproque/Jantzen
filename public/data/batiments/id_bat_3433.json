@@ -21,11 +21,26 @@
   "WPfr": null,
   "image_ref": "Lekain-7_16_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "métal",
     "oriel",
+    "fenetre",
     "brique",
+    "métal",
     "colonne"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "linteau",
+    "lucarne",
+    "oriel",
+    "porte-fenêtre",
+    "volet"
   ],
   "photos": [
     {
@@ -33,6 +48,21 @@
       "IndexJantzen": [
         "brique",
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "brique",
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "porte-fenêtre",
+        "lucarne",
+        "volet",
+        "balustrade",
+        "bandeau",
+        "oriel",
+        "fer forgé",
+        "fronton",
+        "linteau"
       ],
       "dateCapture": "2005:05:12"
     },
@@ -42,6 +72,7 @@
         "brique",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:12"
     },
     {
@@ -52,6 +83,7 @@
         "métal",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:12"
     }
   ]

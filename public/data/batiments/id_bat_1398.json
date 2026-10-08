@@ -36,17 +36,57 @@
   "WPfr": null,
   "image_ref": "Tolbiac-198_13_§1",
   "terme_jantzen_bat": [
+    "sculpture",
     "fenetre",
     "façade",
     "garde-corps",
-    "sculpture",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "baie",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "chaîne d'angle",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "oriel",
+    "pierre de taille",
+    "porte",
+    "toit-terrasse",
+    "travée",
+    "vitrail",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Tolbiac-198_13_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "baie",
+        "balcon",
+        "balustrade",
+        "bandeau",
+        "chambranle",
+        "fenêtre",
+        "fer forgé",
+        "garde-corps",
+        "mascaron",
+        "pierre de taille",
+        "porte",
+        "travée",
+        "vitrail",
+        "volet",
+        "arc en plein cintre",
+        "chaîne d'angle",
+        "oriel",
+        "toit-terrasse"
       ],
       "dateCapture": "2005:04:01"
     },
@@ -55,6 +95,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:03:29"
     },
     {
@@ -63,6 +104,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:03:29"
     },
     {
@@ -72,6 +114,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:01"
     },
     {
@@ -80,6 +123,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:01"
     },
     {
@@ -88,6 +132,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:01"
     }
   ]

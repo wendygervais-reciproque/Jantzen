@@ -28,9 +28,21 @@
   "WPfr": null,
   "image_ref": "Pyrenees-326-_20_§2",
   "terme_jantzen_bat": [
-    "fenetre",
     "sculpture",
-    "console"
+    "console",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc en anse de panier",
+    "balcon",
+    "fer",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "pierre de taille",
+    "porte-fenêtre",
+    "sculpture",
+    "volet"
   ],
   "photos": [
     {
@@ -38,6 +50,18 @@
       "IndexJantzen": [
         "fenetre",
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "porte-fenêtre",
+        "volet",
+        "arc en anse de panier",
+        "sculpture",
+        "mascaron",
+        "pierre de taille",
+        "fer"
       ],
       "dateCapture": "2005:09:04"
     },
@@ -47,6 +71,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:09:04"
     }
   ]

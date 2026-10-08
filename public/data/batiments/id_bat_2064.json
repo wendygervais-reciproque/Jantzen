@@ -24,12 +24,40 @@
     "porte-fer-hall",
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "chambranle",
+    "corniche",
+    "fer forgé",
+    "garde-corps",
+    "jambage",
+    "linteau",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "vantail",
+    "vitrail"
+  ],
   "photos": [
     {
       "id_pic": "Cesar-Franck-3_15_§1",
       "IndexJantzen": [
         "porte-bois",
         "porte-fer-hall"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "vantail",
+        "vitrail",
+        "fer forgé",
+        "balcon",
+        "garde-corps",
+        "corniche",
+        "mascaron",
+        "pierre de taille",
+        "chambranle",
+        "jambage",
+        "linteau"
       ],
       "dateCapture": "2003:11:11"
     },
@@ -38,6 +66,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:11:11"
     }
   ]

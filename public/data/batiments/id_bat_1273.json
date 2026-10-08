@@ -28,14 +28,52 @@
   "WPfr": null,
   "image_ref": "General-Leclerc-18_14_§1",
   "terme_jantzen_bat": [
+    "fronton",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
     "lucarne",
-    "fronton"
+    "mansarde",
+    "pierre de taille",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "volet",
+    "épi de faîtage"
   ],
   "photos": [
     {
       "id_pic": "General-Leclerc-18_14_§1",
       "IndexJantzen": [
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "mansarde",
+        "lucarne",
+        "fenêtre",
+        "volet",
+        "souche de cheminée",
+        "balustrade",
+        "pierre de taille",
+        "fer forgé",
+        "toit à deux versants",
+        "ardoise",
+        "épi de faîtage",
+        "corniche",
+        "bandeau",
+        "chaîne d'angle",
+        "travée"
       ],
       "dateCapture": "2005:08:07"
     },
@@ -45,6 +83,7 @@
         "fronton",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:07"
     }
   ]

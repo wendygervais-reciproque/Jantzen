@@ -23,11 +23,47 @@
   "terme_jantzen_bat": [
     "façade"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "chapiteau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "souche de cheminée",
+    "travée"
+  ],
   "photos": [
     {
       "id_pic": "Mondetour-26_1_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "balustrade",
+        "corniche",
+        "pilastre",
+        "chapiteau",
+        "mascaron",
+        "bandeau",
+        "pierre de taille",
+        "brique",
+        "souche de cheminée",
+        "travée",
+        "fronton",
+        "oculus"
       ],
       "dateCapture": "2004:09:01"
     }

@@ -29,22 +29,62 @@
   "image_ref": "St-Andre-Des-Arts-52_6_§1",
   "terme_jantzen_bat": [
     "oeil-de-boeuf",
-    "fenetre",
-    "façade",
-    "console",
-    "garde-corps",
+    "balcon",
     "façade-d'angle",
     "sculpture",
-    "porte-bois",
-    "fenetre-d'angle",
     "clé",
-    "balcon"
+    "console",
+    "fenetre-d'angle",
+    "fenetre",
+    "façade",
+    "garde-corps",
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chéneau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "souche de cheminée",
+    "toit à deux versants",
+    "vitrail"
   ],
   "photos": [
     {
       "id_pic": "St-Andre-Des-Arts-52_6_§1",
       "IndexJantzen": [
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "mansarde",
+        "lucarne",
+        "arc en plein cintre",
+        "mascaron",
+        "pierre de taille",
+        "chéneau",
+        "toit à deux versants",
+        "souche de cheminée",
+        "porte",
+        "vitrail",
+        "ardoise",
+        "corniche",
+        "bandeau"
       ],
       "dateCapture": "2010:05:23"
     },
@@ -54,6 +94,7 @@
         "oeil-de-boeuf",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:05:23"
     },
     {
@@ -62,6 +103,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:05:23"
     },
     {
@@ -70,6 +112,7 @@
         "balcon",
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:05:23"
     },
     {
@@ -80,6 +123,7 @@
         "fenetre-d'angle",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:05:23"
     },
     {
@@ -90,6 +134,7 @@
         "fenetre-d'angle",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:05:23"
     },
     {
@@ -98,6 +143,7 @@
         "balcon",
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:05:23"
     },
     {
@@ -108,6 +154,7 @@
         "console",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:05:23"
     },
     {
@@ -116,6 +163,7 @@
         "clé",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:05:23"
     },
     {
@@ -125,6 +173,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:05:23"
     },
     {
@@ -134,6 +183,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:11"
     }
   ]

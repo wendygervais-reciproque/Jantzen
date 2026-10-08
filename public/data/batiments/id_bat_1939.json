@@ -22,14 +22,46 @@
   "image_ref": "Madrid-27_8_§1",
   "terme_jantzen_bat": [
     "toiture",
+    "fronton",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "chapiteau",
+    "corniche",
+    "fenêtre",
+    "fronton",
     "lucarne",
-    "fronton"
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "sculpture",
+    "souche de cheminée"
   ],
   "photos": [
     {
       "id_pic": "Madrid-27_8_§1",
       "IndexJantzen": [
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "lucarne",
+        "fronton",
+        "mascaron",
+        "balustrade",
+        "ardoise",
+        "fenêtre",
+        "sculpture",
+        "pilastre",
+        "corniche",
+        "chapiteau",
+        "balcon",
+        "souche de cheminée",
+        "oculus",
+        "pierre de taille"
       ],
       "dateCapture": "2006:06:02"
     },
@@ -40,6 +72,7 @@
         "lucarne",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:02"
     }
   ]

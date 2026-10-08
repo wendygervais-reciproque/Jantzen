@@ -29,9 +29,25 @@
   "image_ref": "Tocqueville-45_17_§1",
   "terme_jantzen_bat": [
     "façade",
-    "garde-corps",
     "balcon",
+    "garde-corps",
     "mosaique"
+  ],
+  "terme_torneh_bat": [
+    "attique",
+    "baie",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "céramique",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "grille",
+    "oriel",
+    "pilastre",
+    "travée",
+    "vitrail"
   ],
   "photos": [
     {
@@ -39,6 +55,22 @@
       "IndexJantzen": [
         "façade",
         "mosaique"
+      ],
+      "IndexTorneh": [
+        "baie",
+        "balcon",
+        "balustrade",
+        "bandeau",
+        "fenêtre",
+        "garde-corps",
+        "fer forgé",
+        "céramique",
+        "travée",
+        "vitrail",
+        "attique",
+        "oriel",
+        "grille",
+        "pilastre"
       ],
       "dateCapture": null
     },
@@ -49,6 +81,7 @@
         "garde-corps",
         "mosaique"
       ],
+      "IndexTorneh": [],
       "dateCapture": null
     }
   ]

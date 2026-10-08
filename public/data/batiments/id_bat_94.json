@@ -29,14 +29,29 @@
   "image_ref": "Hopital-St-Louis_10_§1-",
   "terme_jantzen_bat": [
     "toiture",
+    "façade-d'angle",
     "fenetre",
     "lucarne",
-    "façade",
-    "façade-d'angle",
-    "porte",
     "brique",
-    "lucarne-d'angle",
-    "fronton"
+    "façade",
+    "fronton",
+    "porte",
+    "lucarne-d'angle"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "brique",
+    "chaîne d'angle",
+    "chéneau",
+    "fenêtre",
+    "grille",
+    "lucarne",
+    "mansarde",
+    "pierre de taille",
+    "souche de cheminée",
+    "toit à deux versants",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -44,6 +59,21 @@
       "IndexJantzen": [
         "brique",
         "façade"
+      ],
+      "IndexTorneh": [
+        "lucarne",
+        "mansarde",
+        "fenêtre",
+        "toit à deux versants",
+        "ardoise",
+        "brique",
+        "pierre de taille",
+        "chaîne d'angle",
+        "épi de faîtage",
+        "souche de cheminée",
+        "arc en plein cintre",
+        "grille",
+        "chéneau"
       ],
       "dateCapture": "2007:03:26"
     },
@@ -53,6 +83,7 @@
         "fronton",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:03:26"
     },
     {
@@ -61,6 +92,7 @@
         "fronton",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:11"
     },
     {
@@ -69,6 +101,7 @@
         "brique",
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:03:26"
     },
     {
@@ -77,6 +110,7 @@
         "brique",
         "façade-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:03:26"
     },
     {
@@ -85,6 +119,7 @@
         "brique",
         "façade-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:03:26"
     },
     {
@@ -93,6 +128,7 @@
         "brique",
         "lucarne-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:03:26"
     },
     {
@@ -102,6 +138,7 @@
         "lucarne-d'angle",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:03:26"
     },
     {
@@ -110,6 +147,7 @@
         "brique",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:03:26"
     },
     {
@@ -118,6 +156,7 @@
         "lucarne",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:03:26"
     },
     {
@@ -126,6 +165,7 @@
         "façade",
         "porte"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:11"
     },
     {
@@ -134,6 +174,7 @@
         "lucarne",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:03:26"
     },
     {
@@ -141,6 +182,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:11"
     },
     {
@@ -148,6 +190,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:03:26"
     },
     {
@@ -155,6 +198,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:03:26"
     },
     {
@@ -162,6 +206,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:03:26"
     },
     {
@@ -169,6 +214,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:16"
     },
     {
@@ -176,6 +222,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:16"
     },
     {
@@ -184,6 +231,7 @@
         "brique",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:03:26"
     },
     {
@@ -192,6 +240,7 @@
         "façade",
         "porte"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:03:26"
     },
     {
@@ -201,6 +250,7 @@
         "façade",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:03:26"
     },
     {
@@ -210,6 +260,7 @@
         "façade",
         "porte"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:03:26"
     },
     {
@@ -218,6 +269,7 @@
         "lucarne",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:03:26"
     },
     {
@@ -226,6 +278,7 @@
         "lucarne",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:03:26"
     },
     {
@@ -234,6 +287,7 @@
         "fronton",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:03:26"
     }
   ]

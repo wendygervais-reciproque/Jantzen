@@ -23,16 +23,31 @@
   "WPfr": null,
   "image_ref": "Marcadet-205_18_§15",
   "terme_jantzen_bat": [
-    "porte-fer",
-    "fenetre",
-    "façade",
-    "lucarne",
+    "balcon",
     "façade-d'angle",
-    "porte",
+    "porte-fer",
     "fenetre-d'angle",
+    "fenetre",
+    "lucarne",
     "brique",
-    "lucarne-d'angle",
-    "balcon"
+    "façade",
+    "porte",
+    "lucarne-d'angle"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "brique",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "grille",
+    "pierre de taille",
+    "portail",
+    "sculpture",
+    "volet"
   ],
   "photos": [
     {
@@ -42,6 +57,7 @@
         "fenetre",
         "porte"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:09"
     },
     {
@@ -51,6 +67,7 @@
         "fenetre",
         "porte"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:09"
     },
     {
@@ -58,6 +75,7 @@
       "IndexJantzen": [
         "façade-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:27"
     },
     {
@@ -65,6 +83,7 @@
       "IndexJantzen": [
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:09"
     },
     {
@@ -72,12 +91,28 @@
       "IndexJantzen": [
         "lucarne-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:27"
     },
     {
       "id_pic": "Marcadet-205_18_§15",
       "IndexJantzen": [
         "porte-fer"
+      ],
+      "IndexTorneh": [
+        "arc en plein cintre",
+        "portail",
+        "grille",
+        "fer forgé",
+        "pierre de taille",
+        "sculpture",
+        "fronton",
+        "corniche",
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "brique",
+        "volet"
       ],
       "dateCapture": "2004:07:28"
     },
@@ -88,6 +123,7 @@
         "brique",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:09"
     },
     {
@@ -96,6 +132,7 @@
         "brique",
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:09"
     },
     {
@@ -104,6 +141,7 @@
         "brique",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:27"
     },
     {
@@ -112,6 +150,7 @@
         "brique",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:09"
     },
     {
@@ -120,6 +159,7 @@
         "brique",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:27"
     },
     {
@@ -128,6 +168,7 @@
         "brique",
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:28"
     },
     {
@@ -136,6 +177,7 @@
         "brique",
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:28"
     },
     {
@@ -144,6 +186,7 @@
         "brique",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:09"
     }
   ]

@@ -28,11 +28,34 @@
   "WPfr": null,
   "image_ref": "Villebois-Mareuil-7_17_§1",
   "terme_jantzen_bat": [
-    "console",
-    "sculpture",
     "dome",
+    "sculpture",
     "fenetre-d'angle",
+    "console",
     "lucarne-d'angle"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "frise",
+    "fronton",
+    "garde-corps",
+    "grille",
+    "mascaron",
+    "oculus",
+    "oriel",
+    "pierre de taille",
+    "sculpture",
+    "souche de cheminée",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -41,6 +64,7 @@
         "dome",
         "lucarne-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:03:23"
     },
     {
@@ -48,6 +72,29 @@
       "IndexJantzen": [
         "dome",
         "fenetre-d'angle"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "bandeau",
+        "corniche",
+        "dôme",
+        "fenêtre",
+        "fer forgé",
+        "fronton",
+        "garde-corps",
+        "grille",
+        "mascaron",
+        "oriel",
+        "pierre de taille",
+        "souche de cheminée",
+        "sculpture",
+        "travée",
+        "volet",
+        "arc en plein cintre",
+        "ardoise",
+        "oculus",
+        "frise"
       ],
       "dateCapture": "2013:05:02"
     },
@@ -57,6 +104,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:08"
     }
   ]

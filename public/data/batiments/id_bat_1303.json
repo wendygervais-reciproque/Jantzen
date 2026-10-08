@@ -21,14 +21,66 @@
   "WPfr": null,
   "image_ref": "Mathurins-18_9_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "façade",
-    "sculpture"
+    "sculpture",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc brisé",
+    "arc en plein cintre",
+    "ardoise",
+    "baie",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chapiteau",
+    "colonne",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "grille",
+    "linteau",
+    "lucarne",
+    "mansarde",
+    "mur-boutant",
+    "oculus",
+    "pierre de taille",
+    "porte",
+    "toit à deux versants",
+    "travée"
   ],
   "photos": [
     {
       "id_pic": "Mathurins-18_9_§1",
       "IndexJantzen": [],
+      "IndexTorneh": [
+        "arc",
+        "arc brisé",
+        "arc en plein cintre",
+        "balcon",
+        "balustrade",
+        "baie",
+        "bandeau",
+        "colonne",
+        "corniche",
+        "fenêtre",
+        "fer forgé",
+        "garde-corps",
+        "grille",
+        "linteau",
+        "lucarne",
+        "mansarde",
+        "mur-boutant",
+        "oculus",
+        "pierre de taille",
+        "toit à deux versants",
+        "travée",
+        "ardoise",
+        "porte",
+        "chapiteau"
+      ],
       "dateCapture": "2012:05:13"
     },
     {
@@ -37,11 +89,13 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:05:13"
     },
     {
       "id_pic": "Mathurins-18_9_§3",
       "IndexJantzen": [],
+      "IndexTorneh": [],
       "dateCapture": "2012:05:13"
     },
     {
@@ -49,6 +103,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:05:13"
     }
   ]

@@ -21,12 +21,30 @@
   "WPfr": null,
   "image_ref": "Raspail-206_14_§1",
   "terme_jantzen_bat": [
+    "balcon",
     "porte-fer",
+    "sculpture",
     "fenetre",
     "garde-corps",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc en anse de panier",
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "garde-corps",
+    "mansarde",
+    "mascaron",
+    "oriel",
+    "pierre de taille",
     "sculpture",
-    "décor",
-    "balcon"
+    "souche de cheminée",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -34,6 +52,24 @@
       "IndexJantzen": [
         "balcon",
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "mansarde",
+        "souche de cheminée",
+        "corniche",
+        "bandeau",
+        "mascaron",
+        "arc en plein cintre",
+        "arc en anse de panier",
+        "pierre de taille",
+        "oriel",
+        "travée",
+        "volet",
+        "sculpture"
       ],
       "dateCapture": "2004:03:30"
     },
@@ -44,6 +80,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:04:15"
     },
     {
@@ -52,6 +89,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:04:15"
     },
     {
@@ -61,6 +99,7 @@
         "garde-corps",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:04:15"
     },
     {
@@ -68,6 +107,7 @@
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:04:15"
     },
     {
@@ -75,6 +115,7 @@
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:04:15"
     }
   ]

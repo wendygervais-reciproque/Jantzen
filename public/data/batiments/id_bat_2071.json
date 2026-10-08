@@ -24,8 +24,19 @@
     "oeil-de-boeuf",
     "fenetre",
     "lucarne",
-    "porte-bois",
-    "fronton"
+    "fronton",
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "chambranle",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mascaron",
+    "pierre de taille",
+    "toit à deux versants"
   ],
   "photos": [
     {
@@ -33,6 +44,17 @@
       "IndexJantzen": [
         "fronton",
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "lucarne",
+        "fronton",
+        "balcon",
+        "garde-corps",
+        "mascaron",
+        "fenêtre",
+        "toit à deux versants",
+        "chambranle",
+        "pierre de taille"
       ],
       "dateCapture": "2007:07:14"
     },
@@ -42,6 +64,7 @@
         "fronton",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:07:14"
     },
     {
@@ -51,6 +74,7 @@
         "oeil-de-boeuf",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:28"
     }
   ]

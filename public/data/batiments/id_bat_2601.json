@@ -23,11 +23,35 @@
   "terme_jantzen_bat": [
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mansarde",
+    "oriel",
+    "pierre de taille",
+    "souche de cheminée",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Seine-41_6_§1",
       "IndexJantzen": [
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "oriel",
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "volet",
+        "souche de cheminée",
+        "mansarde",
+        "pierre de taille",
+        "fer forgé",
+        "balustrade"
       ],
       "dateCapture": "2006:05:11"
     }

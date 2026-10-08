@@ -21,8 +21,25 @@
   "WPfr": null,
   "image_ref": "Monceau-61_8_E§1",
   "terme_jantzen_bat": [
-    "porte-bois",
-    "colonne"
+    "colonne",
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balustrade",
+    "colonne",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "grille",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "portail",
+    "porte",
+    "sculpture",
+    "vantail"
   ],
   "photos": [
     {
@@ -30,6 +47,23 @@
       "IndexJantzen": [
         "colonne",
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "colonne",
+        "pilastre",
+        "arc en plein cintre",
+        "portail",
+        "porte",
+        "vantail",
+        "sculpture",
+        "mascaron",
+        "fronton",
+        "balustrade",
+        "oculus",
+        "pierre de taille",
+        "grille",
+        "fer forgé",
+        "fenêtre"
       ],
       "dateCapture": "2004:07:02"
     }

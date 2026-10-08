@@ -31,12 +31,52 @@
     "façade",
     "voie"
   ],
+  "terme_torneh_bat": [
+    "avant-corps",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chéneau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Capri-rue_12_§1",
       "IndexJantzen": [
         "façade",
         "voie"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "corniche",
+        "bandeau",
+        "chéneau",
+        "toit à deux versants",
+        "souche de cheminée",
+        "mascaron",
+        "fer forgé",
+        "pierre de taille",
+        "travée",
+        "porte",
+        "volet",
+        "mansarde",
+        "lucarne",
+        "avant-corps"
       ],
       "dateCapture": "2004:07:26"
     },
@@ -46,6 +86,7 @@
         "façade",
         "voie"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:26"
     },
     {
@@ -54,6 +95,7 @@
         "façade",
         "voie"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:26"
     },
     {
@@ -62,6 +104,7 @@
         "façade",
         "voie"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:13"
     }
   ]

@@ -21,14 +21,40 @@
   "WPfr": null,
   "image_ref": "Greneta-34_2_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "façade"
+    "façade",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "pierre de taille",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Greneta-34_2_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "corniche",
+        "arc en plein cintre",
+        "chambranle",
+        "pierre de taille",
+        "volet",
+        "travée",
+        "fer forgé"
       ],
       "dateCapture": "2004:09:01"
     },
@@ -37,6 +63,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:08:31"
     },
     {
@@ -44,6 +71,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:08:31"
     }
   ]

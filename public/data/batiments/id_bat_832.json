@@ -34,11 +34,47 @@
   "terme_jantzen_bat": [
     "fenetre"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "oriel",
+    "pierre de taille",
+    "porte-fenêtre",
+    "sculpture",
+    "toit à deux versants",
+    "travée",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "St-Denis-133_1_§1",
       "IndexJantzen": [
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "garde-corps",
+        "lucarne",
+        "mansarde",
+        "sculpture",
+        "fer forgé",
+        "arc en plein cintre",
+        "bandeau",
+        "pierre de taille",
+        "travée",
+        "oriel",
+        "toit à deux versants",
+        "volet",
+        "porte-fenêtre"
       ],
       "dateCapture": "2004:09:01"
     },
@@ -47,6 +83,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:01"
     }
   ]

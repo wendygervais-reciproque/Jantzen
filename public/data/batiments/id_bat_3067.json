@@ -23,11 +23,33 @@
   "terme_jantzen_bat": [
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "arc",
+    "corniche",
+    "fer forgé",
+    "heurtoir",
+    "jambage",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "La-Bruyere-58_9_§1",
       "IndexJantzen": [
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "portail",
+        "arc",
+        "vantail",
+        "fer forgé",
+        "pierre de taille",
+        "heurtoir",
+        "jambage",
+        "corniche"
       ],
       "dateCapture": "2004:06:17"
     }

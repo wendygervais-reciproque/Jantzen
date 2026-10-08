@@ -23,11 +23,37 @@
   "terme_jantzen_bat": [
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "arc en anse de panier",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "fenêtre",
+    "fronton",
+    "lucarne",
+    "mansarde",
+    "pierre de taille",
+    "souche de cheminée",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Legendre-13_17_§1",
       "IndexJantzen": [
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "lucarne",
+        "souche de cheminée",
+        "ardoise",
+        "balustrade",
+        "fenêtre",
+        "volet",
+        "mansarde",
+        "arc en anse de panier",
+        "pierre de taille",
+        "balcon",
+        "fronton"
       ],
       "dateCapture": "2006:06:08"
     }

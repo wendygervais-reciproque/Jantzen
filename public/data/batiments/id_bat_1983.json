@@ -33,10 +33,31 @@
   "image_ref": "Raspail-280_14_§1",
   "terme_jantzen_bat": [
     "porte-fer",
-    "fenetre",
-    "console",
+    "oriel",
     "sculpture",
-    "oriel"
+    "console",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mansarde",
+    "oculus",
+    "oriel",
+    "pierre de taille",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "verrière",
+    "volet"
   ],
   "photos": [
     {
@@ -45,6 +66,27 @@
         "fenetre",
         "oriel"
       ],
+      "IndexTorneh": [
+        "oriel",
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "arc en plein cintre",
+        "balustrade",
+        "corniche",
+        "souche de cheminée",
+        "toit à deux versants",
+        "ardoise",
+        "brique",
+        "pierre de taille",
+        "oculus",
+        "mansarde",
+        "verrière",
+        "fer forgé",
+        "bandeau",
+        "travée",
+        "volet"
+      ],
       "dateCapture": "2005:03:21"
     },
     {
@@ -52,6 +94,7 @@
       "IndexJantzen": [
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:03:21"
     },
     {
@@ -60,6 +103,7 @@
         "console",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:03:21"
     },
     {
@@ -68,6 +112,7 @@
         "porte-fer",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:03:21"
     }
   ]

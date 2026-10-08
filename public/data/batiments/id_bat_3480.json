@@ -21,17 +21,57 @@
   "WPfr": null,
   "image_ref": "Courcelles-bd-72_17_§1",
   "terme_jantzen_bat": [
+    "loggia",
     "porte-fer",
     "fenetre",
     "lucarne",
-    "loggia",
     "colonne"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "souche de cheminée",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Courcelles-bd-72_17_§1",
       "IndexJantzen": [
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "mansarde",
+        "lucarne",
+        "ardoise",
+        "corniche",
+        "bandeau",
+        "pilastre",
+        "arc en plein cintre",
+        "souche de cheminée",
+        "volet",
+        "travée",
+        "oculus",
+        "mascaron",
+        "pierre de taille",
+        "fer forgé"
       ],
       "dateCapture": "2010:04:11"
     },
@@ -40,6 +80,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:04:11"
     },
     {
@@ -49,6 +90,7 @@
         "loggia",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:04:11"
     },
     {
@@ -56,6 +98,7 @@
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:04:11"
     }
   ]

@@ -28,15 +28,59 @@
   "WPfr": null,
   "image_ref": "Therese-8_1_§1",
   "terme_jantzen_bat": [
+    "oriel",
     "fenetre",
-    "porte-bois",
-    "oriel"
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "chéneau",
+    "corniche",
+    "céramique",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "meneau",
+    "oculus",
+    "oriel",
+    "pierre de taille",
+    "pilastre",
+    "porte-fenêtre",
+    "sculpture",
+    "travée"
   ],
   "photos": [
     {
       "id_pic": "Therese-8_1_§1",
       "IndexJantzen": [
         "oriel"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "porte-fenêtre",
+        "balustrade",
+        "brique",
+        "pierre de taille",
+        "corniche",
+        "bandeau",
+        "mascaron",
+        "oriel",
+        "travée",
+        "fer forgé",
+        "arc",
+        "meneau",
+        "oculus",
+        "céramique",
+        "chéneau",
+        "sculpture",
+        "pilastre"
       ],
       "dateCapture": "2004:09:02"
     },
@@ -45,6 +89,7 @@
       "IndexJantzen": [
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:01"
     },
     {
@@ -52,6 +97,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:01"
     },
     {
@@ -60,6 +106,7 @@
         "fenetre",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:02"
     }
   ]

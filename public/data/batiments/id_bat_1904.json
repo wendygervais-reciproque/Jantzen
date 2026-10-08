@@ -22,8 +22,19 @@
   "image_ref": "Gautthey-26_17_§1",
   "terme_jantzen_bat": [
     "sculpture",
-    "fenetre",
-    "console"
+    "console",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bossage",
+    "corniche",
+    "fenêtre",
+    "mascaron",
+    "pierre de taille",
+    "sculpture",
+    "volet"
   ],
   "photos": [
     {
@@ -32,6 +43,17 @@
         "console",
         "fenetre",
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balustrade",
+        "balcon",
+        "sculpture",
+        "mascaron",
+        "pierre de taille",
+        "volet",
+        "bossage",
+        "corniche"
       ],
       "dateCapture": "2004:09:15"
     }

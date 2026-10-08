@@ -24,15 +24,45 @@
   "WPfr": "Église Saint-Lambert de Vaugirard",
   "image_ref": "Gerbert-Eglise_15_§1",
   "terme_jantzen_bat": [
+    "façade",
     "toiture",
-    "lucarne",
-    "façade"
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "contrefort",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "grille",
+    "pierre de taille",
+    "porte",
+    "toit à deux versants",
+    "tour",
+    "vitrail",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Gerbert-Eglise_15_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "tour",
+        "arc en plein cintre",
+        "fenêtre",
+        "contrefort",
+        "pierre de taille",
+        "toit à deux versants",
+        "balcon",
+        "garde-corps",
+        "porte",
+        "fronton",
+        "volet",
+        "grille",
+        "vitrail"
       ],
       "dateCapture": "2006:09:09"
     },
@@ -41,6 +71,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:09:09"
     },
     {
@@ -48,6 +79,7 @@
       "IndexJantzen": [
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:17"
     },
     {
@@ -56,6 +88,7 @@
         "lucarne",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:17"
     },
     {
@@ -63,6 +96,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:09:09"
     }
   ]

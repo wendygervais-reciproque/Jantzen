@@ -28,8 +28,29 @@
   "WPfr": null,
   "image_ref": "Tour-de-la-102_16_§1",
   "terme_jantzen_bat": [
-    "porte-bois",
-    "colonne"
+    "colonne",
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "chapiteau",
+    "chapiteau corinthien",
+    "colonne",
+    "corniche",
+    "entablement",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "mascaron",
+    "pierre de taille",
+    "pilastre",
+    "portail",
+    "porte",
+    "sculpture",
+    "vantail"
   ],
   "photos": [
     {
@@ -37,6 +58,27 @@
       "IndexJantzen": [
         "colonne",
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "portail",
+        "vantail",
+        "colonne",
+        "chapiteau",
+        "chapiteau corinthien",
+        "pilastre",
+        "fronton",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "sculpture",
+        "mascaron",
+        "corniche",
+        "pierre de taille",
+        "fenêtre",
+        "arc en plein cintre",
+        "entablement"
       ],
       "dateCapture": "2005:06:07"
     }

@@ -25,16 +25,70 @@
   "terme_jantzen_bat": [
     "oeil-de-boeuf",
     "fenetre",
-    "façade",
     "lucarne",
+    "façade",
     "fronton",
     "colonne"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "arcade",
+    "balcon",
+    "balustrade",
+    "chapiteau",
+    "colonne",
+    "corniche",
+    "entablement",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "grille",
+    "lucarne",
+    "mansarde",
+    "marquise",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "porte-fenêtre",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée"
   ],
   "photos": [
     {
       "id_pic": "Vendome-Pl-14_1_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fronton",
+        "pilastre",
+        "colonne",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "porte",
+        "porte-fenêtre",
+        "oculus",
+        "lucarne",
+        "mansarde",
+        "souche de cheminée",
+        "corniche",
+        "arc en plein cintre",
+        "arcade",
+        "pierre de taille",
+        "mascaron",
+        "sculpture",
+        "entablement",
+        "travée",
+        "chapiteau",
+        "marquise",
+        "toit à deux versants",
+        "grille"
       ],
       "dateCapture": "2008:04:03"
     },
@@ -43,6 +97,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:04:03"
     },
     {
@@ -51,6 +106,7 @@
         "fenetre",
         "fronton"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:04:03"
     },
     {
@@ -59,6 +115,7 @@
         "façade",
         "fronton"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:03:23"
     },
     {
@@ -68,6 +125,7 @@
         "façade",
         "fronton"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:03:23"
     },
     {
@@ -76,6 +134,7 @@
         "colonne",
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:03:23"
     },
     {
@@ -84,6 +143,7 @@
         "fenetre",
         "fronton"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:03:23"
     },
     {
@@ -92,6 +152,7 @@
         "lucarne",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:04:03"
     }
   ]

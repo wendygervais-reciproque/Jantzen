@@ -22,16 +22,52 @@
   "image_ref": "Louvre-Rue-19_1_§1",
   "terme_jantzen_bat": [
     "porte-fer",
+    "sculpture",
     "fenetre",
     "façade",
-    "sculpture",
     "poignée-porte"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "fenêtre",
+    "fer",
+    "fer forgé",
+    "garde-corps",
+    "grille",
+    "gros appareil",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "pierre de taille",
+    "portail",
+    "portique",
+    "sculpture"
   ],
   "photos": [
     {
       "id_pic": "Louvre-Rue-19_1_§1",
       "IndexJantzen": [
         "porte-fer"
+      ],
+      "IndexTorneh": [
+        "portail",
+        "arc en plein cintre",
+        "grille",
+        "sculpture",
+        "mascaron",
+        "pierre de taille",
+        "fer forgé",
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "lucarne",
+        "ardoise",
+        "mansarde",
+        "gros appareil",
+        "fer",
+        "portique"
       ],
       "dateCapture": "2006:06:11"
     },
@@ -40,6 +76,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:21"
     },
     {
@@ -47,6 +84,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:21"
     },
     {
@@ -55,6 +93,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:21"
     },
     {
@@ -62,6 +101,7 @@
       "IndexJantzen": [
         "poignée-porte"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:11"
     },
     {
@@ -69,6 +109,7 @@
       "IndexJantzen": [
         "poignée-porte"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:11"
     }
   ]

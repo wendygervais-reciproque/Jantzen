@@ -30,11 +30,37 @@
   "terme_jantzen_bat": [
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en anse de panier",
+    "balustrade",
+    "corniche",
+    "fer forgé",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "porte-fenêtre",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Donzetti-3_16_§1",
       "IndexJantzen": [
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "arc",
+        "arc en anse de panier",
+        "porte",
+        "porte-fenêtre",
+        "mascaron",
+        "balustrade",
+        "fer forgé",
+        "vantail",
+        "pierre de taille",
+        "sculpture",
+        "corniche"
       ],
       "dateCapture": "2004:07:25"
     }

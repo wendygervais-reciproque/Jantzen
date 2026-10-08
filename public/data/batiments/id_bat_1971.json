@@ -24,17 +24,46 @@
   "image_ref": "St-Ferdinand-pl-28_17_§1",
   "terme_jantzen_bat": [
     "toiture",
+    "colonne",
+    "dome",
+    "façade-d'angle",
+    "balcon",
+    "sculpture",
+    "fenetre-d'angle",
     "fenetre",
+    "console",
     "lucarne",
     "garde-corps",
-    "console",
-    "façade-d'angle",
-    "sculpture",
-    "dome",
-    "fenetre-d'angle",
-    "décor",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc en anse de panier",
+    "arc en plein cintre",
+    "ardoise",
+    "auvent",
+    "avant-corps",
     "balcon",
-    "colonne"
+    "balustrade",
+    "bandeau",
+    "colonne",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "meneau",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "sculpture",
+    "souche de cheminée",
+    "vitrail",
+    "volet"
   ],
   "photos": [
     {
@@ -42,6 +71,35 @@
       "IndexJantzen": [
         "dome",
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "lucarne",
+        "mansarde",
+        "souche de cheminée",
+        "corniche",
+        "bandeau",
+        "pilastre",
+        "colonne",
+        "arc en plein cintre",
+        "arc en anse de panier",
+        "mascaron",
+        "sculpture",
+        "ardoise",
+        "dôme",
+        "oculus",
+        "fer forgé",
+        "pierre de taille",
+        "vitrail",
+        "volet",
+        "auvent",
+        "porte",
+        "avant-corps",
+        "fronton",
+        "meneau"
       ],
       "dateCapture": "2009:01:11"
     },
@@ -51,6 +109,7 @@
         "fenetre-d'angle",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:06:01"
     },
     {
@@ -59,6 +118,7 @@
         "fenetre-d'angle",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:03:29"
     },
     {
@@ -67,6 +127,7 @@
         "dome",
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:03:29"
     },
     {
@@ -75,6 +136,7 @@
         "lucarne",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:09:04"
     },
     {
@@ -82,6 +144,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:02:03"
     },
     {
@@ -90,6 +153,7 @@
         "fenetre",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:02:03"
     },
     {
@@ -98,6 +162,7 @@
         "fenetre",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:06:01"
     },
     {
@@ -106,6 +171,7 @@
         "fenetre",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:02:03"
     },
     {
@@ -115,6 +181,7 @@
         "fenetre-d'angle",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:09:04"
     },
     {
@@ -123,6 +190,7 @@
         "dome",
         "façade-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:01:11"
     },
     {
@@ -132,6 +200,7 @@
         "garde-corps",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:12"
     },
     {
@@ -139,6 +208,7 @@
       "IndexJantzen": [
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:12"
     },
     {
@@ -148,6 +218,7 @@
         "garde-corps",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:12"
     },
     {
@@ -156,6 +227,7 @@
         "colonne",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:03:28"
     },
     {
@@ -164,6 +236,7 @@
         "colonne",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:12:24"
     },
     {
@@ -171,6 +244,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:03:28"
     },
     {
@@ -179,6 +253,7 @@
         "balcon",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:03:28"
     },
     {
@@ -187,6 +262,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:03:28"
     },
     {
@@ -196,6 +272,7 @@
         "garde-corps",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:12:24"
     },
     {
@@ -204,6 +281,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:03:28"
     },
     {
@@ -212,6 +290,7 @@
         "dome",
         "façade-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:09:04"
     },
     {
@@ -220,6 +299,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:12"
     },
     {
@@ -227,6 +307,7 @@
       "IndexJantzen": [
         "façade-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2013:09:23"
     },
     {
@@ -234,6 +315,7 @@
       "IndexJantzen": [
         "façade-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:06:01"
     },
     {
@@ -241,6 +323,7 @@
       "IndexJantzen": [
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2013:09:23"
     },
     {
@@ -248,6 +331,7 @@
       "IndexJantzen": [
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:09:04"
     },
     {
@@ -256,6 +340,7 @@
         "fenetre-d'angle",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:06:01"
     }
   ]

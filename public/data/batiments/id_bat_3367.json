@@ -26,11 +26,33 @@
     "poignée-porte",
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "chambranle",
+    "fer forgé",
+    "fronton",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Martignac-Cite-7_7_§1",
       "IndexJantzen": [
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "vantail",
+        "arc en plein cintre",
+        "mascaron",
+        "sculpture",
+        "fer forgé",
+        "pierre de taille",
+        "chambranle",
+        "fronton"
       ],
       "dateCapture": "2004:05:25"
     },
@@ -39,6 +61,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:03"
     },
     {
@@ -46,6 +69,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:03"
     },
     {
@@ -53,6 +77,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:05:25"
     },
     {
@@ -60,6 +85,7 @@
       "IndexJantzen": [
         "poignée-porte"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:03"
     }
   ]

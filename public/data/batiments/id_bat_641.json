@@ -28,10 +28,28 @@
   "WPfr": null,
   "image_ref": "Ecole-Medecine-12_6_§1",
   "terme_jantzen_bat": [
-    "porte-fer",
     "façade",
     "sculpture",
-    "colonne"
+    "colonne",
+    "porte-fer"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "architrave",
+    "balustrade",
+    "chapiteau ionique",
+    "colonne",
+    "corniche",
+    "entablement",
+    "fer forgé",
+    "frise",
+    "fronton",
+    "grille",
+    "mascaron",
+    "pierre de taille",
+    "pilastre",
+    "portail",
+    "sculpture"
   ],
   "photos": [
     {
@@ -39,6 +57,24 @@
       "IndexJantzen": [
         "façade",
         "porte-fer"
+      ],
+      "IndexTorneh": [
+        "arc en plein cintre",
+        "balustrade",
+        "chapiteau ionique",
+        "colonne",
+        "corniche",
+        "entablement",
+        "fer forgé",
+        "fronton",
+        "frise",
+        "grille",
+        "mascaron",
+        "pierre de taille",
+        "pilastre",
+        "portail",
+        "sculpture",
+        "architrave"
       ],
       "dateCapture": "2010:05:23"
     },
@@ -48,6 +84,7 @@
         "colonne",
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:05:23"
     },
     {
@@ -55,6 +92,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:05:23"
     }
   ]

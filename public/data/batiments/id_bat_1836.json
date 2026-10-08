@@ -28,16 +28,56 @@
   "WPfr": null,
   "image_ref": "Anatole-France-25_7_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "façade",
     "sculpture",
-    "colonne"
+    "colonne",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "arcade",
+    "attique",
+    "balcon",
+    "balustrade",
+    "chapiteau corinthien",
+    "colonne",
+    "corniche",
+    "entablement",
+    "fenêtre",
+    "fronton",
+    "oculus",
+    "perron",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "sculpture",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Anatole-France-25_7_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "colonne",
+        "chapiteau corinthien",
+        "balustrade",
+        "balcon",
+        "corniche",
+        "entablement",
+        "fronton",
+        "perron",
+        "arc en plein cintre",
+        "porte",
+        "sculpture",
+        "pierre de taille",
+        "oculus",
+        "attique",
+        "pilastre",
+        "arcade",
+        "volet"
       ],
       "dateCapture": "2010:06:04"
     },
@@ -46,6 +86,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:03"
     },
     {
@@ -54,6 +95,7 @@
         "colonne",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:06:04"
     },
     {
@@ -62,6 +104,7 @@
         "colonne",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:06:04"
     },
     {
@@ -70,6 +113,7 @@
         "colonne",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:03"
     },
     {
@@ -77,6 +121,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:03"
     }
   ]

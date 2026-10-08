@@ -28,14 +28,33 @@
   "WPfr": null,
   "image_ref": "Greuze-38_16_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "façade",
-    "garde-corps",
     "façade-d'angle",
-    "porte",
     "fenetre-d'angle",
+    "fenetre",
     "brique",
+    "façade",
+    "porte",
+    "garde-corps",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "corniche",
+    "céramique",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "oriel",
+    "pierre de taille",
+    "porte",
+    "toit-terrasse",
+    "tour",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -43,6 +62,25 @@
       "IndexJantzen": [
         "brique",
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "garde-corps",
+        "volet",
+        "porte",
+        "brique",
+        "pierre de taille",
+        "céramique",
+        "travée",
+        "oriel",
+        "toit-terrasse",
+        "mascaron",
+        "corniche",
+        "fer forgé",
+        "tour",
+        "bandeau"
       ],
       "dateCapture": "2005:05:18"
     },
@@ -53,6 +91,7 @@
         "décor",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:18"
     },
     {
@@ -63,6 +102,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:18"
     },
     {
@@ -72,6 +112,7 @@
         "fenetre",
         "porte"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:03"
     },
     {
@@ -80,6 +121,7 @@
         "brique",
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:18"
     },
     {
@@ -88,6 +130,7 @@
         "brique",
         "façade-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:30"
     },
     {
@@ -97,6 +140,7 @@
         "décor",
         "façade-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:30"
     },
     {
@@ -106,6 +150,7 @@
         "décor",
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:30"
     },
     {
@@ -114,6 +159,7 @@
         "brique",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:30"
     },
     {
@@ -124,6 +170,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:05:10"
     },
     {
@@ -133,6 +180,7 @@
         "décor",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:30"
     },
     {
@@ -142,6 +190,7 @@
         "décor",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:30"
     }
   ]

@@ -32,13 +32,37 @@
   "WPfr": null,
   "image_ref": "Octave-Feuillet-1_16_§1",
   "terme_jantzen_bat": [
-    "lucarne",
+    "dome",
     "façade-d'angle",
     "sculpture",
-    "dome",
     "fenetre-d'angle",
-    "décor",
-    "fronton"
+    "lucarne",
+    "fronton",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "avant-corps",
+    "balcon",
+    "balustrade",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "tour",
+    "travée",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -46,6 +70,30 @@
       "IndexJantzen": [
         "dome",
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "corniche",
+        "dôme",
+        "mansarde",
+        "oculus",
+        "pilastre",
+        "sculpture",
+        "mascaron",
+        "fer forgé",
+        "ardoise",
+        "pierre de taille",
+        "souche de cheminée",
+        "lucarne",
+        "fronton",
+        "avant-corps",
+        "toit à deux versants",
+        "tour",
+        "travée",
+        "épi de faîtage"
       ],
       "dateCapture": "2005:04:30"
     },
@@ -55,6 +103,7 @@
         "dome",
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:30"
     },
     {
@@ -67,6 +116,7 @@
         "lucarne",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:30"
     }
   ]

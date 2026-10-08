@@ -17,7 +17,7 @@
     "numero": "6",
     "voie": "rue de Sèvres"
   },
-  "arrondissement": 7,
+  "arrondissement": 6,
   "tri_alphab": "Sevres",
   "coordonnees": {
     "latitude": "48.852064",
@@ -28,8 +28,30 @@
   "WPfr": null,
   "image_ref": "Sevres-6_7_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "fronton"
+    "fronton",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "pierre de taille",
+    "pilastre",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants"
   ],
   "photos": [
     {
@@ -37,6 +59,28 @@
       "IndexJantzen": [
         "fenetre",
         "fronton"
+      ],
+      "IndexTorneh": [
+        "arc en plein cintre",
+        "arc",
+        "balcon",
+        "balustrade",
+        "chambranle",
+        "corniche",
+        "fenêtre",
+        "fronton",
+        "garde-corps",
+        "lucarne",
+        "mansarde",
+        "pierre de taille",
+        "sculpture",
+        "toit à deux versants",
+        "ardoise",
+        "souche de cheminée",
+        "fer forgé",
+        "pilastre",
+        "mascaron",
+        "fer"
       ],
       "dateCapture": "2007:10:22"
     },
@@ -46,6 +90,7 @@
         "fenetre",
         "fronton"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:10:22"
     }
   ]

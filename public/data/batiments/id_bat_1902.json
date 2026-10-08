@@ -34,11 +34,43 @@
   "terme_jantzen_bat": [
     "fenetre"
   ],
+  "terme_torneh_bat": [
+    "auvent",
+    "avant-corps",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mansarde",
+    "pierre de taille",
+    "souche de cheminée",
+    "travée",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Fabert-26_7_§1",
       "IndexJantzen": [
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "balustrade",
+        "corniche",
+        "bandeau",
+        "avant-corps",
+        "volet",
+        "pierre de taille",
+        "travée",
+        "fer forgé",
+        "souche de cheminée",
+        "auvent",
+        "mansarde"
       ],
       "dateCapture": "2004:05:24"
     }

@@ -21,8 +21,19 @@
   "WPfr": null,
   "image_ref": "Rollin-23_5_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "pignon"
+    "pignon",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "fenêtre",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "souche de cheminée",
+    "toit à deux versants",
+    "volet"
   ],
   "photos": [
     {
@@ -30,6 +41,17 @@
       "IndexJantzen": [
         "fenetre",
         "pignon"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "volet",
+        "souche de cheminée",
+        "garde-corps",
+        "ardoise",
+        "mansarde",
+        "lucarne",
+        "balcon",
+        "toit à deux versants"
       ],
       "dateCapture": "2005:08:29"
     }

@@ -24,12 +24,30 @@
     "sculpture",
     "console"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "corniche",
+    "fer forgé",
+    "mascaron",
+    "pierre de taille",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Eylau-av-1_16_§1",
       "IndexJantzen": [
         "console",
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "mascaron",
+        "balcon",
+        "balustrade",
+        "fer forgé",
+        "pierre de taille",
+        "volet",
+        "corniche"
       ],
       "dateCapture": "2007:05:10"
     },
@@ -39,6 +57,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:05:10"
     }
   ]

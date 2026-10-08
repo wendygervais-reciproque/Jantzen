@@ -23,11 +23,45 @@
   "terme_jantzen_bat": [
     "façade"
   ],
+  "terme_torneh_bat": [
+    "auvent",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "pierre de taille",
+    "porte",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "travée",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Montorgueil-49_2_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "volet",
+        "souche de cheminée",
+        "mansarde",
+        "lucarne",
+        "balustrade",
+        "corniche",
+        "pierre de taille",
+        "porte",
+        "porte-fenêtre",
+        "travée",
+        "auvent",
+        "bandeau"
       ],
       "dateCapture": "2004:08:31"
     }

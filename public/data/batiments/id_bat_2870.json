@@ -28,18 +28,58 @@
   "WPfr": null,
   "image_ref": "François-Miron-5_4_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "façade",
-    "lucarne",
-    "sculpture",
     "pilastre",
+    "sculpture",
+    "fenetre",
+    "lucarne",
+    "façade",
     "fronton"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "bandeau",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "grille",
+    "lucarne",
+    "mansarde",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "souche de cheminée",
+    "soupirail",
+    "toit à deux versants"
   ],
   "photos": [
     {
       "id_pic": "François-Miron-5_4_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "lucarne",
+        "mansarde",
+        "fronton",
+        "corniche",
+        "bandeau",
+        "pilastre",
+        "ardoise",
+        "souche de cheminée",
+        "oculus",
+        "balcon",
+        "garde-corps",
+        "grille",
+        "pierre de taille",
+        "chaîne d'angle",
+        "toit à deux versants",
+        "soupirail",
+        "fer forgé"
       ],
       "dateCapture": "2006:09:01"
     },
@@ -48,6 +88,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:09:01"
     },
     {
@@ -57,6 +98,7 @@
         "pilastre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:09:01"
     },
     {
@@ -65,6 +107,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:09:01"
     },
     {
@@ -73,6 +116,7 @@
         "fronton",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:09:01"
     }
   ]

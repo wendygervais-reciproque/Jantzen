@@ -33,11 +33,27 @@
   "image_ref": "Gaillon-4-6_2_§1b",
   "terme_jantzen_bat": [
     "porte-fer",
-    "fenetre",
-    "console",
     "sculpture",
     "clé",
+    "console",
+    "fenetre",
     "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "chambranle",
+    "fenêtre",
+    "garde-corps",
+    "grille",
+    "gros appareil",
+    "heurtoir",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "vantail",
+    "volet"
   ],
   "photos": [
     {
@@ -46,6 +62,22 @@
         "fenetre",
         "porte-fer"
       ],
+      "IndexTorneh": [
+        "porte",
+        "arc en plein cintre",
+        "mascaron",
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "volet",
+        "grille",
+        "pierre de taille",
+        "gros appareil",
+        "heurtoir",
+        "sculpture",
+        "chambranle",
+        "vantail"
+      ],
       "dateCapture": null
     },
     {
@@ -53,6 +85,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:19"
     },
     {
@@ -60,6 +93,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": null
     },
     {
@@ -68,6 +102,7 @@
         "clé",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:19"
     },
     {
@@ -77,6 +112,7 @@
         "porte-bois",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:19"
     },
     {
@@ -85,6 +121,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:19"
     }
   ]

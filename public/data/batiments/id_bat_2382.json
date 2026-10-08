@@ -23,11 +23,39 @@
   "terme_jantzen_bat": [
     "façade"
   ],
+  "terme_torneh_bat": [
+    "auvent",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chéneau",
+    "corniche",
+    "fenêtre",
+    "garde-corps",
+    "porte",
+    "souche de cheminée",
+    "travée",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Belleville-38_20_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "volet",
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "souche de cheminée",
+        "bandeau",
+        "travée",
+        "porte",
+        "auvent",
+        "corniche",
+        "chéneau"
       ],
       "dateCapture": "2005:09:19"
     }

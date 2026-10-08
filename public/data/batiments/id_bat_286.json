@@ -24,12 +24,38 @@
     "fenetre",
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "chambranle",
+    "fer forgé",
+    "grille",
+    "mascaron",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Foch-10_16_§1",
       "IndexJantzen": [
         "fenetre",
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "portail",
+        "arc en plein cintre",
+        "sculpture",
+        "mascaron",
+        "fer forgé",
+        "grille",
+        "balcon",
+        "vantail",
+        "pierre de taille",
+        "chambranle"
       ],
       "dateCapture": "2004:10:25"
     }

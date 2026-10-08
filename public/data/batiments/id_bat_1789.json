@@ -25,11 +25,27 @@
   "terme_jantzen_bat": [
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "chambranle",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Bethune-24_4_§1",
       "IndexJantzen": [
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "vantail",
+        "sculpture",
+        "mascaron",
+        "chambranle",
+        "pierre de taille"
       ],
       "dateCapture": "2005:07:03"
     }

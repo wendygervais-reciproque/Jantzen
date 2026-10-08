@@ -32,9 +32,31 @@
   "WPfr": null,
   "image_ref": "Odeon-Pl_6_§1",
   "terme_jantzen_bat": [
-    "toiture",
     "façade",
+    "toiture",
     "panoramique"
+  ],
+  "terme_torneh_bat": [
+    "attique",
+    "auvent",
+    "balcon",
+    "balustrade",
+    "chapiteau",
+    "colonne",
+    "corniche",
+    "entablement",
+    "escalier",
+    "fenêtre",
+    "fronton",
+    "lucarne",
+    "mansarde",
+    "perron",
+    "pilastre",
+    "porte",
+    "portique",
+    "souche de cheminée",
+    "toit à deux versants",
+    "volet"
   ],
   "photos": [
     {
@@ -43,6 +65,28 @@
         "façade",
         "panoramique"
       ],
+      "IndexTorneh": [
+        "colonne",
+        "fronton",
+        "entablement",
+        "corniche",
+        "chapiteau",
+        "attique",
+        "portique",
+        "fenêtre",
+        "balcon",
+        "volet",
+        "toit à deux versants",
+        "lucarne",
+        "souche de cheminée",
+        "mansarde",
+        "porte",
+        "auvent",
+        "balustrade",
+        "pilastre",
+        "escalier",
+        "perron"
+      ],
       "dateCapture": "2006:06:11"
     },
     {
@@ -50,6 +94,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:11"
     },
     {
@@ -58,6 +103,7 @@
         "façade",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:11"
     }
   ]

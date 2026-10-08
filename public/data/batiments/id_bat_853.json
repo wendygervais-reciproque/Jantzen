@@ -29,9 +29,28 @@
   "image_ref": "Haussmann-137_8_§1",
   "terme_jantzen_bat": [
     "toiture",
+    "colonne",
     "fenetre",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
     "lucarne",
-    "colonne"
+    "mansarde",
+    "oculus",
+    "pierre de taille",
+    "porte-fenêtre",
+    "toit à deux versants",
+    "volet"
   ],
   "photos": [
     {
@@ -41,6 +60,25 @@
         "lucarne",
         "toiture"
       ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "lucarne",
+        "mansarde",
+        "toit à deux versants",
+        "ardoise",
+        "garde-corps",
+        "arc en plein cintre",
+        "fronton",
+        "volet",
+        "pierre de taille",
+        "corniche",
+        "oculus",
+        "fer forgé",
+        "porte-fenêtre",
+        "bandeau"
+      ],
       "dateCapture": "2004:10:21"
     },
     {
@@ -49,6 +87,7 @@
         "colonne",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:10:21"
     }
   ]

@@ -21,12 +21,27 @@
   "WPfr": null,
   "image_ref": "Scribe-1_9_§1-Rx",
   "terme_jantzen_bat": [
-    "fenetre",
-    "sculpture",
     "pilastre",
+    "sculpture",
     "cariatide",
+    "fenetre",
     "fronton",
     "colonne"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chapiteau corinthien",
+    "colonne",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "mascaron",
+    "pierre de taille",
+    "travée"
   ],
   "photos": [
     {
@@ -34,6 +49,21 @@
       "IndexJantzen": [
         "colonne",
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "colonne",
+        "chapiteau corinthien",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "fer forgé",
+        "mascaron",
+        "corniche",
+        "pierre de taille",
+        "bandeau",
+        "travée",
+        "fronton"
       ],
       "dateCapture": "2011:05:25"
     },
@@ -43,6 +73,7 @@
         "fenetre",
         "fronton"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:10"
     },
     {
@@ -53,6 +84,7 @@
         "pilastre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:10"
     },
     {
@@ -62,6 +94,7 @@
         "fronton",
         "pilastre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:03:23"
     },
     {
@@ -71,6 +104,7 @@
         "pilastre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:05:25"
     },
     {
@@ -79,6 +113,7 @@
         "cariatide",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:10"
     },
     {
@@ -88,6 +123,7 @@
         "fronton",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:05:25"
     }
   ]

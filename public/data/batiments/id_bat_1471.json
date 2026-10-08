@@ -23,9 +23,27 @@
   "WPfr": null,
   "image_ref": "Navarin-2_9_§1",
   "terme_jantzen_bat": [
-    "lucarne",
     "lucarne-d'angle",
-    "fenetre-d'angle"
+    "fenetre-d'angle",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oriel",
+    "pierre de taille",
+    "sculpture",
+    "toit à deux versants",
+    "volet"
   ],
   "photos": [
     {
@@ -34,6 +52,24 @@
         "fenetre-d'angle",
         "lucarne"
       ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "oriel",
+        "mascaron",
+        "corniche",
+        "lucarne",
+        "mansarde",
+        "toit à deux versants",
+        "sculpture",
+        "pierre de taille",
+        "fer forgé",
+        "ardoise",
+        "fronton",
+        "volet"
+      ],
       "dateCapture": "2004:06:28"
     },
     {
@@ -41,6 +77,7 @@
       "IndexJantzen": [
         "lucarne-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:06:28"
     }
   ]

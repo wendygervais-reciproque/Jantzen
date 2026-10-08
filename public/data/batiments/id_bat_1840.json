@@ -26,11 +26,43 @@
     "fenetre",
     "façade-d'angle"
   ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "bandeau",
+    "chaîne d'angle",
+    "fenêtre",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "pierre de taille",
+    "porte",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Charlemagne-25_4_§1-Rx",
       "IndexJantzen": [
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "mansarde",
+        "lucarne",
+        "ardoise",
+        "souche de cheminée",
+        "garde-corps",
+        "balcon",
+        "volet",
+        "pierre de taille",
+        "chaîne d'angle",
+        "porte",
+        "travée",
+        "toit à deux versants",
+        "bandeau"
       ],
       "dateCapture": "2011:08:20"
     },
@@ -39,6 +71,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:08:20"
     }
   ]

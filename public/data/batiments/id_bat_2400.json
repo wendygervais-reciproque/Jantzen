@@ -21,8 +21,23 @@
   "WPfr": null,
   "image_ref": "Scheffer-38_16_§1",
   "terme_jantzen_bat": [
-    "porte-fer",
-    "colonne"
+    "colonne",
+    "porte-fer"
+  ],
+  "terme_torneh_bat": [
+    "chapiteau ionique",
+    "colonne",
+    "corniche",
+    "entablement",
+    "fenêtre",
+    "fer forgé",
+    "frise",
+    "linteau",
+    "modillon",
+    "pierre de taille",
+    "porte",
+    "vantail",
+    "volet"
   ],
   "photos": [
     {
@@ -30,6 +45,21 @@
       "IndexJantzen": [
         "colonne",
         "porte-fer"
+      ],
+      "IndexTorneh": [
+        "colonne",
+        "chapiteau ionique",
+        "entablement",
+        "corniche",
+        "modillon",
+        "porte",
+        "fer forgé",
+        "vantail",
+        "pierre de taille",
+        "fenêtre",
+        "volet",
+        "linteau",
+        "frise"
       ],
       "dateCapture": "2005:04:30"
     }

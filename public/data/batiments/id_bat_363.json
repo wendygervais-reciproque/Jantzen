@@ -28,10 +28,28 @@
   "WPfr": null,
   "image_ref": "Tour-de-la-100_16_§3",
   "terme_jantzen_bat": [
-    "sculpture",
     "pilastre",
-    "décor",
-    "fenetre-d'angle"
+    "sculpture",
+    "fenetre-d'angle",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "modillon",
+    "pierre de taille",
+    "pilastre",
+    "sculpture",
+    "souche de cheminée",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -42,6 +60,24 @@
         "pilastre",
         "sculpture"
       ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "balustrade",
+        "mascaron",
+        "modillon",
+        "pierre de taille",
+        "chaîne d'angle",
+        "corniche",
+        "bandeau",
+        "souche de cheminée",
+        "volet",
+        "travée",
+        "sculpture",
+        "pilastre"
+      ],
       "dateCapture": "2005:04:30"
     },
     {
@@ -50,6 +86,7 @@
         "fenetre-d'angle",
         "pilastre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:30"
     }
   ]

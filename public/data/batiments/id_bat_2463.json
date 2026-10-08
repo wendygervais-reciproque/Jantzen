@@ -28,17 +28,37 @@
   "WPfr": null,
   "image_ref": "Muette-Chaussee-4_16_§1",
   "terme_jantzen_bat": [
-    "lucarne",
-    "console",
-    "façade",
-    "façade-d'angle",
-    "sculpture",
     "dome",
-    "fenetre-d'angle",
-    "oriel",
+    "façade-d'angle",
     "tour",
-    "décor",
-    "balcon"
+    "balcon",
+    "sculpture",
+    "oriel",
+    "fenetre-d'angle",
+    "console",
+    "lucarne",
+    "façade",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "porte",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée"
   ],
   "photos": [
     {
@@ -46,6 +66,26 @@
       "IndexJantzen": [
         "dome",
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "dôme",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "porte",
+        "mascaron",
+        "corniche",
+        "bandeau",
+        "souche de cheminée",
+        "pierre de taille",
+        "ardoise",
+        "fer forgé",
+        "travée",
+        "arc",
+        "arc en plein cintre",
+        "toit à deux versants",
+        "oculus"
       ],
       "dateCapture": "2005:05:12"
     },
@@ -56,6 +96,7 @@
         "façade-d'angle",
         "tour"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:19"
     },
     {
@@ -67,6 +108,7 @@
         "sculpture",
         "tour"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:19"
     },
     {
@@ -77,6 +119,7 @@
         "fenetre-d'angle",
         "tour"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:12"
     },
     {
@@ -87,6 +130,7 @@
         "fenetre-d'angle",
         "tour"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:19"
     },
     {
@@ -99,6 +143,7 @@
         "sculpture",
         "tour"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:19"
     },
     {
@@ -107,6 +152,7 @@
         "console",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:12"
     },
     {
@@ -116,6 +162,7 @@
         "façade",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:12"
     }
   ]

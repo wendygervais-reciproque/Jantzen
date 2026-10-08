@@ -25,11 +25,29 @@
   "terme_jantzen_bat": [
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "bossage",
+    "chambranle",
+    "fenêtre",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Provence-34_9_§1",
       "IndexJantzen": [
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "vantail",
+        "chambranle",
+        "sculpture",
+        "pierre de taille",
+        "fenêtre",
+        "bossage"
       ],
       "dateCapture": "2006:07:02"
     },
@@ -38,6 +56,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:06:16"
     }
   ]

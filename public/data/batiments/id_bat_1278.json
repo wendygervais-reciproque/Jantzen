@@ -21,12 +21,28 @@
   "WPfr": null,
   "image_ref": "Albert-1er-18_8_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "garde-corps",
-    "console",
     "sculpture",
+    "console",
+    "fenetre",
     "brique",
-    "fronton"
+    "fronton",
+    "garde-corps"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "jambage",
+    "linteau",
+    "mascaron",
+    "pilastre"
   ],
   "photos": [
     {
@@ -35,6 +51,22 @@
         "brique",
         "fenetre",
         "fronton"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "brique",
+        "mascaron",
+        "balcon",
+        "garde-corps",
+        "fronton",
+        "chaîne d'angle",
+        "pilastre",
+        "balustrade",
+        "fer forgé",
+        "bandeau",
+        "corniche",
+        "jambage",
+        "linteau"
       ],
       "dateCapture": "2007:04:09"
     },
@@ -46,6 +78,7 @@
         "fronton",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:09"
     },
     {
@@ -57,6 +90,7 @@
         "garde-corps",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:09"
     },
     {
@@ -66,6 +100,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:09"
     },
     {
@@ -76,6 +111,7 @@
         "fronton",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:07:08"
     }
   ]

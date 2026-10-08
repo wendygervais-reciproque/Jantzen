@@ -28,15 +28,39 @@
   "WPfr": null,
   "image_ref": "St-Germain-117_6_§1",
   "terme_jantzen_bat": [
+    "dome",
+    "façade-d'angle",
+    "balcon",
+    "sculpture",
+    "clé",
     "fenetre",
     "lucarne",
-    "façade-d'angle",
-    "sculpture",
-    "dome",
-    "clé",
     "porte-bois",
-    "décor",
-    "balcon"
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "chambranle",
+    "colonne",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "linteau",
+    "lucarne",
+    "mascaron",
+    "oculus",
+    "oriel",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "sculpture",
+    "travée",
+    "vantail",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -44,6 +68,30 @@
       "IndexJantzen": [
         "dome",
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "dôme",
+        "oriel",
+        "balcon",
+        "balustrade",
+        "corniche",
+        "fronton",
+        "pilastre",
+        "colonne",
+        "porte",
+        "vantail",
+        "mascaron",
+        "sculpture",
+        "fer forgé",
+        "fenêtre",
+        "lucarne",
+        "oculus",
+        "pierre de taille",
+        "ardoise",
+        "épi de faîtage",
+        "travée",
+        "chambranle",
+        "linteau"
       ],
       "dateCapture": "2010:06:05"
     },
@@ -54,6 +102,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:06:05"
     },
     {
@@ -64,6 +113,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:06:05"
     },
     {
@@ -72,6 +122,7 @@
         "clé",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:06:05"
     },
     {
@@ -80,6 +131,7 @@
         "dome",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:11"
     },
     {
@@ -88,6 +140,7 @@
         "dome",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:06:05"
     },
     {
@@ -96,6 +149,7 @@
         "balcon",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:06:05"
     },
     {
@@ -103,6 +157,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:06:05"
     }
   ]

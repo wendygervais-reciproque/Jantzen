@@ -28,8 +28,26 @@
   "WPfr": null,
   "image_ref": "Plateau-35_19_§1",
   "terme_jantzen_bat": [
-    "porte-fer",
-    "brique"
+    "brique",
+    "porte-fer"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "baie",
+    "bandeau",
+    "brique",
+    "corniche",
+    "céramique",
+    "fenêtre",
+    "fer forgé",
+    "grille",
+    "oculus",
+    "perron",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "travée",
+    "vantail"
   ],
   "photos": [
     {
@@ -37,6 +55,24 @@
       "IndexJantzen": [
         "brique",
         "porte-fer"
+      ],
+      "IndexTorneh": [
+        "arc en plein cintre",
+        "baie",
+        "brique",
+        "céramique",
+        "fenêtre",
+        "fer forgé",
+        "grille",
+        "oculus",
+        "porte",
+        "portail",
+        "vantail",
+        "corniche",
+        "bandeau",
+        "travée",
+        "perron",
+        "pierre de taille"
       ],
       "dateCapture": "2005:07:21"
     },
@@ -46,6 +82,7 @@
         "brique",
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:21"
     }
   ]

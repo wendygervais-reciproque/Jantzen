@@ -31,11 +31,35 @@
     "balcon",
     "fenetre-d'angle"
   ],
+  "terme_torneh_bat": [
+    "acrotère",
+    "attique",
+    "avant-corps",
+    "balcon",
+    "balustrade",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "pierre de taille",
+    "travée"
+  ],
   "photos": [
     {
       "id_pic": "Chateaudin-21_9_§1",
       "IndexJantzen": [
         "fenetre-d'angle"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "travée",
+        "pierre de taille",
+        "avant-corps",
+        "fer forgé",
+        "attique",
+        "acrotère"
       ],
       "dateCapture": "2007:06:01"
     },
@@ -45,6 +69,7 @@
         "balcon",
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:06:01"
     }
   ]

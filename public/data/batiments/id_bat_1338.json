@@ -21,9 +21,19 @@
   "WPfr": null,
   "image_ref": "Legendre-186_17_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "brique",
+    "fenetre",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "bandeau",
+    "brique",
+    "chambranle",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "travée"
   ],
   "photos": [
     {
@@ -32,6 +42,16 @@
         "brique",
         "décor",
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "garde-corps",
+        "bandeau",
+        "brique",
+        "chambranle",
+        "travée",
+        "balcon",
+        "fer forgé"
       ],
       "dateCapture": "2004:06:27"
     }

@@ -23,15 +23,57 @@
   "WPfr": null,
   "image_ref": "Verneuil-44_7_§1",
   "terme_jantzen_bat": [
-    "garde-corps",
+    "colonne",
     "balcon",
-    "colonne"
+    "garde-corps"
+  ],
+  "terme_torneh_bat": [
+    "auvent",
+    "avant-corps",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "chapiteau corinthien",
+    "colonne",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "modillon",
+    "oriel",
+    "pierre de taille",
+    "pilastre",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Verneuil-44_7_§1",
       "IndexJantzen": [
         "balcon"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "fenêtre",
+        "volet",
+        "pierre de taille",
+        "chapiteau corinthien",
+        "colonne",
+        "pilastre",
+        "corniche",
+        "modillon",
+        "bandeau",
+        "oriel",
+        "avant-corps",
+        "fer forgé",
+        "chambranle",
+        "travée",
+        "mascaron",
+        "auvent"
       ],
       "dateCapture": "2005:05:22"
     },
@@ -42,6 +84,7 @@
         "colonne",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:22"
     }
   ]

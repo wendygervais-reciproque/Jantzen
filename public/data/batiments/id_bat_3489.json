@@ -31,11 +31,49 @@
     "porte-fer-hall",
     "loggia"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "attique",
+    "auvent",
+    "balcon",
+    "balustrade",
+    "chapiteau",
+    "colonne",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "pierre de taille",
+    "pilastre",
+    "sculpture",
+    "toit-terrasse",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Vaneau-72_7_§1",
       "IndexJantzen": [
         "loggia"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "colonne",
+        "chapiteau",
+        "corniche",
+        "pilastre",
+        "fenêtre",
+        "volet",
+        "arc en plein cintre",
+        "sculpture",
+        "toit-terrasse",
+        "ardoise",
+        "pierre de taille",
+        "fer forgé",
+        "attique",
+        "auvent"
       ],
       "dateCapture": "2006:07:13"
     },
@@ -44,6 +82,7 @@
       "IndexJantzen": [
         "porte-fer-hall"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:13"
     }
   ]

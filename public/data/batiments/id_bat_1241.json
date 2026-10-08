@@ -28,17 +28,65 @@
   "WPfr": null,
   "image_ref": "Margueritte-17_17_§1",
   "terme_jantzen_bat": [
+    "sculpture",
+    "console",
     "fenetre",
     "façade",
-    "console",
-    "sculpture",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc brisé",
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "linteau",
+    "lucarne",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "porche",
+    "porte",
+    "porte-fenêtre",
+    "sculpture",
+    "souche de cheminée",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Margueritte-17_17_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "porte",
+        "porte-fenêtre",
+        "arc en plein cintre",
+        "arc brisé",
+        "mascaron",
+        "sculpture",
+        "corniche",
+        "bandeau",
+        "chambranle",
+        "linteau",
+        "pierre de taille",
+        "fer forgé",
+        "volet",
+        "travée",
+        "lucarne",
+        "souche de cheminée",
+        "oculus",
+        "porche"
       ],
       "dateCapture": "2006:06:12"
     },
@@ -49,6 +97,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:16"
     },
     {
@@ -57,6 +106,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:16"
     },
     {
@@ -65,6 +115,7 @@
         "console",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:12"
     },
     {
@@ -73,6 +124,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:12"
     }
   ]

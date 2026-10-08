@@ -26,12 +26,44 @@
     "oeil-de-boeuf",
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mansarde",
+    "oculus",
+    "pierre de taille",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "toit à deux versants",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "François-1er-14_8_§1",
       "IndexJantzen": [
         "lucarne",
         "oeil-de-boeuf"
+      ],
+      "IndexTorneh": [
+        "oculus",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "ardoise",
+        "souche de cheminée",
+        "corniche",
+        "porte-fenêtre",
+        "fenêtre",
+        "volet",
+        "pierre de taille",
+        "toit à deux versants",
+        "mansarde"
       ],
       "dateCapture": "2005:08:04"
     }

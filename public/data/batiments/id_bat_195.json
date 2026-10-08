@@ -24,14 +24,54 @@
   "image_ref": "Charles-Beaudelaire-1_12_§1",
   "terme_jantzen_bat": [
     "sculpture",
-    "décor",
-    "fenetre-d'angle"
+    "fenetre-d'angle",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "tour",
+    "travée",
+    "volet",
+    "épi de faîtage"
   ],
   "photos": [
     {
       "id_pic": "Charles-Beaudelaire-1_12_§1",
       "IndexJantzen": [
         "fenetre-d'angle"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "corniche",
+        "fenêtre",
+        "garde-corps",
+        "lucarne",
+        "mascaron",
+        "pierre de taille",
+        "sculpture",
+        "souche de cheminée",
+        "toit à deux versants",
+        "tour",
+        "travée",
+        "volet",
+        "épi de faîtage",
+        "fer forgé",
+        "oculus",
+        "bandeau"
       ],
       "dateCapture": "2007:04:11"
     },
@@ -42,6 +82,7 @@
         "fenetre-d'angle",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:06:06"
     },
     {
@@ -49,6 +90,7 @@
       "IndexJantzen": [
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:11"
     },
     {
@@ -58,6 +100,7 @@
         "fenetre-d'angle",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:11"
     }
   ]

@@ -21,12 +21,31 @@
   "WPfr": null,
   "image_ref": "Beaumarchais-67_3_§1",
   "terme_jantzen_bat": [
-    "façade",
-    "porte",
-    "sculpture",
-    "porte-bois",
     "balcon",
-    "poignée-porte"
+    "sculpture",
+    "façade",
+    "poignée-porte",
+    "porte",
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "attique",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "garde-corps",
+    "mansarde",
+    "mascaron",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "souche de cheminée",
+    "travée",
+    "vantail"
   ],
   "photos": [
     {
@@ -35,6 +54,25 @@
         "balcon",
         "façade",
         "porte"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "arc en plein cintre",
+        "porte",
+        "portail",
+        "vantail",
+        "corniche",
+        "bandeau",
+        "chambranle",
+        "pierre de taille",
+        "mascaron",
+        "souche de cheminée",
+        "attique",
+        "travée",
+        "mansarde"
       ],
       "dateCapture": "2006:03:19"
     },
@@ -45,6 +83,7 @@
         "façade",
         "porte"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:03:23"
     },
     {
@@ -52,6 +91,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:03:19"
     },
     {
@@ -60,6 +100,7 @@
         "porte-bois",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:03:19"
     },
     {
@@ -67,6 +108,7 @@
       "IndexJantzen": [
         "poignée-porte"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:03:19"
     }
   ]

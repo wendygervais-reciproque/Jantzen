@@ -21,9 +21,26 @@
   "WPfr": null,
   "image_ref": "Murillo-19_8_§1",
   "terme_jantzen_bat": [
+    "verrière",
     "fenetre",
-    "décor",
-    "verrière"
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "chapiteau",
+    "corniche",
+    "céramique",
+    "fenêtre",
+    "mascaron",
+    "modillon",
+    "pierre de taille",
+    "pilastre",
+    "sculpture",
+    "vitrail"
   ],
   "photos": [
     {
@@ -32,6 +49,23 @@
         "décor",
         "fenetre",
         "verrière"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "corniche",
+        "pilastre",
+        "chapiteau",
+        "balustrade",
+        "sculpture",
+        "mascaron",
+        "brique",
+        "pierre de taille",
+        "modillon",
+        "arc en plein cintre",
+        "céramique",
+        "bandeau",
+        "vitrail"
       ],
       "dateCapture": "2004:09:04"
     }

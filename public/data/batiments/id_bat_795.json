@@ -23,9 +23,22 @@
   "WPfr": null,
   "image_ref": "François-Miron-13_4_§1-Rx",
   "terme_jantzen_bat": [
-    "fenetre",
     "façade",
-    "pignon"
+    "pignon",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "colombage",
+    "fenêtre",
+    "garde-corps",
+    "pierre de taille",
+    "porte",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "vitrail",
+    "volet"
   ],
   "photos": [
     {
@@ -34,6 +47,19 @@
         "façade",
         "pignon"
       ],
+      "IndexTorneh": [
+        "colombage",
+        "fenêtre",
+        "souche de cheminée",
+        "toit à deux versants",
+        "balcon",
+        "garde-corps",
+        "porte",
+        "vitrail",
+        "volet",
+        "pierre de taille",
+        "travée"
+      ],
       "dateCapture": "2012:07:23"
     },
     {
@@ -41,6 +67,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:22"
     },
     {
@@ -48,6 +75,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:22"
     },
     {
@@ -55,6 +83,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:22"
     }
   ]

@@ -22,10 +22,20 @@
   "image_ref": "Oudinot-22_7_§1",
   "terme_jantzen_bat": [
     "oeil-de-boeuf",
-    "fenetre",
     "sculpture",
     "clé",
+    "fenetre",
     "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "sculpture",
+    "vantail"
   ],
   "photos": [
     {
@@ -33,6 +43,16 @@
       "IndexJantzen": [
         "fenetre",
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "portail",
+        "vantail",
+        "arc en plein cintre",
+        "oculus",
+        "sculpture",
+        "mascaron",
+        "pierre de taille"
       ],
       "dateCapture": "2008:03:31"
     },
@@ -42,6 +62,7 @@
         "fenetre",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:06:26"
     },
     {
@@ -52,6 +73,7 @@
         "porte-bois",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:06:26"
     },
     {
@@ -61,6 +83,7 @@
         "porte-bois",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:06:26"
     }
   ]

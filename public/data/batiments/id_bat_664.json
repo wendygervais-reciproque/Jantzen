@@ -28,18 +28,62 @@
   "WPfr": null,
   "image_ref": "Etienne-Jodelle-12_18_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "console",
-    "garde-corps",
+    "balcon",
     "sculpture",
+    "console",
     "fenetre-d'angle",
-    "balcon"
+    "fenetre",
+    "garde-corps"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "modillon",
+    "oculus",
+    "pierre de taille",
+    "souche de cheminée",
+    "toit à deux versants",
+    "tour",
+    "volet",
+    "épi de faîtage"
   ],
   "photos": [
     {
       "id_pic": "Etienne-Jodelle-12_18_§1",
       "IndexJantzen": [
         "fenetre-d'angle"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "lucarne",
+        "mansarde",
+        "tour",
+        "mascaron",
+        "modillon",
+        "corniche",
+        "bandeau",
+        "pierre de taille",
+        "toit à deux versants",
+        "ardoise",
+        "fer forgé",
+        "souche de cheminée",
+        "oculus",
+        "volet",
+        "arc en plein cintre",
+        "épi de faîtage"
       ],
       "dateCapture": "2004:09:15"
     },
@@ -48,6 +92,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:15"
     },
     {
@@ -56,6 +101,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:15"
     },
     {
@@ -64,6 +110,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:15"
     },
     {
@@ -74,6 +121,7 @@
         "garde-corps",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:15"
     }
   ]

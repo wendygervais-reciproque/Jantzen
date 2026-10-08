@@ -24,12 +24,40 @@
     "fenetre",
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "avant-corps",
+    "balcon",
+    "chambranle",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "grille",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Verneuil-15_7_§1",
       "IndexJantzen": [
         "fenetre",
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "fronton",
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "grille",
+        "porte",
+        "vantail",
+        "chambranle",
+        "pilastre",
+        "avant-corps",
+        "pierre de taille",
+        "fer forgé"
       ],
       "dateCapture": "2005:05:22"
     },
@@ -39,6 +67,7 @@
         "fenetre",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:22"
     }
   ]

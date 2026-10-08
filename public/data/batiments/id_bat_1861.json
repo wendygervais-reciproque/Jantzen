@@ -25,11 +25,53 @@
     "cariatide",
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "cariatide",
+    "chambranle",
+    "chapiteau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "frise",
+    "garde-corps",
+    "linteau",
+    "mascaron",
+    "pilastre",
+    "porte",
+    "sculpture",
+    "toit-terrasse",
+    "travée"
+  ],
   "photos": [
     {
       "id_pic": "Monge-25_5_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "porte",
+        "arc en plein cintre",
+        "cariatide",
+        "chapiteau",
+        "pilastre",
+        "corniche",
+        "bandeau",
+        "frise",
+        "mascaron",
+        "travée",
+        "toit-terrasse",
+        "sculpture",
+        "chambranle",
+        "linteau"
       ],
       "dateCapture": "2005:04:11"
     },
@@ -39,6 +81,7 @@
         "cariatide",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:11"
     }
   ]

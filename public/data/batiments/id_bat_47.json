@@ -36,7 +36,19 @@
   "WPfr": "Arc de triomphe de l'Étoile",
   "image_ref": "Arc-de-Triomphe_§1-Rs",
   "terme_jantzen_bat": [
-    "porte",
+    "sculpture",
+    "porte"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "attique",
+    "corniche",
+    "entablement",
+    "frise",
+    "gros appareil",
+    "pierre de taille",
+    "pilastre",
     "sculpture"
   ],
   "photos": [
@@ -45,6 +57,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:09:28"
     },
     {
@@ -52,6 +65,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:09:28"
     },
     {
@@ -59,11 +73,13 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:09:28"
     },
     {
       "id_pic": "Arc-de-Triomphe_§13",
       "IndexJantzen": [],
+      "IndexTorneh": [],
       "dateCapture": "2012:05:27"
     },
     {
@@ -71,6 +87,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:09:28"
     },
     {
@@ -78,6 +95,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:09:28"
     },
     {
@@ -85,6 +103,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:09:28"
     },
     {
@@ -92,6 +111,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:09:28"
     },
     {
@@ -99,12 +119,25 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:05:27"
     },
     {
       "id_pic": "Arc-de-Triomphe_§1-Rs",
       "IndexJantzen": [
         "porte"
+      ],
+      "IndexTorneh": [
+        "arc en plein cintre",
+        "arc",
+        "attique",
+        "corniche",
+        "entablement",
+        "frise",
+        "sculpture",
+        "pierre de taille",
+        "pilastre",
+        "gros appareil"
       ],
       "dateCapture": "2007:11:26"
     },
@@ -113,6 +146,7 @@
       "IndexJantzen": [
         "porte"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:11:26"
     },
     {
@@ -120,6 +154,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:11:26"
     },
     {
@@ -127,6 +162,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:11:26"
     },
     {
@@ -134,6 +170,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:11:26"
     },
     {
@@ -141,6 +178,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:11:26"
     },
     {
@@ -148,6 +186,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:09:28"
     }
   ]

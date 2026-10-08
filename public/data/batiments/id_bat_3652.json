@@ -32,12 +32,52 @@
     "fenetre",
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "bossage",
+    "chaîne d'angle",
+    "chéneau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "oriel",
+    "pierre de taille",
+    "tour",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Murillo-8_8_§1",
       "IndexJantzen": [
         "fenetre",
         "toiture"
+      ],
+      "IndexTorneh": [
+        "lucarne",
+        "mansarde",
+        "oriel",
+        "ardoise",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "pierre de taille",
+        "bandeau",
+        "corniche",
+        "arc en plein cintre",
+        "volet",
+        "fer forgé",
+        "chéneau",
+        "bossage",
+        "chaîne d'angle",
+        "tour"
       ],
       "dateCapture": "2004:09:04"
     },
@@ -46,6 +86,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:04"
     },
     {
@@ -53,6 +94,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:04"
     }
   ]

@@ -24,12 +24,38 @@
     "toiture",
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "oculus",
+    "souche de cheminée",
+    "toit à deux versants",
+    "verrière"
+  ],
   "photos": [
     {
       "id_pic": "Dauphine-18-16_6_§1",
       "IndexJantzen": [
         "lucarne",
         "toiture"
+      ],
+      "IndexTorneh": [
+        "souche de cheminée",
+        "lucarne",
+        "mansarde",
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "ardoise",
+        "verrière",
+        "fer forgé",
+        "toit à deux versants",
+        "oculus"
       ],
       "dateCapture": "2006:05:14"
     },
@@ -39,6 +65,7 @@
         "lucarne",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:05:14"
     }
   ]

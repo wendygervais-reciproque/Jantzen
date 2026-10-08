@@ -30,14 +30,36 @@
   "terme_jantzen_bat": [
     "fenetre",
     "garde-corps",
-    "décor",
-    "porte-bois"
+    "porte-bois",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "colonne",
+    "grille",
+    "porche",
+    "portail",
+    "porte",
+    "sculpture",
+    "toit à deux versants",
+    "tuile"
   ],
   "photos": [
     {
       "id_pic": "Courcelles-48_8_A",
       "IndexJantzen": [
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "portail",
+        "porte",
+        "grille",
+        "balcon",
+        "colonne",
+        "tuile",
+        "sculpture",
+        "toit à deux versants",
+        "porche"
       ],
       "dateCapture": "2005:08:02"
     },
@@ -48,6 +70,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:02"
     }
   ]

@@ -33,19 +33,63 @@
   "image_ref": "Rene-Panhard-_13_§1",
   "terme_jantzen_bat": [
     "porte-fer",
+    "sculpture",
     "fenetre",
     "lucarne",
     "façade",
     "porte",
+    "porte-fer-hall",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "ardoise",
+    "attique",
+    "balustrade",
+    "bossage",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "frise",
+    "grille",
+    "lucarne",
+    "mascaron",
+    "perron",
+    "pierre de taille",
+    "pilastre",
+    "portail",
+    "porte",
     "sculpture",
-    "décor",
-    "porte-fer-hall"
+    "toit à deux versants"
   ],
   "photos": [
     {
       "id_pic": "Rene-Panhard-_13_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "arc en plein cintre",
+        "arc",
+        "fenêtre",
+        "lucarne",
+        "pierre de taille",
+        "corniche",
+        "frise",
+        "sculpture",
+        "bossage",
+        "porte",
+        "portail",
+        "fer forgé",
+        "grille",
+        "perron",
+        "balustrade",
+        "attique",
+        "mascaron",
+        "pilastre",
+        "toit à deux versants",
+        "ardoise"
       ],
       "dateCapture": "2007:04:22"
     },
@@ -54,6 +98,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:22"
     },
     {
@@ -61,6 +106,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:22"
     },
     {
@@ -68,6 +114,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:22"
     },
     {
@@ -75,6 +122,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:01"
     },
     {
@@ -84,6 +132,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:01"
     },
     {
@@ -91,6 +140,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:01"
     },
     {
@@ -98,6 +148,7 @@
       "IndexJantzen": [
         "porte"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:22"
     },
     {
@@ -105,6 +156,7 @@
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:01"
     },
     {
@@ -112,6 +164,7 @@
       "IndexJantzen": [
         "porte-fer-hall"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:22"
     },
     {
@@ -119,6 +172,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:22"
     }
   ]

@@ -24,8 +24,23 @@
   "image_ref": "Tournelle-Qu-55_5_§1",
   "terme_jantzen_bat": [
     "toiture",
+    "fronton",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "arc en anse de panier",
+    "ardoise",
+    "chaîne d'angle",
+    "chéneau",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
     "lucarne",
-    "fronton"
+    "mansarde",
+    "souche de cheminée",
+    "toit en pavillon",
+    "toit à deux versants"
   ],
   "photos": [
     {
@@ -35,6 +50,21 @@
         "lucarne",
         "toiture"
       ],
+      "IndexTorneh": [
+        "lucarne",
+        "souche de cheminée",
+        "ardoise",
+        "toit à deux versants",
+        "toit en pavillon",
+        "chéneau",
+        "fenêtre",
+        "garde-corps",
+        "arc en anse de panier",
+        "mansarde",
+        "corniche",
+        "chaîne d'angle",
+        "fronton"
+      ],
       "dateCapture": "2009:09:27"
     },
     {
@@ -43,6 +73,7 @@
         "fronton",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:09:27"
     },
     {
@@ -51,6 +82,7 @@
         "fronton",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:09:27"
     }
   ]

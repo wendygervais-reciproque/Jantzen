@@ -23,17 +23,61 @@
   "WPfr": null,
   "image_ref": "Courcelles-119_17_§1",
   "terme_jantzen_bat": [
+    "balcon",
     "porte-fer",
-    "fenetre",
-    "façade",
     "sculpture",
-    "balcon"
+    "fenetre",
+    "façade"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "avant-corps",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "mascaron",
+    "oculus",
+    "oriel",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "souche de cheminée",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Courcelles-119_17_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "garde-corps",
+        "fer forgé",
+        "mascaron",
+        "sculpture",
+        "corniche",
+        "bandeau",
+        "pierre de taille",
+        "volet",
+        "porte",
+        "avant-corps",
+        "travée",
+        "arc en plein cintre",
+        "oriel",
+        "oculus",
+        "souche de cheminée",
+        "fronton",
+        "chambranle"
       ],
       "dateCapture": "2004:09:02"
     },
@@ -43,6 +87,7 @@
         "balcon",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:02"
     },
     {
@@ -52,6 +97,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:02"
     },
     {
@@ -59,6 +105,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:02"
     },
     {
@@ -66,6 +113,7 @@
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:03"
     }
   ]

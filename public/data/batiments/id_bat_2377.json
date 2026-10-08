@@ -24,12 +24,54 @@
     "fenetre",
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "sculpture",
+    "souche de cheminée",
+    "tour",
+    "épi de faîtage"
+  ],
   "photos": [
     {
       "id_pic": "Amiral-Bruix-38_16_§1",
       "IndexJantzen": [
         "fenetre",
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "tour",
+        "oculus",
+        "lucarne",
+        "mansarde",
+        "épi de faîtage",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "arc en plein cintre",
+        "chaîne d'angle",
+        "corniche",
+        "bandeau",
+        "mascaron",
+        "pierre de taille",
+        "ardoise",
+        "sculpture",
+        "souche de cheminée"
       ],
       "dateCapture": "2014:03:20"
     },
@@ -39,6 +81,7 @@
         "fenetre",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2014:03:20"
     }
   ]

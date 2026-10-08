@@ -24,12 +24,46 @@
     "fenetre",
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "mascaron",
+    "modillon",
+    "pierre de taille",
+    "porte",
+    "porte-fenêtre",
+    "vantail",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Mac-Mahon-6t_17_§1",
       "IndexJantzen": [
         "fenetre",
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "porte-fenêtre",
+        "fenêtre",
+        "volet",
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "balustrade",
+        "fronton",
+        "corniche",
+        "modillon",
+        "pierre de taille",
+        "chambranle",
+        "vantail",
+        "mascaron"
       ],
       "dateCapture": "2004:09:02"
     },
@@ -39,6 +73,7 @@
         "fenetre",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:02"
     }
   ]

@@ -21,15 +21,53 @@
   "WPfr": null,
   "image_ref": "Jouy-14_4_§1-Rx",
   "terme_jantzen_bat": [
-    "fenetre",
     "façade",
-    "garde-corps"
+    "garde-corps",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "fer",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "pierre de taille",
+    "toit à deux versants",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Jouy-14_4_§1-Rx",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "mansarde",
+        "lucarne",
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "balustrade",
+        "arc en plein cintre",
+        "pierre de taille",
+        "chaîne d'angle",
+        "corniche",
+        "bandeau",
+        "travée",
+        "toit à deux versants",
+        "ardoise",
+        "volet",
+        "fer"
       ],
       "dateCapture": "2011:08:20"
     },
@@ -39,6 +77,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:08:20"
     }
   ]

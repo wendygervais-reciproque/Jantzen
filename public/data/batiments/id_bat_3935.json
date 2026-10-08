@@ -24,12 +24,44 @@
     "toiture",
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "fenêtre",
+    "fer",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "toit-terrasse",
+    "verrière",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Bac-∆-Varenne_7_§1",
       "IndexJantzen": [
         "lucarne",
         "toiture"
+      ],
+      "IndexTorneh": [
+        "souche de cheminée",
+        "garde-corps",
+        "balcon",
+        "fenêtre",
+        "volet",
+        "lucarne",
+        "ardoise",
+        "fer forgé",
+        "verrière",
+        "mansarde",
+        "toit-terrasse",
+        "fer",
+        "balustrade",
+        "porte-fenêtre"
       ],
       "dateCapture": "2005:04:17"
     }

@@ -21,10 +21,32 @@
   "WPfr": null,
   "image_ref": "Danton-7_6_§1-5",
   "terme_jantzen_bat": [
-    "fenetre-d'angle",
-    "lucarne-d'angle",
     "balcon",
+    "lucarne-d'angle",
+    "fenetre-d'angle",
     "façade-d'angle"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -32,6 +54,7 @@
       "IndexJantzen": [
         "lucarne-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:11"
     },
     {
@@ -39,12 +62,35 @@
       "IndexJantzen": [
         "lucarne-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:06:05"
     },
     {
       "id_pic": "Danton-7_6_§1-5",
       "IndexJantzen": [
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "bandeau",
+        "corniche",
+        "fenêtre",
+        "fronton",
+        "garde-corps",
+        "mansarde",
+        "mascaron",
+        "oculus",
+        "pierre de taille",
+        "pilastre",
+        "souche de cheminée",
+        "toit à deux versants",
+        "travée",
+        "volet",
+        "fer forgé",
+        "lucarne",
+        "porte",
+        "sculpture"
       ],
       "dateCapture": "2005:05:23"
     },
@@ -53,6 +99,7 @@
       "IndexJantzen": [
         "façade-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:06:05"
     },
     {
@@ -60,6 +107,7 @@
       "IndexJantzen": [
         "façade-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:23"
     },
     {
@@ -67,6 +115,7 @@
       "IndexJantzen": [
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:23"
     },
     {
@@ -74,6 +123,7 @@
       "IndexJantzen": [
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:06:05"
     },
     {
@@ -81,6 +131,7 @@
       "IndexJantzen": [
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:06:05"
     },
     {
@@ -88,6 +139,7 @@
       "IndexJantzen": [
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:06:05"
     },
     {
@@ -96,6 +148,7 @@
         "balcon",
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:23"
     },
     {
@@ -104,6 +157,7 @@
         "balcon",
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:11"
     }
   ]

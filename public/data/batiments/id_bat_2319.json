@@ -21,8 +21,26 @@
   "WPfr": null,
   "image_ref": "Capucines-bd-35b_9_§1",
   "terme_jantzen_bat": [
+    "verrière",
     "mur-rideau",
-    "fenetre",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "baie",
+    "balcon",
+    "balustrade",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "grille",
+    "lucarne",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porte-fenêtre",
+    "toit-terrasse",
+    "travée",
     "verrière"
   ],
   "photos": [
@@ -32,6 +50,24 @@
         "fenetre",
         "mur-rideau",
         "verrière"
+      ],
+      "IndexTorneh": [
+        "baie",
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "fronton",
+        "garde-corps",
+        "grille",
+        "lucarne",
+        "mascaron",
+        "pierre de taille",
+        "pilastre",
+        "porte-fenêtre",
+        "verrière",
+        "toit-terrasse",
+        "travée",
+        "oculus"
       ],
       "dateCapture": "2004:03:28"
     }

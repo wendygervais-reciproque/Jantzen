@@ -21,11 +21,29 @@
   "WPfr": null,
   "image_ref": "Sergent-Bauchat-37_12_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "lucarne",
     "pignon",
+    "sculpture",
     "console",
-    "sculpture"
+    "fenetre",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "corniche",
+    "fenêtre",
+    "fer",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mascaron",
+    "pierre de taille",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "volet"
   ],
   "photos": [
     {
@@ -35,6 +53,24 @@
         "lucarne",
         "pignon"
       ],
+      "IndexTorneh": [
+        "fronton",
+        "lucarne",
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "ardoise",
+        "pierre de taille",
+        "souche de cheminée",
+        "arc en plein cintre",
+        "sculpture",
+        "mascaron",
+        "corniche",
+        "toit à deux versants",
+        "fer",
+        "volet"
+      ],
       "dateCapture": "2005:07:15"
     },
     {
@@ -43,6 +79,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:15"
     }
   ]

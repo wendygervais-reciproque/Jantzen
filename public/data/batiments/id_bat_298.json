@@ -23,11 +23,41 @@
   "terme_jantzen_bat": [
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "auvent",
+    "balcon",
+    "chambranle",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "heurtoir",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Megisserie-qu-10_1_§1",
       "IndexJantzen": [
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "arc en plein cintre",
+        "mascaron",
+        "sculpture",
+        "pierre de taille",
+        "vantail",
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "auvent",
+        "fenêtre",
+        "heurtoir",
+        "chambranle"
       ],
       "dateCapture": "2005:08:03"
     }

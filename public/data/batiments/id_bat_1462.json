@@ -21,17 +21,47 @@
   "WPfr": null,
   "image_ref": "Jussienne-2_2_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "garde-corps",
-    "console",
     "sculpture",
-    "clé"
+    "clé",
+    "console",
+    "fenetre",
+    "garde-corps"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mascaron",
+    "pierre de taille",
+    "porte-fenêtre",
+    "toit à deux versants"
   ],
   "photos": [
     {
       "id_pic": "Jussienne-2_2_§1",
       "IndexJantzen": [
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "balustrade",
+        "mascaron",
+        "corniche",
+        "bandeau",
+        "pierre de taille",
+        "lucarne",
+        "porte-fenêtre",
+        "chambranle",
+        "toit à deux versants"
       ],
       "dateCapture": "2004:08:31"
     },
@@ -41,6 +71,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:08:31"
     },
     {
@@ -49,6 +80,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:03"
     },
     {
@@ -58,6 +90,7 @@
         "garde-corps",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:03"
     },
     {
@@ -67,6 +100,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:08:31"
     },
     {
@@ -75,6 +109,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:03"
     },
     {
@@ -83,6 +118,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:03"
     },
     {
@@ -91,6 +127,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:08:31"
     }
   ]

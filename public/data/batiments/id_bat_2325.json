@@ -23,10 +23,33 @@
   "WPfr": null,
   "image_ref": "Raspail-36_7_§1-Rs",
   "terme_jantzen_bat": [
-    "porte-fer",
+    "balcon",
     "fenetre",
+    "porte-fer",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "frise",
+    "garde-corps",
     "lucarne",
-    "balcon"
+    "mansarde",
+    "mascaron",
+    "meneau",
+    "pierre de taille",
+    "porte",
+    "porte-fenêtre",
+    "sculpture",
+    "souche de cheminée",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -34,6 +57,29 @@
       "IndexJantzen": [
         "balcon",
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "fenêtre",
+        "lucarne",
+        "mansarde",
+        "arc",
+        "arc en plein cintre",
+        "porte",
+        "porte-fenêtre",
+        "volet",
+        "fer forgé",
+        "ardoise",
+        "pierre de taille",
+        "corniche",
+        "mascaron",
+        "souche de cheminée",
+        "travée",
+        "sculpture",
+        "frise",
+        "meneau"
       ],
       "dateCapture": "2008:02:19"
     },
@@ -44,6 +90,7 @@
         "fenetre",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:19"
     },
     {
@@ -51,6 +98,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:19"
     },
     {
@@ -58,6 +106,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:19"
     },
     {
@@ -65,6 +114,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:19"
     },
     {
@@ -72,6 +122,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:19"
     },
     {
@@ -79,6 +130,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:19"
     },
     {
@@ -86,6 +138,7 @@
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:04:15"
     }
   ]

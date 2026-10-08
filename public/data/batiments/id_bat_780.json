@@ -21,14 +21,34 @@
   "WPfr": null,
   "image_ref": "Champollion-13_5_§1",
   "terme_jantzen_bat": [
-    "lucarne",
-    "porte-bois"
+    "porte-bois",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "balcon",
+    "grille",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "vantail"
   ],
   "photos": [
     {
       "id_pic": "Champollion-13_5_§1",
       "IndexJantzen": [
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "arc en plein cintre",
+        "arc",
+        "vantail",
+        "pierre de taille",
+        "sculpture",
+        "balcon",
+        "grille"
       ],
       "dateCapture": "2005:08:29"
     },
@@ -37,6 +57,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:29"
     }
   ]

@@ -36,10 +36,29 @@
   "WPfr": null,
   "image_ref": "Marche-Popincourt-1_11_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "brique",
+    "oriel",
     "porte",
-    "oriel"
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "brique",
+    "escalier",
+    "fenêtre",
+    "garde-corps",
+    "grille",
+    "mascaron",
+    "oriel",
+    "perron",
+    "portail",
+    "porte",
+    "porte-fenêtre",
+    "soupirail",
+    "volet"
   ],
   "photos": [
     {
@@ -48,6 +67,25 @@
         "brique",
         "fenetre",
         "porte"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "grille",
+        "volet",
+        "brique",
+        "arc en plein cintre",
+        "arc",
+        "porte",
+        "porte-fenêtre",
+        "portail",
+        "perron",
+        "oriel",
+        "mascaron",
+        "escalier",
+        "soupirail"
       ],
       "dateCapture": "2005:07:12"
     },
@@ -58,6 +96,7 @@
         "fenetre",
         "porte"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:12"
     },
     {
@@ -67,11 +106,13 @@
         "fenetre",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:12"
     },
     {
       "id_pic": "Marche-Popincourt-1_11_§4",
       "IndexJantzen": [],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:12"
     }
   ]

@@ -28,9 +28,28 @@
   "WPfr": null,
   "image_ref": "Montorgueil-15_2_2_DxO",
   "terme_jantzen_bat": [
-    "fenetre",
     "façade",
+    "fenetre",
     "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "auvent",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "mur-boutant",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "vantail"
   ],
   "photos": [
     {
@@ -38,6 +57,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:08:31"
     },
     {
@@ -45,6 +65,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:08:31"
     },
     {
@@ -52,12 +73,32 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:05:25"
     },
     {
       "id_pic": "Montorgueil-15_2_2_DxO",
       "IndexJantzen": [
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "mascaron",
+        "sculpture",
+        "mansarde",
+        "lucarne",
+        "porte",
+        "vantail",
+        "pierre de taille",
+        "bandeau",
+        "mur-boutant",
+        "auvent",
+        "arc en plein cintre",
+        "ardoise",
+        "fer forgé",
+        "balustrade"
       ],
       "dateCapture": "2012:05:25"
     }

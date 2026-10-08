@@ -23,11 +23,37 @@
   "terme_jantzen_bat": [
     "lucarne-d'angle"
   ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "brique",
+    "chéneau",
+    "corniche",
+    "fenêtre",
+    "lucarne",
+    "mansarde",
+    "souche de cheminée",
+    "toit à deux versants",
+    "tuile",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Maine-av-150_14_§1",
       "IndexJantzen": [
         "lucarne-d'angle"
+      ],
+      "IndexTorneh": [
+        "souche de cheminée",
+        "lucarne",
+        "mansarde",
+        "toit à deux versants",
+        "ardoise",
+        "tuile",
+        "brique",
+        "fenêtre",
+        "corniche",
+        "volet",
+        "chéneau"
       ],
       "dateCapture": "2011:06:26"
     }

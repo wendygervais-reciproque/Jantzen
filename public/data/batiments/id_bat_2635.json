@@ -28,16 +28,56 @@
   "WPfr": null,
   "image_ref": "Chine-43-45_20_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "façade",
     "sculpture",
-    "console"
+    "console",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oriel",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "souche de cheminée",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Chine-43-45_20_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "mascaron",
+        "mansarde",
+        "lucarne",
+        "garde-corps",
+        "volet",
+        "pierre de taille",
+        "travée",
+        "souche de cheminée",
+        "porte",
+        "oriel",
+        "corniche",
+        "ardoise",
+        "fer forgé",
+        "sculpture",
+        "bandeau"
       ],
       "dateCapture": "2005:09:19"
     },
@@ -47,6 +87,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:09:19"
     },
     {
@@ -55,6 +96,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:09:19"
     }
   ]

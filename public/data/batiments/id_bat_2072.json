@@ -30,11 +30,33 @@
   "terme_jantzen_bat": [
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "porte-fenêtre",
+    "sculpture",
+    "vantail",
+    "vitrail"
+  ],
   "photos": [
     {
       "id_pic": "Capri-3_12_§1",
       "IndexJantzen": [
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "porte-fenêtre",
+        "vantail",
+        "arc en plein cintre",
+        "sculpture",
+        "mascaron",
+        "pierre de taille",
+        "balcon",
+        "vitrail"
       ],
       "dateCapture": "2004:07:27"
     }

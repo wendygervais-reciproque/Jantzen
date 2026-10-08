@@ -21,14 +21,32 @@
   "WPfr": null,
   "image_ref": "Lannes-55_16_§1",
   "terme_jantzen_bat": [
-    "porte-fer",
-    "porte-fer-hall"
+    "porte-fer-hall",
+    "porte-fer"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "fer forgé",
+    "huisserie",
+    "jambage",
+    "pierre de taille",
+    "porte",
+    "vantail"
   ],
   "photos": [
     {
       "id_pic": "Lannes-55_16_§1",
       "IndexJantzen": [
         "porte-fer"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "arc en plein cintre",
+        "fer forgé",
+        "vantail",
+        "pierre de taille",
+        "jambage",
+        "huisserie"
       ],
       "dateCapture": "2004:03:16"
     },
@@ -37,6 +55,7 @@
       "IndexJantzen": [
         "porte-fer-hall"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:03:16"
     }
   ]

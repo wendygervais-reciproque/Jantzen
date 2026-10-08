@@ -32,17 +32,44 @@
   "WPfr": null,
   "image_ref": "Abbeville-16_10_§3",
   "terme_jantzen_bat": [
+    "balcon",
+    "façade-d'angle",
+    "oriel",
+    "sculpture",
+    "pignon",
+    "fenetre-d'angle",
+    "console",
+    "cariatide",
     "fenetre",
     "façade",
-    "console",
-    "pignon",
-    "façade-d'angle",
-    "sculpture",
-    "oriel",
-    "fenetre-d'angle",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "avant-corps",
+    "balcon",
+    "balustrade",
+    "bandeau",
     "cariatide",
-    "décor",
-    "balcon"
+    "chéneau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "grille",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "vitrail",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -51,6 +78,7 @@
         "balcon",
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:11"
     },
     {
@@ -61,6 +89,7 @@
         "oriel",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:05:24"
     },
     {
@@ -68,6 +97,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2013:12:09"
     },
     {
@@ -76,6 +106,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2013:06:10"
     },
     {
@@ -84,6 +115,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:02"
     },
     {
@@ -92,6 +124,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:05:24"
     },
     {
@@ -101,6 +134,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2014:10:03"
     },
     {
@@ -110,6 +144,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:09:22"
     },
     {
@@ -119,6 +154,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2013:05:27"
     },
     {
@@ -128,6 +164,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:09:22"
     },
     {
@@ -135,11 +172,13 @@
       "IndexJantzen": [
         "façade-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2015:04:16"
     },
     {
       "id_pic": "Abbeville-16_10_§20",
       "IndexJantzen": [],
+      "IndexTorneh": [],
       "dateCapture": "2012:05:24"
     },
     {
@@ -149,11 +188,13 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2014:10:03"
     },
     {
       "id_pic": "Abbeville-16_10_§22",
       "IndexJantzen": [],
+      "IndexTorneh": [],
       "dateCapture": "2012:05:24"
     },
     {
@@ -161,6 +202,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:05:24"
     },
     {
@@ -171,6 +213,7 @@
         "oriel",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2013:05:27"
     },
     {
@@ -181,12 +224,40 @@
         "oriel",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:09:22"
     },
     {
       "id_pic": "Abbeville-16_10_§3",
       "IndexJantzen": [
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "lucarne",
+        "mansarde",
+        "sculpture",
+        "cariatide",
+        "mascaron",
+        "chéneau",
+        "souche de cheminée",
+        "corniche",
+        "pilastre",
+        "bandeau",
+        "oculus",
+        "porte",
+        "vitrail",
+        "ardoise",
+        "pierre de taille",
+        "fer forgé",
+        "toit à deux versants",
+        "travée",
+        "avant-corps",
+        "grille",
+        "épi de faîtage"
       ],
       "dateCapture": "2005:04:11"
     },
@@ -197,6 +268,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2013:06:10"
     },
     {
@@ -206,6 +278,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2013:05:27"
     },
     {
@@ -215,6 +288,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:09:22"
     },
     {
@@ -224,6 +298,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2013:05:27"
     },
     {
@@ -233,6 +308,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2013:05:27"
     },
     {
@@ -242,6 +318,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2013:05:27"
     },
     {
@@ -251,6 +328,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2013:06:04"
     },
     {
@@ -258,6 +336,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:11"
     },
     {
@@ -265,6 +344,7 @@
       "IndexJantzen": [
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:11"
     },
     {
@@ -273,6 +353,7 @@
         "fenetre-d'angle",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2014:10:03"
     },
     {
@@ -280,6 +361,7 @@
       "IndexJantzen": [
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2013:06:10"
     },
     {
@@ -289,6 +371,7 @@
         "oriel",
         "pignon"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2014:10:03"
     }
   ]

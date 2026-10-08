@@ -21,9 +21,20 @@
   "WPfr": null,
   "image_ref": "Orleans-qu-12_4_§1",
   "terme_jantzen_bat": [
-    "lucarne",
     "pignon",
-    "fronton"
+    "fronton",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "arc en anse de panier",
+    "balcon",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "souche de cheminée",
+    "toit à deux versants",
+    "tuile"
   ],
   "photos": [
     {
@@ -32,6 +43,17 @@
         "fronton",
         "lucarne",
         "pignon"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "arc en anse de panier",
+        "souche de cheminée",
+        "garde-corps",
+        "corniche",
+        "toit à deux versants",
+        "tuile",
+        "fronton",
+        "balcon"
       ],
       "dateCapture": "2010:03:23"
     }

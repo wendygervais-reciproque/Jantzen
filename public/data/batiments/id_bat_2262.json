@@ -22,11 +22,27 @@
   "image_ref": "St-Lambert-33_15_§1",
   "terme_jantzen_bat": [
     "fenetre",
-    "façade",
-    "garde-corps",
     "brique",
+    "façade",
     "céramique",
+    "garde-corps",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "bandeau",
+    "brique",
+    "chéneau",
+    "céramique",
+    "fenêtre",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "oriel",
+    "porte-fenêtre",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -34,6 +50,22 @@
       "IndexJantzen": [
         "brique",
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "brique",
+        "céramique",
+        "volet",
+        "mansarde",
+        "lucarne",
+        "travée",
+        "oriel",
+        "bandeau",
+        "arc en plein cintre",
+        "chéneau",
+        "porte-fenêtre"
       ],
       "dateCapture": "2004:07:13"
     },
@@ -43,6 +75,7 @@
         "brique",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:13"
     },
     {
@@ -53,6 +86,7 @@
         "décor",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:13"
     },
     {
@@ -62,6 +96,7 @@
         "céramique",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:13"
     }
   ]

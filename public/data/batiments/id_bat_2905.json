@@ -32,15 +32,65 @@
   "WPfr": null,
   "image_ref": "Victor-Hugo-50_16_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "façade",
-    "loggia"
+    "loggia",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "auvent",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chéneau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "oriel",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "porte-fenêtre",
+    "sculpture",
+    "souche de cheminée",
+    "travée"
   ],
   "photos": [
     {
       "id_pic": "Victor-Hugo-50_16_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "porte",
+        "porte-fenêtre",
+        "arc en plein cintre",
+        "mansarde",
+        "lucarne",
+        "souche de cheminée",
+        "oriel",
+        "bandeau",
+        "corniche",
+        "pierre de taille",
+        "fer forgé",
+        "ardoise",
+        "sculpture",
+        "mascaron",
+        "portail",
+        "auvent",
+        "travée",
+        "oculus",
+        "chéneau"
       ],
       "dateCapture": "2005:03:23"
     },
@@ -50,6 +100,7 @@
         "fenetre",
         "loggia"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:03:23"
     },
     {
@@ -57,6 +108,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:03:23"
     },
     {
@@ -65,6 +117,7 @@
         "fenetre",
         "loggia"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:03:23"
     }
   ]

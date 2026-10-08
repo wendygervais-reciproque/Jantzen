@@ -26,14 +26,58 @@
   "WPfr": null,
   "image_ref": "Athenes-23_9_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "façade"
+    "façade",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "chambranle",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "linteau",
+    "lucarne",
+    "mansarde",
+    "modillon",
+    "pierre de taille",
+    "porte-fenêtre",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Athenes-23_9_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "lucarne",
+        "mansarde",
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "brique",
+        "pierre de taille",
+        "ardoise",
+        "corniche",
+        "chambranle",
+        "linteau",
+        "fer forgé",
+        "travée",
+        "chaîne d'angle",
+        "porte-fenêtre",
+        "volet",
+        "fronton",
+        "bandeau",
+        "modillon"
       ],
       "dateCapture": "2004:08:26"
     },
@@ -42,6 +86,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:08:26"
     }
   ]

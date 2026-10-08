@@ -28,18 +28,62 @@
   "WPfr": null,
   "image_ref": "Victoires-Pl-8-12_2_§1",
   "terme_jantzen_bat": [
+    "sculpture",
+    "clé",
     "fenetre",
     "lucarne",
     "façade",
+    "garde-corps"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "corniche",
+    "fenêtre",
     "garde-corps",
-    "sculpture",
-    "clé"
+    "grille",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "souche de cheminée",
+    "toit à deux versants",
+    "vitrail",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Victoires-Pl-8-12_2_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "mansarde",
+        "lucarne",
+        "mascaron",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "porte",
+        "arc en plein cintre",
+        "pierre de taille",
+        "corniche",
+        "chambranle",
+        "souche de cheminée",
+        "toit à deux versants",
+        "grille",
+        "oculus",
+        "pilastre",
+        "bandeau",
+        "volet",
+        "vitrail"
       ],
       "dateCapture": "2007:08:25"
     },
@@ -48,6 +92,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:08:25"
     },
     {
@@ -55,6 +100,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:06:02"
     },
     {
@@ -63,6 +109,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:08:21"
     },
     {
@@ -71,6 +118,7 @@
         "clé",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:08:21"
     },
     {
@@ -79,6 +127,7 @@
         "clé",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:17"
     },
     {
@@ -87,6 +136,7 @@
         "clé",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:17"
     },
     {
@@ -95,6 +145,7 @@
         "clé",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:17"
     }
   ]

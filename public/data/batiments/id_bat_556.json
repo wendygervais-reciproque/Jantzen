@@ -23,11 +23,33 @@
   "terme_jantzen_bat": [
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "corniche",
+    "faîtage",
+    "fenêtre",
+    "lucarne",
+    "pierre de taille",
+    "souche de cheminée",
+    "toit à deux versants",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "St-Martin-115_4_§1",
       "IndexJantzen": [
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "ardoise",
+        "lucarne",
+        "fenêtre",
+        "souche de cheminée",
+        "corniche",
+        "faîtage",
+        "pierre de taille",
+        "volet",
+        "toit à deux versants"
       ],
       "dateCapture": "2007:04:20"
     }

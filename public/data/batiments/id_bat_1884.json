@@ -21,9 +21,22 @@
   "WPfr": null,
   "image_ref": "Beaurepaire-26_10_§1",
   "terme_jantzen_bat": [
+    "colonne",
     "fenetre",
-    "porte-bois",
-    "colonne"
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "chapiteau composite",
+    "colonne",
+    "garde-corps",
+    "mascaron",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "sculpture",
+    "vantail"
   ],
   "photos": [
     {
@@ -32,6 +45,19 @@
         "colonne",
         "fenetre",
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "portail",
+        "arc en plein cintre",
+        "colonne",
+        "chapiteau composite",
+        "sculpture",
+        "vantail",
+        "mascaron",
+        "balcon",
+        "garde-corps",
+        "pierre de taille"
       ],
       "dateCapture": "2004:05:16"
     }

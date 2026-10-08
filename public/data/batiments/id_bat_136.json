@@ -21,19 +21,43 @@
   "image_ref": "Ste-Chapelle_1_§1",
   "terme_jantzen_bat": [
     "toiture",
-    "fenetre",
-    "façade",
+    "verrière",
     "tourelle",
     "sculpture",
     "intérieur",
-    "verrière",
+    "fenetre",
+    "façade",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc brisé",
+    "contrefort",
+    "faîtage",
+    "gargouille",
+    "pierre de taille",
+    "pilier",
+    "sculpture",
+    "vitrail",
+    "épi de faîtage"
   ],
   "photos": [
     {
       "id_pic": "Ste-Chapelle_1_§1",
       "IndexJantzen": [
         "toiture"
+      ],
+      "IndexTorneh": [
+        "épi de faîtage",
+        "gargouille",
+        "sculpture",
+        "arc brisé",
+        "pierre de taille",
+        "contrefort",
+        "faîtage",
+        "vitrail",
+        "pilier",
+        "arc"
       ],
       "dateCapture": "2005:06:19"
     },
@@ -43,6 +67,7 @@
         "intérieur",
         "verrière"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2013:11:13"
     },
     {
@@ -51,6 +76,7 @@
         "intérieur",
         "verrière"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2013:11:13"
     },
     {
@@ -59,6 +85,7 @@
         "intérieur",
         "verrière"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2013:11:13"
     },
     {
@@ -67,6 +94,7 @@
         "toiture",
         "tourelle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:08:26"
     },
     {
@@ -74,6 +102,7 @@
       "IndexJantzen": [
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:14"
     },
     {
@@ -81,6 +110,7 @@
       "IndexJantzen": [
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:19"
     },
     {
@@ -89,6 +119,7 @@
         "décor",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:19"
     },
     {
@@ -96,6 +127,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2013:11:13"
     },
     {
@@ -104,6 +136,7 @@
         "fenetre",
         "verrière"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2013:11:13"
     },
     {
@@ -112,6 +145,7 @@
         "fenetre",
         "verrière"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2013:11:13"
     }
   ]

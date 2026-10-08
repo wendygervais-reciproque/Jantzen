@@ -23,11 +23,33 @@
   "terme_jantzen_bat": [
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "chambranle",
+    "fenêtre",
+    "fer forgé",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Bonne-Nouvelle-10b_10_§1",
       "IndexJantzen": [
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "vantail",
+        "sculpture",
+        "chambranle",
+        "arc en plein cintre",
+        "mascaron",
+        "fer forgé",
+        "fenêtre",
+        "pierre de taille"
       ],
       "dateCapture": "2008:08:15"
     },
@@ -36,6 +58,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:08:15"
     }
   ]

@@ -21,15 +21,57 @@
   "WPfr": null,
   "image_ref": "Dragon-44_6_§1",
   "terme_jantzen_bat": [
-    "fenetre-d'angle",
     "garde-corps",
+    "fenetre-d'angle",
     "façade-d'angle"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chéneau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "grille",
+    "lucarne",
+    "mansarde",
+    "pierre de taille",
+    "porte",
+    "souche de cheminée",
+    "travée",
+    "vitrail",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Dragon-44_6_§1",
       "IndexJantzen": [
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "lucarne",
+        "mansarde",
+        "ardoise",
+        "souche de cheminée",
+        "bandeau",
+        "corniche",
+        "arc en plein cintre",
+        "chéneau",
+        "pierre de taille",
+        "travée",
+        "porte",
+        "vitrail",
+        "grille",
+        "volet"
       ],
       "dateCapture": "2005:03:20"
     },
@@ -38,6 +80,7 @@
       "IndexJantzen": [
         "façade-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:11"
     },
     {
@@ -45,6 +88,7 @@
       "IndexJantzen": [
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:03:20"
     },
     {
@@ -52,6 +96,7 @@
       "IndexJantzen": [
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:11"
     },
     {
@@ -60,6 +105,7 @@
         "fenetre-d'angle",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:22"
     }
   ]

@@ -21,15 +21,55 @@
   "WPfr": null,
   "image_ref": "Georges_Sand_33_16_§1",
   "terme_jantzen_bat": [
-    "fenetre-d'angle",
     "lucarne-d'angle",
+    "fenetre-d'angle",
     "façade-d'angle"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "bossage",
+    "chaîne d'angle",
+    "chéneau",
+    "corniche",
+    "fenêtre",
+    "garde-corps",
+    "mansarde",
+    "oculus",
+    "pierre de taille",
+    "porte",
+    "souche de cheminée",
+    "toit en pavillon",
+    "travée",
+    "vitrail"
   ],
   "photos": [
     {
       "id_pic": "Georges_Sand_33_16_§1",
       "IndexJantzen": [
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "mansarde",
+        "toit en pavillon",
+        "souche de cheminée",
+        "ardoise",
+        "pierre de taille",
+        "bandeau",
+        "corniche",
+        "chéneau",
+        "oculus",
+        "porte",
+        "vitrail",
+        "travée",
+        "bossage",
+        "chaîne d'angle"
       ],
       "dateCapture": "2006:04:17"
     },
@@ -38,6 +78,7 @@
       "IndexJantzen": [
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:05:23"
     },
     {
@@ -45,6 +86,7 @@
       "IndexJantzen": [
         "lucarne-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:05:23"
     },
     {
@@ -52,6 +94,7 @@
       "IndexJantzen": [
         "lucarne-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:05:23"
     }
   ]

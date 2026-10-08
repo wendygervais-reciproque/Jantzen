@@ -29,15 +29,40 @@
   "image_ref": "Vaugirard-bd-52_15_§1",
   "terme_jantzen_bat": [
     "oeil-de-boeuf",
-    "fenetre",
-    "façade",
-    "garde-corps",
-    "console",
-    "lucarne",
-    "sculpture",
+    "balcon",
     "dome",
+    "sculpture",
+    "console",
+    "fenetre",
+    "lucarne",
+    "façade",
     "porte-fer-hall",
-    "balcon"
+    "garde-corps"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "avant-corps",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oriel",
+    "pierre de taille",
+    "porte-fenêtre",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "vitrail",
+    "volet"
   ],
   "photos": [
     {
@@ -46,6 +71,31 @@
         "dome",
         "façade"
       ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "porte-fenêtre",
+        "lucarne",
+        "mansarde",
+        "ardoise",
+        "souche de cheminée",
+        "corniche",
+        "pierre de taille",
+        "bandeau",
+        "chambranle",
+        "oriel",
+        "sculpture",
+        "mascaron",
+        "fronton",
+        "fer forgé",
+        "avant-corps",
+        "travée",
+        "volet",
+        "vitrail",
+        "toit à deux versants"
+      ],
       "dateCapture": "2006:04:07"
     },
     {
@@ -53,6 +103,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:07"
     },
     {
@@ -61,6 +112,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:06:17"
     },
     {
@@ -70,6 +122,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:07"
     },
     {
@@ -78,6 +131,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:07"
     },
     {
@@ -85,6 +139,7 @@
       "IndexJantzen": [
         "porte-fer-hall"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:05:24"
     },
     {
@@ -93,6 +148,7 @@
         "dome",
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:05:23"
     },
     {
@@ -102,6 +158,7 @@
         "fenetre",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:05:23"
     },
     {
@@ -112,6 +169,7 @@
         "lucarne",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:06:17"
     },
     {
@@ -121,6 +179,7 @@
         "fenetre",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:06:17"
     },
     {
@@ -130,6 +189,7 @@
         "lucarne",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:07"
     },
     {
@@ -139,6 +199,7 @@
         "lucarne",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:07"
     },
     {
@@ -149,6 +210,7 @@
         "oeil-de-boeuf",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:07"
     }
   ]

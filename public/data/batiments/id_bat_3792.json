@@ -21,8 +21,25 @@
   "WPfr": null,
   "image_ref": "Brown-Sequard-9_15_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "porte-fer-hall"
+    "porte-fer-hall",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bossage",
+    "chambranle",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "jambage",
+    "linteau",
+    "mascaron",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "sculpture",
+    "vantail"
   ],
   "photos": [
     {
@@ -30,6 +47,23 @@
       "IndexJantzen": [
         "fenetre",
         "porte-fer-hall"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "portail",
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "balustrade",
+        "mascaron",
+        "sculpture",
+        "chambranle",
+        "jambage",
+        "linteau",
+        "pierre de taille",
+        "fer forgé",
+        "vantail",
+        "bossage"
       ],
       "dateCapture": "2004:05:24"
     }

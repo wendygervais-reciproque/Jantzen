@@ -32,19 +32,61 @@
   "WPfr": null,
   "image_ref": "Italie-av-76_13_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "console",
     "façade-d'angle",
     "sculpture",
-    "chimère",
     "clé",
-    "porte-fer-hall"
+    "console",
+    "fenetre",
+    "porte-fer-hall",
+    "chimère"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "tuile",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Italie-av-76_13_§1",
       "IndexJantzen": [
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "bandeau",
+        "corniche",
+        "fenêtre",
+        "garde-corps",
+        "lucarne",
+        "mansarde",
+        "pierre de taille",
+        "souche de cheminée",
+        "toit à deux versants",
+        "travée",
+        "volet",
+        "fer forgé",
+        "mascaron",
+        "pilastre",
+        "oculus",
+        "tuile",
+        "ardoise"
       ],
       "dateCapture": "2004:03:29"
     },
@@ -54,6 +96,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:03:29"
     },
     {
@@ -62,6 +105,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:03:29"
     },
     {
@@ -69,6 +113,7 @@
       "IndexJantzen": [
         "porte-fer-hall"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:03:29"
     },
     {
@@ -78,6 +123,7 @@
         "clé",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:03:29"
     }
   ]

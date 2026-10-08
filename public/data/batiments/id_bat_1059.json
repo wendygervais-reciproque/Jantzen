@@ -21,10 +21,24 @@
   "WPfr": null,
   "image_ref": "Ordener-150_18_§1",
   "terme_jantzen_bat": [
-    "lucarne",
     "sculpture",
+    "fenetre-d'angle",
     "décor",
-    "fenetre-d'angle"
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "brique",
+    "chambranle",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "pierre de taille",
+    "porte-fenêtre",
+    "sculpture",
+    "vantail",
+    "volet"
   ],
   "photos": [
     {
@@ -32,6 +46,20 @@
       "IndexJantzen": [
         "fenetre-d'angle",
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "porte-fenêtre",
+        "balustrade",
+        "sculpture",
+        "pierre de taille",
+        "chambranle",
+        "brique",
+        "volet",
+        "vantail"
       ],
       "dateCapture": "2004:06:13"
     },
@@ -41,6 +69,7 @@
         "décor",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:10"
     },
     {
@@ -48,6 +77,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:06:13"
     }
   ]

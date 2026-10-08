@@ -26,12 +26,36 @@
     "toiture",
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "arc brisé",
+    "ardoise",
+    "contrefort",
+    "faîtage",
+    "fenêtre",
+    "lucarne",
+    "meneau",
+    "pierre de taille",
+    "toit à deux versants",
+    "tuile"
+  ],
   "photos": [
     {
       "id_pic": "Ecole-Medecine-15_6_§1",
       "IndexJantzen": [
         "lucarne",
         "toiture"
+      ],
+      "IndexTorneh": [
+        "lucarne",
+        "fenêtre",
+        "tuile",
+        "ardoise",
+        "contrefort",
+        "arc brisé",
+        "pierre de taille",
+        "faîtage",
+        "toit à deux versants",
+        "meneau"
       ],
       "dateCapture": "2010:05:23"
     },
@@ -40,6 +64,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:05:23"
     },
     {
@@ -47,6 +72,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:05:23"
     }
   ]

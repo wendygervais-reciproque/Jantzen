@@ -24,12 +24,46 @@
     "oeil-de-boeuf",
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "souche de cheminée",
+    "toit en pavillon"
+  ],
   "photos": [
     {
       "id_pic": "Paul-Doumer-83_16_§1",
       "IndexJantzen": [
         "lucarne",
         "oeil-de-boeuf"
+      ],
+      "IndexTorneh": [
+        "lucarne",
+        "oculus",
+        "ardoise",
+        "souche de cheminée",
+        "dôme",
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "balustrade",
+        "corniche",
+        "pierre de taille",
+        "mascaron",
+        "toit en pavillon",
+        "bandeau"
       ],
       "dateCapture": "2007:06:09"
     },
@@ -39,6 +73,7 @@
         "lucarne",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:06:09"
     },
     {
@@ -46,6 +81,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:30"
     }
   ]

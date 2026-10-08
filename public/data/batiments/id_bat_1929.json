@@ -32,19 +32,53 @@
   "WPfr": null,
   "image_ref": "Capucines-Bd-27_2_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "façade",
-    "lucarne",
-    "métal",
-    "mosaique",
     "verrière",
+    "mosaique",
+    "fenetre",
+    "lucarne",
+    "façade",
+    "métal",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "baie",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "oculus",
+    "toit à deux versants",
+    "travée",
+    "verrière",
+    "épi de faîtage"
   ],
   "photos": [
     {
       "id_pic": "Capucines-Bd-27_2_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "baie",
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "fer forgé",
+        "garde-corps",
+        "mansarde",
+        "lucarne",
+        "arc en plein cintre",
+        "verrière",
+        "bandeau",
+        "travée",
+        "toit à deux versants",
+        "épi de faîtage",
+        "oculus"
       ],
       "dateCapture": "2006:03:23"
     },
@@ -55,6 +89,7 @@
         "métal",
         "verrière"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:03:23"
     },
     {
@@ -65,6 +100,7 @@
         "mosaique",
         "verrière"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:03:23"
     },
     {
@@ -74,6 +110,7 @@
         "fenetre",
         "mosaique"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:10"
     },
     {
@@ -81,6 +118,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:10"
     },
     {
@@ -90,6 +128,7 @@
         "fenetre",
         "mosaique"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:10"
     },
     {
@@ -97,6 +136,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:03:23"
     }
   ]

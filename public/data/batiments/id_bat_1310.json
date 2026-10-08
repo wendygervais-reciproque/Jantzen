@@ -21,15 +21,55 @@
   "WPfr": null,
   "image_ref": "Dragon-18_6_§1",
   "terme_jantzen_bat": [
+    "façade",
     "porte",
-    "fenetre",
-    "façade"
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "auvent",
+    "balcon",
+    "balustrade",
+    "chéneau",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "pierre de taille",
+    "porche",
+    "porte",
+    "porte-fenêtre",
+    "travée",
+    "vantail"
   ],
   "photos": [
     {
       "id_pic": "Dragon-18_6_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "porte",
+        "porte-fenêtre",
+        "vantail",
+        "arc",
+        "arc en plein cintre",
+        "pierre de taille",
+        "mansarde",
+        "lucarne",
+        "chéneau",
+        "auvent",
+        "travée",
+        "fer forgé",
+        "mascaron",
+        "porche"
       ],
       "dateCapture": "2005:05:28"
     },
@@ -39,6 +79,7 @@
         "fenetre",
         "porte"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:11"
     },
     {
@@ -46,6 +87,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:28"
     }
   ]

@@ -36,14 +36,31 @@
   "WPfr": null,
   "image_ref": "Kleber-22_16_§2",
   "terme_jantzen_bat": [
-    "fenetre",
-    "console",
-    "garde-corps",
-    "chimère",
+    "balcon",
     "sculpture",
     "clé",
-    "porte-bois",
-    "balcon"
+    "console",
+    "fenetre",
+    "chimère",
+    "garde-corps",
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "chambranle",
+    "chaîne d'angle",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "linteau",
+    "mascaron",
+    "modillon",
+    "pierre de taille",
+    "porte-fenêtre",
+    "sculpture"
   ],
   "photos": [
     {
@@ -52,6 +69,23 @@
         "balcon",
         "console",
         "garde-corps"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "mascaron",
+        "fenêtre",
+        "porte-fenêtre",
+        "chaîne d'angle",
+        "sculpture",
+        "pierre de taille",
+        "chambranle",
+        "linteau",
+        "arc en plein cintre",
+        "modillon",
+        "fronton"
       ],
       "dateCapture": "2005:03:19"
     },
@@ -62,6 +96,7 @@
         "clé",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:03:19"
     },
     {
@@ -71,6 +106,7 @@
         "clé",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:03:19"
     },
     {
@@ -79,6 +115,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:03:19"
     },
     {
@@ -87,6 +124,7 @@
         "fenetre",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:03:19"
     }
   ]

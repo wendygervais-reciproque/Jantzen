@@ -36,10 +36,21 @@
   "WPfr": null,
   "image_ref": "Laugier-66_17_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "brique",
-    "lucarne",
-    "décor"
+    "fenetre",
+    "décor",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "attique",
+    "baie",
+    "bandeau",
+    "brique",
+    "corniche",
+    "fenêtre",
+    "garde-corps",
+    "pilastre",
+    "travée"
   ],
   "photos": [
     {
@@ -47,6 +58,17 @@
       "IndexJantzen": [
         "brique",
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "baie",
+        "fenêtre",
+        "brique",
+        "corniche",
+        "bandeau",
+        "travée",
+        "attique",
+        "pilastre",
+        "garde-corps"
       ],
       "dateCapture": "2004:10:01"
     },
@@ -58,6 +80,7 @@
         "fenetre",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:10:01"
     }
   ]

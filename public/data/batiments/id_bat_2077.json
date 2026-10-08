@@ -32,17 +32,55 @@
   "WPfr": null,
   "image_ref": "Paix-3_2_§1",
   "terme_jantzen_bat": [
+    "sculpture",
+    "cariatide",
     "fenetre",
     "façade",
-    "sculpture",
-    "porte-bois",
-    "cariatide"
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "atlante",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mascaron",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "toit à deux versants",
+    "vitrail",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Paix-3_2_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "lucarne",
+        "atlante",
+        "corniche",
+        "porte",
+        "pilastre",
+        "fronton",
+        "mascaron",
+        "bandeau",
+        "garde-corps",
+        "volet",
+        "toit à deux versants",
+        "ardoise",
+        "pierre de taille",
+        "vitrail"
       ],
       "dateCapture": "2004:09:11"
     },
@@ -53,6 +91,7 @@
         "fenetre",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:19"
     },
     {
@@ -61,6 +100,7 @@
         "cariatide",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:09:19"
     },
     {
@@ -70,6 +110,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:19"
     },
     {
@@ -78,6 +119,7 @@
         "cariatide",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:09:19"
     },
     {
@@ -86,6 +128,7 @@
         "cariatide",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:09:19"
     }
   ]

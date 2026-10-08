@@ -32,15 +32,55 @@
   "WPfr": null,
   "image_ref": "Colonnes-R_2_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "façade",
-    "colonne"
+    "colonne",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "arcade",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chapiteau",
+    "colonne",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "soupirail",
+    "travée"
   ],
   "photos": [
     {
       "id_pic": "Colonnes-R_2_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "arcade",
+        "arc en plein cintre",
+        "colonne",
+        "chapiteau",
+        "pierre de taille",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "lucarne",
+        "mansarde",
+        "corniche",
+        "bandeau",
+        "fer forgé",
+        "travée",
+        "porte",
+        "soupirail",
+        "mascaron"
       ],
       "dateCapture": null
     },
@@ -50,6 +90,7 @@
         "colonne",
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": null
     },
     {
@@ -57,6 +98,7 @@
       "IndexJantzen": [
         "colonne"
       ],
+      "IndexTorneh": [],
       "dateCapture": null
     },
     {
@@ -65,6 +107,7 @@
         "colonne",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:04:25"
     },
     {
@@ -73,6 +116,7 @@
         "colonne",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:04:25"
     },
     {
@@ -80,6 +124,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:04:25"
     }
   ]

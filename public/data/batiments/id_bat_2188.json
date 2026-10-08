@@ -23,11 +23,35 @@
   "terme_jantzen_bat": [
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "bandeau",
+    "chambranle",
+    "chaîne d'angle",
+    "fenêtre",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "souche de cheminée",
+    "toit à deux versants"
+  ],
   "photos": [
     {
       "id_pic": "Tournon-31_6_§1",
       "IndexJantzen": [
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "souche de cheminée",
+        "lucarne",
+        "fenêtre",
+        "toit à deux versants",
+        "ardoise",
+        "garde-corps",
+        "chambranle",
+        "bandeau",
+        "chaîne d'angle",
+        "mansarde"
       ],
       "dateCapture": "2006:04:07"
     }

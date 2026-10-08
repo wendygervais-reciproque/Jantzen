@@ -19,10 +19,25 @@
   "WPfr": "Cour d'honneur de l'hôtel des Invalides",
   "image_ref": "Invalides-HN-Lc_1_5",
   "terme_jantzen_bat": [
-    "oeil-de-boeuf",
+    "sculpture",
     "fenetre",
-    "lucarne",
-    "sculpture"
+    "oeil-de-boeuf",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "arcade",
+    "ardoise",
+    "balustrade",
+    "colonne",
+    "corniche",
+    "dôme",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "sculpture",
+    "toit-terrasse"
   ],
   "photos": [
     {
@@ -31,6 +46,21 @@
         "fenetre",
         "lucarne",
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "arc en plein cintre",
+        "arcade",
+        "balustrade",
+        "corniche",
+        "dôme",
+        "mascaron",
+        "oculus",
+        "pierre de taille",
+        "sculpture",
+        "toit-terrasse",
+        "ardoise",
+        "colonne",
+        "pilastre"
       ],
       "dateCapture": "2008:07:28"
     },
@@ -41,6 +71,7 @@
         "oeil-de-boeuf",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:07:28"
     },
     {
@@ -50,6 +81,7 @@
         "oeil-de-boeuf",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:04"
     },
     {
@@ -59,6 +91,7 @@
         "oeil-de-boeuf",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:07:28"
     },
     {
@@ -68,6 +101,7 @@
         "oeil-de-boeuf",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:04"
     },
     {
@@ -77,6 +111,7 @@
         "oeil-de-boeuf",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:07:28"
     },
     {
@@ -86,6 +121,7 @@
         "lucarne",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:07:28"
     },
     {
@@ -95,6 +131,7 @@
         "oeil-de-boeuf",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:04"
     },
     {
@@ -104,6 +141,7 @@
         "oeil-de-boeuf",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:07:28"
     },
     {
@@ -113,6 +151,7 @@
         "oeil-de-boeuf",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:07:28"
     },
     {
@@ -122,6 +161,7 @@
         "oeil-de-boeuf",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:04"
     },
     {
@@ -131,6 +171,7 @@
         "oeil-de-boeuf",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:07:28"
     }
   ]

@@ -23,9 +23,28 @@
   "WPfr": null,
   "image_ref": "Claude-Bernard-16_5_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "brique",
-    "dome"
+    "dome",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "brique",
+    "chaîne d'angle",
+    "chéneau",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "oculus",
+    "pierre de taille",
+    "souche de cheminée",
+    "toit-terrasse",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -33,6 +52,25 @@
       "IndexJantzen": [
         "brique",
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "dôme",
+        "souche de cheminée",
+        "brique",
+        "chaîne d'angle",
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "arc en plein cintre",
+        "ardoise",
+        "oculus",
+        "chéneau",
+        "lucarne",
+        "pierre de taille",
+        "fer forgé",
+        "épi de faîtage",
+        "toit-terrasse",
+        "fronton"
       ],
       "dateCapture": "2007:09:05"
     },
@@ -43,6 +81,7 @@
         "dome",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:09:05"
     }
   ]

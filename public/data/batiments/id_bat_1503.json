@@ -25,11 +25,43 @@
   "terme_jantzen_bat": [
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "chambranle",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "heurtoir",
+    "huisserie",
+    "pierre de taille",
+    "pilastre",
+    "portail",
+    "porte",
+    "sculpture",
+    "vantail",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Greffulhe-2_8_§1",
       "IndexJantzen": [
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "portail",
+        "vantail",
+        "fenêtre",
+        "volet",
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "pierre de taille",
+        "chambranle",
+        "huisserie",
+        "pilastre",
+        "sculpture",
+        "heurtoir"
       ],
       "dateCapture": "2010:04:18"
     },
@@ -38,6 +70,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:11:16"
     }
   ]

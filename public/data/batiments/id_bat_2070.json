@@ -22,16 +22,56 @@
   "image_ref": "Davioud-3_16_§1",
   "terme_jantzen_bat": [
     "toiture",
+    "balcon",
     "fenetre",
     "façade",
-    "lucarne-d'angle",
-    "balcon"
+    "lucarne-d'angle"
+  ],
+  "terme_torneh_bat": [
+    "avant-corps",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chéneau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mansarde",
+    "mur-boutant",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Davioud-3_16_§1",
       "IndexJantzen": [
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "porte-fenêtre",
+        "volet",
+        "oculus",
+        "bandeau",
+        "corniche",
+        "pierre de taille",
+        "travée",
+        "mansarde",
+        "souche de cheminée",
+        "fer forgé",
+        "avant-corps",
+        "chéneau",
+        "mur-boutant",
+        "pilastre"
       ],
       "dateCapture": "2005:05:10"
     },
@@ -40,6 +80,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:10"
     },
     {
@@ -48,6 +89,7 @@
         "balcon",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:10"
     },
     {
@@ -56,6 +98,7 @@
         "lucarne-d'angle",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:10"
     }
   ]

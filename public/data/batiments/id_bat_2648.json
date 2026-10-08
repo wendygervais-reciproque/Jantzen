@@ -28,11 +28,33 @@
   "WPfr": null,
   "image_ref": "Beaubourg-43_3_§1",
   "terme_jantzen_bat": [
-    "porte-fer",
-    "fenetre",
+    "balcon",
     "façade-d'angle",
+    "porte-fer",
     "fenetre-d'angle",
-    "balcon"
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc brisé",
+    "arc en plein cintre",
+    "atlante",
+    "auvent",
+    "avant-corps",
+    "baie",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "garde-corps",
+    "mascaron",
+    "oriel",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "sculpture",
+    "toit-terrasse",
+    "travée"
   ],
   "photos": [
     {
@@ -41,6 +63,28 @@
         "balcon",
         "façade-d'angle"
       ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "baie",
+        "pilastre",
+        "bandeau",
+        "corniche",
+        "arc en plein cintre",
+        "arc brisé",
+        "atlante",
+        "avant-corps",
+        "travée",
+        "auvent",
+        "pierre de taille",
+        "porte",
+        "oriel",
+        "toit-terrasse",
+        "sculpture",
+        "mascaron"
+      ],
       "dateCapture": "2010:06:05"
     },
     {
@@ -48,6 +92,7 @@
       "IndexJantzen": [
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:16"
     },
     {
@@ -55,6 +100,7 @@
       "IndexJantzen": [
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:16"
     },
     {
@@ -62,6 +108,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:06:05"
     },
     {
@@ -69,6 +116,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:06:05"
     },
     {
@@ -76,6 +124,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:06:05"
     },
     {
@@ -83,6 +132,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:06:05"
     },
     {
@@ -90,6 +140,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:03"
     },
     {
@@ -97,6 +148,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:08:09"
     },
     {
@@ -104,6 +156,7 @@
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:08:02"
     },
     {
@@ -111,6 +164,7 @@
       "IndexJantzen": [
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:06:05"
     },
     {
@@ -118,6 +172,7 @@
       "IndexJantzen": [
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:06:05"
     },
     {
@@ -125,6 +180,7 @@
       "IndexJantzen": [
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:17"
     },
     {
@@ -132,6 +188,7 @@
       "IndexJantzen": [
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:17"
     },
     {
@@ -139,6 +196,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:17"
     },
     {
@@ -146,6 +204,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:17"
     },
     {
@@ -153,6 +212,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:17"
     }
   ]

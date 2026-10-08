@@ -28,18 +28,60 @@
   "WPfr": null,
   "image_ref": "Faubourg-St-Denis-154_10_§1",
   "terme_jantzen_bat": [
+    "sculpture",
+    "console",
     "fenetre",
     "lucarne",
     "façade",
-    "console",
-    "sculpture",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "baie",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oriel",
+    "pilastre",
+    "porte-fenêtre",
+    "sculpture",
+    "toit à deux versants",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Faubourg-St-Denis-154_10_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "fenêtre",
+        "porte-fenêtre",
+        "lucarne",
+        "mansarde",
+        "fronton",
+        "sculpture",
+        "mascaron",
+        "pilastre",
+        "corniche",
+        "bandeau",
+        "volet",
+        "fer forgé",
+        "toit à deux versants",
+        "oriel",
+        "baie",
+        "travée"
       ],
       "dateCapture": "2005:05:25"
     },
@@ -48,6 +90,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:25"
     },
     {
@@ -57,6 +100,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:25"
     },
     {
@@ -64,6 +108,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:25"
     },
     {
@@ -74,6 +119,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:25"
     },
     {
@@ -82,6 +128,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:25"
     }
   ]

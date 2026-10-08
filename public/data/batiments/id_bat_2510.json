@@ -21,8 +21,21 @@
   "WPfr": null,
   "image_ref": "Ferou-4_6_§1",
   "terme_jantzen_bat": [
-    "porte-bois",
-    "clé"
+    "clé",
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "chambranle",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "linteau",
+    "mascaron",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "vantail"
   ],
   "photos": [
     {
@@ -30,6 +43,19 @@
       "IndexJantzen": [
         "clé",
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "portail",
+        "mascaron",
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "pierre de taille",
+        "vantail",
+        "chambranle",
+        "linteau"
       ],
       "dateCapture": "2005:06:02"
     }

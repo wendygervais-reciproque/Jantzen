@@ -29,8 +29,26 @@
   "image_ref": "Montparnasse-Bd-171_6_§1",
   "terme_jantzen_bat": [
     "oeil-de-boeuf",
-    "lucarne",
-    "dome"
+    "dome",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "sculpture",
+    "souche de cheminée",
+    "volet",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -39,6 +57,24 @@
         "dome",
         "lucarne",
         "oeil-de-boeuf"
+      ],
+      "IndexTorneh": [
+        "dôme",
+        "épi de faîtage",
+        "oculus",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "arc en plein cintre",
+        "corniche",
+        "souche de cheminée",
+        "ardoise",
+        "pierre de taille",
+        "volet",
+        "sculpture",
+        "mascaron"
       ],
       "dateCapture": "2006:04:03"
     },
@@ -49,6 +85,7 @@
         "lucarne",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:18"
     },
     {
@@ -57,6 +94,7 @@
         "lucarne",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:03"
     }
   ]

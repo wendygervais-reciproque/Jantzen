@@ -24,12 +24,30 @@
     "oeil-de-boeuf",
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "corniche",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "oriel",
+    "épi de faîtage"
+  ],
   "photos": [
     {
       "id_pic": "Spontini-41_16_§1",
       "IndexJantzen": [
         "lucarne",
         "oeil-de-boeuf"
+      ],
+      "IndexTorneh": [
+        "oculus",
+        "ardoise",
+        "mascaron",
+        "épi de faîtage",
+        "corniche",
+        "mansarde",
+        "oriel"
       ],
       "dateCapture": "2008:08:21"
     },
@@ -39,6 +57,7 @@
         "lucarne",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:07:27"
     }
   ]

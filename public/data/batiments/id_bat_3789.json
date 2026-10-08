@@ -21,10 +21,36 @@
   "WPfr": null,
   "image_ref": "Alphonse-de-Neuville-9_17_§",
   "terme_jantzen_bat": [
-    "fenetre",
     "brique",
+    "verrière",
     "façade",
-    "verrière"
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc brisé",
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "chéneau",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "linteau",
+    "lucarne",
+    "mansarde",
+    "meneau",
+    "oculus",
+    "pierre de taille",
+    "porte",
+    "souche de cheminée",
+    "tuile",
+    "verrière",
+    "volet"
   ],
   "photos": [
     {
@@ -34,6 +60,32 @@
         "façade",
         "fenetre",
         "verrière"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "verrière",
+        "brique",
+        "pierre de taille",
+        "arc",
+        "arc en plein cintre",
+        "arc brisé",
+        "oculus",
+        "volet",
+        "corniche",
+        "fronton",
+        "mansarde",
+        "lucarne",
+        "souche de cheminée",
+        "porte",
+        "linteau",
+        "meneau",
+        "bandeau",
+        "chéneau",
+        "ardoise",
+        "tuile"
       ],
       "dateCapture": "2004:07:05"
     }

@@ -22,9 +22,23 @@
   "image_ref": "Clichy-31_9_§1",
   "terme_jantzen_bat": [
     "sculpture",
-    "fenetre",
     "garde-corps",
-    "console"
+    "console",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mansarde",
+    "mascaron",
+    "pierre de taille",
+    "sculpture"
   ],
   "photos": [
     {
@@ -32,6 +46,20 @@
       "IndexJantzen": [
         "fenetre",
         "garde-corps"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "balustrade",
+        "mascaron",
+        "pierre de taille",
+        "corniche",
+        "arc en plein cintre",
+        "fer forgé",
+        "sculpture",
+        "mansarde",
+        "bandeau"
       ],
       "dateCapture": "2005:07:14"
     },
@@ -41,6 +69,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:14"
     }
   ]

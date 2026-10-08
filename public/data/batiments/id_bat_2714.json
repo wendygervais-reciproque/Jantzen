@@ -24,12 +24,38 @@
     "fenetre",
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "arcade",
+    "bossage",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "sculpture"
+  ],
   "photos": [
     {
       "id_pic": "Ulm-45_5_§1",
       "IndexJantzen": [
         "fenetre",
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "pierre de taille",
+        "fenêtre",
+        "sculpture",
+        "arc en plein cintre",
+        "fronton",
+        "pilastre",
+        "porte",
+        "corniche",
+        "bossage",
+        "chambranle",
+        "arcade"
       ],
       "dateCapture": "2005:09:30"
     }

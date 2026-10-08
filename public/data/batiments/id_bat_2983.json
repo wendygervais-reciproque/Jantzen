@@ -23,11 +23,39 @@
   "terme_jantzen_bat": [
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "chéneau",
+    "corniche",
+    "fenêtre",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "souche de cheminée",
+    "tuile",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Mouffetard-54-44_5_§1",
       "IndexJantzen": [
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "mansarde",
+        "lucarne",
+        "balcon",
+        "garde-corps",
+        "volet",
+        "ardoise",
+        "tuile",
+        "corniche",
+        "souche de cheminée",
+        "chéneau",
+        "balustrade"
       ],
       "dateCapture": "2005:08:29"
     }

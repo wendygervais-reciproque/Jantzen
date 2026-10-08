@@ -23,11 +23,41 @@
   "terme_jantzen_bat": [
     "façade"
   ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chéneau",
+    "corniche",
+    "fenêtre",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "porte",
+    "souche de cheminée",
+    "vitrail"
+  ],
   "photos": [
     {
       "id_pic": "Pastourelle-14_3_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "mansarde",
+        "lucarne",
+        "ardoise",
+        "souche de cheminée",
+        "corniche",
+        "bandeau",
+        "balustrade",
+        "vitrail",
+        "porte",
+        "chéneau"
       ],
       "dateCapture": null
     }

@@ -21,9 +21,25 @@
   "WPfr": null,
   "image_ref": "Printemps-12_17_§1",
   "terme_jantzen_bat": [
-    "oeil-de-boeuf",
     "brique",
+    "oeil-de-boeuf",
     "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "brique",
+    "chambranle",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "porte",
+    "porte-fenêtre",
+    "soupirail",
+    "vantail",
+    "volet"
   ],
   "photos": [
     {
@@ -32,6 +48,22 @@
         "brique",
         "oeil-de-boeuf",
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "oculus",
+        "arc",
+        "arc en plein cintre",
+        "brique",
+        "balcon",
+        "balustrade",
+        "volet",
+        "soupirail",
+        "porte-fenêtre",
+        "pierre de taille",
+        "mascaron",
+        "chambranle",
+        "vantail"
       ],
       "dateCapture": "2004:04:16"
     }

@@ -28,11 +28,33 @@
   "WPfr": null,
   "image_ref": "La-Boetie-68_8_§1",
   "terme_jantzen_bat": [
-    "façade-d'angle",
+    "balcon",
     "dome",
-    "fenetre-d'angle",
+    "façade-d'angle",
     "pilastre",
-    "balcon"
+    "fenetre-d'angle"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "sculpture",
+    "souche de cheminée",
+    "travée",
+    "volet",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -40,6 +62,28 @@
       "IndexJantzen": [
         "dome",
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "dôme",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "lucarne",
+        "mansarde",
+        "corniche",
+        "bandeau",
+        "pilastre",
+        "sculpture",
+        "mascaron",
+        "souche de cheminée",
+        "arc en plein cintre",
+        "pierre de taille",
+        "fer forgé",
+        "travée",
+        "volet",
+        "oculus",
+        "épi de faîtage"
       ],
       "dateCapture": "2008:06:27"
     },
@@ -50,6 +94,7 @@
         "dome",
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:06:27"
     },
     {
@@ -58,6 +103,7 @@
         "balcon",
         "pilastre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:06:27"
     }
   ]

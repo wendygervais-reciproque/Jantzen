@@ -21,10 +21,27 @@
   "WPfr": null,
   "image_ref": "Nollet-53_17_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "brique",
-    "décor",
-    "céramique"
+    "céramique",
+    "fenetre",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc brisé",
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "corniche",
+    "céramique",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "grille",
+    "oculus",
+    "pierre de taille",
+    "travée"
   ],
   "photos": [
     {
@@ -34,6 +51,23 @@
         "céramique",
         "décor",
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "arc en plein cintre",
+        "arc brisé",
+        "fenêtre",
+        "brique",
+        "céramique",
+        "corniche",
+        "balcon",
+        "balustrade",
+        "fer forgé",
+        "garde-corps",
+        "grille",
+        "bandeau",
+        "pierre de taille",
+        "oculus",
+        "travée"
       ],
       "dateCapture": "2004:06:27"
     },
@@ -45,6 +79,7 @@
         "décor",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:06:27"
     }
   ]

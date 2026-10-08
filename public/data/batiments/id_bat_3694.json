@@ -28,15 +28,33 @@
   "WPfr": null,
   "image_ref": "Reaumur-82_2_§1",
   "terme_jantzen_bat": [
-    "lucarne",
-    "pignon",
-    "sculpture",
-    "mosaique",
     "dome",
+    "mosaique",
+    "pignon",
     "pilastre",
+    "sculpture",
     "fenetre-d'angle",
-    "décor",
-    "fronton"
+    "lucarne",
+    "fronton",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "chapiteau composite",
+    "colonne",
+    "corniche",
+    "dôme",
+    "entablement",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "tour",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -46,6 +64,24 @@
         "fenetre-d'angle",
         "pignon",
         "pilastre"
+      ],
+      "IndexTorneh": [
+        "dôme",
+        "oculus",
+        "fronton",
+        "pilastre",
+        "chapiteau composite",
+        "corniche",
+        "entablement",
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "colonne",
+        "pierre de taille",
+        "tour",
+        "épi de faîtage"
       ],
       "dateCapture": "2004:08:31"
     },
@@ -57,6 +93,7 @@
         "mosaique",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:08:31"
     },
     {
@@ -66,6 +103,7 @@
         "fronton",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:08:31"
     }
   ]

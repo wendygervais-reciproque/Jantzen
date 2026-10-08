@@ -24,18 +24,46 @@
   "image_ref": "Poissy-20_5_§1",
   "terme_jantzen_bat": [
     "toiture",
+    "tourelle",
+    "intérieur",
     "fenetre",
     "lucarne",
     "façade",
-    "tourelle",
-    "intérieur",
     "colonne"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc brisé",
+    "contrefort",
+    "fenêtre",
+    "garde-corps",
+    "grille",
+    "lucarne",
+    "mur-boutant",
+    "pierre de taille",
+    "toit à deux versants",
+    "travée",
+    "tuile"
   ],
   "photos": [
     {
       "id_pic": "Poissy-20_5_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "arc brisé",
+        "arc",
+        "contrefort",
+        "lucarne",
+        "fenêtre",
+        "garde-corps",
+        "tuile",
+        "pierre de taille",
+        "mur-boutant",
+        "grille",
+        "toit à deux versants",
+        "travée"
       ],
       "dateCapture": "2010:03:23"
     },
@@ -46,6 +74,7 @@
         "toiture",
         "tourelle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:05:25"
     },
     {
@@ -53,6 +82,7 @@
       "IndexJantzen": [
         "intérieur"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:05:25"
     },
     {
@@ -60,6 +90,7 @@
       "IndexJantzen": [
         "intérieur"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:03:23"
     },
     {
@@ -68,6 +99,7 @@
         "colonne",
         "intérieur"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:05:25"
     },
     {
@@ -76,6 +108,7 @@
         "colonne",
         "intérieur"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:03:23"
     },
     {
@@ -84,6 +117,7 @@
         "colonne",
         "intérieur"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:03:23"
     },
     {
@@ -92,6 +126,7 @@
         "façade",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:05:25"
     },
     {
@@ -99,6 +134,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:05:25"
     },
     {
@@ -106,6 +142,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:03:23"
     },
     {
@@ -113,6 +150,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:05:25"
     },
     {
@@ -120,6 +158,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:03:23"
     },
     {
@@ -129,6 +168,7 @@
         "toiture",
         "tourelle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:03:23"
     },
     {
@@ -136,6 +176,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:05:25"
     },
     {
@@ -143,6 +184,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:05:25"
     }
   ]

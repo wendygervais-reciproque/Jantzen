@@ -28,9 +28,24 @@
   "WPfr": null,
   "image_ref": "Victor-Hugo-pl-4_16_§1",
   "terme_jantzen_bat": [
-    "sculpture",
     "chimère",
+    "sculpture",
     "console"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "bossage",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "pierre de taille",
+    "porte-fenêtre",
+    "sculpture"
   ],
   "photos": [
     {
@@ -39,6 +54,21 @@
         "chimère",
         "console",
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "sculpture",
+        "mascaron",
+        "corniche",
+        "bandeau",
+        "chaîne d'angle",
+        "pierre de taille",
+        "fenêtre",
+        "porte-fenêtre",
+        "bossage"
       ],
       "dateCapture": "2006:07:10"
     },
@@ -49,6 +79,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:08"
     }
   ]

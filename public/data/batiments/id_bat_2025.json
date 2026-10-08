@@ -27,12 +27,50 @@
     "façade",
     "voie"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "arcade",
+    "balcon",
+    "balustrade",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "oculus",
+    "perron",
+    "pierre de taille",
+    "pilastre",
+    "portail",
+    "souche de cheminée",
+    "tour",
+    "travée",
+    "vitrail"
+  ],
   "photos": [
     {
       "id_pic": "Julien-Lacroix-2b_20_§1",
       "IndexJantzen": [
         "façade",
         "voie"
+      ],
+      "IndexTorneh": [
+        "tour",
+        "vitrail",
+        "oculus",
+        "arc en plein cintre",
+        "portail",
+        "souche de cheminée",
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "corniche",
+        "pierre de taille",
+        "arcade",
+        "pilastre",
+        "travée",
+        "perron",
+        "fronton",
+        "balustrade"
       ],
       "dateCapture": "2005:09:19"
     },
@@ -42,6 +80,7 @@
         "façade",
         "voie"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:09:19"
     }
   ]

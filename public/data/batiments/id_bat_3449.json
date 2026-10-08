@@ -32,10 +32,32 @@
   "WPfr": null,
   "image_ref": "Villaret-de-Joyeuse-7_17_§1",
   "terme_jantzen_bat": [
-    "lucarne",
-    "fenetre",
     "façade",
-    "oriel"
+    "oriel",
+    "fenetre",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -43,6 +65,28 @@
       "IndexJantzen": [
         "façade",
         "oriel"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "lucarne",
+        "mansarde",
+        "ardoise",
+        "souche de cheminée",
+        "fer forgé",
+        "pierre de taille",
+        "sculpture",
+        "mascaron",
+        "bandeau",
+        "corniche",
+        "travée",
+        "oculus",
+        "toit à deux versants",
+        "porte",
+        "volet",
+        "chaîne d'angle"
       ],
       "dateCapture": "2004:10:02"
     },
@@ -52,6 +96,7 @@
         "fenetre",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:10:02"
     },
     {
@@ -60,6 +105,7 @@
         "fenetre",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:10:02"
     }
   ]

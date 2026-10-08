@@ -22,10 +22,25 @@
   "image_ref": "Vitruve-4_20_§1",
   "terme_jantzen_bat": [
     "oeil-de-boeuf",
-    "lucarne",
     "fenetre-d'angle",
+    "lucarne",
     "brique",
     "lucarne-d'angle"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "brique",
+    "corniche",
+    "faîtage",
+    "fenêtre",
+    "garde-corps",
+    "oculus",
+    "pilastre",
+    "souche de cheminée",
+    "travée",
+    "volet",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -35,6 +50,21 @@
         "fenetre-d'angle",
         "lucarne"
       ],
+      "IndexTorneh": [
+        "épi de faîtage",
+        "oculus",
+        "ardoise",
+        "souche de cheminée",
+        "garde-corps",
+        "balcon",
+        "fenêtre",
+        "corniche",
+        "brique",
+        "pilastre",
+        "volet",
+        "faîtage",
+        "travée"
+      ],
       "dateCapture": "2005:09:04"
     },
     {
@@ -43,6 +73,7 @@
         "lucarne-d'angle",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:09:04"
     }
   ]

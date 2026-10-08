@@ -32,11 +32,43 @@
     "garde-corps",
     "balcon"
   ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "fenêtre",
+    "fer",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "oriel",
+    "pierre de taille",
+    "toit à deux versants",
+    "travée",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Beaujon-22_8_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "lucarne",
+        "ardoise",
+        "toit à deux versants",
+        "pierre de taille",
+        "oriel",
+        "volet",
+        "travée",
+        "mansarde",
+        "fer"
       ],
       "dateCapture": "2004:10:16"
     },
@@ -46,6 +78,7 @@
         "balcon",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:10:16"
     }
   ]

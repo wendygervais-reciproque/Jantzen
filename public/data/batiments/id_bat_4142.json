@@ -31,12 +31,36 @@
     "façade",
     "colonne"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "chapiteau ionique",
+    "colonne",
+    "corniche",
+    "entablement",
+    "fenêtre",
+    "garde-corps",
+    "pilastre",
+    "travée",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Orleans-Sq-_9_§1",
       "IndexJantzen": [
         "colonne",
         "façade"
+      ],
+      "IndexTorneh": [
+        "colonne",
+        "chapiteau ionique",
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "corniche",
+        "travée",
+        "volet",
+        "pilastre",
+        "entablement"
       ],
       "dateCapture": "2004:08:27"
     },
@@ -46,6 +70,7 @@
         "colonne",
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:08:27"
     }
   ]

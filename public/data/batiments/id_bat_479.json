@@ -30,19 +30,75 @@
   "terme_jantzen_bat": [
     "toiture",
     "oeil-de-boeuf",
-    "lucarne",
+    "balcon",
     "façade-d'angle",
     "sculpture",
     "fenetre-d'angle",
+    "lucarne",
     "lucarne-d'angle",
-    "décor",
-    "balcon"
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc brisé",
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mascaron",
+    "oculus",
+    "oriel",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "porte-fenêtre",
+    "sculpture",
+    "souche de cheminée",
+    "toit en pavillon",
+    "travée",
+    "volet",
+    "épi de faîtage"
   ],
   "photos": [
     {
       "id_pic": "Edmond-Valentin-11_7_§1",
       "IndexJantzen": [
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "porte-fenêtre",
+        "oriel",
+        "mascaron",
+        "fronton",
+        "corniche",
+        "bandeau",
+        "pilastre",
+        "chaîne d'angle",
+        "ardoise",
+        "oculus",
+        "lucarne",
+        "toit en pavillon",
+        "pierre de taille",
+        "arc en plein cintre",
+        "arc brisé",
+        "fer forgé",
+        "porte",
+        "volet",
+        "travée",
+        "épi de faîtage",
+        "souche de cheminée",
+        "sculpture"
       ],
       "dateCapture": "2006:06:23"
     },
@@ -51,6 +107,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:02"
     },
     {
@@ -60,6 +117,7 @@
         "fenetre-d'angle",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:02"
     },
     {
@@ -68,6 +126,7 @@
         "balcon",
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:02"
     },
     {
@@ -77,6 +136,7 @@
         "sculpture",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:23"
     },
     {
@@ -85,6 +145,7 @@
         "lucarne",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:23"
     },
     {
@@ -92,6 +153,7 @@
       "IndexJantzen": [
         "lucarne-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:02"
     },
     {
@@ -100,6 +162,7 @@
         "lucarne-d'angle",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:23"
     },
     {
@@ -108,6 +171,7 @@
         "balcon",
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:23"
     },
     {
@@ -115,6 +179,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:02"
     }
   ]

@@ -34,11 +34,49 @@
     "garde-corps",
     "façade-d'angle"
   ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "avant-corps",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "souche de cheminée",
+    "toit en pavillon",
+    "travée"
+  ],
   "photos": [
     {
       "id_pic": "Victor-Masse-41_9_§1",
       "IndexJantzen": [
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "garde-corps",
+        "oculus",
+        "pierre de taille",
+        "ardoise",
+        "toit en pavillon",
+        "dôme",
+        "fer forgé",
+        "corniche",
+        "bandeau",
+        "pilastre",
+        "porte",
+        "travée",
+        "souche de cheminée",
+        "avant-corps"
       ],
       "dateCapture": "2005:07:14"
     },
@@ -48,6 +86,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:21"
     }
   ]

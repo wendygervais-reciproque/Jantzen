@@ -21,14 +21,54 @@
   "WPfr": null,
   "image_ref": "Saone-32_14_§1",
   "terme_jantzen_bat": [
+    "fenetre-d'angle",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "chapiteau ionique",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
     "lucarne",
-    "fenetre-d'angle"
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "souche de cheminée",
+    "toit en pavillon",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Saone-32_14_§1",
       "IndexJantzen": [
         "fenetre-d'angle"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "lucarne",
+        "mansarde",
+        "corniche",
+        "pilastre",
+        "chapiteau ionique",
+        "mascaron",
+        "souche de cheminée",
+        "dôme",
+        "oculus",
+        "fer forgé",
+        "pierre de taille",
+        "volet",
+        "travée",
+        "toit en pavillon"
       ],
       "dateCapture": "2004:03:29"
     },
@@ -37,6 +77,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:03:29"
     }
   ]

@@ -8,7 +8,7 @@
     "1590-1659"
   ],
   "adresse": null,
-  "arrondissement": 2,
+  "arrondissement": 1,
   "tri_alphab": "St-Eustache",
   "coordonnees": {
     "latitude": "48.863333333333",
@@ -22,12 +22,48 @@
     "toiture",
     "tourelle"
   ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "arcade",
+    "ardoise",
+    "colonne",
+    "contrefort",
+    "corniche",
+    "fronton",
+    "mur-boutant",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "souche de cheminée",
+    "toit en pavillon",
+    "tour",
+    "épi de faîtage"
+  ],
   "photos": [
     {
       "id_pic": "St-Eustache_2_§1",
       "IndexJantzen": [
         "toiture",
         "tourelle"
+      ],
+      "IndexTorneh": [
+        "ardoise",
+        "arc",
+        "arc en plein cintre",
+        "corniche",
+        "colonne",
+        "contrefort",
+        "oculus",
+        "tour",
+        "toit en pavillon",
+        "pierre de taille",
+        "épi de faîtage",
+        "arcade",
+        "pilastre",
+        "fronton",
+        "souche de cheminée",
+        "mur-boutant"
       ],
       "dateCapture": "2004:08:31"
     }

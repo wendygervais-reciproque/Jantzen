@@ -28,9 +28,28 @@
   "WPfr": null,
   "image_ref": "Descamps-12_16_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "sculpture",
+    "fenetre",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "mur-boutant",
+    "pierre de taille",
+    "porte-fenêtre",
+    "sculpture",
+    "souche de cheminée",
+    "travée",
+    "vantail",
+    "volet"
   ],
   "photos": [
     {
@@ -40,11 +59,31 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "fenêtre",
+        "porte-fenêtre",
+        "mascaron",
+        "sculpture",
+        "corniche",
+        "fronton",
+        "lucarne",
+        "mansarde",
+        "pierre de taille",
+        "volet",
+        "vantail",
+        "mur-boutant",
+        "souche de cheminée",
+        "travée"
+      ],
       "dateCapture": "2007:05:10"
     },
     {
       "id_pic": "Descamps-12_16_§2",
       "IndexJantzen": [],
+      "IndexTorneh": [],
       "dateCapture": "2007:05:10"
     }
   ]

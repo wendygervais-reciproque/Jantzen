@@ -21,10 +21,33 @@
   "WPfr": null,
   "image_ref": "Raspail-270_14_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "brique",
+    "oriel",
     "façade",
-    "oriel"
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc en anse de panier",
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "chéneau",
+    "corniche",
+    "fenêtre",
+    "garde-corps",
+    "linteau",
+    "lucarne",
+    "mansarde",
+    "oriel",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "souche de cheminée",
+    "travée",
+    "vitrail"
   ],
   "photos": [
     {
@@ -32,6 +55,29 @@
       "IndexJantzen": [
         "brique",
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "mansarde",
+        "lucarne",
+        "souche de cheminée",
+        "corniche",
+        "bandeau",
+        "pierre de taille",
+        "brique",
+        "ardoise",
+        "oriel",
+        "porte",
+        "vitrail",
+        "chéneau",
+        "travée",
+        "arc en plein cintre",
+        "arc en anse de panier",
+        "linteau",
+        "pilastre"
       ],
       "dateCapture": "2005:03:21"
     },
@@ -41,6 +87,7 @@
         "brique",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:03:21"
     },
     {
@@ -49,6 +96,7 @@
         "brique",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:28"
     },
     {
@@ -57,6 +105,7 @@
         "brique",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:03:21"
     }
   ]

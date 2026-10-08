@@ -24,18 +24,60 @@
   "image_ref": "Tournelle-Qu-47_5_§1",
   "terme_jantzen_bat": [
     "oeil-de-boeuf",
+    "sculpture",
+    "clé",
     "fenetre",
     "lucarne",
     "façade",
-    "sculpture",
-    "clé",
     "colonne"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "perron",
+    "pierre de taille",
+    "porte",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "soupirail",
+    "travée",
+    "vantail",
+    "épi de faîtage"
   ],
   "photos": [
     {
       "id_pic": "Tournelle-Qu-47_5_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "lucarne",
+        "mansarde",
+        "oculus",
+        "fronton",
+        "mascaron",
+        "fenêtre",
+        "porte",
+        "porte-fenêtre",
+        "pierre de taille",
+        "corniche",
+        "ardoise",
+        "épi de faîtage",
+        "balcon",
+        "garde-corps",
+        "perron",
+        "travée",
+        "vantail",
+        "soupirail",
+        "souche de cheminée"
       ],
       "dateCapture": "2006:07:13"
     },
@@ -44,6 +86,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:13"
     },
     {
@@ -51,6 +94,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:09:01"
     },
     {
@@ -59,6 +103,7 @@
         "clé",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:09:01"
     },
     {
@@ -67,6 +112,7 @@
         "clé",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:09:01"
     },
     {
@@ -76,6 +122,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:09:01"
     },
     {
@@ -83,6 +130,7 @@
       "IndexJantzen": [
         "colonne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:09:01"
     },
     {
@@ -91,6 +139,7 @@
         "lucarne",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:13"
     },
     {
@@ -98,6 +147,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:09:01"
     },
     {
@@ -106,6 +156,7 @@
         "clé",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:13"
     },
     {
@@ -113,6 +164,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:09:27"
     },
     {
@@ -121,6 +173,7 @@
         "lucarne",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:09:27"
     },
     {
@@ -129,6 +182,7 @@
         "lucarne",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:13"
     },
     {
@@ -137,6 +191,7 @@
         "lucarne",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:09:01"
     },
     {
@@ -144,6 +199,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:09:27"
     }
   ]

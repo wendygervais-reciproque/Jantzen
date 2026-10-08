@@ -26,11 +26,57 @@
     "fenetre",
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "attique",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chapiteau",
+    "colonne",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "frise",
+    "fronton",
+    "garde-corps",
+    "mascaron",
+    "oculus",
+    "oriel",
+    "pierre de taille",
+    "pilastre",
+    "travée",
+    "volet",
+    "épi de faîtage"
+  ],
   "photos": [
     {
       "id_pic": "Montaigne-25_8_§1",
       "IndexJantzen": [
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "corniche",
+        "fronton",
+        "dôme",
+        "oriel",
+        "fenêtre",
+        "volet",
+        "pierre de taille",
+        "mascaron",
+        "pilastre",
+        "frise",
+        "épi de faîtage",
+        "bandeau",
+        "chapiteau",
+        "colonne",
+        "oculus",
+        "travée",
+        "fer forgé",
+        "attique"
       ],
       "dateCapture": "2005:03:20"
     },
@@ -39,6 +85,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:07"
     },
     {
@@ -46,6 +93,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:07"
     }
   ]

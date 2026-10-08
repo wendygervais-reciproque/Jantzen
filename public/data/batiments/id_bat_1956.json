@@ -32,20 +32,56 @@
   "WPfr": null,
   "image_ref": "Victor-Masse-27_9_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "façade",
     "façade-d'angle",
-    "porte",
-    "porte-bois",
     "pilastre",
     "fenetre-d'angle",
+    "fenetre",
+    "façade",
+    "porte",
+    "porte-bois",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "souche de cheminée",
+    "toit-terrasse",
+    "travée"
   ],
   "photos": [
     {
       "id_pic": "Victor-Masse-27_9_§1",
       "IndexJantzen": [
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "arc en plein cintre",
+        "corniche",
+        "bandeau",
+        "pilastre",
+        "souche de cheminée",
+        "toit-terrasse",
+        "pierre de taille",
+        "travée",
+        "oculus",
+        "fer forgé",
+        "chaîne d'angle",
+        "ardoise"
       ],
       "dateCapture": "2005:07:14"
     },
@@ -55,6 +91,7 @@
         "décor",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:14"
     },
     {
@@ -62,6 +99,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:10:14"
     },
     {
@@ -70,6 +108,7 @@
         "décor",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:14"
     },
     {
@@ -77,6 +116,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:14"
     },
     {
@@ -84,6 +124,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:10:14"
     },
     {
@@ -92,6 +133,7 @@
         "fenetre",
         "pilastre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:14"
     },
     {
@@ -99,6 +141,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:10:14"
     },
     {
@@ -107,6 +150,7 @@
         "fenetre",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:14"
     },
     {
@@ -115,6 +159,7 @@
         "fenetre",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:11"
     },
     {
@@ -122,6 +167,7 @@
       "IndexJantzen": [
         "façade-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:14"
     },
     {
@@ -129,6 +175,7 @@
       "IndexJantzen": [
         "façade-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:14"
     },
     {
@@ -137,6 +184,7 @@
         "décor",
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:21"
     },
     {
@@ -145,6 +193,7 @@
         "décor",
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:21"
     },
     {
@@ -153,6 +202,7 @@
         "fenetre",
         "porte"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:11"
     },
     {
@@ -160,6 +210,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:14"
     },
     {
@@ -168,6 +219,7 @@
         "décor",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:14"
     }
   ]

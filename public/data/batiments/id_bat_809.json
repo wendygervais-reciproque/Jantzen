@@ -23,11 +23,35 @@
   "terme_jantzen_bat": [
     "fenetre"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "chambranle",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "grille",
+    "pierre de taille",
+    "portail",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "St-Louis-13_4_§1",
       "IndexJantzen": [
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "garde-corps",
+        "balcon",
+        "arc en plein cintre",
+        "portail",
+        "pierre de taille",
+        "fer forgé",
+        "vantail",
+        "chambranle",
+        "grille"
       ],
       "dateCapture": "2003:08:03"
     }

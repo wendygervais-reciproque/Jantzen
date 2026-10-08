@@ -23,14 +23,58 @@
   "WPfr": null,
   "image_ref": "Jouffroy-d'Abbans-53_17_§1",
   "terme_jantzen_bat": [
-    "porte-fer",
-    "façade"
+    "façade",
+    "porte-fer"
+  ],
+  "terme_torneh_bat": [
+    "arc brisé",
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "linteau",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oriel",
+    "pierre de taille",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Jouffroy-d'Abbans-53_17_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "lucarne",
+        "mansarde",
+        "arc en plein cintre",
+        "arc brisé",
+        "mascaron",
+        "sculpture",
+        "souche de cheminée",
+        "pierre de taille",
+        "toit à deux versants",
+        "oriel",
+        "fer forgé",
+        "corniche",
+        "travée",
+        "volet",
+        "linteau",
+        "chambranle"
       ],
       "dateCapture": "2015:10:08"
     },
@@ -39,6 +83,7 @@
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:16"
     }
   ]

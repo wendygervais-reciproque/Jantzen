@@ -25,13 +25,30 @@
   "image_ref": "Figuier-1_4_§6-Rx",
   "terme_jantzen_bat": [
     "toiture",
-    "fenetre",
-    "façade",
-    "lucarne",
     "porte-fer",
     "tourelle",
-    "porte",
-    "tour"
+    "tour",
+    "fenetre",
+    "lucarne",
+    "façade",
+    "porte"
+  ],
+  "terme_torneh_bat": [
+    "acrotère",
+    "arc brisé",
+    "ardoise",
+    "faîtage",
+    "fenêtre",
+    "gargouille",
+    "grille",
+    "lucarne",
+    "oculus",
+    "pierre de taille",
+    "portail",
+    "sculpture",
+    "souche de cheminée",
+    "tour",
+    "vitrail"
   ],
   "photos": [
     {
@@ -39,6 +56,7 @@
       "IndexJantzen": [
         "tour"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:29"
     },
     {
@@ -47,6 +65,7 @@
         "lucarne",
         "tourelle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:08:20"
     },
     {
@@ -55,6 +74,7 @@
         "lucarne",
         "tourelle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:08:03"
     },
     {
@@ -64,6 +84,7 @@
         "lucarne",
         "tourelle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:03"
     },
     {
@@ -71,6 +92,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:08:20"
     },
     {
@@ -78,6 +100,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:08:03"
     },
     {
@@ -85,6 +108,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:06:07"
     },
     {
@@ -92,6 +116,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:06:07"
     },
     {
@@ -99,6 +124,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:08:20"
     },
     {
@@ -106,6 +132,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:08:03"
     },
     {
@@ -113,6 +140,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:08:20"
     },
     {
@@ -120,6 +148,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:29"
     },
     {
@@ -127,6 +156,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:08:20"
     },
     {
@@ -134,6 +164,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:06:07"
     },
     {
@@ -141,11 +172,13 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:08:03"
     },
     {
       "id_pic": "Figuier-1_4_§23",
       "IndexJantzen": [],
+      "IndexTorneh": [],
       "dateCapture": "2011:08:20"
     },
     {
@@ -154,6 +187,7 @@
         "façade",
         "tour"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:08:20"
     },
     {
@@ -162,6 +196,7 @@
         "fenetre",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:08:03"
     },
     {
@@ -169,6 +204,7 @@
       "IndexJantzen": [
         "tour"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:06:07"
     },
     {
@@ -176,6 +212,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:08:20"
     },
     {
@@ -183,6 +220,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:03:23"
     },
     {
@@ -190,6 +228,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:19"
     },
     {
@@ -197,6 +236,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:08"
     },
     {
@@ -205,6 +245,7 @@
         "lucarne",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:19"
     },
     {
@@ -213,6 +254,7 @@
         "lucarne",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:19"
     },
     {
@@ -220,6 +262,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:19"
     },
     {
@@ -227,6 +270,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:19"
     },
     {
@@ -234,6 +278,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:19"
     },
     {
@@ -242,6 +287,7 @@
         "façade",
         "tour"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:08:20"
     },
     {
@@ -251,6 +297,23 @@
         "porte",
         "tour"
       ],
+      "IndexTorneh": [
+        "tour",
+        "arc brisé",
+        "vitrail",
+        "lucarne",
+        "souche de cheminée",
+        "ardoise",
+        "pierre de taille",
+        "fenêtre",
+        "portail",
+        "grille",
+        "gargouille",
+        "sculpture",
+        "faîtage",
+        "acrotère",
+        "oculus"
+      ],
       "dateCapture": "2011:08:20"
     },
     {
@@ -258,6 +321,7 @@
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:08:20"
     },
     {
@@ -266,6 +330,7 @@
         "lucarne",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:08:20"
     },
     {
@@ -275,6 +340,7 @@
         "toiture",
         "tourelle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:08:20"
     }
   ]

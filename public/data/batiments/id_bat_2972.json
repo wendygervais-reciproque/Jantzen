@@ -23,11 +23,35 @@
   "terme_jantzen_bat": [
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "fer forgé",
+    "garde-corps",
+    "gros appareil",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Monceau-53_8_§1",
       "IndexJantzen": [
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "arc en plein cintre",
+        "mascaron",
+        "vantail",
+        "pierre de taille",
+        "gros appareil",
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "sculpture"
       ],
       "dateCapture": "2004:07:03"
     }

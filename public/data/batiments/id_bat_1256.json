@@ -21,14 +21,62 @@
   "WPfr": null,
   "image_ref": "La-Fayette-173_10_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "façade"
+    "façade",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc brisé",
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "modillon",
+    "oculus",
+    "oriel",
+    "pierre de taille",
+    "porte",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "volet",
+    "épi de faîtage"
   ],
   "photos": [
     {
       "id_pic": "La-Fayette-173_10_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "mansarde",
+        "lucarne",
+        "oriel",
+        "arc en plein cintre",
+        "arc brisé",
+        "volet",
+        "porte",
+        "corniche",
+        "bandeau",
+        "travée",
+        "pierre de taille",
+        "fer forgé",
+        "souche de cheminée",
+        "mascaron",
+        "modillon",
+        "oculus",
+        "épi de faîtage",
+        "toit à deux versants"
       ],
       "dateCapture": "2004:05:19"
     },
@@ -37,6 +85,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:05:19"
     },
     {
@@ -44,6 +93,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:05:19"
     }
   ]

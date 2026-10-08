@@ -28,8 +28,28 @@
   "WPfr": null,
   "image_ref": "Jeanne-d'Arc-3_13_§1",
   "terme_jantzen_bat": [
-    "porte-fer",
-    "brique"
+    "brique",
+    "porte-fer"
+  ],
+  "terme_torneh_bat": [
+    "arc brisé",
+    "arc en plein cintre",
+    "arcade",
+    "balcon",
+    "brique",
+    "chapiteau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "linteau",
+    "marquise",
+    "mascaron",
+    "modillon",
+    "pierre de taille",
+    "porte",
+    "vantail",
+    "volet"
   ],
   "photos": [
     {
@@ -37,6 +57,26 @@
       "IndexJantzen": [
         "brique",
         "porte-fer"
+      ],
+      "IndexTorneh": [
+        "arc en plein cintre",
+        "arc brisé",
+        "brique",
+        "pierre de taille",
+        "fenêtre",
+        "volet",
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "porte",
+        "vantail",
+        "chapiteau",
+        "modillon",
+        "corniche",
+        "mascaron",
+        "linteau",
+        "arcade",
+        "marquise"
       ],
       "dateCapture": "2005:07:17"
     }

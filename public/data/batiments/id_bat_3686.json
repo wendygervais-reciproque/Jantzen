@@ -23,11 +23,31 @@
   "WPfr": null,
   "image_ref": "Beaubourg-82_3_§1",
   "terme_jantzen_bat": [
+    "dome",
+    "façade-d'angle",
     "fenetre",
     "lucarne",
-    "façade-d'angle",
-    "dome",
     "lucarne-d'angle"
+  ],
+  "terme_torneh_bat": [
+    "arc brisé",
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "oculus",
+    "oriel",
+    "pierre de taille",
+    "souche de cheminée",
+    "tour",
+    "travée"
   ],
   "photos": [
     {
@@ -35,6 +55,26 @@
       "IndexJantzen": [
         "dome",
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "fenêtre",
+        "lucarne",
+        "oculus",
+        "dôme",
+        "ardoise",
+        "mansarde",
+        "souche de cheminée",
+        "arc en plein cintre",
+        "arc brisé",
+        "bandeau",
+        "corniche",
+        "travée",
+        "pierre de taille",
+        "tour",
+        "oriel"
       ],
       "dateCapture": "2004:09:08"
     },
@@ -44,6 +84,7 @@
         "dome",
         "façade-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:11:19"
     },
     {
@@ -51,6 +92,7 @@
       "IndexJantzen": [
         "lucarne-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:08"
     },
     {
@@ -58,6 +100,7 @@
       "IndexJantzen": [
         "lucarne-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:11:19"
     },
     {
@@ -67,6 +110,7 @@
         "fenetre",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:08"
     },
     {
@@ -76,6 +120,7 @@
         "fenetre",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:11:19"
     }
   ]

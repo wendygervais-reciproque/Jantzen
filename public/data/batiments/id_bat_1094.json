@@ -21,9 +21,20 @@
   "WPfr": null,
   "image_ref": "Jardins-St-Paul-16-20_4_§1",
   "terme_jantzen_bat": [
+    "pignon",
     "fenetre",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "chéneau",
+    "fenêtre",
+    "garde-corps",
     "lucarne",
-    "pignon"
+    "mansarde",
+    "souche de cheminée",
+    "toit à deux versants",
+    "tuile"
   ],
   "photos": [
     {
@@ -32,6 +43,17 @@
         "fenetre",
         "lucarne",
         "pignon"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "garde-corps",
+        "lucarne",
+        "souche de cheminée",
+        "ardoise",
+        "tuile",
+        "toit à deux versants",
+        "chéneau",
+        "mansarde"
       ],
       "dateCapture": "2008:07:10"
     }

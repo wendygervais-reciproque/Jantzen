@@ -28,16 +28,60 @@
   "WPfr": null,
   "image_ref": "Grenelle-bd-39_15_§1",
   "terme_jantzen_bat": [
-    "fenetre-d'angle",
-    "lucarne",
     "fronton",
-    "façade-d'angle"
+    "fenetre-d'angle",
+    "façade-d'angle",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "avant-corps",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porte-fenêtre",
+    "sculpture",
+    "toit à deux versants",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Grenelle-bd-39_15_§1",
       "IndexJantzen": [
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "fer forgé",
+        "corniche",
+        "fronton",
+        "pilastre",
+        "mascaron",
+        "travée",
+        "pierre de taille",
+        "toit à deux versants",
+        "ardoise",
+        "lucarne",
+        "oculus",
+        "avant-corps",
+        "bandeau",
+        "sculpture",
+        "volet",
+        "porte-fenêtre"
       ],
       "dateCapture": "2005:04:01"
     },
@@ -48,6 +92,7 @@
         "fronton",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:01"
     }
   ]

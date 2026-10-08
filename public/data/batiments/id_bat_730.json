@@ -32,14 +32,52 @@
   "WPfr": null,
   "image_ref": "Victor-Hugo-124_16_§1",
   "terme_jantzen_bat": [
-    "lucarne",
-    "sculpture"
+    "sculpture",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "oriel",
+    "pierre de taille",
+    "pilastre",
+    "sculpture",
+    "souche de cheminée",
+    "tour",
+    "volet",
+    "épi de faîtage"
   ],
   "photos": [
     {
       "id_pic": "Victor-Hugo-124_16_§1",
       "IndexJantzen": [
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "souche de cheminée",
+        "dôme",
+        "ardoise",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "pierre de taille",
+        "corniche",
+        "sculpture",
+        "mascaron",
+        "épi de faîtage",
+        "tour",
+        "oriel",
+        "pilastre",
+        "volet"
       ],
       "dateCapture": "2004:05:17"
     },
@@ -48,11 +86,13 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:05:17"
     },
     {
       "id_pic": "Victor-Hugo-124_16_§3",
       "IndexJantzen": [],
+      "IndexTorneh": [],
       "dateCapture": "2004:05:17"
     }
   ]

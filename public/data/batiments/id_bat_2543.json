@@ -21,12 +21,29 @@
   "WPfr": null,
   "image_ref": "Salomon-de-Caus-4_3_§1",
   "terme_jantzen_bat": [
-    "marquise",
-    "fenetre",
-    "console",
-    "sculpture",
     "balcon",
+    "sculpture",
+    "console",
+    "fenetre",
+    "marquise",
     "colonne"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chapiteau",
+    "colonne",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "pierre de taille",
+    "sculpture",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -37,6 +54,23 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [
+        "colonne",
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "volet",
+        "corniche",
+        "sculpture",
+        "mascaron",
+        "pierre de taille",
+        "balustrade",
+        "fer forgé",
+        "arc en plein cintre",
+        "travée",
+        "bandeau",
+        "chapiteau"
+      ],
       "dateCapture": "2005:08:04"
     },
     {
@@ -45,6 +79,7 @@
         "fenetre",
         "marquise"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:04"
     }
   ]

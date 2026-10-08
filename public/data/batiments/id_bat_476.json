@@ -24,12 +24,30 @@
     "fenetre",
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "bossage",
+    "chambranle",
+    "fenêtre",
+    "garde-corps",
+    "pierre de taille",
+    "porte",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Caire-r-11_2_§1",
       "IndexJantzen": [
         "fenetre",
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "fenêtre",
+        "garde-corps",
+        "vantail",
+        "pierre de taille",
+        "chambranle",
+        "bossage"
       ],
       "dateCapture": "2004:09:06"
     }

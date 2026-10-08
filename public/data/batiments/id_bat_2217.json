@@ -24,12 +24,36 @@
     "sculpture",
     "console"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "modillon",
+    "pierre de taille",
+    "porte-fenêtre",
+    "sculpture"
+  ],
   "photos": [
     {
       "id_pic": "Amiral-Hamelin-32_16_§2",
       "IndexJantzen": [
         "console",
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "modillon",
+        "sculpture",
+        "fenêtre",
+        "porte-fenêtre",
+        "pierre de taille",
+        "corniche"
       ],
       "dateCapture": "2004:10:22"
     }

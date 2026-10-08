@@ -28,15 +28,36 @@
   "WPfr": null,
   "image_ref": "Eugene-Labiche-11_16_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "lucarne",
-    "console",
-    "garde-corps",
+    "dome",
     "façade-d'angle",
     "sculpture",
-    "dome",
+    "clé",
+    "console",
+    "fenetre",
     "fenetre-d'angle",
-    "clé"
+    "lucarne",
+    "garde-corps"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chapiteau",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "tour",
+    "travée",
+    "volet",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -44,6 +65,27 @@
       "IndexJantzen": [
         "dome",
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "dôme",
+        "tour",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "oculus",
+        "fer forgé",
+        "sculpture",
+        "mascaron",
+        "corniche",
+        "bandeau",
+        "pierre de taille",
+        "travée",
+        "épi de faîtage",
+        "lucarne",
+        "porte",
+        "volet",
+        "chapiteau"
       ],
       "dateCapture": "2006:06:30"
     },
@@ -54,6 +96,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:30"
     },
     {
@@ -63,6 +106,7 @@
         "garde-corps",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:30"
     },
     {
@@ -71,6 +115,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:30"
     },
     {
@@ -79,6 +124,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:30"
     },
     {
@@ -87,6 +133,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:30"
     },
     {
@@ -95,6 +142,7 @@
         "dome",
         "façade-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:30"
     },
     {
@@ -103,6 +151,7 @@
         "dome",
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:30"
     },
     {
@@ -111,6 +160,7 @@
         "dome",
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:30"
     },
     {
@@ -119,6 +169,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:30"
     },
     {
@@ -127,6 +178,7 @@
         "dome",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:30"
     },
     {
@@ -134,6 +186,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:30"
     },
     {
@@ -143,6 +196,7 @@
         "garde-corps",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:30"
     },
     {
@@ -152,6 +206,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:30"
     }
   ]

@@ -24,12 +24,30 @@
     "sculpture",
     "console"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "corniche",
+    "modillon",
+    "pierre de taille",
+    "porte-fenêtre",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Melingue-4_19_§1",
       "IndexJantzen": [
         "console",
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "balustrade",
+        "balcon",
+        "corniche",
+        "modillon",
+        "volet",
+        "porte-fenêtre",
+        "pierre de taille"
       ],
       "dateCapture": "2005:09:02"
     }

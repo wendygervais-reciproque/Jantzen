@@ -26,9 +26,24 @@
   "WPfr": null,
   "image_ref": "Longchamp-142_16_§1",
   "terme_jantzen_bat": [
-    "garde-corps",
+    "colonne",
     "balcon",
-    "colonne"
+    "garde-corps"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "chapiteau corinthien",
+    "colonne",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "mascaron",
+    "modillon",
+    "pierre de taille",
+    "porte-fenêtre",
+    "volet"
   ],
   "photos": [
     {
@@ -37,6 +52,21 @@
         "balcon",
         "colonne",
         "garde-corps"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "colonne",
+        "chapiteau corinthien",
+        "fronton",
+        "fenêtre",
+        "porte-fenêtre",
+        "volet",
+        "corniche",
+        "mascaron",
+        "pierre de taille",
+        "arc en plein cintre",
+        "modillon"
       ],
       "dateCapture": "2004:05:21"
     }

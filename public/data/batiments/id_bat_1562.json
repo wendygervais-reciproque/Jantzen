@@ -24,12 +24,36 @@
     "toiture",
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "fenêtre",
+    "fer",
+    "fronton",
+    "lucarne",
+    "mansarde",
+    "oculus",
+    "souche de cheminée",
+    "toit à deux versants",
+    "tuile"
+  ],
   "photos": [
     {
       "id_pic": "Grande-Truanderie-20_1_§1",
       "IndexJantzen": [
         "lucarne",
         "toiture"
+      ],
+      "IndexTorneh": [
+        "ardoise",
+        "tuile",
+        "souche de cheminée",
+        "lucarne",
+        "fenêtre",
+        "fronton",
+        "toit à deux versants",
+        "oculus",
+        "fer",
+        "mansarde"
       ],
       "dateCapture": "2006:04:21"
     },
@@ -39,6 +63,7 @@
         "lucarne",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:21"
     }
   ]

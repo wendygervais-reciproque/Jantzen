@@ -22,8 +22,22 @@
   "image_ref": "Mesnil-1_16_§1",
   "terme_jantzen_bat": [
     "sculpture",
-    "fenetre",
-    "garde-corps"
+    "garde-corps",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "modillon",
+    "pierre de taille",
+    "porte-fenêtre",
+    "travée"
   ],
   "photos": [
     {
@@ -32,6 +46,20 @@
         "fenetre",
         "garde-corps",
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "balustrade",
+        "fenêtre",
+        "porte-fenêtre",
+        "arc en plein cintre",
+        "mascaron",
+        "corniche",
+        "pierre de taille",
+        "modillon",
+        "travée"
       ],
       "dateCapture": "2010:05:23"
     }

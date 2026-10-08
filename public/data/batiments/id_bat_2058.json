@@ -24,12 +24,38 @@
     "oeil-de-boeuf",
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "chambranle",
+    "fenêtre",
+    "fronton",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "portail",
+    "porte",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Beranger-3_3_§1",
       "IndexJantzen": [
         "oeil-de-boeuf",
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "portail",
+        "porte",
+        "vantail",
+        "mascaron",
+        "pilastre",
+        "sculpture",
+        "fenêtre",
+        "oculus",
+        "pierre de taille",
+        "chambranle",
+        "fronton"
       ],
       "dateCapture": "2006:04:22"
     }

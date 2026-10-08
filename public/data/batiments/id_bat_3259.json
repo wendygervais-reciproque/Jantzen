@@ -28,15 +28,34 @@
   "WPfr": null,
   "image_ref": "Picpus-bd-63_12_§1",
   "terme_jantzen_bat": [
-    "porte-fer",
-    "fenetre",
-    "garde-corps",
+    "dome",
     "façade-d'angle",
+    "tour",
+    "porte-fer",
+    "pilastre",
     "clé",
     "fenetre-d'angle",
-    "dome",
+    "fenetre",
+    "garde-corps"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
     "pilastre",
-    "tour"
+    "sculpture",
+    "souche de cheminée",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -45,6 +64,25 @@
         "dome",
         "façade-d'angle",
         "tour"
+      ],
+      "IndexTorneh": [
+        "dôme",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "volet",
+        "corniche",
+        "pilastre",
+        "mascaron",
+        "souche de cheminée",
+        "sculpture",
+        "fer forgé",
+        "pierre de taille",
+        "oculus",
+        "travée",
+        "ardoise",
+        "arc en plein cintre"
       ],
       "dateCapture": "2004:09:16"
     },
@@ -55,6 +93,7 @@
         "fenetre-d'angle",
         "tour"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:16"
     },
     {
@@ -63,6 +102,7 @@
         "dome",
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:15"
     },
     {
@@ -73,6 +113,7 @@
         "garde-corps",
         "pilastre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:15"
     },
     {
@@ -81,6 +122,7 @@
         "fenetre",
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:15"
     }
   ]

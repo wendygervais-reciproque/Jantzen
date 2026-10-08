@@ -30,11 +30,39 @@
   "terme_jantzen_bat": [
     "porte-fer"
   ],
+  "terme_torneh_bat": [
+    "arc",
+    "brique",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "heurtoir",
+    "pierre de taille",
+    "porche",
+    "portail",
+    "porte",
+    "vantail",
+    "vitrail"
+  ],
   "photos": [
     {
       "id_pic": "Greuze-36_16_§1",
       "IndexJantzen": [
         "porte-fer"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "portail",
+        "porche",
+        "arc",
+        "vitrail",
+        "fer forgé",
+        "pierre de taille",
+        "brique",
+        "fenêtre",
+        "vantail",
+        "garde-corps",
+        "heurtoir"
       ],
       "dateCapture": "2007:04:03"
     }

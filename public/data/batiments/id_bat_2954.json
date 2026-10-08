@@ -28,17 +28,61 @@
   "WPfr": null,
   "image_ref": "Vaugirard-52_6_§1",
   "terme_jantzen_bat": [
+    "sculpture",
     "fenetre",
     "lucarne",
-    "sculpture",
-    "décor",
-    "fronton"
+    "fronton",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "auvent",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "grille",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "souche de cheminée",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Vaugirard-52_6_§1",
       "IndexJantzen": [
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "mascaron",
+        "fronton",
+        "corniche",
+        "bandeau",
+        "pierre de taille",
+        "lucarne",
+        "mansarde",
+        "souche de cheminée",
+        "volet",
+        "auvent",
+        "pilastre",
+        "fer forgé",
+        "arc en plein cintre",
+        "travée",
+        "porte",
+        "grille"
       ],
       "dateCapture": "2009:09:27"
     },
@@ -51,6 +95,7 @@
         "lucarne",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:09:27"
     }
   ]

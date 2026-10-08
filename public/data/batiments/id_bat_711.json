@@ -28,15 +28,53 @@
   "WPfr": null,
   "image_ref": "Exelmans-121_16_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "sculpture",
-    "clé"
+    "clé",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "souche de cheminée",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Exelmans-121_16_§1",
       "IndexJantzen": [
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "mansarde",
+        "lucarne",
+        "souche de cheminée",
+        "ardoise",
+        "mascaron",
+        "corniche",
+        "bandeau",
+        "pierre de taille",
+        "arc en plein cintre",
+        "oculus",
+        "travée",
+        "volet"
       ],
       "dateCapture": "2006:04:03"
     },
@@ -46,6 +84,7 @@
         "clé",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:03"
     }
   ]

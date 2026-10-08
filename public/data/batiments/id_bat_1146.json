@@ -21,8 +21,24 @@
   "WPfr": null,
   "image_ref": "Jacques-Bingen-16_17_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "verrière"
+    "verrière",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "modillon",
+    "mur-boutant",
+    "pilastre",
+    "souche de cheminée",
+    "verrière",
+    "volet"
   ],
   "photos": [
     {
@@ -30,6 +46,22 @@
       "IndexJantzen": [
         "fenetre",
         "verrière"
+      ],
+      "IndexTorneh": [
+        "lucarne",
+        "mansarde",
+        "fenêtre",
+        "corniche",
+        "pilastre",
+        "ardoise",
+        "souche de cheminée",
+        "balcon",
+        "garde-corps",
+        "volet",
+        "verrière",
+        "mur-boutant",
+        "bandeau",
+        "modillon"
       ],
       "dateCapture": "2007:08:25"
     }

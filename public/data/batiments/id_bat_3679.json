@@ -32,10 +32,20 @@
   "WPfr": null,
   "image_ref": "Breteuil-82_15_§1",
   "terme_jantzen_bat": [
-    "porte-fer",
     "garde-corps",
     "balcon",
+    "porte-fer",
     "clé"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "pierre de taille",
+    "volet"
   ],
   "photos": [
     {
@@ -43,6 +53,16 @@
       "IndexJantzen": [
         "balcon",
         "garde-corps"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "balustrade",
+        "volet",
+        "fenêtre",
+        "mascaron",
+        "pierre de taille"
       ],
       "dateCapture": "2003:11:11"
     },
@@ -52,6 +72,7 @@
         "clé",
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:06"
     },
     {
@@ -60,6 +81,7 @@
         "clé",
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:06"
     }
   ]

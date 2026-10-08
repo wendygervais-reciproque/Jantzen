@@ -29,17 +29,43 @@
   "image_ref": "Villaret-de-Joyeuse-6_17_§1-Rx",
   "terme_jantzen_bat": [
     "toiture",
-    "fenetre",
+    "loggia",
     "porte-fer",
-    "console",
-    "façade",
-    "lucarne",
     "façade-d'angle",
     "sculpture",
     "clé",
-    "loggia",
+    "console",
+    "fenetre",
+    "lucarne",
     "brique",
+    "façade",
     "lucarne-d'angle"
+  ],
+  "terme_torneh_bat": [
+    "arc brisé",
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "chéneau",
+    "corniche",
+    "céramique",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "oculus",
+    "oriel",
+    "pierre de taille",
+    "pilastre",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "toit en pavillon",
+    "travée",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -49,6 +75,7 @@
         "lucarne-d'angle",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:05:25"
     },
     {
@@ -58,6 +85,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:10:03"
     },
     {
@@ -66,6 +94,7 @@
         "clé",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:05:25"
     },
     {
@@ -73,6 +102,7 @@
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:05:25"
     },
     {
@@ -80,6 +110,7 @@
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:10:03"
     },
     {
@@ -87,6 +118,32 @@
       "IndexJantzen": [
         "brique",
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "souche de cheminée",
+        "ardoise",
+        "brique",
+        "pierre de taille",
+        "fenêtre",
+        "porte-fenêtre",
+        "arc en plein cintre",
+        "arc brisé",
+        "corniche",
+        "bandeau",
+        "pilastre",
+        "oriel",
+        "dôme",
+        "toit en pavillon",
+        "chéneau",
+        "épi de faîtage",
+        "mascaron",
+        "fer forgé",
+        "travée",
+        "oculus",
+        "céramique"
       ],
       "dateCapture": "2011:05:25"
     },
@@ -96,6 +153,7 @@
         "brique",
         "façade-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:05:25"
     },
     {
@@ -104,6 +162,7 @@
         "brique",
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:05:25"
     },
     {
@@ -113,6 +172,7 @@
         "fenetre",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:05:25"
     },
     {
@@ -120,6 +180,7 @@
       "IndexJantzen": [
         "brique"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:07:22"
     },
     {
@@ -128,6 +189,7 @@
         "brique",
         "loggia"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:05:25"
     },
     {
@@ -136,6 +198,7 @@
         "brique",
         "lucarne-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:05:25"
     },
     {
@@ -146,6 +209,7 @@
         "lucarne-d'angle",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:07:22"
     }
   ]

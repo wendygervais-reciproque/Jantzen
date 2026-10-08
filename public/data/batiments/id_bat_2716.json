@@ -21,9 +21,24 @@
   "WPfr": null,
   "image_ref": "St-Ferdinand-45_17_§1",
   "terme_jantzen_bat": [
+    "balcon",
     "fenetre",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
     "lucarne",
-    "balcon"
+    "mansarde",
+    "modillon",
+    "pierre de taille",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -31,6 +46,21 @@
       "IndexJantzen": [
         "fenetre",
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "lucarne",
+        "volet",
+        "garde-corps",
+        "fer forgé",
+        "corniche",
+        "modillon",
+        "mansarde",
+        "fronton",
+        "pierre de taille",
+        "travée"
       ],
       "dateCapture": "2009:07:28"
     },
@@ -40,6 +70,7 @@
         "balcon",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:07:28"
     }
   ]

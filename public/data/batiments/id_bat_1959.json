@@ -21,16 +21,50 @@
   "WPfr": null,
   "image_ref": "St-Martin-270_3_§1-Rs",
   "terme_jantzen_bat": [
-    "fenetre",
     "façade",
     "pignon",
+    "fenetre",
     "tourelle"
+  ],
+  "terme_torneh_bat": [
+    "arc brisé",
+    "baie",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "gargouille",
+    "grille",
+    "oculus",
+    "pierre de taille",
+    "portail",
+    "sculpture",
+    "toit à deux versants",
+    "tour",
+    "vitrail",
+    "épi de faîtage"
   ],
   "photos": [
     {
       "id_pic": "St-Martin-270_3_§1-Rs",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "tour",
+        "arc brisé",
+        "oculus",
+        "vitrail",
+        "fronton",
+        "pierre de taille",
+        "grille",
+        "fer forgé",
+        "épi de faîtage",
+        "baie",
+        "fenêtre",
+        "toit à deux versants",
+        "portail",
+        "gargouille",
+        "sculpture"
       ],
       "dateCapture": "2008:02:18"
     },
@@ -41,6 +75,7 @@
         "pignon",
         "tourelle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:18"
     },
     {
@@ -48,6 +83,7 @@
       "IndexJantzen": [
         "tourelle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:04"
     },
     {
@@ -55,6 +91,7 @@
       "IndexJantzen": [
         "tourelle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:04"
     }
   ]

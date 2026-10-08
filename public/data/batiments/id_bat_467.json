@@ -23,11 +23,45 @@
   "terme_jantzen_bat": [
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "chambranle",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "grille",
+    "gros appareil",
+    "linteau",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "soupirail",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Universite-11_7_§1",
       "IndexJantzen": [
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "portail",
+        "arc en plein cintre",
+        "vantail",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "pierre de taille",
+        "gros appareil",
+        "grille",
+        "soupirail",
+        "fer forgé",
+        "chambranle",
+        "linteau"
       ],
       "dateCapture": "2005:04:19"
     },
@@ -36,6 +70,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:19"
     }
   ]

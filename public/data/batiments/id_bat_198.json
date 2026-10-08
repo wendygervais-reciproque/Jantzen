@@ -21,8 +21,20 @@
   "WPfr": null,
   "image_ref": "Christine-1_6_§1",
   "terme_jantzen_bat": [
-    "porte-bois",
-    "fronton"
+    "fronton",
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "fenêtre",
+    "fronton",
+    "gros appareil",
+    "heurtoir",
+    "mascaron",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "vantail"
   ],
   "photos": [
     {
@@ -30,6 +42,18 @@
       "IndexJantzen": [
         "fronton",
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "portail",
+        "porte",
+        "arc en plein cintre",
+        "fronton",
+        "mascaron",
+        "pierre de taille",
+        "gros appareil",
+        "vantail",
+        "heurtoir",
+        "fenêtre"
       ],
       "dateCapture": "2006:05:14"
     }

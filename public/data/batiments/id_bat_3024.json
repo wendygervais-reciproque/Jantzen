@@ -28,15 +28,57 @@
   "WPfr": null,
   "image_ref": "St-Placide-55_6_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "façade",
-    "métal"
+    "métal",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chapiteau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "grille",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "souche de cheminée",
+    "toit à deux versants"
   ],
   "photos": [
     {
       "id_pic": "St-Placide-55_6_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "garde-corps",
+        "corniche",
+        "lucarne",
+        "mansarde",
+        "fer forgé",
+        "pilastre",
+        "chapiteau",
+        "bandeau",
+        "souche de cheminée",
+        "mascaron",
+        "toit à deux versants",
+        "ardoise",
+        "pierre de taille",
+        "fronton",
+        "oculus",
+        "grille"
       ],
       "dateCapture": "2005:04:17"
     },
@@ -46,6 +88,7 @@
         "fenetre",
         "métal"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:17"
     }
   ]

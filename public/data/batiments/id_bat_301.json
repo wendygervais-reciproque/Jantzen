@@ -28,15 +28,53 @@
   "WPfr": null,
   "image_ref": "Albert-de-Lapparent-10_7_§1",
   "terme_jantzen_bat": [
-    "lucarne",
     "porte-fer-hall",
-    "oriel"
+    "oriel",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mascaron",
+    "oriel",
+    "pierre de taille",
+    "sculpture",
+    "souche de cheminée",
+    "volet",
+    "épi de faîtage"
   ],
   "photos": [
     {
       "id_pic": "Albert-de-Lapparent-10_7_§1",
       "IndexJantzen": [
         "oriel"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "lucarne",
+        "mascaron",
+        "sculpture",
+        "pierre de taille",
+        "souche de cheminée",
+        "épi de faîtage",
+        "oriel",
+        "arc en plein cintre",
+        "corniche",
+        "bandeau",
+        "ardoise",
+        "volet"
       ],
       "dateCapture": "2004:05:23"
     },
@@ -45,6 +83,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:05:23"
     },
     {
@@ -52,6 +91,7 @@
       "IndexJantzen": [
         "porte-fer-hall"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:05:24"
     }
   ]

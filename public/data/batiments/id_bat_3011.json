@@ -28,13 +28,36 @@
   "WPfr": null,
   "image_ref": "Malesherbes-55_8_§1",
   "terme_jantzen_bat": [
-    "pignon",
-    "façade-d'angle",
-    "sculpture",
-    "atlante",
-    "fenetre-d'angle",
     "balcon",
-    "fronton"
+    "façade-d'angle",
+    "pignon",
+    "sculpture",
+    "fenetre-d'angle",
+    "fronton",
+    "atlante"
+  ],
+  "terme_torneh_bat": [
+    "atlante",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "cariatide",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "mascaron",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "sculpture",
+    "souche de cheminée",
+    "toit en pavillon",
+    "travée",
+    "vitrail",
+    "volet"
   ],
   "photos": [
     {
@@ -43,6 +66,29 @@
         "balcon",
         "façade-d'angle",
         "pignon"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "volet",
+        "corniche",
+        "fronton",
+        "atlante",
+        "cariatide",
+        "mascaron",
+        "pilastre",
+        "chaîne d'angle",
+        "bandeau",
+        "souche de cheminée",
+        "toit en pavillon",
+        "pierre de taille",
+        "porte",
+        "vitrail",
+        "sculpture",
+        "travée"
       ],
       "dateCapture": "2010:06:05"
     },
@@ -53,6 +99,7 @@
         "fenetre-d'angle",
         "fronton"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:09:08"
     },
     {
@@ -62,6 +109,7 @@
         "fenetre-d'angle",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:09:08"
     },
     {
@@ -70,11 +118,13 @@
         "atlante",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:09:08"
     },
     {
       "id_pic": "Malesherbes-55_8_51_DxO",
       "IndexJantzen": [],
+      "IndexTorneh": [],
       "dateCapture": "2012:05:16"
     }
   ]

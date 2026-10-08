@@ -31,10 +31,44 @@
     "porte-fer-hall",
     "oriel"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "avant-corps",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "modillon",
+    "oriel",
+    "pierre de taille",
+    "travée",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Bellefond-15_9_§1",
       "IndexJantzen": [
+        "oriel"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "volet",
+        "arc en plein cintre",
+        "corniche",
+        "pierre de taille",
+        "bandeau",
+        "mascaron",
+        "fer forgé",
+        "avant-corps",
+        "travée",
+        "modillon",
         "oriel"
       ],
       "dateCapture": "2004:06:28"
@@ -44,6 +78,7 @@
       "IndexJantzen": [
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:06:28"
     },
     {
@@ -51,6 +86,7 @@
       "IndexJantzen": [
         "porte-fer-hall"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:06:29"
     }
   ]

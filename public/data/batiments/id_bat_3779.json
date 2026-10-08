@@ -32,12 +32,24 @@
   "WPfr": null,
   "image_ref": "Madeleine-pl-9_8_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "console",
     "sculpture",
-    "porte-bois",
+    "console",
     "cariatide",
-    "fronton"
+    "fenetre",
+    "fronton",
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "atlante",
+    "cariatide",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "frise",
+    "mascaron",
+    "pilastre",
+    "sculpture"
   ],
   "photos": [
     {
@@ -47,6 +59,18 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [
+        "atlante",
+        "cariatide",
+        "sculpture",
+        "fenêtre",
+        "arc",
+        "corniche",
+        "frise",
+        "mascaron",
+        "pilastre",
+        "fer forgé"
+      ],
       "dateCapture": "2010:05:23"
     },
     {
@@ -55,6 +79,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:11"
     },
     {
@@ -63,6 +88,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:11"
     },
     {
@@ -71,6 +97,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:11"
     },
     {
@@ -79,6 +106,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:11"
     },
     {
@@ -88,6 +116,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:11"
     },
     {
@@ -97,6 +126,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:08:26"
     },
     {
@@ -106,6 +136,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:11"
     },
     {
@@ -115,6 +146,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:11"
     },
     {
@@ -124,6 +156,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:05:23"
     },
     {
@@ -132,6 +165,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:11"
     },
     {
@@ -140,6 +174,7 @@
         "fronton",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:05:23"
     },
     {
@@ -147,6 +182,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:08:26"
     }
   ]

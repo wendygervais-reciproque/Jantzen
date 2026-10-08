@@ -21,9 +21,17 @@
   "WPfr": null,
   "image_ref": "Motte-Picquet-4_7_§1",
   "terme_jantzen_bat": [
-    "sculpture",
     "chimère",
-    "clé"
+    "clé",
+    "sculpture"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "fenêtre",
+    "mascaron",
+    "pierre de taille",
+    "sculpture"
   ],
   "photos": [
     {
@@ -32,6 +40,14 @@
         "chimère",
         "clé",
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "mascaron",
+        "arc",
+        "sculpture",
+        "pierre de taille",
+        "fenêtre",
+        "arc en plein cintre"
       ],
       "dateCapture": "2004:04:26"
     }

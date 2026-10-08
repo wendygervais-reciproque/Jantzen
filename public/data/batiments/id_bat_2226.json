@@ -31,12 +31,42 @@
     "sculpture",
     "fenetre-d'angle"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "brique",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "pierre de taille",
+    "porte-fenêtre",
+    "sculpture",
+    "vantail",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Gassendi-32_14_§1",
       "IndexJantzen": [
         "fenetre-d'angle",
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "arc en plein cintre",
+        "balcon",
+        "balustrade",
+        "brique",
+        "fer forgé",
+        "garde-corps",
+        "mascaron",
+        "pierre de taille",
+        "porte-fenêtre",
+        "sculpture",
+        "vantail",
+        "volet",
+        "fenêtre"
       ],
       "dateCapture": "2004:07:28"
     }

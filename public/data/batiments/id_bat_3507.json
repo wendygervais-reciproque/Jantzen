@@ -21,20 +21,58 @@
   "WPfr": null,
   "image_ref": "La-Fayette-74_9_§1",
   "terme_jantzen_bat": [
+    "balcon",
     "pignon",
-    "garde-corps",
-    "console",
     "sculpture",
     "fenetre-d'angle",
+    "console",
+    "fronton",
     "lucarne-d'angle",
+    "garde-corps"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "avant-corps",
     "balcon",
-    "fronton"
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "mascaron",
+    "pierre de taille",
+    "sculpture",
+    "souche de cheminée",
+    "toit en pavillon",
+    "travée",
+    "épi de faîtage"
   ],
   "photos": [
     {
       "id_pic": "La-Fayette-74_9_§1",
       "IndexJantzen": [
         "fenetre-d'angle"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "garde-corps",
+        "corniche",
+        "mascaron",
+        "souche de cheminée",
+        "toit en pavillon",
+        "travée",
+        "pierre de taille",
+        "fer forgé",
+        "avant-corps",
+        "sculpture",
+        "bandeau",
+        "fronton",
+        "épi de faîtage",
+        "ardoise"
       ],
       "dateCapture": "2005:07:14"
     },
@@ -44,6 +82,7 @@
         "balcon",
         "lucarne-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:14"
     },
     {
@@ -52,6 +91,7 @@
         "fenetre-d'angle",
         "pignon"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:14"
     },
     {
@@ -61,6 +101,7 @@
         "garde-corps",
         "pignon"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:14"
     },
     {
@@ -68,6 +109,7 @@
       "IndexJantzen": [
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:14"
     },
     {
@@ -77,6 +119,7 @@
         "fenetre-d'angle",
         "fronton"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:14"
     },
     {
@@ -85,6 +128,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:14"
     }
   ]

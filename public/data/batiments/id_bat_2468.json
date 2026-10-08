@@ -23,11 +23,31 @@
   "terme_jantzen_bat": [
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "chéneau",
+    "fenêtre",
+    "garde-corps",
+    "lucarne",
+    "souche de cheminée",
+    "toit à deux versants",
+    "tuile"
+  ],
   "photos": [
     {
       "id_pic": "Petit-Pont-pl-4_5_§1",
       "IndexJantzen": [
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "lucarne",
+        "souche de cheminée",
+        "ardoise",
+        "tuile",
+        "fenêtre",
+        "garde-corps",
+        "chéneau",
+        "toit à deux versants"
       ],
       "dateCapture": "2011:09:28"
     },
@@ -36,6 +56,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:09:28"
     }
   ]

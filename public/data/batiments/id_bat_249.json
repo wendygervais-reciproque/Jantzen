@@ -23,11 +23,39 @@
   "terme_jantzen_bat": [
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "jambage",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "vantail",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Jacob-1_6_§1",
       "IndexJantzen": [
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "vantail",
+        "balcon",
+        "garde-corps",
+        "volet",
+        "fenêtre",
+        "corniche",
+        "pilastre",
+        "jambage",
+        "pierre de taille",
+        "chambranle",
+        "fer forgé"
       ],
       "dateCapture": "2006:05:11"
     },
@@ -36,6 +64,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:05:11"
     }
   ]

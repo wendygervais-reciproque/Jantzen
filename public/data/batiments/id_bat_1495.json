@@ -21,10 +21,23 @@
   "WPfr": null,
   "image_ref": "Etienne-Jodelle-2_18_§1",
   "terme_jantzen_bat": [
+    "console",
     "sculpture",
     "garde-corps",
-    "console",
     "fenetre-d'angle"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "brique",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "modillon",
+    "pierre de taille",
+    "porte-fenêtre",
+    "volet"
   ],
   "photos": [
     {
@@ -32,6 +45,19 @@
       "IndexJantzen": [
         "fenetre-d'angle",
         "garde-corps"
+      ],
+      "IndexTorneh": [
+        "arc en plein cintre",
+        "balcon",
+        "balustrade",
+        "brique",
+        "fenêtre",
+        "fer forgé",
+        "garde-corps",
+        "modillon",
+        "pierre de taille",
+        "porte-fenêtre",
+        "volet"
       ],
       "dateCapture": "2004:09:15"
     },
@@ -41,6 +67,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:15"
     }
   ]

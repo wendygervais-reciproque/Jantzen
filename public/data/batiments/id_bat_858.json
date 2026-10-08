@@ -21,14 +21,31 @@
   "WPfr": null,
   "image_ref": "Grenelle-138_7_§1",
   "terme_jantzen_bat": [
+    "balcon",
+    "pilastre",
+    "sculpture",
+    "console",
     "fenetre",
     "garde-corps",
-    "console",
-    "sculpture",
     "porte-bois",
-    "pilastre",
-    "décor",
-    "balcon"
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "chambranle",
+    "corniche",
+    "entablement",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "mascaron",
+    "pierre de taille",
+    "porte-fenêtre",
+    "vitrail",
+    "volet"
   ],
   "photos": [
     {
@@ -40,6 +57,23 @@
         "pilastre",
         "sculpture"
       ],
+      "IndexTorneh": [
+        "fronton",
+        "corniche",
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "porte-fenêtre",
+        "arc en plein cintre",
+        "mascaron",
+        "pierre de taille",
+        "chambranle",
+        "entablement",
+        "volet",
+        "vitrail",
+        "balustrade"
+      ],
       "dateCapture": "2005:09:18"
     },
     {
@@ -48,6 +82,7 @@
         "fenetre",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:09:18"
     },
     {
@@ -56,6 +91,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:09:18"
     }
   ]

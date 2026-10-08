@@ -32,8 +32,21 @@
   "WPfr": null,
   "image_ref": "Bessieres-bd-123_17_§1",
   "terme_jantzen_bat": [
-    "porte-fer",
-    "colonne"
+    "colonne",
+    "porte-fer"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "fer forgé",
+    "frise",
+    "garde-corps",
+    "linteau",
+    "perron",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "sculpture",
+    "vantail"
   ],
   "photos": [
     {
@@ -41,6 +54,19 @@
       "IndexJantzen": [
         "colonne",
         "porte-fer"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "vantail",
+        "fer forgé",
+        "pilastre",
+        "frise",
+        "sculpture",
+        "balcon",
+        "garde-corps",
+        "pierre de taille",
+        "linteau",
+        "perron"
       ],
       "dateCapture": "2004:10:03"
     }

@@ -21,8 +21,24 @@
   "WPfr": null,
   "image_ref": "Vignoles-61_20_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "brique"
+    "brique",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "oculus",
+    "souche de cheminée",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -30,6 +46,22 @@
       "IndexJantzen": [
         "brique",
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "brique",
+        "volet",
+        "mansarde",
+        "lucarne",
+        "bandeau",
+        "corniche",
+        "travée",
+        "oculus",
+        "souche de cheminée",
+        "fer forgé"
       ],
       "dateCapture": "2005:07:16"
     }

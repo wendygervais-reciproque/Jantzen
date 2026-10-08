@@ -28,14 +28,34 @@
   "WPfr": null,
   "image_ref": "Valentin-Hauy-8_15_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "console",
-    "garde-corps",
     "sculpture",
     "clé",
+    "console",
+    "fenetre",
     "brique",
     "céramique",
+    "garde-corps",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "baie",
+    "balcon",
+    "balustrade",
+    "bossage",
+    "brique",
+    "chaîne d'angle",
+    "corniche",
+    "céramique",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "modillon",
+    "pierre de taille",
+    "sculpture",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -45,6 +65,26 @@
         "céramique",
         "décor",
         "fenetre",
+        "sculpture"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "baie",
+        "volet",
+        "brique",
+        "céramique",
+        "pierre de taille",
+        "mascaron",
+        "corniche",
+        "modillon",
+        "arc en plein cintre",
+        "travée",
+        "bossage",
+        "chaîne d'angle",
+        "balustrade",
         "sculpture"
       ],
       "dateCapture": "2004:05:23"
@@ -59,6 +99,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:05:18"
     },
     {
@@ -72,6 +113,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:11"
     },
     {
@@ -83,6 +125,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:09:09"
     },
     {
@@ -93,6 +136,7 @@
         "console",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:05:18"
     },
     {
@@ -101,6 +145,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:11"
     }
   ]

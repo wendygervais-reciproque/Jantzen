@@ -24,12 +24,50 @@
     "toiture",
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "brique",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "gargouille",
+    "lucarne",
+    "mansarde",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "vitrail",
+    "épi de faîtage"
+  ],
   "photos": [
     {
       "id_pic": "Raspail-73_6_§1",
       "IndexJantzen": [
         "lucarne",
         "toiture"
+      ],
+      "IndexTorneh": [
+        "lucarne",
+        "ardoise",
+        "fenêtre",
+        "pierre de taille",
+        "épi de faîtage",
+        "gargouille",
+        "souche de cheminée",
+        "chambranle",
+        "sculpture",
+        "oculus",
+        "pilastre",
+        "brique",
+        "mansarde",
+        "vitrail",
+        "toit à deux versants",
+        "fronton",
+        "corniche"
       ],
       "dateCapture": "2010:04:18"
     },
@@ -38,6 +76,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:04:18"
     },
     {
@@ -45,6 +84,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:10"
     }
   ]

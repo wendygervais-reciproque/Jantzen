@@ -32,11 +32,32 @@
   "WPfr": null,
   "image_ref": "Dante-2_5_§1",
   "terme_jantzen_bat": [
-    "porte-fer",
-    "façade-d'angle",
+    "balcon",
     "dome",
-    "lucarne-d'angle",
-    "balcon"
+    "façade-d'angle",
+    "porte-fer",
+    "lucarne-d'angle"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "sculpture",
+    "souche de cheminée",
+    "tour",
+    "travée",
+    "volet",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -44,6 +65,27 @@
       "IndexJantzen": [
         "dome",
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "dôme",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "volet",
+        "souche de cheminée",
+        "corniche",
+        "bandeau",
+        "pierre de taille",
+        "sculpture",
+        "mascaron",
+        "épi de faîtage",
+        "tour",
+        "travée",
+        "fer forgé",
+        "oculus",
+        "arc en plein cintre",
+        "ardoise"
       ],
       "dateCapture": "2005:05:27"
     },
@@ -54,6 +96,7 @@
         "dome",
         "lucarne-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:27"
     },
     {
@@ -61,6 +104,7 @@
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:27"
     }
   ]

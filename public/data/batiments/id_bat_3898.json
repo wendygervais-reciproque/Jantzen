@@ -26,12 +26,50 @@
     "dome",
     "façade-d'angle"
   ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "auvent",
+    "bandeau",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "lucarne",
+    "mansarde",
+    "marquise",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "tour",
+    "verrière",
+    "épi de faîtage"
+  ],
   "photos": [
     {
       "id_pic": "Reaumur-94_2_§1",
       "IndexJantzen": [
         "dome",
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "tour",
+        "dôme",
+        "épi de faîtage",
+        "lucarne",
+        "mansarde",
+        "oculus",
+        "fenêtre",
+        "corniche",
+        "bandeau",
+        "pilastre",
+        "mascaron",
+        "ardoise",
+        "pierre de taille",
+        "verrière",
+        "auvent",
+        "porte",
+        "marquise"
       ],
       "dateCapture": "2004:05:16"
     },
@@ -42,6 +80,7 @@
         "lucarne-d'angle",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:05:16"
     }
   ]

@@ -32,12 +32,25 @@
   "WPfr": null,
   "image_ref": "Haussmann-40_9_1§1",
   "terme_jantzen_bat": [
-    "panoramique",
-    "métal",
+    "verrière",
     "dome",
     "intérieur",
-    "verrière",
+    "métal",
+    "panoramique",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arcade",
+    "balcon",
+    "colonne",
+    "coupole",
+    "fer forgé",
+    "garde-corps",
+    "pilastre",
+    "sculpture",
+    "verrière",
+    "vitrail"
   ],
   "photos": [
     {
@@ -50,6 +63,19 @@
         "panoramique",
         "verrière"
       ],
+      "IndexTorneh": [
+        "coupole",
+        "verrière",
+        "vitrail",
+        "arc",
+        "arcade",
+        "fer forgé",
+        "balcon",
+        "garde-corps",
+        "sculpture",
+        "colonne",
+        "pilastre"
+      ],
       "dateCapture": "2010:04:28"
     },
     {
@@ -57,6 +83,7 @@
       "IndexJantzen": [
         "verrière"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:04:28"
     },
     {
@@ -65,6 +92,7 @@
         "intérieur",
         "verrière"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:04:28"
     },
     {
@@ -77,6 +105,7 @@
         "panoramique",
         "verrière"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:04:28"
     },
     {
@@ -87,6 +116,7 @@
         "intérieur",
         "verrière"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:04:28"
     },
     {
@@ -97,6 +127,7 @@
         "intérieur",
         "verrière"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:04:28"
     },
     {
@@ -106,6 +137,7 @@
         "intérieur",
         "verrière"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:04:28"
     },
     {
@@ -116,6 +148,7 @@
         "intérieur",
         "verrière"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:04:28"
     },
     {
@@ -126,6 +159,7 @@
         "intérieur",
         "verrière"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:04:28"
     }
   ]

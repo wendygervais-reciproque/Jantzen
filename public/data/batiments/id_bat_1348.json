@@ -21,10 +21,30 @@
   "WPfr": null,
   "image_ref": "Opera-19_1_§1",
   "terme_jantzen_bat": [
-    "fenetre",
+    "fenetre-d'angle",
     "façade",
     "balcon",
-    "fenetre-d'angle"
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chéneau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée"
   ],
   "photos": [
     {
@@ -33,6 +53,26 @@
         "balcon",
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "bandeau",
+        "chéneau",
+        "corniche",
+        "fenêtre",
+        "fronton",
+        "garde-corps",
+        "lucarne",
+        "mansarde",
+        "mascaron",
+        "pierre de taille",
+        "souche de cheminée",
+        "toit à deux versants",
+        "travée",
+        "fer forgé",
+        "ardoise",
+        "oculus"
+      ],
       "dateCapture": "2004:09:01"
     },
     {
@@ -40,6 +80,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:07:14"
     },
     {
@@ -47,6 +88,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:07:14"
     }
   ]

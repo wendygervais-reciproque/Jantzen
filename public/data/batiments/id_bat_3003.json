@@ -27,14 +27,52 @@
   "image_ref": "Pigalle-54_9_§1",
   "terme_jantzen_bat": [
     "fenetre-d'angle",
+    "façade-d'angle",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
     "lucarne",
-    "façade-d'angle"
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "sculpture",
+    "toit à deux versants",
+    "travée"
   ],
   "photos": [
     {
       "id_pic": "Pigalle-54_9_§1",
       "IndexJantzen": [
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "bandeau",
+        "corniche",
+        "toit à deux versants",
+        "mansarde",
+        "lucarne",
+        "pierre de taille",
+        "travée",
+        "mascaron",
+        "pilastre",
+        "sculpture",
+        "oculus",
+        "ardoise",
+        "fer forgé"
       ],
       "dateCapture": "2005:05:21"
     },
@@ -44,6 +82,7 @@
         "fenetre-d'angle",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:21"
     }
   ]

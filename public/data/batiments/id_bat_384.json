@@ -28,20 +28,40 @@
   "WPfr": null,
   "image_ref": "Champs-Elysees-103_8_§1",
   "terme_jantzen_bat": [
+    "colonne",
     "oeil-de-boeuf",
+    "balcon",
+    "oriel",
+    "sculpture",
+    "fenetre-d'angle",
     "fenetre",
-    "façade",
     "console",
+    "lucarne",
+    "façade",
+    "fronton",
+    "panoramique",
+    "chimère",
+    "garde-corps"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "attique",
+    "avant-corps",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
     "garde-corps",
     "lucarne",
-    "panoramique",
+    "mansarde",
+    "oculus",
+    "pierre de taille",
+    "porte",
+    "porte-fenêtre",
     "sculpture",
-    "chimère",
-    "oriel",
-    "fenetre-d'angle",
-    "fronton",
-    "balcon",
-    "colonne"
+    "toit à deux versants",
+    "travée"
   ],
   "photos": [
     {
@@ -49,6 +69,26 @@
       "IndexJantzen": [
         "façade",
         "panoramique"
+      ],
+      "IndexTorneh": [
+        "lucarne",
+        "mansarde",
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "porte",
+        "porte-fenêtre",
+        "garde-corps",
+        "corniche",
+        "bandeau",
+        "pierre de taille",
+        "sculpture",
+        "arc en plein cintre",
+        "toit à deux versants",
+        "travée",
+        "oculus",
+        "attique",
+        "avant-corps"
       ],
       "dateCapture": "2006:06:11"
     },
@@ -58,6 +98,7 @@
         "fenetre",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:03"
     },
     {
@@ -66,6 +107,7 @@
         "fenetre-d'angle",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:03"
     },
     {
@@ -74,6 +116,7 @@
         "console",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:04:01"
     },
     {
@@ -82,6 +125,7 @@
         "balcon",
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:04:01"
     },
     {
@@ -90,6 +134,7 @@
         "balcon",
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:07"
     },
     {
@@ -99,6 +144,7 @@
         "garde-corps",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:03"
     },
     {
@@ -107,6 +153,7 @@
         "oeil-de-boeuf",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:03"
     },
     {
@@ -115,6 +162,7 @@
         "oeil-de-boeuf",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:03"
     },
     {
@@ -123,6 +171,7 @@
         "oeil-de-boeuf",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:03"
     },
     {
@@ -131,6 +180,7 @@
         "oeil-de-boeuf",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:03"
     },
     {
@@ -138,6 +188,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:11"
     },
     {
@@ -146,6 +197,7 @@
         "chimère",
         "colonne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:04:01"
     },
     {
@@ -153,6 +205,7 @@
       "IndexJantzen": [
         "colonne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:03"
     },
     {
@@ -161,6 +214,7 @@
         "chimère",
         "colonne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:03"
     },
     {
@@ -169,6 +223,7 @@
         "fenetre",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:03"
     },
     {
@@ -177,6 +232,7 @@
         "fenetre",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:03"
     },
     {
@@ -185,6 +241,7 @@
         "fronton",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:03"
     },
     {
@@ -194,6 +251,7 @@
         "fronton",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:07"
     },
     {
@@ -202,6 +260,7 @@
         "fronton",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:07"
     },
     {
@@ -211,6 +270,7 @@
         "fronton",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:04:01"
     }
   ]

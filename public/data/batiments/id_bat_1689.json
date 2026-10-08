@@ -23,11 +23,39 @@
   "terme_jantzen_bat": [
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "brique",
+    "corniche",
+    "fenêtre",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "modillon",
+    "souche de cheminée",
+    "toit à deux versants",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Vaugirard-22_6_§1",
       "IndexJantzen": [
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "souche de cheminée",
+        "brique",
+        "ardoise",
+        "mansarde",
+        "lucarne",
+        "fenêtre",
+        "garde-corps",
+        "corniche",
+        "modillon",
+        "balcon",
+        "vantail",
+        "toit à deux versants"
       ],
       "dateCapture": "2009:09:27"
     }

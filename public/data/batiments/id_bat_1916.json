@@ -32,11 +32,28 @@
   "WPfr": null,
   "image_ref": "Vavin-26_6_§1",
   "terme_jantzen_bat": [
+    "balcon",
     "fenetre",
     "façade",
-    "garde-corps",
     "céramique",
-    "balcon"
+    "garde-corps"
+  ],
+  "terme_torneh_bat": [
+    "avant-corps",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "céramique",
+    "fenêtre",
+    "garde-corps",
+    "oculus",
+    "porte",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "travée",
+    "verrière",
+    "volet"
   ],
   "photos": [
     {
@@ -44,6 +61,23 @@
       "IndexJantzen": [
         "céramique",
         "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "porte",
+        "porte-fenêtre",
+        "volet",
+        "céramique",
+        "brique",
+        "travée",
+        "souche de cheminée",
+        "bandeau",
+        "avant-corps",
+        "oculus",
+        "verrière"
       ],
       "dateCapture": "2005:05:09"
     },
@@ -53,6 +87,7 @@
         "céramique",
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": null
     },
     {
@@ -62,6 +97,7 @@
         "céramique",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:09"
     },
     {
@@ -71,6 +107,7 @@
         "céramique",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:09"
     },
     {
@@ -80,6 +117,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:09"
     },
     {
@@ -88,6 +126,7 @@
         "céramique",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:09"
     }
   ]

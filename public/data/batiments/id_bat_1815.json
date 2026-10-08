@@ -29,15 +29,34 @@
   "WPfr": null,
   "image_ref": "Pavee-24_4_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "façade",
-    "console",
     "tourelle",
+    "pilastre",
     "sculpture",
     "clé",
-    "pilastre",
+    "console",
+    "fenetre",
     "fenetre-d'angle",
+    "façade",
     "fronton"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "chapiteau",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "lucarne",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "portail",
+    "porte",
+    "soupirail",
+    "toit à deux versants",
+    "vantail"
   ],
   "photos": [
     {
@@ -46,6 +65,25 @@
         "façade",
         "fronton",
         "pilastre"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "fronton",
+        "lucarne",
+        "pilastre",
+        "chapiteau",
+        "corniche",
+        "ardoise",
+        "pierre de taille",
+        "portail",
+        "porte",
+        "soupirail",
+        "arc en plein cintre",
+        "chaîne d'angle",
+        "mascaron",
+        "oculus",
+        "vantail",
+        "toit à deux versants"
       ],
       "dateCapture": "2006:04:22"
     },
@@ -56,6 +94,7 @@
         "fronton",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:22"
     },
     {
@@ -63,6 +102,7 @@
       "IndexJantzen": [
         "tourelle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:03"
     },
     {
@@ -71,6 +111,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:22"
     },
     {
@@ -79,6 +120,7 @@
         "fenetre-d'angle",
         "tourelle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:03"
     },
     {
@@ -87,6 +129,7 @@
         "fenetre-d'angle",
         "tourelle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:03"
     },
     {
@@ -95,6 +138,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:03"
     },
     {
@@ -103,6 +147,7 @@
         "clé",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:22"
     }
   ]

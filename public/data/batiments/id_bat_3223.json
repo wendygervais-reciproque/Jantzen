@@ -21,9 +21,26 @@
   "WPfr": null,
   "image_ref": "Vouille-61_15_§1",
   "terme_jantzen_bat": [
-    "toiture",
     "brique",
-    "lucarne-d'angle"
+    "lucarne-d'angle",
+    "toiture"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "brique",
+    "chéneau",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "oriel",
+    "pierre de taille",
+    "souche de cheminée",
+    "tuile",
+    "volet"
   ],
   "photos": [
     {
@@ -32,6 +49,23 @@
         "brique",
         "lucarne-d'angle",
         "toiture"
+      ],
+      "IndexTorneh": [
+        "ardoise",
+        "balcon",
+        "balustrade",
+        "brique",
+        "chéneau",
+        "fenêtre",
+        "fer forgé",
+        "garde-corps",
+        "lucarne",
+        "mansarde",
+        "oriel",
+        "pierre de taille",
+        "souche de cheminée",
+        "volet",
+        "tuile"
       ],
       "dateCapture": "2009:03:16"
     },
@@ -42,6 +76,7 @@
         "lucarne-d'angle",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:10:15"
     }
   ]

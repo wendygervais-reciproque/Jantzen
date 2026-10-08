@@ -24,12 +24,40 @@
     "fenetre",
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "chambranle",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "grille",
+    "jambage",
+    "linteau",
+    "modillon",
+    "pierre de taille",
+    "porte",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Edmond-About-1_16_§1",
       "IndexJantzen": [
         "fenetre",
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "vantail",
+        "grille",
+        "fer forgé",
+        "pierre de taille",
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "modillon",
+        "chambranle",
+        "jambage",
+        "linteau"
       ],
       "dateCapture": "2005:04:30"
     }

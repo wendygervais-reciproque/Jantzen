@@ -29,9 +29,27 @@
   "image_ref": "Bosquet-28_7_§1",
   "terme_jantzen_bat": [
     "sculpture",
-    "fenetre",
+    "garde-corps",
     "console",
-    "garde-corps"
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "baie",
+    "balcon",
+    "bandeau",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "oriel",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -40,6 +58,24 @@
         "console",
         "fenetre",
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "arc en plein cintre",
+        "mascaron",
+        "sculpture",
+        "pierre de taille",
+        "bandeau",
+        "corniche",
+        "volet",
+        "fer forgé",
+        "porte",
+        "baie",
+        "travée",
+        "chambranle",
+        "oriel"
       ],
       "dateCapture": "2006:04:11"
     },
@@ -50,6 +86,7 @@
         "garde-corps",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:11"
     },
     {
@@ -59,6 +96,7 @@
         "garde-corps",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:11"
     }
   ]

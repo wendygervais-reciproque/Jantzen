@@ -30,11 +30,43 @@
   "terme_jantzen_bat": [
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "huisserie",
+    "mascaron",
+    "pierre de taille",
+    "pilastre",
+    "portail",
+    "porte",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Temple-158b_3_§1",
       "IndexJantzen": [
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "portail",
+        "arc en plein cintre",
+        "arc",
+        "vantail",
+        "fenêtre",
+        "pierre de taille",
+        "sculpture",
+        "mascaron",
+        "fer forgé",
+        "corniche",
+        "chambranle",
+        "pilastre",
+        "huisserie"
       ],
       "dateCapture": "2004:09:22"
     }

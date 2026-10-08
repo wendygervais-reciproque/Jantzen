@@ -21,9 +21,25 @@
   "WPfr": null,
   "image_ref": "Fourcroy-27_17_§1",
   "terme_jantzen_bat": [
-    "porte-fer",
+    "porte-fer-hall",
     "fenetre",
-    "porte-fer-hall"
+    "porte-fer"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "chambranle",
+    "fenêtre",
+    "fer forgé",
+    "frise",
+    "garde-corps",
+    "jambage",
+    "linteau",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "porte-fenêtre",
+    "sculpture",
+    "vantail"
   ],
   "photos": [
     {
@@ -31,6 +47,22 @@
       "IndexJantzen": [
         "fenetre",
         "porte-fer-hall"
+      ],
+      "IndexTorneh": [
+        "mascaron",
+        "balcon",
+        "garde-corps",
+        "porte-fenêtre",
+        "fer forgé",
+        "porte",
+        "vantail",
+        "pierre de taille",
+        "sculpture",
+        "chambranle",
+        "jambage",
+        "linteau",
+        "frise",
+        "fenêtre"
       ],
       "dateCapture": "2006:06:12"
     },
@@ -40,6 +72,7 @@
         "fenetre",
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:10:05"
     }
   ]

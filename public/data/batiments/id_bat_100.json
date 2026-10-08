@@ -25,19 +25,43 @@
   "image_ref": "Institut-De-France_6_§1",
   "terme_jantzen_bat": [
     "toiture",
-    "fenetre",
-    "façade",
-    "lucarne",
     "oeil-de-boeuf",
+    "dome",
     "tourelle",
+    "pilastre",
+    "pont",
+    "sculpture",
+    "fenetre",
+    "lucarne",
+    "façade",
+    "porte",
+    "fronton",
+    "colonne",
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "baie",
+    "balustrade",
+    "chapiteau",
+    "colonne",
+    "corniche",
+    "coupole",
+    "dôme",
+    "entablement",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "grille",
+    "lucarne",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
     "porte",
     "sculpture",
-    "dome",
-    "pont",
-    "pilastre",
-    "porte-bois",
-    "fronton",
-    "colonne"
+    "souche de cheminée",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -47,6 +71,30 @@
         "façade",
         "pont"
       ],
+      "IndexTorneh": [
+        "dôme",
+        "coupole",
+        "fronton",
+        "colonne",
+        "pilastre",
+        "chapiteau",
+        "fenêtre",
+        "arc en plein cintre",
+        "oculus",
+        "corniche",
+        "entablement",
+        "porte",
+        "sculpture",
+        "souche de cheminée",
+        "lucarne",
+        "balustrade",
+        "grille",
+        "fer forgé",
+        "arc",
+        "baie",
+        "pierre de taille",
+        "épi de faîtage"
+      ],
       "dateCapture": "2009:05:23"
     },
     {
@@ -54,6 +102,7 @@
       "IndexJantzen": [
         "dome"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:02"
     },
     {
@@ -62,6 +111,7 @@
         "dome",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:02"
     },
     {
@@ -70,6 +120,7 @@
         "dome",
         "tourelle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:02"
     },
     {
@@ -78,6 +129,7 @@
         "dome",
         "tourelle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:08"
     },
     {
@@ -86,6 +138,7 @@
         "dome",
         "tourelle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:02"
     },
     {
@@ -93,6 +146,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:13"
     },
     {
@@ -101,6 +155,7 @@
         "façade",
         "pilastre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:13"
     },
     {
@@ -108,6 +163,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:02"
     },
     {
@@ -116,6 +172,7 @@
         "lucarne",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:23"
     },
     {
@@ -124,6 +181,7 @@
         "façade",
         "pont"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:30"
     },
     {
@@ -132,6 +190,7 @@
         "lucarne",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:23"
     },
     {
@@ -139,6 +198,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:05:14"
     },
     {
@@ -147,6 +207,7 @@
         "lucarne",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:05:14"
     },
     {
@@ -155,6 +216,7 @@
         "colonne",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:08"
     },
     {
@@ -163,6 +225,7 @@
         "colonne",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:22"
     },
     {
@@ -171,6 +234,7 @@
         "porte",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:05:14"
     },
     {
@@ -181,6 +245,7 @@
         "fronton",
         "pont"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:05:23"
     },
     {
@@ -191,6 +256,7 @@
         "fronton",
         "pont"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:30"
     },
     {
@@ -200,6 +266,7 @@
         "façade",
         "fronton"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:08"
     },
     {
@@ -209,6 +276,7 @@
         "façade",
         "fronton"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:08"
     },
     {
@@ -218,6 +286,7 @@
         "fenetre",
         "fronton"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:30"
     },
     {
@@ -226,6 +295,7 @@
         "dome",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:15"
     },
     {
@@ -234,6 +304,7 @@
         "dome",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:08"
     }
   ]

@@ -22,11 +22,25 @@
   "image_ref": "Raspail-26_7_§1",
   "terme_jantzen_bat": [
     "porte-fer",
-    "fenetre",
-    "console",
     "sculpture",
-    "décor",
-    "porte-fer-hall"
+    "console",
+    "fenetre",
+    "porte-fer-hall",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "pierre de taille",
+    "sculpture",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -36,6 +50,20 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "fer forgé",
+        "pierre de taille",
+        "corniche",
+        "sculpture",
+        "volet",
+        "mascaron",
+        "travée",
+        "balustrade",
+        "bandeau"
+      ],
       "dateCapture": "2006:04:19"
     },
     {
@@ -44,6 +72,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:19"
     },
     {
@@ -52,6 +81,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:19"
     },
     {
@@ -59,6 +89,7 @@
       "IndexJantzen": [
         "porte-fer-hall"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:28"
     },
     {
@@ -66,6 +97,7 @@
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:19"
     }
   ]

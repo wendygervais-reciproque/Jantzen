@@ -28,9 +28,19 @@
   "WPfr": null,
   "image_ref": "Parrot-8_12_§1",
   "terme_jantzen_bat": [
-    "porte-fer",
     "chimère",
-    "clé"
+    "clé",
+    "porte-fer"
+  ],
+  "terme_torneh_bat": [
+    "chambranle",
+    "fer forgé",
+    "mascaron",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "sculpture",
+    "vantail"
   ],
   "photos": [
     {
@@ -39,6 +49,16 @@
         "chimère",
         "clé",
         "porte-fer"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "mascaron",
+        "fer forgé",
+        "sculpture",
+        "pierre de taille",
+        "vantail",
+        "pilastre",
+        "chambranle"
       ],
       "dateCapture": "2005:10:10"
     }

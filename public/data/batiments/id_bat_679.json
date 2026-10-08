@@ -34,11 +34,29 @@
   "terme_jantzen_bat": [
     "porte-fer-hall"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "fer forgé",
+    "garde-corps",
+    "pierre de taille",
+    "porte",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Margueritte-12_17_A",
       "IndexJantzen": [
         "porte-fer-hall"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "arc en plein cintre",
+        "fer forgé",
+        "balcon",
+        "garde-corps",
+        "pierre de taille",
+        "vantail"
       ],
       "dateCapture": "2003:08:26"
     }

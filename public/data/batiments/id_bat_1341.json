@@ -21,9 +21,21 @@
   "WPfr": null,
   "image_ref": "St-Denis-189_2_§1",
   "terme_jantzen_bat": [
+    "céramique",
     "fenetre",
-    "décor",
-    "céramique"
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "chambranle",
+    "corniche",
+    "céramique",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "pierre de taille",
+    "porte-fenêtre",
+    "vantail"
   ],
   "photos": [
     {
@@ -32,6 +44,18 @@
         "céramique",
         "décor",
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "porte-fenêtre",
+        "garde-corps",
+        "balcon",
+        "corniche",
+        "céramique",
+        "chambranle",
+        "pierre de taille",
+        "fer forgé",
+        "vantail"
       ],
       "dateCapture": "2004:08:31"
     }

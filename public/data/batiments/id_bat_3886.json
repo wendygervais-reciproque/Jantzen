@@ -26,16 +26,58 @@
   "WPfr": null,
   "image_ref": "Couronnes-93_20_§1",
   "terme_jantzen_bat": [
+    "façade",
     "fenetre",
     "brique",
-    "façade",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "avant-corps",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "oriel",
+    "pierre de taille",
+    "porte",
+    "porte-fenêtre",
+    "soupirail",
+    "travée",
+    "vitrail",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Couronnes-93_20_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "oriel",
+        "fer forgé",
+        "volet",
+        "porte",
+        "porte-fenêtre",
+        "travée",
+        "bandeau",
+        "corniche",
+        "fronton",
+        "brique",
+        "pierre de taille",
+        "soupirail",
+        "avant-corps",
+        "arc en plein cintre",
+        "vitrail"
       ],
       "dateCapture": "2005:09:19"
     },
@@ -46,6 +88,7 @@
         "décor",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:09:19"
     }
   ]

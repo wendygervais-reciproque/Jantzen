@@ -21,10 +21,28 @@
   "WPfr": null,
   "image_ref": "Rivoli-196_1_§1-Rs",
   "terme_jantzen_bat": [
-    "toiture",
     "façade",
+    "façade-d'angle",
+    "toiture",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "arcade",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
     "lucarne",
-    "façade-d'angle"
+    "mansarde",
+    "oculus",
+    "pierre de taille",
+    "souche de cheminée",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -32,6 +50,24 @@
       "IndexJantzen": [
         "façade-d'angle",
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "lucarne",
+        "mansarde",
+        "volet",
+        "corniche",
+        "bandeau",
+        "arc en plein cintre",
+        "arcade",
+        "souche de cheminée",
+        "pierre de taille",
+        "travée",
+        "fer forgé",
+        "oculus"
       ],
       "dateCapture": "2008:01:28"
     },
@@ -41,6 +77,7 @@
         "façade",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:01:28"
     },
     {
@@ -48,6 +85,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:01:28"
     },
     {
@@ -56,6 +94,7 @@
         "lucarne",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:11:16"
     },
     {
@@ -63,6 +102,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:01:28"
     },
     {
@@ -71,6 +111,7 @@
         "lucarne",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:08:31"
     },
     {
@@ -78,6 +119,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:01:28"
     }
   ]

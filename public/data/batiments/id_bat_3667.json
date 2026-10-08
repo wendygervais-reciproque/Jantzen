@@ -25,11 +25,41 @@
   "terme_jantzen_bat": [
     "fenetre"
   ],
+  "terme_torneh_bat": [
+    "acrotère",
+    "arc",
+    "arc en plein cintre",
+    "attique",
+    "baie",
+    "balcon",
+    "balustrade",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "modillon",
+    "oculus",
+    "pierre de taille"
+  ],
   "photos": [
     {
       "id_pic": "Rochechouard-bd-80_18_§1",
       "IndexJantzen": [
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "fronton",
+        "arc en plein cintre",
+        "baie",
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "corniche",
+        "attique",
+        "modillon",
+        "pierre de taille",
+        "acrotère",
+        "oculus",
+        "arc"
       ],
       "dateCapture": "2011:09:05"
     },
@@ -38,6 +68,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:09:05"
     }
   ]

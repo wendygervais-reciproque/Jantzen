@@ -21,15 +21,57 @@
   "WPfr": null,
   "image_ref": "Malesherbes-62_70_8_§1",
   "terme_jantzen_bat": [
+    "façade",
     "toiture",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "avant-corps",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
     "lucarne",
-    "façade"
+    "mansarde",
+    "mur-boutant",
+    "oculus",
+    "pierre de taille",
+    "porte",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée"
   ],
   "photos": [
     {
       "id_pic": "Malesherbes-62_70_8_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "mansarde",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "porte-fenêtre",
+        "souche de cheminée",
+        "pierre de taille",
+        "toit à deux versants",
+        "ardoise",
+        "corniche",
+        "bandeau",
+        "travée",
+        "fer forgé",
+        "mur-boutant",
+        "avant-corps",
+        "oculus",
+        "porte",
+        "lucarne"
       ],
       "dateCapture": "2005:08:10"
     },
@@ -39,6 +81,7 @@
         "lucarne",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:10"
     }
   ]

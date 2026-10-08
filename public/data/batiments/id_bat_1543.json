@@ -21,16 +21,64 @@
   "WPfr": null,
   "image_ref": "Pierre-1Er-de-Serbie-20_16_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "sculpture",
-    "décor",
-    "clé"
+    "clé",
+    "fenetre",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chéneau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "linteau",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "modillon",
+    "oculus",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Pierre-1Er-de-Serbie-20_16_§1",
       "IndexJantzen": [
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "bandeau",
+        "chéneau",
+        "corniche",
+        "fenêtre",
+        "fer forgé",
+        "fronton",
+        "garde-corps",
+        "linteau",
+        "lucarne",
+        "mansarde",
+        "mascaron",
+        "modillon",
+        "oculus",
+        "pierre de taille",
+        "porte",
+        "sculpture",
+        "souche de cheminée",
+        "toit à deux versants",
+        "volet",
+        "ardoise"
       ],
       "dateCapture": "2004:07:27"
     },
@@ -41,6 +89,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:27"
     },
     {
@@ -48,6 +97,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:27"
     },
     {
@@ -57,6 +107,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:27"
     },
     {
@@ -64,6 +115,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:27"
     },
     {
@@ -73,6 +125,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:27"
     }
   ]

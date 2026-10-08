@@ -24,8 +24,23 @@
   "image_ref": "La-Tremoille-16_8_§1",
   "terme_jantzen_bat": [
     "oriel",
-    "métal",
-    "céramique"
+    "céramique",
+    "métal"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "corniche",
+    "céramique",
+    "fenêtre",
+    "fer",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "oriel",
+    "pilastre",
+    "travée",
+    "verrière"
   ],
   "photos": [
     {
@@ -35,6 +50,21 @@
         "métal",
         "oriel"
       ],
+      "IndexTorneh": [
+        "verrière",
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "balustrade",
+        "fenêtre",
+        "oriel",
+        "céramique",
+        "pilastre",
+        "corniche",
+        "fer",
+        "mascaron",
+        "travée"
+      ],
       "dateCapture": "2004:10:21"
     },
     {
@@ -43,6 +73,7 @@
         "métal",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:10:21"
     }
   ]

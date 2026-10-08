@@ -26,11 +26,31 @@
   "WPfr": null,
   "image_ref": "Botzaris-86_19_§1",
   "terme_jantzen_bat": [
+    "loggia",
+    "balcon",
     "façade-d'angle",
     "fenetre-d'angle",
-    "loggia",
+    "brique"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
     "brique",
-    "balcon"
+    "chéneau",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "oculus",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -38,6 +58,26 @@
       "IndexJantzen": [
         "brique",
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "lucarne",
+        "mansarde",
+        "oculus",
+        "souche de cheminée",
+        "brique",
+        "bandeau",
+        "arc en plein cintre",
+        "volet",
+        "porte-fenêtre",
+        "fer forgé",
+        "toit à deux versants",
+        "travée",
+        "chéneau",
+        "ardoise"
       ],
       "dateCapture": "2005:07:21"
     },
@@ -49,6 +89,7 @@
         "fenetre-d'angle",
         "loggia"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:21"
     }
   ]

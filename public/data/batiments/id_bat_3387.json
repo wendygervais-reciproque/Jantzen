@@ -24,12 +24,40 @@
     "fenetre",
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "linteau",
+    "pierre de taille",
+    "porte",
+    "vantail",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Christine-7_6_§1",
       "IndexJantzen": [
         "fenetre",
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "arc en plein cintre",
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "volet",
+        "vantail",
+        "fer forgé",
+        "pierre de taille",
+        "corniche",
+        "chambranle",
+        "linteau"
       ],
       "dateCapture": "2005:05:23"
     }

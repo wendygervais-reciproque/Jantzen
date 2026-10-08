@@ -21,16 +21,64 @@
   "WPfr": null,
   "image_ref": "Debarcadere-14_17_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "façade",
+    "pilastre",
     "poignée-porte",
-    "pilastre"
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "chapiteau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "porte-fenêtre",
+    "sculpture",
+    "travée",
+    "vantail",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Debarcadere-14_17_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "porte",
+        "porte-fenêtre",
+        "volet",
+        "mascaron",
+        "chapiteau",
+        "pilastre",
+        "corniche",
+        "bandeau",
+        "lucarne",
+        "mansarde",
+        "ardoise",
+        "pierre de taille",
+        "travée",
+        "chambranle",
+        "fronton",
+        "vantail",
+        "fer forgé",
+        "sculpture"
       ],
       "dateCapture": "2006:06:12"
     },
@@ -40,6 +88,7 @@
         "fenetre",
         "pilastre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:12"
     },
     {
@@ -48,6 +97,7 @@
         "fenetre",
         "poignée-porte"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:12"
     }
   ]

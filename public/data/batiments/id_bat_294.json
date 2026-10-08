@@ -28,13 +28,33 @@
   "WPfr": null,
   "image_ref": "Repubique_Pl_10_11_§1-Rs",
   "terme_jantzen_bat": [
-    "fenetre",
-    "lucarne",
     "pignon",
-    "garde-corps",
     "sculpture",
     "cariatide",
+    "fenetre",
+    "lucarne",
+    "garde-corps",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "acrotère",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "cariatide",
+    "chapiteau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "frise",
+    "fronton",
+    "garde-corps",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pilastre",
+    "sculpture",
+    "souche de cheminée"
   ],
   "photos": [
     {
@@ -45,6 +65,26 @@
         "pignon",
         "sculpture"
       ],
+      "IndexTorneh": [
+        "sculpture",
+        "cariatide",
+        "mascaron",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "corniche",
+        "fronton",
+        "pilastre",
+        "chapiteau",
+        "souche de cheminée",
+        "ardoise",
+        "mansarde",
+        "oculus",
+        "frise",
+        "acrotère"
+      ],
       "dateCapture": "2007:12:18"
     },
     {
@@ -54,6 +94,7 @@
         "pignon",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:12:18"
     },
     {
@@ -64,6 +105,7 @@
         "pignon",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:12:18"
     },
     {
@@ -73,6 +115,7 @@
         "garde-corps",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:12:18"
     }
   ]

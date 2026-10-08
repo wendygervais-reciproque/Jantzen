@@ -34,11 +34,35 @@
   "terme_jantzen_bat": [
     "fenetre"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "avant-corps",
+    "balcon",
+    "balustrade",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "oculus",
+    "pierre de taille",
+    "travée"
+  ],
   "photos": [
     {
       "id_pic": "Surene-30B_8_§1",
       "IndexJantzen": [
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "arc en plein cintre",
+        "balustrade",
+        "avant-corps",
+        "travée",
+        "pierre de taille",
+        "oculus",
+        "fer forgé"
       ],
       "dateCapture": "2008:06:21"
     },
@@ -47,6 +71,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:06:21"
     }
   ]

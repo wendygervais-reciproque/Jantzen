@@ -28,12 +28,36 @@
   "WPfr": null,
   "image_ref": "Prony-19_17_§1",
   "terme_jantzen_bat": [
-    "lucarne",
     "façade-d'angle",
+    "sculpture",
+    "lucarne",
+    "porte",
+    "fronton",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "grille",
+    "linteau",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "pierre de taille",
+    "pilastre",
+    "portail",
     "porte",
     "sculpture",
-    "décor",
-    "fronton"
+    "souche de cheminée",
+    "toit à deux versants",
+    "volet"
   ],
   "photos": [
     {
@@ -41,6 +65,30 @@
       "IndexJantzen": [
         "façade-d'angle",
         "porte"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "bandeau",
+        "chambranle",
+        "corniche",
+        "fenêtre",
+        "fer forgé",
+        "garde-corps",
+        "grille",
+        "linteau",
+        "lucarne",
+        "mansarde",
+        "mascaron",
+        "pierre de taille",
+        "porte",
+        "sculpture",
+        "souche de cheminée",
+        "toit à deux versants",
+        "volet",
+        "ardoise",
+        "pilastre",
+        "portail"
       ],
       "dateCapture": "2008:05:25"
     },
@@ -50,6 +98,7 @@
         "façade-d'angle",
         "porte"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:25"
     },
     {
@@ -57,6 +106,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:25"
     },
     {
@@ -66,6 +116,7 @@
         "lucarne",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:25"
     },
     {
@@ -74,6 +125,7 @@
         "fronton",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:17"
     }
   ]

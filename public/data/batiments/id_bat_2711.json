@@ -26,12 +26,64 @@
     "dome",
     "façade-d'angle"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "auvent",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chapiteau",
+    "chaîne d'angle",
+    "colonne",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "porte-fenêtre",
+    "sculpture",
+    "souche de cheminée"
+  ],
   "photos": [
     {
       "id_pic": "St-Petersbourg-45_8_§1",
       "IndexJantzen": [
         "dome",
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "dôme",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "porte-fenêtre",
+        "lucarne",
+        "souche de cheminée",
+        "corniche",
+        "bandeau",
+        "pilastre",
+        "mascaron",
+        "sculpture",
+        "fer forgé",
+        "oculus",
+        "ardoise",
+        "pierre de taille",
+        "chaîne d'angle",
+        "auvent",
+        "porte",
+        "fronton",
+        "chapiteau",
+        "colonne",
+        "arc en plein cintre"
       ],
       "dateCapture": "2006:04:08"
     },
@@ -42,6 +94,7 @@
         "façade-d'angle",
         "pilastre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:06:20"
     },
     {
@@ -50,6 +103,7 @@
         "dome",
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:08"
     },
     {
@@ -58,6 +112,7 @@
         "dome",
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:06:20"
     },
     {
@@ -66,6 +121,7 @@
         "dome",
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:08"
     }
   ]

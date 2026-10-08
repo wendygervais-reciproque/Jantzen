@@ -28,9 +28,16 @@
   "WPfr": null,
   "image_ref": "Bethune-28_4_§1",
   "terme_jantzen_bat": [
-    "fenetre",
+    "garde-corps",
     "console",
-    "garde-corps"
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "fer forgé",
+    "garde-corps",
+    "pierre de taille",
+    "porte-fenêtre"
   ],
   "photos": [
     {
@@ -39,6 +46,13 @@
         "console",
         "fenetre",
         "garde-corps"
+      ],
+      "IndexTorneh": [
+        "garde-corps",
+        "porte-fenêtre",
+        "fer forgé",
+        "pierre de taille",
+        "balcon"
       ],
       "dateCapture": "2003:08:03"
     }

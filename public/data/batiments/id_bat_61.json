@@ -27,11 +27,57 @@
     "façade",
     "tourelle"
   ],
+  "terme_torneh_bat": [
+    "arc brisé",
+    "arc en plein cintre",
+    "arcade",
+    "balustrade",
+    "chapiteau",
+    "colonne",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fronton",
+    "mur-boutant",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "portail",
+    "porte",
+    "sculpture",
+    "tour",
+    "verrière",
+    "vitrail",
+    "épi de faîtage"
+  ],
   "photos": [
     {
       "id_pic": "Ste-Trinite_9_§1-Rs",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "tour",
+        "dôme",
+        "oculus",
+        "fenêtre",
+        "arc en plein cintre",
+        "arcade",
+        "colonne",
+        "pilastre",
+        "chapiteau",
+        "corniche",
+        "balustrade",
+        "fronton",
+        "sculpture",
+        "portail",
+        "porte",
+        "pierre de taille",
+        "arc brisé",
+        "verrière",
+        "vitrail",
+        "épi de faîtage",
+        "mur-boutant"
       ],
       "dateCapture": "2011:04:19"
     },
@@ -40,6 +86,7 @@
       "IndexJantzen": [
         "tourelle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:08:26"
     }
   ]

@@ -24,9 +24,30 @@
     "fenetre",
     "façade",
     "porte",
-    "porte-bois",
     "fronton",
-    "colonne"
+    "colonne",
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "chambranle",
+    "chéneau",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "modillon",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "pilier",
+    "porte",
+    "vantail",
+    "vitrail"
   ],
   "photos": [
     {
@@ -35,6 +56,27 @@
         "façade",
         "porte"
       ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "corniche",
+        "fronton",
+        "arc en plein cintre",
+        "pilastre",
+        "pilier",
+        "porte",
+        "vantail",
+        "mansarde",
+        "lucarne",
+        "chéneau",
+        "oculus",
+        "modillon",
+        "pierre de taille",
+        "chambranle",
+        "vitrail"
+      ],
       "dateCapture": "2008:05:15"
     },
     {
@@ -42,6 +84,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:02"
     },
     {
@@ -49,6 +92,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:15"
     },
     {
@@ -56,6 +100,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:02"
     },
     {
@@ -63,6 +108,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:02"
     },
     {
@@ -71,6 +117,7 @@
         "fenetre",
         "fronton"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:15"
     },
     {
@@ -78,6 +125,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:15"
     },
     {
@@ -86,6 +134,7 @@
         "colonne",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:15"
     },
     {
@@ -94,6 +143,7 @@
         "colonne",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:16"
     }
   ]

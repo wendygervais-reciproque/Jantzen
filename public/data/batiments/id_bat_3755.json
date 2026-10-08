@@ -23,8 +23,27 @@
   "WPfr": null,
   "image_ref": "St-Lazare-88_9_§1",
   "terme_jantzen_bat": [
-    "porte-fer",
-    "colonne"
+    "colonne",
+    "porte-fer"
+  ],
+  "terme_torneh_bat": [
+    "attique",
+    "balcon",
+    "chapiteau ionique",
+    "colonne",
+    "corniche",
+    "fenêtre",
+    "fer",
+    "fer forgé",
+    "fronton",
+    "grille",
+    "mascaron",
+    "pierre de taille",
+    "pilastre",
+    "portail",
+    "porte",
+    "portique",
+    "sculpture"
   ],
   "photos": [
     {
@@ -32,6 +51,25 @@
       "IndexJantzen": [
         "colonne",
         "porte-fer"
+      ],
+      "IndexTorneh": [
+        "portail",
+        "portique",
+        "fronton",
+        "colonne",
+        "chapiteau ionique",
+        "pilastre",
+        "sculpture",
+        "mascaron",
+        "grille",
+        "fer forgé",
+        "balcon",
+        "fenêtre",
+        "corniche",
+        "attique",
+        "pierre de taille",
+        "fer",
+        "porte"
       ],
       "dateCapture": "2004:08:26"
     }

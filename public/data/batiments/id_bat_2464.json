@@ -21,8 +21,21 @@
   "WPfr": null,
   "image_ref": "Sandrie-4_9_§1",
   "terme_jantzen_bat": [
-    "porte-bois",
-    "colonne"
+    "colonne",
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "chapiteau corinthien",
+    "colonne",
+    "fer forgé",
+    "grille",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "sculpture",
+    "vantail",
+    "vitrail"
   ],
   "photos": [
     {
@@ -30,6 +43,19 @@
       "IndexJantzen": [
         "colonne",
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "arc en plein cintre",
+        "portail",
+        "porte",
+        "vantail",
+        "colonne",
+        "chapiteau corinthien",
+        "sculpture",
+        "pierre de taille",
+        "fer forgé",
+        "grille",
+        "vitrail"
       ],
       "dateCapture": "2008:09:13"
     }

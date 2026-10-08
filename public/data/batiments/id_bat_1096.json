@@ -22,15 +22,61 @@
   "image_ref": "Grande-Armee-16_17_§1",
   "terme_jantzen_bat": [
     "oeil-de-boeuf",
-    "lucarne",
     "lucarne-d'angle",
-    "fenetre-d'angle"
+    "fenetre-d'angle",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chaîne d'angle",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "souche de cheminée",
+    "tour",
+    "travée",
+    "épi de faîtage"
   ],
   "photos": [
     {
       "id_pic": "Grande-Armee-16_17_§1",
       "IndexJantzen": [
         "fenetre-d'angle"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "lucarne",
+        "dôme",
+        "souche de cheminée",
+        "corniche",
+        "fronton",
+        "pilastre",
+        "bandeau",
+        "oculus",
+        "ardoise",
+        "pierre de taille",
+        "mascaron",
+        "fer forgé",
+        "épi de faîtage",
+        "chaîne d'angle",
+        "mansarde",
+        "tour",
+        "travée"
       ],
       "dateCapture": "2007:12:24"
     },
@@ -40,6 +86,7 @@
         "fenetre-d'angle",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:12:24"
     },
     {
@@ -48,6 +95,7 @@
         "lucarne-d'angle",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:12:24"
     }
   ]

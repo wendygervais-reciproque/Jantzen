@@ -23,16 +23,60 @@
   "WPfr": null,
   "image_ref": "Vendome-Pl-3_1_§1-Rx",
   "terme_jantzen_bat": [
-    "oeil-de-boeuf",
-    "lucarne",
     "façade",
-    "fenetre"
+    "oeil-de-boeuf",
+    "fenetre",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "garde-corps",
+    "gros appareil",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "souche de cheminée",
+    "travée",
+    "vantail"
   ],
   "photos": [
     {
       "id_pic": "Vendome-Pl-3_1_§1-Rx",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "mansarde",
+        "lucarne",
+        "oculus",
+        "fenêtre",
+        "porte",
+        "balcon",
+        "garde-corps",
+        "corniche",
+        "bandeau",
+        "pilastre",
+        "arc en plein cintre",
+        "mascaron",
+        "balustrade",
+        "souche de cheminée",
+        "ardoise",
+        "pierre de taille",
+        "gros appareil",
+        "vantail",
+        "travée",
+        "chaîne d'angle"
       ],
       "dateCapture": "2012:07:22"
     },
@@ -41,6 +85,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:07:22"
     },
     {
@@ -49,6 +94,7 @@
         "lucarne",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:07:22"
     },
     {
@@ -58,6 +104,7 @@
         "lucarne",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:07:22"
     }
   ]

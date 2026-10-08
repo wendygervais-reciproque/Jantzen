@@ -29,14 +29,62 @@
   "image_ref": "Raspail-147_6_§1",
   "terme_jantzen_bat": [
     "toiture",
+    "façade-d'angle",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "avant-corps",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
     "lucarne",
-    "façade-d'angle"
+    "mansarde",
+    "mascaron",
+    "oriel",
+    "pierre de taille",
+    "porte-fenêtre",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "volet",
+    "épi de faîtage"
   ],
   "photos": [
     {
       "id_pic": "Raspail-147_6_§1",
       "IndexJantzen": [
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "lucarne",
+        "mansarde",
+        "oriel",
+        "souche de cheminée",
+        "épi de faîtage",
+        "ardoise",
+        "pierre de taille",
+        "sculpture",
+        "mascaron",
+        "corniche",
+        "bandeau",
+        "fer forgé",
+        "toit à deux versants",
+        "chaîne d'angle",
+        "volet",
+        "porte-fenêtre",
+        "travée",
+        "avant-corps"
       ],
       "dateCapture": "2005:06:13"
     },
@@ -46,6 +94,7 @@
         "lucarne",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:13"
     },
     {
@@ -53,6 +102,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:13"
     },
     {
@@ -60,6 +110,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:11"
     },
     {
@@ -67,6 +118,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:11"
     }
   ]

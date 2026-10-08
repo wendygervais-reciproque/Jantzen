@@ -31,13 +31,33 @@
   "image_ref": "Theophile-Roussel-12_12_§1",
   "terme_jantzen_bat": [
     "oeil-de-boeuf",
-    "fenetre",
-    "lucarne",
     "sculpture",
     "clé",
+    "fenetre",
+    "lucarne",
     "brique",
-    "décor",
-    "fronton"
+    "fronton",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "avant-corps",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "chéneau",
+    "corniche",
+    "céramique",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "oculus",
+    "porte-fenêtre",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -45,6 +65,26 @@
       "IndexJantzen": [
         "brique",
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "garde-corps",
+        "oculus",
+        "lucarne",
+        "mansarde",
+        "brique",
+        "céramique",
+        "ardoise",
+        "fer forgé",
+        "corniche",
+        "bandeau",
+        "travée",
+        "volet",
+        "porte-fenêtre",
+        "avant-corps",
+        "chéneau"
       ],
       "dateCapture": "2004:09:16"
     },
@@ -54,6 +94,7 @@
         "brique",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:16"
     },
     {
@@ -62,6 +103,7 @@
         "brique",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:06:06"
     },
     {
@@ -74,6 +116,7 @@
         "lucarne",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:06:06"
     },
     {
@@ -84,6 +127,7 @@
         "lucarne",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:16"
     },
     {
@@ -93,6 +137,7 @@
         "clé",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:16"
     }
   ]

@@ -23,11 +23,37 @@
   "terme_jantzen_bat": [
     "fenetre"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "mascaron",
+    "porte-fenêtre",
+    "sculpture",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Strasbourg-72_10_§1",
       "IndexJantzen": [
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "porte-fenêtre",
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "fronton",
+        "corniche",
+        "bandeau",
+        "sculpture",
+        "mascaron",
+        "volet"
       ],
       "dateCapture": "2004:05:16"
     }

@@ -26,12 +26,33 @@
   "image_ref": "Horloge-Qu_1_Conciergerie§15",
   "terme_jantzen_bat": [
     "toiture",
-    "fenetre",
-    "façade",
-    "lucarne",
-    "panoramique",
+    "tour",
     "tourelle",
-    "tour"
+    "fenetre",
+    "lucarne",
+    "façade",
+    "panoramique"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc brisé",
+    "arc en plein cintre",
+    "baie",
+    "balustrade",
+    "chéneau",
+    "corniche",
+    "fenêtre",
+    "garde-corps",
+    "grille",
+    "lucarne",
+    "oculus",
+    "pierre de taille",
+    "porte",
+    "souche de cheminée",
+    "toit en pavillon",
+    "tour",
+    "travée",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -40,6 +61,7 @@
         "façade",
         "panoramique"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:06:14"
     },
     {
@@ -47,6 +69,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2017:06:11"
     },
     {
@@ -54,6 +77,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2017:06:11"
     },
     {
@@ -61,6 +85,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:12"
     },
     {
@@ -69,6 +94,7 @@
         "façade",
         "panoramique"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:07"
     },
     {
@@ -76,6 +102,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2013:08:16"
     },
     {
@@ -83,6 +110,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2018:06:30"
     },
     {
@@ -90,6 +118,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2013:08:16"
     },
     {
@@ -97,6 +126,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:06:14"
     },
     {
@@ -104,6 +134,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:06:14"
     },
     {
@@ -111,6 +142,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:06:14"
     },
     {
@@ -118,6 +150,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2013:08:16"
     },
     {
@@ -125,6 +158,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:07:22"
     },
     {
@@ -132,6 +166,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:16"
     },
     {
@@ -140,6 +175,7 @@
         "façade",
         "panoramique"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:05:23"
     },
     {
@@ -147,6 +183,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:05:23"
     },
     {
@@ -154,6 +191,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2018:06:30"
     },
     {
@@ -161,6 +199,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:08:30"
     },
     {
@@ -169,6 +208,7 @@
         "toiture",
         "tour"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:08:30"
     },
     {
@@ -176,6 +216,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:08:30"
     },
     {
@@ -183,6 +224,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:05:23"
     },
     {
@@ -190,6 +232,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:05:23"
     },
     {
@@ -197,6 +240,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:16"
     },
     {
@@ -205,6 +249,7 @@
         "toiture",
         "tour"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:15"
     },
     {
@@ -213,6 +258,7 @@
         "façade",
         "tour"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:07"
     },
     {
@@ -221,6 +267,7 @@
         "façade",
         "tour"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:06:14"
     },
     {
@@ -228,6 +275,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:16"
     },
     {
@@ -236,6 +284,7 @@
         "façade",
         "tour"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:06:14"
     },
     {
@@ -244,6 +293,7 @@
         "façade",
         "tour"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2013:08:16"
     },
     {
@@ -252,6 +302,27 @@
         "façade",
         "tour"
       ],
+      "IndexTorneh": [
+        "tour",
+        "toit en pavillon",
+        "souche de cheminée",
+        "épi de faîtage",
+        "fenêtre",
+        "lucarne",
+        "oculus",
+        "arc brisé",
+        "arc en plein cintre",
+        "porte",
+        "pierre de taille",
+        "balustrade",
+        "corniche",
+        "chéneau",
+        "grille",
+        "garde-corps",
+        "arc",
+        "baie",
+        "travée"
+      ],
       "dateCapture": "2017:06:11"
     },
     {
@@ -259,6 +330,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:06:14"
     },
     {
@@ -266,6 +338,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2013:08:16"
     },
     {
@@ -273,6 +346,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:16"
     },
     {
@@ -280,6 +354,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:07:22"
     },
     {
@@ -288,6 +363,7 @@
         "façade",
         "tour"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2018:06:30"
     },
     {
@@ -296,6 +372,7 @@
         "fenetre",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:07:22"
     },
     {
@@ -305,6 +382,7 @@
         "toiture",
         "tour"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:16"
     },
     {
@@ -313,6 +391,7 @@
         "façade",
         "tour"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:16"
     },
     {
@@ -321,6 +400,7 @@
         "façade",
         "tour"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:06:14"
     },
     {
@@ -329,6 +409,7 @@
         "façade",
         "tour"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:07:22"
     },
     {
@@ -337,6 +418,7 @@
         "façade",
         "tour"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:07:22"
     },
     {
@@ -345,6 +427,7 @@
         "lucarne",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2017:06:11"
     },
     {
@@ -352,6 +435,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:07"
     },
     {
@@ -359,6 +443,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2013:08:16"
     },
     {
@@ -366,6 +451,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:07:22"
     },
     {
@@ -373,6 +459,7 @@
       "IndexJantzen": [
         "tour"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:10:20"
     },
     {
@@ -380,6 +467,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:16"
     },
     {
@@ -387,6 +475,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:07:22"
     },
     {
@@ -394,6 +483,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2018:06:30"
     },
     {
@@ -401,6 +491,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:16"
     },
     {
@@ -408,6 +499,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2018:06:30"
     },
     {
@@ -415,6 +507,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:07"
     },
     {
@@ -422,6 +515,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:07:22"
     },
     {
@@ -430,6 +524,7 @@
         "façade",
         "tour"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:07"
     },
     {
@@ -437,6 +532,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:07"
     },
     {
@@ -444,6 +540,7 @@
       "IndexJantzen": [
         "tour"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2017:06:11"
     },
     {
@@ -452,6 +549,7 @@
         "façade",
         "tour"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:06:14"
     },
     {
@@ -460,6 +558,7 @@
         "façade",
         "tour"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:06:14"
     },
     {
@@ -468,6 +567,7 @@
         "façade",
         "tour"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2018:06:30"
     },
     {
@@ -476,6 +576,7 @@
         "façade",
         "tour"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2017:06:11"
     },
     {
@@ -484,6 +585,7 @@
         "façade",
         "tour"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2018:06:30"
     },
     {
@@ -491,6 +593,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:06:14"
     },
     {
@@ -498,6 +601,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2017:06:11"
     },
     {
@@ -505,6 +609,7 @@
       "IndexJantzen": [
         "tour"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:07"
     },
     {
@@ -512,6 +617,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:07"
     },
     {
@@ -519,6 +625,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:07:22"
     },
     {
@@ -526,6 +633,7 @@
       "IndexJantzen": [
         "tourelle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:07"
     },
     {
@@ -533,6 +641,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:06:14"
     },
     {
@@ -540,6 +649,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:16"
     },
     {
@@ -547,6 +657,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2018:06:30"
     },
     {
@@ -554,6 +665,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2018:06:30"
     },
     {
@@ -561,6 +673,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:16"
     },
     {
@@ -568,6 +681,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:16"
     },
     {
@@ -575,6 +689,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:06:14"
     },
     {
@@ -582,6 +697,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:07:22"
     },
     {
@@ -589,6 +705,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:13"
     },
     {
@@ -596,6 +713,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:13"
     },
     {
@@ -604,6 +722,7 @@
         "toiture",
         "tourelle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2017:06:11"
     },
     {
@@ -611,6 +730,7 @@
       "IndexJantzen": [
         "tourelle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:05:27"
     },
     {
@@ -618,11 +738,13 @@
       "IndexJantzen": [
         "tourelle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:07"
     },
     {
       "id_pic": "Horloge-Qu_1_Conciergerie§9",
       "IndexJantzen": [],
+      "IndexTorneh": [],
       "dateCapture": "2012:05:27"
     }
   ]

@@ -32,16 +32,39 @@
   "WPfr": null,
   "image_ref": "Danton-8_6_§3",
   "terme_jantzen_bat": [
-    "porte-fer",
-    "fenetre",
+    "dome",
     "façade-d'angle",
+    "porte-fer",
+    "pilastre",
     "sculpture",
     "clé",
-    "dome",
-    "pilastre",
     "fenetre-d'angle",
+    "fenetre",
     "brique",
     "colonne"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "chaîne d'angle",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "oculus",
+    "pierre de taille",
+    "porte",
+    "porte-fenêtre",
+    "tour",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -50,6 +73,7 @@
         "dome",
         "façade-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:11"
     },
     {
@@ -59,6 +83,7 @@
         "colonne",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:23"
     },
     {
@@ -67,6 +92,7 @@
         "pilastre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:23"
     },
     {
@@ -74,6 +100,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:23"
     },
     {
@@ -82,6 +109,7 @@
         "dome",
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:11"
     },
     {
@@ -90,6 +118,29 @@
         "brique",
         "dome",
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "dôme",
+        "lucarne",
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "arc en plein cintre",
+        "corniche",
+        "bandeau",
+        "pierre de taille",
+        "brique",
+        "porte",
+        "porte-fenêtre",
+        "volet",
+        "chaîne d'angle",
+        "oculus",
+        "tour",
+        "mansarde",
+        "ardoise",
+        "fer forgé",
+        "travée"
       ],
       "dateCapture": "2005:05:23"
     },
@@ -100,6 +151,7 @@
         "dome",
         "façade-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:06:05"
     },
     {
@@ -109,6 +161,7 @@
         "dome",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:23"
     },
     {
@@ -118,6 +171,7 @@
         "dome",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:23"
     },
     {
@@ -126,6 +180,7 @@
         "brique",
         "dome"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:23"
     },
     {
@@ -134,6 +189,7 @@
         "fenetre",
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:11"
     },
     {
@@ -142,6 +198,7 @@
         "fenetre",
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:23"
     }
   ]

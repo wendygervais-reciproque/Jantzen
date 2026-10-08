@@ -23,12 +23,34 @@
   "WPfr": null,
   "image_ref": "St-Victor-14_5_§1-Rx",
   "terme_jantzen_bat": [
+    "sculpture",
+    "console",
     "fenetre",
     "façade",
-    "console",
     "porte",
-    "sculpture",
     "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "avant-corps",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "porte",
+    "souche de cheminée",
+    "travée",
+    "vantail",
+    "volet"
   ],
   "photos": [
     {
@@ -36,6 +58,28 @@
       "IndexJantzen": [
         "façade",
         "porte"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "mansarde",
+        "souche de cheminée",
+        "porte",
+        "vantail",
+        "pierre de taille",
+        "bandeau",
+        "chambranle",
+        "arc en plein cintre",
+        "mascaron",
+        "corniche",
+        "ardoise",
+        "oculus",
+        "avant-corps",
+        "travée",
+        "fer forgé",
+        "volet"
       ],
       "dateCapture": "2011:05:25"
     },
@@ -45,6 +89,7 @@
         "façade",
         "porte"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:27"
     },
     {
@@ -53,6 +98,7 @@
         "fenetre",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:27"
     },
     {
@@ -61,6 +107,7 @@
         "fenetre",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:03:23"
     },
     {
@@ -69,6 +116,7 @@
         "fenetre",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:05:25"
     },
     {
@@ -77,6 +125,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:27"
     },
     {
@@ -85,6 +134,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:27"
     }
   ]

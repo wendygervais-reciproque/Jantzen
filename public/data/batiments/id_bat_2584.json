@@ -23,11 +23,39 @@
   "terme_jantzen_bat": [
     "façade-d'angle"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "garde-corps",
+    "pierre de taille",
+    "porte",
+    "souche de cheminée",
+    "toit-terrasse",
+    "travée",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Vaneau-40_7_§1",
       "IndexJantzen": [
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "bandeau",
+        "corniche",
+        "fenêtre",
+        "garde-corps",
+        "souche de cheminée",
+        "toit-terrasse",
+        "travée",
+        "volet",
+        "pierre de taille",
+        "porte"
       ],
       "dateCapture": "2005:04:17"
     },
@@ -36,6 +64,7 @@
       "IndexJantzen": [
         "façade-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:17"
     }
   ]

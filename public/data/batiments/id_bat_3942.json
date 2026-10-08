@@ -23,9 +23,25 @@
   "WPfr": null,
   "image_ref": "St-Antoine-99_4_§1",
   "terme_jantzen_bat": [
-    "toiture",
     "façade",
-    "dome"
+    "dome",
+    "toiture"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "corniche",
+    "coupole",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "grille",
+    "lucarne",
+    "pierre de taille",
+    "portail",
+    "souche de cheminée",
+    "toit à deux versants",
+    "vitrail"
   ],
   "photos": [
     {
@@ -34,6 +50,22 @@
         "dome",
         "façade",
         "toiture"
+      ],
+      "IndexTorneh": [
+        "dôme",
+        "coupole",
+        "arc en plein cintre",
+        "fenêtre",
+        "pierre de taille",
+        "toit à deux versants",
+        "vitrail",
+        "souche de cheminée",
+        "corniche",
+        "grille",
+        "portail",
+        "arc",
+        "fer forgé",
+        "lucarne"
       ],
       "dateCapture": "2011:08:20"
     },
@@ -44,6 +76,7 @@
         "façade",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:07:10"
     },
     {
@@ -52,6 +85,7 @@
         "dome",
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:08:20"
     },
     {
@@ -59,6 +93,7 @@
       "IndexJantzen": [
         "dome"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:07:10"
     },
     {
@@ -66,6 +101,7 @@
       "IndexJantzen": [
         "dome"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:08:20"
     }
   ]

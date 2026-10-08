@@ -22,15 +22,55 @@
   "image_ref": "Capucines-15_1_§1",
   "terme_jantzen_bat": [
     "sculpture",
+    "fronton",
     "console",
-    "porte-bois",
-    "fronton"
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc brisé",
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mascaron",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "sculpture",
+    "toit à deux versants",
+    "vantail"
   ],
   "photos": [
     {
       "id_pic": "Capucines-15_1_§1",
       "IndexJantzen": [
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "arc en plein cintre",
+        "arc",
+        "portail",
+        "porte",
+        "lucarne",
+        "fenêtre",
+        "fronton",
+        "sculpture",
+        "mascaron",
+        "pierre de taille",
+        "ardoise",
+        "balcon",
+        "garde-corps",
+        "vantail",
+        "chambranle",
+        "arc brisé",
+        "toit à deux versants",
+        "corniche"
       ],
       "dateCapture": "2012:07:22"
     },
@@ -39,6 +79,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:07:22"
     },
     {
@@ -48,6 +89,7 @@
         "fronton",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:07:22"
     }
   ]

@@ -23,10 +23,25 @@
   "WPfr": null,
   "image_ref": "Abbaye-2_6_§1",
   "terme_jantzen_bat": [
-    "toiture",
-    "lucarne",
     "façade",
-    "voie"
+    "toiture",
+    "voie",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "pierre de taille",
+    "porte",
+    "souche de cheminée",
+    "travée",
+    "tuile",
+    "volet"
   ],
   "photos": [
     {
@@ -34,6 +49,21 @@
       "IndexJantzen": [
         "façade",
         "voie"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "mansarde",
+        "lucarne",
+        "garde-corps",
+        "ardoise",
+        "souche de cheminée",
+        "porte",
+        "tuile",
+        "balcon",
+        "pierre de taille",
+        "volet",
+        "fer forgé",
+        "travée"
       ],
       "dateCapture": "2006:05:11"
     },
@@ -43,6 +73,7 @@
         "lucarne",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:05:13"
     }
   ]

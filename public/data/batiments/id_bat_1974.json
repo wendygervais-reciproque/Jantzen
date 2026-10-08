@@ -28,10 +28,33 @@
   "WPfr": null,
   "image_ref": "Ballu-28_9_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "brique",
+    "pignon",
+    "fenetre",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "attique",
+    "balcon",
+    "brique",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "jambage",
+    "linteau",
     "lucarne",
-    "pignon"
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -39,6 +62,29 @@
       "IndexJantzen": [
         "brique",
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "brique",
+        "pierre de taille",
+        "chaîne d'angle",
+        "corniche",
+        "fronton",
+        "oculus",
+        "lucarne",
+        "épi de faîtage",
+        "sculpture",
+        "mascaron",
+        "pilastre",
+        "arc en plein cintre",
+        "ardoise",
+        "toit à deux versants",
+        "attique",
+        "linteau",
+        "jambage",
+        "souche de cheminée"
       ],
       "dateCapture": "2004:08:26"
     },
@@ -48,6 +94,7 @@
         "brique",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:08:26"
     },
     {
@@ -56,6 +103,7 @@
         "lucarne",
         "pignon"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:08:26"
     },
     {
@@ -63,6 +111,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:08:26"
     },
     {
@@ -70,11 +119,13 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:08:26"
     },
     {
       "id_pic": "Ballu-28_9_§6",
       "IndexJantzen": [],
+      "IndexTorneh": [],
       "dateCapture": "2004:08:26"
     }
   ]

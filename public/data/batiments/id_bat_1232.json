@@ -28,10 +28,27 @@
   "WPfr": null,
   "image_ref": "Rhin-17_19_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "brique",
+    "sculpture",
     "console",
-    "sculpture"
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "brique",
+    "chéneau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "pierre de taille",
+    "porte",
+    "toit à deux versants",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -39,6 +56,23 @@
       "IndexJantzen": [
         "brique",
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "lucarne",
+        "volet",
+        "brique",
+        "pierre de taille",
+        "garde-corps",
+        "corniche",
+        "travée",
+        "porte",
+        "chéneau",
+        "mansarde",
+        "toit à deux versants",
+        "fer forgé"
       ],
       "dateCapture": "2005:09:07"
     },
@@ -50,6 +84,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:09:07"
     }
   ]

@@ -26,11 +26,45 @@
     "fenetre-d'angle",
     "tourelle"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "chéneau",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "oriel",
+    "pierre de taille",
+    "porte",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "St-Paul-8_4_§1-Rx",
       "IndexJantzen": [
         "tourelle"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "volet",
+        "souche de cheminée",
+        "lucarne",
+        "toit à deux versants",
+        "pierre de taille",
+        "oriel",
+        "balustrade",
+        "travée",
+        "mansarde",
+        "fer forgé",
+        "chéneau",
+        "porte"
       ],
       "dateCapture": "2011:08:20"
     },
@@ -40,6 +74,7 @@
         "fenetre-d'angle",
         "tourelle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:03:23"
     },
     {
@@ -47,6 +82,7 @@
       "IndexJantzen": [
         "tourelle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:08:20"
     }
   ]

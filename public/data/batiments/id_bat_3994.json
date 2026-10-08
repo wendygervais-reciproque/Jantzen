@@ -27,12 +27,52 @@
     "sculpture",
     "voie"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "bandeau",
+    "brique",
+    "chaîne d'angle",
+    "fenêtre",
+    "garde-corps",
+    "grille",
+    "lucarne",
+    "mansarde",
+    "oculus",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "volet",
+    "épi de faîtage"
+  ],
   "photos": [
     {
       "id_pic": "Pont-Neuf-Pl_1_§2-Rx",
       "IndexJantzen": [
         "façade",
         "voie"
+      ],
+      "IndexTorneh": [
+        "sculpture",
+        "mansarde",
+        "lucarne",
+        "souche de cheminée",
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "grille",
+        "brique",
+        "pierre de taille",
+        "toit à deux versants",
+        "porte",
+        "volet",
+        "bandeau",
+        "chaîne d'angle",
+        "arc en plein cintre",
+        "oculus",
+        "épi de faîtage"
       ],
       "dateCapture": "2012:08:10"
     },
@@ -42,6 +82,7 @@
         "façade",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:08:10"
     },
     {
@@ -49,6 +90,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2016:12:09"
     }
   ]

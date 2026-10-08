@@ -30,11 +30,37 @@
   "terme_jantzen_bat": [
     "porte-fer-hall"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "baie",
+    "fer forgé",
+    "grille",
+    "mascaron",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "porte-fenêtre",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Lonchamp-127_16_§1",
       "IndexJantzen": [
         "porte-fer-hall"
+      ],
+      "IndexTorneh": [
+        "portail",
+        "porte",
+        "arc en plein cintre",
+        "mascaron",
+        "fer forgé",
+        "grille",
+        "pierre de taille",
+        "vantail",
+        "sculpture",
+        "baie",
+        "porte-fenêtre"
       ],
       "dateCapture": "2006:06:30"
     }

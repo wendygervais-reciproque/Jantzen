@@ -21,8 +21,21 @@
   "WPfr": null,
   "image_ref": "St-Paul-20_4_§1",
   "terme_jantzen_bat": [
+    "fronton",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "corniche",
+    "fenêtre",
+    "fer",
+    "fronton",
+    "garde-corps",
     "lucarne",
-    "fronton"
+    "souche de cheminée",
+    "vantail",
+    "volet"
   ],
   "photos": [
     {
@@ -30,6 +43,19 @@
       "IndexJantzen": [
         "fronton",
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "lucarne",
+        "fronton",
+        "fenêtre",
+        "garde-corps",
+        "balcon",
+        "corniche",
+        "ardoise",
+        "souche de cheminée",
+        "volet",
+        "vantail",
+        "fer"
       ],
       "dateCapture": "2012:05:13"
     },
@@ -39,6 +65,7 @@
         "fronton",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:05:13"
     }
   ]

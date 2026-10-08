@@ -22,9 +22,30 @@
   "image_ref": "St-Andre-Des-Arts-47_6_§1",
   "terme_jantzen_bat": [
     "sculpture",
-    "fenetre",
     "console",
+    "fenetre",
     "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "avant-corps",
+    "balcon",
+    "balustrade",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mascaron",
+    "pierre de taille",
+    "pilastre",
+    "portail",
+    "porte",
+    "sculpture",
+    "vantail"
   ],
   "photos": [
     {
@@ -33,6 +54,27 @@
         "fenetre",
         "porte-bois"
       ],
+      "IndexTorneh": [
+        "porte",
+        "portail",
+        "arc en plein cintre",
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "chambranle",
+        "mascaron",
+        "pilastre",
+        "corniche",
+        "fronton",
+        "avant-corps",
+        "ardoise",
+        "lucarne",
+        "garde-corps",
+        "pierre de taille",
+        "vantail",
+        "fer forgé",
+        "sculpture"
+      ],
       "dateCapture": "2006:06:11"
     },
     {
@@ -40,6 +82,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:11"
     },
     {
@@ -48,6 +91,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:23"
     }
   ]

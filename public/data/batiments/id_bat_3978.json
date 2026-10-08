@@ -24,12 +24,26 @@
     "métal",
     "colonne"
   ],
+  "terme_torneh_bat": [
+    "balustrade",
+    "chapiteau",
+    "colonne",
+    "grille",
+    "sculpture"
+  ],
   "photos": [
     {
       "id_pic": "Bastille-pl_4_§1",
       "IndexJantzen": [
         "colonne",
         "métal"
+      ],
+      "IndexTorneh": [
+        "colonne",
+        "sculpture",
+        "balustrade",
+        "grille",
+        "chapiteau"
       ],
       "dateCapture": null
     },
@@ -39,6 +53,7 @@
         "colonne",
         "métal"
       ],
+      "IndexTorneh": [],
       "dateCapture": null
     }
   ]

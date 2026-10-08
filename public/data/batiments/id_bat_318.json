@@ -35,17 +35,67 @@
   "image_ref": "Sevres-10_7_§1",
   "terme_jantzen_bat": [
     "oeil-de-boeuf",
+    "sculpture",
+    "console",
     "fenetre",
     "façade",
-    "console",
-    "sculpture",
     "fronton"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "auvent",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chéneau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "porte-fenêtre",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Sevres-10_7_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "porte-fenêtre",
+        "oculus",
+        "lucarne",
+        "mansarde",
+        "corniche",
+        "bandeau",
+        "sculpture",
+        "mascaron",
+        "porte",
+        "portail",
+        "pierre de taille",
+        "toit à deux versants",
+        "souche de cheminée",
+        "ardoise",
+        "volet",
+        "travée",
+        "fer forgé",
+        "auvent",
+        "chéneau"
       ],
       "dateCapture": "2005:04:02"
     },
@@ -56,6 +106,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:10:22"
     },
     {
@@ -64,6 +115,7 @@
         "façade",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:02"
     },
     {
@@ -73,6 +125,7 @@
         "oeil-de-boeuf",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:10:22"
     },
     {
@@ -82,6 +135,7 @@
         "oeil-de-boeuf",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:02"
     },
     {
@@ -91,6 +145,7 @@
         "oeil-de-boeuf",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:02"
     },
     {
@@ -100,6 +155,7 @@
         "fronton",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:02"
     },
     {
@@ -109,6 +165,7 @@
         "fronton",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:02"
     }
   ]

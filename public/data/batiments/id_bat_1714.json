@@ -32,10 +32,29 @@
   "WPfr": null,
   "image_ref": "Pereire-227_17_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "sculpture",
-    "porte-bois",
-    "clé"
+    "clé",
+    "fenetre",
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "mascaron",
+    "modillon",
+    "pierre de taille",
+    "porte",
+    "porte-fenêtre",
+    "sculpture",
+    "vitrail",
+    "volet"
   ],
   "photos": [
     {
@@ -43,6 +62,25 @@
       "IndexJantzen": [
         "fenetre",
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "volet",
+        "mascaron",
+        "arc en plein cintre",
+        "porte",
+        "corniche",
+        "modillon",
+        "pierre de taille",
+        "chambranle",
+        "fronton",
+        "fer forgé",
+        "garde-corps",
+        "sculpture",
+        "vitrail",
+        "porte-fenêtre"
       ],
       "dateCapture": "2010:03:02"
     },
@@ -52,6 +90,7 @@
         "clé",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:03:02"
     },
     {
@@ -60,6 +99,7 @@
         "fenetre",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:06:27"
     },
     {
@@ -68,6 +108,7 @@
         "clé",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:06:27"
     }
   ]

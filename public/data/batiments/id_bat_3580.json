@@ -32,11 +32,45 @@
   "terme_jantzen_bat": [
     "façade"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "fenêtre",
+    "garde-corps",
+    "mansarde",
+    "oculus",
+    "oriel",
+    "pierre de taille",
+    "porte",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "toit-terrasse",
+    "travée"
+  ],
   "photos": [
     {
       "id_pic": "Felix-Faure-Av-8-6_15_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "balustrade",
+        "oculus",
+        "mansarde",
+        "souche de cheminée",
+        "ardoise",
+        "porte",
+        "porte-fenêtre",
+        "pierre de taille",
+        "travée",
+        "oriel",
+        "toit-terrasse",
+        "arc en plein cintre"
       ],
       "dateCapture": "2007:09:05"
     }

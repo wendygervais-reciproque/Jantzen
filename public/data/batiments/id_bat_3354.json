@@ -29,9 +29,25 @@
   "image_ref": "Reaumur-65_2_§2",
   "terme_jantzen_bat": [
     "toiture",
+    "métal",
     "verrière",
-    "façade",
-    "métal"
+    "façade"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "fenêtre",
+    "fer",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "mascaron",
+    "pierre de taille",
+    "pilastre",
+    "souche de cheminée",
+    "verrière",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -39,6 +55,22 @@
       "IndexJantzen": [
         "toiture",
         "verrière"
+      ],
+      "IndexTorneh": [
+        "verrière",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "mascaron",
+        "fenêtre",
+        "fer forgé",
+        "pierre de taille",
+        "souche de cheminée",
+        "épi de faîtage",
+        "fronton",
+        "bandeau",
+        "pilastre",
+        "fer"
       ],
       "dateCapture": "2004:07:06"
     },
@@ -48,6 +80,7 @@
         "façade",
         "métal"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:05:16"
     },
     {
@@ -56,6 +89,7 @@
         "toiture",
         "verrière"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:05:16"
     },
     {
@@ -63,6 +97,7 @@
       "IndexJantzen": [
         "verrière"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:05"
     }
   ]

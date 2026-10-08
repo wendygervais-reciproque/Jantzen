@@ -23,16 +23,60 @@
   "WPfr": null,
   "image_ref": "Richelieu-110_2_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "façade",
     "sculpture",
+    "fenetre",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "arcade",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "chapiteau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "grille",
+    "linteau",
+    "mascaron",
+    "modillon",
+    "pierre de taille",
+    "pilastre",
+    "portail",
+    "porte",
+    "travée"
   ],
   "photos": [
     {
       "id_pic": "Richelieu-110_2_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "arc en plein cintre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "pilastre",
+        "chapiteau",
+        "corniche",
+        "bandeau",
+        "mascaron",
+        "modillon",
+        "portail",
+        "porte",
+        "grille",
+        "fer forgé",
+        "pierre de taille",
+        "travée",
+        "linteau",
+        "chambranle",
+        "arcade"
       ],
       "dateCapture": "2010:06:05"
     },
@@ -43,6 +87,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:06:05"
     }
   ]

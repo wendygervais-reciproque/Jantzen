@@ -25,11 +25,41 @@
   "terme_jantzen_bat": [
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "arc",
+    "balcon",
+    "bossage",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Truffaut-71_17_§1",
       "IndexJantzen": [
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "portail",
+        "arc",
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "vantail",
+        "pierre de taille",
+        "mascaron",
+        "chambranle",
+        "bossage",
+        "corniche"
       ],
       "dateCapture": "2004:06:28"
     }

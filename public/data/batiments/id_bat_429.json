@@ -21,14 +21,50 @@
   "WPfr": null,
   "image_ref": "Jacob-11-13_6_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "façade"
+    "façade",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "chaîne d'angle",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "grille",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "toit à deux versants",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Jacob-11-13_6_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "arc en plein cintre",
+        "mascaron",
+        "lucarne",
+        "mansarde",
+        "fer forgé",
+        "pierre de taille",
+        "chaîne d'angle",
+        "ardoise",
+        "toit à deux versants",
+        "volet",
+        "porte",
+        "grille"
       ],
       "dateCapture": "2005:04:19"
     },
@@ -37,6 +73,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:19"
     }
   ]

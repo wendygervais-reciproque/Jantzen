@@ -30,11 +30,37 @@
   "terme_jantzen_bat": [
     "porte-fer-hall"
   ],
+  "terme_torneh_bat": [
+    "bossage",
+    "chambranle",
+    "fenêtre",
+    "fer forgé",
+    "gros appareil",
+    "mascaron",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Lesueur-26_16_§1",
       "IndexJantzen": [
         "porte-fer-hall"
+      ],
+      "IndexTorneh": [
+        "portail",
+        "porte",
+        "pierre de taille",
+        "sculpture",
+        "mascaron",
+        "fer forgé",
+        "vantail",
+        "bossage",
+        "fenêtre",
+        "chambranle",
+        "gros appareil"
       ],
       "dateCapture": "2004:10:26"
     }

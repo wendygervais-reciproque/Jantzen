@@ -23,11 +23,35 @@
   "terme_jantzen_bat": [
     "lucarne-d'angle"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "bandeau",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "oriel",
+    "pierre de taille",
+    "souche de cheminée",
+    "toit en pavillon",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "St-Ferdinand-34_17_§1",
       "IndexJantzen": [
         "lucarne-d'angle"
+      ],
+      "IndexTorneh": [
+        "souche de cheminée",
+        "fenêtre",
+        "volet",
+        "garde-corps",
+        "balcon",
+        "oriel",
+        "bandeau",
+        "pierre de taille",
+        "toit en pavillon",
+        "fer forgé"
       ],
       "dateCapture": "2008:03:29"
     },
@@ -36,6 +60,7 @@
       "IndexJantzen": [
         "lucarne-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:03:29"
     }
   ]

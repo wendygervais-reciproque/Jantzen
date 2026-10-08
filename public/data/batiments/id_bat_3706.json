@@ -33,20 +33,64 @@
   "image_ref": "Niel-84_17_§1",
   "terme_jantzen_bat": [
     "oeil-de-boeuf",
-    "fenetre",
-    "porte-fer",
-    "garde-corps",
     "façade-d'angle",
+    "porte-fer",
+    "oriel",
     "sculpture",
     "fenetre-d'angle",
-    "oriel",
+    "fenetre",
+    "garde-corps",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "avant-corps",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "oriel",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Niel-84_17_§1",
       "IndexJantzen": [
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "fenêtre",
+        "lucarne",
+        "souche de cheminée",
+        "toit à deux versants",
+        "mansarde",
+        "bandeau",
+        "corniche",
+        "pierre de taille",
+        "oculus",
+        "porte",
+        "volet",
+        "travée",
+        "avant-corps",
+        "sculpture",
+        "mascaron",
+        "oriel",
+        "fer forgé"
       ],
       "dateCapture": "2014:02:19"
     },
@@ -55,6 +99,7 @@
       "IndexJantzen": [
         "façade-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:03:17"
     },
     {
@@ -63,6 +108,7 @@
         "façade-d'angle",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:03:17"
     },
     {
@@ -70,6 +116,7 @@
       "IndexJantzen": [
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:03:17"
     },
     {
@@ -78,6 +125,7 @@
         "fenetre",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2013:02:19"
     },
     {
@@ -88,6 +136,7 @@
         "oriel",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2013:02:19"
     },
     {
@@ -96,6 +145,7 @@
         "fenetre",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2013:02:19"
     },
     {
@@ -105,6 +155,7 @@
         "garde-corps",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:03:17"
     },
     {
@@ -112,6 +163,7 @@
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:03:17"
     }
   ]

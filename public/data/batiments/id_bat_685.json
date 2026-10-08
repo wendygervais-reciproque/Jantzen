@@ -21,15 +21,53 @@
   "WPfr": null,
   "image_ref": "Bonne-Nouvelle-12_10_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "façade",
-    "garde-corps"
+    "garde-corps",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "linteau",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "pilastre",
+    "souche de cheminée",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Bonne-Nouvelle-12_10_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "corniche",
+        "bandeau",
+        "pilastre",
+        "mansarde",
+        "lucarne",
+        "souche de cheminée",
+        "fer forgé",
+        "volet",
+        "travée",
+        "ardoise",
+        "mascaron",
+        "chambranle",
+        "linteau"
       ],
       "dateCapture": "2008:08:19"
     },
@@ -39,6 +77,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:08:19"
     }
   ]

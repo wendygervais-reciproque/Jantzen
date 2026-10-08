@@ -21,17 +21,59 @@
   "WPfr": null,
   "image_ref": "Vaugirard-71B_6_§1",
   "terme_jantzen_bat": [
-    "façade",
-    "console",
+    "oriel",
     "sculpture",
-    "métal",
-    "oriel"
+    "console",
+    "façade",
+    "métal"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "jambage",
+    "linteau",
+    "mascaron",
+    "oriel",
+    "pierre de taille",
+    "porte",
+    "porte-fenêtre",
+    "travée",
+    "verrière",
+    "vitrail",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Vaugirard-71B_6_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "porte",
+        "porte-fenêtre",
+        "volet",
+        "fer forgé",
+        "pierre de taille",
+        "bandeau",
+        "corniche",
+        "travée",
+        "oriel",
+        "verrière",
+        "vitrail",
+        "mascaron",
+        "chambranle",
+        "jambage",
+        "linteau"
       ],
       "dateCapture": "2006:06:05"
     },
@@ -41,6 +83,7 @@
         "façade",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:05"
     },
     {
@@ -49,6 +92,7 @@
         "métal",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:05"
     },
     {
@@ -57,6 +101,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:05"
     }
   ]

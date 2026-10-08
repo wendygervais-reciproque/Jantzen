@@ -21,12 +21,32 @@
   "WPfr": null,
   "image_ref": "Octave-Feuillet-14_16_§1",
   "terme_jantzen_bat": [
+    "sculpture",
     "fenetre",
     "lucarne",
     "poignée-porte",
+    "fronton",
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chapiteau",
+    "corniche",
+    "fenêtre",
+    "frise",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "pilastre",
     "sculpture",
-    "porte-bois",
-    "fronton"
+    "souche de cheminée",
+    "volet"
   ],
   "photos": [
     {
@@ -35,6 +55,26 @@
         "fenetre",
         "fronton",
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "lucarne",
+        "mansarde",
+        "fronton",
+        "balcon",
+        "balustrade",
+        "corniche",
+        "fenêtre",
+        "pilastre",
+        "chapiteau",
+        "sculpture",
+        "mascaron",
+        "souche de cheminée",
+        "ardoise",
+        "arc en plein cintre",
+        "garde-corps",
+        "frise",
+        "bandeau",
+        "volet"
       ],
       "dateCapture": "2008:05:08"
     },
@@ -45,6 +85,7 @@
         "lucarne",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:08"
     },
     {
@@ -53,6 +94,7 @@
         "fronton",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:08"
     },
     {
@@ -60,6 +102,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:08"
     },
     {
@@ -67,6 +110,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:08"
     },
     {
@@ -75,6 +119,7 @@
         "poignée-porte",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:08"
     }
   ]

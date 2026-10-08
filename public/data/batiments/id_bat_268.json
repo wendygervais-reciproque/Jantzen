@@ -23,8 +23,22 @@
   "WPfr": null,
   "image_ref": "schœlcher-1_14_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "brique"
+    "brique",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "brique",
+    "chaîne d'angle",
+    "céramique",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "pierre de taille",
+    "porte-fenêtre",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -32,6 +46,20 @@
       "IndexJantzen": [
         "brique",
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "porte-fenêtre",
+        "brique",
+        "pierre de taille",
+        "chaîne d'angle",
+        "arc en plein cintre",
+        "volet",
+        "céramique",
+        "travée",
+        "fer forgé"
       ],
       "dateCapture": "2004:07:28"
     },
@@ -41,6 +69,7 @@
         "brique",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:28"
     }
   ]

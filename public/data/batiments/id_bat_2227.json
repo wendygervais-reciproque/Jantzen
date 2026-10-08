@@ -25,11 +25,35 @@
     "sculpture",
     "décor"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "fenêtre",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "porte",
+    "sculpture",
+    "travée",
+    "vitrail"
+  ],
   "photos": [
     {
       "id_pic": "Gregoire-de-Tours-32_6_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "sculpture",
+        "lucarne",
+        "mansarde",
+        "porte",
+        "vitrail",
+        "travée",
+        "balustrade"
       ],
       "dateCapture": "2005:06:02"
     },
@@ -39,6 +63,7 @@
         "décor",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:02"
     },
     {
@@ -46,6 +71,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:02"
     }
   ]

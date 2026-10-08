@@ -30,11 +30,37 @@
   "terme_jantzen_bat": [
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "chambranle",
+    "fer forgé",
+    "garde-corps",
+    "gros appareil",
+    "linteau",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Marguerin-9_14_Pb-1905",
       "IndexJantzen": [
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "vantail",
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "linteau",
+        "chambranle",
+        "pierre de taille",
+        "mascaron",
+        "sculpture",
+        "gros appareil"
       ],
       "dateCapture": "2004:04:15"
     }

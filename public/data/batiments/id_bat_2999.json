@@ -21,13 +21,31 @@
   "WPfr": null,
   "image_ref": "Bienfaisance-54_8_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "pignon",
-    "garde-corps",
-    "porte-bois",
-    "fenetre-d'angle",
     "balcon",
-    "fronton"
+    "pignon",
+    "fenetre-d'angle",
+    "fenetre",
+    "fronton",
+    "garde-corps",
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "frise",
+    "fronton",
+    "garde-corps",
+    "mascaron",
+    "modillon",
+    "pierre de taille",
+    "pilastre",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -36,6 +54,24 @@
         "balcon",
         "fenetre-d'angle",
         "pignon"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "corniche",
+        "fronton",
+        "mascaron",
+        "pilastre",
+        "chambranle",
+        "volet",
+        "pierre de taille",
+        "fer forgé",
+        "modillon",
+        "frise",
+        "travée",
+        "bandeau"
       ],
       "dateCapture": "2004:03:28"
     },
@@ -46,6 +82,7 @@
         "fronton",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:03:28"
     },
     {
@@ -54,6 +91,7 @@
         "fenetre",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:03:28"
     },
     {
@@ -63,6 +101,7 @@
         "garde-corps",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:03:28"
     }
   ]

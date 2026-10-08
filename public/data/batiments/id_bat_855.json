@@ -29,21 +29,71 @@
   "image_ref": "Vieille-Du-Temple-137_3_§1",
   "terme_jantzen_bat": [
     "oeil-de-boeuf",
+    "sculpture",
+    "console",
     "fenetre",
     "façade",
-    "console",
-    "garde-corps",
-    "sculpture",
-    "porte-bois",
+    "poignée-porte",
     "fronton",
-    "décor",
-    "poignée-porte"
+    "garde-corps",
+    "porte-bois",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "auvent",
+    "balcon",
+    "balustrade",
+    "chambranle",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "grille",
+    "lucarne",
+    "mansarde",
+    "oculus",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "souche de cheminée",
+    "soupirail",
+    "travée",
+    "vantail",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Vieille-Du-Temple-137_3_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "porte",
+        "portail",
+        "vantail",
+        "arc en plein cintre",
+        "oculus",
+        "corniche",
+        "lucarne",
+        "mansarde",
+        "fronton",
+        "pierre de taille",
+        "chambranle",
+        "volet",
+        "travée",
+        "soupirail",
+        "auvent",
+        "souche de cheminée",
+        "grille",
+        "chaîne d'angle",
+        "fer forgé"
       ],
       "dateCapture": "2006:07:18"
     },
@@ -54,6 +104,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:22"
     },
     {
@@ -63,6 +114,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:22"
     },
     {
@@ -72,6 +124,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:22"
     },
     {
@@ -81,6 +134,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:22"
     },
     {
@@ -90,6 +144,7 @@
         "oeil-de-boeuf",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:07:08"
     },
     {
@@ -99,6 +154,7 @@
         "oeil-de-boeuf",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:03"
     },
     {
@@ -106,6 +162,7 @@
       "IndexJantzen": [
         "poignée-porte"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:07:08"
     },
     {
@@ -115,6 +172,7 @@
         "fronton",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:03"
     },
     {
@@ -124,6 +182,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:22"
     },
     {
@@ -132,6 +191,7 @@
         "décor",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:22"
     },
     {
@@ -140,6 +200,7 @@
         "décor",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:03"
     },
     {
@@ -148,6 +209,7 @@
         "décor",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:03"
     },
     {
@@ -155,6 +217,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:07:08"
     }
   ]

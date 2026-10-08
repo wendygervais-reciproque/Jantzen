@@ -32,20 +32,62 @@
   "WPfr": null,
   "image_ref": "St-Michel-88_6_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "console",
     "sculpture",
-    "porte-bois",
     "fenetre-d'angle",
+    "fenetre",
     "cariatide",
+    "console",
     "fronton",
-    "colonne"
+    "colonne",
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "linteau",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "souche de cheminée",
+    "toit en pavillon",
+    "travée"
   ],
   "photos": [
     {
       "id_pic": "St-Michel-88_6_§1",
       "IndexJantzen": [
         "fenetre-d'angle"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "lucarne",
+        "mansarde",
+        "corniche",
+        "bandeau",
+        "pilastre",
+        "mascaron",
+        "souche de cheminée",
+        "fer forgé",
+        "ardoise",
+        "pierre de taille",
+        "oculus",
+        "travée",
+        "chambranle",
+        "linteau",
+        "toit en pavillon"
       ],
       "dateCapture": "2006:04:03"
     },
@@ -56,6 +98,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:09:24"
     },
     {
@@ -64,6 +107,7 @@
         "cariatide",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:03:27"
     },
     {
@@ -72,6 +116,7 @@
         "cariatide",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:09:24"
     },
     {
@@ -80,6 +125,7 @@
         "cariatide",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:09:24"
     },
     {
@@ -88,6 +134,7 @@
         "cariatide",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:03:27"
     },
     {
@@ -96,6 +143,7 @@
         "colonne",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:03:27"
     },
     {
@@ -104,6 +152,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:03"
     },
     {
@@ -113,6 +162,7 @@
         "fenetre",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:03:19"
     },
     {
@@ -121,6 +171,7 @@
         "cariatide",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:03"
     },
     {
@@ -129,6 +180,7 @@
         "cariatide",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:03:19"
     },
     {
@@ -137,6 +189,7 @@
         "cariatide",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:03:19"
     },
     {
@@ -145,6 +198,7 @@
         "cariatide",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:03"
     },
     {
@@ -154,6 +208,7 @@
         "fenetre",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:03:27"
     },
     {
@@ -164,6 +219,7 @@
         "fronton",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:03:19"
     }
   ]

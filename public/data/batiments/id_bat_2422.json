@@ -21,8 +21,15 @@
   "WPfr": null,
   "image_ref": "Gros-39_16_§2",
   "terme_jantzen_bat": [
-    "mosaique",
-    "porte-fer-hall"
+    "porte-fer-hall",
+    "mosaique"
+  ],
+  "terme_torneh_bat": [
+    "chambranle",
+    "céramique",
+    "fer",
+    "porte",
+    "vantail"
   ],
   "photos": [
     {
@@ -30,6 +37,13 @@
       "IndexJantzen": [
         "mosaique",
         "porte-fer-hall"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "vantail",
+        "chambranle",
+        "fer",
+        "céramique"
       ],
       "dateCapture": "2004:07:25"
     }

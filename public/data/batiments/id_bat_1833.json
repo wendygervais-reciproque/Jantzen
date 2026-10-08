@@ -24,10 +24,27 @@
   "image_ref": "Garibaldi-25_15_§1",
   "terme_jantzen_bat": [
     "porte-fer",
-    "fenetre",
-    "console",
     "sculpture",
+    "console",
+    "fenetre",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "brique",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "fer",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "modillon",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -37,6 +54,23 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "porte-fenêtre",
+        "brique",
+        "corniche",
+        "modillon",
+        "mascaron",
+        "chaîne d'angle",
+        "travée",
+        "souche de cheminée",
+        "volet",
+        "fer"
+      ],
       "dateCapture": "2004:09:06"
     },
     {
@@ -45,6 +79,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:06"
     },
     {
@@ -52,6 +87,7 @@
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:06"
     }
   ]

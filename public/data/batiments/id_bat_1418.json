@@ -26,12 +26,46 @@
     "fenetre",
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "chambranle",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "grille",
+    "linteau",
+    "mascaron",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "porte-fenêtre",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Courcelles-bd-2_17_§1",
       "IndexJantzen": [
         "fenetre",
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "porte-fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "sculpture",
+        "mascaron",
+        "pierre de taille",
+        "chambranle",
+        "linteau",
+        "vantail",
+        "grille",
+        "fer forgé",
+        "pilastre"
       ],
       "dateCapture": null
     }

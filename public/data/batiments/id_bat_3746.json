@@ -28,14 +28,52 @@
   "WPfr": null,
   "image_ref": "Montparnasse-bd-87_6_§1",
   "terme_jantzen_bat": [
+    "porte-fer-hall",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "chambranle",
+    "fenêtre",
+    "fer forgé",
+    "frise",
+    "fronton",
+    "garde-corps",
     "lucarne",
-    "porte-fer-hall"
+    "mansarde",
+    "oriel",
+    "pierre de taille",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "toit à deux versants",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Montparnasse-bd-87_6_§1",
       "IndexJantzen": [
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "lucarne",
+        "mansarde",
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "porte-fenêtre",
+        "volet",
+        "fer forgé",
+        "ardoise",
+        "pierre de taille",
+        "balustrade",
+        "fronton",
+        "chambranle",
+        "frise",
+        "oriel",
+        "toit à deux versants",
+        "souche de cheminée"
       ],
       "dateCapture": "2008:01:07"
     },
@@ -44,6 +82,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:01:07"
     },
     {
@@ -51,6 +90,7 @@
       "IndexJantzen": [
         "porte-fer-hall"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:13"
     }
   ]

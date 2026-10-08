@@ -21,16 +21,50 @@
   "WPfr": null,
   "image_ref": "Payenne-7_3_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "façade",
-    "décor",
-    "clé"
+    "clé",
+    "fenetre",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "frise",
+    "garde-corps",
+    "linteau",
+    "mascaron",
+    "modillon",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Payenne-7_3_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "volet",
+        "arc en plein cintre",
+        "corniche",
+        "frise",
+        "mascaron",
+        "modillon",
+        "bandeau",
+        "travée",
+        "fer forgé",
+        "chambranle",
+        "linteau"
       ],
       "dateCapture": "2006:04:22"
     },
@@ -41,6 +75,7 @@
         "décor",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:22"
     }
   ]

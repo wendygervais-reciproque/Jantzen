@@ -29,19 +29,40 @@
   "image_ref": "Faubourg-St-Martin-72_10_§1",
   "terme_jantzen_bat": [
     "toiture",
-    "fenetre",
-    "lucarne",
     "porte-fer",
     "tourelle",
     "sculpture",
-    "chimère",
-    "clé",
     "pilastre",
+    "clé",
     "fenetre-d'angle",
-    "lucarne-d'angle",
+    "fenetre",
+    "lucarne",
     "fronton",
-    "décor",
-    "colonne"
+    "chimère",
+    "lucarne-d'angle",
+    "colonne",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balustrade",
+    "chapiteau corinthien",
+    "colonne",
+    "corniche",
+    "fenêtre",
+    "frise",
+    "fronton",
+    "lucarne",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "tour",
+    "travée",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -51,6 +72,27 @@
         "lucarne",
         "toiture"
       ],
+      "IndexTorneh": [
+        "tour",
+        "épi de faîtage",
+        "lucarne",
+        "souche de cheminée",
+        "fronton",
+        "colonne",
+        "pilastre",
+        "chapiteau corinthien",
+        "sculpture",
+        "fenêtre",
+        "corniche",
+        "frise",
+        "balustrade",
+        "ardoise",
+        "pierre de taille",
+        "toit à deux versants",
+        "oculus",
+        "travée",
+        "mascaron"
+      ],
       "dateCapture": "2005:08:04"
     },
     {
@@ -59,6 +101,7 @@
         "décor",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:04"
     },
     {
@@ -67,6 +110,7 @@
         "toiture",
         "tourelle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:15"
     },
     {
@@ -75,6 +119,7 @@
         "toiture",
         "tourelle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:15"
     },
     {
@@ -82,6 +127,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:11"
     },
     {
@@ -90,6 +136,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:04"
     },
     {
@@ -99,6 +146,7 @@
         "pilastre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:11"
     },
     {
@@ -107,6 +155,7 @@
         "colonne",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:05:24"
     },
     {
@@ -115,6 +164,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:11"
     },
     {
@@ -123,6 +173,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:11"
     },
     {
@@ -130,6 +181,7 @@
       "IndexJantzen": [
         "colonne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:11"
     },
     {
@@ -138,6 +190,7 @@
         "lucarne",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:11"
     },
     {
@@ -146,6 +199,7 @@
         "colonne",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:11"
     },
     {
@@ -154,6 +208,7 @@
         "chimère",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:11"
     },
     {
@@ -161,6 +216,7 @@
       "IndexJantzen": [
         "colonne"
       ],
+      "IndexTorneh": [],
       "dateCapture": null
     },
     {
@@ -169,6 +225,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:11"
     },
     {
@@ -178,6 +235,7 @@
         "clé",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:11"
     },
     {
@@ -185,6 +243,7 @@
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:04"
     },
     {
@@ -192,6 +251,7 @@
       "IndexJantzen": [
         "tourelle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:04"
     },
     {
@@ -199,6 +259,7 @@
       "IndexJantzen": [
         "tourelle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:11"
     },
     {
@@ -208,6 +269,7 @@
         "fenetre-d'angle",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:11"
     },
     {
@@ -215,6 +277,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:04"
     },
     {
@@ -222,6 +285,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:11"
     },
     {
@@ -231,6 +295,7 @@
         "lucarne-d'angle",
         "pilastre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:11"
     },
     {
@@ -238,6 +303,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:05:24"
     }
   ]

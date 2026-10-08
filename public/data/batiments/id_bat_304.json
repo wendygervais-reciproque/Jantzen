@@ -29,11 +29,31 @@
   "image_ref": "Chardin-10_16_§1",
   "terme_jantzen_bat": [
     "oeil-de-boeuf",
+    "balcon",
     "fenetre",
     "lucarne",
-    "porte-bois",
+    "fronton",
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
     "balcon",
-    "fronton"
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "mascaron",
+    "modillon",
+    "oculus",
+    "oriel",
+    "pierre de taille",
+    "pilastre",
+    "souche de cheminée",
+    "toit à deux versants",
+    "volet",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -43,6 +63,26 @@
         "fronton",
         "lucarne"
       ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "oculus",
+        "ardoise",
+        "fronton",
+        "corniche",
+        "pierre de taille",
+        "souche de cheminée",
+        "épi de faîtage",
+        "oriel",
+        "modillon",
+        "mascaron",
+        "volet",
+        "pilastre",
+        "arc en plein cintre",
+        "toit à deux versants",
+        "bandeau"
+      ],
       "dateCapture": "2005:09:03"
     },
     {
@@ -51,6 +91,7 @@
         "fronton",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:09:03"
     },
     {
@@ -59,6 +100,7 @@
         "fenetre",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:09:03"
     }
   ]

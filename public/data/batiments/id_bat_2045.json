@@ -28,20 +28,58 @@
   "WPfr": null,
   "image_ref": "Jussieu-pl-3_5_§1",
   "terme_jantzen_bat": [
+    "colonne",
+    "sculpture",
+    "clé",
     "fenetre",
     "façade",
     "garde-corps",
-    "sculpture",
-    "clé",
     "porte-bois",
-    "décor",
-    "colonne"
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "atlante",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chapiteau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "frise",
+    "garde-corps",
+    "mascaron",
+    "pierre de taille",
+    "pilastre",
+    "porte-fenêtre",
+    "sculpture",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Jussieu-pl-3_5_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "porte-fenêtre",
+        "pilastre",
+        "corniche",
+        "bandeau",
+        "mascaron",
+        "atlante",
+        "sculpture",
+        "balustrade",
+        "volet",
+        "travée",
+        "frise",
+        "chapiteau",
+        "fer forgé",
+        "pierre de taille"
       ],
       "dateCapture": "2004:05:19"
     },
@@ -51,6 +89,7 @@
         "décor",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:08"
     },
     {
@@ -60,6 +99,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:05:19"
     },
     {
@@ -69,6 +109,7 @@
         "décor",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:08"
     },
     {
@@ -77,6 +118,7 @@
         "colonne",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:17"
     }
   ]

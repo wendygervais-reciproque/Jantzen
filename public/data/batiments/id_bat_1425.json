@@ -29,25 +29,73 @@
   "image_ref": "St-Germain-2_5_§1",
   "terme_jantzen_bat": [
     "toiture",
-    "fenetre",
-    "façade",
-    "lucarne",
     "façade-d'angle",
-    "porte",
     "sculpture",
-    "porte-bois",
     "clé",
     "intérieur",
-    "lucarne-d'angle",
+    "fenetre",
     "cariatide",
+    "lucarne",
+    "façade",
+    "porte",
     "fronton",
-    "colonne"
+    "lucarne-d'angle",
+    "colonne",
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "vitrail",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "St-Germain-2_5_§1",
       "IndexJantzen": [
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "bandeau",
+        "corniche",
+        "fenêtre",
+        "fronton",
+        "garde-corps",
+        "lucarne",
+        "mansarde",
+        "mascaron",
+        "oculus",
+        "pierre de taille",
+        "pilastre",
+        "porte",
+        "souche de cheminée",
+        "toit à deux versants",
+        "vitrail",
+        "volet",
+        "fer forgé",
+        "ardoise",
+        "sculpture",
+        "fer"
       ],
       "dateCapture": "2008:02:24"
     },
@@ -58,6 +106,7 @@
         "intérieur",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:27"
     },
     {
@@ -65,6 +114,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:01"
     },
     {
@@ -73,6 +123,7 @@
         "lucarne-d'angle",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:24"
     },
     {
@@ -81,6 +132,7 @@
         "fenetre",
         "porte"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:01"
     },
     {
@@ -88,6 +140,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:24"
     },
     {
@@ -95,6 +148,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:01"
     },
     {
@@ -105,6 +159,7 @@
         "porte-bois",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:05:25"
     },
     {
@@ -115,6 +170,7 @@
         "porte-bois",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:08:30"
     },
     {
@@ -123,6 +179,7 @@
         "fronton",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:03:19"
     },
     {
@@ -132,6 +189,7 @@
         "porte-bois",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:08:30"
     },
     {
@@ -140,6 +198,7 @@
         "porte-bois",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:05:25"
     },
     {
@@ -150,6 +209,7 @@
         "porte-bois",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:08:30"
     }
   ]

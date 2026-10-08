@@ -23,11 +23,47 @@
   "terme_jantzen_bat": [
     "lucarne-d'angle"
   ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "modillon",
+    "mur-boutant",
+    "oculus",
+    "pierre de taille",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "La-Fayette-129_10_§1",
       "IndexJantzen": [
         "lucarne-d'angle"
+      ],
+      "IndexTorneh": [
+        "lucarne",
+        "mansarde",
+        "souche de cheminée",
+        "ardoise",
+        "corniche",
+        "modillon",
+        "garde-corps",
+        "balcon",
+        "fer forgé",
+        "fenêtre",
+        "volet",
+        "pierre de taille",
+        "mur-boutant",
+        "oculus",
+        "chaîne d'angle",
+        "porte-fenêtre"
       ],
       "dateCapture": "2008:03:05"
     },
@@ -36,6 +72,7 @@
       "IndexJantzen": [
         "lucarne-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:03:05"
     }
   ]

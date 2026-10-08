@@ -28,7 +28,21 @@
   "WPfr": null,
   "image_ref": "Fel-Ziem-8_18_§1",
   "terme_jantzen_bat": [
-    "fenetre",
+    "sculpture",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bossage",
+    "chambranle",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "modillon",
+    "pierre de taille",
+    "porte-fenêtre",
     "sculpture"
   ],
   "photos": [
@@ -37,6 +51,20 @@
       "IndexJantzen": [
         "fenetre",
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "porte-fenêtre",
+        "fenêtre",
+        "modillon",
+        "pierre de taille",
+        "chambranle",
+        "bossage",
+        "sculpture",
+        "mascaron"
       ],
       "dateCapture": "2005:05:19"
     }

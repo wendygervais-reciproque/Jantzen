@@ -23,11 +23,23 @@
   "WPfr": null,
   "image_ref": "Vieille-Du-Temple-54_3_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "façade",
-    "pignon",
+    "façade-d'angle",
     "tourelle",
-    "façade-d'angle"
+    "pignon",
+    "fenetre",
+    "façade"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "chaîne d'angle",
+    "fenêtre",
+    "oculus",
+    "pierre de taille",
+    "porte",
+    "toit à deux versants",
+    "tuile",
+    "vitrail",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -35,6 +47,18 @@
       "IndexJantzen": [
         "façade",
         "pignon"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "pierre de taille",
+        "chaîne d'angle",
+        "toit à deux versants",
+        "ardoise",
+        "épi de faîtage",
+        "oculus",
+        "porte",
+        "vitrail",
+        "tuile"
       ],
       "dateCapture": "2004:09:09"
     },
@@ -44,6 +68,7 @@
         "façade-d'angle",
         "tourelle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:08:01"
     },
     {
@@ -53,6 +78,7 @@
         "pignon",
         "tourelle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:08:01"
     }
   ]

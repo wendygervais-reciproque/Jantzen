@@ -21,11 +21,27 @@
   "WPfr": null,
   "image_ref": "Regard-14_6_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "garde-corps",
-    "sculpture",
     "atlante",
-    "cariatide"
+    "sculpture",
+    "cariatide",
+    "fenetre",
+    "garde-corps"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "modillon",
+    "pierre de taille",
+    "pilastre",
+    "porte-fenêtre",
+    "sculpture",
+    "volet"
   ],
   "photos": [
     {
@@ -35,6 +51,22 @@
         "cariatide",
         "fenetre",
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "mascaron",
+        "fenêtre",
+        "porte-fenêtre",
+        "pierre de taille",
+        "modillon",
+        "bandeau",
+        "pilastre",
+        "sculpture",
+        "corniche",
+        "volet"
       ],
       "dateCapture": "2006:05:14"
     },
@@ -47,6 +79,7 @@
         "garde-corps",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:05:14"
     }
   ]

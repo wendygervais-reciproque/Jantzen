@@ -21,8 +21,19 @@
   "WPfr": null,
   "image_ref": "Bonne-Nouvelle-11_2_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "garde-corps"
+    "garde-corps",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "bandeau",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "pierre de taille",
+    "sculpture",
+    "travée"
   ],
   "photos": [
     {
@@ -30,6 +41,17 @@
       "IndexJantzen": [
         "fenetre",
         "garde-corps"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "arc en plein cintre",
+        "sculpture",
+        "bandeau",
+        "pierre de taille",
+        "fer forgé",
+        "travée"
       ],
       "dateCapture": "2007:06:03"
     }

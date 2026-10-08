@@ -26,12 +26,40 @@
     "fenetre",
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "pierre de taille",
+    "pilastre",
+    "porte-fenêtre",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Francois-Miron-44_4_§1",
       "IndexJantzen": [
         "fenetre",
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "porte-fenêtre",
+        "lucarne",
+        "mansarde",
+        "fronton",
+        "pilastre",
+        "garde-corps",
+        "ardoise",
+        "pierre de taille",
+        "chaîne d'angle",
+        "volet",
+        "corniche"
       ],
       "dateCapture": "2010:06:05"
     },
@@ -40,6 +68,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:06:05"
     },
     {
@@ -47,6 +76,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:06:05"
     }
   ]

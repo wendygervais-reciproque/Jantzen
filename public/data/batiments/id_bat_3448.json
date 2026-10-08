@@ -28,13 +28,29 @@
   "WPfr": null,
   "image_ref": "Victor-Considerant-7_14_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "garde-corps",
-    "console",
     "sculpture",
+    "clé",
+    "console",
+    "fenetre",
     "chimère",
-    "porte-bois",
-    "clé"
+    "garde-corps",
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "chambranle",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "modillon",
+    "pierre de taille",
+    "pilastre",
+    "sculpture",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -42,6 +58,22 @@
       "IndexJantzen": [
         "fenetre",
         "garde-corps"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "garde-corps",
+        "fer forgé",
+        "pierre de taille",
+        "arc en plein cintre",
+        "mascaron",
+        "modillon",
+        "sculpture",
+        "pilastre",
+        "chambranle",
+        "travée",
+        "volet"
       ],
       "dateCapture": "2004:07:28"
     },
@@ -51,6 +83,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:28"
     },
     {
@@ -58,6 +91,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:28"
     },
     {
@@ -67,6 +101,7 @@
         "clé",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:28"
     }
   ]

@@ -29,15 +29,55 @@
   "image_ref": "Exelmans-50_16_§1",
   "terme_jantzen_bat": [
     "toiture",
-    "lucarne",
     "balcon",
-    "fenetre-d'angle"
+    "fenetre-d'angle",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "oculus",
+    "pierre de taille",
+    "porte",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "vitrail",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Exelmans-50_16_§1",
       "IndexJantzen": [
         "fenetre-d'angle"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "lucarne",
+        "mansarde",
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "ardoise",
+        "souche de cheminée",
+        "oculus",
+        "corniche",
+        "bandeau",
+        "volet",
+        "travée",
+        "pierre de taille",
+        "toit à deux versants",
+        "fer forgé",
+        "porte",
+        "vitrail"
       ],
       "dateCapture": "2007:04:21"
     },
@@ -47,6 +87,7 @@
         "balcon",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:21"
     },
     {
@@ -55,6 +96,7 @@
         "lucarne",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:21"
     },
     {
@@ -62,6 +104,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:21"
     }
   ]

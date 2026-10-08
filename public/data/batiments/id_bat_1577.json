@@ -21,9 +21,27 @@
   "WPfr": null,
   "image_ref": "Printemps-20_17_§1",
   "terme_jantzen_bat": [
-    "lucarne",
+    "oriel",
     "métal",
-    "oriel"
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "corniche",
+    "céramique",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oriel",
+    "pierre de taille",
+    "verrière",
+    "vitrail",
+    "volet"
   ],
   "photos": [
     {
@@ -32,6 +50,24 @@
         "lucarne",
         "métal",
         "oriel"
+      ],
+      "IndexTorneh": [
+        "oriel",
+        "lucarne",
+        "mansarde",
+        "fronton",
+        "ardoise",
+        "corniche",
+        "mascaron",
+        "garde-corps",
+        "fer forgé",
+        "vitrail",
+        "fenêtre",
+        "volet",
+        "verrière",
+        "céramique",
+        "pierre de taille",
+        "balcon"
       ],
       "dateCapture": "2004:04:16"
     }

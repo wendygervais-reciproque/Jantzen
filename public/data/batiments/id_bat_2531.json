@@ -24,10 +24,26 @@
   "image_ref": "Moncey-4_9_§1",
   "terme_jantzen_bat": [
     "porte-fer",
-    "fenetre",
-    "console",
     "sculpture",
-    "clé"
+    "clé",
+    "console",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "chambranle",
+    "fenêtre",
+    "fer forgé",
+    "jambage",
+    "linteau",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "porte-fenêtre",
+    "sculpture",
+    "vantail"
   ],
   "photos": [
     {
@@ -35,6 +51,22 @@
       "IndexJantzen": [
         "fenetre",
         "porte-fer"
+      ],
+      "IndexTorneh": [
+        "arc en plein cintre",
+        "balcon",
+        "balustrade",
+        "chambranle",
+        "fer forgé",
+        "fenêtre",
+        "porte",
+        "porte-fenêtre",
+        "pierre de taille",
+        "sculpture",
+        "vantail",
+        "mascaron",
+        "linteau",
+        "jambage"
       ],
       "dateCapture": "2005:05:21"
     },
@@ -44,6 +76,7 @@
         "clé",
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:14"
     },
     {
@@ -52,6 +85,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:21"
     }
   ]

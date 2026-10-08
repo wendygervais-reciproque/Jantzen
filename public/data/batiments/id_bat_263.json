@@ -21,15 +21,43 @@
   "WPfr": null,
   "image_ref": "St-Julien-le-Pauvre-1_5_§1",
   "terme_jantzen_bat": [
-    "lucarne",
+    "façade",
     "fenetre",
-    "façade"
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "auvent",
+    "colombage",
+    "fenêtre",
+    "garde-corps",
+    "grille",
+    "lucarne",
+    "mansarde",
+    "oculus",
+    "pierre de taille",
+    "souche de cheminée",
+    "toit à deux versants",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "St-Julien-le-Pauvre-1_5_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "colombage",
+        "fenêtre",
+        "lucarne",
+        "mansarde",
+        "toit à deux versants",
+        "souche de cheminée",
+        "grille",
+        "pierre de taille",
+        "oculus",
+        "auvent",
+        "garde-corps",
+        "volet"
       ],
       "dateCapture": "2008:03:29"
     },
@@ -38,6 +66,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:03:29"
     },
     {
@@ -45,6 +74,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:03:29"
     },
     {
@@ -52,6 +82,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:03:29"
     }
   ]

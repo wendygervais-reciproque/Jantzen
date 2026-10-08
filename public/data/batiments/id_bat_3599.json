@@ -28,17 +28,53 @@
   "WPfr": null,
   "image_ref": "Adolphe_Focillon-8_14_§1",
   "terme_jantzen_bat": [
-    "façade",
+    "balcon",
     "sculpture",
+    "façade",
     "porte-fer-hall",
-    "décor",
-    "balcon"
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "pierre de taille",
+    "porte",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "toit à deux versants",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Adolphe_Focillon-8_14_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "porte-fenêtre",
+        "volet",
+        "mansarde",
+        "lucarne",
+        "souche de cheminée",
+        "bandeau",
+        "corniche",
+        "pierre de taille",
+        "fer forgé",
+        "porte",
+        "ardoise",
+        "toit à deux versants"
       ],
       "dateCapture": "2004:04:15"
     },
@@ -49,6 +85,7 @@
         "décor",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:04:15"
     },
     {
@@ -56,6 +93,7 @@
       "IndexJantzen": [
         "porte-fer-hall"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:04:15"
     }
   ]

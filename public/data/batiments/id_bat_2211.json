@@ -28,10 +28,39 @@
   "WPfr": null,
   "image_ref": "St-Georges-Pl-32_9_1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "lucarne",
+    "façade",
     "fronton",
-    "façade"
+    "fenetre",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "frise",
+    "garde-corps",
+    "grille",
+    "lucarne",
+    "mansarde",
+    "marquise",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "portail",
+    "porte",
+    "sculpture",
+    "souche de cheminée",
+    "vantail",
+    "volet"
   ],
   "photos": [
     {
@@ -39,6 +68,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:17"
     },
     {
@@ -46,12 +76,42 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:17"
     },
     {
       "id_pic": "St-Georges-Pl-32_9_1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "lucarne",
+        "souche de cheminée",
+        "mansarde",
+        "arc en plein cintre",
+        "arc",
+        "pierre de taille",
+        "corniche",
+        "chambranle",
+        "pilastre",
+        "frise",
+        "mascaron",
+        "porte",
+        "portail",
+        "vantail",
+        "grille",
+        "fer forgé",
+        "ardoise",
+        "marquise",
+        "volet",
+        "oculus",
+        "chaîne d'angle",
+        "bandeau",
+        "sculpture"
       ],
       "dateCapture": "2004:06:16"
     },
@@ -61,6 +121,7 @@
         "fenetre",
         "fronton"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:06:16"
     }
   ]

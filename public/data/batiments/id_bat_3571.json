@@ -28,10 +28,31 @@
   "WPfr": null,
   "image_ref": "Rembrandt_7A_8_09",
   "terme_jantzen_bat": [
-    "console",
+    "oriel",
     "métal",
-    "décor",
-    "oriel"
+    "console",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oriel",
+    "pierre de taille",
+    "sculpture",
+    "souche de cheminée",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -40,6 +61,7 @@
         "métal",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:08:13"
     },
     {
@@ -49,6 +71,7 @@
         "décor",
         "métal"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:08:13"
     },
     {
@@ -56,6 +79,27 @@
       "IndexJantzen": [
         "métal",
         "oriel"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "lucarne",
+        "mansarde",
+        "oriel",
+        "arc en plein cintre",
+        "volet",
+        "souche de cheminée",
+        "sculpture",
+        "mascaron",
+        "pierre de taille",
+        "ardoise",
+        "fronton",
+        "corniche",
+        "bandeau",
+        "travée"
       ],
       "dateCapture": "2003:08:13"
     }

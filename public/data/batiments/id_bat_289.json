@@ -23,11 +23,45 @@
   "terme_jantzen_bat": [
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chéneau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "pierre de taille",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Emile-Augier-10_16_§1",
       "IndexJantzen": [
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "porte-fenêtre",
+        "garde-corps",
+        "fer forgé",
+        "lucarne",
+        "mansarde",
+        "souche de cheminée",
+        "ardoise",
+        "corniche",
+        "bandeau",
+        "volet",
+        "pierre de taille",
+        "chéneau"
       ],
       "dateCapture": "2007:03:27"
     }

@@ -24,12 +24,44 @@
     "fenetre",
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "garde-corps",
+    "jambage",
+    "linteau",
+    "mascaron",
+    "modillon",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Daru-15_8_§1",
       "IndexJantzen": [
         "fenetre",
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "mascaron",
+        "sculpture",
+        "pierre de taille",
+        "chambranle",
+        "linteau",
+        "corniche",
+        "modillon",
+        "vantail",
+        "jambage"
       ],
       "dateCapture": "2004:09:17"
     }

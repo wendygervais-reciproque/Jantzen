@@ -39,12 +39,36 @@
     "sculpture",
     "console"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "brique",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "grille",
+    "modillon",
+    "pierre de taille",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Belleville-143_19_§1",
       "IndexJantzen": [
         "console",
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "brique",
+        "corniche",
+        "fenêtre",
+        "garde-corps",
+        "grille",
+        "modillon",
+        "pierre de taille",
+        "volet",
+        "balcon",
+        "fer forgé"
       ],
       "dateCapture": "2005:09:02"
     }

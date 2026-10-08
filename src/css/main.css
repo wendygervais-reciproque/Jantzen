@@ -458,6 +458,10 @@ button { font-family: inherit; }
   background: var(--surface-level-01);
 }
 .md-sticky-sentinel { height: 1px; margin-bottom: -1px; }
+/* La liste des éléments suit l'en-tête mais n'en fait pas partie : seule la
+   ligne titre + dropdown reste figée, la liste défile avec la galerie. Elle
+   disparaît avec l'en-tête quand celui-ci est masqué (chargement). */
+#md-photos-header[hidden] + #md-elem-groups { display: none; }
 /* Rappel du nom du bâtiment : masqué tant que le titre de la fiche (plus
    haut, .md-title) reste visible ; affiché seulement une fois l'en-tête
    réellement figé en haut du volet, pour ne pas perdre le contexte pendant
@@ -1116,6 +1120,31 @@ button { font-family: inherit; }
   container-type: inline-size;   /* le volet est redimensionnable : cf. plus bas */
 }
 .archi-groups[hidden] { display: none; }
+/* Un bloc par index photo (Index Jantzen, Torne-H), chacun titré. */
+.archi-index + .archi-index { margin-top: var(--component-12); }
+.archi-index-title {
+  margin: 0;
+  padding: var(--component-8) 0 var(--component-4);
+  font: var(--text-body-base);
+  font-weight: var(--fw-700);
+  color: var(--text-primary);
+}
+/* Puces Torne-H : même gabarit, teinte froide pour les distinguer. */
+.chip.chip--torneh {
+  background: var(--tag-torneh-background-default);
+  border-color: var(--tag-torneh-border-default);
+  color: var(--tag-torneh-content-default);
+}
+.chip.chip--torneh:hover {
+  background: var(--tag-torneh-background-hover);
+  border-color: var(--tag-torneh-border-hover);
+  color: var(--tag-torneh-content-hover);
+}
+.chip.chip--torneh.active {
+  background: var(--tag-torneh-background-selected);
+  border-color: var(--tag-torneh-border-selected);
+  color: var(--tag-torneh-content-selected);
+}
 .archi-group { padding: var(--component-4) 0; }
 .archi-group-label {
   display: block;

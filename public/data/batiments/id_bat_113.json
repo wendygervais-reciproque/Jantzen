@@ -32,14 +32,34 @@
   "WPfr": "Palais de justice de Paris",
   "image_ref": "Horloge-Qu_Palais-Justice_1_§2",
   "terme_jantzen_bat": [
+    "dome",
     "porte-fer",
+    "sculpture",
+    "pilastre",
     "fenetre",
     "façade",
-    "sculpture",
-    "dome",
-    "pilastre",
     "fronton",
     "colonne"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "colonne",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "tour",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -47,6 +67,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:16"
     },
     {
@@ -56,6 +77,7 @@
         "fronton",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:13"
     },
     {
@@ -64,6 +86,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:13"
     },
     {
@@ -72,6 +95,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:13"
     },
     {
@@ -79,6 +103,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2018:06:30"
     },
     {
@@ -86,6 +111,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2018:06:30"
     },
     {
@@ -93,6 +119,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2018:06:30"
     },
     {
@@ -100,6 +127,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2018:06:30"
     },
     {
@@ -107,6 +135,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:14"
     },
     {
@@ -114,6 +143,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:19"
     },
     {
@@ -121,12 +151,33 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:19"
     },
     {
       "id_pic": "Horloge-Qu_Palais-Justice_1_§2",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fronton",
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "tour",
+        "souche de cheminée",
+        "sculpture",
+        "corniche",
+        "fer forgé",
+        "pilastre",
+        "lucarne",
+        "toit à deux versants",
+        "pierre de taille",
+        "arc en plein cintre",
+        "balustrade",
+        "épi de faîtage",
+        "porte",
+        "colonne"
       ],
       "dateCapture": "2018:06:30"
     },
@@ -135,6 +186,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:19"
     },
     {
@@ -143,6 +195,7 @@
         "colonne",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:19"
     },
     {
@@ -152,6 +205,7 @@
         "fenetre",
         "pilastre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:07:12"
     },
     {
@@ -160,6 +214,7 @@
         "fenetre",
         "pilastre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:07:12"
     },
     {
@@ -168,6 +223,7 @@
         "colonne",
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:16"
     },
     {
@@ -178,6 +234,7 @@
         "fronton",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:13"
     },
     {
@@ -187,6 +244,7 @@
         "fronton",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:13"
     },
     {
@@ -196,6 +254,7 @@
         "fronton",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:03"
     },
     {
@@ -203,6 +262,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2018:06:30"
     },
     {
@@ -211,6 +271,7 @@
         "dome",
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:19"
     },
     {
@@ -218,6 +279,7 @@
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:19"
     }
   ]

@@ -21,14 +21,32 @@
   "WPfr": null,
   "image_ref": "Alfred-de-Vigny-6_8_§1",
   "terme_jantzen_bat": [
-    "porte-fer",
-    "poignée-porte"
+    "poignée-porte",
+    "porte-fer"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "fer forgé",
+    "heurtoir",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "vantail"
   ],
   "photos": [
     {
       "id_pic": "Alfred-de-Vigny-6_8_§1",
       "IndexJantzen": [
         "porte-fer"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "portail",
+        "fer forgé",
+        "vantail",
+        "arc en plein cintre",
+        "pierre de taille",
+        "heurtoir"
       ],
       "dateCapture": "2008:04:17"
     },
@@ -38,6 +56,7 @@
         "poignée-porte",
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:04:17"
     }
   ]

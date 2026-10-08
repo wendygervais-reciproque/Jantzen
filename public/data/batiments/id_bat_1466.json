@@ -21,15 +21,47 @@
   "WPfr": null,
   "image_ref": "Verrerie-2_4_§1",
   "terme_jantzen_bat": [
+    "façade",
     "toiture",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
     "lucarne",
-    "façade"
+    "mansarde",
+    "pierre de taille",
+    "porte",
+    "souche de cheminée",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Verrerie-2_4_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "mansarde",
+        "lucarne",
+        "balcon",
+        "garde-corps",
+        "souche de cheminée",
+        "ardoise",
+        "pierre de taille",
+        "volet",
+        "travée",
+        "porte",
+        "arc en plein cintre",
+        "balustrade",
+        "fer forgé"
       ],
       "dateCapture": "2009:03:23"
     },
@@ -39,6 +71,7 @@
         "lucarne",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:03:23"
     },
     {
@@ -46,6 +79,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:03:23"
     }
   ]

@@ -28,19 +28,71 @@
   "WPfr": null,
   "image_ref": "Saussaies-14_8_§1-Rx",
   "terme_jantzen_bat": [
+    "loggia",
+    "clé",
+    "console",
     "fenetre",
     "façade",
     "garde-corps",
-    "console",
-    "clé",
-    "loggia",
     "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "attique",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "chapiteau",
+    "colonne",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "grille",
+    "linteau",
+    "mascaron",
+    "modillon",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "portail",
+    "porte",
+    "travée",
+    "vantail"
   ],
   "photos": [
     {
       "id_pic": "Saussaies-14_8_§1-Rx",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "arc en plein cintre",
+        "arc",
+        "colonne",
+        "chapiteau",
+        "pilastre",
+        "corniche",
+        "bandeau",
+        "mascaron",
+        "modillon",
+        "portail",
+        "porte",
+        "vantail",
+        "fer forgé",
+        "pierre de taille",
+        "attique",
+        "travée",
+        "oculus",
+        "grille",
+        "chambranle",
+        "linteau"
       ],
       "dateCapture": "2012:08:10"
     },
@@ -50,6 +102,7 @@
         "façade",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:08:10"
     },
     {
@@ -57,6 +110,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:08:10"
     },
     {
@@ -64,6 +118,7 @@
       "IndexJantzen": [
         "loggia"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:06:26"
     },
     {
@@ -73,6 +128,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:08:10"
     },
     {
@@ -80,6 +136,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:06:26"
     },
     {
@@ -87,6 +144,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:06:26"
     },
     {
@@ -96,6 +154,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:06:26"
     },
     {
@@ -105,6 +164,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:06:26"
     }
   ]

@@ -23,11 +23,39 @@
   "terme_jantzen_bat": [
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "pierre de taille",
+    "souche de cheminée",
+    "toit à deux versants",
+    "épi de faîtage"
+  ],
   "photos": [
     {
       "id_pic": "Monceau-52_8_§1",
       "IndexJantzen": [
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "lucarne",
+        "épi de faîtage",
+        "ardoise",
+        "souche de cheminée",
+        "fenêtre",
+        "balustrade",
+        "corniche",
+        "bandeau",
+        "pierre de taille",
+        "fronton",
+        "garde-corps",
+        "toit à deux versants"
       ],
       "dateCapture": "2004:07:03"
     }

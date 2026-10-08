@@ -31,12 +31,36 @@
     "fenetre",
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "chambranle",
+    "fenêtre",
+    "fronton",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "vantail",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Parmentier-134_11_§1",
       "IndexJantzen": [
         "fenetre",
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "fenêtre",
+        "balustrade",
+        "balcon",
+        "pilastre",
+        "chambranle",
+        "volet",
+        "pierre de taille",
+        "vantail",
+        "fronton"
       ],
       "dateCapture": "2004:09:16"
     }

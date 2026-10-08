@@ -38,11 +38,63 @@
     "façade",
     "colonne"
   ],
+  "terme_torneh_bat": [
+    "arc brisé",
+    "arc en plein cintre",
+    "auvent",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "grille",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "vitrail",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Wagram-119_17_§1_1-Rx",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "lucarne",
+        "toit à deux versants",
+        "souche de cheminée",
+        "mansarde",
+        "arc en plein cintre",
+        "arc brisé",
+        "porte",
+        "portail",
+        "pierre de taille",
+        "bandeau",
+        "corniche",
+        "oculus",
+        "sculpture",
+        "mascaron",
+        "volet",
+        "travée",
+        "fer forgé",
+        "grille",
+        "auvent",
+        "vitrail"
       ],
       "dateCapture": "2014:02:18"
     },
@@ -52,6 +104,7 @@
         "fenetre",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2014:02:18"
     },
     {
@@ -60,6 +113,7 @@
         "fenetre",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2013:02:18"
     },
     {
@@ -69,6 +123,7 @@
         "fenetre",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:03:14"
     },
     {
@@ -76,6 +131,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:03:14"
     },
     {
@@ -83,6 +139,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:03:14"
     },
     {
@@ -90,6 +147,7 @@
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": null
     },
     {
@@ -99,6 +157,7 @@
         "fenetre",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2013:02:18"
     }
   ]

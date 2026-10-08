@@ -23,11 +23,27 @@
   "terme_jantzen_bat": [
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "fenêtre",
+    "lucarne",
+    "souche de cheminée",
+    "toit à deux versants",
+    "tuile",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Flandre-150_19_§1",
       "IndexJantzen": [
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "lucarne",
+        "souche de cheminée",
+        "tuile",
+        "fenêtre",
+        "toit à deux versants",
+        "vantail"
       ],
       "dateCapture": "2006:05:05"
     },
@@ -36,6 +52,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:02"
     },
     {
@@ -43,6 +60,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:02"
     },
     {
@@ -50,6 +68,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:15"
     }
   ]

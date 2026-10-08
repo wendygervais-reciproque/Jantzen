@@ -19,11 +19,31 @@
   "terme_jantzen_bat": [
     "pont"
   ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "dôme",
+    "fenêtre",
+    "pierre de taille",
+    "pilier",
+    "toit à deux versants",
+    "tour"
+  ],
   "photos": [
     {
       "id_pic": "La-Seine_§67",
       "IndexJantzen": [
         "pont"
+      ],
+      "IndexTorneh": [
+        "arc",
+        "arc en plein cintre",
+        "pierre de taille",
+        "dôme",
+        "tour",
+        "pilier",
+        "toit à deux versants",
+        "fenêtre"
       ],
       "dateCapture": "2008:05:15"
     },
@@ -32,6 +52,7 @@
       "IndexJantzen": [
         "pont"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:15"
     },
     {
@@ -39,6 +60,7 @@
       "IndexJantzen": [
         "pont"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:15"
     }
   ]

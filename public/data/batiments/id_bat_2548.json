@@ -23,8 +23,25 @@
   "terme_jantzen_bat": [
     "toiture",
     "fenetre",
+    "fronton",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "bandeau",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
     "lucarne",
-    "fronton"
+    "mansarde",
+    "oculus",
+    "pierre de taille",
+    "souche de cheminée",
+    "volet"
   ],
   "photos": [
     {
@@ -34,6 +51,23 @@
         "lucarne",
         "toiture"
       ],
+      "IndexTorneh": [
+        "souche de cheminée",
+        "lucarne",
+        "mansarde",
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "corniche",
+        "bandeau",
+        "pierre de taille",
+        "ardoise",
+        "chaîne d'angle",
+        "arc en plein cintre",
+        "fronton",
+        "volet",
+        "oculus"
+      ],
       "dateCapture": "2008:04:03"
     },
     {
@@ -42,6 +76,7 @@
         "fronton",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:07:22"
     },
     {
@@ -50,6 +85,7 @@
         "fronton",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:06:02"
     },
     {
@@ -57,6 +93,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:07:22"
     },
     {
@@ -64,6 +101,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:17"
     },
     {
@@ -73,6 +111,7 @@
         "lucarne",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:04:03"
     },
     {
@@ -82,6 +121,7 @@
         "fronton",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:17"
     },
     {
@@ -90,6 +130,7 @@
         "fronton",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:07:19"
     },
     {
@@ -98,6 +139,7 @@
         "fronton",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:07:19"
     },
     {
@@ -106,6 +148,7 @@
         "fronton",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:07:22"
     }
   ]

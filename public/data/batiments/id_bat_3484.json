@@ -22,21 +22,77 @@
   "image_ref": "Rennes-72_6_§1",
   "terme_jantzen_bat": [
     "toiture",
-    "fenetre",
-    "lucarne",
+    "balcon",
     "façade-d'angle",
     "sculpture",
-    "fenetre-d'angle",
     "pilastre",
+    "fenetre-d'angle",
+    "fenetre",
+    "lucarne",
     "lucarne-d'angle",
-    "décor",
-    "balcon"
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "chapiteau",
+    "colonne",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "frise",
+    "garde-corps",
+    "grille",
+    "jambage",
+    "linteau",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "porte-fenêtre",
+    "sculpture",
+    "souche de cheminée"
   ],
   "photos": [
     {
       "id_pic": "Rennes-72_6_§1",
       "IndexJantzen": [
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "dôme",
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "mansarde",
+        "souche de cheminée",
+        "corniche",
+        "bandeau",
+        "pilastre",
+        "colonne",
+        "sculpture",
+        "mascaron",
+        "garde-corps",
+        "fer forgé",
+        "porte",
+        "ardoise",
+        "oculus",
+        "chapiteau",
+        "frise",
+        "pierre de taille",
+        "arc en plein cintre",
+        "linteau",
+        "chambranle",
+        "jambage",
+        "porte-fenêtre",
+        "grille"
       ],
       "dateCapture": "2005:03:20"
     },
@@ -47,6 +103,7 @@
         "décor",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:11"
     },
     {
@@ -56,6 +113,7 @@
         "fenetre-d'angle",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:03:20"
     },
     {
@@ -66,6 +124,7 @@
         "pilastre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:22"
     },
     {
@@ -74,6 +133,7 @@
         "fenetre-d'angle",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:11"
     },
     {
@@ -81,6 +141,7 @@
       "IndexJantzen": [
         "lucarne-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:22"
     },
     {
@@ -88,6 +149,7 @@
       "IndexJantzen": [
         "lucarne-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:22"
     },
     {
@@ -95,6 +157,7 @@
       "IndexJantzen": [
         "lucarne-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:22"
     },
     {
@@ -103,6 +166,7 @@
         "fenetre",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:03:20"
     },
     {
@@ -113,6 +177,7 @@
         "pilastre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:22"
     }
   ]

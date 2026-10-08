@@ -28,20 +28,50 @@
   "WPfr": null,
   "image_ref": "Versailles-31_16_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "console",
-    "garde-corps",
-    "sculpture",
-    "métal",
     "oriel",
+    "sculpture",
+    "console",
+    "fenetre",
+    "métal",
     "céramique",
+    "garde-corps",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "brique",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "modillon",
+    "oriel",
+    "pierre de taille",
+    "porte-fenêtre",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Versailles-31_16_§1",
       "IndexJantzen": [
         "oriel"
+      ],
+      "IndexTorneh": [
+        "oriel",
+        "balcon",
+        "garde-corps",
+        "porte-fenêtre",
+        "fenêtre",
+        "balustrade",
+        "brique",
+        "fer forgé",
+        "corniche",
+        "modillon",
+        "volet",
+        "pierre de taille",
+        "chambranle"
       ],
       "dateCapture": "2003:07:13"
     },
@@ -53,6 +83,7 @@
         "fenetre",
         "métal"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:07:13"
     },
     {
@@ -63,6 +94,7 @@
         "métal",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:07:13"
     },
     {
@@ -72,6 +104,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:07:13"
     }
   ]

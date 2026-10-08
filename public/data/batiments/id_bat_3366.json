@@ -25,11 +25,53 @@
     "fenetre",
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "arc brisé",
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chéneau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oriel",
+    "pierre de taille",
+    "souche de cheminée",
+    "travée",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Temple-Bd-7_3_§1-Rs",
       "IndexJantzen": [
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "lucarne",
+        "mansarde",
+        "ardoise",
+        "souche de cheminée",
+        "arc en plein cintre",
+        "arc brisé",
+        "bandeau",
+        "corniche",
+        "pierre de taille",
+        "travée",
+        "volet",
+        "oriel",
+        "mascaron",
+        "fer forgé",
+        "chéneau"
       ],
       "dateCapture": "2008:03:25"
     },
@@ -39,6 +81,7 @@
         "lucarne",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:03:25"
     },
     {
@@ -46,6 +89,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:08:11"
     },
     {
@@ -53,6 +97,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:15"
     },
     {
@@ -60,6 +105,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:03:25"
     }
   ]

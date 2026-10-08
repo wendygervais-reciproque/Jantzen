@@ -28,11 +28,29 @@
   "WPfr": null,
   "image_ref": "Paul-Valerie-44_16_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "sculpture",
     "loggia",
-    "décor",
-    "colonne"
+    "sculpture",
+    "fenetre",
+    "colonne",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "balcon",
+    "balustrade",
+    "chapiteau",
+    "colonne",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "oriel",
+    "pierre de taille",
+    "sculpture",
+    "souche de cheminée",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -42,6 +60,24 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "volet",
+        "balustrade",
+        "oriel",
+        "colonne",
+        "chapiteau",
+        "sculpture",
+        "pierre de taille",
+        "souche de cheminée",
+        "travée",
+        "fer forgé",
+        "corniche",
+        "mascaron",
+        "arc"
+      ],
       "dateCapture": "2004:06:07"
     },
     {
@@ -50,6 +86,7 @@
         "colonne",
         "loggia"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:06:07"
     },
     {
@@ -57,6 +94,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:06:07"
     },
     {
@@ -64,6 +102,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:06:07"
     }
   ]

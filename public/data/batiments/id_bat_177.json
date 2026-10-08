@@ -24,12 +24,48 @@
     "oeil-de-boeuf",
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "acrotère",
+    "balcon",
+    "balustrade",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mascaron",
+    "modillon",
+    "oculus",
+    "pierre de taille",
+    "sculpture",
+    "souche de cheminée",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Alma-pl-1_16_§1",
       "IndexJantzen": [
         "lucarne",
         "oeil-de-boeuf"
+      ],
+      "IndexTorneh": [
+        "oculus",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fronton",
+        "lucarne",
+        "mascaron",
+        "corniche",
+        "modillon",
+        "fenêtre",
+        "volet",
+        "pierre de taille",
+        "souche de cheminée",
+        "acrotère",
+        "fer forgé",
+        "sculpture"
       ],
       "dateCapture": "2006:09:09"
     },
@@ -39,6 +75,7 @@
         "lucarne",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:09:09"
     }
   ]

@@ -28,17 +28,57 @@
   "WPfr": null,
   "image_ref": "Provence-42-44_9_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "sculpture",
+    "fenetre",
+    "fronton",
     "porte-bois",
-    "décor",
-    "fronton"
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chapiteau",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "pierre de taille",
+    "pilastre",
+    "portail",
+    "porte",
+    "porte-fenêtre",
+    "sculpture",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Provence-42-44_9_§1",
       "IndexJantzen": [
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "volet",
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "fronton",
+        "porte",
+        "portail",
+        "arc",
+        "arc en plein cintre",
+        "pierre de taille",
+        "corniche",
+        "bandeau",
+        "travée",
+        "chapiteau",
+        "pilastre",
+        "porte-fenêtre",
+        "sculpture"
       ],
       "dateCapture": "2004:06:16"
     },
@@ -47,6 +87,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:06:16"
     },
     {
@@ -56,6 +97,7 @@
         "fronton",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:02"
     },
     {
@@ -63,6 +105,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:06:16"
     },
     {
@@ -70,6 +113,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:02"
     },
     {
@@ -77,6 +121,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:06:16"
     }
   ]

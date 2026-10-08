@@ -21,17 +21,55 @@
   "WPfr": null,
   "image_ref": "Baudoyer-1-Pl_4_§1",
   "terme_jantzen_bat": [
+    "pilastre",
+    "sculpture",
     "fenetre",
     "façade",
-    "sculpture",
-    "pilastre",
     "fronton"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "attique",
+    "avant-corps",
+    "balcon",
+    "bossage",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "gros appareil",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants"
   ],
   "photos": [
     {
       "id_pic": "Baudoyer-1-Pl_4_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fronton",
+        "sculpture",
+        "pilastre",
+        "corniche",
+        "fenêtre",
+        "porte",
+        "arc en plein cintre",
+        "bossage",
+        "pierre de taille",
+        "balcon",
+        "garde-corps",
+        "souche de cheminée",
+        "toit à deux versants",
+        "gros appareil",
+        "chaîne d'angle",
+        "avant-corps",
+        "attique"
       ],
       "dateCapture": "2009:03:23"
     },
@@ -42,6 +80,7 @@
         "fronton",
         "pilastre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:03:18"
     },
     {
@@ -49,6 +88,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:03:18"
     },
     {
@@ -56,6 +96,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:03:18"
     },
     {
@@ -64,6 +105,7 @@
         "fronton",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:09:18"
     },
     {
@@ -71,6 +113,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:03:22"
     }
   ]

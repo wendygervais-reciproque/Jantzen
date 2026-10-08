@@ -32,14 +32,31 @@
   "WPfr": null,
   "image_ref": "Hanovre-6_2_§1",
   "terme_jantzen_bat": [
-    "porte-fer",
-    "façade",
-    "métal",
+    "verrière",
     "mosaique",
+    "porte-fer",
     "oriel",
     "intérieur",
-    "verrière",
+    "façade",
+    "métal",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "baie",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "grille",
+    "oriel",
+    "portail",
+    "porte-fenêtre",
+    "sculpture",
+    "travée"
   ],
   "photos": [
     {
@@ -48,6 +65,23 @@
         "façade",
         "mosaique",
         "verrière"
+      ],
+      "IndexTorneh": [
+        "baie",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "arc",
+        "arc en plein cintre",
+        "fenêtre",
+        "porte-fenêtre",
+        "oriel",
+        "bandeau",
+        "sculpture",
+        "grille",
+        "portail",
+        "fer forgé",
+        "travée"
       ],
       "dateCapture": "2005:06:19"
     },
@@ -58,6 +92,7 @@
         "mosaique",
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:05:24"
     },
     {
@@ -66,6 +101,7 @@
         "décor",
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:19"
     },
     {
@@ -75,6 +111,7 @@
         "intérieur",
         "mosaique"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:05:24"
     },
     {
@@ -84,6 +121,7 @@
         "métal",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:05"
     },
     {
@@ -93,6 +131,7 @@
         "métal",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:19"
     },
     {
@@ -101,6 +140,7 @@
         "décor",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:19"
     },
     {
@@ -110,6 +150,7 @@
         "métal",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:19"
     },
     {
@@ -118,6 +159,7 @@
         "décor",
         "mosaique"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:19"
     },
     {
@@ -126,6 +168,7 @@
         "décor",
         "mosaique"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:19"
     },
     {
@@ -134,6 +177,7 @@
         "décor",
         "mosaique"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:05:24"
     }
   ]

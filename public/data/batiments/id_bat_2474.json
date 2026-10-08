@@ -30,11 +30,39 @@
   "terme_jantzen_bat": [
     "porte-fer-hall"
   ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "chapiteau",
+    "colonne",
+    "fer forgé",
+    "grille",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Benjamin-Godard-4_16_§1",
       "IndexJantzen": [
         "porte-fer-hall"
+      ],
+      "IndexTorneh": [
+        "arc en plein cintre",
+        "arc",
+        "colonne",
+        "chapiteau",
+        "fer forgé",
+        "grille",
+        "porte",
+        "vantail",
+        "pierre de taille",
+        "oculus",
+        "sculpture",
+        "mascaron"
       ],
       "dateCapture": "2005:06:07"
     }

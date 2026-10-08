@@ -28,7 +28,21 @@
   "WPfr": null,
   "image_ref": "Foch-90_16_§1",
   "terme_jantzen_bat": [
+    "sculpture",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "arc en anse de panier",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
     "lucarne",
+    "mansarde",
+    "pierre de taille",
     "sculpture"
   ],
   "photos": [
@@ -38,6 +52,20 @@
         "lucarne",
         "sculpture"
       ],
+      "IndexTorneh": [
+        "mansarde",
+        "lucarne",
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "sculpture",
+        "ardoise",
+        "pierre de taille",
+        "balustrade",
+        "arc en anse de panier",
+        "fer forgé",
+        "corniche"
+      ],
       "dateCapture": "2006:09:21"
     },
     {
@@ -46,6 +74,7 @@
         "lucarne",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:09:21"
     }
   ]

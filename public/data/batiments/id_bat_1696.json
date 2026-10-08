@@ -23,16 +23,60 @@
   "WPfr": null,
   "image_ref": "Monsieur-Le-Prince-22_6_§1",
   "terme_jantzen_bat": [
-    "sculpture",
-    "fenetre",
     "façade",
-    "pignon"
+    "pignon",
+    "sculpture",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "balcon",
+    "bandeau",
+    "chaîne d'angle",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "grille",
+    "lucarne",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Monsieur-Le-Prince-22_6_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "volet",
+        "balcon",
+        "garde-corps",
+        "souche de cheminée",
+        "arc",
+        "arc en plein cintre",
+        "pierre de taille",
+        "sculpture",
+        "mascaron",
+        "porte",
+        "grille",
+        "toit à deux versants",
+        "fronton",
+        "lucarne",
+        "oculus",
+        "pilastre",
+        "chaîne d'angle",
+        "bandeau",
+        "fer forgé"
       ],
       "dateCapture": "2005:08:29"
     },
@@ -42,6 +86,7 @@
         "fenetre",
         "pignon"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:29"
     },
     {
@@ -50,6 +95,7 @@
         "fenetre",
         "pignon"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:29"
     },
     {
@@ -58,6 +104,7 @@
         "fenetre",
         "pignon"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:03:19"
     },
     {
@@ -65,6 +112,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:03:19"
     },
     {
@@ -72,6 +120,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:03:19"
     },
     {
@@ -79,6 +128,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:03:19"
     }
   ]

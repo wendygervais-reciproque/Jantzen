@@ -21,17 +21,51 @@
   "WPfr": null,
   "image_ref": "Charles-V-15_4_§1",
   "terme_jantzen_bat": [
-    "garde-corps",
-    "console",
     "sculpture",
     "clé",
+    "console",
+    "garde-corps",
     "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "chambranle",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "gros appareil",
+    "heurtoir",
+    "mascaron",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "soupirail",
+    "vantail"
   ],
   "photos": [
     {
       "id_pic": "Charles-V-15_4_§1",
       "IndexJantzen": [
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "arc en plein cintre",
+        "portail",
+        "porte",
+        "vantail",
+        "mascaron",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "pierre de taille",
+        "chambranle",
+        "gros appareil",
+        "heurtoir",
+        "soupirail"
       ],
       "dateCapture": "2004:09:23"
     },
@@ -42,6 +76,7 @@
         "garde-corps",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:23"
     },
     {
@@ -50,6 +85,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:23"
     }
   ]

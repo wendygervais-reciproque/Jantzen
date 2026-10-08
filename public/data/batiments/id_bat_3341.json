@@ -22,8 +22,23 @@
   "image_ref": "Laugier-68_17_§1",
   "terme_jantzen_bat": [
     "sculpture",
-    "fenetre",
-    "console"
+    "console",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "modillon",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "porte-fenêtre",
+    "volet"
   ],
   "photos": [
     {
@@ -32,6 +47,21 @@
         "console",
         "fenetre",
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "porte-fenêtre",
+        "porte",
+        "arc en plein cintre",
+        "volet",
+        "pierre de taille",
+        "modillon",
+        "mascaron",
+        "portail"
       ],
       "dateCapture": "2004:09:02"
     }

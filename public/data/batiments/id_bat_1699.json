@@ -25,11 +25,35 @@
   "terme_jantzen_bat": [
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "arc",
+    "fenêtre",
+    "gros appareil",
+    "heurtoir",
+    "mascaron",
+    "pierre de taille",
+    "porche",
+    "porte",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Quincampoix-22_4_§1",
       "IndexJantzen": [
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "porche",
+        "vantail",
+        "sculpture",
+        "pierre de taille",
+        "arc",
+        "gros appareil",
+        "heurtoir",
+        "fenêtre",
+        "mascaron"
       ],
       "dateCapture": "2005:07:03"
     }

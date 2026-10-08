@@ -29,16 +29,74 @@
   "image_ref": "General-Catroux-pl-6_17_§1_1-Rx",
   "terme_jantzen_bat": [
     "porte-fer",
-    "marquise",
-    "façade",
+    "sculpture",
     "console",
-    "sculpture"
+    "façade",
+    "marquise"
+  ],
+  "terme_torneh_bat": [
+    "arc brisé",
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chéneau",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "grille",
+    "lucarne",
+    "mansarde",
+    "marquise",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "porte-fenêtre",
+    "sculpture",
+    "soupirail",
+    "tour",
+    "travée",
+    "volet",
+    "épi de faîtage"
   ],
   "photos": [
     {
       "id_pic": "General-Catroux-pl-6_17_§1_1-Rx",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "lucarne",
+        "mansarde",
+        "tour",
+        "ardoise",
+        "pierre de taille",
+        "corniche",
+        "fronton",
+        "mascaron",
+        "sculpture",
+        "arc en plein cintre",
+        "arc brisé",
+        "marquise",
+        "porte",
+        "porte-fenêtre",
+        "oculus",
+        "épi de faîtage",
+        "chéneau",
+        "bandeau",
+        "pilastre",
+        "travée",
+        "soupirail",
+        "grille",
+        "volet"
       ],
       "dateCapture": "2014:02:19"
     },
@@ -48,6 +106,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2013:02:19"
     },
     {
@@ -56,6 +115,7 @@
         "marquise",
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2014:02:19"
     }
   ]

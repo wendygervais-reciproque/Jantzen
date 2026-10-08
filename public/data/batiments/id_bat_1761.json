@@ -26,12 +26,36 @@
   "terme_jantzen_bat": [
     "toiture",
     "oeil-de-boeuf",
-    "lucarne",
-    "façade",
     "porte-fer",
     "tourelle",
+    "lucarne",
+    "façade",
     "porte",
     "fronton"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "attique",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "bossage",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "frise",
+    "fronton",
+    "grille",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "pierre de taille",
+    "pilastre",
+    "portail",
+    "porte",
+    "sculpture",
+    "souche de cheminée"
   ],
   "photos": [
     {
@@ -39,6 +63,30 @@
       "IndexJantzen": [
         "façade",
         "porte"
+      ],
+      "IndexTorneh": [
+        "fronton",
+        "balustrade",
+        "balcon",
+        "corniche",
+        "fenêtre",
+        "porte",
+        "portail",
+        "lucarne",
+        "mascaron",
+        "pilastre",
+        "frise",
+        "chambranle",
+        "bandeau",
+        "souche de cheminée",
+        "grille",
+        "sculpture",
+        "fer forgé",
+        "ardoise",
+        "attique",
+        "pierre de taille",
+        "bossage",
+        "mansarde"
       ],
       "dateCapture": "2005:03:20"
     },
@@ -48,6 +96,7 @@
         "lucarne",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:03:20"
     },
     {
@@ -55,6 +104,7 @@
       "IndexJantzen": [
         "tourelle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:03:20"
     },
     {
@@ -63,6 +113,7 @@
         "fronton",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:19"
     },
     {
@@ -71,6 +122,7 @@
         "lucarne",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:19"
     },
     {
@@ -78,6 +130,7 @@
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:03:20"
     },
     {
@@ -85,6 +138,7 @@
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:03:20"
     }
   ]

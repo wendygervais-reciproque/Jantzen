@@ -32,20 +32,47 @@
   "WPfr": null,
   "image_ref": "Rapp-sq-3_7_§1",
   "terme_jantzen_bat": [
+    "colonne",
+    "balcon",
     "porte-fer",
-    "fenetre",
-    "façade",
-    "lucarne",
-    "console",
-    "garde-corps",
     "tourelle",
     "clé",
-    "porte-bois",
+    "console",
+    "fenetre",
+    "lucarne",
     "brique",
+    "façade",
     "céramique",
-    "décor",
+    "garde-corps",
+    "porte-bois",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
     "balcon",
-    "colonne"
+    "balustrade",
+    "bandeau",
+    "brique",
+    "chaîne d'angle",
+    "colonne",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "grille",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oriel",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "sculpture",
+    "souche de cheminée",
+    "tuile",
+    "volet",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -56,6 +83,33 @@
         "décor",
         "façade"
       ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "bandeau",
+        "brique",
+        "chaîne d'angle",
+        "colonne",
+        "corniche",
+        "fenêtre",
+        "fer forgé",
+        "fronton",
+        "garde-corps",
+        "grille",
+        "lucarne",
+        "mansarde",
+        "mascaron",
+        "oriel",
+        "pierre de taille",
+        "porte",
+        "sculpture",
+        "tuile",
+        "volet",
+        "épi de faîtage",
+        "souche de cheminée",
+        "arc en plein cintre",
+        "pilastre"
+      ],
       "dateCapture": "2010:04:16"
     },
     {
@@ -65,6 +119,7 @@
         "céramique",
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:08:27"
     },
     {
@@ -76,6 +131,7 @@
         "fenetre",
         "tourelle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:04:01"
     },
     {
@@ -85,6 +141,7 @@
         "céramique",
         "décor"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:23"
     },
     {
@@ -94,6 +151,7 @@
         "céramique",
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:04:01"
     },
     {
@@ -101,6 +159,7 @@
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:08:27"
     },
     {
@@ -111,6 +170,7 @@
         "décor",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:04:01"
     },
     {
@@ -120,6 +180,7 @@
         "céramique",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:04:01"
     },
     {
@@ -129,6 +190,7 @@
         "brique",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:10:15"
     },
     {
@@ -138,6 +200,7 @@
         "brique",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:10:15"
     },
     {
@@ -149,6 +212,7 @@
         "fenetre",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:04:01"
     },
     {
@@ -158,6 +222,7 @@
         "brique",
         "céramique"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:08:21"
     },
     {
@@ -168,6 +233,7 @@
         "console",
         "céramique"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:11"
     },
     {
@@ -177,6 +243,7 @@
         "céramique",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:11"
     },
     {
@@ -186,6 +253,7 @@
         "céramique",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:04:01"
     },
     {
@@ -197,6 +265,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:04:16"
     },
     {
@@ -208,6 +277,7 @@
         "céramique",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:04:01"
     },
     {
@@ -218,6 +288,7 @@
         "céramique",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:11"
     },
     {
@@ -228,6 +299,7 @@
         "céramique",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:16"
     },
     {
@@ -240,6 +312,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:03:15"
     },
     {
@@ -249,6 +322,7 @@
         "colonne",
         "céramique"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:08"
     },
     {
@@ -260,6 +334,7 @@
         "fenetre",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:04:01"
     },
     {
@@ -270,6 +345,7 @@
         "fenetre",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:23"
     },
     {
@@ -281,6 +357,7 @@
         "fenetre",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:03:15"
     },
     {
@@ -291,6 +368,7 @@
         "fenetre",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:16"
     },
     {
@@ -301,6 +379,7 @@
         "fenetre",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:04:01"
     },
     {
@@ -311,6 +390,7 @@
         "fenetre",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:11"
     },
     {
@@ -320,6 +400,7 @@
         "céramique",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:10:11"
     },
     {
@@ -329,6 +410,7 @@
         "céramique",
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:08:27"
     }
   ]

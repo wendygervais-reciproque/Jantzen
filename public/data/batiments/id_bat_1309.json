@@ -22,8 +22,31 @@
   "image_ref": "Debarcadere-18_17_§1",
   "terme_jantzen_bat": [
     "brique",
-    "façade",
-    "balcon"
+    "balcon",
+    "façade"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "linteau",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "travée",
+    "vitrail",
+    "volet"
   ],
   "photos": [
     {
@@ -31,6 +54,29 @@
       "IndexJantzen": [
         "brique",
         "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "porte",
+        "porte-fenêtre",
+        "volet",
+        "mansarde",
+        "lucarne",
+        "ardoise",
+        "brique",
+        "pierre de taille",
+        "corniche",
+        "bandeau",
+        "chaîne d'angle",
+        "mascaron",
+        "linteau",
+        "vitrail",
+        "travée",
+        "souche de cheminée",
+        "fer forgé"
       ],
       "dateCapture": "2006:06:12"
     },
@@ -41,6 +87,7 @@
         "brique",
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:12"
     }
   ]

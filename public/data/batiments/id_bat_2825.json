@@ -28,9 +28,25 @@
   "WPfr": null,
   "image_ref": "Auguste-Comte-5_6_§1",
   "terme_jantzen_bat": [
-    "porte-fer",
     "porte-fer-hall",
-    "colonne"
+    "colonne",
+    "porte-fer"
+  ],
+  "terme_torneh_bat": [
+    "chambranle",
+    "chapiteau corinthien",
+    "colonne",
+    "fer forgé",
+    "fronton",
+    "gros appareil",
+    "linteau",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "portail",
+    "porte",
+    "sculpture",
+    "vitrail"
   ],
   "photos": [
     {
@@ -38,6 +54,22 @@
       "IndexJantzen": [
         "colonne",
         "porte-fer-hall"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "portail",
+        "chapiteau corinthien",
+        "colonne",
+        "pilastre",
+        "fer forgé",
+        "vitrail",
+        "oculus",
+        "sculpture",
+        "pierre de taille",
+        "chambranle",
+        "fronton",
+        "linteau",
+        "gros appareil"
       ],
       "dateCapture": "2004:06:08"
     },
@@ -47,6 +79,7 @@
         "colonne",
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:09"
     },
     {
@@ -54,6 +87,7 @@
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:09"
     }
   ]

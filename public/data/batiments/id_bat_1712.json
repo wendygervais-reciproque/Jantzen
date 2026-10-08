@@ -28,11 +28,34 @@
   "WPfr": null,
   "image_ref": "La-Fayette-225_10_§1",
   "terme_jantzen_bat": [
-    "façade-d'angle",
+    "balcon",
     "dome",
+    "façade-d'angle",
     "fenetre-d'angle",
-    "lucarne-d'angle",
-    "balcon"
+    "lucarne-d'angle"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chéneau",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "linteau",
+    "lucarne",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "travée",
+    "volet",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -40,6 +63,29 @@
       "IndexJantzen": [
         "dome",
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "dôme",
+        "épi de faîtage",
+        "lucarne",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "porte-fenêtre",
+        "volet",
+        "corniche",
+        "bandeau",
+        "fronton",
+        "mascaron",
+        "pierre de taille",
+        "ardoise",
+        "souche de cheminée",
+        "travée",
+        "oculus",
+        "linteau",
+        "chéneau",
+        "arc en plein cintre"
       ],
       "dateCapture": "2005:05:11"
     },
@@ -49,6 +95,7 @@
         "dome",
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:11"
     },
     {
@@ -58,6 +105,7 @@
         "dome",
         "lucarne-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:11"
     }
   ]

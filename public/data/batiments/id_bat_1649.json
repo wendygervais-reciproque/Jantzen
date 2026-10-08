@@ -23,11 +23,31 @@
   "terme_jantzen_bat": [
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "chéneau",
+    "fenêtre",
+    "lucarne",
+    "oculus",
+    "souche de cheminée",
+    "toit à deux versants",
+    "tuile",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "St-Honore-211_1_§1",
       "IndexJantzen": [
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "lucarne",
+        "tuile",
+        "fenêtre",
+        "oculus",
+        "souche de cheminée",
+        "chéneau",
+        "volet",
+        "toit à deux versants"
       ],
       "dateCapture": "2010:11:16"
     },
@@ -36,6 +56,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:07:16"
     }
   ]

@@ -21,10 +21,27 @@
   "WPfr": null,
   "image_ref": "Monge-10_5_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "sculpture",
-    "porte-bois",
-    "clé"
+    "clé",
+    "fenetre",
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "pierre de taille",
+    "pilastre",
+    "porte-fenêtre",
+    "sculpture",
+    "travée",
+    "vantail",
+    "volet"
   ],
   "photos": [
     {
@@ -34,6 +51,23 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "porte-fenêtre",
+        "pilastre",
+        "chambranle",
+        "sculpture",
+        "arc en plein cintre",
+        "corniche",
+        "volet",
+        "vantail",
+        "travée",
+        "pierre de taille",
+        "mascaron"
+      ],
       "dateCapture": "2003:08:09"
     },
     {
@@ -41,6 +75,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:08:09"
     }
   ]

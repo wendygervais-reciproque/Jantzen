@@ -24,10 +24,34 @@
   "WPfr": "Colonnade du Louvre",
   "image_ref": "Louvre-1-Ra-Cl-14a",
   "terme_jantzen_bat": [
-    "façade-d'angle",
     "façade",
     "colonne",
+    "façade-d'angle",
     "panoramique"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "attique",
+    "avant-corps",
+    "baie",
+    "balustrade",
+    "bandeau",
+    "chapiteau corinthien",
+    "colonne",
+    "corniche",
+    "entablement",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "sculpture",
+    "travée",
+    "vantail"
   ],
   "photos": [
     {
@@ -37,6 +61,30 @@
         "façade",
         "panoramique"
       ],
+      "IndexTorneh": [
+        "colonne",
+        "chapiteau corinthien",
+        "fronton",
+        "sculpture",
+        "balustrade",
+        "fenêtre",
+        "baie",
+        "arc en plein cintre",
+        "porte",
+        "corniche",
+        "entablement",
+        "pilastre",
+        "pierre de taille",
+        "attique",
+        "avant-corps",
+        "travée",
+        "bandeau",
+        "mascaron",
+        "oculus",
+        "arc",
+        "vantail",
+        "garde-corps"
+      ],
       "dateCapture": "2010:05:23"
     },
     {
@@ -44,6 +92,7 @@
       "IndexJantzen": [
         "façade-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:30"
     },
     {
@@ -52,6 +101,7 @@
         "façade-d'angle",
         "panoramique"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:18"
     },
     {
@@ -60,6 +110,7 @@
         "façade-d'angle",
         "panoramique"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:07:15"
     }
   ]

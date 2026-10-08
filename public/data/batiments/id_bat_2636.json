@@ -30,17 +30,36 @@
   "terme_jantzen_bat": [
     "porte-fer"
   ],
+  "terme_torneh_bat": [
+    "auvent",
+    "fer forgé",
+    "jambage",
+    "marquise",
+    "pierre de taille",
+    "porte",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Charles-Floquet-43_7_§1",
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [
+        "porte",
+        "vantail",
+        "fer forgé",
+        "pierre de taille",
+        "auvent",
+        "marquise",
+        "jambage"
+      ],
       "dateCapture": "2004:05:18"
     },
     {
       "id_pic": "Charles-Floquet-43_7_§2-10",
       "IndexJantzen": [],
+      "IndexTorneh": [],
       "dateCapture": "2004:05:18"
     }
   ]

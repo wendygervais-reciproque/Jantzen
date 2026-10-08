@@ -23,11 +23,29 @@
   "terme_jantzen_bat": [
     "colonne"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "arcade",
+    "chapiteau",
+    "fenêtre",
+    "modillon",
+    "pierre de taille",
+    "pilastre"
+  ],
   "photos": [
     {
       "id_pic": "Observatoire-6_6_§1",
       "IndexJantzen": [
         "colonne"
+      ],
+      "IndexTorneh": [
+        "arc en plein cintre",
+        "pilastre",
+        "chapiteau",
+        "pierre de taille",
+        "fenêtre",
+        "modillon",
+        "arcade"
       ],
       "dateCapture": null
     }

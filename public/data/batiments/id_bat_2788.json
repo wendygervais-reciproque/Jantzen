@@ -28,15 +28,43 @@
   "WPfr": null,
   "image_ref": "Rivoli-49_1_§1-Rx",
   "terme_jantzen_bat": [
+    "balcon",
+    "sculpture",
+    "cariatide",
     "fenetre",
+    "console",
     "lucarne",
     "façade",
     "garde-corps",
-    "console",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chéneau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "frise",
+    "fronton",
+    "garde-corps",
+    "grille",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "porte",
+    "porte-fenêtre",
     "sculpture",
-    "cariatide",
-    "décor",
-    "balcon"
+    "souche de cheminée",
+    "toit à deux versants",
+    "tuile",
+    "vitrail"
   ],
   "photos": [
     {
@@ -44,6 +72,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:08:23"
     },
     {
@@ -51,6 +80,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:08:23"
     },
     {
@@ -58,6 +88,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:08:23"
     },
     {
@@ -65,6 +96,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:05:27"
     },
     {
@@ -72,12 +104,41 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:05:27"
     },
     {
       "id_pic": "Rivoli-49_1_§1-Rx",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "porte",
+        "porte-fenêtre",
+        "arc",
+        "arc en plein cintre",
+        "oculus",
+        "mascaron",
+        "sculpture",
+        "corniche",
+        "bandeau",
+        "frise",
+        "fronton",
+        "lucarne",
+        "mansarde",
+        "toit à deux versants",
+        "souche de cheminée",
+        "ardoise",
+        "tuile",
+        "pierre de taille",
+        "grille",
+        "fer forgé",
+        "vitrail",
+        "chéneau"
       ],
       "dateCapture": "2012:05:27"
     },
@@ -86,6 +147,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:08:23"
     },
     {
@@ -96,6 +158,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:08:23"
     },
     {
@@ -103,6 +166,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:19"
     },
     {
@@ -110,6 +174,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:01"
     },
     {
@@ -117,6 +182,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:01"
     },
     {
@@ -125,6 +191,7 @@
         "balcon",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:19"
     },
     {
@@ -134,6 +201,7 @@
         "garde-corps",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:08:23"
     },
     {
@@ -144,6 +212,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:05:27"
     }
   ]

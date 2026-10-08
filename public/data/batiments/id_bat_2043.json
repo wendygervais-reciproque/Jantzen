@@ -26,14 +26,48 @@
   "WPfr": null,
   "image_ref": "Denfert-Rochereau-pl-3_14_§1",
   "terme_jantzen_bat": [
+    "colonne",
+    "porte"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "arcade",
+    "balcon",
+    "bossage",
+    "chambranle",
+    "colonne",
+    "fenêtre",
+    "fer forgé",
+    "frise",
+    "grille",
+    "pierre de taille",
+    "pilier",
+    "porche",
     "porte",
-    "colonne"
+    "sculpture"
   ],
   "photos": [
     {
       "id_pic": "Denfert-Rochereau-pl-3_14_§1",
       "IndexJantzen": [
         "porte"
+      ],
+      "IndexTorneh": [
+        "arc en plein cintre",
+        "bossage",
+        "chambranle",
+        "colonne",
+        "fenêtre",
+        "fer forgé",
+        "frise",
+        "grille",
+        "pierre de taille",
+        "pilier",
+        "porche",
+        "porte",
+        "sculpture",
+        "arcade",
+        "balcon"
       ],
       "dateCapture": "2005:05:09"
     },
@@ -43,6 +77,7 @@
         "colonne",
         "porte"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:09"
     }
   ]

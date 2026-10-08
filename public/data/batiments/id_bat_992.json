@@ -28,10 +28,23 @@
   "WPfr": null,
   "image_ref": "Junot-15_18_§1",
   "terme_jantzen_bat": [
-    "porte",
-    "fenetre",
     "façade",
-    "loggia"
+    "loggia",
+    "porte",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "fenêtre",
+    "garde-corps",
+    "gros appareil",
+    "huisserie",
+    "meneau",
+    "pierre de taille",
+    "porte",
+    "toit-terrasse",
+    "vantail"
   ],
   "photos": [
     {
@@ -39,6 +52,19 @@
       "IndexJantzen": [
         "façade",
         "loggia"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "porte",
+        "gros appareil",
+        "pierre de taille",
+        "toit-terrasse",
+        "garde-corps",
+        "meneau",
+        "huisserie",
+        "vantail"
       ],
       "dateCapture": "2006:06:09"
     },
@@ -49,6 +75,7 @@
         "fenetre",
         "porte"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:10"
     }
   ]

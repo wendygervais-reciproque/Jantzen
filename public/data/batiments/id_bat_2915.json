@@ -23,9 +23,21 @@
   "WPfr": null,
   "image_ref": "Ruisseau-50_18_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "brique",
+    "fenetre",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc en anse de panier",
+    "balcon",
+    "brique",
+    "céramique",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "porte-fenêtre",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -34,6 +46,18 @@
         "brique",
         "décor",
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "arc en anse de panier",
+        "garde-corps",
+        "balcon",
+        "brique",
+        "céramique",
+        "fer forgé",
+        "travée",
+        "volet",
+        "porte-fenêtre"
       ],
       "dateCapture": "2004:06:13"
     }

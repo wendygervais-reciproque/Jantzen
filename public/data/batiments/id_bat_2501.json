@@ -28,16 +28,52 @@
   "WPfr": null,
   "image_ref": "Denis-Poisson-4_17_§1",
   "terme_jantzen_bat": [
-    "porte-fer",
-    "fenetre",
     "porte-fer-hall",
-    "colonne"
+    "colonne",
+    "fenetre",
+    "porte-fer"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "linteau",
+    "mascaron",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Denis-Poisson-4_17_§1",
       "IndexJantzen": [
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "volet",
+        "brique",
+        "pierre de taille",
+        "pilastre",
+        "corniche",
+        "bandeau",
+        "mascaron",
+        "fer forgé",
+        "porte",
+        "travée",
+        "linteau",
+        "chambranle"
       ],
       "dateCapture": "2004:10:03"
     },
@@ -47,6 +83,7 @@
         "colonne",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:06:30"
     },
     {
@@ -55,6 +92,7 @@
         "colonne",
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2013:07:15"
     },
     {
@@ -62,6 +100,7 @@
       "IndexJantzen": [
         "porte-fer-hall"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:10:03"
     }
   ]

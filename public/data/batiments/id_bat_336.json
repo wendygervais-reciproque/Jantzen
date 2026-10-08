@@ -23,10 +23,30 @@
   "WPfr": null,
   "image_ref": "Fessart-10_19_§1",
   "terme_jantzen_bat": [
-    "lucarne",
+    "fenetre-d'angle",
     "loggia",
     "balcon",
-    "fenetre-d'angle"
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "oriel",
+    "pierre de taille",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "toit à deux versants",
+    "verrière",
+    "volet"
   ],
   "photos": [
     {
@@ -36,6 +56,26 @@
         "fenetre-d'angle",
         "lucarne"
       ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "porte-fenêtre",
+        "volet",
+        "lucarne",
+        "mansarde",
+        "souche de cheminée",
+        "ardoise",
+        "chaîne d'angle",
+        "bandeau",
+        "brique",
+        "pierre de taille",
+        "corniche",
+        "oriel",
+        "toit à deux versants",
+        "verrière",
+        "balustrade"
+      ],
       "dateCapture": "2005:07:21"
     },
     {
@@ -44,6 +84,7 @@
         "loggia",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:21"
     }
   ]

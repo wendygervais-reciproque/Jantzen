@@ -31,12 +31,38 @@
     "sculpture",
     "console"
   ],
+  "terme_torneh_bat": [
+    "arc",
+    "balcon",
+    "balustrade",
+    "chaîne d'angle",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Rhin-13_19_§1",
       "IndexJantzen": [
         "console",
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "porte",
+        "volet",
+        "arc",
+        "chaîne d'angle",
+        "pierre de taille",
+        "sculpture",
+        "fenêtre"
       ],
       "dateCapture": "2005:09:07"
     }

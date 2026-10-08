@@ -21,9 +21,28 @@
   "WPfr": null,
   "image_ref": "Verneuil-58_7_§1",
   "terme_jantzen_bat": [
-    "fenetre",
+    "oriel",
     "colonne",
-    "oriel"
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "attique",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "bossage",
+    "chapiteau",
+    "colonne",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "modillon",
+    "oriel",
+    "pierre de taille",
+    "volet"
   ],
   "photos": [
     {
@@ -32,6 +51,25 @@
         "colonne",
         "fenetre",
         "oriel"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "colonne",
+        "chapiteau",
+        "corniche",
+        "bandeau",
+        "mascaron",
+        "modillon",
+        "fenêtre",
+        "arc en plein cintre",
+        "fer forgé",
+        "oriel",
+        "pierre de taille",
+        "bossage",
+        "attique",
+        "volet"
       ],
       "dateCapture": "2005:05:22"
     }

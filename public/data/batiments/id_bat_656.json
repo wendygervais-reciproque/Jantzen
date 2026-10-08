@@ -10,7 +10,7 @@
     "numero": "12",
     "voie": "rue du Buisson-Saint-Louis"
   },
-  "arrondissement": 11,
+  "arrondissement": 10,
   "tri_alphab": "Buisson-St-Louis",
   "coordonnees": {
     "latitude": "48.872225",
@@ -22,10 +22,26 @@
   "image_ref": "Buisson-St-Louis-12_11_§1",
   "terme_jantzen_bat": [
     "fenetre",
-    "garde-corps",
     "brique",
     "céramique",
+    "garde-corps",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "bandeau",
+    "brique",
+    "corniche",
+    "céramique",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "toit à deux versants",
+    "volet"
   ],
   "photos": [
     {
@@ -35,6 +51,22 @@
         "céramique",
         "décor",
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "porte-fenêtre",
+        "lucarne",
+        "brique",
+        "céramique",
+        "fer forgé",
+        "souche de cheminée",
+        "bandeau",
+        "corniche",
+        "toit à deux versants",
+        "volet",
+        "ardoise"
       ],
       "dateCapture": "2005:07:12"
     },
@@ -46,6 +78,7 @@
         "décor",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:12"
     },
     {
@@ -56,6 +89,7 @@
         "décor",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:12"
     },
     {
@@ -67,6 +101,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:12"
     }
   ]

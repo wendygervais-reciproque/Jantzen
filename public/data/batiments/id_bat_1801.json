@@ -29,8 +29,28 @@
   "image_ref": "Mogador-24_9_§1",
   "terme_jantzen_bat": [
     "fenetre-d'angle",
-    "tour",
-    "façade-d'angle"
+    "façade-d'angle",
+    "tour"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "colonne",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "sculpture",
+    "travée"
   ],
   "photos": [
     {
@@ -39,6 +59,26 @@
         "façade-d'angle",
         "tour"
       ],
+      "IndexTorneh": [
+        "dôme",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "corniche",
+        "bandeau",
+        "pilastre",
+        "mascaron",
+        "sculpture",
+        "arc en plein cintre",
+        "pierre de taille",
+        "oculus",
+        "fer forgé",
+        "travée",
+        "fronton",
+        "colonne",
+        "lucarne"
+      ],
       "dateCapture": "2005:07:14"
     },
     {
@@ -46,6 +86,7 @@
       "IndexJantzen": [
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:14"
     }
   ]

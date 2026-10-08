@@ -23,11 +23,29 @@
   "terme_jantzen_bat": [
     "fenetre"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "bandeau",
+    "fenêtre",
+    "garde-corps",
+    "pierre de taille",
+    "porte-fenêtre",
+    "travée"
+  ],
   "photos": [
     {
       "id_pic": "Montorgueil-36_2_§1",
       "IndexJantzen": [
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "garde-corps",
+        "balcon",
+        "bandeau",
+        "porte-fenêtre",
+        "pierre de taille",
+        "travée"
       ],
       "dateCapture": "2004:08:31"
     }

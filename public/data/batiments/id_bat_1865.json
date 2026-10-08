@@ -21,8 +21,21 @@
   "WPfr": null,
   "image_ref": "Vineuse-25_16_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "oriel"
+    "oriel",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "oriel",
+    "pierre de taille",
+    "porte-fenêtre",
+    "volet"
   ],
   "photos": [
     {
@@ -30,6 +43,19 @@
       "IndexJantzen": [
         "fenetre",
         "oriel"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "porte-fenêtre",
+        "oriel",
+        "balustrade",
+        "pierre de taille",
+        "corniche",
+        "bandeau",
+        "fer forgé",
+        "volet"
       ],
       "dateCapture": "2005:04:30"
     }

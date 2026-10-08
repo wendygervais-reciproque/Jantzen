@@ -24,12 +24,32 @@
     "toiture",
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "faîtage",
+    "fenêtre",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "souche de cheminée",
+    "toit à deux versants"
+  ],
   "photos": [
     {
       "id_pic": "Rene-Boulanger-94_10_§1",
       "IndexJantzen": [
         "lucarne",
         "toiture"
+      ],
+      "IndexTorneh": [
+        "souche de cheminée",
+        "lucarne",
+        "fenêtre",
+        "ardoise",
+        "toit à deux versants",
+        "garde-corps",
+        "mansarde",
+        "faîtage"
       ],
       "dateCapture": "2005:08:28"
     }

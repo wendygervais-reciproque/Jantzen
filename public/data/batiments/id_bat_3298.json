@@ -23,11 +23,31 @@
   "terme_jantzen_bat": [
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "lucarne",
+    "mansarde",
+    "toit à deux versants",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Malesherbes-66_8_§1",
       "IndexJantzen": [
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "lucarne",
+        "ardoise",
+        "mansarde",
+        "fronton",
+        "corniche",
+        "volet",
+        "fenêtre",
+        "toit à deux versants"
       ],
       "dateCapture": "2005:08:10"
     }

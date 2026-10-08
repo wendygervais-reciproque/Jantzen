@@ -23,16 +23,48 @@
   "WPfr": null,
   "image_ref": "Bernardins-18_5_§1",
   "terme_jantzen_bat": [
-    "lucarne",
-    "fenetre",
     "façade",
-    "fronton"
+    "fronton",
+    "fenetre",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "corniche",
+    "fenêtre",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Bernardins-18_5_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "garde-corps",
+        "balcon",
+        "lucarne",
+        "porte-fenêtre",
+        "souche de cheminée",
+        "corniche",
+        "arc en plein cintre",
+        "pierre de taille",
+        "porte",
+        "portail",
+        "volet",
+        "mansarde",
+        "travée"
       ],
       "dateCapture": "2009:09:27"
     },
@@ -42,6 +74,7 @@
         "fenetre",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:09:27"
     },
     {
@@ -50,6 +83,7 @@
         "fronton",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:09:27"
     }
   ]

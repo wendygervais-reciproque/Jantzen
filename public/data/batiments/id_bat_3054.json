@@ -21,18 +21,54 @@
   "WPfr": null,
   "image_ref": "Breteuil-58_7_§1",
   "terme_jantzen_bat": [
+    "sculpture",
     "fenetre",
+    "lucarne",
     "façade",
     "garde-corps",
-    "lucarne",
-    "sculpture",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chéneau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "pierre de taille",
+    "porche",
+    "porte",
+    "souche de cheminée",
+    "travée"
   ],
   "photos": [
     {
       "id_pic": "Breteuil-58_7_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "bandeau",
+        "corniche",
+        "souche de cheminée",
+        "ardoise",
+        "mansarde",
+        "lucarne",
+        "porte",
+        "porche",
+        "pierre de taille",
+        "travée",
+        "fer forgé",
+        "chéneau"
       ],
       "dateCapture": "2008:03:15"
     },
@@ -41,6 +77,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:03:15"
     },
     {
@@ -48,6 +85,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:03:15"
     },
     {
@@ -58,6 +96,7 @@
         "garde-corps",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:03:15"
     },
     {
@@ -68,6 +107,7 @@
         "garde-corps",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:03:15"
     },
     {
@@ -75,6 +115,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:03:15"
     }
   ]

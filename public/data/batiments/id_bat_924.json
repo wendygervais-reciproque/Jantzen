@@ -24,12 +24,44 @@
     "oeil-de-boeuf",
     "sculpture"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bossage",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "grille",
+    "mascaron",
+    "modillon",
+    "oculus",
+    "pierre de taille",
+    "sculpture",
+    "tour",
+    "vitrail"
+  ],
   "photos": [
     {
       "id_pic": "Margueritte-14_17_sq",
       "IndexJantzen": [
         "oeil-de-boeuf",
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "oculus",
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "bossage",
+        "pierre de taille",
+        "vitrail",
+        "mascaron",
+        "modillon",
+        "sculpture",
+        "fer forgé",
+        "grille",
+        "corniche",
+        "tour"
       ],
       "dateCapture": "2006:06:12"
     }

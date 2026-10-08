@@ -23,10 +23,25 @@
   "WPfr": null,
   "image_ref": "Dardanelles-12_17§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "console",
+    "oriel",
     "garde-corps",
-    "oriel"
+    "console",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "modillon",
+    "oriel",
+    "pierre de taille",
+    "porte-fenêtre",
+    "vantail",
+    "volet"
   ],
   "photos": [
     {
@@ -34,6 +49,21 @@
       "IndexJantzen": [
         "console",
         "oriel"
+      ],
+      "IndexTorneh": [
+        "oriel",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "porte-fenêtre",
+        "volet",
+        "corniche",
+        "bandeau",
+        "modillon",
+        "pierre de taille",
+        "vantail"
       ],
       "dateCapture": "2003:07:13"
     },
@@ -43,6 +73,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:07:13"
     }
   ]

@@ -22,8 +22,21 @@
   "image_ref": "Corot-8_16_§1",
   "terme_jantzen_bat": [
     "toiture",
-    "lucarne",
-    "fronton"
+    "fronton",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "brique",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "mansarde",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "volet"
   ],
   "photos": [
     {
@@ -32,6 +45,19 @@
         "fronton",
         "lucarne",
         "toiture"
+      ],
+      "IndexTorneh": [
+        "souche de cheminée",
+        "fenêtre",
+        "porte-fenêtre",
+        "balcon",
+        "garde-corps",
+        "fronton",
+        "volet",
+        "brique",
+        "ardoise",
+        "fer forgé",
+        "mansarde"
       ],
       "dateCapture": "2006:03:27"
     }

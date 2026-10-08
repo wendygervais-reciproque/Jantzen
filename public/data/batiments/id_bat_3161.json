@@ -24,8 +24,20 @@
   "image_ref": "Gustave-Geffroy-_13_§1",
   "terme_jantzen_bat": [
     "toiture",
+    "tourelle",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "chéneau",
+    "faîtage",
+    "fenêtre",
     "lucarne",
-    "tourelle"
+    "toit à deux versants",
+    "tour",
+    "tuile",
+    "volet",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -34,6 +46,18 @@
         "lucarne",
         "toiture",
         "tourelle"
+      ],
+      "IndexTorneh": [
+        "tour",
+        "épi de faîtage",
+        "lucarne",
+        "ardoise",
+        "tuile",
+        "fenêtre",
+        "volet",
+        "chéneau",
+        "faîtage",
+        "toit à deux versants"
       ],
       "dateCapture": "2005:07:17"
     }

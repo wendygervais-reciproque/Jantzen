@@ -21,8 +21,21 @@
   "WPfr": null,
   "image_ref": "St-Denis-17_1_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "pignon"
+    "pignon",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "corniche",
+    "fenêtre",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "volet"
   ],
   "photos": [
     {
@@ -30,6 +43,19 @@
       "IndexJantzen": [
         "fenetre",
         "pignon"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "lucarne",
+        "mansarde",
+        "souche de cheminée",
+        "volet",
+        "corniche",
+        "balustrade",
+        "porte-fenêtre",
+        "ardoise"
       ],
       "dateCapture": "2004:09:01"
     }

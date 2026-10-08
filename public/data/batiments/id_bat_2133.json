@@ -21,8 +21,17 @@
   "WPfr": null,
   "image_ref": "Grande-Truanderie-30-26_1_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "pignon"
+    "pignon",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "chéneau",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "pierre de taille",
+    "souche de cheminée",
+    "volet"
   ],
   "photos": [
     {
@@ -30,6 +39,15 @@
       "IndexJantzen": [
         "fenetre",
         "pignon"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "fronton",
+        "souche de cheminée",
+        "garde-corps",
+        "chéneau",
+        "pierre de taille",
+        "volet"
       ],
       "dateCapture": "2004:09:01"
     }

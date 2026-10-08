@@ -25,11 +25,35 @@
   "terme_jantzen_bat": [
     "porte-fer"
   ],
+  "terme_torneh_bat": [
+    "arc",
+    "balcon",
+    "fer forgé",
+    "garde-corps",
+    "jambage",
+    "pierre de taille",
+    "porte",
+    "porte-fenêtre",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Faraday-12_17_§1",
       "IndexJantzen": [
         "porte-fer"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "porte-fenêtre",
+        "vantail",
+        "fer forgé",
+        "balcon",
+        "garde-corps",
+        "sculpture",
+        "pierre de taille",
+        "arc",
+        "jambage"
       ],
       "dateCapture": "2004:10:02"
     }

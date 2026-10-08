@@ -24,17 +24,39 @@
   "image_ref": "Francois-Miron-68_4_§1",
   "terme_jantzen_bat": [
     "oeil-de-boeuf",
-    "fenetre",
-    "façade",
-    "console",
-    "porte",
+    "balcon",
     "sculpture",
-    "porte-bois",
     "pilastre",
     "intérieur",
-    "décor",
+    "fenetre",
+    "console",
+    "façade",
+    "porte",
+    "colonne",
+    "porte-bois",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
     "balcon",
-    "colonne"
+    "balustrade",
+    "bossage",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "linteau",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "sculpture",
+    "toit à deux versants",
+    "vantail"
   ],
   "photos": [
     {
@@ -42,6 +64,28 @@
       "IndexJantzen": [
         "façade",
         "porte"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "porte",
+        "portail",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "corniche",
+        "bossage",
+        "mascaron",
+        "sculpture",
+        "lucarne",
+        "mansarde",
+        "pierre de taille",
+        "arc en plein cintre",
+        "linteau",
+        "chambranle",
+        "toit à deux versants",
+        "ardoise",
+        "fer forgé",
+        "vantail"
       ],
       "dateCapture": "2005:06:18"
     },
@@ -52,6 +96,7 @@
         "façade",
         "intérieur"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:09:14"
     },
     {
@@ -60,6 +105,7 @@
         "façade",
         "intérieur"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:09:14"
     },
     {
@@ -68,6 +114,7 @@
         "façade",
         "intérieur"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:09:14"
     },
     {
@@ -76,6 +123,7 @@
         "colonne",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:22"
     },
     {
@@ -85,6 +133,7 @@
         "oeil-de-boeuf",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:22"
     },
     {
@@ -94,6 +143,7 @@
         "façade",
         "intérieur"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:09:18"
     },
     {
@@ -103,6 +153,7 @@
         "façade",
         "intérieur"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:09:18"
     },
     {
@@ -110,6 +161,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:22"
     },
     {
@@ -117,6 +169,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:09:18"
     },
     {
@@ -126,6 +179,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:22"
     },
     {
@@ -134,6 +188,7 @@
         "façade",
         "porte"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:22"
     },
     {
@@ -144,6 +199,7 @@
         "pilastre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:22"
     },
     {
@@ -151,6 +207,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:22"
     },
     {
@@ -158,6 +215,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:18"
     },
     {
@@ -167,6 +225,7 @@
         "console",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:18"
     },
     {
@@ -174,6 +233,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:22"
     },
     {
@@ -181,6 +241,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:18"
     },
     {
@@ -188,6 +249,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:03"
     },
     {
@@ -195,6 +257,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:18"
     }
   ]

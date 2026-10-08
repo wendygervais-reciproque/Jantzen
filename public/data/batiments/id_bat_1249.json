@@ -29,13 +29,35 @@
   "image_ref": "Haussmann-170_8_§1",
   "terme_jantzen_bat": [
     "oeil-de-boeuf",
-    "porte-fer",
-    "lucarne",
-    "façade-d'angle",
+    "balcon",
     "dome",
+    "façade-d'angle",
+    "porte-fer",
     "fenetre-d'angle",
     "intérieur",
-    "balcon"
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "auvent",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "mascaron",
+    "oriel",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "souche de cheminée",
+    "travée",
+    "vitrail",
+    "volet",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -43,6 +65,28 @@
       "IndexJantzen": [
         "dome",
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "dôme",
+        "épi de faîtage",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "volet",
+        "corniche",
+        "bandeau",
+        "sculpture",
+        "mascaron",
+        "pierre de taille",
+        "souche de cheminée",
+        "fer forgé",
+        "travée",
+        "oriel",
+        "fronton",
+        "auvent",
+        "porte",
+        "vitrail"
       ],
       "dateCapture": "2004:09:17"
     },
@@ -52,6 +96,7 @@
         "balcon",
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:17"
     },
     {
@@ -62,6 +107,7 @@
         "lucarne",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:03:23"
     },
     {
@@ -71,6 +117,7 @@
         "lucarne",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:03:23"
     },
     {
@@ -80,6 +127,7 @@
         "lucarne",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:03:23"
     },
     {
@@ -87,6 +135,7 @@
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": null
     },
     {
@@ -95,6 +144,7 @@
         "intérieur",
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": null
     }
   ]

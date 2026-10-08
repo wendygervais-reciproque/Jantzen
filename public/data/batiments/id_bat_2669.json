@@ -28,13 +28,32 @@
   "WPfr": null,
   "image_ref": "Diderot-44_12_§3",
   "terme_jantzen_bat": [
-    "fenetre",
-    "façade",
-    "lucarne",
-    "console",
+    "balcon",
     "sculpture",
+    "console",
+    "fenetre",
+    "lucarne",
     "brique",
-    "balcon"
+    "façade"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "frise",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "pierre de taille",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -43,6 +62,7 @@
         "brique",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:06:06"
     },
     {
@@ -51,6 +71,7 @@
         "brique",
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:06:06"
     },
     {
@@ -58,6 +79,25 @@
       "IndexJantzen": [
         "brique",
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "lucarne",
+        "mansarde",
+        "souche de cheminée",
+        "corniche",
+        "bandeau",
+        "frise",
+        "brique",
+        "pierre de taille",
+        "fer forgé",
+        "volet",
+        "travée",
+        "toit à deux versants",
+        "ardoise"
       ],
       "dateCapture": "2006:07:14"
     },
@@ -67,6 +107,7 @@
         "brique",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:06:06"
     },
     {
@@ -75,6 +116,7 @@
         "balcon",
         "brique"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:14"
     },
     {
@@ -82,6 +124,7 @@
       "IndexJantzen": [
         "brique"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:06:06"
     },
     {
@@ -90,6 +133,7 @@
         "brique",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:14"
     },
     {
@@ -98,6 +142,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:06:06"
     },
     {
@@ -106,6 +151,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:06:06"
     }
   ]

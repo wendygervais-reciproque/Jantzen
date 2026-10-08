@@ -32,16 +32,44 @@
   "WPfr": null,
   "image_ref": "Malte-57_11_§1",
   "terme_jantzen_bat": [
-    "fenetre-d'angle",
-    "garde-corps",
     "porte-fer-hall",
+    "garde-corps",
+    "fenetre-d'angle",
     "façade-d'angle"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "corniche",
+    "fenêtre",
+    "garde-corps",
+    "porte",
+    "souche de cheminée",
+    "toit-terrasse",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Malte-57_11_§1",
       "IndexJantzen": [
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "garde-corps",
+        "brique",
+        "travée",
+        "bandeau",
+        "toit-terrasse",
+        "souche de cheminée",
+        "volet",
+        "porte",
+        "corniche"
       ],
       "dateCapture": "2005:09:08"
     },
@@ -51,6 +79,7 @@
         "fenetre-d'angle",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:09:08"
     },
     {
@@ -58,6 +87,7 @@
       "IndexJantzen": [
         "porte-fer-hall"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:09:08"
     }
   ]

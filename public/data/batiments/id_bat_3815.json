@@ -23,11 +23,31 @@
   "terme_jantzen_bat": [
     "fenetre"
   ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "bandeau",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "porte-fenêtre",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Temple-9_4_§1",
       "IndexJantzen": [
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "arc en plein cintre",
+        "arc",
+        "fenêtre",
+        "garde-corps",
+        "porte-fenêtre",
+        "volet",
+        "fer forgé",
+        "bandeau"
       ],
       "dateCapture": "2011:07:22"
     }

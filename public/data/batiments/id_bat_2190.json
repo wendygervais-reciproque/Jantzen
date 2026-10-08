@@ -29,15 +29,36 @@
   "image_ref": "Francs-Bourgeois-31_3_§1",
   "terme_jantzen_bat": [
     "oeil-de-boeuf",
+    "balcon",
+    "sculpture",
+    "clé",
     "fenetre",
     "façade",
-    "garde-corps",
     "poignée-porte",
-    "sculpture",
-    "porte-bois",
-    "clé",
+    "fronton",
+    "garde-corps",
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
     "balcon",
-    "fronton"
+    "balustrade",
+    "bossage",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "heurtoir",
+    "lucarne",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "portail",
+    "porte",
+    "sculpture",
+    "vantail"
   ],
   "photos": [
     {
@@ -48,6 +69,27 @@
         "fronton",
         "porte-bois"
       ],
+      "IndexTorneh": [
+        "fronton",
+        "balcon",
+        "balustrade",
+        "fer forgé",
+        "porte",
+        "fenêtre",
+        "lucarne",
+        "mascaron",
+        "sculpture",
+        "arc en plein cintre",
+        "oculus",
+        "pilastre",
+        "corniche",
+        "ardoise",
+        "pierre de taille",
+        "portail",
+        "vantail",
+        "heurtoir",
+        "bossage"
+      ],
       "dateCapture": "2005:07:03"
     },
     {
@@ -56,6 +98,7 @@
         "balcon",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:03"
     },
     {
@@ -65,6 +108,7 @@
         "fronton",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:03"
     },
     {
@@ -73,6 +117,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:03"
     },
     {
@@ -80,6 +125,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:03"
     },
     {
@@ -90,6 +136,7 @@
         "porte-bois",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:03"
     },
     {
@@ -97,6 +144,7 @@
       "IndexJantzen": [
         "poignée-porte"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:03"
     }
   ]

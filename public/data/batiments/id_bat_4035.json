@@ -28,9 +28,22 @@
   "WPfr": null,
   "image_ref": "Conte_3_§1",
   "terme_jantzen_bat": [
-    "porte-fer",
     "sculpture",
-    "atlante"
+    "atlante",
+    "porte-fer"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "brique",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "grille",
+    "pierre de taille",
+    "pilastre",
+    "portail",
+    "sculpture",
+    "vantail"
   ],
   "photos": [
     {
@@ -38,6 +51,19 @@
       "IndexJantzen": [
         "porte-fer",
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "portail",
+        "arc en plein cintre",
+        "sculpture",
+        "pilastre",
+        "fronton",
+        "fenêtre",
+        "grille",
+        "vantail",
+        "brique",
+        "pierre de taille",
+        "fer forgé"
       ],
       "dateCapture": "2008:05:16"
     },
@@ -47,6 +73,7 @@
         "atlante",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:16"
     },
     {
@@ -55,11 +82,13 @@
         "atlante",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:16"
     },
     {
       "id_pic": "Conte_3_§4",
       "IndexJantzen": [],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:16"
     }
   ]

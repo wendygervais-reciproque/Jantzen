@@ -31,12 +31,36 @@
     "brique",
     "oriel"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "brique",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "oriel",
+    "pierre de taille",
+    "travée",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Leroux-11_16_§1",
       "IndexJantzen": [
         "brique",
         "oriel"
+      ],
+      "IndexTorneh": [
+        "oriel",
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "arc en plein cintre",
+        "brique",
+        "pierre de taille",
+        "volet",
+        "fer forgé",
+        "travée"
       ],
       "dateCapture": "2004:10:25"
     }

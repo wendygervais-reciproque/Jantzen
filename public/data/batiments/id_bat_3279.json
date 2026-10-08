@@ -29,9 +29,27 @@
   "image_ref": "Tocqueville-64_17_§1",
   "terme_jantzen_bat": [
     "toiture",
+    "sculpture",
     "fenetre",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "chéneau",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
     "lucarne",
-    "sculpture"
+    "mansarde",
+    "pierre de taille",
+    "pilastre",
+    "sculpture",
+    "souche de cheminée",
+    "volet"
   ],
   "photos": [
     {
@@ -39,6 +57,24 @@
       "IndexJantzen": [
         "fenetre",
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "lucarne",
+        "mansarde",
+        "souche de cheminée",
+        "ardoise",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "sculpture",
+        "fronton",
+        "arc en plein cintre",
+        "fenêtre",
+        "volet",
+        "pilastre",
+        "corniche",
+        "chéneau",
+        "pierre de taille"
       ],
       "dateCapture": "2007:08:25"
     },
@@ -49,6 +85,7 @@
         "sculpture",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:08:25"
     },
     {
@@ -56,6 +93,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:08:25"
     }
   ]

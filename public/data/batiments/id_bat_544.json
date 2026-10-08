@@ -23,11 +23,41 @@
   "terme_jantzen_bat": [
     "façade"
   ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "bandeau",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "souche de cheminée",
+    "travée",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Courcelles-114_17_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "lucarne",
+        "mansarde",
+        "ardoise",
+        "mascaron",
+        "bandeau",
+        "corniche",
+        "volet",
+        "travée",
+        "chaîne d'angle",
+        "souche de cheminée"
       ],
       "dateCapture": "2003:07:15"
     }

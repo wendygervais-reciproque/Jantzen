@@ -28,19 +28,63 @@
   "WPfr": null,
   "image_ref": "Michel-Chasles-5_12_§1",
   "terme_jantzen_bat": [
+    "loggia",
+    "sculpture",
+    "console",
     "fenetre",
     "lucarne",
     "façade",
+    "garde-corps"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
     "garde-corps",
-    "console",
-    "sculpture",
-    "loggia"
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "modillon",
+    "oriel",
+    "pierre de taille",
+    "souche de cheminée",
+    "toit à deux versants",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Michel-Chasles-5_12_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "lucarne",
+        "mansarde",
+        "ardoise",
+        "fer forgé",
+        "corniche",
+        "bandeau",
+        "mascaron",
+        "modillon",
+        "pierre de taille",
+        "arc en plein cintre",
+        "volet",
+        "fronton",
+        "chambranle",
+        "oriel",
+        "toit à deux versants",
+        "souche de cheminée"
       ],
       "dateCapture": "2005:10:10"
     },
@@ -49,6 +93,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:10:10"
     },
     {
@@ -57,6 +102,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:10:10"
     },
     {
@@ -65,6 +111,7 @@
         "loggia",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:10:10"
     },
     {
@@ -72,6 +119,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:10:10"
     },
     {
@@ -80,6 +128,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:10:10"
     },
     {
@@ -88,6 +137,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:10:10"
     }
   ]

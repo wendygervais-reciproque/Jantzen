@@ -33,20 +33,74 @@
   "image_ref": "Reaumur-97_2_§1",
   "terme_jantzen_bat": [
     "toiture",
+    "verrière",
+    "sculpture",
+    "console",
     "fenetre",
     "lucarne",
     "façade",
-    "console",
+    "fronton",
+    "garde-corps"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "ardoise",
+    "auvent",
+    "balcon",
+    "balustrade",
+    "chapiteau",
+    "chéneau",
+    "colonne",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
     "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "porte-fenêtre",
     "sculpture",
-    "verrière",
-    "fronton"
+    "souche de cheminée",
+    "toit-terrasse",
+    "travée",
+    "verrière"
   ],
   "photos": [
     {
       "id_pic": "Reaumur-97_2_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "mansarde",
+        "lucarne",
+        "fenêtre",
+        "porte-fenêtre",
+        "verrière",
+        "sculpture",
+        "mascaron",
+        "pilastre",
+        "corniche",
+        "arc",
+        "arc en plein cintre",
+        "souche de cheminée",
+        "chéneau",
+        "toit-terrasse",
+        "ardoise",
+        "pierre de taille",
+        "travée",
+        "auvent",
+        "porte",
+        "fer forgé",
+        "colonne",
+        "chapiteau"
       ],
       "dateCapture": "2008:07:19"
     },
@@ -56,6 +110,7 @@
         "fronton",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:05"
     },
     {
@@ -66,6 +121,7 @@
         "garde-corps",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:07:19"
     },
     {
@@ -74,6 +130,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:07:19"
     },
     {
@@ -81,6 +138,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:07:19"
     },
     {
@@ -88,6 +146,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:07:19"
     },
     {
@@ -95,6 +154,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:05"
     },
     {
@@ -103,6 +163,7 @@
         "fenetre",
         "verrière"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:08:23"
     },
     {
@@ -111,6 +172,7 @@
         "lucarne",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:08:23"
     },
     {
@@ -119,6 +181,7 @@
         "lucarne",
         "verrière"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:07:19"
     },
     {
@@ -127,6 +190,7 @@
         "fronton",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:08:23"
     }
   ]

@@ -23,11 +23,29 @@
   "terme_jantzen_bat": [
     "porte-fer"
   ],
+  "terme_torneh_bat": [
+    "chambranle",
+    "fenêtre",
+    "fer forgé",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Richard-Lenoir-bd-96_11_§1",
       "IndexJantzen": [
         "porte-fer"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "vantail",
+        "mascaron",
+        "fer forgé",
+        "chambranle",
+        "pierre de taille",
+        "fenêtre"
       ],
       "dateCapture": "2006:07:15"
     }

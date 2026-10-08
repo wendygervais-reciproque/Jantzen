@@ -29,10 +29,31 @@
   "image_ref": "Grande-Armee-22_17_§1",
   "terme_jantzen_bat": [
     "oeil-de-boeuf",
+    "dome",
     "fenetre",
     "lucarne",
-    "porte-bois",
-    "dome"
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "mascaron",
+    "oculus",
+    "oriel",
+    "pierre de taille",
+    "pilastre",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "volet",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -41,6 +62,27 @@
         "dome",
         "fenetre",
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "dôme",
+        "oculus",
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "souche de cheminée",
+        "fenêtre",
+        "balustrade",
+        "corniche",
+        "mascaron",
+        "pilastre",
+        "épi de faîtage",
+        "pierre de taille",
+        "ardoise",
+        "oriel",
+        "sculpture",
+        "fronton",
+        "volet",
+        "toit à deux versants"
       ],
       "dateCapture": "2007:12:24"
     },
@@ -52,6 +94,7 @@
         "lucarne",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:12:24"
     },
     {
@@ -61,6 +104,7 @@
         "lucarne",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:12:24"
     },
     {
@@ -70,6 +114,7 @@
         "oeil-de-boeuf",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:23"
     }
   ]

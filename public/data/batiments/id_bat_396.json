@@ -29,9 +29,23 @@
   "image_ref": "Tour-de-la-104_16_§1",
   "terme_jantzen_bat": [
     "sculpture",
-    "fenetre",
     "console",
+    "fenetre",
     "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "chapiteau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "modillon",
+    "pierre de taille",
+    "pilastre",
+    "sculpture",
+    "volet"
   ],
   "photos": [
     {
@@ -39,6 +53,20 @@
       "IndexJantzen": [
         "console",
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "corniche",
+        "modillon",
+        "sculpture",
+        "pierre de taille",
+        "fenêtre",
+        "volet",
+        "pilastre",
+        "chapiteau"
       ],
       "dateCapture": "2005:04:30"
     },
@@ -48,6 +76,7 @@
         "fenetre",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:30"
     }
   ]

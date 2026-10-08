@@ -24,12 +24,50 @@
     "toiture",
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "brique",
+    "chéneau",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "pierre de taille",
+    "souche de cheminée",
+    "toit à deux versants",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "St-Denis-44_1_§1",
       "IndexJantzen": [
         "lucarne",
         "toiture"
+      ],
+      "IndexTorneh": [
+        "ardoise",
+        "souche de cheminée",
+        "lucarne",
+        "fenêtre",
+        "volet",
+        "balcon",
+        "garde-corps",
+        "arc en plein cintre",
+        "mascaron",
+        "corniche",
+        "fronton",
+        "chéneau",
+        "mansarde",
+        "toit à deux versants",
+        "balustrade",
+        "brique",
+        "pierre de taille"
       ],
       "dateCapture": "2005:08:28"
     },
@@ -38,6 +76,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:09:01"
     }
   ]

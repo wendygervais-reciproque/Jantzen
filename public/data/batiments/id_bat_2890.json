@@ -30,11 +30,41 @@
   "terme_jantzen_bat": [
     "tourelle"
   ],
+  "terme_torneh_bat": [
+    "baie",
+    "chapiteau ionique",
+    "corniche",
+    "entablement",
+    "fenêtre",
+    "fer",
+    "fronton",
+    "mascaron",
+    "pierre de taille",
+    "pilastre",
+    "sculpture",
+    "tour",
+    "épi de faîtage"
+  ],
   "photos": [
     {
       "id_pic": "Roquepine-5_8_§1",
       "IndexJantzen": [
         "tourelle"
+      ],
+      "IndexTorneh": [
+        "fronton",
+        "pilastre",
+        "chapiteau ionique",
+        "baie",
+        "fenêtre",
+        "mascaron",
+        "sculpture",
+        "entablement",
+        "corniche",
+        "fer",
+        "pierre de taille",
+        "épi de faîtage",
+        "tour"
       ],
       "dateCapture": "2006:03:23"
     },
@@ -43,6 +73,7 @@
       "IndexJantzen": [
         "tourelle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:03:23"
     }
   ]

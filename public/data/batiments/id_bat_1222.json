@@ -21,16 +21,52 @@
   "WPfr": null,
   "image_ref": "Barres-17_4_§1",
   "terme_jantzen_bat": [
-    "lucarne",
-    "fenetre",
     "façade",
-    "garde-corps"
+    "garde-corps",
+    "fenetre",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "bandeau",
+    "chaîne d'angle",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "gros appareil",
+    "lucarne",
+    "mansarde",
+    "pierre de taille",
+    "porte",
+    "souche de cheminée",
+    "toit à deux versants",
+    "vitrail",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Barres-17_4_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "mansarde",
+        "lucarne",
+        "souche de cheminée",
+        "pierre de taille",
+        "chaîne d'angle",
+        "bandeau",
+        "toit à deux versants",
+        "volet",
+        "porte",
+        "vitrail",
+        "arc en plein cintre",
+        "fer forgé",
+        "gros appareil"
       ],
       "dateCapture": "2006:09:01"
     },
@@ -39,6 +75,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:09:01"
     },
     {
@@ -46,6 +83,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:09:01"
     },
     {
@@ -54,6 +92,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:09:01"
     }
   ]

@@ -28,9 +28,29 @@
   "WPfr": null,
   "image_ref": "Jacquemont-16_17_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "sculpture",
-    "atlante"
+    "atlante",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "atlante",
+    "auvent",
+    "balcon",
+    "balustrade",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "porte-fenêtre",
+    "sculpture",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -38,6 +58,26 @@
       "IndexJantzen": [
         "atlante",
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "porte",
+        "porte-fenêtre",
+        "arc en plein cintre",
+        "atlante",
+        "mascaron",
+        "sculpture",
+        "pierre de taille",
+        "chaîne d'angle",
+        "corniche",
+        "fronton",
+        "volet",
+        "auvent",
+        "travée"
       ],
       "dateCapture": "2004:10:03"
     },
@@ -48,6 +88,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:10:03"
     }
   ]

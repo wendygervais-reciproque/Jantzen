@@ -24,12 +24,40 @@
     "toiture",
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "chéneau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "souche de cheminée",
+    "toit à deux versants",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Conde-29_6_§1",
       "IndexJantzen": [
         "lucarne",
         "toiture"
+      ],
+      "IndexTorneh": [
+        "lucarne",
+        "souche de cheminée",
+        "mansarde",
+        "ardoise",
+        "fenêtre",
+        "volet",
+        "garde-corps",
+        "corniche",
+        "chéneau",
+        "balcon",
+        "fer forgé",
+        "toit à deux versants"
       ],
       "dateCapture": "2007:07:14"
     },
@@ -39,6 +67,7 @@
         "lucarne",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:07:14"
     }
   ]

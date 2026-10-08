@@ -28,8 +28,24 @@
   "WPfr": null,
   "image_ref": "St-Senoch-11_17_§1",
   "terme_jantzen_bat": [
-    "lucarne",
-    "dome"
+    "dome",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mansarde",
+    "modillon",
+    "oculus",
+    "pierre de taille",
+    "souche de cheminée",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -37,6 +53,22 @@
       "IndexJantzen": [
         "dome",
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "mansarde",
+        "oculus",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "volet",
+        "souche de cheminée",
+        "corniche",
+        "pierre de taille",
+        "ardoise",
+        "fer forgé",
+        "modillon",
+        "travée"
       ],
       "dateCapture": "2013:09:24"
     }

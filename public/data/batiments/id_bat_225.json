@@ -31,12 +31,48 @@
     "fenetre",
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "mascaron",
+    "oculus",
+    "oriel",
+    "pierre de taille",
+    "porte-fenêtre",
+    "sculpture",
+    "souche de cheminée",
+    "tour",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Delambre-1_14_§1",
       "IndexJantzen": [
         "fenetre",
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "oculus",
+        "mascaron",
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "volet",
+        "porte-fenêtre",
+        "ardoise",
+        "souche de cheminée",
+        "pierre de taille",
+        "sculpture",
+        "fronton",
+        "oriel",
+        "tour",
+        "fer forgé",
+        "arc en plein cintre"
       ],
       "dateCapture": "2004:04:15"
     }

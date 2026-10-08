@@ -22,9 +22,22 @@
   "image_ref": "Eugene-Labiche-4_16_1_§1",
   "terme_jantzen_bat": [
     "sculpture",
-    "fenetre",
+    "garde-corps",
     "console",
-    "garde-corps"
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "pierre de taille",
+    "porte-fenêtre",
+    "sculpture",
+    "volet"
   ],
   "photos": [
     {
@@ -34,6 +47,19 @@
         "fenetre",
         "garde-corps",
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "arc en plein cintre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "porte-fenêtre",
+        "sculpture",
+        "mascaron",
+        "pierre de taille",
+        "volet"
       ],
       "dateCapture": "2011:09:21"
     }

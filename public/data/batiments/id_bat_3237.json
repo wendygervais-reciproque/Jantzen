@@ -24,12 +24,30 @@
     "oeil-de-boeuf",
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "corniche",
+    "faîtage",
+    "frise",
+    "oculus",
+    "sculpture",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Malesherbes-62_8_§1",
       "IndexJantzen": [
         "lucarne",
         "oeil-de-boeuf"
+      ],
+      "IndexTorneh": [
+        "oculus",
+        "ardoise",
+        "corniche",
+        "frise",
+        "faîtage",
+        "volet",
+        "sculpture"
       ],
       "dateCapture": "2005:08:10"
     }

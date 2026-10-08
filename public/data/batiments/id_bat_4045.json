@@ -31,11 +31,23 @@
     "sculpture",
     "clé"
   ],
+  "terme_torneh_bat": [
+    "arc",
+    "bossage",
+    "pierre de taille",
+    "sculpture"
+  ],
   "photos": [
     {
       "id_pic": "Polytechnique_5_§1",
       "IndexJantzen": [
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "sculpture",
+        "pierre de taille",
+        "bossage",
+        "arc"
       ],
       "dateCapture": null
     },
@@ -44,6 +56,7 @@
       "IndexJantzen": [
         "clé"
       ],
+      "IndexTorneh": [],
       "dateCapture": null
     }
   ]

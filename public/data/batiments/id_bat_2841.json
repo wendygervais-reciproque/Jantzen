@@ -21,17 +21,51 @@
   "WPfr": null,
   "image_ref": "Ancienne-Comedie-5_6_§1",
   "terme_jantzen_bat": [
+    "sculpture",
+    "clé",
     "fenetre",
     "façade",
+    "garde-corps"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chéneau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
     "garde-corps",
-    "sculpture",
-    "clé"
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "pierre de taille",
+    "souche de cheminée"
   ],
   "photos": [
     {
       "id_pic": "Ancienne-Comedie-5_6_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "mansarde",
+        "lucarne",
+        "balustrade",
+        "mascaron",
+        "corniche",
+        "bandeau",
+        "ardoise",
+        "souche de cheminée",
+        "pierre de taille",
+        "fer forgé",
+        "arc en plein cintre",
+        "chéneau"
       ],
       "dateCapture": "2005:06:02"
     },
@@ -40,6 +74,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:02"
     },
     {
@@ -48,6 +83,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:02"
     },
     {
@@ -57,6 +93,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:02"
     },
     {
@@ -66,6 +103,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:05:11"
     },
     {
@@ -75,6 +113,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:05:11"
     }
   ]

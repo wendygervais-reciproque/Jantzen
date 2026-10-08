@@ -21,9 +21,26 @@
   "WPfr": null,
   "image_ref": "Flandre-60_19_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "sculpture",
+    "fenetre",
     "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "bossage",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "grille",
+    "linteau",
+    "pilastre",
+    "portail",
+    "porte",
+    "sculpture",
+    "vantail",
+    "volet"
   ],
   "photos": [
     {
@@ -31,6 +48,23 @@
       "IndexJantzen": [
         "fenetre",
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "portail",
+        "vantail",
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "sculpture",
+        "corniche",
+        "chambranle",
+        "linteau",
+        "bossage",
+        "volet",
+        "grille",
+        "pilastre"
       ],
       "dateCapture": "2005:08:02"
     },
@@ -40,6 +74,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:02"
     }
   ]

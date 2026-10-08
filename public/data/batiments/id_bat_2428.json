@@ -32,9 +32,29 @@
   "WPfr": null,
   "image_ref": "St-Sabin-39_11_§1",
   "terme_jantzen_bat": [
+    "balcon",
     "fenetre",
-    "décor",
-    "balcon"
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "atlante",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pilastre",
+    "sculpture",
+    "toit à deux versants"
   ],
   "photos": [
     {
@@ -43,6 +63,26 @@
         "balcon",
         "décor",
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "fronton",
+        "corniche",
+        "atlante",
+        "pilastre",
+        "mascaron",
+        "lucarne",
+        "mansarde",
+        "garde-corps",
+        "fer forgé",
+        "ardoise",
+        "sculpture",
+        "bandeau",
+        "chambranle",
+        "toit à deux versants",
+        "oculus"
       ],
       "dateCapture": "2005:09:08"
     }

@@ -33,12 +33,33 @@
   "image_ref": "Albert-1er-40_8_§1-Rs",
   "terme_jantzen_bat": [
     "toiture",
+    "balcon",
+    "porte-fer",
     "fenetre",
     "lucarne",
-    "garde-corps",
     "façade",
-    "porte-fer",
-    "balcon"
+    "garde-corps"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "frise",
+    "garde-corps",
+    "lucarne",
+    "mascaron",
+    "oculus",
+    "oriel",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "souche de cheminée",
+    "travée",
+    "volet",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -46,6 +67,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:09:24"
     },
     {
@@ -53,6 +75,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:09:24"
     },
     {
@@ -60,6 +83,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:10"
     },
     {
@@ -68,6 +92,7 @@
         "balcon",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:03:25"
     },
     {
@@ -75,6 +100,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:03:14"
     },
     {
@@ -83,6 +109,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:03:15"
     },
     {
@@ -91,12 +118,34 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:10"
     },
     {
       "id_pic": "Albert-1er-40_8_§1-Rs",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "ardoise",
+        "souche de cheminée",
+        "corniche",
+        "bandeau",
+        "sculpture",
+        "mascaron",
+        "épi de faîtage",
+        "pierre de taille",
+        "lucarne",
+        "oriel",
+        "porte",
+        "frise",
+        "volet",
+        "oculus",
+        "travée"
       ],
       "dateCapture": "2008:02:10"
     },
@@ -106,6 +155,7 @@
         "fenetre",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:10"
     },
     {
@@ -114,6 +164,7 @@
         "balcon",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:03:14"
     },
     {
@@ -121,6 +172,7 @@
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:08:21"
     },
     {
@@ -128,6 +180,7 @@
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:03:25"
     },
     {
@@ -135,6 +188,7 @@
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": null
     },
     {
@@ -142,6 +196,7 @@
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:03:25"
     },
     {
@@ -149,6 +204,7 @@
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:03:14"
     },
     {
@@ -156,6 +212,7 @@
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:10"
     },
     {
@@ -163,6 +220,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:08:21"
     },
     {
@@ -170,6 +228,7 @@
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:10"
     },
     {
@@ -177,6 +236,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:03:15"
     },
     {
@@ -185,6 +245,7 @@
         "lucarne",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:03:15"
     }
   ]

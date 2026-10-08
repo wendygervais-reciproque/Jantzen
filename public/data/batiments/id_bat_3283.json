@@ -29,9 +29,31 @@
   "image_ref": "Georges_Mandel_65_16_§1",
   "terme_jantzen_bat": [
     "marquise",
-    "lucarne",
+    "fronton",
     "porte-fer",
-    "fronton"
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "tour",
+    "volet",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -39,6 +61,28 @@
       "IndexJantzen": [
         "fronton",
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "corniche",
+        "fronton",
+        "souche de cheminée",
+        "mansarde",
+        "toit à deux versants",
+        "ardoise",
+        "pierre de taille",
+        "brique",
+        "volet",
+        "bandeau",
+        "oculus",
+        "sculpture",
+        "mascaron",
+        "pilastre",
+        "tour",
+        "épi de faîtage"
       ],
       "dateCapture": "2006:04:11"
     },
@@ -48,6 +92,7 @@
         "fronton",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:11"
     },
     {
@@ -56,6 +101,7 @@
         "marquise",
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:30"
     },
     {
@@ -64,6 +110,7 @@
         "marquise",
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:11"
     }
   ]

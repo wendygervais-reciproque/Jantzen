@@ -22,10 +22,23 @@
   "image_ref": "Berthier-15_17_§1",
   "terme_jantzen_bat": [
     "toiture",
-    "pignon",
+    "verrière",
     "façade-d'angle",
-    "lucarne-d'angle",
-    "verrière"
+    "pignon",
+    "lucarne-d'angle"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "fenêtre",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "oculus",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -33,6 +46,19 @@
       "IndexJantzen": [
         "façade-d'angle",
         "pignon"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "souche de cheminée",
+        "toit à deux versants",
+        "ardoise",
+        "lucarne",
+        "balcon",
+        "volet",
+        "oculus",
+        "garde-corps",
+        "mansarde",
+        "travée"
       ],
       "dateCapture": "2007:07:04"
     },
@@ -42,6 +68,7 @@
         "façade-d'angle",
         "pignon"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:07:04"
     },
     {
@@ -51,6 +78,7 @@
         "toiture",
         "verrière"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:07:04"
     }
   ]

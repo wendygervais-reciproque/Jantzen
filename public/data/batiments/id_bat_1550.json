@@ -23,11 +23,26 @@
   "WPfr": null,
   "image_ref": "Muette-Chaussee-20_16_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "sculpture",
     "tour",
-    "décor",
-    "porte-fer-hall"
+    "sculpture",
+    "fenetre",
+    "porte-fer-hall",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "avant-corps",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "marquise",
+    "pierre de taille",
+    "sculpture",
+    "souche de cheminée",
+    "volet"
   ],
   "photos": [
     {
@@ -37,6 +52,21 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "bandeau",
+        "fenêtre",
+        "garde-corps",
+        "souche de cheminée",
+        "pierre de taille",
+        "fer forgé",
+        "sculpture",
+        "avant-corps",
+        "corniche",
+        "volet",
+        "marquise"
+      ],
       "dateCapture": "2005:05:12"
     },
     {
@@ -45,6 +75,7 @@
         "fenetre",
         "tour"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:12"
     },
     {
@@ -53,6 +84,7 @@
         "fenetre",
         "tour"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:12"
     },
     {
@@ -60,6 +92,7 @@
       "IndexJantzen": [
         "porte-fer-hall"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:01"
     }
   ]

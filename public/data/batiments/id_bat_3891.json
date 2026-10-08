@@ -23,11 +23,37 @@
   "terme_jantzen_bat": [
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "vantail",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Beaumarchais-94_11_§1",
       "IndexJantzen": [
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "vantail",
+        "fer forgé",
+        "balcon",
+        "garde-corps",
+        "volet",
+        "fenêtre",
+        "sculpture",
+        "pierre de taille",
+        "chambranle",
+        "corniche"
       ],
       "dateCapture": "2006:03:19"
     }

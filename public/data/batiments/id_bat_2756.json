@@ -32,9 +32,35 @@
   "WPfr": null,
   "image_ref": "President-Wilson-48_16_§1-zFd",
   "terme_jantzen_bat": [
+    "loggia",
     "fenetre",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "auvent",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chapiteau corinthien",
+    "colonne",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
     "lucarne",
-    "loggia"
+    "mansarde",
+    "marquise",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porte-fenêtre",
+    "sculpture",
+    "souche de cheminée",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -44,6 +70,32 @@
         "loggia",
         "lucarne"
       ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "lucarne",
+        "mansarde",
+        "colonne",
+        "chapiteau corinthien",
+        "arc en plein cintre",
+        "oculus",
+        "mascaron",
+        "sculpture",
+        "corniche",
+        "bandeau",
+        "pilastre",
+        "ardoise",
+        "souche de cheminée",
+        "pierre de taille",
+        "volet",
+        "porte-fenêtre",
+        "marquise",
+        "auvent",
+        "travée",
+        "fronton"
+      ],
       "dateCapture": "2004:03:17"
     },
     {
@@ -52,6 +104,7 @@
         "fenetre",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:03:17"
     }
   ]

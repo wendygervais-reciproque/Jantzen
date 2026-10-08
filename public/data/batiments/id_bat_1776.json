@@ -28,16 +28,62 @@
   "WPfr": null,
   "image_ref": "Berthier-23t_17_§1-Rs",
   "terme_jantzen_bat": [
-    "lucarne",
-    "fenetre",
     "façade",
-    "porte-bois"
+    "fenetre",
+    "porte-bois",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "arc brisé",
+    "arc en plein cintre",
+    "ardoise",
+    "baie",
+    "brique",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "lucarne",
+    "meneau",
+    "pierre de taille",
+    "pilastre",
+    "porche",
+    "porte",
+    "sculpture",
+    "souche de cheminée",
+    "tuile",
+    "vantail",
+    "voûte",
+    "épi de faîtage"
   ],
   "photos": [
     {
       "id_pic": "Berthier-23t_17_§1-Rs",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "arc brisé",
+        "arc en plein cintre",
+        "ardoise",
+        "baie",
+        "brique",
+        "chambranle",
+        "corniche",
+        "fenêtre",
+        "fronton",
+        "lucarne",
+        "meneau",
+        "pierre de taille",
+        "pilastre",
+        "porche",
+        "porte",
+        "sculpture",
+        "souche de cheminée",
+        "tuile",
+        "vantail",
+        "voûte",
+        "épi de faîtage"
       ],
       "dateCapture": "2009:05:20"
     },
@@ -46,6 +92,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:05:18"
     },
     {
@@ -53,6 +100,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:05:18"
     },
     {
@@ -60,6 +108,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:05:20"
     },
     {
@@ -67,6 +116,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:05:20"
     },
     {
@@ -74,6 +124,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:05:20"
     }
   ]

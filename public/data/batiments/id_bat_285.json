@@ -30,11 +30,33 @@
   "terme_jantzen_bat": [
     "porte-fer-hall"
   ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "chambranle",
+    "fer forgé",
+    "jambage",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Gobelins-Av-10_5_§1",
       "IndexJantzen": [
         "porte-fer-hall"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "arc",
+        "fer forgé",
+        "sculpture",
+        "vantail",
+        "chambranle",
+        "pierre de taille",
+        "jambage",
+        "arc en plein cintre"
       ],
       "dateCapture": "2005:04:11"
     }

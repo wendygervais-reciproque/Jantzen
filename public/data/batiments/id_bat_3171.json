@@ -30,11 +30,29 @@
   "terme_jantzen_bat": [
     "porte-fer-hall"
   ],
+  "terme_torneh_bat": [
+    "chambranle",
+    "fer forgé",
+    "huisserie",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Maria-Deraismes-6_17_§1",
       "IndexJantzen": [
         "porte-fer-hall"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "vantail",
+        "fer forgé",
+        "sculpture",
+        "chambranle",
+        "pierre de taille",
+        "huisserie"
       ],
       "dateCapture": "2004:09:08"
     }

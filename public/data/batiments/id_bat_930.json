@@ -29,10 +29,26 @@
   "image_ref": "Perree-14_3_§1",
   "terme_jantzen_bat": [
     "porte-fer",
+    "fenetre-d'angle",
     "fenetre",
     "façade",
-    "fenetre-d'angle",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "baie",
+    "bandeau",
+    "brique",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "grille",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "vantail"
   ],
   "photos": [
     {
@@ -42,6 +58,22 @@
         "fenetre",
         "porte-fer"
       ],
+      "IndexTorneh": [
+        "brique",
+        "pierre de taille",
+        "arc",
+        "sculpture",
+        "fronton",
+        "fenêtre",
+        "porte",
+        "fer forgé",
+        "vantail",
+        "chaîne d'angle",
+        "baie",
+        "grille",
+        "bandeau",
+        "corniche"
+      ],
       "dateCapture": "2006:04:22"
     },
     {
@@ -49,6 +81,7 @@
       "IndexJantzen": [
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:01"
     },
     {
@@ -57,6 +90,7 @@
         "décor",
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:22"
     }
   ]

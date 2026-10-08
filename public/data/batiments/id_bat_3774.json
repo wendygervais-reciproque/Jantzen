@@ -23,20 +23,62 @@
   "WPfr": null,
   "image_ref": "Clichy-bd-9_9_§1",
   "terme_jantzen_bat": [
+    "verrière",
+    "sculpture",
     "fenetre",
     "lucarne",
     "façade",
-    "sculpture",
     "métal",
     "céramique",
-    "verrière",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "grille",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée"
   ],
   "photos": [
     {
       "id_pic": "Clichy-bd-9_9_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "corniche",
+        "bandeau",
+        "arc",
+        "grille",
+        "fer forgé",
+        "garde-corps",
+        "mascaron",
+        "pierre de taille",
+        "toit à deux versants",
+        "souche de cheminée",
+        "fronton",
+        "oculus",
+        "travée",
+        "brique",
+        "porte",
+        "portail"
       ],
       "dateCapture": "2007:06:20"
     },
@@ -46,6 +88,7 @@
         "lucarne",
         "verrière"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:06:20"
     },
     {
@@ -54,6 +97,7 @@
         "lucarne",
         "métal"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:08:27"
     },
     {
@@ -62,6 +106,7 @@
         "céramique",
         "décor"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:02"
     },
     {
@@ -70,6 +115,7 @@
         "céramique",
         "décor"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:02"
     },
     {
@@ -77,6 +123,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:02"
     },
     {
@@ -86,6 +133,7 @@
         "fenetre",
         "métal"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:02"
     },
     {
@@ -97,6 +145,7 @@
         "sculpture",
         "verrière"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:06:20"
     },
     {
@@ -105,6 +154,7 @@
         "fenetre",
         "verrière"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:02"
     },
     {
@@ -113,6 +163,7 @@
         "lucarne",
         "verrière"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:02"
     },
     {
@@ -121,6 +172,7 @@
         "lucarne",
         "verrière"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:02"
     }
   ]

@@ -17,7 +17,7 @@
     "numero": "19",
     "voie": "boulevard Suchet"
   },
-  "arrondissement": 1,
+  "arrondissement": 16,
   "tri_alphab": "Suchet",
   "coordonnees": {
     "latitude": "48.859538",
@@ -28,14 +28,64 @@
   "WPfr": null,
   "image_ref": "Suchet-19_1_§1",
   "terme_jantzen_bat": [
+    "façade-d'angle",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "grille",
     "lucarne",
-    "façade-d'angle"
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "porte-fenêtre",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "tuile",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Suchet-19_1_§1",
       "IndexJantzen": [
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "bandeau",
+        "chambranle",
+        "corniche",
+        "fenêtre",
+        "fer forgé",
+        "fronton",
+        "garde-corps",
+        "lucarne",
+        "mansarde",
+        "mascaron",
+        "oculus",
+        "pierre de taille",
+        "sculpture",
+        "souche de cheminée",
+        "toit à deux versants",
+        "travée",
+        "tuile",
+        "ardoise",
+        "volet",
+        "porte-fenêtre",
+        "grille"
       ],
       "dateCapture": "2006:04:02"
     },
@@ -44,6 +94,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:02"
     }
   ]

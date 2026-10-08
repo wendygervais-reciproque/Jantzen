@@ -32,12 +32,38 @@
     "poignée-porte",
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "arc en anse de panier",
+    "balcon",
+    "chambranle",
+    "fer forgé",
+    "garde-corps",
+    "heurtoir",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Louis-Le-Grand-3_2_§1",
       "IndexJantzen": [
         "oeil-de-boeuf",
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "vantail",
+        "mascaron",
+        "sculpture",
+        "arc en anse de panier",
+        "pierre de taille",
+        "fer forgé",
+        "balcon",
+        "garde-corps",
+        "chambranle",
+        "heurtoir"
       ],
       "dateCapture": "2004:09:12"
     },
@@ -46,6 +72,7 @@
       "IndexJantzen": [
         "poignée-porte"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:12"
     }
   ]

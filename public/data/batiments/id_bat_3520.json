@@ -24,12 +24,32 @@
     "fenetre",
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "boiserie",
+    "chambranle",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "St-Lazare-75_9_§1",
       "IndexJantzen": [
         "fenetre",
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "arc en plein cintre",
+        "vantail",
+        "sculpture",
+        "pierre de taille",
+        "chambranle",
+        "boiserie",
+        "pilastre"
       ],
       "dateCapture": "2004:06:17"
     }

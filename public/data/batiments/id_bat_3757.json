@@ -21,8 +21,27 @@
   "WPfr": null,
   "image_ref": "General-Leclerc-89_14_§1",
   "terme_jantzen_bat": [
+    "tourelle",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
     "lucarne",
-    "tourelle"
+    "mascaron",
+    "modillon",
+    "oriel",
+    "pierre de taille",
+    "souche de cheminée",
+    "toit à deux versants",
+    "volet",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -30,6 +49,25 @@
       "IndexJantzen": [
         "lucarne",
         "tourelle"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "corniche",
+        "dôme",
+        "fenêtre",
+        "garde-corps",
+        "lucarne",
+        "mascaron",
+        "modillon",
+        "pierre de taille",
+        "souche de cheminée",
+        "toit à deux versants",
+        "volet",
+        "épi de faîtage",
+        "ardoise",
+        "fer forgé",
+        "oriel"
       ],
       "dateCapture": "2010:04:18"
     },
@@ -39,6 +77,7 @@
         "lucarne",
         "tourelle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:04:18"
     }
   ]

@@ -28,16 +28,44 @@
   "WPfr": null,
   "image_ref": "Niel-63_17_§1",
   "terme_jantzen_bat": [
-    "intérieur",
+    "porte-fer-hall",
     "lucarne-d'angle",
-    "porte-fer",
-    "porte-fer-hall"
+    "intérieur",
+    "porte-fer"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "chapiteau corinthien",
+    "colonne",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fronton",
+    "lucarne",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "épi de faîtage"
   ],
   "photos": [
     {
       "id_pic": "Niel-63_17_§1",
       "IndexJantzen": [
         "lucarne-d'angle"
+      ],
+      "IndexTorneh": [
+        "dôme",
+        "épi de faîtage",
+        "lucarne",
+        "oculus",
+        "colonne",
+        "chapiteau corinthien",
+        "corniche",
+        "fronton",
+        "mascaron",
+        "pierre de taille",
+        "fenêtre",
+        "arc en plein cintre"
       ],
       "dateCapture": "2009:07:13"
     },
@@ -46,6 +74,7 @@
       "IndexJantzen": [
         "porte-fer-hall"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:03:17"
     },
     {
@@ -54,6 +83,7 @@
         "intérieur",
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": null
     }
   ]

@@ -28,8 +28,27 @@
   "terme_jantzen_bat": [
     "brique",
     "lucarne-d'angle",
-    "mosaique",
-    "dome"
+    "dome",
+    "mosaique"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "brique",
+    "chaîne d'angle",
+    "céramique",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "pierre de taille",
+    "toit à deux versants",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -38,6 +57,25 @@
         "brique",
         "dome",
         "lucarne-d'angle"
+      ],
+      "IndexTorneh": [
+        "épi de faîtage",
+        "dôme",
+        "ardoise",
+        "lucarne",
+        "arc en plein cintre",
+        "mansarde",
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "mascaron",
+        "céramique",
+        "brique",
+        "pierre de taille",
+        "chaîne d'angle",
+        "toit à deux versants",
+        "balustrade"
       ],
       "dateCapture": "2008:02:10"
     },
@@ -49,6 +87,7 @@
         "lucarne-d'angle",
         "mosaique"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:10"
     }
   ]

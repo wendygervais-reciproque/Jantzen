@@ -24,12 +24,40 @@
     "marquise",
     "porte-fer"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "chambranle",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "grille",
+    "huisserie",
+    "marquise",
+    "pierre de taille",
+    "porte",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Kleber-50_16_§1",
       "IndexJantzen": [
         "marquise",
         "porte-fer"
+      ],
+      "IndexTorneh": [
+        "marquise",
+        "porte",
+        "fer forgé",
+        "vantail",
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "pierre de taille",
+        "chambranle",
+        "huisserie",
+        "garde-corps",
+        "grille"
       ],
       "dateCapture": "2007:08:25"
     }

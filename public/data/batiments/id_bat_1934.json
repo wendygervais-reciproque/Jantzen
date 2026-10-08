@@ -21,11 +21,26 @@
   "WPfr": null,
   "image_ref": "Bellechasse-27_7_§1",
   "terme_jantzen_bat": [
+    "pilastre",
+    "sculpture",
     "fenetre",
     "garde-corps",
-    "sculpture",
-    "pilastre",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "mascaron",
+    "pierre de taille",
+    "pilastre",
+    "porte-fenêtre",
+    "sculpture",
+    "vitrail",
+    "volet"
   ],
   "photos": [
     {
@@ -35,6 +50,21 @@
         "fenetre",
         "pilastre",
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "fronton",
+        "arc en plein cintre",
+        "sculpture",
+        "mascaron",
+        "pilastre",
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "pierre de taille",
+        "vitrail",
+        "volet",
+        "porte-fenêtre"
       ],
       "dateCapture": "2009:06:03"
     },
@@ -47,6 +77,7 @@
         "pilastre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:06:03"
     }
   ]

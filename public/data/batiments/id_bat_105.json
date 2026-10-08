@@ -25,9 +25,26 @@
   "image_ref": "Mairie-du_12_§1",
   "terme_jantzen_bat": [
     "toiture",
-    "lucarne",
     "oeil-de-boeuf",
-    "tourelle"
+    "tourelle",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balustrade",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "oculus",
+    "pierre de taille",
+    "sculpture",
+    "tour",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -35,6 +52,23 @@
       "IndexJantzen": [
         "toiture",
         "tourelle"
+      ],
+      "IndexTorneh": [
+        "dôme",
+        "épi de faîtage",
+        "garde-corps",
+        "fer forgé",
+        "ardoise",
+        "lucarne",
+        "fronton",
+        "corniche",
+        "oculus",
+        "balustrade",
+        "tour",
+        "mansarde",
+        "fenêtre",
+        "pierre de taille",
+        "sculpture"
       ],
       "dateCapture": "2005:07:16"
     },
@@ -44,6 +78,7 @@
         "toiture",
         "tourelle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:26"
     },
     {
@@ -51,6 +86,7 @@
       "IndexJantzen": [
         "tourelle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:03"
     },
     {
@@ -58,6 +94,7 @@
       "IndexJantzen": [
         "tourelle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:16"
     },
     {
@@ -66,6 +103,7 @@
         "lucarne",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:03"
     }
   ]

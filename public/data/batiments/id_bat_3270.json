@@ -24,12 +24,38 @@
     "fenetre",
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "arc",
+    "bossage",
+    "chambranle",
+    "garde-corps",
+    "heurtoir",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "vantail",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "La-Boetie-63_8_§1",
       "IndexJantzen": [
         "fenetre",
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "arc",
+        "sculpture",
+        "mascaron",
+        "chambranle",
+        "vantail",
+        "garde-corps",
+        "bossage",
+        "pierre de taille",
+        "heurtoir",
+        "volet"
       ],
       "dateCapture": "2004:05:16"
     }

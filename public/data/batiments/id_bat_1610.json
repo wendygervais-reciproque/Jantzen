@@ -33,15 +33,37 @@
   "image_ref": "Lannes-21_16_§1-Dx",
   "terme_jantzen_bat": [
     "toiture",
-    "fenetre",
-    "lucarne",
-    "garde-corps",
-    "façade",
     "sculpture",
     "clé",
+    "fenetre",
+    "lucarne",
     "brique",
-    "décor",
-    "porte-fer-hall"
+    "façade",
+    "porte-fer-hall",
+    "garde-corps",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "ardoise",
+    "avant-corps",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "grille",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "porte",
+    "souche de cheminée",
+    "travée"
   ],
   "photos": [
     {
@@ -49,6 +71,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:12"
     },
     {
@@ -56,6 +79,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2014:03:20"
     },
     {
@@ -64,6 +88,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2014:03:20"
     },
     {
@@ -74,6 +99,7 @@
         "garde-corps",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:03:25"
     },
     {
@@ -81,6 +107,7 @@
       "IndexJantzen": [
         "porte-fer-hall"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:03:16"
     },
     {
@@ -89,6 +116,7 @@
         "clé",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:12"
     },
     {
@@ -97,6 +125,7 @@
         "brique",
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:09:21"
     },
     {
@@ -107,6 +136,7 @@
         "lucarne",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:09:21"
     },
     {
@@ -115,12 +145,35 @@
         "brique",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:09:21"
     },
     {
       "id_pic": "Lannes-21_16_§1-Dx",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "mansarde",
+        "lucarne",
+        "souche de cheminée",
+        "arc en plein cintre",
+        "arc",
+        "mascaron",
+        "corniche",
+        "bandeau",
+        "pierre de taille",
+        "ardoise",
+        "oculus",
+        "porte",
+        "grille",
+        "avant-corps",
+        "travée",
+        "fronton"
       ],
       "dateCapture": "2014:03:20"
     },
@@ -129,6 +182,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2014:03:20"
     },
     {
@@ -139,6 +193,7 @@
         "lucarne",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2014:03:20"
     },
     {
@@ -149,6 +204,7 @@
         "lucarne",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:12"
     },
     {
@@ -159,6 +215,7 @@
         "lucarne",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2014:03:20"
     },
     {
@@ -169,6 +226,7 @@
         "lucarne",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:12"
     },
     {
@@ -177,6 +235,7 @@
         "fenetre",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:12"
     },
     {
@@ -184,6 +243,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:12"
     },
     {
@@ -193,6 +253,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2014:03:20"
     },
     {
@@ -201,6 +262,7 @@
         "clé",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2014:03:20"
     },
     {
@@ -209,6 +271,7 @@
         "clé",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2014:03:20"
     },
     {
@@ -217,6 +280,7 @@
         "clé",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2014:03:20"
     }
   ]

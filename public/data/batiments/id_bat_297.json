@@ -28,17 +28,43 @@
   "WPfr": null,
   "image_ref": "Pantheon-pl-10_5_§1",
   "terme_jantzen_bat": [
+    "pilastre",
+    "sculpture",
     "fenetre",
     "façade",
-    "sculpture",
-    "pilastre",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "baie",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "frise",
+    "grille",
+    "pierre de taille",
+    "sculpture",
+    "travée"
   ],
   "photos": [
     {
       "id_pic": "Pantheon-pl-10_5_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "arc en plein cintre",
+        "baie",
+        "bandeau",
+        "corniche",
+        "frise",
+        "grille",
+        "pierre de taille",
+        "sculpture",
+        "travée",
+        "fenêtre",
+        "fer forgé"
       ],
       "dateCapture": "2005:08:29"
     },
@@ -50,6 +76,7 @@
         "pilastre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:29"
     },
     {
@@ -57,6 +84,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:29"
     }
   ]

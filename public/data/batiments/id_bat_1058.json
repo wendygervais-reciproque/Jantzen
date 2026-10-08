@@ -22,9 +22,20 @@
   "image_ref": "Grenelle-150_7_§1",
   "terme_jantzen_bat": [
     "sculpture",
-    "fenetre",
     "garde-corps",
+    "fenetre",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "corniche",
+    "fer forgé",
+    "garde-corps",
+    "modillon",
+    "pierre de taille",
+    "porte-fenêtre",
+    "volet"
   ],
   "photos": [
     {
@@ -34,6 +45,17 @@
         "fenetre",
         "garde-corps",
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "porte-fenêtre",
+        "balcon",
+        "garde-corps",
+        "corniche",
+        "modillon",
+        "pierre de taille",
+        "volet",
+        "balustrade",
+        "fer forgé"
       ],
       "dateCapture": "2005:08:04"
     }

@@ -28,12 +28,31 @@
   "WPfr": null,
   "image_ref": "Pierre-Demours-9b_17_§1",
   "terme_jantzen_bat": [
+    "balcon",
+    "pilastre",
+    "sculpture",
     "console",
     "garde-corps",
-    "sculpture",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "mascaron",
+    "modillon",
+    "pierre de taille",
     "pilastre",
-    "décor",
-    "balcon"
+    "porte-fenêtre",
+    "sculpture",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -44,6 +63,25 @@
         "pilastre",
         "sculpture"
       ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "porte-fenêtre",
+        "mascaron",
+        "sculpture",
+        "arc en plein cintre",
+        "pierre de taille",
+        "corniche",
+        "fronton",
+        "modillon",
+        "volet",
+        "fer forgé",
+        "travée",
+        "chambranle",
+        "pilastre"
+      ],
       "dateCapture": "2005:08:08"
     },
     {
@@ -52,6 +90,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:08"
     },
     {
@@ -60,6 +99,7 @@
         "balcon",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:08"
     },
     {
@@ -69,6 +109,7 @@
         "garde-corps",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:08"
     }
   ]

@@ -29,21 +29,75 @@
   "image_ref": "Sevres-47_6_§1",
   "terme_jantzen_bat": [
     "oeil-de-boeuf",
-    "lucarne",
-    "console",
-    "pignon",
+    "balcon",
     "façade-d'angle",
     "sculpture",
+    "pignon",
+    "console",
     "fenetre-d'angle",
-    "décor",
+    "lucarne",
+    "colonne",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "avant-corps",
     "balcon",
-    "colonne"
+    "balustrade",
+    "bandeau",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "vantail",
+    "épi de faîtage"
   ],
   "photos": [
     {
       "id_pic": "Sevres-47_6_§1",
       "IndexJantzen": [
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "garde-corps",
+        "mansarde",
+        "lucarne",
+        "oculus",
+        "fronton",
+        "corniche",
+        "bandeau",
+        "pilastre",
+        "souche de cheminée",
+        "toit à deux versants",
+        "arc en plein cintre",
+        "mascaron",
+        "sculpture",
+        "ardoise",
+        "pierre de taille",
+        "fer forgé",
+        "porte",
+        "vantail",
+        "épi de faîtage",
+        "chaîne d'angle",
+        "travée",
+        "avant-corps"
       ],
       "dateCapture": "2007:04:02"
     },
@@ -55,6 +109,7 @@
         "fenetre-d'angle",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:05:12"
     },
     {
@@ -62,6 +117,7 @@
       "IndexJantzen": [
         "façade-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:02"
     },
     {
@@ -71,6 +127,7 @@
         "fenetre-d'angle",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:02"
     },
     {
@@ -80,6 +137,7 @@
         "lucarne",
         "pignon"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:02"
     },
     {
@@ -90,6 +148,7 @@
         "oeil-de-boeuf",
         "pignon"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:02"
     },
     {
@@ -100,6 +159,7 @@
         "fenetre-d'angle",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:02"
     }
   ]

@@ -21,15 +21,47 @@
   "WPfr": null,
   "image_ref": "Jean-Baptiste-Dumas-11b_17_§1",
   "terme_jantzen_bat": [
-    "poignée-porte",
     "sculpture",
+    "poignée-porte",
     "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "chambranle",
+    "corniche",
+    "fer forgé",
+    "heurtoir",
+    "jambage",
+    "linteau",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "vantail",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Jean-Baptiste-Dumas-11b_17_§1",
       "IndexJantzen": [
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "porte",
+        "vantail",
+        "heurtoir",
+        "sculpture",
+        "mascaron",
+        "pierre de taille",
+        "volet",
+        "fer forgé",
+        "linteau",
+        "jambage",
+        "chambranle",
+        "corniche"
       ],
       "dateCapture": null
     },
@@ -38,6 +70,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": null
     },
     {
@@ -45,6 +78,7 @@
       "IndexJantzen": [
         "poignée-porte"
       ],
+      "IndexTorneh": [],
       "dateCapture": null
     }
   ]

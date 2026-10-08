@@ -21,15 +21,55 @@
   "WPfr": null,
   "image_ref": "Theodore-Rousseau-4_16_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "façade",
-    "clé"
+    "clé",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oriel",
+    "pierre de taille",
+    "porte",
+    "souche de cheminée",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Theodore-Rousseau-4_16_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "fenêtre",
+        "arc en plein cintre",
+        "mascaron",
+        "corniche",
+        "bandeau",
+        "pierre de taille",
+        "lucarne",
+        "mansarde",
+        "souche de cheminée",
+        "volet",
+        "fer forgé",
+        "porte",
+        "arc",
+        "travée",
+        "oriel"
       ],
       "dateCapture": "2009:03:31"
     },
@@ -40,6 +80,7 @@
         "façade",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:03:31"
     }
   ]

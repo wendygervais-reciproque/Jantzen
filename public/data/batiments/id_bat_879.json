@@ -26,12 +26,40 @@
     "toiture",
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "chambranle",
+    "faîtage",
+    "fenêtre",
+    "garde-corps",
+    "lucarne",
+    "pierre de taille",
+    "souche de cheminée",
+    "toit à deux versants",
+    "tuile",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Denfert-Rochereau-pl-14_14_§1-Rx",
       "IndexJantzen": [
         "lucarne",
         "toiture"
+      ],
+      "IndexTorneh": [
+        "souche de cheminée",
+        "lucarne",
+        "tuile",
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "volet",
+        "faîtage",
+        "pierre de taille",
+        "chambranle",
+        "balustrade",
+        "toit à deux versants"
       ],
       "dateCapture": "2011:06:26"
     },
@@ -41,6 +69,7 @@
         "lucarne",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:07:05"
     },
     {
@@ -48,6 +77,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:28"
     },
     {
@@ -55,6 +85,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:18"
     },
     {
@@ -62,6 +93,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:18"
     },
     {
@@ -69,6 +101,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:18"
     }
   ]

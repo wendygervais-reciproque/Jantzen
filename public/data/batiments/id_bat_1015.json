@@ -24,12 +24,32 @@
     "toiture",
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "corniche",
+    "fenêtre",
+    "garde-corps",
+    "lucarne",
+    "oculus",
+    "souche de cheminée",
+    "toit à deux versants"
+  ],
   "photos": [
     {
       "id_pic": "Harpe_15_5_§1",
       "IndexJantzen": [
         "lucarne",
         "toiture"
+      ],
+      "IndexTorneh": [
+        "lucarne",
+        "souche de cheminée",
+        "corniche",
+        "fenêtre",
+        "garde-corps",
+        "balcon",
+        "toit à deux versants",
+        "oculus"
       ],
       "dateCapture": "2006:05:03"
     }

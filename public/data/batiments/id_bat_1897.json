@@ -24,12 +24,26 @@
     "oeil-de-boeuf",
     "fenetre"
   ],
+  "terme_torneh_bat": [
+    "corniche",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "sculpture"
+  ],
   "photos": [
     {
       "id_pic": "Didot-26_14_§1",
       "IndexJantzen": [
         "fenetre",
         "oeil-de-boeuf"
+      ],
+      "IndexTorneh": [
+        "oculus",
+        "corniche",
+        "pierre de taille",
+        "sculpture",
+        "mascaron"
       ],
       "dateCapture": "2005:08:31"
     }

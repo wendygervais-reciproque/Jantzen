@@ -21,12 +21,28 @@
   "WPfr": null,
   "image_ref": "Stasbourg-21_10_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "console",
     "sculpture",
     "clé",
-    "porte-bois",
-    "cariatide"
+    "cariatide",
+    "fenetre",
+    "console",
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "atlante",
+    "baie",
+    "balcon",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "grille",
+    "mascaron",
+    "pilastre",
+    "porte",
+    "sculpture",
+    "vantail"
   ],
   "photos": [
     {
@@ -34,6 +50,22 @@
       "IndexJantzen": [
         "fenetre",
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "atlante",
+        "sculpture",
+        "mascaron",
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "arc en plein cintre",
+        "corniche",
+        "pilastre",
+        "vantail",
+        "grille",
+        "baie"
       ],
       "dateCapture": "2010:06:05"
     },
@@ -44,6 +76,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:28"
     },
     {
@@ -52,6 +85,7 @@
         "clé",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:28"
     },
     {
@@ -61,6 +95,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:28"
     }
   ]

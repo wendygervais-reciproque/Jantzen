@@ -24,15 +24,47 @@
   "image_ref": "Rivoli-52_4_§1",
   "terme_jantzen_bat": [
     "oeil-de-boeuf",
-    "lucarne",
     "lucarne-d'angle",
-    "dome"
+    "dome",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "atlante",
+    "balcon",
+    "balustrade",
+    "dôme",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "oculus",
+    "sculpture",
+    "tour",
+    "épi de faîtage"
   ],
   "photos": [
     {
       "id_pic": "Rivoli-52_4_§1",
       "IndexJantzen": [
         "lucarne-d'angle"
+      ],
+      "IndexTorneh": [
+        "dôme",
+        "épi de faîtage",
+        "oculus",
+        "lucarne",
+        "mansarde",
+        "arc en plein cintre",
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "sculpture",
+        "ardoise",
+        "fer forgé",
+        "atlante",
+        "tour"
       ],
       "dateCapture": "2004:09:07"
     },
@@ -43,6 +75,7 @@
         "lucarne",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:22"
     },
     {
@@ -52,6 +85,7 @@
         "lucarne",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:22"
     }
   ]

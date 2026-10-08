@@ -23,11 +23,35 @@
   "terme_jantzen_bat": [
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "gros appareil",
+    "oculus",
+    "pierre de taille",
+    "porte",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Las-Cases-7_7_§1",
       "IndexJantzen": [
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "arc en plein cintre",
+        "porte",
+        "vantail",
+        "oculus",
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "pierre de taille",
+        "fenêtre",
+        "gros appareil"
       ],
       "dateCapture": "2004:05:24"
     },
@@ -36,6 +60,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:05:24"
     }
   ]

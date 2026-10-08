@@ -28,15 +28,51 @@
   "WPfr": null,
   "image_ref": "Jose-Maria-de-Heredia-10-12_7_§1",
   "terme_jantzen_bat": [
-    "lucarne",
+    "façade",
     "fenetre",
-    "façade"
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "colonne",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "oriel",
+    "pierre de taille",
+    "pilastre",
+    "souche de cheminée",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Jose-Maria-de-Heredia-10-12_7_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "lucarne",
+        "mansarde",
+        "corniche",
+        "pierre de taille",
+        "souche de cheminée",
+        "fronton",
+        "colonne",
+        "pilastre",
+        "travée",
+        "volet",
+        "oriel",
+        "bandeau"
       ],
       "dateCapture": "2007:06:17"
     },
@@ -46,6 +82,7 @@
         "fenetre",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:06:17"
     },
     {
@@ -54,6 +91,7 @@
         "fenetre",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:06:17"
     }
   ]

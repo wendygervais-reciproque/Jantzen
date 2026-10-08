@@ -21,15 +21,45 @@
   "WPfr": null,
   "image_ref": "Paul-Cezanne-6_8_§1",
   "terme_jantzen_bat": [
-    "porte-fer",
+    "fenetre-d'angle",
     "fenetre",
-    "fenetre-d'angle"
+    "porte-fer"
+  ],
+  "terme_torneh_bat": [
+    "attique",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "mascaron",
+    "pierre de taille",
+    "sculpture",
+    "travée"
   ],
   "photos": [
     {
       "id_pic": "Paul-Cezanne-6_8_§1",
       "IndexJantzen": [
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "corniche",
+        "bandeau",
+        "pierre de taille",
+        "fronton",
+        "sculpture",
+        "travée",
+        "attique",
+        "fer forgé",
+        "mascaron"
       ],
       "dateCapture": "2006:03:23"
     },
@@ -38,6 +68,7 @@
       "IndexJantzen": [
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:03:23"
     },
     {
@@ -45,6 +76,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:03:23"
     },
     {
@@ -53,6 +85,7 @@
         "fenetre",
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:03:23"
     }
   ]

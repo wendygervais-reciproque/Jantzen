@@ -28,10 +28,22 @@
   "WPfr": null,
   "image_ref": "Quatre-Septembre-12_2_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "cariatide",
     "sculpture",
+    "cariatide",
+    "fenetre",
     "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "bossage",
+    "fer forgé",
+    "grille",
+    "oculus",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "sculpture",
+    "vantail"
   ],
   "photos": [
     {
@@ -41,6 +53,18 @@
         "fenetre",
         "porte-bois",
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "portail",
+        "arc",
+        "sculpture",
+        "vantail",
+        "pierre de taille",
+        "grille",
+        "fer forgé",
+        "oculus",
+        "bossage"
       ],
       "dateCapture": "2004:04:25"
     }

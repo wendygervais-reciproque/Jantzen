@@ -21,8 +21,22 @@
   "WPfr": null,
   "image_ref": "Rocroy-4_10_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "garde-corps"
+    "garde-corps",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "baie",
+    "balcon",
+    "balustrade",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "pierre de taille",
+    "porte-fenêtre",
+    "sculpture",
+    "volet"
   ],
   "photos": [
     {
@@ -30,6 +44,20 @@
       "IndexJantzen": [
         "fenetre",
         "garde-corps"
+      ],
+      "IndexTorneh": [
+        "baie",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "porte-fenêtre",
+        "fer forgé",
+        "arc en plein cintre",
+        "pierre de taille",
+        "sculpture",
+        "fenêtre",
+        "volet",
+        "mascaron"
       ],
       "dateCapture": "2004:09:23"
     }

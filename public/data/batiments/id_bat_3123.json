@@ -21,18 +21,40 @@
   "WPfr": null,
   "image_ref": "Braque-6_3_§1",
   "terme_jantzen_bat": [
-    "garde-corps",
-    "console",
+    "balcon",
     "sculpture",
-    "porte-bois",
     "clé",
-    "balcon"
+    "console",
+    "garde-corps",
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "heurtoir",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "vantail",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Braque-6_3_§1",
       "IndexJantzen": [
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "arc en plein cintre",
+        "arc",
+        "mascaron",
+        "vantail",
+        "pierre de taille",
+        "heurtoir",
+        "volet",
+        "sculpture"
       ],
       "dateCapture": "2008:05:16"
     },
@@ -42,6 +64,7 @@
         "balcon",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:16"
     },
     {
@@ -52,6 +75,7 @@
         "garde-corps",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:22"
     },
     {
@@ -60,6 +84,7 @@
         "clé",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:16"
     },
     {
@@ -68,6 +93,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:16"
     },
     {
@@ -76,6 +102,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:22"
     }
   ]

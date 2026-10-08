@@ -29,10 +29,25 @@
   "WPfr": "Panthéon (Paris)",
   "image_ref": "Pantheon_5_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "dome",
     "colonne",
+    "dome",
+    "fenetre",
     "tourelle"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balustrade",
+    "chapiteau corinthien",
+    "colonne",
+    "corniche",
+    "dôme",
+    "entablement",
+    "fenêtre",
+    "fronton",
+    "oculus",
+    "pilastre",
+    "sculpture",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -41,6 +56,21 @@
         "colonne",
         "dome",
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "dôme",
+        "colonne",
+        "chapiteau corinthien",
+        "balustrade",
+        "fronton",
+        "sculpture",
+        "entablement",
+        "corniche",
+        "fenêtre",
+        "arc en plein cintre",
+        "pilastre",
+        "épi de faîtage",
+        "oculus"
       ],
       "dateCapture": "2005:08:29"
     },
@@ -51,6 +81,7 @@
         "dome",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:27"
     },
     {
@@ -59,6 +90,7 @@
         "dome",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:29"
     },
     {
@@ -67,6 +99,7 @@
         "dome",
         "tourelle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:29"
     }
   ]

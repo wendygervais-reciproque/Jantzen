@@ -25,11 +25,31 @@
   "terme_jantzen_bat": [
     "colonne"
   ],
+  "terme_torneh_bat": [
+    "chapiteau corinthien",
+    "colonne",
+    "fenêtre",
+    "fer",
+    "lucarne",
+    "mansarde",
+    "souche de cheminée",
+    "toit à deux versants"
+  ],
   "photos": [
     {
       "id_pic": "Stalingrad-Pl-_19_§1",
       "IndexJantzen": [
         "colonne"
+      ],
+      "IndexTorneh": [
+        "colonne",
+        "chapiteau corinthien",
+        "fer",
+        "fenêtre",
+        "souche de cheminée",
+        "mansarde",
+        "toit à deux versants",
+        "lucarne"
       ],
       "dateCapture": null
     }

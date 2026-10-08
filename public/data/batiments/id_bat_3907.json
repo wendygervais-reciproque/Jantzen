@@ -21,15 +21,59 @@
   "WPfr": null,
   "image_ref": "Sevres-95_6_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "façade",
+    "fenetre",
     "tourelle"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "avant-corps",
+    "balustrade",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fronton",
+    "lucarne",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "porte-fenêtre",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "tour",
+    "travée",
+    "épi de faîtage"
   ],
   "photos": [
     {
       "id_pic": "Sevres-95_6_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "arc en plein cintre",
+        "arc",
+        "fronton",
+        "oculus",
+        "sculpture",
+        "dôme",
+        "épi de faîtage",
+        "pierre de taille",
+        "fenêtre",
+        "porte",
+        "porte-fenêtre",
+        "avant-corps",
+        "travée",
+        "toit à deux versants",
+        "souche de cheminée",
+        "lucarne",
+        "balustrade",
+        "pilastre",
+        "corniche",
+        "tour"
       ],
       "dateCapture": "2004:05:12"
     },
@@ -39,6 +83,7 @@
         "fenetre",
         "tourelle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:05:12"
     },
     {
@@ -46,6 +91,7 @@
       "IndexJantzen": [
         "tourelle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:05:12"
     }
   ]

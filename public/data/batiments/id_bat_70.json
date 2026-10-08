@@ -26,11 +26,35 @@
   "terme_jantzen_bat": [
     "toiture"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "brique",
+    "dôme",
+    "faîtage",
+    "fer forgé",
+    "toit à deux versants",
+    "tour",
+    "tuile",
+    "verrière",
+    "épi de faîtage"
+  ],
   "photos": [
     {
       "id_pic": "St-Leon-Eglise_15_§1",
       "IndexJantzen": [
         "toiture"
+      ],
+      "IndexTorneh": [
+        "tour",
+        "dôme",
+        "verrière",
+        "tuile",
+        "faîtage",
+        "brique",
+        "épi de faîtage",
+        "balcon",
+        "fer forgé",
+        "toit à deux versants"
       ],
       "dateCapture": "2005:06:09"
     },
@@ -39,6 +63,7 @@
       "IndexJantzen": [
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:09"
     }
   ]

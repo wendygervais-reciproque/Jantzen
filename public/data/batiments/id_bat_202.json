@@ -29,19 +29,63 @@
   "image_ref": "Danton-1_6_§1",
   "terme_jantzen_bat": [
     "porte-fer",
+    "oriel",
+    "sculpture",
     "fenetre",
     "façade",
-    "sculpture",
-    "oriel",
     "céramique",
-    "décor",
-    "colonne"
+    "colonne",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "attique",
+    "balcon",
+    "bandeau",
+    "colonne",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "marquise",
+    "mascaron",
+    "oculus",
+    "oriel",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "sculpture",
+    "travée",
+    "vitrail"
   ],
   "photos": [
     {
       "id_pic": "Danton-1_6_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "arc en plein cintre",
+        "oriel",
+        "corniche",
+        "bandeau",
+        "travée",
+        "mascaron",
+        "sculpture",
+        "pierre de taille",
+        "fer forgé",
+        "porte",
+        "vitrail",
+        "oculus",
+        "attique",
+        "dôme",
+        "colonne",
+        "pilastre",
+        "marquise"
       ],
       "dateCapture": "2012:08:10"
     },
@@ -51,6 +95,7 @@
         "fenetre",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:05:03"
     },
     {
@@ -58,6 +103,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:08:10"
     },
     {
@@ -65,6 +111,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:23"
     },
     {
@@ -74,6 +121,7 @@
         "décor",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:05:03"
     },
     {
@@ -84,6 +132,7 @@
         "décor",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:05:03"
     },
     {
@@ -91,6 +140,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:08:10"
     },
     {
@@ -100,6 +150,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:05:03"
     },
     {
@@ -109,6 +160,7 @@
         "céramique",
         "décor"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:05:03"
     },
     {
@@ -117,6 +169,7 @@
         "fenetre",
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:23"
     },
     {
@@ -125,6 +178,7 @@
         "fenetre",
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:23"
     },
     {
@@ -132,6 +186,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:08:10"
     },
     {
@@ -139,6 +194,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:08:10"
     },
     {
@@ -147,6 +203,7 @@
         "fenetre",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:08:10"
     },
     {
@@ -154,6 +211,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:05:03"
     }
   ]

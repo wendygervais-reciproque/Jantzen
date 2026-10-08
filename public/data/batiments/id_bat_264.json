@@ -21,9 +21,29 @@
   "WPfr": null,
   "image_ref": "St-Marc-1_2_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "pignon",
+    "fenetre",
     "façade-d'angle"
+  ],
+  "terme_torneh_bat": [
+    "arc brisé",
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "oculus",
+    "porte",
+    "souche de cheminée",
+    "travée",
+    "vitrail",
+    "volet"
   ],
   "photos": [
     {
@@ -31,6 +51,26 @@
       "IndexJantzen": [
         "façade-d'angle",
         "pignon"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "fronton",
+        "lucarne",
+        "mansarde",
+        "corniche",
+        "bandeau",
+        "balustrade",
+        "arc en plein cintre",
+        "arc brisé",
+        "oculus",
+        "souche de cheminée",
+        "travée",
+        "volet",
+        "porte",
+        "vitrail",
+        "ardoise"
       ],
       "dateCapture": "2004:09:05"
     },
@@ -40,6 +80,7 @@
         "fenetre",
         "pignon"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:05"
     }
   ]

@@ -25,6 +25,27 @@
     "balcon",
     "dome"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "chéneau",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "oculus",
+    "pilastre",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "tuile",
+    "volet",
+    "épi de faîtage"
+  ],
   "photos": [
     {
       "id_pic": "Jura_St-Marcel_5_§1",
@@ -32,6 +53,27 @@
         "balcon",
         "dome",
         "lucarne-d'angle"
+      ],
+      "IndexTorneh": [
+        "épi de faîtage",
+        "ardoise",
+        "dôme",
+        "oculus",
+        "mansarde",
+        "lucarne",
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "fronton",
+        "balustrade",
+        "volet",
+        "pilastre",
+        "chéneau",
+        "tuile",
+        "souche de cheminée",
+        "arc en plein cintre",
+        "fer forgé",
+        "porte-fenêtre"
       ],
       "dateCapture": "2005:06:08"
     },
@@ -41,6 +83,7 @@
         "dome",
         "lucarne-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:08"
     }
   ]

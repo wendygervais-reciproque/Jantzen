@@ -23,11 +23,37 @@
   "terme_jantzen_bat": [
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "chambranle",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "jambage",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Beaumarchais-102_11_§1",
       "IndexJantzen": [
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "vantail",
+        "fronton",
+        "sculpture",
+        "chambranle",
+        "fer forgé",
+        "balcon",
+        "garde-corps",
+        "pierre de taille",
+        "arc en plein cintre",
+        "jambage"
       ],
       "dateCapture": "2006:03:19"
     }

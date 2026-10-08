@@ -30,18 +30,64 @@
   "WPfr": null,
   "image_ref": "Haussmann-61_8_§61",
   "terme_jantzen_bat": [
+    "sculpture",
+    "clé",
     "fenetre",
     "lucarne",
     "façade",
+    "garde-corps"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
     "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "porte-fenêtre",
     "sculpture",
-    "clé"
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "vitrail"
   ],
   "photos": [
     {
       "id_pic": "Haussmann-61_8_§61",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "garde-corps",
+        "mansarde",
+        "lucarne",
+        "porte",
+        "porte-fenêtre",
+        "pilastre",
+        "mascaron",
+        "chaîne d'angle",
+        "souche de cheminée",
+        "toit à deux versants",
+        "arc en plein cintre",
+        "oculus",
+        "vitrail",
+        "fer forgé",
+        "pierre de taille",
+        "sculpture",
+        "travée",
+        "corniche"
       ],
       "dateCapture": "2006:03:23"
     },
@@ -50,6 +96,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:02"
     },
     {
@@ -57,6 +104,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:02"
     },
     {
@@ -64,6 +112,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:03:23"
     },
     {
@@ -72,6 +121,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:02"
     },
     {
@@ -81,6 +131,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:11"
     },
     {
@@ -90,6 +141,7 @@
         "garde-corps",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:03:23"
     }
   ]

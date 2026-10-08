@@ -21,10 +21,24 @@
   "WPfr": null,
   "image_ref": "St-Germain-220_7_§1-Rs",
   "terme_jantzen_bat": [
-    "toiture",
-    "lucarne",
     "façade",
-    "céramique"
+    "céramique",
+    "toiture",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "auvent",
+    "balcon",
+    "balustrade",
+    "chéneau",
+    "corniche",
+    "fenêtre",
+    "garde-corps",
+    "lucarne",
+    "porte",
+    "souche de cheminée",
+    "travée"
   ],
   "photos": [
     {
@@ -33,6 +47,20 @@
         "façade",
         "lucarne"
       ],
+      "IndexTorneh": [
+        "lucarne",
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "ardoise",
+        "corniche",
+        "auvent",
+        "souche de cheminée",
+        "porte",
+        "travée",
+        "chéneau"
+      ],
       "dateCapture": "2008:02:19"
     },
     {
@@ -40,6 +68,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:19"
     },
     {
@@ -47,6 +76,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:19"
     },
     {
@@ -55,6 +85,7 @@
         "lucarne",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:19"
     },
     {
@@ -63,6 +94,7 @@
         "céramique",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:19"
     }
   ]

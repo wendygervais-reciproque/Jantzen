@@ -23,11 +23,35 @@
   "terme_jantzen_bat": [
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "chambranle",
+    "corniche",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Ecoles-23b_5_§1",
       "IndexJantzen": [
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "vantail",
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "chambranle",
+        "sculpture",
+        "pierre de taille",
+        "corniche",
+        "mascaron"
       ],
       "dateCapture": "2003:08:07"
     }

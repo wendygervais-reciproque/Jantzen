@@ -31,12 +31,30 @@
     "sculpture",
     "console"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "chaîne d'angle",
+    "fer forgé",
+    "modillon",
+    "pierre de taille",
+    "sculpture"
+  ],
   "photos": [
     {
       "id_pic": "Greuze-2_16_-155",
       "IndexJantzen": [
         "console",
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fer forgé",
+        "sculpture",
+        "modillon",
+        "pierre de taille",
+        "chaîne d'angle"
       ],
       "dateCapture": "2007:05:10"
     }

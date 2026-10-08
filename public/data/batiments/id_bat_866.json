@@ -30,11 +30,43 @@
   "terme_jantzen_bat": [
     "façade"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "fenêtre",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mur-boutant",
+    "pierre de taille",
+    "porte",
+    "souche de cheminée",
+    "tour",
+    "travée"
+  ],
   "photos": [
     {
       "id_pic": "François-Miron-14-8_4_§2",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "lucarne",
+        "mansarde",
+        "balcon",
+        "garde-corps",
+        "arc en plein cintre",
+        "pierre de taille",
+        "souche de cheminée",
+        "porte",
+        "mur-boutant",
+        "tour",
+        "travée",
+        "balustrade",
+        "bandeau"
       ],
       "dateCapture": "2005:06:18"
     },
@@ -43,6 +75,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:03:23"
     }
   ]

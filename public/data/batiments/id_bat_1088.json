@@ -29,11 +29,33 @@
   "image_ref": "Tolbiac-15b_13_§1",
   "terme_jantzen_bat": [
     "fenetre",
-    "façade",
     "brique",
+    "façade",
+    "porte-fer-hall",
     "céramique",
-    "décor",
-    "porte-fer-hall"
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "auvent",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "marquise",
+    "oculus",
+    "porte",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -41,6 +63,28 @@
       "IndexJantzen": [
         "brique",
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "brique",
+        "souche de cheminée",
+        "lucarne",
+        "mansarde",
+        "toit à deux versants",
+        "ardoise",
+        "bandeau",
+        "corniche",
+        "porte",
+        "porte-fenêtre",
+        "volet",
+        "auvent",
+        "marquise",
+        "travée",
+        "fer forgé",
+        "oculus"
       ],
       "dateCapture": "2004:03:29"
     },
@@ -50,6 +94,7 @@
         "brique",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:03:29"
     },
     {
@@ -60,6 +105,7 @@
         "décor",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:03:29"
     },
     {
@@ -70,6 +116,7 @@
         "décor",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:03:29"
     },
     {
@@ -77,6 +124,7 @@
       "IndexJantzen": [
         "porte-fer-hall"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:03:29"
     }
   ]

@@ -23,10 +23,25 @@
   "WPfr": null,
   "image_ref": "St-Julien-le-Pauvre-14_5_§1",
   "terme_jantzen_bat": [
-    "lucarne",
     "sculpture",
+    "fronton",
     "porte-bois",
-    "fronton"
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "jambage",
+    "mascaron",
+    "pierre de taille",
+    "pilastre",
+    "portail",
+    "porte",
+    "sculpture",
+    "vantail"
   ],
   "photos": [
     {
@@ -34,6 +49,21 @@
       "IndexJantzen": [
         "fronton",
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "portail",
+        "porte",
+        "arc en plein cintre",
+        "mascaron",
+        "sculpture",
+        "fronton",
+        "pierre de taille",
+        "jambage",
+        "vantail",
+        "fenêtre",
+        "balcon",
+        "fer forgé",
+        "pilastre"
       ],
       "dateCapture": "2005:05:27"
     },
@@ -43,6 +73,7 @@
         "fronton",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:24"
     },
     {
@@ -51,6 +82,7 @@
         "fronton",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:24"
     },
     {
@@ -58,6 +90,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:24"
     }
   ]

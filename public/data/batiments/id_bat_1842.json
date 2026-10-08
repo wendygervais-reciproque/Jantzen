@@ -24,12 +24,40 @@
     "fenetre",
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "bossage",
+    "chambranle",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "heurtoir",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Cerisaie-25_4_§1",
       "IndexJantzen": [
         "fenetre",
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "fronton",
+        "pilastre",
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "arc en plein cintre",
+        "porte",
+        "vantail",
+        "pierre de taille",
+        "chambranle",
+        "heurtoir",
+        "bossage"
       ],
       "dateCapture": "2004:09:24"
     }

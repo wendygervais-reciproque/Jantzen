@@ -31,12 +31,42 @@
     "fenetre",
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "chambranle",
+    "fer forgé",
+    "garde-corps",
+    "grille",
+    "mascaron",
+    "modillon",
+    "pierre de taille",
+    "porte",
+    "porte-fenêtre",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Muette-Chaussee-11_16_",
       "IndexJantzen": [
         "fenetre",
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "porte-fenêtre",
+        "vantail",
+        "arc en plein cintre",
+        "balcon",
+        "garde-corps",
+        "grille",
+        "pierre de taille",
+        "chambranle",
+        "sculpture",
+        "mascaron",
+        "modillon",
+        "fer forgé"
       ],
       "dateCapture": "2007:03:15"
     }

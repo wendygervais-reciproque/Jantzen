@@ -30,11 +30,53 @@
   "terme_jantzen_bat": [
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "arc en anse de panier",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chapiteau",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "souche de cheminée",
+    "travée"
+  ],
   "photos": [
     {
       "id_pic": "Louvre-Rue-40_1_§1",
       "IndexJantzen": [
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "lucarne",
+        "mansarde",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "corniche",
+        "fronton",
+        "chapiteau",
+        "pilastre",
+        "fenêtre",
+        "souche de cheminée",
+        "ardoise",
+        "bandeau",
+        "chaîne d'angle",
+        "pierre de taille",
+        "arc en anse de panier",
+        "travée",
+        "oculus"
       ],
       "dateCapture": "2005:08:28"
     },
@@ -43,6 +85,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:28"
     },
     {
@@ -50,6 +93,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:09:23"
     }
   ]

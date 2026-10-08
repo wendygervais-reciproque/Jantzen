@@ -24,8 +24,18 @@
   "WPfr": null,
   "image_ref": "Vaugirard-15_6_§1",
   "terme_jantzen_bat": [
-    "porte-bois",
-    "colonne"
+    "colonne",
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "bossage",
+    "colonne",
+    "heurtoir",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "vantail"
   ],
   "photos": [
     {
@@ -33,6 +43,16 @@
       "IndexJantzen": [
         "colonne",
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "arc en plein cintre",
+        "colonne",
+        "bossage",
+        "sculpture",
+        "vantail",
+        "pierre de taille",
+        "heurtoir"
       ],
       "dateCapture": "2006:06:11"
     }

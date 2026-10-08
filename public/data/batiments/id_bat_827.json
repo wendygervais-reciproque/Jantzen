@@ -28,10 +28,18 @@
   "WPfr": null,
   "image_ref": "Jemmapes-qu-132_10_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "brique",
+    "métal",
+    "fenetre",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "brique",
+    "fenêtre",
+    "fer",
+    "fer forgé",
     "lucarne",
-    "métal"
+    "travée"
   ],
   "photos": [
     {
@@ -40,6 +48,14 @@
         "brique",
         "fenetre",
         "métal"
+      ],
+      "IndexTorneh": [
+        "brique",
+        "fer",
+        "fenêtre",
+        "travée",
+        "fer forgé",
+        "lucarne"
       ],
       "dateCapture": "2008:06:14"
     },
@@ -50,6 +66,7 @@
         "fenetre",
         "métal"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:06:14"
     },
     {
@@ -59,6 +76,7 @@
         "fenetre",
         "métal"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:06:14"
     },
     {
@@ -68,6 +86,7 @@
         "lucarne",
         "métal"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:06:14"
     },
     {
@@ -77,6 +96,7 @@
         "lucarne",
         "métal"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:15"
     },
     {
@@ -85,6 +105,7 @@
         "brique",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:15"
     },
     {
@@ -94,6 +115,7 @@
         "lucarne",
         "métal"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:06:14"
     },
     {
@@ -103,6 +125,7 @@
         "lucarne",
         "métal"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:06:14"
     },
     {
@@ -112,6 +135,7 @@
         "lucarne",
         "métal"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:15"
     }
   ]

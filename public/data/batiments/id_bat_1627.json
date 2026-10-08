@@ -21,11 +21,28 @@
   "WPfr": null,
   "image_ref": "Pyramides-21_1_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "garde-corps",
-    "console",
+    "balcon",
     "sculpture",
-    "balcon"
+    "console",
+    "fenetre",
+    "garde-corps"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "linteau",
+    "mascaron",
+    "modillon",
+    "pierre de taille",
+    "porte-fenêtre",
+    "sculpture",
+    "volet"
   ],
   "photos": [
     {
@@ -33,6 +50,23 @@
       "IndexJantzen": [
         "balcon",
         "garde-corps"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "balustrade",
+        "fenêtre",
+        "porte-fenêtre",
+        "volet",
+        "mascaron",
+        "sculpture",
+        "corniche",
+        "modillon",
+        "pierre de taille",
+        "chambranle",
+        "linteau",
+        "fronton"
       ],
       "dateCapture": "2007:06:02"
     },
@@ -44,6 +78,7 @@
         "garde-corps",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:11"
     }
   ]

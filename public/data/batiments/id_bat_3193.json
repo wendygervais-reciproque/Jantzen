@@ -28,16 +28,40 @@
   "WPfr": null,
   "image_ref": "Clichy-Bd-60_18_§1",
   "terme_jantzen_bat": [
+    "verrière",
     "porte-fer",
-    "façade",
+    "oriel",
+    "sculpture",
     "console",
     "lucarne",
-    "sculpture",
-    "oriel",
     "brique",
-    "verrière",
-    "décor",
-    "fronton"
+    "façade",
+    "fronton",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oriel",
+    "pierre de taille",
+    "pilastre",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "volet",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -46,6 +70,30 @@
         "brique",
         "façade",
         "oriel"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "brique",
+        "corniche",
+        "fenêtre",
+        "fer forgé",
+        "fronton",
+        "garde-corps",
+        "lucarne",
+        "mansarde",
+        "mascaron",
+        "oriel",
+        "pierre de taille",
+        "souche de cheminée",
+        "toit à deux versants",
+        "volet",
+        "arc en plein cintre",
+        "bandeau",
+        "chaîne d'angle",
+        "pilastre",
+        "sculpture",
+        "épi de faîtage"
       ],
       "dateCapture": "2007:03:26"
     },
@@ -56,6 +104,7 @@
         "oriel",
         "verrière"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:03:14"
     },
     {
@@ -65,6 +114,7 @@
         "console",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:09:05"
     },
     {
@@ -74,6 +124,7 @@
         "console",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:10"
     },
     {
@@ -85,6 +136,7 @@
         "lucarne",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:09:05"
     },
     {
@@ -93,6 +145,7 @@
         "brique",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:03:26"
     },
     {
@@ -104,6 +157,7 @@
         "lucarne",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:09:05"
     },
     {
@@ -112,6 +166,7 @@
         "brique",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:03:14"
     },
     {
@@ -119,6 +174,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:09:05"
     },
     {
@@ -127,6 +183,7 @@
         "brique",
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:03:14"
     },
     {
@@ -134,6 +191,7 @@
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:08:26"
     },
     {
@@ -141,6 +199,7 @@
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:09:05"
     },
     {
@@ -149,6 +208,7 @@
         "brique",
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:03:15"
     },
     {
@@ -157,6 +217,7 @@
         "brique",
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:03:15"
     },
     {
@@ -165,6 +226,7 @@
         "brique",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:09:05"
     },
     {
@@ -173,6 +235,7 @@
         "brique",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:06:27"
     },
     {
@@ -181,6 +244,7 @@
         "brique",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:03:15"
     },
     {
@@ -189,6 +253,7 @@
         "brique",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:09:05"
     },
     {
@@ -198,6 +263,7 @@
         "fronton",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:03:26"
     }
   ]

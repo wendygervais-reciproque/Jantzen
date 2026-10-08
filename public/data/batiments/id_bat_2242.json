@@ -21,14 +21,40 @@
   "WPfr": null,
   "image_ref": "Halles-33-41_1_§1",
   "terme_jantzen_bat": [
+    "façade",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "bandeau",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "garde-corps",
     "lucarne",
-    "façade"
+    "mansarde",
+    "porte-fenêtre",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Halles-33-41_1_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "mansarde",
+        "lucarne",
+        "volet",
+        "bandeau",
+        "corniche",
+        "chaîne d'angle",
+        "arc en plein cintre",
+        "porte-fenêtre"
       ],
       "dateCapture": "2009:05:22"
     },
@@ -37,6 +63,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:05:22"
     }
   ]

@@ -21,8 +21,25 @@
   "WPfr": null,
   "image_ref": "Presbourg-8_16_§1",
   "terme_jantzen_bat": [
-    "porte-bois",
-    "colonne"
+    "colonne",
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "chapiteau ionique",
+    "colonne",
+    "corniche",
+    "entablement",
+    "fenêtre",
+    "fer forgé",
+    "grille",
+    "mascaron",
+    "perron",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "sculpture",
+    "vantail"
   ],
   "photos": [
     {
@@ -30,6 +47,23 @@
       "IndexJantzen": [
         "colonne",
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "arc en plein cintre",
+        "chapiteau ionique",
+        "pilastre",
+        "colonne",
+        "sculpture",
+        "mascaron",
+        "corniche",
+        "entablement",
+        "pierre de taille",
+        "perron",
+        "vantail",
+        "fer forgé",
+        "grille",
+        "fenêtre"
       ],
       "dateCapture": "2006:06:30"
     }

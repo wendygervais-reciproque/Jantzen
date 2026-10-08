@@ -28,11 +28,30 @@
   "WPfr": "Théâtre de l'Athénée Louis-Jouvet",
   "image_ref": "Opera-Louis-Jouvet-sq_9_§1",
   "terme_jantzen_bat": [
+    "verrière",
     "porte-fer",
     "fenetre",
     "façade",
+    "marquise"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "avant-corps",
+    "baie",
+    "balcon",
+    "balustrade",
+    "chéneau",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
     "marquise",
-    "verrière"
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "porte",
+    "souche de cheminée",
+    "verrière",
+    "vitrail"
   ],
   "photos": [
     {
@@ -41,6 +60,25 @@
         "façade",
         "verrière"
       ],
+      "IndexTorneh": [
+        "baie",
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "arc en plein cintre",
+        "oculus",
+        "marquise",
+        "porte",
+        "mascaron",
+        "garde-corps",
+        "fer forgé",
+        "avant-corps",
+        "chéneau",
+        "pierre de taille",
+        "souche de cheminée",
+        "verrière",
+        "vitrail"
+      ],
       "dateCapture": "2005:07:14"
     },
     {
@@ -48,6 +86,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:14"
     },
     {
@@ -57,6 +96,7 @@
         "marquise",
         "verrière"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:14"
     },
     {
@@ -66,6 +106,7 @@
         "marquise",
         "verrière"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:04"
     },
     {
@@ -73,6 +114,7 @@
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:14"
     }
   ]

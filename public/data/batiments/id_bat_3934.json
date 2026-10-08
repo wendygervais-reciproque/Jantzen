@@ -32,14 +32,37 @@
   "WPfr": null,
   "image_ref": "Sevres-98_7_§1",
   "terme_jantzen_bat": [
-    "porte-fer",
-    "façade",
-    "console",
+    "balcon",
     "façade-d'angle",
+    "porte-fer",
     "sculpture",
     "fenetre-d'angle",
-    "balcon",
+    "console",
+    "façade",
     "colonne"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "auvent",
+    "balcon",
+    "balustrade",
+    "colonne",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "grille",
+    "lucarne",
+    "mansarde",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "porte-fenêtre",
+    "toit à deux versants",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -48,6 +71,29 @@
         "balcon",
         "façade-d'angle"
       ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "corniche",
+        "colonne",
+        "pilastre",
+        "fenêtre",
+        "porte-fenêtre",
+        "porte",
+        "fer forgé",
+        "grille",
+        "pierre de taille",
+        "lucarne",
+        "mansarde",
+        "fronton",
+        "toit à deux versants",
+        "oculus",
+        "volet",
+        "travée",
+        "arc en plein cintre",
+        "auvent"
+      ],
       "dateCapture": "2004:09:07"
     },
     {
@@ -55,6 +101,7 @@
       "IndexJantzen": [
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:06"
     },
     {
@@ -62,6 +109,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:06"
     },
     {
@@ -69,6 +117,7 @@
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:04"
     },
     {
@@ -77,6 +126,7 @@
         "colonne",
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:04"
     },
     {
@@ -85,6 +135,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:04"
     }
   ]

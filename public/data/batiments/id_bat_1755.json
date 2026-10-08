@@ -23,16 +23,35 @@
   "WPfr": null,
   "image_ref": "Sevigne-23_3_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "façade",
-    "lucarne",
-    "garde-corps",
-    "sculpture",
-    "clé",
-    "porte-bois",
     "dome",
+    "sculpture",
     "pilastre",
-    "fronton"
+    "clé",
+    "fenetre",
+    "lucarne",
+    "façade",
+    "fronton",
+    "garde-corps",
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "attique",
+    "bossage",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "grille",
+    "gros appareil",
+    "linteau",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "toit à deux versants",
+    "vantail"
   ],
   "photos": [
     {
@@ -42,6 +61,25 @@
         "façade",
         "porte-bois"
       ],
+      "IndexTorneh": [
+        "fronton",
+        "sculpture",
+        "fenêtre",
+        "porte",
+        "vantail",
+        "arc en plein cintre",
+        "bossage",
+        "pierre de taille",
+        "gros appareil",
+        "corniche",
+        "ardoise",
+        "toit à deux versants",
+        "grille",
+        "chambranle",
+        "linteau",
+        "mascaron",
+        "attique"
+      ],
       "dateCapture": "2007:08:27"
     },
     {
@@ -49,6 +87,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:09:18"
     },
     {
@@ -59,6 +98,7 @@
         "fronton",
         "pilastre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:03"
     },
     {
@@ -66,6 +106,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:03"
     },
     {
@@ -73,6 +114,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:03"
     },
     {
@@ -81,6 +123,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:03"
     },
     {
@@ -88,6 +131,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:03"
     },
     {
@@ -95,6 +139,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:21"
     },
     {
@@ -103,6 +148,7 @@
         "fronton",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:03"
     },
     {
@@ -111,6 +157,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:03"
     },
     {
@@ -119,6 +166,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:03"
     },
     {
@@ -126,6 +174,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:08:27"
     },
     {
@@ -133,6 +182,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:08:27"
     },
     {
@@ -140,6 +190,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:03"
     },
     {
@@ -148,6 +199,7 @@
         "clé",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:03"
     },
     {
@@ -155,6 +207,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:03"
     },
     {
@@ -164,6 +217,7 @@
         "garde-corps",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:03:22"
     },
     {
@@ -171,6 +225,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:09:18"
     },
     {
@@ -178,6 +233,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:03"
     }
   ]

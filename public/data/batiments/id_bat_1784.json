@@ -21,8 +21,24 @@
   "WPfr": null,
   "image_ref": "Theophile-Gauthier-24_16_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "sculpture"
+    "sculpture",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "frise",
+    "garde-corps",
+    "mascaron",
+    "oriel",
+    "pierre de taille",
+    "sculpture",
+    "souche de cheminée",
+    "toit-terrasse",
+    "volet"
   ],
   "photos": [
     {
@@ -30,6 +46,22 @@
       "IndexJantzen": [
         "fenetre",
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "fenêtre",
+        "volet",
+        "souche de cheminée",
+        "sculpture",
+        "frise",
+        "toit-terrasse",
+        "pierre de taille",
+        "mascaron",
+        "corniche",
+        "oriel",
+        "bandeau"
       ],
       "dateCapture": "2007:03:15"
     },
@@ -39,6 +71,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:03:15"
     }
   ]

@@ -23,11 +23,33 @@
   "terme_jantzen_bat": [
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "chéneau",
+    "fenêtre",
+    "fronton",
+    "lucarne",
+    "mansarde",
+    "pierre de taille",
+    "souche de cheminée",
+    "toit à deux versants"
+  ],
   "photos": [
     {
       "id_pic": "Quatre-Fils-24_3_§1",
       "IndexJantzen": [
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "lucarne",
+        "mansarde",
+        "ardoise",
+        "fronton",
+        "souche de cheminée",
+        "chéneau",
+        "fenêtre",
+        "pierre de taille",
+        "toit à deux versants"
       ],
       "dateCapture": "2003:08:01"
     }

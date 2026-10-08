@@ -23,11 +23,37 @@
   "terme_jantzen_bat": [
     "porte-fer"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "chambranle",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "vantail",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Balzac-4_8_§1",
       "IndexJantzen": [
         "porte-fer"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "arc en plein cintre",
+        "fer forgé",
+        "mascaron",
+        "chambranle",
+        "pierre de taille",
+        "balcon",
+        "garde-corps",
+        "volet",
+        "vantail",
+        "sculpture"
       ],
       "dateCapture": "2004:10:18"
     }

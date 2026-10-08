@@ -23,11 +23,47 @@
   "terme_jantzen_bat": [
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "pierre de taille",
+    "souche de cheminée",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Richard-Lenoir-bd-54_11_§1",
       "IndexJantzen": [
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "lucarne",
+        "mansarde",
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "fer forgé",
+        "balustrade",
+        "ardoise",
+        "souche de cheminée",
+        "bandeau",
+        "corniche",
+        "fronton",
+        "arc en plein cintre",
+        "volet",
+        "pierre de taille",
+        "fer"
       ],
       "dateCapture": "2008:02:16"
     },
@@ -36,6 +72,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:16"
     }
   ]

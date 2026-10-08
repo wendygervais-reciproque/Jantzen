@@ -23,18 +23,54 @@
   "WPfr": null,
   "image_ref": "Richelieu-28_1_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "garde-corps",
     "sculpture",
     "clé",
+    "fenetre",
+    "garde-corps",
     "porte-bois",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "mascaron",
+    "modillon",
+    "pierre de taille",
+    "pilastre",
+    "porte-fenêtre",
+    "toit-terrasse",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Richelieu-28_1_§1",
       "IndexJantzen": [
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "garde-corps",
+        "corniche",
+        "chambranle",
+        "volet",
+        "fer forgé",
+        "pierre de taille",
+        "modillon",
+        "travée",
+        "pilastre",
+        "mascaron",
+        "fronton",
+        "toit-terrasse",
+        "porte-fenêtre"
       ],
       "dateCapture": "2004:08:31"
     },
@@ -46,6 +82,7 @@
         "garde-corps",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:08:31"
     },
     {
@@ -54,6 +91,7 @@
         "clé",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:08:31"
     }
   ]

@@ -21,16 +21,50 @@
   "WPfr": null,
   "image_ref": "Verneuil-11_7_§1",
   "terme_jantzen_bat": [
+    "façade",
     "porte",
     "fenetre",
-    "façade",
     "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "grille",
+    "lucarne",
+    "mascaron",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "sculpture",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Verneuil-11_7_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "volet",
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "mascaron",
+        "porte",
+        "portail",
+        "travée",
+        "lucarne",
+        "pierre de taille",
+        "sculpture",
+        "fer forgé",
+        "grille",
+        "fronton"
       ],
       "dateCapture": "2005:05:22"
     },
@@ -40,6 +74,7 @@
         "fenetre",
         "porte"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:22"
     },
     {
@@ -47,6 +82,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:22"
     }
   ]

@@ -21,8 +21,23 @@
   "WPfr": null,
   "image_ref": "St-Marc-2_2_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "garde-corps"
+    "garde-corps",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "linteau",
+    "mascaron",
+    "modillon",
+    "pierre de taille",
+    "porte-fenêtre",
+    "volet"
   ],
   "photos": [
     {
@@ -30,6 +45,21 @@
       "IndexJantzen": [
         "fenetre",
         "garde-corps"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "fer forgé",
+        "corniche",
+        "modillon",
+        "pierre de taille",
+        "fenêtre",
+        "porte-fenêtre",
+        "volet",
+        "mascaron",
+        "chambranle",
+        "linteau"
       ],
       "dateCapture": "2004:09:05"
     }

@@ -32,14 +32,33 @@
   "WPfr": null,
   "image_ref": "President-Wilson-40_16_§1",
   "terme_jantzen_bat": [
+    "balcon",
+    "oriel",
+    "pignon",
+    "sculpture",
     "fenetre",
     "lucarne",
-    "pignon",
-    "garde-corps",
-    "sculpture",
-    "oriel",
+    "porte-fer-hall",
+    "garde-corps"
+  ],
+  "terme_torneh_bat": [
+    "baie",
     "balcon",
-    "porte-fer-hall"
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "sculpture",
+    "souche de cheminée",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -48,6 +67,25 @@
         "fenetre",
         "oriel"
       ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "bandeau",
+        "baie",
+        "fenêtre",
+        "garde-corps",
+        "mascaron",
+        "sculpture",
+        "souche de cheminée",
+        "volet",
+        "pierre de taille",
+        "corniche",
+        "fer forgé",
+        "lucarne",
+        "oculus",
+        "fronton",
+        "travée"
+      ],
       "dateCapture": "2006:06:30"
     },
     {
@@ -55,6 +93,7 @@
       "IndexJantzen": [
         "porte-fer-hall"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:06:05"
     },
     {
@@ -62,6 +101,7 @@
       "IndexJantzen": [
         "porte-fer-hall"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:06:05"
     },
     {
@@ -69,6 +109,7 @@
       "IndexJantzen": [
         "porte-fer-hall"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:06:05"
     },
     {
@@ -77,6 +118,7 @@
         "fenetre",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:08"
     },
     {
@@ -85,6 +127,7 @@
         "fenetre",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:30"
     },
     {
@@ -93,6 +136,7 @@
         "fenetre",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:30"
     },
     {
@@ -101,6 +145,7 @@
         "lucarne",
         "pignon"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:03:17"
     },
     {
@@ -109,6 +154,7 @@
         "lucarne",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:08"
     },
     {
@@ -117,6 +163,7 @@
         "balcon",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:06:05"
     }
   ]

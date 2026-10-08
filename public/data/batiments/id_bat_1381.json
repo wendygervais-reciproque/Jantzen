@@ -22,14 +22,44 @@
   "image_ref": "Pascal-19_5_§1",
   "terme_jantzen_bat": [
     "toiture",
+    "fenetre-d'angle",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "auvent",
+    "balcon",
+    "bandeau",
+    "fenêtre",
+    "garde-corps",
     "lucarne",
-    "fenetre-d'angle"
+    "oculus",
+    "souche de cheminée",
+    "toit à deux versants",
+    "tour",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Pascal-19_5_§1",
       "IndexJantzen": [
         "fenetre-d'angle"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "lucarne",
+        "souche de cheminée",
+        "garde-corps",
+        "balcon",
+        "toit à deux versants",
+        "tour",
+        "travée",
+        "ardoise",
+        "bandeau",
+        "auvent",
+        "volet",
+        "oculus"
       ],
       "dateCapture": "2008:04:07"
     },
@@ -39,6 +69,7 @@
         "lucarne",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:04:07"
     },
     {
@@ -46,6 +77,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:04:07"
     },
     {
@@ -54,6 +86,7 @@
         "lucarne",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:08"
     }
   ]

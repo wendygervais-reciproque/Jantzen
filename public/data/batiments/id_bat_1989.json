@@ -30,11 +30,41 @@
   "terme_jantzen_bat": [
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "gros appareil",
+    "lucarne",
+    "mascaron",
+    "pierre de taille",
+    "sculpture",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Charles-Floquet-29_7_§1",
       "IndexJantzen": [
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "lucarne",
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "corniche",
+        "mascaron",
+        "sculpture",
+        "volet",
+        "ardoise",
+        "fronton",
+        "pierre de taille",
+        "gros appareil"
       ],
       "dateCapture": "2008:05:08"
     },
@@ -43,6 +73,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:07:04"
     },
     {
@@ -50,6 +81,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:08"
     }
   ]

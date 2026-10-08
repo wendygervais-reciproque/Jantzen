@@ -29,9 +29,32 @@
   "image_ref": "Ferdinand-Fabre-3_15_§1",
   "terme_jantzen_bat": [
     "brique",
+    "céramique",
     "façade",
-    "décor",
-    "céramique"
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "attique",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "colonne",
+    "corniche",
+    "céramique",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porte-fenêtre",
+    "sculpture",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -41,6 +64,29 @@
         "céramique",
         "décor",
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "corniche",
+        "fronton",
+        "brique",
+        "pierre de taille",
+        "céramique",
+        "sculpture",
+        "volet",
+        "mascaron",
+        "attique",
+        "bandeau",
+        "travée",
+        "oculus",
+        "colonne",
+        "pilastre",
+        "porte-fenêtre",
+        "lucarne",
+        "fer forgé"
       ],
       "dateCapture": "2004:07:13"
     }

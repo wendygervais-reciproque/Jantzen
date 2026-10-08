@@ -21,9 +21,28 @@
   "WPfr": null,
   "image_ref": "Raspail-229_14_§1",
   "terme_jantzen_bat": [
+    "fenetre-d'angle",
     "fenetre",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
     "lucarne",
-    "fenetre-d'angle"
+    "mansarde",
+    "oculus",
+    "pierre de taille",
+    "souche de cheminée",
+    "toit à deux versants",
+    "verrière",
+    "volet"
   ],
   "photos": [
     {
@@ -31,6 +50,25 @@
       "IndexJantzen": [
         "fenetre",
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "lucarne",
+        "mansarde",
+        "souche de cheminée",
+        "corniche",
+        "bandeau",
+        "oculus",
+        "pierre de taille",
+        "ardoise",
+        "volet",
+        "verrière",
+        "fer forgé",
+        "arc en plein cintre",
+        "toit à deux versants"
       ],
       "dateCapture": "2007:04:23"
     },
@@ -40,6 +78,7 @@
         "fenetre-d'angle",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:30"
     },
     {
@@ -47,6 +86,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:23"
     }
   ]

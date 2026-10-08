@@ -28,16 +28,34 @@
   "WPfr": null,
   "image_ref": "Republique-92_11_§1",
   "terme_jantzen_bat": [
-    "oeil-de-boeuf",
     "chimère",
     "clé",
-    "porte-bois"
+    "porte-bois",
+    "oeil-de-boeuf"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "grille",
+    "gros appareil",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "vantail"
   ],
   "photos": [
     {
       "id_pic": "Republique-92_11_§1",
       "IndexJantzen": [
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "arc en plein cintre",
+        "mascaron",
+        "vantail",
+        "grille",
+        "pierre de taille",
+        "gros appareil"
       ],
       "dateCapture": "2006:09:06"
     },
@@ -49,6 +67,7 @@
         "oeil-de-boeuf",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:09:06"
     }
   ]

@@ -21,9 +21,29 @@
   "WPfr": null,
   "image_ref": "Dessous-des-Berges-82_13_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "brique",
-    "façade"
+    "façade",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -31,6 +51,26 @@
       "IndexJantzen": [
         "brique",
         "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "balustrade",
+        "brique",
+        "souche de cheminée",
+        "mansarde",
+        "lucarne",
+        "toit à deux versants",
+        "corniche",
+        "arc en plein cintre",
+        "volet",
+        "mascaron",
+        "fronton",
+        "travée",
+        "bandeau",
+        "pierre de taille",
+        "oculus"
       ],
       "dateCapture": "2005:07:17"
     },
@@ -40,6 +80,7 @@
         "brique",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:17"
     }
   ]

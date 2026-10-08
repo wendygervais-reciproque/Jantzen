@@ -34,14 +34,43 @@
   "terme_jantzen_bat": [
     "toiture",
     "oeil-de-boeuf",
-    "lucarne",
-    "pignon",
+    "balcon",
     "façade-d'angle",
+    "pignon",
     "clé",
     "fenetre-d'angle",
-    "lucarne-d'angle",
+    "lucarne",
+    "fronton",
+    "lucarne-d'angle"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
     "balcon",
-    "fronton"
+    "balustrade",
+    "bandeau",
+    "brique",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "grille",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "oriel",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "porte-fenêtre",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "volet",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -49,6 +78,35 @@
       "IndexJantzen": [
         "façade-d'angle",
         "pignon"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "bandeau",
+        "corniche",
+        "fenêtre",
+        "fronton",
+        "garde-corps",
+        "grille",
+        "lucarne",
+        "mansarde",
+        "oculus",
+        "pilastre",
+        "porte",
+        "sculpture",
+        "souche de cheminée",
+        "toit à deux versants",
+        "travée",
+        "ardoise",
+        "brique",
+        "pierre de taille",
+        "fer forgé",
+        "chambranle",
+        "mascaron",
+        "oriel",
+        "porte-fenêtre",
+        "volet",
+        "épi de faîtage"
       ],
       "dateCapture": "2005:03:29"
     },
@@ -58,6 +116,7 @@
         "façade-d'angle",
         "pignon"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:03:23"
     },
     {
@@ -65,6 +124,7 @@
       "IndexJantzen": [
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:03:23"
     },
     {
@@ -74,6 +134,7 @@
         "fenetre-d'angle",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:27"
     },
     {
@@ -82,6 +143,7 @@
         "fenetre-d'angle",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:03:23"
     },
     {
@@ -89,6 +151,7 @@
       "IndexJantzen": [
         "lucarne-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:27"
     },
     {
@@ -99,6 +162,7 @@
         "fronton",
         "lucarne-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:03:23"
     },
     {
@@ -108,6 +172,7 @@
         "lucarne-d'angle",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:08:30"
     },
     {
@@ -117,6 +182,7 @@
         "lucarne-d'angle",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:24"
     }
   ]

@@ -32,16 +32,41 @@
   "WPfr": null,
   "image_ref": "La-Fayette-20_9_§1",
   "terme_jantzen_bat": [
+    "oeil-de-boeuf",
+    "balcon",
+    "façade-d'angle",
     "porte-fer",
+    "fenetre-d'angle",
     "fenetre",
     "lucarne",
-    "oeil-de-boeuf",
-    "façade-d'angle",
     "porte",
-    "fenetre-d'angle",
     "lucarne-d'angle",
-    "balcon",
     "colonne"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "arcade",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "colonne",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "portail",
+    "porte",
+    "sculpture",
+    "travée"
   ],
   "photos": [
     {
@@ -50,6 +75,31 @@
         "façade-d'angle",
         "porte"
       ],
+      "IndexTorneh": [
+        "mansarde",
+        "lucarne",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "porte",
+        "arc en plein cintre",
+        "arc",
+        "colonne",
+        "pilastre",
+        "corniche",
+        "bandeau",
+        "fronton",
+        "mascaron",
+        "sculpture",
+        "fer forgé",
+        "pierre de taille",
+        "oculus",
+        "portail",
+        "travée",
+        "ardoise",
+        "arcade"
+      ],
       "dateCapture": "2008:08:19"
     },
     {
@@ -57,6 +107,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:04:17"
     },
     {
@@ -64,6 +115,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:04:17"
     },
     {
@@ -71,6 +123,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:26"
     },
     {
@@ -79,6 +132,7 @@
         "colonne",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:26"
     },
     {
@@ -87,6 +141,7 @@
         "colonne",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:04:17"
     },
     {
@@ -94,6 +149,7 @@
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:06:23"
     },
     {
@@ -102,6 +158,7 @@
         "balcon",
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:06:23"
     },
     {
@@ -109,6 +166,7 @@
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:08:06"
     },
     {
@@ -117,6 +175,7 @@
         "balcon",
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:08:19"
     },
     {
@@ -125,6 +184,7 @@
         "façade-d'angle",
         "porte"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:26"
     },
     {
@@ -132,6 +192,7 @@
       "IndexJantzen": [
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:25"
     },
     {
@@ -139,6 +200,7 @@
       "IndexJantzen": [
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:03:12"
     },
     {
@@ -146,6 +208,7 @@
       "IndexJantzen": [
         "lucarne-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:03:12"
     },
     {
@@ -153,6 +216,7 @@
       "IndexJantzen": [
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:25"
     },
     {
@@ -161,6 +225,7 @@
         "lucarne-d'angle",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:25"
     },
     {
@@ -169,6 +234,7 @@
         "lucarne-d'angle",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:25"
     }
   ]

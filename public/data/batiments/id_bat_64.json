@@ -25,15 +25,47 @@
   "WPfr": "Église Saint-Augustin de Paris",
   "image_ref": "St-Augustin-Eglise_8_§1",
   "terme_jantzen_bat": [
-    "lucarne",
     "dome",
-    "tourelle"
+    "tourelle",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "arcade",
+    "baie",
+    "colonne",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fronton",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "tour",
+    "vitrail",
+    "épi de faîtage"
   ],
   "photos": [
     {
       "id_pic": "St-Augustin-Eglise_8_§1",
       "IndexJantzen": [
         "dome"
+      ],
+      "IndexTorneh": [
+        "dôme",
+        "épi de faîtage",
+        "oculus",
+        "arc en plein cintre",
+        "corniche",
+        "pilastre",
+        "colonne",
+        "fenêtre",
+        "vitrail",
+        "tour",
+        "pierre de taille",
+        "fronton",
+        "arcade",
+        "baie"
       ],
       "dateCapture": "2010:11:16"
     },
@@ -42,6 +74,7 @@
       "IndexJantzen": [
         "dome"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:11:16"
     },
     {
@@ -49,6 +82,7 @@
       "IndexJantzen": [
         "dome"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:04"
     },
     {
@@ -56,6 +90,7 @@
       "IndexJantzen": [
         "dome"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:10:08"
     },
     {
@@ -64,6 +99,7 @@
         "dome",
         "tourelle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:10:08"
     },
     {
@@ -72,6 +108,7 @@
         "dome",
         "tourelle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:11:16"
     },
     {
@@ -80,6 +117,7 @@
         "dome",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:05:16"
     }
   ]

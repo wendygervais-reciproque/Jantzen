@@ -21,16 +21,36 @@
   "WPfr": null,
   "image_ref": "Turenne-85_3_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "lucarne",
     "clé",
-    "porte-bois"
+    "fenetre",
+    "porte-bois",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "corniche",
+    "fenêtre",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "oculus",
+    "souche de cheminée",
+    "toit à deux versants"
   ],
   "photos": [
     {
       "id_pic": "Turenne-85_3_§1",
       "IndexJantzen": [
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "mansarde",
+        "lucarne",
+        "souche de cheminée",
+        "corniche",
+        "garde-corps",
+        "oculus",
+        "toit à deux versants"
       ],
       "dateCapture": "2006:04:19"
     },
@@ -40,6 +60,7 @@
         "fenetre",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:19"
     },
     {
@@ -49,6 +70,7 @@
         "fenetre",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:19"
     }
   ]

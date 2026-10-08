@@ -23,11 +23,33 @@
   "terme_jantzen_bat": [
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "chambranle",
+    "fer forgé",
+    "garde-corps",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Ordener-153_18_§1",
       "IndexJantzen": [
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "vantail",
+        "arc en plein cintre",
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "pierre de taille",
+        "sculpture",
+        "chambranle"
       ],
       "dateCapture": "2004:06:13"
     }

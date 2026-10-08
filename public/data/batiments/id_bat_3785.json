@@ -24,8 +24,20 @@
   "image_ref": "Fleurs-qu-9_4_§1",
   "terme_jantzen_bat": [
     "poignée-porte",
-    "porte-bois",
-    "clé"
+    "clé",
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "chambranle",
+    "fer forgé",
+    "grille",
+    "heurtoir",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "vantail"
   ],
   "photos": [
     {
@@ -34,6 +46,18 @@
         "clé",
         "porte-bois"
       ],
+      "IndexTorneh": [
+        "porte",
+        "vantail",
+        "arc en plein cintre",
+        "mascaron",
+        "sculpture",
+        "pierre de taille",
+        "heurtoir",
+        "fer forgé",
+        "grille",
+        "chambranle"
+      ],
       "dateCapture": "2003:07:12"
     },
     {
@@ -41,6 +65,7 @@
       "IndexJantzen": [
         "poignée-porte"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:07:12"
     },
     {
@@ -48,6 +73,7 @@
       "IndexJantzen": [
         "poignée-porte"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:07:12"
     }
   ]

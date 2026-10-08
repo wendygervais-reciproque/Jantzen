@@ -31,12 +31,44 @@
     "oriel",
     "céramique"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "céramique",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "oculus",
+    "oriel",
+    "pierre de taille",
+    "sculpture",
+    "travée",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Pyrenees-346b_20_§1",
       "IndexJantzen": [
         "céramique",
         "oriel"
+      ],
+      "IndexTorneh": [
+        "oriel",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "volet",
+        "fer forgé",
+        "pierre de taille",
+        "céramique",
+        "mascaron",
+        "sculpture",
+        "oculus",
+        "travée",
+        "bandeau"
       ],
       "dateCapture": "2006:04:20"
     },
@@ -46,6 +78,7 @@
         "céramique",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:20"
     }
   ]

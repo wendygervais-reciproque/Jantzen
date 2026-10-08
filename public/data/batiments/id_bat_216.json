@@ -23,14 +23,48 @@
   "WPfr": null,
   "image_ref": "Odeon-1_6_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "façade"
+    "façade",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chéneau",
+    "corniche",
+    "fenêtre",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "pierre de taille",
+    "porte",
+    "souche de cheminée",
+    "vitrail"
   ],
   "photos": [
     {
       "id_pic": "Odeon-1_6_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "arc en plein cintre",
+        "lucarne",
+        "ardoise",
+        "mansarde",
+        "pierre de taille",
+        "souche de cheminée",
+        "vitrail",
+        "porte",
+        "bandeau",
+        "corniche",
+        "chéneau"
       ],
       "dateCapture": "2008:05:11"
     },
@@ -39,6 +73,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:15"
     }
   ]

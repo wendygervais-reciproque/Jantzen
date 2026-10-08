@@ -24,12 +24,50 @@
     "fenetre",
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "auvent",
+    "balcon",
+    "balustrade",
+    "chambranle",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "grille",
+    "huisserie",
+    "jambage",
+    "linteau",
+    "mascaron",
+    "modillon",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Courcelles-93_17_§1",
       "IndexJantzen": [
         "fenetre",
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "vantail",
+        "mascaron",
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "grille",
+        "fer forgé",
+        "pierre de taille",
+        "sculpture",
+        "modillon",
+        "huisserie",
+        "jambage",
+        "linteau",
+        "fenêtre",
+        "chambranle",
+        "auvent"
       ],
       "dateCapture": "2003:08:26"
     }

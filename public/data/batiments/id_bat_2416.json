@@ -28,16 +28,60 @@
   "WPfr": null,
   "image_ref": "Beaubourg-39_3_§1",
   "terme_jantzen_bat": [
-    "fenetre-d'angle",
     "console",
-    "décor",
-    "façade-d'angle"
+    "fenetre-d'angle",
+    "façade-d'angle",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "auvent",
+    "avant-corps",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mansarde",
+    "marquise",
+    "oculus",
+    "pierre de taille",
+    "porte",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "tour",
+    "vitrail",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Beaubourg-39_3_§1",
       "IndexJantzen": [
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "porte-fenêtre",
+        "ardoise",
+        "souche de cheminée",
+        "corniche",
+        "bandeau",
+        "pierre de taille",
+        "porte",
+        "vitrail",
+        "fer forgé",
+        "mansarde",
+        "tour",
+        "avant-corps",
+        "oculus",
+        "marquise",
+        "volet",
+        "auvent"
       ],
       "dateCapture": "2008:05:16"
     },
@@ -46,6 +90,7 @@
       "IndexJantzen": [
         "façade-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:16"
     },
     {
@@ -53,6 +98,7 @@
       "IndexJantzen": [
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:17"
     },
     {
@@ -60,6 +106,7 @@
       "IndexJantzen": [
         "façade-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:17"
     },
     {
@@ -68,6 +115,7 @@
         "console",
         "décor"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:17"
     }
   ]

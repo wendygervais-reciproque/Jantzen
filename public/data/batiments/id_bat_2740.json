@@ -26,9 +26,24 @@
   "WPfr": null,
   "image_ref": "Paul-Doumer-47_16_§1",
   "terme_jantzen_bat": [
-    "porte-fer",
     "lucarne-d'angle",
-    "dome"
+    "dome",
+    "porte-fer"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "dôme",
+    "fenêtre",
+    "garde-corps",
+    "pierre de taille",
+    "porte-fenêtre",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "tour",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -36,6 +51,21 @@
       "IndexJantzen": [
         "dome",
         "lucarne-d'angle"
+      ],
+      "IndexTorneh": [
+        "tour",
+        "dôme",
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "porte-fenêtre",
+        "balustrade",
+        "épi de faîtage",
+        "souche de cheminée",
+        "pierre de taille",
+        "sculpture",
+        "ardoise",
+        "toit à deux versants"
       ],
       "dateCapture": "2008:02:19"
     },
@@ -45,6 +75,7 @@
         "dome",
         "lucarne-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:19"
     },
     {
@@ -52,6 +83,7 @@
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:19"
     }
   ]

@@ -23,10 +23,26 @@
   "WPfr": null,
   "image_ref": "Claude-Bernard-14_5_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "brique",
     "sculpture",
-    "clé"
+    "clé",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "baie",
+    "brique",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "lucarne",
+    "mascaron",
+    "pierre de taille",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants"
   ],
   "photos": [
     {
@@ -34,6 +50,22 @@
       "IndexJantzen": [
         "brique",
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "fronton",
+        "mascaron",
+        "arc en plein cintre",
+        "baie",
+        "fenêtre",
+        "corniche",
+        "chaîne d'angle",
+        "brique",
+        "pierre de taille",
+        "souche de cheminée",
+        "ardoise",
+        "lucarne",
+        "toit à deux versants",
+        "sculpture"
       ],
       "dateCapture": "2007:09:05"
     },
@@ -43,6 +75,7 @@
         "brique",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:09:05"
     },
     {
@@ -53,6 +86,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:09:05"
     },
     {
@@ -62,6 +96,7 @@
         "clé",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:09:05"
     }
   ]

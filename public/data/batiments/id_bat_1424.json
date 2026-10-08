@@ -21,9 +21,24 @@
   "WPfr": null,
   "image_ref": "Malesherbes-2_8_§1",
   "terme_jantzen_bat": [
+    "mosaique",
     "fenetre",
-    "décor",
-    "mosaique"
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "auvent",
+    "balcon",
+    "bandeau",
+    "corniche",
+    "céramique",
+    "fenêtre",
+    "fer forgé",
+    "frise",
+    "garde-corps",
+    "pierre de taille",
+    "porte-fenêtre",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -32,6 +47,21 @@
         "décor",
         "fenetre",
         "mosaique"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "volet",
+        "pierre de taille",
+        "frise",
+        "céramique",
+        "corniche",
+        "bandeau",
+        "travée",
+        "porte-fenêtre",
+        "auvent"
       ],
       "dateCapture": "2004:03:28"
     }

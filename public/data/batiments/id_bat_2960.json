@@ -25,11 +25,31 @@
   "terme_jantzen_bat": [
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "chambranle",
+    "fer forgé",
+    "jambage",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "vantail",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "St-Georges-52_9_§1",
       "IndexJantzen": [
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "vantail",
+        "chambranle",
+        "jambage",
+        "pierre de taille",
+        "sculpture",
+        "fer forgé",
+        "volet"
       ],
       "dateCapture": "2004:08:27"
     }

@@ -23,11 +23,47 @@
   "terme_jantzen_bat": [
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "arc",
+    "balcon",
+    "balustrade",
+    "corniche",
+    "fenêtre",
+    "fer",
+    "fer forgé",
+    "garde-corps",
+    "huisserie",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "porte",
+    "porte-fenêtre",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Observatoire-11_6_-",
       "IndexJantzen": [
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "porte-fenêtre",
+        "vantail",
+        "arc",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "sculpture",
+        "mascaron",
+        "pierre de taille",
+        "corniche",
+        "oculus",
+        "fer",
+        "huisserie"
       ],
       "dateCapture": "2006:03:19"
     }

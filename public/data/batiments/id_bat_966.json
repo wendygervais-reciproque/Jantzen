@@ -21,13 +21,30 @@
   "WPfr": null,
   "image_ref": "Faubourg-St-Denis-144_10_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "façade",
-    "lucarne",
-    "métal",
-    "brique",
     "verrière",
+    "fenetre",
+    "lucarne",
+    "brique",
+    "métal",
+    "façade",
     "colonne"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "brique",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "pierre de taille",
+    "pilastre",
+    "souche de cheminée",
+    "soupirail",
+    "toit à deux versants",
+    "travée"
   ],
   "photos": [
     {
@@ -35,6 +52,23 @@
       "IndexJantzen": [
         "brique",
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "arc en plein cintre",
+        "brique",
+        "pierre de taille",
+        "corniche",
+        "lucarne",
+        "balcon",
+        "garde-corps",
+        "fronton",
+        "soupirail",
+        "travée",
+        "pilastre",
+        "toit à deux versants",
+        "souche de cheminée",
+        "balustrade"
       ],
       "dateCapture": "2005:05:25"
     },
@@ -46,6 +80,7 @@
         "métal",
         "verrière"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:25"
     },
     {
@@ -56,6 +91,7 @@
         "métal",
         "verrière"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:25"
     },
     {
@@ -66,6 +102,7 @@
         "lucarne",
         "métal"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:25"
     }
   ]

@@ -24,12 +24,42 @@
     "fenetre",
     "décor"
   ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "brique",
+    "corniche",
+    "céramique",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "grille",
+    "pierre de taille",
+    "pilastre",
+    "sculpture",
+    "travée"
+  ],
   "photos": [
     {
       "id_pic": "Madame-5_6_§1",
       "IndexJantzen": [
         "décor",
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "arc en plein cintre",
+        "brique",
+        "corniche",
+        "pierre de taille",
+        "fronton",
+        "pilastre",
+        "grille",
+        "céramique",
+        "sculpture",
+        "travée",
+        "fer forgé",
+        "arc"
       ],
       "dateCapture": "2006:06:11"
     }

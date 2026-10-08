@@ -23,11 +23,25 @@
   "terme_jantzen_bat": [
     "porte-fer"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "fer forgé",
+    "pierre de taille",
+    "porte",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Tretaigne-4_18_§1",
       "IndexJantzen": [
         "porte-fer"
+      ],
+      "IndexTorneh": [
+        "arc en plein cintre",
+        "porte",
+        "fer forgé",
+        "vantail",
+        "pierre de taille"
       ],
       "dateCapture": "2003:07:09"
     }

@@ -21,11 +21,32 @@
   "WPfr": null,
   "image_ref": "Lamartine-sq-5_16_§1",
   "terme_jantzen_bat": [
+    "sculpture",
     "fenetre",
     "lucarne",
-    "sculpture",
     "brique",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "oculus",
+    "pierre de taille",
+    "sculpture",
+    "souche de cheminée",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -37,6 +58,27 @@
         "lucarne",
         "sculpture"
       ],
+      "IndexTorneh": [
+        "lucarne",
+        "mansarde",
+        "souche de cheminée",
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "arc en plein cintre",
+        "corniche",
+        "bandeau",
+        "brique",
+        "pierre de taille",
+        "fronton",
+        "sculpture",
+        "ardoise",
+        "fer forgé",
+        "travée",
+        "volet",
+        "oculus"
+      ],
       "dateCapture": "2009:03:16"
     },
     {
@@ -46,6 +88,7 @@
         "fenetre",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:03:16"
     }
   ]

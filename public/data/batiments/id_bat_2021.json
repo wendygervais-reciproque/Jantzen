@@ -30,11 +30,25 @@
   "terme_jantzen_bat": [
     "porte-fer-hall"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "fer forgé",
+    "pierre de taille",
+    "porte",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Raphael-2b_16_§1",
       "IndexJantzen": [
         "porte-fer-hall"
+      ],
+      "IndexTorneh": [
+        "arc en plein cintre",
+        "porte",
+        "fer forgé",
+        "pierre de taille",
+        "vantail"
       ],
       "dateCapture": "2006:07:01"
     }

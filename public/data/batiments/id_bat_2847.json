@@ -24,12 +24,40 @@
     "oeil-de-boeuf",
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "chaîne d'angle",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "souche de cheminée",
+    "toit à deux versants"
+  ],
   "photos": [
     {
       "id_pic": "Liege-5_9_§1",
       "IndexJantzen": [
         "lucarne",
         "oeil-de-boeuf"
+      ],
+      "IndexTorneh": [
+        "lucarne",
+        "oculus",
+        "mascaron",
+        "ardoise",
+        "souche de cheminée",
+        "fronton",
+        "garde-corps",
+        "fenêtre",
+        "chaîne d'angle",
+        "pierre de taille",
+        "toit à deux versants",
+        "mansarde"
       ],
       "dateCapture": "2005:07:14"
     },
@@ -39,6 +67,7 @@
         "lucarne",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:14"
     }
   ]

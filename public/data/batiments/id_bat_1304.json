@@ -23,11 +23,35 @@
   "terme_jantzen_bat": [
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "lucarne",
+    "mansarde",
+    "pierre de taille",
+    "pilastre",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Quatre-Fils-18_3_§1",
       "IndexJantzen": [
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "lucarne",
+        "fronton",
+        "pilastre",
+        "ardoise",
+        "corniche",
+        "fenêtre",
+        "chambranle",
+        "vantail",
+        "mansarde",
+        "pierre de taille"
       ],
       "dateCapture": "2003:08:01"
     }

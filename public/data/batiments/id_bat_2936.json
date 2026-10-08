@@ -21,10 +21,26 @@
   "WPfr": null,
   "image_ref": "Miromesnil-51_8_12_DxO",
   "terme_jantzen_bat": [
-    "fenetre",
-    "cariatide",
     "sculpture",
+    "cariatide",
+    "fenetre",
     "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "cariatide",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "huisserie",
+    "mascaron",
+    "pierre de taille",
+    "porte-fenêtre",
+    "sculpture"
   ],
   "photos": [
     {
@@ -35,6 +51,22 @@
         "porte-bois",
         "sculpture"
       ],
+      "IndexTorneh": [
+        "cariatide",
+        "arc en plein cintre",
+        "mascaron",
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "porte-fenêtre",
+        "sculpture",
+        "pierre de taille",
+        "corniche",
+        "balustrade",
+        "fronton",
+        "huisserie"
+      ],
       "dateCapture": "2012:05:16"
     },
     {
@@ -43,6 +75,7 @@
         "cariatide",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:05:16"
     },
     {
@@ -51,6 +84,7 @@
         "cariatide",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:05:16"
     }
   ]

@@ -21,10 +21,35 @@
   "WPfr": null,
   "image_ref": "Laffitte-17_9_§1",
   "terme_jantzen_bat": [
-    "porte-fer",
     "façade",
     "pignon",
-    "colonne"
+    "colonne",
+    "porte-fer"
+  ],
+  "terme_torneh_bat": [
+    "attique",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "bossage",
+    "chambranle",
+    "colonne",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "grille",
+    "gros appareil",
+    "mascaron",
+    "oculus",
+    "perron",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "sculpture",
+    "toit-terrasse",
+    "travée"
   ],
   "photos": [
     {
@@ -34,6 +59,31 @@
         "pignon",
         "porte-fer"
       ],
+      "IndexTorneh": [
+        "bossage",
+        "corniche",
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "colonne",
+        "pilastre",
+        "pierre de taille",
+        "porte",
+        "fer forgé",
+        "grille",
+        "garde-corps",
+        "mascaron",
+        "sculpture",
+        "perron",
+        "toit-terrasse",
+        "attique",
+        "chambranle",
+        "fronton",
+        "oculus",
+        "travée",
+        "bandeau",
+        "gros appareil"
+      ],
       "dateCapture": "2005:05:26"
     },
     {
@@ -42,6 +92,7 @@
         "colonne",
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:26"
     }
   ]

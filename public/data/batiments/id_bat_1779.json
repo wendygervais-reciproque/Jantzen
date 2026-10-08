@@ -22,15 +22,49 @@
   "image_ref": "Flandre-24_19_§1-17",
   "terme_jantzen_bat": [
     "sculpture",
-    "fenetre",
     "console",
+    "fenetre",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "souche de cheminée",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Flandre-24_19_§1-17",
       "IndexJantzen": [
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "lucarne",
+        "mansarde",
+        "corniche",
+        "bandeau",
+        "fronton",
+        "chambranle",
+        "volet",
+        "ardoise",
+        "travée",
+        "souche de cheminée",
+        "fer forgé"
       ],
       "dateCapture": "2005:08:02"
     },
@@ -42,6 +76,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:02"
     },
     {
@@ -50,6 +85,7 @@
         "console",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:02"
     }
   ]

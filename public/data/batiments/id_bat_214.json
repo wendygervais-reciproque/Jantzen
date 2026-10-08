@@ -24,12 +24,48 @@
     "fenetre",
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "arc en anse de panier",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "huisserie",
+    "mascaron",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "sculpture",
+    "soupirail",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Liege-1_9_§1",
       "IndexJantzen": [
         "fenetre",
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "fer forgé",
+        "arc en anse de panier",
+        "sculpture",
+        "mascaron",
+        "pierre de taille",
+        "vantail",
+        "soupirail",
+        "huisserie",
+        "chambranle",
+        "bandeau",
+        "pilastre"
       ],
       "dateCapture": "2004:08:27"
     }

@@ -28,9 +28,28 @@
   "WPfr": null,
   "image_ref": "Abbesses-40_18_§1",
   "terme_jantzen_bat": [
-    "lucarne",
     "façade",
-    "loggia"
+    "loggia",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "auvent",
+    "balcon",
+    "balustrade",
+    "chéneau",
+    "colonne",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "pierre de taille",
+    "pilastre",
+    "souche de cheminée",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -39,6 +58,25 @@
         "façade",
         "loggia",
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "lucarne",
+        "mansarde",
+        "arc",
+        "arc en plein cintre",
+        "colonne",
+        "pilastre",
+        "souche de cheminée",
+        "volet",
+        "fer forgé",
+        "pierre de taille",
+        "auvent",
+        "travée",
+        "chéneau"
       ],
       "dateCapture": "2005:05:25"
     }

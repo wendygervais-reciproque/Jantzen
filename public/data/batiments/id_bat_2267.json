@@ -37,16 +37,40 @@
   "image_ref": "Wagram-34_8_§1",
   "terme_jantzen_bat": [
     "toiture",
-    "fenetre",
-    "façade",
-    "lucarne",
-    "garde-corps",
+    "balcon",
     "porte-fer",
     "clé",
+    "fenetre",
+    "lucarne",
     "brique",
+    "façade",
     "céramique",
-    "décor",
-    "balcon"
+    "garde-corps",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "chéneau",
+    "corniche",
+    "céramique",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "porte-fenêtre",
+    "sculpture",
+    "souche de cheminée",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -56,6 +80,30 @@
         "céramique",
         "façade"
       ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "balustrade",
+        "sculpture",
+        "céramique",
+        "mascaron",
+        "lucarne",
+        "souche de cheminée",
+        "oculus",
+        "fronton",
+        "pilastre",
+        "arc en plein cintre",
+        "chéneau",
+        "porte",
+        "porte-fenêtre",
+        "volet",
+        "travée",
+        "corniche",
+        "bandeau",
+        "brique",
+        "pierre de taille"
+      ],
       "dateCapture": "2010:03:09"
     },
     {
@@ -64,6 +112,7 @@
         "brique",
         "céramique"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:04:01"
     },
     {
@@ -74,6 +123,7 @@
         "céramique",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:03:19"
     },
     {
@@ -83,6 +133,7 @@
         "céramique",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:06:02"
     },
     {
@@ -93,6 +144,7 @@
         "décor",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:04:01"
     },
     {
@@ -103,6 +155,7 @@
         "décor",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:03:31"
     },
     {
@@ -113,6 +166,7 @@
         "décor",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:09:22"
     },
     {
@@ -123,6 +177,7 @@
         "lucarne",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:04:01"
     },
     {
@@ -132,6 +187,7 @@
         "céramique",
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:04:01"
     },
     {
@@ -140,6 +196,7 @@
         "brique",
         "céramique"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:09:22"
     },
     {
@@ -149,6 +206,7 @@
         "céramique",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:09:22"
     },
     {
@@ -157,6 +215,7 @@
         "brique",
         "céramique"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:03:19"
     },
     {
@@ -167,6 +226,7 @@
         "décor",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:09:22"
     },
     {
@@ -178,6 +238,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:03:19"
     },
     {
@@ -188,6 +249,7 @@
         "décor",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:03:19"
     },
     {
@@ -197,6 +259,7 @@
         "décor",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:03:19"
     },
     {
@@ -206,6 +269,7 @@
         "céramique",
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:03:31"
     },
     {
@@ -215,6 +279,7 @@
         "décor",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:03:19"
     },
     {
@@ -223,6 +288,7 @@
         "céramique",
         "décor"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:03:19"
     },
     {
@@ -231,6 +297,7 @@
         "céramique",
         "décor"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:03:19"
     },
     {
@@ -240,6 +307,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:09:22"
     },
     {
@@ -249,6 +317,7 @@
         "céramique",
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:09:22"
     },
     {
@@ -258,6 +327,7 @@
         "céramique",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:03:09"
     },
     {
@@ -267,6 +337,7 @@
         "céramique",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:09:22"
     },
     {
@@ -276,6 +347,7 @@
         "céramique",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:06:02"
     },
     {
@@ -285,6 +357,7 @@
         "céramique",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:03:31"
     }
   ]

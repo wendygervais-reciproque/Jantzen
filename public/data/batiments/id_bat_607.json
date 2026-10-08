@@ -23,8 +23,18 @@
   "WPfr": null,
   "image_ref": "Laumiere_12_19_§1",
   "terme_jantzen_bat": [
-    "porte-fer",
-    "clé"
+    "clé",
+    "porte-fer"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "fer forgé",
+    "mascaron",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "sculpture",
+    "vantail"
   ],
   "photos": [
     {
@@ -32,6 +42,16 @@
       "IndexJantzen": [
         "clé",
         "porte-fer"
+      ],
+      "IndexTorneh": [
+        "arc en plein cintre",
+        "porte",
+        "portail",
+        "fer forgé",
+        "mascaron",
+        "sculpture",
+        "pierre de taille",
+        "vantail"
       ],
       "dateCapture": "2005:05:11"
     }

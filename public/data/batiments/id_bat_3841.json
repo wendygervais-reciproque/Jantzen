@@ -21,14 +21,44 @@
   "WPfr": null,
   "image_ref": "Royer-Collard-9_5_§1",
   "terme_jantzen_bat": [
+    "porte-bois",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
     "lucarne",
-    "porte-bois"
+    "mansarde",
+    "oriel",
+    "souche de cheminée",
+    "toit à deux versants",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Royer-Collard-9_5_§1",
       "IndexJantzen": [
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "mansarde",
+        "lucarne",
+        "souche de cheminée",
+        "corniche",
+        "chaîne d'angle",
+        "oriel",
+        "fer forgé",
+        "volet",
+        "arc en plein cintre",
+        "toit à deux versants"
       ],
       "dateCapture": "2009:09:27"
     },
@@ -37,6 +67,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:03:23"
     },
     {
@@ -44,6 +75,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:09:27"
     }
   ]

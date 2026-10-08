@@ -28,26 +28,84 @@
   "WPfr": null,
   "image_ref": "Courcelles-bd-104_17_§1",
   "terme_jantzen_bat": [
-    "porte-fer",
-    "fenetre",
+    "colonne",
     "toiture",
-    "garde-corps",
-    "console",
-    "lucarne",
     "oeil-de-boeuf",
+    "balcon",
     "façade-d'angle",
+    "porte-fer",
     "sculpture",
     "clé",
+    "console",
+    "fenetre",
     "fenetre-d'angle",
+    "lucarne",
     "lucarne-d'angle",
+    "garde-corps"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
     "balcon",
-    "colonne"
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "colonne",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "linteau",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "portail",
+    "porte",
+    "porte-fenêtre",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "épi de faîtage"
   ],
   "photos": [
     {
       "id_pic": "Courcelles-bd-104_17_§1",
       "IndexJantzen": [
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "porte-fenêtre",
+        "mansarde",
+        "lucarne",
+        "toit à deux versants",
+        "ardoise",
+        "oculus",
+        "fronton",
+        "mascaron",
+        "sculpture",
+        "pilastre",
+        "colonne",
+        "corniche",
+        "bandeau",
+        "souche de cheminée",
+        "épi de faîtage",
+        "porte",
+        "portail",
+        "fer forgé",
+        "pierre de taille",
+        "travée",
+        "arc en plein cintre",
+        "chambranle",
+        "linteau"
       ],
       "dateCapture": "2006:04:06"
     },
@@ -57,6 +115,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:03:14"
     },
     {
@@ -65,6 +124,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:08:26"
     },
     {
@@ -73,6 +133,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:08:26"
     },
     {
@@ -81,6 +142,7 @@
         "clé",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:08:26"
     },
     {
@@ -90,6 +152,7 @@
         "fenetre",
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:08:26"
     },
     {
@@ -97,6 +160,7 @@
       "IndexJantzen": [
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:06"
     },
     {
@@ -105,6 +169,7 @@
         "balcon",
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:17"
     },
     {
@@ -113,6 +178,7 @@
         "balcon",
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:17"
     },
     {
@@ -122,6 +188,7 @@
         "lucarne-d'angle",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:17"
     },
     {
@@ -131,6 +198,7 @@
         "lucarne-d'angle",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:05:26"
     },
     {
@@ -139,6 +207,7 @@
         "lucarne",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:17"
     },
     {
@@ -147,6 +216,7 @@
         "lucarne",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:06"
     },
     {
@@ -155,6 +225,7 @@
         "lucarne",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:06"
     }
   ]

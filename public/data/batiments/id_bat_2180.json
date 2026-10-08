@@ -24,11 +24,49 @@
     "façade",
     "balcon"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "garde-corps",
+    "lucarne",
+    "marquise",
+    "mascaron",
+    "modillon",
+    "pierre de taille",
+    "porte",
+    "toit-terrasse",
+    "travée",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Bellechasse-31_7_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "porte",
+        "arc en plein cintre",
+        "lucarne",
+        "corniche",
+        "bandeau",
+        "pierre de taille",
+        "volet",
+        "mascaron",
+        "modillon",
+        "travée",
+        "chambranle",
+        "toit-terrasse",
+        "marquise"
       ],
       "dateCapture": "2009:06:03"
     },
@@ -37,6 +75,7 @@
       "IndexJantzen": [
         "balcon"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:06:03"
     }
   ]

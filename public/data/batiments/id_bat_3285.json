@@ -21,7 +21,16 @@
   "WPfr": null,
   "image_ref": "Clichy-bd-65_9_§1",
   "terme_jantzen_bat": [
-    "fenetre",
+    "verrière",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "souche de cheminée",
+    "tuile",
     "verrière"
   ],
   "photos": [
@@ -30,6 +39,15 @@
       "IndexJantzen": [
         "fenetre",
         "verrière"
+      ],
+      "IndexTorneh": [
+        "fronton",
+        "verrière",
+        "fenêtre",
+        "arc en plein cintre",
+        "souche de cheminée",
+        "garde-corps",
+        "tuile"
       ],
       "dateCapture": "2007:08:27"
     }

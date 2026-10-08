@@ -37,16 +37,58 @@
   "image_ref": "Clignancourt-22_18_§1",
   "terme_jantzen_bat": [
     "oeil-de-boeuf",
+    "sculpture",
     "fenetre",
     "façade",
-    "sculpture",
     "atlante"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "ardoise",
+    "attique",
+    "balcon",
+    "bossage",
+    "chapiteau",
+    "colonne",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "grille",
+    "gros appareil",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "sculpture"
   ],
   "photos": [
     {
       "id_pic": "Clignancourt-22_18_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "arc en plein cintre",
+        "arc",
+        "sculpture",
+        "mascaron",
+        "fronton",
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "pilastre",
+        "bossage",
+        "pierre de taille",
+        "grille",
+        "attique",
+        "ardoise",
+        "corniche",
+        "chapiteau",
+        "colonne",
+        "gros appareil",
+        "oculus"
       ],
       "dateCapture": "2005:04:22"
     },
@@ -56,6 +98,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:22"
     },
     {
@@ -63,6 +106,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:22"
     },
     {
@@ -72,6 +116,7 @@
         "oeil-de-boeuf",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:22"
     }
   ]

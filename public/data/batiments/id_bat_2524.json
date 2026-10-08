@@ -30,14 +30,34 @@
   "WPfr": null,
   "image_ref": "Marcel-Renault-4_17_§1",
   "terme_jantzen_bat": [
-    "porte-fer",
-    "porte-fer-hall"
+    "porte-fer-hall",
+    "porte-fer"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "fer forgé",
+    "mascaron",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "sculpture",
+    "vantail"
   ],
   "photos": [
     {
       "id_pic": "Marcel-Renault-4_17_§1",
       "IndexJantzen": [
         "porte-fer-hall"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "portail",
+        "arc",
+        "fer forgé",
+        "mascaron",
+        "sculpture",
+        "pierre de taille",
+        "vantail"
       ],
       "dateCapture": "2005:08:08"
     },
@@ -46,6 +66,7 @@
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:08"
     }
   ]

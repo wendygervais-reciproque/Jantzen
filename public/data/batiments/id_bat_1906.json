@@ -27,11 +27,35 @@
     "clé",
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "chambranle",
+    "mascaron",
+    "pierre de taille",
+    "pilastre",
+    "portail",
+    "porte",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Geoffroy-l'Asnier-26_4_§1",
       "IndexJantzen": [
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "arc en plein cintre",
+        "arc",
+        "portail",
+        "porte",
+        "mascaron",
+        "sculpture",
+        "pierre de taille",
+        "vantail",
+        "chambranle",
+        "pilastre"
       ],
       "dateCapture": "2004:09:09"
     },
@@ -42,11 +66,13 @@
         "porte-bois",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:08:02"
     },
     {
       "id_pic": "Geoffroy-l'Asnier-26_4_§3-18",
       "IndexJantzen": [],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:09"
     }
   ]

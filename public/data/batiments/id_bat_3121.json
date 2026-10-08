@@ -26,12 +26,56 @@
     "oeil-de-boeuf",
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "bandeau",
+    "chéneau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "grille",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "portail",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée"
+  ],
   "photos": [
     {
       "id_pic": "Condorcet-6_9_§1",
       "IndexJantzen": [
         "lucarne",
         "oeil-de-boeuf"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "lucarne",
+        "oculus",
+        "mansarde",
+        "balcon",
+        "garde-corps",
+        "fronton",
+        "ardoise",
+        "chéneau",
+        "pierre de taille",
+        "grille",
+        "fer forgé",
+        "portail",
+        "arc en plein cintre",
+        "mascaron",
+        "toit à deux versants",
+        "souche de cheminée",
+        "travée",
+        "bandeau",
+        "corniche"
       ],
       "dateCapture": "2008:09:22"
     },
@@ -41,6 +85,7 @@
         "lucarne",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:09:22"
     }
   ]

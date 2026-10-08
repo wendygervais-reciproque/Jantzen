@@ -24,12 +24,44 @@
     "fenetre",
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balustrade",
+    "bossage",
+    "chapiteau corinthien",
+    "colonne",
+    "corniche",
+    "gros appareil",
+    "mascaron",
+    "meneau",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Voltaire-bd-129_11_§1",
       "IndexJantzen": [
         "fenetre",
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "arc en plein cintre",
+        "colonne",
+        "chapiteau corinthien",
+        "pilastre",
+        "sculpture",
+        "mascaron",
+        "vantail",
+        "gros appareil",
+        "pierre de taille",
+        "bossage",
+        "balustrade",
+        "meneau",
+        "corniche"
       ],
       "dateCapture": "2005:07:11"
     },
@@ -39,6 +71,7 @@
         "fenetre",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:11"
     }
   ]

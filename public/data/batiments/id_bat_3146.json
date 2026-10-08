@@ -21,17 +21,55 @@
   "WPfr": null,
   "image_ref": "St-Peres-6_7_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "garde-corps",
-    "console",
+    "balcon",
     "sculpture",
-    "balcon"
+    "console",
+    "fenetre",
+    "garde-corps"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "linteau",
+    "mascaron",
+    "modillon",
+    "pierre de taille",
+    "sculpture",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "St-Peres-6_7_§1",
       "IndexJantzen": [
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "garde-corps",
+        "corniche",
+        "bandeau",
+        "mascaron",
+        "volet",
+        "fer forgé",
+        "travée",
+        "arc en plein cintre",
+        "modillon",
+        "sculpture",
+        "pierre de taille",
+        "chambranle",
+        "linteau",
+        "fronton"
       ],
       "dateCapture": "2006:06:11"
     },
@@ -42,6 +80,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:11"
     },
     {
@@ -50,6 +89,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:22"
     },
     {
@@ -57,6 +97,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:11"
     },
     {
@@ -65,6 +106,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:11"
     },
     {
@@ -73,6 +115,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:11"
     },
     {
@@ -81,6 +124,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:22"
     }
   ]

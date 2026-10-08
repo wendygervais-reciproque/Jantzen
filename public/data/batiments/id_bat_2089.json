@@ -23,11 +23,33 @@
   "terme_jantzen_bat": [
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "corniche",
+    "fenêtre",
+    "lucarne",
+    "oculus",
+    "pierre de taille",
+    "souche de cheminée",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Francs-Bourg-3_4_1",
       "IndexJantzen": [
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "lucarne",
+        "ardoise",
+        "arc en plein cintre",
+        "corniche",
+        "pierre de taille",
+        "souche de cheminée",
+        "oculus",
+        "fenêtre",
+        "vantail"
       ],
       "dateCapture": "2003:08:01"
     }

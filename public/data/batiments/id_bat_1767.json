@@ -28,17 +28,53 @@
   "WPfr": null,
   "image_ref": "Faubourg-St-Honore-234_8_§1",
   "terme_jantzen_bat": [
+    "sculpture",
+    "console",
     "fenetre",
     "garde-corps",
-    "console",
-    "sculpture",
     "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "linteau",
+    "mascaron",
+    "modillon",
+    "pierre de taille",
+    "pilastre",
+    "sculpture",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Faubourg-St-Honore-234_8_§1",
       "IndexJantzen": [
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "fronton",
+        "corniche",
+        "garde-corps",
+        "fer forgé",
+        "pilastre",
+        "volet",
+        "sculpture",
+        "modillon",
+        "mascaron",
+        "travée",
+        "pierre de taille",
+        "chambranle",
+        "linteau"
       ],
       "dateCapture": "2004:10:16"
     },
@@ -48,6 +84,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:10:16"
     },
     {
@@ -56,6 +93,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:10:16"
     },
     {
@@ -64,6 +102,7 @@
         "fenetre",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:10:16"
     }
   ]

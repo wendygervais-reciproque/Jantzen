@@ -24,12 +24,48 @@
     "balcon",
     "façade-d'angle"
   ],
+  "terme_torneh_bat": [
+    "auvent",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "pierre de taille",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "toit à deux versants",
+    "toit-terrasse",
+    "travée",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Grenelle-80_7_§1",
       "IndexJantzen": [
         "balcon",
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "porte-fenêtre",
+        "volet",
+        "garde-corps",
+        "corniche",
+        "bandeau",
+        "pierre de taille",
+        "souche de cheminée",
+        "toit-terrasse",
+        "travée",
+        "mascaron",
+        "fer forgé",
+        "auvent",
+        "toit à deux versants"
       ],
       "dateCapture": "2005:04:17"
     },
@@ -39,6 +75,7 @@
         "balcon",
         "façade-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:17"
     }
   ]

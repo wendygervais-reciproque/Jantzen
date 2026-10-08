@@ -24,12 +24,38 @@
     "console",
     "décor"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "brique",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "frise",
+    "garde-corps",
+    "modillon",
+    "pierre de taille",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Pierre-Demours-18B_17_",
       "IndexJantzen": [
         "console",
         "décor"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "corniche",
+        "frise",
+        "fenêtre",
+        "volet",
+        "brique",
+        "pierre de taille",
+        "modillon",
+        "fer forgé"
       ],
       "dateCapture": "2005:08:08"
     }

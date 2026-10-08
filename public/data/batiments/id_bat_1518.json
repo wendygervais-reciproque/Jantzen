@@ -23,14 +23,54 @@
   "WPfr": null,
   "image_ref": "Bonne-Nouvelle-2_10_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "façade"
+    "façade",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "auvent",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "souche de cheminée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Bonne-Nouvelle-2_10_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "lucarne",
+        "mansarde",
+        "ardoise",
+        "souche de cheminée",
+        "arc en plein cintre",
+        "chambranle",
+        "fronton",
+        "corniche",
+        "bandeau",
+        "pierre de taille",
+        "porte",
+        "volet",
+        "auvent",
+        "mascaron"
       ],
       "dateCapture": "2012:08:11"
     },
@@ -39,6 +79,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:08:11"
     },
     {
@@ -46,6 +87,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:08:19"
     },
     {
@@ -53,6 +95,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:08:19"
     }
   ]

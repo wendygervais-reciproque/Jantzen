@@ -30,11 +30,33 @@
   "terme_jantzen_bat": [
     "porte-fer"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "chambranle",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "sculpture"
+  ],
   "photos": [
     {
       "id_pic": "Pantheon-pl-15_5_§1",
       "IndexJantzen": [
         "porte-fer"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "fer forgé",
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "mascaron",
+        "pierre de taille",
+        "chambranle",
+        "sculpture"
       ],
       "dateCapture": "2005:08:29"
     }

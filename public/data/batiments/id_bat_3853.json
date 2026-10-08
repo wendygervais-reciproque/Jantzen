@@ -24,12 +24,36 @@
     "dome",
     "tourelle"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balustrade",
+    "chapiteau corinthien",
+    "colonne",
+    "corniche",
+    "coupole",
+    "dôme",
+    "fenêtre",
+    "oculus",
+    "sculpture"
+  ],
   "photos": [
     {
       "id_pic": "Assomption-90_16_§1",
       "IndexJantzen": [
         "dome",
         "tourelle"
+      ],
+      "IndexTorneh": [
+        "coupole",
+        "dôme",
+        "colonne",
+        "chapiteau corinthien",
+        "fenêtre",
+        "arc en plein cintre",
+        "corniche",
+        "balustrade",
+        "sculpture",
+        "oculus"
       ],
       "dateCapture": "2005:05:12"
     }

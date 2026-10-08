@@ -32,12 +32,32 @@
   "WPfr": null,
   "image_ref": "Emile-Deschanel-11B_7_§1",
   "terme_jantzen_bat": [
-    "lucarne",
     "sculpture",
     "clé",
     "fenetre-d'angle",
-    "lucarne-d'angle",
-    "fronton"
+    "lucarne",
+    "fronton",
+    "lucarne-d'angle"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "souche de cheminée",
+    "toit en pavillon",
+    "travée",
+    "volet",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -45,6 +65,26 @@
       "IndexJantzen": [
         "fenetre-d'angle",
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "fenêtre",
+        "lucarne",
+        "mansarde",
+        "souche de cheminée",
+        "épi de faîtage",
+        "dôme",
+        "mascaron",
+        "corniche",
+        "bandeau",
+        "pierre de taille",
+        "ardoise",
+        "volet",
+        "oculus",
+        "travée",
+        "toit en pavillon"
       ],
       "dateCapture": "2006:03:27"
     },
@@ -54,6 +94,7 @@
         "fronton",
         "lucarne-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:04:26"
     },
     {
@@ -62,6 +103,7 @@
         "clé",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:04:26"
     }
   ]

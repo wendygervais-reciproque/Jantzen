@@ -24,12 +24,48 @@
     "fenetre",
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "mascaron",
+    "modillon",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "sculpture",
+    "vantail",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Wagram-44_17_§1",
       "IndexJantzen": [
         "fenetre",
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "portail",
+        "fenêtre",
+        "volet",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "mascaron",
+        "sculpture",
+        "corniche",
+        "pierre de taille",
+        "fronton",
+        "vantail",
+        "modillon",
+        "fer forgé",
+        "arc en plein cintre"
       ],
       "dateCapture": "2004:09:03"
     }

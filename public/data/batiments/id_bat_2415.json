@@ -28,9 +28,28 @@
   "WPfr": null,
   "image_ref": "Lefebvre-bd-39_15_§1",
   "terme_jantzen_bat": [
-    "porte-fer",
     "fenetre",
+    "porte-fer",
     "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "arc en anse de panier",
+    "ardoise",
+    "avant-corps",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "pierre de taille",
+    "porte-fenêtre",
+    "sculpture",
+    "souche de cheminée",
+    "volet"
   ],
   "photos": [
     {
@@ -39,6 +58,25 @@
         "fenetre",
         "lucarne"
       ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "porte-fenêtre",
+        "lucarne",
+        "souche de cheminée",
+        "ardoise",
+        "pierre de taille",
+        "volet",
+        "fronton",
+        "sculpture",
+        "mansarde",
+        "fer forgé",
+        "avant-corps",
+        "bandeau",
+        "arc en anse de panier"
+      ],
       "dateCapture": "2005:03:21"
     },
     {
@@ -46,6 +84,7 @@
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:03:26"
     }
   ]

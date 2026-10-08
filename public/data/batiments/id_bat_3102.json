@@ -28,11 +28,32 @@
   "WPfr": null,
   "image_ref": "Mexico-pl-6_16_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "lucarne",
-    "façade-d'angle",
     "dome",
-    "fenetre-d'angle"
+    "façade-d'angle",
+    "fenetre-d'angle",
+    "fenetre",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "grille",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "sculpture",
+    "souche de cheminée",
+    "tour"
   ],
   "photos": [
     {
@@ -40,6 +61,27 @@
       "IndexJantzen": [
         "dome",
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "garde-corps",
+        "lucarne",
+        "mansarde",
+        "souche de cheminée",
+        "sculpture",
+        "pierre de taille",
+        "porte",
+        "portail",
+        "fer forgé",
+        "ardoise",
+        "tour",
+        "bandeau",
+        "corniche",
+        "grille",
+        "oculus",
+        "mascaron"
       ],
       "dateCapture": "2005:05:18"
     },
@@ -49,6 +91,7 @@
         "dome",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:18"
     },
     {
@@ -57,6 +100,7 @@
         "dome",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:18"
     },
     {
@@ -65,6 +109,7 @@
         "dome",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:05:10"
     },
     {
@@ -73,6 +118,7 @@
         "dome",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:05:10"
     },
     {
@@ -81,6 +127,7 @@
         "dome",
         "façade-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:03:31"
     },
     {
@@ -89,6 +136,7 @@
         "dome",
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:18"
     },
     {
@@ -98,6 +146,7 @@
         "fenetre",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:03:31"
     },
     {
@@ -107,6 +156,7 @@
         "fenetre",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:18"
     },
     {
@@ -116,6 +166,7 @@
         "fenetre",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:18"
     },
     {
@@ -124,6 +175,7 @@
         "dome",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:03:25"
     },
     {
@@ -132,6 +184,7 @@
         "dome",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:03:31"
     }
   ]

@@ -21,15 +21,59 @@
   "WPfr": null,
   "image_ref": "Juliette-Dodu-18_10_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "façade",
+    "fenetre",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "frise",
+    "garde-corps",
+    "linteau",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "portail",
+    "porte",
+    "sculpture",
+    "souche de cheminée",
+    "travée",
+    "vantail",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Juliette-Dodu-18_10_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "volet",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "lucarne",
+        "souche de cheminée",
+        "mansarde",
+        "bandeau",
+        "corniche",
+        "frise",
+        "porte",
+        "portail",
+        "vantail",
+        "travée",
+        "fer forgé",
+        "sculpture",
+        "mascaron",
+        "linteau",
+        "oculus"
       ],
       "dateCapture": "2005:05:11"
     },
@@ -39,6 +83,7 @@
         "décor",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:11"
     }
   ]

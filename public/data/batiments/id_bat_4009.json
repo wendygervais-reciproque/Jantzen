@@ -23,9 +23,25 @@
   "WPfr": null,
   "image_ref": "Vendome-Pl_1_§2",
   "terme_jantzen_bat": [
-    "porte-fer",
     "façade",
-    "colonne"
+    "colonne",
+    "porte-fer"
+  ],
+  "terme_torneh_bat": [
+    "arcade",
+    "balcon",
+    "bandeau",
+    "chéneau",
+    "colonne",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "lucarne",
+    "mansarde",
+    "pilastre",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants"
   ],
   "photos": [
     {
@@ -33,6 +49,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:08:10"
     },
     {
@@ -40,6 +57,22 @@
       "IndexJantzen": [
         "colonne",
         "façade"
+      ],
+      "IndexTorneh": [
+        "colonne",
+        "sculpture",
+        "fenêtre",
+        "mansarde",
+        "lucarne",
+        "souche de cheminée",
+        "balcon",
+        "fer forgé",
+        "pilastre",
+        "corniche",
+        "toit à deux versants",
+        "arcade",
+        "bandeau",
+        "chéneau"
       ],
       "dateCapture": "2015:10:08"
     },
@@ -49,6 +82,7 @@
         "colonne",
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:08:31"
     },
     {
@@ -56,6 +90,7 @@
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:04:03"
     },
     {
@@ -63,6 +98,7 @@
       "IndexJantzen": [
         "colonne"
       ],
+      "IndexTorneh": [],
       "dateCapture": null
     },
     {
@@ -70,6 +106,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:04:03"
     },
     {
@@ -77,6 +114,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:04:03"
     },
     {
@@ -84,6 +122,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:04:03"
     }
   ]

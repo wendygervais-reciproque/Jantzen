@@ -21,10 +21,29 @@
   "WPfr": null,
   "image_ref": "Paix-2_2_§1",
   "terme_jantzen_bat": [
-    "lucarne",
     "pignon",
     "fronton",
-    "façade-d'angle"
+    "façade-d'angle",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "toit à deux versants",
+    "volet"
   ],
   "photos": [
     {
@@ -33,6 +52,25 @@
         "façade-d'angle",
         "pignon"
       ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "garde-corps",
+        "lucarne",
+        "mansarde",
+        "ardoise",
+        "corniche",
+        "bandeau",
+        "fronton",
+        "pilastre",
+        "chaîne d'angle",
+        "oculus",
+        "toit à deux versants",
+        "volet",
+        "pierre de taille",
+        "porte"
+      ],
       "dateCapture": "2009:03:23"
     },
     {
@@ -40,6 +78,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:03:23"
     },
     {
@@ -48,6 +87,7 @@
         "fronton",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:03:23"
     }
   ]

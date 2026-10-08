@@ -23,10 +23,30 @@
   "WPfr": null,
   "image_ref": "Carpeaux-12_18_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "brique",
     "façade",
+    "fenetre",
     "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "avant-corps",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "sculpture",
+    "toit à deux versants"
   ],
   "photos": [
     {
@@ -34,6 +54,26 @@
       "IndexJantzen": [
         "brique",
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balustrade",
+        "fronton",
+        "lucarne",
+        "mansarde",
+        "corniche",
+        "pierre de taille",
+        "brique",
+        "chaîne d'angle",
+        "bandeau",
+        "sculpture",
+        "mascaron",
+        "toit à deux versants",
+        "ardoise",
+        "balcon",
+        "garde-corps",
+        "avant-corps",
+        "oculus"
       ],
       "dateCapture": "2006:07:10"
     },
@@ -43,6 +83,7 @@
         "brique",
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:10"
     },
     {
@@ -51,6 +92,7 @@
         "brique",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:10"
     },
     {
@@ -59,6 +101,7 @@
         "brique",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:10"
     }
   ]

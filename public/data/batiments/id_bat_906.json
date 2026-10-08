@@ -21,17 +21,41 @@
   "WPfr": null,
   "image_ref": "Orchampt-14_18_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "sculpture",
-    "porte-bois",
     "clé",
+    "fenetre",
+    "porte-bois",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Orchampt-14_18_§1",
       "IndexJantzen": [
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "volet",
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "mascaron",
+        "bandeau",
+        "corniche",
+        "travée",
+        "fer forgé"
       ],
       "dateCapture": "2005:09:27"
     },
@@ -41,6 +65,7 @@
         "décor",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:09:27"
     },
     {
@@ -49,6 +74,7 @@
         "clé",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:09:27"
     },
     {
@@ -56,6 +82,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:09:27"
     },
     {
@@ -64,6 +91,7 @@
         "clé",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:09:27"
     }
   ]

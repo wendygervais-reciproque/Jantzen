@@ -30,11 +30,33 @@
   "terme_jantzen_bat": [
     "porte-fer-hall"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "fer forgé",
+    "garde-corps",
+    "jambage",
+    "linteau",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Colonels-Renard-4_17_§1",
       "IndexJantzen": [
         "porte-fer-hall"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "fer forgé",
+        "vantail",
+        "balcon",
+        "sculpture",
+        "pierre de taille",
+        "jambage",
+        "linteau",
+        "garde-corps"
       ],
       "dateCapture": "2010:03:18"
     }

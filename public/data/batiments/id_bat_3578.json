@@ -24,12 +24,40 @@
     "façade",
     "voie"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "bandeau",
+    "chaîne d'angle",
+    "fenêtre",
+    "garde-corps",
+    "gros appareil",
+    "pierre de taille",
+    "porte",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Domat-8-12_5_§1",
       "IndexJantzen": [
         "façade",
         "voie"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "volet",
+        "pierre de taille",
+        "bandeau",
+        "souche de cheminée",
+        "porte",
+        "chaîne d'angle",
+        "gros appareil",
+        "travée",
+        "toit à deux versants"
       ],
       "dateCapture": null
     }

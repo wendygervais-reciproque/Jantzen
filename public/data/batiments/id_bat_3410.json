@@ -24,9 +24,22 @@
   "image_ref": "Grands-Augustins-7_6_§1",
   "terme_jantzen_bat": [
     "oeil-de-boeuf",
+    "lucarne-d'angle",
     "fenetre",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
     "lucarne",
-    "lucarne-d'angle"
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "travée",
+    "tuile"
   ],
   "photos": [
     {
@@ -34,12 +47,26 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:05:14"
     },
     {
       "id_pic": "Grands-Augustins-7_6_§1",
       "IndexJantzen": [
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "lucarne",
+        "oculus",
+        "fronton",
+        "corniche",
+        "pilastre",
+        "chaîne d'angle",
+        "tuile",
+        "travée",
+        "pierre de taille",
+        "fer forgé"
       ],
       "dateCapture": "2005:05:23"
     },
@@ -49,6 +76,7 @@
         "lucarne",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:23"
     },
     {
@@ -57,6 +85,7 @@
         "lucarne",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:08:31"
     },
     {
@@ -65,6 +94,7 @@
         "lucarne-d'angle",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:23"
     },
     {
@@ -72,11 +102,13 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:23"
     },
     {
       "id_pic": "Grands-Augustins-7_6_§6",
       "IndexJantzen": [],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:23"
     }
   ]

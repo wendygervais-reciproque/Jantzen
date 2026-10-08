@@ -154,6 +154,12 @@ function normalizeText(text) {
   return normalizeTerm(text);
 }
 
+function buildingTermKeys(props) {
+  const jantzen = Array.isArray(props?.terme_jantzen_bat) ? props.terme_jantzen_bat : [];
+  const torneh  = Array.isArray(props?.terme_torneh_bat)  ? props.terme_torneh_bat  : [];
+  return new Set([...jantzen, ...torneh].map(normalizeTerm).filter(Boolean));
+}
+
 function capitalize(str) {
   return str ? str.charAt(0).toUpperCase() + str.slice(1) : '';
 }

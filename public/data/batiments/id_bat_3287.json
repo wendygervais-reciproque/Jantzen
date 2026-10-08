@@ -37,8 +37,26 @@
   "image_ref": "Garibaldi-65_15_§1",
   "terme_jantzen_bat": [
     "brique",
+    "porte-fer-hall",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "brique",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
     "lucarne",
-    "porte-fer-hall"
+    "oriel",
+    "pierre de taille",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -46,6 +64,24 @@
       "IndexJantzen": [
         "brique",
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "volet",
+        "lucarne",
+        "souche de cheminée",
+        "brique",
+        "pierre de taille",
+        "sculpture",
+        "toit à deux versants",
+        "ardoise",
+        "fer forgé",
+        "balustrade",
+        "corniche",
+        "oriel",
+        "travée"
       ],
       "dateCapture": "2008:10:15"
     },
@@ -55,6 +91,7 @@
         "brique",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:10:15"
     },
     {
@@ -62,6 +99,7 @@
       "IndexJantzen": [
         "porte-fer-hall"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:18"
     }
   ]

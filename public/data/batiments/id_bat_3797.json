@@ -30,11 +30,33 @@
   "terme_jantzen_bat": [
     "porte-fer-hall"
   ],
+  "terme_torneh_bat": [
+    "arc en anse de panier",
+    "balustrade",
+    "chambranle",
+    "escalier",
+    "fer forgé",
+    "huisserie",
+    "pierre de taille",
+    "porte",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Chaillot-9_16_§1",
       "IndexJantzen": [
         "porte-fer-hall"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "fer forgé",
+        "arc en anse de panier",
+        "vantail",
+        "pierre de taille",
+        "balustrade",
+        "escalier",
+        "chambranle",
+        "huisserie"
       ],
       "dateCapture": "2004:07:28"
     }

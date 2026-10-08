@@ -23,11 +23,47 @@
   "terme_jantzen_bat": [
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "auvent",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "pierre de taille",
+    "souche de cheminée",
+    "toit à deux versants",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Maubeuge-51-53_9_§1-Rx",
       "IndexJantzen": [
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "volet",
+        "garde-corps",
+        "souche de cheminée",
+        "lucarne",
+        "mansarde",
+        "corniche",
+        "bandeau",
+        "pierre de taille",
+        "fer forgé",
+        "mascaron",
+        "auvent",
+        "toit à deux versants",
+        "chaîne d'angle"
       ],
       "dateCapture": "2012:05:14"
     },
@@ -36,6 +72,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:09:22"
     },
     {
@@ -43,6 +80,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:09:22"
     },
     {
@@ -50,6 +88,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:09:22"
     }
   ]

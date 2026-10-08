@@ -32,10 +32,22 @@
   "WPfr": null,
   "image_ref": "Rivoli-48B_4_§1",
   "terme_jantzen_bat": [
-    "porte-fer",
-    "fenetre",
     "sculpture",
-    "atlante"
+    "atlante",
+    "fenetre",
+    "porte-fer"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "atlante",
+    "balcon",
+    "balustrade",
+    "chambranle",
+    "fenêtre",
+    "fer forgé",
+    "pierre de taille",
+    "porte",
+    "sculpture"
   ],
   "photos": [
     {
@@ -43,6 +55,18 @@
       "IndexJantzen": [
         "atlante",
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "atlante",
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "porte",
+        "fer forgé",
+        "sculpture",
+        "arc en plein cintre",
+        "pierre de taille",
+        "chambranle"
       ],
       "dateCapture": "2006:03:19"
     },
@@ -52,6 +76,7 @@
         "atlante",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:03:23"
     },
     {
@@ -60,6 +85,7 @@
         "atlante",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:03:23"
     },
     {
@@ -68,6 +94,7 @@
         "fenetre",
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:03:20"
     },
     {
@@ -75,6 +102,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": null
     },
     {
@@ -83,6 +111,7 @@
         "atlante",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:03:20"
     },
     {
@@ -91,6 +120,7 @@
         "atlante",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:03:23"
     },
     {
@@ -99,6 +129,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:03:19"
     },
     {
@@ -107,6 +138,7 @@
         "atlante",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:03:23"
     },
     {
@@ -115,6 +147,7 @@
         "atlante",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:03:23"
     }
   ]

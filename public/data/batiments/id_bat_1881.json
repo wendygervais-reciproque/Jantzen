@@ -28,11 +28,32 @@
   "WPfr": null,
   "image_ref": "Haussmann-26_9_§1",
   "terme_jantzen_bat": [
+    "sculpture",
     "fenetre",
     "lucarne",
+    "fronton",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "attique",
+    "balcon",
+    "balustrade",
+    "corniche",
+    "fenêtre",
+    "frise",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "pierre de taille",
+    "pilastre",
     "sculpture",
-    "décor",
-    "fronton"
+    "souche de cheminée",
+    "volet",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -43,6 +64,27 @@
         "fronton",
         "lucarne",
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "corniche",
+        "fronton",
+        "mansarde",
+        "lucarne",
+        "souche de cheminée",
+        "épi de faîtage",
+        "mascaron",
+        "sculpture",
+        "pierre de taille",
+        "ardoise",
+        "arc en plein cintre",
+        "pilastre",
+        "frise",
+        "attique",
+        "volet"
       ],
       "dateCapture": "2004:03:28"
     },
@@ -55,6 +97,7 @@
         "lucarne",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:17"
     }
   ]

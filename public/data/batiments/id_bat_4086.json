@@ -25,11 +25,47 @@
   "terme_jantzen_bat": [
     "voie"
   ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "escalier",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mansarde",
+    "pierre de taille",
+    "porte",
+    "souche de cheminée",
+    "toit à deux versants",
+    "tuile",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Mont-Cenis-rue_18_§1",
       "IndexJantzen": [
         "voie"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "fenêtre",
+        "volet",
+        "souche de cheminée",
+        "garde-corps",
+        "mansarde",
+        "toit à deux versants",
+        "ardoise",
+        "balustrade",
+        "corniche",
+        "bandeau",
+        "pierre de taille",
+        "fer forgé",
+        "escalier",
+        "tuile",
+        "porte"
       ],
       "dateCapture": "2005:09:27"
     }

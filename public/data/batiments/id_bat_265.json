@@ -28,12 +28,23 @@
   "WPfr": null,
   "image_ref": "Scheffer-1_16_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "lucarne",
     "façade-d'angle",
     "fenetre-d'angle",
-    "céramique",
-    "porte-fer-hall"
+    "fenetre",
+    "lucarne",
+    "porte-fer-hall",
+    "céramique"
+  ],
+  "terme_torneh_bat": [
+    "baie",
+    "balcon",
+    "fenêtre",
+    "porte",
+    "souche de cheminée",
+    "toit-terrasse",
+    "travée",
+    "verrière",
+    "volet"
   ],
   "photos": [
     {
@@ -41,6 +52,17 @@
       "IndexJantzen": [
         "céramique",
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "volet",
+        "balcon",
+        "baie",
+        "travée",
+        "souche de cheminée",
+        "toit-terrasse",
+        "verrière",
+        "porte"
       ],
       "dateCapture": "2005:04:03"
     },
@@ -50,6 +72,7 @@
         "céramique",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:03"
     },
     {
@@ -57,6 +80,7 @@
       "IndexJantzen": [
         "porte-fer-hall"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:03"
     },
     {
@@ -65,6 +89,7 @@
         "céramique",
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:03"
     },
     {
@@ -73,6 +98,7 @@
         "céramique",
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:03"
     },
     {
@@ -81,6 +107,7 @@
         "céramique",
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:03"
     },
     {
@@ -89,6 +116,7 @@
         "céramique",
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:12"
     },
     {
@@ -97,6 +125,7 @@
         "céramique",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:03"
     },
     {
@@ -105,6 +134,7 @@
         "céramique",
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:12"
     },
     {
@@ -113,6 +143,7 @@
         "céramique",
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:12"
     },
     {
@@ -121,6 +152,7 @@
         "céramique",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:12"
     }
   ]

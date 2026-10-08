@@ -21,11 +21,28 @@
   "WPfr": null,
   "image_ref": "La-Fayette-127_10_§1",
   "terme_jantzen_bat": [
+    "oriel",
+    "clé",
     "fenetre",
     "métal",
-    "clé",
-    "porte-bois",
-    "oriel"
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "mascaron",
+    "oriel",
+    "pierre de taille",
+    "travée",
+    "vitrail",
+    "volet"
   ],
   "photos": [
     {
@@ -33,6 +50,23 @@
       "IndexJantzen": [
         "métal",
         "oriel"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "oriel",
+        "fronton",
+        "corniche",
+        "bandeau",
+        "pierre de taille",
+        "volet",
+        "mascaron",
+        "vitrail",
+        "travée",
+        "chambranle"
       ],
       "dateCapture": "2008:03:05"
     },
@@ -42,6 +76,7 @@
         "fenetre",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:03:12"
     },
     {
@@ -50,6 +85,7 @@
         "fenetre",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:03:12"
     },
     {
@@ -58,6 +94,7 @@
         "clé",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:03:05"
     }
   ]

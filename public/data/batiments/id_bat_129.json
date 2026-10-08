@@ -13,7 +13,7 @@
     "1915-1944"
   ],
   "adresse": null,
-  "arrondissement": 6,
+  "arrondissement": 1,
   "tri_alphab": "Carrousel_Pont",
   "coordonnees": {
     "latitude": "48.859392",
@@ -27,11 +27,23 @@
     "sculpture",
     "pont"
   ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "fronton",
+    "sculpture",
+    "toit à deux versants"
+  ],
   "photos": [
     {
       "id_pic": "Carrousel_Pont_6_§1",
       "IndexJantzen": [
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "sculpture",
+        "toit à deux versants",
+        "ardoise",
+        "fronton"
       ],
       "dateCapture": "2007:07:14"
     },
@@ -40,6 +52,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:07:14"
     },
     {
@@ -48,6 +61,7 @@
         "pont",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:19"
     }
   ]

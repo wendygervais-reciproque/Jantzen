@@ -21,10 +21,29 @@
   "WPfr": null,
   "image_ref": "President-Kennedy-16_16_§1",
   "terme_jantzen_bat": [
+    "fenetre-d'angle",
     "lucarne-d'angle",
-    "tour",
     "dome",
-    "fenetre-d'angle"
+    "tour"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "sculpture",
+    "souche de cheminée",
+    "tour",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -33,6 +52,25 @@
         "dome",
         "fenetre-d'angle",
         "tour"
+      ],
+      "IndexTorneh": [
+        "tour",
+        "dôme",
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "fenêtre",
+        "oculus",
+        "corniche",
+        "fronton",
+        "pilastre",
+        "souche de cheminée",
+        "épi de faîtage",
+        "ardoise",
+        "pierre de taille",
+        "mascaron",
+        "sculpture",
+        "fer forgé"
       ],
       "dateCapture": "2005:04:01"
     },
@@ -43,6 +81,7 @@
         "lucarne-d'angle",
         "tour"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:01"
     },
     {
@@ -52,6 +91,7 @@
         "lucarne-d'angle",
         "tour"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:01"
     }
   ]

@@ -34,12 +34,50 @@
     "porte-bois",
     "décor"
   ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "chapiteau",
+    "chapiteau ionique",
+    "chéneau",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pilastre",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Kleber-33_16_§1",
       "IndexJantzen": [
         "lucarne",
         "oeil-de-boeuf"
+      ],
+      "IndexTorneh": [
+        "ardoise",
+        "oculus",
+        "lucarne",
+        "balustrade",
+        "balcon",
+        "mascaron",
+        "fronton",
+        "corniche",
+        "souche de cheminée",
+        "chéneau",
+        "fenêtre",
+        "porte-fenêtre",
+        "pilastre",
+        "chapiteau",
+        "chapiteau ionique",
+        "mansarde",
+        "volet"
       ],
       "dateCapture": "2005:03:16"
     },
@@ -49,6 +87,7 @@
         "décor",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:03:16"
     },
     {
@@ -56,6 +95,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:03:17"
     }
   ]

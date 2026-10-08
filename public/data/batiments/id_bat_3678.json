@@ -32,15 +32,32 @@
   "WPfr": null,
   "image_ref": "Daumesnil-82_12_§1",
   "terme_jantzen_bat": [
+    "balcon",
+    "dome",
+    "façade-d'angle",
+    "fenetre-d'angle",
     "fenetre",
     "console",
-    "garde-corps",
-    "façade-d'angle",
-    "dome",
-    "fenetre-d'angle",
     "brique",
-    "décor",
-    "balcon"
+    "garde-corps",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "pierre de taille",
+    "tour",
+    "travée",
+    "tuile",
+    "volet",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -49,6 +66,23 @@
         "brique",
         "dome",
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "dôme",
+        "tour",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "volet",
+        "brique",
+        "pierre de taille",
+        "bandeau",
+        "corniche",
+        "épi de faîtage",
+        "travée",
+        "tuile",
+        "fer forgé"
       ],
       "dateCapture": "2010:03:26"
     },
@@ -60,6 +94,7 @@
         "dome",
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:03:26"
     },
     {
@@ -70,6 +105,7 @@
         "dome",
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:03:26"
     },
     {
@@ -79,6 +115,7 @@
         "décor",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:03:26"
     },
     {
@@ -88,6 +125,7 @@
         "console",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:03:26"
     }
   ]

@@ -21,9 +21,32 @@
   "WPfr": null,
   "image_ref": "Breteuil-78-88_15_§1",
   "terme_jantzen_bat": [
-    "toiture",
     "façade",
+    "toiture",
     "voie"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "avant-corps",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "garde-corps",
+    "grille",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "pierre de taille",
+    "pilastre",
+    "porte-fenêtre",
+    "sculpture",
+    "souche de cheminée",
+    "tour",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -32,6 +55,29 @@
         "façade",
         "voie"
       ],
+      "IndexTorneh": [
+        "dôme",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "porte-fenêtre",
+        "lucarne",
+        "corniche",
+        "bandeau",
+        "pilastre",
+        "souche de cheminée",
+        "mansarde",
+        "volet",
+        "sculpture",
+        "mascaron",
+        "travée",
+        "avant-corps",
+        "pierre de taille",
+        "ardoise",
+        "tour",
+        "grille"
+      ],
       "dateCapture": "2006:04:06"
     },
     {
@@ -39,6 +85,7 @@
       "IndexJantzen": [
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:06"
     }
   ]

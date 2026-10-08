@@ -28,16 +28,56 @@
   "WPfr": null,
   "image_ref": "Teheran-7_8_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "façade",
     "sculpture",
-    "colonne"
+    "colonne",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "attique",
+    "avant-corps",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "bossage",
+    "chapiteau",
+    "colonne",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "grille",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "toit-terrasse",
+    "travée"
   ],
   "photos": [
     {
       "id_pic": "Teheran-7_8_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "colonne",
+        "pilastre",
+        "chapiteau",
+        "corniche",
+        "bandeau",
+        "avant-corps",
+        "travée",
+        "pierre de taille",
+        "toit-terrasse",
+        "porte",
+        "grille",
+        "fer forgé",
+        "attique",
+        "bossage"
       ],
       "dateCapture": "2009:07:13"
     },
@@ -46,6 +86,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:07:13"
     },
     {
@@ -53,6 +94,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:07:13"
     },
     {
@@ -61,6 +103,7 @@
         "colonne",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:07:13"
     },
     {
@@ -68,6 +111,7 @@
       "IndexJantzen": [
         "colonne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:07:13"
     }
   ]

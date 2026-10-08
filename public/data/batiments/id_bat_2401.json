@@ -24,12 +24,48 @@
     "brique",
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "brique",
+    "chambranle",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "garde-corps",
+    "gros appareil",
+    "lucarne",
+    "mansarde",
+    "pierre de taille",
+    "pilastre",
+    "souche de cheminée",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Trousseau-38_11_§1",
       "IndexJantzen": [
         "brique",
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "lucarne",
+        "mansarde",
+        "fenêtre",
+        "garde-corps",
+        "balcon",
+        "arc en plein cintre",
+        "corniche",
+        "pierre de taille",
+        "brique",
+        "souche de cheminée",
+        "ardoise",
+        "chambranle",
+        "volet",
+        "pilastre",
+        "gros appareil",
+        "chaîne d'angle"
       ],
       "dateCapture": "2006:08:31"
     }

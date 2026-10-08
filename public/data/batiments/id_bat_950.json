@@ -29,8 +29,27 @@
   "image_ref": "St-Michel-141_5_§1-Rs",
   "terme_jantzen_bat": [
     "toiture",
+    "fronton",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
     "lucarne",
-    "fronton"
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "porte-fenêtre",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "volet"
   ],
   "photos": [
     {
@@ -40,6 +59,25 @@
         "lucarne",
         "toiture"
       ],
+      "IndexTorneh": [
+        "lucarne",
+        "fronton",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "porte-fenêtre",
+        "ardoise",
+        "souche de cheminée",
+        "oculus",
+        "pierre de taille",
+        "sculpture",
+        "mascaron",
+        "mansarde",
+        "volet",
+        "toit à deux versants"
+      ],
       "dateCapture": "2007:09:24"
     },
     {
@@ -48,6 +86,7 @@
         "fronton",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:09:24"
     }
   ]

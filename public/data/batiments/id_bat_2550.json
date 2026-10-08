@@ -25,11 +25,33 @@
   "terme_jantzen_bat": [
     "porte-fer"
   ],
+  "terme_torneh_bat": [
+    "arc",
+    "baie",
+    "fer forgé",
+    "grille",
+    "pierre de taille",
+    "porte",
+    "porte-fenêtre",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Alboni_Sq-4_16_",
       "IndexJantzen": [
         "porte-fer"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "porte-fenêtre",
+        "vantail",
+        "fer forgé",
+        "sculpture",
+        "pierre de taille",
+        "grille",
+        "arc",
+        "baie"
       ],
       "dateCapture": "2005:06:07"
     }

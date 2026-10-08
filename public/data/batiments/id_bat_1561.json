@@ -24,12 +24,46 @@
     "fenetre",
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "fenêtre",
+    "garde-corps",
+    "heurtoir",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "modillon",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Grenelle-20_7_§1",
       "IndexJantzen": [
         "fenetre",
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "arc en plein cintre",
+        "porte",
+        "portail",
+        "mascaron",
+        "mansarde",
+        "lucarne",
+        "fenêtre",
+        "garde-corps",
+        "balcon",
+        "ardoise",
+        "pierre de taille",
+        "heurtoir",
+        "vantail",
+        "sculpture",
+        "modillon"
       ],
       "dateCapture": "2005:05:28"
     }

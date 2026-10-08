@@ -23,10 +23,38 @@
   "WPfr": null,
   "image_ref": "St-Antoine-17_4_§1",
   "terme_jantzen_bat": [
-    "toiture",
     "façade",
+    "tourelle",
     "dome",
-    "tourelle"
+    "toiture"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "chapiteau",
+    "chéneau",
+    "colonne",
+    "corniche",
+    "coupole",
+    "dôme",
+    "escalier",
+    "fenêtre",
+    "frise",
+    "fronton",
+    "grille",
+    "lucarne",
+    "mascaron",
+    "oculus",
+    "perron",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "vitrail"
   ],
   "photos": [
     {
@@ -35,6 +63,34 @@
         "dome",
         "façade"
       ],
+      "IndexTorneh": [
+        "dôme",
+        "coupole",
+        "sculpture",
+        "fronton",
+        "pilastre",
+        "corniche",
+        "ardoise",
+        "pierre de taille",
+        "arc en plein cintre",
+        "oculus",
+        "vitrail",
+        "porte",
+        "fenêtre",
+        "lucarne",
+        "balustrade",
+        "chéneau",
+        "colonne",
+        "chapiteau",
+        "grille",
+        "escalier",
+        "perron",
+        "souche de cheminée",
+        "balcon",
+        "toit à deux versants",
+        "frise",
+        "mascaron"
+      ],
       "dateCapture": "2009:03:20"
     },
     {
@@ -42,6 +98,7 @@
       "IndexJantzen": [
         "dome"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:03:20"
     },
     {
@@ -49,6 +106,7 @@
       "IndexJantzen": [
         "dome"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:03"
     },
     {
@@ -57,6 +115,7 @@
         "dome",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:03"
     },
     {
@@ -64,6 +123,7 @@
       "IndexJantzen": [
         "dome"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:03"
     },
     {
@@ -72,6 +132,7 @@
         "dome",
         "tourelle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:16"
     }
   ]

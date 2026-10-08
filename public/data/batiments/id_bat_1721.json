@@ -23,11 +23,31 @@
   "terme_jantzen_bat": [
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "chéneau",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "toit à deux versants"
+  ],
   "photos": [
     {
       "id_pic": "Grande-Armee-23_16_§1",
       "IndexJantzen": [
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "lucarne",
+        "mansarde",
+        "ardoise",
+        "garde-corps",
+        "fenêtre",
+        "chéneau",
+        "fronton",
+        "toit à deux versants"
       ],
       "dateCapture": "2009:05:22"
     }

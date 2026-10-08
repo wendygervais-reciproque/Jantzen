@@ -28,16 +28,58 @@
   "WPfr": null,
   "image_ref": "Montparnasse-Bd-133_6_§1",
   "terme_jantzen_bat": [
-    "fenetre-d'angle",
-    "garde-corps",
     "sculpture",
+    "garde-corps",
+    "fenetre-d'angle",
     "façade-d'angle"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Montparnasse-Bd-133_6_§1",
       "IndexJantzen": [
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "mansarde",
+        "lucarne",
+        "souche de cheminée",
+        "pierre de taille",
+        "corniche",
+        "bandeau",
+        "mascaron",
+        "volet",
+        "oculus",
+        "travée",
+        "fronton",
+        "arc en plein cintre",
+        "fer forgé",
+        "toit à deux versants",
+        "ardoise"
       ],
       "dateCapture": "2006:06:26"
     },
@@ -48,6 +90,7 @@
         "garde-corps",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:26"
     }
   ]

@@ -24,12 +24,38 @@
     "sculpture",
     "console"
   ],
+  "terme_torneh_bat": [
+    "arc",
+    "balcon",
+    "balustrade",
+    "chaîne d'angle",
+    "fenêtre",
+    "fer",
+    "fer forgé",
+    "garde-corps",
+    "pierre de taille",
+    "sculpture",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Annonciation-17_16_§1",
       "IndexJantzen": [
         "console",
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "arc",
+        "fenêtre",
+        "volet",
+        "balustrade",
+        "sculpture",
+        "pierre de taille",
+        "fer",
+        "chaîne d'angle"
       ],
       "dateCapture": "2005:05:12"
     },
@@ -39,6 +65,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:12"
     }
   ]

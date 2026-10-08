@@ -23,11 +23,39 @@
   "terme_jantzen_bat": [
     "porte-fer"
   ],
+  "terme_torneh_bat": [
+    "arc",
+    "balcon",
+    "balustrade",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "grille",
+    "mascaron",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Anjou-Qu-5_4_§1",
       "IndexJantzen": [
         "porte-fer"
+      ],
+      "IndexTorneh": [
+        "arc",
+        "portail",
+        "porte",
+        "fer forgé",
+        "grille",
+        "balcon",
+        "garde-corps",
+        "volet",
+        "fenêtre",
+        "pierre de taille",
+        "mascaron",
+        "balustrade"
       ],
       "dateCapture": "2004:07:08"
     }

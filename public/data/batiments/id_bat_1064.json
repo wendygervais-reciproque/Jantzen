@@ -21,9 +21,19 @@
   "WPfr": null,
   "image_ref": "Flandre-152_19_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "garde-corps",
+    "fenetre",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "bandeau",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "porte-fenêtre",
+    "sculpture",
+    "travée"
   ],
   "photos": [
     {
@@ -31,6 +41,16 @@
       "IndexJantzen": [
         "décor",
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "porte-fenêtre",
+        "bandeau",
+        "sculpture",
+        "fer forgé",
+        "travée"
       ],
       "dateCapture": "2005:08:02"
     },
@@ -41,6 +61,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:02"
     }
   ]

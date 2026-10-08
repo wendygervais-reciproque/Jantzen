@@ -32,6 +32,20 @@
     "mosaique",
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "brique",
+    "céramique",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "grille",
+    "perron",
+    "porte",
+    "porte-fenêtre",
+    "vitrail"
+  ],
   "photos": [
     {
       "id_pic": "Sextius-Michel-22_15_§1",
@@ -39,6 +53,20 @@
         "brique",
         "mosaique",
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "arc",
+        "arc en plein cintre",
+        "brique",
+        "céramique",
+        "porte",
+        "porte-fenêtre",
+        "fenêtre",
+        "grille",
+        "garde-corps",
+        "fer forgé",
+        "vitrail",
+        "perron"
       ],
       "dateCapture": "2004:09:07"
     },
@@ -48,6 +76,7 @@
         "brique",
         "mosaique"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:09:03"
     }
   ]

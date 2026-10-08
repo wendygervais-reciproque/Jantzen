@@ -28,15 +28,43 @@
   "WPfr": null,
   "image_ref": "Exelmans-39_16_§1",
   "terme_jantzen_bat": [
-    "porte",
+    "façade",
     "verrière",
-    "façade"
+    "porte"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "baie",
+    "brique",
+    "chéneau",
+    "corniche",
+    "fenêtre",
+    "grille",
+    "pierre de taille",
+    "porte",
+    "porte-fenêtre",
+    "sculpture",
+    "soupirail"
   ],
   "photos": [
     {
       "id_pic": "Exelmans-39_16_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "brique",
+        "pierre de taille",
+        "porte",
+        "fenêtre",
+        "baie",
+        "corniche",
+        "sculpture",
+        "grille",
+        "arc en plein cintre",
+        "chéneau",
+        "soupirail",
+        "porte-fenêtre"
       ],
       "dateCapture": "2007:04:21"
     },
@@ -46,11 +74,13 @@
         "porte",
         "verrière"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:21"
     },
     {
       "id_pic": "Exelmans-39_16_§3",
       "IndexJantzen": [],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:21"
     }
   ]

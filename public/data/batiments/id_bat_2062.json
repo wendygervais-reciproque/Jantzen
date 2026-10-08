@@ -32,9 +32,30 @@
   "WPfr": null,
   "image_ref": "Cassini-3_14_§1",
   "terme_jantzen_bat": [
-    "porte-fer",
-    "fenetre",
     "porte-fer-hall",
+    "verrière",
+    "fenetre",
+    "porte-fer"
+  ],
+  "terme_torneh_bat": [
+    "arc brisé",
+    "arc en plein cintre",
+    "baie",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "grille",
+    "modillon",
+    "oriel",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "sculpture",
+    "travée",
     "verrière"
   ],
   "photos": [
@@ -42,6 +63,27 @@
       "id_pic": "Cassini-3_14_§1",
       "IndexJantzen": [
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "baie",
+        "fenêtre",
+        "oriel",
+        "garde-corps",
+        "fer forgé",
+        "pierre de taille",
+        "sculpture",
+        "portail",
+        "porte",
+        "grille",
+        "corniche",
+        "bandeau",
+        "travée",
+        "verrière",
+        "modillon",
+        "arc en plein cintre",
+        "arc brisé"
       ],
       "dateCapture": "2010:05:24"
     },
@@ -51,6 +93,7 @@
         "fenetre",
         "verrière"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:05:24"
     },
     {
@@ -59,6 +102,7 @@
         "fenetre",
         "verrière"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:18"
     },
     {
@@ -66,6 +110,7 @@
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:05:24"
     },
     {
@@ -73,6 +118,7 @@
       "IndexJantzen": [
         "porte-fer-hall"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:18"
     }
   ]

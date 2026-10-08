@@ -28,14 +28,28 @@
   "WPfr": null,
   "image_ref": "Gambetta-95_20_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "console",
-    "garde-corps",
     "clé",
+    "console",
+    "fenetre",
+    "brique",
+    "porte-fer-hall",
+    "céramique",
+    "garde-corps",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "auvent",
+    "balcon",
+    "bandeau",
     "brique",
     "céramique",
-    "décor",
-    "porte-fer-hall"
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "oriel",
+    "porte-fenêtre",
+    "sculpture",
+    "volet"
   ],
   "photos": [
     {
@@ -45,6 +59,20 @@
         "céramique",
         "décor",
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "brique",
+        "céramique",
+        "porte-fenêtre",
+        "sculpture",
+        "fer forgé",
+        "oriel",
+        "bandeau",
+        "auvent",
+        "volet"
       ],
       "dateCapture": "2005:06:18"
     },
@@ -56,6 +84,7 @@
         "céramique",
         "décor"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:18"
     },
     {
@@ -66,6 +95,7 @@
         "céramique",
         "décor"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:18"
     },
     {
@@ -76,6 +106,7 @@
         "décor",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:18"
     },
     {
@@ -83,6 +114,7 @@
       "IndexJantzen": [
         "porte-fer-hall"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:18"
     }
   ]

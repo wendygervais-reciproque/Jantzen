@@ -21,14 +21,54 @@
   "WPfr": null,
   "image_ref": "St-Denis-bd-28_10_§1",
   "terme_jantzen_bat": [
+    "façade-d'angle",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chapiteau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
     "lucarne",
-    "façade-d'angle"
+    "mansarde",
+    "mascaron",
+    "pilastre",
+    "porte",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "St-Denis-bd-28_10_§1",
       "IndexJantzen": [
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "bandeau",
+        "chapiteau",
+        "corniche",
+        "fenêtre",
+        "fer forgé",
+        "garde-corps",
+        "lucarne",
+        "mansarde",
+        "mascaron",
+        "pilastre",
+        "porte",
+        "sculpture",
+        "souche de cheminée",
+        "toit à deux versants",
+        "volet",
+        "ardoise"
       ],
       "dateCapture": "2006:07:11"
     },
@@ -37,6 +77,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:11"
     },
     {
@@ -44,6 +85,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:11"
     }
   ]

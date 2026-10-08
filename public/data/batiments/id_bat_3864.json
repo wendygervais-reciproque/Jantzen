@@ -21,15 +21,47 @@
   "WPfr": null,
   "image_ref": "Beaumarchais-91_3_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "façade",
-    "garde-corps"
+    "garde-corps",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "mascaron",
+    "pierre de taille",
+    "porte-fenêtre",
+    "sculpture",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Beaumarchais-91_3_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "garde-corps",
+        "corniche",
+        "volet",
+        "mascaron",
+        "bandeau",
+        "travée",
+        "pierre de taille",
+        "fer forgé",
+        "fronton",
+        "sculpture",
+        "porte-fenêtre"
       ],
       "dateCapture": "2004:09:07"
     },
@@ -38,6 +70,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:03:23"
     },
     {
@@ -45,6 +78,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:03:23"
     },
     {
@@ -52,6 +86,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:05:12"
     },
     {
@@ -59,6 +94,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:05:12"
     },
     {
@@ -67,6 +103,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:07"
     },
     {
@@ -74,6 +111,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:03:23"
     },
     {
@@ -81,6 +119,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:03:23"
     }
   ]

@@ -23,11 +23,39 @@
   "terme_jantzen_bat": [
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "bandeau",
+    "chéneau",
+    "corniche",
+    "fenêtre",
+    "frise",
+    "fronton",
+    "lucarne",
+    "mansarde",
+    "pierre de taille",
+    "pilastre",
+    "souche de cheminée"
+  ],
   "photos": [
     {
       "id_pic": "Daumesnil-181_12_§1",
       "IndexJantzen": [
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "lucarne",
+        "mansarde",
+        "ardoise",
+        "souche de cheminée",
+        "corniche",
+        "fronton",
+        "fenêtre",
+        "pilastre",
+        "bandeau",
+        "frise",
+        "chéneau",
+        "pierre de taille"
       ],
       "dateCapture": "2006:07:14"
     }

@@ -21,8 +21,22 @@
   "WPfr": null,
   "image_ref": "Jean-Fautrier-3_13_§1",
   "terme_jantzen_bat": [
-    "porte-bois",
-    "céramique"
+    "céramique",
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "balcon",
+    "brique",
+    "chambranle",
+    "céramique",
+    "fer forgé",
+    "jambage",
+    "linteau",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "vantail"
   ],
   "photos": [
     {
@@ -30,6 +44,20 @@
       "IndexJantzen": [
         "céramique",
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "vantail",
+        "chambranle",
+        "linteau",
+        "arc",
+        "brique",
+        "sculpture",
+        "céramique",
+        "fer forgé",
+        "balcon",
+        "pierre de taille",
+        "jambage"
       ],
       "dateCapture": "2005:07:17"
     }

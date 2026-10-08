@@ -23,12 +23,34 @@
   "WPfr": null,
   "image_ref": "Opera-av_4-Septembre_2_§1",
   "terme_jantzen_bat": [
-    "sculpture",
-    "clé",
+    "balcon",
     "dome",
     "pilastre",
-    "lucarne-d'angle",
-    "balcon"
+    "sculpture",
+    "clé",
+    "lucarne-d'angle"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "colonne",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "sculpture",
+    "souche de cheminée",
+    "travée",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -39,6 +61,28 @@
         "lucarne-d'angle",
         "pilastre"
       ],
+      "IndexTorneh": [
+        "dôme",
+        "souche de cheminée",
+        "lucarne",
+        "mansarde",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "colonne",
+        "pilastre",
+        "corniche",
+        "bandeau",
+        "fronton",
+        "sculpture",
+        "épi de faîtage",
+        "ardoise",
+        "pierre de taille",
+        "travée",
+        "oculus",
+        "fer forgé"
+      ],
       "dateCapture": "2008:04:03"
     },
     {
@@ -47,6 +91,7 @@
         "clé",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:30"
     }
   ]

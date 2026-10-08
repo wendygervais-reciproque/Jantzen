@@ -24,12 +24,54 @@
     "fenetre",
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bossage",
+    "chambranle",
+    "chapiteau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "heurtoir",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "portail",
+    "porte",
+    "porte-fenêtre",
+    "vantail",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Tocqueville-27_17_§1",
       "IndexJantzen": [
         "fenetre",
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "portail",
+        "vantail",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "porte-fenêtre",
+        "volet",
+        "pilastre",
+        "chapiteau",
+        "corniche",
+        "bossage",
+        "pierre de taille",
+        "chambranle",
+        "heurtoir",
+        "arc en plein cintre",
+        "oculus"
       ],
       "dateCapture": "2004:07:02"
     }

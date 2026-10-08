@@ -22,9 +22,22 @@
   "image_ref": "Damremont-76_18_§1",
   "terme_jantzen_bat": [
     "sculpture",
-    "fenetre",
     "garde-corps",
-    "console"
+    "console",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "corniche",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "modillon",
+    "pierre de taille",
+    "porte-fenêtre",
+    "sculpture",
+    "vitrail"
   ],
   "photos": [
     {
@@ -32,6 +45,19 @@
       "IndexJantzen": [
         "fenetre",
         "garde-corps"
+      ],
+      "IndexTorneh": [
+        "porte-fenêtre",
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "fer forgé",
+        "pierre de taille",
+        "corniche",
+        "mascaron",
+        "modillon",
+        "vitrail",
+        "sculpture"
       ],
       "dateCapture": "2005:05:19"
     },
@@ -41,6 +67,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:19"
     }
   ]

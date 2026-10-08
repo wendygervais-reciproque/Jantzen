@@ -24,12 +24,46 @@
     "fenetre",
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balustrade",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "grille",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "pilastre",
+    "porte",
+    "travée",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Astorg-12_8_§1",
       "IndexJantzen": [
         "fenetre",
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "lucarne",
+        "mansarde",
+        "ardoise",
+        "fronton",
+        "mascaron",
+        "fenêtre",
+        "arc en plein cintre",
+        "corniche",
+        "pilastre",
+        "porte",
+        "vantail",
+        "balustrade",
+        "grille",
+        "chambranle",
+        "travée"
       ],
       "dateCapture": "2007:04:09"
     }

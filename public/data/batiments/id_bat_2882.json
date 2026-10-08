@@ -28,10 +28,29 @@
   "WPfr": null,
   "image_ref": "Marbeau-5_16_§1",
   "terme_jantzen_bat": [
-    "fenetre",
+    "verrière",
     "garde-corps",
     "balcon",
-    "verrière"
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "modillon",
+    "pierre de taille",
+    "pilastre",
+    "portail",
+    "porte",
+    "sculpture",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -41,6 +60,25 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "balustrade",
+        "modillon",
+        "corniche",
+        "pierre de taille",
+        "sculpture",
+        "mascaron",
+        "volet",
+        "porte",
+        "arc en plein cintre",
+        "portail",
+        "fer forgé",
+        "bandeau",
+        "travée",
+        "pilastre"
+      ],
       "dateCapture": "2004:06:07"
     },
     {
@@ -49,6 +87,7 @@
         "fenetre",
         "verrière"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:06:07"
     }
   ]

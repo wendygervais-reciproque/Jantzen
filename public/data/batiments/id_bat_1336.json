@@ -28,11 +28,29 @@
   "WPfr": null,
   "image_ref": "Pompe-185_16_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "sculpture",
+    "fenetre",
+    "colonne",
     "porte-bois",
-    "décor",
-    "colonne"
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "chapiteau corinthien",
+    "colonne",
+    "corniche",
+    "entablement",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "mascaron",
+    "pierre de taille",
+    "porte-fenêtre",
+    "sculpture",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -43,6 +61,24 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "chapiteau corinthien",
+        "colonne",
+        "corniche",
+        "entablement",
+        "fenêtre",
+        "fer forgé",
+        "garde-corps",
+        "mascaron",
+        "pierre de taille",
+        "porte-fenêtre",
+        "volet",
+        "sculpture",
+        "travée",
+        "fronton"
+      ],
       "dateCapture": "2004:05:17"
     },
     {
@@ -51,6 +87,7 @@
         "fenetre",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:05:17"
     }
   ]

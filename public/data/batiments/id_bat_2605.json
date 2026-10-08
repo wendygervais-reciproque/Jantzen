@@ -24,11 +24,35 @@
     "fenetre",
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "chambranle",
+    "chaîne d'angle",
+    "fenêtre",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "oculus",
+    "pierre de taille"
+  ],
   "photos": [
     {
       "id_pic": "Temple-41_4_§1",
       "IndexJantzen": [
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "lucarne",
+        "mansarde",
+        "fenêtre",
+        "garde-corps",
+        "chaîne d'angle",
+        "ardoise",
+        "arc en plein cintre",
+        "oculus",
+        "pierre de taille",
+        "chambranle"
       ],
       "dateCapture": "2003:08:09"
     },
@@ -37,6 +61,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:08:09"
     },
     {
@@ -44,6 +69,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:08:09"
     }
   ]

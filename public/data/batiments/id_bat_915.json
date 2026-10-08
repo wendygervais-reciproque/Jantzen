@@ -21,11 +21,28 @@
   "WPfr": null,
   "image_ref": "Fortuny-14_17_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "sculpture",
     "mosaique",
     "pilastre",
+    "sculpture",
+    "fenetre",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "bandeau",
+    "chambranle",
+    "chapiteau",
+    "corniche",
+    "céramique",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "pierre de taille",
+    "pilastre",
+    "porte-fenêtre",
+    "sculpture",
+    "vantail",
+    "volet"
   ],
   "photos": [
     {
@@ -36,6 +53,23 @@
         "mosaique",
         "pilastre",
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "porte-fenêtre",
+        "volet",
+        "chambranle",
+        "pilastre",
+        "chapiteau",
+        "corniche",
+        "sculpture",
+        "céramique",
+        "pierre de taille",
+        "bandeau",
+        "vantail"
       ],
       "dateCapture": "2006:06:12"
     }

@@ -24,12 +24,34 @@
     "fenetre",
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "baie",
+    "chapiteau",
+    "corniche",
+    "fer",
+    "fer forgé",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Vivienne-36_2_§1",
       "IndexJantzen": [
         "fenetre",
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "vantail",
+        "chapiteau",
+        "pilastre",
+        "corniche",
+        "fer forgé",
+        "pierre de taille",
+        "baie",
+        "fer"
       ],
       "dateCapture": "2004:09:01"
     }

@@ -10,7 +10,7 @@
     "numero": "25",
     "voie": "rue de Turbigo"
   },
-  "arrondissement": 3,
+  "arrondissement": 2,
   "tri_alphab": "Turbigo",
   "coordonnees": {
     "latitude": "48.864297",
@@ -24,11 +24,45 @@
     "fenetre",
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "pierre de taille",
+    "souche de cheminée",
+    "toit à deux versants",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Turbigo-25_3_§1",
       "IndexJantzen": [
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "mansarde",
+        "lucarne",
+        "souche de cheminée",
+        "ardoise",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "volet",
+        "corniche",
+        "bandeau",
+        "fer forgé",
+        "pierre de taille",
+        "toit à deux versants",
+        "chambranle"
       ],
       "dateCapture": "2008:07:27"
     },
@@ -37,6 +71,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:07:27"
     }
   ]

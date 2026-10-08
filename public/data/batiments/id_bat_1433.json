@@ -22,10 +22,24 @@
   "image_ref": "Pyramides-Pl-2_1_§1",
   "terme_jantzen_bat": [
     "toiture",
+    "balcon",
     "fenetre",
     "lucarne",
-    "lucarne-d'angle",
-    "balcon"
+    "lucarne-d'angle"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "pierre de taille",
+    "souche de cheminée"
   ],
   "photos": [
     {
@@ -35,6 +49,20 @@
         "lucarne-d'angle",
         "toiture"
       ],
+      "IndexTorneh": [
+        "lucarne",
+        "mansarde",
+        "dôme",
+        "souche de cheminée",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "corniche",
+        "pierre de taille",
+        "fronton",
+        "bandeau"
+      ],
       "dateCapture": "2005:08:10"
     },
     {
@@ -43,6 +71,7 @@
         "lucarne",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:10"
     },
     {
@@ -50,6 +79,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:10"
     },
     {
@@ -58,6 +88,7 @@
         "lucarne",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:10"
     },
     {
@@ -65,6 +96,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:08:19"
     },
     {
@@ -72,6 +104,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:08:19"
     },
     {
@@ -80,6 +113,7 @@
         "lucarne",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:08:19"
     }
   ]

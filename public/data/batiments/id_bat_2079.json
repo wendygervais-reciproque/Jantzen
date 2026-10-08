@@ -21,10 +21,24 @@
   "WPfr": null,
   "image_ref": "Amiral-Hamelin-3_16_§2",
   "terme_jantzen_bat": [
-    "fenetre",
     "sculpture",
     "garde-corps",
-    "balcon"
+    "balcon",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "balcon",
+    "balustrade",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "pierre de taille",
+    "sculpture",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -33,6 +47,20 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "arc",
+        "mascaron",
+        "corniche",
+        "pierre de taille",
+        "travée",
+        "sculpture",
+        "volet"
+      ],
       "dateCapture": "2004:10:25"
     },
     {
@@ -40,6 +68,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:10:25"
     },
     {
@@ -48,6 +77,7 @@
         "balcon",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:10:25"
     }
   ]

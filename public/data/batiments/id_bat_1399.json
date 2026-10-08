@@ -21,15 +21,39 @@
   "WPfr": null,
   "image_ref": "Victor-Hugo-199_16_§1",
   "terme_jantzen_bat": [
+    "porte-fer-hall",
     "marquise",
-    "porte-fer",
-    "porte-fer-hall"
+    "porte-fer"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "fer forgé",
+    "grille",
+    "marquise",
+    "perron",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "vantail"
   ],
   "photos": [
     {
       "id_pic": "Victor-Hugo-199_16_§1",
       "IndexJantzen": [
         "porte-fer-hall"
+      ],
+      "IndexTorneh": [
+        "marquise",
+        "porte",
+        "vantail",
+        "fer forgé",
+        "sculpture",
+        "pierre de taille",
+        "arc en plein cintre",
+        "balcon",
+        "grille",
+        "perron"
       ],
       "dateCapture": "2004:05:17"
     },
@@ -39,6 +63,7 @@
         "marquise",
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:05:17"
     }
   ]

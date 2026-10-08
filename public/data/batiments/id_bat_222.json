@@ -21,19 +21,69 @@
   "WPfr": null,
   "image_ref": "Turbigo-1_1_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "façade",
-    "lucarne",
     "façade-d'angle",
-    "fenetre-d'angle",
     "pilastre",
+    "fenetre-d'angle",
+    "fenetre",
+    "lucarne",
+    "façade",
     "fronton"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "auvent",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chaîne d'angle",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porte-fenêtre",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "tuile",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Turbigo-1_1_§1",
       "IndexJantzen": [
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "fronton",
+        "garde-corps",
+        "mansarde",
+        "corniche",
+        "souche de cheminée",
+        "pierre de taille",
+        "pilastre",
+        "dôme",
+        "oculus",
+        "mascaron",
+        "fer forgé",
+        "porte-fenêtre",
+        "volet",
+        "toit à deux versants",
+        "auvent",
+        "ardoise",
+        "sculpture",
+        "bandeau",
+        "chaîne d'angle",
+        "tuile"
       ],
       "dateCapture": "2004:08:31"
     },
@@ -42,6 +92,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:08:31"
     },
     {
@@ -50,6 +101,7 @@
         "fenetre-d'angle",
         "pilastre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:08:31"
     },
     {
@@ -58,6 +110,7 @@
         "fenetre",
         "fronton"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:08:31"
     },
     {
@@ -66,6 +119,7 @@
         "fronton",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:08:31"
     },
     {
@@ -74,6 +128,7 @@
         "fenetre",
         "fronton"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:08:31"
     }
   ]

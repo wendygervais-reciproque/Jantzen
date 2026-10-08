@@ -21,8 +21,22 @@
   "WPfr": null,
   "image_ref": "St-Merri-12_4_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "clé"
+    "clé",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "balcon",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "mascaron",
+    "modillon",
+    "pierre de taille",
+    "travée"
   ],
   "photos": [
     {
@@ -30,6 +44,20 @@
       "IndexJantzen": [
         "clé",
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "fronton",
+        "corniche",
+        "fenêtre",
+        "arc en plein cintre",
+        "mascaron",
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "pierre de taille",
+        "travée",
+        "arc",
+        "modillon"
       ],
       "dateCapture": "2004:09:08"
     }

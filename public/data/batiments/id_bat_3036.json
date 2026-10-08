@@ -21,7 +21,14 @@
   "WPfr": null,
   "image_ref": "Turenne-56_3_§1",
   "terme_jantzen_bat": [
-    "fenetre",
+    "garde-corps",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "fenêtre",
+    "fer forgé",
     "garde-corps"
   ],
   "photos": [
@@ -31,11 +38,19 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "balustrade"
+      ],
       "dateCapture": "2004:09:07"
     },
     {
       "id_pic": "Turenne-56_3_§2",
       "IndexJantzen": [],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:07"
     }
   ]

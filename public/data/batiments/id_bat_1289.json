@@ -29,18 +29,70 @@
   "image_ref": "Grenelle-18_6_§1",
   "terme_jantzen_bat": [
     "porte-fer",
+    "oriel",
+    "sculpture",
+    "console",
     "fenetre",
     "façade",
-    "console",
+    "garde-corps"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "attique",
+    "baie",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "bossage",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
     "garde-corps",
+    "grille",
+    "mansarde",
+    "mascaron",
+    "oriel",
+    "pierre de taille",
+    "pilastre",
+    "porte",
     "sculpture",
-    "oriel"
+    "souche de cheminée",
+    "travée",
+    "vitrail",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Grenelle-18_6_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "bandeau",
+        "baie",
+        "arc en plein cintre",
+        "bossage",
+        "fenêtre",
+        "porte",
+        "garde-corps",
+        "fer forgé",
+        "corniche",
+        "mascaron",
+        "pierre de taille",
+        "oriel",
+        "sculpture",
+        "chambranle",
+        "pilastre",
+        "attique",
+        "souche de cheminée",
+        "mansarde",
+        "vitrail",
+        "volet",
+        "travée",
+        "grille"
       ],
       "dateCapture": "2005:03:20"
     },
@@ -50,6 +102,7 @@
         "fenetre",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:03:20"
     },
     {
@@ -58,6 +111,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:03:20"
     },
     {
@@ -65,6 +119,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:28"
     },
     {
@@ -73,6 +128,7 @@
         "façade",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:28"
     },
     {
@@ -81,6 +137,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:28"
     },
     {
@@ -90,6 +147,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:03:20"
     },
     {
@@ -98,6 +156,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:28"
     },
     {
@@ -106,6 +165,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:03:20"
     },
     {
@@ -114,6 +174,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:28"
     },
     {
@@ -122,6 +183,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:28"
     },
     {
@@ -130,6 +192,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:28"
     },
     {
@@ -137,6 +200,7 @@
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:28"
     }
   ]

@@ -24,6 +24,23 @@
     "toiture",
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "chambranle",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "pierre de taille",
+    "porte-fenêtre",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants"
+  ],
   "photos": [
     {
       "id_pic": "Chateaut-Landon-_10_§1",
@@ -31,12 +48,30 @@
         "lucarne",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:02"
     },
     {
       "id_pic": "Chateaut-Landon-26_10_§1",
       "IndexJantzen": [
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "porte-fenêtre",
+        "lucarne",
+        "mascaron",
+        "sculpture",
+        "ardoise",
+        "souche de cheminée",
+        "pierre de taille",
+        "mansarde",
+        "toit à deux versants",
+        "chambranle"
       ],
       "dateCapture": "2005:08:02"
     }

@@ -32,10 +32,27 @@
   "WPfr": null,
   "image_ref": "Bernard-Palissy-4_6_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "cariatide",
     "sculpture",
+    "cariatide",
+    "fenetre",
     "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "atlante",
+    "balcon",
+    "balustrade",
+    "chapiteau",
+    "fenêtre",
+    "fer forgé",
+    "grille",
+    "huisserie",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "vantail",
+    "volet"
   ],
   "photos": [
     {
@@ -44,6 +61,23 @@
         "cariatide",
         "fenetre",
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "atlante",
+        "sculpture",
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "porte",
+        "volet",
+        "pierre de taille",
+        "vantail",
+        "chapiteau",
+        "arc en plein cintre",
+        "mascaron",
+        "fer forgé",
+        "grille",
+        "huisserie"
       ],
       "dateCapture": "2006:06:11"
     },
@@ -54,6 +88,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:11"
     },
     {
@@ -62,6 +97,7 @@
         "cariatide",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:11"
     },
     {
@@ -70,6 +106,7 @@
         "cariatide",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:11"
     }
   ]

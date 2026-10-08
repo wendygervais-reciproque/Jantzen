@@ -28,11 +28,28 @@
   "WPfr": null,
   "image_ref": "Belleville-178_20_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "console",
+    "balcon",
     "sculpture",
-    "décor",
-    "balcon"
+    "console",
+    "fenetre",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "corniche",
+    "céramique",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "pierre de taille",
+    "porte-fenêtre",
+    "volet"
   ],
   "photos": [
     {
@@ -43,6 +60,23 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "fenêtre",
+        "porte-fenêtre",
+        "lucarne",
+        "ardoise",
+        "mansarde",
+        "brique",
+        "pierre de taille",
+        "fer forgé",
+        "corniche",
+        "bandeau",
+        "céramique",
+        "volet"
+      ],
       "dateCapture": "2005:07:21"
     },
     {
@@ -51,6 +85,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:21"
     }
   ]

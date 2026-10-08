@@ -21,9 +21,20 @@
   "WPfr": null,
   "image_ref": "Melingue-15_19_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "brique",
+    "fenetre",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "brique",
+    "fenêtre",
+    "garde-corps",
+    "lucarne",
+    "souche de cheminée",
+    "volet"
   ],
   "photos": [
     {
@@ -32,6 +43,17 @@
         "brique",
         "décor",
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "fenêtre",
+        "lucarne",
+        "ardoise",
+        "souche de cheminée",
+        "garde-corps",
+        "brique",
+        "volet",
+        "balustrade"
       ],
       "dateCapture": "2005:09:02"
     }

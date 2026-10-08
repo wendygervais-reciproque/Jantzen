@@ -31,12 +31,32 @@
     "fenetre",
     "décor"
   ],
+  "terme_torneh_bat": [
+    "colombage",
+    "garde-corps",
+    "huisserie",
+    "jambage",
+    "linteau",
+    "porte-fenêtre",
+    "vitrail",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Martin-Nadaud-Pl-3_20_§1",
       "IndexJantzen": [
         "décor",
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "porte-fenêtre",
+        "garde-corps",
+        "volet",
+        "vitrail",
+        "huisserie",
+        "jambage",
+        "linteau",
+        "colombage"
       ],
       "dateCapture": "2005:09:19"
     }

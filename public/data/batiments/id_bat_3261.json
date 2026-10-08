@@ -21,9 +21,22 @@
   "WPfr": null,
   "image_ref": "Haussmann-63_8_§1",
   "terme_jantzen_bat": [
-    "garde-corps",
     "console",
+    "garde-corps",
     "balcon"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "modillon",
+    "pierre de taille",
+    "porte-fenêtre",
+    "sculpture"
   ],
   "photos": [
     {
@@ -31,6 +44,19 @@
       "IndexJantzen": [
         "balcon",
         "garde-corps"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "fronton",
+        "garde-corps",
+        "fer forgé",
+        "corniche",
+        "modillon",
+        "pierre de taille",
+        "porte-fenêtre",
+        "sculpture"
       ],
       "dateCapture": "2006:03:23"
     },
@@ -40,6 +66,7 @@
         "console",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:03:23"
     }
   ]

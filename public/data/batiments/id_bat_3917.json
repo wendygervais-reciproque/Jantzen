@@ -23,10 +23,26 @@
   "WPfr": null,
   "image_ref": "Jemmapes-qu-96_10_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "lucarne",
     "console",
-    "décor"
+    "fenetre",
+    "décor",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "avant-corps",
+    "balcon",
+    "balustrade",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mansarde",
+    "oriel",
+    "pierre de taille",
+    "souche de cheminée",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -34,6 +50,22 @@
       "IndexJantzen": [
         "fenetre",
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "volet",
+        "ardoise",
+        "balustrade",
+        "corniche",
+        "mansarde",
+        "souche de cheminée",
+        "avant-corps",
+        "travée",
+        "fer forgé",
+        "pierre de taille",
+        "oriel"
       ],
       "dateCapture": "2005:05:11"
     },
@@ -43,6 +75,7 @@
         "console",
         "décor"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:11"
     }
   ]

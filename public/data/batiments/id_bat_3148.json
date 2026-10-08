@@ -23,11 +23,37 @@
   "terme_jantzen_bat": [
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "fenêtre",
+    "heurtoir",
+    "huisserie",
+    "mascaron",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "sculpture",
+    "vantail",
+    "voûte"
+  ],
   "photos": [
     {
       "id_pic": "Canivet-6_6_§1",
       "IndexJantzen": [
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "portail",
+        "arc en plein cintre",
+        "mascaron",
+        "vantail",
+        "pierre de taille",
+        "heurtoir",
+        "fenêtre",
+        "voûte",
+        "sculpture",
+        "huisserie"
       ],
       "dateCapture": "2005:06:02"
     },
@@ -36,6 +62,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:02"
     }
   ]

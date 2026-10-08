@@ -23,11 +23,35 @@
   "terme_jantzen_bat": [
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "arc",
+    "chambranle",
+    "heurtoir",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "portail",
+    "porte",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Cardinal-Mercier-1_9_§1",
       "IndexJantzen": [
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "portail",
+        "vantail",
+        "pilastre",
+        "sculpture",
+        "heurtoir",
+        "chambranle",
+        "arc",
+        "pierre de taille",
+        "oculus"
       ],
       "dateCapture": "2004:08:27"
     }

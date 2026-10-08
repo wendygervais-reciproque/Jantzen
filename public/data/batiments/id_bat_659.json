@@ -21,9 +21,34 @@
   "WPfr": null,
   "image_ref": "Debarcadere-12_17_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "brique",
-    "façade"
+    "façade",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "chambranle",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "grille",
+    "huisserie",
+    "linteau",
+    "lucarne",
+    "mansarde",
+    "modillon",
+    "oriel",
+    "pierre de taille",
+    "porte",
+    "souche de cheminée",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -31,6 +56,31 @@
       "IndexJantzen": [
         "brique",
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "porte",
+        "brique",
+        "pierre de taille",
+        "chambranle",
+        "corniche",
+        "bandeau",
+        "linteau",
+        "arc en plein cintre",
+        "mansarde",
+        "lucarne",
+        "souche de cheminée",
+        "grille",
+        "oriel",
+        "modillon",
+        "travée",
+        "chaîne d'angle",
+        "huisserie",
+        "volet"
       ],
       "dateCapture": "2006:06:12"
     },
@@ -40,6 +90,7 @@
         "brique",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:12"
     }
   ]

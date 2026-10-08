@@ -22,14 +22,56 @@
   "image_ref": "Madeleine-Bd-7_1_§1",
   "terme_jantzen_bat": [
     "mosaique",
+    "balcon",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "céramique",
+    "fenêtre",
+    "fer forgé",
+    "frise",
+    "garde-corps",
     "lucarne",
-    "balcon"
+    "mansarde",
+    "mascaron",
+    "oriel",
+    "pierre de taille",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "épi de faîtage"
   ],
   "photos": [
     {
       "id_pic": "Madeleine-Bd-7_1_§1",
       "IndexJantzen": [
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "lucarne",
+        "mansarde",
+        "garde-corps",
+        "souche de cheminée",
+        "ardoise",
+        "céramique",
+        "frise",
+        "fer forgé",
+        "oriel",
+        "bandeau",
+        "sculpture",
+        "mascaron",
+        "toit à deux versants",
+        "épi de faîtage",
+        "corniche",
+        "pierre de taille"
       ],
       "dateCapture": "2006:03:23"
     },
@@ -39,6 +81,7 @@
         "balcon",
         "mosaique"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:03:23"
     },
     {
@@ -46,6 +89,7 @@
       "IndexJantzen": [
         "mosaique"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:03:23"
     }
   ]

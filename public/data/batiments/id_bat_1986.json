@@ -23,9 +23,25 @@
   "WPfr": null,
   "image_ref": "St-Germain-288_7_§1",
   "terme_jantzen_bat": [
-    "fenetre",
+    "pilastre",
     "balcon",
-    "pilastre"
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "chapiteau corinthien",
+    "corniche",
+    "entablement",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "mascaron",
+    "modillon",
+    "pierre de taille",
+    "pilastre",
+    "volet"
   ],
   "photos": [
     {
@@ -33,6 +49,22 @@
       "IndexJantzen": [
         "fenetre",
         "pilastre"
+      ],
+      "IndexTorneh": [
+        "balustrade",
+        "balcon",
+        "fenêtre",
+        "pilastre",
+        "chapiteau corinthien",
+        "corniche",
+        "entablement",
+        "fronton",
+        "mascaron",
+        "modillon",
+        "ardoise",
+        "pierre de taille",
+        "garde-corps",
+        "volet"
       ],
       "dateCapture": "2006:06:03"
     },
@@ -43,6 +75,7 @@
         "fenetre",
         "pilastre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:03"
     }
   ]

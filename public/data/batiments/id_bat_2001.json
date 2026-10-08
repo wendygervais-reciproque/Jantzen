@@ -21,14 +21,52 @@
   "WPfr": null,
   "image_ref": "Arcade-29_8_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "façade"
+    "façade",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "arcade",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "toit-terrasse",
+    "travée",
+    "vitrail",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Arcade-29_8_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "corniche",
+        "bandeau",
+        "pierre de taille",
+        "travée",
+        "arc en plein cintre",
+        "porte",
+        "balustrade",
+        "vitrail",
+        "volet",
+        "chambranle",
+        "mascaron",
+        "fer forgé",
+        "arcade",
+        "toit-terrasse"
       ],
       "dateCapture": "2010:04:18"
     },
@@ -37,6 +75,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:04:18"
     },
     {
@@ -44,6 +83,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:04:18"
     }
   ]

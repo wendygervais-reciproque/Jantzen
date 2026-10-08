@@ -22,19 +22,63 @@
   "image_ref": "Pierre-Demours-96_17_§1",
   "terme_jantzen_bat": [
     "porte-fer",
-    "fenetre",
-    "façade",
-    "console",
-    "garde-corps",
     "sculpture",
     "clé",
+    "console",
+    "fenetre",
+    "façade",
+    "garde-corps",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "modillon",
+    "oculus",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "souche de cheminée",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Pierre-Demours-96_17_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "arc en plein cintre",
+        "mascaron",
+        "corniche",
+        "bandeau",
+        "pierre de taille",
+        "lucarne",
+        "mansarde",
+        "souche de cheminée",
+        "volet",
+        "porte",
+        "sculpture",
+        "modillon",
+        "travée",
+        "ardoise",
+        "oculus"
       ],
       "dateCapture": "2009:07:25"
     },
@@ -43,6 +87,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:07:25"
     },
     {
@@ -52,6 +97,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:07:25"
     },
     {
@@ -61,6 +107,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:07:25"
     },
     {
@@ -70,6 +117,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:07:25"
     },
     {
@@ -79,6 +127,7 @@
         "console",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:07:25"
     },
     {
@@ -86,6 +135,7 @@
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:07:25"
     }
   ]

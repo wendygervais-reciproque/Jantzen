@@ -36,12 +36,29 @@
   "WPfr": null,
   "image_ref": "Belleville-117_19_§1",
   "terme_jantzen_bat": [
-    "façade",
+    "oriel",
     "sculpture",
     "fenetre-d'angle",
-    "oriel",
     "brique",
+    "façade",
     "céramique"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc brisé",
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "brique",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mascaron",
+    "oriel",
+    "sculpture",
+    "souche de cheminée",
+    "tour"
   ],
   "photos": [
     {
@@ -51,6 +68,23 @@
         "céramique",
         "façade"
       ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "brique",
+        "arc",
+        "arc en plein cintre",
+        "arc brisé",
+        "sculpture",
+        "mascaron",
+        "lucarne",
+        "oriel",
+        "souche de cheminée",
+        "tour",
+        "fer forgé"
+      ],
       "dateCapture": "2005:09:02"
     },
     {
@@ -59,6 +93,7 @@
         "brique",
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:21"
     },
     {
@@ -67,6 +102,7 @@
         "brique",
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:21"
     },
     {
@@ -76,6 +112,7 @@
         "céramique",
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:21"
     },
     {
@@ -84,6 +121,7 @@
         "brique",
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:21"
     },
     {
@@ -93,6 +131,7 @@
         "fenetre-d'angle",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:21"
     },
     {
@@ -102,6 +141,7 @@
         "céramique",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:09:02"
     }
   ]

@@ -21,16 +21,62 @@
   "WPfr": null,
   "image_ref": "Pepiniere-9_8_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "lucarne",
     "façade",
-    "console"
+    "console",
+    "fenetre",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "avant-corps",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "frise",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "sculpture",
+    "souche de cheminée",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Pepiniere-9_8_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "mascaron",
+        "fronton",
+        "lucarne",
+        "mansarde",
+        "corniche",
+        "frise",
+        "pilastre",
+        "bandeau",
+        "avant-corps",
+        "travée",
+        "ardoise",
+        "fer forgé",
+        "sculpture",
+        "souche de cheminée",
+        "volet",
+        "pierre de taille",
+        "oculus"
       ],
       "dateCapture": "2007:03:17"
     },
@@ -39,6 +85,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:03:17"
     },
     {
@@ -47,6 +94,7 @@
         "console",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:03:17"
     }
   ]

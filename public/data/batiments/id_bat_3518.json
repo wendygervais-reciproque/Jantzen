@@ -30,11 +30,29 @@
   "terme_jantzen_bat": [
     "toiture",
     "fenetre",
-    "façade",
     "lucarne",
     "brique",
+    "façade",
     "céramique",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "bandeau",
+    "brique",
+    "céramique",
+    "fenêtre",
+    "frise",
+    "garde-corps",
+    "grille",
+    "mascaron",
+    "oculus",
+    "porte-fenêtre",
+    "sculpture",
+    "souche de cheminée",
+    "toit-terrasse",
+    "travée"
   ],
   "photos": [
     {
@@ -42,6 +60,24 @@
       "IndexJantzen": [
         "brique",
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "brique",
+        "céramique",
+        "souche de cheminée",
+        "porte-fenêtre",
+        "grille",
+        "travée",
+        "bandeau",
+        "sculpture",
+        "arc en plein cintre",
+        "toit-terrasse",
+        "mascaron",
+        "frise",
+        "oculus"
       ],
       "dateCapture": "2007:08:26"
     },
@@ -51,6 +87,7 @@
         "brique",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:07:09"
     },
     {
@@ -60,6 +97,7 @@
         "décor",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:07:09"
     },
     {
@@ -70,6 +108,7 @@
         "lucarne",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:08:26"
     },
     {
@@ -80,6 +119,7 @@
         "lucarne",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:08:26"
     },
     {
@@ -90,6 +130,7 @@
         "lucarne",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:07"
     }
   ]

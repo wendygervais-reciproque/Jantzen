@@ -30,11 +30,35 @@
   "terme_jantzen_bat": [
     "porte-fer-hall"
   ],
+  "terme_torneh_bat": [
+    "arc",
+    "balcon",
+    "fer forgé",
+    "garde-corps",
+    "jambage",
+    "pierre de taille",
+    "porte",
+    "porte-fenêtre",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Huysmans-8_6_§1",
       "IndexJantzen": [
         "porte-fer-hall"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "porte-fenêtre",
+        "arc",
+        "vantail",
+        "fer forgé",
+        "balcon",
+        "garde-corps",
+        "sculpture",
+        "pierre de taille",
+        "jambage"
       ],
       "dateCapture": "2004:10:04"
     }

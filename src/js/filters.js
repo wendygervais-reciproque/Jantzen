@@ -88,12 +88,23 @@ const SOURCE_LABELS = {
 };
 
 function buildThesaurusFilter() {
+  // Comptes par terme normalisé, sur l'union Jantzen ∪ Torne-H : un bâtiment
+  // portant le terme dans les deux index n'est compté qu'une fois. Le libellé
+  // affiché reprend l'orthographe Jantzen quand elle existe (c'est elle que
+  // posent la visionneuse et les liens partagés), Torne-H sinon.
   const counts = new Map();
+  const labels = new Map();
   ALL_FEATURES.forEach(f => {
-    (f.properties.terme_jantzen_bat || []).forEach(t => counts.set(t, (counts.get(t) || 0) + 1));
+    const p = f.properties;
+    [...(p.terme_jantzen_bat || []), ...(p.terme_torneh_bat || [])].forEach(t => {
+      const key = normalizeTerm(t);
+      if (key && !labels.has(key)) labels.set(key, t);
+    });
+    buildingTermKeys(p).forEach(key => counts.set(key, (counts.get(key) || 0) + 1));
   });
 
-  THES_TERMS = [...counts.entries()].map(([term, count]) => {
+  THES_TERMS = [...counts.entries()].map(([key, count]) => {
+    const term = labels.get(key);
     const meta = getTermMeta(term);
     return {
       term, count,
@@ -194,15 +205,7 @@ function updateThesaurusData(featuresActuelles) {
   const counts = new Map();
 
   featuresActuelles.forEach(f => {
-    const rawTerms = f.properties.terme_jantzen_bat;
-    const termsArray = Array.isArray(rawTerms) ? rawTerms : [];
-
-    termsArray.forEach(t => {
-      const normalizedTerm = normalizeText(t);
-      if (normalizedTerm) {
-        counts.set(normalizedTerm, (counts.get(normalizedTerm) || 0) + 1);
-      }
-    });
+    buildingTermKeys(f.properties).forEach(key => counts.set(key, (counts.get(key) || 0) + 1));
   });
 
   THES_TERMS.forEach(item => {
@@ -243,10 +246,8 @@ function updateArrondissementsData(featuresActuelles) {
   if (activeFilters.thesaurus.size > 0) {
     const selectedTerms = Array.from(activeFilters.thesaurus).map(t => normalizeText(t));
     featuresSansArr = featuresSansArr.filter(f => {
-      const rawTerms = f.properties.terme_jantzen_bat;
-      const batTermsArray = Array.isArray(rawTerms) ? rawTerms : [];
-      const batTermsNormalized = batTermsArray.map(t => normalizeText(t));
-      return selectedTerms.every(term => batTermsNormalized.includes(term));
+      const batTerms = buildingTermKeys(f.properties);   // Jantzen ∪ Torne-H
+      return selectedTerms.every(term => batTerms.has(term));
     });
   }
 
@@ -685,10 +686,8 @@ function updateArchitectesData(featuresActuelles) {
   if (activeFilters.thesaurus.size > 0) {
     const selectedTerms = Array.from(activeFilters.thesaurus).map(t => normalizeText(t));
     featuresSansArchi = featuresSansArchi.filter(f => {
-      const rawTerms = f.properties.terme_jantzen_bat;
-      const batTermsArray = Array.isArray(rawTerms) ? rawTerms : [];
-      const batTermsNormalized = batTermsArray.map(t => normalizeText(t));
-      return selectedTerms.every(term => batTermsNormalized.includes(term));
+      const batTerms = buildingTermKeys(f.properties);   // Jantzen ∪ Torne-H
+      return selectedTerms.every(term => batTerms.has(term));
     });
   }
 
@@ -869,10 +868,8 @@ function updatePeriodesData(featuresActuelles) {
   if (activeFilters.thesaurus.size > 0) {
     const selectedTerms = Array.from(activeFilters.thesaurus).map(t => normalizeText(t));
     featuresSansPeriodes = featuresSansPeriodes.filter(f => {
-      const rawTerms = f.properties.terme_jantzen_bat;
-      const batTermsArray = Array.isArray(rawTerms) ? rawTerms : [];
-      const batTermsNormalized = batTermsArray.map(t => normalizeText(t));
-      return selectedTerms.every(term => batTermsNormalized.includes(term));
+      const batTerms = buildingTermKeys(f.properties);   // Jantzen ∪ Torne-H
+      return selectedTerms.every(term => batTerms.has(term));
     });
   }
 

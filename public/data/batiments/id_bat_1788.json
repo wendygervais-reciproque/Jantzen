@@ -28,21 +28,39 @@
   "WPfr": null,
   "image_ref": "Etienne-Pernet-pl-24_15_§13",
   "terme_jantzen_bat": [
-    "porte-fer",
-    "fenetre",
-    "lucarne",
-    "garde-corps",
-    "console",
     "toiture",
-    "façade-d'angle",
-    "sculpture",
     "dome",
-    "fenetre-d'angle",
+    "balcon",
+    "façade-d'angle",
+    "porte-fer",
+    "sculpture",
     "oriel",
+    "fenetre-d'angle",
+    "fenetre",
+    "console",
+    "lucarne",
     "porte-fer-hall",
     "lucarne-d'angle",
-    "décor",
-    "balcon"
+    "garde-corps",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "auvent",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "oriel",
+    "pierre de taille",
+    "sculpture",
+    "souche de cheminée",
+    "tour",
+    "travée"
   ],
   "photos": [
     {
@@ -51,6 +69,7 @@
         "fenetre",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:09:05"
     },
     {
@@ -59,6 +78,7 @@
         "fenetre",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:13"
     },
     {
@@ -68,6 +88,7 @@
         "fenetre-d'angle",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:21"
     },
     {
@@ -77,6 +98,24 @@
         "décor",
         "fenetre",
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "lucarne",
+        "souche de cheminée",
+        "oriel",
+        "tour",
+        "pierre de taille",
+        "sculpture",
+        "ardoise",
+        "dôme",
+        "bandeau",
+        "travée",
+        "auvent"
       ],
       "dateCapture": "2007:09:05"
     },
@@ -88,6 +127,7 @@
         "oriel",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:13"
     },
     {
@@ -97,6 +137,7 @@
         "fenetre",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:13"
     },
     {
@@ -104,6 +145,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:13"
     },
     {
@@ -111,6 +153,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:09:05"
     },
     {
@@ -120,6 +163,7 @@
         "oriel",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:09:05"
     },
     {
@@ -128,6 +172,7 @@
         "dome",
         "façade-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:13"
     },
     {
@@ -137,6 +182,7 @@
         "garde-corps",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:09:05"
     },
     {
@@ -145,6 +191,7 @@
         "balcon",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:09:05"
     },
     {
@@ -153,6 +200,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:09:05"
     },
     {
@@ -161,6 +209,7 @@
         "balcon",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:09:05"
     },
     {
@@ -169,6 +218,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:13"
     },
     {
@@ -177,6 +227,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:09:05"
     },
     {
@@ -184,6 +235,7 @@
       "IndexJantzen": [
         "porte-fer-hall"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:13"
     },
     {
@@ -191,6 +243,7 @@
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:13"
     },
     {
@@ -199,6 +252,7 @@
         "dome",
         "façade-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:09:05"
     },
     {
@@ -207,6 +261,7 @@
         "dome",
         "façade-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:09:05"
     },
     {
@@ -215,6 +270,7 @@
         "fenetre-d'angle",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:09:05"
     },
     {
@@ -223,6 +279,7 @@
         "fenetre-d'angle",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:09:05"
     },
     {
@@ -231,6 +288,7 @@
         "fenetre-d'angle",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:09:05"
     },
     {
@@ -239,6 +297,7 @@
         "balcon",
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:13"
     },
     {
@@ -248,6 +307,7 @@
         "lucarne-d'angle",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:09:05"
     }
   ]

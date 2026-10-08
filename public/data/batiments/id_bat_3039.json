@@ -24,12 +24,42 @@
     "garde-corps",
     "balcon"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "chambranle",
+    "chaîne d'angle",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "mascaron",
+    "modillon",
+    "pierre de taille",
+    "porte-fenêtre",
+    "sculpture"
+  ],
   "photos": [
     {
       "id_pic": "St-Lazare-56_9_§1",
       "IndexJantzen": [
         "balcon",
         "garde-corps"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "porte-fenêtre",
+        "fenêtre",
+        "arc en plein cintre",
+        "modillon",
+        "chambranle",
+        "fronton",
+        "mascaron",
+        "chaîne d'angle",
+        "pierre de taille",
+        "fer forgé",
+        "sculpture"
       ],
       "dateCapture": "2009:07:27"
     }

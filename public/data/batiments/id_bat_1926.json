@@ -28,8 +28,22 @@
   "WPfr": null,
   "image_ref": "Mac-Mahon-27_17_1§",
   "terme_jantzen_bat": [
-    "porte-fer",
-    "fenetre"
+    "fenetre",
+    "porte-fer"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "sculpture",
+    "vantail",
+    "volet"
   ],
   "photos": [
     {
@@ -37,6 +51,20 @@
       "IndexJantzen": [
         "fenetre",
         "porte-fer"
+      ],
+      "IndexTorneh": [
+        "arc en plein cintre",
+        "mascaron",
+        "porte",
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "pierre de taille",
+        "sculpture",
+        "volet",
+        "portail",
+        "vantail"
       ],
       "dateCapture": "2005:03:25"
     }

@@ -24,11 +24,29 @@
   "WPfr": "Hôpital Lariboisière",
   "image_ref": "Ambroise-Pare-_10_§1",
   "terme_jantzen_bat": [
-    "façade",
-    "porte",
     "sculpture",
+    "façade",
     "fronton",
+    "porte",
     "colonne"
+  ],
+  "terme_torneh_bat": [
+    "acrotère",
+    "arc en plein cintre",
+    "arcade",
+    "attique",
+    "colonne",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "grille",
+    "mascaron",
+    "pierre de taille",
+    "pilastre",
+    "portail",
+    "porte",
+    "sculpture"
   ],
   "photos": [
     {
@@ -38,6 +56,24 @@
         "façade",
         "porte"
       ],
+      "IndexTorneh": [
+        "arc en plein cintre",
+        "arcade",
+        "attique",
+        "colonne",
+        "pilastre",
+        "corniche",
+        "fronton",
+        "grille",
+        "porte",
+        "fenêtre",
+        "pierre de taille",
+        "sculpture",
+        "mascaron",
+        "portail",
+        "garde-corps",
+        "acrotère"
+      ],
       "dateCapture": "2007:03:26"
     },
     {
@@ -46,6 +82,7 @@
         "fronton",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:03:26"
     },
     {
@@ -53,6 +90,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:03:26"
     },
     {
@@ -60,6 +98,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:03:26"
     },
     {
@@ -67,6 +106,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:03:26"
     },
     {
@@ -74,6 +114,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:03:26"
     },
     {
@@ -81,6 +122,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:03:26"
     },
     {
@@ -88,6 +130,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:03:26"
     }
   ]

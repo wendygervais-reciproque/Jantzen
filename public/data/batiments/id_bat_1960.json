@@ -21,8 +21,24 @@
   "WPfr": null,
   "image_ref": "St-Germain-274_7_§1",
   "terme_jantzen_bat": [
+    "fronton",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "arc en anse de panier",
+    "ardoise",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fronton",
     "lucarne",
-    "fronton"
+    "mansarde",
+    "mascaron",
+    "pierre de taille",
+    "pilastre",
+    "sculpture",
+    "souche de cheminée",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -30,6 +46,22 @@
       "IndexJantzen": [
         "fronton",
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "lucarne",
+        "mansarde",
+        "ardoise",
+        "fronton",
+        "mascaron",
+        "corniche",
+        "souche de cheminée",
+        "fenêtre",
+        "pilastre",
+        "sculpture",
+        "pierre de taille",
+        "chambranle",
+        "arc en anse de panier",
+        "épi de faîtage"
       ],
       "dateCapture": "2006:04:03"
     }

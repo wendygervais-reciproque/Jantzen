@@ -21,10 +21,29 @@
   "WPfr": null,
   "image_ref": "Alboni_Sq-9_16_§1",
   "terme_jantzen_bat": [
-    "porte-fer",
+    "mosaique",
     "fenetre",
     "décor",
-    "mosaique"
+    "porte-fer"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "colonne",
+    "céramique",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "oriel",
+    "pilastre",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "toit à deux versants",
+    "volet"
   ],
   "photos": [
     {
@@ -34,6 +53,25 @@
         "fenetre",
         "mosaique"
       ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "lucarne",
+        "mansarde",
+        "volet",
+        "colonne",
+        "pilastre",
+        "oriel",
+        "souche de cheminée",
+        "bandeau",
+        "toit à deux versants",
+        "ardoise",
+        "céramique",
+        "fer forgé",
+        "porte-fenêtre"
+      ],
       "dateCapture": "2005:06:07"
     },
     {
@@ -41,6 +79,7 @@
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:07"
     },
     {
@@ -48,6 +87,7 @@
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:07"
     },
     {
@@ -55,6 +95,7 @@
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:07"
     }
   ]

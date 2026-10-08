@@ -28,23 +28,71 @@
   "WPfr": null,
   "image_ref": "Froidevaux-5_14_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "façade",
-    "console",
-    "lucarne",
-    "garde-corps",
-    "mosaique",
-    "porte-fer-hall",
-    "brique",
     "verrière",
-    "décor",
-    "balcon"
+    "mosaique",
+    "balcon",
+    "console",
+    "fenetre",
+    "lucarne",
+    "façade",
+    "brique",
+    "porte-fer-hall",
+    "garde-corps",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc brisé",
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chéneau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "toit à deux versants",
+    "volet",
+    "épi de faîtage"
   ],
   "photos": [
     {
       "id_pic": "Froidevaux-5_14_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "lucarne",
+        "mansarde",
+        "souche de cheminée",
+        "arc en plein cintre",
+        "arc brisé",
+        "corniche",
+        "bandeau",
+        "pilastre",
+        "pierre de taille",
+        "ardoise",
+        "toit à deux versants",
+        "oculus",
+        "mascaron",
+        "fer forgé",
+        "volet",
+        "porte-fenêtre",
+        "chéneau",
+        "épi de faîtage"
       ],
       "dateCapture": "2011:06:26"
     },
@@ -55,6 +103,7 @@
         "mosaique",
         "verrière"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:06:26"
     },
     {
@@ -66,6 +115,7 @@
         "mosaique",
         "verrière"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:06:26"
     },
     {
@@ -76,6 +126,7 @@
         "fenetre",
         "mosaique"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:18"
     },
     {
@@ -87,6 +138,7 @@
         "mosaique",
         "verrière"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:18"
     },
     {
@@ -96,6 +148,7 @@
         "console",
         "mosaique"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:06:26"
     },
     {
@@ -105,6 +158,7 @@
         "console",
         "mosaique"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:18"
     },
     {
@@ -116,6 +170,7 @@
         "mosaique",
         "verrière"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:24"
     },
     {
@@ -126,6 +181,7 @@
         "fenetre",
         "mosaique"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:24"
     },
     {
@@ -133,6 +189,7 @@
       "IndexJantzen": [
         "mosaique"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:06:26"
     },
     {
@@ -140,6 +197,7 @@
       "IndexJantzen": [
         "mosaique"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:06:26"
     },
     {
@@ -149,6 +207,7 @@
         "fenetre",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:06:26"
     },
     {
@@ -157,6 +216,7 @@
         "fenetre",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:28"
     },
     {
@@ -165,6 +225,7 @@
         "console",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:28"
     },
     {
@@ -172,6 +233,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:06:26"
     },
     {
@@ -180,6 +242,7 @@
         "garde-corps",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:06:26"
     },
     {
@@ -187,6 +250,7 @@
       "IndexJantzen": [
         "porte-fer-hall"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:29"
     },
     {
@@ -194,6 +258,7 @@
       "IndexJantzen": [
         "porte-fer-hall"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:29"
     },
     {
@@ -203,6 +268,7 @@
         "façade",
         "mosaique"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:06:26"
     }
   ]

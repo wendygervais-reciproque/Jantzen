@@ -21,8 +21,20 @@
   "WPfr": null,
   "image_ref": "St-Antoine-31_4_§2",
   "terme_jantzen_bat": [
-    "lucarne",
-    "fronton"
+    "fronton",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "bandeau",
+    "chéneau",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "mansarde",
+    "souche de cheminée",
+    "volet"
   ],
   "photos": [
     {
@@ -30,6 +42,18 @@
       "IndexJantzen": [
         "fronton",
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "souche de cheminée",
+        "fenêtre",
+        "mansarde",
+        "balcon",
+        "garde-corps",
+        "ardoise",
+        "volet",
+        "chéneau",
+        "bandeau",
+        "fronton"
       ],
       "dateCapture": "2008:05:16"
     }

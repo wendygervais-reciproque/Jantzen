@@ -24,12 +24,36 @@
     "fenetre",
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "arc",
+    "balcon",
+    "chaîne d'angle",
+    "fer forgé",
+    "garde-corps",
+    "modillon",
+    "pierre de taille",
+    "porte",
+    "porte-fenêtre",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Soult-bd-17_12_§1",
       "IndexJantzen": [
         "fenetre",
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "porte-fenêtre",
+        "vantail",
+        "arc",
+        "garde-corps",
+        "balcon",
+        "fer forgé",
+        "modillon",
+        "chaîne d'angle",
+        "pierre de taille"
       ],
       "dateCapture": "2004:07:27"
     }

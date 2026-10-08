@@ -28,23 +28,73 @@
   "WPfr": null,
   "image_ref": "Richelieu-8_1_§1_1-Rx",
   "terme_jantzen_bat": [
-    "lucarne",
-    "pignon",
+    "loggia",
+    "balcon",
     "façade-d'angle",
-    "porte",
+    "pignon",
     "sculpture",
     "fenetre-d'angle",
-    "loggia",
+    "lucarne",
+    "porte",
     "lucarne-d'angle",
-    "décor",
+    "colonne",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc brisé",
+    "arc en plein cintre",
+    "auvent",
     "balcon",
-    "colonne"
+    "balustrade",
+    "brique",
+    "colonne",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "toit en pavillon",
+    "travée",
+    "vitrail",
+    "épi de faîtage"
   ],
   "photos": [
     {
       "id_pic": "Richelieu-8_1_§1_1-Rx",
       "IndexJantzen": [
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "porte-fenêtre",
+        "lucarne",
+        "souche de cheminée",
+        "oculus",
+        "pierre de taille",
+        "brique",
+        "fer forgé",
+        "garde-corps",
+        "corniche",
+        "arc en plein cintre",
+        "arc brisé",
+        "colonne",
+        "pilastre",
+        "travée",
+        "auvent",
+        "porte",
+        "vitrail",
+        "épi de faîtage",
+        "toit en pavillon",
+        "mansarde"
       ],
       "dateCapture": "2014:02:18"
     },
@@ -53,6 +103,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:07"
     },
     {
@@ -60,6 +111,7 @@
       "IndexJantzen": [
         "lucarne-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2013:02:18"
     },
     {
@@ -67,6 +119,7 @@
       "IndexJantzen": [
         "lucarne-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:07"
     },
     {
@@ -75,6 +128,7 @@
         "façade-d'angle",
         "porte"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:01"
     },
     {
@@ -82,6 +136,7 @@
       "IndexJantzen": [
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:04:18"
     },
     {
@@ -89,6 +144,7 @@
       "IndexJantzen": [
         "façade-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:07"
     },
     {
@@ -96,6 +152,7 @@
       "IndexJantzen": [
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:01"
     },
     {
@@ -106,6 +163,7 @@
         "pignon",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:04:18"
     },
     {
@@ -114,6 +172,7 @@
         "lucarne-d'angle",
         "pignon"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:07"
     },
     {
@@ -123,6 +182,7 @@
         "loggia",
         "lucarne-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:07"
     },
     {
@@ -131,6 +191,7 @@
         "balcon",
         "lucarne-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:04:18"
     }
   ]

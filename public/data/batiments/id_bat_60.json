@@ -30,11 +30,29 @@
   "terme_jantzen_bat": [
     "porte-fer"
   ],
+  "terme_torneh_bat": [
+    "auvent",
+    "balcon",
+    "escalier",
+    "fenêtre",
+    "fer forgé",
+    "grille",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Abbesses-Pl_18_A",
       "IndexJantzen": [
         "porte-fer"
+      ],
+      "IndexTorneh": [
+        "fer forgé",
+        "grille",
+        "escalier",
+        "auvent",
+        "fenêtre",
+        "volet",
+        "balcon"
       ],
       "dateCapture": "2006:06:09"
     }

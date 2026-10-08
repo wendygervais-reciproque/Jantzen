@@ -29,13 +29,32 @@
   "WPfr": null,
   "image_ref": "St-Louis-en-L'ile-51_4_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "console",
-    "garde-corps",
+    "balcon",
     "sculpture",
     "clé",
-    "porte-bois",
-    "balcon"
+    "console",
+    "fenetre",
+    "garde-corps",
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "mansarde",
+    "mascaron",
+    "pierre de taille",
+    "pilastre",
+    "portail",
+    "porte",
+    "sculpture"
   ],
   "photos": [
     {
@@ -44,6 +63,25 @@
         "balcon",
         "garde-corps"
       ],
+      "IndexTorneh": [
+        "arc",
+        "arc en plein cintre",
+        "balcon",
+        "balustrade",
+        "bandeau",
+        "fenêtre",
+        "fer forgé",
+        "fronton",
+        "garde-corps",
+        "mascaron",
+        "mansarde",
+        "pierre de taille",
+        "sculpture",
+        "portail",
+        "porte",
+        "chambranle",
+        "pilastre"
+      ],
       "dateCapture": "2004:07:07"
     },
     {
@@ -51,6 +89,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:08:03"
     },
     {
@@ -62,6 +101,7 @@
         "garde-corps",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:08:03"
     },
     {
@@ -70,6 +110,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:07"
     }
   ]

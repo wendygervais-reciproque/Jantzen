@@ -23,11 +23,35 @@
   "terme_jantzen_bat": [
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "chambranle",
+    "corniche",
+    "jambage",
+    "linteau",
+    "modillon",
+    "pierre de taille",
+    "porte",
+    "vantail",
+    "vitrail",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Trevisse-Cite-8_9_§1",
       "IndexJantzen": [
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "vantail",
+        "chambranle",
+        "jambage",
+        "linteau",
+        "corniche",
+        "modillon",
+        "pierre de taille",
+        "volet",
+        "vitrail"
       ],
       "dateCapture": "2004:06:17"
     }

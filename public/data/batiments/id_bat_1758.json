@@ -28,15 +28,41 @@
   "WPfr": null,
   "image_ref": "Raynouard-23_16_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "façade",
-    "oriel"
+    "oriel",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "baie",
+    "balcon",
+    "fenêtre",
+    "garde-corps",
+    "oriel",
+    "pierre de taille",
+    "porte",
+    "toit-terrasse",
+    "travée",
+    "verrière",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Raynouard-23_16_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "baie",
+        "oriel",
+        "balcon",
+        "travée",
+        "verrière",
+        "porte",
+        "volet",
+        "pierre de taille",
+        "toit-terrasse",
+        "garde-corps"
       ],
       "dateCapture": "2005:04:03"
     },
@@ -46,6 +72,7 @@
         "fenetre",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:03"
     }
   ]

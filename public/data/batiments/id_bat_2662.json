@@ -28,20 +28,70 @@
   "WPfr": null,
   "image_ref": "Grande-Armee-44_17_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "façade",
-    "console",
+    "balcon",
     "sculpture",
     "cariatide",
-    "décor",
+    "fenetre",
+    "console",
+    "façade",
+    "colonne",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "avant-corps",
     "balcon",
-    "colonne"
+    "balustrade",
+    "bandeau",
+    "bossage",
+    "cariatide",
+    "chapiteau",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "oriel",
+    "pierre de taille",
+    "pilastre",
+    "sculpture",
+    "souche de cheminée",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Grande-Armee-44_17_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fronton",
+        "corniche",
+        "bandeau",
+        "pilastre",
+        "chapiteau",
+        "arc en plein cintre",
+        "oriel",
+        "sculpture",
+        "mascaron",
+        "cariatide",
+        "volet",
+        "lucarne",
+        "mansarde",
+        "souche de cheminée",
+        "pierre de taille",
+        "oculus",
+        "travée",
+        "avant-corps",
+        "bossage"
       ],
       "dateCapture": "2004:03:17"
     },
@@ -52,6 +102,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:06:01"
     },
     {
@@ -60,6 +111,7 @@
         "balcon",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:06:01"
     },
     {
@@ -69,6 +121,7 @@
         "colonne",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:06:01"
     },
     {
@@ -78,6 +131,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:06:01"
     },
     {
@@ -86,6 +140,7 @@
         "cariatide",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:06:01"
     },
     {
@@ -95,6 +150,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:03:17"
     }
   ]

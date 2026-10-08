@@ -32,12 +32,32 @@
   "WPfr": null,
   "image_ref": "Gambetta-117_20_§1",
   "terme_jantzen_bat": [
-    "console",
+    "balcon",
+    "tour",
     "sculpture",
     "fenetre-d'angle",
-    "tour",
-    "balcon",
+    "console",
     "colonne"
+  ],
+  "terme_torneh_bat": [
+    "atlante",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "cariatide",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mascaron",
+    "oriel",
+    "pierre de taille",
+    "pilastre",
+    "sculpture",
+    "toit à deux versants",
+    "tour",
+    "volet"
   ],
   "photos": [
     {
@@ -46,6 +66,26 @@
         "balcon",
         "fenetre-d'angle",
         "tour"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "balustrade",
+        "mascaron",
+        "atlante",
+        "cariatide",
+        "pilastre",
+        "corniche",
+        "bandeau",
+        "tour",
+        "oriel",
+        "lucarne",
+        "volet",
+        "pierre de taille",
+        "sculpture",
+        "fer forgé",
+        "toit à deux versants"
       ],
       "dateCapture": "2005:09:04"
     },
@@ -56,6 +96,7 @@
         "fenetre-d'angle",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:09:04"
     },
     {
@@ -64,6 +105,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:18"
     },
     {
@@ -72,6 +114,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:09:04"
     }
   ]

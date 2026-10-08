@@ -34,11 +34,39 @@
   "terme_jantzen_bat": [
     "porte-fer"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "chambranle",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Nation-Pl-11B_11_§1",
       "IndexJantzen": [
         "porte-fer"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "arc en plein cintre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "vantail",
+        "fenêtre",
+        "pierre de taille",
+        "sculpture",
+        "chambranle",
+        "mascaron"
       ],
       "dateCapture": "2006:10:16"
     }

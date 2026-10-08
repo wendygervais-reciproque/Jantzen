@@ -23,11 +23,39 @@
   "terme_jantzen_bat": [
     "fenetre"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "bandeau",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "pierre de taille",
+    "porte-fenêtre",
+    "travée",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Nantes-47_19_§1",
       "IndexJantzen": [
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "corniche",
+        "bandeau",
+        "chambranle",
+        "fronton",
+        "volet",
+        "travée",
+        "porte-fenêtre",
+        "pierre de taille"
       ],
       "dateCapture": null
     }

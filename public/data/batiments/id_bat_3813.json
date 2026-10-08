@@ -30,11 +30,23 @@
   "terme_jantzen_bat": [
     "porte-fer"
   ],
+  "terme_torneh_bat": [
+    "fer",
+    "huisserie",
+    "porte",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Dr-Blanche-9_16_§1",
       "IndexJantzen": [
         "porte-fer"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "huisserie",
+        "vantail",
+        "fer"
       ],
       "dateCapture": "2009:03:31"
     },
@@ -43,6 +55,7 @@
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:21"
     }
   ]

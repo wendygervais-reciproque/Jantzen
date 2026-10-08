@@ -24,11 +24,45 @@
     "fenetre",
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "pierre de taille",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "toit à deux versants",
+    "tour",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Montaigne-34_8_§1",
       "IndexJantzen": [
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "garde-corps",
+        "lucarne",
+        "mansarde",
+        "souche de cheminée",
+        "tour",
+        "toit à deux versants",
+        "pierre de taille",
+        "volet",
+        "ardoise",
+        "porte-fenêtre",
+        "bandeau",
+        "fer forgé"
       ],
       "dateCapture": "2006:04:07"
     },
@@ -37,6 +71,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:07"
     }
   ]

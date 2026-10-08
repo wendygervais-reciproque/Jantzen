@@ -28,9 +28,23 @@
   "WPfr": null,
   "image_ref": "Argonne-8b_19_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "brique",
+    "fenetre",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "corniche",
+    "céramique",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "souche de cheminée",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -38,6 +52,20 @@
       "IndexJantzen": [
         "brique",
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "brique",
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "volet",
+        "travée",
+        "céramique",
+        "corniche",
+        "souche de cheminée",
+        "bandeau",
+        "fer forgé"
       ],
       "dateCapture": "2005:09:07"
     },
@@ -48,6 +76,7 @@
         "décor",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:09:07"
     }
   ]

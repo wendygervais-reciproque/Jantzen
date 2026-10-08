@@ -23,20 +23,52 @@
   "WPfr": null,
   "image_ref": "St-Ferdinand-10_17_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "façade",
-    "garde-corps",
-    "lucarne",
+    "balcon",
     "sculpture",
     "clé",
-    "décor",
-    "balcon"
+    "fenetre",
+    "lucarne",
+    "façade",
+    "garde-corps",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "pierre de taille",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "St-Ferdinand-10_17_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "corniche",
+        "lucarne",
+        "mansarde",
+        "souche de cheminée",
+        "volet",
+        "pierre de taille",
+        "balustrade",
+        "travée",
+        "chambranle",
+        "fronton",
+        "porte-fenêtre"
       ],
       "dateCapture": "2013:07:08"
     },
@@ -46,6 +78,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2013:07:06"
     },
     {
@@ -55,6 +88,7 @@
         "clé",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:08"
     },
     {
@@ -62,6 +96,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:08:15"
     },
     {
@@ -69,6 +104,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2013:07:08"
     },
     {
@@ -76,6 +112,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2013:07:08"
     },
     {
@@ -83,6 +120,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:06:05"
     },
     {
@@ -92,6 +130,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:06:05"
     },
     {
@@ -101,6 +140,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:25"
     },
     {
@@ -110,6 +150,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:06:05"
     },
     {
@@ -117,6 +158,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:06:05"
     },
     {
@@ -125,6 +167,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2013:07:06"
     }
   ]

@@ -28,8 +28,29 @@
   "WPfr": null,
   "image_ref": "Tocqueville-60_17_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "oriel"
+    "oriel",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc brisé",
+    "arc en plein cintre",
+    "auvent",
+    "baie",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "oriel",
+    "pierre de taille",
+    "porte-fenêtre",
+    "sculpture",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -37,6 +58,27 @@
       "IndexJantzen": [
         "fenetre",
         "oriel"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "bandeau",
+        "baie",
+        "fenêtre",
+        "fer forgé",
+        "garde-corps",
+        "oriel",
+        "volet",
+        "mascaron",
+        "corniche",
+        "pierre de taille",
+        "arc en plein cintre",
+        "arc brisé",
+        "porte-fenêtre",
+        "auvent",
+        "sculpture",
+        "travée",
+        "chambranle"
       ],
       "dateCapture": "2005:06:20"
     },
@@ -46,6 +88,7 @@
         "fenetre",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:20"
     }
   ]

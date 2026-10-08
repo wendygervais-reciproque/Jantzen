@@ -23,9 +23,27 @@
   "terme_jantzen_bat": [
     "fenetre",
     "brique",
+    "porte-fer-hall",
     "céramique",
-    "décor",
-    "porte-fer-hall"
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "corniche",
+    "céramique",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "oriel",
+    "pierre de taille",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -33,6 +51,24 @@
       "IndexJantzen": [
         "brique",
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "lucarne",
+        "mansarde",
+        "brique",
+        "pierre de taille",
+        "volet",
+        "corniche",
+        "bandeau",
+        "ardoise",
+        "fer forgé",
+        "oriel",
+        "travée",
+        "céramique"
       ],
       "dateCapture": "2004:09:15"
     },
@@ -43,6 +79,7 @@
         "décor",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:15"
     },
     {
@@ -51,6 +88,7 @@
         "céramique",
         "porte-fer-hall"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:16"
     }
   ]

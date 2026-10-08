@@ -24,12 +24,44 @@
     "toiture",
     "lucarne-d'angle"
   ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "pierre de taille",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "toit en pavillon",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Strasbourg-74_10_§1",
       "IndexJantzen": [
         "lucarne-d'angle",
         "toiture"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "toit en pavillon",
+        "mansarde",
+        "lucarne",
+        "pierre de taille",
+        "fer forgé",
+        "corniche",
+        "souche de cheminée",
+        "porte-fenêtre",
+        "volet",
+        "ardoise"
       ],
       "dateCapture": "2004:05:16"
     }

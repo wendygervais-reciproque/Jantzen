@@ -21,18 +21,64 @@
   "WPfr": null,
   "image_ref": "St-Martin-325_3_§1",
   "terme_jantzen_bat": [
+    "balcon",
+    "clé",
     "fenetre",
     "lucarne",
     "façade",
+    "garde-corps"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chéneau",
+    "colonne",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
     "garde-corps",
-    "clé",
-    "balcon"
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "vitrail"
   ],
   "photos": [
     {
       "id_pic": "St-Martin-325_3_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "arc en plein cintre",
+        "mascaron",
+        "sculpture",
+        "corniche",
+        "bandeau",
+        "pilastre",
+        "colonne",
+        "fer forgé",
+        "lucarne",
+        "mansarde",
+        "toit à deux versants",
+        "pierre de taille",
+        "vitrail",
+        "porte",
+        "travée",
+        "chéneau",
+        "souche de cheminée"
       ],
       "dateCapture": "2005:08:28"
     },
@@ -42,6 +88,7 @@
         "fenetre",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:28"
     },
     {
@@ -50,6 +97,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:28"
     },
     {
@@ -58,6 +106,7 @@
         "clé",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:05:14"
     },
     {
@@ -66,11 +115,13 @@
         "clé",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:28"
     },
     {
       "id_pic": "St-Martin-325_3_§15",
       "IndexJantzen": [],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:28"
     },
     {
@@ -79,6 +130,7 @@
         "façade",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:05:14"
     },
     {
@@ -86,6 +138,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:28"
     },
     {
@@ -94,6 +147,7 @@
         "clé",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:28"
     },
     {
@@ -102,6 +156,7 @@
         "clé",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:05:14"
     },
     {
@@ -110,6 +165,7 @@
         "fenetre",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:28"
     },
     {
@@ -119,6 +175,7 @@
         "fenetre",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:05:14"
     },
     {
@@ -127,6 +184,7 @@
         "fenetre",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:05:14"
     }
   ]

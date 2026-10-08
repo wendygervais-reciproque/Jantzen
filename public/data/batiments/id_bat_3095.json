@@ -24,12 +24,46 @@
     "marquise",
     "porte-fer"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "chambranle",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "grille",
+    "linteau",
+    "marquise",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "porte-fenêtre",
+    "sculpture",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Emile-Augier-6_16_§1",
       "IndexJantzen": [
         "marquise",
         "porte-fer"
+      ],
+      "IndexTorneh": [
+        "marquise",
+        "porte",
+        "porte-fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "grille",
+        "fer forgé",
+        "fenêtre",
+        "volet",
+        "linteau",
+        "chambranle",
+        "pierre de taille",
+        "sculpture",
+        "portail"
       ],
       "dateCapture": "2004:05:21"
     }

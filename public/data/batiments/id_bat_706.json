@@ -36,10 +36,29 @@
   "WPfr": null,
   "image_ref": "Bac-120_7_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "sculpture",
     "clé",
+    "fenetre",
     "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "chambranle",
+    "fenêtre",
+    "fronton",
+    "grille",
+    "gros appareil",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "sculpture",
+    "vantail",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -47,6 +66,25 @@
       "IndexJantzen": [
         "fenetre",
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "portail",
+        "porte",
+        "vantail",
+        "sculpture",
+        "mascaron",
+        "fronton",
+        "grille",
+        "fenêtre",
+        "gros appareil",
+        "pierre de taille",
+        "arc en plein cintre",
+        "mansarde",
+        "lucarne",
+        "chambranle",
+        "ardoise",
+        "épi de faîtage",
+        "balcon"
       ],
       "dateCapture": "2005:04:17"
     },
@@ -56,6 +94,7 @@
         "fenetre",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:17"
     },
     {
@@ -64,6 +103,7 @@
         "clé",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:17"
     },
     {
@@ -72,6 +112,7 @@
         "clé",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:17"
     },
     {
@@ -80,6 +121,7 @@
         "porte-bois",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:17"
     },
     {
@@ -88,6 +130,7 @@
         "porte-bois",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:17"
     }
   ]

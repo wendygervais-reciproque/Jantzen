@@ -32,8 +32,23 @@
   "WPfr": null,
   "image_ref": "St-Vincent-11_18_§1",
   "terme_jantzen_bat": [
-    "porte-fer",
-    "fenetre"
+    "fenetre",
+    "porte-fer"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "porte",
+    "porte-fenêtre",
+    "sculpture",
+    "vantail",
+    "volet"
   ],
   "photos": [
     {
@@ -41,6 +56,21 @@
       "IndexJantzen": [
         "fenetre",
         "porte-fer"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "porte",
+        "vantail",
+        "fer forgé",
+        "brique",
+        "volet",
+        "balustrade",
+        "corniche",
+        "bandeau",
+        "sculpture",
+        "porte-fenêtre"
       ],
       "dateCapture": "2004:06:14"
     }

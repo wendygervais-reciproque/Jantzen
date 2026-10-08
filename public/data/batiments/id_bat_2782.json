@@ -30,11 +30,39 @@
   "terme_jantzen_bat": [
     "porte-fer-hall"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "chambranle",
+    "fer forgé",
+    "garde-corps",
+    "grille",
+    "jambage",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "porte-fenêtre",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Copernic-49_16_§1",
       "IndexJantzen": [
         "porte-fer-hall"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "porte-fenêtre",
+        "vantail",
+        "fer forgé",
+        "grille",
+        "balcon",
+        "garde-corps",
+        "sculpture",
+        "mascaron",
+        "chambranle",
+        "pierre de taille",
+        "jambage"
       ],
       "dateCapture": "2005:04:30"
     }

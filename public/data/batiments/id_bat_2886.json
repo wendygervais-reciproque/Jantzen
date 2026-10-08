@@ -21,11 +21,31 @@
   "WPfr": null,
   "image_ref": "Mizon-5_15_§1",
   "terme_jantzen_bat": [
-    "sculpture",
+    "balcon",
     "oriel",
+    "sculpture",
     "fenetre-d'angle",
-    "décor",
-    "balcon"
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "avant-corps",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chéneau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "oriel",
+    "pierre de taille",
+    "pilastre",
+    "souche de cheminée",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -33,6 +53,26 @@
       "IndexJantzen": [
         "fenetre-d'angle",
         "oriel"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "lucarne",
+        "mansarde",
+        "oriel",
+        "pilastre",
+        "corniche",
+        "bandeau",
+        "souche de cheminée",
+        "ardoise",
+        "pierre de taille",
+        "volet",
+        "travée",
+        "avant-corps",
+        "chéneau"
       ],
       "dateCapture": "2004:05:23"
     },
@@ -45,6 +85,7 @@
         "oriel",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:05:23"
     }
   ]

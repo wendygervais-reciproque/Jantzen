@@ -23,11 +23,33 @@
   "terme_jantzen_bat": [
     "porte-fer"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "grille",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Rapp-19_7_§2",
       "IndexJantzen": [
         "porte-fer"
+      ],
+      "IndexTorneh": [
+        "portail",
+        "porte",
+        "fer forgé",
+        "grille",
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "pierre de taille",
+        "vantail"
       ],
       "dateCapture": "2004:05:24"
     }

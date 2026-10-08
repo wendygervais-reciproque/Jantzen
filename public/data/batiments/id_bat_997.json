@@ -21,9 +21,21 @@
   "WPfr": null,
   "image_ref": "Madeleine-Bd-15_1_§1",
   "terme_jantzen_bat": [
+    "console",
     "sculpture",
+    "cariatide"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
     "cariatide",
-    "console"
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "modillon",
+    "pierre de taille",
+    "sculpture"
   ],
   "photos": [
     {
@@ -32,6 +44,18 @@
         "cariatide",
         "console",
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "cariatide",
+        "sculpture",
+        "corniche",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "pierre de taille",
+        "fenêtre",
+        "modillon"
       ],
       "dateCapture": "2004:04:25"
     }

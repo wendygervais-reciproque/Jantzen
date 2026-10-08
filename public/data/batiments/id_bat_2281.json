@@ -26,13 +26,33 @@
   "WPfr": null,
   "image_ref": "Tocqueville-34_17_§1",
   "terme_jantzen_bat": [
+    "loggia",
+    "oriel",
     "fenetre",
     "façade",
+    "colonne",
     "porte-bois",
-    "oriel",
-    "loggia",
-    "décor",
-    "colonne"
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "brique",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "frise",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mascaron",
+    "pierre de taille",
+    "porte-fenêtre",
+    "sculpture",
+    "souche de cheminée",
+    "volet"
   ],
   "photos": [
     {
@@ -40,6 +60,26 @@
       "IndexJantzen": [
         "fenetre",
         "oriel"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "porte-fenêtre",
+        "balustrade",
+        "arc en plein cintre",
+        "fer forgé",
+        "pierre de taille",
+        "corniche",
+        "lucarne",
+        "ardoise",
+        "brique",
+        "volet",
+        "frise",
+        "sculpture",
+        "mascaron",
+        "fronton",
+        "souche de cheminée"
       ],
       "dateCapture": "2004:07:02"
     },
@@ -49,6 +89,7 @@
         "fenetre",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:02"
     },
     {
@@ -57,6 +98,7 @@
         "façade",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:02"
     },
     {
@@ -65,6 +107,7 @@
         "colonne",
         "loggia"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:02"
     },
     {
@@ -73,6 +116,7 @@
         "fenetre",
         "loggia"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:02"
     },
     {
@@ -81,6 +125,7 @@
         "fenetre",
         "loggia"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:02"
     },
     {
@@ -89,6 +134,7 @@
         "décor",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:02"
     }
   ]

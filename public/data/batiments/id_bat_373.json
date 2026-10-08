@@ -23,11 +23,37 @@
   "terme_jantzen_bat": [
     "porte-fer-hall"
   ],
+  "terme_torneh_bat": [
+    "arc",
+    "balcon",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "pierre de taille",
+    "porche",
+    "porte",
+    "sculpture",
+    "vantail",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Damremont-101_18_§1",
       "IndexJantzen": [
         "porte-fer-hall"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "porche",
+        "arc",
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "vantail",
+        "volet",
+        "fenêtre",
+        "sculpture",
+        "pierre de taille"
       ],
       "dateCapture": "2004:06:14"
     }

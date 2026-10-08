@@ -24,12 +24,34 @@
     "porte-fer-hall",
     "colonne"
   ],
+  "terme_torneh_bat": [
+    "arc",
+    "chapiteau",
+    "colonne",
+    "fer forgé",
+    "linteau",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Montcalm-3_18_§1",
       "IndexJantzen": [
         "colonne",
         "porte-fer-hall"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "vantail",
+        "fer forgé",
+        "colonne",
+        "chapiteau",
+        "sculpture",
+        "pierre de taille",
+        "arc",
+        "linteau"
       ],
       "dateCapture": "2005:05:19"
     }

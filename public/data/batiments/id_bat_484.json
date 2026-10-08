@@ -21,16 +21,46 @@
   "WPfr": null,
   "image_ref": "Galilee-11_16_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "sculpture",
     "garde-corps",
+    "fenetre",
     "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mascaron",
+    "pierre de taille",
+    "travée"
   ],
   "photos": [
     {
       "id_pic": "Galilee-11_16_§1",
       "IndexJantzen": [
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "corniche",
+        "bandeau",
+        "mascaron",
+        "arc en plein cintre",
+        "pierre de taille",
+        "lucarne",
+        "travée",
+        "ardoise",
+        "fer forgé"
       ],
       "dateCapture": "2004:10:22"
     },
@@ -40,6 +70,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:10:22"
     },
     {
@@ -48,6 +79,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:10:22"
     },
     {
@@ -56,6 +88,7 @@
         "fenetre",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:10:22"
     }
   ]

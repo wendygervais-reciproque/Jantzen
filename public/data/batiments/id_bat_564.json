@@ -29,11 +29,23 @@
   "image_ref": "Reaumur-116_2_§1",
   "terme_jantzen_bat": [
     "porte-fer",
-    "fenetre",
-    "console",
     "sculpture",
+    "console",
+    "fenetre",
+    "fronton",
+    "atlante"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
     "atlante",
-    "fronton"
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "vantail"
   ],
   "photos": [
     {
@@ -41,6 +53,18 @@
       "IndexJantzen": [
         "fenetre",
         "porte-fer"
+      ],
+      "IndexTorneh": [
+        "atlante",
+        "arc en plein cintre",
+        "fronton",
+        "mascaron",
+        "sculpture",
+        "porte",
+        "fer forgé",
+        "fenêtre",
+        "pierre de taille",
+        "vantail"
       ],
       "dateCapture": "2004:04:25"
     },
@@ -51,6 +75,7 @@
         "porte-fer",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:05:07"
     },
     {
@@ -59,6 +84,7 @@
         "fronton",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:05:07"
     },
     {
@@ -68,6 +94,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:28"
     },
     {
@@ -76,6 +103,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:28"
     }
   ]

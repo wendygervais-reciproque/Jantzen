@@ -23,11 +23,25 @@
   "terme_jantzen_bat": [
     "porte-fer"
   ],
+  "terme_torneh_bat": [
+    "fer",
+    "grille",
+    "pierre de taille",
+    "porte",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Bernardins-52_5_§1",
       "IndexJantzen": [
         "porte-fer"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "pierre de taille",
+        "vantail",
+        "fer",
+        "grille"
       ],
       "dateCapture": "2003:08:07"
     }

@@ -28,15 +28,59 @@
   "WPfr": null,
   "image_ref": "Alphonse-de-Neuville-17_17_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "façade",
-    "porte-fer-hall"
+    "porte-fer-hall",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "linteau",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "portail",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Alphonse-de-Neuville-17_17_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "porte-fenêtre",
+        "arc en plein cintre",
+        "linteau",
+        "corniche",
+        "bandeau",
+        "mascaron",
+        "lucarne",
+        "mansarde",
+        "souche de cheminée",
+        "pierre de taille",
+        "volet",
+        "portail",
+        "travée",
+        "oculus",
+        "ardoise"
       ],
       "dateCapture": "2004:07:05"
     },
@@ -45,6 +89,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:05"
     },
     {
@@ -52,6 +97,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:05"
     },
     {
@@ -60,6 +106,7 @@
         "fenetre",
         "porte-fer-hall"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:06"
     },
     {
@@ -67,6 +114,7 @@
       "IndexJantzen": [
         "porte-fer-hall"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:06"
     }
   ]

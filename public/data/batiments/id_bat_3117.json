@@ -36,9 +36,25 @@
   "WPfr": null,
   "image_ref": "Ours-6_3_§1",
   "terme_jantzen_bat": [
-    "porte-fer",
     "fenetre",
+    "porte-fer",
     "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "avant-corps",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "oriel",
+    "pierre de taille",
+    "souche de cheminée",
+    "volet"
   ],
   "photos": [
     {
@@ -47,6 +63,22 @@
         "fenetre",
         "lucarne"
       ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "lucarne",
+        "volet",
+        "souche de cheminée",
+        "mansarde",
+        "pierre de taille",
+        "bandeau",
+        "ardoise",
+        "oriel",
+        "corniche",
+        "avant-corps"
+      ],
       "dateCapture": "2004:09:01"
     },
     {
@@ -54,6 +86,7 @@
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:02"
     }
   ]

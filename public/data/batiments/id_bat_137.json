@@ -28,15 +28,28 @@
   "WPfr": "La Samaritaine",
   "image_ref": "Louvre-Qu-Samaritaine_1_§2",
   "terme_jantzen_bat": [
-    "fenetre",
-    "lucarne",
-    "façade",
+    "verrière",
+    "balcon",
     "façade-d'angle",
     "sculpture",
     "fenetre-d'angle",
-    "verrière",
-    "décor",
-    "balcon"
+    "fenetre",
+    "lucarne",
+    "façade",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "attique",
+    "auvent",
+    "baie",
+    "balcon",
+    "bandeau",
+    "fenêtre",
+    "garde-corps",
+    "pierre de taille",
+    "pilastre",
+    "tour",
+    "travée"
   ],
   "photos": [
     {
@@ -44,6 +57,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:13"
     },
     {
@@ -53,6 +67,7 @@
         "fenetre-d'angle",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:15"
     },
     {
@@ -62,6 +77,7 @@
         "fenetre-d'angle",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:15"
     },
     {
@@ -69,6 +85,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:15"
     },
     {
@@ -76,12 +93,26 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:15"
     },
     {
       "id_pic": "Louvre-Qu-Samaritaine_1_§2",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "baie",
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "bandeau",
+        "attique",
+        "pilastre",
+        "tour",
+        "travée",
+        "pierre de taille",
+        "auvent"
       ],
       "dateCapture": "2006:04:21"
     },
@@ -92,6 +123,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:21"
     },
     {
@@ -101,6 +133,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:21"
     },
     {
@@ -111,6 +144,7 @@
         "sculpture",
         "verrière"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:08:30"
     },
     {
@@ -118,6 +152,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:08:30"
     },
     {
@@ -125,6 +160,7 @@
       "IndexJantzen": [
         "façade-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:12"
     },
     {
@@ -133,6 +169,7 @@
         "façade-d'angle",
         "verrière"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:08:30"
     },
     {
@@ -141,6 +178,7 @@
         "balcon",
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:08:30"
     }
   ]

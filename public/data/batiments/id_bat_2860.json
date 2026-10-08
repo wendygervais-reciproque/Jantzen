@@ -21,10 +21,29 @@
   "WPfr": null,
   "image_ref": "Dome-5_16_§1-Rs",
   "terme_jantzen_bat": [
-    "porte-fer",
     "façade",
+    "marquise",
     "colonne",
-    "marquise"
+    "porte-fer"
+  ],
+  "terme_torneh_bat": [
+    "attique",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "frise",
+    "garde-corps",
+    "grille",
+    "marquise",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "sculpture",
+    "vantail"
   ],
   "photos": [
     {
@@ -32,6 +51,25 @@
       "IndexJantzen": [
         "façade",
         "porte-fer"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "marquise",
+        "oculus",
+        "sculpture",
+        "corniche",
+        "pilastre",
+        "pierre de taille",
+        "porte",
+        "vantail",
+        "fer forgé",
+        "attique",
+        "balustrade",
+        "grille",
+        "bandeau",
+        "frise"
       ],
       "dateCapture": "2010:01:22"
     },
@@ -42,6 +80,7 @@
         "marquise",
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:01:22"
     }
   ]

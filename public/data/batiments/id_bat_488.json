@@ -21,8 +21,22 @@
   "WPfr": null,
   "image_ref": "Jacob-11_6_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "garde-corps"
+    "garde-corps",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "grille",
+    "mascaron",
+    "pierre de taille"
   ],
   "photos": [
     {
@@ -30,6 +44,20 @@
       "IndexJantzen": [
         "fenetre",
         "garde-corps"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "arc",
+        "arc en plein cintre",
+        "mascaron",
+        "chaîne d'angle",
+        "pierre de taille",
+        "corniche",
+        "grille"
       ],
       "dateCapture": "2005:04:19"
     }

@@ -23,11 +23,31 @@
   "terme_jantzen_bat": [
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "chapiteau",
+    "corniche",
+    "fer forgé",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Grenelle-69_7_§1",
       "IndexJantzen": [
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "vantail",
+        "pilastre",
+        "sculpture",
+        "corniche",
+        "chapiteau",
+        "pierre de taille",
+        "fer forgé"
       ],
       "dateCapture": "2005:04:17"
     }

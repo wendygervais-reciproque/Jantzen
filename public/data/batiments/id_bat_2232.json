@@ -33,18 +33,60 @@
   "image_ref": "Vergniaud-32_13_§1",
   "terme_jantzen_bat": [
     "toiture",
-    "lucarne",
-    "pignon",
-    "console",
     "façade-d'angle",
+    "pignon",
     "sculpture",
-    "fenetre-d'angle"
+    "fenetre-d'angle",
+    "console",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mascaron",
+    "mur-boutant",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "toit en pavillon",
+    "travée",
+    "volet",
+    "épi de faîtage"
   ],
   "photos": [
     {
       "id_pic": "Vergniaud-32_13_§1",
       "IndexJantzen": [
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "bandeau",
+        "corniche",
+        "souche de cheminée",
+        "mascaron",
+        "oculus",
+        "lucarne",
+        "toit en pavillon",
+        "pierre de taille",
+        "fer forgé",
+        "volet",
+        "porte-fenêtre",
+        "pilastre",
+        "épi de faîtage",
+        "mur-boutant",
+        "travée"
       ],
       "dateCapture": "2005:09:21"
     },
@@ -54,6 +96,7 @@
         "fenetre-d'angle",
         "pignon"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:09:21"
     },
     {
@@ -63,6 +106,7 @@
         "pignon",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:09:21"
     },
     {
@@ -71,6 +115,7 @@
         "lucarne",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:09:21"
     },
     {
@@ -79,6 +124,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:09:21"
     }
   ]

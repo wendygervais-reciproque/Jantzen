@@ -23,17 +23,59 @@
   "WPfr": null,
   "image_ref": "Buci-12_6_§1",
   "terme_jantzen_bat": [
+    "sculpture",
+    "clé",
     "fenetre",
     "façade",
+    "garde-corps"
+  ],
+  "terme_torneh_bat": [
+    "arc brisé",
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
     "garde-corps",
-    "sculpture",
-    "clé"
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "toit à deux versants",
+    "travée",
+    "vitrail",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Buci-12_6_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "lucarne",
+        "mansarde",
+        "arc en plein cintre",
+        "arc brisé",
+        "mascaron",
+        "balustrade",
+        "bandeau",
+        "pierre de taille",
+        "toit à deux versants",
+        "ardoise",
+        "corniche",
+        "travée",
+        "volet",
+        "fer forgé",
+        "porte",
+        "vitrail"
       ],
       "dateCapture": "2010:05:23"
     },
@@ -42,6 +84,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:05:23"
     },
     {
@@ -49,6 +92,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:19"
     },
     {
@@ -56,6 +100,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:19"
     },
     {
@@ -63,6 +108,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:19"
     },
     {
@@ -73,6 +119,7 @@
         "garde-corps",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:05:11"
     },
     {
@@ -81,6 +128,7 @@
         "clé",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:05:11"
     }
   ]

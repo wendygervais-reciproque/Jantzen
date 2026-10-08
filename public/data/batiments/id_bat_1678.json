@@ -23,18 +23,66 @@
   "WPfr": null,
   "image_ref": "Vendome-Pl-22_1_§1",
   "terme_jantzen_bat": [
-    "lucarne",
-    "façade",
     "façade-d'angle",
     "pilastre",
+    "lucarne",
+    "façade",
     "fronton",
     "colonne"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "arcade",
+    "attique",
+    "balcon",
+    "balustrade",
+    "chapiteau corinthien",
+    "colonne",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "vitrail"
   ],
   "photos": [
     {
       "id_pic": "Vendome-Pl-22_1_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fronton",
+        "colonne",
+        "chapiteau corinthien",
+        "pilastre",
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "lucarne",
+        "mansarde",
+        "mascaron",
+        "arc en plein cintre",
+        "arcade",
+        "corniche",
+        "toit à deux versants",
+        "balustrade",
+        "souche de cheminée",
+        "sculpture",
+        "porte",
+        "vitrail",
+        "pierre de taille",
+        "attique",
+        "oculus"
       ],
       "dateCapture": "2004:08:31"
     },
@@ -45,6 +93,7 @@
         "façade",
         "fronton"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:08:31"
     },
     {
@@ -52,6 +101,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:15"
     },
     {
@@ -61,6 +111,7 @@
         "lucarne",
         "pilastre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:15"
     },
     {
@@ -69,6 +120,7 @@
         "façade",
         "fronton"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:15"
     },
     {
@@ -77,6 +129,7 @@
         "façade",
         "fronton"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:15"
     },
     {
@@ -85,6 +138,7 @@
         "façade",
         "fronton"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:03:23"
     },
     {
@@ -94,6 +148,7 @@
         "façade",
         "fronton"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:03:23"
     }
   ]

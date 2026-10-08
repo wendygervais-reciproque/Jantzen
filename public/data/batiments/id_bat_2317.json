@@ -21,17 +21,55 @@
   "WPfr": null,
   "image_ref": "St-Martin-Ste-Apoline_3_§1",
   "terme_jantzen_bat": [
-    "oeil-de-boeuf",
     "toiture",
-    "lucarne",
+    "oeil-de-boeuf",
     "façade-d'angle",
+    "lucarne",
     "lucarne-d'angle"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "porte",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée"
   ],
   "photos": [
     {
       "id_pic": "St-Martin-Ste-Apoline_3_§1",
       "IndexJantzen": [
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "garde-corps",
+        "lucarne",
+        "mansarde",
+        "oculus",
+        "souche de cheminée",
+        "toit à deux versants",
+        "ardoise",
+        "mascaron",
+        "bandeau",
+        "corniche",
+        "porte",
+        "fer forgé",
+        "pierre de taille",
+        "travée"
       ],
       "dateCapture": "2008:07:27"
     },
@@ -40,6 +78,7 @@
       "IndexJantzen": [
         "lucarne-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:28"
     },
     {
@@ -49,6 +88,7 @@
         "oeil-de-boeuf",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:07:27"
     },
     {
@@ -58,6 +98,7 @@
         "oeil-de-boeuf",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:05:14"
     }
   ]

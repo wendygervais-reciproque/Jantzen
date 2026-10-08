@@ -28,12 +28,30 @@
   "WPfr": null,
   "image_ref": "N-D-Des-Champs-79_6_§1",
   "terme_jantzen_bat": [
+    "verrière",
     "porte-fer",
-    "lucarne",
     "pignon",
     "sculpture",
-    "verrière",
+    "lucarne",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "baie",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "oculus",
+    "pierre de taille",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -43,6 +61,24 @@
         "pignon",
         "verrière"
       ],
+      "IndexTorneh": [
+        "baie",
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "fer forgé",
+        "garde-corps",
+        "lucarne",
+        "mansarde",
+        "oculus",
+        "pierre de taille",
+        "souche de cheminée",
+        "toit à deux versants",
+        "volet",
+        "fronton",
+        "bandeau",
+        "travée"
+      ],
       "dateCapture": "2005:10:10"
     },
     {
@@ -51,6 +87,7 @@
         "lucarne",
         "verrière"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:13"
     },
     {
@@ -61,6 +98,7 @@
         "sculpture",
         "verrière"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:10:10"
     },
     {
@@ -68,6 +106,7 @@
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:10:10"
     }
   ]

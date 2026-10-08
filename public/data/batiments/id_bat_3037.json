@@ -21,16 +21,44 @@
   "WPfr": null,
   "image_ref": "Varenne-56_7_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "sculpture",
+    "fenetre",
     "clé",
     "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "ardoise",
+    "chambranle",
+    "fenêtre",
+    "lucarne",
+    "mascaron",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "porte-fenêtre",
+    "sculpture",
+    "vantail"
   ],
   "photos": [
     {
       "id_pic": "Varenne-56_7_§1",
       "IndexJantzen": [
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "portail",
+        "vantail",
+        "arc",
+        "sculpture",
+        "mascaron",
+        "ardoise",
+        "lucarne",
+        "pierre de taille",
+        "fenêtre",
+        "chambranle",
+        "porte-fenêtre"
       ],
       "dateCapture": "2006:06:23"
     },
@@ -39,6 +67,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:02"
     },
     {
@@ -46,6 +75,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:13"
     },
     {
@@ -54,6 +84,7 @@
         "clé",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:23"
     },
     {
@@ -62,6 +93,7 @@
         "clé",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:13"
     },
     {
@@ -70,6 +102,7 @@
         "porte-bois",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:23"
     },
     {
@@ -79,6 +112,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:23"
     }
   ]

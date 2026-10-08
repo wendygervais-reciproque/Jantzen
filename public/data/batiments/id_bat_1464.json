@@ -21,8 +21,26 @@
   "WPfr": null,
   "image_ref": "La-Planche-2_7_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "pilastre"
+    "pilastre",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "chapiteau",
+    "chapiteau ionique",
+    "corniche",
+    "entablement",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "modillon",
+    "pierre de taille",
+    "pilastre",
+    "porte-fenêtre",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -30,6 +48,24 @@
       "IndexJantzen": [
         "fenetre",
         "pilastre"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "porte-fenêtre",
+        "pilastre",
+        "chapiteau",
+        "chapiteau ionique",
+        "corniche",
+        "modillon",
+        "mascaron",
+        "pierre de taille",
+        "volet",
+        "fer forgé",
+        "entablement",
+        "travée"
       ],
       "dateCapture": "2005:04:02"
     },
@@ -39,6 +75,7 @@
         "fenetre",
         "pilastre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:02"
     }
   ]

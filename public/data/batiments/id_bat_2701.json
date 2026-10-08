@@ -21,8 +21,24 @@
   "WPfr": null,
   "image_ref": "Villiers-45_17_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "verrière"
+    "verrière",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "pilastre",
+    "porte",
+    "porte-fenêtre",
+    "toit à deux versants"
   ],
   "photos": [
     {
@@ -30,6 +46,22 @@
       "IndexJantzen": [
         "fenetre",
         "verrière"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "corniche",
+        "lucarne",
+        "porte",
+        "porte-fenêtre",
+        "ardoise",
+        "toit à deux versants",
+        "fer forgé",
+        "bandeau",
+        "mansarde",
+        "pilastre"
       ],
       "dateCapture": "2004:04:16"
     }

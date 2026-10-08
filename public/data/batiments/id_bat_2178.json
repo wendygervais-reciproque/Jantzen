@@ -33,16 +33,33 @@
   "image_ref": "Campagne-Premiere-31_14_§1",
   "terme_jantzen_bat": [
     "oeil-de-boeuf",
-    "fenetre",
+    "verrière",
+    "balcon",
     "porte-fer",
-    "garde-corps",
-    "clé",
     "oriel",
     "pilastre",
+    "clé",
+    "fenetre",
     "céramique",
-    "verrière",
-    "décor",
-    "balcon"
+    "garde-corps",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "baie",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "céramique",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "oculus",
+    "souche de cheminée",
+    "toit-terrasse",
+    "travée",
+    "verrière"
   ],
   "photos": [
     {
@@ -51,6 +68,23 @@
         "céramique",
         "décor",
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "baie",
+        "balcon",
+        "balustrade",
+        "bandeau",
+        "céramique",
+        "fenêtre",
+        "garde-corps",
+        "mascaron",
+        "oculus",
+        "toit-terrasse",
+        "verrière",
+        "fer forgé",
+        "arc en plein cintre",
+        "travée",
+        "souche de cheminée"
       ],
       "dateCapture": "2005:06:13"
     },
@@ -62,6 +96,7 @@
         "oeil-de-boeuf",
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:20"
     },
     {
@@ -71,6 +106,7 @@
         "décor",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:13"
     },
     {
@@ -81,6 +117,7 @@
         "décor",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:13"
     },
     {
@@ -91,6 +128,7 @@
         "fenetre",
         "verrière"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:13"
     },
     {
@@ -100,6 +138,7 @@
         "décor",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:13"
     },
     {
@@ -109,6 +148,7 @@
         "garde-corps",
         "verrière"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:23"
     },
     {
@@ -119,6 +159,7 @@
         "décor",
         "verrière"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:23"
     },
     {
@@ -128,6 +169,7 @@
         "céramique",
         "verrière"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:23"
     },
     {
@@ -136,6 +178,7 @@
         "céramique",
         "décor"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:13"
     },
     {
@@ -145,6 +188,7 @@
         "décor",
         "pilastre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:13"
     },
     {
@@ -153,6 +197,7 @@
         "céramique",
         "décor"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:13"
     }
   ]

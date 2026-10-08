@@ -21,11 +21,36 @@
   "WPfr": null,
   "image_ref": "Saxe-68_15_§1",
   "terme_jantzen_bat": [
-    "lucarne",
-    "façade-d'angle",
+    "balcon",
     "dome",
+    "façade-d'angle",
     "fenetre-d'angle",
-    "balcon"
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chaîne d'angle",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mur-boutant",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "souche de cheminée",
+    "travée",
+    "tuile",
+    "vitrail",
+    "volet",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -33,6 +58,31 @@
       "IndexJantzen": [
         "dome",
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "dôme",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "lucarne",
+        "mansarde",
+        "souche de cheminée",
+        "oculus",
+        "corniche",
+        "bandeau",
+        "pilastre",
+        "arc en plein cintre",
+        "pierre de taille",
+        "épi de faîtage",
+        "porte",
+        "volet",
+        "vitrail",
+        "fer forgé",
+        "tuile",
+        "mur-boutant",
+        "chaîne d'angle",
+        "travée"
       ],
       "dateCapture": "2006:04:04"
     },
@@ -42,6 +92,7 @@
         "dome",
         "façade-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:04"
     },
     {
@@ -50,6 +101,7 @@
         "dome",
         "façade-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:06"
     },
     {
@@ -59,6 +111,7 @@
         "fenetre-d'angle",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:04"
     },
     {
@@ -69,6 +122,7 @@
         "fenetre-d'angle",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:04"
     }
   ]

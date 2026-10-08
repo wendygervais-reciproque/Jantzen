@@ -21,8 +21,17 @@
   "WPfr": null,
   "image_ref": "Jardins-St-Paul-16_4_§1",
   "terme_jantzen_bat": [
-    "lucarne",
-    "pignon"
+    "pignon",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "chéneau",
+    "fenêtre",
+    "garde-corps",
+    "oculus",
+    "souche de cheminée",
+    "tuile"
   ],
   "photos": [
     {
@@ -30,6 +39,15 @@
       "IndexJantzen": [
         "lucarne",
         "pignon"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "garde-corps",
+        "tuile",
+        "souche de cheminée",
+        "ardoise",
+        "chéneau",
+        "oculus"
       ],
       "dateCapture": "2008:07:10"
     }

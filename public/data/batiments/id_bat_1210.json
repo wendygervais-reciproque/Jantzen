@@ -26,10 +26,36 @@
   "WPfr": null,
   "image_ref": "Corbon-17_15_§1",
   "terme_jantzen_bat": [
-    "oriel",
     "brique",
+    "céramique",
     "façade",
-    "céramique"
+    "oriel"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "auvent",
+    "avant-corps",
+    "baie",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "chaîne d'angle",
+    "corniche",
+    "céramique",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oriel",
+    "pierre de taille",
+    "porte",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "toit à deux versants",
+    "volet"
   ],
   "photos": [
     {
@@ -39,6 +65,32 @@
         "céramique",
         "façade",
         "oriel"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "bandeau",
+        "baie",
+        "brique",
+        "céramique",
+        "chaîne d'angle",
+        "corniche",
+        "fenêtre",
+        "fer forgé",
+        "garde-corps",
+        "lucarne",
+        "mansarde",
+        "mascaron",
+        "oriel",
+        "pierre de taille",
+        "souche de cheminée",
+        "toit à deux versants",
+        "volet",
+        "porte",
+        "porte-fenêtre",
+        "avant-corps",
+        "auvent",
+        "arc en plein cintre"
       ],
       "dateCapture": "2005:09:22"
     }

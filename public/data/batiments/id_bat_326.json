@@ -21,15 +21,49 @@
   "WPfr": null,
   "image_ref": "Fouarre-10_5_§1",
   "terme_jantzen_bat": [
+    "façade",
     "toiture",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "auvent",
+    "balcon",
+    "chéneau",
+    "fenêtre",
+    "garde-corps",
+    "grille",
     "lucarne",
-    "façade"
+    "mansarde",
+    "oculus",
+    "pierre de taille",
+    "porte",
+    "souche de cheminée",
+    "toit à deux versants",
+    "tuile",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Fouarre-10_5_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "souche de cheminée",
+        "tuile",
+        "balcon",
+        "garde-corps",
+        "lucarne",
+        "volet",
+        "oculus",
+        "auvent",
+        "chéneau",
+        "pierre de taille",
+        "mansarde",
+        "toit à deux versants",
+        "grille",
+        "porte"
       ],
       "dateCapture": "2006:06:06"
     },
@@ -38,6 +72,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:06"
     },
     {
@@ -46,6 +81,7 @@
         "lucarne",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:09:28"
     }
   ]

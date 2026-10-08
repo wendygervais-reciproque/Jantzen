@@ -21,16 +21,33 @@
   "WPfr": null,
   "image_ref": "Pierre-Charon-68_8_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "façade",
-    "console",
-    "garde-corps",
-    "sculpture",
-    "métal",
     "mosaique",
     "pilastre",
+    "sculpture",
     "oriel",
+    "console",
+    "fenetre",
+    "façade",
+    "métal",
+    "garde-corps",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "pierre de taille",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -38,6 +55,23 @@
       "IndexJantzen": [
         "façade",
         "pilastre"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "bandeau",
+        "corniche",
+        "fenêtre",
+        "fer forgé",
+        "garde-corps",
+        "mascaron",
+        "pierre de taille",
+        "porte-fenêtre",
+        "souche de cheminée",
+        "travée",
+        "volet",
+        "mansarde",
+        "lucarne"
       ],
       "dateCapture": "2004:07:27"
     },
@@ -49,6 +83,7 @@
         "pilastre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:27"
     },
     {
@@ -58,6 +93,7 @@
         "pilastre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:27"
     },
     {
@@ -66,6 +102,7 @@
         "console",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:27"
     },
     {
@@ -73,6 +110,7 @@
       "IndexJantzen": [
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:27"
     },
     {
@@ -80,6 +118,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:27"
     },
     {
@@ -88,6 +127,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:27"
     },
     {
@@ -95,6 +135,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:27"
     },
     {
@@ -104,6 +145,7 @@
         "fenetre",
         "mosaique"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:27"
     },
     {
@@ -112,6 +154,7 @@
         "métal",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:27"
     },
     {
@@ -120,6 +163,7 @@
         "métal",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:27"
     }
   ]

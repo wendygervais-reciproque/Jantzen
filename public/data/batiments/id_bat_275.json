@@ -21,11 +21,24 @@
   "WPfr": null,
   "image_ref": "Louvat-villa-1_14_§1",
   "terme_jantzen_bat": [
+    "verrière",
     "fenetre",
     "façade",
     "porte-bois",
-    "verrière",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "baie",
+    "balcon",
+    "balustrade",
+    "céramique",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "meneau",
+    "oculus",
+    "porte-fenêtre",
+    "verrière"
   ],
   "photos": [
     {
@@ -34,6 +47,19 @@
         "façade",
         "fenetre",
         "verrière"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "baie",
+        "céramique",
+        "oculus",
+        "balustrade",
+        "porte-fenêtre",
+        "fer forgé",
+        "verrière",
+        "meneau"
       ],
       "dateCapture": "2005:08:07"
     },
@@ -44,6 +70,7 @@
         "fenetre",
         "verrière"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:07"
     },
     {
@@ -51,6 +78,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:07"
     }
   ]

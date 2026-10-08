@@ -36,11 +36,43 @@
     "garde-corps",
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "chambranle",
+    "chapiteau",
+    "fer forgé",
+    "grille",
+    "heurtoir",
+    "huisserie",
+    "perron",
+    "pierre de taille",
+    "porte",
+    "porte-fenêtre",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Beaumarchais-57_3_§1",
       "IndexJantzen": [
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "porte-fenêtre",
+        "vantail",
+        "arc en plein cintre",
+        "arc",
+        "chambranle",
+        "sculpture",
+        "pierre de taille",
+        "grille",
+        "fer forgé",
+        "huisserie",
+        "heurtoir",
+        "perron",
+        "chapiteau"
       ],
       "dateCapture": "2006:03:19"
     },
@@ -49,6 +81,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:10:21"
     },
     {
@@ -57,6 +90,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:10:21"
     },
     {
@@ -64,6 +98,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:10:21"
     }
   ]

@@ -28,8 +28,20 @@
   "WPfr": null,
   "image_ref": "Maine-Av-197_14_1898",
   "terme_jantzen_bat": [
-    "porte-bois",
-    "colonne"
+    "colonne",
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "balcon",
+    "balustrade",
+    "fenêtre",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "vantail",
+    "volet"
   ],
   "photos": [
     {
@@ -37,6 +49,18 @@
       "IndexJantzen": [
         "colonne",
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "vantail",
+        "balcon",
+        "balustrade",
+        "sculpture",
+        "arc",
+        "pierre de taille",
+        "fenêtre",
+        "volet",
+        "mascaron"
       ],
       "dateCapture": "2005:08:07"
     }

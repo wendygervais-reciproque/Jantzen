@@ -29,8 +29,21 @@
   "image_ref": "St-Martin-222_10_§1",
   "terme_jantzen_bat": [
     "sculpture",
-    "fenetre",
-    "console"
+    "console",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "baie",
+    "balcon",
+    "balustrade",
+    "corniche",
+    "fenêtre",
+    "garde-corps",
+    "mascaron",
+    "modillon",
+    "pierre de taille",
+    "sculpture"
   ],
   "photos": [
     {
@@ -40,6 +53,19 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [
+        "arc en plein cintre",
+        "balustrade",
+        "corniche",
+        "fenêtre",
+        "baie",
+        "mascaron",
+        "sculpture",
+        "garde-corps",
+        "pierre de taille",
+        "modillon",
+        "balcon"
+      ],
       "dateCapture": "2005:08:02"
     },
     {
@@ -48,6 +74,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:02"
     },
     {
@@ -56,6 +83,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:02"
     }
   ]

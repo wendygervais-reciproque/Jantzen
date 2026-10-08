@@ -26,12 +26,36 @@
     "sculpture",
     "clé"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "corniche",
+    "fenêtre",
+    "lucarne",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "tuile",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Payenne-11_3_§1",
       "IndexJantzen": [
         "clé",
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "lucarne",
+        "ardoise",
+        "tuile",
+        "mascaron",
+        "corniche",
+        "pierre de taille",
+        "arc en plein cintre",
+        "fenêtre",
+        "porte",
+        "vantail"
       ],
       "dateCapture": "2006:04:22"
     }

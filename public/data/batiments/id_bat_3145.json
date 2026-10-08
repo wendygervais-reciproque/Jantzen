@@ -21,8 +21,20 @@
   "WPfr": null,
   "image_ref": "Pecheurs-6_1_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "façade"
+    "façade",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "chaîne d'angle",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "gros appareil",
+    "pierre de taille",
+    "porte-fenêtre",
+    "volet"
   ],
   "photos": [
     {
@@ -30,6 +42,18 @@
       "IndexJantzen": [
         "façade",
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "arc en plein cintre",
+        "pierre de taille",
+        "chaîne d'angle",
+        "fer forgé",
+        "volet",
+        "porte-fenêtre",
+        "gros appareil"
       ],
       "dateCapture": "2010:06:05"
     }

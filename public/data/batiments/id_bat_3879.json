@@ -21,14 +21,34 @@
   "WPfr": null,
   "image_ref": "Reaumur-92_2_§1",
   "terme_jantzen_bat": [
-    "oeil-de-boeuf",
     "toiture",
-    "lucarne",
+    "oeil-de-boeuf",
     "dome",
     "pilastre",
-    "colonne",
+    "lucarne",
+    "fronton",
     "lucarne-d'angle",
-    "fronton"
+    "colonne"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "chapiteau",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "souche de cheminée",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -38,6 +58,26 @@
         "dome",
         "lucarne-d'angle",
         "pilastre"
+      ],
+      "IndexTorneh": [
+        "dôme",
+        "épi de faîtage",
+        "oculus",
+        "fronton",
+        "fenêtre",
+        "mansarde",
+        "corniche",
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "pilastre",
+        "chapiteau",
+        "pierre de taille",
+        "mascaron",
+        "lucarne",
+        "arc en plein cintre",
+        "souche de cheminée",
+        "ardoise"
       ],
       "dateCapture": "2004:05:16"
     },
@@ -49,6 +89,7 @@
         "lucarne-d'angle",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:05:16"
     },
     {
@@ -57,6 +98,7 @@
         "lucarne",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:05:16"
     },
     {
@@ -64,6 +106,7 @@
       "IndexJantzen": [
         "colonne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:05:16"
     }
   ]

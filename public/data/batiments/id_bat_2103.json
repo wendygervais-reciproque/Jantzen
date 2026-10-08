@@ -34,11 +34,27 @@
   "terme_jantzen_bat": [
     "porte-fer"
   ],
+  "terme_torneh_bat": [
+    "chambranle",
+    "fer forgé",
+    "huisserie",
+    "pierre de taille",
+    "porte",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Ernest-Cresson-3_14_§1",
       "IndexJantzen": [
         "porte-fer"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "vantail",
+        "chambranle",
+        "fer forgé",
+        "pierre de taille",
+        "huisserie"
       ],
       "dateCapture": "2004:07:29"
     }

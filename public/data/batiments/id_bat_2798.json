@@ -21,8 +21,21 @@
   "WPfr": null,
   "image_ref": "Orsel-4b_18_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "sculpture"
+    "sculpture",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "fenêtre",
+    "garde-corps",
+    "mascaron",
+    "pierre de taille",
+    "sculpture",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -30,6 +43,19 @@
       "IndexJantzen": [
         "fenetre",
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "arc en plein cintre",
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "pierre de taille",
+        "sculpture",
+        "mascaron",
+        "volet",
+        "bandeau",
+        "travée"
       ],
       "dateCapture": "2005:04:22"
     },
@@ -39,6 +65,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:22"
     }
   ]

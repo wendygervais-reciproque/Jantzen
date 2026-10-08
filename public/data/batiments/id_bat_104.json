@@ -20,11 +20,35 @@
     "sculpture",
     "décor"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balustrade",
+    "colonne",
+    "fenêtre",
+    "fronton",
+    "grille",
+    "pierre de taille",
+    "pilastre",
+    "sculpture",
+    "toit à deux versants"
+  ],
   "photos": [
     {
       "id_pic": "Palais-Du-Luxembourg-Jardin_6_§1",
       "IndexJantzen": [
         "décor"
+      ],
+      "IndexTorneh": [
+        "sculpture",
+        "fronton",
+        "pilastre",
+        "colonne",
+        "arc en plein cintre",
+        "balustrade",
+        "grille",
+        "pierre de taille",
+        "fenêtre",
+        "toit à deux versants"
       ],
       "dateCapture": "2018:10:23"
     },
@@ -33,6 +57,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2018:10:23"
     },
     {
@@ -40,6 +65,7 @@
       "IndexJantzen": [
         "décor"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2018:10:23"
     }
   ]

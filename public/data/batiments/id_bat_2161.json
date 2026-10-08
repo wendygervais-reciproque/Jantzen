@@ -21,18 +21,68 @@
   "WPfr": null,
   "image_ref": "Vaugirard-300_15_§1",
   "terme_jantzen_bat": [
+    "loggia",
+    "sculpture",
     "fenetre",
     "façade",
+    "colonne",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chapiteau",
+    "chapiteau ionique",
+    "colonne",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "modillon",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
     "sculpture",
-    "loggia",
-    "décor",
-    "colonne"
+    "souche de cheminée",
+    "toit à deux versants",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Vaugirard-300_15_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "bandeau",
+        "chapiteau",
+        "chapiteau ionique",
+        "colonne",
+        "corniche",
+        "fenêtre",
+        "fer forgé",
+        "fronton",
+        "garde-corps",
+        "lucarne",
+        "mansarde",
+        "mascaron",
+        "modillon",
+        "pierre de taille",
+        "sculpture",
+        "souche de cheminée",
+        "toit à deux versants",
+        "volet",
+        "ardoise",
+        "oculus",
+        "pilastre"
       ],
       "dateCapture": "2006:09:09"
     },
@@ -41,6 +91,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:13"
     },
     {
@@ -50,6 +101,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:09:09"
     },
     {
@@ -59,6 +111,7 @@
         "loggia",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:09:09"
     }
   ]

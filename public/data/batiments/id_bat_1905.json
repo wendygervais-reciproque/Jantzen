@@ -28,15 +28,61 @@
   "WPfr": null,
   "image_ref": "Gay-Lussac-26_5_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "façade",
-    "balcon"
+    "balcon",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc brisé",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "chéneau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "toit à deux versants",
+    "travée",
+    "vitrail",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Gay-Lussac-26_5_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "fer forgé",
+        "porte",
+        "portail",
+        "arc brisé",
+        "volet",
+        "lucarne",
+        "mansarde",
+        "bandeau",
+        "corniche",
+        "pierre de taille",
+        "brique",
+        "mascaron",
+        "chéneau",
+        "garde-corps",
+        "travée",
+        "toit à deux versants",
+        "ardoise",
+        "vitrail"
       ],
       "dateCapture": "2003:08:26"
     },
@@ -46,6 +92,7 @@
         "balcon",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:06"
     },
     {
@@ -53,6 +100,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:06"
     }
   ]

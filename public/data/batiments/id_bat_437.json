@@ -24,11 +24,37 @@
     "fenetre",
     "décor"
   ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "porte-fenêtre",
+    "travée",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Clichy-bd-11_9_§1",
       "IndexJantzen": [
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "corniche",
+        "bandeau",
+        "mascaron",
+        "travée",
+        "porte-fenêtre",
+        "volet",
+        "ardoise",
+        "fer forgé"
       ],
       "dateCapture": "2007:06:20"
     },
@@ -38,6 +64,7 @@
         "décor",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:06:20"
     }
   ]

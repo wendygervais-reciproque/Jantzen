@@ -28,8 +28,23 @@
   "WPfr": null,
   "image_ref": "Reuilly-19_12_§1",
   "terme_jantzen_bat": [
-    "porte-fer",
-    "fenetre"
+    "fenetre",
+    "porte-fer"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "balcon",
+    "chambranle",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "mascaron",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "sculpture",
+    "vantail"
   ],
   "photos": [
     {
@@ -37,6 +52,21 @@
       "IndexJantzen": [
         "fenetre",
         "porte-fer"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "portail",
+        "arc",
+        "fronton",
+        "mascaron",
+        "sculpture",
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "pierre de taille",
+        "fer forgé",
+        "vantail",
+        "chambranle"
       ],
       "dateCapture": "2004:09:16"
     }

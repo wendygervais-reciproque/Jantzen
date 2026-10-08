@@ -32,19 +32,65 @@
   "WPfr": null,
   "image_ref": "Tilsitt-1_8_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "façade",
-    "lucarne",
     "sculpture",
     "pilastre",
-    "décor",
-    "fronton"
+    "fenetre",
+    "lucarne",
+    "façade",
+    "fronton",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "grille",
+    "lucarne",
+    "mansarde",
+    "marquise",
+    "oriel",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "verrière",
+    "épi de faîtage"
   ],
   "photos": [
     {
       "id_pic": "Tilsitt-1_8_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "arc en plein cintre",
+        "lucarne",
+        "mansarde",
+        "corniche",
+        "bandeau",
+        "pilastre",
+        "grille",
+        "oriel",
+        "porte",
+        "porte-fenêtre",
+        "verrière",
+        "souche de cheminée",
+        "épi de faîtage",
+        "pierre de taille",
+        "fronton",
+        "ardoise",
+        "marquise"
       ],
       "dateCapture": "2009:05:30"
     },
@@ -55,6 +101,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:03:29"
     },
     {
@@ -62,6 +109,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:03:29"
     },
     {
@@ -72,6 +120,7 @@
         "pilastre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:03:29"
     },
     {
@@ -81,6 +130,7 @@
         "fronton",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:03:29"
     },
     {
@@ -90,6 +140,7 @@
         "fronton",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:03:29"
     }
   ]

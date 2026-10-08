@@ -32,10 +32,27 @@
   "WPfr": null,
   "image_ref": "Censier-20_5_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "brique",
-    "porte-fer",
-    "céramique"
+    "céramique",
+    "fenetre",
+    "porte-fer"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "baie",
+    "balcon",
+    "balustrade",
+    "brique",
+    "céramique",
+    "fenêtre",
+    "fer forgé",
+    "frise",
+    "garde-corps",
+    "grille",
+    "portail",
+    "porte",
+    "vantail"
   ],
   "photos": [
     {
@@ -45,6 +62,23 @@
         "céramique",
         "fenetre",
         "porte-fer"
+      ],
+      "IndexTorneh": [
+        "arc en plein cintre",
+        "arc",
+        "baie",
+        "balcon",
+        "balustrade",
+        "brique",
+        "céramique",
+        "fenêtre",
+        "fer forgé",
+        "garde-corps",
+        "grille",
+        "portail",
+        "porte",
+        "vantail",
+        "frise"
       ],
       "dateCapture": "2010:05:23"
     }

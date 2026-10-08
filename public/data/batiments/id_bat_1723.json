@@ -21,9 +21,36 @@
   "WPfr": null,
   "image_ref": "Opera-23_1_§1",
   "terme_jantzen_bat": [
-    "fenetre",
+    "fronton",
     "colonne",
-    "fronton"
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "chapiteau",
+    "chapiteau corinthien",
+    "colonne",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "gros appareil",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "pilier",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "vitrail",
+    "volet"
   ],
   "photos": [
     {
@@ -32,6 +59,33 @@
         "colonne",
         "fenetre",
         "fronton"
+      ],
+      "IndexTorneh": [
+        "arc en plein cintre",
+        "balcon",
+        "balustrade",
+        "bandeau",
+        "chapiteau",
+        "chapiteau corinthien",
+        "chambranle",
+        "colonne",
+        "corniche",
+        "fronton",
+        "fenêtre",
+        "garde-corps",
+        "gros appareil",
+        "mascaron",
+        "oculus",
+        "pierre de taille",
+        "pilastre",
+        "sculpture",
+        "souche de cheminée",
+        "toit à deux versants",
+        "volet",
+        "vitrail",
+        "fer forgé",
+        "pilier",
+        "ardoise"
       ],
       "dateCapture": "2004:09:01"
     },
@@ -42,6 +96,7 @@
         "fenetre",
         "fronton"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:01"
     }
   ]

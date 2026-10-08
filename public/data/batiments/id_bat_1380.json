@@ -36,24 +36,66 @@
   "WPfr": null,
   "image_ref": "Octave-Feuillet-19_16_§1",
   "terme_jantzen_bat": [
-    "porte-fer",
-    "fenetre",
-    "console",
-    "garde-corps",
+    "balcon",
     "façade-d'angle",
+    "porte-fer",
     "sculpture",
     "clé",
+    "console",
+    "fenetre",
     "fenetre-d'angle",
-    "balcon",
+    "porte-fer-hall",
     "céramique",
-    "décor",
-    "porte-fer-hall"
+    "garde-corps",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "attique",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mansarde",
+    "mascaron",
+    "oriel",
+    "pierre de taille",
+    "porte-fenêtre",
+    "sculpture",
+    "souche de cheminée",
+    "toit-terrasse",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Octave-Feuillet-19_16_§1",
       "IndexJantzen": [
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "porte-fenêtre",
+        "oriel",
+        "souche de cheminée",
+        "toit-terrasse",
+        "pierre de taille",
+        "bandeau",
+        "corniche",
+        "mascaron",
+        "sculpture",
+        "volet",
+        "travée",
+        "arc en plein cintre",
+        "fer forgé",
+        "mansarde",
+        "attique"
       ],
       "dateCapture": "2008:05:08"
     },
@@ -65,6 +107,7 @@
         "garde-corps",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:03:27"
     },
     {
@@ -73,6 +116,7 @@
         "clé",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:03:27"
     },
     {
@@ -81,6 +125,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:03:27"
     },
     {
@@ -89,6 +134,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:08"
     },
     {
@@ -98,6 +144,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:08"
     },
     {
@@ -107,6 +154,7 @@
         "console",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:08"
     },
     {
@@ -114,6 +162,7 @@
       "IndexJantzen": [
         "porte-fer-hall"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:30"
     },
     {
@@ -121,6 +170,7 @@
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2016:03:15"
     },
     {
@@ -129,6 +179,7 @@
         "clé",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2016:03:15"
     },
     {
@@ -137,6 +188,7 @@
         "clé",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:08"
     },
     {
@@ -145,6 +197,7 @@
         "clé",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:08"
     },
     {
@@ -155,6 +208,7 @@
         "fenetre-d'angle",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:08"
     },
     {
@@ -162,6 +216,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:08"
     },
     {
@@ -170,6 +225,7 @@
         "balcon",
         "céramique"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:08"
     },
     {
@@ -180,6 +236,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:08"
     },
     {
@@ -188,6 +245,7 @@
         "céramique",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:08"
     },
     {
@@ -198,6 +256,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:03:27"
     }
   ]

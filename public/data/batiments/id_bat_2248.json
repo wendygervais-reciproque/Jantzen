@@ -21,9 +21,31 @@
   "WPfr": null,
   "image_ref": "Brunel-33_17_§1",
   "terme_jantzen_bat": [
+    "colonne",
     "fenetre",
-    "lucarne",
-    "colonne"
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "avant-corps",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chapiteau corinthien",
+    "colonne",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "marquise",
+    "mascaron",
+    "modillon",
+    "pierre de taille",
+    "pilastre",
+    "porte-fenêtre",
+    "sculpture",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -32,6 +54,28 @@
         "colonne",
         "fenetre"
       ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "garde-corps",
+        "colonne",
+        "chapiteau corinthien",
+        "fronton",
+        "corniche",
+        "bandeau",
+        "pilastre",
+        "volet",
+        "porte-fenêtre",
+        "arc en plein cintre",
+        "mascaron",
+        "avant-corps",
+        "travée",
+        "modillon",
+        "marquise",
+        "sculpture",
+        "pierre de taille"
+      ],
       "dateCapture": "2009:07:28"
     },
     {
@@ -39,6 +83,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:03:29"
     }
   ]

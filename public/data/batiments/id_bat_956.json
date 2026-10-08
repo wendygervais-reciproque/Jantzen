@@ -36,19 +36,46 @@
   "WPfr": null,
   "image_ref": "Montmartre-142_2_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "façade",
-    "pignon",
-    "console",
-    "façade-d'angle",
-    "sculpture",
     "atlante",
-    "fenetre-d'angle",
+    "balcon",
+    "façade-d'angle",
+    "pignon",
+    "sculpture",
     "pilastre",
     "cariatide",
-    "décor",
+    "fenetre",
+    "console",
+    "fenetre-d'angle",
+    "façade",
+    "colonne",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "atlante",
+    "avant-corps",
     "balcon",
-    "colonne"
+    "balustrade",
+    "bandeau",
+    "cariatide",
+    "chapiteau",
+    "chapiteau corinthien",
+    "colonne",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée"
   ],
   "photos": [
     {
@@ -57,6 +84,33 @@
         "façade-d'angle",
         "pignon"
       ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "corniche",
+        "fenêtre",
+        "pilastre",
+        "colonne",
+        "chapiteau",
+        "chapiteau corinthien",
+        "atlante",
+        "cariatide",
+        "mascaron",
+        "sculpture",
+        "fronton",
+        "souche de cheminée",
+        "garde-corps",
+        "fer forgé",
+        "pierre de taille",
+        "oculus",
+        "bandeau",
+        "arc en plein cintre",
+        "travée",
+        "porte",
+        "toit à deux versants",
+        "lucarne",
+        "avant-corps"
+      ],
       "dateCapture": "2008:05:15"
     },
     {
@@ -64,6 +118,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:11"
     },
     {
@@ -71,6 +126,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:10"
     },
     {
@@ -80,6 +136,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:10"
     },
     {
@@ -87,6 +144,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:10"
     },
     {
@@ -94,6 +152,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:15"
     },
     {
@@ -101,6 +160,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:09:01"
     },
     {
@@ -109,6 +169,7 @@
         "colonne",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:03"
     },
     {
@@ -117,6 +178,7 @@
         "colonne",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:03"
     },
     {
@@ -125,6 +187,7 @@
         "colonne",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:09:01"
     },
     {
@@ -136,6 +199,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:04:25"
     },
     {
@@ -147,6 +211,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:03"
     },
     {
@@ -155,6 +220,7 @@
         "cariatide",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:19"
     },
     {
@@ -163,6 +229,7 @@
         "cariatide",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:15"
     },
     {
@@ -171,6 +238,7 @@
         "cariatide",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:09:01"
     },
     {
@@ -179,6 +247,7 @@
         "cariatide",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:06:02"
     },
     {
@@ -188,6 +257,7 @@
         "façade-d'angle",
         "pignon"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:15"
     },
     {
@@ -196,6 +266,7 @@
         "cariatide",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:09:01"
     },
     {
@@ -204,6 +275,7 @@
         "cariatide",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:15"
     },
     {
@@ -212,6 +284,7 @@
         "cariatide",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:09:01"
     },
     {
@@ -220,6 +293,7 @@
         "cariatide",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:06:02"
     },
     {
@@ -228,6 +302,7 @@
         "atlante",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:15"
     },
     {
@@ -236,6 +311,7 @@
         "atlante",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:06:02"
     },
     {
@@ -244,6 +320,7 @@
         "atlante",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:15"
     },
     {
@@ -252,6 +329,7 @@
         "fenetre-d'angle",
         "pilastre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:15"
     },
     {
@@ -260,6 +338,7 @@
         "atlante",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:09:01"
     },
     {
@@ -268,6 +347,7 @@
         "pilastre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:15"
     },
     {
@@ -275,6 +355,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:15"
     },
     {
@@ -282,6 +363,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:05:24"
     },
     {
@@ -289,6 +371,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:15"
     },
     {
@@ -296,6 +379,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:15"
     }
   ]

@@ -23,17 +23,67 @@
   "WPfr": null,
   "image_ref": "Foch-55_16_§1",
   "terme_jantzen_bat": [
+    "sculpture",
     "fenetre",
     "lucarne",
     "façade",
-    "sculpture",
     "porte-fer-hall"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "grille",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porte-fenêtre",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Foch-55_16_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "corniche",
+        "bandeau",
+        "pilastre",
+        "arc en plein cintre",
+        "lucarne",
+        "mansarde",
+        "souche de cheminée",
+        "mascaron",
+        "sculpture",
+        "oculus",
+        "volet",
+        "porte-fenêtre",
+        "grille",
+        "travée",
+        "pierre de taille",
+        "ardoise",
+        "toit à deux versants",
+        "fronton"
       ],
       "dateCapture": "2004:06:07"
     },
@@ -44,6 +94,7 @@
         "lucarne",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:06:07"
     },
     {
@@ -51,6 +102,7 @@
       "IndexJantzen": [
         "porte-fer-hall"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:06:07"
     }
   ]

@@ -25,11 +25,37 @@
   "terme_jantzen_bat": [
     "porte-fer"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "chambranle",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "linteau",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Diderot-46_12_§1",
       "IndexJantzen": [
         "porte-fer"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "vantail",
+        "fer forgé",
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "sculpture",
+        "pierre de taille",
+        "chambranle",
+        "linteau",
+        "fenêtre"
       ],
       "dateCapture": "2004:09:16"
     }

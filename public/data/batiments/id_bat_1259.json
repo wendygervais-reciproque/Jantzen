@@ -29,8 +29,22 @@
   "image_ref": "Malesherbes-174_17_§1",
   "terme_jantzen_bat": [
     "marquise",
-    "porte-fer",
-    "mosaique"
+    "mosaique",
+    "porte-fer"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "chambranle",
+    "céramique",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "gros appareil",
+    "jambage",
+    "marquise",
+    "pierre de taille",
+    "porte"
   ],
   "photos": [
     {
@@ -40,6 +54,20 @@
         "mosaique",
         "porte-fer"
       ],
+      "IndexTorneh": [
+        "marquise",
+        "porte",
+        "fer forgé",
+        "balcon",
+        "garde-corps",
+        "pierre de taille",
+        "chambranle",
+        "arc en plein cintre",
+        "céramique",
+        "gros appareil",
+        "jambage",
+        "fenêtre"
+      ],
       "dateCapture": "2009:07:07"
     },
     {
@@ -48,6 +76,7 @@
         "marquise",
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:03"
     }
   ]

@@ -20,11 +20,32 @@
   "image_ref": "Louvre-1-Qm8E-21Pn-15",
   "terme_jantzen_bat": [
     "oeil-de-boeuf",
+    "pilastre",
+    "sculpture",
     "fenetre",
     "façade",
-    "sculpture",
-    "pilastre",
     "fronton"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balustrade",
+    "bandeau",
+    "chéneau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "grille",
+    "gros appareil",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants"
   ],
   "photos": [
     {
@@ -33,6 +54,7 @@
         "façade",
         "pilastre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:28"
     },
     {
@@ -40,12 +62,34 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:28"
     },
     {
       "id_pic": "Louvre-1-Qm8E-21Pn-15",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "toit à deux versants",
+        "oculus",
+        "fronton",
+        "sculpture",
+        "mascaron",
+        "fenêtre",
+        "arc en plein cintre",
+        "pilastre",
+        "corniche",
+        "souche de cheminée",
+        "chéneau",
+        "balustrade",
+        "porte",
+        "grille",
+        "pierre de taille",
+        "bandeau",
+        "gros appareil",
+        "fer forgé",
+        "ardoise"
       ],
       "dateCapture": "2008:09:18"
     },
@@ -54,6 +98,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:09:18"
     },
     {
@@ -63,6 +108,7 @@
         "pilastre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:28"
     },
     {
@@ -71,6 +117,7 @@
         "fronton",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:28"
     },
     {
@@ -79,6 +126,7 @@
         "fronton",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:28"
     },
     {
@@ -87,6 +135,7 @@
         "fronton",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:28"
     },
     {
@@ -97,6 +146,7 @@
         "pilastre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:28"
     }
   ]

@@ -23,11 +23,45 @@
   "terme_jantzen_bat": [
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "arc",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "porte-fenêtre",
+    "sculpture",
+    "souche de cheminée"
+  ],
   "photos": [
     {
       "id_pic": "Convention-197_15_§1",
       "IndexJantzen": [
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "porte-fenêtre",
+        "lucarne",
+        "mansarde",
+        "ardoise",
+        "oculus",
+        "sculpture",
+        "mascaron",
+        "fer forgé",
+        "pierre de taille",
+        "souche de cheminée",
+        "balustrade",
+        "arc"
       ],
       "dateCapture": "2004:03:16"
     }

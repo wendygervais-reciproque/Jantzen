@@ -26,11 +26,28 @@
   "WPfr": null,
   "image_ref": "St-Placide-40_6_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "garde-corps",
-    "porte-bois",
     "dome",
-    "fronton"
+    "fenetre",
+    "fronton",
+    "garde-corps",
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc en anse de panier",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "modillon",
+    "pierre de taille",
+    "pilastre",
+    "sculpture",
+    "volet"
   ],
   "photos": [
     {
@@ -38,6 +55,23 @@
       "IndexJantzen": [
         "dome",
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "garde-corps",
+        "fer forgé",
+        "mascaron",
+        "sculpture",
+        "volet",
+        "pierre de taille",
+        "arc en anse de panier",
+        "chambranle",
+        "bandeau",
+        "modillon",
+        "pilastre",
+        "corniche"
       ],
       "dateCapture": "2005:04:17"
     },
@@ -47,6 +81,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:17"
     },
     {
@@ -55,6 +90,7 @@
         "fronton",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:17"
     }
   ]

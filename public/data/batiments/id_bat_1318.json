@@ -29,14 +29,56 @@
   "image_ref": "Lemercier-18_17_§1",
   "terme_jantzen_bat": [
     "façade",
-    "porte-bois",
-    "oriel"
+    "oriel",
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chéneau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oriel",
+    "pierre de taille",
+    "pilastre",
+    "porte-fenêtre",
+    "sculpture",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Lemercier-18_17_§1",
       "IndexJantzen": [
         "façade",
+        "oriel"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "porte-fenêtre",
+        "lucarne",
+        "mansarde",
+        "volet",
+        "sculpture",
+        "mascaron",
+        "pilastre",
+        "corniche",
+        "bandeau",
+        "pierre de taille",
+        "arc en plein cintre",
+        "travée",
+        "chéneau",
+        "fer forgé",
         "oriel"
       ],
       "dateCapture": "2004:06:28"
@@ -46,6 +88,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:06:28"
     }
   ]

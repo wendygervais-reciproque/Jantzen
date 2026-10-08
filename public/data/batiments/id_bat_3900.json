@@ -21,9 +21,32 @@
   "WPfr": null,
   "image_ref": "Versailles-95_16_§1-Rx",
   "terme_jantzen_bat": [
+    "pilastre",
     "fenetre",
-    "décor",
-    "pilastre"
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "chapiteau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "frise",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oriel",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "souche de cheminée",
+    "toit à deux versants",
+    "volet"
   ],
   "photos": [
     {
@@ -32,6 +55,29 @@
         "décor",
         "fenetre",
         "pilastre"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "bandeau",
+        "brique",
+        "chapiteau",
+        "corniche",
+        "fenêtre",
+        "fer forgé",
+        "frise",
+        "garde-corps",
+        "lucarne",
+        "mansarde",
+        "mascaron",
+        "oriel",
+        "pierre de taille",
+        "pilastre",
+        "porte",
+        "souche de cheminée",
+        "toit à deux versants",
+        "volet",
+        "ardoise"
       ],
       "dateCapture": "2012:07:21"
     }

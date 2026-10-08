@@ -36,8 +36,23 @@
   "WPfr": null,
   "image_ref": "Barthelemy-5_15_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "porte-fer-hall"
+    "porte-fer-hall",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "baie",
+    "balcon",
+    "balustrade",
+    "brique",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "vantail",
+    "vitrail",
+    "volet"
   ],
   "photos": [
     {
@@ -45,6 +60,21 @@
       "IndexJantzen": [
         "fenetre",
         "porte-fer-hall"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "vitrail",
+        "fer forgé",
+        "sculpture",
+        "brique",
+        "volet",
+        "vantail",
+        "baie",
+        "pierre de taille"
       ],
       "dateCapture": "2003:11:11"
     },
@@ -54,6 +84,7 @@
         "fenetre",
         "porte-fer-hall"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:11:11"
     }
   ]

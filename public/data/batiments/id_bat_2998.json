@@ -21,8 +21,20 @@
   "WPfr": null,
   "image_ref": "Douai-54_9_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "garde-corps"
+    "garde-corps",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "frise",
+    "garde-corps",
+    "modillon",
+    "porte-fenêtre",
+    "volet"
   ],
   "photos": [
     {
@@ -30,6 +42,18 @@
       "IndexJantzen": [
         "fenetre",
         "garde-corps"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "porte-fenêtre",
+        "frise",
+        "corniche",
+        "fer forgé",
+        "volet",
+        "chaîne d'angle",
+        "modillon"
       ],
       "dateCapture": "2005:05:21"
     }

@@ -23,11 +23,30 @@
   "WPfr": null,
   "image_ref": "Cernuschi-16_17_§1",
   "terme_jantzen_bat": [
+    "verrière",
+    "sculpture",
     "fenetre",
     "garde-corps",
-    "sculpture",
-    "verrière",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "bandeau",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "porte-fenêtre",
+    "travée",
+    "verrière",
+    "vitrail",
+    "volet"
   ],
   "photos": [
     {
@@ -38,6 +57,25 @@
         "sculpture",
         "verrière"
       ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "arc en plein cintre",
+        "porte",
+        "porte-fenêtre",
+        "verrière",
+        "mascaron",
+        "corniche",
+        "bandeau",
+        "pierre de taille",
+        "ardoise",
+        "chambranle",
+        "fer forgé",
+        "volet",
+        "vitrail",
+        "travée"
+      ],
       "dateCapture": "2004:10:05"
     },
     {
@@ -46,6 +84,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:10:05"
     }
   ]

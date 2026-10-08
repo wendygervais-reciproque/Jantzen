@@ -25,9 +25,29 @@
   "terme_jantzen_bat": [
     "porte-fer",
     "lucarne",
-    "lucarne-d'angle",
     "fronton",
+    "lucarne-d'angle",
     "colonne"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "chapiteau corinthien",
+    "colonne",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "porte-fenêtre",
+    "volet",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -37,6 +57,26 @@
         "fronton",
         "lucarne"
       ],
+      "IndexTorneh": [
+        "dôme",
+        "épi de faîtage",
+        "colonne",
+        "chapiteau corinthien",
+        "corniche",
+        "fronton",
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "porte-fenêtre",
+        "balustrade",
+        "mascaron",
+        "ardoise",
+        "pierre de taille",
+        "volet",
+        "arc en plein cintre",
+        "oculus"
+      ],
       "dateCapture": "2010:05:24"
     },
     {
@@ -44,6 +84,7 @@
       "IndexJantzen": [
         "lucarne-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:06"
     },
     {
@@ -51,6 +92,7 @@
       "IndexJantzen": [
         "lucarne-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:06"
     },
     {
@@ -58,6 +100,7 @@
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:05:24"
     },
     {
@@ -65,6 +108,7 @@
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:03:17"
     }
   ]

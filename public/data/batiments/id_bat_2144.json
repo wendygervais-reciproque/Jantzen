@@ -21,8 +21,20 @@
   "WPfr": null,
   "image_ref": "Bethune-30_4_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "garde-corps"
+    "garde-corps",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "bandeau",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "jambage",
+    "mascaron",
+    "sculpture",
+    "vantail",
+    "volet"
   ],
   "photos": [
     {
@@ -30,6 +42,18 @@
       "IndexJantzen": [
         "fenetre",
         "garde-corps"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "garde-corps",
+        "balcon",
+        "mascaron",
+        "volet",
+        "sculpture",
+        "bandeau",
+        "jambage",
+        "vantail",
+        "fer forgé"
       ],
       "dateCapture": "2003:08:03"
     }

@@ -24,11 +24,35 @@
     "sculpture",
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "garde-corps",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Fourcy-6_4_§1",
       "IndexJantzen": [
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "arc en plein cintre",
+        "vantail",
+        "sculpture",
+        "pierre de taille",
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "chambranle",
+        "corniche"
       ],
       "dateCapture": "2004:06:07"
     },
@@ -38,6 +62,7 @@
         "porte-bois",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:06:07"
     }
   ]

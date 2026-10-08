@@ -23,11 +23,41 @@
   "terme_jantzen_bat": [
     "toiture"
   ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "oculus",
+    "souche de cheminée",
+    "toit à deux versants",
+    "tuile",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "St-Martin-123-127_4_§1",
       "IndexJantzen": [
         "toiture"
+      ],
+      "IndexTorneh": [
+        "souche de cheminée",
+        "lucarne",
+        "mansarde",
+        "toit à deux versants",
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "ardoise",
+        "tuile",
+        "volet",
+        "corniche",
+        "bandeau",
+        "oculus"
       ],
       "dateCapture": "2007:04:20"
     }

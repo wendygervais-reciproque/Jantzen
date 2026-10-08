@@ -23,11 +23,35 @@
   "terme_jantzen_bat": [
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "chambranle",
+    "chaîne d'angle",
+    "fer forgé",
+    "garde-corps",
+    "modillon",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Camille-Desmoulins-26_11_§1",
       "IndexJantzen": [
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "vantail",
+        "chambranle",
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "pierre de taille",
+        "sculpture",
+        "modillon",
+        "chaîne d'angle"
       ],
       "dateCapture": "2004:09:17"
     }

@@ -21,8 +21,17 @@
   "WPfr": null,
   "image_ref": "Lille-de-12_7_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "garde-corps"
+    "garde-corps",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "porte-fenêtre",
+    "volet"
   ],
   "photos": [
     {
@@ -31,6 +40,15 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [
+        "fenêtre",
+        "porte-fenêtre",
+        "volet",
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "balustrade"
+      ],
       "dateCapture": "2005:05:22"
     },
     {
@@ -38,6 +56,7 @@
       "IndexJantzen": [
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:22"
     },
     {
@@ -45,6 +64,7 @@
       "IndexJantzen": [
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:22"
     }
   ]

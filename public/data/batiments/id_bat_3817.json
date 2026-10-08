@@ -28,12 +28,32 @@
   "WPfr": null,
   "image_ref": "Uzes-9_2_§3",
   "terme_jantzen_bat": [
-    "fenetre",
-    "sculpture",
-    "métal",
-    "cariatide",
     "verrière",
+    "sculpture",
+    "cariatide",
+    "fenetre",
+    "métal",
     "colonne"
+  ],
+  "terme_torneh_bat": [
+    "baie",
+    "balcon",
+    "balustrade",
+    "colonne",
+    "corniche",
+    "entablement",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "grille",
+    "mascaron",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "sculpture",
+    "travée",
+    "vitrail"
   ],
   "photos": [
     {
@@ -41,12 +61,33 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:05"
     },
     {
       "id_pic": "Uzes-9_2_§3",
       "IndexJantzen": [
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "baie",
+        "colonne",
+        "corniche",
+        "entablement",
+        "fer forgé",
+        "garde-corps",
+        "mascaron",
+        "pilastre",
+        "porte",
+        "sculpture",
+        "travée",
+        "vitrail",
+        "fenêtre",
+        "pierre de taille",
+        "fronton",
+        "grille"
       ],
       "dateCapture": "2004:09:05"
     },
@@ -56,6 +97,7 @@
         "fenetre",
         "verrière"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:05"
     },
     {
@@ -65,6 +107,7 @@
         "fenetre",
         "verrière"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:05"
     },
     {
@@ -75,6 +118,7 @@
         "métal",
         "verrière"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:05"
     },
     {
@@ -83,6 +127,7 @@
         "fenetre",
         "verrière"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:05"
     },
     {
@@ -92,6 +137,7 @@
         "sculpture",
         "verrière"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:05"
     },
     {
@@ -100,6 +146,7 @@
         "cariatide",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:05"
     }
   ]

@@ -24,12 +24,34 @@
     "garde-corps",
     "balcon"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "pierre de taille",
+    "porte-fenêtre",
+    "travée",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Bucarest-16_8_§1",
       "IndexJantzen": [
         "balcon",
         "garde-corps"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "porte-fenêtre",
+        "fenêtre",
+        "volet",
+        "arc en plein cintre",
+        "pierre de taille",
+        "travée"
       ],
       "dateCapture": "2004:05:26"
     }

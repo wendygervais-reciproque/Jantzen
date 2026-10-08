@@ -23,11 +23,35 @@
   "terme_jantzen_bat": [
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "heurtoir",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Payenne-13_3_§1",
       "IndexJantzen": [
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "vantail",
+        "chambranle",
+        "sculpture",
+        "mascaron",
+        "pierre de taille",
+        "fenêtre",
+        "corniche",
+        "heurtoir",
+        "fer forgé"
       ],
       "dateCapture": "2003:08:01"
     }

@@ -22,10 +22,30 @@
   "image_ref": "Rivoli-128_1_§1",
   "terme_jantzen_bat": [
     "oeil-de-boeuf",
-    "fenetre",
-    "console",
     "sculpture",
+    "console",
+    "fenetre",
     "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chapiteau corinthien",
+    "colonne",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "porte-fenêtre",
+    "sculpture",
+    "travée",
+    "vitrail"
   ],
   "photos": [
     {
@@ -34,6 +54,26 @@
         "fenetre",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fer forgé",
+        "colonne",
+        "chapiteau corinthien",
+        "arc en plein cintre",
+        "fenêtre",
+        "porte",
+        "porte-fenêtre",
+        "oculus",
+        "mascaron",
+        "sculpture",
+        "bandeau",
+        "corniche",
+        "pierre de taille",
+        "travée",
+        "vitrail",
+        "portail"
+      ],
       "dateCapture": "2011:06:08"
     },
     {
@@ -41,6 +81,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:16"
     },
     {
@@ -49,6 +90,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:16"
     },
     {
@@ -57,6 +99,7 @@
         "porte-bois",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:06:08"
     }
   ]

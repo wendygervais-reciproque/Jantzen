@@ -28,15 +28,53 @@
   "WPfr": null,
   "image_ref": "Louvre-Rue-16_1_§1-Rs",
   "terme_jantzen_bat": [
-    "fenetre",
     "sculpture",
+    "fenetre",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oriel",
+    "pierre de taille",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Louvre-Rue-16_1_§1-Rs",
       "IndexJantzen": [
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "oriel",
+        "mansarde",
+        "lucarne",
+        "souche de cheminée",
+        "corniche",
+        "bandeau",
+        "sculpture",
+        "mascaron",
+        "fer forgé",
+        "pierre de taille",
+        "ardoise",
+        "volet",
+        "toit à deux versants"
       ],
       "dateCapture": "2009:11:04"
     },
@@ -47,6 +85,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:11:04"
     },
     {
@@ -55,6 +94,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:11:04"
     },
     {
@@ -62,6 +102,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:11:04"
     }
   ]

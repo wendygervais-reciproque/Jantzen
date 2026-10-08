@@ -31,11 +31,57 @@
     "façade",
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chapiteau",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "grille",
+    "gros appareil",
+    "linteau",
+    "lucarne",
+    "mascaron",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "souche de cheminée",
+    "soupirail",
+    "travée",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Malesherbes-28_8_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "lucarne",
+        "fronton",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "corniche",
+        "bandeau",
+        "pilastre",
+        "chapiteau",
+        "porte",
+        "vantail",
+        "linteau",
+        "mascaron",
+        "souche de cheminée",
+        "ardoise",
+        "pierre de taille",
+        "grille",
+        "soupirail",
+        "travée",
+        "gros appareil"
       ],
       "dateCapture": "2004:09:04"
     },
@@ -44,6 +90,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:04"
     },
     {
@@ -51,6 +98,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:04"
     }
   ]

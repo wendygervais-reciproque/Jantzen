@@ -25,11 +25,45 @@
   "terme_jantzen_bat": [
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "chapiteau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "heurtoir",
+    "mascaron",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Lille-de-1_7_§1",
       "IndexJantzen": [
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "arc en plein cintre",
+        "vantail",
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "sculpture",
+        "pilastre",
+        "chapiteau",
+        "corniche",
+        "pierre de taille",
+        "mascaron",
+        "heurtoir",
+        "balustrade"
       ],
       "dateCapture": "2005:05:22"
     },
@@ -38,6 +72,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:22"
     }
   ]

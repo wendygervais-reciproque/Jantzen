@@ -28,13 +28,33 @@
   "WPfr": null,
   "image_ref": "Alphonse-de-Neuville-20_17_§2",
   "terme_jantzen_bat": [
+    "loggia",
+    "sculpture",
+    "console",
     "fenetre",
     "lucarne",
-    "console",
     "garde-corps",
-    "sculpture",
-    "loggia",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "modillon",
+    "oculus",
+    "oriel",
+    "pierre de taille",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "volet"
   ],
   "photos": [
     {
@@ -43,6 +63,26 @@
         "fenetre",
         "loggia"
       ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "lucarne",
+        "mansarde",
+        "mascaron",
+        "corniche",
+        "modillon",
+        "ardoise",
+        "pierre de taille",
+        "souche de cheminée",
+        "oriel",
+        "sculpture",
+        "volet",
+        "fer forgé",
+        "toit à deux versants",
+        "oculus"
+      ],
       "dateCapture": "2004:07:05"
     },
     {
@@ -50,6 +90,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:05"
     },
     {
@@ -58,6 +99,7 @@
         "loggia",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:05"
     },
     {
@@ -67,6 +109,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:05"
     },
     {
@@ -74,6 +117,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:05"
     },
     {
@@ -82,6 +126,7 @@
         "console",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:05"
     },
     {
@@ -89,6 +134,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:05"
     }
   ]

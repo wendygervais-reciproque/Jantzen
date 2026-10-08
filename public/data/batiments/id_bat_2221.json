@@ -29,10 +29,34 @@
   "image_ref": "Bergers-32_15_§1",
   "terme_jantzen_bat": [
     "fenetre",
-    "façade",
     "brique",
+    "façade",
     "céramique",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc brisé",
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "chambranle",
+    "corniche",
+    "céramique",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "grille",
+    "linteau",
+    "mascaron",
+    "pilastre",
+    "porte",
+    "porte-fenêtre",
+    "sculpture",
+    "souche de cheminée",
+    "vitrail",
+    "volet"
   ],
   "photos": [
     {
@@ -40,6 +64,30 @@
       "IndexJantzen": [
         "brique",
         "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "porte-fenêtre",
+        "porte",
+        "arc en plein cintre",
+        "arc brisé",
+        "brique",
+        "céramique",
+        "souche de cheminée",
+        "corniche",
+        "bandeau",
+        "mascaron",
+        "pilastre",
+        "sculpture",
+        "grille",
+        "fer forgé",
+        "vitrail",
+        "volet",
+        "linteau",
+        "chambranle"
       ],
       "dateCapture": "2005:04:21"
     },
@@ -51,6 +99,7 @@
         "décor",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:21"
     }
   ]

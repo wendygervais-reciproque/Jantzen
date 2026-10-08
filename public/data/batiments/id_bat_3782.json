@@ -28,19 +28,65 @@
   "WPfr": null,
   "image_ref": "Francois-1er-pl-9_8_§1",
   "terme_jantzen_bat": [
-    "lucarne",
-    "façade",
     "façade-d'angle",
     "sculpture",
     "cariatide",
-    "lucarne-d'angle",
-    "fronton"
+    "lucarne",
+    "façade",
+    "fronton",
+    "lucarne-d'angle"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "atlante",
+    "baie",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "grille",
+    "lucarne",
+    "mansarde",
+    "oculus",
+    "pierre de taille",
+    "porte-fenêtre",
+    "sculpture",
+    "souche de cheminée",
+    "volet",
+    "épi de faîtage"
   ],
   "photos": [
     {
       "id_pic": "Francois-1er-pl-9_8_§1",
       "IndexJantzen": [
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "lucarne",
+        "mansarde",
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "fronton",
+        "ardoise",
+        "souche de cheminée",
+        "sculpture",
+        "fer forgé",
+        "grille",
+        "corniche",
+        "bandeau",
+        "pierre de taille",
+        "oculus",
+        "épi de faîtage",
+        "baie",
+        "volet",
+        "porte-fenêtre",
+        "atlante"
       ],
       "dateCapture": "2007:04:09"
     },
@@ -50,6 +96,7 @@
         "cariatide",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:12"
     },
     {
@@ -58,6 +105,7 @@
         "cariatide",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:04"
     },
     {
@@ -66,6 +114,7 @@
         "cariatide",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:04"
     },
     {
@@ -75,6 +124,7 @@
         "fronton",
         "lucarne-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:04"
     },
     {
@@ -83,6 +133,7 @@
         "cariatide",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:04"
     },
     {
@@ -91,6 +142,7 @@
         "cariatide",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:04"
     },
     {
@@ -99,6 +151,7 @@
         "cariatide",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:04"
     },
     {
@@ -106,6 +159,7 @@
       "IndexJantzen": [
         "façade-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:12"
     },
     {
@@ -113,6 +167,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:09"
     },
     {
@@ -120,6 +175,7 @@
       "IndexJantzen": [
         "lucarne-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:12"
     },
     {
@@ -127,6 +183,7 @@
       "IndexJantzen": [
         "lucarne-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:12"
     },
     {
@@ -134,6 +191,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:12"
     },
     {
@@ -141,6 +199,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:12"
     }
   ]

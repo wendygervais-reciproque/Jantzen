@@ -24,12 +24,38 @@
     "toiture",
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mur-boutant",
+    "souche de cheminée",
+    "toit à deux versants",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "St-Martin-111-117_4_§1",
       "IndexJantzen": [
         "lucarne",
         "toiture"
+      ],
+      "IndexTorneh": [
+        "ardoise",
+        "souche de cheminée",
+        "mansarde",
+        "lucarne",
+        "fenêtre",
+        "toit à deux versants",
+        "mur-boutant",
+        "garde-corps",
+        "volet",
+        "fer forgé",
+        "balcon"
       ],
       "dateCapture": "2007:04:20"
     }

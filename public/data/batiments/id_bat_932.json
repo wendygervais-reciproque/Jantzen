@@ -22,9 +22,25 @@
   "image_ref": "Quincampoix-14_4_§1",
   "terme_jantzen_bat": [
     "sculpture",
-    "fenetre",
     "garde-corps",
+    "fenetre",
     "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en anse de panier",
+    "balcon",
+    "balustrade",
+    "chambranle",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "heurtoir",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "vantail"
   ],
   "photos": [
     {
@@ -32,6 +48,22 @@
       "IndexJantzen": [
         "fenetre",
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "arc",
+        "arc en anse de panier",
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "garde-corps",
+        "mascaron",
+        "pierre de taille",
+        "porte",
+        "sculpture",
+        "vantail",
+        "fer forgé",
+        "heurtoir",
+        "chambranle"
       ],
       "dateCapture": "2007:04:20"
     },
@@ -42,6 +74,7 @@
         "garde-corps",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:20"
     }
   ]

@@ -29,8 +29,26 @@
   "image_ref": "Haussmann-158_8_§1",
   "terme_jantzen_bat": [
     "oeil-de-boeuf",
+    "dome",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "brique",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fronton",
     "lucarne",
-    "dome"
+    "modillon",
+    "oculus",
+    "oriel",
+    "pierre de taille",
+    "souche de cheminée",
+    "volet",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -40,6 +58,24 @@
         "lucarne",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [
+        "dôme",
+        "oculus",
+        "lucarne",
+        "souche de cheminée",
+        "épi de faîtage",
+        "balustrade",
+        "corniche",
+        "fenêtre",
+        "balcon",
+        "ardoise",
+        "pierre de taille",
+        "brique",
+        "modillon",
+        "fronton",
+        "volet",
+        "oriel"
+      ],
       "dateCapture": "2006:03:23"
     },
     {
@@ -47,6 +83,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:03:23"
     }
   ]

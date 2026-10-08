@@ -32,12 +32,64 @@
     "fenetre",
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "colonne",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porte-fenêtre",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "tuile",
+    "verrière",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Elisee-Reclus-16B_7_§1",
       "IndexJantzen": [
         "lucarne",
         "toiture"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "porte-fenêtre",
+        "lucarne",
+        "oculus",
+        "souche de cheminée",
+        "corniche",
+        "bandeau",
+        "pilastre",
+        "colonne",
+        "arc en plein cintre",
+        "verrière",
+        "tuile",
+        "ardoise",
+        "pierre de taille",
+        "brique",
+        "fer forgé",
+        "sculpture",
+        "travée",
+        "toit à deux versants",
+        "volet",
+        "fronton"
       ],
       "dateCapture": "2008:07:04"
     },
@@ -47,6 +99,7 @@
         "fenetre",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:07:04"
     },
     {
@@ -54,6 +107,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:07:04"
     },
     {
@@ -61,6 +115,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:07:04"
     }
   ]

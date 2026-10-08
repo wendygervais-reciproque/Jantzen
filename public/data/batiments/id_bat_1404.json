@@ -21,18 +21,68 @@
   "WPfr": null,
   "image_ref": "Saussaies-pl-1b_8_§1-Rx",
   "terme_jantzen_bat": [
+    "toiture",
     "oeil-de-boeuf",
     "fenetre",
     "lucarne",
     "façade",
-    "toiture",
     "colonne"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "chapiteau",
+    "chapiteau corinthien",
+    "colonne",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "grille",
+    "lucarne",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porte-fenêtre",
+    "sculpture",
+    "souche de cheminée",
+    "volet",
+    "épi de faîtage"
   ],
   "photos": [
     {
       "id_pic": "Saussaies-pl-1b_8_§1-Rx",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "dôme",
+        "lucarne",
+        "balustrade",
+        "balcon",
+        "fenêtre",
+        "arc en plein cintre",
+        "oculus",
+        "fronton",
+        "corniche",
+        "pilastre",
+        "colonne",
+        "chapiteau corinthien",
+        "souche de cheminée",
+        "mascaron",
+        "garde-corps",
+        "pierre de taille",
+        "sculpture",
+        "épi de faîtage",
+        "arc",
+        "grille",
+        "porte-fenêtre",
+        "volet",
+        "chapiteau"
       ],
       "dateCapture": "2011:06:26"
     },
@@ -42,6 +92,7 @@
         "colonne",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:06:21"
     },
     {
@@ -49,6 +100,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:06:21"
     },
     {
@@ -58,6 +110,7 @@
         "oeil-de-boeuf",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:06:26"
     },
     {
@@ -66,6 +119,7 @@
         "lucarne",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:06:21"
     }
   ]

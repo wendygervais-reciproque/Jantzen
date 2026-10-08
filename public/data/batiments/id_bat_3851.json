@@ -23,11 +23,37 @@
   "terme_jantzen_bat": [
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "souche de cheminée",
+    "vantail",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Bonaparte-90_6_§1",
       "IndexJantzen": [
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "lucarne",
+        "mansarde",
+        "garde-corps",
+        "balcon",
+        "fenêtre",
+        "corniche",
+        "bandeau",
+        "ardoise",
+        "vantail",
+        "volet",
+        "souche de cheminée"
       ],
       "dateCapture": "2009:09:27"
     },
@@ -36,6 +62,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:09:27"
     }
   ]

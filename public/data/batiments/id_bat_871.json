@@ -24,12 +24,36 @@
     "fenetre",
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "modillon",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Victoria-14_1_§1",
       "IndexJantzen": [
         "fenetre",
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "arc en plein cintre",
+        "vantail",
+        "fer forgé",
+        "balcon",
+        "garde-corps",
+        "mascaron",
+        "sculpture",
+        "pierre de taille",
+        "modillon"
       ],
       "dateCapture": "2004:09:11"
     }

@@ -28,10 +28,29 @@
   "WPfr": null,
   "image_ref": "Messine-av-30_8_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "cariatide",
     "sculpture",
+    "cariatide",
+    "fenetre",
     "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "atlante",
+    "balcon",
+    "balustrade",
+    "bossage",
+    "cariatide",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "jambage",
+    "linteau",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "vantail"
   ],
   "photos": [
     {
@@ -42,6 +61,25 @@
         "porte-bois",
         "sculpture"
       ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "porte",
+        "vantail",
+        "fenêtre",
+        "sculpture",
+        "cariatide",
+        "atlante",
+        "pierre de taille",
+        "mascaron",
+        "chambranle",
+        "linteau",
+        "jambage",
+        "corniche",
+        "bossage"
+      ],
       "dateCapture": "2014:03:06"
     },
     {
@@ -51,6 +89,7 @@
         "fenetre",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:03:19"
     },
     {
@@ -60,6 +99,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2014:03:06"
     },
     {
@@ -69,6 +109,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:05:12"
     },
     {
@@ -78,6 +119,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:02"
     },
     {
@@ -86,6 +128,7 @@
         "cariatide",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:05:12"
     },
     {
@@ -94,6 +137,7 @@
         "cariatide",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:05:12"
     },
     {
@@ -102,6 +146,7 @@
         "cariatide",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:02"
     }
   ]

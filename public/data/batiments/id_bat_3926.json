@@ -21,11 +21,29 @@
   "WPfr": null,
   "image_ref": "Lille-de-97_7_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "garde-corps",
     "sculpture",
     "clé",
+    "fenetre",
+    "garde-corps",
     "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "baie",
+    "balcon",
+    "balustrade",
+    "chambranle",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "grille",
+    "heurtoir",
+    "mascaron",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "sculpture",
+    "vantail"
   ],
   "photos": [
     {
@@ -34,6 +52,24 @@
         "fenetre",
         "porte-bois"
       ],
+      "IndexTorneh": [
+        "portail",
+        "porte",
+        "arc en plein cintre",
+        "baie",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "pierre de taille",
+        "sculpture",
+        "mascaron",
+        "chambranle",
+        "vantail",
+        "grille",
+        "heurtoir"
+      ],
       "dateCapture": "2005:05:22"
     },
     {
@@ -41,6 +77,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:22"
     },
     {
@@ -50,6 +87,7 @@
         "porte-bois",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:22"
     },
     {
@@ -57,6 +95,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:22"
     },
     {
@@ -64,6 +103,7 @@
       "IndexJantzen": [
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:22"
     }
   ]

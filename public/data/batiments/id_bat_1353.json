@@ -38,11 +38,33 @@
   "terme_jantzen_bat": [
     "sculpture"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "chapiteau corinthien",
+    "corniche",
+    "entablement",
+    "fenêtre",
+    "frise",
+    "pierre de taille",
+    "pilastre",
+    "sculpture"
+  ],
   "photos": [
     {
       "id_pic": "Italiens-Bd-19_2_§1",
       "IndexJantzen": [
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "sculpture",
+        "chapiteau corinthien",
+        "pilastre",
+        "corniche",
+        "arc en plein cintre",
+        "fenêtre",
+        "pierre de taille",
+        "frise",
+        "entablement"
       ],
       "dateCapture": "2006:06:29"
     },
@@ -51,6 +73,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:29"
     },
     {
@@ -58,6 +81,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:29"
     },
     {
@@ -65,6 +89,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:29"
     }
   ]

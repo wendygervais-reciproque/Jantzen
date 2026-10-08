@@ -28,11 +28,23 @@
   "WPfr": null,
   "image_ref": "Vincent-Auriol-74_13_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "garde-corps",
-    "brique",
     "balcon",
+    "fenetre",
+    "brique",
+    "garde-corps",
     "colonne"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "céramique",
+    "fenêtre",
+    "garde-corps",
+    "toit-terrasse",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -41,6 +53,18 @@
         "balcon",
         "brique",
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "fenêtre",
+        "brique",
+        "volet",
+        "travée",
+        "bandeau",
+        "toit-terrasse",
+        "céramique"
       ],
       "dateCapture": "2007:03:27"
     },
@@ -51,6 +75,7 @@
         "brique",
         "colonne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:17"
     },
     {
@@ -60,6 +85,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:03:27"
     }
   ]

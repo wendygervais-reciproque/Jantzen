@@ -32,9 +32,21 @@
   "WPfr": null,
   "image_ref": "Ordener-142_18_§1",
   "terme_jantzen_bat": [
-    "fenetre",
+    "porte-fer-hall",
     "balcon",
-    "porte-fer-hall"
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "attique",
+    "balcon",
+    "bandeau",
+    "brique",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -43,6 +55,18 @@
         "balcon",
         "fenetre"
       ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "volet",
+        "brique",
+        "attique",
+        "bandeau",
+        "travée",
+        "corniche",
+        "fer forgé"
+      ],
       "dateCapture": "2006:06:09"
     },
     {
@@ -50,6 +74,7 @@
       "IndexJantzen": [
         "porte-fer-hall"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:06:14"
     }
   ]

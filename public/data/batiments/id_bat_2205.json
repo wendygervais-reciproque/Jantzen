@@ -21,10 +21,32 @@
   "WPfr": null,
   "image_ref": "Italiens-bd-32_9_§1",
   "terme_jantzen_bat": [
-    "colonne",
     "fenetre",
+    "colonne",
+    "fronton",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "avant-corps",
+    "balcon",
+    "balustrade",
+    "chaîne d'angle",
+    "chéneau",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
     "lucarne",
-    "fronton"
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "sculpture",
+    "travée",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -33,6 +55,28 @@
         "fronton",
         "lucarne"
       ],
+      "IndexTorneh": [
+        "mansarde",
+        "lucarne",
+        "arc en plein cintre",
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "pierre de taille",
+        "chaîne d'angle",
+        "corniche",
+        "fronton",
+        "épi de faîtage",
+        "ardoise",
+        "chéneau",
+        "avant-corps",
+        "travée",
+        "mascaron",
+        "pilastre",
+        "oculus",
+        "sculpture"
+      ],
       "dateCapture": "2008:09:19"
     },
     {
@@ -40,6 +84,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:09:19"
     },
     {
@@ -48,6 +93,7 @@
         "fronton",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:09:19"
     },
     {
@@ -56,6 +102,7 @@
         "colonne",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:03:28"
     }
   ]

@@ -24,9 +24,25 @@
   "WPfr": null,
   "image_ref": "St-Martin-Porte_10_§1",
   "terme_jantzen_bat": [
-    "porte",
     "façade",
-    "sculpture"
+    "sculpture",
+    "porte"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "attique",
+    "balcon",
+    "bossage",
+    "corniche",
+    "entablement",
+    "fenêtre",
+    "frise",
+    "gros appareil",
+    "pierre de taille",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants"
   ],
   "photos": [
     {
@@ -35,6 +51,22 @@
         "façade",
         "porte"
       ],
+      "IndexTorneh": [
+        "arc en plein cintre",
+        "arc",
+        "attique",
+        "corniche",
+        "entablement",
+        "frise",
+        "sculpture",
+        "gros appareil",
+        "pierre de taille",
+        "bossage",
+        "fenêtre",
+        "balcon",
+        "toit à deux versants",
+        "souche de cheminée"
+      ],
       "dateCapture": "2012:08:11"
     },
     {
@@ -42,6 +74,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:09:02"
     },
     {
@@ -50,6 +83,7 @@
         "façade",
         "porte"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:15"
     },
     {
@@ -57,6 +91,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:15"
     },
     {
@@ -64,6 +99,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:07:27"
     },
     {
@@ -71,6 +107,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:15"
     },
     {
@@ -78,6 +115,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:07:27"
     },
     {
@@ -85,6 +123,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:07:27"
     },
     {
@@ -92,6 +131,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:15"
     },
     {
@@ -99,6 +139,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:15"
     },
     {
@@ -106,6 +147,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:07:27"
     },
     {
@@ -114,6 +156,7 @@
         "façade",
         "porte"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:08:19"
     },
     {
@@ -121,6 +164,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:07:27"
     },
     {
@@ -129,6 +173,7 @@
         "façade",
         "porte"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:11"
     },
     {
@@ -137,6 +182,7 @@
         "porte",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:28"
     },
     {
@@ -144,6 +190,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:09:02"
     },
     {
@@ -151,6 +198,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:28"
     },
     {
@@ -158,6 +206,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:09:02"
     },
     {
@@ -165,6 +214,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:08:19"
     },
     {
@@ -172,6 +222,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:09:02"
     }
   ]

@@ -24,12 +24,42 @@
     "toiture",
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "brique",
+    "chéneau",
+    "fenêtre",
+    "fer",
+    "fronton",
+    "lucarne",
+    "mansarde",
+    "modillon",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "épi de faîtage"
+  ],
   "photos": [
     {
       "id_pic": "Gouvion-St-Cyr-1b_17_§1",
       "IndexJantzen": [
         "lucarne",
         "toiture"
+      ],
+      "IndexTorneh": [
+        "lucarne",
+        "fronton",
+        "mansarde",
+        "ardoise",
+        "fenêtre",
+        "toit à deux versants",
+        "souche de cheminée",
+        "brique",
+        "sculpture",
+        "épi de faîtage",
+        "chéneau",
+        "fer",
+        "modillon"
       ],
       "dateCapture": "2006:06:02"
     },
@@ -38,6 +68,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:02"
     },
     {
@@ -45,6 +76,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:02"
     }
   ]

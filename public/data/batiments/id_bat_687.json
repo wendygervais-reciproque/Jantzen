@@ -23,11 +23,33 @@
   "terme_jantzen_bat": [
     "porte-fer"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "brique",
+    "chaîne d'angle",
+    "fenêtre",
+    "fer forgé",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "sculpture"
+  ],
   "photos": [
     {
       "id_pic": "Pierre-Nicole-12_5_§1",
       "IndexJantzen": [
         "porte-fer"
+      ],
+      "IndexTorneh": [
+        "arc en plein cintre",
+        "portail",
+        "porte",
+        "fer forgé",
+        "pierre de taille",
+        "chaîne d'angle",
+        "sculpture",
+        "fenêtre",
+        "brique"
       ],
       "dateCapture": "2003:08:25"
     }

@@ -10,7 +10,7 @@
     "numero": "37",
     "voie": "rue de Cotte"
   },
-  "arrondissement": 11,
+  "arrondissement": 12,
   "tri_alphab": "Cotte",
   "coordonnees": {
     "latitude": "48.850563",
@@ -21,11 +21,33 @@
   "WPfr": null,
   "image_ref": "Cotte-37_11_§1",
   "terme_jantzen_bat": [
-    "lucarne",
-    "façade-d'angle",
     "dome",
+    "façade-d'angle",
     "fenetre-d'angle",
+    "lucarne",
     "lucarne-d'angle"
+  ],
+  "terme_torneh_bat": [
+    "arc brisé",
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chaîne d'angle",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "oculus",
+    "pierre de taille",
+    "souche de cheminée",
+    "toit à deux versants",
+    "volet",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -33,6 +55,28 @@
       "IndexJantzen": [
         "dome",
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "lucarne",
+        "mansarde",
+        "souche de cheminée",
+        "ardoise",
+        "arc en plein cintre",
+        "arc brisé",
+        "pierre de taille",
+        "chaîne d'angle",
+        "bandeau",
+        "corniche",
+        "volet",
+        "oculus",
+        "fer forgé",
+        "toit à deux versants",
+        "dôme",
+        "épi de faîtage"
       ],
       "dateCapture": "2004:09:16"
     },
@@ -43,6 +87,7 @@
         "fenetre-d'angle",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:16"
     },
     {
@@ -51,6 +96,7 @@
         "dome",
         "lucarne-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:16"
     },
     {
@@ -59,6 +105,7 @@
         "dome",
         "lucarne-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:11"
     }
   ]

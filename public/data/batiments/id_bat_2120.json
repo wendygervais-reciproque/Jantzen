@@ -21,9 +21,30 @@
   "WPfr": null,
   "image_ref": "Parrot-3_12_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "sculpture",
+    "fenetre",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oriel",
+    "pierre de taille",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -33,6 +54,27 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "mascaron",
+        "corniche",
+        "bandeau",
+        "ardoise",
+        "lucarne",
+        "mansarde",
+        "pierre de taille",
+        "oriel",
+        "volet",
+        "fronton",
+        "porte-fenêtre",
+        "travée",
+        "chambranle",
+        "souche de cheminée",
+        "fer forgé"
+      ],
       "dateCapture": "2005:10:10"
     },
     {
@@ -41,6 +83,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:10:10"
     }
   ]

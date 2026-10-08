@@ -24,12 +24,38 @@
     "toiture",
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "bandeau",
+    "chéneau",
+    "fenêtre",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "souche de cheminée",
+    "toit à deux versants",
+    "tuile",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Faubourg-St-Antoine-189-181_11_§1",
       "IndexJantzen": [
         "lucarne",
         "toiture"
+      ],
+      "IndexTorneh": [
+        "souche de cheminée",
+        "lucarne",
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "volet",
+        "tuile",
+        "toit à deux versants",
+        "mansarde",
+        "bandeau",
+        "chéneau"
       ],
       "dateCapture": "2007:04:11"
     }

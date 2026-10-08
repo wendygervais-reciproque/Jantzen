@@ -29,8 +29,25 @@
   "image_ref": "Universite-51_7_§1",
   "terme_jantzen_bat": [
     "poignée-porte",
-    "porte-bois",
-    "colonne"
+    "colonne",
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "chapiteau",
+    "colonne",
+    "corniche",
+    "entablement",
+    "frise",
+    "fronton",
+    "heurtoir",
+    "pierre de taille",
+    "pilastre",
+    "portail",
+    "porte",
+    "sculpture",
+    "souche de cheminée",
+    "vantail"
   ],
   "photos": [
     {
@@ -39,6 +56,23 @@
         "colonne",
         "porte-bois"
       ],
+      "IndexTorneh": [
+        "porte",
+        "portail",
+        "arc en plein cintre",
+        "colonne",
+        "chapiteau",
+        "fronton",
+        "entablement",
+        "corniche",
+        "frise",
+        "pilastre",
+        "vantail",
+        "heurtoir",
+        "sculpture",
+        "pierre de taille",
+        "souche de cheminée"
+      ],
       "dateCapture": "2005:05:22"
     },
     {
@@ -46,6 +80,7 @@
       "IndexJantzen": [
         "poignée-porte"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:22"
     }
   ]

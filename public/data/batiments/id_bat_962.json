@@ -23,24 +23,74 @@
   "WPfr": null,
   "image_ref": "Ranelagh-143_16_§1",
   "terme_jantzen_bat": [
+    "balcon",
+    "façade-d'angle",
     "porte-fer",
+    "oriel",
+    "sculpture",
+    "clé",
+    "fenetre-d'angle",
     "fenetre",
     "console",
-    "façade-d'angle",
-    "sculpture",
-    "chimère",
     "porte-fer-hall",
-    "fenetre-d'angle",
-    "oriel",
-    "clé",
-    "balcon",
+    "chimère",
     "colonne"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chapiteau",
+    "colonne",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "grille",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "tour",
+    "travée",
+    "vitrail"
   ],
   "photos": [
     {
       "id_pic": "Ranelagh-143_16_§1",
       "IndexJantzen": [
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "bandeau",
+        "colonne",
+        "chapiteau",
+        "corniche",
+        "fenêtre",
+        "garde-corps",
+        "grille",
+        "lucarne",
+        "mansarde",
+        "pierre de taille",
+        "porte",
+        "sculpture",
+        "souche de cheminée",
+        "toit à deux versants",
+        "tour",
+        "travée",
+        "vitrail",
+        "pilastre",
+        "arc en plein cintre",
+        "fronton",
+        "mascaron"
       ],
       "dateCapture": null
     },
@@ -49,6 +99,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:07:13"
     },
     {
@@ -58,6 +109,7 @@
         "colonne",
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:07:13"
     },
     {
@@ -65,6 +117,7 @@
       "IndexJantzen": [
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:07:13"
     },
     {
@@ -73,6 +126,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:07:13"
     },
     {
@@ -80,6 +134,7 @@
       "IndexJantzen": [
         "porte-fer-hall"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:07:13"
     },
     {
@@ -87,6 +142,7 @@
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:07:13"
     },
     {
@@ -96,6 +152,7 @@
         "clé",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:07:13"
     },
     {
@@ -104,6 +161,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:07:13"
     }
   ]

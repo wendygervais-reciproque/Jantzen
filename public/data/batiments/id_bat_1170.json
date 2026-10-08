@@ -23,11 +23,43 @@
   "terme_jantzen_bat": [
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "modillon",
+    "pierre de taille",
+    "toit à deux versants",
+    "travée",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Haussmann-164_8_§1",
       "IndexJantzen": [
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "mansarde",
+        "lucarne",
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "corniche",
+        "modillon",
+        "pierre de taille",
+        "volet",
+        "fer forgé",
+        "bandeau",
+        "travée",
+        "toit à deux versants"
       ],
       "dateCapture": "2012:04:30"
     }

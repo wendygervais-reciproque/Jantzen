@@ -23,11 +23,32 @@
   "WPfr": null,
   "image_ref": "Jonquoy-12_14_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "loggia",
+    "fenetre",
     "brique",
     "céramique",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "avant-corps",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "toit à deux versants",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -35,6 +56,27 @@
       "IndexJantzen": [
         "brique",
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "fenêtre",
+        "arc en plein cintre",
+        "brique",
+        "pierre de taille",
+        "chaîne d'angle",
+        "corniche",
+        "bandeau",
+        "ardoise",
+        "toit à deux versants",
+        "volet",
+        "travée",
+        "fronton",
+        "mascaron",
+        "fer forgé",
+        "avant-corps",
+        "oculus"
       ],
       "dateCapture": "2005:05:08"
     },
@@ -46,6 +88,7 @@
         "décor",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:08"
     },
     {
@@ -55,6 +98,7 @@
         "céramique",
         "loggia"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:08"
     },
     {
@@ -65,6 +109,7 @@
         "décor",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:08"
     },
     {
@@ -75,6 +120,7 @@
         "décor",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:08"
     }
   ]

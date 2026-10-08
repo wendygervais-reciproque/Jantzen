@@ -24,9 +24,23 @@
   "image_ref": "Vieille-du-Temple-45_4_§1",
   "terme_jantzen_bat": [
     "oeil-de-boeuf",
-    "fenetre",
     "clé",
+    "fenetre",
     "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "baie",
+    "balcon",
+    "fenêtre",
+    "garde-corps",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "vantail",
+    "vitrail"
   ],
   "photos": [
     {
@@ -35,6 +49,20 @@
         "fenetre",
         "oeil-de-boeuf",
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "oculus",
+        "arc",
+        "fenêtre",
+        "porte",
+        "balcon",
+        "garde-corps",
+        "mascaron",
+        "vitrail",
+        "pierre de taille",
+        "sculpture",
+        "baie",
+        "vantail"
       ],
       "dateCapture": "2005:07:03"
     },
@@ -45,6 +73,7 @@
         "oeil-de-boeuf",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:03"
     }
   ]

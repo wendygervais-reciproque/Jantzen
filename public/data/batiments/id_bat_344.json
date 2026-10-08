@@ -23,11 +23,35 @@
   "terme_jantzen_bat": [
     "porte-fer-hall"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "chambranle",
+    "chapiteau ionique",
+    "fer forgé",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "porte-fenêtre",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Lesueur-10_16_§1",
       "IndexJantzen": [
         "porte-fer-hall"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "porte-fenêtre",
+        "arc en plein cintre",
+        "fer forgé",
+        "chapiteau ionique",
+        "pilastre",
+        "sculpture",
+        "pierre de taille",
+        "vantail",
+        "chambranle"
       ],
       "dateCapture": "2004:10:26"
     }

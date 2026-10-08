@@ -22,9 +22,27 @@
   "image_ref": "Universite-228_7_§1",
   "terme_jantzen_bat": [
     "brique",
-    "console",
+    "colonne",
     "balcon",
-    "colonne"
+    "console"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "chapiteau",
+    "chaîne d'angle",
+    "corniche",
+    "céramique",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "pilastre",
+    "toit-terrasse",
+    "volet"
   ],
   "photos": [
     {
@@ -34,6 +52,24 @@
         "brique",
         "colonne",
         "console"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "arc en plein cintre",
+        "brique",
+        "chaîne d'angle",
+        "corniche",
+        "volet",
+        "fer forgé",
+        "lucarne",
+        "pilastre",
+        "chapiteau",
+        "toit-terrasse",
+        "bandeau",
+        "céramique"
       ],
       "dateCapture": "2005:04:02"
     }

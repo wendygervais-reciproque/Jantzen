@@ -28,20 +28,70 @@
   "WPfr": null,
   "image_ref": "Kleber-52_16_§1",
   "terme_jantzen_bat": [
+    "colonne",
+    "façade-d'angle",
+    "sculpture",
+    "cariatide",
     "fenetre",
     "lucarne",
     "garde-corps",
-    "façade-d'angle",
-    "sculpture",
+    "atlante"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
     "atlante",
-    "cariatide",
-    "colonne"
+    "baie",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "colonne",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "modillon",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "porte-fenêtre",
+    "sculpture",
+    "toit à deux versants",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Kleber-52_16_§1",
       "IndexJantzen": [
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "baie",
+        "fenêtre",
+        "porte",
+        "porte-fenêtre",
+        "garde-corps",
+        "fer forgé",
+        "atlante",
+        "mascaron",
+        "corniche",
+        "bandeau",
+        "pilastre",
+        "colonne",
+        "oculus",
+        "toit à deux versants",
+        "ardoise",
+        "pierre de taille",
+        "volet",
+        "chambranle",
+        "arc en plein cintre",
+        "modillon",
+        "sculpture"
       ],
       "dateCapture": "2005:03:25"
     },
@@ -51,6 +101,7 @@
         "colonne",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:03:19"
     },
     {
@@ -59,6 +110,7 @@
         "colonne",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:10:25"
     },
     {
@@ -70,6 +122,7 @@
         "garde-corps",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:03:19"
     },
     {
@@ -80,6 +133,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:10:25"
     },
     {
@@ -90,6 +144,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:10:25"
     }
   ]

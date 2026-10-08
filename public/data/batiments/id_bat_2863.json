@@ -30,11 +30,35 @@
   "terme_jantzen_bat": [
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "bossage",
+    "fer forgé",
+    "grille",
+    "gros appareil",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Regard-5_6_§1",
       "IndexJantzen": [
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "arc en plein cintre",
+        "vantail",
+        "mascaron",
+        "sculpture",
+        "pierre de taille",
+        "gros appareil",
+        "grille",
+        "fer forgé",
+        "bossage"
       ],
       "dateCapture": "2005:05:01"
     },
@@ -43,6 +67,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:05:14"
     },
     {
@@ -50,6 +75,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:05:14"
     }
   ]

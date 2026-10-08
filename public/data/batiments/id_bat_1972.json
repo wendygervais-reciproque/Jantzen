@@ -37,15 +37,46 @@
   "image_ref": "St-Georges-pl-28_9_§3",
   "terme_jantzen_bat": [
     "porte-fer",
+    "sculpture",
+    "pilastre",
+    "clé",
     "fenetre",
     "lucarne",
     "façade",
+    "porte",
     "garde-corps",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "cariatide",
+    "chambranle",
+    "chapiteau",
+    "colonne",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "grille",
+    "linteau",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
     "porte",
     "sculpture",
-    "clé",
-    "pilastre",
-    "décor"
+    "toit à deux versants",
+    "travée",
+    "vitrail",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -54,6 +85,7 @@
         "fenetre",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:06:16"
     },
     {
@@ -63,6 +95,7 @@
         "lucarne",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:18"
     },
     {
@@ -71,6 +104,7 @@
         "fenetre",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:06:16"
     },
     {
@@ -79,6 +113,7 @@
         "lucarne",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:18"
     },
     {
@@ -87,6 +122,7 @@
         "lucarne",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:08:26"
     },
     {
@@ -94,6 +130,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:17"
     },
     {
@@ -101,6 +138,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:18"
     },
     {
@@ -108,6 +146,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:18"
     },
     {
@@ -115,6 +154,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:17"
     },
     {
@@ -123,6 +163,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:18"
     },
     {
@@ -130,6 +171,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:17"
     },
     {
@@ -137,6 +179,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:17"
     },
     {
@@ -146,6 +189,7 @@
         "pilastre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:17"
     },
     {
@@ -155,6 +199,7 @@
         "pilastre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:18"
     },
     {
@@ -163,6 +208,7 @@
         "clé",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:17"
     },
     {
@@ -171,6 +217,7 @@
         "clé",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:17"
     },
     {
@@ -179,6 +226,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:18"
     },
     {
@@ -187,6 +235,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:18"
     },
     {
@@ -197,6 +246,7 @@
         "pilastre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:17"
     },
     {
@@ -206,6 +256,7 @@
         "garde-corps",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:17"
     },
     {
@@ -215,6 +266,7 @@
         "pilastre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:09"
     },
     {
@@ -222,6 +274,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:18"
     },
     {
@@ -230,6 +283,37 @@
         "façade",
         "porte"
       ],
+      "IndexTorneh": [
+        "arc en plein cintre",
+        "arc",
+        "balcon",
+        "balustrade",
+        "bandeau",
+        "chapiteau",
+        "colonne",
+        "corniche",
+        "fenêtre",
+        "fronton",
+        "fer forgé",
+        "garde-corps",
+        "grille",
+        "lucarne",
+        "mansarde",
+        "mascaron",
+        "pilastre",
+        "porte",
+        "sculpture",
+        "toit à deux versants",
+        "travée",
+        "vitrail",
+        "ardoise",
+        "pierre de taille",
+        "cariatide",
+        "chambranle",
+        "linteau",
+        "oculus",
+        "épi de faîtage"
+      ],
       "dateCapture": "2004:08:27"
     },
     {
@@ -237,6 +321,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:09"
     },
     {
@@ -244,6 +329,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:18"
     },
     {
@@ -251,6 +337,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:09"
     },
     {
@@ -260,6 +347,7 @@
         "pilastre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:18"
     },
     {
@@ -268,6 +356,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:17"
     },
     {
@@ -276,6 +365,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:09"
     },
     {
@@ -284,6 +374,7 @@
         "pilastre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:18"
     },
     {
@@ -292,6 +383,7 @@
         "pilastre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:09"
     },
     {
@@ -300,6 +392,7 @@
         "pilastre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:17"
     },
     {
@@ -308,6 +401,7 @@
         "pilastre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:09"
     },
     {
@@ -316,6 +410,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:09"
     },
     {
@@ -324,6 +419,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:17"
     },
     {
@@ -332,6 +428,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:17"
     },
     {
@@ -339,6 +436,7 @@
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:17"
     },
     {
@@ -346,6 +444,7 @@
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:17"
     },
     {
@@ -356,6 +455,7 @@
         "lucarne",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:18"
     },
     {
@@ -366,6 +466,7 @@
         "lucarne",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:18"
     },
     {
@@ -374,6 +475,7 @@
         "fenetre",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:17"
     },
     {
@@ -382,6 +484,7 @@
         "fenetre",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:08:26"
     }
   ]

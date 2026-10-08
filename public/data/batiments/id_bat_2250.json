@@ -21,24 +21,72 @@
   "WPfr": null,
   "image_ref": "Amsterdam-33_8_§1",
   "terme_jantzen_bat": [
+    "balcon",
+    "sculpture",
+    "clé",
+    "fenetre-d'angle",
+    "cariatide",
     "fenetre",
     "façade",
     "garde-corps",
-    "sculpture",
+    "fronton",
     "chimère",
     "atlante",
-    "fenetre-d'angle",
-    "porte-bois",
-    "clé",
-    "cariatide",
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "atlante",
     "balcon",
-    "fronton"
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "linteau",
+    "mansarde",
+    "mascaron",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "porte-fenêtre",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "vantail",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Amsterdam-33_8_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "porte-fenêtre",
+        "porte",
+        "vantail",
+        "arc en plein cintre",
+        "mascaron",
+        "pilastre",
+        "corniche",
+        "bandeau",
+        "sculpture",
+        "atlante",
+        "fer forgé",
+        "volet",
+        "chambranle",
+        "linteau",
+        "pierre de taille",
+        "toit à deux versants",
+        "souche de cheminée",
+        "mansarde"
       ],
       "dateCapture": "2006:06:17"
     },
@@ -48,6 +96,7 @@
         "fenetre-d'angle",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:17"
     },
     {
@@ -59,6 +108,7 @@
         "porte-bois",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:02"
     },
     {
@@ -68,6 +118,7 @@
         "chimère",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:17"
     },
     {
@@ -77,6 +128,7 @@
         "chimère",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:17"
     },
     {
@@ -84,6 +136,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:08:26"
     },
     {
@@ -91,6 +144,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:17"
     },
     {
@@ -100,6 +154,7 @@
         "fenetre",
         "fronton"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:17"
     },
     {
@@ -107,6 +162,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:17"
     },
     {
@@ -117,6 +173,7 @@
         "garde-corps",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:08:26"
     },
     {
@@ -125,6 +182,7 @@
         "chimère",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:17"
     },
     {
@@ -133,6 +191,7 @@
         "fenetre",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:17"
     },
     {
@@ -141,6 +200,7 @@
         "fenetre",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:02"
     }
   ]

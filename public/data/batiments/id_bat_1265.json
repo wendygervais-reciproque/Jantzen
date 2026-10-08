@@ -23,11 +23,31 @@
   "WPfr": null,
   "image_ref": "Courcelles-178_17_§1",
   "terme_jantzen_bat": [
+    "sculpture",
+    "console",
     "fenetre",
     "lucarne",
-    "console",
+    "garde-corps"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "frise",
     "garde-corps",
-    "sculpture"
+    "lucarne",
+    "mansarde",
+    "modillon",
+    "oculus",
+    "pierre de taille",
+    "porte-fenêtre",
+    "sculpture",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -35,6 +55,26 @@
       "IndexJantzen": [
         "fenetre",
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "porte-fenêtre",
+        "lucarne",
+        "mansarde",
+        "corniche",
+        "bandeau",
+        "frise",
+        "pierre de taille",
+        "ardoise",
+        "volet",
+        "sculpture",
+        "modillon",
+        "oculus",
+        "travée"
       ],
       "dateCapture": "2007:03:14"
     },
@@ -45,6 +85,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:03:14"
     },
     {
@@ -53,6 +94,7 @@
         "garde-corps",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:03:14"
     }
   ]

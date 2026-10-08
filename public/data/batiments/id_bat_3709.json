@@ -28,8 +28,23 @@
   "WPfr": null,
   "image_ref": "General-Leclerc-85_14_§1",
   "terme_jantzen_bat": [
-    "porte-fer",
-    "fenetre"
+    "fenetre",
+    "porte-fer"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "chambranle",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "mascaron",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "sculpture",
+    "vantail",
+    "volet"
   ],
   "photos": [
     {
@@ -37,6 +52,21 @@
       "IndexJantzen": [
         "fenetre",
         "porte-fer"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "portail",
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "volet",
+        "vantail",
+        "sculpture",
+        "mascaron",
+        "pierre de taille",
+        "fronton",
+        "chambranle"
       ],
       "dateCapture": "2004:04:15"
     }

@@ -26,6 +26,21 @@
     "garde-corps",
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "balcon",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "gros appareil",
+    "jambage",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "vantail",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Rollin-14_5_§1",
@@ -33,11 +48,27 @@
         "garde-corps",
         "porte-bois"
       ],
+      "IndexTorneh": [
+        "porte",
+        "arc",
+        "arc en plein cintre",
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "pierre de taille",
+        "mascaron",
+        "fenêtre",
+        "volet",
+        "vantail",
+        "jambage",
+        "gros appareil"
+      ],
       "dateCapture": "2005:08:29"
     },
     {
       "id_pic": "Rollin-14_5_B",
       "IndexJantzen": [],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:29"
     }
   ]

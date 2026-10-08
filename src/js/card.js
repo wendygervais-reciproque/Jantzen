@@ -30,7 +30,8 @@ function buildingRefImageId(data) {
   if (typeof activeFilters !== 'undefined' && activeFilters.thesaurus.size === 1) {
     const [term] = activeFilters.thesaurus;
     const normTerm = normalizeText(term);
-    const match = photos.find(ph => (ph.IndexJantzen || []).some(t => normalizeText(t) === normTerm));
+    const match = photos.find(ph =>
+      [...(ph.IndexJantzen || []), ...(ph.IndexTorneh || [])].some(t => normalizeText(t) === normTerm));
     if (match?.id_pic) return match.id_pic;
   }
 

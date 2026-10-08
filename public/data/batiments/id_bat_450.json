@@ -32,16 +32,68 @@
   "WPfr": null,
   "image_ref": "Antoine-Vollon-11_12_§1",
   "terme_jantzen_bat": [
-    "lucarne",
-    "fenetre",
     "façade",
-    "clé"
+    "clé",
+    "fenetre",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "bossage",
+    "chapiteau",
+    "colonne",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "meneau",
+    "modillon",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Antoine-Vollon-11_12_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "porte-fenêtre",
+        "garde-corps",
+        "fer forgé",
+        "mascaron",
+        "pilastre",
+        "colonne",
+        "corniche",
+        "bandeau",
+        "lucarne",
+        "mansarde",
+        "souche de cheminée",
+        "ardoise",
+        "fronton",
+        "pierre de taille",
+        "volet",
+        "meneau",
+        "travée",
+        "oculus",
+        "bossage",
+        "chapiteau",
+        "modillon"
       ],
       "dateCapture": "2004:09:16"
     },
@@ -50,6 +102,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:16"
     },
     {
@@ -59,6 +112,7 @@
         "fenetre",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:16"
     }
   ]

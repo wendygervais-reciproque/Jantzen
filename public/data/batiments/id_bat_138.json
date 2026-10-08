@@ -25,19 +25,39 @@
   "image_ref": "Sorbonne-Pl_5_§11",
   "terme_jantzen_bat": [
     "toiture",
+    "oeil-de-boeuf",
+    "dome",
+    "tour",
+    "tourelle",
+    "sculpture",
+    "pilastre",
     "fenetre",
     "lucarne",
     "façade",
-    "oeil-de-boeuf",
-    "tourelle",
-    "sculpture",
-    "dome",
-    "pilastre",
+    "fronton",
     "colonne",
     "porte-bois",
-    "tour",
-    "décor",
-    "fronton"
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "acrotère",
+    "arc en plein cintre",
+    "baie",
+    "balustrade",
+    "chapiteau corinthien",
+    "colonne",
+    "corniche",
+    "coupole",
+    "dôme",
+    "entablement",
+    "fenêtre",
+    "fronton",
+    "grille",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "sculpture"
   ],
   "photos": [
     {
@@ -45,6 +65,7 @@
       "IndexJantzen": [
         "tour"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:27"
     },
     {
@@ -53,6 +74,7 @@
         "dome",
         "tour"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:27"
     },
     {
@@ -61,6 +83,7 @@
         "dome",
         "tour"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:27"
     },
     {
@@ -70,6 +93,7 @@
         "lucarne",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:27"
     },
     {
@@ -78,6 +102,7 @@
         "fronton",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:27"
     },
     {
@@ -85,6 +110,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:27"
     },
     {
@@ -93,6 +119,7 @@
         "fronton",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:27"
     },
     {
@@ -101,6 +128,7 @@
         "fronton",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:27"
     },
     {
@@ -110,6 +138,7 @@
         "fronton",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:27"
     },
     {
@@ -118,6 +147,7 @@
         "dome",
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:22"
     },
     {
@@ -125,6 +155,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:15"
     },
     {
@@ -133,6 +164,26 @@
         "dome",
         "façade",
         "fronton"
+      ],
+      "IndexTorneh": [
+        "dôme",
+        "coupole",
+        "colonne",
+        "chapiteau corinthien",
+        "pilastre",
+        "fronton",
+        "entablement",
+        "corniche",
+        "fenêtre",
+        "arc en plein cintre",
+        "porte",
+        "sculpture",
+        "pierre de taille",
+        "baie",
+        "oculus",
+        "balustrade",
+        "acrotère",
+        "grille"
       ],
       "dateCapture": "2007:04:22"
     },
@@ -143,6 +194,7 @@
         "fronton",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:22"
     },
     {
@@ -153,6 +205,7 @@
         "pilastre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:22"
     },
     {
@@ -163,6 +216,7 @@
         "fronton",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:22"
     },
     {
@@ -170,6 +224,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:22"
     },
     {
@@ -177,6 +232,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:22"
     },
     {
@@ -184,6 +240,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:22"
     },
     {
@@ -191,6 +248,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:15"
     },
     {
@@ -198,6 +256,7 @@
       "IndexJantzen": [
         "dome"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:29"
     },
     {
@@ -205,6 +264,7 @@
       "IndexJantzen": [
         "dome"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:22"
     },
     {
@@ -212,6 +272,7 @@
       "IndexJantzen": [
         "dome"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:22"
     },
     {
@@ -219,6 +280,7 @@
       "IndexJantzen": [
         "dome"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:29"
     },
     {
@@ -226,6 +288,7 @@
       "IndexJantzen": [
         "dome"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:29"
     },
     {
@@ -234,6 +297,7 @@
         "dome",
         "tourelle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:29"
     },
     {
@@ -241,6 +305,7 @@
       "IndexJantzen": [
         "dome"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:29"
     },
     {
@@ -249,6 +314,7 @@
         "dome",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:29"
     },
     {
@@ -256,6 +322,7 @@
       "IndexJantzen": [
         "dome"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:29"
     },
     {
@@ -263,6 +330,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:29"
     },
     {
@@ -271,6 +339,7 @@
         "fronton",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:29"
     },
     {
@@ -280,6 +349,7 @@
         "oeil-de-boeuf",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:29"
     },
     {
@@ -288,6 +358,7 @@
         "colonne",
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:06"
     },
     {
@@ -295,6 +366,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:06"
     },
     {
@@ -302,6 +374,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:06"
     },
     {
@@ -309,6 +382,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:06"
     },
     {
@@ -316,6 +390,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:06"
     },
     {
@@ -324,6 +399,7 @@
         "fronton",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:29"
     },
     {
@@ -331,6 +407,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:06"
     },
     {
@@ -339,6 +416,7 @@
         "colonne",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:06"
     },
     {
@@ -347,6 +425,7 @@
         "lucarne",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:06"
     },
     {
@@ -355,6 +434,7 @@
         "lucarne",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:06"
     },
     {
@@ -362,6 +442,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:06"
     },
     {
@@ -369,6 +450,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:06"
     },
     {
@@ -376,6 +458,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:06"
     },
     {
@@ -383,6 +466,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:06"
     }
   ]

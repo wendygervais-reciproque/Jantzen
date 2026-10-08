@@ -21,11 +21,31 @@
   "WPfr": null,
   "image_ref": "Lille-de-26_7_§1",
   "terme_jantzen_bat": [
-    "façade",
-    "porte",
     "sculpture",
     "clé",
+    "façade",
+    "porte",
     "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "auvent",
+    "balcon",
+    "balustrade",
+    "bossage",
+    "chapiteau",
+    "chapiteau composite",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mansarde",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "sculpture",
+    "vantail",
+    "volet"
   ],
   "photos": [
     {
@@ -34,6 +54,26 @@
         "façade",
         "porte"
       ],
+      "IndexTorneh": [
+        "fenêtre",
+        "porte",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "corniche",
+        "pilastre",
+        "chapiteau",
+        "sculpture",
+        "bossage",
+        "pierre de taille",
+        "oculus",
+        "volet",
+        "auvent",
+        "vantail",
+        "chapiteau composite",
+        "fer forgé",
+        "mansarde"
+      ],
       "dateCapture": "2005:05:22"
     },
     {
@@ -41,6 +81,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:22"
     },
     {
@@ -49,6 +90,7 @@
         "clé",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:22"
     }
   ]

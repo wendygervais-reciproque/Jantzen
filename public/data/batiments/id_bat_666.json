@@ -30,11 +30,31 @@
   "terme_jantzen_bat": [
     "garde-corps"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "bandeau",
+    "chambranle",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "pierre de taille",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "François-Miron-12_4_§1",
       "IndexJantzen": [
         "garde-corps"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "garde-corps",
+        "balcon",
+        "fer forgé",
+        "volet",
+        "pierre de taille",
+        "chambranle",
+        "bandeau"
       ],
       "dateCapture": "2004:09:08"
     }

@@ -27,11 +27,49 @@
     "porte",
     "colonne"
   ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "chapiteau ionique",
+    "colonne",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "grille",
+    "lucarne",
+    "mansarde",
+    "porche",
+    "porte",
+    "porte-fenêtre",
+    "travée",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Cloys-rue-des-10_18_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "lucarne",
+        "mansarde",
+        "ardoise",
+        "fer forgé",
+        "colonne",
+        "chapiteau ionique",
+        "porte",
+        "porte-fenêtre",
+        "grille",
+        "volet",
+        "garde-corps",
+        "porche",
+        "travée",
+        "corniche"
       ],
       "dateCapture": "2006:06:09"
     },
@@ -41,6 +79,7 @@
         "colonne",
         "porte"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:09"
     },
     {
@@ -50,6 +89,7 @@
         "fenetre",
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:09"
     }
   ]

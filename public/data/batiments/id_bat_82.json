@@ -26,10 +26,50 @@
   "terme_jantzen_bat": [
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "ardoise",
+    "attique",
+    "baie",
+    "balustrade",
+    "chapiteau corinthien",
+    "colonne",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "grille",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "sculpture"
+  ],
   "photos": [
     {
       "id_pic": "Gare-d'Austerlitz_13_§1",
       "IndexJantzen": [],
+      "IndexTorneh": [
+        "pilastre",
+        "chapiteau corinthien",
+        "fronton",
+        "sculpture",
+        "mascaron",
+        "fenêtre",
+        "oculus",
+        "balustrade",
+        "ardoise",
+        "pierre de taille",
+        "arc",
+        "arc en plein cintre",
+        "fer forgé",
+        "grille",
+        "baie",
+        "corniche",
+        "colonne",
+        "attique"
+      ],
       "dateCapture": "2012:05:26"
     },
     {
@@ -37,6 +77,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:05:26"
     }
   ]

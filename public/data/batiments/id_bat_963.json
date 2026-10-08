@@ -32,16 +32,58 @@
   "WPfr": null,
   "image_ref": "Flandre-144_19_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "façade",
     "métal",
+    "fenetre",
     "oriel"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "auvent",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "oriel",
+    "pierre de taille",
+    "porte",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "toit à deux versants",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Flandre-144_19_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "porte-fenêtre",
+        "oriel",
+        "mansarde",
+        "lucarne",
+        "toit à deux versants",
+        "ardoise",
+        "souche de cheminée",
+        "corniche",
+        "bandeau",
+        "chaîne d'angle",
+        "pierre de taille",
+        "volet",
+        "porte",
+        "fer forgé",
+        "auvent"
       ],
       "dateCapture": "2005:08:02"
     },
@@ -52,6 +94,7 @@
         "métal",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:02"
     }
   ]

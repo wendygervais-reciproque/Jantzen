@@ -21,10 +21,33 @@
   "WPfr": null,
   "image_ref": "Condorcet-4_9_§1",
   "terme_jantzen_bat": [
-    "oeil-de-boeuf",
-    "lucarne",
     "façade",
-    "balcon"
+    "oeil-de-boeuf",
+    "balcon",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chapiteau",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "linteau",
+    "lucarne",
+    "mascaron",
+    "oculus",
+    "pilastre",
+    "porte",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "travée",
+    "vitrail",
+    "volet"
   ],
   "photos": [
     {
@@ -32,6 +55,29 @@
       "IndexJantzen": [
         "balcon",
         "façade"
+      ],
+      "IndexTorneh": [
+        "oculus",
+        "lucarne",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "volet",
+        "porte",
+        "porte-fenêtre",
+        "corniche",
+        "pilastre",
+        "chapiteau",
+        "mascaron",
+        "ardoise",
+        "souche de cheminée",
+        "travée",
+        "chaîne d'angle",
+        "linteau",
+        "bandeau",
+        "vitrail"
       ],
       "dateCapture": "2007:04:06"
     },
@@ -41,6 +87,7 @@
         "lucarne",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:06"
     },
     {
@@ -49,6 +96,7 @@
         "lucarne",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:06"
     },
     {
@@ -57,6 +105,7 @@
         "lucarne",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:09:05"
     },
     {
@@ -65,6 +114,7 @@
         "lucarne",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:11"
     }
   ]

@@ -28,12 +28,34 @@
   "WPfr": null,
   "image_ref": "Charles-Divry-4_14_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "garde-corps",
-    "console",
+    "oriel",
     "sculpture",
+    "console",
+    "fenetre",
     "métal",
-    "oriel"
+    "garde-corps"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "baie",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "bossage",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "mascaron",
+    "modillon",
+    "oriel",
+    "pierre de taille",
+    "porte-fenêtre",
+    "sculpture",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -42,6 +64,28 @@
         "fenetre",
         "oriel"
       ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "bandeau",
+        "baie",
+        "fenêtre",
+        "garde-corps",
+        "mascaron",
+        "modillon",
+        "oriel",
+        "pierre de taille",
+        "porte-fenêtre",
+        "sculpture",
+        "volet",
+        "fer forgé",
+        "arc en plein cintre",
+        "corniche",
+        "travée",
+        "fronton",
+        "bossage",
+        "chambranle"
+      ],
       "dateCapture": "2005:08:07"
     },
     {
@@ -49,6 +93,7 @@
       "IndexJantzen": [
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:07"
     },
     {
@@ -57,6 +102,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:07"
     },
     {
@@ -65,6 +111,7 @@
         "métal",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:07"
     },
     {
@@ -73,6 +120,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:07"
     }
   ]

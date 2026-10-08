@@ -28,9 +28,28 @@
   "WPfr": null,
   "image_ref": "Michel-Chasles-7b_12_§1",
   "terme_jantzen_bat": [
+    "fenetre-d'angle",
     "porte-fer-hall",
-    "dome",
-    "fenetre-d'angle"
+    "dome"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chéneau",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mascaron",
+    "pierre de taille",
+    "sculpture",
+    "souche de cheminée",
+    "volet",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -39,6 +58,25 @@
         "dome",
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [
+        "dôme",
+        "épi de faîtage",
+        "ardoise",
+        "lucarne",
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "volet",
+        "mascaron",
+        "corniche",
+        "pierre de taille",
+        "balustrade",
+        "bandeau",
+        "sculpture",
+        "chéneau",
+        "souche de cheminée"
+      ],
       "dateCapture": "2005:10:10"
     },
     {
@@ -46,6 +84,7 @@
       "IndexJantzen": [
         "porte-fer-hall"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:10:10"
     }
   ]

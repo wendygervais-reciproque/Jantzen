@@ -23,11 +23,31 @@
   "terme_jantzen_bat": [
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "chéneau",
+    "faîtage",
+    "fenêtre",
+    "lucarne",
+    "souche de cheminée",
+    "tuile",
+    "vantail",
+    "épi de faîtage"
+  ],
   "photos": [
     {
       "id_pic": "Montagne-Ste-Genevieve-4_5_§1",
       "IndexJantzen": [
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "lucarne",
+        "tuile",
+        "souche de cheminée",
+        "faîtage",
+        "épi de faîtage",
+        "fenêtre",
+        "chéneau",
+        "vantail"
       ],
       "dateCapture": "2006:06:23"
     }

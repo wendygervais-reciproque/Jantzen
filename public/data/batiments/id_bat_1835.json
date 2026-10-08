@@ -23,11 +23,31 @@
   "terme_jantzen_bat": [
     "porte-fer"
   ],
+  "terme_torneh_bat": [
+    "arc",
+    "chambranle",
+    "fer forgé",
+    "jambage",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Pasteur-Bd-25_15_§1",
       "IndexJantzen": [
         "porte-fer"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "fer forgé",
+        "arc",
+        "vantail",
+        "jambage",
+        "sculpture",
+        "pierre de taille",
+        "chambranle"
       ],
       "dateCapture": "2004:03:16"
     }

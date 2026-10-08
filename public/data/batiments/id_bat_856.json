@@ -28,10 +28,24 @@
   "WPfr": null,
   "image_ref": "Exelmans-138_16_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "brique",
+    "garde-corps",
     "façade",
-    "garde-corps"
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "fenêtre",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "oriel",
+    "porte",
+    "toit-terrasse"
   ],
   "photos": [
     {
@@ -39,6 +53,20 @@
       "IndexJantzen": [
         "brique",
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "brique",
+        "porte",
+        "oriel",
+        "lucarne",
+        "toit-terrasse",
+        "ardoise",
+        "bandeau",
+        "mansarde"
       ],
       "dateCapture": "2006:04:03"
     },
@@ -48,6 +76,7 @@
         "brique",
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:03:15"
     },
     {
@@ -56,6 +85,7 @@
         "brique",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:03:15"
     },
     {
@@ -64,6 +94,7 @@
         "brique",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:03:15"
     },
     {
@@ -73,6 +104,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:03:15"
     }
   ]

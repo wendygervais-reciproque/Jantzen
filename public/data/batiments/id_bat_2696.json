@@ -26,12 +26,34 @@
     "fenetre",
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "garde-corps",
+    "heurtoir",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Vieille-du-Temple-44_4_§1",
       "IndexJantzen": [
         "fenetre",
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "arc en plein cintre",
+        "mascaron",
+        "vantail",
+        "heurtoir",
+        "pierre de taille",
+        "balcon",
+        "garde-corps",
+        "sculpture"
       ],
       "dateCapture": "2005:07:03"
     }

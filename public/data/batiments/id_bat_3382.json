@@ -24,12 +24,40 @@
     "colonne",
     "fenetre-d'angle"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "garde-corps",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "toit-terrasse",
+    "épi de faîtage"
+  ],
   "photos": [
     {
       "id_pic": "Boucher-∆-Bourdonnais_1_",
       "IndexJantzen": [
         "colonne",
         "fenetre-d'angle"
+      ],
+      "IndexTorneh": [
+        "dôme",
+        "balustrade",
+        "corniche",
+        "pilastre",
+        "fenêtre",
+        "oculus",
+        "balcon",
+        "garde-corps",
+        "pierre de taille",
+        "épi de faîtage",
+        "mascaron",
+        "toit-terrasse"
       ],
       "dateCapture": "2005:07:16"
     }

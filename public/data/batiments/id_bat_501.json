@@ -25,12 +25,42 @@
     "fenetre",
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "bandeau",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "pierre de taille",
+    "souche de cheminée",
+    "toit à deux versants",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "St-Gilles-11_3_§1",
       "IndexJantzen": [
         "fenetre",
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "mansarde",
+        "lucarne",
+        "souche de cheminée",
+        "garde-corps",
+        "balcon",
+        "ardoise",
+        "bandeau",
+        "chambranle",
+        "corniche",
+        "toit à deux versants",
+        "pierre de taille",
+        "volet"
       ],
       "dateCapture": "2007:07:11"
     },
@@ -40,6 +70,7 @@
         "lucarne",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:07:11"
     },
     {
@@ -47,6 +78,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:07:11"
     }
   ]

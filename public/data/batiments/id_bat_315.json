@@ -21,8 +21,27 @@
   "WPfr": null,
   "image_ref": "Montyon-10_9_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "balcon"
+    "balcon",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chapiteau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "mascaron",
+    "modillon",
+    "oculus",
+    "pilastre",
+    "sculpture",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -30,6 +49,25 @@
       "IndexJantzen": [
         "balcon",
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "volet",
+        "corniche",
+        "chapiteau",
+        "pilastre",
+        "mascaron",
+        "sculpture",
+        "fer forgé",
+        "garde-corps",
+        "bandeau",
+        "modillon",
+        "arc en plein cintre",
+        "travée",
+        "fronton",
+        "oculus"
       ],
       "dateCapture": "2005:05:26"
     }

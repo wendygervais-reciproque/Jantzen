@@ -21,15 +21,45 @@
   "WPfr": null,
   "image_ref": "Astorg-2_8_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "façade",
-    "garde-corps"
+    "garde-corps",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "baie",
+    "balcon",
+    "bandeau",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "linteau",
+    "toit-terrasse",
+    "travée",
+    "vitrail",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Astorg-2_8_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "volet",
+        "garde-corps",
+        "balcon",
+        "corniche",
+        "bandeau",
+        "travée",
+        "fer forgé",
+        "chambranle",
+        "linteau",
+        "vitrail",
+        "toit-terrasse",
+        "baie"
       ],
       "dateCapture": "2007:04:09"
     },
@@ -38,6 +68,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:09"
     },
     {
@@ -46,6 +77,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:09"
     }
   ]

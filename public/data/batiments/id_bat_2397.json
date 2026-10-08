@@ -24,12 +24,40 @@
     "oeil-de-boeuf",
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balustrade",
+    "chapiteau",
+    "corniche",
+    "fenêtre",
+    "lucarne",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "sculpture",
+    "toit en pavillon",
+    "épi de faîtage"
+  ],
   "photos": [
     {
       "id_pic": "Marbeau-38_16_§1",
       "IndexJantzen": [
         "lucarne",
         "oeil-de-boeuf"
+      ],
+      "IndexTorneh": [
+        "toit en pavillon",
+        "ardoise",
+        "oculus",
+        "balustrade",
+        "fenêtre",
+        "pierre de taille",
+        "épi de faîtage",
+        "chapiteau",
+        "corniche",
+        "mascaron",
+        "sculpture",
+        "lucarne"
       ],
       "dateCapture": "2006:03:27"
     },
@@ -39,6 +67,7 @@
         "lucarne",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:03:27"
     }
   ]

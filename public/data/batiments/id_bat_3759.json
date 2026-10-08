@@ -33,18 +33,58 @@
   "image_ref": "Richard-Lenoir-bd-89_11_§1",
   "terme_jantzen_bat": [
     "toiture",
+    "dome",
+    "fenetre-d'angle",
     "fenetre",
     "lucarne",
     "façade",
-    "dome",
-    "fenetre-d'angle",
     "brique"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "avant-corps",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "oriel",
+    "pierre de taille",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée"
   ],
   "photos": [
     {
       "id_pic": "Richard-Lenoir-bd-89_11_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "lucarne",
+        "mansarde",
+        "souche de cheminée",
+        "brique",
+        "pierre de taille",
+        "ardoise",
+        "fer forgé",
+        "corniche",
+        "bandeau",
+        "travée",
+        "oriel",
+        "dôme",
+        "toit à deux versants",
+        "avant-corps"
       ],
       "dateCapture": "2009:03:20"
     },
@@ -56,6 +96,7 @@
         "lucarne",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:03:20"
     },
     {
@@ -65,6 +106,7 @@
         "fenetre-d'angle",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:15"
     },
     {
@@ -73,6 +115,7 @@
         "brique",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:15"
     },
     {
@@ -81,6 +124,7 @@
         "brique",
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:03:24"
     }
   ]

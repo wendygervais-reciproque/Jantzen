@@ -23,11 +23,37 @@
   "terme_jantzen_bat": [
     "fenetre"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "pierre de taille",
+    "pilastre",
+    "porte-fenêtre",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Prony-34_17_§1-Rs",
       "IndexJantzen": [
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "fronton",
+        "garde-corps",
+        "fer forgé",
+        "porte-fenêtre",
+        "pilastre",
+        "chambranle",
+        "fenêtre",
+        "balcon",
+        "pierre de taille",
+        "vantail",
+        "corniche"
       ],
       "dateCapture": "2008:02:17"
     }

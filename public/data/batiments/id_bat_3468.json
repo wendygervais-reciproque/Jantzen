@@ -24,11 +24,43 @@
     "console",
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "chambranle",
+    "corniche",
+    "fer forgé",
+    "garde-corps",
+    "huisserie",
+    "jambage",
+    "linteau",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Monceau-71_8_§1",
       "IndexJantzen": [
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "vantail",
+        "arc en plein cintre",
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "sculpture",
+        "pierre de taille",
+        "chambranle",
+        "jambage",
+        "corniche",
+        "linteau",
+        "huisserie",
+        "mascaron"
       ],
       "dateCapture": "2005:08:10"
     },
@@ -37,6 +69,7 @@
       "IndexJantzen": [
         "console"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:10"
     }
   ]

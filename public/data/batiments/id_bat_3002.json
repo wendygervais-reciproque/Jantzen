@@ -21,14 +21,33 @@
   "WPfr": null,
   "image_ref": "Eugene-Carriere-54_18_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "façade",
-    "console",
-    "métal",
     "oriel",
+    "console",
+    "fenetre",
     "brique",
+    "façade",
+    "métal",
     "céramique",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "chéneau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "linteau",
+    "lucarne",
+    "mansarde",
+    "oriel",
+    "pierre de taille",
+    "souche de cheminée",
+    "volet"
   ],
   "photos": [
     {
@@ -38,6 +57,25 @@
         "fenetre",
         "oriel"
       ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "brique",
+        "oriel",
+        "mansarde",
+        "lucarne",
+        "corniche",
+        "volet",
+        "fer forgé",
+        "pierre de taille",
+        "bandeau",
+        "chéneau",
+        "souche de cheminée",
+        "arc en plein cintre",
+        "linteau"
+      ],
       "dateCapture": "2006:06:09"
     },
     {
@@ -46,6 +84,7 @@
         "brique",
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:19"
     },
     {
@@ -55,6 +94,7 @@
         "céramique",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:09"
     },
     {
@@ -64,6 +104,7 @@
         "céramique",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:09"
     },
     {
@@ -74,6 +115,7 @@
         "céramique",
         "métal"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:27"
     },
     {
@@ -83,6 +125,7 @@
         "décor",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:27"
     }
   ]

@@ -23,11 +23,37 @@
   "terme_jantzen_bat": [
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "arc en anse de panier",
+    "ardoise",
+    "balcon",
+    "fenêtre",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mur-boutant",
+    "souche de cheminée",
+    "toit à deux versants",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "St-Martin-115-117_4_§1",
       "IndexJantzen": [
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "ardoise",
+        "souche de cheminée",
+        "lucarne",
+        "mansarde",
+        "fenêtre",
+        "mur-boutant",
+        "arc en anse de panier",
+        "toit à deux versants",
+        "garde-corps",
+        "balcon",
+        "volet"
       ],
       "dateCapture": "2007:04:20"
     }

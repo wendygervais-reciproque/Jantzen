@@ -24,12 +24,40 @@
     "toiture",
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "bandeau",
+    "chéneau",
+    "corniche",
+    "fenêtre",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "souche de cheminée",
+    "toit à deux versants",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "St-Antoine-41-43_4_§1",
       "IndexJantzen": [
         "lucarne",
         "toiture"
+      ],
+      "IndexTorneh": [
+        "ardoise",
+        "souche de cheminée",
+        "lucarne",
+        "fenêtre",
+        "mansarde",
+        "garde-corps",
+        "balcon",
+        "volet",
+        "corniche",
+        "toit à deux versants",
+        "chéneau",
+        "bandeau"
       ],
       "dateCapture": "2008:05:16"
     }

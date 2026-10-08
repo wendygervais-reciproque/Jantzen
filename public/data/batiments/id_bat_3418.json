@@ -23,11 +23,28 @@
   "WPfr": null,
   "image_ref": "Mail-7_2_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "sculpture",
     "pilastre",
-    "décor",
-    "colonne"
+    "fenetre",
+    "colonne",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bossage",
+    "chapiteau composite",
+    "chapiteau corinthien",
+    "corniche",
+    "fenêtre",
+    "frise",
+    "garde-corps",
+    "lucarne",
+    "pierre de taille",
+    "pilastre",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -37,6 +54,23 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [
+        "fenêtre",
+        "pilastre",
+        "chapiteau corinthien",
+        "chapiteau composite",
+        "corniche",
+        "frise",
+        "balustrade",
+        "balcon",
+        "arc en plein cintre",
+        "bossage",
+        "pierre de taille",
+        "lucarne",
+        "travée",
+        "garde-corps",
+        "volet"
+      ],
       "dateCapture": "2005:08:28"
     },
     {
@@ -44,6 +78,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:08:31"
     },
     {
@@ -54,6 +89,7 @@
         "pilastre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:28"
     },
     {
@@ -64,6 +100,7 @@
         "pilastre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:28"
     },
     {
@@ -72,6 +109,7 @@
         "pilastre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:28"
     }
   ]

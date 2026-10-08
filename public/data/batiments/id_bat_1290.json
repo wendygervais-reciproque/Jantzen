@@ -24,12 +24,36 @@
     "fenetre",
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "bossage",
+    "chambranle",
+    "fer forgé",
+    "grille",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Jonquiere-18_17_§1",
       "IndexJantzen": [
         "fenetre",
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "arc en plein cintre",
+        "mascaron",
+        "vantail",
+        "grille",
+        "fer forgé",
+        "pierre de taille",
+        "bossage",
+        "sculpture",
+        "chambranle"
       ],
       "dateCapture": "2004:09:08"
     }

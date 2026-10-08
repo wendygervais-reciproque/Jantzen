@@ -23,9 +23,30 @@
   "WPfr": null,
   "image_ref": "Clichy-Bd-62_18_b_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "sculpture",
+    "fenetre",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc brisé",
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "portail",
+    "sculpture",
+    "travée",
+    "vitrail",
+    "volet"
   ],
   "photos": [
     {
@@ -35,6 +56,27 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "volet",
+        "corniche",
+        "bandeau",
+        "mascaron",
+        "sculpture",
+        "arc en plein cintre",
+        "arc brisé",
+        "pierre de taille",
+        "travée",
+        "portail",
+        "vitrail",
+        "fer forgé",
+        "chambranle",
+        "fronton",
+        "oculus"
+      ],
       "dateCapture": "2011:09:05"
     },
     {
@@ -43,6 +85,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:09:05"
     }
   ]

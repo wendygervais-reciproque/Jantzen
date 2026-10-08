@@ -23,11 +23,31 @@
   "terme_jantzen_bat": [
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "chéneau",
+    "fenêtre",
+    "garde-corps",
+    "lucarne",
+    "souche de cheminée",
+    "tuile",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Petite-Boucherie-Passag-1_6_§1-Rx",
       "IndexJantzen": [
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "lucarne",
+        "fenêtre",
+        "tuile",
+        "souche de cheminée",
+        "garde-corps",
+        "volet",
+        "balcon",
+        "chéneau"
       ],
       "dateCapture": "2012:05:13"
     },
@@ -36,6 +56,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:05:13"
     }
   ]

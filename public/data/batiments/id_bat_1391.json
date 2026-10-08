@@ -21,8 +21,18 @@
   "WPfr": null,
   "image_ref": "La-Fayette-191_10_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "pignon"
+    "pignon",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mansarde",
+    "souche de cheminée",
+    "volet"
   ],
   "photos": [
     {
@@ -30,6 +40,16 @@
       "IndexJantzen": [
         "fenetre",
         "pignon"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "volet",
+        "souche de cheminée",
+        "mansarde",
+        "fer forgé",
+        "balustrade"
       ],
       "dateCapture": "2004:05:19"
     }

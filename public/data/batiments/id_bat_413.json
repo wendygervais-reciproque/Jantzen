@@ -29,12 +29,33 @@
   "image_ref": "Raspail-107_6_§1-Rs",
   "terme_jantzen_bat": [
     "oeil-de-boeuf",
+    "dome",
     "façade-d'angle",
     "sculpture",
-    "dome",
     "fenetre-d'angle",
     "lucarne-d'angle",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée"
   ],
   "photos": [
     {
@@ -42,6 +63,27 @@
       "IndexJantzen": [
         "dome",
         "fenetre-d'angle"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "oculus",
+        "mascaron",
+        "souche de cheminée",
+        "mansarde",
+        "ardoise",
+        "pierre de taille",
+        "fer forgé",
+        "corniche",
+        "fronton",
+        "bandeau",
+        "sculpture",
+        "travée",
+        "toit à deux versants",
+        "lucarne",
+        "chaîne d'angle"
       ],
       "dateCapture": "2008:02:11"
     },
@@ -51,6 +93,7 @@
         "dome",
         "façade-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:10:03"
     },
     {
@@ -61,6 +104,7 @@
         "oeil-de-boeuf",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:11"
     },
     {
@@ -69,6 +113,7 @@
         "lucarne-d'angle",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:10:03"
     },
     {
@@ -77,6 +122,7 @@
         "lucarne-d'angle",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:11"
     }
   ]

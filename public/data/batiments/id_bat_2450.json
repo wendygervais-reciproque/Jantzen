@@ -23,17 +23,48 @@
   "terme_jantzen_bat": [
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "brique",
+    "chéneau",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "pierre de taille",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Messine-Av-4_8_1",
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [
+        "lucarne",
+        "souche de cheminée",
+        "ardoise",
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "porte-fenêtre",
+        "volet",
+        "fenêtre",
+        "mansarde",
+        "pierre de taille",
+        "chéneau",
+        "brique"
+      ],
       "dateCapture": "2006:03:23"
     },
     {
       "id_pic": "Messine-Av-4_8_2_DxO",
       "IndexJantzen": [],
+      "IndexTorneh": [],
       "dateCapture": "2012:04:30"
     }
   ]

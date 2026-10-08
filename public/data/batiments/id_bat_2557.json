@@ -21,11 +21,31 @@
   "WPfr": null,
   "image_ref": "Ternes-Av-40_17_§1",
   "terme_jantzen_bat": [
-    "lucarne",
     "dome",
     "fenetre-d'angle",
+    "lucarne",
     "lucarne-d'angle",
     "colonne"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "chapiteau ionique",
+    "colonne",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "oriel",
+    "pierre de taille",
+    "pilastre",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "volet"
   ],
   "photos": [
     {
@@ -33,6 +53,26 @@
       "IndexJantzen": [
         "dome",
         "fenetre-d'angle"
+      ],
+      "IndexTorneh": [
+        "dôme",
+        "lucarne",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "porte-fenêtre",
+        "colonne",
+        "chapiteau ionique",
+        "pilastre",
+        "souche de cheminée",
+        "pierre de taille",
+        "arc en plein cintre",
+        "oriel",
+        "volet",
+        "fronton",
+        "ardoise"
       ],
       "dateCapture": "2005:01:21"
     },
@@ -44,6 +84,7 @@
         "fenetre-d'angle",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:12:10"
     },
     {
@@ -52,6 +93,7 @@
         "dome",
         "lucarne-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:12:10"
     }
   ]

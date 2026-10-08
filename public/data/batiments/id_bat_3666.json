@@ -23,11 +23,45 @@
   "terme_jantzen_bat": [
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "chambranle",
+    "fer forgé",
+    "garde-corps",
+    "grille",
+    "jambage",
+    "linteau",
+    "pierre de taille",
+    "pilastre",
+    "portail",
+    "porte",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Maleshesbes-80_8_§1",
       "IndexJantzen": [
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "portail",
+        "vantail",
+        "arc en plein cintre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "grille",
+        "pierre de taille",
+        "sculpture",
+        "chambranle",
+        "linteau",
+        "jambage",
+        "pilastre"
       ],
       "dateCapture": "2004:04:25"
     }

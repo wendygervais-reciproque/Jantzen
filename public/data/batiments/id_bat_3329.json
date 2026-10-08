@@ -22,8 +22,32 @@
   "image_ref": "Champs-Elysees-68_8_§1-Rs",
   "terme_jantzen_bat": [
     "façade",
-    "métal",
-    "oriel"
+    "oriel",
+    "métal"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "colonne",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "grille",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oriel",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "toit à deux versants",
+    "verrière",
+    "vitrail"
   ],
   "photos": [
     {
@@ -31,6 +55,30 @@
       "IndexJantzen": [
         "façade",
         "oriel"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "oriel",
+        "lucarne",
+        "mansarde",
+        "fronton",
+        "mascaron",
+        "arc en plein cintre",
+        "arc",
+        "corniche",
+        "pierre de taille",
+        "toit à deux versants",
+        "ardoise",
+        "verrière",
+        "vitrail",
+        "grille",
+        "porte",
+        "colonne",
+        "pilastre",
+        "fer forgé"
       ],
       "dateCapture": "2008:03:31"
     },
@@ -40,6 +88,7 @@
         "façade",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:03:31"
     },
     {
@@ -48,6 +97,7 @@
         "métal",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:03:31"
     }
   ]

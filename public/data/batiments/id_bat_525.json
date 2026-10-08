@@ -29,8 +29,30 @@
   "image_ref": "Jemmapes-Qu-112_10_§1",
   "terme_jantzen_bat": [
     "brique",
-    "façade",
-    "oriel"
+    "oriel",
+    "façade"
+  ],
+  "terme_torneh_bat": [
+    "arc brisé",
+    "arc en plein cintre",
+    "auvent",
+    "baie",
+    "balcon",
+    "balustrade",
+    "brique",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "grille",
+    "marquise",
+    "oriel",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "soupirail",
+    "travée",
+    "vitrail",
+    "volet"
   ],
   "photos": [
     {
@@ -38,6 +60,28 @@
       "IndexJantzen": [
         "brique",
         "façade"
+      ],
+      "IndexTorneh": [
+        "baie",
+        "balcon",
+        "balustrade",
+        "brique",
+        "fenêtre",
+        "fer forgé",
+        "grille",
+        "oriel",
+        "pierre de taille",
+        "porte",
+        "portail",
+        "travée",
+        "vitrail",
+        "volet",
+        "arc en plein cintre",
+        "arc brisé",
+        "auvent",
+        "garde-corps",
+        "marquise",
+        "soupirail"
       ],
       "dateCapture": "2007:03:26"
     },
@@ -48,6 +92,7 @@
         "façade",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:03:26"
     },
     {
@@ -56,6 +101,7 @@
         "brique",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:03:26"
     }
   ]

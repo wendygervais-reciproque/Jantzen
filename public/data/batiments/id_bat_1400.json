@@ -21,9 +21,29 @@
   "WPfr": null,
   "image_ref": "Legendre-19b_17_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "sculpture",
+    "fenetre",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oriel",
+    "pierre de taille",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "volet"
   ],
   "photos": [
     {
@@ -33,6 +53,26 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "garde-corps",
+        "lucarne",
+        "mansarde",
+        "mascaron",
+        "souche de cheminée",
+        "corniche",
+        "bandeau",
+        "arc en plein cintre",
+        "pierre de taille",
+        "toit à deux versants",
+        "ardoise",
+        "oriel",
+        "sculpture",
+        "volet",
+        "fer forgé"
+      ],
       "dateCapture": "2004:10:05"
     },
     {
@@ -41,6 +81,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:10:05"
     }
   ]

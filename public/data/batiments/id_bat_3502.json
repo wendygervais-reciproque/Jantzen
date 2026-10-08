@@ -23,11 +23,33 @@
   "terme_jantzen_bat": [
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "arc en anse de panier",
+    "ardoise",
+    "chéneau",
+    "corniche",
+    "fenêtre",
+    "lucarne",
+    "mansarde",
+    "pierre de taille",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Malesherbes-74_8_§1",
       "IndexJantzen": [
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "lucarne",
+        "ardoise",
+        "corniche",
+        "chéneau",
+        "arc en anse de panier",
+        "fenêtre",
+        "volet",
+        "mansarde",
+        "pierre de taille"
       ],
       "dateCapture": "2005:08:10"
     }

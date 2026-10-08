@@ -23,11 +23,29 @@
   "terme_jantzen_bat": [
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "bandeau",
+    "faîtage",
+    "fenêtre",
+    "lucarne",
+    "toit à deux versants",
+    "tuile",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Ursins-7_4_§1",
       "IndexJantzen": [
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "lucarne",
+        "fenêtre",
+        "toit à deux versants",
+        "tuile",
+        "faîtage",
+        "vantail",
+        "bandeau"
       ],
       "dateCapture": "2003:07:12"
     }

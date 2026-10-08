@@ -21,8 +21,28 @@
   "WPfr": null,
   "image_ref": "Laplace-9_5_§1",
   "terme_jantzen_bat": [
-    "porte-fer",
-    "céramique"
+    "céramique",
+    "porte-fer"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "arcade",
+    "baie",
+    "balcon",
+    "balustrade",
+    "brique",
+    "chaîne d'angle",
+    "céramique",
+    "fenêtre",
+    "fer forgé",
+    "frise",
+    "garde-corps",
+    "grille",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "volet"
   ],
   "photos": [
     {
@@ -30,6 +50,26 @@
       "IndexJantzen": [
         "céramique",
         "porte-fer"
+      ],
+      "IndexTorneh": [
+        "arc",
+        "arc en plein cintre",
+        "balcon",
+        "balustrade",
+        "baie",
+        "brique",
+        "céramique",
+        "fenêtre",
+        "fer forgé",
+        "frise",
+        "garde-corps",
+        "grille",
+        "porte",
+        "portail",
+        "pierre de taille",
+        "volet",
+        "chaîne d'angle",
+        "arcade"
       ],
       "dateCapture": "2005:05:27"
     }

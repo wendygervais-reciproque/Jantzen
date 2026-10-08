@@ -23,11 +23,41 @@
   "terme_jantzen_bat": [
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "acrotère",
+    "ardoise",
+    "brique",
+    "corniche",
+    "fenêtre",
+    "frise",
+    "fronton",
+    "lucarne",
+    "mascaron",
+    "modillon",
+    "pierre de taille",
+    "porte-fenêtre",
+    "souche de cheminée"
+  ],
   "photos": [
     {
       "id_pic": "Euler-2_8_§1",
       "IndexJantzen": [
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "lucarne",
+        "fronton",
+        "corniche",
+        "modillon",
+        "ardoise",
+        "souche de cheminée",
+        "fenêtre",
+        "porte-fenêtre",
+        "acrotère",
+        "frise",
+        "pierre de taille",
+        "brique",
+        "mascaron"
       ],
       "dateCapture": "2004:10:19"
     }

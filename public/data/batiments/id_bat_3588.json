@@ -21,10 +21,31 @@
   "WPfr": null,
   "image_ref": "Victor-Hugo-8_16_§1",
   "terme_jantzen_bat": [
-    "fenetre",
+    "pilastre",
     "sculpture",
-    "décor",
-    "pilastre"
+    "fenetre",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chapiteau corinthien",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mascaron",
+    "modillon",
+    "pierre de taille",
+    "pilastre",
+    "sculpture",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -34,6 +55,27 @@
         "fenetre",
         "pilastre",
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "lucarne",
+        "mascaron",
+        "pilastre",
+        "chapiteau corinthien",
+        "corniche",
+        "bandeau",
+        "fronton",
+        "travée",
+        "arc en plein cintre",
+        "ardoise",
+        "pierre de taille",
+        "modillon",
+        "sculpture",
+        "volet"
       ],
       "dateCapture": "2005:03:16"
     }

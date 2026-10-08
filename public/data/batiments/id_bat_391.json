@@ -29,16 +29,56 @@
   "image_ref": "Ternes-Av-104_17_§1",
   "terme_jantzen_bat": [
     "porte-fer",
-    "fenetre",
-    "console",
     "sculpture",
-    "clé"
+    "clé",
+    "console",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "modillon",
+    "pierre de taille",
+    "pilastre",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Ternes-Av-104_17_§1",
       "IndexJantzen": [
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "corniche",
+        "fenêtre",
+        "garde-corps",
+        "lucarne",
+        "mansarde",
+        "modillon",
+        "pierre de taille",
+        "souche de cheminée",
+        "toit à deux versants",
+        "ardoise",
+        "arc en plein cintre",
+        "fer forgé",
+        "pilastre",
+        "sculpture",
+        "volet",
+        "mascaron"
       ],
       "dateCapture": "2007:02:03"
     },
@@ -48,6 +88,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:02:03"
     },
     {
@@ -56,6 +97,7 @@
         "clé",
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": null
     },
     {
@@ -64,6 +106,7 @@
         "clé",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:02:03"
     }
   ]

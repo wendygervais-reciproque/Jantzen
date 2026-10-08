@@ -33,12 +33,33 @@
   "image_ref": "Exelmans-133_16_§1-Dx",
   "terme_jantzen_bat": [
     "toiture",
-    "fenetre",
-    "façade",
+    "sculpture",
     "console",
+    "fenetre",
     "lucarne",
+    "façade",
+    "garde-corps"
+  ],
+  "terme_torneh_bat": [
+    "arc en anse de panier",
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "chéneau",
+    "fenêtre",
     "garde-corps",
-    "sculpture"
+    "lucarne",
+    "mansarde",
+    "oculus",
+    "oriel",
+    "pierre de taille",
+    "porte",
+    "porte-fenêtre",
+    "sculpture",
+    "souche de cheminée",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -47,12 +68,34 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:03"
     },
     {
       "id_pic": "Exelmans-133_16_§1-Dx",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "fenêtre",
+        "lucarne",
+        "mansarde",
+        "oriel",
+        "arc en plein cintre",
+        "arc en anse de panier",
+        "souche de cheminée",
+        "ardoise",
+        "pierre de taille",
+        "sculpture",
+        "porte",
+        "porte-fenêtre",
+        "volet",
+        "travée",
+        "chéneau",
+        "oculus"
       ],
       "dateCapture": "2014:03:09"
     },
@@ -62,6 +105,7 @@
         "fenetre",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2014:03:09"
     },
     {
@@ -69,6 +113,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:03"
     },
     {
@@ -76,6 +121,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:04:10"
     },
     {
@@ -83,6 +129,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:03"
     },
     {
@@ -90,6 +137,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:03"
     },
     {
@@ -97,6 +145,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:03"
     },
     {
@@ -105,6 +154,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:03"
     }
   ]

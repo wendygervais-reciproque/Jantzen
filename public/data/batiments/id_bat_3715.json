@@ -32,10 +32,31 @@
   "WPfr": null,
   "image_ref": "Convention-85_15_§1",
   "terme_jantzen_bat": [
-    "lucarne-d'angle",
     "balcon",
+    "lucarne-d'angle",
     "dome",
     "façade-d'angle"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "oriel",
+    "pierre de taille",
+    "sculpture",
+    "travée",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -43,6 +64,27 @@
       "IndexJantzen": [
         "dome",
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "lucarne",
+        "dôme",
+        "mansarde",
+        "corniche",
+        "bandeau",
+        "pierre de taille",
+        "fer forgé",
+        "ardoise",
+        "épi de faîtage",
+        "travée",
+        "oculus",
+        "sculpture",
+        "mascaron",
+        "fronton",
+        "oriel"
       ],
       "dateCapture": "2005:04:21"
     },
@@ -52,6 +94,7 @@
         "balcon",
         "lucarne-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:21"
     }
   ]

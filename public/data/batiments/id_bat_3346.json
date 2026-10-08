@@ -28,17 +28,61 @@
   "WPfr": null,
   "image_ref": "Courcelles-bd-68b_17_§1",
   "terme_jantzen_bat": [
+    "dome",
     "porte-fer",
     "lucarne",
     "façade",
-    "dome",
     "colonne"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Courcelles-bd-68b_17_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "lucarne",
+        "mansarde",
+        "arc en plein cintre",
+        "pilastre",
+        "corniche",
+        "bandeau",
+        "souche de cheminée",
+        "mascaron",
+        "pierre de taille",
+        "volet",
+        "ardoise",
+        "travée",
+        "oculus",
+        "sculpture",
+        "fer forgé",
+        "toit à deux versants"
       ],
       "dateCapture": "2010:04:11"
     },
@@ -48,6 +92,7 @@
         "dome",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:04:11"
     },
     {
@@ -56,6 +101,7 @@
         "colonne",
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:09"
     }
   ]

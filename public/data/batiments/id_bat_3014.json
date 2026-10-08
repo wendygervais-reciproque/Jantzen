@@ -36,15 +36,39 @@
   "WPfr": null,
   "image_ref": "Voltaire-qu-55_7_§1",
   "terme_jantzen_bat": [
-    "lucarne",
-    "façade-d'angle",
-    "sculpture",
     "dome",
+    "façade-d'angle",
+    "balcon",
+    "sculpture",
     "fenetre-d'angle",
     "cariatide",
-    "décor",
+    "lucarne",
+    "colonne",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "atlante",
     "balcon",
-    "colonne"
+    "balustrade",
+    "bandeau",
+    "cariatide",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "sculpture",
+    "souche de cheminée",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -53,6 +77,30 @@
         "dome",
         "façade-d'angle"
       ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "lucarne",
+        "mansarde",
+        "cariatide",
+        "atlante",
+        "balustrade",
+        "corniche",
+        "bandeau",
+        "pilastre",
+        "fronton",
+        "volet",
+        "souche de cheminée",
+        "dôme",
+        "oculus",
+        "sculpture",
+        "mascaron",
+        "ardoise",
+        "pierre de taille",
+        "travée",
+        "fer forgé"
+      ],
       "dateCapture": "2005:05:09"
     },
     {
@@ -60,6 +108,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:03"
     },
     {
@@ -68,6 +117,7 @@
         "balcon",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:03"
     },
     {
@@ -75,6 +125,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:03"
     },
     {
@@ -82,6 +133,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:06:23"
     },
     {
@@ -89,6 +141,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:03"
     },
     {
@@ -96,6 +149,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:09"
     },
     {
@@ -103,6 +157,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:06:23"
     },
     {
@@ -113,6 +168,7 @@
         "fenetre-d'angle",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:09"
     },
     {
@@ -122,6 +178,7 @@
         "fenetre-d'angle",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:06:23"
     },
     {
@@ -131,6 +188,7 @@
         "fenetre-d'angle",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:09"
     },
     {
@@ -140,6 +198,7 @@
         "fenetre-d'angle",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:03"
     },
     {
@@ -148,6 +207,7 @@
         "cariatide",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:03"
     },
     {
@@ -156,6 +216,7 @@
         "cariatide",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:03"
     },
     {
@@ -164,6 +225,7 @@
         "cariatide",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:06:23"
     },
     {
@@ -174,6 +236,7 @@
         "fenetre-d'angle",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:06:23"
     },
     {
@@ -184,6 +247,7 @@
         "fenetre-d'angle",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:09"
     },
     {
@@ -195,6 +259,7 @@
         "lucarne",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:06:23"
     },
     {
@@ -206,6 +271,7 @@
         "lucarne",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:09"
     },
     {
@@ -217,6 +283,7 @@
         "lucarne",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:09"
     },
     {
@@ -226,6 +293,7 @@
         "fenetre-d'angle",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:03"
     },
     {
@@ -236,6 +304,7 @@
         "fenetre-d'angle",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:17"
     }
   ]

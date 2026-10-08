@@ -28,16 +28,36 @@
   "WPfr": null,
   "image_ref": "Georges-Berger-10_17_§1",
   "terme_jantzen_bat": [
+    "verrière",
+    "balcon",
     "porte-fer",
+    "pignon",
+    "sculpture",
     "fenetre",
     "lucarne",
     "façade",
-    "pignon",
-    "garde-corps",
-    "sculpture",
+    "porte-fer-hall",
+    "garde-corps"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "attique",
     "balcon",
-    "verrière",
-    "porte-fer-hall"
+    "balustrade",
+    "bandeau",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "grille",
+    "lucarne",
+    "mascaron",
+    "oriel",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "sculpture",
+    "souche de cheminée",
+    "volet"
   ],
   "photos": [
     {
@@ -45,6 +65,26 @@
       "IndexJantzen": [
         "façade",
         "pignon"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "oriel",
+        "mascaron",
+        "pierre de taille",
+        "souche de cheminée",
+        "lucarne",
+        "porte",
+        "portail",
+        "arc en plein cintre",
+        "volet",
+        "bandeau",
+        "attique",
+        "sculpture",
+        "grille"
       ],
       "dateCapture": "2005:03:20"
     },
@@ -55,6 +95,7 @@
         "sculpture",
         "verrière"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:03:20"
     },
     {
@@ -62,6 +103,7 @@
       "IndexJantzen": [
         "porte-fer-hall"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:05:27"
     },
     {
@@ -69,6 +111,7 @@
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2014:03:20"
     },
     {
@@ -76,6 +119,7 @@
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:04:19"
     },
     {
@@ -84,6 +128,7 @@
         "façade",
         "pignon"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2014:03:20"
     },
     {
@@ -92,6 +137,7 @@
         "façade",
         "pignon"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2014:02:19"
     },
     {
@@ -99,6 +145,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:04:19"
     },
     {
@@ -108,6 +155,7 @@
         "lucarne",
         "pignon"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:03:20"
     },
     {
@@ -117,6 +165,7 @@
         "lucarne",
         "pignon"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:04:19"
     },
     {
@@ -126,6 +175,7 @@
         "lucarne",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:03:20"
     },
     {
@@ -135,6 +185,7 @@
         "sculpture",
         "verrière"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:05:26"
     },
     {
@@ -145,6 +196,7 @@
         "pignon",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:03:20"
     },
     {
@@ -154,6 +206,7 @@
         "pignon",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:05:26"
     }
   ]

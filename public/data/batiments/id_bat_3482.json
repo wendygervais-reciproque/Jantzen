@@ -23,11 +23,35 @@
   "terme_jantzen_bat": [
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "chéneau",
+    "corniche",
+    "faîtage",
+    "fenêtre",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Malesherbes-72_8_§1",
       "IndexJantzen": [
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "lucarne",
+        "mansarde",
+        "ardoise",
+        "corniche",
+        "arc en plein cintre",
+        "fenêtre",
+        "volet",
+        "garde-corps",
+        "chéneau",
+        "faîtage"
       ],
       "dateCapture": "2005:08:10"
     }

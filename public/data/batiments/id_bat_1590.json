@@ -21,15 +21,47 @@
   "WPfr": null,
   "image_ref": "Soufflot-20_5_§1",
   "terme_jantzen_bat": [
-    "fenetre",
+    "pilastre",
     "garde-corps",
-    "pilastre"
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer",
+    "fer forgé",
+    "garde-corps",
+    "mansarde",
+    "mascaron",
+    "pierre de taille",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Soufflot-20_5_§1",
       "IndexJantzen": [
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "garde-corps",
+        "fer forgé",
+        "corniche",
+        "bandeau",
+        "volet",
+        "mascaron",
+        "pierre de taille",
+        "ardoise",
+        "mansarde",
+        "travée",
+        "fer"
       ],
       "dateCapture": "2006:06:23"
     },
@@ -38,6 +70,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:23"
     },
     {
@@ -47,6 +80,7 @@
         "garde-corps",
         "pilastre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:23"
     }
   ]

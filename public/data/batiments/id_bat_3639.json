@@ -23,9 +23,22 @@
   "WPfr": null,
   "image_ref": "Elzevir-8_3_§1",
   "terme_jantzen_bat": [
+    "fronton",
     "fenetre",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "ardoise",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "fronton",
     "lucarne",
-    "fronton"
+    "pierre de taille",
+    "sculpture",
+    "travée"
   ],
   "photos": [
     {
@@ -33,6 +46,19 @@
       "IndexJantzen": [
         "fenetre",
         "fronton"
+      ],
+      "IndexTorneh": [
+        "fronton",
+        "fenêtre",
+        "ardoise",
+        "pierre de taille",
+        "arc en plein cintre",
+        "sculpture",
+        "corniche",
+        "lucarne",
+        "chaîne d'angle",
+        "arc",
+        "travée"
       ],
       "dateCapture": "2003:08:01"
     },
@@ -43,6 +69,7 @@
         "fronton",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:08:01"
     },
     {
@@ -51,6 +78,7 @@
         "fronton",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:08:01"
     }
   ]

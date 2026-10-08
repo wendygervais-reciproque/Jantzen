@@ -28,15 +28,33 @@
   "WPfr": null,
   "image_ref": "Convention-170_15_§1",
   "terme_jantzen_bat": [
+    "porte-fer-hall",
     "sculpture",
-    "console",
-    "porte-fer-hall"
+    "console"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "fer forgé",
+    "grille",
+    "pierre de taille",
+    "portail",
+    "sculpture",
+    "vantail"
   ],
   "photos": [
     {
       "id_pic": "Convention-170_15_§1",
       "IndexJantzen": [
         "porte-fer-hall"
+      ],
+      "IndexTorneh": [
+        "arc en plein cintre",
+        "portail",
+        "grille",
+        "fer forgé",
+        "sculpture",
+        "pierre de taille",
+        "vantail"
       ],
       "dateCapture": "2004:03:16"
     },
@@ -46,6 +64,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:03:16"
     }
   ]

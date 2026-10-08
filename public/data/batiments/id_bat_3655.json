@@ -32,8 +32,21 @@
   "WPfr": null,
   "image_ref": "Poirier-Narcay-8_14_§1",
   "terme_jantzen_bat": [
-    "porte-bois",
-    "clé"
+    "clé",
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "balcon",
+    "fer forgé",
+    "garde-corps",
+    "gros appareil",
+    "jambage",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "vantail"
   ],
   "photos": [
     {
@@ -41,6 +54,19 @@
       "IndexJantzen": [
         "clé",
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "arc",
+        "mascaron",
+        "sculpture",
+        "pierre de taille",
+        "vantail",
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "jambage",
+        "gros appareil"
       ],
       "dateCapture": "2005:04:27"
     }

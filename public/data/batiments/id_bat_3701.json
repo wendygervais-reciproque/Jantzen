@@ -28,9 +28,26 @@
   "WPfr": null,
   "image_ref": "St-Germain-83_6_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "façade",
-    "colonne"
+    "colonne",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "balustrade",
+    "chapiteau corinthien",
+    "chapiteau ionique",
+    "colonne",
+    "corniche",
+    "entablement",
+    "fenêtre",
+    "frise",
+    "garde-corps",
+    "grille",
+    "pierre de taille",
+    "pilastre",
+    "sculpture",
+    "soupirail",
+    "travée"
   ],
   "photos": [
     {
@@ -38,6 +55,23 @@
       "IndexJantzen": [
         "colonne",
         "façade"
+      ],
+      "IndexTorneh": [
+        "colonne",
+        "chapiteau ionique",
+        "chapiteau corinthien",
+        "fenêtre",
+        "corniche",
+        "frise",
+        "entablement",
+        "pierre de taille",
+        "balustrade",
+        "grille",
+        "garde-corps",
+        "pilastre",
+        "travée",
+        "sculpture",
+        "soupirail"
       ],
       "dateCapture": "2010:06:05"
     },
@@ -47,6 +81,7 @@
         "colonne",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:06:05"
     }
   ]

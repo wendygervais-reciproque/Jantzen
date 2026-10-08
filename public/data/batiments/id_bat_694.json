@@ -36,23 +36,75 @@
   "WPfr": null,
   "image_ref": "Sedillot-12_7_§1",
   "terme_jantzen_bat": [
+    "colonne",
     "porte-fer",
+    "sculpture",
+    "console",
     "fenetre",
     "lucarne",
     "façade",
-    "console",
-    "garde-corps",
-    "sculpture",
-    "chimère",
     "métal",
-    "décor",
-    "colonne"
+    "chimère",
+    "garde-corps",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "baie",
+    "balcon",
+    "balustrade",
+    "chapiteau",
+    "colonne",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "grille",
+    "lucarne",
+    "mascaron",
+    "oculus",
+    "oriel",
+    "pierre de taille",
+    "pilastre",
+    "portail",
+    "porte",
+    "sculpture",
+    "soupirail",
+    "vantail",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Sedillot-12_7_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "baie",
+        "fenêtre",
+        "lucarne",
+        "oriel",
+        "oculus",
+        "sculpture",
+        "mascaron",
+        "garde-corps",
+        "fer forgé",
+        "grille",
+        "porte",
+        "portail",
+        "vantail",
+        "pierre de taille",
+        "corniche",
+        "ardoise",
+        "dôme",
+        "colonne",
+        "chapiteau",
+        "pilastre",
+        "soupirail",
+        "volet"
       ],
       "dateCapture": "2008:08:23"
     },
@@ -62,6 +114,7 @@
         "lucarne",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:02"
     },
     {
@@ -70,6 +123,7 @@
         "lucarne",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:08"
     },
     {
@@ -78,6 +132,7 @@
         "lucarne",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:07:05"
     },
     {
@@ -85,6 +140,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:08"
     },
     {
@@ -93,6 +149,7 @@
         "lucarne",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:08"
     },
     {
@@ -100,6 +157,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:08"
     },
     {
@@ -107,6 +165,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:08"
     },
     {
@@ -114,6 +173,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:08"
     },
     {
@@ -124,6 +184,7 @@
         "lucarne",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:08:27"
     },
     {
@@ -131,6 +192,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:02"
     },
     {
@@ -139,6 +201,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:07:05"
     },
     {
@@ -147,6 +210,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:02"
     },
     {
@@ -156,6 +220,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:07:05"
     },
     {
@@ -165,6 +230,7 @@
         "garde-corps",
         "métal"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:08"
     },
     {
@@ -174,6 +240,7 @@
         "garde-corps",
         "métal"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:07:05"
     },
     {
@@ -181,6 +248,7 @@
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:08:27"
     },
     {
@@ -190,6 +258,7 @@
         "porte-fer",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:08"
     },
     {
@@ -199,6 +268,7 @@
         "porte-fer",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:08"
     },
     {
@@ -206,6 +276,7 @@
       "IndexJantzen": [
         "colonne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:08:21"
     },
     {
@@ -215,6 +286,7 @@
         "porte-fer",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:08"
     },
     {
@@ -222,6 +294,7 @@
       "IndexJantzen": [
         "colonne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:08:21"
     },
     {
@@ -232,6 +305,7 @@
         "lucarne",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:07:05"
     },
     {
@@ -241,6 +315,7 @@
         "lucarne",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:08"
     },
     {
@@ -250,6 +325,7 @@
         "lucarne",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:02"
     }
   ]

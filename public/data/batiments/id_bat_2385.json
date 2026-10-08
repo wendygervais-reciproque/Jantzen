@@ -21,12 +21,35 @@
   "WPfr": null,
   "image_ref": "Lubeck-38_16_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "façade-d'angle",
     "dome",
-    "porte-bois",
+    "façade-d'angle",
     "tour",
-    "colonne"
+    "fenetre",
+    "colonne",
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "avant-corps",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chapiteau corinthien",
+    "colonne",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "souche de cheminée",
+    "tour",
+    "volet",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -37,6 +60,29 @@
         "façade-d'angle",
         "tour"
       ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "lucarne",
+        "mansarde",
+        "dôme",
+        "souche de cheminée",
+        "colonne",
+        "pilastre",
+        "chapiteau corinthien",
+        "corniche",
+        "bandeau",
+        "pierre de taille",
+        "ardoise",
+        "volet",
+        "oculus",
+        "épi de faîtage",
+        "avant-corps",
+        "tour",
+        "fer forgé"
+      ],
       "dateCapture": "2004:10:22"
     },
     {
@@ -45,6 +91,7 @@
         "fenetre",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:10:22"
     }
   ]

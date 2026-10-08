@@ -21,8 +21,26 @@
   "WPfr": null,
   "image_ref": "Georges-Ville-14_16_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "porte-fer-hall"
+    "porte-fer-hall",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "baie",
+    "balcon",
+    "balustrade",
+    "chambranle",
+    "fenêtre",
+    "fer forgé",
+    "grille",
+    "gros appareil",
+    "mascaron",
+    "pierre de taille",
+    "porche",
+    "porte",
+    "sculpture",
+    "vantail",
+    "volet"
   ],
   "photos": [
     {
@@ -31,6 +49,24 @@
         "fenetre",
         "porte-fer-hall"
       ],
+      "IndexTorneh": [
+        "arc en plein cintre",
+        "baie",
+        "balcon",
+        "balustrade",
+        "chambranle",
+        "fer forgé",
+        "fenêtre",
+        "gros appareil",
+        "grille",
+        "mascaron",
+        "pierre de taille",
+        "porte",
+        "porche",
+        "sculpture",
+        "vantail",
+        "volet"
+      ],
       "dateCapture": "2005:04:30"
     },
     {
@@ -38,6 +74,7 @@
       "IndexJantzen": [
         "porte-fer-hall"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:30"
     }
   ]

@@ -28,10 +28,25 @@
   "WPfr": null,
   "image_ref": "Chaptal-9_9_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "sculpture",
-    "décor",
-    "porte-bois"
+    "porte-bois",
+    "fenetre",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "pierre de taille",
+    "pilastre",
+    "sculpture",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -41,6 +56,21 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "volet",
+        "pierre de taille",
+        "sculpture",
+        "mascaron",
+        "bandeau",
+        "chambranle",
+        "travée",
+        "fer forgé",
+        "pilastre"
+      ],
       "dateCapture": "2010:04:28"
     },
     {
@@ -49,6 +79,7 @@
         "fenetre",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:04:28"
     }
   ]

@@ -23,11 +23,30 @@
   "WPfr": null,
   "image_ref": "La-Tremoille-14_8_§1",
   "terme_jantzen_bat": [
-    "garde-corps",
-    "métal",
+    "balcon",
     "oriel",
+    "métal",
     "céramique",
-    "balcon"
+    "garde-corps"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "chambranle",
+    "corniche",
+    "céramique",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "sculpture",
+    "toit à deux versants"
   ],
   "photos": [
     {
@@ -36,6 +55,25 @@
         "céramique",
         "métal",
         "oriel"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fer forgé",
+        "fenêtre",
+        "garde-corps",
+        "mansarde",
+        "lucarne",
+        "pilastre",
+        "corniche",
+        "sculpture",
+        "mascaron",
+        "céramique",
+        "oculus",
+        "pierre de taille",
+        "toit à deux versants",
+        "ardoise",
+        "chambranle"
       ],
       "dateCapture": "2004:10:21"
     },
@@ -46,6 +84,7 @@
         "métal",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:10:21"
     },
     {
@@ -55,6 +94,7 @@
         "métal",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:10:21"
     },
     {
@@ -63,6 +103,7 @@
         "balcon",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:10:21"
     }
   ]

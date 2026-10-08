@@ -25,12 +25,60 @@
     "balcon",
     "façade-d'angle"
   ],
+  "terme_torneh_bat": [
+    "arc brisé",
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "grille",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "mur-boutant",
+    "oculus",
+    "pilastre",
+    "porte-fenêtre",
+    "sculpture",
+    "souche de cheminée",
+    "travée",
+    "triplet",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Trois-Freres-1_18_§1",
       "IndexJantzen": [
         "balcon",
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "bandeau",
+        "corniche",
+        "fenêtre",
+        "fronton",
+        "garde-corps",
+        "lucarne",
+        "mascaron",
+        "mansarde",
+        "mur-boutant",
+        "arc en plein cintre",
+        "arc brisé",
+        "oculus",
+        "volet",
+        "travée",
+        "pilastre",
+        "sculpture",
+        "souche de cheminée",
+        "triplet",
+        "porte-fenêtre",
+        "grille"
       ],
       "dateCapture": "2005:04:22"
     },
@@ -40,6 +88,7 @@
         "balcon",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:22"
     }
   ]

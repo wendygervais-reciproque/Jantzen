@@ -21,15 +21,39 @@
   "WPfr": null,
   "image_ref": "Rivoli-65_1_§1-Rx",
   "terme_jantzen_bat": [
-    "fenetre",
-    "façade",
-    "garde-corps",
+    "balcon",
     "sculpture",
-    "porte-bois",
     "clé",
     "cariatide",
+    "fenetre",
+    "façade",
+    "fronton",
+    "garde-corps",
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "atlante",
     "balcon",
-    "fronton"
+    "balustrade",
+    "chéneau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "sculpture",
+    "souche de cheminée",
+    "toit en pavillon",
+    "travée",
+    "vantail"
   ],
   "photos": [
     {
@@ -38,6 +62,7 @@
         "cariatide",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:15"
     },
     {
@@ -46,6 +71,7 @@
         "cariatide",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:08:20"
     },
     {
@@ -54,6 +80,7 @@
         "cariatide",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:08:20"
     },
     {
@@ -62,6 +89,7 @@
         "cariatide",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:07:22"
     },
     {
@@ -70,12 +98,37 @@
         "cariatide",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:05:27"
     },
     {
       "id_pic": "Rivoli-65_1_§1-Rx",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "lucarne",
+        "mansarde",
+        "corniche",
+        "fronton",
+        "pilastre",
+        "atlante",
+        "sculpture",
+        "porte",
+        "vantail",
+        "garde-corps",
+        "fer forgé",
+        "souche de cheminée",
+        "toit en pavillon",
+        "travée",
+        "mascaron",
+        "pierre de taille",
+        "chéneau",
+        "arc",
+        "arc en plein cintre"
       ],
       "dateCapture": "2012:07:22"
     },
@@ -84,6 +137,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:05:27"
     },
     {
@@ -91,6 +145,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:05:27"
     },
     {
@@ -98,6 +153,7 @@
       "IndexJantzen": [
         "balcon"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:05:27"
     },
     {
@@ -107,6 +163,7 @@
         "fronton",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:05:27"
     },
     {
@@ -116,6 +173,7 @@
         "fenetre",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:07:22"
     },
     {
@@ -126,6 +184,7 @@
         "porte-bois",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:05:27"
     },
     {
@@ -136,6 +195,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:07:22"
     },
     {
@@ -144,6 +204,7 @@
         "cariatide",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:15"
     }
   ]

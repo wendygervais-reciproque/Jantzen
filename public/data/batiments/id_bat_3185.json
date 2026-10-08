@@ -23,11 +23,47 @@
   "terme_jantzen_bat": [
     "porte-fer"
   ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "baie",
+    "chambranle",
+    "chapiteau ionique",
+    "corniche",
+    "entablement",
+    "fenêtre",
+    "fer",
+    "fer forgé",
+    "fronton",
+    "grille",
+    "pilastre",
+    "portail",
+    "sculpture",
+    "verrière"
+  ],
   "photos": [
     {
       "id_pic": "Vivienne-6_2_§1",
       "IndexJantzen": [
         "porte-fer"
+      ],
+      "IndexTorneh": [
+        "arc en plein cintre",
+        "arc",
+        "sculpture",
+        "pilastre",
+        "chapiteau ionique",
+        "fronton",
+        "entablement",
+        "fenêtre",
+        "portail",
+        "grille",
+        "fer forgé",
+        "fer",
+        "verrière",
+        "corniche",
+        "chambranle",
+        "baie"
       ],
       "dateCapture": "2004:09:01"
     }

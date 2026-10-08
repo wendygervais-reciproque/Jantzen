@@ -21,8 +21,20 @@
   "WPfr": null,
   "image_ref": "St-Louis-54_4_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "garde-corps"
+    "garde-corps",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "bandeau",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "pierre de taille",
+    "porte-fenêtre",
+    "travée",
+    "vantail"
   ],
   "photos": [
     {
@@ -30,6 +42,18 @@
       "IndexJantzen": [
         "fenetre",
         "garde-corps"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "arc en plein cintre",
+        "garde-corps",
+        "balcon",
+        "fer forgé",
+        "pierre de taille",
+        "porte-fenêtre",
+        "travée",
+        "bandeau",
+        "vantail"
       ],
       "dateCapture": "2003:08:03"
     }

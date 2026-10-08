@@ -28,15 +28,36 @@
   "WPfr": null,
   "image_ref": "Italiens-bd-20_9_§1",
   "terme_jantzen_bat": [
+    "balcon",
+    "sculpture",
+    "pilastre",
+    "console",
     "fenetre",
     "façade",
-    "garde-corps",
-    "console",
-    "sculpture",
     "métal",
+    "garde-corps",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "gros appareil",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
     "pilastre",
-    "décor",
-    "balcon"
+    "porte",
+    "sculpture",
+    "travée",
+    "vitrail"
   ],
   "photos": [
     {
@@ -44,6 +65,27 @@
       "IndexJantzen": [
         "balcon",
         "façade"
+      ],
+      "IndexTorneh": [
+        "arc en plein cintre",
+        "balcon",
+        "balustrade",
+        "bandeau",
+        "chaîne d'angle",
+        "corniche",
+        "fenêtre",
+        "fer forgé",
+        "fronton",
+        "gros appareil",
+        "mascaron",
+        "oculus",
+        "pierre de taille",
+        "pilastre",
+        "porte",
+        "sculpture",
+        "travée",
+        "vitrail",
+        "arc"
       ],
       "dateCapture": "2006:04:21"
     },
@@ -53,6 +95,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:09:19"
     },
     {
@@ -62,6 +105,7 @@
         "garde-corps",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:09:19"
     },
     {
@@ -72,6 +116,7 @@
         "métal",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:08:21"
     },
     {
@@ -81,6 +126,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:08:21"
     },
     {
@@ -89,6 +135,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:08:21"
     },
     {
@@ -97,6 +144,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:08:21"
     },
     {
@@ -105,6 +153,7 @@
         "balcon",
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:21"
     },
     {
@@ -115,6 +164,7 @@
         "pilastre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:21"
     },
     {
@@ -126,6 +176,7 @@
         "pilastre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:21"
     },
     {
@@ -135,6 +186,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:08:21"
     },
     {
@@ -144,6 +196,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:09:19"
     },
     {
@@ -153,6 +206,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:09:19"
     },
     {
@@ -162,6 +216,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:09:19"
     },
     {
@@ -171,6 +226,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:08:21"
     }
   ]

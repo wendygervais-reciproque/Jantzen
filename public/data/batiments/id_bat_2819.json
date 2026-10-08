@@ -21,15 +21,53 @@
   "WPfr": null,
   "image_ref": "Victor-Hugo-pl-5_16_§1",
   "terme_jantzen_bat": [
-    "toiture",
     "façade",
-    "lucarne-d'angle"
+    "lucarne-d'angle",
+    "toiture"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "oculus",
+    "pierre de taille",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "épi de faîtage"
   ],
   "photos": [
     {
       "id_pic": "Victor-Hugo-pl-5_16_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "dôme",
+        "mansarde",
+        "lucarne",
+        "souche de cheminée",
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "garde-corps",
+        "bandeau",
+        "corniche",
+        "oculus",
+        "épi de faîtage",
+        "ardoise",
+        "pierre de taille",
+        "toit à deux versants",
+        "fer forgé",
+        "travée"
       ],
       "dateCapture": "2006:06:30"
     },
@@ -39,6 +77,7 @@
         "lucarne-d'angle",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:30"
     },
     {
@@ -47,6 +86,7 @@
         "lucarne-d'angle",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:30"
     }
   ]

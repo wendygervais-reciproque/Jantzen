@@ -23,10 +23,23 @@
   "WPfr": null,
   "image_ref": "Monsieur-Le-Prince-14_6_§1",
   "terme_jantzen_bat": [
-    "fenetre",
+    "brique",
     "sculpture",
-    "porte-bois",
-    "brique"
+    "fenetre",
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc brisé",
+    "balcon",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "porte-fenêtre",
+    "sculpture",
+    "vantail"
   ],
   "photos": [
     {
@@ -34,6 +47,19 @@
       "IndexJantzen": [
         "fenetre",
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "arc brisé",
+        "porte",
+        "sculpture",
+        "mascaron",
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "vantail",
+        "pierre de taille",
+        "fenêtre",
+        "porte-fenêtre"
       ],
       "dateCapture": "2007:04:22"
     },
@@ -43,6 +69,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:03:19"
     },
     {
@@ -51,6 +78,7 @@
         "fenetre",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:22"
     },
     {
@@ -59,6 +87,7 @@
         "fenetre",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:08:21"
     },
     {
@@ -67,6 +96,7 @@
         "porte-bois",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:22"
     },
     {
@@ -75,6 +105,7 @@
         "porte-bois",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:08:07"
     },
     {
@@ -83,6 +114,7 @@
         "porte-bois",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:03:19"
     },
     {
@@ -91,6 +123,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:08:21"
     },
     {
@@ -99,6 +132,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:03:19"
     },
     {
@@ -107,6 +141,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:03:19"
     },
     {
@@ -115,6 +150,7 @@
         "brique",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:29"
     }
   ]

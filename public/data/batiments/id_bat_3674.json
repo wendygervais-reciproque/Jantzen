@@ -30,11 +30,35 @@
   "terme_jantzen_bat": [
     "fenetre"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "pierre de taille",
+    "travée",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Wagram-81_17_§1",
       "IndexJantzen": [
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "volet",
+        "garde-corps",
+        "balcon",
+        "corniche",
+        "bandeau",
+        "travée",
+        "lucarne",
+        "fer forgé",
+        "pierre de taille"
       ],
       "dateCapture": "2009:07:15"
     },
@@ -43,6 +67,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:10:14"
     }
   ]

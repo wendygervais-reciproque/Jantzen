@@ -25,6 +25,23 @@
     "fenetre",
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "chambranle",
+    "corniche",
+    "fer forgé",
+    "garde-corps",
+    "grille",
+    "heurtoir",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Fouarre-8_5_§1",
@@ -32,6 +49,23 @@
         "fenetre",
         "oeil-de-boeuf",
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "portail",
+        "arc en plein cintre",
+        "mascaron",
+        "sculpture",
+        "oculus",
+        "pierre de taille",
+        "chambranle",
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "heurtoir",
+        "vantail",
+        "corniche",
+        "grille"
       ],
       "dateCapture": "2006:06:06"
     },
@@ -42,6 +76,7 @@
         "oeil-de-boeuf",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:09:28"
     }
   ]

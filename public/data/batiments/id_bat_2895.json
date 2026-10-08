@@ -28,19 +28,55 @@
   "WPfr": null,
   "image_ref": "schœlcher-5_14_§1",
   "terme_jantzen_bat": [
+    "mosaique",
     "porte-fer",
+    "pignon",
+    "clé",
     "fenetre",
     "lucarne",
-    "pignon",
+    "garde-corps"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "céramique",
+    "fenêtre",
+    "fer forgé",
     "garde-corps",
-    "mosaique",
-    "clé"
+    "grille",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "oriel",
+    "porte",
+    "porte-fenêtre",
+    "sculpture",
+    "toit à deux versants"
   ],
   "photos": [
     {
       "id_pic": "schœlcher-5_14_§1",
       "IndexJantzen": [
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "oriel",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "oculus",
+        "porte",
+        "porte-fenêtre",
+        "fer forgé",
+        "grille",
+        "mascaron",
+        "sculpture",
+        "céramique",
+        "toit à deux versants",
+        "ardoise",
+        "mansarde"
       ],
       "dateCapture": "2005:05:08"
     },
@@ -50,6 +86,7 @@
         "mosaique",
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:29"
     },
     {
@@ -58,6 +95,7 @@
         "mosaique",
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:13"
     },
     {
@@ -66,6 +104,7 @@
         "mosaique",
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:08"
     },
     {
@@ -74,6 +113,7 @@
         "mosaique",
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:08"
     },
     {
@@ -81,6 +121,7 @@
       "IndexJantzen": [
         "mosaique"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:08"
     },
     {
@@ -88,6 +129,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:13"
     },
     {
@@ -95,6 +137,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:24"
     },
     {
@@ -104,6 +147,7 @@
         "lucarne",
         "pignon"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:24"
     },
     {
@@ -113,6 +157,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:10"
     },
     {
@@ -121,6 +166,7 @@
         "clé",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:10"
     },
     {
@@ -130,6 +176,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:10"
     },
     {
@@ -138,6 +185,7 @@
         "mosaique",
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:13"
     }
   ]

@@ -30,11 +30,33 @@
   "terme_jantzen_bat": [
     "porte-fer-hall"
   ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "balcon",
+    "chambranle",
+    "fer forgé",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Marcadet-220b_18_§1",
       "IndexJantzen": [
         "porte-fer-hall"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "arc",
+        "arc en plein cintre",
+        "fer forgé",
+        "pierre de taille",
+        "vantail",
+        "sculpture",
+        "balcon",
+        "chambranle"
       ],
       "dateCapture": "2004:07:28"
     }

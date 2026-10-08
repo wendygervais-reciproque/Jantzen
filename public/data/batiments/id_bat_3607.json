@@ -28,10 +28,22 @@
   "WPfr": null,
   "image_ref": "Charles-Divry-8_14_§1",
   "terme_jantzen_bat": [
-    "porte-fer",
-    "sculpture",
     "chimère",
-    "clé"
+    "clé",
+    "porte-fer",
+    "sculpture"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "balcon",
+    "fer forgé",
+    "garde-corps",
+    "gros appareil",
+    "pierre de taille",
+    "porte",
+    "porte-fenêtre",
+    "sculpture",
+    "vantail"
   ],
   "photos": [
     {
@@ -39,6 +51,18 @@
       "IndexJantzen": [
         "chimère",
         "porte-fer"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "porte-fenêtre",
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "arc",
+        "sculpture",
+        "pierre de taille",
+        "vantail",
+        "gros appareil"
       ],
       "dateCapture": "2005:08:07"
     },
@@ -48,6 +72,7 @@
         "clé",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:07"
     }
   ]

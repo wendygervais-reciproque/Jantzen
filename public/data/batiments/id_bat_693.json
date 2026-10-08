@@ -24,12 +24,38 @@
     "garde-corps",
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "fer forgé",
+    "garde-corps",
+    "heurtoir",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "porte-fenêtre",
+    "sculpture",
+    "vantail",
+    "vitrail"
+  ],
   "photos": [
     {
       "id_pic": "St-Sulpice-12_6_§1",
       "IndexJantzen": [
         "garde-corps",
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "porte-fenêtre",
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "pierre de taille",
+        "sculpture",
+        "mascaron",
+        "vantail",
+        "heurtoir",
+        "vitrail"
       ],
       "dateCapture": "2005:06:02"
     }

@@ -19,9 +19,24 @@
   "WPfr": "Cour d'honneur de l'hôtel des Invalides",
   "image_ref": "Invalides-HSE-Cv_§1_1-Rx",
   "terme_jantzen_bat": [
-    "lucarne",
     "sculpture",
-    "façade-d'angle"
+    "façade-d'angle",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "arcade",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "corniche",
+    "fenêtre",
+    "gros appareil",
+    "mascaron",
+    "pierre de taille",
+    "sculpture",
+    "travée",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -29,6 +44,21 @@
       "IndexJantzen": [
         "façade-d'angle",
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "arc en plein cintre",
+        "arcade",
+        "balustrade",
+        "corniche",
+        "pierre de taille",
+        "sculpture",
+        "ardoise",
+        "épi de faîtage",
+        "travée",
+        "fenêtre",
+        "mascaron",
+        "gros appareil",
+        "balcon"
       ],
       "dateCapture": "2013:08:03"
     },
@@ -38,6 +68,7 @@
         "façade-d'angle",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2013:08:03"
     },
     {
@@ -45,6 +76,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:04:01"
     },
     {
@@ -52,6 +84,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2013:08:03"
     },
     {
@@ -59,6 +92,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2013:08:03"
     },
     {
@@ -66,6 +100,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:04:01"
     }
   ]

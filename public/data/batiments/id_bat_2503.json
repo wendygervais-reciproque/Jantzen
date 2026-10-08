@@ -32,8 +32,19 @@
   "WPfr": null,
   "image_ref": "Dorian-4_12_§1",
   "terme_jantzen_bat": [
-    "porte-bois",
-    "clé"
+    "clé",
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "fenêtre",
+    "fer forgé",
+    "mascaron",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "sculpture",
+    "vantail"
   ],
   "photos": [
     {
@@ -41,6 +52,17 @@
       "IndexJantzen": [
         "clé",
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "portail",
+        "vantail",
+        "mascaron",
+        "sculpture",
+        "arc",
+        "pierre de taille",
+        "fenêtre",
+        "fer forgé"
       ],
       "dateCapture": "2005:07:15"
     }

@@ -21,16 +21,48 @@
   "WPfr": null,
   "image_ref": "Richer-13_9_§1",
   "terme_jantzen_bat": [
-    "lucarne",
-    "fenetre",
     "façade",
-    "porte-bois"
+    "fenetre",
+    "porte-bois",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "bandeau",
+    "chéneau",
+    "corniche",
+    "fenêtre",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "souche de cheminée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Richer-13_9_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "lucarne",
+        "balcon",
+        "garde-corps",
+        "corniche",
+        "bandeau",
+        "volet",
+        "porte",
+        "portail",
+        "pierre de taille",
+        "mansarde",
+        "arc en plein cintre",
+        "chéneau",
+        "souche de cheminée"
       ],
       "dateCapture": "2004:06:17"
     },
@@ -39,6 +71,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:06:16"
     },
     {
@@ -46,6 +79,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:06:16"
     },
     {
@@ -53,6 +87,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:06:16"
     },
     {
@@ -60,6 +95,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:06:16"
     },
     {
@@ -67,6 +103,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:06:16"
     }
   ]

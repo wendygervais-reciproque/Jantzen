@@ -21,9 +21,20 @@
   "WPfr": null,
   "image_ref": "Francœur-31_18_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "brique",
+    "fenetre",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "bandeau",
+    "brique",
+    "chaîne d'angle",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "linteau",
+    "modillon"
   ],
   "photos": [
     {
@@ -32,6 +43,17 @@
         "brique",
         "décor",
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "brique",
+        "fenêtre",
+        "garde-corps",
+        "balcon",
+        "linteau",
+        "modillon",
+        "chaîne d'angle",
+        "bandeau",
+        "fer forgé"
       ],
       "dateCapture": "2004:06:14"
     },
@@ -42,6 +64,7 @@
         "décor",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:06:14"
     }
   ]

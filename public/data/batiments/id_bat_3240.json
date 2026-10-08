@@ -28,19 +28,40 @@
   "WPfr": null,
   "image_ref": "Boursault-62_17_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "façade",
-    "garde-corps",
-    "lucarne",
-    "console",
+    "loggia",
+    "balcon",
+    "oriel",
     "sculpture",
+    "console",
+    "fenetre",
+    "lucarne",
+    "brique",
+    "façade",
     "métal",
     "porte-fer-hall",
-    "loggia",
-    "oriel",
+    "garde-corps",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
     "brique",
-    "décor",
-    "balcon"
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "oriel",
+    "pierre de taille",
+    "porte",
+    "souche de cheminée",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -48,6 +69,27 @@
       "IndexJantzen": [
         "brique",
         "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "balustrade",
+        "oriel",
+        "lucarne",
+        "bandeau",
+        "brique",
+        "pierre de taille",
+        "souche de cheminée",
+        "ardoise",
+        "mascaron",
+        "mansarde",
+        "fer forgé",
+        "arc en plein cintre",
+        "oculus",
+        "travée",
+        "volet",
+        "porte"
       ],
       "dateCapture": "2006:06:07"
     },
@@ -57,6 +99,7 @@
         "brique",
         "loggia"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2013:04:21"
     },
     {
@@ -65,6 +108,7 @@
         "brique",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2013:04:21"
     },
     {
@@ -73,6 +117,7 @@
         "brique",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:07"
     },
     {
@@ -83,6 +128,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:07"
     },
     {
@@ -91,6 +137,7 @@
         "brique",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:08"
     },
     {
@@ -100,6 +147,7 @@
         "façade",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2014:04:21"
     },
     {
@@ -108,6 +156,7 @@
         "brique",
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:07"
     },
     {
@@ -116,6 +165,7 @@
         "brique",
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:08"
     },
     {
@@ -126,6 +176,7 @@
         "métal",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:06:27"
     },
     {
@@ -136,6 +187,7 @@
         "métal",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:07"
     },
     {
@@ -144,6 +196,7 @@
         "brique",
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2014:04:21"
     },
     {
@@ -152,6 +205,7 @@
         "brique",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:07"
     },
     {
@@ -160,6 +214,7 @@
         "brique",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2013:04:21"
     },
     {
@@ -169,6 +224,7 @@
         "fenetre",
         "métal"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2013:04:21"
     },
     {
@@ -178,6 +234,7 @@
         "console",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:08"
     },
     {
@@ -187,6 +244,7 @@
         "fenetre",
         "métal"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:14"
     },
     {
@@ -196,6 +254,7 @@
         "fenetre",
         "métal"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2014:04:21"
     },
     {
@@ -205,6 +264,7 @@
         "fenetre",
         "métal"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:14"
     },
     {
@@ -215,6 +275,7 @@
         "fenetre",
         "métal"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2014:04:21"
     },
     {
@@ -226,6 +287,7 @@
         "métal",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2014:04:21"
     },
     {
@@ -236,6 +298,7 @@
         "fenetre",
         "métal"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:07"
     },
     {
@@ -246,6 +309,7 @@
         "fenetre",
         "métal"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:08"
     },
     {
@@ -255,6 +319,7 @@
         "façade",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:08"
     },
     {
@@ -266,6 +331,7 @@
         "métal",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:08"
     },
     {
@@ -276,6 +342,7 @@
         "métal",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2013:04:21"
     },
     {
@@ -286,6 +353,7 @@
         "métal",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:07"
     },
     {
@@ -293,6 +361,7 @@
       "IndexJantzen": [
         "porte-fer-hall"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:06:28"
     },
     {
@@ -301,6 +370,7 @@
         "brique",
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:08"
     },
     {
@@ -309,6 +379,7 @@
         "brique",
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:07"
     },
     {
@@ -317,6 +388,7 @@
         "brique",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:06:27"
     },
     {
@@ -326,6 +398,7 @@
         "brique",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2014:04:21"
     },
     {
@@ -335,6 +408,7 @@
         "brique",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:08"
     },
     {
@@ -344,6 +418,7 @@
         "brique",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2014:04:21"
     }
   ]

@@ -21,10 +21,30 @@
   "WPfr": null,
   "image_ref": "Presbourg-10_16_§1",
   "terme_jantzen_bat": [
-    "lucarne",
+    "pilastre",
     "sculpture",
     "décor",
-    "pilastre"
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "chapiteau corinthien",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "frise",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "pierre de taille",
+    "pilastre",
+    "souche de cheminée",
+    "volet",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -35,6 +55,26 @@
         "pilastre",
         "sculpture"
       ],
+      "IndexTorneh": [
+        "souche de cheminée",
+        "ardoise",
+        "lucarne",
+        "mansarde",
+        "garde-corps",
+        "balcon",
+        "fenêtre",
+        "volet",
+        "pilastre",
+        "chapiteau corinthien",
+        "corniche",
+        "frise",
+        "fronton",
+        "mascaron",
+        "fer forgé",
+        "pierre de taille",
+        "balustrade",
+        "épi de faîtage"
+      ],
       "dateCapture": "2006:07:10"
     },
     {
@@ -43,6 +83,7 @@
         "pilastre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:10"
     },
     {
@@ -51,6 +92,7 @@
         "pilastre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:10"
     }
   ]

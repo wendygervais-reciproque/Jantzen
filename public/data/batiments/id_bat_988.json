@@ -21,15 +21,33 @@
   "WPfr": null,
   "image_ref": "Observatoire-15_6_-1",
   "terme_jantzen_bat": [
-    "porte-fer",
     "fenetre",
-    "garde-corps"
+    "garde-corps",
+    "porte-fer"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "fer forgé",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "vantail"
   ],
   "photos": [
     {
       "id_pic": "Observatoire-15_6_-1",
       "IndexJantzen": [
         "porte-fer"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "fer forgé",
+        "arc en plein cintre",
+        "mascaron",
+        "vantail",
+        "pierre de taille",
+        "sculpture"
       ],
       "dateCapture": "2006:03:19"
     },
@@ -39,6 +57,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:03:19"
     }
   ]

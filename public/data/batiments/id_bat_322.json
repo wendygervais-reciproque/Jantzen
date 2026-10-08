@@ -22,8 +22,27 @@
   "image_ref": "Colonels-Renard-10_17_§1",
   "terme_jantzen_bat": [
     "sculpture",
-    "fenetre",
-    "console"
+    "console",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bossage",
+    "chapiteau",
+    "corniche",
+    "fenêtre",
+    "frise",
+    "garde-corps",
+    "modillon",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porte-fenêtre",
+    "sculpture",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -32,6 +51,25 @@
         "console",
         "fenetre",
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "garde-corps",
+        "corniche",
+        "modillon",
+        "arc en plein cintre",
+        "bossage",
+        "sculpture",
+        "frise",
+        "volet",
+        "porte-fenêtre",
+        "pierre de taille",
+        "chapiteau",
+        "pilastre",
+        "travée",
+        "oculus"
       ],
       "dateCapture": "2010:03:17"
     }

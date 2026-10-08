@@ -24,12 +24,36 @@
     "toiture",
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "brique",
+    "fenêtre",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Jean-Dolent-10_14_§1",
       "IndexJantzen": [
         "lucarne",
         "toiture"
+      ],
+      "IndexTorneh": [
+        "souche de cheminée",
+        "mansarde",
+        "lucarne",
+        "ardoise",
+        "brique",
+        "fenêtre",
+        "porte-fenêtre",
+        "garde-corps",
+        "balcon",
+        "volet"
       ],
       "dateCapture": "2005:08:07"
     }

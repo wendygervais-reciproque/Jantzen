@@ -23,11 +23,37 @@
   "terme_jantzen_bat": [
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "lucarne",
+    "mansarde",
+    "oculus",
+    "pierre de taille",
+    "souche de cheminée",
+    "toit à deux versants",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Therese-20_1_§1",
       "IndexJantzen": [
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "lucarne",
+        "oculus",
+        "mansarde",
+        "fronton",
+        "corniche",
+        "fenêtre",
+        "volet",
+        "souche de cheminée",
+        "ardoise",
+        "pierre de taille",
+        "toit à deux versants"
       ],
       "dateCapture": "2004:09:01"
     }

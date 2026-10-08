@@ -21,15 +21,53 @@
   "WPfr": null,
   "image_ref": "Madeleine-pl-37_8_§1",
   "terme_jantzen_bat": [
-    "lucarne",
+    "façade",
     "fenetre",
-    "façade"
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "auvent",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "garde-corps",
+    "jambage",
+    "linteau",
+    "lucarne",
+    "pierre de taille",
+    "porte",
+    "souche de cheminée",
+    "travée"
   ],
   "photos": [
     {
       "id_pic": "Madeleine-pl-37_8_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "lucarne",
+        "souche de cheminée",
+        "ardoise",
+        "corniche",
+        "pierre de taille",
+        "balustrade",
+        "bandeau",
+        "chambranle",
+        "auvent",
+        "porte",
+        "travée",
+        "chaîne d'angle",
+        "jambage",
+        "linteau"
       ],
       "dateCapture": "2007:03:28"
     },
@@ -38,6 +76,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:03:28"
     },
     {
@@ -45,6 +84,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:03:28"
     },
     {
@@ -52,6 +92,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:03:28"
     }
   ]

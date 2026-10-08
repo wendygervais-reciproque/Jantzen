@@ -24,11 +24,37 @@
     "fenetre",
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "arc brisé",
+    "arc en plein cintre",
+    "balcon",
+    "bandeau",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "pierre de taille",
+    "porte",
+    "travée",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "La-Sourdiere-19_1_§1",
       "IndexJantzen": [
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "garde-corps",
+        "balcon",
+        "arc en plein cintre",
+        "bandeau",
+        "pierre de taille",
+        "volet",
+        "porte",
+        "travée",
+        "fer forgé",
+        "arc brisé"
       ],
       "dateCapture": "2004:09:12"
     },
@@ -37,6 +63,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:12"
     }
   ]

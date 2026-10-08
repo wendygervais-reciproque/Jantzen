@@ -29,10 +29,29 @@
   "image_ref": "Sacre-Cœur-_18_§3",
   "terme_jantzen_bat": [
     "toiture",
-    "lucarne",
-    "façade",
-    "sculpture",
     "dome",
+    "tour",
+    "sculpture",
+    "lucarne",
+    "façade"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "arcade",
+    "baie",
+    "colonne",
+    "corniche",
+    "dôme",
+    "escalier",
+    "fenêtre",
+    "grille",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porche",
+    "portail",
+    "sculpture",
     "tour"
   ],
   "photos": [
@@ -42,6 +61,7 @@
         "dome",
         "tour"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:21"
     },
     {
@@ -50,6 +70,7 @@
         "dome",
         "tour"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:08"
     },
     {
@@ -58,6 +79,25 @@
         "dome",
         "façade"
       ],
+      "IndexTorneh": [
+        "dôme",
+        "arc en plein cintre",
+        "arcade",
+        "portail",
+        "porche",
+        "fenêtre",
+        "oculus",
+        "sculpture",
+        "pierre de taille",
+        "escalier",
+        "arc",
+        "colonne",
+        "pilastre",
+        "corniche",
+        "baie",
+        "tour",
+        "grille"
+      ],
       "dateCapture": "2005:09:27"
     },
     {
@@ -65,6 +105,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:09:27"
     },
     {
@@ -72,6 +113,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:09:27"
     },
     {
@@ -80,6 +122,7 @@
         "lucarne",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:08:30"
     },
     {
@@ -87,6 +130,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:08:30"
     },
     {
@@ -94,6 +138,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:08:30"
     }
   ]

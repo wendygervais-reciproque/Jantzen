@@ -33,8 +33,24 @@
   "image_ref": "Bastille-bd-28_12_§1",
   "terme_jantzen_bat": [
     "sculpture",
-    "porte-bois",
-    "clé"
+    "clé",
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "balcon",
+    "chambranle",
+    "fer forgé",
+    "garde-corps",
+    "heurtoir",
+    "jambage",
+    "mascaron",
+    "pierre de taille",
+    "pilastre",
+    "portail",
+    "porte",
+    "sculpture",
+    "vantail"
   ],
   "photos": [
     {
@@ -42,6 +58,22 @@
       "IndexJantzen": [
         "clé",
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "vantail",
+        "portail",
+        "mascaron",
+        "sculpture",
+        "pierre de taille",
+        "arc",
+        "heurtoir",
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "pilastre",
+        "chambranle",
+        "jambage"
       ],
       "dateCapture": "2005:07:12"
     },
@@ -51,6 +83,7 @@
         "clé",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:12"
     }
   ]

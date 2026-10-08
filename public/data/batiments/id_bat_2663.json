@@ -24,12 +24,48 @@
     "brique",
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "acrotère",
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "brique",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mascaron",
+    "oculus",
+    "pilastre",
+    "souche de cheminée",
+    "épi de faîtage"
+  ],
   "photos": [
     {
       "id_pic": "Villiers-44_17_§1",
       "IndexJantzen": [
         "brique",
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "arc en plein cintre",
+        "lucarne",
+        "souche de cheminée",
+        "ardoise",
+        "corniche",
+        "balcon",
+        "garde-corps",
+        "brique",
+        "pilastre",
+        "fronton",
+        "acrotère",
+        "épi de faîtage",
+        "chambranle",
+        "mascaron",
+        "oculus"
       ],
       "dateCapture": "2006:06:12"
     },
@@ -39,6 +75,7 @@
         "brique",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:03:14"
     }
   ]

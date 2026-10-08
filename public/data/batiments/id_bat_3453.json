@@ -21,12 +21,32 @@
   "WPfr": null,
   "image_ref": "Lamartine-sq-7_16_§2",
   "terme_jantzen_bat": [
+    "sculpture",
     "fenetre",
     "lucarne",
-    "façade",
-    "sculpture",
     "brique",
+    "façade",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "avant-corps",
+    "balcon",
+    "balustrade",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "sculpture",
+    "souche de cheminée",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -36,6 +56,7 @@
         "fenetre",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:12"
     },
     {
@@ -45,6 +66,26 @@
         "décor",
         "façade",
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "lucarne",
+        "balustrade",
+        "avant-corps",
+        "mascaron",
+        "sculpture",
+        "arc en plein cintre",
+        "oculus",
+        "corniche",
+        "pierre de taille",
+        "souche de cheminée",
+        "ardoise",
+        "travée",
+        "volet",
+        "fronton",
+        "pilastre"
       ],
       "dateCapture": "2009:03:16"
     },
@@ -56,6 +97,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:12"
     },
     {
@@ -64,6 +106,7 @@
         "brique",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:12"
     },
     {
@@ -75,6 +118,7 @@
         "lucarne",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:03:16"
     },
     {
@@ -83,6 +127,7 @@
         "brique",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:03:16"
     },
     {
@@ -92,6 +137,7 @@
         "fenetre",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:12"
     },
     {
@@ -101,6 +147,7 @@
         "fenetre",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:12"
     }
   ]

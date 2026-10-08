@@ -23,13 +23,30 @@
   "WPfr": null,
   "image_ref": "Andre-Messager-4-6_18_§2",
   "terme_jantzen_bat": [
-    "fenetre",
-    "façade",
+    "verrière",
+    "balcon",
     "façade-d'angle",
     "fenetre-d'angle",
+    "fenetre",
     "brique",
+    "façade"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "grille",
+    "oriel",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "toit-terrasse",
+    "travée",
     "verrière",
-    "balcon"
+    "volet"
   ],
   "photos": [
     {
@@ -38,6 +55,7 @@
         "brique",
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:03:25"
     },
     {
@@ -45,6 +63,23 @@
       "IndexJantzen": [
         "brique",
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "brique",
+        "fenêtre",
+        "garde-corps",
+        "grille",
+        "oriel",
+        "souche de cheminée",
+        "toit-terrasse",
+        "travée",
+        "verrière",
+        "volet",
+        "fer forgé",
+        "porte-fenêtre",
+        "bandeau"
       ],
       "dateCapture": "2005:03:25"
     },
@@ -54,6 +89,7 @@
         "brique",
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": null
     },
     {
@@ -63,6 +99,7 @@
         "brique",
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:03:25"
     },
     {
@@ -73,6 +110,7 @@
         "fenetre",
         "verrière"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:06:13"
     }
   ]

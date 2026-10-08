@@ -24,12 +24,30 @@
     "oeil-de-boeuf",
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "arc",
+    "chambranle",
+    "jambage",
+    "oculus",
+    "pierre de taille",
+    "porte",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Guillemites-9_4_§1",
       "IndexJantzen": [
         "oeil-de-boeuf",
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "vantail",
+        "oculus",
+        "pierre de taille",
+        "arc",
+        "jambage",
+        "chambranle"
       ],
       "dateCapture": "2004:09:09"
     }

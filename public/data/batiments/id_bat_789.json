@@ -21,17 +21,53 @@
   "WPfr": null,
   "image_ref": "Lavandieres-Ste-Oppune-13_1_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "façade",
     "façade-d'angle",
     "sculpture",
+    "fenetre",
+    "façade",
     "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "fenêtre",
+    "garde-corps",
+    "grille",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "souche de cheminée",
+    "soupirail",
+    "vitrail",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Lavandieres-Ste-Oppune-13_1_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "arc en plein cintre",
+        "balcon",
+        "garde-corps",
+        "lucarne",
+        "mansarde",
+        "ardoise",
+        "mascaron",
+        "porte",
+        "vitrail",
+        "pierre de taille",
+        "soupirail",
+        "souche de cheminée",
+        "grille",
+        "volet",
+        "balustrade"
       ],
       "dateCapture": "2004:09:11"
     },
@@ -40,6 +76,7 @@
       "IndexJantzen": [
         "façade-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:11"
     },
     {
@@ -47,6 +84,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:07:22"
     },
     {
@@ -54,6 +92,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:07:22"
     },
     {
@@ -61,6 +100,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:07:22"
     },
     {
@@ -69,6 +109,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:07:22"
     },
     {
@@ -76,6 +117,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:07:22"
     },
     {
@@ -83,6 +125,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:11"
     }
   ]

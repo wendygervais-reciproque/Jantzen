@@ -22,8 +22,21 @@
   "image_ref": "Ferronnerie-31_1_§1",
   "terme_jantzen_bat": [
     "toiture",
+    "sculpture",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
     "lucarne",
-    "sculpture"
+    "mansarde",
+    "tuile",
+    "volet"
   ],
   "photos": [
     {
@@ -32,6 +45,19 @@
         "lucarne",
         "toiture"
       ],
+      "IndexTorneh": [
+        "mansarde",
+        "lucarne",
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "ardoise",
+        "corniche",
+        "bandeau",
+        "tuile",
+        "volet",
+        "fer forgé"
+      ],
       "dateCapture": "2009:05:23"
     },
     {
@@ -39,6 +65,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:28"
     }
   ]

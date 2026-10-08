@@ -23,11 +23,35 @@
   "terme_jantzen_bat": [
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "arc",
+    "auvent",
+    "balustrade",
+    "chambranle",
+    "fenêtre",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Durantin-10_18_§1",
       "IndexJantzen": [
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "vantail",
+        "mascaron",
+        "sculpture",
+        "fenêtre",
+        "pierre de taille",
+        "chambranle",
+        "arc",
+        "balustrade",
+        "auvent"
       ],
       "dateCapture": "2005:05:25"
     }

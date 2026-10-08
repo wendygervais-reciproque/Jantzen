@@ -24,12 +24,44 @@
     "fenetre",
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "modillon",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Pereire-229_17_§1",
       "IndexJantzen": [
         "fenetre",
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "arc en plein cintre",
+        "arc",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "porte",
+        "vantail",
+        "fenêtre",
+        "mascaron",
+        "corniche",
+        "modillon",
+        "pierre de taille",
+        "fer forgé",
+        "pilastre"
       ],
       "dateCapture": null
     }

@@ -21,15 +21,39 @@
   "WPfr": null,
   "image_ref": "Seguier-2_6_§1",
   "terme_jantzen_bat": [
+    "garde-corps",
     "fenetre",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "chéneau",
+    "corniche",
+    "fenêtre",
+    "garde-corps",
     "lucarne",
-    "garde-corps"
+    "mansarde",
+    "pierre de taille",
+    "souche de cheminée"
   ],
   "photos": [
     {
       "id_pic": "Seguier-2_6_§1",
       "IndexJantzen": [
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "lucarne",
+        "mansarde",
+        "souche de cheminée",
+        "ardoise",
+        "corniche",
+        "fenêtre",
+        "pierre de taille",
+        "chéneau",
+        "balcon",
+        "garde-corps"
       ],
       "dateCapture": "2007:05:12"
     },
@@ -38,6 +62,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:05:12"
     },
     {
@@ -46,6 +71,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:23"
     }
   ]

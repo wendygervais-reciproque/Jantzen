@@ -21,10 +21,32 @@
   "WPfr": null,
   "image_ref": "Legendre-136_17_§1",
   "terme_jantzen_bat": [
-    "fenetre",
+    "oriel",
     "métal",
-    "porte-bois",
-    "oriel"
+    "fenetre",
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "bossage",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "oriel",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "porte-fenêtre",
+    "travée",
+    "vantail",
+    "verrière",
+    "volet"
   ],
   "photos": [
     {
@@ -33,6 +55,28 @@
         "fenetre",
         "métal",
         "oriel"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "porte-fenêtre",
+        "porte",
+        "vantail",
+        "fer forgé",
+        "bossage",
+        "pilastre",
+        "chambranle",
+        "arc en plein cintre",
+        "corniche",
+        "bandeau",
+        "oriel",
+        "verrière",
+        "mascaron",
+        "pierre de taille",
+        "volet",
+        "travée"
       ],
       "dateCapture": "2006:06:07"
     },
@@ -43,6 +87,7 @@
         "métal",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:07"
     },
     {
@@ -51,6 +96,7 @@
         "fenetre",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:07"
     },
     {
@@ -59,6 +105,7 @@
         "fenetre",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:06:27"
     }
   ]

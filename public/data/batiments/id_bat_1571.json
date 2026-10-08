@@ -21,15 +21,55 @@
   "WPfr": null,
   "image_ref": "Vaugirard-20_6_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "façade",
+    "fenetre",
     "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "bandeau",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "frise",
+    "garde-corps",
+    "huisserie",
+    "jambage",
+    "linteau",
+    "lucarne",
+    "mansarde",
+    "pierre de taille",
+    "porte",
+    "vantail",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Vaugirard-20_6_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "arc en plein cintre",
+        "porte",
+        "vantail",
+        "corniche",
+        "bandeau",
+        "pierre de taille",
+        "mansarde",
+        "lucarne",
+        "ardoise",
+        "chambranle",
+        "volet",
+        "linteau",
+        "frise",
+        "huisserie",
+        "jambage"
       ],
       "dateCapture": "2009:09:27"
     },
@@ -39,6 +79,7 @@
         "fenetre",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:09:27"
     },
     {
@@ -47,6 +88,7 @@
         "fenetre",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:07:11"
     },
     {
@@ -54,6 +96,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:07:11"
     },
     {
@@ -61,6 +104,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:09:27"
     },
     {
@@ -68,6 +112,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:09:27"
     }
   ]

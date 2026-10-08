@@ -23,17 +23,37 @@
   "WPfr": null,
   "image_ref": "Turenne-50_3_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "lucarne",
     "sculpture",
     "clé",
+    "fenetre",
+    "lucarne",
     "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "chambranle",
+    "heurtoir",
+    "linteau",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "vantail"
   ],
   "photos": [
     {
       "id_pic": "Turenne-50_3_§1",
       "IndexJantzen": [
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "vantail",
+        "mascaron",
+        "sculpture",
+        "chambranle",
+        "pierre de taille",
+        "heurtoir",
+        "linteau"
       ],
       "dateCapture": "2004:09:22"
     },
@@ -42,6 +62,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:05:12"
     },
     {
@@ -51,6 +72,7 @@
         "porte-bois",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:08:01"
     },
     {
@@ -58,6 +80,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:05:12"
     },
     {
@@ -65,6 +88,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:11"
     },
     {
@@ -73,6 +97,7 @@
         "porte-bois",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:05:12"
     },
     {
@@ -81,6 +106,7 @@
         "porte-bois",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:05:12"
     },
     {
@@ -89,6 +115,7 @@
         "clé",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:11"
     }
   ]

@@ -23,9 +23,30 @@
   "WPfr": null,
   "image_ref": "Jacques-Bingen-13_17_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "brique",
+    "fenetre",
     "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "brique",
+    "chapiteau",
+    "colonne",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "gargouille",
+    "mascaron",
+    "oculus",
+    "oriel",
+    "pierre de taille",
+    "pilastre",
+    "sculpture",
+    "souche de cheminée",
+    "travée"
   ],
   "photos": [
     {
@@ -34,6 +55,27 @@
         "brique",
         "fenetre",
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "oculus",
+        "brique",
+        "pierre de taille",
+        "corniche",
+        "sculpture",
+        "mascaron",
+        "pilastre",
+        "souche de cheminée",
+        "ardoise",
+        "fronton",
+        "gargouille",
+        "oriel",
+        "colonne",
+        "chapiteau",
+        "travée"
       ],
       "dateCapture": "2004:10:05"
     }

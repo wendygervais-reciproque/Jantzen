@@ -33,16 +33,35 @@
   "image_ref": "Ecole-Medecine-5_6_§1",
   "terme_jantzen_bat": [
     "oeil-de-boeuf",
+    "dome",
+    "tourelle",
+    "sculpture",
+    "console",
     "lucarne",
     "façade",
-    "console",
-    "tourelle",
+    "fronton",
+    "porte",
+    "atlante",
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "arcade",
+    "ardoise",
+    "bossage",
+    "chapiteau",
+    "colonne",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fronton",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "portail",
     "porte",
     "sculpture",
-    "dome",
-    "porte-bois",
-    "atlante",
-    "fronton"
+    "vitrail"
   ],
   "photos": [
     {
@@ -53,6 +72,25 @@
         "lucarne",
         "porte"
       ],
+      "IndexTorneh": [
+        "dôme",
+        "oculus",
+        "arc en plein cintre",
+        "sculpture",
+        "portail",
+        "porte",
+        "fronton",
+        "pierre de taille",
+        "corniche",
+        "pilastre",
+        "fenêtre",
+        "vitrail",
+        "ardoise",
+        "colonne",
+        "chapiteau",
+        "arcade",
+        "bossage"
+      ],
       "dateCapture": "2010:05:23"
     },
     {
@@ -62,6 +100,7 @@
         "porte-bois",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:05:23"
     },
     {
@@ -71,6 +110,7 @@
         "porte-bois",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:07"
     },
     {
@@ -80,6 +120,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:05:23"
     },
     {
@@ -89,6 +130,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:07"
     },
     {
@@ -98,6 +140,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:05:23"
     },
     {
@@ -107,6 +150,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:07"
     },
     {
@@ -117,6 +161,7 @@
         "lucarne",
         "porte"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:11"
     },
     {
@@ -125,6 +170,7 @@
         "dome",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:08:21"
     },
     {
@@ -133,6 +179,7 @@
         "dome",
         "tourelle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:07"
     },
     {
@@ -142,6 +189,7 @@
         "lucarne",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:05:23"
     },
     {
@@ -151,6 +199,7 @@
         "lucarne",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:05:23"
     },
     {
@@ -159,6 +208,7 @@
         "fronton",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:05:23"
     },
     {
@@ -167,6 +217,7 @@
         "fronton",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:05:23"
     }
   ]

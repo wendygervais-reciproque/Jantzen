@@ -31,11 +31,37 @@
     "sculpture",
     "console"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "pierre de taille",
+    "porte-fenêtre",
+    "sculpture"
+  ],
   "photos": [
     {
       "id_pic": "Bretagne-12_3_§1",
       "IndexJantzen": [
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "arc en plein cintre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "pierre de taille",
+        "sculpture",
+        "fer forgé",
+        "porte-fenêtre",
+        "mascaron",
+        "corniche",
+        "fenêtre"
       ],
       "dateCapture": "2005:07:03"
     },
@@ -45,6 +71,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:28"
     },
     {
@@ -53,6 +80,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:28"
     }
   ]

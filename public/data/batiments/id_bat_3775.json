@@ -28,12 +28,33 @@
   "WPfr": null,
   "image_ref": "Batignoles-9_17_§1",
   "terme_jantzen_bat": [
-    "porte-fer",
-    "fenetre",
-    "lucarne",
-    "façade-d'angle",
     "dome",
-    "fenetre-d'angle"
+    "façade-d'angle",
+    "porte-fer",
+    "fenetre-d'angle",
+    "fenetre",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "souche de cheminée",
+    "toit en pavillon",
+    "travée",
+    "vitrail",
+    "volet",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -41,6 +62,27 @@
       "IndexJantzen": [
         "dome",
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "dôme",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "oculus",
+        "volet",
+        "corniche",
+        "bandeau",
+        "sculpture",
+        "mascaron",
+        "pierre de taille",
+        "souche de cheminée",
+        "toit en pavillon",
+        "travée",
+        "porte",
+        "vitrail",
+        "fer forgé",
+        "épi de faîtage"
       ],
       "dateCapture": "2010:03:15"
     },
@@ -50,6 +92,7 @@
         "dome",
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:03:15"
     },
     {
@@ -58,6 +101,7 @@
         "fenetre-d'angle",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:03:15"
     },
     {
@@ -66,6 +110,7 @@
         "fenetre",
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:03:15"
     }
   ]

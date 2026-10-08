@@ -21,8 +21,24 @@
   "WPfr": null,
   "image_ref": "Compans-56_19_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "sculpture"
+    "sculpture",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "brique",
+    "chambranle",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "vantail",
+    "volet"
   ],
   "photos": [
     {
@@ -30,6 +46,22 @@
       "IndexJantzen": [
         "fenetre",
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "volet",
+        "arc en plein cintre",
+        "porte",
+        "vantail",
+        "pierre de taille",
+        "brique",
+        "sculpture",
+        "mascaron",
+        "chambranle"
       ],
       "dateCapture": "2005:09:02"
     }

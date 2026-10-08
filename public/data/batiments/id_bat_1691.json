@@ -21,8 +21,22 @@
   "WPfr": null,
   "image_ref": "Bois-22_19_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "console"
+    "console",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc en anse de panier",
+    "balcon",
+    "balustrade",
+    "brique",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "logette",
+    "pierre de taille",
+    "sculpture",
+    "volet"
   ],
   "photos": [
     {
@@ -30,6 +44,20 @@
       "IndexJantzen": [
         "console",
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "volet",
+        "brique",
+        "arc en anse de panier",
+        "logette",
+        "corniche",
+        "sculpture",
+        "pierre de taille"
       ],
       "dateCapture": "2005:09:02"
     }

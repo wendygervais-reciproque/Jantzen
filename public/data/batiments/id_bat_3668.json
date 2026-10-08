@@ -28,19 +28,57 @@
   "WPfr": null,
   "image_ref": "St-Germain-80_5_§1-Rs",
   "terme_jantzen_bat": [
-    "fenetre",
-    "façade",
     "sculpture",
     "clé",
-    "porte-bois",
     "cariatide",
-    "poignée-porte"
+    "fenetre",
+    "façade",
+    "poignée-porte",
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "cariatide",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "St-Germain-80_5_§1-Rs",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "mansarde",
+        "souche de cheminée",
+        "corniche",
+        "bandeau",
+        "pierre de taille",
+        "cariatide",
+        "mascaron",
+        "travée",
+        "volet",
+        "porte-fenêtre",
+        "fer forgé",
+        "toit à deux versants",
+        "oculus"
       ],
       "dateCapture": "2008:02:18"
     },
@@ -49,6 +87,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:18"
     },
     {
@@ -57,6 +96,7 @@
         "cariatide",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:24"
     },
     {
@@ -65,6 +105,7 @@
         "cariatide",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:24"
     },
     {
@@ -72,6 +113,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:24"
     },
     {
@@ -80,6 +122,7 @@
         "clé",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:24"
     },
     {
@@ -87,6 +130,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:24"
     },
     {
@@ -94,6 +138,7 @@
       "IndexJantzen": [
         "poignée-porte"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:24"
     }
   ]

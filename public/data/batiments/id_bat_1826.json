@@ -23,18 +23,46 @@
   "WPfr": null,
   "image_ref": "Danielle-Casanova-25-27_1_§1-Rx",
   "terme_jantzen_bat": [
+    "balcon",
+    "sculpture",
+    "console",
     "fenetre",
     "garde-corps",
-    "console",
-    "sculpture",
-    "porte-bois",
-    "balcon"
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "fenêtre",
+    "heurtoir",
+    "mascaron",
+    "pierre de taille",
+    "porche",
+    "porte",
+    "vantail",
+    "vitrail"
   ],
   "photos": [
     {
       "id_pic": "Danielle-Casanova-25-27_1_§1-Rx",
       "IndexJantzen": [
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "arc",
+        "arc en plein cintre",
+        "porte",
+        "porche",
+        "mascaron",
+        "pierre de taille",
+        "vantail",
+        "heurtoir",
+        "vitrail"
       ],
       "dateCapture": "2012:07:22"
     },
@@ -44,6 +72,7 @@
         "garde-corps",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:07:22"
     },
     {
@@ -54,6 +83,7 @@
         "garde-corps",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:08:26"
     },
     {
@@ -63,6 +93,7 @@
         "console",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:19"
     },
     {
@@ -71,6 +102,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:19"
     },
     {
@@ -79,6 +111,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:08:26"
     },
     {
@@ -87,6 +120,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:07:22"
     }
   ]

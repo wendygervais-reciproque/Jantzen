@@ -22,9 +22,20 @@
   "image_ref": "Vandrezanne-45_13_§1",
   "terme_jantzen_bat": [
     "toiture",
-    "lucarne",
     "pignon",
-    "fenetre-d'angle"
+    "fenetre-d'angle",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "bandeau",
+    "chambranle",
+    "fenêtre",
+    "garde-corps",
+    "mansarde",
+    "souche de cheminée",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -34,6 +45,17 @@
         "lucarne",
         "pignon"
       ],
+      "IndexTorneh": [
+        "fenêtre",
+        "mansarde",
+        "souche de cheminée",
+        "garde-corps",
+        "balcon",
+        "volet",
+        "travée",
+        "bandeau",
+        "chambranle"
+      ],
       "dateCapture": "2005:09:21"
     },
     {
@@ -41,6 +63,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:09:21"
     },
     {
@@ -49,6 +72,7 @@
         "lucarne",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:09:21"
     }
   ]

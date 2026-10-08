@@ -33,18 +33,64 @@
   "image_ref": "Lowendal-12_7_§1",
   "terme_jantzen_bat": [
     "porte-fer",
-    "fenetre",
-    "garde-corps",
-    "console",
     "sculpture",
+    "console",
+    "fenetre",
+    "porte-fer-hall",
     "chimère",
-    "porte-fer-hall"
+    "garde-corps"
+  ],
+  "terme_torneh_bat": [
+    "arc brisé",
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oriel",
+    "pierre de taille",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Lowendal-12_7_§1",
       "IndexJantzen": [
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "lucarne",
+        "arc en plein cintre",
+        "arc brisé",
+        "mansarde",
+        "toit à deux versants",
+        "souche de cheminée",
+        "ardoise",
+        "pierre de taille",
+        "volet",
+        "sculpture",
+        "mascaron",
+        "corniche",
+        "bandeau",
+        "travée",
+        "oriel",
+        "chaîne d'angle"
       ],
       "dateCapture": "2005:06:09"
     },
@@ -54,6 +100,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:09"
     },
     {
@@ -63,6 +110,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:09"
     },
     {
@@ -72,6 +120,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:11"
     },
     {
@@ -81,6 +130,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:09"
     },
     {
@@ -88,6 +138,7 @@
       "IndexJantzen": [
         "porte-fer-hall"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:11:11"
     },
     {
@@ -95,6 +146,7 @@
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:11"
     }
   ]

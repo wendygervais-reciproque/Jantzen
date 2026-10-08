@@ -24,12 +24,40 @@
     "oeil-de-boeuf",
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "chéneau",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "oculus",
+    "porte-fenêtre",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants"
+  ],
   "photos": [
     {
       "id_pic": "Malesherbes-8_8_§1",
       "IndexJantzen": [
         "lucarne",
         "oeil-de-boeuf"
+      ],
+      "IndexTorneh": [
+        "oculus",
+        "souche de cheminée",
+        "ardoise",
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "balustrade",
+        "fenêtre",
+        "porte-fenêtre",
+        "toit à deux versants",
+        "sculpture",
+        "chéneau"
       ],
       "dateCapture": "2006:03:23"
     }

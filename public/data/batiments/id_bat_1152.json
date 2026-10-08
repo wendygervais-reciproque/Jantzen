@@ -23,11 +23,27 @@
   "WPfr": null,
   "image_ref": "Rambuteau-16_3_§1",
   "terme_jantzen_bat": [
+    "balcon",
+    "sculpture",
     "fenetre",
     "garde-corps",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "modillon",
+    "pierre de taille",
+    "pilastre",
     "sculpture",
-    "décor",
-    "balcon"
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -38,6 +54,22 @@
         "garde-corps",
         "sculpture"
       ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "balustrade",
+        "fenêtre",
+        "volet",
+        "corniche",
+        "modillon",
+        "mascaron",
+        "pilastre",
+        "bandeau",
+        "travée",
+        "pierre de taille",
+        "sculpture"
+      ],
       "dateCapture": "2003:08:02"
     },
     {
@@ -46,6 +78,7 @@
         "balcon",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:08:02"
     }
   ]

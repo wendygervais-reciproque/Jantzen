@@ -23,11 +23,32 @@
   "WPfr": null,
   "image_ref": "La-Boetie-3_8_§1",
   "terme_jantzen_bat": [
-    "garde-corps",
+    "colonne",
+    "balcon",
     "façade-d'angle",
     "sculpture",
+    "garde-corps"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
     "balcon",
-    "colonne"
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "chapiteau",
+    "colonne",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "pilastre",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -35,6 +56,27 @@
       "IndexJantzen": [
         "balcon",
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "bandeau",
+        "chambranle",
+        "chapiteau",
+        "colonne",
+        "corniche",
+        "fenêtre",
+        "fer forgé",
+        "fronton",
+        "garde-corps",
+        "lucarne",
+        "mansarde",
+        "pilastre",
+        "souche de cheminée",
+        "toit à deux versants",
+        "volet",
+        "travée",
+        "ardoise"
       ],
       "dateCapture": "2004:10:21"
     },
@@ -46,6 +88,7 @@
         "garde-corps",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:10:21"
     }
   ]

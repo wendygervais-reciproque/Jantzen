@@ -32,11 +32,25 @@
   "WPfr": null,
   "image_ref": "Auguste-Bartholdi-8_15_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "console",
     "sculpture",
-    "décor",
-    "porte-fer-hall"
+    "console",
+    "fenetre",
+    "porte-fer-hall",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "pierre de taille",
+    "sculpture",
+    "souche de cheminée",
+    "toit-terrasse",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -46,6 +60,20 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "balustrade",
+        "sculpture",
+        "pierre de taille",
+        "fer forgé",
+        "volet",
+        "souche de cheminée",
+        "toit-terrasse",
+        "bandeau",
+        "travée"
+      ],
       "dateCapture": "2005:04:12"
     },
     {
@@ -54,6 +82,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:12"
     },
     {
@@ -62,6 +91,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:12"
     },
     {
@@ -70,6 +100,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:12"
     },
     {
@@ -77,6 +108,7 @@
       "IndexJantzen": [
         "porte-fer-hall"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:12"
     }
   ]

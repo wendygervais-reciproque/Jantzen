@@ -27,11 +27,57 @@
     "lucarne-d'angle",
     "façade-d'angle"
   ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "grille",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "porte-fenêtre",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Petits-Peres-Pl-1_2_§1",
       "IndexJantzen": [
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "lucarne",
+        "mansarde",
+        "ardoise",
+        "corniche",
+        "bandeau",
+        "pilastre",
+        "chambranle",
+        "volet",
+        "fer forgé",
+        "grille",
+        "porte",
+        "sculpture",
+        "mascaron",
+        "souche de cheminée",
+        "toit à deux versants",
+        "pierre de taille",
+        "porte-fenêtre"
       ],
       "dateCapture": "2004:08:31"
     },
@@ -41,6 +87,7 @@
         "lucarne-d'angle",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:08:31"
     }
   ]

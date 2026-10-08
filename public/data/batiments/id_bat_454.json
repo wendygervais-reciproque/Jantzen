@@ -31,12 +31,36 @@
     "sculpture",
     "console"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "corniche",
+    "fenêtre",
+    "garde-corps",
+    "mascaron",
+    "modillon",
+    "pierre de taille",
+    "sculpture",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Boissiere-_16_§1",
       "IndexJantzen": [
         "console",
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "sculpture",
+        "mascaron",
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "volet",
+        "corniche",
+        "modillon",
+        "pierre de taille",
+        "balustrade"
       ],
       "dateCapture": "2005:04:30"
     }

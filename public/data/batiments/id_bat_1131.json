@@ -21,8 +21,23 @@
   "WPfr": null,
   "image_ref": "Quatre-Fils-16_3_§1",
   "terme_jantzen_bat": [
-    "porte-bois",
-    "fronton"
+    "fronton",
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "chambranle",
+    "fronton",
+    "heurtoir",
+    "lucarne",
+    "mascaron",
+    "modillon",
+    "oculus",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "sculpture",
+    "vantail"
   ],
   "photos": [
     {
@@ -30,6 +45,21 @@
       "IndexJantzen": [
         "fronton",
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "portail",
+        "porte",
+        "arc en plein cintre",
+        "fronton",
+        "sculpture",
+        "mascaron",
+        "pierre de taille",
+        "vantail",
+        "heurtoir",
+        "lucarne",
+        "oculus",
+        "chambranle",
+        "modillon"
       ],
       "dateCapture": null
     }

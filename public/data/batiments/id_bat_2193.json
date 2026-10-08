@@ -21,9 +21,26 @@
   "WPfr": null,
   "image_ref": "Galande-31_5_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "façade",
-    "pignon"
+    "pignon",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "auvent",
+    "balcon",
+    "chéneau",
+    "corniche",
+    "fenêtre",
+    "garde-corps",
+    "gros appareil",
+    "lucarne",
+    "mansarde",
+    "pierre de taille",
+    "porte",
+    "travée",
+    "vitrail",
+    "volet"
   ],
   "photos": [
     {
@@ -31,6 +48,23 @@
       "IndexJantzen": [
         "façade",
         "pignon"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "porte",
+        "vitrail",
+        "ardoise",
+        "mansarde",
+        "lucarne",
+        "volet",
+        "travée",
+        "corniche",
+        "chéneau",
+        "gros appareil",
+        "pierre de taille",
+        "auvent"
       ],
       "dateCapture": "2006:06:06"
     },
@@ -40,6 +74,7 @@
         "fenetre",
         "pignon"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:06"
     },
     {
@@ -48,6 +83,7 @@
         "fenetre",
         "pignon"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:08:23"
     }
   ]

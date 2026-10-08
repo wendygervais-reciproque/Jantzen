@@ -28,8 +28,23 @@
   "WPfr": null,
   "image_ref": "Kleber-91-_16_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "mosaique"
+    "mosaique",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "chambranle",
+    "corniche",
+    "céramique",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "pierre de taille",
+    "pilastre",
+    "porte-fenêtre",
+    "vantail",
+    "volet"
   ],
   "photos": [
     {
@@ -37,6 +52,21 @@
       "IndexJantzen": [
         "fenetre",
         "mosaique"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "porte-fenêtre",
+        "volet",
+        "balustrade",
+        "pilastre",
+        "céramique",
+        "chambranle",
+        "corniche",
+        "pierre de taille",
+        "vantail"
       ],
       "dateCapture": "2004:03:17"
     }

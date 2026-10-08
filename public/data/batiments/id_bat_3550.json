@@ -23,19 +23,61 @@
   "WPfr": null,
   "image_ref": "Rambuteau-77_1_§1",
   "terme_jantzen_bat": [
+    "pilastre",
+    "sculpture",
     "fenetre",
     "façade",
+    "fronton",
     "porte",
-    "sculpture",
-    "porte-bois",
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "avant-corps",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "chapiteau",
+    "corniche",
+    "fenêtre",
+    "frise",
+    "fronton",
+    "garde-corps",
+    "oculus",
+    "pierre de taille",
     "pilastre",
-    "fronton"
+    "porte",
+    "travée",
+    "vantail",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Rambuteau-77_1_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fronton",
+        "corniche",
+        "bandeau",
+        "pilastre",
+        "chambranle",
+        "arc en plein cintre",
+        "porte",
+        "vantail",
+        "travée",
+        "avant-corps",
+        "pierre de taille",
+        "volet",
+        "oculus",
+        "frise",
+        "chapiteau"
       ],
       "dateCapture": "2004:09:02"
     },
@@ -45,6 +87,7 @@
         "fenetre",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:01"
     },
     {
@@ -52,6 +95,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:01"
     },
     {
@@ -59,6 +103,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:06:05"
     },
     {
@@ -67,6 +112,7 @@
         "façade",
         "porte"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:06:05"
     },
     {
@@ -77,6 +123,7 @@
         "pilastre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:06:05"
     },
     {
@@ -86,6 +133,7 @@
         "fronton",
         "pilastre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:06:05"
     },
     {
@@ -95,6 +143,7 @@
         "fronton",
         "pilastre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:06:05"
     },
     {
@@ -103,6 +152,7 @@
         "fenetre",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:06:05"
     }
   ]

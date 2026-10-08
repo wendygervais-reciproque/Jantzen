@@ -21,11 +21,28 @@
   "WPfr": null,
   "image_ref": "Mozart-66_16_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "façade",
     "pignon",
+    "fenetre",
     "brique",
+    "façade",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "brique",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "grille",
+    "pilastre",
+    "sculpture",
+    "tour",
+    "volet",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -34,6 +51,23 @@
         "brique",
         "façade",
         "pignon"
+      ],
+      "IndexTorneh": [
+        "tour",
+        "brique",
+        "balustrade",
+        "fronton",
+        "fer forgé",
+        "balcon",
+        "sculpture",
+        "fenêtre",
+        "pilastre",
+        "corniche",
+        "chaîne d'angle",
+        "épi de faîtage",
+        "garde-corps",
+        "volet",
+        "grille"
       ],
       "dateCapture": "2006:07:01"
     },
@@ -44,6 +78,7 @@
         "fenetre",
         "pignon"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:01"
     },
     {
@@ -53,6 +88,7 @@
         "décor",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:01"
     }
   ]

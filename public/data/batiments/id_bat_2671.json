@@ -23,10 +23,21 @@
   "WPfr": null,
   "image_ref": "St-Michel-44_5_§1",
   "terme_jantzen_bat": [
-    "oeil-de-boeuf",
-    "lucarne",
     "toiture",
-    "sculpture"
+    "oeil-de-boeuf",
+    "sculpture",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "chéneau",
+    "corniche",
+    "lucarne",
+    "mansarde",
+    "modillon",
+    "oculus",
+    "souche de cheminée"
   ],
   "photos": [
     {
@@ -34,6 +45,17 @@
       "IndexJantzen": [
         "lucarne",
         "oeil-de-boeuf"
+      ],
+      "IndexTorneh": [
+        "ardoise",
+        "oculus",
+        "lucarne",
+        "mansarde",
+        "arc en plein cintre",
+        "corniche",
+        "modillon",
+        "souche de cheminée",
+        "chéneau"
       ],
       "dateCapture": "2006:06:06"
     },
@@ -43,6 +65,7 @@
         "lucarne",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:29"
     },
     {
@@ -51,6 +74,7 @@
         "lucarne",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:29"
     },
     {
@@ -58,6 +82,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:29"
     }
   ]

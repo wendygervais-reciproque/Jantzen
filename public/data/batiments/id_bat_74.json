@@ -28,10 +28,29 @@
   "WPfr": "Église Saint-Sulpice de Paris",
   "image_ref": "St-Sulpice_6_§1",
   "terme_jantzen_bat": [
-    "oeil-de-boeuf",
     "façade",
+    "oeil-de-boeuf",
     "sculpture",
     "dome"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "ardoise",
+    "balcon",
+    "contrefort",
+    "corniche",
+    "coupole",
+    "dôme",
+    "fenêtre",
+    "grille",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "souche de cheminée",
+    "soupirail",
+    "toit en pavillon",
+    "voûte",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -39,6 +58,25 @@
       "IndexJantzen": [
         "dome",
         "façade"
+      ],
+      "IndexTorneh": [
+        "dôme",
+        "épi de faîtage",
+        "coupole",
+        "oculus",
+        "fenêtre",
+        "pierre de taille",
+        "ardoise",
+        "contrefort",
+        "pilastre",
+        "toit en pavillon",
+        "souche de cheminée",
+        "corniche",
+        "balcon",
+        "voûte",
+        "arc",
+        "grille",
+        "soupirail"
       ],
       "dateCapture": "2007:04:22"
     },
@@ -48,6 +86,7 @@
         "dome",
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:22"
     },
     {
@@ -56,6 +95,7 @@
         "dome",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:22"
     },
     {
@@ -64,6 +104,7 @@
         "dome",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:22"
     },
     {
@@ -71,6 +112,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:22"
     },
     {
@@ -78,6 +120,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:22"
     }
   ]

@@ -24,14 +24,54 @@
   "image_ref": "Rembrandt-1_8_§1",
   "terme_jantzen_bat": [
     "poignée-porte",
+    "porte-bois",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "avant-corps",
+    "balcon",
+    "balustrade",
+    "corniche",
+    "fenêtre",
+    "frise",
+    "fronton",
+    "garde-corps",
     "lucarne",
-    "porte-bois"
+    "mascaron",
+    "modillon",
+    "oculus",
+    "pilastre",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "épi de faîtage"
   ],
   "photos": [
     {
       "id_pic": "Rembrandt-1_8_§1",
       "IndexJantzen": [
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "épi de faîtage",
+        "toit à deux versants",
+        "ardoise",
+        "lucarne",
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "mascaron",
+        "corniche",
+        "modillon",
+        "sculpture",
+        "pilastre",
+        "souche de cheminée",
+        "fronton",
+        "avant-corps",
+        "frise",
+        "oculus"
       ],
       "dateCapture": "2005:08:02"
     },
@@ -40,6 +80,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:02"
     },
     {
@@ -47,6 +88,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:02"
     },
     {
@@ -54,6 +96,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:02"
     },
     {
@@ -61,6 +104,7 @@
       "IndexJantzen": [
         "poignée-porte"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:02"
     },
     {
@@ -68,6 +112,7 @@
       "IndexJantzen": [
         "poignée-porte"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:02"
     }
   ]

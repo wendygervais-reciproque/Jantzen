@@ -23,11 +23,39 @@
   "terme_jantzen_bat": [
     "porte-fer-hall"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "chambranle",
+    "corniche",
+    "fer forgé",
+    "grille",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "porte-fenêtre",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Camoens-av-1_16_§1",
       "IndexJantzen": [
         "porte-fer-hall"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "porte-fenêtre",
+        "vantail",
+        "fer forgé",
+        "balcon",
+        "balustrade",
+        "pierre de taille",
+        "chambranle",
+        "corniche",
+        "sculpture",
+        "mascaron",
+        "grille"
       ],
       "dateCapture": "2005:04:03"
     }

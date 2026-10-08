@@ -23,11 +23,27 @@
   "terme_jantzen_bat": [
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "chéneau",
+    "corniche",
+    "fenêtre",
+    "lucarne",
+    "tuile",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Lacepede-55_5_§1",
       "IndexJantzen": [
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "lucarne",
+        "fenêtre",
+        "tuile",
+        "volet",
+        "corniche",
+        "chéneau"
       ],
       "dateCapture": "2005:08:29"
     }

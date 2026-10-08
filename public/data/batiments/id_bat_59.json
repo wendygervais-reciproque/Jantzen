@@ -19,17 +19,37 @@
   "WPfr": "École militaire (France)",
   "image_ref": "Ecole-Militaire_7_§1",
   "terme_jantzen_bat": [
+    "toiture",
     "oeil-de-boeuf",
+    "dome",
+    "sculpture",
     "fenetre",
     "lucarne",
     "façade",
-    "toiture",
+    "fronton",
+    "porte",
+    "colonne",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "chapiteau corinthien",
+    "colonne",
+    "corniche",
+    "dôme",
+    "entablement",
+    "fenêtre",
+    "frise",
+    "fronton",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
     "porte",
     "sculpture",
-    "dome",
-    "fronton",
-    "décor",
-    "colonne"
+    "souche de cheminée",
+    "travée"
   ],
   "photos": [
     {
@@ -40,6 +60,7 @@
         "façade",
         "fronton"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:23"
     },
     {
@@ -47,6 +68,26 @@
       "IndexJantzen": [
         "dome",
         "façade"
+      ],
+      "IndexTorneh": [
+        "colonne",
+        "chapiteau corinthien",
+        "fronton",
+        "corniche",
+        "balustrade",
+        "balcon",
+        "fenêtre",
+        "porte",
+        "oculus",
+        "dôme",
+        "sculpture",
+        "pilastre",
+        "souche de cheminée",
+        "pierre de taille",
+        "arc en plein cintre",
+        "frise",
+        "travée",
+        "entablement"
       ],
       "dateCapture": "2006:06:23"
     },
@@ -57,6 +98,7 @@
         "lucarne",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:23"
     },
     {
@@ -66,6 +108,7 @@
         "lucarne",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:05:28"
     },
     {
@@ -74,6 +117,7 @@
         "façade",
         "porte"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:07:04"
     },
     {
@@ -82,6 +126,7 @@
         "fenetre",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:07:04"
     },
     {
@@ -90,6 +135,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:07:04"
     },
     {
@@ -98,6 +144,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:07:04"
     },
     {
@@ -106,6 +153,7 @@
         "lucarne",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:03:27"
     },
     {
@@ -114,6 +162,7 @@
         "dome",
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:23"
     },
     {
@@ -124,6 +173,7 @@
         "fronton",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:23"
     },
     {
@@ -133,6 +183,7 @@
         "fronton",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:23"
     },
     {
@@ -141,6 +192,7 @@
         "fronton",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:23"
     },
     {
@@ -149,6 +201,7 @@
         "fronton",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:23"
     },
     {
@@ -157,6 +210,7 @@
         "colonne",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:23"
     },
     {
@@ -165,6 +219,7 @@
         "colonne",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:23"
     }
   ]

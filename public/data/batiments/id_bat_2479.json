@@ -29,8 +29,24 @@
   "image_ref": "Dante-4_5_§1",
   "terme_jantzen_bat": [
     "sculpture",
-    "fenetre",
-    "console"
+    "console",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "baie",
+    "balcon",
+    "balustrade",
+    "bossage",
+    "chambranle",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "oriel",
+    "pierre de taille",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -38,6 +54,22 @@
       "IndexJantzen": [
         "console",
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "baie",
+        "fenêtre",
+        "volet",
+        "pierre de taille",
+        "arc en plein cintre",
+        "chambranle",
+        "mascaron",
+        "bossage",
+        "fer forgé",
+        "oriel",
+        "travée"
       ],
       "dateCapture": "2005:05:27"
     },
@@ -47,6 +79,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:27"
     }
   ]

@@ -32,10 +32,35 @@
   "WPfr": null,
   "image_ref": "Amiral-Roussin-63-65_15_§1",
   "terme_jantzen_bat": [
-    "lucarne",
     "brique",
+    "pignon",
     "façade",
-    "pignon"
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "oculus",
+    "pierre de taille",
+    "porte-fenêtre",
+    "sculpture",
+    "souche de cheminée",
+    "tour",
+    "travée",
+    "tuile",
+    "volet",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -43,6 +68,31 @@
       "IndexJantzen": [
         "brique",
         "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "lucarne",
+        "mansarde",
+        "tuile",
+        "ardoise",
+        "brique",
+        "pierre de taille",
+        "volet",
+        "garde-corps",
+        "sculpture",
+        "arc",
+        "oculus",
+        "souche de cheminée",
+        "fronton",
+        "épi de faîtage",
+        "bandeau",
+        "corniche",
+        "tour",
+        "travée",
+        "fer forgé",
+        "porte-fenêtre"
       ],
       "dateCapture": "2005:09:03"
     },
@@ -52,6 +102,7 @@
         "brique",
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:09:03"
     },
     {
@@ -60,6 +111,7 @@
         "lucarne",
         "pignon"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:09:03"
     }
   ]

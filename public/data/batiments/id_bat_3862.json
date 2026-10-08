@@ -28,10 +28,28 @@
   "WPfr": null,
   "image_ref": "Ledru-Rollin-Av-91_11_§1",
   "terme_jantzen_bat": [
-    "lucarne",
     "lucarne-d'angle",
     "dome",
-    "façade-d'angle"
+    "façade-d'angle",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "colonne",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "toit-terrasse",
+    "tour",
+    "travée",
+    "vitrail"
   ],
   "photos": [
     {
@@ -39,6 +57,24 @@
       "IndexJantzen": [
         "dome",
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "dôme",
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "garde-corps",
+        "pilastre",
+        "corniche",
+        "bandeau",
+        "travée",
+        "oculus",
+        "pierre de taille",
+        "colonne",
+        "vitrail",
+        "fer forgé",
+        "toit-terrasse",
+        "tour"
       ],
       "dateCapture": "2006:08:31"
     },
@@ -48,6 +84,7 @@
         "dome",
         "lucarne-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:08:31"
     },
     {
@@ -56,6 +93,7 @@
         "dome",
         "lucarne-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:11"
     },
     {
@@ -63,6 +101,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:16"
     },
     {
@@ -70,6 +109,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:08:31"
     },
     {
@@ -77,6 +117,7 @@
       "IndexJantzen": [
         "lucarne-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:16"
     },
     {
@@ -84,6 +125,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:08:31"
     }
   ]

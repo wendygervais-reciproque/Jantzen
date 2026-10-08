@@ -28,10 +28,26 @@
   "WPfr": null,
   "image_ref": "St-Placide-34_6_§1",
   "terme_jantzen_bat": [
+    "console",
     "sculpture",
     "garde-corps",
-    "console",
     "balcon"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "modillon",
+    "pierre de taille",
+    "porte-fenêtre",
+    "sculpture",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -39,6 +55,22 @@
       "IndexJantzen": [
         "balcon",
         "garde-corps"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "volet",
+        "balustrade",
+        "fer forgé",
+        "bandeau",
+        "corniche",
+        "modillon",
+        "mascaron",
+        "pierre de taille",
+        "travée",
+        "porte-fenêtre",
+        "sculpture"
       ],
       "dateCapture": "2005:04:17"
     },
@@ -48,6 +80,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:17"
     }
   ]

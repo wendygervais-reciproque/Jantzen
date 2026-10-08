@@ -431,6 +431,18 @@
   --tag-border-active:       #605e53;  /* neutral/600 */
   --tag-border-disabled:     #e4e1d5;  /* neutral/200 */
 
+  /* Tags Torne-H (volet bâtiment) — déclinaison froide (ardoise) des tags,
+     pour distinguer l'index Torne-H de l'index Jantzen. */
+  --tag-torneh-background-default:  #f4f7f8;
+  --tag-torneh-background-hover:    #e6eef1;
+  --tag-torneh-background-selected: #e1edf1;
+  --tag-torneh-content-default:     #2b3a40;
+  --tag-torneh-content-hover:       #1b282d;
+  --tag-torneh-content-selected:    #2f5563;
+  --tag-torneh-border-default:      #b3c3c8;
+  --tag-torneh-border-hover:        #5f7a83;
+  --tag-torneh-border-selected:     #4b7482;
+
   /* Menu items */
   --menu-item-background-default:  transparent;
   --menu-item-background-hover:    #f2f0e8;  /* neutral/100 */
@@ -655,6 +667,16 @@
   --tag-border-selected:     #c9b07c;  /* brand/400 */
   --tag-border-active:       #ccc9ba;
   --tag-border-disabled:     #43413a;
+
+  --tag-torneh-background-default:  #1d2427;
+  --tag-torneh-background-hover:    #263034;
+  --tag-torneh-background-selected: #1d3138;
+  --tag-torneh-content-default:     #d6e0e3;
+  --tag-torneh-content-hover:       #eef3f5;
+  --tag-torneh-content-selected:    #a9c9d3;
+  --tag-torneh-border-default:      #4f5f65;
+  --tag-torneh-border-hover:        #8fa4ab;
+  --tag-torneh-border-selected:     #7fa5b1;
 
   /* Menu items */
   --menu-item-background-hover:    #2a2924;

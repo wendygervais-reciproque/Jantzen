@@ -23,12 +23,34 @@
   "WPfr": null,
   "image_ref": "Monsieur-Le-Prince-4_6_§2",
   "terme_jantzen_bat": [
+    "sculpture",
+    "clé",
     "fenetre",
     "façade",
     "porte",
-    "sculpture",
-    "clé",
     "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "grille",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "vantail",
+    "volet"
   ],
   "photos": [
     {
@@ -38,6 +60,7 @@
         "fenetre",
         "porte"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:08:21"
     },
     {
@@ -47,6 +70,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:05:23"
     },
     {
@@ -55,6 +79,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:29"
     },
     {
@@ -62,6 +87,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:29"
     },
     {
@@ -69,6 +95,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:29"
     },
     {
@@ -78,6 +105,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:08:07"
     },
     {
@@ -86,6 +114,7 @@
         "fenetre",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:08:21"
     },
     {
@@ -93,6 +122,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:08:07"
     },
     {
@@ -102,6 +132,7 @@
         "porte-bois",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:05:23"
     },
     {
@@ -110,6 +141,7 @@
         "clé",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:29"
     },
     {
@@ -119,6 +151,28 @@
         "fenetre",
         "porte"
       ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "mascaron",
+        "porte",
+        "arc en plein cintre",
+        "oculus",
+        "lucarne",
+        "mansarde",
+        "souche de cheminée",
+        "sculpture",
+        "balustrade",
+        "toit à deux versants",
+        "fer forgé",
+        "pierre de taille",
+        "grille",
+        "volet",
+        "vantail",
+        "bandeau",
+        "chambranle"
+      ],
       "dateCapture": "2007:04:22"
     },
     {
@@ -127,6 +181,7 @@
         "fenetre",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:08:21"
     },
     {
@@ -135,6 +190,7 @@
         "fenetre",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:08:21"
     },
     {
@@ -143,6 +199,7 @@
         "fenetre",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:22"
     },
     {
@@ -152,6 +209,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:08:21"
     },
     {
@@ -160,6 +218,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:05:23"
     }
   ]

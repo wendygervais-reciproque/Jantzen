@@ -31,12 +31,34 @@
     "marquise",
     "porte-fer-hall"
   ],
+  "terme_torneh_bat": [
+    "chambranle",
+    "fenêtre",
+    "fer forgé",
+    "grille",
+    "jambage",
+    "marquise",
+    "pierre de taille",
+    "porte",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Sylvie-de-Sacy-1_7_§1",
       "IndexJantzen": [
         "marquise",
         "porte-fer-hall"
+      ],
+      "IndexTorneh": [
+        "marquise",
+        "porte",
+        "fenêtre",
+        "fer forgé",
+        "pierre de taille",
+        "grille",
+        "chambranle",
+        "vantail",
+        "jambage"
       ],
       "dateCapture": "2004:04:26"
     }

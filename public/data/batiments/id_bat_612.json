@@ -26,22 +26,66 @@
   "WPfr": null,
   "image_ref": "Madeleine-bd-12_9_§1",
   "terme_jantzen_bat": [
+    "toiture",
+    "dome",
+    "façade-d'angle",
     "porte-fer",
+    "sculpture",
     "fenetre",
     "lucarne",
     "façade",
-    "toiture",
-    "façade-d'angle",
+    "porte",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chapiteau",
+    "colonne",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pilastre",
     "porte",
     "sculpture",
-    "dome",
-    "décor"
+    "toit à deux versants",
+    "travée",
+    "tuile"
   ],
   "photos": [
     {
       "id_pic": "Madeleine-bd-12_9_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "lucarne",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "corniche",
+        "pilastre",
+        "colonne",
+        "chapiteau",
+        "fronton",
+        "travée",
+        "mansarde",
+        "oculus",
+        "toit à deux versants",
+        "bandeau",
+        "sculpture",
+        "mascaron",
+        "ardoise",
+        "porte",
+        "tuile"
       ],
       "dateCapture": "2006:03:23"
     },
@@ -50,6 +94,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:03:23"
     },
     {
@@ -58,6 +103,7 @@
         "porte-fer",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:03:28"
     },
     {
@@ -66,6 +112,7 @@
         "façade-d'angle",
         "porte"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:03:23"
     },
     {
@@ -73,6 +120,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:17"
     },
     {
@@ -81,6 +129,7 @@
         "dome",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:03:23"
     },
     {
@@ -90,6 +139,7 @@
         "lucarne",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:03:23"
     },
     {
@@ -97,6 +147,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:03:19"
     },
     {
@@ -104,6 +155,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:17"
     },
     {
@@ -112,6 +164,7 @@
         "lucarne",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": null
     }
   ]

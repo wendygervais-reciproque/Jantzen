@@ -21,8 +21,20 @@
   "WPfr": null,
   "image_ref": "Crimee-208_19_§2",
   "terme_jantzen_bat": [
-    "toiture",
-    "brique"
+    "brique",
+    "toiture"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "brique",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "porte-fenêtre",
+    "toit à deux versants",
+    "volet"
   ],
   "photos": [
     {
@@ -30,6 +42,18 @@
       "IndexJantzen": [
         "brique",
         "toiture"
+      ],
+      "IndexTorneh": [
+        "mansarde",
+        "lucarne",
+        "fenêtre",
+        "porte-fenêtre",
+        "balcon",
+        "garde-corps",
+        "brique",
+        "volet",
+        "fer forgé",
+        "toit à deux versants"
       ],
       "dateCapture": "2006:04:20"
     }

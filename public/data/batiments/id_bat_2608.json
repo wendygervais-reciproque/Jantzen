@@ -29,8 +29,21 @@
   "image_ref": "Ribera-41_16_§1",
   "terme_jantzen_bat": [
     "sculpture",
-    "console",
-    "atlante"
+    "atlante",
+    "console"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "corniche",
+    "céramique",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "pilastre",
+    "porte-fenêtre",
+    "sculpture"
   ],
   "photos": [
     {
@@ -38,6 +51,19 @@
       "IndexJantzen": [
         "atlante",
         "console",
+        "sculpture"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "mascaron",
+        "céramique",
+        "fenêtre",
+        "porte-fenêtre",
+        "corniche",
+        "pilastre",
         "sculpture"
       ],
       "dateCapture": "2005:05:18"

@@ -21,9 +21,23 @@
   "WPfr": null,
   "image_ref": "Bethune-14_4_§1",
   "terme_jantzen_bat": [
+    "fronton",
     "fenetre",
-    "décor",
-    "fronton"
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "frise",
+    "fronton",
+    "garde-corps",
+    "mascaron",
+    "pierre de taille",
+    "travée"
   ],
   "photos": [
     {
@@ -32,6 +46,20 @@
         "décor",
         "fenetre",
         "fronton"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "mascaron",
+        "fronton",
+        "corniche",
+        "chambranle",
+        "travée",
+        "bandeau",
+        "frise",
+        "pierre de taille",
+        "balustrade"
       ],
       "dateCapture": "2007:07:11"
     }

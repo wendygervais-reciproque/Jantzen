@@ -21,15 +21,47 @@
   "WPfr": null,
   "image_ref": "Mail-5_2_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "sculpture",
-    "clé"
+    "clé",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "bossage",
+    "chaîne d'angle",
+    "chéneau",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "grille",
+    "gros appareil",
+    "lucarne",
+    "mascaron",
+    "pierre de taille",
+    "porte"
   ],
   "photos": [
     {
       "id_pic": "Mail-5_2_§1",
       "IndexJantzen": [
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "mascaron",
+        "arc en plein cintre",
+        "balcon",
+        "garde-corps",
+        "lucarne",
+        "chaîne d'angle",
+        "bossage",
+        "porte",
+        "grille",
+        "gros appareil",
+        "pierre de taille",
+        "chéneau",
+        "fer forgé"
       ],
       "dateCapture": "2005:08:28"
     },
@@ -40,6 +72,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:28"
     }
   ]

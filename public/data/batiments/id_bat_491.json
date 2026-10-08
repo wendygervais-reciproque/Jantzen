@@ -30,11 +30,37 @@
   "terme_jantzen_bat": [
     "porte-fer-hall"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "chambranle",
+    "corniche",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Larrey-11_5_§1",
       "IndexJantzen": [
         "porte-fer-hall"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "arc en plein cintre",
+        "fer forgé",
+        "balcon",
+        "garde-corps",
+        "pierre de taille",
+        "vantail",
+        "balustrade",
+        "chambranle",
+        "corniche",
+        "mascaron"
       ],
       "dateCapture": "2003:08:09"
     }

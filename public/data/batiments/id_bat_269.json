@@ -36,17 +36,42 @@
   "WPfr": null,
   "image_ref": "Villaret-de-Joyeuse-1_17_§1",
   "terme_jantzen_bat": [
-    "porte-fer",
-    "fenetre",
-    "façade-d'angle",
-    "sculpture",
     "dome",
+    "façade-d'angle",
+    "porte-fer",
+    "sculpture",
     "clé",
     "fenetre-d'angle",
-    "lucarne-d'angle",
-    "décor",
+    "fenetre",
     "porte-fer-hall",
-    "colonne"
+    "lucarne-d'angle",
+    "colonne",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "atlante",
+    "avant-corps",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chapiteau corinthien",
+    "colonne",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "vitrail"
   ],
   "photos": [
     {
@@ -54,6 +79,31 @@
       "IndexJantzen": [
         "dome",
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "dôme",
+        "balcon",
+        "balustrade",
+        "colonne",
+        "chapiteau corinthien",
+        "fenêtre",
+        "garde-corps",
+        "corniche",
+        "fronton",
+        "sculpture",
+        "souche de cheminée",
+        "ardoise",
+        "mascaron",
+        "pierre de taille",
+        "fer forgé",
+        "oculus",
+        "lucarne",
+        "atlante",
+        "toit à deux versants",
+        "avant-corps",
+        "bandeau",
+        "pilastre",
+        "vitrail"
       ],
       "dateCapture": "2010:08:21"
     },
@@ -63,6 +113,7 @@
         "colonne",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:06:04"
     },
     {
@@ -71,6 +122,7 @@
         "colonne",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:06:04"
     },
     {
@@ -78,6 +130,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:06:02"
     },
     {
@@ -85,6 +138,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:06:02"
     },
     {
@@ -92,6 +146,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:06:04"
     },
     {
@@ -99,6 +154,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:12"
     },
     {
@@ -106,6 +162,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:06:01"
     },
     {
@@ -113,6 +170,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:06:01"
     },
     {
@@ -120,6 +178,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:06:01"
     },
     {
@@ -129,6 +188,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:06:02"
     },
     {
@@ -138,6 +198,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:06:02"
     },
     {
@@ -145,6 +206,7 @@
       "IndexJantzen": [
         "porte-fer-hall"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:12:11"
     },
     {
@@ -154,6 +216,7 @@
         "porte-fer",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:12:11"
     },
     {
@@ -161,6 +224,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:12:11"
     },
     {
@@ -168,6 +232,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:12:11"
     },
     {
@@ -175,6 +240,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:12:11"
     },
     {
@@ -183,6 +249,7 @@
         "dome",
         "façade-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:06:02"
     },
     {
@@ -191,6 +258,7 @@
         "dome",
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:08:21"
     },
     {
@@ -199,6 +267,7 @@
         "dome",
         "façade-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:12"
     },
     {
@@ -207,6 +276,7 @@
         "dome",
         "lucarne-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:06:02"
     },
     {
@@ -215,6 +285,7 @@
         "dome",
         "lucarne-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:08:21"
     },
     {
@@ -223,6 +294,7 @@
         "dome",
         "lucarne-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:12"
     },
     {
@@ -231,6 +303,7 @@
         "colonne",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:06:02"
     },
     {
@@ -239,6 +312,7 @@
         "colonne",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:06:02"
     }
   ]

@@ -24,12 +24,46 @@
     "marquise",
     "porte-fer"
   ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "brique",
+    "chambranle",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "marquise",
+    "perron",
+    "pierre de taille",
+    "porche",
+    "porte",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Luynes-Sq-1_7_§1",
       "IndexJantzen": [
         "marquise",
         "porte-fer"
+      ],
+      "IndexTorneh": [
+        "marquise",
+        "porte",
+        "arc",
+        "arc en plein cintre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "perron",
+        "pierre de taille",
+        "fenêtre",
+        "volet",
+        "brique",
+        "porche",
+        "chambranle"
       ],
       "dateCapture": "2007:04:02"
     }

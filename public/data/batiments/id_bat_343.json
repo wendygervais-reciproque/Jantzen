@@ -23,17 +23,61 @@
   "WPfr": null,
   "image_ref": "Las-Cases-10_7_§1",
   "terme_jantzen_bat": [
+    "balcon",
+    "pilastre",
     "fenetre",
     "façade",
-    "porte-bois",
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "chapiteau corinthien",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "frise",
+    "garde-corps",
+    "linteau",
+    "mascaron",
+    "pierre de taille",
     "pilastre",
-    "balcon"
+    "porte",
+    "souche de cheminée",
+    "toit-terrasse",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Las-Cases-10_7_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "porte",
+        "arc en plein cintre",
+        "chapiteau corinthien",
+        "pilastre",
+        "corniche",
+        "bandeau",
+        "chambranle",
+        "souche de cheminée",
+        "toit-terrasse",
+        "pierre de taille",
+        "volet",
+        "fer forgé",
+        "mascaron",
+        "travée",
+        "linteau",
+        "frise"
       ],
       "dateCapture": "2004:05:24"
     },
@@ -43,6 +87,7 @@
         "balcon",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:05:25"
     },
     {
@@ -51,6 +96,7 @@
         "fenetre",
         "pilastre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:05:24"
     },
     {
@@ -58,6 +104,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:05:24"
     }
   ]

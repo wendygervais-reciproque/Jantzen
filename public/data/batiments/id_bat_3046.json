@@ -23,10 +23,24 @@
   "WPfr": null,
   "image_ref": "Romainville-57_19_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "brique",
-    "décor",
-    "mosaique"
+    "mosaique",
+    "fenetre",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "brique",
+    "chéneau",
+    "corniche",
+    "céramique",
+    "fenêtre",
+    "garde-corps",
+    "linteau",
+    "modillon",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "tuile"
   ],
   "photos": [
     {
@@ -36,6 +50,20 @@
         "décor",
         "fenetre",
         "mosaique"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "porte-fenêtre",
+        "balcon",
+        "garde-corps",
+        "brique",
+        "céramique",
+        "tuile",
+        "souche de cheminée",
+        "corniche",
+        "modillon",
+        "linteau",
+        "chéneau"
       ],
       "dateCapture": "2005:09:02"
     },
@@ -47,6 +75,7 @@
         "fenetre",
         "mosaique"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:09:02"
     }
   ]

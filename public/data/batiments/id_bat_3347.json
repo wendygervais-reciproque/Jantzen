@@ -21,14 +21,46 @@
   "WPfr": null,
   "image_ref": "Beaumarchais-69_3_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "façade"
+    "façade",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "pierre de taille",
+    "porte",
+    "souche de cheminée",
+    "travée",
+    "vitrail",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Beaumarchais-69_3_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "balustrade",
+        "mansarde",
+        "souche de cheminée",
+        "lucarne",
+        "corniche",
+        "bandeau",
+        "travée",
+        "porte",
+        "vitrail",
+        "pierre de taille",
+        "volet"
       ],
       "dateCapture": "2010:03:23"
     },
@@ -37,6 +69,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:03:23"
     }
   ]

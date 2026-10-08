@@ -21,8 +21,24 @@
   "WPfr": null,
   "image_ref": "Montmartre-162_2_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "balcon"
+    "balcon",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oriel",
+    "souche de cheminée"
   ],
   "photos": [
     {
@@ -30,6 +46,22 @@
       "IndexJantzen": [
         "balcon",
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "lucarne",
+        "mansarde",
+        "souche de cheminée",
+        "corniche",
+        "ardoise",
+        "oriel",
+        "fronton",
+        "bandeau",
+        "fer forgé",
+        "mascaron"
       ],
       "dateCapture": "2004:09:05"
     }

@@ -28,14 +28,50 @@
   "WPfr": null,
   "image_ref": "Charles-Beaudelaire-34_12_§1",
   "terme_jantzen_bat": [
-    "lucarne-d'angle",
-    "porte-fer-hall"
+    "porte-fer-hall",
+    "lucarne-d'angle"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "pierre de taille",
+    "pilastre",
+    "souche de cheminée",
+    "toit à deux versants",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Charles-Beaudelaire-34_12_§1",
       "IndexJantzen": [
         "lucarne-d'angle"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "volet",
+        "lucarne",
+        "mansarde",
+        "souche de cheminée",
+        "ardoise",
+        "corniche",
+        "pilastre",
+        "toit à deux versants",
+        "fronton",
+        "mascaron",
+        "pierre de taille"
       ],
       "dateCapture": "2006:08:31"
     },
@@ -44,6 +80,7 @@
       "IndexJantzen": [
         "porte-fer-hall"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:17"
     }
   ]

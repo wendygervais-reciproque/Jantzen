@@ -23,8 +23,29 @@
   "WPfr": null,
   "image_ref": "Louis-Braille-9_12_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "verrière"
+    "verrière",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "baie",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "céramique",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "oriel",
+    "pierre de taille",
+    "pilastre",
+    "porte-fenêtre",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -32,6 +53,27 @@
       "IndexJantzen": [
         "fenetre",
         "verrière"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "porte-fenêtre",
+        "lucarne",
+        "mansarde",
+        "volet",
+        "ardoise",
+        "céramique",
+        "pilastre",
+        "corniche",
+        "bandeau",
+        "fer forgé",
+        "arc en plein cintre",
+        "oriel",
+        "baie",
+        "pierre de taille",
+        "travée"
       ],
       "dateCapture": "2005:07:16"
     }

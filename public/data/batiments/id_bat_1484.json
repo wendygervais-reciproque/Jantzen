@@ -29,17 +29,63 @@
   "image_ref": "Colonel-Moll-2_17_§1",
   "terme_jantzen_bat": [
     "oeil-de-boeuf",
+    "façade-d'angle",
     "fenetre",
     "lucarne",
-    "façade-d'angle",
-    "lucarne-d'angle",
-    "porte-fer-hall"
+    "porte-fer-hall",
+    "lucarne-d'angle"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Colonel-Moll-2_17_§1",
       "IndexJantzen": [
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "volet",
+        "lucarne",
+        "mansarde",
+        "souche de cheminée",
+        "bandeau",
+        "pierre de taille",
+        "sculpture",
+        "mascaron",
+        "oculus",
+        "corniche",
+        "travée",
+        "fer forgé",
+        "toit à deux versants",
+        "ardoise",
+        "arc en plein cintre",
+        "pilastre",
+        "fronton"
       ],
       "dateCapture": "2010:08:20"
     },
@@ -48,6 +94,7 @@
       "IndexJantzen": [
         "porte-fer-hall"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:03:28"
     },
     {
@@ -55,6 +102,7 @@
       "IndexJantzen": [
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:08:20"
     },
     {
@@ -62,6 +110,7 @@
       "IndexJantzen": [
         "lucarne-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:08:20"
     },
     {
@@ -71,6 +120,7 @@
         "lucarne",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:08:20"
     },
     {
@@ -80,6 +130,7 @@
         "lucarne",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:10:11"
     },
     {
@@ -88,6 +139,7 @@
         "lucarne",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:08:20"
     },
     {
@@ -96,6 +148,7 @@
         "lucarne",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:10:11"
     },
     {
@@ -103,6 +156,7 @@
       "IndexJantzen": [
         "porte-fer-hall"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:03:20"
     }
   ]

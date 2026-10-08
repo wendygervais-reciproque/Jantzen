@@ -24,8 +24,22 @@
   "image_ref": "Madeleine-pl-3_8_§1",
   "terme_jantzen_bat": [
     "sculpture",
-    "porte-bois",
-    "fronton"
+    "fronton",
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "bossage",
+    "corniche",
+    "fenêtre",
+    "frise",
+    "fronton",
+    "pierre de taille",
+    "pilastre",
+    "portail",
+    "porte",
+    "sculpture",
+    "vantail"
   ],
   "photos": [
     {
@@ -33,6 +47,20 @@
       "IndexJantzen": [
         "fronton",
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "portail",
+        "porte",
+        "fronton",
+        "sculpture",
+        "pilastre",
+        "frise",
+        "vantail",
+        "fenêtre",
+        "arc en plein cintre",
+        "corniche",
+        "pierre de taille",
+        "bossage"
       ],
       "dateCapture": "2007:08:26"
     },
@@ -42,6 +70,7 @@
         "fronton",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:05:23"
     },
     {
@@ -50,6 +79,7 @@
         "porte-bois",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:05:23"
     }
   ]

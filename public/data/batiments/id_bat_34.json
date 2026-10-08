@@ -41,8 +41,27 @@
   "image_ref": "Louvre-1-Cn_P-Denon-01",
   "terme_jantzen_bat": [
     "toiture",
+    "sculpture",
+    "cariatide"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "attique",
+    "balustrade",
     "cariatide",
-    "sculpture"
+    "chaîne d'angle",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "frise",
+    "fronton",
+    "mascaron",
+    "pierre de taille",
+    "pilastre",
+    "sculpture",
+    "souche de cheminée",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -50,12 +69,32 @@
       "IndexJantzen": [
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": null
     },
     {
       "id_pic": "Louvre-1-Cn_P-Denon-01",
       "IndexJantzen": [
         "toiture"
+      ],
+      "IndexTorneh": [
+        "dôme",
+        "souche de cheminée",
+        "sculpture",
+        "cariatide",
+        "fronton",
+        "ardoise",
+        "fenêtre",
+        "arc en plein cintre",
+        "balustrade",
+        "pilastre",
+        "mascaron",
+        "corniche",
+        "pierre de taille",
+        "frise",
+        "attique",
+        "épi de faîtage",
+        "chaîne d'angle"
       ],
       "dateCapture": "2005:08:30"
     },
@@ -65,6 +104,7 @@
         "cariatide",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:18"
     },
     {
@@ -73,6 +113,7 @@
         "cariatide",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:18"
     }
   ]

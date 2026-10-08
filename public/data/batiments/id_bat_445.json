@@ -27,6 +27,25 @@
     "fenetre",
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chapiteau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "souche de cheminée",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Vendome-Pl-11_1_§1",
@@ -34,6 +53,25 @@
         "fenetre",
         "lucarne",
         "oeil-de-boeuf"
+      ],
+      "IndexTorneh": [
+        "lucarne",
+        "oculus",
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "pilastre",
+        "corniche",
+        "bandeau",
+        "mascaron",
+        "ardoise",
+        "souche de cheminée",
+        "volet",
+        "pierre de taille",
+        "arc en plein cintre",
+        "chapiteau",
+        "fer forgé"
       ],
       "dateCapture": "2008:06:21"
     },
@@ -43,6 +81,7 @@
         "lucarne",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:06:21"
     },
     {
@@ -51,6 +90,7 @@
         "lucarne",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:06:21"
     }
   ]

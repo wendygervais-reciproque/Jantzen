@@ -21,8 +21,24 @@
   "WPfr": null,
   "image_ref": "Gaston-Coute-1_18_§1-zFc",
   "terme_jantzen_bat": [
-    "fenetre",
-    "brique"
+    "brique",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "pierre de taille",
+    "porte",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -30,6 +46,22 @@
       "IndexJantzen": [
         "brique",
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "balustrade",
+        "fer forgé",
+        "arc en plein cintre",
+        "volet",
+        "porte-fenêtre",
+        "pierre de taille",
+        "bandeau",
+        "corniche",
+        "travée",
+        "souche de cheminée",
+        "porte"
       ],
       "dateCapture": "2004:06:14"
     }

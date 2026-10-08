@@ -23,11 +23,31 @@
   "terme_jantzen_bat": [
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "chambranle",
+    "fer forgé",
+    "heurtoir",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "vantail",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Laffitte-43_9_§1",
       "IndexJantzen": [
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "vantail",
+        "chambranle",
+        "pierre de taille",
+        "heurtoir",
+        "volet",
+        "fer forgé",
+        "pilastre"
       ],
       "dateCapture": "2004:06:16"
     }

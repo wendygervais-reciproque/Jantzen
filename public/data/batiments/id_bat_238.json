@@ -24,12 +24,34 @@
     "toiture",
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "chéneau",
+    "corniche",
+    "fenêtre",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "souche de cheminée",
+    "toit à deux versants",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Plat-Etain-1_1_§1",
       "IndexJantzen": [
         "lucarne",
         "toiture"
+      ],
+      "IndexTorneh": [
+        "lucarne",
+        "fenêtre",
+        "chéneau",
+        "toit à deux versants",
+        "souche de cheminée",
+        "garde-corps",
+        "mansarde",
+        "corniche",
+        "volet"
       ],
       "dateCapture": "2005:08:28"
     },
@@ -38,6 +60,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:28"
     }
   ]

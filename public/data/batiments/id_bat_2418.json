@@ -25,11 +25,45 @@
   "terme_jantzen_bat": [
     "façade"
   ],
+  "terme_torneh_bat": [
+    "arc en anse de panier",
+    "ardoise",
+    "balcon",
+    "bandeau",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "grille",
+    "mascaron",
+    "modillon",
+    "pierre de taille",
+    "soupirail",
+    "toit-terrasse"
+  ],
   "photos": [
     {
       "id_pic": "Croix-Petits-Champs-39_1_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "corniche",
+        "bandeau",
+        "arc en anse de panier",
+        "mascaron",
+        "ardoise",
+        "pierre de taille",
+        "fer forgé",
+        "grille",
+        "chambranle",
+        "soupirail",
+        "modillon",
+        "toit-terrasse"
       ],
       "dateCapture": "2004:09:01"
     }

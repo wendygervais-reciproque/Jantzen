@@ -21,12 +21,34 @@
   "WPfr": null,
   "image_ref": "Raynouard-3_16_§1",
   "terme_jantzen_bat": [
-    "lucarne",
-    "façade-d'angle",
+    "balcon",
     "dome",
-    "lucarne-d'angle",
+    "façade-d'angle",
     "tour",
-    "balcon"
+    "lucarne",
+    "lucarne-d'angle"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "marquise",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "sculpture",
+    "souche de cheminée",
+    "tour",
+    "volet"
   ],
   "photos": [
     {
@@ -35,6 +57,28 @@
         "dome",
         "façade-d'angle",
         "tour"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "garde-corps",
+        "corniche",
+        "dôme",
+        "lucarne",
+        "mansarde",
+        "souche de cheminée",
+        "mascaron",
+        "pierre de taille",
+        "fer forgé",
+        "ardoise",
+        "tour",
+        "oculus",
+        "sculpture",
+        "bandeau",
+        "marquise",
+        "volet",
+        "fronton"
       ],
       "dateCapture": "2006:06:30"
     },
@@ -46,6 +90,7 @@
         "lucarne-d'angle",
         "tour"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:30"
     },
     {
@@ -54,6 +99,7 @@
         "dome",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:30"
     }
   ]

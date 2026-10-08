@@ -28,10 +28,22 @@
   "WPfr": null,
   "image_ref": "Magenta-11_10_§1-Rx",
   "terme_jantzen_bat": [
-    "fenetre",
-    "cariatide",
     "sculpture",
-    "verrière"
+    "verrière",
+    "cariatide",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "baie",
+    "bandeau",
+    "corniche",
+    "entablement",
+    "fenêtre",
+    "frise",
+    "pierre de taille",
+    "pilastre",
+    "sculpture",
+    "travée"
   ],
   "photos": [
     {
@@ -41,6 +53,18 @@
         "fenetre",
         "sculpture",
         "verrière"
+      ],
+      "IndexTorneh": [
+        "sculpture",
+        "pilastre",
+        "fenêtre",
+        "corniche",
+        "entablement",
+        "frise",
+        "bandeau",
+        "pierre de taille",
+        "travée",
+        "baie"
       ],
       "dateCapture": "2012:05:14"
     }

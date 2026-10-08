@@ -25,11 +25,43 @@
   "terme_jantzen_bat": [
     "fenetre"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "mascaron",
+    "modillon",
+    "oculus",
+    "pierre de taille",
+    "travée",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "St-Denis-36_1_§1",
       "IndexJantzen": [
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "fronton",
+        "arc en plein cintre",
+        "mascaron",
+        "corniche",
+        "modillon",
+        "balustrade",
+        "pierre de taille",
+        "travée",
+        "volet",
+        "fer forgé",
+        "oculus"
       ],
       "dateCapture": "2009:03:31"
     },
@@ -38,6 +70,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:03:31"
     },
     {
@@ -45,6 +78,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:03:31"
     }
   ]

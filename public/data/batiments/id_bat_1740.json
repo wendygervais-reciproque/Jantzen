@@ -21,9 +21,30 @@
   "WPfr": null,
   "image_ref": "Cler-23_7_§1",
   "terme_jantzen_bat": [
-    "lucarne-d'angle",
+    "porte-fer-hall",
     "pignon",
-    "porte-fer-hall"
+    "lucarne-d'angle"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "brique",
+    "corniche",
+    "fenêtre",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "mur-boutant",
+    "oriel",
+    "pierre de taille",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "tuile",
+    "volet"
   ],
   "photos": [
     {
@@ -31,6 +52,27 @@
       "IndexJantzen": [
         "lucarne-d'angle",
         "pignon"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "fenêtre",
+        "mansarde",
+        "lucarne",
+        "souche de cheminée",
+        "toit à deux versants",
+        "ardoise",
+        "brique",
+        "pierre de taille",
+        "sculpture",
+        "mascaron",
+        "mur-boutant",
+        "corniche",
+        "volet",
+        "travée",
+        "oriel",
+        "tuile"
       ],
       "dateCapture": "2005:06:09"
     },
@@ -40,6 +82,7 @@
         "lucarne-d'angle",
         "pignon"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:09"
     },
     {
@@ -47,6 +90,7 @@
       "IndexJantzen": [
         "porte-fer-hall"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:09"
     }
   ]

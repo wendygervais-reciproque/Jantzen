@@ -23,11 +23,41 @@
   "terme_jantzen_bat": [
     "porte-fer-hall"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bossage",
+    "chambranle",
+    "chapiteau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Freres-Perier-3_16_§1",
       "IndexJantzen": [
         "porte-fer-hall"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "portail",
+        "fer forgé",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "pierre de taille",
+        "chapiteau",
+        "bossage",
+        "corniche",
+        "vantail",
+        "chambranle"
       ],
       "dateCapture": "2004:10:26"
     }

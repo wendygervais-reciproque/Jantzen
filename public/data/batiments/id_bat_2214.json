@@ -23,11 +23,31 @@
   "terme_jantzen_bat": [
     "fenetre"
   ],
+  "terme_torneh_bat": [
+    "baie",
+    "bandeau",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "modillon",
+    "pierre de taille",
+    "soupirail"
+  ],
   "photos": [
     {
       "id_pic": "Blomet-32_15_§1",
       "IndexJantzen": [
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "baie",
+        "pierre de taille",
+        "corniche",
+        "modillon",
+        "chambranle",
+        "bandeau",
+        "soupirail"
       ],
       "dateCapture": "2004:07:13"
     }

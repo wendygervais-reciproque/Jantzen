@@ -22,8 +22,19 @@
   "image_ref": "Conseiller-Collignon-17_16_§1",
   "terme_jantzen_bat": [
     "oeil-de-boeuf",
-    "lucarne",
-    "garde-corps"
+    "garde-corps",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balustrade",
+    "corniche",
+    "fer forgé",
+    "oculus",
+    "pierre de taille",
+    "portail",
+    "sculpture"
   ],
   "photos": [
     {
@@ -32,6 +43,17 @@
         "lucarne",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [
+        "oculus",
+        "balustrade",
+        "arc en plein cintre",
+        "ardoise",
+        "pierre de taille",
+        "fer forgé",
+        "sculpture",
+        "corniche",
+        "portail"
+      ],
       "dateCapture": "2007:03:27"
     },
     {
@@ -39,6 +61,7 @@
       "IndexJantzen": [
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:03:27"
     }
   ]

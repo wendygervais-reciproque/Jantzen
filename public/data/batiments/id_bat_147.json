@@ -17,10 +17,27 @@
   "WPfr": "Village Saint-Paul",
   "image_ref": "St-Paul-Village_4_§1",
   "terme_jantzen_bat": [
-    "lucarne",
-    "fenetre",
     "façade",
-    "pignon"
+    "pignon",
+    "fenetre",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "chéneau",
+    "faîtage",
+    "fenêtre",
+    "garde-corps",
+    "grille",
+    "lucarne",
+    "mansarde",
+    "pierre de taille",
+    "porte",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -28,11 +45,29 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [
+        "fenêtre",
+        "lucarne",
+        "mansarde",
+        "ardoise",
+        "garde-corps",
+        "balcon",
+        "pierre de taille",
+        "souche de cheminée",
+        "porte",
+        "porte-fenêtre",
+        "volet",
+        "grille",
+        "chéneau",
+        "faîtage",
+        "travée"
+      ],
       "dateCapture": "2004:09:07"
     },
     {
       "id_pic": "St-Paul-Village_4_§10",
       "IndexJantzen": [],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:07"
     },
     {
@@ -40,6 +75,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:07"
     },
     {
@@ -47,6 +83,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:07:10"
     },
     {
@@ -54,6 +91,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:08:20"
     },
     {
@@ -62,6 +100,7 @@
         "lucarne",
         "pignon"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:08:20"
     },
     {
@@ -69,6 +108,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:08:20"
     }
   ]

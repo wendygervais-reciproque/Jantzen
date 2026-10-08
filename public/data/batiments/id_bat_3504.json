@@ -22,8 +22,23 @@
   "image_ref": "Cardinet-74_17_§1",
   "terme_jantzen_bat": [
     "verrière",
-    "lucarne",
-    "fenetre-d'angle"
+    "fenetre-d'angle",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "oriel",
+    "pierre de taille",
+    "souche de cheminée",
+    "verrière",
+    "volet"
   ],
   "photos": [
     {
@@ -32,6 +47,21 @@
         "fenetre-d'angle",
         "lucarne",
         "verrière"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "fer forgé",
+        "garde-corps",
+        "verrière",
+        "volet",
+        "ardoise",
+        "pierre de taille",
+        "souche de cheminée",
+        "oriel",
+        "corniche",
+        "bandeau"
       ],
       "dateCapture": "2007:06:01"
     },
@@ -42,6 +72,7 @@
         "lucarne",
         "verrière"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:06:01"
     }
   ]

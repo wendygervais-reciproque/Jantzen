@@ -21,18 +21,64 @@
   "WPfr": null,
   "image_ref": "Wagram-20_8_§1",
   "terme_jantzen_bat": [
+    "balcon",
+    "sculpture",
+    "console",
     "fenetre",
     "façade",
-    "console",
+    "chimère"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "modillon",
+    "oculus",
+    "oriel",
+    "pierre de taille",
     "sculpture",
-    "chimère",
-    "balcon"
+    "souche de cheminée",
+    "travée",
+    "vitrail",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Wagram-20_8_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "arc en plein cintre",
+        "lucarne",
+        "mansarde",
+        "oculus",
+        "souche de cheminée",
+        "corniche",
+        "bandeau",
+        "sculpture",
+        "mascaron",
+        "pierre de taille",
+        "ardoise",
+        "volet",
+        "travée",
+        "fronton",
+        "oriel",
+        "modillon",
+        "vitrail"
       ],
       "dateCapture": "2006:03:19"
     },
@@ -43,6 +89,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:03:19"
     },
     {
@@ -51,6 +98,7 @@
         "balcon",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:04:01"
     },
     {
@@ -59,6 +107,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:03:19"
     },
     {
@@ -68,6 +117,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:03:19"
     }
   ]

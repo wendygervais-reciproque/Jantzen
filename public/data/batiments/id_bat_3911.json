@@ -23,11 +23,31 @@
   "terme_jantzen_bat": [
     "porte-fer-hall"
   ],
+  "terme_torneh_bat": [
+    "arc",
+    "fer forgé",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "sculpture",
+    "vantail",
+    "vitrail"
+  ],
   "photos": [
     {
       "id_pic": "Republique-96_11_§1",
       "IndexJantzen": [
         "porte-fer-hall"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "portail",
+        "fer forgé",
+        "vantail",
+        "pierre de taille",
+        "sculpture",
+        "arc",
+        "vitrail"
       ],
       "dateCapture": "2006:09:06"
     }

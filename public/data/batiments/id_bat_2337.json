@@ -23,11 +23,35 @@
   "terme_jantzen_bat": [
     "fenetre"
   ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "lucarne",
+    "mansarde",
+    "porte-fenêtre",
+    "travée",
+    "vantail",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Gregoire-de-Tours-36_6_§1",
       "IndexJantzen": [
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "lucarne",
+        "mansarde",
+        "porte-fenêtre",
+        "corniche",
+        "bandeau",
+        "travée",
+        "ardoise",
+        "volet",
+        "vantail"
       ],
       "dateCapture": "2005:06:02"
     },
@@ -36,6 +60,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:02"
     }
   ]

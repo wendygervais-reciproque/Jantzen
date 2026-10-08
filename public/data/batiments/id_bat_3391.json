@@ -32,8 +32,19 @@
   "WPfr": null,
   "image_ref": "Danville-7_14_§2",
   "terme_jantzen_bat": [
-    "balcon",
-    "porte-fer-hall"
+    "porte-fer-hall",
+    "balcon"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "fer forgé",
+    "huisserie",
+    "jambage",
+    "pierre de taille",
+    "porche",
+    "porte",
+    "soupirail",
+    "vantail"
   ],
   "photos": [
     {
@@ -41,12 +52,24 @@
       "IndexJantzen": [
         "balcon"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:28"
     },
     {
       "id_pic": "Danville-7_14_§2",
       "IndexJantzen": [
         "porte-fer-hall"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "vantail",
+        "fer forgé",
+        "porche",
+        "arc",
+        "huisserie",
+        "soupirail",
+        "jambage",
+        "pierre de taille"
       ],
       "dateCapture": "2004:07:29"
     }

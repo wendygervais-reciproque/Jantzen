@@ -28,18 +28,52 @@
   "WPfr": null,
   "image_ref": "Beaumarchais-68_11_10_§3",
   "terme_jantzen_bat": [
+    "balcon",
+    "sculpture",
     "fenetre",
     "façade",
     "garde-corps",
-    "sculpture",
-    "porte-bois",
-    "balcon"
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chéneau",
+    "corniche",
+    "fenêtre",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "pierre de taille",
+    "porte",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "toit à deux versants",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Beaumarchais-68_11_10_§3",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "lucarne",
+        "mansarde",
+        "souche de cheminée",
+        "porte",
+        "porte-fenêtre",
+        "volet",
+        "bandeau",
+        "corniche",
+        "pierre de taille",
+        "toit à deux versants",
+        "garde-corps",
+        "chéneau"
       ],
       "dateCapture": "2010:04:16"
     },
@@ -48,6 +82,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:04:16"
     },
     {
@@ -56,6 +91,7 @@
         "balcon",
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:04:16"
     },
     {
@@ -65,6 +101,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:04:16"
     },
     {
@@ -72,6 +109,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:04:16"
     },
     {
@@ -80,6 +118,7 @@
         "porte-bois",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:04:16"
     }
   ]

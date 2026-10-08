@@ -23,11 +23,33 @@
   "terme_jantzen_bat": [
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balustrade",
+    "fer forgé",
+    "gros appareil",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Marceau-54_8_§1",
       "IndexJantzen": [
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "arc en plein cintre",
+        "mascaron",
+        "vantail",
+        "fer forgé",
+        "pierre de taille",
+        "gros appareil",
+        "sculpture",
+        "balustrade"
       ],
       "dateCapture": "2006:04:06"
     }

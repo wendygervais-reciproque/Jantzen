@@ -24,14 +24,54 @@
   "WPfr": "Statue équestre de Louis XIV (place des Victoires)",
   "image_ref": "Victoires-Pl_2_§1-Rx",
   "terme_jantzen_bat": [
-    "voie",
-    "sculpture"
+    "sculpture",
+    "voie"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "grille",
+    "lucarne",
+    "mansarde",
+    "oculus",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants"
   ],
   "photos": [
     {
       "id_pic": "Victoires-Pl_2_§1-Rx",
       "IndexJantzen": [
         "voie"
+      ],
+      "IndexTorneh": [
+        "sculpture",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "lucarne",
+        "mansarde",
+        "souche de cheminée",
+        "ardoise",
+        "toit à deux versants",
+        "pierre de taille",
+        "grille",
+        "fer forgé",
+        "corniche",
+        "bandeau",
+        "arc en plein cintre",
+        "porte",
+        "oculus"
       ],
       "dateCapture": "2012:07:22"
     },
@@ -40,6 +80,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:17"
     },
     {
@@ -47,6 +88,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:17"
     },
     {
@@ -54,6 +96,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:17"
     },
     {
@@ -61,6 +104,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:17"
     },
     {
@@ -68,6 +112,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:17"
     }
   ]

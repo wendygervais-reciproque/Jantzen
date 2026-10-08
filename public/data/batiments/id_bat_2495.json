@@ -28,12 +28,30 @@
   "WPfr": null,
   "image_ref": "Rome-4_8_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "garde-corps",
-    "porte-bois",
-    "pilastre",
     "balcon",
-    "fronton"
+    "pilastre",
+    "fenetre",
+    "fronton",
+    "garde-corps",
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "chapiteau",
+    "chapiteau composite",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "frise",
+    "fronton",
+    "garde-corps",
+    "mascaron",
+    "modillon",
+    "pierre de taille",
+    "pilastre",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -42,6 +60,24 @@
         "balcon",
         "garde-corps",
         "pilastre"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "balustrade",
+        "corniche",
+        "chapiteau",
+        "chapiteau composite",
+        "pilastre",
+        "fronton",
+        "volet",
+        "pierre de taille",
+        "frise",
+        "travée",
+        "modillon",
+        "mascaron"
       ],
       "dateCapture": "2005:08:09"
     },
@@ -52,6 +88,7 @@
         "garde-corps",
         "pilastre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:09"
     },
     {
@@ -61,6 +98,7 @@
         "fronton",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:09"
     },
     {
@@ -69,6 +107,7 @@
         "fenetre",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:09"
     }
   ]

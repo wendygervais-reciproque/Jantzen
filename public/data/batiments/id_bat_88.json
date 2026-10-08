@@ -31,12 +31,28 @@
     "dome",
     "façade-d'angle"
   ],
+  "terme_torneh_bat": [
+    "auvent",
+    "colonne",
+    "corniche",
+    "fenêtre",
+    "porte",
+    "tour"
+  ],
   "photos": [
     {
       "id_pic": "Poissoniere-1_2_§1",
       "IndexJantzen": [
         "dome",
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "tour",
+        "colonne",
+        "corniche",
+        "auvent",
+        "porte",
+        "fenêtre"
       ],
       "dateCapture": "2010:06:05"
     },
@@ -45,6 +61,7 @@
       "IndexJantzen": [
         "dome"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:06:05"
     },
     {
@@ -52,6 +69,7 @@
       "IndexJantzen": [
         "dome"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:06:05"
     }
   ]

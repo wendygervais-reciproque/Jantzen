@@ -21,9 +21,24 @@
   "WPfr": null,
   "image_ref": "Kleber-66_16_§1",
   "terme_jantzen_bat": [
-    "cariatide",
     "sculpture",
+    "cariatide",
     "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "cariatide",
+    "chapiteau",
+    "colonne",
+    "corniche",
+    "entablement",
+    "fronton",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "porte-fenêtre",
+    "sculpture",
+    "vantail",
+    "volet"
   ],
   "photos": [
     {
@@ -32,6 +47,21 @@
         "cariatide",
         "porte-bois",
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "cariatide",
+        "colonne",
+        "chapiteau",
+        "porte",
+        "porte-fenêtre",
+        "corniche",
+        "entablement",
+        "pilastre",
+        "vantail",
+        "pierre de taille",
+        "volet",
+        "sculpture",
+        "fronton"
       ],
       "dateCapture": "2005:03:16"
     },
@@ -42,6 +72,7 @@
         "porte-bois",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:19"
     }
   ]

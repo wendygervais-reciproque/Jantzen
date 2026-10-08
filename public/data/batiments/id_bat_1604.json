@@ -22,10 +22,24 @@
   "image_ref": "Daumesnil-209_12_§1",
   "terme_jantzen_bat": [
     "toiture",
+    "balcon",
     "fenetre",
-    "garde-corps",
     "lucarne-d'angle",
-    "balcon"
+    "garde-corps"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "oriel",
+    "souche de cheminée",
+    "toit en pavillon",
+    "tour"
   ],
   "photos": [
     {
@@ -35,6 +49,20 @@
         "lucarne-d'angle",
         "toiture"
       ],
+      "IndexTorneh": [
+        "tour",
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "ardoise",
+        "fenêtre",
+        "lucarne",
+        "toit en pavillon",
+        "fer forgé",
+        "oriel",
+        "corniche",
+        "souche de cheminée"
+      ],
       "dateCapture": "2004:07:26"
     },
     {
@@ -43,6 +71,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:26"
     }
   ]

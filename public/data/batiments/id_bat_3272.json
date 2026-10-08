@@ -36,19 +36,75 @@
   "WPfr": null,
   "image_ref": "Felix-Faure-av-64_15_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "console",
+    "balcon",
     "façade-d'angle",
     "sculpture",
-    "porte-fer-hall",
+    "console",
+    "fenetre",
     "fenetre-d'angle",
-    "balcon"
+    "porte-fer-hall"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "ardoise",
+    "auvent",
+    "avant-corps",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chapiteau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "porte",
+    "porte-fenêtre",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Felix-Faure-av-64_15_§1",
       "IndexJantzen": [
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "mansarde",
+        "lucarne",
+        "oculus",
+        "fronton",
+        "sculpture",
+        "mascaron",
+        "corniche",
+        "bandeau",
+        "pierre de taille",
+        "arc en plein cintre",
+        "arc",
+        "souche de cheminée",
+        "toit à deux versants",
+        "porte",
+        "porte-fenêtre",
+        "avant-corps",
+        "ardoise",
+        "fer forgé",
+        "travée",
+        "auvent",
+        "volet",
+        "chapiteau"
       ],
       "dateCapture": "2005:04:21"
     },
@@ -57,6 +113,7 @@
       "IndexJantzen": [
         "façade-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:21"
     },
     {
@@ -64,6 +121,7 @@
       "IndexJantzen": [
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:21"
     },
     {
@@ -72,6 +130,7 @@
         "balcon",
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:21"
     },
     {
@@ -80,6 +139,7 @@
         "balcon",
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:21"
     },
     {
@@ -89,6 +149,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:21"
     },
     {
@@ -96,6 +157,7 @@
       "IndexJantzen": [
         "porte-fer-hall"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:21"
     }
   ]

@@ -21,15 +21,55 @@
   "WPfr": null,
   "image_ref": "Ledru-Rollin-20_12_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "sculpture",
-    "console"
+    "console",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "meneau",
+    "oriel",
+    "pierre de taille",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Ledru-Rollin-20_12_§1",
       "IndexJantzen": [
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "porte-fenêtre",
+        "lucarne",
+        "mansarde",
+        "ardoise",
+        "souche de cheminée",
+        "arc en plein cintre",
+        "garde-corps",
+        "oriel",
+        "mascaron",
+        "corniche",
+        "volet",
+        "pierre de taille",
+        "fer forgé",
+        "meneau",
+        "travée"
       ],
       "dateCapture": "2004:07:26"
     },
@@ -39,6 +79,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:26"
     },
     {
@@ -47,6 +88,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:26"
     }
   ]

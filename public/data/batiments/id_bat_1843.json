@@ -30,11 +30,37 @@
   "terme_jantzen_bat": [
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "chéneau",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "pierre de taille",
+    "porte-fenêtre",
+    "souche de cheminée"
+  ],
   "photos": [
     {
       "id_pic": "Convention-25_15_§1",
       "IndexJantzen": [
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "lucarne",
+        "ardoise",
+        "souche de cheminée",
+        "garde-corps",
+        "fenêtre",
+        "porte-fenêtre",
+        "corniche",
+        "pierre de taille",
+        "chéneau",
+        "fronton",
+        "mansarde"
       ],
       "dateCapture": "2004:03:16"
     }

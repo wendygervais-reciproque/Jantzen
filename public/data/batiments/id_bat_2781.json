@@ -22,11 +22,34 @@
   "image_ref": "Belgrand-49_20_§1",
   "terme_jantzen_bat": [
     "toiture",
-    "lucarne",
+    "balcon",
     "façade-d'angle",
     "fenetre-d'angle",
-    "lucarne-d'angle",
-    "balcon"
+    "lucarne",
+    "lucarne-d'angle"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "avant-corps",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chaîne d'angle",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "porte-fenêtre",
+    "sculpture",
+    "souche de cheminée",
+    "travée",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -34,6 +57,29 @@
       "IndexJantzen": [
         "façade-d'angle",
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "lucarne",
+        "oculus",
+        "mansarde",
+        "souche de cheminée",
+        "dôme",
+        "épi de faîtage",
+        "bandeau",
+        "corniche",
+        "pierre de taille",
+        "mascaron",
+        "sculpture",
+        "fer forgé",
+        "ardoise",
+        "porte-fenêtre",
+        "travée",
+        "avant-corps",
+        "chaîne d'angle"
       ],
       "dateCapture": "2005:09:04"
     },
@@ -43,6 +89,7 @@
         "fenetre-d'angle",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:09:04"
     },
     {
@@ -52,6 +99,7 @@
         "lucarne-d'angle",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:09:04"
     }
   ]

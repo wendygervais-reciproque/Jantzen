@@ -21,9 +21,21 @@
   "WPfr": null,
   "image_ref": "Etats-Unis-Pl-14_16_§1",
   "terme_jantzen_bat": [
+    "toiture",
     "oeil-de-boeuf",
-    "lucarne",
-    "toiture"
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "acrotère",
+    "ardoise",
+    "brique",
+    "corniche",
+    "fronton",
+    "mansarde",
+    "oculus",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants"
   ],
   "photos": [
     {
@@ -32,6 +44,18 @@
         "lucarne",
         "oeil-de-boeuf",
         "toiture"
+      ],
+      "IndexTorneh": [
+        "fronton",
+        "oculus",
+        "souche de cheminée",
+        "ardoise",
+        "mansarde",
+        "acrotère",
+        "sculpture",
+        "corniche",
+        "brique",
+        "toit à deux versants"
       ],
       "dateCapture": "2004:10:22"
     }

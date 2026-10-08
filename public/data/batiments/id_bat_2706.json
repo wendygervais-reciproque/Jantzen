@@ -28,8 +28,27 @@
   "WPfr": null,
   "image_ref": "Boissiere-45_16_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "mosaique"
+    "mosaique",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "bandeau",
+    "brique",
+    "corniche",
+    "céramique",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "gros appareil",
+    "mascaron",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "sculpture",
+    "soupirail",
+    "travée"
   ],
   "photos": [
     {
@@ -37,6 +56,25 @@
       "IndexJantzen": [
         "fenetre",
         "mosaique"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "arc en plein cintre",
+        "pilastre",
+        "mascaron",
+        "sculpture",
+        "céramique",
+        "brique",
+        "pierre de taille",
+        "corniche",
+        "fronton",
+        "porte",
+        "gros appareil",
+        "travée",
+        "bandeau",
+        "soupirail"
       ],
       "dateCapture": "2005:04:30"
     },
@@ -46,6 +84,7 @@
         "fenetre",
         "mosaique"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:30"
     }
   ]

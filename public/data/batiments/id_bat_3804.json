@@ -30,8 +30,20 @@
   "terme_jantzen_bat": [
     "porte",
     "sculpture",
-    "porte-bois",
-    "colonne"
+    "colonne",
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "balustrade",
+    "chapiteau ionique",
+    "colonne",
+    "corniche",
+    "entablement",
+    "fenêtre",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "vantail"
   ],
   "photos": [
     {
@@ -39,6 +51,18 @@
       "IndexJantzen": [
         "colonne",
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "chapiteau ionique",
+        "colonne",
+        "balustrade",
+        "sculpture",
+        "pierre de taille",
+        "entablement",
+        "corniche",
+        "vantail",
+        "fenêtre"
       ],
       "dateCapture": "2008:04:07"
     },
@@ -48,6 +72,7 @@
         "porte",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:04:07"
     }
   ]

@@ -36,11 +36,45 @@
     "balcon",
     "façade-d'angle"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "oriel",
+    "pierre de taille",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "tour",
+    "travée",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Censier-8_5_§1",
       "IndexJantzen": [
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "porte-fenêtre",
+        "volet",
+        "garde-corps",
+        "brique",
+        "pierre de taille",
+        "bandeau",
+        "corniche",
+        "travée",
+        "souche de cheminée",
+        "fer forgé",
+        "tour",
+        "oriel"
       ],
       "dateCapture": "2005:04:11"
     },
@@ -49,6 +83,7 @@
       "IndexJantzen": [
         "façade-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:11"
     },
     {
@@ -57,6 +92,7 @@
         "balcon",
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:11"
     },
     {
@@ -65,6 +101,7 @@
         "balcon",
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:11"
     }
   ]

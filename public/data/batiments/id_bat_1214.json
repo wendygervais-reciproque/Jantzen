@@ -21,8 +21,16 @@
   "WPfr": null,
   "image_ref": "Bievre-17_5_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "garde-corps"
+    "garde-corps",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "jambage",
+    "linteau"
   ],
   "photos": [
     {
@@ -30,6 +38,14 @@
       "IndexJantzen": [
         "fenetre",
         "garde-corps"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "garde-corps",
+        "fer forgé",
+        "balcon",
+        "linteau",
+        "jambage"
       ],
       "dateCapture": "2003:08:10"
     }

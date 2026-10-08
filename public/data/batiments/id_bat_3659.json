@@ -32,14 +32,62 @@
   "WPfr": null,
   "image_ref": "Sedillot-8_7_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "oriel"
+    "oriel",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "jambage",
+    "linteau",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "modillon",
+    "oculus",
+    "pierre de taille",
+    "sculpture",
+    "souche de cheminée",
+    "travée"
   ],
   "photos": [
     {
       "id_pic": "Sedillot-8_7_§1",
       "IndexJantzen": [
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "lucarne",
+        "mansarde",
+        "corniche",
+        "bandeau",
+        "pierre de taille",
+        "mascaron",
+        "sculpture",
+        "fronton",
+        "chambranle",
+        "ardoise",
+        "souche de cheminée",
+        "fer forgé",
+        "modillon",
+        "arc en plein cintre",
+        "oculus",
+        "travée",
+        "linteau",
+        "jambage"
       ],
       "dateCapture": "2004:05:24"
     },
@@ -49,6 +97,7 @@
         "fenetre",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:05:24"
     }
   ]

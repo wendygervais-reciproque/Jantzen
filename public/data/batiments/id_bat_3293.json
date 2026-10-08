@@ -23,11 +23,33 @@
   "terme_jantzen_bat": [
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "chéneau",
+    "corniche",
+    "fenêtre",
+    "lucarne",
+    "souche de cheminée",
+    "toit à deux versants",
+    "tuile",
+    "vantail",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Ternes-Av-66_17_§1",
       "IndexJantzen": [
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "lucarne",
+        "souche de cheminée",
+        "tuile",
+        "chéneau",
+        "fenêtre",
+        "volet",
+        "vantail",
+        "corniche",
+        "toit à deux versants"
       ],
       "dateCapture": "2009:06:27"
     }

@@ -34,11 +34,34 @@
   "WPfr": null,
   "image_ref": "Charles-Beaudelaire-2_12_§1",
   "terme_jantzen_bat": [
+    "mosaique",
+    "sculpture",
     "fenetre",
     "lucarne",
-    "sculpture",
-    "mosaique",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "colonne",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "volet"
   ],
   "photos": [
     {
@@ -48,6 +71,29 @@
         "fenetre",
         "lucarne",
         "mosaique",
+        "sculpture"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "bandeau",
+        "colonne",
+        "corniche",
+        "fenêtre",
+        "fronton",
+        "garde-corps",
+        "lucarne",
+        "mansarde",
+        "mascaron",
+        "pierre de taille",
+        "pilastre",
+        "souche de cheminée",
+        "toit à deux versants",
+        "volet",
+        "arc en plein cintre",
+        "ardoise",
+        "fer forgé",
+        "oculus",
         "sculpture"
       ],
       "dateCapture": "2004:06:06"
@@ -60,6 +106,7 @@
         "mosaique",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:06:06"
     }
   ]

@@ -25,11 +25,47 @@
     "garde-corps",
     "façade-d'angle"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "bossage",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "pierre de taille",
+    "porte",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée"
+  ],
   "photos": [
     {
       "id_pic": "Bac-26_7_§1",
       "IndexJantzen": [
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "bandeau",
+        "corniche",
+        "fenêtre",
+        "fer forgé",
+        "garde-corps",
+        "lucarne",
+        "mansarde",
+        "pierre de taille",
+        "porte",
+        "toit à deux versants",
+        "travée",
+        "souche de cheminée",
+        "bossage",
+        "chaîne d'angle"
       ],
       "dateCapture": "2009:06:03"
     },
@@ -38,6 +74,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:06:03"
     },
     {
@@ -45,6 +82,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:06:03"
     },
     {
@@ -53,6 +91,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:06:03"
     }
   ]

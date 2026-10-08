@@ -30,19 +30,65 @@
   "WPfr": null,
   "image_ref": "Leon-Vaudoyer-2_7_§1",
   "terme_jantzen_bat": [
-    "fenetre",
+    "balcon",
     "façade-d'angle",
     "sculpture",
     "fenetre-d'angle",
-    "décor",
+    "fenetre",
+    "colonne",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "avant-corps",
     "balcon",
-    "colonne"
+    "balustrade",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "grille",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "porte-fenêtre",
+    "sculpture",
+    "souche de cheminée",
+    "soupirail",
+    "travée",
+    "vitrail"
   ],
   "photos": [
     {
       "id_pic": "Leon-Vaudoyer-2_7_§1",
       "IndexJantzen": [
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "porte-fenêtre",
+        "mascaron",
+        "sculpture",
+        "corniche",
+        "fronton",
+        "pilastre",
+        "soupirail",
+        "souche de cheminée",
+        "travée",
+        "avant-corps",
+        "oculus",
+        "pierre de taille",
+        "dôme",
+        "mansarde",
+        "porte",
+        "vitrail",
+        "grille"
       ],
       "dateCapture": "2006:07:16"
     },
@@ -51,6 +97,7 @@
       "IndexJantzen": [
         "façade-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:16"
     },
     {
@@ -58,6 +105,7 @@
       "IndexJantzen": [
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:16"
     },
     {
@@ -68,6 +116,7 @@
         "fenetre-d'angle",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:16"
     },
     {
@@ -77,6 +126,7 @@
         "colonne",
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:04"
     },
     {
@@ -84,6 +134,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:05:23"
     }
   ]

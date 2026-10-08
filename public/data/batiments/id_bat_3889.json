@@ -28,16 +28,38 @@
   "WPfr": null,
   "image_ref": "Republique-94_11_§1",
   "terme_jantzen_bat": [
-    "oeil-de-boeuf",
     "chimère",
     "clé",
-    "porte-bois"
+    "porte-bois",
+    "oeil-de-boeuf"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "chambranle",
+    "fer forgé",
+    "garde-corps",
+    "grille",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "vantail"
   ],
   "photos": [
     {
       "id_pic": "Republique-94_11_§1",
       "IndexJantzen": [
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "vantail",
+        "mascaron",
+        "chambranle",
+        "pierre de taille",
+        "fer forgé",
+        "balcon",
+        "garde-corps",
+        "grille"
       ],
       "dateCapture": "2006:09:06"
     },
@@ -49,6 +71,7 @@
         "oeil-de-boeuf",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:09:06"
     }
   ]

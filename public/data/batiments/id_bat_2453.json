@@ -22,17 +22,42 @@
   "image_ref": "Villiers-4_17_§1",
   "terme_jantzen_bat": [
     "toiture",
+    "dome",
+    "façade-d'angle",
+    "porte-fer",
+    "pignon",
+    "sculpture",
+    "fenetre-d'angle",
     "fenetre",
     "lucarne",
-    "pignon",
     "façade",
-    "porte-fer",
-    "façade-d'angle",
+    "fronton",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "arcade",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chéneau",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porte",
     "sculpture",
-    "dome",
-    "fenetre-d'angle",
-    "décor",
-    "fronton"
+    "souche de cheminée",
+    "toit à deux versants",
+    "volet",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -40,6 +65,31 @@
       "IndexJantzen": [
         "dome",
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "dôme",
+        "oculus",
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "corniche",
+        "fronton",
+        "mascaron",
+        "sculpture",
+        "pilastre",
+        "arc en plein cintre",
+        "mansarde",
+        "souche de cheminée",
+        "épi de faîtage",
+        "ardoise",
+        "pierre de taille",
+        "arcade",
+        "bandeau",
+        "chéneau",
+        "toit à deux versants",
+        "porte",
+        "volet"
       ],
       "dateCapture": "2008:03:27"
     },
@@ -50,6 +100,7 @@
         "pignon",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:03:27"
     },
     {
@@ -57,6 +108,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:03:20"
     },
     {
@@ -65,6 +117,7 @@
         "lucarne",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:10:22"
     },
     {
@@ -73,6 +126,7 @@
         "fronton",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:10:22"
     },
     {
@@ -81,6 +135,7 @@
         "fenetre",
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:04:16"
     },
     {
@@ -89,6 +144,7 @@
         "dome",
         "façade-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:09:05"
     },
     {
@@ -97,6 +153,7 @@
         "dome",
         "façade-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:03:27"
     },
     {
@@ -105,6 +162,7 @@
         "dome",
         "façade-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:03:12"
     },
     {
@@ -116,6 +174,7 @@
         "lucarne",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:03:27"
     },
     {
@@ -127,6 +186,7 @@
         "lucarne",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:06:01"
     },
     {
@@ -138,6 +198,7 @@
         "lucarne",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:03:27"
     },
     {
@@ -147,6 +208,7 @@
         "pignon",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:20"
     }
   ]

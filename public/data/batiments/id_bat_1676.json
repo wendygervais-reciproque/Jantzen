@@ -21,9 +21,22 @@
   "WPfr": null,
   "image_ref": "Bonne-Graine-Pass-22_11_§1",
   "terme_jantzen_bat": [
-    "toiture",
     "brique",
+    "toiture",
     "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "arc en anse de panier",
+    "ardoise",
+    "balcon",
+    "brique",
+    "chaîne d'angle",
+    "fenêtre",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "porte-fenêtre",
+    "souche de cheminée"
   ],
   "photos": [
     {
@@ -32,6 +45,19 @@
         "brique",
         "lucarne",
         "toiture"
+      ],
+      "IndexTorneh": [
+        "souche de cheminée",
+        "ardoise",
+        "mansarde",
+        "lucarne",
+        "fenêtre",
+        "porte-fenêtre",
+        "garde-corps",
+        "balcon",
+        "brique",
+        "chaîne d'angle",
+        "arc en anse de panier"
       ],
       "dateCapture": "2006:08:31"
     }

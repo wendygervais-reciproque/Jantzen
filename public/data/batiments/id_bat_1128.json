@@ -24,11 +24,30 @@
   "image_ref": "Francs-Bourgeois-16_3_§1",
   "terme_jantzen_bat": [
     "porte-fer",
-    "fenetre",
-    "façade",
     "sculpture",
     "pilastre",
-    "cariatide"
+    "cariatide",
+    "fenetre",
+    "façade"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "ardoise",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "grille",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "pilier",
+    "portail",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -37,6 +56,7 @@
         "cariatide",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:08:01"
     },
     {
@@ -45,6 +65,25 @@
         "fenetre",
         "porte-fer"
       ],
+      "IndexTorneh": [
+        "arc en plein cintre",
+        "arc",
+        "portail",
+        "grille",
+        "fer forgé",
+        "fronton",
+        "pilastre",
+        "mascaron",
+        "fenêtre",
+        "pierre de taille",
+        "ardoise",
+        "souche de cheminée",
+        "épi de faîtage",
+        "sculpture",
+        "pilier",
+        "toit à deux versants",
+        "oculus"
+      ],
       "dateCapture": null
     },
     {
@@ -52,6 +91,7 @@
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": null
     },
     {
@@ -60,6 +100,7 @@
         "façade",
         "pilastre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:03"
     },
     {
@@ -67,6 +108,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:03"
     },
     {
@@ -74,6 +116,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:03"
     },
     {
@@ -81,6 +124,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:03"
     },
     {
@@ -88,6 +132,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:03"
     },
     {
@@ -95,6 +140,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:08:01"
     }
   ]

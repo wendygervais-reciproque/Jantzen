@@ -25,11 +25,37 @@
   "terme_jantzen_bat": [
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "souche de cheminée",
+    "toit à deux versants",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Universite-62_7_§1-Rs",
       "IndexJantzen": [
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "mansarde",
+        "lucarne",
+        "fenêtre",
+        "ardoise",
+        "souche de cheminée",
+        "corniche",
+        "bandeau",
+        "garde-corps",
+        "fer forgé",
+        "volet",
+        "toit à deux versants"
       ],
       "dateCapture": "2008:02:19"
     },
@@ -38,6 +64,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:19"
     }
   ]

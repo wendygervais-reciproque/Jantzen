@@ -29,13 +29,35 @@
   "image_ref": "Louvre-Rue-15_1_§1",
   "terme_jantzen_bat": [
     "oeil-de-boeuf",
+    "sculpture",
     "fenetre",
     "lucarne",
     "façade",
-    "sculpture",
     "voie",
-    "décor",
-    "colonne"
+    "colonne",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "attique",
+    "balcon",
+    "balustrade",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "frise",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "modillon",
+    "oculus",
+    "pierre de taille",
+    "sculpture",
+    "souche de cheminée",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -44,6 +66,28 @@
         "décor",
         "fenetre",
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "lucarne",
+        "oculus",
+        "fronton",
+        "corniche",
+        "mascaron",
+        "sculpture",
+        "souche de cheminée",
+        "pierre de taille",
+        "ardoise",
+        "mansarde",
+        "volet",
+        "fer forgé",
+        "frise",
+        "modillon",
+        "travée",
+        "attique"
       ],
       "dateCapture": "2004:08:31"
     },
@@ -54,6 +98,7 @@
         "lucarne",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:08:31"
     },
     {
@@ -63,6 +108,7 @@
         "oeil-de-boeuf",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:08:31"
     },
     {
@@ -72,6 +118,7 @@
         "oeil-de-boeuf",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:08:31"
     },
     {
@@ -80,6 +127,7 @@
         "façade",
         "voie"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:02"
     },
     {
@@ -87,6 +135,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:02"
     },
     {
@@ -94,6 +143,7 @@
       "IndexJantzen": [
         "colonne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:02"
     }
   ]

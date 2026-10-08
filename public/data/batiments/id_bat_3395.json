@@ -25,11 +25,45 @@
   "terme_jantzen_bat": [
     "fenetre"
   ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "bandeau",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "travée",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Jouy-7_4_§1",
       "IndexJantzen": [
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "lucarne",
+        "oculus",
+        "fronton",
+        "mascaron",
+        "corniche",
+        "bandeau",
+        "balcon",
+        "garde-corps",
+        "ardoise",
+        "pierre de taille",
+        "travée",
+        "vantail",
+        "mansarde",
+        "chambranle"
       ],
       "dateCapture": "2003:08:09"
     }

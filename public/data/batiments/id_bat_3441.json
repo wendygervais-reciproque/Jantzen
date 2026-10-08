@@ -25,11 +25,43 @@
   "terme_jantzen_bat": [
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "arc en anse de panier",
+    "balcon",
+    "chapiteau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "grille",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "sculpture",
+    "vantail",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Reaumur-7_3_G16S-B",
       "IndexJantzen": [
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "vantail",
+        "arc en anse de panier",
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "volet",
+        "fenêtre",
+        "pierre de taille",
+        "sculpture",
+        "corniche",
+        "chapiteau",
+        "pilastre",
+        "grille"
       ],
       "dateCapture": "2004:09:02"
     }

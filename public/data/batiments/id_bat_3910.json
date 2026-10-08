@@ -28,12 +28,30 @@
   "WPfr": null,
   "image_ref": "Montmartre-95_2_§1",
   "terme_jantzen_bat": [
-    "façade",
-    "métal",
     "oriel",
     "brique",
+    "métal",
+    "façade",
     "céramique",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "baie",
+    "balcon",
+    "balustrade",
+    "brique",
+    "chéneau",
+    "corniche",
+    "céramique",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "oculus",
+    "oriel",
+    "travée"
   ],
   "photos": [
     {
@@ -44,6 +62,24 @@
         "façade",
         "métal",
         "oriel"
+      ],
+      "IndexTorneh": [
+        "oriel",
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "baie",
+        "céramique",
+        "brique",
+        "fer forgé",
+        "corniche",
+        "fronton",
+        "lucarne",
+        "travée",
+        "balustrade",
+        "mansarde",
+        "oculus",
+        "chéneau"
       ],
       "dateCapture": "2004:08:21"
     },
@@ -56,6 +92,7 @@
         "métal",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:08:21"
     }
   ]

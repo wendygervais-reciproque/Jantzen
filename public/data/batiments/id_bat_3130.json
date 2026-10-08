@@ -24,9 +24,23 @@
   "image_ref": "Cite-6_4_§1",
   "terme_jantzen_bat": [
     "toiture",
-    "lucarne",
+    "oeil-de-boeuf",
     "sculpture",
-    "oeil-de-boeuf"
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "acrotère",
+    "ardoise",
+    "balustrade",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "mansarde",
+    "oculus",
+    "oriel",
+    "pierre de taille",
+    "sculpture",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -35,6 +49,20 @@
         "lucarne",
         "toiture"
       ],
+      "IndexTorneh": [
+        "oculus",
+        "balustrade",
+        "corniche",
+        "sculpture",
+        "fenêtre",
+        "ardoise",
+        "mansarde",
+        "pierre de taille",
+        "chaîne d'angle",
+        "épi de faîtage",
+        "oriel",
+        "acrotère"
+      ],
       "dateCapture": "2010:08:21"
     },
     {
@@ -42,6 +70,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:09:28"
     },
     {
@@ -50,6 +79,7 @@
         "lucarne",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:06"
     },
     {
@@ -58,6 +88,7 @@
         "lucarne",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:09:28"
     },
     {
@@ -65,6 +96,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:06"
     },
     {
@@ -72,6 +104,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:06"
     },
     {
@@ -79,6 +112,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:08:21"
     },
     {
@@ -86,6 +120,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:08:21"
     }
   ]

@@ -21,9 +21,26 @@
   "WPfr": null,
   "image_ref": "Sommerard-16_5_§1",
   "terme_jantzen_bat": [
+    "fronton",
     "fenetre",
-    "porte-bois",
-    "fronton"
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "chambranle",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "linteau",
+    "mascaron",
+    "oriel",
+    "pierre de taille",
+    "porte",
+    "travée",
+    "vantail",
+    "volet"
   ],
   "photos": [
     {
@@ -31,6 +48,23 @@
       "IndexJantzen": [
         "fenetre",
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "volet",
+        "porte",
+        "vantail",
+        "arc en plein cintre",
+        "mascaron",
+        "pierre de taille",
+        "balustrade",
+        "travée",
+        "chambranle",
+        "linteau",
+        "oriel"
       ],
       "dateCapture": "2005:05:27"
     },
@@ -40,6 +74,7 @@
         "fenetre",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:27"
     },
     {
@@ -48,6 +83,7 @@
         "fenetre",
         "fronton"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:27"
     }
   ]

@@ -28,12 +28,27 @@
   "WPfr": null,
   "image_ref": "Faubourg-Poissonniere-17_9_§2",
   "terme_jantzen_bat": [
+    "mosaique",
     "porte-fer",
     "fenetre",
-    "marquise",
-    "mosaique",
     "brique",
+    "marquise",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "brique",
+    "céramique",
+    "fenêtre",
+    "fer forgé",
+    "grille",
+    "marquise",
+    "mascaron",
+    "perron",
+    "porche",
+    "porte",
+    "vantail"
   ],
   "photos": [
     {
@@ -43,6 +58,7 @@
         "décor",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:04"
     },
     {
@@ -51,6 +67,21 @@
         "brique",
         "mosaique",
         "porte-fer"
+      ],
+      "IndexTorneh": [
+        "porche",
+        "marquise",
+        "balcon",
+        "balustrade",
+        "brique",
+        "fer forgé",
+        "porte",
+        "vantail",
+        "grille",
+        "perron",
+        "mascaron",
+        "céramique",
+        "fenêtre"
       ],
       "dateCapture": "2007:08:27"
     },
@@ -62,6 +93,7 @@
         "mosaique",
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:08:27"
     },
     {
@@ -71,6 +103,7 @@
         "mosaique",
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:26"
     },
     {
@@ -80,6 +113,7 @@
         "marquise",
         "mosaique"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:26"
     }
   ]

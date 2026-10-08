@@ -28,17 +28,61 @@
   "WPfr": null,
   "image_ref": "Pereire-237_17_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "façade-d'angle",
     "sculpture",
-    "décor",
-    "colonne"
+    "fenetre",
+    "colonne",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chapiteau",
+    "colonne",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "mansarde",
+    "mascaron",
+    "oriel",
+    "pierre de taille",
+    "pilastre",
+    "souche de cheminée",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Pereire-237_17_§1",
       "IndexJantzen": [
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "bandeau",
+        "chapiteau",
+        "colonne",
+        "corniche",
+        "fenêtre",
+        "fronton",
+        "garde-corps",
+        "mascaron",
+        "mansarde",
+        "oriel",
+        "pierre de taille",
+        "pilastre",
+        "souche de cheminée",
+        "travée",
+        "volet",
+        "arc en plein cintre",
+        "ardoise",
+        "fer forgé"
       ],
       "dateCapture": "2009:08:31"
     },
@@ -47,6 +91,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:08:31"
     },
     {
@@ -57,6 +102,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:08:31"
     },
     {
@@ -67,6 +113,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:08:31"
     }
   ]

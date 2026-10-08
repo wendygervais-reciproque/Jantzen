@@ -21,16 +21,56 @@
   "WPfr": null,
   "image_ref": "Bac-81_7_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "façade",
     "sculpture",
-    "garde-corps"
+    "garde-corps",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "jambage",
+    "linteau",
+    "mansarde",
+    "oculus",
+    "pierre de taille",
+    "sculpture",
+    "souche de cheminée",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Bac-81_7_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "corniche",
+        "bandeau",
+        "fronton",
+        "sculpture",
+        "arc en plein cintre",
+        "pierre de taille",
+        "souche de cheminée",
+        "travée",
+        "volet",
+        "mansarde",
+        "oculus",
+        "linteau",
+        "chambranle",
+        "jambage"
       ],
       "dateCapture": "2005:04:17"
     },
@@ -39,6 +79,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:17"
     },
     {
@@ -47,6 +88,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:17"
     },
     {
@@ -55,6 +97,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:17"
     },
     {
@@ -64,6 +107,7 @@
         "garde-corps",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:17"
     },
     {
@@ -72,6 +116,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:17"
     }
   ]

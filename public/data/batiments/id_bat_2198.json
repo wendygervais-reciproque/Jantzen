@@ -28,17 +28,53 @@
   "WPfr": null,
   "image_ref": "Raynouard-31_16_§1",
   "terme_jantzen_bat": [
+    "sculpture",
     "fenetre",
     "façade",
+    "colonne",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "avant-corps",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "garde-corps",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "porte-fenêtre",
     "sculpture",
-    "décor",
-    "colonne"
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Raynouard-31_16_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "porte-fenêtre",
+        "volet",
+        "balustrade",
+        "bandeau",
+        "corniche",
+        "pilastre",
+        "sculpture",
+        "mascaron",
+        "pierre de taille",
+        "avant-corps",
+        "travée",
+        "oculus",
+        "porte"
       ],
       "dateCapture": "2005:04:03"
     },
@@ -49,6 +85,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:03:16"
     },
     {
@@ -56,6 +93,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:03"
     },
     {
@@ -65,6 +103,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:03"
     },
     {
@@ -72,6 +111,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:03"
     },
     {
@@ -79,6 +119,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:03"
     },
     {
@@ -87,6 +128,7 @@
         "colonne",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:03"
     },
     {
@@ -96,6 +138,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:03"
     }
   ]

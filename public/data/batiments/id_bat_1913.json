@@ -23,18 +23,58 @@
   "WPfr": null,
   "image_ref": "Poussin-26_16_§1",
   "terme_jantzen_bat": [
-    "porte-fer",
-    "fenetre",
-    "sculpture",
-    "décor",
     "balcon",
-    "colonne"
+    "porte-fer",
+    "sculpture",
+    "fenetre",
+    "colonne",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "colonne",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Poussin-26_16_§1",
       "IndexJantzen": [
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "lucarne",
+        "mansarde",
+        "toit à deux versants",
+        "fer forgé",
+        "pierre de taille",
+        "corniche",
+        "souche de cheminée",
+        "volet",
+        "colonne",
+        "travée",
+        "sculpture",
+        "mascaron",
+        "oculus",
+        "ardoise"
       ],
       "dateCapture": "2007:04:21"
     },
@@ -43,6 +83,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:24"
     },
     {
@@ -51,6 +92,7 @@
         "balcon",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:21"
     },
     {
@@ -61,6 +103,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:21"
     },
     {
@@ -69,6 +112,7 @@
         "balcon",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:21"
     },
     {
@@ -78,6 +122,7 @@
         "colonne",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:21"
     },
     {
@@ -85,6 +130,7 @@
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:21"
     }
   ]

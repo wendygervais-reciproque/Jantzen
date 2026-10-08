@@ -32,12 +32,62 @@
     "dome",
     "façade-d'angle"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "arcade",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chapiteau",
+    "colonne",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "grille",
+    "lucarne",
+    "mansarde",
+    "oculus",
+    "oriel",
+    "pierre de taille",
+    "porte",
+    "souche de cheminée",
+    "toit à deux versants",
+    "épi de faîtage"
+  ],
   "photos": [
     {
       "id_pic": "Suchet-17_16_1§",
       "IndexJantzen": [
         "dome",
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "lucarne",
+        "dôme",
+        "oculus",
+        "souche de cheminée",
+        "épi de faîtage",
+        "corniche",
+        "bandeau",
+        "mansarde",
+        "pierre de taille",
+        "arc en plein cintre",
+        "arcade",
+        "toit à deux versants",
+        "fer forgé",
+        "porte",
+        "grille",
+        "colonne",
+        "chapiteau",
+        "oriel",
+        "ardoise"
       ],
       "dateCapture": "2008:02:12"
     },
@@ -47,6 +97,7 @@
         "dome",
         "lucarne-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:12"
     }
   ]

@@ -23,8 +23,22 @@
   "terme_jantzen_bat": [
     "sculpture",
     "clé",
-    "porte-bois",
-    "fronton"
+    "fronton",
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "chambranle",
+    "fronton",
+    "gros appareil",
+    "heurtoir",
+    "mascaron",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "sculpture",
+    "vantail"
   ],
   "photos": [
     {
@@ -32,6 +46,20 @@
       "IndexJantzen": [
         "fronton",
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "fronton",
+        "arc en plein cintre",
+        "portail",
+        "porte",
+        "vantail",
+        "gros appareil",
+        "pierre de taille",
+        "sculpture",
+        "mascaron",
+        "heurtoir",
+        "ardoise",
+        "chambranle"
       ],
       "dateCapture": "2007:06:13"
     },
@@ -41,6 +69,7 @@
         "fronton",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:09:18"
     },
     {
@@ -50,6 +79,7 @@
         "porte-bois",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:06:13"
     }
   ]

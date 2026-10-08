@@ -31,9 +31,33 @@
     "oeil-de-boeuf",
     "façade-d'angle",
     "sculpture",
-    "porte-bois",
     "lucarne-d'angle",
+    "porte-bois",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "avant-corps",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "oriel",
+    "pierre de taille",
+    "pilastre",
+    "porte-fenêtre",
+    "sculpture",
+    "souche de cheminée",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -43,6 +67,30 @@
         "façade-d'angle",
         "sculpture"
       ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "oculus",
+        "lucarne",
+        "mansarde",
+        "mascaron",
+        "pilastre",
+        "corniche",
+        "fronton",
+        "souche de cheminée",
+        "ardoise",
+        "garde-corps",
+        "pierre de taille",
+        "oriel",
+        "avant-corps",
+        "travée",
+        "sculpture",
+        "bandeau",
+        "arc en plein cintre",
+        "volet",
+        "porte-fenêtre"
+      ],
       "dateCapture": "2009:10:03"
     },
     {
@@ -51,6 +99,7 @@
         "lucarne-d'angle",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:10:03"
     },
     {
@@ -59,6 +108,7 @@
         "lucarne-d'angle",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:10:03"
     },
     {
@@ -67,6 +117,7 @@
         "lucarne-d'angle",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:10:03"
     },
     {
@@ -74,6 +125,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:10:03"
     }
   ]

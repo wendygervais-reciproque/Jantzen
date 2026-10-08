@@ -27,11 +27,31 @@
   "image_ref": "Sully-1_4_§1",
   "terme_jantzen_bat": [
     "toiture",
+    "pilastre",
+    "sculpture",
     "fenetre",
     "lucarne",
-    "sculpture",
-    "pilastre",
     "fronton"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "avant-corps",
+    "balcon",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "sculpture",
+    "souche de cheminée",
+    "travée"
   ],
   "photos": [
     {
@@ -40,6 +60,26 @@
         "fenetre",
         "toiture"
       ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "mansarde",
+        "lucarne",
+        "ardoise",
+        "fronton",
+        "pilastre",
+        "mascaron",
+        "sculpture",
+        "corniche",
+        "souche de cheminée",
+        "arc en plein cintre",
+        "porte",
+        "avant-corps",
+        "travée",
+        "bandeau",
+        "pierre de taille"
+      ],
       "dateCapture": "2008:07:27"
     },
     {
@@ -47,6 +87,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:07:27"
     },
     {
@@ -56,6 +97,7 @@
         "pilastre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:07:27"
     },
     {
@@ -64,6 +106,7 @@
         "fronton",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:07:27"
     },
     {
@@ -72,6 +115,7 @@
         "fronton",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:07:27"
     }
   ]

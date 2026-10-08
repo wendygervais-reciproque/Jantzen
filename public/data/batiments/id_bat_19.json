@@ -28,10 +28,23 @@
   "WPfr": "Arc de triomphe du Carrousel",
   "image_ref": "Louvre-1-Pc-1",
   "terme_jantzen_bat": [
-    "porte",
     "façade",
     "sculpture",
-    "colonne"
+    "colonne",
+    "porte"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "arcade",
+    "attique",
+    "chapiteau corinthien",
+    "colonne",
+    "corniche",
+    "entablement",
+    "frise",
+    "pierre de taille",
+    "sculpture"
   ],
   "photos": [
     {
@@ -41,6 +54,19 @@
         "façade",
         "porte"
       ],
+      "IndexTorneh": [
+        "arc en plein cintre",
+        "arc",
+        "colonne",
+        "chapiteau corinthien",
+        "entablement",
+        "corniche",
+        "attique",
+        "frise",
+        "sculpture",
+        "pierre de taille",
+        "arcade"
+      ],
       "dateCapture": "2006:09:06"
     },
     {
@@ -48,6 +74,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:09:06"
     },
     {
@@ -56,6 +83,7 @@
         "colonne",
         "porte"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:09:06"
     },
     {
@@ -64,6 +92,7 @@
         "colonne",
         "porte"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:01:01"
     }
   ]

@@ -28,11 +28,28 @@
   "WPfr": null,
   "image_ref": "Montagne-Ste-Genevieve-34_5_§1",
   "terme_jantzen_bat": [
+    "console",
     "fenetre",
     "façade",
-    "console",
     "porte",
     "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "chéneau",
+    "fenêtre",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "soupirail",
+    "vantail",
+    "volet"
   ],
   "photos": [
     {
@@ -41,6 +58,23 @@
         "façade",
         "porte"
       ],
+      "IndexTorneh": [
+        "fenêtre",
+        "porte",
+        "portail",
+        "arc en plein cintre",
+        "balcon",
+        "garde-corps",
+        "lucarne",
+        "mansarde",
+        "ardoise",
+        "pierre de taille",
+        "vantail",
+        "balustrade",
+        "volet",
+        "chéneau",
+        "soupirail"
+      ],
       "dateCapture": "2005:05:27"
     },
     {
@@ -48,6 +82,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:27"
     },
     {
@@ -55,6 +90,7 @@
       "IndexJantzen": [
         "console"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:27"
     },
     {
@@ -63,6 +99,7 @@
         "fenetre",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:08:09"
     }
   ]

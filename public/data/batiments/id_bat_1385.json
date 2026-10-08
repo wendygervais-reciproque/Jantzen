@@ -24,12 +24,38 @@
     "fenetre",
     "décor"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "bandeau",
+    "chambranle",
+    "fenêtre",
+    "fer forgé",
+    "frise",
+    "garde-corps",
+    "mascaron",
+    "sculpture",
+    "travée",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "St-Antoine-19_4_§1",
       "IndexJantzen": [
         "décor",
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "garde-corps",
+        "balcon",
+        "frise",
+        "bandeau",
+        "chambranle",
+        "mascaron",
+        "volet",
+        "travée",
+        "fer forgé",
+        "sculpture"
       ],
       "dateCapture": "2003:07:14"
     }

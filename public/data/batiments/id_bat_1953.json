@@ -23,11 +23,27 @@
   "terme_jantzen_bat": [
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "bandeau",
+    "chéneau",
+    "corniche",
+    "fenêtre",
+    "lucarne",
+    "mansarde"
+  ],
   "photos": [
     {
       "id_pic": "Liancourt-27_14_§1",
       "IndexJantzen": [
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "lucarne",
+        "mansarde",
+        "fenêtre",
+        "corniche",
+        "chéneau",
+        "bandeau"
       ],
       "dateCapture": "2004:07:28"
     }

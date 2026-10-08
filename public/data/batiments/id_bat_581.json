@@ -32,11 +32,28 @@
   "WPfr": null,
   "image_ref": "Reaumur-118_2_§1",
   "terme_jantzen_bat": [
+    "verrière",
     "fenetre",
     "métal",
-    "verrière",
-    "décor",
-    "colonne"
+    "colonne",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en anse de panier",
+    "baie",
+    "balcon",
+    "balustrade",
+    "fenêtre",
+    "fer",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "sculpture",
+    "travée",
+    "verrière"
   ],
   "photos": [
     {
@@ -45,6 +62,23 @@
         "fenetre",
         "métal",
         "verrière"
+      ],
+      "IndexTorneh": [
+        "baie",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "verrière",
+        "fenêtre",
+        "sculpture",
+        "mascaron",
+        "arc",
+        "arc en anse de panier",
+        "pierre de taille",
+        "fer",
+        "travée",
+        "oculus"
       ],
       "dateCapture": "2004:04:25"
     },
@@ -56,6 +90,7 @@
         "fenetre",
         "verrière"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:28"
     },
     {
@@ -63,6 +98,7 @@
       "IndexJantzen": [
         "colonne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:04:25"
     },
     {
@@ -73,6 +109,7 @@
         "fenetre",
         "métal"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:28"
     },
     {
@@ -80,6 +117,7 @@
       "IndexJantzen": [
         "colonne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:08:21"
     }
   ]

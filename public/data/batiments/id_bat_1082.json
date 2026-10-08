@@ -23,11 +23,39 @@
   "terme_jantzen_bat": [
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "bandeau",
+    "chambranle",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mansarde",
+    "toit à deux versants",
+    "travée",
+    "tuile"
+  ],
   "photos": [
     {
       "id_pic": "Montmartre-158_2_§1",
       "IndexJantzen": [
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "mansarde",
+        "toit à deux versants",
+        "tuile",
+        "garde-corps",
+        "balcon",
+        "corniche",
+        "chambranle",
+        "bandeau",
+        "chaîne d'angle",
+        "fer forgé",
+        "travée"
       ],
       "dateCapture": "2007:06:02"
     },
@@ -36,6 +64,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:15"
     },
     {
@@ -43,6 +72,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:15"
     }
   ]

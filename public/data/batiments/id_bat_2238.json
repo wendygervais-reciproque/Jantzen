@@ -21,16 +21,52 @@
   "WPfr": null,
   "image_ref": "St-Martin-327_3_§1-Rx",
   "terme_jantzen_bat": [
-    "porte-fer",
     "fenetre",
-    "lucarne",
-    "façade-d'angle"
+    "façade-d'angle",
+    "porte-fer",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "oriel",
+    "pierre de taille",
+    "pilastre",
+    "souche de cheminée",
+    "toit en pavillon",
+    "tour",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "St-Martin-327_3_§1-Rx",
       "IndexJantzen": [
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "volet",
+        "bandeau",
+        "corniche",
+        "pilastre",
+        "souche de cheminée",
+        "travée",
+        "tour",
+        "mascaron",
+        "pierre de taille",
+        "fer forgé",
+        "oriel",
+        "toit en pavillon"
       ],
       "dateCapture": "2012:05:14"
     },
@@ -40,6 +76,7 @@
         "fenetre",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:05:14"
     },
     {
@@ -47,6 +84,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:05:14"
     },
     {
@@ -54,6 +92,7 @@
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:05:14"
     }
   ]

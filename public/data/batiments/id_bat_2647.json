@@ -28,20 +28,62 @@
   "WPfr": null,
   "image_ref": "Suchet-43_16_§1",
   "terme_jantzen_bat": [
+    "balcon",
     "porte-fer",
+    "sculpture",
+    "clé",
     "fenetre",
     "façade",
     "garde-corps",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mascaron",
+    "oriel",
+    "pierre de taille",
+    "portail",
+    "porte",
     "sculpture",
-    "clé",
-    "décor",
-    "balcon"
+    "souche de cheminée",
+    "toit à deux versants"
   ],
   "photos": [
     {
       "id_pic": "Suchet-43_16_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "oriel",
+        "lucarne",
+        "souche de cheminée",
+        "sculpture",
+        "mascaron",
+        "porte",
+        "portail",
+        "arc",
+        "pierre de taille",
+        "bandeau",
+        "toit à deux versants",
+        "ardoise",
+        "fer forgé",
+        "corniche",
+        "fronton"
       ],
       "dateCapture": "2006:04:02"
     },
@@ -52,6 +94,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:02"
     },
     {
@@ -61,6 +104,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:02"
     },
     {
@@ -69,6 +113,7 @@
         "balcon",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:02"
     },
     {
@@ -77,6 +122,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:02"
     },
     {
@@ -85,6 +131,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:02"
     },
     {
@@ -93,6 +140,7 @@
         "clé",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:03:17"
     },
     {
@@ -100,6 +148,7 @@
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:03:16"
     }
   ]

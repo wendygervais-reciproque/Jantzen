@@ -21,9 +21,23 @@
   "WPfr": null,
   "image_ref": "St-Bruno-12_18_§1",
   "terme_jantzen_bat": [
-    "toiture",
     "façade",
-    "tour"
+    "tour",
+    "toiture"
+  ],
+  "terme_torneh_bat": [
+    "arc brisé",
+    "contrefort",
+    "fronton",
+    "gargouille",
+    "oculus",
+    "pierre de taille",
+    "pilier",
+    "porche",
+    "portail",
+    "sculpture",
+    "vitrail",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -31,6 +45,20 @@
       "IndexJantzen": [
         "façade",
         "toiture"
+      ],
+      "IndexTorneh": [
+        "arc brisé",
+        "pierre de taille",
+        "sculpture",
+        "vitrail",
+        "oculus",
+        "épi de faîtage",
+        "fronton",
+        "portail",
+        "contrefort",
+        "gargouille",
+        "pilier",
+        "porche"
       ],
       "dateCapture": "2004:06:14"
     },
@@ -40,6 +68,7 @@
         "toiture",
         "tour"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:06:14"
     }
   ]

@@ -24,17 +24,43 @@
   "image_ref": "Rivoli-122_1_§1",
   "terme_jantzen_bat": [
     "oeil-de-boeuf",
-    "lucarne",
+    "balcon",
+    "dome",
     "façade-d'angle",
     "sculpture",
-    "dome",
     "fenetre-d'angle",
-    "atlante",
-    "lucarne-d'angle",
     "cariatide",
-    "décor",
+    "lucarne",
+    "fronton",
+    "lucarne-d'angle",
+    "atlante",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "atlante",
+    "auvent",
+    "baie",
     "balcon",
-    "fronton"
+    "balustrade",
+    "cariatide",
+    "chapiteau corinthien",
+    "colonne",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "sculpture",
+    "toit à deux versants",
+    "travée",
+    "verrière",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -42,6 +68,32 @@
       "IndexJantzen": [
         "dome",
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "dôme",
+        "cariatide",
+        "atlante",
+        "fronton",
+        "balcon",
+        "balustrade",
+        "corniche",
+        "pilastre",
+        "colonne",
+        "lucarne",
+        "mansarde",
+        "fenêtre",
+        "baie",
+        "oculus",
+        "sculpture",
+        "mascaron",
+        "épi de faîtage",
+        "verrière",
+        "auvent",
+        "pierre de taille",
+        "toit à deux versants",
+        "garde-corps",
+        "travée",
+        "chapiteau corinthien"
       ],
       "dateCapture": "2006:07:13"
     },
@@ -53,6 +105,7 @@
         "fenetre-d'angle",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:16"
     },
     {
@@ -63,6 +116,7 @@
         "lucarne-d'angle",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:16"
     },
     {
@@ -73,6 +127,7 @@
         "fronton",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:13"
     },
     {
@@ -82,6 +137,7 @@
         "lucarne",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:13"
     }
   ]

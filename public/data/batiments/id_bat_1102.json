@@ -21,9 +21,26 @@
   "WPfr": null,
   "image_ref": "Capucines-bd-16_9_§1",
   "terme_jantzen_bat": [
+    "sculpture",
     "fenetre",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "avant-corps",
+    "balcon",
+    "balustrade",
+    "cariatide",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
     "lucarne",
-    "sculpture"
+    "mansarde",
+    "oculus",
+    "pierre de taille",
+    "sculpture",
+    "travée"
   ],
   "photos": [
     {
@@ -31,6 +48,23 @@
       "IndexJantzen": [
         "fenetre",
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "lucarne",
+        "mansarde",
+        "balustrade",
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "sculpture",
+        "cariatide",
+        "corniche",
+        "fronton",
+        "ardoise",
+        "pierre de taille",
+        "oculus",
+        "travée",
+        "avant-corps"
       ],
       "dateCapture": "2006:03:23"
     },
@@ -40,6 +74,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:03:23"
     },
     {
@@ -48,6 +83,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:03:23"
     },
     {
@@ -55,6 +91,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:03:23"
     }
   ]

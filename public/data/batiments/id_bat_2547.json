@@ -23,10 +23,33 @@
   "WPfr": null,
   "image_ref": "Valette-4_5_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "brique",
+    "porte",
     "façade",
-    "porte"
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "attique",
+    "balcon",
+    "balustrade",
+    "brique",
+    "chapiteau",
+    "corniche",
+    "fenêtre",
+    "frise",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mascaron",
+    "pierre de taille",
+    "pilastre",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -36,6 +59,29 @@
         "façade",
         "fenetre",
         "porte"
+      ],
+      "IndexTorneh": [
+        "lucarne",
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "corniche",
+        "fronton",
+        "pilastre",
+        "chapiteau",
+        "brique",
+        "pierre de taille",
+        "arc en plein cintre",
+        "sculpture",
+        "mascaron",
+        "souche de cheminée",
+        "travée",
+        "garde-corps",
+        "volet",
+        "attique",
+        "arc",
+        "frise",
+        "toit à deux versants"
       ],
       "dateCapture": "2005:05:27"
     }

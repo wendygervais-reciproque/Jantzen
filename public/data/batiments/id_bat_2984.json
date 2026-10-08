@@ -21,8 +21,17 @@
   "WPfr": null,
   "image_ref": "Charlot-54-56_3_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "garde-corps"
+    "garde-corps",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "chambranle",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "jambage",
+    "vantail"
   ],
   "photos": [
     {
@@ -30,6 +39,15 @@
       "IndexJantzen": [
         "fenetre",
         "garde-corps"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "garde-corps",
+        "fer forgé",
+        "jambage",
+        "chambranle",
+        "balcon",
+        "vantail"
       ],
       "dateCapture": "2003:08:01"
     }

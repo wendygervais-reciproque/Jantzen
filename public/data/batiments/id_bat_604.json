@@ -24,12 +24,33 @@
     "façade",
     "voie"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "oculus",
+    "porte",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "tuile",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Orleans-qu-12-8_4_§1",
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:16"
     },
     {
@@ -37,6 +58,26 @@
       "IndexJantzen": [
         "façade",
         "voie"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "volet",
+        "lucarne",
+        "souche de cheminée",
+        "toit à deux versants",
+        "ardoise",
+        "tuile",
+        "bandeau",
+        "corniche",
+        "porte",
+        "arc en plein cintre",
+        "chaîne d'angle",
+        "travée",
+        "balustrade",
+        "oculus",
+        "mansarde"
       ],
       "dateCapture": "2010:03:23"
     }

@@ -24,8 +24,24 @@
   "image_ref": "Barbes-bd-17_18_§2",
   "terme_jantzen_bat": [
     "toiture",
+    "lucarne-d'angle",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "chapiteau corinthien",
+    "colonne",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "garde-corps",
     "lucarne",
-    "lucarne-d'angle"
+    "mascaron",
+    "pierre de taille",
+    "pilastre",
+    "sculpture"
   ],
   "photos": [
     {
@@ -33,6 +49,22 @@
       "IndexJantzen": [
         "lucarne-d'angle",
         "toiture"
+      ],
+      "IndexTorneh": [
+        "dôme",
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "colonne",
+        "chapiteau corinthien",
+        "arc en plein cintre",
+        "fenêtre",
+        "corniche",
+        "sculpture",
+        "mascaron",
+        "pilastre",
+        "pierre de taille",
+        "lucarne"
       ],
       "dateCapture": "2004:06:14"
     },
@@ -42,6 +74,7 @@
         "lucarne-d'angle",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:06:14"
     },
     {
@@ -49,6 +82,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:05:16"
     }
   ]

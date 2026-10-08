@@ -31,12 +31,38 @@
     "sculpture",
     "console"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "modillon",
+    "pierre de taille",
+    "sculpture"
+  ],
   "photos": [
     {
       "id_pic": "Victor-Hugo-4_174_§1",
       "IndexJantzen": [
         "console",
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "mascaron",
+        "sculpture",
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "corniche",
+        "arc en plein cintre",
+        "pierre de taille",
+        "fenêtre",
+        "balustrade",
+        "modillon"
       ],
       "dateCapture": "2005:03:23"
     }

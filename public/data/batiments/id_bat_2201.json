@@ -28,9 +28,22 @@
   "WPfr": null,
   "image_ref": "Opera-av-32_2_§1",
   "terme_jantzen_bat": [
+    "console",
     "sculpture",
-    "cariatide",
-    "console"
+    "cariatide"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "balcon",
+    "balustrade",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "sculpture"
   ],
   "photos": [
     {
@@ -39,6 +52,19 @@
         "cariatide",
         "console",
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "mascaron",
+        "sculpture",
+        "pierre de taille",
+        "fenêtre",
+        "corniche",
+        "arc",
+        "porte"
       ],
       "dateCapture": "2005:06:19"
     }

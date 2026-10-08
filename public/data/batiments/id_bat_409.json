@@ -23,11 +23,35 @@
   "terme_jantzen_bat": [
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "arc",
+    "chambranle",
+    "fer",
+    "fer forgé",
+    "heurtoir",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Turenne-106_3_§1",
       "IndexJantzen": [
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "vantail",
+        "arc",
+        "chambranle",
+        "pierre de taille",
+        "sculpture",
+        "fer forgé",
+        "heurtoir",
+        "mascaron",
+        "fer"
       ],
       "dateCapture": "2004:09:22"
     }

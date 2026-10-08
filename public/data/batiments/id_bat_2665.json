@@ -21,9 +21,26 @@
   "WPfr": null,
   "image_ref": "Ternes-Av-44_17__DxO",
   "terme_jantzen_bat": [
-    "lucarne",
     "lucarne-d'angle",
-    "dome"
+    "dome",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "chambranle",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "oculus",
+    "pierre de taille",
+    "souche de cheminée",
+    "volet",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -32,6 +49,23 @@
         "dome",
         "lucarne-d'angle"
       ],
+      "IndexTorneh": [
+        "dôme",
+        "lucarne",
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "ardoise",
+        "volet",
+        "fenêtre",
+        "souche de cheminée",
+        "épi de faîtage",
+        "pierre de taille",
+        "balustrade",
+        "arc en plein cintre",
+        "oculus",
+        "chambranle"
+      ],
       "dateCapture": "2013:01:28"
     },
     {
@@ -39,6 +73,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:05:19"
     }
   ]

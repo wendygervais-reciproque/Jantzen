@@ -28,14 +28,58 @@
   "WPfr": null,
   "image_ref": "Raspail-32_7_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "façade"
+    "façade",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "porte-fenêtre",
+    "sculpture",
+    "souche de cheminée",
+    "toit en pavillon",
+    "tour",
+    "travée",
+    "vitrail"
   ],
   "photos": [
     {
       "id_pic": "Raspail-32_7_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "porte",
+        "porte-fenêtre",
+        "arc en plein cintre",
+        "tour",
+        "toit en pavillon",
+        "souche de cheminée",
+        "corniche",
+        "pierre de taille",
+        "sculpture",
+        "mascaron",
+        "oculus",
+        "portail",
+        "travée",
+        "fer forgé",
+        "ardoise",
+        "vitrail"
       ],
       "dateCapture": "2004:04:15"
     },
@@ -44,6 +88,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:04:15"
     }
   ]

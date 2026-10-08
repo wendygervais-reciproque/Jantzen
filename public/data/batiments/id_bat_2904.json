@@ -22,8 +22,23 @@
   "image_ref": "Montaigne-50_8_§1",
   "terme_jantzen_bat": [
     "sculpture",
-    "console",
-    "clé"
+    "clé",
+    "console"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bossage",
+    "chaîne d'angle",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "mascaron",
+    "modillon",
+    "pierre de taille",
+    "sculpture"
   ],
   "photos": [
     {
@@ -33,6 +48,21 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fer forgé",
+        "garde-corps",
+        "arc en plein cintre",
+        "fenêtre",
+        "mascaron",
+        "sculpture",
+        "pierre de taille",
+        "chaîne d'angle",
+        "fronton",
+        "modillon",
+        "bossage"
+      ],
       "dateCapture": "2006:09:05"
     },
     {
@@ -40,6 +70,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:09:05"
     },
     {
@@ -47,6 +78,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:09:05"
     }
   ]

@@ -30,11 +30,41 @@
   "terme_jantzen_bat": [
     "tourelle"
   ],
+  "terme_torneh_bat": [
+    "acrotère",
+    "arc en plein cintre",
+    "ardoise",
+    "balustrade",
+    "dôme",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "pierre de taille",
+    "pilastre",
+    "sculpture",
+    "toit à deux versants",
+    "épi de faîtage"
+  ],
   "photos": [
     {
       "id_pic": "Gambetta-pl_20_§1",
       "IndexJantzen": [
         "tourelle"
+      ],
+      "IndexTorneh": [
+        "dôme",
+        "épi de faîtage",
+        "arc en plein cintre",
+        "balustrade",
+        "fronton",
+        "pierre de taille",
+        "ardoise",
+        "sculpture",
+        "toit à deux versants",
+        "pilastre",
+        "garde-corps",
+        "fer forgé",
+        "acrotère"
       ],
       "dateCapture": "2005:06:18"
     },
@@ -43,6 +73,7 @@
       "IndexJantzen": [
         "tourelle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:18"
     }
   ]

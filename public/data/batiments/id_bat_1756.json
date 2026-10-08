@@ -28,8 +28,22 @@
   "WPfr": null,
   "image_ref": "Montbrun-23_14_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "balcon"
+    "balcon",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chapiteau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "pilastre",
+    "porte-fenêtre",
+    "volet"
   ],
   "photos": [
     {
@@ -38,6 +52,20 @@
         "balcon",
         "fenetre"
       ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "porte-fenêtre",
+        "fenêtre",
+        "chapiteau",
+        "pilastre",
+        "corniche",
+        "fer forgé",
+        "bandeau",
+        "volet",
+        "mascaron"
+      ],
       "dateCapture": "2005:08:07"
     },
     {
@@ -45,6 +73,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:07"
     }
   ]

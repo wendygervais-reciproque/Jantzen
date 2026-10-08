@@ -22,10 +22,33 @@
   "image_ref": "Prony-67_17_§1",
   "terme_jantzen_bat": [
     "fenetre",
-    "façade",
     "lucarne",
     "brique",
+    "façade",
     "fronton"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "brique",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "frise",
+    "fronton",
+    "garde-corps",
+    "linteau",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "porte-fenêtre",
+    "soupirail",
+    "travée",
+    "verrière"
   ],
   "photos": [
     {
@@ -33,6 +56,29 @@
       "IndexJantzen": [
         "brique",
         "façade"
+      ],
+      "IndexTorneh": [
+        "fronton",
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "brique",
+        "pierre de taille",
+        "corniche",
+        "pilastre",
+        "chaîne d'angle",
+        "fer forgé",
+        "porte",
+        "porte-fenêtre",
+        "oculus",
+        "ardoise",
+        "frise",
+        "verrière",
+        "mascaron",
+        "travée",
+        "soupirail",
+        "balustrade",
+        "linteau"
       ],
       "dateCapture": "2008:05:25"
     },
@@ -44,6 +90,7 @@
         "fronton",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:25"
     },
     {
@@ -54,6 +101,7 @@
         "fronton",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:25"
     },
     {
@@ -63,6 +111,7 @@
         "fronton",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:25"
     }
   ]

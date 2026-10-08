@@ -28,15 +28,33 @@
   "WPfr": null,
   "image_ref": "Bretagne-10_3_§1",
   "terme_jantzen_bat": [
+    "balcon",
+    "façade-d'angle",
+    "pignon",
+    "oriel",
+    "fenetre-d'angle",
     "fenetre",
     "lucarne",
-    "pignon",
-    "garde-corps",
     "façade",
-    "façade-d'angle",
-    "fenetre-d'angle",
+    "garde-corps"
+  ],
+  "terme_torneh_bat": [
+    "attique",
+    "balcon",
+    "balustrade",
+    "brique",
+    "corniche",
+    "fenêtre",
+    "garde-corps",
+    "lucarne",
     "oriel",
-    "balcon"
+    "pilastre",
+    "porte",
+    "souche de cheminée",
+    "toit-terrasse",
+    "travée",
+    "vitrail",
+    "volet"
   ],
   "photos": [
     {
@@ -44,6 +62,24 @@
       "IndexJantzen": [
         "façade-d'angle",
         "pignon"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "travée",
+        "corniche",
+        "brique",
+        "oriel",
+        "souche de cheminée",
+        "lucarne",
+        "toit-terrasse",
+        "attique",
+        "pilastre",
+        "volet",
+        "porte",
+        "vitrail"
       ],
       "dateCapture": "2008:02:10"
     },
@@ -54,6 +90,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:28"
     },
     {
@@ -61,6 +98,7 @@
       "IndexJantzen": [
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:10"
     },
     {
@@ -68,6 +106,7 @@
       "IndexJantzen": [
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:10"
     },
     {
@@ -75,6 +114,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:10"
     },
     {
@@ -82,6 +122,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:28"
     },
     {
@@ -89,6 +130,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:10"
     },
     {
@@ -97,6 +139,7 @@
         "fenetre",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:28"
     },
     {
@@ -105,6 +148,7 @@
         "fenetre",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:10"
     },
     {
@@ -112,6 +156,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:10"
     }
   ]

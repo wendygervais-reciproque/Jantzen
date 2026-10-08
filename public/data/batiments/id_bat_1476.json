@@ -28,12 +28,33 @@
   "WPfr": null,
   "image_ref": "Viarmes-2_1_§1",
   "terme_jantzen_bat": [
-    "garde-corps",
-    "façade-d'angle",
-    "fenetre-d'angle",
-    "tour",
     "balcon",
-    "fronton"
+    "façade-d'angle",
+    "tour",
+    "fenetre-d'angle",
+    "fronton",
+    "garde-corps"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "auvent",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "grille",
+    "oculus",
+    "pierre de taille",
+    "porte",
+    "souche de cheminée",
+    "toit à deux versants",
+    "toit-terrasse",
+    "tour",
+    "verrière",
+    "volet"
   ],
   "photos": [
     {
@@ -41,6 +62,27 @@
       "IndexJantzen": [
         "façade-d'angle",
         "tour"
+      ],
+      "IndexTorneh": [
+        "tour",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "souche de cheminée",
+        "toit-terrasse",
+        "pierre de taille",
+        "corniche",
+        "bandeau",
+        "auvent",
+        "verrière",
+        "porte",
+        "volet",
+        "oculus",
+        "toit à deux versants",
+        "ardoise",
+        "grille"
       ],
       "dateCapture": "2004:09:01"
     },
@@ -50,6 +92,7 @@
         "fenetre-d'angle",
         "tour"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:01"
     },
     {
@@ -60,6 +103,7 @@
         "garde-corps",
         "tour"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:01"
     },
     {
@@ -68,6 +112,7 @@
         "façade-d'angle",
         "tour"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:07:22"
     },
     {
@@ -78,6 +123,7 @@
         "garde-corps",
         "tour"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:07:22"
     },
     {
@@ -86,6 +132,7 @@
         "fenetre-d'angle",
         "tour"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:07:22"
     }
   ]

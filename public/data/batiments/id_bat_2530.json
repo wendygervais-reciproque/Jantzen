@@ -26,19 +26,67 @@
   "WPfr": null,
   "image_ref": "Meynadier-4_19_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "façade",
-    "garde-corps",
-    "porte",
     "sculpture",
     "clé",
-    "porte-fer-hall"
+    "fenetre",
+    "façade",
+    "porte",
+    "porte-fer-hall",
+    "garde-corps"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "grille",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oriel",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "porte-fenêtre",
+    "sculpture",
+    "souche de cheminée",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Meynadier-4_19_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "porte-fenêtre",
+        "volet",
+        "lucarne",
+        "mansarde",
+        "ardoise",
+        "souche de cheminée",
+        "sculpture",
+        "mascaron",
+        "pierre de taille",
+        "corniche",
+        "bandeau",
+        "portail",
+        "porte",
+        "arc en plein cintre",
+        "travée",
+        "oriel",
+        "grille"
       ],
       "dateCapture": "2005:05:11"
     },
@@ -47,6 +95,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:09:07"
     },
     {
@@ -55,6 +104,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:09:07"
     },
     {
@@ -63,6 +113,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:09:07"
     },
     {
@@ -73,6 +124,7 @@
         "garde-corps",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:11"
     },
     {
@@ -80,6 +132,7 @@
       "IndexJantzen": [
         "porte-fer-hall"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:09:07"
     },
     {
@@ -89,6 +142,7 @@
         "porte",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:11"
     },
     {
@@ -98,6 +152,7 @@
         "porte",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:09:07"
     }
   ]

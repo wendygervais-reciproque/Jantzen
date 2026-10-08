@@ -21,11 +21,27 @@
   "WPfr": null,
   "image_ref": "Cardinet-44_17_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "console",
-    "sculpture",
     "oriel",
+    "sculpture",
+    "console",
+    "fenetre",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "oriel",
+    "pierre de taille",
+    "sculpture",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -33,6 +49,22 @@
       "IndexJantzen": [
         "décor",
         "oriel"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "oriel",
+        "mascaron",
+        "sculpture",
+        "pierre de taille",
+        "bandeau",
+        "corniche",
+        "volet",
+        "fer forgé",
+        "arc en plein cintre",
+        "travée"
       ],
       "dateCapture": "2006:06:12"
     },
@@ -42,6 +74,7 @@
         "oriel",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:12"
     },
     {
@@ -51,6 +84,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:12"
     }
   ]

@@ -34,8 +34,19 @@
   "terme_jantzen_bat": [
     "colonne",
     "sculpture",
-    "console",
-    "clé"
+    "clé",
+    "console"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "chapiteau",
+    "fenêtre",
+    "garde-corps",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "sculpture"
   ],
   "photos": [
     {
@@ -45,6 +56,17 @@
         "colonne",
         "console",
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "porte",
+        "sculpture",
+        "pierre de taille",
+        "pilastre",
+        "chapiteau",
+        "balustrade"
       ],
       "dateCapture": "2006:09:09"
     }

@@ -26,12 +26,42 @@
     "fenetre",
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "sculpture",
+    "vantail",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Maubeuge-86_10_§1",
       "IndexJantzen": [
         "fenetre",
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "portail",
+        "vantail",
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "mascaron",
+        "pierre de taille",
+        "sculpture",
+        "volet",
+        "fer forgé",
+        "balustrade",
+        "corniche"
       ],
       "dateCapture": "2005:04:11"
     },
@@ -41,6 +71,7 @@
         "fenetre",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:09:08"
     }
   ]

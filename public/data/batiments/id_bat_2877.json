@@ -24,12 +24,44 @@
     "façade",
     "pignon"
   ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "chaîne d'angle",
+    "chéneau",
+    "fenêtre",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "pierre de taille",
+    "porte",
+    "souche de cheminée",
+    "toit à deux versants",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Jean-De-Beauvais_5_K14",
       "IndexJantzen": [
         "façade",
         "pignon"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "lucarne",
+        "mansarde",
+        "balcon",
+        "garde-corps",
+        "souche de cheminée",
+        "ardoise",
+        "porte",
+        "chaîne d'angle",
+        "pierre de taille",
+        "volet",
+        "balustrade",
+        "toit à deux versants",
+        "chéneau"
       ],
       "dateCapture": "2004:05:07"
     }

@@ -31,12 +31,26 @@
     "sculpture",
     "console"
   ],
+  "terme_torneh_bat": [
+    "corniche",
+    "mascaron",
+    "modillon",
+    "pierre de taille",
+    "sculpture"
+  ],
   "photos": [
     {
       "id_pic": "Montparnasse-Bd-167_6_§3",
       "IndexJantzen": [
         "console",
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "modillon",
+        "corniche",
+        "pierre de taille",
+        "sculpture",
+        "mascaron"
       ],
       "dateCapture": null
     }

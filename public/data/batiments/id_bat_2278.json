@@ -28,20 +28,60 @@
   "WPfr": null,
   "image_ref": "Arcade-34_8_§1",
   "terme_jantzen_bat": [
+    "balcon",
+    "sculpture",
+    "console",
     "fenetre",
     "façade",
-    "console",
+    "poignée-porte",
     "garde-corps",
-    "sculpture",
-    "porte-bois",
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "attique",
     "balcon",
-    "poignée-porte"
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "frise",
+    "garde-corps",
+    "jambage",
+    "linteau",
+    "mascaron",
+    "modillon",
+    "pierre de taille",
+    "sculpture",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Arcade-34_8_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "volet",
+        "corniche",
+        "modillon",
+        "mascaron",
+        "travée",
+        "bandeau",
+        "fer forgé",
+        "pierre de taille",
+        "sculpture",
+        "frise",
+        "chambranle",
+        "linteau",
+        "jambage",
+        "attique"
       ],
       "dateCapture": "2010:04:18"
     },
@@ -51,6 +91,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:04:18"
     },
     {
@@ -60,6 +101,7 @@
         "façade",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:17"
     },
     {
@@ -67,6 +109,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:04:18"
     },
     {
@@ -74,6 +117,7 @@
       "IndexJantzen": [
         "poignée-porte"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:04:18"
     },
     {
@@ -81,6 +125,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:17"
     },
     {
@@ -88,6 +133,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:04:18"
     },
     {
@@ -95,6 +141,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:04:18"
     },
     {
@@ -103,6 +150,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:04:18"
     },
     {
@@ -111,6 +159,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:17"
     },
     {
@@ -120,6 +169,7 @@
         "garde-corps",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:04:18"
     },
     {
@@ -128,6 +178,7 @@
         "balcon",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:04:18"
     }
   ]

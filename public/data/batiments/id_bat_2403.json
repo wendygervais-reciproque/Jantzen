@@ -23,14 +23,38 @@
   "WPfr": null,
   "image_ref": "Fabert-38B_7_§1",
   "terme_jantzen_bat": [
+    "balcon",
+    "sculpture",
     "fenetre",
     "lucarne",
     "façade",
     "garde-corps",
-    "sculpture",
     "porte-bois",
-    "décor",
-    "balcon"
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "modillon",
+    "oculus",
+    "oriel",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "sculpture",
+    "vantail",
+    "volet"
   ],
   "photos": [
     {
@@ -38,6 +62,30 @@
       "IndexJantzen": [
         "balcon",
         "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "lucarne",
+        "mansarde",
+        "oculus",
+        "porte",
+        "portail",
+        "volet",
+        "fer forgé",
+        "sculpture",
+        "mascaron",
+        "arc",
+        "arc en plein cintre",
+        "bandeau",
+        "corniche",
+        "ardoise",
+        "pierre de taille",
+        "oriel",
+        "modillon",
+        "garde-corps",
+        "vantail"
       ],
       "dateCapture": "2004:05:24"
     },
@@ -49,6 +97,7 @@
         "lucarne",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:05:24"
     },
     {
@@ -57,6 +106,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:05:24"
     },
     {
@@ -66,6 +116,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:04"
     },
     {
@@ -73,6 +124,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:04"
     },
     {
@@ -80,6 +132,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:04"
     },
     {
@@ -87,6 +140,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:05:24"
     }
   ]

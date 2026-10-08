@@ -21,10 +21,27 @@
   "WPfr": null,
   "image_ref": "Galande-61-71_5_§1",
   "terme_jantzen_bat": [
-    "lucarne",
-    "fenetre",
     "façade",
-    "voie"
+    "fenetre",
+    "voie",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mansarde",
+    "pierre de taille",
+    "porte",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "travée",
+    "vitrail",
+    "volet"
   ],
   "photos": [
     {
@@ -32,6 +49,23 @@
       "IndexJantzen": [
         "façade",
         "voie"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "porte",
+        "vitrail",
+        "volet",
+        "corniche",
+        "balustrade",
+        "souche de cheminée",
+        "mansarde",
+        "fer forgé",
+        "pierre de taille",
+        "travée",
+        "arc en plein cintre",
+        "porte-fenêtre"
       ],
       "dateCapture": "2011:09:28"
     },
@@ -41,6 +75,7 @@
         "façade",
         "voie"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:27"
     },
     {
@@ -48,6 +83,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:27"
     },
     {
@@ -55,6 +91,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:09:28"
     }
   ]

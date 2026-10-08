@@ -19,16 +19,54 @@
   "WPfr": "Hôtel Passart",
   "image_ref": "Chapon-4-In_3_§1",
   "terme_jantzen_bat": [
-    "lucarne",
-    "fenetre",
     "façade",
-    "fronton"
+    "fronton",
+    "fenetre",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "bandeau",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "lucarne",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "travée",
+    "vitrail",
+    "épi de faîtage"
   ],
   "photos": [
     {
       "id_pic": "Chapon-4-In_3_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "lucarne",
+        "fronton",
+        "fenêtre",
+        "porte",
+        "porte-fenêtre",
+        "corniche",
+        "bandeau",
+        "pierre de taille",
+        "ardoise",
+        "souche de cheminée",
+        "épi de faîtage",
+        "arc en plein cintre",
+        "chambranle",
+        "pilastre",
+        "travée",
+        "fer forgé",
+        "vitrail"
       ],
       "dateCapture": null
     },
@@ -37,6 +75,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:08:07"
     },
     {
@@ -45,6 +84,7 @@
         "façade",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:08:27"
     },
     {
@@ -53,6 +93,7 @@
         "fenetre",
         "fronton"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:08:27"
     },
     {
@@ -60,6 +101,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:08:27"
     }
   ]

@@ -22,10 +22,25 @@
   "image_ref": "Pajol-41_18_§1",
   "terme_jantzen_bat": [
     "fenetre",
-    "façade",
     "brique",
+    "façade",
     "céramique",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc brisé",
+    "arc en plein cintre",
+    "balcon",
+    "bandeau",
+    "brique",
+    "chaîne d'angle",
+    "corniche",
+    "céramique",
+    "fenêtre",
+    "garde-corps",
+    "linteau",
+    "souche de cheminée",
+    "volet"
   ],
   "photos": [
     {
@@ -33,6 +48,21 @@
       "IndexJantzen": [
         "brique",
         "façade"
+      ],
+      "IndexTorneh": [
+        "brique",
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "arc en plein cintre",
+        "arc brisé",
+        "bandeau",
+        "corniche",
+        "volet",
+        "souche de cheminée",
+        "céramique",
+        "linteau",
+        "chaîne d'angle"
       ],
       "dateCapture": "2005:04:22"
     },
@@ -44,6 +74,7 @@
         "décor",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:22"
     },
     {
@@ -54,6 +85,7 @@
         "décor",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:22"
     }
   ]

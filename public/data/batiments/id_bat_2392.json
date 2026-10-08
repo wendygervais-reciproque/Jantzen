@@ -23,17 +23,49 @@
   "WPfr": null,
   "image_ref": "François-Miron-38_4_§1",
   "terme_jantzen_bat": [
+    "sculpture",
+    "clé",
     "fenetre",
     "façade",
-    "sculpture",
-    "porte-bois",
-    "clé"
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "souche de cheminée",
+    "vantail"
   ],
   "photos": [
     {
       "id_pic": "François-Miron-38_4_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "mansarde",
+        "lucarne",
+        "arc en plein cintre",
+        "mascaron",
+        "porte",
+        "vantail",
+        "fer forgé",
+        "ardoise",
+        "pierre de taille",
+        "souche de cheminée",
+        "balustrade"
       ],
       "dateCapture": "2010:06:05"
     },
@@ -45,6 +77,7 @@
         "porte-bois",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:06:05"
     }
   ]

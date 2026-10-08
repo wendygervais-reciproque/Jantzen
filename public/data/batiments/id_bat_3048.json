@@ -23,11 +23,32 @@
   "WPfr": null,
   "image_ref": "Turbigo-57_3_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "sculpture",
-    "porte-bois",
+    "fenetre",
     "atlante",
+    "porte-bois",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "atlante",
+    "avant-corps",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "pierre de taille",
+    "sculpture",
+    "souche de cheminée",
+    "volet"
   ],
   "photos": [
     {
@@ -37,6 +58,27 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "volet",
+        "lucarne",
+        "mansarde",
+        "ardoise",
+        "souche de cheminée",
+        "sculpture",
+        "atlante",
+        "pierre de taille",
+        "corniche",
+        "bandeau",
+        "chambranle",
+        "fer forgé",
+        "fronton",
+        "arc en plein cintre",
+        "avant-corps"
+      ],
       "dateCapture": "2004:09:01"
     },
     {
@@ -44,6 +86,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:09:06"
     },
     {
@@ -53,6 +96,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:01"
     },
     {
@@ -61,6 +105,7 @@
         "fenetre",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:22"
     },
     {
@@ -69,6 +114,7 @@
         "fenetre",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:01"
     }
   ]

@@ -10,7 +10,7 @@
     "numero": "6",
     "voie": "place Dauphine"
   },
-  "arrondissement": 6,
+  "arrondissement": 1,
   "tri_alphab": "Dauphine-pl",
   "coordonnees": {
     "latitude": "48.856704",
@@ -21,12 +21,23 @@
   "WPfr": null,
   "image_ref": "Dauphine-pl-6_6_§1",
   "terme_jantzen_bat": [
-    "lucarne",
-    "console",
-    "garde-corps",
-    "métal",
     "balcon",
-    "fronton"
+    "console",
+    "lucarne",
+    "métal",
+    "fronton",
+    "garde-corps"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "bandeau",
+    "chaîne d'angle",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "pierre de taille",
+    "porte-fenêtre"
   ],
   "photos": [
     {
@@ -36,6 +47,17 @@
         "console",
         "garde-corps",
         "métal"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "pierre de taille",
+        "chaîne d'angle",
+        "bandeau",
+        "arc en plein cintre",
+        "porte-fenêtre"
       ],
       "dateCapture": "2003:08:07"
     },
@@ -47,6 +69,7 @@
         "garde-corps",
         "métal"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:08:07"
     },
     {
@@ -55,6 +78,7 @@
         "fronton",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:08:07"
     }
   ]

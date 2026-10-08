@@ -21,9 +21,24 @@
   "WPfr": null,
   "image_ref": "Melingue-8_19_§1",
   "terme_jantzen_bat": [
-    "fenetre",
+    "céramique",
     "sculpture",
-    "céramique"
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "céramique",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "grille",
+    "logette",
+    "oculus",
+    "oriel",
+    "pierre de taille",
+    "sculpture",
+    "vantail",
+    "volet"
   ],
   "photos": [
     {
@@ -32,6 +47,21 @@
         "céramique",
         "fenetre",
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "oriel",
+        "logette",
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "volet",
+        "céramique",
+        "pierre de taille",
+        "grille",
+        "sculpture",
+        "oculus",
+        "vantail"
       ],
       "dateCapture": "2005:09:02"
     },
@@ -42,6 +72,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:09:02"
     }
   ]

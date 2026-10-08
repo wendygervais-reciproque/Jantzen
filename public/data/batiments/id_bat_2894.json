@@ -35,12 +35,40 @@
     "sculpture",
     "console"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "modillon",
+    "pierre de taille",
+    "porte-fenêtre",
+    "sculpture",
+    "vantail",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Vaneau-5_7_§1",
       "IndexJantzen": [
         "console",
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "arc en plein cintre",
+        "fenêtre",
+        "porte-fenêtre",
+        "volet",
+        "sculpture",
+        "pierre de taille",
+        "modillon",
+        "vantail"
       ],
       "dateCapture": "2005:04:17"
     }

@@ -28,11 +28,32 @@
   "WPfr": null,
   "image_ref": "Henri-Heine-18_16_§1-Dx",
   "terme_jantzen_bat": [
+    "toiture",
     "porte-fer",
     "fenetre",
-    "façade",
-    "toiture",
-    "brique"
+    "brique",
+    "façade"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "baie",
+    "balcon",
+    "balustrade",
+    "brique",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "grille",
+    "oriel",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "souche de cheminée",
+    "toit en pavillon",
+    "tour",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -40,6 +61,7 @@
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2014:03:09"
     },
     {
@@ -47,6 +69,27 @@
       "IndexJantzen": [
         "brique",
         "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "baie",
+        "fenêtre",
+        "fer forgé",
+        "brique",
+        "pierre de taille",
+        "souche de cheminée",
+        "tour",
+        "travée",
+        "volet",
+        "porte",
+        "portail",
+        "arc",
+        "oriel",
+        "grille",
+        "garde-corps",
+        "toit en pavillon",
+        "corniche"
       ],
       "dateCapture": "2014:03:09"
     },
@@ -56,6 +99,7 @@
         "brique",
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:03:31"
     },
     {
@@ -64,6 +108,7 @@
         "brique",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:05:23"
     },
     {
@@ -72,6 +117,7 @@
         "brique",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:01"
     },
     {
@@ -80,6 +126,7 @@
         "brique",
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:18"
     },
     {
@@ -89,6 +136,7 @@
         "fenetre",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:03:31"
     },
     {
@@ -98,6 +146,7 @@
         "fenetre",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:18"
     }
   ]

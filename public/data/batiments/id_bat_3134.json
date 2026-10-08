@@ -21,15 +21,51 @@
   "WPfr": null,
   "image_ref": "Orme-6_19_§1",
   "terme_jantzen_bat": [
-    "tourelle",
     "lucarne-d'angle",
-    "façade-d'angle"
+    "façade-d'angle",
+    "tourelle"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "souche de cheminée",
+    "toit à deux versants",
+    "tour",
+    "volet",
+    "épi de faîtage"
   ],
   "photos": [
     {
       "id_pic": "Orme-6_19_§1",
       "IndexJantzen": [
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "tour",
+        "dôme",
+        "épi de faîtage",
+        "lucarne",
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "volet",
+        "ardoise",
+        "souche de cheminée",
+        "corniche",
+        "balustrade",
+        "fer forgé",
+        "arc en plein cintre",
+        "mansarde",
+        "toit à deux versants"
       ],
       "dateCapture": "2005:09:02"
     },
@@ -39,6 +75,7 @@
         "lucarne-d'angle",
         "tourelle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:09:02"
     },
     {
@@ -47,6 +84,7 @@
         "lucarne-d'angle",
         "tourelle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:09:02"
     }
   ]

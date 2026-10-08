@@ -33,13 +33,34 @@
   "image_ref": "Cambon-13_1_§1",
   "terme_jantzen_bat": [
     "oeil-de-boeuf",
+    "sculpture",
+    "console",
     "fenetre",
     "lucarne",
     "façade",
-    "console",
-    "sculpture",
     "fronton",
     "colonne"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "chapiteau corinthien",
+    "chaîne d'angle",
+    "colonne",
+    "corniche",
+    "entablement",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "sculpture",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -47,6 +68,27 @@
       "IndexJantzen": [
         "façade",
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "fronton",
+        "lucarne",
+        "mansarde",
+        "sculpture",
+        "colonne",
+        "chapiteau corinthien",
+        "pilastre",
+        "fenêtre",
+        "balcon",
+        "oculus",
+        "corniche",
+        "ardoise",
+        "pierre de taille",
+        "chaîne d'angle",
+        "fer forgé",
+        "mascaron",
+        "épi de faîtage",
+        "garde-corps",
+        "entablement"
       ],
       "dateCapture": "2005:08:10"
     },
@@ -56,6 +98,7 @@
         "colonne",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:10"
     },
     {
@@ -64,6 +107,7 @@
         "lucarne",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:06:03"
     },
     {
@@ -72,6 +116,7 @@
         "lucarne",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:06:03"
     },
     {
@@ -82,6 +127,7 @@
         "fronton",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:06:03"
     },
     {
@@ -91,6 +137,7 @@
         "fronton",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:06:03"
     },
     {
@@ -100,6 +147,7 @@
         "fronton",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:10"
     },
     {
@@ -109,6 +157,7 @@
         "oeil-de-boeuf",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:10"
     }
   ]

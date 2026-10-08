@@ -28,11 +28,28 @@
   "WPfr": null,
   "image_ref": "Decamps-42_16_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "console",
+    "dome",
     "sculpture",
-    "porte-bois",
-    "dome"
+    "console",
+    "fenetre",
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "balcon",
+    "balustrade",
+    "bossage",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "modillon",
+    "pierre de taille",
+    "porte-fenêtre",
+    "sculpture",
+    "vantail"
   ],
   "photos": [
     {
@@ -42,6 +59,23 @@
         "dome",
         "fenetre"
       ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "porte-fenêtre",
+        "arc",
+        "sculpture",
+        "mascaron",
+        "pierre de taille",
+        "bossage",
+        "corniche",
+        "chambranle",
+        "vantail",
+        "modillon"
+      ],
       "dateCapture": "2006:06:30"
     },
     {
@@ -50,6 +84,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:07"
     },
     {
@@ -58,6 +93,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:30"
     },
     {
@@ -65,6 +101,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:30"
     }
   ]

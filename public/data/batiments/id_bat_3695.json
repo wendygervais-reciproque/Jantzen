@@ -33,16 +33,60 @@
   "image_ref": "St-Lazare-82_9_§1",
   "terme_jantzen_bat": [
     "oeil-de-boeuf",
-    "lucarne",
-    "façade",
+    "sculpture",
     "console",
-    "sculpture"
+    "lucarne",
+    "façade"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "mur-boutant",
+    "oculus",
+    "pierre de taille",
+    "sculpture",
+    "souche de cheminée",
+    "tour",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "St-Lazare-82_9_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "bandeau",
+        "corniche",
+        "fenêtre",
+        "fronton",
+        "garde-corps",
+        "lucarne",
+        "mansarde",
+        "mascaron",
+        "pierre de taille",
+        "sculpture",
+        "souche de cheminée",
+        "tour",
+        "travée",
+        "volet",
+        "mur-boutant",
+        "ardoise",
+        "fer forgé",
+        "oculus"
       ],
       "dateCapture": "2004:08:26"
     },
@@ -51,6 +95,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:09"
     },
     {
@@ -58,6 +103,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:09"
     },
     {
@@ -66,6 +112,7 @@
         "lucarne",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:09"
     },
     {
@@ -74,6 +121,7 @@
         "lucarne",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:09"
     },
     {
@@ -82,6 +130,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:08:26"
     },
     {
@@ -89,6 +138,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:08:26"
     }
   ]

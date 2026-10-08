@@ -27,15 +27,47 @@
   "image_ref": "Renard-10_4_§1",
   "terme_jantzen_bat": [
     "porte",
-    "verrière",
     "marquise",
+    "verrière",
     "façade-d'angle"
+  ],
+  "terme_torneh_bat": [
+    "attique",
+    "auvent",
+    "avant-corps",
+    "baie",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "grille",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "toit-terrasse",
+    "travée"
   ],
   "photos": [
     {
       "id_pic": "Renard-10_4_§1",
       "IndexJantzen": [
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "baie",
+        "fenêtre",
+        "porte",
+        "avant-corps",
+        "travée",
+        "pierre de taille",
+        "corniche",
+        "bandeau",
+        "pilastre",
+        "auvent",
+        "toit-terrasse",
+        "oculus",
+        "grille",
+        "attique"
       ],
       "dateCapture": "2008:07:23"
     },
@@ -45,6 +77,7 @@
         "façade-d'angle",
         "porte"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:07:27"
     },
     {
@@ -53,6 +86,7 @@
         "façade-d'angle",
         "verrière"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:08"
     },
     {
@@ -61,6 +95,7 @@
         "marquise",
         "verrière"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:07:27"
     }
   ]

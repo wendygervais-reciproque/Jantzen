@@ -21,15 +21,49 @@
   "WPfr": null,
   "image_ref": "Corentin_Cariou_11_19_1_Dx-Rs",
   "terme_jantzen_bat": [
-    "fenetre",
+    "céramique",
     "clé",
-    "céramique"
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bossage",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "modillon",
+    "pierre de taille",
+    "porte-fenêtre",
+    "vantail",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Corentin_Cariou_11_19_1_Dx-Rs",
       "IndexJantzen": [
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "arc en plein cintre",
+        "mascaron",
+        "bossage",
+        "pierre de taille",
+        "fenêtre",
+        "porte-fenêtre",
+        "modillon",
+        "corniche",
+        "fer forgé",
+        "chambranle",
+        "vantail",
+        "volet"
       ],
       "dateCapture": "2007:11:15"
     },
@@ -39,6 +73,7 @@
         "clé",
         "céramique"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:11:15"
     },
     {
@@ -47,6 +82,7 @@
         "clé",
         "céramique"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:11:15"
     }
   ]

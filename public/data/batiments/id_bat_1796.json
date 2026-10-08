@@ -32,17 +32,59 @@
   "WPfr": null,
   "image_ref": "Berri-24_8_§1",
   "terme_jantzen_bat": [
+    "balcon",
     "porte-fer",
     "fenetre",
     "façade",
+    "garde-corps"
+  ],
+  "terme_torneh_bat": [
+    "arc brisé",
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
     "garde-corps",
-    "balcon"
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "meneau",
+    "oculus",
+    "oriel",
+    "pierre de taille",
+    "sculpture",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Berri-24_8_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "arc en plein cintre",
+        "arc brisé",
+        "volet",
+        "mascaron",
+        "corniche",
+        "oriel",
+        "lucarne",
+        "pierre de taille",
+        "sculpture",
+        "travée",
+        "meneau",
+        "bandeau",
+        "oculus",
+        "mansarde"
       ],
       "dateCapture": "2004:09:17"
     },
@@ -53,6 +95,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:17"
     },
     {
@@ -61,6 +104,7 @@
         "fenetre",
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:18"
     }
   ]

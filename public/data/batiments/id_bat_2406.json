@@ -28,10 +28,32 @@
   "WPfr": null,
   "image_ref": "Claude-Vellefaux-39_10_§1",
   "terme_jantzen_bat": [
-    "porte-fer",
-    "fenetre",
     "sculpture",
-    "décor"
+    "fenetre",
+    "décor",
+    "porte-fer"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "modillon",
+    "oriel",
+    "pierre de taille",
+    "pilastre",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -41,6 +63,28 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "mansarde",
+        "lucarne",
+        "ardoise",
+        "toit à deux versants",
+        "corniche",
+        "bandeau",
+        "pilastre",
+        "mascaron",
+        "sculpture",
+        "volet",
+        "fer forgé",
+        "pierre de taille",
+        "oriel",
+        "souche de cheminée",
+        "travée",
+        "modillon"
+      ],
       "dateCapture": "2004:09:15"
     },
     {
@@ -49,6 +93,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:15"
     },
     {
@@ -56,6 +101,7 @@
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:16"
     },
     {
@@ -63,6 +109,7 @@
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:16"
     },
     {
@@ -70,6 +117,7 @@
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:11"
     }
   ]

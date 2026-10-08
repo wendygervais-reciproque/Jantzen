@@ -28,10 +28,32 @@
   "WPfr": null,
   "image_ref": "Pyrenees-336_20_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "oriel",
+    "fenetre",
     "céramique",
     "façade-d'angle"
+  ],
+  "terme_torneh_bat": [
+    "attique",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "bossage",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "oriel",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "souche de cheminée",
+    "vitrail"
   ],
   "photos": [
     {
@@ -39,6 +61,28 @@
       "IndexJantzen": [
         "façade-d'angle",
         "oriel"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "lucarne",
+        "mansarde",
+        "souche de cheminée",
+        "garde-corps",
+        "oriel",
+        "bandeau",
+        "corniche",
+        "pierre de taille",
+        "mascaron",
+        "sculpture",
+        "oculus",
+        "porte",
+        "vitrail",
+        "fer forgé",
+        "bossage",
+        "attique",
+        "fronton"
       ],
       "dateCapture": "2006:04:20"
     },
@@ -48,6 +92,7 @@
         "fenetre",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:20"
     },
     {
@@ -56,6 +101,7 @@
         "céramique",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:20"
     }
   ]

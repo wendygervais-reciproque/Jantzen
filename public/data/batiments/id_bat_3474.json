@@ -28,11 +28,45 @@
   "terme_jantzen_bat": [
     "porte-fer"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "chambranle",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "heurtoir",
+    "jambage",
+    "linteau",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "vitrail",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Flandre-72_19_§1",
       "IndexJantzen": [
         "porte-fer"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "volet",
+        "fenêtre",
+        "chambranle",
+        "mascaron",
+        "pierre de taille",
+        "sculpture",
+        "linteau",
+        "jambage",
+        "vitrail",
+        "heurtoir"
       ],
       "dateCapture": null
     }

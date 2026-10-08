@@ -29,8 +29,26 @@
   "image_ref": "Haussmann-152_8_1",
   "terme_jantzen_bat": [
     "oeil-de-boeuf",
+    "pilastre",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chapiteau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
     "lucarne",
-    "pilastre"
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "toit à deux versants",
+    "volet"
   ],
   "photos": [
     {
@@ -40,6 +58,24 @@
         "oeil-de-boeuf",
         "pilastre"
       ],
+      "IndexTorneh": [
+        "oculus",
+        "lucarne",
+        "ardoise",
+        "toit à deux versants",
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "volet",
+        "pilastre",
+        "chapiteau",
+        "corniche",
+        "bandeau",
+        "mascaron",
+        "pierre de taille",
+        "balustrade"
+      ],
       "dateCapture": "2006:03:23"
     },
     {
@@ -48,6 +84,7 @@
         "lucarne",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:03:23"
     }
   ]

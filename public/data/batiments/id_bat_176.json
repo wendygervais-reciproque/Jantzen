@@ -23,19 +23,61 @@
   "WPfr": null,
   "image_ref": "Boieldieu-Pl-1_2_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "façade",
-    "lucarne",
-    "garde-corps",
-    "porte-bois",
+    "balcon",
     "pilastre",
-    "balcon"
+    "fenetre",
+    "lucarne",
+    "façade",
+    "garde-corps",
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "grille",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "vantail"
   ],
   "photos": [
     {
       "id_pic": "Boieldieu-Pl-1_2_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "porte",
+        "porte-fenêtre",
+        "lucarne",
+        "mansarde",
+        "mascaron",
+        "pilastre",
+        "corniche",
+        "bandeau",
+        "arc en plein cintre",
+        "souche de cheminée",
+        "fer forgé",
+        "pierre de taille",
+        "vantail",
+        "grille",
+        "oculus"
       ],
       "dateCapture": "2010:06:04"
     },
@@ -45,11 +87,13 @@
         "balcon",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:06:04"
     },
     {
       "id_pic": "Boieldieu-Pl-1_2_§11",
       "IndexJantzen": [],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:05"
     },
     {
@@ -57,6 +101,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:05"
     },
     {
@@ -65,6 +110,7 @@
         "fenetre",
         "pilastre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:06:04"
     },
     {
@@ -72,6 +118,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:06:04"
     },
     {
@@ -79,6 +126,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:06:04"
     },
     {
@@ -86,6 +134,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:06:04"
     },
     {
@@ -94,6 +143,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:06:04"
     }
   ]

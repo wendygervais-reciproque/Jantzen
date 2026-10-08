@@ -32,10 +32,28 @@
   "WPfr": null,
   "image_ref": "Verrerie-76_4_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "sculpture",
     "clé",
+    "fenetre",
     "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "baie",
+    "balcon",
+    "balustrade",
+    "chambranle",
+    "fenêtre",
+    "fer forgé",
+    "grille",
+    "jambage",
+    "linteau",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "vantail",
+    "volet"
   ],
   "photos": [
     {
@@ -43,6 +61,24 @@
       "IndexJantzen": [
         "fenetre",
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "baie",
+        "balcon",
+        "balustrade",
+        "chambranle",
+        "fenêtre",
+        "fer forgé",
+        "grille",
+        "jambage",
+        "linteau",
+        "pierre de taille",
+        "porte",
+        "sculpture",
+        "vantail",
+        "volet",
+        "mascaron",
+        "arc en plein cintre"
       ],
       "dateCapture": "2004:09:08"
     },
@@ -53,6 +89,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:03"
     },
     {
@@ -61,6 +98,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:03"
     },
     {
@@ -69,6 +107,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:07:27"
     },
     {
@@ -77,6 +116,7 @@
         "clé",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:05:03"
     }
   ]

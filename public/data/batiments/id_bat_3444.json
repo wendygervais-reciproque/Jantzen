@@ -21,9 +21,26 @@
   "WPfr": null,
   "image_ref": "Theophile-Roussel-7_12_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "brique",
-    "balcon"
+    "balcon",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "avant-corps",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "oriel",
+    "souche de cheminée",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -32,6 +49,23 @@
         "balcon",
         "brique",
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "brique",
+        "mansarde",
+        "lucarne",
+        "souche de cheminée",
+        "fer forgé",
+        "ardoise",
+        "balustrade",
+        "oriel",
+        "avant-corps",
+        "volet",
+        "travée",
+        "bandeau"
       ],
       "dateCapture": "2004:09:16"
     }

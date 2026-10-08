@@ -35,19 +35,59 @@
   "terme_jantzen_bat": [
     "toiture",
     "porte-fer",
+    "sculpture",
+    "cariatide",
     "lucarne",
     "façade",
+    "fronton",
     "porte",
-    "sculpture",
-    "porte-bois",
-    "cariatide",
-    "fronton"
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "bandeau",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "grille",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "souche de cheminée",
+    "toit à deux versants",
+    "tour",
+    "travée",
+    "épi de faîtage"
   ],
   "photos": [
     {
       "id_pic": "St-Martin-292_3_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "tour",
+        "lucarne",
+        "mansarde",
+        "fenêtre",
+        "arc en plein cintre",
+        "corniche",
+        "bandeau",
+        "chaîne d'angle",
+        "souche de cheminée",
+        "épi de faîtage",
+        "oculus",
+        "ardoise",
+        "pierre de taille",
+        "grille",
+        "travée",
+        "mascaron",
+        "toit à deux versants",
+        "fronton"
       ],
       "dateCapture": "2007:05:24"
     },
@@ -57,6 +97,7 @@
         "cariatide",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:04"
     },
     {
@@ -65,6 +106,7 @@
         "cariatide",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:18"
     },
     {
@@ -73,6 +115,7 @@
         "cariatide",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:04"
     },
     {
@@ -81,6 +124,7 @@
         "cariatide",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:18"
     },
     {
@@ -89,6 +133,7 @@
         "lucarne",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:05:24"
     },
     {
@@ -97,6 +142,7 @@
         "fronton",
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:04"
     },
     {
@@ -106,6 +152,7 @@
         "fronton",
         "porte"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:18"
     },
     {
@@ -114,6 +161,7 @@
         "façade",
         "porte"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:04"
     },
     {
@@ -121,6 +169,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:04"
     },
     {
@@ -128,6 +177,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:04"
     },
     {
@@ -135,6 +185,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:04"
     },
     {
@@ -143,6 +194,7 @@
         "cariatide",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:18"
     }
   ]

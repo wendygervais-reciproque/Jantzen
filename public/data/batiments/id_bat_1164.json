@@ -21,11 +21,31 @@
   "WPfr": null,
   "image_ref": "St-Martin-160_3_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "façade",
-    "garde-corps",
     "clé",
-    "brique"
+    "fenetre",
+    "brique",
+    "façade",
+    "garde-corps"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -34,6 +54,26 @@
         "brique",
         "façade"
       ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "arc en plein cintre",
+        "mascaron",
+        "lucarne",
+        "mansarde",
+        "pierre de taille",
+        "travée",
+        "bandeau",
+        "toit à deux versants",
+        "porte",
+        "ardoise",
+        "souche de cheminée",
+        "corniche",
+        "fer forgé",
+        "volet"
+      ],
       "dateCapture": "2010:06:05"
     },
     {
@@ -41,6 +81,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:06:05"
     },
     {
@@ -49,6 +90,7 @@
         "clé",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:06:05"
     },
     {
@@ -58,6 +100,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:06:05"
     }
   ]

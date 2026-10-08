@@ -21,10 +21,27 @@
   "WPfr": null,
   "image_ref": "Opera-av-47_2_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "lucarne",
+    "pilastre",
     "balcon",
-    "pilastre"
+    "fenetre",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "chambranle",
+    "chapiteau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "frise",
+    "fronton",
+    "garde-corps",
+    "linteau",
+    "pierre de taille",
+    "pilastre",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -32,6 +49,23 @@
       "IndexJantzen": [
         "balcon",
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "corniche",
+        "fronton",
+        "chapiteau",
+        "pilastre",
+        "chambranle",
+        "frise",
+        "pierre de taille",
+        "fer forgé",
+        "travée",
+        "volet",
+        "linteau"
       ],
       "dateCapture": "2005:08:30"
     },
@@ -41,6 +75,7 @@
         "fenetre",
         "pilastre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:30"
     },
     {
@@ -49,6 +84,7 @@
         "balcon",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:30"
     }
   ]

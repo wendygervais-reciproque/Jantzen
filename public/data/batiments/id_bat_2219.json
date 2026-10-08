@@ -22,14 +22,56 @@
   "image_ref": "Montholon-32_9_§1",
   "terme_jantzen_bat": [
     "fenetre",
+    "décor",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chéneau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
     "lucarne",
-    "décor"
+    "mansarde",
+    "mascaron",
+    "modillon",
+    "pierre de taille",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Montholon-32_9_§1",
       "IndexJantzen": [
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "corniche",
+        "mansarde",
+        "lucarne",
+        "fenêtre",
+        "volet",
+        "ardoise",
+        "toit à deux versants",
+        "pierre de taille",
+        "modillon",
+        "fer forgé",
+        "chéneau",
+        "mascaron",
+        "bandeau",
+        "fronton",
+        "souche de cheminée",
+        "travée"
       ],
       "dateCapture": "2007:03:26"
     },
@@ -39,6 +81,7 @@
         "décor",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:18"
     },
     {
@@ -46,6 +89,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:18"
     },
     {
@@ -53,6 +97,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:03:26"
     }
   ]

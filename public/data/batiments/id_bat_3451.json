@@ -28,9 +28,25 @@
   "WPfr": null,
   "image_ref": "Vital-7_16_§1",
   "terme_jantzen_bat": [
+    "colonne",
     "fenetre",
-    "porte-bois",
-    "colonne"
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bossage",
+    "chambranle",
+    "fenêtre",
+    "jambage",
+    "linteau",
+    "mascaron",
+    "pierre de taille",
+    "pilastre",
+    "porche",
+    "porte",
+    "sculpture",
+    "vantail"
   ],
   "photos": [
     {
@@ -39,6 +55,22 @@
         "colonne",
         "fenetre",
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "porche",
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "bossage",
+        "pierre de taille",
+        "sculpture",
+        "vantail",
+        "mascaron",
+        "chambranle",
+        "jambage",
+        "linteau",
+        "pilastre"
       ],
       "dateCapture": "2005:04:30"
     }

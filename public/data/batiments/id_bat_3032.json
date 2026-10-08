@@ -22,9 +22,25 @@
   "image_ref": "Malesherbes-56_8_§1",
   "terme_jantzen_bat": [
     "poignée-porte",
-    "lucarne",
+    "fronton",
     "porte-bois",
-    "fronton"
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "acrotère",
+    "ardoise",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "pilastre",
+    "sculpture",
+    "souche de cheminée",
+    "volet"
   ],
   "photos": [
     {
@@ -32,6 +48,22 @@
       "IndexJantzen": [
         "fronton",
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "lucarne",
+        "mansarde",
+        "fronton",
+        "mascaron",
+        "pilastre",
+        "chambranle",
+        "corniche",
+        "ardoise",
+        "souche de cheminée",
+        "fenêtre",
+        "sculpture",
+        "volet",
+        "fer forgé",
+        "acrotère"
       ],
       "dateCapture": "2007:03:14"
     },
@@ -41,6 +73,7 @@
         "fronton",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:03:14"
     },
     {
@@ -49,6 +82,7 @@
         "fronton",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:03:14"
     },
     {
@@ -57,6 +91,7 @@
         "fronton",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:10:08"
     },
     {
@@ -65,6 +100,7 @@
         "fronton",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:10"
     },
     {
@@ -72,6 +108,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:04:25"
     },
     {
@@ -79,6 +116,7 @@
       "IndexJantzen": [
         "poignée-porte"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:04:25"
     }
   ]

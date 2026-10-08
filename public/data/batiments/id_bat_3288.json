@@ -28,13 +28,35 @@
   "WPfr": null,
   "image_ref": "Maubeuge-65_9_§1",
   "terme_jantzen_bat": [
+    "balcon",
     "fenetre",
     "lucarne",
     "façade",
     "garde-corps",
     "porte-bois",
-    "décor",
-    "balcon"
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "auvent",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "vantail",
+    "volet"
   ],
   "photos": [
     {
@@ -42,12 +64,35 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:05:14"
     },
     {
       "id_pic": "Maubeuge-65_9_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "fer forgé",
+        "porte",
+        "porte-fenêtre",
+        "volet",
+        "corniche",
+        "bandeau",
+        "mansarde",
+        "lucarne",
+        "souche de cheminée",
+        "arc en plein cintre",
+        "pierre de taille",
+        "travée",
+        "mascaron",
+        "toit à deux versants",
+        "vantail",
+        "auvent"
       ],
       "dateCapture": "2004:05:07"
     },
@@ -58,6 +103,7 @@
         "décor",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:05:07"
     },
     {
@@ -66,6 +112,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:05:07"
     },
     {
@@ -74,6 +121,7 @@
         "fenetre",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:05:07"
     },
     {
@@ -82,6 +130,7 @@
         "fenetre",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:09:05"
     }
   ]

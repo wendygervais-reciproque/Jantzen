@@ -28,8 +28,23 @@
   "WPfr": null,
   "image_ref": "Sully-Prudhom-6_7_§1-Rs",
   "terme_jantzen_bat": [
+    "fenetre-d'angle",
+    "balcon"
+  ],
+  "terme_torneh_bat": [
     "balcon",
-    "fenetre-d'angle"
+    "balustrade",
+    "brique",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "pierre de taille",
+    "porte-fenêtre",
+    "sculpture",
+    "souche de cheminée",
+    "toit en pavillon",
+    "tuile",
+    "volet"
   ],
   "photos": [
     {
@@ -37,6 +52,21 @@
       "IndexJantzen": [
         "balcon",
         "fenetre-d'angle"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "porte-fenêtre",
+        "souche de cheminée",
+        "tuile",
+        "toit en pavillon",
+        "pierre de taille",
+        "brique",
+        "volet",
+        "sculpture",
+        "fer forgé"
       ],
       "dateCapture": "2008:02:19"
     },
@@ -46,6 +76,7 @@
         "balcon",
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:19"
     }
   ]

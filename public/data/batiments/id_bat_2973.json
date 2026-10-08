@@ -22,8 +22,21 @@
   "image_ref": "Vouille-53_15_§1",
   "terme_jantzen_bat": [
     "brique",
-    "lucarne",
-    "pignon"
+    "pignon",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "brique",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "souche de cheminée",
+    "volet"
   ],
   "photos": [
     {
@@ -32,6 +45,19 @@
         "brique",
         "lucarne",
         "pignon"
+      ],
+      "IndexTorneh": [
+        "fronton",
+        "fenêtre",
+        "arc en plein cintre",
+        "garde-corps",
+        "balcon",
+        "volet",
+        "corniche",
+        "brique",
+        "souche de cheminée",
+        "fer forgé",
+        "balustrade"
       ],
       "dateCapture": "2008:07:05"
     },
@@ -42,6 +68,7 @@
         "lucarne",
         "pignon"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:07:05"
     }
   ]

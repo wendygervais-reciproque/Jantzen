@@ -28,8 +28,29 @@
   "WPfr": null,
   "image_ref": "Tretaigne-1_18_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "oriel"
+    "oriel",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "attique",
+    "avant-corps",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chaîne d'angle",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mascaron",
+    "oriel",
+    "pierre de taille",
+    "porte-fenêtre",
+    "sculpture",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -38,6 +59,27 @@
         "fenetre",
         "oriel"
       ],
+      "IndexTorneh": [
+        "fronton",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "porte-fenêtre",
+        "oriel",
+        "bandeau",
+        "mascaron",
+        "pierre de taille",
+        "fer forgé",
+        "volet",
+        "lucarne",
+        "avant-corps",
+        "attique",
+        "ardoise",
+        "sculpture",
+        "travée",
+        "chaîne d'angle"
+      ],
       "dateCapture": "2003:07:09"
     },
     {
@@ -45,6 +87,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:07:09"
     }
   ]

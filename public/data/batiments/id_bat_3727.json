@@ -21,15 +21,43 @@
   "WPfr": null,
   "image_ref": "Courcelles-bd-86_17_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "garde-corps",
-    "fenetre-d'angle"
+    "fenetre-d'angle",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc en anse de panier",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chaîne d'angle",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "pierre de taille",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Courcelles-bd-86_17_§1",
       "IndexJantzen": [
         "fenetre-d'angle"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "balustrade",
+        "fer forgé",
+        "mascaron",
+        "pierre de taille",
+        "chaîne d'angle",
+        "volet",
+        "arc en anse de panier",
+        "travée",
+        "bandeau"
       ],
       "dateCapture": null
     },
@@ -39,6 +67,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": null
     }
   ]

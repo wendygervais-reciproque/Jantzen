@@ -24,11 +24,47 @@
     "fenetre",
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "chapiteau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "modillon",
+    "pierre de taille",
+    "pilastre",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants"
+  ],
   "photos": [
     {
       "id_pic": "Murillo-16_8_§1",
       "IndexJantzen": [
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "lucarne",
+        "mansarde",
+        "fronton",
+        "mascaron",
+        "ardoise",
+        "corniche",
+        "pilastre",
+        "chapiteau",
+        "fenêtre",
+        "arc en plein cintre",
+        "souche de cheminée",
+        "sculpture",
+        "pierre de taille",
+        "modillon",
+        "fer forgé",
+        "toit à deux versants"
       ],
       "dateCapture": "2004:09:04"
     },
@@ -37,6 +73,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:04"
     }
   ]

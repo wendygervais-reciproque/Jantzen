@@ -32,15 +32,37 @@
   "WPfr": null,
   "image_ref": "Damremont-17_18_§1",
   "terme_jantzen_bat": [
-    "fenetre",
+    "porte-fer-hall",
     "console",
-    "porte-fer-hall"
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "céramique",
+    "fenêtre",
+    "garde-corps",
+    "oriel",
+    "pierre de taille",
+    "souche de cheminée",
+    "toit-terrasse"
   ],
   "photos": [
     {
       "id_pic": "Damremont-17_18_§1",
       "IndexJantzen": [
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "oriel",
+        "pierre de taille",
+        "toit-terrasse",
+        "souche de cheminée",
+        "céramique",
+        "balustrade"
       ],
       "dateCapture": "2005:05:19"
     },
@@ -50,6 +72,7 @@
         "console",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:19"
     },
     {
@@ -57,6 +80,7 @@
       "IndexJantzen": [
         "porte-fer-hall"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:19"
     }
   ]

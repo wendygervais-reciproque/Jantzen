@@ -21,15 +21,51 @@
   "WPfr": null,
   "image_ref": "Odeon-5_6_§1",
   "terme_jantzen_bat": [
+    "façade",
     "oeil-de-boeuf",
-    "fenetre",
-    "façade"
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "auvent",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "garde-corps",
+    "linteau",
+    "oculus",
+    "pierre de taille",
+    "porte",
+    "souche de cheminée",
+    "vantail",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Odeon-5_6_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "arc en plein cintre",
+        "oculus",
+        "corniche",
+        "bandeau",
+        "porte",
+        "vantail",
+        "pierre de taille",
+        "souche de cheminée",
+        "volet",
+        "auvent",
+        "linteau",
+        "chambranle"
       ],
       "dateCapture": "2008:05:11"
     },
@@ -38,6 +74,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:15"
     },
     {
@@ -45,6 +82,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:15"
     },
     {
@@ -53,6 +91,7 @@
         "fenetre",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:15"
     },
     {
@@ -61,6 +100,7 @@
         "fenetre",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:15"
     }
   ]

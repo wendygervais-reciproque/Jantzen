@@ -34,11 +34,25 @@
   "terme_jantzen_bat": [
     "porte-fer"
   ],
+  "terme_torneh_bat": [
+    "fer forgé",
+    "huisserie",
+    "linteau",
+    "porte",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Hopital-bd-136_13_§1",
       "IndexJantzen": [
         "porte-fer"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "vantail",
+        "fer forgé",
+        "huisserie",
+        "linteau"
       ],
       "dateCapture": "2005:06:14"
     }

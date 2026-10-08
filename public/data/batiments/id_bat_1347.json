@@ -21,8 +21,26 @@
   "WPfr": null,
   "image_ref": "Friedland-19_8_§1",
   "terme_jantzen_bat": [
-    "porte-fer",
-    "fenetre"
+    "fenetre",
+    "porte-fer"
+  ],
+  "terme_torneh_bat": [
+    "arc brisé",
+    "baie",
+    "balcon",
+    "balustrade",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "grille",
+    "mascaron",
+    "modillon",
+    "pierre de taille",
+    "porte",
+    "porte-fenêtre",
+    "sculpture",
+    "vitrail"
   ],
   "photos": [
     {
@@ -30,6 +48,24 @@
       "IndexJantzen": [
         "fenetre",
         "porte-fer"
+      ],
+      "IndexTorneh": [
+        "arc brisé",
+        "balcon",
+        "balustrade",
+        "baie",
+        "fenêtre",
+        "porte",
+        "porte-fenêtre",
+        "mascaron",
+        "sculpture",
+        "pierre de taille",
+        "fer forgé",
+        "grille",
+        "vitrail",
+        "modillon",
+        "corniche",
+        "garde-corps"
       ],
       "dateCapture": "2004:10:18"
     }

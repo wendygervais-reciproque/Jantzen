@@ -36,14 +36,56 @@
   "WPfr": null,
   "image_ref": "Marie-et-Louise-15_10_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "console"
+    "console",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "modillon",
+    "oculus",
+    "pierre de taille",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Marie-et-Louise-15_10_§1",
       "IndexJantzen": [
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "volet",
+        "lucarne",
+        "mansarde",
+        "toit à deux versants",
+        "ardoise",
+        "pierre de taille",
+        "corniche",
+        "bandeau",
+        "chambranle",
+        "modillon",
+        "mascaron",
+        "fer forgé",
+        "souche de cheminée",
+        "travée",
+        "oculus"
       ],
       "dateCapture": "2005:05:11"
     },
@@ -52,6 +94,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:11"
     },
     {
@@ -60,6 +103,7 @@
         "console",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:11"
     }
   ]

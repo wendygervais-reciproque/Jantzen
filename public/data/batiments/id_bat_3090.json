@@ -28,8 +28,25 @@
   "WPfr": null,
   "image_ref": "Dr-Brouardel-_7_§1",
   "terme_jantzen_bat": [
-    "lucarne-d'angle",
-    "loggia"
+    "loggia",
+    "lucarne-d'angle"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "colonne",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "souche de cheminée",
+    "toit en pavillon",
+    "tour"
   ],
   "photos": [
     {
@@ -37,6 +54,23 @@
       "IndexJantzen": [
         "loggia",
         "lucarne-d'angle"
+      ],
+      "IndexTorneh": [
+        "colonne",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "corniche",
+        "fenêtre",
+        "lucarne",
+        "souche de cheminée",
+        "toit en pavillon",
+        "mascaron",
+        "pierre de taille",
+        "ardoise",
+        "oculus",
+        "fer forgé",
+        "tour"
       ],
       "dateCapture": "2006:06:02"
     }

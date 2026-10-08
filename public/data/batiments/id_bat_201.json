@@ -21,14 +21,42 @@
   "WPfr": null,
   "image_ref": "Damremont-1_18_§1",
   "terme_jantzen_bat": [
+    "fenetre-d'angle",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
     "lucarne",
-    "fenetre-d'angle"
+    "mansarde",
+    "pierre de taille",
+    "souche de cheminée",
+    "travée"
   ],
   "photos": [
     {
       "id_pic": "Damremont-1_18_§1",
       "IndexJantzen": [
         "fenetre-d'angle"
+      ],
+      "IndexTorneh": [
+        "mansarde",
+        "lucarne",
+        "souche de cheminée",
+        "fenêtre",
+        "garde-corps",
+        "balcon",
+        "pierre de taille",
+        "chaîne d'angle",
+        "corniche",
+        "ardoise",
+        "fronton",
+        "travée"
       ],
       "dateCapture": "2007:03:14"
     },
@@ -38,6 +66,7 @@
         "fenetre-d'angle",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:03:14"
     }
   ]

@@ -23,15 +23,49 @@
   "WPfr": null,
   "image_ref": "Orfevres-qu-76_1_§1",
   "terme_jantzen_bat": [
-    "lucarne",
     "clé",
-    "fronton"
+    "fronton",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "acrotère",
+    "ardoise",
+    "balcon",
+    "brique",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "oculus",
+    "pierre de taille",
+    "souche de cheminée",
+    "toit à deux versants",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Orfevres-qu-76_1_§1",
       "IndexJantzen": [
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "souche de cheminée",
+        "lucarne",
+        "mansarde",
+        "ardoise",
+        "fenêtre",
+        "garde-corps",
+        "balcon",
+        "oculus",
+        "corniche",
+        "fronton",
+        "brique",
+        "pierre de taille",
+        "volet",
+        "acrotère",
+        "toit à deux versants"
       ],
       "dateCapture": "2005:07:13"
     },
@@ -42,6 +76,7 @@
         "fronton",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:13"
     }
   ]

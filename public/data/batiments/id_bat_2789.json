@@ -24,12 +24,30 @@
     "oeil-de-boeuf",
     "garde-corps"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "garde-corps",
+    "modillon",
+    "oculus",
+    "pierre de taille",
+    "sculpture"
+  ],
   "photos": [
     {
       "id_pic": "Cherche-Midi-49_6_§1",
       "IndexJantzen": [
         "garde-corps",
         "oeil-de-boeuf"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "oculus",
+        "modillon",
+        "pierre de taille",
+        "sculpture"
       ],
       "dateCapture": "2006:05:14"
     }

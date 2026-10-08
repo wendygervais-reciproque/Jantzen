@@ -28,9 +28,27 @@
   "WPfr": null,
   "image_ref": "Astorg-17_8_§1",
   "terme_jantzen_bat": [
-    "lucarne",
+    "fenetre-d'angle",
     "balcon",
-    "fenetre-d'angle"
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "oculus",
+    "pierre de taille",
+    "toit à deux versants",
+    "tour",
+    "travée"
   ],
   "photos": [
     {
@@ -39,6 +57,24 @@
         "balcon",
         "fenetre-d'angle",
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "lucarne",
+        "mansarde",
+        "toit à deux versants",
+        "corniche",
+        "bandeau",
+        "pierre de taille",
+        "chaîne d'angle",
+        "fer forgé",
+        "tour",
+        "ardoise",
+        "oculus",
+        "travée"
       ],
       "dateCapture": "2006:03:23"
     }

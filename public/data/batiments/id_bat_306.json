@@ -26,9 +26,29 @@
   "WPfr": null,
   "image_ref": "Dautancourt-10_17_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "sculpture",
+    "fenetre",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "frise",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "pierre de taille",
+    "porte-fenêtre",
+    "sculpture",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -37,6 +57,26 @@
         "décor",
         "fenetre",
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "lucarne",
+        "fronton",
+        "corniche",
+        "bandeau",
+        "pierre de taille",
+        "mansarde",
+        "sculpture",
+        "frise",
+        "chaîne d'angle",
+        "travée",
+        "porte-fenêtre",
+        "volet",
+        "mascaron"
       ],
       "dateCapture": "2004:09:15"
     }

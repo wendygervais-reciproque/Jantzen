@@ -28,12 +28,32 @@
   "WPfr": null,
   "image_ref": "Simplon-17_18_§2-Rx",
   "terme_jantzen_bat": [
+    "balcon",
     "porte-fer",
     "fenetre",
-    "façade",
     "lucarne",
     "brique",
-    "balcon"
+    "façade"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "auvent",
+    "balcon",
+    "balustrade",
+    "brique",
+    "céramique",
+    "faîtage",
+    "fenêtre",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "pierre de taille",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "travée",
+    "verrière",
+    "volet",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -41,6 +61,7 @@
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:09"
     },
     {
@@ -48,11 +69,13 @@
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:07:02"
     },
     {
       "id_pic": "Simplon-17_18_§13",
       "IndexJantzen": [],
+      "IndexTorneh": [],
       "dateCapture": "2008:06:17"
     },
     {
@@ -60,6 +83,26 @@
       "IndexJantzen": [
         "brique",
         "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "porte-fenêtre",
+        "balustrade",
+        "arc en plein cintre",
+        "brique",
+        "pierre de taille",
+        "lucarne",
+        "mansarde",
+        "souche de cheminée",
+        "volet",
+        "céramique",
+        "travée",
+        "faîtage",
+        "épi de faîtage",
+        "verrière",
+        "auvent"
       ],
       "dateCapture": "2011:07:02"
     },
@@ -69,6 +112,7 @@
         "brique",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:09"
     },
     {
@@ -77,6 +121,7 @@
         "brique",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:07:01"
     },
     {
@@ -85,6 +130,7 @@
         "brique",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:09"
     },
     {
@@ -94,6 +140,7 @@
         "brique",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:07:02"
     },
     {
@@ -102,6 +149,7 @@
         "brique",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:07:02"
     },
     {
@@ -110,6 +158,7 @@
         "brique",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:07:02"
     }
   ]

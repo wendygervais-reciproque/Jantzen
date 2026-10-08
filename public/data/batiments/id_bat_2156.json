@@ -25,11 +25,31 @@
     "fenetre",
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "baie",
+    "balcon",
+    "balustrade",
+    "chaîne d'angle",
+    "corniche",
+    "oculus",
+    "travée"
+  ],
   "photos": [
     {
       "id_pic": "Faubourg-St-Antoine-30_12_§1",
       "IndexJantzen": [
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "oculus",
+        "baie",
+        "chaîne d'angle",
+        "ardoise",
+        "travée",
+        "balcon",
+        "balustrade",
+        "corniche"
       ],
       "dateCapture": "2008:06:27"
     },
@@ -39,6 +59,7 @@
         "lucarne",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:06:27"
     }
   ]

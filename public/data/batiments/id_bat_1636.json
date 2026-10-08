@@ -31,12 +31,42 @@
     "fenetre",
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "chapiteau",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "grille",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Louis-Braille-21_12_§1",
       "IndexJantzen": [
         "fenetre",
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "arc en plein cintre",
+        "porte",
+        "fenêtre",
+        "vantail",
+        "pilastre",
+        "grille",
+        "fer forgé",
+        "garde-corps",
+        "pierre de taille",
+        "oculus",
+        "chapiteau"
       ],
       "dateCapture": "2005:07:16"
     },
@@ -46,6 +76,7 @@
         "fenetre",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:13"
     }
   ]

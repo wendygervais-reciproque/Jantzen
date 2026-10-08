@@ -29,9 +29,28 @@
   "image_ref": "Capucines-bd-2_9_§1",
   "terme_jantzen_bat": [
     "oeil-de-boeuf",
-    "lucarne",
     "dome",
-    "tourelle"
+    "tourelle",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "atlante",
+    "balcon",
+    "balustrade",
+    "chapiteau",
+    "colonne",
+    "corniche",
+    "coupole",
+    "dôme",
+    "fenêtre",
+    "garde-corps",
+    "mascaron",
+    "oculus",
+    "pilastre",
+    "sculpture",
+    "souche de cheminée",
+    "volet",
+    "édicule"
   ],
   "photos": [
     {
@@ -39,6 +58,25 @@
       "IndexJantzen": [
         "dome",
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "coupole",
+        "dôme",
+        "oculus",
+        "colonne",
+        "balustrade",
+        "balcon",
+        "mascaron",
+        "atlante",
+        "sculpture",
+        "fenêtre",
+        "volet",
+        "pilastre",
+        "chapiteau",
+        "corniche",
+        "souche de cheminée",
+        "garde-corps",
+        "édicule"
       ],
       "dateCapture": "2004:04:25"
     },
@@ -50,6 +88,7 @@
         "oeil-de-boeuf",
         "tourelle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:04:25"
     }
   ]

@@ -29,17 +29,42 @@
   "image_ref": "Simplon-21_18_§2-Rx",
   "terme_jantzen_bat": [
     "toiture",
-    "fenetre",
-    "lucarne",
     "oeil-de-boeuf",
-    "façade",
-    "console",
-    "garde-corps",
+    "balcon",
     "porte-fer",
     "sculpture",
+    "console",
+    "fenetre",
+    "lucarne",
+    "brique",
+    "façade",
+    "céramique",
+    "garde-corps"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "auvent",
+    "baie",
+    "balcon",
+    "balustrade",
+    "bandeau",
     "brique",
     "céramique",
-    "balcon"
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "oculus",
+    "oriel",
+    "pierre de taille",
+    "porte",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -49,6 +74,7 @@
         "céramique",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:07:01"
     },
     {
@@ -58,6 +84,7 @@
         "céramique",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:10"
     },
     {
@@ -68,6 +95,7 @@
         "fenetre",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:07:02"
     },
     {
@@ -79,6 +107,7 @@
         "lucarne",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:07:02"
     },
     {
@@ -89,6 +118,7 @@
         "fenetre",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:07:02"
     },
     {
@@ -98,6 +128,7 @@
         "céramique",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:07:02"
     },
     {
@@ -107,6 +138,7 @@
         "céramique",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:07:01"
     },
     {
@@ -115,6 +147,7 @@
         "brique",
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:07:02"
     },
     {
@@ -124,6 +157,7 @@
         "céramique",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:07:02"
     },
     {
@@ -134,6 +168,7 @@
         "céramique",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:10"
     },
     {
@@ -146,6 +181,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:07:02"
     },
     {
@@ -156,6 +192,7 @@
         "céramique",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:07:01"
     },
     {
@@ -167,6 +204,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:07:02"
     },
     {
@@ -178,6 +216,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:07:02"
     },
     {
@@ -185,6 +224,7 @@
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:07:02"
     },
     {
@@ -192,6 +232,7 @@
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:10"
     },
     {
@@ -199,6 +240,31 @@
       "IndexJantzen": [
         "brique",
         "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "baie",
+        "fenêtre",
+        "porte-fenêtre",
+        "porte",
+        "garde-corps",
+        "fer forgé",
+        "brique",
+        "pierre de taille",
+        "céramique",
+        "souche de cheminée",
+        "mansarde",
+        "lucarne",
+        "oriel",
+        "auvent",
+        "bandeau",
+        "arc en plein cintre",
+        "oculus",
+        "toit à deux versants",
+        "ardoise",
+        "volet",
+        "travée"
       ],
       "dateCapture": "2011:07:02"
     },
@@ -208,6 +274,7 @@
         "brique",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:07:02"
     },
     {
@@ -216,6 +283,7 @@
         "brique",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:10"
     },
     {
@@ -224,6 +292,7 @@
         "brique",
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:07:02"
     },
     {
@@ -232,6 +301,7 @@
         "brique",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:07:02"
     },
     {
@@ -240,6 +310,7 @@
         "brique",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:10"
     }
   ]

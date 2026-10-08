@@ -21,20 +21,66 @@
   "WPfr": null,
   "image_ref": "Opera-5_1_§1",
   "terme_jantzen_bat": [
-    "garde-corps",
-    "sculpture",
-    "porte-bois",
-    "fenetre-d'angle",
-    "clé",
-    "lucarne-d'angle",
     "balcon",
-    "fronton"
+    "sculpture",
+    "clé",
+    "fenetre-d'angle",
+    "fronton",
+    "lucarne-d'angle",
+    "garde-corps",
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chéneau",
+    "corniche",
+    "fenêtre",
+    "fer",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "oriel",
+    "pierre de taille",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Opera-5_1_§1",
       "IndexJantzen": [
         "fenetre-d'angle"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "lucarne",
+        "mansarde",
+        "souche de cheminée",
+        "ardoise",
+        "pierre de taille",
+        "fer forgé",
+        "garde-corps",
+        "corniche",
+        "bandeau",
+        "volet",
+        "mascaron",
+        "sculpture",
+        "fronton",
+        "oriel",
+        "toit à deux versants",
+        "chéneau",
+        "oculus",
+        "fer"
       ],
       "dateCapture": "2004:09:05"
     },
@@ -44,6 +90,7 @@
         "balcon",
         "lucarne-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:05"
     },
     {
@@ -53,6 +100,7 @@
         "fronton",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:05"
     },
     {
@@ -60,6 +108,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:07:14"
     },
     {
@@ -69,6 +118,7 @@
         "porte-bois",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:07:14"
     }
   ]

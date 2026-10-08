@@ -32,13 +32,29 @@
   "WPfr": null,
   "image_ref": "Charonne-94_11_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "façade",
+    "balcon",
     "pignon",
+    "fenetre",
     "brique",
+    "façade",
     "céramique",
-    "décor",
-    "balcon"
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "acrotère",
+    "arc",
+    "arc en plein cintre",
+    "balcon",
+    "brique",
+    "corniche",
+    "céramique",
+    "fenêtre",
+    "garde-corps",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "porte-fenêtre",
+    "travée"
   ],
   "photos": [
     {
@@ -47,6 +63,22 @@
         "brique",
         "céramique",
         "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "porte-fenêtre",
+        "arc en plein cintre",
+        "brique",
+        "céramique",
+        "corniche",
+        "travée",
+        "oculus",
+        "acrotère",
+        "mascaron",
+        "pierre de taille",
+        "arc"
       ],
       "dateCapture": "2005:06:18"
     },
@@ -57,6 +89,7 @@
         "céramique",
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:16"
     },
     {
@@ -68,6 +101,7 @@
         "fenetre",
         "pignon"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:18"
     },
     {
@@ -78,6 +112,7 @@
         "décor",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:18"
     },
     {
@@ -89,6 +124,7 @@
         "décor",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:06:06"
     }
   ]

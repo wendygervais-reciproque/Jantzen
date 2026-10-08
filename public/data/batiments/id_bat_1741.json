@@ -24,8 +24,23 @@
   "image_ref": "Danielle-Casanova-23_1_§1",
   "terme_jantzen_bat": [
     "sculpture",
-    "console",
-    "garde-corps"
+    "garde-corps",
+    "console"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "fenêtre",
+    "fer forgé",
+    "grille",
+    "mascaron",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "sculpture",
+    "vantail"
   ],
   "photos": [
     {
@@ -33,6 +48,21 @@
       "IndexJantzen": [
         "console",
         "garde-corps",
+        "sculpture"
+      ],
+      "IndexTorneh": [
+        "arc",
+        "arc en plein cintre",
+        "balcon",
+        "balustrade",
+        "fer forgé",
+        "porte",
+        "portail",
+        "mascaron",
+        "pierre de taille",
+        "fenêtre",
+        "grille",
+        "vantail",
         "sculpture"
       ],
       "dateCapture": "2007:08:26"
@@ -43,6 +73,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:08:26"
     }
   ]

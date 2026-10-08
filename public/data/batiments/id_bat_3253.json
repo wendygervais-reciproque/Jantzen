@@ -28,9 +28,33 @@
   "WPfr": null,
   "image_ref": "Tour-de-la-62b_16_§1-Rs",
   "terme_jantzen_bat": [
+    "balcon",
     "fenetre",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "avant-corps",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chéneau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
     "lucarne",
-    "balcon"
+    "mansarde",
+    "marquise",
+    "mascaron",
+    "oculus",
+    "oriel",
+    "pierre de taille",
+    "pilastre",
+    "porte-fenêtre",
+    "sculpture",
+    "souche de cheminée",
+    "toit en pavillon",
+    "volet"
   ],
   "photos": [
     {
@@ -40,6 +64,30 @@
         "fenetre",
         "lucarne"
       ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "fenêtre",
+        "porte-fenêtre",
+        "volet",
+        "mansarde",
+        "lucarne",
+        "toit en pavillon",
+        "pierre de taille",
+        "sculpture",
+        "mascaron",
+        "corniche",
+        "bandeau",
+        "pilastre",
+        "oriel",
+        "avant-corps",
+        "marquise",
+        "fer forgé",
+        "chéneau",
+        "oculus",
+        "souche de cheminée"
+      ],
       "dateCapture": "2008:02:19"
     },
     {
@@ -48,6 +96,7 @@
         "balcon",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:19"
     },
     {
@@ -56,6 +105,7 @@
         "balcon",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:19"
     },
     {
@@ -64,6 +114,7 @@
         "balcon",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:19"
     }
   ]

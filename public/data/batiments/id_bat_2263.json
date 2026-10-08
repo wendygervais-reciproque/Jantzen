@@ -21,9 +21,31 @@
   "WPfr": null,
   "image_ref": "Truffaut-33_17_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "brique",
-    "colonne"
+    "colonne",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc brisé",
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "brique",
+    "chapiteau corinthien",
+    "colonne",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mascaron",
+    "oriel",
+    "pierre de taille",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "toit à deux versants",
+    "volet"
   ],
   "photos": [
     {
@@ -33,6 +55,28 @@
         "colonne",
         "fenetre"
       ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "brique",
+        "fenêtre",
+        "arc en plein cintre",
+        "arc brisé",
+        "corniche",
+        "colonne",
+        "chapiteau corinthien",
+        "fer forgé",
+        "lucarne",
+        "souche de cheminée",
+        "oriel",
+        "mascaron",
+        "ardoise",
+        "toit à deux versants",
+        "porte-fenêtre",
+        "pierre de taille",
+        "volet"
+      ],
       "dateCapture": "2004:10:03"
     },
     {
@@ -41,6 +85,7 @@
         "brique",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:10:03"
     }
   ]

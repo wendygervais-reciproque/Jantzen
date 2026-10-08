@@ -28,16 +28,58 @@
   "WPfr": null,
   "image_ref": "Kleber-93_16_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "façade",
     "sculpture",
-    "mosaique"
+    "mosaique",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "modillon",
+    "pierre de taille",
+    "pilastre",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Kleber-93_16_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "lucarne",
+        "mansarde",
+        "toit à deux versants",
+        "souche de cheminée",
+        "corniche",
+        "pilastre",
+        "mascaron",
+        "bandeau",
+        "modillon",
+        "ardoise",
+        "pierre de taille",
+        "fer forgé",
+        "travée",
+        "volet",
+        "fronton"
       ],
       "dateCapture": "2005:03:16"
     },
@@ -48,6 +90,7 @@
         "mosaique",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:03:16"
     }
   ]

@@ -21,20 +21,68 @@
   "WPfr": null,
   "image_ref": "Ternes-Av-49_17_§1",
   "terme_jantzen_bat": [
-    "oeil-de-boeuf",
-    "fenetre",
-    "façade",
-    "console",
-    "lucarne",
     "toiture",
+    "oeil-de-boeuf",
     "sculpture",
+    "console",
+    "fenetre",
+    "lucarne",
+    "façade",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc brisé",
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "garde-corps",
+    "lucarne",
+    "marquise",
+    "mascaron",
+    "oculus",
+    "oriel",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "souche de cheminée",
+    "toit-terrasse",
+    "travée",
+    "vitrail",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Ternes-Av-49_17_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "oriel",
+        "oculus",
+        "lucarne",
+        "souche de cheminée",
+        "arc en plein cintre",
+        "arc brisé",
+        "bandeau",
+        "corniche",
+        "pierre de taille",
+        "sculpture",
+        "mascaron",
+        "toit-terrasse",
+        "vitrail",
+        "volet",
+        "travée",
+        "marquise",
+        "ardoise",
+        "porte"
       ],
       "dateCapture": "2005:08:08"
     },
@@ -44,6 +92,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:02"
     },
     {
@@ -53,6 +102,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:08"
     },
     {
@@ -61,6 +111,7 @@
         "oeil-de-boeuf",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:08"
     },
     {
@@ -69,6 +120,7 @@
         "oeil-de-boeuf",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:08"
     },
     {
@@ -77,6 +129,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:08"
     },
     {
@@ -85,6 +138,7 @@
         "fenetre",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:08"
     },
     {
@@ -94,6 +148,7 @@
         "lucarne",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:08"
     },
     {
@@ -102,6 +157,7 @@
         "fenetre",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:08"
     },
     {
@@ -109,6 +165,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:08"
     },
     {
@@ -116,6 +173,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:02"
     },
     {
@@ -125,6 +183,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:02"
     },
     {
@@ -133,6 +192,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:08"
     },
     {
@@ -140,6 +200,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:08"
     }
   ]

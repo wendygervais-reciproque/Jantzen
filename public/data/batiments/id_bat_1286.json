@@ -21,14 +21,54 @@
   "WPfr": null,
   "image_ref": "Chateaudin-18_9_§1",
   "terme_jantzen_bat": [
+    "façade",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chapiteau",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "garde-corps",
     "lucarne",
-    "façade"
+    "mansarde",
+    "pilastre",
+    "porte",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Chateaudin-18_9_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "lucarne",
+        "mansarde",
+        "volet",
+        "balustrade",
+        "corniche",
+        "bandeau",
+        "pilastre",
+        "chapiteau",
+        "porte",
+        "porte-fenêtre",
+        "souche de cheminée",
+        "toit à deux versants",
+        "travée",
+        "chaîne d'angle",
+        "ardoise"
       ],
       "dateCapture": "2007:03:26"
     },
@@ -37,6 +77,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:03:26"
     }
   ]

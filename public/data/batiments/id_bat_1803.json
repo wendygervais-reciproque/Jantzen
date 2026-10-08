@@ -28,12 +28,32 @@
   "WPfr": null,
   "image_ref": "Sevres-Bac_7_§1",
   "terme_jantzen_bat": [
-    "oeil-de-boeuf",
     "toiture",
-    "lucarne",
+    "oeil-de-boeuf",
     "dome",
     "fenetre-d'angle",
+    "lucarne",
     "lucarne-d'angle"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "avant-corps",
+    "balcon",
+    "chapiteau",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "marquise",
+    "oculus",
+    "oriel",
+    "pilastre",
+    "sculpture",
+    "souche de cheminée",
+    "travée",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -41,6 +61,26 @@
       "IndexJantzen": [
         "dome",
         "fenetre-d'angle"
+      ],
+      "IndexTorneh": [
+        "dôme",
+        "épi de faîtage",
+        "oculus",
+        "lucarne",
+        "mansarde",
+        "souche de cheminée",
+        "corniche",
+        "pilastre",
+        "fenêtre",
+        "oriel",
+        "balcon",
+        "garde-corps",
+        "sculpture",
+        "ardoise",
+        "chapiteau",
+        "marquise",
+        "travée",
+        "avant-corps"
       ],
       "dateCapture": "2006:07:13"
     },
@@ -50,6 +90,7 @@
         "dome",
         "lucarne-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:05:12"
     },
     {
@@ -59,6 +100,7 @@
         "lucarne",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:05:12"
     },
     {
@@ -68,6 +110,7 @@
         "lucarne",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:05:12"
     },
     {
@@ -77,6 +120,7 @@
         "lucarne",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:05:12"
     },
     {
@@ -86,6 +130,7 @@
         "lucarne",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:05:12"
     },
     {
@@ -94,6 +139,7 @@
         "lucarne",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:13"
     }
   ]

@@ -315,10 +315,8 @@ function applyFilters() {
   if (activeFilters.thesaurus.size > 0) {
     const selectedTerms = Array.from(activeFilters.thesaurus).map(t => normalizeText(t));
     filteredFeatures = filteredFeatures.filter(f => {
-      const rawTerms = f.properties.terme_jantzen_bat;
-      const batTermsArray = Array.isArray(rawTerms) ? rawTerms : [];
-      const batTermsNormalized = batTermsArray.map(t => normalizeText(t));
-      return selectedTerms.every(term => batTermsNormalized.includes(term));
+      const batTerms = buildingTermKeys(f.properties);   // Jantzen ∪ Torne-H
+      return selectedTerms.every(term => batTerms.has(term));
     });
   }
 

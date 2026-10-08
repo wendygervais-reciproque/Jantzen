@@ -28,18 +28,68 @@
   "WPfr": null,
   "image_ref": "Crimee-216_19_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "sculpture",
     "loggia",
-    "décor",
     "balcon",
-    "colonne"
+    "sculpture",
+    "fenetre",
+    "colonne",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "avant-corps",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chéneau",
+    "colonne",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oriel",
+    "pierre de taille",
+    "pilastre",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "vantail",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Crimee-216_19_§1",
       "IndexJantzen": [
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "lucarne",
+        "mansarde",
+        "toit à deux versants",
+        "souche de cheminée",
+        "corniche",
+        "bandeau",
+        "pilastre",
+        "colonne",
+        "sculpture",
+        "mascaron",
+        "volet",
+        "vantail",
+        "ardoise",
+        "fer forgé",
+        "pierre de taille",
+        "avant-corps",
+        "travée",
+        "chéneau",
+        "oriel"
       ],
       "dateCapture": "2007:03:16"
     },
@@ -48,6 +98,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:03:16"
     },
     {
@@ -55,6 +106,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:03:16"
     },
     {
@@ -64,6 +116,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:03:16"
     },
     {
@@ -73,6 +126,7 @@
         "loggia",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:03:16"
     },
     {
@@ -81,6 +135,7 @@
         "loggia",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:03:16"
     },
     {
@@ -90,6 +145,7 @@
         "colonne",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:03:16"
     },
     {
@@ -99,6 +155,7 @@
         "colonne",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:03:16"
     }
   ]

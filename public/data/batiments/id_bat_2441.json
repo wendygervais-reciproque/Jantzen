@@ -31,11 +31,49 @@
     "façade",
     "sculpture"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "arcade",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "garde-corps",
+    "grille",
+    "lucarne",
+    "mansarde",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants"
+  ],
   "photos": [
     {
       "id_pic": "Victoires-Pl-4-12_2_§1-Rs",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "lucarne",
+        "mansarde",
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "souche de cheminée",
+        "arc en plein cintre",
+        "arcade",
+        "corniche",
+        "bandeau",
+        "pierre de taille",
+        "porte",
+        "grille",
+        "sculpture",
+        "toit à deux versants",
+        "ardoise"
       ],
       "dateCapture": "2008:02:17"
     },
@@ -44,6 +82,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:17"
     },
     {
@@ -52,6 +91,7 @@
         "façade",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:17"
     },
     {
@@ -60,6 +100,7 @@
         "façade",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:17"
     }
   ]

@@ -30,11 +30,41 @@
   "terme_jantzen_bat": [
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "chapiteau",
+    "chapiteau corinthien",
+    "fer forgé",
+    "gros appareil",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "porte-fenêtre",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Exelmans-128_16_§1",
       "IndexJantzen": [
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "porte-fenêtre",
+        "arc en plein cintre",
+        "vantail",
+        "pierre de taille",
+        "sculpture",
+        "mascaron",
+        "pilastre",
+        "chapiteau",
+        "chapiteau corinthien",
+        "fer forgé",
+        "gros appareil",
+        "oculus"
       ],
       "dateCapture": "2006:04:03"
     }

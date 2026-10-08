@@ -30,17 +30,63 @@
   "image_ref": "Prony-29-31_17_§1",
   "terme_jantzen_bat": [
     "porte-fer",
-    "fenetre",
-    "façade",
-    "lucarne",
     "sculpture",
+    "fenetre",
+    "lucarne",
+    "façade",
     "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc brisé",
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "grille",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "souche de cheminée",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Prony-29-31_17_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "lucarne",
+        "mansarde",
+        "souche de cheminée",
+        "corniche",
+        "bandeau",
+        "pierre de taille",
+        "brique",
+        "ardoise",
+        "porte",
+        "sculpture",
+        "volet",
+        "mascaron",
+        "travée",
+        "fer forgé",
+        "grille",
+        "arc en plein cintre",
+        "arc brisé"
       ],
       "dateCapture": "2008:05:25"
     },
@@ -50,6 +96,7 @@
         "porte-bois",
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": null
     },
     {
@@ -58,6 +105,7 @@
         "fenetre",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:25"
     },
     {
@@ -65,6 +113,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:25"
     },
     {
@@ -72,6 +121,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:25"
     },
     {
@@ -79,6 +129,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:25"
     }
   ]

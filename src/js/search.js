@@ -44,9 +44,10 @@ function buildLunrIndex() {
 
       const libelleText = p.libelle || '';
       const normalizedLibelle = normalizeText(libelleText);
-      const termsText = Array.isArray(p.terme_jantzen_bat)
-        ? p.terme_jantzen_bat.join(' ')
-        : '';
+      const termsText = [
+        ...(Array.isArray(p.terme_jantzen_bat) ? p.terme_jantzen_bat : []),
+        ...(Array.isArray(p.terme_torneh_bat)  ? p.terme_torneh_bat  : [])
+      ].join(' ');
       const adresseText = (p.adresse && typeof p.adresse === 'object')
         ? (p.adresse.affichage || p.adresse.voie || '')
         : (p.adresse || '');

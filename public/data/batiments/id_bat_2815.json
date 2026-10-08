@@ -23,12 +23,34 @@
   "WPfr": null,
   "image_ref": "Rio-de-Janeiro-pl-5_8_§1-Rx",
   "terme_jantzen_bat": [
-    "lucarne",
-    "façade",
     "sculpture",
     "clé",
-    "porte-bois",
-    "fronton"
+    "lucarne",
+    "façade",
+    "fronton",
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "grille",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "volet"
   ],
   "photos": [
     {
@@ -36,6 +58,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:07:22"
     },
     {
@@ -44,6 +67,7 @@
         "porte-bois",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:02"
     },
     {
@@ -52,12 +76,35 @@
         "clé",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:02"
     },
     {
       "id_pic": "Rio-de-Janeiro-pl-5_8_§1-Rx",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "mansarde",
+        "lucarne",
+        "fronton",
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "volet",
+        "porte",
+        "arc en plein cintre",
+        "sculpture",
+        "mascaron",
+        "pilastre",
+        "corniche",
+        "bandeau",
+        "souche de cheminée",
+        "ardoise",
+        "toit à deux versants",
+        "pierre de taille",
+        "grille",
+        "balustrade"
       ],
       "dateCapture": "2012:07:22"
     },
@@ -67,6 +114,7 @@
         "lucarne",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:07:22"
     },
     {
@@ -75,6 +123,7 @@
         "fronton",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:02"
     },
     {
@@ -83,6 +132,7 @@
         "fronton",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:05:23"
     },
     {
@@ -91,6 +141,7 @@
         "fronton",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:07:22"
     },
     {
@@ -98,6 +149,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:05:23"
     },
     {
@@ -105,6 +157,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:08:10"
     },
     {
@@ -112,6 +165,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:02"
     }
   ]

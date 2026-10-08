@@ -24,12 +24,52 @@
     "fenetre",
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "chambranle",
+    "fenêtre",
+    "fer forgé",
+    "grille",
+    "gros appareil",
+    "huisserie",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "vantail",
+    "vitrail",
+    "voûte"
+  ],
   "photos": [
     {
       "id_pic": "Montaigne-9_8_§1",
       "IndexJantzen": [
         "fenetre",
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "arc",
+        "arc en plein cintre",
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "fer forgé",
+        "grille",
+        "mascaron",
+        "oculus",
+        "pierre de taille",
+        "porte",
+        "sculpture",
+        "vantail",
+        "vitrail",
+        "voûte",
+        "gros appareil",
+        "huisserie",
+        "chambranle"
       ],
       "dateCapture": "2004:08:22"
     }

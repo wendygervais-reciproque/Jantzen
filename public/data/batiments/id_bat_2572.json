@@ -22,11 +22,35 @@
   "image_ref": "Pepiniere-40_8_§1",
   "terme_jantzen_bat": [
     "toiture",
+    "sculpture",
     "fenetre",
     "lucarne",
+    "colonne",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "cariatide",
+    "chapiteau ionique",
+    "chaîne d'angle",
+    "colonne",
+    "corniche",
+    "entablement",
+    "fenêtre",
+    "frise",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "porte-fenêtre",
     "sculpture",
-    "décor",
-    "colonne"
+    "travée"
   ],
   "photos": [
     {
@@ -34,6 +58,30 @@
       "IndexJantzen": [
         "colonne",
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "lucarne",
+        "fronton",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "colonne",
+        "chapiteau ionique",
+        "pilastre",
+        "fenêtre",
+        "porte-fenêtre",
+        "corniche",
+        "entablement",
+        "ardoise",
+        "mansarde",
+        "sculpture",
+        "cariatide",
+        "frise",
+        "porte",
+        "pierre de taille",
+        "travée",
+        "chaîne d'angle",
+        "arc en plein cintre"
       ],
       "dateCapture": "2006:06:06"
     },
@@ -44,6 +92,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:06"
     },
     {
@@ -51,6 +100,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:06"
     },
     {
@@ -59,6 +109,7 @@
         "lucarne",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:06"
     },
     {
@@ -68,6 +119,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:06"
     },
     {
@@ -76,6 +128,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:06"
     }
   ]

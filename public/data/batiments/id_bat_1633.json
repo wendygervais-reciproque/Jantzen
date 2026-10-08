@@ -21,8 +21,21 @@
   "WPfr": null,
   "image_ref": "Hippolyte-Maindron-21_14_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "garde-corps"
+    "garde-corps",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "chambranle",
+    "corniche",
+    "fer forgé",
+    "garde-corps",
+    "pierre de taille",
+    "pilastre",
+    "porte-fenêtre",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -30,6 +43,19 @@
       "IndexJantzen": [
         "fenetre",
         "garde-corps"
+      ],
+      "IndexTorneh": [
+        "porte-fenêtre",
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "balustrade",
+        "chambranle",
+        "corniche",
+        "pilastre",
+        "pierre de taille",
+        "travée",
+        "volet"
       ],
       "dateCapture": "2005:08:31"
     }

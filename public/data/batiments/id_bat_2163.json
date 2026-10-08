@@ -29,13 +29,31 @@
   "image_ref": "St-Honore-306_1_§1-Rx",
   "terme_jantzen_bat": [
     "toiture",
-    "fenetre",
-    "façade",
     "façade-d'angle",
-    "métal",
     "oriel",
+    "fenetre",
     "brique",
+    "métal",
+    "façade",
     "lucarne-d'angle"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "baie",
+    "balcon",
+    "balustrade",
+    "corniche",
+    "céramique",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mansarde",
+    "modillon",
+    "oculus",
+    "souche de cheminée",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -44,6 +62,24 @@
         "fenetre",
         "métal",
         "oriel"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "dôme",
+        "souche de cheminée",
+        "corniche",
+        "céramique",
+        "volet",
+        "oculus",
+        "mansarde",
+        "arc en plein cintre",
+        "travée",
+        "modillon",
+        "fer forgé",
+        "baie"
       ],
       "dateCapture": "2011:08:20"
     },
@@ -56,6 +92,7 @@
         "métal",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:10"
     },
     {
@@ -63,6 +100,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:21"
     },
     {
@@ -72,6 +110,7 @@
         "métal",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:08:20"
     },
     {
@@ -80,6 +119,7 @@
         "lucarne-d'angle",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:08:20"
     },
     {
@@ -88,6 +128,7 @@
         "lucarne-d'angle",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:08:20"
     }
   ]

@@ -22,9 +22,25 @@
   "image_ref": "Charenton-32_12_§1",
   "terme_jantzen_bat": [
     "toiture",
+    "oeil-de-boeuf",
     "fenetre",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
     "lucarne",
-    "oeil-de-boeuf"
+    "mansarde",
+    "modillon",
+    "oculus",
+    "pierre de taille",
+    "souche de cheminée",
+    "volet"
   ],
   "photos": [
     {
@@ -32,6 +48,22 @@
       "IndexJantzen": [
         "lucarne",
         "toiture"
+      ],
+      "IndexTorneh": [
+        "mansarde",
+        "lucarne",
+        "fenêtre",
+        "volet",
+        "balcon",
+        "garde-corps",
+        "corniche",
+        "modillon",
+        "oculus",
+        "ardoise",
+        "souche de cheminée",
+        "pierre de taille",
+        "fronton",
+        "balustrade"
       ],
       "dateCapture": "2005:07:11"
     },
@@ -41,6 +73,7 @@
         "fenetre",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:11"
     }
   ]

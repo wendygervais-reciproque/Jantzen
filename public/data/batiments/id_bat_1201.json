@@ -28,12 +28,36 @@
   "WPfr": null,
   "image_ref": "Raspail-17_7_§1",
   "terme_jantzen_bat": [
-    "lucarne",
-    "pignon",
     "façade-d'angle",
+    "pignon",
     "fenetre-d'angle",
+    "lucarne",
     "porte-fer-hall",
     "colonne"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "avant-corps",
+    "baie",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chéneau",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "mansarde",
+    "mascaron",
+    "oriel",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "sculpture",
+    "souche de cheminée",
+    "toit en pavillon",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -41,6 +65,30 @@
       "IndexJantzen": [
         "façade-d'angle",
         "pignon"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fronton",
+        "fenêtre",
+        "porte",
+        "baie",
+        "oriel",
+        "pilastre",
+        "corniche",
+        "mansarde",
+        "toit en pavillon",
+        "chéneau",
+        "arc en plein cintre",
+        "sculpture",
+        "mascaron",
+        "garde-corps",
+        "travée",
+        "pierre de taille",
+        "souche de cheminée",
+        "avant-corps",
+        "bandeau",
+        "volet"
       ],
       "dateCapture": "2007:04:02"
     },
@@ -50,6 +98,7 @@
         "fenetre-d'angle",
         "pignon"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:02"
     },
     {
@@ -59,6 +108,7 @@
         "lucarne",
         "pignon"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:02"
     },
     {
@@ -67,6 +117,7 @@
         "fenetre-d'angle",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:02"
     },
     {
@@ -75,6 +126,7 @@
         "colonne",
         "porte-fer-hall"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:11"
     }
   ]

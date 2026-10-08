@@ -21,12 +21,25 @@
   "WPfr": null,
   "image_ref": "Jeuneurs-46_2_§1",
   "terme_jantzen_bat": [
-    "lucarne",
     "pignon",
     "sculpture",
     "clé",
+    "lucarne",
     "porte-bois",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "bandeau",
+    "chéneau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "souche de cheminée"
   ],
   "photos": [
     {
@@ -35,6 +48,19 @@
         "lucarne",
         "pignon"
       ],
+      "IndexTorneh": [
+        "fenêtre",
+        "lucarne",
+        "mansarde",
+        "ardoise",
+        "souche de cheminée",
+        "garde-corps",
+        "balcon",
+        "bandeau",
+        "fer forgé",
+        "corniche",
+        "chéneau"
+      ],
       "dateCapture": "2007:06:02"
     },
     {
@@ -42,6 +68,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:19"
     },
     {
@@ -51,6 +78,7 @@
         "décor",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:06:02"
     },
     {
@@ -59,6 +87,7 @@
         "clé",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:06:02"
     }
   ]

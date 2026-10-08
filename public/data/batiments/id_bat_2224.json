@@ -35,12 +35,46 @@
     "oeil-de-boeuf",
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "sculpture",
+    "souche de cheminée",
+    "tour",
+    "tuile",
+    "épi de faîtage"
+  ],
   "photos": [
     {
       "id_pic": "Hauteville-32_10_§1",
       "IndexJantzen": [
         "lucarne",
         "oeil-de-boeuf"
+      ],
+      "IndexTorneh": [
+        "ardoise",
+        "oculus",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "mascaron",
+        "sculpture",
+        "souche de cheminée",
+        "tour",
+        "mansarde",
+        "épi de faîtage",
+        "fer forgé",
+        "pierre de taille",
+        "tuile"
       ],
       "dateCapture": "2004:06:28"
     },
@@ -50,6 +84,7 @@
         "lucarne",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:15"
     }
   ]

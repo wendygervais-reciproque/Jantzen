@@ -19,15 +19,40 @@
   "WPfr": null,
   "image_ref": "Louvre-1-Qm_Cn-1",
   "terme_jantzen_bat": [
+    "loggia",
+    "balcon",
+    "sculpture",
     "fenetre",
     "façade",
     "porte",
-    "sculpture",
-    "porte-bois",
-    "loggia",
     "fronton",
+    "colonne",
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "attique",
     "balcon",
-    "colonne"
+    "balustrade",
+    "bossage",
+    "cariatide",
+    "chapiteau corinthien",
+    "colonne",
+    "corniche",
+    "entablement",
+    "fenêtre",
+    "fer forgé",
+    "frise",
+    "fronton",
+    "grille",
+    "gros appareil",
+    "jambage",
+    "linteau",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "porte-fenêtre",
+    "sculpture"
   ],
   "photos": [
     {
@@ -36,6 +61,31 @@
         "façade",
         "fronton",
         "porte"
+      ],
+      "IndexTorneh": [
+        "fronton",
+        "arc en plein cintre",
+        "colonne",
+        "pilastre",
+        "chapiteau corinthien",
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "porte",
+        "porte-fenêtre",
+        "sculpture",
+        "cariatide",
+        "bossage",
+        "pierre de taille",
+        "grille",
+        "fer forgé",
+        "entablement",
+        "frise",
+        "corniche",
+        "attique",
+        "gros appareil",
+        "jambage",
+        "linteau"
       ],
       "dateCapture": "2005:06:19"
     },
@@ -46,6 +96,7 @@
         "fenetre",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:19"
     },
     {
@@ -55,6 +106,7 @@
         "loggia",
         "porte"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:19"
     },
     {
@@ -65,6 +117,7 @@
         "fronton",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:19"
     }
   ]

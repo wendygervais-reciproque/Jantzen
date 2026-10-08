@@ -23,11 +23,29 @@
   "terme_jantzen_bat": [
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "chéneau",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "lucarne",
+    "modillon"
+  ],
   "photos": [
     {
       "id_pic": "Printemps-10_17_§1",
       "IndexJantzen": [
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "lucarne",
+        "fronton",
+        "corniche",
+        "ardoise",
+        "fenêtre",
+        "modillon",
+        "chéneau"
       ],
       "dateCapture": "2004:04:16"
     }

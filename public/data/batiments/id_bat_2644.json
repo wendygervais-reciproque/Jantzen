@@ -21,16 +21,60 @@
   "WPfr": null,
   "image_ref": "Lannes-43_16_§1",
   "terme_jantzen_bat": [
-    "lucarne",
-    "fenetre",
     "façade",
-    "sculpture"
+    "sculpture",
+    "fenetre",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "arc en anse de panier",
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "grille",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "oriel",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "sculpture",
+    "souche de cheminée"
   ],
   "photos": [
     {
       "id_pic": "Lannes-43_16_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "mascaron",
+        "lucarne",
+        "mansarde",
+        "fer forgé",
+        "bandeau",
+        "corniche",
+        "pierre de taille",
+        "souche de cheminée",
+        "oriel",
+        "sculpture",
+        "porte",
+        "grille",
+        "oculus",
+        "arc en anse de panier",
+        "arc en plein cintre",
+        "pilastre"
       ],
       "dateCapture": "2004:03:16"
     },
@@ -41,6 +85,7 @@
         "lucarne",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:03:17"
     },
     {
@@ -49,6 +94,7 @@
         "fenetre",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:03:16"
     }
   ]

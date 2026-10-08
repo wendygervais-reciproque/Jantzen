@@ -21,10 +21,24 @@
   "WPfr": null,
   "image_ref": "Opera-13_1_§1",
   "terme_jantzen_bat": [
+    "fronton",
     "fenetre",
-    "lucarne",
     "porte-bois",
-    "fronton"
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "chambranle",
+    "fenêtre",
+    "grille",
+    "mascaron",
+    "modillon",
+    "pierre de taille",
+    "porte",
+    "porte-fenêtre",
+    "sculpture",
+    "vantail",
+    "volet"
   ],
   "photos": [
     {
@@ -32,6 +46,20 @@
       "IndexJantzen": [
         "fenetre",
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "vantail",
+        "arc",
+        "sculpture",
+        "mascaron",
+        "grille",
+        "pierre de taille",
+        "volet",
+        "fenêtre",
+        "porte-fenêtre",
+        "chambranle",
+        "modillon"
       ],
       "dateCapture": "2003:07:14"
     },
@@ -41,6 +69,7 @@
         "fronton",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:07:14"
     }
   ]

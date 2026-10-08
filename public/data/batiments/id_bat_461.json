@@ -30,11 +30,33 @@
   "terme_jantzen_bat": [
     "porte-fer-hall"
   ],
+  "terme_torneh_bat": [
+    "chambranle",
+    "corniche",
+    "fer forgé",
+    "modillon",
+    "pierre de taille",
+    "porte",
+    "porte-fenêtre",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Capri-11_12_§1",
       "IndexJantzen": [
         "porte-fer-hall"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "porte-fenêtre",
+        "fer forgé",
+        "vantail",
+        "sculpture",
+        "pierre de taille",
+        "chambranle",
+        "corniche",
+        "modillon"
       ],
       "dateCapture": "2004:07:27"
     }

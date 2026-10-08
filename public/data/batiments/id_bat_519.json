@@ -32,11 +32,29 @@
   "WPfr": null,
   "image_ref": "Victor-Hugo-111_16_§1",
   "terme_jantzen_bat": [
-    "façade",
-    "console",
-    "métal",
     "oriel",
-    "brique"
+    "console",
+    "brique",
+    "métal",
+    "façade"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "brique",
+    "colonne",
+    "fenêtre",
+    "fer",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "pilier",
+    "porte",
+    "souche de cheminée",
+    "travée",
+    "verrière",
+    "vitrail"
   ],
   "photos": [
     {
@@ -45,6 +63,24 @@
         "brique",
         "façade",
         "métal"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "brique",
+        "balustrade",
+        "fer forgé",
+        "porte",
+        "verrière",
+        "souche de cheminée",
+        "mansarde",
+        "lucarne",
+        "pilier",
+        "colonne",
+        "fer",
+        "vitrail",
+        "travée"
       ],
       "dateCapture": "2005:03:23"
     },
@@ -55,6 +91,7 @@
         "console",
         "métal"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:03:25"
     },
     {
@@ -64,6 +101,7 @@
         "façade",
         "métal"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:03:25"
     },
     {
@@ -73,6 +111,7 @@
         "façade",
         "métal"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:30"
     },
     {
@@ -83,6 +122,7 @@
         "métal",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:03:25"
     },
     {
@@ -92,6 +132,7 @@
         "métal",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:03:23"
     },
     {
@@ -101,6 +142,7 @@
         "métal",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:30"
     },
     {
@@ -110,6 +152,7 @@
         "métal",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:03:25"
     },
     {
@@ -119,6 +162,7 @@
         "métal",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:30"
     },
     {
@@ -128,6 +172,7 @@
         "console",
         "métal"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:03:23"
     }
   ]

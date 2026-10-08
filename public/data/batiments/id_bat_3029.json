@@ -29,16 +29,46 @@
   "image_ref": "Montaigne-56_8_§1",
   "terme_jantzen_bat": [
     "oeil-de-boeuf",
-    "lucarne",
-    "garde-corps",
+    "sculpture",
     "console",
-    "sculpture"
+    "lucarne",
+    "garde-corps"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "modillon",
+    "pierre de taille",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Montaigne-56_8_§1",
       "IndexJantzen": [
         "garde-corps"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "fer forgé",
+        "corniche",
+        "mascaron",
+        "volet",
+        "pierre de taille",
+        "travée",
+        "bandeau",
+        "modillon",
+        "arc en plein cintre"
       ],
       "dateCapture": "2006:09:05"
     },
@@ -48,6 +78,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:09:05"
     },
     {
@@ -56,6 +87,7 @@
         "lucarne",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:09:05"
     }
   ]

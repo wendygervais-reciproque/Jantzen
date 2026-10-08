@@ -23,11 +23,35 @@
   "terme_jantzen_bat": [
     "fenetre"
   ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en anse de panier",
+    "boiserie",
+    "chambranle",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "pierre de taille",
+    "porte-fenêtre",
+    "sculpture"
+  ],
   "photos": [
     {
       "id_pic": "Flandre-148_19_§1",
       "IndexJantzen": [
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "arc",
+        "arc en anse de panier",
+        "sculpture",
+        "garde-corps",
+        "fer forgé",
+        "porte-fenêtre",
+        "boiserie",
+        "chambranle",
+        "pierre de taille",
+        "mascaron"
       ],
       "dateCapture": "2005:08:02"
     }

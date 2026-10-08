@@ -30,11 +30,37 @@
   "terme_jantzen_bat": [
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "auvent",
+    "balcon",
+    "chambranle",
+    "fer forgé",
+    "garde-corps",
+    "jambage",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Joseph-Bara-15_6_§1",
       "IndexJantzen": [
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "mascaron",
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "pierre de taille",
+        "vantail",
+        "sculpture",
+        "auvent",
+        "chambranle",
+        "jambage"
       ],
       "dateCapture": "2005:05:09"
     }

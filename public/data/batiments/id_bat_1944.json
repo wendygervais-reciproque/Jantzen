@@ -24,12 +24,34 @@
     "toiture",
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "chéneau",
+    "fenêtre",
+    "fronton",
+    "lucarne",
+    "pierre de taille",
+    "souche de cheminée",
+    "toit à deux versants",
+    "tuile",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Rosiers-27_4_§1",
       "IndexJantzen": [
         "lucarne",
         "toiture"
+      ],
+      "IndexTorneh": [
+        "lucarne",
+        "souche de cheminée",
+        "fenêtre",
+        "tuile",
+        "toit à deux versants",
+        "pierre de taille",
+        "fronton",
+        "chéneau",
+        "vantail"
       ],
       "dateCapture": "2004:09:08"
     }

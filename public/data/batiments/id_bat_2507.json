@@ -28,9 +28,25 @@
   "WPfr": null,
   "image_ref": "Printemps-4_17_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "sculpture",
+    "fenetre",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bossage",
+    "chapiteau",
+    "corniche",
+    "céramique",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "pierre de taille",
+    "pilastre",
+    "porte-fenêtre",
+    "travée",
+    "vitrail"
   ],
   "photos": [
     {
@@ -39,6 +55,22 @@
         "décor",
         "fenetre",
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "porte-fenêtre",
+        "chapiteau",
+        "pilastre",
+        "corniche",
+        "céramique",
+        "vitrail",
+        "bossage",
+        "pierre de taille",
+        "travée"
       ],
       "dateCapture": "2004:04:16"
     }

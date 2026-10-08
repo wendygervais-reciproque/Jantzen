@@ -24,11 +24,31 @@
     "sculpture",
     "console"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "pierre de taille",
+    "sculpture"
+  ],
   "photos": [
     {
       "id_pic": "Ternes-Av-62_17_§1",
       "IndexJantzen": [
         "console",
+        "sculpture"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "mascaron",
+        "fenêtre",
+        "pierre de taille",
         "sculpture"
       ],
       "dateCapture": "2005:01:21"

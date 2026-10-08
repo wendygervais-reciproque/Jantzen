@@ -30,12 +30,34 @@
   "WPfr": null,
   "image_ref": "Breteuil-78_15_§1",
   "terme_jantzen_bat": [
+    "dome",
+    "façade-d'angle",
+    "pignon",
     "fenetre",
     "lucarne",
-    "pignon",
-    "façade-d'angle",
-    "dome",
     "lucarne-d'angle"
+  ],
+  "terme_torneh_bat": [
+    "avant-corps",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chaîne d'angle",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "porte",
+    "souche de cheminée",
+    "toit à deux versants",
+    "verrière"
   ],
   "photos": [
     {
@@ -43,6 +65,28 @@
       "IndexJantzen": [
         "dome",
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "dôme",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "oculus",
+        "fronton",
+        "corniche",
+        "bandeau",
+        "souche de cheminée",
+        "mansarde",
+        "pierre de taille",
+        "fer forgé",
+        "mascaron",
+        "toit à deux versants",
+        "verrière",
+        "lucarne",
+        "porte",
+        "avant-corps",
+        "chaîne d'angle"
       ],
       "dateCapture": "2006:04:04"
     },
@@ -52,6 +96,7 @@
         "dome",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:06"
     },
     {
@@ -59,6 +104,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:04"
     },
     {
@@ -66,6 +112,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:04"
     },
     {
@@ -74,6 +121,7 @@
         "dome",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:04"
     },
     {
@@ -82,6 +130,7 @@
         "dome",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:04"
     },
     {
@@ -91,6 +140,7 @@
         "lucarne-d'angle",
         "pignon"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:04"
     },
     {
@@ -99,6 +149,7 @@
         "dome",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:04"
     },
     {
@@ -107,6 +158,7 @@
         "dome",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:01"
     },
     {
@@ -115,6 +167,7 @@
         "dome",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:06"
     }
   ]

@@ -28,13 +28,37 @@
   "WPfr": null,
   "image_ref": "St-Denis-224_2_§1",
   "terme_jantzen_bat": [
-    "façade-d'angle",
-    "sculpture",
+    "balcon",
     "dome",
-    "fenetre-d'angle",
+    "façade-d'angle",
     "pilastre",
-    "lucarne-d'angle",
-    "balcon"
+    "sculpture",
+    "fenetre-d'angle",
+    "lucarne-d'angle"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "avant-corps",
+    "balcon",
+    "balustrade",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "grille",
+    "lucarne",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porte-fenêtre",
+    "sculpture",
+    "souche de cheminée",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -42,6 +66,30 @@
       "IndexJantzen": [
         "dome",
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "dôme",
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "porte-fenêtre",
+        "volet",
+        "garde-corps",
+        "corniche",
+        "pilastre",
+        "fer forgé",
+        "sculpture",
+        "mascaron",
+        "arc en plein cintre",
+        "oculus",
+        "souche de cheminée",
+        "pierre de taille",
+        "travée",
+        "avant-corps",
+        "fronton",
+        "ardoise",
+        "grille",
+        "lucarne"
       ],
       "dateCapture": "2005:08:28"
     },
@@ -53,6 +101,7 @@
         "fenetre-d'angle",
         "pilastre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:28"
     },
     {
@@ -61,6 +110,7 @@
         "dome",
         "lucarne-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:05"
     },
     {
@@ -69,6 +119,7 @@
         "dome",
         "lucarne-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:28"
     },
     {
@@ -77,6 +128,7 @@
         "dome",
         "lucarne-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:05"
     },
     {
@@ -84,6 +136,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:28"
     }
   ]

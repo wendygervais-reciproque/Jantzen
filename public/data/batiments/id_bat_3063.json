@@ -24,11 +24,41 @@
     "toiture",
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "brique",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "pierre de taille",
+    "souche de cheminée"
+  ],
   "photos": [
     {
       "id_pic": "Francs-Bourgeois-58_3_§1",
       "IndexJantzen": [
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "lucarne",
+        "souche de cheminée",
+        "ardoise",
+        "mansarde",
+        "balustrade",
+        "balcon",
+        "fronton",
+        "chambranle",
+        "pierre de taille",
+        "corniche",
+        "fenêtre",
+        "garde-corps",
+        "brique"
       ],
       "dateCapture": "2007:06:19"
     },
@@ -38,6 +68,7 @@
         "lucarne",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:07:27"
     },
     {
@@ -45,6 +76,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:07:27"
     }
   ]

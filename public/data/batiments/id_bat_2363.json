@@ -21,8 +21,27 @@
   "WPfr": null,
   "image_ref": "Prony-37_17_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "oriel"
+    "oriel",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "avant-corps",
+    "balcon",
+    "balustrade",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "grille",
+    "lucarne",
+    "oculus",
+    "oriel",
+    "porte",
+    "porte-fenêtre",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -30,6 +49,25 @@
       "IndexJantzen": [
         "fenetre",
         "oriel"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "lucarne",
+        "oriel",
+        "fronton",
+        "corniche",
+        "ardoise",
+        "porte",
+        "porte-fenêtre",
+        "travée",
+        "avant-corps",
+        "volet",
+        "grille",
+        "fer forgé",
+        "oculus"
       ],
       "dateCapture": "2008:05:25"
     },
@@ -39,6 +77,7 @@
         "fenetre",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:25"
     }
   ]

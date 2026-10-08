@@ -22,8 +22,19 @@
   "image_ref": "Champs-Elysees-10_8_§1",
   "terme_jantzen_bat": [
     "oeil-de-boeuf",
-    "lucarne",
-    "dome"
+    "dome",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "balustrade",
+    "dôme",
+    "fenêtre",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "sculpture",
+    "tour",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -31,6 +42,17 @@
       "IndexJantzen": [
         "dome",
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "dôme",
+        "sculpture",
+        "épi de faîtage",
+        "oculus",
+        "fenêtre",
+        "pilastre",
+        "balustrade",
+        "pierre de taille",
+        "tour"
       ],
       "dateCapture": "2006:06:06"
     },
@@ -41,6 +63,7 @@
         "lucarne",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:06"
     }
   ]

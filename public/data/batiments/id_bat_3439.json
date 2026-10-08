@@ -31,12 +31,46 @@
     "fenetre",
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "arc",
+    "balcon",
+    "balustrade",
+    "chambranle",
+    "fer forgé",
+    "garde-corps",
+    "grille",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "porte-fenêtre",
+    "sculpture",
+    "soupirail",
+    "vantail",
+    "vitrail"
+  ],
   "photos": [
     {
       "id_pic": "Meynadier-7_19_§1",
       "IndexJantzen": [
         "fenetre",
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "porte-fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "vantail",
+        "sculpture",
+        "arc",
+        "chambranle",
+        "soupirail",
+        "grille",
+        "pierre de taille",
+        "mascaron",
+        "vitrail"
       ],
       "dateCapture": "2005:05:11"
     }

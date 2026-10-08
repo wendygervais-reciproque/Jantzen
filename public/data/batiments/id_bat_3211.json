@@ -28,23 +28,73 @@
   "WPfr": null,
   "image_ref": "St-Lazare-60_9_§1",
   "terme_jantzen_bat": [
+    "balcon",
     "porte-fer",
+    "sculpture",
+    "clé",
+    "console",
     "fenetre",
     "façade",
-    "garde-corps",
-    "console",
-    "sculpture",
     "chimère",
-    "clé",
+    "garde-corps",
     "porte-bois",
-    "décor",
-    "balcon"
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc brisé",
+    "arc en plein cintre",
+    "auvent",
+    "baie",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chapiteau",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "grille",
+    "mascaron",
+    "modillon",
+    "pierre de taille",
+    "pilastre",
+    "portail",
+    "porte",
+    "sculpture",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "St-Lazare-60_9_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "arc en plein cintre",
+        "arc brisé",
+        "mascaron",
+        "modillon",
+        "corniche",
+        "pilastre",
+        "chapiteau",
+        "portail",
+        "porte",
+        "grille",
+        "fer forgé",
+        "sculpture",
+        "pierre de taille",
+        "travée",
+        "volet",
+        "bandeau",
+        "chaîne d'angle",
+        "auvent",
+        "baie"
       ],
       "dateCapture": "2004:06:17"
     },
@@ -55,6 +105,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:09"
     },
     {
@@ -63,6 +114,7 @@
         "fenetre",
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:09"
     },
     {
@@ -71,6 +123,7 @@
         "fenetre",
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:09"
     },
     {
@@ -78,6 +131,7 @@
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:09"
     },
     {
@@ -86,6 +140,7 @@
         "balcon",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:09"
     },
     {
@@ -95,6 +150,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:09"
     },
     {
@@ -104,6 +160,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:09"
     },
     {
@@ -112,6 +169,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:09"
     },
     {
@@ -120,6 +178,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:09"
     },
     {
@@ -130,6 +189,7 @@
         "garde-corps",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:09"
     },
     {
@@ -139,6 +199,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:09"
     },
     {
@@ -147,6 +208,7 @@
         "fenetre",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:09"
     }
   ]

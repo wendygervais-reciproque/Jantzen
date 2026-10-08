@@ -21,8 +21,21 @@
   "WPfr": null,
   "image_ref": "Buffault-34_9_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "brique"
+    "brique",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "brique",
+    "chaîne d'angle",
+    "céramique",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "pierre de taille",
+    "soupirail",
+    "vitrail"
   ],
   "photos": [
     {
@@ -30,6 +43,19 @@
       "IndexJantzen": [
         "brique",
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "brique",
+        "pierre de taille",
+        "céramique",
+        "fer forgé",
+        "vitrail",
+        "arc en plein cintre",
+        "chaîne d'angle",
+        "soupirail"
       ],
       "dateCapture": "2004:06:16"
     }

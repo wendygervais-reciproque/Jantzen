@@ -23,12 +23,31 @@
   "WPfr": null,
   "image_ref": "Vendome-Pl-2_1_§1",
   "terme_jantzen_bat": [
-    "lucarne",
-    "sculpture",
     "pilastre",
+    "sculpture",
     "fenetre-d'angle",
+    "lucarne",
     "lucarne-d'angle",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mansarde",
+    "mascaron",
+    "mur-boutant",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "souche de cheminée",
+    "travée"
   ],
   "photos": [
     {
@@ -36,6 +55,25 @@
       "IndexJantzen": [
         "fenetre-d'angle",
         "pilastre"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "mansarde",
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "mascaron",
+        "pierre de taille",
+        "arc en plein cintre",
+        "mur-boutant",
+        "corniche",
+        "souche de cheminée",
+        "fer forgé",
+        "ardoise",
+        "oculus",
+        "pilastre",
+        "travée",
+        "arc"
       ],
       "dateCapture": "2005:08:10"
     },
@@ -47,6 +85,7 @@
         "pilastre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:15"
     },
     {
@@ -54,6 +93,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:15"
     },
     {
@@ -61,6 +101,7 @@
       "IndexJantzen": [
         "lucarne-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:10"
     },
     {
@@ -68,6 +109,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:10"
     },
     {
@@ -75,6 +117,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:10"
     }
   ]

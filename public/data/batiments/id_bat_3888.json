@@ -26,12 +26,46 @@
     "balcon",
     "dome"
   ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mascaron",
+    "pierre de taille",
+    "tour",
+    "tuile",
+    "volet",
+    "épi de faîtage"
+  ],
   "photos": [
     {
       "id_pic": "Picpus-bd-93t_12_§1",
       "IndexJantzen": [
         "balcon",
         "dome"
+      ],
+      "IndexTorneh": [
+        "tour",
+        "dôme",
+        "épi de faîtage",
+        "ardoise",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "lucarne",
+        "fenêtre",
+        "volet",
+        "corniche",
+        "mascaron",
+        "tuile",
+        "pierre de taille"
       ],
       "dateCapture": "2005:07:15"
     }

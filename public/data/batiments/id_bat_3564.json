@@ -30,11 +30,33 @@
   "terme_jantzen_bat": [
     "porte-fer"
   ],
+  "terme_torneh_bat": [
+    "arc",
+    "balcon",
+    "balustrade",
+    "fer forgé",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "vitrail"
+  ],
   "photos": [
     {
       "id_pic": "Raspail-79_6_§1",
       "IndexJantzen": [
         "porte-fer"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "arc",
+        "fer forgé",
+        "balcon",
+        "balustrade",
+        "mascaron",
+        "pierre de taille",
+        "vitrail",
+        "sculpture"
       ],
       "dateCapture": "2004:03:30"
     }

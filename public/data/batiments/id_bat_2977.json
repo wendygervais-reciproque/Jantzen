@@ -21,10 +21,31 @@
   "WPfr": null,
   "image_ref": "Ganneron-53_18_§1",
   "terme_jantzen_bat": [
-    "lucarne-d'angle",
     "pignon",
+    "lucarne-d'angle",
     "balcon",
     "façade-d'angle"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "avant-corps",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "pierre de taille",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -32,6 +53,27 @@
       "IndexJantzen": [
         "façade-d'angle",
         "pignon"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "bandeau",
+        "chaîne d'angle",
+        "corniche",
+        "fenêtre",
+        "fer forgé",
+        "garde-corps",
+        "lucarne",
+        "mansarde",
+        "mascaron",
+        "pierre de taille",
+        "porte-fenêtre",
+        "souche de cheminée",
+        "toit à deux versants",
+        "travée",
+        "volet",
+        "ardoise",
+        "avant-corps"
       ],
       "dateCapture": "2004:10:05"
     },
@@ -42,6 +84,7 @@
         "lucarne-d'angle",
         "pignon"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:10:05"
     }
   ]

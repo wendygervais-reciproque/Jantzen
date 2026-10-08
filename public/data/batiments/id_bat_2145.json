@@ -32,12 +32,50 @@
     "balcon",
     "façade-d'angle"
   ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "auvent",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "grille",
+    "lucarne",
+    "mansarde",
+    "pierre de taille",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Bonaparte-30_6_§1",
       "IndexJantzen": [
         "balcon",
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "corniche",
+        "bandeau",
+        "garde-corps",
+        "pierre de taille",
+        "souche de cheminée",
+        "volet",
+        "mansarde",
+        "lucarne",
+        "toit à deux versants",
+        "auvent",
+        "ardoise",
+        "fer forgé",
+        "travée",
+        "grille"
       ],
       "dateCapture": "2005:04:19"
     },
@@ -47,6 +85,7 @@
         "balcon",
         "façade-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:19"
     },
     {
@@ -54,6 +93,7 @@
       "IndexJantzen": [
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:19"
     }
   ]

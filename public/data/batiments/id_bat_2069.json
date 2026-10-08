@@ -25,11 +25,29 @@
   "terme_jantzen_bat": [
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "chambranle",
+    "fer forgé",
+    "oculus",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Aumale-3_9_§1",
       "IndexJantzen": [
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "vantail",
+        "chambranle",
+        "sculpture",
+        "pierre de taille",
+        "oculus",
+        "fer forgé"
       ],
       "dateCapture": "2004:08:27"
     }

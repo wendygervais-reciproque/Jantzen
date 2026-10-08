@@ -21,11 +21,32 @@
   "WPfr": null,
   "image_ref": "La-Perouse-37_16_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "sculpture",
     "dome",
+    "sculpture",
     "fenetre-d'angle",
+    "fenetre",
     "cariatide"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "frise",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -33,6 +54,27 @@
       "IndexJantzen": [
         "dome",
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "volet",
+        "lucarne",
+        "mansarde",
+        "oculus",
+        "souche de cheminée",
+        "ardoise",
+        "corniche",
+        "mascaron",
+        "frise",
+        "pilastre",
+        "travée",
+        "bandeau",
+        "fer forgé",
+        "pierre de taille",
+        "toit à deux versants"
       ],
       "dateCapture": "2006:06:30"
     },
@@ -43,6 +85,7 @@
         "fenetre-d'angle",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:30"
     },
     {
@@ -52,6 +95,7 @@
         "fenetre-d'angle",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:30"
     }
   ]

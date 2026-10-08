@@ -21,8 +21,22 @@
   "WPfr": null,
   "image_ref": "Rivoli-42_4_8",
   "terme_jantzen_bat": [
-    "fenetre",
-    "fronton"
+    "fronton",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "chambranle",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "mascaron",
+    "modillon",
+    "pierre de taille",
+    "porte-fenêtre",
+    "sculpture",
+    "volet"
   ],
   "photos": [
     {
@@ -30,6 +44,20 @@
       "IndexJantzen": [
         "fenetre",
         "fronton"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "fronton",
+        "garde-corps",
+        "chambranle",
+        "pierre de taille",
+        "balcon",
+        "sculpture",
+        "mascaron",
+        "fer forgé",
+        "porte-fenêtre",
+        "modillon",
+        "volet"
       ],
       "dateCapture": "2003:08:02"
     }

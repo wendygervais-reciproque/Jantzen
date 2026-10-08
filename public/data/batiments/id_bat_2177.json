@@ -28,14 +28,32 @@
   "WPfr": null,
   "image_ref": "Brunel-31_17_§1",
   "terme_jantzen_bat": [
+    "balcon",
+    "façade-d'angle",
+    "pignon",
+    "fenetre-d'angle",
     "fenetre",
     "lucarne",
-    "pignon",
-    "façade-d'angle",
-    "porte-bois",
-    "fenetre-d'angle",
+    "poignée-porte",
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
     "balcon",
-    "poignée-porte"
+    "balustrade",
+    "chéneau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "mansarde",
+    "mascaron",
+    "pierre de taille",
+    "pilastre",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée"
   ],
   "photos": [
     {
@@ -43,6 +61,24 @@
       "IndexJantzen": [
         "façade-d'angle",
         "pignon"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "balustrade",
+        "corniche",
+        "fer forgé",
+        "mansarde",
+        "toit à deux versants",
+        "souche de cheminée",
+        "pierre de taille",
+        "fronton",
+        "ardoise",
+        "chéneau",
+        "pilastre",
+        "mascaron",
+        "travée"
       ],
       "dateCapture": "2008:03:29"
     },
@@ -53,6 +89,7 @@
         "lucarne",
         "pignon"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:03:29"
     },
     {
@@ -61,6 +98,7 @@
         "balcon",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:07:28"
     },
     {
@@ -68,6 +106,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:03:29"
     },
     {
@@ -76,6 +115,7 @@
         "fenetre",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:03:29"
     },
     {
@@ -83,6 +123,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:03:29"
     },
     {
@@ -90,6 +131,7 @@
       "IndexJantzen": [
         "poignée-porte"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:03:29"
     }
   ]

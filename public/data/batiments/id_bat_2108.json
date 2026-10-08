@@ -22,8 +22,20 @@
   "image_ref": "Hautefeuille-3_6_§1",
   "terme_jantzen_bat": [
     "fenetre",
-    "lucarne",
-    "porte-bois"
+    "porte-bois",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "garde-corps",
+    "gros appareil",
+    "pierre de taille",
+    "porte",
+    "vantail"
   ],
   "photos": [
     {
@@ -32,6 +44,18 @@
         "fenetre",
         "porte-bois"
       ],
+      "IndexTorneh": [
+        "arc en plein cintre",
+        "porte",
+        "fenêtre",
+        "vantail",
+        "pierre de taille",
+        "chambranle",
+        "balcon",
+        "garde-corps",
+        "gros appareil",
+        "corniche"
+      ],
       "dateCapture": "2005:05:23"
     },
     {
@@ -39,6 +63,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:05:03"
     }
   ]

@@ -25,11 +25,47 @@
     "console",
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer",
+    "fer forgé",
+    "garde-corps",
+    "grille",
+    "linteau",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "porte-fenêtre",
+    "sculpture",
+    "soupirail",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "St-Benoit-5_6_§1",
       "IndexJantzen": [
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "porte-fenêtre",
+        "fenêtre",
+        "vantail",
+        "garde-corps",
+        "grille",
+        "corniche",
+        "fer forgé",
+        "balcon",
+        "mascaron",
+        "sculpture",
+        "chambranle",
+        "linteau",
+        "pierre de taille",
+        "soupirail",
+        "fer"
       ],
       "dateCapture": "2005:04:19"
     },
@@ -39,6 +75,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:19"
     }
   ]

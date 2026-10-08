@@ -31,11 +31,55 @@
     "fenetre",
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chapiteau",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Victoires-Pl-W_2_§1-Rs",
       "IndexJantzen": [
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "lucarne",
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "mansarde",
+        "ardoise",
+        "toit à deux versants",
+        "souche de cheminée",
+        "pierre de taille",
+        "corniche",
+        "bandeau",
+        "chaîne d'angle",
+        "fer forgé",
+        "oculus",
+        "travée",
+        "chapiteau",
+        "pilastre",
+        "volet",
+        "mascaron"
       ],
       "dateCapture": "2008:02:17"
     },
@@ -45,6 +89,7 @@
         "fenetre",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:17"
     },
     {
@@ -52,6 +97,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:17"
     },
     {
@@ -59,6 +105,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:17"
     }
   ]

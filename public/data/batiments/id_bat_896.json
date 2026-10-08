@@ -21,16 +21,38 @@
   "WPfr": null,
   "image_ref": "Birague-14_4_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "lucarne",
     "pignon",
-    "garde-corps"
+    "garde-corps",
+    "fenetre",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "oriel"
   ],
   "photos": [
     {
       "id_pic": "Birague-14_4_§1",
       "IndexJantzen": [
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "mansarde",
+        "lucarne",
+        "ardoise",
+        "fer forgé",
+        "balustrade",
+        "oriel"
       ],
       "dateCapture": "2008:05:16"
     },
@@ -39,6 +61,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:16"
     },
     {
@@ -47,6 +70,7 @@
         "lucarne",
         "pignon"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:16"
     },
     {
@@ -55,6 +79,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:16"
     },
     {
@@ -62,6 +87,7 @@
       "IndexJantzen": [
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:16"
     }
   ]

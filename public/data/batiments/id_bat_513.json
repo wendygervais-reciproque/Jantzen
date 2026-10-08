@@ -28,16 +28,56 @@
   "WPfr": null,
   "image_ref": "Amelot-110_11_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "façade",
     "sculpture",
+    "fenetre",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "acrotère",
+    "attique",
+    "chapiteau corinthien",
+    "chaîne d'angle",
+    "colonne",
+    "corniche",
+    "dôme",
+    "entablement",
+    "fenêtre",
+    "frise",
+    "fronton",
+    "grille",
+    "pilastre",
+    "porte",
+    "sculpture",
+    "travée",
+    "vitrail",
+    "épi de faîtage"
   ],
   "photos": [
     {
       "id_pic": "Amelot-110_11_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "colonne",
+        "chapiteau corinthien",
+        "frise",
+        "corniche",
+        "fronton",
+        "sculpture",
+        "fenêtre",
+        "porte",
+        "vitrail",
+        "grille",
+        "entablement",
+        "pilastre",
+        "dôme",
+        "travée",
+        "attique",
+        "acrotère",
+        "chaîne d'angle",
+        "épi de faîtage"
       ],
       "dateCapture": "2010:03:17"
     },
@@ -46,6 +86,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:03:17"
     },
     {
@@ -55,6 +96,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:05"
     },
     {
@@ -62,6 +104,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:04:16"
     },
     {
@@ -69,6 +112,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:03:17"
     },
     {
@@ -77,6 +121,7 @@
         "décor",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:05"
     },
     {
@@ -85,6 +130,7 @@
         "décor",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:03:17"
     },
     {
@@ -93,6 +139,7 @@
         "décor",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:03:17"
     },
     {
@@ -102,6 +149,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:05"
     },
     {
@@ -109,6 +157,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:03:17"
     }
   ]

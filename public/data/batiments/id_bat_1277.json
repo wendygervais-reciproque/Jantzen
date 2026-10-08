@@ -37,11 +37,34 @@
   "image_ref": "St-Martin-bd-18_10_§1-Rx",
   "terme_jantzen_bat": [
     "oeil-de-boeuf",
+    "sculpture",
     "fenetre",
     "façade",
-    "sculpture",
     "atlante",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "arcade",
+    "attique",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chapiteau",
+    "chapiteau corinthien",
+    "colonne",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "sculpture",
+    "vitrail",
+    "volet"
   ],
   "photos": [
     {
@@ -50,6 +73,7 @@
         "atlante",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:05:14"
     },
     {
@@ -59,6 +83,29 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [
+        "arc en plein cintre",
+        "arcade",
+        "attique",
+        "balustrade",
+        "balcon",
+        "bandeau",
+        "chapiteau",
+        "chapiteau corinthien",
+        "colonne",
+        "corniche",
+        "fenêtre",
+        "fronton",
+        "mascaron",
+        "oculus",
+        "pilastre",
+        "sculpture",
+        "vitrail",
+        "volet",
+        "fer forgé",
+        "pierre de taille",
+        "garde-corps"
+      ],
       "dateCapture": "2012:05:14"
     },
     {
@@ -67,6 +114,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:05:14"
     },
     {
@@ -74,6 +122,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:28"
     },
     {
@@ -82,6 +131,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:28"
     },
     {
@@ -89,6 +139,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:05:14"
     },
     {
@@ -98,6 +149,7 @@
         "oeil-de-boeuf",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:05:14"
     },
     {
@@ -106,6 +158,7 @@
         "fenetre",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:28"
     },
     {
@@ -114,6 +167,7 @@
         "atlante",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:28"
     },
     {
@@ -122,6 +176,7 @@
         "atlante",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:05:14"
     }
   ]

@@ -31,12 +31,50 @@
     "brique",
     "oriel"
   ],
+  "terme_torneh_bat": [
+    "avant-corps",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "colombage",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "oriel",
+    "souche de cheminée",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Chateau-129_14_§1",
       "IndexJantzen": [
         "brique",
         "oriel"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "oriel",
+        "lucarne",
+        "balustrade",
+        "brique",
+        "colombage",
+        "corniche",
+        "oculus",
+        "souche de cheminée",
+        "fer forgé",
+        "bandeau",
+        "mascaron",
+        "mansarde",
+        "volet",
+        "avant-corps"
       ],
       "dateCapture": "2005:08:31"
     },
@@ -46,6 +84,7 @@
         "brique",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:31"
     }
   ]

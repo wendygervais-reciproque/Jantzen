@@ -24,11 +24,41 @@
     "clé",
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "balcon",
+    "chambranle",
+    "fenêtre",
+    "fer",
+    "fer forgé",
+    "grille",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Antin-5_2_§1",
       "IndexJantzen": [
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "arc",
+        "arc en plein cintre",
+        "mascaron",
+        "sculpture",
+        "vantail",
+        "fer forgé",
+        "grille",
+        "balcon",
+        "fenêtre",
+        "pierre de taille",
+        "fer",
+        "chambranle"
       ],
       "dateCapture": "2005:06:19"
     },
@@ -38,6 +68,7 @@
         "clé",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:19"
     },
     {
@@ -45,6 +76,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:07:14"
     }
   ]

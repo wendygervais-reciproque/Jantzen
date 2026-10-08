@@ -21,21 +21,75 @@
   "WPfr": null,
   "image_ref": "Petrarque-14_16_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "console",
-    "garde-corps",
+    "colonne",
+    "loggia",
+    "dome",
     "façade-d'angle",
     "mosaique",
-    "dome",
-    "loggia",
+    "console",
+    "fenetre",
     "porte-fer-hall",
-    "colonne"
+    "garde-corps"
+  ],
+  "terme_torneh_bat": [
+    "arc brisé",
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "grille",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "oriel",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Petrarque-14_16_§1",
       "IndexJantzen": [
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "lucarne",
+        "mansarde",
+        "souche de cheminée",
+        "ardoise",
+        "pierre de taille",
+        "garde-corps",
+        "oculus",
+        "mascaron",
+        "portail",
+        "porte",
+        "arc en plein cintre",
+        "arc brisé",
+        "corniche",
+        "bandeau",
+        "sculpture",
+        "fer forgé",
+        "oriel",
+        "travée",
+        "toit à deux versants",
+        "fronton",
+        "grille",
+        "volet"
       ],
       "dateCapture": "2005:04:30"
     },
@@ -44,6 +98,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:30"
     },
     {
@@ -54,6 +109,7 @@
         "loggia",
         "mosaique"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:30"
     },
     {
@@ -62,6 +118,7 @@
         "loggia",
         "mosaique"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:30"
     },
     {
@@ -71,6 +128,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:30"
     },
     {
@@ -81,6 +139,7 @@
         "loggia",
         "mosaique"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:03"
     },
     {
@@ -88,6 +147,7 @@
       "IndexJantzen": [
         "porte-fer-hall"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:03"
     }
   ]

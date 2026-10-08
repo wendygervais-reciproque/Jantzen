@@ -28,10 +28,29 @@
   "WPfr": null,
   "image_ref": "Auteuil-30_16_§1",
   "terme_jantzen_bat": [
-    "sculpture",
-    "lucarne",
     "console",
-    "fenetre-d'angle"
+    "sculpture",
+    "fenetre-d'angle",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chapiteau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "frise",
+    "fronton",
+    "garde-corps",
+    "mansarde",
+    "pierre de taille",
+    "pilastre",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "volet"
   ],
   "photos": [
     {
@@ -39,6 +58,25 @@
       "IndexJantzen": [
         "fenetre-d'angle",
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "porte-fenêtre",
+        "volet",
+        "garde-corps",
+        "fer forgé",
+        "pierre de taille",
+        "pilastre",
+        "corniche",
+        "fronton",
+        "souche de cheminée",
+        "arc en plein cintre",
+        "mansarde",
+        "frise",
+        "chapiteau",
+        "bandeau"
       ],
       "dateCapture": "2005:05:28"
     },
@@ -48,6 +86,7 @@
         "fenetre-d'angle",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:03:27"
     },
     {
@@ -56,6 +95,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:28"
     },
     {
@@ -64,6 +104,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:03:27"
     }
   ]

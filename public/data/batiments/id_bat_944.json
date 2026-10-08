@@ -23,11 +23,33 @@
   "terme_jantzen_bat": [
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "brique",
+    "corniche",
+    "fenêtre",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "pierre de taille",
+    "souche de cheminée"
+  ],
   "photos": [
     {
       "id_pic": "Haussmann-140_8_§1",
       "IndexJantzen": [
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "mansarde",
+        "lucarne",
+        "souche de cheminée",
+        "corniche",
+        "brique",
+        "pierre de taille",
+        "arc en plein cintre",
+        "mascaron",
+        "fenêtre"
       ],
       "dateCapture": "2006:03:23"
     }

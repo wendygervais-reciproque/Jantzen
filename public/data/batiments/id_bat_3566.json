@@ -21,16 +21,68 @@
   "WPfr": null,
   "image_ref": "Bosquet-79_7_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "façade",
     "sculpture",
+    "fenetre",
     "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "linteau",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "porte-fenêtre",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "vantail",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Bosquet-79_7_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "porte",
+        "porte-fenêtre",
+        "linteau",
+        "corniche",
+        "fronton",
+        "arc en plein cintre",
+        "garde-corps",
+        "fer forgé",
+        "pierre de taille",
+        "toit à deux versants",
+        "lucarne",
+        "souche de cheminée",
+        "mansarde",
+        "oculus",
+        "sculpture",
+        "mascaron",
+        "vantail",
+        "volet",
+        "ardoise",
+        "portail",
+        "chambranle"
       ],
       "dateCapture": "2005:03:19"
     },
@@ -40,6 +92,7 @@
         "fenetre",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:03:19"
     },
     {
@@ -48,6 +101,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:03:19"
     }
   ]

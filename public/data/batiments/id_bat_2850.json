@@ -28,14 +28,40 @@
   "WPfr": null,
   "image_ref": "Messine-r-5_8_§1",
   "terme_jantzen_bat": [
-    "porte-fer",
-    "porte-fer-hall"
+    "porte-fer-hall",
+    "porte-fer"
+  ],
+  "terme_torneh_bat": [
+    "chambranle",
+    "fer forgé",
+    "jambage",
+    "linteau",
+    "mascaron",
+    "modillon",
+    "pierre de taille",
+    "porte",
+    "porte-fenêtre",
+    "sculpture",
+    "vantail"
   ],
   "photos": [
     {
       "id_pic": "Messine-r-5_8_§1",
       "IndexJantzen": [
         "porte-fer-hall"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "porte-fenêtre",
+        "fer forgé",
+        "vantail",
+        "pierre de taille",
+        "chambranle",
+        "jambage",
+        "linteau",
+        "sculpture",
+        "modillon",
+        "mascaron"
       ],
       "dateCapture": "2005:08:02"
     },
@@ -44,6 +70,7 @@
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:02"
     }
   ]

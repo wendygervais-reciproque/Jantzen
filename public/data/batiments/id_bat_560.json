@@ -32,11 +32,27 @@
   "WPfr": null,
   "image_ref": "Tolbiac-116_13_§1",
   "terme_jantzen_bat": [
+    "balcon",
     "fenetre",
     "brique",
     "céramique",
-    "décor",
-    "balcon"
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "avant-corps",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "corniche",
+    "céramique",
+    "fenêtre",
+    "frise",
+    "fronton",
+    "garde-corps",
+    "oriel",
+    "pilastre",
+    "porte-fenêtre"
   ],
   "photos": [
     {
@@ -48,6 +64,22 @@
         "décor",
         "fenetre"
       ],
+      "IndexTorneh": [
+        "brique",
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "porte-fenêtre",
+        "fenêtre",
+        "céramique",
+        "oriel",
+        "avant-corps",
+        "bandeau",
+        "fronton",
+        "corniche",
+        "pilastre",
+        "frise"
+      ],
       "dateCapture": "2004:03:29"
     },
     {
@@ -58,6 +90,7 @@
         "décor",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:03:29"
     }
   ]

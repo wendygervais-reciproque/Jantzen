@@ -21,17 +21,53 @@
   "WPfr": null,
   "image_ref": "Kleber-61_16_§1",
   "terme_jantzen_bat": [
+    "sculpture",
     "fenetre",
     "lucarne",
     "façade",
-    "sculpture",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Kleber-61_16_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "corniche",
+        "fenêtre",
+        "mansarde",
+        "lucarne",
+        "souche de cheminée",
+        "volet",
+        "garde-corps",
+        "bandeau",
+        "mascaron",
+        "travée",
+        "pierre de taille",
+        "toit à deux versants",
+        "fer forgé",
+        "porte"
       ],
       "dateCapture": "2005:03:16"
     },
@@ -40,6 +76,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:03:16"
     },
     {
@@ -47,6 +84,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:03:16"
     },
     {
@@ -56,6 +94,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:03:16"
     },
     {
@@ -64,6 +103,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:03:16"
     }
   ]

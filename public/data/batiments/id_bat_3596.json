@@ -25,11 +25,53 @@
     "clé",
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "baie",
+    "balcon",
+    "balustrade",
+    "bossage",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "grille",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "porte-fenêtre",
+    "sculpture",
+    "soupirail",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Etats-Unis-Pl-8_16_§1",
       "IndexJantzen": [
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "arc",
+        "arc en plein cintre",
+        "balcon",
+        "balustrade",
+        "baie",
+        "fenêtre",
+        "porte",
+        "vantail",
+        "mascaron",
+        "sculpture",
+        "pierre de taille",
+        "garde-corps",
+        "fer forgé",
+        "chambranle",
+        "grille",
+        "porte-fenêtre",
+        "corniche",
+        "bossage",
+        "soupirail"
       ],
       "dateCapture": "2004:10:22"
     },
@@ -39,6 +81,7 @@
         "clé",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:10:22"
     }
   ]

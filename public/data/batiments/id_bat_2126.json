@@ -29,19 +29,65 @@
   "image_ref": "Verdi-3_16_§1",
   "terme_jantzen_bat": [
     "toiture",
+    "oriel",
+    "sculpture",
     "fenetre",
     "lucarne",
     "façade",
-    "sculpture",
+    "colonne",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chapiteau",
+    "colonne",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "mascaron",
     "oriel",
-    "décor",
-    "colonne"
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "porte-fenêtre",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Verdi-3_16_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "colonne",
+        "pilastre",
+        "chapiteau",
+        "corniche",
+        "bandeau",
+        "mascaron",
+        "sculpture",
+        "fer forgé",
+        "pierre de taille",
+        "toit à deux versants",
+        "souche de cheminée",
+        "oriel",
+        "travée",
+        "porte",
+        "volet",
+        "porte-fenêtre",
+        "fronton"
       ],
       "dateCapture": "2004:05:21"
     },
@@ -50,6 +96,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:30"
     },
     {
@@ -58,6 +105,7 @@
         "lucarne",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:03:27"
     },
     {
@@ -67,6 +115,7 @@
         "oriel",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:05:21"
     },
     {
@@ -77,6 +126,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:30"
     }
   ]

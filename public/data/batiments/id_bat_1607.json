@@ -28,11 +28,25 @@
   "WPfr": null,
   "image_ref": "Duquesne-21_7_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "console",
-    "garde-corps",
     "sculpture",
-    "chimère"
+    "console",
+    "fenetre",
+    "chimère",
+    "garde-corps"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "balcon",
+    "balustrade",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "modillon",
+    "pierre de taille",
+    "porte-fenêtre",
+    "sculpture",
+    "vantail"
   ],
   "photos": [
     {
@@ -43,6 +57,20 @@
         "garde-corps",
         "sculpture"
       ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "porte-fenêtre",
+        "arc",
+        "sculpture",
+        "mascaron",
+        "pierre de taille",
+        "modillon",
+        "vantail"
+      ],
       "dateCapture": "2003:11:11"
     },
     {
@@ -52,6 +80,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:11:11"
     },
     {
@@ -61,6 +90,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:11:10"
     }
   ]

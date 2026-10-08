@@ -21,8 +21,17 @@
   "WPfr": null,
   "image_ref": "Voltaire-qu-11_7_§1",
   "terme_jantzen_bat": [
-    "console",
-    "métal"
+    "métal",
+    "console"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps"
   ],
   "photos": [
     {
@@ -30,6 +39,15 @@
       "IndexJantzen": [
         "console",
         "métal"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "corniche",
+        "bandeau"
       ],
       "dateCapture": "2003:07:08"
     }

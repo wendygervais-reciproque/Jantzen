@@ -26,12 +26,42 @@
     "garde-corps",
     "balcon"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "modillon",
+    "pierre de taille",
+    "pilastre",
+    "porte-fenêtre",
+    "travée"
+  ],
   "photos": [
     {
       "id_pic": "Cygne-17_1_§1",
       "IndexJantzen": [
         "balcon",
         "garde-corps"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "porte-fenêtre",
+        "fenêtre",
+        "pilastre",
+        "bandeau",
+        "brique",
+        "pierre de taille",
+        "travée",
+        "mascaron",
+        "modillon"
       ],
       "dateCapture": "2004:09:01"
     },
@@ -40,6 +70,7 @@
       "IndexJantzen": [
         "balcon"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:01"
     }
   ]

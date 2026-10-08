@@ -29,10 +29,27 @@
   "image_ref": "Fortuny-17_17_§1",
   "terme_jantzen_bat": [
     "oeil-de-boeuf",
-    "fenetre",
     "sculpture",
-    "porte-bois",
-    "poignée-porte"
+    "fenetre",
+    "poignée-porte",
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc brisé",
+    "arc en plein cintre",
+    "balcon",
+    "chapiteau",
+    "fenêtre",
+    "garde-corps",
+    "grille",
+    "heurtoir",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "sculpture",
+    "vantail"
   ],
   "photos": [
     {
@@ -42,6 +59,23 @@
         "oeil-de-boeuf",
         "porte-bois"
       ],
+      "IndexTorneh": [
+        "porte",
+        "vantail",
+        "oculus",
+        "mascaron",
+        "sculpture",
+        "pilastre",
+        "arc en plein cintre",
+        "balcon",
+        "garde-corps",
+        "grille",
+        "fenêtre",
+        "heurtoir",
+        "pierre de taille",
+        "chapiteau",
+        "arc brisé"
+      ],
       "dateCapture": "2006:06:12"
     },
     {
@@ -50,6 +84,7 @@
         "poignée-porte",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:12"
     }
   ]

@@ -24,12 +24,44 @@
     "fenetre",
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "arc",
+    "balcon",
+    "chambranle",
+    "fenêtre",
+    "garde-corps",
+    "grille",
+    "huisserie",
+    "mascaron",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "sculpture",
+    "vantail",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Bienfaisance-35_8_§1",
       "IndexJantzen": [
         "fenetre",
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "portail",
+        "arc",
+        "vantail",
+        "sculpture",
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "volet",
+        "pierre de taille",
+        "chambranle",
+        "mascaron",
+        "huisserie",
+        "grille"
       ],
       "dateCapture": "2004:09:17"
     }

@@ -28,18 +28,54 @@
   "WPfr": null,
   "image_ref": "Grand-Veneur-15_3_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "façade",
-    "console",
-    "lucarne",
     "sculpture",
+    "console",
+    "fenetre",
+    "lucarne",
+    "façade",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "avant-corps",
+    "balcon",
+    "balustrade",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "grille",
+    "lucarne",
+    "mansarde",
+    "pierre de taille",
+    "porte-fenêtre",
+    "sculpture",
+    "souche de cheminée",
+    "travée"
   ],
   "photos": [
     {
       "id_pic": "Grand-Veneur-15_3_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "lucarne",
+        "balcon",
+        "garde-corps",
+        "fronton",
+        "mansarde",
+        "avant-corps",
+        "pierre de taille",
+        "ardoise",
+        "sculpture",
+        "arc en plein cintre",
+        "souche de cheminée",
+        "travée",
+        "balustrade",
+        "grille",
+        "porte-fenêtre"
       ],
       "dateCapture": "2007:07:11"
     },
@@ -49,6 +85,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:07"
     },
     {
@@ -56,6 +93,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:07:11"
     },
     {
@@ -63,6 +101,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:07:11"
     },
     {
@@ -72,6 +111,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:07:11"
     },
     {
@@ -80,6 +120,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:07:11"
     },
     {
@@ -87,6 +128,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:07"
     },
     {
@@ -96,6 +138,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:03"
     },
     {
@@ -103,6 +146,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:03"
     }
   ]

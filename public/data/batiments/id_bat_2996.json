@@ -21,15 +21,59 @@
   "WPfr": null,
   "image_ref": "Voltaire-bd-54_11_§1",
   "terme_jantzen_bat": [
-    "lucarne",
+    "façade",
     "fenetre",
-    "façade"
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "porte",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "vitrail",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Voltaire-bd-54_11_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "lucarne",
+        "mansarde",
+        "souche de cheminée",
+        "toit à deux versants",
+        "mascaron",
+        "pierre de taille",
+        "bandeau",
+        "corniche",
+        "fer forgé",
+        "ardoise",
+        "oculus",
+        "porte",
+        "volet",
+        "travée",
+        "fronton",
+        "vitrail"
       ],
       "dateCapture": "2009:03:20"
     },
@@ -39,6 +83,7 @@
         "fenetre",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:03:24"
     },
     {
@@ -47,6 +92,7 @@
         "fenetre",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:03:24"
     },
     {
@@ -54,6 +100,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:03:24"
     }
   ]

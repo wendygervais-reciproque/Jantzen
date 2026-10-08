@@ -28,8 +28,24 @@
   "WPfr": null,
   "image_ref": "Alfred-de-Vigny-7_8_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "garde-corps"
+    "garde-corps",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "balcon",
+    "balustrade",
+    "bossage",
+    "chambranle",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "modillon",
+    "pierre de taille",
+    "porte-fenêtre",
+    "vitrail",
+    "volet"
   ],
   "photos": [
     {
@@ -37,6 +53,22 @@
       "IndexJantzen": [
         "fenetre",
         "garde-corps"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "balustrade",
+        "fenêtre",
+        "porte-fenêtre",
+        "mascaron",
+        "modillon",
+        "arc",
+        "pierre de taille",
+        "bossage",
+        "chambranle",
+        "volet",
+        "vitrail"
       ],
       "dateCapture": "2008:04:17"
     }

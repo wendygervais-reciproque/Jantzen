@@ -28,10 +28,26 @@
   "WPfr": null,
   "image_ref": "Ernest-Lacoste-15_12_§2",
   "terme_jantzen_bat": [
-    "fenetre",
     "brique",
     "sculpture",
+    "fenetre",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc en anse de panier",
+    "balcon",
+    "balustrade",
+    "brique",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "jambage",
+    "linteau",
+    "modillon",
+    "porte-fenêtre",
+    "sculpture",
+    "volet"
   ],
   "photos": [
     {
@@ -40,6 +56,22 @@
         "brique",
         "décor",
         "fenetre",
+        "sculpture"
+      ],
+      "IndexTorneh": [
+        "brique",
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "porte-fenêtre",
+        "volet",
+        "arc en anse de panier",
+        "modillon",
+        "corniche",
+        "balustrade",
+        "linteau",
+        "jambage",
         "sculpture"
       ],
       "dateCapture": "2004:07:26"

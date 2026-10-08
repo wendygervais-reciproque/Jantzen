@@ -24,12 +24,32 @@
     "sculpture",
     "console"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "fenêtre",
+    "fer forgé",
+    "modillon",
+    "pierre de taille",
+    "sculpture"
+  ],
   "photos": [
     {
       "id_pic": "Grenelle-172_7_§1",
       "IndexJantzen": [
         "console",
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "balustrade",
+        "fer forgé",
+        "balcon",
+        "modillon",
+        "sculpture",
+        "fenêtre",
+        "pierre de taille",
+        "bandeau"
       ],
       "dateCapture": "2005:06:09"
     }

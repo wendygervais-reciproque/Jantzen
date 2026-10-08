@@ -24,8 +24,24 @@
   "image_ref": "Italie-pl-1_13_§1",
   "terme_jantzen_bat": [
     "toiture",
+    "tourelle",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balustrade",
+    "corniche",
+    "dôme",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
     "lucarne",
-    "tourelle"
+    "mascaron",
+    "oculus",
+    "pilastre",
+    "sculpture",
+    "souche de cheminée",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -34,6 +50,22 @@
         "lucarne",
         "toiture",
         "tourelle"
+      ],
+      "IndexTorneh": [
+        "ardoise",
+        "lucarne",
+        "fronton",
+        "sculpture",
+        "épi de faîtage",
+        "dôme",
+        "garde-corps",
+        "souche de cheminée",
+        "corniche",
+        "pilastre",
+        "balustrade",
+        "fer forgé",
+        "oculus",
+        "mascaron"
       ],
       "dateCapture": "2005:06:14"
     }

@@ -32,15 +32,45 @@
   "WPfr": null,
   "image_ref": "Archereau-51_19_§1-Rx",
   "terme_jantzen_bat": [
+    "porte-fer-hall",
     "fenetre",
-    "lucarne",
-    "porte-fer-hall"
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "avant-corps",
+    "baie",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "sculpture",
+    "souche de cheminée",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Archereau-51_19_§1-Rx",
       "IndexJantzen": [
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "baie",
+        "fenêtre",
+        "garde-corps",
+        "brique",
+        "volet",
+        "bandeau",
+        "avant-corps",
+        "sculpture",
+        "souche de cheminée",
+        "travée",
+        "fer forgé"
       ],
       "dateCapture": "2008:02:13"
     },
@@ -49,6 +79,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:13"
     },
     {
@@ -57,6 +88,7 @@
         "fenetre",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:13"
     },
     {
@@ -65,6 +97,7 @@
         "fenetre",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:13"
     },
     {
@@ -73,6 +106,7 @@
         "fenetre",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:13"
     },
     {
@@ -80,6 +114,7 @@
       "IndexJantzen": [
         "porte-fer-hall"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:09:02"
     }
   ]

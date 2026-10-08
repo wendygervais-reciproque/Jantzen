@@ -21,8 +21,26 @@
   "WPfr": null,
   "image_ref": "St-Lazare-68_9_§1",
   "terme_jantzen_bat": [
-    "dome",
-    "fenetre-d'angle"
+    "fenetre-d'angle",
+    "dome"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "chapiteau",
+    "dôme",
+    "fenêtre",
+    "garde-corps",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "toit-terrasse",
+    "volet",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -31,6 +49,24 @@
         "dome",
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [
+        "dôme",
+        "épi de faîtage",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "porte-fenêtre",
+        "chapiteau",
+        "pilastre",
+        "souche de cheminée",
+        "toit-terrasse",
+        "mascaron",
+        "oculus",
+        "volet",
+        "ardoise",
+        "pierre de taille"
+      ],
       "dateCapture": "2004:08:26"
     },
     {
@@ -38,6 +74,7 @@
       "IndexJantzen": [
         "dome"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:09"
     }
   ]

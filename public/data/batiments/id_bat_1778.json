@@ -25,11 +25,31 @@
   "terme_jantzen_bat": [
     "porte-fer-hall"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "chambranle",
+    "fer forgé",
+    "garde-corps",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Charles-Floquet-24_7_§1",
       "IndexJantzen": [
         "porte-fer-hall"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "fer forgé",
+        "vantail",
+        "chambranle",
+        "sculpture",
+        "pierre de taille",
+        "balcon",
+        "garde-corps"
       ],
       "dateCapture": "2006:06:02"
     }

@@ -17,7 +17,7 @@
     "numero": "21",
     "voie": "boulevard Suchet"
   },
-  "arrondissement": 1,
+  "arrondissement": 16,
   "tri_alphab": "Suchet",
   "coordonnees": {
     "latitude": "48.859295",
@@ -28,14 +28,38 @@
   "WPfr": null,
   "image_ref": "Suchet-21_1_§1",
   "terme_jantzen_bat": [
-    "lucarne",
-    "console",
-    "façade-d'angle",
-    "sculpture",
-    "dome",
-    "oriel",
     "loggia",
+    "dome",
+    "façade-d'angle",
+    "oriel",
+    "sculpture",
+    "console",
+    "lucarne",
     "colonne"
+  ],
+  "terme_torneh_bat": [
+    "arc brisé",
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "garde-corps",
+    "grille",
+    "lucarne",
+    "mansarde",
+    "oculus",
+    "oriel",
+    "pierre de taille",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "toit à deux versants",
+    "tour",
+    "travée",
+    "volet",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -45,6 +69,30 @@
         "façade-d'angle",
         "oriel"
       ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "lucarne",
+        "oriel",
+        "toit à deux versants",
+        "ardoise",
+        "souche de cheminée",
+        "épi de faîtage",
+        "pierre de taille",
+        "corniche",
+        "bandeau",
+        "arc en plein cintre",
+        "arc brisé",
+        "mansarde",
+        "grille",
+        "tour",
+        "travée",
+        "volet",
+        "porte-fenêtre",
+        "oculus"
+      ],
       "dateCapture": "2006:04:02"
     },
     {
@@ -53,6 +101,7 @@
         "colonne",
         "loggia"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:02"
     },
     {
@@ -60,6 +109,7 @@
       "IndexJantzen": [
         "loggia"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:02"
     },
     {
@@ -67,6 +117,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:02"
     },
     {
@@ -75,6 +126,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:03:16"
     }
   ]

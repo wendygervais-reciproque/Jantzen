@@ -8,7 +8,7 @@
     "1870-1894"
   ],
   "adresse": null,
-  "arrondissement": 1,
+  "arrondissement": 7,
   "tri_alphab": "Tour-Eiffel",
   "coordonnees": {
     "latitude": "48.858296",
@@ -19,8 +19,14 @@
   "WPfr": "Tour Eiffel",
   "image_ref": "Tour-Eiffel_7_§1",
   "terme_jantzen_bat": [
-    "tour",
-    "pont"
+    "pont",
+    "tour"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "fer",
+    "sculpture",
+    "tour"
   ],
   "photos": [
     {
@@ -29,12 +35,19 @@
         "pont",
         "tour"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2014:10:01"
     },
     {
       "id_pic": "Tour-Eiffel_7_§1",
       "IndexJantzen": [
         "tour"
+      ],
+      "IndexTorneh": [
+        "tour",
+        "arc",
+        "sculpture",
+        "fer"
       ],
       "dateCapture": "2005:09:03"
     },
@@ -43,6 +56,7 @@
       "IndexJantzen": [
         "tour"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:09:25"
     },
     {
@@ -50,6 +64,7 @@
       "IndexJantzen": [
         "tour"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:11:12"
     },
     {
@@ -57,6 +72,7 @@
       "IndexJantzen": [
         "tour"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:11:12"
     },
     {
@@ -64,6 +80,7 @@
       "IndexJantzen": [
         "tour"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2014:10:03"
     },
     {
@@ -71,6 +88,7 @@
       "IndexJantzen": [
         "tour"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:02"
     }
   ]

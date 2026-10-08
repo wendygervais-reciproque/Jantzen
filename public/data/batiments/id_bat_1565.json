@@ -24,12 +24,44 @@
     "fenetre",
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "vantail",
+    "vitrail"
+  ],
   "photos": [
     {
       "id_pic": "Odeon-20_6_",
       "IndexJantzen": [
         "fenetre",
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "arc en plein cintre",
+        "porte",
+        "vantail",
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "corniche",
+        "pierre de taille",
+        "sculpture",
+        "mascaron",
+        "vitrail",
+        "fenêtre",
+        "balustrade",
+        "bandeau"
       ],
       "dateCapture": "2006:05:11"
     }

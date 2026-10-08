@@ -28,15 +28,69 @@
   "WPfr": null,
   "image_ref": "Beranger-21_3_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "façade",
+    "fenetre",
     "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "huisserie",
+    "linteau",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "porte-fenêtre",
+    "sculpture",
+    "travée",
+    "vantail",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Beranger-21_3_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "porte",
+        "porte-fenêtre",
+        "arc",
+        "arc en plein cintre",
+        "fronton",
+        "chambranle",
+        "linteau",
+        "corniche",
+        "bandeau",
+        "mascaron",
+        "sculpture",
+        "pilastre",
+        "travée",
+        "volet",
+        "lucarne",
+        "mansarde",
+        "fer forgé",
+        "pierre de taille",
+        "vantail",
+        "huisserie",
+        "oculus"
       ],
       "dateCapture": "2004:09:22"
     },
@@ -46,6 +100,7 @@
         "fenetre",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:21"
     }
   ]

@@ -28,10 +28,23 @@
   "WPfr": null,
   "image_ref": "Lunain-4_14_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "décor",
     "porte-bois",
-    "clé"
+    "clé",
+    "fenetre",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "brique",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "linteau",
+    "modillon",
+    "porte-fenêtre",
+    "volet"
   ],
   "photos": [
     {
@@ -41,6 +54,19 @@
         "décor",
         "fenetre"
       ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fer forgé",
+        "fenêtre",
+        "porte-fenêtre",
+        "brique",
+        "corniche",
+        "modillon",
+        "volet",
+        "garde-corps",
+        "linteau"
+      ],
       "dateCapture": "2004:04:15"
     },
     {
@@ -48,6 +74,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:04:15"
     },
     {
@@ -55,6 +82,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:04:15"
     }
   ]

@@ -21,14 +21,36 @@
   "WPfr": null,
   "image_ref": "Marceau-34_8_§1",
   "terme_jantzen_bat": [
-    "pignon",
-    "façade-d'angle",
-    "dome",
-    "fenetre-d'angle",
     "loggia",
-    "lucarne-d'angle",
+    "dome",
+    "façade-d'angle",
     "balcon",
+    "pignon",
+    "fenetre-d'angle",
+    "lucarne-d'angle",
     "colonne"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chapiteau",
+    "colonne",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "garde-corps",
+    "mansarde",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "tour",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -36,6 +58,28 @@
       "IndexJantzen": [
         "dome",
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "dôme",
+        "balcon",
+        "balustrade",
+        "colonne",
+        "fenêtre",
+        "porte",
+        "porte-fenêtre",
+        "garde-corps",
+        "corniche",
+        "pilastre",
+        "oculus",
+        "mansarde",
+        "souche de cheminée",
+        "volet",
+        "bandeau",
+        "pierre de taille",
+        "arc en plein cintre",
+        "travée",
+        "chapiteau",
+        "tour"
       ],
       "dateCapture": "2009:03:23"
     },
@@ -46,6 +90,7 @@
         "fenetre-d'angle",
         "pignon"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:03:25"
     },
     {
@@ -56,6 +101,7 @@
         "dome",
         "lucarne-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:03:25"
     },
     {
@@ -63,6 +109,7 @@
       "IndexJantzen": [
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:03"
     },
     {
@@ -70,6 +117,7 @@
       "IndexJantzen": [
         "loggia"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:03"
     },
     {
@@ -77,6 +125,7 @@
       "IndexJantzen": [
         "loggia"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:03"
     },
     {
@@ -86,6 +135,7 @@
         "dome",
         "lucarne-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:03:23"
     }
   ]

@@ -22,11 +22,34 @@
   "image_ref": "Banque-2_2_§1",
   "terme_jantzen_bat": [
     "toiture",
-    "lucarne",
-    "pignon",
     "façade-d'angle",
+    "pignon",
     "fenetre-d'angle",
+    "lucarne",
     "lucarne-d'angle"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "grille",
+    "lucarne",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porte-fenêtre",
+    "sculpture",
+    "toit en pavillon",
+    "volet",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -36,6 +59,29 @@
         "lucarne",
         "pignon"
       ],
+      "IndexTorneh": [
+        "lucarne",
+        "oculus",
+        "balcon",
+        "balustrade",
+        "corniche",
+        "fronton",
+        "mascaron",
+        "fenêtre",
+        "porte-fenêtre",
+        "volet",
+        "grille",
+        "ardoise",
+        "pierre de taille",
+        "pilastre",
+        "bandeau",
+        "garde-corps",
+        "toit en pavillon",
+        "épi de faîtage",
+        "sculpture",
+        "arc en plein cintre",
+        "chaîne d'angle"
+      ],
       "dateCapture": "2008:04:03"
     },
     {
@@ -43,6 +89,7 @@
       "IndexJantzen": [
         "lucarne-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:04:03"
     },
     {
@@ -51,6 +98,7 @@
         "lucarne-d'angle",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:04:03"
     },
     {
@@ -59,6 +107,7 @@
         "fenetre-d'angle",
         "pignon"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:04:03"
     }
   ]

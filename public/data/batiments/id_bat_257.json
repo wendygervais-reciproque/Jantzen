@@ -26,11 +26,31 @@
   "WPfr": null,
   "image_ref": "Moncey-1_9_§1",
   "terme_jantzen_bat": [
+    "pignon",
+    "clé",
     "fenetre",
     "lucarne",
-    "pignon",
+    "garde-corps"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "frise",
+    "fronton",
     "garde-corps",
-    "clé"
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "modillon",
+    "oculus",
+    "pierre de taille",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "volet"
   ],
   "photos": [
     {
@@ -39,6 +59,26 @@
         "lucarne",
         "pignon"
       ],
+      "IndexTorneh": [
+        "lucarne",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "corniche",
+        "fronton",
+        "fenêtre",
+        "porte-fenêtre",
+        "mansarde",
+        "souche de cheminée",
+        "ardoise",
+        "pierre de taille",
+        "mascaron",
+        "modillon",
+        "volet",
+        "frise",
+        "oculus"
+      ],
       "dateCapture": "2005:07:14"
     },
     {
@@ -46,6 +86,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:21"
     },
     {
@@ -55,6 +96,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:21"
     }
   ]

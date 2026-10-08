@@ -23,8 +23,27 @@
   "WPfr": null,
   "image_ref": "Chemin-Vert-129_11_§1",
   "terme_jantzen_bat": [
+    "fronton",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "brique",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
     "lucarne",
-    "fronton"
+    "mansarde",
+    "mascaron",
+    "modillon",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "volet"
   ],
   "photos": [
     {
@@ -32,6 +51,25 @@
       "IndexJantzen": [
         "fronton",
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "lucarne",
+        "fronton",
+        "mansarde",
+        "souche de cheminée",
+        "garde-corps",
+        "balcon",
+        "balustrade",
+        "corniche",
+        "modillon",
+        "fenêtre",
+        "arc en plein cintre",
+        "volet",
+        "brique",
+        "chambranle",
+        "sculpture",
+        "mascaron",
+        "toit à deux versants"
       ],
       "dateCapture": "2005:06:18"
     }

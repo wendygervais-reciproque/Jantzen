@@ -23,11 +23,49 @@
   "terme_jantzen_bat": [
     "fenetre"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "jambage",
+    "linteau",
+    "modillon",
+    "pierre de taille",
+    "pilastre",
+    "porte-fenêtre",
+    "travée",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Bac-92_7_§1",
       "IndexJantzen": [
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fronton",
+        "corniche",
+        "bandeau",
+        "modillon",
+        "pierre de taille",
+        "volet",
+        "porte-fenêtre",
+        "travée",
+        "arc en plein cintre",
+        "fer forgé",
+        "pilastre",
+        "jambage",
+        "linteau"
       ],
       "dateCapture": "2005:04:17"
     },
@@ -36,6 +74,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:17"
     }
   ]

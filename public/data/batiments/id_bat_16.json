@@ -25,21 +25,44 @@
   "image_ref": "Opera-Garnier_9_Auber§24-Rx",
   "terme_jantzen_bat": [
     "oeil-de-boeuf",
-    "fenetre",
-    "façade",
-    "lucarne",
-    "porte",
-    "sculpture",
-    "porte-bois",
-    "pilastre",
-    "colonne",
-    "dome",
-    "cariatide",
     "loggia",
-    "lucarne-d'angle",
-    "décor",
+    "dome",
     "balcon",
-    "fronton"
+    "pilastre",
+    "sculpture",
+    "cariatide",
+    "fenetre",
+    "lucarne",
+    "façade",
+    "fronton",
+    "porte",
+    "lucarne-d'angle",
+    "colonne",
+    "porte-bois",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "attique",
+    "balcon",
+    "balustrade",
+    "chapiteau corinthien",
+    "colonne",
+    "corniche",
+    "coupole",
+    "dôme",
+    "entablement",
+    "fenêtre",
+    "frise",
+    "fronton",
+    "garde-corps",
+    "grille",
+    "gros appareil",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "sculpture",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -49,6 +72,7 @@
         "pilastre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:07:14"
     },
     {
@@ -58,6 +82,7 @@
         "fronton",
         "porte"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2014:10:03"
     },
     {
@@ -65,6 +90,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:10"
     },
     {
@@ -73,6 +99,7 @@
         "cariatide",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2014:10:03"
     },
     {
@@ -81,6 +108,7 @@
         "cariatide",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:09:13"
     },
     {
@@ -90,6 +118,7 @@
         "porte-bois",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:10"
     },
     {
@@ -98,6 +127,7 @@
         "cariatide",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:10"
     },
     {
@@ -105,6 +135,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2014:10:03"
     },
     {
@@ -112,6 +143,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:05:25"
     },
     {
@@ -119,6 +151,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:29"
     },
     {
@@ -128,6 +161,7 @@
         "porte-bois",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:29"
     },
     {
@@ -137,6 +171,7 @@
         "porte-bois",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:09:13"
     },
     {
@@ -144,6 +179,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:05:13"
     },
     {
@@ -151,6 +187,29 @@
       "IndexJantzen": [
         "dome",
         "façade"
+      ],
+      "IndexTorneh": [
+        "coupole",
+        "dôme",
+        "colonne",
+        "chapiteau corinthien",
+        "corniche",
+        "entablement",
+        "fronton",
+        "balustrade",
+        "balcon",
+        "fenêtre",
+        "oculus",
+        "sculpture",
+        "mascaron",
+        "pilastre",
+        "frise",
+        "garde-corps",
+        "grille",
+        "pierre de taille",
+        "épi de faîtage",
+        "attique",
+        "gros appareil"
       ],
       "dateCapture": "2012:05:13"
     },
@@ -162,6 +221,7 @@
         "façade",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2014:10:03"
     },
     {
@@ -172,6 +232,7 @@
         "façade",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2014:10:03"
     },
     {
@@ -180,6 +241,7 @@
         "dome",
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:09:18"
     },
     {
@@ -188,6 +250,7 @@
         "dome",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:29"
     },
     {
@@ -196,6 +259,7 @@
         "colonne",
         "loggia"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:05:25"
     },
     {
@@ -204,6 +268,7 @@
         "dome",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:05:25"
     },
     {
@@ -212,6 +277,7 @@
         "dome",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:04"
     },
     {
@@ -219,6 +285,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:05:25"
     },
     {
@@ -226,6 +293,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2013:02:18"
     },
     {
@@ -233,6 +301,7 @@
       "IndexJantzen": [
         "colonne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:09:13"
     },
     {
@@ -240,6 +309,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:04"
     },
     {
@@ -247,6 +317,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2014:10:03"
     },
     {
@@ -255,6 +326,7 @@
         "fenetre",
         "fronton"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:05:25"
     },
     {
@@ -264,6 +336,7 @@
         "fenetre",
         "fronton"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:05:25"
     },
     {
@@ -274,6 +347,7 @@
         "fronton",
         "pilastre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2013:02:18"
     },
     {
@@ -283,6 +357,7 @@
         "fronton",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:05:25"
     },
     {
@@ -292,6 +367,7 @@
         "fronton",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2013:02:18"
     },
     {
@@ -300,6 +376,7 @@
         "colonne",
         "loggia"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:10"
     },
     {
@@ -307,6 +384,7 @@
       "IndexJantzen": [
         "balcon"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:14"
     },
     {
@@ -316,6 +394,7 @@
         "fronton",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:29"
     },
     {
@@ -324,6 +403,7 @@
         "dome",
         "lucarne-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:05:25"
     },
     {
@@ -332,6 +412,7 @@
         "dome",
         "lucarne-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:05:25"
     },
     {
@@ -341,6 +422,7 @@
         "lucarne",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:05:25"
     },
     {
@@ -350,6 +432,7 @@
         "lucarne",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:05:25"
     },
     {
@@ -358,6 +441,7 @@
         "dome",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:05:25"
     },
     {
@@ -366,6 +450,7 @@
         "dome",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2013:02:18"
     },
     {
@@ -375,6 +460,7 @@
         "lucarne",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:05:25"
     },
     {
@@ -384,6 +470,7 @@
         "lucarne",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:05:25"
     },
     {
@@ -393,6 +480,7 @@
         "lucarne",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:29"
     },
     {
@@ -402,6 +490,7 @@
         "lucarne",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:05:25"
     },
     {
@@ -411,6 +500,7 @@
         "lucarne",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:09:18"
     },
     {
@@ -420,6 +510,7 @@
         "lucarne",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:09:18"
     },
     {
@@ -429,6 +520,7 @@
         "lucarne",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:05:25"
     },
     {
@@ -438,6 +530,7 @@
         "lucarne",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2013:02:18"
     },
     {
@@ -447,6 +540,7 @@
         "lucarne",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:10"
     },
     {
@@ -456,6 +550,7 @@
         "lucarne",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:09:13"
     },
     {
@@ -465,6 +560,7 @@
         "fronton",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:05:25"
     },
     {
@@ -474,6 +570,7 @@
         "pilastre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:08:26"
     },
     {
@@ -483,6 +580,7 @@
         "lucarne",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:10"
     },
     {
@@ -491,6 +589,7 @@
         "dome",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:05:25"
     },
     {
@@ -499,6 +598,7 @@
         "dome",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:29"
     },
     {
@@ -506,6 +606,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2014:10:03"
     },
     {
@@ -513,6 +614,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2014:10:03"
     },
     {
@@ -521,6 +623,7 @@
         "cariatide",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:09:18"
     },
     {
@@ -528,6 +631,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:05:13"
     },
     {
@@ -536,6 +640,7 @@
         "cariatide",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:09:18"
     },
     {
@@ -543,6 +648,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:05:13"
     },
     {
@@ -551,6 +657,7 @@
         "balcon",
         "pilastre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:29"
     },
     {
@@ -558,6 +665,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:05:14"
     },
     {
@@ -565,6 +673,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2014:10:03"
     },
     {
@@ -572,6 +681,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2014:10:03"
     },
     {
@@ -580,6 +690,7 @@
         "cariatide",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:09:18"
     },
     {
@@ -587,6 +698,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2014:10:03"
     },
     {
@@ -594,6 +706,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2014:10:03"
     },
     {
@@ -602,6 +715,7 @@
         "cariatide",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:09:18"
     },
     {
@@ -609,6 +723,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2014:10:03"
     },
     {
@@ -616,6 +731,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2014:10:03"
     },
     {
@@ -624,6 +740,7 @@
         "fronton",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:05:25"
     },
     {
@@ -632,6 +749,7 @@
         "fronton",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:05:25"
     }
   ]

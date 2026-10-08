@@ -23,19 +23,55 @@
   "WPfr": null,
   "image_ref": "Quatre-Fils-20_3_§1",
   "terme_jantzen_bat": [
+    "sculpture",
+    "clé",
+    "console",
     "fenetre",
     "lucarne",
     "façade",
-    "console",
+    "garde-corps"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "chambranle",
+    "fenêtre",
     "garde-corps",
-    "sculpture",
-    "clé"
+    "grille",
+    "linteau",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "souche de cheminée",
+    "soupirail",
+    "travée",
+    "vantail"
   ],
   "photos": [
     {
       "id_pic": "Quatre-Fils-20_3_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "arc en plein cintre",
+        "porte",
+        "mascaron",
+        "lucarne",
+        "mansarde",
+        "souche de cheminée",
+        "pierre de taille",
+        "grille",
+        "travée",
+        "soupirail",
+        "chambranle",
+        "linteau",
+        "vantail"
       ],
       "dateCapture": null
     },
@@ -45,6 +81,7 @@
         "fenetre",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:08:01"
     },
     {
@@ -53,6 +90,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:08:01"
     },
     {
@@ -62,6 +100,7 @@
         "garde-corps",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:08:01"
     }
   ]

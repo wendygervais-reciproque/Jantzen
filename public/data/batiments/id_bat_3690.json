@@ -21,11 +21,27 @@
   "WPfr": null,
   "image_ref": "Varenne-82_7_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "console",
     "sculpture",
     "clé",
+    "console",
+    "fenetre",
     "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bossage",
+    "chambranle",
+    "fenêtre",
+    "garde-corps",
+    "mascaron",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "sculpture",
+    "vantail",
+    "volet"
   ],
   "photos": [
     {
@@ -33,6 +49,22 @@
       "IndexJantzen": [
         "fenetre",
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "fenêtre",
+        "volet",
+        "balcon",
+        "garde-corps",
+        "sculpture",
+        "mascaron",
+        "pierre de taille",
+        "arc en plein cintre",
+        "portail",
+        "vantail",
+        "chambranle",
+        "bossage",
+        "balustrade"
       ],
       "dateCapture": "2005:09:18"
     },
@@ -44,6 +76,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:09:18"
     },
     {
@@ -52,6 +85,7 @@
         "porte-bois",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:09:18"
     }
   ]

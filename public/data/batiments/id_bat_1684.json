@@ -23,11 +23,23 @@
   "terme_jantzen_bat": [
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "fenêtre",
+    "lucarne",
+    "meneau",
+    "toit à deux versants"
+  ],
   "photos": [
     {
       "id_pic": "Bievre-22_5_§1",
       "IndexJantzen": [
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "lucarne",
+        "fenêtre",
+        "meneau",
+        "toit à deux versants"
       ],
       "dateCapture": null
     },
@@ -36,6 +48,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:09:27"
     }
   ]

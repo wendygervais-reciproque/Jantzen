@@ -23,11 +23,37 @@
   "terme_jantzen_bat": [
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "fer forgé",
+    "heurtoir",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "sculpture",
+    "vantail",
+    "vitrail"
+  ],
   "photos": [
     {
       "id_pic": "Haussmann-184_8_§1",
       "IndexJantzen": [
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "arc en plein cintre",
+        "balcon",
+        "balustrade",
+        "fer forgé",
+        "porte",
+        "vantail",
+        "vitrail",
+        "pierre de taille",
+        "sculpture",
+        "heurtoir",
+        "portail"
       ],
       "dateCapture": null
     }

@@ -32,19 +32,69 @@
   "WPfr": null,
   "image_ref": "Rennes-107_6_§1",
   "terme_jantzen_bat": [
+    "pilastre",
+    "sculpture",
+    "cariatide",
     "fenetre",
     "façade",
-    "sculpture",
     "porte-bois",
-    "pilastre",
-    "cariatide",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "atlante",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "linteau",
+    "lucarne",
+    "mascaron",
+    "oculus",
+    "pilastre",
+    "porte",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Rennes-107_6_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "volet",
+        "corniche",
+        "bandeau",
+        "mascaron",
+        "atlante",
+        "pilastre",
+        "fer forgé",
+        "lucarne",
+        "ardoise",
+        "toit à deux versants",
+        "porte",
+        "oculus",
+        "sculpture",
+        "fronton",
+        "chambranle",
+        "linteau",
+        "travée",
+        "souche de cheminée",
+        "arc en plein cintre"
       ],
       "dateCapture": "2005:09:21"
     },
@@ -56,6 +106,7 @@
         "pilastre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:03:30"
     },
     {
@@ -65,6 +116,7 @@
         "pilastre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:09:21"
     },
     {
@@ -73,6 +125,7 @@
         "fenetre",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:03:30"
     },
     {
@@ -81,6 +134,7 @@
         "cariatide",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:09:21"
     }
   ]

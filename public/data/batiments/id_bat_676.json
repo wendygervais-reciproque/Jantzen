@@ -32,12 +32,54 @@
     "balcon",
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "auvent",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "grille",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "modillon",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "vantail",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Lobineau-12_6_§1",
       "IndexJantzen": [
         "balcon",
         "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "lucarne",
+        "mansarde",
+        "porte",
+        "vantail",
+        "corniche",
+        "pilastre",
+        "mascaron",
+        "bandeau",
+        "pierre de taille",
+        "volet",
+        "oculus",
+        "auvent",
+        "modillon",
+        "grille"
       ],
       "dateCapture": "2005:06:02"
     },
@@ -46,6 +88,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:02"
     }
   ]

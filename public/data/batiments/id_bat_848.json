@@ -23,14 +23,54 @@
   "WPfr": null,
   "image_ref": "Damremont-136_18_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "sculpture"
+    "sculpture",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "avant-corps",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mascaron",
+    "oriel",
+    "pierre de taille",
+    "sculpture",
+    "souche de cheminée",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Damremont-136_18_§1",
       "IndexJantzen": [
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "oriel",
+        "volet",
+        "bandeau",
+        "sculpture",
+        "mascaron",
+        "ardoise",
+        "lucarne",
+        "pierre de taille",
+        "fer forgé",
+        "avant-corps",
+        "travée",
+        "souche de cheminée",
+        "fronton",
+        "arc en plein cintre"
       ],
       "dateCapture": "2003:07:09"
     },
@@ -40,6 +80,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:07:09"
     }
   ]

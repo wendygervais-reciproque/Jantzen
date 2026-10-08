@@ -32,11 +32,28 @@
   "WPfr": null,
   "image_ref": "Ferdinand-Flocon-1_18_§1",
   "terme_jantzen_bat": [
-    "fenetre",
+    "balcon",
     "fenetre-d'angle",
+    "fenetre",
     "brique",
-    "céramique",
-    "balcon"
+    "céramique"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "faîtage",
+    "fenêtre",
+    "garde-corps",
+    "mansarde",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "tuile",
+    "volet",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -44,6 +61,23 @@
       "IndexJantzen": [
         "brique",
         "fenetre-d'angle"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "brique",
+        "souche de cheminée",
+        "mansarde",
+        "toit à deux versants",
+        "tuile",
+        "volet",
+        "balustrade",
+        "épi de faîtage",
+        "faîtage",
+        "bandeau",
+        "travée",
+        "porte-fenêtre"
       ],
       "dateCapture": "2003:07:09"
     },
@@ -53,6 +87,7 @@
         "balcon",
         "brique"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:06:13"
     },
     {
@@ -62,6 +97,7 @@
         "céramique",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:06:13"
     }
   ]

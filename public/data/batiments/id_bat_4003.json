@@ -28,11 +28,33 @@
   "terme_jantzen_bat": [
     "tourelle"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "baie",
+    "balustrade",
+    "cariatide",
+    "dôme",
+    "pilastre",
+    "sculpture",
+    "tour",
+    "épi de faîtage"
+  ],
   "photos": [
     {
       "id_pic": "Leon-Blum-Pl_11_§1",
       "IndexJantzen": [
         "tourelle"
+      ],
+      "IndexTorneh": [
+        "tour",
+        "dôme",
+        "épi de faîtage",
+        "balustrade",
+        "cariatide",
+        "pilastre",
+        "baie",
+        "arc en plein cintre",
+        "sculpture"
       ],
       "dateCapture": "2005:06:18"
     }

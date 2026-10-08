@@ -30,11 +30,55 @@
   "terme_jantzen_bat": [
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "arc en anse de panier",
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chaîne d'angle",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "porte-fenêtre",
+    "sculpture",
+    "souche de cheminée",
+    "travée",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Batignoles-7_17_§1",
       "IndexJantzen": [
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "garde-corps",
+        "fer forgé",
+        "lucarne",
+        "fronton",
+        "pierre de taille",
+        "souche de cheminée",
+        "ardoise",
+        "volet",
+        "arc en plein cintre",
+        "arc en anse de panier",
+        "sculpture",
+        "mascaron",
+        "travée",
+        "chaîne d'angle",
+        "bandeau",
+        "oculus",
+        "porte-fenêtre"
       ],
       "dateCapture": "2010:01:25"
     },
@@ -43,6 +87,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:01:25"
     }
   ]

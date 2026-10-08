@@ -23,11 +23,35 @@
   "terme_jantzen_bat": [
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "arc",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "jambage",
+    "mascaron",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Beautreillis-22_4_§1",
       "IndexJantzen": [
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "portail",
+        "arc",
+        "mascaron",
+        "vantail",
+        "fenêtre",
+        "pierre de taille",
+        "jambage",
+        "chambranle",
+        "corniche"
       ],
       "dateCapture": "2004:09:24"
     }

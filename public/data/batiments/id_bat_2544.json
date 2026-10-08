@@ -29,11 +29,22 @@
   "image_ref": "Schonberg-4_4_§1",
   "terme_jantzen_bat": [
     "fenetre",
+    "brique",
+    "métal",
     "façade",
     "porte",
-    "métal",
-    "brique",
     "colonne"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "brique",
+    "corniche",
+    "céramique",
+    "fenêtre",
+    "fer",
+    "souche de cheminée",
+    "travée",
+    "tuile"
   ],
   "photos": [
     {
@@ -42,6 +53,17 @@
         "brique",
         "façade",
         "métal"
+      ],
+      "IndexTorneh": [
+        "brique",
+        "fenêtre",
+        "balcon",
+        "céramique",
+        "tuile",
+        "souche de cheminée",
+        "travée",
+        "fer",
+        "corniche"
       ],
       "dateCapture": "2008:07:27"
     },
@@ -53,6 +75,7 @@
         "métal",
         "porte"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:07:27"
     },
     {
@@ -62,6 +85,7 @@
         "fenetre",
         "métal"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:07:27"
     },
     {
@@ -70,6 +94,7 @@
         "brique",
         "colonne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:07:27"
     },
     {
@@ -79,6 +104,7 @@
         "fenetre",
         "métal"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:07:27"
     },
     {
@@ -87,6 +113,7 @@
         "brique",
         "colonne"
       ],
+      "IndexTorneh": [],
       "dateCapture": null
     },
     {
@@ -95,6 +122,7 @@
         "brique",
         "colonne"
       ],
+      "IndexTorneh": [],
       "dateCapture": null
     }
   ]

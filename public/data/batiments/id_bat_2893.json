@@ -32,16 +32,38 @@
   "WPfr": null,
   "image_ref": "Theatre-91_15_§7",
   "terme_jantzen_bat": [
+    "porte-fer-hall",
     "lucarne-d'angle",
     "balcon",
-    "porte-fer-hall",
     "dome"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "balcon",
+    "fer forgé",
+    "garde-corps",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "vantail"
   ],
   "photos": [
     {
       "id_pic": "Theatre-91_15_§7",
       "IndexJantzen": [
         "porte-fer-hall"
+      ],
+      "IndexTorneh": [
+        "arc en plein cintre",
+        "porte",
+        "fer forgé",
+        "vantail",
+        "sculpture",
+        "balcon",
+        "garde-corps",
+        "pierre de taille",
+        "arc"
       ],
       "dateCapture": "2003:11:11"
     },
@@ -52,6 +74,7 @@
         "dome",
         "lucarne-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:05:18"
     }
   ]

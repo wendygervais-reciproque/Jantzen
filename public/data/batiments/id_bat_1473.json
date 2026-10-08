@@ -10,7 +10,7 @@
     "numero": "2",
     "voie": "rue de Rome"
   },
-  "arrondissement": 9,
+  "arrondissement": 8,
   "tri_alphab": "Rome",
   "coordonnees": {
     "latitude": "48.874078",
@@ -21,8 +21,28 @@
   "WPfr": null,
   "image_ref": "Rome-2_9_§1",
   "terme_jantzen_bat": [
-    "tour",
-    "fenetre-d'angle"
+    "fenetre-d'angle",
+    "tour"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chapiteau",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "souche de cheminée",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -30,6 +50,26 @@
       "IndexJantzen": [
         "fenetre-d'angle",
         "tour"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "corniche",
+        "pilastre",
+        "chapiteau",
+        "mascaron",
+        "oculus",
+        "dôme",
+        "souche de cheminée",
+        "garde-corps",
+        "fer forgé",
+        "pierre de taille",
+        "bandeau",
+        "fronton",
+        "travée",
+        "ardoise",
+        "volet"
       ],
       "dateCapture": "2005:05:26"
     }

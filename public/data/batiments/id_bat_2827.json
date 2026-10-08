@@ -28,9 +28,35 @@
   "WPfr": null,
   "image_ref": "Beaujon-5_8_§1",
   "terme_jantzen_bat": [
-    "porte-bois",
     "dome",
-    "façade-d'angle"
+    "façade-d'angle",
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "avant-corps",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chaîne d'angle",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "linteau",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "oriel",
+    "pierre de taille",
+    "sculpture",
+    "souche de cheminée",
+    "toit en pavillon",
+    "travée",
+    "volet",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -39,6 +65,32 @@
         "dome",
         "façade-d'angle"
       ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "bandeau",
+        "chaîne d'angle",
+        "corniche",
+        "dôme",
+        "fenêtre",
+        "fer forgé",
+        "fronton",
+        "garde-corps",
+        "linteau",
+        "mansarde",
+        "mascaron",
+        "oculus",
+        "pierre de taille",
+        "souche de cheminée",
+        "sculpture",
+        "toit en pavillon",
+        "travée",
+        "volet",
+        "épi de faîtage",
+        "arc en plein cintre",
+        "avant-corps",
+        "oriel"
+      ],
       "dateCapture": "2004:10:16"
     },
     {
@@ -46,6 +98,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:10:16"
     }
   ]

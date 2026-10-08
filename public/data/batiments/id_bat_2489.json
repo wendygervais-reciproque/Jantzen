@@ -21,15 +21,49 @@
   "WPfr": null,
   "image_ref": "Ancienne-Comedie-4_6_§1",
   "terme_jantzen_bat": [
-    "lucarne",
     "façade",
-    "fronton"
+    "fronton",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "chambranle",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "linteau",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "travée",
+    "vantail",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Ancienne-Comedie-4_6_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "mansarde",
+        "lucarne",
+        "fronton",
+        "pierre de taille",
+        "porte",
+        "vantail",
+        "travée",
+        "mascaron",
+        "chambranle",
+        "balustrade",
+        "linteau",
+        "volet"
       ],
       "dateCapture": "2010:05:23"
     },
@@ -39,6 +73,7 @@
         "fronton",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:05:23"
     }
   ]

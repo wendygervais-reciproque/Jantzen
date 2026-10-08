@@ -21,18 +21,64 @@
   "WPfr": null,
   "image_ref": "Victor-Hugo-72_16_§1",
   "terme_jantzen_bat": [
+    "sculpture",
     "fenetre",
     "lucarne",
     "façade",
-    "sculpture",
-    "décor",
-    "poignée-porte"
+    "poignée-porte",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "attique",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "chapiteau ionique",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "linteau",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Victor-Hugo-72_16_§1",
       "IndexJantzen": [
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "mansarde",
+        "lucarne",
+        "souche de cheminée",
+        "fronton",
+        "corniche",
+        "bandeau",
+        "pilastre",
+        "chapiteau ionique",
+        "mascaron",
+        "linteau",
+        "chambranle",
+        "pierre de taille",
+        "fer forgé",
+        "oculus",
+        "attique",
+        "porte-fenêtre",
+        "volet"
       ],
       "dateCapture": "2005:03:23"
     },
@@ -41,6 +87,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:03:23"
     },
     {
@@ -50,6 +97,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:03:23"
     },
     {
@@ -58,6 +106,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:03:23"
     },
     {
@@ -66,6 +115,7 @@
         "décor",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:03:23"
     },
     {
@@ -73,6 +123,7 @@
       "IndexJantzen": [
         "poignée-porte"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:03:23"
     }
   ]

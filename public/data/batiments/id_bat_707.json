@@ -23,11 +23,31 @@
   "terme_jantzen_bat": [
     "porte-fer-hall"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "fer forgé",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "porte-fenêtre",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Moulin-des-Pres-120_13_§1",
       "IndexJantzen": [
         "porte-fer-hall"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "porte-fenêtre",
+        "vantail",
+        "arc en plein cintre",
+        "fer forgé",
+        "sculpture",
+        "pierre de taille",
+        "mascaron"
       ],
       "dateCapture": "2005:06:14"
     }

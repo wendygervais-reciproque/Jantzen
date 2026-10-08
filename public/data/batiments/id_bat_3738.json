@@ -24,11 +24,57 @@
     "lucarne-d'angle",
     "façade-d'angle"
   ],
+  "terme_torneh_bat": [
+    "auvent",
+    "avant-corps",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "oriel",
+    "pierre de taille",
+    "porte",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "soupirail",
+    "toit à deux versants",
+    "tour",
+    "travée",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Montmartre-86_2_§1",
       "IndexJantzen": [
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "mansarde",
+        "lucarne",
+        "toit à deux versants",
+        "souche de cheminée",
+        "fronton",
+        "corniche",
+        "bandeau",
+        "pierre de taille",
+        "porte-fenêtre",
+        "volet",
+        "avant-corps",
+        "travée",
+        "tour",
+        "oriel",
+        "soupirail",
+        "porte",
+        "auvent"
       ],
       "dateCapture": "2008:02:17"
     },
@@ -37,6 +83,7 @@
       "IndexJantzen": [
         "façade-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:07:25"
     },
     {
@@ -44,6 +91,7 @@
       "IndexJantzen": [
         "lucarne-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:17"
     },
     {
@@ -51,6 +99,7 @@
       "IndexJantzen": [
         "lucarne-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:08:31"
     }
   ]

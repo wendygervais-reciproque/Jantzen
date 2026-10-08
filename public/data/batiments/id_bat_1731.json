@@ -30,11 +30,41 @@
   "terme_jantzen_bat": [
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "brique",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "pierre de taille",
+    "souche de cheminée",
+    "travée",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Montparnasse-Bd-23_6_§1",
       "IndexJantzen": [
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "souche de cheminée",
+        "brique",
+        "mansarde",
+        "lucarne",
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "volet",
+        "balustrade",
+        "corniche",
+        "pierre de taille",
+        "fer forgé",
+        "travée"
       ],
       "dateCapture": "2010:04:18"
     },
@@ -43,6 +73,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:31"
     }
   ]

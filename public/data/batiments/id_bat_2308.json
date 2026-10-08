@@ -28,16 +28,54 @@
   "WPfr": null,
   "image_ref": "Arbalete-35_5_§1",
   "terme_jantzen_bat": [
-    "porte-fer",
-    "fenetre",
     "façade",
-    "oriel"
+    "oriel",
+    "fenetre",
+    "porte-fer"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "bossage",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "oriel",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "porte-fenêtre",
+    "sculpture",
+    "travée",
+    "verrière"
   ],
   "photos": [
     {
       "id_pic": "Arbalete-35_5_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "balustrade",
+        "porte",
+        "portail",
+        "porte-fenêtre",
+        "bandeau",
+        "corniche",
+        "bossage",
+        "mascaron",
+        "pierre de taille",
+        "fer forgé",
+        "travée",
+        "verrière",
+        "sculpture",
+        "oriel"
       ],
       "dateCapture": "2007:09:05"
     },
@@ -46,6 +84,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:09:05"
     },
     {
@@ -53,6 +92,7 @@
       "IndexJantzen": [
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:09:05"
     },
     {
@@ -61,6 +101,7 @@
         "fenetre",
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:09:05"
     }
   ]

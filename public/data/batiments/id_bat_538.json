@@ -29,18 +29,64 @@
   "image_ref": "Caulaincourt-113_18_§1",
   "terme_jantzen_bat": [
     "toiture",
+    "sculpture",
+    "console",
     "fenetre",
     "lucarne",
     "façade",
-    "console",
-    "sculpture",
     "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "porte",
+    "porte-fenêtre",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "vantail",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Caulaincourt-113_18_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "mansarde",
+        "lucarne",
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "porte",
+        "porte-fenêtre",
+        "garde-corps",
+        "corniche",
+        "bandeau",
+        "souche de cheminée",
+        "ardoise",
+        "pierre de taille",
+        "mascaron",
+        "sculpture",
+        "fer forgé",
+        "volet",
+        "toit à deux versants",
+        "travée",
+        "oculus",
+        "vantail"
       ],
       "dateCapture": "2006:04:08"
     },
@@ -50,6 +96,7 @@
         "lucarne",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:08"
     },
     {
@@ -58,6 +105,7 @@
         "lucarne",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:08"
     },
     {
@@ -65,6 +113,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:08"
     },
     {
@@ -73,6 +122,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:08"
     },
     {
@@ -81,6 +131,7 @@
         "fenetre",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:06:14"
     },
     {
@@ -89,6 +140,7 @@
         "fenetre",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:08"
     }
   ]

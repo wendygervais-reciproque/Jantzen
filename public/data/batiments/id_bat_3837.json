@@ -30,11 +30,33 @@
   "terme_jantzen_bat": [
     "porte-fer"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "fer forgé",
+    "garde-corps",
+    "huisserie",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Michel-Ange-9_16_§1",
       "IndexJantzen": [
         "porte-fer"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "portail",
+        "vantail",
+        "fer forgé",
+        "sculpture",
+        "balcon",
+        "garde-corps",
+        "pierre de taille",
+        "huisserie"
       ],
       "dateCapture": "2004:07:25"
     }

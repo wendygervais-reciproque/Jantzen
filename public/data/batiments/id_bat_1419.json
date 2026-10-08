@@ -24,12 +24,31 @@
   "image_ref": "Reuilly-bd-2_12_§1",
   "terme_jantzen_bat": [
     "oeil-de-boeuf",
-    "lucarne",
-    "tourelle",
+    "balcon",
     "dome",
+    "tourelle",
     "pilastre",
     "fenetre-d'angle",
-    "balcon"
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "souche de cheminée",
+    "toit en pavillon",
+    "toit à deux versants",
+    "travée",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -37,6 +56,25 @@
       "IndexJantzen": [
         "dome",
         "fenetre-d'angle"
+      ],
+      "IndexTorneh": [
+        "dôme",
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "balustrade",
+        "mascaron",
+        "oculus",
+        "souche de cheminée",
+        "ardoise",
+        "pierre de taille",
+        "épi de faîtage",
+        "lucarne",
+        "pilastre",
+        "toit à deux versants",
+        "fer forgé",
+        "toit en pavillon",
+        "travée"
       ],
       "dateCapture": "2005:07:13"
     },
@@ -46,6 +84,7 @@
         "dome",
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:13"
     },
     {
@@ -55,6 +94,7 @@
         "fenetre-d'angle",
         "tourelle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:13"
     },
     {
@@ -64,6 +104,7 @@
         "dome",
         "pilastre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:26"
     },
     {
@@ -74,6 +115,7 @@
         "oeil-de-boeuf",
         "tourelle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:26"
     },
     {
@@ -81,6 +123,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:26"
     }
   ]

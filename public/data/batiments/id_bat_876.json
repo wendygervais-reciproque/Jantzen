@@ -28,16 +28,64 @@
   "WPfr": null,
   "image_ref": "Emile-Augier-14_16_§1",
   "terme_jantzen_bat": [
-    "fenetre-d'angle",
-    "lucarne",
     "loggia",
-    "façade-d'angle"
+    "fenetre-d'angle",
+    "façade-d'angle",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "avant-corps",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "grille",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "pierre de taille",
+    "porte-fenêtre",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Emile-Augier-14_16_§1",
       "IndexJantzen": [
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "arc en plein cintre",
+        "mascaron",
+        "corniche",
+        "bandeau",
+        "brique",
+        "pierre de taille",
+        "souche de cheminée",
+        "toit à deux versants",
+        "mansarde",
+        "lucarne",
+        "fer forgé",
+        "grille",
+        "volet",
+        "travée",
+        "avant-corps",
+        "porte-fenêtre",
+        "chambranle",
+        "sculpture"
       ],
       "dateCapture": "2004:05:21"
     },
@@ -46,6 +94,7 @@
       "IndexJantzen": [
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:03:27"
     },
     {
@@ -54,6 +103,7 @@
         "fenetre-d'angle",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:03:27"
     },
     {
@@ -62,6 +112,7 @@
         "fenetre-d'angle",
         "loggia"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:03:27"
     }
   ]

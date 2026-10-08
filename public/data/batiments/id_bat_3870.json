@@ -30,11 +30,43 @@
   "terme_jantzen_bat": [
     "façade"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mascaron",
+    "pierre de taille",
+    "porte-fenêtre",
+    "toit-terrasse",
+    "travée",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "St-Honore-91_1_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "bandeau",
+        "corniche",
+        "lucarne",
+        "mascaron",
+        "toit-terrasse",
+        "pierre de taille",
+        "fer forgé",
+        "porte-fenêtre",
+        "travée",
+        "volet"
       ],
       "dateCapture": "2004:09:11"
     }

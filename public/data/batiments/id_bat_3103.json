@@ -28,17 +28,53 @@
   "WPfr": null,
   "image_ref": "Victoires-Pl-6_2_§1-Rs",
   "terme_jantzen_bat": [
-    "fenetre",
-    "lucarne",
+    "pilastre",
     "sculpture",
     "clé",
-    "pilastre"
+    "fenetre",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chapiteau",
+    "corniche",
+    "fenêtre",
+    "garde-corps",
+    "grille",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "pierre de taille",
+    "pilastre",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Victoires-Pl-6_2_§1-Rs",
       "IndexJantzen": [
         "fenetre",
+        "pilastre"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "mansarde",
+        "lucarne",
+        "arc en plein cintre",
+        "corniche",
+        "bandeau",
+        "mascaron",
+        "balustrade",
+        "ardoise",
+        "pierre de taille",
+        "volet",
+        "grille",
+        "chapiteau",
         "pilastre"
       ],
       "dateCapture": "2008:02:17"
@@ -49,6 +85,7 @@
         "fenetre",
         "pilastre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:17"
     },
     {
@@ -56,6 +93,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:17"
     },
     {
@@ -63,6 +101,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:17"
     },
     {
@@ -71,6 +110,7 @@
         "clé",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:17"
     },
     {
@@ -79,6 +119,7 @@
         "clé",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:17"
     }
   ]

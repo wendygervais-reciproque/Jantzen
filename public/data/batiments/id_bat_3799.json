@@ -23,8 +23,26 @@
   "terme_jantzen_bat": [
     "fenetre-d'angle",
     "balcon",
-    "dome",
-    "façade-d'angle"
+    "façade-d'angle",
+    "dome"
+  ],
+  "terme_torneh_bat": [
+    "auvent",
+    "balcon",
+    "balustrade",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "mascaron",
+    "modillon",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "travée",
+    "verrière"
   ],
   "photos": [
     {
@@ -34,6 +52,24 @@
         "dome",
         "façade-d'angle"
       ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "corniche",
+        "fronton",
+        "fenêtre",
+        "pierre de taille",
+        "fer forgé",
+        "mascaron",
+        "pilastre",
+        "verrière",
+        "modillon",
+        "travée",
+        "oculus",
+        "auvent",
+        "dôme"
+      ],
       "dateCapture": "2004:09:11"
     },
     {
@@ -42,6 +78,7 @@
         "dome",
         "façade-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:21"
     },
     {
@@ -50,6 +87,7 @@
         "dome",
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:21"
     }
   ]

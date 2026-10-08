@@ -23,16 +23,60 @@
   "WPfr": null,
   "image_ref": "St-Lazare-58_9_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "façade",
-    "décor",
-    "pilastre"
+    "pilastre",
+    "fenetre",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "arcade",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chapiteau",
+    "chapiteau corinthien",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "grille",
+    "jambage",
+    "linteau",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "soupirail",
+    "travée",
+    "vantail"
   ],
   "photos": [
     {
       "id_pic": "St-Lazare-58_9_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "arc en plein cintre",
+        "arcade",
+        "balcon",
+        "balustrade",
+        "bandeau",
+        "chapiteau",
+        "chapiteau corinthien",
+        "corniche",
+        "fenêtre",
+        "fer forgé",
+        "fronton",
+        "grille",
+        "jambage",
+        "linteau",
+        "pierre de taille",
+        "pilastre",
+        "porte",
+        "soupirail",
+        "travée",
+        "vantail"
       ],
       "dateCapture": "2005:08:09"
     },
@@ -43,6 +87,7 @@
         "fenetre",
         "pilastre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:09"
     },
     {
@@ -51,6 +96,7 @@
         "fenetre",
         "pilastre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:09"
     },
     {
@@ -58,6 +104,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:09"
     }
   ]

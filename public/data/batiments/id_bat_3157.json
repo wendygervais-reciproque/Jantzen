@@ -28,8 +28,27 @@
   "WPfr": null,
   "image_ref": "Eugene-Manuel-6_16_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "brique"
+    "brique",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "chéneau",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mur-boutant",
+    "pierre de taille",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -37,6 +56,25 @@
       "IndexJantzen": [
         "brique",
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "bandeau",
+        "brique",
+        "chéneau",
+        "fenêtre",
+        "fer forgé",
+        "garde-corps",
+        "lucarne",
+        "mansarde",
+        "mur-boutant",
+        "pierre de taille",
+        "souche de cheminée",
+        "toit à deux versants",
+        "travée",
+        "volet",
+        "ardoise"
       ],
       "dateCapture": "2005:04:30"
     }

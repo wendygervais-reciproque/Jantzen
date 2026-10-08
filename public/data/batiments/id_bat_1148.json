@@ -21,8 +21,16 @@
   "WPfr": null,
   "image_ref": "Mazarine-16_6_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "garde-corps"
+    "garde-corps",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "fer forgé",
+    "garde-corps",
+    "pierre de taille",
+    "porte-fenêtre",
+    "vantail"
   ],
   "photos": [
     {
@@ -30,6 +38,14 @@
       "IndexJantzen": [
         "fenetre",
         "garde-corps"
+      ],
+      "IndexTorneh": [
+        "porte-fenêtre",
+        "fer forgé",
+        "balcon",
+        "pierre de taille",
+        "garde-corps",
+        "vantail"
       ],
       "dateCapture": "2005:06:02"
     }

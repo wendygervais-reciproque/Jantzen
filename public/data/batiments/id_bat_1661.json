@@ -28,11 +28,30 @@
   "WPfr": null,
   "image_ref": "Faubourg-St-Honore-217_8_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "console",
     "sculpture",
+    "console",
+    "fenetre",
     "chimère",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "modillon",
+    "pierre de taille",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants"
   ],
   "photos": [
     {
@@ -41,6 +60,25 @@
         "décor",
         "fenetre",
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "corniche",
+        "fronton",
+        "lucarne",
+        "mansarde",
+        "brique",
+        "pierre de taille",
+        "souche de cheminée",
+        "sculpture",
+        "bandeau",
+        "fer forgé",
+        "ardoise",
+        "toit à deux versants",
+        "modillon"
       ],
       "dateCapture": "2004:10:16"
     },
@@ -51,6 +89,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:10:16"
     },
     {
@@ -59,6 +98,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:07"
     }
   ]

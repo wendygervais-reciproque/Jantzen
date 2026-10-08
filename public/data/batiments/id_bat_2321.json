@@ -29,14 +29,52 @@
   "image_ref": "Georges-Mandel-36_16_§1",
   "terme_jantzen_bat": [
     "sculpture",
+    "console",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "auvent",
+    "balcon",
+    "balustrade",
+    "brique",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
     "lucarne",
-    "console"
+    "mansarde",
+    "mascaron",
+    "oriel",
+    "pierre de taille",
+    "souche de cheminée",
+    "épi de faîtage"
   ],
   "photos": [
     {
       "id_pic": "Georges-Mandel-36_16_§1",
       "IndexJantzen": [
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "épi de faîtage",
+        "dôme",
+        "oriel",
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "mansarde",
+        "souche de cheminée",
+        "ardoise",
+        "corniche",
+        "balustrade",
+        "pierre de taille",
+        "brique",
+        "lucarne",
+        "auvent",
+        "mascaron"
       ],
       "dateCapture": "2006:06:30"
     },
@@ -45,6 +83,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:11"
     },
     {
@@ -53,6 +92,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:30"
     }
   ]

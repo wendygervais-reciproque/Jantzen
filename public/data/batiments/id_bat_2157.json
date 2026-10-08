@@ -21,9 +21,20 @@
   "WPfr": null,
   "image_ref": "Mont-Thabor-30_1_§1",
   "terme_jantzen_bat": [
+    "clé",
     "fenetre",
-    "décor",
-    "clé"
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "bandeau",
+    "chambranle",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "porte-fenêtre",
+    "sculpture"
   ],
   "photos": [
     {
@@ -32,6 +43,17 @@
         "clé",
         "décor",
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "garde-corps",
+        "fer forgé",
+        "balcon",
+        "bandeau",
+        "sculpture",
+        "mascaron",
+        "porte-fenêtre",
+        "chambranle"
       ],
       "dateCapture": "2004:09:11"
     }

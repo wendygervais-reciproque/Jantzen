@@ -32,13 +32,32 @@
   "WPfr": null,
   "image_ref": "Capitaine-Lagache-16_17_§1",
   "terme_jantzen_bat": [
-    "lucarne",
     "façade-d'angle",
     "oriel",
-    "fenetre-d'angle",
-    "brique",
     "pilastre",
+    "fenetre-d'angle",
+    "lucarne",
+    "brique",
     "porte-fer-hall"
+  ],
+  "terme_torneh_bat": [
+    "auvent",
+    "balcon",
+    "balustrade",
+    "brique",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "mascaron",
+    "oriel",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "sculpture",
+    "souche de cheminée",
+    "travée"
   ],
   "photos": [
     {
@@ -46,6 +65,25 @@
       "IndexJantzen": [
         "brique",
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "balustrade",
+        "fer forgé",
+        "brique",
+        "pierre de taille",
+        "corniche",
+        "sculpture",
+        "mascaron",
+        "souche de cheminée",
+        "oriel",
+        "auvent",
+        "travée",
+        "porte",
+        "fronton",
+        "pilastre"
       ],
       "dateCapture": "2006:06:07"
     },
@@ -56,6 +94,7 @@
         "façade-d'angle",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:07"
     },
     {
@@ -65,6 +104,7 @@
         "façade-d'angle",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:06:27"
     },
     {
@@ -74,6 +114,7 @@
         "fenetre-d'angle",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:06:27"
     },
     {
@@ -83,6 +124,7 @@
         "fenetre-d'angle",
         "pilastre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:27"
     },
     {
@@ -92,6 +134,7 @@
         "fenetre-d'angle",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:07"
     },
     {
@@ -99,6 +142,7 @@
       "IndexJantzen": [
         "porte-fer-hall"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:06:28"
     }
   ]

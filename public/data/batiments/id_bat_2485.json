@@ -26,12 +26,36 @@
     "toiture",
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "corniche",
+    "fenêtre",
+    "garde-corps",
+    "lucarne",
+    "pierre de taille",
+    "toit à deux versants",
+    "tuile",
+    "vantail",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Jarente-4_4_§1-Rx",
       "IndexJantzen": [
         "lucarne",
         "toiture"
+      ],
+      "IndexTorneh": [
+        "lucarne",
+        "fenêtre",
+        "garde-corps",
+        "balcon",
+        "volet",
+        "tuile",
+        "toit à deux versants",
+        "corniche",
+        "pierre de taille",
+        "vantail"
       ],
       "dateCapture": "2012:05:13"
     },
@@ -40,6 +64,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:05:13"
     }
   ]

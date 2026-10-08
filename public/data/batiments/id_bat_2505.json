@@ -21,8 +21,36 @@
   "WPfr": null,
   "image_ref": "Jour-4_1_§1",
   "terme_jantzen_bat": [
-    "porte",
-    "façade"
+    "façade",
+    "porte"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "chapiteau",
+    "chaîne d'angle",
+    "contrefort",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "gargouille",
+    "grille",
+    "lucarne",
+    "mansarde",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "portail",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "toit à deux versants",
+    "vitrail",
+    "voûte"
   ],
   "photos": [
     {
@@ -30,6 +58,34 @@
       "IndexJantzen": [
         "façade",
         "porte"
+      ],
+      "IndexTorneh": [
+        "arc en plein cintre",
+        "arc",
+        "voûte",
+        "contrefort",
+        "gargouille",
+        "oculus",
+        "lucarne",
+        "mansarde",
+        "fenêtre",
+        "porte-fenêtre",
+        "balcon",
+        "garde-corps",
+        "grille",
+        "portail",
+        "toit à deux versants",
+        "corniche",
+        "fronton",
+        "pilastre",
+        "chapiteau",
+        "souche de cheminée",
+        "pierre de taille",
+        "ardoise",
+        "vitrail",
+        "fer forgé",
+        "chaîne d'angle",
+        "balustrade"
       ],
       "dateCapture": "2004:09:01"
     }

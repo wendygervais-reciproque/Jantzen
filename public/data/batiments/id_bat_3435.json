@@ -28,9 +28,21 @@
   "WPfr": null,
   "image_ref": "Louis-Boilly-7_16_§1",
   "terme_jantzen_bat": [
+    "porte-fer-hall",
     "sculpture",
-    "console",
-    "porte-fer-hall"
+    "console"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "balcon",
+    "balustrade",
+    "corniche",
+    "garde-corps",
+    "modillon",
+    "pierre de taille",
+    "porte-fenêtre",
+    "sculpture",
+    "volet"
   ],
   "photos": [
     {
@@ -39,6 +51,18 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "arc",
+        "sculpture",
+        "pierre de taille",
+        "corniche",
+        "volet",
+        "garde-corps",
+        "porte-fenêtre",
+        "modillon"
+      ],
       "dateCapture": "2005:05:28"
     },
     {
@@ -46,6 +70,7 @@
       "IndexJantzen": [
         "porte-fer-hall"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:03:16"
     }
   ]

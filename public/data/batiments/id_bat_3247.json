@@ -21,8 +21,25 @@
   "WPfr": null,
   "image_ref": "Lamarck-62_18_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "brique"
+    "brique",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "chambranle",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "grille",
+    "linteau",
+    "pierre de taille",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -30,6 +47,23 @@
       "IndexJantzen": [
         "brique",
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "bandeau",
+        "corniche",
+        "brique",
+        "pierre de taille",
+        "chambranle",
+        "linteau",
+        "volet",
+        "fer forgé",
+        "travée",
+        "chaîne d'angle",
+        "grille"
       ],
       "dateCapture": "2004:06:14"
     }

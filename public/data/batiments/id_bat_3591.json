@@ -21,13 +21,28 @@
   "WPfr": null,
   "image_ref": "St-Michel-8_6_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "garde-corps",
-    "console",
+    "balcon",
     "sculpture",
     "clé",
-    "décor",
-    "balcon"
+    "console",
+    "fenetre",
+    "garde-corps",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "modillon",
+    "pierre de taille",
+    "sculpture",
+    "souche de cheminée",
+    "toit-terrasse"
   ],
   "photos": [
     {
@@ -35,6 +50,21 @@
       "IndexJantzen": [
         "balcon",
         "garde-corps"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "corniche",
+        "mascaron",
+        "sculpture",
+        "pierre de taille",
+        "fer forgé",
+        "toit-terrasse",
+        "souche de cheminée",
+        "bandeau",
+        "modillon"
       ],
       "dateCapture": "2004:06:07"
     },
@@ -44,6 +74,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:08:26"
     },
     {
@@ -53,6 +84,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:23"
     },
     {
@@ -61,6 +93,7 @@
         "clé",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:08:26"
     },
     {
@@ -69,6 +102,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:23"
     },
     {
@@ -77,6 +111,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:08:26"
     }
   ]

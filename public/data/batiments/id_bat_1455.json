@@ -23,11 +23,39 @@
   "terme_jantzen_bat": [
     "fenetre"
   ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "pierre de taille",
+    "toit à deux versants"
+  ],
   "photos": [
     {
       "id_pic": "Beaune-2_7_§1",
       "IndexJantzen": [
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "bandeau",
+        "chaîne d'angle",
+        "corniche",
+        "pierre de taille",
+        "fer forgé",
+        "toit à deux versants",
+        "ardoise",
+        "lucarne"
       ],
       "dateCapture": "2014:02:12"
     }

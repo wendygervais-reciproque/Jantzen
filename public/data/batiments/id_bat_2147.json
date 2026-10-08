@@ -21,8 +21,19 @@
   "WPfr": null,
   "image_ref": "Buci-30_6_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "garde-corps"
+    "garde-corps",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "pierre de taille"
   ],
   "photos": [
     {
@@ -30,6 +41,17 @@
       "IndexJantzen": [
         "fenetre",
         "garde-corps"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "garde-corps",
+        "balcon",
+        "arc en plein cintre",
+        "bandeau",
+        "pierre de taille",
+        "mascaron",
+        "fer forgé",
+        "balustrade"
       ],
       "dateCapture": "2006:05:11"
     }

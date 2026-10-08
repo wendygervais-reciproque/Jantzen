@@ -21,10 +21,24 @@
   "WPfr": null,
   "image_ref": "Voltaire-qu-7_7_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "console",
+    "métal",
     "garde-corps",
-    "métal"
+    "console",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "modillon",
+    "pilastre",
+    "porte-fenêtre",
+    "volet"
   ],
   "photos": [
     {
@@ -34,6 +48,20 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "garde-corps",
+        "fer forgé",
+        "chambranle",
+        "pilastre",
+        "modillon",
+        "volet",
+        "porte-fenêtre",
+        "bandeau",
+        "arc"
+      ],
       "dateCapture": "2006:06:13"
     },
     {
@@ -42,6 +70,7 @@
         "console",
         "métal"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:13"
     }
   ]

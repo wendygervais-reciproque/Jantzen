@@ -31,12 +31,42 @@
     "sculpture",
     "atlante"
   ],
+  "terme_torneh_bat": [
+    "atlante",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "pierre de taille",
+    "sculpture",
+    "travée",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Magenta-56_10_§1",
       "IndexJantzen": [
         "atlante",
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "atlante",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "volet",
+        "fenêtre",
+        "corniche",
+        "sculpture",
+        "mascaron",
+        "pierre de taille",
+        "bandeau",
+        "travée"
       ],
       "dateCapture": "2004:05:16"
     }

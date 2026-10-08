@@ -35,12 +35,50 @@
     "sculpture",
     "loggia"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "attique",
+    "balcon",
+    "balustrade",
+    "chapiteau corinthien",
+    "colonne",
+    "corniche",
+    "entablement",
+    "fenêtre",
+    "fer forgé",
+    "frise",
+    "fronton",
+    "garde-corps",
+    "mascaron",
+    "pierre de taille",
+    "pilastre",
+    "sculpture"
+  ],
   "photos": [
     {
       "id_pic": "Gobelins-av-73_13_§1",
       "IndexJantzen": [
         "loggia",
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "fronton",
+        "arc en plein cintre",
+        "colonne",
+        "chapiteau corinthien",
+        "pilastre",
+        "balustrade",
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "sculpture",
+        "mascaron",
+        "corniche",
+        "frise",
+        "entablement",
+        "fenêtre",
+        "attique",
+        "pierre de taille"
       ],
       "dateCapture": "2008:02:10"
     },
@@ -49,6 +87,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:10"
     },
     {
@@ -56,6 +95,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:14"
     },
     {
@@ -63,6 +103,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:10"
     },
     {
@@ -70,6 +111,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:10"
     }
   ]

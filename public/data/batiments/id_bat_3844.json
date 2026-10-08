@@ -28,9 +28,21 @@
   "WPfr": null,
   "image_ref": "Victor-Masse-9_9_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "sculpture",
-    "clé"
+    "clé",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "pierre de taille",
+    "porte-fenêtre",
+    "sculpture"
   ],
   "photos": [
     {
@@ -38,6 +50,18 @@
       "IndexJantzen": [
         "fenetre",
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "porte-fenêtre",
+        "balcon",
+        "garde-corps",
+        "sculpture",
+        "mascaron",
+        "chambranle",
+        "corniche",
+        "pierre de taille",
+        "fer forgé"
       ],
       "dateCapture": "2008:09:22"
     },
@@ -48,6 +72,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:09:22"
     }
   ]

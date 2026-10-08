@@ -23,11 +23,25 @@
   "terme_jantzen_bat": [
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "huisserie",
+    "jambage",
+    "porte",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Aubriot-7_4_§1",
       "IndexJantzen": [
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "vantail",
+        "sculpture",
+        "huisserie",
+        "jambage"
       ],
       "dateCapture": "2004:09:09"
     }

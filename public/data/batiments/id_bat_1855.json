@@ -23,15 +23,39 @@
   "WPfr": null,
   "image_ref": "Jour-25_1_§1",
   "terme_jantzen_bat": [
+    "fronton",
     "fenetre",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "bandeau",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
     "lucarne",
-    "fronton"
+    "pierre de taille",
+    "sculpture",
+    "toit à deux versants",
+    "travée"
   ],
   "photos": [
     {
       "id_pic": "Jour-25_1_§1",
       "IndexJantzen": [
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "fronton",
+        "fenêtre",
+        "lucarne",
+        "pierre de taille",
+        "garde-corps",
+        "sculpture",
+        "ardoise",
+        "toit à deux versants",
+        "travée",
+        "bandeau"
       ],
       "dateCapture": "2004:08:31"
     },
@@ -41,6 +65,7 @@
         "fronton",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:08:31"
     },
     {
@@ -49,6 +74,7 @@
         "fronton",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:06:02"
     }
   ]

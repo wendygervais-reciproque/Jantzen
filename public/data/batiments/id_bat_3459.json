@@ -28,11 +28,36 @@
   "WPfr": null,
   "image_ref": "La-Boetie-70_8_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "façade",
-    "sculpture",
+    "verrière",
     "oriel",
-    "verrière"
+    "sculpture",
+    "fenetre",
+    "façade"
+  ],
+  "terme_torneh_bat": [
+    "arc brisé",
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "gros appareil",
+    "linteau",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porte-fenêtre",
+    "sculpture",
+    "souche de cheminée",
+    "vitrail",
+    "volet"
   ],
   "photos": [
     {
@@ -41,6 +66,31 @@
         "façade",
         "fenetre"
       ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "pierre de taille",
+        "arc en plein cintre",
+        "arc brisé",
+        "corniche",
+        "bandeau",
+        "volet",
+        "mascaron",
+        "sculpture",
+        "ardoise",
+        "souche de cheminée",
+        "oculus",
+        "pilastre",
+        "vitrail",
+        "porte-fenêtre",
+        "linteau",
+        "chambranle",
+        "gros appareil",
+        "mansarde"
+      ],
       "dateCapture": "2006:06:17"
     },
     {
@@ -48,6 +98,7 @@
       "IndexJantzen": [
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:16"
     },
     {
@@ -56,6 +107,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:06:27"
     },
     {
@@ -63,6 +115,7 @@
       "IndexJantzen": [
         "verrière"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:06:27"
     },
     {
@@ -70,6 +123,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:17"
     },
     {
@@ -77,6 +131,7 @@
       "IndexJantzen": [
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:16"
     },
     {
@@ -85,6 +140,7 @@
         "oriel",
         "verrière"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:06:27"
     }
   ]

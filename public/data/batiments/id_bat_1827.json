@@ -28,9 +28,24 @@
   "WPfr": null,
   "image_ref": "Rouelle-25-27_15_§2",
   "terme_jantzen_bat": [
-    "porte-fer",
     "brique",
-    "mosaique"
+    "mosaique",
+    "porte-fer"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "brique",
+    "corniche",
+    "céramique",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "grille",
+    "oriel",
+    "porte",
+    "sculpture",
+    "vantail"
   ],
   "photos": [
     {
@@ -39,6 +54,21 @@
         "brique",
         "mosaique",
         "porte-fer"
+      ],
+      "IndexTorneh": [
+        "arc en plein cintre",
+        "arc",
+        "brique",
+        "céramique",
+        "porte",
+        "grille",
+        "garde-corps",
+        "fenêtre",
+        "corniche",
+        "sculpture",
+        "fer forgé",
+        "oriel",
+        "vantail"
       ],
       "dateCapture": "2005:09:03"
     },
@@ -49,6 +79,7 @@
         "mosaique",
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:09:03"
     }
   ]

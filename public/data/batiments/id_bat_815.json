@@ -28,10 +28,28 @@
   "WPfr": null,
   "image_ref": "Victor-Hugo-130_16_§1",
   "terme_jantzen_bat": [
-    "porte-fer",
-    "fenetre",
+    "pilastre",
     "colonne",
-    "pilastre"
+    "fenetre",
+    "porte-fer"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "mur-boutant",
+    "pierre de taille",
+    "pilastre",
+    "sculpture",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -39,6 +57,24 @@
       "IndexJantzen": [
         "fenetre",
         "pilastre"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "arc en plein cintre",
+        "corniche",
+        "bandeau",
+        "mascaron",
+        "pilastre",
+        "volet",
+        "pierre de taille",
+        "travée",
+        "sculpture",
+        "mur-boutant",
+        "chambranle"
       ],
       "dateCapture": "2004:05:17"
     },
@@ -48,6 +84,7 @@
         "colonne",
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:05:17"
     }
   ]

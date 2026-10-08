@@ -32,13 +32,34 @@
   "WPfr": null,
   "image_ref": "Lagrange-10_5_§1",
   "terme_jantzen_bat": [
-    "façade",
-    "pignon",
     "façade-d'angle",
-    "métal",
+    "pignon",
     "oriel",
     "brique",
+    "métal",
+    "façade",
     "voie"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "auvent",
+    "avant-corps",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "bossage",
+    "chéneau",
+    "corniche",
+    "fenêtre",
+    "garde-corps",
+    "mansarde",
+    "oculus",
+    "pierre de taille",
+    "porte",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -47,6 +68,27 @@
         "brique",
         "façade-d'angle",
         "pignon"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "corniche",
+        "bandeau",
+        "mansarde",
+        "souche de cheminée",
+        "garde-corps",
+        "pierre de taille",
+        "avant-corps",
+        "travée",
+        "toit à deux versants",
+        "ardoise",
+        "auvent",
+        "volet",
+        "porte",
+        "bossage",
+        "chéneau",
+        "oculus"
       ],
       "dateCapture": "2006:06:06"
     },
@@ -57,6 +99,7 @@
         "métal",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:08:09"
     },
     {
@@ -65,6 +108,7 @@
         "façade",
         "voie"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:06"
     }
   ]

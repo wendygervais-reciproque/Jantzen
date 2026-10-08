@@ -24,12 +24,46 @@
     "fenetre",
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "bandeau",
+    "chéneau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "pierre de taille",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Sevigne-30_4_§1-Rs",
       "IndexJantzen": [
         "fenetre",
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "lucarne",
+        "mansarde",
+        "corniche",
+        "bandeau",
+        "chéneau",
+        "pierre de taille",
+        "travée",
+        "souche de cheminée",
+        "arc en plein cintre",
+        "toit à deux versants",
+        "volet"
       ],
       "dateCapture": "2010:03:26"
     },
@@ -39,6 +73,7 @@
         "fenetre",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:03:26"
     },
     {
@@ -46,6 +81,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:05:17"
     },
     {
@@ -53,6 +89,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:05:17"
     },
     {
@@ -60,6 +97,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2013:02:18"
     }
   ]

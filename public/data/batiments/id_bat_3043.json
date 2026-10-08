@@ -30,11 +30,53 @@
   "terme_jantzen_bat": [
     "façade"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "porte",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "vitrail"
+  ],
   "photos": [
     {
       "id_pic": "Batignolles-bd-57_8_§1_Dx",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "mansarde",
+        "lucarne",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "porte",
+        "porte-fenêtre",
+        "fronton",
+        "corniche",
+        "bandeau",
+        "arc en plein cintre",
+        "mascaron",
+        "souche de cheminée",
+        "pierre de taille",
+        "ardoise",
+        "fer forgé",
+        "oculus",
+        "vitrail"
       ],
       "dateCapture": "2009:12:31"
     },
@@ -43,6 +85,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:12:31"
     }
   ]

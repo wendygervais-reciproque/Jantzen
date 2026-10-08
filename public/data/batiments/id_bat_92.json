@@ -32,18 +32,42 @@
   "WPfr": "Hôpital de la Salpêtrière",
   "image_ref": "Pitie-Salpetriere-Hopital_13_§5-Rx",
   "terme_jantzen_bat": [
-    "oeil-de-boeuf",
-    "fenetre",
-    "façade",
-    "lucarne",
     "toiture",
+    "oeil-de-boeuf",
+    "dome",
     "tourelle",
+    "sculpture",
+    "fenetre",
+    "lucarne",
+    "façade",
+    "fronton",
     "porte",
     "panoramique",
-    "sculpture",
-    "dome",
+    "colonne"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balustrade",
+    "chapiteau corinthien",
     "colonne",
-    "fronton"
+    "corniche",
+    "dôme",
+    "entablement",
+    "fenêtre",
+    "fronton",
+    "lucarne",
+    "mansarde",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "portique",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -52,6 +76,7 @@
         "lucarne",
         "tourelle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:07:11"
     },
     {
@@ -59,6 +84,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:07:11"
     },
     {
@@ -66,6 +92,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:05:26"
     },
     {
@@ -74,6 +101,7 @@
         "façade",
         "porte"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:05:26"
     },
     {
@@ -81,6 +109,7 @@
       "IndexJantzen": [
         "fronton"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:07:11"
     },
     {
@@ -88,6 +117,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:05:26"
     },
     {
@@ -95,6 +125,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:05:26"
     },
     {
@@ -102,6 +133,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:05:26"
     },
     {
@@ -109,6 +141,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:05:26"
     },
     {
@@ -118,6 +151,7 @@
         "façade",
         "porte"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:05:26"
     },
     {
@@ -126,6 +160,7 @@
         "façade",
         "panoramique"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:07:11"
     },
     {
@@ -134,6 +169,7 @@
         "façade",
         "porte"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:05:26"
     },
     {
@@ -142,6 +178,7 @@
         "fronton",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:07:11"
     },
     {
@@ -150,6 +187,7 @@
         "lucarne",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:05:26"
     },
     {
@@ -158,6 +196,7 @@
         "lucarne",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:07:11"
     },
     {
@@ -166,6 +205,7 @@
         "fenetre",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:05:26"
     },
     {
@@ -174,6 +214,7 @@
         "fenetre",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:05:26"
     },
     {
@@ -182,6 +223,7 @@
         "fenetre",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:05:26"
     },
     {
@@ -190,6 +232,7 @@
         "fenetre",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:05:26"
     },
     {
@@ -197,6 +240,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:05:26"
     },
     {
@@ -205,6 +249,7 @@
         "dome",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:22"
     },
     {
@@ -212,6 +257,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:07:11"
     },
     {
@@ -220,6 +266,7 @@
         "dome",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:22"
     },
     {
@@ -227,6 +274,7 @@
       "IndexJantzen": [
         "dome"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:22"
     },
     {
@@ -234,6 +282,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:05:26"
     },
     {
@@ -241,6 +290,30 @@
       "IndexJantzen": [
         "dome",
         "façade"
+      ],
+      "IndexTorneh": [
+        "dôme",
+        "arc en plein cintre",
+        "colonne",
+        "pilastre",
+        "chapiteau corinthien",
+        "fronton",
+        "corniche",
+        "entablement",
+        "fenêtre",
+        "lucarne",
+        "souche de cheminée",
+        "ardoise",
+        "pierre de taille",
+        "portique",
+        "sculpture",
+        "oculus",
+        "porte",
+        "toit à deux versants",
+        "balustrade",
+        "épi de faîtage",
+        "travée",
+        "mansarde"
       ],
       "dateCapture": "2012:05:26"
     },
@@ -250,6 +323,7 @@
         "dome",
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:05:26"
     },
     {
@@ -258,6 +332,7 @@
         "dome",
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:05:26"
     },
     {
@@ -266,6 +341,7 @@
         "dome",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:07:11"
     }
   ]

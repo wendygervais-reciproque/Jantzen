@@ -23,11 +23,24 @@
   "WPfr": null,
   "image_ref": "Bethune-22_4_§2",
   "terme_jantzen_bat": [
-    "garde-corps",
+    "balcon",
     "sculpture",
     "clé",
-    "porte-bois",
-    "balcon"
+    "garde-corps",
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "heurtoir",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "vantail",
+    "volet"
   ],
   "photos": [
     {
@@ -36,6 +49,19 @@
         "balcon",
         "garde-corps",
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "porte",
+        "vantail",
+        "mascaron",
+        "pierre de taille",
+        "volet",
+        "fenêtre",
+        "heurtoir",
+        "balustrade"
       ],
       "dateCapture": "2005:07:03"
     },
@@ -46,6 +72,7 @@
         "porte-bois",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:03"
     },
     {
@@ -55,11 +82,13 @@
         "porte-bois",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:07"
     },
     {
       "id_pic": "Bethune-22_4_§5",
       "IndexJantzen": [],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:07"
     }
   ]

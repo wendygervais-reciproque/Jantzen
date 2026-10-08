@@ -24,12 +24,34 @@
     "oeil-de-boeuf",
     "fenetre"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "chambranle",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "grille",
+    "oculus",
+    "pierre de taille"
+  ],
   "photos": [
     {
       "id_pic": "La-Sourdiere-38_1_§1",
       "IndexJantzen": [
         "fenetre",
         "oeil-de-boeuf"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "oculus",
+        "arc en plein cintre",
+        "pierre de taille",
+        "grille",
+        "chambranle",
+        "fer forgé"
       ],
       "dateCapture": "2004:09:11"
     }

@@ -29,8 +29,25 @@
   "image_ref": "Fleurus-4_6_§1",
   "terme_jantzen_bat": [
     "oeil-de-boeuf",
-    "lucarne",
-    "pignon"
+    "pignon",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "corniche",
+    "fenêtre",
+    "fer",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "mansarde",
+    "oculus",
+    "pierre de taille",
+    "porte-fenêtre",
+    "sculpture",
+    "volet"
   ],
   "photos": [
     {
@@ -39,6 +56,23 @@
         "lucarne",
         "oeil-de-boeuf",
         "pignon"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "corniche",
+        "fronton",
+        "oculus",
+        "pierre de taille",
+        "fer forgé",
+        "fenêtre",
+        "volet",
+        "ardoise",
+        "garde-corps",
+        "mansarde",
+        "fer",
+        "porte-fenêtre",
+        "sculpture"
       ],
       "dateCapture": "2004:09:06"
     }

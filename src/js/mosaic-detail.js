@@ -49,6 +49,7 @@ async function openMosaicDetail(id_bat, opts = {}) {
   if (photos) photos.innerHTML = '';
   if (header) header.hidden = true;
   mdPhotoFilter.clear();   // nouvelle sélection : on repart d'une galerie non filtrée
+  resetMosaicScroll();
 
   let data;
   try {
@@ -61,7 +62,14 @@ async function openMosaicDetail(id_bat, opts = {}) {
 
   renderMosaicInfo(data);
   renderMosaicPhotos(data);
-  panel.scrollTop = 0;
+  resetMosaicScroll();
+}
+
+/** Remonte le volet en haut (le défilement se fait dans #mosaic-detail-body,
+ *  pas sur le panneau). */
+function resetMosaicScroll() {
+  const body = document.getElementById('mosaic-detail-body');
+  if (body) body.scrollTop = 0;
 }
 
 function closeMosaicDetail() {
@@ -374,21 +382,35 @@ async function renderMdGallery() {
 }
 
 /* ─── MULTISELECT « ÉLÉMENT ARCHITECTURAL » ──────────────────────────────  */
+// Deux index photo, présentés en blocs séparés. La sélection (unique) est
+// mémorisée sous la forme « index:terme » pour distinguer un même terme
+// présent dans les deux index.
+const MD_INDEXES = [
+  { key: 'jantzen', field: 'IndexJantzen', label: 'Index Jantzen' },
+  { key: 'torneh',  field: 'IndexTorneh',  label: 'Index Torne-H' }
+];
+
+function mdFilterToken(index, term) {
+  return `${index.key}:${term}`;
+}
+
 function visibleMdPhotos() {
   if (mdPhotoFilter.size === 0) return mdPhotos;
-  return mdPhotos.filter(ph => (ph.IndexJantzen || []).some(t => mdPhotoFilter.has(t)));
+  return mdPhotos.filter(ph => MD_INDEXES.some(idx =>
+    (ph[idx.field] || []).some(t => mdPhotoFilter.has(mdFilterToken(idx, t)))));
 }
-function mdElementCounts() {
+
+function mdElementCounts(index) {
   const counts = new Map();
   mdPhotos.forEach(ph => {
-    (ph.IndexJantzen || []).forEach(t => counts.set(t, (counts.get(t) || 0) + 1));
+    (ph[index.field] || []).forEach(t => counts.set(t, (counts.get(t) || 0) + 1));
   });
   return [...counts.entries()].sort((a, b) => a[0].localeCompare(b[0], 'fr'));
 }
 
-function mdElementClusters() {
+function mdElementClusters(index) {
   const groups = new Map();
-  mdElementCounts().forEach(([term, count]) => {
+  mdElementCounts(index).forEach(([term, count]) => {
     const cluster = getTermMeta(term)?.c || CLUSTER_UNSORTED;
     if (!groups.has(cluster)) groups.set(cluster, []);
     groups.get(cluster).push({ term, count });
@@ -406,42 +428,59 @@ function buildMdElementGroups() {
   if (!host) return;
   host.innerHTML = '';
 
-  const clusters = mdElementClusters();
-  if (toggle) toggle.disabled = clusters.length === 0;
+  let total = 0;
+  MD_INDEXES.forEach(index => {
+    const clusters = mdElementClusters(index);
+    if (clusters.length === 0) return;
+    total += clusters.length;
 
-  clusters.forEach(([cluster, entries]) => {
-    const group = document.createElement('section');
-    group.className = 'archi-group';
+    const block = document.createElement('section');
+    block.className = `archi-index archi-index--${index.key}`;
 
-    const label = document.createElement('span');
-    label.className   = 'archi-group-label';
-    label.textContent = cluster;
-    group.appendChild(label);
+    const heading = document.createElement('h4');
+    heading.className   = 'archi-index-title';
+    heading.textContent = index.label;
+    block.appendChild(heading);
 
-    const chips = document.createElement('div');
-    chips.className = 'archi-chips';
-    entries.forEach(({ term }) => {
-      const chip = document.createElement('button');
-      chip.type         = 'button';
-      chip.className    = 'chip';
-      chip.textContent  = capitalize(term);
-      chip.dataset.term = term;
-      chip.setAttribute('aria-pressed', 'false');
-      chip.onclick = () => toggleMdElementTerm(term);
-      chips.appendChild(chip);
+    clusters.forEach(([cluster, entries]) => {
+      const group = document.createElement('div');
+      group.className = 'archi-group';
+
+      const label = document.createElement('span');
+      label.className   = 'archi-group-label';
+      label.textContent = cluster;
+      group.appendChild(label);
+
+      const chips = document.createElement('div');
+      chips.className = 'archi-chips';
+      entries.forEach(({ term }) => {
+        const token = mdFilterToken(index, term);
+        const chip = document.createElement('button');
+        chip.type          = 'button';
+        chip.className     = `chip chip--${index.key}`;
+        chip.textContent   = capitalize(term);
+        chip.dataset.token = token;
+        chip.setAttribute('aria-pressed', 'false');
+        chip.onclick = () => toggleMdElementTerm(token);
+        chips.appendChild(chip);
+      });
+      group.appendChild(chips);
+      block.appendChild(group);
     });
-    group.appendChild(chips);
-    host.appendChild(group);
+
+    host.appendChild(block);
   });
+
+  if (toggle) toggle.disabled = total === 0;
 
   updateMdElementUI();
 }
 
-function toggleMdElementTerm(term) {
-  if (mdPhotoFilter.has(term)) mdPhotoFilter.clear();
+function toggleMdElementTerm(token) {
+  if (mdPhotoFilter.has(token)) mdPhotoFilter.clear();
   else {
     mdPhotoFilter.clear();
-    mdPhotoFilter.add(term);
+    mdPhotoFilter.add(token);
   }
   updateMdElementUI();
   renderMdGallery();
@@ -455,7 +494,7 @@ function clearMdElementFilter() {
 
 function updateMdElementUI() {
   document.querySelectorAll('#md-elem-groups .chip').forEach(chip => {
-    const active = mdPhotoFilter.has(chip.dataset.term);
+    const active = mdPhotoFilter.has(chip.dataset.token);
     chip.classList.toggle('active', active);
     chip.setAttribute('aria-pressed', String(active));
   });

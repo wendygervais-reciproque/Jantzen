@@ -28,14 +28,44 @@
   "WPfr": null,
   "image_ref": "Pasteur-Bd-61_15_§1",
   "terme_jantzen_bat": [
-    "porte-fer",
-    "fenetre"
+    "fenetre",
+    "porte-fer"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "modillon",
+    "pierre de taille",
+    "sculpture",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Pasteur-Bd-61_15_§1",
       "IndexJantzen": [
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "arc en plein cintre",
+        "balustrade",
+        "mascaron",
+        "corniche",
+        "pierre de taille",
+        "volet",
+        "modillon",
+        "sculpture",
+        "travée"
       ],
       "dateCapture": "2004:05:23"
     },
@@ -44,6 +74,7 @@
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:05:24"
     }
   ]

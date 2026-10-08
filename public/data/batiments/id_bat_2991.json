@@ -28,9 +28,24 @@
   "WPfr": null,
   "image_ref": "Secretan-54_19_§1",
   "terme_jantzen_bat": [
-    "lucarne",
     "lucarne-d'angle",
-    "dome"
+    "dome",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mascaron",
+    "souche de cheminée",
+    "tour",
+    "volet"
   ],
   "photos": [
     {
@@ -38,6 +53,21 @@
       "IndexJantzen": [
         "dome",
         "lucarne-d'angle"
+      ],
+      "IndexTorneh": [
+        "dôme",
+        "ardoise",
+        "souche de cheminée",
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "arc en plein cintre",
+        "mascaron",
+        "balustrade",
+        "volet",
+        "fer forgé",
+        "tour",
+        "lucarne"
       ],
       "dateCapture": "2005:07:21"
     },
@@ -47,6 +77,7 @@
         "dome",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:21"
     }
   ]

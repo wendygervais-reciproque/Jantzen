@@ -24,12 +24,38 @@
     "oriel",
     "céramique"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chapiteau",
+    "corniche",
+    "céramique",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "oriel",
+    "pierre de taille"
+  ],
   "photos": [
     {
       "id_pic": "Chambiges-6_8_§1",
       "IndexJantzen": [
         "céramique",
         "oriel"
+      ],
+      "IndexTorneh": [
+        "oriel",
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "balustrade",
+        "céramique",
+        "fer forgé",
+        "chapiteau",
+        "corniche",
+        "bandeau",
+        "pierre de taille"
       ],
       "dateCapture": "2004:10:21"
     }

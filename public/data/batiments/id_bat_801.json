@@ -23,11 +23,35 @@
   "terme_jantzen_bat": [
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "gros appareil",
+    "mascaron",
+    "petit appareil",
+    "pierre de taille",
+    "porche",
+    "porte",
+    "porte-fenêtre",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Sevigne-13_4_§1",
       "IndexJantzen": [
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "arc en plein cintre",
+        "porte",
+        "porche",
+        "pierre de taille",
+        "vantail",
+        "sculpture",
+        "mascaron",
+        "gros appareil",
+        "petit appareil",
+        "porte-fenêtre"
       ],
       "dateCapture": "2004:09:22"
     }

@@ -32,16 +32,45 @@
   "WPfr": null,
   "image_ref": "Guynemer_2_6_§1",
   "terme_jantzen_bat": [
-    "porte-fer",
-    "fenetre",
-    "façade",
-    "lucarne",
-    "garde-corps",
     "façade-d'angle",
+    "porte-fer",
     "sculpture",
+    "fenetre",
+    "lucarne",
     "brique",
-    "décor",
-    "fronton"
+    "façade",
+    "fronton",
+    "garde-corps",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "arcade",
+    "baie",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "chaîne d'angle",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "tour",
+    "travée",
+    "vitrail",
+    "volet",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -49,6 +78,35 @@
       "IndexJantzen": [
         "brique",
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "bandeau",
+        "baie",
+        "brique",
+        "chaîne d'angle",
+        "corniche",
+        "dôme",
+        "fenêtre",
+        "fronton",
+        "garde-corps",
+        "lucarne",
+        "mansarde",
+        "mascaron",
+        "oculus",
+        "pierre de taille",
+        "porte",
+        "sculpture",
+        "souche de cheminée",
+        "toit à deux versants",
+        "tour",
+        "travée",
+        "vitrail",
+        "volet",
+        "arc en plein cintre",
+        "arcade",
+        "épi de faîtage"
       ],
       "dateCapture": "2009:09:27"
     },
@@ -58,6 +116,7 @@
         "brique",
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:09:27"
     },
     {
@@ -68,6 +127,7 @@
         "fronton",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:09:27"
     },
     {
@@ -76,6 +136,7 @@
         "brique",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:08:26"
     },
     {
@@ -86,6 +147,7 @@
         "garde-corps",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:09:27"
     },
     {
@@ -94,6 +156,7 @@
         "brique",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:09:27"
     },
     {
@@ -102,6 +165,7 @@
         "brique",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:09:27"
     },
     {
@@ -109,6 +173,7 @@
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:09:27"
     }
   ]

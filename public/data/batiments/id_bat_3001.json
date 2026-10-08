@@ -25,17 +25,48 @@
   "terme_jantzen_bat": [
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "arc en anse de panier",
+    "ardoise",
+    "balcon",
+    "brique",
+    "fenêtre",
+    "fer",
+    "fer forgé",
+    "garde-corps",
+    "oriel",
+    "pierre de taille",
+    "souche de cheminée",
+    "vitrail",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Tolbiac-54_13_§1",
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "arc en anse de panier",
+        "oriel",
+        "ardoise",
+        "souche de cheminée",
+        "brique",
+        "pierre de taille",
+        "fer",
+        "vitrail",
+        "volet"
+      ],
       "dateCapture": "2004:03:29"
     },
     {
       "id_pic": "Tolbiac-54_13_§2",
       "IndexJantzen": [],
+      "IndexTorneh": [],
       "dateCapture": "2004:03:29"
     }
   ]

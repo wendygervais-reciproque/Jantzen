@@ -21,9 +21,21 @@
   "WPfr": null,
   "image_ref": "President-Wilson-50_16_§1",
   "terme_jantzen_bat": [
-    "cariatide",
     "sculpture",
+    "cariatide",
     "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "cariatide",
+    "chambranle",
+    "corniche",
+    "frise",
+    "huisserie",
+    "linteau",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "vantail"
   ],
   "photos": [
     {
@@ -32,6 +44,18 @@
         "cariatide",
         "porte-bois",
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "cariatide",
+        "mascaron",
+        "chambranle",
+        "linteau",
+        "pierre de taille",
+        "corniche",
+        "frise",
+        "vantail",
+        "huisserie"
       ],
       "dateCapture": "2006:04:11"
     },
@@ -42,6 +66,7 @@
         "porte-bois",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:11"
     }
   ]

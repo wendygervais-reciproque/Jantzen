@@ -21,17 +21,49 @@
   "WPfr": null,
   "image_ref": "Monsieur-le-Prince-6_6_§1",
   "terme_jantzen_bat": [
+    "sculpture",
     "fenetre",
     "façade",
-    "sculpture",
     "porte-bois",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "chéneau",
+    "corniche",
+    "fenêtre",
+    "garde-corps",
+    "porte",
+    "soupirail",
+    "travée",
+    "vitrail",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Monsieur-le-Prince-6_6_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "arc en plein cintre",
+        "bandeau",
+        "corniche",
+        "chambranle",
+        "volet",
+        "porte",
+        "vitrail",
+        "travée",
+        "chéneau",
+        "soupirail"
       ],
       "dateCapture": "2005:08:29"
     },
@@ -42,6 +74,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:29"
     },
     {
@@ -49,6 +82,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:29"
     },
     {
@@ -57,6 +91,7 @@
         "fenetre",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:22"
     }
   ]

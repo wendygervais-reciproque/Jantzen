@@ -23,11 +23,29 @@
   "WPfr": null,
   "image_ref": "Voltaire-bd-130_11_§1",
   "terme_jantzen_bat": [
+    "clé",
     "fenetre",
     "chimère",
-    "clé",
     "porte-bois",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "chambranle",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "linteau",
+    "mascaron",
+    "modillon",
+    "pierre de taille",
+    "sculpture",
+    "travée"
   ],
   "photos": [
     {
@@ -35,6 +53,24 @@
       "IndexJantzen": [
         "décor",
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "garde-corps",
+        "mascaron",
+        "brique",
+        "pierre de taille",
+        "chaîne d'angle",
+        "modillon",
+        "corniche",
+        "bandeau",
+        "fer forgé",
+        "sculpture",
+        "chambranle",
+        "linteau",
+        "travée"
       ],
       "dateCapture": "2004:09:16"
     },
@@ -44,6 +80,7 @@
         "chimère",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:16"
     },
     {
@@ -52,6 +89,7 @@
         "fenetre",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:17"
     },
     {
@@ -59,6 +97,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:18"
     },
     {
@@ -68,6 +107,7 @@
         "clé",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:18"
     }
   ]

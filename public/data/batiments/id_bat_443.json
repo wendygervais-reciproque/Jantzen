@@ -22,17 +22,67 @@
   "image_ref": "Nation-Pl-11_11_§1",
   "terme_jantzen_bat": [
     "toiture",
-    "lucarne",
-    "tourelle",
+    "balcon",
     "façade-d'angle",
-    "lucarne-d'angle",
-    "balcon"
+    "tourelle",
+    "lucarne",
+    "lucarne-d'angle"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "marquise",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "porte",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "toit à deux versants",
+    "tour",
+    "travée",
+    "volet",
+    "épi de faîtage"
   ],
   "photos": [
     {
       "id_pic": "Nation-Pl-11_11_§1",
       "IndexJantzen": [
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "tour",
+        "épi de faîtage",
+        "souche de cheminée",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "porte-fenêtre",
+        "fronton",
+        "corniche",
+        "bandeau",
+        "mascaron",
+        "pierre de taille",
+        "brique",
+        "ardoise",
+        "toit à deux versants",
+        "lucarne",
+        "porte",
+        "oculus",
+        "volet",
+        "travée",
+        "marquise",
+        "fer forgé"
       ],
       "dateCapture": "2006:10:16"
     },
@@ -42,6 +92,7 @@
         "lucarne",
         "tourelle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:09:06"
     },
     {
@@ -49,6 +100,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:10:16"
     },
     {
@@ -56,6 +108,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:09:06"
     },
     {
@@ -63,6 +116,7 @@
       "IndexJantzen": [
         "façade-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:10:16"
     },
     {
@@ -72,6 +126,7 @@
         "toiture",
         "tourelle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:10:16"
     },
     {
@@ -80,6 +135,7 @@
         "lucarne-d'angle",
         "tourelle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:10:16"
     },
     {
@@ -88,6 +144,7 @@
         "balcon",
         "lucarne-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:10:16"
     },
     {
@@ -97,6 +154,7 @@
         "toiture",
         "tourelle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:10:16"
     },
     {
@@ -105,6 +163,7 @@
         "lucarne",
         "tourelle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:10:16"
     },
     {
@@ -112,6 +171,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:09:06"
     }
   ]

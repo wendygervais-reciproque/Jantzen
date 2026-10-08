@@ -21,8 +21,21 @@
   "WPfr": null,
   "image_ref": "Grands-Augustins-3_6_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "brique"
+    "brique",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "bandeau",
+    "brique",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "lucarne",
+    "pierre de taille",
+    "portail",
+    "travée",
+    "vantail"
   ],
   "photos": [
     {
@@ -30,6 +43,19 @@
       "IndexJantzen": [
         "brique",
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "brique",
+        "pierre de taille",
+        "chaîne d'angle",
+        "fenêtre",
+        "lucarne",
+        "arc en plein cintre",
+        "portail",
+        "vantail",
+        "bandeau",
+        "travée",
+        "corniche"
       ],
       "dateCapture": "2005:05:23"
     },
@@ -39,6 +65,7 @@
         "brique",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:23"
     }
   ]

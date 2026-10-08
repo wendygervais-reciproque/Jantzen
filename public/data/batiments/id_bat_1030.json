@@ -21,9 +21,25 @@
   "WPfr": null,
   "image_ref": "Sentier-15_2_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "verrière",
-    "fenetre-d'angle"
+    "fenetre-d'angle",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "auvent",
+    "baie",
+    "balcon",
+    "balustrade",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mascaron",
+    "pierre de taille",
+    "sculpture",
+    "travée"
   ],
   "photos": [
     {
@@ -31,6 +47,22 @@
       "IndexJantzen": [
         "fenetre-d'angle",
         "verrière"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "corniche",
+        "mascaron",
+        "fenêtre",
+        "baie",
+        "pierre de taille",
+        "travée",
+        "lucarne",
+        "fer forgé",
+        "sculpture",
+        "auvent",
+        "chaîne d'angle"
       ],
       "dateCapture": "2004:09:05"
     },
@@ -40,6 +72,7 @@
         "fenetre",
         "verrière"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:06"
     }
   ]

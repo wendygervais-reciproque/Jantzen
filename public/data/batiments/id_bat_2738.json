@@ -29,17 +29,69 @@
   "image_ref": "Spontini-46_16_§1",
   "terme_jantzen_bat": [
     "toiture",
-    "fenetre",
-    "console",
     "façade-d'angle",
     "sculpture",
+    "console",
+    "fenetre",
     "lucarne-d'angle"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "chapiteau",
+    "chéneau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "grille",
+    "linteau",
+    "lucarne",
+    "mansarde",
+    "oriel",
+    "pierre de taille",
+    "porte",
+    "souche de cheminée",
+    "toit en pavillon",
+    "tour",
+    "vitrail",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Spontini-46_16_§1",
       "IndexJantzen": [
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "tour",
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "volet",
+        "lucarne",
+        "mansarde",
+        "souche de cheminée",
+        "toit en pavillon",
+        "brique",
+        "pierre de taille",
+        "oriel",
+        "corniche",
+        "bandeau",
+        "chéneau",
+        "fer forgé",
+        "ardoise",
+        "grille",
+        "porte",
+        "vitrail",
+        "arc en plein cintre",
+        "linteau",
+        "chapiteau"
       ],
       "dateCapture": "2008:07:27"
     },
@@ -49,6 +101,7 @@
         "lucarne-d'angle",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:07:27"
     },
     {
@@ -57,6 +110,7 @@
         "console",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:07:27"
     },
     {
@@ -65,6 +119,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:07:27"
     }
   ]

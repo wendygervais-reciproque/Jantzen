@@ -21,16 +21,52 @@
   "WPfr": null,
   "image_ref": "Caulaincourt-21_18_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "lucarne",
     "verrière",
-    "façade-d'angle"
+    "fenetre",
+    "façade-d'angle",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "bandeau",
+    "brique",
+    "chapiteau",
+    "colonne",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "lucarne",
+    "mansarde",
+    "oculus",
+    "oriel",
+    "pierre de taille",
+    "souche de cheminée",
+    "toit à deux versants",
+    "verrière",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Caulaincourt-21_18_§1",
       "IndexJantzen": [
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "oriel",
+        "fenêtre",
+        "lucarne",
+        "oculus",
+        "bandeau",
+        "brique",
+        "verrière",
+        "volet",
+        "chapiteau",
+        "colonne",
+        "corniche",
+        "souche de cheminée",
+        "mansarde",
+        "toit à deux versants",
+        "fer forgé",
+        "pierre de taille"
       ],
       "dateCapture": "2006:04:08"
     },
@@ -40,6 +76,7 @@
         "fenetre",
         "verrière"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:08"
     },
     {
@@ -47,6 +84,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:08"
     }
   ]

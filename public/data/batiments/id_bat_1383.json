@@ -25,6 +25,19 @@
     "fenetre",
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "arc en anse de panier",
+    "auvent",
+    "balcon",
+    "brique",
+    "céramique",
+    "fenêtre",
+    "garde-corps",
+    "meneau",
+    "souche de cheminée",
+    "tuile",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Ravignan-19_18_§1",
@@ -32,6 +45,19 @@
         "fenetre",
         "lucarne",
         "toiture"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "souche de cheminée",
+        "tuile",
+        "volet",
+        "balcon",
+        "meneau",
+        "céramique",
+        "auvent",
+        "garde-corps",
+        "arc en anse de panier",
+        "brique"
       ],
       "dateCapture": "2005:09:27"
     },
@@ -41,6 +67,7 @@
         "fenetre",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:09:27"
     }
   ]

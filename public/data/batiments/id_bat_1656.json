@@ -21,8 +21,20 @@
   "WPfr": null,
   "image_ref": "St-Martin-214_3_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "pignon"
+    "pignon",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "chambranle",
+    "fenêtre",
+    "jambage",
+    "lucarne",
+    "mansarde",
+    "mur-boutant",
+    "souche de cheminée",
+    "toit à deux versants",
+    "tuile",
+    "volet"
   ],
   "photos": [
     {
@@ -30,6 +42,18 @@
       "IndexJantzen": [
         "fenetre",
         "pignon"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "lucarne",
+        "mansarde",
+        "souche de cheminée",
+        "tuile",
+        "toit à deux versants",
+        "jambage",
+        "chambranle",
+        "volet",
+        "mur-boutant"
       ],
       "dateCapture": "2004:09:21"
     },
@@ -39,6 +63,7 @@
         "fenetre",
         "pignon"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:21"
     }
   ]

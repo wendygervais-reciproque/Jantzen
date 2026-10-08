@@ -23,11 +23,49 @@
   "terme_jantzen_bat": [
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "corniche",
+    "fenêtre",
+    "fer",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "marquise",
+    "mascaron",
+    "pierre de taille",
+    "souche de cheminée",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Ternes-av-4_17_§2",
       "IndexJantzen": [
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "lucarne",
+        "mansarde",
+        "ardoise",
+        "souche de cheminée",
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "corniche",
+        "fenêtre",
+        "volet",
+        "balustrade",
+        "mascaron",
+        "bandeau",
+        "pierre de taille",
+        "brique",
+        "marquise",
+        "fer"
       ],
       "dateCapture": "2012:04:30"
     },
@@ -36,6 +74,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:07:27"
     },
     {
@@ -43,6 +82,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:07:27"
     }
   ]

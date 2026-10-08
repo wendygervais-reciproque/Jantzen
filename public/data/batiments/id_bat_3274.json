@@ -23,12 +23,27 @@
   "WPfr": null,
   "image_ref": "Courcelles-bd-64_17_§1",
   "terme_jantzen_bat": [
+    "balcon",
+    "sculpture",
+    "console",
     "fenetre",
     "garde-corps",
-    "console",
-    "sculpture",
-    "porte-bois",
-    "balcon"
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bossage",
+    "corniche",
+    "fenêtre",
+    "garde-corps",
+    "linteau",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "vantail",
+    "volet"
   ],
   "photos": [
     {
@@ -36,6 +51,21 @@
       "IndexJantzen": [
         "fenetre",
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "mascaron",
+        "arc en plein cintre",
+        "bossage",
+        "pierre de taille",
+        "corniche",
+        "volet",
+        "vantail",
+        "garde-corps",
+        "linteau"
       ],
       "dateCapture": "2006:06:09"
     },
@@ -45,6 +75,7 @@
         "balcon",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:09"
     },
     {
@@ -53,6 +84,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:09"
     },
     {
@@ -61,6 +93,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:09"
     }
   ]

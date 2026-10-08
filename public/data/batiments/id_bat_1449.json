@@ -21,18 +21,62 @@
   "WPfr": null,
   "image_ref": "Condorcet-2_9_§1",
   "terme_jantzen_bat": [
+    "pilastre",
+    "clé",
     "fenetre",
     "façade",
     "garde-corps",
-    "clé",
-    "pilastre",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chapiteau corinthien",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "linteau",
+    "lucarne",
+    "mascaron",
+    "pilastre",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Condorcet-2_9_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "garde-corps",
+        "fronton",
+        "mascaron",
+        "pilastre",
+        "chapiteau corinthien",
+        "corniche",
+        "lucarne",
+        "ardoise",
+        "souche de cheminée",
+        "fer forgé",
+        "arc en plein cintre",
+        "linteau",
+        "bandeau",
+        "travée",
+        "toit à deux versants",
+        "volet",
+        "porte-fenêtre"
       ],
       "dateCapture": "2005:04:11"
     },
@@ -43,6 +87,7 @@
         "fenetre",
         "pilastre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:09:08"
     },
     {
@@ -50,6 +95,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:09:22"
     },
     {
@@ -57,6 +103,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:10:14"
     },
     {
@@ -64,6 +111,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:09:05"
     },
     {
@@ -72,6 +120,7 @@
         "clé",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:10:14"
     },
     {
@@ -79,6 +128,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:10:14"
     },
     {
@@ -87,6 +137,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:09:08"
     },
     {
@@ -95,6 +146,7 @@
         "fenetre",
         "pilastre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:09:08"
     }
   ]

@@ -28,10 +28,25 @@
   "WPfr": null,
   "image_ref": "Delessert-19_16_§1",
   "terme_jantzen_bat": [
-    "porte-fer",
-    "fenetre",
     "garde-corps",
-    "balcon"
+    "balcon",
+    "fenetre",
+    "porte-fer"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "oriel",
+    "pierre de taille",
+    "porte-fenêtre",
+    "sculpture",
+    "vitrail",
+    "volet"
   ],
   "photos": [
     {
@@ -41,6 +56,21 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "fenêtre",
+        "porte-fenêtre",
+        "volet",
+        "fer forgé",
+        "arc en plein cintre",
+        "pierre de taille",
+        "sculpture",
+        "mascaron",
+        "vitrail",
+        "oriel"
+      ],
       "dateCapture": "2005:06:07"
     },
     {
@@ -49,6 +79,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:03:16"
     },
     {
@@ -56,6 +87,7 @@
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:03:16"
     }
   ]

@@ -28,14 +28,45 @@
   "WPfr": null,
   "image_ref": "Batignolles-bd-45_8_§1",
   "terme_jantzen_bat": [
+    "sculpture",
     "fenetre",
     "façade",
-    "porte",
-    "sculpture",
-    "porte-bois",
     "brique",
-    "décor",
-    "colonne"
+    "porte",
+    "colonne",
+    "porte-bois",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc brisé",
+    "arc en plein cintre",
+    "arcade",
+    "attique",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "cariatide",
+    "chambranle",
+    "chapiteau",
+    "colonne",
+    "corniche",
+    "fenêtre",
+    "frise",
+    "fronton",
+    "garde-corps",
+    "grille",
+    "linteau",
+    "mascaron",
+    "meneau",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "porte-fenêtre",
+    "sculpture",
+    "souche de cheminée",
+    "travée"
   ],
   "photos": [
     {
@@ -44,6 +75,37 @@
         "façade",
         "porte"
       ],
+      "IndexTorneh": [
+        "arc en plein cintre",
+        "arc brisé",
+        "fronton",
+        "balcon",
+        "balustrade",
+        "corniche",
+        "frise",
+        "pilastre",
+        "colonne",
+        "chapiteau",
+        "cariatide",
+        "mascaron",
+        "sculpture",
+        "fenêtre",
+        "porte",
+        "porte-fenêtre",
+        "oculus",
+        "brique",
+        "pierre de taille",
+        "grille",
+        "garde-corps",
+        "travée",
+        "attique",
+        "bandeau",
+        "linteau",
+        "chambranle",
+        "meneau",
+        "souche de cheminée",
+        "arcade"
+      ],
       "dateCapture": "2010:04:11"
     },
     {
@@ -51,6 +113,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:03:15"
     },
     {
@@ -61,6 +124,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:03:15"
     },
     {
@@ -68,6 +132,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:04:11"
     },
     {
@@ -76,6 +141,7 @@
         "colonne",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:04:11"
     }
   ]

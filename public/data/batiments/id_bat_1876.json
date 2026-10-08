@@ -32,18 +32,35 @@
   "WPfr": null,
   "image_ref": "Ternes-Av-26_17_§1-Rx",
   "terme_jantzen_bat": [
-    "marquise",
+    "verrière",
+    "dome",
+    "façade-d'angle",
+    "tourelle",
+    "mosaique",
+    "fenetre-d'angle",
     "fenetre",
+    "intérieur",
     "lucarne",
     "façade",
-    "tourelle",
-    "façade-d'angle",
-    "mosaique",
-    "dome",
-    "fenetre-d'angle",
-    "intérieur",
-    "verrière",
+    "marquise",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "auvent",
+    "balcon",
+    "balustrade",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "mur-boutant",
+    "oculus",
+    "pierre de taille",
+    "toit à deux versants",
+    "tour",
+    "verrière",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -52,6 +69,7 @@
         "dome",
         "tourelle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:01:21"
     },
     {
@@ -60,6 +78,7 @@
         "fenetre",
         "verrière"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:12:10"
     },
     {
@@ -70,6 +89,7 @@
         "lucarne",
         "verrière"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:10:11"
     },
     {
@@ -80,6 +100,7 @@
         "lucarne",
         "verrière"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2014:02:08"
     },
     {
@@ -89,6 +110,7 @@
         "fenetre",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:03:03"
     },
     {
@@ -99,6 +121,7 @@
         "lucarne",
         "verrière"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:02:02"
     },
     {
@@ -107,6 +130,7 @@
         "décor",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:10:11"
     },
     {
@@ -114,6 +138,23 @@
       "IndexJantzen": [
         "dome",
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "dôme",
+        "tour",
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "oculus",
+        "verrière",
+        "fer forgé",
+        "garde-corps",
+        "auvent",
+        "épi de faîtage",
+        "toit à deux versants",
+        "pierre de taille",
+        "fronton",
+        "mur-boutant"
       ],
       "dateCapture": "2012:02:02"
     },
@@ -123,6 +164,7 @@
         "dome",
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2014:02:19"
     },
     {
@@ -131,6 +173,7 @@
         "fenetre",
         "verrière"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:02:02"
     },
     {
@@ -140,6 +183,7 @@
         "fenetre",
         "verrière"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:10:11"
     },
     {
@@ -150,6 +194,7 @@
         "mosaique",
         "verrière"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:02:02"
     },
     {
@@ -159,6 +204,7 @@
         "fenetre",
         "verrière"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:10:11"
     },
     {
@@ -168,6 +214,7 @@
         "fenetre",
         "verrière"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:03:14"
     },
     {
@@ -178,6 +225,7 @@
         "intérieur",
         "verrière"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2015:10:08"
     },
     {
@@ -187,6 +235,7 @@
         "fenetre",
         "mosaique"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:02:02"
     },
     {
@@ -196,6 +245,7 @@
         "fenetre",
         "mosaique"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:10:25"
     },
     {
@@ -205,6 +255,7 @@
         "fenetre",
         "mosaique"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2013:02:07"
     },
     {
@@ -214,6 +265,7 @@
         "fenetre",
         "mosaique"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2013:02:07"
     },
     {
@@ -222,6 +274,7 @@
         "dome",
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:04:19"
     },
     {
@@ -231,6 +284,7 @@
         "fenetre",
         "mosaique"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:10:06"
     },
     {
@@ -239,6 +293,7 @@
         "dome",
         "façade-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2014:05:14"
     },
     {
@@ -247,6 +302,7 @@
         "dome",
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2013:07:16"
     },
     {
@@ -254,6 +310,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:03:19"
     },
     {
@@ -261,6 +318,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:02:02"
     },
     {
@@ -268,6 +326,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2014:02:19"
     },
     {
@@ -277,6 +336,7 @@
         "marquise",
         "mosaique"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2014:05:14"
     },
     {
@@ -287,6 +347,7 @@
         "mosaique",
         "verrière"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:03:19"
     },
     {
@@ -297,6 +358,7 @@
         "mosaique",
         "verrière"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:03:17"
     },
     {
@@ -306,6 +368,7 @@
         "fenetre",
         "mosaique"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:03:17"
     },
     {
@@ -315,6 +378,7 @@
         "fenetre",
         "verrière"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:03:17"
     },
     {
@@ -324,6 +388,7 @@
         "fenetre",
         "verrière"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:03:17"
     },
     {
@@ -333,6 +398,7 @@
         "fenetre",
         "verrière"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:03:17"
     },
     {
@@ -341,6 +407,7 @@
         "décor",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:03:17"
     },
     {
@@ -350,6 +417,7 @@
         "fenetre-d'angle",
         "mosaique"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:02:02"
     },
     {
@@ -359,6 +427,7 @@
         "fenetre-d'angle",
         "mosaique"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:04:19"
     },
     {
@@ -367,6 +436,7 @@
         "fenetre",
         "verrière"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:03:28"
     },
     {
@@ -375,6 +445,7 @@
         "fenetre",
         "verrière"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2014:02:08"
     },
     {
@@ -385,6 +456,7 @@
         "fenetre",
         "mosaique"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:12:10"
     }
   ]

@@ -31,12 +31,48 @@
     "fenetre",
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bossage",
+    "chambranle",
+    "chapiteau composite",
+    "fenêtre",
+    "fer forgé",
+    "grille",
+    "mascaron",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "porte-fenêtre",
+    "sculpture",
+    "vantail",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Bourgogne-14_7_§1",
       "IndexJantzen": [
         "fenetre",
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "porte-fenêtre",
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "mascaron",
+        "sculpture",
+        "pilastre",
+        "chapiteau composite",
+        "pierre de taille",
+        "volet",
+        "vantail",
+        "fer forgé",
+        "grille",
+        "chambranle",
+        "bossage"
       ],
       "dateCapture": "2005:05:28"
     },
@@ -45,6 +81,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:28"
     }
   ]

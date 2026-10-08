@@ -24,12 +24,44 @@
     "verrière",
     "façade-d'angle"
   ],
+  "terme_torneh_bat": [
+    "baie",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "pierre de taille",
+    "porte",
+    "souche de cheminée",
+    "toit-terrasse",
+    "travée",
+    "vitrail"
+  ],
   "photos": [
     {
       "id_pic": "St-Senoch-17_17_§1",
       "IndexJantzen": [
         "façade-d'angle",
         "verrière"
+      ],
+      "IndexTorneh": [
+        "baie",
+        "balcon",
+        "balustrade",
+        "bandeau",
+        "fenêtre",
+        "garde-corps",
+        "corniche",
+        "souche de cheminée",
+        "toit-terrasse",
+        "vitrail",
+        "porte",
+        "travée",
+        "pierre de taille",
+        "fer forgé"
       ],
       "dateCapture": "2006:06:08"
     },
@@ -39,6 +71,7 @@
         "façade-d'angle",
         "verrière"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:08"
     }
   ]

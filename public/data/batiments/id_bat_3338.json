@@ -23,9 +23,22 @@
   "WPfr": null,
   "image_ref": "J-J-Rousseau-68_1_§1",
   "terme_jantzen_bat": [
-    "fenetre",
+    "pilastre",
     "sculpture",
-    "pilastre"
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc en anse de panier",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "gros appareil",
+    "mascaron",
+    "pilastre",
+    "porte-fenêtre",
+    "volet"
   ],
   "photos": [
     {
@@ -35,6 +48,19 @@
         "pilastre",
         "sculpture"
       ],
+      "IndexTorneh": [
+        "corniche",
+        "mascaron",
+        "porte-fenêtre",
+        "garde-corps",
+        "volet",
+        "pilastre",
+        "chambranle",
+        "arc en anse de panier",
+        "fer forgé",
+        "gros appareil",
+        "fenêtre"
+      ],
       "dateCapture": "2006:04:21"
     },
     {
@@ -43,6 +69,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:21"
     }
   ]

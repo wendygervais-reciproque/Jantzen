@@ -24,11 +24,35 @@
     "poignée-porte",
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "fer forgé",
+    "garde-corps",
+    "heurtoir",
+    "huisserie",
+    "linteau",
+    "pierre de taille",
+    "porte",
+    "vantail",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Turenne-35_3_§1",
       "IndexJantzen": [
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "vantail",
+        "huisserie",
+        "linteau",
+        "heurtoir",
+        "pierre de taille",
+        "balcon",
+        "garde-corps",
+        "volet",
+        "fer forgé"
       ],
       "dateCapture": "2003:07:08"
     },
@@ -37,6 +61,7 @@
       "IndexJantzen": [
         "poignée-porte"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:07:08"
     }
   ]

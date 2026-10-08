@@ -23,11 +23,31 @@
   "terme_jantzen_bat": [
     "façade"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "souche de cheminée",
+    "travée",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "St-Ferdinand-8_17_§1_1-Rx",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "volet",
+        "balcon",
+        "garde-corps",
+        "corniche",
+        "souche de cheminée",
+        "travée",
+        "fer forgé"
       ],
       "dateCapture": "2013:07:06"
     }

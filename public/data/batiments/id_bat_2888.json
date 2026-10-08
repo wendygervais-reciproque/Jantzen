@@ -32,11 +32,63 @@
     "console",
     "façade-d'angle"
   ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "ardoise",
+    "baie",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oriel",
+    "pierre de taille",
+    "porte",
+    "souche de cheminée",
+    "toit à deux versants",
+    "tour",
+    "travée",
+    "tuile"
+  ],
   "photos": [
     {
       "id_pic": "Paul-Dubois-5_3_§1",
       "IndexJantzen": [
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "baie",
+        "bandeau",
+        "brique",
+        "corniche",
+        "fenêtre",
+        "fer forgé",
+        "garde-corps",
+        "lucarne",
+        "mansarde",
+        "mascaron",
+        "oriel",
+        "pierre de taille",
+        "tour",
+        "toit à deux versants",
+        "travée",
+        "tuile",
+        "ardoise",
+        "porte",
+        "arc",
+        "arc en plein cintre",
+        "chaîne d'angle",
+        "souche de cheminée"
       ],
       "dateCapture": "2004:09:21"
     },
@@ -46,6 +98,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:21"
     }
   ]

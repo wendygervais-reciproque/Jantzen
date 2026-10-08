@@ -33,12 +33,38 @@
     "fronton",
     "tourelle"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "attique",
+    "corniche",
+    "fenêtre",
+    "frise",
+    "fronton",
+    "pierre de taille",
+    "pilastre",
+    "sculpture",
+    "tuile",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Hopital-bd-151_13_§1",
       "IndexJantzen": [
         "fronton",
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "fronton",
+        "sculpture",
+        "arc en plein cintre",
+        "fenêtre",
+        "volet",
+        "corniche",
+        "frise",
+        "pilastre",
+        "pierre de taille",
+        "tuile",
+        "attique"
       ],
       "dateCapture": "2005:06:14"
     },
@@ -48,6 +74,7 @@
         "brique",
         "tourelle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:14"
     }
   ]

@@ -23,11 +23,33 @@
   "terme_jantzen_bat": [
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "chéneau",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "porte-fenêtre",
+    "toit à deux versants"
+  ],
   "photos": [
     {
       "id_pic": "St-Germain-167_6_§1",
       "IndexJantzen": [
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "lucarne",
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "balustrade",
+        "toit à deux versants",
+        "chéneau",
+        "fer forgé",
+        "porte-fenêtre"
       ],
       "dateCapture": "2005:08:11"
     }

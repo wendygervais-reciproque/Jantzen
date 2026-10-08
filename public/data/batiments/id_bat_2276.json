@@ -21,10 +21,26 @@
   "WPfr": null,
   "image_ref": "Amiral-Hamelin-34_16_§2",
   "terme_jantzen_bat": [
-    "fenetre",
+    "pilastre",
     "sculpture",
-    "décor",
-    "pilastre"
+    "fenetre",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "pierre de taille",
+    "pilastre",
+    "sculpture",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -34,6 +50,22 @@
         "fenetre",
         "pilastre",
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "volet",
+        "balustrade",
+        "pierre de taille",
+        "bandeau",
+        "corniche",
+        "pilastre",
+        "arc en plein cintre",
+        "mascaron",
+        "travée",
+        "sculpture",
+        "fer forgé"
       ],
       "dateCapture": "2004:10:22"
     }

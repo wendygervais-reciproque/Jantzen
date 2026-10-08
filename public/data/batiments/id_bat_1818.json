@@ -28,11 +28,28 @@
   "WPfr": null,
   "image_ref": "St-Marc-24_2_§1",
   "terme_jantzen_bat": [
+    "verrière",
     "porte-fer",
     "fenetre",
     "métal",
-    "verrière",
     "colonne"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "colonne",
+    "corniche",
+    "fenêtre",
+    "fer",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mascaron",
+    "pierre de taille",
+    "sculpture",
+    "toit à deux versants",
+    "travée"
   ],
   "photos": [
     {
@@ -41,6 +58,23 @@
         "fenetre",
         "métal",
         "verrière"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "corniche",
+        "colonne",
+        "pierre de taille",
+        "sculpture",
+        "mascaron",
+        "fer forgé",
+        "travée",
+        "lucarne",
+        "toit à deux versants",
+        "ardoise",
+        "fer"
       ],
       "dateCapture": "2004:09:01"
     },
@@ -52,6 +86,7 @@
         "métal",
         "verrière"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:01"
     },
     {
@@ -59,6 +94,7 @@
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:01"
     }
   ]

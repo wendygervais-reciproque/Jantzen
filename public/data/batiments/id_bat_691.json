@@ -21,16 +21,64 @@
   "WPfr": null,
   "image_ref": "St-Maur-12_11_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "façade",
     "sculpture",
+    "fenetre",
     "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "chapiteau",
+    "corniche",
+    "fenêtre",
+    "frise",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "modillon",
+    "pierre de taille",
+    "pilastre",
+    "porte-fenêtre",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "St-Maur-12_11_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "arc en plein cintre",
+        "balustrade",
+        "corniche",
+        "pilastre",
+        "chapiteau",
+        "sculpture",
+        "mascaron",
+        "frise",
+        "modillon",
+        "bandeau",
+        "chambranle",
+        "toit à deux versants",
+        "lucarne",
+        "souche de cheminée",
+        "ardoise",
+        "mansarde",
+        "porte-fenêtre",
+        "pierre de taille",
+        "volet"
       ],
       "dateCapture": "2004:09:16"
     },
@@ -40,6 +88,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:16"
     },
     {
@@ -48,6 +97,7 @@
         "fenetre",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:16"
     }
   ]

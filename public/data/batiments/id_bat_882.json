@@ -22,16 +22,58 @@
   "image_ref": "Francois-1er-pl-14_8_§1-Rx",
   "terme_jantzen_bat": [
     "toiture",
-    "lucarne",
     "façade-d'angle",
-    "chimère",
-    "clé"
+    "clé",
+    "lucarne",
+    "chimère"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "grille",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "sculpture",
+    "souche de cheminée",
+    "tour",
+    "épi de faîtage"
   ],
   "photos": [
     {
       "id_pic": "Francois-1er-pl-14_8_§1-Rx",
       "IndexJantzen": [
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "tour",
+        "lucarne",
+        "oculus",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "mansarde",
+        "souche de cheminée",
+        "épi de faîtage",
+        "ardoise",
+        "pierre de taille",
+        "corniche",
+        "fronton",
+        "arc en plein cintre",
+        "sculpture",
+        "mascaron",
+        "grille",
+        "pilastre"
       ],
       "dateCapture": "2012:07:23"
     },
@@ -40,6 +82,7 @@
       "IndexJantzen": [
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:07:23"
     },
     {
@@ -47,6 +90,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:27"
     },
     {
@@ -55,6 +99,7 @@
         "lucarne",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:27"
     },
     {
@@ -63,6 +108,7 @@
         "chimère",
         "clé"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:07:23"
     }
   ]

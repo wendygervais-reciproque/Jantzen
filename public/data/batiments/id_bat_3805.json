@@ -21,11 +21,35 @@
   "WPfr": null,
   "image_ref": "Milan-9_9_§1",
   "terme_jantzen_bat": [
+    "verrière",
+    "dome",
     "lucarne",
     "façade",
-    "dome",
-    "porte-bois",
-    "verrière"
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en anse de panier",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "porte-fenêtre",
+    "sculpture",
+    "vantail",
+    "volet"
   ],
   "photos": [
     {
@@ -33,6 +57,30 @@
       "IndexJantzen": [
         "façade",
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "fenêtre",
+        "porte",
+        "porte-fenêtre",
+        "oculus",
+        "lucarne",
+        "mansarde",
+        "ardoise",
+        "vantail",
+        "portail",
+        "sculpture",
+        "mascaron",
+        "pierre de taille",
+        "corniche",
+        "bandeau",
+        "fer forgé",
+        "arc",
+        "arc en anse de panier",
+        "volet",
+        "fronton"
       ],
       "dateCapture": "2005:07:14"
     },
@@ -43,6 +91,7 @@
         "façade",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:14"
     },
     {
@@ -51,6 +100,7 @@
         "lucarne",
         "verrière"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:14"
     },
     {
@@ -59,6 +109,7 @@
         "lucarne",
         "verrière"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:14"
     },
     {
@@ -66,6 +117,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:14"
     }
   ]

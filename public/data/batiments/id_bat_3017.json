@@ -24,12 +24,36 @@
     "toiture",
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "corniche",
+    "fenêtre",
+    "garde-corps",
+    "lucarne",
+    "souche de cheminée",
+    "toit à deux versants",
+    "tuile",
+    "édicule",
+    "épi de faîtage"
+  ],
   "photos": [
     {
       "id_pic": "Bretagne-55_3_§1",
       "IndexJantzen": [
         "lucarne",
         "toiture"
+      ],
+      "IndexTorneh": [
+        "lucarne",
+        "souche de cheminée",
+        "fenêtre",
+        "garde-corps",
+        "ardoise",
+        "tuile",
+        "corniche",
+        "épi de faîtage",
+        "toit à deux versants",
+        "édicule"
       ],
       "dateCapture": "2007:06:03"
     },
@@ -39,6 +63,7 @@
         "lucarne",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:22"
     }
   ]

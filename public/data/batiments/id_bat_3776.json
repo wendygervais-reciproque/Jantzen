@@ -23,11 +23,33 @@
   "terme_jantzen_bat": [
     "fenetre"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "bandeau",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "pierre de taille",
+    "porte-fenêtre"
+  ],
   "photos": [
     {
       "id_pic": "Poissonniere-Bd-9_2_§1",
       "IndexJantzen": [
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "porte-fenêtre",
+        "garde-corps",
+        "arc en plein cintre",
+        "corniche",
+        "pierre de taille",
+        "bandeau",
+        "chambranle",
+        "fer forgé"
       ],
       "dateCapture": "2007:06:03"
     }

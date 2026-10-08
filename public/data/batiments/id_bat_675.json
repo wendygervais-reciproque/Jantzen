@@ -24,12 +24,32 @@
     "fenetre",
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "chambranle",
+    "fenêtre",
+    "grille",
+    "gros appareil",
+    "pierre de taille",
+    "porte-fenêtre",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Laplace-12_5_§1",
       "IndexJantzen": [
         "fenetre",
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "arc en plein cintre",
+        "gros appareil",
+        "pierre de taille",
+        "vantail",
+        "porte-fenêtre",
+        "chambranle",
+        "grille",
+        "fenêtre"
       ],
       "dateCapture": "2005:05:27"
     }

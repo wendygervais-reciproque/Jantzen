@@ -21,12 +21,36 @@
   "WPfr": null,
   "image_ref": "Le-Tasse-9_16_§2",
   "terme_jantzen_bat": [
-    "console",
-    "façade-d'angle",
-    "sculpture",
-    "tour",
     "balcon",
+    "façade-d'angle",
+    "tour",
+    "sculpture",
+    "console",
     "colonne"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "avant-corps",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "grille",
+    "lucarne",
+    "mascaron",
+    "oculus",
+    "oriel",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "porte-fenêtre",
+    "sculpture",
+    "souche de cheminée",
+    "toit en pavillon",
+    "travée"
   ],
   "photos": [
     {
@@ -34,6 +58,7 @@
       "IndexJantzen": [
         "façade-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:12"
     },
     {
@@ -41,6 +66,30 @@
       "IndexJantzen": [
         "façade-d'angle",
         "tour"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "garde-corps",
+        "corniche",
+        "bandeau",
+        "toit en pavillon",
+        "souche de cheminée",
+        "oculus",
+        "lucarne",
+        "sculpture",
+        "mascaron",
+        "pilastre",
+        "porte",
+        "porte-fenêtre",
+        "grille",
+        "pierre de taille",
+        "travée",
+        "avant-corps",
+        "fronton",
+        "ardoise",
+        "oriel"
       ],
       "dateCapture": "2005:04:03"
     },
@@ -51,6 +100,7 @@
         "colonne",
         "tour"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:12"
     },
     {
@@ -59,6 +109,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:03"
     },
     {
@@ -67,6 +118,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:03"
     }
   ]

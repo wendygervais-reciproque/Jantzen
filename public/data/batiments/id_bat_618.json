@@ -22,9 +22,26 @@
   "image_ref": "Pereire-12_17_§1",
   "terme_jantzen_bat": [
     "sculpture",
-    "fenetre",
+    "chimère",
     "console",
-    "chimère"
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "auvent",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "frise",
+    "garde-corps",
+    "mascaron",
+    "modillon",
+    "pierre de taille",
+    "porte-fenêtre",
+    "sculpture",
+    "volet"
   ],
   "photos": [
     {
@@ -33,6 +50,23 @@
         "console",
         "fenetre",
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "fenêtre",
+        "porte-fenêtre",
+        "mascaron",
+        "corniche",
+        "bandeau",
+        "frise",
+        "pierre de taille",
+        "fer forgé",
+        "volet",
+        "auvent",
+        "sculpture",
+        "modillon"
       ],
       "dateCapture": "2004:04:16"
     },
@@ -43,6 +77,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:04:16"
     }
   ]

@@ -29,18 +29,50 @@
   "image_ref": "Francs-Bourgeois-27_3_§1",
   "terme_jantzen_bat": [
     "toiture",
-    "lucarne",
-    "pignon",
     "façade-d'angle",
+    "pignon",
     "sculpture",
     "fenetre-d'angle",
+    "lucarne",
     "fronton"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "brique",
+    "chéneau",
+    "corniche",
+    "fenêtre",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "pierre de taille",
+    "souche de cheminée",
+    "toit à deux versants",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Francs-Bourgeois-27_3_§1",
       "IndexJantzen": [
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "arc en plein cintre",
+        "balcon",
+        "balustrade",
+        "brique",
+        "chéneau",
+        "corniche",
+        "fenêtre",
+        "garde-corps",
+        "lucarne",
+        "mansarde",
+        "pierre de taille",
+        "souche de cheminée",
+        "toit à deux versants",
+        "volet"
       ],
       "dateCapture": "2006:04:22"
     },
@@ -50,6 +82,7 @@
         "lucarne",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:03"
     },
     {
@@ -59,6 +92,7 @@
         "lucarne",
         "pignon"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:08"
     },
     {
@@ -66,6 +100,7 @@
       "IndexJantzen": [
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:08"
     },
     {
@@ -75,6 +110,7 @@
         "fronton",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:08"
     }
   ]

@@ -23,11 +23,41 @@
   "terme_jantzen_bat": [
     "façade"
   ],
+  "terme_torneh_bat": [
+    "auvent",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "porte",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée"
+  ],
   "photos": [
     {
       "id_pic": "Sevres-5-7_6_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "mansarde",
+        "lucarne",
+        "toit à deux versants",
+        "souche de cheminée",
+        "balustrade",
+        "bandeau",
+        "travée",
+        "porte",
+        "fer forgé",
+        "auvent"
       ],
       "dateCapture": "2005:04:02"
     }

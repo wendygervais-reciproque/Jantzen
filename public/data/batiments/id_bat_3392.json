@@ -32,18 +32,46 @@
   "WPfr": null,
   "image_ref": "Daubenton-7_5_§1",
   "terme_jantzen_bat": [
+    "balcon",
+    "façade-d'angle",
+    "fenetre-d'angle",
     "fenetre",
     "lucarne",
-    "façade-d'angle",
-    "porte-fer-hall",
-    "fenetre-d'angle",
-    "balcon"
+    "porte-fer-hall"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "brique",
+    "céramique",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "oriel",
+    "toit-terrasse",
+    "tour",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Daubenton-7_5_§1",
       "IndexJantzen": [
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "oriel",
+        "volet",
+        "tour",
+        "travée",
+        "toit-terrasse",
+        "brique",
+        "céramique",
+        "fer forgé"
       ],
       "dateCapture": "2005:04:11"
     },
@@ -53,6 +81,7 @@
         "balcon",
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:11"
     },
     {
@@ -61,6 +90,7 @@
         "fenetre",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:11"
     },
     {
@@ -68,6 +98,7 @@
       "IndexJantzen": [
         "porte-fer-hall"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:11"
     }
   ]

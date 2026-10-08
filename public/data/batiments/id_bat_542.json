@@ -28,14 +28,37 @@
   "WPfr": null,
   "image_ref": "Champs-Elysees-114_8_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "console",
-    "sculpture",
-    "dome",
     "loggia",
-    "lucarne-d'angle",
     "balcon",
+    "dome",
+    "sculpture",
+    "console",
+    "fenetre",
+    "lucarne-d'angle",
     "colonne"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "chapiteau corinthien",
+    "colonne",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "porte-fenêtre",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants"
   ],
   "photos": [
     {
@@ -44,6 +67,29 @@
         "balcon",
         "dome",
         "lucarne-d'angle"
+      ],
+      "IndexTorneh": [
+        "dôme",
+        "oculus",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "colonne",
+        "chapiteau corinthien",
+        "fronton",
+        "mascaron",
+        "souche de cheminée",
+        "ardoise",
+        "lucarne",
+        "fenêtre",
+        "porte-fenêtre",
+        "pierre de taille",
+        "corniche",
+        "sculpture",
+        "arc en plein cintre",
+        "mansarde",
+        "toit à deux versants"
       ],
       "dateCapture": "2007:02:04"
     },
@@ -56,6 +102,7 @@
         "loggia",
         "lucarne-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:02:04"
     },
     {
@@ -65,6 +112,7 @@
         "loggia",
         "lucarne-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:02:04"
     },
     {
@@ -74,6 +122,7 @@
         "loggia",
         "lucarne-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:04:01"
     },
     {
@@ -83,6 +132,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:09"
     }
   ]

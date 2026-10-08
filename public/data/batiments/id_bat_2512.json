@@ -21,15 +21,47 @@
   "WPfr": null,
   "image_ref": "Gabriel-Vicaire-4_3_§1",
   "terme_jantzen_bat": [
+    "brique",
     "fenetre",
-    "décor",
-    "brique"
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "avant-corps",
+    "balcon",
+    "brique",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "frise",
+    "fronton",
+    "garde-corps",
+    "pierre de taille",
+    "pilastre",
+    "travée"
   ],
   "photos": [
     {
       "id_pic": "Gabriel-Vicaire-4_3_§1",
       "IndexJantzen": [
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "arc en plein cintre",
+        "chaîne d'angle",
+        "brique",
+        "pierre de taille",
+        "corniche",
+        "frise",
+        "balcon",
+        "garde-corps",
+        "avant-corps",
+        "travée",
+        "arc",
+        "fronton",
+        "pilastre"
       ],
       "dateCapture": "2004:09:01"
     },
@@ -39,6 +71,7 @@
         "décor",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:01"
     },
     {
@@ -48,6 +81,7 @@
         "décor",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:01"
     }
   ]

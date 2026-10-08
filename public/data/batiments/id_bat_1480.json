@@ -21,9 +21,25 @@
   "WPfr": null,
   "image_ref": "Descartes-2_5_§1",
   "terme_jantzen_bat": [
-    "lucarne",
     "façade",
-    "voie"
+    "voie",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "auvent",
+    "balcon",
+    "balustrade",
+    "fenêtre",
+    "garde-corps",
+    "grille",
+    "lucarne",
+    "mansarde",
+    "porte",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -32,6 +48,22 @@
         "façade",
         "voie"
       ],
+      "IndexTorneh": [
+        "fenêtre",
+        "mansarde",
+        "lucarne",
+        "souche de cheminée",
+        "balcon",
+        "garde-corps",
+        "volet",
+        "toit à deux versants",
+        "ardoise",
+        "porte",
+        "grille",
+        "travée",
+        "balustrade",
+        "auvent"
+      ],
       "dateCapture": "2015:10:08"
     },
     {
@@ -39,6 +71,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:09:27"
     },
     {
@@ -46,6 +79,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:09:27"
     }
   ]

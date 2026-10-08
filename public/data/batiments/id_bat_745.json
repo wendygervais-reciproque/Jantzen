@@ -22,8 +22,20 @@
   "image_ref": "Vieille-du-Temple-127_3_§1",
   "terme_jantzen_bat": [
     "toiture",
-    "lucarne",
-    "pignon"
+    "pignon",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "chaîne d'angle",
+    "chéneau",
+    "corniche",
+    "fenêtre",
+    "mansarde",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "toit à deux versants",
+    "volet"
   ],
   "photos": [
     {
@@ -31,6 +43,18 @@
       "IndexJantzen": [
         "lucarne",
         "pignon"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "mansarde",
+        "ardoise",
+        "chaîne d'angle",
+        "souche de cheminée",
+        "volet",
+        "porte-fenêtre",
+        "chéneau",
+        "corniche",
+        "toit à deux versants"
       ],
       "dateCapture": "2006:04:22"
     },
@@ -41,6 +65,7 @@
         "pignon",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:22"
     }
   ]

@@ -33,12 +33,29 @@
   "image_ref": "Segur-50_15_§1",
   "terme_jantzen_bat": [
     "porte-fer",
-    "console",
-    "métal",
     "oriel",
+    "console",
     "brique",
+    "métal",
     "céramique",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "brique",
+    "corniche",
+    "céramique",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "modillon",
+    "oculus",
+    "oriel",
+    "pierre de taille",
+    "sculpture",
+    "travée"
   ],
   "photos": [
     {
@@ -47,6 +64,23 @@
         "brique",
         "céramique",
         "oriel"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "brique",
+        "céramique",
+        "oriel",
+        "oculus",
+        "sculpture",
+        "modillon",
+        "corniche",
+        "balustrade",
+        "mascaron",
+        "fer forgé",
+        "travée",
+        "pierre de taille"
       ],
       "dateCapture": "2006:04:04"
     },
@@ -58,6 +92,7 @@
         "décor",
         "métal"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:05:23"
     },
     {
@@ -65,6 +100,7 @@
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:09"
     },
     {
@@ -72,6 +108,7 @@
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:03:16"
     },
     {
@@ -79,6 +116,7 @@
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:03:16"
     },
     {
@@ -88,6 +126,7 @@
         "céramique",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:04"
     },
     {
@@ -98,6 +137,7 @@
         "décor",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:04"
     },
     {
@@ -107,6 +147,7 @@
         "céramique",
         "décor"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:04"
     },
     {
@@ -117,6 +158,7 @@
         "décor",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:09"
     },
     {
@@ -126,6 +168,7 @@
         "céramique",
         "décor"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:04"
     },
     {
@@ -136,6 +179,7 @@
         "céramique",
         "métal"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:09"
     },
     {
@@ -146,6 +190,7 @@
         "céramique",
         "métal"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:09"
     }
   ]

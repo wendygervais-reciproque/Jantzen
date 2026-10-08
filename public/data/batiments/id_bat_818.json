@@ -29,17 +29,49 @@
   "image_ref": "Tocqueville-130_17_§1",
   "terme_jantzen_bat": [
     "porte-fer",
+    "sculpture",
     "fenetre",
     "façade",
+    "poignée-porte",
+    "garde-corps"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "fenêtre",
+    "fer forgé",
     "garde-corps",
-    "sculpture",
-    "poignée-porte"
+    "lucarne",
+    "mansarde",
+    "oriel",
+    "pierre de taille",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "travée"
   ],
   "photos": [
     {
       "id_pic": "Tocqueville-130_17_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "garde-corps",
+        "fer forgé",
+        "mansarde",
+        "lucarne",
+        "souche de cheminée",
+        "bandeau",
+        "pierre de taille",
+        "travée",
+        "ardoise",
+        "oriel",
+        "porte-fenêtre"
       ],
       "dateCapture": "2004:07:02"
     },
@@ -49,6 +81,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:02"
     },
     {
@@ -57,6 +90,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:02"
     },
     {
@@ -64,6 +98,7 @@
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:06:02"
     },
     {
@@ -71,6 +106,7 @@
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:08"
     },
     {
@@ -79,6 +115,7 @@
         "poignée-porte",
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:08"
     }
   ]

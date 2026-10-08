@@ -30,11 +30,31 @@
   "terme_jantzen_bat": [
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "arc",
+    "chambranle",
+    "jambage",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Emile-Zola-76_15_§1",
       "IndexJantzen": [
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "portail",
+        "arc",
+        "chambranle",
+        "vantail",
+        "pierre de taille",
+        "sculpture",
+        "jambage"
       ],
       "dateCapture": "2005:04:03"
     }

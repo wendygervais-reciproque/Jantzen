@@ -28,10 +28,30 @@
   "WPfr": null,
   "image_ref": "Convention-45_15_§1",
   "terme_jantzen_bat": [
-    "lucarne",
     "brique",
+    "porte-fer-hall",
     "façade",
-    "porte-fer-hall"
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "bossage",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "sculpture",
+    "souche de cheminée",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -39,6 +59,26 @@
       "IndexJantzen": [
         "brique",
         "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "garde-corps",
+        "lucarne",
+        "mansarde",
+        "volet",
+        "sculpture",
+        "fer forgé",
+        "bossage",
+        "arc",
+        "ardoise",
+        "pierre de taille",
+        "bandeau",
+        "travée",
+        "souche de cheminée",
+        "oculus",
+        "mascaron"
       ],
       "dateCapture": "2007:03:15"
     },
@@ -48,6 +88,7 @@
         "brique",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:03:15"
     },
     {
@@ -55,6 +96,7 @@
       "IndexJantzen": [
         "porte-fer-hall"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:03:16"
     }
   ]

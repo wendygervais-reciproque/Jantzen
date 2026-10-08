@@ -23,11 +23,31 @@
   "terme_jantzen_bat": [
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "chéneau",
+    "corniche",
+    "fenêtre",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "modillon"
+  ],
   "photos": [
     {
       "id_pic": "Malesherbes-58_8_B",
       "IndexJantzen": [
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "lucarne",
+        "garde-corps",
+        "fenêtre",
+        "ardoise",
+        "corniche",
+        "modillon",
+        "chéneau",
+        "mansarde"
       ],
       "dateCapture": "2005:08:10"
     }

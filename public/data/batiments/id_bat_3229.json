@@ -21,19 +21,71 @@
   "WPfr": null,
   "image_ref": "Pierre-Charon-61_8_§1",
   "terme_jantzen_bat": [
+    "sculpture",
+    "clé",
     "fenetre",
     "lucarne",
     "façade",
-    "sculpture",
-    "clé",
-    "décor",
-    "colonne"
+    "colonne",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chapiteau corinthien",
+    "chéneau",
+    "colonne",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "grille",
+    "gros appareil",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "souche de cheminée",
+    "volet",
+    "épi de faîtage"
   ],
   "photos": [
     {
       "id_pic": "Pierre-Charon-61_8_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "lucarne",
+        "mansarde",
+        "fronton",
+        "arc en plein cintre",
+        "chapiteau corinthien",
+        "colonne",
+        "pilastre",
+        "corniche",
+        "fer forgé",
+        "ardoise",
+        "épi de faîtage",
+        "garde-corps",
+        "mascaron",
+        "oculus",
+        "bandeau",
+        "pierre de taille",
+        "chéneau",
+        "grille",
+        "volet",
+        "souche de cheminée",
+        "gros appareil"
       ],
       "dateCapture": "2007:04:09"
     },
@@ -43,6 +95,7 @@
         "fenetre",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:09"
     },
     {
@@ -54,6 +107,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:09"
     }
   ]

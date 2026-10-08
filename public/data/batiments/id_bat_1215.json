@@ -32,21 +32,81 @@
   "WPfr": null,
   "image_ref": "Chateaudin-17_9_§1",
   "terme_jantzen_bat": [
+    "balcon",
+    "sculpture",
+    "console",
+    "cariatide",
     "fenetre",
     "façade",
-    "console",
     "garde-corps",
-    "sculpture",
     "porte-bois",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc brisé",
+    "arc en plein cintre",
+    "ardoise",
+    "atlante",
+    "balcon",
+    "balustrade",
+    "bandeau",
     "cariatide",
-    "décor",
-    "balcon"
+    "chéneau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "grille",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "pierre de taille",
+    "pilastre",
+    "portail",
+    "porte",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "vantail",
+    "vitrail"
   ],
   "photos": [
     {
       "id_pic": "Chateaudin-17_9_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "lucarne",
+        "mansarde",
+        "atlante",
+        "cariatide",
+        "mascaron",
+        "fronton",
+        "corniche",
+        "bandeau",
+        "pilastre",
+        "arc en plein cintre",
+        "arc brisé",
+        "porte",
+        "vantail",
+        "vitrail",
+        "souche de cheminée",
+        "ardoise",
+        "toit à deux versants",
+        "pierre de taille",
+        "sculpture",
+        "portail",
+        "travée",
+        "chéneau",
+        "grille",
+        "fer forgé"
       ],
       "dateCapture": "2010:05:23"
     },
@@ -56,6 +116,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:05:23"
     },
     {
@@ -65,6 +126,7 @@
         "garde-corps",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:06:03"
     },
     {
@@ -73,6 +135,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:06:04"
     },
     {
@@ -81,6 +144,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:06:04"
     },
     {
@@ -89,6 +153,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:03:26"
     },
     {
@@ -97,6 +162,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:03:26"
     },
     {
@@ -105,6 +171,7 @@
         "cariatide",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:06:03"
     },
     {
@@ -113,6 +180,7 @@
         "cariatide",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:06:01"
     },
     {
@@ -120,6 +188,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:05:23"
     },
     {
@@ -128,6 +197,7 @@
         "cariatide",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:06:03"
     },
     {
@@ -136,6 +206,7 @@
         "cariatide",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:03:26"
     },
     {
@@ -144,6 +215,7 @@
         "fenetre",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:06:04"
     },
     {
@@ -152,6 +224,7 @@
         "fenetre",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:06:17"
     },
     {
@@ -159,6 +232,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:03:26"
     },
     {
@@ -167,11 +241,13 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:06:04"
     },
     {
       "id_pic": "Chateaudin-17_9_§26",
       "IndexJantzen": [],
+      "IndexTorneh": [],
       "dateCapture": "2007:03:26"
     },
     {
@@ -181,6 +257,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:06:03"
     },
     {
@@ -191,6 +268,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:06:04"
     },
     {
@@ -199,6 +277,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:06:04"
     },
     {
@@ -208,6 +287,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:05:23"
     },
     {
@@ -217,6 +297,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:03:26"
     },
     {
@@ -225,6 +306,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:06:04"
     },
     {
@@ -234,6 +316,7 @@
         "garde-corps",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:05:23"
     }
   ]

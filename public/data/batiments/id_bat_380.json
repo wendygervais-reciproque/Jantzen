@@ -28,12 +28,31 @@
   "WPfr": null,
   "image_ref": "Belleville-102_20_§1",
   "terme_jantzen_bat": [
-    "console",
-    "métal",
     "oriel",
+    "console",
     "brique",
-    "décor",
-    "colonne"
+    "métal",
+    "colonne",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "linteau",
+    "mascaron",
+    "oculus",
+    "oriel",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "tuile",
+    "volet"
   ],
   "photos": [
     {
@@ -42,6 +61,25 @@
         "brique",
         "décor",
         "oriel"
+      ],
+      "IndexTorneh": [
+        "oriel",
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "porte-fenêtre",
+        "volet",
+        "brique",
+        "souche de cheminée",
+        "tuile",
+        "bandeau",
+        "chambranle",
+        "balustrade",
+        "fronton",
+        "corniche",
+        "linteau",
+        "mascaron",
+        "oculus"
       ],
       "dateCapture": "2005:09:02"
     },
@@ -52,6 +90,7 @@
         "décor",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:09:02"
     },
     {
@@ -62,6 +101,7 @@
         "console",
         "métal"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:09:02"
     },
     {
@@ -72,6 +112,7 @@
         "console",
         "métal"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:09:02"
     }
   ]

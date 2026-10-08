@@ -35,17 +35,34 @@
   "terme_jantzen_bat": [
     "sculpture"
   ],
+  "terme_torneh_bat": [
+    "corniche",
+    "frise",
+    "oculus",
+    "pierre de taille",
+    "sculpture",
+    "épi de faîtage"
+  ],
   "photos": [
     {
       "id_pic": "Chatelet-Pl_1_§3",
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [
+        "épi de faîtage",
+        "sculpture",
+        "corniche",
+        "frise",
+        "oculus",
+        "pierre de taille"
+      ],
       "dateCapture": "2004:07:07"
     },
     {
       "id_pic": "Chatelet-Pl_1_§4",
       "IndexJantzen": [],
+      "IndexTorneh": [],
       "dateCapture": "2012:05:27"
     },
     {
@@ -53,6 +70,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:05:27"
     },
     {
@@ -60,6 +78,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:05:27"
     }
   ]

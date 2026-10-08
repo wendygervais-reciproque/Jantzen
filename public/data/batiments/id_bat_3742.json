@@ -32,11 +32,47 @@
     "lucarne-d'angle",
     "façade-d'angle"
   ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "pierre de taille",
+    "souche de cheminée",
+    "toit en pavillon",
+    "travée",
+    "volet",
+    "épi de faîtage"
+  ],
   "photos": [
     {
       "id_pic": "St-Ouen-Av-87_17_§1",
       "IndexJantzen": [
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "mansarde",
+        "lucarne",
+        "toit en pavillon",
+        "épi de faîtage",
+        "souche de cheminée",
+        "corniche",
+        "bandeau",
+        "pierre de taille",
+        "volet",
+        "ardoise",
+        "fer forgé",
+        "travée"
       ],
       "dateCapture": "2006:06:07"
     },
@@ -46,6 +82,7 @@
         "lucarne-d'angle",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:07"
     }
   ]

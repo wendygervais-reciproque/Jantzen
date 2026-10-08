@@ -21,13 +21,33 @@
   "WPfr": null,
   "image_ref": "Le-Peletier-31_9_§1",
   "terme_jantzen_bat": [
+    "balcon",
+    "clé",
     "fenetre",
     "façade",
     "garde-corps",
-    "clé",
     "porte-bois",
-    "décor",
-    "balcon"
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "linteau",
+    "mascaron",
+    "modillon",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "travée",
+    "vantail"
   ],
   "photos": [
     {
@@ -35,6 +55,26 @@
       "IndexJantzen": [
         "balcon",
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "porte",
+        "arc en plein cintre",
+        "arc",
+        "mascaron",
+        "corniche",
+        "garde-corps",
+        "pierre de taille",
+        "chambranle",
+        "linteau",
+        "modillon",
+        "vantail",
+        "travée",
+        "bandeau",
+        "pilastre",
+        "fer forgé"
       ],
       "dateCapture": "2005:05:26"
     },
@@ -44,6 +84,7 @@
         "balcon",
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:05:25"
     },
     {
@@ -53,6 +94,7 @@
         "décor",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:05:25"
     },
     {
@@ -61,6 +103,7 @@
         "balcon",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:05:25"
     },
     {
@@ -69,6 +112,7 @@
         "balcon",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:26"
     },
     {
@@ -76,6 +120,7 @@
       "IndexJantzen": [
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:26"
     }
   ]

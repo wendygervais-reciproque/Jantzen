@@ -24,11 +24,35 @@
     "fenetre",
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "bandeau",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "grille",
+    "porte",
+    "souche de cheminée",
+    "travée"
+  ],
   "photos": [
     {
       "id_pic": "Guemenee-imp-7_4_§1",
       "IndexJantzen": [
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "garde-corps",
+        "balcon",
+        "souche de cheminée",
+        "grille",
+        "porte",
+        "travée",
+        "fer forgé",
+        "arc en plein cintre",
+        "bandeau"
       ],
       "dateCapture": "2008:07:27"
     },
@@ -37,6 +61,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:07:27"
     }
   ]

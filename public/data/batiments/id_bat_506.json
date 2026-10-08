@@ -23,11 +23,35 @@
   "terme_jantzen_bat": [
     "porte-fer-hall"
   ],
+  "terme_torneh_bat": [
+    "arc",
+    "balcon",
+    "fer forgé",
+    "garde-corps",
+    "grille",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Theodu-Ribaud-11_17_§1",
       "IndexJantzen": [
         "porte-fer-hall"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "portail",
+        "arc",
+        "fer forgé",
+        "balcon",
+        "garde-corps",
+        "pierre de taille",
+        "sculpture",
+        "vantail",
+        "grille"
       ],
       "dateCapture": "2006:06:16"
     }

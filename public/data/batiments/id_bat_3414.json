@@ -23,15 +23,53 @@
   "WPfr": null,
   "image_ref": "Conservatoire-7_9_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "façade",
-    "garde-corps"
+    "garde-corps",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc en anse de panier",
+    "attique",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "mascaron",
+    "pierre de taille",
+    "porte-fenêtre",
+    "sculpture",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Conservatoire-7_9_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "porte-fenêtre",
+        "mascaron",
+        "fronton",
+        "corniche",
+        "bandeau",
+        "travée",
+        "pierre de taille",
+        "fer forgé",
+        "volet",
+        "sculpture",
+        "chambranle",
+        "arc en anse de panier",
+        "attique"
       ],
       "dateCapture": "2004:09:04"
     },
@@ -41,6 +79,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:04"
     }
   ]

@@ -21,10 +21,28 @@
   "WPfr": null,
   "image_ref": "La-Bourdonnais-10_7_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "brique",
-    "décor",
-    "loggia"
+    "loggia",
+    "fenetre",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "bandeau",
+    "brique",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "oriel",
+    "pilastre",
+    "porte-fenêtre",
+    "toit à deux versants",
+    "volet"
   ],
   "photos": [
     {
@@ -34,6 +52,24 @@
         "décor",
         "fenetre",
         "loggia"
+      ],
+      "IndexTorneh": [
+        "lucarne",
+        "fenêtre",
+        "volet",
+        "balcon",
+        "garde-corps",
+        "brique",
+        "ardoise",
+        "corniche",
+        "bandeau",
+        "pilastre",
+        "oriel",
+        "fer forgé",
+        "mansarde",
+        "fronton",
+        "toit à deux versants",
+        "porte-fenêtre"
       ],
       "dateCapture": "2005:04:02"
     }

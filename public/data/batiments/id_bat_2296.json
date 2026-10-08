@@ -28,10 +28,25 @@
   "WPfr": null,
   "image_ref": "Pyrenees-348_20_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "décor",
     "porte-bois",
-    "clé"
+    "clé",
+    "fenetre",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "mascaron",
+    "pierre de taille",
+    "porte-fenêtre",
+    "vantail",
+    "volet"
   ],
   "photos": [
     {
@@ -40,6 +55,21 @@
         "clé",
         "décor",
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "porte-fenêtre",
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "mascaron",
+        "fronton",
+        "chambranle",
+        "volet",
+        "vantail",
+        "bandeau",
+        "pierre de taille",
+        "balustrade"
       ],
       "dateCapture": "2005:07:21"
     },
@@ -50,6 +80,7 @@
         "décor",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:21"
     },
     {
@@ -58,6 +89,7 @@
         "fenetre",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:21"
     }
   ]

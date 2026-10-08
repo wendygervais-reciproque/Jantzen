@@ -23,11 +23,29 @@
   "terme_jantzen_bat": [
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "toit à deux versants",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Ternes-av-6_17_§1",
       "IndexJantzen": [
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "lucarne",
+        "fenêtre",
+        "volet",
+        "garde-corps",
+        "balcon",
+        "fer forgé",
+        "toit à deux versants"
       ],
       "dateCapture": "2012:04:30"
     },
@@ -36,6 +54,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:04:30"
     }
   ]

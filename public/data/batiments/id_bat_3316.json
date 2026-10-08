@@ -24,12 +24,34 @@
     "sculpture",
     "console"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "corniche",
+    "fer forgé",
+    "garde-corps",
+    "modillon",
+    "pierre de taille",
+    "sculpture",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Caulaincourt-67_18_§1",
       "IndexJantzen": [
         "console",
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "modillon",
+        "corniche",
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "volet",
+        "pierre de taille",
+        "sculpture",
+        "balustrade"
       ],
       "dateCapture": "2006:04:08"
     }

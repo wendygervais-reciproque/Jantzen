@@ -25,11 +25,39 @@
   "terme_jantzen_bat": [
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balustrade",
+    "faîtage",
+    "fenêtre",
+    "fer forgé",
+    "lucarne",
+    "meneau",
+    "oculus",
+    "sculpture",
+    "toit à deux versants",
+    "vitrail",
+    "épi de faîtage"
+  ],
   "photos": [
     {
       "id_pic": "Georges-Berger-11t_17_§1",
       "IndexJantzen": [
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "épi de faîtage",
+        "lucarne",
+        "ardoise",
+        "fenêtre",
+        "oculus",
+        "sculpture",
+        "fer forgé",
+        "faîtage",
+        "toit à deux versants",
+        "vitrail",
+        "meneau",
+        "balustrade"
       ],
       "dateCapture": "2006:01:25"
     }

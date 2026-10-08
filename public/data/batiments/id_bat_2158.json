@@ -21,10 +21,28 @@
   "WPfr": null,
   "image_ref": "Vertbois-30_3_G16-A",
   "terme_jantzen_bat": [
-    "fenetre",
     "façade",
-    "décor",
-    "céramique"
+    "céramique",
+    "fenetre",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "céramique",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -32,6 +50,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:05"
     },
     {
@@ -41,12 +60,31 @@
         "décor",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:05"
     },
     {
       "id_pic": "Vertbois-30_3_G16-A",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "corniche",
+        "bandeau",
+        "mansarde",
+        "lucarne",
+        "souche de cheminée",
+        "céramique",
+        "fer forgé",
+        "volet",
+        "travée",
+        "ardoise",
+        "toit à deux versants",
+        "mascaron"
       ],
       "dateCapture": "2004:07:05"
     }

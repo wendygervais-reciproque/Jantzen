@@ -24,8 +24,28 @@
   "image_ref": "Adrien-Hebrard-av-10_16_§1_Dx",
   "terme_jantzen_bat": [
     "brique",
-    "façade-d'angle",
-    "fenetre-d'angle"
+    "fenetre-d'angle",
+    "façade-d'angle"
+  ],
+  "terme_torneh_bat": [
+    "baie",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "colonne",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mansarde",
+    "oriel",
+    "pierre de taille",
+    "souche de cheminée",
+    "toit à deux versants",
+    "tour",
+    "travée",
+    "verrière",
+    "volet"
   ],
   "photos": [
     {
@@ -33,6 +53,26 @@
       "IndexJantzen": [
         "brique",
         "fenetre-d'angle"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "baie",
+        "fenêtre",
+        "garde-corps",
+        "brique",
+        "pierre de taille",
+        "tour",
+        "oriel",
+        "souche de cheminée",
+        "toit à deux versants",
+        "verrière",
+        "colonne",
+        "mansarde",
+        "volet",
+        "fer forgé",
+        "bandeau",
+        "travée"
       ],
       "dateCapture": "2010:05:23"
     },
@@ -42,6 +82,7 @@
         "brique",
         "façade-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:21"
     },
     {
@@ -50,6 +91,7 @@
         "brique",
         "façade-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:21"
     },
     {
@@ -58,6 +100,7 @@
         "brique",
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:21"
     },
     {
@@ -66,6 +109,7 @@
         "brique",
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:21"
     }
   ]

@@ -33,16 +33,52 @@
   "image_ref": "Franz-Liszt-pl_10_§1",
   "terme_jantzen_bat": [
     "porte-fer",
-    "façade",
     "sculpture",
     "clé",
+    "façade",
     "colonne"
+  ],
+  "terme_torneh_bat": [
+    "chapiteau ionique",
+    "colonne",
+    "corniche",
+    "entablement",
+    "escalier",
+    "fenêtre",
+    "frise",
+    "fronton",
+    "grille",
+    "pierre de taille",
+    "pilastre",
+    "porche",
+    "porte",
+    "portique",
+    "sculpture",
+    "tour"
   ],
   "photos": [
     {
       "id_pic": "Franz-Liszt-pl_10_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fronton",
+        "colonne",
+        "chapiteau ionique",
+        "sculpture",
+        "tour",
+        "escalier",
+        "porte",
+        "portique",
+        "frise",
+        "corniche",
+        "pierre de taille",
+        "entablement",
+        "fenêtre",
+        "grille",
+        "porche",
+        "pilastre"
       ],
       "dateCapture": "2008:02:18"
     },
@@ -52,6 +88,7 @@
         "colonne",
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:18"
     },
     {
@@ -59,6 +96,7 @@
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:18"
     },
     {
@@ -66,6 +104,7 @@
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:18"
     },
     {
@@ -74,6 +113,7 @@
         "porte-fer",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:18"
     },
     {
@@ -82,6 +122,7 @@
         "clé",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:18"
     }
   ]

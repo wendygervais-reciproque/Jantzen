@@ -25,11 +25,37 @@
   "terme_jantzen_bat": [
     "fenetre"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "oriel",
+    "pierre de taille",
+    "travée",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Duhesne-11_18_§1",
       "IndexJantzen": [
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "arc en plein cintre",
+        "pierre de taille",
+        "volet",
+        "fer forgé",
+        "travée",
+        "bandeau",
+        "oriel"
       ],
       "dateCapture": "2004:06:14"
     }

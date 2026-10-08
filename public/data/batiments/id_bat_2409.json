@@ -25,11 +25,27 @@
   "terme_jantzen_bat": [
     "porte-fer-hall"
   ],
+  "terme_torneh_bat": [
+    "chambranle",
+    "fer forgé",
+    "jambage",
+    "pierre de taille",
+    "porte",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Junot-Av-39_18_§1",
       "IndexJantzen": [
         "porte-fer-hall"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "fer forgé",
+        "vantail",
+        "jambage",
+        "pierre de taille",
+        "chambranle"
       ],
       "dateCapture": "2004:06:15"
     }

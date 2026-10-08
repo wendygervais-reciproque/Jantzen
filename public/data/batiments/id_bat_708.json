@@ -28,10 +28,28 @@
   "WPfr": null,
   "image_ref": "Lecourbe-120_15_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "sculpture",
-    "porte-bois",
-    "colonne"
+    "colonne",
+    "fenetre",
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "chambranle",
+    "colonne",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "mascaron",
+    "modillon",
+    "pierre de taille",
+    "pilastre",
+    "porte-fenêtre",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -39,6 +57,24 @@
       "IndexJantzen": [
         "fenetre",
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "fronton",
+        "corniche",
+        "mascaron",
+        "pilastre",
+        "chambranle",
+        "volet",
+        "pierre de taille",
+        "travée",
+        "modillon",
+        "porte-fenêtre",
+        "colonne"
       ],
       "dateCapture": "2006:09:09"
     },
@@ -48,6 +84,7 @@
         "colonne",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:09:09"
     }
   ]

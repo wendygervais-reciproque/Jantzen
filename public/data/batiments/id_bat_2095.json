@@ -21,9 +21,18 @@
   "WPfr": null,
   "image_ref": "Ursins-3_4_§8",
   "terme_jantzen_bat": [
-    "fenetre",
     "garde-corps",
+    "fenetre",
     "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc en anse de panier",
+    "fer",
+    "heurtoir",
+    "jambage",
+    "pierre de taille",
+    "porte",
+    "vantail"
   ],
   "photos": [
     {
@@ -31,6 +40,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:07:12"
     },
     {
@@ -38,6 +48,7 @@
       "IndexJantzen": [
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:07:12"
     },
     {
@@ -45,6 +56,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:07:12"
     },
     {
@@ -52,6 +64,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:07:12"
     },
     {
@@ -59,6 +72,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:07:12"
     },
     {
@@ -66,6 +80,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:07:12"
     },
     {
@@ -73,12 +88,22 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:07:12"
     },
     {
       "id_pic": "Ursins-3_4_§8",
       "IndexJantzen": [
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "vantail",
+        "arc en anse de panier",
+        "pierre de taille",
+        "jambage",
+        "heurtoir",
+        "fer"
       ],
       "dateCapture": "2003:07:12"
     }

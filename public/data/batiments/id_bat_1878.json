@@ -21,9 +21,27 @@
   "WPfr": null,
   "image_ref": "Marceau-26_8_§1",
   "terme_jantzen_bat": [
-    "cariatide",
     "sculpture",
+    "cariatide",
     "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "mascaron",
+    "modillon",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "sculpture",
+    "vantail",
+    "volet"
   ],
   "photos": [
     {
@@ -31,6 +49,24 @@
       "IndexJantzen": [
         "cariatide",
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "portail",
+        "arc",
+        "arc en plein cintre",
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "volet",
+        "mascaron",
+        "sculpture",
+        "corniche",
+        "chambranle",
+        "pierre de taille",
+        "vantail",
+        "fronton",
+        "modillon"
       ],
       "dateCapture": "2006:06:03"
     },
@@ -41,6 +77,7 @@
         "porte-bois",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:03"
     }
   ]

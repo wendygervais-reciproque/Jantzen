@@ -25,11 +25,51 @@
     "console",
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "baie",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "mascaron",
+    "modillon",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "sculpture",
+    "toit à deux versants",
+    "vantail",
+    "vitrail",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "St-Thomas-d'Aquins_pl_3_7_§1",
       "IndexJantzen": [
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "fronton",
+        "corniche",
+        "pilastre",
+        "arc en plein cintre",
+        "porte",
+        "vantail",
+        "chambranle",
+        "baie",
+        "fenêtre",
+        "vitrail",
+        "pierre de taille",
+        "sculpture",
+        "mascaron",
+        "ardoise",
+        "fer forgé",
+        "volet",
+        "toit à deux versants",
+        "modillon"
       ],
       "dateCapture": "2006:07:13"
     },
@@ -39,6 +79,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:13"
     }
   ]

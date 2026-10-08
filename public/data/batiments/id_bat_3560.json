@@ -28,11 +28,28 @@
   "WPfr": null,
   "image_ref": "Boissiere-78_16_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "console",
     "sculpture",
-    "porte-bois",
-    "colonne"
+    "console",
+    "fenetre",
+    "colonne",
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "chapiteau",
+    "fer forgé",
+    "gros appareil",
+    "heurtoir",
+    "mascaron",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "porte-fenêtre",
+    "sculpture",
+    "vantail"
   ],
   "photos": [
     {
@@ -40,6 +57,23 @@
       "IndexJantzen": [
         "fenetre",
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "arc en plein cintre",
+        "arc",
+        "porte",
+        "porte-fenêtre",
+        "balcon",
+        "balustrade",
+        "pierre de taille",
+        "chapiteau",
+        "pilastre",
+        "sculpture",
+        "mascaron",
+        "fer forgé",
+        "vantail",
+        "gros appareil",
+        "heurtoir"
       ],
       "dateCapture": "2005:04:30"
     },
@@ -49,6 +83,7 @@
         "fenetre",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:30"
     },
     {
@@ -56,6 +91,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:30"
     },
     {
@@ -64,6 +100,7 @@
         "colonne",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:30"
     },
     {
@@ -73,6 +110,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:30"
     }
   ]

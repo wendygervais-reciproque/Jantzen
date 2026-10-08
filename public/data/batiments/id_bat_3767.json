@@ -28,11 +28,23 @@
   "WPfr": null,
   "image_ref": "La-Frillere-av-9_16_§1",
   "terme_jantzen_bat": [
-    "façade",
     "sculpture",
     "brique",
-    "décor",
-    "colonne"
+    "façade",
+    "colonne",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "auvent",
+    "baie",
+    "brique",
+    "chéneau",
+    "fenêtre",
+    "fronton",
+    "pierre de taille",
+    "travée",
+    "verrière"
   ],
   "photos": [
     {
@@ -40,6 +52,18 @@
       "IndexJantzen": [
         "brique",
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "brique",
+        "travée",
+        "verrière",
+        "fronton",
+        "auvent",
+        "arc en plein cintre",
+        "chéneau",
+        "pierre de taille",
+        "baie"
       ],
       "dateCapture": "2007:04:21"
     },
@@ -49,6 +73,7 @@
         "brique",
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:21"
     },
     {
@@ -59,6 +84,7 @@
         "décor",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:21"
     },
     {
@@ -66,6 +92,7 @@
       "IndexJantzen": [
         "brique"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:21"
     },
     {
@@ -76,6 +103,7 @@
         "décor",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:21"
     }
   ]

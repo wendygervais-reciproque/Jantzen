@@ -21,15 +21,53 @@
   "WPfr": null,
   "image_ref": "Courcelles-bd-128_17_§1",
   "terme_jantzen_bat": [
-    "porte-fer",
     "fenetre",
+    "porte-fer",
     "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "frise",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "pierre de taille",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "toit à deux versants",
+    "vantail",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Courcelles-bd-128_17_§1",
       "IndexJantzen": [
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "porte-fenêtre",
+        "volet",
+        "mansarde",
+        "lucarne",
+        "ardoise",
+        "souche de cheminée",
+        "fer forgé",
+        "corniche",
+        "frise",
+        "pierre de taille",
+        "vantail",
+        "fronton",
+        "toit à deux versants"
       ],
       "dateCapture": "2007:04:14"
     },
@@ -39,6 +77,7 @@
         "fenetre",
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:08"
     }
   ]

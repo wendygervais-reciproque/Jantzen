@@ -32,9 +32,24 @@
   "WPfr": null,
   "image_ref": "Galilee-30_16_§1",
   "terme_jantzen_bat": [
-    "cariatide",
     "sculpture",
+    "cariatide",
     "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "cariatide",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer",
+    "fer forgé",
+    "garde-corps",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "vantail"
   ],
   "photos": [
     {
@@ -43,6 +58,21 @@
         "cariatide",
         "porte-bois",
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "cariatide",
+        "porte",
+        "vantail",
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "balustrade",
+        "corniche",
+        "sculpture",
+        "pierre de taille",
+        "fenêtre",
+        "chambranle",
+        "fer"
       ],
       "dateCapture": "2004:10:23"
     }

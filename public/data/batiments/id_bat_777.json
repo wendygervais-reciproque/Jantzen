@@ -21,14 +21,41 @@
   "WPfr": null,
   "image_ref": "Voltaire-qu-13_7_§2",
   "terme_jantzen_bat": [
-    "fenetre",
-    "façade",
-    "console",
-    "porte",
+    "balcon",
     "sculpture",
     "clé",
-    "porte-bois",
-    "balcon"
+    "console",
+    "fenetre",
+    "façade",
+    "porte",
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "atlante",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "cariatide",
+    "chambranle",
+    "chapiteau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "jambage",
+    "linteau",
+    "mascaron",
+    "oculus",
+    "oriel",
+    "pierre de taille",
+    "pilastre",
+    "portail",
+    "porte",
+    "sculpture",
+    "vantail"
   ],
   "photos": [
     {
@@ -37,6 +64,7 @@
         "façade",
         "porte"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:13"
     },
     {
@@ -44,6 +72,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:13"
     },
     {
@@ -53,6 +82,7 @@
         "porte-bois",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:13"
     },
     {
@@ -62,6 +92,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:15"
     },
     {
@@ -70,6 +101,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:13"
     },
     {
@@ -78,6 +110,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:13"
     },
     {
@@ -86,6 +119,7 @@
         "clé",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:13"
     },
     {
@@ -93,6 +127,33 @@
       "IndexJantzen": [
         "façade",
         "porte"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "porte",
+        "portail",
+        "arc",
+        "arc en plein cintre",
+        "mascaron",
+        "atlante",
+        "garde-corps",
+        "fer forgé",
+        "pierre de taille",
+        "brique",
+        "vantail",
+        "cariatide",
+        "sculpture",
+        "chapiteau",
+        "pilastre",
+        "corniche",
+        "bandeau",
+        "oriel",
+        "oculus",
+        "linteau",
+        "chambranle",
+        "jambage"
       ],
       "dateCapture": "2006:06:13"
     },
@@ -103,6 +164,7 @@
         "fenetre",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:06:04"
     },
     {
@@ -112,6 +174,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:13"
     },
     {
@@ -121,6 +184,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:06:04"
     },
     {
@@ -128,6 +192,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:06:04"
     },
     {
@@ -135,6 +200,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:06:04"
     }
   ]

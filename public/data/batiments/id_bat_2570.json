@@ -31,12 +31,46 @@
     "façade",
     "oriel"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "garde-corps",
+    "mascaron",
+    "modillon",
+    "oriel",
+    "pierre de taille",
+    "souche de cheminée",
+    "travée",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Condorcet-40_9_§1",
       "IndexJantzen": [
         "façade",
         "oriel"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "brique",
+        "pierre de taille",
+        "corniche",
+        "bandeau",
+        "modillon",
+        "oriel",
+        "mascaron",
+        "volet",
+        "souche de cheminée",
+        "travée",
+        "balustrade",
+        "chambranle"
       ],
       "dateCapture": null
     }

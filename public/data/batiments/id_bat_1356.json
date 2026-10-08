@@ -29,18 +29,62 @@
   "image_ref": "Ampere-19_17_§1",
   "terme_jantzen_bat": [
     "porte-fer",
+    "oriel",
+    "sculpture",
+    "console",
     "fenetre",
     "façade",
+    "garde-corps"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
     "garde-corps",
-    "console",
+    "grille",
+    "linteau",
+    "mascaron",
+    "oriel",
+    "pierre de taille",
+    "portail",
+    "porte",
     "sculpture",
-    "oriel"
+    "vantail",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Ampere-19_17_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "porte",
+        "portail",
+        "oriel",
+        "mascaron",
+        "sculpture",
+        "corniche",
+        "bandeau",
+        "arc en plein cintre",
+        "pierre de taille",
+        "brique",
+        "chambranle",
+        "linteau",
+        "volet",
+        "vantail",
+        "grille"
       ],
       "dateCapture": "2004:07:05"
     },
@@ -49,6 +93,7 @@
       "IndexJantzen": [
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:05"
     },
     {
@@ -56,6 +101,7 @@
       "IndexJantzen": [
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:04:22"
     },
     {
@@ -63,6 +109,7 @@
       "IndexJantzen": [
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:05"
     },
     {
@@ -72,6 +119,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:04:22"
     },
     {
@@ -80,6 +128,7 @@
         "fenetre",
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:05"
     }
   ]

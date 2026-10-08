@@ -24,20 +24,68 @@
   "image_ref": "Barbet-De-Jouy-40_7_§1",
   "terme_jantzen_bat": [
     "oeil-de-boeuf",
-    "fenetre",
-    "façade",
-    "console",
-    "lucarne",
-    "garde-corps",
     "sculpture",
+    "console",
+    "fenetre",
+    "lucarne",
+    "façade",
+    "fronton",
     "chimère",
-    "fronton"
+    "garde-corps"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "portail",
+    "porte",
+    "sculpture",
+    "souche de cheminée",
+    "vantail",
+    "volet",
+    "épi de faîtage"
   ],
   "photos": [
     {
       "id_pic": "Barbet-De-Jouy-40_7_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "lucarne",
+        "oculus",
+        "mansarde",
+        "souche de cheminée",
+        "sculpture",
+        "mascaron",
+        "fronton",
+        "volet",
+        "ardoise",
+        "pierre de taille",
+        "corniche",
+        "bandeau",
+        "porte",
+        "pilastre",
+        "vantail",
+        "épi de faîtage",
+        "portail",
+        "fer forgé"
       ],
       "dateCapture": "2006:06:03"
     },
@@ -47,6 +95,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:03"
     },
     {
@@ -56,6 +105,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:01"
     },
     {
@@ -64,6 +114,7 @@
         "fenetre",
         "fronton"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:03"
     },
     {
@@ -72,6 +123,7 @@
         "fronton",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:03"
     },
     {
@@ -80,6 +132,7 @@
         "fronton",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:03"
     },
     {
@@ -90,6 +143,7 @@
         "oeil-de-boeuf",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:03"
     },
     {
@@ -98,6 +152,7 @@
         "fronton",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:03"
     },
     {
@@ -106,6 +161,7 @@
         "fronton",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:03"
     },
     {
@@ -114,6 +170,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:03"
     },
     {
@@ -123,6 +180,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:03"
     }
   ]

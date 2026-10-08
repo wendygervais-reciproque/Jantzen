@@ -28,17 +28,49 @@
   "WPfr": null,
   "image_ref": "Voltaire-qu-15_7_§1",
   "terme_jantzen_bat": [
+    "oriel",
+    "sculpture",
+    "cariatide",
     "fenetre",
-    "façade",
     "console",
     "lucarne",
-    "sculpture",
-    "atlante",
-    "oriel",
-    "porte-bois",
     "brique",
-    "cariatide",
-    "fronton"
+    "façade",
+    "fronton",
+    "atlante",
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc brisé",
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "chapiteau",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "grille",
+    "jambage",
+    "linteau",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "oriel",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "porte-fenêtre",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "vitrail",
+    "volet",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -46,6 +78,38 @@
       "IndexJantzen": [
         "brique",
         "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "lucarne",
+        "mansarde",
+        "porte",
+        "porte-fenêtre",
+        "pilastre",
+        "chapiteau",
+        "fronton",
+        "corniche",
+        "bandeau",
+        "brique",
+        "pierre de taille",
+        "souche de cheminée",
+        "garde-corps",
+        "oriel",
+        "arc en plein cintre",
+        "arc brisé",
+        "vitrail",
+        "épi de faîtage",
+        "sculpture",
+        "mascaron",
+        "volet",
+        "jambage",
+        "linteau",
+        "toit à deux versants",
+        "oculus",
+        "ardoise",
+        "grille"
       ],
       "dateCapture": "2006:06:13"
     },
@@ -55,6 +119,7 @@
         "brique",
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2015:10:08"
     },
     {
@@ -65,6 +130,7 @@
         "cariatide",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:13"
     },
     {
@@ -76,6 +142,7 @@
         "oriel",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:06:04"
     },
     {
@@ -87,6 +154,7 @@
         "oriel",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:15"
     },
     {
@@ -98,6 +166,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:15"
     },
     {
@@ -109,6 +178,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:13"
     },
     {
@@ -120,6 +190,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:13"
     },
     {
@@ -129,6 +200,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:15"
     },
     {
@@ -140,6 +212,7 @@
         "lucarne",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:07:08"
     },
     {
@@ -148,6 +221,7 @@
         "brique",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:07:08"
     }
   ]

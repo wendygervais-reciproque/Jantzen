@@ -22,8 +22,23 @@
   "image_ref": "Temple-Bd-17_3_§1",
   "terme_jantzen_bat": [
     "oeil-de-boeuf",
-    "porte-bois",
-    "colonne"
+    "colonne",
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "colonne",
+    "corniche",
+    "entablement",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "heurtoir",
+    "pierre de taille",
+    "porte",
+    "vantail",
+    "volet"
   ],
   "photos": [
     {
@@ -32,6 +47,21 @@
         "colonne",
         "oeil-de-boeuf",
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "vantail",
+        "colonne",
+        "corniche",
+        "entablement",
+        "fronton",
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "volet",
+        "heurtoir",
+        "pierre de taille"
       ],
       "dateCapture": "2006:03:19"
     }

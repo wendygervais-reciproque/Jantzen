@@ -23,11 +23,27 @@
   "terme_jantzen_bat": [
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "brique",
+    "chéneau",
+    "corniche",
+    "fenêtre",
+    "lucarne",
+    "toit à deux versants"
+  ],
   "photos": [
     {
       "id_pic": "Moines-32_17_§1",
       "IndexJantzen": [
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "lucarne",
+        "fenêtre",
+        "corniche",
+        "brique",
+        "chéneau",
+        "toit à deux versants"
       ],
       "dateCapture": "2006:06:07"
     }

@@ -22,9 +22,32 @@
   "image_ref": "Reaumur-112_2_§1",
   "terme_jantzen_bat": [
     "fronton",
-    "porte-bois",
     "colonne",
-    "façade-d'angle"
+    "façade-d'angle",
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "cariatide",
+    "chapiteau corinthien",
+    "colonne",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "frise",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "modillon",
+    "oculus",
+    "oriel",
+    "pierre de taille",
+    "pilastre",
+    "souche de cheminée",
+    "toit à deux versants"
   ],
   "photos": [
     {
@@ -33,6 +56,29 @@
         "colonne",
         "façade-d'angle"
       ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "corniche",
+        "pilastre",
+        "chapiteau corinthien",
+        "colonne",
+        "mansarde",
+        "lucarne",
+        "souche de cheminée",
+        "toit à deux versants",
+        "ardoise",
+        "pierre de taille",
+        "mascaron",
+        "modillon",
+        "fer forgé",
+        "oculus",
+        "cariatide",
+        "frise",
+        "oriel"
+      ],
       "dateCapture": "2005:08:28"
     },
     {
@@ -40,6 +86,7 @@
       "IndexJantzen": [
         "colonne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:28"
     },
     {
@@ -48,6 +95,7 @@
         "fronton",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:04:25"
     },
     {
@@ -55,6 +103,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:04:25"
     }
   ]

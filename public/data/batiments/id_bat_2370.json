@@ -27,6 +27,26 @@
     "métal",
     "oriel"
   ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "travée",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Montgallet-37_12_§1",
@@ -34,6 +54,26 @@
         "brique",
         "métal",
         "oriel"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "lucarne",
+        "mansarde",
+        "souche de cheminée",
+        "ardoise",
+        "brique",
+        "pierre de taille",
+        "fer forgé",
+        "volet",
+        "bandeau",
+        "corniche",
+        "oculus",
+        "mascaron",
+        "travée",
+        "porte-fenêtre"
       ],
       "dateCapture": "2005:07:13"
     },
@@ -44,6 +84,7 @@
         "métal",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:13"
     }
   ]

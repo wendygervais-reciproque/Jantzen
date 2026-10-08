@@ -32,16 +32,38 @@
   "WPfr": null,
   "image_ref": "La-Fayette-33_9_§1",
   "terme_jantzen_bat": [
-    "porte-fer",
+    "fenetre-d'angle",
     "fenetre",
-    "lucarne",
-    "fenetre-d'angle"
+    "porte-fer",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "attique",
+    "balcon",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "garde-corps",
+    "modillon",
+    "pierre de taille",
+    "toit-terrasse"
   ],
   "photos": [
     {
       "id_pic": "La-Fayette-33_9_§1",
       "IndexJantzen": [
         "fenetre-d'angle"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "corniche",
+        "bandeau",
+        "pierre de taille",
+        "attique",
+        "modillon",
+        "toit-terrasse"
       ],
       "dateCapture": "2005:05:27"
     },
@@ -51,6 +73,7 @@
         "fenetre-d'angle",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:27"
     },
     {
@@ -58,6 +81,7 @@
       "IndexJantzen": [
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:27"
     },
     {
@@ -65,6 +89,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:06:16"
     },
     {
@@ -72,6 +97,7 @@
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:06:17"
     }
   ]

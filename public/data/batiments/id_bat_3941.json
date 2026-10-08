@@ -23,11 +23,35 @@
   "terme_jantzen_bat": [
     "fenetre"
   ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mansarde",
+    "souche de cheminée",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Faubourg-St-Denis-99_10_§1",
       "IndexJantzen": [
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "mansarde",
+        "garde-corps",
+        "balcon",
+        "bandeau",
+        "corniche",
+        "souche de cheminée",
+        "volet",
+        "fer forgé",
+        "ardoise"
       ],
       "dateCapture": "2004:06:28"
     }

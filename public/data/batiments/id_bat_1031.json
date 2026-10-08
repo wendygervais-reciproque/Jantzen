@@ -21,8 +21,18 @@
   "WPfr": null,
   "image_ref": "Petit-Thouars-15_3_§1",
   "terme_jantzen_bat": [
-    "décor",
-    "fenetre-d'angle"
+    "fenetre-d'angle",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "auvent",
+    "brique",
+    "céramique",
+    "fenêtre",
+    "oculus",
+    "oriel",
+    "souche de cheminée",
+    "toit à deux versants"
   ],
   "photos": [
     {
@@ -30,6 +40,16 @@
       "IndexJantzen": [
         "décor",
         "fenetre-d'angle"
+      ],
+      "IndexTorneh": [
+        "oculus",
+        "brique",
+        "auvent",
+        "fenêtre",
+        "oriel",
+        "souche de cheminée",
+        "toit à deux versants",
+        "céramique"
       ],
       "dateCapture": "2004:09:21"
     }

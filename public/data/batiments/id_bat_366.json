@@ -24,12 +24,44 @@
     "toiture",
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "brique",
+    "fenêtre",
+    "fer",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "oriel",
+    "souche de cheminée",
+    "toit à deux versants",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Lamarck-100_18_§1",
       "IndexJantzen": [
         "lucarne",
         "toiture"
+      ],
+      "IndexTorneh": [
+        "lucarne",
+        "souche de cheminée",
+        "mansarde",
+        "ardoise",
+        "fenêtre",
+        "garde-corps",
+        "balcon",
+        "brique",
+        "balustrade",
+        "volet",
+        "fer forgé",
+        "oriel",
+        "toit à deux versants",
+        "fer"
       ],
       "dateCapture": "2006:04:08"
     }

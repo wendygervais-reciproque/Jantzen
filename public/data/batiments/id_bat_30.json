@@ -19,13 +19,30 @@
   "WPfr": null,
   "image_ref": "Louvre-1-Cn_P-Daru-02A",
   "terme_jantzen_bat": [
-    "fenetre",
-    "lucarne",
-    "console",
     "sculpture",
-    "colonne",
     "cariatide",
-    "fronton"
+    "fenetre",
+    "console",
+    "lucarne",
+    "fronton",
+    "colonne"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "attique",
+    "balustrade",
+    "corniche",
+    "fenêtre",
+    "frise",
+    "fronton",
+    "garde-corps",
+    "mascaron",
+    "oculus",
+    "pilastre",
+    "sculpture",
+    "toit en pavillon",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -35,6 +52,23 @@
         "fronton",
         "lucarne",
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "toit en pavillon",
+        "fronton",
+        "sculpture",
+        "fenêtre",
+        "balustrade",
+        "pilastre",
+        "corniche",
+        "frise",
+        "ardoise",
+        "oculus",
+        "garde-corps",
+        "arc en plein cintre",
+        "mascaron",
+        "attique",
+        "épi de faîtage"
       ],
       "dateCapture": "2006:07:18"
     },
@@ -47,6 +81,7 @@
         "lucarne",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:18"
     },
     {
@@ -56,6 +91,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:30"
     },
     {
@@ -64,6 +100,7 @@
         "lucarne",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2013:09:08"
     },
     {
@@ -73,6 +110,7 @@
         "lucarne",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2013:09:08"
     },
     {
@@ -81,6 +119,7 @@
         "cariatide",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2013:09:08"
     },
     {
@@ -88,6 +127,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2013:09:08"
     },
     {
@@ -95,6 +135,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:30"
     },
     {
@@ -103,6 +144,7 @@
         "cariatide",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:30"
     },
     {
@@ -111,6 +153,7 @@
         "cariatide",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:30"
     },
     {
@@ -119,6 +162,7 @@
         "cariatide",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:30"
     },
     {
@@ -127,6 +171,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:30"
     },
     {
@@ -136,6 +181,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:18"
     },
     {
@@ -145,6 +191,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:18"
     }
   ]

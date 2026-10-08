@@ -29,8 +29,22 @@
   "image_ref": "Dante-7_5_§1",
   "terme_jantzen_bat": [
     "sculpture",
-    "fenetre",
-    "console"
+    "console",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bossage",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "pierre de taille",
+    "porte-fenêtre",
+    "sculpture",
+    "volet"
   ],
   "photos": [
     {
@@ -38,6 +52,20 @@
       "IndexJantzen": [
         "console",
         "fenetre",
+        "sculpture"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "porte-fenêtre",
+        "arc en plein cintre",
+        "balustrade",
+        "volet",
+        "pierre de taille",
+        "bossage",
+        "mascaron",
         "sculpture"
       ],
       "dateCapture": "2005:08:03"

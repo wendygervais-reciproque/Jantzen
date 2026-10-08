@@ -23,11 +23,37 @@
   "terme_jantzen_bat": [
     "porte-fer"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "bossage",
+    "chambranle",
+    "fer forgé",
+    "garde-corps",
+    "heurtoir",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Malesherbes-Cite-2_9_§1",
       "IndexJantzen": [
         "porte-fer"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "arc en plein cintre",
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "bossage",
+        "pierre de taille",
+        "volet",
+        "heurtoir",
+        "sculpture",
+        "chambranle"
       ],
       "dateCapture": null
     }

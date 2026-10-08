@@ -22,9 +22,24 @@
   "image_ref": "Haumont-Thieville-6_17_§1",
   "terme_jantzen_bat": [
     "brique",
-    "façade",
     "métal",
-    "verrière"
+    "verrière",
+    "façade"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "baie",
+    "balcon",
+    "balustrade",
+    "brique",
+    "fenêtre",
+    "fer",
+    "garde-corps",
+    "grille",
+    "porte",
+    "porte-fenêtre",
+    "travée",
+    "vantail"
   ],
   "photos": [
     {
@@ -33,6 +48,21 @@
         "brique",
         "façade",
         "métal"
+      ],
+      "IndexTorneh": [
+        "baie",
+        "fenêtre",
+        "arc en plein cintre",
+        "porte",
+        "porte-fenêtre",
+        "balcon",
+        "garde-corps",
+        "grille",
+        "fer",
+        "travée",
+        "balustrade",
+        "brique",
+        "vantail"
       ],
       "dateCapture": "2006:06:16"
     },
@@ -43,6 +73,7 @@
         "façade",
         "verrière"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:16"
     }
   ]

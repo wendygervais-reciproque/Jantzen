@@ -30,11 +30,33 @@
   "terme_jantzen_bat": [
     "porte-fer-hall"
   ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en anse de panier",
+    "chambranle",
+    "fer forgé",
+    "jambage",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Vaugirard-290_15_§1",
       "IndexJantzen": [
         "porte-fer-hall"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "arc",
+        "vantail",
+        "fer forgé",
+        "pierre de taille",
+        "sculpture",
+        "chambranle",
+        "arc en anse de panier",
+        "jambage"
       ],
       "dateCapture": "2004:07:14"
     }

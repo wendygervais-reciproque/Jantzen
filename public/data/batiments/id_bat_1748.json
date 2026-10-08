@@ -28,9 +28,26 @@
   "WPfr": null,
   "image_ref": "Moines-23_17_§1",
   "terme_jantzen_bat": [
-    "sculpture",
     "chimère",
-    "clé"
+    "clé",
+    "sculpture"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "brique",
+    "chambranle",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "linteau",
+    "mascaron",
+    "modillon",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "vantail",
+    "volet"
   ],
   "photos": [
     {
@@ -39,6 +56,23 @@
         "chimère",
         "clé",
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "fronton",
+        "mascaron",
+        "sculpture",
+        "porte",
+        "fenêtre",
+        "volet",
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "brique",
+        "pierre de taille",
+        "chambranle",
+        "vantail",
+        "modillon",
+        "linteau"
       ],
       "dateCapture": "2004:09:15"
     }

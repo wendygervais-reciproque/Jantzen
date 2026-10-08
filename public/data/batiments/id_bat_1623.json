@@ -21,10 +21,28 @@
   "WPfr": null,
   "image_ref": "Prony-21_17_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "verrière",
     "façade",
+    "verrière",
+    "fenetre",
     "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "arc en anse de panier",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "grille",
+    "mansarde",
+    "oculus",
+    "pierre de taille",
+    "porte",
+    "souche de cheminée",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -32,6 +50,24 @@
       "IndexJantzen": [
         "façade",
         "verrière"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "ardoise",
+        "mansarde",
+        "souche de cheminée",
+        "volet",
+        "porte",
+        "pierre de taille",
+        "travée",
+        "fer forgé",
+        "oculus",
+        "arc en anse de panier",
+        "bandeau",
+        "grille"
       ],
       "dateCapture": "2008:05:25"
     },
@@ -41,6 +77,7 @@
         "fenetre",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:25"
     },
     {
@@ -48,6 +85,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:25"
     },
     {
@@ -56,6 +94,7 @@
         "lucarne",
         "verrière"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:25"
     }
   ]

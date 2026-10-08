@@ -28,13 +28,35 @@
   "WPfr": null,
   "image_ref": "Dumont-d'Urville-6_16_§1",
   "terme_jantzen_bat": [
+    "balcon",
+    "sculpture",
     "fenetre",
     "lucarne",
-    "sculpture",
     "brique",
-    "décor",
+    "fronton",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
     "balcon",
-    "fronton"
+    "balustrade",
+    "brique",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "frise",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "modillon",
+    "pierre de taille",
+    "pilastre",
+    "toit à deux versants",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -45,6 +67,28 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "lucarne",
+        "mansarde",
+        "mascaron",
+        "brique",
+        "pierre de taille",
+        "ardoise",
+        "corniche",
+        "chambranle",
+        "fronton",
+        "pilastre",
+        "frise",
+        "fer forgé",
+        "volet",
+        "travée",
+        "modillon",
+        "toit à deux versants"
+      ],
       "dateCapture": "2004:10:22"
     },
     {
@@ -54,6 +98,7 @@
         "fronton",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:10:22"
     },
     {
@@ -63,6 +108,7 @@
         "brique",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:10:22"
     }
   ]

@@ -29,12 +29,40 @@
   "image_ref": "Vaneau-14_7_§1",
   "terme_jantzen_bat": [
     "toiture",
-    "fenetre",
-    "lucarne",
     "oeil-de-boeuf",
     "sculpture",
+    "fenetre",
+    "lucarne",
     "porte-bois",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc brisé",
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "bandeau",
+    "chapiteau",
+    "colonne",
+    "corniche",
+    "faîtage",
+    "fenêtre",
+    "fer forgé",
+    "frise",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mascaron",
+    "oculus",
+    "oriel",
+    "pilastre",
+    "porte",
+    "porte-fenêtre",
+    "sculpture",
+    "souche de cheminée",
+    "travée",
+    "vantail",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -45,6 +73,34 @@
         "lucarne",
         "toiture"
       ],
+      "IndexTorneh": [
+        "lucarne",
+        "oculus",
+        "souche de cheminée",
+        "ardoise",
+        "épi de faîtage",
+        "faîtage",
+        "fronton",
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "porte-fenêtre",
+        "arc en plein cintre",
+        "arc brisé",
+        "pilastre",
+        "corniche",
+        "frise",
+        "sculpture",
+        "mascaron",
+        "porte",
+        "vantail",
+        "travée",
+        "fer forgé",
+        "bandeau",
+        "chapiteau",
+        "colonne",
+        "oriel"
+      ],
       "dateCapture": "2009:06:03"
     },
     {
@@ -53,6 +109,7 @@
         "lucarne",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:06:03"
     },
     {
@@ -61,6 +118,7 @@
         "décor",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:06:03"
     },
     {
@@ -69,6 +127,7 @@
         "décor",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:06:03"
     },
     {
@@ -76,6 +135,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:06:03"
     },
     {
@@ -83,6 +143,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:06:03"
     },
     {
@@ -90,6 +151,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:06:03"
     },
     {
@@ -97,6 +159,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:06:03"
     },
     {
@@ -104,6 +167,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:06:03"
     },
     {
@@ -111,6 +175,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:06:03"
     },
     {
@@ -119,6 +184,7 @@
         "porte-bois",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:06:03"
     },
     {
@@ -127,6 +193,7 @@
         "porte-bois",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:06:03"
     },
     {
@@ -135,6 +202,7 @@
         "porte-bois",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:06:03"
     },
     {
@@ -144,6 +212,7 @@
         "fenetre",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:06:03"
     },
     {
@@ -153,6 +222,7 @@
         "fenetre",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:06:03"
     },
     {
@@ -161,6 +231,7 @@
         "décor",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:06:03"
     },
     {
@@ -169,6 +240,7 @@
         "décor",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:06:03"
     },
     {
@@ -177,6 +249,7 @@
         "décor",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:06:03"
     }
   ]

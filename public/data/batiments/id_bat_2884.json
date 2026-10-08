@@ -39,11 +39,61 @@
     "façade",
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "chapiteau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "jambage",
+    "linteau",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "souche de cheminée",
+    "vantail",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Michelet-5_6_§1_Dx",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "lucarne",
+        "mansarde",
+        "mascaron",
+        "corniche",
+        "bandeau",
+        "pilastre",
+        "chapiteau",
+        "arc en plein cintre",
+        "linteau",
+        "porte",
+        "vantail",
+        "volet",
+        "ardoise",
+        "pierre de taille",
+        "fer forgé",
+        "souche de cheminée",
+        "jambage",
+        "chambranle",
+        "oculus"
       ],
       "dateCapture": "2017:10:06"
     },
@@ -52,6 +102,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2017:10:06"
     }
   ]

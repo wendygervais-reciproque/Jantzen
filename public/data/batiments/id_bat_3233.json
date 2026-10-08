@@ -21,13 +21,31 @@
   "WPfr": null,
   "image_ref": "Flandre-62_19_§1",
   "terme_jantzen_bat": [
-    "garde-corps",
-    "console",
-    "tourelle",
+    "balcon",
     "façade-d'angle",
+    "tourelle",
     "fenetre-d'angle",
+    "console",
     "lucarne-d'angle",
-    "balcon"
+    "garde-corps"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "oculus",
+    "oriel",
+    "pierre de taille",
+    "porte",
+    "souche de cheminée",
+    "toit à deux versants",
+    "vitrail"
   ],
   "photos": [
     {
@@ -35,6 +53,24 @@
       "IndexJantzen": [
         "façade-d'angle",
         "tourelle"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "mansarde",
+        "lucarne",
+        "souche de cheminée",
+        "toit à deux versants",
+        "pierre de taille",
+        "porte",
+        "vitrail",
+        "oculus",
+        "corniche",
+        "bandeau",
+        "ardoise",
+        "oriel"
       ],
       "dateCapture": "2005:08:02"
     },
@@ -44,6 +80,7 @@
         "balcon",
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:02"
     },
     {
@@ -53,6 +90,7 @@
         "garde-corps",
         "lucarne-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:02"
     },
     {
@@ -61,6 +99,7 @@
         "balcon",
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:02"
     },
     {
@@ -69,6 +108,7 @@
         "console",
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:02"
     }
   ]

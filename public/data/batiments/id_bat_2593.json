@@ -21,14 +21,34 @@
   "WPfr": null,
   "image_ref": "Rapp-41_7_§1",
   "terme_jantzen_bat": [
-    "porte-fer",
-    "porte-fer-hall"
+    "porte-fer-hall",
+    "porte-fer"
+  ],
+  "terme_torneh_bat": [
+    "bossage",
+    "chambranle",
+    "fer forgé",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "porte-fenêtre",
+    "sculpture"
   ],
   "photos": [
     {
       "id_pic": "Rapp-41_7_§1",
       "IndexJantzen": [
         "porte-fer-hall"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "porte-fenêtre",
+        "chambranle",
+        "fer forgé",
+        "sculpture",
+        "pierre de taille",
+        "bossage",
+        "mascaron"
       ],
       "dateCapture": "2006:04:11"
     },
@@ -37,6 +57,7 @@
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": null
     }
   ]

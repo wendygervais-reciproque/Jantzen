@@ -21,18 +21,56 @@
   "WPfr": null,
   "image_ref": "St-Germain-286_7_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "façade",
     "sculpture",
     "clé",
-    "porte-bois",
-    "fronton"
+    "fenetre",
+    "façade",
+    "fronton",
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "linteau",
+    "mascaron",
+    "modillon",
+    "pierre de taille",
+    "porte",
+    "toit-terrasse",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "St-Germain-286_7_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "volet",
+        "arc en plein cintre",
+        "mascaron",
+        "corniche",
+        "bandeau",
+        "pierre de taille",
+        "porte",
+        "fer forgé",
+        "chambranle",
+        "linteau",
+        "modillon",
+        "travée",
+        "toit-terrasse"
       ],
       "dateCapture": "2004:03:30"
     },
@@ -42,6 +80,7 @@
         "fenetre",
         "fronton"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:03"
     },
     {
@@ -52,6 +91,7 @@
         "fronton",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:03"
     },
     {
@@ -62,6 +102,7 @@
         "fronton",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:03:30"
     },
     {
@@ -70,6 +111,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:03"
     },
     {
@@ -77,6 +119,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:03:30"
     }
   ]

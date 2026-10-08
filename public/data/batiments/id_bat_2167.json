@@ -24,12 +24,46 @@
     "façade",
     "pignon"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "chéneau",
+    "fenêtre",
+    "garde-corps",
+    "huisserie",
+    "mansarde",
+    "porte",
+    "souche de cheminée",
+    "travée",
+    "tuile",
+    "vantail",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Galande-31-35_5_§1",
       "IndexJantzen": [
         "façade",
         "pignon"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "porte",
+        "vantail",
+        "volet",
+        "souche de cheminée",
+        "ardoise",
+        "chéneau",
+        "balustrade",
+        "tuile",
+        "mansarde",
+        "travée",
+        "arc en plein cintre",
+        "huisserie"
       ],
       "dateCapture": "2006:06:06"
     }

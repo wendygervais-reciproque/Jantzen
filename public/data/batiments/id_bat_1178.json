@@ -31,11 +31,65 @@
     "façade",
     "oriel"
   ],
+  "terme_torneh_bat": [
+    "baie",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "bossage",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "grille",
+    "linteau",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oriel",
+    "pierre de taille",
+    "porte",
+    "porte-fenêtre",
+    "sculpture",
+    "souche de cheminée",
+    "travée",
+    "vitrail",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Montmartre-167_2_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "baie",
+        "balcon",
+        "balustrade",
+        "bandeau",
+        "bossage",
+        "chambranle",
+        "corniche",
+        "fenêtre",
+        "fer forgé",
+        "fronton",
+        "garde-corps",
+        "grille",
+        "linteau",
+        "lucarne",
+        "mascaron",
+        "mansarde",
+        "oriel",
+        "pierre de taille",
+        "porte",
+        "porte-fenêtre",
+        "souche de cheminée",
+        "sculpture",
+        "travée",
+        "vitrail",
+        "volet"
       ],
       "dateCapture": "2006:04:22"
     },
@@ -45,6 +99,7 @@
         "façade",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:05"
     },
     {
@@ -52,6 +107,7 @@
       "IndexJantzen": [
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:22"
     }
   ]

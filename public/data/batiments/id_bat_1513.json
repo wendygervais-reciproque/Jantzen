@@ -25,11 +25,41 @@
   "terme_jantzen_bat": [
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balustrade",
+    "chambranle",
+    "chapiteau composite",
+    "grille",
+    "mascaron",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "porte-fenêtre",
+    "sculpture",
+    "vantail",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Lecluse-2_17_§1",
       "IndexJantzen": [
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "porte-fenêtre",
+        "vantail",
+        "arc en plein cintre",
+        "chambranle",
+        "pilastre",
+        "chapiteau composite",
+        "mascaron",
+        "sculpture",
+        "grille",
+        "volet",
+        "balustrade",
+        "pierre de taille"
       ],
       "dateCapture": "2004:10:04"
     }

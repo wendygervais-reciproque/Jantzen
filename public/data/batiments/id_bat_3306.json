@@ -28,11 +28,36 @@
   "WPfr": null,
   "image_ref": "Segur-67_7_§1",
   "terme_jantzen_bat": [
-    "lucarne",
+    "balcon",
     "façade-d'angle",
-    "porte",
     "fenetre-d'angle",
-    "balcon"
+    "lucarne",
+    "porte"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "oriel",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "porte-fenêtre",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée"
   ],
   "photos": [
     {
@@ -40,6 +65,31 @@
       "IndexJantzen": [
         "façade-d'angle",
         "porte"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "porte-fenêtre",
+        "porte",
+        "lucarne",
+        "mansarde",
+        "dôme",
+        "oculus",
+        "corniche",
+        "bandeau",
+        "pilastre",
+        "pierre de taille",
+        "ardoise",
+        "souche de cheminée",
+        "mascaron",
+        "sculpture",
+        "fer forgé",
+        "chambranle",
+        "toit à deux versants",
+        "travée",
+        "oriel"
       ],
       "dateCapture": "2005:04:21"
     },
@@ -49,6 +99,7 @@
         "façade-d'angle",
         "porte"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:21"
     },
     {
@@ -58,6 +109,7 @@
         "fenetre-d'angle",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:21"
     }
   ]

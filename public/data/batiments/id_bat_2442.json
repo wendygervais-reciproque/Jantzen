@@ -25,11 +25,39 @@
   "terme_jantzen_bat": [
     "façade-d'angle"
   ],
+  "terme_torneh_bat": [
+    "attique",
+    "avant-corps",
+    "balcon",
+    "balustrade",
+    "fenêtre",
+    "garde-corps",
+    "oriel",
+    "pierre de taille",
+    "porte",
+    "toit-terrasse",
+    "travée",
+    "vitrail"
+  ],
   "photos": [
     {
       "id_pic": "Joseph-Granier-4-5_7_§2",
       "IndexJantzen": [
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "garde-corps",
+        "travée",
+        "pierre de taille",
+        "oriel",
+        "porte",
+        "vitrail",
+        "attique",
+        "avant-corps",
+        "toit-terrasse"
       ],
       "dateCapture": "2005:05:01"
     }

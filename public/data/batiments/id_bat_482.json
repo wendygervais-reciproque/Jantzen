@@ -28,17 +28,49 @@
   "WPfr": null,
   "image_ref": "Francois-Millet-11_16_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "garde-corps",
     "sculpture",
-    "décor",
-    "porte-fer-hall"
+    "fenetre",
+    "porte-fer-hall",
+    "garde-corps",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "fenêtre",
+    "fer",
+    "fer forgé",
+    "garde-corps",
+    "oriel",
+    "pierre de taille",
+    "porte-fenêtre",
+    "toit à deux versants",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Francois-Millet-11_16_§1",
       "IndexJantzen": [
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "porte-fenêtre",
+        "oriel",
+        "pierre de taille",
+        "brique",
+        "bandeau",
+        "toit à deux versants",
+        "ardoise",
+        "fer",
+        "volet"
       ],
       "dateCapture": "2005:05:18"
     },
@@ -48,6 +80,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:01"
     },
     {
@@ -55,6 +88,7 @@
       "IndexJantzen": [
         "porte-fer-hall"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:01"
     },
     {
@@ -62,6 +96,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:18"
     },
     {
@@ -71,6 +106,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:18"
     },
     {
@@ -81,6 +117,7 @@
         "garde-corps",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:01"
     },
     {
@@ -90,6 +127,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:18"
     },
     {
@@ -97,6 +135,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:18"
     },
     {
@@ -107,6 +146,7 @@
         "garde-corps",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:18"
     },
     {
@@ -114,6 +154,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:18"
     }
   ]

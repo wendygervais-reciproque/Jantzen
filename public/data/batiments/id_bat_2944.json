@@ -21,14 +21,50 @@
   "WPfr": null,
   "image_ref": "Ternes-Av-52_17_§1",
   "terme_jantzen_bat": [
+    "oriel",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
     "lucarne",
-    "oriel"
+    "mansarde",
+    "mascaron",
+    "oriel",
+    "pierre de taille",
+    "souche de cheminée",
+    "toit à deux versants",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Ternes-Av-52_17_§1",
       "IndexJantzen": [
         "oriel"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "oriel",
+        "lucarne",
+        "mansarde",
+        "toit à deux versants",
+        "ardoise",
+        "souche de cheminée",
+        "volet",
+        "corniche",
+        "bandeau",
+        "mascaron",
+        "pierre de taille",
+        "fer forgé"
       ],
       "dateCapture": "2006:04:01"
     },
@@ -37,6 +73,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:01"
     },
     {
@@ -44,6 +81,7 @@
       "IndexJantzen": [
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:01"
     },
     {
@@ -51,6 +89,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:01"
     }
   ]

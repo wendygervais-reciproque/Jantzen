@@ -21,7 +21,21 @@
   "WPfr": null,
   "image_ref": "Voltaire-qu-31_7_§1",
   "terme_jantzen_bat": [
-    "fenetre",
+    "sculpture",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "chambranle",
+    "corniche",
+    "entablement",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "modillon",
+    "oculus",
+    "pierre de taille",
     "sculpture"
   ],
   "photos": [
@@ -31,6 +45,20 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [
+        "oculus",
+        "fronton",
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "sculpture",
+        "pierre de taille",
+        "corniche",
+        "entablement",
+        "modillon",
+        "chambranle"
+      ],
       "dateCapture": "2006:07:03"
     },
     {
@@ -39,6 +67,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:03"
     }
   ]

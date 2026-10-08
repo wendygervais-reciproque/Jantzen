@@ -28,8 +28,24 @@
   "WPfr": null,
   "image_ref": "Tilsitt-30b_17_§1",
   "terme_jantzen_bat": [
+    "sculpture",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "corniche",
+    "fenêtre",
+    "fronton",
     "lucarne",
-    "sculpture"
+    "mascaron",
+    "pierre de taille",
+    "pilastre",
+    "sculpture",
+    "souche de cheminée",
+    "vantail",
+    "volet"
   ],
   "photos": [
     {
@@ -37,6 +53,22 @@
       "IndexJantzen": [
         "lucarne",
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "lucarne",
+        "balustrade",
+        "balcon",
+        "fenêtre",
+        "fronton",
+        "corniche",
+        "pilastre",
+        "mascaron",
+        "sculpture",
+        "ardoise",
+        "souche de cheminée",
+        "pierre de taille",
+        "vantail",
+        "volet"
       ],
       "dateCapture": "2010:06:05"
     }

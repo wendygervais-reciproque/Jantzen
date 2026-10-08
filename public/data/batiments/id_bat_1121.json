@@ -21,15 +21,35 @@
   "WPfr": null,
   "image_ref": "Clichy-16_9_§1",
   "terme_jantzen_bat": [
-    "fenetre",
+    "verrière",
     "mosaique",
-    "verrière"
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "baie",
+    "céramique",
+    "fer forgé",
+    "marquise",
+    "pilastre",
+    "verrière",
+    "vitrail"
   ],
   "photos": [
     {
       "id_pic": "Clichy-16_9_§1",
       "IndexJantzen": [
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "arc en plein cintre",
+        "vitrail",
+        "céramique",
+        "baie",
+        "fer forgé",
+        "marquise",
+        "verrière",
+        "pilastre"
       ],
       "dateCapture": "2005:05:21"
     },
@@ -40,6 +60,7 @@
         "mosaique",
         "verrière"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:21"
     }
   ]

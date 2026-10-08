@@ -28,10 +28,23 @@
   "WPfr": null,
   "image_ref": "Louis-Boilly-3_16_§1",
   "terme_jantzen_bat": [
+    "porte-fer-hall",
     "sculpture",
-    "porte-fer",
     "console",
-    "porte-fer-hall"
+    "porte-fer"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "modillon",
+    "pierre de taille",
+    "sculpture",
+    "volet"
   ],
   "photos": [
     {
@@ -40,6 +53,19 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "arc en plein cintre",
+        "fenêtre",
+        "volet",
+        "sculpture",
+        "pierre de taille",
+        "modillon",
+        "fer forgé",
+        "corniche"
+      ],
       "dateCapture": "2005:05:28"
     },
     {
@@ -47,6 +73,7 @@
       "IndexJantzen": [
         "porte-fer-hall"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:28"
     },
     {
@@ -54,6 +81,7 @@
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:28"
     },
     {
@@ -61,6 +89,7 @@
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:28"
     }
   ]

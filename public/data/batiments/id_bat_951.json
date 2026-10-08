@@ -28,24 +28,68 @@
   "WPfr": null,
   "image_ref": "Versailles-142_16_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "façade",
-    "garde-corps",
-    "lucarne",
+    "balcon",
     "façade-d'angle",
     "sculpture",
-    "porte-fer-hall",
-    "fenetre-d'angle",
     "oriel",
+    "fenetre-d'angle",
+    "fenetre",
+    "lucarne",
+    "façade",
     "brique",
+    "porte-fer-hall",
     "lucarne-d'angle",
-    "balcon"
+    "garde-corps"
+  ],
+  "terme_torneh_bat": [
+    "arc brisé",
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "brique",
+    "chéneau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mascaron",
+    "oculus",
+    "oriel",
+    "pierre de taille",
+    "porte",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Versailles-142_16_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "lucarne",
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "balustrade",
+        "souche de cheminée",
+        "arc en plein cintre",
+        "arc brisé",
+        "pierre de taille",
+        "brique",
+        "oriel",
+        "mascaron",
+        "porte",
+        "porte-fenêtre",
+        "volet",
+        "fer forgé",
+        "corniche",
+        "travée",
+        "oculus",
+        "chéneau"
       ],
       "dateCapture": "2014:03:08"
     },
@@ -57,6 +101,7 @@
         "fenetre-d'angle",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:07:21"
     },
     {
@@ -65,6 +110,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:07:21"
     },
     {
@@ -73,6 +119,7 @@
         "brique",
         "lucarne-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:07:21"
     },
     {
@@ -81,6 +128,7 @@
         "brique",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:07:21"
     },
     {
@@ -89,6 +137,7 @@
         "brique",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2014:03:08"
     },
     {
@@ -96,6 +145,7 @@
       "IndexJantzen": [
         "brique"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:03:26"
     },
     {
@@ -104,6 +154,7 @@
         "brique",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:02:04"
     },
     {
@@ -112,6 +163,7 @@
         "brique",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:07:21"
     },
     {
@@ -119,6 +171,7 @@
       "IndexJantzen": [
         "façade-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2014:03:08"
     },
     {
@@ -126,6 +179,7 @@
       "IndexJantzen": [
         "façade-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2014:03:08"
     },
     {
@@ -134,6 +188,7 @@
         "brique",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2014:03:08"
     },
     {
@@ -142,6 +197,7 @@
         "brique",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:07:21"
     },
     {
@@ -150,6 +206,7 @@
         "brique",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:07:21"
     },
     {
@@ -158,6 +215,7 @@
         "brique",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:03:26"
     },
     {
@@ -167,6 +225,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2014:03:08"
     },
     {
@@ -175,6 +234,7 @@
         "brique",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2014:03:08"
     },
     {
@@ -184,6 +244,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2014:03:08"
     },
     {
@@ -193,6 +254,7 @@
         "fenetre-d'angle",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2014:03:08"
     },
     {
@@ -201,6 +263,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:03:27"
     },
     {
@@ -209,6 +272,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:03:21"
     },
     {
@@ -217,6 +281,7 @@
         "brique",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:02:04"
     },
     {
@@ -225,6 +290,7 @@
         "brique",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:03:26"
     },
     {
@@ -234,6 +300,7 @@
         "façade",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2014:03:08"
     },
     {
@@ -242,6 +309,7 @@
         "brique",
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2014:03:08"
     },
     {
@@ -250,6 +318,7 @@
         "brique",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:07:21"
     },
     {
@@ -258,6 +327,7 @@
         "brique",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:03:26"
     },
     {
@@ -266,6 +336,7 @@
         "brique",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:07:21"
     },
     {
@@ -275,6 +346,7 @@
         "fenetre-d'angle",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2014:03:08"
     },
     {
@@ -283,6 +355,7 @@
         "brique",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:03:26"
     },
     {
@@ -292,6 +365,7 @@
         "brique",
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:07:21"
     },
     {
@@ -301,6 +375,7 @@
         "fenetre-d'angle",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:03:26"
     },
     {
@@ -310,6 +385,7 @@
         "fenetre-d'angle",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:02:04"
     },
     {
@@ -318,6 +394,7 @@
         "brique",
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2014:03:08"
     },
     {
@@ -325,6 +402,7 @@
       "IndexJantzen": [
         "porte-fer-hall"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:07:13"
     }
   ]

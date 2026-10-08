@@ -28,8 +28,23 @@
   "WPfr": null,
   "image_ref": "Lamarck-129_18_§1",
   "terme_jantzen_bat": [
-    "porte-bois",
-    "clé"
+    "clé",
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "balcon",
+    "balustrade",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "perron",
+    "pierre de taille",
+    "pilastre",
+    "portail",
+    "porte",
+    "sculpture",
+    "vantail"
   ],
   "photos": [
     {
@@ -37,6 +52,21 @@
       "IndexJantzen": [
         "clé",
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "portail",
+        "arc",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "mascaron",
+        "sculpture",
+        "vantail",
+        "pierre de taille",
+        "pilastre",
+        "perron"
       ],
       "dateCapture": "2004:07:28"
     }

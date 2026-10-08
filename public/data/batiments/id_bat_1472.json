@@ -21,10 +21,32 @@
   "WPfr": null,
   "image_ref": "Prague-2_12_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "lucarne",
+    "colonne",
     "mosaique",
-    "colonne"
+    "fenetre",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "colonne",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "sculpture",
+    "souche de cheminée",
+    "volet"
   ],
   "photos": [
     {
@@ -33,6 +55,28 @@
         "fenetre",
         "lucarne",
         "mosaique"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "lucarne",
+        "mansarde",
+        "oculus",
+        "corniche",
+        "bandeau",
+        "colonne",
+        "pilastre",
+        "sculpture",
+        "mascaron",
+        "souche de cheminée",
+        "ardoise",
+        "fronton",
+        "pierre de taille",
+        "volet",
+        "fer forgé",
+        "arc en plein cintre"
       ],
       "dateCapture": "2005:07:13"
     },
@@ -43,6 +87,7 @@
         "lucarne",
         "mosaique"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:13"
     },
     {
@@ -53,6 +98,7 @@
         "lucarne",
         "mosaique"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:13"
     },
     {
@@ -61,6 +107,7 @@
         "lucarne",
         "mosaique"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:13"
     }
   ]

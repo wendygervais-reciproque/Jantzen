@@ -20,11 +20,34 @@
   "image_ref": "Louvre-1-Rr_Cn-07",
   "terme_jantzen_bat": [
     "toiture",
-    "fenetre",
-    "lucarne",
     "sculpture",
     "cariatide",
+    "fenetre",
+    "lucarne",
     "fronton"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "attique",
+    "balustrade",
+    "cariatide",
+    "chapiteau",
+    "chapiteau corinthien",
+    "colonne",
+    "corniche",
+    "fenêtre",
+    "fer",
+    "frise",
+    "fronton",
+    "garde-corps",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pilastre",
+    "sculpture",
+    "toit à deux versants",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -33,6 +56,7 @@
         "lucarne",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:10"
     },
     {
@@ -40,6 +64,7 @@
       "IndexJantzen": [
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:10"
     },
     {
@@ -48,6 +73,7 @@
         "fronton",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:10"
     },
     {
@@ -56,6 +82,7 @@
         "fronton",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:30"
     },
     {
@@ -63,6 +90,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:30"
     },
     {
@@ -72,6 +100,29 @@
         "fenetre",
         "fronton",
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "arc en plein cintre",
+        "ardoise",
+        "attique",
+        "balustrade",
+        "cariatide",
+        "chapiteau",
+        "chapiteau corinthien",
+        "colonne",
+        "corniche",
+        "fronton",
+        "fenêtre",
+        "frise",
+        "mansarde",
+        "oculus",
+        "pilastre",
+        "sculpture",
+        "toit à deux versants",
+        "épi de faîtage",
+        "fer",
+        "mascaron",
+        "garde-corps"
       ],
       "dateCapture": "2006:07:13"
     },
@@ -83,6 +134,7 @@
         "fronton",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:13"
     },
     {
@@ -93,6 +145,7 @@
         "fronton",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:09:06"
     },
     {
@@ -101,6 +154,7 @@
         "cariatide",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:09:06"
     },
     {
@@ -109,6 +163,7 @@
         "cariatide",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:13"
     },
     {
@@ -117,6 +172,7 @@
         "fronton",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:13"
     },
     {
@@ -125,6 +181,7 @@
         "fronton",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:13"
     },
     {
@@ -132,6 +189,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:13"
     },
     {
@@ -139,6 +197,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:13"
     }
   ]

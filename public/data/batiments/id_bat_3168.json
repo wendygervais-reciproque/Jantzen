@@ -29,12 +29,35 @@
   "image_ref": "Leclerc-6_14_§1",
   "terme_jantzen_bat": [
     "oeil-de-boeuf",
-    "fenetre",
-    "lucarne",
     "façade-d'angle",
     "sculpture",
+    "fenetre",
+    "lucarne",
     "brique",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "grille",
+    "gros appareil",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -42,6 +65,29 @@
       "IndexJantzen": [
         "brique",
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "lucarne",
+        "mansarde",
+        "ardoise",
+        "souche de cheminée",
+        "brique",
+        "pierre de taille",
+        "bandeau",
+        "corniche",
+        "oculus",
+        "mascaron",
+        "chambranle",
+        "travée",
+        "volet",
+        "porte-fenêtre",
+        "gros appareil",
+        "grille"
       ],
       "dateCapture": "2005:04:01"
     },
@@ -54,6 +100,7 @@
         "lucarne",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:01"
     },
     {
@@ -63,6 +110,7 @@
         "oeil-de-boeuf",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:01"
     },
     {
@@ -72,6 +120,7 @@
         "oeil-de-boeuf",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:07"
     }
   ]

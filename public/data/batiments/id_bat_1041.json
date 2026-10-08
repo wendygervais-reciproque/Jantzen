@@ -21,12 +21,33 @@
   "WPfr": null,
   "image_ref": "Larrey-15_5_A07",
   "terme_jantzen_bat": [
+    "balcon",
+    "sculpture",
+    "console",
     "fenetre",
     "façade",
-    "console",
-    "sculpture",
-    "balcon",
     "porte-fer-hall"
+  ],
+  "terme_torneh_bat": [
+    "attique",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porte-fenêtre",
+    "sculpture",
+    "toit à deux versants",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -36,6 +57,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:08:09"
     },
     {
@@ -43,12 +65,34 @@
       "IndexJantzen": [
         "porte-fer-hall"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:08:09"
     },
     {
       "id_pic": "Larrey-15_5_A07",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "porte-fenêtre",
+        "garde-corps",
+        "volet",
+        "fer forgé",
+        "mascaron",
+        "corniche",
+        "bandeau",
+        "pilastre",
+        "sculpture",
+        "mansarde",
+        "toit à deux versants",
+        "fronton",
+        "pierre de taille",
+        "travée",
+        "oculus",
+        "attique"
       ],
       "dateCapture": "2003:08:09"
     },
@@ -58,6 +102,7 @@
         "balcon",
         "console"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:08:09"
     },
     {
@@ -66,6 +111,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:08:09"
     }
   ]

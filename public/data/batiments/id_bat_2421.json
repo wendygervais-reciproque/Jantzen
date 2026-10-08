@@ -23,16 +23,50 @@
   "WPfr": null,
   "image_ref": "Dulong-39_17_§1",
   "terme_jantzen_bat": [
-    "fenetre",
+    "oriel",
     "garde-corps",
     "mosaique",
-    "oriel"
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "céramique",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "oriel",
+    "pierre de taille",
+    "porte-fenêtre",
+    "sculpture",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Dulong-39_17_§1",
       "IndexJantzen": [
         "oriel"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "oriel",
+        "garde-corps",
+        "pierre de taille",
+        "fer forgé",
+        "volet",
+        "corniche",
+        "sculpture",
+        "travée",
+        "bandeau",
+        "mascaron",
+        "porte-fenêtre",
+        "céramique"
       ],
       "dateCapture": "2004:07:05"
     },
@@ -43,6 +77,7 @@
         "garde-corps",
         "mosaique"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:07:05"
     }
   ]

@@ -29,12 +29,35 @@
   "image_ref": "Cherche-Midi-18_6_§1",
   "terme_jantzen_bat": [
     "oeil-de-boeuf",
+    "sculpture",
     "fenetre",
     "façade",
-    "sculpture",
-    "porte-bois",
+    "poignée-porte",
     "fronton",
-    "poignée-porte"
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "linteau",
+    "lucarne",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "sculpture",
+    "toit à deux versants",
+    "travée",
+    "vantail",
+    "volet"
   ],
   "photos": [
     {
@@ -43,6 +66,29 @@
         "façade",
         "porte-bois"
       ],
+      "IndexTorneh": [
+        "porte",
+        "portail",
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "oculus",
+        "fronton",
+        "sculpture",
+        "mascaron",
+        "corniche",
+        "bandeau",
+        "lucarne",
+        "toit à deux versants",
+        "volet",
+        "pierre de taille",
+        "vantail",
+        "chambranle",
+        "linteau",
+        "arc en plein cintre",
+        "travée",
+        "balustrade"
+      ],
       "dateCapture": "2005:05:01"
     },
     {
@@ -50,6 +96,7 @@
       "IndexJantzen": [
         "poignée-porte"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:06:13"
     },
     {
@@ -57,6 +104,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:01"
     },
     {
@@ -66,6 +114,7 @@
         "oeil-de-boeuf",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:01"
     },
     {
@@ -75,6 +124,7 @@
         "fronton",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:01"
     },
     {
@@ -83,6 +133,7 @@
         "fenetre",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:05:14"
     },
     {
@@ -92,6 +143,7 @@
         "oeil-de-boeuf",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:01"
     },
     {
@@ -101,6 +153,7 @@
         "oeil-de-boeuf",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:06:13"
     },
     {
@@ -109,6 +162,7 @@
         "oeil-de-boeuf",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:06:13"
     },
     {
@@ -116,6 +170,7 @@
       "IndexJantzen": [
         "poignée-porte"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:01"
     }
   ]

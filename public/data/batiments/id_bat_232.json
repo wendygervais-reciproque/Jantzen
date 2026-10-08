@@ -32,11 +32,32 @@
   "WPfr": null,
   "image_ref": "Colonel-Moll-1_17_§1",
   "terme_jantzen_bat": [
+    "balcon",
+    "fenetre-d'angle",
     "fenetre",
     "façade",
+    "garde-corps"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "bossage",
+    "chéneau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
     "garde-corps",
-    "fenetre-d'angle",
-    "balcon"
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "modillon",
+    "oriel",
+    "pierre de taille",
+    "toit à deux versants",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -45,6 +66,27 @@
         "balcon",
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "lucarne",
+        "mansarde",
+        "ardoise",
+        "mascaron",
+        "corniche",
+        "bandeau",
+        "pierre de taille",
+        "fer forgé",
+        "oriel",
+        "toit à deux versants",
+        "modillon",
+        "volet",
+        "bossage",
+        "chéneau",
+        "travée"
+      ],
       "dateCapture": "2004:10:02"
     },
     {
@@ -52,6 +94,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:03:20"
     },
     {
@@ -60,6 +103,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:03:20"
     }
   ]

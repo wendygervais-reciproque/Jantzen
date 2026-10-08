@@ -28,14 +28,46 @@
   "WPfr": null,
   "image_ref": "Beaunier-24_14_§1",
   "terme_jantzen_bat": [
+    "façade",
+    "brique"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
     "brique",
-    "façade"
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "porte-fenêtre",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Beaunier-24_14_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "brique",
+        "mascaron",
+        "arc en plein cintre",
+        "lucarne",
+        "corniche",
+        "bandeau",
+        "volet",
+        "porte-fenêtre",
+        "mansarde"
       ],
       "dateCapture": "2005:04:27"
     },
@@ -45,6 +77,7 @@
         "brique",
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:27"
     }
   ]

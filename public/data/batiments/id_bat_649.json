@@ -24,12 +24,34 @@
     "façade",
     "pignon"
   ],
+  "terme_torneh_bat": [
+    "chéneau",
+    "colombage",
+    "fenêtre",
+    "lucarne",
+    "oriel",
+    "pierre de taille",
+    "porte",
+    "souche de cheminée",
+    "toit à deux versants"
+  ],
   "photos": [
     {
       "id_pic": "Barres-12_4_§1",
       "IndexJantzen": [
         "façade",
         "pignon"
+      ],
+      "IndexTorneh": [
+        "colombage",
+        "fenêtre",
+        "lucarne",
+        "souche de cheminée",
+        "porte",
+        "oriel",
+        "toit à deux versants",
+        "pierre de taille",
+        "chéneau"
       ],
       "dateCapture": "2004:09:09"
     }

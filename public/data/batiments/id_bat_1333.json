@@ -32,17 +32,59 @@
   "WPfr": null,
   "image_ref": "St-Germain-184_6_§1",
   "terme_jantzen_bat": [
+    "sculpture",
+    "cariatide",
     "fenetre",
     "façade",
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "chambranle",
+    "chapiteau",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porte",
     "sculpture",
-    "porte-bois",
-    "cariatide"
+    "toit à deux versants"
   ],
   "photos": [
     {
       "id_pic": "St-Germain-184_6_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "lucarne",
+        "arc en plein cintre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "pilastre",
+        "corniche",
+        "fronton",
+        "sculpture",
+        "mascaron",
+        "porte",
+        "pierre de taille",
+        "ardoise",
+        "chapiteau",
+        "chambranle",
+        "oculus",
+        "mansarde",
+        "toit à deux versants"
       ],
       "dateCapture": "2005:03:20"
     },
@@ -52,6 +94,7 @@
         "fenetre",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:11"
     },
     {
@@ -61,6 +104,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:03:20"
     },
     {
@@ -69,6 +113,7 @@
         "cariatide",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:03:20"
     },
     {
@@ -77,6 +122,7 @@
         "cariatide",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:03:20"
     }
   ]

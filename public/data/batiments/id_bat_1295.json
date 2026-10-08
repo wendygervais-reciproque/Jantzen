@@ -21,17 +21,49 @@
   "WPfr": null,
   "image_ref": "Universite-18_7_§1-Rs",
   "terme_jantzen_bat": [
+    "balcon",
     "fenetre",
     "lucarne",
-    "garde-corps",
+    "fronton",
+    "garde-corps"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
     "balcon",
-    "fronton"
+    "balustrade",
+    "bossage",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "pierre de taille",
+    "porte-fenêtre",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Universite-18_7_§1-Rs",
       "IndexJantzen": [
         "balcon"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "porte-fenêtre",
+        "volet",
+        "arc en plein cintre",
+        "fronton",
+        "pierre de taille",
+        "garde-corps",
+        "fer forgé",
+        "chambranle",
+        "travée",
+        "bossage",
+        "corniche"
       ],
       "dateCapture": "2009:10:19"
     },
@@ -41,6 +73,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:10:19"
     },
     {
@@ -49,6 +82,7 @@
         "fronton",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:10:19"
     }
   ]

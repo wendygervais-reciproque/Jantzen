@@ -23,11 +23,33 @@
   "terme_jantzen_bat": [
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "corniche",
+    "fenêtre",
+    "garde-corps",
+    "lucarne",
+    "mur-boutant",
+    "souche de cheminée",
+    "tuile",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Bucherie-43_5_§1",
       "IndexJantzen": [
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "lucarne",
+        "souche de cheminée",
+        "tuile",
+        "garde-corps",
+        "balcon",
+        "corniche",
+        "mur-boutant",
+        "volet"
       ],
       "dateCapture": "2009:05:19"
     }

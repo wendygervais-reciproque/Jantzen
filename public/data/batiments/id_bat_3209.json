@@ -28,9 +28,24 @@
   "WPfr": null,
   "image_ref": "Lecourbe-60_15_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "sculpture",
-    "console"
+    "console",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "linteau",
+    "mascaron",
+    "oriel",
+    "pierre de taille",
+    "porte-fenêtre",
+    "sculpture",
+    "volet"
   ],
   "photos": [
     {
@@ -38,6 +53,21 @@
       "IndexJantzen": [
         "fenetre",
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "porte-fenêtre",
+        "sculpture",
+        "mascaron",
+        "pierre de taille",
+        "oriel",
+        "volet",
+        "linteau",
+        "arc en plein cintre"
       ],
       "dateCapture": "2006:09:09"
     },
@@ -47,6 +77,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:09:09"
     },
     {
@@ -55,6 +86,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:17"
     }
   ]

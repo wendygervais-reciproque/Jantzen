@@ -30,11 +30,37 @@
   "terme_jantzen_bat": [
     "porte-fer"
   ],
+  "terme_torneh_bat": [
+    "arc",
+    "balcon",
+    "balustrade",
+    "fenêtre",
+    "fer forgé",
+    "grille",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "vantail",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "La-Fontaine-17_16_§1",
       "IndexJantzen": [
         "porte-fer"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "porte",
+        "fenêtre",
+        "volet",
+        "pierre de taille",
+        "fer forgé",
+        "grille",
+        "vantail",
+        "arc",
+        "sculpture"
       ],
       "dateCapture": null
     }

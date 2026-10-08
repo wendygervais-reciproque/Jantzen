@@ -25,11 +25,51 @@
     "lucarne-d'angle",
     "façade-d'angle"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chéneau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "oculus",
+    "pierre de taille",
+    "porte",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "vantail",
+    "vitrail"
+  ],
   "photos": [
     {
       "id_pic": "Lonchamp-86_16_§1",
       "IndexJantzen": [
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "lucarne",
+        "mansarde",
+        "oculus",
+        "corniche",
+        "bandeau",
+        "pierre de taille",
+        "souche de cheminée",
+        "toit à deux versants",
+        "fer forgé",
+        "vitrail",
+        "porte",
+        "vantail",
+        "travée",
+        "chéneau"
       ],
       "dateCapture": "2009:03:31"
     },
@@ -39,6 +79,7 @@
         "lucarne-d'angle",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:03:31"
     }
   ]

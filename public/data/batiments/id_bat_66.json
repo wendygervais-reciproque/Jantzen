@@ -28,10 +28,27 @@
   "WPfr": "Église Saint-Jean de Montmartre",
   "image_ref": "Abbesses-pl_18_§1",
   "terme_jantzen_bat": [
-    "toiture",
     "brique",
+    "mosaique",
     "façade",
-    "mosaique"
+    "toiture"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc brisé",
+    "arc en plein cintre",
+    "baie",
+    "brique",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "grille",
+    "oculus",
+    "portail",
+    "porte",
+    "tour",
+    "vitrail",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -40,6 +57,23 @@
         "brique",
         "façade",
         "mosaique"
+      ],
+      "IndexTorneh": [
+        "tour",
+        "brique",
+        "oculus",
+        "arc",
+        "arc brisé",
+        "arc en plein cintre",
+        "portail",
+        "porte",
+        "baie",
+        "fenêtre",
+        "fronton",
+        "grille",
+        "corniche",
+        "épi de faîtage",
+        "vitrail"
       ],
       "dateCapture": "2006:06:09"
     },
@@ -50,6 +84,7 @@
         "façade",
         "mosaique"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:09"
     },
     {
@@ -59,6 +94,7 @@
         "façade",
         "mosaique"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:09"
     },
     {
@@ -68,6 +104,7 @@
         "façade",
         "mosaique"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:09"
     },
     {
@@ -77,6 +114,7 @@
         "mosaique",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:09"
     }
   ]

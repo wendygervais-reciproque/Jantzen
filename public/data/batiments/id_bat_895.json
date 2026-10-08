@@ -32,9 +32,27 @@
   "WPfr": null,
   "image_ref": "Damremont-14_18_§1",
   "terme_jantzen_bat": [
-    "lucarne",
     "lucarne-d'angle",
-    "dome"
+    "dome",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "chaîne d'angle",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "sculpture",
+    "souche de cheminée",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -42,6 +60,24 @@
       "IndexJantzen": [
         "dome",
         "lucarne-d'angle"
+      ],
+      "IndexTorneh": [
+        "dôme",
+        "épi de faîtage",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "oculus",
+        "fer forgé",
+        "pierre de taille",
+        "corniche",
+        "chaîne d'angle",
+        "mascaron",
+        "sculpture",
+        "souche de cheminée",
+        "ardoise",
+        "fronton"
       ],
       "dateCapture": "2007:03:14"
     },
@@ -51,6 +87,7 @@
         "dome",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:03:14"
     }
   ]

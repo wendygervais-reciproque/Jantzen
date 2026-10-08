@@ -30,11 +30,35 @@
   "terme_jantzen_bat": [
     "porte-fer-hall"
   ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "fer forgé",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Faraday-10_17_§1",
       "IndexJantzen": [
         "porte-fer-hall"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "arc en plein cintre",
+        "arc",
+        "fer forgé",
+        "vantail",
+        "pierre de taille",
+        "balcon",
+        "balustrade",
+        "sculpture",
+        "mascaron"
       ],
       "dateCapture": "2006:06:08"
     }

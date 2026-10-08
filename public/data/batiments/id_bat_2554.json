@@ -28,17 +28,67 @@
   "WPfr": null,
   "image_ref": "Flandre-40_19_§1",
   "terme_jantzen_bat": [
+    "sculpture",
+    "console",
     "fenetre",
     "façade",
-    "console",
-    "sculpture",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "vitrail",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Flandre-40_19_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "mansarde",
+        "lucarne",
+        "corniche",
+        "pilastre",
+        "fronton",
+        "arc en plein cintre",
+        "arc",
+        "chambranle",
+        "souche de cheminée",
+        "mascaron",
+        "sculpture",
+        "porte",
+        "vitrail",
+        "pierre de taille",
+        "volet",
+        "bandeau",
+        "travée",
+        "toit à deux versants",
+        "ardoise"
       ],
       "dateCapture": "2005:08:02"
     },
@@ -49,6 +99,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:02"
     },
     {
@@ -57,6 +108,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:02"
     }
   ]

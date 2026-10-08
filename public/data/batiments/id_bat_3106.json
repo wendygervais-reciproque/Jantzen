@@ -32,14 +32,54 @@
   "WPfr": null,
   "image_ref": "Pantheon-pl-6_5_§1",
   "terme_jantzen_bat": [
-    "porte-fer",
-    "clé"
+    "clé",
+    "porte-fer"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "baie",
+    "balcon",
+    "balustrade",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "grille",
+    "mascaron",
+    "perron",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "sculpture",
+    "vantail",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Pantheon-pl-6_5_§1",
       "IndexJantzen": [
         "porte-fer"
+      ],
+      "IndexTorneh": [
+        "arc",
+        "arc en plein cintre",
+        "balcon",
+        "balustrade",
+        "baie",
+        "fenêtre",
+        "porte",
+        "portail",
+        "vantail",
+        "fer forgé",
+        "grille",
+        "mascaron",
+        "pierre de taille",
+        "perron",
+        "corniche",
+        "garde-corps",
+        "volet",
+        "sculpture"
       ],
       "dateCapture": "2005:05:27"
     },
@@ -49,6 +89,7 @@
         "clé",
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:27"
     }
   ]

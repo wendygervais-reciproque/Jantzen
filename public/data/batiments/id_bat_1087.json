@@ -21,17 +21,61 @@
   "WPfr": null,
   "image_ref": "Jean-Jaures-159_19_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "pignon",
     "façade-d'angle",
+    "pignon",
+    "fenetre",
     "brique",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "baie",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chéneau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "oriel",
+    "pierre de taille",
+    "pilastre",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Jean-Jaures-159_19_§1",
       "IndexJantzen": [
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "bandeau",
+        "baie",
+        "fenêtre",
+        "fer forgé",
+        "garde-corps",
+        "lucarne",
+        "mansarde",
+        "oriel",
+        "pierre de taille",
+        "souche de cheminée",
+        "toit à deux versants",
+        "travée",
+        "volet",
+        "fronton",
+        "corniche",
+        "arc en plein cintre",
+        "chéneau",
+        "pilastre"
       ],
       "dateCapture": "2005:08:04"
     },
@@ -42,6 +86,7 @@
         "fenetre",
         "pignon"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:04"
     },
     {
@@ -51,6 +96,7 @@
         "décor",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:04"
     },
     {
@@ -60,6 +106,7 @@
         "décor",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:04"
     }
   ]

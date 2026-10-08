@@ -21,16 +21,62 @@
   "WPfr": null,
   "image_ref": "Vouille-1_15_§1",
   "terme_jantzen_bat": [
-    "lucarne-d'angle",
     "sculpture",
     "fronton",
+    "lucarne-d'angle",
     "façade-d'angle"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chapiteau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "souche de cheminée",
+    "toit à deux versants",
+    "vitrail",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Vouille-1_15_§1",
       "IndexJantzen": [
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "lucarne",
+        "mansarde",
+        "souche de cheminée",
+        "fronton",
+        "corniche",
+        "bandeau",
+        "pierre de taille",
+        "fer forgé",
+        "oculus",
+        "ardoise",
+        "volet",
+        "porte",
+        "vitrail",
+        "mascaron",
+        "chapiteau",
+        "pilastre",
+        "toit à deux versants"
       ],
       "dateCapture": "2009:03:16"
     },
@@ -41,6 +87,7 @@
         "lucarne-d'angle",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:03:16"
     },
     {
@@ -50,6 +97,7 @@
         "lucarne-d'angle",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:03:20"
     },
     {
@@ -57,6 +105,7 @@
       "IndexJantzen": [
         "lucarne-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:10:15"
     }
   ]

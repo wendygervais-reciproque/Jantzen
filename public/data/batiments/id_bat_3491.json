@@ -24,12 +24,36 @@
     "oeil-de-boeuf",
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "bossage",
+    "chambranle",
+    "garde-corps",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Haussmann-73_8_§1",
       "IndexJantzen": [
         "oeil-de-boeuf",
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "arc en plein cintre",
+        "mascaron",
+        "vantail",
+        "pierre de taille",
+        "bossage",
+        "sculpture",
+        "balcon",
+        "garde-corps",
+        "chambranle"
       ],
       "dateCapture": "2006:03:31"
     }

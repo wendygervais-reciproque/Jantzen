@@ -22,15 +22,43 @@
   "image_ref": "Chantiers-3_5_§1",
   "terme_jantzen_bat": [
     "sculpture",
-    "fenetre",
+    "clé",
     "console",
-    "clé"
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "pierre de taille",
+    "porte-fenêtre",
+    "travée"
   ],
   "photos": [
     {
       "id_pic": "Chantiers-3_5_§1",
       "IndexJantzen": [
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "porte-fenêtre",
+        "arc",
+        "arc en plein cintre",
+        "pierre de taille",
+        "corniche",
+        "bandeau",
+        "travée"
       ],
       "dateCapture": "2005:06:08"
     },
@@ -41,6 +69,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:08"
     }
   ]

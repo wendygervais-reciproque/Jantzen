@@ -22,10 +22,34 @@
   "image_ref": "Universite-63_7_§1",
   "terme_jantzen_bat": [
     "façade-d'angle",
-    "porte",
     "sculpture",
     "fenetre-d'angle",
+    "porte",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oriel",
+    "pierre de taille",
+    "porte",
+    "porte-fenêtre",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "vitrail",
+    "volet"
   ],
   "photos": [
     {
@@ -33,6 +57,30 @@
       "IndexJantzen": [
         "façade-d'angle",
         "porte"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "porte",
+        "porte-fenêtre",
+        "fer forgé",
+        "garde-corps",
+        "pierre de taille",
+        "sculpture",
+        "mascaron",
+        "arc en plein cintre",
+        "toit à deux versants",
+        "souche de cheminée",
+        "lucarne",
+        "mansarde",
+        "oriel",
+        "bandeau",
+        "corniche",
+        "volet",
+        "vitrail",
+        "travée",
+        "arc"
       ],
       "dateCapture": "2005:04:17"
     },
@@ -43,6 +91,7 @@
         "fenetre-d'angle",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:17"
     }
   ]

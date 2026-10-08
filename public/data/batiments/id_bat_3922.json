@@ -23,11 +23,43 @@
   "terme_jantzen_bat": [
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "chambranle",
+    "fer forgé",
+    "garde-corps",
+    "gros appareil",
+    "pierre de taille",
+    "pilastre",
+    "portail",
+    "porte",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Malesherbes-97_8_§1",
       "IndexJantzen": [
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "portail",
+        "arc en plein cintre",
+        "arc",
+        "vantail",
+        "sculpture",
+        "pierre de taille",
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "gros appareil",
+        "balustrade",
+        "chambranle",
+        "pilastre"
       ],
       "dateCapture": "2006:01:25"
     }

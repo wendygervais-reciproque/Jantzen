@@ -33,12 +33,42 @@
     "sculpture",
     "console"
   ],
+  "terme_torneh_bat": [
+    "arc",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "pierre de taille",
+    "porte-fenêtre",
+    "sculpture",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Vincent-Auriol-124_13_§1",
       "IndexJantzen": [
         "console",
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "arc",
+        "fenêtre",
+        "porte-fenêtre",
+        "volet",
+        "sculpture",
+        "mascaron",
+        "pierre de taille",
+        "bandeau",
+        "corniche",
+        "fer forgé"
       ],
       "dateCapture": "2005:07:17"
     }

@@ -29,10 +29,31 @@
   "image_ref": "Pereire-212b_17_§1",
   "terme_jantzen_bat": [
     "toiture",
+    "sculpture",
     "fenetre",
     "lucarne",
+    "garde-corps"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
     "garde-corps",
-    "sculpture"
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "souche de cheminée",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -41,6 +62,27 @@
         "lucarne",
         "toiture"
       ],
+      "IndexTorneh": [
+        "lucarne",
+        "mansarde",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "volet",
+        "arc en plein cintre",
+        "pierre de taille",
+        "ardoise",
+        "souche de cheminée",
+        "chambranle",
+        "mascaron",
+        "travée",
+        "fronton",
+        "oculus",
+        "corniche",
+        "bandeau"
+      ],
       "dateCapture": "2011:11:20"
     },
     {
@@ -48,6 +90,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:11:20"
     },
     {
@@ -55,6 +98,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2011:11:20"
     },
     {
@@ -63,6 +107,7 @@
         "lucarne",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:06:27"
     },
     {
@@ -70,6 +115,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:06:27"
     },
     {
@@ -78,6 +124,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:06:27"
     },
     {
@@ -86,6 +133,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:06:27"
     },
     {
@@ -94,6 +142,7 @@
         "lucarne",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:06:27"
     }
   ]

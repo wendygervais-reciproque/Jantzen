@@ -21,15 +21,51 @@
   "WPfr": null,
   "image_ref": "Montmartre-104-92_2_§1",
   "terme_jantzen_bat": [
+    "façade",
     "toiture",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
     "lucarne",
-    "façade"
+    "mansarde",
+    "porte",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "tuile",
+    "vitrail",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Montmartre-104-92_2_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "souche de cheminée",
+        "lucarne",
+        "mansarde",
+        "balcon",
+        "garde-corps",
+        "toit à deux versants",
+        "ardoise",
+        "tuile",
+        "fer forgé",
+        "volet",
+        "vitrail",
+        "porte",
+        "balustrade",
+        "bandeau",
+        "travée"
       ],
       "dateCapture": "2004:08:21"
     },
@@ -39,6 +75,7 @@
         "lucarne",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:04:03"
     },
     {
@@ -46,6 +83,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:04:03"
     }
   ]

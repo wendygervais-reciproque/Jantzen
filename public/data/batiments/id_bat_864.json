@@ -24,12 +24,50 @@
     "façade",
     "voie"
   ],
+  "terme_torneh_bat": [
+    "arc",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "chéneau",
+    "escalier",
+    "fenêtre",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "meneau",
+    "pierre de taille",
+    "porte",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "toit à deux versants",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Orleans-qu-14-4_4_§1",
       "IndexJantzen": [
         "façade",
         "voie"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "souche de cheminée",
+        "lucarne",
+        "mansarde",
+        "toit à deux versants",
+        "porte",
+        "volet",
+        "balustrade",
+        "arc",
+        "pierre de taille",
+        "chéneau",
+        "porte-fenêtre",
+        "meneau",
+        "escalier",
+        "ardoise"
       ],
       "dateCapture": "2010:03:23"
     }

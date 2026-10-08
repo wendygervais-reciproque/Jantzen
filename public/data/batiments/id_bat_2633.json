@@ -32,18 +32,66 @@
   "WPfr": null,
   "image_ref": "Richard-Lenoir-bd-42b_11_§1",
   "terme_jantzen_bat": [
+    "sculpture",
     "fenetre",
     "lucarne",
     "façade",
     "garde-corps",
-    "sculpture",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "oriel",
+    "pierre de taille",
+    "pilastre",
+    "sculpture",
+    "souche de cheminée",
+    "travée",
+    "vitrail"
   ],
   "photos": [
     {
       "id_pic": "Richard-Lenoir-bd-42b_11_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "lucarne",
+        "oriel",
+        "mansarde",
+        "dôme",
+        "souche de cheminée",
+        "fronton",
+        "mascaron",
+        "pilastre",
+        "corniche",
+        "bandeau",
+        "arc",
+        "arc en plein cintre",
+        "pierre de taille",
+        "sculpture",
+        "ardoise",
+        "travée",
+        "oculus",
+        "vitrail"
       ],
       "dateCapture": "2008:02:16"
     },
@@ -52,6 +100,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:16"
     },
     {
@@ -61,6 +110,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:16"
     },
     {
@@ -70,6 +120,7 @@
         "lucarne",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:16"
     },
     {
@@ -78,6 +129,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:16"
     },
     {
@@ -85,6 +137,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:16"
     },
     {
@@ -93,6 +146,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:16"
     }
   ]

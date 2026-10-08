@@ -28,14 +28,36 @@
   "WPfr": null,
   "image_ref": "Wagram-151_17_§1",
   "terme_jantzen_bat": [
-    "porte-fer",
-    "intérieur"
+    "intérieur",
+    "porte-fer"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "fer",
+    "fer forgé",
+    "garde-corps",
+    "jambage",
+    "linteau",
+    "pierre de taille",
+    "porte",
+    "porte-fenêtre"
   ],
   "photos": [
     {
       "id_pic": "Wagram-151_17_§1",
       "IndexJantzen": [
         "porte-fer"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "porte-fenêtre",
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "pierre de taille",
+        "jambage",
+        "linteau",
+        "fer"
       ],
       "dateCapture": null
     },
@@ -45,6 +67,7 @@
         "intérieur",
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": null
     }
   ]

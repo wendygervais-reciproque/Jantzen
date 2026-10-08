@@ -29,12 +29,29 @@
   "image_ref": "Houdon-5_18_§1",
   "terme_jantzen_bat": [
     "porte-fer",
-    "fenetre",
-    "garde-corps",
+    "oriel",
     "sculpture",
     "clé",
+    "fenetre",
+    "brique",
+    "garde-corps"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "oculus",
     "oriel",
-    "brique"
+    "pierre de taille",
+    "porte-fenêtre",
+    "sculpture",
+    "volet"
   ],
   "photos": [
     {
@@ -44,6 +61,23 @@
         "oriel",
         "sculpture"
       ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "brique",
+        "pierre de taille",
+        "fenêtre",
+        "porte-fenêtre",
+        "volet",
+        "mascaron",
+        "sculpture",
+        "oriel",
+        "corniche",
+        "bandeau",
+        "fer forgé",
+        "oculus"
+      ],
       "dateCapture": "2005:05:25"
     },
     {
@@ -52,6 +86,7 @@
         "brique",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:25"
     },
     {
@@ -61,6 +96,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:25"
     },
     {
@@ -69,6 +105,7 @@
         "clé",
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:25"
     }
   ]

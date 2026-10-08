@@ -26,9 +26,25 @@
   "WPfr": null,
   "image_ref": "St-Michel-5_5_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "sculpture",
-    "console"
+    "console",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en anse de panier",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "pierre de taille",
+    "sculpture",
+    "travée"
   ],
   "photos": [
     {
@@ -36,6 +52,22 @@
       "IndexJantzen": [
         "fenetre",
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "arc",
+        "arc en anse de panier",
+        "sculpture",
+        "mascaron",
+        "pierre de taille",
+        "fer forgé",
+        "corniche",
+        "bandeau",
+        "travée",
+        "chambranle"
       ],
       "dateCapture": null
     },
@@ -45,6 +77,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:05:03"
     },
     {
@@ -52,6 +85,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:05:03"
     },
     {
@@ -60,6 +94,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:05:03"
     }
   ]

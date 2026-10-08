@@ -24,12 +24,34 @@
     "fenetre",
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "chambranle",
+    "fer forgé",
+    "mascaron",
+    "meneau",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Breteuil-37_7_§1",
       "IndexJantzen": [
         "fenetre",
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "arc en plein cintre",
+        "vantail",
+        "mascaron",
+        "sculpture",
+        "pierre de taille",
+        "meneau",
+        "fer forgé",
+        "chambranle"
       ],
       "dateCapture": "2008:03:15"
     }

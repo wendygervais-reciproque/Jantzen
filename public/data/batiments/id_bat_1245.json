@@ -21,8 +21,25 @@
   "WPfr": null,
   "image_ref": "St-Severin-17_5_§1",
   "terme_jantzen_bat": [
+    "fenetre-d'angle",
+    "balcon"
+  ],
+  "terme_torneh_bat": [
     "balcon",
-    "fenetre-d'angle"
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mansarde",
+    "mascaron",
+    "modillon",
+    "pierre de taille",
+    "porte-fenêtre",
+    "toit-terrasse",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -30,6 +47,23 @@
       "IndexJantzen": [
         "balcon",
         "fenetre-d'angle"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "porte-fenêtre",
+        "mansarde",
+        "corniche",
+        "bandeau",
+        "pierre de taille",
+        "mascaron",
+        "fer forgé",
+        "travée",
+        "volet",
+        "toit-terrasse",
+        "modillon"
       ],
       "dateCapture": "2005:05:27"
     },
@@ -39,6 +73,7 @@
         "balcon",
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:27"
     }
   ]

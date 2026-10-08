@@ -34,11 +34,39 @@
   "terme_jantzen_bat": [
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "arc",
+    "balcon",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "modillon",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "sculpture",
+    "vantail",
+    "vitrail"
+  ],
   "photos": [
     {
       "id_pic": "Turgot-4_9_§1",
       "IndexJantzen": [
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "portail",
+        "arc",
+        "vantail",
+        "fer forgé",
+        "mascaron",
+        "balcon",
+        "garde-corps",
+        "pierre de taille",
+        "sculpture",
+        "modillon",
+        "vitrail"
       ],
       "dateCapture": "2004:06:29"
     }

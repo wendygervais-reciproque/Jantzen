@@ -28,15 +28,59 @@
   "WPfr": null,
   "image_ref": "Raymond-Losserand-2_14_§1",
   "terme_jantzen_bat": [
-    "fenetre-d'angle",
     "porte-fer-hall",
+    "fenetre-d'angle",
     "façade-d'angle"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "linteau",
+    "mascaron",
+    "modillon",
+    "oculus",
+    "oriel",
+    "pierre de taille",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "toit-terrasse",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Raymond-Losserand-2_14_§1",
       "IndexJantzen": [
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "porte-fenêtre",
+        "oriel",
+        "corniche",
+        "bandeau",
+        "pierre de taille",
+        "mascaron",
+        "modillon",
+        "travée",
+        "toit-terrasse",
+        "souche de cheminée",
+        "volet",
+        "fer forgé",
+        "linteau",
+        "chambranle",
+        "arc en plein cintre",
+        "oculus"
       ],
       "dateCapture": "2005:05:08"
     },
@@ -45,6 +89,7 @@
       "IndexJantzen": [
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:08"
     },
     {
@@ -52,6 +97,7 @@
       "IndexJantzen": [
         "porte-fer-hall"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:08"
     }
   ]

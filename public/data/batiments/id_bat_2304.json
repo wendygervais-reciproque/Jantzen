@@ -23,11 +23,41 @@
   "terme_jantzen_bat": [
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "pierre de taille",
+    "sculpture",
+    "souche de cheminée"
+  ],
   "photos": [
     {
       "id_pic": "Brunel-35_17_§1",
       "IndexJantzen": [
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "lucarne",
+        "fronton",
+        "mansarde",
+        "fenêtre",
+        "ardoise",
+        "corniche",
+        "pierre de taille",
+        "sculpture",
+        "souche de cheminée",
+        "fer forgé",
+        "balustrade"
       ],
       "dateCapture": "2008:03:29"
     }

@@ -12,7 +12,7 @@
     "numero": "8",
     "voie": "rue du Havre"
   },
-  "arrondissement": 8,
+  "arrondissement": 9,
   "tri_alphab": "Havre",
   "coordonnees": {
     "latitude": "48.874803",
@@ -23,8 +23,23 @@
   "WPfr": null,
   "image_ref": "Havre-8_8_§1",
   "terme_jantzen_bat": [
+    "tourelle",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "arcade",
+    "ardoise",
+    "colonne",
+    "corniche",
+    "dôme",
+    "fronton",
     "lucarne",
-    "tourelle"
+    "mascaron",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -32,6 +47,21 @@
       "IndexJantzen": [
         "lucarne",
         "tourelle"
+      ],
+      "IndexTorneh": [
+        "dôme",
+        "ardoise",
+        "souche de cheminée",
+        "colonne",
+        "fronton",
+        "sculpture",
+        "mascaron",
+        "corniche",
+        "épi de faîtage",
+        "toit à deux versants",
+        "arcade",
+        "lucarne",
+        "arc en plein cintre"
       ],
       "dateCapture": "2005:08:09"
     }

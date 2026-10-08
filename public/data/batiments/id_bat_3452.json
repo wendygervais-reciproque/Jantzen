@@ -29,17 +29,63 @@
   "image_ref": "Vivienne-7_2_§1",
   "terme_jantzen_bat": [
     "oeil-de-boeuf",
+    "sculpture",
     "fenetre",
     "lucarne",
+    "colonne",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "chapiteau ionique",
+    "chaîne d'angle",
+    "colonne",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "grille",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
     "sculpture",
-    "décor",
-    "colonne"
+    "souche de cheminée",
+    "toit à deux versants",
+    "épi de faîtage"
   ],
   "photos": [
     {
       "id_pic": "Vivienne-7_2_§1",
       "IndexJantzen": [
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "lucarne",
+        "oculus",
+        "mansarde",
+        "souche de cheminée",
+        "corniche",
+        "pilastre",
+        "colonne",
+        "chapiteau ionique",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "sculpture",
+        "mascaron",
+        "fer forgé",
+        "grille",
+        "ardoise",
+        "pierre de taille",
+        "toit à deux versants",
+        "chaîne d'angle",
+        "épi de faîtage"
       ],
       "dateCapture": "2008:09:18"
     },
@@ -49,6 +95,7 @@
         "lucarne",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:09:18"
     },
     {
@@ -57,6 +104,7 @@
         "lucarne",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:09:18"
     },
     {
@@ -68,6 +116,7 @@
         "lucarne",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:03:16"
     },
     {
@@ -76,6 +125,7 @@
         "lucarne",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:03:16"
     },
     {
@@ -84,6 +134,7 @@
         "lucarne",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:03:16"
     },
     {
@@ -92,6 +143,7 @@
         "lucarne",
         "oeil-de-boeuf"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:08:31"
     }
   ]

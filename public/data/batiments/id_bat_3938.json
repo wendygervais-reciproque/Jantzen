@@ -23,11 +23,31 @@
   "terme_jantzen_bat": [
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "fenêtre",
+    "garde-corps",
+    "lucarne",
+    "pierre de taille",
+    "souche de cheminée",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Ternes-Av-99_17_§1",
       "IndexJantzen": [
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "lucarne",
+        "ardoise",
+        "souche de cheminée",
+        "fenêtre",
+        "arc en plein cintre",
+        "volet",
+        "pierre de taille",
+        "garde-corps"
       ],
       "dateCapture": "2007:05:31"
     }

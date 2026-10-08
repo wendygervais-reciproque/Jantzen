@@ -21,8 +21,25 @@
   "WPfr": null,
   "image_ref": "Alboni_Sq-2_16_§1",
   "terme_jantzen_bat": [
-    "porte-fer",
-    "fenetre"
+    "fenetre",
+    "porte-fer"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "chambranle",
+    "chapiteau",
+    "escalier",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "linteau",
+    "mascaron",
+    "perron",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "porte-fenêtre",
+    "volet"
   ],
   "photos": [
     {
@@ -30,6 +47,23 @@
       "IndexJantzen": [
         "fenetre",
         "porte-fer"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "porte-fenêtre",
+        "fer forgé",
+        "balcon",
+        "garde-corps",
+        "mascaron",
+        "chambranle",
+        "linteau",
+        "pierre de taille",
+        "fenêtre",
+        "volet",
+        "perron",
+        "escalier",
+        "chapiteau",
+        "pilastre"
       ],
       "dateCapture": "2005:06:07"
     },
@@ -39,6 +73,7 @@
         "fenetre",
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:07"
     }
   ]

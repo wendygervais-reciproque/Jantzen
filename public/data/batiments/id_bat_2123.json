@@ -24,12 +24,34 @@
     "fenetre",
     "décor"
   ],
+  "terme_torneh_bat": [
+    "auvent",
+    "balcon",
+    "boiserie",
+    "chambranle",
+    "fenêtre",
+    "garde-corps",
+    "sculpture",
+    "travée",
+    "vitrail"
+  ],
   "photos": [
     {
       "id_pic": "Racine-3_6_§1",
       "IndexJantzen": [
         "décor",
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "chambranle",
+        "vitrail",
+        "boiserie",
+        "sculpture",
+        "auvent",
+        "travée"
       ],
       "dateCapture": "2005:08:29"
     },
@@ -39,6 +61,7 @@
         "décor",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:29"
     }
   ]

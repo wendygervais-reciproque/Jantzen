@@ -29,10 +29,27 @@
   "image_ref": "Louis-Morard-8_14_§1",
   "terme_jantzen_bat": [
     "fenetre",
-    "façade",
     "brique",
+    "façade",
     "céramique",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "corniche",
+    "céramique",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "linteau",
+    "mascaron",
+    "oriel",
+    "porte-fenêtre",
+    "travée",
+    "vantail"
   ],
   "photos": [
     {
@@ -42,6 +59,23 @@
         "céramique",
         "décor",
         "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "brique",
+        "céramique",
+        "fenêtre",
+        "garde-corps",
+        "linteau",
+        "mascaron",
+        "porte-fenêtre",
+        "travée",
+        "fer forgé",
+        "corniche",
+        "bandeau",
+        "oriel",
+        "vantail"
       ],
       "dateCapture": "2005:05:08"
     },
@@ -53,6 +87,7 @@
         "décor",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:08"
     }
   ]

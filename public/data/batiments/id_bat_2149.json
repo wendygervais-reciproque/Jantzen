@@ -24,12 +24,34 @@
     "console",
     "décor"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "brique",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "modillon",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Domremy-30_13_§1",
       "IndexJantzen": [
         "console",
         "décor"
+      ],
+      "IndexTorneh": [
+        "brique",
+        "corniche",
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "volet",
+        "fer forgé",
+        "chaîne d'angle",
+        "modillon"
       ],
       "dateCapture": "2005:07:17"
     },
@@ -39,6 +61,7 @@
         "console",
         "décor"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:17"
     }
   ]

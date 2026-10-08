@@ -21,10 +21,24 @@
   "WPfr": null,
   "image_ref": "Boulard-2_14_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "brique",
-    "décor",
-    "balcon"
+    "balcon",
+    "fenetre",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "pierre de taille",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -33,6 +47,20 @@
         "balcon",
         "brique",
         "décor"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "brique",
+        "pierre de taille",
+        "balustrade",
+        "chaîne d'angle",
+        "corniche",
+        "bandeau",
+        "fer forgé",
+        "travée",
+        "volet"
       ],
       "dateCapture": "2004:07:28"
     },
@@ -43,6 +71,7 @@
         "décor",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:18"
     }
   ]

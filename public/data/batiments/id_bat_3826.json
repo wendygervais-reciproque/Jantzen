@@ -22,11 +22,30 @@
   "image_ref": "Gustave-Flaubert-9_17_§1",
   "terme_jantzen_bat": [
     "oeil-de-boeuf",
-    "fenetre",
-    "lucarne",
     "sculpture",
     "clé",
+    "fenetre",
+    "lucarne",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chéneau",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mascaron",
+    "oculus",
+    "oriel",
+    "pierre de taille",
+    "sculpture",
+    "volet"
   ],
   "photos": [
     {
@@ -35,6 +54,25 @@
         "décor",
         "fenetre",
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "oriel",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "volet",
+        "lucarne",
+        "dôme",
+        "mascaron",
+        "sculpture",
+        "oculus",
+        "corniche",
+        "pierre de taille",
+        "ardoise",
+        "bandeau",
+        "chéneau"
       ],
       "dateCapture": "2006:06:12"
     },
@@ -46,6 +84,7 @@
         "oeil-de-boeuf",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:12"
     }
   ]

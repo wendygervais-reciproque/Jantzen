@@ -23,8 +23,18 @@
   "WPfr": null,
   "image_ref": "Francois-Miron-74_4_§20",
   "terme_jantzen_bat": [
-    "fenetre",
-    "garde-corps"
+    "garde-corps",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "chambranle",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "porte-fenêtre",
+    "vantail"
   ],
   "photos": [
     {
@@ -32,6 +42,16 @@
       "IndexJantzen": [
         "fenetre",
         "garde-corps"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "porte-fenêtre",
+        "garde-corps",
+        "fer forgé",
+        "balcon",
+        "arc en plein cintre",
+        "chambranle",
+        "vantail"
       ],
       "dateCapture": "2003:08:02"
     }

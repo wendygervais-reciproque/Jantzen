@@ -30,11 +30,27 @@
   "terme_jantzen_bat": [
     "porte-fer"
   ],
+  "terme_torneh_bat": [
+    "corniche",
+    "fer forgé",
+    "mascaron",
+    "porte",
+    "porte-fenêtre",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Kleber-44_16_§2",
       "IndexJantzen": [
         "porte-fer"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "vantail",
+        "fer forgé",
+        "corniche",
+        "mascaron",
+        "porte-fenêtre"
       ],
       "dateCapture": null
     }

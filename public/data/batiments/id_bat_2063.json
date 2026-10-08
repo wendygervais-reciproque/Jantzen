@@ -32,11 +32,34 @@
   "WPfr": null,
   "image_ref": "Cernuschi-3_17_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "façade",
-    "porte-bois",
     "oriel",
-    "brique"
+    "fenetre",
+    "brique",
+    "façade",
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc brisé",
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "cariatide",
+    "chambranle",
+    "chéneau",
+    "corniche",
+    "fenêtre",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "toit à deux versants",
+    "volet"
   ],
   "photos": [
     {
@@ -44,6 +67,29 @@
       "IndexJantzen": [
         "brique",
         "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "fenêtre",
+        "porte-fenêtre",
+        "lucarne",
+        "mansarde",
+        "brique",
+        "pierre de taille",
+        "corniche",
+        "bandeau",
+        "arc en plein cintre",
+        "arc brisé",
+        "chambranle",
+        "souche de cheminée",
+        "toit à deux versants",
+        "porte",
+        "volet",
+        "cariatide",
+        "mascaron",
+        "chéneau"
       ],
       "dateCapture": "2009:07:15"
     },
@@ -54,6 +100,7 @@
         "fenetre",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:07:15"
     },
     {
@@ -61,6 +108,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:07:15"
     }
   ]

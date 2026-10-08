@@ -35,12 +35,40 @@
     "sculpture",
     "console"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "chapiteau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "frise",
+    "garde-corps",
+    "grille",
+    "mascaron",
+    "modillon",
+    "pierre de taille",
+    "sculpture"
+  ],
   "photos": [
     {
       "id_pic": "Paradis-44_10_§1",
       "IndexJantzen": [
         "console",
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "modillon",
+        "mascaron",
+        "frise",
+        "corniche",
+        "balcon",
+        "garde-corps",
+        "grille",
+        "sculpture",
+        "pierre de taille",
+        "fer forgé",
+        "fenêtre",
+        "chapiteau"
       ],
       "dateCapture": "2005:05:26"
     }

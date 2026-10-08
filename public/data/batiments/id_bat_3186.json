@@ -30,11 +30,35 @@
   "terme_jantzen_bat": [
     "porte-fer"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "fer forgé",
+    "garde-corps",
+    "perron",
+    "pierre de taille",
+    "porte",
+    "porte-fenêtre",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Alboni_Sq-6_16_§1",
       "IndexJantzen": [
         "porte-fer"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "porte-fenêtre",
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "vantail",
+        "pierre de taille",
+        "sculpture",
+        "perron",
+        "balustrade"
       ],
       "dateCapture": "2005:06:07"
     },
@@ -43,11 +67,13 @@
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:07"
     },
     {
       "id_pic": "Alboni_Sq-6_16_§3",
       "IndexJantzen": [],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:07"
     }
   ]

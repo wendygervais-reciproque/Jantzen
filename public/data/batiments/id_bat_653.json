@@ -23,16 +23,46 @@
   "WPfr": null,
   "image_ref": "Lions-St-Paul-12_4_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "façade",
-    "porte-bois",
-    "fronton"
+    "fronton",
+    "fenetre",
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "bossage",
+    "chambranle",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "lucarne",
+    "pierre de taille",
+    "porte",
+    "toit à deux versants",
+    "vantail",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Lions-St-Paul-12_4_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "fronton",
+        "porte",
+        "arc en plein cintre",
+        "chambranle",
+        "bossage",
+        "pierre de taille",
+        "corniche",
+        "lucarne",
+        "toit à deux versants",
+        "chaîne d'angle",
+        "volet",
+        "vantail"
       ],
       "dateCapture": "2004:09:08"
     },
@@ -42,6 +72,7 @@
         "fenetre",
         "fronton"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:07"
     },
     {
@@ -50,6 +81,7 @@
         "fenetre",
         "fronton"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:07"
     },
     {
@@ -58,6 +90,7 @@
         "fronton",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:08"
     }
   ]

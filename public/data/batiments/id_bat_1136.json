@@ -21,16 +21,64 @@
   "WPfr": null,
   "image_ref": "Debarcadere-16_17_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "façade",
+    "pilastre",
     "balcon",
-    "pilastre"
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "porte-fenêtre",
+    "toit à deux versants",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Debarcadere-16_17_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "porte",
+        "porte-fenêtre",
+        "volet",
+        "mascaron",
+        "corniche",
+        "bandeau",
+        "pilastre",
+        "chambranle",
+        "fronton",
+        "lucarne",
+        "toit à deux versants",
+        "mansarde",
+        "ardoise",
+        "pierre de taille",
+        "travée",
+        "fer forgé",
+        "brique",
+        "oculus"
       ],
       "dateCapture": "2006:06:12"
     },
@@ -40,6 +88,7 @@
         "façade",
         "pilastre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:12"
     },
     {
@@ -49,6 +98,7 @@
         "fenetre",
         "pilastre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:12"
     }
   ]

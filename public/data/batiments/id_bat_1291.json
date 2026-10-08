@@ -21,9 +21,23 @@
   "WPfr": null,
   "image_ref": "Sorbonne-18_5_§1",
   "terme_jantzen_bat": [
-    "fenetre",
+    "garde-corps",
     "console",
-    "garde-corps"
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "corniche",
+    "fenêtre",
+    "fer",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "modillon",
+    "pierre de taille",
+    "volet"
   ],
   "photos": [
     {
@@ -33,6 +47,20 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "arc en plein cintre",
+        "mascaron",
+        "modillon",
+        "corniche",
+        "fenêtre",
+        "pierre de taille",
+        "fer",
+        "volet"
+      ],
       "dateCapture": "2005:08:29"
     },
     {
@@ -40,6 +68,7 @@
       "IndexJantzen": [
         "console"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:29"
     }
   ]

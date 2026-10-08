@@ -22,9 +22,33 @@
   "image_ref": "Malesherbes-32_8_§1",
   "terme_jantzen_bat": [
     "oriel",
-    "verrière",
     "métal",
+    "verrière",
     "façade-d'angle"
+  ],
+  "terme_torneh_bat": [
+    "auvent",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "grille",
+    "lucarne",
+    "mansarde",
+    "oculus",
+    "oriel",
+    "pierre de taille",
+    "porte",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "verrière",
+    "vitrail",
+    "volet"
   ],
   "photos": [
     {
@@ -32,6 +56,30 @@
       "IndexJantzen": [
         "façade-d'angle",
         "verrière"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "oriel",
+        "verrière",
+        "mansarde",
+        "lucarne",
+        "oculus",
+        "souche de cheminée",
+        "toit à deux versants",
+        "porte",
+        "porte-fenêtre",
+        "volet",
+        "bandeau",
+        "pierre de taille",
+        "corniche",
+        "auvent",
+        "travée",
+        "vitrail",
+        "grille"
       ],
       "dateCapture": "2010:04:18"
     },
@@ -41,6 +89,7 @@
         "métal",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:06"
     },
     {
@@ -49,6 +98,7 @@
         "métal",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:06"
     }
   ]

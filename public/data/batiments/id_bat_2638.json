@@ -23,11 +23,33 @@
   "WPfr": null,
   "image_ref": "St-Mande-av-43_12_§1",
   "terme_jantzen_bat": [
-    "lucarne",
-    "garde-corps",
+    "balcon",
     "façade-d'angle",
     "fenetre-d'angle",
-    "balcon"
+    "lucarne",
+    "garde-corps"
+  ],
+  "terme_torneh_bat": [
+    "avant-corps",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chapiteau",
+    "colonne",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "sculpture",
+    "tour",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -35,6 +57,28 @@
       "IndexJantzen": [
         "balcon",
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "colonne",
+        "pilastre",
+        "chapiteau",
+        "corniche",
+        "bandeau",
+        "mascaron",
+        "sculpture",
+        "fer forgé",
+        "pierre de taille",
+        "dôme",
+        "oculus",
+        "travée",
+        "fronton",
+        "volet",
+        "tour",
+        "avant-corps"
       ],
       "dateCapture": "2005:07:15"
     },
@@ -44,6 +88,7 @@
         "balcon",
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:15"
     },
     {
@@ -53,6 +98,7 @@
         "garde-corps",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:15"
     }
   ]

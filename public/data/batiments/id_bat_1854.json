@@ -28,11 +28,36 @@
   "WPfr": null,
   "image_ref": "Faubourg-St-Antoine-25_11_§1",
   "terme_jantzen_bat": [
+    "verrière",
     "fenetre",
     "façade",
     "métal",
-    "verrière",
     "colonne"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "ardoise",
+    "baie",
+    "balcon",
+    "balustrade",
+    "chapiteau",
+    "chapiteau corinthien",
+    "colonne",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "pierre de taille",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "vitrail",
+    "volet"
   ],
   "photos": [
     {
@@ -40,6 +65,31 @@
       "IndexJantzen": [
         "façade",
         "métal"
+      ],
+      "IndexTorneh": [
+        "baie",
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "garde-corps",
+        "colonne",
+        "chapiteau",
+        "chapiteau corinthien",
+        "fronton",
+        "corniche",
+        "lucarne",
+        "mansarde",
+        "toit à deux versants",
+        "ardoise",
+        "souche de cheminée",
+        "vitrail",
+        "volet",
+        "pierre de taille",
+        "fer forgé",
+        "travée",
+        "arc",
+        "arc en plein cintre",
+        "porte-fenêtre"
       ],
       "dateCapture": "2007:04:11"
     },
@@ -50,6 +100,7 @@
         "métal",
         "verrière"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:16"
     },
     {
@@ -59,6 +110,7 @@
         "fenetre",
         "métal"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:11"
     },
     {
@@ -67,6 +119,7 @@
         "colonne",
         "métal"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:11"
     },
     {
@@ -75,6 +128,7 @@
         "colonne",
         "métal"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:16"
     }
   ]

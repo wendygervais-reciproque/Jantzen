@@ -32,13 +32,28 @@
   "WPfr": null,
   "image_ref": "Crimee-215_19_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "lucarne",
-    "console",
     "façade-d'angle",
     "fenetre-d'angle",
+    "fenetre",
+    "console",
+    "lucarne",
     "brique",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "acrotère",
+    "auvent",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "fenêtre",
+    "garde-corps",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -46,6 +61,21 @@
       "IndexJantzen": [
         "brique",
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "brique",
+        "volet",
+        "bandeau",
+        "travée",
+        "acrotère",
+        "sculpture",
+        "auvent",
+        "porte",
+        "pierre de taille"
       ],
       "dateCapture": "2006:04:20"
     },
@@ -55,6 +85,7 @@
         "brique",
         "façade-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:06:01"
     },
     {
@@ -63,6 +94,7 @@
         "brique",
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:06:01"
     },
     {
@@ -72,6 +104,7 @@
         "fenetre",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:06:01"
     },
     {
@@ -81,6 +114,7 @@
         "fenetre",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:20"
     },
     {
@@ -90,6 +124,7 @@
         "fenetre",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:20"
     },
     {
@@ -99,6 +134,7 @@
         "décor",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:03:17"
     },
     {
@@ -107,6 +143,7 @@
         "console",
         "décor"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:20"
     }
   ]

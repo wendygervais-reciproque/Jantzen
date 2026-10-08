@@ -30,11 +30,43 @@
   "terme_jantzen_bat": [
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "arc",
+    "balcon",
+    "balustrade",
+    "bossage",
+    "chambranle",
+    "fenêtre",
+    "fer forgé",
+    "heurtoir",
+    "mascaron",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Niel-98_17_§1",
       "IndexJantzen": [
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "portail",
+        "vantail",
+        "mascaron",
+        "balcon",
+        "fer forgé",
+        "pierre de taille",
+        "chambranle",
+        "arc",
+        "fenêtre",
+        "heurtoir",
+        "sculpture",
+        "bossage",
+        "balustrade"
       ],
       "dateCapture": "2005:03:17"
     }

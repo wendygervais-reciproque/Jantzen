@@ -23,18 +23,56 @@
   "WPfr": null,
   "image_ref": "Niel-96_17_§1",
   "terme_jantzen_bat": [
+    "pilastre",
+    "sculpture",
     "fenetre",
     "façade",
-    "sculpture",
     "porte-bois",
-    "pilastre",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chapiteau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "linteau",
+    "mascaron",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée"
   ],
   "photos": [
     {
       "id_pic": "Niel-96_17_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "porte",
+        "linteau",
+        "bandeau",
+        "corniche",
+        "souche de cheminée",
+        "pilastre",
+        "travée",
+        "chapiteau",
+        "mascaron",
+        "porte-fenêtre",
+        "fer forgé",
+        "toit à deux versants",
+        "pierre de taille"
       ],
       "dateCapture": "2009:03:29"
     },
@@ -43,6 +81,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:07:16"
     },
     {
@@ -53,6 +92,7 @@
         "pilastre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:07:16"
     },
     {
@@ -60,6 +100,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:07:16"
     }
   ]

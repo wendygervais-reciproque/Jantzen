@@ -31,11 +31,35 @@
     "brique",
     "tour"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "baie",
+    "brique",
+    "fenêtre",
+    "fronton",
+    "grille",
+    "porte",
+    "souche de cheminée",
+    "toit à deux versants",
+    "tuile"
+  ],
   "photos": [
     {
       "id_pic": "Paul-Verlaine-_13_§1",
       "IndexJantzen": [
         "brique"
+      ],
+      "IndexTorneh": [
+        "brique",
+        "arc en plein cintre",
+        "baie",
+        "fenêtre",
+        "souche de cheminée",
+        "grille",
+        "toit à deux versants",
+        "porte",
+        "tuile",
+        "fronton"
       ],
       "dateCapture": "2005:09:21"
     },
@@ -45,6 +69,7 @@
         "brique",
         "tour"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:09:21"
     }
   ]

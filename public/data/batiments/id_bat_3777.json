@@ -26,13 +26,30 @@
   "WPfr": null,
   "image_ref": "Raspail-9_7_§1",
   "terme_jantzen_bat": [
-    "lucarne",
-    "console",
-    "garde-corps",
-    "pignon",
-    "lucarne-d'angle",
     "balcon",
-    "fronton"
+    "pignon",
+    "console",
+    "lucarne",
+    "fronton",
+    "lucarne-d'angle",
+    "garde-corps"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "modillon",
+    "pierre de taille",
+    "toit-terrasse",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -44,6 +61,23 @@
         "lucarne-d'angle",
         "pignon"
       ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "fenêtre",
+        "mansarde",
+        "lucarne",
+        "modillon",
+        "pierre de taille",
+        "volet",
+        "fer forgé",
+        "corniche",
+        "ardoise",
+        "mascaron",
+        "toit-terrasse",
+        "travée"
+      ],
       "dateCapture": "2007:04:02"
     },
     {
@@ -53,6 +87,7 @@
         "lucarne",
         "pignon"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:02"
     }
   ]

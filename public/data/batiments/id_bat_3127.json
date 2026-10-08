@@ -21,15 +21,57 @@
   "WPfr": null,
   "image_ref": "Castiglione-6_1_§1",
   "terme_jantzen_bat": [
+    "façade",
     "toiture",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "arcade",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "heurtoir",
     "lucarne",
-    "façade"
+    "mansarde",
+    "mascaron",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "toit en pavillon"
   ],
   "photos": [
     {
       "id_pic": "Castiglione-6_1_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "mansarde",
+        "lucarne",
+        "arc en plein cintre",
+        "arcade",
+        "corniche",
+        "bandeau",
+        "chambranle",
+        "pierre de taille",
+        "toit en pavillon",
+        "porte",
+        "portail",
+        "arc",
+        "heurtoir",
+        "fer forgé",
+        "mascaron"
       ],
       "dateCapture": "2004:09:11"
     },
@@ -39,6 +81,7 @@
         "lucarne",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:11"
     }
   ]

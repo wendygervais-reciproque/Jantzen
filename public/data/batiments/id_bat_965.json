@@ -30,11 +30,45 @@
   "terme_jantzen_bat": [
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "brique",
+    "chambranle",
+    "corniche",
+    "céramique",
+    "fenêtre",
+    "fronton",
+    "lucarne",
+    "mansarde",
+    "modillon",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "toit à deux versants",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Lonchamp-144_16_§1",
       "IndexJantzen": [
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "lucarne",
+        "mansarde",
+        "fronton",
+        "corniche",
+        "modillon",
+        "ardoise",
+        "brique",
+        "pierre de taille",
+        "fenêtre",
+        "volet",
+        "oculus",
+        "céramique",
+        "toit à deux versants",
+        "chambranle",
+        "pilastre"
       ],
       "dateCapture": "2008:07:27"
     }

@@ -24,12 +24,40 @@
     "fenetre",
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "chambranle",
+    "fer forgé",
+    "fronton",
+    "grille",
+    "marquise",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "porte-fenêtre",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Kleber-37_16_§1",
       "IndexJantzen": [
         "fenetre",
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "vantail",
+        "porte-fenêtre",
+        "fer forgé",
+        "mascaron",
+        "sculpture",
+        "chambranle",
+        "pierre de taille",
+        "fronton",
+        "marquise",
+        "balcon",
+        "grille"
       ],
       "dateCapture": "2004:03:17"
     }

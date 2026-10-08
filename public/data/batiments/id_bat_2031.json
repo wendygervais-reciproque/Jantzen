@@ -28,16 +28,46 @@
   "WPfr": null,
   "image_ref": "Alphand-av-3_16_§1",
   "terme_jantzen_bat": [
-    "sculpture",
-    "fenetre",
     "chimère",
-    "console"
+    "sculpture",
+    "console",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "baie",
+    "balcon",
+    "balustrade",
+    "bossage",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "gros appareil",
+    "mascaron",
+    "pierre de taille",
+    "sculpture",
+    "vantail"
   ],
   "photos": [
     {
       "id_pic": "Alphand-av-3_16_§1",
       "IndexJantzen": [
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "balustrade",
+        "balcon",
+        "baie",
+        "fenêtre",
+        "arc en plein cintre",
+        "mascaron",
+        "sculpture",
+        "pierre de taille",
+        "garde-corps",
+        "fer forgé",
+        "vantail",
+        "gros appareil",
+        "bossage"
       ],
       "dateCapture": "2008:05:08"
     },
@@ -46,6 +76,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:08"
     },
     {
@@ -55,6 +86,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:08"
     }
   ]

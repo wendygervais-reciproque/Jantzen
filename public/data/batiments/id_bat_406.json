@@ -21,8 +21,26 @@
   "WPfr": null,
   "image_ref": "Grenelle-106_7_§1",
   "terme_jantzen_bat": [
+    "dome",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "acrotère",
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "corniche",
+    "coupole",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
     "lucarne",
-    "dome"
+    "mansarde",
+    "oculus",
+    "pierre de taille",
+    "vitrail",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -30,6 +48,24 @@
       "IndexJantzen": [
         "dome",
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "coupole",
+        "dôme",
+        "oculus",
+        "arc en plein cintre",
+        "lucarne",
+        "vitrail",
+        "corniche",
+        "pierre de taille",
+        "ardoise",
+        "épi de faîtage",
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "mansarde",
+        "fer forgé",
+        "acrotère"
       ],
       "dateCapture": "2005:05:28"
     }

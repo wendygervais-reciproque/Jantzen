@@ -26,11 +26,39 @@
     "fenetre",
     "décor"
   ],
+  "terme_torneh_bat": [
+    "auvent",
+    "balcon",
+    "balustrade",
+    "corniche",
+    "céramique",
+    "fenêtre",
+    "fer forgé",
+    "frise",
+    "garde-corps",
+    "porte",
+    "travée",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Mazagran-16_10_§1",
       "IndexJantzen": [
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "volet",
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "corniche",
+        "frise",
+        "porte",
+        "céramique",
+        "travée",
+        "fer forgé",
+        "auvent"
       ],
       "dateCapture": "2008:08:10"
     },
@@ -39,6 +67,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:08:10"
     },
     {
@@ -46,6 +75,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:08:10"
     },
     {
@@ -54,6 +84,7 @@
         "décor",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:08:10"
     }
   ]

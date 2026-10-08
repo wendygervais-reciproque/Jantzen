@@ -27,11 +27,51 @@
     "garde-corps",
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "grille",
+    "heurtoir",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "porte",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "St-Guillaume-32_7_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "arc en plein cintre",
+        "mascaron",
+        "porte",
+        "vantail",
+        "chambranle",
+        "pierre de taille",
+        "bandeau",
+        "corniche",
+        "grille",
+        "heurtoir",
+        "oculus",
+        "mansarde",
+        "chaîne d'angle",
+        "fer forgé"
       ],
       "dateCapture": "2005:05:28"
     },
@@ -40,6 +80,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:28"
     },
     {
@@ -47,6 +88,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:08:26"
     },
     {
@@ -55,6 +97,7 @@
         "garde-corps",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:08:26"
     }
   ]

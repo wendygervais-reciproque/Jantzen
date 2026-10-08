@@ -28,14 +28,33 @@
   "WPfr": null,
   "image_ref": "Arago-14_13_§1",
   "terme_jantzen_bat": [
+    "mosaique",
     "porte-fer",
     "fenetre",
-    "façade",
     "lucarne",
-    "porte",
+    "façade",
     "métal",
-    "mosaique",
+    "porte",
     "colonne"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "chéneau",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "grille",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "pierre de taille",
+    "porche",
+    "portail",
+    "porte",
+    "sculpture"
   ],
   "photos": [
     {
@@ -43,6 +62,25 @@
       "IndexJantzen": [
         "façade",
         "porte"
+      ],
+      "IndexTorneh": [
+        "lucarne",
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "porte",
+        "porche",
+        "arc en plein cintre",
+        "sculpture",
+        "mascaron",
+        "pierre de taille",
+        "ardoise",
+        "mansarde",
+        "chéneau",
+        "grille",
+        "portail"
       ],
       "dateCapture": "2007:04:22"
     },
@@ -54,6 +92,7 @@
         "mosaique",
         "métal"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:22"
     },
     {
@@ -62,6 +101,7 @@
         "fenetre",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:22"
     },
     {
@@ -69,6 +109,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:22"
     },
     {
@@ -76,6 +117,7 @@
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:22"
     }
   ]

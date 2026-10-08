@@ -21,11 +21,37 @@
   "WPfr": null,
   "image_ref": "Emile-Zola-154_15_§1",
   "terme_jantzen_bat": [
+    "dome",
     "façade-d'angle",
     "sculpture",
-    "dome",
     "fenetre-d'angle",
     "lucarne-d'angle"
+  ],
+  "terme_torneh_bat": [
+    "arc brisé",
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "sculpture",
+    "souche de cheminée",
+    "tour",
+    "travée",
+    "volet",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -33,6 +59,32 @@
       "IndexJantzen": [
         "dome",
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "dôme",
+        "épi de faîtage",
+        "souche de cheminée",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "mansarde",
+        "lucarne",
+        "mascaron",
+        "corniche",
+        "bandeau",
+        "pilastre",
+        "oculus",
+        "arc en plein cintre",
+        "arc brisé",
+        "pierre de taille",
+        "ardoise",
+        "fer forgé",
+        "tour",
+        "travée",
+        "volet",
+        "porte",
+        "sculpture"
       ],
       "dateCapture": "2005:04:03"
     },
@@ -42,6 +94,7 @@
         "dome",
         "façade-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:18"
     },
     {
@@ -51,6 +104,7 @@
         "fenetre-d'angle",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:18"
     },
     {
@@ -59,6 +113,7 @@
         "dome",
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:03"
     },
     {
@@ -67,6 +122,7 @@
         "dome",
         "lucarne-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:18"
     },
     {
@@ -76,6 +132,7 @@
         "lucarne-d'angle",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:18"
     }
   ]

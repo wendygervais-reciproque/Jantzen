@@ -21,8 +21,22 @@
   "WPfr": null,
   "image_ref": "Enghien-37_10_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "balcon"
+    "balcon",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "pierre de taille",
+    "porte",
+    "travée",
+    "vitrail",
+    "volet"
   ],
   "photos": [
     {
@@ -30,6 +44,20 @@
       "IndexJantzen": [
         "balcon",
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "corniche",
+        "bandeau",
+        "pierre de taille",
+        "volet",
+        "travée",
+        "fer forgé",
+        "porte",
+        "vitrail"
       ],
       "dateCapture": "2008:08:15"
     }

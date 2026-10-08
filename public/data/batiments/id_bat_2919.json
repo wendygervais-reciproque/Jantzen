@@ -28,15 +28,33 @@
   "WPfr": null,
   "image_ref": "St-Ferdinand-50_17_§1-Rx",
   "terme_jantzen_bat": [
+    "balcon",
+    "oriel",
+    "sculpture",
     "fenetre",
     "façade",
-    "garde-corps",
-    "sculpture",
     "métal",
-    "oriel",
     "céramique",
-    "décor",
-    "balcon"
+    "garde-corps",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chapiteau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée"
   ],
   "photos": [
     {
@@ -44,6 +62,24 @@
       "IndexJantzen": [
         "façade",
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "corniche",
+        "bandeau",
+        "pierre de taille",
+        "chapiteau",
+        "pilastre",
+        "mascaron",
+        "souche de cheminée",
+        "toit à deux versants",
+        "fer forgé",
+        "travée",
+        "oculus",
+        "porte"
       ],
       "dateCapture": "2012:04:16"
     },
@@ -54,6 +90,7 @@
         "métal",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:04:16"
     },
     {
@@ -63,6 +100,7 @@
         "métal",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:04:16"
     },
     {
@@ -72,6 +110,7 @@
         "métal",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:04:16"
     },
     {
@@ -82,6 +121,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:04:16"
     },
     {
@@ -91,6 +131,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:04:16"
     },
     {
@@ -98,6 +139,7 @@
       "IndexJantzen": [
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2012:04:16"
     }
   ]

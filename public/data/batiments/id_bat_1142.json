@@ -29,8 +29,27 @@
   "image_ref": "Erlanger-16_16_§1",
   "terme_jantzen_bat": [
     "sculpture",
-    "fenetre",
-    "console"
+    "console",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "avant-corps",
+    "balcon",
+    "balustrade",
+    "chapiteau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "oriel",
+    "pierre de taille",
+    "pilastre",
+    "sculpture",
+    "travée",
+    "vitrail",
+    "volet"
   ],
   "photos": [
     {
@@ -38,6 +57,25 @@
       "IndexJantzen": [
         "console",
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "balustrade",
+        "corniche",
+        "pilastre",
+        "chapiteau",
+        "mascaron",
+        "arc en plein cintre",
+        "volet",
+        "vitrail",
+        "sculpture",
+        "pierre de taille",
+        "travée",
+        "oriel",
+        "fer forgé",
+        "avant-corps"
       ],
       "dateCapture": "2005:05:28"
     },
@@ -47,6 +85,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:28"
     }
   ]

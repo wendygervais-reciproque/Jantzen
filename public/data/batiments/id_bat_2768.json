@@ -35,12 +35,54 @@
     "lucarne-d'angle",
     "dome"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "frise",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "oculus",
+    "pilastre",
+    "sculpture",
+    "toit-terrasse",
+    "volet",
+    "épi de faîtage"
+  ],
   "photos": [
     {
       "id_pic": "Tolbiac-48_13_§1",
       "IndexJantzen": [
         "dome",
         "lucarne-d'angle"
+      ],
+      "IndexTorneh": [
+        "mansarde",
+        "lucarne",
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "volet",
+        "ardoise",
+        "corniche",
+        "bandeau",
+        "pilastre",
+        "sculpture",
+        "arc en plein cintre",
+        "épi de faîtage",
+        "toit-terrasse",
+        "oculus",
+        "garde-corps",
+        "fer forgé",
+        "frise",
+        "chaîne d'angle"
       ],
       "dateCapture": "2004:03:29"
     }

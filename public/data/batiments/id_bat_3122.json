@@ -28,15 +28,73 @@
   "WPfr": null,
   "image_ref": "Danton-6_6_§1",
   "terme_jantzen_bat": [
-    "lucarne",
+    "façade",
     "fenetre",
-    "façade"
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chapiteau",
+    "colonne",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "meneau",
+    "oculus",
+    "oriel",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "porte-fenêtre",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Danton-6_6_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "oculus",
+        "lucarne",
+        "mansarde",
+        "ardoise",
+        "garde-corps",
+        "fer forgé",
+        "pilastre",
+        "chapiteau",
+        "corniche",
+        "bandeau",
+        "arc",
+        "arc en plein cintre",
+        "fronton",
+        "sculpture",
+        "mascaron",
+        "colonne",
+        "toit à deux versants",
+        "souche de cheminée",
+        "volet",
+        "porte",
+        "porte-fenêtre",
+        "oriel",
+        "pierre de taille",
+        "meneau"
       ],
       "dateCapture": "2005:05:23"
     },
@@ -45,6 +103,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:23"
     },
     {
@@ -53,6 +112,7 @@
         "fenetre",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:06:05"
     },
     {
@@ -60,6 +120,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:23"
     },
     {
@@ -68,6 +129,7 @@
         "fenetre",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:06:05"
     },
     {
@@ -76,6 +138,7 @@
         "fenetre",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:23"
     }
   ]

@@ -21,9 +21,22 @@
   "WPfr": null,
   "image_ref": "Tournefort-15_5_§1",
   "terme_jantzen_bat": [
-    "lucarne",
     "façade",
-    "voie"
+    "voie",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "bandeau",
+    "chaîne d'angle",
+    "fenêtre",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "souche de cheminée",
+    "toit à deux versants",
+    "tuile",
+    "volet"
   ],
   "photos": [
     {
@@ -32,6 +45,19 @@
         "façade",
         "voie"
       ],
+      "IndexTorneh": [
+        "lucarne",
+        "mansarde",
+        "fenêtre",
+        "volet",
+        "garde-corps",
+        "balcon",
+        "souche de cheminée",
+        "tuile",
+        "toit à deux versants",
+        "chaîne d'angle",
+        "bandeau"
+      ],
       "dateCapture": "2005:08:29"
     },
     {
@@ -39,6 +65,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:08:25"
     }
   ]

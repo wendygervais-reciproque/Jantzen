@@ -23,11 +23,29 @@
   "terme_jantzen_bat": [
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "chambranle",
+    "fer forgé",
+    "huisserie",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Payenne-2_3_§1",
       "IndexJantzen": [
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "vantail",
+        "sculpture",
+        "fer forgé",
+        "chambranle",
+        "pierre de taille",
+        "huisserie"
       ],
       "dateCapture": "2003:08:01"
     }

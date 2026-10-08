@@ -21,9 +21,27 @@
   "WPfr": null,
   "image_ref": "Marbeuf-12_8_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "sculpture",
+    "fenetre",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "mascaron",
+    "modillon",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "sculpture",
+    "volet"
   ],
   "photos": [
     {
@@ -32,6 +50,24 @@
         "décor",
         "fenetre",
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "balustrade",
+        "corniche",
+        "fronton",
+        "mascaron",
+        "pilastre",
+        "arc en plein cintre",
+        "porte",
+        "pierre de taille",
+        "modillon",
+        "sculpture",
+        "chambranle",
+        "volet"
       ],
       "dateCapture": "2006:06:06"
     }

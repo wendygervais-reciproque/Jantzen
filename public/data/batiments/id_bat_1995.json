@@ -32,19 +32,44 @@
   "WPfr": null,
   "image_ref": "Haussmann-29_9_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "façade",
-    "garde-corps",
-    "lucarne",
+    "balcon",
+    "dome",
     "façade-d'angle",
     "sculpture",
-    "dome",
-    "fenetre-d'angle",
     "pilastre",
     "cariatide",
+    "fenetre",
+    "fenetre-d'angle",
+    "lucarne",
+    "façade",
+    "fronton",
     "lucarne-d'angle",
+    "garde-corps"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "ardoise",
+    "atlante",
+    "avant-corps",
     "balcon",
-    "fronton"
+    "bandeau",
+    "chapiteau corinthien",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "frise",
+    "fronton",
+    "garde-corps",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "sculpture",
+    "toit à deux versants",
+    "travée",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -52,6 +77,31 @@
       "IndexJantzen": [
         "façade",
         "fronton"
+      ],
+      "IndexTorneh": [
+        "fronton",
+        "sculpture",
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "pilastre",
+        "chapiteau corinthien",
+        "corniche",
+        "mascaron",
+        "arc en plein cintre",
+        "arc",
+        "porte",
+        "ardoise",
+        "oculus",
+        "toit à deux versants",
+        "atlante",
+        "travée",
+        "bandeau",
+        "frise",
+        "pierre de taille",
+        "fer forgé",
+        "avant-corps",
+        "épi de faîtage"
       ],
       "dateCapture": "2006:07:15"
     },
@@ -61,6 +111,7 @@
         "fronton",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:07:11"
     },
     {
@@ -69,6 +120,7 @@
         "cariatide",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:14"
     },
     {
@@ -77,6 +129,7 @@
         "cariatide",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:07:11"
     },
     {
@@ -85,6 +138,7 @@
         "cariatide",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:07:11"
     },
     {
@@ -93,6 +147,7 @@
         "cariatide",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:07:11"
     },
     {
@@ -101,6 +156,7 @@
         "cariatide",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:14"
     },
     {
@@ -109,6 +165,7 @@
         "cariatide",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:07:11"
     },
     {
@@ -117,6 +174,7 @@
         "cariatide",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:14"
     },
     {
@@ -125,6 +183,7 @@
         "cariatide",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:14"
     },
     {
@@ -134,6 +193,7 @@
         "garde-corps",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:15"
     },
     {
@@ -142,6 +202,7 @@
         "façade",
         "fronton"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:14"
     },
     {
@@ -150,6 +211,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:15"
     },
     {
@@ -159,6 +221,7 @@
         "dome",
         "façade-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:06:03"
     },
     {
@@ -167,6 +230,7 @@
         "balcon",
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:06:03"
     },
     {
@@ -175,6 +239,7 @@
         "fenetre",
         "pilastre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:06:03"
     },
     {
@@ -183,6 +248,7 @@
         "fenetre",
         "pilastre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:06:03"
     },
     {
@@ -192,6 +258,7 @@
         "dome",
         "lucarne-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:06:03"
     },
     {
@@ -201,6 +268,7 @@
         "fenetre-d'angle",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:06:03"
     },
     {
@@ -210,6 +278,7 @@
         "fronton",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:15"
     },
     {
@@ -219,6 +288,7 @@
         "fronton",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:14"
     },
     {
@@ -228,6 +298,7 @@
         "fronton",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:07:11"
     },
     {
@@ -236,6 +307,7 @@
         "fronton",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:14"
     },
     {
@@ -244,6 +316,7 @@
         "fronton",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:14"
     },
     {
@@ -252,6 +325,7 @@
         "fronton",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:07:11"
     }
   ]

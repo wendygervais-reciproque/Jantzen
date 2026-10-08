@@ -29,11 +29,22 @@
   "image_ref": "Manin-40_19_§1",
   "terme_jantzen_bat": [
     "fenetre",
-    "métal",
-    "porte-bois",
     "brique",
-    "décor",
-    "fronton"
+    "métal",
+    "fronton",
+    "porte-bois",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "bandeau",
+    "brique",
+    "corniche",
+    "céramique",
+    "fenêtre",
+    "fer",
+    "travée"
   ],
   "photos": [
     {
@@ -44,6 +55,17 @@
         "fenetre",
         "métal"
       ],
+      "IndexTorneh": [
+        "fenêtre",
+        "arc en plein cintre",
+        "brique",
+        "céramique",
+        "corniche",
+        "travée",
+        "fer",
+        "bandeau",
+        "arc"
+      ],
       "dateCapture": "2005:09:07"
     },
     {
@@ -53,6 +75,7 @@
         "fronton",
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:09:07"
     }
   ]

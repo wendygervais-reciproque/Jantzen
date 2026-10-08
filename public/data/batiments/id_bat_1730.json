@@ -28,14 +28,37 @@
   "WPfr": null,
   "image_ref": "Delessert-23_16_§1",
   "terme_jantzen_bat": [
+    "dome",
+    "façade-d'angle",
+    "tour",
+    "tourelle",
+    "fenetre-d'angle",
     "fenetre",
     "lucarne",
-    "façade-d'angle",
-    "tourelle",
-    "dome",
-    "fenetre-d'angle",
-    "tour",
     "colonne"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chapiteau",
+    "colonne",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "garde-corps",
+    "lucarne",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "souche de cheminée",
+    "toit à deux versants",
+    "tour",
+    "travée",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -44,6 +67,29 @@
         "dome",
         "façade-d'angle",
         "tour"
+      ],
+      "IndexTorneh": [
+        "tour",
+        "dôme",
+        "lucarne",
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "garde-corps",
+        "corniche",
+        "colonne",
+        "pilastre",
+        "chapiteau",
+        "souche de cheminée",
+        "toit à deux versants",
+        "oculus",
+        "bandeau",
+        "pierre de taille",
+        "porte",
+        "mascaron",
+        "épi de faîtage",
+        "ardoise",
+        "travée"
       ],
       "dateCapture": "2006:06:30"
     },
@@ -55,6 +101,7 @@
         "fenetre-d'angle",
         "tour"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:07:13"
     },
     {
@@ -63,6 +110,7 @@
         "dome",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:30"
     },
     {
@@ -72,6 +120,7 @@
         "fenetre",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:07"
     },
     {
@@ -81,6 +130,7 @@
         "lucarne",
         "tourelle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:30"
     }
   ]

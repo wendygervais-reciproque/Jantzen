@@ -28,9 +28,29 @@
   "WPfr": null,
   "image_ref": "Vivienne-44_2_§1",
   "terme_jantzen_bat": [
-    "fenetre",
+    "oriel",
     "métal",
-    "oriel"
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "grille",
+    "modillon",
+    "oriel",
+    "pierre de taille",
+    "porte",
+    "porte-fenêtre",
+    "travée",
+    "verrière",
+    "volet"
   ],
   "photos": [
     {
@@ -40,6 +60,26 @@
         "métal",
         "oriel"
       ],
+      "IndexTorneh": [
+        "oriel",
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "fenêtre",
+        "volet",
+        "arc en plein cintre",
+        "corniche",
+        "bandeau",
+        "fronton",
+        "porte",
+        "verrière",
+        "fer forgé",
+        "pierre de taille",
+        "modillon",
+        "grille",
+        "porte-fenêtre",
+        "travée"
+      ],
       "dateCapture": "2004:09:01"
     },
     {
@@ -48,6 +88,7 @@
         "métal",
         "oriel"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:09:01"
     }
   ]

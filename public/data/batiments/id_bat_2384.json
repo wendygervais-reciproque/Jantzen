@@ -34,12 +34,50 @@
     "lucarne-d'angle",
     "décor"
   ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "corniche",
+    "fenêtre",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "pierre de taille",
+    "sculpture",
+    "souche de cheminée",
+    "tour",
+    "travée",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Lourmel-38_15_§1",
       "IndexJantzen": [
         "brique",
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "lucarne",
+        "balustrade",
+        "brique",
+        "pierre de taille",
+        "souche de cheminée",
+        "mansarde",
+        "sculpture",
+        "mascaron",
+        "ardoise",
+        "volet",
+        "travée",
+        "tour",
+        "corniche",
+        "bandeau"
       ],
       "dateCapture": "2005:04:03"
     },
@@ -50,6 +88,7 @@
         "décor",
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:03"
     },
     {
@@ -58,6 +97,7 @@
         "brique",
         "lucarne-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:04:03"
     },
     {
@@ -66,6 +106,7 @@
         "brique",
         "lucarne-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:09:09"
     },
     {
@@ -75,6 +116,7 @@
         "décor",
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:09:09"
     },
     {
@@ -83,6 +125,7 @@
         "brique",
         "lucarne-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:09:09"
     }
   ]

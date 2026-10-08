@@ -33,11 +33,53 @@
     "lucarne-d'angle",
     "fenetre-d'angle"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "souche de cheminée",
+    "toit à deux versants",
+    "volet",
+    "épi de faîtage"
+  ],
   "photos": [
     {
       "id_pic": "Robiac-Sq-∆-Grenelle_7_§1",
       "IndexJantzen": [
         "fenetre-d'angle"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "lucarne",
+        "dôme",
+        "ardoise",
+        "volet",
+        "pierre de taille",
+        "brique",
+        "souche de cheminée",
+        "épi de faîtage",
+        "pilastre",
+        "corniche",
+        "bandeau",
+        "oculus",
+        "arc en plein cintre",
+        "toit à deux versants"
       ],
       "dateCapture": "2005:06:09"
     },
@@ -46,6 +88,7 @@
       "IndexJantzen": [
         "lucarne-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:09"
     },
     {
@@ -53,6 +96,7 @@
       "IndexJantzen": [
         "lucarne-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:09"
     }
   ]

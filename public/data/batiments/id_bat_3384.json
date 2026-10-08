@@ -28,15 +28,51 @@
   "WPfr": null,
   "image_ref": "Bridaine-7_17_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "sculpture",
-    "garde-corps"
+    "garde-corps",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc brisé",
+    "arc en plein cintre",
+    "avant-corps",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "garde-corps",
+    "mascaron",
+    "oriel",
+    "pierre de taille",
+    "pilastre",
+    "sculpture",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Bridaine-7_17_§1",
       "IndexJantzen": [
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "mascaron",
+        "arc en plein cintre",
+        "arc brisé",
+        "corniche",
+        "bandeau",
+        "avant-corps",
+        "pierre de taille",
+        "volet",
+        "oriel",
+        "travée",
+        "pilastre",
+        "sculpture"
       ],
       "dateCapture": "2004:06:28"
     },
@@ -46,6 +82,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:06:27"
     },
     {
@@ -55,6 +92,7 @@
         "garde-corps",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:06:27"
     }
   ]

@@ -23,11 +23,31 @@
   "terme_jantzen_bat": [
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "arc en anse de panier",
+    "chambranle",
+    "pierre de taille",
+    "pilastre",
+    "portail",
+    "porte",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Guadeloupe-7_18_§1",
       "IndexJantzen": [
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "vantail",
+        "portail",
+        "pilastre",
+        "sculpture",
+        "arc en anse de panier",
+        "chambranle",
+        "pierre de taille"
       ],
       "dateCapture": "2005:04:22"
     }

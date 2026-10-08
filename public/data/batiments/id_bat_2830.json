@@ -29,8 +29,26 @@
   "image_ref": "Casimir-Perier-5_7_§1",
   "terme_jantzen_bat": [
     "brique",
-    "lucarne",
-    "fenetre-d'angle"
+    "fenetre-d'angle",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "garde-corps",
+    "mansarde",
+    "pierre de taille",
+    "toit en pavillon",
+    "tour",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -39,6 +57,24 @@
         "brique",
         "fenetre-d'angle",
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "brique",
+        "chaîne d'angle",
+        "corniche",
+        "fenêtre",
+        "garde-corps",
+        "mansarde",
+        "pierre de taille",
+        "toit en pavillon",
+        "volet",
+        "arc en plein cintre",
+        "ardoise",
+        "bandeau",
+        "tour",
+        "travée"
       ],
       "dateCapture": "2005:05:28"
     }

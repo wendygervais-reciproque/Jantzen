@@ -24,12 +24,38 @@
     "fenetre",
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "fenêtre",
+    "grille",
+    "gros appareil",
+    "heurtoir",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Bonaparte-7_6_§1",
       "IndexJantzen": [
         "fenetre",
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "arc en plein cintre",
+        "oculus",
+        "sculpture",
+        "mascaron",
+        "vantail",
+        "pierre de taille",
+        "fenêtre",
+        "grille",
+        "heurtoir",
+        "gros appareil"
       ],
       "dateCapture": "2003:08:26"
     }

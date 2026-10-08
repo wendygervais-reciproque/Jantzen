@@ -31,12 +31,48 @@
     "brique",
     "façade"
   ],
+  "terme_torneh_bat": [
+    "avant-corps",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "chéneau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oriel",
+    "pierre de taille",
+    "travée"
+  ],
   "photos": [
     {
       "id_pic": "Gustave-Zede-11_16_§1",
       "IndexJantzen": [
         "brique",
         "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "garde-corps",
+        "fer forgé",
+        "brique",
+        "pierre de taille",
+        "bandeau",
+        "corniche",
+        "avant-corps",
+        "travée",
+        "lucarne",
+        "mascaron",
+        "oriel",
+        "mansarde",
+        "chéneau"
       ],
       "dateCapture": "2005:05:10"
     }

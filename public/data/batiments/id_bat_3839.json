@@ -34,11 +34,55 @@
     "façade",
     "colonne"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chapiteau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "grille",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "portail",
+    "porte",
+    "travée",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Bonne-Nouvelle-9_2_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "corniche",
+        "bandeau",
+        "pilastre",
+        "chapiteau",
+        "mascaron",
+        "lucarne",
+        "mansarde",
+        "arc en plein cintre",
+        "portail",
+        "porte",
+        "grille",
+        "fer forgé",
+        "volet",
+        "travée",
+        "pierre de taille",
+        "oculus"
       ],
       "dateCapture": null
     },
@@ -48,6 +92,7 @@
         "lucarne",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:08:10"
     },
     {
@@ -56,6 +101,7 @@
         "colonne",
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": null
     }
   ]

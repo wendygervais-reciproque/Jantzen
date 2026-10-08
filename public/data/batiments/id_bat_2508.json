@@ -31,12 +31,40 @@
     "sculpture",
     "console"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "modillon",
+    "pierre de taille",
+    "porte-fenêtre",
+    "sculpture",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Emilio-Castelar-4_12_§1",
       "IndexJantzen": [
         "console",
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "corniche",
+        "modillon",
+        "mascaron",
+        "sculpture",
+        "fer forgé",
+        "pierre de taille",
+        "fenêtre",
+        "porte-fenêtre",
+        "volet"
       ],
       "dateCapture": "2005:07:11"
     }

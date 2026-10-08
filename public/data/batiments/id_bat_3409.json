@@ -28,9 +28,23 @@
   "WPfr": null,
   "image_ref": "Fetes-7_19_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "sculpture",
-    "console"
+    "console",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "bandeau",
+    "brique",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "linteau",
+    "pierre de taille",
+    "porte-fenêtre",
+    "sculpture",
+    "volet"
   ],
   "photos": [
     {
@@ -38,6 +52,20 @@
       "IndexJantzen": [
         "fenetre",
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "porte-fenêtre",
+        "volet",
+        "brique",
+        "pierre de taille",
+        "sculpture",
+        "linteau",
+        "arc en plein cintre",
+        "bandeau",
+        "fer forgé"
       ],
       "dateCapture": "2005:07:21"
     },
@@ -47,6 +75,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:07:21"
     }
   ]

@@ -23,11 +23,27 @@
   "WPfr": null,
   "image_ref": "St-Antoine-133_4_§1",
   "terme_jantzen_bat": [
-    "lucarne",
-    "console",
     "sculpture",
-    "chimère",
-    "fronton"
+    "console",
+    "lucarne",
+    "fronton",
+    "chimère"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "pierre de taille",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "toit à deux versants"
   ],
   "photos": [
     {
@@ -35,6 +51,22 @@
       "IndexJantzen": [
         "fronton",
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "lucarne",
+        "mansarde",
+        "fenêtre",
+        "porte-fenêtre",
+        "balcon",
+        "garde-corps",
+        "fronton",
+        "souche de cheminée",
+        "ardoise",
+        "toit à deux versants",
+        "corniche",
+        "fer forgé",
+        "bandeau",
+        "pierre de taille"
       ],
       "dateCapture": "2008:06:27"
     },
@@ -44,6 +76,7 @@
         "fronton",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:06:27"
     },
     {
@@ -53,6 +86,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:06:07"
     },
     {
@@ -62,6 +96,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:06:27"
     }
   ]

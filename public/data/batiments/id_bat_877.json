@@ -22,17 +22,65 @@
   "image_ref": "Poissonniere-bd-14_9_§1",
   "terme_jantzen_bat": [
     "toiture",
-    "fenetre",
-    "façade",
-    "lucarne",
     "dome",
+    "fenetre",
+    "lucarne",
+    "façade",
     "fronton"
+  ],
+  "terme_torneh_bat": [
+    "arc brisé",
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "chéneau",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "sculpture",
+    "travée",
+    "vitrail",
+    "épi de faîtage"
   ],
   "photos": [
     {
       "id_pic": "Poissonniere-bd-14_9_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "dôme",
+        "mansarde",
+        "oculus",
+        "balustrade",
+        "balcon",
+        "fenêtre",
+        "arc en plein cintre",
+        "arc brisé",
+        "mascaron",
+        "corniche",
+        "pilastre",
+        "épi de faîtage",
+        "lucarne",
+        "garde-corps",
+        "fer forgé",
+        "ardoise",
+        "pierre de taille",
+        "sculpture",
+        "vitrail",
+        "porte",
+        "travée",
+        "chéneau"
       ],
       "dateCapture": "2008:02:24"
     },
@@ -42,6 +90,7 @@
         "fenetre",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:24"
     },
     {
@@ -51,6 +100,7 @@
         "fronton",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:24"
     },
     {
@@ -60,6 +110,7 @@
         "fronton",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:24"
     },
     {
@@ -67,6 +118,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:02:24"
     }
   ]

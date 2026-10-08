@@ -21,11 +21,31 @@
   "WPfr": null,
   "image_ref": "Bezout-43_14_§1",
   "terme_jantzen_bat": [
-    "façade-d'angle",
     "dome",
+    "façade-d'angle",
     "fenetre-d'angle",
-    "lucarne-d'angle",
-    "porte-fer-hall"
+    "porte-fer-hall",
+    "lucarne-d'angle"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chéneau",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "garde-corps",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "porte",
+    "souche de cheminée",
+    "vitrail",
+    "volet",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -33,6 +53,26 @@
       "IndexJantzen": [
         "dome",
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "mansarde",
+        "souche de cheminée",
+        "épi de faîtage",
+        "dôme",
+        "corniche",
+        "bandeau",
+        "pierre de taille",
+        "volet",
+        "vitrail",
+        "porte",
+        "chéneau",
+        "ardoise",
+        "mascaron",
+        "oculus"
       ],
       "dateCapture": "2007:04:23"
     },
@@ -42,6 +82,7 @@
         "dome",
         "façade-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:22"
     },
     {
@@ -50,6 +91,7 @@
         "dome",
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:22"
     },
     {
@@ -58,6 +100,7 @@
         "dome",
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:22"
     },
     {
@@ -66,6 +109,7 @@
         "dome",
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:23"
     },
     {
@@ -73,6 +117,7 @@
       "IndexJantzen": [
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:22"
     },
     {
@@ -81,6 +126,7 @@
         "dome",
         "lucarne-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:04:23"
     },
     {
@@ -88,6 +134,7 @@
       "IndexJantzen": [
         "porte-fer-hall"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:07"
     }
   ]

@@ -22,14 +22,27 @@
   "image_ref": "Orfevres-Qu-1_1_§4",
   "terme_jantzen_bat": [
     "toiture",
-    "fenetre",
-    "façade",
-    "lucarne",
-    "sculpture",
-    "lucarne-d'angle",
     "tour",
-    "décor",
-    "fronton"
+    "sculpture",
+    "fenetre",
+    "lucarne",
+    "façade",
+    "fronton",
+    "lucarne-d'angle",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "corniche",
+    "fenêtre",
+    "garde-corps",
+    "lucarne",
+    "pierre de taille",
+    "souche de cheminée",
+    "toit à deux versants",
+    "tour",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -40,6 +53,7 @@
         "lucarne-d'angle",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:07"
     },
     {
@@ -47,6 +61,7 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:14"
     },
     {
@@ -55,6 +70,7 @@
         "décor",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:13"
     },
     {
@@ -62,12 +78,26 @@
       "IndexJantzen": [
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:05:14"
     },
     {
       "id_pic": "Orfevres-Qu-1_1_§4",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "tour",
+        "fenêtre",
+        "toit à deux versants",
+        "arc",
+        "pierre de taille",
+        "garde-corps",
+        "souche de cheminée",
+        "épi de faîtage",
+        "lucarne",
+        "corniche",
+        "arc en plein cintre"
       ],
       "dateCapture": "2005:06:14"
     },
@@ -77,6 +107,7 @@
         "toiture",
         "tour"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:14"
     },
     {
@@ -84,6 +115,7 @@
       "IndexJantzen": [
         "tour"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:14"
     },
     {
@@ -92,6 +124,7 @@
         "fenetre",
         "tour"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:14"
     },
     {
@@ -99,6 +132,7 @@
       "IndexJantzen": [
         "tour"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:14"
     },
     {
@@ -107,6 +141,7 @@
         "lucarne",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:14"
     }
   ]

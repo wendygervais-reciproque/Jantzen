@@ -23,14 +23,54 @@
   "WPfr": null,
   "image_ref": "Pierre-Demours-17-19_17_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "façade"
+    "façade",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "grille",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "porche",
+    "portail",
+    "toit à deux versants"
   ],
   "photos": [
     {
       "id_pic": "Pierre-Demours-17-19_17_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "arc en plein cintre",
+        "arc",
+        "balcon",
+        "balustrade",
+        "bandeau",
+        "chambranle",
+        "corniche",
+        "fenêtre",
+        "garde-corps",
+        "grille",
+        "lucarne",
+        "mansarde",
+        "mascaron",
+        "ardoise",
+        "porche",
+        "portail",
+        "toit à deux versants",
+        "fer forgé"
       ],
       "dateCapture": "2006:06:08"
     },
@@ -39,6 +79,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:08"
     }
   ]

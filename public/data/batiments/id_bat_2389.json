@@ -24,12 +24,48 @@
     "toiture",
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "auvent",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "sculpture"
+  ],
   "photos": [
     {
       "id_pic": "Mathurins-38_8_§1",
       "IndexJantzen": [
         "lucarne",
         "toiture"
+      ],
+      "IndexTorneh": [
+        "ardoise",
+        "oculus",
+        "fronton",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "lucarne",
+        "corniche",
+        "bandeau",
+        "chambranle",
+        "mascaron",
+        "mansarde",
+        "auvent",
+        "sculpture"
       ],
       "dateCapture": "2010:04:18"
     },
@@ -38,6 +74,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:04:18"
     }
   ]

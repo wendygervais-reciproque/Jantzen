@@ -21,8 +21,24 @@
   "WPfr": null,
   "image_ref": "Domat-9_5_§1",
   "terme_jantzen_bat": [
+    "colonne",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "chapiteau corinthien",
+    "colonne",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
     "lucarne",
-    "colonne"
+    "mansarde",
+    "modillon",
+    "mur-boutant",
+    "souche de cheminée",
+    "volet"
   ],
   "photos": [
     {
@@ -30,6 +46,22 @@
       "IndexJantzen": [
         "colonne",
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "colonne",
+        "chapiteau corinthien",
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "mansarde",
+        "lucarne",
+        "souche de cheminée",
+        "corniche",
+        "balustrade",
+        "volet",
+        "fer forgé",
+        "mur-boutant",
+        "modillon"
       ],
       "dateCapture": "2005:08:03"
     }

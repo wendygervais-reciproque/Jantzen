@@ -21,10 +21,32 @@
   "WPfr": null,
   "image_ref": "Ruisseau-63_18_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "lucarne",
     "console",
-    "balcon"
+    "balcon",
+    "fenetre",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "arc en anse de panier",
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mascaron",
+    "oriel",
+    "pierre de taille",
+    "pilastre",
+    "porte-fenêtre",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "volet"
   ],
   "photos": [
     {
@@ -32,6 +54,28 @@
       "IndexJantzen": [
         "fenetre",
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "lucarne",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "porte-fenêtre",
+        "oriel",
+        "pilastre",
+        "corniche",
+        "fronton",
+        "toit à deux versants",
+        "ardoise",
+        "souche de cheminée",
+        "pierre de taille",
+        "sculpture",
+        "mascaron",
+        "volet",
+        "arc en plein cintre",
+        "arc en anse de panier"
       ],
       "dateCapture": "2003:07:09"
     },
@@ -41,6 +85,7 @@
         "balcon",
         "console"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:07:09"
     }
   ]

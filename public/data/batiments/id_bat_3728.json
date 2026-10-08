@@ -25,11 +25,31 @@
   "terme_jantzen_bat": [
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "chéneau",
+    "fenêtre",
+    "garde-corps",
+    "lucarne",
+    "mansarde"
+  ],
   "photos": [
     {
       "id_pic": "Haussmann-86_8_§1",
       "IndexJantzen": [
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "mansarde",
+        "lucarne",
+        "ardoise",
+        "garde-corps",
+        "fenêtre",
+        "arc en plein cintre",
+        "chéneau",
+        "balcon"
       ],
       "dateCapture": "2008:03:05"
     }

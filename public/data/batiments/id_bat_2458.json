@@ -32,11 +32,28 @@
   "WPfr": null,
   "image_ref": "Hoche-4_8_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "sculpture",
-    "porte-bois",
+    "fenetre",
+    "poignée-porte",
     "atlante",
-    "poignée-porte"
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "atlante",
+    "balcon",
+    "balustrade",
+    "chapiteau",
+    "fenêtre",
+    "fer forgé",
+    "grille",
+    "heurtoir",
+    "mascaron",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "sculpture",
+    "vantail"
   ],
   "photos": [
     {
@@ -46,6 +63,23 @@
         "fenetre",
         "porte-bois"
       ],
+      "IndexTorneh": [
+        "atlante",
+        "arc en plein cintre",
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "porte",
+        "vantail",
+        "pierre de taille",
+        "sculpture",
+        "mascaron",
+        "heurtoir",
+        "grille",
+        "pilastre",
+        "chapiteau",
+        "fer forgé"
+      ],
       "dateCapture": "2004:05:16"
     },
     {
@@ -54,6 +88,7 @@
         "atlante",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": null
     },
     {
@@ -62,6 +97,7 @@
         "atlante",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:05:16"
     },
     {
@@ -69,6 +105,7 @@
       "IndexJantzen": [
         "poignée-porte"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:05:16"
     },
     {
@@ -77,6 +114,7 @@
         "atlante",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:05:16"
     }
   ]

@@ -23,11 +23,41 @@
   "terme_jantzen_bat": [
     "porte-fer-hall"
   ],
+  "terme_torneh_bat": [
+    "arc",
+    "balcon",
+    "chambranle",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "grille",
+    "mascaron",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Gourgaud-12_17_§1",
       "IndexJantzen": [
         "porte-fer-hall"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "portail",
+        "arc",
+        "fer forgé",
+        "vantail",
+        "sculpture",
+        "balcon",
+        "garde-corps",
+        "pierre de taille",
+        "chambranle",
+        "fenêtre",
+        "mascaron",
+        "grille"
       ],
       "dateCapture": "2004:09:08"
     }

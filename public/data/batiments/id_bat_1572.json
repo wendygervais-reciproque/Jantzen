@@ -23,11 +23,31 @@
   "terme_jantzen_bat": [
     "façade"
   ],
+  "terme_torneh_bat": [
+    "bandeau",
+    "fenêtre",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "porte",
+    "travée",
+    "vitrail"
+  ],
   "photos": [
     {
       "id_pic": "Bernardins-20_5_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "lucarne",
+        "mansarde",
+        "porte",
+        "vitrail",
+        "garde-corps",
+        "travée",
+        "bandeau"
       ],
       "dateCapture": "2009:09:27"
     }

@@ -21,12 +21,29 @@
   "WPfr": null,
   "image_ref": "Montaigne-59_8_§1",
   "terme_jantzen_bat": [
+    "balcon",
+    "sculpture",
+    "console",
     "fenetre",
     "lucarne",
+    "garde-corps"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
     "garde-corps",
-    "console",
-    "sculpture",
-    "balcon"
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "modillon",
+    "pierre de taille",
+    "porte-fenêtre",
+    "sculpture"
   ],
   "photos": [
     {
@@ -35,6 +52,23 @@
         "fenetre",
         "lucarne"
       ],
+      "IndexTorneh": [
+        "lucarne",
+        "mansarde",
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "porte-fenêtre",
+        "mascaron",
+        "sculpture",
+        "corniche",
+        "bandeau",
+        "ardoise",
+        "pierre de taille",
+        "balustrade",
+        "modillon"
+      ],
       "dateCapture": "2006:04:07"
     },
     {
@@ -42,6 +76,7 @@
       "IndexJantzen": [
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:07"
     },
     {
@@ -50,6 +85,7 @@
         "lucarne",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:07"
     },
     {
@@ -58,6 +94,7 @@
         "balcon",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:07"
     },
     {
@@ -66,6 +103,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:07"
     }
   ]

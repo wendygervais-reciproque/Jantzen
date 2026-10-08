@@ -22,9 +22,30 @@
   "image_ref": "Victor-Hugo-pl-2_16_§1",
   "terme_jantzen_bat": [
     "toiture",
+    "fronton",
     "fenetre",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chapiteau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
     "lucarne",
-    "fronton"
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "souche de cheminée",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -32,6 +53,27 @@
       "IndexJantzen": [
         "fenetre",
         "lucarne"
+      ],
+      "IndexTorneh": [
+        "mansarde",
+        "souche de cheminée",
+        "lucarne",
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "fronton",
+        "mascaron",
+        "pilastre",
+        "corniche",
+        "bandeau",
+        "ardoise",
+        "travée",
+        "fer forgé",
+        "pierre de taille",
+        "volet",
+        "chapiteau",
+        "oculus"
       ],
       "dateCapture": "2010:05:23"
     },
@@ -41,6 +83,7 @@
         "lucarne",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2010:05:23"
     },
     {
@@ -49,6 +92,7 @@
         "fronton",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:05:17"
     }
   ]

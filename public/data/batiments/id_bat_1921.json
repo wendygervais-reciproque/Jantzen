@@ -29,17 +29,59 @@
   "image_ref": "Daumesnil-26b_12_§1",
   "terme_jantzen_bat": [
     "toiture",
-    "console",
-    "sculpture",
     "dome",
+    "sculpture",
     "fenetre-d'angle",
+    "console",
     "lucarne-d'angle"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oriel",
+    "pierre de taille",
+    "sculpture",
+    "tour",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Daumesnil-26b_12_§1",
       "IndexJantzen": [
         "fenetre-d'angle"
+      ],
+      "IndexTorneh": [
+        "dôme",
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "mansarde",
+        "fer forgé",
+        "garde-corps",
+        "pierre de taille",
+        "fronton",
+        "corniche",
+        "ardoise",
+        "volet",
+        "oriel",
+        "sculpture",
+        "mascaron",
+        "bandeau",
+        "arc en plein cintre",
+        "lucarne",
+        "tour"
       ],
       "dateCapture": "2005:10:10"
     },
@@ -49,6 +91,7 @@
         "dome",
         "lucarne-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:10:10"
     },
     {
@@ -58,6 +101,7 @@
         "lucarne-d'angle",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:10:10"
     },
     {
@@ -66,6 +110,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:10:10"
     }
   ]

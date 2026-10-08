@@ -24,12 +24,40 @@
     "toiture",
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "bossage",
+    "chaîne d'angle",
+    "chéneau",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "souche de cheminée",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Petite-Boucherie-Passag-3_6_§1-Rx",
       "IndexJantzen": [
         "lucarne",
         "toiture"
+      ],
+      "IndexTorneh": [
+        "mansarde",
+        "lucarne",
+        "souche de cheminée",
+        "fenêtre",
+        "volet",
+        "fer forgé",
+        "balcon",
+        "chaîne d'angle",
+        "bossage",
+        "arc en plein cintre",
+        "chéneau",
+        "garde-corps"
       ],
       "dateCapture": "2012:05:13"
     }

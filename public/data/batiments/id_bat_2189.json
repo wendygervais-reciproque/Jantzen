@@ -24,12 +24,38 @@
     "toiture",
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "souche de cheminée",
+    "toit à deux versants",
+    "verrière",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Varenne-31_7_§1",
       "IndexJantzen": [
         "lucarne",
         "toiture"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "volet",
+        "lucarne",
+        "mansarde",
+        "souche de cheminée",
+        "fer forgé",
+        "verrière",
+        "balustrade",
+        "toit à deux versants"
       ],
       "dateCapture": "2007:06:13"
     },
@@ -39,6 +65,7 @@
         "lucarne",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:06:13"
     }
   ]

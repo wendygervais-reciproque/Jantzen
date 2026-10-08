@@ -22,8 +22,20 @@
   "image_ref": "St-Ferdinand-11_17_§1",
   "terme_jantzen_bat": [
     "sculpture",
-    "console",
-    "chimère"
+    "chimère",
+    "console"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "modillon",
+    "pierre de taille",
+    "porte-fenêtre",
+    "sculpture",
+    "volet"
   ],
   "photos": [
     {
@@ -31,6 +43,18 @@
       "IndexJantzen": [
         "console",
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "porte-fenêtre",
+        "volet",
+        "sculpture",
+        "mascaron",
+        "pierre de taille",
+        "modillon"
       ],
       "dateCapture": "2005:05:15"
     },
@@ -40,6 +64,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:15"
     },
     {
@@ -49,6 +74,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:15"
     }
   ]

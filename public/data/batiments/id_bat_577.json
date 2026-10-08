@@ -22,8 +22,19 @@
   "image_ref": "Montparnasse-bd-118_14_§2",
   "terme_jantzen_bat": [
     "oeil-de-boeuf",
-    "lucarne",
-    "dome"
+    "dome",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "corniche",
+    "dôme",
+    "oculus",
+    "sculpture",
+    "souche de cheminée",
+    "tour",
+    "volet",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -32,6 +43,17 @@
         "dome",
         "lucarne",
         "oeil-de-boeuf"
+      ],
+      "IndexTorneh": [
+        "épi de faîtage",
+        "dôme",
+        "oculus",
+        "souche de cheminée",
+        "ardoise",
+        "volet",
+        "corniche",
+        "sculpture",
+        "tour"
       ],
       "dateCapture": "2004:04:15"
     }

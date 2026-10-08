@@ -32,12 +32,38 @@
     "console",
     "porte-fer"
   ],
+  "terme_torneh_bat": [
+    "arc",
+    "balcon",
+    "balustrade",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "pierre de taille",
+    "sculpture",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Louis-Boilly-9_16_§1",
       "IndexJantzen": [
         "console",
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "balustrade",
+        "balcon",
+        "fenêtre",
+        "volet",
+        "garde-corps",
+        "arc",
+        "corniche",
+        "sculpture",
+        "pierre de taille",
+        "mascaron",
+        "fer forgé"
       ],
       "dateCapture": "2005:05:28"
     },
@@ -46,6 +72,7 @@
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:03:16"
     },
     {
@@ -53,6 +80,7 @@
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:03:16"
     },
     {
@@ -60,6 +88,7 @@
       "IndexJantzen": [
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:28"
     }
   ]

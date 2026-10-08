@@ -28,15 +28,35 @@
   "WPfr": null,
   "image_ref": "Raspail-143_6_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "console",
-    "façade-d'angle",
-    "sculpture",
     "dome",
+    "façade-d'angle",
+    "balcon",
+    "sculpture",
     "clé",
+    "console",
+    "fenetre",
     "fenetre-d'angle",
-    "lucarne-d'angle",
-    "balcon"
+    "lucarne-d'angle"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "auvent",
+    "avant-corps",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "oriel",
+    "pierre de taille",
+    "toit en pavillon",
+    "travée",
+    "vitrail",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -44,6 +64,26 @@
       "IndexJantzen": [
         "dome",
         "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "dôme",
+        "épi de faîtage",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "oriel",
+        "mascaron",
+        "corniche",
+        "arc en plein cintre",
+        "bandeau",
+        "pierre de taille",
+        "fer forgé",
+        "vitrail",
+        "auvent",
+        "travée",
+        "avant-corps",
+        "toit en pavillon"
       ],
       "dateCapture": "2006:04:03"
     },
@@ -53,6 +93,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:09:04"
     },
     {
@@ -61,6 +102,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:09:11"
     },
     {
@@ -69,6 +111,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:09:04"
     },
     {
@@ -77,6 +120,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:09:04"
     },
     {
@@ -85,6 +129,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:03"
     },
     {
@@ -93,6 +138,7 @@
         "clé",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:03"
     },
     {
@@ -101,6 +147,7 @@
         "dome",
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:03"
     },
     {
@@ -110,6 +157,7 @@
         "dome",
         "fenetre-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:03:27"
     },
     {
@@ -118,6 +166,7 @@
         "dome",
         "lucarne-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:13"
     },
     {
@@ -126,6 +175,7 @@
         "dome",
         "lucarne-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:13"
     },
     {
@@ -134,6 +184,7 @@
         "dome",
         "lucarne-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:03:13"
     },
     {
@@ -142,6 +193,7 @@
         "dome",
         "lucarne-d'angle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:06:13"
     }
   ]

@@ -21,17 +21,57 @@
   "WPfr": null,
   "image_ref": "Lingerie_2Bis_1_§1",
   "terme_jantzen_bat": [
+    "sculpture",
     "fenetre",
     "façade",
-    "sculpture",
-    "décor",
-    "colonne"
+    "colonne",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "arcade",
+    "auvent",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "colonne",
+    "corniche",
+    "fenêtre",
+    "garde-corps",
+    "grille",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "souche de cheminée",
+    "toit en pavillon",
+    "travée"
   ],
   "photos": [
     {
       "id_pic": "Lingerie_2Bis_1_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "arc en plein cintre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "oculus",
+        "pilastre",
+        "corniche",
+        "bandeau",
+        "auvent",
+        "arcade",
+        "pierre de taille",
+        "toit en pavillon",
+        "souche de cheminée",
+        "colonne",
+        "travée",
+        "porte",
+        "grille"
       ],
       "dateCapture": "2006:04:21"
     },
@@ -40,6 +80,7 @@
       "IndexJantzen": [
         "façade"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:03:31"
     },
     {
@@ -47,6 +88,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:03:31"
     },
     {
@@ -54,6 +96,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:03:31"
     },
     {
@@ -63,6 +106,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:21"
     },
     {
@@ -72,6 +116,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:04:21"
     }
   ]

@@ -26,6 +26,27 @@
     "balcon",
     "dome"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oriel",
+    "pierre de taille",
+    "porte-fenêtre",
+    "sculpture",
+    "toit à deux versants",
+    "tour"
+  ],
   "photos": [
     {
       "id_pic": "Huit-Mai-1945-7_10_§1",
@@ -33,6 +54,27 @@
         "balcon",
         "dome",
         "lucarne-d'angle"
+      ],
+      "IndexTorneh": [
+        "dôme",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "porte-fenêtre",
+        "lucarne",
+        "ardoise",
+        "pierre de taille",
+        "sculpture",
+        "mascaron",
+        "corniche",
+        "bandeau",
+        "arc en plein cintre",
+        "oriel",
+        "fer forgé",
+        "toit à deux versants",
+        "mansarde",
+        "tour"
       ],
       "dateCapture": "2006:07:15"
     },
@@ -42,6 +84,7 @@
         "dome",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:15"
     },
     {
@@ -50,6 +93,7 @@
         "dome",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:05:16"
     }
   ]

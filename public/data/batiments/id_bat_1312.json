@@ -23,9 +23,27 @@
   "WPfr": null,
   "image_ref": "Dufrenoy-18_16_§1",
   "terme_jantzen_bat": [
-    "tourelle",
     "fenetre-d'angle",
-    "façade-d'angle"
+    "façade-d'angle",
+    "tourelle"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "auvent",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "garde-corps",
+    "mascaron",
+    "oriel",
+    "pierre de taille",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "volet"
   ],
   "photos": [
     {
@@ -33,6 +51,24 @@
       "IndexJantzen": [
         "façade-d'angle",
         "tourelle"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "balustrade",
+        "corniche",
+        "bandeau",
+        "pierre de taille",
+        "brique",
+        "souche de cheminée",
+        "oriel",
+        "dôme",
+        "volet",
+        "porte-fenêtre",
+        "mascaron",
+        "auvent",
+        "arc en plein cintre"
       ],
       "dateCapture": "2004:05:17"
     },
@@ -42,6 +78,7 @@
         "fenetre-d'angle",
         "tourelle"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:05:17"
     }
   ]

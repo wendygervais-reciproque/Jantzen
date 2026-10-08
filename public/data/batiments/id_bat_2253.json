@@ -28,20 +28,60 @@
   "WPfr": null,
   "image_ref": "Champ-De-Mars-33_7_§1",
   "terme_jantzen_bat": [
-    "marquise",
     "porte-fer",
-    "façade",
+    "sculpture",
     "fenetre",
     "lucarne",
-    "sculpture",
+    "façade",
+    "marquise",
     "porte-bois",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "baie",
+    "balcon",
+    "balustrade",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "marquise",
+    "mascaron",
+    "oculus",
+    "oriel",
+    "pierre de taille",
+    "porte",
+    "porte-fenêtre",
+    "sculpture",
+    "souche de cheminée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Champ-De-Mars-33_7_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "porte",
+        "porte-fenêtre",
+        "volet",
+        "sculpture",
+        "mascaron",
+        "oriel",
+        "lucarne",
+        "marquise",
+        "fer forgé",
+        "pierre de taille",
+        "arc",
+        "baie",
+        "souche de cheminée",
+        "oculus"
       ],
       "dateCapture": "2006:09:09"
     },
@@ -51,6 +91,7 @@
         "marquise",
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:09:09"
     },
     {
@@ -58,6 +99,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:09:09"
     },
     {
@@ -67,6 +109,7 @@
         "façade",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:09:09"
     },
     {
@@ -76,6 +119,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:09:09"
     },
     {
@@ -84,6 +128,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:09:09"
     },
     {
@@ -92,6 +137,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:09:09"
     },
     {
@@ -100,6 +146,7 @@
         "fenetre",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:09:09"
     },
     {
@@ -108,6 +155,7 @@
         "marquise",
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:09:09"
     },
     {
@@ -116,6 +164,7 @@
         "marquise",
         "porte-fer"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2004:04:26"
     }
   ]

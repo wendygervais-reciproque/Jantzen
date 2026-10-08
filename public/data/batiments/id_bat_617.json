@@ -24,12 +24,40 @@
     "toiture",
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "pierre de taille",
+    "souche de cheminée"
+  ],
   "photos": [
     {
       "id_pic": "Malesherbes-12_8_§1",
       "IndexJantzen": [
         "lucarne",
         "toiture"
+      ],
+      "IndexTorneh": [
+        "mansarde",
+        "lucarne",
+        "balcon",
+        "garde-corps",
+        "fronton",
+        "ardoise",
+        "fenêtre",
+        "corniche",
+        "souche de cheminée",
+        "balustrade",
+        "pierre de taille",
+        "fer forgé"
       ],
       "dateCapture": "2006:03:23"
     }

@@ -24,18 +24,43 @@
     "poignée-porte",
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "arc",
+    "balcon",
+    "balustrade",
+    "gros appareil",
+    "mascaron",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Seguier-16_6_§1",
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2007:05:12"
     },
     {
       "id_pic": "Seguier-16_6_§2",
       "IndexJantzen": [
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "portail",
+        "porte",
+        "arc",
+        "balustrade",
+        "balcon",
+        "mascaron",
+        "vantail",
+        "pierre de taille",
+        "sculpture",
+        "gros appareil"
       ],
       "dateCapture": "2007:05:12"
     },
@@ -44,6 +69,7 @@
       "IndexJantzen": [
         "poignée-porte"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:23"
     }
   ]

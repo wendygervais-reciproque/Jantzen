@@ -28,18 +28,62 @@
   "WPfr": null,
   "image_ref": "Victor-Hugo-4_16_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "garde-corps",
+    "pilastre",
     "sculpture",
-    "chimère",
     "clé",
-    "pilastre"
+    "fenetre",
+    "chimère",
+    "garde-corps"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chapiteau corinthien",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "modillon",
+    "pierre de taille",
+    "pilastre",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée"
   ],
   "photos": [
     {
       "id_pic": "Victor-Hugo-4_16_§1",
       "IndexJantzen": [
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "mansarde",
+        "lucarne",
+        "ardoise",
+        "corniche",
+        "chapiteau corinthien",
+        "pilastre",
+        "mascaron",
+        "fronton",
+        "arc en plein cintre",
+        "modillon",
+        "souche de cheminée",
+        "bandeau",
+        "fer forgé",
+        "pierre de taille",
+        "travée",
+        "toit à deux versants"
       ],
       "dateCapture": "2013:05:18"
     },
@@ -50,6 +94,7 @@
         "pilastre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:03:16"
     },
     {
@@ -58,6 +103,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:10"
     },
     {
@@ -67,6 +113,7 @@
         "clé",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:07:10"
     },
     {
@@ -76,6 +123,7 @@
         "clé",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2013:05:18"
     }
   ]

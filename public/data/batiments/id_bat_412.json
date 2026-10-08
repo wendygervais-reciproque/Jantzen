@@ -21,10 +21,25 @@
   "WPfr": null,
   "image_ref": "Republique-107_11_§1-Rs",
   "terme_jantzen_bat": [
-    "fenetre",
     "brique",
     "garde-corps",
+    "fenetre",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "modillon",
+    "pierre de taille",
+    "sculpture",
+    "volet"
   ],
   "photos": [
     {
@@ -34,6 +49,21 @@
         "décor",
         "fenetre"
       ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "volet",
+        "fer forgé",
+        "brique",
+        "pierre de taille",
+        "corniche",
+        "chaîne d'angle",
+        "bandeau",
+        "sculpture",
+        "modillon"
+      ],
       "dateCapture": "2009:09:28"
     },
     {
@@ -42,6 +72,7 @@
         "brique",
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:09:28"
     },
     {
@@ -51,6 +82,7 @@
         "fenetre",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:09:28"
     }
   ]

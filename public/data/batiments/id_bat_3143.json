@@ -28,14 +28,36 @@
   "WPfr": null,
   "image_ref": "Colonels-Renard-6_17_§1",
   "terme_jantzen_bat": [
-    "porte-fer",
-    "porte-fer-hall"
+    "porte-fer-hall",
+    "porte-fer"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "balcon",
+    "fer forgé",
+    "garde-corps",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "vantail",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Colonels-Renard-6_17_§1",
       "IndexJantzen": [
         "porte-fer"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "fer forgé",
+        "balcon",
+        "garde-corps",
+        "sculpture",
+        "arc",
+        "pierre de taille",
+        "vantail",
+        "volet"
       ],
       "dateCapture": "2010:03:17"
     },
@@ -44,6 +66,7 @@
       "IndexJantzen": [
         "porte-fer-hall"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:06:18"
     }
   ]

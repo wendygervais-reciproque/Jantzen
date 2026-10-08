@@ -32,19 +32,69 @@
   "WPfr": null,
   "image_ref": "Rapp-33_7_§1",
   "terme_jantzen_bat": [
+    "balcon",
+    "sculpture",
+    "console",
     "fenetre",
     "façade",
     "garde-corps",
-    "console",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "grille",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "oriel",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "porte-fenêtre",
     "sculpture",
-    "décor",
-    "balcon"
+    "souche de cheminée",
+    "toit à deux versants"
   ],
   "photos": [
     {
       "id_pic": "Rapp-33_7_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "fenêtre",
+        "lucarne",
+        "mansarde",
+        "arc en plein cintre",
+        "oriel",
+        "pierre de taille",
+        "corniche",
+        "bandeau",
+        "mascaron",
+        "fronton",
+        "pilastre",
+        "porte",
+        "porte-fenêtre",
+        "fer forgé",
+        "toit à deux versants",
+        "souche de cheminée",
+        "ardoise",
+        "grille",
+        "sculpture",
+        "oculus"
       ],
       "dateCapture": "2010:04:01"
     },
@@ -54,6 +104,7 @@
         "balcon",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": null
     },
     {
@@ -61,6 +112,7 @@
       "IndexJantzen": [
         "fenetre"
       ],
+      "IndexTorneh": [],
       "dateCapture": null
     },
     {
@@ -70,6 +122,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:03:13"
     },
     {
@@ -78,6 +131,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:03:13"
     },
     {
@@ -86,6 +140,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2006:03:13"
     },
     {
@@ -94,6 +149,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": null
     },
     {
@@ -102,6 +158,7 @@
         "balcon",
         "garde-corps"
       ],
+      "IndexTorneh": [],
       "dateCapture": null
     }
   ]

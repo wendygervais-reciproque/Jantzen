@@ -26,12 +26,60 @@
     "brique",
     "façade"
   ],
+  "terme_torneh_bat": [
+    "baie",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oriel",
+    "pierre de taille",
+    "porte",
+    "porte-fenêtre",
+    "sculpture",
+    "souche de cheminée",
+    "travée",
+    "vitrail",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Cesar-Franck-11B_15_§1",
       "IndexJantzen": [
         "brique",
         "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "porte-fenêtre",
+        "porte",
+        "bandeau",
+        "corniche",
+        "brique",
+        "pierre de taille",
+        "mansarde",
+        "lucarne",
+        "souche de cheminée",
+        "oriel",
+        "mascaron",
+        "sculpture",
+        "volet",
+        "travée",
+        "chambranle",
+        "baie",
+        "vitrail"
       ],
       "dateCapture": "2004:05:23"
     }

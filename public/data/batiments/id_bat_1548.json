@@ -36,13 +36,37 @@
   "WPfr": null,
   "image_ref": "St-Martin-bd-20_10_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "lucarne",
-    "façade",
-    "console",
     "sculpture",
     "cariatide",
+    "fenetre",
+    "console",
+    "lucarne",
+    "façade",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "attique",
+    "balcon",
+    "balustrade",
+    "bossage",
+    "cariatide",
+    "chapiteau corinthien",
+    "colonne",
+    "corniche",
+    "entablement",
+    "fenêtre",
+    "fronton",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "sculpture",
+    "toit à deux versants",
+    "travée",
+    "vitrail"
   ],
   "photos": [
     {
@@ -51,6 +75,30 @@
         "décor",
         "façade",
         "sculpture"
+      ],
+      "IndexTorneh": [
+        "colonne",
+        "chapiteau corinthien",
+        "fronton",
+        "arc en plein cintre",
+        "oculus",
+        "balustrade",
+        "balcon",
+        "corniche",
+        "entablement",
+        "fenêtre",
+        "mascaron",
+        "sculpture",
+        "cariatide",
+        "pilastre",
+        "attique",
+        "mansarde",
+        "toit à deux versants",
+        "porte",
+        "vitrail",
+        "travée",
+        "bossage",
+        "pierre de taille"
       ],
       "dateCapture": "2005:05:11"
     },
@@ -61,6 +109,7 @@
         "façade",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:11"
     },
     {
@@ -70,6 +119,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:11"
     },
     {
@@ -78,6 +128,7 @@
         "lucarne",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:28"
     },
     {
@@ -87,6 +138,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:05:11"
     },
     {
@@ -96,6 +148,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:09:02"
     },
     {
@@ -105,6 +158,7 @@
         "console",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2005:08:28"
     }
   ]

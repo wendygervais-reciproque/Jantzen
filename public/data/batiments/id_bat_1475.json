@@ -21,14 +21,46 @@
   "WPfr": null,
   "image_ref": "Seze-2_9_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "sculpture"
+    "sculpture",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "linteau",
+    "mascaron",
+    "pierre de taille",
+    "souche de cheminée",
+    "travée"
   ],
   "photos": [
     {
       "id_pic": "Seze-2_9_§1",
       "IndexJantzen": [
         "fenetre"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "garde-corps",
+        "mascaron",
+        "pierre de taille",
+        "fer forgé",
+        "corniche",
+        "bandeau",
+        "souche de cheminée",
+        "travée",
+        "arc en plein cintre",
+        "linteau",
+        "chambranle"
       ],
       "dateCapture": "2009:04:03"
     },
@@ -38,6 +70,7 @@
         "fenetre",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2009:04:03"
     }
   ]

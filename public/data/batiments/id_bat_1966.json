@@ -31,12 +31,46 @@
     "oeil-de-boeuf",
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "corniche",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "mascaron",
+    "oculus",
+    "oriel",
+    "pierre de taille",
+    "porte-fenêtre",
+    "sculpture",
+    "souche de cheminée",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Raym-Poincarre-28_16_",
       "IndexJantzen": [
         "lucarne",
         "oeil-de-boeuf"
+      ],
+      "IndexTorneh": [
+        "oculus",
+        "oriel",
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "corniche",
+        "sculpture",
+        "porte-fenêtre",
+        "volet",
+        "fer forgé",
+        "ardoise",
+        "souche de cheminée",
+        "pierre de taille",
+        "fronton",
+        "mascaron"
       ],
       "dateCapture": "2004:05:17"
     }

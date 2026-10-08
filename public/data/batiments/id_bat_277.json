@@ -23,11 +23,41 @@
   "terme_jantzen_bat": [
     "façade"
   ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "chéneau",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "St-Victor-10-2_5_§1",
       "IndexJantzen": [
         "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "fronton",
+        "lucarne",
+        "mansarde",
+        "souche de cheminée",
+        "balcon",
+        "garde-corps",
+        "toit à deux versants",
+        "ardoise",
+        "volet",
+        "chéneau",
+        "travée",
+        "balustrade"
       ],
       "dateCapture": "2010:03:23"
     }

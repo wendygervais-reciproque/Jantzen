@@ -23,12 +23,34 @@
   "terme_jantzen_bat": [
     "toiture",
     "oeil-de-boeuf",
+    "pilastre",
+    "sculpture",
     "lucarne",
     "façade",
-    "sculpture",
-    "porte-bois",
+    "fronton",
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "grille",
+    "lucarne",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
     "pilastre",
-    "fronton"
+    "porte",
+    "souche de cheminée",
+    "volet"
   ],
   "photos": [
     {
@@ -36,6 +58,28 @@
       "IndexJantzen": [
         "façade",
         "pilastre"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "lucarne",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "porte",
+        "fronton",
+        "mascaron",
+        "chambranle",
+        "pilastre",
+        "corniche",
+        "ardoise",
+        "chaîne d'angle",
+        "souche de cheminée",
+        "arc en plein cintre",
+        "grille",
+        "bandeau",
+        "volet",
+        "pierre de taille",
+        "oculus"
       ],
       "dateCapture": "2008:05:25"
     },
@@ -46,6 +90,7 @@
         "lucarne",
         "toiture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:25"
     },
     {
@@ -54,6 +99,7 @@
         "fronton",
         "lucarne"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:25"
     },
     {
@@ -61,6 +107,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:25"
     },
     {
@@ -69,6 +116,7 @@
         "oeil-de-boeuf",
         "sculpture"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2008:05:25"
     }
   ]

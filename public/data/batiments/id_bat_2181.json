@@ -23,11 +23,31 @@
   "terme_jantzen_bat": [
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "fenêtre",
+    "fer forgé",
+    "gros appareil",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Bievre-31_5_§1",
       "IndexJantzen": [
         "porte-bois"
+      ],
+      "IndexTorneh": [
+        "arc en plein cintre",
+        "porte",
+        "portail",
+        "vantail",
+        "pierre de taille",
+        "fenêtre",
+        "fer forgé",
+        "gros appareil"
       ],
       "dateCapture": "2009:09:27"
     },
@@ -36,6 +56,7 @@
       "IndexJantzen": [
         "porte-bois"
       ],
+      "IndexTorneh": [],
       "dateCapture": "2003:08:10"
     }
   ]
