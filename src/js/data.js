@@ -216,7 +216,9 @@ function thumbUrl(idPic, format = IMG_FORMAT) {
   return buildUrl(name, { avif: THUMB_PHOTO_BASE_AVIF, webp: THUMB_PHOTO_BASE_WEBP }, format);
 }
 
-const MAX_FAILURES = 3;
+// Échecs CONSÉCUTIFS (remis à zéro à chaque image chargée) au-delà desquels
+// on considère les fichiers absents du serveur et on arrête les requêtes.
+const MAX_FAILURES = 10;
 let failureCount = 0;
 let galleryAborted = false;
 
@@ -224,6 +226,8 @@ function attachImageWithFallback(img, idPic, urlFn) {
   if (galleryAborted) return; // on ne lance même plus la requête
 
   let triedWebp = false;
+
+  img.addEventListener('load', () => { failureCount = 0; });
 
   img.onerror = function () {
     if (galleryAborted) { this.onerror = null; return; }

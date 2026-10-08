@@ -12,7 +12,9 @@
  *      et la liste partagent le même chargement
  */
 
-const MAX_IMAGE_FAILURES = 3;
+// Échecs CONSÉCUTIFS (remis à zéro à chaque image chargée) au-delà desquels
+// on considère les fichiers absents du serveur et on arrête les requêtes.
+const MAX_IMAGE_FAILURES = 10;
 let cardImageFailureCount = 0;
 let cardImagesAborted = false;
 
@@ -41,11 +43,24 @@ function buildingRefImageId(data) {
 function attachCardImage(img, idPic, onLoaded) {
   if (cardImagesAborted || !idPic) return;
 
-  img.onload = () => { onLoaded?.(); };
+  img.onload = () => {
+    cardImageFailureCount = 0;
+    onLoaded?.();
+  };
+
+  let triedWebp = false;
 
   img.onerror = function () {
+    // 1er échec en avif : on retente une fois en webp (même repli que la galerie)
+    if (!triedWebp && IMG_FORMAT === 'avif') {
+      triedWebp = true;
+      this.src = thumbUrl(idPic, 'webp');
+      return;
+    }
+
     this.onerror = null;
     this.classList.add('img-broken');
+    console.warn('[card] image introuvable :', this.src);
 
     if (cardImagesAborted) return;
 
