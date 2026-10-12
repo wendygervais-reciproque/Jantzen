@@ -210,7 +210,7 @@ function thumbUrl(idPic, format = IMG_FORMAT) {
    les deux formes. */
 function imageUrlCandidates(idPic, bases, format) {
   if (!idPic || typeof idPic !== 'string') return [];
-  const name    = idPic.replace(/^image_/, '');
+  const name    = idPic.replace(/^image_/, '').replace(/\uF025/g, '?');
   const formats = format === 'avif' ? ['avif', 'webp'] : ['webp', 'avif'];
   const urls = [];
   formats.forEach(ext => {
