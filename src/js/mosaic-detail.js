@@ -1,6 +1,4 @@
-/**
- * mosaic-detail.js — Volet de détail du bâtiment sélectionné. 
- */
+/** mosaic-detail.js — Volet de détail du bâtiment sélectionné. */
 
 const MD_MIN = 400, MD_MAX = 900;
 const PANEL_STEP = 40;
@@ -65,8 +63,7 @@ async function openMosaicDetail(id_bat, opts = {}) {
   resetMosaicScroll();
 }
 
-/** Remonte le volet en haut (le défilement se fait dans #mosaic-detail-body,
- *  pas sur le panneau). */
+/** Remonte le volet en haut (le défilement se fait dans #mosaic-detail-body). */
 function resetMosaicScroll() {
   const body = document.getElementById('mosaic-detail-body');
   if (body) body.scrollTop = 0;
@@ -111,9 +108,8 @@ function dateIndicative(data) {
 }
 
 /* ─── INFOBULLES ACCESSIBLES ─────────────────────────────────────────────
- * Motif WAI-ARIA APG « tooltip » : déclenchée au survol ET au focus clavier
- * (donc joignable au Tab), masquée à la perte de focus / sortie de survol /
- * Échap — aucune information n'est donc réservée à la souris (RGAA 12.9). */
+ * Motif WAI-ARIA « tooltip » : affichée au survol et au focus clavier, masquée
+ * à la sortie, à la perte de focus ou à Échap (RGAA 12.9). */
 let tooltipIdSeq = 0;
 
 function attachTooltip(el, text) {
@@ -141,6 +137,9 @@ function attachTooltip(el, text) {
 
 const TOOLTIP_DATE_INDICATIVE =
   "Les dates peuvent correspondre à la date de début de réalisation, à des aménagements majeurs ou à des éléments particuliers et ne couvrent pas toujours l'ensemble de l'histoire du bâtiment.";
+
+const TOOLTIP_TORNEH =
+  "Second index, produit et enrichi à l'aide d'outils d'intelligence artificielle dans le cadre du projet TORNE-H.";
 
 const TOOLTIP_PERSONNES =
   "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.";
@@ -175,6 +174,8 @@ function renderMosaicInfo(data) {
       <span class="info-meta-value">${value || '-'}</span>
     </div>`).join('');
   grid.appendChild(buildPermalinkCell(data.id_bat));
+  const torneh = buildTornehBlock(data.terme_torneh_bat);
+  if (torneh) grid.appendChild(torneh);
   host.appendChild(grid);
 
   const dateLabel = grid.querySelector('[data-tooltip-key="date-indicative"]');
@@ -211,7 +212,10 @@ function buildPermalinkCell(id_bat) {
   const link = document.createElement('a');
   link.className = 'info-permalink has-tooltip';
   link.href = url;
-  link.append(url);
+  const urlText = document.createElement('span');
+  urlText.className   = 'info-permalink-url';   // tronquée (…) sur une ligne
+  urlText.textContent = url;
+  link.appendChild(urlText);
   link.insertAdjacentHTML('beforeend', copyIconSVG);
   link.setAttribute('aria-label', 'Copier le permalien du bâtiment');
 
@@ -248,6 +252,40 @@ function buildPermalinkCell(id_bat) {
 
   value.appendChild(link);
   return cell;
+}
+
+/** Index Torne-H du bâtiment : métadonnée informative, une rangée par typologie
+ *  du thésaurus. Renvoie null s'il n'y a aucun terme. */
+function buildTornehBlock(terms) {
+  const clusters = termClusters(Array.isArray(terms) ? terms : []);
+  if (clusters.length === 0) return null;
+
+  const block = document.createElement('div');
+  block.className = 'info-meta-block';
+
+  const label = document.createElement('span');
+  label.className   = 'info-meta-label';
+  label.textContent = 'Index Torne-H';
+  attachTooltip(label, TOOLTIP_TORNEH);
+  block.appendChild(label);
+
+  clusters.forEach(([cluster, clusterTerms]) => {
+    const row = document.createElement('div');
+    row.className = 'info-meta-cell';
+
+    const sub = document.createElement('span');
+    sub.className   = 'info-meta-sublabel';
+    sub.textContent = cluster;
+    row.appendChild(sub);
+
+    const value = document.createElement('span');
+    value.className   = 'info-meta-value';
+    value.textContent = clusterTerms.map(capitalize).join(', ');
+    row.appendChild(value);
+
+    block.appendChild(row);
+  });
+  return block;
 }
 
 function renderMosaicPersonnes(host, data) {
@@ -307,8 +345,8 @@ async function renderMosaicPhotos(data) {
   await renderMdGallery();
 }
 
-/** (Re)construit la galerie à partir de `visibleMdPhotos()` — appelé au premier
- *  rendu et à chaque bascule du filtre, sans rappeler getBatiment(). */
+/** (Re)construit la galerie à partir de `visibleMdPhotos()`, au premier rendu
+ *  et à chaque bascule du filtre. */
 async function renderMdGallery() {
   const host = document.getElementById('md-photos');
   if (!host) return;
@@ -353,7 +391,7 @@ async function renderMdGallery() {
     img.loading  = 'lazy';
     img.decoding = 'async';
     setImageSources(img, thumbUrls(g.id_pic));
-    // Filet de sécurité : si un ratio manquait dans photos.json, on le corrige dès que l'image réelle est chargée, puis on relance le layout.
+    // Corrige un ratio absent de photos.json une fois l'image chargée, puis relance le layout.
     img.addEventListener('load', () => {
       if (!img.naturalWidth || !img.naturalHeight) return;
       const r = img.naturalWidth / img.naturalHeight;
@@ -381,39 +419,24 @@ async function renderMdGallery() {
   mosaicRO.observe(host);
 }
 
-/* ─── MULTISELECT « ÉLÉMENT ARCHITECTURAL » ──────────────────────────────  */
-// Deux index photo, présentés en blocs séparés. La sélection (unique) est
-// mémorisée sous la forme « index:terme » pour distinguer un même terme
-// présent dans les deux index.
-const MD_INDEXES = [
-  { key: 'jantzen', field: 'IndexJantzen', label: 'Index Jantzen' },
-  { key: 'torneh',  field: 'IndexTorneh',  label: 'Index Torne-H' }
-];
-
-function mdFilterToken(index, term) {
-  return `${index.key}:${term}`;
-}
+/* ─── FILTRE « ÉLÉMENTS ARCHITECTURAUX » ─────────────────────────────────  */
+// Les puces de l'index Jantzen filtrent la galerie (sélection unique). L'index
+// Torne-H n'est qu'une métadonnée de l'en-tête (cf. buildTornehBlock).
 
 function visibleMdPhotos() {
   if (mdPhotoFilter.size === 0) return mdPhotos;
-  return mdPhotos.filter(ph => MD_INDEXES.some(idx =>
-    (ph[idx.field] || []).some(t => mdPhotoFilter.has(mdFilterToken(idx, t)))));
+  return mdPhotos.filter(ph =>
+    (ph.IndexJantzen || []).some(t => mdPhotoFilter.has(t)));
 }
 
-function mdElementCounts(index) {
-  const counts = new Map();
-  mdPhotos.forEach(ph => {
-    (ph[index.field] || []).forEach(t => counts.set(t, (counts.get(t) || 0) + 1));
-  });
-  return [...counts.entries()].sort((a, b) => a[0].localeCompare(b[0], 'fr'));
-}
-
-function mdElementClusters(index) {
+/** Regroupe des termes par catégorie du thésaurus : [[catégorie, termes[]], …],
+ *  catégories et termes triés, « Non classés » en dernier. */
+function termClusters(terms) {
   const groups = new Map();
-  mdElementCounts(index).forEach(([term, count]) => {
+  [...new Set(terms)].sort((a, b) => a.localeCompare(b, 'fr')).forEach(term => {
     const cluster = getTermMeta(term)?.c || CLUSTER_UNSORTED;
     if (!groups.has(cluster)) groups.set(cluster, []);
-    groups.get(cluster).push({ term, count });
+    groups.get(cluster).push(term);
   });
   return [...groups.entries()].sort(([a], [b]) => {
     if (a === CLUSTER_UNSORTED) return 1;
@@ -428,59 +451,42 @@ function buildMdElementGroups() {
   if (!host) return;
   host.innerHTML = '';
 
-  let total = 0;
-  MD_INDEXES.forEach(index => {
-    const clusters = mdElementClusters(index);
-    if (clusters.length === 0) return;
-    total += clusters.length;
+  const clusters = termClusters(mdPhotos.flatMap(ph => ph.IndexJantzen || []));
+  clusters.forEach(([cluster, terms]) => {
+    const group = document.createElement('div');
+    group.className = 'archi-group';
 
-    const block = document.createElement('section');
-    block.className = `archi-index archi-index--${index.key}`;
+    const label = document.createElement('span');
+    label.className   = 'archi-group-label';
+    label.textContent = cluster;
+    group.appendChild(label);
 
-    const heading = document.createElement('h4');
-    heading.className   = 'archi-index-title';
-    heading.textContent = index.label;
-    block.appendChild(heading);
-
-    clusters.forEach(([cluster, entries]) => {
-      const group = document.createElement('div');
-      group.className = 'archi-group';
-
-      const label = document.createElement('span');
-      label.className   = 'archi-group-label';
-      label.textContent = cluster;
-      group.appendChild(label);
-
-      const chips = document.createElement('div');
-      chips.className = 'archi-chips';
-      entries.forEach(({ term }) => {
-        const token = mdFilterToken(index, term);
-        const chip = document.createElement('button');
-        chip.type          = 'button';
-        chip.className     = `chip chip--${index.key}`;
-        chip.textContent   = capitalize(term);
-        chip.dataset.token = token;
-        chip.setAttribute('aria-pressed', 'false');
-        chip.onclick = () => toggleMdElementTerm(token);
-        chips.appendChild(chip);
-      });
-      group.appendChild(chips);
-      block.appendChild(group);
+    const chips = document.createElement('div');
+    chips.className = 'archi-chips';
+    terms.forEach(term => {
+      const chip = document.createElement('button');
+      chip.type         = 'button';
+      chip.className    = 'chip';
+      chip.textContent  = capitalize(term);
+      chip.dataset.term = term;
+      chip.setAttribute('aria-pressed', 'false');
+      chip.onclick = () => toggleMdElementTerm(term);
+      chips.appendChild(chip);
     });
-
-    host.appendChild(block);
+    group.appendChild(chips);
+    host.appendChild(group);
   });
 
-  if (toggle) toggle.disabled = total === 0;
+  if (toggle) toggle.disabled = clusters.length === 0;
 
   updateMdElementUI();
 }
 
-function toggleMdElementTerm(token) {
-  if (mdPhotoFilter.has(token)) mdPhotoFilter.clear();
+function toggleMdElementTerm(term) {
+  if (mdPhotoFilter.has(term)) mdPhotoFilter.clear();
   else {
     mdPhotoFilter.clear();
-    mdPhotoFilter.add(token);
+    mdPhotoFilter.add(term);
   }
   updateMdElementUI();
   renderMdGallery();
@@ -494,7 +500,7 @@ function clearMdElementFilter() {
 
 function updateMdElementUI() {
   document.querySelectorAll('#md-elem-groups .chip').forEach(chip => {
-    const active = mdPhotoFilter.has(chip.dataset.token);
+    const active = mdPhotoFilter.has(chip.dataset.term);
     chip.classList.toggle('active', active);
     chip.setAttribute('aria-pressed', String(active));
   });
@@ -529,10 +535,7 @@ function targetRowHeight(W) {
 
 function layoutJustified(host, tiles, gallery) {
   const cs = getComputedStyle(host);
-  // clientWidth inclut le padding du conteneur (20 px de chaque côté depuis
-  // l'ajout du padding sur #md-photos) : la largeur réellement disponible pour
-  // les tuiles en flex-wrap est le clientWidth MOINS ce padding, sans quoi les
-  // rangées calculées débordent de la vraie zone et le flex-wrap coupe trop tôt.
+  // Largeur disponible pour les tuiles : clientWidth moins le padding du conteneur.
   const W = host.clientWidth - parseFloat(cs.paddingLeft) - parseFloat(cs.paddingRight);
   if (W <= 0) return;
   const gap    = parseFloat(cs.columnGap) || 0;
@@ -591,8 +594,7 @@ function initPanelResize(handle, { cssVar, min, max, step, invert }) {
 
     handle.classList.add('is-dragging');
 
-    // Écoute sur window : le pointeur quitte forcément la poignée pendant le
-    // glissement, les mouvements doivent continuer d'arriver
+    // Écoute sur window : le pointeur quitte la poignée pendant le glissement
     const onMove = ev => {
       const dx = ev.clientX - startX;
       setW(startW + (invert ? -dx : dx));
@@ -644,30 +646,18 @@ function initStickyPhotosHeader() {
   }, { root, threshold: [1] }).observe(sentinel);
 }
 
-/**
- * Fonction de comparaison pour trier les POIs / Bâtiments.
- */
-
-/**
- * Comparateur de bâtiments / POIs.
- * Combine la voie, l'ensemble ou le libellé en une clé textuelle unique
- * pour un tri alphabétique global cohérent.
- */
+/** Comparateur de bâtiments : clé de tri alphabétique, puis numéro de rue, puis libellé. */
 function comparePoi(a, b) {
   const propA = a.properties || a;
   const propB = b.properties || b;
 
-  // 1. Détermination de la clé d'affichage textuelle principale pour chaque élément
-  // Ordre de priorité pour la clé : voie d'adresse > ensemble > libellé
   const keyA = (propA.tri_alphab || '').trim();
   const keyB = (propB.tri_alphab || '').trim();
 
-  // 2. Comparaison alphabétique sur la clé principale
   const compKey = keyA.localeCompare(keyB, 'fr', { sensitivity: 'base' });
   if (compKey !== 0) return compKey;
 
-  // 3. En cas d'égalité sur la clé (ex: deux bâtiments sur la même voie "Place de l'Opéra")
-  // On compare par numéro de rue si disponible
+  // Même clé (même voie) : numéro de rue
   const numA = parseInt(propA.adresse?.numero, 10) || 0;
   const numB = parseInt(propB.adresse?.numero, 10) || 0;
   
@@ -675,7 +665,7 @@ function comparePoi(a, b) {
     return numA - numB;
   }
 
-  // 4. Dernier recours en cas de seconde égalité : tri sur le libellé
+  // Dernier recours : libellé
   const libA = (propA.libelle || '').trim();
   const libB = (propB.libelle || '').trim();
   return libA.localeCompare(libB, 'fr', { sensitivity: 'base' });

@@ -1,11 +1,8 @@
-/**
- * pages.js - Onglets de la page « À propos » (a-propos.html).
- */
+/** pages.js — Page « À propos » (a-propos.html). */
 
 /* ─── PAGE « À PROPOS » (onglets) ───────────────────────────────────────── */
 // L'onglet affiché suit le hash (#base, #projet, #credits) : chaque onglet a
-// donc sa propre adresse, partageable, et le bouton Précédent du navigateur
-// revient à l'onglet d'avant.
+// son adresse, et le bouton Précédent revient à l'onglet d'avant.
 
 const ABOUT_TABS = ['base', 'projet', 'credits'];
 
@@ -55,8 +52,8 @@ function bindAboutTabs() {
 }
 
 /* ─── EN-TÊTE ESCAMOTABLE ───────────────────────────────────────────────── */
-// Le menu principal sort de l'écran quand on descend dans la page et revient
-// dès qu'on remonte, pour garder le retour à la carte à portée de clic.
+// Le menu principal se masque quand on descend dans la page et revient dès
+// qu'on remonte.
 
 function bindPageHeader() {
   const root   = document.documentElement;

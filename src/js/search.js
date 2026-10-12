@@ -1,6 +1,4 @@
-/**
- * search.js -  Index Lunr construit depuis le GeoJSON
- */
+/** search.js — Index Lunr construit depuis le GeoJSON. */
 
 
 let lunrIndex = null;
@@ -8,7 +6,7 @@ let lunrIndex = null;
 function normalizeText(text) {
   if (!text || typeof text !== 'string') return '';
   return text
-    .normalize('NFD') // Décompose les caractères accentués (ex: "É" → "E + ´")
+    .normalize('NFD') // Décompose les caractères accentués
     .replace(/[\u0300-\u036f]/g, '') 
     .replace(/[^\w\s]/g, ' ') // Remplace les caractères spéciaux par un espace
     .toLowerCase()
@@ -33,11 +31,10 @@ function buildLunrIndex() {
 
     this.ref('id_bat');
     this.field('dateConstruction', { boost: 10 });
-    //this.field('periode', { boost: 10 });
     this.field('all', { boost: 1 });
     this.field('libelle', { boost: 5 });
     this.field('architectes', { boost: 5 });
-    this.field('roles', { boost: 5 }); // nouveau champ dédié aux rôles
+    this.field('roles', { boost: 5 }); // rôles (architecte, sculpteur…)
 
     ALL_FEATURES.forEach(f => {
       const p = f.properties;
@@ -54,9 +51,6 @@ function buildLunrIndex() {
       const dateConstructionValue = Array.isArray(p.dateConstruction)
         ? p.dateConstruction[0]
         : p.dateConstruction;
-      // const periodeValue = Array.isArray(p.periode)
-      //   ? p.periode[0]
-      //   : p.periode;
 
     
       const rawPersonnes = p.personneID;
@@ -72,7 +66,6 @@ function buildLunrIndex() {
         .join(' ');
       const normalizedArchitectes = normalizeText(archiNames);
 
-      // Rôles (architecte, sculpteur, etc.)
       const rolesText = personnesArray
         .map(item => typeof item === 'object' && item !== null ? item.role : '')
         .filter(Boolean)
@@ -91,7 +84,6 @@ function buildLunrIndex() {
       this.add({
         id_bat: String(p.id_bat),
         dateConstruction: dateConstructionValue || '',
-        //periode: periodeValue || '',
         libelle: libelleText,
         architectes: normalizedArchitectes,
         roles: normalizedRoles,
@@ -106,7 +98,7 @@ function buildLunrIndex() {
  * @param {string} query
  * @returns {Set<string|number>}
  */
-// Mots-clés français : trop fréquents/peu discriminants
+// Mots vides français, peu discriminants
 const FRENCH_STOPWORDS = new Set([
   'de', 'du', 'des', 'le', 'la', 'les', 'l', 'un', 'une',
   'et', 'à', 'au', 'aux', 'en', 'sur', 'dans', 'pour'
@@ -116,11 +108,11 @@ function lunrSearch(query) {
   if (!lunrIndex) return new Set();
 
   try {
-    const normalizedQuery = normalizeText(query); // Normaliser la requête
+    const normalizedQuery = normalizeText(query);
     const terms = normalizedQuery.split(/\s+/).filter(Boolean);
     if (terms.length === 0) return new Set();
 
-    // Vérifier si la requête est une plage ou une année
+    // Requête de type plage (1900-1914) ou année
     const isRangeQuery = /^\d{4}-\d{4}$/.test(query);
     const isYearQuery = /^\d{4}$/.test(query);
 
@@ -153,8 +145,7 @@ function lunrSearch(query) {
           const isStopword = FRENCH_STOPWORDS.has(term);
 
           if (isTyping) {
-            // Mot en cours de frappe : wildcard des DEUX côtés → "contient"
-            // n'importe où dans le mot (ex: "lou" trouve "louvre", "chalouette")
+            // Mot en cours de frappe : wildcard des deux côtés (« lou » trouve « louvre », « chalouette »)
             q.term(term, {
               fields: ['all', 'libelle', 'architectes', 'roles'],
               usePipeline: false,

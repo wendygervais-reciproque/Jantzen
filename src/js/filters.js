@@ -1,6 +1,4 @@
-/**
- * filters.js — Filtres : arrondissement, thésaurus Jantzen, architectes, périodes.
- */
+/** filters.js — Filtres : arrondissements, thésaurus, architectes, périodes. */
 
 function setChipContent(chip, label, count) {
   chip.textContent = '';
@@ -88,10 +86,9 @@ const SOURCE_LABELS = {
 };
 
 function buildThesaurusFilter() {
-  // Comptes par terme normalisé, sur l'union Jantzen ∪ Torne-H : un bâtiment
-  // portant le terme dans les deux index n'est compté qu'une fois. Le libellé
-  // affiché reprend l'orthographe Jantzen quand elle existe (c'est elle que
-  // posent la visionneuse et les liens partagés), Torne-H sinon.
+  // Comptes par terme normalisé sur l'union Jantzen ∪ Torne-H (un bâtiment n'est
+  // compté qu'une fois). Le libellé reprend l'orthographe Jantzen quand elle
+  // existe, Torne-H sinon.
   const counts = new Map();
   const labels = new Map();
   ALL_FEATURES.forEach(f => {
@@ -554,7 +551,7 @@ function buildArchitectesFilter(personnesFiltre = []) {
     const arr = Array.isArray(raw) ? raw : (raw != null ? [raw] : []);
     
     arr.forEach(item => {
-      // extrait la valeur selon que c'est un objet {personneID: 249, role: "..."} ou un nombre direct
+      // item : objet {personneID, role} ou identifiant direct
       const val = (typeof item === 'object' && item !== null) ? item.personneID : item;
       const idNum = Number(val);
       if (!isNaN(idNum)) {
@@ -691,7 +688,7 @@ function updateArchitectesData(featuresActuelles) {
     });
   }
 
-  // 5. Architectes déjà sélectionnés (ET) — Essentiel pour le facettage dynamique en ET
+  // 5. Architectes déjà sélectionnés (ET)
   if (activeFilters.architectes.size > 0) {
     const selectedArchiIds = Array.from(activeFilters.architectes).map(id => Number(id));
     featuresSansArchi = featuresSansArchi.filter(f => {
@@ -705,7 +702,6 @@ function updateArchitectesData(featuresActuelles) {
     });
   }
 
-  // Compter les occurrences
   const counts = new Map();
   featuresSansArchi.forEach(f => {
     const raw = f.properties.personneID;
@@ -722,7 +718,6 @@ function updateArchitectesData(featuresActuelles) {
     });
   });
 
-  // Mettre à jour les compteurs
   ARCHI_TERMS.forEach(item => {
     item.count = counts.get(Number(item.id)) || 0;
   });
@@ -740,7 +735,7 @@ function updateArchitectesData(featuresActuelles) {
 function buildPeriodesFilter(periodesData = []) {
   let list = [];
 
-  // 1. Extraire les chaînes de périodes depuis la structure d'objets [{ periode: [...] }, ...]
+  // 1. Périodes extraites de [{ periode: [...] }, ...]
   if (Array.isArray(periodesData)) {
     periodesData.forEach(item => {
       if (typeof item === 'string') {
@@ -755,10 +750,10 @@ function buildPeriodesFilter(periodesData = []) {
     list = periodesData.periode;
   }
 
-  // Nettoyage et suppression des doublons
+  // Dédoublonnage
   list = [...new Set(list.map(p => String(p).trim()).filter(Boolean))];
 
-  // 2. Compter les occurrences dans ALL_FEATURES
+  // 2. Occurrences dans ALL_FEATURES
   const counts = new Map();
   ALL_FEATURES.forEach(f => {
     const raw = f.properties.periode || f.properties.periodes;
@@ -772,7 +767,7 @@ function buildPeriodesFilter(periodesData = []) {
     });
   });
 
-  // 3. Mettre à jour PERIODE_TERMS
+  // 3. PERIODE_TERMS
   PERIODE_TERMS = list.map(p => ({
     label: p,
     count: counts.get(p) || 0

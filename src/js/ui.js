@@ -1,6 +1,4 @@
-/**
- * ui.js — Sélection d'un bâtiment 
- */
+/** ui.js — Sélection d'un bâtiment. */
 
 let selectedId = null;
 
@@ -13,8 +11,7 @@ function selectBatiment(id_bat) {
     el.classList.toggle('is-active', String(el.dataset.id) === String(id_bat));
   });
 
-  // moveFocus: true — nouvelle sélection franche, comme l'ouverture d'une
-  // modale/lightbox : le focus doit entrer dans le volet qui s'ouvre
+  // moveFocus : nouvelle sélection, le focus entre dans le volet qui s'ouvre
   presentSelection(id_bat, true);
   if (typeof writeStateToHash === 'function') writeStateToHash('push');
 }

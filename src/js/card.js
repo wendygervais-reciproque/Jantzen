@@ -1,24 +1,18 @@
 /**
- * card.js — Card (« snippet ») d'un bâtiment, PARTAGÉE entre :
- *   • la carte    — popup au survol / clic d'un POI (map.js) ;
- *   • la liste — tuile de résultat (views.js).
- *
- * En deux temps, pour rester léger :
- *   1. buildBuildingCard(props)  — card à partir des données du
- *      GeoJSON (nom, arrondissement, ensemble), avec un squelette d'image.
- *   2. enrichBuildingCard(el, data) — complète avec l'image de référence et les
- *      personnes (rôle), issues de la fiche complète getBatiment(id) chargée à
- *      la demande. getBatiment / getPersonne sont mutualisés (cache) donc la carte
- *      et la liste partagent le même chargement
+ * card.js — Card d'un bâtiment, partagée entre la carte (popup d'un POI, map.js)
+ * et la liste (tuile de résultat, views.js). En deux temps :
+ *   1. buildBuildingCard(props) — card depuis les données du GeoJSON, avec un
+ *      squelette d'image ;
+ *   2. enrichBuildingCard(el, data) — ajoute l'image de référence et les
+ *      personnes, depuis la fiche complète getBatiment(id) chargée à la demande
+ *      (cache mutualisé entre la carte et la liste).
  */
 
 
 /**
- * URL (+ id_pic) de l'image de référence d'un bâtiment. Par défaut : image_ref
- * (à défaut 1re photo). Si une seule facette thésaurus est active, on préfère
- * la première photo du bâtiment porteuse de ce terme (plus parlant pour la
- * recherche en cours) ; au-delà d'une facette active, le critère devient
- * ambigu et on retombe sur l'image de référence par défaut
+ * Image de référence d'un bâtiment : image_ref, à défaut la 1re photo. Si une
+ * seule facette thésaurus est active, on préfère la première photo porteuse de
+ * ce terme.
  * @returns {{ idPic: string, url: string } | null}
  */
 function buildingRefImageId(data) {
@@ -35,8 +29,7 @@ function buildingRefImageId(data) {
   return data?.image_ref || photos[0]?.id_pic || null;
 }
 
-/** Une image introuvable n'affecte que sa propre tuile : pas d'arrêt global
- *  du chargement, les suivantes continuent d'être demandées. */
+/** Une image introuvable n'affecte que sa propre tuile. */
 function attachCardImage(img, idPic, onLoaded, onFailed) {
   if (!idPic) return;
   img.onload = () => { onLoaded?.(); };
@@ -44,9 +37,8 @@ function attachCardImage(img, idPic, onLoaded, onFailed) {
 }
 
 /**
- * Construit la card, renvoie un <button> cliquable
- * @param {object} props  properties d'une feature GeoJSON (id_bat, libelle,
- *        ensemble, arrondissement).
+ * Construit la card, renvoie un <button> cliquable.
+ * @param {object} props  properties d'une feature GeoJSON
  */
 function buildBuildingCard(props) {
   const card = document.createElement('button');
@@ -90,15 +82,11 @@ function buildBuildingCard(props) {
   return card;
 }
 
-/**
- * Complète une card avec l'image de référence et les personnes liées, à partir
- * de la fiche complète `data` (getBatiment)
- */
+/** Complète une card avec l'image de référence et les personnes de la fiche `data`. */
 async function enrichBuildingCard(card, data) {
   if (!card || !data) return;
 
-  // Image de référence insérée SOUS le badge arrondissement, squelette retiré
-  // une fois chargée
+  // Image de référence insérée sous le badge arrondissement
   const thumb = card.querySelector('.bldg-card-thumb');
   const idPic = buildingRefImageId(data);
   if (thumb && idPic && !thumb.querySelector('img')) {
@@ -109,7 +97,7 @@ async function enrichBuildingCard(card, data) {
     img.addEventListener('contextmenu', e => e.preventDefault());
     img.addEventListener('dragstart', e => e.preventDefault());
 
-    // Squelette retiré au chargement comme à l'échec (sinon il « charge » à vide)
+    // Squelette retiré au chargement comme à l'échec
     const dropSkeleton = () => thumb.querySelector('.thumb-skeleton')?.remove();
     attachCardImage(img, idPic, dropSkeleton, () => { dropSkeleton(); img.remove(); });
 

@@ -1,7 +1,4 @@
-/**
- * data.js - Adapté au standard GeoJSON / Leaflet
- * Chargement asynchrone des données et gestion des arrondissements et filtres.
- */
+/** data.js — Chargement asynchrone des données (GeoJSON, thésaurus, fiches) et utilitaires associés. */
 
 const DATA_BASE  = '/public/data';
 const PHOTO_BASE = `${DATA_BASE}/photos_jpg`; // image HD
@@ -123,12 +120,10 @@ async function loadData() {
 
     }
 
-    // Construction du filtre des architectes
     if (typeof buildArchitectesFilter === 'function') {
       buildArchitectesFilter(PERSONNES_FILTRE_DATA);
     }
 
-    // Construction du filtre à facettes des périodes
     if (typeof buildPeriodesFilter === 'function') {
       buildPeriodesFilter(PERIODES_FILTRE_DATA);
     }
@@ -199,9 +194,6 @@ const imgFormatReady = detectImageFormat().then((f) => { IMG_FORMAT = f; });
 function buildUrl(name, bases, ext) {
   return `${bases[ext]}/${encodeURIComponent(name.normalize(ext === 'webp' ? 'NFC' : 'NFD'))}.${ext}`;
 
-  // DEBUG JPG ; A ENLEVER LORS DE REBASCULE AVIF/WEBP
-  // let text = `/public/data/photos_webp/${encodeURIComponent(name.normalize('NFD'))}.jpg`;
-  // return text;
 }
 
 function photoUrl(idPic, format = IMG_FORMAT) {
@@ -212,11 +204,10 @@ function thumbUrl(idPic, format = IMG_FORMAT) {
   return thumbUrls(idPic, format)[0] || null;
 }
 
-/* Les noms de fichiers accentués du serveur mélangent les deux formes Unicode
-   (« ç » composé NFC, ou « c » + cédille NFD), y compris au sein d'un même
-   format : on ne peut donc pas déduire la forme du format. Ces fonctions
-   renvoient les URL candidates, dans l'ordre d'essai : format préféré puis
-   l'autre, chacun dans sa forme habituelle puis dans l'autre forme. */
+/* Les noms de fichiers accentués mélangent les deux formes Unicode (NFC et
+   NFD), y compris au sein d'un même format. Ces fonctions renvoient les URL
+   candidates dans l'ordre d'essai : format préféré puis l'autre, chacun dans
+   les deux formes. */
 function imageUrlCandidates(idPic, bases, format) {
   if (!idPic || typeof idPic !== 'string') return [];
   const name    = idPic.replace(/^image_/, '');
@@ -239,8 +230,8 @@ function thumbUrls(idPic, format = IMG_FORMAT) {
   return imageUrlCandidates(idPic, { avif: THUMB_PHOTO_BASE_AVIF, webp: THUMB_PHOTO_BASE_WEBP }, format);
 }
 
-/** Charge la première URL qui répond parmi `urls` ; `onFail` n'est appelé
- *  qu'une fois toutes les candidates épuisées. N'affecte que cette image. */
+/** Charge la première URL de `urls` qui répond ; `onFail` n'est appelé qu'une
+ *  fois toutes les candidates épuisées. */
 function setImageSources(img, urls, onFail) {
   const queue = (urls || []).filter(Boolean);
   img.onerror = function () {
@@ -255,8 +246,8 @@ function setImageSources(img, urls, onFail) {
 }
 
 /* ─── DIMENSIONS DES PHOTOS ────── */
-// photos.json n'est chargé qu'une fois, à la première galerie ouverte : il fournit les dimensions natives, 
-// ce qui permet de disposer les photos en rangées justifiées avant que les images ne soient chargées.
+// photos.json (dimensions natives) n'est chargé qu'une fois, à la première galerie ouverte :
+// il permet de disposer les rangées justifiées avant le chargement des images.
 let photoRatiosPromise = null;
 
 function loadPhotoRatios() {
@@ -330,10 +321,8 @@ const WIKIMEDIA_COMMONS = 'https://upload.wikimedia.org/wikipedia/commons';
 function personneLocalThumbUrl(media) {
   if (!media) return null;
 
-  // Décode les caractères encodés (ex  %20 = espace)
   const decodedFilename = decodeURIComponent(media);
 
-  // Construit le chemin local
   return `/public/data/thumb_personnes_jpg/${decodedFilename}`;
 }
 

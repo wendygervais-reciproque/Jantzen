@@ -1,14 +1,13 @@
 /**
  * views.js — Bascule carte <-> liste et rendu de la vue liste.
- *
- * Les deux vues utilisent le même jeu filtré : la bascule
- * ne relance pas les filtres, elle re-rend  la vue active.
+ * Les deux vues partagent le même jeu filtré : la bascule ne relance pas les
+ * filtres, elle re-rend la vue active.
  */
 
 let currentView    = 'map';   // 'map' | 'mosaic'
 let currentResults = [];      // features après filtrage
 
-const MOSAIC_MAX = 3065;       // max cards, au-delà, on invite à affiner les filtres
+const MOSAIC_MAX = 3065;       // nombre maximal de cards ; au-delà, on invite à affiner les filtres
 
 /* ─── BASCULE ────────────────────────────────────────────────────────── */
 
