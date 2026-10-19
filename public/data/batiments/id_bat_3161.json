@@ -13,6 +13,7 @@
     "voie": "rue Gustave-Geffroy"
   },
   "arrondissement": 13,
+  "tri_alphab": "Gustave-Geffroy",
   "coordonnees": {
     "latitude": "48.835114",
     "longitude": "2.351105"
@@ -22,9 +23,21 @@
   "WPfr": null,
   "image_ref": "Gustave-Geffroy-_13_§1",
   "terme_jantzen_bat": [
-    "lucarne",
     "toiture",
-    "tourelle"
+    "tourelle",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "chéneau",
+    "faîtage",
+    "fenêtre",
+    "lucarne",
+    "toit à deux versants",
+    "tour",
+    "tuile",
+    "volet",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -33,7 +46,20 @@
         "lucarne",
         "toiture",
         "tourelle"
-      ]
+      ],
+      "IndexTorneh": [
+        "tour",
+        "épi de faîtage",
+        "lucarne",
+        "ardoise",
+        "tuile",
+        "fenêtre",
+        "volet",
+        "chéneau",
+        "faîtage",
+        "toit à deux versants"
+      ],
+      "dateCapture": "2005:07:17"
     }
   ]
 }

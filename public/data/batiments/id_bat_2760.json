@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 665,
+      "personneID": 882,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "boulevard Richard-Lenoir"
   },
   "arrondissement": 11,
+  "tri_alphab": "Richard-Lenoir-bd",
   "coordonnees": {
     "latitude": "48.858684",
     "longitude": "2.372078"
@@ -27,14 +28,34 @@
   "WPfr": null,
   "image_ref": "Richard-Lenoir-bd-48_11_§1",
   "terme_jantzen_bat": [
-    "lucarne",
-    "fenetre",
     "oeil-de-boeuf",
     "dome",
-    "sculpture",
     "balcon",
+    "sculpture",
     "pignon",
+    "fenetre",
+    "lucarne",
     "garde-corps"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "sculpture",
+    "souche de cheminée",
+    "volet"
   ],
   "photos": [
     {
@@ -43,7 +64,28 @@
         "balcon",
         "fenetre",
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "oculus",
+        "lucarne",
+        "mansarde",
+        "ardoise",
+        "pierre de taille",
+        "sculpture",
+        "mascaron",
+        "fer forgé",
+        "souche de cheminée",
+        "volet",
+        "corniche",
+        "bandeau",
+        "arc en plein cintre",
+        "fronton"
+      ],
+      "dateCapture": "2004:05:19"
     },
     {
       "id_pic": "Richard-Lenoir-bd-48_11_§2",
@@ -52,7 +94,9 @@
         "lucarne",
         "oeil-de-boeuf",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:02:16"
     },
     {
       "id_pic": "Richard-Lenoir-bd-48_11_§3",
@@ -62,27 +106,35 @@
         "oeil-de-boeuf",
         "pignon",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:02:16"
     },
     {
       "id_pic": "Richard-Lenoir-bd-48_11_§4",
       "IndexJantzen": [
         "lucarne",
         "pignon"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:02:16"
     },
     {
       "id_pic": "Richard-Lenoir-bd-48_11_§5",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:02:16"
     },
     {
       "id_pic": "Richard-Lenoir-bd-48_11_§6",
       "IndexJantzen": [
         "fenetre",
         "garde-corps"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:05:19"
     }
   ]
 }

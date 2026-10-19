@@ -4,7 +4,11 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 392,
+      "personneID": 601,
+      "role": "architecte"
+    },
+    {
+      "personneID": 515,
       "role": "architecte"
     }
   ],
@@ -18,6 +22,7 @@
     "voie": "rue de Charonne"
   },
   "arrondissement": 11,
+  "tri_alphab": "Charonne",
   "coordonnees": {
     "latitude": "48.854014",
     "longitude": "2.382737"
@@ -27,13 +32,29 @@
   "WPfr": null,
   "image_ref": "Charonne-94_11_§1",
   "terme_jantzen_bat": [
+    "balcon",
+    "pignon",
+    "fenetre",
+    "brique",
     "façade",
     "céramique",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "acrotère",
+    "arc",
+    "arc en plein cintre",
+    "balcon",
     "brique",
-    "fenetre",
-    "décor",
-    "pignon",
-    "balcon"
+    "corniche",
+    "céramique",
+    "fenêtre",
+    "garde-corps",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "porte-fenêtre",
+    "travée"
   ],
   "photos": [
     {
@@ -42,7 +63,24 @@
         "brique",
         "céramique",
         "façade"
-      ]
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "porte-fenêtre",
+        "arc en plein cintre",
+        "brique",
+        "céramique",
+        "corniche",
+        "travée",
+        "oculus",
+        "acrotère",
+        "mascaron",
+        "pierre de taille",
+        "arc"
+      ],
+      "dateCapture": "2005:06:18"
     },
     {
       "id_pic": "Charonne-94_11_§2",
@@ -50,7 +88,9 @@
         "brique",
         "céramique",
         "façade"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:09:16"
     },
     {
       "id_pic": "Charonne-94_11_§3",
@@ -60,7 +100,9 @@
         "décor",
         "fenetre",
         "pignon"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:06:18"
     },
     {
       "id_pic": "Charonne-94_11_§4",
@@ -69,7 +111,9 @@
         "céramique",
         "décor",
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:06:18"
     },
     {
       "id_pic": "Charonne-94_11_§5",
@@ -79,7 +123,9 @@
         "céramique",
         "décor",
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:06:06"
     }
   ]
 }

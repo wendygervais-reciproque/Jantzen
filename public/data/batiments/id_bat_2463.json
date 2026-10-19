@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 70,
+      "personneID": 105,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "chaussée de la Muette"
   },
   "arrondissement": 16,
+  "tri_alphab": "Muette-Chaussee",
   "coordonnees": {
     "latitude": "48.858284",
     "longitude": "2.274149"
@@ -27,17 +28,37 @@
   "WPfr": null,
   "image_ref": "Muette-Chaussee-4_16_§1",
   "terme_jantzen_bat": [
-    "lucarne",
-    "façade-d'angle",
-    "façade",
-    "décor",
-    "tour",
     "dome",
-    "fenetre-d'angle",
-    "sculpture",
-    "console",
+    "façade-d'angle",
+    "tour",
     "balcon",
-    "oriel"
+    "sculpture",
+    "oriel",
+    "fenetre-d'angle",
+    "console",
+    "lucarne",
+    "façade",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "porte",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée"
   ],
   "photos": [
     {
@@ -45,7 +66,28 @@
       "IndexJantzen": [
         "dome",
         "façade-d'angle"
-      ]
+      ],
+      "IndexTorneh": [
+        "dôme",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "porte",
+        "mascaron",
+        "corniche",
+        "bandeau",
+        "souche de cheminée",
+        "pierre de taille",
+        "ardoise",
+        "fer forgé",
+        "travée",
+        "arc",
+        "arc en plein cintre",
+        "toit à deux versants",
+        "oculus"
+      ],
+      "dateCapture": "2005:05:12"
     },
     {
       "id_pic": "Muette-Chaussee-4_16_§2-Rs",
@@ -53,7 +95,9 @@
         "dome",
         "façade-d'angle",
         "tour"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:02:19"
     },
     {
       "id_pic": "Muette-Chaussee-4_16_§3-Rs",
@@ -63,7 +107,9 @@
         "façade-d'angle",
         "sculpture",
         "tour"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:02:19"
     },
     {
       "id_pic": "Muette-Chaussee-4_16_§4",
@@ -72,7 +118,9 @@
         "dome",
         "fenetre-d'angle",
         "tour"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:05:12"
     },
     {
       "id_pic": "Muette-Chaussee-4_16_§5",
@@ -81,7 +129,9 @@
         "dome",
         "fenetre-d'angle",
         "tour"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:02:19"
     },
     {
       "id_pic": "Muette-Chaussee-4_16_§6",
@@ -92,14 +142,18 @@
         "lucarne",
         "sculpture",
         "tour"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:02:19"
     },
     {
       "id_pic": "Muette-Chaussee-4_16_§7",
       "IndexJantzen": [
         "console",
         "oriel"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:05:12"
     },
     {
       "id_pic": "Muette-Chaussee-4_16_§8",
@@ -107,7 +161,9 @@
         "console",
         "façade",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:05:12"
     }
   ]
 }

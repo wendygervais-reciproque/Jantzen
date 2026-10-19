@@ -13,6 +13,7 @@
     "voie": "rue Marcadet"
   },
   "arrondissement": 18,
+  "tri_alphab": "Marcadet",
   "coordonnees": {
     "latitude": "48.891617",
     "longitude": "2.33613"
@@ -22,11 +23,29 @@
   "WPfr": null,
   "image_ref": "Marcadet-190_18_§1",
   "terme_jantzen_bat": [
-    "façade",
-    "brique",
     "fenetre",
-    "décor",
-    "garde-corps"
+    "brique",
+    "façade",
+    "garde-corps",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "auvent",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -35,7 +54,26 @@
         "brique",
         "décor",
         "façade"
-      ]
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "arc en plein cintre",
+        "brique",
+        "ardoise",
+        "lucarne",
+        "mansarde",
+        "balustrade",
+        "volet",
+        "fer forgé",
+        "travée",
+        "mascaron",
+        "corniche",
+        "auvent",
+        "bandeau"
+      ],
+      "dateCapture": "2004:06:14"
     },
     {
       "id_pic": "Marcadet-190_18_§2",
@@ -43,7 +81,9 @@
         "brique",
         "décor",
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:06:14"
     },
     {
       "id_pic": "Marcadet-190_18_§3",
@@ -52,7 +92,9 @@
         "décor",
         "fenetre",
         "garde-corps"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:06:14"
     }
   ]
 }

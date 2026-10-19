@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 471,
+      "personneID": 631,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue José-Maria-de-Heredia"
   },
   "arrondissement": 7,
+  "tri_alphab": "Jose-Maria-de-Heredia",
   "coordonnees": {
     "latitude": "48.847918",
     "longitude": "2.307454"
@@ -27,30 +28,71 @@
   "WPfr": null,
   "image_ref": "Jose-Maria-de-Heredia-10-12_7_§1",
   "terme_jantzen_bat": [
+    "façade",
     "fenetre",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "colonne",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
     "lucarne",
-    "façade"
+    "mansarde",
+    "oriel",
+    "pierre de taille",
+    "pilastre",
+    "souche de cheminée",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Jose-Maria-de-Heredia-10-12_7_§1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "lucarne",
+        "mansarde",
+        "corniche",
+        "pierre de taille",
+        "souche de cheminée",
+        "fronton",
+        "colonne",
+        "pilastre",
+        "travée",
+        "volet",
+        "oriel",
+        "bandeau"
+      ],
+      "dateCapture": "2007:06:17"
     },
     {
       "id_pic": "Jose-Maria-de-Heredia-10-12_7_§2",
       "IndexJantzen": [
         "fenetre",
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:06:17"
     },
     {
       "id_pic": "Jose-Maria-de-Heredia-10-12_7_§3",
       "IndexJantzen": [
         "fenetre",
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:06:17"
     }
   ]
 }

@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 362,
+      "personneID": 488,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue des Pyrénées"
   },
   "arrondissement": 20,
+  "tri_alphab": "Pyrenees",
   "coordonnees": {
     "latitude": "48.873897",
     "longitude": "2.388191"
@@ -27,8 +28,24 @@
   "WPfr": null,
   "image_ref": "Pyrenees-346b_20_§1",
   "terme_jantzen_bat": [
+    "oriel",
+    "céramique"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
     "céramique",
-    "oriel"
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "oculus",
+    "oriel",
+    "pierre de taille",
+    "sculpture",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -36,14 +53,33 @@
       "IndexJantzen": [
         "céramique",
         "oriel"
-      ]
+      ],
+      "IndexTorneh": [
+        "oriel",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "volet",
+        "fer forgé",
+        "pierre de taille",
+        "céramique",
+        "mascaron",
+        "sculpture",
+        "oculus",
+        "travée",
+        "bandeau"
+      ],
+      "dateCapture": "2006:04:20"
     },
     {
       "id_pic": "Pyrenees-346b_20_§2",
       "IndexJantzen": [
         "céramique",
         "oriel"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:04:20"
     }
   ]
 }

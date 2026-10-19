@@ -1,0 +1,123 @@
+{
+  "id_bat": 3677,
+  "libelle": "81 rue du Bac",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": null,
+  "adresse": {
+    "affichage": "81 rue du Bac",
+    "numero": "81",
+    "voie": "rue du Bac"
+  },
+  "arrondissement": 7,
+  "tri_alphab": "Bac",
+  "coordonnees": {
+    "latitude": "48.854429",
+    "longitude": "2.32416"
+  },
+  "id_pss": null,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": "Bac-81_7_§1",
+  "terme_jantzen_bat": [
+    "façade",
+    "sculpture",
+    "garde-corps",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "jambage",
+    "linteau",
+    "mansarde",
+    "oculus",
+    "pierre de taille",
+    "sculpture",
+    "souche de cheminée",
+    "travée",
+    "volet"
+  ],
+  "photos": [
+    {
+      "id_pic": "Bac-81_7_§1",
+      "IndexJantzen": [
+        "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "corniche",
+        "bandeau",
+        "fronton",
+        "sculpture",
+        "arc en plein cintre",
+        "pierre de taille",
+        "souche de cheminée",
+        "travée",
+        "volet",
+        "mansarde",
+        "oculus",
+        "linteau",
+        "chambranle",
+        "jambage"
+      ],
+      "dateCapture": "2005:04:17"
+    },
+    {
+      "id_pic": "Bac-81_7_§2",
+      "IndexJantzen": [
+        "façade"
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:04:17"
+    },
+    {
+      "id_pic": "Bac-81_7_§4",
+      "IndexJantzen": [
+        "fenetre",
+        "sculpture"
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:04:17"
+    },
+    {
+      "id_pic": "Bac-81_7_§5",
+      "IndexJantzen": [
+        "fenetre",
+        "sculpture"
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:04:17"
+    },
+    {
+      "id_pic": "Bac-81_7_§6",
+      "IndexJantzen": [
+        "fenetre",
+        "garde-corps",
+        "sculpture"
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:04:17"
+    },
+    {
+      "id_pic": "Bac-81_7_§7",
+      "IndexJantzen": [
+        "fenetre",
+        "sculpture"
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:04:17"
+    }
+  ]
+}

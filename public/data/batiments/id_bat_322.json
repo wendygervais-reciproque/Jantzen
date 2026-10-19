@@ -1,0 +1,77 @@
+{
+  "id_bat": 322,
+  "libelle": "10 rue des Colonels-Renard",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": null,
+  "adresse": {
+    "affichage": "10 rue des Colonels-Renard",
+    "numero": "10",
+    "voie": "rue des Colonels-Renard"
+  },
+  "arrondissement": 17,
+  "tri_alphab": "Colonels-Renard",
+  "coordonnees": {
+    "latitude": "48.877907",
+    "longitude": "2.291417"
+  },
+  "id_pss": null,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": "Colonels-Renard-10_17_§1",
+  "terme_jantzen_bat": [
+    "sculpture",
+    "console",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bossage",
+    "chapiteau",
+    "corniche",
+    "fenêtre",
+    "frise",
+    "garde-corps",
+    "modillon",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porte-fenêtre",
+    "sculpture",
+    "travée",
+    "volet"
+  ],
+  "photos": [
+    {
+      "id_pic": "Colonels-Renard-10_17_§1",
+      "IndexJantzen": [
+        "console",
+        "fenetre",
+        "sculpture"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "garde-corps",
+        "corniche",
+        "modillon",
+        "arc en plein cintre",
+        "bossage",
+        "sculpture",
+        "frise",
+        "volet",
+        "porte-fenêtre",
+        "pierre de taille",
+        "chapiteau",
+        "pilastre",
+        "travée",
+        "oculus"
+      ],
+      "dateCapture": "2010:03:17"
+    }
+  ]
+}

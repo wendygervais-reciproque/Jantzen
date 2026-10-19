@@ -2,7 +2,12 @@
   "id_bat": 1024,
   "libelle": "15 rue des Ursins",
   "ensemble": null,
-  "personnes": null,
+  "personnes": [
+    {
+      "personneID": 16,
+      "role": "architecte"
+    }
+  ],
   "dateConstruction": null,
   "periode": [
     "1895-1914"
@@ -13,6 +18,7 @@
     "voie": "rue des Ursins"
   },
   "arrondissement": 4,
+  "tri_alphab": "Ursins",
   "coordonnees": {
     "latitude": "48.854471",
     "longitude": "2.350831"
@@ -24,12 +30,45 @@
   "terme_jantzen_bat": [
     "oriel"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "brique",
+    "corniche",
+    "faîtage",
+    "fenêtre",
+    "garde-corps",
+    "meneau",
+    "modillon",
+    "oriel",
+    "pierre de taille",
+    "sculpture",
+    "toit à deux versants",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Ursins-15_4_§1",
       "IndexJantzen": [
         "oriel"
-      ]
+      ],
+      "IndexTorneh": [
+        "oriel",
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "arc en plein cintre",
+        "corniche",
+        "modillon",
+        "sculpture",
+        "pierre de taille",
+        "brique",
+        "faîtage",
+        "toit à deux versants",
+        "meneau",
+        "vantail"
+      ],
+      "dateCapture": "2003:07:12"
     }
   ]
 }

@@ -4,8 +4,12 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 480,
+      "personneID": 641,
       "role": "architecte"
+    },
+    {
+      "personneID": 10138,
+      "role": "sculpteur"
     }
   ],
   "dateConstruction": "1854",
@@ -18,6 +22,7 @@
     "voie": "rue de la Paix"
   },
   "arrondissement": 2,
+  "tri_alphab": "Paix",
   "coordonnees": {
     "latitude": "48.868689",
     "longitude": "2.330452"
@@ -27,18 +32,57 @@
   "WPfr": null,
   "image_ref": "Paix-3_2_§1",
   "terme_jantzen_bat": [
-    "façade",
-    "fenetre",
     "sculpture",
     "cariatide",
+    "fenetre",
+    "façade",
     "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "atlante",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mascaron",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "toit à deux versants",
+    "vitrail",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Paix-3_2_§1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "lucarne",
+        "atlante",
+        "corniche",
+        "porte",
+        "pilastre",
+        "fronton",
+        "mascaron",
+        "bandeau",
+        "garde-corps",
+        "volet",
+        "toit à deux versants",
+        "ardoise",
+        "pierre de taille",
+        "vitrail"
+      ],
+      "dateCapture": "2004:09:11"
     },
     {
       "id_pic": "Paix-3_2_§2",
@@ -46,14 +90,18 @@
         "cariatide",
         "fenetre",
         "porte-bois"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:06:19"
     },
     {
       "id_pic": "Paix-3_2_§3",
       "IndexJantzen": [
         "cariatide",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:09:19"
     },
     {
       "id_pic": "Paix-3_2_§4",
@@ -61,21 +109,27 @@
         "cariatide",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:06:19"
     },
     {
       "id_pic": "Paix-3_2_§5",
       "IndexJantzen": [
         "cariatide",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:09:19"
     },
     {
       "id_pic": "Paix-3_2_§6",
       "IndexJantzen": [
         "cariatide",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:09:19"
     }
   ]
 }

@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 347,
+      "personneID": 481,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "avenue d'Eylau"
   },
   "arrondissement": 16,
+  "tri_alphab": "Eylau-av",
   "coordonnees": {
     "latitude": "48.863817",
     "longitude": "2.28549"
@@ -27,8 +28,22 @@
   "WPfr": null,
   "image_ref": "Eylau-av-9_16_§1",
   "terme_jantzen_bat": [
+    "toiture",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "arc en anse de panier",
+    "balcon",
+    "brique",
+    "chambranle",
+    "chéneau",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
     "lucarne",
-    "toiture"
+    "mansarde",
+    "pierre de taille",
+    "souche de cheminée"
   ],
   "photos": [
     {
@@ -36,7 +51,22 @@
       "IndexJantzen": [
         "lucarne",
         "toiture"
-      ]
+      ],
+      "IndexTorneh": [
+        "mansarde",
+        "souche de cheminée",
+        "lucarne",
+        "fenêtre",
+        "garde-corps",
+        "balcon",
+        "fer forgé",
+        "arc en anse de panier",
+        "chéneau",
+        "brique",
+        "pierre de taille",
+        "chambranle"
+      ],
+      "dateCapture": "2007:05:10"
     }
   ]
 }

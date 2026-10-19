@@ -4,7 +4,11 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 103,
+      "personneID": 166,
+      "role": "architecte"
+    },
+    {
+      "personneID": 586,
       "role": "architecte"
     }
   ],
@@ -18,6 +22,7 @@
     "voie": "boulevard Auguste-Blanqui"
   },
   "arrondissement": 13,
+  "tri_alphab": "Auguste-Blanqui",
   "coordonnees": {
     "latitude": "48.830268",
     "longitude": "2.347929"
@@ -29,24 +34,53 @@
   "terme_jantzen_bat": [
     "fenetre"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "oculus",
+    "pierre de taille",
+    "sculpture",
+    "travée",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Auguste-Blanqui-68_13_§1",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "travée",
+        "pierre de taille",
+        "oculus",
+        "fer forgé",
+        "volet",
+        "sculpture"
+      ],
+      "dateCapture": "2005:04:01"
     },
     {
       "id_pic": "Auguste-Blanqui-68_13_§2",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:04:01"
     },
     {
       "id_pic": "Auguste-Blanqui-68_13_§3",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:04:01"
     }
   ]
 }

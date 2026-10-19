@@ -4,8 +4,16 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 291,
+      "personneID": 419,
       "role": "architecte"
+    },
+    {
+      "personneID": 186,
+      "role": "architecte"
+    },
+    {
+      "personneID": 10108,
+      "role": "sculpteur"
     }
   ],
   "dateConstruction": "1902",
@@ -18,6 +26,7 @@
     "voie": "rue Eugène-Delacroix"
   },
   "arrondissement": 16,
+  "tri_alphab": "Eugene-Delacroix",
   "coordonnees": {
     "latitude": "48.862879",
     "longitude": "2.277873"
@@ -27,8 +36,21 @@
   "WPfr": null,
   "image_ref": "Eugene-Delacroix-10_16_§1",
   "terme_jantzen_bat": [
-    "console",
-    "sculpture"
+    "sculpture",
+    "console"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "balcon",
+    "balustrade",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "modillon",
+    "pierre de taille",
+    "sculpture",
+    "volet"
   ],
   "photos": [
     {
@@ -36,7 +58,21 @@
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "modillon",
+        "sculpture",
+        "arc",
+        "pierre de taille",
+        "fenêtre",
+        "volet",
+        "corniche"
+      ],
+      "dateCapture": "2005:06:07"
     }
   ]
 }

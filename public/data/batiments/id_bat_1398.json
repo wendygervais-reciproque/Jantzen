@@ -2,7 +2,20 @@
   "id_bat": 1398,
   "libelle": "198 rue de Tolbiac",
   "ensemble": null,
-  "personnes": null,
+  "personnes": [
+    {
+      "personneID": 505,
+      "role": "architecte"
+    },
+    {
+      "personneID": 280,
+      "role": "architecte"
+    },
+    {
+      "personneID": 10010,
+      "role": "sculpteur"
+    }
+  ],
   "dateConstruction": "1910",
   "periode": [
     "1895-1914"
@@ -13,6 +26,7 @@
     "voie": "rue de Tolbiac"
   },
   "arrondissement": 13,
+  "tri_alphab": "Tolbiac",
   "coordonnees": {
     "latitude": "48.825828",
     "longitude": "2.348817"
@@ -22,31 +36,76 @@
   "WPfr": null,
   "image_ref": "Tolbiac-198_13_§1",
   "terme_jantzen_bat": [
-    "façade",
-    "fenetre",
-    "décor",
     "sculpture",
-    "garde-corps"
+    "fenetre",
+    "façade",
+    "garde-corps",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "baie",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "chaîne d'angle",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "oriel",
+    "pierre de taille",
+    "porte",
+    "toit-terrasse",
+    "travée",
+    "vitrail",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Tolbiac-198_13_§1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [
+        "baie",
+        "balcon",
+        "balustrade",
+        "bandeau",
+        "chambranle",
+        "fenêtre",
+        "fer forgé",
+        "garde-corps",
+        "mascaron",
+        "pierre de taille",
+        "porte",
+        "travée",
+        "vitrail",
+        "volet",
+        "arc en plein cintre",
+        "chaîne d'angle",
+        "oriel",
+        "toit-terrasse"
+      ],
+      "dateCapture": "2005:04:01"
     },
     {
       "id_pic": "Tolbiac-198_13_§2",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:03:29"
     },
     {
       "id_pic": "Tolbiac-198_13_§3",
       "IndexJantzen": [
         "fenetre",
         "garde-corps"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:03:29"
     },
     {
       "id_pic": "Tolbiac-198_13_§4",
@@ -54,21 +113,27 @@
         "décor",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:04:01"
     },
     {
       "id_pic": "Tolbiac-198_13_§5",
       "IndexJantzen": [
         "fenetre",
         "garde-corps"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:04:01"
     },
     {
       "id_pic": "Tolbiac-198_13_§6",
       "IndexJantzen": [
         "fenetre",
         "garde-corps"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:04:01"
     }
   ]
 }

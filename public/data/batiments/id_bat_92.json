@@ -2,13 +2,27 @@
   "id_bat": 92,
   "libelle": "Hôpital de la Pitié Salpêtrière",
   "ensemble": null,
-  "personnes": null,
+  "personnes": [
+    {
+      "personneID": 108,
+      "role": "architecte"
+    },
+    {
+      "personneID": 10160,
+      "role": "sculpteur"
+    },
+    {
+      "personneID": 10135,
+      "role": "sculpteur"
+    }
+  ],
   "dateConstruction": "1658-1677, 1756",
   "periode": [
     "1660-1759"
   ],
   "adresse": null,
   "arrondissement": 13,
+  "tri_alphab": "Pitie-Salpetriere-Hopital",
   "coordonnees": {
     "latitude": "48.837",
     "longitude": "2.365"
@@ -16,20 +30,44 @@
   "id_pss": null,
   "id_wikidata": "Q939883",
   "WPfr": "Hôpital de la Salpêtrière",
-  "image_ref": "Pitie-Salpetriere-Hopital_13_§10",
+  "image_ref": "Pitie-Salpetriere-Hopital_13_§5-Rx",
   "terme_jantzen_bat": [
-    "porte",
+    "toiture",
+    "oeil-de-boeuf",
+    "dome",
+    "tourelle",
+    "sculpture",
+    "fenetre",
     "lucarne",
     "façade",
-    "toiture",
     "fronton",
+    "porte",
     "panoramique",
-    "oeil-de-boeuf",
-    "fenetre",
-    "dome",
-    "sculpture",
-    "tourelle",
     "colonne"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balustrade",
+    "chapiteau corinthien",
+    "colonne",
+    "corniche",
+    "dôme",
+    "entablement",
+    "fenêtre",
+    "fronton",
+    "lucarne",
+    "mansarde",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "portique",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -37,56 +75,74 @@
       "IndexJantzen": [
         "lucarne",
         "tourelle"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:07:11"
     },
     {
       "id_pic": "Pitie-Salpetriere-Hopital_13_§11",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:07:11"
     },
     {
       "id_pic": "Pitie-Salpetriere-Hopital_13_§12-Rx",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2012:05:26"
     },
     {
       "id_pic": "Pitie-Salpetriere-Hopital_13_§13-Rx",
       "IndexJantzen": [
         "façade",
         "porte"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2012:05:26"
     },
     {
       "id_pic": "Pitie-Salpetriere-Hopital_13_§14",
       "IndexJantzen": [
         "fronton"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:07:11"
     },
     {
       "id_pic": "Pitie-Salpetriere-Hopital_13_§15",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2012:05:26"
     },
     {
       "id_pic": "Pitie-Salpetriere-Hopital_13_§16",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2012:05:26"
     },
     {
       "id_pic": "Pitie-Salpetriere-Hopital_13_§17",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2012:05:26"
     },
     {
       "id_pic": "Pitie-Salpetriere-Hopital_13_§18-Rx",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2012:05:26"
     },
     {
       "id_pic": "Pitie-Salpetriere-Hopital_13_§1-Rx",
@@ -94,136 +150,199 @@
         "colonne",
         "façade",
         "porte"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2012:05:26"
     },
     {
       "id_pic": "Pitie-Salpetriere-Hopital_13_§2",
       "IndexJantzen": [
         "façade",
         "panoramique"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:07:11"
     },
     {
       "id_pic": "Pitie-Salpetriere-Hopital_13_§20-Rx",
       "IndexJantzen": [
         "façade",
         "porte"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2012:05:26"
     },
     {
       "id_pic": "Pitie-Salpetriere-Hopital_13_§21",
       "IndexJantzen": [
         "fronton",
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:07:11"
     },
     {
       "id_pic": "Pitie-Salpetriere-Hopital_13_§22",
       "IndexJantzen": [
         "lucarne",
         "oeil-de-boeuf"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2012:05:26"
     },
     {
       "id_pic": "Pitie-Salpetriere-Hopital_13_§23",
       "IndexJantzen": [
         "lucarne",
         "oeil-de-boeuf"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:07:11"
     },
     {
       "id_pic": "Pitie-Salpetriere-Hopital_13_§24-Rx",
       "IndexJantzen": [
         "fenetre",
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2012:05:26"
     },
     {
       "id_pic": "Pitie-Salpetriere-Hopital_13_§25-Rx",
       "IndexJantzen": [
         "fenetre",
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2012:05:26"
     },
     {
       "id_pic": "Pitie-Salpetriere-Hopital_13_§26-Rx",
       "IndexJantzen": [
         "fenetre",
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2012:05:26"
     },
     {
       "id_pic": "Pitie-Salpetriere-Hopital_13_§27-Rx",
       "IndexJantzen": [
         "fenetre",
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2012:05:26"
     },
     {
       "id_pic": "Pitie-Salpetriere-Hopital_13_§28-Rx",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2012:05:26"
     },
     {
       "id_pic": "Pitie-Salpetriere-Hopital_13_§29",
       "IndexJantzen": [
         "dome",
         "toiture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:04:22"
     },
     {
       "id_pic": "Pitie-Salpetriere-Hopital_13_§3",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:07:11"
     },
     {
       "id_pic": "Pitie-Salpetriere-Hopital_13_§30",
       "IndexJantzen": [
         "dome",
         "toiture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:04:22"
     },
     {
       "id_pic": "Pitie-Salpetriere-Hopital_13_§31",
       "IndexJantzen": [
         "dome"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:04:22"
     },
     {
       "id_pic": "Pitie-Salpetriere-Hopital_13_§4-Rx",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2012:05:26"
     },
     {
       "id_pic": "Pitie-Salpetriere-Hopital_13_§5-Rx",
       "IndexJantzen": [
         "dome",
         "façade"
-      ]
+      ],
+      "IndexTorneh": [
+        "dôme",
+        "arc en plein cintre",
+        "colonne",
+        "pilastre",
+        "chapiteau corinthien",
+        "fronton",
+        "corniche",
+        "entablement",
+        "fenêtre",
+        "lucarne",
+        "souche de cheminée",
+        "ardoise",
+        "pierre de taille",
+        "portique",
+        "sculpture",
+        "oculus",
+        "porte",
+        "toit à deux versants",
+        "balustrade",
+        "épi de faîtage",
+        "travée",
+        "mansarde"
+      ],
+      "dateCapture": "2012:05:26"
     },
     {
       "id_pic": "Pitie-Salpetriere-Hopital_13_§7-Rx",
       "IndexJantzen": [
         "dome",
         "façade"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2012:05:26"
     },
     {
       "id_pic": "Pitie-Salpetriere-Hopital_13_§8-Rx",
       "IndexJantzen": [
         "dome",
         "façade"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2012:05:26"
     },
     {
       "id_pic": "Pitie-Salpetriere-Hopital_13_§9",
       "IndexJantzen": [
         "dome",
         "toiture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:07:11"
     }
   ]
 }

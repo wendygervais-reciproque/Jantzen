@@ -4,7 +4,11 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 533,
+      "personneID": 373,
+      "role": "architecte"
+    },
+    {
+      "personneID": 180,
       "role": "architecte"
     }
   ],
@@ -18,6 +22,7 @@
     "voie": "rue La Fayette"
   },
   "arrondissement": 9,
+  "tri_alphab": "La-Fayette",
   "coordonnees": {
     "latitude": "48.873694",
     "longitude": "2.335995"
@@ -27,16 +32,41 @@
   "WPfr": null,
   "image_ref": "La-Fayette-20_9_§1",
   "terme_jantzen_bat": [
-    "porte",
-    "lucarne",
-    "façade-d'angle",
-    "lucarne-d'angle",
-    "porte-fer",
-    "fenetre",
     "oeil-de-boeuf",
-    "fenetre-d'angle",
     "balcon",
+    "façade-d'angle",
+    "porte-fer",
+    "fenetre-d'angle",
+    "fenetre",
+    "lucarne",
+    "porte",
+    "lucarne-d'angle",
     "colonne"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "arcade",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "colonne",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "portail",
+    "porte",
+    "sculpture",
+    "travée"
   ],
   "photos": [
     {
@@ -44,110 +74,168 @@
       "IndexJantzen": [
         "façade-d'angle",
         "porte"
-      ]
+      ],
+      "IndexTorneh": [
+        "mansarde",
+        "lucarne",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "porte",
+        "arc en plein cintre",
+        "arc",
+        "colonne",
+        "pilastre",
+        "corniche",
+        "bandeau",
+        "fronton",
+        "mascaron",
+        "sculpture",
+        "fer forgé",
+        "pierre de taille",
+        "oculus",
+        "portail",
+        "travée",
+        "ardoise",
+        "arcade"
+      ],
+      "dateCapture": "2008:08:19"
     },
     {
       "id_pic": "La-Fayette-20_9_§10",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:04:17"
     },
     {
       "id_pic": "La-Fayette-20_9_§11",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:04:17"
     },
     {
       "id_pic": "La-Fayette-20_9_§12",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:05:26"
     },
     {
       "id_pic": "La-Fayette-20_9_§13",
       "IndexJantzen": [
         "colonne",
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:05:26"
     },
     {
       "id_pic": "La-Fayette-20_9_§14",
       "IndexJantzen": [
         "colonne",
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:04:17"
     },
     {
       "id_pic": "La-Fayette-20_9_§15",
       "IndexJantzen": [
         "porte-fer"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:06:23"
     },
     {
       "id_pic": "La-Fayette-20_9_§16",
       "IndexJantzen": [
         "balcon",
         "porte-fer"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:06:23"
     },
     {
       "id_pic": "La-Fayette-20_9_§17",
       "IndexJantzen": [
         "porte-fer"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:08:06"
     },
     {
       "id_pic": "La-Fayette-20_9_§18",
       "IndexJantzen": [
         "balcon",
         "porte-fer"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:08:19"
     },
     {
       "id_pic": "La-Fayette-20_9_§2",
       "IndexJantzen": [
         "façade-d'angle",
         "porte"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:05:26"
     },
     {
       "id_pic": "La-Fayette-20_9_§3",
       "IndexJantzen": [
         "fenetre-d'angle"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:05:25"
     },
     {
       "id_pic": "La-Fayette-20_9_§5",
       "IndexJantzen": [
         "fenetre-d'angle"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:03:12"
     },
     {
       "id_pic": "La-Fayette-20_9_§6",
       "IndexJantzen": [
         "lucarne-d'angle"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:03:12"
     },
     {
       "id_pic": "La-Fayette-20_9_§7",
       "IndexJantzen": [
         "fenetre-d'angle"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:05:25"
     },
     {
       "id_pic": "La-Fayette-20_9_§8",
       "IndexJantzen": [
         "lucarne-d'angle",
         "oeil-de-boeuf"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:05:25"
     },
     {
       "id_pic": "La-Fayette-20_9_§9",
       "IndexJantzen": [
         "lucarne-d'angle",
         "oeil-de-boeuf"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:05:25"
     }
   ]
 }

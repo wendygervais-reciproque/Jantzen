@@ -1,0 +1,132 @@
+{
+  "id_bat": 3002,
+  "libelle": "54 rue Eugène-Carrière",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": null,
+  "adresse": {
+    "affichage": "54 rue Eugène-Carrière",
+    "numero": "54",
+    "voie": "rue Eugène-Carrière"
+  },
+  "arrondissement": 18,
+  "tri_alphab": "Eugene-Carriere",
+  "coordonnees": {
+    "latitude": "48.892239",
+    "longitude": "2.333681"
+  },
+  "id_pss": null,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": "Eugene-Carriere-54_18_§1",
+  "terme_jantzen_bat": [
+    "oriel",
+    "console",
+    "fenetre",
+    "brique",
+    "façade",
+    "métal",
+    "céramique",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "chéneau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "linteau",
+    "lucarne",
+    "mansarde",
+    "oriel",
+    "pierre de taille",
+    "souche de cheminée",
+    "volet"
+  ],
+  "photos": [
+    {
+      "id_pic": "Eugene-Carriere-54_18_§1",
+      "IndexJantzen": [
+        "brique",
+        "fenetre",
+        "oriel"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "brique",
+        "oriel",
+        "mansarde",
+        "lucarne",
+        "corniche",
+        "volet",
+        "fer forgé",
+        "pierre de taille",
+        "bandeau",
+        "chéneau",
+        "souche de cheminée",
+        "arc en plein cintre",
+        "linteau"
+      ],
+      "dateCapture": "2006:06:09"
+    },
+    {
+      "id_pic": "Eugene-Carriere-54_18_§2",
+      "IndexJantzen": [
+        "brique",
+        "façade"
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:05:19"
+    },
+    {
+      "id_pic": "Eugene-Carriere-54_18_§3",
+      "IndexJantzen": [
+        "brique",
+        "céramique",
+        "oriel"
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:06:09"
+    },
+    {
+      "id_pic": "Eugene-Carriere-54_18_§4",
+      "IndexJantzen": [
+        "brique",
+        "céramique",
+        "oriel"
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:06:09"
+    },
+    {
+      "id_pic": "Eugene-Carriere-54_18_§5",
+      "IndexJantzen": [
+        "brique",
+        "console",
+        "céramique",
+        "métal"
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:07:27"
+    },
+    {
+      "id_pic": "Eugene-Carriere-54_18_§6",
+      "IndexJantzen": [
+        "brique",
+        "décor",
+        "fenetre"
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:07:27"
+    }
+  ]
+}

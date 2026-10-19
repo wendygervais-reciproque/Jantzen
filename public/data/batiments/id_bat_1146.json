@@ -1,0 +1,69 @@
+{
+  "id_bat": 1146,
+  "libelle": "16 rue Jacques-Bingen",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": null,
+  "adresse": {
+    "affichage": "16 rue Jacques-Bingen",
+    "numero": "16",
+    "voie": "rue Jacques-Bingen"
+  },
+  "arrondissement": 17,
+  "tri_alphab": "Jacques-Bingen",
+  "coordonnees": {
+    "latitude": "48.883147",
+    "longitude": "2.312031"
+  },
+  "id_pss": null,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": "Jacques-Bingen-16_17_§1",
+  "terme_jantzen_bat": [
+    "verrière",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "modillon",
+    "mur-boutant",
+    "pilastre",
+    "souche de cheminée",
+    "verrière",
+    "volet"
+  ],
+  "photos": [
+    {
+      "id_pic": "Jacques-Bingen-16_17_§1",
+      "IndexJantzen": [
+        "fenetre",
+        "verrière"
+      ],
+      "IndexTorneh": [
+        "lucarne",
+        "mansarde",
+        "fenêtre",
+        "corniche",
+        "pilastre",
+        "ardoise",
+        "souche de cheminée",
+        "balcon",
+        "garde-corps",
+        "volet",
+        "verrière",
+        "mur-boutant",
+        "bandeau",
+        "modillon"
+      ],
+      "dateCapture": "2007:08:25"
+    }
+  ]
+}

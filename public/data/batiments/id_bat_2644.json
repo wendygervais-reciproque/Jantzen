@@ -1,0 +1,101 @@
+{
+  "id_bat": 2644,
+  "libelle": "43 boulevard Lannes",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": null,
+  "adresse": {
+    "affichage": "43 boulevard Lannes",
+    "numero": "43",
+    "voie": "boulevard Lannes"
+  },
+  "arrondissement": 16,
+  "tri_alphab": "Lannes",
+  "coordonnees": {
+    "latitude": "48.866173",
+    "longitude": "2.271469"
+  },
+  "id_pss": null,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": "Lannes-43_16_§1",
+  "terme_jantzen_bat": [
+    "façade",
+    "sculpture",
+    "fenetre",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "arc en anse de panier",
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "grille",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "oriel",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "sculpture",
+    "souche de cheminée"
+  ],
+  "photos": [
+    {
+      "id_pic": "Lannes-43_16_§1",
+      "IndexJantzen": [
+        "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "mascaron",
+        "lucarne",
+        "mansarde",
+        "fer forgé",
+        "bandeau",
+        "corniche",
+        "pierre de taille",
+        "souche de cheminée",
+        "oriel",
+        "sculpture",
+        "porte",
+        "grille",
+        "oculus",
+        "arc en anse de panier",
+        "arc en plein cintre",
+        "pilastre"
+      ],
+      "dateCapture": "2004:03:16"
+    },
+    {
+      "id_pic": "Lannes-43_16_§2",
+      "IndexJantzen": [
+        "fenetre",
+        "lucarne",
+        "sculpture"
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:03:17"
+    },
+    {
+      "id_pic": "Lannes-43_16_§3",
+      "IndexJantzen": [
+        "fenetre",
+        "lucarne"
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:03:16"
+    }
+  ]
+}

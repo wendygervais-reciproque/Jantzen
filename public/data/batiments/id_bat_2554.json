@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 697,
+      "personneID": 948,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "avenue de Flandre"
   },
   "arrondissement": 19,
+  "tri_alphab": "Flandre",
   "coordonnees": {
     "latitude": "48.886743",
     "longitude": "2.372358"
@@ -27,18 +28,69 @@
   "WPfr": null,
   "image_ref": "Flandre-40_19_§1",
   "terme_jantzen_bat": [
-    "façade",
-    "fenetre",
-    "décor",
     "sculpture",
-    "console"
+    "console",
+    "fenetre",
+    "façade",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "vitrail",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Flandre-40_19_§1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "mansarde",
+        "lucarne",
+        "corniche",
+        "pilastre",
+        "fronton",
+        "arc en plein cintre",
+        "arc",
+        "chambranle",
+        "souche de cheminée",
+        "mascaron",
+        "sculpture",
+        "porte",
+        "vitrail",
+        "pierre de taille",
+        "volet",
+        "bandeau",
+        "travée",
+        "toit à deux versants",
+        "ardoise"
+      ],
+      "dateCapture": "2005:08:02"
     },
     {
       "id_pic": "Flandre-40_19_§2",
@@ -46,14 +98,18 @@
         "décor",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:08:02"
     },
     {
       "id_pic": "Flandre-40_19_§3",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:08:02"
     }
   ]
 }

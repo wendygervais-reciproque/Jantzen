@@ -13,6 +13,7 @@
     "voie": "rue Montmartre"
   },
   "arrondissement": 2,
+  "tri_alphab": "Montmartre",
   "coordonnees": {
     "latitude": "48.868513",
     "longitude": "2.343581"
@@ -22,10 +23,27 @@
   "WPfr": null,
   "image_ref": "Montmartre-136_2_§2",
   "terme_jantzen_bat": [
-    "fenetre",
+    "façade",
     "sculpture",
-    "décor",
-    "façade"
+    "fenetre",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "sculpture",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -33,52 +51,84 @@
       "IndexJantzen": [
         "décor",
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "corniche",
+        "bandeau",
+        "travée",
+        "sculpture",
+        "mascaron",
+        "pilastre",
+        "fronton",
+        "ardoise",
+        "oculus",
+        "volet",
+        "pierre de taille"
+      ],
+      "dateCapture": "2007:07:25"
     },
     {
       "id_pic": "Montmartre-136_2_§3",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:05:15"
     },
     {
       "id_pic": "Montmartre-136_2_§4",
       "IndexJantzen": [
         "décor",
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:05:15"
     },
     {
       "id_pic": "Montmartre-136_2_§5",
       "IndexJantzen": [
         "décor",
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:05:15"
     },
     {
       "id_pic": "Montmartre-136_2_§6",
       "IndexJantzen": [
         "décor",
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:04:25"
     },
     {
       "id_pic": "Montmartre-136_2_§7",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:07:25"
     },
     {
       "id_pic": "Montmartre-136_2_§8",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:07:25"
     },
     {
       "id_pic": "Montmartre-136_2_§9",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:07:25"
     }
   ]
 }

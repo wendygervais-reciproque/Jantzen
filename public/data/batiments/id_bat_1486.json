@@ -1,0 +1,127 @@
+{
+  "id_bat": 1486,
+  "libelle": "2 rue du Gril",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 557,
+      "role": "architecte"
+    },
+    {
+      "personneID": 133,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1929",
+  "periode": [
+    "1915-1944"
+  ],
+  "adresse": {
+    "affichage": "2 rue du Gril",
+    "numero": "2",
+    "voie": "rue du Gril"
+  },
+  "arrondissement": 5,
+  "tri_alphab": "Grill",
+  "coordonnees": {
+    "latitude": "48.841132",
+    "longitude": "2.354879"
+  },
+  "id_pss": null,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": "Grill-2_5_20_§1",
+  "terme_jantzen_bat": [
+    "fenetre-d'angle",
+    "lucarne",
+    "brique",
+    "façade",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "avant-corps",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "oculus",
+    "oriel",
+    "pierre de taille",
+    "souche de cheminée",
+    "toit-terrasse",
+    "travée"
+  ],
+  "photos": [
+    {
+      "id_pic": "Grill-2_5_20_§1",
+      "IndexJantzen": [
+        "brique",
+        "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "balustrade",
+        "bandeau",
+        "avant-corps",
+        "travée",
+        "oriel",
+        "brique",
+        "pierre de taille",
+        "souche de cheminée",
+        "corniche",
+        "fer forgé",
+        "toit-terrasse",
+        "oculus"
+      ],
+      "dateCapture": "2010:05:23"
+    },
+    {
+      "id_pic": "Grill-2_5_20_§2",
+      "IndexJantzen": [
+        "fenetre-d'angle"
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2010:05:23"
+    },
+    {
+      "id_pic": "Grill-2_5_20_§3",
+      "IndexJantzen": [
+        "fenetre-d'angle"
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2010:05:23"
+    },
+    {
+      "id_pic": "Grill-2_5_20_§4",
+      "IndexJantzen": [
+        "fenetre-d'angle"
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:06:08"
+    },
+    {
+      "id_pic": "Grill-2_5_20_§5",
+      "IndexJantzen": [
+        "décor",
+        "fenetre-d'angle",
+        "lucarne"
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:06:08"
+    },
+    {
+      "id_pic": "Grill-2_5_20_§6",
+      "IndexJantzen": [
+        "fenetre-d'angle"
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:06:08"
+    }
+  ]
+}

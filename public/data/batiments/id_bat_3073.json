@@ -4,8 +4,12 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 124,
+      "personneID": 591,
       "role": "architecte"
+    },
+    {
+      "personneID": 10063,
+      "role": "sculpteur"
     }
   ],
   "dateConstruction": "1911",
@@ -18,6 +22,7 @@
     "voie": "avenue Raymond-Poincaré"
   },
   "arrondissement": 16,
+  "tri_alphab": "Raymond-Poincarre",
   "coordonnees": {
     "latitude": "48.867427",
     "longitude": "2.285735"
@@ -27,41 +32,102 @@
   "WPfr": null,
   "image_ref": "Raymond-Poincarre-59_16_§1",
   "terme_jantzen_bat": [
+    "toiture",
+    "sculpture",
+    "console",
+    "fenetre",
     "lucarne",
     "façade",
-    "toiture",
-    "fenetre",
-    "décor",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "chaîne d'angle",
+    "faîtage",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "grille",
+    "lucarne",
+    "mansarde",
+    "oculus",
+    "pierre de taille",
+    "porche",
+    "portail",
+    "porte-fenêtre",
     "sculpture",
-    "console"
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "vantail",
+    "volet",
+    "épi de faîtage"
   ],
   "photos": [
     {
       "id_pic": "Raymond-Poincarre-59_16_§1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [
+        "lucarne",
+        "mansarde",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "porte-fenêtre",
+        "arc",
+        "arc en plein cintre",
+        "oculus",
+        "sculpture",
+        "pierre de taille",
+        "ardoise",
+        "toit à deux versants",
+        "souche de cheminée",
+        "épi de faîtage",
+        "faîtage",
+        "porche",
+        "portail",
+        "fer forgé",
+        "chaîne d'angle",
+        "travée",
+        "vantail",
+        "volet",
+        "grille"
+      ],
+      "dateCapture": "2008:05:08"
     },
     {
       "id_pic": "Raymond-Poincarre-59_16_§10",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:05:08"
     },
     {
       "id_pic": "Raymond-Poincarre-59_16_§11",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:05:08"
     },
     {
       "id_pic": "Raymond-Poincarre-59_16_§2",
       "IndexJantzen": [
         "fenetre",
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:05:08"
     },
     {
       "id_pic": "Raymond-Poincarre-59_16_§3",
@@ -70,25 +136,33 @@
         "lucarne",
         "sculpture",
         "toiture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:05:08"
     },
     {
       "id_pic": "Raymond-Poincarre-59_16_§5",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:05:08"
     },
     {
       "id_pic": "Raymond-Poincarre-59_16_§6",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:05:08"
     },
     {
       "id_pic": "Raymond-Poincarre-59_16_§7",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:05:08"
     },
     {
       "id_pic": "Raymond-Poincarre-59_16_§9",
@@ -96,7 +170,9 @@
         "décor",
         "lucarne",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:05:08"
     }
   ]
 }

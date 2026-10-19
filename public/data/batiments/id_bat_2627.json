@@ -2,7 +2,12 @@
   "id_bat": 2627,
   "libelle": "42 rue du Louvre",
   "ensemble": null,
-  "personnes": null,
+  "personnes": [
+    {
+      "personneID": 99,
+      "role": "architecte"
+    }
+  ],
   "dateConstruction": null,
   "periode": [
     "1870-1894"
@@ -13,6 +18,7 @@
     "voie": "rue du Louvre"
   },
   "arrondissement": 1,
+  "tri_alphab": "Louvre-rue",
   "coordonnees": {
     "latitude": "48.863313",
     "longitude": "2.342214"
@@ -24,12 +30,57 @@
   "terme_jantzen_bat": [
     "façade-d'angle"
   ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chapiteau",
+    "colonne",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Louvre-rue-42_1_§1",
       "IndexJantzen": [
         "façade-d'angle"
-      ]
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "bandeau",
+        "chapiteau",
+        "colonne",
+        "corniche",
+        "fenêtre",
+        "fronton",
+        "garde-corps",
+        "lucarne",
+        "mansarde",
+        "pierre de taille",
+        "souche de cheminée",
+        "toit à deux versants",
+        "volet",
+        "pilastre",
+        "fer forgé",
+        "ardoise",
+        "travée",
+        "oculus"
+      ],
+      "dateCapture": "2004:09:01"
     }
   ]
 }

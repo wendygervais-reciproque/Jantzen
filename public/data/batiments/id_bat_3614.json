@@ -4,8 +4,12 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 142,
+      "personneID": 576,
       "role": "architecte"
+    },
+    {
+      "personneID": 10021,
+      "role": "sculpteur"
     }
   ],
   "dateConstruction": null,
@@ -18,6 +22,7 @@
     "voie": "rue de Cadix"
   },
   "arrondissement": 15,
+  "tri_alphab": "Cadix",
   "coordonnees": {
     "latitude": "48.834189",
     "longitude": "2.288882"
@@ -27,10 +32,21 @@
   "WPfr": null,
   "image_ref": "Cadix-8_15_2",
   "terme_jantzen_bat": [
-    "clé",
+    "colonne",
     "sculpture",
-    "console",
-    "colonne"
+    "clé",
+    "console"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "chapiteau",
+    "fenêtre",
+    "garde-corps",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "sculpture"
   ],
   "photos": [
     {
@@ -40,7 +56,19 @@
         "colonne",
         "console",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "porte",
+        "sculpture",
+        "pierre de taille",
+        "pilastre",
+        "chapiteau",
+        "balustrade"
+      ],
+      "dateCapture": "2006:09:09"
     }
   ]
 }

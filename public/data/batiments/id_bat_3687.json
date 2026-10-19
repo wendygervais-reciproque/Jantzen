@@ -13,6 +13,7 @@
     "voie": "rue de la Victoire"
   },
   "arrondissement": 9,
+  "tri_alphab": "Victoire",
   "coordonnees": {
     "latitude": "48.87519",
     "longitude": "2.331742"
@@ -22,9 +23,24 @@
   "WPfr": null,
   "image_ref": "Victoire-82_9_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "oeil-de-boeuf",
+    "sculpture",
     "console",
+    "fenetre",
+    "oeil-de-boeuf"
+  ],
+  "terme_torneh_bat": [
+    "avant-corps",
+    "balcon",
+    "balustrade",
+    "bossage",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "modillon",
+    "oculus",
+    "oriel",
+    "pierre de taille",
     "sculpture"
   ],
   "photos": [
@@ -34,21 +50,41 @@
         "console",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "garde-corps",
+        "fer forgé",
+        "oculus",
+        "sculpture",
+        "mascaron",
+        "modillon",
+        "pierre de taille",
+        "avant-corps",
+        "bossage",
+        "oriel"
+      ],
+      "dateCapture": "2005:05:26"
     },
     {
       "id_pic": "Victoire-82_9_§2",
       "IndexJantzen": [
         "console",
         "oeil-de-boeuf"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:05:26"
     },
     {
       "id_pic": "Victoire-82_9_§3",
       "IndexJantzen": [
         "console",
         "oeil-de-boeuf"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:07:14"
     }
   ]
 }

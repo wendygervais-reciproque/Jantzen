@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 608,
+      "personneID": 800,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "avenue Mozart"
   },
   "arrondissement": 16,
+  "tri_alphab": "Mozart",
   "coordonnees": {
     "latitude": "48.849829",
     "longitude": "2.266877"
@@ -30,20 +31,67 @@
     "fenetre",
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "arcade",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "chéneau",
+    "colonne",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "sculpture",
+    "souche de cheminée",
+    "travée",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Mozart-125_16_§1",
       "IndexJantzen": [
         "fenetre",
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [
+        "lucarne",
+        "mansarde",
+        "ardoise",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "arc en plein cintre",
+        "arcade",
+        "fenêtre",
+        "volet",
+        "souche de cheminée",
+        "corniche",
+        "pierre de taille",
+        "sculpture",
+        "colonne",
+        "pilastre",
+        "oculus",
+        "chéneau",
+        "travée"
+      ],
+      "dateCapture": "2010:05:23"
     },
     {
       "id_pic": "Mozart-125_16_§2",
       "IndexJantzen": [
         "fenetre",
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2009:03:31"
     }
   ]
 }

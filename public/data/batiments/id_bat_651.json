@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 635,
+      "personneID": 846,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue des Écoles"
   },
   "arrondissement": 5,
+  "tri_alphab": "Ecoles",
   "coordonnees": {
     "latitude": "48.848425",
     "longitude": "2.34962"
@@ -30,13 +31,40 @@
     "fenetre",
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "chambranle",
+    "fer forgé",
+    "garde-corps",
+    "jambage",
+    "pierre de taille",
+    "porte",
+    "porte-fenêtre",
+    "vantail",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Ecoles-12_5_§1",
       "IndexJantzen": [
         "fenetre",
         "porte-bois"
-      ]
+      ],
+      "IndexTorneh": [
+        "arc en plein cintre",
+        "porte",
+        "porte-fenêtre",
+        "garde-corps",
+        "fer forgé",
+        "balcon",
+        "volet",
+        "vantail",
+        "jambage",
+        "pierre de taille",
+        "chambranle"
+      ],
+      "dateCapture": "2003:08:09"
     }
   ]
 }

@@ -2,7 +2,12 @@
   "id_bat": 3301,
   "libelle": "66 rue Falguière",
   "ensemble": null,
-  "personnes": null,
+  "personnes": [
+    {
+      "personneID": 83,
+      "role": "architecte"
+    }
+  ],
   "dateConstruction": null,
   "periode": [
     "1895-1914"
@@ -13,6 +18,7 @@
     "voie": "rue Falguière"
   },
   "arrondissement": 15,
+  "tri_alphab": "Falguiere",
   "coordonnees": {
     "latitude": "48.840784",
     "longitude": "2.313064"
@@ -22,15 +28,35 @@
   "WPfr": null,
   "image_ref": "Falguiere-66_15_§1",
   "terme_jantzen_bat": [
-    "lucarne",
-    "façade-d'angle",
     "toiture",
-    "lucarne-d'angle",
+    "mosaique",
+    "façade-d'angle",
     "porte-fer",
-    "brique",
-    "décor",
     "fenetre-d'angle",
-    "mosaique"
+    "lucarne",
+    "brique",
+    "lucarne-d'angle",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "corniche",
+    "céramique",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "oriel",
+    "portail",
+    "porte",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée"
   ],
   "photos": [
     {
@@ -38,7 +64,28 @@
       "IndexJantzen": [
         "brique",
         "façade-d'angle"
-      ]
+      ],
+      "IndexTorneh": [
+        "brique",
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "lucarne",
+        "souche de cheminée",
+        "toit à deux versants",
+        "garde-corps",
+        "porte",
+        "oriel",
+        "bandeau",
+        "corniche",
+        "mansarde",
+        "céramique",
+        "ardoise",
+        "travée",
+        "fer forgé",
+        "portail"
+      ],
+      "dateCapture": "2004:03:29"
     },
     {
       "id_pic": "Falguiere-66_15_§2",
@@ -46,7 +93,9 @@
         "brique",
         "décor",
         "fenetre-d'angle"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:03:29"
     },
     {
       "id_pic": "Falguiere-66_15_§4",
@@ -54,7 +103,9 @@
         "brique",
         "lucarne-d'angle",
         "toiture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:10:15"
     },
     {
       "id_pic": "Falguiere-66_15_§5",
@@ -62,28 +113,36 @@
         "brique",
         "décor",
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:10:15"
     },
     {
       "id_pic": "Falguiere-66_15_§6",
       "IndexJantzen": [
         "mosaique",
         "porte-fer"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:04:21"
     },
     {
       "id_pic": "Falguiere-66_15_§7",
       "IndexJantzen": [
         "mosaique",
         "porte-fer"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:10:11"
     },
     {
       "id_pic": "Falguiere-66_15_§8",
       "IndexJantzen": [
         "décor",
         "mosaique"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:10:11"
     }
   ]
 }

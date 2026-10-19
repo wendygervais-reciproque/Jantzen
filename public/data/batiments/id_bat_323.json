@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 75,
+      "personneID": 117,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue des Halles"
   },
   "arrondissement": 1,
+  "tri_alphab": "Halles",
   "coordonnees": {
     "latitude": "48.859738",
     "longitude": "2.346915"
@@ -30,24 +31,75 @@
     "fenetre",
     "lucarne"
   ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fer",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Halles-10_1_§1",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "mansarde",
+        "lucarne",
+        "fronton",
+        "corniche",
+        "bandeau",
+        "souche de cheminée",
+        "ardoise",
+        "pierre de taille",
+        "volet",
+        "fer forgé",
+        "dôme",
+        "oculus",
+        "sculpture",
+        "mascaron",
+        "fer",
+        "travée",
+        "toit à deux versants"
+      ],
+      "dateCapture": "2005:08:28"
     },
     {
       "id_pic": "Halles-10_1_§2",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:09:01"
     },
     {
       "id_pic": "Halles-10_1_§3",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:08:28"
     }
   ]
 }

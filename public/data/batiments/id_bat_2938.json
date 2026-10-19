@@ -1,10 +1,14 @@
 {
   "id_bat": 2938,
-  "libelle": "51 rue du Faubourg-Poissonnière",
+  "libelle": "51 rue du Faubourg Poissonnière",
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 37,
+      "personneID": 27,
+      "role": "architecte"
+    },
+    {
+      "personneID": 223,
       "role": "architecte"
     }
   ],
@@ -13,11 +17,12 @@
     "1895-1914"
   ],
   "adresse": {
-    "affichage": "51 rue du Faubourg-Poissonnière",
+    "affichage": "51 rue du Faubourg Poissonnière",
     "numero": "51",
-    "voie": "rue du Faubourg-Poissonnière"
+    "voie": "rue du Faubourg Poissonnière"
   },
   "arrondissement": 9,
+  "tri_alphab": "Faubourg-Poissonniere",
   "coordonnees": {
     "latitude": "48.874467",
     "longitude": "2.347889"
@@ -27,11 +32,32 @@
   "WPfr": null,
   "image_ref": "Faubourg-Poissonniere-51_9_§1",
   "terme_jantzen_bat": [
-    "façade",
-    "métal",
-    "brique",
+    "oriel",
     "fenetre",
-    "oriel"
+    "brique",
+    "métal",
+    "façade"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "corniche",
+    "céramique",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "oculus",
+    "oriel",
+    "pilastre",
+    "porte",
+    "travée",
+    "verrière",
+    "volet"
   ],
   "photos": [
     {
@@ -39,14 +65,38 @@
       "IndexJantzen": [
         "brique",
         "façade"
-      ]
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "lucarne",
+        "mansarde",
+        "brique",
+        "céramique",
+        "oriel",
+        "fer forgé",
+        "verrière",
+        "porte",
+        "volet",
+        "travée",
+        "corniche",
+        "arc en plein cintre",
+        "pilastre",
+        "bandeau",
+        "oculus"
+      ],
+      "dateCapture": "2005:05:26"
     },
     {
       "id_pic": "Faubourg-Poissonniere-51_9_§2",
       "IndexJantzen": [
         "brique",
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:09:04"
     },
     {
       "id_pic": "Faubourg-Poissonniere-51_9_§3",
@@ -54,14 +104,18 @@
         "brique",
         "métal",
         "oriel"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:09:04"
     },
     {
       "id_pic": "Faubourg-Poissonniere-51_9_§4",
       "IndexJantzen": [
         "brique",
         "oriel"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:05:26"
     }
   ]
 }

@@ -4,13 +4,13 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 607,
+      "personneID": 86,
       "role": "architecte"
     }
   ],
-  "dateConstruction": "1892-1896",
+  "dateConstruction": "1912",
   "periode": [
-    "1870-1894"
+    "1895-1914"
   ],
   "adresse": {
     "affichage": "14 rue Perrée",
@@ -18,6 +18,7 @@
     "voie": "rue Perrée"
   },
   "arrondissement": 3,
+  "tri_alphab": "Perree",
   "coordonnees": {
     "latitude": "48.864824",
     "longitude": "2.361186"
@@ -27,11 +28,27 @@
   "WPfr": null,
   "image_ref": "Perree-14_3_§1",
   "terme_jantzen_bat": [
-    "façade",
     "porte-fer",
+    "fenetre-d'angle",
     "fenetre",
-    "décor",
-    "fenetre-d'angle"
+    "façade",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "baie",
+    "bandeau",
+    "brique",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "grille",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "vantail"
   ],
   "photos": [
     {
@@ -40,20 +57,41 @@
         "façade",
         "fenetre",
         "porte-fer"
-      ]
+      ],
+      "IndexTorneh": [
+        "brique",
+        "pierre de taille",
+        "arc",
+        "sculpture",
+        "fronton",
+        "fenêtre",
+        "porte",
+        "fer forgé",
+        "vantail",
+        "chaîne d'angle",
+        "baie",
+        "grille",
+        "bandeau",
+        "corniche"
+      ],
+      "dateCapture": "2006:04:22"
     },
     {
       "id_pic": "Perree-14_3_§2",
       "IndexJantzen": [
         "fenetre-d'angle"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:09:01"
     },
     {
       "id_pic": "Perree-14_3_§3",
       "IndexJantzen": [
         "décor",
         "fenetre-d'angle"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:04:22"
     }
   ]
 }

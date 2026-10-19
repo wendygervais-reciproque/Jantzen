@@ -13,6 +13,7 @@
     "voie": "rue François-Miron"
   },
   "arrondissement": 4,
+  "tri_alphab": "Francois-Miron",
   "coordonnees": {
     "latitude": "48.855423",
     "longitude": "2.358384"
@@ -22,18 +23,40 @@
   "WPfr": null,
   "image_ref": "Francois-Miron-68_4_§1",
   "terme_jantzen_bat": [
-    "porte",
-    "façade",
+    "oeil-de-boeuf",
+    "balcon",
+    "sculpture",
+    "pilastre",
     "intérieur",
     "fenetre",
-    "oeil-de-boeuf",
-    "décor",
-    "sculpture",
     "console",
-    "balcon",
+    "façade",
+    "porte",
     "colonne",
     "porte-bois",
-    "pilastre"
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bossage",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "linteau",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "sculpture",
+    "toit à deux versants",
+    "vantail"
   ],
   "photos": [
     {
@@ -41,7 +64,30 @@
       "IndexJantzen": [
         "façade",
         "porte"
-      ]
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "porte",
+        "portail",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "corniche",
+        "bossage",
+        "mascaron",
+        "sculpture",
+        "lucarne",
+        "mansarde",
+        "pierre de taille",
+        "arc en plein cintre",
+        "linteau",
+        "chambranle",
+        "toit à deux versants",
+        "ardoise",
+        "fer forgé",
+        "vantail"
+      ],
+      "dateCapture": "2005:06:18"
     },
     {
       "id_pic": "Francois-Miron-68_4_§10",
@@ -49,28 +95,36 @@
         "colonne",
         "façade",
         "intérieur"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:09:14"
     },
     {
       "id_pic": "Francois-Miron-68_4_§11",
       "IndexJantzen": [
         "façade",
         "intérieur"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:09:14"
     },
     {
       "id_pic": "Francois-Miron-68_4_§12",
       "IndexJantzen": [
         "façade",
         "intérieur"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:09:14"
     },
     {
       "id_pic": "Francois-Miron-68_4_§13",
       "IndexJantzen": [
         "colonne",
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:04:22"
     },
     {
       "id_pic": "Francois-Miron-68_4_§14",
@@ -78,7 +132,9 @@
         "console",
         "oeil-de-boeuf",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:04:22"
     },
     {
       "id_pic": "Francois-Miron-68_4_§15",
@@ -86,7 +142,9 @@
         "colonne",
         "façade",
         "intérieur"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:09:18"
     },
     {
       "id_pic": "Francois-Miron-68_4_§16",
@@ -94,19 +152,25 @@
         "colonne",
         "façade",
         "intérieur"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:09:18"
     },
     {
       "id_pic": "Francois-Miron-68_4_§17",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:04:22"
     },
     {
       "id_pic": "Francois-Miron-68_4_§18",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:09:18"
     },
     {
       "id_pic": "Francois-Miron-68_4_§19",
@@ -114,14 +178,18 @@
         "décor",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:04:22"
     },
     {
       "id_pic": "Francois-Miron-68_4_§2",
       "IndexJantzen": [
         "façade",
         "porte"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:04:22"
     },
     {
       "id_pic": "Francois-Miron-68_4_§20",
@@ -130,19 +198,25 @@
         "fenetre",
         "pilastre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:04:22"
     },
     {
       "id_pic": "Francois-Miron-68_4_§21",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:04:22"
     },
     {
       "id_pic": "Francois-Miron-68_4_§3",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:06:18"
     },
     {
       "id_pic": "Francois-Miron-68_4_§4",
@@ -150,31 +224,41 @@
         "balcon",
         "console",
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:06:18"
     },
     {
       "id_pic": "Francois-Miron-68_4_§5",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:04:22"
     },
     {
       "id_pic": "Francois-Miron-68_4_§6",
       "IndexJantzen": [
         "porte-bois"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:06:18"
     },
     {
       "id_pic": "Francois-Miron-68_4_§7",
       "IndexJantzen": [
         "porte-bois"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:07:03"
     },
     {
       "id_pic": "Francois-Miron-68_4_§9",
       "IndexJantzen": [
         "porte-bois"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:06:18"
     }
   ]
 }

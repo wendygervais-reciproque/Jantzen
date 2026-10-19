@@ -13,6 +13,7 @@
     "voie": "avenue Matignon"
   },
   "arrondissement": 8,
+  "tri_alphab": "Matignon",
   "coordonnees": {
     "latitude": "48.870844",
     "longitude": "2.313597"
@@ -22,24 +23,61 @@
   "WPfr": null,
   "image_ref": "Matignon-16_8_§1",
   "terme_jantzen_bat": [
-    "porte",
-    "façade",
+    "sculpture",
     "fenetre",
-    "décor",
-    "sculpture"
+    "façade",
+    "porte",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "baie",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "frise",
+    "garde-corps",
+    "linteau",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "travée"
   ],
   "photos": [
     {
       "id_pic": "Matignon-16_8_§1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [
+        "baie",
+        "balcon",
+        "balustrade",
+        "bandeau",
+        "chambranle",
+        "corniche",
+        "fenêtre",
+        "fer forgé",
+        "frise",
+        "garde-corps",
+        "linteau",
+        "pierre de taille",
+        "pilastre",
+        "porte",
+        "travée"
+      ],
+      "dateCapture": "2009:07:16"
     },
     {
       "id_pic": "Matignon-16_8_§2",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2009:07:16"
     },
     {
       "id_pic": "Matignon-16_8_§3",
@@ -47,20 +85,26 @@
         "décor",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2009:07:16"
     },
     {
       "id_pic": "Matignon-16_8_§4",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2009:07:16"
     },
     {
       "id_pic": "Matignon-16_8_§5",
       "IndexJantzen": [
         "fenetre",
         "porte"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2009:07:16"
     }
   ]
 }

@@ -9,6 +9,7 @@
   ],
   "adresse": null,
   "arrondissement": 1,
+  "tri_alphab": "Louvre-1-Qm_P-Arts",
   "coordonnees": {
     "latitude": "48.859622",
     "longitude": "2.338170"
@@ -18,12 +19,32 @@
   "WPfr": null,
   "image_ref": "Louvre-1-Qm_P-Arts-2",
   "terme_jantzen_bat": [
-    "porte",
+    "pilastre",
+    "sculpture",
+    "fenetre",
     "façade",
     "fronton",
-    "fenetre",
-    "sculpture",
-    "pilastre"
+    "porte"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "avant-corps",
+    "balcon",
+    "balustrade",
+    "chapiteau corinthien",
+    "colonne",
+    "corniche",
+    "entablement",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "sculpture"
   ],
   "photos": [
     {
@@ -31,7 +52,28 @@
       "IndexJantzen": [
         "fenetre",
         "fronton"
-      ]
+      ],
+      "IndexTorneh": [
+        "fronton",
+        "sculpture",
+        "pilastre",
+        "chapiteau corinthien",
+        "colonne",
+        "balustrade",
+        "balcon",
+        "fenêtre",
+        "corniche",
+        "entablement",
+        "arc en plein cintre",
+        "fer forgé",
+        "garde-corps",
+        "porte",
+        "mascaron",
+        "pierre de taille",
+        "avant-corps",
+        "oculus"
+      ],
+      "dateCapture": "2005:08:28"
     },
     {
       "id_pic": "Louvre-1-Qm_P-Arts-20",
@@ -39,7 +81,9 @@
         "façade",
         "fronton",
         "porte"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:09:18"
     },
     {
       "id_pic": "Louvre-1-Qm_P-Arts-22",
@@ -47,31 +91,41 @@
         "fenetre",
         "pilastre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:09:18"
     },
     {
       "id_pic": "Louvre-1-Qm_P-Arts-23",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:09:18"
     },
     {
       "id_pic": "Louvre-1-Qm_P-Arts-25",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:09:19"
     },
     {
       "id_pic": "Louvre-1-Qm_P-Arts-27",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:09:19"
     },
     {
       "id_pic": "Louvre-1-Qm_P-Arts-3",
       "IndexJantzen": [
         "fronton"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:06:08"
     },
     {
       "id_pic": "Louvre-1-Qm_P-Arts-4",
@@ -79,25 +133,33 @@
         "fenetre",
         "pilastre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:08:28"
     },
     {
       "id_pic": "Louvre-1-Qm_P-Arts-5",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:08:28"
     },
     {
       "id_pic": "Louvre-1-Qm_P-Arts-6",
       "IndexJantzen": [
         "porte"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:08:28"
     },
     {
       "id_pic": "Louvre-1-Qm_P-Arts-6B",
       "IndexJantzen": [
         "porte"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:09:19"
     }
   ]
 }

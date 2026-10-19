@@ -1,0 +1,110 @@
+{
+  "id_bat": 3624,
+  "libelle": "8 rue de Port-Mahon",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 668,
+      "role": "architecte"
+    },
+    {
+      "personneID": 342,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1936",
+  "periode": [
+    "1915-1944"
+  ],
+  "adresse": {
+    "affichage": "8 rue de Port-Mahon",
+    "numero": "8",
+    "voie": "rue de Port-Mahon"
+  },
+  "arrondissement": 2,
+  "tri_alphab": "Port-Mahon",
+  "coordonnees": {
+    "latitude": "48.869525",
+    "longitude": "2.334122"
+  },
+  "id_pss": 30894,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": "Port-Mahon-8_2_§1",
+  "terme_jantzen_bat": [
+    "brique",
+    "façade",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "auvent",
+    "balcon",
+    "balustrade",
+    "brique",
+    "fenêtre",
+    "garde-corps",
+    "porte",
+    "souche de cheminée",
+    "toit-terrasse",
+    "tour",
+    "travée",
+    "volet"
+  ],
+  "photos": [
+    {
+      "id_pic": "Port-Mahon-8_2_§1",
+      "IndexJantzen": [
+        "brique",
+        "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "balustrade",
+        "toit-terrasse",
+        "brique",
+        "tour",
+        "souche de cheminée",
+        "volet",
+        "auvent",
+        "travée",
+        "porte"
+      ],
+      "dateCapture": "2005:08:30"
+    },
+    {
+      "id_pic": "Port-Mahon-8_2_§3",
+      "IndexJantzen": [
+        "brique",
+        "façade"
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:09:05"
+    },
+    {
+      "id_pic": "Port-Mahon-8_2_§4",
+      "IndexJantzen": [
+        "brique",
+        "fenetre"
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:08:30"
+    },
+    {
+      "id_pic": "Port-Mahon-8_2_§5",
+      "IndexJantzen": [
+        "brique",
+        "fenetre"
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:09:05"
+    },
+    {
+      "id_pic": "Port-Mahon-8_2_§6",
+      "IndexJantzen": [],
+      "IndexTorneh": [],
+      "dateCapture": "2005:08:30"
+    }
+  ]
+}

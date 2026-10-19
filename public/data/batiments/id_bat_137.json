@@ -2,13 +2,23 @@
   "id_bat": 137,
   "libelle": "Samaritaine",
   "ensemble": null,
-  "personnes": null,
+  "personnes": [
+    {
+      "personneID": 500,
+      "role": "architecte"
+    },
+    {
+      "personneID": 832,
+      "role": "architecte"
+    }
+  ],
   "dateConstruction": "1905",
   "periode": [
     "1895-1914"
   ],
   "adresse": null,
   "arrondissement": 1,
+  "tri_alphab": "Louvre-Qu-Samaritaine",
   "coordonnees": {
     "latitude": "48.85889",
     "longitude": "2.34208"
@@ -16,24 +26,39 @@
   "id_pss": 33389,
   "id_wikidata": "Q1583780",
   "WPfr": "La Samaritaine",
-  "image_ref": "Louvre-Qu-Samaritaine_1_§1",
+  "image_ref": "Louvre-Qu-Samaritaine_1_§2",
   "terme_jantzen_bat": [
+    "verrière",
+    "balcon",
+    "façade-d'angle",
+    "sculpture",
+    "fenetre-d'angle",
+    "fenetre",
     "lucarne",
     "façade",
-    "façade-d'angle",
-    "fenetre",
-    "décor",
-    "fenetre-d'angle",
-    "sculpture",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "attique",
+    "auvent",
+    "baie",
     "balcon",
-    "verrière"
+    "bandeau",
+    "fenêtre",
+    "garde-corps",
+    "pierre de taille",
+    "pilastre",
+    "tour",
+    "travée"
   ],
   "photos": [
     {
       "id_pic": "Louvre-Qu-Samaritaine_1_§1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:07:13"
     },
     {
       "id_pic": "Louvre-Qu-Samaritaine_1_§10",
@@ -41,7 +66,9 @@
         "décor",
         "fenetre-d'angle",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:07:15"
     },
     {
       "id_pic": "Louvre-Qu-Samaritaine_1_§11-",
@@ -49,25 +76,45 @@
         "décor",
         "fenetre-d'angle",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:07:15"
     },
     {
       "id_pic": "Louvre-Qu-Samaritaine_1_§12",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:07:15"
     },
     {
       "id_pic": "Louvre-Qu-Samaritaine_1_§13",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:07:15"
     },
     {
       "id_pic": "Louvre-Qu-Samaritaine_1_§2",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [
+        "baie",
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "bandeau",
+        "attique",
+        "pilastre",
+        "tour",
+        "travée",
+        "pierre de taille",
+        "auvent"
+      ],
+      "dateCapture": "2006:04:21"
     },
     {
       "id_pic": "Louvre-Qu-Samaritaine_1_§3",
@@ -75,7 +122,9 @@
         "décor",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:04:21"
     },
     {
       "id_pic": "Louvre-Qu-Samaritaine_1_§4",
@@ -83,7 +132,9 @@
         "décor",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:04:21"
     },
     {
       "id_pic": "Louvre-Qu-Samaritaine_1_§5",
@@ -92,33 +143,43 @@
         "fenetre",
         "sculpture",
         "verrière"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:08:30"
     },
     {
       "id_pic": "Louvre-Qu-Samaritaine_1_§6",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:08:30"
     },
     {
       "id_pic": "Louvre-Qu-Samaritaine_1_§7",
       "IndexJantzen": [
         "façade-d'angle"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:09:12"
     },
     {
       "id_pic": "Louvre-Qu-Samaritaine_1_§8",
       "IndexJantzen": [
         "façade-d'angle",
         "verrière"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:08:30"
     },
     {
       "id_pic": "Louvre-Qu-Samaritaine_1_§9",
       "IndexJantzen": [
         "balcon",
         "fenetre-d'angle"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:08:30"
     }
   ]
 }

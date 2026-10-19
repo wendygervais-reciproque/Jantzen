@@ -4,7 +4,11 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 41,
+      "personneID": 282,
+      "role": "architecte"
+    },
+    {
+      "personneID": 36,
       "role": "architecte"
     }
   ],
@@ -14,6 +18,7 @@
   ],
   "adresse": null,
   "arrondissement": 4,
+  "tri_alphab": "Hotel-De-Ville ",
   "coordonnees": {
     "latitude": "48.856389",
     "longitude": "2.352222"
@@ -21,22 +26,48 @@
   "id_pss": 7234,
   "id_wikidata": "Q640968",
   "WPfr": "Hôtel de ville de Paris",
-  "image_ref": "Hotel-De-Ville _4_§10-Rx",
+  "image_ref": "Hotel-De-Ville _4_§2-Rx",
   "terme_jantzen_bat": [
+    "toiture",
+    "oeil-de-boeuf",
+    "mosaique",
+    "porte-fer",
+    "tourelle",
+    "sculpture",
+    "cariatide",
+    "fenetre",
     "lucarne",
     "façade",
-    "toiture",
     "fronton",
-    "porte-fer",
-    "fenetre",
-    "oeil-de-boeuf",
-    "décor",
-    "sculpture",
-    "tourelle",
-    "cariatide",
-    "mosaique",
     "colonne",
-    "porte-bois"
+    "porte-bois",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "arcade",
+    "ardoise",
+    "balustrade",
+    "bandeau",
+    "chapiteau",
+    "colonne",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "grille",
+    "lucarne",
+    "mansarde",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "portail",
+    "porte",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "tour",
+    "travée",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -44,66 +75,86 @@
       "IndexJantzen": [
         "fronton",
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2012:05:13"
     },
     {
       "id_pic": "Hotel-De-Ville _4_§11-Rx",
       "IndexJantzen": [
         "fronton",
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2012:05:13"
     },
     {
       "id_pic": "Hotel-De-Ville _4_§12-Rx",
       "IndexJantzen": [
         "fronton",
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2012:03:15"
     },
     {
       "id_pic": "Hotel-De-Ville _4_§13-Rx",
       "IndexJantzen": [
         "fronton",
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2012:03:15"
     },
     {
       "id_pic": "Hotel-De-Ville _4_§14",
       "IndexJantzen": [
         "fronton",
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2012:05:13"
     },
     {
       "id_pic": "Hotel-De-Ville _4_§15",
       "IndexJantzen": [
         "fronton",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2012:05:13"
     },
     {
       "id_pic": "Hotel-De-Ville _4_§16",
-      "IndexJantzen": []
+      "IndexJantzen": [],
+      "IndexTorneh": [],
+      "dateCapture": "2012:05:13"
     },
     {
       "id_pic": "Hotel-De-Ville _4_§17",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2012:05:13"
     },
     {
       "id_pic": "Hotel-De-Ville _4_§18",
       "IndexJantzen": [
         "fenetre",
         "tourelle"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:07:27"
     },
     {
       "id_pic": "Hotel-De-Ville _4_§19",
       "IndexJantzen": [
         "lucarne",
         "tourelle"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:07:27"
     },
     {
       "id_pic": "Hotel-De-Ville _4_§20",
@@ -112,48 +163,89 @@
         "lucarne",
         "sculpture",
         "tourelle"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2012:03:15"
     },
     {
       "id_pic": "Hotel-De-Ville _4_§21",
       "IndexJantzen": [
         "tourelle"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:09:08"
     },
     {
       "id_pic": "Hotel-De-Ville _4_§27",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:09:08"
     },
     {
       "id_pic": "Hotel-De-Ville _4_§29",
       "IndexJantzen": [
         "tourelle"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:09:08"
     },
     {
       "id_pic": "Hotel-De-Ville _4_§2-Rx",
       "IndexJantzen": [
         "façade",
         "toiture"
-      ]
+      ],
+      "IndexTorneh": [
+        "tour",
+        "fenêtre",
+        "mansarde",
+        "lucarne",
+        "sculpture",
+        "colonne",
+        "pilastre",
+        "fronton",
+        "arc en plein cintre",
+        "arcade",
+        "balustrade",
+        "corniche",
+        "souche de cheminée",
+        "épi de faîtage",
+        "toit à deux versants",
+        "ardoise",
+        "porte",
+        "portail",
+        "grille",
+        "chapiteau",
+        "travée",
+        "bandeau",
+        "oculus",
+        "pierre de taille"
+      ],
+      "dateCapture": "2012:05:13"
     },
     {
       "id_pic": "Hotel-De-Ville _4_§30",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2012:05:13"
     },
     {
       "id_pic": "Hotel-De-Ville _4_§31",
-      "IndexJantzen": []
+      "IndexJantzen": [],
+      "IndexTorneh": [],
+      "dateCapture": "2012:05:13"
     },
     {
       "id_pic": "Hotel-De-Ville _4_§32",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2012:05:13"
     },
     {
       "id_pic": "Hotel-De-Ville _4_§33-Rx",
@@ -161,145 +253,189 @@
         "décor",
         "lucarne",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2012:03:15"
     },
     {
       "id_pic": "Hotel-De-Ville _4_§34",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:07:27"
     },
     {
       "id_pic": "Hotel-De-Ville _4_§35",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:07:27"
     },
     {
       "id_pic": "Hotel-De-Ville _4_§36",
       "IndexJantzen": [
         "fenetre",
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:07:27"
     },
     {
       "id_pic": "Hotel-De-Ville _4_§37",
       "IndexJantzen": [
         "fenetre",
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:07:27"
     },
     {
       "id_pic": "Hotel-De-Ville _4_§38",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:07:27"
     },
     {
       "id_pic": "Hotel-De-Ville _4_§39-Rx",
       "IndexJantzen": [
         "lucarne",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2012:03:15"
     },
     {
       "id_pic": "Hotel-De-Ville _4_§3-Rx",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2012:05:13"
     },
     {
       "id_pic": "Hotel-De-Ville _4_§40",
       "IndexJantzen": [
         "lucarne",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:07:27"
     },
     {
       "id_pic": "Hotel-De-Ville _4_§41",
       "IndexJantzen": [
         "lucarne",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:07:27"
     },
     {
       "id_pic": "Hotel-De-Ville _4_§42",
       "IndexJantzen": [
         "lucarne",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:09:08"
     },
     {
       "id_pic": "Hotel-De-Ville _4_§43",
       "IndexJantzen": [
         "lucarne",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:07:27"
     },
     {
       "id_pic": "Hotel-De-Ville _4_§45",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:07:27"
     },
     {
       "id_pic": "Hotel-De-Ville _4_§46",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:07:27"
     },
     {
       "id_pic": "Hotel-De-Ville _4_§47",
       "IndexJantzen": [
         "lucarne",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:07:27"
     },
     {
       "id_pic": "Hotel-De-Ville _4_§49",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:09:08"
     },
     {
       "id_pic": "Hotel-De-Ville _4_§4-Rx",
       "IndexJantzen": [
         "façade",
         "toiture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2012:05:13"
     },
     {
       "id_pic": "Hotel-De-Ville _4_§50",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2012:05:13"
     },
     {
       "id_pic": "Hotel-De-Ville _4_§51-Rx",
       "IndexJantzen": [
         "lucarne",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2012:03:15"
     },
     {
       "id_pic": "Hotel-De-Ville _4_§52-Rx",
       "IndexJantzen": [
         "lucarne",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2012:03:15"
     },
     {
       "id_pic": "Hotel-De-Ville _4_§53",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:09:08"
     },
     {
       "id_pic": "Hotel-De-Ville _4_§54-Rx",
       "IndexJantzen": [
         "fenetre",
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2012:03:15"
     },
     {
       "id_pic": "Hotel-De-Ville _4_§55",
@@ -308,7 +444,9 @@
         "fenetre",
         "lucarne",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2014:03:20"
     },
     {
       "id_pic": "Hotel-De-Ville _4_§56-Rx",
@@ -316,7 +454,9 @@
         "fenetre",
         "lucarne",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2012:05:13"
     },
     {
       "id_pic": "Hotel-De-Ville _4_§57-Rx",
@@ -325,7 +465,9 @@
         "lucarne",
         "sculpture",
         "toiture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2012:05:13"
     },
     {
       "id_pic": "Hotel-De-Ville _4_§58-Rx",
@@ -333,77 +475,101 @@
         "colonne",
         "lucarne",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2012:05:13"
     },
     {
       "id_pic": "Hotel-De-Ville _4_§59",
       "IndexJantzen": [
         "colonne",
         "porte-bois"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": null
     },
     {
       "id_pic": "Hotel-De-Ville _4_§5-Rx",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2012:05:13"
     },
     {
       "id_pic": "Hotel-De-Ville _4_§6",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:09:08"
     },
     {
       "id_pic": "Hotel-De-Ville _4_§60",
       "IndexJantzen": [
         "colonne",
         "porte-bois"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:07:27"
     },
     {
       "id_pic": "Hotel-De-Ville _4_§61",
       "IndexJantzen": [
         "colonne",
         "porte-bois"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:04:22"
     },
     {
       "id_pic": "Hotel-De-Ville _4_§62-Rx",
       "IndexJantzen": [
         "colonne",
         "porte-fer"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2012:03:15"
     },
     {
       "id_pic": "Hotel-De-Ville _4_§63-Rx",
       "IndexJantzen": [
         "porte-fer"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2012:03:15"
     },
     {
       "id_pic": "Hotel-De-Ville _4_§64-Rx",
       "IndexJantzen": [
         "porte-fer"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2012:05:13"
     },
     {
       "id_pic": "Hotel-De-Ville _4_§65-Rx",
       "IndexJantzen": [
         "porte-fer"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2012:05:13"
     },
     {
       "id_pic": "Hotel-De-Ville _4_§66",
       "IndexJantzen": [
         "porte-fer"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:07:27"
     },
     {
       "id_pic": "Hotel-De-Ville _4_§67-",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:04:22"
     },
     {
       "id_pic": "Hotel-De-Ville _4_§68",
@@ -411,7 +577,9 @@
         "décor",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:04:22"
     },
     {
       "id_pic": "Hotel-De-Ville _4_§69",
@@ -419,28 +587,36 @@
         "mosaique",
         "oeil-de-boeuf",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:08:03"
     },
     {
       "id_pic": "Hotel-De-Ville _4_§7",
       "IndexJantzen": [
         "lucarne",
         "tourelle"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:09:08"
     },
     {
       "id_pic": "Hotel-De-Ville _4_§70",
       "IndexJantzen": [
         "oeil-de-boeuf",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:08:03"
     },
     {
       "id_pic": "Hotel-De-Ville _4_§71",
       "IndexJantzen": [
         "oeil-de-boeuf",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:04:22"
     },
     {
       "id_pic": "Hotel-De-Ville _4_§72",
@@ -451,14 +627,18 @@
         "mosaique",
         "oeil-de-boeuf",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:08:03"
     },
     {
       "id_pic": "Hotel-De-Ville _4_§73",
       "IndexJantzen": [
         "lucarne",
         "oeil-de-boeuf"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:08:03"
     },
     {
       "id_pic": "Hotel-De-Ville _4_§74",
@@ -466,7 +646,9 @@
         "fenetre",
         "lucarne",
         "toiture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2014:03:20"
     },
     {
       "id_pic": "Hotel-De-Ville _4_§75",
@@ -474,7 +656,9 @@
         "décor",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2009:03:20"
     },
     {
       "id_pic": "Hotel-De-Ville _4_§76",
@@ -482,7 +666,9 @@
         "décor",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2014:03:20"
     },
     {
       "id_pic": "Hotel-De-Ville _4_§77",
@@ -490,49 +676,65 @@
         "décor",
         "lucarne",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:08:03"
     },
     {
       "id_pic": "Hotel-De-Ville _4_§78",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:04:22"
     },
     {
       "id_pic": "Hotel-De-Ville _4_§79",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:04:22"
     },
     {
       "id_pic": "Hotel-De-Ville _4_§80",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:08:03"
     },
     {
       "id_pic": "Hotel-De-Ville _4_§81",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:08:03"
     },
     {
       "id_pic": "Hotel-De-Ville _4_§82",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:08:03"
     },
     {
       "id_pic": "Hotel-De-Ville _4_§8-Rx",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2012:05:13"
     },
     {
       "id_pic": "Hotel-De-Ville _4_§9",
       "IndexJantzen": [
         "toiture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:07:27"
     }
   ]
 }

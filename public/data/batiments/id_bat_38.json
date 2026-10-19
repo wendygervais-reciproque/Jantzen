@@ -4,7 +4,7 @@
   "ensemble": "Palais du Louvre",
   "personnes": [
     {
-      "personneID": 136,
+      "personneID": 721,
       "role": "architecte"
     }
   ],
@@ -14,6 +14,7 @@
   ],
   "adresse": null,
   "arrondissement": 1,
+  "tri_alphab": "Louvre-1-Ra-Pt",
   "coordonnees": {
     "latitude": "48.860171",
     "longitude": "2.339471"
@@ -21,88 +22,149 @@
   "id_pss": null,
   "id_wikidata": "Q109592130",
   "WPfr": null,
-  "image_ref": "Louvre-1-Ra-Pt-01",
+  "image_ref": "Louvre-1-Ra-Pt-09",
   "terme_jantzen_bat": [
-    "façade",
-    "fronton",
     "oeil-de-boeuf",
     "sculpture",
     "clé",
+    "façade",
+    "fronton",
     "colonne",
     "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "attique",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chapiteau corinthien",
+    "colonne",
+    "corniche",
+    "entablement",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "portail",
+    "porte",
+    "sculpture"
   ],
   "photos": [
     {
       "id_pic": "Louvre-1-Ra-Pt-01",
       "IndexJantzen": [
         "porte-bois"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:08:30"
     },
     {
       "id_pic": "Louvre-1-Ra-Pt-02",
       "IndexJantzen": [
         "porte-bois"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:08:30"
     },
     {
       "id_pic": "Louvre-1-Ra-Pt-03",
       "IndexJantzen": [
         "oeil-de-boeuf",
         "porte-bois"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:08:30"
     },
     {
       "id_pic": "Louvre-1-Ra-Pt-04",
       "IndexJantzen": [
         "porte-bois"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:07:18"
     },
     {
       "id_pic": "Louvre-1-Ra-Pt-05",
       "IndexJantzen": [
         "clé",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:08:28"
     },
     {
       "id_pic": "Louvre-1-Ra-Pt-06",
       "IndexJantzen": [
         "fronton",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:08:28"
     },
     {
       "id_pic": "Louvre-1-Ra-Pt-07",
       "IndexJantzen": [
         "porte-bois"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:08:30"
     },
     {
       "id_pic": "Louvre-1-Ra-Pt-09",
       "IndexJantzen": [
         "colonne",
         "façade"
-      ]
+      ],
+      "IndexTorneh": [
+        "fronton",
+        "colonne",
+        "chapiteau corinthien",
+        "entablement",
+        "fenêtre",
+        "balustrade",
+        "sculpture",
+        "pierre de taille",
+        "arc en plein cintre",
+        "portail",
+        "porte",
+        "corniche",
+        "pilastre",
+        "attique",
+        "bandeau",
+        "balcon",
+        "garde-corps",
+        "oculus"
+      ],
+      "dateCapture": "2009:08:23"
     },
     {
       "id_pic": "Louvre-1-Ra-Pt-10",
       "IndexJantzen": [
         "colonne",
         "porte-bois"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2009:08:23"
     },
     {
       "id_pic": "Louvre-1-Ra-Pt-12",
       "IndexJantzen": [
         "colonne",
         "porte-bois"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2009:08:23"
     },
     {
       "id_pic": "Louvre-1-Ra-Pt-13",
       "IndexJantzen": [
         "porte-bois"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2009:08:23"
     }
   ]
 }

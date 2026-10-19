@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 134,
+      "personneID": 123,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue du Cherche-Midi"
   },
   "arrondissement": 6,
+  "tri_alphab": "Cherche-Midi",
   "coordonnees": {
     "latitude": "48.850807",
     "longitude": "2.328234"
@@ -27,13 +28,36 @@
   "WPfr": null,
   "image_ref": "Cherche-Midi-18_6_§1",
   "terme_jantzen_bat": [
-    "façade",
-    "fronton",
-    "fenetre",
     "oeil-de-boeuf",
     "sculpture",
+    "fenetre",
+    "façade",
     "poignée-porte",
+    "fronton",
     "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "linteau",
+    "lucarne",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "sculpture",
+    "toit à deux versants",
+    "travée",
+    "vantail",
+    "volet"
   ],
   "photos": [
     {
@@ -41,19 +65,47 @@
       "IndexJantzen": [
         "façade",
         "porte-bois"
-      ]
+      ],
+      "IndexTorneh": [
+        "porte",
+        "portail",
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "oculus",
+        "fronton",
+        "sculpture",
+        "mascaron",
+        "corniche",
+        "bandeau",
+        "lucarne",
+        "toit à deux versants",
+        "volet",
+        "pierre de taille",
+        "vantail",
+        "chambranle",
+        "linteau",
+        "arc en plein cintre",
+        "travée",
+        "balustrade"
+      ],
+      "dateCapture": "2005:05:01"
     },
     {
       "id_pic": "Cherche-Midi-18_6_§10",
       "IndexJantzen": [
         "poignée-porte"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:06:13"
     },
     {
       "id_pic": "Cherche-Midi-18_6_§2",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:05:01"
     },
     {
       "id_pic": "Cherche-Midi-18_6_§3",
@@ -61,7 +113,9 @@
         "fenetre",
         "oeil-de-boeuf",
         "porte-bois"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:05:01"
     },
     {
       "id_pic": "Cherche-Midi-18_6_§4",
@@ -69,14 +123,18 @@
         "fenetre",
         "fronton",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:05:01"
     },
     {
       "id_pic": "Cherche-Midi-18_6_§5",
       "IndexJantzen": [
         "fenetre",
         "porte-bois"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:05:14"
     },
     {
       "id_pic": "Cherche-Midi-18_6_§6",
@@ -84,7 +142,9 @@
         "fenetre",
         "oeil-de-boeuf",
         "porte-bois"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:05:01"
     },
     {
       "id_pic": "Cherche-Midi-18_6_§7",
@@ -92,20 +152,26 @@
         "fenetre",
         "oeil-de-boeuf",
         "porte-bois"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:06:13"
     },
     {
       "id_pic": "Cherche-Midi-18_6_§8",
       "IndexJantzen": [
         "oeil-de-boeuf",
         "porte-bois"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:06:13"
     },
     {
       "id_pic": "Cherche-Midi-18_6_§9",
       "IndexJantzen": [
         "poignée-porte"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:05:01"
     }
   ]
 }

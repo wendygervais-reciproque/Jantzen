@@ -4,8 +4,12 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 639,
+      "personneID": 848,
       "role": "architecte"
+    },
+    {
+      "personneID": 10094,
+      "role": "sculpteur"
     }
   ],
   "dateConstruction": "1907",
@@ -18,6 +22,7 @@
     "voie": "rue Villaret-de-Joyeuse"
   },
   "arrondissement": 17,
+  "tri_alphab": "Villaret-de-Joyeuse",
   "coordonnees": {
     "latitude": "48.876888",
     "longitude": "2.28976"
@@ -27,10 +32,32 @@
   "WPfr": null,
   "image_ref": "Villaret-de-Joyeuse-7_17_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "lucarne",
     "façade",
-    "oriel"
+    "oriel",
+    "fenetre",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -38,21 +65,48 @@
       "IndexJantzen": [
         "façade",
         "oriel"
-      ]
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "lucarne",
+        "mansarde",
+        "ardoise",
+        "souche de cheminée",
+        "fer forgé",
+        "pierre de taille",
+        "sculpture",
+        "mascaron",
+        "bandeau",
+        "corniche",
+        "travée",
+        "oculus",
+        "toit à deux versants",
+        "porte",
+        "volet",
+        "chaîne d'angle"
+      ],
+      "dateCapture": "2004:10:02"
     },
     {
       "id_pic": "Villaret-de-Joyeuse-7_17_§2",
       "IndexJantzen": [
         "fenetre",
         "oriel"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:10:02"
     },
     {
       "id_pic": "Villaret-de-Joyeuse-7_17_§3",
       "IndexJantzen": [
         "fenetre",
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:10:02"
     }
   ]
 }

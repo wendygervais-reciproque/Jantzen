@@ -4,7 +4,11 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 420,
+      "personneID": 566,
+      "role": "architecte"
+    },
+    {
+      "personneID": 566,
       "role": "architecte"
     }
   ],
@@ -18,6 +22,7 @@
     "voie": "boulevard Flandrin"
   },
   "arrondissement": 16,
+  "tri_alphab": "Flandrin",
   "coordonnees": {
     "latitude": "48.869762",
     "longitude": "2.27515"
@@ -30,19 +35,60 @@
     "fenetre",
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "pierre de taille",
+    "pilastre",
+    "travée",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Flandrin-82_16_§1",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "lucarne",
+        "mansarde",
+        "corniche",
+        "bandeau",
+        "pilastre",
+        "arc en plein cintre",
+        "mascaron",
+        "volet",
+        "ardoise",
+        "pierre de taille",
+        "travée",
+        "chambranle"
+      ],
+      "dateCapture": "2004:05:22"
     },
     {
       "id_pic": "Flandrin-82_16_§2",
       "IndexJantzen": [
         "fenetre",
         "porte-bois"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:05:22"
     }
   ]
 }

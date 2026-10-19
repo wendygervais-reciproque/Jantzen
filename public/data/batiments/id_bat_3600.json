@@ -13,6 +13,7 @@
     "voie": "rue Alfred-de-Vigny"
   },
   "arrondissement": 8,
+  "tri_alphab": "Alfred-de-Vigny",
   "coordonnees": {
     "latitude": "48.878815",
     "longitude": "2.305258"
@@ -22,13 +23,33 @@
   "WPfr": null,
   "image_ref": "Alfred-de-Vigny-8_8_§1",
   "terme_jantzen_bat": [
-    "lucarne",
-    "façade",
-    "fenetre",
-    "brique",
-    "sculpture",
     "tourelle",
-    "cariatide"
+    "sculpture",
+    "cariatide",
+    "fenetre",
+    "lucarne",
+    "brique",
+    "façade"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mascaron",
+    "oculus",
+    "pilastre",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "tour",
+    "volet",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -36,21 +57,46 @@
       "IndexJantzen": [
         "fenetre",
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "lucarne",
+        "balcon",
+        "garde-corps",
+        "fronton",
+        "mascaron",
+        "pilastre",
+        "corniche",
+        "ardoise",
+        "toit à deux versants",
+        "tour",
+        "arc en plein cintre",
+        "balustrade",
+        "sculpture",
+        "volet",
+        "souche de cheminée",
+        "épi de faîtage",
+        "oculus"
+      ],
+      "dateCapture": "2009:07:16"
     },
     {
       "id_pic": "Alfred-de-Vigny-8_8_§2",
       "IndexJantzen": [
         "fenetre",
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2009:07:16"
     },
     {
       "id_pic": "Alfred-de-Vigny-8_8_§3",
       "IndexJantzen": [
         "brique",
         "façade"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2009:07:16"
     },
     {
       "id_pic": "Alfred-de-Vigny-8_8_§4",
@@ -58,28 +104,36 @@
         "brique",
         "façade",
         "tourelle"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:04:17"
     },
     {
       "id_pic": "Alfred-de-Vigny-8_8_§5",
       "IndexJantzen": [
         "brique",
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2009:07:16"
     },
     {
       "id_pic": "Alfred-de-Vigny-8_8_§6",
       "IndexJantzen": [
         "brique",
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2009:07:16"
     },
     {
       "id_pic": "Alfred-de-Vigny-8_8_§7",
       "IndexJantzen": [
         "cariatide",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2009:07:16"
     }
   ]
 }

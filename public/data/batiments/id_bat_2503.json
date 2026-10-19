@@ -4,8 +4,12 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 366,
+      "personneID": 328,
       "role": "architecte"
+    },
+    {
+      "personneID": 10005,
+      "role": "sculpteur"
     }
   ],
   "dateConstruction": "1909",
@@ -18,6 +22,7 @@
     "voie": "rue Dorian"
   },
   "arrondissement": 12,
+  "tri_alphab": "Dorian",
   "coordonnees": {
     "latitude": "48.847007",
     "longitude": "2.393238"
@@ -30,13 +35,36 @@
     "clé",
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "arc",
+    "fenêtre",
+    "fer forgé",
+    "mascaron",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Dorian-4_12_§1",
       "IndexJantzen": [
         "clé",
         "porte-bois"
-      ]
+      ],
+      "IndexTorneh": [
+        "porte",
+        "portail",
+        "vantail",
+        "mascaron",
+        "sculpture",
+        "arc",
+        "pierre de taille",
+        "fenêtre",
+        "fer forgé"
+      ],
+      "dateCapture": "2005:07:15"
     }
   ]
 }

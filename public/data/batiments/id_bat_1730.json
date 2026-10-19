@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 156,
+      "personneID": 253,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "boulevard Delessert"
   },
   "arrondissement": 16,
+  "tri_alphab": "Delessert",
   "coordonnees": {
     "latitude": "48.858508",
     "longitude": "2.285146"
@@ -27,14 +28,37 @@
   "WPfr": null,
   "image_ref": "Delessert-23_16_§1",
   "terme_jantzen_bat": [
-    "lucarne",
-    "façade-d'angle",
-    "fenetre",
-    "tour",
     "dome",
-    "fenetre-d'angle",
+    "façade-d'angle",
+    "tour",
     "tourelle",
+    "fenetre-d'angle",
+    "fenetre",
+    "lucarne",
     "colonne"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chapiteau",
+    "colonne",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "garde-corps",
+    "lucarne",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "souche de cheminée",
+    "toit à deux versants",
+    "tour",
+    "travée",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -43,7 +67,31 @@
         "dome",
         "façade-d'angle",
         "tour"
-      ]
+      ],
+      "IndexTorneh": [
+        "tour",
+        "dôme",
+        "lucarne",
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "garde-corps",
+        "corniche",
+        "colonne",
+        "pilastre",
+        "chapiteau",
+        "souche de cheminée",
+        "toit à deux versants",
+        "oculus",
+        "bandeau",
+        "pierre de taille",
+        "porte",
+        "mascaron",
+        "épi de faîtage",
+        "ardoise",
+        "travée"
+      ],
+      "dateCapture": "2006:06:30"
     },
     {
       "id_pic": "Delessert-23_16_§2",
@@ -52,14 +100,18 @@
         "dome",
         "fenetre-d'angle",
         "tour"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2003:07:13"
     },
     {
       "id_pic": "Delessert-23_16_§3",
       "IndexJantzen": [
         "dome",
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:06:30"
     },
     {
       "id_pic": "Delessert-23_16_§4",
@@ -67,7 +119,9 @@
         "dome",
         "fenetre",
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:06:07"
     },
     {
       "id_pic": "Delessert-23_16_§5",
@@ -75,7 +129,9 @@
         "dome",
         "lucarne",
         "tourelle"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:06:30"
     }
   ]
 }

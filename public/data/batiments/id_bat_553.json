@@ -13,6 +13,7 @@
     "voie": "rue de Grenelle"
   },
   "arrondissement": 7,
+  "tri_alphab": "Grenelle",
   "coordonnees": {
     "latitude": "48.85744",
     "longitude": "2.317755"
@@ -22,10 +23,27 @@
   "WPfr": null,
   "image_ref": "Grenelle-115_7_§1",
   "terme_jantzen_bat": [
-    "porte",
     "façade",
-    "porte-bois",
-    "fenetre"
+    "fenetre",
+    "porte",
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "avant-corps",
+    "balcon",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "porte-fenêtre",
+    "travée",
+    "vantail",
+    "volet"
   ],
   "photos": [
     {
@@ -33,14 +51,34 @@
       "IndexJantzen": [
         "façade",
         "porte"
-      ]
+      ],
+      "IndexTorneh": [
+        "fronton",
+        "avant-corps",
+        "fenêtre",
+        "porte",
+        "arc en plein cintre",
+        "balcon",
+        "garde-corps",
+        "bandeau",
+        "corniche",
+        "pierre de taille",
+        "volet",
+        "mascaron",
+        "vantail",
+        "travée",
+        "porte-fenêtre"
+      ],
+      "dateCapture": "2006:06:03"
     },
     {
       "id_pic": "Grenelle-115_7_§2",
       "IndexJantzen": [
         "fenetre",
         "porte-bois"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:06:03"
     }
   ]
 }

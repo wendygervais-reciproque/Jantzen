@@ -4,8 +4,12 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 434,
+      "personneID": 911,
       "role": "architecte"
+    },
+    {
+      "personneID": 10132,
+      "role": "sculpteur"
     }
   ],
   "dateConstruction": "1848-1896",
@@ -19,6 +23,7 @@
     "voie": "rue Saint-Martin"
   },
   "arrondissement": 3,
+  "tri_alphab": "St-Martin",
   "coordonnees": {
     "latitude": "48.866972",
     "longitude": "2.354641"
@@ -28,64 +33,117 @@
   "WPfr": null,
   "image_ref": "St-Martin-292_3_§1",
   "terme_jantzen_bat": [
-    "porte",
-    "lucarne",
-    "façade",
     "toiture",
-    "fronton",
     "porte-fer",
     "sculpture",
     "cariatide",
+    "lucarne",
+    "façade",
+    "fronton",
+    "porte",
     "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "bandeau",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "grille",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "souche de cheminée",
+    "toit à deux versants",
+    "tour",
+    "travée",
+    "épi de faîtage"
   ],
   "photos": [
     {
       "id_pic": "St-Martin-292_3_§1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [
+        "tour",
+        "lucarne",
+        "mansarde",
+        "fenêtre",
+        "arc en plein cintre",
+        "corniche",
+        "bandeau",
+        "chaîne d'angle",
+        "souche de cheminée",
+        "épi de faîtage",
+        "oculus",
+        "ardoise",
+        "pierre de taille",
+        "grille",
+        "travée",
+        "mascaron",
+        "toit à deux versants",
+        "fronton"
+      ],
+      "dateCapture": "2007:05:24"
     },
     {
       "id_pic": "St-Martin-292_3_§10",
       "IndexJantzen": [
         "cariatide",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:08:04"
     },
     {
       "id_pic": "St-Martin-292_3_§11",
       "IndexJantzen": [
         "cariatide",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:02:18"
     },
     {
       "id_pic": "St-Martin-292_3_§12",
       "IndexJantzen": [
         "cariatide",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:08:04"
     },
     {
       "id_pic": "St-Martin-292_3_§13",
       "IndexJantzen": [
         "cariatide",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:02:18"
     },
     {
       "id_pic": "St-Martin-292_3_§2",
       "IndexJantzen": [
         "lucarne",
         "toiture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:05:24"
     },
     {
       "id_pic": "St-Martin-292_3_§3",
       "IndexJantzen": [
         "fronton",
         "porte-fer"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:08:04"
     },
     {
       "id_pic": "St-Martin-292_3_§4",
@@ -93,39 +151,51 @@
         "cariatide",
         "fronton",
         "porte"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:02:18"
     },
     {
       "id_pic": "St-Martin-292_3_§5",
       "IndexJantzen": [
         "façade",
         "porte"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:08:04"
     },
     {
       "id_pic": "St-Martin-292_3_§6",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:08:04"
     },
     {
       "id_pic": "St-Martin-292_3_§7",
       "IndexJantzen": [
         "porte-bois"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:08:04"
     },
     {
       "id_pic": "St-Martin-292_3_§8",
       "IndexJantzen": [
         "porte-bois"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:08:04"
     },
     {
       "id_pic": "St-Martin-292_3_§9",
       "IndexJantzen": [
         "cariatide",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:02:18"
     }
   ]
 }

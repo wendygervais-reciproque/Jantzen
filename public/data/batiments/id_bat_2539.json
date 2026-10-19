@@ -13,6 +13,7 @@
     "voie": "rue Royer-Collard"
   },
   "arrondissement": 5,
+  "tri_alphab": "Royer-Collard",
   "coordonnees": {
     "latitude": "48.845702",
     "longitude": "2.34229"
@@ -22,37 +23,82 @@
   "WPfr": null,
   "image_ref": "Royer-Collard-4_5_§1",
   "terme_jantzen_bat": [
-    "lucarne",
-    "fenetre",
     "sculpture",
     "clé",
+    "fenetre",
+    "lucarne",
     "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "grille",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "pierre de taille",
+    "portail",
+    "sculpture",
+    "souche de cheminée",
+    "vantail"
   ],
   "photos": [
     {
       "id_pic": "Royer-Collard-4_5_§1",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "garde-corps",
+        "balcon",
+        "lucarne",
+        "mansarde",
+        "ardoise",
+        "pierre de taille",
+        "arc en plein cintre",
+        "portail",
+        "vantail",
+        "sculpture",
+        "mascaron",
+        "grille",
+        "souche de cheminée",
+        "dôme",
+        "fer forgé",
+        "corniche"
+      ],
+      "dateCapture": "2009:09:27"
     },
     {
       "id_pic": "Royer-Collard-4_5_§10",
       "IndexJantzen": [
         "porte-bois"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2009:09:27"
     },
     {
       "id_pic": "Royer-Collard-4_5_§11",
       "IndexJantzen": [
         "porte-bois"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2010:03:23"
     },
     {
       "id_pic": "Royer-Collard-4_5_§12",
       "IndexJantzen": [
         "clé",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2009:09:27"
     },
     {
       "id_pic": "Royer-Collard-4_5_§13",
@@ -60,59 +106,77 @@
         "clé",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2003:08:26"
     },
     {
       "id_pic": "Royer-Collard-4_5_§2",
       "IndexJantzen": [
         "fenetre",
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": null
     },
     {
       "id_pic": "Royer-Collard-4_5_§3",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2003:08:26"
     },
     {
       "id_pic": "Royer-Collard-4_5_§4",
       "IndexJantzen": [
         "clé",
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2009:09:27"
     },
     {
       "id_pic": "Royer-Collard-4_5_§5",
       "IndexJantzen": [
         "clé",
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2009:09:27"
     },
     {
       "id_pic": "Royer-Collard-4_5_§6",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2009:09:27"
     },
     {
       "id_pic": "Royer-Collard-4_5_§7",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2010:03:23"
     },
     {
       "id_pic": "Royer-Collard-4_5_§8",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2003:08:26"
     },
     {
       "id_pic": "Royer-Collard-4_5_§9",
       "IndexJantzen": [
         "clé",
         "porte-bois"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2003:08:26"
     }
   ]
 }

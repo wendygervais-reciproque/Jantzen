@@ -4,7 +4,11 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 539,
+      "personneID": 723,
+      "role": "architecte"
+    },
+    {
+      "personneID": 722,
       "role": "architecte"
     }
   ],
@@ -18,6 +22,7 @@
     "voie": "rue Benjamin-Franklin"
   },
   "arrondissement": 16,
+  "tri_alphab": "Benjamin-Franklin",
   "coordonnees": {
     "latitude": "48.860693",
     "longitude": "2.285931"
@@ -27,32 +32,71 @@
   "WPfr": null,
   "image_ref": "Benjamin-Franklin-25b_16_§1",
   "terme_jantzen_bat": [
-    "façade",
-    "garde-corps",
-    "fenetre",
     "mosaique",
-    "oriel"
+    "oriel",
+    "fenetre",
+    "façade",
+    "garde-corps"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "céramique",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "oriel",
+    "pierre de taille",
+    "porte",
+    "souche de cheminée",
+    "toit à deux versants",
+    "toit-terrasse",
+    "travée",
+    "vitrail",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Benjamin-Franklin-25b_16_§1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "balustrade",
+        "volet",
+        "toit-terrasse",
+        "souche de cheminée",
+        "céramique",
+        "pierre de taille",
+        "travée",
+        "oriel",
+        "porte",
+        "vitrail",
+        "toit à deux versants",
+        "fer forgé"
+      ],
+      "dateCapture": null
     },
     {
       "id_pic": "Benjamin-Franklin-25b_16_§2",
       "IndexJantzen": [
         "fenetre",
         "mosaique"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:04:03"
     },
     {
       "id_pic": "Benjamin-Franklin-25b_16_§3",
       "IndexJantzen": [
         "fenetre",
         "mosaique"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:04:03"
     },
     {
       "id_pic": "Benjamin-Franklin-25b_16_§3b",
@@ -60,7 +104,9 @@
         "fenetre",
         "garde-corps",
         "mosaique"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:03:16"
     },
     {
       "id_pic": "Benjamin-Franklin-25b_16_§4-zFdet",
@@ -69,14 +115,18 @@
         "garde-corps",
         "mosaique",
         "oriel"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:03:16"
     },
     {
       "id_pic": "Benjamin-Franklin-25b_16_§5",
       "IndexJantzen": [
         "fenetre",
         "mosaique"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:03:16"
     }
   ]
 }

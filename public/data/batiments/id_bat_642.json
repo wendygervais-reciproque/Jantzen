@@ -12,7 +12,8 @@
     "numero": "12",
     "voie": "rue de l'Épée-de-Bois"
   },
-  "arrondissement": 15,
+  "arrondissement": 5,
+  "tri_alphab": "Epee-de-Bois",
   "coordonnees": {
     "latitude": "48.841567",
     "longitude": "2.350244"
@@ -22,8 +23,18 @@
   "WPfr": null,
   "image_ref": "Epee-de-Bois-12_15_§1",
   "terme_jantzen_bat": [
-    "console",
-    "sculpture"
+    "sculpture",
+    "console"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "balcon",
+    "fenêtre",
+    "garde-corps",
+    "modillon",
+    "pierre de taille",
+    "sculpture",
+    "volet"
   ],
   "photos": [
     {
@@ -31,7 +42,18 @@
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [
+        "sculpture",
+        "pierre de taille",
+        "fenêtre",
+        "volet",
+        "garde-corps",
+        "balcon",
+        "modillon",
+        "arc"
+      ],
+      "dateCapture": "2005:08:29"
     }
   ]
 }

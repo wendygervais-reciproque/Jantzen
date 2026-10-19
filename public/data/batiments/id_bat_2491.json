@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 172,
+      "personneID": 274,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue de Lota"
   },
   "arrondissement": 16,
+  "tri_alphab": "Lota",
   "coordonnees": {
     "latitude": "48.867525",
     "longitude": "2.276079"
@@ -27,16 +28,41 @@
   "WPfr": null,
   "image_ref": "Lota-4_16_§1",
   "terme_jantzen_bat": [
+    "balcon",
+    "oriel",
+    "pignon",
+    "fenetre",
     "lucarne",
+    "brique",
     "façade",
     "garde-corps",
-    "brique",
-    "fenetre",
-    "décor",
-    "pignon",
-    "balcon",
     "colonne",
-    "oriel"
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "baie",
+    "balcon",
+    "balustrade",
+    "brique",
+    "chapiteau",
+    "chaîne d'angle",
+    "colonne",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "jambage",
+    "linteau",
+    "mascaron",
+    "mur-boutant",
+    "oriel",
+    "pierre de taille",
+    "porte",
+    "tour",
+    "vantail",
+    "volet"
   ],
   "photos": [
     {
@@ -44,7 +70,33 @@
       "IndexJantzen": [
         "brique",
         "façade"
-      ]
+      ],
+      "IndexTorneh": [
+        "baie",
+        "balcon",
+        "balustrade",
+        "brique",
+        "chapiteau",
+        "colonne",
+        "corniche",
+        "fenêtre",
+        "fronton",
+        "garde-corps",
+        "jambage",
+        "linteau",
+        "mascaron",
+        "oriel",
+        "pierre de taille",
+        "porte",
+        "vantail",
+        "volet",
+        "arc",
+        "arc en plein cintre",
+        "mur-boutant",
+        "tour",
+        "chaîne d'angle"
+      ],
+      "dateCapture": "2005:06:07"
     },
     {
       "id_pic": "Lota-4_16_§2",
@@ -53,7 +105,9 @@
         "décor",
         "fenetre",
         "oriel"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:06:07"
     },
     {
       "id_pic": "Lota-4_16_§3",
@@ -62,7 +116,9 @@
         "fenetre",
         "oriel",
         "pignon"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:06:07"
     },
     {
       "id_pic": "Lota-4_16_§4",
@@ -71,7 +127,9 @@
         "brique",
         "colonne",
         "garde-corps"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:06:07"
     },
     {
       "id_pic": "Lota-4_16_§5",
@@ -79,14 +137,18 @@
         "brique",
         "colonne",
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:06:07"
     },
     {
       "id_pic": "Lota-4_16_§6",
       "IndexJantzen": [
         "brique",
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:06:07"
     }
   ]
 }

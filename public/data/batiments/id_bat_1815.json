@@ -2,7 +2,12 @@
   "id_bat": 1815,
   "libelle": "24 rue Pavée",
   "ensemble": null,
-  "personnes": null,
+  "personnes": [
+    {
+      "personneID": 185,
+      "role": "architecte"
+    }
+  ],
   "dateConstruction": "XVIe siècle, vers 1610, 1612",
   "periode": [
     "1530-1589",
@@ -14,6 +19,7 @@
     "voie": "rue Pavée"
   },
   "arrondissement": 4,
+  "tri_alphab": "Pavee",
   "coordonnees": {
     "latitude": "48.857065",
     "longitude": "2.361696"
@@ -23,15 +29,34 @@
   "WPfr": null,
   "image_ref": "Pavee-24_4_§1",
   "terme_jantzen_bat": [
-    "façade",
-    "fronton",
-    "fenetre",
-    "fenetre-d'angle",
+    "tourelle",
+    "pilastre",
     "sculpture",
     "clé",
     "console",
-    "tourelle",
-    "pilastre"
+    "fenetre",
+    "fenetre-d'angle",
+    "façade",
+    "fronton"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "chapiteau",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "lucarne",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "portail",
+    "porte",
+    "soupirail",
+    "toit à deux versants",
+    "vantail"
   ],
   "photos": [
     {
@@ -40,7 +65,27 @@
         "façade",
         "fronton",
         "pilastre"
-      ]
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "fronton",
+        "lucarne",
+        "pilastre",
+        "chapiteau",
+        "corniche",
+        "ardoise",
+        "pierre de taille",
+        "portail",
+        "porte",
+        "soupirail",
+        "arc en plein cintre",
+        "chaîne d'angle",
+        "mascaron",
+        "oculus",
+        "vantail",
+        "toit à deux versants"
+      ],
+      "dateCapture": "2006:04:22"
     },
     {
       "id_pic": "Pavee-24_4_§2",
@@ -48,48 +93,62 @@
         "fenetre",
         "fronton",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:04:22"
     },
     {
       "id_pic": "Pavee-24_4_§3",
       "IndexJantzen": [
         "tourelle"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:08:03"
     },
     {
       "id_pic": "Pavee-24_4_§4",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:04:22"
     },
     {
       "id_pic": "Pavee-24_4_§5",
       "IndexJantzen": [
         "fenetre-d'angle",
         "tourelle"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:08:03"
     },
     {
       "id_pic": "Pavee-24_4_§6",
       "IndexJantzen": [
         "fenetre-d'angle",
         "tourelle"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:08:03"
     },
     {
       "id_pic": "Pavee-24_4_§7",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:08:03"
     },
     {
       "id_pic": "Pavee-24_4_§8",
       "IndexJantzen": [
         "clé",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:04:22"
     }
   ]
 }

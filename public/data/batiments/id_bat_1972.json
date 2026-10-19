@@ -4,8 +4,16 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 205,
+      "personneID": 774,
       "role": "architecte"
+    },
+    {
+      "personneID": 10064,
+      "role": "sculpteur"
+    },
+    {
+      "personneID": 10046,
+      "role": "sculpteur"
     }
   ],
   "dateConstruction": "1840",
@@ -18,6 +26,7 @@
     "voie": "place Saint-Georges"
   },
   "arrondissement": 9,
+  "tri_alphab": "St-Georges-pl",
   "coordonnees": {
     "latitude": "48.878496",
     "longitude": "2.337741"
@@ -25,18 +34,49 @@
   "id_pss": null,
   "id_wikidata": null,
   "WPfr": null,
-  "image_ref": "St-Georges-pl-28_9_§10",
+  "image_ref": "St-Georges-pl-28_9_§3",
   "terme_jantzen_bat": [
-    "porte",
+    "porte-fer",
+    "sculpture",
+    "pilastre",
+    "clé",
+    "fenetre",
     "lucarne",
     "façade",
-    "porte-fer",
-    "fenetre",
-    "décor",
-    "sculpture",
-    "clé",
+    "porte",
+    "garde-corps",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "cariatide",
+    "chambranle",
+    "chapiteau",
+    "colonne",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "grille",
+    "linteau",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
     "pilastre",
-    "garde-corps"
+    "porte",
+    "sculpture",
+    "toit à deux versants",
+    "travée",
+    "vitrail",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -44,7 +84,9 @@
       "IndexJantzen": [
         "fenetre",
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:06:16"
     },
     {
       "id_pic": "St-Georges-pl-28_9_§11-Rs",
@@ -52,71 +94,93 @@
         "fenetre",
         "lucarne",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:02:18"
     },
     {
       "id_pic": "St-Georges-pl-28_9_§12",
       "IndexJantzen": [
         "fenetre",
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:06:16"
     },
     {
       "id_pic": "St-Georges-pl-28_9_§13-Rs",
       "IndexJantzen": [
         "lucarne",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:02:18"
     },
     {
       "id_pic": "St-Georges-pl-28_9_§14",
       "IndexJantzen": [
         "lucarne",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:08:26"
     },
     {
       "id_pic": "St-Georges-pl-28_9_§15",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:02:17"
     },
     {
       "id_pic": "St-Georges-pl-28_9_§16",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:02:18"
     },
     {
       "id_pic": "St-Georges-pl-28_9_§17",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:02:18"
     },
     {
       "id_pic": "St-Georges-pl-28_9_§18",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:02:17"
     },
     {
       "id_pic": "St-Georges-pl-28_9_§19-Rs",
       "IndexJantzen": [
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:02:18"
     },
     {
       "id_pic": "St-Georges-pl-28_9_§1-tt",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:02:17"
     },
     {
       "id_pic": "St-Georges-pl-28_9_§2",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:02:17"
     },
     {
       "id_pic": "St-Georges-pl-28_9_§20-Rs",
@@ -124,7 +188,9 @@
         "fenetre",
         "pilastre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:02:17"
     },
     {
       "id_pic": "St-Georges-pl-28_9_§21-Rs",
@@ -132,35 +198,45 @@
         "fenetre",
         "pilastre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:02:18"
     },
     {
       "id_pic": "St-Georges-pl-28_9_§22",
       "IndexJantzen": [
         "clé",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:02:17"
     },
     {
       "id_pic": "St-Georges-pl-28_9_§23",
       "IndexJantzen": [
         "clé",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:02:17"
     },
     {
       "id_pic": "St-Georges-pl-28_9_§24-Rs",
       "IndexJantzen": [
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:02:18"
     },
     {
       "id_pic": "St-Georges-pl-28_9_§25-Rs",
       "IndexJantzen": [
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:02:18"
     },
     {
       "id_pic": "St-Georges-pl-28_9_§26",
@@ -169,7 +245,9 @@
         "garde-corps",
         "pilastre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:02:17"
     },
     {
       "id_pic": "St-Georges-pl-28_9_§27",
@@ -177,7 +255,9 @@
         "fenetre",
         "garde-corps",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:02:17"
     },
     {
       "id_pic": "St-Georges-pl-28_9_§28",
@@ -185,38 +265,80 @@
         "fenetre",
         "pilastre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:08:09"
     },
     {
       "id_pic": "St-Georges-pl-28_9_§29-Rs",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:02:18"
     },
     {
       "id_pic": "St-Georges-pl-28_9_§3",
       "IndexJantzen": [
         "façade",
         "porte"
-      ]
+      ],
+      "IndexTorneh": [
+        "arc en plein cintre",
+        "arc",
+        "balcon",
+        "balustrade",
+        "bandeau",
+        "chapiteau",
+        "colonne",
+        "corniche",
+        "fenêtre",
+        "fronton",
+        "fer forgé",
+        "garde-corps",
+        "grille",
+        "lucarne",
+        "mansarde",
+        "mascaron",
+        "pilastre",
+        "porte",
+        "sculpture",
+        "toit à deux versants",
+        "travée",
+        "vitrail",
+        "ardoise",
+        "pierre de taille",
+        "cariatide",
+        "chambranle",
+        "linteau",
+        "oculus",
+        "épi de faîtage"
+      ],
+      "dateCapture": "2004:08:27"
     },
     {
       "id_pic": "St-Georges-pl-28_9_§30",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:08:09"
     },
     {
       "id_pic": "St-Georges-pl-28_9_§31-Rs",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:02:18"
     },
     {
       "id_pic": "St-Georges-pl-28_9_§32",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:08:09"
     },
     {
       "id_pic": "St-Georges-pl-28_9_§33-Rs",
@@ -224,82 +346,106 @@
         "fenetre",
         "pilastre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:02:18"
     },
     {
       "id_pic": "St-Georges-pl-28_9_§34",
       "IndexJantzen": [
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:02:17"
     },
     {
       "id_pic": "St-Georges-pl-28_9_§35",
       "IndexJantzen": [
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:08:09"
     },
     {
       "id_pic": "St-Georges-pl-28_9_§36-Rs",
       "IndexJantzen": [
         "pilastre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:02:18"
     },
     {
       "id_pic": "St-Georges-pl-28_9_§37",
       "IndexJantzen": [
         "pilastre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:08:09"
     },
     {
       "id_pic": "St-Georges-pl-28_9_§38-Rs",
       "IndexJantzen": [
         "pilastre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:02:17"
     },
     {
       "id_pic": "St-Georges-pl-28_9_§39",
       "IndexJantzen": [
         "pilastre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:08:09"
     },
     {
       "id_pic": "St-Georges-pl-28_9_§40",
       "IndexJantzen": [
         "fenetre",
         "garde-corps"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:08:09"
     },
     {
       "id_pic": "St-Georges-pl-28_9_§41",
       "IndexJantzen": [
         "fenetre",
         "garde-corps"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:02:17"
     },
     {
       "id_pic": "St-Georges-pl-28_9_§42",
       "IndexJantzen": [
         "fenetre",
         "garde-corps"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:02:17"
     },
     {
       "id_pic": "St-Georges-pl-28_9_§4-Rs",
       "IndexJantzen": [
         "porte-fer"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:02:17"
     },
     {
       "id_pic": "St-Georges-pl-28_9_§5",
       "IndexJantzen": [
         "porte-fer"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:02:17"
     },
     {
       "id_pic": "St-Georges-pl-28_9_§6-Rs",
@@ -308,7 +454,9 @@
         "fenetre",
         "lucarne",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:02:18"
     },
     {
       "id_pic": "St-Georges-pl-28_9_§7-Rs",
@@ -317,21 +465,27 @@
         "fenetre",
         "lucarne",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:02:18"
     },
     {
       "id_pic": "St-Georges-pl-28_9_§8-Rs",
       "IndexJantzen": [
         "fenetre",
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:02:17"
     },
     {
       "id_pic": "St-Georges-pl-28_9_§9",
       "IndexJantzen": [
         "fenetre",
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:08:26"
     }
   ]
 }

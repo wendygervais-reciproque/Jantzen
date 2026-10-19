@@ -13,6 +13,7 @@
     "voie": "rue de la Grande-Chaumière"
   },
   "arrondissement": 6,
+  "tri_alphab": "Grande-Chaumiere",
   "coordonnees": {
     "latitude": "48.842448",
     "longitude": "2.33097"
@@ -23,9 +24,26 @@
   "image_ref": "Grande-Chaumiere-6_6_§1",
   "terme_jantzen_bat": [
     "brique",
-    "façade",
     "verrière",
+    "façade",
     "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "baie",
+    "bandeau",
+    "brique",
+    "corniche",
+    "fenêtre",
+    "fer",
+    "fer forgé",
+    "grille",
+    "oculus",
+    "porte",
+    "travée",
+    "verrière",
+    "vitrail",
+    "volet"
   ],
   "photos": [
     {
@@ -34,14 +52,34 @@
         "brique",
         "façade",
         "verrière"
-      ]
+      ],
+      "IndexTorneh": [
+        "baie",
+        "arc en plein cintre",
+        "brique",
+        "fer",
+        "fer forgé",
+        "vitrail",
+        "porte",
+        "fenêtre",
+        "volet",
+        "grille",
+        "corniche",
+        "bandeau",
+        "verrière",
+        "travée",
+        "oculus"
+      ],
+      "dateCapture": "2005:05:09"
     },
     {
       "id_pic": "Grande-Chaumiere-6_6_§2",
       "IndexJantzen": [
         "brique",
         "porte-bois"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:05:09"
     }
   ]
 }

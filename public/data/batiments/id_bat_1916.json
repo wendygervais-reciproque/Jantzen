@@ -4,7 +4,11 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 334,
+      "personneID": 826,
+      "role": "architecte"
+    },
+    {
+      "personneID": 832,
       "role": "architecte"
     }
   ],
@@ -18,6 +22,7 @@
     "voie": "rue Vavin"
   },
   "arrondissement": 6,
+  "tri_alphab": "Vavin",
   "coordonnees": {
     "latitude": "48.843676",
     "longitude": "2.330028"
@@ -27,11 +32,28 @@
   "WPfr": null,
   "image_ref": "Vavin-26_6_§1",
   "terme_jantzen_bat": [
+    "balcon",
+    "fenetre",
     "façade",
     "céramique",
-    "fenetre",
-    "balcon",
     "garde-corps"
+  ],
+  "terme_torneh_bat": [
+    "avant-corps",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "céramique",
+    "fenêtre",
+    "garde-corps",
+    "oculus",
+    "porte",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "travée",
+    "verrière",
+    "volet"
   ],
   "photos": [
     {
@@ -39,14 +61,34 @@
       "IndexJantzen": [
         "céramique",
         "façade"
-      ]
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "porte",
+        "porte-fenêtre",
+        "volet",
+        "céramique",
+        "brique",
+        "travée",
+        "souche de cheminée",
+        "bandeau",
+        "avant-corps",
+        "oculus",
+        "verrière"
+      ],
+      "dateCapture": "2005:05:09"
     },
     {
       "id_pic": "Vavin-26_6_§1b",
       "IndexJantzen": [
         "céramique",
         "façade"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": null
     },
     {
       "id_pic": "Vavin-26_6_§2",
@@ -54,7 +96,9 @@
         "balcon",
         "céramique",
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:05:09"
     },
     {
       "id_pic": "Vavin-26_6_§3",
@@ -62,7 +106,9 @@
         "balcon",
         "céramique",
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:05:09"
     },
     {
       "id_pic": "Vavin-26_6_§4",
@@ -70,14 +116,18 @@
         "céramique",
         "fenetre",
         "garde-corps"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:05:09"
     },
     {
       "id_pic": "Vavin-26_6_§5",
       "IndexJantzen": [
         "céramique",
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:05:09"
     }
   ]
 }

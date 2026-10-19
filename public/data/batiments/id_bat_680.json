@@ -4,8 +4,16 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 696,
+      "personneID": 948,
       "role": "architecte"
+    },
+    {
+      "personneID": 10095,
+      "role": "sculpteur"
+    },
+    {
+      "personneID": 10082,
+      "role": "sculpteur"
     }
   ],
   "dateConstruction": "1899",
@@ -18,6 +26,7 @@
     "voie": "rue Mélingue"
   },
   "arrondissement": 19,
+  "tri_alphab": "Melingue",
   "coordonnees": {
     "latitude": "48.875162",
     "longitude": "2.3859"
@@ -27,7 +36,21 @@
   "WPfr": null,
   "image_ref": "Melingue-12_19_§1",
   "terme_jantzen_bat": [
-    "console",
+    "sculpture",
+    "console"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "grille",
+    "pierre de taille",
     "sculpture"
   ],
   "photos": [
@@ -36,7 +59,22 @@
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [
+        "balustrade",
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "sculpture",
+        "arc",
+        "chaîne d'angle",
+        "fenêtre",
+        "grille",
+        "pierre de taille",
+        "bandeau",
+        "corniche"
+      ],
+      "dateCapture": "2005:09:02"
     }
   ]
 }

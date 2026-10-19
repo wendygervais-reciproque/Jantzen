@@ -4,8 +4,12 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 261,
+      "personneID": 812,
       "role": "architecte"
+    },
+    {
+      "personneID": 10014,
+      "role": "céramiste"
     }
   ],
   "dateConstruction": "1900",
@@ -18,6 +22,7 @@
     "voie": "avenue de Ségur"
   },
   "arrondissement": 15,
+  "tri_alphab": "Segur",
   "coordonnees": {
     "latitude": "48.84719",
     "longitude": "2.30508"
@@ -27,13 +32,30 @@
   "WPfr": null,
   "image_ref": "Segur-50_15_§1",
   "terme_jantzen_bat": [
-    "céramique",
-    "métal",
     "porte-fer",
-    "brique",
-    "décor",
+    "oriel",
     "console",
-    "oriel"
+    "brique",
+    "métal",
+    "céramique",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "brique",
+    "corniche",
+    "céramique",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "modillon",
+    "oculus",
+    "oriel",
+    "pierre de taille",
+    "sculpture",
+    "travée"
   ],
   "photos": [
     {
@@ -42,7 +64,25 @@
         "brique",
         "céramique",
         "oriel"
-      ]
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "brique",
+        "céramique",
+        "oriel",
+        "oculus",
+        "sculpture",
+        "modillon",
+        "corniche",
+        "balustrade",
+        "mascaron",
+        "fer forgé",
+        "travée",
+        "pierre de taille"
+      ],
+      "dateCapture": "2006:04:04"
     },
     {
       "id_pic": "Segur-50_15_§11",
@@ -51,25 +91,33 @@
         "céramique",
         "décor",
         "métal"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:05:23"
     },
     {
       "id_pic": "Segur-50_15_§12",
       "IndexJantzen": [
         "porte-fer"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:06:09"
     },
     {
       "id_pic": "Segur-50_15_§13",
       "IndexJantzen": [
         "porte-fer"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:03:16"
     },
     {
       "id_pic": "Segur-50_15_§14",
       "IndexJantzen": [
         "porte-fer"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:03:16"
     },
     {
       "id_pic": "Segur-50_15_§2",
@@ -77,7 +125,9 @@
         "brique",
         "céramique",
         "oriel"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:04:04"
     },
     {
       "id_pic": "Segur-50_15_§3",
@@ -86,7 +136,9 @@
         "céramique",
         "décor",
         "oriel"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:04:04"
     },
     {
       "id_pic": "Segur-50_15_§4",
@@ -94,7 +146,9 @@
         "brique",
         "céramique",
         "décor"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:04:04"
     },
     {
       "id_pic": "Segur-50_15_§6",
@@ -103,7 +157,9 @@
         "céramique",
         "décor",
         "oriel"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:06:09"
     },
     {
       "id_pic": "Segur-50_15_§7",
@@ -111,7 +167,9 @@
         "brique",
         "céramique",
         "décor"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:04:04"
     },
     {
       "id_pic": "Segur-50_15_§8",
@@ -120,7 +178,9 @@
         "console",
         "céramique",
         "métal"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:06:09"
     },
     {
       "id_pic": "Segur-50_15_§9",
@@ -129,7 +189,9 @@
         "console",
         "céramique",
         "métal"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:06:09"
     }
   ]
 }

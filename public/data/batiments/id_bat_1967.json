@@ -2,7 +2,16 @@
   "id_bat": 1967,
   "libelle": "28 boulevard de la Bastille",
   "ensemble": null,
-  "personnes": null,
+  "personnes": [
+    {
+      "personneID": 693,
+      "role": "architecte"
+    },
+    {
+      "personneID": 692,
+      "role": "architecte"
+    }
+  ],
   "dateConstruction": null,
   "periode": [
     "1895-1914"
@@ -13,6 +22,7 @@
     "voie": "boulevard de la Bastille"
   },
   "arrondissement": 12,
+  "tri_alphab": "Bastille-bd",
   "coordonnees": {
     "latitude": "48.849335",
     "longitude": "2.368423"
@@ -22,9 +32,25 @@
   "WPfr": null,
   "image_ref": "Bastille-bd-28_12_§1",
   "terme_jantzen_bat": [
+    "sculpture",
     "clé",
-    "porte-bois",
-    "sculpture"
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "balcon",
+    "chambranle",
+    "fer forgé",
+    "garde-corps",
+    "heurtoir",
+    "jambage",
+    "mascaron",
+    "pierre de taille",
+    "pilastre",
+    "portail",
+    "porte",
+    "sculpture",
+    "vantail"
   ],
   "photos": [
     {
@@ -32,14 +58,33 @@
       "IndexJantzen": [
         "clé",
         "porte-bois"
-      ]
+      ],
+      "IndexTorneh": [
+        "porte",
+        "vantail",
+        "portail",
+        "mascaron",
+        "sculpture",
+        "pierre de taille",
+        "arc",
+        "heurtoir",
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "pilastre",
+        "chambranle",
+        "jambage"
+      ],
+      "dateCapture": "2005:07:12"
     },
     {
       "id_pic": "Bastille-bd-28_12_§2",
       "IndexJantzen": [
         "clé",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:07:12"
     }
   ]
 }

@@ -4,8 +4,12 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 336,
+      "personneID": 683,
       "role": "architecte"
+    },
+    {
+      "personneID": 10059,
+      "role": "sculpteur"
     }
   ],
   "dateConstruction": "1896",
@@ -18,6 +22,7 @@
     "voie": "rue de Lübeck"
   },
   "arrondissement": 16,
+  "tri_alphab": "Lubeck",
   "coordonnees": {
     "latitude": "48.866068",
     "longitude": "2.293393"
@@ -27,9 +32,27 @@
   "WPfr": null,
   "image_ref": "Lubeck-15_16_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "sculpture",
-    "garde-corps"
+    "garde-corps",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "mascaron",
+    "oculus",
+    "oriel",
+    "pierre de taille",
+    "porte-fenêtre",
+    "sculpture",
+    "volet"
   ],
   "photos": [
     {
@@ -38,14 +61,35 @@
         "fenetre",
         "garde-corps",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "porte-fenêtre",
+        "garde-corps",
+        "fer forgé",
+        "arc",
+        "oriel",
+        "mascaron",
+        "sculpture",
+        "corniche",
+        "ardoise",
+        "pierre de taille",
+        "fronton",
+        "oculus",
+        "volet"
+      ],
+      "dateCapture": "2004:10:22"
     },
     {
       "id_pic": "Lubeck-15_16_§2",
       "IndexJantzen": [
         "fenetre",
         "garde-corps"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:10:22"
     }
   ]
 }

@@ -4,7 +4,11 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 114,
+      "personneID": 190,
+      "role": "architecte"
+    },
+    {
+      "personneID": 754,
       "role": "architecte"
     }
   ],
@@ -18,6 +22,7 @@
     "voie": "rue de Rennes"
   },
   "arrondissement": 6,
+  "tri_alphab": "Rennes",
   "coordonnees": {
     "latitude": "48.848334",
     "longitude": "2.328335"
@@ -29,12 +34,59 @@
   "terme_jantzen_bat": [
     "façade"
   ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "vantail",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Rennes-113_6_§1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "garde-corps",
+        "corniche",
+        "bandeau",
+        "pierre de taille",
+        "mansarde",
+        "ardoise",
+        "lucarne",
+        "porte",
+        "vantail",
+        "volet",
+        "chambranle",
+        "fer forgé",
+        "toit à deux versants",
+        "souche de cheminée",
+        "mascaron",
+        "pilastre",
+        "travée",
+        "porte-fenêtre"
+      ],
+      "dateCapture": "2004:03:30"
     }
   ]
 }

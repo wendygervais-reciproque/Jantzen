@@ -4,7 +4,11 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 555,
+      "personneID": 320,
+      "role": "architecte"
+    },
+    {
+      "personneID": 734,
       "role": "architecte"
     }
   ],
@@ -18,6 +22,7 @@
     "voie": "rue du Père-Brottier"
   },
   "arrondissement": 16,
+  "tri_alphab": "Pere-Brottier",
   "coordonnees": {
     "latitude": "48.84995",
     "longitude": "2.270985"
@@ -28,18 +33,57 @@
   "image_ref": "Pere-Brottier-9_16_§1",
   "terme_jantzen_bat": [
     "porte-fer",
-    "fenetre",
-    "décor",
     "sculpture",
     "console",
-    "porte-fer-hall"
+    "fenetre",
+    "porte-fer-hall",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "baie",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "bossage",
+    "chambranle",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "oculus",
+    "oriel",
+    "pierre de taille",
+    "sculpture",
+    "souche de cheminée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Pere-Brottier-9_16_§1",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "volet",
+        "oriel",
+        "arc",
+        "arc en plein cintre",
+        "bandeau",
+        "pierre de taille",
+        "sculpture",
+        "fer forgé",
+        "souche de cheminée",
+        "chambranle",
+        "bossage",
+        "oculus",
+        "baie"
+      ],
+      "dateCapture": null
     },
     {
       "id_pic": "Pere-Brottier-9_16_§2",
@@ -47,35 +91,45 @@
         "décor",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:05:18"
     },
     {
       "id_pic": "Pere-Brottier-9_16_§3",
       "IndexJantzen": [
         "console",
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:05:18"
     },
     {
       "id_pic": "Pere-Brottier-9_16_§4",
       "IndexJantzen": [
         "fenetre",
         "porte-fer-hall"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:07:24"
     },
     {
       "id_pic": "Pere-Brottier-9_16_§5",
       "IndexJantzen": [
         "fenetre",
         "porte-fer"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:05:18"
     },
     {
       "id_pic": "Pere-Brottier-9_16_§6",
       "IndexJantzen": [
         "fenetre",
         "porte-fer"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:05:18"
     }
   ]
 }

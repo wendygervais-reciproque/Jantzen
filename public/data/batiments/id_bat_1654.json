@@ -13,6 +13,7 @@
     "voie": "boulevard Pereire"
   },
   "arrondissement": 17,
+  "tri_alphab": "Pereire",
   "coordonnees": {
     "latitude": "48.879285",
     "longitude": "2.286228"
@@ -22,8 +23,28 @@
   "WPfr": null,
   "image_ref": "Pereire-214-210_17_§1",
   "terme_jantzen_bat": [
+    "toiture",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
     "lucarne",
-    "toiture"
+    "mansarde",
+    "oriel",
+    "pierre de taille",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "volet",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -31,14 +52,37 @@
       "IndexJantzen": [
         "lucarne",
         "toiture"
-      ]
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "mansarde",
+        "lucarne",
+        "dôme",
+        "souche de cheminée",
+        "garde-corps",
+        "corniche",
+        "bandeau",
+        "pierre de taille",
+        "ardoise",
+        "toit à deux versants",
+        "fer forgé",
+        "épi de faîtage",
+        "travée",
+        "volet",
+        "oriel"
+      ],
+      "dateCapture": "2006:04:03"
     },
     {
       "id_pic": "Pereire-214-210_17_§2",
       "IndexJantzen": [
         "lucarne",
         "toiture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:04:03"
     }
   ]
 }

@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 87,
+      "personneID": 176,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue de Rennes"
   },
   "arrondissement": 6,
+  "tri_alphab": "Rennes",
   "coordonnees": {
     "latitude": "48.84874",
     "longitude": "2.328325"
@@ -30,13 +31,46 @@
     "fenetre",
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "chambranle",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "gros appareil",
+    "huisserie",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Rennes-108_6_§1",
       "IndexJantzen": [
         "fenetre",
         "porte-bois"
-      ]
+      ],
+      "IndexTorneh": [
+        "porte",
+        "vantail",
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "balustrade",
+        "sculpture",
+        "pierre de taille",
+        "gros appareil",
+        "chambranle",
+        "fronton",
+        "huisserie",
+        "mascaron"
+      ],
+      "dateCapture": "2005:09:21"
     }
   ]
 }

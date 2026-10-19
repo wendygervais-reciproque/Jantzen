@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 351,
+      "personneID": 128,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue des Meuniers"
   },
   "arrondissement": 12,
+  "tri_alphab": "Meuniers",
   "coordonnees": {
     "latitude": "48.836293",
     "longitude": "2.393252"
@@ -27,17 +28,36 @@
   "WPfr": null,
   "image_ref": "Meuniers-67_12_§1",
   "terme_jantzen_bat": [
-    "lucarne",
+    "mosaique",
     "façade-d'angle",
+    "porte-fer",
+    "console",
+    "fenetre",
+    "fenetre-d'angle",
+    "lucarne",
+    "brique",
     "métal",
     "lucarne-d'angle",
-    "porte-fer",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
     "brique",
-    "fenetre",
-    "décor",
-    "fenetre-d'angle",
-    "console",
-    "mosaique"
+    "céramique",
+    "fenêtre",
+    "garde-corps",
+    "lucarne",
+    "oriel",
+    "pierre de taille",
+    "porte",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "tuile",
+    "volet"
   ],
   "photos": [
     {
@@ -45,7 +65,27 @@
       "IndexJantzen": [
         "brique",
         "façade-d'angle"
-      ]
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "souche de cheminée",
+        "lucarne",
+        "céramique",
+        "brique",
+        "volet",
+        "travée",
+        "oriel",
+        "bandeau",
+        "toit à deux versants",
+        "tuile",
+        "porte",
+        "porte-fenêtre",
+        "pierre de taille"
+      ],
+      "dateCapture": "2006:07:14"
     },
     {
       "id_pic": "Meuniers-67_12_§10",
@@ -54,7 +94,9 @@
         "console",
         "fenetre",
         "métal"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:07:13"
     },
     {
       "id_pic": "Meuniers-67_12_§11",
@@ -62,7 +104,9 @@
         "brique",
         "mosaique",
         "porte-fer"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:07:13"
     },
     {
       "id_pic": "Meuniers-67_12_§12",
@@ -70,7 +114,9 @@
         "brique",
         "mosaique",
         "porte-fer"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:07:13"
     },
     {
       "id_pic": "Meuniers-67_12_§2",
@@ -78,7 +124,9 @@
         "brique",
         "décor",
         "fenetre-d'angle"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:07:14"
     },
     {
       "id_pic": "Meuniers-67_12_§3",
@@ -86,21 +134,27 @@
         "brique",
         "fenetre-d'angle",
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:07:13"
     },
     {
       "id_pic": "Meuniers-67_12_§4",
       "IndexJantzen": [
         "brique",
         "lucarne-d'angle"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:07:13"
     },
     {
       "id_pic": "Meuniers-67_12_§5",
       "IndexJantzen": [
         "brique",
         "fenetre-d'angle"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:07:13"
     },
     {
       "id_pic": "Meuniers-67_12_§6",
@@ -108,14 +162,18 @@
         "brique",
         "décor",
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:07:14"
     },
     {
       "id_pic": "Meuniers-67_12_§7",
       "IndexJantzen": [
         "brique",
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:07:13"
     },
     {
       "id_pic": "Meuniers-67_12_§8",
@@ -123,7 +181,9 @@
         "brique",
         "fenetre",
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:07:13"
     },
     {
       "id_pic": "Meuniers-67_12_§9",
@@ -132,7 +192,9 @@
         "console",
         "fenetre",
         "métal"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:07:13"
     }
   ]
 }

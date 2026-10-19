@@ -1,0 +1,78 @@
+{
+  "id_bat": 2164,
+  "libelle": "30B rue de Surène",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 150,
+      "role": "architecte"
+    },
+    {
+      "personneID": 121,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1925",
+  "periode": [
+    "1915-1944"
+  ],
+  "adresse": {
+    "affichage": "30B rue de Surène",
+    "numero": "30B",
+    "voie": "rue de Surène"
+  },
+  "arrondissement": 8,
+  "tri_alphab": "Surene",
+  "coordonnees": {
+    "latitude": "48.871539",
+    "longitude": "2.319108"
+  },
+  "id_pss": 77430,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": "Surene-30B_8_§1",
+  "terme_jantzen_bat": [
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "avant-corps",
+    "balcon",
+    "balustrade",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "oculus",
+    "pierre de taille",
+    "travée"
+  ],
+  "photos": [
+    {
+      "id_pic": "Surene-30B_8_§1",
+      "IndexJantzen": [
+        "fenetre"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "arc en plein cintre",
+        "balustrade",
+        "avant-corps",
+        "travée",
+        "pierre de taille",
+        "oculus",
+        "fer forgé"
+      ],
+      "dateCapture": "2008:06:21"
+    },
+    {
+      "id_pic": "Surene-30B_8_§2",
+      "IndexJantzen": [
+        "fenetre"
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:06:21"
+    }
+  ]
+}

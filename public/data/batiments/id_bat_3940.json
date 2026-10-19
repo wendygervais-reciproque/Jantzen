@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 166,
+      "personneID": 259,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue du Bac"
   },
   "arrondissement": 7,
+  "tri_alphab": "Bac",
   "coordonnees": {
     "latitude": "48.853159",
     "longitude": "2.323796"
@@ -27,7 +28,17 @@
   "WPfr": null,
   "image_ref": "Bac-99_7_§1",
   "terme_jantzen_bat": [
-    "console",
+    "sculpture",
+    "console"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "balcon",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "pierre de taille",
     "sculpture"
   ],
   "photos": [
@@ -36,14 +47,27 @@
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [
+        "mascaron",
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "pierre de taille",
+        "arc",
+        "sculpture"
+      ],
+      "dateCapture": "2005:04:17"
     },
     {
       "id_pic": "Bac-99_7§2",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:04:17"
     }
   ]
 }

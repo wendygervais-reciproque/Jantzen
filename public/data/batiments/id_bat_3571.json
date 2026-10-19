@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 319,
+      "personneID": 789,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue Rembrandt"
   },
   "arrondissement": 8,
+  "tri_alphab": "Rembrandt",
   "coordonnees": {
     "latitude": "48.877432",
     "longitude": "2.308208"
@@ -25,12 +26,33 @@
   "id_pss": 10181,
   "id_wikidata": null,
   "WPfr": null,
-  "image_ref": "Rembrandt_7A_8_04",
+  "image_ref": "Rembrandt_7A_8_09",
   "terme_jantzen_bat": [
-    "console",
+    "oriel",
     "métal",
-    "décor",
-    "oriel"
+    "console",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oriel",
+    "pierre de taille",
+    "sculpture",
+    "souche de cheminée",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -38,7 +60,9 @@
       "IndexJantzen": [
         "métal",
         "oriel"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2003:08:13"
     },
     {
       "id_pic": "Rembrandt_7A_8_07",
@@ -46,14 +70,38 @@
         "console",
         "décor",
         "métal"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2003:08:13"
     },
     {
       "id_pic": "Rembrandt_7A_8_09",
       "IndexJantzen": [
         "métal",
         "oriel"
-      ]
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "lucarne",
+        "mansarde",
+        "oriel",
+        "arc en plein cintre",
+        "volet",
+        "souche de cheminée",
+        "sculpture",
+        "mascaron",
+        "pierre de taille",
+        "ardoise",
+        "fronton",
+        "corniche",
+        "bandeau",
+        "travée"
+      ],
+      "dateCapture": "2003:08:13"
     }
   ]
 }

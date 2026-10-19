@@ -13,6 +13,7 @@
     "voie": "rue Saint-Antoine"
   },
   "arrondissement": 4,
+  "tri_alphab": "St-Antoine",
   "coordonnees": {
     "latitude": "48.854759",
     "longitude": "2.361743"
@@ -26,6 +27,22 @@
     "dome",
     "toiture"
   ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "corniche",
+    "coupole",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "grille",
+    "lucarne",
+    "pierre de taille",
+    "portail",
+    "souche de cheminée",
+    "toit à deux versants",
+    "vitrail"
+  ],
   "photos": [
     {
       "id_pic": "St-Antoine-99_4_§1",
@@ -33,7 +50,24 @@
         "dome",
         "façade",
         "toiture"
-      ]
+      ],
+      "IndexTorneh": [
+        "dôme",
+        "coupole",
+        "arc en plein cintre",
+        "fenêtre",
+        "pierre de taille",
+        "toit à deux versants",
+        "vitrail",
+        "souche de cheminée",
+        "corniche",
+        "grille",
+        "portail",
+        "arc",
+        "fer forgé",
+        "lucarne"
+      ],
+      "dateCapture": "2011:08:20"
     },
     {
       "id_pic": "St-Antoine-99_4_§2",
@@ -41,26 +75,34 @@
         "dome",
         "façade",
         "toiture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:07:10"
     },
     {
       "id_pic": "St-Antoine-99_4_§3",
       "IndexJantzen": [
         "dome",
         "façade"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2011:08:20"
     },
     {
       "id_pic": "St-Antoine-99_4_§4-Rs",
       "IndexJantzen": [
         "dome"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:07:10"
     },
     {
       "id_pic": "St-Antoine-99_4_§5",
       "IndexJantzen": [
         "dome"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2011:08:20"
     }
   ]
 }

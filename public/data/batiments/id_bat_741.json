@@ -2,7 +2,12 @@
   "id_bat": 741,
   "libelle": "126 rue Réaumur",
   "ensemble": null,
-  "personnes": null,
+  "personnes": [
+    {
+      "personneID": 553,
+      "role": "architecte"
+    }
+  ],
   "dateConstruction": null,
   "periode": [
     "1895-1914"
@@ -13,6 +18,7 @@
     "voie": "rue Réaumur"
   },
   "arrondissement": 2,
+  "tri_alphab": "Reaumur",
   "coordonnees": {
     "latitude": "48.868199",
     "longitude": "2.343941"
@@ -22,11 +28,29 @@
   "WPfr": null,
   "image_ref": "Reaumur-126_2_§1",
   "terme_jantzen_bat": [
-    "lucarne",
-    "métal",
+    "verrière",
     "dome",
     "clé",
+    "lucarne",
+    "métal",
+    "colonne"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "chapiteau",
+    "chaîne d'angle",
     "colonne",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "modillon",
+    "pierre de taille",
+    "pilastre",
+    "travée",
     "verrière"
   ],
   "photos": [
@@ -35,42 +59,71 @@
       "IndexJantzen": [
         "métal",
         "verrière"
-      ]
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "arc en plein cintre",
+        "chaîne d'angle",
+        "corniche",
+        "modillon",
+        "colonne",
+        "pilastre",
+        "fer forgé",
+        "verrière",
+        "travée",
+        "chapiteau",
+        "mascaron",
+        "pierre de taille"
+      ],
+      "dateCapture": "2004:04:25"
     },
     {
       "id_pic": "Reaumur-126_2_§2",
       "IndexJantzen": [
         "métal",
         "verrière"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:04:25"
     },
     {
       "id_pic": "Reaumur-126_2_§3",
       "IndexJantzen": [
         "colonne",
         "métal"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:08:21"
     },
     {
       "id_pic": "Reaumur-126_2_§4",
       "IndexJantzen": [
         "métal",
         "verrière"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:08:21"
     },
     {
       "id_pic": "Reaumur-126_2_§5",
       "IndexJantzen": [
         "dome",
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:02:17"
     },
     {
       "id_pic": "Reaumur-126_2_§6",
       "IndexJantzen": [
         "dome",
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:02:17"
     },
     {
       "id_pic": "Reaumur-126_2_§7",
@@ -78,7 +131,9 @@
         "clé",
         "dome",
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:08:21"
     }
   ]
 }

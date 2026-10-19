@@ -4,7 +4,11 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 364,
+      "personneID": 402,
+      "role": "architecte"
+    },
+    {
+      "personneID": 488,
       "role": "architecte"
     }
   ],
@@ -18,6 +22,7 @@
     "voie": "rue Lagrange"
   },
   "arrondissement": 5,
+  "tri_alphab": "Lagrange",
   "coordonnees": {
     "latitude": "48.851504",
     "longitude": "2.347988"
@@ -29,12 +34,53 @@
   "terme_jantzen_bat": [
     "oriel"
   ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "auvent",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mansarde",
+    "mascaron",
+    "modillon",
+    "oriel",
+    "pierre de taille",
+    "porte-fenêtre",
+    "sculpture",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Lagrange-9_5_§1",
       "IndexJantzen": [
         "oriel"
-      ]
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "balustrade",
+        "fenêtre",
+        "porte-fenêtre",
+        "volet",
+        "oriel",
+        "corniche",
+        "bandeau",
+        "pierre de taille",
+        "mascaron",
+        "modillon",
+        "ardoise",
+        "auvent",
+        "mansarde",
+        "sculpture",
+        "chambranle"
+      ],
+      "dateCapture": "2006:06:06"
     }
   ]
 }

@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 497,
+      "personneID": 671,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue Jouffroy-d'Abbans"
   },
   "arrondissement": 17,
+  "tri_alphab": "Jouffroy-d'Abbans",
   "coordonnees": {
     "latitude": "48.884752",
     "longitude": "2.30621"
@@ -27,14 +28,40 @@
   "WPfr": null,
   "image_ref": "Jouffroy-d'Abbans-60_17_§1",
   "terme_jantzen_bat": [
-    "lucarne",
-    "façade",
-    "brique",
-    "fenetre",
-    "décor",
-    "sculpture",
     "pilastre",
-    "garde-corps"
+    "sculpture",
+    "fenetre",
+    "lucarne",
+    "brique",
+    "façade",
+    "garde-corps",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "acrotère",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "huisserie",
+    "lucarne",
+    "mascaron",
+    "oculus",
+    "oriel",
+    "pierre de taille",
+    "porte",
+    "porte-fenêtre",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "vantail"
   ],
   "photos": [
     {
@@ -42,7 +69,34 @@
       "IndexJantzen": [
         "brique",
         "façade"
-      ]
+      ],
+      "IndexTorneh": [
+        "lucarne",
+        "oriel",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "porte",
+        "porte-fenêtre",
+        "vantail",
+        "brique",
+        "pierre de taille",
+        "souche de cheminée",
+        "oculus",
+        "mascaron",
+        "sculpture",
+        "ardoise",
+        "toit à deux versants",
+        "bandeau",
+        "corniche",
+        "chambranle",
+        "huisserie",
+        "fer forgé",
+        "travée",
+        "acrotère"
+      ],
+      "dateCapture": "2006:06:16"
     },
     {
       "id_pic": "Jouffroy-d'Abbans-60_17_§2",
@@ -51,7 +105,9 @@
         "fenetre",
         "lucarne",
         "pilastre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:06:16"
     },
     {
       "id_pic": "Jouffroy-d'Abbans-60_17_§3",
@@ -61,7 +117,9 @@
         "fenetre",
         "garde-corps",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:06:16"
     }
   ]
 }

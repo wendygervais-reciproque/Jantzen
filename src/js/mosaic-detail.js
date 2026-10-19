@@ -1,38 +1,44 @@
-/**
- * mosaic-detail.js — Volet de détail du bâtiment sélectionné.
- *
- * Nommé d'après son origine (volet gauche docké de la vue mosaïque), mais
- * désormais commun aux deux vues : rassemble les informations du bâtiment
- * sélectionné et ses photographies (empilées, puis réparties en rangées quand
- * le volet est élargi), en carte comme en mosaïque.
- */
+/** mosaic-detail.js — Volet de détail du bâtiment sélectionné. */
 
-/* ⚙️ RÉGLAGES — largeur du volet détail (gauche) de la mosaïque, en pixels. */
-const MD_MIN = 400, MD_MAX = 900;   // défaut = min ; la tirette n'élargit que
-const PANEL_STEP = 40;              // pas de redimensionnement au clavier
+const MD_MIN = 400, MD_MAX = 900;
+const PANEL_STEP = 40;
 
-/* ⚙️ RÉGLAGES — mosaïque justifiée des photos. La hauteur de rangée visée croît
-   avec la largeur du conteneur : plus le volet est large, plus les rangées sont
-   hautes (donc moins de photos, mais plus grandes, par rangée). */
-const ROW_H_MIN = 240, ROW_H_MAX = 400;   // hauteur de rangée visée, en px…
-const ROW_W_MIN = 400, ROW_W_MAX = 900;   // …interpolée entre ces largeurs de conteneur
-const DEFAULT_RATIO = 3 / 4;               // ratio portrait, dominant dans le fonds
 
-// Photos du bâtiment courant (non filtrées) et filtre du multiselect
-// « élément architectural », qui restreint la galerie à ces termes. Repris du
-// carrousel disparu ; fonctionne comme lui indépendamment des filtres globaux.
+const ROW_H_MIN = 240, ROW_H_MAX = 400;   // hauteur de rangée visée, en px
+const ROW_W_MIN = 400, ROW_W_MAX = 900;   // interpolée entre ces largeurs de conteneur
+const DEFAULT_RATIO = 3 / 4;               // ratio portrait (le plus fréquent)
+
 let mdPhotos      = [];
 let mdPhotoFilter = new Set();
-let mdBatId       = null;   // pour ignorer une réponse de loadPhotoRatios() obsolète
+let mdBatId       = null;   
 
 /* ─── OUVERTURE / FERMETURE ─────────────────────────────────────────────── */
 
-async function openMosaicDetail(id_bat) {
+function isMobileLayout() {
+  return window.matchMedia('(max-width: 900px)').matches;
+}
+
+/**
+ * @param {number|string} id_bat
+ * @param {{moveFocus?: boolean}} [opts]
+ */
+async function openMosaicDetail(id_bat, opts = {}) {
+  const { moveFocus = false } = opts;
   const panel = document.getElementById('mosaic-detail');
   if (!panel) return;
 
+  panel.classList.remove('is-closing');
   panel.hidden = false;
   document.getElementById('app')?.classList.add('has-detail');
+
+  if (isMobileLayout()) {
+    panel.setAttribute('role', 'dialog');
+    panel.setAttribute('aria-modal', 'true');
+    if (typeof setAppSiblingsInert === 'function') setAppSiblingsInert(panel, true);
+    panel.classList.add('is-opening');
+    panel.addEventListener('animationend', () => panel.classList.remove('is-opening'), { once: true });
+  }
+  if (moveFocus) document.getElementById('mosaic-detail-close')?.focus();
 
   const info   = document.getElementById('md-info');
   const photos = document.getElementById('md-photos');
@@ -40,8 +46,8 @@ async function openMosaicDetail(id_bat) {
   if (info)   info.innerHTML = '<p class="md-loading">Chargement…</p>';
   if (photos) photos.innerHTML = '';
   if (header) header.hidden = true;
-  closeMdElementMenu();
   mdPhotoFilter.clear();   // nouvelle sélection : on repart d'une galerie non filtrée
+  resetMosaicScroll();
 
   let data;
   try {
@@ -50,25 +56,93 @@ async function openMosaicDetail(id_bat) {
     if (info) info.innerHTML = '<p class="md-loading">Erreur de chargement.</p>';
     return;
   }
-  // Une autre sélection a pu aboutir entre-temps.
   if (String(selectedId) !== String(id_bat)) return;
 
   renderMosaicInfo(data);
   renderMosaicPhotos(data);
-  panel.scrollTop = 0;
+  resetMosaicScroll();
+}
+
+/** Remonte le volet en haut (le défilement se fait dans #mosaic-detail-body). */
+function resetMosaicScroll() {
+  const body = document.getElementById('mosaic-detail-body');
+  if (body) body.scrollTop = 0;
 }
 
 function closeMosaicDetail() {
   const panel = document.getElementById('mosaic-detail');
-  if (panel) panel.hidden = true;
+  if (panel) {
+    const wasModal = panel.hasAttribute('aria-modal');
+    if (wasModal) {
+      panel.removeAttribute('role');
+      panel.removeAttribute('aria-modal');
+      if (typeof setAppSiblingsInert === 'function') setAppSiblingsInert(panel, false);
+    }
+
+    panel.classList.remove('is-opening');
+
+    if (wasModal) {
+      panel.classList.add('is-closing');
+      const finish = () => { panel.classList.remove('is-closing'); panel.hidden = true; };
+      panel.addEventListener('animationend', finish, { once: true });
+      setTimeout(finish, 300);
+    } else {
+      panel.hidden = true;
+    }
+  }
   document.getElementById('app')?.classList.remove('has-detail');
   teardownMosaicLayout();
-  closeMdElementMenu();
   mdPhotos = [];
   mdPhotoFilter.clear();
 }
 
 /* ─── RENDU DES INFOS ───────────────────────────────────────────────────── */
+
+function dateIndicative(data) {
+  const periodes = Array.isArray(data.periode) ? data.periode
+                 : (data.periode ? [data.periode] : []);
+  const parts = [...periodes, data.dateConstruction]
+    .map(v => String(v || '').trim())
+    .filter(Boolean);
+  return [...new Set(parts)].join(' · ');
+}
+
+/* ─── INFOBULLES ACCESSIBLES ─────────────────────────────────────────────
+ * Motif WAI-ARIA « tooltip » : affichée au survol et au focus clavier, masquée
+ * à la sortie, à la perte de focus ou à Échap (RGAA 12.9). */
+let tooltipIdSeq = 0;
+
+function attachTooltip(el, text) {
+  const id = `tooltip-${++tooltipIdSeq}`;
+  el.classList.add('has-tooltip');
+  el.tabIndex = 0;
+  el.setAttribute('aria-describedby', id);
+  el.setAttribute('aria-label', el.textContent.trim());
+
+  const bubble = document.createElement('span');
+  bubble.className = 'tooltip';
+  bubble.id = id;
+  bubble.setAttribute('role', 'tooltip');
+  bubble.textContent = text;
+  el.appendChild(bubble);
+
+  const show = () => el.classList.add('tooltip-visible');
+  const hide = () => el.classList.remove('tooltip-visible');
+  el.addEventListener('mouseenter', show);
+  el.addEventListener('mouseleave', hide);
+  el.addEventListener('focus', show);
+  el.addEventListener('blur', hide);
+  el.addEventListener('keydown', e => { if (e.key === 'Escape') hide(); });
+}
+
+const TOOLTIP_DATE_INDICATIVE =
+  "Les dates peuvent correspondre à la date de début de réalisation, à des aménagements majeurs ou à des éléments particuliers et ne couvrent pas toujours l'ensemble de l'histoire du bâtiment.";
+
+const TOOLTIP_TORNEH =
+  "Index réalisé à l'aide d'outils d'intelligence artificielle dans le cadre du projet TORNE-H.";
+
+const TOOLTIP_PERSONNES =
+  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.";
 
 function renderMosaicInfo(data) {
   const host = document.getElementById('md-info');
@@ -84,50 +158,155 @@ function renderMosaicInfo(data) {
   const addrText = (adresse && typeof adresse === 'object')
     ? (adresse.affichage || adresse.voie || '')
     : (adresse || '');
-  if (addrText) {
-    const p = document.createElement('p');
-    p.className   = 'md-address';
-    p.textContent = addrText;
-    host.appendChild(p);
-  }
 
   const cells = [
-    ['Ensemble',             data.ensemble],
-    ['Date de construction', data.dateConstruction],
-    ['Période', data.periode],
-    ['Arrondissement',       data.arrondissement ? ordinalArr(Number(data.arrondissement)) : null]
-  ].filter(([, value]) => value);
+    ['Ensemble',        data.ensemble],
+    ['Date indicative <br> de construction', dateIndicative(data), 'date-indicative'],
+    ['Arrondissement',  data.arrondissement ? ordinalArr(Number(data.arrondissement)) : null],
+    ['Adresse',         addrText]
+  ];
 
-  if (cells.length) {
-    const grid = document.createElement('div');
-    grid.className = 'info-meta-grid';
-    grid.innerHTML = cells.map(([label, value]) => `
-      <div class="info-meta-cell">
-        <span class="info-meta-label">${label}</span>
-        <span class="info-meta-value">${value}</span>
-      </div>`).join('');
-    host.appendChild(grid);
-  }
+  const grid = document.createElement('div');
+  grid.className = 'info-meta-grid';
+  grid.innerHTML = cells.map(([label, value, key]) => `
+    <div class="info-meta-cell">
+      <span class="info-meta-label"${key ? ` data-tooltip-key="${key}"` : ''}>${label}</span>
+      <span class="info-meta-value">${value || '-'}</span>
+    </div>`).join('');
+  grid.appendChild(buildPermalinkCell(data.id_bat));
+  const torneh = buildTornehBlock(data.terme_torneh_bat);
+  if (torneh) grid.appendChild(torneh);
+  host.appendChild(grid);
+
+  const dateLabel = grid.querySelector('[data-tooltip-key="date-indicative"]');
+  if (dateLabel) attachTooltip(dateLabel, TOOLTIP_DATE_INDICATIVE);
 
   renderMosaicPersonnes(host, data);
-  renderMosaicElements(host, data.terme_jantzen_bat || []);
+}
+
+function buildPermalinkCell(id_bat) {
+  const url = `${location.origin}${location.pathname}#bat=${encodeURIComponent(id_bat)}`;
+
+  const cell = document.createElement('div');
+  cell.className = 'info-meta-cell';
+
+  const label = document.createElement('span');
+  label.className = 'info-meta-label';
+  label.textContent = 'Permalien';
+  cell.appendChild(label);
+
+  const value = document.createElement('span');
+  value.className = 'info-meta-value';
+  cell.appendChild(value);
+
+  const copyIconSVG = `
+    <svg class="icon-copy" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <rect x="9" y="9" width="13" height="13" rx="2"/>
+      <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/>
+    </svg>`;
+  const checkIconSVG = `
+    <svg class="icon-copy" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <polyline points="20 6 9 17 4 12"/>
+    </svg>`;
+
+  const link = document.createElement('a');
+  link.className = 'info-permalink has-tooltip';
+  link.href = url;
+  const urlText = document.createElement('span');
+  urlText.className   = 'info-permalink-url';   // tronquée (…) sur une ligne
+  urlText.textContent = url;
+  link.appendChild(urlText);
+  link.insertAdjacentHTML('beforeend', copyIconSVG);
+  link.setAttribute('aria-label', 'Copier le permalien du bâtiment');
+
+  const tipId = `tooltip-${++tooltipIdSeq}`;
+  link.setAttribute('aria-describedby', tipId);
+  const bubble = document.createElement('span');
+  bubble.className = 'tooltip';
+  bubble.id = tipId;
+  bubble.setAttribute('role', 'status');
+  bubble.textContent = 'Lien copié dans le presse-papier';
+  link.appendChild(bubble);
+
+  let hideTimer = null;
+  link.addEventListener('click', async e => {
+    e.preventDefault();
+    try {
+      await navigator.clipboard.writeText(url);
+      link.classList.add('copied', 'tooltip-visible');
+      link.setAttribute('aria-label', 'Permalien copié !');
+      const icon = link.querySelector('svg.icon-copy');
+      if (icon) icon.outerHTML = checkIconSVG;
+
+      clearTimeout(hideTimer);
+      hideTimer = setTimeout(() => {
+        link.classList.remove('copied', 'tooltip-visible');
+        link.setAttribute('aria-label', 'Copier le permalien du bâtiment');
+        const check = link.querySelector('svg.icon-copy');
+        if (check) check.outerHTML = copyIconSVG;
+      }, 1500);
+    } catch (err) {
+      console.error('Impossible de copier le permalien :', err);
+    }
+  });
+
+  value.appendChild(link);
+  return cell;
+}
+
+/** Index Torne-H du bâtiment : métadonnée informative, une rangée par typologie
+ *  du thésaurus. Renvoie null s'il n'y a aucun terme. */
+function buildTornehBlock(terms) {
+  const clusters = termClusters(Array.isArray(terms) ? terms : []);
+  if (clusters.length === 0) return null;
+
+  const block = document.createElement('div');
+  block.className = 'info-meta-block';
+
+  const label = document.createElement('span');
+  label.className   = 'info-meta-label';
+  label.textContent = 'Index Torne-H';
+  attachTooltip(label, TOOLTIP_TORNEH);
+  block.appendChild(label);
+
+  clusters.forEach(([cluster, clusterTerms]) => {
+    const row = document.createElement('div');
+    row.className = 'info-meta-cell';
+
+    const sub = document.createElement('span');
+    sub.className   = 'info-meta-sublabel';
+    sub.textContent = cluster;
+    row.appendChild(sub);
+
+    const value = document.createElement('span');
+    value.className   = 'info-meta-value';
+    value.textContent = clusterTerms.map(capitalize).join(', ');
+    row.appendChild(value);
+
+    block.appendChild(row);
+  });
+  return block;
 }
 
 function renderMosaicPersonnes(host, data) {
   const personnes = Array.isArray(data.personnes) ? data.personnes : [];
   if (personnes.length === 0) return;
 
-  const label = document.createElement('span');
-  label.className   = 'info-elements-label';
-  label.textContent = 'Personnes';
+  const label = document.createElement('h3');
+  label.className   = 'md-section-title';
+
+  const wordPersonne = personnes.length > 1 ? 'Architectes & Artistes' : 'Architecte & Artiste';
+  const labelText = document.createElement('span');
+  labelText.textContent = wordPersonne;
+  attachTooltip(labelText, TOOLTIP_PERSONNES);
+  label.appendChild(labelText);
+
   host.appendChild(label);
 
   const list = document.createElement('div');
   list.className = 'info-personnes';
   host.appendChild(list);
 
-  // buildPersonCard (ui.js) est réutilisé tel quel : vignette + nom + rôle +
-  // liens vers les référentiels.
   Promise.all(personnes.map(async entry => {
     try { return { entry, personne: await getPersonne(entry.personneID) }; }
     catch (err) { console.error(err); return null; }
@@ -139,54 +318,35 @@ function renderMosaicPersonnes(host, data) {
   });
 }
 
-function renderMosaicElements(host, terms) {
-  if (terms.length === 0) return;
-
-  const label = document.createElement('span');
-  label.className   = 'info-elements-label';
-  label.textContent = 'Éléments architecturaux (Index Jantzen)';
-  host.appendChild(label);
-
-  const tags = document.createElement('div');
-  tags.className = 'info-elements';
-  terms.forEach(term => {
-    const tag = document.createElement('button');
-    tag.type        = 'button';
-    tag.className   = 'info-element-tag';
-    tag.textContent = capitalize(term);
-    tag.dataset.term = term;
-    // Lié fonctionnellement au multiselect de la galerie ci-dessous : un clic
-    // filtre les photos par ce terme (bascule, comme dans le multiselect).
-    tag.onclick = () => toggleMdElementTerm(term);
-    tags.appendChild(tag);
-  });
-  host.appendChild(tags);
-}
 
 /* ─── RENDU DES PHOTOS ──────────────────────────────────────────────────── */
 
-// État du layout courant, pour que le ResizeObserver puisse recalculer sans
-// tout reconstruire, et qu'on puisse tout démonter à la fermeture du volet.
+
 let mosaicRO       = null;   // ResizeObserver du conteneur des photos
 let mosaicRelayout = null;   // fonction de recalcul courante (ou null)
 let mosaicRafId    = 0;      // throttle rAF des rafales de redimensionnement
 
 async function renderMosaicPhotos(data) {
-  const header = document.getElementById('md-photos-header');
-  const label  = document.getElementById('md-photos-label');
+  const header  = document.getElementById('md-photos-header');
+  const label   = document.getElementById('md-photos-label');
+  const context = document.getElementById('md-photos-context');
 
   mdPhotos = Array.isArray(data.photos) ? data.photos : [];
   mdBatId  = data.id_bat;
 
   if (header) header.hidden = mdPhotos.length === 0;
-  if (label)  label.textContent = `Photos du ${data.libelle || 'bâtiment'}`;
+  if (label) {
+    const wordPhoto = mdPhotos.length > 1 ? 'Photographies' : 'Photographie';
+    label.textContent = `${wordPhoto} d’Eric Jantzen`;
+  }
+  if (context) context.textContent = data.libelle || '';
 
-  buildMdElementSelect();   // options du multiselect, à partir des termes des photos
+  buildMdElementGroups();   // puces par catégorie, à partir des termes des photos
   await renderMdGallery();
 }
 
-/** (Re)construit la galerie à partir de `visibleMdPhotos()` — appelé au premier
- *  rendu et à chaque bascule du filtre, sans re-solliciter getBatiment(). */
+/** (Re)construit la galerie à partir de `visibleMdPhotos()`, au premier rendu
+ *  et à chaque bascule du filtre. */
 async function renderMdGallery() {
   const host = document.getElementById('md-photos');
   if (!host) return;
@@ -204,17 +364,20 @@ async function renderMdGallery() {
     return;
   }
 
-  // Liste normalisée pour la visionneuse : même ordre que la galerie. Chaque
-  // entrée porte aussi son ratio (largeur/hauteur), complété plus bas.
-  const gallery = photos.map(ph => ({
-    src:     photoUrl(ph.id_pic),
-    caption: (ph.IndexJantzen || []).map(capitalize).join(' · '),
-    id_pic:  ph.id_pic,
-    ratio:   DEFAULT_RATIO
-  }));
+  // Liste normalisée pour la visionneuse 
+  const gallery = photos.map(ph => {
+    const terms = ph.IndexJantzen || [];
+    return {
+      src:     photoUrl(ph.id_pic),
+      srcs:    photoUrls(ph.id_pic),           // candidates (formats / formes Unicode)
+      terms,                                   // termes bruts, pour les liens de filtre de la visionneuse
+      caption: terms.map(capitalize).join(' · '),
+      id_pic:  ph.id_pic,
+      dateCapture: ph.dateCapture,
+      ratio:   DEFAULT_RATIO
+    };
+  });
 
-  // Les tuiles sont créées une seule fois ; le layout ne fait ensuite que régler
-  // leur largeur/hauteur. On garde l'ordre gauche→droite (= ordre visionneuse).
   const tiles = gallery.map((g, i) => {
     const btn = document.createElement('button');
     btn.type      = 'button';
@@ -227,10 +390,8 @@ async function renderMdGallery() {
     img.alt      = g.caption || '';
     img.loading  = 'lazy';
     img.decoding = 'async';
-    img.src      = g.src;
-    img.onerror  = function () { retryUppercaseJpg(this); };
-    // Filet de sécurité : si un ratio manquait dans photos.json, on le corrige
-    // dès que l'image réelle est chargée, puis on relance le layout.
+    setImageSources(img, thumbUrls(g.id_pic));
+    // Corrige un ratio absent de photos.json une fois l'image chargée, puis relance le layout.
     img.addEventListener('load', () => {
       if (!img.naturalWidth || !img.naturalHeight) return;
       const r = img.naturalWidth / img.naturalHeight;
@@ -245,8 +406,6 @@ async function renderMdGallery() {
 
   mosaicRelayout = () => layoutJustified(host, tiles, gallery);
 
-  // Ratios connus d'avance (photos.json) → première disposition sans attendre
-  // le chargement des images. Puis on observe la largeur du conteneur.
   const ratios = await loadPhotoRatios();
   if (String(selectedId) !== String(mdBatId)) return;   // sélection changée
   gallery.forEach(g => {
@@ -256,59 +415,71 @@ async function renderMdGallery() {
 
   mosaicRelayout();
 
-  // Redimensionnement du volet : ResizeObserver est déjà cadencé par frame (spec),
-  // et poser la taille des tuiles n'altère pas la largeur du conteneur (pas de
-  // boucle). On relaie donc DIRECTEMENT, pour toujours lire la largeur courante —
-  // un throttle rAF risquerait d'abandonner l'appel de la largeur finale.
   mosaicRO = new ResizeObserver(() => mosaicRelayout?.());
   mosaicRO.observe(host);
 }
 
-/* ─── MULTISELECT « ÉLÉMENT ARCHITECTURAL » ──────────────────────────────
- * Filtre la galerie du bâtiment courant par les termes de `photo.IndexJantzen`,
- * indépendamment des filtres globaux (carte/mosaïque). Repris du carrousel
- * disparu ; fonctionnellement lié aux puces « Éléments architecturaux »
- * (résumé des termes) du bloc infos ci-dessus : les deux pilotent le même
- * `mdPhotoFilter`. */
+/* ─── FILTRE « ÉLÉMENTS ARCHITECTURAUX » ─────────────────────────────────  */
+// Les puces de l'index Jantzen filtrent la galerie (sélection unique). L'index
+// Torne-H n'est qu'une métadonnée de l'en-tête (cf. buildTornehBlock).
 
 function visibleMdPhotos() {
   if (mdPhotoFilter.size === 0) return mdPhotos;
-  return mdPhotos.filter(ph => (ph.IndexJantzen || []).some(t => mdPhotoFilter.has(t)));
+  return mdPhotos.filter(ph =>
+    (ph.IndexJantzen || []).some(t => mdPhotoFilter.has(t)));
 }
 
-/** Termes présents dans les photos du bâtiment courant, avec leur nombre de vues. */
-function mdElementCounts() {
-  const counts = new Map();
-  mdPhotos.forEach(ph => {
-    (ph.IndexJantzen || []).forEach(t => counts.set(t, (counts.get(t) || 0) + 1));
+/** Regroupe des termes par catégorie du thésaurus : [[catégorie, termes[]], …],
+ *  catégories et termes triés, « Non classés » en dernier. */
+function termClusters(terms) {
+  const groups = new Map();
+  [...new Set(terms)].sort((a, b) => a.localeCompare(b, 'fr')).forEach(term => {
+    const cluster = getTermMeta(term)?.c || CLUSTER_UNSORTED;
+    if (!groups.has(cluster)) groups.set(cluster, []);
+    groups.get(cluster).push(term);
   });
-  return [...counts.entries()].sort((a, b) => a[0].localeCompare(b[0], 'fr'));
+  return [...groups.entries()].sort(([a], [b]) => {
+    if (a === CLUSTER_UNSORTED) return 1;
+    if (b === CLUSTER_UNSORTED) return -1;
+    return a.localeCompare(b, 'fr');
+  });
 }
 
-function buildMdElementSelect() {
-  const menu  = document.getElementById('md-elem-select-menu');
-  const field = document.querySelector('#md-elem-select .ms-field');
-  if (!menu || !field) return;
+function buildMdElementGroups() {
+  const host   = document.getElementById('md-elem-groups');
+  const toggle = document.getElementById('md-elem-toggle');
+  if (!host) return;
+  host.innerHTML = '';
 
-  const entries = mdElementCounts();
-  menu.innerHTML = '';
+  const clusters = termClusters(mdPhotos.flatMap(ph => ph.IndexJantzen || []));
+  clusters.forEach(([cluster, terms]) => {
+    const group = document.createElement('div');
+    group.className = 'archi-group';
 
-  entries.forEach(([term, count]) => {
-    const li = document.createElement('li');
-    li.className = 'ms-option';
-    li.setAttribute('role', 'option');
-    li.setAttribute('aria-selected', 'false');
-    li.dataset.term = term;
-    li.innerHTML = `
-      <span class="ms-check" aria-hidden="true"></span>
-      <span class="ms-option-label">${capitalize(term)}</span>
-      <span class="ms-option-count">${count}</span>`;
-    li.onclick = () => toggleMdElementTerm(term);
-    menu.appendChild(li);
+    const label = document.createElement('span');
+    label.className   = 'archi-group-label';
+    label.textContent = cluster;
+    group.appendChild(label);
+
+    const chips = document.createElement('div');
+    chips.className = 'archi-chips';
+    terms.forEach(term => {
+      const chip = document.createElement('button');
+      chip.type         = 'button';
+      chip.className    = 'chip';
+      chip.textContent  = capitalize(term);
+      chip.dataset.term = term;
+      chip.setAttribute('aria-pressed', 'false');
+      chip.onclick = () => toggleMdElementTerm(term);
+      chips.appendChild(chip);
+    });
+    group.appendChild(chips);
+    host.appendChild(group);
   });
 
-  field.disabled = entries.length === 0;
-  updateMdElementSelectUI();
+  if (toggle) toggle.disabled = clusters.length === 0;
+
+  updateMdElementUI();
 }
 
 function toggleMdElementTerm(term) {
@@ -317,47 +488,33 @@ function toggleMdElementTerm(term) {
     mdPhotoFilter.clear();
     mdPhotoFilter.add(term);
   }
-  updateMdElementSelectUI();
+  updateMdElementUI();
   renderMdGallery();
 }
 
 function clearMdElementFilter() {
   mdPhotoFilter.clear();
-  updateMdElementSelectUI();
+  updateMdElementUI();
   renderMdGallery();
 }
 
-/** Synchronise l'état visuel du multiselect ET des puces « Éléments
- *  architecturaux » : les deux représentations du même filtre restent en phase. */
-function updateMdElementSelectUI() {
-
-
-  document.querySelectorAll('#md-info .info-element-tag').forEach(tag => {
-    const active = mdPhotoFilter.has(tag.dataset.term);
-    tag.classList.toggle('is-active', active);
+function updateMdElementUI() {
+  document.querySelectorAll('#md-elem-groups .chip').forEach(chip => {
+    const active = mdPhotoFilter.has(chip.dataset.term);
+    chip.classList.toggle('active', active);
+    chip.setAttribute('aria-pressed', String(active));
   });
 }
 
-function toggleMdElementMenu() {
-  const menu  = document.getElementById('md-elem-select-menu');
-  const field = document.querySelector('#md-elem-select .ms-field');
-  if (!menu || !field) return;
-  const open = menu.hidden;
-  menu.hidden = !open;
-  field.setAttribute('aria-expanded', String(open));
-  document.getElementById('md-elem-select')?.classList.toggle('is-open', open);
+function toggleMdElementGroups() {
+  const host   = document.getElementById('md-elem-groups');
+  const toggle = document.getElementById('md-elem-toggle');
+  if (!host || !toggle) return;
+  const open = host.hidden;
+  host.hidden = !open;
+  toggle.setAttribute('aria-expanded', String(open));
 }
 
-function closeMdElementMenu() {
-  const menu  = document.getElementById('md-elem-select-menu');
-  const field = document.querySelector('#md-elem-select .ms-field');
-  if (menu) menu.hidden = true;
-  if (field) field.setAttribute('aria-expanded', 'false');
-  document.getElementById('md-elem-select')?.classList.remove('is-open');
-}
-
-/** Coalesce les rafales de chargement d'images en un seul relayout par frame.
- *  (Sûr ici : chaque `load` a déjà committé son ratio avant d'appeler.) */
 function scheduleMosaicRelayout() {
   if (mosaicRafId) return;
   mosaicRafId = requestAnimationFrame(() => {
@@ -366,7 +523,7 @@ function scheduleMosaicRelayout() {
   });
 }
 
-/* ─── MOSAÏQUE JUSTIFIÉE ─────────────────────────────────────────────────── */
+/* ─── LISTE JUSTIFIÉE ─────────────────────────────────────────────────── */
 
 /** Hauteur de rangée visée, croissant linéairement avec la largeur `W` du
  *  conteneur, bornée à [ROW_H_MIN, ROW_H_MAX]. */
@@ -376,18 +533,12 @@ function targetRowHeight(W) {
   return ROW_H_MIN + clamped * (ROW_H_MAX - ROW_H_MIN);
 }
 
-/**
- * Dispose les tuiles en rangées justifiées :
- *   • on remplit une rangée à la hauteur cible jusqu'à ce qu'elle déborde ;
- *   • on résout alors la hauteur réelle pour que la rangée occupe pile `W` ;
- *   • la dernière rangée (incomplète) reste à la hauteur cible, sauf si elle
- *     déborderait — auquel cas elle est justifiée elle aussi.
- * La largeur d'une tuile à la hauteur `h` vaut `h × ratio`.
- */
 function layoutJustified(host, tiles, gallery) {
-  const W = host.clientWidth;
+  const cs = getComputedStyle(host);
+  // Largeur disponible pour les tuiles : clientWidth moins le padding du conteneur.
+  const W = host.clientWidth - parseFloat(cs.paddingLeft) - parseFloat(cs.paddingRight);
   if (W <= 0) return;
-  const gap    = parseFloat(getComputedStyle(host).columnGap) || 0;
+  const gap    = parseFloat(cs.columnGap) || 0;
   const Hcible = targetRowHeight(W);
 
   let row = [], sumRatios = 0;
@@ -412,7 +563,6 @@ function layoutJustified(host, tiles, gallery) {
   flush(true);
 }
 
-/** Démonte l'observateur et oublie le layout courant (fermeture / re-rendu). */
 function teardownMosaicLayout() {
   if (mosaicRO) { mosaicRO.disconnect(); mosaicRO = null; }
   if (mosaicRafId) { cancelAnimationFrame(mosaicRafId); mosaicRafId = 0; }
@@ -422,12 +572,8 @@ function teardownMosaicLayout() {
 /* ─── REDIMENSIONNEMENT (tirette) ───────────────────────────────────────── */
 
 /**
- * Rend une poignée `role="separator"` fonctionnelle :
- *   • glissement au pointeur — largeur en continu, bornée [min, max] ;
- *   • flèches / Origine / Fin au clavier — pas discrets, pour l'accessibilité.
- *
  * @param {{cssVar, min, max, step, invert}} opts  invert : la poignée est sur
- *        le bord gauche du volet (glisser vers la gauche élargit).
+ *        le bord gauche du volet (glisser vers la gauche élargit)
  */
 function initPanelResize(handle, { cssVar, min, max, step, invert }) {
   if (!handle) return;
@@ -446,13 +592,15 @@ function initPanelResize(handle, { cssVar, min, max, step, invert }) {
     const startW = getW();
     try { handle.setPointerCapture(e.pointerId); } catch { /* pas de pointeur réel */ }
 
-    // Écoute sur window : le pointeur quitte forcément la fine poignée pendant
-    // le glissement, les mouvements doivent continuer d'arriver.
+    handle.classList.add('is-dragging');
+
+    // Écoute sur window : le pointeur quitte la poignée pendant le glissement
     const onMove = ev => {
       const dx = ev.clientX - startX;
       setW(startW + (invert ? -dx : dx));
     };
     const onUp = () => {
+      handle.classList.remove('is-dragging');
       window.removeEventListener('pointermove', onMove);
       window.removeEventListener('pointerup', onUp);
     };
@@ -480,45 +628,36 @@ function bindMosaicDetail() {
   initPanelResize(document.getElementById('mosaic-detail-handle'),
     { cssVar: '--md-w', min: MD_MIN, max: MD_MAX, step: PANEL_STEP, invert: false });
 
-  const field = document.querySelector('#md-elem-select .ms-field');
-  field?.addEventListener('click', e => {
-    // La pastille de comptage sert de bouton « tout désélectionner ».
-    if (e.target.closest('.ms-badge-clear')) {
-      e.stopPropagation();
-      clearMdElementFilter();
-      return;
-    }
-    toggleMdElementMenu();
-  });
+  document.getElementById('md-elem-toggle')?.addEventListener('click', toggleMdElementGroups);
 
-  document.addEventListener('click', e => {
-    if (!e.target.closest('#md-elem-select')) closeMdElementMenu();
-  });
+  initStickyPhotosHeader();
 }
 
-/**
- * Fonction de comparaison pour trier les POIs / Bâtiments.
- */
-/**
- * Comparateur de bâtiments / POIs.
- * Combine la voie, l'ensemble ou le libellé en une clé textuelle unique
- * pour un tri alphabétique global cohérent.
- */
+function initStickyPhotosHeader() {
+  const root     = document.getElementById('mosaic-detail-body');
+  const sentinel = document.querySelector('.md-sticky-sentinel');
+  const header   = document.getElementById('md-photos-header');
+  if (!root || !sentinel || !header || typeof IntersectionObserver === 'undefined') return;
+
+  new IntersectionObserver(([entry]) => {
+    const stuck = entry.intersectionRatio < 1
+      && entry.boundingClientRect.top < (entry.rootBounds?.top ?? 0);
+    header.classList.toggle('is-stuck', stuck);
+  }, { root, threshold: [1] }).observe(sentinel);
+}
+
+/** Comparateur de bâtiments : clé de tri alphabétique, puis numéro de rue, puis libellé. */
 function comparePoi(a, b) {
   const propA = a.properties || a;
   const propB = b.properties || b;
 
-  // 1. Détermination de la clé d'affichage textuelle principale pour chaque élément
-  // Ordre de priorité pour la clé : voie d'adresse > ensemble > libellé
-  const keyA = (propA.adresse?.voie || propA.ensemble || propA.libelle || '').trim();
-  const keyB = (propB.adresse?.voie || propB.ensemble || propB.libelle || '').trim();
+  const keyA = (propA.tri_alphab || '').trim();
+  const keyB = (propB.tri_alphab || '').trim();
 
-  // 2. Comparaison alphabétique sur la clé principale
   const compKey = keyA.localeCompare(keyB, 'fr', { sensitivity: 'base' });
   if (compKey !== 0) return compKey;
 
-  // 3. En cas d'égalité sur la clé (ex: deux bâtiments sur la même voie "Place de l'Opéra")
-  // On compare par numéro de rue si disponible
+  // Même clé (même voie) : numéro de rue
   const numA = parseInt(propA.adresse?.numero, 10) || 0;
   const numB = parseInt(propB.adresse?.numero, 10) || 0;
   
@@ -526,7 +665,7 @@ function comparePoi(a, b) {
     return numA - numB;
   }
 
-  // 4. Dernier recours en cas de seconde égalité : tri sur le libellé
+  // Dernier recours : libellé
   const libA = (propA.libelle || '').trim();
   const libB = (propB.libelle || '').trim();
   return libA.localeCompare(libB, 'fr', { sensitivity: 'base' });

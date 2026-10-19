@@ -13,6 +13,7 @@
     "voie": "rue de Mazagran"
   },
   "arrondissement": 10,
+  "tri_alphab": "Mazagran",
   "coordonnees": {
     "latitude": "48.870734",
     "longitude": "2.351909"
@@ -25,31 +26,66 @@
     "fenetre",
     "décor"
   ],
+  "terme_torneh_bat": [
+    "auvent",
+    "balcon",
+    "balustrade",
+    "corniche",
+    "céramique",
+    "fenêtre",
+    "fer forgé",
+    "frise",
+    "garde-corps",
+    "porte",
+    "travée",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Mazagran-16_10_§1",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "volet",
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "corniche",
+        "frise",
+        "porte",
+        "céramique",
+        "travée",
+        "fer forgé",
+        "auvent"
+      ],
+      "dateCapture": "2008:08:10"
     },
     {
       "id_pic": "Mazagran-16_10_§2",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:08:10"
     },
     {
       "id_pic": "Mazagran-16_10_§3",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:08:10"
     },
     {
       "id_pic": "Mazagran-16_10_§4",
       "IndexJantzen": [
         "décor",
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:08:10"
     }
   ]
 }

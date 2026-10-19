@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 199,
+      "personneID": 318,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "avenue de Tourville"
   },
   "arrondissement": 7,
+  "tri_alphab": "Tourville",
   "coordonnees": {
     "latitude": "48.853853",
     "longitude": "2.308321"
@@ -27,7 +28,19 @@
   "WPfr": null,
   "image_ref": "Tourville-19_7_",
   "terme_jantzen_bat": [
-    "console",
+    "sculpture",
+    "console"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "modillon",
+    "pierre de taille",
     "sculpture"
   ],
   "photos": [
@@ -36,7 +49,20 @@
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [
+        "sculpture",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "corniche",
+        "modillon",
+        "pierre de taille",
+        "mascaron"
+      ],
+      "dateCapture": "2005:05:01"
     }
   ]
 }

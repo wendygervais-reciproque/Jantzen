@@ -13,6 +13,7 @@
     "voie": "rue du Bac"
   },
   "arrondissement": 7,
+  "tri_alphab": "Bac",
   "coordonnees": {
     "latitude": "48.858322",
     "longitude": "2.3283"
@@ -22,12 +23,32 @@
   "WPfr": null,
   "image_ref": "Bac-18_7_§1",
   "terme_jantzen_bat": [
-    "façade-d'angle",
-    "fenetre-d'angle",
     "balcon",
+    "façade-d'angle",
     "pignon",
-    "colonne",
-    "garde-corps"
+    "fenetre-d'angle",
+    "garde-corps",
+    "colonne"
+  ],
+  "terme_torneh_bat": [
+    "auvent",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "modillon",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "toit à deux versants",
+    "toit-terrasse",
+    "volet"
   ],
   "photos": [
     {
@@ -35,7 +56,28 @@
       "IndexJantzen": [
         "balcon",
         "façade-d'angle"
-      ]
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "corniche",
+        "bandeau",
+        "pilastre",
+        "auvent",
+        "volet",
+        "porte-fenêtre",
+        "mascaron",
+        "pierre de taille",
+        "toit à deux versants",
+        "souche de cheminée",
+        "toit-terrasse",
+        "modillon",
+        "fer forgé",
+        "oculus"
+      ],
+      "dateCapture": "2009:06:03"
     },
     {
       "id_pic": "Bac-18_7_§2",
@@ -43,7 +85,9 @@
         "balcon",
         "fenetre-d'angle",
         "pignon"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2009:06:03"
     },
     {
       "id_pic": "Bac-18_7_§3",
@@ -52,7 +96,9 @@
         "colonne",
         "garde-corps",
         "pignon"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2009:06:03"
     }
   ]
 }

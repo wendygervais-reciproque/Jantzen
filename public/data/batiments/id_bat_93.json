@@ -2,13 +2,19 @@
   "id_bat": 93,
   "libelle": "Hôpital Lariboisière",
   "ensemble": null,
-  "personnes": null,
+  "personnes": [
+    {
+      "personneID": 394,
+      "role": "architecte"
+    }
+  ],
   "dateConstruction": null,
   "periode": [
     "1850-1869"
   ],
   "adresse": null,
   "arrondissement": 10,
+  "tri_alphab": "Ambroise-Pare",
   "coordonnees": {
     "latitude": "48.88305556",
     "longitude": "2.35305556"
@@ -18,11 +24,29 @@
   "WPfr": "Hôpital Lariboisière",
   "image_ref": "Ambroise-Pare-_10_§1",
   "terme_jantzen_bat": [
-    "porte",
+    "sculpture",
     "façade",
     "fronton",
-    "sculpture",
+    "porte",
     "colonne"
+  ],
+  "terme_torneh_bat": [
+    "acrotère",
+    "arc en plein cintre",
+    "arcade",
+    "attique",
+    "colonne",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "grille",
+    "mascaron",
+    "pierre de taille",
+    "pilastre",
+    "portail",
+    "porte",
+    "sculpture"
   ],
   "photos": [
     {
@@ -31,50 +55,83 @@
         "colonne",
         "façade",
         "porte"
-      ]
+      ],
+      "IndexTorneh": [
+        "arc en plein cintre",
+        "arcade",
+        "attique",
+        "colonne",
+        "pilastre",
+        "corniche",
+        "fronton",
+        "grille",
+        "porte",
+        "fenêtre",
+        "pierre de taille",
+        "sculpture",
+        "mascaron",
+        "portail",
+        "garde-corps",
+        "acrotère"
+      ],
+      "dateCapture": "2007:03:26"
     },
     {
       "id_pic": "Ambroise-Pare-_10_§2",
       "IndexJantzen": [
         "fronton",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:03:26"
     },
     {
       "id_pic": "Ambroise-Pare-_10_§3",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:03:26"
     },
     {
       "id_pic": "Ambroise-Pare-_10_§4",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:03:26"
     },
     {
       "id_pic": "Ambroise-Pare-_10_§5",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:03:26"
     },
     {
       "id_pic": "Ambroise-Pare-_10_§6",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:03:26"
     },
     {
       "id_pic": "Ambroise-Pare-_10_§7",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:03:26"
     },
     {
       "id_pic": "Ambroise-Pare-_10_§8",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:03:26"
     }
   ]
 }

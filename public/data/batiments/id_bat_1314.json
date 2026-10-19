@@ -1,0 +1,153 @@
+{
+  "id_bat": 1314,
+  "libelle": "18 rue Henri-Heine",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 454,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1930",
+  "periode": [
+    "1915-1944"
+  ],
+  "adresse": {
+    "affichage": "18 rue Henri-Heine",
+    "numero": "18",
+    "voie": "rue Henri-Heine"
+  },
+  "arrondissement": 16,
+  "tri_alphab": "Henri-Heine",
+  "coordonnees": {
+    "latitude": "48.85205",
+    "longitude": "2.266065"
+  },
+  "id_pss": 4647,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": "Henri-Heine-18_16_§1-Dx",
+  "terme_jantzen_bat": [
+    "toiture",
+    "porte-fer",
+    "fenetre",
+    "brique",
+    "façade"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "baie",
+    "balcon",
+    "balustrade",
+    "brique",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "grille",
+    "oriel",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "souche de cheminée",
+    "toit en pavillon",
+    "tour",
+    "travée",
+    "volet"
+  ],
+  "photos": [
+    {
+      "id_pic": "Henri-Heine-18_16_§10-Dx",
+      "IndexJantzen": [
+        "porte-fer"
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2014:03:09"
+    },
+    {
+      "id_pic": "Henri-Heine-18_16_§1-Dx",
+      "IndexJantzen": [
+        "brique",
+        "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "baie",
+        "fenêtre",
+        "fer forgé",
+        "brique",
+        "pierre de taille",
+        "souche de cheminée",
+        "tour",
+        "travée",
+        "volet",
+        "porte",
+        "portail",
+        "arc",
+        "oriel",
+        "grille",
+        "garde-corps",
+        "toit en pavillon",
+        "corniche"
+      ],
+      "dateCapture": "2014:03:09"
+    },
+    {
+      "id_pic": "Henri-Heine-18_16_§2",
+      "IndexJantzen": [
+        "brique",
+        "façade"
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2009:03:31"
+    },
+    {
+      "id_pic": "Henri-Heine-18_16_§4",
+      "IndexJantzen": [
+        "brique",
+        "fenetre"
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2010:05:23"
+    },
+    {
+      "id_pic": "Henri-Heine-18_16_§5",
+      "IndexJantzen": [
+        "brique",
+        "fenetre"
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:07:01"
+    },
+    {
+      "id_pic": "Henri-Heine-18_16_§6",
+      "IndexJantzen": [
+        "brique",
+        "façade"
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:05:18"
+    },
+    {
+      "id_pic": "Henri-Heine-18_16_§7",
+      "IndexJantzen": [
+        "brique",
+        "fenetre",
+        "toiture"
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2009:03:31"
+    },
+    {
+      "id_pic": "Henri-Heine-18_16_§9",
+      "IndexJantzen": [
+        "brique",
+        "fenetre",
+        "toiture"
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:05:18"
+    }
+  ]
+}

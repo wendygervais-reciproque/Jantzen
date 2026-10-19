@@ -4,7 +4,11 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 158,
+      "personneID": 315,
+      "role": "architecte"
+    },
+    {
+      "personneID": 256,
       "role": "architecte"
     }
   ],
@@ -18,6 +22,7 @@
     "voie": "boulevard Beaumarchais"
   },
   "arrondissement": 3,
+  "tri_alphab": "Beaumarchais",
   "coordonnees": {
     "latitude": "48.857324",
     "longitude": "2.367869"
@@ -28,34 +33,73 @@
   "image_ref": "Beaumarchais-57_3_§1",
   "terme_jantzen_bat": [
     "fenetre",
-    "porte-bois",
-    "garde-corps"
+    "garde-corps",
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "chambranle",
+    "chapiteau",
+    "fer forgé",
+    "grille",
+    "heurtoir",
+    "huisserie",
+    "perron",
+    "pierre de taille",
+    "porte",
+    "porte-fenêtre",
+    "sculpture",
+    "vantail"
   ],
   "photos": [
     {
       "id_pic": "Beaumarchais-57_3_§1",
       "IndexJantzen": [
         "porte-bois"
-      ]
+      ],
+      "IndexTorneh": [
+        "porte",
+        "porte-fenêtre",
+        "vantail",
+        "arc en plein cintre",
+        "arc",
+        "chambranle",
+        "sculpture",
+        "pierre de taille",
+        "grille",
+        "fer forgé",
+        "huisserie",
+        "heurtoir",
+        "perron",
+        "chapiteau"
+      ],
+      "dateCapture": "2006:03:19"
     },
     {
       "id_pic": "Beaumarchais-57_4_§1",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:10:21"
     },
     {
       "id_pic": "Beaumarchais-57_4_§2",
       "IndexJantzen": [
         "fenetre",
         "garde-corps"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:10:21"
     },
     {
       "id_pic": "Beaumarchais-57_4_§3",
       "IndexJantzen": [
         "porte-bois"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:10:21"
     }
   ]
 }

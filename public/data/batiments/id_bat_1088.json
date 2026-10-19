@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 238,
+      "personneID": 354,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue de Tolbiac"
   },
   "arrondissement": 13,
+  "tri_alphab": "Tolbiac",
   "coordonnees": {
     "latitude": "48.829263",
     "longitude": "2.374599"
@@ -27,12 +28,34 @@
   "WPfr": null,
   "image_ref": "Tolbiac-15b_13_§1",
   "terme_jantzen_bat": [
-    "façade",
-    "céramique",
-    "brique",
     "fenetre",
-    "décor",
-    "porte-fer-hall"
+    "brique",
+    "façade",
+    "porte-fer-hall",
+    "céramique",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "auvent",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "marquise",
+    "oculus",
+    "porte",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -40,14 +63,39 @@
       "IndexJantzen": [
         "brique",
         "façade"
-      ]
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "brique",
+        "souche de cheminée",
+        "lucarne",
+        "mansarde",
+        "toit à deux versants",
+        "ardoise",
+        "bandeau",
+        "corniche",
+        "porte",
+        "porte-fenêtre",
+        "volet",
+        "auvent",
+        "marquise",
+        "travée",
+        "fer forgé",
+        "oculus"
+      ],
+      "dateCapture": "2004:03:29"
     },
     {
       "id_pic": "Tolbiac-15b_13_§2",
       "IndexJantzen": [
         "brique",
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:03:29"
     },
     {
       "id_pic": "Tolbiac-15b_13_§4",
@@ -56,7 +104,9 @@
         "céramique",
         "décor",
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:03:29"
     },
     {
       "id_pic": "Tolbiac-15b_13_§5",
@@ -65,13 +115,17 @@
         "céramique",
         "décor",
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:03:29"
     },
     {
       "id_pic": "Tolbiac-15b_13_§6",
       "IndexJantzen": [
         "porte-fer-hall"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:03:29"
     }
   ]
 }

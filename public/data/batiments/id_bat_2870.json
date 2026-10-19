@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 38,
+      "personneID": 30,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue François-Miron"
   },
   "arrondissement": 4,
+  "tri_alphab": "François-Miron",
   "coordonnees": {
     "latitude": "48.85586",
     "longitude": "2.356535"
@@ -27,25 +28,68 @@
   "WPfr": null,
   "image_ref": "François-Miron-5_4_§1",
   "terme_jantzen_bat": [
+    "pilastre",
+    "sculpture",
+    "fenetre",
     "lucarne",
     "façade",
+    "fronton"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "bandeau",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
     "fronton",
-    "fenetre",
-    "sculpture",
-    "pilastre"
+    "garde-corps",
+    "grille",
+    "lucarne",
+    "mansarde",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "souche de cheminée",
+    "soupirail",
+    "toit à deux versants"
   ],
   "photos": [
     {
       "id_pic": "François-Miron-5_4_§1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "lucarne",
+        "mansarde",
+        "fronton",
+        "corniche",
+        "bandeau",
+        "pilastre",
+        "ardoise",
+        "souche de cheminée",
+        "oculus",
+        "balcon",
+        "garde-corps",
+        "grille",
+        "pierre de taille",
+        "chaîne d'angle",
+        "toit à deux versants",
+        "soupirail",
+        "fer forgé"
+      ],
+      "dateCapture": "2006:09:01"
     },
     {
       "id_pic": "François-Miron-5_4_§2",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:09:01"
     },
     {
       "id_pic": "François-Miron-5_4_§3",
@@ -53,21 +97,27 @@
         "fenetre",
         "pilastre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:09:01"
     },
     {
       "id_pic": "François-Miron-5_4_§4",
       "IndexJantzen": [
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:09:01"
     },
     {
       "id_pic": "François-Miron-5_4_§6",
       "IndexJantzen": [
         "fronton",
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:09:01"
     }
   ]
 }

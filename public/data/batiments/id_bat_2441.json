@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 381,
+      "personneID": 618,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "place des Victoires"
   },
   "arrondissement": 2,
+  "tri_alphab": "Victoires-Pl",
   "coordonnees": {
     "latitude": "48.86578",
     "longitude": "2.340635"
@@ -30,32 +31,77 @@
     "façade",
     "sculpture"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "arcade",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "garde-corps",
+    "grille",
+    "lucarne",
+    "mansarde",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants"
+  ],
   "photos": [
     {
       "id_pic": "Victoires-Pl-4-12_2_§1-Rs",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [
+        "lucarne",
+        "mansarde",
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "souche de cheminée",
+        "arc en plein cintre",
+        "arcade",
+        "corniche",
+        "bandeau",
+        "pierre de taille",
+        "porte",
+        "grille",
+        "sculpture",
+        "toit à deux versants",
+        "ardoise"
+      ],
+      "dateCapture": "2008:02:17"
     },
     {
       "id_pic": "Victoires-Pl-4-12_2_§2-Rs",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:02:17"
     },
     {
       "id_pic": "Victoires-Pl-4-12_2_§3-Rs",
       "IndexJantzen": [
         "façade",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:02:17"
     },
     {
       "id_pic": "Victoires-Pl-4-12_2_§4-Rs",
       "IndexJantzen": [
         "façade",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:02:17"
     }
   ]
 }

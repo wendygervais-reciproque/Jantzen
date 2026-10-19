@@ -13,6 +13,7 @@
     "voie": "rue Rollin"
   },
   "arrondissement": 5,
+  "tri_alphab": "Rollin",
   "coordonnees": {
     "latitude": "48.84479",
     "longitude": "2.350312"
@@ -22,8 +23,23 @@
   "WPfr": null,
   "image_ref": "Rollin-14_5_§1",
   "terme_jantzen_bat": [
-    "porte-bois",
-    "garde-corps"
+    "garde-corps",
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "balcon",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "gros appareil",
+    "jambage",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "vantail",
+    "volet"
   ],
   "photos": [
     {
@@ -31,11 +47,29 @@
       "IndexJantzen": [
         "garde-corps",
         "porte-bois"
-      ]
+      ],
+      "IndexTorneh": [
+        "porte",
+        "arc",
+        "arc en plein cintre",
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "pierre de taille",
+        "mascaron",
+        "fenêtre",
+        "volet",
+        "vantail",
+        "jambage",
+        "gros appareil"
+      ],
+      "dateCapture": "2005:08:29"
     },
     {
       "id_pic": "Rollin-14_5_B",
-      "IndexJantzen": []
+      "IndexJantzen": [],
+      "IndexTorneh": [],
+      "dateCapture": "2005:08:29"
     }
   ]
 }

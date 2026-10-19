@@ -1,27 +1,44 @@
 /**
- * card.js — Card (« snippet ») d'un bâtiment, PARTAGÉE entre :
- *   • la carte    — popup au survol / clic d'un POI (map.js) ;
- *   • la mosaïque — tuile de résultat (views.js).
- *
- * En deux temps, pour rester léger :
- *   1. buildBuildingCard(props)  — coque immédiate à partir des données du
- *      GeoJSON (nom, arrondissement, ensemble), avec un squelette d'image.
- *   2. enrichBuildingCard(el, data) — complète avec l'image de référence et les
- *      personnes (rôle), issues de la fiche complète getBatiment(id) chargée à
- *      la demande. getBatiment / getPersonne étant mutualisés (cache), la carte
- *      et la mosaïque partagent le même chargement.
+ * card.js — Card d'un bâtiment, partagée entre la carte (popup d'un POI, map.js)
+ * et la liste (tuile de résultat, views.js). En deux temps :
+ *   1. buildBuildingCard(props) — card depuis les données du GeoJSON, avec un
+ *      squelette d'image ;
+ *   2. enrichBuildingCard(el, data) — ajoute l'image de référence et les
+ *      personnes, depuis la fiche complète getBatiment(id) chargée à la demande
+ *      (cache mutualisé entre la carte et la liste).
  */
 
-/** URL de l'image de référence d'un bâtiment (image_ref, à défaut 1re photo). */
-function buildingRefImageUrl(data) {
-  return photoUrl(data?.image_ref) || photoUrl(data?.photos?.[0]?.id_pic) || null;
+
+/**
+ * Image de référence d'un bâtiment : image_ref, à défaut la 1re photo. Si une
+ * seule facette thésaurus est active, on préfère la première photo porteuse de
+ * ce terme.
+ * @returns {{ idPic: string, url: string } | null}
+ */
+function buildingRefImageId(data) {
+  const photos = Array.isArray(data?.photos) ? data.photos : [];
+
+  if (typeof activeFilters !== 'undefined' && activeFilters.thesaurus.size === 1) {
+    const [term] = activeFilters.thesaurus;
+    const normTerm = normalizeText(term);
+    const match = photos.find(ph =>
+      [...(ph.IndexJantzen || []), ...(ph.IndexTorneh || [])].some(t => normalizeText(t) === normTerm));
+    if (match?.id_pic) return match.id_pic;
+  }
+
+  return data?.image_ref || photos[0]?.id_pic || null;
+}
+
+/** Une image introuvable n'affecte que sa propre tuile. */
+function attachCardImage(img, idPic, onLoaded, onFailed) {
+  if (!idPic) return;
+  img.onload = () => { onLoaded?.(); };
+  setImageSources(img, thumbUrls(idPic), onFailed);
 }
 
 /**
- * Construit la coque de la card. Renvoie un <button> cliquable (le clic est
- * câblé par l'appelant, différent selon le contexte carte / mosaïque).
- * @param {object} props  properties d'une feature GeoJSON (id_bat, libelle,
- *        ensemble, arrondissement).
+ * Construit la card, renvoie un <button> cliquable.
+ * @param {object} props  properties d'une feature GeoJSON
  */
 function buildBuildingCard(props) {
   const card = document.createElement('button');
@@ -30,10 +47,10 @@ function buildBuildingCard(props) {
   card.dataset.id  = props.id_bat;
   card.setAttribute('aria-label', props.libelle || `Bâtiment ${props.id_bat}`);
 
+  card.addEventListener('contextmenu', e => e.preventDefault());
+
   const arr = Number(props.arrondissement);
 
-  // Termes du thésaurus (Index Jantzen) : présents dans les propriétés de la
-  // feature, donc affichés d'emblée (au plus 4, le reste résumé par « … »).
   const terms = Array.isArray(props.terme_jantzen_bat) ? props.terme_jantzen_bat : [];
   const termsText = terms.slice(0, 4).map(capitalize).join(', ')
     + (terms.length > 4 ? '…' : '');
@@ -65,29 +82,29 @@ function buildBuildingCard(props) {
   return card;
 }
 
-/**
- * Complète une card avec l'image de référence et les personnes liées, à partir
- * de la fiche complète `data` (getBatiment). Idempotent : ne réinsère pas
- * l'image si elle est déjà là.
- */
+/** Complète une card avec l'image de référence et les personnes de la fiche `data`. */
 async function enrichBuildingCard(card, data) {
   if (!card || !data) return;
 
-  // Image de référence — insérée SOUS le badge arrondissement, squelette retiré
-  // une fois chargée.
+  // Image de référence insérée sous le badge arrondissement
   const thumb = card.querySelector('.bldg-card-thumb');
-  const src   = buildingRefImageUrl(data);
-  if (thumb && src && !thumb.querySelector('img')) {
+  const idPic = buildingRefImageId(data);
+  if (thumb && idPic && !thumb.querySelector('img')) {
     const img = document.createElement('img');
     img.alt      = '';
     img.decoding = 'async';
-    img.onload   = () => { thumb.querySelector('.thumb-skeleton')?.remove(); };
-    img.onerror  = function () { retryUppercaseJpg(this); };
-    img.src      = src;
+
+    img.addEventListener('contextmenu', e => e.preventDefault());
+    img.addEventListener('dragstart', e => e.preventDefault());
+
+    // Squelette retiré au chargement comme à l'échec
+    const dropSkeleton = () => thumb.querySelector('.thumb-skeleton')?.remove();
+    attachCardImage(img, idPic, dropSkeleton, () => { dropSkeleton(); img.remove(); });
+
     thumb.insertBefore(img, thumb.firstChild);
   }
 
-  // Personnes liées : « Libellé (rôle) », séparées par « · ».
+  // Personnes liées
   const host = card.querySelector('.bldg-card-people');
   const entries = Array.isArray(data.personnes) ? data.personnes : [];
   if (host && entries.length) {

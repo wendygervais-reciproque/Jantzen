@@ -1,0 +1,100 @@
+{
+  "id_bat": 346,
+  "libelle": "10 rue Mallet-Stevens",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 614,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1927",
+  "periode": [
+    "1915-1944"
+  ],
+  "adresse": {
+    "affichage": "10 rue Mallet-Stevens",
+    "numero": "10",
+    "voie": "rue Mallet-Stevens"
+  },
+  "arrondissement": 16,
+  "tri_alphab": "Mallet-Stevens",
+  "coordonnees": {
+    "latitude": "48.854897",
+    "longitude": "2.266106"
+  },
+  "id_pss": 28684,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": "Mallet-Stevens-10_16_§1",
+  "terme_jantzen_bat": [
+    "porte-fer",
+    "tourelle",
+    "fenetre-d'angle",
+    "fenetre",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "escalier",
+    "fenêtre",
+    "garde-corps",
+    "toit-terrasse",
+    "tour"
+  ],
+  "photos": [
+    {
+      "id_pic": "Mallet-Stevens-10_16_§1",
+      "IndexJantzen": [
+        "décor",
+        "fenetre-d'angle"
+      ],
+      "IndexTorneh": [
+        "tour",
+        "escalier",
+        "garde-corps",
+        "balcon",
+        "fenêtre",
+        "toit-terrasse"
+      ],
+      "dateCapture": "2005:05:12"
+    },
+    {
+      "id_pic": "Mallet-Stevens-10_16_§2",
+      "IndexJantzen": [
+        "décor",
+        "fenetre-d'angle",
+        "tourelle"
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2009:03:31"
+    },
+    {
+      "id_pic": "Mallet-Stevens-10_16_§3",
+      "IndexJantzen": [
+        "décor",
+        "fenetre-d'angle",
+        "tourelle"
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:05:12"
+    },
+    {
+      "id_pic": "Mallet-Stevens-10_16_§4",
+      "IndexJantzen": [
+        "décor",
+        "fenetre"
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:05:12"
+    },
+    {
+      "id_pic": "Mallet-Stevens-10_16_§5",
+      "IndexJantzen": [
+        "porte-fer"
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2009:03:31"
+    }
+  ]
+}

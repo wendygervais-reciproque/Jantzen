@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 614,
+      "personneID": 814,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "avenue Mac-Mahon"
   },
   "arrondissement": 17,
+  "tri_alphab": "Mac-Mahon",
   "coordonnees": {
     "latitude": "48.876752",
     "longitude": "2.294792"
@@ -30,13 +31,50 @@
     "fenetre",
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "heurtoir",
+    "marquise",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "sculpture",
+    "vantail",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Mac-Mahon-14_17_1§",
       "IndexJantzen": [
         "fenetre",
         "porte-bois"
-      ]
+      ],
+      "IndexTorneh": [
+        "porte",
+        "arc en plein cintre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "mascaron",
+        "fenêtre",
+        "volet",
+        "vantail",
+        "pierre de taille",
+        "pilastre",
+        "sculpture",
+        "heurtoir",
+        "oculus",
+        "marquise"
+      ],
+      "dateCapture": "2004:09:02"
     }
   ]
 }

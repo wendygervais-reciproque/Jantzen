@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 556,
+      "personneID": 735,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue Octave-Feuillet"
   },
   "arrondissement": 16,
+  "tri_alphab": "Octave-Feuillet",
   "coordonnees": {
     "latitude": "48.861598",
     "longitude": "2.271868"
@@ -28,9 +29,26 @@
   "image_ref": "Octave-Feuillet-21_16_§1",
   "terme_jantzen_bat": [
     "brique",
-    "façade",
     "verrière",
+    "façade",
     "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "baie",
+    "balcon",
+    "brique",
+    "corniche",
+    "fenêtre",
+    "garde-corps",
+    "grille",
+    "meneau",
+    "oriel",
+    "pierre de taille",
+    "porte",
+    "soupirail",
+    "vantail",
+    "verrière"
   ],
   "photos": [
     {
@@ -38,7 +56,25 @@
       "IndexJantzen": [
         "brique",
         "façade"
-      ]
+      ],
+      "IndexTorneh": [
+        "baie",
+        "arc en plein cintre",
+        "fenêtre",
+        "garde-corps",
+        "balcon",
+        "porte",
+        "pierre de taille",
+        "brique",
+        "corniche",
+        "soupirail",
+        "verrière",
+        "meneau",
+        "oriel",
+        "grille",
+        "vantail"
+      ],
+      "dateCapture": "2005:04:30"
     },
     {
       "id_pic": "Octave-Feuillet-21_16_§2",
@@ -46,7 +82,9 @@
         "brique",
         "fenetre",
         "verrière"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:04:30"
     },
     {
       "id_pic": "Octave-Feuillet-21_16_§3",
@@ -54,7 +92,9 @@
         "brique",
         "fenetre",
         "verrière"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:05:08"
     }
   ]
 }

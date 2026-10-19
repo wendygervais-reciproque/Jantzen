@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 661,
+      "personneID": 877,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue Pierre-Demours"
   },
   "arrondissement": 17,
+  "tri_alphab": "Pierre-Demours",
   "coordonnees": {
     "latitude": "48.880174",
     "longitude": "2.292111"
@@ -27,12 +28,31 @@
   "WPfr": null,
   "image_ref": "Pierre-Demours-9b_17_§1",
   "terme_jantzen_bat": [
-    "décor",
-    "sculpture",
-    "console",
     "balcon",
     "pilastre",
-    "garde-corps"
+    "sculpture",
+    "console",
+    "garde-corps",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "mascaron",
+    "modillon",
+    "pierre de taille",
+    "pilastre",
+    "porte-fenêtre",
+    "sculpture",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -42,21 +62,45 @@
         "décor",
         "pilastre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "porte-fenêtre",
+        "mascaron",
+        "sculpture",
+        "arc en plein cintre",
+        "pierre de taille",
+        "corniche",
+        "fronton",
+        "modillon",
+        "volet",
+        "fer forgé",
+        "travée",
+        "chambranle",
+        "pilastre"
+      ],
+      "dateCapture": "2005:08:08"
     },
     {
       "id_pic": "Pierre-Demours-9b_17_§2",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:08:08"
     },
     {
       "id_pic": "Pierre-Demours-9b_17_§3",
       "IndexJantzen": [
         "balcon",
         "garde-corps"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:08:08"
     },
     {
       "id_pic": "Pierre-Demours-9b_17_§4",
@@ -64,7 +108,9 @@
         "console",
         "garde-corps",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:08:08"
     }
   ]
 }

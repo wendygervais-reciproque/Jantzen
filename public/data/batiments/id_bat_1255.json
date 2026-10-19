@@ -13,6 +13,7 @@
     "voie": "rue de Courcelles"
   },
   "arrondissement": 17,
+  "tri_alphab": "Courcelles",
   "coordonnees": {
     "latitude": "48.88553",
     "longitude": "2.296534"
@@ -22,44 +23,99 @@
   "WPfr": null,
   "image_ref": "Courcelles-173_17_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "façade",
-    "porte-bois",
-    "pilastre"
+    "pilastre",
+    "fenetre",
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Courcelles-173_17_§1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "corniche",
+        "bandeau",
+        "pilastre",
+        "mascaron",
+        "lucarne",
+        "mansarde",
+        "toit à deux versants",
+        "ardoise",
+        "souche de cheminée",
+        "volet",
+        "porte",
+        "porte-fenêtre",
+        "pierre de taille",
+        "chaîne d'angle",
+        "travée",
+        "fer forgé",
+        "oculus"
+      ],
+      "dateCapture": "2009:07:13"
     },
     {
       "id_pic": "Courcelles-173_17_§2",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2009:07:13"
     },
     {
       "id_pic": "Courcelles-173_17_§3",
       "IndexJantzen": [
         "fenetre",
         "pilastre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2009:07:13"
     },
     {
       "id_pic": "Courcelles-173_17_§4",
       "IndexJantzen": [
         "fenetre",
         "pilastre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2009:07:13"
     },
     {
       "id_pic": "Courcelles-173_17_§5",
       "IndexJantzen": [
         "fenetre",
         "porte-bois"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2009:07:13"
     }
   ]
 }

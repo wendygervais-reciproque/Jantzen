@@ -2,7 +2,12 @@
   "id_bat": 1791,
   "libelle": "24 rue Beaunier",
   "ensemble": null,
-  "personnes": null,
+  "personnes": [
+    {
+      "personneID": 462,
+      "role": "architecte"
+    }
+  ],
   "dateConstruction": null,
   "periode": [
     "1895-1914"
@@ -13,6 +18,7 @@
     "voie": "rue Beaunier"
   },
   "arrondissement": 14,
+  "tri_alphab": "Beaunier",
   "coordonnees": {
     "latitude": "48.824289",
     "longitude": "2.329625"
@@ -22,22 +28,57 @@
   "WPfr": null,
   "image_ref": "Beaunier-24_14_§1",
   "terme_jantzen_bat": [
+    "façade",
+    "brique"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
     "brique",
-    "façade"
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "porte-fenêtre",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Beaunier-24_14_§1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "brique",
+        "mascaron",
+        "arc en plein cintre",
+        "lucarne",
+        "corniche",
+        "bandeau",
+        "volet",
+        "porte-fenêtre",
+        "mansarde"
+      ],
+      "dateCapture": "2005:04:27"
     },
     {
       "id_pic": "Beaunier-24_14_§2",
       "IndexJantzen": [
         "brique",
         "façade"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:04:27"
     }
   ]
 }

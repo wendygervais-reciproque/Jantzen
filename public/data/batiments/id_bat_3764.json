@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 358,
+      "personneID": 486,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue de l'Argonne"
   },
   "arrondissement": 19,
+  "tri_alphab": "Argonne",
   "coordonnees": {
     "latitude": "48.892851",
     "longitude": "2.384632"
@@ -28,8 +29,22 @@
   "image_ref": "Argonne-8b_19_§1",
   "terme_jantzen_bat": [
     "brique",
-    "décor",
-    "fenetre"
+    "fenetre",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "corniche",
+    "céramique",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "souche de cheminée",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -37,7 +52,22 @@
       "IndexJantzen": [
         "brique",
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [
+        "brique",
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "volet",
+        "travée",
+        "céramique",
+        "corniche",
+        "souche de cheminée",
+        "bandeau",
+        "fer forgé"
+      ],
+      "dateCapture": "2005:09:07"
     },
     {
       "id_pic": "Argonne-8b_19_§2",
@@ -45,7 +75,9 @@
         "brique",
         "décor",
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:09:07"
     }
   ]
 }

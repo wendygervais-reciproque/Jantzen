@@ -2,11 +2,29 @@
   "id_bat": 21,
   "libelle": "Cour Carré - Est",
   "ensemble": "Palais du Louvre",
-  "personnes": null,
+  "personnes": [
+    {
+      "personneID": 552,
+      "role": "architecte"
+    },
+    {
+      "personneID": 546,
+      "role": "architecte"
+    },
+    {
+      "personneID": 721,
+      "role": "architecte"
+    },
+    {
+      "personneID": 588,
+      "role": "architecte"
+    }
+  ],
   "dateConstruction": null,
   "periode": null,
   "adresse": null,
   "arrondissement": 1,
+  "tri_alphab": "Louvre-1-Ccw",
   "coordonnees": {
     "latitude": "48.860194",
     "longitude": "2.339325"
@@ -16,9 +34,24 @@
   "WPfr": "Cour carrée",
   "image_ref": "Louvre-1-Ccw-2",
   "terme_jantzen_bat": [
-    "porte-bois",
+    "sculpture",
     "intérieur",
-    "sculpture"
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "arcade",
+    "architrave",
+    "chapiteau corinthien",
+    "colonne",
+    "entablement",
+    "fronton",
+    "pierre de taille",
+    "porche",
+    "porte",
+    "sculpture",
+    "vantail",
+    "voûte"
   ],
   "photos": [
     {
@@ -26,14 +59,32 @@
       "IndexJantzen": [
         "intérieur",
         "porte-bois"
-      ]
+      ],
+      "IndexTorneh": [
+        "arc en plein cintre",
+        "arcade",
+        "architrave",
+        "colonne",
+        "chapiteau corinthien",
+        "entablement",
+        "fronton",
+        "porte",
+        "porche",
+        "pierre de taille",
+        "sculpture",
+        "voûte",
+        "vantail"
+      ],
+      "dateCapture": "2006:07:18"
     },
     {
       "id_pic": "Louvre-1-Ccw-3",
       "IndexJantzen": [
         "intérieur",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:07:18"
     }
   ]
 }

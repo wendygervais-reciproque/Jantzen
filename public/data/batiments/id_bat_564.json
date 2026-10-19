@@ -18,6 +18,7 @@
     "voie": "rue Réaumur"
   },
   "arrondissement": 2,
+  "tri_alphab": "Reaumur",
   "coordonnees": {
     "latitude": "48.867927",
     "longitude": "2.345188"
@@ -27,12 +28,24 @@
   "WPfr": null,
   "image_ref": "Reaumur-116_2_§1",
   "terme_jantzen_bat": [
-    "fronton",
     "porte-fer",
-    "fenetre",
     "sculpture",
+    "console",
+    "fenetre",
+    "fronton",
+    "atlante"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
     "atlante",
-    "console"
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "vantail"
   ],
   "photos": [
     {
@@ -40,7 +53,20 @@
       "IndexJantzen": [
         "fenetre",
         "porte-fer"
-      ]
+      ],
+      "IndexTorneh": [
+        "atlante",
+        "arc en plein cintre",
+        "fronton",
+        "mascaron",
+        "sculpture",
+        "porte",
+        "fer forgé",
+        "fenêtre",
+        "pierre de taille",
+        "vantail"
+      ],
+      "dateCapture": "2004:04:25"
     },
     {
       "id_pic": "Reaumur-116_2_§2-Rs",
@@ -48,14 +74,18 @@
         "fenetre",
         "porte-fer",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2011:05:07"
     },
     {
       "id_pic": "Reaumur-116_2_§3",
       "IndexJantzen": [
         "fronton",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2011:05:07"
     },
     {
       "id_pic": "Reaumur-116_2_§4",
@@ -63,14 +93,18 @@
         "atlante",
         "console",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:08:28"
     },
     {
       "id_pic": "Reaumur-116_2_§5",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:08:28"
     }
   ]
 }

@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 479,
+      "personneID": 640,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue Antoine-Vollon"
   },
   "arrondissement": 12,
+  "tri_alphab": "Antoine-Vollon",
   "coordonnees": {
     "latitude": "48.850891",
     "longitude": "2.376988"
@@ -27,8 +28,29 @@
   "WPfr": null,
   "image_ref": "Antoine-Vollon-13_12_§2",
   "terme_jantzen_bat": [
+    "lucarne-d'angle",
+    "balcon"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
     "balcon",
-    "lucarne-d'angle"
+    "balustrade",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -36,7 +58,29 @@
       "IndexJantzen": [
         "balcon",
         "lucarne-d'angle"
-      ]
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "corniche",
+        "fenêtre",
+        "fer forgé",
+        "garde-corps",
+        "lucarne",
+        "mansarde",
+        "mascaron",
+        "pierre de taille",
+        "sculpture",
+        "souche de cheminée",
+        "toit à deux versants",
+        "travée",
+        "volet",
+        "ardoise",
+        "fronton",
+        "pilastre",
+        "oculus"
+      ],
+      "dateCapture": "2004:09:16"
     }
   ]
 }

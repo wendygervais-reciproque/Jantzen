@@ -4,7 +4,19 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 260,
+      "personneID": 545,
+      "role": "architecte"
+    },
+    {
+      "personneID": 547,
+      "role": "architecte"
+    },
+    {
+      "personneID": 546,
+      "role": "architecte"
+    },
+    {
+      "personneID": 617,
       "role": "architecte"
     }
   ],
@@ -15,6 +27,7 @@
   ],
   "adresse": null,
   "arrondissement": 5,
+  "tri_alphab": "Val-De-Grace",
   "coordonnees": {
     "latitude": "48.8398",
     "longitude": "2.3417"
@@ -22,54 +35,85 @@
   "id_pss": 3278,
   "id_wikidata": "Q17376345",
   "WPfr": "Abbaye du Val-de-Grâce",
-  "image_ref": "Val-De-Grace_5_§1",
+  "image_ref": "Val-De-Grace_5_§2",
   "terme_jantzen_bat": [
-    "lucarne",
-    "façade",
     "toiture",
-    "fronton",
-    "fenetre",
     "oeil-de-boeuf",
-    "décor",
     "dome",
     "sculpture",
+    "fenetre",
+    "lucarne",
+    "façade",
+    "fronton",
+    "voie",
     "colonne",
     "porte-bois",
-    "voie"
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "arcade",
+    "chapiteau",
+    "colonne",
+    "corniche",
+    "dôme",
+    "entablement",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "grille",
+    "lucarne",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "portail",
+    "porte",
+    "sculpture",
+    "souche de cheminée"
   ],
   "photos": [
     {
       "id_pic": "Val-De-Grace_5_§1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:04:03"
     },
     {
       "id_pic": "Val-De-Grace_5_§10",
       "IndexJantzen": [
         "dome"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:06:23"
     },
     {
       "id_pic": "Val-De-Grace_5_§11",
       "IndexJantzen": [
         "dome",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:06:23"
     },
     {
       "id_pic": "Val-De-Grace_5_§12",
       "IndexJantzen": [
         "dome",
         "fronton"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:04:03"
     },
     {
       "id_pic": "Val-De-Grace_5_§13",
       "IndexJantzen": [
         "dome",
         "fronton"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:04:03"
     },
     {
       "id_pic": "Val-De-Grace_5_§15",
@@ -77,7 +121,9 @@
         "façade",
         "fronton",
         "porte-bois"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:06:23"
     },
     {
       "id_pic": "Val-De-Grace_5_§16",
@@ -85,55 +131,93 @@
         "colonne",
         "fronton",
         "porte-bois"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:06:23"
     },
     {
       "id_pic": "Val-De-Grace_5_§17",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:06:23"
     },
     {
       "id_pic": "Val-De-Grace_5_§18",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:06:23"
     },
     {
       "id_pic": "Val-De-Grace_5_§19",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:06:23"
     },
     {
       "id_pic": "Val-De-Grace_5_§2",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [
+        "dôme",
+        "colonne",
+        "pilastre",
+        "fronton",
+        "arc en plein cintre",
+        "oculus",
+        "sculpture",
+        "corniche",
+        "entablement",
+        "fenêtre",
+        "porte",
+        "grille",
+        "pierre de taille",
+        "chapiteau",
+        "arcade",
+        "lucarne",
+        "souche de cheminée",
+        "portail",
+        "fer forgé"
+      ],
+      "dateCapture": "2006:04:03"
     },
     {
       "id_pic": "Val-De-Grace_5_§20",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:06:23"
     },
     {
       "id_pic": "Val-De-Grace_5_§21",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:06:23"
     },
     {
       "id_pic": "Val-De-Grace_5_§22",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:06:23"
     },
     {
       "id_pic": "Val-De-Grace_5_§23",
       "IndexJantzen": [
         "dome"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:06:23"
     },
     {
       "id_pic": "Val-De-Grace_5_§24",
@@ -142,7 +226,9 @@
         "dome",
         "décor",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:06:23"
     },
     {
       "id_pic": "Val-De-Grace_5_§25",
@@ -150,59 +236,77 @@
         "dome",
         "décor",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:06:23"
     },
     {
       "id_pic": "Val-De-Grace_5_§26",
       "IndexJantzen": [
         "dome",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:06:23"
     },
     {
       "id_pic": "Val-De-Grace_5_§27",
       "IndexJantzen": [
         "dome",
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:04:03"
     },
     {
       "id_pic": "Val-De-Grace_5_§28",
       "IndexJantzen": [
         "dome",
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:04:03"
     },
     {
       "id_pic": "Val-De-Grace_5_§29",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:04:22"
     },
     {
       "id_pic": "Val-De-Grace_5_§3",
       "IndexJantzen": [
         "dome",
         "voie"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:04:03"
     },
     {
       "id_pic": "Val-De-Grace_5_§30",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:06:23"
     },
     {
       "id_pic": "Val-De-Grace_5_§31",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:04:22"
     },
     {
       "id_pic": "Val-De-Grace_5_§32",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:06:23"
     },
     {
       "id_pic": "Val-De-Grace_5_§33",
@@ -210,7 +314,9 @@
         "fenetre",
         "fronton",
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:06:23"
     },
     {
       "id_pic": "Val-De-Grace_5_§34",
@@ -219,56 +325,72 @@
         "fronton",
         "lucarne",
         "toiture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:06:23"
     },
     {
       "id_pic": "Val-De-Grace_5_§35",
       "IndexJantzen": [
         "fenetre",
         "toiture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:06:23"
     },
     {
       "id_pic": "Val-De-Grace_5_§36",
       "IndexJantzen": [
         "lucarne",
         "oeil-de-boeuf"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:06:23"
     },
     {
       "id_pic": "Val-De-Grace_5_§37",
       "IndexJantzen": [
         "lucarne",
         "oeil-de-boeuf"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:06:23"
     },
     {
       "id_pic": "Val-De-Grace_5_§38",
       "IndexJantzen": [
         "dome",
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:06:23"
     },
     {
       "id_pic": "Val-De-Grace_5_§39",
       "IndexJantzen": [
         "dome",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:06:23"
     },
     {
       "id_pic": "Val-De-Grace_5_§4",
       "IndexJantzen": [
         "dome",
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:04:03"
     },
     {
       "id_pic": "Val-De-Grace_5_§40",
       "IndexJantzen": [
         "dome",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:06:23"
     },
     {
       "id_pic": "Val-De-Grace_5_§5",
@@ -276,7 +398,9 @@
         "dome",
         "fenetre",
         "fronton"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:06:23"
     },
     {
       "id_pic": "Val-De-Grace_5_§6",
@@ -284,14 +408,18 @@
         "colonne",
         "dome",
         "façade"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:04:11"
     },
     {
       "id_pic": "Val-De-Grace_5_§7",
       "IndexJantzen": [
         "dome",
         "façade"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:06:23"
     },
     {
       "id_pic": "Val-De-Grace_5_§8",
@@ -300,7 +428,9 @@
         "dome",
         "fenetre",
         "fronton"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:04:11"
     },
     {
       "id_pic": "Val-De-Grace_5_§9",
@@ -308,13 +438,17 @@
         "dome",
         "fenetre",
         "fronton"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:06:23"
     },
     {
       "id_pic": "Val-De-Grace-_5_F01",
       "IndexJantzen": [
         "toiture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:04:11"
     }
   ]
 }

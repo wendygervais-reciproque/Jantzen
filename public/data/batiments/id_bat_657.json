@@ -4,8 +4,12 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 186,
+      "personneID": 299,
       "role": "architecte"
+    },
+    {
+      "personneID": 10157,
+      "role": "sculpteur"
     }
   ],
   "dateConstruction": "1883",
@@ -18,6 +22,7 @@
     "voie": "rue du Cardinal-Mercier"
   },
   "arrondissement": 9,
+  "tri_alphab": "Cardinal-Mercier",
   "coordonnees": {
     "latitude": "48.881129",
     "longitude": "2.329945"
@@ -27,42 +32,111 @@
   "WPfr": null,
   "image_ref": "Cardinal-Mercier-12_9_§1",
   "terme_jantzen_bat": [
-    "façade",
-    "fenetre",
+    "verrière",
+    "balcon",
     "sculpture",
     "clé",
-    "balcon",
+    "fenetre",
+    "façade",
+    "garde-corps",
     "colonne",
-    "porte-bois",
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chapiteau",
+    "chéneau",
+    "colonne",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "grille",
+    "huisserie",
+    "jambage",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oriel",
+    "pierre de taille",
+    "pilastre",
+    "portail",
+    "porte",
+    "sculpture",
+    "souche de cheminée",
+    "toit en pavillon",
     "verrière",
-    "garde-corps"
+    "vitrail"
   ],
   "photos": [
     {
       "id_pic": "Cardinal-Mercier-12_9_§1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "porte",
+        "portail",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "grille",
+        "lucarne",
+        "mansarde",
+        "fronton",
+        "pilastre",
+        "colonne",
+        "chapiteau",
+        "corniche",
+        "bandeau",
+        "mascaron",
+        "sculpture",
+        "arc en plein cintre",
+        "vitrail",
+        "verrière",
+        "fer forgé",
+        "pierre de taille",
+        "toit en pavillon",
+        "chéneau",
+        "souche de cheminée",
+        "oriel",
+        "jambage",
+        "huisserie",
+        "ardoise"
+      ],
+      "dateCapture": "2006:05:04"
     },
     {
       "id_pic": "Cardinal-Mercier-12_9_§10",
       "IndexJantzen": [
         "fenetre",
         "porte-bois"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:05:21"
     },
     {
       "id_pic": "Cardinal-Mercier-12_9_§11",
       "IndexJantzen": [
         "porte-bois",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:08:09"
     },
     {
       "id_pic": "Cardinal-Mercier-12_9_§2",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:05:04"
     },
     {
       "id_pic": "Cardinal-Mercier-12_9_§3",
@@ -70,7 +144,9 @@
         "colonne",
         "fenetre",
         "verrière"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:05:21"
     },
     {
       "id_pic": "Cardinal-Mercier-12_9_§4",
@@ -78,35 +154,45 @@
         "colonne",
         "fenetre",
         "garde-corps"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:05:21"
     },
     {
       "id_pic": "Cardinal-Mercier-12_9_§5",
       "IndexJantzen": [
         "balcon",
         "garde-corps"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:05:21"
     },
     {
       "id_pic": "Cardinal-Mercier-12_9_§7",
       "IndexJantzen": [
         "clé",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:08:09"
     },
     {
       "id_pic": "Cardinal-Mercier-12_9_§8",
       "IndexJantzen": [
         "fenetre",
         "porte-bois"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:08:09"
     },
     {
       "id_pic": "Cardinal-Mercier-12_9_§9",
       "IndexJantzen": [
         "fenetre",
         "porte-bois"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:08:09"
     }
   ]
 }

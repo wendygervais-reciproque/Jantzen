@@ -2,7 +2,12 @@
   "id_bat": 1237,
   "libelle": "17 rue Fortuny",
   "ensemble": null,
-  "personnes": null,
+  "personnes": [
+    {
+      "personneID": 952,
+      "role": "architecte"
+    }
+  ],
   "dateConstruction": null,
   "periode": [
     "1870-1894"
@@ -13,6 +18,7 @@
     "voie": "rue Fortuny"
   },
   "arrondissement": 17,
+  "tri_alphab": "Fortuny",
   "coordonnees": {
     "latitude": "48.882269",
     "longitude": "2.306562"
@@ -22,11 +28,28 @@
   "WPfr": null,
   "image_ref": "Fortuny-17_17_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "oeil-de-boeuf",
     "sculpture",
+    "fenetre",
     "poignée-porte",
     "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc brisé",
+    "arc en plein cintre",
+    "balcon",
+    "chapiteau",
+    "fenêtre",
+    "garde-corps",
+    "grille",
+    "heurtoir",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "sculpture",
+    "vantail"
   ],
   "photos": [
     {
@@ -35,14 +58,34 @@
         "fenetre",
         "oeil-de-boeuf",
         "porte-bois"
-      ]
+      ],
+      "IndexTorneh": [
+        "porte",
+        "vantail",
+        "oculus",
+        "mascaron",
+        "sculpture",
+        "pilastre",
+        "arc en plein cintre",
+        "balcon",
+        "garde-corps",
+        "grille",
+        "fenêtre",
+        "heurtoir",
+        "pierre de taille",
+        "chapiteau",
+        "arc brisé"
+      ],
+      "dateCapture": "2006:06:12"
     },
     {
       "id_pic": "Fortuny-17_17_§2",
       "IndexJantzen": [
         "poignée-porte",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:06:12"
     }
   ]
 }

@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 381,
+      "personneID": 618,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "place des Victoires"
   },
   "arrondissement": 2,
+  "tri_alphab": "Victoires-Pl",
   "coordonnees": {
     "latitude": "48.865503",
     "longitude": "2.340781"
@@ -27,20 +28,69 @@
   "WPfr": null,
   "image_ref": "Victoires-Pl-1_2_§1",
   "terme_jantzen_bat": [
+    "toiture",
+    "pilastre",
+    "sculpture",
+    "fenetre",
     "lucarne",
     "façade",
-    "toiture",
-    "fenetre",
-    "décor",
-    "sculpture",
-    "pilastre"
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "chapiteau ionique",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "grille",
+    "linteau",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "souche de cheminée",
+    "toit à deux versants",
+    "vitrail"
   ],
   "photos": [
     {
       "id_pic": "Victoires-Pl-1_2_§1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "mansarde",
+        "lucarne",
+        "souche de cheminée",
+        "mascaron",
+        "arc en plein cintre",
+        "pilastre",
+        "chapiteau ionique",
+        "corniche",
+        "bandeau",
+        "pierre de taille",
+        "grille",
+        "porte",
+        "fer forgé",
+        "toit à deux versants",
+        "oculus",
+        "chambranle",
+        "linteau",
+        "vitrail"
+      ],
+      "dateCapture": "2008:07:19"
     },
     {
       "id_pic": "Victoires-Pl-1_2_§2",
@@ -51,7 +101,9 @@
         "pilastre",
         "sculpture",
         "toiture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:07:19"
     }
   ]
 }

@@ -1,0 +1,102 @@
+{
+  "id_bat": 1933,
+  "libelle": "27 rue Cardinet",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 247,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1925",
+  "periode": [
+    "1915-1944"
+  ],
+  "adresse": {
+    "affichage": "27 rue Cardinet",
+    "numero": "27",
+    "voie": "rue Cardinet"
+  },
+  "arrondissement": 17,
+  "tri_alphab": "Cardinet",
+  "coordonnees": {
+    "latitude": "48.881893",
+    "longitude": "2.303114"
+  },
+  "id_pss": 48875,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": "Cardinet-27_17_§1",
+  "terme_jantzen_bat": [
+    "sculpture",
+    "garde-corps",
+    "fenetre",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "frise",
+    "garde-corps",
+    "oriel",
+    "pierre de taille",
+    "sculpture",
+    "travée",
+    "volet"
+  ],
+  "photos": [
+    {
+      "id_pic": "Cardinet-27_17_§1",
+      "IndexJantzen": [
+        "fenetre"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "volet",
+        "fer forgé",
+        "pierre de taille",
+        "sculpture",
+        "bandeau",
+        "corniche",
+        "frise",
+        "oriel",
+        "travée"
+      ],
+      "dateCapture": "2003:07:09"
+    },
+    {
+      "id_pic": "Cardinet-27_17_§2",
+      "IndexJantzen": [
+        "décor",
+        "fenetre",
+        "sculpture"
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2003:07:09"
+    },
+    {
+      "id_pic": "Cardinet-27_17_§3",
+      "IndexJantzen": [
+        "fenetre",
+        "garde-corps",
+        "sculpture"
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2003:07:09"
+    },
+    {
+      "id_pic": "Cardinet-27_17_§4",
+      "IndexJantzen": [
+        "fenetre",
+        "sculpture"
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:06:12"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "id_bat": 947,
+  "libelle": "140 rue de Ménilmontant",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 128,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1922-1926",
+  "periode": [
+    "1915-1944"
+  ],
+  "adresse": {
+    "affichage": "140 rue de Ménilmontant",
+    "numero": "140",
+    "voie": "rue de Ménilmontant"
+  },
+  "arrondissement": 20,
+  "tri_alphab": "Menilmontant",
+  "coordonnees": {
+    "latitude": "48.870114",
+    "longitude": "2.396916"
+  },
+  "id_pss": 9750,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": "Menilmontant-140_20_§1",
+  "terme_jantzen_bat": [
+    "pignon",
+    "fenetre",
+    "brique",
+    "façade",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "bandeau",
+    "brique",
+    "chéneau",
+    "fenêtre",
+    "garde-corps",
+    "grille",
+    "souche de cheminée",
+    "toit-terrasse",
+    "volet"
+  ],
+  "photos": [
+    {
+      "id_pic": "Menilmontant-140_20_§1",
+      "IndexJantzen": [
+        "brique",
+        "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "brique",
+        "balcon",
+        "garde-corps",
+        "souche de cheminée",
+        "volet",
+        "chéneau",
+        "bandeau",
+        "toit-terrasse",
+        "grille"
+      ],
+      "dateCapture": "2005:09:19"
+    },
+    {
+      "id_pic": "Menilmontant-140_20_§2",
+      "IndexJantzen": [
+        "brique",
+        "fenetre"
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:09:19"
+    },
+    {
+      "id_pic": "Menilmontant-140_20_§3",
+      "IndexJantzen": [
+        "brique",
+        "décor",
+        "façade",
+        "pignon"
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:09:19"
+    }
+  ]
+}

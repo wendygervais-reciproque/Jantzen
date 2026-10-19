@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 148,
+      "personneID": 239,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "square d'Orléans"
   },
   "arrondissement": 9,
+  "tri_alphab": "Orleans-Sq",
   "coordonnees": {
     "latitude": "48.8774",
     "longitude": "2.33599"
@@ -27,8 +28,20 @@
   "WPfr": null,
   "image_ref": "Orleans-Sq-_9_§1",
   "terme_jantzen_bat": [
+    "façade",
+    "colonne"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "chapiteau ionique",
     "colonne",
-    "façade"
+    "corniche",
+    "entablement",
+    "fenêtre",
+    "garde-corps",
+    "pilastre",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -36,14 +49,29 @@
       "IndexJantzen": [
         "colonne",
         "façade"
-      ]
+      ],
+      "IndexTorneh": [
+        "colonne",
+        "chapiteau ionique",
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "corniche",
+        "travée",
+        "volet",
+        "pilastre",
+        "entablement"
+      ],
+      "dateCapture": "2004:08:27"
     },
     {
       "id_pic": "Orleans-Sq-_9_§2",
       "IndexJantzen": [
         "colonne",
         "façade"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:08:27"
     }
   ]
 }

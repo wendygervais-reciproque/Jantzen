@@ -2,7 +2,48 @@
   "id_bat": 109,
   "libelle": "Notre-Dame de Paris",
   "ensemble": null,
-  "personnes": null,
+  "personnes": [
+    {
+      "personneID": 540,
+      "role": "architecte"
+    },
+    {
+      "personneID": 762,
+      "role": "architecte"
+    },
+    {
+      "personneID": 205,
+      "role": "architecte"
+    },
+    {
+      "personneID": 204,
+      "role": "architecte"
+    },
+    {
+      "personneID": 230,
+      "role": "architecte"
+    },
+    {
+      "personneID": 932,
+      "role": "architecte"
+    },
+    {
+      "personneID": 666,
+      "role": "architecte"
+    },
+    {
+      "personneID": 863,
+      "role": "architecte"
+    },
+    {
+      "personneID": 873,
+      "role": "architecte"
+    },
+    {
+      "personneID": 533,
+      "role": "architecte"
+    }
+  ],
   "dateConstruction": null,
   "periode": [
     "1180-1529",
@@ -10,6 +51,7 @@
   ],
   "adresse": null,
   "arrondissement": 4,
+  "tri_alphab": "Notre-Dame",
   "coordonnees": {
     "latitude": "48.853",
     "longitude": "2.3498"
@@ -19,145 +61,208 @@
   "WPfr": "Cathédrale Notre-Dame de Paris",
   "image_ref": "Notre-Dame_4_§1",
   "terme_jantzen_bat": [
-    "lucarne",
     "toiture",
-    "façade",
+    "verrière",
+    "sculpture",
+    "pilastre",
     "intérieur",
     "fenetre",
-    "sculpture",
+    "lucarne",
+    "façade",
     "colonne",
-    "porte-bois",
-    "verrière",
-    "pilastre"
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc brisé",
+    "contrefort",
+    "gargouille",
+    "mur-boutant",
+    "pierre de taille",
+    "sculpture",
+    "toit en pavillon",
+    "vitrail",
+    "épi de faîtage"
   ],
   "photos": [
     {
       "id_pic": "Notre-Dame_4_§1",
       "IndexJantzen": [
         "toiture"
-      ]
+      ],
+      "IndexTorneh": [
+        "épi de faîtage",
+        "sculpture",
+        "vitrail",
+        "arc brisé",
+        "contrefort",
+        "arc",
+        "pierre de taille",
+        "gargouille",
+        "mur-boutant",
+        "toit en pavillon"
+      ],
+      "dateCapture": "2003:07:12"
     },
     {
       "id_pic": "Notre-Dame_4_§10",
       "IndexJantzen": [
         "sculpture",
         "toiture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2009:09:27"
     },
     {
       "id_pic": "Notre-Dame_4_§11",
       "IndexJantzen": [
         "sculpture",
         "toiture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:04:22"
     },
     {
       "id_pic": "Notre-Dame_4_§12",
       "IndexJantzen": [
         "sculpture",
         "toiture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2011:09:28"
     },
     {
       "id_pic": "Notre-Dame_4_§13",
       "IndexJantzen": [
         "pilastre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:04:20"
     },
     {
       "id_pic": "Notre-Dame_4_§14 11-17-32-954",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:04:20"
     },
     {
       "id_pic": "Notre-Dame_4_§15",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:04:20"
     },
     {
       "id_pic": "Notre-Dame_4_§16",
       "IndexJantzen": [
         "pilastre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:04:20"
     },
     {
       "id_pic": "Notre-Dame_4_§17",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:06:14"
     },
     {
       "id_pic": "Notre-Dame_4_§17b",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2013:11:13"
     },
     {
       "id_pic": "Notre-Dame_4_§19",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:04:22"
     },
     {
       "id_pic": "Notre-Dame_4_§2",
       "IndexJantzen": [
         "toiture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:06:14"
     },
     {
       "id_pic": "Notre-Dame_4_§20",
       "IndexJantzen": [
         "toiture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2013:11:13"
     },
     {
       "id_pic": "Notre-Dame_4_§21",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2011:09:28"
     },
     {
       "id_pic": "Notre-Dame_4_§23",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:04:22"
     },
     {
       "id_pic": "Notre-Dame_4_§24",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2011:09:28"
     },
     {
       "id_pic": "Notre-Dame_4_§25",
       "IndexJantzen": [
         "lucarne",
         "toiture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2011:09:28"
     },
     {
       "id_pic": "Notre-Dame_4_§26",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:04:20"
     },
     {
       "id_pic": "Notre-Dame_4_§27",
       "IndexJantzen": [
         "porte-bois",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:06:14"
     },
     {
       "id_pic": "Notre-Dame_4_§28",
       "IndexJantzen": [
         "porte-bois",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:06:14"
     },
     {
       "id_pic": "Notre-Dame_4_§29",
@@ -165,26 +270,34 @@
         "colonne",
         "façade",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:06:14"
     },
     {
       "id_pic": "Notre-Dame_4_§3",
       "IndexJantzen": [
         "toiture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:06:14"
     },
     {
       "id_pic": "Notre-Dame_4_§30",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:06:14"
     },
     {
       "id_pic": "Notre-Dame_4_§31",
       "IndexJantzen": [
         "porte-bois",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:06:14"
     },
     {
       "id_pic": "Notre-Dame_4_§32",
@@ -192,54 +305,70 @@
         "colonne",
         "porte-bois",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:06:14"
     },
     {
       "id_pic": "Notre-Dame_4_§34",
       "IndexJantzen": [
         "colonne",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:06:14"
     },
     {
       "id_pic": "Notre-Dame_4_§35",
       "IndexJantzen": [
         "colonne",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:06:14"
     },
     {
       "id_pic": "Notre-Dame_4_§36",
       "IndexJantzen": [
         "colonne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": null
     },
     {
       "id_pic": "Notre-Dame_4_§37",
       "IndexJantzen": [
         "porte-bois",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:06:14"
     },
     {
       "id_pic": "Notre-Dame_4_§38",
       "IndexJantzen": [
         "porte-bois",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:06:14"
     },
     {
       "id_pic": "Notre-Dame_4_§39",
       "IndexJantzen": [
         "porte-bois",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:06:14"
     },
     {
       "id_pic": "Notre-Dame_4_§4",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:06:14"
     },
     {
       "id_pic": "Notre-Dame_4_§40",
@@ -247,7 +376,9 @@
         "colonne",
         "porte-bois",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:06:14"
     },
     {
       "id_pic": "Notre-Dame_4_§41",
@@ -255,51 +386,67 @@
         "colonne",
         "porte-bois",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": null
     },
     {
       "id_pic": "Notre-Dame_4_§42",
       "IndexJantzen": [
         "intérieur",
         "verrière"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2013:11:13"
     },
     {
       "id_pic": "Notre-Dame_4_§5 11-17-32-960",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:06:14"
     },
     {
       "id_pic": "Notre-Dame_4_§6_1-Rx",
       "IndexJantzen": [
         "toiture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2013:11:13"
     },
     {
       "id_pic": "Notre-Dame_4_§7",
       "IndexJantzen": [
         "sculpture",
         "toiture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:04:20"
     },
     {
       "id_pic": "Notre-Dame_4_§7b",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2013:11:13"
     },
     {
       "id_pic": "Notre-Dame_4_§7c",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2013:11:13"
     },
     {
       "id_pic": "Notre-Dame_4_§8",
       "IndexJantzen": [
         "colonne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:06:14"
     }
   ]
 }

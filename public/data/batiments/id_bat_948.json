@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 524,
+      "personneID": 23,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue de Rennes"
   },
   "arrondissement": 6,
+  "tri_alphab": "Rennes",
   "coordonnees": {
     "latitude": "48.845472",
     "longitude": "2.325238"
@@ -27,16 +28,39 @@
   "WPfr": null,
   "image_ref": "Rennes-140B_6_§1",
   "terme_jantzen_bat": [
-    "façade-d'angle",
-    "fenetre",
-    "décor",
-    "dome",
-    "fenetre-d'angle",
-    "sculpture",
-    "console",
     "balcon",
+    "dome",
+    "façade-d'angle",
+    "sculpture",
+    "fenetre-d'angle",
+    "fenetre",
+    "console",
+    "garde-corps",
     "colonne",
-    "garde-corps"
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "oriel",
+    "pierre de taille",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "tour",
+    "travée",
+    "verrière",
+    "vitrail",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -44,7 +68,31 @@
       "IndexJantzen": [
         "dome",
         "façade-d'angle"
-      ]
+      ],
+      "IndexTorneh": [
+        "oriel",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "oculus",
+        "bandeau",
+        "corniche",
+        "mansarde",
+        "souche de cheminée",
+        "épi de faîtage",
+        "sculpture",
+        "mascaron",
+        "pierre de taille",
+        "verrière",
+        "vitrail",
+        "fer forgé",
+        "toit à deux versants",
+        "tour",
+        "travée",
+        "arc en plein cintre"
+      ],
+      "dateCapture": "2005:05:01"
     },
     {
       "id_pic": "Rennes-140B_6_§2",
@@ -55,7 +103,9 @@
         "décor",
         "fenetre-d'angle",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:05:01"
     },
     {
       "id_pic": "Rennes-140B_6_§3",
@@ -63,34 +113,44 @@
         "dome",
         "décor",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:05:01"
     },
     {
       "id_pic": "Rennes-140B_6_§4",
       "IndexJantzen": [
         "balcon"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:05:01"
     },
     {
       "id_pic": "Rennes-140B_6_§5",
       "IndexJantzen": [
         "balcon",
         "garde-corps"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:05:01"
     },
     {
       "id_pic": "Rennes-140B_6_§6",
       "IndexJantzen": [
         "balcon",
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:05:01"
     },
     {
       "id_pic": "Rennes-140B_6_§7",
       "IndexJantzen": [
         "balcon",
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:05:01"
     },
     {
       "id_pic": "Rennes-140B_6_§8",
@@ -98,14 +158,18 @@
         "décor",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:05:01"
     },
     {
       "id_pic": "Rennes-140B_6_§9",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:05:01"
     }
   ]
 }

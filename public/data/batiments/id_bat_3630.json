@@ -1,0 +1,65 @@
+{
+  "id_bat": 3630,
+  "libelle": "8 rue des Récollets",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": null,
+  "adresse": {
+    "affichage": "8 rue des Récollets",
+    "numero": "8",
+    "voie": "rue des Récollets"
+  },
+  "arrondissement": 10,
+  "tri_alphab": "Recollets",
+  "coordonnees": {
+    "latitude": "48.874499",
+    "longitude": "2.361905"
+  },
+  "id_pss": null,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": "Recollets-8_10_§1",
+  "terme_jantzen_bat": [
+    "porte"
+  ],
+  "terme_torneh_bat": [
+    "chapiteau composite",
+    "chapiteau ionique",
+    "colonne",
+    "corniche",
+    "entablement",
+    "frise",
+    "fronton",
+    "grille",
+    "mascaron",
+    "pierre de taille",
+    "portail",
+    "sculpture",
+    "vantail"
+  ],
+  "photos": [
+    {
+      "id_pic": "Recollets-8_10_§1",
+      "IndexJantzen": [
+        "porte"
+      ],
+      "IndexTorneh": [
+        "portail",
+        "colonne",
+        "chapiteau ionique",
+        "chapiteau composite",
+        "entablement",
+        "corniche",
+        "frise",
+        "fronton",
+        "pierre de taille",
+        "vantail",
+        "mascaron",
+        "grille",
+        "sculpture"
+      ],
+      "dateCapture": "2005:09:08"
+    }
+  ]
+}

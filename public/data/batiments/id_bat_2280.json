@@ -13,6 +13,7 @@
     "voie": "rue de Provence"
   },
   "arrondissement": 9,
+  "tri_alphab": "Provence",
   "coordonnees": {
     "latitude": "48.874248",
     "longitude": "2.336735"
@@ -24,18 +25,39 @@
   "terme_jantzen_bat": [
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "bossage",
+    "chambranle",
+    "fenêtre",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Provence-34_9_§1",
       "IndexJantzen": [
         "porte-bois"
-      ]
+      ],
+      "IndexTorneh": [
+        "porte",
+        "vantail",
+        "chambranle",
+        "sculpture",
+        "pierre de taille",
+        "fenêtre",
+        "bossage"
+      ],
+      "dateCapture": "2006:07:02"
     },
     {
       "id_pic": "Provence-34_9_§2",
       "IndexJantzen": [
         "porte-bois"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:06:16"
     }
   ]
 }

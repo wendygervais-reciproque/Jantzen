@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 81,
+      "personneID": 130,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "boulevard de Vaugirard"
   },
   "arrondissement": 15,
+  "tri_alphab": "Vaugirard-bd",
   "coordonnees": {
     "latitude": "48.840833",
     "longitude": "2.315466"
@@ -27,16 +28,41 @@
   "WPfr": null,
   "image_ref": "Vaugirard-bd-52_15_§1",
   "terme_jantzen_bat": [
-    "lucarne",
-    "façade",
-    "fenetre",
     "oeil-de-boeuf",
+    "balcon",
     "dome",
     "sculpture",
     "console",
-    "balcon",
+    "fenetre",
+    "lucarne",
+    "façade",
     "porte-fer-hall",
     "garde-corps"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "avant-corps",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oriel",
+    "pierre de taille",
+    "porte-fenêtre",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "vitrail",
+    "volet"
   ],
   "photos": [
     {
@@ -44,20 +70,50 @@
       "IndexJantzen": [
         "dome",
         "façade"
-      ]
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "porte-fenêtre",
+        "lucarne",
+        "mansarde",
+        "ardoise",
+        "souche de cheminée",
+        "corniche",
+        "pierre de taille",
+        "bandeau",
+        "chambranle",
+        "oriel",
+        "sculpture",
+        "mascaron",
+        "fronton",
+        "fer forgé",
+        "avant-corps",
+        "travée",
+        "volet",
+        "vitrail",
+        "toit à deux versants"
+      ],
+      "dateCapture": "2006:04:07"
     },
     {
       "id_pic": "Vaugirard-bd-52_15_§10",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:04:07"
     },
     {
       "id_pic": "Vaugirard-bd-52_15_§11",
       "IndexJantzen": [
         "fenetre",
         "garde-corps"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:06:17"
     },
     {
       "id_pic": "Vaugirard-bd-52_15_§12",
@@ -65,27 +121,35 @@
         "balcon",
         "console",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:04:07"
     },
     {
       "id_pic": "Vaugirard-bd-52_15_§13",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:04:07"
     },
     {
       "id_pic": "Vaugirard-bd-52_15_§14",
       "IndexJantzen": [
         "porte-fer-hall"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:05:24"
     },
     {
       "id_pic": "Vaugirard-bd-52_15_§2",
       "IndexJantzen": [
         "dome",
         "façade"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:05:23"
     },
     {
       "id_pic": "Vaugirard-bd-52_15_§4",
@@ -93,7 +157,9 @@
         "dome",
         "fenetre",
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:05:23"
     },
     {
       "id_pic": "Vaugirard-bd-52_15_§5",
@@ -102,7 +168,9 @@
         "fenetre",
         "lucarne",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:06:17"
     },
     {
       "id_pic": "Vaugirard-bd-52_15_§6",
@@ -110,7 +178,9 @@
         "dome",
         "fenetre",
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:06:17"
     },
     {
       "id_pic": "Vaugirard-bd-52_15_§7",
@@ -118,7 +188,9 @@
         "dome",
         "lucarne",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:04:07"
     },
     {
       "id_pic": "Vaugirard-bd-52_15_§8",
@@ -126,7 +198,9 @@
         "dome",
         "lucarne",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:04:07"
     },
     {
       "id_pic": "Vaugirard-bd-52_15_§9",
@@ -135,7 +209,9 @@
         "lucarne",
         "oeil-de-boeuf",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:04:07"
     }
   ]
 }

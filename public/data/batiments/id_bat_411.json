@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 662,
+      "personneID": 880,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue Vieille-du-Temple"
   },
   "arrondissement": 3,
+  "tri_alphab": "Vieille-Du-Temple",
   "coordonnees": {
     "latitude": "48.86078",
     "longitude": "2.362445"
@@ -28,9 +29,32 @@
   "image_ref": "Vieille-Du-Temple-106_3_§1",
   "terme_jantzen_bat": [
     "brique",
-    "lucarne",
     "façade",
-    "fenetre"
+    "fenetre",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "ardoise",
+    "brique",
+    "chambranle",
+    "chaîne d'angle",
+    "escalier",
+    "fenêtre",
+    "garde-corps",
+    "grille",
+    "linteau",
+    "lucarne",
+    "mansarde",
+    "perron",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -38,33 +62,65 @@
       "IndexJantzen": [
         "brique",
         "façade"
-      ]
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "lucarne",
+        "mansarde",
+        "brique",
+        "pierre de taille",
+        "chaîne d'angle",
+        "ardoise",
+        "souche de cheminée",
+        "arc en plein cintre",
+        "arc",
+        "porte",
+        "portail",
+        "porte-fenêtre",
+        "garde-corps",
+        "grille",
+        "volet",
+        "travée",
+        "chambranle",
+        "linteau",
+        "escalier",
+        "perron"
+      ],
+      "dateCapture": "2006:07:18"
     },
     {
       "id_pic": "Vieille-Du-Temple-106_3_§2",
       "IndexJantzen": [
         "brique",
         "façade"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:07:18"
     },
     {
       "id_pic": "Vieille-Du-Temple-106_3_§3",
       "IndexJantzen": [
         "fenetre",
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:07:18"
     },
     {
       "id_pic": "Vieille-Du-Temple-106_3_§4",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:07:18"
     },
     {
       "id_pic": "Vieille-Du-Temple-106_3_§5",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:07:18"
     }
   ]
 }

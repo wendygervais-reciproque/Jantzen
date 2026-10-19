@@ -2,7 +2,12 @@
   "id_bat": 183,
   "libelle": "1 place du Général-Catroux",
   "ensemble": null,
-  "personnes": null,
+  "personnes": [
+    {
+      "personneID": 339,
+      "role": "architecte"
+    }
+  ],
   "dateConstruction": "1878",
   "periode": [
     "1870-1894"
@@ -13,6 +18,7 @@
     "voie": "place du Général-Catroux"
   },
   "arrondissement": 17,
+  "tri_alphab": "General-Catroux-pl",
   "coordonnees": {
     "latitude": "48.881955",
     "longitude": "2.310695"
@@ -23,8 +29,26 @@
   "image_ref": "General-Catroux-pl-1_17_§1",
   "terme_jantzen_bat": [
     "brique",
+    "toiture",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "arc brisé",
+    "ardoise",
+    "brique",
+    "chaîne d'angle",
+    "corniche",
+    "faîtage",
+    "fenêtre",
+    "gargouille",
     "lucarne",
-    "toiture"
+    "pierre de taille",
+    "pilastre",
+    "souche de cheminée",
+    "toit à deux versants",
+    "tour",
+    "travée",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -33,7 +57,26 @@
         "brique",
         "lucarne",
         "toiture"
-      ]
+      ],
+      "IndexTorneh": [
+        "épi de faîtage",
+        "souche de cheminée",
+        "tour",
+        "lucarne",
+        "fenêtre",
+        "chaîne d'angle",
+        "pierre de taille",
+        "brique",
+        "ardoise",
+        "toit à deux versants",
+        "arc brisé",
+        "pilastre",
+        "corniche",
+        "travée",
+        "gargouille",
+        "faîtage"
+      ],
+      "dateCapture": "2006:06:08"
     },
     {
       "id_pic": "General-Catroux-pl-1_17_§2",
@@ -41,20 +84,26 @@
         "brique",
         "lucarne",
         "toiture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:06:08"
     },
     {
       "id_pic": "General-Catroux-pl-1_17_§3",
       "IndexJantzen": [
         "brique",
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:06:08"
     },
     {
       "id_pic": "General-Catroux-pl-1_17_§4",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:06:08"
     }
   ]
 }

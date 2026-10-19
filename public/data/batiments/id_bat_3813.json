@@ -1,0 +1,62 @@
+{
+  "id_bat": 3813,
+  "libelle": "9 rue du Docteur-Blanche",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 614,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1927",
+  "periode": [
+    "1915-1944"
+  ],
+  "adresse": {
+    "affichage": "9 rue du Docteur-Blanche",
+    "numero": "9",
+    "voie": "rue du Docteur-Blanche"
+  },
+  "arrondissement": 16,
+  "tri_alphab": "Dr-Blanche",
+  "coordonnees": {
+    "latitude": "48.855066",
+    "longitude": "2.265872"
+  },
+  "id_pss": 73056,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": "Dr-Blanche-9_16_§1",
+  "terme_jantzen_bat": [
+    "porte-fer"
+  ],
+  "terme_torneh_bat": [
+    "fer",
+    "huisserie",
+    "porte",
+    "vantail"
+  ],
+  "photos": [
+    {
+      "id_pic": "Dr-Blanche-9_16_§1",
+      "IndexJantzen": [
+        "porte-fer"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "huisserie",
+        "vantail",
+        "fer"
+      ],
+      "dateCapture": "2009:03:31"
+    },
+    {
+      "id_pic": "Dr-Blanche-9_16_§2",
+      "IndexJantzen": [
+        "porte-fer"
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:04:21"
+    }
+  ]
+}

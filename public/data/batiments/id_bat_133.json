@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 546,
+      "personneID": 170,
       "role": "architecte"
     }
   ],
@@ -14,6 +14,7 @@
   ],
   "adresse": null,
   "arrondissement": 10,
+  "tri_alphab": "St-Martin-Porte",
   "coordonnees": {
     "latitude": "48.869171",
     "longitude": "2.355601"
@@ -23,9 +24,25 @@
   "WPfr": null,
   "image_ref": "St-Martin-Porte_10_§1",
   "terme_jantzen_bat": [
-    "porte",
     "façade",
-    "sculpture"
+    "sculpture",
+    "porte"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "attique",
+    "balcon",
+    "bossage",
+    "corniche",
+    "entablement",
+    "fenêtre",
+    "frise",
+    "gros appareil",
+    "pierre de taille",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants"
   ],
   "photos": [
     {
@@ -33,125 +50,180 @@
       "IndexJantzen": [
         "façade",
         "porte"
-      ]
+      ],
+      "IndexTorneh": [
+        "arc en plein cintre",
+        "arc",
+        "attique",
+        "corniche",
+        "entablement",
+        "frise",
+        "sculpture",
+        "gros appareil",
+        "pierre de taille",
+        "bossage",
+        "fenêtre",
+        "balcon",
+        "toit à deux versants",
+        "souche de cheminée"
+      ],
+      "dateCapture": "2012:08:11"
     },
     {
       "id_pic": "St-Martin-Porte_10_§10",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:09:02"
     },
     {
       "id_pic": "St-Martin-Porte_10_§11",
       "IndexJantzen": [
         "façade",
         "porte"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:07:15"
     },
     {
       "id_pic": "St-Martin-Porte_10_§12",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:07:15"
     },
     {
       "id_pic": "St-Martin-Porte_10_§13",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:07:27"
     },
     {
       "id_pic": "St-Martin-Porte_10_§14",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:07:15"
     },
     {
       "id_pic": "St-Martin-Porte_10_§15",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:07:27"
     },
     {
       "id_pic": "St-Martin-Porte_10_§16",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:07:27"
     },
     {
       "id_pic": "St-Martin-Porte_10_§17",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:07:15"
     },
     {
       "id_pic": "St-Martin-Porte_10_§18",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:07:15"
     },
     {
       "id_pic": "St-Martin-Porte_10_§19",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:07:27"
     },
     {
       "id_pic": "St-Martin-Porte_10_§2",
       "IndexJantzen": [
         "façade",
         "porte"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:08:19"
     },
     {
       "id_pic": "St-Martin-Porte_10_§20",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:07:27"
     },
     {
       "id_pic": "St-Martin-Porte_10_§3",
       "IndexJantzen": [
         "façade",
         "porte"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:07:11"
     },
     {
       "id_pic": "St-Martin-Porte_10_§4",
       "IndexJantzen": [
         "porte",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:08:28"
     },
     {
       "id_pic": "St-Martin-Porte_10_§5",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:09:02"
     },
     {
       "id_pic": "St-Martin-Porte_10_§6",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:08:28"
     },
     {
       "id_pic": "St-Martin-Porte_10_§7",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:09:02"
     },
     {
       "id_pic": "St-Martin-Porte_10_§8",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:08:19"
     },
     {
       "id_pic": "St-Martin-Porte_10_§9",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:09:02"
     }
   ]
 }

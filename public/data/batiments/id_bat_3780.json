@@ -2,7 +2,12 @@
   "id_bat": 3780,
   "libelle": "9 place des Ternes",
   "ensemble": null,
-  "personnes": null,
+  "personnes": [
+    {
+      "personneID": 144,
+      "role": "architecte"
+    }
+  ],
   "dateConstruction": "1881",
   "periode": [
     "1870-1894"
@@ -13,6 +18,7 @@
     "voie": "place des Ternes"
   },
   "arrondissement": 17,
+  "tri_alphab": "Ternes-pl",
   "coordonnees": {
     "latitude": "48.878595",
     "longitude": "2.298151"
@@ -22,12 +28,38 @@
   "WPfr": null,
   "image_ref": "Ternes-pl-9_17_§1",
   "terme_jantzen_bat": [
-    "façade-d'angle",
-    "fenetre",
-    "décor",
-    "sculpture",
     "balcon",
-    "garde-corps"
+    "façade-d'angle",
+    "sculpture",
+    "fenetre",
+    "garde-corps",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "arcade",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "chapiteau",
+    "chéneau",
+    "colonne",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "linteau",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pilastre",
+    "porte",
+    "souche de cheminée",
+    "travée",
+    "tuile"
   ],
   "photos": [
     {
@@ -35,21 +67,52 @@
       "IndexJantzen": [
         "balcon",
         "façade-d'angle"
-      ]
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "bandeau",
+        "chapiteau",
+        "colonne",
+        "corniche",
+        "fenêtre",
+        "fer forgé",
+        "garde-corps",
+        "linteau",
+        "lucarne",
+        "mascaron",
+        "mansarde",
+        "oculus",
+        "pilastre",
+        "porte",
+        "souche de cheminée",
+        "tuile",
+        "ardoise",
+        "travée",
+        "arc en plein cintre",
+        "arcade",
+        "chéneau",
+        "brique"
+      ],
+      "dateCapture": "2014:09:03"
     },
     {
       "id_pic": "Ternes-pl-9_17_§2",
       "IndexJantzen": [
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2014:09:03"
     },
     {
       "id_pic": "Ternes-pl-9_17_§3",
       "IndexJantzen": [
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:12:12"
     },
     {
       "id_pic": "Ternes-pl-9_17_§5",
@@ -57,14 +120,18 @@
         "décor",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:12:12"
     },
     {
       "id_pic": "Ternes-pl-9_17_§6",
       "IndexJantzen": [
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:12:12"
     },
     {
       "id_pic": "Ternes-pl-9_17_§7",
@@ -72,7 +139,9 @@
         "fenetre",
         "garde-corps",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:12:12"
     }
   ]
 }

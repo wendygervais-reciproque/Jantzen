@@ -13,6 +13,7 @@
     "voie": "rue Vieille-du-Temple"
   },
   "arrondissement": 4,
+  "tri_alphab": "Vieille-du-Temple",
   "coordonnees": {
     "latitude": "48.857991",
     "longitude": "2.357884"
@@ -22,10 +23,24 @@
   "WPfr": null,
   "image_ref": "Vieille-du-Temple-45_4_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "oeil-de-boeuf",
-    "porte-bois",
-    "clé"
+    "clé",
+    "fenetre",
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "baie",
+    "balcon",
+    "fenêtre",
+    "garde-corps",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "vantail",
+    "vitrail"
   ],
   "photos": [
     {
@@ -34,7 +49,22 @@
         "fenetre",
         "oeil-de-boeuf",
         "porte-bois"
-      ]
+      ],
+      "IndexTorneh": [
+        "oculus",
+        "arc",
+        "fenêtre",
+        "porte",
+        "balcon",
+        "garde-corps",
+        "mascaron",
+        "vitrail",
+        "pierre de taille",
+        "sculpture",
+        "baie",
+        "vantail"
+      ],
+      "dateCapture": "2005:07:03"
     },
     {
       "id_pic": "Vieille-du-Temple-45_4_§2",
@@ -42,7 +72,9 @@
         "clé",
         "oeil-de-boeuf",
         "porte-bois"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:07:03"
     }
   ]
 }

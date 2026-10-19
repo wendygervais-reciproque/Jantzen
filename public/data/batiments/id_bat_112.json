@@ -2,13 +2,55 @@
   "id_bat": 112,
   "libelle": "Palais Bourbon",
   "ensemble": null,
-  "personnes": null,
+  "personnes": [
+    {
+      "personneID": 561,
+      "role": "architecte"
+    },
+    {
+      "personneID": 416,
+      "role": "architecte"
+    },
+    {
+      "personneID": 495,
+      "role": "architecte"
+    },
+    {
+      "personneID": 541,
+      "role": "architecte"
+    },
+    {
+      "personneID": 59,
+      "role": "architecte"
+    },
+    {
+      "personneID": 177,
+      "role": "architecte"
+    },
+    {
+      "personneID": 17,
+      "role": "architecte"
+    },
+    {
+      "personneID": 407,
+      "role": "architecte"
+    },
+    {
+      "personneID": 376,
+      "role": "architecte"
+    },
+    {
+      "personneID": 10126,
+      "role": "sculpteur"
+    }
+  ],
   "dateConstruction": "1839",
   "periode": [
     "1830-1849"
   ],
   "adresse": null,
   "arrondissement": 7,
+  "tri_alphab": "Assemblee-Nationale",
   "coordonnees": {
     "latitude": "48.862072",
     "longitude": "2.318681"
@@ -18,9 +60,24 @@
   "WPfr": "Palais Bourbon",
   "image_ref": "Assemblee-Nationale_7_§1_DxP",
   "terme_jantzen_bat": [
-    "colonne",
     "façade",
+    "sculpture",
+    "colonne",
+    "fronton"
+  ],
+  "terme_torneh_bat": [
+    "acrotère",
+    "architrave",
+    "attique",
+    "chapiteau corinthien",
+    "colonne",
+    "entablement",
+    "frise",
     "fronton",
+    "perron",
+    "pierre de taille",
+    "porte",
+    "portique",
     "sculpture"
   ],
   "photos": [
@@ -29,7 +86,23 @@
       "IndexJantzen": [
         "façade",
         "fronton"
-      ]
+      ],
+      "IndexTorneh": [
+        "fronton",
+        "colonne",
+        "chapiteau corinthien",
+        "entablement",
+        "architrave",
+        "frise",
+        "sculpture",
+        "portique",
+        "porte",
+        "perron",
+        "pierre de taille",
+        "attique",
+        "acrotère"
+      ],
+      "dateCapture": "2010:06:04"
     },
     {
       "id_pic": "Assemblee-Nationale_7_§2_DxP",
@@ -37,34 +110,44 @@
         "colonne",
         "façade",
         "fronton"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2010:06:04"
     },
     {
       "id_pic": "Assemblee-Nationale_7_§3",
       "IndexJantzen": [
         "fronton",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2010:06:04"
     },
     {
       "id_pic": "Assemblee-Nationale_7_§4",
       "IndexJantzen": [
         "fronton",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2010:06:04"
     },
     {
       "id_pic": "Assemblee-Nationale_7_§5",
       "IndexJantzen": [
         "fronton",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2010:06:04"
     },
     {
       "id_pic": "Assemblee-Nationale_7_§6",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2010:06:04"
     }
   ]
 }

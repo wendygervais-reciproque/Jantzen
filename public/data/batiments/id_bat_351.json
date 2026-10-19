@@ -4,8 +4,16 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 472,
+      "personneID": 633,
       "role": "architecte"
+    },
+    {
+      "personneID": 631,
+      "role": "architecte"
+    },
+    {
+      "personneID": 10095,
+      "role": "sculpteur"
     }
   ],
   "dateConstruction": "1903",
@@ -18,6 +26,7 @@
     "voie": "rue Rosa-Bonheur"
   },
   "arrondissement": 15,
+  "tri_alphab": "Rosa-Bonheur",
   "coordonnees": {
     "latitude": "48.846393",
     "longitude": "2.309698"
@@ -25,19 +34,45 @@
   "id_pss": null,
   "id_wikidata": null,
   "WPfr": null,
-  "image_ref": "Rosa-Bonheur-10_15_§10",
+  "image_ref": "Rosa-Bonheur-10_15_§4",
   "terme_jantzen_bat": [
-    "lucarne",
-    "façade",
-    "intérieur",
-    "brique",
-    "fenetre",
-    "décor",
-    "oriel",
     "sculpture",
+    "oriel",
     "console",
+    "fenetre",
+    "intérieur",
+    "lucarne",
+    "brique",
+    "façade",
+    "garde-corps",
     "porte-bois",
-    "garde-corps"
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc brisé",
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "corniche",
+    "faîtage",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "sculpture",
+    "souche de cheminée",
+    "travée",
+    "vitrail",
+    "volet",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -47,7 +82,9 @@
         "décor",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:04:11"
     },
     {
       "id_pic": "Rosa-Bonheur-10_15_§11",
@@ -55,14 +92,18 @@
         "brique",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:06:18"
     },
     {
       "id_pic": "Rosa-Bonheur-10_15_§12",
       "IndexJantzen": [
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:04:11"
     },
     {
       "id_pic": "Rosa-Bonheur-10_15_§13",
@@ -70,7 +111,9 @@
         "brique",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:04:11"
     },
     {
       "id_pic": "Rosa-Bonheur-10_15_§14",
@@ -78,26 +121,34 @@
         "console",
         "garde-corps",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:06:18"
     },
     {
       "id_pic": "Rosa-Bonheur-10_15_§15",
       "IndexJantzen": [
         "porte-bois"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:04:11"
     },
     {
       "id_pic": "Rosa-Bonheur-10_15_§16",
       "IndexJantzen": [
         "porte-bois"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:04:11"
     },
     {
       "id_pic": "Rosa-Bonheur-10_15_§17",
       "IndexJantzen": [
         "intérieur",
         "porte-bois"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:04:11"
     },
     {
       "id_pic": "Rosa-Bonheur-10_15_§2",
@@ -107,7 +158,9 @@
         "façade",
         "oriel",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:09:09"
     },
     {
       "id_pic": "Rosa-Bonheur-10_15_§3",
@@ -115,21 +168,52 @@
         "brique",
         "fenetre",
         "oriel"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:04:11"
     },
     {
       "id_pic": "Rosa-Bonheur-10_15_§4",
       "IndexJantzen": [
         "brique",
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "lucarne",
+        "mansarde",
+        "souche de cheminée",
+        "épi de faîtage",
+        "arc en plein cintre",
+        "arc brisé",
+        "corniche",
+        "bandeau",
+        "pilastre",
+        "brique",
+        "pierre de taille",
+        "ardoise",
+        "sculpture",
+        "mascaron",
+        "fer forgé",
+        "travée",
+        "oculus",
+        "volet",
+        "vitrail",
+        "faîtage"
+      ],
+      "dateCapture": "2006:04:11"
     },
     {
       "id_pic": "Rosa-Bonheur-10_15_§5",
       "IndexJantzen": [
         "brique",
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:06:18"
     },
     {
       "id_pic": "Rosa-Bonheur-10_15_§6",
@@ -137,20 +221,26 @@
         "brique",
         "console",
         "oriel"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:06:18"
     },
     {
       "id_pic": "Rosa-Bonheur-10_15_§7",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:04:11"
     },
     {
       "id_pic": "Rosa-Bonheur-10_15_§8",
       "IndexJantzen": [
         "lucarne",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:04:11"
     },
     {
       "id_pic": "Rosa-Bonheur-10_15_§9",
@@ -159,7 +249,9 @@
         "décor",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:06:18"
     }
   ]
 }

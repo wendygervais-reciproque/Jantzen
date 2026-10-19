@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 656,
+      "personneID": 871,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "boulevard Pereire"
   },
   "arrondissement": 17,
+  "tri_alphab": "Pereire",
   "coordonnees": {
     "latitude": "48.885678",
     "longitude": "2.297881"
@@ -27,14 +28,35 @@
   "WPfr": null,
   "image_ref": "Pereire-116_17_§1",
   "terme_jantzen_bat": [
-    "lucarne",
     "toiture",
-    "porte-fer",
-    "fenetre",
     "oeil-de-boeuf",
+    "porte-fer",
     "sculpture",
     "console",
+    "fenetre",
+    "lucarne",
     "chimère"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "oriel",
+    "pierre de taille",
+    "pilastre",
+    "sculpture",
+    "souche de cheminée",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -43,7 +65,29 @@
         "fenetre",
         "lucarne",
         "toiture"
-      ]
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "lucarne",
+        "mansarde",
+        "oculus",
+        "souche de cheminée",
+        "garde-corps",
+        "fer forgé",
+        "ardoise",
+        "pierre de taille",
+        "fronton",
+        "mascaron",
+        "sculpture",
+        "volet",
+        "pilastre",
+        "corniche",
+        "oriel",
+        "travée"
+      ],
+      "dateCapture": "2012:04:22"
     },
     {
       "id_pic": "Pereire-116_17_§10",
@@ -51,7 +95,9 @@
         "chimère",
         "console",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2009:07:01"
     },
     {
       "id_pic": "Pereire-116_17_§2",
@@ -59,7 +105,9 @@
         "fenetre",
         "lucarne",
         "toiture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2012:04:22"
     },
     {
       "id_pic": "Pereire-116_17_§3",
@@ -67,49 +115,63 @@
         "fenetre",
         "lucarne",
         "toiture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2009:03:15"
     },
     {
       "id_pic": "Pereire-116_17_§4",
       "IndexJantzen": [
         "fenetre",
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2012:04:22"
     },
     {
       "id_pic": "Pereire-116_17_§5",
       "IndexJantzen": [
         "lucarne",
         "oeil-de-boeuf"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2009:03:15"
     },
     {
       "id_pic": "Pereire-116_17_§6",
       "IndexJantzen": [
         "fenetre",
         "porte-fer"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2009:03:15"
     },
     {
       "id_pic": "Pereire-116_17_§7",
       "IndexJantzen": [
         "console",
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2009:03:15"
     },
     {
       "id_pic": "Pereire-116_17_§8",
       "IndexJantzen": [
         "chimère",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2012:04:22"
     },
     {
       "id_pic": "Pereire-116_17_§9",
       "IndexJantzen": [
         "chimère",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2009:03:15"
     }
   ]
 }

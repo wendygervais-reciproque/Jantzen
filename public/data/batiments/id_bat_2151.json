@@ -4,7 +4,15 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 44,
+      "personneID": 818,
+      "role": "architecte"
+    },
+    {
+      "personneID": 40,
+      "role": "architecte"
+    },
+    {
+      "personneID": 347,
       "role": "architecte"
     }
   ],
@@ -18,6 +26,7 @@
     "voie": "rue de Prony"
   },
   "arrondissement": 17,
+  "tri_alphab": "Prony",
   "coordonnees": {
     "latitude": "48.881538",
     "longitude": "2.306325"
@@ -27,11 +36,25 @@
   "WPfr": null,
   "image_ref": "Prony-30_17_§1-Rx",
   "terme_jantzen_bat": [
-    "lucarne",
+    "oeil-de-boeuf",
     "porte-fer",
     "fenetre",
-    "oeil-de-boeuf",
+    "lucarne",
     "colonne"
+  ],
+  "terme_torneh_bat": [
+    "bandeau",
+    "chapiteau",
+    "colonne",
+    "entablement",
+    "fenêtre",
+    "fer forgé",
+    "grille",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "soupirail",
+    "vantail"
   ],
   "photos": [
     {
@@ -39,26 +62,47 @@
       "IndexJantzen": [
         "colonne",
         "porte-fer"
-      ]
+      ],
+      "IndexTorneh": [
+        "colonne",
+        "chapiteau",
+        "porte",
+        "fenêtre",
+        "fer forgé",
+        "grille",
+        "pierre de taille",
+        "soupirail",
+        "portail",
+        "bandeau",
+        "entablement",
+        "vantail"
+      ],
+      "dateCapture": "2012:07:23"
     },
     {
       "id_pic": "Prony-30_17_§2-Rs",
       "IndexJantzen": [
         "colonne",
         "porte-fer"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:02:17"
     },
     {
       "id_pic": "Prony-30_17_§3-Rx",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2012:07:23"
     },
     {
       "id_pic": "Prony-30_17_§4",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:02:17"
     },
     {
       "id_pic": "Prony-30_17_§5-Rx",
@@ -66,7 +110,9 @@
         "fenetre",
         "oeil-de-boeuf",
         "porte-fer"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2012:07:23"
     },
     {
       "id_pic": "Prony-30_17_§6-Rs",
@@ -74,7 +120,9 @@
         "fenetre",
         "oeil-de-boeuf",
         "porte-fer"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:02:17"
     }
   ]
 }

@@ -4,8 +4,16 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 240,
+      "personneID": 492,
       "role": "architecte"
+    },
+    {
+      "personneID": 357,
+      "role": "architecte"
+    },
+    {
+      "personneID": 10080,
+      "role": "sculpteur"
     }
   ],
   "dateConstruction": "1912",
@@ -18,6 +26,7 @@
     "voie": "avenue des Gobelins"
   },
   "arrondissement": 13,
+  "tri_alphab": "Gobelins-av",
   "coordonnees": {
     "latitude": "48.835095",
     "longitude": "2.352724"
@@ -27,15 +36,41 @@
   "WPfr": null,
   "image_ref": "Gobelins-av-42_13_§1",
   "terme_jantzen_bat": [
-    "façade",
+    "colonne",
     "toiture",
-    "brique",
-    "fenetre",
-    "décor",
     "sculpture",
-    "atlante",
     "cariatide",
-    "colonne"
+    "fenetre",
+    "brique",
+    "façade",
+    "atlante",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "arcade",
+    "architrave",
+    "attique",
+    "avant-corps",
+    "baie",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "chapiteau",
+    "colonne",
+    "corniche",
+    "entablement",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "grille",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "sculpture",
+    "travée",
+    "vitrail"
   ],
   "photos": [
     {
@@ -43,76 +78,123 @@
       "IndexJantzen": [
         "brique",
         "façade"
-      ]
+      ],
+      "IndexTorneh": [
+        "arc en plein cintre",
+        "arcade",
+        "architrave",
+        "attique",
+        "avant-corps",
+        "baie",
+        "balcon",
+        "balustrade",
+        "bandeau",
+        "brique",
+        "chapiteau",
+        "colonne",
+        "corniche",
+        "entablement",
+        "fenêtre",
+        "fronton",
+        "garde-corps",
+        "grille",
+        "pierre de taille",
+        "pilastre",
+        "porte",
+        "sculpture",
+        "travée",
+        "vitrail"
+      ],
+      "dateCapture": "2008:02:24"
     },
     {
       "id_pic": "Gobelins-av-42_13_§10",
       "IndexJantzen": [
         "atlante",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:02:24"
     },
     {
       "id_pic": "Gobelins-av-42_13_§11",
       "IndexJantzen": [
         "cariatide",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:02:24"
     },
     {
       "id_pic": "Gobelins-av-42_13_§12",
       "IndexJantzen": [
         "cariatide",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:02:24"
     },
     {
       "id_pic": "Gobelins-av-42_13_§13",
       "IndexJantzen": [
         "cariatide",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:02:24"
     },
     {
       "id_pic": "Gobelins-av-42_13_§14",
       "IndexJantzen": [
         "cariatide",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2015:10:08"
     },
     {
       "id_pic": "Gobelins-av-42_13_§15",
       "IndexJantzen": [
         "cariatide",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:02:24"
     },
     {
       "id_pic": "Gobelins-av-42_13_§16",
       "IndexJantzen": [
         "atlante",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:02:24"
     },
     {
       "id_pic": "Gobelins-av-42_13_§17",
       "IndexJantzen": [
         "atlante",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": null
     },
     {
       "id_pic": "Gobelins-av-42_13_§18",
       "IndexJantzen": [
         "atlante",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:02:24"
     },
     {
       "id_pic": "Gobelins-av-42_13_§19",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:02:24"
     },
     {
       "id_pic": "Gobelins-av-42_13_§2",
@@ -120,13 +202,17 @@
         "brique",
         "colonne",
         "façade"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:02:24"
     },
     {
       "id_pic": "Gobelins-av-42_13_§20",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:02:24"
     },
     {
       "id_pic": "Gobelins-av-42_13_§3",
@@ -135,7 +221,9 @@
         "fenetre",
         "sculpture",
         "toiture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:02:24"
     },
     {
       "id_pic": "Gobelins-av-42_13_§4",
@@ -143,40 +231,52 @@
         "fenetre",
         "sculpture",
         "toiture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:02:24"
     },
     {
       "id_pic": "Gobelins-av-42_13_§5",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:02:24"
     },
     {
       "id_pic": "Gobelins-av-42_13_§6",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:02:24"
     },
     {
       "id_pic": "Gobelins-av-42_13_§7",
       "IndexJantzen": [
         "cariatide",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:02:24"
     },
     {
       "id_pic": "Gobelins-av-42_13_§8",
       "IndexJantzen": [
         "cariatide",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:02:24"
     },
     {
       "id_pic": "Gobelins-av-42_13_§9",
       "IndexJantzen": [
         "atlante",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:02:24"
     }
   ]
 }

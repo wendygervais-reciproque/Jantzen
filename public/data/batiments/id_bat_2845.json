@@ -4,7 +4,11 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 375,
+      "personneID": 499,
+      "role": "architecte"
+    },
+    {
+      "personneID": 498,
       "role": "architecte"
     }
   ],
@@ -18,6 +22,7 @@
     "voie": "rue de l'École-de-Médecine"
   },
   "arrondissement": 6,
+  "tri_alphab": "Ecole-Medecine",
   "coordonnees": {
     "latitude": "48.850587",
     "longitude": "2.341955"
@@ -27,17 +32,36 @@
   "WPfr": null,
   "image_ref": "Ecole-Medecine-5_6_§1",
   "terme_jantzen_bat": [
-    "porte",
+    "oeil-de-boeuf",
+    "dome",
+    "tourelle",
+    "sculpture",
+    "console",
     "lucarne",
     "façade",
     "fronton",
-    "oeil-de-boeuf",
-    "dome",
-    "sculpture",
+    "porte",
     "atlante",
-    "console",
-    "tourelle",
     "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "arcade",
+    "ardoise",
+    "bossage",
+    "chapiteau",
+    "colonne",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fronton",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "portail",
+    "porte",
+    "sculpture",
+    "vitrail"
   ],
   "photos": [
     {
@@ -47,7 +71,27 @@
         "façade",
         "lucarne",
         "porte"
-      ]
+      ],
+      "IndexTorneh": [
+        "dôme",
+        "oculus",
+        "arc en plein cintre",
+        "sculpture",
+        "portail",
+        "porte",
+        "fronton",
+        "pierre de taille",
+        "corniche",
+        "pilastre",
+        "fenêtre",
+        "vitrail",
+        "ardoise",
+        "colonne",
+        "chapiteau",
+        "arcade",
+        "bossage"
+      ],
+      "dateCapture": "2010:05:23"
     },
     {
       "id_pic": "Ecole-Medecine-5_6_§10",
@@ -55,7 +99,9 @@
         "fronton",
         "porte-bois",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2010:05:23"
     },
     {
       "id_pic": "Ecole-Medecine-5_6_§11",
@@ -63,7 +109,9 @@
         "fronton",
         "porte-bois",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:09:07"
     },
     {
       "id_pic": "Ecole-Medecine-5_6_§12",
@@ -71,7 +119,9 @@
         "atlante",
         "console",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2010:05:23"
     },
     {
       "id_pic": "Ecole-Medecine-5_6_§13",
@@ -79,7 +129,9 @@
         "atlante",
         "console",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:09:07"
     },
     {
       "id_pic": "Ecole-Medecine-5_6_§14",
@@ -87,7 +139,9 @@
         "atlante",
         "console",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2010:05:23"
     },
     {
       "id_pic": "Ecole-Medecine-5_6_§15",
@@ -95,7 +149,9 @@
         "atlante",
         "console",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:09:07"
     },
     {
       "id_pic": "Ecole-Medecine-5_6_§2",
@@ -104,21 +160,27 @@
         "façade",
         "lucarne",
         "porte"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:06:11"
     },
     {
       "id_pic": "Ecole-Medecine-5_6_§3",
       "IndexJantzen": [
         "dome",
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2010:08:21"
     },
     {
       "id_pic": "Ecole-Medecine-5_6_§4",
       "IndexJantzen": [
         "dome",
         "tourelle"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:09:07"
     },
     {
       "id_pic": "Ecole-Medecine-5_6_§5",
@@ -126,7 +188,9 @@
         "dome",
         "lucarne",
         "oeil-de-boeuf"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2010:05:23"
     },
     {
       "id_pic": "Ecole-Medecine-5_6_§6",
@@ -134,21 +198,27 @@
         "dome",
         "lucarne",
         "oeil-de-boeuf"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2010:05:23"
     },
     {
       "id_pic": "Ecole-Medecine-5_6_§8",
       "IndexJantzen": [
         "fronton",
         "porte-bois"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2010:05:23"
     },
     {
       "id_pic": "Ecole-Medecine-5_6_§9",
       "IndexJantzen": [
         "fronton",
         "porte-bois"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2010:05:23"
     }
   ]
 }

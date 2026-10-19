@@ -1,0 +1,105 @@
+{
+  "id_bat": 2317,
+  "libelle": "357 rue Saint-Martin",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": null,
+  "adresse": {
+    "affichage": "357 rue Saint-Martin",
+    "numero": "357",
+    "voie": "rue Saint-Martin"
+  },
+  "arrondissement": 3,
+  "tri_alphab": "St-Martin",
+  "coordonnees": {
+    "latitude": "48.868636",
+    "longitude": "2.355226"
+  },
+  "id_pss": null,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": "St-Martin-Ste-Apoline_3_§1",
+  "terme_jantzen_bat": [
+    "toiture",
+    "oeil-de-boeuf",
+    "façade-d'angle",
+    "lucarne",
+    "lucarne-d'angle"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "porte",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée"
+  ],
+  "photos": [
+    {
+      "id_pic": "St-Martin-Ste-Apoline_3_§1",
+      "IndexJantzen": [
+        "façade-d'angle"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "garde-corps",
+        "lucarne",
+        "mansarde",
+        "oculus",
+        "souche de cheminée",
+        "toit à deux versants",
+        "ardoise",
+        "mascaron",
+        "bandeau",
+        "corniche",
+        "porte",
+        "fer forgé",
+        "pierre de taille",
+        "travée"
+      ],
+      "dateCapture": "2008:07:27"
+    },
+    {
+      "id_pic": "St-Martin-Ste-Apoline_3_§2",
+      "IndexJantzen": [
+        "lucarne-d'angle"
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:08:28"
+    },
+    {
+      "id_pic": "St-Martin-Ste-Apoline_3_§3",
+      "IndexJantzen": [
+        "lucarne",
+        "oeil-de-boeuf",
+        "toiture"
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:07:27"
+    },
+    {
+      "id_pic": "St-Martin-Ste-Apoline_3_§4",
+      "IndexJantzen": [
+        "lucarne",
+        "oeil-de-boeuf",
+        "toiture"
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2012:05:14"
+    }
+  ]
+}

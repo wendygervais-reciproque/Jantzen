@@ -2,13 +2,23 @@
   "id_bat": 135,
   "libelle": "Sacré-Cœur",
   "ensemble": null,
-  "personnes": null,
+  "personnes": [
+    {
+      "personneID": 609,
+      "role": "architecte"
+    },
+    {
+      "personneID": 1,
+      "role": "architecte"
+    }
+  ],
   "dateConstruction": "1877-1884",
   "periode": [
     "1870-1894"
   ],
   "adresse": null,
   "arrondissement": 18,
+  "tri_alphab": "Sacre-Cœur",
   "coordonnees": {
     "latitude": "48.88665",
     "longitude": "2.34295"
@@ -16,12 +26,33 @@
   "id_pss": 17878,
   "id_wikidata": "Q28785",
   "WPfr": "Basilique du Sacré-Cœur de Montmartre",
-  "image_ref": "Sacre-Cœur-_18_§1",
+  "image_ref": "Sacre-Cœur-_18_§3",
   "terme_jantzen_bat": [
-    "sculpture",
-    "tour",
+    "toiture",
     "dome",
+    "tour",
+    "sculpture",
+    "lucarne",
     "façade"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "arcade",
+    "baie",
+    "colonne",
+    "corniche",
+    "dôme",
+    "escalier",
+    "fenêtre",
+    "grille",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porche",
+    "portail",
+    "sculpture",
+    "tour"
   ],
   "photos": [
     {
@@ -29,33 +60,86 @@
       "IndexJantzen": [
         "dome",
         "tour"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:07:21"
     },
     {
       "id_pic": "Sacre-Cœur-_18_§2",
       "IndexJantzen": [
         "dome",
         "tour"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:04:08"
     },
     {
       "id_pic": "Sacre-Cœur-_18_§3",
       "IndexJantzen": [
         "dome",
         "façade"
-      ]
+      ],
+      "IndexTorneh": [
+        "dôme",
+        "arc en plein cintre",
+        "arcade",
+        "portail",
+        "porche",
+        "fenêtre",
+        "oculus",
+        "sculpture",
+        "pierre de taille",
+        "escalier",
+        "arc",
+        "colonne",
+        "pilastre",
+        "corniche",
+        "baie",
+        "tour",
+        "grille"
+      ],
+      "dateCapture": "2005:09:27"
     },
     {
       "id_pic": "Sacre-Cœur-_18_§4",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:09:27"
     },
     {
       "id_pic": "Sacre-Cœur-_18_§5",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:09:27"
+    },
+    {
+      "id_pic": "Sacre-Cœur-_18_§6",
+      "IndexJantzen": [
+        "lucarne",
+        "toiture"
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2011:08:30"
+    },
+    {
+      "id_pic": "Sacre-Cœur-_18_§7",
+      "IndexJantzen": [
+        "lucarne"
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2011:08:30"
+    },
+    {
+      "id_pic": "Sacre-Cœur-_18_§8-Rx",
+      "IndexJantzen": [
+        "sculpture"
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2011:08:30"
     }
   ]
 }

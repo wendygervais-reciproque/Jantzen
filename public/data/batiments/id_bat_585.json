@@ -13,6 +13,7 @@
     "voie": "rue de Courcelles"
   },
   "arrondissement": 17,
+  "tri_alphab": "Courcelles",
   "coordonnees": {
     "latitude": "48.883037",
     "longitude": "2.29904"
@@ -22,25 +23,72 @@
   "WPfr": null,
   "image_ref": "Courcelles-119_17_§1",
   "terme_jantzen_bat": [
-    "façade",
+    "balcon",
     "porte-fer",
-    "fenetre",
     "sculpture",
-    "balcon"
+    "fenetre",
+    "façade"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "avant-corps",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "mascaron",
+    "oculus",
+    "oriel",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "souche de cheminée",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Courcelles-119_17_§1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "garde-corps",
+        "fer forgé",
+        "mascaron",
+        "sculpture",
+        "corniche",
+        "bandeau",
+        "pierre de taille",
+        "volet",
+        "porte",
+        "avant-corps",
+        "travée",
+        "arc en plein cintre",
+        "oriel",
+        "oculus",
+        "souche de cheminée",
+        "fronton",
+        "chambranle"
+      ],
+      "dateCapture": "2004:09:02"
     },
     {
       "id_pic": "Courcelles-119_17_§2",
       "IndexJantzen": [
         "balcon",
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:09:02"
     },
     {
       "id_pic": "Courcelles-119_17_§3",
@@ -48,19 +96,25 @@
         "balcon",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:09:02"
     },
     {
       "id_pic": "Courcelles-119_17_§4",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:09:02"
     },
     {
       "id_pic": "Courcelles-119_17_§5",
       "IndexJantzen": [
         "porte-fer"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:09:03"
     }
   ]
 }

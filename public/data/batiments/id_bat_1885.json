@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 96,
+      "personneID": 158,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue Cadet"
   },
   "arrondissement": 9,
+  "tri_alphab": "Cadet",
   "coordonnees": {
     "latitude": "48.875599",
     "longitude": "2.343618"
@@ -27,39 +28,98 @@
   "WPfr": null,
   "image_ref": "Cadet-26_9_§1",
   "terme_jantzen_bat": [
-    "façade",
-    "fenetre",
-    "décor",
     "sculpture",
+    "fenetre",
+    "façade",
+    "garde-corps",
     "colonne",
     "porte-bois",
-    "garde-corps"
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chapiteau corinthien",
+    "colonne",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pilastre",
+    "porte",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "vantail",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Cadet-26_9_§1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "colonne",
+        "chapiteau corinthien",
+        "arc",
+        "arc en plein cintre",
+        "mansarde",
+        "lucarne",
+        "toit à deux versants",
+        "ardoise",
+        "porte",
+        "vantail",
+        "garde-corps",
+        "fer forgé",
+        "corniche",
+        "bandeau",
+        "pilastre",
+        "mascaron",
+        "souche de cheminée",
+        "volet",
+        "fronton",
+        "travée",
+        "oculus"
+      ],
+      "dateCapture": "2007:04:09"
     },
     {
       "id_pic": "Cadet-26_9_§10",
       "IndexJantzen": [
         "porte-bois"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:09:04"
     },
     {
       "id_pic": "Cadet-26_9_§2",
       "IndexJantzen": [
         "colonne",
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:04:09"
     },
     {
       "id_pic": "Cadet-26_9_§3",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:03:26"
     },
     {
       "id_pic": "Cadet-26_9_§4",
@@ -67,21 +127,27 @@
         "décor",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:03:26"
     },
     {
       "id_pic": "Cadet-26_9_§5",
       "IndexJantzen": [
         "colonne",
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:04:09"
     },
     {
       "id_pic": "Cadet-26_9_§6",
       "IndexJantzen": [
         "colonne",
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:03:26"
     },
     {
       "id_pic": "Cadet-26_9_§7",
@@ -89,13 +155,17 @@
         "colonne",
         "fenetre",
         "garde-corps"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:09:04"
     },
     {
       "id_pic": "Cadet-26_9_§8",
       "IndexJantzen": [
         "porte-bois"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:04:09"
     }
   ]
 }

@@ -13,6 +13,7 @@
     "voie": "rue Leroux"
   },
   "arrondissement": 16,
+  "tri_alphab": "Leroux",
   "coordonnees": {
     "latitude": "48.871951",
     "longitude": "2.285992"
@@ -22,8 +23,18 @@
   "WPfr": null,
   "image_ref": "Leroux-21_16_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "garde-corps"
+    "garde-corps",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "chambranle",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "pierre de taille",
+    "volet"
   ],
   "photos": [
     {
@@ -31,7 +42,18 @@
       "IndexJantzen": [
         "fenetre",
         "garde-corps"
-      ]
+      ],
+      "IndexTorneh": [
+        "balustrade",
+        "balcon",
+        "fenêtre",
+        "garde-corps",
+        "fer forgé",
+        "volet",
+        "pierre de taille",
+        "chambranle"
+      ],
+      "dateCapture": "2004:10:25"
     }
   ]
 }

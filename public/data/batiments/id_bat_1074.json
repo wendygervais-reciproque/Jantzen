@@ -4,7 +4,11 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 170,
+      "personneID": 788,
+      "role": "architecte"
+    },
+    {
+      "personneID": 271,
       "role": "architecte"
     }
   ],
@@ -18,6 +22,7 @@
     "voie": "rue de la Convention"
   },
   "arrondissement": 15,
+  "tri_alphab": "Convention",
   "coordonnees": {
     "latitude": "48.84035",
     "longitude": "2.289985"
@@ -27,25 +32,78 @@
   "WPfr": null,
   "image_ref": "Convention-154_15_§1",
   "terme_jantzen_bat": [
+    "pignon",
+    "fenetre",
     "lucarne",
     "façade",
-    "fronton",
     "brique",
-    "fenetre",
-    "pignon"
+    "fronton"
+  ],
+  "terme_torneh_bat": [
+    "arc brisé",
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oriel",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "sculpture",
+    "toit à deux versants",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Convention-154_15_§1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "mansarde",
+        "lucarne",
+        "fronton",
+        "pierre de taille",
+        "brique",
+        "arc en plein cintre",
+        "arc brisé",
+        "corniche",
+        "bandeau",
+        "pilastre",
+        "oriel",
+        "travée",
+        "toit à deux versants",
+        "mascaron",
+        "porte",
+        "volet",
+        "chaîne d'angle",
+        "sculpture"
+      ],
+      "dateCapture": null
     },
     {
       "id_pic": "Convention-154_15_§2",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2009:03:16"
     },
     {
       "id_pic": "Convention-154_15_§3",
@@ -53,7 +111,9 @@
         "brique",
         "façade",
         "fronton"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2009:03:16"
     },
     {
       "id_pic": "Convention-154_15_§4",
@@ -61,7 +121,9 @@
         "brique",
         "façade",
         "fronton"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:04:17"
     },
     {
       "id_pic": "Convention-154_15_§5",
@@ -71,7 +133,9 @@
         "fronton",
         "lucarne",
         "pignon"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2009:03:16"
     },
     {
       "id_pic": "Convention-154_15_§6",
@@ -80,7 +144,9 @@
         "fenetre",
         "fronton",
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:04:17"
     }
   ]
 }

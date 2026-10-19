@@ -13,6 +13,7 @@
     "voie": "rue Danielle-Casanova"
   },
   "arrondissement": 1,
+  "tri_alphab": "Danielle-Casanova",
   "coordonnees": {
     "latitude": "48.867948",
     "longitude": "2.331493"
@@ -22,26 +23,57 @@
   "WPfr": null,
   "image_ref": "Danielle-Casanova-25-27_1_§1-Rx",
   "terme_jantzen_bat": [
-    "fenetre",
+    "balcon",
     "sculpture",
     "console",
+    "fenetre",
+    "garde-corps",
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
     "balcon",
-    "porte-bois",
-    "garde-corps"
+    "balustrade",
+    "fenêtre",
+    "heurtoir",
+    "mascaron",
+    "pierre de taille",
+    "porche",
+    "porte",
+    "vantail",
+    "vitrail"
   ],
   "photos": [
     {
       "id_pic": "Danielle-Casanova-25-27_1_§1-Rx",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "arc",
+        "arc en plein cintre",
+        "porte",
+        "porche",
+        "mascaron",
+        "pierre de taille",
+        "vantail",
+        "heurtoir",
+        "vitrail"
+      ],
+      "dateCapture": "2012:07:22"
     },
     {
       "id_pic": "Danielle-Casanova-25-27_1_§2-Rx",
       "IndexJantzen": [
         "garde-corps",
         "porte-bois"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2012:07:22"
     },
     {
       "id_pic": "Danielle-Casanova-25-27_1_§3",
@@ -50,7 +82,9 @@
         "console",
         "garde-corps",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:08:26"
     },
     {
       "id_pic": "Danielle-Casanova-25-27_1_§4",
@@ -58,28 +92,36 @@
         "balcon",
         "console",
         "garde-corps"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:06:19"
     },
     {
       "id_pic": "Danielle-Casanova-25-27_1_§5",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:06:19"
     },
     {
       "id_pic": "Danielle-Casanova-25-27_1_§6",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:08:26"
     },
     {
       "id_pic": "Danielle-Casanova-25-27_1_§7",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2012:07:22"
     }
   ]
 }

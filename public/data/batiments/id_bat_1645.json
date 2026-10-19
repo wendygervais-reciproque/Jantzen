@@ -13,6 +13,7 @@
     "voie": "rue Saint-Antoine"
   },
   "arrondissement": 4,
+  "tri_alphab": "St-Antoine",
   "coordonnees": {
     "latitude": "48.853545",
     "longitude": "2.365785"
@@ -22,50 +23,99 @@
   "WPfr": null,
   "image_ref": "St-Antoine-21_4_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "lucarne",
     "façade",
-    "toiture"
+    "fenetre",
+    "toiture",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "chambranle",
+    "chaîne d'angle",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "oculus",
+    "pierre de taille",
+    "porte",
+    "porte-fenêtre",
+    "travée",
+    "épi de faîtage"
   ],
   "photos": [
     {
       "id_pic": "St-Antoine-21_4_§1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [
+        "lucarne",
+        "oculus",
+        "balcon",
+        "garde-corps",
+        "fronton",
+        "fenêtre",
+        "porte-fenêtre",
+        "pierre de taille",
+        "chaîne d'angle",
+        "fer forgé",
+        "ardoise",
+        "mansarde",
+        "épi de faîtage",
+        "travée",
+        "balustrade",
+        "porte",
+        "chambranle"
+      ],
+      "dateCapture": "2008:05:16"
     },
     {
       "id_pic": "St-Antoine-21_4_§2",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:05:16"
     },
     {
       "id_pic": "St-Antoine-21_4_§3",
       "IndexJantzen": [
         "fenetre",
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2003:07:14"
     },
     {
       "id_pic": "St-Antoine-21_4_§4",
       "IndexJantzen": [
         "lucarne",
         "toiture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:05:16"
     },
     {
       "id_pic": "St-Antoine-21_4_§5",
       "IndexJantzen": [
         "lucarne",
         "toiture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2003:07:14"
     },
     {
       "id_pic": "St-Antoine-21_4_§6",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2003:07:14"
     }
   ]
 }

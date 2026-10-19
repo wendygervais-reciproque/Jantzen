@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 638,
+      "personneID": 848,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue Georges-Ville"
   },
   "arrondissement": 16,
+  "tri_alphab": "Georges-Ville",
   "coordonnees": {
     "latitude": "48.87031",
     "longitude": "2.28842"
@@ -27,24 +28,65 @@
   "WPfr": null,
   "image_ref": "Georges-Ville-4_16_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "décor",
-    "sculpture",
     "balcon",
-    "garde-corps"
+    "sculpture",
+    "fenetre",
+    "garde-corps",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "sculpture",
+    "souche de cheminée",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Georges-Ville-4_16_§1",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "lucarne",
+        "corniche",
+        "bandeau",
+        "volet",
+        "sculpture",
+        "mascaron",
+        "pierre de taille",
+        "fer forgé",
+        "travée",
+        "chambranle",
+        "souche de cheminée",
+        "oculus",
+        "fronton"
+      ],
+      "dateCapture": "2005:04:30"
     },
     {
       "id_pic": "Georges-Ville-4_16_§2",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:04:30"
     },
     {
       "id_pic": "Georges-Ville-4_16_§3",
@@ -52,35 +94,45 @@
         "décor",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:04:30"
     },
     {
       "id_pic": "Georges-Ville-4_16_§4",
       "IndexJantzen": [
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:04:30"
     },
     {
       "id_pic": "Georges-Ville-4_16_§5",
       "IndexJantzen": [
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:04:30"
     },
     {
       "id_pic": "Georges-Ville-4_16_§6",
       "IndexJantzen": [
         "balcon",
         "garde-corps"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:04:30"
     },
     {
       "id_pic": "Georges-Ville-4_16_§7",
       "IndexJantzen": [
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:04:30"
     }
   ]
 }

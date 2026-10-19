@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 530,
+      "personneID": 845,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue Boissière"
   },
   "arrondissement": 16,
+  "tri_alphab": "Boissiere",
   "coordonnees": {
     "latitude": "48.867343",
     "longitude": "2.288886"
@@ -27,8 +28,27 @@
   "WPfr": null,
   "image_ref": "Boissiere-45_16_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "mosaique"
+    "mosaique",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "bandeau",
+    "brique",
+    "corniche",
+    "céramique",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "gros appareil",
+    "mascaron",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "sculpture",
+    "soupirail",
+    "travée"
   ],
   "photos": [
     {
@@ -36,14 +56,36 @@
       "IndexJantzen": [
         "fenetre",
         "mosaique"
-      ]
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "arc en plein cintre",
+        "pilastre",
+        "mascaron",
+        "sculpture",
+        "céramique",
+        "brique",
+        "pierre de taille",
+        "corniche",
+        "fronton",
+        "porte",
+        "gros appareil",
+        "travée",
+        "bandeau",
+        "soupirail"
+      ],
+      "dateCapture": "2005:04:30"
     },
     {
       "id_pic": "Boissiere-45_16_§2",
       "IndexJantzen": [
         "fenetre",
         "mosaique"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:04:30"
     }
   ]
 }

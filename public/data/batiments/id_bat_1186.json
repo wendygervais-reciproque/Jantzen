@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 46,
+      "personneID": 43,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "avenue Élisée-Reclus"
   },
   "arrondissement": 7,
+  "tri_alphab": "Elisee-Reclus",
   "coordonnees": {
     "latitude": "48.857787",
     "longitude": "2.298391"
@@ -27,9 +28,35 @@
   "WPfr": null,
   "image_ref": "Elisee-Reclus-16B_7_§1",
   "terme_jantzen_bat": [
+    "toiture",
     "fenetre",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "colonne",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
     "lucarne",
-    "toiture"
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porte-fenêtre",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "tuile",
+    "verrière",
+    "volet"
   ],
   "photos": [
     {
@@ -37,26 +64,59 @@
       "IndexJantzen": [
         "lucarne",
         "toiture"
-      ]
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "porte-fenêtre",
+        "lucarne",
+        "oculus",
+        "souche de cheminée",
+        "corniche",
+        "bandeau",
+        "pilastre",
+        "colonne",
+        "arc en plein cintre",
+        "verrière",
+        "tuile",
+        "ardoise",
+        "pierre de taille",
+        "brique",
+        "fer forgé",
+        "sculpture",
+        "travée",
+        "toit à deux versants",
+        "volet",
+        "fronton"
+      ],
+      "dateCapture": "2008:07:04"
     },
     {
       "id_pic": "Elisee-Reclus-16B_7_§2",
       "IndexJantzen": [
         "fenetre",
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:07:04"
     },
     {
       "id_pic": "Elisee-Reclus-16B_7_§3",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:07:04"
     },
     {
       "id_pic": "Elisee-Reclus-16B_7_§4",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:07:04"
     }
   ]
 }

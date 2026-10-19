@@ -13,6 +13,7 @@
     "voie": "rue Saint-Jacques"
   },
   "arrondissement": 5,
+  "tri_alphab": "St-Jacques",
   "coordonnees": {
     "latitude": "48.846525",
     "longitude": "2.343339"
@@ -22,88 +23,155 @@
   "WPfr": null,
   "image_ref": "St-Jacques-151B_5_§1",
   "terme_jantzen_bat": [
-    "façade",
-    "fenetre",
-    "décor",
+    "balcon",
     "sculpture",
     "clé",
     "console",
+    "fenetre",
+    "façade",
+    "garde-corps",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "ardoise",
     "balcon",
-    "garde-corps"
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "garde-corps",
+    "huisserie",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "souche de cheminée",
+    "vantail",
+    "épi de faîtage"
   ],
   "photos": [
     {
       "id_pic": "St-Jacques-151B_5_§1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "porte",
+        "arc en plein cintre",
+        "arc",
+        "mansarde",
+        "lucarne",
+        "souche de cheminée",
+        "corniche",
+        "bandeau",
+        "mascaron",
+        "sculpture",
+        "pierre de taille",
+        "ardoise",
+        "vantail",
+        "huisserie",
+        "chambranle",
+        "oculus",
+        "épi de faîtage"
+      ],
+      "dateCapture": "2006:06:23"
     },
     {
       "id_pic": "St-Jacques-151B_5_§10",
       "IndexJantzen": [
         "clé",
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:06:23"
     },
     {
       "id_pic": "St-Jacques-151B_5_§11",
       "IndexJantzen": [
         "balcon",
         "garde-corps"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:06:23"
     },
     {
       "id_pic": "St-Jacques-151B_5_§12",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:06:23"
     },
     {
       "id_pic": "St-Jacques-151B_5_§2",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:06:23"
     },
     {
       "id_pic": "St-Jacques-151B_5_§3",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:06:23"
     },
     {
       "id_pic": "St-Jacques-151B_5_§4",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:06:23"
     },
     {
       "id_pic": "St-Jacques-151B_5_§5",
       "IndexJantzen": [
         "fenetre",
         "garde-corps"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:06:23"
     },
     {
       "id_pic": "St-Jacques-151B_5_§6",
       "IndexJantzen": [
         "clé",
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:06:23"
     },
     {
       "id_pic": "St-Jacques-151B_5_§7",
       "IndexJantzen": [
         "clé",
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:06:23"
     },
     {
       "id_pic": "St-Jacques-151B_5_§8",
       "IndexJantzen": [
         "balcon",
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:06:06"
     },
     {
       "id_pic": "St-Jacques-151B_5_§9",
@@ -112,7 +180,9 @@
         "décor",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:06:23"
     }
   ]
 }

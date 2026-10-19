@@ -2,7 +2,16 @@
   "id_bat": 2682,
   "libelle": "44 rue de Paradis",
   "ensemble": null,
-  "personnes": null,
+  "personnes": [
+    {
+      "personneID": 437,
+      "role": "architecte"
+    },
+    {
+      "personneID": 10120,
+      "role": "sculpteur"
+    }
+  ],
   "dateConstruction": "1886",
   "periode": [
     "1870-1894"
@@ -13,6 +22,7 @@
     "voie": "rue de Paradis"
   },
   "arrondissement": 10,
+  "tri_alphab": "Paradis",
   "coordonnees": {
     "latitude": "48.875528",
     "longitude": "2.350137"
@@ -22,7 +32,21 @@
   "WPfr": null,
   "image_ref": "Paradis-44_10_§1",
   "terme_jantzen_bat": [
-    "console",
+    "sculpture",
+    "console"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "chapiteau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "frise",
+    "garde-corps",
+    "grille",
+    "mascaron",
+    "modillon",
+    "pierre de taille",
     "sculpture"
   ],
   "photos": [
@@ -31,7 +55,22 @@
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [
+        "modillon",
+        "mascaron",
+        "frise",
+        "corniche",
+        "balcon",
+        "garde-corps",
+        "grille",
+        "sculpture",
+        "pierre de taille",
+        "fer forgé",
+        "fenêtre",
+        "chapiteau"
+      ],
+      "dateCapture": "2005:05:26"
     }
   ]
 }

@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 530,
+      "personneID": 845,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue de Lisbonne"
   },
   "arrondissement": 8,
+  "tri_alphab": "Lisbonne",
   "coordonnees": {
     "latitude": "48.877521",
     "longitude": "2.308625"
@@ -30,26 +31,69 @@
     "colonne",
     "porte-fer"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "arcade",
+    "balcon",
+    "balustrade",
+    "chambranle",
+    "chapiteau",
+    "chapiteau corinthien",
+    "colonne",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "grille",
+    "mascaron",
+    "pierre de taille",
+    "pilastre",
+    "portail",
+    "sculpture"
+  ],
   "photos": [
     {
       "id_pic": "Lisbonne-58_8_§1-Rx",
       "IndexJantzen": [
         "colonne",
         "porte-fer"
-      ]
+      ],
+      "IndexTorneh": [
+        "arc en plein cintre",
+        "arcade",
+        "balcon",
+        "balustrade",
+        "chapiteau",
+        "colonne",
+        "corniche",
+        "fenêtre",
+        "fer forgé",
+        "grille",
+        "mascaron",
+        "pierre de taille",
+        "pilastre",
+        "portail",
+        "sculpture",
+        "chapiteau corinthien",
+        "chambranle"
+      ],
+      "dateCapture": "2012:07:22"
     },
     {
       "id_pic": "Lisbonne-58_8_§2",
       "IndexJantzen": [
         "colonne",
         "porte-fer"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:08:02"
     },
     {
       "id_pic": "Lisbonne-58_8_§3",
       "IndexJantzen": [
         "porte-fer"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:08:02"
     }
   ]
 }

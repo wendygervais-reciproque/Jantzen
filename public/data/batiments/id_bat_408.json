@@ -13,6 +13,7 @@
     "voie": "rue de Richelieu"
   },
   "arrondissement": 2,
+  "tri_alphab": "Richelieu",
   "coordonnees": {
     "latitude": "48.871372",
     "longitude": "2.339858"
@@ -22,10 +23,26 @@
   "WPfr": null,
   "image_ref": "Richelieu-106_2_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "porte-bois",
+    "garde-corps",
     "balcon",
-    "garde-corps"
+    "fenetre",
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "jambage",
+    "modillon",
+    "pierre de taille",
+    "pilastre",
+    "travée"
   ],
   "photos": [
     {
@@ -33,26 +50,49 @@
       "IndexJantzen": [
         "balcon",
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "corniche",
+        "fronton",
+        "chambranle",
+        "pilastre",
+        "modillon",
+        "bandeau",
+        "pierre de taille",
+        "fer forgé",
+        "travée",
+        "jambage"
+      ],
+      "dateCapture": "2010:06:05"
     },
     {
       "id_pic": "Richelieu-106_2_§2",
       "IndexJantzen": [
         "fenetre",
         "garde-corps"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2010:06:05"
     },
     {
       "id_pic": "Richelieu-106_2_§3",
       "IndexJantzen": [
         "porte-bois"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:04:22"
     },
     {
       "id_pic": "Richelieu-106_2_§4",
       "IndexJantzen": [
         "porte-bois"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2010:06:05"
     }
   ]
 }

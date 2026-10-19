@@ -13,6 +13,7 @@
     "voie": "rue des Pyrénées"
   },
   "arrondissement": 20,
+  "tri_alphab": "Pyrenees",
   "coordonnees": {
     "latitude": "48.852321",
     "longitude": "2.406016"
@@ -22,8 +23,19 @@
   "WPfr": null,
   "image_ref": "Pyrenees-63_20_§1",
   "terme_jantzen_bat": [
-    "console",
-    "sculpture"
+    "sculpture",
+    "console"
+  ],
+  "terme_torneh_bat": [
+    "arc brisé",
+    "balcon",
+    "balustrade",
+    "corniche",
+    "fenêtre",
+    "modillon",
+    "oriel",
+    "pierre de taille",
+    "volet"
   ],
   "photos": [
     {
@@ -31,7 +43,19 @@
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [
+        "balustrade",
+        "balcon",
+        "corniche",
+        "fenêtre",
+        "arc brisé",
+        "pierre de taille",
+        "modillon",
+        "volet",
+        "oriel"
+      ],
+      "dateCapture": "2005:07:16"
     }
   ]
 }

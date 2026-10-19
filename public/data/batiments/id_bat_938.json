@@ -13,6 +13,7 @@
     "voie": "rue Saint-Victor"
   },
   "arrondissement": 5,
+  "tri_alphab": "St-Victor",
   "coordonnees": {
     "latitude": "48.848251",
     "longitude": "2.351165"
@@ -22,12 +23,34 @@
   "WPfr": null,
   "image_ref": "St-Victor-14_5_§1-Rx",
   "terme_jantzen_bat": [
-    "porte",
-    "façade",
-    "fenetre",
     "sculpture",
     "console",
+    "fenetre",
+    "façade",
+    "porte",
     "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "avant-corps",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "porte",
+    "souche de cheminée",
+    "travée",
+    "vantail",
+    "volet"
   ],
   "photos": [
     {
@@ -35,49 +58,84 @@
       "IndexJantzen": [
         "façade",
         "porte"
-      ]
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "mansarde",
+        "souche de cheminée",
+        "porte",
+        "vantail",
+        "pierre de taille",
+        "bandeau",
+        "chambranle",
+        "arc en plein cintre",
+        "mascaron",
+        "corniche",
+        "ardoise",
+        "oculus",
+        "avant-corps",
+        "travée",
+        "fer forgé",
+        "volet"
+      ],
+      "dateCapture": "2011:05:25"
     },
     {
       "id_pic": "St-Victor-14_5_§2",
       "IndexJantzen": [
         "façade",
         "porte"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:05:27"
     },
     {
       "id_pic": "St-Victor-14_5_§3",
       "IndexJantzen": [
         "fenetre",
         "porte-bois"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:05:27"
     },
     {
       "id_pic": "St-Victor-14_5_§4",
       "IndexJantzen": [
         "fenetre",
         "porte-bois"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2010:03:23"
     },
     {
       "id_pic": "St-Victor-14_5_§5-Rx",
       "IndexJantzen": [
         "fenetre",
         "porte-bois"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2011:05:25"
     },
     {
       "id_pic": "St-Victor-14_5_§6",
       "IndexJantzen": [
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:05:27"
     },
     {
       "id_pic": "St-Victor-14_5_§7",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:05:27"
     }
   ]
 }

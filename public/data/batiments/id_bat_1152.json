@@ -13,6 +13,7 @@
     "voie": "rue Rambuteau"
   },
   "arrondissement": 3,
+  "tri_alphab": "Rambuteau",
   "coordonnees": {
     "latitude": "48.860781",
     "longitude": "2.355001"
@@ -22,11 +23,27 @@
   "WPfr": null,
   "image_ref": "Rambuteau-16_3_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "décor",
-    "sculpture",
     "balcon",
-    "garde-corps"
+    "sculpture",
+    "fenetre",
+    "garde-corps",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "modillon",
+    "pierre de taille",
+    "pilastre",
+    "sculpture",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -36,14 +53,33 @@
         "fenetre",
         "garde-corps",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "balustrade",
+        "fenêtre",
+        "volet",
+        "corniche",
+        "modillon",
+        "mascaron",
+        "pilastre",
+        "bandeau",
+        "travée",
+        "pierre de taille",
+        "sculpture"
+      ],
+      "dateCapture": "2003:08:02"
     },
     {
       "id_pic": "Rambuteau-16_3_A",
       "IndexJantzen": [
         "balcon",
         "garde-corps"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2003:08:02"
     }
   ]
 }

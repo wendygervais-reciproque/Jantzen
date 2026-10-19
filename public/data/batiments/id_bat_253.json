@@ -1,0 +1,59 @@
+{
+  "id_bat": 253,
+  "libelle": "1 rue Lacretelle",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": null,
+  "adresse": {
+    "affichage": "1 rue Lacretelle",
+    "numero": "1",
+    "voie": "rue Lacretelle"
+  },
+  "arrondissement": 15,
+  "tri_alphab": "Lacretelle",
+  "coordonnees": {
+    "latitude": "48.834017",
+    "longitude": "2.290692"
+  },
+  "id_pss": null,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": "Lacretelle-1_15_§1",
+  "terme_jantzen_bat": [
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "garde-corps",
+    "lucarne",
+    "souche de cheminée",
+    "toit à deux versants",
+    "épi de faîtage"
+  ],
+  "photos": [
+    {
+      "id_pic": "Lacretelle-1_15_§1",
+      "IndexJantzen": [
+        "lucarne"
+      ],
+      "IndexTorneh": [
+        "lucarne",
+        "fenêtre",
+        "garde-corps",
+        "ardoise",
+        "corniche",
+        "souche de cheminée",
+        "balcon",
+        "toit à deux versants",
+        "chambranle",
+        "épi de faîtage"
+      ],
+      "dateCapture": "2006:04:17"
+    }
+  ]
+}

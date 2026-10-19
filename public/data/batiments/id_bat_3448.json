@@ -2,7 +2,12 @@
   "id_bat": 3448,
   "libelle": "7 rue Victor-Considérant",
   "ensemble": null,
-  "personnes": null,
+  "personnes": [
+    {
+      "personneID": 631,
+      "role": "architecte"
+    }
+  ],
   "dateConstruction": null,
   "periode": [
     "1895-1914"
@@ -13,6 +18,7 @@
     "voie": "rue Victor-Considérant"
   },
   "arrondissement": 14,
+  "tri_alphab": "Victor-Considerant",
   "coordonnees": {
     "latitude": "48.835361",
     "longitude": "2.330674"
@@ -22,13 +28,29 @@
   "WPfr": null,
   "image_ref": "Victor-Considerant-7_14_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "sculpture",
     "clé",
     "console",
+    "fenetre",
     "chimère",
-    "porte-bois",
-    "garde-corps"
+    "garde-corps",
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "chambranle",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "modillon",
+    "pierre de taille",
+    "pilastre",
+    "sculpture",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -36,20 +58,41 @@
       "IndexJantzen": [
         "fenetre",
         "garde-corps"
-      ]
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "garde-corps",
+        "fer forgé",
+        "pierre de taille",
+        "arc en plein cintre",
+        "mascaron",
+        "modillon",
+        "sculpture",
+        "pilastre",
+        "chambranle",
+        "travée",
+        "volet"
+      ],
+      "dateCapture": "2004:07:28"
     },
     {
       "id_pic": "Victor-Considerant-7_14_§3",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:07:28"
     },
     {
       "id_pic": "Victor-Considerant-7_14_§4",
       "IndexJantzen": [
         "porte-bois"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:07:28"
     },
     {
       "id_pic": "Victor-Considerant-7_14_§5",
@@ -57,7 +100,9 @@
         "chimère",
         "clé",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:07:28"
     }
   ]
 }

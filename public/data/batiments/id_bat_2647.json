@@ -1,0 +1,155 @@
+{
+  "id_bat": 2647,
+  "libelle": "43 boulevard Suchet",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 512,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1925",
+  "periode": [
+    "1915-1944"
+  ],
+  "adresse": {
+    "affichage": "43 boulevard Suchet",
+    "numero": "43",
+    "voie": "boulevard Suchet"
+  },
+  "arrondissement": 16,
+  "tri_alphab": "Suchet",
+  "coordonnees": {
+    "latitude": "48.856299",
+    "longitude": "2.264216"
+  },
+  "id_pss": 27649,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": "Suchet-43_16_§1",
+  "terme_jantzen_bat": [
+    "balcon",
+    "porte-fer",
+    "sculpture",
+    "clé",
+    "fenetre",
+    "façade",
+    "garde-corps",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mascaron",
+    "oriel",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants"
+  ],
+  "photos": [
+    {
+      "id_pic": "Suchet-43_16_§1",
+      "IndexJantzen": [
+        "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "oriel",
+        "lucarne",
+        "souche de cheminée",
+        "sculpture",
+        "mascaron",
+        "porte",
+        "portail",
+        "arc",
+        "pierre de taille",
+        "bandeau",
+        "toit à deux versants",
+        "ardoise",
+        "fer forgé",
+        "corniche",
+        "fronton"
+      ],
+      "dateCapture": "2006:04:02"
+    },
+    {
+      "id_pic": "Suchet-43_16_§2",
+      "IndexJantzen": [
+        "décor",
+        "fenetre",
+        "sculpture"
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:04:02"
+    },
+    {
+      "id_pic": "Suchet-43_16_§3",
+      "IndexJantzen": [
+        "décor",
+        "fenetre",
+        "sculpture"
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:04:02"
+    },
+    {
+      "id_pic": "Suchet-43_16_§4",
+      "IndexJantzen": [
+        "balcon",
+        "sculpture"
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:04:02"
+    },
+    {
+      "id_pic": "Suchet-43_16_§6",
+      "IndexJantzen": [
+        "fenetre",
+        "garde-corps"
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:04:02"
+    },
+    {
+      "id_pic": "Suchet-43_16_§7",
+      "IndexJantzen": [
+        "fenetre",
+        "garde-corps"
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:04:02"
+    },
+    {
+      "id_pic": "Suchet-43_16_§8",
+      "IndexJantzen": [
+        "clé",
+        "sculpture"
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:03:17"
+    },
+    {
+      "id_pic": "Suchet-43_16_§9",
+      "IndexJantzen": [
+        "porte-fer"
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:03:16"
+    }
+  ]
+}

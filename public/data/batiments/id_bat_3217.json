@@ -1,0 +1,148 @@
+{
+  "id_bat": 3217,
+  "libelle": "61 boulevard Haussmann",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 824,
+      "role": "architecte"
+    },
+    {
+      "personneID": 10154,
+      "role": "sculpteur"
+    }
+  ],
+  "dateConstruction": null,
+  "periode": null,
+  "adresse": {
+    "affichage": "61 boulevard Haussmann",
+    "numero": "61",
+    "voie": "boulevard Haussmann"
+  },
+  "arrondissement": 8,
+  "tri_alphab": "Haussmann",
+  "coordonnees": {
+    "latitude": "48.873807",
+    "longitude": "2.325702"
+  },
+  "id_pss": null,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": "Haussmann-61_8_§61",
+  "terme_jantzen_bat": [
+    "sculpture",
+    "clé",
+    "fenetre",
+    "lucarne",
+    "façade",
+    "garde-corps"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "porte-fenêtre",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "vitrail"
+  ],
+  "photos": [
+    {
+      "id_pic": "Haussmann-61_8_§61",
+      "IndexJantzen": [
+        "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "garde-corps",
+        "mansarde",
+        "lucarne",
+        "porte",
+        "porte-fenêtre",
+        "pilastre",
+        "mascaron",
+        "chaîne d'angle",
+        "souche de cheminée",
+        "toit à deux versants",
+        "arc en plein cintre",
+        "oculus",
+        "vitrail",
+        "fer forgé",
+        "pierre de taille",
+        "sculpture",
+        "travée",
+        "corniche"
+      ],
+      "dateCapture": "2006:03:23"
+    },
+    {
+      "id_pic": "Haussmann-61_8_§62",
+      "IndexJantzen": [
+        "lucarne"
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:07:02"
+    },
+    {
+      "id_pic": "Haussmann-61_8_§63",
+      "IndexJantzen": [
+        "lucarne"
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:07:02"
+    },
+    {
+      "id_pic": "Haussmann-61_8_§64",
+      "IndexJantzen": [
+        "fenetre"
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:03:23"
+    },
+    {
+      "id_pic": "Haussmann-61_8_§65",
+      "IndexJantzen": [
+        "fenetre",
+        "sculpture"
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:07:02"
+    },
+    {
+      "id_pic": "Haussmann-61_8_§66",
+      "IndexJantzen": [
+        "clé",
+        "fenetre",
+        "sculpture"
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:08:11"
+    },
+    {
+      "id_pic": "Haussmann-61_8_§67",
+      "IndexJantzen": [
+        "fenetre",
+        "garde-corps",
+        "sculpture"
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:03:23"
+    }
+  ]
+}

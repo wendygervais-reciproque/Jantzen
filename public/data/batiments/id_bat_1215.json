@@ -4,8 +4,12 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 35,
+      "personneID": 22,
       "role": "architecte"
+    },
+    {
+      "personneID": 10069,
+      "role": "sculpteur"
     }
   ],
   "dateConstruction": "1865",
@@ -18,6 +22,7 @@
     "voie": "rue de Châteaudun"
   },
   "arrondissement": 9,
+  "tri_alphab": "Chateaudin",
   "coordonnees": {
     "latitude": "48.875835",
     "longitude": "2.339245"
@@ -27,29 +32,92 @@
   "WPfr": null,
   "image_ref": "Chateaudin-17_9_§1",
   "terme_jantzen_bat": [
-    "façade",
-    "fenetre",
-    "décor",
+    "balcon",
     "sculpture",
     "console",
     "cariatide",
-    "balcon",
+    "fenetre",
+    "façade",
+    "garde-corps",
     "porte-bois",
-    "garde-corps"
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc brisé",
+    "arc en plein cintre",
+    "ardoise",
+    "atlante",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "cariatide",
+    "chéneau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "grille",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "pierre de taille",
+    "pilastre",
+    "portail",
+    "porte",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "vantail",
+    "vitrail"
   ],
   "photos": [
     {
       "id_pic": "Chateaudin-17_9_§1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "lucarne",
+        "mansarde",
+        "atlante",
+        "cariatide",
+        "mascaron",
+        "fronton",
+        "corniche",
+        "bandeau",
+        "pilastre",
+        "arc en plein cintre",
+        "arc brisé",
+        "porte",
+        "vantail",
+        "vitrail",
+        "souche de cheminée",
+        "ardoise",
+        "toit à deux versants",
+        "pierre de taille",
+        "sculpture",
+        "portail",
+        "travée",
+        "chéneau",
+        "grille",
+        "fer forgé"
+      ],
+      "dateCapture": "2010:05:23"
     },
     {
       "id_pic": "Chateaudin-17_9_§12",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2010:05:23"
     },
     {
       "id_pic": "Chateaudin-17_9_§13",
@@ -57,100 +125,130 @@
         "console",
         "garde-corps",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:06:03"
     },
     {
       "id_pic": "Chateaudin-17_9_§14",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2010:06:04"
     },
     {
       "id_pic": "Chateaudin-17_9_§15",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2010:06:04"
     },
     {
       "id_pic": "Chateaudin-17_9_§16",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:03:26"
     },
     {
       "id_pic": "Chateaudin-17_9_§17",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:03:26"
     },
     {
       "id_pic": "Chateaudin-17_9_§18",
       "IndexJantzen": [
         "cariatide",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:06:03"
     },
     {
       "id_pic": "Chateaudin-17_9_§19",
       "IndexJantzen": [
         "cariatide",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:06:01"
     },
     {
       "id_pic": "Chateaudin-17_9_§1b",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2010:05:23"
     },
     {
       "id_pic": "Chateaudin-17_9_§20",
       "IndexJantzen": [
         "cariatide",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:06:03"
     },
     {
       "id_pic": "Chateaudin-17_9_§21",
       "IndexJantzen": [
         "cariatide",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:03:26"
     },
     {
       "id_pic": "Chateaudin-17_9_§22",
       "IndexJantzen": [
         "fenetre",
         "porte-bois"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2010:06:04"
     },
     {
       "id_pic": "Chateaudin-17_9_§23",
       "IndexJantzen": [
         "fenetre",
         "porte-bois"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:06:17"
     },
     {
       "id_pic": "Chateaudin-17_9_§24",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:03:26"
     },
     {
       "id_pic": "Chateaudin-17_9_§25",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2010:06:04"
     },
     {
       "id_pic": "Chateaudin-17_9_§26",
-      "IndexJantzen": []
+      "IndexJantzen": [],
+      "IndexTorneh": [],
+      "dateCapture": "2007:03:26"
     },
     {
       "id_pic": "Chateaudin-17_9_§3",
@@ -158,7 +256,9 @@
         "décor",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:06:03"
     },
     {
       "id_pic": "Chateaudin-17_9_§4",
@@ -167,14 +267,18 @@
         "décor",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2010:06:04"
     },
     {
       "id_pic": "Chateaudin-17_9_§5",
       "IndexJantzen": [
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2010:06:04"
     },
     {
       "id_pic": "Chateaudin-17_9_§6",
@@ -182,7 +286,9 @@
         "décor",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2010:05:23"
     },
     {
       "id_pic": "Chateaudin-17_9_§7",
@@ -190,14 +296,18 @@
         "décor",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:03:26"
     },
     {
       "id_pic": "Chateaudin-17_9_§8",
       "IndexJantzen": [
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2010:06:04"
     },
     {
       "id_pic": "Chateaudin-17_9_§9",
@@ -205,7 +315,9 @@
         "fenetre",
         "garde-corps",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2010:05:23"
     }
   ]
 }

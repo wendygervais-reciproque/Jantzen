@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 656,
+      "personneID": 871,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue Benjamin-Godard"
   },
   "arrondissement": 16,
+  "tri_alphab": "Benjamin-Godard",
   "coordonnees": {
     "latitude": "48.866341",
     "longitude": "2.275425"
@@ -29,12 +30,35 @@
   "terme_jantzen_bat": [
     "colonne"
   ],
+  "terme_torneh_bat": [
+    "architrave",
+    "chapiteau composite",
+    "chapiteau corinthien",
+    "colonne",
+    "fer forgé",
+    "pierre de taille",
+    "porte",
+    "porte-fenêtre",
+    "sculpture"
+  ],
   "photos": [
     {
       "id_pic": "Benjamin-Godard-7_16_§1",
       "IndexJantzen": [
         "colonne"
-      ]
+      ],
+      "IndexTorneh": [
+        "colonne",
+        "chapiteau composite",
+        "chapiteau corinthien",
+        "pierre de taille",
+        "porte",
+        "porte-fenêtre",
+        "fer forgé",
+        "sculpture",
+        "architrave"
+      ],
+      "dateCapture": "2005:06:07"
     }
   ]
 }

@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 177,
+      "personneID": 9,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "quai de Conti"
   },
   "arrondissement": 6,
+  "tri_alphab": "Conti-Qu",
   "coordonnees": {
     "latitude": "48.856746",
     "longitude": "2.3392"
@@ -27,85 +28,152 @@
   "WPfr": null,
   "image_ref": "Conti-Qu-11_6_§1",
   "terme_jantzen_bat": [
-    "porte",
-    "lucarne",
-    "façade",
-    "fronton",
-    "fenetre",
     "oeil-de-boeuf",
     "sculpture",
+    "fenetre",
+    "lucarne",
+    "façade",
     "poignée-porte",
+    "fronton",
+    "porte",
     "colonne",
     "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "attique",
+    "avant-corps",
+    "balcon",
+    "bandeau",
+    "chapiteau corinthien",
+    "colonne",
+    "corniche",
+    "entablement",
+    "fenêtre",
+    "frise",
+    "fronton",
+    "garde-corps",
+    "gros appareil",
+    "oculus",
+    "pierre de taille",
+    "porte",
+    "porte-fenêtre",
+    "sculpture",
+    "travée"
   ],
   "photos": [
     {
       "id_pic": "Conti-Qu-11_6_§1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [
+        "colonne",
+        "chapiteau corinthien",
+        "fronton",
+        "entablement",
+        "corniche",
+        "bandeau",
+        "fenêtre",
+        "porte",
+        "porte-fenêtre",
+        "balcon",
+        "garde-corps",
+        "arc en plein cintre",
+        "oculus",
+        "pierre de taille",
+        "sculpture",
+        "avant-corps",
+        "attique",
+        "travée",
+        "frise",
+        "gros appareil",
+        "arc"
+      ],
+      "dateCapture": "2010:05:23"
     },
     {
       "id_pic": "Conti-Qu-11_6_§10",
       "IndexJantzen": [
         "poignée-porte"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2010:05:24"
     },
     {
       "id_pic": "Conti-Qu-11_6_§12",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:06:13"
     },
     {
       "id_pic": "Conti-Qu-11_6_§13",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:06:13"
     },
     {
       "id_pic": "Conti-Qu-11_6_§14",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:05:14"
     },
     {
       "id_pic": "Conti-Qu-11_6_§15",
       "IndexJantzen": [
         "colonne",
         "façade"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:05:14"
     },
     {
       "id_pic": "Conti-Qu-11_6_§16",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2009:09:27"
     },
     {
       "id_pic": "Conti-Qu-11_6_§17",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:05:14"
     },
     {
       "id_pic": "Conti-Qu-11_6_§18",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:05:14"
     },
     {
       "id_pic": "Conti-Qu-11_6_§19",
       "IndexJantzen": [
         "façade",
         "fronton"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:05:14"
     },
     {
       "id_pic": "Conti-Qu-11_6_§2",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:06:11"
     },
     {
       "id_pic": "Conti-Qu-11_6_§20",
@@ -113,113 +181,147 @@
         "fenetre",
         "fronton",
         "porte"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2009:09:27"
     },
     {
       "id_pic": "Conti-Qu-11_6_§21",
       "IndexJantzen": [
         "fenetre",
         "porte"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2009:09:27"
     },
     {
       "id_pic": "Conti-Qu-11_6_§22",
       "IndexJantzen": [
         "porte-bois"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2009:09:27"
     },
     {
       "id_pic": "Conti-Qu-11_6_§23",
       "IndexJantzen": [
         "fenetre",
         "fronton"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:05:14"
     },
     {
       "id_pic": "Conti-Qu-11_6_§26",
       "IndexJantzen": [
         "oeil-de-boeuf",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:05:14"
     },
     {
       "id_pic": "Conti-Qu-11_6_§27",
       "IndexJantzen": [
         "fronton",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:05:14"
     },
     {
       "id_pic": "Conti-Qu-11_6_§28",
       "IndexJantzen": [
         "fronton",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2009:09:27"
     },
     {
       "id_pic": "Conti-Qu-11_6_§29",
       "IndexJantzen": [
         "fronton",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2009:09:27"
     },
     {
       "id_pic": "Conti-Qu-11_6_§3",
       "IndexJantzen": [
         "colonne",
         "façade"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:06:11"
     },
     {
       "id_pic": "Conti-Qu-11_6_§30",
       "IndexJantzen": [
         "fronton",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2009:09:27"
     },
     {
       "id_pic": "Conti-Qu-11_6_§31",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2009:09:27"
     },
     {
       "id_pic": "Conti-Qu-11_6_§4",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:06:13"
     },
     {
       "id_pic": "Conti-Qu-11_6_§5",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:06:13"
     },
     {
       "id_pic": "Conti-Qu-11_6_§6",
       "IndexJantzen": [
         "colonne",
         "façade"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2010:05:23"
     },
     {
       "id_pic": "Conti-Qu-11_6_§7",
       "IndexJantzen": [
         "colonne",
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:06:13"
     },
     {
       "id_pic": "Conti-Qu-11_6_§8",
       "IndexJantzen": [
         "porte-bois"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2010:05:23"
     },
     {
       "id_pic": "Conti-Qu-11_6_§9",
       "IndexJantzen": [
         "poignée-porte"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2010:05:24"
     }
   ]
 }

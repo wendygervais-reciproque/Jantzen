@@ -1,0 +1,84 @@
+{
+  "id_bat": 2043,
+  "libelle": "3 place Denfert-Rochereau",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 565,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": null,
+  "periode": null,
+  "adresse": {
+    "affichage": "3 place Denfert-Rochereau",
+    "numero": "3",
+    "voie": "place Denfert-Rochereau"
+  },
+  "arrondissement": 14,
+  "tri_alphab": "Denfert-Rochereau-pl",
+  "coordonnees": {
+    "latitude": "48.833344",
+    "longitude": "2.333366"
+  },
+  "id_pss": null,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": "Denfert-Rochereau-pl-3_14_§1",
+  "terme_jantzen_bat": [
+    "colonne",
+    "porte"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "arcade",
+    "balcon",
+    "bossage",
+    "chambranle",
+    "colonne",
+    "fenêtre",
+    "fer forgé",
+    "frise",
+    "grille",
+    "pierre de taille",
+    "pilier",
+    "porche",
+    "porte",
+    "sculpture"
+  ],
+  "photos": [
+    {
+      "id_pic": "Denfert-Rochereau-pl-3_14_§1",
+      "IndexJantzen": [
+        "porte"
+      ],
+      "IndexTorneh": [
+        "arc en plein cintre",
+        "bossage",
+        "chambranle",
+        "colonne",
+        "fenêtre",
+        "fer forgé",
+        "frise",
+        "grille",
+        "pierre de taille",
+        "pilier",
+        "porche",
+        "porte",
+        "sculpture",
+        "arcade",
+        "balcon"
+      ],
+      "dateCapture": "2005:05:09"
+    },
+    {
+      "id_pic": "Denfert-Rochereau-pl-3_14_§2",
+      "IndexJantzen": [
+        "colonne",
+        "porte"
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:05:09"
+    }
+  ]
+}

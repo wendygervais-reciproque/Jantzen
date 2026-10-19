@@ -2,7 +2,16 @@
   "id_bat": 2951,
   "libelle": "52 rue de Châteaudun",
   "ensemble": null,
-  "personnes": null,
+  "personnes": [
+    {
+      "personneID": 537,
+      "role": "architecte"
+    },
+    {
+      "personneID": 55,
+      "role": "architecte"
+    }
+  ],
   "dateConstruction": null,
   "periode": [
     "1895-1914"
@@ -13,6 +22,7 @@
     "voie": "rue de Châteaudun"
   },
   "arrondissement": 9,
+  "tri_alphab": "Chateaudin",
   "coordonnees": {
     "latitude": "48.876385",
     "longitude": "2.333628"
@@ -22,30 +32,79 @@
   "WPfr": null,
   "image_ref": "Chateaudin-52_9_§1",
   "terme_jantzen_bat": [
-    "clé",
     "façade",
+    "clé",
     "fenetre",
     "porte-fer"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "grille",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "pierre de taille",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "vantail"
   ],
   "photos": [
     {
       "id_pic": "Chateaudin-52_9_§1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "bandeau",
+        "corniche",
+        "fenêtre",
+        "fer forgé",
+        "fronton",
+        "garde-corps",
+        "grille",
+        "lucarne",
+        "mansarde",
+        "mascaron",
+        "pierre de taille",
+        "porte-fenêtre",
+        "souche de cheminée",
+        "travée",
+        "vantail",
+        "arc en plein cintre",
+        "chaîne d'angle",
+        "toit à deux versants"
+      ],
+      "dateCapture": "2010:05:25"
     },
     {
       "id_pic": "Chateaudin-52_9_§2",
       "IndexJantzen": [
         "clé",
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2010:05:25"
     },
     {
       "id_pic": "Chateaudin-52_9_§4",
       "IndexJantzen": [
         "porte-fer"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2010:05:25"
     }
   ]
 }

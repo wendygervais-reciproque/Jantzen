@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 92,
+      "personneID": 149,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "boulevard Lefebvre"
   },
   "arrondissement": 15,
+  "tri_alphab": "Lefebvre-bd",
   "coordonnees": {
     "latitude": "48.831673",
     "longitude": "2.291196"
@@ -28,8 +29,27 @@
   "image_ref": "Lefebvre-bd-39_15_§1",
   "terme_jantzen_bat": [
     "fenetre",
+    "porte-fer",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "arc en anse de panier",
+    "ardoise",
+    "avant-corps",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
     "lucarne",
-    "porte-fer"
+    "mansarde",
+    "pierre de taille",
+    "porte-fenêtre",
+    "sculpture",
+    "souche de cheminée",
+    "volet"
   ],
   "photos": [
     {
@@ -37,13 +57,35 @@
       "IndexJantzen": [
         "fenetre",
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "porte-fenêtre",
+        "lucarne",
+        "souche de cheminée",
+        "ardoise",
+        "pierre de taille",
+        "volet",
+        "fronton",
+        "sculpture",
+        "mansarde",
+        "fer forgé",
+        "avant-corps",
+        "bandeau",
+        "arc en anse de panier"
+      ],
+      "dateCapture": "2005:03:21"
     },
     {
       "id_pic": "Lefebvre-bd-39_15_§2",
       "IndexJantzen": [
         "porte-fer"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:03:26"
     }
   ]
 }

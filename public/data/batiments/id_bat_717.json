@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 322,
+      "personneID": 454,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "avenue Mozart"
   },
   "arrondissement": 16,
+  "tri_alphab": "Mozart",
   "coordonnees": {
     "latitude": "48.849735",
     "longitude": "2.266507"
@@ -27,16 +28,40 @@
   "WPfr": null,
   "image_ref": "Mozart-122_16_§1",
   "terme_jantzen_bat": [
-    "lucarne",
-    "façade-d'angle",
-    "céramique",
-    "porte-fer",
-    "brique",
-    "fenetre",
-    "fenetre-d'angle",
-    "balcon",
     "colonne",
+    "balcon",
+    "façade-d'angle",
+    "porte-fer",
+    "fenetre-d'angle",
+    "fenetre",
+    "lucarne",
+    "brique",
+    "céramique",
     "garde-corps"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "baie",
+    "balcon",
+    "balustrade",
+    "brique",
+    "chéneau",
+    "faîtage",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mascaron",
+    "oriel",
+    "pierre de taille",
+    "porte",
+    "porte-fenêtre",
+    "sculpture",
+    "souche de cheminée",
+    "soupirail",
+    "toit à deux versants",
+    "tour",
+    "verrière"
   ],
   "photos": [
     {
@@ -44,14 +69,41 @@
       "IndexJantzen": [
         "brique",
         "façade-d'angle"
-      ]
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "baie",
+        "fenêtre",
+        "oriel",
+        "lucarne",
+        "souche de cheminée",
+        "ardoise",
+        "toit à deux versants",
+        "brique",
+        "pierre de taille",
+        "porte",
+        "porte-fenêtre",
+        "soupirail",
+        "mascaron",
+        "sculpture",
+        "fer forgé",
+        "verrière",
+        "chéneau",
+        "faîtage",
+        "tour"
+      ],
+      "dateCapture": "2009:03:31"
     },
     {
       "id_pic": "Mozart-122_16_§10",
       "IndexJantzen": [
         "brique",
         "porte-fer"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:05:18"
     },
     {
       "id_pic": "Mozart-122_16_§2",
@@ -59,7 +111,9 @@
         "brique",
         "fenetre-d'angle",
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": null
     },
     {
       "id_pic": "Mozart-122_16_§3",
@@ -67,14 +121,18 @@
         "brique",
         "fenetre",
         "garde-corps"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2009:03:31"
     },
     {
       "id_pic": "Mozart-122_16_§4",
       "IndexJantzen": [
         "balcon",
         "brique"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:04:17"
     },
     {
       "id_pic": "Mozart-122_16_§5",
@@ -82,7 +140,9 @@
         "balcon",
         "brique",
         "garde-corps"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:05:18"
     },
     {
       "id_pic": "Mozart-122_16_§6",
@@ -90,7 +150,9 @@
         "brique",
         "céramique",
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:04:17"
     },
     {
       "id_pic": "Mozart-122_16_§7",
@@ -98,20 +160,26 @@
         "brique",
         "céramique",
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:07:01"
     },
     {
       "id_pic": "Mozart-122_16_§8",
       "IndexJantzen": [
         "colonne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": null
     },
     {
       "id_pic": "Mozart-122_16_§9",
       "IndexJantzen": [
         "brique",
         "porte-fer"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2010:05:23"
     }
   ]
 }

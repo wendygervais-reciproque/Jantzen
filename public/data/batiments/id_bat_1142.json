@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 413,
+      "personneID": 553,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue Erlanger"
   },
   "arrondissement": 16,
+  "tri_alphab": "Erlanger",
   "coordonnees": {
     "latitude": "48.846754",
     "longitude": "2.261347"
@@ -27,9 +28,28 @@
   "WPfr": null,
   "image_ref": "Erlanger-16_16_§1",
   "terme_jantzen_bat": [
-    "fenetre",
+    "sculpture",
     "console",
-    "sculpture"
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "avant-corps",
+    "balcon",
+    "balustrade",
+    "chapiteau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "oriel",
+    "pierre de taille",
+    "pilastre",
+    "sculpture",
+    "travée",
+    "vitrail",
+    "volet"
   ],
   "photos": [
     {
@@ -37,14 +57,36 @@
       "IndexJantzen": [
         "console",
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "balustrade",
+        "corniche",
+        "pilastre",
+        "chapiteau",
+        "mascaron",
+        "arc en plein cintre",
+        "volet",
+        "vitrail",
+        "sculpture",
+        "pierre de taille",
+        "travée",
+        "oriel",
+        "fer forgé",
+        "avant-corps"
+      ],
+      "dateCapture": "2005:05:28"
     },
     {
       "id_pic": "Erlanger-16_16_§2",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:05:28"
     }
   ]
 }

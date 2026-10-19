@@ -13,6 +13,7 @@
     "voie": "rue de l'Aqueduc"
   },
   "arrondissement": 10,
+  "tri_alphab": "Aqueduc",
   "coordonnees": {
     "latitude": "48.879799",
     "longitude": "2.35822"
@@ -22,14 +23,28 @@
   "WPfr": null,
   "image_ref": "Aqueduc-5_10_§1",
   "terme_jantzen_bat": [
+    "colonne",
+    "balcon",
+    "fenetre",
     "lucarne",
     "façade",
     "métal",
-    "fenetre",
+    "garde-corps",
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
     "balcon",
-    "colonne",
-    "porte-bois",
-    "garde-corps"
+    "balustrade",
+    "bandeau",
+    "fenêtre",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "pierre de taille",
+    "porte-fenêtre",
+    "toit à deux versants",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -37,61 +52,92 @@
       "IndexJantzen": [
         "façade",
         "métal"
-      ]
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "garde-corps",
+        "lucarne",
+        "bandeau",
+        "pierre de taille",
+        "travée",
+        "porte-fenêtre",
+        "volet",
+        "mansarde",
+        "toit à deux versants"
+      ],
+      "dateCapture": "2004:05:19"
     },
     {
       "id_pic": "Aqueduc-5_10_§10",
       "IndexJantzen": [
         "porte-bois"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:05:19"
     },
     {
       "id_pic": "Aqueduc-5_10_§2",
       "IndexJantzen": [
         "façade",
         "métal"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:09:13"
     },
     {
       "id_pic": "Aqueduc-5_10_§3",
       "IndexJantzen": [
         "fenetre",
         "métal"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:09:13"
     },
     {
       "id_pic": "Aqueduc-5_10_§4",
       "IndexJantzen": [
         "balcon",
         "garde-corps"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:09:13"
     },
     {
       "id_pic": "Aqueduc-5_10_§5",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:05:19"
     },
     {
       "id_pic": "Aqueduc-5_10_§6",
       "IndexJantzen": [
         "façade",
         "métal"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:09:13"
     },
     {
       "id_pic": "Aqueduc-5_10_§7",
       "IndexJantzen": [
         "façade",
         "métal"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:05:19"
     },
     {
       "id_pic": "Aqueduc-5_10_§8",
       "IndexJantzen": [
         "façade",
         "métal"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:05:19"
     },
     {
       "id_pic": "Aqueduc-5_10_§9",
@@ -99,7 +145,9 @@
         "colonne",
         "fenetre",
         "métal"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:05:19"
     }
   ]
 }

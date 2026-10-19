@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 279,
+      "personneID": 137,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "boulevard Raspail"
   },
   "arrondissement": 6,
+  "tri_alphab": "Raspail",
   "coordonnees": {
     "latitude": "48.842197",
     "longitude": "2.329742"
@@ -27,41 +28,98 @@
   "WPfr": null,
   "image_ref": "Raspail-147_6_§1",
   "terme_jantzen_bat": [
-    "lucarne",
+    "toiture",
     "façade-d'angle",
-    "toiture"
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "avant-corps",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oriel",
+    "pierre de taille",
+    "porte-fenêtre",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "volet",
+    "épi de faîtage"
   ],
   "photos": [
     {
       "id_pic": "Raspail-147_6_§1",
       "IndexJantzen": [
         "façade-d'angle"
-      ]
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "lucarne",
+        "mansarde",
+        "oriel",
+        "souche de cheminée",
+        "épi de faîtage",
+        "ardoise",
+        "pierre de taille",
+        "sculpture",
+        "mascaron",
+        "corniche",
+        "bandeau",
+        "fer forgé",
+        "toit à deux versants",
+        "chaîne d'angle",
+        "volet",
+        "porte-fenêtre",
+        "travée",
+        "avant-corps"
+      ],
+      "dateCapture": "2005:06:13"
     },
     {
       "id_pic": "Raspail-147_6_§2",
       "IndexJantzen": [
         "lucarne",
         "toiture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:06:13"
     },
     {
       "id_pic": "Raspail-147_6_§3",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:06:13"
     },
     {
       "id_pic": "Raspail-147_6_§4",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:02:11"
     },
     {
       "id_pic": "Raspail-147_6_§5",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:02:11"
     }
   ]
 }

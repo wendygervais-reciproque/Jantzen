@@ -1,9 +1,4 @@
-<IfModule mod_rewrite.c>
-  RewriteEngine On
-  RewriteBase /
-
-  RewriteCond %{REQUEST_FILENAME} !-f
-  RewriteCond %{REQUEST_FILENAME} !-d
-
-  RewriteRule ^ index.html [L]
-</IfModule>
+AuthUserFile /home/plateforea/jantzen-dev/.htpasswd
+AuthName "Accès protégé"
+AuthType Basic
+Require valid-user

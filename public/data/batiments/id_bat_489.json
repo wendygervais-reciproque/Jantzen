@@ -2,7 +2,12 @@
   "id_bat": 489,
   "libelle": "11 rue Jaucourt",
   "ensemble": null,
-  "personnes": null,
+  "personnes": [
+    {
+      "personneID": 712,
+      "role": "architecte"
+    }
+  ],
   "dateConstruction": "1901",
   "periode": [
     "1895-1914"
@@ -13,6 +18,7 @@
     "voie": "rue Jaucourt"
   },
   "arrondissement": 12,
+  "tri_alphab": "Jaucourt",
   "coordonnees": {
     "latitude": "48.847315",
     "longitude": "2.394844"
@@ -22,8 +28,25 @@
   "WPfr": null,
   "image_ref": "Jaucourt-11_12_1901-A",
   "terme_jantzen_bat": [
-    "dome",
-    "lucarne-d'angle"
+    "lucarne-d'angle",
+    "dome"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mascaron",
+    "oriel",
+    "pierre de taille",
+    "souche de cheminée",
+    "tour",
+    "volet"
   ],
   "photos": [
     {
@@ -31,14 +54,34 @@
       "IndexJantzen": [
         "dome",
         "lucarne-d'angle"
-      ]
+      ],
+      "IndexTorneh": [
+        "dôme",
+        "ardoise",
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "lucarne",
+        "balustrade",
+        "mascaron",
+        "corniche",
+        "souche de cheminée",
+        "pierre de taille",
+        "volet",
+        "fer forgé",
+        "tour",
+        "oriel"
+      ],
+      "dateCapture": "2005:07:15"
     },
     {
       "id_pic": "Jaucourt-11_12_1901-B",
       "IndexJantzen": [
         "dome",
         "lucarne-d'angle"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:07:15"
     }
   ]
 }

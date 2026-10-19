@@ -4,8 +4,16 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 616,
+      "personneID": 415,
       "role": "architecte"
+    },
+    {
+      "personneID": 162,
+      "role": "architecte"
+    },
+    {
+      "personneID": 10126,
+      "role": "sculpteur"
     }
   ],
   "dateConstruction": "1616-1630, 1835",
@@ -15,6 +23,7 @@
   ],
   "adresse": null,
   "arrondissement": 6,
+  "tri_alphab": "Palais-Du-Luxembourg",
   "coordonnees": {
     "latitude": "48.848333333333",
     "longitude": "2.3375"
@@ -24,15 +33,36 @@
   "WPfr": "Palais du Luxembourg",
   "image_ref": "Palais-Du-Luxembourg_6_§1",
   "terme_jantzen_bat": [
-    "porte",
-    "façade",
-    "fronton",
-    "fenetre",
-    "décor",
     "dome",
     "sculpture",
     "cariatide",
-    "colonne"
+    "fenetre",
+    "façade",
+    "porte",
+    "fronton",
+    "colonne",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "arcade",
+    "attique",
+    "balcon",
+    "balustrade",
+    "bossage",
+    "colonne",
+    "corniche",
+    "dôme",
+    "entablement",
+    "fenêtre",
+    "fronton",
+    "grille",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "portail",
+    "porte",
+    "sculpture"
   ],
   "photos": [
     {
@@ -41,7 +71,29 @@
         "dome",
         "façade",
         "porte"
-      ]
+      ],
+      "IndexTorneh": [
+        "dôme",
+        "colonne",
+        "pilastre",
+        "balustrade",
+        "fronton",
+        "corniche",
+        "sculpture",
+        "arc en plein cintre",
+        "fenêtre",
+        "porte",
+        "portail",
+        "balcon",
+        "grille",
+        "bossage",
+        "pierre de taille",
+        "entablement",
+        "oculus",
+        "arcade",
+        "attique"
+      ],
+      "dateCapture": "2006:07:13"
     },
     {
       "id_pic": "Palais-Du-Luxembourg_6_§10",
@@ -50,14 +102,18 @@
         "décor",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:06:11"
     },
     {
       "id_pic": "Palais-Du-Luxembourg_6_§12",
       "IndexJantzen": [
         "dome",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:06:11"
     },
     {
       "id_pic": "Palais-Du-Luxembourg_6_§15",
@@ -65,25 +121,33 @@
         "colonne",
         "décor",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:06:11"
     },
     {
       "id_pic": "Palais-Du-Luxembourg_6_§17",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:06:11"
     },
     {
       "id_pic": "Palais-Du-Luxembourg_6_§18",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2018:10:23"
     },
     {
       "id_pic": "Palais-Du-Luxembourg_6_§19",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:06:11"
     },
     {
       "id_pic": "Palais-Du-Luxembourg_6_§2",
@@ -91,56 +155,74 @@
         "colonne",
         "dome",
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:07:13"
     },
     {
       "id_pic": "Palais-Du-Luxembourg_6_§20",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:08:31"
     },
     {
       "id_pic": "Palais-Du-Luxembourg_6_§21",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2018:10:23"
     },
     {
       "id_pic": "Palais-Du-Luxembourg_6_§22",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:03:19"
     },
     {
       "id_pic": "Palais-Du-Luxembourg_6_§23",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2018:10:23"
     },
     {
       "id_pic": "Palais-Du-Luxembourg_6_§24",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:09:24"
     },
     {
       "id_pic": "Palais-Du-Luxembourg_6_§25",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:09:24"
     },
     {
       "id_pic": "Palais-Du-Luxembourg_6_§26",
       "IndexJantzen": [
         "colonne",
         "façade"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:03:19"
     },
     {
       "id_pic": "Palais-Du-Luxembourg_6_§27",
       "IndexJantzen": [
         "fronton"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2018:10:23"
     },
     {
       "id_pic": "Palais-Du-Luxembourg_6_§28",
@@ -149,20 +231,26 @@
         "colonne",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:03:19"
     },
     {
       "id_pic": "Palais-Du-Luxembourg_6_§29",
       "IndexJantzen": [
         "dome",
         "fronton"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:03:19"
     },
     {
       "id_pic": "Palais-Du-Luxembourg_6_§3",
       "IndexJantzen": [
         "dome"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:06:11"
     },
     {
       "id_pic": "Palais-Du-Luxembourg_6_§30",
@@ -170,7 +258,9 @@
         "cariatide",
         "dome",
         "fronton"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2018:10:23"
     },
     {
       "id_pic": "Palais-Du-Luxembourg_6_§31",
@@ -178,7 +268,9 @@
         "cariatide",
         "dome",
         "fronton"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:03:19"
     },
     {
       "id_pic": "Palais-Du-Luxembourg_6_§32",
@@ -186,13 +278,17 @@
         "cariatide",
         "fronton",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:03:19"
     },
     {
       "id_pic": "Palais-Du-Luxembourg_6_§33",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:03:19"
     },
     {
       "id_pic": "Palais-Du-Luxembourg_6_§34",
@@ -200,71 +296,93 @@
         "cariatide",
         "fronton",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2018:10:23"
     },
     {
       "id_pic": "Palais-Du-Luxembourg_6_§36",
       "IndexJantzen": [
         "fronton",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:03:19"
     },
     {
       "id_pic": "Palais-Du-Luxembourg_6_§37",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:03:19"
     },
     {
       "id_pic": "Palais-Du-Luxembourg_6_§4",
       "IndexJantzen": [
         "dome"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:07:13"
     },
     {
       "id_pic": "Palais-Du-Luxembourg_6_§5",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:06:11"
     },
     {
       "id_pic": "Palais-Du-Luxembourg_6_§5b",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:06:11"
     },
     {
       "id_pic": "Palais-Du-Luxembourg_6_§5c",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2018:10:23"
     },
     {
       "id_pic": "Palais-Du-Luxembourg_6_§5d",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:07:13"
     },
     {
       "id_pic": "Palais-Du-Luxembourg_6_§7",
       "IndexJantzen": [
         "dome",
         "façade"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:07:13"
     },
     {
       "id_pic": "Palais-Du-Luxembourg_6_§8",
       "IndexJantzen": [
         "dome",
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:06:11"
     },
     {
       "id_pic": "Palais-Du-Luxembourg_6_§9_Dx",
       "IndexJantzen": [
         "dome",
         "façade"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2018:10:23"
     }
   ]
 }

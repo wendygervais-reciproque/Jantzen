@@ -4,8 +4,12 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 204,
+      "personneID": 226,
       "role": "architecte"
+    },
+    {
+      "personneID": 10110,
+      "role": "sculpteur"
     }
   ],
   "dateConstruction": "1880",
@@ -18,6 +22,7 @@
     "voie": "rue Bergère"
   },
   "arrondissement": 9,
+  "tri_alphab": "Bergere",
   "coordonnees": {
     "latitude": "48.87232",
     "longitude": "2.346151"
@@ -27,11 +32,36 @@
   "WPfr": null,
   "image_ref": "Bergere-14_9_§1_Dx",
   "terme_jantzen_bat": [
-    "façade",
     "porte-fer",
     "tourelle",
+    "façade",
+    "voie",
+    "colonne"
+  ],
+  "terme_torneh_bat": [
+    "acrotère",
+    "arc",
+    "arc en plein cintre",
+    "baie",
+    "balcon",
+    "balustrade",
+    "bandeau",
     "colonne",
-    "voie"
+    "corniche",
+    "fenêtre",
+    "frise",
+    "fronton",
+    "garde-corps",
+    "grille",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "portail",
+    "sculpture",
+    "toit à deux versants",
+    "tour",
+    "volet",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -39,20 +69,50 @@
       "IndexJantzen": [
         "façade",
         "voie"
-      ]
+      ],
+      "IndexTorneh": [
+        "fronton",
+        "sculpture",
+        "arc en plein cintre",
+        "arc",
+        "colonne",
+        "pilastre",
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "oculus",
+        "corniche",
+        "frise",
+        "toit à deux versants",
+        "tour",
+        "épi de faîtage",
+        "pierre de taille",
+        "grille",
+        "portail",
+        "baie",
+        "volet",
+        "bandeau",
+        "acrotère",
+        "balustrade"
+      ],
+      "dateCapture": "2004:05:15"
     },
     {
       "id_pic": "Bergere-14_9_§2",
       "IndexJantzen": [
         "tourelle"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:05:15"
     },
     {
       "id_pic": "Bergere-14_9_§3",
       "IndexJantzen": [
         "colonne",
         "porte-fer"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:05:15"
     }
   ]
 }

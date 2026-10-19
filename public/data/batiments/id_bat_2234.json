@@ -13,6 +13,7 @@
     "voie": "rue Saint-Honoré"
   },
   "arrondissement": 1,
+  "tri_alphab": "St-Honore",
   "coordonnees": {
     "latitude": "48.86535",
     "longitude": "2.331258"
@@ -22,87 +23,142 @@
   "WPfr": null,
   "image_ref": "St-Honore-320_1_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "façade",
     "clé",
-    "garde-corps"
+    "garde-corps",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "frise",
+    "garde-corps",
+    "pierre de taille",
+    "porte-fenêtre",
+    "toit-terrasse",
+    "travée"
   ],
   "photos": [
     {
       "id_pic": "St-Honore-320_1_§1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "arc",
+        "arc en plein cintre",
+        "corniche",
+        "bandeau",
+        "pierre de taille",
+        "frise",
+        "toit-terrasse",
+        "porte-fenêtre",
+        "travée",
+        "fer forgé"
+      ],
+      "dateCapture": "2009:07:16"
     },
     {
       "id_pic": "St-Honore-320_1_§10",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:04:21"
     },
     {
       "id_pic": "St-Honore-320_1_§12",
       "IndexJantzen": [
         "clé",
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:08:10"
     },
     {
       "id_pic": "St-Honore-320_1_§13",
       "IndexJantzen": [
         "clé",
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:09:11"
     },
     {
       "id_pic": "St-Honore-320_1_§14",
       "IndexJantzen": [
         "fenetre",
         "garde-corps"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:09:11"
     },
     {
       "id_pic": "St-Honore-320_1_§2",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2009:07:16"
     },
     {
       "id_pic": "St-Honore-320_1_§4-Rx",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2011:08:20"
     },
     {
       "id_pic": "St-Honore-320_1_§5",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2009:07:16"
     },
     {
       "id_pic": "St-Honore-320_1_§6",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2009:07:16"
     },
     {
       "id_pic": "St-Honore-320_1_§7",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2009:07:16"
     },
     {
       "id_pic": "St-Honore-320_1_§8",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:08:10"
     },
     {
       "id_pic": "St-Honore-320_1_§9",
       "IndexJantzen": [
         "fenetre",
         "garde-corps"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2009:07:16"
     }
   ]
 }

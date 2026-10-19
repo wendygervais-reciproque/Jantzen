@@ -13,6 +13,7 @@
     "voie": "rue du Cygne"
   },
   "arrondissement": 1,
+  "tri_alphab": "Cygne",
   "coordonnees": {
     "latitude": "48.863364",
     "longitude": "2.348365"
@@ -22,8 +23,23 @@
   "WPfr": null,
   "image_ref": "Cygne-17_1_§1",
   "terme_jantzen_bat": [
+    "garde-corps",
+    "balcon"
+  ],
+  "terme_torneh_bat": [
     "balcon",
-    "garde-corps"
+    "balustrade",
+    "bandeau",
+    "brique",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "modillon",
+    "pierre de taille",
+    "pilastre",
+    "porte-fenêtre",
+    "travée"
   ],
   "photos": [
     {
@@ -31,13 +47,31 @@
       "IndexJantzen": [
         "balcon",
         "garde-corps"
-      ]
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "porte-fenêtre",
+        "fenêtre",
+        "pilastre",
+        "bandeau",
+        "brique",
+        "pierre de taille",
+        "travée",
+        "mascaron",
+        "modillon"
+      ],
+      "dateCapture": "2004:09:01"
     },
     {
       "id_pic": "Cygne-17_1_§2",
       "IndexJantzen": [
         "balcon"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:09:01"
     }
   ]
 }

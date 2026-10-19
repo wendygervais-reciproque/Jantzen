@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 276,
+      "personneID": 401,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue Saint-Placide"
   },
   "arrondissement": 6,
+  "tri_alphab": "St-Placide",
   "coordonnees": {
     "latitude": "48.848543",
     "longitude": "2.325564"
@@ -27,10 +28,26 @@
   "WPfr": null,
   "image_ref": "St-Placide-34_6_§1",
   "terme_jantzen_bat": [
-    "sculpture",
     "console",
+    "sculpture",
+    "garde-corps",
+    "balcon"
+  ],
+  "terme_torneh_bat": [
     "balcon",
-    "garde-corps"
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "modillon",
+    "pierre de taille",
+    "porte-fenêtre",
+    "sculpture",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -38,14 +55,33 @@
       "IndexJantzen": [
         "balcon",
         "garde-corps"
-      ]
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "volet",
+        "balustrade",
+        "fer forgé",
+        "bandeau",
+        "corniche",
+        "modillon",
+        "mascaron",
+        "pierre de taille",
+        "travée",
+        "porte-fenêtre",
+        "sculpture"
+      ],
+      "dateCapture": "2005:04:17"
     },
     {
       "id_pic": "St-Placide-34_6_§2",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:04:17"
     }
   ]
 }

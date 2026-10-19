@@ -4,8 +4,16 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 603,
+      "personneID": 520,
       "role": "architecte"
+    },
+    {
+      "personneID": 794,
+      "role": "architecte"
+    },
+    {
+      "personneID": 10065,
+      "role": "sculpteur"
     }
   ],
   "dateConstruction": "1883",
@@ -18,6 +26,7 @@
     "voie": "quai Voltaire"
   },
   "arrondissement": 7,
+  "tri_alphab": "Voltaire-qu",
   "coordonnees": {
     "latitude": "48.858754",
     "longitude": "2.331345"
@@ -27,15 +36,39 @@
   "WPfr": null,
   "image_ref": "Voltaire-qu-55_7_§1",
   "terme_jantzen_bat": [
-    "lucarne",
-    "façade-d'angle",
-    "décor",
     "dome",
-    "fenetre-d'angle",
-    "sculpture",
+    "façade-d'angle",
     "balcon",
+    "sculpture",
+    "fenetre-d'angle",
     "cariatide",
-    "colonne"
+    "lucarne",
+    "colonne",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "atlante",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "cariatide",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "sculpture",
+    "souche de cheminée",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -43,50 +76,89 @@
       "IndexJantzen": [
         "dome",
         "façade-d'angle"
-      ]
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "lucarne",
+        "mansarde",
+        "cariatide",
+        "atlante",
+        "balustrade",
+        "corniche",
+        "bandeau",
+        "pilastre",
+        "fronton",
+        "volet",
+        "souche de cheminée",
+        "dôme",
+        "oculus",
+        "sculpture",
+        "mascaron",
+        "ardoise",
+        "pierre de taille",
+        "travée",
+        "fer forgé"
+      ],
+      "dateCapture": "2005:05:09"
     },
     {
       "id_pic": "Voltaire-qu-55_7_§10",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:07:03"
     },
     {
       "id_pic": "Voltaire-qu-55_7_§11",
       "IndexJantzen": [
         "balcon",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:07:03"
     },
     {
       "id_pic": "Voltaire-qu-55_7_§12",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:07:03"
     },
     {
       "id_pic": "Voltaire-qu-55_7_§13",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:06:23"
     },
     {
       "id_pic": "Voltaire-qu-55_7_§14",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:07:03"
     },
     {
       "id_pic": "Voltaire-qu-55_7_§16",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:05:09"
     },
     {
       "id_pic": "Voltaire-qu-55_7_§19",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:06:23"
     },
     {
       "id_pic": "Voltaire-qu-55_7_§2",
@@ -95,7 +167,9 @@
         "décor",
         "fenetre-d'angle",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:05:09"
     },
     {
       "id_pic": "Voltaire-qu-55_7_§20",
@@ -103,7 +177,9 @@
         "cariatide",
         "fenetre-d'angle",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:06:23"
     },
     {
       "id_pic": "Voltaire-qu-55_7_§21",
@@ -111,7 +187,9 @@
         "cariatide",
         "fenetre-d'angle",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:05:09"
     },
     {
       "id_pic": "Voltaire-qu-55_7_§22",
@@ -119,28 +197,36 @@
         "cariatide",
         "fenetre-d'angle",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:07:03"
     },
     {
       "id_pic": "Voltaire-qu-55_7_§24",
       "IndexJantzen": [
         "cariatide",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:07:03"
     },
     {
       "id_pic": "Voltaire-qu-55_7_§25",
       "IndexJantzen": [
         "cariatide",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:07:03"
     },
     {
       "id_pic": "Voltaire-qu-55_7_§26",
       "IndexJantzen": [
         "cariatide",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:06:23"
     },
     {
       "id_pic": "Voltaire-qu-55_7_§3",
@@ -149,7 +235,9 @@
         "décor",
         "fenetre-d'angle",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:06:23"
     },
     {
       "id_pic": "Voltaire-qu-55_7_§4",
@@ -158,7 +246,9 @@
         "décor",
         "fenetre-d'angle",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:05:09"
     },
     {
       "id_pic": "Voltaire-qu-55_7_§5",
@@ -168,7 +258,9 @@
         "fenetre-d'angle",
         "lucarne",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:06:23"
     },
     {
       "id_pic": "Voltaire-qu-55_7_§6",
@@ -178,7 +270,9 @@
         "fenetre-d'angle",
         "lucarne",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:05:09"
     },
     {
       "id_pic": "Voltaire-qu-55_7_§7",
@@ -188,7 +282,9 @@
         "fenetre-d'angle",
         "lucarne",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:05:09"
     },
     {
       "id_pic": "Voltaire-qu-55_7_§8",
@@ -196,7 +292,9 @@
         "balcon",
         "fenetre-d'angle",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:07:03"
     },
     {
       "id_pic": "Voltaire-qu-55_7_§9",
@@ -205,7 +303,9 @@
         "colonne",
         "fenetre-d'angle",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:06:17"
     }
   ]
 }

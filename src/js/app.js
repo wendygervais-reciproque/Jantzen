@@ -1,15 +1,18 @@
-/**
- * app.js — Point d'entrée : initialisation asynchrone et câblage de l'interface.
- */
+/** app.js — Point d'entrée : initialisation asynchrone et câblage de l'interface. */
 
 let searchQuery = '';
 
 document.addEventListener('DOMContentLoaded', async () => {
 
+  document.addEventListener('contextmenu', e => {
+    if (e.target.tagName === 'IMG' || e.target.closest('img, .md-photo, #lightbox')) {
+      e.preventDefault();
+    }
+  });
+  
   // ── Chargement des données ──────────────────────────────────────────────
   try {
     await loadData();
-    // buildArchitectesFilter est déjà exécuté à la fin de loadData() dans data.js
   } catch (err) {
     console.error('Erreur de chargement des données :', err);
     const countEl = document.getElementById('search-results-count');
@@ -24,7 +27,6 @@ document.addEventListener('DOMContentLoaded', async () => {
   buildThesaurusFilter();
   buildPeriodesFilter(PERIODES_FILTRE_DATA);
   
-  // S'assurer que les architectes sont affichés avec les données filtrées initiales
   renderArchitectesList('');
 
   renderCurrentView(ALL_FEATURES);
@@ -33,6 +35,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   bindNavigation();
   bindViewToggle();
   bindFiltersPanel();
+  bindFiltersFab();
   bindLightbox();
   bindMosaicDetail();
   bindKeyboard();
@@ -42,6 +45,9 @@ document.addEventListener('DOMContentLoaded', async () => {
   window.addEventListener('popstate',   onHistoryNav);
   window.addEventListener('hashchange', onHistoryNav);
 });
+
+
+
 
 /* ─── RECHERCHE ─────────────────────────────────────────────────────────── */
 function bindSearch() {
@@ -79,7 +85,7 @@ function resetOtherFiltersUI() {
     chip.setAttribute('aria-pressed', 'false');
   });
 
-  // 2. periode
+  // 2. Périodes
   activeFilters.periodes.clear();
   if (typeof renderPeriodesList === 'function') renderPeriodesList();
 
@@ -94,13 +100,32 @@ function resetOtherFiltersUI() {
   renderArchitectesList(archiSearchVal);
 }
 
-/* ─── NAVIGATION (marque, à propos, pages) ──────────────────────────────── */
+/* ─── MODALES : isolation du fond ────────────────────────────────────────
+   Tant que la visionneuse est ouverte, #app est inerte. */
+function setBackgroundInert(isInert) {
+  const app = document.getElementById('app');
+  if (!app) return;
+  app.toggleAttribute('inert', isInert);
+  app.setAttribute('aria-hidden', String(isInert));
+}
 
+/* Variante pour les modales mobiles (filtres, fiche bâtiment), qui vivent à
+   l'intérieur de #app. */
+function setAppSiblingsInert(exceptEl, isInert) {
+  const app = document.getElementById('app');
+  if (!app) return;
+  Array.from(app.children).forEach(child => {
+    if (child === exceptEl) return;
+    child.toggleAttribute('inert', isInert);
+    child.setAttribute('aria-hidden', String(isInert));
+  });
+}
+
+/* ─── NAVIGATION (marque) ───────────────────────────────────────────────── */
 function bindNavigation() {
   document.getElementById('brand-home')?.addEventListener('click', e => {
     e.preventDefault();
-    closePage();          // le logotype ramène au fond (carte ou mosaïque)
-    serachQuery = '';
+    searchQuery = '';
     const input = document.getElementById('search-input');
     if(input) input.value = '';
     const clear = document.getElementById('search-clear');
@@ -113,27 +138,9 @@ function bindNavigation() {
     deselectBatiment();
     applyFilters();
   });
-
-  document.getElementById('brand-about')?.addEventListener('click', e => {
-    e.preventDefault();
-    showAbout();
-  });
-
-  document.getElementById('link-credits')?.addEventListener('click', e => {
-    e.preventDefault();
-    showPage('credits');
-  });
-
-  document.getElementById('link-cgu')?.addEventListener('click', e => {
-    e.preventDefault();
-    showPage('cgu');
-  });
-
-  document.getElementById('page-overlay-close')?.addEventListener('click', closePage);
 }
 
-/* ─── BASCULE CARTE / MOSAÏQUE ──────────────────────────────────────────── */
-
+/* ─── BASCULE CARTE / LISTE ──────────────────────────────────────────── */
 function bindViewToggle() {
   document.querySelectorAll('.view-btn').forEach(btn => {
     btn.addEventListener('click', () => setView(btn.dataset.view));
@@ -141,25 +148,63 @@ function bindViewToggle() {
 }
 
 /* ─── PANNEAU DE FILTRES ────────────────────────────────────────────────── */
-
 function bindFiltersPanel() {
   const panel  = document.getElementById('filters-panel');
   const toggle = document.getElementById('filters-toggle');
+  if (typeof initStickyFilterHeaders === 'function') initStickyFilterHeaders();
   if (!panel || !toggle) return;
 
   toggle.addEventListener('click', () => {
-    // Rétractation en largeur ET en hauteur (voir .is-collapsed en CSS) : ne
-    // restent que le titre et l'icône. La classe sur #app laisse la grille
-    // mosaïque récupérer l'espace libéré.
     const collapsed = panel.classList.toggle('is-collapsed');
     document.getElementById('app')?.classList.toggle('filters-collapsed', collapsed);
-    toggle.textContent = collapsed ? '+' : '−';
+    toggle.querySelector('use')?.setAttribute('href', collapsed ? '#i-plus' : '#i-minus');
     toggle.setAttribute('aria-expanded', String(!collapsed));
   });
 }
 
-/* ─── VISIONNEUSE PLEIN ÉCRAN ────────────────────────────────────────────── */
+/* ─── FILTRES EN MODALE (mobile/tablette, inf 900px) ───────────────────────── */
+function bindFiltersFab() {
+  document.getElementById('filters-fab')?.addEventListener('click', openFiltersMobile);
+  document.getElementById('filters-close')?.addEventListener('click', closeFiltersMobile);
+  document.getElementById('filters-footer-back')?.addEventListener('click', closeFiltersMobile);
+}
 
+function openFiltersMobile() {
+  const panel = document.getElementById('filters-panel');
+  const fab   = document.getElementById('filters-fab');
+  if (!panel) return;
+  panel.classList.remove('filters-mobile-closing');
+  panel.classList.add('filters-mobile-open');
+  panel.setAttribute('role', 'dialog');
+  panel.setAttribute('aria-modal', 'true');
+  fab?.classList.add('is-active');
+  fab?.setAttribute('aria-expanded', 'true');
+  setAppSiblingsInert(panel, true);
+  document.getElementById('filters-close')?.focus();
+}
+
+function closeFiltersMobile() {
+  const panel = document.getElementById('filters-panel');
+  const fab   = document.getElementById('filters-fab');
+  if (!panel?.classList.contains('filters-mobile-open')) return;
+  panel.classList.remove('filters-mobile-open');
+  panel.setAttribute('role', 'region');
+  panel.removeAttribute('aria-modal');
+  fab?.classList.remove('is-active');
+  fab?.setAttribute('aria-expanded', 'false');
+  setAppSiblingsInert(panel, false);
+  fab?.focus();
+  panel.classList.add('filters-mobile-closing');
+  const clear = () => panel.classList.remove('filters-mobile-closing');
+  panel.addEventListener('animationend', clear, { once: true });
+  setTimeout(clear, 300);
+}
+
+function isFiltersMobileOpen() {
+  return !!document.getElementById('filters-panel')?.classList.contains('filters-mobile-open');
+}
+
+/* ─── VISIONNEUSE PLEIN ÉCRAN ────────────────────────────────────────────── */
 function bindLightbox() {
   document.getElementById('lightbox-close')?.addEventListener('click', closeLightbox);
   document.getElementById('lightbox-prev')?.addEventListener('click', () => stepPhoto(-1));
@@ -169,20 +214,22 @@ function bindLightbox() {
   });
 }
 
-/* ─── CLAVIER ───────────────────────────────────────────────────────────── */
-
+/* ─── NAVIGATION CLAVIER ────────────────────────────────────────────────── */
 function bindKeyboard() {
   document.addEventListener('keydown', e => {
     if (e.key === 'Escape') {
       if (isLightboxOpen())                                     return closeLightbox();
-      if (!document.getElementById('md-elem-select-menu')?.hidden) return closeMdElementMenu();
+      if (mdPhotoFilter.size)                                   return clearMdElementFilter();
       if (document.querySelector('.thes-def'))                  return closeAllTermDefinitions();
-      if (isPageOpen())                        return closePage();
+      if (isFiltersMobileOpen())               return closeFiltersMobile();
       if (selectedId !== null)                 return deselectBatiment();
+      if (typeof map !== 'undefined' && map?.getContainer().contains(document.activeElement)) {
+        return document.getElementById('search-input')?.focus();
+      }
       return;
     }
 
-    // Flèches : navigation dans les photos de la visionneuse, sauf pendant une saisie.
+    // Flèches : navigation dans les photos de la visionneuse, sauf pendant une saisie
     const typing = ['INPUT', 'TEXTAREA'].includes(document.activeElement?.tagName);
     if (typing || !isLightboxOpen()) return;
 
@@ -193,14 +240,32 @@ function bindKeyboard() {
 
 /* ─── APPLICATION DES FILTRES ───────────────────────────────────────────── */
 
-/* --- Dans la fonction applyFilters() de app.js --- */
+function withFocusPreserved(fn) {
+  const active    = document.activeElement;
+  const chip      = active?.closest?.('.chip, #filter-reset-btn, .filter-active-tag-remove');
+  const container = chip?.closest?.('#thesaurus-groups, #archi-chips-container, #date-chips-container, #filters-active-bar');
+  const key       = chip?.dataset?.id;
+  const containerId = container?.id;
+
+  fn();
+
+  if (!chip || document.body.contains(chip)) return;   // rien détruit : pas d'intervention
+
+  if (key != null && containerId) {
+    const replacement = [...document.getElementById(containerId).querySelectorAll('.chip')]
+      .find(c => c.dataset.id === key);
+    if (replacement) { replacement.focus(); return; }
+  }
+  document.querySelector('.filter-section-header')?.focus();
+}
+
 function applyFilters() {
   let filteredFeatures = ALL_FEATURES;
 
   const isSearchActive     = searchQuery.length >= 2;
   const isThesaurusActive  = activeFilters.thesaurus.size > 0;
   const isArchitectesActive = activeFilters.architectes.size > 0;
-  const isPeriodesActive   = activeFilters.periodes.size > 0; // NOUVEAU
+  const isPeriodesActive   = activeFilters.periodes.size > 0;
 
   // 1. Recherche textuelle (Lunr)
   if (searchQuery.length >= 2) {
@@ -221,14 +286,12 @@ function applyFilters() {
   // 3. Filtre des périodes à facettes (Filtre en OU)
   if (activeFilters.periodes.size > 0) {
 
-    console.log('coucou');
     const selectedPeriodes = Array.from(activeFilters.periodes);
 
     filteredFeatures = filteredFeatures.filter(f => {
       const raw = f.properties.periode;
       const batPeriodes = Array.isArray(raw) ? raw : (raw ? [raw] : []);
       
-      // Filtre OU : au moins une des périodes sélectionnées doit correspondre
       return selectedPeriodes.some(p => batPeriodes.includes(p));
     });
   }
@@ -237,73 +300,62 @@ function applyFilters() {
   if (activeFilters.thesaurus.size > 0) {
     const selectedTerms = Array.from(activeFilters.thesaurus).map(t => normalizeText(t));
     filteredFeatures = filteredFeatures.filter(f => {
-      const rawTerms = f.properties.terme_jantzen_bat;
-      const batTermsArray = Array.isArray(rawTerms) ? rawTerms : [];
-      const batTermsNormalized = batTermsArray.map(t => normalizeText(t));
-      return selectedTerms.every(term => batTermsNormalized.includes(term));
+      const batTerms = buildingTermKeys(f.properties);   // Jantzen ∪ Torne-H
+      return selectedTerms.every(term => batTerms.has(term));
     });
   }
 
-  // Mettre à jour les données des architectes
   updateArchitectesData(filteredFeatures);
 
   // 5. Filtre Architectes 
   if (activeFilters.architectes.size > 0) {
     const selectedArchiIds = Array.from(activeFilters.architectes).map(id => Number(id));
     filteredFeatures = filteredFeatures.filter(f => {
-      const personnes = f.properties.personnes || [];
-      let batArchiIds = personnes
-        .map(p => Number(p.personneID ?? p.id_archi ?? p.id))
+      const raw = f.properties.personneID;
+      const arr = Array.isArray(raw) ? raw : (raw != null ? [raw] : []);
+      const batArchiIds = arr
+        .map(item => Number(typeof item === 'object' && item !== null ? item.personneID : item))
         .filter(id => !isNaN(id));
 
-      if (batArchiIds.length === 0 && f.properties.personneID != null) {
-        const raw = f.properties.personneID;
-        batArchiIds = (Array.isArray(raw) ? raw : [raw]).map(Number);
-      }
-      return selectedArchiIds.some(selectedId => batArchiIds.includes(selectedId));
+      return selectedArchiIds.every(selectedId => batArchiIds.includes(selectedId));
     });
   }
 
   // Mise à jour des données et rendu UI des facettes
   updateArrondissementsData(filteredFeatures);
   updateThesaurusData(filteredFeatures);
-  updatePeriodesData(filteredFeatures); // NOUVEAU
-  
-  renderPeriodesList(); // NOUVEAU
+  updatePeriodesData(filteredFeatures);
 
-  const thesSearchVal = document.getElementById('thesaurus-search')?.value || '';
-  renderThesaurusGroups(thesSearchVal);
+  // Rendus regroupés : le focus n'est capturé/restauré qu'une fois
+  // (cf. withFocusPreserved).
+  withFocusPreserved(() => {
+    renderPeriodesList(); 
 
-  const archiSearchVal = document.getElementById('archi-search')?.value || '';
-  renderArchitectesList(archiSearchVal);
+    const thesSearchVal = document.getElementById('thesaurus-search')?.value || '';
+    renderThesaurusGroups(thesSearchVal);
 
-  // Le bâtiment ouvert n'a plus sa place dans les nouveaux résultats : on
-  // referme sa fiche plutôt que de la laisser affichée hors filtre.
+    const archiSearchVal = document.getElementById('archi-search')?.value || '';
+    renderArchitectesList(archiSearchVal);
+
+    renderActiveTags();
+  });
+
   if (selectedId !== null && !filteredFeatures.some(f => String(f.properties.id_bat) === String(selectedId))) {
     deselectBatiment();
   }
 
-  // Rendu final
   renderCurrentView(filteredFeatures);
-  renderActiveTags();
 
   if (typeof writeStateToHash === 'function') writeStateToHash('replace');
 }
 
 /* ─── ÉTAT PARTAGÉ DANS LE HASH D'URL ───────────────────────────────────────
- *
- * L'état complet de l'app — vue, filtres, recherche, bâtiment ouvert — vit dans
+ * L'état complet de l'app (vue, filtres, recherche, bâtiment ouvert) vit dans
  * le hash : #v=mosaic&arr=7,16&an=1900-1914&th=facade,garde-corps&q=leroux&bat=1663
- *
- * Le hash n'étant jamais envoyé au serveur, recharger n'importe quelle URL
- * demande toujours « / » (qui existe) : plus de 404 ni de page d'erreur, sur
- * n'importe quel serveur statique. Les deux vues lisent le même état, donc la
- * bascule carte↔mosaïque conserve filtres et sélection ; un lien reproduit
- * l'état exact.
  */
 
-let applyingState   = false;   // vrai pendant l'application : on n'écrit pas ce qu'on lit
-let lastWrittenHash = null;    // dernier hash posé par nous (garde anti-double-application)
+let applyingState   = false;  
+let lastWrittenHash = null;
 
 function currentAppState() {
   return {
@@ -350,13 +402,13 @@ function parseHash(hash) {
   return s;
 }
 
-/* Slugs lisibles pour le thésaurus : « façade » → « facade », « garde-corps » →
-   « garde-corps ». Réversibles par rapprochement avec les termes réels du corpus. */
+/* Termes du thésaurus lisibles dans l'URL (« façade » -> « facade »), réversibles
+   par rapprochement avec les termes réels du corpus. */
 function termSlug(term) {
   return String(term || '')
     .normalize('NFD').replace(/[̀-ͯ]/g, '')   // sans accents
     .toLowerCase()
-    .replace(/[^a-z0-9]+/g, '-')                         // séparateurs → tiret
+    .replace(/[^a-z0-9]+/g, '-') // séparateurs -> tiret
     .replace(/^-+|-+$/g, '');
 }
 
@@ -372,19 +424,16 @@ function slugToTerm(slug) {
   return _slugToTerm.get(termSlug(slug)) || null;
 }
 
-/** Écrit l'état courant dans l'URL. `push` empile une entrée d'historique
- *  (sélection, bascule de vue) ; `replace` non (churn des filtres/recherche). */
 function writeStateToHash(mode = 'replace') {
   if (applyingState) return;
   const hash = serializeState(currentAppState());
   if (hash === (location.hash || '')) { lastWrittenHash = location.hash; return; }
   lastWrittenHash = hash;
-  const url = hash || (location.pathname + location.search);   // hash vide → URL propre
+  const url = hash || (location.pathname + location.search); 
   if (mode === 'push') history.pushState(null, '', url);
   else                 history.replaceState(null, '', url);
 }
 
-/** Applique l'état décrit par le hash courant (chargement, Précédent/Suivant). */
 function applyStateFromHash() {
   applyingState = true;
   try {
@@ -402,9 +451,6 @@ function applyStateFromHash() {
     activeFilters.thesaurus       = new Set(s.thes);
     activeFilters.periodes        = new Set(s.periodes);
 
-    // Le hash prend le dessus sur /personne/N s'il contient explicitement
-    // une clé "archi" ; sinon on garde ce que applyArchitecteFilterFromPath()
-    // a déjà positionné avant cet appel.
     if (s.archi.length > 0 || location.hash.includes('archi=')) {
       activeFilters.architectes = new Set(s.archi);
     }
@@ -424,14 +470,41 @@ function applyStateFromHash() {
   }
   lastWrittenHash = location.hash;
 }
-/** Précédent/Suivant : on ré-applique, sauf si le hash est déjà le nôtre. */
 function onHistoryNav() {
   if (location.hash === lastWrittenHash) return;
   applyStateFromHash();
 }
 
+let hasFittedInitialView = false;
+
 function fitMapToResults() {
-  if (!map || !currentFeatures || currentFeatures.length === 0) return;
+  if (!map) return;
+
+  const isDesktop = window.innerWidth > 900;
+  const paddingRight = isDesktop ? 60 : 20;
+
+  // Zoom maximal plus élevé sur ordinateur
+  const zoomOptions = {
+    paddingTopLeft: [40, 40],
+    paddingBottomRight: [paddingRight, 40],
+    maxZoom: isDesktop ? 14.5 : 12.5
+  };
+
+  // 1. Vue globale / arrondissements (ou aucun résultat)
+  if (!currentFeatures || currentFeatures.length === 0 || !hasFittedInitialView) {
+    hasFittedInitialView = true;
+    
+    const arrBounds = (typeof ARR_POLYGONS !== 'undefined' && ARR_POLYGONS)
+      ? L.geoJSON(ARR_POLYGONS).getBounds()
+      : null;
+
+    if (arrBounds && arrBounds.isValid()) {
+      map.fitBounds(arrBounds, zoomOptions);
+    }
+    return;
+  }
+
+  // 2. Vue filtrée
   const tempLayer = L.geoJSON({
     type: 'FeatureCollection',
     features: currentFeatures
@@ -440,12 +513,8 @@ function fitMapToResults() {
   });
 
   const bounds = tempLayer.getBounds();
-  
+
   if (bounds.isValid()) {
-    map.fitBounds(bounds, {
-      padding: [40, 40], // Marge en pixels autour des éléments
-      maxZoom: 16        // Limite le zoom pour éviter d'être trop près s'il n'y a qu'un seul bâtiment
-    });
+    map.fitBounds(bounds, zoomOptions);
   }
 }
-

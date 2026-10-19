@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 365,
+      "personneID": 144,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue Jean-Goujon"
   },
   "arrondissement": 8,
+  "tri_alphab": "Jean-Goujon",
   "coordonnees": {
     "latitude": "48.866738",
     "longitude": "2.309576"
@@ -27,19 +28,62 @@
   "WPfr": null,
   "image_ref": "Jean-Goujon-4_8_§1",
   "terme_jantzen_bat": [
-    "façade",
-    "fenetre",
-    "décor",
-    "sculpture",
     "atlante",
-    "colonne"
+    "sculpture",
+    "fenetre",
+    "façade",
+    "colonne",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "cariatide",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "porte-fenêtre",
+    "sculpture",
+    "souche de cheminée",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Jean-Goujon-4_8_§1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "volet",
+        "pilastre",
+        "cariatide",
+        "corniche",
+        "bandeau",
+        "sculpture",
+        "mascaron",
+        "fer forgé",
+        "porte",
+        "porte-fenêtre",
+        "arc en plein cintre",
+        "travée",
+        "pierre de taille",
+        "souche de cheminée",
+        "oculus"
+      ],
+      "dateCapture": "2005:08:04"
     },
     {
       "id_pic": "Jean-Goujon-4_8_§2",
@@ -47,7 +91,9 @@
         "décor",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:10:21"
     },
     {
       "id_pic": "Jean-Goujon-4_8_§3",
@@ -55,7 +101,9 @@
         "colonne",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:08:04"
     },
     {
       "id_pic": "Jean-Goujon-4_8_§4",
@@ -63,7 +111,9 @@
         "atlante",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:08:04"
     }
   ]
 }

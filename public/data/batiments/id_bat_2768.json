@@ -4,8 +4,12 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 211,
+      "personneID": 280,
       "role": "architecte"
+    },
+    {
+      "personneID": 10010,
+      "role": "sculpteur"
     }
   ],
   "dateConstruction": "1912",
@@ -18,6 +22,7 @@
     "voie": "rue de Tolbiac"
   },
   "arrondissement": 13,
+  "tri_alphab": "Tolbiac",
   "coordonnees": {
     "latitude": "48.827659",
     "longitude": "2.370494"
@@ -27,8 +32,29 @@
   "WPfr": null,
   "image_ref": "Tolbiac-48_13_§1",
   "terme_jantzen_bat": [
-    "dome",
-    "lucarne-d'angle"
+    "lucarne-d'angle",
+    "dome"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "frise",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "oculus",
+    "pilastre",
+    "sculpture",
+    "toit-terrasse",
+    "volet",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -36,7 +62,29 @@
       "IndexJantzen": [
         "dome",
         "lucarne-d'angle"
-      ]
+      ],
+      "IndexTorneh": [
+        "mansarde",
+        "lucarne",
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "volet",
+        "ardoise",
+        "corniche",
+        "bandeau",
+        "pilastre",
+        "sculpture",
+        "arc en plein cintre",
+        "épi de faîtage",
+        "toit-terrasse",
+        "oculus",
+        "garde-corps",
+        "fer forgé",
+        "frise",
+        "chaîne d'angle"
+      ],
+      "dateCapture": "2004:03:29"
     }
   ]
 }

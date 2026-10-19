@@ -2,7 +2,12 @@
   "id_bat": 1311,
   "libelle": "18 rue du Simplon",
   "ensemble": null,
-  "personnes": null,
+  "personnes": [
+    {
+      "personneID": 372,
+      "role": "architecte"
+    }
+  ],
   "dateConstruction": "1883",
   "periode": [
     "1870-1894"
@@ -13,6 +18,7 @@
     "voie": "rue du Simplon"
   },
   "arrondissement": 18,
+  "tri_alphab": "Simplon",
   "coordonnees": {
     "latitude": "48.893745",
     "longitude": "2.35073"
@@ -22,23 +28,52 @@
   "WPfr": null,
   "image_ref": "Simplon-18_18_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "façade",
-    "décor",
-    "sculpture"
+    "sculpture",
+    "fenetre",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "pierre de taille",
+    "toit-terrasse",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Simplon-18_18_§1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "mansarde",
+        "lucarne",
+        "corniche",
+        "bandeau",
+        "pierre de taille",
+        "travée",
+        "volet",
+        "toit-terrasse"
+      ],
+      "dateCapture": "2004:06:14"
     },
     {
       "id_pic": "Simplon-18_18_§2",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:06:14"
     },
     {
       "id_pic": "Simplon-18_18_§3",
@@ -46,7 +81,9 @@
         "décor",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:06:14"
     }
   ]
 }

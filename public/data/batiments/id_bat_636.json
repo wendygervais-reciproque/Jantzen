@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 374,
+      "personneID": 496,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue de Bretagne"
   },
   "arrondissement": 3,
+  "tri_alphab": "Bretagne",
   "coordonnees": {
     "latitude": "48.862636",
     "longitude": "2.363271"
@@ -27,7 +28,20 @@
   "WPfr": null,
   "image_ref": "Bretagne-12_3_§1",
   "terme_jantzen_bat": [
-    "console",
+    "sculpture",
+    "console"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "pierre de taille",
+    "porte-fenêtre",
     "sculpture"
   ],
   "photos": [
@@ -35,21 +49,39 @@
       "id_pic": "Bretagne-12_3_§1",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [
+        "arc en plein cintre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "pierre de taille",
+        "sculpture",
+        "fer forgé",
+        "porte-fenêtre",
+        "mascaron",
+        "corniche",
+        "fenêtre"
+      ],
+      "dateCapture": "2005:07:03"
     },
     {
       "id_pic": "Bretagne-12_3_§2",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:08:28"
     },
     {
       "id_pic": "Bretagne-12_3_§3",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:08:28"
     }
   ]
 }

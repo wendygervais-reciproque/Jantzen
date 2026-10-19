@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 318,
+      "personneID": 454,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "boulevard Exelmans"
   },
   "arrondissement": 16,
+  "tri_alphab": "Exelmans",
   "coordonnees": {
     "latitude": "48.84151",
     "longitude": "2.263015"
@@ -27,27 +28,60 @@
   "WPfr": null,
   "image_ref": "Exelmans-39_16_§1",
   "terme_jantzen_bat": [
-    "porte",
     "façade",
-    "verrière"
+    "verrière",
+    "porte"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "baie",
+    "brique",
+    "chéneau",
+    "corniche",
+    "fenêtre",
+    "grille",
+    "pierre de taille",
+    "porte",
+    "porte-fenêtre",
+    "sculpture",
+    "soupirail"
   ],
   "photos": [
     {
       "id_pic": "Exelmans-39_16_§1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [
+        "brique",
+        "pierre de taille",
+        "porte",
+        "fenêtre",
+        "baie",
+        "corniche",
+        "sculpture",
+        "grille",
+        "arc en plein cintre",
+        "chéneau",
+        "soupirail",
+        "porte-fenêtre"
+      ],
+      "dateCapture": "2007:04:21"
     },
     {
       "id_pic": "Exelmans-39_16_§2",
       "IndexJantzen": [
         "porte",
         "verrière"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:04:21"
     },
     {
       "id_pic": "Exelmans-39_16_§3",
-      "IndexJantzen": []
+      "IndexJantzen": [],
+      "IndexTorneh": [],
+      "dateCapture": "2007:04:21"
     }
   ]
 }

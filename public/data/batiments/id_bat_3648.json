@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 102,
+      "personneID": 164,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue Louis-Morard"
   },
   "arrondissement": 14,
+  "tri_alphab": "Louis-Morard",
   "coordonnees": {
     "latitude": "48.828556",
     "longitude": "2.321189"
@@ -27,11 +28,28 @@
   "WPfr": null,
   "image_ref": "Louis-Morard-8_14_§1",
   "terme_jantzen_bat": [
+    "fenetre",
+    "brique",
     "façade",
     "céramique",
-    "brique",
-    "fenetre",
     "décor"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "corniche",
+    "céramique",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "linteau",
+    "mascaron",
+    "oriel",
+    "porte-fenêtre",
+    "travée",
+    "vantail"
   ],
   "photos": [
     {
@@ -41,7 +59,25 @@
         "céramique",
         "décor",
         "façade"
-      ]
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "brique",
+        "céramique",
+        "fenêtre",
+        "garde-corps",
+        "linteau",
+        "mascaron",
+        "porte-fenêtre",
+        "travée",
+        "fer forgé",
+        "corniche",
+        "bandeau",
+        "oriel",
+        "vantail"
+      ],
+      "dateCapture": "2005:05:08"
     },
     {
       "id_pic": "Louis-Morard-8_14_§2",
@@ -50,7 +86,9 @@
         "céramique",
         "décor",
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:05:08"
     }
   ]
 }

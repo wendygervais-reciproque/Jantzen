@@ -4,7 +4,11 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 244,
+      "personneID": 131,
+      "role": "architecte"
+    },
+    {
+      "personneID": 359,
       "role": "architecte"
     }
   ],
@@ -18,6 +22,7 @@
     "voie": "avenue Gambetta"
   },
   "arrondissement": 20,
+  "tri_alphab": "Gambetta",
   "coordonnees": {
     "latitude": "48.867702",
     "longitude": "2.400734"
@@ -27,12 +32,32 @@
   "WPfr": null,
   "image_ref": "Gambetta-117_20_§1",
   "terme_jantzen_bat": [
-    "tour",
-    "fenetre-d'angle",
-    "sculpture",
-    "console",
     "balcon",
+    "tour",
+    "sculpture",
+    "fenetre-d'angle",
+    "console",
     "colonne"
+  ],
+  "terme_torneh_bat": [
+    "atlante",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "cariatide",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mascaron",
+    "oriel",
+    "pierre de taille",
+    "pilastre",
+    "sculpture",
+    "toit à deux versants",
+    "tour",
+    "volet"
   ],
   "photos": [
     {
@@ -41,7 +66,28 @@
         "balcon",
         "fenetre-d'angle",
         "tour"
-      ]
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "balustrade",
+        "mascaron",
+        "atlante",
+        "cariatide",
+        "pilastre",
+        "corniche",
+        "bandeau",
+        "tour",
+        "oriel",
+        "lucarne",
+        "volet",
+        "pierre de taille",
+        "sculpture",
+        "fer forgé",
+        "toit à deux versants"
+      ],
+      "dateCapture": "2005:09:04"
     },
     {
       "id_pic": "Gambetta-117_20_§2",
@@ -49,21 +95,27 @@
         "colonne",
         "fenetre-d'angle",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:09:04"
     },
     {
       "id_pic": "Gambetta-117_20_§3",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:06:18"
     },
     {
       "id_pic": "Gambetta-117_20_§4",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:09:04"
     }
   ]
 }

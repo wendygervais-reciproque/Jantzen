@@ -2,13 +2,19 @@
   "id_bat": 85,
   "libelle": "Gare Saint-Lazare",
   "ensemble": null,
-  "personnes": null,
+  "personnes": [
+    {
+      "personneID": 598,
+      "role": "architecte"
+    }
+  ],
   "dateConstruction": "1886",
   "periode": [
     "1870-1894"
   ],
   "adresse": null,
   "arrondissement": 8,
+  "tri_alphab": "Gare-St-Lazare",
   "coordonnees": {
     "latitude": "48.876944444444",
     "longitude": "2.3244444444444"
@@ -18,14 +24,28 @@
   "WPfr": "Gare de Paris-Saint-Lazare",
   "image_ref": "Gare-St-Lazare-_8_§1",
   "terme_jantzen_bat": [
-    "lucarne",
     "toiture",
-    "métal",
-    "fronton",
-    "fenetre",
     "oeil-de-boeuf",
+    "verrière",
     "tourelle",
-    "verrière"
+    "fenetre",
+    "lucarne",
+    "métal",
+    "fronton"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants"
   ],
   "photos": [
     {
@@ -33,28 +53,49 @@
       "IndexJantzen": [
         "fenetre",
         "fronton"
-      ]
+      ],
+      "IndexTorneh": [
+        "fronton",
+        "oculus",
+        "souche de cheminée",
+        "pilastre",
+        "fenêtre",
+        "corniche",
+        "sculpture",
+        "ardoise",
+        "toit à deux versants",
+        "mascaron",
+        "bandeau",
+        "pierre de taille"
+      ],
+      "dateCapture": "2005:08:10"
     },
     {
       "id_pic": "Gare-St-Lazare-_8_§2",
       "IndexJantzen": [
         "lucarne",
         "toiture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:08:10"
     },
     {
       "id_pic": "St-Lazare-Gare_8_§1",
       "IndexJantzen": [
         "lucarne",
         "oeil-de-boeuf"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:04:04"
     },
     {
       "id_pic": "St-Lazare-Gare_8_§2",
       "IndexJantzen": [
         "lucarne",
         "oeil-de-boeuf"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:04:04"
     },
     {
       "id_pic": "St-Lazare-Gare_8_§3",
@@ -62,7 +103,9 @@
         "métal",
         "tourelle",
         "verrière"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:07:02"
     }
   ]
 }

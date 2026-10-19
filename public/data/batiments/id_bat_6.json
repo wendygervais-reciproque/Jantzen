@@ -9,6 +9,7 @@
   ],
   "adresse": null,
   "arrondissement": 7,
+  "tri_alphab": "Invalides_HFE",
   "coordonnees": {
     "latitude": "48.856467",
     "longitude": "2.313146"
@@ -19,48 +20,91 @@
   "image_ref": "Invalides_HFE_§1_1-Rx",
   "terme_jantzen_bat": [
     "façade",
-    "décor",
+    "sculpture",
     "fronton",
-    "sculpture"
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "arcade",
+    "ardoise",
+    "balustrade",
+    "corniche",
+    "fenêtre",
+    "frise",
+    "fronton",
+    "oculus",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "toit à deux versants",
+    "travée"
   ],
   "photos": [
     {
       "id_pic": "Invalides_HFE_§1_1-Rx",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [
+        "arc en plein cintre",
+        "arcade",
+        "balustrade",
+        "corniche",
+        "fronton",
+        "oculus",
+        "pierre de taille",
+        "sculpture",
+        "travée",
+        "fenêtre",
+        "porte",
+        "toit à deux versants",
+        "ardoise",
+        "frise"
+      ],
+      "dateCapture": "2013:08:03"
     },
     {
       "id_pic": "Invalides_HFE_§2",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:06:05"
     },
     {
       "id_pic": "Invalides_HFE_§3_1-Rx",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2013:08:03"
     },
     {
       "id_pic": "Invalides_HFE_§4",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:04:26"
     },
     {
       "id_pic": "Invalides_HFE_§5",
       "IndexJantzen": [
         "fronton",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2018:10:19"
     },
     {
       "id_pic": "Invalides_HFE_§5b",
       "IndexJantzen": [
         "fronton",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2013:08:03"
     },
     {
       "id_pic": "Invalides_HFE_§5c",
@@ -68,7 +112,9 @@
         "décor",
         "fronton",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2013:08:03"
     }
   ]
 }

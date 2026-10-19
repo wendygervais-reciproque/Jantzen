@@ -2,7 +2,12 @@
   "id_bat": 1040,
   "libelle": "15 rue Joseph-Bara",
   "ensemble": null,
-  "personnes": null,
+  "personnes": [
+    {
+      "personneID": 524,
+      "role": "architecte"
+    }
+  ],
   "dateConstruction": null,
   "periode": [
     "1870-1894"
@@ -13,6 +18,7 @@
     "voie": "rue Joseph-Bara"
   },
   "arrondissement": 6,
+  "tri_alphab": "Joseph-Bara",
   "coordonnees": {
     "latitude": "48.841692",
     "longitude": "2.332868"
@@ -24,12 +30,39 @@
   "terme_jantzen_bat": [
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "auvent",
+    "balcon",
+    "chambranle",
+    "fer forgé",
+    "garde-corps",
+    "jambage",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Joseph-Bara-15_6_§1",
       "IndexJantzen": [
         "porte-bois"
-      ]
+      ],
+      "IndexTorneh": [
+        "porte",
+        "mascaron",
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "pierre de taille",
+        "vantail",
+        "sculpture",
+        "auvent",
+        "chambranle",
+        "jambage"
+      ],
+      "dateCapture": "2005:05:09"
     }
   ]
 }

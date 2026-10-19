@@ -13,6 +13,7 @@
     "voie": "cité Monthiers"
   },
   "arrondissement": 9,
+  "tri_alphab": "Montiers-Cite",
   "coordonnees": {
     "latitude": "48.881",
     "longitude": "2.3285"
@@ -22,10 +23,25 @@
   "WPfr": "Théâtre de l'Œuvre",
   "image_ref": "Montiers-Cite-_9_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "oeil-de-boeuf",
-    "décor",
-    "sculpture"
+    "sculpture",
+    "fenetre",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "chapiteau corinthien",
+    "colonne",
+    "corniche",
+    "entablement",
+    "fenêtre",
+    "frise",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "sculpture",
+    "vitrail"
   ],
   "photos": [
     {
@@ -35,7 +51,23 @@
         "fenetre",
         "oeil-de-boeuf",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [
+        "arc en plein cintre",
+        "arc",
+        "colonne",
+        "chapiteau corinthien",
+        "oculus",
+        "vitrail",
+        "fenêtre",
+        "corniche",
+        "frise",
+        "sculpture",
+        "pierre de taille",
+        "mascaron",
+        "entablement"
+      ],
+      "dateCapture": "2004:08:26"
     }
   ]
 }

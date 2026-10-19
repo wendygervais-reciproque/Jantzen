@@ -13,6 +13,7 @@
     "voie": "rue des Archives"
   },
   "arrondissement": 3,
+  "tri_alphab": "Archives",
   "coordonnees": {
     "latitude": "48.860587",
     "longitude": "2.357562"
@@ -22,11 +23,23 @@
   "WPfr": null,
   "image_ref": "Archives-58_3_§1",
   "terme_jantzen_bat": [
-    "façade-d'angle",
     "toiture",
-    "fenetre",
+    "façade-d'angle",
     "tour",
-    "sculpture"
+    "sculpture",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc brisé",
+    "ardoise",
+    "fenêtre",
+    "pierre de taille",
+    "sculpture",
+    "souche de cheminée",
+    "toit en pavillon",
+    "tour",
+    "volet",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -34,59 +47,88 @@
       "IndexJantzen": [
         "façade-d'angle",
         "tour"
-      ]
+      ],
+      "IndexTorneh": [
+        "tour",
+        "épi de faîtage",
+        "souche de cheminée",
+        "fenêtre",
+        "pierre de taille",
+        "ardoise",
+        "sculpture",
+        "toit en pavillon",
+        "arc brisé",
+        "volet"
+      ],
+      "dateCapture": "2006:08:30"
     },
     {
       "id_pic": "Archives-58_3_§2",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:08:30"
     },
     {
       "id_pic": "Archives-58_3_§3",
       "IndexJantzen": [
         "fenetre",
         "tour"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:08:30"
     },
     {
       "id_pic": "Archives-58_3_§4",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:08:30"
     },
     {
       "id_pic": "Archives-58_3_§5",
       "IndexJantzen": [
         "sculpture",
         "toiture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:04:22"
     },
     {
       "id_pic": "Archives-58_3_1",
       "IndexJantzen": [
         "façade-d'angle",
         "tour"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:04:22"
     },
     {
       "id_pic": "Archives-58_3_2",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:04:22"
     },
     {
       "id_pic": "Archives-58_3_3",
       "IndexJantzen": [
         "toiture",
         "tour"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:04:22"
     },
     {
       "id_pic": "Archives-58_3_4",
       "IndexJantzen": [
         "toiture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:04:22"
     }
   ]
 }

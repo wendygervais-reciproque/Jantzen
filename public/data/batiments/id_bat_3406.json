@@ -1,0 +1,118 @@
+{
+  "id_bat": 3406,
+  "libelle": "7 rue de Téhéran",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 714,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": "1927",
+  "periode": [
+    "1915-1944"
+  ],
+  "adresse": {
+    "affichage": "7 rue de Téhéran",
+    "numero": "7",
+    "voie": "rue de Téhéran"
+  },
+  "arrondissement": 8,
+  "tri_alphab": "Teheran",
+  "coordonnees": {
+    "latitude": "48.875867",
+    "longitude": "2.312659"
+  },
+  "id_pss": 9610,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": "Teheran-7_8_§1",
+  "terme_jantzen_bat": [
+    "façade",
+    "sculpture",
+    "colonne",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "attique",
+    "avant-corps",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "bossage",
+    "chapiteau",
+    "colonne",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "grille",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "toit-terrasse",
+    "travée"
+  ],
+  "photos": [
+    {
+      "id_pic": "Teheran-7_8_§1",
+      "IndexJantzen": [
+        "façade"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "colonne",
+        "pilastre",
+        "chapiteau",
+        "corniche",
+        "bandeau",
+        "avant-corps",
+        "travée",
+        "pierre de taille",
+        "toit-terrasse",
+        "porte",
+        "grille",
+        "fer forgé",
+        "attique",
+        "bossage"
+      ],
+      "dateCapture": "2009:07:13"
+    },
+    {
+      "id_pic": "Teheran-7_8_§2",
+      "IndexJantzen": [
+        "façade"
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2009:07:13"
+    },
+    {
+      "id_pic": "Teheran-7_8_§3",
+      "IndexJantzen": [
+        "fenetre"
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2009:07:13"
+    },
+    {
+      "id_pic": "Teheran-7_8_§4",
+      "IndexJantzen": [
+        "colonne",
+        "sculpture"
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2009:07:13"
+    },
+    {
+      "id_pic": "Teheran-7_8_§5",
+      "IndexJantzen": [
+        "colonne"
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2009:07:13"
+    }
+  ]
+}

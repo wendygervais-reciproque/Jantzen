@@ -9,6 +9,7 @@
   ],
   "adresse": null,
   "arrondissement": 19,
+  "tri_alphab": "Buttes-Chaumont",
   "coordonnees": {
     "latitude": "48.880277777778",
     "longitude": "2.3827777777778"
@@ -20,12 +21,35 @@
   "terme_jantzen_bat": [
     "tourelle"
   ],
+  "terme_torneh_bat": [
+    "balustrade",
+    "chapiteau corinthien",
+    "colonne",
+    "corniche",
+    "dôme",
+    "garde-corps",
+    "mascaron",
+    "édicule",
+    "épi de faîtage"
+  ],
   "photos": [
     {
       "id_pic": "Buttes-Chaumont_19_§1",
       "IndexJantzen": [
         "tourelle"
-      ]
+      ],
+      "IndexTorneh": [
+        "colonne",
+        "chapiteau corinthien",
+        "dôme",
+        "corniche",
+        "épi de faîtage",
+        "balustrade",
+        "garde-corps",
+        "mascaron",
+        "édicule"
+      ],
+      "dateCapture": "2005:05:11"
     }
   ]
 }

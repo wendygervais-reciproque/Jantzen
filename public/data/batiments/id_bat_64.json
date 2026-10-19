@@ -2,7 +2,12 @@
   "id_bat": 64,
   "libelle": "Église Saint-Augustin",
   "ensemble": null,
-  "personnes": null,
+  "personnes": [
+    {
+      "personneID": 37,
+      "role": "architecte"
+    }
+  ],
   "dateConstruction": "1860-1871",
   "periode": [
     "1850-1869",
@@ -10,6 +15,7 @@
   ],
   "adresse": null,
   "arrondissement": 8,
+  "tri_alphab": "St-Augustin-Eglise",
   "coordonnees": {
     "latitude": "48.8762209215312",
     "longitude": "2.318917227874554"
@@ -19,55 +25,100 @@
   "WPfr": "Église Saint-Augustin de Paris",
   "image_ref": "St-Augustin-Eglise_8_§1",
   "terme_jantzen_bat": [
-    "lucarne",
     "dome",
-    "tourelle"
+    "tourelle",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "arcade",
+    "baie",
+    "colonne",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fronton",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "tour",
+    "vitrail",
+    "épi de faîtage"
   ],
   "photos": [
     {
       "id_pic": "St-Augustin-Eglise_8_§1",
       "IndexJantzen": [
         "dome"
-      ]
+      ],
+      "IndexTorneh": [
+        "dôme",
+        "épi de faîtage",
+        "oculus",
+        "arc en plein cintre",
+        "corniche",
+        "pilastre",
+        "colonne",
+        "fenêtre",
+        "vitrail",
+        "tour",
+        "pierre de taille",
+        "fronton",
+        "arcade",
+        "baie"
+      ],
+      "dateCapture": "2010:11:16"
     },
     {
       "id_pic": "St-Augustin-Eglise_8_§2",
       "IndexJantzen": [
         "dome"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2010:11:16"
     },
     {
       "id_pic": "St-Augustin-Eglise_8_§3",
       "IndexJantzen": [
         "dome"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:09:04"
     },
     {
       "id_pic": "St-Augustin-Eglise_8_§4",
       "IndexJantzen": [
         "dome"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:10:08"
     },
     {
       "id_pic": "St-Augustin-Eglise_8_§5",
       "IndexJantzen": [
         "dome",
         "tourelle"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:10:08"
     },
     {
       "id_pic": "St-Augustin-Eglise_8_§6",
       "IndexJantzen": [
         "dome",
         "tourelle"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2010:11:16"
     },
     {
       "id_pic": "St-Augustin-Eglise_8_§8",
       "IndexJantzen": [
         "dome",
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2012:05:16"
     }
   ]
 }

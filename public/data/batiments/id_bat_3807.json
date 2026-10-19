@@ -4,8 +4,12 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 280,
+      "personneID": 203,
       "role": "architecte"
+    },
+    {
+      "personneID": 10152,
+      "role": "sculpteur"
     }
   ],
   "dateConstruction": "1902",
@@ -18,6 +22,7 @@
     "voie": "rue de Presbourg"
   },
   "arrondissement": 16,
+  "tri_alphab": "Presbourg",
   "coordonnees": {
     "latitude": "48.872561",
     "longitude": "2.293558"
@@ -27,68 +32,131 @@
   "WPfr": null,
   "image_ref": "Presbourg-9_16_§1",
   "terme_jantzen_bat": [
-    "lucarne",
-    "façade-d'angle",
     "toiture",
-    "façade",
-    "lucarne-d'angle",
-    "garde-corps",
-    "fenetre",
-    "décor",
-    "fenetre-d'angle",
-    "sculpture",
-    "clé",
-    "pignon",
-    "balcon",
     "loggia",
+    "balcon",
+    "façade-d'angle",
+    "pignon",
+    "oriel",
+    "sculpture",
+    "fenetre-d'angle",
+    "fenetre",
+    "clé",
+    "lucarne",
+    "façade",
+    "garde-corps",
+    "lucarne-d'angle",
     "colonne",
-    "oriel"
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chaîne d'angle",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "porte",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "toit à deux versants",
+    "tour",
+    "travée",
+    "tuile",
+    "vantail"
   ],
   "photos": [
     {
       "id_pic": "Presbourg-9_16_§1",
       "IndexJantzen": [
         "façade-d'angle"
-      ]
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "bandeau",
+        "chaîne d'angle",
+        "corniche",
+        "dôme",
+        "fenêtre",
+        "garde-corps",
+        "lucarne",
+        "mascaron",
+        "oculus",
+        "pierre de taille",
+        "porte",
+        "porte-fenêtre",
+        "toit à deux versants",
+        "tour",
+        "travée",
+        "tuile",
+        "vantail",
+        "fer forgé",
+        "arc",
+        "arc en plein cintre",
+        "souche de cheminée"
+      ],
+      "dateCapture": "2005:04:30"
     },
     {
       "id_pic": "Presbourg-9_16_§10",
       "IndexJantzen": [
         "lucarne-d'angle"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:06:30"
     },
     {
       "id_pic": "Presbourg-9_16_§11",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:07:10"
     },
     {
       "id_pic": "Presbourg-9_16_§12",
       "IndexJantzen": [
         "loggia",
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:07:10"
     },
     {
       "id_pic": "Presbourg-9_16_§13",
       "IndexJantzen": [
         "loggia",
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:06:30"
     },
     {
       "id_pic": "Presbourg-9_16_§14",
       "IndexJantzen": [
         "lucarne",
         "toiture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2012:05:27"
     },
     {
       "id_pic": "Presbourg-9_16_§15",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:06:30"
     },
     {
       "id_pic": "Presbourg-9_16_§16",
@@ -96,66 +164,86 @@
         "fenetre",
         "lucarne",
         "toiture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2009:05:30"
     },
     {
       "id_pic": "Presbourg-9_16_§17",
       "IndexJantzen": [
         "lucarne",
         "toiture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2009:05:30"
     },
     {
       "id_pic": "Presbourg-9_16_§18",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:03:29"
     },
     {
       "id_pic": "Presbourg-9_16_§19",
       "IndexJantzen": [
         "fenetre",
         "toiture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2009:05:30"
     },
     {
       "id_pic": "Presbourg-9_16_§2",
       "IndexJantzen": [
         "fenetre-d'angle"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:04:30"
     },
     {
       "id_pic": "Presbourg-9_16_§20",
       "IndexJantzen": [
         "fenetre",
         "toiture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2009:05:30"
     },
     {
       "id_pic": "Presbourg-9_16_§21",
       "IndexJantzen": [
         "lucarne",
         "toiture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2012:05:27"
     },
     {
       "id_pic": "Presbourg-9_16_§22",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2012:05:27"
     },
     {
       "id_pic": "Presbourg-9_16_§23",
       "IndexJantzen": [
         "façade-d'angle"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:03:25"
     },
     {
       "id_pic": "Presbourg-9_16_§24",
       "IndexJantzen": [
         "façade",
         "pignon"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:03:25"
     },
     {
       "id_pic": "Presbourg-9_16_§25",
@@ -163,14 +251,18 @@
         "fenetre",
         "oriel",
         "pignon"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:03:25"
     },
     {
       "id_pic": "Presbourg-9_16_§26",
       "IndexJantzen": [
         "fenetre",
         "oriel"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:03:25"
     },
     {
       "id_pic": "Presbourg-9_16_§27",
@@ -178,14 +270,18 @@
         "balcon",
         "colonne",
         "loggia"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:04:26"
     },
     {
       "id_pic": "Presbourg-9_16_§28",
       "IndexJantzen": [
         "fenetre",
         "pignon"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:03:25"
     },
     {
       "id_pic": "Presbourg-9_16_§29",
@@ -193,26 +289,34 @@
         "balcon",
         "colonne",
         "loggia"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:03:25"
     },
     {
       "id_pic": "Presbourg-9_16_§3",
       "IndexJantzen": [
         "fenetre-d'angle"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:06:30"
     },
     {
       "id_pic": "Presbourg-9_16_§30",
       "IndexJantzen": [
         "oriel"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:03:25"
     },
     {
       "id_pic": "Presbourg-9_16_§31",
       "IndexJantzen": [
         "décor",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:03:25"
     },
     {
       "id_pic": "Presbourg-9_16_§32",
@@ -221,46 +325,60 @@
         "fenetre",
         "garde-corps",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:04:26"
     },
     {
       "id_pic": "Presbourg-9_16_§33",
       "IndexJantzen": [
         "clé",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:03:25"
     },
     {
       "id_pic": "Presbourg-9_16_§4",
       "IndexJantzen": [
         "fenetre-d'angle"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:06:30"
     },
     {
       "id_pic": "Presbourg-9_16_§5",
       "IndexJantzen": [
         "fenetre-d'angle",
         "loggia"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:07:10"
     },
     {
       "id_pic": "Presbourg-9_16_§6",
       "IndexJantzen": [
         "lucarne-d'angle"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:07:10"
     },
     {
       "id_pic": "Presbourg-9_16_§7",
       "IndexJantzen": [
         "lucarne-d'angle"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:06:30"
     },
     {
       "id_pic": "Presbourg-9_16_§9",
       "IndexJantzen": [
         "lucarne-d'angle",
         "toiture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:07:10"
     }
   ]
 }

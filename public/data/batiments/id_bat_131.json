@@ -1,0 +1,67 @@
+{
+  "id_bat": 131,
+  "libelle": "Pont Royal",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": null,
+  "adresse": null,
+  "arrondissement": 1,
+  "tri_alphab": "Pont-Royal",
+  "coordonnees": {
+    "latitude": "48.86",
+    "longitude": "2.32972"
+  },
+  "id_pss": null,
+  "id_wikidata": "Q1758497",
+  "WPfr": "Pont Royal (Paris)",
+  "image_ref": "La-Seine_§67",
+  "terme_jantzen_bat": [
+    "pont"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "dôme",
+    "fenêtre",
+    "pierre de taille",
+    "pilier",
+    "toit à deux versants",
+    "tour"
+  ],
+  "photos": [
+    {
+      "id_pic": "La-Seine_§67",
+      "IndexJantzen": [
+        "pont"
+      ],
+      "IndexTorneh": [
+        "arc",
+        "arc en plein cintre",
+        "pierre de taille",
+        "dôme",
+        "tour",
+        "pilier",
+        "toit à deux versants",
+        "fenêtre"
+      ],
+      "dateCapture": "2008:05:15"
+    },
+    {
+      "id_pic": "La-Seine_§68",
+      "IndexJantzen": [
+        "pont"
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:05:15"
+    },
+    {
+      "id_pic": "La-Seine_§69",
+      "IndexJantzen": [
+        "pont"
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:05:15"
+    }
+  ]
+}

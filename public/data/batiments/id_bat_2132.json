@@ -4,8 +4,12 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 382,
+      "personneID": 538,
       "role": "architecte"
+    },
+    {
+      "personneID": 10014,
+      "role": "céramiste"
     }
   ],
   "dateConstruction": "1900",
@@ -18,6 +22,7 @@
     "voie": "square Rapp"
   },
   "arrondissement": 7,
+  "tri_alphab": "Rapp-sq",
   "coordonnees": {
     "latitude": "48.858821",
     "longitude": "2.301244"
@@ -27,20 +32,47 @@
   "WPfr": null,
   "image_ref": "Rapp-sq-3_7_§1",
   "terme_jantzen_bat": [
-    "lucarne",
-    "façade",
-    "céramique",
+    "colonne",
+    "balcon",
     "porte-fer",
-    "brique",
-    "fenetre",
-    "décor",
+    "tourelle",
     "clé",
     "console",
-    "tourelle",
-    "balcon",
-    "colonne",
+    "fenetre",
+    "lucarne",
+    "brique",
+    "façade",
+    "céramique",
+    "garde-corps",
     "porte-bois",
-    "garde-corps"
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "chaîne d'angle",
+    "colonne",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "grille",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oriel",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "sculpture",
+    "souche de cheminée",
+    "tuile",
+    "volet",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -50,7 +82,35 @@
         "céramique",
         "décor",
         "façade"
-      ]
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "bandeau",
+        "brique",
+        "chaîne d'angle",
+        "colonne",
+        "corniche",
+        "fenêtre",
+        "fer forgé",
+        "fronton",
+        "garde-corps",
+        "grille",
+        "lucarne",
+        "mansarde",
+        "mascaron",
+        "oriel",
+        "pierre de taille",
+        "porte",
+        "sculpture",
+        "tuile",
+        "volet",
+        "épi de faîtage",
+        "souche de cheminée",
+        "arc en plein cintre",
+        "pilastre"
+      ],
+      "dateCapture": "2010:04:16"
     },
     {
       "id_pic": "Rapp-sq-3_7_§14",
@@ -58,7 +118,9 @@
         "brique",
         "céramique",
         "façade"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:08:27"
     },
     {
       "id_pic": "Rapp-sq-3_7_§15",
@@ -68,7 +130,9 @@
         "décor",
         "fenetre",
         "tourelle"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2010:04:01"
     },
     {
       "id_pic": "Rapp-sq-3_7_§16",
@@ -76,7 +140,9 @@
         "brique",
         "céramique",
         "décor"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:06:23"
     },
     {
       "id_pic": "Rapp-sq-3_7_§2",
@@ -84,13 +150,17 @@
         "brique",
         "céramique",
         "façade"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2010:04:01"
     },
     {
       "id_pic": "Rapp-sq-3_7_§23",
       "IndexJantzen": [
         "porte-fer"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:08:27"
     },
     {
       "id_pic": "Rapp-sq-3_7_§30",
@@ -99,7 +169,9 @@
         "céramique",
         "décor",
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2010:04:01"
     },
     {
       "id_pic": "Rapp-sq-3_7_§35",
@@ -107,7 +179,9 @@
         "brique",
         "céramique",
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2010:04:01"
     },
     {
       "id_pic": "Rapp-sq-3_7_§40",
@@ -115,7 +189,9 @@
         "balcon",
         "brique",
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:10:15"
     },
     {
       "id_pic": "Rapp-sq-3_7_§44",
@@ -123,7 +199,9 @@
         "balcon",
         "brique",
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:10:15"
     },
     {
       "id_pic": "Rapp-sq-3_7_§46",
@@ -133,7 +211,9 @@
         "décor",
         "fenetre",
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2010:04:01"
     },
     {
       "id_pic": "Rapp-sq-3_7_§48",
@@ -141,7 +221,9 @@
         "balcon",
         "brique",
         "céramique"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:08:21"
     },
     {
       "id_pic": "Rapp-sq-3_7_§49",
@@ -150,7 +232,9 @@
         "brique",
         "console",
         "céramique"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:04:11"
     },
     {
       "id_pic": "Rapp-sq-3_7_§50",
@@ -158,7 +242,9 @@
         "brique",
         "céramique",
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:04:11"
     },
     {
       "id_pic": "Rapp-sq-3_7_§51",
@@ -166,7 +252,9 @@
         "brique",
         "céramique",
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2010:04:01"
     },
     {
       "id_pic": "Rapp-sq-3_7_§52",
@@ -176,7 +264,9 @@
         "décor",
         "fenetre",
         "garde-corps"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2010:04:16"
     },
     {
       "id_pic": "Rapp-sq-3_7_§53",
@@ -186,7 +276,9 @@
         "console",
         "céramique",
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2010:04:01"
     },
     {
       "id_pic": "Rapp-sq-3_7_§55",
@@ -195,7 +287,9 @@
         "brique",
         "céramique",
         "garde-corps"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:04:11"
     },
     {
       "id_pic": "Rapp-sq-3_7_§56",
@@ -204,7 +298,9 @@
         "brique",
         "céramique",
         "garde-corps"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:05:16"
     },
     {
       "id_pic": "Rapp-sq-3_7_§57",
@@ -215,7 +311,9 @@
         "céramique",
         "fenetre",
         "garde-corps"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:03:15"
     },
     {
       "id_pic": "Rapp-sq-3_7_§59",
@@ -223,7 +321,9 @@
         "brique",
         "colonne",
         "céramique"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:05:08"
     },
     {
       "id_pic": "Rapp-sq-3_7_§6",
@@ -233,7 +333,9 @@
         "décor",
         "fenetre",
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2010:04:01"
     },
     {
       "id_pic": "Rapp-sq-3_7_§60",
@@ -242,7 +344,9 @@
         "céramique",
         "fenetre",
         "porte-bois"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:06:23"
     },
     {
       "id_pic": "Rapp-sq-3_7_§61",
@@ -252,7 +356,9 @@
         "céramique",
         "fenetre",
         "porte-bois"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:03:15"
     },
     {
       "id_pic": "Rapp-sq-3_7_§62",
@@ -261,7 +367,9 @@
         "céramique",
         "fenetre",
         "porte-bois"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:05:16"
     },
     {
       "id_pic": "Rapp-sq-3_7_§64",
@@ -270,7 +378,9 @@
         "céramique",
         "fenetre",
         "porte-bois"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2010:04:01"
     },
     {
       "id_pic": "Rapp-sq-3_7_§65",
@@ -279,7 +389,9 @@
         "céramique",
         "fenetre",
         "porte-bois"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:04:11"
     },
     {
       "id_pic": "Rapp-sq-3_7_§7",
@@ -287,7 +399,9 @@
         "brique",
         "céramique",
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:10:11"
     },
     {
       "id_pic": "Rapp-sq-3_7_§8",
@@ -295,7 +409,9 @@
         "brique",
         "céramique",
         "façade"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:08:27"
     }
   ]
 }

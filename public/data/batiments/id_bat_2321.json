@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 295,
+      "personneID": 411,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "avenue Georges-Mandel"
   },
   "arrondissement": 16,
+  "tri_alphab": "Georges-Mandel",
   "coordonnees": {
     "latitude": "48.863765",
     "longitude": "2.281636"
@@ -27,29 +28,72 @@
   "WPfr": null,
   "image_ref": "Georges-Mandel-36_16_§1",
   "terme_jantzen_bat": [
-    "lucarne",
+    "sculpture",
     "console",
-    "sculpture"
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "auvent",
+    "balcon",
+    "balustrade",
+    "brique",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oriel",
+    "pierre de taille",
+    "souche de cheminée",
+    "épi de faîtage"
   ],
   "photos": [
     {
       "id_pic": "Georges-Mandel-36_16_§1",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [
+        "épi de faîtage",
+        "dôme",
+        "oriel",
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "mansarde",
+        "souche de cheminée",
+        "ardoise",
+        "corniche",
+        "balustrade",
+        "pierre de taille",
+        "brique",
+        "lucarne",
+        "auvent",
+        "mascaron"
+      ],
+      "dateCapture": "2006:06:30"
     },
     {
       "id_pic": "Georges-Mandel-36_16_§2",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:04:11"
     },
     {
       "id_pic": "Georges-Mandel-36_16_§3",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:06:30"
     }
   ]
 }

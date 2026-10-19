@@ -2,7 +2,16 @@
   "id_bat": 1505,
   "libelle": "2 rue Guynemer",
   "ensemble": null,
-  "personnes": null,
+  "personnes": [
+    {
+      "personneID": 718,
+      "role": "architecte"
+    },
+    {
+      "personneID": 10039,
+      "role": "sculpteur"
+    }
+  ],
   "dateConstruction": "1914",
   "periode": [
     "1895-1914"
@@ -13,6 +22,7 @@
     "voie": "rue Guynemer"
   },
   "arrondissement": 6,
+  "tri_alphab": "Guynemer",
   "coordonnees": {
     "latitude": "48.848405",
     "longitude": "2.332395"
@@ -22,16 +32,45 @@
   "WPfr": null,
   "image_ref": "Guynemer_2_6_§1",
   "terme_jantzen_bat": [
-    "lucarne",
     "façade-d'angle",
+    "porte-fer",
+    "sculpture",
+    "fenetre",
+    "lucarne",
+    "brique",
     "façade",
     "fronton",
-    "porte-fer",
+    "garde-corps",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "arcade",
+    "baie",
+    "balcon",
+    "balustrade",
+    "bandeau",
     "brique",
-    "fenetre",
-    "décor",
+    "chaîne d'angle",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "porte",
     "sculpture",
-    "garde-corps"
+    "souche de cheminée",
+    "toit à deux versants",
+    "tour",
+    "travée",
+    "vitrail",
+    "volet",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -39,14 +78,46 @@
       "IndexJantzen": [
         "brique",
         "façade-d'angle"
-      ]
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "bandeau",
+        "baie",
+        "brique",
+        "chaîne d'angle",
+        "corniche",
+        "dôme",
+        "fenêtre",
+        "fronton",
+        "garde-corps",
+        "lucarne",
+        "mansarde",
+        "mascaron",
+        "oculus",
+        "pierre de taille",
+        "porte",
+        "sculpture",
+        "souche de cheminée",
+        "toit à deux versants",
+        "tour",
+        "travée",
+        "vitrail",
+        "volet",
+        "arc en plein cintre",
+        "arcade",
+        "épi de faîtage"
+      ],
+      "dateCapture": "2009:09:27"
     },
     {
       "id_pic": "Guynemer_2_6_§3",
       "IndexJantzen": [
         "brique",
         "façade"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2009:09:27"
     },
     {
       "id_pic": "Guynemer_2_6_§4",
@@ -55,14 +126,18 @@
         "décor",
         "fronton",
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2009:09:27"
     },
     {
       "id_pic": "Guynemer_2_6_§5",
       "IndexJantzen": [
         "brique",
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2003:08:26"
     },
     {
       "id_pic": "Guynemer_2_6_§6",
@@ -71,27 +146,35 @@
         "fenetre",
         "garde-corps",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2009:09:27"
     },
     {
       "id_pic": "Guynemer_2_6_§7",
       "IndexJantzen": [
         "brique",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2009:09:27"
     },
     {
       "id_pic": "Guynemer_2_6_§8",
       "IndexJantzen": [
         "brique",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2009:09:27"
     },
     {
       "id_pic": "Guynemer_2_6_10Nx_DxO",
       "IndexJantzen": [
         "porte-fer"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2009:09:27"
     }
   ]
 }

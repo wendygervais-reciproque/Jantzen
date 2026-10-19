@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 431,
+      "personneID": 408,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "boulevard Saint-Germain"
   },
   "arrondissement": 6,
+  "tri_alphab": "St-Germain",
   "coordonnees": {
     "latitude": "48.851768",
     "longitude": "2.341003"
@@ -27,9 +28,26 @@
   "WPfr": null,
   "image_ref": "St-Germain-83_6_§1",
   "terme_jantzen_bat": [
-    "colonne",
     "façade",
+    "colonne",
     "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "balustrade",
+    "chapiteau corinthien",
+    "chapiteau ionique",
+    "colonne",
+    "corniche",
+    "entablement",
+    "fenêtre",
+    "frise",
+    "garde-corps",
+    "grille",
+    "pierre de taille",
+    "pilastre",
+    "sculpture",
+    "soupirail",
+    "travée"
   ],
   "photos": [
     {
@@ -37,14 +55,34 @@
       "IndexJantzen": [
         "colonne",
         "façade"
-      ]
+      ],
+      "IndexTorneh": [
+        "colonne",
+        "chapiteau ionique",
+        "chapiteau corinthien",
+        "fenêtre",
+        "corniche",
+        "frise",
+        "entablement",
+        "pierre de taille",
+        "balustrade",
+        "grille",
+        "garde-corps",
+        "pilastre",
+        "travée",
+        "sculpture",
+        "soupirail"
+      ],
+      "dateCapture": "2010:06:05"
     },
     {
       "id_pic": "St-Germain-83_6_§2",
       "IndexJantzen": [
         "colonne",
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2010:06:05"
     }
   ]
 }

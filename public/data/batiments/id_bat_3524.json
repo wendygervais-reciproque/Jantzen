@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 447,
+      "personneID": 602,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "avenue Émile-Zola"
   },
   "arrondissement": 15,
+  "tri_alphab": "Emile-Zola",
   "coordonnees": {
     "latitude": "48.846481",
     "longitude": "2.286592"
@@ -29,12 +30,33 @@
   "terme_jantzen_bat": [
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "arc",
+    "chambranle",
+    "jambage",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Emile-Zola-76_15_§1",
       "IndexJantzen": [
         "porte-bois"
-      ]
+      ],
+      "IndexTorneh": [
+        "porte",
+        "portail",
+        "arc",
+        "chambranle",
+        "vantail",
+        "pierre de taille",
+        "sculpture",
+        "jambage"
+      ],
+      "dateCapture": "2005:04:03"
     }
   ]
 }

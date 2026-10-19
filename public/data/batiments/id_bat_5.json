@@ -9,6 +9,7 @@
   ],
   "adresse": null,
   "arrondissement": 7,
+  "tri_alphab": "Invalides-HSO-Cv",
   "coordonnees": {
     "latitude": "48.856073",
     "longitude": "2.312272"
@@ -18,12 +19,31 @@
   "WPfr": "Cour d'honneur de l'hôtel des Invalides",
   "image_ref": "Invalides-HSO-Cv_§1",
   "terme_jantzen_bat": [
-    "lucarne",
-    "façade-d'angle",
     "toiture",
-    "lucarne-d'angle",
+    "façade-d'angle",
+    "sculpture",
     "fenetre-d'angle",
-    "sculpture"
+    "lucarne",
+    "lucarne-d'angle"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "arcade",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "chéneau",
+    "corniche",
+    "fenêtre",
+    "garde-corps",
+    "grille",
+    "lucarne",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "sculpture",
+    "toit à deux versants",
+    "travée"
   ],
   "photos": [
     {
@@ -31,89 +51,135 @@
       "IndexJantzen": [
         "façade-d'angle",
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [
+        "arc en plein cintre",
+        "arcade",
+        "balustrade",
+        "balcon",
+        "corniche",
+        "pierre de taille",
+        "sculpture",
+        "travée",
+        "fenêtre",
+        "lucarne",
+        "toit à deux versants",
+        "ardoise",
+        "grille",
+        "oculus",
+        "chéneau",
+        "garde-corps",
+        "pilastre"
+      ],
+      "dateCapture": "2005:08:04"
     },
     {
       "id_pic": "Invalides-HSO-Cv_§10",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:07:17"
     },
     {
       "id_pic": "Invalides-HSO-Cv_§11",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:10:15"
     },
     {
       "id_pic": "Invalides-HSO-Cv_§12",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:07:28"
     },
     {
       "id_pic": "Invalides-HSO-Cv_§13",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:07:28"
     },
     {
       "id_pic": "Invalides-HSO-Cv_§14",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:10:15"
     },
     {
       "id_pic": "Invalides-HSO-Cv_§2",
       "IndexJantzen": [
         "fenetre-d'angle",
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:07:17"
     },
     {
       "id_pic": "Invalides-HSO-Cv_§3",
       "IndexJantzen": [
         "lucarne-d'angle",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:07:28"
     },
     {
       "id_pic": "Invalides-HSO-Cv_§4",
       "IndexJantzen": [
         "lucarne-d'angle",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:07:28"
     },
     {
       "id_pic": "Invalides-HSO-Cv_§5",
       "IndexJantzen": [
         "sculpture",
         "toiture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:07:17"
     },
     {
       "id_pic": "Invalides-HSO-Cv_§6",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:07:17"
     },
     {
       "id_pic": "Invalides-HSO-Cv_§7",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:07:28"
     },
     {
       "id_pic": "Invalides-HSO-Cv_§8",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:07:28"
     },
     {
       "id_pic": "Invalides-HSO-Cv_§9",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:08:03"
     }
   ]
 }

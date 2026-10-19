@@ -13,6 +13,7 @@
     "voie": "rue Danielle-Casanova"
   },
   "arrondissement": 1,
+  "tri_alphab": "Danielle-Casanova",
   "coordonnees": {
     "latitude": "48.867909",
     "longitude": "2.331666"
@@ -23,8 +24,23 @@
   "image_ref": "Danielle-Casanova-23_1_§1",
   "terme_jantzen_bat": [
     "sculpture",
-    "console",
-    "garde-corps"
+    "garde-corps",
+    "console"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "fenêtre",
+    "fer forgé",
+    "grille",
+    "mascaron",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "sculpture",
+    "vantail"
   ],
   "photos": [
     {
@@ -33,14 +49,32 @@
         "console",
         "garde-corps",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [
+        "arc",
+        "arc en plein cintre",
+        "balcon",
+        "balustrade",
+        "fer forgé",
+        "porte",
+        "portail",
+        "mascaron",
+        "pierre de taille",
+        "fenêtre",
+        "grille",
+        "vantail",
+        "sculpture"
+      ],
+      "dateCapture": "2007:08:26"
     },
     {
       "id_pic": "Danielle-Casanova-23_1_§2",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:08:26"
     }
   ]
 }

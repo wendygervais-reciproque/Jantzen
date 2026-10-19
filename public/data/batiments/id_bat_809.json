@@ -1,0 +1,59 @@
+{
+  "id_bat": 809,
+  "libelle": "13 rue Saint-Louis-en-l'Île",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": null,
+  "adresse": {
+    "affichage": "13 rue Saint-Louis-en-l'Île",
+    "numero": "13",
+    "voie": "rue Saint-Louis-en-l'Île"
+  },
+  "arrondissement": 4,
+  "tri_alphab": "St-Louis",
+  "coordonnees": {
+    "latitude": "48.851086",
+    "longitude": "2.358491"
+  },
+  "id_pss": null,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": "St-Louis-13_4_§1",
+  "terme_jantzen_bat": [
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "chambranle",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "grille",
+    "pierre de taille",
+    "portail",
+    "vantail"
+  ],
+  "photos": [
+    {
+      "id_pic": "St-Louis-13_4_§1",
+      "IndexJantzen": [
+        "fenetre"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "garde-corps",
+        "balcon",
+        "arc en plein cintre",
+        "portail",
+        "pierre de taille",
+        "fer forgé",
+        "vantail",
+        "chambranle",
+        "grille"
+      ],
+      "dateCapture": "2003:08:03"
+    }
+  ]
+}

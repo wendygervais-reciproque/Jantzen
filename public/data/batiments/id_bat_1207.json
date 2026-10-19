@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 222,
+      "personneID": 330,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue Alphonse-de-Neuville"
   },
   "arrondissement": 17,
+  "tri_alphab": "Alphonse-de-Neuville",
   "coordonnees": {
     "latitude": "48.886141",
     "longitude": "2.301928"
@@ -25,36 +26,96 @@
   "id_pss": null,
   "id_wikidata": null,
   "WPfr": null,
-  "image_ref": "Alphonse-de-Neuville-17_17_§2",
+  "image_ref": "Alphonse-de-Neuville-17_17_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "porte-fer-hall"
+    "façade",
+    "porte-fer-hall",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "linteau",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "portail",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "travée",
+    "volet"
   ],
   "photos": [
+    {
+      "id_pic": "Alphonse-de-Neuville-17_17_§1",
+      "IndexJantzen": [
+        "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "porte-fenêtre",
+        "arc en plein cintre",
+        "linteau",
+        "corniche",
+        "bandeau",
+        "mascaron",
+        "lucarne",
+        "mansarde",
+        "souche de cheminée",
+        "pierre de taille",
+        "volet",
+        "portail",
+        "travée",
+        "oculus",
+        "ardoise"
+      ],
+      "dateCapture": "2004:07:05"
+    },
     {
       "id_pic": "Alphonse-de-Neuville-17_17_§2",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:07:05"
     },
     {
       "id_pic": "Alphonse-de-Neuville-17_17_§3",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:07:05"
     },
     {
       "id_pic": "Alphonse-de-Neuville-17_17_§4",
       "IndexJantzen": [
         "fenetre",
         "porte-fer-hall"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:07:06"
     },
     {
       "id_pic": "Alphonse-de-Neuville-17_17_§5",
       "IndexJantzen": [
         "porte-fer-hall"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:07:06"
     }
   ]
 }

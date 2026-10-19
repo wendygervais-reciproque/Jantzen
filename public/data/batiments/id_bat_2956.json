@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 326,
+      "personneID": 467,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue des Dames"
   },
   "arrondissement": 17,
+  "tri_alphab": "Dames",
   "coordonnees": {
     "latitude": "48.883883",
     "longitude": "2.321506"
@@ -27,22 +28,49 @@
   "WPfr": null,
   "image_ref": "Dames-52_17_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "garde-corps"
+    "garde-corps",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "chambranle",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "modillon",
+    "pierre de taille",
+    "porte-fenêtre"
   ],
   "photos": [
     {
       "id_pic": "Dames-52_17_§1",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "porte-fenêtre",
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "chambranle",
+        "pierre de taille",
+        "modillon",
+        "mascaron",
+        "balustrade"
+      ],
+      "dateCapture": "2004:10:03"
     },
     {
       "id_pic": "Dames-52_17_§2",
       "IndexJantzen": [
         "fenetre",
         "garde-corps"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:10:03"
     }
   ]
 }

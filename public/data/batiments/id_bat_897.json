@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 572,
+      "personneID": 754,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue de Bourgogne"
   },
   "arrondissement": 7,
+  "tri_alphab": "Bourgogne",
   "coordonnees": {
     "latitude": "48.859324",
     "longitude": "2.317934"
@@ -30,19 +31,58 @@
     "fenetre",
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bossage",
+    "chambranle",
+    "chapiteau composite",
+    "fenêtre",
+    "fer forgé",
+    "grille",
+    "mascaron",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "porte-fenêtre",
+    "sculpture",
+    "vantail",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Bourgogne-14_7_§1",
       "IndexJantzen": [
         "fenetre",
         "porte-bois"
-      ]
+      ],
+      "IndexTorneh": [
+        "porte",
+        "porte-fenêtre",
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "mascaron",
+        "sculpture",
+        "pilastre",
+        "chapiteau composite",
+        "pierre de taille",
+        "volet",
+        "vantail",
+        "fer forgé",
+        "grille",
+        "chambranle",
+        "bossage"
+      ],
+      "dateCapture": "2005:05:28"
     },
     {
       "id_pic": "Bourgogne-14_7_§2",
       "IndexJantzen": [
         "porte-bois"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:05:28"
     }
   ]
 }

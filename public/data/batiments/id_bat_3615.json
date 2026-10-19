@@ -13,6 +13,7 @@
     "voie": "rue de la Ferronnerie"
   },
   "arrondissement": 1,
+  "tri_alphab": "Ferronnerie",
   "coordonnees": {
     "latitude": "48.860345",
     "longitude": "2.347347"
@@ -22,35 +23,86 @@
   "WPfr": null,
   "image_ref": "Ferronnerie-8_1_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "façade",
+    "fenetre",
     "fronton"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "arcade",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "chéneau",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mur-boutant",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "souche de cheminée",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Ferronnerie-8_1_§1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "fronton",
+        "mansarde",
+        "lucarne",
+        "balcon",
+        "garde-corps",
+        "arc",
+        "arc en plein cintre",
+        "arcade",
+        "volet",
+        "balustrade",
+        "pierre de taille",
+        "souche de cheminée",
+        "ardoise",
+        "corniche",
+        "travée",
+        "portail",
+        "porte",
+        "mur-boutant",
+        "chéneau"
+      ],
+      "dateCapture": "2006:04:21"
     },
     {
       "id_pic": "Ferronnerie-8_1_§2",
       "IndexJantzen": [
         "façade",
         "fronton"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:09:01"
     },
     {
       "id_pic": "Ferronnerie-8_1_§3",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:09:01"
     },
     {
       "id_pic": "Ferronnerie-8_1_§4",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:04:21"
     }
   ]
 }

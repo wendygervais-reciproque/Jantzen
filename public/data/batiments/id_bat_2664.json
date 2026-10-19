@@ -1,0 +1,73 @@
+{
+  "id_bat": 2664,
+  "libelle": "44 avenue de Wagram",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": null,
+  "adresse": {
+    "affichage": "44 avenue de Wagram",
+    "numero": "44",
+    "voie": "avenue de Wagram"
+  },
+  "arrondissement": 17,
+  "tri_alphab": "Wagram",
+  "coordonnees": {
+    "latitude": "48.877423",
+    "longitude": "2.297974"
+  },
+  "id_pss": null,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": "Wagram-44_17_§1",
+  "terme_jantzen_bat": [
+    "fenetre",
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "mascaron",
+    "modillon",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "sculpture",
+    "vantail",
+    "volet"
+  ],
+  "photos": [
+    {
+      "id_pic": "Wagram-44_17_§1",
+      "IndexJantzen": [
+        "fenetre",
+        "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "portail",
+        "fenêtre",
+        "volet",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "mascaron",
+        "sculpture",
+        "corniche",
+        "pierre de taille",
+        "fronton",
+        "vantail",
+        "modillon",
+        "fer forgé",
+        "arc en plein cintre"
+      ],
+      "dateCapture": "2004:09:03"
+    }
+  ]
+}

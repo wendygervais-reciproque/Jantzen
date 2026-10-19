@@ -2,7 +2,16 @@
   "id_bat": 1663,
   "libelle": "21b rue Pierre-Leroux",
   "ensemble": null,
-  "personnes": null,
+  "personnes": [
+    {
+      "personneID": 524,
+      "role": "architecte"
+    },
+    {
+      "personneID": 10014,
+      "role": "céramiste"
+    }
+  ],
   "dateConstruction": "1908",
   "periode": [
     "1895-1914"
@@ -13,6 +22,7 @@
     "voie": "rue Pierre-Leroux"
   },
   "arrondissement": 7,
+  "tri_alphab": "Pierre-Leroux",
   "coordonnees": {
     "latitude": "48.848724",
     "longitude": "2.319447"
@@ -22,21 +32,64 @@
   "WPfr": null,
   "image_ref": "Pierre-Leroux-21b_7_§1",
   "terme_jantzen_bat": [
-    "façade",
-    "céramique",
-    "fenetre",
-    "décor",
+    "mosaique",
     "clé",
     "console",
-    "mosaique",
-    "garde-corps"
+    "fenetre",
+    "façade",
+    "céramique",
+    "garde-corps",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "céramique",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "oculus",
+    "portail",
+    "porte",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Pierre-Leroux-21b_7_§1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "lucarne",
+        "souche de cheminée",
+        "arc en plein cintre",
+        "balustrade",
+        "céramique",
+        "corniche",
+        "mansarde",
+        "volet",
+        "porte",
+        "portail",
+        "travée",
+        "arc",
+        "bandeau",
+        "oculus",
+        "fer forgé",
+        "toit à deux versants"
+      ],
+      "dateCapture": "2006:07:13"
     },
     {
       "id_pic": "Pierre-Leroux-21b_7_§10",
@@ -45,7 +98,9 @@
         "décor",
         "fenetre",
         "mosaique"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:05:01"
     },
     {
       "id_pic": "Pierre-Leroux-21b_7_§11",
@@ -54,7 +109,9 @@
         "décor",
         "fenetre",
         "mosaique"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:07:13"
     },
     {
       "id_pic": "Pierre-Leroux-21b_7_§12",
@@ -63,7 +120,9 @@
         "décor",
         "fenetre",
         "mosaique"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:07:13"
     },
     {
       "id_pic": "Pierre-Leroux-21b_7_§13",
@@ -71,7 +130,9 @@
         "céramique",
         "décor",
         "mosaique"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:07:13"
     },
     {
       "id_pic": "Pierre-Leroux-21b_7_§14",
@@ -79,7 +140,9 @@
         "céramique",
         "décor",
         "mosaique"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:07:13"
     },
     {
       "id_pic": "Pierre-Leroux-21b_7_§15",
@@ -87,7 +150,9 @@
         "céramique",
         "décor",
         "mosaique"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:07:13"
     },
     {
       "id_pic": "Pierre-Leroux-21b_7_§16",
@@ -95,7 +160,9 @@
         "céramique",
         "décor",
         "mosaique"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:05:01"
     },
     {
       "id_pic": "Pierre-Leroux-21b_7_§17",
@@ -103,7 +170,9 @@
         "céramique",
         "décor",
         "mosaique"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:07:13"
     },
     {
       "id_pic": "Pierre-Leroux-21b_7_§18",
@@ -111,7 +180,9 @@
         "céramique",
         "décor",
         "mosaique"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:07:13"
     },
     {
       "id_pic": "Pierre-Leroux-21b_7_§19",
@@ -121,7 +192,9 @@
         "fenetre",
         "garde-corps",
         "mosaique"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:05:01"
     },
     {
       "id_pic": "Pierre-Leroux-21b_7_§2",
@@ -130,7 +203,9 @@
         "décor",
         "fenetre",
         "mosaique"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:07:13"
     },
     {
       "id_pic": "Pierre-Leroux-21b_7_§21",
@@ -140,7 +215,9 @@
         "fenetre",
         "garde-corps",
         "mosaique"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:07:13"
     },
     {
       "id_pic": "Pierre-Leroux-21b_7_§22",
@@ -149,7 +226,9 @@
         "décor",
         "fenetre",
         "mosaique"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:07:13"
     },
     {
       "id_pic": "Pierre-Leroux-21b_7_§23",
@@ -159,7 +238,9 @@
         "décor",
         "fenetre",
         "mosaique"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:07:13"
     },
     {
       "id_pic": "Pierre-Leroux-21b_7_§24",
@@ -168,7 +249,9 @@
         "décor",
         "fenetre",
         "mosaique"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:07:13"
     },
     {
       "id_pic": "Pierre-Leroux-21b_7_§25",
@@ -177,7 +260,9 @@
         "céramique",
         "décor",
         "mosaique"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:05:01"
     },
     {
       "id_pic": "Pierre-Leroux-21b_7_§26",
@@ -186,14 +271,18 @@
         "céramique",
         "décor",
         "mosaique"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:07:13"
     },
     {
       "id_pic": "Pierre-Leroux-21b_7_§27",
       "IndexJantzen": [
         "clé",
         "céramique"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:07:13"
     },
     {
       "id_pic": "Pierre-Leroux-21b_7_§3",
@@ -201,7 +290,9 @@
         "céramique",
         "fenetre",
         "mosaique"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:07:13"
     },
     {
       "id_pic": "Pierre-Leroux-21b_7_§4",
@@ -209,7 +300,9 @@
         "céramique",
         "façade",
         "mosaique"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:07:13"
     },
     {
       "id_pic": "Pierre-Leroux-21b_7_§5",
@@ -217,7 +310,9 @@
         "céramique",
         "fenetre",
         "mosaique"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:05:01"
     },
     {
       "id_pic": "Pierre-Leroux-21b_7_§6",
@@ -225,7 +320,9 @@
         "céramique",
         "fenetre",
         "mosaique"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:07:13"
     },
     {
       "id_pic": "Pierre-Leroux-21b_7_§8",
@@ -233,7 +330,9 @@
         "céramique",
         "fenetre",
         "mosaique"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:07:13"
     },
     {
       "id_pic": "Pierre-Leroux-21b_7_§9",
@@ -242,7 +341,9 @@
         "décor",
         "fenetre",
         "mosaique"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:05:01"
     }
   ]
 }

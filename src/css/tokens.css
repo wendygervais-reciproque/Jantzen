@@ -1,72 +1,157 @@
-/*
- * tokens.css — Architecture Paris / TORNE-H
- * Source : primitives.json (palettes neutral + brand mises à jour)
- *          + styles de texte Figma (title / body / interface)
- *
- * Règle : jamais de hex en dur dans main.css — toujours via token sémantique.
- */
+/* tokens.css — Jetons de design. Jamais de hex en dur dans main.css : toujours
+   via un token sémantique. */
 
-/* ─── POLICES ────────────────────────────────────────────────────────────── */
+/* ─── POLICES (typography/family) ────────────────────────────────────────────
+ * Trois graisses d'Univers Com condensé + Walbaum Book :
+ *   47 Light Condensed → 300 · 57 Condensed → 400 · 67 Bold Condensed → 700
+ */
+ 
 :root {
-  --font-sans:  'UniversCom', 'Helvetica Neue', Arial, sans-serif;
-  --font-serif: 'WalbaumBook', Georgia, serif;
-  --font-mono:  'JetBrains Mono', 'Courier New', monospace;
+  --font-sans:    'UniversCom', 'Arial Narrow', 'Helvetica Neue', Arial, sans-serif;
+  --font-display: 'UniversCom', 'Arial Narrow', 'Helvetica Neue', Arial, sans-serif;
+  --font-serif:   'WalbaumBook', Georgia, 'Times New Roman', serif;
+  --font-mono:    'JetBrains Mono', 'Courier New', monospace;
 }
 
-/* ─── ÉCHELLES PRIMITIVES (_primitives/typography) ───────────────────────── */
+/* ─── ÉCHELLES PRIMITIVES (_primitives/typography) ───────────────────────────
+ * Échelle nommée en ratio de la base 16px (100 = 16px). */
 :root {
   /* Font-size (typography/size) */
-  --fs-8:  8px;
-  --fs-12: 12px;
-  --fs-14: 14px;
-  --fs-16: 16px;
-  --fs-18: 18px;
-  --fs-20: 20px;
-  --fs-24: 24px;
-  --fs-32: 32px;
-  --fs-40: 40px;
-  --fs-48: 48px;
+  --fs-50:  8px;
+  --fs-75:  12px;
+  --fs-87:  14px;
+  --fs-100: 16px;
+  --fs-112: 18px;
+  --fs-125: 20px;
+  --fs-150: 24px;
+  --fs-200: 32px;
+  --fs-250: 40px;
+  --fs-300: 48px;
 
   /* Font-weight (typography/weight) */
-  --fw-400: 400;
-  --fw-600: 600;
-  --fw-700: 700;
+  --fw-300: 300;    /* UniversCom 47 Light Condensed */
+  --fw-400: 400;    /* UniversCom 57 Condensed · WalbaumBook Regular */
+  --fw-700: 700;    /* UniversCom 67 Bold Condensed */
 
   /* Line-height (typography/line-height) */
   --lh-1:    1;
   --lh-120:  1.2;
   --lh-130:  1.3;
+  --lh-140:  1.4;
   --lh-150:  1.5;
   --lh-160:  1.6;
 
-  /* Letter-spacing */
-  --ls-tight:   0.02em;
-  --ls-normal:  0.04em;
-  --ls-wide:    0.08em;
-  --ls-xl:      0.14em;
+  /* Letter-spacing — 0 partout sauf l'overline */
+  --ls-0:        0;
+  --ls-overline: 0.03em;
 }
 
-/* ─── STYLES TYPOGRAPHIQUES SÉMANTIQUES (Figma text styles) ──────────────── */
+/* ─── STYLES TYPOGRAPHIQUES ──────────────────────────────────────────────────
+ * Chaque style expose ses composantes et un raccourci `--text-…` utilisable en
+ * `font: var(--text-title-h5);`. Le serif porte les titres éditoriaux (h2, h5),
+ * le condensé les titres d'interface (h3, h4) et le corps de texte. */
 :root {
-  /* title/ — titres hiérarchiques */
-  --text-title-h1-size:   var(--fs-48);  --text-title-h1-weight: var(--fw-700); --text-title-h1-lh: var(--lh-120);
-  --text-title-h2-size:   var(--fs-40);  --text-title-h2-weight: var(--fw-700); --text-title-h2-lh: var(--lh-120);
-  --text-title-h3-size:   var(--fs-32);  --text-title-h3-weight: var(--fw-600); --text-title-h3-lh: var(--lh-130);
-  --text-title-h4-size:   var(--fs-24);  --text-title-h4-weight: var(--fw-600); --text-title-h4-lh: var(--lh-130);
-  --text-title-h5-size:   var(--fs-20);  --text-title-h5-weight: var(--fw-600); --text-title-h5-lh: var(--lh-150);
+  /* title/ ------------------------------------------------------------- */
+  --text-title-h1-family: var(--font-serif);
+  --text-title-h1-size:   var(--fs-300);
+  --text-title-h1-weight: var(--fw-400);
+  --text-title-h1-lh:     var(--lh-120);
+  --text-title-h1: var(--text-title-h1-weight) var(--text-title-h1-size)/var(--text-title-h1-lh) var(--text-title-h1-family);
 
-  /* body/ — corps de texte */
-  --text-body-large-size:      var(--fs-18); --text-body-large-weight:      var(--fw-400); --text-body-large-lh: var(--lh-160);
-  --text-body-large-bold-size: var(--fs-18); --text-body-large-bold-weight: var(--fw-700); --text-body-large-bold-lh: var(--lh-160);
-  --text-body-base-size:       var(--fs-16); --text-body-base-weight:       var(--fw-400); --text-body-base-lh: var(--lh-150);
-  --text-body-base-bold-size:  var(--fs-16); --text-body-base-bold-weight:  var(--fw-700); --text-body-base-bold-lh: var(--lh-150);
-  --text-body-small-size:      var(--fs-14); --text-body-small-weight:      var(--fw-400); --text-body-small-lh: var(--lh-150);
-  --text-body-small-bold-size: var(--fs-14); --text-body-small-bold-weight: var(--fw-700); --text-body-small-bold-lh: var(--lh-150);
+  --text-title-h2-family: var(--font-serif);
+  --text-title-h2-size:   var(--fs-200);
+  --text-title-h2-weight: var(--fw-400);
+  --text-title-h2-lh:     var(--lh-120);
+  --text-title-h2: var(--text-title-h2-weight) var(--text-title-h2-size)/var(--text-title-h2-lh) var(--text-title-h2-family);
 
-  /* interface/ — éléments UI */
-  --text-interface-button-size:    var(--fs-14); --text-interface-button-weight:    var(--fw-600); --text-interface-button-lh: var(--lh-1);
-  --text-interface-overline-size:  var(--fs-12); --text-interface-overline-weight:  var(--fw-600); --text-interface-overline-lh: var(--lh-1);    --text-interface-overline-ls: var(--ls-wide);
-  --text-interface-caption-size:   var(--fs-12); --text-interface-caption-weight:   var(--fw-400); --text-interface-caption-lh: var(--lh-130);
+  --text-title-h3-family: var(--font-display);
+  --text-title-h3-size:   var(--fs-150);
+  --text-title-h3-weight: var(--fw-400);
+  --text-title-h3-lh:     var(--lh-130);
+  --text-title-h3: var(--text-title-h3-weight) var(--text-title-h3-size)/var(--text-title-h3-lh) var(--text-title-h3-family);
+
+  --text-title-h4-family: var(--font-display);
+  --text-title-h4-size:   var(--fs-125);
+  --text-title-h4-weight: var(--fw-300);
+  --text-title-h4-lh:     var(--lh-120);
+  --text-title-h4: var(--text-title-h4-weight) var(--text-title-h4-size)/var(--text-title-h4-lh) var(--text-title-h4-family);
+
+  --text-title-h5-family: var(--font-serif);
+  --text-title-h5-size:   var(--fs-112);
+  --text-title-h5-weight: var(--fw-400);
+  --text-title-h5-lh:     var(--lh-120);
+  --text-title-h5: var(--text-title-h5-weight) var(--text-title-h5-size)/var(--text-title-h5-lh) var(--text-title-h5-family);
+
+  /* body/ -------------------------------------------------------------- */
+  --text-body-large-family: var(--font-sans);
+  --text-body-large-size:   var(--fs-112);
+  --text-body-large-weight: var(--fw-300);
+  --text-body-large-lh:     var(--lh-160);
+  --text-body-large: var(--text-body-large-weight) var(--text-body-large-size)/var(--text-body-large-lh) var(--text-body-large-family);
+
+  --text-body-base-family: var(--font-sans);
+  --text-body-base-size:   var(--fs-100);
+  --text-body-base-weight: var(--fw-300);
+  --text-body-base-lh:     var(--lh-140);
+  --text-body-base: var(--text-body-base-weight) var(--text-body-base-size)/var(--text-body-base-lh) var(--text-body-base-family);
+
+  --text-body-base-bold-family: var(--font-sans);
+  --text-body-base-bold-size:   var(--fs-100);
+  --text-body-base-bold-weight: var(--fw-700);
+  --text-body-base-bold-lh:     var(--lh-150);
+  --text-body-base-bold: var(--text-body-base-bold-weight) var(--text-body-base-bold-size)/var(--text-body-base-bold-lh) var(--text-body-base-bold-family);
+
+  --text-body-small-family: var(--font-sans);
+  --text-body-small-size:   var(--fs-87);
+  --text-body-small-weight: var(--fw-300);
+  --text-body-small-lh:     var(--lh-140);
+  --text-body-small: var(--text-body-small-weight) var(--text-body-small-size)/var(--text-body-small-lh) var(--text-body-small-family);
+
+  --text-body-small-bold-family: var(--font-sans);
+  --text-body-small-bold-size:   var(--fs-87);
+  --text-body-small-bold-weight: var(--fw-700);
+  --text-body-small-bold-lh:     var(--lh-140);
+  --text-body-small-bold: var(--text-body-small-bold-weight) var(--text-body-small-bold-size)/var(--text-body-small-bold-lh) var(--text-body-small-bold-family);
+
+  /* interface/ --------------------------------------------------------- */
+  --text-interface-button-small-family: var(--font-sans);
+  --text-interface-button-small-size:   var(--fs-87);
+  --text-interface-button-small-weight: var(--fw-400);
+  --text-interface-button-small-lh:     var(--lh-1);
+  --text-interface-button-small: var(--text-interface-button-small-weight) var(--text-interface-button-small-size)/var(--text-interface-button-small-lh) var(--text-interface-button-small-family);
+
+  --text-interface-button-medium-family: var(--font-sans);
+  --text-interface-button-medium-size:   var(--fs-100);
+  --text-interface-button-medium-weight: var(--fw-400);
+  --text-interface-button-medium-lh:     var(--lh-1);
+  --text-interface-button-medium: var(--text-interface-button-medium-weight) var(--text-interface-button-medium-size)/var(--text-interface-button-medium-lh) var(--text-interface-button-medium-family);
+
+  --text-interface-button-large-family: var(--font-sans);
+  --text-interface-button-large-size:   var(--fs-112);
+  --text-interface-button-large-weight: var(--fw-400);
+  --text-interface-button-large-lh:     var(--lh-1);
+  --text-interface-button-large: var(--text-interface-button-large-weight) var(--text-interface-button-large-size)/var(--text-interface-button-large-lh) var(--text-interface-button-large-family);
+
+  --text-interface-overline-family: var(--font-sans);
+  --text-interface-overline-size:   var(--fs-87);
+  --text-interface-overline-weight: var(--fw-400);
+  --text-interface-overline-lh:     var(--lh-140);
+  --text-interface-overline-ls:     var(--ls-overline);
+  --text-interface-overline: var(--text-interface-overline-weight) var(--text-interface-overline-size)/var(--text-interface-overline-lh) var(--text-interface-overline-family);
+
+  /* Second niveau de sur-titre (ex. typologies de l'index Torne-H). */
+  --text-interface-overline-secondary-family: var(--font-sans);
+  --text-interface-overline-secondary-size:   var(--fs-75);
+  --text-interface-overline-secondary-weight: var(--fw-400);
+  --text-interface-overline-secondary-lh:     var(--lh-120);
+  --text-interface-overline-secondary-ls:     var(--ls-overline);
+  --text-interface-overline-secondary: var(--text-interface-overline-secondary-weight) var(--text-interface-overline-secondary-size)/var(--text-interface-overline-secondary-lh) var(--text-interface-overline-secondary-family);
+
+  --text-interface-caption-family: var(--font-sans);
+  --text-interface-caption-size:   var(--fs-75);
+  --text-interface-caption-weight: var(--fw-300);
+  --text-interface-caption-lh:     var(--lh-130);
+  --text-interface-caption: var(--text-interface-caption-weight) var(--text-interface-caption-size)/var(--text-interface-caption-lh) var(--text-interface-caption-family);
 }
 
 /* ─── LAYOUT (Desktop par défaut) ────────────────────────────────────────── */
@@ -81,22 +166,24 @@
   /* Radius */
   --radius-container: 12px;
   --radius-element:   8px;
-  --radius-badge:     9999px;
   --radius-media:     8px;
-  --radius-media-full: 9999px;
+  --radius-badge:     9999px;
+  --radius-full:      9999px;
 
-  /* Espacement composants */
-  --component-padding-2:  2px;
-  --component-padding-4:  4px;
-  --component-padding-8:  8px;
-  --component-padding-12: 12px;
-  --component-padding-16: 16px;
-  --component-padding-20: 20px;
-  --component-padding-24: 24px;
-  --component-padding-32: 32px;
-  --component-padding-40: 40px;
-  --component-padding-48: 48px;
+  /* Espacement composants (component/…) */
+  --component-2:  2px;
+  --component-4:  4px;
+  --component-6:  6px;
+  --component-8:  8px;
+  --component-12: 12px;
+  --component-16: 16px;
+  --component-20: 20px;
+  --component-24: 24px;
+  --component-32: 32px;
+  --component-40: 40px;
+  --component-48: 48px;
 
+  /* Gouttières internes (component/gap/…) */
   --component-gap-2:  2px;
   --component-gap-4:  4px;
   --component-gap-8:  8px;
@@ -108,11 +195,14 @@
   --component-gap-40: 40px;
   --component-gap-48: 48px;
 
-  /* Constantes interface */
-  --header-h:  52px;
-  --strip-h:   184px;
-  --detail-w:  340px;
-  --filters-w: 272px;
+  /* Constantes d'interface : marge d'écran, volet détail à gauche, filtres à
+     droite, bandeau supérieur (recherche/bascule). */
+  --screen-inset: 16px;
+  --topbar-h:     56px;
+  --content-top:  88px;
+  --detail-w:     400px;
+  --filters-w:    300px;
+  --search-w:     360px;
 }
 
 @media (max-width: 1279px) {
@@ -179,7 +269,7 @@
   --icon-on-brand-secondary: #7d6138;  /* brand/700 */
   --icon-on-inverse:         #faf9f5;  /* neutral/50 */
 
-  /* Feedback: success (inchangé) */
+  /* Feedback: success */
   --feedback-success-text-on:    #054d28;
   --feedback-success-icon-on:    #067739;
   --feedback-success-background: #f0fdf4;
@@ -187,7 +277,7 @@
   --feedback-success-border:     #9ff3c3;
   --feedback-success-icon:       #059645;
 
-  /* Feedback: error (inchangé) */
+  /* Feedback: error */
   --feedback-error-text-on:    #721f1f;
   --feedback-error-icon-on:    #a71919;
   --feedback-error-background: #fff0f0;
@@ -195,7 +285,7 @@
   --feedback-error-border:     #fea5a5;
   --feedback-error-icon:       #cd1d1d;
 
-  /* Feedback: warning (inchangé) */
+  /* Feedback: warning */
   --feedback-warning-text-on:    #723d13;
   --feedback-warning-icon-on:    #a85c06;
   --feedback-warning-background: #fff9eb;
@@ -216,21 +306,24 @@
   --button-primary-background-hover:    #7d6138;  /* brand/700 */
   --button-primary-background-active:   #5c4728;  /* brand/800 */
   --button-primary-background-disabled: #e4e1d5;  /* neutral/200 */
-  --button-primary-text-default:        #ffffff;
-  --button-primary-text-hover:          #ffffff;
-  --button-primary-text-active:         #ffffff;
-  --button-primary-text-disabled:       #a8a596;  /* neutral/400 */
+  --button-primary-content-default:        #ffffff;
+  --button-primary-content-hover:          #ffffff;
+  --button-primary-content-active:         #ffffff;
+  --button-primary-content-disabled:       #a8a596;  /* neutral/400 */
   --button-primary-border-default:      transparent;
+  --button-primary-border-hover:        transparent;
+  --button-primary-border-active:       transparent;
+  --button-primary-border-disabled:     transparent;
 
   /* Boutons: secondary */
   --button-secondary-background-default:  transparent;
   --button-secondary-background-hover:    #faf7f0;  /* brand/50 */
   --button-secondary-background-active:   #f3ecda;  /* brand/100 */
   --button-secondary-background-disabled: transparent;
-  --button-secondary-text-default:        #9c7d4a;  /* brand/600 */
-  --button-secondary-text-hover:          #7d6138;  /* brand/700 */
-  --button-secondary-text-active:         #5c4728;  /* brand/800 */
-  --button-secondary-text-disabled:       #a8a596;  /* neutral/400 */
+  --button-secondary-content-default:        #9c7d4a;  /* brand/600 */
+  --button-secondary-content-hover:          #7d6138;  /* brand/700 */
+  --button-secondary-content-active:         #5c4728;  /* brand/800 */
+  --button-secondary-content-disabled:       #a8a596;  /* neutral/400 */
   --button-secondary-border-default:      #9c7d4a;
   --button-secondary-border-hover:        #7d6138;
   --button-secondary-border-active:       #5c4728;
@@ -241,20 +334,24 @@
   --button-ghost-background-hover:    #f2f0e8;  /* neutral/100 */
   --button-ghost-background-active:   #e4e1d5;  /* neutral/200 */
   --button-ghost-background-disabled: transparent;
-  --button-ghost-text-default:        #43413a;  /* neutral/700 */
-  --button-ghost-text-hover:          #171610;  /* neutral/900 */
-  --button-ghost-text-active:         #171610;
-  --button-ghost-text-disabled:       #a8a596;  /* neutral/400 */
+  --button-ghost-content-default:        #43413a;  /* neutral/700 */
+  --button-ghost-content-hover:          #171610;  /* neutral/900 */
+  --button-ghost-content-active:         #171610;
+  --button-ghost-content-disabled:       #a8a596;  /* neutral/400 */
+  --button-ghost-border-default:      transparent;
+  --button-ghost-border-hover:        transparent;
+  --button-ghost-border-active:       transparent;
+  --button-ghost-border-disabled:     transparent;
 
   /* Boutons: tertiary */
   --button-tertiary-background-default:  transparent;
   --button-tertiary-background-hover:    #f2f0e8;  /* neutral/100 */
   --button-tertiary-background-active:   #e4e1d5;  /* neutral/200 */
   --button-tertiary-background-disabled: transparent;
-  --button-tertiary-text-default:        #43413a;  /* neutral/700 */
-  --button-tertiary-text-hover:          #171610;  /* neutral/900 */
-  --button-tertiary-text-active:         #171610;
-  --button-tertiary-text-disabled:       #a8a596;  /* neutral/400 */
+  --button-tertiary-content-default:        #43413a;  /* neutral/700 */
+  --button-tertiary-content-hover:          #171610;  /* neutral/900 */
+  --button-tertiary-content-active:         #171610;
+  --button-tertiary-content-disabled:       #a8a596;  /* neutral/400 */
   --button-tertiary-border-default:      #ccc9ba;  /* neutral/300 */
   --button-tertiary-border-hover:        #7e7c6f;  /* neutral/500 */
   --button-tertiary-border-active:       #43413a;  /* neutral/700 */
@@ -265,14 +362,20 @@
   --button-destructive-background-hover:    #a71919;
   --button-destructive-background-active:   #891a1a;
   --button-destructive-background-disabled: #e4e1d5;  /* neutral/200 */
-  --button-destructive-text-default:        #ffffff;
-  --button-destructive-text-disabled:       #a8a596;
+  --button-destructive-content-default:        #ffffff;
+  --button-destructive-content-hover:          #ffffff;
+  --button-destructive-content-active:         #ffffff;
+  --button-destructive-content-disabled:       #a8a596;
+  --button-destructive-border-default:      transparent;
+  --button-destructive-border-hover:        transparent;
+  --button-destructive-border-active:       transparent;
+  --button-destructive-border-disabled:     transparent;
 
   /* Lien */
-  --link-text-default: #9c7d4a;  /* brand/600 */
-  --link-text-hover:   #7d6138;  /* brand/700 */
-  --link-text-active:  #5c4728;  /* brand/800 */
-  --link-text-visited: #3a2d18;  /* brand/900 */
+  --link-default: #7d6138;  /* brand/700 */
+  --link-hover:   #5c4728;  /* brand/800 */
+  --link-active:  #3a2d18;  /* brand/900 */
+  --link-visited: #3a2d18;  /* brand/900 */
 
   /* Input */
   --input-background-default:   #ffffff;
@@ -280,11 +383,12 @@
   --input-background-active:    #ffffff;
   --input-background-disabled:  #f2f0e8;  /* neutral/100 */
   --input-background-error:     #fff0f0;
-  --input-text-default:         #171610;  /* neutral/900 */
-  --input-text-hover:           #171610;
-  --input-text-active:          #171610;
-  --input-text-disabled:        #a8a596;  /* neutral/400 */
-  --input-placeholder-default:  #a8a596;  /* neutral/400 */
+  --input-content-default:      #2a2924;  /* neutral/800 */
+  --input-content-hover:        #2a2924;
+  --input-content-active:       #2a2924;
+  --input-content-disabled:     #a8a596;  /* neutral/400 */
+  --input-placeholder-default:  #605e53;  /* neutral/600 */
+  --input-placeholder-hover:    #2a2924;  /* neutral/800 */
   --input-placeholder-disabled: #ccc9ba;  /* neutral/300 */
   --input-border-default:       #ccc9ba;  /* neutral/300 */
   --input-border-hover:         #7e7c6f;  /* neutral/500 */
@@ -294,7 +398,7 @@
 
   /* Controls */
   --control-background-default:  #ffffff;
-  --control-background-hover:    #faf9f5;  /* neutral/50 */
+  --control-background-hover:    #e8dbbe;  /* brand/200 */
   --control-background-selected: #9c7d4a;  /* brand/600 */
   --control-background-disabled: #f2f0e8;  /* neutral/100 */
   --control-border-default:      #ccc9ba;  /* neutral/300 */
@@ -303,6 +407,10 @@
   --control-border-disabled:     #e4e1d5;  /* neutral/200 */
   --control-check-selected:      #ffffff;
   --control-check-disabled:      #ccc9ba;  /* neutral/300 */
+  --control-content-default:       #7d6138;  /* brand/700 */
+  --control-content-hover:         #5c4728;  /* brand/800 */
+  --control-content-selected:      #3a2d18;  /* brand/900 */
+  --control-content-disabled:      #a8a596;  /* neutral/400 */
 
   /* Tags / Chips */
   --tag-background-default:  transparent;
@@ -310,11 +418,11 @@
   --tag-background-selected: #faf7f0;  /* brand/50 */
   --tag-background-active:   #e4e1d5;  /* neutral/200 */
   --tag-background-disabled: #faf9f5;  /* neutral/50 */
-  --tag-text-default:        #43413a;  /* neutral/700 */
-  --tag-text-hover:          #171610;  /* neutral/900 */
-  --tag-text-selected:       #7d6138;  /* brand/700 */
-  --tag-text-active:         #171610;
-  --tag-text-disabled:       #a8a596;  /* neutral/400 */
+  --tag-content-default:        #2a2924;  /* neutral/800 */
+  --tag-content-hover:          #171610;  /* neutral/900 */
+  --tag-content-selected:       #7d6138;  /* brand/700 */
+  --tag-content-active:         #171610;
+  --tag-content-disabled:       #a8a596;  /* neutral/400 */
   --tag-border-default:      #ccc9ba;  /* neutral/300 */
   --tag-border-hover:        #7e7c6f;  /* neutral/500 */
   --tag-border-selected:     #9c7d4a;  /* brand/600 */
@@ -337,7 +445,11 @@
   --menu-item-icon-selected:       #9c7d4a;  /* brand/600 */
   --menu-item-icon-active:         #171610;
   --menu-item-icon-disabled:       #ccc9ba;  /* neutral/300 */
+  --menu-item-border-default:      transparent;
+  --menu-item-border-hover:        transparent;
   --menu-item-border-selected:     #9c7d4a;  /* brand/600 */
+  --menu-item-border-active:       transparent;
+  --menu-item-border-disabled:     transparent;
 
   /* Surfaces interactives */
   --surface-interactive-background-default:  transparent;
@@ -357,13 +469,14 @@
   --focus-on-warning:             #a85c06;
   --focus-on-info:                #7d6138;  /* brand/700 */
 
-  /* Élévations */
-  --elevation-anchored: 0 1px 2px rgba(0,0,0,0.059), 0 1px 3px rgba(0,0,0,0.10);
-  --elevation-floating: 0 2px 4px rgba(0,0,0,0.059), 0 4px 6px rgba(0,0,0,0.10);
-  --elevation-overlay:  0 4px 6px rgba(0,0,0,0.051), 0 10px 15px rgba(0,0,0,0.10);
+  /* Élévations : deux ombres portées empilées, la couche large en premier. */
+  --elevation-anchored: 0 1px 3px rgba(0,0,0,0.059), 0 1px 2px rgba(0,0,0,0.102);
+  --elevation-floating: 0 4px 6px rgba(0,0,0,0.059), 0 2px 4px rgba(0,0,0,0.102);
+  --elevation-overlay:  0 10px 15px rgba(0,0,0,0.051), 0 4px 6px rgba(0,0,0,0.102);
 }
 
-/* ─── THÈME DARK ──────────────────────────────────────────────────────────── */
+/* ─── THÈME DARK ──────────────────────────────────────────────────────────────
+ * Déclinaison symétrique du thème clair, activée nulle part dans l'application. */
 [data-theme="dark"] {
   /* Backgrounds */
   --background-page:            #171610;  /* neutral/900 */
@@ -444,18 +557,18 @@
   --button-primary-background-hover:    #c9b07c;  /* brand/400 */
   --button-primary-background-active:   #dac798;  /* brand/300 */
   --button-primary-background-disabled: #43413a;  /* neutral/700 */
-  --button-primary-text-default:        #ffffff;
-  --button-primary-text-hover:          #ffffff;
-  --button-primary-text-active:         #ffffff;
-  --button-primary-text-disabled:       #7e7c6f;  /* neutral/500 */
+  --button-primary-content-default:        #ffffff;
+  --button-primary-content-hover:          #ffffff;
+  --button-primary-content-active:         #ffffff;
+  --button-primary-content-disabled:       #7e7c6f;  /* neutral/500 */
 
   /* Boutons: secondary */
   --button-secondary-background-hover:    #3a2d18;  /* brand/900 */
   --button-secondary-background-active:   #5c4728;  /* brand/800 */
-  --button-secondary-text-default:        #c9b07c;  /* brand/400 */
-  --button-secondary-text-hover:          #dac798;  /* brand/300 */
-  --button-secondary-text-active:         #e8dbbe;  /* brand/200 */
-  --button-secondary-text-disabled:       #7e7c6f;
+  --button-secondary-content-default:        #c9b07c;  /* brand/400 */
+  --button-secondary-content-hover:          #dac798;  /* brand/300 */
+  --button-secondary-content-active:         #e8dbbe;  /* brand/200 */
+  --button-secondary-content-disabled:       #7e7c6f;
   --button-secondary-border-default:      #c9b07c;
   --button-secondary-border-hover:        #dac798;
   --button-secondary-border-active:       #e8dbbe;
@@ -464,28 +577,28 @@
   /* Boutons: ghost */
   --button-ghost-background-hover:    #2a2924;  /* neutral/800 */
   --button-ghost-background-active:   #43413a;  /* neutral/700 */
-  --button-ghost-text-default:        #ccc9ba;  /* neutral/300 */
-  --button-ghost-text-hover:          #f2f0e8;  /* neutral/100 */
-  --button-ghost-text-active:         #f2f0e8;
-  --button-ghost-text-disabled:       #7e7c6f;
+  --button-ghost-content-default:        #ccc9ba;  /* neutral/300 */
+  --button-ghost-content-hover:          #f2f0e8;  /* neutral/100 */
+  --button-ghost-content-active:         #f2f0e8;
+  --button-ghost-content-disabled:       #7e7c6f;
 
   /* Boutons: tertiary */
   --button-tertiary-background-hover:    #2a2924;
   --button-tertiary-background-active:   #43413a;
-  --button-tertiary-text-default:        #ccc9ba;  /* neutral/300 */
-  --button-tertiary-text-hover:          #f2f0e8;  /* neutral/100 */
-  --button-tertiary-text-active:         #f2f0e8;
-  --button-tertiary-text-disabled:       #7e7c6f;
+  --button-tertiary-content-default:        #ccc9ba;  /* neutral/300 */
+  --button-tertiary-content-hover:          #f2f0e8;  /* neutral/100 */
+  --button-tertiary-content-active:         #f2f0e8;
+  --button-tertiary-content-disabled:       #7e7c6f;
   --button-tertiary-border-default:      #605e53;  /* neutral/600 */
   --button-tertiary-border-hover:        #a8a596;  /* neutral/400 */
   --button-tertiary-border-active:       #e4e1d5;  /* neutral/200 */
   --button-tertiary-border-disabled:     #43413a;  /* neutral/700 */
 
   /* Lien */
-  --link-text-default: #c9b07c;  /* brand/400 */
-  --link-text-hover:   #dac798;  /* brand/300 */
-  --link-text-active:  #e8dbbe;  /* brand/200 */
-  --link-text-visited: #f3ecda;  /* brand/100 */
+  --link-default: #c9b07c;  /* brand/400 */
+  --link-hover:   #dac798;  /* brand/300 */
+  --link-active:  #e8dbbe;  /* brand/200 */
+  --link-visited: #f3ecda;  /* brand/100 */
 
   /* Input */
   --input-background-default:   #2a2924;  /* neutral/800 */
@@ -493,11 +606,12 @@
   --input-background-active:    #2a2924;
   --input-background-disabled:  #43413a;  /* neutral/700 */
   --input-background-error:     #721f1f;
-  --input-text-default:         #faf9f5;  /* neutral/50 */
-  --input-text-hover:           #faf9f5;
-  --input-text-active:          #faf9f5;
-  --input-text-disabled:        #7e7c6f;  /* neutral/500 */
-  --input-placeholder-default:  #7e7c6f;
+  --input-content-default:         #f2f0e8;  /* neutral/100 */
+  --input-content-hover:           #f2f0e8;
+  --input-content-active:          #f2f0e8;
+  --input-content-disabled:        #7e7c6f;  /* neutral/500 */
+  --input-placeholder-default:  #a8a596;  /* neutral/400 */
+  --input-placeholder-hover:    #e4e1d5;  /* neutral/200 */
   --input-placeholder-disabled: #605e53;  /* neutral/600 */
   --input-border-default:       #605e53;
   --input-border-hover:         #a8a596;  /* neutral/400 */
@@ -515,17 +629,21 @@
   --control-border-selected:     #b89862;  /* brand/500 */
   --control-border-disabled:     #605e53;
   --control-check-disabled:      #605e53;
+  --control-content-default:       #c9b07c;  /* brand/400 */
+  --control-content-hover:         #dac798;  /* brand/300 */
+  --control-content-selected:      #3a2d18;  /* brand/900, posé sur le doré */
+  --control-content-disabled:      #605e53;  /* neutral/600 */
 
   /* Tags */
   --tag-background-hover:    #2a2924;
   --tag-background-selected: #3a2d18;  /* brand/900 */
   --tag-background-disabled: #2a2924;
   --tag-background-active:   #43413a;
-  --tag-text-default:        #ccc9ba;  /* neutral/300 */
-  --tag-text-hover:          #f2f0e8;  /* neutral/100 */
-  --tag-text-selected:       #dac798;  /* brand/300 */
-  --tag-text-active:         #f2f0e8;
-  --tag-text-disabled:       #7e7c6f;
+  --tag-content-default:        #e4e1d5;  /* neutral/200 */
+  --tag-content-hover:          #f2f0e8;  /* neutral/100 */
+  --tag-content-selected:       #dac798;  /* brand/300 */
+  --tag-content-active:         #f2f0e8;
+  --tag-content-disabled:       #7e7c6f;
   --tag-border-default:      #605e53;
   --tag-border-hover:        #a8a596;
   --tag-border-selected:     #c9b07c;  /* brand/400 */

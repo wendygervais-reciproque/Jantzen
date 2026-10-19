@@ -4,8 +4,12 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 363,
+      "personneID": 490,
       "role": "architecte"
+    },
+    {
+      "personneID": 10009,
+      "role": "sculpteur"
     }
   ],
   "dateConstruction": "1908",
@@ -18,6 +22,7 @@
     "voie": "rue Saint-Lazare"
   },
   "arrondissement": 9,
+  "tri_alphab": "St-Lazare",
   "coordonnees": {
     "latitude": "48.876011",
     "longitude": "2.329495"
@@ -27,57 +32,114 @@
   "WPfr": null,
   "image_ref": "St-Lazare-82_9_§1",
   "terme_jantzen_bat": [
-    "lucarne",
-    "façade",
     "oeil-de-boeuf",
     "sculpture",
-    "console"
+    "console",
+    "lucarne",
+    "façade"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "mur-boutant",
+    "oculus",
+    "pierre de taille",
+    "sculpture",
+    "souche de cheminée",
+    "tour",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "St-Lazare-82_9_§1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "bandeau",
+        "corniche",
+        "fenêtre",
+        "fronton",
+        "garde-corps",
+        "lucarne",
+        "mansarde",
+        "mascaron",
+        "pierre de taille",
+        "sculpture",
+        "souche de cheminée",
+        "tour",
+        "travée",
+        "volet",
+        "mur-boutant",
+        "ardoise",
+        "fer forgé",
+        "oculus"
+      ],
+      "dateCapture": "2004:08:26"
     },
     {
       "id_pic": "St-Lazare-82_9_§2",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:08:09"
     },
     {
       "id_pic": "St-Lazare-82_9_§3",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:08:09"
     },
     {
       "id_pic": "St-Lazare-82_9_§4",
       "IndexJantzen": [
         "lucarne",
         "oeil-de-boeuf"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:08:09"
     },
     {
       "id_pic": "St-Lazare-82_9_§5",
       "IndexJantzen": [
         "lucarne",
         "oeil-de-boeuf"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:08:09"
     },
     {
       "id_pic": "St-Lazare-82_9_§6",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:08:26"
     },
     {
       "id_pic": "St-Lazare-82_9_§7",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:08:26"
     }
   ]
 }

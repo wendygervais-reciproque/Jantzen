@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 434,
+      "personneID": 911,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue Saint-Martin"
   },
   "arrondissement": 3,
+  "tri_alphab": "St-Martin",
   "coordonnees": {
     "latitude": "48.866505",
     "longitude": "2.354264"
@@ -27,114 +28,177 @@
   "WPfr": null,
   "image_ref": "St-Martin-278_3_§1",
   "terme_jantzen_bat": [
+    "toiture",
+    "pilastre",
+    "fenetre",
     "lucarne",
     "façade",
-    "toiture",
+    "fronton"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
     "fronton",
-    "fenetre",
-    "pilastre"
+    "grille",
+    "lucarne",
+    "mansarde",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "souche de cheminée",
+    "soupirail",
+    "travée"
   ],
   "photos": [
     {
       "id_pic": "St-Martin-278_3_§1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [
+        "lucarne",
+        "mansarde",
+        "fronton",
+        "fenêtre",
+        "arc en plein cintre",
+        "pilastre",
+        "corniche",
+        "souche de cheminée",
+        "ardoise",
+        "porte",
+        "chaîne d'angle",
+        "grille",
+        "soupirail",
+        "travée",
+        "pierre de taille"
+      ],
+      "dateCapture": "2007:05:24"
     },
     {
       "id_pic": "St-Martin-278_3_§10-Rs",
       "IndexJantzen": [
         "fronton",
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:02:18"
     },
     {
       "id_pic": "St-Martin-278_3_§11",
       "IndexJantzen": [
         "fronton",
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:02:18"
     },
     {
       "id_pic": "St-Martin-278_3_§12-Rs",
       "IndexJantzen": [
         "fronton",
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:02:18"
     },
     {
       "id_pic": "St-Martin-278_3_§13",
       "IndexJantzen": [
         "fronton",
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:05:24"
     },
     {
       "id_pic": "St-Martin-278_3_§14",
       "IndexJantzen": [
         "fronton",
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:08:04"
     },
     {
       "id_pic": "St-Martin-278_3_§15",
       "IndexJantzen": [
         "pilastre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:08:04"
     },
     {
       "id_pic": "St-Martin-278_3_§16",
       "IndexJantzen": [
         "fronton",
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:08:04"
     },
     {
       "id_pic": "St-Martin-278_3_§2",
       "IndexJantzen": [
         "lucarne",
         "toiture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:08:04"
     },
     {
       "id_pic": "St-Martin-278_3_§3",
       "IndexJantzen": [
         "lucarne",
         "toiture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:08:04"
     },
     {
       "id_pic": "St-Martin-278_3_§4-Rs",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:02:18"
     },
     {
       "id_pic": "St-Martin-278_3_§6",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:05:24"
     },
     {
       "id_pic": "St-Martin-278_3_§7",
       "IndexJantzen": [
         "fenetre",
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:08:04"
     },
     {
       "id_pic": "St-Martin-278_3_§8-Rs",
       "IndexJantzen": [
         "fronton",
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:02:18"
     },
     {
       "id_pic": "St-Martin-278_3_§9",
       "IndexJantzen": [
         "fronton",
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:05:24"
     }
   ]
 }

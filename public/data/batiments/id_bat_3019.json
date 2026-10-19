@@ -4,8 +4,12 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 481,
+      "personneID": 642,
       "role": "architecte"
+    },
+    {
+      "personneID": 10103,
+      "role": "sculpteur"
     }
   ],
   "dateConstruction": "1905",
@@ -18,6 +22,7 @@
     "voie": "rue de Clichy"
   },
   "arrondissement": 9,
+  "tri_alphab": "Clichy",
   "coordonnees": {
     "latitude": "48.880945",
     "longitude": "2.328529"
@@ -27,51 +32,116 @@
   "WPfr": null,
   "image_ref": "Clichy-55_9_§1",
   "terme_jantzen_bat": [
-    "lucarne",
-    "façade",
     "toiture",
-    "fenetre",
     "oeil-de-boeuf",
     "sculpture",
+    "fenetre",
+    "lucarne",
+    "façade",
     "colonne"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chapiteau",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "oriel",
+    "pierre de taille",
+    "pilastre",
+    "porche",
+    "porte",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "volet",
+    "épi de faîtage"
   ],
   "photos": [
     {
       "id_pic": "Clichy-55_9_§1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "arc en plein cintre",
+        "oriel",
+        "mansarde",
+        "lucarne",
+        "dôme",
+        "épi de faîtage",
+        "souche de cheminée",
+        "toit à deux versants",
+        "ardoise",
+        "volet",
+        "pilastre",
+        "mascaron",
+        "oculus",
+        "pierre de taille",
+        "fer forgé",
+        "corniche",
+        "bandeau",
+        "travée",
+        "porte",
+        "porche",
+        "chapiteau"
+      ],
+      "dateCapture": "2007:03:28"
     },
     {
       "id_pic": "Clichy-55_9_§2",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:03:28"
     },
     {
       "id_pic": "Clichy-55_9_§3",
       "IndexJantzen": [
         "lucarne",
         "toiture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:08:26"
     },
     {
       "id_pic": "Clichy-55_9_§4",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:03:28"
     },
     {
       "id_pic": "Clichy-55_9_§5",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:03:28"
     },
     {
       "id_pic": "Clichy-55_9_§6",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:05:21"
     },
     {
       "id_pic": "Clichy-55_9_§7",
@@ -79,7 +149,9 @@
         "colonne",
         "fenetre",
         "oeil-de-boeuf"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:05:21"
     }
   ]
 }

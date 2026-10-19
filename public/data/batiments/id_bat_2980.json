@@ -1,0 +1,86 @@
+{
+  "id_bat": 2980,
+  "libelle": "53 rue Nollet",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": null,
+  "adresse": {
+    "affichage": "53 rue Nollet",
+    "numero": "53",
+    "voie": "rue Nollet"
+  },
+  "arrondissement": 17,
+  "tri_alphab": "Nollet",
+  "coordonnees": {
+    "latitude": "48.886911",
+    "longitude": "2.321294"
+  },
+  "id_pss": null,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": "Nollet-53_17_§1",
+  "terme_jantzen_bat": [
+    "brique",
+    "céramique",
+    "fenetre",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc brisé",
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "corniche",
+    "céramique",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "grille",
+    "oculus",
+    "pierre de taille",
+    "travée"
+  ],
+  "photos": [
+    {
+      "id_pic": "Nollet-53_17_§1",
+      "IndexJantzen": [
+        "brique",
+        "céramique",
+        "décor",
+        "fenetre"
+      ],
+      "IndexTorneh": [
+        "arc en plein cintre",
+        "arc brisé",
+        "fenêtre",
+        "brique",
+        "céramique",
+        "corniche",
+        "balcon",
+        "balustrade",
+        "fer forgé",
+        "garde-corps",
+        "grille",
+        "bandeau",
+        "pierre de taille",
+        "oculus",
+        "travée"
+      ],
+      "dateCapture": "2004:06:27"
+    },
+    {
+      "id_pic": "Nollet-53_17_§2 11-17-32-978",
+      "IndexJantzen": [
+        "brique",
+        "céramique",
+        "décor",
+        "fenetre"
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:06:27"
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "id_bat": 1810,
+  "libelle": "24 rue Faidherbe",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 45,
+      "role": "architecte"
+    },
+    {
+      "personneID": 191,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": null,
+  "periode": [
+    "1915-1944"
+  ],
+  "adresse": {
+    "affichage": "24 rue Faidherbe",
+    "numero": "24",
+    "voie": "rue Faidherbe"
+  },
+  "arrondissement": 11,
+  "tri_alphab": "Faidherbe",
+  "coordonnees": {
+    "latitude": "48.851955",
+    "longitude": "2.383743"
+  },
+  "id_pss": 37365,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": "Faidherbe-24_11_§1",
+  "terme_jantzen_bat": [
+    "verrière",
+    "mosaique",
+    "porte-fer",
+    "fenetre",
+    "façade",
+    "marquise",
+    "porte",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "baie",
+    "brique",
+    "corniche",
+    "céramique",
+    "fenêtre",
+    "frise",
+    "marquise",
+    "porte",
+    "porte-fenêtre",
+    "toit-terrasse",
+    "travée"
+  ],
+  "photos": [
+    {
+      "id_pic": "Faidherbe-24_11_§1",
+      "IndexJantzen": [
+        "façade"
+      ],
+      "IndexTorneh": [
+        "baie",
+        "fenêtre",
+        "porte",
+        "marquise",
+        "céramique",
+        "frise",
+        "corniche",
+        "brique",
+        "travée",
+        "toit-terrasse",
+        "porte-fenêtre"
+      ],
+      "dateCapture": "2007:04:11"
+    },
+    {
+      "id_pic": "Faidherbe-24_11_§10",
+      "IndexJantzen": [
+        "décor",
+        "mosaique"
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:04:11"
+    },
+    {
+      "id_pic": "Faidherbe-24_11_§4",
+      "IndexJantzen": [
+        "mosaique",
+        "porte",
+        "verrière"
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:04:11"
+    },
+    {
+      "id_pic": "Faidherbe-24_11_§6",
+      "IndexJantzen": [
+        "fenetre",
+        "mosaique",
+        "verrière"
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:04:11"
+    },
+    {
+      "id_pic": "Faidherbe-24_11_§7-14",
+      "IndexJantzen": [
+        "fenetre",
+        "mosaique"
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:04:11"
+    },
+    {
+      "id_pic": "Faidherbe-24_11_§8",
+      "IndexJantzen": [
+        "marquise",
+        "mosaique",
+        "porte-fer"
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:04:11"
+    }
+  ]
+}

@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 671,
+      "personneID": 898,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue de l'Arcade"
   },
   "arrondissement": 8,
+  "tri_alphab": "Arcade",
   "coordonnees": {
     "latitude": "48.872924",
     "longitude": "2.324221"
@@ -27,28 +28,71 @@
   "WPfr": null,
   "image_ref": "Arcade-34_8_§1",
   "terme_jantzen_bat": [
-    "façade",
-    "fenetre",
+    "balcon",
     "sculpture",
     "console",
+    "fenetre",
+    "façade",
     "poignée-porte",
+    "garde-corps",
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "attique",
     "balcon",
-    "porte-bois",
-    "garde-corps"
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "frise",
+    "garde-corps",
+    "jambage",
+    "linteau",
+    "mascaron",
+    "modillon",
+    "pierre de taille",
+    "sculpture",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Arcade-34_8_§1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "volet",
+        "corniche",
+        "modillon",
+        "mascaron",
+        "travée",
+        "bandeau",
+        "fer forgé",
+        "pierre de taille",
+        "sculpture",
+        "frise",
+        "chambranle",
+        "linteau",
+        "jambage",
+        "attique"
+      ],
+      "dateCapture": "2010:04:18"
     },
     {
       "id_pic": "Arcade-34_8_§10",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2010:04:18"
     },
     {
       "id_pic": "Arcade-34_8_§11",
@@ -56,51 +100,67 @@
         "console",
         "façade",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:09:17"
     },
     {
       "id_pic": "Arcade-34_8_§12",
       "IndexJantzen": [
         "porte-bois"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2010:04:18"
     },
     {
       "id_pic": "Arcade-34_8_§13",
       "IndexJantzen": [
         "poignée-porte"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2010:04:18"
     },
     {
       "id_pic": "Arcade-34_8_§2",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:09:17"
     },
     {
       "id_pic": "Arcade-34_8_§3",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2010:04:18"
     },
     {
       "id_pic": "Arcade-34_8_§5",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2010:04:18"
     },
     {
       "id_pic": "Arcade-34_8_§6",
       "IndexJantzen": [
         "fenetre",
         "garde-corps"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2010:04:18"
     },
     {
       "id_pic": "Arcade-34_8_§7",
       "IndexJantzen": [
         "fenetre",
         "garde-corps"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:09:17"
     },
     {
       "id_pic": "Arcade-34_8_§8",
@@ -108,14 +168,18 @@
         "fenetre",
         "garde-corps",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2010:04:18"
     },
     {
       "id_pic": "Arcade-34_8_§9",
       "IndexJantzen": [
         "balcon",
         "garde-corps"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2010:04:18"
     }
   ]
 }

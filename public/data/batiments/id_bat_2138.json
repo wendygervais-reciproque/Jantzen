@@ -13,6 +13,7 @@
     "voie": "avenue de Villiers"
   },
   "arrondissement": 17,
+  "tri_alphab": "Villiers",
   "coordonnees": {
     "latitude": "48.882336",
     "longitude": "2.312452"
@@ -20,29 +21,82 @@
   "id_pss": null,
   "id_wikidata": null,
   "WPfr": null,
-  "image_ref": "Villiers-30_17_§1",
+  "image_ref": "Villiers-30_17_§2",
   "terme_jantzen_bat": [
+    "sculpture",
+    "fenetre",
     "lucarne",
     "façade",
     "fronton",
-    "fenetre",
-    "décor",
-    "sculpture",
+    "voie",
     "porte-bois",
-    "voie"
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "cariatide",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "gros appareil",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Villiers-30_17_§1",
       "IndexJantzen": [
         "voie"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2009:07:13"
     },
     {
       "id_pic": "Villiers-30_17_§2",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "porte",
+        "porte-fenêtre",
+        "arc en plein cintre",
+        "fronton",
+        "mascaron",
+        "cariatide",
+        "corniche",
+        "bandeau",
+        "pierre de taille",
+        "gros appareil",
+        "chambranle",
+        "souche de cheminée",
+        "mansarde",
+        "lucarne",
+        "ardoise",
+        "portail",
+        "fer forgé",
+        "oculus",
+        "volet"
+      ],
+      "dateCapture": "2009:07:13"
     },
     {
       "id_pic": "Villiers-30_17_§3",
@@ -51,7 +105,9 @@
         "fenetre",
         "fronton",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2009:07:13"
     },
     {
       "id_pic": "Villiers-30_17_§4",
@@ -59,13 +115,17 @@
         "fenetre",
         "fronton",
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2009:07:13"
     },
     {
       "id_pic": "Villiers-30_17_§5",
       "IndexJantzen": [
         "porte-bois"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2009:07:15"
     }
   ]
 }

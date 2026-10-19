@@ -2,7 +2,12 @@
   "id_bat": 3503,
   "libelle": "74 boulevard Vincent-Auriol",
   "ensemble": null,
-  "personnes": null,
+  "personnes": [
+    {
+      "personneID": 544,
+      "role": "architecte"
+    }
+  ],
   "dateConstruction": null,
   "periode": [
     "1895-1914"
@@ -13,6 +18,7 @@
     "voie": "boulevard Vincent-Auriol"
   },
   "arrondissement": 13,
+  "tri_alphab": "Vincent-Auriol",
   "coordonnees": {
     "latitude": "48.834237",
     "longitude": "2.365276"
@@ -22,11 +28,23 @@
   "WPfr": null,
   "image_ref": "Vincent-Auriol-74_13_§1",
   "terme_jantzen_bat": [
-    "brique",
-    "fenetre",
     "balcon",
-    "colonne",
-    "garde-corps"
+    "fenetre",
+    "brique",
+    "garde-corps",
+    "colonne"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "céramique",
+    "fenêtre",
+    "garde-corps",
+    "toit-terrasse",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -35,7 +53,20 @@
         "balcon",
         "brique",
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "fenêtre",
+        "brique",
+        "volet",
+        "travée",
+        "bandeau",
+        "toit-terrasse",
+        "céramique"
+      ],
+      "dateCapture": "2007:03:27"
     },
     {
       "id_pic": "Vincent-Auriol-74_13_§2",
@@ -43,7 +74,9 @@
         "balcon",
         "brique",
         "colonne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:07:17"
     },
     {
       "id_pic": "Vincent-Auriol-74_13_§3",
@@ -51,7 +84,9 @@
         "brique",
         "fenetre",
         "garde-corps"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:03:27"
     }
   ]
 }

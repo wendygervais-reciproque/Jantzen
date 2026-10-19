@@ -13,6 +13,7 @@
     "voie": "rue des Archives"
   },
   "arrondissement": 3,
+  "tri_alphab": "Archives",
   "coordonnees": {
     "latitude": "48.862465",
     "longitude": "2.359736"
@@ -22,9 +23,22 @@
   "WPfr": null,
   "image_ref": "Archives-76_3_§1",
   "terme_jantzen_bat": [
+    "chimère",
     "clé",
-    "porte-bois",
-    "chimère"
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "frise",
+    "fronton",
+    "mascaron",
+    "pierre de taille",
+    "pilastre",
+    "portail",
+    "porte",
+    "vantail"
   ],
   "photos": [
     {
@@ -33,7 +47,21 @@
         "chimère",
         "clé",
         "porte-bois"
-      ]
+      ],
+      "IndexTorneh": [
+        "porte",
+        "portail",
+        "fronton",
+        "pilastre",
+        "chambranle",
+        "mascaron",
+        "fenêtre",
+        "pierre de taille",
+        "vantail",
+        "corniche",
+        "frise"
+      ],
+      "dateCapture": "2003:08:02"
     }
   ]
 }

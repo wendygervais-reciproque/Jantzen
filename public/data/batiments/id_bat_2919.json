@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 278,
+      "personneID": 405,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue Saint-Ferdinand"
   },
   "arrondissement": 17,
+  "tri_alphab": "St-Ferdinand",
   "coordonnees": {
     "latitude": "48.877271",
     "longitude": "2.286068"
@@ -27,15 +28,33 @@
   "WPfr": null,
   "image_ref": "St-Ferdinand-50_17_§1-Rx",
   "terme_jantzen_bat": [
-    "façade",
-    "céramique",
-    "métal",
-    "garde-corps",
-    "fenetre",
-    "décor",
-    "sculpture",
     "balcon",
-    "oriel"
+    "oriel",
+    "sculpture",
+    "fenetre",
+    "façade",
+    "métal",
+    "céramique",
+    "garde-corps",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chapiteau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée"
   ],
   "photos": [
     {
@@ -43,7 +62,26 @@
       "IndexJantzen": [
         "façade",
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "corniche",
+        "bandeau",
+        "pierre de taille",
+        "chapiteau",
+        "pilastre",
+        "mascaron",
+        "souche de cheminée",
+        "toit à deux versants",
+        "fer forgé",
+        "travée",
+        "oculus",
+        "porte"
+      ],
+      "dateCapture": "2012:04:16"
     },
     {
       "id_pic": "St-Ferdinand-50_17_§2-Rx",
@@ -51,7 +89,9 @@
         "fenetre",
         "métal",
         "oriel"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2012:04:16"
     },
     {
       "id_pic": "St-Ferdinand-50_17_§3-Rx",
@@ -59,7 +99,9 @@
         "fenetre",
         "métal",
         "oriel"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2012:04:16"
     },
     {
       "id_pic": "St-Ferdinand-50_17_§4-Rx",
@@ -67,7 +109,9 @@
         "céramique",
         "métal",
         "oriel"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2012:04:16"
     },
     {
       "id_pic": "St-Ferdinand-50_17_§5-Rx",
@@ -76,7 +120,9 @@
         "décor",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2012:04:16"
     },
     {
       "id_pic": "St-Ferdinand-50_17_§6-Rx",
@@ -84,13 +130,17 @@
         "balcon",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2012:04:16"
     },
     {
       "id_pic": "St-Ferdinand-50_17_§7-Rx",
       "IndexJantzen": [
         "garde-corps"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2012:04:16"
     }
   ]
 }

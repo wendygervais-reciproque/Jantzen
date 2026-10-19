@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 406,
+      "personneID": 539,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue du Grand-Veneur"
   },
   "arrondissement": 3,
+  "tri_alphab": "Grand-Veneur",
   "coordonnees": {
     "latitude": "48.858971",
     "longitude": "2.365428"
@@ -27,38 +28,81 @@
   "WPfr": null,
   "image_ref": "Grand-Veneur-15_3_§1",
   "terme_jantzen_bat": [
+    "sculpture",
+    "console",
+    "fenetre",
     "lucarne",
     "façade",
-    "fenetre",
-    "décor",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "avant-corps",
+    "balcon",
+    "balustrade",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "grille",
+    "lucarne",
+    "mansarde",
+    "pierre de taille",
+    "porte-fenêtre",
     "sculpture",
-    "console"
+    "souche de cheminée",
+    "travée"
   ],
   "photos": [
     {
       "id_pic": "Grand-Veneur-15_3_§1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "lucarne",
+        "balcon",
+        "garde-corps",
+        "fronton",
+        "mansarde",
+        "avant-corps",
+        "pierre de taille",
+        "ardoise",
+        "sculpture",
+        "arc en plein cintre",
+        "souche de cheminée",
+        "travée",
+        "balustrade",
+        "grille",
+        "porte-fenêtre"
+      ],
+      "dateCapture": "2007:07:11"
     },
     {
       "id_pic": "Grand-Veneur-15_3_§10",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:09:07"
     },
     {
       "id_pic": "Grand-Veneur-15_3_§2",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:07:11"
     },
     {
       "id_pic": "Grand-Veneur-15_3_§3",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:07:11"
     },
     {
       "id_pic": "Grand-Veneur-15_3_§4",
@@ -66,20 +110,26 @@
         "décor",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:07:11"
     },
     {
       "id_pic": "Grand-Veneur-15_3_§5",
       "IndexJantzen": [
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:07:11"
     },
     {
       "id_pic": "Grand-Veneur-15_3_§6",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:09:07"
     },
     {
       "id_pic": "Grand-Veneur-15_3_§8",
@@ -87,13 +137,17 @@
         "décor",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:07:03"
     },
     {
       "id_pic": "Grand-Veneur-15_3_§9-21",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:07:03"
     }
   ]
 }

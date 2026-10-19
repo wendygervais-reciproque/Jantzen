@@ -2,13 +2,23 @@
   "id_bat": 74,
   "libelle": "Église Saint-Sulpice",
   "ensemble": null,
-  "personnes": null,
+  "personnes": [
+    {
+      "personneID": 851,
+      "role": "architecte"
+    },
+    {
+      "personneID": 189,
+      "role": "architecte"
+    }
+  ],
   "dateConstruction": null,
   "periode": [
     "1660-1759"
   ],
   "adresse": null,
   "arrondissement": 6,
+  "tri_alphab": "St-Sulpice",
   "coordonnees": {
     "latitude": "48.851002",
     "longitude": "2.334923"
@@ -18,10 +28,29 @@
   "WPfr": "Église Saint-Sulpice de Paris",
   "image_ref": "St-Sulpice_6_§1",
   "terme_jantzen_bat": [
-    "oeil-de-boeuf",
     "façade",
-    "dome",
-    "sculpture"
+    "oeil-de-boeuf",
+    "sculpture",
+    "dome"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "ardoise",
+    "balcon",
+    "contrefort",
+    "corniche",
+    "coupole",
+    "dôme",
+    "fenêtre",
+    "grille",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "souche de cheminée",
+    "soupirail",
+    "toit en pavillon",
+    "voûte",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -29,40 +58,70 @@
       "IndexJantzen": [
         "dome",
         "façade"
-      ]
+      ],
+      "IndexTorneh": [
+        "dôme",
+        "épi de faîtage",
+        "coupole",
+        "oculus",
+        "fenêtre",
+        "pierre de taille",
+        "ardoise",
+        "contrefort",
+        "pilastre",
+        "toit en pavillon",
+        "souche de cheminée",
+        "corniche",
+        "balcon",
+        "voûte",
+        "arc",
+        "grille",
+        "soupirail"
+      ],
+      "dateCapture": "2007:04:22"
     },
     {
       "id_pic": "St-Sulpice_6_§2",
       "IndexJantzen": [
         "dome",
         "façade"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:04:22"
     },
     {
       "id_pic": "St-Sulpice_6_§3",
       "IndexJantzen": [
         "dome",
         "oeil-de-boeuf"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:04:22"
     },
     {
       "id_pic": "St-Sulpice_6_§4",
       "IndexJantzen": [
         "dome",
         "oeil-de-boeuf"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:04:22"
     },
     {
       "id_pic": "St-Sulpice_6_§5",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:04:22"
     },
     {
       "id_pic": "St-Sulpice_6_§6",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:04:22"
     }
   ]
 }

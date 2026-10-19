@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 445,
+      "personneID": 599,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue Saint-Lazare"
   },
   "arrondissement": 9,
+  "tri_alphab": "St-Lazare",
   "coordonnees": {
     "latitude": "48.876926",
     "longitude": "2.333258"
@@ -27,24 +28,75 @@
   "WPfr": null,
   "image_ref": "St-Lazare-60_9_§1",
   "terme_jantzen_bat": [
-    "façade",
+    "balcon",
     "porte-fer",
-    "fenetre",
-    "décor",
     "sculpture",
     "clé",
     "console",
-    "balcon",
+    "fenetre",
+    "façade",
     "chimère",
+    "garde-corps",
     "porte-bois",
-    "garde-corps"
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc brisé",
+    "arc en plein cintre",
+    "auvent",
+    "baie",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chapiteau",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "grille",
+    "mascaron",
+    "modillon",
+    "pierre de taille",
+    "pilastre",
+    "portail",
+    "porte",
+    "sculpture",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "St-Lazare-60_9_§1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "arc en plein cintre",
+        "arc brisé",
+        "mascaron",
+        "modillon",
+        "corniche",
+        "pilastre",
+        "chapiteau",
+        "portail",
+        "porte",
+        "grille",
+        "fer forgé",
+        "sculpture",
+        "pierre de taille",
+        "travée",
+        "volet",
+        "bandeau",
+        "chaîne d'angle",
+        "auvent",
+        "baie"
+      ],
+      "dateCapture": "2004:06:17"
     },
     {
       "id_pic": "St-Lazare-60_9_§10",
@@ -52,34 +104,44 @@
         "clé",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:08:09"
     },
     {
       "id_pic": "St-Lazare-60_9_§11",
       "IndexJantzen": [
         "fenetre",
         "porte-fer"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:08:09"
     },
     {
       "id_pic": "St-Lazare-60_9_§12",
       "IndexJantzen": [
         "fenetre",
         "porte-fer"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:08:09"
     },
     {
       "id_pic": "St-Lazare-60_9_§13",
       "IndexJantzen": [
         "porte-fer"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:08:09"
     },
     {
       "id_pic": "St-Lazare-60_9_§2",
       "IndexJantzen": [
         "balcon",
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:08:09"
     },
     {
       "id_pic": "St-Lazare-60_9_§3",
@@ -87,7 +149,9 @@
         "décor",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:08:09"
     },
     {
       "id_pic": "St-Lazare-60_9_§4",
@@ -95,21 +159,27 @@
         "clé",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:08:09"
     },
     {
       "id_pic": "St-Lazare-60_9_§5",
       "IndexJantzen": [
         "fenetre",
         "garde-corps"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:08:09"
     },
     {
       "id_pic": "St-Lazare-60_9_§6",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:08:09"
     },
     {
       "id_pic": "St-Lazare-60_9_§7",
@@ -118,7 +188,9 @@
         "fenetre",
         "garde-corps",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:08:09"
     },
     {
       "id_pic": "St-Lazare-60_9_§8",
@@ -126,14 +198,18 @@
         "chimère",
         "console",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:08:09"
     },
     {
       "id_pic": "St-Lazare-60_9_§9",
       "IndexJantzen": [
         "fenetre",
         "porte-bois"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:08:09"
     }
   ]
 }

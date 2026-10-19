@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 137,
+      "personneID": 338,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue de la Convention"
   },
   "arrondissement": 15,
+  "tri_alphab": "Convention",
   "coordonnees": {
     "latitude": "48.844034",
     "longitude": "2.28172"
@@ -28,9 +29,29 @@
   "image_ref": "Convention-45_15_§1",
   "terme_jantzen_bat": [
     "brique",
-    "lucarne",
+    "porte-fer-hall",
     "façade",
-    "porte-fer-hall"
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "bossage",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "sculpture",
+    "souche de cheminée",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -38,20 +59,45 @@
       "IndexJantzen": [
         "brique",
         "façade"
-      ]
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "garde-corps",
+        "lucarne",
+        "mansarde",
+        "volet",
+        "sculpture",
+        "fer forgé",
+        "bossage",
+        "arc",
+        "ardoise",
+        "pierre de taille",
+        "bandeau",
+        "travée",
+        "souche de cheminée",
+        "oculus",
+        "mascaron"
+      ],
+      "dateCapture": "2007:03:15"
     },
     {
       "id_pic": "Convention-45_15_§2",
       "IndexJantzen": [
         "brique",
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:03:15"
     },
     {
       "id_pic": "Convention-45_15_§3",
       "IndexJantzen": [
         "porte-fer-hall"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:03:16"
     }
   ]
 }

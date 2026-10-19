@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 420,
+      "personneID": 566,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue de Metz"
   },
   "arrondissement": 10,
+  "tri_alphab": "Metz",
   "coordonnees": {
     "latitude": "48.870637",
     "longitude": "2.354416"
@@ -27,17 +28,37 @@
   "WPfr": null,
   "image_ref": "Metz-1_10_§1",
   "terme_jantzen_bat": [
-    "lucarne",
-    "façade-d'angle",
     "toiture",
+    "oeil-de-boeuf",
+    "mosaique",
+    "façade-d'angle",
+    "oriel",
+    "fenetre-d'angle",
+    "fenetre",
+    "lucarne",
     "façade",
     "lucarne-d'angle",
-    "fenetre",
-    "oeil-de-boeuf",
-    "décor",
-    "fenetre-d'angle",
-    "mosaique",
-    "oriel"
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "avant-corps",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chéneau",
+    "colonne",
+    "corniche",
+    "céramique",
+    "dôme",
+    "fenêtre",
+    "garde-corps",
+    "mascaron",
+    "oculus",
+    "pilastre",
+    "porte",
+    "travée",
+    "vitrail"
   ],
   "photos": [
     {
@@ -45,7 +66,28 @@
       "IndexJantzen": [
         "façade-d'angle",
         "mosaique"
-      ]
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "oculus",
+        "mascaron",
+        "corniche",
+        "bandeau",
+        "céramique",
+        "ardoise",
+        "dôme",
+        "garde-corps",
+        "pilastre",
+        "colonne",
+        "porte",
+        "vitrail",
+        "chéneau",
+        "travée",
+        "avant-corps"
+      ],
+      "dateCapture": "2005:08:28"
     },
     {
       "id_pic": "Metz-1_10_§11",
@@ -53,7 +95,9 @@
         "fenetre-d'angle",
         "lucarne",
         "mosaique"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:08:28"
     },
     {
       "id_pic": "Metz-1_10_§12",
@@ -61,7 +105,9 @@
         "décor",
         "lucarne-d'angle",
         "mosaique"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2010:06:05"
     },
     {
       "id_pic": "Metz-1_10_§14",
@@ -69,14 +115,18 @@
         "décor",
         "lucarne-d'angle",
         "mosaique"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:08:10"
     },
     {
       "id_pic": "Metz-1_10_§15",
       "IndexJantzen": [
         "lucarne-d'angle",
         "mosaique"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:08:10"
     },
     {
       "id_pic": "Metz-1_10_§16b",
@@ -84,14 +134,18 @@
         "décor",
         "fenetre",
         "oeil-de-boeuf"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:08:10"
     },
     {
       "id_pic": "Metz-1_10_§16c",
       "IndexJantzen": [
         "lucarne-d'angle",
         "mosaique"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:06:15"
     },
     {
       "id_pic": "Metz-1_10_§16d",
@@ -99,14 +153,18 @@
         "lucarne",
         "mosaique",
         "toiture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:08:28"
     },
     {
       "id_pic": "Metz-1_10_§16e",
       "IndexJantzen": [
         "façade",
         "mosaique"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:08:28"
     },
     {
       "id_pic": "Metz-1_10_§19",
@@ -114,14 +172,18 @@
         "façade",
         "mosaique",
         "oriel"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:08:10"
     },
     {
       "id_pic": "Metz-1_10_§2",
       "IndexJantzen": [
         "façade-d'angle",
         "mosaique"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2010:06:05"
     },
     {
       "id_pic": "Metz-1_10_§20",
@@ -129,7 +191,9 @@
         "fenetre",
         "mosaique",
         "oriel"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:08:10"
     },
     {
       "id_pic": "Metz-1_10_§21",
@@ -138,7 +202,9 @@
         "fenetre",
         "mosaique",
         "oriel"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:08:10"
     },
     {
       "id_pic": "Metz-1_10_§22",
@@ -147,14 +213,18 @@
         "lucarne",
         "mosaique",
         "oriel"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:09:04"
     },
     {
       "id_pic": "Metz-1_10_§24",
       "IndexJantzen": [
         "mosaique",
         "oriel"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:06:15"
     },
     {
       "id_pic": "Metz-1_10_§26",
@@ -162,28 +232,36 @@
         "décor",
         "lucarne",
         "mosaique"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:06:15"
     },
     {
       "id_pic": "Metz-1_10_§27",
       "IndexJantzen": [
         "décor",
         "mosaique"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:08:10"
     },
     {
       "id_pic": "Metz-1_10_§28",
       "IndexJantzen": [
         "décor",
         "mosaique"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:06:15"
     },
     {
       "id_pic": "Metz-1_10_§3",
       "IndexJantzen": [
         "façade-d'angle",
         "mosaique"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:08:10"
     },
     {
       "id_pic": "Metz-1_10_§4",
@@ -191,7 +269,9 @@
         "décor",
         "fenetre-d'angle",
         "mosaique"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:06:15"
     },
     {
       "id_pic": "Metz-1_10_§5",
@@ -199,21 +279,27 @@
         "décor",
         "fenetre-d'angle",
         "mosaique"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2010:06:05"
     },
     {
       "id_pic": "Metz-1_10_§6",
       "IndexJantzen": [
         "fenetre-d'angle",
         "mosaique"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:06:15"
     },
     {
       "id_pic": "Metz-1_10_§9",
       "IndexJantzen": [
         "fenetre-d'angle",
         "mosaique"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:06:15"
     },
     {
       "id_pic": "Metz-1_10_§9b",
@@ -221,7 +307,9 @@
         "fenetre",
         "lucarne",
         "mosaique"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:08:28"
     }
   ]
 }

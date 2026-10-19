@@ -4,8 +4,12 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 440,
+      "personneID": 592,
       "role": "architecte"
+    },
+    {
+      "personneID": 10153,
+      "role": "sculpteur"
     }
   ],
   "dateConstruction": "1877",
@@ -18,6 +22,7 @@
     "voie": "boulevard Saint-Germain"
   },
   "arrondissement": 6,
+  "tri_alphab": "St-Germain",
   "coordonnees": {
     "latitude": "48.854441",
     "longitude": "2.331225"
@@ -27,25 +32,70 @@
   "WPfr": null,
   "image_ref": "St-Germain-184_6_§1",
   "terme_jantzen_bat": [
-    "façade",
-    "fenetre",
     "sculpture",
     "cariatide",
+    "fenetre",
+    "façade",
     "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "chambranle",
+    "chapiteau",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "sculpture",
+    "toit à deux versants"
   ],
   "photos": [
     {
       "id_pic": "St-Germain-184_6_§1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "lucarne",
+        "arc en plein cintre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "pilastre",
+        "corniche",
+        "fronton",
+        "sculpture",
+        "mascaron",
+        "porte",
+        "pierre de taille",
+        "ardoise",
+        "chapiteau",
+        "chambranle",
+        "oculus",
+        "mansarde",
+        "toit à deux versants"
+      ],
+      "dateCapture": "2005:03:20"
     },
     {
       "id_pic": "St-Germain-184_6_§2",
       "IndexJantzen": [
         "fenetre",
         "porte-bois"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:08:11"
     },
     {
       "id_pic": "St-Germain-184_6_§3",
@@ -53,21 +103,27 @@
         "cariatide",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:03:20"
     },
     {
       "id_pic": "St-Germain-184_6_§4",
       "IndexJantzen": [
         "cariatide",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:03:20"
     },
     {
       "id_pic": "St-Germain-184_6_§5",
       "IndexJantzen": [
         "cariatide",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:03:20"
     }
   ]
 }

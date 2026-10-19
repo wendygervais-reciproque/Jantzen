@@ -4,8 +4,12 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 683,
+      "personneID": 921,
       "role": "architecte"
+    },
+    {
+      "personneID": 10141,
+      "role": "sculpteur"
     }
   ],
   "dateConstruction": "1867",
@@ -18,6 +22,7 @@
     "voie": "boulevard de La Tour-Maubourg"
   },
   "arrondissement": 7,
+  "tri_alphab": "Tour-Maubourg",
   "coordonnees": {
     "latitude": "48.858231",
     "longitude": "2.31021"
@@ -30,13 +35,50 @@
     "fenetre",
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "chambranle",
+    "chapiteau",
+    "fenêtre",
+    "fer forgé",
+    "grille",
+    "heurtoir",
+    "mascaron",
+    "modillon",
+    "pierre de taille",
+    "pilastre",
+    "portail",
+    "porte",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Tour-Maubourg-49_7_§1",
       "IndexJantzen": [
         "fenetre",
         "porte-bois"
-      ]
+      ],
+      "IndexTorneh": [
+        "arc",
+        "arc en plein cintre",
+        "porte",
+        "portail",
+        "vantail",
+        "mascaron",
+        "sculpture",
+        "modillon",
+        "pierre de taille",
+        "fenêtre",
+        "grille",
+        "fer forgé",
+        "heurtoir",
+        "chambranle",
+        "pilastre",
+        "chapiteau"
+      ],
+      "dateCapture": "2004:04:26"
     }
   ]
 }

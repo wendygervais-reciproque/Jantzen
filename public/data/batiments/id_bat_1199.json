@@ -13,6 +13,7 @@
     "voie": "boulevard Barbès"
   },
   "arrondissement": 18,
+  "tri_alphab": "Barbes-bd",
   "coordonnees": {
     "latitude": "48.885515",
     "longitude": "2.349307"
@@ -22,9 +23,25 @@
   "WPfr": null,
   "image_ref": "Barbes-bd-17_18_§2",
   "terme_jantzen_bat": [
-    "lucarne",
     "toiture",
-    "lucarne-d'angle"
+    "lucarne-d'angle",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "chapiteau corinthien",
+    "colonne",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "garde-corps",
+    "lucarne",
+    "mascaron",
+    "pierre de taille",
+    "pilastre",
+    "sculpture"
   ],
   "photos": [
     {
@@ -32,20 +49,41 @@
       "IndexJantzen": [
         "lucarne-d'angle",
         "toiture"
-      ]
+      ],
+      "IndexTorneh": [
+        "dôme",
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "colonne",
+        "chapiteau corinthien",
+        "arc en plein cintre",
+        "fenêtre",
+        "corniche",
+        "sculpture",
+        "mascaron",
+        "pilastre",
+        "pierre de taille",
+        "lucarne"
+      ],
+      "dateCapture": "2004:06:14"
     },
     {
       "id_pic": "Barbes-bd-17_18_§3",
       "IndexJantzen": [
         "lucarne-d'angle",
         "toiture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:06:14"
     },
     {
       "id_pic": "Barbes-bd-17_18_§4",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:05:16"
     }
   ]
 }

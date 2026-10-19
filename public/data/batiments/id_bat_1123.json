@@ -13,6 +13,7 @@
     "voie": "rue de La Trémoille"
   },
   "arrondissement": 8,
+  "tri_alphab": "La-Tremoille",
   "coordonnees": {
     "latitude": "48.866982",
     "longitude": "2.303055"
@@ -22,9 +23,24 @@
   "WPfr": null,
   "image_ref": "La-Tremoille-16_8_§1",
   "terme_jantzen_bat": [
+    "oriel",
     "céramique",
-    "métal",
-    "oriel"
+    "métal"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "corniche",
+    "céramique",
+    "fenêtre",
+    "fer",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "oriel",
+    "pilastre",
+    "travée",
+    "verrière"
   ],
   "photos": [
     {
@@ -33,14 +49,32 @@
         "céramique",
         "métal",
         "oriel"
-      ]
+      ],
+      "IndexTorneh": [
+        "verrière",
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "balustrade",
+        "fenêtre",
+        "oriel",
+        "céramique",
+        "pilastre",
+        "corniche",
+        "fer",
+        "mascaron",
+        "travée"
+      ],
+      "dateCapture": "2004:10:21"
     },
     {
       "id_pic": "La-Tremoille-16_8_§2",
       "IndexJantzen": [
         "métal",
         "oriel"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:10:21"
     }
   ]
 }

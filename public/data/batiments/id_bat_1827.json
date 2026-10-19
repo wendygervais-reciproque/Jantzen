@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 450,
+      "personneID": 128,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue Rouelle"
   },
   "arrondissement": 15,
+  "tri_alphab": "Rouelle",
   "coordonnees": {
     "latitude": "48.850422",
     "longitude": "2.287397"
@@ -28,8 +29,23 @@
   "image_ref": "Rouelle-25-27_15_§2",
   "terme_jantzen_bat": [
     "brique",
-    "porte-fer",
-    "mosaique"
+    "mosaique",
+    "porte-fer"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "brique",
+    "corniche",
+    "céramique",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "grille",
+    "oriel",
+    "porte",
+    "sculpture",
+    "vantail"
   ],
   "photos": [
     {
@@ -38,7 +54,23 @@
         "brique",
         "mosaique",
         "porte-fer"
-      ]
+      ],
+      "IndexTorneh": [
+        "arc en plein cintre",
+        "arc",
+        "brique",
+        "céramique",
+        "porte",
+        "grille",
+        "garde-corps",
+        "fenêtre",
+        "corniche",
+        "sculpture",
+        "fer forgé",
+        "oriel",
+        "vantail"
+      ],
+      "dateCapture": "2005:09:03"
     },
     {
       "id_pic": "Rouelle-25-27_15_§3",
@@ -46,7 +78,9 @@
         "brique",
         "mosaique",
         "porte-fer"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:09:03"
     }
   ]
 }

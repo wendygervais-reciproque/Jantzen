@@ -13,6 +13,7 @@
     "voie": "rue des Petits-Champs"
   },
   "arrondissement": 2,
+  "tri_alphab": "Petits-Champs",
   "coordonnees": {
     "latitude": "48.867196",
     "longitude": "2.335305"
@@ -22,17 +23,58 @@
   "WPfr": null,
   "image_ref": "Petits-Champs-38_2_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "décor",
+    "sculpture",
     "chimère",
-    "sculpture"
+    "fenetre",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "pierre de taille",
+    "porte-fenêtre",
+    "sculpture",
+    "souche de cheminée",
+    "toit-terrasse",
+    "travée",
+    "vitrail",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Petits-Champs-38_2_§1",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "mascaron",
+        "chambranle",
+        "lucarne",
+        "mansarde",
+        "toit-terrasse",
+        "volet",
+        "souche de cheminée",
+        "pierre de taille",
+        "fer forgé",
+        "porte-fenêtre",
+        "travée",
+        "bandeau",
+        "sculpture",
+        "vitrail"
+      ],
+      "dateCapture": "2007:08:26"
     },
     {
       "id_pic": "Petits-Champs-38_2_§2",
@@ -40,34 +82,44 @@
         "décor",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:08:26"
     },
     {
       "id_pic": "Petits-Champs-38_2_§3",
       "IndexJantzen": [
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:08:26"
     },
     {
       "id_pic": "Petits-Champs-38_2_§4",
       "IndexJantzen": [
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:08:26"
     },
     {
       "id_pic": "Petits-Champs-38_2_§5",
       "IndexJantzen": [
         "chimère",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:08:26"
     },
     {
       "id_pic": "Petits-Champs-38_2_§6",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:08:26"
     }
   ]
 }

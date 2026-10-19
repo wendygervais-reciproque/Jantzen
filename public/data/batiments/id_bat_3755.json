@@ -13,6 +13,7 @@
     "voie": "rue Saint-Lazare"
   },
   "arrondissement": 9,
+  "tri_alphab": "St-Lazare",
   "coordonnees": {
     "latitude": "48.875927",
     "longitude": "2.328821"
@@ -25,13 +26,52 @@
     "colonne",
     "porte-fer"
   ],
+  "terme_torneh_bat": [
+    "attique",
+    "balcon",
+    "chapiteau ionique",
+    "colonne",
+    "corniche",
+    "fenêtre",
+    "fer",
+    "fer forgé",
+    "fronton",
+    "grille",
+    "mascaron",
+    "pierre de taille",
+    "pilastre",
+    "portail",
+    "porte",
+    "portique",
+    "sculpture"
+  ],
   "photos": [
     {
       "id_pic": "St-Lazare-88_9_§1",
       "IndexJantzen": [
         "colonne",
         "porte-fer"
-      ]
+      ],
+      "IndexTorneh": [
+        "portail",
+        "portique",
+        "fronton",
+        "colonne",
+        "chapiteau ionique",
+        "pilastre",
+        "sculpture",
+        "mascaron",
+        "grille",
+        "fer forgé",
+        "balcon",
+        "fenêtre",
+        "corniche",
+        "attique",
+        "pierre de taille",
+        "fer",
+        "porte"
+      ],
+      "dateCapture": "2004:08:26"
     }
   ]
 }

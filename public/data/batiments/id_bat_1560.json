@@ -1,0 +1,77 @@
+{
+  "id_bat": 1560,
+  "libelle": "20 rue de Bassano",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": null,
+  "adresse": {
+    "affichage": "20 rue de Bassano",
+    "numero": "20",
+    "voie": "rue de Bassano"
+  },
+  "arrondissement": 16,
+  "tri_alphab": "Bassano",
+  "coordonnees": {
+    "latitude": "48.868866",
+    "longitude": "2.297279"
+  },
+  "id_pss": null,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": "Bassano-20_16_§1",
+  "terme_jantzen_bat": [
+    "façade",
+    "pilastre"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "brique",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "pierre de taille",
+    "pilastre",
+    "portail",
+    "porte",
+    "souche de cheminée",
+    "travée",
+    "volet"
+  ],
+  "photos": [
+    {
+      "id_pic": "Bassano-20_16_§1",
+      "IndexJantzen": [
+        "façade",
+        "pilastre"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "fer forgé",
+        "lucarne",
+        "mansarde",
+        "arc en plein cintre",
+        "pierre de taille",
+        "souche de cheminée",
+        "volet",
+        "porte",
+        "garde-corps",
+        "corniche",
+        "pilastre",
+        "travée",
+        "brique",
+        "ardoise",
+        "portail"
+      ],
+      "dateCapture": "2004:10:20"
+    }
+  ]
+}

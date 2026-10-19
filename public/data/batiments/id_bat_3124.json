@@ -4,8 +4,12 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 425,
+      "personneID": 576,
       "role": "architecte"
+    },
+    {
+      "personneID": 10021,
+      "role": "sculpteur"
     }
   ],
   "dateConstruction": "1914",
@@ -18,6 +22,7 @@
     "voie": "rue de Cadix"
   },
   "arrondissement": 15,
+  "tri_alphab": "Cadix",
   "coordonnees": {
     "latitude": "48.834313",
     "longitude": "2.288657"
@@ -27,10 +32,23 @@
   "WPfr": null,
   "image_ref": "Cadix-6_15_§1",
   "terme_jantzen_bat": [
-    "console",
-    "porte-fer",
     "porte-fer-hall",
-    "sculpture"
+    "sculpture",
+    "console",
+    "porte-fer"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "oriel",
+    "pierre de taille",
+    "porte-fenêtre",
+    "sculpture",
+    "volet"
   ],
   "photos": [
     {
@@ -38,19 +56,37 @@
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "porte-fenêtre",
+        "volet",
+        "fer forgé",
+        "pierre de taille",
+        "sculpture",
+        "oriel",
+        "mascaron"
+      ],
+      "dateCapture": "2005:09:22"
     },
     {
       "id_pic": "Cadix-6_15_§2",
       "IndexJantzen": [
         "porte-fer-hall"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:09:09"
     },
     {
       "id_pic": "Cadix-6_15_§3",
       "IndexJantzen": [
         "porte-fer"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:09:22"
     }
   ]
 }

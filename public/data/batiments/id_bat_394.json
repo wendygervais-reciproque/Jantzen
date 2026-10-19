@@ -2,7 +2,12 @@
   "id_bat": 394,
   "libelle": "104 boulevard Marguerite-de-Rochechouart",
   "ensemble": null,
-  "personnes": null,
+  "personnes": [
+    {
+      "personneID": 75,
+      "role": "architecte"
+    }
+  ],
   "dateConstruction": "1900",
   "periode": [
     "1895-1914"
@@ -13,6 +18,7 @@
     "voie": "boulevard Marguerite-de-Rochechouart"
   },
   "arrondissement": 18,
+  "tri_alphab": "Rochechouard-bd",
   "coordonnees": {
     "latitude": "48.882515",
     "longitude": "2.341251"
@@ -22,15 +28,33 @@
   "WPfr": null,
   "image_ref": "Rochechouard-bd-104_18_§1",
   "terme_jantzen_bat": [
+    "oriel",
+    "sculpture",
+    "clé",
+    "fenetre",
     "lucarne",
     "façade",
     "céramique",
     "garde-corps",
-    "fenetre",
-    "décor",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "baie",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "mascaron",
+    "oriel",
+    "pierre de taille",
     "sculpture",
-    "clé",
-    "oriel"
+    "souche de cheminée",
+    "toit-terrasse",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -38,7 +62,26 @@
       "IndexJantzen": [
         "façade",
         "oriel"
-      ]
+      ],
+      "IndexTorneh": [
+        "baie",
+        "balcon",
+        "balustrade",
+        "bandeau",
+        "fenêtre",
+        "fer forgé",
+        "garde-corps",
+        "oriel",
+        "pierre de taille",
+        "sculpture",
+        "souche de cheminée",
+        "toit-terrasse",
+        "travée",
+        "volet",
+        "fronton",
+        "mascaron"
+      ],
+      "dateCapture": "2014:03:24"
     },
     {
       "id_pic": "Rochechouard-bd-104_18_§2",
@@ -48,7 +91,9 @@
         "fenetre",
         "lucarne",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2014:03:24"
     },
     {
       "id_pic": "Rochechouard-bd-104_18_§3",
@@ -57,14 +102,18 @@
         "fenetre",
         "lucarne",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2014:03:24"
     },
     {
       "id_pic": "Rochechouard-bd-104_18_§4",
       "IndexJantzen": [
         "fenetre",
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:04:11"
     },
     {
       "id_pic": "Rochechouard-bd-104_18_§5",
@@ -73,7 +122,9 @@
         "céramique",
         "fenetre",
         "garde-corps"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2014:03:24"
     }
   ]
 }

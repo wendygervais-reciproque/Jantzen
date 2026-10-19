@@ -1,0 +1,104 @@
+{
+  "id_bat": 907,
+  "libelle": "14 rue du Débarcadère",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": null,
+  "adresse": {
+    "affichage": "14 rue du Débarcadère",
+    "numero": "14",
+    "voie": "rue du Débarcadère"
+  },
+  "arrondissement": 17,
+  "tri_alphab": "Debarcadere",
+  "coordonnees": {
+    "latitude": "48.878014",
+    "longitude": "2.286234"
+  },
+  "id_pss": null,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": "Debarcadere-14_17_§1",
+  "terme_jantzen_bat": [
+    "façade",
+    "pilastre",
+    "poignée-porte",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "chapiteau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "porte-fenêtre",
+    "sculpture",
+    "travée",
+    "vantail",
+    "volet"
+  ],
+  "photos": [
+    {
+      "id_pic": "Debarcadere-14_17_§1",
+      "IndexJantzen": [
+        "façade"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "porte",
+        "porte-fenêtre",
+        "volet",
+        "mascaron",
+        "chapiteau",
+        "pilastre",
+        "corniche",
+        "bandeau",
+        "lucarne",
+        "mansarde",
+        "ardoise",
+        "pierre de taille",
+        "travée",
+        "chambranle",
+        "fronton",
+        "vantail",
+        "fer forgé",
+        "sculpture"
+      ],
+      "dateCapture": "2006:06:12"
+    },
+    {
+      "id_pic": "Debarcadere-14_17_§2",
+      "IndexJantzen": [
+        "fenetre",
+        "pilastre"
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:06:12"
+    },
+    {
+      "id_pic": "Debarcadere-14_17_§3",
+      "IndexJantzen": [
+        "fenetre",
+        "poignée-porte"
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:06:12"
+    }
+  ]
+}

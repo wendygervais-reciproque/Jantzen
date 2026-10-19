@@ -13,6 +13,7 @@
     "voie": "rue de Crimée"
   },
   "arrondissement": 19,
+  "tri_alphab": "Crimee",
   "coordonnees": {
     "latitude": "48.891752",
     "longitude": "2.37535"
@@ -23,8 +24,27 @@
   "image_ref": "Crimee-205_19_§1",
   "terme_jantzen_bat": [
     "brique",
+    "fenetre",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "corniche",
+    "fenêtre",
+    "fer",
+    "fer forgé",
+    "garde-corps",
     "lucarne",
-    "fenetre"
+    "mansarde",
+    "oculus",
+    "oriel",
+    "pierre de taille",
+    "porte-fenêtre",
+    "travée"
   ],
   "photos": [
     {
@@ -32,14 +52,36 @@
       "IndexJantzen": [
         "brique",
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "garde-corps",
+        "porte-fenêtre",
+        "lucarne",
+        "brique",
+        "pierre de taille",
+        "corniche",
+        "fer forgé",
+        "mansarde",
+        "travée",
+        "oriel",
+        "ardoise",
+        "bandeau",
+        "oculus",
+        "fer"
+      ],
+      "dateCapture": "2007:02:08"
     },
     {
       "id_pic": "Crimee-205_19_§3",
       "IndexJantzen": [
         "brique",
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:02:08"
     }
   ]
 }

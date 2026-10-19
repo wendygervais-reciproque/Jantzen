@@ -4,7 +4,11 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 386,
+      "personneID": 509,
+      "role": "architecte"
+    },
+    {
+      "personneID": 583,
       "role": "architecte"
     }
   ],
@@ -18,6 +22,7 @@
     "voie": "rue des Gravilliers"
   },
   "arrondissement": 3,
+  "tri_alphab": "Gravilliers",
   "coordonnees": {
     "latitude": "48.86343",
     "longitude": "2.357829"
@@ -29,18 +34,53 @@
   "terme_jantzen_bat": [
     "oriel"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "modillon",
+    "oriel",
+    "pierre de taille",
+    "sculpture",
+    "travée",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Gravilliers-3_3_§1",
       "IndexJantzen": [
         "oriel"
-      ]
+      ],
+      "IndexTorneh": [
+        "oriel",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "fer forgé",
+        "pierre de taille",
+        "modillon",
+        "bandeau",
+        "volet",
+        "corniche",
+        "travée",
+        "chambranle",
+        "sculpture"
+      ],
+      "dateCapture": "2007:08:27"
     },
     {
       "id_pic": "Gravilliers-3_3_§2",
       "IndexJantzen": [
         "oriel"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:08:27"
     }
   ]
 }

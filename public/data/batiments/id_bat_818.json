@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 303,
+      "personneID": 425,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue de Tocqueville"
   },
   "arrondissement": 17,
+  "tri_alphab": "Tocqueville",
   "coordonnees": {
     "latitude": "48.888742",
     "longitude": "2.30603"
@@ -27,52 +28,95 @@
   "WPfr": null,
   "image_ref": "Tocqueville-130_17_§1",
   "terme_jantzen_bat": [
-    "façade",
     "porte-fer",
-    "fenetre",
     "sculpture",
+    "fenetre",
+    "façade",
     "poignée-porte",
     "garde-corps"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "oriel",
+    "pierre de taille",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "travée"
   ],
   "photos": [
     {
       "id_pic": "Tocqueville-130_17_§1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "garde-corps",
+        "fer forgé",
+        "mansarde",
+        "lucarne",
+        "souche de cheminée",
+        "bandeau",
+        "pierre de taille",
+        "travée",
+        "ardoise",
+        "oriel",
+        "porte-fenêtre"
+      ],
+      "dateCapture": "2004:07:02"
     },
     {
       "id_pic": "Tocqueville-130_17_§2",
       "IndexJantzen": [
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:07:02"
     },
     {
       "id_pic": "Tocqueville-130_17_§3",
       "IndexJantzen": [
         "fenetre",
         "garde-corps"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:07:02"
     },
     {
       "id_pic": "Tocqueville-130_17_§4",
       "IndexJantzen": [
         "porte-fer"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:06:02"
     },
     {
       "id_pic": "Tocqueville-130_17_§5",
       "IndexJantzen": [
         "porte-fer"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:06:08"
     },
     {
       "id_pic": "Tocqueville-130_17_§6",
       "IndexJantzen": [
         "poignée-porte",
         "porte-fer"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:06:08"
     }
   ]
 }

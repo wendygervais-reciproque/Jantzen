@@ -13,6 +13,7 @@
     "voie": "quai de la Mégisserie"
   },
   "arrondissement": 1,
+  "tri_alphab": "Megisserie-qu",
   "coordonnees": {
     "latitude": "48.858134",
     "longitude": "2.344247"
@@ -22,10 +23,26 @@
   "WPfr": null,
   "image_ref": "Megisserie-qu-14_1_§1",
   "terme_jantzen_bat": [
+    "sculpture",
     "fenetre",
-    "porte-bois",
     "cariatide",
-    "sculpture"
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "cariatide",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "modillon",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "vantail",
+    "volet"
   ],
   "photos": [
     {
@@ -34,14 +51,33 @@
         "cariatide",
         "porte-bois",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [
+        "cariatide",
+        "arc en plein cintre",
+        "porte",
+        "vantail",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "corniche",
+        "modillon",
+        "pierre de taille",
+        "sculpture",
+        "volet"
+      ],
+      "dateCapture": "2018:06:30"
     },
     {
       "id_pic": "Megisserie-qu-14_1_§2",
       "IndexJantzen": [
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:09:11"
     }
   ]
 }

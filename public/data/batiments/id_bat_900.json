@@ -13,6 +13,7 @@
     "voie": "rue de La Trémoille"
   },
   "arrondissement": 8,
+  "tri_alphab": "La-Tremoille",
   "coordonnees": {
     "latitude": "48.866877",
     "longitude": "2.302869"
@@ -22,11 +23,30 @@
   "WPfr": null,
   "image_ref": "La-Tremoille-14_8_§1",
   "terme_jantzen_bat": [
-    "céramique",
-    "métal",
-    "oriel",
     "balcon",
+    "oriel",
+    "métal",
+    "céramique",
     "garde-corps"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "chambranle",
+    "corniche",
+    "céramique",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "sculpture",
+    "toit à deux versants"
   ],
   "photos": [
     {
@@ -35,7 +55,27 @@
         "céramique",
         "métal",
         "oriel"
-      ]
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fer forgé",
+        "fenêtre",
+        "garde-corps",
+        "mansarde",
+        "lucarne",
+        "pilastre",
+        "corniche",
+        "sculpture",
+        "mascaron",
+        "céramique",
+        "oculus",
+        "pierre de taille",
+        "toit à deux versants",
+        "ardoise",
+        "chambranle"
+      ],
+      "dateCapture": "2004:10:21"
     },
     {
       "id_pic": "La-Tremoille-14_8_§2",
@@ -43,7 +83,9 @@
         "céramique",
         "métal",
         "oriel"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:10:21"
     },
     {
       "id_pic": "La-Tremoille-14_8_§3",
@@ -51,14 +93,18 @@
         "céramique",
         "métal",
         "oriel"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:10:21"
     },
     {
       "id_pic": "La-Tremoille-14_8_§4",
       "IndexJantzen": [
         "balcon",
         "garde-corps"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:10:21"
     }
   ]
 }

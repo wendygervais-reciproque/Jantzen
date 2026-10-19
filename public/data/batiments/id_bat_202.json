@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 30,
+      "personneID": 14,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue Danton"
   },
   "arrondissement": 6,
+  "tri_alphab": "Danton",
   "coordonnees": {
     "latitude": "48.852835",
     "longitude": "2.342774"
@@ -27,40 +28,91 @@
   "WPfr": null,
   "image_ref": "Danton-1_6_§1",
   "terme_jantzen_bat": [
+    "porte-fer",
+    "oriel",
+    "sculpture",
+    "fenetre",
     "façade",
     "céramique",
-    "porte-fer",
-    "fenetre",
-    "décor",
-    "sculpture",
     "colonne",
-    "oriel"
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "attique",
+    "balcon",
+    "bandeau",
+    "colonne",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "marquise",
+    "mascaron",
+    "oculus",
+    "oriel",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "sculpture",
+    "travée",
+    "vitrail"
   ],
   "photos": [
     {
       "id_pic": "Danton-1_6_§1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "arc en plein cintre",
+        "oriel",
+        "corniche",
+        "bandeau",
+        "travée",
+        "mascaron",
+        "sculpture",
+        "pierre de taille",
+        "fer forgé",
+        "porte",
+        "vitrail",
+        "oculus",
+        "attique",
+        "dôme",
+        "colonne",
+        "pilastre",
+        "marquise"
+      ],
+      "dateCapture": "2012:08:10"
     },
     {
       "id_pic": "Danton-1_6_§15",
       "IndexJantzen": [
         "fenetre",
         "oriel"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:05:03"
     },
     {
       "id_pic": "Danton-1_6_§16",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2012:08:10"
     },
     {
       "id_pic": "Danton-1_6_§17",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:05:23"
     },
     {
       "id_pic": "Danton-1_6_§18",
@@ -68,7 +120,9 @@
         "céramique",
         "décor",
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:05:03"
     },
     {
       "id_pic": "Danton-1_6_§19",
@@ -77,13 +131,17 @@
         "céramique",
         "décor",
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:05:03"
     },
     {
       "id_pic": "Danton-1_6_§2",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2012:08:10"
     },
     {
       "id_pic": "Danton-1_6_§20",
@@ -91,7 +149,9 @@
         "céramique",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:05:03"
     },
     {
       "id_pic": "Danton-1_6_§21",
@@ -99,46 +159,60 @@
         "colonne",
         "céramique",
         "décor"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:05:03"
     },
     {
       "id_pic": "Danton-1_6_§22",
       "IndexJantzen": [
         "fenetre",
         "porte-fer"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:05:23"
     },
     {
       "id_pic": "Danton-1_6_§23",
       "IndexJantzen": [
         "fenetre",
         "porte-fer"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:05:23"
     },
     {
       "id_pic": "Danton-1_6_§3",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2012:08:10"
     },
     {
       "id_pic": "Danton-1_6_§4",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2012:08:10"
     },
     {
       "id_pic": "Danton-1_6_§7",
       "IndexJantzen": [
         "fenetre",
         "oriel"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2012:08:10"
     },
     {
       "id_pic": "Danton-1_6_§8",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:05:03"
     }
   ]
 }

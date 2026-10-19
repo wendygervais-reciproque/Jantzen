@@ -4,8 +4,12 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 190,
+      "personneID": 304,
       "role": "architecte"
+    },
+    {
+      "personneID": 10110,
+      "role": "sculpteur"
     }
   ],
   "dateConstruction": "1870",
@@ -18,6 +22,7 @@
     "voie": "rue du Quatre-Septembre"
   },
   "arrondissement": 2,
+  "tri_alphab": "Quatre-Septembre",
   "coordonnees": {
     "latitude": "48.869065",
     "longitude": "2.339823"
@@ -27,8 +32,18 @@
   "WPfr": null,
   "image_ref": "Quatre-Septembre-2_2_§1",
   "terme_jantzen_bat": [
+    "sculpture",
+    "cariatide"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
     "cariatide",
-    "sculpture"
+    "chambranle",
+    "fenêtre",
+    "garde-corps",
+    "pierre de taille",
+    "sculpture",
+    "volet"
   ],
   "photos": [
     {
@@ -36,7 +51,18 @@
       "IndexJantzen": [
         "cariatide",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [
+        "cariatide",
+        "fenêtre",
+        "garde-corps",
+        "balcon",
+        "chambranle",
+        "pierre de taille",
+        "sculpture",
+        "volet"
+      ],
+      "dateCapture": null
     }
   ]
 }

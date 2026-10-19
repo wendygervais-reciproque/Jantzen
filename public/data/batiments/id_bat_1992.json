@@ -4,8 +4,12 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 284,
+      "personneID": 634,
       "role": "architecte"
+    },
+    {
+      "personneID": 10154,
+      "role": "sculpteur"
     }
   ],
   "dateConstruction": "1902",
@@ -18,6 +22,7 @@
     "voie": "avenue Mac-Mahon"
   },
   "arrondissement": 17,
+  "tri_alphab": "Mac-Mahon",
   "coordonnees": {
     "latitude": "48.877488",
     "longitude": "2.294149"
@@ -27,44 +32,97 @@
   "WPfr": null,
   "image_ref": "Mac-Mahon-29_17_§1",
   "terme_jantzen_bat": [
-    "façade",
-    "fenetre",
-    "décor",
     "sculpture",
     "clé",
     "console",
-    "garde-corps"
+    "fenetre",
+    "façade",
+    "garde-corps",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc brisé",
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bossage",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "grille",
+    "lucarne",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "verrière"
   ],
   "photos": [
     {
       "id_pic": "Mac-Mahon-29_17_§1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "arc en plein cintre",
+        "arc brisé",
+        "bossage",
+        "pierre de taille",
+        "sculpture",
+        "mascaron",
+        "porte",
+        "lucarne",
+        "travée",
+        "fer forgé",
+        "souche de cheminée",
+        "toit à deux versants",
+        "corniche",
+        "oculus",
+        "grille",
+        "verrière"
+      ],
+      "dateCapture": "2014:02:08"
     },
     {
       "id_pic": "Mac-Mahon-29_17_§10",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2013:01:28"
     },
     {
       "id_pic": "Mac-Mahon-29_17_§11",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:03:25"
     },
     {
       "id_pic": "Mac-Mahon-29_17_§12",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2013:01:28"
     },
     {
       "id_pic": "Mac-Mahon-29_17_§13",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:03:25"
     },
     {
       "id_pic": "Mac-Mahon-29_17_§14",
@@ -72,7 +130,9 @@
         "décor",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2014:02:08"
     },
     {
       "id_pic": "Mac-Mahon-29_17_§15",
@@ -80,19 +140,25 @@
         "décor",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2013:01:28"
     },
     {
       "id_pic": "Mac-Mahon-29_17_§16",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2013:01:28"
     },
     {
       "id_pic": "Mac-Mahon-29_17_§17",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:04:16"
     },
     {
       "id_pic": "Mac-Mahon-29_17_§18",
@@ -100,21 +166,27 @@
         "décor",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2014:02:08"
     },
     {
       "id_pic": "Mac-Mahon-29_17_§19",
       "IndexJantzen": [
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:04:16"
     },
     {
       "id_pic": "Mac-Mahon-29_17_§20",
       "IndexJantzen": [
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2013:01:28"
     },
     {
       "id_pic": "Mac-Mahon-29_17_§21",
@@ -122,14 +194,18 @@
         "console",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2013:01:28"
     },
     {
       "id_pic": "Mac-Mahon-29_17_§22",
       "IndexJantzen": [
         "clé",
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2013:02:07"
     },
     {
       "id_pic": "Mac-Mahon-29_17_§23",
@@ -138,7 +214,9 @@
         "console",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2013:02:07"
     },
     {
       "id_pic": "Mac-Mahon-29_17_§24",
@@ -147,14 +225,18 @@
         "fenetre",
         "garde-corps",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2013:02:07"
     },
     {
       "id_pic": "Mac-Mahon-29_17_§25",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2013:02:07"
     }
   ]
 }

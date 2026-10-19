@@ -4,7 +4,11 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 66,
+      "personneID": 784,
+      "role": "architecte"
+    },
+    {
+      "personneID": 100,
       "role": "architecte"
     }
   ],
@@ -18,6 +22,7 @@
     "voie": "rue de la Verrerie"
   },
   "arrondissement": 4,
+  "tri_alphab": "Verrerie",
   "coordonnees": {
     "latitude": "48.858888",
     "longitude": "2.350691"
@@ -27,10 +32,28 @@
   "WPfr": null,
   "image_ref": "Verrerie-76_4_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "porte-bois",
+    "sculpture",
     "clé",
-    "sculpture"
+    "fenetre",
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "baie",
+    "balcon",
+    "balustrade",
+    "chambranle",
+    "fenêtre",
+    "fer forgé",
+    "grille",
+    "jambage",
+    "linteau",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "vantail",
+    "volet"
   ],
   "photos": [
     {
@@ -38,7 +61,26 @@
       "IndexJantzen": [
         "fenetre",
         "porte-bois"
-      ]
+      ],
+      "IndexTorneh": [
+        "baie",
+        "balcon",
+        "balustrade",
+        "chambranle",
+        "fenêtre",
+        "fer forgé",
+        "grille",
+        "jambage",
+        "linteau",
+        "pierre de taille",
+        "porte",
+        "sculpture",
+        "vantail",
+        "volet",
+        "mascaron",
+        "arc en plein cintre"
+      ],
+      "dateCapture": "2004:09:08"
     },
     {
       "id_pic": "Verrerie-76_4_§2",
@@ -46,28 +88,36 @@
         "clé",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:07:03"
     },
     {
       "id_pic": "Verrerie-76_4_§3",
       "IndexJantzen": [
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:07:03"
     },
     {
       "id_pic": "Verrerie-76_4_§5",
       "IndexJantzen": [
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:07:27"
     },
     {
       "id_pic": "Verrerie-76_4_§7",
       "IndexJantzen": [
         "clé",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:05:03"
     }
   ]
 }

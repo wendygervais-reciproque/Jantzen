@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 604,
+      "personneID": 796,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue d'Athènes"
   },
   "arrondissement": 9,
+  "tri_alphab": "Athenes",
   "coordonnees": {
     "latitude": "48.878026",
     "longitude": "2.329557"
@@ -30,19 +31,56 @@
     "façade",
     "balcon"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "pilastre",
+    "porte",
+    "souche de cheminée",
+    "travée",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Athenes-3b_9_§1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "volet",
+        "garde-corps",
+        "bandeau",
+        "corniche",
+        "travée",
+        "mansarde",
+        "lucarne",
+        "porte",
+        "mascaron",
+        "pilastre",
+        "souche de cheminée",
+        "fer forgé"
+      ],
+      "dateCapture": "2004:08:27"
     },
     {
       "id_pic": "Athenes-3b_9_§2",
       "IndexJantzen": [
         "balcon",
         "façade"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:08:27"
     }
   ]
 }

@@ -13,6 +13,7 @@
     "voie": "rue du Quatre-Septembre"
   },
   "arrondissement": 2,
+  "tri_alphab": "Quatre-Septembre",
   "coordonnees": {
     "latitude": "48.869947",
     "longitude": "2.335153"
@@ -22,9 +23,28 @@
   "WPfr": null,
   "image_ref": "Quatre-Septembre-24_2_§1",
   "terme_jantzen_bat": [
-    "fenetre",
+    "sculpture",
     "cariatide",
-    "sculpture"
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "atlante",
+    "balcon",
+    "balustrade",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "linteau",
+    "mascaron",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "sculpture",
+    "travée",
+    "vantail",
+    "volet"
   ],
   "photos": [
     {
@@ -33,21 +53,45 @@
         "cariatide",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "atlante",
+        "fenêtre",
+        "porte",
+        "portail",
+        "vantail",
+        "pierre de taille",
+        "corniche",
+        "chambranle",
+        "linteau",
+        "volet",
+        "sculpture",
+        "mascaron",
+        "travée"
+      ],
+      "dateCapture": "2005:08:30"
     },
     {
       "id_pic": "Quatre-Septembre-24_2_§2",
       "IndexJantzen": [
         "cariatide",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": null
     },
     {
       "id_pic": "Quatre-Septembre-24_2_§3",
       "IndexJantzen": [
         "cariatide",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:08:30"
     }
   ]
 }

@@ -4,8 +4,12 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 542,
+      "personneID": 728,
       "role": "architecte"
+    },
+    {
+      "personneID": 10045,
+      "role": "sculpteur"
     }
   ],
   "dateConstruction": "1904",
@@ -18,6 +22,7 @@
     "voie": "avenue Alphand"
   },
   "arrondissement": 16,
+  "tri_alphab": "Alphand-av",
   "coordonnees": {
     "latitude": "48.875101",
     "longitude": "2.285068"
@@ -28,12 +33,26 @@
   "image_ref": "Alphand-av-8_16_§10",
   "terme_jantzen_bat": [
     "porte-fer",
-    "fenetre",
     "sculpture",
     "clé",
     "console",
     "cariatide",
+    "fenetre",
     "porte-fer-hall"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "atlante",
+    "baie",
+    "balcon",
+    "balustrade",
+    "fer",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "pierre de taille",
+    "porte-fenêtre",
+    "sculpture"
   ],
   "photos": [
     {
@@ -43,35 +62,58 @@
         "console",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "porte-fenêtre",
+        "atlante",
+        "sculpture",
+        "arc en plein cintre",
+        "baie",
+        "pierre de taille",
+        "fer",
+        "fronton"
+      ],
+      "dateCapture": "2004:10:25"
     },
     {
       "id_pic": "Alphand-av-8_16_§11",
       "IndexJantzen": [
         "clé",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:06:30"
     },
     {
       "id_pic": "Alphand-av-8_16_§12",
       "IndexJantzen": [
         "cariatide",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:06:30"
     },
     {
       "id_pic": "Alphand-av-8_16_§13",
       "IndexJantzen": [
         "cariatide",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:06:30"
     },
     {
       "id_pic": "Alphand-av-8_16_§14",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:10:25"
     },
     {
       "id_pic": "Alphand-av-8_16_§7",
@@ -79,7 +121,9 @@
         "cariatide",
         "fenetre",
         "porte-fer-hall"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:06:30"
     },
     {
       "id_pic": "Alphand-av-8_16_§7b",
@@ -87,14 +131,18 @@
         "cariatide",
         "fenetre",
         "porte-fer"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:06:30"
     },
     {
       "id_pic": "Alphand-av-8_16_§8",
       "IndexJantzen": [
         "porte-fer-hall",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:10:26"
     },
     {
       "id_pic": "Alphand-av-8_16_§9",
@@ -103,7 +151,9 @@
         "console",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:06:30"
     },
     {
       "id_pic": "Alphand-Av-8_16_-A_DxO",
@@ -112,7 +162,9 @@
         "fenetre",
         "porte-fer-hall",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:10:26"
     }
   ]
 }

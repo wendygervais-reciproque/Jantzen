@@ -13,6 +13,7 @@
     "voie": "rue Madame de Sévigné"
   },
   "arrondissement": 3,
+  "tri_alphab": "Sevigne",
   "coordonnees": {
     "latitude": "48.857057",
     "longitude": "2.36285"
@@ -22,16 +23,35 @@
   "WPfr": null,
   "image_ref": "Sevigne-23_3_§1",
   "terme_jantzen_bat": [
+    "dome",
+    "sculpture",
+    "pilastre",
+    "clé",
+    "fenetre",
     "lucarne",
     "façade",
     "fronton",
-    "fenetre",
-    "dome",
+    "garde-corps",
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "attique",
+    "bossage",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "grille",
+    "gros appareil",
+    "linteau",
+    "mascaron",
+    "pierre de taille",
+    "porte",
     "sculpture",
-    "clé",
-    "porte-bois",
-    "pilastre",
-    "garde-corps"
+    "toit à deux versants",
+    "vantail"
   ],
   "photos": [
     {
@@ -40,13 +60,35 @@
         "dome",
         "façade",
         "porte-bois"
-      ]
+      ],
+      "IndexTorneh": [
+        "fronton",
+        "sculpture",
+        "fenêtre",
+        "porte",
+        "vantail",
+        "arc en plein cintre",
+        "bossage",
+        "pierre de taille",
+        "gros appareil",
+        "corniche",
+        "ardoise",
+        "toit à deux versants",
+        "grille",
+        "chambranle",
+        "linteau",
+        "mascaron",
+        "attique"
+      ],
+      "dateCapture": "2007:08:27"
     },
     {
       "id_pic": "Sevigne-23_3_§10",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:09:18"
     },
     {
       "id_pic": "Sevigne-23_3_§11",
@@ -55,90 +97,118 @@
         "fenetre",
         "fronton",
         "pilastre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:07:03"
     },
     {
       "id_pic": "Sevigne-23_3_§12",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:07:03"
     },
     {
       "id_pic": "Sevigne-23_3_§13",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:07:03"
     },
     {
       "id_pic": "Sevigne-23_3_§14",
       "IndexJantzen": [
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:07:03"
     },
     {
       "id_pic": "Sevigne-23_3_§15",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:07:03"
     },
     {
       "id_pic": "Sevigne-23_3_§16",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:09:21"
     },
     {
       "id_pic": "Sevigne-23_3_§17",
       "IndexJantzen": [
         "fronton",
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:07:03"
     },
     {
       "id_pic": "Sevigne-23_3_§18",
       "IndexJantzen": [
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:07:03"
     },
     {
       "id_pic": "Sevigne-23_3_§19",
       "IndexJantzen": [
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:07:03"
     },
     {
       "id_pic": "Sevigne-23_3_§2",
       "IndexJantzen": [
         "porte-bois"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:08:27"
     },
     {
       "id_pic": "Sevigne-23_3_§3",
       "IndexJantzen": [
         "porte-bois"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:08:27"
     },
     {
       "id_pic": "Sevigne-23_3_§4",
       "IndexJantzen": [
         "porte-bois"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:07:03"
     },
     {
       "id_pic": "Sevigne-23_3_§5",
       "IndexJantzen": [
         "clé",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:07:03"
     },
     {
       "id_pic": "Sevigne-23_3_§6",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:07:03"
     },
     {
       "id_pic": "Sevigne-23_3_§7",
@@ -146,19 +216,25 @@
         "fenetre",
         "garde-corps",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2012:03:22"
     },
     {
       "id_pic": "Sevigne-23_3_§8",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:09:18"
     },
     {
       "id_pic": "Sevigne-23_3_§9",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:07:03"
     }
   ]
 }

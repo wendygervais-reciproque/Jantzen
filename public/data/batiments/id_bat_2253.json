@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 509,
+      "personneID": 760,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue du Champ-de-Mars"
   },
   "arrondissement": 7,
+  "tri_alphab": "Champ-De-Mars",
   "coordonnees": {
     "latitude": "48.855911",
     "longitude": "2.303772"
@@ -27,34 +28,79 @@
   "WPfr": null,
   "image_ref": "Champ-De-Mars-33_7_§1",
   "terme_jantzen_bat": [
+    "porte-fer",
+    "sculpture",
+    "fenetre",
     "lucarne",
     "façade",
-    "porte-fer",
-    "fenetre",
-    "décor",
-    "sculpture",
+    "marquise",
     "porte-bois",
-    "marquise"
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "baie",
+    "balcon",
+    "balustrade",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "marquise",
+    "mascaron",
+    "oculus",
+    "oriel",
+    "pierre de taille",
+    "porte",
+    "porte-fenêtre",
+    "sculpture",
+    "souche de cheminée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Champ-De-Mars-33_7_§1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "porte",
+        "porte-fenêtre",
+        "volet",
+        "sculpture",
+        "mascaron",
+        "oriel",
+        "lucarne",
+        "marquise",
+        "fer forgé",
+        "pierre de taille",
+        "arc",
+        "baie",
+        "souche de cheminée",
+        "oculus"
+      ],
+      "dateCapture": "2006:09:09"
     },
     {
       "id_pic": "Champ-De-Mars-33_7_§10",
       "IndexJantzen": [
         "marquise",
         "porte-fer"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:09:09"
     },
     {
       "id_pic": "Champ-De-Mars-33_7_§11",
       "IndexJantzen": [
         "porte-bois"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:09:09"
     },
     {
       "id_pic": "Champ-De-Mars-33_7_§2",
@@ -62,7 +108,9 @@
         "décor",
         "façade",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:09:09"
     },
     {
       "id_pic": "Champ-De-Mars-33_7_§3",
@@ -70,42 +118,54 @@
         "décor",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:09:09"
     },
     {
       "id_pic": "Champ-De-Mars-33_7_§4",
       "IndexJantzen": [
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:09:09"
     },
     {
       "id_pic": "Champ-De-Mars-33_7_§5",
       "IndexJantzen": [
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:09:09"
     },
     {
       "id_pic": "Champ-De-Mars-33_7_§6",
       "IndexJantzen": [
         "fenetre",
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:09:09"
     },
     {
       "id_pic": "Champ-De-Mars-33_7_§8",
       "IndexJantzen": [
         "marquise",
         "porte-fer"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:09:09"
     },
     {
       "id_pic": "Champ-De-Mars-33_7_§9",
       "IndexJantzen": [
         "marquise",
         "porte-fer"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:04:26"
     }
   ]
 }

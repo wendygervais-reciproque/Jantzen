@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 121,
+      "personneID": 385,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "boulevard Saint-Germain"
   },
   "arrondissement": 6,
+  "tri_alphab": "St-Germain",
   "coordonnees": {
     "latitude": "48.852536",
     "longitude": "2.337864"
@@ -27,15 +28,39 @@
   "WPfr": null,
   "image_ref": "St-Germain-117_6_§1",
   "terme_jantzen_bat": [
-    "lucarne",
-    "façade-d'angle",
-    "fenetre",
-    "décor",
     "dome",
+    "façade-d'angle",
+    "balcon",
     "sculpture",
     "clé",
+    "fenetre",
+    "lucarne",
+    "porte-bois",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
     "balcon",
-    "porte-bois"
+    "balustrade",
+    "chambranle",
+    "colonne",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "linteau",
+    "lucarne",
+    "mascaron",
+    "oculus",
+    "oriel",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "sculpture",
+    "travée",
+    "vantail",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -43,7 +68,32 @@
       "IndexJantzen": [
         "dome",
         "façade-d'angle"
-      ]
+      ],
+      "IndexTorneh": [
+        "dôme",
+        "oriel",
+        "balcon",
+        "balustrade",
+        "corniche",
+        "fronton",
+        "pilastre",
+        "colonne",
+        "porte",
+        "vantail",
+        "mascaron",
+        "sculpture",
+        "fer forgé",
+        "fenêtre",
+        "lucarne",
+        "oculus",
+        "pierre de taille",
+        "ardoise",
+        "épi de faîtage",
+        "travée",
+        "chambranle",
+        "linteau"
+      ],
+      "dateCapture": "2010:06:05"
     },
     {
       "id_pic": "St-Germain-117_6_§2",
@@ -51,7 +101,9 @@
         "décor",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2010:06:05"
     },
     {
       "id_pic": "St-Germain-117_6_§3",
@@ -60,41 +112,53 @@
         "décor",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2010:06:05"
     },
     {
       "id_pic": "St-Germain-117_6_§4",
       "IndexJantzen": [
         "clé",
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2010:06:05"
     },
     {
       "id_pic": "St-Germain-117_6_§5",
       "IndexJantzen": [
         "dome",
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:06:11"
     },
     {
       "id_pic": "St-Germain-117_6_§6",
       "IndexJantzen": [
         "dome",
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2010:06:05"
     },
     {
       "id_pic": "St-Germain-117_6_§7",
       "IndexJantzen": [
         "balcon",
         "porte-bois"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2010:06:05"
     },
     {
       "id_pic": "St-Germain-117_6_§8",
       "IndexJantzen": [
         "porte-bois"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2010:06:05"
     }
   ]
 }

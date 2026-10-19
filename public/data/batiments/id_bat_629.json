@@ -4,8 +4,16 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 127,
+      "personneID": 724,
       "role": "architecte"
+    },
+    {
+      "personneID": 195,
+      "role": "architecte"
+    },
+    {
+      "personneID": 10005,
+      "role": "sculpteur"
     }
   ],
   "dateConstruction": null,
@@ -18,6 +26,7 @@
     "voie": "rue Abel"
   },
   "arrondissement": 12,
+  "tri_alphab": "Abel",
   "coordonnees": {
     "latitude": "48.846966",
     "longitude": "2.375242"
@@ -29,12 +38,53 @@
   "terme_jantzen_bat": [
     "lucarne-d'angle"
   ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "chapiteau",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Abel-12_12_§1",
       "IndexJantzen": [
         "lucarne-d'angle"
-      ]
+      ],
+      "IndexTorneh": [
+        "mascaron",
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "balustrade",
+        "pilastre",
+        "corniche",
+        "fronton",
+        "toit à deux versants",
+        "sculpture",
+        "pierre de taille",
+        "oculus",
+        "souche de cheminée",
+        "ardoise",
+        "volet",
+        "fer forgé",
+        "chapiteau",
+        "dôme"
+      ],
+      "dateCapture": "2006:07:03"
     }
   ]
 }

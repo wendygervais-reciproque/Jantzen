@@ -4,8 +4,12 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 701,
+      "personneID": 841,
       "role": "architecte"
+    },
+    {
+      "personneID": 10138,
+      "role": "sculpteur"
     }
   ],
   "dateConstruction": "1902",
@@ -18,6 +22,7 @@
     "voie": "boulevard de Courcelles"
   },
   "arrondissement": 8,
+  "tri_alphab": "Courcelles-bd",
   "coordonnees": {
     "latitude": "48.880798",
     "longitude": "2.31357"
@@ -25,17 +30,40 @@
   "id_pss": 11574,
   "id_wikidata": null,
   "WPfr": null,
-  "image_ref": "Courcelles-bd-29_8_§10",
+  "image_ref": "Courcelles-bd-29_8_§2",
   "terme_jantzen_bat": [
+    "balcon",
+    "porte-fer",
+    "sculpture",
+    "fenetre",
     "lucarne",
     "façade",
-    "porte-fer",
-    "fenetre",
-    "sculpture",
-    "balcon",
+    "garde-corps",
     "porte-fer-hall",
-    "colonne",
-    "garde-corps"
+    "colonne"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "grille",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "oriel",
+    "pierre de taille",
+    "porte",
+    "porte-fenêtre",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée"
   ],
   "photos": [
     {
@@ -43,35 +71,45 @@
       "IndexJantzen": [
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:05:26"
     },
     {
       "id_pic": "Courcelles-bd-29_8_§10b",
       "IndexJantzen": [
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:06:05"
     },
     {
       "id_pic": "Courcelles-bd-29_8_§10c",
       "IndexJantzen": [
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2015:10:08"
     },
     {
       "id_pic": "Courcelles-bd-29_8_§10d",
       "IndexJantzen": [
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:05:26"
     },
     {
       "id_pic": "Courcelles-bd-29_8_§12",
       "IndexJantzen": [
         "balcon",
         "garde-corps"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2003:06:22"
     },
     {
       "id_pic": "Courcelles-bd-29_8_§15",
@@ -80,27 +118,57 @@
         "fenetre",
         "garde-corps",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:06:06"
     },
     {
       "id_pic": "Courcelles-bd-29_8_§17",
       "IndexJantzen": [
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:06:06"
     },
     {
       "id_pic": "Courcelles-bd-29_8_§19",
       "IndexJantzen": [
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:06:06"
     },
     {
       "id_pic": "Courcelles-bd-29_8_§2",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "porte",
+        "porte-fenêtre",
+        "lucarne",
+        "mansarde",
+        "arc",
+        "arc en plein cintre",
+        "garde-corps",
+        "fer forgé",
+        "pierre de taille",
+        "sculpture",
+        "mascaron",
+        "oriel",
+        "travée",
+        "bandeau",
+        "souche de cheminée",
+        "toit à deux versants",
+        "grille",
+        "oculus"
+      ],
+      "dateCapture": "2006:06:06"
     },
     {
       "id_pic": "Courcelles-bd-29_8_§20",
@@ -108,14 +176,18 @@
         "fenetre",
         "garde-corps",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:06:06"
     },
     {
       "id_pic": "Courcelles-bd-29_8_§21",
       "IndexJantzen": [
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:05:26"
     },
     {
       "id_pic": "Courcelles-bd-29_8_§22",
@@ -123,54 +195,70 @@
         "fenetre",
         "garde-corps",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:05:26"
     },
     {
       "id_pic": "Courcelles-bd-29_8_§24",
       "IndexJantzen": [
         "porte-fer-hall"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:05:27"
     },
     {
       "id_pic": "Courcelles-bd-29_8_§25",
       "IndexJantzen": [
         "porte-fer"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": null
     },
     {
       "id_pic": "Courcelles-bd-29_8_§3",
       "IndexJantzen": [
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:06:06"
     },
     {
       "id_pic": "Courcelles-bd-29_8_§4",
       "IndexJantzen": [
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:06:06"
     },
     {
       "id_pic": "Courcelles-bd-29_8_§5",
       "IndexJantzen": [
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:06:05"
     },
     {
       "id_pic": "Courcelles-bd-29_8_§6",
       "IndexJantzen": [
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:06:06"
     },
     {
       "id_pic": "Courcelles-bd-29_8_§8",
       "IndexJantzen": [
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:06:06"
     },
     {
       "id_pic": "Courcelles-bd-29_8_§9",
@@ -178,7 +266,9 @@
         "fenetre",
         "lucarne",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:06:06"
     }
   ]
 }

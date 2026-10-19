@@ -1,10 +1,10 @@
 {
   "id_bat": 1230,
-  "libelle": "17 rue du Faubourg-Poissonnière",
+  "libelle": "17 rue du Faubourg Poissonnière",
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 250,
+      "personneID": 403,
       "role": "architecte"
     }
   ],
@@ -13,11 +13,12 @@
     "1895-1914"
   ],
   "adresse": {
-    "affichage": "17 rue du Faubourg-Poissonnière",
+    "affichage": "17 rue du Faubourg Poissonnière",
     "numero": "17",
-    "voie": "rue du Faubourg-Poissonnière"
+    "voie": "rue du Faubourg Poissonnière"
   },
   "arrondissement": 9,
+  "tri_alphab": "Faubourg-Poissonniere",
   "coordonnees": {
     "latitude": "48.872325",
     "longitude": "2.347796"
@@ -25,14 +26,29 @@
   "id_pss": 499,
   "id_wikidata": null,
   "WPfr": null,
-  "image_ref": "Faubourg-Poissonniere-17_9_§1",
+  "image_ref": "Faubourg-Poissonniere-17_9_§2",
   "terme_jantzen_bat": [
-    "porte-fer",
-    "brique",
-    "fenetre",
-    "décor",
     "mosaique",
-    "marquise"
+    "porte-fer",
+    "fenetre",
+    "brique",
+    "marquise",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "brique",
+    "céramique",
+    "fenêtre",
+    "fer forgé",
+    "grille",
+    "marquise",
+    "mascaron",
+    "perron",
+    "porche",
+    "porte",
+    "vantail"
   ],
   "photos": [
     {
@@ -41,7 +57,9 @@
         "brique",
         "décor",
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:09:04"
     },
     {
       "id_pic": "Faubourg-Poissonniere-17_9_§2",
@@ -49,7 +67,23 @@
         "brique",
         "mosaique",
         "porte-fer"
-      ]
+      ],
+      "IndexTorneh": [
+        "porche",
+        "marquise",
+        "balcon",
+        "balustrade",
+        "brique",
+        "fer forgé",
+        "porte",
+        "vantail",
+        "grille",
+        "perron",
+        "mascaron",
+        "céramique",
+        "fenêtre"
+      ],
+      "dateCapture": "2007:08:27"
     },
     {
       "id_pic": "Faubourg-Poissonniere-17_9_§3",
@@ -58,7 +92,9 @@
         "marquise",
         "mosaique",
         "porte-fer"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:08:27"
     },
     {
       "id_pic": "Faubourg-Poissonniere-17_9_§4",
@@ -66,7 +102,9 @@
         "brique",
         "mosaique",
         "porte-fer"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:05:26"
     },
     {
       "id_pic": "Faubourg-Poissonniere-17_9_§5",
@@ -74,7 +112,9 @@
         "brique",
         "marquise",
         "mosaique"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:05:26"
     }
   ]
 }

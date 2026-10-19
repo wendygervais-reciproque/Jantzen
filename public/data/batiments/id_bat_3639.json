@@ -13,6 +13,7 @@
     "voie": "rue Elzévir"
   },
   "arrondissement": 3,
+  "tri_alphab": "Elzevir",
   "coordonnees": {
     "latitude": "48.858202",
     "longitude": "2.361468"
@@ -22,9 +23,22 @@
   "WPfr": null,
   "image_ref": "Elzevir-8_3_§1",
   "terme_jantzen_bat": [
+    "fronton",
     "fenetre",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "ardoise",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "fronton",
     "lucarne",
-    "fronton"
+    "pierre de taille",
+    "sculpture",
+    "travée"
   ],
   "photos": [
     {
@@ -32,7 +46,21 @@
       "IndexJantzen": [
         "fenetre",
         "fronton"
-      ]
+      ],
+      "IndexTorneh": [
+        "fronton",
+        "fenêtre",
+        "ardoise",
+        "pierre de taille",
+        "arc en plein cintre",
+        "sculpture",
+        "corniche",
+        "lucarne",
+        "chaîne d'angle",
+        "arc",
+        "travée"
+      ],
+      "dateCapture": "2003:08:01"
     },
     {
       "id_pic": "Elzevir-8_3_§2",
@@ -40,14 +68,18 @@
         "fenetre",
         "fronton",
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2003:08:01"
     },
     {
       "id_pic": "Elzevir-8_3_§3",
       "IndexJantzen": [
         "fronton",
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2003:08:01"
     }
   ]
 }

@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 286,
+      "personneID": 858,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue Danton"
   },
   "arrondissement": 6,
+  "tri_alphab": "Danton",
   "coordonnees": {
     "latitude": "48.852675",
     "longitude": "2.342084"
@@ -27,49 +28,118 @@
   "WPfr": null,
   "image_ref": "Danton-6_6_§1",
   "terme_jantzen_bat": [
+    "façade",
     "fenetre",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chapiteau",
+    "colonne",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
     "lucarne",
-    "façade"
+    "mansarde",
+    "mascaron",
+    "meneau",
+    "oculus",
+    "oriel",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "porte-fenêtre",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Danton-6_6_§1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "oculus",
+        "lucarne",
+        "mansarde",
+        "ardoise",
+        "garde-corps",
+        "fer forgé",
+        "pilastre",
+        "chapiteau",
+        "corniche",
+        "bandeau",
+        "arc",
+        "arc en plein cintre",
+        "fronton",
+        "sculpture",
+        "mascaron",
+        "colonne",
+        "toit à deux versants",
+        "souche de cheminée",
+        "volet",
+        "porte",
+        "porte-fenêtre",
+        "oriel",
+        "pierre de taille",
+        "meneau"
+      ],
+      "dateCapture": "2005:05:23"
     },
     {
       "id_pic": "Danton-6_6_§2",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:05:23"
     },
     {
       "id_pic": "Danton-6_6_§3",
       "IndexJantzen": [
         "fenetre",
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2010:06:05"
     },
     {
       "id_pic": "Danton-6_6_§4",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:05:23"
     },
     {
       "id_pic": "Danton-6_6_§5",
       "IndexJantzen": [
         "fenetre",
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2010:06:05"
     },
     {
       "id_pic": "Danton-6_6_§6",
       "IndexJantzen": [
         "fenetre",
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:05:23"
     }
   ]
 }

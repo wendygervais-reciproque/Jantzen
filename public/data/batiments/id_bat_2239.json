@@ -13,6 +13,7 @@
     "voie": "rue des Pyrénées"
   },
   "arrondissement": 20,
+  "tri_alphab": "Pyrenees",
   "coordonnees": {
     "latitude": "48.873145",
     "longitude": "2.390526"
@@ -22,9 +23,19 @@
   "WPfr": null,
   "image_ref": "Pyrenees-328-_20_§1",
   "terme_jantzen_bat": [
-    "console",
     "porte-fer-hall",
-    "sculpture"
+    "sculpture",
+    "console"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "balcon",
+    "corniche",
+    "fenêtre",
+    "modillon",
+    "pierre de taille",
+    "sculpture",
+    "volet"
   ],
   "photos": [
     {
@@ -32,17 +43,32 @@
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "arc",
+        "sculpture",
+        "volet",
+        "balcon",
+        "pierre de taille",
+        "corniche",
+        "modillon"
+      ],
+      "dateCapture": "2005:09:04"
     },
     {
       "id_pic": "Pyrenees-328-_20_§4",
       "IndexJantzen": [
         "porte-fer-hall"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:04:11"
     },
     {
       "id_pic": "Pyrenees-328-_20_§5",
-      "IndexJantzen": []
+      "IndexJantzen": [],
+      "IndexTorneh": [],
+      "dateCapture": "2005:09:04"
     }
   ]
 }

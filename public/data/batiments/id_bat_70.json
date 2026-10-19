@@ -2,13 +2,19 @@
   "id_bat": 70,
   "libelle": "Église Saint-Léon",
   "ensemble": null,
-  "personnes": null,
+  "personnes": [
+    {
+      "personneID": 167,
+      "role": "architecte"
+    }
+  ],
   "dateConstruction": null,
   "periode": [
     "1915-1944"
   ],
   "adresse": null,
   "arrondissement": 15,
+  "tri_alphab": "St-Leon-Eglise",
   "coordonnees": {
     "latitude": "48.85093611111111",
     "longitude": "2.2965805555555554"
@@ -20,18 +26,45 @@
   "terme_jantzen_bat": [
     "toiture"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "brique",
+    "dôme",
+    "faîtage",
+    "fer forgé",
+    "toit à deux versants",
+    "tour",
+    "tuile",
+    "verrière",
+    "épi de faîtage"
+  ],
   "photos": [
     {
       "id_pic": "St-Leon-Eglise_15_§1",
       "IndexJantzen": [
         "toiture"
-      ]
+      ],
+      "IndexTorneh": [
+        "tour",
+        "dôme",
+        "verrière",
+        "tuile",
+        "faîtage",
+        "brique",
+        "épi de faîtage",
+        "balcon",
+        "fer forgé",
+        "toit à deux versants"
+      ],
+      "dateCapture": "2005:06:09"
     },
     {
       "id_pic": "St-Leon-Eglise_15_§2",
       "IndexJantzen": [
         "toiture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:06:09"
     }
   ]
 }

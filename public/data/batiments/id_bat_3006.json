@@ -13,6 +13,7 @@
     "voie": "rue Vieille-du-Temple"
   },
   "arrondissement": 3,
+  "tri_alphab": "Vieille-Du-Temple",
   "coordonnees": {
     "latitude": "48.858737",
     "longitude": "2.358941"
@@ -22,11 +23,23 @@
   "WPfr": null,
   "image_ref": "Vieille-Du-Temple-54_3_§1",
   "terme_jantzen_bat": [
-    "façade",
     "façade-d'angle",
-    "fenetre",
     "tourelle",
-    "pignon"
+    "pignon",
+    "fenetre",
+    "façade"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "chaîne d'angle",
+    "fenêtre",
+    "oculus",
+    "pierre de taille",
+    "porte",
+    "toit à deux versants",
+    "tuile",
+    "vitrail",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -34,14 +47,29 @@
       "IndexJantzen": [
         "façade",
         "pignon"
-      ]
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "pierre de taille",
+        "chaîne d'angle",
+        "toit à deux versants",
+        "ardoise",
+        "épi de faîtage",
+        "oculus",
+        "porte",
+        "vitrail",
+        "tuile"
+      ],
+      "dateCapture": "2004:09:09"
     },
     {
       "id_pic": "Vieille-Du-Temple-54_3_§2",
       "IndexJantzen": [
         "façade-d'angle",
         "tourelle"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2003:08:01"
     },
     {
       "id_pic": "Vieille-Du-Temple-54_3_§3",
@@ -49,7 +77,9 @@
         "fenetre",
         "pignon",
         "tourelle"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2003:08:01"
     }
   ]
 }

@@ -4,8 +4,12 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 139,
+      "personneID": 219,
       "role": "architecte"
+    },
+    {
+      "personneID": 10036,
+      "role": "sculpteur"
     }
   ],
   "dateConstruction": "1877",
@@ -18,6 +22,7 @@
     "voie": "rue de Babylone"
   },
   "arrondissement": 7,
+  "tri_alphab": "Babylone",
   "coordonnees": {
     "latitude": "48.851787",
     "longitude": "2.325395"
@@ -27,8 +32,21 @@
   "WPfr": null,
   "image_ref": "Babylone-10_7_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "garde-corps"
+    "garde-corps",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "chambranle",
+    "corniche",
+    "fer forgé",
+    "frise",
+    "garde-corps",
+    "pierre de taille",
+    "porte-fenêtre",
+    "travée",
+    "vantail"
   ],
   "photos": [
     {
@@ -36,7 +54,21 @@
       "IndexJantzen": [
         "fenetre",
         "garde-corps"
-      ]
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "porte-fenêtre",
+        "balustrade",
+        "corniche",
+        "frise",
+        "chambranle",
+        "fer forgé",
+        "pierre de taille",
+        "vantail",
+        "travée"
+      ],
+      "dateCapture": "2004:05:12"
     }
   ]
 }

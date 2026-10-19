@@ -13,6 +13,7 @@
     "voie": "rue Bonaparte"
   },
   "arrondissement": 6,
+  "tri_alphab": "Bonaparte",
   "coordonnees": {
     "latitude": "48.857124",
     "longitude": "2.335108"
@@ -22,21 +23,34 @@
   "WPfr": null,
   "image_ref": "Bonaparte-5_6_§1",
   "terme_jantzen_bat": [
-    "porte-bois",
-    "poignée-porte"
+    "poignée-porte",
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "fer",
+    "heurtoir",
+    "porte"
   ],
   "photos": [
     {
       "id_pic": "Bonaparte-5_6_§1",
       "IndexJantzen": [
         "poignée-porte"
-      ]
+      ],
+      "IndexTorneh": [
+        "heurtoir",
+        "porte",
+        "fer"
+      ],
+      "dateCapture": "2003:08:26"
     },
     {
       "id_pic": "Bonaparte-5_6_M",
       "IndexJantzen": [
         "porte-bois"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2003:08:26"
     }
   ]
 }

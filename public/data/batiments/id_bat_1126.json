@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 517,
+      "personneID": 409,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue de Sèvres"
   },
   "arrondissement": 7,
+  "tri_alphab": "Sevres",
   "coordonnees": {
     "latitude": "48.851823",
     "longitude": "2.327375"
@@ -27,24 +28,71 @@
   "WPfr": null,
   "image_ref": "Sevres-16_7_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "lucarne",
+    "oeil-de-boeuf",
     "fronton",
-    "oeil-de-boeuf"
+    "fenetre",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "frise",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mascaron",
+    "oculus",
+    "oriel",
+    "pierre de taille",
+    "pilastre",
+    "sculpture",
+    "souche de cheminée",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Sevres-16_7_§1",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [
+        "oriel",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "lucarne",
+        "oculus",
+        "dôme",
+        "souche de cheminée",
+        "corniche",
+        "pilastre",
+        "sculpture",
+        "mascaron",
+        "frise",
+        "volet",
+        "pierre de taille",
+        "ardoise",
+        "fronton",
+        "travée"
+      ],
+      "dateCapture": "2005:04:02"
     },
     {
       "id_pic": "Sevres-16_7_§2-Rs",
       "IndexJantzen": [
         "fenetre",
         "fronton"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:12:03"
     },
     {
       "id_pic": "Sevres-16_7_§3-Rs",
@@ -52,7 +100,9 @@
         "fronton",
         "lucarne",
         "oeil-de-boeuf"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:12:03"
     },
     {
       "id_pic": "Sevres-16_7_§4",
@@ -60,7 +110,9 @@
         "fronton",
         "lucarne",
         "oeil-de-boeuf"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:12:03"
     }
   ]
 }

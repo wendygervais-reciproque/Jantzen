@@ -9,6 +9,7 @@
   ],
   "adresse": null,
   "arrondissement": 1,
+  "tri_alphab": "Louvre-1-Cns",
   "coordonnees": {
     "latitude": "48.861419",
     "longitude": "2.336582"
@@ -20,12 +21,33 @@
   "terme_jantzen_bat": [
     "sculpture"
   ],
+  "terme_torneh_bat": [
+    "acrotère",
+    "attique",
+    "balustrade",
+    "corniche",
+    "frise",
+    "mascaron",
+    "pierre de taille",
+    "sculpture"
+  ],
   "photos": [
     {
       "id_pic": "Louvre-1-Cns-1",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [
+        "acrotère",
+        "sculpture",
+        "balustrade",
+        "corniche",
+        "attique",
+        "mascaron",
+        "frise",
+        "pierre de taille"
+      ],
+      "dateCapture": "2006:06:17"
     }
   ]
 }

@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 104,
+      "personneID": 164,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue Rousselet"
   },
   "arrondissement": 7,
+  "tri_alphab": "Rousselet",
   "coordonnees": {
     "latitude": "48.850051",
     "longitude": "2.317856"
@@ -28,10 +29,34 @@
   "image_ref": "Rousselet-1_7_§1",
   "terme_jantzen_bat": [
     "façade-d'angle",
-    "céramique",
     "porte-fer",
+    "oriel",
     "brique",
-    "oriel"
+    "céramique"
+  ],
+  "terme_torneh_bat": [
+    "auvent",
+    "baie",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "chambranle",
+    "chéneau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "grille",
+    "lucarne",
+    "mansarde",
+    "oriel",
+    "pierre de taille",
+    "porte",
+    "souche de cheminée",
+    "tour",
+    "travée",
+    "vitrail"
   ],
   "photos": [
     {
@@ -40,21 +65,50 @@
         "brique",
         "façade-d'angle",
         "oriel"
-      ]
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "baie",
+        "bandeau",
+        "brique",
+        "chéneau",
+        "fenêtre",
+        "fer forgé",
+        "garde-corps",
+        "grille",
+        "lucarne",
+        "mansarde",
+        "oriel",
+        "pierre de taille",
+        "porte",
+        "souche de cheminée",
+        "tour",
+        "travée",
+        "vitrail",
+        "auvent",
+        "chambranle",
+        "corniche"
+      ],
+      "dateCapture": "2005:05:01"
     },
     {
       "id_pic": "Rousselet-1_7_§2",
       "IndexJantzen": [
         "brique",
         "oriel"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:05:01"
     },
     {
       "id_pic": "Rousselet-1_7_§3",
       "IndexJantzen": [
         "céramique",
         "porte-fer"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:05:01"
     }
   ]
 }

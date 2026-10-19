@@ -2,7 +2,12 @@
   "id_bat": 1881,
   "libelle": "26 boulevard Haussmann",
   "ensemble": null,
-  "personnes": null,
+  "personnes": [
+    {
+      "personneID": 215,
+      "role": "architecte"
+    }
+  ],
   "dateConstruction": null,
   "periode": [
     "1895-1914"
@@ -13,6 +18,7 @@
     "voie": "boulevard Haussmann"
   },
   "arrondissement": 9,
+  "tri_alphab": "Haussmann",
   "coordonnees": {
     "latitude": "48.872778",
     "longitude": "2.33566"
@@ -22,11 +28,32 @@
   "WPfr": null,
   "image_ref": "Haussmann-26_9_§1",
   "terme_jantzen_bat": [
+    "sculpture",
+    "fenetre",
     "lucarne",
     "fronton",
-    "fenetre",
-    "décor",
-    "sculpture"
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "attique",
+    "balcon",
+    "balustrade",
+    "corniche",
+    "fenêtre",
+    "frise",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "pierre de taille",
+    "pilastre",
+    "sculpture",
+    "souche de cheminée",
+    "volet",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -37,7 +64,29 @@
         "fronton",
         "lucarne",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "corniche",
+        "fronton",
+        "mansarde",
+        "lucarne",
+        "souche de cheminée",
+        "épi de faîtage",
+        "mascaron",
+        "sculpture",
+        "pierre de taille",
+        "ardoise",
+        "arc en plein cintre",
+        "pilastre",
+        "frise",
+        "attique",
+        "volet"
+      ],
+      "dateCapture": "2004:03:28"
     },
     {
       "id_pic": "Haussmann-26_9_§2",
@@ -47,7 +96,9 @@
         "fronton",
         "lucarne",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:02:17"
     }
   ]
 }

@@ -1,0 +1,102 @@
+{
+  "id_bat": 1609,
+  "libelle": "21 boulevard de Strasbourg",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": null,
+  "adresse": {
+    "affichage": "21 boulevard de Strasbourg",
+    "numero": "21",
+    "voie": "boulevard de Strasbourg"
+  },
+  "arrondissement": 10,
+  "tri_alphab": "Strasbourg",
+  "coordonnees": {
+    "latitude": "48.870786",
+    "longitude": "2.354846"
+  },
+  "id_pss": null,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": "Stasbourg-21_10_§1",
+  "terme_jantzen_bat": [
+    "sculpture",
+    "clé",
+    "cariatide",
+    "fenetre",
+    "console",
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "atlante",
+    "baie",
+    "balcon",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "grille",
+    "mascaron",
+    "pilastre",
+    "porte",
+    "sculpture",
+    "vantail"
+  ],
+  "photos": [
+    {
+      "id_pic": "Stasbourg-21_10_§1",
+      "IndexJantzen": [
+        "fenetre",
+        "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "atlante",
+        "sculpture",
+        "mascaron",
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "arc en plein cintre",
+        "corniche",
+        "pilastre",
+        "vantail",
+        "grille",
+        "baie"
+      ],
+      "dateCapture": "2010:06:05"
+    },
+    {
+      "id_pic": "Stasbourg-21_10_§4",
+      "IndexJantzen": [
+        "cariatide",
+        "fenetre",
+        "sculpture"
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:08:28"
+    },
+    {
+      "id_pic": "Stasbourg-21_10_§5",
+      "IndexJantzen": [
+        "clé",
+        "sculpture"
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:08:28"
+    },
+    {
+      "id_pic": "Stasbourg-21_10_§6",
+      "IndexJantzen": [
+        "cariatide",
+        "console",
+        "sculpture"
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:08:28"
+    }
+  ]
+}

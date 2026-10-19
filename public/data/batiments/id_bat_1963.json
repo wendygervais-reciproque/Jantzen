@@ -4,8 +4,16 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 593,
+      "personneID": 109,
       "role": "architecte"
+    },
+    {
+      "personneID": 10066,
+      "role": "céramiste"
+    },
+    {
+      "personneID": 10023,
+      "role": "céramiste"
     }
   ],
   "dateConstruction": "1905",
@@ -18,6 +26,7 @@
     "voie": "quai Anatole-France"
   },
   "arrondissement": 7,
+  "tri_alphab": "Anatole-France",
   "coordonnees": {
     "latitude": "48.862029",
     "longitude": "2.320799"
@@ -25,20 +34,46 @@
   "id_pss": 27866,
   "id_wikidata": null,
   "WPfr": null,
-  "image_ref": "Anatole-France-27B_7_§1",
+  "image_ref": "Anatole-France-27B_7_§7",
   "terme_jantzen_bat": [
-    "porte",
-    "lucarne",
     "toiture",
-    "céramique",
-    "façade",
-    "fenetre",
-    "tourelle",
-    "balcon",
     "loggia",
-    "colonne",
     "verrière",
-    "garde-corps"
+    "balcon",
+    "tourelle",
+    "fenetre",
+    "lucarne",
+    "façade",
+    "garde-corps",
+    "porte",
+    "céramique",
+    "colonne"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "auvent",
+    "baie",
+    "balcon",
+    "balustrade",
+    "colonne",
+    "corniche",
+    "céramique",
+    "fenêtre",
+    "garde-corps",
+    "grille",
+    "mascaron",
+    "oculus",
+    "oriel",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "sculpture",
+    "souche de cheminée",
+    "toit en pavillon",
+    "travée",
+    "tuile",
+    "volet",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -47,90 +82,116 @@
         "fenetre",
         "lucarne",
         "tourelle"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2010:06:04"
     },
     {
       "id_pic": "Anatole-France-27B_7_§11",
       "IndexJantzen": [
         "céramique",
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:06:03"
     },
     {
       "id_pic": "Anatole-France-27B_7_§12",
       "IndexJantzen": [
         "céramique",
         "loggia"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2010:06:04"
     },
     {
       "id_pic": "Anatole-France-27B_7_§13",
       "IndexJantzen": [
         "fenetre",
         "tourelle"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2010:06:04"
     },
     {
       "id_pic": "Anatole-France-27B_7_§14",
       "IndexJantzen": [
         "fenetre",
         "tourelle"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2010:06:04"
     },
     {
       "id_pic": "Anatole-France-27B_7_§15",
       "IndexJantzen": [
         "tourelle"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:06:03"
     },
     {
       "id_pic": "Anatole-France-27B_7_§16",
       "IndexJantzen": [
         "lucarne",
         "tourelle"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:06:18"
     },
     {
       "id_pic": "Anatole-France-27B_7_§17",
       "IndexJantzen": [
         "lucarne",
         "tourelle"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:06:18"
     },
     {
       "id_pic": "Anatole-France-27B_7_§18",
       "IndexJantzen": [
         "céramique",
         "loggia"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:06:03"
     },
     {
       "id_pic": "Anatole-France-27B_7_§19",
       "IndexJantzen": [
         "céramique",
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:06:03"
     },
     {
       "id_pic": "Anatole-France-27B_7_§2",
       "IndexJantzen": [
         "lucarne",
         "verrière"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2010:06:04"
     },
     {
       "id_pic": "Anatole-France-27B_7_§20",
       "IndexJantzen": [
         "céramique",
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2010:06:04"
     },
     {
       "id_pic": "Anatole-France-27B_7_§21",
       "IndexJantzen": [
         "céramique",
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2010:06:04"
     },
     {
       "id_pic": "Anatole-France-27B_7_§22",
@@ -138,7 +199,9 @@
         "colonne",
         "céramique",
         "loggia"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2010:06:04"
     },
     {
       "id_pic": "Anatole-France-27B_7_§23",
@@ -146,7 +209,9 @@
         "balcon",
         "céramique",
         "garde-corps"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:06:03"
     },
     {
       "id_pic": "Anatole-France-27B_7_§24",
@@ -154,74 +219,121 @@
         "céramique",
         "fenetre",
         "garde-corps"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:06:03"
     },
     {
       "id_pic": "Anatole-France-27B_7_§25",
       "IndexJantzen": [
         "céramique",
         "porte"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:06:03"
     },
     {
       "id_pic": "Anatole-France-27B_7_§26",
       "IndexJantzen": [
         "céramique"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2010:06:04"
     },
     {
       "id_pic": "Anatole-France-27B_7_§27",
       "IndexJantzen": [
         "céramique"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:06:03"
     },
     {
       "id_pic": "Anatole-France-27B_7_§28",
       "IndexJantzen": [
         "céramique"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2010:06:04"
     },
     {
       "id_pic": "Anatole-France-27B_7_§3",
       "IndexJantzen": [
         "lucarne",
         "toiture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:06:15"
     },
     {
       "id_pic": "Anatole-France-27B_7_§4",
       "IndexJantzen": [
         "lucarne",
         "verrière"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2017:06:11"
     },
     {
       "id_pic": "Anatole-France-27B_7_§5",
       "IndexJantzen": [
         "fenetre",
         "verrière"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2017:06:11"
     },
     {
       "id_pic": "Anatole-France-27B_7_§6",
       "IndexJantzen": [
         "céramique",
         "façade"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2017:06:11"
     },
     {
       "id_pic": "Anatole-France-27B_7_§7",
       "IndexJantzen": [
         "céramique",
         "façade"
-      ]
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "oriel",
+        "fenêtre",
+        "porte",
+        "arc en plein cintre",
+        "colonne",
+        "corniche",
+        "pierre de taille",
+        "céramique",
+        "tuile",
+        "volet",
+        "épi de faîtage",
+        "souche de cheminée",
+        "travée",
+        "oculus",
+        "sculpture",
+        "mascaron",
+        "baie",
+        "portail",
+        "grille",
+        "auvent",
+        "toit en pavillon"
+      ],
+      "dateCapture": "2006:06:03"
     },
     {
       "id_pic": "Anatole-France-27B_7_§9",
       "IndexJantzen": [
         "céramique",
         "façade"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2010:06:04"
     }
   ]
 }

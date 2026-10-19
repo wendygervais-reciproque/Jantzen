@@ -13,6 +13,7 @@
     "voie": "rue Ampère"
   },
   "arrondissement": 17,
+  "tri_alphab": "Ampere",
   "coordonnees": {
     "latitude": "48.885296",
     "longitude": "2.306168"
@@ -22,9 +23,22 @@
   "WPfr": null,
   "image_ref": "Ampere-6_17_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "oeil-de-boeuf",
+    "fenetre",
     "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "chambranle",
+    "grille",
+    "heurtoir",
+    "jambage",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "sculpture",
+    "vantail"
   ],
   "photos": [
     {
@@ -33,7 +47,21 @@
         "fenetre",
         "oeil-de-boeuf",
         "porte-bois"
-      ]
+      ],
+      "IndexTorneh": [
+        "porte",
+        "oculus",
+        "mascaron",
+        "sculpture",
+        "chambranle",
+        "pierre de taille",
+        "heurtoir",
+        "vantail",
+        "grille",
+        "jambage",
+        "pilastre"
+      ],
+      "dateCapture": "2004:07:05"
     }
   ]
 }

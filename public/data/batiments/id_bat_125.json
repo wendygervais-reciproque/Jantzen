@@ -9,6 +9,7 @@
   ],
   "adresse": null,
   "arrondissement": 8,
+  "tri_alphab": "Pont-Alexandre-III",
   "coordonnees": {
     "latitude": "48.86361",
     "longitude": "2.31361"
@@ -16,12 +17,20 @@
   "id_pss": null,
   "id_wikidata": "Q390418",
   "WPfr": "Pont Alexandre-III",
-  "image_ref": "La-Seine_§100",
+  "image_ref": "La-Seine_§78",
   "terme_jantzen_bat": [
     "porte-fer",
-    "pont",
-    "décor",
     "tour",
+    "sculpture",
+    "pont",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "balustrade",
+    "grille",
+    "pierre de taille",
     "sculpture"
   ],
   "photos": [
@@ -30,186 +39,247 @@
       "IndexJantzen": [
         "pont",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:07:28"
     },
     {
       "id_pic": "La-Seine_§101",
       "IndexJantzen": [
         "pont",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:07:28"
     },
     {
       "id_pic": "La-Seine_§102",
       "IndexJantzen": [
         "pont",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:03:12"
     },
     {
       "id_pic": "La-Seine_§103",
       "IndexJantzen": [
         "pont",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:03:12"
     },
     {
       "id_pic": "La-Seine_§104",
       "IndexJantzen": [
         "pont",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:03:12"
     },
     {
       "id_pic": "La-Seine_§105",
       "IndexJantzen": [
         "pont",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:03:12"
     },
     {
       "id_pic": "La-Seine_§106",
       "IndexJantzen": [
         "pont",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:02:11"
     },
     {
       "id_pic": "La-Seine_§107",
       "IndexJantzen": [
         "pont",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:01:28"
     },
     {
       "id_pic": "La-Seine_§108",
       "IndexJantzen": [
         "pont",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:02:11"
     },
     {
       "id_pic": "La-Seine_§109",
       "IndexJantzen": [
         "pont",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:02:11"
     },
     {
       "id_pic": "La-Seine_§110",
       "IndexJantzen": [
         "pont",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:01:28"
     },
     {
       "id_pic": "La-Seine_§111",
       "IndexJantzen": [
         "pont",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:02:11"
     },
     {
       "id_pic": "La-Seine_§112",
       "IndexJantzen": [
         "pont",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:03:12"
     },
     {
       "id_pic": "La-Seine_§113",
       "IndexJantzen": [
         "pont",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:02:11"
     },
     {
       "id_pic": "La-Seine_§114",
       "IndexJantzen": [
         "pont",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:01:28"
     },
     {
       "id_pic": "La-Seine_§115",
       "IndexJantzen": [
         "pont",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:02:11"
     },
     {
       "id_pic": "La-Seine_§116",
       "IndexJantzen": [
         "pont",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:01:28"
     },
     {
       "id_pic": "La-Seine_§117",
       "IndexJantzen": [
         "pont",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:01:28"
     },
     {
       "id_pic": "La-Seine_§118",
       "IndexJantzen": [
         "pont",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:01:28"
     },
     {
       "id_pic": "La-Seine_§119",
       "IndexJantzen": [
         "pont",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:01:28"
     },
     {
       "id_pic": "La-Seine_§120",
       "IndexJantzen": [
         "pont",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:07:28"
     },
     {
       "id_pic": "La-Seine_§121",
       "IndexJantzen": [
         "pont",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:07:28"
     },
     {
       "id_pic": "La-Seine_§122",
       "IndexJantzen": [
         "pont",
         "porte-fer"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:07:28"
     },
     {
       "id_pic": "La-Seine_§123",
       "IndexJantzen": [
         "pont",
         "porte-fer"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:07:28"
     },
     {
       "id_pic": "La-Seine_§76",
       "IndexJantzen": [
         "pont"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2010:04:01"
     },
     {
       "id_pic": "La-Seine_§77",
       "IndexJantzen": [
         "pont"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2010:04:01"
     },
     {
       "id_pic": "La-Seine_§78",
       "IndexJantzen": [
         "pont"
-      ]
+      ],
+      "IndexTorneh": [
+        "arc",
+        "balustrade",
+        "sculpture",
+        "arc en plein cintre",
+        "pierre de taille",
+        "grille"
+      ],
+      "dateCapture": "2010:04:01"
     },
     {
       "id_pic": "La-Seine_§79",
@@ -217,145 +287,187 @@
         "décor",
         "pont",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2017:06:11"
     },
     {
       "id_pic": "La-Seine_§80",
       "IndexJantzen": [
         "pont"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:07:28"
     },
     {
       "id_pic": "La-Seine_§81",
       "IndexJantzen": [
         "pont"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:07:28"
     },
     {
       "id_pic": "La-Seine_§82",
       "IndexJantzen": [
         "pont",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:07:28"
     },
     {
       "id_pic": "La-Seine_§83",
       "IndexJantzen": [
         "pont",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:07:28"
     },
     {
       "id_pic": "La-Seine_§84",
       "IndexJantzen": [
         "pont",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:07:28"
     },
     {
       "id_pic": "La-Seine_§85",
       "IndexJantzen": [
         "pont",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:07:28"
     },
     {
       "id_pic": "La-Seine_§86",
       "IndexJantzen": [
         "pont",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:07:28"
     },
     {
       "id_pic": "La-Seine_§87",
       "IndexJantzen": [
         "pont",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:03:12"
     },
     {
       "id_pic": "La-Seine_§88",
       "IndexJantzen": [
         "pont",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:03:12"
     },
     {
       "id_pic": "La-Seine_§89",
       "IndexJantzen": [
         "pont",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:07:28"
     },
     {
       "id_pic": "La-Seine_§90",
       "IndexJantzen": [
         "pont",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:07:28"
     },
     {
       "id_pic": "La-Seine_§91",
       "IndexJantzen": [
         "pont",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:07:28"
     },
     {
       "id_pic": "La-Seine_§92",
       "IndexJantzen": [
         "pont",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:03:12"
     },
     {
       "id_pic": "La-Seine_§93",
       "IndexJantzen": [
         "pont",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:03:12"
     },
     {
       "id_pic": "La-Seine_§94",
       "IndexJantzen": [
         "pont",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:07:28"
     },
     {
       "id_pic": "La-Seine_§95",
       "IndexJantzen": [
         "pont",
         "tour"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2017:06:11"
     },
     {
       "id_pic": "La-Seine_§96",
       "IndexJantzen": [
         "pont",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:03:12"
     },
     {
       "id_pic": "La-Seine_§97",
       "IndexJantzen": [
         "pont",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:03:12"
     },
     {
       "id_pic": "La-Seine_§98",
       "IndexJantzen": [
         "pont",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:03:12"
     },
     {
       "id_pic": "La-Seine_§99",
       "IndexJantzen": [
         "pont",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:03:12"
     }
   ]
 }

@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 6,
+      "personneID": 74,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue Étienne-Jodelle"
   },
   "arrondissement": 18,
+  "tri_alphab": "Etienne-Jodelle",
   "coordonnees": {
     "latitude": "48.887997",
     "longitude": "2.326049"
@@ -27,39 +28,90 @@
   "WPfr": null,
   "image_ref": "Etienne-Jodelle-12_18_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "fenetre-d'angle",
+    "balcon",
     "sculpture",
     "console",
-    "balcon",
+    "fenetre-d'angle",
+    "fenetre",
     "garde-corps"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "modillon",
+    "oculus",
+    "pierre de taille",
+    "souche de cheminée",
+    "toit à deux versants",
+    "tour",
+    "volet",
+    "épi de faîtage"
   ],
   "photos": [
     {
       "id_pic": "Etienne-Jodelle-12_18_§1",
       "IndexJantzen": [
         "fenetre-d'angle"
-      ]
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "lucarne",
+        "mansarde",
+        "tour",
+        "mascaron",
+        "modillon",
+        "corniche",
+        "bandeau",
+        "pierre de taille",
+        "toit à deux versants",
+        "ardoise",
+        "fer forgé",
+        "souche de cheminée",
+        "oculus",
+        "volet",
+        "arc en plein cintre",
+        "épi de faîtage"
+      ],
+      "dateCapture": "2004:09:15"
     },
     {
       "id_pic": "Etienne-Jodelle-12_18_§2",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:09:15"
     },
     {
       "id_pic": "Etienne-Jodelle-12_18_§3",
       "IndexJantzen": [
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:09:15"
     },
     {
       "id_pic": "Etienne-Jodelle-12_18_§4",
       "IndexJantzen": [
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:09:15"
     },
     {
       "id_pic": "Etienne-Jodelle-12_18_§5",
@@ -68,7 +120,9 @@
         "console",
         "garde-corps",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:09:15"
     }
   ]
 }

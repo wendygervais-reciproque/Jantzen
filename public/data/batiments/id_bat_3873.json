@@ -4,8 +4,16 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 474,
+      "personneID": 703,
       "role": "architecte"
+    },
+    {
+      "personneID": 635,
+      "role": "architecte"
+    },
+    {
+      "personneID": 10099,
+      "role": "sculpteur"
     }
   ],
   "dateConstruction": "1881",
@@ -18,6 +26,7 @@
     "voie": "boulevard de Courcelles"
   },
   "arrondissement": 17,
+  "tri_alphab": "Courcelles-bd",
   "coordonnees": {
     "latitude": "48.879529",
     "longitude": "2.304062"
@@ -27,17 +36,44 @@
   "WPfr": null,
   "image_ref": "Courcelles-bd-92_17_§1",
   "terme_jantzen_bat": [
-    "clé",
-    "porte-bois",
     "poignée-porte",
-    "sculpture"
+    "sculpture",
+    "clé",
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "balcon",
+    "chambranle",
+    "fer forgé",
+    "garde-corps",
+    "pierre de taille",
+    "pilastre",
+    "portail",
+    "porte",
+    "sculpture",
+    "vantail"
   ],
   "photos": [
     {
       "id_pic": "Courcelles-bd-92_17_§1",
       "IndexJantzen": [
         "porte-bois"
-      ]
+      ],
+      "IndexTorneh": [
+        "porte",
+        "portail",
+        "arc",
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "sculpture",
+        "pierre de taille",
+        "vantail",
+        "chambranle",
+        "pilastre"
+      ],
+      "dateCapture": "2007:03:28"
     },
     {
       "id_pic": "Courcelles-bd-92_17_§1b",
@@ -45,20 +81,26 @@
         "clé",
         "porte-bois",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2019:10:01"
     },
     {
       "id_pic": "Courcelles-bd-92_17_§2",
       "IndexJantzen": [
         "clé",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:06:09"
     },
     {
       "id_pic": "Courcelles-bd-92_17_§3",
       "IndexJantzen": [
         "poignée-porte"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:06:09"
     }
   ]
 }

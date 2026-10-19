@@ -4,7 +4,11 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 510,
+      "personneID": 737,
+      "role": "architecte"
+    },
+    {
+      "personneID": 691,
       "role": "architecte"
     }
   ],
@@ -18,6 +22,7 @@
     "voie": "rue Berryer"
   },
   "arrondissement": 8,
+  "tri_alphab": "Berryer",
   "coordonnees": {
     "latitude": "48.875368",
     "longitude": "2.303599"
@@ -30,13 +35,58 @@
     "colonne",
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bossage",
+    "chapiteau ionique",
+    "colonne",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "perron",
+    "pierre de taille",
+    "pilastre",
+    "portail",
+    "porte",
+    "portique",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Berryer-11_8_§1",
       "IndexJantzen": [
         "colonne",
         "porte-bois"
-      ]
+      ],
+      "IndexTorneh": [
+        "arc en plein cintre",
+        "arc",
+        "colonne",
+        "chapiteau ionique",
+        "pilastre",
+        "corniche",
+        "mascaron",
+        "sculpture",
+        "porte",
+        "vantail",
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "pierre de taille",
+        "perron",
+        "bossage",
+        "portail",
+        "portique"
+      ],
+      "dateCapture": "2006:07:18"
     }
   ]
 }

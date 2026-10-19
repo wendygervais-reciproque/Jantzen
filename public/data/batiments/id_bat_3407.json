@@ -4,8 +4,16 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 126,
+      "personneID": 350,
       "role": "architecte"
+    },
+    {
+      "personneID": 474,
+      "role": "architecte"
+    },
+    {
+      "personneID": 10019,
+      "role": "sculpteur"
     }
   ],
   "dateConstruction": "1869",
@@ -18,6 +26,7 @@
     "voie": "rue de Tilsitt"
   },
   "arrondissement": 17,
+  "tri_alphab": "Tilsitt",
   "coordonnees": {
     "latitude": "48.875191",
     "longitude": "2.295417"
@@ -25,20 +34,42 @@
   "id_pss": 28154,
   "id_wikidata": null,
   "WPfr": null,
-  "image_ref": "Tilsitt-7_17_§1",
+  "image_ref": "Tilsitt-7-Etoile_17_§1",
   "terme_jantzen_bat": [
+    "toiture",
+    "porte-fer",
+    "sculpture",
+    "pilastre",
+    "clé",
+    "cariatide",
+    "fenetre",
     "lucarne",
     "façade",
-    "toiture",
     "fronton",
-    "porte-fer",
-    "fenetre",
-    "décor",
-    "sculpture",
-    "clé",
     "atlante",
-    "cariatide",
-    "pilastre"
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chaîne d'angle",
+    "colonne",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "grille",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "pierre de taille",
+    "pilastre",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée"
   ],
   "photos": [
     {
@@ -48,7 +79,9 @@
         "fenetre",
         "porte-fer",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2010:06:05"
     },
     {
       "id_pic": "Tilsitt-7_17_§2",
@@ -56,20 +89,26 @@
         "fenetre",
         "porte-fer",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2010:06:05"
     },
     {
       "id_pic": "Tilsitt-7_17_§4",
       "IndexJantzen": [
         "porte-fer"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:07:01"
     },
     {
       "id_pic": "Tilsitt-7_17_§5",
       "IndexJantzen": [
         "clé",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:07:01"
     },
     {
       "id_pic": "Tilsitt-7_17_§6",
@@ -77,7 +116,9 @@
         "atlante",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:07:01"
     },
     {
       "id_pic": "Tilsitt-7_17_§7",
@@ -85,27 +126,56 @@
         "atlante",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:07:01"
     },
     {
       "id_pic": "Tilsitt-7_17_§8b",
       "IndexJantzen": [
         "cariatide",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2010:06:05"
     },
     {
       "id_pic": "Tilsitt-7_17_§9",
       "IndexJantzen": [
         "cariatide",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:07:01"
     },
     {
       "id_pic": "Tilsitt-7-Etoile_17_§1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "bandeau",
+        "chaîne d'angle",
+        "colonne",
+        "corniche",
+        "fenêtre",
+        "fronton",
+        "garde-corps",
+        "grille",
+        "lucarne",
+        "mansarde",
+        "pierre de taille",
+        "pilastre",
+        "souche de cheminée",
+        "toit à deux versants",
+        "travée",
+        "arc en plein cintre",
+        "mascaron",
+        "sculpture"
+      ],
+      "dateCapture": "2009:03:31"
     },
     {
       "id_pic": "Tilsitt-7-Etoile_17_§10",
@@ -113,40 +183,52 @@
         "fenetre",
         "lucarne",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:03:29"
     },
     {
       "id_pic": "Tilsitt-7-Etoile_17_§11",
       "IndexJantzen": [
         "lucarne",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:03:29"
     },
     {
       "id_pic": "Tilsitt-7-Etoile_17_§12",
       "IndexJantzen": [
         "lucarne",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:09:09"
     },
     {
       "id_pic": "Tilsitt-7-Etoile_17_§2",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2009:03:31"
     },
     {
       "id_pic": "Tilsitt-7-Etoile_17_§3",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2009:03:31"
     },
     {
       "id_pic": "Tilsitt-7-Etoile_17_§4",
       "IndexJantzen": [
         "fenetre",
         "pilastre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2009:03:31"
     },
     {
       "id_pic": "Tilsitt-7-Etoile_17_§5",
@@ -154,13 +236,17 @@
         "fenetre",
         "lucarne",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:09:09"
     },
     {
       "id_pic": "Tilsitt-7-Etoile_17_§6",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2009:03:31"
     },
     {
       "id_pic": "Tilsitt-7-Etoile_17_§8",
@@ -168,7 +254,9 @@
         "fronton",
         "lucarne",
         "toiture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2009:03:31"
     },
     {
       "id_pic": "Tilsitt-7-Etoile_17_§9",
@@ -176,7 +264,9 @@
         "fenetre",
         "lucarne",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2009:03:31"
     }
   ]
 }

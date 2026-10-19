@@ -1,0 +1,55 @@
+{
+  "id_bat": 3321,
+  "libelle": "67 rue de Rivoli",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": null,
+  "adresse": {
+    "affichage": "67 rue de Rivoli",
+    "numero": "67",
+    "voie": "rue de Rivoli"
+  },
+  "arrondissement": 1,
+  "tri_alphab": "Rivoli",
+  "coordonnees": {
+    "latitude": "48.859606",
+    "longitude": "2.344486"
+  },
+  "id_pss": 33392,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": "Rivoli-Boucher_1_§1",
+  "terme_jantzen_bat": [
+    "fenetre-d'angle"
+  ],
+  "terme_torneh_bat": [
+    "baie",
+    "balcon",
+    "balustrade",
+    "fenêtre",
+    "fer forgé",
+    "grille",
+    "pierre de taille",
+    "travée"
+  ],
+  "photos": [
+    {
+      "id_pic": "Rivoli-Boucher_1_§1",
+      "IndexJantzen": [
+        "fenetre-d'angle"
+      ],
+      "IndexTorneh": [
+        "baie",
+        "balcon",
+        "balustrade",
+        "fer forgé",
+        "pierre de taille",
+        "fenêtre",
+        "grille",
+        "travée"
+      ],
+      "dateCapture": "2005:07:16"
+    }
+  ]
+}

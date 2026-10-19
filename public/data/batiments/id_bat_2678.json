@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 495,
+      "personneID": 669,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue de la Faisanderie"
   },
   "arrondissement": 16,
+  "tri_alphab": "Faisanderie",
   "coordonnees": {
     "latitude": "48.869069",
     "longitude": "2.276023"
@@ -27,11 +28,31 @@
   "WPfr": null,
   "image_ref": "Faisanderie-44_16_§1",
   "terme_jantzen_bat": [
+    "balcon",
     "façade-d'angle",
-    "fenetre-d'angle",
-    "sculpture",
     "tourelle",
-    "balcon"
+    "sculpture",
+    "fenetre-d'angle"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "mansarde",
+    "mascaron",
+    "oriel",
+    "pierre de taille",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "tuile",
+    "volet"
   ],
   "photos": [
     {
@@ -39,7 +60,28 @@
       "IndexJantzen": [
         "façade-d'angle",
         "tourelle"
-      ]
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "volet",
+        "corniche",
+        "mascaron",
+        "souche de cheminée",
+        "toit à deux versants",
+        "fronton",
+        "mansarde",
+        "pierre de taille",
+        "fer forgé",
+        "bandeau",
+        "sculpture",
+        "oriel",
+        "brique",
+        "tuile"
+      ],
+      "dateCapture": "2004:05:21"
     },
     {
       "id_pic": "Faisanderie-44_16_§2",
@@ -47,7 +89,9 @@
         "balcon",
         "fenetre-d'angle",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:05:21"
     }
   ]
 }

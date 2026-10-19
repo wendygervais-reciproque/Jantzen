@@ -13,6 +13,7 @@
     "voie": "boulevard de Picpus"
   },
   "arrondissement": 12,
+  "tri_alphab": "Picpus-bd",
   "coordonnees": {
     "latitude": "48.843463",
     "longitude": "2.401384"
@@ -22,8 +23,25 @@
   "WPfr": null,
   "image_ref": "Picpus-bd-93t_12_§1",
   "terme_jantzen_bat": [
-    "dome",
-    "balcon"
+    "balcon",
+    "dome"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mascaron",
+    "pierre de taille",
+    "tour",
+    "tuile",
+    "volet",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -31,7 +49,25 @@
       "IndexJantzen": [
         "balcon",
         "dome"
-      ]
+      ],
+      "IndexTorneh": [
+        "tour",
+        "dôme",
+        "épi de faîtage",
+        "ardoise",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "lucarne",
+        "fenêtre",
+        "volet",
+        "corniche",
+        "mascaron",
+        "tuile",
+        "pierre de taille"
+      ],
+      "dateCapture": "2005:07:15"
     }
   ]
 }

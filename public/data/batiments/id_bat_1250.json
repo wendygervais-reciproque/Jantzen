@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 528,
+      "personneID": 570,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue de la Convention"
   },
   "arrondissement": 15,
+  "tri_alphab": "Convention",
   "coordonnees": {
     "latitude": "48.838427",
     "longitude": "2.293525"
@@ -27,23 +28,44 @@
   "WPfr": null,
   "image_ref": "Convention-170_15_§1",
   "terme_jantzen_bat": [
+    "porte-fer-hall",
     "sculpture",
-    "console",
-    "porte-fer-hall"
+    "console"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "fer forgé",
+    "grille",
+    "pierre de taille",
+    "portail",
+    "sculpture",
+    "vantail"
   ],
   "photos": [
     {
       "id_pic": "Convention-170_15_§1",
       "IndexJantzen": [
         "porte-fer-hall"
-      ]
+      ],
+      "IndexTorneh": [
+        "arc en plein cintre",
+        "portail",
+        "grille",
+        "fer forgé",
+        "sculpture",
+        "pierre de taille",
+        "vantail"
+      ],
+      "dateCapture": "2004:03:16"
     },
     {
       "id_pic": "Convention-170_15_§2",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:03:16"
     }
   ]
 }

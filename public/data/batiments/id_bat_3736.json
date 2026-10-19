@@ -13,6 +13,7 @@
     "voie": "rue de Maubeuge"
   },
   "arrondissement": 10,
+  "tri_alphab": "Maubeuge",
   "coordonnees": {
     "latitude": "48.879741",
     "longitude": "2.350022"
@@ -25,20 +26,53 @@
     "fenetre",
     "porte-bois"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "sculpture",
+    "vantail",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Maubeuge-86_10_§1",
       "IndexJantzen": [
         "fenetre",
         "porte-bois"
-      ]
+      ],
+      "IndexTorneh": [
+        "porte",
+        "portail",
+        "vantail",
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "mascaron",
+        "pierre de taille",
+        "sculpture",
+        "volet",
+        "fer forgé",
+        "balustrade",
+        "corniche"
+      ],
+      "dateCapture": "2005:04:11"
     },
     {
       "id_pic": "Maubeuge-86_9_§1",
       "IndexJantzen": [
         "fenetre",
         "porte-bois"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:09:08"
     }
   ]
 }

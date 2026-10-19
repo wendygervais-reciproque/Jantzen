@@ -13,6 +13,7 @@
     "voie": "rue Claude-Bernard"
   },
   "arrondissement": 5,
+  "tri_alphab": "Claude-Bernard",
   "coordonnees": {
     "latitude": "48.839551",
     "longitude": "2.348191"
@@ -26,13 +27,52 @@
     "dome",
     "fenetre"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "brique",
+    "chaîne d'angle",
+    "chéneau",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "oculus",
+    "pierre de taille",
+    "souche de cheminée",
+    "toit-terrasse",
+    "épi de faîtage"
+  ],
   "photos": [
     {
       "id_pic": "Claude-Bernard-16_5_§1",
       "IndexJantzen": [
         "brique",
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [
+        "dôme",
+        "souche de cheminée",
+        "brique",
+        "chaîne d'angle",
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "arc en plein cintre",
+        "ardoise",
+        "oculus",
+        "chéneau",
+        "lucarne",
+        "pierre de taille",
+        "fer forgé",
+        "épi de faîtage",
+        "toit-terrasse",
+        "fronton"
+      ],
+      "dateCapture": "2007:09:05"
     },
     {
       "id_pic": "Claude-Bernard-16_5_§2",
@@ -40,7 +80,9 @@
         "brique",
         "dome",
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:09:05"
     }
   ]
 }

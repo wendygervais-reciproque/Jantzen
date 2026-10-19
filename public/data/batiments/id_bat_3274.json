@@ -13,6 +13,7 @@
     "voie": "boulevard de Courcelles"
   },
   "arrondissement": 17,
+  "tri_alphab": "Courcelles-bd",
   "coordonnees": {
     "latitude": "48.880312",
     "longitude": "2.30771"
@@ -22,12 +23,27 @@
   "WPfr": null,
   "image_ref": "Courcelles-bd-64_17_§1",
   "terme_jantzen_bat": [
-    "fenetre",
+    "balcon",
     "sculpture",
     "console",
+    "fenetre",
+    "garde-corps",
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
     "balcon",
-    "porte-bois",
-    "garde-corps"
+    "balustrade",
+    "bossage",
+    "corniche",
+    "fenêtre",
+    "garde-corps",
+    "linteau",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "vantail",
+    "volet"
   ],
   "photos": [
     {
@@ -35,28 +51,50 @@
       "IndexJantzen": [
         "fenetre",
         "porte-bois"
-      ]
+      ],
+      "IndexTorneh": [
+        "porte",
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "mascaron",
+        "arc en plein cintre",
+        "bossage",
+        "pierre de taille",
+        "corniche",
+        "volet",
+        "vantail",
+        "garde-corps",
+        "linteau"
+      ],
+      "dateCapture": "2006:06:09"
     },
     {
       "id_pic": "Courcelles-bd-64_17_§2",
       "IndexJantzen": [
         "balcon",
         "garde-corps"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:06:09"
     },
     {
       "id_pic": "Courcelles-bd-64_17_§3",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:06:09"
     },
     {
       "id_pic": "Courcelles-bd-64_17_§4",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:06:09"
     }
   ]
 }

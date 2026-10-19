@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 329,
+      "personneID": 99,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue du Louvre"
   },
   "arrondissement": 1,
+  "tri_alphab": "Louvre-Rue",
   "coordonnees": {
     "latitude": "48.863501",
     "longitude": "2.341996"
@@ -27,14 +28,36 @@
   "WPfr": null,
   "image_ref": "Louvre-Rue-15_1_§1",
   "terme_jantzen_bat": [
+    "oeil-de-boeuf",
+    "sculpture",
+    "fenetre",
     "lucarne",
     "façade",
-    "fenetre",
-    "oeil-de-boeuf",
-    "décor",
-    "sculpture",
+    "voie",
     "colonne",
-    "voie"
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "attique",
+    "balcon",
+    "balustrade",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "frise",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "modillon",
+    "oculus",
+    "pierre de taille",
+    "sculpture",
+    "souche de cheminée",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -43,7 +66,30 @@
         "décor",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "lucarne",
+        "oculus",
+        "fronton",
+        "corniche",
+        "mascaron",
+        "sculpture",
+        "souche de cheminée",
+        "pierre de taille",
+        "ardoise",
+        "mansarde",
+        "volet",
+        "fer forgé",
+        "frise",
+        "modillon",
+        "travée",
+        "attique"
+      ],
+      "dateCapture": "2004:08:31"
     },
     {
       "id_pic": "Louvre-Rue-15_1_§2",
@@ -51,7 +97,9 @@
         "décor",
         "lucarne",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:08:31"
     },
     {
       "id_pic": "Louvre-Rue-15_1_§3",
@@ -59,7 +107,9 @@
         "lucarne",
         "oeil-de-boeuf",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:08:31"
     },
     {
       "id_pic": "Louvre-Rue-15_1_§4",
@@ -67,26 +117,34 @@
         "lucarne",
         "oeil-de-boeuf",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:08:31"
     },
     {
       "id_pic": "Louvre-Rue-15_1_§5",
       "IndexJantzen": [
         "façade",
         "voie"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:09:02"
     },
     {
       "id_pic": "Louvre-Rue-15_1_§6",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:09:02"
     },
     {
       "id_pic": "Louvre-Rue-15_1_§7",
       "IndexJantzen": [
         "colonne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:09:02"
     }
   ]
 }

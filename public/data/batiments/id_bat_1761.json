@@ -1,0 +1,145 @@
+{
+  "id_bat": 1761,
+  "libelle": "231 boulevard Saint-Germain",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": [
+    "1850-1869",
+    "1870-1894"
+  ],
+  "adresse": {
+    "affichage": "231 boulevard Saint-Germain",
+    "numero": "231",
+    "voie": "boulevard Saint-Germain"
+  },
+  "arrondissement": 7,
+  "tri_alphab": "St-Germain",
+  "coordonnees": {
+    "latitude": "48.859607",
+    "longitude": "2.321835"
+  },
+  "id_pss": 102166,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": "St-Germain-231_7_§1",
+  "terme_jantzen_bat": [
+    "toiture",
+    "oeil-de-boeuf",
+    "porte-fer",
+    "tourelle",
+    "lucarne",
+    "façade",
+    "porte",
+    "fronton"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "attique",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "bossage",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "frise",
+    "fronton",
+    "grille",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "pierre de taille",
+    "pilastre",
+    "portail",
+    "porte",
+    "sculpture",
+    "souche de cheminée"
+  ],
+  "photos": [
+    {
+      "id_pic": "St-Germain-231_7_§1",
+      "IndexJantzen": [
+        "façade",
+        "porte"
+      ],
+      "IndexTorneh": [
+        "fronton",
+        "balustrade",
+        "balcon",
+        "corniche",
+        "fenêtre",
+        "porte",
+        "portail",
+        "lucarne",
+        "mascaron",
+        "pilastre",
+        "frise",
+        "chambranle",
+        "bandeau",
+        "souche de cheminée",
+        "grille",
+        "sculpture",
+        "fer forgé",
+        "ardoise",
+        "attique",
+        "pierre de taille",
+        "bossage",
+        "mansarde"
+      ],
+      "dateCapture": "2005:03:20"
+    },
+    {
+      "id_pic": "St-Germain-231_7_§2",
+      "IndexJantzen": [
+        "lucarne",
+        "toiture"
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:03:20"
+    },
+    {
+      "id_pic": "St-Germain-231_7_§3",
+      "IndexJantzen": [
+        "tourelle"
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:03:20"
+    },
+    {
+      "id_pic": "St-Germain-231_7_§4",
+      "IndexJantzen": [
+        "fronton",
+        "lucarne"
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:04:19"
+    },
+    {
+      "id_pic": "St-Germain-231_7_§5",
+      "IndexJantzen": [
+        "lucarne",
+        "oeil-de-boeuf"
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:04:19"
+    },
+    {
+      "id_pic": "St-Germain-231_7_§6",
+      "IndexJantzen": [
+        "porte-fer"
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:03:20"
+    },
+    {
+      "id_pic": "St-Germain-231_7_§7",
+      "IndexJantzen": [
+        "porte-fer"
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:03:20"
+    }
+  ]
+}

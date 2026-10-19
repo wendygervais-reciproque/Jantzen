@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 633,
+      "personneID": 843,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue Michel-Chasles"
   },
   "arrondissement": 12,
+  "tri_alphab": "Michel-Chasles",
   "coordonnees": {
     "latitude": "48.846393",
     "longitude": "2.373732"
@@ -27,60 +28,117 @@
   "WPfr": null,
   "image_ref": "Michel-Chasles-5_12_§1",
   "terme_jantzen_bat": [
-    "lucarne",
-    "façade",
-    "fenetre",
+    "loggia",
     "sculpture",
     "console",
-    "loggia",
+    "fenetre",
+    "lucarne",
+    "façade",
     "garde-corps"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "modillon",
+    "oriel",
+    "pierre de taille",
+    "souche de cheminée",
+    "toit à deux versants",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Michel-Chasles-5_12_§1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "lucarne",
+        "mansarde",
+        "ardoise",
+        "fer forgé",
+        "corniche",
+        "bandeau",
+        "mascaron",
+        "modillon",
+        "pierre de taille",
+        "arc en plein cintre",
+        "volet",
+        "fronton",
+        "chambranle",
+        "oriel",
+        "toit à deux versants",
+        "souche de cheminée"
+      ],
+      "dateCapture": "2005:10:10"
     },
     {
       "id_pic": "Michel-Chasles-5_12_§2",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:10:10"
     },
     {
       "id_pic": "Michel-Chasles-5_12_§3",
       "IndexJantzen": [
         "fenetre",
         "garde-corps"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:10:10"
     },
     {
       "id_pic": "Michel-Chasles-5_12_§4",
       "IndexJantzen": [
         "loggia",
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:10:10"
     },
     {
       "id_pic": "Michel-Chasles-5_12_§5",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:10:10"
     },
     {
       "id_pic": "Michel-Chasles-5_12_§6",
       "IndexJantzen": [
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:10:10"
     },
     {
       "id_pic": "Michel-Chasles-5_12_§7",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:10:10"
     }
   ]
 }

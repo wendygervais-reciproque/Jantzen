@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 357,
+      "personneID": 863,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "place du Panthéon"
   },
   "arrondissement": 5,
+  "tri_alphab": "Pantheon-pl",
   "coordonnees": {
     "latitude": "48.846806",
     "longitude": "2.344888"
@@ -27,10 +28,32 @@
   "WPfr": null,
   "image_ref": "Pantheon-pl-12_5_§1",
   "terme_jantzen_bat": [
-    "colonne",
     "façade",
+    "colonne",
+    "porte",
+    "fronton"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "chapiteau corinthien",
+    "colonne",
+    "corniche",
+    "entablement",
+    "fenêtre",
     "fronton",
-    "porte"
+    "garde-corps",
+    "grille",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "portail",
+    "porte",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants"
   ],
   "photos": [
     {
@@ -40,7 +63,30 @@
         "façade",
         "fronton",
         "porte"
-      ]
+      ],
+      "IndexTorneh": [
+        "colonne",
+        "chapiteau corinthien",
+        "fronton",
+        "entablement",
+        "corniche",
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "porte",
+        "portail",
+        "pilastre",
+        "sculpture",
+        "oculus",
+        "souche de cheminée",
+        "ardoise",
+        "toit à deux versants",
+        "grille",
+        "pierre de taille",
+        "arc en plein cintre",
+        "garde-corps"
+      ],
+      "dateCapture": "2005:08:29"
     },
     {
       "id_pic": "Pantheon-pl-12_5_§2",
@@ -49,7 +95,9 @@
         "façade",
         "fronton",
         "porte"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:08:29"
     }
   ]
 }

@@ -2,7 +2,16 @@
   "id_bat": 611,
   "libelle": "12 avenue Niel",
   "ensemble": null,
-  "personnes": null,
+  "personnes": [
+    {
+      "personneID": 637,
+      "role": "architecte"
+    },
+    {
+      "personneID": 398,
+      "role": "architecte"
+    }
+  ],
   "dateConstruction": "1914",
   "periode": [
     "1895-1914"
@@ -13,6 +22,7 @@
     "voie": "avenue Niel"
   },
   "arrondissement": 17,
+  "tri_alphab": "Niel",
   "coordonnees": {
     "latitude": "48.879664",
     "longitude": "2.294955"
@@ -20,29 +30,59 @@
   "id_pss": 28157,
   "id_wikidata": null,
   "WPfr": null,
-  "image_ref": "Niel-12_17_§1_1-Rx",
+  "image_ref": "Niel-12_17_01",
   "terme_jantzen_bat": [
-    "lucarne",
     "façade-d'angle",
     "porte-fer",
-    "fenetre",
-    "décor",
     "sculpture",
     "clé",
-    "porte-fer-hall"
+    "fenetre",
+    "lucarne",
+    "porte-fer-hall",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc brisé",
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "oriel",
+    "pierre de taille",
+    "pilastre",
+    "porche",
+    "porte",
+    "porte-fenêtre",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "vitrail"
   ],
   "photos": [
     {
       "id_pic": "Niel-12_17_§1_1-Rx",
       "IndexJantzen": [
         "porte-fer"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2014:02:19"
     },
     {
       "id_pic": "Niel-12_17_§2",
       "IndexJantzen": [
         "porte-fer-hall"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:03:17"
     },
     {
       "id_pic": "Niel-12_17_§4",
@@ -50,33 +90,68 @@
         "clé",
         "porte-fer",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:03:23"
     },
     {
       "id_pic": "Niel-12_17_§5",
       "IndexJantzen": [
         "clé",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:12:13"
     },
     {
       "id_pic": "Niel-12_17_§6",
       "IndexJantzen": [
         "clé",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:12:10"
     },
     {
       "id_pic": "Niel-12_17_01",
       "IndexJantzen": [
         "façade-d'angle"
-      ]
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "porte-fenêtre",
+        "lucarne",
+        "mansarde",
+        "souche de cheminée",
+        "corniche",
+        "bandeau",
+        "pierre de taille",
+        "arc en plein cintre",
+        "arc brisé",
+        "oriel",
+        "mascaron",
+        "sculpture",
+        "porte",
+        "porche",
+        "vitrail",
+        "toit à deux versants",
+        "chaîne d'angle",
+        "pilastre",
+        "fer forgé",
+        "oculus"
+      ],
+      "dateCapture": "2005:03:17"
     },
     {
       "id_pic": "Niel-12_17_22_DxO_1-Rx",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2014:02:19"
     },
     {
       "id_pic": "Niel-12_17_23_DxO_1-Rx",
@@ -85,7 +160,9 @@
         "fenetre",
         "lucarne",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2014:02:19"
     }
   ]
 }

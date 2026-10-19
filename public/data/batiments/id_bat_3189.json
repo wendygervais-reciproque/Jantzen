@@ -4,8 +4,12 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 124,
+      "personneID": 591,
       "role": "architecte"
+    },
+    {
+      "personneID": 10063,
+      "role": "sculpteur"
     }
   ],
   "dateConstruction": "1912",
@@ -18,6 +22,7 @@
     "voie": "avenue Kléber"
   },
   "arrondissement": 16,
+  "tri_alphab": "Kleber",
   "coordonnees": {
     "latitude": "48.868452",
     "longitude": "2.290887"
@@ -27,14 +32,36 @@
   "WPfr": null,
   "image_ref": "Kleber-60_16_§1",
   "terme_jantzen_bat": [
+    "balcon",
     "façade-d'angle",
-    "façade",
-    "brique",
-    "fenetre",
-    "décor",
     "sculpture",
     "console",
-    "balcon"
+    "fenetre",
+    "brique",
+    "façade",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "ardoise",
+    "baie",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "corniche",
+    "fenêtre",
+    "garde-corps",
+    "mansarde",
+    "oriel",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "souche de cheminée",
+    "tour",
+    "travée",
+    "vitrail"
   ],
   "photos": [
     {
@@ -42,14 +69,39 @@
       "IndexJantzen": [
         "brique",
         "façade-d'angle"
-      ]
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "baie",
+        "fenêtre",
+        "brique",
+        "pierre de taille",
+        "ardoise",
+        "mansarde",
+        "bandeau",
+        "corniche",
+        "garde-corps",
+        "oriel",
+        "arc en plein cintre",
+        "souche de cheminée",
+        "sculpture",
+        "porte",
+        "vitrail",
+        "travée",
+        "tour",
+        "arc"
+      ],
+      "dateCapture": "2005:03:19"
     },
     {
       "id_pic": "Kleber-60_16_§2",
       "IndexJantzen": [
         "brique",
         "façade"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:03:25"
     },
     {
       "id_pic": "Kleber-60_16_§3",
@@ -58,7 +110,9 @@
         "décor",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:03:19"
     },
     {
       "id_pic": "Kleber-60_16_§4",
@@ -68,7 +122,9 @@
         "décor",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:03:25"
     },
     {
       "id_pic": "Kleber-60_16_§5",
@@ -76,7 +132,9 @@
         "brique",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:10:25"
     },
     {
       "id_pic": "Kleber-60_16_§6",
@@ -85,7 +143,9 @@
         "décor",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:03:19"
     },
     {
       "id_pic": "Kleber-60_16_§7",
@@ -93,7 +153,9 @@
         "brique",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:10:25"
     },
     {
       "id_pic": "Kleber-60_16_§8",
@@ -101,14 +163,18 @@
         "brique",
         "décor",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:10:25"
     },
     {
       "id_pic": "Kleber-60_16_--1912D",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:03:19"
     }
   ]
 }

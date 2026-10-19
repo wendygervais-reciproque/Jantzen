@@ -4,8 +4,16 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 405,
+      "personneID": 538,
       "role": "architecte"
+    },
+    {
+      "personneID": 10014,
+      "role": "céramiste"
+    },
+    {
+      "personneID": 10001,
+      "role": "sculpteur"
     }
   ],
   "dateConstruction": "1904",
@@ -18,6 +26,7 @@
     "voie": "avenue de Wagram"
   },
   "arrondissement": 8,
+  "tri_alphab": "Wagram",
   "coordonnees": {
     "latitude": "48.876835",
     "longitude": "2.297546"
@@ -27,17 +36,41 @@
   "WPfr": null,
   "image_ref": "Wagram-34_8_§1",
   "terme_jantzen_bat": [
+    "toiture",
+    "balcon",
+    "porte-fer",
+    "clé",
+    "fenetre",
     "lucarne",
+    "brique",
     "façade",
     "céramique",
-    "toiture",
-    "porte-fer",
-    "brique",
-    "fenetre",
-    "décor",
-    "clé",
+    "garde-corps",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
     "balcon",
-    "garde-corps"
+    "balustrade",
+    "bandeau",
+    "brique",
+    "chéneau",
+    "corniche",
+    "céramique",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "porte-fenêtre",
+    "sculpture",
+    "souche de cheminée",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -46,14 +79,41 @@
         "brique",
         "céramique",
         "façade"
-      ]
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "balustrade",
+        "sculpture",
+        "céramique",
+        "mascaron",
+        "lucarne",
+        "souche de cheminée",
+        "oculus",
+        "fronton",
+        "pilastre",
+        "arc en plein cintre",
+        "chéneau",
+        "porte",
+        "porte-fenêtre",
+        "volet",
+        "travée",
+        "corniche",
+        "bandeau",
+        "brique",
+        "pierre de taille"
+      ],
+      "dateCapture": "2010:03:09"
     },
     {
       "id_pic": "Wagram-34_8_§15",
       "IndexJantzen": [
         "brique",
         "céramique"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2010:04:01"
     },
     {
       "id_pic": "Wagram-34_8_§21",
@@ -62,7 +122,9 @@
         "brique",
         "céramique",
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:03:19"
     },
     {
       "id_pic": "Wagram-34_8_§22",
@@ -70,7 +132,9 @@
         "brique",
         "céramique",
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:06:02"
     },
     {
       "id_pic": "Wagram-34_8_§22b",
@@ -79,7 +143,9 @@
         "céramique",
         "décor",
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2010:04:01"
     },
     {
       "id_pic": "Wagram-34_8_§22c",
@@ -88,7 +154,9 @@
         "céramique",
         "décor",
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2009:03:31"
     },
     {
       "id_pic": "Wagram-34_8_§22d",
@@ -97,7 +165,9 @@
         "céramique",
         "décor",
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2009:09:22"
     },
     {
       "id_pic": "Wagram-34_8_§29",
@@ -106,7 +176,9 @@
         "céramique",
         "lucarne",
         "toiture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2010:04:01"
     },
     {
       "id_pic": "Wagram-34_8_§3",
@@ -114,14 +186,18 @@
         "brique",
         "céramique",
         "façade"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2010:04:01"
     },
     {
       "id_pic": "Wagram-34_8_§30",
       "IndexJantzen": [
         "brique",
         "céramique"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2009:09:22"
     },
     {
       "id_pic": "Wagram-34_8_§31",
@@ -129,14 +205,18 @@
         "brique",
         "céramique",
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2009:09:22"
     },
     {
       "id_pic": "Wagram-34_8_§32",
       "IndexJantzen": [
         "brique",
         "céramique"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:03:19"
     },
     {
       "id_pic": "Wagram-34_8_§36",
@@ -145,7 +225,9 @@
         "céramique",
         "décor",
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2009:09:22"
     },
     {
       "id_pic": "Wagram-34_8_§37",
@@ -155,7 +237,9 @@
         "céramique",
         "fenetre",
         "garde-corps"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:03:19"
     },
     {
       "id_pic": "Wagram-34_8_§38",
@@ -164,7 +248,9 @@
         "céramique",
         "décor",
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:03:19"
     },
     {
       "id_pic": "Wagram-34_8_§39",
@@ -172,7 +258,9 @@
         "céramique",
         "décor",
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:03:19"
     },
     {
       "id_pic": "Wagram-34_8_§4",
@@ -180,7 +268,9 @@
         "brique",
         "céramique",
         "façade"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2009:03:31"
     },
     {
       "id_pic": "Wagram-34_8_§40",
@@ -188,21 +278,27 @@
         "céramique",
         "décor",
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:03:19"
     },
     {
       "id_pic": "Wagram-34_8_§44",
       "IndexJantzen": [
         "céramique",
         "décor"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:03:19"
     },
     {
       "id_pic": "Wagram-34_8_§45",
       "IndexJantzen": [
         "céramique",
         "décor"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:03:19"
     },
     {
       "id_pic": "Wagram-34_8_§47",
@@ -210,7 +306,9 @@
         "céramique",
         "fenetre",
         "garde-corps"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2009:09:22"
     },
     {
       "id_pic": "Wagram-34_8_§48",
@@ -218,7 +316,9 @@
         "clé",
         "céramique",
         "porte-fer"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2009:09:22"
     },
     {
       "id_pic": "Wagram-34_8_§5",
@@ -226,7 +326,9 @@
         "brique",
         "céramique",
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2010:03:09"
     },
     {
       "id_pic": "Wagram-34_8_§8",
@@ -234,7 +336,9 @@
         "brique",
         "céramique",
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2009:09:22"
     },
     {
       "id_pic": "Wagram-34_8_§8b",
@@ -242,7 +346,9 @@
         "brique",
         "céramique",
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:06:02"
     },
     {
       "id_pic": "Wagram-34_8_§9",
@@ -250,7 +356,9 @@
         "brique",
         "céramique",
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2009:03:31"
     }
   ]
 }

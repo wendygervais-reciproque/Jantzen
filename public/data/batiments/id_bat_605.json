@@ -1,0 +1,63 @@
+{
+  "id_bat": 605,
+  "libelle": "12 avenue de Breteuil",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": null,
+  "adresse": {
+    "affichage": "12 avenue de Breteuil",
+    "numero": "12",
+    "voie": "avenue de Breteuil"
+  },
+  "arrondissement": 7,
+  "tri_alphab": "Breteuil",
+  "coordonnees": {
+    "latitude": "48.852368",
+    "longitude": "2.311731"
+  },
+  "id_pss": null,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": "Breteuil-12_7_§1",
+  "terme_jantzen_bat": [
+    "balcon",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "lucarne",
+    "mansarde",
+    "modillon",
+    "pierre de taille"
+  ],
+  "photos": [
+    {
+      "id_pic": "Breteuil-12_7_§1",
+      "IndexJantzen": [
+        "balcon",
+        "lucarne"
+      ],
+      "IndexTorneh": [
+        "lucarne",
+        "balustrade",
+        "balcon",
+        "ardoise",
+        "fenêtre",
+        "corniche",
+        "pierre de taille",
+        "modillon",
+        "arc en plein cintre",
+        "chambranle",
+        "mansarde"
+      ],
+      "dateCapture": "2005:03:25"
+    }
+  ]
+}

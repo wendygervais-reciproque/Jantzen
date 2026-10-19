@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 53,
+      "personneID": 64,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "boulevard Arago"
   },
   "arrondissement": 13,
+  "tri_alphab": "Arago",
   "coordonnees": {
     "latitude": "48.83628",
     "longitude": "2.349593"
@@ -27,14 +28,33 @@
   "WPfr": null,
   "image_ref": "Arago-14_13_§1",
   "terme_jantzen_bat": [
-    "porte",
+    "mosaique",
+    "porte-fer",
+    "fenetre",
     "lucarne",
     "façade",
     "métal",
-    "porte-fer",
-    "fenetre",
-    "mosaique",
+    "porte",
     "colonne"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "chéneau",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "grille",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "pierre de taille",
+    "porche",
+    "portail",
+    "porte",
+    "sculpture"
   ],
   "photos": [
     {
@@ -42,7 +62,27 @@
       "IndexJantzen": [
         "façade",
         "porte"
-      ]
+      ],
+      "IndexTorneh": [
+        "lucarne",
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "porte",
+        "porche",
+        "arc en plein cintre",
+        "sculpture",
+        "mascaron",
+        "pierre de taille",
+        "ardoise",
+        "mansarde",
+        "chéneau",
+        "grille",
+        "portail"
+      ],
+      "dateCapture": "2007:04:22"
     },
     {
       "id_pic": "Arago-14_13_§2",
@@ -51,26 +91,34 @@
         "fenetre",
         "mosaique",
         "métal"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:04:22"
     },
     {
       "id_pic": "Arago-14_13_§3",
       "IndexJantzen": [
         "fenetre",
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:04:22"
     },
     {
       "id_pic": "Arago-14_13_§4",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:04:22"
     },
     {
       "id_pic": "Arago-14_13_§5",
       "IndexJantzen": [
         "porte-fer"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:04:22"
     }
   ]
 }

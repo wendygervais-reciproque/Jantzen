@@ -1,0 +1,88 @@
+{
+  "id_bat": 1105,
+  "libelle": "16 boulevard Haussmann",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 683,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": null,
+  "periode": [
+    "1915-1944"
+  ],
+  "adresse": {
+    "affichage": "16 boulevard Haussmann",
+    "numero": "16",
+    "voie": "boulevard Haussmann"
+  },
+  "arrondissement": 9,
+  "tri_alphab": "Haussmann",
+  "coordonnees": {
+    "latitude": "48.872617",
+    "longitude": "2.336665"
+  },
+  "id_pss": 10261,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": "Haussmann-16_9_§1",
+  "terme_jantzen_bat": [
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "attique",
+    "avant-corps",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "pierre de taille",
+    "pilastre",
+    "porte-fenêtre",
+    "sculpture",
+    "travée"
+  ],
+  "photos": [
+    {
+      "id_pic": "Haussmann-16_9_§1",
+      "IndexJantzen": [
+        "fenetre"
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "corniche",
+        "bandeau",
+        "pilastre",
+        "lucarne",
+        "fronton",
+        "avant-corps",
+        "pierre de taille",
+        "ardoise",
+        "travée",
+        "sculpture",
+        "fer forgé",
+        "porte-fenêtre",
+        "attique"
+      ],
+      "dateCapture": "2004:03:28"
+    },
+    {
+      "id_pic": "Haussmann-16_9_§2",
+      "IndexJantzen": [
+        "fenetre"
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:03:28"
+    }
+  ]
+}

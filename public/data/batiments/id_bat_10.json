@@ -9,6 +9,7 @@
   ],
   "adresse": null,
   "arrondissement": 7,
+  "tri_alphab": "Invalides-HE-Lc",
   "coordonnees": {
     "latitude": "48.856501",
     "longitude": "2.312194"
@@ -18,11 +19,29 @@
   "WPfr": "Cour d'honneur de l'hôtel des Invalides",
   "image_ref": "Invalides-HE-Lc_1_10a",
   "terme_jantzen_bat": [
-    "lucarne",
-    "façade",
-    "fenetre",
     "oeil-de-boeuf",
-    "sculpture"
+    "sculpture",
+    "fenetre",
+    "lucarne",
+    "façade"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "arcade",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "colonne",
+    "corniche",
+    "fenêtre",
+    "garde-corps",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "sculpture",
+    "toit à deux versants",
+    "travée"
   ],
   "photos": [
     {
@@ -30,27 +49,52 @@
       "IndexJantzen": [
         "façade",
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [
+        "arc",
+        "arc en plein cintre",
+        "arcade",
+        "balustrade",
+        "balcon",
+        "corniche",
+        "oculus",
+        "pierre de taille",
+        "sculpture",
+        "travée",
+        "pilastre",
+        "colonne",
+        "fenêtre",
+        "garde-corps",
+        "toit à deux versants",
+        "ardoise"
+      ],
+      "dateCapture": "2008:07:28"
     },
     {
       "id_pic": "Invalides-HE-Lc_1_10b",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:08:03"
     },
     {
       "id_pic": "Invalides-HE-Lc_1_10c",
       "IndexJantzen": [
         "façade",
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:08:18"
     },
     {
       "id_pic": "Invalides-HE-Lc_1_10d",
       "IndexJantzen": [
         "façade",
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:10:15"
     },
     {
       "id_pic": "Invalides-HE-Lc_10a",
@@ -58,7 +102,9 @@
         "lucarne",
         "oeil-de-boeuf",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:07:17"
     },
     {
       "id_pic": "Invalides-HE-Lc_10b",
@@ -66,7 +112,9 @@
         "lucarne",
         "oeil-de-boeuf",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:10:15"
     },
     {
       "id_pic": "Invalides-HE-Lc_10c",
@@ -74,7 +122,9 @@
         "lucarne",
         "oeil-de-boeuf",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:10:15"
     },
     {
       "id_pic": "Invalides-HE-Lc_10d",
@@ -82,7 +132,9 @@
         "lucarne",
         "oeil-de-boeuf",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:10:15"
     },
     {
       "id_pic": "Invalides-HE-Lc_10e",
@@ -90,14 +142,18 @@
         "lucarne",
         "oeil-de-boeuf",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:07:28"
     },
     {
       "id_pic": "Invalides-HE-Lc_11_20-",
       "IndexJantzen": [
         "façade",
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:07:17"
     },
     {
       "id_pic": "Invalides-HE-Lc_1-2",
@@ -105,7 +161,9 @@
         "lucarne",
         "oeil-de-boeuf",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:07:28"
     },
     {
       "id_pic": "Invalides-HE-Lc_1-2-3a",
@@ -113,7 +171,9 @@
         "lucarne",
         "oeil-de-boeuf",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:07:28"
     },
     {
       "id_pic": "Invalides-HE-Lc_1-2-3b",
@@ -121,7 +181,9 @@
         "lucarne",
         "oeil-de-boeuf",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:10:15"
     },
     {
       "id_pic": "Invalides-HE-Lc_13a",
@@ -129,7 +191,9 @@
         "lucarne",
         "oeil-de-boeuf",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:07:17"
     },
     {
       "id_pic": "Invalides-HE-Lc_19a",
@@ -137,7 +201,9 @@
         "lucarne",
         "oeil-de-boeuf",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:07:17"
     },
     {
       "id_pic": "Invalides-HE-Lc_1a",
@@ -145,7 +211,9 @@
         "lucarne",
         "oeil-de-boeuf",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:10:15"
     },
     {
       "id_pic": "Invalides-HE-Lc_1b",
@@ -153,7 +221,9 @@
         "lucarne",
         "oeil-de-boeuf",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:10:15"
     },
     {
       "id_pic": "Invalides-HE-Lc_2a",
@@ -161,7 +231,9 @@
         "lucarne",
         "oeil-de-boeuf",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:07:17"
     },
     {
       "id_pic": "Invalides-HE-Lc_2b",
@@ -169,7 +241,9 @@
         "lucarne",
         "oeil-de-boeuf",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:10:15"
     },
     {
       "id_pic": "Invalides-HE-Lc_2c",
@@ -177,7 +251,9 @@
         "lucarne",
         "oeil-de-boeuf",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:10:15"
     },
     {
       "id_pic": "Invalides-HE-Lc_2d",
@@ -185,7 +261,9 @@
         "lucarne",
         "oeil-de-boeuf",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:10:15"
     },
     {
       "id_pic": "Invalides-HE-Lc_3-4",
@@ -193,7 +271,9 @@
         "lucarne",
         "oeil-de-boeuf",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:07:28"
     },
     {
       "id_pic": "Invalides-HE-Lc_3-5",
@@ -201,7 +281,9 @@
         "lucarne",
         "oeil-de-boeuf",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:10:15"
     },
     {
       "id_pic": "Invalides-HE-Lc_3a",
@@ -209,7 +291,9 @@
         "lucarne",
         "oeil-de-boeuf",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:10:15"
     },
     {
       "id_pic": "Invalides-HE-Lc_3b",
@@ -217,7 +301,9 @@
         "lucarne",
         "oeil-de-boeuf",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:10:15"
     },
     {
       "id_pic": "Invalides-HE-Lc_3c",
@@ -225,7 +311,9 @@
         "lucarne",
         "oeil-de-boeuf",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:10:15"
     },
     {
       "id_pic": "Invalides-HE-Lc_3e",
@@ -233,7 +321,9 @@
         "lucarne",
         "oeil-de-boeuf",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:07:28"
     },
     {
       "id_pic": "Invalides-HE-Lc_4-5-6",
@@ -241,7 +331,9 @@
         "lucarne",
         "oeil-de-boeuf",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:07:28"
     },
     {
       "id_pic": "Invalides-HE-Lc_4a",
@@ -249,7 +341,9 @@
         "lucarne",
         "oeil-de-boeuf",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:07:17"
     },
     {
       "id_pic": "Invalides-HE-Lc_4b",
@@ -257,7 +351,9 @@
         "lucarne",
         "oeil-de-boeuf",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:10:15"
     },
     {
       "id_pic": "Invalides-HE-Lc_4c",
@@ -265,7 +361,9 @@
         "lucarne",
         "oeil-de-boeuf",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:10:15"
     },
     {
       "id_pic": "Invalides-HE-Lc_4d",
@@ -273,7 +371,9 @@
         "lucarne",
         "oeil-de-boeuf",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:10:15"
     },
     {
       "id_pic": "Invalides-HE-Lc_4e",
@@ -281,7 +381,9 @@
         "lucarne",
         "oeil-de-boeuf",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:07:28"
     },
     {
       "id_pic": "Invalides-HE-Lc_5-6",
@@ -289,7 +391,9 @@
         "lucarne",
         "oeil-de-boeuf",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:07:28"
     },
     {
       "id_pic": "Invalides-HE-Lc_5-6-7",
@@ -297,7 +401,9 @@
         "lucarne",
         "oeil-de-boeuf",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:10:15"
     },
     {
       "id_pic": "Invalides-HE-Lc_5-6-7-8-9",
@@ -305,7 +411,9 @@
         "fenetre",
         "lucarne",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2018:10:19"
     },
     {
       "id_pic": "Invalides-HE-Lc_5a",
@@ -313,7 +421,9 @@
         "lucarne",
         "oeil-de-boeuf",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:07:17"
     },
     {
       "id_pic": "Invalides-HE-Lc_5b",
@@ -321,7 +431,9 @@
         "lucarne",
         "oeil-de-boeuf",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:10:15"
     },
     {
       "id_pic": "Invalides-HE-Lc_5c",
@@ -329,7 +441,9 @@
         "lucarne",
         "oeil-de-boeuf",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:10:15"
     },
     {
       "id_pic": "Invalides-HE-Lc_5d",
@@ -337,7 +451,9 @@
         "lucarne",
         "oeil-de-boeuf",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:10:15"
     },
     {
       "id_pic": "Invalides-HE-Lc_5e",
@@ -345,7 +461,9 @@
         "lucarne",
         "oeil-de-boeuf",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:07:28"
     },
     {
       "id_pic": "Invalides-HE-Lc_6-7-8a",
@@ -353,7 +471,9 @@
         "lucarne",
         "oeil-de-boeuf",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2018:10:19"
     },
     {
       "id_pic": "Invalides-HE-Lc_6-7-8b",
@@ -362,7 +482,9 @@
         "lucarne",
         "oeil-de-boeuf",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2018:10:19"
     },
     {
       "id_pic": "Invalides-HE-Lc_6a",
@@ -370,7 +492,9 @@
         "lucarne",
         "oeil-de-boeuf",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:10:15"
     },
     {
       "id_pic": "Invalides-HE-Lc_6b",
@@ -378,7 +502,9 @@
         "lucarne",
         "oeil-de-boeuf",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:10:15"
     },
     {
       "id_pic": "Invalides-HE-Lc_6d",
@@ -386,7 +512,9 @@
         "lucarne",
         "oeil-de-boeuf",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:10:15"
     },
     {
       "id_pic": "Invalides-HE-Lc_6e",
@@ -394,7 +522,9 @@
         "lucarne",
         "oeil-de-boeuf",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:07:28"
     },
     {
       "id_pic": "Invalides-HE-Lc_7-8",
@@ -402,7 +532,9 @@
         "lucarne",
         "oeil-de-boeuf",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:07:28"
     },
     {
       "id_pic": "Invalides-HE-Lc_7-8-9",
@@ -410,7 +542,9 @@
         "lucarne",
         "oeil-de-boeuf",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:10:15"
     },
     {
       "id_pic": "Invalides-HE-Lc_7a",
@@ -418,7 +552,9 @@
         "lucarne",
         "oeil-de-boeuf",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:10:15"
     },
     {
       "id_pic": "Invalides-HE-Lc_7b",
@@ -426,7 +562,9 @@
         "lucarne",
         "oeil-de-boeuf",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:10:15"
     },
     {
       "id_pic": "Invalides-HE-Lc_7c",
@@ -434,7 +572,9 @@
         "lucarne",
         "oeil-de-boeuf",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:10:15"
     },
     {
       "id_pic": "Invalides-HE-Lc_7e",
@@ -442,7 +582,9 @@
         "lucarne",
         "oeil-de-boeuf",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:07:28"
     },
     {
       "id_pic": "Invalides-HE-Lc_8-9-10",
@@ -450,7 +592,9 @@
         "lucarne",
         "oeil-de-boeuf",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:07:28"
     },
     {
       "id_pic": "Invalides-HE-Lc_8a",
@@ -458,7 +602,9 @@
         "lucarne",
         "oeil-de-boeuf",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:10:15"
     },
     {
       "id_pic": "Invalides-HE-Lc_8b",
@@ -466,7 +612,9 @@
         "lucarne",
         "oeil-de-boeuf",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:10:15"
     },
     {
       "id_pic": "Invalides-HE-Lc_8c",
@@ -474,7 +622,9 @@
         "lucarne",
         "oeil-de-boeuf",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:10:15"
     },
     {
       "id_pic": "Invalides-HE-Lc_8e",
@@ -482,7 +632,9 @@
         "lucarne",
         "oeil-de-boeuf",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:07:28"
     },
     {
       "id_pic": "Invalides-HE-Lc_9-10",
@@ -490,7 +642,9 @@
         "lucarne",
         "oeil-de-boeuf",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:07:28"
     },
     {
       "id_pic": "Invalides-HE-Lc_9a",
@@ -498,7 +652,9 @@
         "lucarne",
         "oeil-de-boeuf",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:10:15"
     },
     {
       "id_pic": "Invalides-HE-Lc_9b",
@@ -506,7 +662,9 @@
         "lucarne",
         "oeil-de-boeuf",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:10:15"
     },
     {
       "id_pic": "Invalides-HE-Lc_9c",
@@ -514,7 +672,9 @@
         "lucarne",
         "oeil-de-boeuf",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:10:15"
     },
     {
       "id_pic": "Invalides-HE-Lc_9e",
@@ -522,7 +682,9 @@
         "lucarne",
         "oeil-de-boeuf",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:07:28"
     },
     {
       "id_pic": "Invalides-HS-Lc_1",
@@ -530,7 +692,9 @@
         "lucarne",
         "oeil-de-boeuf",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:10:15"
     },
     {
       "id_pic": "Invalides-HS-Lc_1_5a-Rx",
@@ -538,21 +702,27 @@
         "fenetre",
         "lucarne",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2011:09:30"
     },
     {
       "id_pic": "Invalides-HS-Lc_1_5b-Rx",
       "IndexJantzen": [
         "lucarne",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2011:09:30"
     },
     {
       "id_pic": "Invalides-HS-Lc_1_5c_1-Rx",
       "IndexJantzen": [
         "façade",
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2013:08:03"
     },
     {
       "id_pic": "Invalides-HS-Lc_10a",
@@ -560,7 +730,9 @@
         "lucarne",
         "oeil-de-boeuf",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:10:15"
     },
     {
       "id_pic": "Invalides-HS-Lc_2-3-4a",
@@ -568,7 +740,9 @@
         "lucarne",
         "oeil-de-boeuf",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:06:05"
     },
     {
       "id_pic": "Invalides-HS-Lc_2-3-4b",
@@ -576,7 +750,9 @@
         "lucarne",
         "oeil-de-boeuf",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2011:09:30"
     },
     {
       "id_pic": "Invalides-HS-Lc_2a",
@@ -584,7 +760,9 @@
         "lucarne",
         "oeil-de-boeuf",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:06:05"
     },
     {
       "id_pic": "Invalides-HS-Lc_2b",
@@ -592,7 +770,9 @@
         "lucarne",
         "oeil-de-boeuf",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:10:15"
     },
     {
       "id_pic": "Invalides-HS-Lc_3a",
@@ -600,7 +780,9 @@
         "lucarne",
         "oeil-de-boeuf",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:10:15"
     },
     {
       "id_pic": "Invalides-HS-Lc_4a",
@@ -608,7 +790,9 @@
         "lucarne",
         "oeil-de-boeuf",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:10:15"
     },
     {
       "id_pic": "Invalides-HS-Lc_5a",
@@ -616,7 +800,9 @@
         "lucarne",
         "oeil-de-boeuf",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:06:05"
     },
     {
       "id_pic": "Invalides-HS-Lc_5b",
@@ -624,14 +810,18 @@
         "lucarne",
         "oeil-de-boeuf",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:10:15"
     },
     {
       "id_pic": "Invalides-HS-Lc_6_10c_1-Rx",
       "IndexJantzen": [
         "façade",
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2013:08:03"
     },
     {
       "id_pic": "Invalides-HS-Lc_6_10-Rx",
@@ -639,7 +829,9 @@
         "fenetre",
         "lucarne",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2011:09:30"
     },
     {
       "id_pic": "Invalides-HS-Lc_6a",
@@ -647,7 +839,9 @@
         "lucarne",
         "oeil-de-boeuf",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:10:15"
     },
     {
       "id_pic": "Invalides-HS-Lc_7-8-9a",
@@ -655,7 +849,9 @@
         "lucarne",
         "oeil-de-boeuf",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:06:05"
     },
     {
       "id_pic": "Invalides-HS-Lc_7-8-9b",
@@ -663,7 +859,9 @@
         "lucarne",
         "oeil-de-boeuf",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2011:09:30"
     },
     {
       "id_pic": "Invalides-HS-Lc_7a",
@@ -671,7 +869,9 @@
         "lucarne",
         "oeil-de-boeuf",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:10:15"
     },
     {
       "id_pic": "Invalides-HS-Lc_8a",
@@ -679,7 +879,9 @@
         "lucarne",
         "oeil-de-boeuf",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:10:15"
     },
     {
       "id_pic": "Invalides-HS-Lc_9a",
@@ -687,7 +889,9 @@
         "lucarne",
         "oeil-de-boeuf",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:10:15"
     }
   ]
 }

@@ -4,7 +4,11 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 379,
+      "personneID": 438,
+      "role": "architecte"
+    },
+    {
+      "personneID": 502,
       "role": "architecte"
     }
   ],
@@ -18,6 +22,7 @@
     "voie": "rue d'Ouessant"
   },
   "arrondissement": 15,
+  "tri_alphab": "Ouessant",
   "coordonnees": {
     "latitude": "48.850214",
     "longitude": "2.297267"
@@ -27,8 +32,18 @@
   "WPfr": null,
   "image_ref": "Ouessant-6_15_§1",
   "terme_jantzen_bat": [
-    "console",
-    "sculpture"
+    "sculpture",
+    "console"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "corniche",
+    "fer forgé",
+    "garde-corps",
+    "modillon",
+    "pierre de taille",
+    "volet"
   ],
   "photos": [
     {
@@ -36,14 +51,27 @@
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [
+        "corniche",
+        "modillon",
+        "balustrade",
+        "balcon",
+        "garde-corps",
+        "volet",
+        "pierre de taille",
+        "fer forgé"
+      ],
+      "dateCapture": "2005:06:09"
     },
     {
       "id_pic": "Ouessant-6_15_§2",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:06:09"
     }
   ]
 }

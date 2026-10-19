@@ -12,7 +12,8 @@
     "numero": "73",
     "voie": "rue de Rome"
   },
-  "arrondissement": 17,
+  "arrondissement": 8,
+  "tri_alphab": "Rome",
   "coordonnees": {
     "latitude": "48.881409",
     "longitude": "2.320672"
@@ -22,20 +23,71 @@
   "WPfr": null,
   "image_ref": "Rome-73_17_§1",
   "terme_jantzen_bat": [
-    "lucarne",
-    "façade-d'angle",
-    "brique",
-    "fenetre",
-    "décor",
     "oeil-de-boeuf",
-    "tourelle"
+    "façade-d'angle",
+    "tourelle",
+    "fenetre",
+    "lucarne",
+    "brique",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "avant-corps",
+    "baie",
+    "bandeau",
+    "brique",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "grille",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "porche",
+    "porte",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "tour",
+    "travée",
+    "épi de faîtage"
   ],
   "photos": [
     {
       "id_pic": "Rome-73_17_§1",
       "IndexJantzen": [
         "façade-d'angle"
-      ]
+      ],
+      "IndexTorneh": [
+        "avant-corps",
+        "arc en plein cintre",
+        "baie",
+        "bandeau",
+        "brique",
+        "chaîne d'angle",
+        "corniche",
+        "fenêtre",
+        "fronton",
+        "lucarne",
+        "mansarde",
+        "oculus",
+        "pierre de taille",
+        "porte",
+        "sculpture",
+        "souche de cheminée",
+        "tour",
+        "travée",
+        "épi de faîtage",
+        "mascaron",
+        "toit à deux versants",
+        "grille",
+        "porche"
+      ],
+      "dateCapture": "2007:08:26"
     },
     {
       "id_pic": "Rome-73_8_§1",
@@ -43,33 +95,43 @@
         "brique",
         "décor",
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:05:14"
     },
     {
       "id_pic": "Rome-73_8_§2",
       "IndexJantzen": [
         "fenetre",
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:05:14"
     },
     {
       "id_pic": "Rome-73_8_§3",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:05:14"
     },
     {
       "id_pic": "Rome-73_8_§5",
       "IndexJantzen": [
         "oeil-de-boeuf",
         "tourelle"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:05:14"
     },
     {
       "id_pic": "Rome-73_8_§6",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:05:14"
     }
   ]
 }

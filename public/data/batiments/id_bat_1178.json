@@ -2,7 +2,12 @@
   "id_bat": 1178,
   "libelle": "167 rue Montmartre",
   "ensemble": null,
-  "personnes": null,
+  "personnes": [
+    {
+      "personneID": 92,
+      "role": "architecte"
+    }
+  ],
   "dateConstruction": "1909",
   "periode": [
     "1895-1914"
@@ -13,6 +18,7 @@
     "voie": "rue Montmartre"
   },
   "arrondissement": 2,
+  "tri_alphab": "Montmartre",
   "coordonnees": {
     "latitude": "48.871137",
     "longitude": "2.34282"
@@ -25,25 +31,84 @@
     "façade",
     "oriel"
   ],
+  "terme_torneh_bat": [
+    "baie",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "bossage",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "grille",
+    "linteau",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oriel",
+    "pierre de taille",
+    "porte",
+    "porte-fenêtre",
+    "sculpture",
+    "souche de cheminée",
+    "travée",
+    "vitrail",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Montmartre-167_2_§1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [
+        "baie",
+        "balcon",
+        "balustrade",
+        "bandeau",
+        "bossage",
+        "chambranle",
+        "corniche",
+        "fenêtre",
+        "fer forgé",
+        "fronton",
+        "garde-corps",
+        "grille",
+        "linteau",
+        "lucarne",
+        "mascaron",
+        "mansarde",
+        "oriel",
+        "pierre de taille",
+        "porte",
+        "porte-fenêtre",
+        "souche de cheminée",
+        "sculpture",
+        "travée",
+        "vitrail",
+        "volet"
+      ],
+      "dateCapture": "2006:04:22"
     },
     {
       "id_pic": "Montmartre-167_2_§2",
       "IndexJantzen": [
         "façade",
         "oriel"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:09:05"
     },
     {
       "id_pic": "Montmartre-167_2_§4",
       "IndexJantzen": [
         "oriel"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:04:22"
     }
   ]
 }

@@ -2,10 +2,36 @@
   "id_bat": 4051,
   "libelle": "rue de Richelieu",
   "ensemble": null,
-  "personnes": null,
+  "personnes": [
+    {
+      "personneID": 765,
+      "role": "architecte"
+    },
+    {
+      "personneID": 547,
+      "role": "architecte"
+    },
+    {
+      "personneID": 880,
+      "role": "architecte"
+    },
+    {
+      "personneID": 708,
+      "role": "architecte"
+    },
+    {
+      "personneID": 513,
+      "role": "architecte"
+    },
+    {
+      "personneID": 461,
+      "role": "architecte"
+    }
+  ],
   "dateConstruction": "1724, 1854-1875",
   "periode": [
-    "1660-1759;1850-1869"
+    "1660-1759",
+    "1850-1869"
   ],
   "adresse": {
     "affichage": "rue de Richelieu",
@@ -13,6 +39,7 @@
     "voie": "rue de Richelieu"
   },
   "arrondissement": 2,
+  "tri_alphab": "Richelieu",
   "coordonnees": {
     "latitude": "48.868047222222",
     "longitude": "2.3383722222222"
@@ -22,15 +49,35 @@
   "WPfr": null,
   "image_ref": "Richelieu_2_§1",
   "terme_jantzen_bat": [
-    "façade",
-    "intérieur",
-    "métal",
-    "fronton",
-    "fenetre",
     "sculpture",
     "clé",
-    "colonne",
-    "garde-corps"
+    "intérieur",
+    "fenetre",
+    "façade",
+    "métal",
+    "garde-corps",
+    "fronton",
+    "colonne"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balustrade",
+    "bandeau",
+    "chapiteau composite",
+    "corniche",
+    "entablement",
+    "fenêtre",
+    "fronton",
+    "mascaron",
+    "perron",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "porte-fenêtre",
+    "sculpture",
+    "travée",
+    "vantail"
   ],
   "photos": [
     {
@@ -38,7 +85,28 @@
       "IndexJantzen": [
         "façade",
         "fronton"
-      ]
+      ],
+      "IndexTorneh": [
+        "fronton",
+        "pilastre",
+        "chapiteau composite",
+        "arc en plein cintre",
+        "fenêtre",
+        "porte-fenêtre",
+        "porte",
+        "balustrade",
+        "corniche",
+        "entablement",
+        "bandeau",
+        "sculpture",
+        "mascaron",
+        "perron",
+        "pierre de taille",
+        "ardoise",
+        "travée",
+        "vantail"
+      ],
+      "dateCapture": "2006:08:30"
     },
     {
       "id_pic": "Richelieu_2_§10",
@@ -46,7 +114,9 @@
         "colonne",
         "intérieur",
         "métal"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2009:03:16"
     },
     {
       "id_pic": "Richelieu_2_§13",
@@ -54,7 +124,9 @@
         "colonne",
         "intérieur",
         "métal"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2009:03:16"
     },
     {
       "id_pic": "Richelieu_2_§14",
@@ -62,27 +134,35 @@
         "colonne",
         "intérieur",
         "métal"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2009:03:16"
     },
     {
       "id_pic": "Richelieu_2_§15",
       "IndexJantzen": [
         "intérieur"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2009:03:16"
     },
     {
       "id_pic": "Richelieu_2_§16",
       "IndexJantzen": [
         "intérieur",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:08:30"
     },
     {
       "id_pic": "Richelieu_2_§5",
       "IndexJantzen": [
         "garde-corps",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:08:30"
     },
     {
       "id_pic": "Richelieu_2_§7",
@@ -90,7 +170,9 @@
         "fenetre",
         "fronton",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:08:30"
     },
     {
       "id_pic": "Richelieu_2_§8",
@@ -98,7 +180,9 @@
         "clé",
         "fenetre",
         "fronton"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:08:30"
     },
     {
       "id_pic": "Richelieu_2_§9",
@@ -106,7 +190,9 @@
         "clé",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:08:30"
     }
   ]
 }

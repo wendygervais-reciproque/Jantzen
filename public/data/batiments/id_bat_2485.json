@@ -13,6 +13,7 @@
     "voie": "rue de Jarente"
   },
   "arrondissement": 4,
+  "tri_alphab": "Jarente",
   "coordonnees": {
     "latitude": "48.855697",
     "longitude": "2.363114"
@@ -22,8 +23,20 @@
   "WPfr": null,
   "image_ref": "Jarente-4_4_§1-Rx",
   "terme_jantzen_bat": [
+    "toiture",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "corniche",
+    "fenêtre",
+    "garde-corps",
     "lucarne",
-    "toiture"
+    "pierre de taille",
+    "toit à deux versants",
+    "tuile",
+    "vantail",
+    "volet"
   ],
   "photos": [
     {
@@ -31,13 +44,28 @@
       "IndexJantzen": [
         "lucarne",
         "toiture"
-      ]
+      ],
+      "IndexTorneh": [
+        "lucarne",
+        "fenêtre",
+        "garde-corps",
+        "balcon",
+        "volet",
+        "tuile",
+        "toit à deux versants",
+        "corniche",
+        "pierre de taille",
+        "vantail"
+      ],
+      "dateCapture": "2012:05:13"
     },
     {
       "id_pic": "Jarente-4_4_§2",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2012:05:13"
     }
   ]
 }

@@ -4,8 +4,12 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 290,
+      "personneID": 820,
       "role": "architecte"
+    },
+    {
+      "personneID": 10133,
+      "role": "sculpteur"
     }
   ],
   "dateConstruction": "1900",
@@ -18,6 +22,7 @@
     "voie": "rue Réaumur"
   },
   "arrondissement": 3,
+  "tri_alphab": "Reaumur",
   "coordonnees": {
     "latitude": "48.865717",
     "longitude": "2.354438"
@@ -27,13 +32,38 @@
   "WPfr": null,
   "image_ref": "Reaumur-39_3_§1",
   "terme_jantzen_bat": [
-    "façade",
-    "décor",
-    "sculpture",
-    "atlante",
-    "console",
+    "colonne",
     "loggia",
-    "colonne"
+    "sculpture",
+    "console",
+    "façade",
+    "atlante",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "ardoise",
+    "atlante",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chapiteau",
+    "colonne",
+    "corniche",
+    "fenêtre",
+    "frise",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "volet"
   ],
   "photos": [
     {
@@ -42,7 +72,33 @@
         "décor",
         "façade",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "fenêtre",
+        "lucarne",
+        "mansarde",
+        "corniche",
+        "colonne",
+        "pilastre",
+        "chapiteau",
+        "mascaron",
+        "atlante",
+        "sculpture",
+        "frise",
+        "arc en plein cintre",
+        "arc",
+        "oculus",
+        "bandeau",
+        "toit à deux versants",
+        "ardoise",
+        "pierre de taille",
+        "souche de cheminée",
+        "volet"
+      ],
+      "dateCapture": "2008:07:27"
     },
     {
       "id_pic": "Reaumur-39_3_§2",
@@ -50,7 +106,9 @@
         "décor",
         "loggia",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:06:19"
     },
     {
       "id_pic": "Reaumur-39_3_§5",
@@ -59,7 +117,9 @@
         "colonne",
         "console",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:08:28"
     },
     {
       "id_pic": "Reaumur-39_3_§6",
@@ -67,14 +127,18 @@
         "atlante",
         "console",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:07:27"
     },
     {
       "id_pic": "Reaumur-39_3_§7",
       "IndexJantzen": [
         "atlante",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:07:27"
     }
   ]
 }

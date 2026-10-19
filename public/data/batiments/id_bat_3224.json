@@ -4,8 +4,12 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 250,
+      "personneID": 97,
       "role": "architecte"
+    },
+    {
+      "personneID": 10021,
+      "role": "sculpteur"
     }
   ],
   "dateConstruction": "1911",
@@ -18,6 +22,7 @@
     "voie": "rue des Archives"
   },
   "arrondissement": 3,
+  "tri_alphab": "Archives",
   "coordonnees": {
     "latitude": "48.862047",
     "longitude": "2.358971"
@@ -30,13 +35,38 @@
     "clé",
     "porte-fer"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "corniche",
+    "escalier",
+    "fer forgé",
+    "mascaron",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Archives-61_3_§1",
       "IndexJantzen": [
         "clé",
         "porte-fer"
-      ]
+      ],
+      "IndexTorneh": [
+        "portail",
+        "porte",
+        "arc en plein cintre",
+        "sculpture",
+        "mascaron",
+        "fer forgé",
+        "vantail",
+        "pierre de taille",
+        "escalier",
+        "corniche"
+      ],
+      "dateCapture": "2003:08:02"
     }
   ]
 }

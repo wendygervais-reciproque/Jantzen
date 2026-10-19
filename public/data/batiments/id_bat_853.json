@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 618,
+      "personneID": 825,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "boulevard Haussmann"
   },
   "arrondissement": 8,
+  "tri_alphab": "Haussmann",
   "coordonnees": {
     "latitude": "48.875014",
     "longitude": "2.312697"
@@ -27,10 +28,29 @@
   "WPfr": null,
   "image_ref": "Haussmann-137_8_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "lucarne",
     "toiture",
-    "colonne"
+    "colonne",
+    "fenetre",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "oculus",
+    "pierre de taille",
+    "porte-fenêtre",
+    "toit à deux versants",
+    "volet"
   ],
   "photos": [
     {
@@ -39,14 +59,36 @@
         "fenetre",
         "lucarne",
         "toiture"
-      ]
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "lucarne",
+        "mansarde",
+        "toit à deux versants",
+        "ardoise",
+        "garde-corps",
+        "arc en plein cintre",
+        "fronton",
+        "volet",
+        "pierre de taille",
+        "corniche",
+        "oculus",
+        "fer forgé",
+        "porte-fenêtre",
+        "bandeau"
+      ],
+      "dateCapture": "2004:10:21"
     },
     {
       "id_pic": "Haussmann-137_8_§2",
       "IndexJantzen": [
         "colonne",
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:10:21"
     }
   ]
 }

@@ -1,0 +1,77 @@
+{
+  "id_bat": 3061,
+  "libelle": "58 rue de Verneuil",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": null,
+  "adresse": {
+    "affichage": "58 rue de Verneuil",
+    "numero": "58",
+    "voie": "rue de Verneuil"
+  },
+  "arrondissement": 7,
+  "tri_alphab": "Verneuil",
+  "coordonnees": {
+    "latitude": "48.858666",
+    "longitude": "2.327021"
+  },
+  "id_pss": null,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": "Verneuil-58_7_§1",
+  "terme_jantzen_bat": [
+    "oriel",
+    "colonne",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "attique",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "bossage",
+    "chapiteau",
+    "colonne",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "modillon",
+    "oriel",
+    "pierre de taille",
+    "volet"
+  ],
+  "photos": [
+    {
+      "id_pic": "Verneuil-58_7_§1",
+      "IndexJantzen": [
+        "colonne",
+        "fenetre",
+        "oriel"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "colonne",
+        "chapiteau",
+        "corniche",
+        "bandeau",
+        "mascaron",
+        "modillon",
+        "fenêtre",
+        "arc en plein cintre",
+        "fer forgé",
+        "oriel",
+        "pierre de taille",
+        "bossage",
+        "attique",
+        "volet"
+      ],
+      "dateCapture": "2005:05:22"
+    }
+  ]
+}

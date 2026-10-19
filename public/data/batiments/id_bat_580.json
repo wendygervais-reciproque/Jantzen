@@ -2,7 +2,12 @@
   "id_bat": 580,
   "libelle": "118 rue Lecourbe",
   "ensemble": null,
-  "personnes": null,
+  "personnes": [
+    {
+      "personneID": 753,
+      "role": "architecte"
+    }
+  ],
   "dateConstruction": "1898",
   "periode": [
     "1895-1914"
@@ -13,6 +18,7 @@
     "voie": "rue Lecourbe"
   },
   "arrondissement": 15,
+  "tri_alphab": "Lecourbe",
   "coordonnees": {
     "latitude": "48.842533",
     "longitude": "2.302062"
@@ -24,18 +30,71 @@
   "terme_jantzen_bat": [
     "façade"
   ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chéneau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "porte-fenêtre",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "vitrail",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Lecourbe-118_15_§1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "porte-fenêtre",
+        "lucarne",
+        "mansarde",
+        "souche de cheminée",
+        "ardoise",
+        "toit à deux versants",
+        "pilastre",
+        "corniche",
+        "bandeau",
+        "mascaron",
+        "sculpture",
+        "porte",
+        "volet",
+        "oculus",
+        "chéneau",
+        "fer forgé",
+        "pierre de taille",
+        "vitrail",
+        "fronton"
+      ],
+      "dateCapture": "2004:05:18"
     },
     {
       "id_pic": "Lecourbe-118_15_§2",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:04:01"
     }
   ]
 }

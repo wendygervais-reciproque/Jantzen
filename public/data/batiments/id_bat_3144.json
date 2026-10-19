@@ -4,7 +4,11 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 51,
+      "personneID": 61,
+      "role": "architecte"
+    },
+    {
+      "personneID": 925,
       "role": "architecte"
     }
   ],
@@ -18,6 +22,7 @@
     "voie": "rue des Colonnes"
   },
   "arrondissement": 2,
+  "tri_alphab": "Colonnes",
   "coordonnees": {
     "latitude": "48.869661",
     "longitude": "2.339578"
@@ -27,49 +32,100 @@
   "WPfr": null,
   "image_ref": "Colonnes-R_2_§1",
   "terme_jantzen_bat": [
-    "colonne",
     "façade",
+    "colonne",
     "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "arcade",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chapiteau",
+    "colonne",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "soupirail",
+    "travée"
   ],
   "photos": [
     {
       "id_pic": "Colonnes-R_2_§1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [
+        "arcade",
+        "arc en plein cintre",
+        "colonne",
+        "chapiteau",
+        "pierre de taille",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "lucarne",
+        "mansarde",
+        "corniche",
+        "bandeau",
+        "fer forgé",
+        "travée",
+        "porte",
+        "soupirail",
+        "mascaron"
+      ],
+      "dateCapture": null
     },
     {
       "id_pic": "Colonnes-R_2_§2",
       "IndexJantzen": [
         "colonne",
         "façade"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": null
     },
     {
       "id_pic": "Colonnes-R_2_§3",
       "IndexJantzen": [
         "colonne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": null
     },
     {
       "id_pic": "Colonnes-R_2_§4",
       "IndexJantzen": [
         "colonne",
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:04:25"
     },
     {
       "id_pic": "Colonnes-R_2_§5",
       "IndexJantzen": [
         "colonne",
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:04:25"
     },
     {
       "id_pic": "Colonnes-R_2_§6",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:04:25"
     }
   ]
 }

@@ -4,8 +4,12 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 219,
+      "personneID": 327,
       "role": "architecte"
+    },
+    {
+      "personneID": 10003,
+      "role": "sculpteur"
     }
   ],
   "dateConstruction": "1912",
@@ -18,6 +22,7 @@
     "voie": "boulevard Richard-Lenoir"
   },
   "arrondissement": 11,
+  "tri_alphab": "Richard-Lenoir-bd",
   "coordonnees": {
     "latitude": "48.857897",
     "longitude": "2.371722"
@@ -27,25 +32,76 @@
   "WPfr": null,
   "image_ref": "Richard-Lenoir-bd-42b_11_§1",
   "terme_jantzen_bat": [
+    "sculpture",
+    "fenetre",
     "lucarne",
     "façade",
-    "fenetre",
-    "décor",
+    "garde-corps",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "oriel",
+    "pierre de taille",
+    "pilastre",
     "sculpture",
-    "garde-corps"
+    "souche de cheminée",
+    "travée",
+    "vitrail"
   ],
   "photos": [
     {
       "id_pic": "Richard-Lenoir-bd-42b_11_§1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "lucarne",
+        "oriel",
+        "mansarde",
+        "dôme",
+        "souche de cheminée",
+        "fronton",
+        "mascaron",
+        "pilastre",
+        "corniche",
+        "bandeau",
+        "arc",
+        "arc en plein cintre",
+        "pierre de taille",
+        "sculpture",
+        "ardoise",
+        "travée",
+        "oculus",
+        "vitrail"
+      ],
+      "dateCapture": "2008:02:16"
     },
     {
       "id_pic": "Richard-Lenoir-bd-42b_11_§2",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:02:16"
     },
     {
       "id_pic": "Richard-Lenoir-bd-42b_11_§3",
@@ -53,7 +109,9 @@
         "décor",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:02:16"
     },
     {
       "id_pic": "Richard-Lenoir-bd-42b_11_§4",
@@ -61,27 +119,35 @@
         "décor",
         "lucarne",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:02:16"
     },
     {
       "id_pic": "Richard-Lenoir-bd-42b_11_§5",
       "IndexJantzen": [
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:02:16"
     },
     {
       "id_pic": "Richard-Lenoir-bd-42b_11_§6",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:02:16"
     },
     {
       "id_pic": "Richard-Lenoir-bd-42b_11_§7",
       "IndexJantzen": [
         "fenetre",
         "garde-corps"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:02:16"
     }
   ]
 }

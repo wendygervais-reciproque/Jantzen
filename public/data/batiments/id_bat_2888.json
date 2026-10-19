@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 249,
+      "personneID": 366,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue Paul-Dubois"
   },
   "arrondissement": 3,
+  "tri_alphab": "Paul-Dubois",
   "coordonnees": {
     "latitude": "48.865418",
     "longitude": "2.36122"
@@ -27,23 +28,78 @@
   "WPfr": null,
   "image_ref": "Paul-Dubois-5_3_§1",
   "terme_jantzen_bat": [
+    "sculpture",
     "console",
-    "façade-d'angle",
-    "sculpture"
+    "façade-d'angle"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "ardoise",
+    "baie",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oriel",
+    "pierre de taille",
+    "porte",
+    "souche de cheminée",
+    "toit à deux versants",
+    "tour",
+    "travée",
+    "tuile"
   ],
   "photos": [
     {
       "id_pic": "Paul-Dubois-5_3_§1",
       "IndexJantzen": [
         "façade-d'angle"
-      ]
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "baie",
+        "bandeau",
+        "brique",
+        "corniche",
+        "fenêtre",
+        "fer forgé",
+        "garde-corps",
+        "lucarne",
+        "mansarde",
+        "mascaron",
+        "oriel",
+        "pierre de taille",
+        "tour",
+        "toit à deux versants",
+        "travée",
+        "tuile",
+        "ardoise",
+        "porte",
+        "arc",
+        "arc en plein cintre",
+        "chaîne d'angle",
+        "souche de cheminée"
+      ],
+      "dateCapture": "2004:09:21"
     },
     {
       "id_pic": "Paul-Dubois-5_3_§2",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:09:21"
     }
   ]
 }

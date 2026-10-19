@@ -2,7 +2,12 @@
   "id_bat": 1352,
   "libelle": "19 boulevard Delessert",
   "ensemble": null,
-  "personnes": null,
+  "personnes": [
+    {
+      "personneID": 848,
+      "role": "architecte"
+    }
+  ],
   "dateConstruction": null,
   "periode": [
     "1895-1914"
@@ -13,6 +18,7 @@
     "voie": "boulevard Delessert"
   },
   "arrondissement": 16,
+  "tri_alphab": "Delessert",
   "coordonnees": {
     "latitude": "48.858689",
     "longitude": "2.286059"
@@ -22,10 +28,25 @@
   "WPfr": null,
   "image_ref": "Delessert-19_16_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "porte-fer",
+    "garde-corps",
     "balcon",
-    "garde-corps"
+    "fenetre",
+    "porte-fer"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "oriel",
+    "pierre de taille",
+    "porte-fenêtre",
+    "sculpture",
+    "vitrail",
+    "volet"
   ],
   "photos": [
     {
@@ -34,20 +55,40 @@
         "balcon",
         "fenetre",
         "garde-corps"
-      ]
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "fenêtre",
+        "porte-fenêtre",
+        "volet",
+        "fer forgé",
+        "arc en plein cintre",
+        "pierre de taille",
+        "sculpture",
+        "mascaron",
+        "vitrail",
+        "oriel"
+      ],
+      "dateCapture": "2005:06:07"
     },
     {
       "id_pic": "Delessert-19_16_§2",
       "IndexJantzen": [
         "fenetre",
         "garde-corps"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:03:16"
     },
     {
       "id_pic": "Delessert-19_16_§3",
       "IndexJantzen": [
         "porte-fer"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:03:16"
     }
   ]
 }

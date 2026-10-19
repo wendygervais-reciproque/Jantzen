@@ -13,6 +13,7 @@
     "voie": "rue de Buci"
   },
   "arrondissement": 6,
+  "tri_alphab": "Buci",
   "coordonnees": {
     "latitude": "48.853906",
     "longitude": "2.337295"
@@ -22,42 +23,93 @@
   "WPfr": null,
   "image_ref": "Buci-12_6_§1",
   "terme_jantzen_bat": [
-    "façade",
-    "fenetre",
     "sculpture",
     "clé",
+    "fenetre",
+    "façade",
     "garde-corps"
+  ],
+  "terme_torneh_bat": [
+    "arc brisé",
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "toit à deux versants",
+    "travée",
+    "vitrail",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Buci-12_6_§1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "lucarne",
+        "mansarde",
+        "arc en plein cintre",
+        "arc brisé",
+        "mascaron",
+        "balustrade",
+        "bandeau",
+        "pierre de taille",
+        "toit à deux versants",
+        "ardoise",
+        "corniche",
+        "travée",
+        "volet",
+        "fer forgé",
+        "porte",
+        "vitrail"
+      ],
+      "dateCapture": "2010:05:23"
     },
     {
       "id_pic": "Buci-12_6_§2",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2010:05:23"
     },
     {
       "id_pic": "Buci-12_6_§3",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:04:19"
     },
     {
       "id_pic": "Buci-12_6_§4",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:04:19"
     },
     {
       "id_pic": "Buci-12_6_§5",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:04:19"
     },
     {
       "id_pic": "Buci-12_6_§6",
@@ -66,14 +118,18 @@
         "fenetre",
         "garde-corps",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:05:11"
     },
     {
       "id_pic": "Buci-12_6_§7",
       "IndexJantzen": [
         "clé",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:05:11"
     }
   ]
 }

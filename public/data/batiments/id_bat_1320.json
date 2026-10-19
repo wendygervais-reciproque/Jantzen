@@ -4,8 +4,16 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 42,
+      "personneID": 38,
       "role": "architecte"
+    },
+    {
+      "personneID": 48,
+      "role": "architecte"
+    },
+    {
+      "personneID": 10130,
+      "role": "sculpteur"
     }
   ],
   "dateConstruction": "1905",
@@ -18,6 +26,7 @@
     "voie": "rue Perrée"
   },
   "arrondissement": 3,
+  "tri_alphab": "Perree",
   "coordonnees": {
     "latitude": "48.865064",
     "longitude": "2.360698"
@@ -27,19 +36,70 @@
   "WPfr": null,
   "image_ref": "Perree-18_3_§1",
   "terme_jantzen_bat": [
-    "lucarne",
-    "façade",
-    "fenetre",
     "sculpture",
     "console",
+    "fenetre",
+    "lucarne",
+    "façade",
     "chimère"
+  ],
+  "terme_torneh_bat": [
+    "arc brisé",
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "oculus",
+    "pierre de taille",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "toit-terrasse",
+    "tour",
+    "travée",
+    "volet",
+    "épi de faîtage"
   ],
   "photos": [
     {
       "id_pic": "Perree-18_3_§1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "oculus",
+        "fronton",
+        "sculpture",
+        "souche de cheminée",
+        "épi de faîtage",
+        "tour",
+        "toit à deux versants",
+        "ardoise",
+        "pierre de taille",
+        "arc en plein cintre",
+        "arc brisé",
+        "travée",
+        "lucarne",
+        "bandeau",
+        "corniche",
+        "mansarde",
+        "toit-terrasse",
+        "fer forgé",
+        "volet"
+      ],
+      "dateCapture": "2006:04:22"
     },
     {
       "id_pic": "Perree-18_3_§10",
@@ -47,50 +107,66 @@
         "chimère",
         "console",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:04:22"
     },
     {
       "id_pic": "Perree-18_3_§2",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:09:01"
     },
     {
       "id_pic": "Perree-18_3_§3",
       "IndexJantzen": [
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:09:01"
     },
     {
       "id_pic": "Perree-18_3_§4",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:09:01"
     },
     {
       "id_pic": "Perree-18_3_§5",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:04:22"
     },
     {
       "id_pic": "Perree-18_3_§6",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:04:22"
     },
     {
       "id_pic": "Perree-18_3_§8",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:04:22"
     },
     {
       "id_pic": "Perree-18_3_§9",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:04:22"
     }
   ]
 }

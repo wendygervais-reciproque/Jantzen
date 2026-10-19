@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 442,
+      "personneID": 595,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue Saint-Placide"
   },
   "arrondissement": 6,
+  "tri_alphab": "St-Placide",
   "coordonnees": {
     "latitude": "48.847777",
     "longitude": "2.326305"
@@ -27,23 +28,78 @@
   "WPfr": null,
   "image_ref": "St-Placide-47_6_§1",
   "terme_jantzen_bat": [
-    "clé",
     "façade",
+    "clé",
     "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "chapiteau",
+    "chapiteau corinthien",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "marquise",
+    "mascaron",
+    "modillon",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "sculpture",
+    "souche de cheminée",
+    "soupirail",
+    "toit à deux versants",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "St-Placide-47_6_§1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "lucarne",
+        "mansarde",
+        "toit à deux versants",
+        "ardoise",
+        "mascaron",
+        "pilastre",
+        "corniche",
+        "modillon",
+        "chapiteau",
+        "chapiteau corinthien",
+        "volet",
+        "porte",
+        "soupirail",
+        "souche de cheminée",
+        "marquise",
+        "pierre de taille",
+        "sculpture",
+        "fronton",
+        "oculus"
+      ],
+      "dateCapture": "2005:04:17"
     },
     {
       "id_pic": "St-Placide-47_6_§2",
       "IndexJantzen": [
         "clé",
         "porte-bois"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:04:17"
     }
   ]
 }

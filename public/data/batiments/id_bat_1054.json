@@ -2,7 +2,16 @@
   "id_bat": 1054,
   "libelle": "150 avenue des Champs-Élysées",
   "ensemble": null,
-  "personnes": null,
+  "personnes": [
+    {
+      "personneID": 339,
+      "role": "architecte"
+    },
+    {
+      "personneID": 373,
+      "role": "architecte"
+    }
+  ],
   "dateConstruction": null,
   "periode": [
     "1895-1914"
@@ -13,6 +22,7 @@
     "voie": "avenue des Champs-Élysées"
   },
   "arrondissement": 8,
+  "tri_alphab": "Champs-Elysees",
   "coordonnees": {
     "latitude": "48.873188",
     "longitude": "2.298037"
@@ -22,8 +32,25 @@
   "WPfr": null,
   "image_ref": "Champs-Elysees-150_8_§1",
   "terme_jantzen_bat": [
+    "fronton",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
     "lucarne",
-    "fronton"
+    "mansarde",
+    "mascaron",
+    "oriel",
+    "pierre de taille",
+    "souche de cheminée",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -31,14 +58,34 @@
       "IndexJantzen": [
         "fronton",
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [
+        "mansarde",
+        "lucarne",
+        "fronton",
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "oriel",
+        "mascaron",
+        "souche de cheminée",
+        "ardoise",
+        "pierre de taille",
+        "épi de faîtage",
+        "corniche",
+        "arc en plein cintre",
+        "balustrade"
+      ],
+      "dateCapture": "2004:04:01"
     },
     {
       "id_pic": "Champs-Elysees-150_8_§2",
       "IndexJantzen": [
         "fronton",
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:04:01"
     }
   ]
 }

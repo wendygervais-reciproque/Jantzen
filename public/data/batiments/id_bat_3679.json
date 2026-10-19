@@ -4,8 +4,12 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 181,
+      "personneID": 287,
       "role": "architecte"
+    },
+    {
+      "personneID": 10067,
+      "role": "sculpteur"
     }
   ],
   "dateConstruction": "1904",
@@ -18,6 +22,7 @@
     "voie": "avenue de Breteuil"
   },
   "arrondissement": 15,
+  "tri_alphab": "Breteuil",
   "coordonnees": {
     "latitude": "48.846299",
     "longitude": "2.311015"
@@ -27,10 +32,20 @@
   "WPfr": null,
   "image_ref": "Breteuil-82_15_§1",
   "terme_jantzen_bat": [
-    "clé",
-    "porte-fer",
+    "garde-corps",
     "balcon",
-    "garde-corps"
+    "porte-fer",
+    "clé"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "pierre de taille",
+    "volet"
   ],
   "photos": [
     {
@@ -38,21 +53,36 @@
       "IndexJantzen": [
         "balcon",
         "garde-corps"
-      ]
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "balustrade",
+        "volet",
+        "fenêtre",
+        "mascaron",
+        "pierre de taille"
+      ],
+      "dateCapture": "2003:11:11"
     },
     {
       "id_pic": "Breteuil-82_15_§2",
       "IndexJantzen": [
         "clé",
         "porte-fer"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:04:06"
     },
     {
       "id_pic": "Breteuil-82_15_§3",
       "IndexJantzen": [
         "clé",
         "porte-fer"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:04:06"
     }
   ]
 }

@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 583,
+      "personneID": 565,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue Michel-le-Comte"
   },
   "arrondissement": 3,
+  "tri_alphab": "Michel-Comte",
   "coordonnees": {
     "latitude": "48.862571",
     "longitude": "2.35501"
@@ -27,10 +28,26 @@
   "WPfr": null,
   "image_ref": "Michel-Comte-28_3_§1",
   "terme_jantzen_bat": [
-    "porte",
     "façade",
-    "porte-bois",
-    "colonne"
+    "colonne",
+    "porte",
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en anse de panier",
+    "bandeau",
+    "bossage",
+    "chapiteau",
+    "corniche",
+    "fenêtre",
+    "gros appareil",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "sculpture",
+    "soupirail",
+    "vantail"
   ],
   "photos": [
     {
@@ -38,14 +55,33 @@
       "IndexJantzen": [
         "façade",
         "porte"
-      ]
+      ],
+      "IndexTorneh": [
+        "porte",
+        "pilastre",
+        "chapiteau",
+        "corniche",
+        "arc",
+        "arc en anse de panier",
+        "sculpture",
+        "fenêtre",
+        "bossage",
+        "pierre de taille",
+        "gros appareil",
+        "soupirail",
+        "bandeau",
+        "vantail"
+      ],
+      "dateCapture": null
     },
     {
       "id_pic": "Michel-Comte-28_3_§2",
       "IndexJantzen": [
         "colonne",
         "porte-bois"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": null
     }
   ]
 }

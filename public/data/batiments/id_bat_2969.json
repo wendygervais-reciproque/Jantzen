@@ -13,6 +13,7 @@
     "voie": "rue Cardinet"
   },
   "arrondissement": 17,
+  "tri_alphab": "Cardinet",
   "coordonnees": {
     "latitude": "48.882957",
     "longitude": "2.306445"
@@ -22,9 +23,26 @@
   "WPfr": null,
   "image_ref": "Cardinet-53_17_§",
   "terme_jantzen_bat": [
-    "décor",
+    "sculpture",
     "porte-bois",
-    "sculpture"
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "balcon",
+    "bossage",
+    "chambranle",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "grille",
+    "jambage",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "vantail",
+    "volet"
   ],
   "photos": [
     {
@@ -33,7 +51,25 @@
         "décor",
         "porte-bois",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [
+        "porte",
+        "vantail",
+        "arc",
+        "mascaron",
+        "sculpture",
+        "fenêtre",
+        "volet",
+        "balcon",
+        "garde-corps",
+        "pierre de taille",
+        "grille",
+        "fer forgé",
+        "chambranle",
+        "bossage",
+        "jambage"
+      ],
+      "dateCapture": "2006:06:12"
     }
   ]
 }

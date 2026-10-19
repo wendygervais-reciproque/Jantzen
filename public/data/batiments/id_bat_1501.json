@@ -13,6 +13,7 @@
     "voie": "rue Frochot"
   },
   "arrondissement": 9,
+  "tri_alphab": "Frochot",
   "coordonnees": {
     "latitude": "48.881135",
     "longitude": "2.337728"
@@ -26,37 +27,68 @@
     "verrière",
     "porte-fer"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "pierre de taille",
+    "souche de cheminée",
+    "toit à deux versants",
+    "vitrail"
+  ],
   "photos": [
     {
       "id_pic": "Frochot-2_9_§1",
       "IndexJantzen": [
         "façade",
         "verrière"
-      ]
+      ],
+      "IndexTorneh": [
+        "vitrail",
+        "balcon",
+        "garde-corps",
+        "fenêtre",
+        "corniche",
+        "souche de cheminée",
+        "fer forgé",
+        "pierre de taille",
+        "toit à deux versants"
+      ],
+      "dateCapture": "2005:04:11"
     },
     {
       "id_pic": "Frochot-2_9_§2",
       "IndexJantzen": [
         "verrière"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2010:10:14"
     },
     {
       "id_pic": "Frochot-2_9_§3",
       "IndexJantzen": [
         "verrière"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:04:11"
     },
     {
       "id_pic": "Frochot-2_9_§4",
       "IndexJantzen": [
         "verrière"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2010:10:14"
     },
     {
       "id_pic": "Frochot-2_9_§5",
       "IndexJantzen": [
         "porte-fer"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:04:11"
     }
   ]
 }

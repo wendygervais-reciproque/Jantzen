@@ -4,8 +4,12 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 391,
+      "personneID": 515,
       "role": "architecte"
+    },
+    {
+      "personneID": 10063,
+      "role": "sculpteur"
     }
   ],
   "dateConstruction": "1906",
@@ -18,6 +22,7 @@
     "voie": "rue de l'Amiral-Roussin"
   },
   "arrondissement": 15,
+  "tri_alphab": "Amiral-Roussin",
   "coordonnees": {
     "latitude": "48.842723",
     "longitude": "2.300372"
@@ -28,9 +33,34 @@
   "image_ref": "Amiral-Roussin-63-65_15_§1",
   "terme_jantzen_bat": [
     "brique",
-    "lucarne",
+    "pignon",
     "façade",
-    "pignon"
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "oculus",
+    "pierre de taille",
+    "porte-fenêtre",
+    "sculpture",
+    "souche de cheminée",
+    "tour",
+    "travée",
+    "tuile",
+    "volet",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -38,21 +68,51 @@
       "IndexJantzen": [
         "brique",
         "façade"
-      ]
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "lucarne",
+        "mansarde",
+        "tuile",
+        "ardoise",
+        "brique",
+        "pierre de taille",
+        "volet",
+        "garde-corps",
+        "sculpture",
+        "arc",
+        "oculus",
+        "souche de cheminée",
+        "fronton",
+        "épi de faîtage",
+        "bandeau",
+        "corniche",
+        "tour",
+        "travée",
+        "fer forgé",
+        "porte-fenêtre"
+      ],
+      "dateCapture": "2005:09:03"
     },
     {
       "id_pic": "Amiral-Roussin-63-65_15_§2",
       "IndexJantzen": [
         "brique",
         "façade"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:09:03"
     },
     {
       "id_pic": "Amiral-Roussin-63-65_15_§3",
       "IndexJantzen": [
         "lucarne",
         "pignon"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:09:03"
     }
   ]
 }

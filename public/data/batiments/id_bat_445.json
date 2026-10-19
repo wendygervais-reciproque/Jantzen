@@ -13,6 +13,7 @@
     "voie": "place Vendôme"
   },
   "arrondissement": 1,
+  "tri_alphab": "Vendome-Pl",
   "coordonnees": {
     "latitude": "48.867578",
     "longitude": "2.328509"
@@ -22,9 +23,28 @@
   "WPfr": null,
   "image_ref": "Vendome-Pl-11_1_§1",
   "terme_jantzen_bat": [
+    "oeil-de-boeuf",
     "fenetre",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chapiteau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
     "lucarne",
-    "oeil-de-boeuf"
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "souche de cheminée",
+    "volet"
   ],
   "photos": [
     {
@@ -33,21 +53,45 @@
         "fenetre",
         "lucarne",
         "oeil-de-boeuf"
-      ]
+      ],
+      "IndexTorneh": [
+        "lucarne",
+        "oculus",
+        "fenêtre",
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "pilastre",
+        "corniche",
+        "bandeau",
+        "mascaron",
+        "ardoise",
+        "souche de cheminée",
+        "volet",
+        "pierre de taille",
+        "arc en plein cintre",
+        "chapiteau",
+        "fer forgé"
+      ],
+      "dateCapture": "2008:06:21"
     },
     {
       "id_pic": "Vendome-Pl-11_1_§2",
       "IndexJantzen": [
         "lucarne",
         "oeil-de-boeuf"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:06:21"
     },
     {
       "id_pic": "Vendome-Pl-11_1_§3",
       "IndexJantzen": [
         "lucarne",
         "oeil-de-boeuf"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:06:21"
     }
   ]
 }

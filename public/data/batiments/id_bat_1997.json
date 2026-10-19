@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 112,
+      "personneID": 182,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue d'Artois"
   },
   "arrondissement": 8,
+  "tri_alphab": "Artois",
   "coordonnees": {
     "latitude": "48.873548",
     "longitude": "2.306616"
@@ -27,21 +28,68 @@
   "WPfr": null,
   "image_ref": "Artois-29_8_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "façade"
+    "façade",
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chapiteau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "pierre de taille",
+    "pilastre",
+    "portail",
+    "porte-fenêtre",
+    "sculpture",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Artois-29_8_§1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "corniche",
+        "bandeau",
+        "pilastre",
+        "chapiteau",
+        "arc en plein cintre",
+        "mansarde",
+        "lucarne",
+        "porte-fenêtre",
+        "volet",
+        "sculpture",
+        "mascaron",
+        "portail",
+        "pierre de taille",
+        "travée",
+        "fronton",
+        "fer forgé"
+      ],
+      "dateCapture": "2004:10:16"
     },
     {
       "id_pic": "Artois-29_8_§2",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:10:16"
     }
   ]
 }

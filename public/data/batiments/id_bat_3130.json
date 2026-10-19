@@ -13,6 +13,7 @@
     "voie": "rue de la Cité"
   },
   "arrondissement": 4,
+  "tri_alphab": "Cite",
   "coordonnees": {
     "latitude": "48.853884",
     "longitude": "2.34713"
@@ -22,10 +23,24 @@
   "WPfr": null,
   "image_ref": "Cite-6_4_§1",
   "terme_jantzen_bat": [
-    "lucarne",
     "toiture",
+    "oeil-de-boeuf",
     "sculpture",
-    "oeil-de-boeuf"
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "acrotère",
+    "ardoise",
+    "balustrade",
+    "chaîne d'angle",
+    "corniche",
+    "fenêtre",
+    "mansarde",
+    "oculus",
+    "oriel",
+    "pierre de taille",
+    "sculpture",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -33,51 +48,80 @@
       "IndexJantzen": [
         "lucarne",
         "toiture"
-      ]
+      ],
+      "IndexTorneh": [
+        "oculus",
+        "balustrade",
+        "corniche",
+        "sculpture",
+        "fenêtre",
+        "ardoise",
+        "mansarde",
+        "pierre de taille",
+        "chaîne d'angle",
+        "épi de faîtage",
+        "oriel",
+        "acrotère"
+      ],
+      "dateCapture": "2010:08:21"
     },
     {
       "id_pic": "Cite-6_4_§2",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2011:09:28"
     },
     {
       "id_pic": "Cite-6_4_§3",
       "IndexJantzen": [
         "lucarne",
         "toiture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:06:06"
     },
     {
       "id_pic": "Cite-6_4_§4",
       "IndexJantzen": [
         "lucarne",
         "oeil-de-boeuf"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2011:09:28"
     },
     {
       "id_pic": "Cite-6_4_§5",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:06:06"
     },
     {
       "id_pic": "Cite-6_4_§6",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:06:06"
     },
     {
       "id_pic": "Cite-6_4_§7",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2010:08:21"
     },
     {
       "id_pic": "Cite-6_4_§8",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2010:08:21"
     }
   ]
 }

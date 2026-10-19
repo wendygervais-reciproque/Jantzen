@@ -1,18 +1,24 @@
 {
   "id_bat": 1075,
-  "libelle": "154 rue du Faubourg-Saint-Denis",
+  "libelle": "154 rue du Faubourg Saint-Denis",
   "ensemble": null,
-  "personnes": null,
+  "personnes": [
+    {
+      "personneID": 477,
+      "role": "architecte"
+    }
+  ],
   "dateConstruction": null,
   "periode": [
     "1895-1914"
   ],
   "adresse": {
-    "affichage": "154 rue du Faubourg-Saint-Denis",
+    "affichage": "154 rue du Faubourg Saint-Denis",
     "numero": "154",
-    "voie": "rue du Faubourg-Saint-Denis"
+    "voie": "rue du Faubourg Saint-Denis"
   },
   "arrondissement": 10,
+  "tri_alphab": "Faubourg-St-Denis",
   "coordonnees": {
     "latitude": "48.878606",
     "longitude": "2.356868"
@@ -22,25 +28,70 @@
   "WPfr": null,
   "image_ref": "Faubourg-St-Denis-154_10_§1",
   "terme_jantzen_bat": [
+    "sculpture",
+    "console",
+    "fenetre",
     "lucarne",
     "façade",
-    "fenetre",
-    "décor",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "baie",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oriel",
+    "pilastre",
+    "porte-fenêtre",
     "sculpture",
-    "console"
+    "toit à deux versants",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Faubourg-St-Denis-154_10_§1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "fenêtre",
+        "porte-fenêtre",
+        "lucarne",
+        "mansarde",
+        "fronton",
+        "sculpture",
+        "mascaron",
+        "pilastre",
+        "corniche",
+        "bandeau",
+        "volet",
+        "fer forgé",
+        "toit à deux versants",
+        "oriel",
+        "baie",
+        "travée"
+      ],
+      "dateCapture": "2005:05:25"
     },
     {
       "id_pic": "Faubourg-St-Denis-154_10_§2",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:05:25"
     },
     {
       "id_pic": "Faubourg-St-Denis-154_10_§3",
@@ -48,13 +99,17 @@
         "décor",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:05:25"
     },
     {
       "id_pic": "Faubourg-St-Denis-154_10_§4",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:05:25"
     },
     {
       "id_pic": "Faubourg-St-Denis-154_10_§5",
@@ -63,14 +118,18 @@
         "décor",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:05:25"
     },
     {
       "id_pic": "Faubourg-St-Denis-154_10_§6",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:05:25"
     }
   ]
 }

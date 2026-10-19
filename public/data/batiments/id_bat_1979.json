@@ -13,6 +13,7 @@
     "voie": "rue de Richelieu"
   },
   "arrondissement": 1,
+  "tri_alphab": "Richelieu",
   "coordonnees": {
     "latitude": "48.865229",
     "longitude": "2.336707"
@@ -22,19 +23,56 @@
   "WPfr": null,
   "image_ref": "Richelieu-28_1_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "décor",
     "sculpture",
     "clé",
+    "fenetre",
+    "garde-corps",
     "porte-bois",
-    "garde-corps"
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "mascaron",
+    "modillon",
+    "pierre de taille",
+    "pilastre",
+    "porte-fenêtre",
+    "toit-terrasse",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Richelieu-28_1_§1",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "garde-corps",
+        "corniche",
+        "chambranle",
+        "volet",
+        "fer forgé",
+        "pierre de taille",
+        "modillon",
+        "travée",
+        "pilastre",
+        "mascaron",
+        "fronton",
+        "toit-terrasse",
+        "porte-fenêtre"
+      ],
+      "dateCapture": "2004:08:31"
     },
     {
       "id_pic": "Richelieu-28_1_§2",
@@ -43,14 +81,18 @@
         "fenetre",
         "garde-corps",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:08:31"
     },
     {
       "id_pic": "Richelieu-28_1_§3",
       "IndexJantzen": [
         "clé",
         "porte-bois"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:08:31"
     }
   ]
 }

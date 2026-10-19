@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 658,
+      "personneID": 876,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue Saint-Marc"
   },
   "arrondissement": 2,
+  "tri_alphab": "St-Marc",
   "coordonnees": {
     "latitude": "48.87056",
     "longitude": "2.339757"
@@ -27,11 +28,28 @@
   "WPfr": null,
   "image_ref": "St-Marc-24_2_§1",
   "terme_jantzen_bat": [
-    "métal",
+    "verrière",
     "porte-fer",
     "fenetre",
+    "métal",
+    "colonne"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
     "colonne",
-    "verrière"
+    "corniche",
+    "fenêtre",
+    "fer",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mascaron",
+    "pierre de taille",
+    "sculpture",
+    "toit à deux versants",
+    "travée"
   ],
   "photos": [
     {
@@ -40,7 +58,25 @@
         "fenetre",
         "métal",
         "verrière"
-      ]
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "corniche",
+        "colonne",
+        "pierre de taille",
+        "sculpture",
+        "mascaron",
+        "fer forgé",
+        "travée",
+        "lucarne",
+        "toit à deux versants",
+        "ardoise",
+        "fer"
+      ],
+      "dateCapture": "2004:09:01"
     },
     {
       "id_pic": "St-Marc-24_2_§2",
@@ -49,13 +85,17 @@
         "fenetre",
         "métal",
         "verrière"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:09:01"
     },
     {
       "id_pic": "St-Marc-24_2_§3",
       "IndexJantzen": [
         "porte-fer"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:09:01"
     }
   ]
 }

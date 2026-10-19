@@ -4,7 +4,15 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 349,
+      "personneID": 159,
+      "role": "architecte"
+    },
+    {
+      "personneID": 859,
+      "role": "architecte"
+    },
+    {
+      "personneID": 497,
       "role": "architecte"
     }
   ],
@@ -18,6 +26,7 @@
     "voie": "rue Troyon"
   },
   "arrondissement": 17,
+  "tri_alphab": "Troyon",
   "coordonnees": {
     "latitude": "48.876463",
     "longitude": "2.294937"
@@ -28,22 +37,49 @@
   "image_ref": "Troyon-22_17_§1",
   "terme_jantzen_bat": [
     "sculpture",
-    "console",
-    "garde-corps"
+    "garde-corps",
+    "console"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "modillon",
+    "pierre de taille",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Troyon-22_17_§1",
       "IndexJantzen": [
         "garde-corps"
-      ]
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "volet",
+        "arc en plein cintre",
+        "fenêtre",
+        "mascaron",
+        "pierre de taille",
+        "modillon",
+        "balustrade"
+      ],
+      "dateCapture": "2004:09:02"
     },
     {
       "id_pic": "Troyon-22_17_§2",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:09:02"
     }
   ]
 }

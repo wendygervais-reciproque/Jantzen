@@ -13,6 +13,7 @@
     "voie": "rue Poussin"
   },
   "arrondissement": 16,
+  "tri_alphab": "Poussin",
   "coordonnees": {
     "latitude": "48.848766",
     "longitude": "2.263292"
@@ -22,32 +23,77 @@
   "WPfr": null,
   "image_ref": "Poussin-26_16_§1",
   "terme_jantzen_bat": [
-    "porte-fer",
-    "fenetre",
-    "décor",
-    "sculpture",
     "balcon",
-    "colonne"
+    "porte-fer",
+    "sculpture",
+    "fenetre",
+    "colonne",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "colonne",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Poussin-26_16_§1",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "lucarne",
+        "mansarde",
+        "toit à deux versants",
+        "fer forgé",
+        "pierre de taille",
+        "corniche",
+        "souche de cheminée",
+        "volet",
+        "colonne",
+        "travée",
+        "sculpture",
+        "mascaron",
+        "oculus",
+        "ardoise"
+      ],
+      "dateCapture": "2007:04:21"
     },
     {
       "id_pic": "Poussin-26_16_§2",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:07:24"
     },
     {
       "id_pic": "Poussin-26_16_§3",
       "IndexJantzen": [
         "balcon",
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:04:21"
     },
     {
       "id_pic": "Poussin-26_16_§4",
@@ -56,14 +102,18 @@
         "décor",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:04:21"
     },
     {
       "id_pic": "Poussin-26_16_§5",
       "IndexJantzen": [
         "balcon",
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:04:21"
     },
     {
       "id_pic": "Poussin-26_16_§6",
@@ -71,13 +121,17 @@
         "balcon",
         "colonne",
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:04:21"
     },
     {
       "id_pic": "Poussin-26_16_§7",
       "IndexJantzen": [
         "porte-fer"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:04:21"
     }
   ]
 }

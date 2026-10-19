@@ -2,7 +2,16 @@
   "id_bat": 3275,
   "libelle": "64 boulevard Haussmann",
   "ensemble": null,
-  "personnes": null,
+  "personnes": [
+    {
+      "personneID": 844,
+      "role": "architecte"
+    },
+    {
+      "personneID": 845,
+      "role": "architecte"
+    }
+  ],
   "dateConstruction": "1868-1883",
   "periode": [
     "1870-1894"
@@ -13,6 +22,7 @@
     "voie": "boulevard Haussmann"
   },
   "arrondissement": 9,
+  "tri_alphab": "Haussmann",
   "coordonnees": {
     "latitude": "48.873773",
     "longitude": "2.328157"
@@ -20,22 +30,49 @@
   "id_pss": 3931,
   "id_wikidata": null,
   "WPfr": null,
-  "image_ref": "Haussmann-64_9_1§1",
+  "image_ref": "Haussmann-64_9_1§30",
   "terme_jantzen_bat": [
-    "lucarne",
     "toiture",
-    "métal",
-    "fenetre",
     "oeil-de-boeuf",
-    "décor",
-    "dome",
-    "fenetre-d'angle",
-    "sculpture",
-    "tourelle",
-    "mosaique",
-    "colonne",
     "verrière",
-    "garde-corps"
+    "colonne",
+    "dome",
+    "mosaique",
+    "tourelle",
+    "sculpture",
+    "fenetre-d'angle",
+    "fenetre",
+    "lucarne",
+    "métal",
+    "garde-corps",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "attique",
+    "baie",
+    "balcon",
+    "balustrade",
+    "cariatide",
+    "chapiteau",
+    "colonne",
+    "corniche",
+    "coupole",
+    "dôme",
+    "fenêtre",
+    "frise",
+    "fronton",
+    "garde-corps",
+    "grille",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "sculpture",
+    "verrière",
+    "édicule",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -44,49 +81,65 @@
         "dome",
         "lucarne",
         "tourelle"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2012:07:23"
     },
     {
       "id_pic": "Haussmann-64_9_1§12",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2014:03:06"
     },
     {
       "id_pic": "Haussmann-64_9_1§13-Rx",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2012:07:23"
     },
     {
       "id_pic": "Haussmann-64_9_1§14",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:09:02"
     },
     {
       "id_pic": "Haussmann-64_9_1§15",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2014:03:06"
     },
     {
       "id_pic": "Haussmann-64_9_1§16",
       "IndexJantzen": [
         "dome"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2009:09:28"
     },
     {
       "id_pic": "Haussmann-64_9_1§17",
       "IndexJantzen": [
         "dome"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2009:09:28"
     },
     {
       "id_pic": "Haussmann-64_9_1§18",
       "IndexJantzen": [
         "dome"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:08:30"
     },
     {
       "id_pic": "Haussmann-64_9_1§2",
@@ -94,48 +147,62 @@
         "dome",
         "lucarne",
         "tourelle"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:03:28"
     },
     {
       "id_pic": "Haussmann-64_9_1§20",
       "IndexJantzen": [
         "dome",
         "tourelle"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:03:28"
     },
     {
       "id_pic": "Haussmann-64_9_1§21",
       "IndexJantzen": [
         "fenetre",
         "verrière"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2009:09:28"
     },
     {
       "id_pic": "Haussmann-64_9_1§22-Rs",
       "IndexJantzen": [
         "fenetre",
         "verrière"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2009:09:28"
     },
     {
       "id_pic": "Haussmann-64_9_1§23",
       "IndexJantzen": [
         "dome",
         "tourelle"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2012:07:23"
     },
     {
       "id_pic": "Haussmann-64_9_1§24",
       "IndexJantzen": [
         "dome",
         "tourelle"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2010:04:28"
     },
     {
       "id_pic": "Haussmann-64_9_1§25",
       "IndexJantzen": [
         "dome"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:06:16"
     },
     {
       "id_pic": "Haussmann-64_9_1§26",
@@ -144,7 +211,9 @@
         "lucarne",
         "oeil-de-boeuf",
         "tourelle"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:06:16"
     },
     {
       "id_pic": "Haussmann-64_9_1§27",
@@ -153,7 +222,9 @@
         "lucarne",
         "oeil-de-boeuf",
         "tourelle"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2009:09:28"
     },
     {
       "id_pic": "Haussmann-64_9_1§28",
@@ -161,7 +232,9 @@
         "dome",
         "lucarne",
         "oeil-de-boeuf"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2010:04:28"
     },
     {
       "id_pic": "Haussmann-64_9_1§29",
@@ -170,7 +243,9 @@
         "décor",
         "fenetre-d'angle",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:03:28"
     },
     {
       "id_pic": "Haussmann-64_9_1§30",
@@ -179,7 +254,35 @@
         "décor",
         "fenetre-d'angle",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [
+        "dôme",
+        "coupole",
+        "épi de faîtage",
+        "colonne",
+        "pilastre",
+        "sculpture",
+        "cariatide",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "arc en plein cintre",
+        "arc",
+        "fronton",
+        "corniche",
+        "frise",
+        "chapiteau",
+        "baie",
+        "fenêtre",
+        "oculus",
+        "pierre de taille",
+        "mascaron",
+        "verrière",
+        "grille",
+        "édicule",
+        "attique"
+      ],
+      "dateCapture": "2014:03:06"
     },
     {
       "id_pic": "Haussmann-64_9_1§31",
@@ -188,7 +291,9 @@
         "décor",
         "fenetre-d'angle",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:08:30"
     },
     {
       "id_pic": "Haussmann-64_9_1§33",
@@ -197,7 +302,9 @@
         "décor",
         "fenetre-d'angle",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2010:04:28"
     },
     {
       "id_pic": "Haussmann-64_9_1§37",
@@ -207,7 +314,9 @@
         "fenetre-d'angle",
         "sculpture",
         "tourelle"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2009:07:13"
     },
     {
       "id_pic": "Haussmann-64_9_1§38",
@@ -217,35 +326,45 @@
         "fenetre-d'angle",
         "sculpture",
         "tourelle"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2009:07:13"
     },
     {
       "id_pic": "Haussmann-64_9_1§40",
       "IndexJantzen": [
         "fenetre-d'angle",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2009:09:28"
     },
     {
       "id_pic": "Haussmann-64_9_1§42",
       "IndexJantzen": [
         "fenetre-d'angle",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2009:09:28"
     },
     {
       "id_pic": "Haussmann-64_9_1§44",
       "IndexJantzen": [
         "fenetre-d'angle",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2010:04:28"
     },
     {
       "id_pic": "Haussmann-64_9_1§45",
       "IndexJantzen": [
         "fenetre",
         "garde-corps"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2009:09:28"
     },
     {
       "id_pic": "Haussmann-64_9_1§46",
@@ -253,26 +372,34 @@
         "fenetre-d'angle",
         "mosaique",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:08:30"
     },
     {
       "id_pic": "Haussmann-64_9_1§47",
       "IndexJantzen": [
         "fenetre-d'angle",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2010:04:28"
     },
     {
       "id_pic": "Haussmann-64_9_1§48",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2009:09:28"
     },
     {
       "id_pic": "Haussmann-64_9_1§49",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2010:04:28"
     },
     {
       "id_pic": "Haussmann-64_9_1§4-Rx",
@@ -281,62 +408,82 @@
         "fenetre",
         "sculpture",
         "verrière"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2012:07:23"
     },
     {
       "id_pic": "Haussmann-64_9_1§50",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2009:09:28"
     },
     {
       "id_pic": "Haussmann-64_9_1§51",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2010:04:28"
     },
     {
       "id_pic": "Haussmann-64_9_1§52",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2009:09:28"
     },
     {
       "id_pic": "Haussmann-64_9_1§53",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2009:07:13"
     },
     {
       "id_pic": "Haussmann-64_9_1§54",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2010:04:28"
     },
     {
       "id_pic": "Haussmann-64_9_1§55",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2009:09:28"
     },
     {
       "id_pic": "Haussmann-64_9_1§56",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2010:04:28"
     },
     {
       "id_pic": "Haussmann-64_9_1§58",
       "IndexJantzen": [
         "toiture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2009:09:28"
     },
     {
       "id_pic": "Haussmann-64_9_1§59",
       "IndexJantzen": [
         "lucarne",
         "toiture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2009:07:13"
     },
     {
       "id_pic": "Haussmann-64_9_1§5-Rx",
@@ -345,19 +492,25 @@
         "fenetre",
         "sculpture",
         "verrière"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2012:07:23"
     },
     {
       "id_pic": "Haussmann-64_9_1§6",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2014:03:06"
     },
     {
       "id_pic": "Haussmann-64_9_1§60",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2009:07:13"
     },
     {
       "id_pic": "Haussmann-64_9_1§61-Rs",
@@ -365,14 +518,18 @@
         "fenetre",
         "lucarne",
         "verrière"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2009:09:28"
     },
     {
       "id_pic": "Haussmann-64_9_1§62",
       "IndexJantzen": [
         "fenetre",
         "verrière"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2009:09:28"
     },
     {
       "id_pic": "Haussmann-64_9_1§63",
@@ -380,7 +537,9 @@
         "fenetre",
         "métal",
         "verrière"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2009:09:28"
     },
     {
       "id_pic": "Haussmann-64_9_1§65",
@@ -389,7 +548,9 @@
         "fenetre",
         "lucarne",
         "mosaique"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2009:07:13"
     },
     {
       "id_pic": "Haussmann-64_9_1§67-Rs",
@@ -398,39 +559,51 @@
         "lucarne",
         "mosaique",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2009:09:28"
     },
     {
       "id_pic": "Haussmann-64_9_1§68",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:05:26"
     },
     {
       "id_pic": "Haussmann-64_9_1§69",
       "IndexJantzen": [
         "décor",
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2012:05:13"
     },
     {
       "id_pic": "Haussmann-64_9_1§69B",
       "IndexJantzen": [
         "décor",
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2010:04:28"
     },
     {
       "id_pic": "Haussmann-64_9_1§70",
       "IndexJantzen": [
         "dome"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2009:09:28"
     },
     {
       "id_pic": "Haussmann-64_9_1§71",
       "IndexJantzen": [
         "dome"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:02:17"
     },
     {
       "id_pic": "Haussmann-64_9_1§72",
@@ -438,7 +611,9 @@
         "décor",
         "lucarne",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2009:07:13"
     },
     {
       "id_pic": "Haussmann-64_9_1§73",
@@ -446,13 +621,17 @@
         "décor",
         "lucarne",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2009:09:28"
     },
     {
       "id_pic": "Haussmann-64_9_1§74",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:02:17"
     },
     {
       "id_pic": "Haussmann-64_9_1§75",
@@ -460,7 +639,9 @@
         "dome",
         "décor",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2009:07:13"
     },
     {
       "id_pic": "Haussmann-64_9_1§76",
@@ -468,7 +649,9 @@
         "dome",
         "décor",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2009:07:13"
     },
     {
       "id_pic": "Haussmann-64_9_1§77",
@@ -476,7 +659,9 @@
         "dome",
         "décor",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:02:17"
     },
     {
       "id_pic": "Haussmann-64_9_1§78",
@@ -484,19 +669,25 @@
         "dome",
         "décor",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:02:17"
     },
     {
       "id_pic": "Haussmann-64_9_1§7-Rx",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2012:07:23"
     },
     {
       "id_pic": "Haussmann-64_9_1§8",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2014:03:06"
     },
     {
       "id_pic": "Haussmann-64_9_1§80",
@@ -505,13 +696,17 @@
         "décor",
         "sculpture",
         "tourelle"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:02:17"
     },
     {
       "id_pic": "Haussmann-64_9_1§81",
       "IndexJantzen": [
         "dome"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:07:14"
     },
     {
       "id_pic": "Haussmann-64_9_1§82",
@@ -521,7 +716,9 @@
         "fenetre",
         "mosaique",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2014:03:06"
     },
     {
       "id_pic": "Haussmann-64_9_1§83",
@@ -530,38 +727,50 @@
         "décor",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2009:07:13"
     },
     {
       "id_pic": "Haussmann-64_9_1§84",
       "IndexJantzen": [
         "colonne",
         "mosaique"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2009:07:13"
     },
     {
       "id_pic": "Haussmann-64_9_1§89",
       "IndexJantzen": [
         "dome"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:03:28"
     },
     {
       "id_pic": "Haussmann-64_9_1§8b",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2012:07:23"
     },
     {
       "id_pic": "Haussmann-64_9_1§9",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2014:03:06"
     },
     {
       "id_pic": "Haussmann-64_9_1§9b",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2012:07:23"
     }
   ]
 }

@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 221,
+      "personneID": 329,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "avenue Kléber"
   },
   "arrondissement": 16,
+  "tri_alphab": "Kleber",
   "coordonnees": {
     "latitude": "48.867979",
     "longitude": "2.291117"
@@ -30,13 +31,38 @@
     "clé",
     "porte-fer"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "porte-fenêtre",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Kleber-47b_16_§1",
       "IndexJantzen": [
         "clé",
         "porte-fer"
-      ]
+      ],
+      "IndexTorneh": [
+        "porte",
+        "porte-fenêtre",
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "sculpture",
+        "mascaron",
+        "arc en plein cintre",
+        "pierre de taille",
+        "vantail"
+      ],
+      "dateCapture": "2005:03:16"
     }
   ]
 }

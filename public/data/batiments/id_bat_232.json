@@ -4,8 +4,12 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 6,
+      "personneID": 74,
       "role": "architecte"
+    },
+    {
+      "personneID": 10095,
+      "role": "sculpteur"
     }
   ],
   "dateConstruction": "1910",
@@ -18,6 +22,7 @@
     "voie": "rue du Colonel-Moll"
   },
   "arrondissement": 17,
+  "tri_alphab": "Colonel-Moll",
   "coordonnees": {
     "latitude": "48.876737",
     "longitude": "2.290879"
@@ -27,11 +32,32 @@
   "WPfr": null,
   "image_ref": "Colonel-Moll-1_17_§1",
   "terme_jantzen_bat": [
-    "façade",
-    "fenetre",
-    "fenetre-d'angle",
     "balcon",
+    "fenetre-d'angle",
+    "fenetre",
+    "façade",
     "garde-corps"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "bossage",
+    "chéneau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "modillon",
+    "oriel",
+    "pierre de taille",
+    "toit à deux versants",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -39,20 +65,46 @@
       "IndexJantzen": [
         "balcon",
         "fenetre-d'angle"
-      ]
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "lucarne",
+        "mansarde",
+        "ardoise",
+        "mascaron",
+        "corniche",
+        "bandeau",
+        "pierre de taille",
+        "fer forgé",
+        "oriel",
+        "toit à deux versants",
+        "modillon",
+        "volet",
+        "bossage",
+        "chéneau",
+        "travée"
+      ],
+      "dateCapture": "2004:10:02"
     },
     {
       "id_pic": "Colonel-Moll-1_17_§2",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2010:03:20"
     },
     {
       "id_pic": "Colonel-Moll-1_17_§3",
       "IndexJantzen": [
         "fenetre",
         "garde-corps"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2010:03:20"
     }
   ]
 }

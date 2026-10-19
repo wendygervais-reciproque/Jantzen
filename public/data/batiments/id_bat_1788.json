@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 691,
+      "personneID": 940,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "place Étienne-Pernet"
   },
   "arrondissement": 15,
+  "tri_alphab": "Etienne-Pernet-pl",
   "coordonnees": {
     "latitude": "48.842862",
     "longitude": "2.291835"
@@ -25,23 +26,41 @@
   "id_pss": 12336,
   "id_wikidata": null,
   "WPfr": null,
-  "image_ref": "Etienne-Pernet-pl-24_15_§10",
+  "image_ref": "Etienne-Pernet-pl-24_15_§13",
   "terme_jantzen_bat": [
-    "lucarne",
-    "façade-d'angle",
     "toiture",
-    "garde-corps",
-    "porte-fer",
-    "fenetre",
-    "lucarne-d'angle",
-    "décor",
     "dome",
-    "fenetre-d'angle",
-    "sculpture",
-    "console",
     "balcon",
+    "façade-d'angle",
+    "porte-fer",
+    "sculpture",
+    "oriel",
+    "fenetre-d'angle",
+    "fenetre",
+    "console",
+    "lucarne",
     "porte-fer-hall",
-    "oriel"
+    "lucarne-d'angle",
+    "garde-corps",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "auvent",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "oriel",
+    "pierre de taille",
+    "sculpture",
+    "souche de cheminée",
+    "tour",
+    "travée"
   ],
   "photos": [
     {
@@ -49,14 +68,18 @@
       "IndexJantzen": [
         "fenetre",
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:09:05"
     },
     {
       "id_pic": "Etienne-Pernet-pl-24_15_§11",
       "IndexJantzen": [
         "fenetre",
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:07:13"
     },
     {
       "id_pic": "Etienne-Pernet-pl-24_15_§12",
@@ -64,7 +87,9 @@
         "dome",
         "fenetre-d'angle",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:04:21"
     },
     {
       "id_pic": "Etienne-Pernet-pl-24_15_§13",
@@ -73,7 +98,26 @@
         "décor",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "lucarne",
+        "souche de cheminée",
+        "oriel",
+        "tour",
+        "pierre de taille",
+        "sculpture",
+        "ardoise",
+        "dôme",
+        "bandeau",
+        "travée",
+        "auvent"
+      ],
+      "dateCapture": "2007:09:05"
     },
     {
       "id_pic": "Etienne-Pernet-pl-24_15_§15",
@@ -82,7 +126,9 @@
         "fenetre",
         "oriel",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:07:13"
     },
     {
       "id_pic": "Etienne-Pernet-pl-24_15_§16",
@@ -90,19 +136,25 @@
         "balcon",
         "fenetre",
         "oriel"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:07:13"
     },
     {
       "id_pic": "Etienne-Pernet-pl-24_15_§17",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:07:13"
     },
     {
       "id_pic": "Etienne-Pernet-pl-24_15_§18",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:09:05"
     },
     {
       "id_pic": "Etienne-Pernet-pl-24_15_§19",
@@ -110,14 +162,18 @@
         "fenetre",
         "oriel",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:09:05"
     },
     {
       "id_pic": "Etienne-Pernet-pl-24_15_§2",
       "IndexJantzen": [
         "dome",
         "façade-d'angle"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:07:13"
     },
     {
       "id_pic": "Etienne-Pernet-pl-24_15_§20",
@@ -125,96 +181,124 @@
         "fenetre",
         "garde-corps",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:09:05"
     },
     {
       "id_pic": "Etienne-Pernet-pl-24_15_§21",
       "IndexJantzen": [
         "balcon",
         "garde-corps"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:09:05"
     },
     {
       "id_pic": "Etienne-Pernet-pl-24_15_§22",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:09:05"
     },
     {
       "id_pic": "Etienne-Pernet-pl-24_15_§23",
       "IndexJantzen": [
         "balcon",
         "garde-corps"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:09:05"
     },
     {
       "id_pic": "Etienne-Pernet-pl-24_15_§24",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:07:13"
     },
     {
       "id_pic": "Etienne-Pernet-pl-24_15_§25",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:09:05"
     },
     {
       "id_pic": "Etienne-Pernet-pl-24_15_§26",
       "IndexJantzen": [
         "porte-fer-hall"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:07:13"
     },
     {
       "id_pic": "Etienne-Pernet-pl-24_15_§27",
       "IndexJantzen": [
         "porte-fer"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:07:13"
     },
     {
       "id_pic": "Etienne-Pernet-pl-24_15_§3",
       "IndexJantzen": [
         "dome",
         "façade-d'angle"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:09:05"
     },
     {
       "id_pic": "Etienne-Pernet-pl-24_15_§4",
       "IndexJantzen": [
         "dome",
         "façade-d'angle"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:09:05"
     },
     {
       "id_pic": "Etienne-Pernet-pl-24_15_§5",
       "IndexJantzen": [
         "fenetre-d'angle",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:09:05"
     },
     {
       "id_pic": "Etienne-Pernet-pl-24_15_§6",
       "IndexJantzen": [
         "fenetre-d'angle",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:09:05"
     },
     {
       "id_pic": "Etienne-Pernet-pl-24_15_§7",
       "IndexJantzen": [
         "fenetre-d'angle",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:09:05"
     },
     {
       "id_pic": "Etienne-Pernet-pl-24_15_§8",
       "IndexJantzen": [
         "balcon",
         "fenetre-d'angle"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:07:13"
     },
     {
       "id_pic": "Etienne-Pernet-pl-24_15_§9",
@@ -222,7 +306,9 @@
         "dome",
         "lucarne-d'angle",
         "toiture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:09:05"
     }
   ]
 }

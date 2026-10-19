@@ -1,11 +1,7 @@
-/**
- * lightbox.js — Visionneuse plein écran partagée par les deux points d'entrée
- * du volet détail (mosaic-detail.js) : la galerie de photographies du bâtiment
- * et, sans navigation, le portrait isolé d'une personne liée.
- */
+/** lightbox.js — Visionneuse plein écran de la galerie du volet détail (mosaic-detail.js). */
 
-let lightboxPerson  = null;     // {src, caption} — portrait isolé, sans navigation
 let lightboxGallery = null;     // {photos:[{src,caption}], index} — galerie du volet détail
+let lightboxTrigger  = null;    // vignette par laquelle on est entré — pour lui rendre le focus à la fermeture
 
 /* ─── OUVERTURE / FERMETURE ─────────────────────────────────────────────── */
 
@@ -15,44 +11,34 @@ function isLightboxOpen() {
 }
 
 /**
- * Ouvre la visionneuse sur une image isolée (portrait d'une personne liée au
- * bâtiment), sans navigation puisqu'il n'y a qu'une seule image.
- */
-function openPersonLightbox(src, { name, wikidataUrl }) {
-  const box = document.getElementById('lightbox');
-  if (!box || !src) return;
-  lightboxPerson = { src, name, wikidataUrl };
-  lightboxGallery = null;
-  box.hidden = false;
-  renderLightbox();
-  document.getElementById('lightbox-close')?.focus();
-}
-
-/**
- * Ouvre la visionneuse sur la galerie du volet détail, avec navigation prev/next.
+ * Ouvre la visionneuse sur une galerie, avec navigation prev/next.
  * @param {{src, caption}[]} photos
  * @param {number} index
  */
 function openGalleryLightbox(photos, index) {
   const box = document.getElementById('lightbox');
   if (!box || !Array.isArray(photos) || photos.length === 0) return;
-  lightboxPerson  = null;
+  lightboxTrigger = document.activeElement instanceof HTMLElement ? document.activeElement : null;
   lightboxGallery = { photos, index: Math.max(0, Math.min(index, photos.length - 1)) };
   box.hidden = false;
   renderLightbox();
+  setBackgroundInert(true);
   document.getElementById('lightbox-close')?.focus();
 }
 
 function closeLightbox() {
   const box = document.getElementById('lightbox');
   if (box) box.hidden = true;
-  lightboxPerson = lightboxGallery = null;
+  lightboxGallery = null;
+  setBackgroundInert(false);
+  if (lightboxTrigger && document.body.contains(lightboxTrigger)) lightboxTrigger.focus();
+  lightboxTrigger = null;
 }
 
 /* ─── NAVIGATION ────────────────────────────────────────────────────────── */
 
 function stepPhoto(delta) {
-  if (!lightboxGallery) return;   // portrait isolé, ou visionneuse fermée : pas de navigation
+  if (!lightboxGallery) return;   // visionneuse fermée : pas de navigation
   const n = lightboxGallery.photos.length;
   lightboxGallery.index = Math.max(0, Math.min(lightboxGallery.index + delta, n - 1));
   renderLightbox();
@@ -66,40 +52,74 @@ function renderLightbox() {
   const next    = document.getElementById('lightbox-next');
   if (!img) return;
 
-  if (lightboxPerson) {
-    img.src = lightboxPerson.src;
-    img.onerror = null;
-
-    if (prev) prev.disabled = true;
-    if (next) next.disabled = true;
-
-    if (caption) {
-      caption.innerHTML = ''; // reset propre avant reconstruction
-      caption.append(lightboxPerson.name || '');
-
-      if (lightboxPerson.wikidataUrl) {
-        caption.append(' © ');
-        const link = document.createElement('a');
-        link.href        = lightboxPerson.wikidataUrl;
-        link.target      = '_blank';
-        link.rel         = 'noopener noreferrer';
-        link.textContent = 'Wikidata';
-        link.classList.add('credit-link')
-        caption.appendChild(link);
-      }
-    }
-    return;
-  }
-
   if (!lightboxGallery) return;
 
   const { photos, index } = lightboxGallery;
   const item = photos[index];
-  img.src = item.src;
-  img.onerror = function () { retryUppercaseJpg(this); };
-  if (caption) {
-    caption.textContent = `${index + 1} / ${photos.length}${item.caption ? ' — ' + item.caption : ''} © Eric Jantzen`;
+  img.classList.remove('img-broken');
+  setImageSources(img, item.srcs || [item.src]);
+  if (caption) renderLightboxCaption(caption, item, index, photos.length);
+
+  if (photos.length > 1) {
+    if (prev) {
+      prev.style.display = ''; 
+      prev.disabled = index <= 0;
+    }
+    if (next) {
+      next.style.display = ''; 
+      next.disabled = index >= photos.length - 1;
+    }
+  } else {
+    // Une seule photo : pas de flèches
+    if (prev) prev.style.display = 'none';
+    if (next) next.style.display = 'none';
   }
-  if (prev) prev.disabled = index <= 0;
-  if (next) next.disabled = index >= photos.length - 1;
+}
+
+function renderLightboxCaption(caption, item, index, total) {
+  caption.textContent = '';
+  caption.append(`${index + 1} / ${total}`);
+
+  const terms = Array.isArray(item.terms) ? item.terms : [];
+  if (terms.length > 0) {
+    caption.append(' — ');
+    terms.forEach((term, i) => {
+      const btn = document.createElement('button');
+      btn.type      = 'button';
+      btn.className = 'lightbox-term-link';
+      btn.textContent = capitalize(term);
+      btn.setAttribute('aria-label', `Filtrer les bâtiments avec le terme « ${capitalize(term)} »`);
+      btn.onclick = () => filterByThesaurusTermFromLightbox(term);
+      caption.appendChild(btn);
+      if (i < terms.length - 1) caption.append(' · ');
+    });
+  }
+
+  const formattedDate = item.dateCapture
+    ? item.dateCapture.replace(/^(\d{4}):(\d{2}):(\d{2})$/, '$3/$2/$1')
+    : '';
+  if (formattedDate) caption.append(` — ${formattedDate}`);
+
+  caption.append(' — © Eric Jantzen ');
+}
+
+function filterByThesaurusTermFromLightbox(term) {
+  if (!term || typeof activeFilters === 'undefined') return;
+
+  // Réinitialise tous les filtres
+  activeFilters.arrondissements.clear();
+  activeFilters.thesaurus.clear();
+  activeFilters.architectes.clear();
+  activeFilters.periodes.clear();
+
+  document.querySelectorAll('.chip').forEach(c => {
+    c.classList.remove('active');
+    c.setAttribute('aria-pressed', 'false');
+  });
+
+  activeFilters.thesaurus.add(term);
+
+  closeLightbox();
+  if (typeof deselectBatiment === 'function') deselectBatiment();
+  if (typeof applyFilters === 'function') applyFilters();
 }

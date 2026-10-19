@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 310,
+      "personneID": 432,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "avenue Émile-Deschanel"
   },
   "arrondissement": 7,
+  "tri_alphab": "Emile-Deschanel",
   "coordonnees": {
     "latitude": "48.856072",
     "longitude": "2.301592"
@@ -27,14 +28,30 @@
   "WPfr": null,
   "image_ref": "Emile-Deschanel-11_7_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "décor",
-    "sculpture",
-    "porte-fer-hall",
-    "balcon",
     "loggia",
+    "balcon",
+    "sculpture",
+    "fenetre",
+    "garde-corps",
+    "porte-fer-hall",
     "colonne",
-    "garde-corps"
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chapiteau corinthien",
+    "colonne",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "pierre de taille",
+    "porte-fenêtre",
+    "sculpture"
   ],
   "photos": [
     {
@@ -45,14 +62,33 @@
         "fenetre",
         "loggia",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "colonne",
+        "chapiteau corinthien",
+        "corniche",
+        "fenêtre",
+        "porte-fenêtre",
+        "mascaron",
+        "pierre de taille",
+        "fer forgé",
+        "ardoise",
+        "sculpture",
+        "bandeau"
+      ],
+      "dateCapture": "2006:03:27"
     },
     {
       "id_pic": "Emile-Deschanel-11_7_§2",
       "IndexJantzen": [
         "fenetre",
         "garde-corps"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:03:27"
     },
     {
       "id_pic": "Emile-Deschanel-11_7_§3",
@@ -61,13 +97,17 @@
         "décor",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:04:26"
     },
     {
       "id_pic": "Emile-Deschanel-11_7_§4",
       "IndexJantzen": [
         "porte-fer-hall"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:04:26"
     }
   ]
 }

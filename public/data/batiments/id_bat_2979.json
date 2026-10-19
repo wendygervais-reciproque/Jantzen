@@ -13,6 +13,7 @@
     "voie": "rue Jouffroy-d'Abbans"
   },
   "arrondissement": 17,
+  "tri_alphab": "Jouffroy-d'Abbans",
   "coordonnees": {
     "latitude": "48.884813",
     "longitude": "2.306787"
@@ -25,18 +26,65 @@
     "façade",
     "porte-fer"
   ],
+  "terme_torneh_bat": [
+    "arc brisé",
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "linteau",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oriel",
+    "pierre de taille",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Jouffroy-d'Abbans-53_17_§1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "lucarne",
+        "mansarde",
+        "arc en plein cintre",
+        "arc brisé",
+        "mascaron",
+        "sculpture",
+        "souche de cheminée",
+        "pierre de taille",
+        "toit à deux versants",
+        "oriel",
+        "fer forgé",
+        "corniche",
+        "travée",
+        "volet",
+        "linteau",
+        "chambranle"
+      ],
+      "dateCapture": "2015:10:08"
     },
     {
       "id_pic": "Jouffroy-d'Abbans-53_17_§3",
       "IndexJantzen": [
         "porte-fer"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:06:16"
     }
   ]
 }

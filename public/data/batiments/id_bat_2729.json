@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 221,
+      "personneID": 329,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue de la Clef"
   },
   "arrondissement": 5,
+  "tri_alphab": "Clef",
   "coordonnees": {
     "latitude": "48.842685",
     "longitude": "2.3528"
@@ -27,8 +28,21 @@
   "WPfr": null,
   "image_ref": "Clef-46_5_§1",
   "terme_jantzen_bat": [
-    "console",
-    "sculpture"
+    "sculpture",
+    "console"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bossage",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "pierre de taille",
+    "sculpture",
+    "volet"
   ],
   "photos": [
     {
@@ -36,7 +50,21 @@
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [
+        "balustrade",
+        "balcon",
+        "corniche",
+        "mascaron",
+        "sculpture",
+        "pierre de taille",
+        "fenêtre",
+        "volet",
+        "garde-corps",
+        "fer forgé",
+        "bossage"
+      ],
+      "dateCapture": "2005:06:08"
     }
   ]
 }

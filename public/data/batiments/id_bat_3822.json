@@ -13,6 +13,7 @@
     "voie": "rue Fénelon"
   },
   "arrondissement": 10,
+  "tri_alphab": "Fenelon",
   "coordonnees": {
     "latitude": "48.878725",
     "longitude": "2.351318"
@@ -22,14 +23,38 @@
   "WPfr": null,
   "image_ref": "Fenelon-9_10_§1",
   "terme_jantzen_bat": [
+    "pilastre",
+    "clé",
+    "fenetre",
     "façade",
     "céramique",
-    "fenetre",
-    "décor",
-    "clé",
+    "garde-corps",
     "porte-bois",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chapiteau",
+    "corniche",
+    "céramique",
+    "fenêtre",
+    "fer forgé",
+    "frise",
+    "garde-corps",
+    "grille",
+    "mascaron",
+    "oculus",
     "pilastre",
-    "garde-corps"
+    "porte",
+    "porte-fenêtre",
+    "sculpture",
+    "travée",
+    "verrière",
+    "vitrail",
+    "volet"
   ],
   "photos": [
     {
@@ -37,7 +62,32 @@
       "IndexJantzen": [
         "céramique",
         "façade"
-      ]
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "garde-corps",
+        "mascaron",
+        "pilastre",
+        "chapiteau",
+        "porte",
+        "porte-fenêtre",
+        "volet",
+        "fer forgé",
+        "céramique",
+        "corniche",
+        "bandeau",
+        "arc en plein cintre",
+        "verrière",
+        "frise",
+        "sculpture",
+        "travée",
+        "oculus",
+        "grille",
+        "vitrail"
+      ],
+      "dateCapture": "2004:09:23"
     },
     {
       "id_pic": "Fenelon-9_10_§2",
@@ -46,7 +96,9 @@
         "décor",
         "fenetre",
         "pilastre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:09:23"
     },
     {
       "id_pic": "Fenelon-9_10_§3",
@@ -55,27 +107,35 @@
         "décor",
         "fenetre",
         "garde-corps"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:09:23"
     },
     {
       "id_pic": "Fenelon-9_10_§4",
       "IndexJantzen": [
         "décor",
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:07:11"
     },
     {
       "id_pic": "Fenelon-9_10_§5",
       "IndexJantzen": [
         "clé",
         "décor"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:07:11"
     },
     {
       "id_pic": "Fenelon-9_10_§6",
       "IndexJantzen": [
         "porte-bois"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:09:24"
     }
   ]
 }

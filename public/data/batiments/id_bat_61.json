@@ -2,13 +2,19 @@
   "id_bat": 61,
   "libelle": "Église de la Sainte-Trinité",
   "ensemble": null,
-  "personnes": null,
+  "personnes": [
+    {
+      "personneID": 36,
+      "role": "architecte"
+    }
+  ],
   "dateConstruction": "1863-1867",
   "periode": [
     "1850-1869"
   ],
   "adresse": null,
   "arrondissement": 9,
+  "tri_alphab": "Ste-Trinite",
   "coordonnees": {
     "latitude": "48.877301423190914",
     "longitude": "2.3314081609446666"
@@ -21,18 +27,67 @@
     "façade",
     "tourelle"
   ],
+  "terme_torneh_bat": [
+    "arc brisé",
+    "arc en plein cintre",
+    "arcade",
+    "balustrade",
+    "chapiteau",
+    "colonne",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fronton",
+    "mur-boutant",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "portail",
+    "porte",
+    "sculpture",
+    "tour",
+    "verrière",
+    "vitrail",
+    "épi de faîtage"
+  ],
   "photos": [
     {
       "id_pic": "Ste-Trinite_9_§1-Rs",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [
+        "tour",
+        "dôme",
+        "oculus",
+        "fenêtre",
+        "arc en plein cintre",
+        "arcade",
+        "colonne",
+        "pilastre",
+        "chapiteau",
+        "corniche",
+        "balustrade",
+        "fronton",
+        "sculpture",
+        "portail",
+        "porte",
+        "pierre de taille",
+        "arc brisé",
+        "verrière",
+        "vitrail",
+        "épi de faîtage",
+        "mur-boutant"
+      ],
+      "dateCapture": "2011:04:19"
     },
     {
       "id_pic": "Ste-Trinite_9_§2",
       "IndexJantzen": [
         "tourelle"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:08:26"
     }
   ]
 }

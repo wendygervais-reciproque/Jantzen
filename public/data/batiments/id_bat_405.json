@@ -4,8 +4,12 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 231,
+      "personneID": 345,
       "role": "architecte"
+    },
+    {
+      "personneID": 10107,
+      "role": "sculpteur"
     }
   ],
   "dateConstruction": "1899",
@@ -18,6 +22,7 @@
     "voie": "boulevard Malesherbes"
   },
   "arrondissement": 17,
+  "tri_alphab": "Malesherbes",
   "coordonnees": {
     "latitude": "48.881863",
     "longitude": "2.3116"
@@ -28,8 +33,25 @@
   "image_ref": "Malesherbes-106_17_§1",
   "terme_jantzen_bat": [
     "brique",
+    "fronton",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "acrotère",
+    "ardoise",
+    "brique",
+    "chapiteau",
+    "chéneau",
+    "corniche",
+    "faîtage",
+    "fenêtre",
+    "frise",
+    "fronton",
     "lucarne",
-    "fronton"
+    "pierre de taille",
+    "pilastre",
+    "souche de cheminée",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -38,7 +60,25 @@
         "brique",
         "fronton",
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [
+        "lucarne",
+        "souche de cheminée",
+        "épi de faîtage",
+        "ardoise",
+        "brique",
+        "pierre de taille",
+        "fronton",
+        "corniche",
+        "frise",
+        "fenêtre",
+        "pilastre",
+        "acrotère",
+        "chapiteau",
+        "faîtage",
+        "chéneau"
+      ],
+      "dateCapture": "2006:01:25"
     },
     {
       "id_pic": "Malesherbes-106_17_§2",
@@ -46,7 +86,9 @@
         "brique",
         "fronton",
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:01:25"
     }
   ]
 }

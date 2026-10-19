@@ -2,7 +2,16 @@
   "id_bat": 1980,
   "libelle": "28 rue des Belles-Feuilles",
   "ensemble": null,
-  "personnes": null,
+  "personnes": [
+    {
+      "personneID": 843,
+      "role": "architecte"
+    },
+    {
+      "personneID": 10063,
+      "role": "sculpteur"
+    }
+  ],
   "dateConstruction": "1912",
   "periode": [
     "1895-1914"
@@ -13,6 +22,7 @@
     "voie": "rue des Belles-Feuilles"
   },
   "arrondissement": 16,
+  "tri_alphab": "Belles-Feuilles",
   "coordonnees": {
     "latitude": "48.867177",
     "longitude": "2.281812"
@@ -24,12 +34,53 @@
   "terme_jantzen_bat": [
     "fenetre"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "colonne",
+    "corniche",
+    "fenêtre",
+    "fer",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "oculus",
+    "oriel",
+    "pierre de taille",
+    "sculpture",
+    "souche de cheminée",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Belles-Feuilles-28_16_§1",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "volet",
+        "oriel",
+        "bandeau",
+        "corniche",
+        "sculpture",
+        "mascaron",
+        "pierre de taille",
+        "ardoise",
+        "souche de cheminée",
+        "arc en plein cintre",
+        "oculus",
+        "colonne",
+        "fer"
+      ],
+      "dateCapture": "2004:05:21"
     }
   ]
 }

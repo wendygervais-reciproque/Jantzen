@@ -4,7 +4,19 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 277,
+      "personneID": 696,
+      "role": "architecte"
+    },
+    {
+      "personneID": 695,
+      "role": "architecte"
+    },
+    {
+      "personneID": 313,
+      "role": "architecte"
+    },
+    {
+      "personneID": 404,
       "role": "architecte"
     }
   ],
@@ -18,6 +30,7 @@
     "voie": "rue Déodat-de-Séverac"
   },
   "arrondissement": 17,
+  "tri_alphab": "Deodat-Severac",
   "coordonnees": {
     "latitude": "48.886287",
     "longitude": "2.311011"
@@ -27,61 +40,126 @@
   "WPfr": null,
   "image_ref": "Deodat-Severac-14_17_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "lucarne",
     "porte-fer-hall",
-    "loggia"
+    "loggia",
+    "fenetre",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "arcade",
+    "auvent",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chapiteau",
+    "colonne",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porte-fenêtre",
+    "sculpture",
+    "souche de cheminée",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Deodat-Severac-14_17_§1",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "porte-fenêtre",
+        "arc en plein cintre",
+        "arcade",
+        "colonne",
+        "pilastre",
+        "chapiteau",
+        "corniche",
+        "bandeau",
+        "mascaron",
+        "lucarne",
+        "mansarde",
+        "souche de cheminée",
+        "pierre de taille",
+        "sculpture",
+        "travée",
+        "auvent",
+        "oculus",
+        "volet"
+      ],
+      "dateCapture": "2008:11:01"
     },
     {
       "id_pic": "Deodat-Severac-14_17_§2",
       "IndexJantzen": [
         "loggia"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:07:05"
     },
     {
       "id_pic": "Deodat-Severac-14_17_§3",
       "IndexJantzen": [
         "loggia"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:11:01"
     },
     {
       "id_pic": "Deodat-Severac-14_17_§4",
       "IndexJantzen": [
         "fenetre",
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:07:05"
     },
     {
       "id_pic": "Deodat-Severac-14_17_§5",
       "IndexJantzen": [
         "fenetre",
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:11:01"
     },
     {
       "id_pic": "Deodat-Severac-14_17_§6",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:11:01"
     },
     {
       "id_pic": "Deodat-Severac-14_17_§7",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:11:01"
     },
     {
       "id_pic": "Deodat-Severac-14_17_§8",
       "IndexJantzen": [
         "porte-fer-hall"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:07:05"
     }
   ]
 }

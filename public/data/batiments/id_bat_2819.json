@@ -1,0 +1,93 @@
+{
+  "id_bat": 2819,
+  "libelle": "5 place Victor-Hugo",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": null,
+  "adresse": {
+    "affichage": "5 place Victor-Hugo",
+    "numero": "5",
+    "voie": "place Victor-Hugo"
+  },
+  "arrondissement": 16,
+  "tri_alphab": "Victor-Hugo-pl",
+  "coordonnees": {
+    "latitude": "48.869275",
+    "longitude": "2.285698"
+  },
+  "id_pss": null,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": "Victor-Hugo-pl-5_16_§1",
+  "terme_jantzen_bat": [
+    "façade",
+    "lucarne-d'angle",
+    "toiture"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "oculus",
+    "pierre de taille",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "épi de faîtage"
+  ],
+  "photos": [
+    {
+      "id_pic": "Victor-Hugo-pl-5_16_§1",
+      "IndexJantzen": [
+        "façade"
+      ],
+      "IndexTorneh": [
+        "dôme",
+        "mansarde",
+        "lucarne",
+        "souche de cheminée",
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "garde-corps",
+        "bandeau",
+        "corniche",
+        "oculus",
+        "épi de faîtage",
+        "ardoise",
+        "pierre de taille",
+        "toit à deux versants",
+        "fer forgé",
+        "travée"
+      ],
+      "dateCapture": "2006:06:30"
+    },
+    {
+      "id_pic": "Victor-Hugo-pl-5_16_§2",
+      "IndexJantzen": [
+        "lucarne-d'angle",
+        "toiture"
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:06:30"
+    },
+    {
+      "id_pic": "Victor-Hugo-pl-5_16_§3",
+      "IndexJantzen": [
+        "lucarne-d'angle",
+        "toiture"
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:06:30"
+    }
+  ]
+}

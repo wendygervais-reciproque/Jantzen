@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 404,
+      "personneID": 537,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "avenue Denfert-Rochereau"
   },
   "arrondissement": 14,
+  "tri_alphab": "Denfert-Rochereau",
   "coordonnees": {
     "latitude": "48.835318",
     "longitude": "2.333635"
@@ -29,12 +30,35 @@
   "terme_jantzen_bat": [
     "porte-fer-hall"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "chambranle",
+    "fenêtre",
+    "fer forgé",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Denfert-Rochereau-87_14_§1",
       "IndexJantzen": [
         "porte-fer-hall"
-      ]
+      ],
+      "IndexTorneh": [
+        "porte",
+        "fer forgé",
+        "mascaron",
+        "balcon",
+        "pierre de taille",
+        "chambranle",
+        "sculpture",
+        "vantail",
+        "fenêtre"
+      ],
+      "dateCapture": "2005:05:09"
     }
   ]
 }

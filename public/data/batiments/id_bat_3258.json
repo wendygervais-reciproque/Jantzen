@@ -2,7 +2,12 @@
   "id_bat": 3258,
   "libelle": "63 avenue Niel",
   "ensemble": null,
-  "personnes": null,
+  "personnes": [
+    {
+      "personneID": 247,
+      "role": "architecte"
+    }
+  ],
   "dateConstruction": "1913",
   "periode": [
     "1895-1914"
@@ -13,6 +18,7 @@
     "voie": "avenue Niel"
   },
   "arrondissement": 17,
+  "tri_alphab": "Niel",
   "coordonnees": {
     "latitude": "48.881927",
     "longitude": "2.295649"
@@ -22,30 +28,63 @@
   "WPfr": null,
   "image_ref": "Niel-63_17_§1",
   "terme_jantzen_bat": [
-    "intérieur",
-    "porte-fer",
+    "porte-fer-hall",
     "lucarne-d'angle",
-    "porte-fer-hall"
+    "intérieur",
+    "porte-fer"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "chapiteau corinthien",
+    "colonne",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fronton",
+    "lucarne",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "épi de faîtage"
   ],
   "photos": [
     {
       "id_pic": "Niel-63_17_§1",
       "IndexJantzen": [
         "lucarne-d'angle"
-      ]
+      ],
+      "IndexTorneh": [
+        "dôme",
+        "épi de faîtage",
+        "lucarne",
+        "oculus",
+        "colonne",
+        "chapiteau corinthien",
+        "corniche",
+        "fronton",
+        "mascaron",
+        "pierre de taille",
+        "fenêtre",
+        "arc en plein cintre"
+      ],
+      "dateCapture": "2009:07:13"
     },
     {
       "id_pic": "Niel-63_17_§2",
       "IndexJantzen": [
         "porte-fer-hall"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:03:17"
     },
     {
       "id_pic": "Niel-63_17_§3",
       "IndexJantzen": [
         "intérieur",
         "porte-fer"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": null
     }
   ]
 }

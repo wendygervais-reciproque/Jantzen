@@ -13,6 +13,7 @@
     "voie": "place de Breteuil"
   },
   "arrondissement": 15,
+  "tri_alphab": "Breteuil-pl",
   "coordonnees": {
     "latitude": "48.847379",
     "longitude": "2.310744"
@@ -22,10 +23,34 @@
   "WPfr": null,
   "image_ref": "Breteuil-pl-4_15_§1",
   "terme_jantzen_bat": [
-    "porte-bois",
+    "lucarne-d'angle",
     "dome",
     "fronton",
-    "lucarne-d'angle"
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porte-fenêtre",
+    "sculpture",
+    "souche de cheminée",
+    "travée",
+    "volet",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -33,14 +58,41 @@
       "IndexJantzen": [
         "dome",
         "lucarne-d'angle"
-      ]
+      ],
+      "IndexTorneh": [
+        "épi de faîtage",
+        "dôme",
+        "lucarne",
+        "souche de cheminée",
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "porte-fenêtre",
+        "balustrade",
+        "mansarde",
+        "pierre de taille",
+        "sculpture",
+        "mascaron",
+        "fronton",
+        "oculus",
+        "volet",
+        "ardoise",
+        "corniche",
+        "pilastre",
+        "arc en plein cintre",
+        "travée"
+      ],
+      "dateCapture": "2006:04:11"
     },
     {
       "id_pic": "Breteuil-pl-4_15_§2",
       "IndexJantzen": [
         "dome",
         "lucarne-d'angle"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:04:06"
     },
     {
       "id_pic": "Breteuil-pl-4_15_§4",
@@ -48,7 +100,9 @@
         "dome",
         "fronton",
         "lucarne-d'angle"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:04:06"
     },
     {
       "id_pic": "Breteuil-pl-4_15_§5",
@@ -56,7 +110,9 @@
         "dome",
         "fronton",
         "lucarne-d'angle"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:07:17"
     },
     {
       "id_pic": "Breteuil-pl-4_15_§6",
@@ -64,7 +120,9 @@
         "dome",
         "fronton",
         "lucarne-d'angle"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:04:06"
     },
     {
       "id_pic": "Breteuil-pl-4_15_§7",
@@ -72,19 +130,25 @@
         "dome",
         "fronton",
         "lucarne-d'angle"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:04:11"
     },
     {
       "id_pic": "Breteuil-pl-4_15_§8",
       "IndexJantzen": [
         "porte-bois"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:04:11"
     },
     {
       "id_pic": "Breteuil-pl-4_15_§9",
       "IndexJantzen": [
         "porte-bois"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:04:06"
     }
   ]
 }

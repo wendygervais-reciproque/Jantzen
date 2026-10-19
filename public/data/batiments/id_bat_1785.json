@@ -1,0 +1,82 @@
+{
+  "id_bat": 1785,
+  "libelle": "24 boulevard Marguerite-de-Rochechouart",
+  "ensemble": null,
+  "personnes": [
+    {
+      "personneID": 249,
+      "role": "architecte"
+    },
+    {
+      "personneID": 508,
+      "role": "architecte"
+    }
+  ],
+  "dateConstruction": null,
+  "periode": [
+    "1915-1944"
+  ],
+  "adresse": {
+    "affichage": "24 boulevard Marguerite-de-Rochechouart",
+    "numero": "24",
+    "voie": "boulevard Marguerite-de-Rochechouart"
+  },
+  "arrondissement": 18,
+  "tri_alphab": "Rochechouard-bd",
+  "coordonnees": {
+    "latitude": "48.883763",
+    "longitude": "2.348068"
+  },
+  "id_pss": 89493,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": "Rochechouard-bd-24_18_§1",
+  "terme_jantzen_bat": [
+    "toiture",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "chéneau",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "oculus",
+    "pierre de taille",
+    "porte-fenêtre"
+  ],
+  "photos": [
+    {
+      "id_pic": "Rochechouard-bd-24_18_§1",
+      "IndexJantzen": [
+        "lucarne",
+        "toiture"
+      ],
+      "IndexTorneh": [
+        "lucarne",
+        "mansarde",
+        "ardoise",
+        "arc en plein cintre",
+        "porte-fenêtre",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "pierre de taille",
+        "oculus",
+        "chéneau"
+      ],
+      "dateCapture": "2008:03:05"
+    },
+    {
+      "id_pic": "Rochechouard-bd-24_18_§2",
+      "IndexJantzen": [
+        "lucarne"
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:03:05"
+    }
+  ]
+}

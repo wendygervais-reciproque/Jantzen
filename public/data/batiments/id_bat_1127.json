@@ -1,0 +1,106 @@
+{
+  "id_bat": 1127,
+  "libelle": "16 rue d'Enghien",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": null,
+  "adresse": {
+    "affichage": "16 rue d'Enghien",
+    "numero": "16",
+    "voie": "rue d'Enghien"
+  },
+  "arrondissement": 10,
+  "tri_alphab": "Enghien",
+  "coordonnees": {
+    "latitude": "48.871918",
+    "longitude": "2.351758"
+  },
+  "id_pss": 14880,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": "Enghien-16_10_§1",
+  "terme_jantzen_bat": [
+    "sculpture",
+    "fenetre",
+    "brique",
+    "colonne",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc brisé",
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "chapiteau",
+    "chapiteau corinthien",
+    "colonne",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "linteau",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "volet"
+  ],
+  "photos": [
+    {
+      "id_pic": "Enghien-16_10_§1",
+      "IndexJantzen": [
+        "brique",
+        "décor",
+        "fenetre",
+        "sculpture"
+      ],
+      "IndexTorneh": [
+        "arc en plein cintre",
+        "arc brisé",
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "brique",
+        "pierre de taille",
+        "colonne",
+        "chapiteau corinthien",
+        "corniche",
+        "bandeau",
+        "fer forgé",
+        "volet",
+        "mascaron",
+        "pilastre",
+        "chapiteau",
+        "linteau",
+        "oculus"
+      ],
+      "dateCapture": "2008:08:19"
+    },
+    {
+      "id_pic": "Enghien-16_10_§2",
+      "IndexJantzen": [
+        "brique",
+        "décor",
+        "fenetre",
+        "sculpture"
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:08:19"
+    },
+    {
+      "id_pic": "Enghien-16_10_§3",
+      "IndexJantzen": [
+        "brique",
+        "colonne",
+        "décor",
+        "fenetre"
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:08:19"
+    }
+  ]
+}

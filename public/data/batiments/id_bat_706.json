@@ -4,8 +4,16 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 435,
+      "personneID": 582,
       "role": "architecte"
+    },
+    {
+      "personneID": 10156,
+      "role": "sculpteur"
+    },
+    {
+      "personneID": 10054,
+      "role": "sculpteur"
     }
   ],
   "dateConstruction": "1715",
@@ -18,6 +26,7 @@
     "voie": "rue du Bac"
   },
   "arrondissement": 7,
+  "tri_alphab": "Bac",
   "coordonnees": {
     "latitude": "48.852375",
     "longitude": "2.32353"
@@ -27,10 +36,29 @@
   "WPfr": null,
   "image_ref": "Bac-120_7_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "porte-bois",
+    "sculpture",
     "clé",
-    "sculpture"
+    "fenetre",
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "chambranle",
+    "fenêtre",
+    "fronton",
+    "grille",
+    "gros appareil",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "sculpture",
+    "vantail",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -38,42 +66,72 @@
       "IndexJantzen": [
         "fenetre",
         "porte-bois"
-      ]
+      ],
+      "IndexTorneh": [
+        "portail",
+        "porte",
+        "vantail",
+        "sculpture",
+        "mascaron",
+        "fronton",
+        "grille",
+        "fenêtre",
+        "gros appareil",
+        "pierre de taille",
+        "arc en plein cintre",
+        "mansarde",
+        "lucarne",
+        "chambranle",
+        "ardoise",
+        "épi de faîtage",
+        "balcon"
+      ],
+      "dateCapture": "2005:04:17"
     },
     {
       "id_pic": "Bac-120_7_§2",
       "IndexJantzen": [
         "fenetre",
         "porte-bois"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:04:17"
     },
     {
       "id_pic": "Bac-120_7_§3",
       "IndexJantzen": [
         "clé",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:04:17"
     },
     {
       "id_pic": "Bac-120_7_§4",
       "IndexJantzen": [
         "clé",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:04:17"
     },
     {
       "id_pic": "Bac-120_7_§5",
       "IndexJantzen": [
         "porte-bois",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:04:17"
     },
     {
       "id_pic": "Bac-120_7_§6",
       "IndexJantzen": [
         "porte-bois",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:04:17"
     }
   ]
 }

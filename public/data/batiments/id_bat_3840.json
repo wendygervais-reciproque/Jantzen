@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 533,
+      "personneID": 713,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue Pillet-Will"
   },
   "arrondissement": 9,
+  "tri_alphab": "Pillet-Will",
   "coordonnees": {
     "latitude": "48.873271",
     "longitude": "2.33617"
@@ -27,20 +28,77 @@
   "WPfr": null,
   "image_ref": "Pillet-Will-9_9_§1",
   "terme_jantzen_bat": [
+    "sculpture",
+    "fenetre",
     "lucarne",
     "façade",
     "fronton",
-    "fenetre",
-    "décor",
-    "sculpture",
-    "colonne"
+    "colonne",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chapiteau",
+    "chéneau",
+    "colonne",
+    "corniche",
+    "entablement",
+    "fenêtre",
+    "fer forgé",
+    "frise",
+    "fronton",
+    "grille",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "toit à deux versants",
+    "vantail",
+    "épi de faîtage"
   ],
   "photos": [
     {
       "id_pic": "Pillet-Will-9_9_§1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "colonne",
+        "pilastre",
+        "corniche",
+        "fronton",
+        "mansarde",
+        "lucarne",
+        "arc en plein cintre",
+        "arc",
+        "chapiteau",
+        "entablement",
+        "fer forgé",
+        "grille",
+        "porte",
+        "ardoise",
+        "pierre de taille",
+        "chéneau",
+        "oculus",
+        "mascaron",
+        "frise",
+        "bandeau",
+        "épi de faîtage",
+        "vantail",
+        "toit à deux versants"
+      ],
+      "dateCapture": "2008:04:17"
     },
     {
       "id_pic": "Pillet-Will-9_9_§2",
@@ -48,21 +106,27 @@
         "décor",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:04:17"
     },
     {
       "id_pic": "Pillet-Will-9_9_§3",
       "IndexJantzen": [
         "colonne",
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:04:17"
     },
     {
       "id_pic": "Pillet-Will-9_9_§4",
       "IndexJantzen": [
         "fronton",
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:04:17"
     }
   ]
 }

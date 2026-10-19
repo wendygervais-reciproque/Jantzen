@@ -4,7 +4,11 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 83,
+      "personneID": 557,
+      "role": "architecte"
+    },
+    {
+      "personneID": 133,
       "role": "architecte"
     }
   ],
@@ -18,6 +22,7 @@
     "voie": "boulevard Bessières"
   },
   "arrondissement": 17,
+  "tri_alphab": "Bessieres-bd",
   "coordonnees": {
     "latitude": "48.89447",
     "longitude": "2.31452"
@@ -30,13 +35,40 @@
     "colonne",
     "porte-fer"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "fer forgé",
+    "frise",
+    "garde-corps",
+    "linteau",
+    "perron",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Bessieres-bd-123_17_§1",
       "IndexJantzen": [
         "colonne",
         "porte-fer"
-      ]
+      ],
+      "IndexTorneh": [
+        "porte",
+        "vantail",
+        "fer forgé",
+        "pilastre",
+        "frise",
+        "sculpture",
+        "balcon",
+        "garde-corps",
+        "pierre de taille",
+        "linteau",
+        "perron"
+      ],
+      "dateCapture": "2004:10:03"
     }
   ]
 }

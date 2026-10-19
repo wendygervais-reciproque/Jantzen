@@ -13,6 +13,7 @@
     "voie": "rue de l'Abbaye"
   },
   "arrondissement": 6,
+  "tri_alphab": "Abbaye",
   "coordonnees": {
     "latitude": "48.854021",
     "longitude": "2.336018"
@@ -22,10 +23,25 @@
   "WPfr": null,
   "image_ref": "Abbaye-2_6_§1",
   "terme_jantzen_bat": [
-    "lucarne",
     "façade",
     "toiture",
-    "voie"
+    "voie",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "pierre de taille",
+    "porte",
+    "souche de cheminée",
+    "travée",
+    "tuile",
+    "volet"
   ],
   "photos": [
     {
@@ -33,14 +49,32 @@
       "IndexJantzen": [
         "façade",
         "voie"
-      ]
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "mansarde",
+        "lucarne",
+        "garde-corps",
+        "ardoise",
+        "souche de cheminée",
+        "porte",
+        "tuile",
+        "balcon",
+        "pierre de taille",
+        "volet",
+        "fer forgé",
+        "travée"
+      ],
+      "dateCapture": "2006:05:11"
     },
     {
       "id_pic": "Abbaye-2_6_§2_Dx",
       "IndexJantzen": [
         "lucarne",
         "toiture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2012:05:13"
     }
   ]
 }

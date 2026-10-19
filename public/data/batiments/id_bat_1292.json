@@ -2,7 +2,12 @@
   "id_bat": 1292,
   "libelle": "18 rue de l'Amiral-Hamelin",
   "ensemble": null,
-  "personnes": null,
+  "personnes": [
+    {
+      "personneID": 377,
+      "role": "architecte"
+    }
+  ],
   "dateConstruction": null,
   "periode": [
     "1895-1914"
@@ -13,6 +18,7 @@
     "voie": "rue de l'Amiral-Hamelin"
   },
   "arrondissement": 16,
+  "tri_alphab": "Amiral-Hamelin",
   "coordonnees": {
     "latitude": "48.866655",
     "longitude": "2.292423"
@@ -22,11 +28,27 @@
   "WPfr": null,
   "image_ref": "Amiral-Hamelin-18_16_§1",
   "terme_jantzen_bat": [
+    "balcon",
     "sculpture",
     "console",
+    "garde-corps",
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
     "balcon",
-    "porte-bois",
-    "garde-corps"
+    "balustrade",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer",
+    "fer forgé",
+    "frise",
+    "garde-corps",
+    "mascaron",
+    "pierre de taille",
+    "porte-fenêtre",
+    "sculpture"
   ],
   "photos": [
     {
@@ -36,13 +58,32 @@
         "console",
         "garde-corps",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "porte-fenêtre",
+        "arc en plein cintre",
+        "mascaron",
+        "sculpture",
+        "corniche",
+        "frise",
+        "pierre de taille",
+        "chambranle",
+        "fer"
+      ],
+      "dateCapture": "2004:10:25"
     },
     {
       "id_pic": "Amiral-Hamelin-18_16_§2",
       "IndexJantzen": [
         "porte-bois"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:10:25"
     }
   ]
 }

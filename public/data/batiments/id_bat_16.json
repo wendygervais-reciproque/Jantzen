@@ -4,7 +4,7 @@
   "ensemble": "Opéra Garnier",
   "personnes": [
     {
-      "personneID": 121,
+      "personneID": 385,
       "role": "architecte"
     }
   ],
@@ -14,6 +14,7 @@
   ],
   "adresse": null,
   "arrondissement": 9,
+  "tri_alphab": "Opera-Garnier",
   "coordonnees": {
     "latitude": "48.871881",
     "longitude": "2.331147"
@@ -21,24 +22,47 @@
   "id_pss": 3933,
   "id_wikidata": "Q187840",
   "WPfr": "Opéra Garnier",
-  "image_ref": "Opera-Garnier_9_Auber§10",
+  "image_ref": "Opera-Garnier_9_Auber§24-Rx",
   "terme_jantzen_bat": [
-    "porte",
+    "oeil-de-boeuf",
+    "loggia",
+    "dome",
+    "balcon",
+    "pilastre",
+    "sculpture",
+    "cariatide",
+    "fenetre",
     "lucarne",
     "façade",
     "fronton",
+    "porte",
     "lucarne-d'angle",
-    "fenetre",
-    "oeil-de-boeuf",
-    "décor",
-    "dome",
-    "sculpture",
-    "cariatide",
-    "balcon",
-    "loggia",
     "colonne",
     "porte-bois",
-    "pilastre"
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "attique",
+    "balcon",
+    "balustrade",
+    "chapiteau corinthien",
+    "colonne",
+    "corniche",
+    "coupole",
+    "dôme",
+    "entablement",
+    "fenêtre",
+    "frise",
+    "fronton",
+    "garde-corps",
+    "grille",
+    "gros appareil",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "sculpture",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -47,7 +71,9 @@
         "colonne",
         "pilastre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2003:07:14"
     },
     {
       "id_pic": "Opera-Garnier_9_Auber§11",
@@ -55,27 +81,35 @@
         "fenetre",
         "fronton",
         "porte"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2014:10:03"
     },
     {
       "id_pic": "Opera-Garnier_9_Auber§13-Rs",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:02:10"
     },
     {
       "id_pic": "Opera-Garnier_9_Auber§14",
       "IndexJantzen": [
         "cariatide",
         "porte-bois"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2014:10:03"
     },
     {
       "id_pic": "Opera-Garnier_9_Auber§15",
       "IndexJantzen": [
         "cariatide",
         "porte-bois"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:09:13"
     },
     {
       "id_pic": "Opera-Garnier_9_Auber§17",
@@ -83,32 +117,42 @@
         "cariatide",
         "porte-bois",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:02:10"
     },
     {
       "id_pic": "Opera-Garnier_9_Auber§18",
       "IndexJantzen": [
         "cariatide",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:02:10"
     },
     {
       "id_pic": "Opera-Garnier_9_Auber§19",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2014:10:03"
     },
     {
       "id_pic": "Opera-Garnier_9_Auber§1-tt-Rx",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2011:05:25"
     },
     {
       "id_pic": "Opera-Garnier_9_Auber§20",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:06:29"
     },
     {
       "id_pic": "Opera-Garnier_9_Auber§21",
@@ -116,7 +160,9 @@
         "cariatide",
         "porte-bois",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:06:29"
     },
     {
       "id_pic": "Opera-Garnier_9_Auber§22",
@@ -124,20 +170,48 @@
         "cariatide",
         "porte-bois",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:09:13"
     },
     {
       "id_pic": "Opera-Garnier_9_Auber§23-Rx",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2012:05:13"
     },
     {
       "id_pic": "Opera-Garnier_9_Auber§24-Rx",
       "IndexJantzen": [
         "dome",
         "façade"
-      ]
+      ],
+      "IndexTorneh": [
+        "coupole",
+        "dôme",
+        "colonne",
+        "chapiteau corinthien",
+        "corniche",
+        "entablement",
+        "fronton",
+        "balustrade",
+        "balcon",
+        "fenêtre",
+        "oculus",
+        "sculpture",
+        "mascaron",
+        "pilastre",
+        "frise",
+        "garde-corps",
+        "grille",
+        "pierre de taille",
+        "épi de faîtage",
+        "attique",
+        "gros appareil"
+      ],
+      "dateCapture": "2012:05:13"
     },
     {
       "id_pic": "Opera-Garnier_9_Auber§25",
@@ -146,7 +220,9 @@
         "décor",
         "façade",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2014:10:03"
     },
     {
       "id_pic": "Opera-Garnier_9_Auber§26",
@@ -155,79 +231,103 @@
         "décor",
         "façade",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2014:10:03"
     },
     {
       "id_pic": "Opera-Garnier_9_Auber§27",
       "IndexJantzen": [
         "dome",
         "façade"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:09:18"
     },
     {
       "id_pic": "Opera-Garnier_9_Auber§29",
       "IndexJantzen": [
         "dome",
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:06:29"
     },
     {
       "id_pic": "Opera-Garnier_9_Auber§2-Rx",
       "IndexJantzen": [
         "colonne",
         "loggia"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2011:05:25"
     },
     {
       "id_pic": "Opera-Garnier_9_Auber§30-Rx",
       "IndexJantzen": [
         "dome",
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2011:05:25"
     },
     {
       "id_pic": "Opera-Garnier_9_Auber§31",
       "IndexJantzen": [
         "dome",
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:09:04"
     },
     {
       "id_pic": "Opera-Garnier_9_Auber§32",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2011:05:25"
     },
     {
       "id_pic": "Opera-Garnier_9_Auber§32b",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2013:02:18"
     },
     {
       "id_pic": "Opera-Garnier_9_Auber§33",
       "IndexJantzen": [
         "colonne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:09:13"
     },
     {
       "id_pic": "Opera-Garnier_9_Auber§34",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:09:04"
     },
     {
       "id_pic": "Opera-Garnier_9_Auber§35",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2014:10:03"
     },
     {
       "id_pic": "Opera-Garnier_9_Auber§36-Rx",
       "IndexJantzen": [
         "fenetre",
         "fronton"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2011:05:25"
     },
     {
       "id_pic": "Opera-Garnier_9_Auber§37-Rx",
@@ -235,7 +335,9 @@
         "colonne",
         "fenetre",
         "fronton"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2011:05:25"
     },
     {
       "id_pic": "Opera-Garnier_9_Auber§38_1-Rx",
@@ -244,7 +346,9 @@
         "fenetre",
         "fronton",
         "pilastre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2013:02:18"
     },
     {
       "id_pic": "Opera-Garnier_9_Auber§39",
@@ -252,7 +356,9 @@
         "fenetre",
         "fronton",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2011:05:25"
     },
     {
       "id_pic": "Opera-Garnier_9_Auber§39b",
@@ -260,20 +366,26 @@
         "fenetre",
         "fronton",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2013:02:18"
     },
     {
       "id_pic": "Opera-Garnier_9_Auber§3-Rs",
       "IndexJantzen": [
         "colonne",
         "loggia"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:02:10"
     },
     {
       "id_pic": "Opera-Garnier_9_Auber§4",
       "IndexJantzen": [
         "balcon"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:07:14"
     },
     {
       "id_pic": "Opera-Garnier_9_Auber§40",
@@ -281,21 +393,27 @@
         "fenetre",
         "fronton",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:06:29"
     },
     {
       "id_pic": "Opera-Garnier_9_Auber§41",
       "IndexJantzen": [
         "dome",
         "lucarne-d'angle"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2011:05:25"
     },
     {
       "id_pic": "Opera-Garnier_9_Auber§42",
       "IndexJantzen": [
         "dome",
         "lucarne-d'angle"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2011:05:25"
     },
     {
       "id_pic": "Opera-Garnier_9_Auber§45-Rx",
@@ -303,7 +421,9 @@
         "dome",
         "lucarne",
         "oeil-de-boeuf"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2011:05:25"
     },
     {
       "id_pic": "Opera-Garnier_9_Auber§46",
@@ -311,21 +431,27 @@
         "dome",
         "lucarne",
         "oeil-de-boeuf"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2011:05:25"
     },
     {
       "id_pic": "Opera-Garnier_9_Auber§47",
       "IndexJantzen": [
         "dome",
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2011:05:25"
     },
     {
       "id_pic": "Opera-Garnier_9_Auber§49_1-Rx",
       "IndexJantzen": [
         "dome",
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2013:02:18"
     },
     {
       "id_pic": "Opera-Garnier_9_Auber§50",
@@ -333,7 +459,9 @@
         "dome",
         "lucarne",
         "oeil-de-boeuf"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2011:05:25"
     },
     {
       "id_pic": "Opera-Garnier_9_Auber§51",
@@ -341,7 +469,9 @@
         "dome",
         "lucarne",
         "oeil-de-boeuf"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2011:05:25"
     },
     {
       "id_pic": "Opera-Garnier_9_Auber§52",
@@ -349,7 +479,9 @@
         "dome",
         "lucarne",
         "oeil-de-boeuf"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:06:29"
     },
     {
       "id_pic": "Opera-Garnier_9_Auber§53",
@@ -357,7 +489,9 @@
         "dome",
         "lucarne",
         "oeil-de-boeuf"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2011:05:25"
     },
     {
       "id_pic": "Opera-Garnier_9_Auber§54",
@@ -365,7 +499,9 @@
         "dome",
         "lucarne",
         "oeil-de-boeuf"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:09:18"
     },
     {
       "id_pic": "Opera-Garnier_9_Auber§55",
@@ -373,7 +509,9 @@
         "dome",
         "lucarne",
         "oeil-de-boeuf"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:09:18"
     },
     {
       "id_pic": "Opera-Garnier_9_Auber§56",
@@ -381,7 +519,9 @@
         "dome",
         "lucarne",
         "oeil-de-boeuf"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2011:05:25"
     },
     {
       "id_pic": "Opera-Garnier_9_Auber§57_1-Rx",
@@ -389,7 +529,9 @@
         "dome",
         "lucarne",
         "oeil-de-boeuf"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2013:02:18"
     },
     {
       "id_pic": "Opera-Garnier_9_Auber§58",
@@ -397,7 +539,9 @@
         "dome",
         "lucarne",
         "oeil-de-boeuf"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:02:10"
     },
     {
       "id_pic": "Opera-Garnier_9_Auber§59",
@@ -405,7 +549,9 @@
         "dome",
         "lucarne",
         "oeil-de-boeuf"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:09:13"
     },
     {
       "id_pic": "Opera-Garnier_9_Auber§5-tt-Rx",
@@ -413,7 +559,9 @@
         "fenetre",
         "fronton",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2011:05:25"
     },
     {
       "id_pic": "Opera-Garnier_9_Auber§6",
@@ -421,7 +569,9 @@
         "fenetre",
         "pilastre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:08:26"
     },
     {
       "id_pic": "Opera-Garnier_9_Auber§60",
@@ -429,136 +579,178 @@
         "dome",
         "lucarne",
         "oeil-de-boeuf"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:02:10"
     },
     {
       "id_pic": "Opera-Garnier_9_Auber§62",
       "IndexJantzen": [
         "dome",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2011:05:25"
     },
     {
       "id_pic": "Opera-Garnier_9_Auber§63",
       "IndexJantzen": [
         "dome",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:06:29"
     },
     {
       "id_pic": "Opera-Garnier_9_Auber§64",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2014:10:03"
     },
     {
       "id_pic": "Opera-Garnier_9_Auber§65",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2014:10:03"
     },
     {
       "id_pic": "Opera-Garnier_9_Auber§66",
       "IndexJantzen": [
         "cariatide",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:09:18"
     },
     {
       "id_pic": "Opera-Garnier_9_Auber§67",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2012:05:13"
     },
     {
       "id_pic": "Opera-Garnier_9_Auber§68",
       "IndexJantzen": [
         "cariatide",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:09:18"
     },
     {
       "id_pic": "Opera-Garnier_9_Auber§69",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2012:05:13"
     },
     {
       "id_pic": "Opera-Garnier_9_Auber§7",
       "IndexJantzen": [
         "balcon",
         "pilastre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:06:29"
     },
     {
       "id_pic": "Opera-Garnier_9_Auber§70",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2012:05:14"
     },
     {
       "id_pic": "Opera-Garnier_9_Auber§72",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2014:10:03"
     },
     {
       "id_pic": "Opera-Garnier_9_Auber§73",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2014:10:03"
     },
     {
       "id_pic": "Opera-Garnier_9_Auber§74",
       "IndexJantzen": [
         "cariatide",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:09:18"
     },
     {
       "id_pic": "Opera-Garnier_9_Auber§75",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2014:10:03"
     },
     {
       "id_pic": "Opera-Garnier_9_Auber§76",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2014:10:03"
     },
     {
       "id_pic": "Opera-Garnier_9_Auber§77",
       "IndexJantzen": [
         "cariatide",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:09:18"
     },
     {
       "id_pic": "Opera-Garnier_9_Auber§78",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2014:10:03"
     },
     {
       "id_pic": "Opera-Garnier_9_Auber§79",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2014:10:03"
     },
     {
       "id_pic": "Opera-Garnier_9_Auber§8-Rx",
       "IndexJantzen": [
         "fronton",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2011:05:25"
     },
     {
       "id_pic": "Opera-Garnier_9_Auber§9-Rx",
       "IndexJantzen": [
         "fronton",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2011:05:25"
     }
   ]
 }

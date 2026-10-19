@@ -1,0 +1,80 @@
+{
+  "id_bat": 822,
+  "libelle": "131 boulevard de Sébastopol",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": null,
+  "adresse": {
+    "affichage": "131 boulevard de Sébastopol",
+    "numero": "131",
+    "voie": "boulevard de Sébastopol"
+  },
+  "arrondissement": 2,
+  "tri_alphab": "Sebastopol",
+  "coordonnees": {
+    "latitude": "48.868208",
+    "longitude": "2.353401"
+  },
+  "id_pss": null,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": "Sebastopol-131_2_§1",
+  "terme_jantzen_bat": [
+    "sculpture",
+    "clé",
+    "porte-bois",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "chambranle",
+    "fer forgé",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "vantail"
+  ],
+  "photos": [
+    {
+      "id_pic": "Sebastopol-131_2_§1",
+      "IndexJantzen": [
+        "porte-bois"
+      ],
+      "IndexTorneh": [
+        "porte",
+        "arc en plein cintre",
+        "vantail",
+        "sculpture",
+        "balcon",
+        "balustrade",
+        "fer forgé",
+        "pierre de taille",
+        "chambranle",
+        "mascaron"
+      ],
+      "dateCapture": "2005:08:28"
+    },
+    {
+      "id_pic": "Sebastopol-131_2_§2",
+      "IndexJantzen": [
+        "clé",
+        "porte-bois",
+        "sculpture"
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:08:28"
+    },
+    {
+      "id_pic": "Sebastopol-131_2_§3",
+      "IndexJantzen": [
+        "lucarne"
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:08:28"
+    }
+  ]
+}

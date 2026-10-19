@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 574,
+      "personneID": 755,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue Alphonse-de-Neuville"
   },
   "arrondissement": 17,
+  "tri_alphab": "Alphonse-de-Neuville",
   "coordonnees": {
     "latitude": "48.886318",
     "longitude": "2.302094"
@@ -27,13 +28,33 @@
   "WPfr": null,
   "image_ref": "Alphonse-de-Neuville-20_17_§2",
   "terme_jantzen_bat": [
-    "lucarne",
-    "fenetre",
-    "décor",
+    "loggia",
     "sculpture",
     "console",
-    "loggia",
-    "garde-corps"
+    "fenetre",
+    "lucarne",
+    "garde-corps",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "modillon",
+    "oculus",
+    "oriel",
+    "pierre de taille",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "volet"
   ],
   "photos": [
     {
@@ -41,20 +62,45 @@
       "IndexJantzen": [
         "fenetre",
         "loggia"
-      ]
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "lucarne",
+        "mansarde",
+        "mascaron",
+        "corniche",
+        "modillon",
+        "ardoise",
+        "pierre de taille",
+        "souche de cheminée",
+        "oriel",
+        "sculpture",
+        "volet",
+        "fer forgé",
+        "toit à deux versants",
+        "oculus"
+      ],
+      "dateCapture": "2004:07:05"
     },
     {
       "id_pic": "Alphonse-de-Neuville-20_17_§3",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:07:05"
     },
     {
       "id_pic": "Alphonse-de-Neuville-20_17_§4",
       "IndexJantzen": [
         "loggia",
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:07:05"
     },
     {
       "id_pic": "Alphonse-de-Neuville-20_17_§5",
@@ -62,26 +108,34 @@
         "décor",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:07:05"
     },
     {
       "id_pic": "Alphonse-de-Neuville-20_17_§6",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:07:05"
     },
     {
       "id_pic": "Alphonse-de-Neuville-20_17_§7",
       "IndexJantzen": [
         "console",
         "garde-corps"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:07:05"
     },
     {
       "id_pic": "Alphonse-de-Neuville-20_17_§8",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:07:05"
     }
   ]
 }

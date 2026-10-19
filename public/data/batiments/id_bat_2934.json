@@ -2,7 +2,16 @@
   "id_bat": 2934,
   "libelle": "51 rue de Belleville",
   "ensemble": null,
-  "personnes": null,
+  "personnes": [
+    {
+      "personneID": 171,
+      "role": "architecte"
+    },
+    {
+      "personneID": 10092,
+      "role": "sculpteur"
+    }
+  ],
   "dateConstruction": "1869",
   "periode": [
     "1850-1869"
@@ -13,6 +22,7 @@
     "voie": "rue de Belleville"
   },
   "arrondissement": 19,
+  "tri_alphab": "Belleville",
   "coordonnees": {
     "latitude": "48.873179",
     "longitude": "2.381094"
@@ -22,13 +32,33 @@
   "WPfr": null,
   "image_ref": "Belleville-51_19_§1",
   "terme_jantzen_bat": [
-    "porte",
-    "façade",
-    "fenetre",
+    "pilastre",
     "sculpture",
     "console",
-    "porte-bois",
-    "pilastre"
+    "fenetre",
+    "façade",
+    "porte",
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "linteau",
+    "marquise",
+    "mascaron",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "souche de cheminée",
+    "travée",
+    "vantail",
+    "volet"
   ],
   "photos": [
     {
@@ -36,20 +66,45 @@
       "IndexJantzen": [
         "façade",
         "porte"
-      ]
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "corniche",
+        "bandeau",
+        "chambranle",
+        "linteau",
+        "mascaron",
+        "porte",
+        "volet",
+        "vantail",
+        "pilastre",
+        "souche de cheminée",
+        "travée",
+        "pierre de taille",
+        "fer forgé",
+        "marquise"
+      ],
+      "dateCapture": "2006:04:20"
     },
     {
       "id_pic": "Belleville-51_19_§2",
       "IndexJantzen": [
         "façade",
         "porte"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:09:19"
     },
     {
       "id_pic": "Belleville-51_19_§3",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:09:19"
     },
     {
       "id_pic": "Belleville-51_19_§4",
@@ -57,27 +112,35 @@
         "fenetre",
         "pilastre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:09:19"
     },
     {
       "id_pic": "Belleville-51_19_§5",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:09:19"
     },
     {
       "id_pic": "Belleville-51_19_§6",
       "IndexJantzen": [
         "porte-bois"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:04:20"
     },
     {
       "id_pic": "Belleville-51_19_§7",
       "IndexJantzen": [
         "porte-bois",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:09:19"
     }
   ]
 }

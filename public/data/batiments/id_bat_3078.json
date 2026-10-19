@@ -13,6 +13,7 @@
     "voie": "rue de Vouillé"
   },
   "arrondissement": 15,
+  "tri_alphab": "Vouille",
   "coordonnees": {
     "latitude": "48.833549",
     "longitude": "2.309635"
@@ -22,13 +23,29 @@
   "WPfr": null,
   "image_ref": "Vouille-59_15_§1",
   "terme_jantzen_bat": [
-    "lucarne",
-    "céramique",
     "porte-fer",
-    "brique",
-    "fenetre",
     "pignon",
+    "fenetre",
+    "lucarne",
+    "brique",
+    "céramique",
     "colonne"
+  ],
+  "terme_torneh_bat": [
+    "acrotère",
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "brique",
+    "céramique",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "grille",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -38,7 +55,24 @@
         "fenetre",
         "lucarne",
         "pignon"
-      ]
+      ],
+      "IndexTorneh": [
+        "acrotère",
+        "arc en plein cintre",
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "garde-corps",
+        "grille",
+        "souche de cheminée",
+        "volet",
+        "brique",
+        "céramique",
+        "fer forgé",
+        "travée",
+        "porte-fenêtre"
+      ],
+      "dateCapture": "2004:03:29"
     },
     {
       "id_pic": "Vouille-59_15_§2",
@@ -46,7 +80,9 @@
         "brique",
         "fenetre",
         "pignon"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2009:03:16"
     },
     {
       "id_pic": "Vouille-59_15_§3",
@@ -54,14 +90,18 @@
         "colonne",
         "céramique",
         "porte-fer"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:03:29"
     },
     {
       "id_pic": "Vouille-59_15_§4",
       "IndexJantzen": [
         "colonne",
         "céramique"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:03:29"
     }
   ]
 }

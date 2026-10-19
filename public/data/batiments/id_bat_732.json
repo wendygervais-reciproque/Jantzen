@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 113,
+      "personneID": 10,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue Réaumur"
   },
   "arrondissement": 2,
+  "tri_alphab": "Reaumur",
   "coordonnees": {
     "latitude": "48.868138",
     "longitude": "2.344222"
@@ -27,12 +28,23 @@
   "WPfr": null,
   "image_ref": "Reaumur-124_2_§1",
   "terme_jantzen_bat": [
-    "métal",
-    "porte-fer",
-    "fenetre",
-    "console",
     "verrière",
-    "oriel"
+    "porte-fer",
+    "oriel",
+    "console",
+    "fenetre",
+    "métal"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "fenêtre",
+    "fer",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "oriel",
+    "souche de cheminée",
+    "toit-terrasse"
   ],
   "photos": [
     {
@@ -41,7 +53,19 @@
         "fenetre",
         "métal",
         "oriel"
-      ]
+      ],
+      "IndexTorneh": [
+        "oriel",
+        "lucarne",
+        "fenêtre",
+        "fer",
+        "balcon",
+        "garde-corps",
+        "souche de cheminée",
+        "toit-terrasse",
+        "mansarde"
+      ],
+      "dateCapture": "2004:08:21"
     },
     {
       "id_pic": "Reaumur-124_2_§2",
@@ -49,7 +73,9 @@
         "console",
         "métal",
         "oriel"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:08:21"
     },
     {
       "id_pic": "Reaumur-124_2_§3",
@@ -58,7 +84,9 @@
         "métal",
         "oriel",
         "verrière"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:04:25"
     },
     {
       "id_pic": "Reaumur-124_2_§4",
@@ -67,7 +95,9 @@
         "métal",
         "oriel",
         "verrière"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:08:21"
     },
     {
       "id_pic": "Reaumur-124_2_§5-Rs",
@@ -76,7 +106,9 @@
         "métal",
         "oriel",
         "verrière"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2011:05:07"
     },
     {
       "id_pic": "Reaumur-124_2_§6-Rs",
@@ -84,13 +116,17 @@
         "métal",
         "oriel",
         "verrière"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2011:05:07"
     },
     {
       "id_pic": "Reaumur-124_2_§7",
       "IndexJantzen": [
         "porte-fer"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2011:05:07"
     }
   ]
 }

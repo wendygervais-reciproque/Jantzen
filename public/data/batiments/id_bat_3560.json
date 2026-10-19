@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 642,
+      "personneID": 850,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue Boissière"
   },
   "arrondissement": 16,
+  "tri_alphab": "Boissiere",
   "coordonnees": {
     "latitude": "48.869143",
     "longitude": "2.286308"
@@ -27,11 +28,28 @@
   "WPfr": null,
   "image_ref": "Boissiere-78_16_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "sculpture",
     "console",
+    "fenetre",
     "colonne",
     "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "chapiteau",
+    "fer forgé",
+    "gros appareil",
+    "heurtoir",
+    "mascaron",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "porte-fenêtre",
+    "sculpture",
+    "vantail"
   ],
   "photos": [
     {
@@ -39,27 +57,51 @@
       "IndexJantzen": [
         "fenetre",
         "porte-bois"
-      ]
+      ],
+      "IndexTorneh": [
+        "arc en plein cintre",
+        "arc",
+        "porte",
+        "porte-fenêtre",
+        "balcon",
+        "balustrade",
+        "pierre de taille",
+        "chapiteau",
+        "pilastre",
+        "sculpture",
+        "mascaron",
+        "fer forgé",
+        "vantail",
+        "gros appareil",
+        "heurtoir"
+      ],
+      "dateCapture": "2005:04:30"
     },
     {
       "id_pic": "Boissiere-78_16_§2",
       "IndexJantzen": [
         "fenetre",
         "porte-bois"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:04:30"
     },
     {
       "id_pic": "Boissiere-78_16_§3",
       "IndexJantzen": [
         "porte-bois"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:04:30"
     },
     {
       "id_pic": "Boissiere-78_16_§4",
       "IndexJantzen": [
         "colonne",
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:04:30"
     },
     {
       "id_pic": "Boissiere-78_16_§5",
@@ -67,7 +109,9 @@
         "colonne",
         "console",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:04:30"
     }
   ]
 }

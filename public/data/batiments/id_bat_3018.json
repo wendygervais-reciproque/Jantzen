@@ -4,7 +4,11 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 195,
+      "personneID": 695,
+      "role": "architecte"
+    },
+    {
+      "personneID": 313,
       "role": "architecte"
     }
   ],
@@ -18,6 +22,7 @@
     "voie": "rue de Chabrol"
   },
   "arrondissement": 10,
+  "tri_alphab": "Chabrol",
   "coordonnees": {
     "latitude": "48.876969",
     "longitude": "2.351889"
@@ -28,8 +33,29 @@
   "image_ref": "Chabrol-∆-Hauteville_10_§1",
   "terme_jantzen_bat": [
     "façade",
-    "fenetre-d'angle",
-    "pilastre"
+    "pilastre",
+    "fenetre-d'angle"
+  ],
+  "terme_torneh_bat": [
+    "arc en anse de panier",
+    "ardoise",
+    "avant-corps",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
@@ -37,21 +63,47 @@
       "IndexJantzen": [
         "fenetre-d'angle",
         "pilastre"
-      ]
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "lucarne",
+        "mansarde",
+        "volet",
+        "pilastre",
+        "corniche",
+        "bandeau",
+        "mascaron",
+        "ardoise",
+        "fer forgé",
+        "pierre de taille",
+        "arc en anse de panier",
+        "oculus",
+        "travée",
+        "avant-corps",
+        "dôme"
+      ],
+      "dateCapture": "2004:06:28"
     },
     {
       "id_pic": "Chabrol-∆-Hauteville_10_§2",
       "IndexJantzen": [
         "fenetre-d'angle",
         "pilastre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:06:28"
     },
     {
       "id_pic": "Chabrol-∆-Hauteville_10_§3",
       "IndexJantzen": [
         "façade",
         "pilastre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:06:28"
     }
   ]
 }

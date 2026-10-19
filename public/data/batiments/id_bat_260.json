@@ -13,6 +13,7 @@
     "voie": "rue Rembrandt"
   },
   "arrondissement": 8,
+  "tri_alphab": "Rembrandt",
   "coordonnees": {
     "latitude": "48.876872",
     "longitude": "2.307939"
@@ -22,46 +23,97 @@
   "WPfr": null,
   "image_ref": "Rembrandt-1_8_§1",
   "terme_jantzen_bat": [
-    "lucarne",
+    "poignée-porte",
     "porte-bois",
-    "poignée-porte"
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "avant-corps",
+    "balcon",
+    "balustrade",
+    "corniche",
+    "fenêtre",
+    "frise",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mascaron",
+    "modillon",
+    "oculus",
+    "pilastre",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "épi de faîtage"
   ],
   "photos": [
     {
       "id_pic": "Rembrandt-1_8_§1",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [
+        "épi de faîtage",
+        "toit à deux versants",
+        "ardoise",
+        "lucarne",
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "mascaron",
+        "corniche",
+        "modillon",
+        "sculpture",
+        "pilastre",
+        "souche de cheminée",
+        "fronton",
+        "avant-corps",
+        "frise",
+        "oculus"
+      ],
+      "dateCapture": "2005:08:02"
     },
     {
       "id_pic": "Rembrandt-1_8_§2",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:08:02"
     },
     {
       "id_pic": "Rembrandt-1_8_§3",
       "IndexJantzen": [
         "porte-bois"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:08:02"
     },
     {
       "id_pic": "Rembrandt-1_8_§4",
       "IndexJantzen": [
         "porte-bois"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:08:02"
     },
     {
       "id_pic": "Rembrandt-1_8_§5",
       "IndexJantzen": [
         "poignée-porte"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:08:02"
     },
     {
       "id_pic": "Rembrandt-1_8_§6",
       "IndexJantzen": [
         "poignée-porte"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:08:02"
     }
   ]
 }

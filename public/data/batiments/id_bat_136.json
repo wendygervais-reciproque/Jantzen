@@ -10,6 +10,7 @@
   ],
   "adresse": null,
   "arrondissement": 1,
+  "tri_alphab": "Ste-Chapelle",
   "coordonnees": {
     "latitude": "48.855369",
     "longitude": "2.345028"
@@ -20,87 +21,132 @@
   "image_ref": "Ste-Chapelle_1_§1",
   "terme_jantzen_bat": [
     "toiture",
-    "intérieur",
-    "façade",
-    "fenetre",
-    "décor",
-    "sculpture",
+    "verrière",
     "tourelle",
-    "verrière"
+    "sculpture",
+    "intérieur",
+    "fenetre",
+    "façade",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc brisé",
+    "contrefort",
+    "faîtage",
+    "gargouille",
+    "pierre de taille",
+    "pilier",
+    "sculpture",
+    "vitrail",
+    "épi de faîtage"
   ],
   "photos": [
     {
       "id_pic": "Ste-Chapelle_1_§1",
       "IndexJantzen": [
         "toiture"
-      ]
+      ],
+      "IndexTorneh": [
+        "épi de faîtage",
+        "gargouille",
+        "sculpture",
+        "arc brisé",
+        "pierre de taille",
+        "contrefort",
+        "faîtage",
+        "vitrail",
+        "pilier",
+        "arc"
+      ],
+      "dateCapture": "2005:06:19"
     },
     {
       "id_pic": "Ste-Chapelle_1_§10_1-Rx",
       "IndexJantzen": [
         "intérieur",
         "verrière"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2013:11:13"
     },
     {
       "id_pic": "Ste-Chapelle_1_§11_1-Rx",
       "IndexJantzen": [
         "intérieur",
         "verrière"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2013:11:13"
     },
     {
       "id_pic": "Ste-Chapelle_1_§12_1-Rx",
       "IndexJantzen": [
         "intérieur",
         "verrière"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2013:11:13"
     },
     {
       "id_pic": "Ste-Chapelle_1_§3",
       "IndexJantzen": [
         "toiture",
         "tourelle"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2007:08:26"
     },
     {
       "id_pic": "Ste-Chapelle_1_§4",
       "IndexJantzen": [
         "toiture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:06:14"
     },
     {
       "id_pic": "Ste-Chapelle_1_§5",
       "IndexJantzen": [
         "toiture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:06:19"
     },
     {
       "id_pic": "Ste-Chapelle_1_§6",
       "IndexJantzen": [
         "décor",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:06:19"
     },
     {
       "id_pic": "Ste-Chapelle_1_§7_1-Rx",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2013:11:13"
     },
     {
       "id_pic": "Ste-Chapelle_1_§8_1-Rx",
       "IndexJantzen": [
         "fenetre",
         "verrière"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2013:11:13"
     },
     {
       "id_pic": "Ste-Chapelle_1_§9_1-Rx",
       "IndexJantzen": [
         "fenetre",
         "verrière"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2013:11:13"
     }
   ]
 }

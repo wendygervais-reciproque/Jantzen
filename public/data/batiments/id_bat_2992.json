@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 301,
+      "personneID": 424,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "boulevard Émile-Augier"
   },
   "arrondissement": 16,
+  "tri_alphab": "Emile-Augier",
   "coordonnees": {
     "latitude": "48.862792",
     "longitude": "2.272787"
@@ -27,8 +28,27 @@
   "WPfr": null,
   "image_ref": "Emile-Augier-54_16_§1",
   "terme_jantzen_bat": [
+    "dome",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
     "lucarne",
-    "dome"
+    "mascaron",
+    "oculus",
+    "oriel",
+    "pierre de taille",
+    "pilastre",
+    "tour",
+    "volet"
   ],
   "photos": [
     {
@@ -36,7 +56,27 @@
       "IndexJantzen": [
         "dome",
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [
+        "tour",
+        "dôme",
+        "ardoise",
+        "lucarne",
+        "oculus",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "volet",
+        "fronton",
+        "corniche",
+        "pilastre",
+        "mascaron",
+        "pierre de taille",
+        "fenêtre",
+        "oriel"
+      ],
+      "dateCapture": "2011:09:21"
     }
   ]
 }

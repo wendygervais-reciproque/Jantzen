@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 471,
+      "personneID": 631,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "boulevard Exelmans"
   },
   "arrondissement": 16,
+  "tri_alphab": "Exelmans",
   "coordonnees": {
     "latitude": "48.845511",
     "longitude": "2.258254"
@@ -27,9 +28,29 @@
   "WPfr": null,
   "image_ref": "Exelmans-105_16_§1",
   "terme_jantzen_bat": [
+    "toiture",
     "fenetre",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "brique",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
     "lucarne",
-    "toiture"
+    "mansarde",
+    "mascaron",
+    "pierre de taille",
+    "sculpture",
+    "souche de cheminée",
+    "triplet",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -37,7 +58,28 @@
       "IndexJantzen": [
         "fenetre",
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [
+        "lucarne",
+        "mansarde",
+        "épi de faîtage",
+        "souche de cheminée",
+        "ardoise",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "arc en plein cintre",
+        "brique",
+        "pierre de taille",
+        "corniche",
+        "sculpture",
+        "mascaron",
+        "fronton",
+        "triplet"
+      ],
+      "dateCapture": "2006:04:03"
     },
     {
       "id_pic": "Exelmans-105_16_§2",
@@ -45,13 +87,17 @@
         "fenetre",
         "lucarne",
         "toiture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:04:03"
     },
     {
       "id_pic": "Exelmans-105_16_§3",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:04:03"
     }
   ]
 }

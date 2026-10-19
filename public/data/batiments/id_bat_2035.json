@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 187,
+      "personneID": 250,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "avenue Mozart"
   },
   "arrondissement": 16,
+  "tri_alphab": "Mozart",
   "coordonnees": {
     "latitude": "48.857961",
     "longitude": "2.274323"
@@ -27,37 +28,84 @@
   "WPfr": null,
   "image_ref": "Mozart-3_16_§1",
   "terme_jantzen_bat": [
+    "oeil-de-boeuf",
+    "porte-fer",
+    "tourelle",
+    "sculpture",
+    "oriel",
+    "fenetre",
     "lucarne",
     "façade",
-    "porte-fer",
-    "fenetre",
-    "oeil-de-boeuf",
-    "décor",
-    "sculpture",
-    "tourelle",
     "poignée-porte",
     "porte-fer-hall",
-    "oriel"
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chéneau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oriel",
+    "pierre de taille",
+    "porte-fenêtre",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée"
   ],
   "photos": [
     {
       "id_pic": "Mozart-3_16_§1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [
+        "fenêtre",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "mansarde",
+        "lucarne",
+        "souche de cheminée",
+        "oriel",
+        "fronton",
+        "bandeau",
+        "corniche",
+        "pierre de taille",
+        "sculpture",
+        "mascaron",
+        "fer forgé",
+        "toit à deux versants",
+        "porte-fenêtre",
+        "travée",
+        "chéneau"
+      ],
+      "dateCapture": "2010:05:23"
     },
     {
       "id_pic": "Mozart-3_16_§10",
       "IndexJantzen": [
         "fenetre",
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2010:05:23"
     },
     {
       "id_pic": "Mozart-3_16_§11",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2010:05:23"
     },
     {
       "id_pic": "Mozart-3_16_§12",
@@ -65,20 +113,26 @@
         "décor",
         "lucarne",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:04:17"
     },
     {
       "id_pic": "Mozart-3_16_§13",
       "IndexJantzen": [
         "fenetre",
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2003:07:13"
     },
     {
       "id_pic": "Mozart-3_16_§14",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:04:17"
     },
     {
       "id_pic": "Mozart-3_16_§15",
@@ -86,19 +140,25 @@
         "décor",
         "lucarne",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:04:17"
     },
     {
       "id_pic": "Mozart-3_16_§16",
       "IndexJantzen": [
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:04:17"
     },
     {
       "id_pic": "Mozart-3_16_§17",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:07:24"
     },
     {
       "id_pic": "Mozart-3_16_§18",
@@ -106,7 +166,9 @@
         "fenetre",
         "oeil-de-boeuf",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2003:07:13"
     },
     {
       "id_pic": "Mozart-3_16_§19",
@@ -114,47 +176,61 @@
         "fenetre",
         "oeil-de-boeuf",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:07:24"
     },
     {
       "id_pic": "Mozart-3_16_§2",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2010:05:23"
     },
     {
       "id_pic": "Mozart-3_16_§22",
       "IndexJantzen": [
         "fenetre",
         "porte-fer"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2003:07:13"
     },
     {
       "id_pic": "Mozart-3_16_§23",
       "IndexJantzen": [
         "fenetre",
         "porte-fer-hall"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:07:25"
     },
     {
       "id_pic": "Mozart-3_16_§24",
       "IndexJantzen": [
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:05:12"
     },
     {
       "id_pic": "Mozart-3_16_§26",
       "IndexJantzen": [
         "porte-fer-hall"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:07:25"
     },
     {
       "id_pic": "Mozart-3_16_§27",
       "IndexJantzen": [
         "poignée-porte",
         "porte-fer"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2003:07:13"
     },
     {
       "id_pic": "Mozart-3_16_§3",
@@ -162,35 +238,45 @@
         "décor",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2010:05:23"
     },
     {
       "id_pic": "Mozart-3_16_§4",
       "IndexJantzen": [
         "fenetre",
         "tourelle"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2003:07:13"
     },
     {
       "id_pic": "Mozart-3_16_§5",
       "IndexJantzen": [
         "fenetre",
         "tourelle"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2010:05:23"
     },
     {
       "id_pic": "Mozart-3_16_§6",
       "IndexJantzen": [
         "fenetre",
         "tourelle"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:04:17"
     },
     {
       "id_pic": "Mozart-3_16_§7",
       "IndexJantzen": [
         "fenetre",
         "oriel"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2010:05:23"
     },
     {
       "id_pic": "Mozart-3_16_§8",
@@ -199,7 +285,9 @@
         "fenetre",
         "oriel",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2010:05:23"
     },
     {
       "id_pic": "Mozart-3_16_§9",
@@ -208,7 +296,9 @@
         "fenetre",
         "lucarne",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2010:05:23"
     }
   ]
 }

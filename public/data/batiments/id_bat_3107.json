@@ -4,8 +4,12 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 116,
+      "personneID": 191,
       "role": "architecte"
+    },
+    {
+      "personneID": 10047,
+      "role": "sculpteur"
     }
   ],
   "dateConstruction": "1904",
@@ -18,6 +22,7 @@
     "voie": "place Félix-Éboué"
   },
   "arrondissement": 12,
+  "tri_alphab": "Felix-Eboue-pl",
   "coordonnees": {
     "latitude": "48.839187",
     "longitude": "2.395656"
@@ -27,13 +32,36 @@
   "WPfr": null,
   "image_ref": "Felix-Eboue-pl-6_12_§1",
   "terme_jantzen_bat": [
-    "lucarne",
-    "façade-d'angle",
-    "fenetre",
     "oeil-de-boeuf",
     "dome",
+    "façade-d'angle",
     "sculpture",
+    "fenetre",
+    "lucarne",
     "porte-fer-hall"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "porte",
+    "porte-fenêtre",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "vitrail"
   ],
   "photos": [
     {
@@ -41,7 +69,31 @@
       "IndexJantzen": [
         "dome",
         "façade-d'angle"
-      ]
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "porte-fenêtre",
+        "lucarne",
+        "mansarde",
+        "souche de cheminée",
+        "ardoise",
+        "toit à deux versants",
+        "corniche",
+        "bandeau",
+        "pierre de taille",
+        "sculpture",
+        "mascaron",
+        "porte",
+        "travée",
+        "arc en plein cintre",
+        "oculus",
+        "fer forgé",
+        "vitrail"
+      ],
+      "dateCapture": "2006:07:03"
     },
     {
       "id_pic": "Felix-Eboue-pl-6_12_§2",
@@ -49,7 +101,9 @@
         "fenetre",
         "lucarne",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:07:03"
     },
     {
       "id_pic": "Felix-Eboue-pl-6_12_§3",
@@ -57,34 +111,44 @@
         "fenetre",
         "lucarne",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:07:03"
     },
     {
       "id_pic": "Felix-Eboue-pl-6_12_§4",
       "IndexJantzen": [
         "lucarne",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:07:03"
     },
     {
       "id_pic": "Felix-Eboue-pl-6_12_§5",
       "IndexJantzen": [
         "lucarne",
         "oeil-de-boeuf"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:07:03"
     },
     {
       "id_pic": "Felix-Eboue-pl-6_12_§6",
       "IndexJantzen": [
         "lucarne",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:07:03"
     },
     {
       "id_pic": "Felix-Eboue-pl-6_12_§7",
       "IndexJantzen": [
         "porte-fer-hall"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:07:27"
     }
   ]
 }

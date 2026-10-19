@@ -13,6 +13,7 @@
     "voie": "rue du Ranelagh"
   },
   "arrondissement": 16,
+  "tri_alphab": "Ranelagh",
   "coordonnees": {
     "latitude": "48.854938",
     "longitude": "2.272911"
@@ -24,12 +25,51 @@
   "terme_jantzen_bat": [
     "oriel"
   ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "modillon",
+    "oriel",
+    "pierre de taille",
+    "souche de cheminée",
+    "toit à deux versants",
+    "travée",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Ranelagh-62_16_§1",
       "IndexJantzen": [
         "oriel"
-      ]
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "bandeau",
+        "corniche",
+        "fenêtre",
+        "fer forgé",
+        "garde-corps",
+        "lucarne",
+        "mansarde",
+        "modillon",
+        "oriel",
+        "pierre de taille",
+        "souche de cheminée",
+        "toit à deux versants",
+        "travée",
+        "volet",
+        "fronton"
+      ],
+      "dateCapture": "2003:07:13"
     }
   ]
 }

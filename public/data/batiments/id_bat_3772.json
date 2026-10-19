@@ -13,6 +13,7 @@
     "voie": "avenue Niel"
   },
   "arrondissement": 17,
+  "tri_alphab": "Niel",
   "coordonnees": {
     "latitude": "48.879646",
     "longitude": "2.294487"
@@ -22,11 +23,26 @@
   "WPfr": null,
   "image_ref": "Niel-9_17_§1",
   "terme_jantzen_bat": [
-    "lucarne",
-    "intérieur",
-    "porte-fer",
     "oeil-de-boeuf",
-    "dome"
+    "dome",
+    "porte-fer",
+    "intérieur",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "corniche",
+    "dôme",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "porte-fenêtre",
+    "souche de cheminée",
+    "tuile"
   ],
   "photos": [
     {
@@ -35,20 +51,40 @@
         "dome",
         "lucarne",
         "oeil-de-boeuf"
-      ]
+      ],
+      "IndexTorneh": [
+        "dôme",
+        "oculus",
+        "souche de cheminée",
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "porte-fenêtre",
+        "mascaron",
+        "ardoise",
+        "pierre de taille",
+        "fronton",
+        "tuile",
+        "corniche"
+      ],
+      "dateCapture": "2008:03:27"
     },
     {
       "id_pic": "Niel-9_17_§2",
       "IndexJantzen": [
         "intérieur",
         "porte-fer"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": null
     },
     {
       "id_pic": "Niel-9_17_§3",
       "IndexJantzen": [
         "porte-fer"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": null
     }
   ]
 }

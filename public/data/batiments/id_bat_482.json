@@ -2,7 +2,12 @@
   "id_bat": 482,
   "libelle": "11 rue François-Millet",
   "ensemble": null,
-  "personnes": null,
+  "personnes": [
+    {
+      "personneID": 454,
+      "role": "architecte"
+    }
+  ],
   "dateConstruction": "1910",
   "periode": [
     "1895-1914"
@@ -13,6 +18,7 @@
     "voie": "rue François-Millet"
   },
   "arrondissement": 16,
+  "tri_alphab": "Francois-Millet",
   "coordonnees": {
     "latitude": "48.850865",
     "longitude": "2.272482"
@@ -22,37 +28,76 @@
   "WPfr": null,
   "image_ref": "Francois-Millet-11_16_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "décor",
     "sculpture",
+    "fenetre",
     "porte-fer-hall",
-    "garde-corps"
+    "garde-corps",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "brique",
+    "fenêtre",
+    "fer",
+    "fer forgé",
+    "garde-corps",
+    "oriel",
+    "pierre de taille",
+    "porte-fenêtre",
+    "toit à deux versants",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Francois-Millet-11_16_§1",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "porte-fenêtre",
+        "oriel",
+        "pierre de taille",
+        "brique",
+        "bandeau",
+        "toit à deux versants",
+        "ardoise",
+        "fer",
+        "volet"
+      ],
+      "dateCapture": "2005:05:18"
     },
     {
       "id_pic": "Francois-Millet-11_16_§10",
       "IndexJantzen": [
         "fenetre",
         "garde-corps"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:07:01"
     },
     {
       "id_pic": "Francois-Millet-11_16_§11",
       "IndexJantzen": [
         "porte-fer-hall"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:07:01"
     },
     {
       "id_pic": "Francois-Millet-11_16_§2",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:05:18"
     },
     {
       "id_pic": "Francois-Millet-11_16_§3",
@@ -60,7 +105,9 @@
         "décor",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:05:18"
     },
     {
       "id_pic": "Francois-Millet-11_16_§5",
@@ -69,7 +116,9 @@
         "fenetre",
         "garde-corps",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:07:01"
     },
     {
       "id_pic": "Francois-Millet-11_16_§6-20",
@@ -77,13 +126,17 @@
         "décor",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:05:18"
     },
     {
       "id_pic": "Francois-Millet-11_16_§7",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:05:18"
     },
     {
       "id_pic": "Francois-Millet-11_16_§8",
@@ -92,13 +145,17 @@
         "fenetre",
         "garde-corps",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:05:18"
     },
     {
       "id_pic": "Francois-Millet-11_16_§9",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:05:18"
     }
   ]
 }

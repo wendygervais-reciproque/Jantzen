@@ -2,7 +2,12 @@
   "id_bat": 3389,
   "libelle": "7 rue Dante",
   "ensemble": null,
-  "personnes": null,
+  "personnes": [
+    {
+      "personneID": 933,
+      "role": "architecte"
+    }
+  ],
   "dateConstruction": null,
   "periode": [
     "1895-1914"
@@ -13,6 +18,7 @@
     "voie": "rue Dante"
   },
   "arrondissement": 5,
+  "tri_alphab": "Dante",
   "coordonnees": {
     "latitude": "48.851116",
     "longitude": "2.346559"
@@ -22,9 +28,23 @@
   "WPfr": null,
   "image_ref": "Dante-7_5_§1",
   "terme_jantzen_bat": [
-    "fenetre",
+    "sculpture",
     "console",
-    "sculpture"
+    "fenetre"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bossage",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mascaron",
+    "pierre de taille",
+    "porte-fenêtre",
+    "sculpture",
+    "volet"
   ],
   "photos": [
     {
@@ -33,7 +53,22 @@
         "console",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "porte-fenêtre",
+        "arc en plein cintre",
+        "balustrade",
+        "volet",
+        "pierre de taille",
+        "bossage",
+        "mascaron",
+        "sculpture"
+      ],
+      "dateCapture": "2005:08:03"
     }
   ]
 }

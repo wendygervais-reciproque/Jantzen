@@ -4,7 +4,11 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 140,
+      "personneID": 221,
+      "role": "architecte"
+    },
+    {
+      "personneID": 690,
       "role": "architecte"
     }
   ],
@@ -18,6 +22,7 @@
     "voie": "rue Armand-Carrel"
   },
   "arrondissement": 19,
+  "tri_alphab": "Armand-Carrel",
   "coordonnees": {
     "latitude": "48.882492",
     "longitude": "2.38021"
@@ -29,12 +34,39 @@
   "terme_jantzen_bat": [
     "fenetre-d'angle"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "brique",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "pierre de taille",
+    "porte-fenêtre",
+    "sculpture",
+    "vantail",
+    "volet"
+  ],
   "photos": [
     {
       "id_pic": "Armand-Carrel-9_19_§1",
       "IndexJantzen": [
         "fenetre-d'angle"
-      ]
+      ],
+      "IndexTorneh": [
+        "arc en plein cintre",
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "porte-fenêtre",
+        "sculpture",
+        "pierre de taille",
+        "brique",
+        "volet",
+        "vantail"
+      ],
+      "dateCapture": "2005:09:07"
     }
   ]
 }

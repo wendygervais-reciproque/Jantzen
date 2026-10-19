@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 144,
+      "personneID": 370,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "place Jacques-Froment"
   },
   "arrondissement": 18,
+  "tri_alphab": "Jacques-Froment-Pl",
   "coordonnees": {
     "latitude": "48.891059",
     "longitude": "2.331283"
@@ -27,10 +28,25 @@
   "WPfr": null,
   "image_ref": "Jacques-Froment-Pl-6_18_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "sculpture",
-    "décor",
-    "garde-corps"
+    "garde-corps",
+    "fenetre",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc en anse de panier",
+    "balcon",
+    "balustrade",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "mascaron",
+    "modillon",
+    "pierre de taille",
+    "sculpture"
   ],
   "photos": [
     {
@@ -40,7 +56,23 @@
         "fenetre",
         "garde-corps",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "chambranle",
+        "fronton",
+        "modillon",
+        "corniche",
+        "pierre de taille",
+        "mascaron",
+        "arc en anse de panier",
+        "sculpture"
+      ],
+      "dateCapture": "2004:10:05"
     }
   ]
 }

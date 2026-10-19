@@ -9,6 +9,7 @@
   ],
   "adresse": null,
   "arrondissement": 1,
+  "tri_alphab": "Louvre-1-Cn_P-Daru",
   "coordonnees": {
     "latitude": "48.86014500448069",
     "longitude": "2.33650710912055"
@@ -18,13 +19,30 @@
   "WPfr": null,
   "image_ref": "Louvre-1-Cn_P-Daru-02A",
   "terme_jantzen_bat": [
+    "sculpture",
+    "cariatide",
+    "fenetre",
+    "console",
     "lucarne",
     "fronton",
-    "fenetre",
-    "sculpture",
-    "console",
-    "cariatide",
     "colonne"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "attique",
+    "balustrade",
+    "corniche",
+    "fenêtre",
+    "frise",
+    "fronton",
+    "garde-corps",
+    "mascaron",
+    "oculus",
+    "pilastre",
+    "sculpture",
+    "toit en pavillon",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -34,7 +52,25 @@
         "fronton",
         "lucarne",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [
+        "toit en pavillon",
+        "fronton",
+        "sculpture",
+        "fenêtre",
+        "balustrade",
+        "pilastre",
+        "corniche",
+        "frise",
+        "ardoise",
+        "oculus",
+        "garde-corps",
+        "arc en plein cintre",
+        "mascaron",
+        "attique",
+        "épi de faîtage"
+      ],
+      "dateCapture": "2006:07:18"
     },
     {
       "id_pic": "Louvre-1-Cn_P-Daru-02B",
@@ -44,7 +80,9 @@
         "fronton",
         "lucarne",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:07:18"
     },
     {
       "id_pic": "Louvre-1-Cn_P-Daru-03",
@@ -52,14 +90,18 @@
         "cariatide",
         "fenetre",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:08:30"
     },
     {
       "id_pic": "Louvre-1-Cn_P-Daru-03B",
       "IndexJantzen": [
         "lucarne",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2013:09:08"
     },
     {
       "id_pic": "Louvre-1-Cn_P-Daru-03C",
@@ -67,54 +109,70 @@
         "fenetre",
         "lucarne",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2013:09:08"
     },
     {
       "id_pic": "Louvre-1-Cn_P-Daru-03D",
       "IndexJantzen": [
         "cariatide",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2013:09:08"
     },
     {
       "id_pic": "Louvre-1-Cn_P-Daru-03E",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2013:09:08"
     },
     {
       "id_pic": "Louvre-1-Cn_P-Daru-04",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:08:30"
     },
     {
       "id_pic": "Louvre-1-Cn_P-Daru-05",
       "IndexJantzen": [
         "cariatide",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:08:30"
     },
     {
       "id_pic": "Louvre-1-Cn_P-Daru-06",
       "IndexJantzen": [
         "cariatide",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:08:30"
     },
     {
       "id_pic": "Louvre-1-Cn_P-Daru-07",
       "IndexJantzen": [
         "cariatide",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:08:30"
     },
     {
       "id_pic": "Louvre-1-Cn_P-Daru-08",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:08:30"
     },
     {
       "id_pic": "Louvre-1-Cn_P-Daru-08A",
@@ -122,7 +180,9 @@
         "colonne",
         "console",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:07:18"
     },
     {
       "id_pic": "Louvre-1-Cn_P-Daru-08B",
@@ -130,7 +190,9 @@
         "colonne",
         "console",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:07:18"
     }
   ]
 }

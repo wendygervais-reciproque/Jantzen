@@ -4,8 +4,12 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 342,
+      "personneID": 475,
       "role": "architecte"
+    },
+    {
+      "personneID": 10057,
+      "role": "sculpteur"
     }
   ],
   "dateConstruction": "1899-1900",
@@ -18,6 +22,7 @@
     "voie": "rue d'Hauteville"
   },
   "arrondissement": 10,
+  "tri_alphab": "Hauteville",
   "coordonnees": {
     "latitude": "48.873008",
     "longitude": "2.35037"
@@ -27,8 +32,25 @@
   "WPfr": null,
   "image_ref": "Hauteville-32_10_§1",
   "terme_jantzen_bat": [
-    "lucarne",
-    "oeil-de-boeuf"
+    "oeil-de-boeuf",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "sculpture",
+    "souche de cheminée",
+    "tour",
+    "tuile",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -36,14 +58,34 @@
       "IndexJantzen": [
         "lucarne",
         "oeil-de-boeuf"
-      ]
+      ],
+      "IndexTorneh": [
+        "ardoise",
+        "oculus",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "mascaron",
+        "sculpture",
+        "souche de cheminée",
+        "tour",
+        "mansarde",
+        "épi de faîtage",
+        "fer forgé",
+        "pierre de taille",
+        "tuile"
+      ],
+      "dateCapture": "2004:06:28"
     },
     {
       "id_pic": "Hauteville-32_10_§2",
       "IndexJantzen": [
         "lucarne",
         "oeil-de-boeuf"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:07:15"
     }
   ]
 }

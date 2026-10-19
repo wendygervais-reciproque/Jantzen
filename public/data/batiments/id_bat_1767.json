@@ -1,10 +1,10 @@
 {
   "id_bat": 1767,
-  "libelle": "234 rue du Faubourg-Saint-Honoré",
+  "libelle": "234 rue du Faubourg Saint-Honoré",
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 345,
+      "personneID": 479,
       "role": "architecte"
     }
   ],
@@ -13,11 +13,12 @@
     "1850-1869"
   ],
   "adresse": {
-    "affichage": "234 rue du Faubourg-Saint-Honoré",
+    "affichage": "234 rue du Faubourg Saint-Honoré",
     "numero": "234",
-    "voie": "rue du Faubourg-Saint-Honoré"
+    "voie": "rue du Faubourg Saint-Honoré"
   },
   "arrondissement": 8,
+  "tri_alphab": "Faubourg-St-Honore",
   "coordonnees": {
     "latitude": "48.87616",
     "longitude": "2.302766"
@@ -27,39 +28,82 @@
   "WPfr": null,
   "image_ref": "Faubourg-St-Honore-234_8_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "sculpture",
     "console",
-    "porte-bois",
-    "garde-corps"
+    "fenetre",
+    "garde-corps",
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "linteau",
+    "mascaron",
+    "modillon",
+    "pierre de taille",
+    "pilastre",
+    "sculpture",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Faubourg-St-Honore-234_8_§1",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "fenêtre",
+        "fronton",
+        "corniche",
+        "garde-corps",
+        "fer forgé",
+        "pilastre",
+        "volet",
+        "sculpture",
+        "modillon",
+        "mascaron",
+        "travée",
+        "pierre de taille",
+        "chambranle",
+        "linteau"
+      ],
+      "dateCapture": "2004:10:16"
     },
     {
       "id_pic": "Faubourg-St-Honore-234_8_§2",
       "IndexJantzen": [
         "fenetre",
         "garde-corps"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:10:16"
     },
     {
       "id_pic": "Faubourg-St-Honore-234_8_§3",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:10:16"
     },
     {
       "id_pic": "Faubourg-St-Honore-234_8_§4",
       "IndexJantzen": [
         "fenetre",
         "porte-bois"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:10:16"
     }
   ]
 }

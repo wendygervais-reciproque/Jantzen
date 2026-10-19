@@ -13,6 +13,7 @@
     "voie": "rond-point des Champs-Élysées-Marcel-Dassault"
   },
   "arrondissement": 8,
+  "tri_alphab": "Champs-Elysees-rond-pt",
   "coordonnees": {
     "latitude": "48.868916",
     "longitude": "2.308955"
@@ -22,42 +23,87 @@
   "WPfr": null,
   "image_ref": "Champs-Elysees-rond-pt-9_8_§1",
   "terme_jantzen_bat": [
-    "lucarne",
     "oeil-de-boeuf",
-    "porte-fer"
+    "porte-fer",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balcon",
+    "balustrade",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "grille",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "portail",
+    "sculpture",
+    "vantail",
+    "épi de faîtage"
   ],
   "photos": [
     {
       "id_pic": "Champs-Elysees-rond-pt-9_8_§1",
       "IndexJantzen": [
         "porte-fer"
-      ]
+      ],
+      "IndexTorneh": [
+        "grille",
+        "portail",
+        "fer forgé",
+        "fronton",
+        "lucarne",
+        "oculus",
+        "fenêtre",
+        "mansarde",
+        "balustrade",
+        "balcon",
+        "ardoise",
+        "pierre de taille",
+        "sculpture",
+        "mascaron",
+        "épi de faîtage",
+        "vantail"
+      ],
+      "dateCapture": "2009:06:14"
     },
     {
       "id_pic": "Champs-Elysees-rond-pt-9_8_§2",
       "IndexJantzen": [
         "lucarne",
         "oeil-de-boeuf"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2009:06:14"
     },
     {
       "id_pic": "Champs-Elysees-rond-pt-9_8_§3",
       "IndexJantzen": [
         "lucarne",
         "oeil-de-boeuf"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:03:30"
     },
     {
       "id_pic": "Champs-Elysees-rond-pt-9_8_§4",
       "IndexJantzen": [
         "porte-fer"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:06:03"
     },
     {
       "id_pic": "Champs-Elysees-rond-pt-9_8_§5",
       "IndexJantzen": [
         "porte-fer"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:06:03"
     }
   ]
 }

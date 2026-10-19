@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 565,
+      "personneID": 746,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue des Colonels-Renard"
   },
   "arrondissement": 17,
+  "tri_alphab": "Colonels-Renard",
   "coordonnees": {
     "latitude": "48.877826",
     "longitude": "2.290747"
@@ -29,12 +30,35 @@
   "terme_jantzen_bat": [
     "porte-fer-hall"
   ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "fer forgé",
+    "grille",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "sculpture",
+    "vantail"
+  ],
   "photos": [
     {
       "id_pic": "Colonels-Renard-3_17_§1",
       "IndexJantzen": [
         "porte-fer-hall"
-      ]
+      ],
+      "IndexTorneh": [
+        "arc en plein cintre",
+        "porte",
+        "fer forgé",
+        "balcon",
+        "sculpture",
+        "pierre de taille",
+        "vantail",
+        "mascaron",
+        "grille"
+      ],
+      "dateCapture": "2006:06:18"
     }
   ]
 }

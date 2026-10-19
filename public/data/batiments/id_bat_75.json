@@ -4,7 +4,11 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 354,
+      "personneID": 584,
+      "role": "architecte"
+    },
+    {
+      "personneID": 474,
       "role": "architecte"
     }
   ],
@@ -18,6 +22,7 @@
     "voie": "place Franz-Liszt"
   },
   "arrondissement": 10,
+  "tri_alphab": "Franz-Liszt-pl",
   "coordonnees": {
     "latitude": "48.878889",
     "longitude": "2.351667"
@@ -27,51 +32,98 @@
   "WPfr": "Église Saint-Vincent-de-Paul de Paris",
   "image_ref": "Franz-Liszt-pl_10_§1",
   "terme_jantzen_bat": [
-    "façade",
     "porte-fer",
     "sculpture",
     "clé",
+    "façade",
     "colonne"
+  ],
+  "terme_torneh_bat": [
+    "chapiteau ionique",
+    "colonne",
+    "corniche",
+    "entablement",
+    "escalier",
+    "fenêtre",
+    "frise",
+    "fronton",
+    "grille",
+    "pierre de taille",
+    "pilastre",
+    "porche",
+    "porte",
+    "portique",
+    "sculpture",
+    "tour"
   ],
   "photos": [
     {
       "id_pic": "Franz-Liszt-pl_10_§1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [
+        "fronton",
+        "colonne",
+        "chapiteau ionique",
+        "sculpture",
+        "tour",
+        "escalier",
+        "porte",
+        "portique",
+        "frise",
+        "corniche",
+        "pierre de taille",
+        "entablement",
+        "fenêtre",
+        "grille",
+        "porche",
+        "pilastre"
+      ],
+      "dateCapture": "2008:02:18"
     },
     {
       "id_pic": "Franz-Liszt-pl_10_§2-Rs",
       "IndexJantzen": [
         "colonne",
         "façade"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:02:18"
     },
     {
       "id_pic": "Franz-Liszt-pl_10_§3-Rs",
       "IndexJantzen": [
         "porte-fer"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:02:18"
     },
     {
       "id_pic": "Franz-Liszt-pl_10_§4",
       "IndexJantzen": [
         "porte-fer"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:02:18"
     },
     {
       "id_pic": "Franz-Liszt-pl_10_§5",
       "IndexJantzen": [
         "porte-fer",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:02:18"
     },
     {
       "id_pic": "Franz-Liszt-pl_10_§6",
       "IndexJantzen": [
         "clé",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:02:18"
     }
   ]
 }

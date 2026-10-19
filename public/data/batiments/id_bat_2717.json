@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 534,
+      "personneID": 714,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue Saint-Roch"
   },
   "arrondissement": 1,
+  "tri_alphab": "St-Roch",
   "coordonnees": {
     "latitude": "48.866499",
     "longitude": "2.332907"
@@ -27,9 +28,25 @@
   "WPfr": null,
   "image_ref": "St-Roch-45_1_§1",
   "terme_jantzen_bat": [
-    "fenetre",
     "atlante",
+    "fenetre",
     "porte-fer"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "atlante",
+    "baie",
+    "balcon",
+    "balustrade",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "grille",
+    "mascaron",
+    "pierre de taille",
+    "porte",
+    "sculpture"
   ],
   "photos": [
     {
@@ -38,7 +55,24 @@
         "atlante",
         "fenetre",
         "porte-fer"
-      ]
+      ],
+      "IndexTorneh": [
+        "atlante",
+        "sculpture",
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "arc",
+        "baie",
+        "porte",
+        "fenêtre",
+        "mascaron",
+        "pierre de taille",
+        "balustrade",
+        "grille",
+        "fronton"
+      ],
+      "dateCapture": "2004:09:12"
     }
   ]
 }

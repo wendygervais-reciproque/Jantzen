@@ -4,7 +4,7 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 389,
+      "personneID": 512,
       "role": "architecte"
     }
   ],
@@ -18,6 +18,7 @@
     "voie": "rue Louis-Boilly"
   },
   "arrondissement": 16,
+  "tri_alphab": "Louis-Boilly",
   "coordonnees": {
     "latitude": "48.859098",
     "longitude": "2.267068"
@@ -27,10 +28,23 @@
   "WPfr": null,
   "image_ref": "Louis-Boilly-3_16_§1",
   "terme_jantzen_bat": [
-    "console",
-    "porte-fer",
     "porte-fer-hall",
-    "sculpture"
+    "sculpture",
+    "console",
+    "porte-fer"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "modillon",
+    "pierre de taille",
+    "sculpture",
+    "volet"
   ],
   "photos": [
     {
@@ -38,25 +52,45 @@
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "arc en plein cintre",
+        "fenêtre",
+        "volet",
+        "sculpture",
+        "pierre de taille",
+        "modillon",
+        "fer forgé",
+        "corniche"
+      ],
+      "dateCapture": "2005:05:28"
     },
     {
       "id_pic": "Louis-Boilly-3_16_§2",
       "IndexJantzen": [
         "porte-fer-hall"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:05:28"
     },
     {
       "id_pic": "Louis-Boilly-3_16_§3",
       "IndexJantzen": [
         "porte-fer"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:05:28"
     },
     {
       "id_pic": "Louis-Boilly-3_16_§4",
       "IndexJantzen": [
         "porte-fer"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:05:28"
     }
   ]
 }

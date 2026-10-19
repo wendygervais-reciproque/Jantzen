@@ -4,8 +4,12 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 93,
+      "personneID": 152,
       "role": "architecte"
+    },
+    {
+      "personneID": 10015,
+      "role": "sculpteur"
     }
   ],
   "dateConstruction": "1913",
@@ -18,6 +22,7 @@
     "voie": "avenue du Maine"
   },
   "arrondissement": 14,
+  "tri_alphab": "Maine-av",
   "coordonnees": {
     "latitude": "48.832584",
     "longitude": "2.32467"
@@ -25,19 +30,41 @@
   "id_pss": 4606,
   "id_wikidata": null,
   "WPfr": null,
-  "image_ref": "Maine-av-172_14_§10",
+  "image_ref": "Maine-av-172_14_§1-Rx",
   "terme_jantzen_bat": [
-    "lucarne",
+    "colonne",
+    "loggia",
+    "balcon",
     "façade-d'angle",
-    "fenetre",
-    "décor",
-    "fenetre-d'angle",
     "sculpture",
     "console",
+    "fenetre",
+    "fenetre-d'angle",
+    "lucarne",
+    "garde-corps",
+    "décor"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "arcade",
+    "ardoise",
     "balcon",
-    "loggia",
-    "colonne",
-    "garde-corps"
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "volet"
   ],
   "photos": [
     {
@@ -46,21 +73,27 @@
         "balcon",
         "fenetre",
         "garde-corps"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:04:15"
     },
     {
       "id_pic": "Maine-av-172_14_§11-Rx",
       "IndexJantzen": [
         "balcon",
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2011:06:26"
     },
     {
       "id_pic": "Maine-av-172_14_§12",
       "IndexJantzen": [
         "console",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:08:31"
     },
     {
       "id_pic": "Maine-av-172_14_§1-Rx",
@@ -70,7 +103,30 @@
         "fenetre-d'angle",
         "loggia",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "garde-corps",
+        "balustrade",
+        "arc en plein cintre",
+        "arcade",
+        "fenêtre",
+        "lucarne",
+        "mansarde",
+        "souche de cheminée",
+        "pierre de taille",
+        "sculpture",
+        "mascaron",
+        "oculus",
+        "fronton",
+        "corniche",
+        "bandeau",
+        "pilastre",
+        "volet",
+        "toit à deux versants",
+        "ardoise"
+      ],
+      "dateCapture": "2011:06:26"
     },
     {
       "id_pic": "Maine-av-172_14_§2-Rx",
@@ -78,32 +134,42 @@
         "balcon",
         "console",
         "loggia"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2011:06:26"
     },
     {
       "id_pic": "Maine-av-172_14_§3",
       "IndexJantzen": [
         "façade-d'angle"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:08:31"
     },
     {
       "id_pic": "Maine-av-172_14_§4-Rx",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2011:06:26"
     },
     {
       "id_pic": "Maine-av-172_14_§5-Rx",
       "IndexJantzen": [
         "fenetre",
         "loggia"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2011:06:26"
     },
     {
       "id_pic": "Maine-av-172_14_§6-Rx",
       "IndexJantzen": [
         "loggia"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2011:06:26"
     },
     {
       "id_pic": "Maine-av-172_14_§7",
@@ -111,21 +177,27 @@
         "colonne",
         "loggia",
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:08:31"
     },
     {
       "id_pic": "Maine-av-172_14_§8",
       "IndexJantzen": [
         "console",
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:08:31"
     },
     {
       "id_pic": "Maine-av-172_14_§9",
       "IndexJantzen": [
         "balcon",
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:08:31"
     }
   ]
 }

@@ -9,6 +9,7 @@
   ],
   "adresse": null,
   "arrondissement": 1,
+  "tri_alphab": "Louvre-1-Pcn_",
   "coordonnees": {
     "latitude": "48.860762294199226",
     "longitude": "2.331720692601741"
@@ -16,12 +17,26 @@
   "id_pss": null,
   "id_wikidata": "Q2827938",
   "WPfr": "Aile de Flore",
-  "image_ref": "Louvre-1-Pcn_01",
+  "image_ref": "Louvre-1-Pcn_06",
   "terme_jantzen_bat": [
-    "lucarne",
-    "fronton",
-    "fenetre",
     "oeil-de-boeuf",
+    "sculpture",
+    "fenetre",
+    "lucarne",
+    "fronton"
+  ],
+  "terme_torneh_bat": [
+    "ardoise",
+    "balustrade",
+    "chapiteau",
+    "corniche",
+    "entablement",
+    "fenêtre",
+    "frise",
+    "fronton",
+    "mascaron",
+    "pierre de taille",
+    "pilastre",
     "sculpture"
   ],
   "photos": [
@@ -30,35 +45,45 @@
       "IndexJantzen": [
         "lucarne",
         "oeil-de-boeuf"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:08:30"
     },
     {
       "id_pic": "Louvre-1-Pcn_02",
       "IndexJantzen": [
         "lucarne",
         "oeil-de-boeuf"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:09:06"
     },
     {
       "id_pic": "Louvre-1-Pcn_03",
       "IndexJantzen": [
         "lucarne",
         "oeil-de-boeuf"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:09:06"
     },
     {
       "id_pic": "Louvre-1-Pcn_04",
       "IndexJantzen": [
         "lucarne",
         "oeil-de-boeuf"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:09:06"
     },
     {
       "id_pic": "Louvre-1-Pcn_05",
       "IndexJantzen": [
         "fronton",
         "lucarne"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:09:06"
     },
     {
       "id_pic": "Louvre-1-Pcn_06",
@@ -66,13 +91,30 @@
         "fenetre",
         "fronton",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [
+        "fronton",
+        "fenêtre",
+        "sculpture",
+        "pilastre",
+        "chapiteau",
+        "corniche",
+        "frise",
+        "ardoise",
+        "balustrade",
+        "pierre de taille",
+        "mascaron",
+        "entablement"
+      ],
+      "dateCapture": "2006:09:06"
     },
     {
       "id_pic": "Louvre-1-Pcn_07",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:09:06"
     },
     {
       "id_pic": "Louvre-1-Pcn_08",
@@ -80,19 +122,25 @@
         "fenetre",
         "fronton",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:09:06"
     },
     {
       "id_pic": "Louvre-1-Pcn_09",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:09:06"
     },
     {
       "id_pic": "Louvre-1-Pcn_10",
       "IndexJantzen": [
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:09:06"
     }
   ]
 }

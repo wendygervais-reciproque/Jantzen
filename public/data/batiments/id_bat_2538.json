@@ -4,7 +4,11 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 65,
+      "personneID": 383,
+      "role": "architecte"
+    },
+    {
+      "personneID": 93,
       "role": "architecte"
     }
   ],
@@ -18,6 +22,7 @@
     "voie": "rue Rosa-Bonheur"
   },
   "arrondissement": 15,
+  "tri_alphab": "Rosa-Bonheur",
   "coordonnees": {
     "latitude": "48.846636",
     "longitude": "2.310701"
@@ -27,23 +32,66 @@
   "WPfr": null,
   "image_ref": "Rosa-Bonheur-4_15_§1",
   "terme_jantzen_bat": [
-    "fenetre",
-    "lucarne",
+    "oeil-de-boeuf",
     "fronton",
-    "oeil-de-boeuf"
+    "fenetre",
+    "lucarne"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "avant-corps",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mascaron",
+    "modillon",
+    "pierre de taille",
+    "sculpture",
+    "souche de cheminée",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Rosa-Bonheur-4_15_§1",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [
+        "fronton",
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "corniche",
+        "bandeau",
+        "pierre de taille",
+        "lucarne",
+        "mascaron",
+        "avant-corps",
+        "travée",
+        "souche de cheminée",
+        "modillon",
+        "sculpture",
+        "volet",
+        "arc en plein cintre"
+      ],
+      "dateCapture": "2006:04:11"
     },
     {
       "id_pic": "Rosa-Bonheur-4_15_§2",
       "IndexJantzen": [
         "fenetre"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:04:11"
     },
     {
       "id_pic": "Rosa-Bonheur-4_15_§3",
@@ -52,7 +100,9 @@
         "fronton",
         "lucarne",
         "oeil-de-boeuf"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:04:11"
     }
   ]
 }

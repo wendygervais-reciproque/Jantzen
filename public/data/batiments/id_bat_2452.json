@@ -4,8 +4,12 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 198,
+      "personneID": 318,
       "role": "architecte"
+    },
+    {
+      "personneID": 10093,
+      "role": "sculpteur"
     }
   ],
   "dateConstruction": "1890",
@@ -18,6 +22,7 @@
     "voie": "avenue de Tourville"
   },
   "arrondissement": 7,
+  "tri_alphab": "Tourville",
   "coordonnees": {
     "latitude": "48.85414",
     "longitude": "2.309268"
@@ -27,16 +32,43 @@
   "WPfr": null,
   "image_ref": "Tourville-4_7_§1",
   "terme_jantzen_bat": [
-    "façade",
-    "fenetre",
-    "oriel",
-    "fenetre-d'angle",
-    "sculpture",
     "atlante",
+    "oriel",
+    "sculpture",
     "console",
+    "fenetre",
     "cariatide",
-    "porte-bois",
-    "garde-corps"
+    "fenetre-d'angle",
+    "façade",
+    "garde-corps",
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en anse de panier",
+    "ardoise",
+    "atlante",
+    "baie",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "oriel",
+    "pierre de taille",
+    "porte",
+    "porte-fenêtre",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "vantail",
+    "verrière"
   ],
   "photos": [
     {
@@ -44,7 +76,35 @@
       "IndexJantzen": [
         "façade",
         "oriel"
-      ]
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fenêtre",
+        "porte",
+        "porte-fenêtre",
+        "mansarde",
+        "lucarne",
+        "souche de cheminée",
+        "atlante",
+        "mascaron",
+        "sculpture",
+        "arc",
+        "arc en anse de panier",
+        "corniche",
+        "bandeau",
+        "oriel",
+        "verrière",
+        "pierre de taille",
+        "toit à deux versants",
+        "ardoise",
+        "oculus",
+        "fer forgé",
+        "baie",
+        "vantail"
+      ],
+      "dateCapture": "2005:03:19"
     },
     {
       "id_pic": "Tourville-4_7_§2",
@@ -52,7 +112,9 @@
         "console",
         "fenetre",
         "garde-corps"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:03:19"
     },
     {
       "id_pic": "Tourville-4_7_§3",
@@ -62,21 +124,27 @@
         "fenetre",
         "porte-bois",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:03:19"
     },
     {
       "id_pic": "Tourville-4_7_§4",
       "IndexJantzen": [
         "atlante",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:03:19"
     },
     {
       "id_pic": "Tourville-4_7_§5",
       "IndexJantzen": [
         "cariatide",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:03:19"
     },
     {
       "id_pic": "Tourville-4_7_§6",
@@ -85,7 +153,9 @@
         "fenetre-d'angle",
         "porte-bois",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2005:03:19"
     }
   ]
 }

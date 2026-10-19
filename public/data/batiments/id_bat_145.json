@@ -9,6 +9,7 @@
   ],
   "adresse": null,
   "arrondissement": 4,
+  "tri_alphab": "Tribunal-de-commerce-de-Paris ",
   "coordonnees": {
     "latitude": "48.8557",
     "longitude": "2.34681"
@@ -18,8 +19,32 @@
   "WPfr": "Tribunal de commerce de Paris",
   "image_ref": "La-Seine_§64",
   "terme_jantzen_bat": [
-    "pont",
-    "façade"
+    "façade",
+    "pont"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "arc en plein cintre",
+    "attique",
+    "avant-corps",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "frise",
+    "fronton",
+    "garde-corps",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "porte",
+    "sculpture",
+    "souche de cheminée",
+    "toit à deux versants",
+    "tour",
+    "épi de faîtage"
   ],
   "photos": [
     {
@@ -27,7 +52,32 @@
       "IndexJantzen": [
         "façade",
         "pont"
-      ]
+      ],
+      "IndexTorneh": [
+        "dôme",
+        "arc",
+        "arc en plein cintre",
+        "balustrade",
+        "fronton",
+        "corniche",
+        "pilastre",
+        "sculpture",
+        "mascaron",
+        "fenêtre",
+        "porte",
+        "oculus",
+        "toit à deux versants",
+        "souche de cheminée",
+        "tour",
+        "épi de faîtage",
+        "garde-corps",
+        "pierre de taille",
+        "avant-corps",
+        "bandeau",
+        "frise",
+        "attique"
+      ],
+      "dateCapture": "2017:06:11"
     }
   ]
 }

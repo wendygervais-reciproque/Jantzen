@@ -1,0 +1,101 @@
+{
+  "id_bat": 744,
+  "libelle": "127 rue La Fayette",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": null,
+  "adresse": {
+    "affichage": "127 rue La Fayette",
+    "numero": "127",
+    "voie": "rue La Fayette"
+  },
+  "arrondissement": 10,
+  "tri_alphab": "La-Fayette",
+  "coordonnees": {
+    "latitude": "48.878573",
+    "longitude": "2.353625"
+  },
+  "id_pss": null,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": "La-Fayette-127_10_§1",
+  "terme_jantzen_bat": [
+    "oriel",
+    "clé",
+    "fenetre",
+    "métal",
+    "porte-bois"
+  ],
+  "terme_torneh_bat": [
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "chambranle",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "mascaron",
+    "oriel",
+    "pierre de taille",
+    "travée",
+    "vitrail",
+    "volet"
+  ],
+  "photos": [
+    {
+      "id_pic": "La-Fayette-127_10_§1",
+      "IndexJantzen": [
+        "métal",
+        "oriel"
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "oriel",
+        "fronton",
+        "corniche",
+        "bandeau",
+        "pierre de taille",
+        "volet",
+        "mascaron",
+        "vitrail",
+        "travée",
+        "chambranle"
+      ],
+      "dateCapture": "2008:03:05"
+    },
+    {
+      "id_pic": "La-Fayette-127_10_§2",
+      "IndexJantzen": [
+        "fenetre",
+        "porte-bois"
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:03:12"
+    },
+    {
+      "id_pic": "La-Fayette-127_10_§3",
+      "IndexJantzen": [
+        "fenetre",
+        "porte-bois"
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:03:12"
+    },
+    {
+      "id_pic": "La-Fayette-127_10_§4",
+      "IndexJantzen": [
+        "clé",
+        "fenetre"
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2008:03:05"
+    }
+  ]
+}

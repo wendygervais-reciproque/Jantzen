@@ -4,8 +4,12 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 39,
+      "personneID": 32,
       "role": "architecte"
+    },
+    {
+      "personneID": 10129,
+      "role": "sculpteur"
     }
   ],
   "dateConstruction": "1896",
@@ -18,6 +22,7 @@
     "voie": "rue de Longchamp"
   },
   "arrondissement": 16,
+  "tri_alphab": "Lonchamp",
   "coordonnees": {
     "latitude": "48.865014",
     "longitude": "2.291071"
@@ -27,17 +32,42 @@
   "WPfr": null,
   "image_ref": "Lonchamp-20_16_§1",
   "terme_jantzen_bat": [
+    "porte-fer-hall",
     "sculpture",
-    "porte-fer",
     "cariatide",
-    "porte-fer-hall"
+    "porte-fer"
+  ],
+  "terme_torneh_bat": [
+    "arc",
+    "balcon",
+    "balustrade",
+    "fer forgé",
+    "pierre de taille",
+    "portail",
+    "porte",
+    "sculpture",
+    "vantail",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Lonchamp-20_16_§1",
       "IndexJantzen": [
         "porte-fer-hall"
-      ]
+      ],
+      "IndexTorneh": [
+        "porte",
+        "portail",
+        "arc",
+        "sculpture",
+        "balcon",
+        "balustrade",
+        "fer forgé",
+        "pierre de taille",
+        "vantail",
+        "volet"
+      ],
+      "dateCapture": "2006:06:30"
     },
     {
       "id_pic": "Lonchamp-20_16_§4",
@@ -45,7 +75,9 @@
         "cariatide",
         "porte-fer",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2006:06:30"
     },
     {
       "id_pic": "Lonchamp-20_16_§5",
@@ -53,7 +85,9 @@
         "cariatide",
         "porte-fer",
         "sculpture"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": null
     }
   ]
 }

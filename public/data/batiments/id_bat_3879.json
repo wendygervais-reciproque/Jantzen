@@ -1,0 +1,113 @@
+{
+  "id_bat": 3879,
+  "libelle": "92 rue Réaumur",
+  "ensemble": null,
+  "personnes": null,
+  "dateConstruction": null,
+  "periode": null,
+  "adresse": {
+    "affichage": "92 rue Réaumur",
+    "numero": "92",
+    "voie": "rue Réaumur"
+  },
+  "arrondissement": 2,
+  "tri_alphab": "Reaumur",
+  "coordonnees": {
+    "latitude": "48.866943",
+    "longitude": "2.349746"
+  },
+  "id_pss": null,
+  "id_wikidata": null,
+  "WPfr": null,
+  "image_ref": "Reaumur-92_2_§1",
+  "terme_jantzen_bat": [
+    "toiture",
+    "oeil-de-boeuf",
+    "dome",
+    "pilastre",
+    "lucarne",
+    "fronton",
+    "lucarne-d'angle",
+    "colonne"
+  ],
+  "terme_torneh_bat": [
+    "arc en plein cintre",
+    "ardoise",
+    "balcon",
+    "chapiteau",
+    "corniche",
+    "dôme",
+    "fenêtre",
+    "fer forgé",
+    "fronton",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "oculus",
+    "pierre de taille",
+    "pilastre",
+    "souche de cheminée",
+    "épi de faîtage"
+  ],
+  "photos": [
+    {
+      "id_pic": "Reaumur-92_2_§1",
+      "IndexJantzen": [
+        "colonne",
+        "dome",
+        "lucarne-d'angle",
+        "pilastre"
+      ],
+      "IndexTorneh": [
+        "dôme",
+        "épi de faîtage",
+        "oculus",
+        "fronton",
+        "fenêtre",
+        "mansarde",
+        "corniche",
+        "balcon",
+        "garde-corps",
+        "fer forgé",
+        "pilastre",
+        "chapiteau",
+        "pierre de taille",
+        "mascaron",
+        "lucarne",
+        "arc en plein cintre",
+        "souche de cheminée",
+        "ardoise"
+      ],
+      "dateCapture": "2004:05:16"
+    },
+    {
+      "id_pic": "Reaumur-92_2_§2",
+      "IndexJantzen": [
+        "dome",
+        "fronton",
+        "lucarne-d'angle",
+        "oeil-de-boeuf"
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:05:16"
+    },
+    {
+      "id_pic": "Reaumur-92_2_§3",
+      "IndexJantzen": [
+        "lucarne",
+        "toiture"
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:05:16"
+    },
+    {
+      "id_pic": "Reaumur-92_2_§4",
+      "IndexJantzen": [
+        "colonne"
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:05:16"
+    }
+  ]
+}

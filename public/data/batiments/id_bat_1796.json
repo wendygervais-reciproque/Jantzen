@@ -4,8 +4,12 @@
   "ensemble": null,
   "personnes": [
     {
-      "personneID": 642,
+      "personneID": 850,
       "role": "architecte"
+    },
+    {
+      "personneID": 10161,
+      "role": "sculpteur"
     }
   ],
   "dateConstruction": "1895",
@@ -18,6 +22,7 @@
     "voie": "rue de Berri"
   },
   "arrondissement": 8,
+  "tri_alphab": "Berri",
   "coordonnees": {
     "latitude": "48.873143",
     "longitude": "2.305614"
@@ -27,18 +32,61 @@
   "WPfr": null,
   "image_ref": "Berri-24_8_§1",
   "terme_jantzen_bat": [
-    "façade",
+    "balcon",
     "porte-fer",
     "fenetre",
-    "balcon",
+    "façade",
     "garde-corps"
+  ],
+  "terme_torneh_bat": [
+    "arc brisé",
+    "arc en plein cintre",
+    "balcon",
+    "balustrade",
+    "bandeau",
+    "corniche",
+    "fenêtre",
+    "fer forgé",
+    "garde-corps",
+    "lucarne",
+    "mansarde",
+    "mascaron",
+    "meneau",
+    "oculus",
+    "oriel",
+    "pierre de taille",
+    "sculpture",
+    "travée",
+    "volet"
   ],
   "photos": [
     {
       "id_pic": "Berri-24_8_§1",
       "IndexJantzen": [
         "façade"
-      ]
+      ],
+      "IndexTorneh": [
+        "balcon",
+        "balustrade",
+        "garde-corps",
+        "fer forgé",
+        "fenêtre",
+        "arc en plein cintre",
+        "arc brisé",
+        "volet",
+        "mascaron",
+        "corniche",
+        "oriel",
+        "lucarne",
+        "pierre de taille",
+        "sculpture",
+        "travée",
+        "meneau",
+        "bandeau",
+        "oculus",
+        "mansarde"
+      ],
+      "dateCapture": "2004:09:17"
     },
     {
       "id_pic": "Berri-24_8_§2",
@@ -46,14 +94,18 @@
         "balcon",
         "fenetre",
         "garde-corps"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:09:17"
     },
     {
       "id_pic": "Berri-24_8_§3",
       "IndexJantzen": [
         "fenetre",
         "porte-fer"
-      ]
+      ],
+      "IndexTorneh": [],
+      "dateCapture": "2004:09:18"
     }
   ]
 }
