@@ -139,7 +139,7 @@ const TOOLTIP_DATE_INDICATIVE =
   "Les dates peuvent correspondre à la date de début de réalisation, à des aménagements majeurs ou à des éléments particuliers et ne couvrent pas toujours l'ensemble de l'histoire du bâtiment.";
 
 const TOOLTIP_TORNEH =
-  "Second index, produit et enrichi à l'aide d'outils d'intelligence artificielle dans le cadre du projet TORNE-H.";
+  "Index réalisé à l'aide d'outils d'intelligence artificielle dans le cadre du projet TORNE-H.";
 
 const TOOLTIP_PERSONNES =
   "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.";
