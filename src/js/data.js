@@ -5,7 +5,7 @@
 
 const DATA_BASE  = '/public/data';
 const PHOTO_BASE = `${DATA_BASE}/photos_jpg`; // image HD
-const THUMB_PHOTO_BASE  = `${DATA_BASE}/thumb_photos_jpg` ; // image vignette (thumb)
+const THUMB_PHOTO_BASE  = `${DATA_BASE}/photos_jpg` ; // image vignette (thumb) — pas de dossier de vignettes jpg dédié
 
 const PHOTO_BASE_WEBP = `${DATA_BASE}/photos_webp`;
 const THUMB_PHOTO_BASE_WEBP  = `${DATA_BASE}/photos_webp`;
@@ -215,12 +215,13 @@ function thumbUrl(idPic, format = IMG_FORMAT) {
 /* Les noms de fichiers accentués du serveur mélangent les deux formes Unicode
    (« ç » composé NFC, ou « c » + cédille NFD), y compris au sein d'un même
    format : on ne peut donc pas déduire la forme du format. Ces fonctions
-   renvoient les URL candidates, dans l'ordre d'essai : format préféré puis
-   l'autre, chacun dans sa forme habituelle puis dans l'autre forme. */
+   renvoient les URL candidates, dans l'ordre d'essai : avif → webp → jpg
+   (avif seulement si le navigateur le gère), chacun dans sa forme habituelle
+   puis dans l'autre forme. */
 function imageUrlCandidates(idPic, bases, format) {
   if (!idPic || typeof idPic !== 'string') return [];
   const name    = idPic.replace(/^image_/, '').replace(/\uF025/g, '?');
-  const formats = format === 'avif' ? ['avif', 'webp'] : ['webp', 'avif'];
+  const formats = format === 'avif' ? ['avif', 'webp', 'jpg'] : ['webp', 'jpg'];
   const urls = [];
   formats.forEach(ext => {
     const first = buildUrl(name, bases, ext);
@@ -232,11 +233,11 @@ function imageUrlCandidates(idPic, bases, format) {
 }
 
 function photoUrls(idPic, format = IMG_FORMAT) {
-  return imageUrlCandidates(idPic, { avif: PHOTO_BASE_AVIF, webp: PHOTO_BASE_WEBP }, format);
+  return imageUrlCandidates(idPic, { avif: PHOTO_BASE_AVIF, webp: PHOTO_BASE_WEBP, jpg: PHOTO_BASE }, format);
 }
 
 function thumbUrls(idPic, format = IMG_FORMAT) {
-  return imageUrlCandidates(idPic, { avif: THUMB_PHOTO_BASE_AVIF, webp: THUMB_PHOTO_BASE_WEBP }, format);
+  return imageUrlCandidates(idPic, { avif: THUMB_PHOTO_BASE_AVIF, webp: THUMB_PHOTO_BASE_WEBP, jpg: THUMB_PHOTO_BASE }, format);
 }
 
 /** Charge la première URL qui répond parmi `urls` ; `onFail` n'est appelé
