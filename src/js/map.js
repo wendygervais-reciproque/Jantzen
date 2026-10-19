@@ -1,7 +1,6 @@
 
 /**
- * map.js - Version nettoyée pour GeoJSON standard Leaflet
- * Carte Leaflet à deux niveaux de lecture :
+ * map.js — Carte Leaflet à deux niveaux de lecture :
  *   • Vue ville (dézoomée)   : les 20 arrondissements tracés + nombre de bâtiments
  *   • Vue bâtiments (zoomée) : clusters de points, révélés au zoom ou au clic
  */
@@ -31,11 +30,9 @@ const CLUSTER_COUNT_MAX = 260;
 
 /*
  * Répartition entre les deux bornes de taille :
- *   'sqrt'   aire du disque proportionnelle au nombre d'objets — la lecture
- *            cartographique honnête, et la valeur par défaut ;
- *   'log'    écarte davantage les petites valeurs, si les clusters courantes
- *            paraissent toutes identiques ;
- *   'linear' proportionnel au diamètre — exagère fortement les grosses clusters.
+ *   'sqrt'   aire du disque proportionnelle au nombre d'objets (défaut) ;
+ *   'log'    écarte davantage les petites valeurs ;
+ *   'linear' proportionnel au diamètre, exagère les gros clusters.
  */
 const CLUSTER_SIZE_SCALE = 'sqrt';
 
@@ -200,7 +197,7 @@ function initZoomControlAvoidance() {
   const mapEl  = document.getElementById('map');
   if (!zoomEl || !panel || !mapEl) return;
 
-  const GAP = 16; // === --screen-inset
+  const GAP = 16; // --screen-inset
 
   function update() {
     if (window.matchMedia('(max-width: 900px)').matches) {
@@ -232,8 +229,7 @@ function renderMapFeatures(features) {
   applyMapMode(true);
 
   if (isInitialLoad) {
-    isInitialLoad = false; // Désactivé pour les recherches/filtres futurs
-    // On n'appelle PAS fitMapToResults() la toute première fois
+    isInitialLoad = false; // pas de recadrage au premier rendu
   } else {
     fitMapToResults();
   }
@@ -322,7 +318,7 @@ function showBuildingView() {
   const layer = L.geoJSON(
     { type: 'FeatureCollection', features: currentFeatures },
     {
-      // Standard Leaflet : conversion [lng, lat] -> L.LatLng(lat, lng)
+      // GeoJSON [lng, lat] -> L.LatLng(lat, lng)
       coordsToLatLng: coords => new L.LatLng(coords[1], coords[0]),
 
       pointToLayer: (feature, latlng) => {
@@ -477,10 +473,10 @@ function centerMarkerForMobile(marker) {
 
   const targetLatLng = marker.getLatLng();
 
-  // 1. On va sur le marqueur
+  // 1. Centre sur le marqueur
   map.panTo(targetLatLng, { animate: false });
 
-  // 2. On décale la vue vers le haut (ex: -120px sur l'axe Y) pour que le marqueur se retrouve dans la moitié inférieure de l'écran
+  // 2. Décale la vue vers le haut : le marqueur se retrouve dans la moitié inférieure de l'écran
   const offsetY = -220;
 
   map.panBy([0, offsetY], { animate: true });
@@ -524,7 +520,7 @@ function flyToFeature(id_bat, attemptsLeft = 20) {
   }
 
   const marker = markerMap[id_bat];
-  if (!marker) return; // sécurité : le bâtiment n'est pas dans currentFeatures (filtré ?)
+  if (!marker) return; // le bâtiment n'est pas dans currentFeatures (filtré)
 
 clusterGroup.zoomToShowLayer(marker, () => {
   const isMobile = window.innerWidth <= 900;

@@ -1,7 +1,4 @@
-/**
- * lightbox.js — Visionneuse plein écran de la galerie de photographies du
- * bâtiment, dans le volet détail (mosaic-detail.js)
- */
+/** lightbox.js — Visionneuse plein écran de la galerie du volet détail (mosaic-detail.js). */
 
 let lightboxGallery = null;     // {photos:[{src,caption}], index} — galerie du volet détail
 let lightboxTrigger  = null;    // vignette par laquelle on est entré — pour lui rendre le focus à la fermeture
@@ -14,7 +11,7 @@ function isLightboxOpen() {
 }
 
 /**
- * Ouvre la visionneuse sur la galerie du volet détail, avec navigation prev/next.
+ * Ouvre la visionneuse sur une galerie, avec navigation prev/next.
  * @param {{src, caption}[]} photos
  * @param {number} index
  */
@@ -64,7 +61,6 @@ function renderLightbox() {
   if (caption) renderLightboxCaption(caption, item, index, photos.length);
 
   if (photos.length > 1) {
-    // Réaffiche les flèches si elles avaient été cachées au préalable
     if (prev) {
       prev.style.display = ''; 
       prev.disabled = index <= 0;
@@ -74,7 +70,7 @@ function renderLightbox() {
       next.disabled = index >= photos.length - 1;
     }
   } else {
-    // Masque les flèches pour une galerie d'une seule photo
+    // Une seule photo : pas de flèches
     if (prev) prev.style.display = 'none';
     if (next) next.style.display = 'none';
   }
@@ -110,7 +106,7 @@ function renderLightboxCaption(caption, item, index, total) {
 function filterByThesaurusTermFromLightbox(term) {
   if (!term || typeof activeFilters === 'undefined') return;
 
-  // Réinitialiser tous les filtres (nouvelle recherche de zéro)
+  // Réinitialise tous les filtres
   activeFilters.arrondissements.clear();
   activeFilters.thesaurus.clear();
   activeFilters.architectes.clear();

@@ -1,6 +1,4 @@
-/**
- * app.js — Point d'entrée : initialisation asynchrone et câblage de l'interface.
- */
+/** app.js — Point d'entrée : initialisation asynchrone et câblage de l'interface. */
 
 let searchQuery = '';
 
@@ -29,7 +27,6 @@ document.addEventListener('DOMContentLoaded', async () => {
   buildThesaurusFilter();
   buildPeriodesFilter(PERIODES_FILTRE_DATA);
   
-  // S'assurer que les architectes sont affichés avec les données filtrées initiales
   renderArchitectesList('');
 
   renderCurrentView(ALL_FEATURES);
@@ -104,8 +101,7 @@ function resetOtherFiltersUI() {
 }
 
 /* ─── MODALES : isolation du fond ────────────────────────────────────────
-   Pendant que la visionneuse est affichée, #app
-   passe en inerte */
+   Tant que la visionneuse est ouverte, #app est inerte. */
 function setBackgroundInert(isInert) {
   const app = document.getElementById('app');
   if (!app) return;
@@ -113,9 +109,8 @@ function setBackgroundInert(isInert) {
   app.setAttribute('aria-hidden', String(isInert));
 }
 
-/* Variante pour les modales mobiles (filtres, fiche bâtiment) : contrairement
-   à la visionneuse, ces deux-là vivent À L'INTÉRIEUR
-   de #app */
+/* Variante pour les modales mobiles (filtres, fiche bâtiment), qui vivent à
+   l'intérieur de #app. */
 function setAppSiblingsInert(exceptEl, isInert) {
   const app = document.getElementById('app');
   if (!app) return;
@@ -219,7 +214,7 @@ function bindLightbox() {
   });
 }
 
-/* ─── NAVIGATION CLAVIER ───────────────────────────────────────────────────────────── */
+/* ─── NAVIGATION CLAVIER ────────────────────────────────────────────────── */
 function bindKeyboard() {
   document.addEventListener('keydown', e => {
     if (e.key === 'Escape') {
@@ -270,7 +265,7 @@ function applyFilters() {
   const isSearchActive     = searchQuery.length >= 2;
   const isThesaurusActive  = activeFilters.thesaurus.size > 0;
   const isArchitectesActive = activeFilters.architectes.size > 0;
-  const isPeriodesActive   = activeFilters.periodes.size > 0; // NOUVEAU
+  const isPeriodesActive   = activeFilters.periodes.size > 0;
 
   // 1. Recherche textuelle (Lunr)
   if (searchQuery.length >= 2) {
@@ -297,7 +292,6 @@ function applyFilters() {
       const raw = f.properties.periode;
       const batPeriodes = Array.isArray(raw) ? raw : (raw ? [raw] : []);
       
-      // Filtre OU : au moins une des périodes sélectionnées doit correspondre
       return selectedPeriodes.some(p => batPeriodes.includes(p));
     });
   }
@@ -311,7 +305,6 @@ function applyFilters() {
     });
   }
 
-  // Mettre à jour les données des architectes
   updateArchitectesData(filteredFeatures);
 
   // 5. Filtre Architectes 
@@ -333,9 +326,8 @@ function applyFilters() {
   updateThesaurusData(filteredFeatures);
   updatePeriodesData(filteredFeatures);
 
-  // Ces rendus reconstruisent leurs puces de toutes pièces (voir
-  // withFocusPreserved ci-dessus) : regroupés dans un seul appel pour ne
-  // capturer/restaurer le focus qu'une fois.
+  // Rendus regroupés : le focus n'est capturé/restauré qu'une fois
+  // (cf. withFocusPreserved).
   withFocusPreserved(() => {
     renderPeriodesList(); 
 
@@ -352,15 +344,13 @@ function applyFilters() {
     deselectBatiment();
   }
 
-  // Rendu final
   renderCurrentView(filteredFeatures);
 
   if (typeof writeStateToHash === 'function') writeStateToHash('replace');
 }
 
 /* ─── ÉTAT PARTAGÉ DANS LE HASH D'URL ───────────────────────────────────────
- *
- * L'état complet de l'app — vue, filtres, recherche, bâtiment ouvert — vit dans
+ * L'état complet de l'app (vue, filtres, recherche, bâtiment ouvert) vit dans
  * le hash : #v=mosaic&arr=7,16&an=1900-1914&th=facade,garde-corps&q=leroux&bat=1663
  */
 
@@ -412,8 +402,8 @@ function parseHash(hash) {
   return s;
 }
 
-/* Termes lisibles pour le thésaurus : « façade » -> « facade », « garde-corps » ->
-   « garde-corps ». Réversibles par rapprochement avec les termes réels du corpus. */
+/* Termes du thésaurus lisibles dans l'URL (« façade » -> « facade »), réversibles
+   par rapprochement avec les termes réels du corpus. */
 function termSlug(term) {
   return String(term || '')
     .normalize('NFD').replace(/[̀-ͯ]/g, '')   // sans accents
@@ -493,11 +483,11 @@ function fitMapToResults() {
   const isDesktop = window.innerWidth > 900;
   const paddingRight = isDesktop ? 60 : 20;
 
-  // Sur ordi, on autorise/impose un maxZoom plus élevé
+  // Zoom maximal plus élevé sur ordinateur
   const zoomOptions = {
     paddingTopLeft: [40, 40],
     paddingBottomRight: [paddingRight, 40],
-    maxZoom: isDesktop ? 14.5 : 12.5 // Zoom plus proche sur ordinateur
+    maxZoom: isDesktop ? 14.5 : 12.5
   };
 
   // 1. Vue globale / arrondissements (ou aucun résultat)

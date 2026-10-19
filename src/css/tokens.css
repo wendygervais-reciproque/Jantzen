@@ -1,7 +1,5 @@
-/*
- * tokens.css — Architecture Paris / Jantzen
- * Règle : jamais de hex en dur dans main.css — toujours via token sémantique.
- */
+/* tokens.css — Jetons de design. Jamais de hex en dur dans main.css : toujours
+   via un token sémantique. */
 
 /* ─── POLICES (typography/family) ────────────────────────────────────────────
  * Trois graisses d'Univers Com condensé + Walbaum Book :
@@ -16,7 +14,7 @@
 }
 
 /* ─── ÉCHELLES PRIMITIVES (_primitives/typography) ───────────────────────────
- * L'échelle Figma est nommée en ratio de la base 16px (100 = 16px). */
+ * Échelle nommée en ratio de la base 16px (100 = 16px). */
 :root {
   /* Font-size (typography/size) */
   --fs-50:  8px;
@@ -30,7 +28,7 @@
   --fs-250: 40px;
   --fs-300: 48px;
 
-  /* Font-weight (typography/weight) — cf. graisses réellement livrées */
+  /* Font-weight (typography/weight) */
   --fw-300: 300;    /* UniversCom 47 Light Condensed */
   --fw-400: 400;    /* UniversCom 57 Condensed · WalbaumBook Regular */
   --fw-700: 700;    /* UniversCom 67 Bold Condensed */
@@ -45,17 +43,15 @@
 
   /* Letter-spacing — 0 partout sauf l'overline */
   --ls-0:        0;
-  --ls-overline: 0.12em;
+  --ls-overline: 0.03em;
 }
 
-/* ─── STYLES TYPOGRAPHIQUES (Figma text styles) ──────────────────────────────
- * Chaque style expose ses composantes ET un raccourci `--text-…` utilisable
- * directement en `font: var(--text-title-h5);`. La famille varie d'un style à
- * l'autre : le serif porte les titres éditoriaux (h2, h5), le condensé porte
- * les titres d'interface (h3, h4) et tout le corps de texte. */
+/* ─── STYLES TYPOGRAPHIQUES ──────────────────────────────────────────────────
+ * Chaque style expose ses composantes et un raccourci `--text-…` utilisable en
+ * `font: var(--text-title-h5);`. Le serif porte les titres éditoriaux (h2, h5),
+ * le condensé les titres d'interface (h3, h4) et le corps de texte. */
 :root {
   /* title/ ------------------------------------------------------------- */
-  /* ⚠ extrapolé : title/h1 n'est porté par aucune des deux vues. */
   --text-title-h1-family: var(--font-serif);
   --text-title-h1-size:   var(--fs-300);
   --text-title-h1-weight: var(--fw-400);
@@ -96,7 +92,7 @@
   --text-body-base-family: var(--font-sans);
   --text-body-base-size:   var(--fs-100);
   --text-body-base-weight: var(--fw-300);
-  --text-body-base-lh:     var(--lh-150);
+  --text-body-base-lh:     var(--lh-140);
   --text-body-base: var(--text-body-base-weight) var(--text-body-base-size)/var(--text-body-base-lh) var(--text-body-base-family);
 
   --text-body-base-bold-family: var(--font-sans);
@@ -111,7 +107,6 @@
   --text-body-small-lh:     var(--lh-140);
   --text-body-small: var(--text-body-small-weight) var(--text-body-small-size)/var(--text-body-small-lh) var(--text-body-small-family);
 
-  /* ⚠ extrapolé : décliné de body/small sur la graisse 67 Bold Condensed. */
   --text-body-small-bold-family: var(--font-sans);
   --text-body-small-bold-size:   var(--fs-87);
   --text-body-small-bold-weight: var(--fw-700);
@@ -119,7 +114,6 @@
   --text-body-small-bold: var(--text-body-small-bold-weight) var(--text-body-small-bold-size)/var(--text-body-small-bold-lh) var(--text-body-small-bold-family);
 
   /* interface/ --------------------------------------------------------- */
-  /* ⚠ extrapolé : seul Button/Medium est porté par les deux vues. */
   --text-interface-button-small-family: var(--font-sans);
   --text-interface-button-small-size:   var(--fs-87);
   --text-interface-button-small-weight: var(--fw-400);
@@ -132,7 +126,6 @@
   --text-interface-button-medium-lh:     var(--lh-1);
   --text-interface-button-medium: var(--text-interface-button-medium-weight) var(--text-interface-button-medium-size)/var(--text-interface-button-medium-lh) var(--text-interface-button-medium-family);
 
-  /* ⚠ extrapolé */
   --text-interface-button-large-family: var(--font-sans);
   --text-interface-button-large-size:   var(--fs-112);
   --text-interface-button-large-weight: var(--fw-400);
@@ -140,11 +133,19 @@
   --text-interface-button-large: var(--text-interface-button-large-weight) var(--text-interface-button-large-size)/var(--text-interface-button-large-lh) var(--text-interface-button-large-family);
 
   --text-interface-overline-family: var(--font-sans);
-  --text-interface-overline-size:   var(--fs-75);
+  --text-interface-overline-size:   var(--fs-87);
   --text-interface-overline-weight: var(--fw-400);
   --text-interface-overline-lh:     var(--lh-140);
   --text-interface-overline-ls:     var(--ls-overline);
   --text-interface-overline: var(--text-interface-overline-weight) var(--text-interface-overline-size)/var(--text-interface-overline-lh) var(--text-interface-overline-family);
+
+  /* Second niveau de sur-titre (ex. typologies de l'index Torne-H). */
+  --text-interface-overline-secondary-family: var(--font-sans);
+  --text-interface-overline-secondary-size:   var(--fs-75);
+  --text-interface-overline-secondary-weight: var(--fw-400);
+  --text-interface-overline-secondary-lh:     var(--lh-120);
+  --text-interface-overline-secondary-ls:     var(--ls-overline);
+  --text-interface-overline-secondary: var(--text-interface-overline-secondary-weight) var(--text-interface-overline-secondary-size)/var(--text-interface-overline-secondary-lh) var(--text-interface-overline-secondary-family);
 
   --text-interface-caption-family: var(--font-sans);
   --text-interface-caption-size:   var(--fs-75);
@@ -194,9 +195,8 @@
   --component-gap-40: 40px;
   --component-gap-48: 48px;
 
-  /* Constantes interface — relevées sur les deux vues (cadre 1440 × 900) :
-     marge d'écran 16px, volet détail 400px à gauche, filtres 300px à droite,
-     bandeau supérieur (recherche/bascule) haut de 56px posé à 16px du bord. */
+  /* Constantes d'interface : marge d'écran, volet détail à gauche, filtres à
+     droite, bandeau supérieur (recherche/bascule). */
   --screen-inset: 16px;
   --topbar-h:     56px;
   --content-top:  88px;
@@ -377,8 +377,7 @@
   --link-active:  #3a2d18;  /* brand/900 */
   --link-visited: #3a2d18;  /* brand/900 */
 
-  /* Input — révisé : contenu neutral/800 et placeholder neutral/600 (contraste
-     renforcé par rapport à la version précédente, qui était en neutral/400). */
+  /* Input */
   --input-background-default:   #ffffff;
   --input-background-hover:     #faf9f5;  /* neutral/50 */
   --input-background-active:    #ffffff;
@@ -397,8 +396,7 @@
   --input-border-disabled:      #e4e1d5;  /* neutral/200 */
   --input-border-error:         #ef2d2d;  /* error/500 */
 
-  /* Controls — révisé : le contenu passe sur la marque (brand/700), et le
-     contenu « sélectionné » sur brand/900, posé sur le fond doré brand/600. */
+  /* Controls */
   --control-background-default:  #ffffff;
   --control-background-hover:    #e8dbbe;  /* brand/200 */
   --control-background-selected: #9c7d4a;  /* brand/600 */
@@ -414,7 +412,7 @@
   --control-content-selected:      #3a2d18;  /* brand/900 */
   --control-content-disabled:      #a8a596;  /* neutral/400 */
 
-  /* Tags / Chips — révisé : contenu par défaut en neutral/800. */
+  /* Tags / Chips */
   --tag-background-default:  transparent;
   --tag-background-hover:    #f2f0e8;  /* neutral/100 */
   --tag-background-selected: #faf7f0;  /* brand/50 */
@@ -430,18 +428,6 @@
   --tag-border-selected:     #9c7d4a;  /* brand/600 */
   --tag-border-active:       #605e53;  /* neutral/600 */
   --tag-border-disabled:     #e4e1d5;  /* neutral/200 */
-
-  /* Tags Torne-H (volet bâtiment) — déclinaison froide (ardoise) des tags,
-     pour distinguer l'index Torne-H de l'index Jantzen. */
-  --tag-torneh-background-default:  #f4f7f8;
-  --tag-torneh-background-hover:    #e6eef1;
-  --tag-torneh-background-selected: #e1edf1;
-  --tag-torneh-content-default:     #2b3a40;
-  --tag-torneh-content-hover:       #1b282d;
-  --tag-torneh-content-selected:    #2f5563;
-  --tag-torneh-border-default:      #b3c3c8;
-  --tag-torneh-border-hover:        #5f7a83;
-  --tag-torneh-border-selected:     #4b7482;
 
   /* Menu items */
   --menu-item-background-default:  transparent;
@@ -483,18 +469,14 @@
   --focus-on-warning:             #a85c06;
   --focus-on-info:                #7d6138;  /* brand/700 */
 
-  /* Élévations — deux ombres portées empilées, la couche large en premier.
-     Opacités relevées telles quelles dans le document (0F puis 1A) : c'est la
-     couche la plus large qui porte l'opacité la plus faible. */
+  /* Élévations : deux ombres portées empilées, la couche large en premier. */
   --elevation-anchored: 0 1px 3px rgba(0,0,0,0.059), 0 1px 2px rgba(0,0,0,0.102);
   --elevation-floating: 0 4px 6px rgba(0,0,0,0.059), 0 2px 4px rgba(0,0,0,0.102);
   --elevation-overlay:  0 10px 15px rgba(0,0,0,0.051), 0 4px 6px rgba(0,0,0,0.102);
 }
 
 /* ─── THÈME DARK ──────────────────────────────────────────────────────────────
- * ⚠ Aucune des deux vues de référence n'est déclinée en sombre : ce thème est
- * une extrapolation symétrique du thème clair, à confirmer si le document le
- * documente un jour. Il n'est activé nulle part dans l'application. */
+ * Déclinaison symétrique du thème clair, activée nulle part dans l'application. */
 [data-theme="dark"] {
   /* Backgrounds */
   --background-page:            #171610;  /* neutral/900 */
@@ -667,16 +649,6 @@
   --tag-border-selected:     #c9b07c;  /* brand/400 */
   --tag-border-active:       #ccc9ba;
   --tag-border-disabled:     #43413a;
-
-  --tag-torneh-background-default:  #1d2427;
-  --tag-torneh-background-hover:    #263034;
-  --tag-torneh-background-selected: #1d3138;
-  --tag-torneh-content-default:     #d6e0e3;
-  --tag-torneh-content-hover:       #eef3f5;
-  --tag-torneh-content-selected:    #a9c9d3;
-  --tag-torneh-border-default:      #4f5f65;
-  --tag-torneh-border-hover:        #8fa4ab;
-  --tag-torneh-border-selected:     #7fa5b1;
 
   /* Menu items */
   --menu-item-background-hover:    #2a2924;
